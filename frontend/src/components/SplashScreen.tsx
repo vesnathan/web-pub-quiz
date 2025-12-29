@@ -8,6 +8,7 @@ interface SplashScreenProps {
   onComplete: () => void;
   minDuration?: number;
   isConnected?: boolean;
+  connectionTimeout?: number;
 }
 
 // Detect if running on mobile for performance optimizations
@@ -40,9 +41,10 @@ function generateConfetti(count: number) {
   }));
 }
 
-export function SplashScreen({ onComplete, minDuration = 3000, isConnected = false }: SplashScreenProps) {
+export function SplashScreen({ onComplete, minDuration = 3000, isConnected = false, connectionTimeout = 15000 }: SplashScreenProps) {
   const [minTimeElapsed, setMinTimeElapsed] = useState(false);
   const [showPlayButton, setShowPlayButton] = useState(false);
+  const [connectionFailed, setConnectionFailed] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
 
   // Detect mobile on mount
@@ -62,6 +64,18 @@ export function SplashScreen({ onComplete, minDuration = 3000, isConnected = fal
     return () => clearTimeout(timer);
   }, [minDuration]);
 
+  // Connection timeout - if not connected after timeout, show error
+  useEffect(() => {
+    if (isConnected) return; // Already connected, no need for timeout
+
+    const timer = setTimeout(() => {
+      if (!isConnected) {
+        setConnectionFailed(true);
+      }
+    }, connectionTimeout);
+    return () => clearTimeout(timer);
+  }, [isConnected, connectionTimeout]);
+
   useEffect(() => {
     if (minTimeElapsed && isConnected) {
       const timer = setTimeout(() => {
@@ -70,6 +84,10 @@ export function SplashScreen({ onComplete, minDuration = 3000, isConnected = fal
       return () => clearTimeout(timer);
     }
   }, [minTimeElapsed, isConnected]);
+
+  const handleRetry = () => {
+    window.location.reload();
+  };
 
   const isReady = minTimeElapsed && isConnected;
 
@@ -294,10 +312,34 @@ export function SplashScreen({ onComplete, minDuration = 3000, isConnected = fal
           <Logo3D animate={true} />
         </motion.div>
 
-        {/* Play Now Button or Loading indicator */}
-        <div className="mt-4 h-20 flex items-center justify-center">
+        {/* Play Now Button, Loading indicator, or Error state */}
+        <div className="mt-4 h-28 flex items-center justify-center">
           <AnimatePresence mode="wait">
-            {showPlayButton ? (
+            {connectionFailed ? (
+              <motion.div
+                key="error"
+                initial={{ opacity: 0, scale: 0.8 }}
+                animate={{ opacity: 1, scale: 1 }}
+                exit={{ opacity: 0, scale: 0.8 }}
+                className="flex flex-col items-center gap-4"
+              >
+                <p className="text-red-400 text-lg font-medium text-center">
+                  Unable to connect to server
+                </p>
+                <motion.button
+                  onClick={handleRetry}
+                  className="px-8 py-3 text-lg font-bold text-white rounded-full cursor-pointer transform hover:scale-105 active:scale-95 transition-transform"
+                  style={{
+                    background: 'linear-gradient(180deg, #6366f1 0%, #4f46e5 100%)',
+                    boxShadow: '0 4px 20px rgba(99, 102, 241, 0.4)',
+                  }}
+                  whileHover={{ scale: 1.05 }}
+                  whileTap={{ scale: 0.95 }}
+                >
+                  Retry
+                </motion.button>
+              </motion.div>
+            ) : showPlayButton ? (
               <motion.button
                 key="play-button"
                 initial={{ opacity: 0, scale: 0.8, y: 20 }}
