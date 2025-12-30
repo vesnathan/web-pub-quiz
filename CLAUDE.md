@@ -13,11 +13,10 @@
 
 ## Shared Documentation
 
-**IMPORTANT**: Read these files for architecture guidelines that apply to ALL projects:
+**IMPORTANT**: Read the architecture guidelines that apply to ALL projects:
 
 - **Architecture Guidelines**: `/home/liqk1ugzoezh5okwywlr_/dev/ARCHITECTURE_GUIDELINES.md`
-- **Project Deviations**: `/home/liqk1ugzoezh5okwywlr_/dev/PROJECT_DEVIATIONS.md`
-- **Programming Rules**: `/home/liqk1ugzoezh5okwywlr_/dev/programming.txt`
+  - Includes all standards, patterns, and project compliance status
 
 **Reference Implementation**: Check The Story Hub for patterns:
 - `/home/liqk1ugzoezh5okwywlr_/dev/the-story-hub/`

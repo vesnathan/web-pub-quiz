@@ -91,6 +91,8 @@ interface StackOutputs {
   GoogleOAuthEnabled?: string;
   OrchestratorClusterName?: string;
   OrchestratorRepositoryUri?: string;
+  // Allow additional CloudFormation outputs
+  [key: string]: string | undefined;
 }
 
 // STS client for assuming roles
@@ -257,7 +259,7 @@ async function getStackOutputs(): Promise<StackOutputs> {
 
   for (const output of response.Stacks?.[0]?.Outputs || []) {
     if (output.OutputKey && output.OutputValue) {
-      (outputs as any)[output.OutputKey] = output.OutputValue;
+      outputs[output.OutputKey] = output.OutputValue;
     }
   }
 
