@@ -4,7 +4,7 @@ import { useEffect, useSyncExternalStore } from 'react';
 import Ably from 'ably';
 import { ABLY_CHANNELS } from '@quiz/shared';
 import { useGameStore } from '@/stores/gameStore';
-import type { QuestionStartPayload, SetEndPayload } from '@quiz/shared';
+import type { QuestionStartPayload } from '@quiz/shared';
 
 interface ActiveUser {
   clientId: string;
@@ -38,7 +38,12 @@ function getIsConnected() {
 
 function initAbly(userId?: string, displayName?: string) {
   const ablyKey = process.env.NEXT_PUBLIC_ABLY_KEY;
-  if (!ablyKey || ably) return;
+
+  if (!ablyKey) {
+    console.error('[useLobbyPresence] No NEXT_PUBLIC_ABLY_KEY found');
+    return;
+  }
+  if (ably) return;
 
   ably = new Ably.Realtime({
     key: ablyKey,
@@ -55,12 +60,13 @@ function initAbly(userId?: string, displayName?: string) {
     notifySubscribers();
   });
 
-  ably.connection.on('failed', () => {
+  ably.connection.on('failed', (stateChange) => {
+    console.error('[useLobbyPresence] Ably connection failed:', stateChange?.reason);
     isConnected = false;
     notifySubscribers();
   });
 
-  const channel = ably.channels.get(ABLY_CHANNELS.GAME);
+  const channel = ably.channels.get(ABLY_CHANNELS.LOBBY);
   const presence = channel.presence;
 
   presence.subscribe('enter', (member) => {
@@ -82,22 +88,22 @@ function initAbly(userId?: string, displayName?: string) {
     notifySubscribers();
   });
 
+  // Note: room_list subscription removed - useLobbyChannel handles this for RoomList
+  // This hook only handles presence (user count) and game events
+
   // Subscribe to game state events (question_start, set_end) for lobby display
   channel.subscribe('question_start', (message) => {
     const payload = message.data as QuestionStartPayload;
-    // Update game store with current question index for lobby display
     useGameStore.getState().setCurrentQuestion(
       payload.question,
       payload.questionIndex,
       payload.totalQuestions,
       payload.questionDuration
     );
-    // Mark set as active
     useGameStore.getState().setSetActive(true);
   });
 
   channel.subscribe('set_end', () => {
-    // Mark set as inactive
     useGameStore.getState().setSetActive(false);
   });
 
@@ -117,28 +123,7 @@ function initAbly(userId?: string, displayName?: string) {
       }));
       notifySubscribers();
 
-      // Fetch recent history to get current game state
-      // This ensures we have the latest question_start or set_end even if we just connected
-      const history = await channel.history({ limit: 10 });
-      const messages = history.items;
-
-      // Find the most recent question_start or set_end
-      for (const msg of messages) {
-        if (msg.name === 'question_start') {
-          const payload = msg.data as QuestionStartPayload;
-          useGameStore.getState().setCurrentQuestion(
-            payload.question,
-            payload.questionIndex,
-            payload.totalQuestions,
-            payload.questionDuration
-          );
-          useGameStore.getState().setSetActive(true);
-          break; // Found the most recent, stop looking
-        } else if (msg.name === 'set_end') {
-          useGameStore.getState().setSetActive(false);
-          break; // Set ended, stop looking
-        }
-      }
+      // Game state received via useLobbyChannel's room_list subscription
     } catch (e) {
       console.error('Failed to initialize lobby state:', e);
     }
@@ -148,10 +133,20 @@ function initAbly(userId?: string, displayName?: string) {
 async function cleanupAbly() {
   if (ably) {
     try {
-      const channel = ably.channels.get(ABLY_CHANNELS.GAME);
-      await channel.presence.leave();
-    } catch (e) {
-      // Ignore leave errors
+      const channel = ably.channels.get(ABLY_CHANNELS.LOBBY);
+      // Only leave presence if channel is still attached
+      if (channel.state === 'attached') {
+        await channel.presence.leave().catch(() => {
+          // Ignore leave errors
+        });
+      }
+      // Unsubscribe only if channel is not detached/failed
+      if (channel.state !== 'detached' && channel.state !== 'failed') {
+        channel.unsubscribe();
+        channel.presence.unsubscribe();
+      }
+    } catch {
+      // Ignore cleanup errors
     }
     ably.close();
     ably = null;
@@ -175,10 +170,7 @@ export function useLobbyPresence(options: UseLobbyPresenceOptions = { enabled: f
   const connected = useSyncExternalStore(subscribe, getIsConnected, getIsConnected);
 
   useEffect(() => {
-    // Always connect to receive game status events (even for unauthenticated users)
-    if (!enabled) {
-      return;
-    }
+    if (!enabled) return;
 
     refCount++;
     if (refCount === 1) {
@@ -187,8 +179,6 @@ export function useLobbyPresence(options: UseLobbyPresenceOptions = { enabled: f
 
     return () => {
       refCount--;
-      // Only cleanup when all components unmount and after a delay
-      // to handle Strict Mode remounting
       if (refCount === 0) {
         setTimeout(() => {
           if (refCount === 0) {

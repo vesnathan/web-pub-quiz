@@ -1,7 +1,8 @@
 'use client';
 
 import { useState, useEffect, useRef, useCallback } from 'react';
-import { Button, Input, Avatar, Spinner } from '@nextui-org/react';
+import { Button, Input, Avatar } from '@nextui-org/react';
+import { LoadingDots } from '@/components/LoadingScreen';
 import { useAuth } from '@/contexts/AuthContext';
 import { graphqlClient } from '@/lib/graphql';
 import {
@@ -165,7 +166,7 @@ export function ChatPanel({ channelId, title = 'Chat', className = '' }: ChatPan
       <div className="flex-1 overflow-y-auto p-4 space-y-3">
         {loading ? (
           <div className="flex justify-center">
-            <Spinner size="sm" />
+            <LoadingDots />
           </div>
         ) : messages.length === 0 ? (
           <div className="text-center text-gray-400 text-sm">

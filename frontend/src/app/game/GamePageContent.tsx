@@ -2,7 +2,7 @@
 
 import { useEffect, useCallback, useState } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
-import { Spinner } from '@nextui-org/react';
+import { LoadingScreen } from '@/components/LoadingScreen';
 import { useGameStore } from '@/stores/gameStore';
 import { useAuth } from '@/contexts/AuthContext';
 import { QuestionPhase } from '@/components/game';
@@ -14,8 +14,7 @@ import { QuestionCountdown } from '@/components/QuestionCountdown';
 import { BadgeAwardAnimation } from '@/components/badges';
 import { useAbly } from '@/hooks/useAbly';
 import { useAntiCheat } from '@/hooks/useAntiCheat';
-import { GameNavbar } from '@/components/GameNavbar';
-import { Footer } from '@/components/Footer';
+import { GameBottomBar } from '@/components/GameBottomBar';
 import { GameBackground } from '@/components/GameBackground';
 import { SessionKickedOverlay } from '@/components/SessionKickedOverlay';
 
@@ -106,11 +105,7 @@ export default function GamePageContent() {
 
   // Loading states
   if (authLoading || !timeCheckDone) {
-    return (
-      <GameBackground className="flex items-center justify-center">
-        <Spinner size="lg" />
-      </GameBackground>
-    );
+    return <LoadingScreen />;
   }
 
   if (!player || !isAuthenticated) {
@@ -121,8 +116,8 @@ export default function GamePageContent() {
 
   return (
     <GameBackground>
-      <GameNavbar playerScore={playerScore} />
-      <main className="p-4 pt-20 flex-grow">
+      {/* Main content with bottom padding for fixed bottom bar */}
+      <main className="p-4 pb-20 flex-grow">
         <div className="max-w-7xl mx-auto">
           {gamePhase === 'set_end' ? (
             <SetEndLayout
@@ -150,7 +145,9 @@ export default function GamePageContent() {
           )}
         </div>
       </main>
-      <Footer />
+
+      {/* Fixed bottom bar with game status and user menu */}
+      <GameBottomBar playerScore={playerScore} />
 
       {/* Overlays */}
       {gamePhase === 'countdown' && (
@@ -175,7 +172,7 @@ interface SetEndLayoutProps {
 function SetEndLayout({ leaderboard, currentPlayerId, earnedBadgeIds }: SetEndLayoutProps) {
   return (
     <div className="grid grid-cols-1 lg:grid-cols-4 gap-6">
-      <div className="lg:col-span-3">
+      <div className="lg:col-span-3 min-h-[600px]">
         <SetEndScreen
           leaderboard={leaderboard}
           currentPlayerId={currentPlayerId}
@@ -228,7 +225,7 @@ function GameLayout({
 }: GameLayoutProps) {
   return (
     <div className="grid grid-cols-1 lg:grid-cols-4 gap-6">
-      <div className="lg:col-span-3 space-y-6">
+      <div className="lg:col-span-3 space-y-6 min-h-[600px]">
         {gamePhase === 'results' ? (
           <QuestionResults
             question={currentQuestion}

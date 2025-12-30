@@ -301,7 +301,7 @@ async function awardBadge(
       );
 
       const existingBadges = user.Item?.badges || [];
-      if (existingBadges.some((b: any) => b.id === badgeType)) {
+      if (existingBadges.some((b: { id: string }) => b.id === badgeType)) {
         return false;
       }
     }
@@ -434,9 +434,15 @@ let questionCachePrewarmed = false;
 // Track players in lobby (waiting to join a room)
 const lobbyPlayers: Map<string, { displayName: string; joinedAt: number }> = new Map();
 
+// Track players queued to join each room when window opens
+// roomId -> Set of playerIds
+const roomQueues: Map<string, Set<string>> = new Map();
+
 /**
- * Check if current time is within the join window (1 minute before set start, or during active set)
- * Sets start at :00 and :30
+ * Check if current time is within the join window
+ * Join is allowed when:
+ * 1. Any room has an active game session (set in progress), OR
+ * 2. We're within JOIN_WINDOW_SECONDS before the next half hour (:00 or :30)
  */
 function isJoinWindowOpen(): { canJoin: boolean; reason?: string; secondsUntilOpen?: number } {
   const now = new Date();
@@ -444,18 +450,23 @@ function isJoinWindowOpen(): { canJoin: boolean; reason?: string; secondsUntilOp
   const seconds = now.getSeconds();
   const secondsInHalfHour = (minutes % 30) * 60 + seconds;
 
-  // If a set is currently in progress (first SET_DURATION_MINUTES of half hour), allow joining
-  const minutesInHalfHour = minutes % 30;
-  if (minutesInHalfHour < SET_DURATION_MINUTES) {
+  // If any room has an active game session, allow joining
+  const hasActiveSession = roomSessions.size > 0 &&
+    Array.from(roomSessions.values()).some(session => !session.setCompleted);
+
+  if (hasActiveSession) {
+    console.log(`🚪 Join window CHECK: OPEN (active session) - time=${now.toISOString()}, activeSessions=${roomSessions.size}`);
     return { canJoin: true };
   }
 
   // Check if we're in the join window (last JOIN_WINDOW_SECONDS before next half hour)
   const secondsUntilNextHalfHour = 30 * 60 - secondsInHalfHour;
   if (secondsUntilNextHalfHour <= JOIN_WINDOW_SECONDS) {
+    console.log(`🚪 Join window CHECK: OPEN (pre-set window) - time=${now.toISOString()}, secondsUntilNextHalfHour=${secondsUntilNextHalfHour}, JOIN_WINDOW_SECONDS=${JOIN_WINDOW_SECONDS}`);
     return { canJoin: true };
   }
 
+  console.log(`🚪 Join window CHECK: CLOSED - time=${now.toISOString()}, secondsUntilNextHalfHour=${secondsUntilNextHalfHour}, secondsUntilOpen=${secondsUntilNextHalfHour - JOIN_WINDOW_SECONDS}`);
   return {
     canJoin: false,
     reason: 'Joining is only available 1 minute before the next set starts',
@@ -534,13 +545,23 @@ function setupLobbyPresence(): void {
     await broadcastRoomList();
   });
 
+  // Handle request_room_list - client requests initial room list on connect
+  lobbyChannel.subscribe('request_room_list', async (message) => {
+    const { clientId } = message.data;
+    console.log(`📋 Room list requested by ${clientId}`);
+    await broadcastRoomList();
+  });
+
   // Handle room join requests
   lobbyChannel.subscribe('join_room', async (message) => {
     const { playerId, roomId, displayName } = message.data;
+    console.log(`📥 JOIN_ROOM request: playerId=${playerId}, roomId=${roomId}, displayName=${displayName}`);
 
     // Check if join window is open
     const joinWindow = isJoinWindowOpen();
+    console.log(`📥 JOIN_ROOM window check: canJoin=${joinWindow.canJoin}, reason=${joinWindow.reason}, secondsUntilOpen=${joinWindow.secondsUntilOpen}`);
     if (!joinWindow.canJoin) {
+      console.log(`❌ JOIN_ROOM REJECTED: window closed for ${displayName}`);
       await lobbyChannel!.publish('join_room_result', {
         playerId,
         success: false,
@@ -615,6 +636,51 @@ function setupLobbyPresence(): void {
       await broadcastRoomList();
     }
   });
+
+  // Handle queue_join - player wants to join a room when window opens
+  lobbyChannel.subscribe('queue_join', async (message) => {
+    const { playerId, roomId } = message.data;
+    console.log(`⏳ QUEUE_JOIN: playerId=${playerId}, roomId=${roomId}`);
+
+    // Add to room's queue
+    if (!roomQueues.has(roomId)) {
+      roomQueues.set(roomId, new Set());
+    }
+    roomQueues.get(roomId)!.add(playerId);
+
+    await lobbyChannel!.publish('queue_join_result', {
+      playerId,
+      roomId,
+      success: true,
+      queuePosition: roomQueues.get(roomId)!.size,
+    });
+
+    // Broadcast updated room list with new queue count
+    await broadcastRoomList();
+  });
+
+  // Handle queue_leave - player no longer wants to auto-join
+  lobbyChannel.subscribe('queue_leave', async (message) => {
+    const { playerId, roomId } = message.data;
+    console.log(`⏳ QUEUE_LEAVE: playerId=${playerId}, roomId=${roomId}`);
+
+    const queue = roomQueues.get(roomId);
+    if (queue) {
+      queue.delete(playerId);
+      if (queue.size === 0) {
+        roomQueues.delete(roomId);
+      }
+    }
+
+    await lobbyChannel!.publish('queue_leave_result', {
+      playerId,
+      roomId,
+      success: true,
+    });
+
+    // Broadcast updated room list with new queue count
+    await broadcastRoomList();
+  });
 }
 
 function setupRoomChannel(roomId: string): void {
@@ -688,14 +754,24 @@ function setupRoomChannel(roomId: string): void {
 async function broadcastRoomList(): Promise<void> {
   if (!lobbyChannel) return;
 
-  const rooms = getRoomList();
+  const baseRooms = getRoomList();
   const joinWindow = isJoinWindowOpen();
 
-  await lobbyChannel.publish('room_list', {
+  // Add queuedPlayers count to each room
+  const rooms: RoomListItem[] = baseRooms.map(room => ({
+    ...room,
+    queuedPlayers: roomQueues.get(room.id)?.size || 0,
+  }));
+
+  const payload = {
     rooms,
     joinWindowOpen: joinWindow.canJoin,
     secondsUntilJoinOpen: joinWindow.secondsUntilOpen,
-  });
+  };
+
+  console.log(`📢 BROADCAST room_list: joinWindowOpen=${payload.joinWindowOpen}, secondsUntilJoinOpen=${payload.secondsUntilJoinOpen}, roomCount=${rooms.length}`);
+
+  await lobbyChannel.publish('room_list', payload);
 }
 
 // ============ Room Game Logic ============
@@ -718,7 +794,14 @@ function buildRoomLeaderboard(roomId: string): LeaderboardEntry[] {
     .map((entry, index) => ({ ...entry, rank: index + 1 }));
 }
 
-async function handleRoomBuzz(roomId: string, data: any): Promise<void> {
+interface BuzzData {
+  playerId: string;
+  displayName?: string;
+  timestamp: number;
+  latency?: number;
+}
+
+async function handleRoomBuzz(roomId: string, data: BuzzData): Promise<void> {
   const session = roomSessions.get(roomId);
   if (!session || session.questionPhase !== 'question') return;
   if (session.currentBuzzWinner) return;
@@ -768,7 +851,12 @@ async function handleRoomBuzz(roomId: string, data: any): Promise<void> {
   }
 }
 
-async function handleRoomAnswer(roomId: string, data: any): Promise<void> {
+interface AnswerData {
+  playerId: string;
+  answerIndex: number;
+}
+
+async function handleRoomAnswer(roomId: string, data: AnswerData): Promise<void> {
   const session = roomSessions.get(roomId);
   if (!session || session.questionPhase !== 'answering') return;
 
@@ -1244,9 +1332,31 @@ async function runGameLoop(): Promise<void> {
       await broadcastRoomList();
     }
 
-    // Broadcast room list every 5 seconds to update join window countdown
-    if (now.getSeconds() % 5 === 0) {
-      await broadcastRoomList();
+    // Smart broadcast frequency based on time until join window opens
+    // Only broadcast when players are in lobby to save Ably messages
+    if (lobbyPlayers.size > 0) {
+      const joinWindow = isJoinWindowOpen();
+      const secondsUntil = joinWindow.secondsUntilOpen || 0;
+      const currentSecond = now.getSeconds();
+
+      let shouldBroadcast = false;
+      if (joinWindow.canJoin) {
+        // Join window open - broadcast every 10 seconds
+        shouldBroadcast = currentSecond % 10 === 0;
+      } else if (secondsUntil <= 10) {
+        // Last 10 seconds - broadcast every second
+        shouldBroadcast = true;
+      } else if (secondsUntil <= 60) {
+        // Last minute - broadcast every 10 seconds
+        shouldBroadcast = currentSecond % 10 === 0;
+      } else {
+        // More than a minute away - broadcast every minute
+        shouldBroadcast = currentSecond === 0;
+      }
+
+      if (shouldBroadcast) {
+        await broadcastRoomList();
+      }
     }
 
     await sleep(1000);

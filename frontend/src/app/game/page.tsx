@@ -1,7 +1,6 @@
 import { Suspense } from 'react';
-import { Spinner } from '@nextui-org/react';
 import GamePageContent from './GamePageContent';
-import { GameBackground } from '@/components/GameBackground';
+import { LoadingScreen } from '@/components/LoadingScreen';
 
 /**
  * Game page wrapper with Suspense boundary
@@ -11,13 +10,7 @@ import { GameBackground } from '@/components/GameBackground';
  */
 export default function GamePage() {
   return (
-    <Suspense
-      fallback={
-        <GameBackground className="flex items-center justify-center">
-          <Spinner size="lg" />
-        </GameBackground>
-      }
-    >
+    <Suspense fallback={<LoadingScreen />}>
       <GamePageContent />
     </Suspense>
   );

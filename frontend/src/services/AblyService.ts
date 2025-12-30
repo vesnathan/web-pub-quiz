@@ -231,16 +231,30 @@ class AblyServiceClass {
 
     if (this.roomChannel) {
       try {
-        this.roomChannel.presence.leave();
+        // Only leave presence if channel is still attached
+        if (this.roomChannel.state === 'attached') {
+          this.roomChannel.presence.leave().catch(() => {
+            // Ignore leave errors
+          });
+        }
+        // Only unsubscribe if channel is not detached/failed
+        if (this.roomChannel.state !== 'detached' && this.roomChannel.state !== 'failed') {
+          this.roomChannel.unsubscribe();
+        }
       } catch {
-        // Ignore
+        // Ignore cleanup errors
       }
-      this.roomChannel.unsubscribe();
       this.roomChannel = null;
     }
 
     if (this.userChannel) {
-      this.userChannel.unsubscribe();
+      try {
+        if (this.userChannel.state !== 'detached' && this.userChannel.state !== 'failed') {
+          this.userChannel.unsubscribe();
+        }
+      } catch {
+        // Ignore cleanup errors
+      }
       this.userChannel = null;
     }
 

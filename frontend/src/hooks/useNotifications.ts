@@ -28,6 +28,18 @@ export function useNotifications() {
     setNotificationsEnabled(permission === 'granted');
   }, []);
 
+  // Disable notifications (user opt-out, permission stays granted)
+  const disableNotifications = useCallback(() => {
+    setNotificationsEnabled(false);
+  }, []);
+
+  // Re-enable notifications (if permission is still granted)
+  const enableNotifications = useCallback(() => {
+    if (permissionState === 'granted') {
+      setNotificationsEnabled(true);
+    }
+  }, [permissionState]);
+
   // Send notification
   const sendNotification = useCallback((title: string, body: string) => {
     if (!notificationsEnabled || Notification.permission !== 'granted') return;
@@ -47,6 +59,8 @@ export function useNotifications() {
     notificationsEnabled,
     permissionState,
     requestPermission,
+    disableNotifications,
+    enableNotifications,
     sendNotification,
   };
 }

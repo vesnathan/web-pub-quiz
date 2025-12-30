@@ -22,6 +22,9 @@ RUN node scripts/build.js
 # Production stage
 FROM node:20-alpine AS runner
 
+# Install curl for health checks
+RUN apk add --no-cache curl
+
 WORKDIR /app
 
 # Install production dependencies only

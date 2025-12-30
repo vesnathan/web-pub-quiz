@@ -221,3 +221,6 @@ export * from './awards';
 
 // Re-export room types
 export * from './room';
+
+// Re-export subscription types
+export * from './subscription';

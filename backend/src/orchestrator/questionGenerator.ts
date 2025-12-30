@@ -165,7 +165,18 @@ Return ONLY valid JSON with this exact structure (no markdown, no extra text):
   }
 
   // Parse JSON response
-  let parsed: { questions: any[] };
+  interface RawQuestion {
+    text?: string;
+    options?: string[];
+    correctIndex?: number;
+    category?: string;
+    explanation?: string;
+    detailedExplanation?: string;
+    citationUrl?: string;
+    citationTitle?: string;
+  }
+
+  let parsed: { questions: RawQuestion[] };
   try {
     parsed = JSON.parse(content.text);
   } catch (e) {

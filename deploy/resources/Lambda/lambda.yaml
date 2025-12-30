@@ -152,6 +152,256 @@ Resources:
   # Note: Orchestrator is now running on Fargate, not Lambda
   # See deploy/resources/Fargate/fargate.yaml
 
+  # ============================================
+  # Payment Webhook Lambdas (Stripe & PayPal)
+  # ============================================
+
+  # Stripe Webhook Lambda
+  StripeWebhookFunction:
+    Type: AWS::Lambda::Function
+    Properties:
+      FunctionName: !Sub "${AppName}-stripe-webhook-${Stage}"
+      Runtime: nodejs20.x
+      Handler: index.handler
+      Role: !GetAtt PaymentWebhookRole.Arn
+      Timeout: 30
+      Environment:
+        Variables:
+          TABLE_NAME: !Ref DataTableName
+          STRIPE_SECRETS_ARN: !Ref StripeSecrets
+      Code:
+        S3Bucket: !Ref TemplateBucketName
+        S3Key: !Sub "functions/${Stage}/stripeWebhook.zip"
+      Tags:
+        - Key: Project
+          Value: live-pub-quiz
+
+  StripeWebhookLogGroup:
+    Type: AWS::Logs::LogGroup
+    Properties:
+      LogGroupName: !Sub "/aws/lambda/${AppName}-stripe-webhook-${Stage}"
+      RetentionInDays: !Ref LogRetentionInDays
+      Tags:
+        - Key: Project
+          Value: live-pub-quiz
+
+  # PayPal Webhook Lambda
+  PayPalWebhookFunction:
+    Type: AWS::Lambda::Function
+    Properties:
+      FunctionName: !Sub "${AppName}-paypal-webhook-${Stage}"
+      Runtime: nodejs20.x
+      Handler: index.handler
+      Role: !GetAtt PaymentWebhookRole.Arn
+      Timeout: 30
+      Environment:
+        Variables:
+          TABLE_NAME: !Ref DataTableName
+          PAYPAL_SECRETS_ARN: !Ref PayPalSecrets
+          PAYPAL_API_URL: !If
+            - IsProd
+            - "https://api-m.paypal.com"
+            - "https://api-m.sandbox.paypal.com"
+      Code:
+        S3Bucket: !Ref TemplateBucketName
+        S3Key: !Sub "functions/${Stage}/paypalWebhook.zip"
+      Tags:
+        - Key: Project
+          Value: live-pub-quiz
+
+  PayPalWebhookLogGroup:
+    Type: AWS::Logs::LogGroup
+    Properties:
+      LogGroupName: !Sub "/aws/lambda/${AppName}-paypal-webhook-${Stage}"
+      RetentionInDays: !Ref LogRetentionInDays
+      Tags:
+        - Key: Project
+          Value: live-pub-quiz
+
+  # Checkout Session Lambda (creates Stripe/PayPal checkout sessions)
+  CreateCheckoutFunction:
+    Type: AWS::Lambda::Function
+    Properties:
+      FunctionName: !Sub "${AppName}-create-checkout-${Stage}"
+      Runtime: nodejs20.x
+      Handler: index.handler
+      Role: !GetAtt PaymentWebhookRole.Arn
+      Timeout: 30
+      Environment:
+        Variables:
+          TABLE_NAME: !Ref DataTableName
+          STRIPE_SECRETS_ARN: !Ref StripeSecrets
+          PAYPAL_SECRETS_ARN: !Ref PayPalSecrets
+          PAYPAL_API_URL: !If
+            - IsProd
+            - "https://api-m.paypal.com"
+            - "https://api-m.sandbox.paypal.com"
+      Code:
+        S3Bucket: !Ref TemplateBucketName
+        S3Key: !Sub "functions/${Stage}/createCheckout.zip"
+      Tags:
+        - Key: Project
+          Value: live-pub-quiz
+
+  CreateCheckoutLogGroup:
+    Type: AWS::Logs::LogGroup
+    Properties:
+      LogGroupName: !Sub "/aws/lambda/${AppName}-create-checkout-${Stage}"
+      RetentionInDays: !Ref LogRetentionInDays
+      Tags:
+        - Key: Project
+          Value: live-pub-quiz
+
+  # Shared IAM Role for Payment Lambdas
+  PaymentWebhookRole:
+    Type: AWS::IAM::Role
+    Properties:
+      RoleName: !Sub "${AppName}-payment-webhook-role-${Stage}"
+      AssumeRolePolicyDocument:
+        Version: "2012-10-17"
+        Statement:
+          - Effect: Allow
+            Principal:
+              Service: lambda.amazonaws.com
+            Action: sts:AssumeRole
+      ManagedPolicyArns:
+        - arn:aws:iam::aws:policy/service-role/AWSLambdaBasicExecutionRole
+      Policies:
+        - PolicyName: DynamoDBAccess
+          PolicyDocument:
+            Version: "2012-10-17"
+            Statement:
+              - Effect: Allow
+                Action:
+                  - dynamodb:GetItem
+                  - dynamodb:PutItem
+                  - dynamodb:UpdateItem
+                  - dynamodb:Query
+                Resource:
+                  - !Ref DataTableArn
+                  - !Sub "${DataTableArn}/index/*"
+        - PolicyName: SecretsAccess
+          PolicyDocument:
+            Version: "2012-10-17"
+            Statement:
+              - Effect: Allow
+                Action:
+                  - secretsmanager:GetSecretValue
+                Resource:
+                  - !Ref StripeSecrets
+                  - !Ref PayPalSecrets
+      Tags:
+        - Key: Project
+          Value: live-pub-quiz
+
+  # Secrets Manager for payment credentials
+  StripeSecrets:
+    Type: AWS::SecretsManager::Secret
+    Properties:
+      Name: !Sub "${AppName}/stripe-${Stage}"
+      Description: Stripe API credentials
+      SecretString: '{"secretKey":"sk_test_placeholder","publishableKey":"pk_test_placeholder","webhookSecret":"whsec_placeholder","priceIdSupporter":"price_supporter","priceIdChampion":"price_champion"}'
+      Tags:
+        - Key: Project
+          Value: live-pub-quiz
+
+  PayPalSecrets:
+    Type: AWS::SecretsManager::Secret
+    Properties:
+      Name: !Sub "${AppName}/paypal-${Stage}"
+      Description: PayPal API credentials
+      SecretString: '{"clientId":"placeholder","clientSecret":"placeholder","webhookId":"placeholder","planIdSupporter":"P-supporter","planIdChampion":"P-champion"}'
+      Tags:
+        - Key: Project
+          Value: live-pub-quiz
+
+  # ============================================
+  # API Gateway for Webhooks
+  # ============================================
+
+  PaymentWebhookApi:
+    Type: AWS::ApiGatewayV2::Api
+    Properties:
+      Name: !Sub "${AppName}-payment-webhooks-${Stage}"
+      Description: Payment webhook endpoints for Stripe and PayPal
+      ProtocolType: HTTP
+      CorsConfiguration:
+        AllowOrigins:
+          - "*"
+        AllowMethods:
+          - POST
+          - OPTIONS
+        AllowHeaders:
+          - Content-Type
+          - stripe-signature
+          - paypal-auth-algo
+          - paypal-cert-url
+          - paypal-transmission-id
+          - paypal-transmission-sig
+          - paypal-transmission-time
+      Tags:
+        Project: live-pub-quiz
+
+  PaymentWebhookApiStage:
+    Type: AWS::ApiGatewayV2::Stage
+    Properties:
+      ApiId: !Ref PaymentWebhookApi
+      StageName: !Ref Stage
+      AutoDeploy: true
+      Tags:
+        Project: live-pub-quiz
+
+  # Stripe Webhook Route
+  StripeWebhookRoute:
+    Type: AWS::ApiGatewayV2::Route
+    Properties:
+      ApiId: !Ref PaymentWebhookApi
+      RouteKey: "POST /webhooks/stripe"
+      Target: !Sub "integrations/${StripeWebhookIntegration}"
+
+  StripeWebhookIntegration:
+    Type: AWS::ApiGatewayV2::Integration
+    Properties:
+      ApiId: !Ref PaymentWebhookApi
+      IntegrationType: AWS_PROXY
+      IntegrationUri: !GetAtt StripeWebhookFunction.Arn
+      PayloadFormatVersion: "2.0"
+
+  StripeWebhookPermission:
+    Type: AWS::Lambda::Permission
+    Properties:
+      FunctionName: !Ref StripeWebhookFunction
+      Action: lambda:InvokeFunction
+      Principal: apigateway.amazonaws.com
+      SourceArn: !Sub "arn:aws:execute-api:${AWS::Region}:${AWS::AccountId}:${PaymentWebhookApi}/*"
+
+  # PayPal Webhook Route
+  PayPalWebhookRoute:
+    Type: AWS::ApiGatewayV2::Route
+    Properties:
+      ApiId: !Ref PaymentWebhookApi
+      RouteKey: "POST /webhooks/paypal"
+      Target: !Sub "integrations/${PayPalWebhookIntegration}"
+
+  PayPalWebhookIntegration:
+    Type: AWS::ApiGatewayV2::Integration
+    Properties:
+      ApiId: !Ref PaymentWebhookApi
+      IntegrationType: AWS_PROXY
+      IntegrationUri: !GetAtt PayPalWebhookFunction.Arn
+      PayloadFormatVersion: "2.0"
+
+  PayPalWebhookPermission:
+    Type: AWS::Lambda::Permission
+    Properties:
+      FunctionName: !Ref PayPalWebhookFunction
+      Action: lambda:InvokeFunction
+      Principal: apigateway.amazonaws.com
+      SourceArn: !Sub "arn:aws:execute-api:${AWS::Region}:${AWS::AccountId}:${PaymentWebhookApi}/*"
+
+Conditions:
+  IsProd: !Equals [!Ref Stage, "prod"]
+
 Outputs:
   GetAblyTokenFunctionArn:
     Description: Get Ably Token Lambda ARN
@@ -160,3 +410,27 @@ Outputs:
   EnsureProfileFunctionArn:
     Description: Ensure Profile Lambda ARN
     Value: !GetAtt EnsureProfileFunction.Arn
+
+  CreateCheckoutFunctionArn:
+    Description: Create Checkout Lambda ARN
+    Value: !GetAtt CreateCheckoutFunction.Arn
+
+  PaymentWebhookApiUrl:
+    Description: Payment Webhook API URL
+    Value: !Sub "https://${PaymentWebhookApi}.execute-api.${AWS::Region}.amazonaws.com/${Stage}"
+
+  StripeWebhookUrl:
+    Description: Stripe Webhook URL (configure in Stripe Dashboard)
+    Value: !Sub "https://${PaymentWebhookApi}.execute-api.${AWS::Region}.amazonaws.com/${Stage}/webhooks/stripe"
+
+  PayPalWebhookUrl:
+    Description: PayPal Webhook URL (configure in PayPal Dashboard)
+    Value: !Sub "https://${PaymentWebhookApi}.execute-api.${AWS::Region}.amazonaws.com/${Stage}/webhooks/paypal"
+
+  StripeSecretsArn:
+    Description: Stripe Secrets ARN
+    Value: !Ref StripeSecrets
+
+  PayPalSecretsArn:
+    Description: PayPal Secrets ARN
+    Value: !Ref PayPalSecrets

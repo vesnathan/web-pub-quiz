@@ -173,6 +173,9 @@ async function uploadLambdas(): Promise<void> {
     { name: 'cognitoPostConfirmation', file: 'cognitoPostConfirmation.ts' },
     { name: 'getAblyToken', file: 'getAblyToken.ts' },
     { name: 'ensureProfile', file: 'ensureProfile.ts' },
+    { name: 'stripeWebhook', file: 'stripeWebhook.ts' },
+    { name: 'paypalWebhook', file: 'paypalWebhook.ts' },
+    { name: 'createCheckout', file: 'createCheckout.ts' },
     // Note: orchestrator is now deployed via Fargate, not Lambda
   ];
 

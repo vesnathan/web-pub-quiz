@@ -1,39 +1,43 @@
 'use client';
 
 import { useState } from 'react';
+import { useForm } from 'react-hook-form';
+import { zodResolver } from '@hookform/resolvers/zod';
 import { Card, CardBody, Input, Textarea, Button } from '@nextui-org/react';
 import { Navbar } from '@/components/Navbar';
 import { Footer } from '@/components/Footer';
+import { ContactFormSchema, type ContactFormInput } from '@/schemas/FormSchemas';
 
 export default function ContactPage() {
-  const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    subject: '',
-    message: '',
-  });
-  const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitStatus, setSubmitStatus] = useState<'idle' | 'success' | 'error'>('idle');
 
-  const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault();
-    setIsSubmitting(true);
+  const {
+    register,
+    handleSubmit,
+    reset,
+    formState: { errors, isSubmitting },
+  } = useForm<ContactFormInput>({
+    resolver: zodResolver(ContactFormSchema),
+    defaultValues: {
+      name: '',
+      email: '',
+      subject: '',
+      message: '',
+    },
+  });
+
+  const onSubmit = async (data: ContactFormInput) => {
     setSubmitStatus('idle');
 
     try {
       // TODO: Implement actual form submission to backend
+      console.log('Form data:', data);
       await new Promise((resolve) => setTimeout(resolve, 1000));
       setSubmitStatus('success');
-      setFormData({ name: '', email: '', subject: '', message: '' });
+      reset();
     } catch {
       setSubmitStatus('error');
-    } finally {
-      setIsSubmitting(false);
     }
-  };
-
-  const handleChange = (field: string) => (e: React.ChangeEvent<HTMLInputElement>) => {
-    setFormData((prev) => ({ ...prev, [field]: e.target.value }));
   };
 
   return (
@@ -48,13 +52,14 @@ export default function ContactPage() {
 
           <Card className="bg-gray-800/50 backdrop-blur">
             <CardBody className="p-6">
-              <form onSubmit={handleSubmit} className="space-y-6">
+              <form onSubmit={handleSubmit(onSubmit)} className="space-y-6">
                 <Input
                   label="Name"
                   placeholder="Your name"
-                  value={formData.name}
-                  onChange={handleChange('name')}
+                  {...register('name')}
                   isRequired
+                  isInvalid={!!errors.name}
+                  errorMessage={errors.name?.message}
                   classNames={{
                     input: 'bg-gray-700/50',
                     inputWrapper: 'bg-gray-700/50',
@@ -64,9 +69,10 @@ export default function ContactPage() {
                   type="email"
                   label="Email"
                   placeholder="your@email.com"
-                  value={formData.email}
-                  onChange={handleChange('email')}
+                  {...register('email')}
                   isRequired
+                  isInvalid={!!errors.email}
+                  errorMessage={errors.email?.message}
                   classNames={{
                     input: 'bg-gray-700/50',
                     inputWrapper: 'bg-gray-700/50',
@@ -75,9 +81,10 @@ export default function ContactPage() {
                 <Input
                   label="Subject"
                   placeholder="What's this about?"
-                  value={formData.subject}
-                  onChange={handleChange('subject')}
+                  {...register('subject')}
                   isRequired
+                  isInvalid={!!errors.subject}
+                  errorMessage={errors.subject?.message}
                   classNames={{
                     input: 'bg-gray-700/50',
                     inputWrapper: 'bg-gray-700/50',
@@ -86,10 +93,11 @@ export default function ContactPage() {
                 <Textarea
                   label="Message"
                   placeholder="Tell us more..."
-                  value={formData.message}
-                  onChange={handleChange('message')}
+                  {...register('message')}
                   isRequired
                   minRows={4}
+                  isInvalid={!!errors.message}
+                  errorMessage={errors.message?.message}
                   classNames={{
                     input: 'bg-gray-700/50',
                     inputWrapper: 'bg-gray-700/50',

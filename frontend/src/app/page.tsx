@@ -1,23 +1,21 @@
 'use client';
 
 import { useState, useCallback } from 'react';
-import { Button, Card, CardBody, Chip, Spinner } from '@nextui-org/react';
+import { Button, Card, CardBody, Chip } from '@nextui-org/react';
 import { signInWithRedirect } from 'aws-amplify/auth';
-import { useGameStore } from '@/stores/gameStore';
 import { useAuth } from '@/contexts/AuthContext';
 import { Leaderboards } from '@/components/Leaderboards';
 import { RoomList } from '@/components/RoomList';
-import { Footer } from '@/components/Footer';
+import { LobbyBottomBar } from '@/components/LobbyBottomBar';
 import { SplashScreen } from '@/components/SplashScreen';
-import { CountdownTimer } from '@/components/CountdownTimer';
 import { GameBackground } from '@/components/GameBackground';
+import { LoadingScreen } from '@/components/LoadingScreen';
 import { useLobbyPresence } from '@/hooks/useLobbyPresence';
 import { AuthModal } from '@/components/auth/AuthModal';
 import { GOOGLE_OAUTH_ENABLED } from '@/lib/amplify';
 
 export default function Home() {
-  const { user, isAuthenticated, isLoading, signOut } = useAuth();
-  const { isSetActive, nextSetTime } = useGameStore();
+  const { user, isAuthenticated, isLoading } = useAuth();
   // Connect to Ably for all users (to receive game status updates)
   // Only authenticated users will enter presence
   const { activeUserCount, isConnected } = useLobbyPresence({
@@ -28,24 +26,20 @@ export default function Home() {
   const [showAuthModal, setShowAuthModal] = useState(false);
   const [authMode, setAuthMode] = useState<'login' | 'register'>('login');
 
-  // Check if returning from OAuth redirect - skip splash if so
+  // Check if returning from OAuth redirect or returning from game - skip splash if so
   const isOAuthCallback = typeof window !== 'undefined' &&
     (window.location.search.includes('code=') || window.location.hash.includes('access_token'));
-  const [showSplash, setShowSplash] = useState(!isOAuthCallback);
+  // Skip splash if coming from OAuth or if user has already seen it this session
+  const hasSeenSplash = typeof window !== 'undefined' && sessionStorage.getItem('splash-seen') === 'true';
+  const [showSplash, setShowSplash] = useState(!isOAuthCallback && !hasSeenSplash);
 
   const handleSplashComplete = useCallback(() => {
     setShowSplash(false);
+    // Remember that splash has been seen this session
+    if (typeof window !== 'undefined') {
+      sessionStorage.setItem('splash-seen', 'true');
+    }
   }, []);
-
-  // No longer needed - users join directly from room list
-  // const handleJoinGame = () => {
-  //   if (!user) return;
-  //   router.push('/rooms');
-  // };
-
-  const handleSignOut = async () => {
-    await signOut();
-  };
 
   const handleLogin = () => {
     setAuthMode('login');
@@ -74,18 +68,20 @@ export default function Home() {
 
   // Show loading state after splash
   if (isLoading) {
-    return (
-      <GameBackground className="flex items-center justify-center">
-        <Spinner size="lg" />
-      </GameBackground>
-    );
+    return <LoadingScreen />;
   }
 
-  // Not authenticated view
+  // Handler for unauthenticated users trying to join a room
+  const handleUnauthenticatedJoinRoom = () => {
+    setAuthMode('login');
+    setShowAuthModal(true);
+  };
+
+  // Not authenticated view - show rooms but require login to join
   if (!isAuthenticated) {
     return (
       <GameBackground>
-        <main className="p-8 flex-grow">
+        <main className="p-8 pb-20 flex-grow">
           <div className="max-w-6xl mx-auto">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
               {/* Sign In Section */}
@@ -104,14 +100,6 @@ export default function Home() {
                         ? `${activeUserCount} ${activeUserCount === 1 ? 'player' : 'players'} online`
                         : 'Connecting...'}
                     </Chip>
-                  </div>
-
-                  {/* Next Set Timer */}
-                  <div className="mb-8">
-                    <CountdownTimer
-                      targetTime={nextSetTime}
-                      isActive={isSetActive}
-                    />
                   </div>
 
                   {/* Auth Buttons */}
@@ -177,7 +165,7 @@ export default function Home() {
                   </div>
 
                   {/* Game Rules */}
-                  <div className="mt-8 p-4 bg-default-100 rounded-lg">
+                  <div className="mt-6 p-4 bg-default-100 rounded-lg">
                     <h3 className="font-semibold mb-2">How to Play</h3>
                     <ul className="text-sm text-default-500 space-y-1">
                       <li>- Sets run every 30 minutes</li>
@@ -190,9 +178,9 @@ export default function Home() {
                 </CardBody>
               </Card>
 
-              {/* Leaderboards Section */}
+              {/* Room List - clicking opens login modal */}
               <div>
-                <Leaderboards />
+                <RoomList onJoinRoom={handleUnauthenticatedJoinRoom} />
               </div>
             </div>
           </div>
@@ -203,7 +191,7 @@ export default function Home() {
             initialMode={authMode}
           />
         </main>
-        <Footer />
+        <LobbyBottomBar isConnected={isConnected} activeUserCount={activeUserCount} />
       </GameBackground>
     );
   }
@@ -211,7 +199,7 @@ export default function Home() {
   // Authenticated view
   return (
     <GameBackground>
-      <main className="p-8 flex-grow">
+      <main className="p-8 pb-20 flex-grow">
         <div className="max-w-6xl mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
             {/* Left side: Welcome + Leaderboards */}
@@ -235,7 +223,7 @@ export default function Home() {
                   </div>
 
                   {/* Game Rules */}
-                  <div className="p-4 bg-default-100 rounded-lg mb-4">
+                  <div className="p-4 bg-default-100 rounded-lg">
                     <h3 className="font-semibold mb-2">How to Play</h3>
                     <ul className="text-sm text-default-500 space-y-1">
                       <li>- Sets run every 30 minutes</li>
@@ -244,17 +232,6 @@ export default function Home() {
                       <li>- +50 points for correct, -200 for wrong</li>
                     </ul>
                   </div>
-
-                  {/* Sign Out Button */}
-                  <Button
-                    color="default"
-                    variant="light"
-                    size="sm"
-                    className="w-full"
-                    onPress={handleSignOut}
-                  >
-                    Sign Out
-                  </Button>
                 </CardBody>
               </Card>
 
@@ -269,7 +246,7 @@ export default function Home() {
           </div>
         </div>
       </main>
-      <Footer />
+      <LobbyBottomBar isConnected={isConnected} activeUserCount={activeUserCount} />
     </GameBackground>
   );
 }

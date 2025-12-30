@@ -207,12 +207,13 @@ export async function handler(event: Event): Promise<TokenResponse> {
   const tokenRequest = await ably.auth.createTokenRequest({
     clientId: event.userId,
     capability: {
-      // Allow subscribing to game channel
-      'quiz:game': ['subscribe', 'presence'],
-      // Allow publishing buzzes and answers
-      'quiz:game:*': ['publish'],
+      // Allow access to room channels (subscribe, publish, presence)
+      'quiz:room:*': ['subscribe', 'publish', 'presence'],
       // Allow subscribing to user-specific channel for session management
       [`${ABLY_USER_CHANNEL_PREFIX}${event.userId}`]: ['subscribe'],
+      // Legacy: Allow subscribing to game channel (can be removed later)
+      'quiz:game': ['subscribe', 'presence'],
+      'quiz:game:*': ['publish'],
     },
     ttl: 3600 * 1000, // 1 hour
   });

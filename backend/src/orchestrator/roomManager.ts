@@ -139,6 +139,7 @@ export function getRoomList(): RoomListItem[] {
       name: room.name,
       difficulty: room.difficulty,
       currentPlayers: room.currentPlayers,
+      queuedPlayers: 0, // Will be populated by orchestrator with actual queue data
       maxPlayers: room.maxPlayers,
       status: room.status,
     }))

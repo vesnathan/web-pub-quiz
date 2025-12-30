@@ -1,22 +1,28 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { Button, Card, CardBody, Chip, Spinner, Progress, CircularProgress } from '@nextui-org/react';
+import { Button, Card, CardBody, Chip, Progress, CircularProgress, Modal, ModalContent, ModalHeader, ModalBody, ModalFooter } from '@nextui-org/react';
 import { useRouter } from 'next/navigation';
 import { useAuth } from '@/contexts/AuthContext';
 import { useGameStore } from '@/stores/gameStore';
 import { useLobbyChannel } from '@/hooks/useLobbyChannel';
+import { useSubscription } from '@/hooks/useSubscription';
 import { GameBackground } from '@/components/GameBackground';
 import { CountdownTimer } from '@/components/CountdownTimer';
+import { LobbyBottomBar } from '@/components/LobbyBottomBar';
+import { LoadingScreen } from '@/components/LoadingScreen';
 import type { RoomListItem } from '@quiz/shared';
+import { FREE_TIER_DAILY_SET_LIMIT } from '@quiz/shared';
 
 export default function RoomsPage() {
   const router = useRouter();
   const { user, isAuthenticated, isLoading: authLoading } = useAuth();
   const { nextSetTime, isSetActive, setPlayer, setCurrentRoomId } = useGameStore();
   const { rooms, isConnected, joinWindowOpen, secondsUntilJoinOpen, joinRoom } = useLobbyChannel();
+  const { canPlaySet, setsRemainingToday, hasUnlimitedSets, tierName, recordSetPlayed } = useSubscription();
   const [joining, setJoining] = useState<string | null>(null);
   const [error, setError] = useState<string | null>(null);
+  const [showUpgradeModal, setShowUpgradeModal] = useState(false);
 
   // Use server-provided join window status
   const canJoin = joinWindowOpen;
@@ -31,12 +37,21 @@ export default function RoomsPage() {
   const handleJoinRoom = async (roomId: string) => {
     if (!user || !canJoin) return;
 
+    // Check daily limit for free tier
+    if (!canPlaySet) {
+      setShowUpgradeModal(true);
+      return;
+    }
+
     setJoining(roomId);
     setError(null);
 
     const result = await joinRoom(roomId);
 
     if (result.success && result.roomId) {
+      // Record set played for daily limit tracking
+      await recordSetPlayed();
+
       // Set player and room in store
       setPlayer({
         id: user.userId,
@@ -77,20 +92,17 @@ export default function RoomsPage() {
   };
 
   // Calculate progress percentage (for 29 min countdown to join window)
+  // Progress shrinks from 100% to 0% as time runs out
   const maxWaitSeconds = 29 * 60;
-  const progressValue = canJoin ? 100 : Math.max(0, 100 - ((secondsUntilJoinOpen || 0) / maxWaitSeconds) * 100);
+  const progressValue = canJoin ? 0 : Math.min(100, ((secondsUntilJoinOpen || 0) / maxWaitSeconds) * 100);
 
   if (authLoading) {
-    return (
-      <GameBackground className="flex items-center justify-center">
-        <Spinner size="lg" />
-      </GameBackground>
-    );
+    return <LoadingScreen />;
   }
 
   return (
     <GameBackground>
-      <main className="p-4 sm:p-8 flex-grow">
+      <main className="p-4 sm:p-8 pb-20 flex-grow">
         <div className="max-w-4xl mx-auto">
           {/* Header */}
           <div className="mb-8">
@@ -141,6 +153,41 @@ export default function RoomsPage() {
             {canJoin && (
               <div className="bg-success-100/20 text-success-500 px-4 py-3 rounded-lg mb-4 text-center">
                 Select a room to join the quiz!
+              </div>
+            )}
+
+            {/* Daily Sets Remaining (for free tier) */}
+            {!hasUnlimitedSets && (
+              <div className={`px-4 py-3 rounded-lg mb-4 text-center ${
+                setsRemainingToday === 0
+                  ? 'bg-red-900/30 border border-red-500/50'
+                  : setsRemainingToday === 1
+                  ? 'bg-yellow-900/30 border border-yellow-500/50'
+                  : 'bg-gray-800/50 border border-gray-700'
+              }`}>
+                <div className="flex items-center justify-center gap-2">
+                  <span className={`text-lg font-bold ${
+                    setsRemainingToday === 0
+                      ? 'text-red-400'
+                      : setsRemainingToday === 1
+                      ? 'text-yellow-400'
+                      : 'text-gray-300'
+                  }`}>
+                    {setsRemainingToday} / {FREE_TIER_DAILY_SET_LIMIT}
+                  </span>
+                  <span className="text-gray-400 text-sm">sets remaining today</span>
+                </div>
+                {setsRemainingToday === 0 && (
+                  <Button
+                    size="sm"
+                    color="primary"
+                    variant="flat"
+                    className="mt-2"
+                    onPress={() => router.push('/subscribe')}
+                  >
+                    Upgrade for Unlimited
+                  </Button>
+                )}
               </div>
             )}
 
@@ -238,6 +285,54 @@ export default function RoomsPage() {
           </div>
         </div>
       </main>
+      <LobbyBottomBar isConnected={isConnected} />
+
+      {/* Upgrade Modal - shown when free tier limit reached */}
+      <Modal
+        isOpen={showUpgradeModal}
+        onClose={() => setShowUpgradeModal(false)}
+        classNames={{
+          base: 'bg-gray-900 border border-gray-700',
+          header: 'border-b border-gray-700',
+          body: 'py-6',
+          footer: 'border-t border-gray-700',
+        }}
+      >
+        <ModalContent>
+          <ModalHeader className="flex flex-col gap-1">
+            <span className="text-xl">Daily Limit Reached</span>
+          </ModalHeader>
+          <ModalBody>
+            <div className="text-center">
+              <div className="text-6xl mb-4">🎯</div>
+              <p className="text-gray-300 mb-4">
+                You&apos;ve played all {FREE_TIER_DAILY_SET_LIMIT} free sets for today!
+              </p>
+              <p className="text-gray-400 text-sm">
+                Upgrade to <span className="text-primary-400 font-semibold">Supporter</span> for
+                unlimited quiz sets, plus exclusive badges and the patron leaderboard.
+              </p>
+            </div>
+          </ModalBody>
+          <ModalFooter className="flex flex-col gap-2">
+            <Button
+              color="primary"
+              className="w-full"
+              size="lg"
+              onPress={() => router.push('/subscribe')}
+            >
+              View Plans - Starting at $3/month
+            </Button>
+            <Button
+              variant="light"
+              className="w-full"
+              onPress={() => setShowUpgradeModal(false)}
+            >
+              Maybe Later
+            </Button>
+          </ModalFooter>
+        </ModalContent>
+      </Modal>
     </GameBackground>
   );
 }

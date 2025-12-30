@@ -20,6 +20,7 @@ export interface RoomListItem {
   name: string;
   difficulty: RoomDifficulty;
   currentPlayers: number;
+  queuedPlayers: number; // Players waiting to join when window opens
   maxPlayers: number;
   status: RoomStatus;
 }

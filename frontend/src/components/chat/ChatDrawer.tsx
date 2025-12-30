@@ -4,8 +4,8 @@ import { useEffect, useState } from 'react';
 import {
   Button,
   Avatar,
-  Spinner,
 } from '@nextui-org/react';
+import { LoadingDots } from '@/components/LoadingScreen';
 import { useAuth } from '@/contexts/AuthContext';
 import { graphqlClient } from '@/lib/graphql';
 import { GET_MY_CONVERSATIONS, START_CONVERSATION } from '@/graphql';
@@ -166,7 +166,7 @@ export function ChatDrawer({ isOpen: propIsOpen, onClose: propOnClose }: ChatDra
             <h3 className="text-sm font-medium text-gray-400 mb-3">Private Messages</h3>
             {loading ? (
               <div className="flex justify-center py-4">
-                <Spinner size="sm" />
+                <LoadingDots />
               </div>
             ) : conversations.length === 0 ? (
               <p className="text-sm text-gray-500 text-center py-4">

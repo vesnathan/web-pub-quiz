@@ -20,7 +20,7 @@ export function CountdownTimer({ targetTime, isActive }: CountdownTimerProps) {
   const questionIndex = useGameStore((state) => state.questionIndex);
   const totalQuestions = useGameStore((state) => state.totalQuestions);
 
-  // Rotate facts every 8 seconds when set is active
+  // Rotate facts every 12 seconds when set is active
   useEffect(() => {
     if (!isActive) return;
 
@@ -32,7 +32,7 @@ export function CountdownTimer({ targetTime, isActive }: CountdownTimerProps) {
       }, 300);
     };
 
-    const interval = setInterval(rotateFact, 8000);
+    const interval = setInterval(rotateFact, 12000);
     return () => clearInterval(interval);
   }, [isActive]);
 
@@ -40,6 +40,8 @@ export function CountdownTimer({ targetTime, isActive }: CountdownTimerProps) {
     notificationsEnabled,
     permissionState,
     requestPermission,
+    disableNotifications,
+    enableNotifications,
     sendNotification,
   } = useNotifications();
 
@@ -92,6 +94,44 @@ export function CountdownTimer({ targetTime, isActive }: CountdownTimerProps) {
 
   // Calculate pie chart progress (0-100) based on questions completed
   const pieProgress = totalQuestions > 0 ? ((questionIndex) / totalQuestions) * 100 : 0;
+
+  // Notification toggle component
+  const NotificationToggle = () => {
+    if (permissionState === 'unsupported') return null;
+
+    if (permissionState === 'denied') {
+      return (
+        <div className="text-sm text-gray-500">
+          Notifications blocked (check browser settings)
+        </div>
+      );
+    }
+
+    if (permissionState === 'granted') {
+      return (
+        <Button
+          size="sm"
+          variant="flat"
+          onPress={notificationsEnabled ? disableNotifications : enableNotifications}
+          className="text-sm"
+        >
+          {notificationsEnabled ? '🔔 Notifications on' : '🔕 Notifications off'}
+        </Button>
+      );
+    }
+
+    // Default state - request permission
+    return (
+      <Button
+        size="sm"
+        variant="flat"
+        onPress={requestPermission}
+        className="text-sm"
+      >
+        🔔 Notify me when it starts
+      </Button>
+    );
+  };
 
   // SVG circle parameters
   const size = 120;
@@ -158,6 +198,11 @@ export function CountdownTimer({ targetTime, isActive }: CountdownTimerProps) {
 
           <div className="text-sm text-gray-400 mt-3">Join now to play!</div>
 
+          {/* Notification toggle */}
+          <div className="mt-4">
+            <NotificationToggle />
+          </div>
+
           {/* Did you know? facts */}
           <div className="mt-6 px-4">
             <div className="text-xs text-gray-500 mb-1">Did you know?</div>
@@ -166,7 +211,17 @@ export function CountdownTimer({ targetTime, isActive }: CountdownTimerProps) {
                 factFading ? 'opacity-0' : 'opacity-100'
               }`}
             >
-              {DID_YOU_KNOW_FACTS[factIndex]}
+              {DID_YOU_KNOW_FACTS[factIndex].text}
+            </div>
+            <div className="mt-2">
+              <a
+                href={DID_YOU_KNOW_FACTS[factIndex].url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-xs text-primary-400 hover:text-primary-300 hover:underline"
+              >
+                Source: {DID_YOU_KNOW_FACTS[factIndex].source} →
+              </a>
             </div>
           </div>
         </div>
@@ -178,28 +233,9 @@ export function CountdownTimer({ targetTime, isActive }: CountdownTimerProps) {
           <div className="text-4xl font-bold text-white mb-4">{timeLeft}</div>
 
           {/* Notification toggle */}
-          {permissionState !== 'unsupported' && (
-            <div className="mt-4">
-              {permissionState === 'granted' ? (
-                <div className="text-sm text-green-400 flex items-center justify-center gap-2">
-                  <span>🔔</span> Notifications enabled
-                </div>
-              ) : permissionState === 'denied' ? (
-                <div className="text-sm text-gray-500">
-                  Notifications blocked (check browser settings)
-                </div>
-              ) : (
-                <Button
-                  size="sm"
-                  variant="flat"
-                  onPress={requestPermission}
-                  className="text-sm"
-                >
-                  🔔 Notify me when it starts
-                </Button>
-              )}
-            </div>
-          )}
+          <div className="mt-4">
+            <NotificationToggle />
+          </div>
         </>
       )}
     </div>
