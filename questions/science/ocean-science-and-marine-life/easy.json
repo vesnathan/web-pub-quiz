@@ -1,0 +1,325 @@
+[
+  {
+    "id": "1646478a-0277-4987-a903-c5a75abadb6e",
+    "text": "What percentage of Earth's surface is covered by oceans?",
+    "options": [
+      "51%",
+      "63%",
+      "71%",
+      "84%"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Oceans cover approximately 71% of Earth's surface.",
+    "detailedExplanation": "The world's oceans cover about 71% of Earth's surface, making our planet predominantly blue when viewed from space. This vast expanse of water contains about 97% of all water on Earth and plays a crucial role in regulating climate, weather patterns, and supporting marine ecosystems.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Ocean",
+    "citationTitle": "Wikipedia: Ocean"
+  },
+  {
+    "id": "11575d58-c986-4a6d-91c9-40d0faeb49e8",
+    "text": "Which is the largest species of whale?",
+    "options": [
+      "Sperm whale",
+      "Humpback whale",
+      "Blue whale",
+      "Gray whale"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "The blue whale is the largest animal species ever known to exist on Earth.",
+    "detailedExplanation": "Blue whales are not only the largest whales but the largest animals ever known to have lived on Earth, including dinosaurs. They can reach lengths of up to 100 feet (30 meters) and weigh as much as 200 tons. Their hearts alone can weigh as much as an automobile, and their tongues can weigh as much as an elephant.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Blue_whale",
+    "citationTitle": "Wikipedia: Blue whale"
+  },
+  {
+    "id": "7dffb4ae-c410-4090-8b8f-9661d97630c5",
+    "text": "What do we call the study of oceans and marine environments?",
+    "options": [
+      "Geology",
+      "Oceanography",
+      "Meteorology",
+      "Astronomy"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Oceanography is the scientific study of the oceans and seas.",
+    "detailedExplanation": "Oceanography is an interdisciplinary science that combines physics, chemistry, biology, and geology to study the ocean and its phenomena. Oceanographers study everything from ocean currents and waves to marine life and the seafloor, helping us understand how oceans affect climate and weather patterns globally.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Oceanography",
+    "citationTitle": "Wikipedia: Oceanography"
+  },
+  {
+    "id": "0a74cb82-b91e-4b99-850c-ba1e4e5a530e",
+    "text": "Which sea creature is known for its ability to change color and has eight arms?",
+    "options": [
+      "Squid",
+      "Jellyfish",
+      "Octopus",
+      "Starfish"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Octopuses have eight arms and are famous for their color-changing abilities.",
+    "detailedExplanation": "Octopuses are highly intelligent marine invertebrates with eight arms lined with suction cups. They possess specialized skin cells called chromatophores that contain pigments, allowing them to rapidly change color and texture for camouflage, communication, and emotional expression. They're considered among the most intelligent invertebrates on Earth.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Octopus",
+    "citationTitle": "Wikipedia: Octopus"
+  },
+  {
+    "id": "f433ccb5-b058-4c66-a8b3-061b7185ac2e",
+    "text": "What is the name of the deepest part of the world's oceans?",
+    "options": [
+      "Puerto Rico Trench",
+      "Java Trench",
+      "Mariana Trench",
+      "Peru-Chile Trench"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "The Mariana Trench is the deepest known part of Earth's oceans.",
+    "detailedExplanation": "Located in the western Pacific Ocean, the Mariana Trench reaches a maximum known depth of about 36,200 feet (11,034 meters) at a point called Challenger Deep. The pressure at this depth is more than 1,000 times greater than at sea level, yet some specialized organisms still manage to survive in this extreme environment.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Mariana_Trench",
+    "citationTitle": "Wikipedia: Mariana Trench"
+  },
+  {
+    "id": "49ed4034-d8a3-4cf4-8759-db3f4d04aec6",
+    "text": "What do coral reefs need to survive and grow?",
+    "options": [
+      "Cold water",
+      "Sunlight",
+      "Deep ocean currents",
+      "High salinity"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Coral reefs require sunlight for the photosynthetic algae that live within them.",
+    "detailedExplanation": "Coral reefs depend on sunlight because they have a symbiotic relationship with microscopic algae called zooxanthellae that live within their tissues. These algae perform photosynthesis, converting sunlight into energy that feeds the coral. This is why coral reefs are typically found in shallow, clear tropical waters where sunlight can penetrate effectively.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Coral_reef",
+    "citationTitle": "Wikipedia: Coral reef"
+  },
+  {
+    "id": "b18bf127-48e2-4876-80a6-ebd58b6ad672",
+    "text": "Which fish is known as the fastest swimmer in the ocean?",
+    "options": [
+      "Tuna",
+      "Sailfish",
+      "Marlin",
+      "Swordfish"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Sailfish are considered the fastest fish in the ocean, reaching speeds up to 68 mph.",
+    "detailedExplanation": "Sailfish are widely recognized as the ocean's speed champions, capable of reaching burst speeds of up to 68 mph (110 km/h). Their distinctive large dorsal fin (sail) can be raised or lowered, and their streamlined body shape and powerful tail make them incredibly efficient swimmers, especially when hunting schools of smaller fish.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Sailfish",
+    "citationTitle": "Wikipedia: Sailfish"
+  },
+  {
+    "id": "26d225df-2157-4780-98f8-757e70d9d399",
+    "text": "What causes ocean tides on Earth?",
+    "options": [
+      "Wind patterns",
+      "Ocean currents",
+      "The Moon's gravity",
+      "Water temperature"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Ocean tides are primarily caused by the gravitational pull of the Moon.",
+    "detailedExplanation": "Ocean tides are caused mainly by the Moon's gravitational force pulling on Earth's water. As the Moon orbits Earth, its gravity creates a bulge of water on the side of Earth closest to it, and another bulge on the opposite side due to centrifugal force. The Sun also contributes to tides, but its effect is about half as strong as the Moon's due to its much greater distance from Earth.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Tide",
+    "citationTitle": "Wikipedia: Tide"
+  },
+  {
+    "id": "21a5f8e2-8a1b-450c-b274-a46660183c2c",
+    "text": "Which ocean zone receives no sunlight?",
+    "options": [
+      "Sunlight zone",
+      "Twilight zone",
+      "Midnight zone",
+      "Abyssal zone"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "The midnight zone, also called the bathypelagic zone, is completely dark as no sunlight penetrates this deep.",
+    "detailedExplanation": "The ocean is divided into several zones based on depth and light penetration. The midnight zone, or bathypelagic zone, extends from about 1,000 to 4,000 meters deep and receives absolutely no sunlight. This creates a perpetually dark environment where temperatures are near freezing and pressure is immense. Despite these harsh conditions, many fascinating creatures have adapted to live here, including giant squid, anglerfish, and vampire squid.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Bathypelagic_zone",
+    "citationTitle": "Wikipedia: Bathypelagic zone"
+  },
+  {
+    "id": "49555119-ea1f-43cd-ab4e-6d6fde62fb21",
+    "text": "What is a group of fish swimming together called?",
+    "options": [
+      "A flock",
+      "A school",
+      "A herd",
+      "A pack"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "A group of fish swimming together is called a school.",
+    "detailedExplanation": "When fish swim together in a coordinated group, it's called a school or shoal. Schooling is a common behavior that provides several survival advantages including protection from predators, improved feeding efficiency, and better navigation. Fish in schools can move as one unit, creating the illusion of a much larger organism to potential predators. Some schools can contain millions of individual fish moving in perfect synchronization.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Shoaling_and_schooling",
+    "citationTitle": "Wikipedia: Shoaling and schooling"
+  },
+  {
+    "id": "0f2e7ae6-5f59-4cd9-82d8-44a3fb073914",
+    "text": "What causes ocean tides?",
+    "options": [
+      "Ocean currents",
+      "Wind patterns",
+      "The Moon's gravitational pull",
+      "Underwater earthquakes"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Ocean tides are primarily caused by the gravitational pull of the Moon on Earth's oceans.",
+    "detailedExplanation": "Tides are the regular rise and fall of ocean levels caused primarily by the gravitational attraction between the Earth and Moon. As the Moon orbits Earth, its gravitational pull creates a bulge of water on the side of Earth facing the Moon, and another bulge on the opposite side due to centrifugal force. The Sun also influences tides, and when the Sun and Moon align, they create stronger 'spring tides.' Most coastal areas experience two high tides and two low tides each day.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Tide",
+    "citationTitle": "Wikipedia: Tide"
+  },
+  {
+    "id": "4c622da5-1b24-4efc-92d4-4f8d17f39047",
+    "text": "Which marine animal is known as the 'sea cow'?",
+    "options": [
+      "Walrus",
+      "Seal",
+      "Manatee",
+      "Sea otter"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Manatees are commonly called 'sea cows' due to their gentle nature and plant-eating diet.",
+    "detailedExplanation": "Manatees earned the nickname 'sea cows' because of their peaceful, slow-moving nature and their diet consisting entirely of aquatic plants and seagrass. These large, gentle marine mammals can weigh up to 1,200 pounds and spend most of their time grazing in shallow, warm coastal waters. Like cows on land, they are herbivores that spend much of their day eating, consuming up to 10% of their body weight in vegetation daily. They are found in warm waters of the Caribbean, Gulf of Mexico, Amazon Basin, and West Africa.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Manatee",
+    "citationTitle": "Wikipedia: Manatee"
+  },
+  {
+    "id": "dccff572-e40c-4c44-a8c0-daa32c01614c",
+    "text": "Which is the largest ocean on Earth?",
+    "options": [
+      "Atlantic Ocean",
+      "Indian Ocean",
+      "Arctic Ocean",
+      "Pacific Ocean"
+    ],
+    "correctIndex": 3,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "The Pacific Ocean is the largest ocean, covering about one-third of Earth's surface.",
+    "detailedExplanation": "The Pacific Ocean is by far the largest ocean on Earth, covering approximately 165 million square kilometers and containing more than half of the world's ocean water. It stretches from Asia and Australia to the Americas and is larger than all land areas combined. The Pacific is also the deepest ocean, containing the Mariana Trench.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Pacific_Ocean",
+    "citationTitle": "Wikipedia: Pacific Ocean"
+  },
+  {
+    "id": "36b96363-c9d6-4151-9acf-ad49f3cd0d4e",
+    "text": "What is the largest animal ever known to have lived on Earth?",
+    "options": [
+      "African Elephant",
+      "Blue Whale",
+      "Tyrannosaurus Rex",
+      "Giant Squid"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "The blue whale is the largest animal ever known, reaching lengths up to 100 feet.",
+    "detailedExplanation": "Blue whales are the largest animals ever known to have lived on Earth, even larger than the biggest dinosaurs. They can reach lengths of up to 30 meters (100 feet) and weigh as much as 200 tons. Their hearts alone can weigh as much as a car, and their tongues can weigh as much as an elephant. Despite their enormous size, they feed primarily on tiny krill.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Blue_whale",
+    "citationTitle": "Wikipedia: Blue whale"
+  },
+  {
+    "id": "a6256315-79fa-4140-a4d0-5b7a80c3765f",
+    "text": "What do we call the area where a river meets the ocean?",
+    "options": [
+      "Delta",
+      "Estuary",
+      "Bay",
+      "Lagoon"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "An estuary is where fresh river water meets and mixes with salt water from the ocean.",
+    "detailedExplanation": "An estuary is a partially enclosed coastal water body where freshwater from rivers and streams meets and mixes with salt water from the ocean. These areas are among the most productive ecosystems on Earth, serving as nurseries for many fish species and providing critical habitat for birds, marine mammals, and other wildlife. Examples include the Chesapeake Bay and San Francisco Bay.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Estuary",
+    "citationTitle": "Wikipedia: Estuary"
+  },
+  {
+    "id": "3df58fc7-1245-45d4-b94e-e40c8c019e3d",
+    "text": "What is coral made of?",
+    "options": [
+      "Plants",
+      "Rocks",
+      "Small animals",
+      "Seaweed"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Coral is made of tiny marine animals called coral polyps.",
+    "detailedExplanation": "Coral reefs are built by small marine animals called coral polyps, which are related to jellyfish and sea anemones. These tiny animals secrete calcium carbonate to form hard, protective skeletons around themselves. Over time, thousands of these skeletons build up to create the large reef structures we see. Coral polyps also have a symbiotic relationship with algae called zooxanthellae, which live in their tissues and provide them with food through photosynthesis.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Coral",
+    "citationTitle": "Wikipedia: Coral"
+  },
+  {
+    "id": "7675dd75-5ac8-4a66-ae2d-ab14b23443e4",
+    "text": "What is the largest animal that has ever lived on Earth?",
+    "options": [
+      "African Elephant",
+      "Blue Whale",
+      "Tyrannosaurus Rex",
+      "Giant Squid"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "The blue whale is the largest animal ever known to have lived on Earth, reaching lengths up to 100 feet.",
+    "detailedExplanation": "Blue whales are not only the largest animals currently living on Earth, but they are also the largest animals that have ever existed, including dinosaurs. These magnificent marine mammals can reach lengths of up to 100 feet (30 meters) and weigh as much as 200 tons. Their hearts alone can weigh as much as a car, and their tongues can weigh as much as an elephant. Despite their enormous size, blue whales feed primarily on tiny shrimp-like creatures called krill.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Blue_whale",
+    "citationTitle": "Wikipedia: Blue whale"
+  },
+  {
+    "id": "f31da511-a76f-4895-9656-95ef05880e99",
+    "text": "Which ocean zone receives no sunlight and is completely dark?",
+    "options": [
+      "Sunlight Zone",
+      "Twilight Zone",
+      "Midnight Zone",
+      "Abyssal Zone"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "The Midnight Zone (bathypelagic zone) begins at about 1,000 meters deep where no sunlight can penetrate.",
+    "detailedExplanation": "The ocean is divided into several depth zones based on the amount of sunlight they receive. The Midnight Zone, also known as the bathypelagic zone, extends from about 1,000 to 4,000 meters below the surface and is characterized by complete darkness as no sunlight can penetrate this deep. This zone maintains near-freezing temperatures and crushing pressure, yet it's home to fascinating creatures like anglerfish, vampire squid, and bioluminescent organisms that create their own light through chemical reactions.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Bathypelagic_zone",
+    "citationTitle": "Wikipedia: Bathypelagic zone"
+  },
+  {
+    "id": "8b7614a9-2730-4816-9af0-8dfda853c666",
+    "text": "Approximately what percentage of Earth's surface is covered by oceans?",
+    "options": [
+      "51%",
+      "63%",
+      "71%",
+      "84%"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Oceans cover approximately 71% of Earth's surface.",
+    "detailedExplanation": "The oceans cover about 361 million square kilometers of Earth's surface, which equals roughly 71% of the planet's total surface area. This vast body of water is divided into five major oceans: the Pacific, Atlantic, Indian, Southern, and Arctic oceans. The Pacific Ocean alone covers about one-third of Earth's surface, making it larger than all the land masses combined.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Ocean",
+    "citationTitle": "Wikipedia: Ocean"
+  }
+]

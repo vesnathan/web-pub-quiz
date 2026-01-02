@@ -1,6 +1,7 @@
-'use client';
+"use client";
 
-import Link from 'next/link';
+import Link from "next/link";
+import { NotificationButton } from "./NotificationButton";
 
 export function Footer() {
   const currentYear = new Date().getFullYear();
@@ -12,7 +13,8 @@ export function Footer() {
           <div className="text-gray-400 text-sm">
             &copy; {currentYear} QuizNight.live. All rights reserved.
           </div>
-          <nav className="flex gap-6">
+          <nav className="flex items-center gap-6">
+            <NotificationButton />
             <Link
               href="/privacy"
               className="text-gray-400 hover:text-white text-sm transition-colors"

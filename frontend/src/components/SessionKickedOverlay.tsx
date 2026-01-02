@@ -1,14 +1,16 @@
-'use client';
+"use client";
 
-import { motion } from 'framer-motion';
-import { Button } from '@nextui-org/react';
-import { useRouter } from 'next/navigation';
-import { useGameStore } from '@/stores/gameStore';
+import { motion } from "framer-motion";
+import { Button } from "@nextui-org/react";
+import { useRouter } from "next/navigation";
+import { useGameStore } from "@/stores/gameStore";
 
 export function SessionKickedOverlay() {
   const router = useRouter();
   const sessionKicked = useGameStore((state) => state.sessionKicked);
-  const sessionKickedReason = useGameStore((state) => state.sessionKickedReason);
+  const sessionKickedReason = useGameStore(
+    (state) => state.sessionKickedReason,
+  );
   const setSessionKicked = useGameStore((state) => state.setSessionKicked);
 
   if (!sessionKicked) {
@@ -23,7 +25,7 @@ export function SessionKickedOverlay() {
 
   const handleGoHome = () => {
     setSessionKicked(false);
-    router.push('/');
+    router.push("/");
   };
 
   return (
@@ -34,7 +36,9 @@ export function SessionKickedOverlay() {
         className="max-w-md mx-4 p-8 bg-gray-900 rounded-xl border border-red-500/50 shadow-2xl text-center"
       >
         <div className="text-6xl mb-4">
-          <span role="img" aria-label="warning">&#x26A0;&#xFE0F;</span>
+          <span role="img" aria-label="warning">
+            &#x26A0;&#xFE0F;
+          </span>
         </div>
 
         <h2 className="text-2xl font-bold text-red-400 mb-4">
@@ -42,7 +46,8 @@ export function SessionKickedOverlay() {
         </h2>
 
         <p className="text-gray-300 mb-6">
-          {sessionKickedReason || 'Your session was ended because you logged in from another location.'}
+          {sessionKickedReason ||
+            "Your session was ended because you logged in from another location."}
         </p>
 
         <p className="text-gray-500 text-sm mb-8">

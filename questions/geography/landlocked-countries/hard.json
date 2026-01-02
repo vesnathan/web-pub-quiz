@@ -1,0 +1,342 @@
+[
+  {
+    "id": "eb68f6b7-2e2e-47af-91d1-21a02e542664",
+    "text": "Which landlocked country has the most neighboring countries?",
+    "options": [
+      "Kazakhstan",
+      "China",
+      "Austria",
+      "Chad"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "China borders 14 countries, making it the landlocked country with the most neighbors.",
+    "detailedExplanation": "China shares land borders with 14 different countries: North Korea, Russia, Mongolia, Kazakhstan, Kyrgyzstan, Tajikistan, Afghanistan, Pakistan, India, Nepal, Bhutan, Myanmar, Laos, and Vietnam. This makes it the landlocked country with the most neighboring nations, despite also having extensive coastlines along the Pacific Ocean.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Borders_of_China",
+    "citationTitle": "Wikipedia: Borders of China"
+  },
+  {
+    "id": "22d69c78-8a00-4409-9698-059ba2cebd11",
+    "text": "Which is the only triply landlocked country in the world?",
+    "options": [
+      "Liechtenstein",
+      "San Marino",
+      "Vatican City",
+      "Uzbekistan"
+    ],
+    "correctIndex": 3,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "Uzbekistan is triply landlocked, meaning you must cross at least three borders to reach an ocean.",
+    "detailedExplanation": "Uzbekistan is the world's only triply landlocked country, meaning it is surrounded entirely by landlocked countries, requiring passage through at least three international borders to reach an ocean or sea. The country is bordered by Kazakhstan, Kyrgyzstan, Tajikistan, Afghanistan, and Turkmenistan - all of which are also landlocked nations.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Landlocked_country",
+    "citationTitle": "Wikipedia: Landlocked country"
+  },
+  {
+    "id": "ceefe442-d27e-429e-bdae-661b970f0b91",
+    "text": "What is the largest landlocked country by area?",
+    "options": [
+      "Mongolia",
+      "Chad",
+      "Kazakhstan",
+      "Niger"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "Kazakhstan is the largest landlocked country, covering approximately 2.7 million square kilometers.",
+    "detailedExplanation": "Kazakhstan, with an area of approximately 2,724,900 square kilometers (1,052,000 square miles), is the world's largest landlocked country. It's also the ninth-largest country in the world overall. The country is located in Central Asia and is bordered by Russia, China, Kyrgyzstan, Uzbekistan, and Turkmenistan, with coastlines only on the landlocked Caspian and Aral seas.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Kazakhstan",
+    "citationTitle": "Wikipedia: Kazakhstan"
+  },
+  {
+    "id": "6b02d244-4b38-474f-a636-d6d1aaf47bb6",
+    "text": "Which European landlocked country was the last to join the United Nations?",
+    "options": [
+      "Switzerland",
+      "Andorra",
+      "Liechtenstein",
+      "San Marino"
+    ],
+    "correctIndex": 0,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "Switzerland joined the UN in 2002, making it the last landlocked European country to join.",
+    "detailedExplanation": "Switzerland joined the United Nations on September 10, 2002, following a referendum where 54.6% of Swiss voters approved membership. This made Switzerland the 190th member of the UN and the last major European country to join the organization. Switzerland's long-standing policy of neutrality had previously kept it from joining international organizations, though it had been an observer since 1948.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Switzerland_and_the_United_Nations",
+    "citationTitle": "Wikipedia: Switzerland and the United Nations"
+  },
+  {
+    "id": "3e194a4c-c191-4251-b18f-4e25901b3e5b",
+    "text": "Which landlocked African country completely surrounds another country?",
+    "options": [
+      "Chad",
+      "Central African Republic",
+      "South Africa",
+      "Mali"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "South Africa completely surrounds the landlocked kingdom of Lesotho.",
+    "detailedExplanation": "South Africa is unique in that it completely surrounds the small mountainous kingdom of Lesotho, making Lesotho an enclave within South Africa. While South Africa itself has extensive coastlines and is not landlocked, this geographic arrangement makes it the answer to which country surrounds another. Lesotho covers about 30,355 square kilometers and is entirely dependent on South Africa for access to the sea.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Lesotho",
+    "citationTitle": "Wikipedia: Lesotho"
+  },
+  {
+    "id": "9810128a-3259-4896-a7ae-9e4a3c8c33cd",
+    "text": "Which Central Asian landlocked country has never changed its capital city since independence?",
+    "options": [
+      "Uzbekistan",
+      "Kyrgyzstan",
+      "Tajikistan",
+      "Turkmenistan"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "Kyrgyzstan has maintained Bishkek as its capital since gaining independence in 1991.",
+    "detailedExplanation": "Kyrgyzstan is the only Central Asian country that has kept the same capital city since independence. Bishkek (formerly called Frunze during Soviet times) has remained the capital since 1991. In contrast, Kazakhstan moved its capital from Almaty to Nur-Sultan (formerly Astana) in 1997, while Uzbekistan, Tajikistan, and Turkmenistan have all maintained their Soviet-era capitals but with name changes.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Bishkek",
+    "citationTitle": "Wikipedia: Bishkek"
+  },
+  {
+    "id": "8fe5220d-be2e-4019-a219-035f94b3d3e5",
+    "text": "Which landlocked country has the highest GDP per capita?",
+    "options": [
+      "Switzerland",
+      "Luxembourg",
+      "Liechtenstein",
+      "Austria"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "Luxembourg has one of the world's highest GDP per capita figures among landlocked nations.",
+    "detailedExplanation": "Luxembourg consistently ranks as having one of the highest GDP per capita in the world, often exceeding $100,000 per person. This small landlocked European nation has built its wealth through banking, financial services, and steel production. Despite being only 2,586 square kilometers in area, Luxembourg's strategic location and business-friendly policies have made it a major financial center in Europe.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Luxembourg",
+    "citationTitle": "Wikipedia: Luxembourg"
+  },
+  {
+    "id": "425ff8ad-32d3-492b-816a-5f6ddbf3b907",
+    "text": "Which landlocked country was formed most recently as a result of partition?",
+    "options": [
+      "South Sudan",
+      "Czech Republic",
+      "Slovakia",
+      "North Macedonia"
+    ],
+    "correctIndex": 0,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "South Sudan became independent in 2011, making it the world's newest landlocked country.",
+    "detailedExplanation": "South Sudan gained independence from Sudan on July 9, 2011, following a referendum in which nearly 99% of voters chose independence. This made South Sudan the world's newest country and the most recently formed landlocked nation. The partition was the result of decades of civil war between the predominantly Arab and Muslim north and the predominantly Christian and animist south of Sudan.",
+    "citationUrl": "https://en.wikipedia.org/wiki/South_Sudan",
+    "citationTitle": "Wikipedia: South Sudan"
+  },
+  {
+    "id": "dec5da4a-ab9b-4d72-9d3b-128d0d65c9d4",
+    "text": "Which landlocked country is doubly landlocked and has the largest area?",
+    "options": [
+      "Kazakhstan",
+      "Uzbekistan",
+      "Liechtenstein",
+      "Vatican City"
+    ],
+    "correctIndex": 0,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "Kazakhstan is the world's largest landlocked country and is doubly landlocked (surrounded only by other landlocked countries).",
+    "detailedExplanation": "Kazakhstan, with an area of approximately 2.7 million square kilometers, is not only the world's largest landlocked country but also one of only two doubly landlocked countries (the other being Uzbekistan). Being doubly landlocked means it is surrounded entirely by other landlocked countries, making access to the sea require crossing at least two international borders.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Kazakhstan",
+    "citationTitle": "Wikipedia: Kazakhstan"
+  },
+  {
+    "id": "56ad71c9-db07-4b3a-b80b-7cc302aed290",
+    "text": "Which African landlocked country was formerly known as Upper Volta?",
+    "options": [
+      "Mali",
+      "Niger",
+      "Burkina Faso",
+      "Chad"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "Burkina Faso was called Upper Volta during French colonial rule and changed its name in 1984.",
+    "detailedExplanation": "Burkina Faso, located in West Africa, was known as Upper Volta (Haute-Volta in French) from 1919 until 1984. The country gained independence from France in 1960 but retained the name Upper Volta until President Thomas Sankara changed it to Burkina Faso, meaning 'Land of Honest Men' in the local languages. It is surrounded by six countries and has no access to the sea.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Burkina_Faso",
+    "citationTitle": "Wikipedia: Burkina Faso"
+  },
+  {
+    "id": "17be559e-8fe9-43db-aa41-98c688e001cb",
+    "text": "Which landlocked European microstate has no military and is protected by Austria?",
+    "options": [
+      "San Marino",
+      "Vatican City",
+      "Monaco",
+      "Liechtenstein"
+    ],
+    "correctIndex": 3,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "Liechtenstein abolished its army in 1868 and relies on Austria for defense under a customs union agreement.",
+    "detailedExplanation": "Liechtenstein is a doubly landlocked microstate between Austria and Switzerland. It abolished its military in 1868 due to its high cost and has remained neutral since. The country has a customs union with Switzerland for economic matters but maintains a defense agreement with Austria. With only 160 square kilometers and about 39,000 inhabitants, it's one of the world's smallest countries.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Liechtenstein",
+    "citationTitle": "Wikipedia: Liechtenstein"
+  },
+  {
+    "id": "90151ef7-fdac-43de-bd21-5b17868b5c73",
+    "text": "Which Central Asian landlocked country is the world's largest producer of uranium?",
+    "options": [
+      "Uzbekistan",
+      "Turkmenistan",
+      "Kazakhstan",
+      "Kyrgyzstan"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "Kazakhstan produces approximately 40% of the world's uranium supply, making it the largest producer globally.",
+    "detailedExplanation": "Kazakhstan has dominated global uranium production since 2009, accounting for about 40% of the world's supply. The country's uranium reserves are primarily located in the south and are extracted through in-situ leaching methods. This landlocked nation has leveraged its vast mineral resources, including uranium, oil, and natural gas, to become one of the wealthiest countries in Central Asia despite having no direct access to the sea.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Uranium_mining_in_Kazakhstan",
+    "citationTitle": "Wikipedia: Uranium mining in Kazakhstan"
+  },
+  {
+    "id": "07b70ccf-b8ee-4d07-b0b2-7cf622b22604",
+    "text": "Which landlocked country in Africa has the highest population?",
+    "options": [
+      "Ethiopia",
+      "Uganda",
+      "Chad",
+      "Central African Republic"
+    ],
+    "correctIndex": 0,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "Ethiopia, with over 120 million people, is Africa's most populous landlocked country and second most populous country overall.",
+    "detailedExplanation": "Ethiopia is not only Africa's most populous landlocked country but also the second most populous country on the entire continent, with a population exceeding 120 million people. Located in the Horn of Africa, Ethiopia lost its access to the Red Sea when Eritrea gained independence in 1993. Despite being landlocked, Ethiopia has maintained significant regional influence and is home to the African Union headquarters in Addis Ababa.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Ethiopia",
+    "citationTitle": "Wikipedia: Ethiopia"
+  },
+  {
+    "id": "9aad5643-db30-4622-8aaa-f05dbf639b49",
+    "text": "Which landlocked country was the first to declare independence from the Soviet Union?",
+    "options": [
+      "Lithuania",
+      "Latvia",
+      "Armenia",
+      "Belarus"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "Armenia declared independence on September 21, 1991, becoming the first landlocked Soviet republic to do so.",
+    "detailedExplanation": "Armenia declared its independence from the Soviet Union on September 21, 1991, making it the first landlocked former Soviet republic to achieve independence during the dissolution of the USSR. Located in the South Caucasus region, Armenia is bordered by Turkey, Georgia, Azerbaijan, and Iran. The country has no direct access to the sea and has faced economic challenges due to closed borders with Turkey and Azerbaijan.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Armenia",
+    "citationTitle": "Wikipedia: Armenia"
+  },
+  {
+    "id": "604b9b73-220b-4b45-a0ff-10b6c6165e0b",
+    "text": "Which landlocked Asian country has Thimphu as its capital and measures Gross National Happiness?",
+    "options": [
+      "Nepal",
+      "Bhutan",
+      "Laos",
+      "Mongolia"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "Bhutan's capital is Thimphu, and it uniquely measures Gross National Happiness instead of just GDP as a development indicator.",
+    "detailedExplanation": "Bhutan, a small Himalayan kingdom landlocked between China and India, has Thimphu as its capital and is famous for prioritizing Gross National Happiness over Gross Domestic Product as a measure of progress. This Buddhist kingdom has maintained its unique cultural identity while transitioning to a constitutional monarchy. Bhutan is also notable for being carbon-negative, absorbing more CO2 than it produces, making it one of the world's most environmentally conscious nations.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Bhutan",
+    "citationTitle": "Wikipedia: Bhutan"
+  },
+  {
+    "id": "54cfa8bf-4f5b-4319-a8c0-a47ee9852690",
+    "text": "Which landlocked country has the longest border with another single country?",
+    "options": [
+      "Mongolia with China",
+      "Kazakhstan with Russia",
+      "Afghanistan with Pakistan",
+      "Chad with Libya"
+    ],
+    "correctIndex": 0,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "Mongolia's border with China stretches 4,630 kilometers, making it the longest single border of any landlocked country.",
+    "detailedExplanation": "Mongolia, despite being sandwiched between two giants, shares its longest border with China at 4,630 kilometers (2,877 miles). While Mongolia also borders Russia to the north, that border is considerably shorter at 3,485 kilometers. This makes Mongolia's southern border with China the longest continuous border that any landlocked country shares with a single neighbor, highlighting the massive scale of both Mongolia and China's territories.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Mongolia%E2%80%93China_border",
+    "citationTitle": "Wikipedia: Mongolia–China border"
+  },
+  {
+    "id": "9d09b1cb-b438-46d3-970f-fef95c9da52c",
+    "text": "Which of these landlocked countries was the last to gain independence?",
+    "options": [
+      "South Sudan (2011)",
+      "Czech Republic (1993)",
+      "Kazakhstan (1991)",
+      "Slovakia (1993)"
+    ],
+    "correctIndex": 0,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "South Sudan gained independence from Sudan in 2011, making it the world's newest landlocked country.",
+    "detailedExplanation": "South Sudan declared independence on July 9, 2011, following a referendum in which nearly 99% of voters chose to secede from Sudan. This made South Sudan not only the world's newest country but also the newest landlocked nation. The country's independence came after decades of civil war and was part of a peace agreement. Despite hopes for prosperity due to oil reserves, South Sudan has faced significant challenges including internal conflict and economic difficulties since independence.",
+    "citationUrl": "https://en.wikipedia.org/wiki/South_Sudan",
+    "citationTitle": "Wikipedia: South Sudan"
+  },
+  {
+    "id": "0490192b-7f73-4741-ad50-c9a9ed227a73",
+    "text": "What is the term for a landlocked country that is completely surrounded by another single country?",
+    "options": [
+      "Enclave",
+      "Exclave",
+      "Buffer state",
+      "Client state"
+    ],
+    "correctIndex": 0,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "An enclave is a territory completely enclosed by another country's territory, with San Marino, Vatican City, and Lesotho being examples.",
+    "detailedExplanation": "An enclave is a geographical and political term describing a territory that is entirely surrounded by the territory of another country. The three sovereign enclaves in the world are all landlocked: Vatican City and San Marino (both surrounded by Italy) and Lesotho (surrounded by South Africa). This makes these countries not just landlocked, but completely dependent on their surrounding nation for any access to the outside world, including reaching international waters or other countries.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Enclave_and_exclave",
+    "citationTitle": "Wikipedia: Enclave and exclave"
+  },
+  {
+    "id": "e42f6884-9e08-4d2f-b7eb-e4611c84a8d7",
+    "text": "How many landlocked countries are there that are 'doubly landlocked' (surrounded only by other landlocked countries)?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "Only two countries are doubly landlocked: Uzbekistan and Liechtenstein.",
+    "detailedExplanation": "A doubly landlocked country is one that is not only landlocked itself, but is also completely surrounded by other landlocked countries, meaning you must cross at least two borders to reach a coastline. Only two such countries exist: Uzbekistan in Central Asia (surrounded by Afghanistan, Kazakhstan, Kyrgyzstan, Tajikistan, and Turkmenistan) and Liechtenstein in Europe (bordered by Austria and Switzerland). This geographical situation makes these countries particularly dependent on their neighbors for trade routes and access to international waters.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Landlocked_country",
+    "citationTitle": "Wikipedia: Landlocked country"
+  },
+  {
+    "id": "edfaace1-c01a-4169-892b-98f9969751b6",
+    "text": "Which landlocked country has the most time zones within its borders?",
+    "options": [
+      "Kazakhstan",
+      "Mongolia",
+      "Afghanistan",
+      "Chad"
+    ],
+    "correctIndex": 0,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "Kazakhstan spans 5 time zones, more than any other landlocked country.",
+    "detailedExplanation": "Kazakhstan, the world's largest landlocked country by land area, stretches across five time zones from UTC+5 to UTC+6 (though it officially uses only two time zones since 2004). This vast Central Asian nation extends approximately 3,000 kilometers from east to west, making it wider than the continental United States. While other large landlocked countries like Mongolia span significant distances, none cover as many time zones as Kazakhstan's enormous territory, which encompasses over 2.7 million square kilometers.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Kazakhstan",
+    "citationTitle": "Wikipedia: Kazakhstan"
+  }
+]

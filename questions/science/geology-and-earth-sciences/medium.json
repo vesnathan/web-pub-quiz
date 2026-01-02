@@ -1,0 +1,342 @@
+[
+  {
+    "id": "ca9e612c-fb59-4fee-a1dd-1380459d4048",
+    "text": "Which type of rock is formed from the cooling and solidification of magma or lava?",
+    "options": [
+      "Sedimentary",
+      "Metamorphic",
+      "Igneous",
+      "Composite"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Igneous rocks form when molten rock (magma underground or lava above ground) cools and solidifies.",
+    "detailedExplanation": "Igneous rocks are one of the three main rock types in geology, formed through the cooling and solidification of magma or lava. When magma cools slowly underground, it forms intrusive igneous rocks like granite with large crystals. When lava cools quickly on the Earth's surface, it forms extrusive igneous rocks like basalt with small crystals. This process is fundamental to the rock cycle and plays a crucial role in Earth's geological processes.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Igneous_rock",
+    "citationTitle": "Wikipedia: Igneous rock"
+  },
+  {
+    "id": "e7b0837c-38f5-4834-b85c-ab347825cd5d",
+    "text": "What causes the majority of earthquakes around the world?",
+    "options": [
+      "Volcanic eruptions",
+      "Tectonic plate movement",
+      "Underground explosions",
+      "Meteor impacts"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Most earthquakes are caused by the movement and interaction of tectonic plates at their boundaries.",
+    "detailedExplanation": "The Earth's lithosphere is divided into several large tectonic plates that are constantly moving due to convection currents in the underlying mantle. When these plates interact at their boundaries—whether they're pulling apart, pushing together, or sliding past each other—they create stress that eventually releases as seismic energy, causing earthquakes. The theory of plate tectonics explains not only earthquakes but also the distribution of volcanoes, mountain ranges, and ocean basins.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Earthquake",
+    "citationTitle": "Wikipedia: Earthquake"
+  },
+  {
+    "id": "4a5cfe90-c529-4d1d-a287-633a27811e5e",
+    "text": "Which scale is used to measure the intensity of earthquakes based on observed effects?",
+    "options": [
+      "Richter Scale",
+      "Mercalli Scale",
+      "Fujita Scale",
+      "Beaufort Scale"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "The Mercalli Scale measures earthquake intensity based on observed damage and effects, while the Richter Scale measures magnitude.",
+    "detailedExplanation": "The Modified Mercalli Intensity Scale, developed by Giuseppe Mercalli and later modified by Harry Wood and Frank Neumann, measures the intensity of earthquakes based on observed effects and damage rather than the actual energy released. It uses Roman numerals from I (not felt) to XII (total destruction). This differs from the Richter Scale, which measures magnitude or the actual energy released at the earthquake's source. The Mercalli Scale is particularly useful for historical earthquakes where seismographic data isn't available.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Modified_Mercalli_intensity_scale",
+    "citationTitle": "Wikipedia: Modified Mercalli intensity scale"
+  },
+  {
+    "id": "8ac1c320-4a27-4379-a5e1-f280aba8a362",
+    "text": "What is the most abundant mineral in Earth's crust?",
+    "options": [
+      "Quartz",
+      "Feldspar",
+      "Calcite",
+      "Mica"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Feldspar makes up about 60% of Earth's crust by weight.",
+    "detailedExplanation": "Feldspar is a group of rock-forming tectosilicate minerals that make up about 60% of the Earth's crust by weight. This group includes plagioclase and alkali feldspars, which are essential components of igneous rocks like granite and basalt. While quartz is also very common and well-known, feldspar actually surpasses it in abundance throughout the continental and oceanic crust.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Feldspar",
+    "citationTitle": "Wikipedia: Feldspar"
+  },
+  {
+    "id": "93e50832-09bf-4707-9d02-8e94c3f24d21",
+    "text": "The Mohs scale measures what property of minerals?",
+    "options": [
+      "Density",
+      "Hardness",
+      "Color",
+      "Magnetism"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "The Mohs scale rates mineral hardness from 1 (talc) to 10 (diamond).",
+    "detailedExplanation": "The Mohs scale of mineral hardness was developed by German geologist Friedrich Mohs in 1812. It characterizes the scratch resistance of various minerals through the ability of harder materials to scratch softer ones. The scale ranges from 1 (talc, the softest) to 10 (diamond, the hardest). This relative scale is widely used by geologists and mineralogists to quickly identify minerals in the field.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Mohs_scale",
+    "citationTitle": "Wikipedia: Mohs scale"
+  },
+  {
+    "id": "23ef3418-b9cf-4ec1-a351-80b8dcc29cdd",
+    "text": "Which type of plate boundary is associated with the formation of mid-ocean ridges?",
+    "options": [
+      "Convergent",
+      "Divergent",
+      "Transform",
+      "Subduction"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Divergent boundaries create mid-ocean ridges where tectonic plates move apart and new oceanic crust forms.",
+    "detailedExplanation": "Mid-ocean ridges form at divergent plate boundaries where two tectonic plates move away from each other. As the plates separate, magma rises from the mantle to fill the gap, creating new oceanic crust through a process called seafloor spreading. The Mid-Atlantic Ridge is a prime example, running down the center of the Atlantic Ocean and continuously creating new ocean floor while pushing the continents apart at a rate of a few centimeters per year.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Mid-ocean_ridge",
+    "citationTitle": "Wikipedia: Mid-ocean ridge"
+  },
+  {
+    "id": "6fa34b72-1516-4b6d-96db-a45f334b243f",
+    "text": "What type of rock is formed when limestone undergoes metamorphism?",
+    "options": [
+      "Slate",
+      "Quartzite",
+      "Marble",
+      "Gneiss"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Limestone transforms into marble when subjected to heat and pressure during metamorphism.",
+    "detailedExplanation": "Marble is a metamorphic rock that forms when limestone or dolomite undergoes metamorphism due to heat and pressure deep within the Earth's crust. During this process, the original calcite or dolomite crystals recrystallize to form larger, interlocking crystals that give marble its characteristic appearance and durability. This transformation typically occurs at temperatures between 400-800°C and can result in various colors and patterns depending on the impurities present in the original limestone.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Marble",
+    "citationTitle": "Wikipedia: Marble"
+  },
+  {
+    "id": "a3fe0ae3-222f-418f-882c-54f7d79e7b16",
+    "text": "The Richter scale measures the magnitude of what geological phenomenon?",
+    "options": [
+      "Volcanic eruptions",
+      "Earthquakes",
+      "Landslides",
+      "Tsunamis"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "The Richter scale quantifies the energy released by earthquakes on a logarithmic scale.",
+    "detailedExplanation": "The Richter magnitude scale was developed by Charles Richter in 1935 to measure the magnitude of earthquakes. It's a logarithmic scale, meaning each whole number increase represents a tenfold increase in measured amplitude and roughly 32 times more energy release. While still widely known by the public, seismologists now primarily use the moment magnitude scale (Mw) for more accurate measurements, especially for larger earthquakes. The scale theoretically has no upper limit, though the largest recorded earthquakes have been around magnitude 9.5.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Richter_scale",
+    "citationTitle": "Wikipedia: Richter scale"
+  },
+  {
+    "id": "4f3ff429-8950-49ba-a369-78b4b3020ad8",
+    "text": "Which layer of the Earth's atmosphere contains the ozone layer?",
+    "options": [
+      "Troposphere",
+      "Stratosphere",
+      "Mesosphere",
+      "Thermosphere"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "The ozone layer is located in the stratosphere, approximately 15-35 kilometers above Earth's surface.",
+    "detailedExplanation": "The ozone layer is a region of high ozone concentration located in the lower portion of the stratosphere, approximately 15-35 kilometers above Earth's surface. This layer contains about 90% of the atmosphere's ozone and plays a crucial role in protecting life on Earth by absorbing most of the Sun's harmful ultraviolet radiation. The stratosphere itself extends from about 10-50 kilometers above the surface and is characterized by temperature increasing with altitude, unlike the troposphere below where temperature decreases with height.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Ozone_layer",
+    "citationTitle": "Wikipedia: Ozone layer"
+  },
+  {
+    "id": "e98b934c-d589-4253-9d77-4de2130576fd",
+    "text": "What is the most common type of volcano, characterized by broad, gently sloping sides?",
+    "options": [
+      "Stratovolcano",
+      "Shield volcano",
+      "Cinder cone",
+      "Composite volcano"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Shield volcanoes have broad, gentle slopes formed by the accumulation of fluid lava flows.",
+    "detailedExplanation": "Shield volcanoes are characterized by their broad, gently sloping sides that resemble a warrior's shield lying face up. They are built primarily by the accumulation of fluid lava flows that can travel great distances before cooling and solidifying. These volcanoes typically have slopes of only 2-10 degrees and are formed by basaltic lava, which has low viscosity due to its low silica content. Famous examples include Mauna Loa and Kilauea in Hawaii, and they represent the most common type of volcano on Earth when including those on the ocean floor.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Shield_volcano",
+    "citationTitle": "Wikipedia: Shield volcano"
+  },
+  {
+    "id": "3c304feb-7ece-406a-8e23-d098a9a416b0",
+    "text": "Which type of rock is formed when existing rocks are subjected to extreme heat and pressure without melting?",
+    "options": [
+      "Igneous rock",
+      "Sedimentary rock",
+      "Metamorphic rock",
+      "Volcanic rock"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Metamorphic rocks form when existing rocks undergo metamorphism due to heat, pressure, and chemical processes without completely melting.",
+    "detailedExplanation": "Metamorphic rocks are created through the transformation of existing igneous, sedimentary, or other metamorphic rocks under conditions of intense heat and pressure deep within the Earth's crust. This process, called metamorphism, changes the mineral composition and structure of the original rock without completely melting it. Common examples include marble (from limestone) and slate (from shale). The heat typically comes from proximity to magma or deep burial, while pressure results from tectonic forces or the weight of overlying rocks.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Metamorphic_rock",
+    "citationTitle": "Wikipedia: Metamorphic rock"
+  },
+  {
+    "id": "d24bcb04-cb25-4868-bd04-18922e7fdea7",
+    "text": "What is the name of the boundary where two tectonic plates move away from each other?",
+    "options": [
+      "Transform boundary",
+      "Convergent boundary",
+      "Divergent boundary",
+      "Subduction zone"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Divergent boundaries occur where tectonic plates separate, creating new oceanic crust as magma rises to fill the gap.",
+    "detailedExplanation": "Divergent boundaries are locations where tectonic plates are moving apart from each other. As the plates separate, magma from the mantle rises to fill the gap, creating new oceanic crust. The most prominent examples are mid-ocean ridges, such as the Mid-Atlantic Ridge. These boundaries are characterized by volcanic activity, earthquakes, and the formation of new seafloor. On land, divergent boundaries can create rift valleys, like the East African Rift System, which may eventually become new ocean basins if the process continues.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Divergent_boundary",
+    "citationTitle": "Wikipedia: Divergent boundary"
+  },
+  {
+    "id": "3c5815eb-1afe-4d63-bc0b-3ba6a3fb4ad3",
+    "text": "What is the approximate age of the Earth according to radiometric dating?",
+    "options": [
+      "2.5 billion years",
+      "3.2 billion years",
+      "4.5 billion years",
+      "6.8 billion years"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Radiometric dating of meteorites and the oldest Earth rocks indicates our planet formed approximately 4.54 billion years ago.",
+    "detailedExplanation": "The age of Earth has been determined through radiometric dating techniques applied to meteorites, moon rocks, and the oldest terrestrial rocks. Scientists have calculated Earth's age to be approximately 4.54 billion years, with an uncertainty of about 50 million years. This dating is based on the decay of radioactive isotopes, particularly uranium-lead dating of zircon crystals and dating of meteorites that formed around the same time as Earth. The oldest rocks found on Earth are about 4.0-4.4 billion years old, but meteorites provide the most reliable evidence for the planet's formation age.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Age_of_Earth",
+    "citationTitle": "Wikipedia: Age of Earth"
+  },
+  {
+    "id": "ed88fc30-5a3f-457a-a99d-fb578836f6d0",
+    "text": "Which scale is used to measure the hardness of minerals?",
+    "options": [
+      "Richter scale",
+      "Beaufort scale",
+      "Mohs scale",
+      "Mercalli scale"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "The Mohs scale, developed by Friedrich Mohs in 1812, ranks mineral hardness from 1 (talc) to 10 (diamond).",
+    "detailedExplanation": "The Mohs scale of mineral hardness is a qualitative ordinal scale that characterizes scratch resistance of various minerals through the ability of harder materials to scratch softer ones. Created by German geologist Friedrich Mohs in 1812, the scale ranges from 1 (softest) to 10 (hardest). The reference minerals are: talc (1), gypsum (2), calcite (3), fluorite (4), apatite (5), orthoclase feldspar (6), quartz (7), topaz (8), corundum (9), and diamond (10). This scale is widely used in geology, mineralogy, and materials science for quick field identification of minerals.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Mohs_scale_of_mineral_hardness",
+    "citationTitle": "Wikipedia: Mohs scale of mineral hardness"
+  },
+  {
+    "id": "d9d7eb53-8500-4248-bfd9-322e6a4c5201",
+    "text": "What causes the different colors observed in many sedimentary rock layers?",
+    "options": [
+      "Varying pressure during formation",
+      "Different grain sizes",
+      "Iron oxide content and oxidation states",
+      "Fossil content"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Iron oxides in different oxidation states create the red, yellow, brown, and gray colors commonly seen in sedimentary rocks.",
+    "detailedExplanation": "The varied colors in sedimentary rock layers are primarily caused by iron compounds in different oxidation states and other mineral content. Red colors typically result from hematite (Fe₂O₃), an oxidized form of iron that forms in oxygen-rich environments. Yellow and brown colors often come from limonite and other hydrated iron oxides. Gray and black colors may indicate organic matter content or reducing conditions where iron remains unoxidized. Green colors can result from minerals like glauconite. These color variations help geologists interpret ancient environmental conditions, including climate, water chemistry, and atmospheric composition during the time of deposition.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Sedimentary_rock",
+    "citationTitle": "Wikipedia: Sedimentary rock"
+  },
+  {
+    "id": "9cd8bc0f-cc1b-4bc4-8a75-2cc975463598",
+    "text": "Which type of volcanic eruption is characterized by explosive activity and pyroclastic flows?",
+    "options": [
+      "Hawaiian",
+      "Strombolian",
+      "Plinian",
+      "Effusive"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Plinian eruptions are highly explosive volcanic events that produce ash columns and dangerous pyroclastic flows.",
+    "detailedExplanation": "Plinian eruptions are among the most violent and destructive types of volcanic activity, named after Pliny the Younger who described the 79 AD eruption of Mount Vesuvius. These eruptions are characterized by extremely explosive activity that creates towering ash columns reaching 20-35 kilometers into the atmosphere, widespread ashfall, and devastating pyroclastic flows. The high gas content and viscous magma create enormous pressure that results in these catastrophic explosions. Famous examples include Mount Vesuvius (79 AD), Mount Tambora (1815), and Mount St. Helens (1980). The pyroclastic flows can travel at speeds over 100 km/h and temperatures exceeding 800°C.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Plinian_eruption",
+    "citationTitle": "Wikipedia: Plinian eruption"
+  },
+  {
+    "id": "7e759913-c596-4940-8e5b-1ec7db83ca87",
+    "text": "What is the term for the point on Earth's surface directly above an earthquake's focus?",
+    "options": [
+      "Hypocenter",
+      "Epicenter",
+      "Seismic zone",
+      "Fault plane"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "The epicenter is the point on Earth's surface directly above the earthquake's focus (hypocenter) where the rupture occurred.",
+    "detailedExplanation": "The epicenter is the location on Earth's surface that lies directly above the hypocenter (or focus) of an earthquake. The hypocenter is the actual point within the Earth where the earthquake rupture begins and seismic energy is first released. The epicenter is typically where the strongest shaking is felt and often sustains the most damage, though this can vary depending on local geology and the depth of the hypocenter. Seismologists use data from multiple seismograph stations to triangulate and determine the precise location of both the epicenter and hypocenter, which is crucial for understanding earthquake mechanics and assessing seismic hazards.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Epicenter",
+    "citationTitle": "Wikipedia: Epicenter"
+  },
+  {
+    "id": "37e4b81b-8a86-4f2c-af6c-4bb216882913",
+    "text": "Which type of rock is formed when existing rocks are subjected to high temperature and pressure without melting?",
+    "options": [
+      "Metamorphic rock",
+      "Igneous rock",
+      "Sedimentary rock",
+      "Volcanic rock"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Metamorphic rocks form when existing rocks undergo changes due to heat, pressure, or chemical processes without completely melting.",
+    "detailedExplanation": "Metamorphic rocks are created through the process of metamorphism, where pre-existing rocks (called protoliths) are transformed by heat, pressure, and/or chemically active fluids while remaining in a solid state. This process occurs deep within the Earth's crust where temperatures range from 200-700°C and pressures are significantly higher than at the surface. Common examples include marble (from limestone), slate (from shale), and gneiss (from granite). The key distinction is that the rock doesn't melt completely - if it did, it would become magma and eventually form igneous rock upon cooling.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Metamorphic_rock",
+    "citationTitle": "Wikipedia: Metamorphic rock"
+  },
+  {
+    "id": "57e218c9-9484-43e7-8800-74bb6da4dccd",
+    "text": "What is the name of the supercontinent that existed approximately 300 million years ago?",
+    "options": [
+      "Rodinia",
+      "Pangaea",
+      "Gondwana",
+      "Laurasia"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Pangaea was the supercontinent that formed during the late Paleozoic era, around 335-175 million years ago, with its peak around 300 million years ago.",
+    "detailedExplanation": "Pangaea (meaning 'all Earth' in Greek) was a supercontinent that existed during the late Paleozoic and early Mesozoic eras. It assembled from earlier continental units approximately 335 million years ago and began to break apart about 175 million years ago. At its peak around 300 million years ago, Pangaea was surrounded by a single global ocean called Panthalassa. The breakup of Pangaea led to the formation of the Atlantic Ocean and ultimately shaped the current configuration of continents. Rodinia was an earlier supercontinent (1.3-0.9 billion years ago), while Gondwana and Laurasia were the two major landmasses that formed when Pangaea initially split.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Pangaea",
+    "citationTitle": "Wikipedia: Pangaea"
+  },
+  {
+    "id": "8b44084c-cb5e-4551-9b4d-eb998cb1bb37",
+    "text": "On the Mohs scale of mineral hardness, which mineral represents a hardness of 7?",
+    "options": [
+      "Feldspar",
+      "Quartz",
+      "Topaz",
+      "Calcite"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Quartz has a hardness of 7 on the Mohs scale, making it harder than steel and able to scratch glass.",
+    "detailedExplanation": "The Mohs scale of mineral hardness was developed by German geologist Friedrich Mohs in 1812 as a qualitative ordinal scale from 1 to 10, where each mineral can scratch those below it. Quartz (SiO₂) defines hardness level 7 on this scale. This makes quartz significantly harder than common materials like steel (around 5.5) and window glass (around 5.5), which is why quartz can scratch both. The complete scale runs: 1-Talc, 2-Gypsum, 3-Calcite, 4-Fluorite, 5-Apatite, 6-Feldspar, 7-Quartz, 8-Topaz, 9-Corundum, 10-Diamond. Quartz's hardness of 7 makes it an important industrial mineral used in everything from sandpaper to electronics.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Mohs_scale_of_mineral_hardness",
+    "citationTitle": "Wikipedia: Mohs scale of mineral hardness"
+  }
+]

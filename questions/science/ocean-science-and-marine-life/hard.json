@@ -1,0 +1,342 @@
+[
+  {
+    "id": "96d4e1a8-878c-4ae1-b0ce-bc4002c584ea",
+    "text": "What is the term for plants that complete their entire life cycle in two growing seasons?",
+    "options": [
+      "Annuals",
+      "Biennials",
+      "Perennials",
+      "Ephemeral"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Biennials are plants that take two years to complete their life cycle, typically growing vegetatively in the first year and flowering in the second.",
+    "detailedExplanation": "Biennial plants have a distinctive two-year life cycle that distinguishes them from annuals (one year) and perennials (multiple years). In the first growing season, biennials typically produce only vegetative growth, forming a rosette of leaves and storing energy in roots or stems. They then experience a cold winter period (vernalization), which is often required to trigger flowering. In the second growing season, they bolt, flower, produce seeds, and die. Classic examples include carrots, parsley, foxglove, and many members of the Brassica family. This strategy allows plants to build substantial energy reserves before reproduction and often helps them compete effectively in disturbed habitats.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Biennial_plant",
+    "citationTitle": "Wikipedia: Biennial plant"
+  },
+  {
+    "id": "03e87901-b5e2-4d47-91eb-d921885906ce",
+    "text": "Which deep-sea creature produces the brightest bioluminescent flash recorded in nature, capable of generating light equivalent to a camera flash?",
+    "options": [
+      "Atolla jellyfish",
+      "Vampire squid",
+      "Anglerfish",
+      "Deep-sea hatchetfish"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "The Atolla jellyfish creates a spectacular 'burglar alarm' display with intense bioluminescent flashes.",
+    "detailedExplanation": "The Atolla jellyfish (Atolla wyvillei) produces what scientists call a 'burglar alarm' - a brilliant circular display of bioluminescent light that can be seen from great distances in the deep ocean. This crown-shaped flash is thought to attract predators to whatever is attacking the jellyfish, essentially calling for help. The intensity of this bioluminescent display is unmatched in the natural world and has been compared to the brightness of a camera flash.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Atolla_jellyfish",
+    "citationTitle": "Wikipedia: Atolla jellyfish"
+  },
+  {
+    "id": "93d4b69f-b573-4637-8ebc-15d8dd75d725",
+    "text": "What is the name of the deepest known point in Earth's oceans, located in the Mariana Trench?",
+    "options": [
+      "Sirena Deep",
+      "Challenger Deep",
+      "Galathea Deep",
+      "Horizon Deep"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Challenger Deep reaches approximately 36,200 feet (11,034 meters) below sea level.",
+    "detailedExplanation": "Challenger Deep is the deepest known point of Earth's seabed, located in the western Pacific Ocean at the southern end of the Mariana Trench. Named after the HMS Challenger II, which first sounded the depths in 1951, it reaches a maximum depth of approximately 36,200 feet (11,034 meters). The immense pressure at this depth is over 1,000 times greater than at sea level, yet remarkably, life still exists in this extreme environment.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Challenger_Deep",
+    "citationTitle": "Wikipedia: Challenger Deep"
+  },
+  {
+    "id": "76733369-07fc-42f5-9f0b-e9499a12ac7b",
+    "text": "Which marine organism has the most complex eyes in the animal kingdom, with 16 types of color receptors compared to humans' three?",
+    "options": [
+      "Giant Pacific octopus",
+      "Mantis shrimp",
+      "Cuttlefish",
+      "Nautilus"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Mantis shrimp have the most sophisticated color vision system known, with 16 types of photoreceptors.",
+    "detailedExplanation": "Mantis shrimp (stomatopods) possess the most complex color vision system in the animal kingdom. While humans have three types of color photoreceptors (seeing red, green, and blue), mantis shrimp have up to 16 different types, allowing them to see ultraviolet, visible, and polarized light. Their compound eyes can move independently and have trinocular vision, giving them incredible depth perception and the ability to detect the most subtle differences in coloration and patterns.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Mantis_shrimp",
+    "citationTitle": "Wikipedia: Mantis shrimp"
+  },
+  {
+    "id": "07f5ee26-e51a-45c2-8716-b4bf2bf6f50d",
+    "text": "What percentage of the ocean's volume is considered the 'twilight zone' or mesopelagic zone?",
+    "options": [
+      "Approximately 20%",
+      "Approximately 40%",
+      "Approximately 60%",
+      "Approximately 80%"
+    ],
+    "correctIndex": 3,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "The mesopelagic zone represents roughly 80% of the ocean's total volume.",
+    "detailedExplanation": "The mesopelagic zone, also known as the twilight zone, extends from approximately 200 to 1,000 meters below the surface and represents about 80% of the ocean's total volume. This vast region receives minimal sunlight and is home to the largest migration on Earth - the daily vertical migration of countless marine organisms. Despite its enormous size, this zone remains one of the least explored regions on our planet, yet it plays a crucial role in ocean ecosystems and carbon cycling.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Mesopelagic_zone",
+    "citationTitle": "Wikipedia: Mesopelagic zone"
+  },
+  {
+    "id": "80fc0b2d-a65a-46c6-b3d3-32e71da26955",
+    "text": "Which process allows certain fish species to control their buoyancy in the water column without using energy?",
+    "options": [
+      "Gill ventilation",
+      "Swim bladder regulation",
+      "Lateral line system",
+      "Countercurrent flow"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Swim bladders allow fish to adjust their density to match the surrounding water for neutral buoyancy.",
+    "detailedExplanation": "The swim bladder is a gas-filled organ that allows fish to control their buoyancy without expending energy on swimming. By adjusting the amount of gas in the bladder, fish can change their overall density to match that of the surrounding water, achieving neutral buoyancy. This remarkable adaptation allows fish to maintain their position in the water column effortlessly. Some fish can actively secrete or absorb gases from their swim bladder through specialized gas glands, while others must adjust by swimming to different depths.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Swim_bladder",
+    "citationTitle": "Wikipedia: Swim bladder"
+  },
+  {
+    "id": "698f894c-28ba-4aba-af6f-88282f5273d4",
+    "text": "What is the scientific term for the phenomenon where deep ocean water rises to the surface, bringing nutrients from the depths?",
+    "options": [
+      "Thermocline circulation",
+      "Upwelling",
+      "Gyration",
+      "Benthic flux"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Upwelling brings nutrient-rich deep water to the surface, supporting marine food webs.",
+    "detailedExplanation": "Upwelling is a critical oceanographic process where deep, cold, nutrient-rich waters rise to the surface, typically driven by wind patterns and the Coriolis effect. This process brings essential nutrients like nitrogen, phosphorus, and silica from the deep ocean to surface waters, where they fuel massive blooms of phytoplankton. Areas of upwelling, such as off the coasts of Peru, California, and West Africa, are among the most productive marine ecosystems on Earth, supporting large populations of fish and marine mammals.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Upwelling",
+    "citationTitle": "Wikipedia: Upwelling"
+  },
+  {
+    "id": "4e6f3992-bd9e-492f-9565-702fca9c74da",
+    "text": "Which whale species has the longest recorded migration of any mammal on Earth?",
+    "options": [
+      "Blue whale",
+      "Gray whale",
+      "Humpback whale",
+      "Bowhead whale"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Gray whales migrate up to 14,000 miles annually between feeding and breeding grounds.",
+    "detailedExplanation": "Gray whales undertake the longest migration of any mammal, traveling up to 14,000 miles (22,500 kilometers) annually in a round trip between their feeding grounds in the Arctic waters of Alaska and their breeding lagoons in the warm waters of Baja California, Mexico. This epic journey takes them along the entire Pacific coast of North America twice per year. The migration is particularly remarkable because the whales fast during most of the journey, relying on stored blubber for energy during the 6-8 month round trip.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Gray_whale",
+    "citationTitle": "Wikipedia: Gray whale"
+  },
+  {
+    "id": "b7d104f7-baac-4109-a65b-a84f39f36c44",
+    "text": "What is the primary component of the 'marine snow' that continuously falls through the ocean's water column?",
+    "options": [
+      "Microscopic plastic particles",
+      "Dead plankton and organic matter",
+      "Volcanic ash sediments",
+      "Dissolved minerals precipitating"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Marine snow consists primarily of organic particles including dead plankton, fecal pellets, and other biological debris.",
+    "detailedExplanation": "Marine snow is a continuous shower of organic material that falls from the upper waters to the deep ocean floor. It consists primarily of dead phytoplankton, zooplankton, bacteria, fecal pellets, cast-off larvacean houses, and other organic debris that clumps together into larger, visible particles. This biological pump is crucial for transporting carbon and nutrients from surface waters to the deep ocean, playing a vital role in global carbon cycling and providing food for deep-sea organisms that depend on this 'snowfall' for survival.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Marine_snow",
+    "citationTitle": "Wikipedia: Marine snow"
+  },
+  {
+    "id": "8b3029a3-9380-4181-8e5b-b64196f47805",
+    "text": "Which bioluminescent marine organism is responsible for creating the 'milky seas' phenomenon observed by sailors?",
+    "options": [
+      "Noctiluca scintillans",
+      "Vibrio harveyi",
+      "Pyrodinium bahamense",
+      "Alexandrium minutum"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Vibrio harveyi bacteria create the rare 'milky seas' phenomenon, causing vast areas of ocean to glow with a steady blue-white light.",
+    "detailedExplanation": "The 'milky seas' effect is a rare bioluminescent phenomenon where large areas of ocean surface emit a steady, uniform blue-white glow that can extend for thousands of square kilometers. This is caused by massive blooms of the bioluminescent bacteria Vibrio harveyi, which differs from typical bioluminescent displays that flash when disturbed. The phenomenon has been documented by sailors for centuries and was first scientifically confirmed using satellite imagery in 2005, detecting a milky sea off the coast of Somalia.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Milky_seas_effect",
+    "citationTitle": "Wikipedia: Milky seas effect"
+  },
+  {
+    "id": "257be5ce-8c91-4e52-bbb8-0cbe0dd77fe8",
+    "text": "What is the primary mechanism by which the Antarctic Circumpolar Current affects global ocean circulation?",
+    "options": [
+      "Creating upwelling zones",
+      "Connecting all major ocean basins",
+      "Generating tidal forces",
+      "Controlling sea ice formation"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "The Antarctic Circumpolar Current is the only current that connects all major ocean basins, making it crucial for global thermohaline circulation.",
+    "detailedExplanation": "The Antarctic Circumpolar Current (ACC) is the world's strongest ocean current and the only one that flows completely around the globe uninterrupted by landmasses. It connects the Atlantic, Pacific, and Indian Oceans, playing a crucial role in global thermohaline circulation by allowing the exchange of water masses between all major ocean basins. The ACC transports approximately 600 times the flow of the Amazon River and helps drive the global conveyor belt of ocean circulation, significantly influencing global climate patterns and heat distribution.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Antarctic_Circumpolar_Current",
+    "citationTitle": "Wikipedia: Antarctic Circumpolar Current"
+  },
+  {
+    "id": "3702d555-a87b-4b16-97bb-8def94a13f8c",
+    "text": "Which deep-sea fish family is known for their ability to unhinge their jaws and expand their stomachs to consume prey larger than themselves?",
+    "options": [
+      "Ceratiidae",
+      "Stomiidae",
+      "Chauliodontidae",
+      "Melanocetidae"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Stomiidae, or dragonfishes, can dramatically unhinge their jaws and expand their stomachs to swallow prey much larger than their normal body size.",
+    "detailedExplanation": "The Stomiidae family, commonly known as dragonfishes or scaleless dragonfishes, are deep-sea predators renowned for their extraordinary feeding adaptations. These fish can unhinge their jaws to an extreme degree and possess highly expandable stomachs, allowing them to consume prey that can be up to 50% of their own body length. This adaptation is crucial for survival in the nutrient-poor deep ocean environment where meals are infrequent. Many species also possess bioluminescent photophores and long, fang-like teeth to capture prey in the darkness of the deep sea.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Stomiidae",
+    "citationTitle": "Wikipedia: Stomiidae"
+  },
+  {
+    "id": "610c2748-e0da-4a42-9728-3a92ae85c552",
+    "text": "What percentage of oxygen in Earth's atmosphere is produced by marine phytoplankton?",
+    "options": [
+      "25-30%",
+      "50-85%",
+      "35-40%",
+      "90-95%"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Marine phytoplankton produce between 50-85% of Earth's oxygen through photosynthesis, making them more important than terrestrial plants for atmospheric oxygen.",
+    "detailedExplanation": "Marine phytoplankton are microscopic photosynthetic organisms that float in ocean waters and are responsible for producing an estimated 50-85% of the oxygen in Earth's atmosphere. These tiny organisms, including diatoms, dinoflagellates, and cyanobacteria, perform photosynthesis on a massive scale across the world's oceans. Despite their microscopic size, their collective impact far exceeds that of terrestrial forests in terms of oxygen production and carbon dioxide absorption, making them essential for maintaining Earth's atmospheric composition and supporting life on our planet.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Phytoplankton",
+    "citationTitle": "Wikipedia: Phytoplankton"
+  },
+  {
+    "id": "4b4a582a-1e94-4d8b-bd2d-7bcc7bb83203",
+    "text": "Which type of whale feeding behavior involves swimming in an upward spiral while releasing a stream of bubbles to trap prey?",
+    "options": [
+      "Lunge feeding",
+      "Bubble net feeding",
+      "Skim feeding",
+      "Ram feeding"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Bubble net feeding is a cooperative hunting technique used primarily by humpback whales to trap krill and small fish using bubbles.",
+    "detailedExplanation": "Bubble net feeding is a sophisticated cooperative hunting strategy employed primarily by humpback whales. Groups of whales work together, with one or more whales swimming in a spiral pattern beneath a school of prey while releasing a continuous stream of bubbles from their blowholes. This creates a 'net' of bubbles that confuses and traps krill, small fish, or other prey. The whales then swim upward through the center of this bubble net with their mouths wide open to engulf the concentrated prey. This behavior demonstrates remarkable intelligence and coordination among marine mammals.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Bubble_net_feeding",
+    "citationTitle": "Wikipedia: Bubble net feeding"
+  },
+  {
+    "id": "28794be8-79e8-400d-b346-9732651dacb8",
+    "text": "What is the scientific term for the zone in the ocean where light can no longer penetrate for photosynthesis?",
+    "options": [
+      "Bathypelagic zone",
+      "Aphotic zone",
+      "Abyssal zone",
+      "Mesopelagic zone"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "The aphotic zone is the part of the ocean where insufficient light penetrates for photosynthesis to occur, typically below 200 meters depth.",
+    "detailedExplanation": "The aphotic zone, also known as the midnight zone, is the portion of the ocean where sunlight cannot penetrate in sufficient quantities to support photosynthesis. This zone typically begins at depths of around 200 meters and extends to the ocean floor. In the aphotic zone, organisms must rely on alternative energy sources such as chemosynthesis, detritus falling from above, or consuming other organisms. Despite the absence of light, this zone supports diverse ecosystems, including bioluminescent organisms, deep-sea fish, and unique communities around hydrothermal vents.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Aphotic_zone",
+    "citationTitle": "Wikipedia: Aphotic zone"
+  },
+  {
+    "id": "86f57c63-20fa-4b2c-aa91-8a15fd9569ab",
+    "text": "Which marine invertebrate group includes species that can regenerate their entire body from just a single arm and part of the central disc?",
+    "options": [
+      "Crinoids",
+      "Ophiuroids",
+      "Asteroids",
+      "Holothuroids"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Asteroids (sea stars) have remarkable regenerative abilities, with some species capable of regenerating an entire new individual from just one arm plus part of the central disc.",
+    "detailedExplanation": "Asteroids, commonly known as sea stars or starfish, possess extraordinary regenerative capabilities that exceed most other animal groups. While many asteroids can regenerate lost arms, some species can regenerate an entire new individual from just a single arm provided it includes a portion of the central disc containing vital organs. This process, called autotomy and regeneration, can take several months to over a year. The regenerative ability varies among species, with some like Linckia laevigata being particularly renowned for this capability. This remarkable adaptation allows sea stars to survive predation and environmental stresses that would be fatal to most other animals.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Starfish",
+    "citationTitle": "Wikipedia: Starfish"
+  },
+  {
+    "id": "b719c2f5-9602-46cc-a117-29abcf5d6182",
+    "text": "Which marine organism produces the majority of Earth's oxygen through photosynthesis?",
+    "options": [
+      "Kelp forests",
+      "Phytoplankton",
+      "Coral reefs",
+      "Seagrass meadows"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Phytoplankton are microscopic marine plants that produce an estimated 50-80% of Earth's oxygen.",
+    "detailedExplanation": "Phytoplankton are microscopic marine organisms that drift in the ocean's sunlit upper layers and perform photosynthesis. Despite being invisible to the naked eye, these tiny organisms are responsible for producing between 50-80% of the world's oxygen - far more than all terrestrial forests combined. They form the base of the marine food chain and include various species such as diatoms, dinoflagellates, and cyanobacteria. Their massive collective biomass and rapid reproduction rates make them the planet's most important oxygen producers.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Phytoplankton",
+    "citationTitle": "Wikipedia: Phytoplankton"
+  },
+  {
+    "id": "a2da1726-ec68-4d75-82a7-65f72fe7ea2b",
+    "text": "What is the term for the ocean zone that extends from 200 to 1,000 meters deep, where sunlight rapidly diminishes?",
+    "options": [
+      "Abyssal zone",
+      "Bathyal zone",
+      "Dysphotic zone",
+      "Hadal zone"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "The dysphotic zone, also called the twilight zone, is where light levels drop dramatically but some sunlight still penetrates.",
+    "detailedExplanation": "The dysphotic zone, also known as the twilight zone or mesopelagic zone, extends from approximately 200 to 1,000 meters deep. In this zone, sunlight rapidly diminishes to less than 1% of surface levels, making photosynthesis impossible for most organisms. Despite the low light conditions, this zone hosts an enormous biomass of marine life, including lanternfish, vampire squid, and various jellyfish species. Many organisms in this zone exhibit daily vertical migrations, moving toward the surface at night to feed and returning to deeper waters during the day.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Mesopelagic_zone",
+    "citationTitle": "Wikipedia: Mesopelagic zone"
+  },
+  {
+    "id": "817b6a05-8fc5-48a1-96cf-315664bf9abb",
+    "text": "Which process allows some deep-sea organisms to produce light without external energy sources?",
+    "options": [
+      "Phosphorescence",
+      "Fluorescence",
+      "Bioluminescence",
+      "Chemiluminescence"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Bioluminescence is the production of light by living organisms through chemical reactions within their bodies.",
+    "detailedExplanation": "Bioluminescence is the production and emission of light by living organisms through biochemical reactions, typically involving the molecule luciferin and the enzyme luciferase. This phenomenon is extremely common in marine environments, with an estimated 80% of deep-sea creatures capable of producing their own light. Marine organisms use bioluminescence for various purposes including communication, prey attraction, predator deterrence, and mating displays. Examples include anglerfish with their glowing lures, firefly squid, and many species of jellyfish and plankton that create spectacular light displays in the ocean.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Bioluminescence",
+    "citationTitle": "Wikipedia: Bioluminescence"
+  },
+  {
+    "id": "08b81fb8-a75f-4a71-bada-49e0b173de07",
+    "text": "Which deep-sea phenomenon occurs when bioluminescent organisms create a coordinated light display that can be seen from space, and is primarily caused by dinoflagellates of the genus Noctiluca?",
+    "options": [
+      "Mareel",
+      "Milky seas",
+      "Red tide luminescence",
+      "Pyrodinium blooms"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Milky seas are rare bioluminescent phenomena where vast areas of ocean glow uniformly, visible from satellites.",
+    "detailedExplanation": "Milky seas, also known as mareel in some regions, represent one of the ocean's most mysterious phenomena. These events involve massive blooms of bioluminescent bacteria, particularly Vibrio harveyi, living symbiotically with algae, that can cover areas exceeding 15,000 square kilometers. The phenomenon creates a uniform, milk-like glow across the ocean surface that is so bright it can be detected by satellites in space. While Noctiluca scintillans can contribute to bioluminescent displays, the classic 'milky seas' effect is primarily attributed to bacterial bioluminescence rather than dinoflagellate activity alone.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Milky_seas_effect",
+    "citationTitle": "Wikipedia: Milky seas effect"
+  }
+]

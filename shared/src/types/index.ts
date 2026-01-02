@@ -1,56 +1,28 @@
-export interface User {
-  id: string;
-  displayName: string;
-  createdAt: string;
-  stats: UserStats;
-  badges: Badge[];
-  currentStreak: number;
-  longestStreak: number;
-  isAI?: boolean;
-}
+/**
+ * Shared types for Quiz Night Live
+ *
+ * NOTE: For API/GraphQL types, use exports from gqlTypes (automatically generated from schema).
+ * Types defined here are for internal orchestrator/real-time game logic.
+ */
 
-export interface UserStats {
-  totalCorrect: number;
-  totalWrong: number;
-  totalPoints: number;
-  setsPlayed: number;
-  setsWon: number;
-  perfectSets: number;
-}
+// ============================================
+// Internal Orchestrator Types
+// These are different from GraphQL types and used for real-time game state
+// ============================================
 
-export interface Badge {
-  id: string;
-  name: string;
-  description: string;
-  icon: string;
-  earnedAt: string;
-}
-
-export type BadgeType =
-  | 'streak_3_wins'
-  | 'streak_7_days'
-  | 'streak_10_correct'
-  | 'streak_month'
-  | 'first_win'
-  | 'correct_100'
-  | 'correct_1000'
-  | 'correct_10000'
-  | 'sets_50'
-  | 'positive_week'
-  | 'perfect_set'
-  | 'trigger_happy'
-  | 'late_winner'
-  | 'comeback_king';
-
-export interface Question {
+/**
+ * Internal question type with extra fields for game logic
+ * (GraphQL Question is simpler - this has detailedExplanation, citations, etc.)
+ */
+export interface OrchestratorQuestion {
   id: string;
   text: string;
   options: string[];
   correctIndex: number;
   category: QuestionCategory;
   difficulty: 'easy' | 'medium' | 'hard';
-  explanation?: string; // Short explanation for question end screen
-  detailedExplanation?: string; // Longer explanation for research/review section
+  explanation?: string;
+  detailedExplanation?: string;
   citationUrl?: string;
   citationTitle?: string;
 }
@@ -65,24 +37,27 @@ export type QuestionCategory =
   | 'arts'
   | 'literature';
 
-export interface QuizSet {
-  id: string;
-  startTime: string;
-  endTime: string;
-  questions: Question[];
-  status: 'scheduled' | 'active' | 'completed';
-}
-
-export interface GameState {
+/**
+ * Internal game state for orchestrator (different from GraphQL GameState)
+ */
+export interface OrchestratorGameState {
   setId: string;
   currentQuestionIndex: number;
-  currentQuestion: Question | null;
+  currentQuestion: OrchestratorQuestion | null;
   questionStartTime: number | null;
   buzzerWinner: string | null;
   buzzerWinnerAnswerDeadline: number | null;
   questionStatus: 'waiting' | 'open' | 'buzzed' | 'answered' | 'timeout';
   players: Player[];
   setScores: Record<string, number>;
+}
+
+export interface QuizSet {
+  id: string;
+  startTime: string;
+  endTime: string;
+  questions: OrchestratorQuestion[];
+  status: 'scheduled' | 'active' | 'completed';
 }
 
 export interface Player {
@@ -112,28 +87,10 @@ export interface AnswerEvent {
   pointsAwarded: number;
 }
 
-export interface LeaderboardEntry {
-  rank: number;
-  userId: string;
-  displayName: string;
-  score: number;
-  correctCount?: number;
-  wrongCount?: number;
-  avatarUrl?: string;
-  memberSince?: string;
-}
+// ============================================
+// Ably Real-time Message Types
+// ============================================
 
-export type LeaderboardType = 'set' | 'daily' | 'weekly' | 'allTime';
-
-export interface Leaderboard {
-  type: LeaderboardType;
-  entries: LeaderboardEntry[];
-  updatedAt: string;
-  userRank?: number;
-  userEntry?: LeaderboardEntry;
-}
-
-// Ably channel message types
 export interface AblyMessage {
   type: AblyMessageType;
   payload: unknown;
@@ -162,10 +119,11 @@ export interface PlayerLeftPayload {
 }
 
 export interface QuestionStartPayload {
-  question: Omit<Question, 'correctIndex' | 'explanation'>;
+  question: Omit<OrchestratorQuestion, 'correctIndex' | 'explanation'>;
   questionIndex: number;
   totalQuestions: number;
-  questionDuration: number; // ms until question ends if no buzz
+  questionDuration: number;
+  answerTimeout: number;
 }
 
 export interface BuzzPayload {
@@ -186,41 +144,73 @@ export interface QuestionEndPayload {
   correctIndex: number;
   explanation: string;
   scores: Record<string, number>;
-  leaderboard: LeaderboardEntry[];
+  leaderboard: import('./gqlTypes').LeaderboardEntry[];
   winnerId: string | null;
   winnerName: string | null;
   wasAnswered: boolean;
   wasCorrect: boolean | null;
-  nextQuestionIn: number; // ms until next question
-  // Question details for post-game review
+  nextQuestionIn: number;
   questionText?: string;
   options?: string[];
   category?: string;
   detailedExplanation?: string;
   citationUrl?: string;
   citationTitle?: string;
-  // Badges earned by players on this question
-  earnedBadges?: Record<string, string[]>; // playerId -> badgeIds earned this question
+  earnedBadges?: Record<string, string[]>;
 }
 
 export interface SetEndPayload {
   finalScores: Record<string, number>;
-  leaderboard: LeaderboardEntry[];
-  badgesSummary?: Record<string, string[]>; // playerId -> badgeIds earned this set
+  leaderboard: import('./gqlTypes').LeaderboardEntry[];
+  badgesSummary?: Record<string, string[]>;
 }
 
 export interface ScoreUpdatePayload {
   scores: Record<string, number>;
 }
 
-// Re-export generated GraphQL types
+// ============================================
+// Re-exports
+// ============================================
+
+// GraphQL types (source of truth for API)
 export * from './gqlTypes';
 
-// Re-export awards system
-export * from './awards';
+// Awards system (excluding AwardRarity which is in gqlTypes)
+export {
+  type AwardBadge,
+  type AwardGroup,
+  type BadgeAwardEvent,
+  type SetBadgeSummary,
+  type UserBadgeRecord,
+  SKILL_POINTS_BY_RARITY,
+  AWARD_GROUPS,
+  getAllBadges,
+  getBadgeById,
+  getGroupById,
+  getHighestBadgeInGroup,
+  calculateTotalSkillPoints,
+  getBadgesToDisplay,
+  getRarityColor,
+  getRarityGradient,
+} from './awards';
 
-// Re-export room types
+// Room types
 export * from './room';
 
-// Re-export subscription types
-export * from './subscription';
+// Subscription types (excluding SubscriptionStatus/Provider which are in gqlTypes)
+export {
+  type SubscriptionTier,
+  SUBSCRIPTION_TIERS,
+  SUBSCRIPTION_TIER_NAMES,
+  SUBSCRIPTION_TIER_PRICES,
+  type SubscriptionInfo,
+  DEFAULT_SUBSCRIPTION_INFO,
+  type SubscriptionFeatures,
+  getSubscriptionFeatures,
+  FREE_TIER_DAILY_SET_LIMIT,
+  type StripeWebhookEvent,
+  type PayPalWebhookEvent,
+  type CreateCheckoutRequest,
+  type CreateCheckoutResponse,
+} from './subscription';

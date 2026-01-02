@@ -1,21 +1,5 @@
 # Chat types
-
-extend type Query {
-  # Chat queries
-  getChatMessages(channelId: ID!, limit: Int, nextToken: String): ChatMessageConnection @aws_cognito_user_pools
-  getMyConversations(limit: Int): [Conversation!]! @aws_cognito_user_pools
-}
-
-extend type Mutation {
-  # Chat mutations
-  sendChatMessage(channelId: ID!, content: String!): ChatMessage @aws_cognito_user_pools
-  startConversation(targetUserId: ID!): Conversation @aws_cognito_user_pools
-}
-
-type Subscription {
-  # Chat subscriptions
-  onNewChatMessage(channelId: ID!): ChatMessage @aws_subscribe(mutations: ["sendChatMessage"]) @aws_cognito_user_pools
-}
+# Note: Chat queries, mutations and subscriptions are in 00-base.graphql
 
 type ChatMessage {
   id: ID!

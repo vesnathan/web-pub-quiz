@@ -1,0 +1,342 @@
+[
+  {
+    "id": "1c959a4f-d19a-4acc-926b-8d09d9fffde9",
+    "text": "What is the term for plants that complete their entire life cycle in one growing season?",
+    "options": [
+      "Perennials",
+      "Annuals",
+      "Biennials",
+      "Epiphytes"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Annual plants complete their entire life cycle from seed to seed in one growing season.",
+    "detailedExplanation": "Annual plants are those that germinate, grow, flower, produce seeds, and die all within one growing season, typically one year. Common examples include sunflowers, marigolds, corn, and wheat. This strategy allows plants to rapidly colonize disturbed habitats and take advantage of favorable conditions. In contrast, perennials live for multiple years, while biennials take two years to complete their life cycle, typically growing vegetatively in the first year and flowering in the second.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Annual_plant",
+    "citationTitle": "Wikipedia: Annual plant"
+  },
+  {
+    "id": "667534af-f69c-4d6a-8807-be1f902e4616",
+    "text": "What is the deepest part of the world's oceans called?",
+    "options": [
+      "Mariana Trench",
+      "Puerto Rico Trench",
+      "Java Trench",
+      "Peru-Chile Trench"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "The Mariana Trench in the Pacific Ocean reaches depths of over 36,000 feet (11,000 meters).",
+    "detailedExplanation": "The Mariana Trench, located in the western Pacific Ocean near Guam, is the deepest known part of Earth's oceans. Its deepest point, called Challenger Deep, reaches approximately 36,200 feet (11,034 meters) below sea level. This extreme depth is created by the subduction of the Pacific Plate beneath the Philippine Sea Plate, forming this crescent-shaped oceanic trench.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Mariana_Trench",
+    "citationTitle": "Wikipedia: Mariana Trench"
+  },
+  {
+    "id": "e69b3a51-0591-4aa8-bd6f-91f0e7e536b1",
+    "text": "Which marine animal has three hearts and blue blood?",
+    "options": [
+      "Horseshoe crab",
+      "Octopus",
+      "Shark",
+      "Sea turtle"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Octopuses have three hearts and blue blood due to copper-based hemocyanin instead of iron-based hemoglobin.",
+    "detailedExplanation": "Octopuses possess a unique circulatory system with three hearts: two pump blood to the gills, while the third pumps blood to the rest of the body. Their blood appears blue because it contains hemocyanin, a copper-based protein that carries oxygen more efficiently than hemoglobin in cold, low-oxygen environments. Interestingly, the main heart stops beating when the octopus swims, which is why they prefer crawling to avoid exhaustion.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Octopus",
+    "citationTitle": "Wikipedia: Octopus"
+  },
+  {
+    "id": "ed7bd448-520e-4adf-8a35-71f40371f251",
+    "text": "What percentage of the Earth's surface is covered by oceans?",
+    "options": [
+      "61%",
+      "71%",
+      "81%",
+      "91%"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Oceans cover approximately 71% of Earth's surface, containing about 97% of the planet's water.",
+    "detailedExplanation": "The world's oceans cover approximately 361 million square kilometers, which represents about 71% of Earth's total surface area. This vast body of water contains roughly 97% of all water on Earth, with the remaining 3% being freshwater found in ice caps, glaciers, lakes, rivers, and groundwater. The Pacific Ocean alone covers about one-third of the planet's surface.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Ocean",
+    "citationTitle": "Wikipedia: Ocean"
+  },
+  {
+    "id": "60c38ab5-7826-452b-bf0e-42a0f9adfc70",
+    "text": "What is the process called when cold, nutrient-rich water rises from the deep ocean to the surface?",
+    "options": [
+      "Thermocline",
+      "Upwelling",
+      "Downwelling",
+      "Halocline"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Upwelling brings nutrient-rich deep water to the surface, supporting productive marine ecosystems.",
+    "detailedExplanation": "Upwelling is a crucial oceanographic process where deep, cold, nutrient-rich waters rise to the surface, typically driven by wind patterns and the Coriolis effect. This process is vital for marine ecosystems because it brings essential nutrients like nitrates and phosphates from the deep ocean to surface waters, supporting phytoplankton growth and creating some of the world's most productive fishing grounds, such as those off the coasts of Peru, California, and West Africa.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Upwelling",
+    "citationTitle": "Wikipedia: Upwelling"
+  },
+  {
+    "id": "c495c094-8c61-4c73-a827-b882e1dc8c35",
+    "text": "Which whale species is known for having the longest migration route of any mammal?",
+    "options": [
+      "Blue whale",
+      "Humpback whale",
+      "Gray whale",
+      "Sperm whale"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Gray whales migrate up to 14,000 miles round trip between Alaska and Mexico.",
+    "detailedExplanation": "Gray whales undertake the longest migration of any mammal, traveling approximately 12,000-14,000 miles round trip annually between their feeding grounds in Alaska and breeding lagoons in Baja California, Mexico. This epic journey takes about 6-8 months and covers roughly 60-70 miles per day. During migration, gray whales fast almost entirely, relying on stored blubber for energy while navigating close to coastlines.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Gray_whale",
+    "citationTitle": "Wikipedia: Gray whale"
+  },
+  {
+    "id": "b1772742-9411-4e86-aca6-d752ba8ae9fc",
+    "text": "What is the primary cause of coral bleaching?",
+    "options": [
+      "Ocean acidification",
+      "Overfishing",
+      "Water temperature increases",
+      "Plastic pollution"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Rising water temperatures cause coral to expel their symbiotic algae, leading to bleaching.",
+    "detailedExplanation": "Coral bleaching occurs primarily when water temperatures rise above normal ranges, causing coral polyps to expel the symbiotic algae (zooxanthellae) living in their tissues. These algae provide corals with up to 90% of their energy through photosynthesis and give them their vibrant colors. When stressed by temperature increases of just 1-2°C above normal, corals expel the algae, leaving behind white calcium carbonate skeletons. While corals can recover if temperatures return to normal quickly, prolonged bleaching events can lead to coral death.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Coral_bleaching",
+    "citationTitle": "Wikipedia: Coral bleaching"
+  },
+  {
+    "id": "b3af1afc-cd73-433e-8d12-1b7ff519e7e3",
+    "text": "At what depth does the 'midnight zone' of the ocean begin?",
+    "options": [
+      "200 meters",
+      "500 meters",
+      "1,000 meters",
+      "2,000 meters"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "The midnight zone (bathypelagic zone) begins at 1,000 meters where sunlight cannot penetrate.",
+    "detailedExplanation": "The midnight zone, scientifically known as the bathypelagic zone, begins at approximately 1,000 meters (3,280 feet) below the surface and extends to about 4,000 meters deep. This zone is characterized by complete darkness, as no sunlight can penetrate to these depths. The water temperature is consistently cold (2-4°C), and pressure is extreme. Despite these harsh conditions, the midnight zone hosts unique marine life including bioluminescent creatures, deep-sea anglerfish, vampire squid, and various species of deep-sea fish adapted to life without sunlight.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Bathypelagic_zone",
+    "citationTitle": "Wikipedia: Bathypelagic zone"
+  },
+  {
+    "id": "7a419ff3-18c6-4f83-b568-9b4bec5e9815",
+    "text": "Which marine organism is responsible for producing approximately 70% of the Earth's oxygen?",
+    "options": [
+      "Kelp forests",
+      "Coral reefs",
+      "Phytoplankton",
+      "Sea grass beds"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Phytoplankton, microscopic marine plants, produce most of Earth's oxygen through photosynthesis.",
+    "detailedExplanation": "Phytoplankton, consisting of microscopic marine plants and plant-like organisms, are responsible for producing approximately 70% of the oxygen in Earth's atmosphere through photosynthesis. These tiny organisms, including diatoms, dinoflagellates, and cyanobacteria, float near the ocean's surface where they can access sunlight. Despite their microscopic size, their massive numbers and global distribution make them more significant oxygen producers than all terrestrial plants combined, including rainforests. They also form the base of most marine food chains.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Phytoplankton",
+    "citationTitle": "Wikipedia: Phytoplankton"
+  },
+  {
+    "id": "76710a42-ff29-4ca6-b66c-761b28a189f8",
+    "text": "What percentage of the ocean have humans explored and mapped in detail?",
+    "options": [
+      "Less than 5%",
+      "About 15%",
+      "Approximately 25%",
+      "Nearly 40%"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Humans have explored and mapped less than 5% of the ocean in detail.",
+    "detailedExplanation": "Despite covering over 70% of Earth's surface, the vast majority of our oceans remain unexplored. According to NOAA, humans have explored less than 5% of the ocean, and we have better maps of the surface of Mars than we do of our own ocean floor. This is due to the extreme depths, pressure, and technological challenges involved in deep-sea exploration.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Ocean_exploration",
+    "citationTitle": "Wikipedia: Ocean exploration"
+  },
+  {
+    "id": "436e3b48-9d78-46a8-8d32-221f4904f904",
+    "text": "Which marine animal has the largest brain of any creature on Earth?",
+    "options": [
+      "Blue whale",
+      "Giant squid",
+      "Sperm whale",
+      "Orca"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "The sperm whale has the largest brain of any animal on Earth, weighing up to 17 pounds.",
+    "detailedExplanation": "Sperm whales possess the largest brain of any known animal species, both living and extinct. Their brains can weigh up to 17 pounds (7.8 kg) and contain highly developed areas associated with echolocation and social behavior. This massive brain helps them navigate the deep ocean depths where they hunt for giant squid, sometimes diving over 3,000 feet deep.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Sperm_whale",
+    "citationTitle": "Wikipedia: Sperm whale"
+  },
+  {
+    "id": "3e38c300-268b-49b0-8658-f797b0cdd3b8",
+    "text": "What causes the phenomenon known as 'bioluminescence' in marine organisms?",
+    "options": [
+      "Absorption of sunlight",
+      "Chemical reaction with luciferin",
+      "Electrical discharge",
+      "Reflection of moonlight"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Bioluminescence occurs when luciferin reacts with the enzyme luciferase in the presence of oxygen.",
+    "detailedExplanation": "Bioluminescence in marine life is produced by a chemical reaction involving a light-emitting compound called luciferin and an enzyme called luciferase. When these substances react in the presence of oxygen, they produce light with minimal heat. This adaptation serves various purposes including attracting prey, confusing predators, and communication. Examples include deep-sea anglerfish, jellyfish, and certain plankton that create spectacular light shows in the ocean.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Bioluminescence",
+    "citationTitle": "Wikipedia: Bioluminescence"
+  },
+  {
+    "id": "f3043cb0-e652-40c5-9ae8-5a2a4d06e0fa",
+    "text": "At what ocean depth does the 'aphotic zone' begin, where sunlight cannot penetrate?",
+    "options": [
+      "200 meters",
+      "500 meters",
+      "1,000 meters",
+      "2,000 meters"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "The aphotic zone begins at approximately 1,000 meters depth, where no sunlight can penetrate.",
+    "detailedExplanation": "The ocean is divided into different zones based on light penetration. The aphotic zone, also known as the midnight zone, begins at around 1,000 meters (3,280 feet) deep where sunlight cannot reach. Above this lies the photic zone where photosynthesis can occur. In the aphotic zone, organisms must rely on chemosynthesis or consuming organic matter that drifts down from above, leading to unique adaptations like bioluminescence and enlarged mouths for capturing scarce prey.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Aphotic_zone",
+    "citationTitle": "Wikipedia: Aphotic zone"
+  },
+  {
+    "id": "26150322-205d-450a-abac-c2dce1e81973",
+    "text": "Which process allows coral reefs to thrive in nutrient-poor tropical waters?",
+    "options": [
+      "Filter feeding",
+      "Symbiosis with zooxanthellae",
+      "Chemosynthesis",
+      "Parasitic relationships"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Coral reefs thrive through symbiosis with zooxanthellae algae that photosynthesize and provide nutrients.",
+    "detailedExplanation": "Coral reefs can flourish in nutrient-poor tropical waters due to their symbiotic relationship with microscopic algae called zooxanthellae. These algae live within coral tissues and perform photosynthesis, converting sunlight and carbon dioxide into organic compounds that feed the coral. In return, corals provide the algae with protection and nutrients. This partnership is so crucial that when stressed by factors like warming water, corals expel their zooxanthellae, leading to coral bleaching.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Zooxanthellae",
+    "citationTitle": "Wikipedia: Zooxanthellae"
+  },
+  {
+    "id": "fad0ed06-6a75-4d01-97d3-54dd79ed42f3",
+    "text": "What is the deepest known point in Earth's oceans?",
+    "options": [
+      "Puerto Rico Trench",
+      "Java Trench",
+      "Challenger Deep",
+      "Tonga Trench"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Challenger Deep in the Mariana Trench is the deepest known point, reaching about 11,000 meters below sea level.",
+    "detailedExplanation": "Challenger Deep, located in the Mariana Trench in the Pacific Ocean, is the deepest known point on Earth's surface. It reaches approximately 10,994 meters (36,070 feet) below sea level. The immense pressure at this depth is over 1,000 times greater than at sea level, equivalent to about 50 jumbo jets pressing down on every square meter. Despite these extreme conditions, scientists have discovered life forms including xenophyophores and amphipods thriving in this environment.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Challenger_Deep",
+    "citationTitle": "Wikipedia: Challenger Deep"
+  },
+  {
+    "id": "e480290e-994b-49d7-bd5c-154512e2a27c",
+    "text": "Which marine ecosystem is considered the most biodiverse per unit area?",
+    "options": [
+      "Open ocean",
+      "Coral reefs",
+      "Kelp forests",
+      "Deep sea trenches"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Coral reefs are the most biodiverse marine ecosystems, supporting about 25% of all marine species.",
+    "detailedExplanation": "Coral reefs are often called the 'rainforests of the sea' due to their incredible biodiversity. Despite covering less than 1% of the ocean floor, coral reefs support approximately 25% of all known marine species. This high biodiversity is supported by the complex three-dimensional structure of reefs, which creates numerous ecological niches, and the high productivity resulting from the coral-zooxanthellae symbiosis. A single reef can host thousands of species of fish, invertebrates, and other marine life.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Coral_reef",
+    "citationTitle": "Wikipedia: Coral reef"
+  },
+  {
+    "id": "b2592863-901c-49b6-bc8f-2a61b200783f",
+    "text": "What phenomenon causes the ocean's thermohaline circulation, also known as the 'global conveyor belt'?",
+    "options": [
+      "Wind patterns",
+      "Tidal forces",
+      "Differences in water density",
+      "Underwater earthquakes"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Thermohaline circulation is driven by differences in water density caused by temperature and salinity variations.",
+    "detailedExplanation": "The thermohaline circulation is a global system of ocean currents driven by differences in water density, which is determined by temperature (thermo) and salinity (haline). Cold, salty water is denser and sinks, while warm, less salty water rises. This creates a global circulation pattern that transports heat, nutrients, and dissolved gases around the world's oceans. This circulation plays a crucial role in regulating Earth's climate and supporting marine ecosystems by distributing nutrients and oxygen throughout the ocean depths.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Thermohaline_circulation",
+    "citationTitle": "Wikipedia: Thermohaline circulation"
+  },
+  {
+    "id": "2ba1b8d0-fa9b-4e2c-a485-f06b48bc735a",
+    "text": "What is the deepest point in Earth's oceans called?",
+    "options": [
+      "Mariana Trench",
+      "Challenger Deep",
+      "Puerto Rico Trench",
+      "Japan Trench"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Challenger Deep is the deepest known point in Earth's oceans, located within the Mariana Trench at approximately 36,200 feet deep.",
+    "detailedExplanation": "Challenger Deep is the deepest surveyed point in the ocean, located in the southern end of the Mariana Trench in the Pacific Ocean. While the Mariana Trench is the deepest oceanic trench overall, Challenger Deep specifically refers to the deepest measured point within that trench, reaching depths of approximately 36,200 feet (11,034 meters) below sea level. It was named after the HMS Challenger II, which first surveyed the area in 1951.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Challenger_Deep",
+    "citationTitle": "Wikipedia: Challenger Deep"
+  },
+  {
+    "id": "00e039d4-d470-40c9-9671-069d6aeaff14",
+    "text": "What percentage of the ocean has been explored by humans?",
+    "options": [
+      "Less than 5%",
+      "About 25%",
+      "Approximately 50%",
+      "Over 75%"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Scientists estimate that less than 5% of the ocean has been explored, with the vast majority remaining unmapped and unobserved.",
+    "detailedExplanation": "Despite covering more than 70% of Earth's surface, the ocean remains largely unexplored. Current estimates suggest that less than 5% of the ocean has been explored by humans, and only about 20% has been mapped. The ocean's immense depth, pressure, and darkness make exploration extremely challenging and expensive. More people have been to space than to the deepest parts of the ocean, highlighting how much we still don't know about marine environments and the life they contain.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Ocean_exploration",
+    "citationTitle": "Wikipedia: Ocean exploration"
+  },
+  {
+    "id": "50734e0c-0865-42ff-a452-b0f8a02c93a2",
+    "text": "Which marine phenomenon is responsible for bringing nutrient-rich deep ocean water to the surface, supporting some of the world's most productive fishing grounds?",
+    "options": [
+      "Thermohaline circulation",
+      "Upwelling",
+      "Tidal bore",
+      "Ocean gyres"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Upwelling brings cold, nutrient-rich water from the deep ocean to the surface, creating highly productive marine ecosystems.",
+    "detailedExplanation": "Upwelling is a crucial oceanographic process where deep, cold, nutrient-rich waters rise to the surface, typically driven by wind patterns that push surface waters away from coastlines. This process brings essential nutrients like nitrates and phosphates from the deep ocean to the photic zone where marine plants can access sunlight. Areas with strong upwelling, such as the coasts of Peru, California, and West Africa, support some of the world's most productive fisheries because these nutrients fuel massive blooms of phytoplankton, which form the base of highly productive marine food webs.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Upwelling",
+    "citationTitle": "Wikipedia: Upwelling"
+  }
+]

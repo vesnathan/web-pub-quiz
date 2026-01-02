@@ -22,17 +22,16 @@ export const SUBSCRIPTION_TIER_PRICES: Record<SubscriptionTier, number> = {
   2: 1000, // $10.00 in cents
 };
 
-export type SubscriptionStatus = 'active' | 'cancelled' | 'past_due' | 'trialing' | null;
-
-export type SubscriptionProvider = 'stripe' | 'paypal' | null;
+// Note: SubscriptionStatus and SubscriptionProvider enums are in gqlTypes.ts (codegen)
+import type { SubscriptionStatus, SubscriptionProvider } from './gqlTypes';
 
 /**
  * Subscription info stored on user profile
  */
 export interface SubscriptionInfo {
   tier: SubscriptionTier;
-  status: SubscriptionStatus;
-  provider: SubscriptionProvider;
+  status: SubscriptionStatus | null;
+  provider: SubscriptionProvider | null;
   subscriptionId: string | null; // Provider's subscription ID
   customerId: string | null; // Provider's customer ID
   startedAt: string | null; // ISO timestamp

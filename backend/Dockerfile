@@ -27,15 +27,15 @@ RUN apk add --no-cache curl
 
 WORKDIR /app
 
-# Install production dependencies only
-COPY package.json yarn.lock ./
-COPY shared/package.json shared/
-COPY backend/package.json backend/
-
-RUN yarn install --frozen-lockfile --production
-
-# Copy built orchestrator
+# Copy built orchestrator (esbuild bundles all deps except @aws-sdk/*)
 COPY --from=builder /app/backend/dist/orchestrator ./dist
+
+# Install only the external AWS SDK dependencies
+RUN npm init -y && npm install --no-save \
+    @aws-sdk/client-dynamodb \
+    @aws-sdk/lib-dynamodb \
+    @aws-sdk/client-cognito-identity-provider \
+    @aws-sdk/client-secrets-manager
 
 # Set environment
 ENV NODE_ENV=production

@@ -1,7 +1,7 @@
-'use client';
+"use client";
 
-import { useEffect, useRef } from 'react';
-import { motion, useSpring, useTransform } from 'framer-motion';
+import { useEffect, useRef } from "react";
+import { motion, useSpring, useTransform } from "framer-motion";
 
 // =============================================================================
 // LAYER POSITIONING - Adjust these values to move elements around
@@ -11,14 +11,13 @@ import { motion, useSpring, useTransform } from 'framer-motion';
 const LAYERS = {
   board: {
     top: 18,
-    offsetX: 0,   // Centered
+    offsetX: 0, // Centered
     width: 70,
     scale: 1.2,
     zIndex: 0,
-    parallaxX: -5,  // Moves opposite direction (negative = inverse)
+    parallaxX: -5, // Moves opposite direction (negative = inverse)
     parallaxY: -2,
   },
-
 
   mic: {
     top: 12,
@@ -26,26 +25,23 @@ const LAYERS = {
     width: 18,
     scale: 1.5,
     zIndex: 2,
-    parallaxX: 10,   // Pixels of movement at screen edge
+    parallaxX: 10, // Pixels of movement at screen edge
     parallaxY: 0,
     parallaxRotate: 8,
-  }, 
+  },
   questionMark: {
     top: 10,
-    offsetX: 0,  // Right of center
+    offsetX: 0, // Right of center
     width: 12,
     scale: 1,
     zIndex: 2,
-    parallaxX: 10,   // Foreground moves most
+    parallaxX: 10, // Foreground moves most
     parallaxY: 0,
   },
 
-  
-
-
-   live: {
+  live: {
     top: 52,
-    offsetX: 0,   // Slightly right of center
+    offsetX: 0, // Slightly right of center
     width: 28,
     scale: 1,
     zIndex: 3,
@@ -55,7 +51,7 @@ const LAYERS = {
 
   quizNight: {
     top: 30,
-    offsetX: 0,   // Centered
+    offsetX: 0, // Centered
     width: 60,
     scale: 1.2,
     zIndex: 4,
@@ -71,7 +67,7 @@ interface Logo3DProps {
   animate?: boolean;
 }
 
-export function Logo3D({ className = '', animate = true }: Logo3DProps) {
+export function Logo3D({ className = "", animate = true }: Logo3DProps) {
   const containerRef = useRef<HTMLDivElement>(null);
 
   // Smooth spring animation for mouse movement
@@ -131,36 +127,80 @@ export function Logo3D({ className = '', animate = true }: Logo3DProps) {
       mouseY.set(Math.max(-1, Math.min(1, y)));
     };
 
-    window.addEventListener('mousemove', handleMouseMove);
-    document.addEventListener('mouseout', handleMouseOut);
-    window.addEventListener('blur', handleMouseLeave);
-    window.addEventListener('deviceorientation', handleDeviceOrientation);
+    window.addEventListener("mousemove", handleMouseMove);
+    document.addEventListener("mouseout", handleMouseOut);
+    window.addEventListener("blur", handleMouseLeave);
+    window.addEventListener("deviceorientation", handleDeviceOrientation);
 
     return () => {
-      window.removeEventListener('mousemove', handleMouseMove);
-      document.removeEventListener('mouseout', handleMouseOut);
-      window.removeEventListener('blur', handleMouseLeave);
-      window.removeEventListener('deviceorientation', handleDeviceOrientation);
+      window.removeEventListener("mousemove", handleMouseMove);
+      document.removeEventListener("mouseout", handleMouseOut);
+      window.removeEventListener("blur", handleMouseLeave);
+      window.removeEventListener("deviceorientation", handleDeviceOrientation);
     };
   }, [animate, mouseX, mouseY]);
 
   // Transform mouse position to layer offsets (using LAYERS config)
-  const micX = useTransform(mouseX, [-1, 1], [-LAYERS.mic.parallaxX, LAYERS.mic.parallaxX]);
-  const micY = useTransform(mouseY, [-1, 1], [-LAYERS.mic.parallaxY, LAYERS.mic.parallaxY]);
-  const micRotate = useTransform(mouseX, [-1, 1], [-LAYERS.mic.parallaxRotate, LAYERS.mic.parallaxRotate]);
+  const micX = useTransform(
+    mouseX,
+    [-1, 1],
+    [-LAYERS.mic.parallaxX, LAYERS.mic.parallaxX],
+  );
+  const micY = useTransform(
+    mouseY,
+    [-1, 1],
+    [-LAYERS.mic.parallaxY, LAYERS.mic.parallaxY],
+  );
+  const micRotate = useTransform(
+    mouseX,
+    [-1, 1],
+    [-LAYERS.mic.parallaxRotate, LAYERS.mic.parallaxRotate],
+  );
 
-  const textX = useTransform(mouseX, [-1, 1], [-LAYERS.quizNight.parallaxX, LAYERS.quizNight.parallaxX]);
-  const textY = useTransform(mouseY, [-1, 1], [-LAYERS.quizNight.parallaxY, LAYERS.quizNight.parallaxY]);
+  const textX = useTransform(
+    mouseX,
+    [-1, 1],
+    [-LAYERS.quizNight.parallaxX, LAYERS.quizNight.parallaxX],
+  );
+  const textY = useTransform(
+    mouseY,
+    [-1, 1],
+    [-LAYERS.quizNight.parallaxY, LAYERS.quizNight.parallaxY],
+  );
 
-  const questionX = useTransform(mouseX, [-1, 1], [-LAYERS.questionMark.parallaxX, LAYERS.questionMark.parallaxX]);
-  const questionY = useTransform(mouseY, [-1, 1], [-LAYERS.questionMark.parallaxY, LAYERS.questionMark.parallaxY]);
+  const questionX = useTransform(
+    mouseX,
+    [-1, 1],
+    [-LAYERS.questionMark.parallaxX, LAYERS.questionMark.parallaxX],
+  );
+  const questionY = useTransform(
+    mouseY,
+    [-1, 1],
+    [-LAYERS.questionMark.parallaxY, LAYERS.questionMark.parallaxY],
+  );
 
-  const liveX = useTransform(mouseX, [-1, 1], [-LAYERS.live.parallaxX, LAYERS.live.parallaxX]);
-  const liveY = useTransform(mouseY, [-1, 1], [-LAYERS.live.parallaxY, LAYERS.live.parallaxY]);
+  const liveX = useTransform(
+    mouseX,
+    [-1, 1],
+    [-LAYERS.live.parallaxX, LAYERS.live.parallaxX],
+  );
+  const liveY = useTransform(
+    mouseY,
+    [-1, 1],
+    [-LAYERS.live.parallaxY, LAYERS.live.parallaxY],
+  );
 
   // Board moves in opposite direction (creates depth)
-  const boardX = useTransform(mouseX, [-1, 1], [-LAYERS.board.parallaxX, LAYERS.board.parallaxX]);
-  const boardY = useTransform(mouseY, [-1, 1], [-LAYERS.board.parallaxY, LAYERS.board.parallaxY]);
+  const boardX = useTransform(
+    mouseX,
+    [-1, 1],
+    [-LAYERS.board.parallaxX, LAYERS.board.parallaxX],
+  );
+  const boardY = useTransform(
+    mouseY,
+    [-1, 1],
+    [-LAYERS.board.parallaxY, LAYERS.board.parallaxY],
+  );
 
   // Helper to calculate left position from center offset
   // Formula: 50% (center) + offsetX - (width/2) to center the element
@@ -171,7 +211,12 @@ export function Logo3D({ className = '', animate = true }: Logo3DProps) {
     <div
       ref={containerRef}
       className={`relative ${className}`}
-      style={{ width: '100%', maxWidth: '500px', aspectRatio: '809/500', margin: '0 auto' }}
+      style={{
+        width: "100%",
+        maxWidth: "500px",
+        aspectRatio: "809/500",
+        margin: "0 auto",
+      }}
     >
       {/* Layer 0: Board (background - moves opposite direction for depth) */}
       <motion.div
@@ -191,7 +236,7 @@ export function Logo3D({ className = '', animate = true }: Logo3DProps) {
           alt=""
           className="w-full h-auto"
           style={{
-            filter: 'drop-shadow(0 10px 30px rgba(255, 100, 0, 0.4))',
+            filter: "drop-shadow(0 10px 30px rgba(255, 100, 0, 0.4))",
           }}
         />
       </motion.div>
@@ -215,7 +260,7 @@ export function Logo3D({ className = '', animate = true }: Logo3DProps) {
           alt=""
           className="w-full h-auto"
           style={{
-            filter: 'drop-shadow(0 6px 15px rgba(0, 0, 50, 0.4))',
+            filter: "drop-shadow(0 6px 15px rgba(0, 0, 50, 0.4))",
           }}
         />
       </motion.div>
@@ -238,7 +283,7 @@ export function Logo3D({ className = '', animate = true }: Logo3DProps) {
           alt="QuizNight"
           className="w-full h-auto"
           style={{
-            filter: 'drop-shadow(0 4px 8px rgba(0, 0, 0, 0.3))',
+            filter: "drop-shadow(0 4px 8px rgba(0, 0, 0, 0.3))",
           }}
         />
       </motion.div>
@@ -261,7 +306,7 @@ export function Logo3D({ className = '', animate = true }: Logo3DProps) {
           alt="?"
           className="w-full h-auto"
           style={{
-            filter: 'drop-shadow(0 4px 12px rgba(150, 255, 0, 0.5))',
+            filter: "drop-shadow(0 4px 12px rgba(150, 255, 0, 0.5))",
           }}
         />
       </motion.div>
@@ -284,7 +329,7 @@ export function Logo3D({ className = '', animate = true }: Logo3DProps) {
           alt=".live"
           className="w-full h-auto"
           style={{
-            filter: 'drop-shadow(0 5px 12px rgba(255, 0, 0, 0.4))',
+            filter: "drop-shadow(0 5px 12px rgba(255, 0, 0, 0.4))",
           }}
         />
       </motion.div>

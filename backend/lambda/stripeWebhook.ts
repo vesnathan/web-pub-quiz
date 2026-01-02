@@ -1,5 +1,5 @@
 import { DynamoDBClient } from '@aws-sdk/client-dynamodb';
-import { DynamoDBDocumentClient, UpdateCommand, QueryCommand } from '@aws-sdk/lib-dynamodb';
+import { DynamoDBDocumentClient, UpdateCommand, QueryCommand, PutCommand } from '@aws-sdk/lib-dynamodb';
 import { SecretsManagerClient, GetSecretValueCommand } from '@aws-sdk/client-secrets-manager';
 import crypto from 'crypto';
 import type { SubscriptionTier, SubscriptionStatus } from '@quiz/shared';
@@ -269,6 +269,12 @@ async function handleCheckoutCompleted(event: StripeCheckoutEvent): Promise<void
     return;
   }
 
+  // Check if this is a tip payment
+  if (session.metadata?.type === 'tip') {
+    await handleTipPayment(userId);
+    return;
+  }
+
   const customerId = session.customer;
   const subscriptionId = session.subscription;
 
@@ -287,6 +293,28 @@ async function handleCheckoutCompleted(event: StripeCheckoutEvent): Promise<void
   );
 
   console.log(`Checkout completed for user ${userId}, tier ${tier}`);
+}
+
+async function handleTipPayment(userId: string): Promise<void> {
+  const now = new Date();
+  const tipUnlockedUntil = new Date(now.getTime() + 24 * 60 * 60 * 1000).toISOString(); // 24 hours from now
+
+  await docClient.send(
+    new UpdateCommand({
+      TableName: TABLE_NAME,
+      Key: { PK: `USER#${userId}`, SK: 'PROFILE' },
+      UpdateExpression: `
+        SET tipUnlockedUntil = :tipUnlockedUntil,
+            updatedAt = :now
+      `,
+      ExpressionAttributeValues: {
+        ':tipUnlockedUntil': tipUnlockedUntil,
+        ':now': now.toISOString(),
+      },
+    })
+  );
+
+  console.log(`Tip payment processed for user ${userId}, unlocked until ${tipUnlockedUntil}`);
 }
 
 async function handleSubscriptionCreated(event: StripeSubscriptionEvent): Promise<void> {
@@ -382,6 +410,42 @@ async function handleSubscriptionDeleted(event: StripeSubscriptionEvent): Promis
   console.log(`Subscription cancelled for user ${userId}`);
 }
 
+async function logWebhookEvent(
+  eventId: string,
+  eventType: string,
+  payload: Record<string, unknown>,
+  status: 'received' | 'processed' | 'error',
+  errorMessage?: string
+): Promise<void> {
+  const now = new Date();
+  const timestamp = now.toISOString();
+
+  try {
+    await docClient.send(
+      new PutCommand({
+        TableName: TABLE_NAME,
+        Item: {
+          PK: 'WEBHOOK_LOG',
+          SK: `STRIPE#${timestamp}#${eventId}`,
+          GSI1PK: 'WEBHOOK_LOG#STRIPE',
+          GSI1SK: timestamp,
+          provider: 'stripe',
+          eventId,
+          eventType,
+          payload: JSON.stringify(payload),
+          status,
+          errorMessage,
+          createdAt: timestamp,
+          // TTL: 30 days from now
+          ttl: Math.floor(now.getTime() / 1000) + 30 * 24 * 60 * 60,
+        },
+      })
+    );
+  } catch (error) {
+    console.error('Failed to log webhook event:', error);
+  }
+}
+
 async function handlePaymentFailed(event: StripeInvoiceEvent): Promise<void> {
   const invoice = event.data.object;
   const customerId = invoice.customer;
@@ -463,33 +527,47 @@ export async function handler(event: APIGatewayEvent): Promise<APIGatewayRespons
     // Parse event
     const stripeEvent = JSON.parse(rawBody);
     const eventType = stripeEvent.type;
+    const eventId = stripeEvent.id;
 
-    console.log(`Processing Stripe event: ${eventType}`);
+    console.log(`Processing Stripe event: ${eventType} (${eventId})`);
 
-    // Handle different event types
-    switch (eventType) {
-      case 'checkout.session.completed':
-        await handleCheckoutCompleted(stripeEvent);
-        break;
+    // Log webhook received
+    await logWebhookEvent(eventId, eventType, stripeEvent, 'received');
 
-      case 'customer.subscription.created':
-        await handleSubscriptionCreated(stripeEvent);
-        break;
+    try {
+      // Handle different event types
+      switch (eventType) {
+        case 'checkout.session.completed':
+          await handleCheckoutCompleted(stripeEvent);
+          break;
 
-      case 'customer.subscription.updated':
-        await handleSubscriptionUpdated(stripeEvent);
-        break;
+        case 'customer.subscription.created':
+          await handleSubscriptionCreated(stripeEvent);
+          break;
 
-      case 'customer.subscription.deleted':
-        await handleSubscriptionDeleted(stripeEvent);
-        break;
+        case 'customer.subscription.updated':
+          await handleSubscriptionUpdated(stripeEvent);
+          break;
 
-      case 'invoice.payment_failed':
-        await handlePaymentFailed(stripeEvent);
-        break;
+        case 'customer.subscription.deleted':
+          await handleSubscriptionDeleted(stripeEvent);
+          break;
 
-      default:
-        console.log(`Unhandled event type: ${eventType}`);
+        case 'invoice.payment_failed':
+          await handlePaymentFailed(stripeEvent);
+          break;
+
+        default:
+          console.log(`Unhandled event type: ${eventType}`);
+      }
+
+      // Log webhook processed successfully
+      await logWebhookEvent(eventId, eventType, stripeEvent, 'processed');
+    } catch (processingError) {
+      // Log webhook processing error
+      const errorMessage = processingError instanceof Error ? processingError.message : 'Unknown error';
+      await logWebhookEvent(eventId, eventType, stripeEvent, 'error', errorMessage);
+      throw processingError;
     }
 
     return {

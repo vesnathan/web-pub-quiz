@@ -4,7 +4,7 @@ import {
   ROOM_NAME_ADJECTIVES,
   ROOM_NAME_NOUNS,
   MAX_PLAYERS_PER_ROOM,
-  INITIAL_ROOMS_COUNT,
+  PLAYERS_PER_ROOM_THRESHOLD,
 } from '@quiz/shared';
 
 // In-memory room storage
@@ -144,12 +144,56 @@ export function getRoomList(): RoomListItem[] {
       status: room.status,
     }))
     .sort((a, b) => {
-      // Sort by status (waiting first), then by player count (most players first)
+      // Sort by difficulty order: easy, medium, hard
+      const difficultyOrder: Record<RoomDifficulty, number> = { easy: 0, medium: 1, hard: 2 };
+      const diffA = difficultyOrder[a.difficulty];
+      const diffB = difficultyOrder[b.difficulty];
+      if (diffA !== diffB) return diffA - diffB;
+
+      // Then by status (waiting first)
       if (a.status !== b.status) {
         return a.status === 'waiting' ? -1 : 1;
       }
       return b.currentPlayers - a.currentPlayers;
     });
+}
+
+/**
+ * Check if more rooms are needed based on total player count.
+ * Adds a new room for every PLAYERS_PER_ROOM_THRESHOLD players.
+ * Returns the new room if one was created, null otherwise.
+ */
+export function checkAndAddRoomIfNeeded(): Room | null {
+  // Count total players and active rooms
+  let totalPlayers = 0;
+  let activeRoomCount = 0;
+
+  for (const room of rooms.values()) {
+    if (room.status !== 'completed') {
+      totalPlayers += room.currentPlayers;
+      activeRoomCount++;
+    }
+  }
+
+  // Calculate how many rooms we should have based on player count
+  // Start with 3 base rooms (easy, medium, hard), add 1 for every threshold
+  const baseRooms = 3;
+  const additionalRooms = Math.floor(totalPlayers / PLAYERS_PER_ROOM_THRESHOLD);
+  const targetRoomCount = baseRooms + additionalRooms;
+
+  // If we need more rooms, create one
+  if (activeRoomCount < targetRoomCount) {
+    // Rotate through difficulties for new rooms
+    const difficulties: RoomDifficulty[] = ['medium', 'easy', 'hard'];
+    const difficultyIndex = (activeRoomCount - baseRooms) % difficulties.length;
+    const difficulty = difficulties[difficultyIndex];
+
+    const newRoom = createRoom(difficulty);
+    console.log(`📈 Added new ${difficulty} room due to ${totalPlayers} players online (${activeRoomCount + 1} rooms now)`);
+    return newRoom;
+  }
+
+  return null;
 }
 
 /**
@@ -216,7 +260,7 @@ export function cleanupExpiredReservations(): void {
 
 /**
  * Create fresh rooms for a new half-hour period.
- * Clears completed rooms and creates initial rooms.
+ * Clears completed rooms and creates one room of each difficulty.
  */
 export function createRoomsForNewHalfHour(): void {
   console.log('\n🔄 Creating rooms for new half-hour...');
@@ -237,12 +281,13 @@ export function createRoomsForNewHalfHour(): void {
     }
   }
 
-  // Create initial rooms (all medium difficulty for MVP)
-  for (let i = 0; i < INITIAL_ROOMS_COUNT; i++) {
-    createRoom('medium');
+  // Create one room of each difficulty
+  const difficulties: RoomDifficulty[] = ['easy', 'medium', 'hard'];
+  for (const difficulty of difficulties) {
+    createRoom(difficulty);
   }
 
-  console.log(`✅ Created ${INITIAL_ROOMS_COUNT} new rooms\n`);
+  console.log(`✅ Created ${difficulties.length} new rooms (easy, medium, hard)\n`);
 }
 
 /**

@@ -1,0 +1,342 @@
+[
+  {
+    "id": "eda2f6fd-57f4-4cba-80c8-fbf2b919b3fc",
+    "text": "Which river flows through the most countries in the world?",
+    "options": [
+      "Amazon",
+      "Nile",
+      "Danube",
+      "Rhine"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "The Danube flows through 10 countries, more than any other river.",
+    "detailedExplanation": "The Danube River flows through 10 countries: Germany, Austria, Slovakia, Hungary, Croatia, Serbia, Romania, Bulgaria, Moldova, and Ukraine. This makes it the river that passes through the most countries in the world. The river originates in Germany's Black Forest and flows southeast for about 2,850 kilometers before emptying into the Black Sea.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Danube",
+    "citationTitle": "Wikipedia: Danube"
+  },
+  {
+    "id": "b8e4fbe8-ad9c-480c-b3f1-26e9eba68164",
+    "text": "What is the deepest lake in the world?",
+    "options": [
+      "Lake Superior",
+      "Caspian Sea",
+      "Lake Baikal",
+      "Lake Tanganyika"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "Lake Baikal reaches a maximum depth of 1,642 meters (5,387 feet).",
+    "detailedExplanation": "Lake Baikal in Siberia, Russia, is the world's deepest lake with a maximum depth of 1,642 meters (5,387 feet). It's also the world's oldest freshwater lake, estimated to be 25-30 million years old, and contains about 20% of the world's unfrozen fresh water. The lake is home to thousands of species of plants and animals, many of which are endemic to the region.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Lake_Baikal",
+    "citationTitle": "Wikipedia: Lake Baikal"
+  },
+  {
+    "id": "668ba54b-c455-4493-9451-5142515f0d5d",
+    "text": "The source of the Amazon River is located in which country?",
+    "options": [
+      "Brazil",
+      "Colombia",
+      "Peru",
+      "Ecuador"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "The Amazon River's source is in the Peruvian Andes mountains.",
+    "detailedExplanation": "The Amazon River originates from the Nevado Mismi mountain in the Peruvian Andes, specifically in the Arequipa region of Peru. From this high-altitude source at about 5,170 meters above sea level, the river flows eastward across South America for approximately 6,400 kilometers before reaching the Atlantic Ocean in Brazil. While the river flows through several countries, its furthest source has been traced to Peru.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Amazon_River",
+    "citationTitle": "Wikipedia: Amazon River"
+  },
+  {
+    "id": "27e2a804-ddc3-4136-9f02-af626815e0f9",
+    "text": "Which of these lakes is entirely contained within one country?",
+    "options": [
+      "Lake Geneva",
+      "Lake Constance",
+      "Lake Ladoga",
+      "Lake Victoria"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "Lake Ladoga is entirely within Russia, while the others are shared between countries.",
+    "detailedExplanation": "Lake Ladoga, located in northwestern Russia near St. Petersburg, is entirely contained within Russian territory. In contrast, Lake Geneva is shared between Switzerland and France, Lake Constance borders Germany, Austria, and Switzerland, and Lake Victoria is shared between Tanzania, Uganda, and Kenya. Lake Ladoga is Europe's largest lake by surface area and was historically significant during World War II.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Lake_Ladoga",
+    "citationTitle": "Wikipedia: Lake Ladoga"
+  },
+  {
+    "id": "2382168b-bbf3-4878-9b6b-c0d285958991",
+    "text": "The Mekong River empties into the sea in which country?",
+    "options": [
+      "Thailand",
+      "Cambodia",
+      "Vietnam",
+      "Laos"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "The Mekong River flows into the South China Sea through the Mekong Delta in southern Vietnam.",
+    "detailedExplanation": "The Mekong River, after flowing through China, Myanmar, Laos, Thailand, and Cambodia, reaches its final destination in Vietnam. The river forms an extensive delta in southern Vietnam before emptying into the South China Sea. The Mekong Delta is one of the world's most productive agricultural regions and is often called the 'rice bowl' of Vietnam, supporting millions of people with its fertile alluvial soil.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Mekong",
+    "citationTitle": "Wikipedia: Mekong"
+  },
+  {
+    "id": "68fffd3e-8c69-46cb-8245-02b904152fea",
+    "text": "What is unusual about the Jordan River's endpoint?",
+    "options": [
+      "It flows uphill",
+      "It ends in a desert",
+      "It ends below sea level",
+      "It splits into two rivers"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "The Jordan River ends in the Dead Sea, which is about 430 meters below sea level.",
+    "detailedExplanation": "The Jordan River flows into the Dead Sea, which sits at approximately 430 meters (1,410 feet) below sea level, making it the lowest point on Earth's surface. This makes the Jordan River unique as one of the few rivers that ends below sea level rather than flowing into an ocean or sea at sea level. The Dead Sea's extreme salinity and low elevation create a unique ecosystem and have made it a site of historical and geological significance.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Jordan_River",
+    "citationTitle": "Wikipedia: Jordan River"
+  },
+  {
+    "id": "2933c082-b198-41ae-9f1c-aa13a041c73b",
+    "text": "Lake Titicaca, the world's highest navigable lake, is located between which two countries?",
+    "options": [
+      "Chile and Argentina",
+      "Peru and Bolivia",
+      "Ecuador and Colombia",
+      "Bolivia and Chile"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "Lake Titicaca straddles the border between Peru and Bolivia in the Andes Mountains.",
+    "detailedExplanation": "Lake Titicaca is situated in the Andes Mountains on the border between Peru and Bolivia, at an elevation of 3,812 meters (12,507 feet) above sea level. It is often considered the world's highest navigable lake for large vessels. The lake has significant cultural importance for local indigenous peoples and is believed to be the birthplace of the Inca civilization according to Inca mythology. The lake contains several islands, including the famous floating islands made of totora reeds.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Lake_Titicaca",
+    "citationTitle": "Wikipedia: Lake Titicaca"
+  },
+  {
+    "id": "9892f04b-648b-4bf6-952d-9d94730b61e4",
+    "text": "Which river is known as 'China's Sorrow' due to its frequent flooding?",
+    "options": [
+      "Yangtze River",
+      "Yellow River",
+      "Pearl River",
+      "Mekong River"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "The Yellow River earned this nickname due to its history of devastating floods.",
+    "detailedExplanation": "The Yellow River (Huang He) has been called 'China's Sorrow' because of its tendency to flood catastrophically throughout Chinese history. The river carries enormous amounts of yellow silt from the Loess Plateau, which gives it its name and color. This sediment constantly raises the riverbed, making the river prone to changing course and breaking through its banks. Some floods have killed millions of people and dramatically altered the river's path, making it one of the most unpredictable and dangerous rivers in the world.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Yellow_River",
+    "citationTitle": "Wikipedia: Yellow River"
+  },
+  {
+    "id": "5319e85a-a561-4025-b0c3-e9b0f7f000d9",
+    "text": "The source of the Amazon River is located in which mountain range?",
+    "options": [
+      "Rocky Mountains",
+      "Himalayas",
+      "Andes",
+      "Atlas Mountains"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "The Amazon River originates in the Andes Mountains of Peru.",
+    "detailedExplanation": "The Amazon River's source is located high in the Andes Mountains of Peru, specifically on the slopes of Mount Mismi. From there, it flows eastward across South America for approximately 6,400 kilometers (4,000 miles) before emptying into the Atlantic Ocean in Brazil. The river and its tributaries drain an area of about 7 million square kilometers.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Amazon_River",
+    "citationTitle": "Wikipedia: Amazon River"
+  },
+  {
+    "id": "b6149976-e79d-4912-ac55-d6002c911628",
+    "text": "Which of these rivers does NOT flow into the Mediterranean Sea?",
+    "options": [
+      "Rhône",
+      "Po",
+      "Ebro",
+      "Tagus"
+    ],
+    "correctIndex": 3,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "The Tagus flows westward into the Atlantic Ocean at Lisbon, Portugal.",
+    "detailedExplanation": "The Tagus (Tejo in Portuguese, Tajo in Spanish) is the longest river on the Iberian Peninsula, flowing westward through Spain and Portugal to empty into the Atlantic Ocean at Lisbon. The other three rivers all flow into the Mediterranean: the Rhône in France, the Po in Italy, and the Ebro in Spain.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Tagus",
+    "citationTitle": "Wikipedia: Tagus"
+  },
+  {
+    "id": "cbfd9e82-b3ce-42ce-902c-f2eec2422a24",
+    "text": "The Great Lakes of North America drain into which ocean?",
+    "options": [
+      "Pacific Ocean",
+      "Arctic Ocean",
+      "Atlantic Ocean",
+      "Gulf of Mexico"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "The Great Lakes drain into the Atlantic Ocean via the Saint Lawrence River.",
+    "detailedExplanation": "The Great Lakes system drains eastward through the Saint Lawrence River, which flows from Lake Ontario to the Gulf of Saint Lawrence and ultimately into the Atlantic Ocean. This drainage system connects the largest group of freshwater lakes in the world by total area to the Atlantic, passing through both Canada and the United States.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Great_Lakes",
+    "citationTitle": "Wikipedia: Great Lakes"
+  },
+  {
+    "id": "86462fcd-dc79-462f-b504-32777a4dd34c",
+    "text": "Which is the largest lake entirely within one country?",
+    "options": [
+      "Lake Victoria",
+      "Lake Superior",
+      "Lake Baikal",
+      "Caspian Sea"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "Lake Baikal is entirely within Russia, making it the largest lake in a single country.",
+    "detailedExplanation": "While the Caspian Sea is the largest enclosed body of water, it borders multiple countries. Lake Superior is shared between the US and Canada, and Lake Victoria borders three African nations. Lake Baikal, located entirely within Russia, is the largest lake by volume and the deepest lake in the world, containing more water than all the North American Great Lakes combined.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Lake_Baikal",
+    "citationTitle": "Wikipedia: Lake Baikal"
+  },
+  {
+    "id": "998393cc-2235-4a92-9c4a-09346c1a5ff9",
+    "text": "The Mekong River flows through how many countries before reaching the sea?",
+    "options": [
+      "4 countries",
+      "6 countries",
+      "8 countries",
+      "10 countries"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "The Mekong flows through China, Myanmar, Laos, Thailand, Cambodia, and Vietnam.",
+    "detailedExplanation": "The Mekong River originates in the Tibetan Plateau in China and flows through six countries: China (where it's called the Lancang), Myanmar, Laos, Thailand, Cambodia, and Vietnam, before emptying into the South China Sea via the Mekong Delta. It is the world's 12th longest river and is vital for the livelihoods of millions of people in Southeast Asia.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Mekong",
+    "citationTitle": "Wikipedia: Mekong"
+  },
+  {
+    "id": "3f02e67c-e75a-43da-90ed-b98868a070c5",
+    "text": "Which river is known as the 'Mother of Waters' and is the longest river system in North America?",
+    "options": [
+      "Colorado River",
+      "Mississippi River",
+      "Rio Grande",
+      "Columbia River"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "The Mississippi River is called the 'Mother of Waters' and forms the longest river system in North America.",
+    "detailedExplanation": "The Mississippi River, along with its major tributary the Missouri River, forms the longest river system in North America at approximately 3,730 miles. Native Americans called it 'Misi-ziibi' meaning 'Great River' or 'Father of Waters,' which evolved into the nickname 'Mother of Waters.' The river system drains parts or all of 32 U.S. states and flows from Minnesota to the Gulf of Mexico.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Mississippi_River",
+    "citationTitle": "Wikipedia: Mississippi River"
+  },
+  {
+    "id": "bcb23846-c974-4692-b6da-cd2433aba4c2",
+    "text": "Lake Baikal, the world's deepest freshwater lake, is located in which country?",
+    "options": [
+      "Mongolia",
+      "China",
+      "Russia",
+      "Kazakhstan"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "Lake Baikal is located in southern Siberia, Russia, and reaches depths of over 5,300 feet.",
+    "detailedExplanation": "Lake Baikal is situated in southern Siberia, Russia, between the Irkutsk Oblast and Buryatia. It is the world's deepest freshwater lake, reaching maximum depths of 5,315 feet (1,620 meters), and contains about 20% of the world's unfrozen fresh water. The lake is also one of the world's oldest lakes, estimated to be 25-30 million years old, and is home to thousands of endemic species.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Lake_Baikal",
+    "citationTitle": "Wikipedia: Lake Baikal"
+  },
+  {
+    "id": "177b5304-9050-4b23-8d9d-9ec3c8f56ebe",
+    "text": "The Victoria Falls, one of the world's largest waterfalls, is formed by which river?",
+    "options": [
+      "Congo River",
+      "Nile River",
+      "Zambezi River",
+      "Niger River"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "Victoria Falls is created by the Zambezi River as it flows between Zambia and Zimbabwe.",
+    "detailedExplanation": "Victoria Falls is formed by the Zambezi River on the border between Zambia and Zimbabwe in southern Africa. The falls are approximately 5,604 feet wide and 354 feet high, making them one of the largest waterfalls in the world. Known locally as Mosi-oa-Tunya ('The Smoke That Thunders'), the falls were named after Queen Victoria by explorer David Livingstone in 1855.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Victoria_Falls",
+    "citationTitle": "Wikipedia: Victoria Falls"
+  },
+  {
+    "id": "e1275d73-b53d-469f-ba98-4862db7fe358",
+    "text": "Which of these lakes is actually a saltwater lake despite its name?",
+    "options": [
+      "Great Salt Lake",
+      "Caspian Sea",
+      "Lake Superior",
+      "Lake Tanganyika"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "The Caspian Sea is actually the world's largest lake by surface area, despite being called a 'sea' and containing saltwater.",
+    "detailedExplanation": "The Caspian Sea is technically a lake, not a sea, as it is completely enclosed by land with no natural outlet to the ocean. It is the world's largest lake by surface area, covering approximately 143,244 square miles. The water is saline, though less salty than ocean water, due to evaporation and the inflow of rivers. It borders Russia, Kazakhstan, Turkmenistan, Iran, and Azerbaijan.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Caspian_Sea",
+    "citationTitle": "Wikipedia: Caspian Sea"
+  },
+  {
+    "id": "7e0a1d55-7b99-442d-b9db-a28b3472382a",
+    "text": "The Amazon River primarily flows through which direction across South America?",
+    "options": [
+      "North to South",
+      "South to North",
+      "East to West",
+      "West to East"
+    ],
+    "correctIndex": 3,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "The Amazon River flows from west to east, from the Peruvian Andes to the Atlantic Ocean in Brazil.",
+    "detailedExplanation": "The Amazon River flows approximately 4,000 miles from west to east across South America. It originates in the Peruvian Andes near the Pacific coast and flows eastward through Peru, Colombia, and Brazil before emptying into the Atlantic Ocean. This west-to-east flow is due to the continental topography, with the Andes Mountains on the western edge creating a natural slope toward the Atlantic.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Amazon_River",
+    "citationTitle": "Wikipedia: Amazon River"
+  },
+  {
+    "id": "9a7eb093-40e1-47d0-8658-b690ad894f62",
+    "text": "Which African lake is known for having more fish species than any other lake in the world?",
+    "options": [
+      "Lake Victoria",
+      "Lake Tanganyika",
+      "Lake Malawi",
+      "Lake Chad"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "Lake Malawi contains more fish species than any other lake, with over 1,000 species of cichlid fish alone.",
+    "detailedExplanation": "Lake Malawi, also known as Lake Nyasa, is renowned for having the highest biodiversity of fish species of any lake in the world. It contains an estimated 1,000+ species of cichlid fish, with many being endemic to the lake. The lake is part of the East African Rift system and is shared by Malawi, Mozambique, and Tanzania. Its isolation and stable environment over millions of years has led to exceptional evolutionary diversification.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Lake_Malawi",
+    "citationTitle": "Wikipedia: Lake Malawi"
+  },
+  {
+    "id": "273f3b23-c125-41dc-b9dc-2e6db21a58d0",
+    "text": "The Danube River flows through how many countries before reaching the Black Sea?",
+    "options": [
+      "6 countries",
+      "8 countries",
+      "10 countries",
+      "12 countries"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "The Danube River flows through 10 countries, making it the most international river in the world.",
+    "detailedExplanation": "The Danube River flows through 10 countries on its journey from the Black Forest in Germany to the Black Sea: Germany, Austria, Slovakia, Hungary, Croatia, Serbia, Bulgaria, Romania, Moldova, and Ukraine. At 1,777 miles long, it is Europe's second-longest river after the Volga. The Danube passes through four capital cities (Vienna, Bratislava, Budapest, and Belgrade) and is considered the most international river in the world due to the number of countries it traverses.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Danube",
+    "citationTitle": "Wikipedia: Danube"
+  }
+]

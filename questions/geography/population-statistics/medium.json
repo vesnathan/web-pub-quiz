@@ -1,0 +1,342 @@
+[
+  {
+    "id": "8c1d9dd0-cd90-4f90-bffc-45e29de00f2f",
+    "text": "Approximately what percentage of the world's population lives in the Northern Hemisphere?",
+    "options": [
+      "68%",
+      "78%",
+      "88%",
+      "98%"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "Approximately 88% of the world's population lives in the Northern Hemisphere.",
+    "detailedExplanation": "The vast majority of Earth's population, roughly 88%, lives in the Northern Hemisphere. This dramatic imbalance is primarily due to the larger landmass in the north, including heavily populated regions like Asia, Europe, and North America. Major population centers such as China, India, the United States, and Europe all lie north of the equator. The Southern Hemisphere, despite containing countries like Australia, Brazil, and much of Africa, has significantly less total population due to larger ocean areas and less densely populated landmasses.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Northern_Hemisphere",
+    "citationTitle": "Wikipedia: Northern Hemisphere"
+  },
+  {
+    "id": "d90a6e1d-b8d0-4762-9043-14f9e4cdb580",
+    "text": "Which metropolitan area is projected to become the world's most populous by 2030?",
+    "options": [
+      "Tokyo-Yokohama",
+      "Delhi",
+      "Shanghai",
+      "São Paulo"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "Delhi is projected to become the world's most populous metropolitan area by 2030, surpassing Tokyo.",
+    "detailedExplanation": "According to United Nations projections, the Delhi metropolitan area in India is expected to become the world's most populous urban agglomeration by 2030, with an estimated population of around 38-40 million people. This would surpass the Tokyo-Yokohama metropolitan area, which has held the top position for decades. Delhi's rapid growth is driven by rural-to-urban migration, economic opportunities, and high birth rates. The shift represents the broader trend of urbanization in developing countries, particularly in Asia and Africa.",
+    "citationUrl": "https://en.wikipedia.org/wiki/List_of_largest_cities",
+    "citationTitle": "Wikipedia: List of largest cities"
+  },
+  {
+    "id": "e414d444-a19a-4b4c-9015-d5f31a540f3f",
+    "text": "What is the term for the statistical measure of the average number of children born to a woman during her lifetime?",
+    "options": [
+      "Birth rate",
+      "Fertility rate",
+      "Population growth rate",
+      "Replacement rate"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "The total fertility rate measures the average number of children born to a woman during her reproductive lifetime.",
+    "detailedExplanation": "The total fertility rate (TFR) is a key demographic indicator that represents the average number of children that would be born to a woman over her lifetime if she were to experience the exact current age-specific fertility rates through her lifetime. This measure is crucial for understanding population trends and predicting future population changes. A TFR of approximately 2.1 is considered the replacement level for developed countries, meaning the population would remain stable over time. Rates above this lead to population growth, while rates below lead to population decline.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Total_fertility_rate",
+    "citationTitle": "Wikipedia: Total fertility rate"
+  },
+  {
+    "id": "7dc9f947-5aaf-45d2-870b-8add407a5b28",
+    "text": "Which continent is experiencing the fastest population growth rate?",
+    "options": [
+      "Asia",
+      "Africa",
+      "South America",
+      "North America"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "Africa has the fastest population growth rate of any continent, with an annual growth rate of approximately 2.7%.",
+    "detailedExplanation": "Africa is currently experiencing the world's fastest population growth, with an annual growth rate of approximately 2.7% as of recent estimates. This rapid growth is driven by high fertility rates, improving healthcare leading to lower infant mortality, and a young population structure. Countries like Nigeria, Democratic Republic of Congo, and Ethiopia are major contributors to this growth. Projections suggest that Africa's population could double by 2050, reaching around 2.5 billion people, which would represent about 25% of the world's population.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Demographics_of_Africa",
+    "citationTitle": "Wikipedia: Demographics of Africa"
+  },
+  {
+    "id": "9bf9dcb4-8b0e-4849-944a-aafd7e6bc7e0",
+    "text": "What is the approximate current world population as of 2024?",
+    "options": [
+      "7.2 billion",
+      "7.8 billion",
+      "8.1 billion",
+      "8.6 billion"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "The world population reached approximately 8.1 billion people in 2024.",
+    "detailedExplanation": "The global population reached approximately 8 billion people in late 2022 and continues to grow, reaching about 8.1 billion by 2024. This milestone was reached despite slowing growth rates in many developed countries. The population growth is primarily driven by countries in Africa and parts of Asia, while many European and East Asian countries are experiencing declining or stable populations. Current projections suggest the world population will peak at around 10.4 billion people sometime in the 2080s before beginning to decline.",
+    "citationUrl": "https://en.wikipedia.org/wiki/World_population",
+    "citationTitle": "Wikipedia: World population"
+  },
+  {
+    "id": "dfa8e6b7-3e56-4695-b6f7-6c1e4ddfce0b",
+    "text": "Which country has the lowest population density among these options?",
+    "options": [
+      "Canada",
+      "Australia",
+      "Russia",
+      "Mongolia"
+    ],
+    "correctIndex": 3,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "Mongolia has the lowest population density at approximately 2 people per square kilometer.",
+    "detailedExplanation": "Mongolia has one of the lowest population densities in the world, with approximately 2 people per square kilometer. Despite being a large country (roughly 1.56 million square kilometers), Mongolia has a population of only about 3.3 million people. Much of the country consists of the Gobi Desert and vast steppes, with extreme continental climate conditions that make large areas sparsely habitable. The traditional nomadic lifestyle and challenging geography contribute to this extremely low population density, making it one of the least densely populated countries globally.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Demographics_of_Mongolia",
+    "citationTitle": "Wikipedia: Demographics of Mongolia"
+  },
+  {
+    "id": "918d89e8-f983-4327-a639-51367b6bfe52",
+    "text": "Which age group represents the largest portion of the global population?",
+    "options": [
+      "0-14 years",
+      "15-24 years",
+      "25-54 years",
+      "55+ years"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "The 25-54 age group represents the largest portion of the global population, comprising the working-age demographic.",
+    "detailedExplanation": "The 25-54 age group currently represents the largest segment of the global population, accounting for approximately 40% of all people worldwide. This demographic represents the prime working-age population and is crucial for economic productivity and supporting both younger and older generations. However, this distribution varies significantly by region - developing countries tend to have younger populations with larger percentages in the 0-24 age ranges, while developed countries have aging populations with growing percentages in older age groups. This demographic shift has significant implications for economic growth, healthcare systems, and social security.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Demographics_of_the_world",
+    "citationTitle": "Wikipedia: Demographics of the world"
+  },
+  {
+    "id": "3f05455e-81b3-4b07-a065-441505fb0ba3",
+    "text": "Which country currently has the world's largest population?",
+    "options": [
+      "India",
+      "China",
+      "United States",
+      "Indonesia"
+    ],
+    "correctIndex": 0,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "India surpassed China as the world's most populous country in 2023.",
+    "detailedExplanation": "India overtook China as the world's most populous country in April 2023, with an estimated population of over 1.42 billion people. This demographic shift occurred due to India's higher birth rate and younger population structure compared to China's declining birth rate and aging population, which has been influenced by decades of the one-child policy.",
+    "citationUrl": "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_population",
+    "citationTitle": "Wikipedia: List of countries and dependencies by population"
+  },
+  {
+    "id": "cabc85c0-99da-47be-b327-fb3d7e0dd460",
+    "text": "What is the most densely populated sovereign country in the world?",
+    "options": [
+      "Singapore",
+      "Monaco",
+      "Malta",
+      "Bangladesh"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "Monaco has approximately 26,000 people per square kilometer, making it the world's most densely populated sovereign state.",
+    "detailedExplanation": "Monaco, the tiny principality on the French Riviera, is the world's most densely populated sovereign country with around 26,000 people per square kilometer. Despite being only 2.02 square kilometers in area, Monaco's population density is extraordinarily high due to its status as a tax haven and luxury destination, attracting wealthy residents to its limited territory.",
+    "citationUrl": "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_population_density",
+    "citationTitle": "Wikipedia: List of countries and dependencies by population density"
+  },
+  {
+    "id": "5263517a-4805-4ff2-8618-09e009dd92aa",
+    "text": "Which continent has the fastest population growth rate?",
+    "options": [
+      "Asia",
+      "Africa",
+      "South America",
+      "North America"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "Africa has the highest population growth rate among all continents, with an annual growth rate of approximately 2.5%.",
+    "detailedExplanation": "Africa currently experiences the fastest population growth rate globally, with an annual increase of about 2.5%. This growth is driven by high fertility rates, improving healthcare systems that reduce infant mortality, and a predominantly young population. Countries like Niger, Chad, and Mali have some of the highest birth rates in the world, contributing significantly to this continental trend.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Demographics_of_Africa",
+    "citationTitle": "Wikipedia: Demographics of Africa"
+  },
+  {
+    "id": "80ff07b9-341a-4ed7-8e2c-a6d053e3ee3b",
+    "text": "Approximately what percentage of the world's population lives in urban areas as of 2023?",
+    "options": [
+      "45%",
+      "50%",
+      "57%",
+      "62%"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "About 57% of the world's population now lives in urban areas, a figure that continues to grow annually.",
+    "detailedExplanation": "As of 2023, approximately 57% of the global population lives in urban areas, representing a significant shift from predominantly rural societies just a century ago. This urbanization trend is particularly pronounced in developing countries, where rural-to-urban migration continues as people seek better economic opportunities, education, and healthcare in cities.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Urbanization",
+    "citationTitle": "Wikipedia: Urbanization"
+  },
+  {
+    "id": "1e5f48c3-a844-472a-94c2-4909a68f79be",
+    "text": "What is the approximate current global population?",
+    "options": [
+      "7.2 billion",
+      "7.8 billion",
+      "8.1 billion",
+      "8.5 billion"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "The world population reached approximately 8.1 billion people in 2023.",
+    "detailedExplanation": "The global population reached approximately 8.1 billion people in 2023, having crossed the 8 billion milestone in late 2022. This represents a significant increase from 7.8 billion in 2020, though population growth rates are slowing in many developed countries. The United Nations projects the population will peak at around 10.4 billion people in the 2080s before beginning to decline.",
+    "citationUrl": "https://en.wikipedia.org/wiki/World_population",
+    "citationTitle": "Wikipedia: World population"
+  },
+  {
+    "id": "e395a8fd-5dc2-416c-b36a-6bb3664979e4",
+    "text": "Which country is projected to have the largest population by 2050?",
+    "options": [
+      "China",
+      "India",
+      "Nigeria",
+      "United States"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "India is projected to maintain its position as the world's most populous country through 2050 with an estimated 1.67 billion people.",
+    "detailedExplanation": "According to UN projections, India will continue to be the world's most populous country by 2050, with an estimated population of about 1.67 billion people. While China's population is expected to decline to around 1.32 billion due to its aging demographic structure, India's younger population and higher fertility rates will sustain its population growth for several more decades before eventually stabilizing.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Projections_of_population_growth",
+    "citationTitle": "Wikipedia: Projections of population growth"
+  },
+  {
+    "id": "10719333-c964-4842-9b21-193766f8a0b3",
+    "text": "Which country has the highest population density in the world (excluding city-states and microstates)?",
+    "options": [
+      "Bangladesh",
+      "South Korea",
+      "Netherlands",
+      "Taiwan"
+    ],
+    "correctIndex": 0,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "Bangladesh has approximately 1,265 people per square kilometer, making it the most densely populated country.",
+    "detailedExplanation": "Bangladesh is the most densely populated country in the world when excluding city-states like Monaco and Singapore. With over 165 million people packed into just 147,570 square kilometers, Bangladesh has a population density of approximately 1,265 people per square kilometer. This extreme density is due to the country's fertile river delta geography, which supports intensive agriculture and large populations, combined with relatively small land area.",
+    "citationUrl": "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_population_density",
+    "citationTitle": "Wikipedia: List of countries and dependencies by population density"
+  },
+  {
+    "id": "eceaa82c-2560-4279-8aba-e91894c07001",
+    "text": "What percentage of the world's population lives in the Northern Hemisphere?",
+    "options": [
+      "68%",
+      "78%",
+      "88%",
+      "98%"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "Approximately 88% of the world's population lives in the Northern Hemisphere due to the larger landmass above the equator.",
+    "detailedExplanation": "About 88% of the world's population lives in the Northern Hemisphere, which contains most of the world's major population centers including China, India, Europe, and most of North America. This dramatic imbalance is primarily due to the distribution of landmass on Earth - the Northern Hemisphere contains significantly more land area than the Southern Hemisphere, and most of the world's largest countries and cities are located north of the equator.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Northern_Hemisphere",
+    "citationTitle": "Wikipedia: Northern Hemisphere"
+  },
+  {
+    "id": "7b33dd76-7405-49ae-8c65-31753c86b459",
+    "text": "Which of these European countries has experienced the most significant population decline since 1990?",
+    "options": [
+      "Bulgaria",
+      "Estonia",
+      "Latvia",
+      "Lithuania"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "Latvia has lost approximately 27% of its population since 1990, the highest percentage decline in Europe.",
+    "detailedExplanation": "Latvia has experienced the most dramatic population decline in Europe since 1990, losing approximately 27% of its population from about 2.67 million to around 1.9 million people. This decline is attributed to emigration following EU accession, low birth rates, and economic factors that drove many Latvians to seek opportunities in Western Europe. While other Baltic states and Eastern European countries also experienced significant population losses, Latvia's decline has been the most severe in percentage terms.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Demographics_of_Latvia",
+    "citationTitle": "Wikipedia: Demographics of Latvia"
+  },
+  {
+    "id": "86205807-6d40-442c-aa87-020c5000527d",
+    "text": "What is the approximate current global population growth rate per year?",
+    "options": [
+      "0.5%",
+      "0.9%",
+      "1.3%",
+      "1.7%"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "The global population is currently growing at approximately 0.9% per year, down from higher rates in previous decades.",
+    "detailedExplanation": "The global population growth rate is currently approximately 0.9% per year as of 2023-2024. This represents a significant decline from peak growth rates of over 2% in the 1960s and 1970s. The declining growth rate is due to falling fertility rates worldwide, increased urbanization, better education (particularly for women), and improved access to family planning. Despite the slowing rate, the world population continues to increase by about 70-75 million people annually.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Population_growth",
+    "citationTitle": "Wikipedia: Population growth"
+  },
+  {
+    "id": "560a770d-5d2c-4707-a960-fcd1c225cbf7",
+    "text": "Which continent has the youngest median age of its population?",
+    "options": [
+      "Africa",
+      "Asia",
+      "South America",
+      "Oceania"
+    ],
+    "correctIndex": 0,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "Africa has the youngest median age at approximately 19-20 years old due to high birth rates and shorter life expectancy.",
+    "detailedExplanation": "Africa has by far the youngest population of any continent, with a median age of approximately 19-20 years. This is due to consistently high birth rates across most African countries, combined with historically lower life expectancy rates. Countries like Niger, Mali, and Uganda have median ages below 16 years. This demographic profile creates both opportunities and challenges, including a large potential workforce but also significant demands on education, healthcare, and job creation systems.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Demographics_of_Africa",
+    "citationTitle": "Wikipedia: Demographics of Africa"
+  },
+  {
+    "id": "847b32a1-4926-404d-acea-53869a8bd02f",
+    "text": "Approximately how many people are added to urban areas globally every week?",
+    "options": [
+      "500,000",
+      "1 million",
+      "1.5 million",
+      "2 million"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "About 1.5 million people move to or are born in urban areas each week as part of ongoing global urbanization.",
+    "detailedExplanation": "Approximately 1.5 million people are added to urban areas worldwide every week through a combination of rural-to-urban migration, natural population growth in cities, and the expansion of urban boundaries. This represents one of the most significant demographic shifts in human history. Currently, over half the world's population lives in urban areas, and this figure is projected to reach 68% by 2050. The fastest urbanization is occurring in Asia and Africa, with cities like Lagos, Delhi, and Dhaka experiencing particularly rapid growth.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Urbanization",
+    "citationTitle": "Wikipedia: Urbanization"
+  },
+  {
+    "id": "2e85e8ff-23fe-4b7b-a2b3-b8cc46e1533a",
+    "text": "Which country is projected to have the world's largest population by 2050?",
+    "options": [
+      "China",
+      "India",
+      "Nigeria",
+      "United States"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "India is projected to maintain the world's largest population through 2050, having recently overtaken China in 2023.",
+    "detailedExplanation": "India is projected to have the world's largest population by 2050, with estimates suggesting it will reach approximately 1.67 billion people. India overtook China as the world's most populous country in 2023, and the gap is expected to widen significantly by 2050 due to China's aging population and declining birth rates versus India's younger demographic profile. While India's growth rate is also slowing, its large young population means continued growth for several decades, while China's population is expected to begin declining in the 2030s.",
+    "citationUrl": "https://en.wikipedia.org/wiki/List_of_countries_by_population_(United_Nations)",
+    "citationTitle": "Wikipedia: List of countries by population (United Nations)"
+  }
+]

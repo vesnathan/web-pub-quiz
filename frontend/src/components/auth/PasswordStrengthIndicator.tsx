@@ -1,6 +1,6 @@
-'use client';
+"use client";
 
-import { useMemo } from 'react';
+import { useMemo } from "react";
 
 interface PasswordRequirement {
   label: string;
@@ -8,11 +8,14 @@ interface PasswordRequirement {
 }
 
 const PASSWORD_REQUIREMENTS: PasswordRequirement[] = [
-  { label: 'At least 8 characters', test: (p) => p.length >= 8 },
-  { label: 'Contains uppercase letter', test: (p) => /[A-Z]/.test(p) },
-  { label: 'Contains lowercase letter', test: (p) => /[a-z]/.test(p) },
-  { label: 'Contains number', test: (p) => /[0-9]/.test(p) },
-  { label: 'Contains special character', test: (p) => /[!@#$%^&*()_+\-=\[\]{};':"\\|,.<>\/?]/.test(p) },
+  { label: "At least 8 characters", test: (p) => p.length >= 8 },
+  { label: "Contains uppercase letter", test: (p) => /[A-Z]/.test(p) },
+  { label: "Contains lowercase letter", test: (p) => /[a-z]/.test(p) },
+  { label: "Contains number", test: (p) => /[0-9]/.test(p) },
+  {
+    label: "Contains special character",
+    test: (p) => /[!@#$%^&*()_+\-=\[\]{};':"\\|,.<>\/?]/.test(p),
+  },
 ];
 
 export function usePasswordValidation(password: string) {
@@ -38,25 +41,28 @@ interface PasswordStrengthIndicatorProps {
   password: string;
 }
 
-export function PasswordStrengthIndicator({ password }: PasswordStrengthIndicatorProps) {
-  const { requirements, metCount, totalCount } = usePasswordValidation(password);
+export function PasswordStrengthIndicator({
+  password,
+}: PasswordStrengthIndicatorProps) {
+  const { requirements, metCount, totalCount } =
+    usePasswordValidation(password);
 
   if (!password) return null;
 
   const getStrengthColor = () => {
     const percentage = metCount / totalCount;
-    if (percentage <= 0.4) return 'bg-red-500';
-    if (percentage <= 0.6) return 'bg-orange-500';
-    if (percentage <= 0.8) return 'bg-yellow-500';
-    return 'bg-green-500';
+    if (percentage <= 0.4) return "bg-red-500";
+    if (percentage <= 0.6) return "bg-orange-500";
+    if (percentage <= 0.8) return "bg-yellow-500";
+    return "bg-green-500";
   };
 
   const getStrengthText = () => {
     const percentage = metCount / totalCount;
-    if (percentage <= 0.4) return 'Weak';
-    if (percentage <= 0.6) return 'Fair';
-    if (percentage <= 0.8) return 'Good';
-    return 'Strong';
+    if (percentage <= 0.4) return "Weak";
+    if (percentage <= 0.6) return "Fair";
+    if (percentage <= 0.8) return "Good";
+    return "Strong";
   };
 
   return (
@@ -69,7 +75,9 @@ export function PasswordStrengthIndicator({ password }: PasswordStrengthIndicato
             style={{ width: `${(metCount / totalCount) * 100}%` }}
           />
         </div>
-        <span className={`text-xs font-medium ${getStrengthColor().replace('bg-', 'text-')}`}>
+        <span
+          className={`text-xs font-medium ${getStrengthColor().replace("bg-", "text-")}`}
+        >
           {getStrengthText()}
         </span>
       </div>
@@ -80,7 +88,7 @@ export function PasswordStrengthIndicator({ password }: PasswordStrengthIndicato
           <li
             key={index}
             className={`flex items-center gap-1.5 ${
-              req.met ? 'text-green-400' : 'text-gray-500'
+              req.met ? "text-green-400" : "text-gray-500"
             }`}
           >
             {req.met ? (

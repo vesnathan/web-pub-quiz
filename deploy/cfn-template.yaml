@@ -54,6 +54,19 @@ Parameters:
     Type: String
     Description: Build hash for resolver versioning
     Default: "initial"
+  SchemaBuildHash:
+    Type: String
+    Description: Build hash for schema versioning
+    Default: "initial"
+  TemplateBuildHash:
+    Type: String
+    Description: Build hash for nested template versioning
+    Default: "initial"
+  AdminPassword:
+    Type: String
+    Description: Initial password for admin user (change after first login)
+    NoEcho: true
+    Default: "QuizAdmin2024!"
 
 Conditions:
   HasDeployUser: !Not [!Equals [!Ref DeployUserArn, ""]]
@@ -70,7 +83,7 @@ Resources:
   DynamoDbStack:
     Type: AWS::CloudFormation::Stack
     Properties:
-      TemplateURL: !Sub https://${TemplateBucketName}.s3.${AWS::Region}.amazonaws.com/resources/DynamoDb/dynamoDb.yaml
+      TemplateURL: !Sub https://${TemplateBucketName}.s3.${AWS::Region}.amazonaws.com/resources/${TemplateBuildHash}/DynamoDb/dynamoDb.yaml
       Parameters:
         Stage: !Ref Stage
         AppName: !Ref AppName
@@ -79,7 +92,7 @@ Resources:
   S3Stack:
     Type: AWS::CloudFormation::Stack
     Properties:
-      TemplateURL: !Sub https://${TemplateBucketName}.s3.${AWS::Region}.amazonaws.com/resources/S3/s3.yaml
+      TemplateURL: !Sub https://${TemplateBucketName}.s3.${AWS::Region}.amazonaws.com/resources/${TemplateBuildHash}/S3/s3.yaml
       Parameters:
         Stage: !Ref Stage
         AppName: !Ref AppName
@@ -89,7 +102,7 @@ Resources:
     Type: AWS::CloudFormation::Stack
     DependsOn: [DynamoDbStack, CloudFrontStack]
     Properties:
-      TemplateURL: !Sub https://${TemplateBucketName}.s3.${AWS::Region}.amazonaws.com/resources/Cognito/cognito.yaml
+      TemplateURL: !Sub https://${TemplateBucketName}.s3.${AWS::Region}.amazonaws.com/resources/${TemplateBuildHash}/Cognito/cognito.yaml
       Parameters:
         Stage: !Ref Stage
         AppName: !Ref AppName
@@ -108,13 +121,14 @@ Resources:
           - ""
         AuthDomainCertificateArn: !Ref AuthDomainCertificateArn
         HostedZoneId: !Ref HostedZoneId
+        AdminPassword: !Ref AdminPassword
 
   # CloudFront Distribution
   CloudFrontStack:
     Type: AWS::CloudFormation::Stack
     DependsOn: S3Stack
     Properties:
-      TemplateURL: !Sub https://${TemplateBucketName}.s3.${AWS::Region}.amazonaws.com/resources/CloudFront/cloudfront.yaml
+      TemplateURL: !Sub https://${TemplateBucketName}.s3.${AWS::Region}.amazonaws.com/resources/${TemplateBuildHash}/CloudFront/cloudfront.yaml
       Parameters:
         Stage: !Ref Stage
         AppName: !Ref AppName
@@ -130,7 +144,7 @@ Resources:
     Type: AWS::CloudFormation::Stack
     DependsOn: [DynamoDbStack, CognitoStack]
     Properties:
-      TemplateURL: !Sub https://${TemplateBucketName}.s3.${AWS::Region}.amazonaws.com/resources/Lambda/lambda.yaml
+      TemplateURL: !Sub https://${TemplateBucketName}.s3.${AWS::Region}.amazonaws.com/resources/${TemplateBuildHash}/Lambda/lambda.yaml
       Parameters:
         Stage: !Ref Stage
         AppName: !Ref AppName
@@ -146,7 +160,7 @@ Resources:
     Type: AWS::CloudFormation::Stack
     DependsOn: [DynamoDbStack, CognitoStack, LambdaStack]
     Properties:
-      TemplateURL: !Sub https://${TemplateBucketName}.s3.${AWS::Region}.amazonaws.com/resources/AppSync/appsync.yaml
+      TemplateURL: !Sub https://${TemplateBucketName}.s3.${AWS::Region}.amazonaws.com/resources/${TemplateBuildHash}/AppSync/appsync.yaml
       Parameters:
         Stage: !Ref Stage
         AppName: !Ref AppName
@@ -157,14 +171,19 @@ Resources:
         LogRetentionInDays: !Ref LogRetentionInDays
         GetAblyTokenFunctionArn: !GetAtt LambdaStack.Outputs.GetAblyTokenFunctionArn
         EnsureProfileFunctionArn: !GetAtt LambdaStack.Outputs.EnsureProfileFunctionArn
+        CreateCheckoutFunctionArn: !GetAtt LambdaStack.Outputs.CreateCheckoutFunctionArn
+        CreateTipCheckoutFunctionArn: !GetAtt LambdaStack.Outputs.CreateTipCheckoutFunctionArn
+        CheckEmailHasGoogleAccountFunctionArn: !GetAtt LambdaStack.Outputs.CheckEmailHasGoogleAccountFunctionArn
+        SchemaReadyWaiterFunctionArn: !GetAtt LambdaStack.Outputs.SchemaReadyWaiterFunctionArn
         ResolversBuildHash: !Ref ResolversBuildHash
+        SchemaBuildHash: !Ref SchemaBuildHash
 
   # Fargate Orchestrator (runs game logic continuously)
   FargateStack:
     Type: AWS::CloudFormation::Stack
     DependsOn: [DynamoDbStack]
     Properties:
-      TemplateURL: !Sub https://${TemplateBucketName}.s3.${AWS::Region}.amazonaws.com/resources/Fargate/fargate.yaml
+      TemplateURL: !Sub https://${TemplateBucketName}.s3.${AWS::Region}.amazonaws.com/resources/${TemplateBuildHash}/Fargate/fargate.yaml
       Parameters:
         Stage: !Ref Stage
         AppName: !Ref AppName
@@ -177,7 +196,7 @@ Resources:
   SeedRole:
     Type: AWS::IAM::Role
     Condition: HasDeployUser
-    DependsOn: [DynamoDbStack, CognitoStack, S3Stack, CloudFrontStack]
+    DependsOn: [DynamoDbStack, CognitoStack, S3Stack, CloudFrontStack, FargateStack]
     Properties:
       RoleName: !Sub "${AppName}-seed-role-${Stage}"
       AssumeRolePolicyDocument:
@@ -234,6 +253,43 @@ Resources:
                   - cloudfront:GetInvalidation
                 Resource:
                   - !Sub "arn:aws:cloudfront::${AWS::AccountId}:distribution/${CloudFrontStack.Outputs.CloudFrontDistributionId}"
+              - Sid: ECRAuth
+                Effect: Allow
+                Action:
+                  - ecr:GetAuthorizationToken
+                Resource: "*"
+              - Sid: ECRPush
+                Effect: Allow
+                Action:
+                  - ecr:BatchCheckLayerAvailability
+                  - ecr:GetDownloadUrlForLayer
+                  - ecr:BatchGetImage
+                  - ecr:PutImage
+                  - ecr:InitiateLayerUpload
+                  - ecr:UploadLayerPart
+                  - ecr:CompleteLayerUpload
+                Resource:
+                  - !GetAtt FargateStack.Outputs.RepositoryArn
+              - Sid: ECSUpdateService
+                Effect: Allow
+                Action:
+                  - ecs:UpdateService
+                  - ecs:DescribeServices
+                Resource:
+                  - !Sub "arn:aws:ecs:${AWS::Region}:${AWS::AccountId}:service/${FargateStack.Outputs.ClusterName}/*"
+              - Sid: LambdaUpdateCode
+                Effect: Allow
+                Action:
+                  - lambda:GetFunction
+                  - lambda:UpdateFunctionCode
+                Resource:
+                  - !Sub "arn:aws:lambda:${AWS::Region}:${AWS::AccountId}:function:${AppName}-*-${Stage}"
+              - Sid: DeployBucketRead
+                Effect: Allow
+                Action:
+                  - s3:GetObject
+                Resource:
+                  - !Sub "arn:aws:s3:::${TemplateBucketName}/functions/*"
       Tags:
         - Key: App
           Value: !Ref AppName

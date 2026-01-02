@@ -1,0 +1,342 @@
+[
+  {
+    "id": "86f40067-ea02-49e1-8886-e43d3c9b2fdc",
+    "text": "Which bone is the longest in the human body?",
+    "options": [
+      "Tibia",
+      "Humerus",
+      "Femur",
+      "Fibula"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "The femur (thighbone) is the longest bone in the human body.",
+    "detailedExplanation": "The femur, commonly known as the thighbone, extends from the hip to the knee and is not only the longest bone in the human body but also one of the strongest. In adults, it typically measures about 18 inches (45 cm) in length, though this varies based on individual height. The femur plays a crucial role in supporting body weight during standing and walking.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Femur",
+    "citationTitle": "Wikipedia: Femur"
+  },
+  {
+    "id": "5bf30226-5a9d-4658-8a73-f3f10df1572c",
+    "text": "What is the largest organ in the human body?",
+    "options": [
+      "Liver",
+      "Brain",
+      "Lungs",
+      "Skin"
+    ],
+    "correctIndex": 3,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "The skin is the largest organ in the human body by surface area.",
+    "detailedExplanation": "The skin is the largest organ of the human body, covering approximately 20 square feet in adults and accounting for about 16% of total body weight. It serves multiple vital functions including protection from external threats, temperature regulation, vitamin D synthesis, and sensory perception. While the liver is the largest internal organ by weight, the skin surpasses all other organs when considering total surface area and mass.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Human_skin",
+    "citationTitle": "Wikipedia: Human skin"
+  },
+  {
+    "id": "1bd366d5-3cf0-414b-9806-8152a1763ca5",
+    "text": "Which part of the brain is primarily responsible for balance and coordination?",
+    "options": [
+      "Cerebrum",
+      "Cerebellum",
+      "Brainstem",
+      "Thalamus"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "The cerebellum is responsible for balance, coordination, and fine motor control.",
+    "detailedExplanation": "The cerebellum, located at the back of the brain beneath the cerebrum, is crucial for maintaining balance, coordinating movement, and controlling posture. Despite containing only about 10% of the brain's volume, it houses over 50% of the brain's neurons. The cerebellum receives information from sensory systems, the spinal cord, and other parts of the brain to fine-tune motor activity and ensure smooth, coordinated movements.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Cerebellum",
+    "citationTitle": "Wikipedia: Cerebellum"
+  },
+  {
+    "id": "cf07439d-81d5-4090-a334-24950ae435b1",
+    "text": "What is the normal resting heart rate range for a healthy adult?",
+    "options": [
+      "40-50 beats per minute",
+      "60-100 beats per minute",
+      "100-120 beats per minute",
+      "120-140 beats per minute"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "A normal resting heart rate for adults ranges from 60 to 100 beats per minute.",
+    "detailedExplanation": "The normal resting heart rate for healthy adults typically falls between 60 and 100 beats per minute, with the average being around 70 bpm. Factors such as fitness level, age, medications, and overall health can influence heart rate. Well-trained athletes may have resting heart rates below 60 bpm due to their heart's increased efficiency. Heart rates consistently outside this range may indicate underlying health conditions requiring medical attention.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Heart_rate",
+    "citationTitle": "Wikipedia: Heart rate"
+  },
+  {
+    "id": "8a928229-3714-42e0-808c-8e2beb62287c",
+    "text": "What is the approximate pH level of human blood?",
+    "options": [
+      "6.4",
+      "7.4",
+      "8.4",
+      "9.4"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Human blood has a pH of approximately 7.4, making it slightly alkaline.",
+    "detailedExplanation": "Human blood maintains a tightly regulated pH of approximately 7.35 to 7.45, with 7.4 being the optimal level. This slightly alkaline pH is crucial for proper physiological function, including enzyme activity, oxygen transport, and cellular metabolism. The body uses several buffer systems, primarily the bicarbonate buffer system, along with respiratory and renal mechanisms, to maintain this narrow pH range. Even small deviations from this range can be life-threatening, a condition known as acidosis (pH too low) or alkalosis (pH too high).",
+    "citationUrl": "https://en.wikipedia.org/wiki/Blood",
+    "citationTitle": "Wikipedia: Blood"
+  },
+  {
+    "id": "59260758-4d38-4f2e-a0e9-8ff74dba27ff",
+    "text": "Who discovered the circulation of blood in the human body, overturning centuries of medical belief?",
+    "options": [
+      "Andreas Vesalius",
+      "William Harvey",
+      "Galen",
+      "Hippocrates"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "William Harvey demonstrated that blood circulates through the body pumped by the heart, contradicting the ancient theory that blood was consumed by organs.",
+    "detailedExplanation": "William Harvey, an English physician, published 'De Motu Cordis' in 1628, in which he described the circulation of blood through the body. His careful observations and experiments showed that the heart pumps blood through arteries to all parts of the body, and that blood returns to the heart through veins. This overturned the 1,400-year-old teachings of Galen, who believed that blood was produced in the liver and consumed by organs. Harvey's work laid the foundation for modern cardiovascular medicine.",
+    "citationUrl": "https://en.wikipedia.org/wiki/William_Harvey",
+    "citationTitle": "Wikipedia: William Harvey"
+  },
+  {
+    "id": "86afc55d-9593-46ed-a7f7-001b2e2268c4",
+    "text": "Which class do sharks and rays belong to?",
+    "options": [
+      "Osteichthyes",
+      "Chondrichthyes",
+      "Agnatha",
+      "Actinopterygii"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Sharks and rays belong to Chondrichthyes, the class of cartilaginous fish with skeletons made of cartilage rather than bone.",
+    "detailedExplanation": "Chondrichthyes, meaning 'cartilage fish,' includes sharks, rays, skates, and chimaeras. Unlike bony fish (Osteichthyes), these animals have skeletons composed entirely of cartilage, the same flexible tissue found in human ears and noses. They also lack swim bladders, using their large, oil-filled livers for buoyancy instead. Other distinguishing features include multiple gill slits (usually 5-7 pairs) that open directly to the exterior, and placoid scales that give their skin a sandpaper-like texture.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Chondrichthyes",
+    "citationTitle": "Wikipedia: Chondrichthyes"
+  },
+  {
+    "id": "df1700d1-7ce4-48a9-968f-e23a9e21ca09",
+    "text": "Which phylum includes animals with stinging cells called cnidocytes?",
+    "options": [
+      "Porifera",
+      "Cnidaria",
+      "Platyhelminthes",
+      "Nematoda"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Cnidaria is the phylum that includes jellyfish, corals, and sea anemones, all of which have specialized stinging cells called cnidocytes.",
+    "detailedExplanation": "Cnidarians are named after their unique stinging cells called cnidocytes, which contain specialized organelles called nematocysts. These cells can explosively discharge barbed threads or toxins to capture prey or defend against predators. The phylum includes jellyfish, sea anemones, corals, and hydras. Cnidarians also exhibit radial symmetry and have a simple body plan with a central gastrovascular cavity that serves both digestive and circulatory functions. Many species alternate between polyp and medusa forms during their life cycle.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Cnidaria",
+    "citationTitle": "Wikipedia: Cnidaria"
+  },
+  {
+    "id": "05f0bf48-d525-440b-a89d-22616b3d66e3",
+    "text": "What distinguishes organisms in the kingdom Animalia from those in other kingdoms?",
+    "options": [
+      "They can photosynthesize",
+      "They are multicellular and heterotrophic",
+      "They have cell walls",
+      "They reproduce asexually"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Animals are distinguished by being multicellular organisms that obtain energy by consuming other organisms (heterotrophic).",
+    "detailedExplanation": "The kingdom Animalia is characterized by several key features that distinguish it from other kingdoms like Plantae, Fungi, and Protista. Animals are multicellular eukaryotic organisms that are heterotrophic, meaning they must consume other organisms or organic matter for energy rather than producing their own food through photosynthesis. Animal cells lack cell walls (unlike plants and fungi) and typically have the ability to move at some stage of their life cycle. Most animals also show tissue-level organization and have specialized organ systems for functions like digestion, circulation, and nervous coordination.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Animal",
+    "citationTitle": "Wikipedia: Animal"
+  },
+  {
+    "id": "25bbb1c9-8826-4611-8a2a-339333afc65f",
+    "text": "Which hormone is primarily responsible for promoting cell elongation and growth toward light in plants?",
+    "options": [
+      "Cytokinin",
+      "Gibberellin",
+      "Auxin",
+      "Abscisic acid"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Auxin is the plant hormone that promotes cell elongation and is responsible for phototropism (growth toward light).",
+    "detailedExplanation": "Auxin is a crucial plant hormone that regulates many aspects of plant growth and development. It promotes cell elongation by loosening cell walls, allowing cells to expand. Auxin is also responsible for phototropism, the tendency of plants to grow toward light sources. When light hits one side of a plant stem, auxin accumulates on the shaded side, causing those cells to elongate more and bend the plant toward the light. Auxin also plays roles in root development, apical dominance, and fruit development.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Auxin",
+    "citationTitle": "Wikipedia: Auxin"
+  },
+  {
+    "id": "6642544f-7478-413e-afbe-03d339528f71",
+    "text": "Which bone in the human body is commonly known as the 'funny bone'?",
+    "options": [
+      "Radius",
+      "Ulna",
+      "Humerus",
+      "Fibula"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "The humerus is called the 'funny bone' due to the wordplay on 'humorous' and the tingling sensation when you hit your elbow.",
+    "detailedExplanation": "The humerus is the long bone in the upper arm that connects the shoulder to the elbow. It's nicknamed the 'funny bone' because of the pun on 'humorous,' though technically the tingling sensation people feel when hitting their elbow comes from striking the ulnar nerve where it passes near the end of the humerus at the elbow joint.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Humerus",
+    "citationTitle": "Wikipedia: Humerus"
+  },
+  {
+    "id": "f2dd643b-95c0-45b3-82ec-ebfd9af893e3",
+    "text": "What is the name of the tube that connects the throat to the stomach?",
+    "options": [
+      "Trachea",
+      "Esophagus",
+      "Duodenum",
+      "Epiglottis"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "The esophagus is the muscular tube that carries food from the pharynx (throat) to the stomach.",
+    "detailedExplanation": "The esophagus is a muscular tube approximately 25 centimeters (10 inches) long that connects the pharynx (throat) to the stomach. It uses coordinated muscular contractions called peristalsis to push food downward, and it can function even when a person is upside down. The esophagus passes through the diaphragm via an opening called the esophageal hiatus before connecting to the stomach.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Esophagus",
+    "citationTitle": "Wikipedia: Esophagus"
+  },
+  {
+    "id": "f88c398c-dde2-4382-972c-2dce1a94f68b",
+    "text": "Which blood vessels carry oxygen-rich blood away from the heart?",
+    "options": [
+      "Veins",
+      "Arteries",
+      "Capillaries",
+      "Venules"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Arteries carry oxygenated blood away from the heart to body tissues, with the pulmonary artery being the only exception.",
+    "detailedExplanation": "Arteries are blood vessels that carry blood away from the heart, and in most cases, this blood is oxygen-rich. The arterial system begins with the aorta, the largest artery, which receives oxygenated blood from the left ventricle. Arteries have thick, muscular walls to withstand the high pressure of blood being pumped from the heart. The only exception is the pulmonary artery, which carries deoxygenated blood from the heart to the lungs for oxygenation.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Artery",
+    "citationTitle": "Wikipedia: Artery"
+  },
+  {
+    "id": "9a3e73b5-6e96-4d28-96a1-867405d157da",
+    "text": "What is the approximate normal resting heart rate for a healthy adult?",
+    "options": [
+      "40-50 beats per minute",
+      "60-100 beats per minute",
+      "110-140 beats per minute",
+      "150-180 beats per minute"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "A normal resting heart rate for healthy adults ranges from 60 to 100 beats per minute.",
+    "detailedExplanation": "The normal resting heart rate for healthy adults typically ranges between 60 and 100 beats per minute, with the average being around 70 bpm. Factors that can influence heart rate include fitness level, age, emotions, medication, and body size. Well-trained athletes often have resting heart rates below 60 bpm due to their heart's increased efficiency. Heart rates consistently above 100 bpm at rest may indicate tachycardia, while rates below 60 bpm may indicate bradycardia.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Heart_rate",
+    "citationTitle": "Wikipedia: Heart rate"
+  },
+  {
+    "id": "4a0d7cff-675a-4da0-89d8-7f225d383b4d",
+    "text": "Which hormone is primarily responsible for regulating blood sugar levels?",
+    "options": [
+      "Adrenaline",
+      "Insulin",
+      "Cortisol",
+      "Thyroxine"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Insulin, produced by the pancreas, is the primary hormone that regulates blood glucose levels by facilitating cellular glucose uptake.",
+    "detailedExplanation": "Insulin is a peptide hormone produced by beta cells in the islets of Langerhans within the pancreas. Its primary function is to regulate blood glucose levels by facilitating the uptake of glucose into cells, particularly muscle and fat cells, and by promoting the storage of glucose as glycogen in the liver. When blood sugar levels rise after eating, insulin is released to help cells absorb glucose and return blood sugar to normal levels. Diabetes occurs when the body either doesn't produce enough insulin or becomes resistant to its effects.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Insulin",
+    "citationTitle": "Wikipedia: Insulin"
+  },
+  {
+    "id": "cb0ead8d-0a44-40bc-a911-30a9d0650d76",
+    "text": "What is the name of the flap of tissue that prevents food from entering the windpipe during swallowing?",
+    "options": [
+      "Uvula",
+      "Epiglottis",
+      "Larynx",
+      "Pharynx"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "The epiglottis is a leaf-shaped cartilage flap that covers the trachea during swallowing to prevent choking.",
+    "detailedExplanation": "The epiglottis is a crucial anatomical structure made of elastic cartilage that acts like a trapdoor at the entrance to the larynx. During normal breathing, it remains upright allowing air to flow into the trachea and lungs. However, when you swallow food or liquid, the epiglottis automatically folds down to cover the opening to the windpipe, ensuring that what you're swallowing goes down the esophagus to your stomach rather than into your lungs, which would cause choking.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Epiglottis",
+    "citationTitle": "Wikipedia: Epiglottis"
+  },
+  {
+    "id": "0520ba9c-b4e4-4ab4-9084-2c9d2485c829",
+    "text": "What is the average resting heart rate range for a healthy adult?",
+    "options": [
+      "40-50 beats per minute",
+      "60-100 beats per minute",
+      "110-130 beats per minute",
+      "140-160 beats per minute"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "A normal resting heart rate for healthy adults ranges from 60 to 100 beats per minute, with athletes often having lower rates due to better cardiovascular fitness.",
+    "detailedExplanation": "The normal resting heart rate for healthy adults typically falls between 60 and 100 beats per minute. This range can vary based on factors such as age, fitness level, medications, and overall health. Well-trained athletes may have resting heart rates below 60 bpm due to their enhanced cardiovascular efficiency. The heart rate is controlled by the sinoatrial (SA) node, often called the heart's natural pacemaker, which generates electrical impulses that regulate the heartbeat. Factors like stress, caffeine, illness, or physical activity can temporarily increase heart rate above the resting range.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Heart_rate",
+    "citationTitle": "Wikipedia: Heart rate"
+  },
+  {
+    "id": "b2a5720e-147b-4030-8662-b6b6a2ae18eb",
+    "text": "Which bone in the human body is commonly known as the 'funny bone' when you hit your elbow?",
+    "options": [
+      "Radius",
+      "Ulna",
+      "Humerus",
+      "Scapula"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "The humerus is called the 'funny bone' due to the pun on 'humorous' and the tingling sensation when the ulnar nerve running along it is struck.",
+    "detailedExplanation": "The humerus is the long bone in the upper arm that connects the shoulder to the elbow. When people hit their elbow and experience that distinctive tingling, numbing sensation, they're actually striking the ulnar nerve where it passes close to the surface near the medial epicondyle of the humerus. The nickname 'funny bone' is both a play on words (humerus/humorous) and a reference to the odd sensation that occurs when this nerve is compressed against the bone.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Humerus",
+    "citationTitle": "Wikipedia: Humerus"
+  },
+  {
+    "id": "629fb61c-b9ff-4050-9365-cda4d8c8a314",
+    "text": "What is the largest organ in the human body by weight?",
+    "options": [
+      "Brain",
+      "Liver",
+      "Lungs",
+      "Skin"
+    ],
+    "correctIndex": 3,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "The skin is the largest organ by both surface area and weight, typically accounting for about 16% of total body weight.",
+    "detailedExplanation": "While many people think of internal organs when considering the largest organ, the skin is actually the largest organ in the human body. In adults, skin covers approximately 20 square feet and weighs about 8 pounds, making up roughly 16% of total body weight. The skin serves multiple vital functions including protection from pathogens and UV radiation, temperature regulation, vitamin D synthesis, and sensory perception. It consists of three main layers: the epidermis, dermis, and hypodermis.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Human_skin",
+    "citationTitle": "Wikipedia: Human skin"
+  },
+  {
+    "id": "07bce592-4d95-489b-b399-eb84ed1e2363",
+    "text": "Which part of the human brain is primarily responsible for maintaining balance and coordinating smooth, precise movements?",
+    "options": [
+      "Cerebrum",
+      "Cerebellum",
+      "Brain stem",
+      "Hypothalamus"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "The cerebellum is responsible for balance and motor coordination.",
+    "detailedExplanation": "The cerebellum, located at the back of the brain below the cerebrum, plays a crucial role in motor control, balance, and coordination. It receives information from the sensory systems, spinal cord, and other parts of the brain to fine-tune motor activity. Damage to the cerebellum can result in loss of coordination, tremors, and difficulty with balance and precise movements. Despite comprising only about 10% of the brain's total volume, the cerebellum contains over half of all neurons in the brain.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Cerebellum",
+    "citationTitle": "Wikipedia: Cerebellum"
+  }
+]

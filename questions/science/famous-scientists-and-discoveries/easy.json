@@ -1,0 +1,342 @@
+[
+  {
+    "id": "79f5c65c-ac69-48ca-9022-576a72c76034",
+    "text": "Which scientist is credited with discovering penicillin?",
+    "options": [
+      "Marie Curie",
+      "Alexander Fleming",
+      "Albert Einstein",
+      "Nikola Tesla"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Alexander Fleming discovered penicillin in 1928.",
+    "detailedExplanation": "Alexander Fleming discovered penicillin in September 1928 when he noticed that a mold had contaminated one of his bacterial culture plates and killed the surrounding bacteria. This accidental discovery led to the development of the first widely used antibiotic, revolutionizing medicine and saving millions of lives by making previously deadly infections treatable.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Alexander_Fleming",
+    "citationTitle": "Wikipedia: Alexander Fleming"
+  },
+  {
+    "id": "2c936805-b848-48c2-b857-1777e03d8998",
+    "text": "What famous equation is Albert Einstein known for?",
+    "options": [
+      "F = ma",
+      "E = mc²",
+      "PV = nRT",
+      "a² + b² = c²"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Einstein's famous equation is E = mc², which shows the relationship between mass and energy.",
+    "detailedExplanation": "Albert Einstein's equation E = mc² is perhaps the most famous equation in physics, expressing the mass-energy equivalence principle. It shows that mass and energy are interchangeable, with 'E' representing energy, 'm' representing mass, and 'c²' representing the speed of light squared. This equation became fundamental to understanding nuclear reactions and led to developments in both nuclear power and nuclear weapons.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Mass%E2%80%93energy_equivalence",
+    "citationTitle": "Wikipedia: Mass–energy equivalence"
+  },
+  {
+    "id": "0f121813-4933-4aba-93bd-61fd2285ac18",
+    "text": "Who invented the telephone?",
+    "options": [
+      "Thomas Edison",
+      "Alexander Graham Bell",
+      "Benjamin Franklin",
+      "Guglielmo Marconi"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Alexander Graham Bell is credited with inventing the telephone in 1876.",
+    "detailedExplanation": "Alexander Graham Bell received the first patent for the telephone on March 7, 1876. His famous first successful telephone call was made on March 10, 1876, when he spoke the words 'Mr. Watson, come here, I want to see you' to his assistant Thomas Watson in another room. Bell's invention revolutionized communication and laid the foundation for the modern telecommunications industry.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Alexander_Graham_Bell",
+    "citationTitle": "Wikipedia: Alexander Graham Bell"
+  },
+  {
+    "id": "4dc0b53a-1b0c-491b-859c-c53ae6331fd7",
+    "text": "Which scientist is known for his laws of motion and universal gravitation?",
+    "options": [
+      "Galileo Galilei",
+      "Johannes Kepler",
+      "Isaac Newton",
+      "Copernicus"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Sir Isaac Newton formulated the three laws of motion and the law of universal gravitation.",
+    "detailedExplanation": "Sir Isaac Newton published his groundbreaking work 'Principia Mathematica' in 1687, which contained his three laws of motion and the law of universal gravitation. These laws explained how objects move and interact with forces, providing the mathematical framework that governed physics for over 200 years until Einstein's theories. Newton's work explained everything from falling apples to planetary orbits.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Isaac_Newton",
+    "citationTitle": "Wikipedia: Isaac Newton"
+  },
+  {
+    "id": "8b065ae1-0313-4626-bd54-d7e18b8d148b",
+    "text": "Marie Curie was the first woman to win a Nobel Prize. In which field did she win her first Nobel Prize?",
+    "options": [
+      "Chemistry",
+      "Physics",
+      "Medicine",
+      "Literature"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Marie Curie won her first Nobel Prize in Physics in 1903.",
+    "detailedExplanation": "Marie Curie shared the 1903 Nobel Prize in Physics with her husband Pierre Curie and Henri Becquerel for their work on radioactivity. She later won a second Nobel Prize in 1911, this time in Chemistry, for discovering the elements radium and polonium. She remains the only person to have won Nobel Prizes in two different scientific fields and was a pioneer in the study of radioactivity.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Marie_Curie",
+    "citationTitle": "Wikipedia: Marie Curie"
+  },
+  {
+    "id": "7326ffb1-6b79-4867-a014-d2645cde13a9",
+    "text": "Who is considered the father of modern genetics for his work with pea plants?",
+    "options": [
+      "Charles Darwin",
+      "Gregor Mendel",
+      "Louis Pasteur",
+      "James Watson"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Gregor Mendel is known as the father of genetics for his experiments with pea plants.",
+    "detailedExplanation": "Gregor Mendel, an Austrian monk, conducted experiments with pea plants in his monastery garden in the 1860s. Through careful breeding and observation of traits like plant height, flower color, and seed shape, he discovered the basic principles of heredity. His work established the concepts of dominant and recessive traits, though his findings weren't widely recognized until after his death when other scientists rediscovered his work in 1900.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Gregor_Mendel",
+    "citationTitle": "Wikipedia: Gregor Mendel"
+  },
+  {
+    "id": "8f7ae105-463f-4d10-b9e1-413557f4a11c",
+    "text": "Which scientist developed the polio vaccine that was first successfully tested in 1952?",
+    "options": [
+      "Louis Pasteur",
+      "Jonas Salk",
+      "Edward Jenner",
+      "Alexander Fleming"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Jonas Salk developed the first successful polio vaccine.",
+    "detailedExplanation": "Jonas Salk developed the first successful inactivated polio vaccine, with the first successful test conducted in 1952 and large-scale field trials in 1954. The vaccine was declared safe and effective in April 1955, leading to mass vaccination campaigns that dramatically reduced polio cases worldwide. Remarkably, Salk chose not to patent the vaccine, believing it should be freely available to help eradicate this devastating disease that primarily affected children.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Jonas_Salk",
+    "citationTitle": "Wikipedia: Jonas Salk"
+  },
+  {
+    "id": "bec8377a-09c0-4bd7-9fa1-b88dc7808d4d",
+    "text": "Which scientist developed the theory of evolution by natural selection?",
+    "options": [
+      "Charles Darwin",
+      "Gregor Mendel",
+      "Louis Pasteur",
+      "Isaac Newton"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Charles Darwin developed the theory of evolution by natural selection.",
+    "detailedExplanation": "Charles Darwin revolutionized biology with his theory of evolution by natural selection, published in 'On the Origin of Species' in 1859. His observations during the voyage of the HMS Beagle, particularly in the Galápagos Islands, led him to understand how species adapt and evolve over time through the process of natural selection, where organisms with favorable traits are more likely to survive and reproduce.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Charles_Darwin",
+    "citationTitle": "Wikipedia: Charles Darwin"
+  },
+  {
+    "id": "a6968629-51bf-4dee-b464-75d9d3a0f150",
+    "text": "What did Alexander Fleming accidentally discover in 1928?",
+    "options": [
+      "Insulin",
+      "Penicillin",
+      "Aspirin",
+      "Morphine"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Alexander Fleming accidentally discovered penicillin in 1928.",
+    "detailedExplanation": "Alexander Fleming made one of the most important medical discoveries by accident in 1928 when he noticed that a mold had contaminated one of his bacterial culture plates and had killed the surrounding bacteria. This mold produced what he called penicillin, which became the world's first widely used antibiotic and has saved millions of lives by treating bacterial infections.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Alexander_Fleming",
+    "citationTitle": "Wikipedia: Alexander Fleming"
+  },
+  {
+    "id": "ed17e50e-1f99-458b-945a-62804347c74f",
+    "text": "Which physicist is famous for the equation E=mc²?",
+    "options": [
+      "Niels Bohr",
+      "Albert Einstein",
+      "Stephen Hawking",
+      "Max Planck"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Albert Einstein is famous for the equation E=mc².",
+    "detailedExplanation": "Albert Einstein's famous equation E=mc² is part of his special theory of relativity, published in 1905. This equation shows that mass and energy are interchangeable, with 'E' representing energy, 'm' representing mass, and 'c²' representing the speed of light squared. This groundbreaking formula explained how a small amount of mass can be converted into an enormous amount of energy, which became fundamental to understanding nuclear reactions.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Albert_Einstein",
+    "citationTitle": "Wikipedia: Albert Einstein"
+  },
+  {
+    "id": "dcb61382-9874-458f-8825-1c707d442ece",
+    "text": "Who is credited with discovering the structure of DNA?",
+    "options": [
+      "Gregor Mendel",
+      "Watson and Crick",
+      "Marie Curie",
+      "Louis Pasteur"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "James Watson and Francis Crick are credited with discovering the double helix structure of DNA.",
+    "detailedExplanation": "James Watson and Francis Crick discovered the double helix structure of DNA in 1953, building on crucial X-ray crystallography work by Rosalind Franklin and Maurice Wilkins. Their model showed that DNA consists of two intertwined strands forming a double helix, with complementary base pairs holding the strands together. This discovery was fundamental to understanding how genetic information is stored and transmitted in living organisms.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Watson_and_Crick",
+    "citationTitle": "Wikipedia: Watson and Crick"
+  },
+  {
+    "id": "d7d6dc3a-8986-4b85-9d86-51b25f337623",
+    "text": "Which scientist formulated the three laws of motion?",
+    "options": [
+      "Galileo Galilei",
+      "Isaac Newton",
+      "Johannes Kepler",
+      "Albert Einstein"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Isaac Newton formulated the three laws of motion.",
+    "detailedExplanation": "Isaac Newton formulated his three laws of motion in his masterwork 'Principia Mathematica' published in 1687. These laws describe the relationship between forces acting on a body and its motion: the first law states that objects at rest stay at rest unless acted upon by a force; the second law relates force, mass, and acceleration (F=ma); and the third law states that for every action there is an equal and opposite reaction.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Isaac_Newton",
+    "citationTitle": "Wikipedia: Isaac Newton"
+  },
+  {
+    "id": "73ba1510-055f-42be-9511-21e61422c63e",
+    "text": "What invention is Thomas Edison most famous for?",
+    "options": [
+      "The telephone",
+      "The light bulb",
+      "The radio",
+      "The television"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Thomas Edison is most famous for inventing the practical incandescent light bulb.",
+    "detailedExplanation": "While Thomas Edison didn't invent the first light bulb, he developed the first practical and commercially viable incandescent light bulb in 1879. His version used a carbon filament that could burn for many hours, and he created an entire electrical distribution system to power his bulbs. Edison's work led to the widespread adoption of electric lighting, earning him the nickname 'The Wizard of Menlo Park' and revolutionizing how people lived and worked.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Thomas_Edison",
+    "citationTitle": "Wikipedia: Thomas Edison"
+  },
+  {
+    "id": "34f3c5e9-0412-4df2-8293-5e45df84b8a0",
+    "text": "Which astronomer proposed that the Earth revolves around the Sun?",
+    "options": [
+      "Ptolemy",
+      "Galileo Galilei",
+      "Nicolaus Copernicus",
+      "Johannes Kepler"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Nicolaus Copernicus proposed the heliocentric model where Earth revolves around the Sun.",
+    "detailedExplanation": "Nicolaus Copernicus revolutionized astronomy with his heliocentric model, published in 'De revolutionibus orbium coelestium' in 1543. This theory proposed that the Sun, not Earth, was at the center of the solar system, with Earth and other planets revolving around it. This contradicted the long-held geocentric model and sparked what became known as the Copernican Revolution, fundamentally changing humanity's understanding of our place in the universe.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Nicolaus_Copernicus",
+    "citationTitle": "Wikipedia: Nicolaus Copernicus"
+  },
+  {
+    "id": "06707655-cc2f-4396-91e4-ddfa94e6fdc8",
+    "text": "Who is credited with developing the theory of evolution by natural selection?",
+    "options": [
+      "Charles Darwin",
+      "Gregor Mendel",
+      "Louis Pasteur",
+      "Isaac Newton"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Charles Darwin developed the theory of evolution by natural selection.",
+    "detailedExplanation": "Charles Darwin formulated the theory of evolution by natural selection after his voyage on the HMS Beagle and years of research. His groundbreaking work 'On the Origin of Species' published in 1859 explained how species evolve over time through the process of natural selection, where organisms with favorable traits are more likely to survive and reproduce.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Charles_Darwin",
+    "citationTitle": "Wikipedia: Charles Darwin"
+  },
+  {
+    "id": "364d3798-423e-481a-9f91-be9b5312cedf",
+    "text": "What did Marie Curie discover that earned her Nobel Prizes in both Physics and Chemistry?",
+    "options": [
+      "DNA structure",
+      "Radioactivity",
+      "X-rays",
+      "Penicillin"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Marie Curie discovered radioactivity and isolated radioactive elements radium and polonium.",
+    "detailedExplanation": "Marie Curie's pioneering research on radioactivity earned her two Nobel Prizes - the 1903 Nobel Prize in Physics (shared with her husband Pierre and Henri Becquerel) for work on radioactivity, and the 1911 Nobel Prize in Chemistry for discovering and isolating the elements radium and polonium. She was the first woman to win a Nobel Prize and the only person to win Nobel Prizes in two different scientific fields.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Marie_Curie",
+    "citationTitle": "Wikipedia: Marie Curie"
+  },
+  {
+    "id": "8c647a83-eeef-4670-b3ca-def59a41af3b",
+    "text": "Which scientist is famous for his laws of motion and the law of universal gravitation?",
+    "options": [
+      "Galileo Galilei",
+      "Johannes Kepler",
+      "Isaac Newton",
+      "Albert Einstein"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Isaac Newton formulated the three laws of motion and the law of universal gravitation.",
+    "detailedExplanation": "Sir Isaac Newton revolutionized physics and mathematics with his three laws of motion and the law of universal gravitation, published in his masterwork 'Principia Mathematica' in 1687. His laws explained the motion of objects on Earth and in space, providing the foundation for classical mechanics that dominated scientific understanding for over 200 years until Einstein's theories of relativity.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Isaac_Newton",
+    "citationTitle": "Wikipedia: Isaac Newton"
+  },
+  {
+    "id": "b8ab9027-3c83-4d75-b5ea-7980e293ee0d",
+    "text": "What antibiotic did Alexander Fleming accidentally discover in 1928?",
+    "options": [
+      "Streptomycin",
+      "Penicillin",
+      "Tetracycline",
+      "Erythromycin"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Alexander Fleming accidentally discovered penicillin when mold contaminated his bacterial culture.",
+    "detailedExplanation": "In 1928, Alexander Fleming made one of medicine's most important accidental discoveries when he noticed that a mold (later identified as Penicillium notatum) had contaminated one of his bacterial culture plates and killed the surrounding bacteria. This observation led to the development of penicillin, the first true antibiotic, which has saved millions of lives and revolutionized the treatment of bacterial infections.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Alexander_Fleming",
+    "citationTitle": "Wikipedia: Alexander Fleming"
+  },
+  {
+    "id": "12002c89-f001-4995-b561-b43f9811630f",
+    "text": "Who developed the first successful polio vaccine?",
+    "options": [
+      "Edward Jenner",
+      "Louis Pasteur",
+      "Jonas Salk",
+      "Robert Koch"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Jonas Salk developed the first successful polio vaccine in 1955.",
+    "detailedExplanation": "Dr. Jonas Salk developed the first safe and effective polio vaccine, which was announced to the world on April 12, 1955. His inactivated poliovirus vaccine (IPV) was a major breakthrough in public health, dramatically reducing polio cases worldwide. Salk famously refused to patent the vaccine, saying 'There is no patent. Could you patent the sun?' His selfless approach helped ensure the vaccine's widespread availability.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Jonas_Salk",
+    "citationTitle": "Wikipedia: Jonas Salk"
+  },
+  {
+    "id": "3d039118-4862-48b5-a1cf-45ceabd86456",
+    "text": "Which scientist is known for his work with electricity and invented the lightning rod?",
+    "options": [
+      "Thomas Edison",
+      "Nikola Tesla",
+      "Benjamin Franklin",
+      "Michael Faraday"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Benjamin Franklin conducted famous experiments with electricity and invented the lightning rod.",
+    "detailedExplanation": "Benjamin Franklin made significant contributions to the understanding of electricity through his famous kite experiment in 1752, which demonstrated that lightning was electrical in nature. He invented the lightning rod to protect buildings from lightning strikes and introduced the concepts of positive and negative electrical charges. Franklin's electrical work earned him international fame and laid important groundwork for future developments in electrical science.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Benjamin_Franklin",
+    "citationTitle": "Wikipedia: Benjamin Franklin"
+  }
+]

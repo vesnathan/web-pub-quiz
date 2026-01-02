@@ -1,0 +1,342 @@
+[
+  {
+    "id": "7e9ba72b-18c7-4a31-9cb1-48d5969247f0",
+    "text": "Which mountain range contains the highest peak in North America?",
+    "options": [
+      "Rocky Mountains",
+      "Alaska Range",
+      "Cascade Range",
+      "Sierra Nevada"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "Denali (20,310 feet) in Alaska's Alaska Range is North America's highest peak.",
+    "detailedExplanation": "The Alaska Range is home to Denali, formerly known as Mount McKinley, which stands at 20,310 feet (6,190 meters) above sea level. This makes it not only the highest peak in North America but also the third most prominent peak in the world after Mount Everest and Aconcagua. The Alaska Range stretches approximately 600 miles across south-central Alaska.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Alaska_Range",
+    "citationTitle": "Wikipedia: Alaska Range"
+  },
+  {
+    "id": "40931b3d-ba90-4815-9ed6-744e17c1bfe4",
+    "text": "The Andes mountain range primarily runs through which continent?",
+    "options": [
+      "Asia",
+      "Africa",
+      "South America",
+      "North America"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "The Andes is the world's longest continental mountain range, stretching along South America's western coast.",
+    "detailedExplanation": "The Andes mountain range extends approximately 4,300 miles (7,000 kilometers) along the western coast of South America, passing through seven countries: Venezuela, Colombia, Ecuador, Peru, Bolivia, Chile, and Argentina. It is the longest continental mountain range in the world and contains the highest peaks in the Western Hemisphere, including Aconcagua in Argentina.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Andes",
+    "citationTitle": "Wikipedia: Andes"
+  },
+  {
+    "id": "24ca24d9-d11d-4519-9a36-2e5f9d0aaec8",
+    "text": "Which mountain range forms the natural border between Europe and Asia?",
+    "options": [
+      "Caucasus Mountains",
+      "Ural Mountains",
+      "Carpathian Mountains",
+      "Pyrenees"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "The Ural Mountains traditionally serve as the geographical boundary between European and Asian Russia.",
+    "detailedExplanation": "The Ural Mountains extend approximately 1,600 miles (2,500 kilometers) from the Arctic Ocean to the Ural River and northwestern Kazakhstan. Traditionally, they serve as the geographical boundary between Europe and Asia, though this is more of a cultural and historical convention than a strict geological division. The range is relatively low, with the highest peak being Mount Narodnaya at 6,217 feet (1,895 meters).",
+    "citationUrl": "https://en.wikipedia.org/wiki/Ural_Mountains",
+    "citationTitle": "Wikipedia: Ural Mountains"
+  },
+  {
+    "id": "36f22d94-bea3-425d-897d-78a963f05a60",
+    "text": "K2, the world's second-highest mountain, is located in which mountain range?",
+    "options": [
+      "Himalayas",
+      "Hindu Kush",
+      "Karakoram",
+      "Pamir Mountains"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "K2 is located in the Karakoram range on the border between Pakistan and China.",
+    "detailedExplanation": "K2, standing at 28,251 feet (8,611 meters), is the second-highest mountain in the world and the highest peak in the Karakoram range. Located on the border between Pakistan and China, K2 is often called the 'Savage Mountain' due to its extreme difficulty and high fatality rate among climbers. The Karakoram range contains four of the world's 14 peaks over 8,000 meters, making it one of the most spectacular mountain ranges on Earth.",
+    "citationUrl": "https://en.wikipedia.org/wiki/K2",
+    "citationTitle": "Wikipedia: K2"
+  },
+  {
+    "id": "b32aafdf-aea6-4e99-982a-17998b4ffd15",
+    "text": "The Blue Ridge Mountains are part of which larger mountain system?",
+    "options": [
+      "Rocky Mountains",
+      "Appalachian Mountains",
+      "Cascade Range",
+      "Sierra Nevada"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "The Blue Ridge Mountains are a major subrange of the Appalachian Mountain system in eastern North America.",
+    "detailedExplanation": "The Blue Ridge Mountains form a major subrange of the Appalachian Mountains, extending from southern Pennsylvania to northern Georgia. They get their name from the bluish appearance when viewed from a distance, caused by isoprene released by trees. The range includes the Great Smoky Mountains and contains Mount Mitchell in North Carolina, which at 6,684 feet is the highest peak east of the Mississippi River.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Blue_Ridge_Mountains",
+    "citationTitle": "Wikipedia: Blue Ridge Mountains"
+  },
+  {
+    "id": "8fbbc460-75f5-4bb3-9bd6-e37891d6f05f",
+    "text": "Which peak is considered the highest mountain in Australia?",
+    "options": [
+      "Mount Kosciuszko",
+      "Mount Townsend",
+      "Mount Bogong",
+      "Mount Feathertop"
+    ],
+    "correctIndex": 0,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "Mount Kosciuszko, at 7,310 feet, is Australia's highest peak, located in the Snowy Mountains.",
+    "detailedExplanation": "Mount Kosciuszko, standing at 7,310 feet (2,228 meters), is the highest mountain in Australia. Located in the Snowy Mountains in New South Wales, it's part of the Australian Alps and sits within Kosciuszko National Park. The mountain is named after Polish-Lithuanian military leader Tadeusz Kościuszko and is notable for being one of the more accessible of the world's continental high points, with a walking track leading to the summit.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Mount_Kosciuszko",
+    "citationTitle": "Wikipedia: Mount Kosciuszko"
+  },
+  {
+    "id": "d792150f-9bbb-41d1-a90b-8623e76d52ef",
+    "text": "The Atlas Mountains are primarily located in which region of Africa?",
+    "options": [
+      "East Africa",
+      "West Africa",
+      "North Africa",
+      "Southern Africa"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "The Atlas Mountains stretch across Morocco, Algeria, and Tunisia in North Africa.",
+    "detailedExplanation": "The Atlas Mountains form a series of mountain ranges stretching approximately 1,600 miles (2,500 kilometers) across Morocco, Algeria, and Tunisia in North Africa. The range separates the Mediterranean and Atlantic coastlines from the Sahara Desert and includes several subranges such as the High Atlas, Middle Atlas, and Anti-Atlas. The highest peak is Toubkal in Morocco at 13,671 feet (4,167 meters).",
+    "citationUrl": "https://en.wikipedia.org/wiki/Atlas_Mountains",
+    "citationTitle": "Wikipedia: Atlas Mountains"
+  },
+  {
+    "id": "78531bcf-f3a3-4276-9365-5e58cc0f9feb",
+    "text": "Which mountain range forms a natural border between Europe and Asia?",
+    "options": [
+      "Caucasus Mountains",
+      "Carpathian Mountains",
+      "Ural Mountains",
+      "Altai Mountains"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "The Ural Mountains traditionally serve as the boundary between European and Asian Russia.",
+    "detailedExplanation": "The Ural Mountains extend roughly 2,500 kilometers from the Arctic Ocean to the Ural River and northwestern Kazakhstan. They have traditionally been considered the natural boundary between the European and Asian parts of Russia. The range is relatively old and heavily eroded, with the highest peak being Mount Narodnaya at 1,895 meters. The Urals are also significant for their rich mineral deposits, including iron ore, copper, and precious metals.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Ural_Mountains",
+    "citationTitle": "Wikipedia: Ural Mountains"
+  },
+  {
+    "id": "aedf3414-6221-46b1-bb89-33bc611a4350",
+    "text": "What is the name of the highest peak in the Alps?",
+    "options": [
+      "Mont Blanc",
+      "Matterhorn",
+      "Eiger",
+      "Jungfrau"
+    ],
+    "correctIndex": 0,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "Mont Blanc, at 4,809 meters, is the highest peak in the Alps and Western Europe.",
+    "detailedExplanation": "Mont Blanc stands at 4,809 meters (15,777 feet) and is located on the border between France and Italy, with a small portion extending into Switzerland. It's not only the highest peak in the Alps but also the highest mountain in Western Europe. The mountain is a popular destination for mountaineers and was first climbed in 1786. The name 'Mont Blanc' means 'White Mountain' in French, referring to its snow-covered peak year-round.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Mont_Blanc",
+    "citationTitle": "Wikipedia: Mont Blanc"
+  },
+  {
+    "id": "85e82b7e-2f11-4020-ac8f-cb4e94a005bd",
+    "text": "The Himalayas primarily span across how many countries?",
+    "options": [
+      "3",
+      "5",
+      "7",
+      "9"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "The Himalayas span across India, Pakistan, Afghanistan, China, and Nepal primarily.",
+    "detailedExplanation": "The Himalayan mountain range spans across five main countries: India, Pakistan, Afghanistan and China, Nepal, and Bhutan. Some sources also include Myanmar (Burma) as the range extends into its northern regions. The Himalayas contain the world's highest peaks, including Mount Everest, and stretch approximately 2,400 kilometers across South and East Asia. The range was formed by the collision of the Indian and Eurasian tectonic plates.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Himalayas",
+    "citationTitle": "Wikipedia: Himalayas"
+  },
+  {
+    "id": "e028e5b2-9e02-4553-8e3a-a04931c72a1a",
+    "text": "Which volcanic mountain range runs along the western coast of the Americas and is part of the 'Ring of Fire'?",
+    "options": [
+      "Appalachian Mountains",
+      "Cascade Range",
+      "Brooks Range",
+      "Mackenzie Mountains"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "The Cascade Range contains many active volcanoes and is part of the Pacific Ring of Fire.",
+    "detailedExplanation": "The Cascade Range extends from British Columbia through Washington, Oregon, and into Northern California. It's known for its volcanic activity and contains several active volcanoes including Mount St. Helens, Mount Rainier, and Mount Shasta. The range is part of the larger Pacific Ring of Fire, a region of high volcanic and seismic activity surrounding the Pacific Ocean. The Cascades were formed by subduction of oceanic plates beneath the North American Plate.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Cascade_Range",
+    "citationTitle": "Wikipedia: Cascade Range"
+  },
+  {
+    "id": "f47a4f58-b156-4ad7-bf9a-3dbe35c43292",
+    "text": "Ben Nevis, the highest mountain in the British Isles, is located in which part of the UK?",
+    "options": [
+      "Wales",
+      "Northern Ireland",
+      "England",
+      "Scotland"
+    ],
+    "correctIndex": 3,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "Ben Nevis is located in the Scottish Highlands near Fort William.",
+    "detailedExplanation": "Ben Nevis stands at 1,345 meters (4,413 feet) and is located in the Grampian Mountains in the Scottish Highlands, near the town of Fort William. Despite its relatively modest height compared to peaks in other mountain ranges, Ben Nevis is known for its challenging weather conditions and is a popular destination for hikers and climbers. The mountain is the remains of a Devonian volcano that collapsed in on itself millions of years ago.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Ben_Nevis",
+    "citationTitle": "Wikipedia: Ben Nevis"
+  },
+  {
+    "id": "6b076514-f739-4f90-8ddb-35d8d2f0e237",
+    "text": "Which mountain range contains the highest peak outside of Asia?",
+    "options": [
+      "Rocky Mountains",
+      "Andes",
+      "Alps",
+      "Atlas Mountains"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "The Andes contain Aconcagua, the highest peak outside Asia at 6,961 meters.",
+    "detailedExplanation": "The Andes mountain range in South America contains Aconcagua in Argentina, which stands at 6,961 meters (22,838 feet) above sea level. This makes it the highest peak in both the Western and Southern Hemispheres, and the tallest mountain outside of Asia. The Andes stretch over 7,000 kilometers along South America's western coast, making them the longest continental mountain range in the world.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Aconcagua",
+    "citationTitle": "Wikipedia: Aconcagua"
+  },
+  {
+    "id": "bb8451d6-7f67-430e-8e4e-2bfd15894e97",
+    "text": "Mount McKinley, now officially called Denali, is located in which mountain range?",
+    "options": [
+      "Cascade Range",
+      "Alaska Range",
+      "Brooks Range",
+      "Chugach Mountains"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "Denali is located in the Alaska Range and is North America's highest peak at 6,190 meters.",
+    "detailedExplanation": "Denali, formerly known as Mount McKinley, is situated in the Alaska Range in south-central Alaska. Standing at 6,190 meters (20,310 feet), it is the highest peak in North America. The mountain was officially renamed from Mount McKinley to Denali in 2015, restoring its original Koyukon name meaning 'high one' or 'great one.' The Alaska Range extends roughly 650 kilometers across Alaska.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Denali",
+    "citationTitle": "Wikipedia: Denali"
+  },
+  {
+    "id": "9d13e7d6-c90b-4dad-bdf0-28672759957f",
+    "text": "The Matterhorn, one of the world's most photographed mountains, straddles the border between which two countries?",
+    "options": [
+      "France and Italy",
+      "Switzerland and Italy",
+      "Austria and Switzerland",
+      "Germany and Austria"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "The Matterhorn sits on the border between Switzerland and Italy in the Pennine Alps.",
+    "detailedExplanation": "The Matterhorn is a distinctive pyramid-shaped peak that straddles the border between Switzerland and Italy in the Pennine Alps. Standing at 4,478 meters (14,692 feet), it overlooks the Swiss town of Zermatt and the Italian town of Breuil-Cervinia. The mountain's iconic triangular shape and dramatic rise from the surrounding landscape have made it one of the most recognizable and frequently photographed mountains in the world.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Matterhorn",
+    "citationTitle": "Wikipedia: Matterhorn"
+  },
+  {
+    "id": "729d79b0-e30a-420f-a1fb-720de922cebc",
+    "text": "Which mountain range is known as the 'Backbone of England'?",
+    "options": [
+      "Cotswolds",
+      "Pennines",
+      "Lake District Fells",
+      "Yorkshire Dales"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "The Pennines are known as the 'Backbone of England' as they run through northern and central England.",
+    "detailedExplanation": "The Pennines are a low-rising mountain range in Northern England and Southern Scotland, often called the 'Backbone of England' due to their position running roughly north-south through the center of northern England. The range extends approximately 400 kilometers from the Scottish Borders to the Peak District in Derbyshire. The highest peak is Cross Fell in Cumbria at 893 meters (2,930 feet).",
+    "citationUrl": "https://en.wikipedia.org/wiki/Pennines",
+    "citationTitle": "Wikipedia: Pennines"
+  },
+  {
+    "id": "a633ab56-29c7-488e-92ff-90f8396ebc7f",
+    "text": "Mount Kilimanjaro, Africa's highest peak, is actually composed of how many volcanic cones?",
+    "options": [
+      "One",
+      "Two",
+      "Three",
+      "Four"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "Kilimanjaro consists of three volcanic cones: Kibo, Mawenzi, and Shira.",
+    "detailedExplanation": "Mount Kilimanjaro in Tanzania consists of three distinct volcanic cones: Kibo (5,895m), Mawenzi (5,149m), and Shira (4,005m). Kibo is the highest and contains Uhuru Peak, the mountain's summit and Africa's highest point. While Mawenzi and Shira are extinct, Kibo is considered dormant, with its last major eruption occurring over 360,000 years ago. The mountain is famous for its snow-capped peaks despite being located just 3 degrees south of the equator.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Mount_Kilimanjaro",
+    "citationTitle": "Wikipedia: Mount Kilimanjaro"
+  },
+  {
+    "id": "b95afd4c-52f4-4813-95ae-f34254e1e4d4",
+    "text": "The Appalachian Mountains extend through how many U.S. states?",
+    "options": [
+      "10 states",
+      "14 states",
+      "18 states",
+      "22 states"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "The Appalachian Mountains extend through 18 U.S. states from Georgia to Maine.",
+    "detailedExplanation": "The Appalachian Mountain system extends through 18 U.S. states, stretching approximately 3,200 kilometers from Georgia in the south to Maine in the north, and also extending into southeastern Canada. The range includes several sub-ranges such as the Blue Ridge Mountains, Great Smoky Mountains, and White Mountains. Mount Mitchell in North Carolina is the highest peak at 2,037 meters (6,684 feet). The Appalachians are among the oldest mountain ranges in the world, formed over 480 million years ago.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Appalachian_Mountains",
+    "citationTitle": "Wikipedia: Appalachian Mountains"
+  },
+  {
+    "id": "1457ca0b-d2b6-4636-a079-2f8b1146080e",
+    "text": "The Matterhorn, one of the most photographed mountains in the world, sits on the border between which two countries?",
+    "options": [
+      "France and Italy",
+      "Switzerland and Italy",
+      "Austria and Switzerland",
+      "France and Switzerland"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "The Matterhorn straddles the border between Switzerland and Italy in the Pennine Alps.",
+    "detailedExplanation": "The Matterhorn is a famous pyramidal peak in the Pennine Alps, standing at 14,692 feet (4,478 meters). Its distinctive shape and dramatic vertical faces have made it an icon of the Alps and one of the most recognizable mountains globally. The mountain sits directly on the watershed and border between Switzerland (Valais canton) and Italy (Aosta Valley region), with the Swiss resort town of Zermatt on one side and the Italian town of Cervinia on the other.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Matterhorn",
+    "citationTitle": "Wikipedia: Matterhorn"
+  },
+  {
+    "id": "7e06f28c-8faf-4ab7-9122-669063076a2d",
+    "text": "Which mountain range contains the highest peak in Africa?",
+    "options": [
+      "Atlas Mountains",
+      "Drakensberg Mountains",
+      "Kilimanjaro (part of Eastern Rift Mountains)",
+      "Rwenzori Mountains"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "Mount Kilimanjaro, Africa's highest peak at 5,895 meters, is part of the Eastern Rift Mountains system.",
+    "detailedExplanation": "Mount Kilimanjaro, standing at 5,895 meters (19,341 feet) above sea level, is the highest peak in Africa and is located in Tanzania near the border with Kenya. While often considered a standalone mountain, Kilimanjaro is actually part of the larger Eastern Rift Mountains system, which formed due to volcanic activity associated with the East African Rift. The Atlas Mountains are in North Africa, the Drakensberg is in southern Africa, and the Rwenzori Mountains, while significant, contain Africa's third-highest peaks.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Mount_Kilimanjaro",
+    "citationTitle": "Wikipedia: Mount Kilimanjaro"
+  }
+]

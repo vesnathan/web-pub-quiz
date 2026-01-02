@@ -1,0 +1,342 @@
+[
+  {
+    "id": "ca9f1288-5ca0-4321-9f28-49a77a83276d",
+    "text": "Which of these countries is completely landlocked, meaning it has no coastline?",
+    "options": [
+      "Switzerland",
+      "Portugal",
+      "Norway",
+      "Greece"
+    ],
+    "correctIndex": 0,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "Switzerland is completely surrounded by land and has no access to the sea.",
+    "detailedExplanation": "Switzerland is a landlocked country in Central Europe, completely surrounded by France, Germany, Austria, Liechtenstein, and Italy. Unlike the other options which all have extensive coastlines along various seas and oceans, Switzerland has no direct access to any ocean or sea, making it entirely dependent on neighboring countries for maritime trade access.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Switzerland",
+    "citationTitle": "Wikipedia: Switzerland"
+  },
+  {
+    "id": "faf79ff0-c310-4be3-8641-6f12ff004f22",
+    "text": "How many landlocked countries are there in South America?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "Bolivia and Paraguay are the only two landlocked countries in South America.",
+    "detailedExplanation": "South America has exactly two landlocked countries: Bolivia and Paraguay. Bolivia lost its Pacific coastline to Chile in the War of the Pacific (1879-1884), while Paraguay has been landlocked since its independence. All other South American countries have access to either the Atlantic Ocean, Pacific Ocean, or Caribbean Sea.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Landlocked_country",
+    "citationTitle": "Wikipedia: Landlocked country"
+  },
+  {
+    "id": "f60685eb-8aa6-45ab-8eee-12f686385de8",
+    "text": "Which European country is famous for being doubly landlocked (surrounded only by other landlocked countries)?",
+    "options": [
+      "Austria",
+      "Liechtenstein",
+      "Czech Republic",
+      "Slovakia"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "Liechtenstein is surrounded only by Switzerland and Austria, both of which are also landlocked.",
+    "detailedExplanation": "Liechtenstein is one of only two doubly landlocked countries in the world (the other being Uzbekistan). This means it is not only landlocked itself, but is also completely surrounded by other landlocked countries. Liechtenstein borders only Switzerland and Austria, neither of which has a coastline, making it extremely isolated from direct sea access.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Liechtenstein",
+    "citationTitle": "Wikipedia: Liechtenstein"
+  },
+  {
+    "id": "396dd9e6-e748-4119-83fa-67d8e8c0c464",
+    "text": "Which of these African countries does NOT have a coastline?",
+    "options": [
+      "Chad",
+      "Ghana",
+      "Senegal",
+      "Morocco"
+    ],
+    "correctIndex": 0,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "Chad is landlocked in central Africa, while Ghana, Senegal, and Morocco all have ocean coastlines.",
+    "detailedExplanation": "Chad is a landlocked country located in north-central Africa, surrounded by Libya, Sudan, Central African Republic, Cameroon, Nigeria, and Niger. In contrast, Ghana has a coastline on the Atlantic Ocean (Gulf of Guinea), Senegal borders the Atlantic Ocean on Africa's west coast, and Morocco has coastlines on both the Atlantic Ocean and Mediterranean Sea.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Chad",
+    "citationTitle": "Wikipedia: Chad"
+  },
+  {
+    "id": "418b9184-4ccd-4e30-ae7e-0ca047ce6a28",
+    "text": "What is the world's largest landlocked country by area?",
+    "options": [
+      "Mongolia",
+      "Kazakhstan",
+      "Afghanistan",
+      "Chad"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "Kazakhstan is the world's largest landlocked country, covering over 2.7 million square kilometers.",
+    "detailedExplanation": "Kazakhstan, located in Central Asia, is the world's largest landlocked country with an area of approximately 2.72 million square kilometers. It's also the ninth-largest country in the world overall. Despite being landlocked, Kazakhstan borders the Caspian Sea, which is technically a lake. The country is surrounded by Russia, China, Kyrgyzstan, Uzbekistan, and Turkmenistan.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Kazakhstan",
+    "citationTitle": "Wikipedia: Kazakhstan"
+  },
+  {
+    "id": "c3fa7b5f-b6a8-42ce-89d3-e8aad9c6d5be",
+    "text": "Which landlocked country in Europe is known for its neutrality and banking?",
+    "options": [
+      "Austria",
+      "Switzerland",
+      "Luxembourg",
+      "Slovakia"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "Switzerland is famous for its political neutrality and as a major international banking center.",
+    "detailedExplanation": "Switzerland has maintained a policy of armed neutrality for centuries and hasn't participated in any military conflict since 1815. It's home to many international organizations and is renowned worldwide as a banking and financial center, with strict banking secrecy laws. While Luxembourg is also known for banking and Austria for neutrality, Switzerland is most famous for the combination of both characteristics.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Swiss_neutrality",
+    "citationTitle": "Wikipedia: Swiss neutrality"
+  },
+  {
+    "id": "76b0d075-aa26-42d4-a792-bdf6a835bafa",
+    "text": "Which Asian country lost its access to the sea relatively recently in historical terms?",
+    "options": [
+      "Nepal",
+      "Afghanistan",
+      "Mongolia",
+      "Bhutan"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "Afghanistan had access to the Arabian Sea until it lost coastal territory to British India in the 19th century.",
+    "detailedExplanation": "Afghanistan was not always landlocked. During the 19th century, through various conflicts and treaties with British India, Afghanistan lost its coastal territories along the Arabian Sea. The Durand Line agreement of 1893 particularly affected Afghanistan's borders, and the coastal areas that were once part of Afghan territory became part of what is now Pakistan after the partition of British India in 1947.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Afghanistan",
+    "citationTitle": "Wikipedia: Afghanistan"
+  },
+  {
+    "id": "509b04e8-aa28-4da6-9d30-2b58882065b1",
+    "text": "How many landlocked countries are there in total worldwide?",
+    "options": [
+      "32",
+      "44",
+      "38",
+      "50"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "There are 44 landlocked countries in the world, including 2 that are doubly landlocked.",
+    "detailedExplanation": "Currently, there are 44 landlocked countries worldwide, spread across all continents except Australia and Antarctica. This includes 16 in Africa, 14 in Europe, 12 in Asia, and 2 in South America. Among these, two countries (Liechtenstein and Uzbekistan) are doubly landlocked, meaning they are surrounded only by other landlocked countries. The number can change when new countries are formed or existing borders are modified.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Landlocked_country",
+    "citationTitle": "Wikipedia: Landlocked country"
+  },
+  {
+    "id": "7353a106-9c7e-4d14-b59a-54572ae33454",
+    "text": "Which of these countries is completely landlocked?",
+    "options": [
+      "Switzerland",
+      "Portugal",
+      "Norway",
+      "Greece"
+    ],
+    "correctIndex": 0,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "Switzerland is completely surrounded by land and has no coastline.",
+    "detailedExplanation": "Switzerland is a landlocked country in Central Europe, bordered by Germany to the north, France to the west, Italy to the south, and Austria and Liechtenstein to the east. Unlike the other options which all have extensive coastlines along various seas, Switzerland has no access to the ocean and relies on neighboring countries for maritime trade access.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Switzerland",
+    "citationTitle": "Wikipedia: Switzerland"
+  },
+  {
+    "id": "c4322f56-0200-4e0f-b84c-a46c1dc60da5",
+    "text": "Which landlocked country is famous for being neutral and hosting many international organizations?",
+    "options": [
+      "Austria",
+      "Switzerland",
+      "Luxembourg",
+      "Czech Republic"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "Switzerland is renowned for its neutrality and hosts numerous international organizations including the UN Office at Geneva.",
+    "detailedExplanation": "Switzerland has maintained a policy of armed neutrality for centuries and is home to many international organizations such as the United Nations Office at Geneva, the International Red Cross, the World Health Organization, and the World Trade Organization. While Austria and Luxembourg are also neutral, Switzerland is most famous for this role and hosts the greatest number of international bodies.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Swiss_neutrality",
+    "citationTitle": "Wikipedia: Swiss neutrality"
+  },
+  {
+    "id": "8e3d8d25-73e1-4cba-85e7-1a116cc626f2",
+    "text": "What is a 'doubly landlocked' country?",
+    "options": [
+      "A country with two separate land masses",
+      "A country surrounded only by other landlocked countries",
+      "A country with no rivers",
+      "A country smaller than 1000 square kilometers"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "A doubly landlocked country is surrounded entirely by other landlocked countries, making ocean access even more difficult.",
+    "detailedExplanation": "A doubly landlocked country is one that is not only landlocked itself, but is also completely surrounded by other landlocked countries. This means that to reach the ocean, one must cross at least two international borders. There are only two doubly landlocked countries in the world: Uzbekistan in Central Asia and Liechtenstein in Europe, both of which are surrounded exclusively by other landlocked nations.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Landlocked_country",
+    "citationTitle": "Wikipedia: Landlocked country"
+  },
+  {
+    "id": "27fd776b-8c58-429f-92da-1d3e0ec86691",
+    "text": "Which of these African countries is NOT landlocked?",
+    "options": [
+      "Chad",
+      "Mali",
+      "Niger",
+      "Senegal"
+    ],
+    "correctIndex": 3,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "Senegal has a coastline along the Atlantic Ocean, while the others are landlocked.",
+    "detailedExplanation": "Senegal is located on the west coast of Africa and has approximately 531 kilometers of coastline along the Atlantic Ocean. Chad, Mali, and Niger are all landlocked countries in the interior of Africa. Africa has 16 landlocked countries in total, more than any other continent, which presents significant economic challenges for trade and development in these nations.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Senegal",
+    "citationTitle": "Wikipedia: Senegal"
+  },
+  {
+    "id": "0feecb21-a348-4651-b620-eaa08eef4987",
+    "text": "Which landlocked country was formerly part of Czechoslovakia?",
+    "options": [
+      "Slovakia",
+      "Slovenia",
+      "Croatia",
+      "Hungary"
+    ],
+    "correctIndex": 0,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "Slovakia became landlocked when Czechoslovakia split peacefully in 1993, with the Czech Republic also becoming landlocked.",
+    "detailedExplanation": "Slovakia became an independent landlocked country in 1993 following the peaceful dissolution of Czechoslovakia, known as the Velvet Divorce. The former Czechoslovakia was itself landlocked, and when it split, both resulting countries (Czech Republic and Slovakia) remained landlocked. Slovenia and Croatia were part of Yugoslavia, not Czechoslovakia, and Hungary has been independent much longer, having been part of Austria-Hungary.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Velvet_Divorce",
+    "citationTitle": "Wikipedia: Velvet Divorce"
+  },
+  {
+    "id": "6863f9ed-b827-49ee-a6ee-8102a6603fca",
+    "text": "Which is the largest landlocked country in the world by area?",
+    "options": [
+      "Mongolia",
+      "Chad",
+      "Kazakhstan",
+      "Afghanistan"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "Kazakhstan is the world's largest landlocked country, covering over 2.7 million square kilometers.",
+    "detailedExplanation": "Kazakhstan, located in Central Asia, is the world's largest landlocked country with an area of approximately 2.72 million square kilometers (1.05 million square miles). It's also the ninth-largest country in the world overall. The country is bordered by Russia to the north and west, China to the east, and several Central Asian countries to the south. Despite being landlocked, Kazakhstan borders the Caspian Sea, which is actually the world's largest lake.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Kazakhstan",
+    "citationTitle": "Wikipedia: Kazakhstan"
+  },
+  {
+    "id": "e7249ac3-b84a-4d0e-a8dd-ef1a8151e0c6",
+    "text": "Which continent has the most landlocked countries?",
+    "options": [
+      "Europe",
+      "Africa",
+      "Asia",
+      "South America"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "Africa has 16 landlocked countries, more than any other continent.",
+    "detailedExplanation": "Africa has the highest number of landlocked countries with 16 nations that have no direct access to the ocean. These include countries like Chad, Mali, Niger, Central African Republic, South Sudan, Uganda, Rwanda, Burundi, Zambia, Zimbabwe, Botswana, Lesotho, Swaziland, Malawi, and others. This geographical situation creates significant economic challenges for these nations, as they must rely on neighboring coastal countries for access to international maritime trade routes.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Landlocked_country",
+    "citationTitle": "Wikipedia: Landlocked country"
+  },
+  {
+    "id": "d1408eb8-1da5-454e-b3e6-b72d363fe749",
+    "text": "Which of these European countries is completely landlocked?",
+    "options": [
+      "Switzerland",
+      "Portugal",
+      "Denmark",
+      "Greece"
+    ],
+    "correctIndex": 0,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "Switzerland is landlocked, surrounded by France, Germany, Austria, Liechtenstein, and Italy.",
+    "detailedExplanation": "Switzerland is one of the most famous landlocked countries in Europe, completely surrounded by other nations with no direct access to the sea. It borders France to the west, Germany to the north, Austria and Liechtenstein to the east, and Italy to the south. Despite being landlocked, Switzerland has a strong economy and is known for its mountainous terrain, banking sector, and neutrality in international affairs.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Switzerland",
+    "citationTitle": "Wikipedia: Switzerland"
+  },
+  {
+    "id": "accb8c37-035e-4af8-93f9-154df6959e0a",
+    "text": "Which landlocked country is completely surrounded by South Africa?",
+    "options": [
+      "Botswana",
+      "Lesotho",
+      "Swaziland",
+      "Zimbabwe"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "Lesotho is completely surrounded by South Africa, making it an enclave.",
+    "detailedExplanation": "Lesotho is unique among landlocked countries as it is completely surrounded by a single country - South Africa. This makes it an enclave, one of only three such countries in the world (along with Vatican City and San Marino). Known as the 'Kingdom in the Sky' due to its high altitude, Lesotho is entirely above 1,000 meters in elevation, making it the only country in the world with such a distinction. The country gained independence from Britain in 1966.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Lesotho",
+    "citationTitle": "Wikipedia: Lesotho"
+  },
+  {
+    "id": "055b8bf7-506d-4a54-97e7-a4b4f0ddbee4",
+    "text": "Which of these Asian countries does NOT have access to the sea?",
+    "options": [
+      "Thailand",
+      "Afghanistan",
+      "Vietnam",
+      "Bangladesh"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "Afghanistan is landlocked, while Thailand, Vietnam, and Bangladesh all have coastlines.",
+    "detailedExplanation": "Afghanistan is a landlocked country in Central and South Asia, bordered by Pakistan, Iran, Turkmenistan, Uzbekistan, Tajikistan, and China. The country has no direct access to the sea, which has historically made trade more challenging and expensive. In contrast, Thailand has coastlines on both the Gulf of Thailand and the Andaman Sea, Vietnam borders the South China Sea, and Bangladesh has a extensive coastline along the Bay of Bengal including the world's longest natural beach at Cox's Bazar.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Afghanistan",
+    "citationTitle": "Wikipedia: Afghanistan"
+  },
+  {
+    "id": "4d407833-6751-410c-91cb-d969f7fb6193",
+    "text": "Which of these countries is completely landlocked, having no direct access to the ocean?",
+    "options": [
+      "Switzerland",
+      "Portugal",
+      "Norway",
+      "Greece"
+    ],
+    "correctIndex": 0,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "Switzerland is completely surrounded by land and has no coastline.",
+    "detailedExplanation": "Switzerland is a landlocked country in Central Europe, completely surrounded by France, Germany, Austria, Liechtenstein, and Italy. Unlike Portugal, Norway, and Greece, which all have extensive coastlines, Switzerland has no direct access to any ocean or sea. The country relies on neighboring countries for access to seaports, with goods typically transported through ports in Germany, France, or Italy.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Switzerland",
+    "citationTitle": "Wikipedia: Switzerland"
+  },
+  {
+    "id": "91674eff-b19d-4a80-b6b3-9b697eb4a8b2",
+    "text": "Which of these countries is completely surrounded by land with no access to the ocean?",
+    "options": [
+      "Switzerland",
+      "Denmark",
+      "Portugal",
+      "Greece"
+    ],
+    "correctIndex": 0,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "Switzerland is landlocked, surrounded by France, Germany, Austria, Liechtenstein, and Italy.",
+    "detailedExplanation": "Switzerland is one of the most famous landlocked countries in Europe, completely surrounded by other countries with no direct access to any ocean or sea. It borders France to the west, Germany to the north, Austria and Liechtenstein to the east, and Italy to the south. Despite being landlocked, Switzerland has access to international waters through the Rhine River, which flows to the North Sea. The other options all have extensive coastlines: Denmark is surrounded by the North Sea and Baltic Sea, Portugal faces the Atlantic Ocean, and Greece has coastlines on both the Mediterranean Sea and Aegean Sea.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Landlocked_country",
+    "citationTitle": "Wikipedia: Landlocked country"
+  }
+]

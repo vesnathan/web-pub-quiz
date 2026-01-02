@@ -1,0 +1,342 @@
+[
+  {
+    "id": "d99f8436-d64a-442d-bbef-2fa1cb36d2d9",
+    "text": "How many pairs of ribs do humans typically have?",
+    "options": [
+      "10 pairs",
+      "11 pairs",
+      "12 pairs",
+      "13 pairs"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Humans typically have 12 pairs of ribs (24 total), though the number can vary slightly between individuals.",
+    "detailedExplanation": "The human rib cage typically consists of 12 pairs of ribs, totaling 24 ribs. These ribs are categorized into three types: true ribs (the first 7 pairs), false ribs (pairs 8-10), and floating ribs (pairs 11-12). True ribs connect directly to the sternum via costal cartilage, false ribs connect indirectly to the sternum, and floating ribs do not connect to the sternum at all. The rib cage serves to protect vital organs like the heart and lungs while also playing a role in breathing by expanding and contracting. Some individuals may have anatomical variations, such as an extra pair of ribs (cervical ribs) or one fewer pair, but 12 pairs is the standard human anatomy.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Rib_cage",
+    "citationTitle": "Wikipedia: Rib cage"
+  },
+  {
+    "id": "361afb7b-5794-4e21-9432-e602e1ceb43d",
+    "text": "What does Newton's First Law of Motion state?",
+    "options": [
+      "An object at rest stays at rest unless acted upon by a force",
+      "Force equals mass times acceleration",
+      "For every action there is an equal and opposite reaction",
+      "Energy cannot be created or destroyed"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Newton's First Law states that an object at rest stays at rest and an object in motion stays in motion unless acted upon by an external force.",
+    "detailedExplanation": "Newton's First Law of Motion, also known as the Law of Inertia, describes the tendency of objects to maintain their state of motion. This fundamental principle explains why passengers lurch forward when a car brakes suddenly, or why a hockey puck continues sliding across ice until friction or another force stops it. The law essentially defines the concept of inertia - the resistance of any physical object to any change in its velocity.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Newton%27s_laws_of_motion",
+    "citationTitle": "Wikipedia: Newton's laws of motion"
+  },
+  {
+    "id": "ec3522e4-2f76-46d9-9357-e28994cf741a",
+    "text": "Which law of thermodynamics states that energy cannot be created or destroyed?",
+    "options": [
+      "Zeroth Law",
+      "First Law",
+      "Second Law",
+      "Third Law"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "The First Law of Thermodynamics is the law of conservation of energy, stating that energy cannot be created or destroyed, only transformed.",
+    "detailedExplanation": "The First Law of Thermodynamics is one of the most fundamental principles in physics, establishing that the total energy of an isolated system remains constant. Energy can be transformed from one form to another (like potential energy to kinetic energy), but the total amount never changes. This law governs everything from simple mechanical systems to complex biological processes and is essential for understanding heat engines, metabolism, and virtually all physical processes.",
+    "citationUrl": "https://en.wikipedia.org/wiki/First_law_of_thermodynamics",
+    "citationTitle": "Wikipedia: First law of thermodynamics"
+  },
+  {
+    "id": "7ae21abf-ff4e-40cc-83b2-a17f964b9f3b",
+    "text": "What is the speed of light in a vacuum?",
+    "options": [
+      "300,000 kilometers per second",
+      "150,000 kilometers per second",
+      "450,000 kilometers per second",
+      "600,000 kilometers per second"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "The speed of light in a vacuum is approximately 300,000 kilometers per second (or more precisely 299,792,458 meters per second).",
+    "detailedExplanation": "The speed of light in a vacuum, denoted as 'c', is one of the fundamental physical constants and forms the basis of Einstein's theory of relativity. This speed represents the ultimate speed limit in the universe - nothing with mass can travel faster than light. The precise value is 299,792,458 meters per second, which is often rounded to 300,000 km/s for convenience. This constant is crucial for understanding electromagnetic radiation, space-time, and modern physics.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Speed_of_light",
+    "citationTitle": "Wikipedia: Speed of light"
+  },
+  {
+    "id": "e00d05fd-56fe-469b-9c17-b3764785574f",
+    "text": "According to Archimedes' Principle, what determines the buoyant force on an object in a fluid?",
+    "options": [
+      "The weight of fluid displaced by the object",
+      "The density of the object",
+      "The surface area of the object",
+      "The temperature of the fluid"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Archimedes' Principle states that the buoyant force equals the weight of the fluid displaced by the submerged object.",
+    "detailedExplanation": "Archimedes' Principle explains why ships float and why objects feel lighter in water. When an object is placed in a fluid, it displaces a volume of that fluid equal to its own submerged volume. The buoyant force acting upward on the object equals the weight of this displaced fluid. If this buoyant force is greater than the object's weight, it floats; if less, it sinks. This principle is fundamental to naval architecture, submarine design, and understanding density differences.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Archimedes%27_principle",
+    "citationTitle": "Wikipedia: Archimedes' principle"
+  },
+  {
+    "id": "18ce77b1-bd8b-4bbe-8685-45005a310ff5",
+    "text": "What does the Law of Universal Gravitation state about the force between two masses?",
+    "options": [
+      "It's proportional to their masses and inversely proportional to the square of distance",
+      "It's proportional to the square of their masses",
+      "It's inversely proportional to their masses",
+      "It's proportional to the distance between them"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Newton's Law of Universal Gravitation states that gravitational force is proportional to both masses and inversely proportional to the square of the distance between them.",
+    "detailedExplanation": "Newton's Law of Universal Gravitation describes how every particle in the universe attracts every other particle with a force proportional to the product of their masses and inversely proportional to the square of the distance between them. This law explains not only why apples fall from trees, but also why planets orbit the sun, why the moon causes tides, and how satellites maintain their orbits. The inverse square relationship means that doubling the distance reduces the gravitational force by a factor of four.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Newton%27s_law_of_universal_gravitation",
+    "citationTitle": "Wikipedia: Newton's law of universal gravitation"
+  },
+  {
+    "id": "98b24ac8-8c4e-443f-a898-b1dead5a95f8",
+    "text": "Which principle explains why airplanes can fly?",
+    "options": [
+      "Bernoulli's Principle",
+      "Pascal's Principle",
+      "Hooke's Law",
+      "Boyle's Law"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Bernoulli's Principle states that as the speed of a fluid increases, its pressure decreases, which contributes to the lift generated by airplane wings.",
+    "detailedExplanation": "Bernoulli's Principle is a fundamental concept in fluid dynamics that describes the relationship between fluid speed and pressure. When applied to airplane wings, air moving over the curved upper surface travels faster than air moving under the flatter lower surface, creating lower pressure above the wing and higher pressure below. This pressure difference generates lift. While the complete explanation of flight involves additional factors like angle of attack and Newton's laws, Bernoulli's Principle remains a key component in understanding aerodynamics.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Bernoulli%27s_principle",
+    "citationTitle": "Wikipedia: Bernoulli's principle"
+  },
+  {
+    "id": "8f5b753e-217f-445e-985f-0a7f34b9abae",
+    "text": "What does Hooke's Law describe?",
+    "options": [
+      "The relationship between force and displacement in elastic materials",
+      "The conservation of momentum",
+      "The behavior of gases under pressure",
+      "The relationship between energy and mass"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Hooke's Law states that the force needed to extend or compress a spring is proportional to the displacement (F = kx).",
+    "detailedExplanation": "Hooke's Law describes the elastic behavior of materials, most commonly demonstrated with springs. The law states that the force required to stretch or compress an elastic object is directly proportional to the distance it's stretched or compressed, as long as the elastic limit isn't exceeded. The constant of proportionality 'k' is called the spring constant and varies for different materials. This principle is fundamental in engineering applications including suspension systems, building design, and any application involving elastic deformation.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Hooke%27s_law",
+    "citationTitle": "Wikipedia: Hooke's law"
+  },
+  {
+    "id": "15c5ceaa-112d-46f1-af5f-81f1d428232b",
+    "text": "What did Sir Isaac Newton discover when an apple allegedly fell on his head?",
+    "options": [
+      "Electricity",
+      "Gravity",
+      "Magnetism",
+      "Photosynthesis"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Newton formulated the law of universal gravitation, though the apple story is likely apocryphal.",
+    "detailedExplanation": "Sir Isaac Newton developed his law of universal gravitation in the 1660s, which describes the gravitational force between any two objects with mass. While the famous story of an apple falling on his head is probably a myth, Newton himself did mention that observing falling apples helped inspire his thinking about gravity. His work explained both why objects fall to Earth and how planets orbit the sun, unifying terrestrial and celestial mechanics.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Isaac_Newton",
+    "citationTitle": "Wikipedia: Isaac Newton"
+  },
+  {
+    "id": "1a35cb7d-1e76-4f26-a9e8-87df102a74b9",
+    "text": "What is Albert Einstein most famous for discovering?",
+    "options": [
+      "The structure of DNA",
+      "The theory of relativity",
+      "The periodic table",
+      "The laws of thermodynamics"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Einstein developed both the special and general theories of relativity, fundamentally changing our understanding of space, time, and gravity.",
+    "detailedExplanation": "Albert Einstein is most famous for his theories of relativity - the special theory of relativity (1905) and the general theory of relativity (1915). These theories revolutionized physics by showing that space and time are interconnected and that gravity is actually the curvature of spacetime caused by mass and energy. His famous equation E=mc² emerged from special relativity, and his work laid the groundwork for modern cosmology and our understanding of black holes, GPS technology, and nuclear energy.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Albert_Einstein",
+    "citationTitle": "Wikipedia: Albert Einstein"
+  },
+  {
+    "id": "3e853de9-90d4-4c21-bab2-0ba5b669cf1e",
+    "text": "What is the green pigment in plants that captures light energy called?",
+    "options": [
+      "Carotene",
+      "Anthocyanin",
+      "Chlorophyll",
+      "Xanthophyll"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Chlorophyll is the green pigment that absorbs light energy for photosynthesis.",
+    "detailedExplanation": "Chlorophyll is the primary pigment responsible for the green color of plants and is essential for photosynthesis. There are several types of chlorophyll, with chlorophyll-a and chlorophyll-b being the most common in higher plants. These molecules are located in the chloroplasts and are specifically designed to absorb light energy, particularly in the blue and red portions of the electromagnetic spectrum, while reflecting green light, which is why plants appear green to our eyes.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Chlorophyll",
+    "citationTitle": "Wikipedia: Chlorophyll"
+  },
+  {
+    "id": "921b9c44-ebaa-4437-9ddc-2733ef85fcda",
+    "text": "What scale is used to measure the magnitude of earthquakes?",
+    "options": [
+      "Beaufort scale",
+      "Richter scale",
+      "Fujita scale",
+      "Kelvin scale"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "The Richter scale measures earthquake magnitude based on seismic wave amplitude.",
+    "detailedExplanation": "The Richter scale, developed by Charles F. Richter in 1935, is a logarithmic scale used to measure the magnitude of earthquakes. Each whole number increase on the scale represents a tenfold increase in measured amplitude and roughly 32 times more energy release. While modern seismology often uses the moment magnitude scale for very large earthquakes, the Richter scale remains widely recognized for measuring local earthquake magnitudes.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Richter_magnitude_scale",
+    "citationTitle": "Wikipedia: Richter magnitude scale"
+  },
+  {
+    "id": "4b1b79da-41ea-4444-b97b-6ed22ee5802d",
+    "text": "According to the Law of Conservation of Energy, what happens to energy?",
+    "options": [
+      "It cannot be created or destroyed, only transformed",
+      "It gradually decreases over time",
+      "It can be created but not destroyed",
+      "It doubles when heated"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "The Law of Conservation of Energy states that energy cannot be created or destroyed, only converted from one form to another.",
+    "detailedExplanation": "The Law of Conservation of Energy is one of the most fundamental principles in physics. It means that the total amount of energy in an isolated system remains constant over time. Energy can change forms - for example, potential energy can become kinetic energy, chemical energy can become thermal energy, or electrical energy can become light energy - but the total amount never changes. This principle is essential for understanding everything from simple pendulum motion to complex nuclear reactions.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Conservation_of_energy",
+    "citationTitle": "Wikipedia: Conservation of energy"
+  },
+  {
+    "id": "70ffbbaf-c08e-450a-8c0f-a23e1ed36164",
+    "text": "What is the acceleration due to gravity on Earth's surface?",
+    "options": [
+      "9.8 meters per second squared",
+      "6.7 meters per second squared",
+      "12.3 meters per second squared",
+      "15.2 meters per second squared"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "The acceleration due to gravity on Earth's surface is approximately 9.8 m/s², often rounded to 10 m/s² for simple calculations.",
+    "detailedExplanation": "The acceleration due to gravity, denoted as 'g', is the rate at which objects accelerate when falling freely near Earth's surface. This value of approximately 9.8 m/s² means that an object's speed increases by 9.8 meters per second for every second it falls (ignoring air resistance). This constant is crucial for calculating projectile motion, determining the weight of objects, and understanding many everyday phenomena like why objects fall at the same rate regardless of their mass.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Gravitational_acceleration",
+    "citationTitle": "Wikipedia: Gravitational acceleration"
+  },
+  {
+    "id": "1c1fed82-4057-4012-a5d3-cad66443d327",
+    "text": "What does Archimedes' Principle explain?",
+    "options": [
+      "Why objects float or sink in fluids",
+      "How levers work",
+      "The relationship between pressure and volume",
+      "How heat transfers between objects"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Archimedes' Principle states that an object submerged in a fluid experiences a buoyant force equal to the weight of the fluid it displaces.",
+    "detailedExplanation": "Archimedes' Principle explains buoyancy - the upward force that keeps ships afloat and makes objects feel lighter underwater. When an object is placed in a fluid, it displaces some of that fluid, and the fluid pushes back with a force equal to the weight of the displaced fluid. If this buoyant force is greater than the object's weight, it floats; if less, it sinks. This principle, discovered by the ancient Greek mathematician Archimedes, is fundamental to understanding how boats work, why ice floats on water, and how hot air balloons rise.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Archimedes%27_principle",
+    "citationTitle": "Wikipedia: Archimedes' principle"
+  },
+  {
+    "id": "6e08b041-729f-4d38-984a-226927519cbd",
+    "text": "What is the First Law of Thermodynamics also known as?",
+    "options": [
+      "The Law of Conservation of Energy",
+      "The Law of Entropy",
+      "The Ideal Gas Law",
+      "The Law of Heat Transfer"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "The First Law of Thermodynamics is another statement of the Law of Conservation of Energy, specifically applied to thermal systems.",
+    "detailedExplanation": "The First Law of Thermodynamics is essentially the Law of Conservation of Energy applied to thermal processes. It states that energy cannot be created or destroyed, only converted from one form to another. In thermodynamic terms, it's often expressed as the change in internal energy of a system equals the heat added to the system minus the work done by the system. This law explains why perpetual motion machines are impossible and forms the foundation for understanding heat engines, refrigerators, and all energy conversion processes.",
+    "citationUrl": "https://en.wikipedia.org/wiki/First_law_of_thermodynamics",
+    "citationTitle": "Wikipedia: First law of thermodynamics"
+  },
+  {
+    "id": "26567d20-d72c-417c-9e32-c5d35aa8fe25",
+    "text": "According to Pascal's Principle, what happens when pressure is applied to a confined fluid?",
+    "options": [
+      "The pressure is transmitted equally in all directions",
+      "The fluid expands uniformly",
+      "The temperature increases proportionally",
+      "The fluid flows toward the lowest point"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Pascal's Principle states that pressure applied to a confined fluid is transmitted equally and undiminished in all directions throughout the fluid.",
+    "detailedExplanation": "Pascal's Principle, formulated by French mathematician Blaise Pascal, is the fundamental principle behind hydraulic systems. When you apply pressure to a confined fluid, that pressure is transmitted equally in all directions throughout the fluid. This principle makes possible hydraulic jacks, car brakes, hydraulic lifts, and many industrial machines. For example, when you press the brake pedal in a car, the pressure is transmitted through brake fluid to all four wheels simultaneously, allowing effective braking with relatively little force from your foot.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Pascal%27s_principle",
+    "citationTitle": "Wikipedia: Pascal's principle"
+  },
+  {
+    "id": "421b457d-bd3f-4cfe-b456-e6c299665b32",
+    "text": "What happens to an object in motion according to Newton's First Law of Motion?",
+    "options": [
+      "It stays in motion unless acted upon by an external force",
+      "It gradually slows down and stops on its own",
+      "It speeds up automatically over time",
+      "It changes direction every few seconds"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Newton's First Law states that objects in motion stay in motion unless acted upon by an external force.",
+    "detailedExplanation": "Newton's First Law of Motion, also known as the law of inertia, states that an object at rest stays at rest and an object in motion stays in motion with the same speed and in the same direction unless acted upon by an unbalanced force. This fundamental principle explains why passengers lurch forward when a car suddenly stops or why a hockey puck continues sliding across ice until friction eventually brings it to rest.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Newton%27s_laws_of_motion",
+    "citationTitle": "Wikipedia: Newton's laws of motion"
+  },
+  {
+    "id": "55c236a8-ecd9-4bf1-b69b-082e124d3fca",
+    "text": "According to the Law of Conservation of Energy, what happens to energy in a closed system?",
+    "options": [
+      "It can be created but not destroyed",
+      "It can be destroyed but not created",
+      "It can neither be created nor destroyed, only transformed",
+      "It doubles every hour"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "The Law of Conservation of Energy states that energy cannot be created or destroyed, only transformed from one form to another.",
+    "detailedExplanation": "The Law of Conservation of Energy is one of the most fundamental principles in physics, stating that the total amount of energy in an isolated system remains constant over time. Energy can change forms - for example, potential energy can become kinetic energy, or chemical energy can become thermal energy - but the total amount never increases or decreases. This principle applies to everything from simple pendulum swings to complex chemical reactions and even nuclear processes.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Conservation_of_energy",
+    "citationTitle": "Wikipedia: Conservation of energy"
+  },
+  {
+    "id": "2f1d19fd-0764-4035-b256-a990f15f884a",
+    "text": "What does Archimedes' Principle explain about objects placed in water?",
+    "options": [
+      "They always sink to the bottom",
+      "They experience an upward force equal to the weight of displaced water",
+      "They become twice as heavy",
+      "They turn into steam immediately"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Archimedes' Principle states that objects in water experience an upward buoyant force equal to the weight of the water they displace.",
+    "detailedExplanation": "Archimedes' Principle, discovered by the ancient Greek mathematician Archimedes, explains why some objects float while others sink. When an object is placed in a fluid (like water), it experiences an upward buoyant force that equals the weight of the fluid displaced by the object. If this upward force is greater than the object's weight, it floats; if less, it sinks. This principle explains why massive steel ships can float on water and why helium balloons rise in air.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Archimedes%27_principle",
+    "citationTitle": "Wikipedia: Archimedes' principle"
+  }
+]

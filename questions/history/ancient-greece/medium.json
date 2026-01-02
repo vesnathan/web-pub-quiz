@@ -1,0 +1,325 @@
+[
+  {
+    "id": "a7ab34f4-be99-4b13-b8d4-9accf33545f8",
+    "text": "Which Greek philosopher was forced to drink hemlock as his method of execution?",
+    "options": [
+      "Plato",
+      "Aristotle",
+      "Socrates",
+      "Epicurus"
+    ],
+    "correctIndex": 2,
+    "category": "history",
+    "difficulty": "medium",
+    "explanation": "Socrates was sentenced to death by drinking poison hemlock in 399 BCE after being found guilty of corrupting the youth and impiety.",
+    "detailedExplanation": "Socrates, the classical Greek philosopher, was tried by an Athenian jury in 399 BCE on charges of corrupting the youth and introducing new gods. Despite having the option to propose exile as an alternative punishment, Socrates remained defiant during his trial. He was ultimately sentenced to death and required to drink a cup of poison hemlock, which he did while surrounded by his disciples, as famously recounted in Plato's dialogue 'Phaedo'.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Trial_of_Socrates",
+    "citationTitle": "Wikipedia: Trial of Socrates"
+  },
+  {
+    "id": "57362c37-c8cf-42b1-aa8c-9412ca8d2478",
+    "text": "What was the name of the famous phalanx formation used by the Macedonian army under Philip II and Alexander the Great?",
+    "options": [
+      "Hoplite Square",
+      "Sarissa Phalanx",
+      "Macedonian Wedge",
+      "Pike Formation"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "medium",
+    "explanation": "The Sarissa Phalanx used extremely long spears called sarissas, which were up to 18 feet long, giving Macedonian forces a significant tactical advantage.",
+    "detailedExplanation": "The Sarissa Phalanx was a revolutionary military formation developed by Philip II of Macedon and perfected by his son Alexander the Great. The formation featured soldiers wielding sarissas - spears that were significantly longer than traditional Greek spears, measuring between 13-18 feet. This length advantage allowed Macedonian phalanxes to strike enemies before they could get close enough to use their shorter weapons. The formation required extensive training and coordination, but proved devastatingly effective in Alexander's conquests across the known world.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Sarissa",
+    "citationTitle": "Wikipedia: Sarissa"
+  },
+  {
+    "id": "0a30b4b2-7604-4b06-a93a-4eae5e4f4b12",
+    "text": "Which island was the center of the Minoan civilization?",
+    "options": [
+      "Cyprus",
+      "Rhodes",
+      "Crete",
+      "Santorini"
+    ],
+    "correctIndex": 2,
+    "category": "history",
+    "difficulty": "medium",
+    "explanation": "The Minoan civilization flourished on Crete from approximately 2700 to 1100 BCE, with major palace complexes at Knossos and other sites.",
+    "detailedExplanation": "The Minoan civilization was centered on the island of Crete and represents one of the earliest advanced civilizations in Europe, flourishing from around 2700 to 1100 BCE. Named after the legendary King Minos, this Bronze Age civilization was characterized by elaborate palace complexes, most famously at Knossos, sophisticated art and pottery, and extensive maritime trade networks throughout the Mediterranean. The Minoans are credited with developing one of the earliest forms of writing in Europe, known as Linear A, which remains undeciphered to this day.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Minoan_civilization",
+    "citationTitle": "Wikipedia: Minoan civilization"
+  },
+  {
+    "id": "dddb490f-9e25-4f5d-8197-44493e29c234",
+    "text": "Who wrote the epic poems 'The Iliad' and 'The Odyssey'?",
+    "options": [
+      "Hesiod",
+      "Homer",
+      "Pindar",
+      "Sappho"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "medium",
+    "explanation": "Homer is traditionally credited as the author of these foundational works of Western literature, though some scholars debate whether he was a single historical figure.",
+    "detailedExplanation": "Homer is the legendary ancient Greek poet traditionally said to be the author of the epic poems 'The Iliad' and 'The Odyssey', two foundational works of ancient Greek literature. 'The Iliad' tells the story of the Trojan War, focusing on the hero Achilles, while 'The Odyssey' follows Odysseus's long journey home after the war. These works, likely composed in the 8th century BCE, were originally part of an oral tradition and have profoundly influenced Western literature. The 'Homeric Question' refers to ongoing scholarly debates about Homer's identity and whether the poems were composed by one person or multiple poets.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Homer",
+    "citationTitle": "Wikipedia: Homer"
+  },
+  {
+    "id": "9e8704c8-e665-45e8-b187-55791a1c6c13",
+    "text": "In what year did the first recorded Olympic Games take place?",
+    "options": [
+      "776 BCE",
+      "752 BCE",
+      "801 BCE",
+      "720 BCE"
+    ],
+    "correctIndex": 0,
+    "category": "history",
+    "difficulty": "medium",
+    "explanation": "The first recorded Olympic Games were held in 776 BCE in Olympia, Greece, and continued for nearly 12 centuries until Emperor Theodosius I banned them.",
+    "detailedExplanation": "The ancient Olympic Games began in 776 BCE in Olympia, a sanctuary site in the western Peloponnese. These games were held in honor of Zeus and initially featured only a single event - the stadion, a foot race covering about 192 meters. Over time, the games expanded to include various athletic competitions such as wrestling, boxing, chariot racing, and the pentathlon. The Olympics were held every four years (a period called an Olympiad) for nearly 12 centuries until Emperor Theodosius I banned them in 393 or 394 CE as part of the campaign to impose Christian orthodoxy.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Ancient_Olympic_Games",
+    "citationTitle": "Wikipedia: Ancient Olympic Games"
+  },
+  {
+    "id": "572eb257-3ff3-4839-8411-7f8f461f899c",
+    "text": "Which Athenian statesman is often called the 'Father of Democracy'?",
+    "options": [
+      "Pericles",
+      "Solon",
+      "Cleisthenes",
+      "Draco"
+    ],
+    "correctIndex": 2,
+    "category": "history",
+    "difficulty": "medium",
+    "explanation": "Cleisthenes introduced key democratic reforms around 508 BCE, including the creation of demes (local districts) and the principle of isonomia (equality before the law).",
+    "detailedExplanation": "Cleisthenes, an Athenian nobleman and statesman, is often credited as the 'Father of Democracy' for his revolutionary political reforms around 508-507 BCE. He restructured Athenian society by creating a new system of tribes based on geography rather than kinship, established the concept of ostracism to prevent tyranny, and introduced the principle of isonomia (equality of political rights). His reforms laid the groundwork for Athenian democracy by breaking the power of traditional aristocratic families and giving ordinary citizens a greater voice in government, though it should be noted that this democracy was still limited to free male citizens.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Cleisthenes",
+    "citationTitle": "Wikipedia: Cleisthenes"
+  },
+  {
+    "id": "e926f941-0ef7-42a6-8ce0-48a1e537b3d6",
+    "text": "What was the name of the marketplace that served as the center of public life in ancient Greek cities?",
+    "options": [
+      "Acropolis",
+      "Agora",
+      "Gymnasium",
+      "Theater"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "medium",
+    "explanation": "The agora was the central public space in ancient Greek city-states, serving as a marketplace and gathering place for political, commercial, and social activities.",
+    "detailedExplanation": "The agora was the heart of public life in ancient Greek cities, serving multiple functions as a marketplace, political forum, and social gathering place. Located typically in the center of the city, the agora was surrounded by important civic buildings, temples, and stoa (covered walkways). It was here that citizens would conduct business, participate in political discussions, attend trials, and engage in philosophical debates. The most famous agora was in Athens, where great philosophers like Socrates would engage with citizens and where democratic assemblies would convene. The word 'agora' literally means 'gathering place' or 'assembly'.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Agora",
+    "citationTitle": "Wikipedia: Agora"
+  },
+  {
+    "id": "f5fa1d2c-e4c5-4ac0-9189-f8c9c9d60cce",
+    "text": "Which Greek city-state was known for its powerful navy and defeated the Persian fleet at the Battle of Salamis?",
+    "options": [
+      "Sparta",
+      "Corinth",
+      "Athens",
+      "Thebes"
+    ],
+    "correctIndex": 2,
+    "category": "history",
+    "difficulty": "medium",
+    "explanation": "Athens had the most powerful navy in Greece and played the decisive role in the naval victory at Salamis in 480 BCE, effectively ending Xerxes' invasion of Greece.",
+    "detailedExplanation": "Athens developed the most formidable naval force in ancient Greece, largely due to the discovery of rich silver mines at Laurium and the visionary leadership of Themistocles, who convinced the Athenians to invest in building a fleet of triremes. This naval supremacy proved crucial during the Persian Wars, particularly at the Battle of Salamis in 480 BCE, where the Greek fleet, dominated by Athenian ships, decisively defeated the much larger Persian navy of Xerxes I. This victory effectively ended the Persian invasion of Greece and established Athens as the leading maritime power in the Aegean, eventually leading to the formation of the Delian League.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Battle_of_Salamis",
+    "citationTitle": "Wikipedia: Battle of Salamis"
+  },
+  {
+    "id": "7e0ff0b9-fd58-416e-8ea1-b4ad1cb760f6",
+    "text": "Which ancient Greek philosopher was forced to drink hemlock as his method of execution?",
+    "options": [
+      "Plato",
+      "Aristotle",
+      "Socrates",
+      "Pythagoras"
+    ],
+    "correctIndex": 2,
+    "category": "history",
+    "difficulty": "medium",
+    "explanation": "Socrates was sentenced to death by drinking hemlock in 399 BCE after being found guilty of corrupting the youth and impiety.",
+    "detailedExplanation": "Socrates was tried and convicted by an Athenian jury in 399 BCE on charges of corrupting the youth and introducing new gods. Rather than fleeing Athens, he chose to accept his sentence and drank a cup of poison hemlock surrounded by his friends and students, including Plato, who later recorded the event in his dialogue 'Phaedo'. This execution became one of the most famous martyrdoms in philosophical history.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Trial_of_Socrates",
+    "citationTitle": "Wikipedia: Trial of Socrates"
+  },
+  {
+    "id": "d08873ae-cecb-46a5-b31a-18789cc9dec4",
+    "text": "In Greek mythology, who was punished by the gods to eternally push a boulder up a mountain?",
+    "options": [
+      "Tantalus",
+      "Prometheus",
+      "Sisyphus",
+      "Ixion"
+    ],
+    "correctIndex": 2,
+    "category": "history",
+    "difficulty": "medium",
+    "explanation": "Sisyphus was condemned by Zeus to push a boulder up a mountain for eternity, with the stone rolling back down each time he neared the summit.",
+    "detailedExplanation": "Sisyphus, the king of Ephyra (later Corinth), was known for his cunning and deceitfulness. He managed to cheat death twice and revealed Zeus's secrets, earning the god's eternal wrath. His punishment in Tartarus became one of the most famous examples of futile labor - every day he would push an enormous boulder up a steep hill, only to watch it roll back down as he approached the top, forcing him to begin again. This myth later inspired the philosophical concept of the 'Sisyphean task' - endless, futile labor.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Sisyphus",
+    "citationTitle": "Wikipedia: Sisyphus"
+  },
+  {
+    "id": "36659b48-793c-4972-b4e6-b1fd5202005e",
+    "text": "Which ancient Greek historian is known as the 'Father of History'?",
+    "options": [
+      "Thucydides",
+      "Xenophon",
+      "Herodotus",
+      "Plutarch"
+    ],
+    "correctIndex": 2,
+    "category": "history",
+    "difficulty": "medium",
+    "explanation": "Herodotus earned the title 'Father of History' from Cicero for being the first to systematically collect and record historical events.",
+    "detailedExplanation": "Herodotus of Halicarnassus (c. 484-425 BCE) revolutionized the recording of past events by attempting to systematically investigate and verify his sources, rather than simply repeating myths and legends. His masterwork 'The Histories' chronicled the Greco-Persian Wars and included extensive ethnographic and geographic information about the ancient world. While modern historians note his occasional inclusion of fantastical elements, his methodical approach to gathering information from multiple sources and his critical examination of conflicting accounts established the foundation for historical scholarship.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Herodotus",
+    "citationTitle": "Wikipedia: Herodotus"
+  },
+  {
+    "id": "0ba9abe2-23c0-432c-af07-4ac8744c9d18",
+    "text": "At which battle did a small Greek force, led by King Leonidas, make a famous last stand against the Persian army?",
+    "options": [
+      "Marathon",
+      "Salamis",
+      "Thermopylae",
+      "Plataea"
+    ],
+    "correctIndex": 2,
+    "category": "history",
+    "difficulty": "medium",
+    "explanation": "The Battle of Thermopylae in 480 BCE saw 300 Spartans and other Greek allies fight to the death against Xerxes' massive Persian army.",
+    "detailedExplanation": "The Battle of Thermopylae was fought in August 480 BCE during the second Persian invasion of Greece. King Leonidas led approximately 300 Spartans, along with several thousand other Greek allies, in defending the narrow mountain pass of Thermopylae against King Xerxes' vastly superior force. For three days, the Greeks held the pass, inflicting heavy casualties on the Persians. The battle ended when a local Greek showed the Persians a path around the pass, allowing them to attack from behind. Though the Greeks were defeated, their sacrifice became legendary and helped inspire Greek resistance.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Battle_of_Thermopylae",
+    "citationTitle": "Wikipedia: Battle of Thermopylae"
+  },
+  {
+    "id": "033fc435-5208-46f4-9f8b-40d9d6fd11eb",
+    "text": "What was the primary purpose of the ancient Greek agora?",
+    "options": [
+      "Religious worship",
+      "Military training",
+      "Public marketplace and assembly",
+      "Royal residence"
+    ],
+    "correctIndex": 2,
+    "category": "history",
+    "difficulty": "medium",
+    "explanation": "The agora served as the central public space for commercial, civic, and social activities in ancient Greek city-states.",
+    "detailedExplanation": "The agora was the heart of public life in ancient Greek cities, functioning as both a marketplace and a center for civic engagement. Citizens gathered there to buy and sell goods, conduct business, participate in political discussions, and attend public assemblies. The agora typically featured covered walkways called stoas, where merchants sold their wares and philosophers taught their students. Famous examples include the Athenian Agora, where Socrates questioned passersby and where democratic institutions flourished. The space represented the Greek ideals of open discourse and civic participation.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Agora",
+    "citationTitle": "Wikipedia: Agora"
+  },
+  {
+    "id": "6070780f-8599-43b0-8324-1228d795715c",
+    "text": "Which Greek god was considered the messenger of the gods and guide to the underworld?",
+    "options": [
+      "Apollo",
+      "Hermes",
+      "Dionysus",
+      "Hades"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "medium",
+    "explanation": "Hermes served as the messenger god, known for his winged sandals and role as psychopomp, guiding souls to the afterlife.",
+    "detailedExplanation": "Hermes, son of Zeus and the nymph Maia, was one of the twelve Olympian gods and served multiple important functions in Greek mythology. As the messenger god, he carried communications between the divine and mortal realms, identifiable by his winged sandals (talaria), caduceus staff, and traveler's hat (petasos). His role as psychopomp was equally crucial - he guided the souls of the deceased from the world of the living to the underworld, helping them cross the river Styx. Hermes was also the patron of merchants, thieves, travelers, and boundaries, reflecting his nature as a liminal deity who moved between different realms.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Hermes",
+    "citationTitle": "Wikipedia: Hermes"
+  },
+  {
+    "id": "c0b0ec86-e00d-4a58-9a4b-eb2144ebf784",
+    "text": "What type of government did Athens develop that became a model for modern democracies?",
+    "options": [
+      "Oligarchy",
+      "Tyranny",
+      "Direct democracy",
+      "Constitutional monarchy"
+    ],
+    "correctIndex": 2,
+    "category": "history",
+    "difficulty": "medium",
+    "explanation": "Athens developed direct democracy where eligible citizens voted directly on legislation and policy rather than electing representatives.",
+    "detailedExplanation": "Athenian democracy, established in the 5th century BCE under leaders like Cleisthenes and Pericles, was a system of direct democracy where eligible citizens participated directly in decision-making rather than through elected representatives. All male citizens over 18 (excluding women, slaves, and foreigners) could attend the ecclesia (assembly) held on the Pnyx hill, where they debated and voted on laws, policies, and even ostracism of prominent figures. This system also featured random selection for many government positions and jury service, ensuring broad participation. While limited by modern standards of inclusion, it established fundamental democratic principles that influenced later political systems.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Athenian_democracy",
+    "citationTitle": "Wikipedia: Athenian democracy"
+  },
+  {
+    "id": "f219b7f3-2c5f-4028-9171-946e6912e674",
+    "text": "What was the name of the alliance of Greek city-states led by Athens during the 5th century BCE?",
+    "options": [
+      "Peloponnesian League",
+      "Delian League",
+      "Hellenic Alliance",
+      "Athenian Confederacy"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "medium",
+    "explanation": "The Delian League was formed in 478 BCE as a confederation of Greek city-states led by Athens to continue fighting the Persian Empire.",
+    "detailedExplanation": "The Delian League was established in 478 BCE following the Greek victories against the Persian invasions. Named after the island of Delos where the alliance's treasury was initially kept, it began as a voluntary confederation of around 150-330 Greek city-states. Athens gradually transformed this defensive alliance into an empire, moving the treasury to Athens and using the funds for their own purposes, including the construction of the Parthenon. This imperial behavior eventually led to tensions that contributed to the Peloponnesian War.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Delian_League",
+    "citationTitle": "Wikipedia: Delian League"
+  },
+  {
+    "id": "1cec542e-17a8-46fe-9bc9-1fd7ee0dc2e8",
+    "text": "In ancient Greek theater, what were the raised platform shoes worn by actors called?",
+    "options": [
+      "Chitons",
+      "Cothurni",
+      "Himations",
+      "Peplos"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "medium",
+    "explanation": "Cothurni were thick-soled boots or platform shoes worn by actors in Greek tragedies to increase their height and presence on stage.",
+    "detailedExplanation": "Cothurni were an essential part of ancient Greek theatrical costume, particularly in tragedies. These platform shoes, sometimes reaching several inches in height, served multiple purposes: they made actors appear more imposing and godlike, helped distinguish between different character types, and made performers more visible to audiences in large amphitheaters. The term has survived in modern language, with 'cothurnus' sometimes used to describe an elevated or grandiose style of writing or speech, reflecting the dignified nature of Greek tragic drama.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Buskin",
+    "citationTitle": "Wikipedia: Buskin"
+  },
+  {
+    "id": "140c68fa-4a54-4184-99f8-6ade01924674",
+    "text": "Which battle in 490 BCE saw the Athenians defeat a much larger Persian force, with a messenger allegedly running 26 miles to announce the victory?",
+    "options": [
+      "Battle of Thermopylae",
+      "Battle of Salamis",
+      "Battle of Marathon",
+      "Battle of Plataea"
+    ],
+    "correctIndex": 2,
+    "category": "history",
+    "difficulty": "medium",
+    "explanation": "The Battle of Marathon saw the Athenians defeat the Persians, and legend says Pheidippides ran to Athens to announce the victory, inspiring the modern marathon race.",
+    "detailedExplanation": "The Battle of Marathon was fought in 490 BCE between the Athenians (aided by Plataea) and the invading Persian forces under Darius I. Despite being heavily outnumbered, the Greeks achieved a decisive victory through superior tactics, including a strategic weakening of their center to strengthen their flanks. According to legend, after the battle, a messenger named Pheidippides ran approximately 26 miles from Marathon to Athens to announce the victory, reportedly shouting 'Nike!' (victory) before collapsing and dying from exhaustion. This legendary run inspired the modern marathon race distance of 26.2 miles in the Olympic Games.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Battle_of_Marathon",
+    "citationTitle": "Wikipedia: Battle of Marathon"
+  },
+  {
+    "id": "0b9c2b47-111f-4de2-89d0-864ec6c47676",
+    "text": "Which ancient Greek philosopher was forced to drink hemlock as his method of execution in 399 BCE?",
+    "options": [
+      "Plato",
+      "Aristotle",
+      "Socrates",
+      "Epicurus"
+    ],
+    "correctIndex": 2,
+    "category": "history",
+    "difficulty": "medium",
+    "explanation": "Socrates was executed by drinking hemlock after being found guilty of corrupting the youth and impiety.",
+    "detailedExplanation": "Socrates, one of the most influential philosophers in Western thought, was tried and executed in Athens in 399 BCE. He was charged with corrupting the youth of Athens and introducing new gods, effectively accusations of impiety and subverting traditional values. Rather than fleeing Athens or accepting exile, Socrates chose to accept his death sentence and drank a cup of poison hemlock while surrounded by his students, including Plato, who later recorded the events in his dialogues.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Trial_of_Socrates",
+    "citationTitle": "Wikipedia: Trial of Socrates"
+  }
+]

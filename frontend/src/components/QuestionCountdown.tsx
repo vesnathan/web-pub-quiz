@@ -1,8 +1,8 @@
-'use client';
+"use client";
 
-import { useEffect, useState } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
-import { useGameStore } from '@/stores/gameStore';
+import { useEffect, useState } from "react";
+import { motion, AnimatePresence } from "framer-motion";
+import { useGameStore } from "@/stores/gameStore";
 
 interface QuestionCountdownProps {
   onComplete: () => void;
@@ -45,10 +45,10 @@ export function QuestionCountdown({ onComplete }: QuestionCountdownProps) {
             transition={{ duration: 0.3 }}
             className="text-9xl font-bold text-primary-400"
             style={{
-              textShadow: '0 0 40px rgba(124, 58, 237, 0.5)',
+              textShadow: "0 0 40px rgba(124, 58, 237, 0.5)",
             }}
           >
-            {count > 0 ? count : 'GO!'}
+            {count > 0 ? count : "GO!"}
           </motion.div>
         </AnimatePresence>
 

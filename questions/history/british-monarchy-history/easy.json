@@ -1,0 +1,342 @@
+[
+  {
+    "id": "57b28981-5e18-48c3-8c9e-87437f232d2f",
+    "text": "Which monarch currently reigns over the United Kingdom?",
+    "options": [
+      "Queen Elizabeth II",
+      "King Charles III",
+      "King William V",
+      "King George VII"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "King Charles III became king in September 2022 following the death of Queen Elizabeth II.",
+    "detailedExplanation": "King Charles III ascended to the throne on September 8, 2022, following the death of his mother, Queen Elizabeth II, who had reigned for 70 years. He was formally crowned at Westminster Abbey on May 6, 2023, in a ceremony watched by millions worldwide. Charles had been heir apparent for over 50 years before becoming king at age 73.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Charles_III",
+    "citationTitle": "Wikipedia: Charles III"
+  },
+  {
+    "id": "e1a54ff1-27cf-445c-b806-92c7b64936b1",
+    "text": "How many wives did King Henry VIII have?",
+    "options": [
+      "Four",
+      "Five",
+      "Six",
+      "Seven"
+    ],
+    "correctIndex": 2,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "Henry VIII famously had six wives during his reign from 1509 to 1547.",
+    "detailedExplanation": "King Henry VIII had six wives: Catherine of Aragon, Anne Boleyn, Jane Seymore, Anne of Cleves, Catherine Howard, and Catherine Parr. His marriages were driven by his desperate need for a male heir and his desire to divorce Catherine of Aragon, which led to England's break with the Roman Catholic Church and the establishment of the Church of England.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Henry_VIII",
+    "citationTitle": "Wikipedia: Henry VIII"
+  },
+  {
+    "id": "1b846dd2-178c-460e-b081-86600686aaed",
+    "text": "Which queen ruled England for 45 years during the late 16th and early 17th centuries?",
+    "options": [
+      "Queen Victoria",
+      "Queen Mary I",
+      "Queen Elizabeth I",
+      "Queen Anne"
+    ],
+    "correctIndex": 2,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "Queen Elizabeth I ruled England from 1558 to 1603, a period known as the Elizabethan Age.",
+    "detailedExplanation": "Queen Elizabeth I, daughter of Henry VIII and Anne Boleyn, ruled England for 45 years from 1558 until her death in 1603. Her reign, known as the Elizabethan Age, was marked by English cultural flourishing, including the works of William Shakespeare, and military triumph over the Spanish Armada in 1588. She never married and was known as the 'Virgin Queen.'",
+    "citationUrl": "https://en.wikipedia.org/wiki/Elizabeth_I",
+    "citationTitle": "Wikipedia: Elizabeth I"
+  },
+  {
+    "id": "16f3c2f9-3b3a-40f1-b737-caf124d56faa",
+    "text": "What is the name of the current royal residence in London?",
+    "options": [
+      "Windsor Castle",
+      "Buckingham Palace",
+      "Kensington Palace",
+      "Hampton Court Palace"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "Buckingham Palace has been the official London residence of British monarchs since 1837.",
+    "detailedExplanation": "Buckingham Palace became the official London residence of the British monarch when Queen Victoria moved there in 1837. The palace has 775 rooms, including 19 State rooms, 52 Royal and guest bedrooms, 188 staff bedrooms, 92 offices, and 78 bathrooms. It serves as both the administrative headquarters of the monarchy and the venue for many official events and ceremonies.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Buckingham_Palace",
+    "citationTitle": "Wikipedia: Buckingham Palace"
+  },
+  {
+    "id": "f10e1d77-3d0c-49e6-a51e-47b11683c830",
+    "text": "Which monarch ruled during World War II?",
+    "options": [
+      "King Edward VIII",
+      "King George V",
+      "King George VI",
+      "Queen Elizabeth II"
+    ],
+    "correctIndex": 2,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "King George VI ruled from 1936 to 1952, covering the entire period of World War II (1939-1945).",
+    "detailedExplanation": "King George VI became king in 1936 after his brother Edward VIII abdicated to marry American divorcée Wallis Simpson. George VI led Britain through World War II, staying in London during the Blitz and boosting morale with his wife Queen Elizabeth (later the Queen Mother). Despite having a severe stammer, he made inspiring radio broadcasts to the nation during the war years.",
+    "citationUrl": "https://en.wikipedia.org/wiki/George_VI",
+    "citationTitle": "Wikipedia: George VI"
+  },
+  {
+    "id": "1a24deca-a7e0-44f5-a7b5-79699ba54f2e",
+    "text": "Which royal house does the current British royal family belong to?",
+    "options": [
+      "House of Tudor",
+      "House of Stuart",
+      "House of Windsor",
+      "House of Hanover"
+    ],
+    "correctIndex": 2,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "The British royal family has belonged to the House of Windsor since 1917.",
+    "detailedExplanation": "The House of Windsor was established in 1917 when King George V changed the royal family's name from the Germanic House of Saxe-Coburg-Gotha due to anti-German sentiment during World War I. The name Windsor was chosen after Windsor Castle, one of the royal family's main residences. All monarchs since George V have belonged to the House of Windsor.",
+    "citationUrl": "https://en.wikipedia.org/wiki/House_of_Windsor",
+    "citationTitle": "Wikipedia: House of Windsor"
+  },
+  {
+    "id": "738acb2f-c1e4-4678-9328-35aa1c785914",
+    "text": "Which queen had the longest reign in British history before Elizabeth II?",
+    "options": [
+      "Queen Anne",
+      "Queen Victoria",
+      "Queen Elizabeth I",
+      "Queen Mary I"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "Queen Victoria reigned for 63 years from 1837 to 1901, making her the longest-reigning monarch before Elizabeth II.",
+    "detailedExplanation": "Queen Victoria ruled for 63 years and 216 days from 1837 until her death in 1901. Her reign, known as the Victorian era, saw massive industrial, cultural, political, scientific, and military changes within the United Kingdom and the expansion of the British Empire. She became Empress of India in 1876 and gave her name to an entire era of British history.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Queen_Victoria",
+    "citationTitle": "Wikipedia: Queen Victoria"
+  },
+  {
+    "id": "97553bd7-e897-4f15-97f6-2c355e74c93d",
+    "text": "In which London church are British monarchs traditionally crowned?",
+    "options": [
+      "St. Paul's Cathedral",
+      "Westminster Abbey",
+      "Canterbury Cathedral",
+      "Windsor Chapel"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "Westminster Abbey has been the traditional coronation church for British monarchs for nearly 1,000 years.",
+    "detailedExplanation": "Westminster Abbey has been the coronation church for English and British monarchs since William the Conqueror in 1066. The abbey has witnessed 39 coronations, including that of Queen Elizabeth II in 1953 and King Charles III in 2023. The church also serves as the final resting place for many monarchs and is where royal weddings, including that of Prince William and Catherine Middleton, often take place.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Westminster_Abbey",
+    "citationTitle": "Wikipedia: Westminster Abbey"
+  },
+  {
+    "id": "52ead7d9-00a3-4003-90b1-13b83d3a65dc",
+    "text": "Which monarch was famously executed during the English Civil War in 1649?",
+    "options": [
+      "Charles I",
+      "James I",
+      "Henry VIII",
+      "Richard III"
+    ],
+    "correctIndex": 0,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "Charles I was executed by Parliament in 1649 after the English Civil War.",
+    "detailedExplanation": "King Charles I ruled from 1625 until his execution in 1649. His conflicts with Parliament over royal authority and religious matters led to the English Civil War. After his defeat, he was tried for treason and executed outside the Banqueting House in Whitehall, London, making him the only English monarch to be publicly executed.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Charles_I_of_England",
+    "citationTitle": "Wikipedia: Charles I of England"
+  },
+  {
+    "id": "916023e3-25df-4fad-b40a-db4d0928bd92",
+    "text": "Who was the longest-reigning British monarch before Queen Elizabeth II?",
+    "options": [
+      "Queen Victoria",
+      "King George III",
+      "Henry VIII",
+      "Elizabeth I"
+    ],
+    "correctIndex": 0,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "Queen Victoria reigned for 63 years and 216 days, from 1837 to 1901.",
+    "detailedExplanation": "Queen Victoria held the record for the longest reign in British history at 63 years and 216 days, from 1837 until her death in 1901. Her reign, known as the Victorian era, saw massive expansion of the British Empire, industrial revolution, and social reform. This record was surpassed by Queen Elizabeth II in 2015.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Queen_Victoria",
+    "citationTitle": "Wikipedia: Queen Victoria"
+  },
+  {
+    "id": "9257192d-20ba-46f0-878d-646a2fc2e3b6",
+    "text": "Which royal house did Queen Elizabeth II belong to?",
+    "options": [
+      "House of Tudor",
+      "House of Stuart",
+      "House of Hanover",
+      "House of Windsor"
+    ],
+    "correctIndex": 3,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "Queen Elizabeth II was a member of the House of Windsor, established in 1917.",
+    "detailedExplanation": "The House of Windsor was established in 1917 when King George V changed the family name from the Germanic 'House of Saxe-Coburg-Gotha' due to anti-German sentiment during World War I. The name Windsor was chosen after Windsor Castle, one of the royal residences. Queen Elizabeth II continued this house name throughout her 70-year reign.",
+    "citationUrl": "https://en.wikipedia.org/wiki/House_of_Windsor",
+    "citationTitle": "Wikipedia: House of Windsor"
+  },
+  {
+    "id": "e4448098-048c-4ef7-9d56-f4bf4939dd4b",
+    "text": "In what year did the Great Fire of London occur during King Charles II's reign?",
+    "options": [
+      "1665",
+      "1666",
+      "1667",
+      "1668"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "The Great Fire of London occurred in 1666 during the reign of Charles II.",
+    "detailedExplanation": "The Great Fire of London broke out on September 2, 1666, and burned for four days, destroying much of medieval London inside the old Roman City Wall. King Charles II played an active role in fighting the fire, personally joining firefighting efforts and ordering the creation of firebreaks by demolishing houses. The fire led to major rebuilding efforts, including many churches designed by Christopher Wren.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Great_Fire_of_London",
+    "citationTitle": "Wikipedia: Great Fire of London"
+  },
+  {
+    "id": "771806ed-2bb6-43b9-8e0f-83354ec22259",
+    "text": "Which monarch was known as 'Bloody Mary'?",
+    "options": [
+      "Mary Queen of Scots",
+      "Mary I of England",
+      "Mary II of England",
+      "Queen Mary of Teck"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "Mary I of England earned the nickname 'Bloody Mary' for her persecution of Protestants.",
+    "detailedExplanation": "Mary I of England (1516-1558) was the daughter of Henry VIII and Catherine of Aragon. She earned the nickname 'Bloody Mary' due to her persecution of Protestant reformers during her five-year reign from 1553 to 1558. She ordered the execution of nearly 300 religious dissenters in her attempts to restore Roman Catholicism as England's official religion.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Mary_I_of_England",
+    "citationTitle": "Wikipedia: Mary I of England"
+  },
+  {
+    "id": "a099df28-e614-4e77-8ffd-d6965ccbdd62",
+    "text": "Who was the first monarch of the United Kingdom of Great Britain and Ireland?",
+    "options": [
+      "George I",
+      "George II",
+      "George III",
+      "George IV"
+    ],
+    "correctIndex": 2,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "George III became the first monarch of the United Kingdom of Great Britain and Ireland in 1801.",
+    "detailedExplanation": "The United Kingdom of Great Britain and Ireland was formed on January 1, 1801, when the Kingdom of Great Britain and the Kingdom of Ireland were united under the Act of Union 1800. King George III, who had been ruling Great Britain since 1760, became the first monarch of this new unified kingdom. He is also famous for being the king during the American Revolutionary War.",
+    "citationUrl": "https://en.wikipedia.org/wiki/George_III",
+    "citationTitle": "Wikipedia: George III"
+  },
+  {
+    "id": "e2797888-07d8-4bb5-84b1-a1cf9b7d5d4a",
+    "text": "Which English queen was known as the 'Virgin Queen'?",
+    "options": [
+      "Mary I",
+      "Elizabeth I",
+      "Anne",
+      "Victoria"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "Elizabeth I was called the 'Virgin Queen' because she never married and had no children.",
+    "detailedExplanation": "Queen Elizabeth I (1533-1603) was known as the 'Virgin Queen' because she chose never to marry, despite numerous suitors and political pressure to produce an heir. Her 45-year reign (1558-1603) was called the Elizabethan Age, marked by English cultural flourishing with figures like William Shakespeare, and naval triumph over the Spanish Armada in 1588. She was the last monarch of the House of Tudor.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Elizabeth_I",
+    "citationTitle": "Wikipedia: Elizabeth I"
+  },
+  {
+    "id": "ef5a22a1-f35e-4a86-bdc3-e2080dae4166",
+    "text": "Which king of England was executed in 1649 during the English Civil War?",
+    "options": [
+      "Charles I",
+      "Henry VIII",
+      "James II",
+      "Richard III"
+    ],
+    "correctIndex": 0,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "Charles I was executed on January 30, 1649, after being found guilty of treason by Parliament.",
+    "detailedExplanation": "Charles I's conflict with Parliament over royal authority and religious matters led to the English Civil War (1642-1651). After his defeat, he was tried for treason and executed outside the Banqueting House in Whitehall, London. This marked the temporary end of the monarchy until the Restoration in 1660 under his son Charles II.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Charles_I_of_England",
+    "citationTitle": "Wikipedia: Charles I of England"
+  },
+  {
+    "id": "0d3aeaec-a979-4878-9585-5b51a6e55ea1",
+    "text": "In what year did Queen Elizabeth II become queen?",
+    "options": [
+      "1953",
+      "1952",
+      "1951",
+      "1954"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "Elizabeth II became queen on February 6, 1952, following the death of her father King George VI.",
+    "detailedExplanation": "Princess Elizabeth was visiting Kenya with her husband Prince Philip when she received news of her father's death on February 6, 1952. She immediately became queen at age 25, though her coronation ceremony didn't take place until June 2, 1953, at Westminster Abbey. She would go on to become the longest-reigning British monarch in history.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Elizabeth_II",
+    "citationTitle": "Wikipedia: Elizabeth II"
+  },
+  {
+    "id": "9204e9d6-8474-416a-8d30-89fb8b25b5fa",
+    "text": "Which English king was defeated at the Battle of Hastings in 1066?",
+    "options": [
+      "Harold Godwinson",
+      "Edward the Confessor",
+      "William the Conqueror",
+      "Alfred the Great"
+    ],
+    "correctIndex": 0,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "King Harold II (Harold Godwinson) was killed at the Battle of Hastings, leading to William of Normandy's conquest of England.",
+    "detailedExplanation": "Harold Godwinson became king in January 1066 but faced immediate challenges to his throne. After defeating Harald Hardrada at the Battle of Stamford Bridge, he rushed south to face William of Normandy at Hastings on October 14, 1066. Harold was killed in the battle (possibly by an arrow to the eye), and William became king, fundamentally changing English history and culture.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Harold_Godwinson",
+    "citationTitle": "Wikipedia: Harold Godwinson"
+  },
+  {
+    "id": "0d3387ad-1cf6-4237-ad50-320710e50566",
+    "text": "Which king of England had six wives?",
+    "options": [
+      "Henry VII",
+      "Henry VIII",
+      "Edward VI",
+      "George VI"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "Henry VIII famously married six times in his quest for a male heir.",
+    "detailedExplanation": "Henry VIII (1491-1547) is one of England's most famous monarchs, largely due to his six marriages and his break with the Roman Catholic Church. His wives were Catherine of Aragon, Anne Boleyn, Jane Seymore, Anne of Cleves, Catherine Howard, and Catherine Parr. Two were divorced, two were beheaded, one died in childbirth, and one outlived him. His marital affairs led to the English Reformation and the establishment of the Church of England.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Henry_VIII",
+    "citationTitle": "Wikipedia: Henry VIII"
+  },
+  {
+    "id": "bc6e5062-5751-4156-a6a7-b959f968c427",
+    "text": "What was the name of the royal house that ruled England before the Windsors?",
+    "options": [
+      "House of Stuart",
+      "House of Hanover",
+      "House of Saxe-Coburg-Gotha",
+      "House of Tudor"
+    ],
+    "correctIndex": 2,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "The House of Saxe-Coburg-Gotha ruled from 1901 until it was changed to Windsor in 1917.",
+    "detailedExplanation": "The House of Saxe-Coburg-Gotha ruled the United Kingdom from 1901 to 1917, beginning with King Edward VII. Due to anti-German sentiment during World War I, King George V changed the royal house name to Windsor in 1917, distancing the monarchy from its German connections. The name came from Windsor Castle, one of the royal residences, and the House of Windsor continues to this day with Queen Elizabeth II and now King Charles III.",
+    "citationUrl": "https://en.wikipedia.org/wiki/House_of_Saxe-Coburg_and_Gotha",
+    "citationTitle": "Wikipedia: House of Saxe-Coburg and Gotha"
+  }
+]

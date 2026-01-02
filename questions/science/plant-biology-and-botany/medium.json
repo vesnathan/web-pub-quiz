@@ -1,0 +1,342 @@
+[
+  {
+    "id": "1d418f1d-8c27-4feb-8bd0-38df2a4bff7a",
+    "text": "What process allows plants to convert atmospheric nitrogen into ammonia with the help of specialized bacteria?",
+    "options": [
+      "Photosynthesis",
+      "Nitrogen fixation",
+      "Transpiration",
+      "Cellular respiration"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Nitrogen fixation is the process where specialized bacteria convert atmospheric nitrogen gas into ammonia, which plants can then use.",
+    "detailedExplanation": "Nitrogen fixation is a crucial biological process where certain bacteria, often living in root nodules of legumes like peas and beans, convert atmospheric nitrogen (N₂) into ammonia (NH₃) or related compounds. This process is essential because although nitrogen makes up about 78% of the atmosphere, most plants cannot use it in its gaseous form. The enzyme nitrogenase, found in these nitrogen-fixing bacteria, catalyzes this conversion, making nitrogen available for plant growth and protein synthesis.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Nitrogen_fixation",
+    "citationTitle": "Wikipedia: Nitrogen fixation"
+  },
+  {
+    "id": "42fe1d17-74db-42c5-9592-b37149ace654",
+    "text": "Which plant structure is responsible for the majority of water absorption in most flowering plants?",
+    "options": [
+      "Leaves",
+      "Stem",
+      "Root hairs",
+      "Flowers"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Root hairs are tiny extensions of root cells that dramatically increase surface area for water and nutrient absorption.",
+    "detailedExplanation": "Root hairs are microscopic tubular outgrowths of root epidermal cells that extend into the soil. These structures are crucial for plant survival as they increase the root's surface area by up to 1000 times, allowing for maximum water and mineral absorption from the soil. Each root hair is typically 15-17 micrometers in diameter and can extend 80-1500 micrometers into the surrounding soil. They are particularly abundant in the zone of maturation, just behind the root tip, and are constantly being renewed as the root grows.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Root_hair",
+    "citationTitle": "Wikipedia: Root hair"
+  },
+  {
+    "id": "e25ebd75-094e-4506-8f40-a0f3d27fdcd6",
+    "text": "What type of plant tissue is responsible for transporting sugars and other organic compounds from leaves to other parts of the plant?",
+    "options": [
+      "Xylem",
+      "Phloem",
+      "Cambium",
+      "Epidermis"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Phloem is the vascular tissue that transports sugars, amino acids, and other organic compounds throughout the plant.",
+    "detailedExplanation": "Phloem is one of the two main types of vascular tissue in plants, consisting of specialized cells including sieve tube elements and companion cells. Unlike xylem which primarily transports water upward, phloem moves organic compounds bidirectionally throughout the plant. The sugars produced during photosynthesis in the leaves are transported through phloem to growing regions, storage organs, and roots. This process, called translocation, is driven by pressure flow and is essential for distributing energy and building materials to non-photosynthetic parts of the plant.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Phloem",
+    "citationTitle": "Wikipedia: Phloem"
+  },
+  {
+    "id": "308579af-9716-41d6-8356-943674e93f57",
+    "text": "Which specialized leaf structure do cacti and other desert plants use to reduce water loss while still allowing gas exchange?",
+    "options": [
+      "Guard cells",
+      "Stomata",
+      "Spines",
+      "Waxy cuticle"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Stomata are pores that can open and close to regulate gas exchange while minimizing water loss in arid conditions.",
+    "detailedExplanation": "Stomata are microscopic pores found primarily on the undersides of leaves, surrounded by specialized guard cells that can open and close the pore. In desert plants like cacti, stomata have evolved sophisticated mechanisms to minimize water loss while still allowing essential gas exchange for photosynthesis. Many desert plants use CAM (Crassulacean Acid Metabolism) photosynthesis, opening their stomata at night when it's cooler and more humid, then closing them during the hot day to conserve water. The guard cells respond to various environmental signals including light, CO₂ concentration, and water availability.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Stoma",
+    "citationTitle": "Wikipedia: Stoma"
+  },
+  {
+    "id": "d22510ff-e5e7-49ac-a626-f795326e5c38",
+    "text": "What is the scientific term for the process by which plants lose water vapor through their aerial parts, primarily leaves?",
+    "options": [
+      "Respiration",
+      "Transpiration",
+      "Evaporation",
+      "Condensation"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Transpiration is the process by which plants lose water vapor through stomata and other aerial surfaces.",
+    "detailedExplanation": "Transpiration is the process of water movement through a plant and its evaporation from aerial parts, such as leaves, stems and flowers. It serves several crucial functions: cooling the plant, transporting minerals from roots to shoots, maintaining turgor pressure, and enabling mass flow of nutrients. About 97-99% of water absorbed by roots is lost through transpiration. The process is driven by the cohesion-tension theory, where water evaporating from leaf surfaces creates tension that pulls water up from the roots through the xylem. Environmental factors like temperature, humidity, wind, and light intensity all affect transpiration rates.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Transpiration",
+    "citationTitle": "Wikipedia: Transpiration"
+  },
+  {
+    "id": "e32c1b1b-427c-4994-b4b7-4b963304018d",
+    "text": "Which type of plant reproduction involves the fusion of male and female gametes?",
+    "options": [
+      "Vegetative propagation",
+      "Binary fission",
+      "Sexual reproduction",
+      "Budding"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Sexual reproduction in plants involves the fusion of male gametes (from pollen) with female gametes (in ovules) to form seeds.",
+    "detailedExplanation": "Sexual reproduction in plants involves the production and fusion of male and female gametes to create genetically diverse offspring. The male gametes are contained within pollen grains, while female gametes are found in ovules within the flower's ovary. During pollination, pollen is transferred to the stigma, followed by fertilization where the male gamete fuses with the female gamete to form a zygote. This process leads to seed formation and creates genetic variation in offspring, which is crucial for species adaptation and evolution. This contrasts with asexual reproduction methods like vegetative propagation, where offspring are genetically identical to the parent.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Plant_reproduction",
+    "citationTitle": "Wikipedia: Plant reproduction"
+  },
+  {
+    "id": "931f6103-49b6-4836-bbf1-c4fd3b54a227",
+    "text": "What process allows plants to bend toward light sources?",
+    "options": [
+      "Phototropism",
+      "Geotropism",
+      "Thigmotropism",
+      "Hydrotropism"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Phototropism is the growth response of plants toward or away from light stimuli.",
+    "detailedExplanation": "Phototropism is a crucial plant response mechanism controlled by the hormone auxin. When light hits one side of a plant stem, auxin concentrates on the shaded side, causing cells there to elongate more rapidly and bend the plant toward the light source. This adaptation maximizes photosynthesis efficiency by orienting leaves and stems toward available sunlight.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Phototropism",
+    "citationTitle": "Wikipedia: Phototropism"
+  },
+  {
+    "id": "7aca3eb0-e1e0-49bb-953a-f6e0989ff053",
+    "text": "Which plant structure is responsible for transporting water and minerals from roots to leaves?",
+    "options": [
+      "Phloem",
+      "Xylem",
+      "Cambium",
+      "Epidermis"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Xylem tissue transports water and dissolved minerals upward from roots through the plant.",
+    "detailedExplanation": "Xylem is one of two main transport tissues in vascular plants, consisting of hollow, dead cells that form continuous tubes. These vessels use transpiration and root pressure to move water and nutrients from the soil up through the plant. The xylem's thick, lignified cell walls also provide structural support to the plant, while phloem handles the transport of sugars and other organic compounds.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Xylem",
+    "citationTitle": "Wikipedia: Xylem"
+  },
+  {
+    "id": "5a47bbe8-c107-4094-8939-582f57cc135d",
+    "text": "What is the primary pigment responsible for capturing light energy in photosynthesis?",
+    "options": [
+      "Carotene",
+      "Xanthophyll",
+      "Chlorophyll",
+      "Anthocyanin"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Chlorophyll is the green pigment that absorbs light energy for photosynthesis.",
+    "detailedExplanation": "Chlorophyll is the most abundant photosynthetic pigment found in plants, algae, and cyanobacteria. There are several types, with chlorophyll a and chlorophyll b being most common in plants. These molecules absorb red and blue light wavelengths while reflecting green, giving plants their characteristic color. Located within chloroplasts, chlorophyll captures photons and converts light energy into chemical energy during photosynthesis.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Chlorophyll",
+    "citationTitle": "Wikipedia: Chlorophyll"
+  },
+  {
+    "id": "29d1d137-0269-4774-8391-70e7a3932aa0",
+    "text": "Which type of plant reproduction produces genetically identical offspring?",
+    "options": [
+      "Sexual reproduction",
+      "Cross-pollination",
+      "Vegetative propagation",
+      "Fertilization"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Vegetative propagation creates clones through asexual reproduction methods like runners, bulbs, or fragmentation.",
+    "detailedExplanation": "Vegetative propagation is a form of asexual reproduction where new plants develop from vegetative parts like stems, roots, or leaves rather than from seeds. Methods include runners (strawberries), bulbs (tulips), tubers (potatoes), and fragmentation. Since no genetic recombination occurs, offspring are genetically identical to the parent plant. This strategy allows rapid colonization and reproduction without requiring pollination or seed dispersal.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Vegetative_reproduction",
+    "citationTitle": "Wikipedia: Vegetative reproduction"
+  },
+  {
+    "id": "6e0c95fd-36bb-4504-8f4c-ef3c818cb2ef",
+    "text": "What specialized plant cells control the opening and closing of stomata?",
+    "options": [
+      "Parenchyma cells",
+      "Guard cells",
+      "Sclerenchyma cells",
+      "Collenchyma cells"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Guard cells are kidney-shaped cells that surround stomatal pores and regulate gas exchange.",
+    "detailedExplanation": "Guard cells are specialized epidermal cells that form pairs around stomatal openings on leaf surfaces. They contain chloroplasts and can change shape by altering their water content through osmotic pressure. When guard cells absorb water and swell, they create an opening for gas exchange and transpiration. When they lose water and shrink, the stomata close to conserve water. This mechanism is crucial for balancing photosynthesis, respiration, and water conservation.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Guard_cell",
+    "citationTitle": "Wikipedia: Guard cell"
+  },
+  {
+    "id": "a35e5f27-ea84-4bf9-988c-2eb6b9181b0a",
+    "text": "Which plant hormone is primarily responsible for promoting cell elongation and stem growth?",
+    "options": [
+      "Cytokinin",
+      "Abscisic acid",
+      "Auxin",
+      "Gibberellin"
+    ],
+    "correctIndex": 3,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Gibberellin promotes stem elongation, seed germination, and flowering in plants.",
+    "detailedExplanation": "Gibberellins are a group of plant hormones that regulate various growth processes, most notably stem elongation and internode growth. They work by promoting cell division and elongation, particularly in stem tissue. Gibberellins also play crucial roles in seed germination by activating enzymes that break down stored nutrients, and they can trigger flowering in some plant species. Dwarf plant varieties often have mutations affecting gibberellin production or sensitivity.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Gibberellin",
+    "citationTitle": "Wikipedia: Gibberellin"
+  },
+  {
+    "id": "76f66a86-78fa-49c7-8cea-765e8b5e0ae5",
+    "text": "Which plant family includes roses, apples, and strawberries?",
+    "options": [
+      "Brassicaceae",
+      "Rosaceae",
+      "Solanaceae",
+      "Fabaceae"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Rosaceae, commonly known as the rose family, includes many economically important fruits and ornamental plants.",
+    "detailedExplanation": "The Rosaceae family is one of the most economically important plant families, containing over 4,800 species across more than 100 genera. Members typically have five-petaled flowers and include major fruit crops like apples, pears, cherries, plums, strawberries, and raspberries, as well as ornamental plants like roses and flowering cherry trees. The family is characterized by similar flower structures, often with numerous stamens and varying fruit types from drupes to pomes to aggregate fruits.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Rosaceae",
+    "citationTitle": "Wikipedia: Rosaceae"
+  },
+  {
+    "id": "7d424cdf-da1d-4c96-b734-46f90ba7b953",
+    "text": "What is the scientific term for plants that complete their entire life cycle in one growing season?",
+    "options": [
+      "Perennials",
+      "Biennials",
+      "Annuals",
+      "Ephemerals"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Annual plants complete their entire life cycle from germination to seed production in one year.",
+    "detailedExplanation": "Annual plants are those that complete their entire life cycle—from germination through growth, flowering, seed production, and death—within a single growing season, typically one year. Common examples include marigolds, beans, and wheat. This contrasts with perennials (which live for multiple years) and biennials (which complete their life cycle over two growing seasons).",
+    "citationUrl": "https://en.wikipedia.org/wiki/Annual_plant",
+    "citationTitle": "Wikipedia: Annual plant"
+  },
+  {
+    "id": "13d21eb0-b2bc-4bb4-a06b-bfeac796a9a1",
+    "text": "Which plant structure is responsible for detecting gravity and helping roots grow downward?",
+    "options": [
+      "Stomata",
+      "Statoliths",
+      "Chloroplasts",
+      "Vacuoles"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Statoliths are dense starch granules that settle in root tip cells, acting as gravity sensors to guide downward root growth.",
+    "detailedExplanation": "Statoliths are specialized dense particles, typically starch granules, found in plant cells that function as gravity sensors in a process called gravitropism. These structures settle to the bottom of cells in response to gravity, triggering biochemical signals that cause roots to grow downward (positive gravitropism) and shoots to grow upward (negative gravitropism). This mechanism ensures that regardless of how a seed lands, the roots will grow toward the soil and the shoot will grow toward the light.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Gravitropism",
+    "citationTitle": "Wikipedia: Gravitropism"
+  },
+  {
+    "id": "9003905a-e677-4bb0-87ae-8750a1942cac",
+    "text": "What is the primary function of the waxy cuticle found on plant leaves?",
+    "options": [
+      "Photosynthesis",
+      "Water retention",
+      "Gas exchange",
+      "Nutrient absorption"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "The waxy cuticle is a waterproof barrier that prevents excessive water loss from plant surfaces through transpiration.",
+    "detailedExplanation": "The plant cuticle is a waxy, water-repellent layer that covers the aerial surfaces of most terrestrial plants, particularly leaves and stems. Composed primarily of cutin (a waxy polymer) and various waxes, this protective barrier serves as the plant's first line of defense against water loss. The cuticle significantly reduces transpiration rates, allowing plants to conserve water in terrestrial environments. It also provides protection against UV radiation, pathogens, and mechanical damage, making it crucial for plant survival in diverse environmental conditions.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Plant_cuticle",
+    "citationTitle": "Wikipedia: Plant cuticle"
+  },
+  {
+    "id": "b612825f-781c-4429-b4f2-8f96e3e1fd41",
+    "text": "What is the name for the waxy, waterproof layer that covers the leaves and stems of most plants?",
+    "options": [
+      "Epidermis",
+      "Cuticle",
+      "Cortex",
+      "Palisade"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "The cuticle is a waxy layer that prevents water loss from plant surfaces.",
+    "detailedExplanation": "The cuticle is a protective waxy coating found on the aerial epidermis of all land plants. It consists primarily of cutin, a waxy polymer, and serves as the primary barrier to water loss through transpiration. This adaptation was crucial for plants' transition from aquatic to terrestrial environments, allowing them to retain moisture while still allowing gas exchange through specialized structures called stomata.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Plant_cuticle",
+    "citationTitle": "Wikipedia: Plant cuticle"
+  },
+  {
+    "id": "7b5d8a6c-15f0-4065-bc55-05780caf0f00",
+    "text": "Which type of plant tissue is responsible for transporting water and minerals from the roots to the rest of the plant?",
+    "options": [
+      "Phloem",
+      "Xylem",
+      "Cambium",
+      "Parenchyma"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Xylem tissue transports water and dissolved minerals upward from roots through the plant.",
+    "detailedExplanation": "Xylem is one of the two types of transport tissue in vascular plants, composed of specialized cells including tracheids and vessel elements. These cells are dead at maturity and form hollow tubes that create a continuous pathway for water transport from roots to leaves. The movement occurs through transpiration pull and root pressure, with water molecules cohering together as they move upward against gravity.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Xylem",
+    "citationTitle": "Wikipedia: Xylem"
+  },
+  {
+    "id": "18624aab-b415-4b77-8e79-5572e04cb669",
+    "text": "In which part of the plant cell does photosynthesis primarily occur?",
+    "options": [
+      "Mitochondria",
+      "Nucleus",
+      "Chloroplasts",
+      "Vacuole"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Chloroplasts contain chlorophyll and are the primary sites of photosynthesis in plant cells.",
+    "detailedExplanation": "Chloroplasts are specialized organelles found in plant cells and algae that contain chlorophyll, the green pigment essential for photosynthesis. Within chloroplasts, the light-dependent reactions occur in the thylakoid membranes, while the light-independent reactions (Calvin cycle) take place in the stroma. These organelles are believed to have originated from ancient cyanobacteria through endosymbiosis, and they retain their own DNA and ribosomes.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Chloroplast",
+    "citationTitle": "Wikipedia: Chloroplast"
+  },
+  {
+    "id": "f4110ef5-59da-43da-8fbc-0dcf338fa8dd",
+    "text": "Which plant hormone is primarily responsible for phototropism, the bending of plants toward light sources?",
+    "options": [
+      "Auxin",
+      "Gibberellin",
+      "Cytokinin",
+      "Abscisic acid"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Auxin is the plant hormone that accumulates on the shaded side of stems, causing cells to elongate and the plant to bend toward light.",
+    "detailedExplanation": "Auxin, discovered through experiments with oat seedlings, is the key hormone controlling phototropism. When light hits a plant from one direction, auxin migrates to the darker side of the stem. This uneven distribution causes cells on the shaded side to elongate more than those on the lit side, creating the characteristic bending toward the light source. This response helps plants maximize their light exposure for photosynthesis and was one of the first plant hormones to be discovered and understood.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Auxin",
+    "citationTitle": "Wikipedia: Auxin"
+  }
+]

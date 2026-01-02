@@ -1,0 +1,342 @@
+[
+  {
+    "id": "5c05d8c0-e326-4d26-950b-54348f5ae881",
+    "text": "Which ancient Greek mathematician is credited with creating the first known proof that there are infinitely many prime numbers?",
+    "options": [
+      "Pythagoras",
+      "Euclid",
+      "Archimedes",
+      "Apollonius"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "hard",
+    "explanation": "Euclid proved there are infinitely many primes in his Elements around 300 BCE.",
+    "detailedExplanation": "Euclid of Alexandria, in his mathematical treatise 'Elements' (circa 300 BCE), provided the first known proof that there are infinitely many prime numbers. His elegant proof by contradiction assumes there are only finitely many primes, multiplies them together and adds 1, showing this new number must have a prime factor not in the original list. This fundamental theorem remains one of the most celebrated proofs in mathematics.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Euclid%27s_theorem",
+    "citationTitle": "Wikipedia: Euclid's theorem"
+  },
+  {
+    "id": "c23b7bd8-b518-4d79-ac4d-6246d9c9bce4",
+    "text": "What was the name of the military formation where Spartan warriors would lock shields and advance as a unified block?",
+    "options": [
+      "Testudo",
+      "Phalanx",
+      "Wedge",
+      "Echelon"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "hard",
+    "explanation": "The phalanx was the dominant Greek military formation using overlapping shields and long spears.",
+    "detailedExplanation": "The phalanx was a rectangular mass military formation consisting of heavily armed infantry (hoplites) standing shoulder to shoulder in ranks. Each warrior carried a large round shield (hoplon) and a long spear (doru), creating an impenetrable wall of bronze and iron. The Spartans perfected this formation, making it nearly invincible in direct confrontation. The phalanx dominated Greek warfare from the 7th century BCE until eventually being superseded by Roman tactics.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Phalanx",
+    "citationTitle": "Wikipedia: Phalanx"
+  },
+  {
+    "id": "3080a94c-43dc-49d5-b248-fea27a7f95b6",
+    "text": "Which ancient Greek colony in southern Italy was known as 'Magna Graecia' and became the center of Pythagorean philosophy?",
+    "options": [
+      "Syracuse",
+      "Tarentum",
+      "Croton",
+      "Cumae"
+    ],
+    "correctIndex": 2,
+    "category": "history",
+    "difficulty": "hard",
+    "explanation": "Croton was where Pythagoras established his philosophical school and mathematical theories.",
+    "detailedExplanation": "Croton (modern Crotone) was a prosperous Greek colony in Calabria, southern Italy, founded around 710 BCE. It became the center of Pythagorean thought when Pythagoras moved there around 530 BCE and established his philosophical and mathematical school. The city was known for its wealth, military prowess, and intellectual achievements. Croton produced numerous Olympic victors and was considered one of the most important cities in Magna Graecia, the collective name for Greek colonies in southern Italy.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Crotone",
+    "citationTitle": "Wikipedia: Crotone"
+  },
+  {
+    "id": "09f3aedd-5263-4820-8a5e-8e18005ff13d",
+    "text": "What was the name of the sacred truce declared during the Olympic Games that allowed safe passage for athletes across Greek territories?",
+    "options": [
+      "Spondai",
+      "Ekecheiria",
+      "Hieromenia",
+      "Amphictyony"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "hard",
+    "explanation": "Ekecheiria was the sacred Olympic truce that suspended hostilities during the games.",
+    "detailedExplanation": "Ekecheiria, meaning 'holding of hands,' was the sacred truce proclaimed before and during the Olympic Games. Established in the 9th century BCE, it lasted initially one month but eventually extended to three months to allow athletes, officials, and spectators safe passage to and from Olympia. During this period, armies were forbidden from entering Elis or threatening the games, and legal disputes were suspended. Violating the ekecheiria resulted in heavy fines and exclusion from the games.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Olympic_Truce",
+    "citationTitle": "Wikipedia: Olympic Truce"
+  },
+  {
+    "id": "385775b4-36f0-454b-8c98-15136a8d8be4",
+    "text": "Which pre-Socratic philosopher proposed that all matter was composed of tiny, indivisible particles called 'atomos'?",
+    "options": [
+      "Heraclitus",
+      "Democritus",
+      "Empedocles",
+      "Anaxagoras"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "hard",
+    "explanation": "Democritus developed the first atomic theory, proposing indivisible particles as the basis of all matter.",
+    "detailedExplanation": "Democritus of Abdera (c. 460-370 BCE) developed the first atomic theory in collaboration with his teacher Leucippus. He proposed that all matter consists of tiny, indivisible particles called 'atomos' (meaning 'uncuttable') moving in void space. Different combinations and arrangements of these atoms created different materials and phenomena. This revolutionary idea, developed purely through philosophical reasoning without experimental evidence, remarkably anticipated modern atomic theory by over two millennia.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Democritus",
+    "citationTitle": "Wikipedia: Democritus"
+  },
+  {
+    "id": "a2067e6d-7011-42ba-b930-90389c8159ae",
+    "text": "What was the term for the Greek practice of sending out colonists to establish new cities while maintaining ties to their mother city?",
+    "options": [
+      "Metropolis",
+      "Apoikia",
+      "Synoecism",
+      "Cleruchy"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "hard",
+    "explanation": "Apoikia referred to independent Greek colonies that maintained cultural and religious ties to their founding cities.",
+    "detailedExplanation": "Apoikia (meaning 'home away from home') was the Greek system of establishing independent colonies from the 8th to 6th centuries BCE. Unlike later Roman colonies, apoikiai were autonomous city-states that maintained religious and cultural connections with their mother cities (metropoleis) but were politically independent. This colonization movement spread Greek culture throughout the Mediterranean and Black Sea regions, establishing cities like Marseilles, Naples, and Byzantium, fundamentally shaping the ancient world's cultural landscape.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Greek_colonisation",
+    "citationTitle": "Wikipedia: Greek colonisation"
+  },
+  {
+    "id": "2e594f94-38ea-4232-81e2-0d37b209487f",
+    "text": "Which Athenian statesman introduced the practice of ostracism as a way to prevent tyranny?",
+    "options": [
+      "Solon",
+      "Cleisthenes",
+      "Pericles",
+      "Ephialtes"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "hard",
+    "explanation": "Cleisthenes instituted ostracism around 508 BCE as part of his democratic reforms.",
+    "detailedExplanation": "Cleisthenes, known as the 'father of democracy,' introduced ostracism around 508 BCE as part of his constitutional reforms in Athens. This procedure allowed citizens to vote annually to exile a prominent politician for ten years without trial or explanation, purely as a preventive measure against potential tyranny. Citizens wrote names on pottery shards (ostraka), and if 6,000 votes were cast, the person with the most votes was exiled. This innovative democratic safeguard helped protect Athenian democracy from authoritarian threats.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Ostracism",
+    "citationTitle": "Wikipedia: Ostracism"
+  },
+  {
+    "id": "9a80def4-19e5-464b-8553-f6c047e78b0a",
+    "text": "What was the name of the elite Theban military unit consisting of 150 pairs of male lovers that dominated Greek warfare in the 4th century BCE?",
+    "options": [
+      "Sacred Band",
+      "Immortals",
+      "Hetairoi",
+      "Agema"
+    ],
+    "correctIndex": 0,
+    "category": "history",
+    "difficulty": "hard",
+    "explanation": "The Sacred Band of Thebes was an elite unit of 300 warriors organized in couples, believing love would inspire greater courage.",
+    "detailedExplanation": "The Sacred Band of Thebes was an elite military unit of 300 hoplites, traditionally consisting of 150 pairs of male lovers (erastes and eromenos). Founded around 378 BCE by Gorgidas and later commanded by Pelopidas, the unit was based on the belief that lovers would fight more fiercely to protect each other and avoid shame. They remained undefeated for over 30 years, contributing to Theban hegemony and defeating Spartan forces at Leuctra (371 BCE) before finally being annihilated by Philip II of Macedon at Chaeronea (338 BCE).",
+    "citationUrl": "https://en.wikipedia.org/wiki/Sacred_Band_of_Thebes",
+    "citationTitle": "Wikipedia: Sacred Band of Thebes"
+  },
+  {
+    "id": "3bf2803d-8f2c-4730-a20d-297d61ed3076",
+    "text": "Which ancient Greek philosopher was executed by hemlock poisoning in 399 BCE for allegedly corrupting the youth and impiety?",
+    "options": [
+      "Plato",
+      "Aristotle",
+      "Socrates",
+      "Diogenes"
+    ],
+    "correctIndex": 2,
+    "category": "history",
+    "difficulty": "hard",
+    "explanation": "Socrates was executed by drinking hemlock in 399 BCE after being found guilty of corrupting youth and impiety.",
+    "detailedExplanation": "Socrates, the classical Greek philosopher, was tried and executed in Athens in 399 BCE. He was charged with corrupting the minds of the youth and impiety (not believing in the gods of the state). Despite opportunities to escape, Socrates chose to accept his death sentence and drank the poison hemlock, as famously recorded by his student Plato in the dialogue 'Phaedo'.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Trial_of_Socrates",
+    "citationTitle": "Wikipedia: Trial of Socrates"
+  },
+  {
+    "id": "687060dd-3a78-47a6-8f0a-33aeb127bef2",
+    "text": "What was the name of the elite 300-man royal guard of ancient Thebes, composed entirely of male lovers?",
+    "options": [
+      "Sacred Band",
+      "Immortals",
+      "Hippeis",
+      "Agema"
+    ],
+    "correctIndex": 0,
+    "category": "history",
+    "difficulty": "hard",
+    "explanation": "The Sacred Band of Thebes was an elite military unit of 150 pairs of male lovers who fought together.",
+    "detailedExplanation": "The Sacred Band of Thebes was an elite military unit formed around 378 BCE, consisting of 150 pairs of male lovers (300 men total). The theory was that lovers would fight more fiercely to protect each other and would rather die than show cowardice before their beloved. This unit was instrumental in breaking Spartan military dominance and remained undefeated until the Battle of Chaeronea in 338 BCE against Philip II of Macedon.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Sacred_Band_of_Thebes",
+    "citationTitle": "Wikipedia: Sacred Band of Thebes"
+  },
+  {
+    "id": "b4a91606-235e-498b-9855-c1782fca648e",
+    "text": "Which ancient Greek mathematician is credited with the first known proof that the square root of 2 is irrational?",
+    "options": [
+      "Euclid",
+      "Pythagoras",
+      "Hippasus",
+      "Thales"
+    ],
+    "correctIndex": 2,
+    "category": "history",
+    "difficulty": "hard",
+    "explanation": "Hippasus of Metapontum is traditionally credited with discovering the irrationality of the square root of 2.",
+    "detailedExplanation": "Hippasus of Metapontum, a 5th century BCE Pythagorean philosopher and mathematician, is traditionally credited with the first proof that the square root of 2 is irrational. This discovery reportedly caused a crisis in Pythagorean mathematics, as it contradicted their belief that all numbers could be expressed as ratios of integers. Legend suggests that Hippasus was drowned at sea by fellow Pythagoreans for revealing this mathematical 'secret' that undermined their worldview.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Hippasus",
+    "citationTitle": "Wikipedia: Hippasus"
+  },
+  {
+    "id": "f5ba10be-3d31-48dc-8853-15e6c9dc7829",
+    "text": "Which battle in 197 BCE marked the decisive Roman victory over the Macedonian phalanx and effectively ended Macedonian power?",
+    "options": [
+      "Battle of Pydna",
+      "Battle of Cynoscephalae",
+      "Battle of Magnesia",
+      "Battle of Sellasia"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "hard",
+    "explanation": "The Battle of Cynoscephalae in 197 BCE saw Roman legions defeat the Macedonian phalanx, marking the end of Macedonian dominance.",
+    "detailedExplanation": "The Battle of Cynoscephalae, fought in 197 BCE in Thessaly, was a decisive engagement between the Roman Republic and the Macedonian Kingdom under Philip V. The battle demonstrated the tactical superiority of the flexible Roman manipular system over the rigid Macedonian phalanx on broken terrain. The Roman victory effectively ended the Second Macedonian War and marked the beginning of Roman dominance in the eastern Mediterranean, relegating Macedonia to a subordinate role.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Battle_of_Cynoscephalae",
+    "citationTitle": "Wikipedia: Battle of Cynoscephalae"
+  },
+  {
+    "id": "8fd9bff9-4a26-4048-9ac0-9bf88edee28b",
+    "text": "What was the name of the mysterious religious cult centered at Eleusis that promised initiates a blessed afterlife?",
+    "options": [
+      "Dionysiac Mysteries",
+      "Eleusinian Mysteries",
+      "Orphic Mysteries",
+      "Cabeiri Mysteries"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "hard",
+    "explanation": "The Eleusinian Mysteries were secret religious rites held at Eleusis, promising initiates a blessed afterlife through the story of Demeter and Persephone.",
+    "detailedExplanation": "The Eleusinian Mysteries were initiation ceremonies held every year for the cult of Demeter and Persephone based at Eleusis in ancient Greece. These mysteries represented the myth of the abduction of Persephone from her mother Demeter by the king of the underworld, Hades, in a cycle with three phases: the descent, the search, and the ascent. The mysteries promised initiates a blessed afterlife and were so secretive that their exact nature remains unknown today, as initiates faced death for revealing the secrets.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Eleusinian_Mysteries",
+    "citationTitle": "Wikipedia: Eleusinian Mysteries"
+  },
+  {
+    "id": "0c1b9b28-ad82-44b8-b87c-a10cd128dd68",
+    "text": "What was the name of the Athenian general who won the Battle of Marathon but was later ostracized and fled to Persia?",
+    "options": [
+      "Themistocles",
+      "Miltiades",
+      "Cimon",
+      "Alcibiades"
+    ],
+    "correctIndex": 0,
+    "category": "history",
+    "difficulty": "hard",
+    "explanation": "Themistocles was the Athenian general who masterminded the victory at Marathon and later Salamis, but was eventually ostracized and fled to Persia.",
+    "detailedExplanation": "Themistocles was an Athenian politician and general who played a crucial role in the Greek victories during the Persian Wars. While Miltiades led at Marathon, Themistocles was the architect of the naval strategy that won at Salamis in 480 BCE. Despite his military successes, he was ostracized from Athens around 471 BCE due to political conflicts and suspicions of his ambitions. Ironically, he fled to the Persian Empire, where King Artaxerxes I gave him refuge and appointed him governor of Magnesia, where he lived until his death.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Themistocles",
+    "citationTitle": "Wikipedia: Themistocles"
+  },
+  {
+    "id": "be95141b-50e3-4508-81ac-72e50d274118",
+    "text": "Which pre-Socratic philosopher proposed that 'No man ever steps in the same river twice' and believed fire was the fundamental element?",
+    "options": [
+      "Anaximander",
+      "Heraclitus",
+      "Empedocles",
+      "Parmenides"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "hard",
+    "explanation": "Heraclitus of Ephesus taught that change is the fundamental essence of the universe and identified fire as the primary element.",
+    "detailedExplanation": "Heraclitus of Ephesus (c. 535-475 BCE) was a pre-Socratic philosopher famous for his doctrine of change being central to the universe. His famous saying 'No man ever steps in the same river twice' (though the exact quote is debated) illustrates his belief that everything is in constant flux. He identified fire as the fundamental element that transforms into all other things in an eternal cycle. Heraclitus believed in the unity of opposites and that conflict and change are necessary for harmony, making him one of the most influential early Greek thinkers.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Heraclitus",
+    "citationTitle": "Wikipedia: Heraclitus"
+  },
+  {
+    "id": "1486199c-7d18-4f2d-833a-27504e59b7e3",
+    "text": "Which ancient Greek philosopher was executed by being forced to drink hemlock in 399 BCE after being found guilty of corrupting the youth and impiety?",
+    "options": [
+      "Plato",
+      "Aristotle",
+      "Socrates",
+      "Democritus"
+    ],
+    "correctIndex": 2,
+    "category": "history",
+    "difficulty": "hard",
+    "explanation": "Socrates was executed by drinking hemlock in 399 BCE after his trial in Athens.",
+    "detailedExplanation": "Socrates, the classical Greek philosopher, was tried and executed in 399 BCE on charges of corrupting the youth of Athens and introducing new gods (impiety). Despite having opportunities to escape or propose alternative punishments, Socrates accepted the death sentence and drank the poison hemlock. His trial and death are famously documented by his student Plato in dialogues such as the Apology and Phaedo, making it one of the most well-documented executions in ancient history.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Trial_of_Socrates",
+    "citationTitle": "Wikipedia: Trial of Socrates"
+  },
+  {
+    "id": "2522f838-8bb5-4c53-9f2e-7be6df491020",
+    "text": "What was the name of the elite 300-man bodyguard unit that served the Spartan kings and fought at the Battle of Thermopylae in 480 BCE?",
+    "options": [
+      "The Sacred Band",
+      "The Hippeis",
+      "The Immortals",
+      "The Peltasts"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "hard",
+    "explanation": "The Hippeis were the elite 300-man royal bodyguard of Sparta who fought at Thermopylae under King Leonidas.",
+    "detailedExplanation": "The Hippeis (literally 'horsemen' though they fought on foot) were an elite unit of 300 Spartan warriors who served as the royal bodyguard. They were selected from the youngest and strongest Spartans and were considered the cream of Spartan military society. These 300 warriors accompanied King Leonidas I at the famous Battle of Thermopylae in 480 BCE, where they made their legendary last stand against the Persian army of Xerxes I. The Sacred Band was a Theban unit, the Immortals were Persian, and Peltasts were light infantry from Thrace.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Hippeis",
+    "citationTitle": "Wikipedia: Hippeis"
+  },
+  {
+    "id": "bf812ceb-c07f-4f90-b0fb-96603539f4a5",
+    "text": "Which ancient Greek mathematician and inventor from Syracuse was allegedly killed by a Roman soldier during the siege of Syracuse in 212 BCE while working on a mathematical problem?",
+    "options": [
+      "Euclid",
+      "Pythagoras",
+      "Archimedes",
+      "Thales"
+    ],
+    "correctIndex": 2,
+    "category": "history",
+    "difficulty": "hard",
+    "explanation": "Archimedes of Syracuse was killed by a Roman soldier in 212 BCE during the Roman siege of his city.",
+    "detailedExplanation": "Archimedes of Syracuse (c. 287-212 BCE) was one of the greatest mathematicians and inventors of antiquity, known for his work on hydrostatics, mechanics, and geometry. During the Second Punic War, Syracuse was besieged by Roman forces led by Marcus Claudius Marcellus. According to Plutarch's account, when the city finally fell in 212 BCE, Archimedes was found by a Roman soldier while absorbed in studying a geometric diagram drawn in the sand. Despite Marcellus's orders to spare the famous mathematician, the soldier killed Archimedes, either because he didn't recognize him or because Archimedes refused to come with him immediately.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Archimedes",
+    "citationTitle": "Wikipedia: Archimedes"
+  },
+  {
+    "id": "34ba5b32-a191-4d2e-b051-d31b56d7d8ec",
+    "text": "What was the name of the alliance formed by Athens in 478 BCE to continue fighting the Persian Empire after the Persian Wars, which later became the foundation of the Athenian Empire?",
+    "options": [
+      "The Peloponnesian League",
+      "The Delian League",
+      "The Hellenic League",
+      "The Amphictyonic League"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "hard",
+    "explanation": "The Delian League was the Athenian-led alliance formed in 478 BCE to defend against Persia, later becoming the Athenian Empire.",
+    "detailedExplanation": "The Delian League was established in 478 BCE as a confederation of Greek city-states led by Athens to continue the fight against the Persian Empire following the Persian Wars. Named after the island of Delos, where the alliance's treasury was initially located, the league originally consisted of around 150-330 member states who contributed either ships or tribute (money) for mutual defense. Over time, Athens increasingly dominated the league, eventually transforming it into the Athenian Empire by moving the treasury to Athens and using the funds for Athenian projects like the Parthenon. This transformation was one of the factors that led to tensions with Sparta and ultimately the Peloponnesian War.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Delian_League",
+    "citationTitle": "Wikipedia: Delian League"
+  },
+  {
+    "id": "1879b69b-59fc-4ce8-ad63-33e2ad3a73a8",
+    "text": "Which Athenian statesman introduced the concept of ostracism as a political safeguard against tyranny?",
+    "options": [
+      "Solon",
+      "Cleisthenes",
+      "Pericles",
+      "Ephialtes"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "hard",
+    "explanation": "Cleisthenes introduced ostracism around 508-507 BCE as part of his democratic reforms.",
+    "detailedExplanation": "Cleisthenes, known as the 'father of democracy,' introduced ostracism as a constitutional procedure to prevent any single citizen from becoming too powerful and potentially establishing a tyranny. This process allowed citizens to vote once a year to exile a prominent politician or citizen for ten years without trial or explanation. The practice required at least 6,000 votes to be valid, and the person with the most votes would be banished. Notable figures like Themistocles, Aristides, and even Pericles' father Xanthippus were ostracized during Athens' democratic period.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Cleisthenes",
+    "citationTitle": "Wikipedia: Cleisthenes"
+  }
+]

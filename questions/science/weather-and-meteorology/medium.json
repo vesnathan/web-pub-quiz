@@ -1,0 +1,342 @@
+[
+  {
+    "id": "4f41e20d-047e-4bcd-ae6a-6abc8038e004",
+    "text": "What gas makes up approximately 78% of Earth's atmosphere?",
+    "options": [
+      "Oxygen",
+      "Nitrogen",
+      "Carbon dioxide",
+      "Argon"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Nitrogen (N2) comprises about 78% of Earth's atmosphere by volume.",
+    "detailedExplanation": "Earth's atmosphere is predominantly composed of nitrogen gas (N2), which makes up approximately 78% of the atmosphere by volume. Oxygen accounts for about 21%, while argon comprises nearly 1%, and carbon dioxide and other gases make up the remaining fraction. Nitrogen is relatively inert under normal conditions, which helps maintain atmospheric stability and prevents rapid oxidation of materials on Earth's surface.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Atmosphere_of_Earth",
+    "citationTitle": "Wikipedia: Atmosphere of Earth"
+  },
+  {
+    "id": "a96f579d-7d8a-4f90-bb4b-882d5def80f7",
+    "text": "What type of volcanic eruption is characterized by explosive ejection of pyroclastic material?",
+    "options": [
+      "Effusive",
+      "Plinian",
+      "Fissure",
+      "Shield"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Plinian eruptions are highly explosive volcanic eruptions that violently eject gas, ash, and rock high into the atmosphere.",
+    "detailedExplanation": "Plinian eruptions are named after Pliny the Younger, who described the 79 AD eruption of Mount Vesuvius that destroyed Pompeii. These eruptions are characterized by their explosive nature, shooting columns of gas, ash, and volcanic material (pyroclasts) high into the atmosphere—sometimes reaching heights of 45 kilometers. They typically occur when gas-rich, viscous magma creates high pressure that is suddenly released. Famous examples include Mount St. Helens (1980) and Krakatoa (1883). These eruptions can have global climate impacts due to the ash and gases injected into the stratosphere.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Plinian_eruption",
+    "citationTitle": "Wikipedia: Plinian eruption"
+  },
+  {
+    "id": "2ba14632-ac41-460a-b00a-3239670048f3",
+    "text": "What is the name for the rotating column of air that extends from a thunderstorm cloud to the ground?",
+    "options": [
+      "Cyclone",
+      "Tornado",
+      "Hurricane",
+      "Typhoon"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "A tornado is a violently rotating column of air extending from a thunderstorm to the ground.",
+    "detailedExplanation": "Tornadoes are among the most violent weather phenomena on Earth, characterized by a rotating column of air that extends from a cumulonimbus cloud to the ground. They form when warm, moist air meets cool, dry air under specific atmospheric conditions, creating wind shear that causes rotation. While cyclones, hurricanes, and typhoons are all large-scale rotating storm systems, only tornadoes specifically describe the narrow, vertical rotating column extending from cloud to ground.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Tornado",
+    "citationTitle": "Wikipedia: Tornado"
+  },
+  {
+    "id": "76c3087a-0139-4019-b01f-554b398b43c3",
+    "text": "At what altitude does the troposphere typically end and the stratosphere begin?",
+    "options": [
+      "5-8 kilometers",
+      "8-18 kilometers",
+      "20-25 kilometers",
+      "30-35 kilometers"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "The tropopause, marking the boundary between troposphere and stratosphere, occurs at 8-18 kilometers altitude.",
+    "detailedExplanation": "The tropopause is the atmospheric boundary layer between the troposphere and stratosphere, typically occurring at altitudes of 8-18 kilometers (5-11 miles) above sea level. This boundary varies with latitude and season - it's higher at the equator (up to 18 km) and lower at the poles (around 8 km). The troposphere contains about 75% of the atmosphere's mass and is where most weather occurs, while the stratosphere above contains the ozone layer and has a temperature inversion where it gets warmer with altitude.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Tropopause",
+    "citationTitle": "Wikipedia: Tropopause"
+  },
+  {
+    "id": "869889dd-1306-4bf0-ab89-0937c60f06a3",
+    "text": "What does a barometer primarily measure?",
+    "options": [
+      "Wind speed",
+      "Temperature",
+      "Atmospheric pressure",
+      "Humidity"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "A barometer measures atmospheric pressure, which is crucial for weather forecasting.",
+    "detailedExplanation": "A barometer is an instrument used to measure atmospheric pressure, also known as barometric pressure. Atmospheric pressure is the force exerted by the weight of air in the atmosphere above any given point. Changes in atmospheric pressure are fundamental to weather patterns - falling pressure often indicates approaching storms or unsettled weather, while rising pressure typically signals fair weather. There are two main types: mercury barometers and aneroid barometers, both measuring the same physical property but using different mechanisms.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Barometer",
+    "citationTitle": "Wikipedia: Barometer"
+  },
+  {
+    "id": "b7a7f7e1-1d7b-40f4-b608-91755523871f",
+    "text": "What is the Coriolis effect's primary influence on weather patterns?",
+    "options": [
+      "It creates temperature differences",
+      "It causes air masses to rotate",
+      "It controls precipitation amounts",
+      "It determines cloud formation"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "The Coriolis effect causes moving air masses to curve and rotate due to Earth's rotation.",
+    "detailedExplanation": "The Coriolis effect is a phenomenon caused by Earth's rotation that deflects moving objects, including air masses, to the right in the Northern Hemisphere and to the left in the Southern Hemisphere. This effect is crucial in meteorology as it influences the rotation of weather systems like hurricanes, cyclones, and high/low pressure systems. It also affects global wind patterns, ocean currents, and the formation of large-scale weather patterns. Without the Coriolis effect, air would flow directly from high to low pressure areas, but instead it curves, creating the rotating weather systems we observe.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Coriolis_force",
+    "citationTitle": "Wikipedia: Coriolis force"
+  },
+  {
+    "id": "fc8ade4a-3a07-4ec5-be55-d7177996926a",
+    "text": "What is the term for the temperature at which air becomes saturated and water vapor begins to condense?",
+    "options": [
+      "Freezing point",
+      "Boiling point",
+      "Dew point",
+      "Flash point"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "The dew point is the temperature at which air becomes saturated and water vapor condenses into droplets.",
+    "detailedExplanation": "The dew point is a crucial meteorological measurement that indicates the temperature to which air must be cooled for it to become saturated with water vapor. When air reaches its dew point temperature, water vapor begins to condense into tiny droplets, forming dew, fog, or clouds. The dew point is directly related to humidity - higher dew points indicate more moisture in the air. It's also important for comfort levels: dew points above 60°F (15.5°C) feel humid, while those above 70°F (21°C) feel oppressive to most people.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Dew_point",
+    "citationTitle": "Wikipedia: Dew point"
+  },
+  {
+    "id": "53f4f21f-a800-4c8e-a89a-734d1de323c7",
+    "text": "What wind system brings seasonal monsoon rains to South Asia?",
+    "options": [
+      "Trade winds",
+      "Westerlies",
+      "Southwest monsoon",
+      "Polar easterlies"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "The southwest monsoon brings heavy seasonal rainfall to South Asia during summer months.",
+    "detailedExplanation": "The southwest monsoon is a seasonal wind system that brings crucial rainfall to South Asia, including India, Bangladesh, and surrounding regions, typically from June to September. This weather pattern is driven by the differential heating of land and ocean - during summer, the Asian landmass heats up faster than the Indian Ocean, creating a low-pressure system that draws moisture-laden winds from the southwest. These winds bring heavy rainfall that is essential for agriculture and water resources in the region, supporting over a billion people's livelihoods.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Monsoon_of_South_Asia",
+    "citationTitle": "Wikipedia: Monsoon of South Asia"
+  },
+  {
+    "id": "42f5e121-2bbe-4690-a6c2-098f35eced46",
+    "text": "On the Beaufort scale, what wind speed range defines a 'gale'?",
+    "options": [
+      "17-21 mph",
+      "32-38 mph",
+      "47-54 mph",
+      "62-74 mph"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "A gale on the Beaufort scale is defined as winds of 47-54 mph (Force 8).",
+    "detailedExplanation": "The Beaufort wind force scale is a standardized system for measuring wind speed based on observed conditions at sea or on land, developed by Admiral Sir Francis Beaufort in 1805. A 'gale' corresponds to Force 8 on this scale, with sustained winds of 39-46 knots (45-54 mph or 72-87 km/h). At gale force, you can expect moderately high waves with breaking crests forming spindrift, twigs breaking off trees, and difficulty walking against the wind. The scale ranges from 0 (calm) to 12 (hurricane force), providing mariners and meteorologists with a consistent way to communicate wind conditions.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Beaufort_scale",
+    "citationTitle": "Wikipedia: Beaufort scale"
+  },
+  {
+    "id": "d07fbf83-2a15-4a8c-bc85-408a23a7d250",
+    "text": "What is the name of the scale used to measure tornado intensity?",
+    "options": [
+      "Richter Scale",
+      "Enhanced Fujita Scale",
+      "Beaufort Scale",
+      "Saffir-Simpson Scale"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "The Enhanced Fujita Scale (EF Scale) measures tornado intensity from EF0 to EF5 based on damage.",
+    "detailedExplanation": "The Enhanced Fujita Scale, implemented in 2007, replaced the original Fujita Scale for rating tornado intensity. It uses damage indicators and degrees of damage to estimate wind speeds, ranging from EF0 (light damage, 65-85 mph winds) to EF5 (total destruction, over 200 mph winds). The Richter Scale measures earthquakes, the Beaufort Scale measures wind speed, and the Saffir-Simpson Scale measures hurricane intensity.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Enhanced_Fujita_scale",
+    "citationTitle": "Wikipedia: Enhanced Fujita Scale"
+  },
+  {
+    "id": "6ae06ee1-71c3-4d32-8fbd-c81c36f8230d",
+    "text": "Which type of cloud is typically associated with thunderstorms and can reach heights of over 40,000 feet?",
+    "options": [
+      "Cirrus",
+      "Stratus",
+      "Cumulonimbus",
+      "Nimbostratus"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Cumulonimbus clouds are towering clouds that produce thunderstorms and can extend high into the atmosphere.",
+    "detailedExplanation": "Cumulonimbus clouds are massive, vertically-developed clouds that can extend from near ground level to heights exceeding 60,000 feet. These clouds are responsible for producing thunderstorms, heavy rain, hail, lightning, and tornadoes. They have a distinctive anvil-shaped top when they reach the tropopause. Cirrus clouds are high, wispy clouds, stratus clouds form in layers, and nimbostratus clouds produce steady precipitation but lack the vertical development of cumulonimbus.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Cumulonimbus_cloud",
+    "citationTitle": "Wikipedia: Cumulonimbus Cloud"
+  },
+  {
+    "id": "9f297f7d-5b89-477d-bf1f-f39babb074db",
+    "text": "What weather phenomenon occurs when warm, moist air is rapidly lifted over cold, dry air?",
+    "options": [
+      "Heat wave",
+      "Blizzard",
+      "Thunderstorm",
+      "Fog"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "When warm, moist air rapidly rises over cold, dry air, it creates the instability needed for thunderstorm development.",
+    "detailedExplanation": "Thunderstorms form when there is atmospheric instability, typically caused by warm, moist air being forced upward rapidly. This can happen when a warm air mass encounters a cold front, or through orographic lifting over mountains, or convective heating from the sun. As the warm air rises, it cools and condenses, forming cumulonimbus clouds and producing thunder, lightning, and often heavy precipitation. This process requires moisture, instability, and a lifting mechanism.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Thunderstorm",
+    "citationTitle": "Wikipedia: Thunderstorm"
+  },
+  {
+    "id": "c4eab24d-55dd-4385-8602-199a8cd44ffc",
+    "text": "At what temperature does water freeze according to the Celsius scale?",
+    "options": [
+      "32 degrees",
+      "0 degrees",
+      "-32 degrees",
+      "100 degrees"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Water freezes at 0 degrees Celsius, which is equivalent to 32 degrees Fahrenheit.",
+    "detailedExplanation": "The Celsius temperature scale, developed by Anders Celsius, sets the freezing point of water at 0 degrees and the boiling point at 100 degrees under standard atmospheric pressure. This makes it intuitive for weather reporting and scientific measurements. In contrast, the Fahrenheit scale sets water's freezing point at 32 degrees. Understanding these reference points is crucial in meteorology for predicting precipitation type and understanding weather patterns.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Celsius",
+    "citationTitle": "Wikipedia: Celsius"
+  },
+  {
+    "id": "8df2a7f8-b2b1-47f0-af7e-45d1da528cb4",
+    "text": "Which instrument is used to measure atmospheric pressure?",
+    "options": [
+      "Anemometer",
+      "Hygrometer",
+      "Barometer",
+      "Thermometer"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "A barometer measures atmospheric pressure, which is crucial for weather prediction and altitude determination.",
+    "detailedExplanation": "A barometer is an instrument used to measure atmospheric pressure, typically expressed in millibars, inches of mercury, or pascals. Changes in atmospheric pressure often indicate approaching weather systems - falling pressure usually suggests incoming storms, while rising pressure indicates clearing conditions. There are two main types: mercury barometers (using a column of mercury) and aneroid barometers (using a flexible metal chamber). Anemometers measure wind speed, hygrometers measure humidity, and thermometers measure temperature.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Barometer",
+    "citationTitle": "Wikipedia: Barometer"
+  },
+  {
+    "id": "3b7b665b-0f02-4f14-affc-c994c102bedb",
+    "text": "What is the primary cause of seasons on Earth?",
+    "options": [
+      "Distance from the Sun",
+      "Solar flare activity",
+      "Earth's axial tilt",
+      "Ocean currents"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Earth's 23.5-degree axial tilt causes different hemispheres to receive varying amounts of solar radiation throughout the year.",
+    "detailedExplanation": "Earth's seasons are primarily caused by the planet's axial tilt of approximately 23.5 degrees relative to its orbital plane around the Sun. This tilt means that during different parts of Earth's orbit, either the Northern or Southern Hemisphere is tilted toward or away from the Sun, resulting in varying amounts of solar radiation and daylight hours. When a hemisphere is tilted toward the Sun, it experiences summer; when tilted away, it experiences winter. Earth's distance from the Sun has minimal seasonal impact compared to axial tilt.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Season",
+    "citationTitle": "Wikipedia: Season"
+  },
+  {
+    "id": "14d45e66-ef16-4832-929e-d01674a71b3c",
+    "text": "What wind speed defines the minimum threshold for a tropical storm to be classified as a hurricane?",
+    "options": [
+      "65 mph",
+      "74 mph",
+      "85 mph",
+      "95 mph"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "A tropical cyclone becomes a hurricane when sustained winds reach 74 mph (119 km/h) or Category 1 on the Saffir-Simpson scale.",
+    "detailedExplanation": "The Saffir-Simpson Hurricane Wind Scale classifies hurricanes based on sustained wind speeds. A tropical cyclone becomes a hurricane when its maximum sustained winds reach 74 mph (64 knots or 119 km/h), making it a Category 1 hurricane. Below this threshold, it's classified as a tropical depression (winds up to 38 mph) or tropical storm (39-73 mph). The scale continues up to Category 5 hurricanes with winds of 157 mph or higher. This classification system helps communicate potential damage and storm surge threats to the public.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Saffir%E2%80%93Simpson_scale",
+    "citationTitle": "Wikipedia: Saffir-Simpson Scale"
+  },
+  {
+    "id": "8a8e9e2b-1dd2-4966-a891-43cb807ac5d6",
+    "text": "What is the name for the thin layer of the atmosphere where most weather occurs?",
+    "options": [
+      "Stratosphere",
+      "Troposphere",
+      "Mesosphere",
+      "Thermosphere"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "The troposphere is the lowest layer of Earth's atmosphere where weather phenomena occur.",
+    "detailedExplanation": "The troposphere extends from Earth's surface up to about 8-15 kilometers in altitude, depending on latitude. This layer contains approximately 75% of the atmosphere's mass and nearly all water vapor. Temperature generally decreases with altitude in the troposphere, creating the conditions necessary for cloud formation, precipitation, and other weather patterns that affect daily life.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Troposphere",
+    "citationTitle": "Wikipedia: Troposphere"
+  },
+  {
+    "id": "77b349e8-ec7a-4fdf-b9e2-a03beac47695",
+    "text": "What wind speed threshold must a tropical cyclone reach to be classified as a hurricane on the Saffir-Simpson scale?",
+    "options": [
+      "64 mph (103 km/h)",
+      "74 mph (119 km/h)",
+      "84 mph (135 km/h)",
+      "96 mph (154 km/h)"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "A tropical cyclone becomes a Category 1 hurricane when sustained winds reach 74 mph (119 km/h).",
+    "detailedExplanation": "The Saffir-Simpson Hurricane Wind Scale categorizes hurricanes based on their sustained wind speeds. Before reaching 74 mph, tropical cyclones are classified as tropical depressions (under 39 mph) or tropical storms (39-73 mph). Once winds reach 74 mph, the system becomes a Category 1 hurricane, with categories extending up to Category 5 for storms with winds exceeding 157 mph.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Saffir%E2%80%93Simpson_scale",
+    "citationTitle": "Wikipedia: Saffir–Simpson scale"
+  },
+  {
+    "id": "7be49ba1-5598-4be3-8b7e-7d136867d42d",
+    "text": "Which type of cloud is most commonly associated with thunderstorms and can extend through multiple atmospheric layers?",
+    "options": [
+      "Cumulus",
+      "Stratus",
+      "Cumulonimbus",
+      "Cirrus"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Cumulonimbus clouds are towering clouds that produce thunderstorms and can reach extreme heights.",
+    "detailedExplanation": "Cumulonimbus clouds are massive, towering clouds that can extend from near ground level up to 60,000 feet or higher, often reaching into the stratosphere. These clouds are characterized by their anvil-shaped tops and are responsible for producing severe weather including thunderstorms, lightning, heavy rain, hail, and tornadoes. They form through strong convective processes and are the only cloud type that can span multiple atmospheric layers.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Cumulonimbus_cloud",
+    "citationTitle": "Wikipedia: Cumulonimbus cloud"
+  },
+  {
+    "id": "2adfa089-4e02-47ae-b4b2-450d1da2d483",
+    "text": "What is the name of the boundary between two different air masses that often produces stormy weather?",
+    "options": [
+      "Isobar",
+      "Front",
+      "Pressure gradient",
+      "Trade wind"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "A front is the boundary between two air masses with different temperatures and densities, often creating weather disturbances.",
+    "detailedExplanation": "In meteorology, a front is a boundary separating two masses of air of different densities, which are usually different temperatures. When these air masses meet, the denser (usually colder) air pushes under the lighter (warmer) air, creating lift that often results in cloud formation and precipitation. There are several types of fronts including cold fronts, warm fronts, and occluded fronts, each producing characteristic weather patterns. This is different from isobars (lines of equal pressure), pressure gradients (differences in pressure), or trade winds (steady wind patterns).",
+    "citationUrl": "https://en.wikipedia.org/wiki/Weather_front",
+    "citationTitle": "Wikipedia: Weather front"
+  }
+]

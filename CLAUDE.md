@@ -21,6 +21,11 @@
 **Reference Implementation**: Check The Story Hub for patterns:
 - `/home/liqk1ugzoezh5okwywlr_/dev/the-story-hub/`
 
+**Project Documentation** (in `docs/`):
+- `DEPLOYMENT.md` - Full deployment architecture, versioning, troubleshooting
+- `APPSYNC_RESOLVERS.md` - Resolver development guide, restrictions, patterns
+- `GRAPHQL_SCHEMA.md` - Schema structure, conventions, adding new types
+
 ---
 
 ## Code Generation
@@ -76,6 +81,53 @@ function validateInput(input) {
 - **Location**: `backend/resolvers/<domain>/<type>/<Type>.<operationName>.ts`
 - **CloudFormation config**: `deploy/resources/AppSync/appsync.yaml`
 - **Compiler**: `deploy/utils/resolver-compiler.ts`
+
+---
+
+## GraphQL Schema Management
+
+**CRITICAL: Schema is defined in `backend/schema/*.graphql` files.**
+
+- Schema files are the **single source of truth**
+- The deploy script merges schema files and uploads to S3
+- **NEVER embed schema inline in CloudFormation YAML** - see ARCHITECTURE_GUIDELINES.md
+
+Schema files:
+- `backend/schema/00-base.graphql` - Base Query, Mutation types
+- `backend/schema/User.graphql` - User types
+- `backend/schema/Badge.graphql` - Badge types
+- etc.
+
+To modify the GraphQL schema:
+1. Edit the appropriate `.graphql` file in `backend/schema/`
+2. Deploy to update AppSync
+
+**CRITICAL**: Do NOT use `extend type Query` or `extend type Mutation`. AppSync silently ignores extended fields in merged schemas. Always add Query/Mutation fields directly to `00-base.graphql`.
+
+### Schema Ready Custom Resource
+
+**Problem**: CloudFormation's `DependsOn` only checks resource existence, not update completion. When adding new resolvers that reference new schema fields, CloudFormation may create resolvers before the schema update completes, causing "No field named X" errors.
+
+**Solution**: A CloudFormation Custom Resource (`SchemaReadyCustomResource`) that:
+1. Depends on `GraphQLSchema`
+2. Invokes a Lambda (`schemaReadyWaiter`) that waits for schema to be ready
+3. All resolvers depend on this Custom Resource (not directly on GraphQLSchema)
+
+This ensures the schema is fully updated before any resolver is created/modified. The Lambda runs under CloudFormation's service role, so no additional deploy user permissions are needed.
+
+---
+
+## Lambda Deployment
+
+The deploy script (`deploy/deploy.ts`) handles Lambda updates:
+
+1. **Compiles** TypeScript Lambda source files using esbuild
+2. **Uploads** the zipped bundles to S3
+3. **Directly updates** Lambda function code via AWS SDK
+
+**Why direct update?** CloudFormation doesn't detect S3 content changes when the S3 key stays the same. The deploy script now calls `UpdateFunctionCode` directly to ensure Lambda code is always updated.
+
+**Lambda source files**: `backend/lambda/*.ts`
 
 ---
 
@@ -156,6 +208,107 @@ Deploy logs should be written to `~/dev/quiz-app/.cache/logs/` directory.
 ### Quiz Orchestration
 - Question generation: `/backend/src/orchestrator/questionGenerator.ts`
 - Main orchestrator: `/backend/src/orchestrator/index.ts`
+
+---
+
+## Debugging & Investigation Methodology
+
+**CRITICAL: Always perform deep investigation before attempting fixes.**
+
+### Investigation Principles
+
+1. **Don't stop at the first error** - The first error you see is often a symptom, not the root cause. Dig deeper.
+
+2. **Check the full pipeline** - For deployment issues, verify EVERY step:
+   - Source files (local)
+   - Compiled/built artifacts
+   - S3 uploads (check actual content, not just existence)
+   - CloudFormation template parameters
+   - Actually deployed resources (get-template, describe-stack)
+   - Runtime state
+
+3. **Compare expected vs actual state**:
+   ```bash
+   # What you THINK is deployed vs what IS deployed
+   aws cloudformation get-template --stack-name <name>  # See actual template
+   aws cloudformation describe-stacks --query 'Stacks[0].Parameters'  # See actual params
+   ```
+
+4. **Trace the data flow** - When something isn't working, trace the entire path from source to deployment.
+
+### CloudFormation-Specific Gotchas
+
+- **Nested stack templates are cached** - If TemplateURL doesn't change, CloudFormation won't re-read the S3 object even if content changed. Solution: version the template paths.
+- **S3 content changes aren't detected** - Same S3 key with new content = no update. Use content hashes in paths.
+- **Check BOTH parent and nested stack events** - Errors in nested stacks show generic messages in parent.
+- **Rollback failures cascade** - When rollback fails, check what resources it's trying to restore and why they're missing.
+
+### Investigation Checklist
+
+When debugging deployment/infrastructure issues:
+
+- [ ] Check CloudFormation events (parent AND nested stacks)
+- [ ] Verify S3 content matches expectations (download and inspect)
+- [ ] Compare deployed template vs local template
+- [ ] Check all parameter values are being passed correctly
+- [ ] Verify resource dependencies and timing
+- [ ] Look for caching issues (templates, schemas, code)
+
+### Example Deep Investigation
+
+```bash
+# 1. Get failure details from all stack levels
+aws cloudformation describe-stack-events --stack-name <parent> | grep FAILED
+aws cloudformation describe-stack-events --stack-name <nested> | grep FAILED
+
+# 2. Check what's actually deployed vs what should be
+aws cloudformation get-template --stack-name <nested> | grep <pattern>
+
+# 3. Check S3 content
+aws s3 cp s3://bucket/path/file.yaml - | grep <pattern>
+
+# 4. Verify parameters being passed
+aws cloudformation describe-stacks --stack-name <stack> --query 'Stacks[0].Parameters'
+```
+
+---
+
+## Testing Principles
+
+**CRITICAL: Tests must verify expected behavior, not just pass.**
+
+### Core Rules
+
+1. **Write tests that verify expected behavior** - Tests should describe what the code SHOULD do, not what it currently does.
+
+2. **If a test fails → investigate the code, not change the test** - A failing test is a signal that something is wrong with the implementation. Don't "fix" the test to make it pass.
+
+3. **Only change the test if the expected behavior was wrong** - If you wrote a test based on incorrect assumptions about requirements, then fix the test. Otherwise, fix the code.
+
+4. **A failing test is valuable information, not a problem to hide** - Failing tests reveal bugs. Making tests pass by changing assertions hides bugs.
+
+### Anti-Patterns to Avoid
+
+```typescript
+// BAD: Changing test to match broken code
+it("should return 10", () => {
+  expect(calculate()).toBe(5); // Changed from 10 to 5 because code returns 5
+});
+
+// GOOD: Fix the code, keep the test
+it("should return 10", () => {
+  expect(calculate()).toBe(10); // Test stays, fix calculate() to return 10
+});
+```
+
+### Investigation Workflow
+
+When a test fails:
+1. **Read the assertion error** - What was expected vs actual?
+2. **Trace the code path** - Follow the function to understand why it returns the wrong value
+3. **Check dependencies** - Are mocks correct? Is test setup right?
+4. **Fix the root cause** - Update the implementation, not the expectation
+5. **Only update the test** if requirements were misunderstood
 
 ---
 

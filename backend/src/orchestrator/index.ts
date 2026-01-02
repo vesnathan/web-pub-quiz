@@ -6,13 +6,12 @@ import {
   ABLY_CHANNELS,
   SET_DURATION_MINUTES,
   QUESTIONS_PER_SET,
-  ANSWER_TIMEOUT_MS,
-  QUESTION_DISPLAY_MS,
   MAX_LATENCY_COMPENSATION_MS,
   MAX_PLAYERS_PER_ROOM,
-  POINTS_CORRECT,
-  POINTS_WRONG,
+  DIFFICULTY_POINTS,
   JOIN_WINDOW_SECONDS,
+  calculateQuestionDisplayTime,
+  calculateAnswerTimeout,
 } from '@quiz/shared';
 import type {
   Question,
@@ -23,11 +22,10 @@ import type {
   QuestionEndPayload,
   SetEndPayload,
   LeaderboardEntry,
-  BadgeType,
   RoomListItem,
 } from '@quiz/shared';
 import { getMockQuestions } from './mockQuestions';
-import { allBadges, getEarnedBadges, type UserStats as BadgeUserStats } from './badges';
+import { getEarnedBadges, getBadgeById, type UserStats as BadgeUserStats, type BadgeCheckContext, type BadgeDefinition } from './badges';
 import { getQuestionsForSet, markQuestionAnsweredCorrectly, prewarmQuestionCache } from './questionGenerator';
 import {
   createRoom,
@@ -40,6 +38,8 @@ import {
   findAvailableRoom,
   clearRoomReservations,
   getRoomStats,
+  checkAndAddRoomIfNeeded,
+  createRoomsForNewHalfHour,
 } from './roomManager';
 import type { QuestionCategory, Room } from '@quiz/shared';
 
@@ -145,7 +145,7 @@ const ddbClient = new DynamoDBClient({ region: process.env.AWS_REGION || 'ap-sou
 const docClient = DynamoDBDocumentClient.from(ddbClient, {
   marshallOptions: { removeUndefinedValues: true },
 });
-const TABLE_NAME = process.env.TABLE_NAME || 'qnl-datatable-prod';
+const TABLE_NAME = process.env.TABLE_NAME || 'quiz-night-live-datatable-prod';
 
 // Timing constants
 const RESULTS_DISPLAY_MS = 12000;
@@ -236,6 +236,22 @@ async function updateUserStats(
   }
 }
 
+/**
+ * Calculate ISO 8601 week number.
+ * Week 1 is the week containing the first Thursday of the year.
+ */
+function getISOWeek(date: Date): { year: number; week: number } {
+  const d = new Date(Date.UTC(date.getFullYear(), date.getMonth(), date.getDate()));
+  // Set to nearest Thursday: current date + 4 - current day number (Monday = 1, Sunday = 7)
+  const dayNum = d.getUTCDay() || 7;
+  d.setUTCDate(d.getUTCDate() + 4 - dayNum);
+  // Get first day of year
+  const yearStart = new Date(Date.UTC(d.getUTCFullYear(), 0, 1));
+  // Calculate full weeks between yearStart and d
+  const weekNo = Math.ceil(((d.getTime() - yearStart.getTime()) / 86400000 + 1) / 7);
+  return { year: d.getUTCFullYear(), week: weekNo };
+}
+
 async function updateLeaderboardEntry(
   leaderboardType: 'daily' | 'weekly' | 'alltime',
   userId: string,
@@ -250,10 +266,9 @@ async function updateLeaderboardEntry(
       const dateStr = now.toISOString().split('T')[0];
       pk = `LEADERBOARD#daily#${dateStr}`;
     } else if (leaderboardType === 'weekly') {
-      const startOfYear = new Date(now.getFullYear(), 0, 1);
-      const days = Math.floor((now.getTime() - startOfYear.getTime()) / (24 * 60 * 60 * 1000));
-      const weekNum = Math.ceil((days + startOfYear.getDay() + 1) / 7);
-      pk = `LEADERBOARD#weekly#${now.getFullYear()}-W${String(weekNum).padStart(2, '0')}`;
+      // Use ISO 8601 week format to match AppSync resolver
+      const { year, week } = getISOWeek(now);
+      pk = `LEADERBOARD#weekly#${year}-W${String(week).padStart(2, '0')}`;
     } else {
       pk = 'LEADERBOARD#alltime';
     }
@@ -297,34 +312,36 @@ async function updateAllLeaderboards(
 
 async function awardBadge(
   userId: string,
-  badgeType: BadgeType,
-  name: string,
-  description: string,
-  icon: string,
-  repeatable: boolean = false
+  badge: BadgeDefinition,
+  setId?: string
 ): Promise<boolean> {
   try {
-    if (!repeatable) {
-      const user = await docClient.send(
-        new GetCommand({
-          TableName: TABLE_NAME,
-          Key: { PK: `USER#${userId}`, SK: 'PROFILE' },
-          ProjectionExpression: 'badges',
-        })
-      );
+    // Check if badge already exists (non-repeatable badges)
+    const user = await docClient.send(
+      new GetCommand({
+        TableName: TABLE_NAME,
+        Key: { PK: `USER#${userId}`, SK: 'PROFILE' },
+        ProjectionExpression: 'badges',
+      })
+    );
 
-      const existingBadges = user.Item?.badges || [];
-      if (existingBadges.some((b: { id: string }) => b.id === badgeType)) {
-        return false;
-      }
+    const existingBadges = user.Item?.badges || [];
+    if (existingBadges.some((b: { id: string }) => b.id === badge.id)) {
+      return false;
     }
 
-    const badge = {
-      id: badgeType,
-      name,
-      description,
-      icon,
+    // Store badge with all metadata from awards system
+    const earnedBadge = {
+      id: badge.id,
+      name: badge.name,
+      description: badge.description,
+      icon: badge.icon,
+      groupId: badge.groupId,
+      tier: badge.tier,
+      rarity: badge.rarity,
+      skillPoints: badge.skillPoints,
       earnedAt: new Date().toISOString(),
+      setId: setId,
     };
 
     await docClient.send(
@@ -333,36 +350,30 @@ async function awardBadge(
         Key: { PK: `USER#${userId}`, SK: 'PROFILE' },
         UpdateExpression: 'SET badges = list_append(if_not_exists(badges, :empty), :badge)',
         ExpressionAttributeValues: {
-          ':badge': [badge],
+          ':badge': [earnedBadge],
           ':empty': [],
         },
       })
     );
 
-    console.log(`🏅 Awarded badge "${name}" to user ${userId}`);
+    console.log(`🏅 Awarded badge "${badge.name}" (${badge.rarity}) to user ${userId}`);
     return true;
   } catch (error) {
-    console.error(`Failed to award badge ${badgeType} to ${userId}:`, error);
+    console.error(`Failed to award badge ${badge.id} to ${userId}:`, error);
     return false;
   }
 }
 
 async function checkAndAwardBadges(
   userId: string,
-  stats: BadgeUserStats
+  stats: BadgeUserStats,
+  context?: BadgeCheckContext
 ): Promise<string[]> {
-  const earnedBadges = getEarnedBadges(stats);
+  const earnedBadges = getEarnedBadges(stats, context);
   const newlyEarnedBadgeIds: string[] = [];
 
   for (const badge of earnedBadges) {
-    const wasNew = await awardBadge(
-      userId,
-      badge.id as BadgeType,
-      badge.name,
-      badge.description,
-      badge.icon,
-      badge.repeatable || false
-    );
+    const wasNew = await awardBadge(userId, badge, context?.setId);
     if (wasNew) {
       newlyEarnedBadgeIds.push(badge.id);
     }
@@ -371,7 +382,7 @@ async function checkAndAwardBadges(
   return newlyEarnedBadgeIds;
 }
 
-async function updateSetStats(userId: string, won: boolean, isPerfectSet: boolean): Promise<string[]> {
+async function updateSetStats(userId: string, won: boolean, isPerfectSet: boolean, setId?: string): Promise<string[]> {
   try {
     const result = await docClient.send(
       new UpdateCommand({
@@ -404,7 +415,8 @@ async function updateSetStats(userId: string, won: boolean, isPerfectSet: boolea
       perfectSets: stats.perfectSets || 0,
     };
 
-    return await checkAndAwardBadges(userId, badgeStats);
+    const context: BadgeCheckContext = { setId };
+    return await checkAndAwardBadges(userId, badgeStats, context);
   } catch (error) {
     console.error(`Failed to update set stats for ${userId}:`, error);
     return [];
@@ -434,6 +446,9 @@ interface RoomSession {
   questionsUsed: Set<string>;
   channel: Ably.RealtimeChannel;
   setCompleted: boolean;
+  // Dynamic timing for current question
+  currentQuestionDisplayMs: number;
+  currentAnswerTimeoutMs: number;
 }
 
 // Multi-room state
@@ -514,10 +529,13 @@ function initAbly(): void {
   lobbyChannel = ably.channels.get(ABLY_CHANNELS.LOBBY);
   setupLobbyPresence();
 
-  // Create initial room
-  const initialRoom = createRoom('medium');
-  setupRoomChannel(initialRoom.id);
-  console.log(`🏠 Created initial room: ${initialRoom.name}`);
+  // Create initial rooms (easy, medium, hard)
+  createRoomsForNewHalfHour();
+  // Setup channels for all rooms
+  for (const roomId of getAllRoomIds()) {
+    setupRoomChannel(roomId);
+  }
+  console.log(`🏠 Created ${getAllRoomIds().length} initial rooms`);
 }
 
 function setupLobbyPresence(): void {
@@ -597,6 +615,11 @@ function setupLobbyPresence(): void {
     const success = joinRoom(roomId, playerId);
     if (success) {
       console.log(`✅ ${displayName} joined room ${room.name}`);
+      // Check if we need to add more rooms based on player count
+      const newRoom = checkAndAddRoomIfNeeded();
+      if (newRoom) {
+        setupRoomChannel(newRoom.id);
+      }
       await broadcastRoomList();
     }
 
@@ -646,6 +669,11 @@ function setupLobbyPresence(): void {
 
     if (success) {
       console.log(`✅ ${displayName} auto-joined room ${room.name}`);
+      // Check if we need to add more rooms based on player count
+      const newRoom = checkAndAddRoomIfNeeded();
+      if (newRoom) {
+        setupRoomChannel(newRoom.id);
+      }
       await broadcastRoomList();
     }
   });
@@ -830,7 +858,7 @@ async function handleRoomBuzz(roomId: string, data: BuzzData): Promise<void> {
 
   if (earliestPlayerId === playerId) {
     session.currentBuzzWinner = playerId;
-    session.answerDeadline = Date.now() + ANSWER_TIMEOUT_MS;
+    session.answerDeadline = Date.now() + session.currentAnswerTimeoutMs;
     session.questionPhase = 'answering';
 
     const player = session.players.get(playerId);
@@ -843,8 +871,10 @@ async function handleRoomBuzz(roomId: string, data: BuzzData): Promise<void> {
     };
 
     await session.channel.publish('buzz_winner', payload);
-    console.log(`🔔 [${roomId}] Buzz winner: ${displayName}`);
+    console.log(`🔔 [${roomId}] Buzz winner: ${displayName} (timeout: ${session.currentAnswerTimeoutMs}ms)`);
 
+    // Use dynamic answer timeout
+    const answerTimeoutMs = session.currentAnswerTimeoutMs;
     setTimeout(async () => {
       const currentSession = roomSessions.get(roomId);
       if (currentSession &&
@@ -853,7 +883,7 @@ async function handleRoomBuzz(roomId: string, data: BuzzData): Promise<void> {
           currentSession.questionPhase === 'answering') {
         await handleRoomAnswerTimeout(roomId);
       }
-    }, ANSWER_TIMEOUT_MS + 500);
+    }, answerTimeoutMs + 500);
   }
 }
 
@@ -869,7 +899,9 @@ async function handleRoomAnswer(roomId: string, data: AnswerData): Promise<void>
 
   const question = session.questions[session.currentQuestionIndex];
   const isCorrect = answerIndex === question.correctIndex;
-  const points = isCorrect ? POINTS_CORRECT : POINTS_WRONG;
+  const difficulty = (question.difficulty || 'medium') as keyof typeof DIFFICULTY_POINTS;
+  const difficultyPoints = DIFFICULTY_POINTS[difficulty] || DIFFICULTY_POINTS.medium;
+  const points = isCorrect ? difficultyPoints.correct : difficultyPoints.wrong;
 
   session.lastAnswerCorrect = isCorrect;
 
@@ -905,7 +937,8 @@ async function handleRoomAnswer(roomId: string, data: AnswerData): Promise<void>
     const stats = await updateUserStats(playerId, displayName, isCorrect, points);
     updateAllLeaderboards(playerId, displayName, points).catch(console.error);
 
-    const newBadges = await checkAndAwardBadges(playerId, stats);
+    const context: BadgeCheckContext = { setId: session.setId };
+    const newBadges = await checkAndAwardBadges(playerId, stats, context);
     if (newBadges.length > 0) {
       const existing = session.pendingBadges.get(playerId) || [];
       session.pendingBadges.set(playerId, [...existing, ...newBadges]);
@@ -929,13 +962,17 @@ async function handleRoomAnswerTimeout(roomId: string): Promise<void> {
   session.answerReceived = true;
   session.lastAnswerCorrect = false;
 
+  const question = session.questions[session.currentQuestionIndex];
+  const difficulty = (question.difficulty || 'medium') as keyof typeof DIFFICULTY_POINTS;
+  const difficultyPoints = DIFFICULTY_POINTS[difficulty] || DIFFICULTY_POINTS.medium;
+  const points = difficultyPoints.wrong;
+
   const currentScore = session.scores.get(playerId) || 0;
-  session.scores.set(playerId, currentScore + POINTS_WRONG);
+  session.scores.set(playerId, currentScore + points);
 
   const wrongCount = session.playerWrongCount.get(playerId) || 0;
   session.playerWrongCount.set(playerId, wrongCount + 1);
 
-  const question = session.questions[session.currentQuestionIndex];
   const player = session.players.get(playerId);
 
   const answerPayload: AnswerPayload = {
@@ -943,7 +980,7 @@ async function handleRoomAnswerTimeout(roomId: string): Promise<void> {
     answerIndex: -1,
     isCorrect: false,
     correctIndex: question.correctIndex,
-    pointsAwarded: POINTS_WRONG,
+    pointsAwarded: points,
   };
 
   await session.channel.publish('answer_result', answerPayload);
@@ -951,9 +988,10 @@ async function handleRoomAnswerTimeout(roomId: string): Promise<void> {
 
   const displayName = player?.displayName || 'Unknown';
   try {
-    const stats = await updateUserStats(playerId, displayName, false, POINTS_WRONG);
-    updateAllLeaderboards(playerId, displayName, POINTS_WRONG).catch(console.error);
-    const newBadges = await checkAndAwardBadges(playerId, stats);
+    const stats = await updateUserStats(playerId, displayName, false, points);
+    updateAllLeaderboards(playerId, displayName, points).catch(console.error);
+    const context: BadgeCheckContext = { setId: session.setId };
+    const newBadges = await checkAndAwardBadges(playerId, stats, context);
     if (newBadges.length > 0) {
       const existing = session.pendingBadges.get(playerId) || [];
       session.pendingBadges.set(playerId, [...existing, ...newBadges]);
@@ -1097,6 +1135,9 @@ async function startRoomSet(roomId: string): Promise<void> {
     questionsUsed,
     channel,
     setCompleted: false,
+    // Will be calculated for each question
+    currentQuestionDisplayMs: 0,
+    currentAnswerTimeoutMs: 0,
   };
 
   roomSessions.set(roomId, session);
@@ -1151,6 +1192,15 @@ async function startRoomQuestion(roomId: string): Promise<void> {
   }
 
   const question = session.questions[session.currentQuestionIndex];
+
+  // Calculate dynamic timing based on question and answer text length
+  const questionDisplayMs = calculateQuestionDisplayTime(question.text, question.options);
+  const answerTimeoutMs = calculateAnswerTimeout(question.options);
+
+  // Store in session for use in buzz/answer handlers
+  session.currentQuestionDisplayMs = questionDisplayMs;
+  session.currentAnswerTimeoutMs = answerTimeoutMs;
+
   session.questionStartTime = Date.now();
   session.currentBuzzWinner = null;
   session.answerReceived = false;
@@ -1168,11 +1218,12 @@ async function startRoomQuestion(roomId: string): Promise<void> {
     },
     questionIndex: session.currentQuestionIndex,
     totalQuestions: QUESTIONS_PER_SET,
-    questionDuration: QUESTION_DISPLAY_MS,
+    questionDuration: questionDisplayMs,
+    answerTimeout: answerTimeoutMs,
   };
 
   await session.channel.publish('question_start', payload);
-  console.log(`\n❓ [${roomId}] Q${session.currentQuestionIndex + 1}: ${question.text.substring(0, 50)}...`);
+  console.log(`\n❓ [${roomId}] Q${session.currentQuestionIndex + 1}: ${question.text.substring(0, 50)}... (display: ${questionDisplayMs}ms, answer: ${answerTimeoutMs}ms)`);
 
   setTimeout(async () => {
     const currentSession = roomSessions.get(roomId);
@@ -1181,7 +1232,7 @@ async function startRoomQuestion(roomId: string): Promise<void> {
         !currentSession.currentBuzzWinner) {
       await handleRoomNoBuzzes(roomId);
     }
-  }, QUESTION_DISPLAY_MS);
+  }, questionDisplayMs);
 }
 
 async function endRoomSet(roomId: string): Promise<void> {
@@ -1215,7 +1266,7 @@ async function endRoomSet(roomId: string): Promise<void> {
       const wrongCount = session.playerWrongCount.get(playerId) || 0;
       const isPerfectSet = correctCount === totalQuestions && wrongCount === 0;
 
-      const newBadges = await updateSetStats(playerId, isWinner, isPerfectSet);
+      const newBadges = await updateSetStats(playerId, isWinner, isPerfectSet, session.setId);
 
       if (newBadges.length > 0) {
         const existing = badgesSummary[playerId] || [];

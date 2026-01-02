@@ -1,12 +1,23 @@
-'use client';
+"use client";
 
-import { useState } from 'react';
-import { Card, CardBody, CardHeader, Button, Chip, Divider } from '@nextui-org/react';
-import { useRouter } from 'next/navigation';
-import { Navbar } from '@/components/Navbar';
-import { Footer } from '@/components/Footer';
-import { useAuth } from '@/contexts/AuthContext';
-import type { SubscriptionTier } from '@quiz/shared';
+import { useState, useEffect, Suspense } from "react";
+import { useSearchParams } from "next/navigation";
+import {
+  Card,
+  CardBody,
+  CardHeader,
+  Button,
+  Chip,
+  Divider,
+} from "@nextui-org/react";
+import { useRouter } from "next/navigation";
+import { Navbar } from "@/components/Navbar";
+import { Footer } from "@/components/Footer";
+import { LoadingScreen } from "@/components/LoadingScreen";
+import { useAuth } from "@/contexts/AuthContext";
+import { createCheckoutSession } from "@/lib/api";
+import type { SubscriptionTier } from "@quiz/shared";
+import { SubscriptionProvider } from "@quiz/shared";
 
 interface TierInfo {
   id: SubscriptionTier;
@@ -21,58 +32,58 @@ interface TierInfo {
 const TIERS: TierInfo[] = [
   {
     id: 0,
-    name: 'Free',
-    price: '$0',
-    priceNote: 'forever',
+    name: "Free",
+    price: "$0",
+    priceNote: "forever",
     features: [
-      '3 quiz sets per day',
-      'Compete on public leaderboards',
-      'Earn badges and achievements',
+      "3 quiz sets per day",
+      "Compete on public leaderboards",
+      "Earn badges and achievements",
     ],
     notIncluded: [
-      'Unlimited sets',
-      'Ad-free experience',
-      'Patron badge',
-      'Private rooms',
+      "Unlimited sets",
+      "Ad-free experience",
+      "Patron badge",
+      "Private rooms",
     ],
   },
   {
     id: 1,
-    name: 'Supporter',
-    price: '$3',
-    priceNote: 'per month',
+    name: "Supporter",
+    price: "$3",
+    priceNote: "per month",
     popular: true,
     features: [
-      'Unlimited quiz sets',
-      'Exclusive Patron badge',
-      'Patron-only leaderboard',
-      'Support QuizNight development',
+      "Unlimited quiz sets",
+      "Exclusive Patron badge",
+      "Patron-only leaderboard",
+      "Support QuizNight development",
     ],
-    notIncluded: [
-      'Ad-free experience',
-      'Private rooms',
-      'Custom quizzes',
-    ],
+    notIncluded: ["Ad-free experience", "Private rooms", "Custom quizzes"],
   },
   {
     id: 2,
-    name: 'Champion',
-    price: '$10',
-    priceNote: 'per month',
+    name: "Champion",
+    price: "$10",
+    priceNote: "per month",
     features: [
-      'Everything in Supporter',
-      'Ad-free experience',
-      'Create private rooms',
-      'Host custom quizzes',
-      'Name in Credits page',
-      'Priority support',
+      "Everything in Supporter",
+      "Ad-free experience",
+      "Create private rooms",
+      "Host custom quizzes",
+      "Name in Credits page",
+      "Priority support",
     ],
   },
 ];
 
 function CheckIcon() {
   return (
-    <svg className="w-5 h-5 text-green-400 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+    <svg
+      className="w-5 h-5 text-green-400 flex-shrink-0"
+      fill="currentColor"
+      viewBox="0 0 20 20"
+    >
       <path
         fillRule="evenodd"
         d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
@@ -84,7 +95,11 @@ function CheckIcon() {
 
 function XIcon() {
   return (
-    <svg className="w-5 h-5 text-gray-500 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+    <svg
+      className="w-5 h-5 text-gray-500 flex-shrink-0"
+      fill="currentColor"
+      viewBox="0 0 20 20"
+    >
       <path
         fillRule="evenodd"
         d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
@@ -97,25 +112,33 @@ function XIcon() {
 interface TierCardProps {
   tier: TierInfo;
   currentTier?: SubscriptionTier;
-  onSelect: (tier: SubscriptionTier, provider: 'stripe' | 'paypal') => void;
-  isLoading: boolean;
-  selectedTier: SubscriptionTier | null;
+  onSelect: (tier: SubscriptionTier, provider: SubscriptionProvider) => void;
+  loadingState: {
+    tier: SubscriptionTier;
+    provider: SubscriptionProvider;
+  } | null;
 }
 
-function TierCard({ tier, currentTier, onSelect, isLoading, selectedTier }: TierCardProps) {
+function TierCard({
+  tier,
+  currentTier,
+  onSelect,
+  loadingState,
+}: TierCardProps) {
   const isCurrentTier = currentTier === tier.id;
   const isUpgrade = currentTier !== undefined && tier.id > currentTier;
-  const isDowngrade = currentTier !== undefined && tier.id < currentTier && tier.id !== 0;
+  const isDowngrade =
+    currentTier !== undefined && tier.id < currentTier && tier.id !== 0;
   const isFree = tier.id === 0;
 
   return (
     <Card
       className={`bg-gray-800/70 backdrop-blur border-2 transition-all ${
         tier.popular
-          ? 'border-primary-500 scale-105'
+          ? "border-primary-500 scale-105"
           : isCurrentTier
-          ? 'border-green-500'
-          : 'border-gray-700'
+            ? "border-green-500"
+            : "border-gray-700"
       }`}
     >
       <CardHeader className="flex flex-col items-center pt-6 pb-2">
@@ -149,7 +172,10 @@ function TierCard({ tier, currentTier, onSelect, isLoading, selectedTier }: Tier
             </li>
           ))}
           {tier.notIncluded?.map((feature, index) => (
-            <li key={`not-${index}`} className="flex items-start gap-3 opacity-50">
+            <li
+              key={`not-${index}`}
+              className="flex items-start gap-3 opacity-50"
+            >
               <XIcon />
               <span className="text-gray-400 line-through">{feature}</span>
             </li>
@@ -159,26 +185,32 @@ function TierCard({ tier, currentTier, onSelect, isLoading, selectedTier }: Tier
         {!isFree && !isCurrentTier && (
           <div className="space-y-2">
             <Button
-              color={tier.popular ? 'primary' : 'default'}
-              variant={tier.popular ? 'solid' : 'bordered'}
+              color={tier.popular ? "primary" : "default"}
+              variant={tier.popular ? "solid" : "bordered"}
               className="w-full"
               size="lg"
-              onPress={() => onSelect(tier.id, 'stripe')}
-              isLoading={isLoading && selectedTier === tier.id}
-              isDisabled={isLoading}
+              onPress={() => onSelect(tier.id, SubscriptionProvider.stripe)}
+              isLoading={
+                loadingState?.tier === tier.id &&
+                loadingState?.provider === SubscriptionProvider.stripe
+              }
+              isDisabled={loadingState !== null}
             >
-              {isUpgrade ? 'Upgrade' : 'Subscribe'} with Card
+              {isUpgrade ? "Upgrade" : "Subscribe"} with Card
             </Button>
             <Button
               color="default"
               variant="flat"
               className="w-full"
               size="lg"
-              onPress={() => onSelect(tier.id, 'paypal')}
-              isLoading={isLoading && selectedTier === tier.id}
-              isDisabled={isLoading}
+              onPress={() => onSelect(tier.id, SubscriptionProvider.paypal)}
+              isLoading={
+                loadingState?.tier === tier.id &&
+                loadingState?.provider === SubscriptionProvider.paypal
+              }
+              isDisabled={loadingState !== null}
             >
-              {isUpgrade ? 'Upgrade' : 'Subscribe'} with PayPal
+              {isUpgrade ? "Upgrade" : "Subscribe"} with PayPal
             </Button>
           </div>
         )}
@@ -211,43 +243,66 @@ function TierCard({ tier, currentTier, onSelect, isLoading, selectedTier }: Tier
   );
 }
 
-export default function SubscribePage() {
+function SubscribePageContent() {
   const router = useRouter();
-  const { isAuthenticated, isLoading: authLoading } = useAuth();
-  const [isLoading, setIsLoading] = useState(false);
-  const [selectedTier, setSelectedTier] = useState<SubscriptionTier | null>(null);
+  const searchParams = useSearchParams();
+  const { user, isAuthenticated, isLoading: authLoading } = useAuth();
+  const [loadingState, setLoadingState] = useState<{
+    tier: SubscriptionTier;
+    provider: SubscriptionProvider;
+  } | null>(null);
   const [error, setError] = useState<string | null>(null);
+  const [successMessage, setSuccessMessage] = useState<string | null>(null);
 
-  // TODO: Get current tier from user profile
-  const currentTier: SubscriptionTier = 0;
+  // Get current tier from user profile
+  const currentTier: SubscriptionTier = (user?.subscription?.tier ??
+    0) as SubscriptionTier;
 
-  const handleSelectTier = async (tier: SubscriptionTier, provider: 'stripe' | 'paypal') => {
+  // Handle success/cancel query params
+  useEffect(() => {
+    if (searchParams.get("success") === "true") {
+      setSuccessMessage(
+        "Thank you for subscribing! Your account will be updated shortly.",
+      );
+      // Clear the query params
+      router.replace("/subscribe");
+    } else if (searchParams.get("cancelled") === "true") {
+      setError("Checkout was cancelled. No charges were made.");
+      router.replace("/subscribe");
+    }
+  }, [searchParams, router]);
+
+  const handleSelectTier = async (
+    tier: SubscriptionTier,
+    provider: SubscriptionProvider,
+  ) => {
     if (!isAuthenticated) {
       // Redirect to login with return URL
       router.push(`/?login=true&returnTo=/subscribe`);
       return;
     }
 
-    setIsLoading(true);
-    setSelectedTier(tier);
+    setLoadingState({ tier, provider });
     setError(null);
 
     try {
-      // TODO: Call createCheckout Lambda via AppSync
-      // For now, show a placeholder
-      console.log(`Creating ${provider} checkout for tier ${tier}`);
+      const baseUrl = window.location.origin;
+      const result = await createCheckoutSession({
+        tier,
+        provider,
+        successUrl: `${baseUrl}/subscribe?success=true`,
+        cancelUrl: `${baseUrl}/subscribe?cancelled=true`,
+      });
 
-      // Mock API call
-      await new Promise((resolve) => setTimeout(resolve, 1000));
-
-      // TODO: Redirect to checkout URL
-      alert(`Checkout for ${TIERS[tier].name} with ${provider} - Coming soon!`);
+      if (result?.checkoutUrl) {
+        window.location.href = result.checkoutUrl;
+      } else {
+        throw new Error("No checkout URL returned");
+      }
     } catch (err) {
-      console.error('Checkout error:', err);
-      setError('Failed to create checkout session. Please try again.');
-    } finally {
-      setIsLoading(false);
-      setSelectedTier(null);
+      console.error("Checkout error:", err);
+      setError("Failed to create checkout session. Please try again.");
+      setLoadingState(null);
     }
   };
 
@@ -261,11 +316,22 @@ export default function SubscribePage() {
             <h1 className="text-4xl font-bold text-white mb-4">
               Support QuizNight.live
             </h1>
+            <p className="text-gray-400 mb-3">
+              I'm an independent developer, not a huge company. Your support
+              directly helps keep QuizNight.live running and improving!
+            </p>
             <p className="text-xl text-gray-300 max-w-2xl mx-auto">
-              Unlock unlimited quiz sets, exclusive features, and help keep the servers running.
-              Cancel anytime.
+              Unlock unlimited quiz sets, exclusive features, and help keep the
+              servers running. Cancel anytime.
             </p>
           </div>
+
+          {/* Success message */}
+          {successMessage && (
+            <div className="mb-8 p-4 bg-green-900/50 border border-green-500 rounded-lg text-center">
+              <p className="text-green-200">{successMessage}</p>
+            </div>
+          )}
 
           {/* Error message */}
           {error && (
@@ -282,8 +348,7 @@ export default function SubscribePage() {
                 tier={tier}
                 currentTier={currentTier}
                 onSelect={handleSelectTier}
-                isLoading={isLoading}
-                selectedTier={selectedTier}
+                loadingState={loadingState}
               />
             ))}
           </div>
@@ -291,7 +356,9 @@ export default function SubscribePage() {
           {/* FAQ Section */}
           <Card className="bg-gray-800/50 backdrop-blur">
             <CardBody className="p-6">
-              <h2 className="text-2xl font-bold text-white mb-6">Frequently Asked Questions</h2>
+              <h2 className="text-2xl font-bold text-white mb-6">
+                Frequently Asked Questions
+              </h2>
 
               <div className="space-y-6">
                 <div>
@@ -299,8 +366,8 @@ export default function SubscribePage() {
                     What happens to my progress if I cancel?
                   </h3>
                   <p className="text-gray-300">
-                    Your badges, achievements, and leaderboard history are never deleted. You simply
-                    go back to the free tier limits.
+                    Your badges, achievements, and leaderboard history are never
+                    deleted. You simply go back to the free tier limits.
                   </p>
                 </div>
 
@@ -309,7 +376,8 @@ export default function SubscribePage() {
                     Can I change my plan later?
                   </h3>
                   <p className="text-gray-300">
-                    Yes! You can upgrade or downgrade at any time. Changes take effect immediately.
+                    Yes! You can upgrade or downgrade at any time. Changes take
+                    effect immediately.
                   </p>
                 </div>
 
@@ -318,8 +386,8 @@ export default function SubscribePage() {
                     What payment methods do you accept?
                   </h3>
                   <p className="text-gray-300">
-                    We accept all major credit/debit cards via Stripe, and PayPal. Both are secure
-                    and encrypted.
+                    We accept all major credit/debit cards via Stripe, and
+                    PayPal. Both are secure and encrypted.
                   </p>
                 </div>
 
@@ -328,8 +396,9 @@ export default function SubscribePage() {
                     How does the 3 sets per day limit work?
                   </h3>
                   <p className="text-gray-300">
-                    Free users can play up to 3 quiz sets per day. The counter resets at midnight
-                    (your local time). Supporters and Champions have unlimited access.
+                    Free users can play up to 3 quiz sets per day. The counter
+                    resets at midnight (your local time). Supporters and
+                    Champions have unlimited access.
                   </p>
                 </div>
               </div>
@@ -339,5 +408,13 @@ export default function SubscribePage() {
       </main>
       <Footer />
     </>
+  );
+}
+
+export default function SubscribePage() {
+  return (
+    <Suspense fallback={<LoadingScreen message="Loading..." />}>
+      <SubscribePageContent />
+    </Suspense>
   );
 }

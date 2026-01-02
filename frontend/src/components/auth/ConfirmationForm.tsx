@@ -1,8 +1,8 @@
-'use client';
+"use client";
 
-import { useState } from 'react';
-import { Input, Button } from '@nextui-org/react';
-import { useAuth } from '@/contexts/AuthContext';
+import { useState } from "react";
+import { Input, Button } from "@nextui-org/react";
+import { useAuth } from "@/contexts/AuthContext";
 
 interface ConfirmationFormProps {
   email: string;
@@ -10,17 +10,21 @@ interface ConfirmationFormProps {
   onSuccess: () => void;
 }
 
-export function ConfirmationForm({ email, password, onSuccess }: ConfirmationFormProps) {
+export function ConfirmationForm({
+  email,
+  password,
+  onSuccess,
+}: ConfirmationFormProps) {
   const { confirmSignUp, signIn } = useAuth();
 
-  const [code, setCode] = useState('');
-  const [error, setError] = useState('');
+  const [code, setCode] = useState("");
+  const [error, setError] = useState("");
   const [isLoading, setIsLoading] = useState(false);
 
   const handleConfirm = async () => {
     if (!code) return;
 
-    setError('');
+    setError("");
     setIsLoading(true);
 
     try {
@@ -31,14 +35,14 @@ export function ConfirmationForm({ email, password, onSuccess }: ConfirmationFor
       }
       onSuccess();
     } catch (err: unknown) {
-      setError(err instanceof Error ? err.message : 'Confirmation failed');
+      setError(err instanceof Error ? err.message : "Confirmation failed");
     } finally {
       setIsLoading(false);
     }
   };
 
   const handleKeyDown = (e: React.KeyboardEvent) => {
-    if (e.key === 'Enter') {
+    if (e.key === "Enter") {
       e.preventDefault();
       handleConfirm();
     }
@@ -47,7 +51,8 @@ export function ConfirmationForm({ email, password, onSuccess }: ConfirmationFor
   return (
     <div className="space-y-4">
       <p className="text-gray-400 text-center text-sm">
-        We sent a confirmation code to<br />
+        We sent a confirmation code to
+        <br />
         <strong className="text-white">{email}</strong>
       </p>
 
@@ -60,8 +65,8 @@ export function ConfirmationForm({ email, password, onSuccess }: ConfirmationFor
         isDisabled={isLoading}
         variant="bordered"
         classNames={{
-          input: 'text-white',
-          label: 'text-gray-400',
+          input: "text-white",
+          label: "text-gray-400",
         }}
       />
 

@@ -1,0 +1,342 @@
+[
+  {
+    "id": "18811b3b-d9c8-46f5-8489-607f982a8688",
+    "text": "The Sargasso Sea is unique among the world's seas because it:",
+    "options": [
+      "Has no coastline and is bounded entirely by ocean currents",
+      "Contains the saltiest water on Earth",
+      "Never experiences storms or hurricanes",
+      "Is completely frozen year-round"
+    ],
+    "correctIndex": 0,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "The Sargasso Sea is the only sea defined by ocean currents rather than land boundaries, enclosed by the North Atlantic Gyre.",
+    "detailedExplanation": "The Sargasso Sea is a region of the North Atlantic Ocean bounded by four currents forming the North Atlantic Gyre: the Gulf Stream on the west, the North Atlantic Current on the north, the Canary Current on the east, and the Atlantic Equatorial Current on the south. This makes it unique as the only sea without land boundaries. The sea is named after the Sargassum seaweed that floats in island-like masses throughout the area. It covers approximately 2 million square miles and is known for its distinctive deep blue color and exceptional clarity due to its low nutrient content.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Sargasso_Sea",
+    "citationTitle": "Wikipedia: Sargasso Sea"
+  },
+  {
+    "id": "2754d46b-c679-4ee3-a1d3-fa2d0fdb2dc6",
+    "text": "What drives the thermohaline circulation, also known as the global conveyor belt?",
+    "options": [
+      "Wind patterns and tidal forces",
+      "Differences in water temperature and salinity",
+      "Underwater volcanic activity",
+      "The Earth's magnetic field"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "Thermohaline circulation is driven by differences in water density caused by variations in temperature (thermo) and salinity (haline).",
+    "detailedExplanation": "Thermohaline circulation is a global system of ocean currents driven by density differences in seawater, which are controlled by temperature and salinity variations. Cold, salty water is denser than warm, fresh water, causing it to sink in polar regions, particularly in the North Atlantic and around Antarctica. This dense water then flows along the ocean floor toward the equator, while warmer surface waters flow poleward to replace it. This circulation pattern plays a crucial role in distributing heat around the planet and regulating global climate, moving approximately 15-20 million cubic meters of water per second worldwide.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Thermohaline_circulation",
+    "citationTitle": "Wikipedia: Thermohaline circulation"
+  },
+  {
+    "id": "427d99bc-dd2e-498b-8b99-d73d09aa3b01",
+    "text": "Which sea is considered the saltiest body of water that is still connected to the world's oceans?",
+    "options": [
+      "Dead Sea",
+      "Red Sea",
+      "Baltic Sea",
+      "Caspian Sea"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "The Red Sea has the highest salinity among seas connected to the ocean, while the Dead Sea is a landlocked salt lake.",
+    "detailedExplanation": "The Red Sea has a salinity of approximately 40 parts per thousand, making it one of the saltiest bodies of water connected to the world's oceans. Its high salinity is due to high evaporation rates, minimal freshwater input, and limited connection with the Indian Ocean through the narrow Bab-el-Mandeb strait. While the Dead Sea has much higher salinity (around 340 parts per thousand), it is technically a hypersaline lake rather than a sea connected to the ocean. The Red Sea's extreme salinity, combined with its warm temperatures, creates a unique marine environment that supports distinctive coral reef ecosystems despite the challenging conditions.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Red_Sea",
+    "citationTitle": "Wikipedia: Red Sea"
+  },
+  {
+    "id": "e0995bdf-df38-4494-87a7-15f6c170528a",
+    "text": "The Kuroshio Current in the Pacific Ocean is most similar to which Atlantic Ocean current?",
+    "options": [
+      "Canary Current",
+      "Gulf Stream",
+      "Labrador Current",
+      "Brazil Current"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "Both the Kuroshio Current and Gulf Stream are powerful, warm western boundary currents that transport heat poleward in their respective ocean basins.",
+    "detailedExplanation": "The Kuroshio Current and the Gulf Stream are both western boundary currents that play similar roles in their respective ocean basins. The Kuroshio flows northward along the coast of Japan, transporting warm tropical water toward higher latitudes, just as the Gulf Stream does along North America's east coast. Both currents are part of their ocean's subtropical gyre systems, are relatively narrow but deep, and transport enormous volumes of water at high speeds. They both separate from their continental boundaries and flow into the open ocean, where they help drive the broader circulation patterns of their respective oceans and significantly influence regional and global climate patterns.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Kuroshio_Current",
+    "citationTitle": "Wikipedia: Kuroshio Current"
+  },
+  {
+    "id": "b931cf6a-a0e2-4526-99d6-507a60399aad",
+    "text": "Which factor primarily determines the direction of surface ocean currents?",
+    "options": [
+      "Underwater mountain ranges",
+      "Prevailing wind patterns",
+      "Ocean floor temperature",
+      "Lunar gravitational pull"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "Surface ocean currents are primarily driven by prevailing wind patterns, which transfer energy to the water through friction.",
+    "detailedExplanation": "Surface ocean currents are predominantly driven by the transfer of energy from wind to water through friction at the ocean surface. The major wind systems of the world, including the trade winds, westerlies, and polar easterlies, create corresponding patterns of ocean circulation. However, the direction of these currents is also significantly influenced by the Coriolis effect, which deflects moving water to the right in the Northern Hemisphere and to the left in the Southern Hemisphere. Additionally, the presence of continents constrains and redirects these currents, creating the characteristic gyre patterns observed in each ocean basin. While factors like underwater topography and tidal forces play roles in local current patterns, wind remains the primary driving force for large-scale surface circulation.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Ocean_current",
+    "citationTitle": "Wikipedia: Ocean current"
+  },
+  {
+    "id": "d8f20e37-f819-42e0-adf6-28eaf2b30ce7",
+    "text": "The Mediterranean Sea experiences very little tidal range because:",
+    "options": [
+      "It's too warm for tides to form",
+      "It's almost completely enclosed with only a narrow connection to the Atlantic",
+      "It's located exactly at the equator",
+      "The surrounding mountains block tidal forces"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "The Mediterranean's nearly enclosed nature and narrow connection to the Atlantic Ocean through the Strait of Gibraltar restricts tidal flow.",
+    "detailedExplanation": "The Mediterranean Sea experiences minimal tidal range, typically less than 30 centimeters, because it is almost completely enclosed and connected to the Atlantic Ocean only through the narrow Strait of Gibraltar. This restricted connection limits the ability of the tidal bulge from the Atlantic to propagate effectively into the Mediterranean basin. Additionally, the Mediterranean's relatively small size compared to open oceans means that the gravitational forces from the moon and sun don't have the same space and time to build up significant tidal movements. The sea's complex coastline and numerous islands further dampen tidal effects by creating friction and interference patterns that reduce tidal amplitude throughout the basin.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Mediterranean_Sea",
+    "citationTitle": "Wikipedia: Mediterranean Sea"
+  },
+  {
+    "id": "ebbaaa7a-707a-499b-a744-c32bb183d030",
+    "text": "What happens to ocean currents when they encounter the Coriolis effect?",
+    "options": [
+      "They speed up significantly",
+      "They deflect to the right in the Northern Hemisphere and left in the Southern Hemisphere",
+      "They reverse direction completely",
+      "They dive deeper into the ocean"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "The Coriolis effect, caused by Earth's rotation, deflects moving water to the right in the Northern Hemisphere and to the left in the Southern Hemisphere.",
+    "detailedExplanation": "The Coriolis effect is a phenomenon caused by Earth's rotation that affects all moving objects, including ocean currents. As water moves across the Earth's surface, the rotation of the planet beneath it causes an apparent deflection of the current's path. In the Northern Hemisphere, this deflection is to the right of the direction of motion, while in the Southern Hemisphere, it's to the left. This effect is strongest at the poles and weakest at the equator. The Coriolis effect is crucial in shaping large-scale ocean circulation patterns, contributing to the formation of the clockwise gyres in the Northern Hemisphere and counterclockwise gyres in the Southern Hemisphere. It also influences the behavior of storms, winds, and other atmospheric phenomena.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Coriolis_force",
+    "citationTitle": "Wikipedia: Coriolis force"
+  },
+  {
+    "id": "059c4825-6eb4-4639-8a4e-54ef6b385438",
+    "text": "Which sea is the saltiest body of water in the world?",
+    "options": [
+      "Red Sea",
+      "Dead Sea",
+      "Caspian Sea",
+      "Aral Sea"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "The Dead Sea has a salinity of about 34%, making it nearly 10 times saltier than most oceans.",
+    "detailedExplanation": "The Dead Sea, located between Israel and Jordan, is technically a hypersaline lake rather than a true sea. With a salinity level of approximately 34%, it is nearly 10 times saltier than typical ocean water. This extreme salinity is due to high evaporation rates in the desert climate and the fact that the Dead Sea is a terminal lake with no outlet. The high salt content makes the water so dense that people can easily float on its surface, and the extreme salinity prevents most forms of life from surviving in its waters.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Dead_Sea",
+    "citationTitle": "Wikipedia: Dead Sea"
+  },
+  {
+    "id": "f304c0ac-28f7-467d-8b02-a8614bbb6741",
+    "text": "What drives the formation of deep ocean currents in a process known as thermohaline circulation?",
+    "options": [
+      "Wind patterns",
+      "Tidal forces",
+      "Temperature and salinity differences",
+      "Earth's magnetic field"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "Thermohaline circulation is driven by differences in water density caused by variations in temperature and salinity.",
+    "detailedExplanation": "Thermohaline circulation, often called the 'global conveyor belt,' is the large-scale movement of ocean water driven by differences in water density, which is determined by temperature ('thermo') and salinity ('haline'). Cold, salty water is denser and sinks to the ocean floor, particularly in polar regions, while warmer, less salty water rises and flows along the surface. This process creates a global system of deep ocean currents that can take hundreds to thousands of years to complete a full cycle, playing a crucial role in distributing heat around the planet and influencing global climate patterns.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Thermohaline_circulation",
+    "citationTitle": "Wikipedia: Thermohaline circulation"
+  },
+  {
+    "id": "79cbc71e-8cc9-456a-830d-0a5e1ec99d81",
+    "text": "The Sargasso Sea is unique because it is the only sea in the world that has no what?",
+    "options": [
+      "Fish species",
+      "Land boundaries",
+      "Coral reefs",
+      "Tidal movements"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "The Sargasso Sea is bounded entirely by ocean currents rather than land masses, making it unique among seas.",
+    "detailedExplanation": "The Sargasso Sea is a distinctive region of the North Atlantic Ocean that is defined not by coastlines but by the ocean currents that surround it, including the Gulf Stream, North Atlantic Current, Canary Current, and North Atlantic Equatorial Current. This makes it the only 'sea' in the world with no land boundaries. The sea is named after the floating sargassum seaweed that accumulates in this relatively calm area. It covers approximately 2 million square miles and is famous for being the breeding ground for American and European eels, as well as being associated with the mysterious Bermuda Triangle.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Sargasso_Sea",
+    "citationTitle": "Wikipedia: Sargasso Sea"
+  },
+  {
+    "id": "0dead1a4-5c56-467d-8642-b884e8c1e58d",
+    "text": "Which phenomenon occurs when warm ocean water in the Pacific disrupts normal weather patterns globally?",
+    "options": [
+      "La Niña",
+      "El Niño",
+      "Indian Ocean Dipole",
+      "Atlantic Multidecadal Oscillation"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "El Niño is characterized by unusually warm ocean temperatures in the eastern Pacific that can affect weather worldwide.",
+    "detailedExplanation": "El Niño is a climate pattern characterized by the warming of sea surface temperatures in the central and eastern tropical Pacific Ocean. This warming disrupts normal atmospheric circulation patterns, leading to significant changes in weather around the globe. During El Niño events, trade winds weaken or even reverse, preventing the usual upwelling of cold, nutrient-rich water along the South American coast. The phenomenon typically occurs every 2-7 years and can cause droughts in some regions while bringing heavy rainfall and flooding to others, affecting agriculture, fishing, and weather patterns worldwide.",
+    "citationUrl": "https://en.wikipedia.org/wiki/El_Ni%C3%B1o",
+    "citationTitle": "Wikipedia: El Niño"
+  },
+  {
+    "id": "4b802d5d-d0d2-452a-ad39-45f2bdd954f9",
+    "text": "Which strait connects the Mediterranean Sea to the Atlantic Ocean?",
+    "options": [
+      "Strait of Hormuz",
+      "Strait of Gibraltar",
+      "Bering Strait",
+      "Strait of Malacca"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "The Strait of Gibraltar is the narrow waterway between Spain and Morocco that links the Mediterranean to the Atlantic.",
+    "detailedExplanation": "The Strait of Gibraltar is a narrow strait that connects the Atlantic and Mediterranean seas and separates Europe (Spain) from Africa (Morocco). At its narrowest point, the strait is only about 14 kilometers (8.7 miles) wide, making it one of the world's most strategically important waterways. The strait has been crucial for maritime trade and military control throughout history, and its unique geography creates interesting oceanographic conditions where Atlantic and Mediterranean waters mix. The depth varies from 300 to 900 meters, and the strait experiences complex current patterns due to the different densities of Atlantic and Mediterranean waters.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Strait_of_Gibraltar",
+    "citationTitle": "Wikipedia: Strait of Gibraltar"
+  },
+  {
+    "id": "338504eb-7336-4297-b326-0de4375831a5",
+    "text": "What is the name of the circular ocean current systems found in each of the major ocean basins?",
+    "options": [
+      "Eddies",
+      "Gyres",
+      "Upwellings",
+      "Thermoclines"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "Gyres are large-scale circular current systems that rotate clockwise in the Northern Hemisphere and counterclockwise in the Southern Hemisphere.",
+    "detailedExplanation": "Gyres are massive circular current systems that dominate the circulation patterns in each of the world's major ocean basins. There are five major subtropical gyres: North Pacific, South Pacific, North Atlantic, South Atlantic, and Indian Ocean gyres. These currents are driven primarily by global wind patterns and the Coriolis effect, causing them to rotate clockwise in the Northern Hemisphere and counterclockwise in the Southern Hemisphere. Gyres play a crucial role in distributing heat, nutrients, and marine life around the oceans, and unfortunately, they also tend to accumulate floating debris, leading to formations like the Great Pacific Garbage Patch.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Ocean_gyre",
+    "citationTitle": "Wikipedia: Ocean gyre"
+  },
+  {
+    "id": "54fc7a99-c26b-41bf-862c-4cc0e5571450",
+    "text": "Which sea is shrinking dramatically due to water diversion and is now only about 10% of its original size?",
+    "options": [
+      "Caspian Sea",
+      "Aral Sea",
+      "Sea of Azov",
+      "Salton Sea"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "The Aral Sea has shrunk dramatically since the 1960s due to irrigation projects diverting its water sources.",
+    "detailedExplanation": "The Aral Sea, once the world's fourth-largest lake, has experienced one of the most dramatic environmental disasters in modern history. Located between Kazakhstan and Uzbekistan, it has shrunk to approximately 10% of its original size since the 1960s due to massive irrigation projects that diverted water from the Amu Darya and Syr Darya rivers for cotton production. This shrinkage has led to the exposure of the former lake bed, creating the Aralkum Desert, increased salinity in the remaining water, collapse of the local fishing industry, and significant health problems for local populations due to salt and chemical-laden dust storms.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Aral_Sea",
+    "citationTitle": "Wikipedia: Aral Sea"
+  },
+  {
+    "id": "7378c386-fa69-492a-ae3a-6386729210b8",
+    "text": "The Sargasso Sea is unique among seas because it has which distinctive characteristic?",
+    "options": [
+      "It has no land boundaries",
+      "It contains no fish",
+      "It is completely frozen year-round",
+      "It is the saltiest sea on Earth"
+    ],
+    "correctIndex": 0,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "The Sargasso Sea is defined entirely by ocean currents rather than land masses, making it the only sea with no coastline.",
+    "detailedExplanation": "The Sargasso Sea is a region of the North Atlantic Ocean bounded by four major currents: the Gulf Stream to the west and north, the North Atlantic Current to the north, the Canary Current to the east, and the Atlantic Equatorial Current to the south. This makes it unique as the only sea in the world that is defined entirely by ocean currents rather than land boundaries. The sea is named after the floating brown Sargassum seaweed that accumulates there and serves as a critical habitat for many marine species, including young sea turtles and eels.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Sargasso_Sea",
+    "citationTitle": "Wikipedia: Sargasso Sea"
+  },
+  {
+    "id": "48cc91f2-daf0-434f-a48a-c3b53eb5567a",
+    "text": "El Niño is a climate pattern that significantly affects global weather. In which body of water does this phenomenon primarily occur?",
+    "options": [
+      "Atlantic Ocean",
+      "Indian Ocean",
+      "Pacific Ocean",
+      "Arctic Ocean"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "El Niño occurs in the Pacific Ocean when warm water spreads eastward, disrupting normal ocean current patterns.",
+    "detailedExplanation": "El Niño is a climate pattern characterized by the warming of sea surface temperatures in the central and eastern tropical Pacific Ocean. During normal conditions, trade winds blow warm water westward across the Pacific, but during El Niño events, these winds weaken or reverse, allowing warm water to flow eastward toward the Americas. This disruption of normal ocean current patterns affects weather worldwide, typically bringing increased rainfall to South America's west coast, droughts to Australia and Southeast Asia, and altered storm patterns globally.",
+    "citationUrl": "https://en.wikipedia.org/wiki/El_Ni%C3%B1o",
+    "citationTitle": "Wikipedia: El Niño"
+  },
+  {
+    "id": "72ca6538-144e-454f-b100-69d5072cf5a8",
+    "text": "Which ocean current is responsible for keeping Western Europe's climate significantly warmer than other regions at similar latitudes?",
+    "options": [
+      "Gulf Stream",
+      "Kuroshio Current",
+      "California Current",
+      "Benguela Current"
+    ],
+    "correctIndex": 0,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "The Gulf Stream transports warm water from the Gulf of Mexico across the Atlantic, moderating Western Europe's climate.",
+    "detailedExplanation": "The Gulf Stream is a powerful warm ocean current that originates in the Gulf of Mexico and flows northeastward along the eastern coast of North America before crossing the Atlantic Ocean. This current transports approximately 30 million cubic meters of warm water per second, releasing heat into the atmosphere that significantly warms Western Europe. Without the Gulf Stream, countries like the United Kingdom and Norway would experience much harsher winters similar to those found in Labrador, Canada, which sits at comparable latitudes.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Gulf_Stream",
+    "citationTitle": "Wikipedia: Gulf Stream"
+  },
+  {
+    "id": "e34eb6e8-1a73-4da2-affb-924232b47b77",
+    "text": "The Sargasso Sea, famous for its floating seaweed, is located in which ocean and is bounded by what natural feature?",
+    "options": [
+      "Pacific Ocean, bounded by coral reefs",
+      "Atlantic Ocean, bounded by ocean currents",
+      "Indian Ocean, bounded by monsoon winds",
+      "Arctic Ocean, bounded by ice sheets"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "The Sargasso Sea is in the North Atlantic Ocean and is uniquely defined by four surrounding ocean currents rather than land boundaries.",
+    "detailedExplanation": "The Sargasso Sea is a unique region of the North Atlantic Ocean that is defined not by land boundaries but by four major ocean currents: the Gulf Stream to the west, the North Atlantic Current to the north, the Canary Current to the east, and the Atlantic Equatorial Current to the south. This circular system of currents creates a relatively calm area where Sargassum seaweed accumulates in large floating mats. The sea covers approximately 2 million square miles and plays a crucial role as a spawning ground for European and American eels.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Sargasso_Sea",
+    "citationTitle": "Wikipedia: Sargasso Sea"
+  },
+  {
+    "id": "a02a12ad-9962-41b8-9cca-314f0d7e6018",
+    "text": "Which sea has the highest salt concentration in the world, making it nearly impossible for most marine life to survive?",
+    "options": [
+      "Great Salt Lake",
+      "Dead Sea",
+      "Lake Assal",
+      "Don Juan Pond"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "The Dead Sea has a salt concentration of about 34%, nearly 10 times saltier than most oceans.",
+    "detailedExplanation": "The Dead Sea, located between Israel and Jordan, is one of the saltiest bodies of water on Earth with a salt concentration of approximately 34% (340 grams per liter). This extreme salinity is due to the sea's location in a closed basin with no outlet, high evaporation rates, and mineral-rich water sources. The high salt content creates such dense water that people can easily float on the surface, and the environment is so harsh that it earned its name from the apparent absence of life, though some extremophile bacteria and fungi can actually survive in these conditions.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Dead_Sea",
+    "citationTitle": "Wikipedia: Dead Sea"
+  },
+  {
+    "id": "66a2796f-5a21-4304-a497-8632c30fc9c4",
+    "text": "The Humboldt Current, also known as the Peru Current, is responsible for creating which significant weather phenomenon?",
+    "options": [
+      "Monsoons in South Asia",
+      "Hurricanes in the Caribbean",
+      "Desert conditions along Peru's coast",
+      "Typhoons in the Western Pacific"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "The cold Humboldt Current creates atmospheric conditions that prevent rainfall, contributing to the Atacama Desert's extreme aridity.",
+    "detailedExplanation": "The Humboldt Current is a cold ocean current that flows northward along the western coast of South America. This cold current significantly affects the regional climate by cooling the air above it, which reduces the air's ability to hold moisture and creates high-pressure systems that suppress precipitation. As a result, the current contributes to the formation of the Atacama Desert in Chile, one of the driest places on Earth, and keeps Peru's coastal regions extremely arid despite being adjacent to the ocean. The current also supports rich marine ecosystems due to upwelling of nutrient-rich deep waters.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Humboldt_Current",
+    "citationTitle": "Wikipedia: Humboldt Current"
+  }
+]

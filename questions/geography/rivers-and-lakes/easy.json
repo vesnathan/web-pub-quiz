@@ -1,0 +1,342 @@
+[
+  {
+    "id": "c5e1fcca-56ee-4740-9dda-de899938868b",
+    "text": "Which river is considered the longest in the world?",
+    "options": [
+      "Amazon River",
+      "Nile River",
+      "Mississippi River",
+      "Yangtze River"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "The Nile River in Africa is widely considered the longest river in the world at approximately 6,650 kilometers (4,130 miles).",
+    "detailedExplanation": "The Nile River flows northward through northeastern Africa for about 6,650 kilometers, making it the longest river in the world. It passes through eleven countries, including Egypt, Sudan, and Uganda, before emptying into the Mediterranean Sea. While the Amazon River carries more water and has a larger drainage basin, the Nile holds the record for length.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Nile",
+    "citationTitle": "Wikipedia: Nile"
+  },
+  {
+    "id": "b3c21bb7-8f21-4d2b-b764-06a98a8dee6a",
+    "text": "Which of these is the largest lake in the world by surface area?",
+    "options": [
+      "Lake Superior",
+      "Caspian Sea",
+      "Lake Victoria",
+      "Lake Baikal"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "The Caspian Sea is the world's largest lake by surface area, covering approximately 371,000 square kilometers.",
+    "detailedExplanation": "Despite its name, the Caspian Sea is actually a lake—the world's largest by surface area. Located between Europe and Asia, it covers about 371,000 square kilometers and is bordered by five countries: Russia, Kazakhstan, Turkmenistan, Iran, and Azerbaijan. It's also notable for being a saltwater lake, unlike many of the world's other large lakes.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Caspian_Sea",
+    "citationTitle": "Wikipedia: Caspian Sea"
+  },
+  {
+    "id": "6036f689-08c9-4e5e-bdc4-6adc35faef5b",
+    "text": "The Thames River flows through which major European capital city?",
+    "options": [
+      "Paris",
+      "London",
+      "Berlin",
+      "Rome"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "The Thames River flows through London, the capital of England and the United Kingdom.",
+    "detailedExplanation": "The River Thames is England's longest river, flowing 346 kilometers from its source in Gloucestershire through southern England and into the North Sea. It passes through the heart of London, where it's crossed by numerous famous bridges including Tower Bridge, London Bridge, and Westminster Bridge. The Thames has been central to London's development as a major port and commercial center throughout history.",
+    "citationUrl": "https://en.wikipedia.org/wiki/River_Thames",
+    "citationTitle": "Wikipedia: River Thames"
+  },
+  {
+    "id": "506032be-ae1d-4cc3-bc23-8338deaa184f",
+    "text": "Which of these rivers forms part of the border between the United States and Mexico?",
+    "options": [
+      "Colorado River",
+      "Rio Grande",
+      "Columbia River",
+      "Sacramento River"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "The Rio Grande forms part of the natural border between the United States and Mexico for about 2,000 kilometers.",
+    "detailedExplanation": "The Rio Grande, known as Río Bravo del Norte in Mexico, serves as the natural border between Texas and Mexico for approximately 2,000 kilometers. The river originates in the Rocky Mountains of Colorado and flows southeast through New Mexico before forming the international boundary. It eventually empties into the Gulf of Mexico near Brownsville, Texas, and Matamoros, Mexico.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Rio_Grande",
+    "citationTitle": "Wikipedia: Rio Grande"
+  },
+  {
+    "id": "19e74811-bdd5-45c7-a146-640dcccaf9fd",
+    "text": "Lake Baikal, the world's deepest lake, is located in which country?",
+    "options": [
+      "China",
+      "Mongolia",
+      "Russia",
+      "Kazakhstan"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "Lake Baikal is located in southern Siberia, Russia, and is the world's deepest and oldest freshwater lake.",
+    "detailedExplanation": "Lake Baikal is situated in southern Siberia, Russia, between the Irkutsk Oblast and the Buryat Republic. At 1,642 meters deep, it's not only the world's deepest lake but also the oldest, estimated to be 25-30 million years old. Despite covering less surface area than some other lakes, Baikal contains about 20% of the world's unfrozen freshwater due to its incredible depth.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Lake_Baikal",
+    "citationTitle": "Wikipedia: Lake Baikal"
+  },
+  {
+    "id": "be9e1c5e-ab38-4d1f-8773-fffcb0f217eb",
+    "text": "Which river is famous for flowing through the Grand Canyon?",
+    "options": [
+      "Colorado River",
+      "Snake River",
+      "Green River",
+      "Arkansas River"
+    ],
+    "correctIndex": 0,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "The Colorado River carved the Grand Canyon over millions of years and continues to flow through it today.",
+    "detailedExplanation": "The Colorado River is responsible for creating one of the world's most famous natural landmarks, the Grand Canyon in Arizona. Over approximately 6 million years, the river carved through rock layers to create the canyon, which is up to 1.6 kilometers deep and 29 kilometers wide. The Colorado River flows 2,330 kilometers from the Rocky Mountains through seven U.S. states and two Mexican states before reaching the Gulf of California.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Colorado_River",
+    "citationTitle": "Wikipedia: Colorado River"
+  },
+  {
+    "id": "93445c7a-0842-47f9-a4e9-ac5223f5fcdb",
+    "text": "The Great Lakes are shared between the United States and which other country?",
+    "options": [
+      "Mexico",
+      "Canada",
+      "Cuba",
+      "Greenland"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "The Great Lakes are shared between the United States and Canada, forming part of the border between the two countries.",
+    "detailedExplanation": "The Great Lakes—Superior, Huron, Michigan, Erie, and Ontario—are shared between the United States and Canada, with Lake Michigan being the only one located entirely within the United States. These five lakes contain about 21% of the world's surface freshwater and form the largest group of freshwater lakes on Earth by total area. The lakes serve as a natural border between the two countries and are connected by rivers, straits, and canals.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Great_Lakes",
+    "citationTitle": "Wikipedia: Great Lakes"
+  },
+  {
+    "id": "7c519085-18cf-4653-85de-00ce2227e815",
+    "text": "Which river is considered sacred in Hinduism and flows through India?",
+    "options": [
+      "Indus River",
+      "Brahmaputra River",
+      "Ganges River",
+      "Yamuna River"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "The Ganges River is considered the most sacred river in Hinduism and flows through northern India.",
+    "detailedExplanation": "The Ganges River, known as Ganga in Hindi, is the most sacred river in Hinduism and flows 2,525 kilometers through northern India and Bangladesh before emptying into the Bay of Bengal. Originating in the Himalayas, the river passes through major cities including Haridwar, Allahabad, Varanasi, and Kolkata. Millions of Hindus consider the river sacred and believe that bathing in its waters can wash away sins and help achieve salvation.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Ganges",
+    "citationTitle": "Wikipedia: Ganges"
+  },
+  {
+    "id": "d0439e99-01fb-49a7-8f07-f4713633137a",
+    "text": "Which river is the longest in the world?",
+    "options": [
+      "Amazon River",
+      "Nile River",
+      "Mississippi River",
+      "Yangtze River"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "The Nile River in Africa is considered the longest river in the world at approximately 6,650 kilometers (4,130 miles).",
+    "detailedExplanation": "The Nile River flows through northeastern Africa for about 6,650 kilometers, making it the longest river in the world. It flows through eleven countries, including Egypt, Sudan, and Ethiopia, before emptying into the Mediterranean Sea. While the Amazon carries more water by volume, the Nile holds the record for length.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Nile",
+    "citationTitle": "Wikipedia: Nile"
+  },
+  {
+    "id": "e51e0ed8-bfb8-42a4-a73e-dd521e40ec71",
+    "text": "What is the largest lake in the world by surface area?",
+    "options": [
+      "Lake Superior",
+      "Caspian Sea",
+      "Lake Victoria",
+      "Lake Baikal"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "The Caspian Sea, despite its name, is actually a lake and is the largest body of enclosed water on Earth by surface area.",
+    "detailedExplanation": "The Caspian Sea covers approximately 371,000 square kilometers (143,000 square miles), making it the largest lake in the world by surface area. Located between Europe and Asia, it's bordered by Russia, Kazakhstan, Turkmenistan, Iran, and Azerbaijan. Despite being called a 'sea,' it's technically a lake because it's completely enclosed by land.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Caspian_Sea",
+    "citationTitle": "Wikipedia: Caspian Sea"
+  },
+  {
+    "id": "a2b2b864-b537-47e6-8183-b684f8390778",
+    "text": "Through which major city does the River Thames flow?",
+    "options": [
+      "Manchester",
+      "Birmingham",
+      "London",
+      "Liverpool"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "The River Thames flows through London, England's capital city, passing famous landmarks like Big Ben and Tower Bridge.",
+    "detailedExplanation": "The River Thames is England's longest river, flowing 346 kilometers through southern England. It passes through London, where it's crossed by numerous iconic bridges including London Bridge, Tower Bridge, and Westminster Bridge. The Thames has been central to London's development as a major port and commercial center throughout history.",
+    "citationUrl": "https://en.wikipedia.org/wiki/River_Thames",
+    "citationTitle": "Wikipedia: River Thames"
+  },
+  {
+    "id": "79b446a3-6798-41cb-b0f9-3fb1f9e960eb",
+    "text": "Lake Superior is shared between which two countries?",
+    "options": [
+      "USA and Mexico",
+      "Canada and USA",
+      "Canada and Russia",
+      "USA and Alaska"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "Lake Superior is shared between Canada and the United States, forming part of the Great Lakes system.",
+    "detailedExplanation": "Lake Superior is the largest of the Great Lakes and is shared between the United States and Canada. The northern shore belongs to Canada (Ontario), while the southern and western shores belong to the United States (Minnesota, Wisconsin, and Michigan). It's the largest freshwater lake in the world by surface area and contains about 10% of the world's fresh surface water.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Lake_Superior",
+    "citationTitle": "Wikipedia: Lake Superior"
+  },
+  {
+    "id": "00ac1845-b8f8-4c5b-95e2-b639865391cf",
+    "text": "Which river is known as the 'Mother Ganga' and is considered sacred in Hinduism?",
+    "options": [
+      "Indus River",
+      "Brahmaputra River",
+      "Ganges River",
+      "Yamuna River"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "The Ganges River is considered sacred in Hinduism and is often referred to as 'Mother Ganga' by devotees.",
+    "detailedExplanation": "The Ganges River, known as Ganga in Hindi, flows through India and Bangladesh and is considered the most sacred river in Hinduism. Millions of pilgrims visit its banks annually, particularly in cities like Varanasi and Haridwar. The river originates in the Himalayas and flows into the Bay of Bengal, providing water for over 400 million people.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Ganges",
+    "citationTitle": "Wikipedia: Ganges"
+  },
+  {
+    "id": "283ad8ec-c304-4a22-b2a9-365dcf995ef8",
+    "text": "What type of lake is the Dead Sea?",
+    "options": [
+      "Freshwater lake",
+      "Salt lake",
+      "Volcanic lake",
+      "Artificial reservoir"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "The Dead Sea is a salt lake with extremely high salinity, making it nearly impossible for most life forms to survive in its waters.",
+    "detailedExplanation": "The Dead Sea is a hypersaline lake located between Israel and Jordan. With a salinity of about 34%, it's nearly 10 times saltier than most oceans, earning its name because few organisms can survive in such conditions. The high salt content makes swimmers extremely buoyant, and it's also the lowest point on Earth's surface at about 430 meters below sea level.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Dead_Sea",
+    "citationTitle": "Wikipedia: Dead Sea"
+  },
+  {
+    "id": "00abe3f9-977b-45f5-9f25-22ca80da834b",
+    "text": "Which river runs through the Grand Canyon in the United States?",
+    "options": [
+      "Missouri River",
+      "Colorado River",
+      "Snake River",
+      "Green River"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "The Colorado River carved the Grand Canyon over millions of years through the process of erosion.",
+    "detailedExplanation": "The Colorado River flows through the Grand Canyon in Arizona, having carved this spectacular geological formation over approximately 5-6 million years. The river continues to flow through the canyon today, approximately one mile below the rim. The Grand Canyon is about 446 kilometers long and up to 29 kilometers wide, showcasing nearly 2 billion years of Earth's geological history in its rock layers.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Colorado_River",
+    "citationTitle": "Wikipedia: Colorado River"
+  },
+  {
+    "id": "76d5bd48-8355-4814-a795-f9dab6059c3d",
+    "text": "Which is the longest river in the world?",
+    "options": [
+      "Amazon River",
+      "Nile River",
+      "Mississippi River",
+      "Yangtze River"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "The Nile River in Africa is the longest river in the world at approximately 6,650 kilometers (4,130 miles).",
+    "detailedExplanation": "The Nile River flows through northeastern Africa for about 6,650 kilometers (4,130 miles), making it the longest river in the world. It flows through eleven countries including Egypt, Sudan, and Uganda, before emptying into the Mediterranean Sea. While the Amazon River carries more water and has a larger drainage basin, the Nile holds the record for length.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Nile",
+    "citationTitle": "Wikipedia: Nile"
+  },
+  {
+    "id": "e267edf3-3c08-4c7c-ad81-44c62b7b6775",
+    "text": "What is the largest freshwater lake in the world by surface area?",
+    "options": [
+      "Lake Baikal",
+      "Lake Superior",
+      "Lake Victoria",
+      "Caspian Sea"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "Lake Superior, located between the United States and Canada, is the largest freshwater lake by surface area.",
+    "detailedExplanation": "Lake Superior covers approximately 82,100 square kilometers (31,700 square miles), making it the largest freshwater lake in the world by surface area. It is one of the Great Lakes of North America, situated on the border between the United States and Canada. While the Caspian Sea is larger, it is technically a saltwater lake, and Lake Baikal, though containing the most freshwater by volume, has a smaller surface area.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Lake_Superior",
+    "citationTitle": "Wikipedia: Lake Superior"
+  },
+  {
+    "id": "de1fe89f-a6cb-4c4a-887d-75e644788e89",
+    "text": "Which river forms part of the border between the United States and Mexico?",
+    "options": [
+      "Colorado River",
+      "Rio Grande",
+      "Columbia River",
+      "Sacramento River"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "The Rio Grande forms part of the natural border between the United States and Mexico.",
+    "detailedExplanation": "The Rio Grande flows for about 3,051 kilometers (1,896 miles) from Colorado through New Mexico and along the Texas-Mexico border before emptying into the Gulf of Mexico. It serves as a natural boundary between the United States and Mexico for approximately 2,000 kilometers (1,200 miles). The river is known as 'Río Bravo' or 'Río Bravo del Norte' in Mexico.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Rio_Grande",
+    "citationTitle": "Wikipedia: Rio Grande"
+  },
+  {
+    "id": "a35544e3-c21d-43a2-b1c0-50d1e6da8331",
+    "text": "In which African country would you find Lake Victoria?",
+    "options": [
+      "Only Kenya",
+      "Only Tanzania",
+      "Only Uganda",
+      "Kenya, Tanzania, and Uganda"
+    ],
+    "correctIndex": 3,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "Lake Victoria is shared by three African countries: Kenya, Tanzania, and Uganda.",
+    "detailedExplanation": "Lake Victoria is the largest lake in Africa and the second-largest freshwater lake in the world by surface area. It covers approximately 68,800 square kilometers (26,600 square miles) and is shared by three East African countries: Uganda, Kenya, and Tanzania. The lake is a major source of the Nile River and supports millions of people in the region through fishing, transportation, and water supply.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Lake_Victoria",
+    "citationTitle": "Wikipedia: Lake Victoria"
+  },
+  {
+    "id": "682e0b2d-c212-44f0-8d47-90ad1af81194",
+    "text": "Which river is the longest river in the world?",
+    "options": [
+      "Amazon River",
+      "Nile River",
+      "Mississippi River",
+      "Yangtze River"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "The Nile River in Africa is generally considered the longest river in the world at approximately 6,650 kilometers (4,130 miles).",
+    "detailedExplanation": "The Nile River, flowing through northeastern Africa, is widely recognized as the world's longest river at approximately 6,650 kilometers (4,130 miles) long. It flows through eleven countries including Uganda, Sudan, and Egypt before emptying into the Mediterranean Sea. While there has been some debate with the Amazon River also being a contender for this title, the Nile is traditionally and most commonly cited as the longest river system in the world.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Nile",
+    "citationTitle": "Wikipedia: Nile"
+  }
+]

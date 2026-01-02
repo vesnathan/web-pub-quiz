@@ -1,0 +1,342 @@
+[
+  {
+    "id": "2ce06267-2a19-4f09-a91f-40e821f82799",
+    "text": "What is the name of the process where unrelated species evolve similar traits due to similar environmental pressures?",
+    "options": [
+      "Divergent evolution",
+      "Convergent evolution",
+      "Parallel evolution",
+      "Coevolution"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Convergent evolution occurs when unrelated species independently develop similar characteristics in response to similar environmental challenges.",
+    "detailedExplanation": "Convergent evolution is a fascinating process where species that are not closely related independently evolve similar traits. Classic examples include the wings of bats (mammals) and birds (reptiles), or the camera eyes of vertebrates and octopi. This occurs because similar environmental pressures and ecological niches favor similar solutions, leading to remarkable similarities between distantly related organisms.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Convergent_evolution",
+    "citationTitle": "Wikipedia: Convergent evolution"
+  },
+  {
+    "id": "6b781b54-1302-4b15-9ddb-1d327487b187",
+    "text": "Which scientist independently developed a theory of evolution by natural selection at the same time as Charles Darwin?",
+    "options": [
+      "Gregor Mendel",
+      "Alfred Russel Wallace",
+      "Jean-Baptiste Lamarck",
+      "Thomas Malthus"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Alfred Russel Wallace independently conceived the theory of evolution through natural selection and sent his ideas to Darwin in 1858.",
+    "detailedExplanation": "Alfred Russel Wallace was a British naturalist who, while studying wildlife in the Malay Archipelago, independently arrived at the same conclusions about natural selection as Darwin. Wallace sent his manuscript to Darwin in 1858, prompting Darwin to finally publish his long-delayed work. Both scientists' papers were presented together to the Linnean Society, though Darwin's subsequent book 'On the Origin of Species' received more attention and credit.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Alfred_Russel_Wallace",
+    "citationTitle": "Wikipedia: Alfred Russel Wallace"
+  },
+  {
+    "id": "98755749-1624-49df-9917-f39e76798355",
+    "text": "What term describes the evolutionary principle that structures not currently used for survival may still be retained from ancestors?",
+    "options": [
+      "Adaptive radiation",
+      "Vestigial structures",
+      "Homologous structures",
+      "Analogous structures"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Vestigial structures are remnants of features that served important functions in an organism's ancestors but are now reduced or unused.",
+    "detailedExplanation": "Vestigial structures provide compelling evidence for evolution, showing that organisms carry evolutionary 'baggage' from their ancestors. Examples include the human appendix, whale hip bones, and the wings of flightless birds like ostriches. These structures persist because they don't significantly harm survival and reproduction, even though they no longer serve their original function. They demonstrate common ancestry and the gradual nature of evolutionary change.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Vestigiality",
+    "citationTitle": "Wikipedia: Vestigiality"
+  },
+  {
+    "id": "ecdf4484-59f0-4d5d-9169-6fe1a2bbbc6f",
+    "text": "In Darwin's finches, what environmental factor was most important in driving the evolution of different beak shapes?",
+    "options": [
+      "Predator pressure",
+      "Food sources",
+      "Nesting materials",
+      "Climate change"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Different food sources on various Galápagos islands led to the evolution of specialized beak shapes adapted for specific feeding strategies.",
+    "detailedExplanation": "Darwin's finches demonstrate adaptive radiation, where a single ancestral species diversified into multiple species with different ecological niches. On different Galápagos islands, finches encountered varying food sources - seeds of different sizes, nectar, insects, and even blood. This led to the evolution of specialized beak shapes: large, strong beaks for cracking big seeds, thin beaks for extracting nectar, and sharp beaks for pecking. This classic example shows how natural selection shapes organisms to exploit available resources.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Darwin%27s_finches",
+    "citationTitle": "Wikipedia: Darwin's finches"
+  },
+  {
+    "id": "1d0e1851-7a4c-4f8e-9b3d-f71de676eed6",
+    "text": "What type of natural selection occurs when extreme traits are favored over intermediate ones?",
+    "options": [
+      "Stabilizing selection",
+      "Directional selection",
+      "Disruptive selection",
+      "Sexual selection"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Disruptive selection favors individuals at both extremes of a trait distribution while selecting against intermediate forms.",
+    "detailedExplanation": "Disruptive selection, also called diversifying selection, occurs when environmental conditions favor individuals with extreme versions of a trait while disadvantaging those with intermediate traits. This can lead to a bimodal distribution and potentially to speciation. A classic example is the British peppered moths, where both very light and very dark moths had advantages in different environments, while intermediate forms were more easily spotted by predators on both light and dark surfaces.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Disruptive_selection",
+    "citationTitle": "Wikipedia: Disruptive selection"
+  },
+  {
+    "id": "146e4316-46f4-435a-a4c4-8202c2e03def",
+    "text": "What is the term for when two species evolve in response to each other, like predators and prey?",
+    "options": [
+      "Convergent evolution",
+      "Parallel evolution",
+      "Coevolution",
+      "Adaptive radiation"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Coevolution occurs when two or more species reciprocally affect each other's evolution through their interactions.",
+    "detailedExplanation": "Coevolution describes the reciprocal evolutionary changes that occur between interacting species over time. Classic examples include predator-prey relationships (like cheetahs and gazelles), plant-pollinator relationships (flowers and bees), and host-parasite interactions. As one species develops new traits, it creates selective pressure on the other species to develop counter-adaptations, leading to an evolutionary 'arms race.' This process has driven much of the diversity and complexity we see in ecological relationships today.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Coevolution",
+    "citationTitle": "Wikipedia: Coevolution"
+  },
+  {
+    "id": "3cfe8d8f-2296-4fd4-8a07-04390123979d",
+    "text": "According to the Hardy-Weinberg principle, what happens to allele frequencies in a population under ideal conditions?",
+    "options": [
+      "They increase over time",
+      "They decrease over time",
+      "They remain constant",
+      "They fluctuate randomly"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "The Hardy-Weinberg principle states that allele frequencies remain constant in a population when certain conditions are met.",
+    "detailedExplanation": "The Hardy-Weinberg principle provides a null hypothesis for population genetics, describing what happens to genetic variation in an idealized population. Under conditions of no mutation, no gene flow, large population size, random mating, and no natural selection, allele frequencies will remain constant from generation to generation. This principle is crucial because it allows scientists to identify when evolution is occurring by comparing real populations to this theoretical baseline. Deviations from Hardy-Weinberg equilibrium indicate that evolutionary forces are at work.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Hardy%E2%80%93Weinberg_principle",
+    "citationTitle": "Wikipedia: Hardy–Weinberg principle"
+  },
+  {
+    "id": "9995e859-4c50-4220-8f03-b8b352a9a92f",
+    "text": "What evolutionary mechanism can cause rapid changes in small populations due to random events?",
+    "options": [
+      "Natural selection",
+      "Gene flow",
+      "Genetic drift",
+      "Mutation"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Genetic drift is the random change in allele frequencies that has a stronger effect in smaller populations.",
+    "detailedExplanation": "Genetic drift refers to random changes in allele frequencies that occur in all populations, but have much stronger effects in smaller populations. Unlike natural selection, genetic drift is not adaptive - it can lead to the loss of beneficial alleles or the fixation of harmful ones purely by chance. Examples include the founder effect (when a small group establishes a new population) and bottleneck effects (when populations are severely reduced in size). Genetic drift is particularly important in conservation biology and understanding the evolution of small, isolated populations.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Genetic_drift",
+    "citationTitle": "Wikipedia: Genetic drift"
+  },
+  {
+    "id": "fb1b5076-4452-409c-9017-2e04454694e5",
+    "text": "Which scientist, alongside Charles Darwin, independently developed the theory of evolution by natural selection?",
+    "options": [
+      "Alfred Russel Wallace",
+      "Gregor Mendel",
+      "Thomas Huxley",
+      "Jean-Baptiste Lamarck"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Alfred Russel Wallace independently conceived the theory of evolution by natural selection and co-presented it with Darwin in 1858.",
+    "detailedExplanation": "Alfred Russel Wallace was a British naturalist who, while conducting fieldwork in the Malay Archipelago, independently arrived at the same conclusions about evolution by natural selection as Charles Darwin. Wallace sent his essay on the subject to Darwin in 1858, prompting Darwin to present their findings jointly to the Linnean Society. This collaboration is often overlooked, with Darwin receiving most of the credit for the theory.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Alfred_Russel_Wallace",
+    "citationTitle": "Wikipedia: Alfred Russel Wallace"
+  },
+  {
+    "id": "ee64b4db-c0da-471f-87d5-59303412df06",
+    "text": "What is the term for the evolutionary process where unrelated species develop similar characteristics due to similar environmental pressures?",
+    "options": [
+      "Divergent evolution",
+      "Convergent evolution",
+      "Parallel evolution",
+      "Coevolution"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Convergent evolution occurs when unrelated species independently evolve similar traits in response to similar environmental challenges.",
+    "detailedExplanation": "Convergent evolution is the process whereby organisms not closely related independently evolve similar characteristics in response to having to adapt to similar environments or ecological niches. Classic examples include the wings of bats and birds, the camera eyes of vertebrates and cephalopods, and the streamlined body shapes of dolphins and sharks. These similarities arise not from common ancestry but from similar selective pressures.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Convergent_evolution",
+    "citationTitle": "Wikipedia: Convergent evolution"
+  },
+  {
+    "id": "adac3ad9-d57e-45de-a998-aa9ae4e220c6",
+    "text": "The famous finches that helped Darwin understand evolution are found on which group of islands?",
+    "options": [
+      "Hawaiian Islands",
+      "Galápagos Islands",
+      "Canary Islands",
+      "Azores Islands"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Darwin's finches are found on the Galápagos Islands, where Darwin observed their beak variations during his voyage on the HMS Beagle.",
+    "detailedExplanation": "The Galápagos Islands, located about 600 miles off the coast of Ecuador, are home to the famous finches that played a crucial role in Darwin's understanding of evolution. During his 1835 visit aboard the HMS Beagle, Darwin collected specimens of these birds and later noticed that different islands had finches with differently shaped beaks adapted to their specific food sources. This observation became a cornerstone example of adaptive radiation and natural selection.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Darwin%27s_finches",
+    "citationTitle": "Wikipedia: Darwin's finches"
+  },
+  {
+    "id": "c6166075-5a0b-40b8-854e-1299e9aefae0",
+    "text": "What is genetic drift?",
+    "options": [
+      "The migration of genes between populations",
+      "Random changes in allele frequencies in small populations",
+      "The mutation rate in a population",
+      "The flow of genetic material through natural selection"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Genetic drift refers to random fluctuations in allele frequencies that occur in populations, particularly pronounced in smaller populations.",
+    "detailedExplanation": "Genetic drift is the change in frequency of gene variants (alleles) in a population due to random sampling effects. Unlike natural selection, which is non-random, genetic drift is entirely random and tends to reduce genetic variation within populations while increasing genetic differentiation between separate populations. The effect is most pronounced in smaller populations, where chance events can have a larger proportional impact on allele frequencies across generations.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Genetic_drift",
+    "citationTitle": "Wikipedia: Genetic drift"
+  },
+  {
+    "id": "295b3cc1-1d07-4983-a8ae-a4e2d12426e6",
+    "text": "Which type of natural selection favors individuals with traits at both extremes of a distribution while selecting against average traits?",
+    "options": [
+      "Directional selection",
+      "Stabilizing selection",
+      "Disruptive selection",
+      "Frequency-dependent selection"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Disruptive selection favors extreme variants while selecting against intermediate forms, potentially leading to speciation.",
+    "detailedExplanation": "Disruptive selection, also called diversifying selection, is a type of natural selection that simultaneously favors individuals at both extremes of a trait distribution while selecting against individuals with intermediate traits. This can lead to a bimodal distribution and potentially contribute to speciation if the population splits into two distinct groups. An example might be a bird species where both very large and very small beaks are advantageous for different food sources, while medium-sized beaks are less efficient for either.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Disruptive_selection",
+    "citationTitle": "Wikipedia: Disruptive selection"
+  },
+  {
+    "id": "e8274c49-a179-4472-9e58-d81b491c06b4",
+    "text": "What is the estimated age of the oldest known fossils showing evidence of life on Earth?",
+    "options": [
+      "1.5 billion years",
+      "2.5 billion years",
+      "3.5 billion years",
+      "4.5 billion years"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "The oldest known fossils of life on Earth are approximately 3.5 billion years old, found in ancient rock formations.",
+    "detailedExplanation": "The oldest widely accepted fossils showing evidence of life are approximately 3.5 billion years old. These ancient microfossils, found in locations like the Pilbara region of Western Australia and the Barberton Greenstone Belt in South Africa, represent early prokaryotic life forms such as cyanobacteria. Some controversial claims suggest even older evidence of life at 3.7-4.1 billion years, but the 3.5 billion year mark represents the strongest scientific consensus for definitive fossil evidence of early life.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Earliest_known_life_forms",
+    "citationTitle": "Wikipedia: Earliest known life forms"
+  },
+  {
+    "id": "0c64175a-002c-458a-b2f6-c84ed9673013",
+    "text": "The Hardy-Weinberg principle describes populations that are NOT evolving. Which of these factors would violate Hardy-Weinberg equilibrium?",
+    "options": [
+      "Large population size",
+      "Random mating",
+      "Natural selection",
+      "No migration"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Natural selection violates Hardy-Weinberg equilibrium because it causes non-random changes in allele frequencies.",
+    "detailedExplanation": "The Hardy-Weinberg principle states that allele and genotype frequencies in a population will remain constant from generation to generation in the absence of evolutionary influences. For Hardy-Weinberg equilibrium to be maintained, five conditions must be met: no mutations, no natural selection, no gene flow (migration), infinite population size (no genetic drift), and random mating. Natural selection violates this equilibrium because it causes predictable, non-random changes in allele frequencies based on fitness differences.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Hardy%E2%80%93Weinberg_principle",
+    "citationTitle": "Wikipedia: Hardy–Weinberg principle"
+  },
+  {
+    "id": "759d5b99-46d1-45bb-a3fd-1ec7bb1f53a1",
+    "text": "What evolutionary mechanism explains why many flowers are brightly colored and fragrant?",
+    "options": [
+      "Sexual selection",
+      "Coevolution with pollinators",
+      "Genetic drift",
+      "Mutation pressure"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Coevolution between flowers and their pollinators has led to bright colors and fragrances that attract specific pollinating species.",
+    "detailedExplanation": "The bright colors and attractive fragrances of many flowers are the result of coevolution between flowering plants and their animal pollinators. Over millions of years, plants that were more successful at attracting pollinators (through visual and chemical signals) were more likely to reproduce successfully. Simultaneously, pollinators evolved enhanced abilities to detect these signals. This mutual evolutionary relationship has resulted in remarkable diversity in flower colors, shapes, and scents, each often tailored to attract specific types of pollinators such as bees, butterflies, birds, or bats.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Plant%E2%80%93pollinator_interactions",
+    "citationTitle": "Wikipedia: Plant–pollinator interactions"
+  },
+  {
+    "id": "b1d5b745-322b-4bc5-bed3-4fb502364a72",
+    "text": "What is the term for when two unrelated species evolve similar characteristics due to similar environmental pressures?",
+    "options": [
+      "Divergent evolution",
+      "Convergent evolution",
+      "Coevolution",
+      "Adaptive radiation"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Convergent evolution occurs when unrelated species develop similar traits independently due to similar environmental challenges.",
+    "detailedExplanation": "Convergent evolution is the process by which unrelated organisms independently evolve similar characteristics in response to having similar ecological roles or environmental pressures. Classic examples include the similar body shapes of sharks (fish) and dolphins (mammals), both adapted for efficient swimming, or the development of wings in bats (mammals), birds (dinosaurs), and insects. These similarities arise not from common ancestry but from similar selective pressures favoring certain traits.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Convergent_evolution",
+    "citationTitle": "Wikipedia: Convergent evolution"
+  },
+  {
+    "id": "54b48093-5044-45a6-bfc7-30964e91b4db",
+    "text": "Which scientist, along with Charles Darwin, independently proposed the theory of evolution by natural selection?",
+    "options": [
+      "Gregor Mendel",
+      "Alfred Russel Wallace",
+      "Jean-Baptiste Lamarck",
+      "Thomas Malthus"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Alfred Russel Wallace independently conceived the theory of evolution by natural selection and co-presented it with Darwin in 1858.",
+    "detailedExplanation": "Alfred Russel Wallace was a British naturalist who independently arrived at the theory of evolution through natural selection while conducting fieldwork in the Malay Archipelago. In 1858, he sent Darwin an essay outlining his theory, which was remarkably similar to Darwin's own unpublished work. This prompted Darwin's colleagues to arrange a joint presentation of both scientists' papers to the Linnean Society of London on July 1, 1858. Darwin then rushed to complete 'On the Origin of Species,' published the following year, giving both men credit for the discovery.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Alfred_Russel_Wallace",
+    "citationTitle": "Wikipedia: Alfred Russel Wallace"
+  },
+  {
+    "id": "ac7a3c2e-0ddf-4bdf-be3f-afd90b9e7f37",
+    "text": "What is the evolutionary advantage that explains why sickle cell anemia persists in human populations despite being harmful?",
+    "options": [
+      "It improves oxygen transport at high altitudes",
+      "It provides resistance to malaria when carrying one copy of the gene",
+      "It increases fertility rates",
+      "It enhances immune system function"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Carrying one copy of the sickle cell gene provides protection against malaria, demonstrating heterozygote advantage in evolutionary biology.",
+    "detailedExplanation": "Sickle cell anemia is caused by a mutation in the hemoglobin gene. While having two copies of this mutated gene causes the serious disease sickle cell anemia, having just one copy (being a carrier) provides significant protection against malaria without causing the disease. This is called heterozygote advantage or balanced polymorphism. In regions where malaria is endemic, particularly in parts of Africa, the Mediterranean, and Asia, natural selection has maintained this seemingly harmful gene in the population because the survival benefit against malaria outweighs the cost of some individuals having sickle cell disease.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Sickle_cell_disease",
+    "citationTitle": "Wikipedia: Sickle cell disease"
+  },
+  {
+    "id": "206a60ff-e65f-4e65-ac98-b2f1a84995b1",
+    "text": "According to the Hardy-Weinberg principle, what condition must be met for allele frequencies to remain constant in a population?",
+    "options": [
+      "The population must be very small",
+      "There must be frequent mutations",
+      "There must be no natural selection, migration, or genetic drift",
+      "Mating must be assortative (like with like)"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Hardy-Weinberg equilibrium requires no selection, no migration, no mutations, no genetic drift, and random mating to keep allele frequencies constant.",
+    "detailedExplanation": "The Hardy-Weinberg principle describes the conditions under which allele and genotype frequencies remain constant from generation to generation in a population. For equilibrium to be maintained, five conditions must be met: no mutations, no natural selection, no gene flow (migration), infinitely large population size (no genetic drift), and random mating. When these conditions are violated, evolution occurs. This principle serves as a null hypothesis in population genetics, allowing scientists to identify which evolutionary forces are acting on real populations by comparing observed frequencies to Hardy-Weinberg predictions.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Hardy%E2%80%93Weinberg_principle",
+    "citationTitle": "Wikipedia: Hardy–Weinberg principle"
+  }
+]

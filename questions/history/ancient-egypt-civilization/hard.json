@@ -1,0 +1,342 @@
+[
+  {
+    "id": "9d694e0d-7e9c-4d6d-81ef-d659f6beff7f",
+    "text": "Which pharaoh commissioned the first known peace treaty in recorded history?",
+    "options": [
+      "Thutmose III",
+      "Ramesses II",
+      "Amenhotep III",
+      "Seti I"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "hard",
+    "explanation": "Ramesses II signed the Egyptian-Hittite peace treaty around 1259 BCE.",
+    "detailedExplanation": "The Egyptian-Hittite peace treaty, signed around 1259 BCE between Pharaoh Ramesses II and Hittite King Hattusili III, is considered the first known peace treaty in recorded history. This treaty ended decades of conflict between the two great powers and established mutual defense agreements, extradition clauses, and territorial boundaries. Clay tablet copies were discovered in the Hittite capital of Hattusa, and hieroglyphic versions were carved on temple walls at Karnak.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Egyptian%E2%80%93Hittite_peace_treaty",
+    "citationTitle": "Wikipedia: Egyptian–Hittite peace treaty"
+  },
+  {
+    "id": "719cd804-f6be-4d5f-a7fa-efb5ab0edd4f",
+    "text": "What was the name of the ancient Egyptian calendar system that consisted of 365 days divided into three seasons?",
+    "options": [
+      "Akhet calendar",
+      "Civil calendar",
+      "Lunar calendar",
+      "Sothic calendar"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "hard",
+    "explanation": "The Civil calendar was Egypt's 365-day administrative calendar with three seasons of four months each.",
+    "detailedExplanation": "The ancient Egyptian civil calendar consisted of 365 days divided into 12 months of 30 days each, plus 5 additional days called 'epagomenal days.' It was organized around three seasons: Akhet (inundation), Peret (growing/winter), and Shemu (harvest/summer). This calendar was used for administrative and civil purposes alongside religious calendars. The system was remarkably accurate for its time and influenced later calendar developments, though it gradually shifted against the solar year due to the missing quarter day.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Egyptian_calendar",
+    "citationTitle": "Wikipedia: Egyptian calendar"
+  },
+  {
+    "id": "d76bd077-b9e9-4640-805a-74f64e1fb498",
+    "text": "Which Egyptian queen ruled as pharaoh for approximately 22 years during the 18th Dynasty and was known for her extensive building projects?",
+    "options": [
+      "Nefertiti",
+      "Hatshepsut",
+      "Cleopatra VII",
+      "Nefertari"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "hard",
+    "explanation": "Hatshepsut ruled for about 22 years and was famous for her peaceful reign and monumental building projects.",
+    "detailedExplanation": "Hatshepsut (c. 1479-1458 BCE) was one of the most successful female pharaohs of ancient Egypt, ruling for approximately 22 years during the 18th Dynasty. She initially served as regent for her stepson Thutmose III but eventually assumed full pharaonic powers. Her reign was marked by prosperity, extensive trade expeditions (notably to Punt), and ambitious building projects including her magnificent mortuary temple at Deir el-Bahari. She often depicted herself with a false beard and other traditional pharaonic regalia to legitimize her rule.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Hatshepsut",
+    "citationTitle": "Wikipedia: Hatshepsut"
+  },
+  {
+    "id": "45f5c127-7a3a-47ba-abb1-134a8dff0a1a",
+    "text": "What was the primary purpose of the ancient Egyptian 'Opening of the Mouth' ceremony?",
+    "options": [
+      "To crown new pharaohs",
+      "To bless newborn children",
+      "To restore the deceased's senses in the afterlife",
+      "To consecrate new temples"
+    ],
+    "correctIndex": 2,
+    "category": "history",
+    "difficulty": "hard",
+    "explanation": "The 'Opening of the Mouth' ceremony was performed on mummies to restore their ability to eat, drink, and speak in the afterlife.",
+    "detailedExplanation": "The 'Opening of the Mouth' ceremony was a crucial funerary ritual in ancient Egypt designed to restore the deceased's physical senses and abilities in the afterlife. The ceremony involved touching the mummy's face with special ritual tools, including an adze and a pesesh-kef knife, while reciting specific spells. This ritual was believed to enable the deceased to eat, drink, speak, and breathe in the afterlife. The ceremony was typically performed by priests or the deceased's eldest son and was considered essential for successful transition to the afterlife.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Opening_of_the_mouth_ceremony",
+    "citationTitle": "Wikipedia: Opening of the mouth ceremony"
+  },
+  {
+    "id": "7315c3ba-e703-4cf4-a04c-2ee8f8b0320f",
+    "text": "Which ancient Egyptian text contains detailed instructions for mummification and was written on papyrus?",
+    "options": [
+      "Book of the Dead",
+      "Edwin Smith Papyrus",
+      "Papyrus Rhind",
+      "Papyrus Bulaq 3"
+    ],
+    "correctIndex": 3,
+    "category": "history",
+    "difficulty": "hard",
+    "explanation": "Papyrus Bulaq 3 contains detailed mummification instructions and embalming procedures.",
+    "detailedExplanation": "Papyrus Bulaq 3, dating to around 305-30 BCE during the Ptolemaic period, is one of the few surviving ancient Egyptian texts that provides detailed instructions for mummification procedures. The papyrus contains specific information about embalming techniques, the placement of amulets, and the wrapping of mummies. While Herodotus and other classical authors described Egyptian mummification practices, this papyrus represents actual Egyptian documentation of their sacred burial procedures, making it invaluable for understanding ancient Egyptian mortuary practices.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Mummy",
+    "citationTitle": "Wikipedia: Mummy"
+  },
+  {
+    "id": "242c30c3-2aa3-440c-97c6-cd082460513b",
+    "text": "What was the ancient Egyptian measure of length equivalent to approximately 52.5 centimeters called?",
+    "options": [
+      "Span",
+      "Royal cubit",
+      "Palm",
+      "Digit"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "hard",
+    "explanation": "The royal cubit was the standard Egyptian unit of length, measuring about 52.5 cm.",
+    "detailedExplanation": "The royal cubit was the primary unit of measurement in ancient Egypt, equivalent to approximately 52.5 centimeters (20.6 inches). It was based on the length from the elbow to the fingertips plus the width of the palm. The royal cubit was divided into 7 palms, each containing 4 digits, creating a sophisticated measurement system. This standardized unit was crucial for architectural projects, including pyramid construction, and cubit rods made of wood, stone, or metal have been found in archaeological excavations, demonstrating the precision of Egyptian engineering and construction.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Cubit",
+    "citationTitle": "Wikipedia: Cubit"
+  },
+  {
+    "id": "c26a81d6-32be-42ea-b301-b0bb2cb9cfe6",
+    "text": "Which Egyptian deity was specifically associated with the weighing of hearts in the afterlife judgment?",
+    "options": [
+      "Anubis",
+      "Thoth",
+      "Ammit",
+      "Osiris"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "hard",
+    "explanation": "Thoth was the scribe god who recorded the results of the heart-weighing ceremony in the afterlife judgment.",
+    "detailedExplanation": "Thoth, the ibis-headed god of wisdom and writing, played a crucial role in the ancient Egyptian afterlife judgment scene depicted in the Book of the Dead. While Anubis performed the actual weighing of the deceased's heart against the feather of Ma'at (truth/justice), Thoth served as the divine scribe who recorded the results. If the heart balanced with the feather, Thoth would record the favorable judgment, allowing the deceased to proceed to the afterlife. If the heart was heavier (due to sin), the demon Ammit would devour it, resulting in the second death.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Thoth",
+    "citationTitle": "Wikipedia: Thoth"
+  },
+  {
+    "id": "e0a26b5d-6480-4e55-b15b-e7582f4580f7",
+    "text": "What was the name of the ancient Egyptian administrative region equivalent to a modern province or state?",
+    "options": [
+      "Nome",
+      "Satrapy",
+      "Metropolis",
+      "Polis"
+    ],
+    "correctIndex": 0,
+    "category": "history",
+    "difficulty": "hard",
+    "explanation": "A nome was an administrative division of ancient Egypt, with 42 nomes total throughout the kingdom.",
+    "detailedExplanation": "Ancient Egypt was divided into administrative regions called nomes, a term derived from the Greek word 'nomos' meaning 'district.' There were traditionally 42 nomes total: 22 in Upper Egypt and 20 in Lower Egypt. Each nome was governed by a nomarch (provincial governor) and had its own capital city, patron deity, and distinctive standards or emblems. This system of territorial organization was crucial for tax collection, agricultural management, and local administration throughout Egyptian history, lasting from the Early Dynastic Period through the Ptolemaic era.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Nome_(Egypt)",
+    "citationTitle": "Wikipedia: Nome (Egypt)"
+  },
+  {
+    "id": "92cc3dfa-99d3-4541-9cef-ee12e3bf4843",
+    "text": "Which pharaoh established the new capital city of Akhetaten and temporarily converted Egypt to monotheistic worship of Aten?",
+    "options": [
+      "Amenhotep III",
+      "Akhenaten",
+      "Tutankhamun",
+      "Ramesses II"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "hard",
+    "explanation": "Akhenaten (originally Amenhotep IV) established Akhetaten and promoted worship of Aten as the sole deity.",
+    "detailedExplanation": "Akhenaten, who ruled from approximately 1353-1336 BCE, was one of the most revolutionary pharaohs in Egyptian history. He abandoned traditional Egyptian polytheism, establishing the worship of Aten (the sun disc) as Egypt's primary deity and founding a new capital city called Akhetaten (modern-day Amarna). This religious revolution was largely reversed after his death, with his successor Tutankhamun restoring the traditional gods and abandoning the new capital.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Akhenaten",
+    "citationTitle": "Wikipedia: Akhenaten"
+  },
+  {
+    "id": "11ba8575-1ce6-4af5-b1a9-f7a6b515cd1c",
+    "text": "What was the primary purpose of the ancient Egyptian Book of the Dead?",
+    "options": [
+      "Recording genealogies of pharaohs",
+      "Guiding souls through the afterlife",
+      "Teaching medical procedures",
+      "Documenting tax records"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "hard",
+    "explanation": "The Book of the Dead contained spells and instructions to help the deceased navigate the afterlife successfully.",
+    "detailedExplanation": "The Book of the Dead, known in ancient Egyptian as 'Book of Coming Forth by Day,' was a collection of funerary texts consisting of spells, prayers, and incantations designed to assist the deceased in their journey through the Duat (underworld) and into the afterlife. These texts were often written on papyrus and placed in tombs, providing the dead with magical protection and guidance to overcome obstacles, pass judgment by Osiris, and achieve eternal life in the Field of Reeds.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Book_of_the_Dead",
+    "citationTitle": "Wikipedia: Book of the Dead"
+  },
+  {
+    "id": "08800ec2-3444-4177-9303-654ce67fb9e6",
+    "text": "During which dynasty did the female pharaoh Hatshepsut rule, and approximately how long was her reign?",
+    "options": [
+      "12th Dynasty, 15 years",
+      "18th Dynasty, 22 years",
+      "19th Dynasty, 12 years",
+      "20th Dynasty, 18 years"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "hard",
+    "explanation": "Hatshepsut ruled during the 18th Dynasty for approximately 22 years (c. 1479-1458 BCE).",
+    "detailedExplanation": "Hatshepsut was one of the most successful female pharaohs in Egyptian history, ruling during the 18th Dynasty of the New Kingdom period from approximately 1479 to 1458 BCE. Initially serving as regent for her stepson Thutmose III, she eventually assumed full pharaonic powers and ruled for about 22 years. Her reign was marked by prosperity, extensive building projects including her famous mortuary temple at Deir el-Bahari, and successful trade expeditions to Punt. She often depicted herself with traditional male pharaonic regalia, including a false beard.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Hatshepsut",
+    "citationTitle": "Wikipedia: Hatshepsut"
+  },
+  {
+    "id": "924b14a7-8c39-4895-a508-0e6add836ad6",
+    "text": "What was the ancient Egyptian hieroglyphic symbol called that represented the concept of 'life' and was frequently depicted in royal and religious art?",
+    "options": [
+      "Was scepter",
+      "Djed pillar",
+      "Ankh",
+      "Eye of Horus"
+    ],
+    "correctIndex": 2,
+    "category": "history",
+    "difficulty": "hard",
+    "explanation": "The ankh symbol represented life and was commonly shown being held by gods and pharaohs.",
+    "detailedExplanation": "The ankh is one of the most recognizable symbols from ancient Egypt, resembling a cross with a loop at the top. In hieroglyphic writing, it represented the concept of life, both mortal life on earth and eternal life in the afterlife. Gods and goddesses were frequently depicted holding ankhs, symbolizing their power to give and sustain life. Pharaohs were also shown with ankhs to demonstrate their divine authority and their role as intermediaries between the gods and people. The symbol became so associated with Egyptian culture that it was adopted by early Coptic Christians as a form of cross.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Ankh",
+    "citationTitle": "Wikipedia: Ankh"
+  },
+  {
+    "id": "e823b171-a694-4678-83de-d1b360295bfc",
+    "text": "Which ancient Egyptian god was specifically associated with mummification and had the head of a jackal?",
+    "options": [
+      "Thoth",
+      "Anubis",
+      "Sobek",
+      "Horus"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "hard",
+    "explanation": "Anubis, depicted with a jackal's head, was the god of mummification and protector of the dead.",
+    "detailedExplanation": "Anubis was one of the most important deities in the Egyptian pantheon, specifically associated with mummification, the afterlife, and protection of the dead. Depicted as either a full jackal or a man with a jackal's head, Anubis was believed to guide souls to the afterlife and oversee the weighing of hearts ceremony during judgment of the dead. His association with jackals likely arose from observations of these animals scavenging around cemeteries. In Egyptian mythology, Anubis was said to have mummified Osiris after his murder by Set, establishing him as the patron god of embalmers.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Anubis",
+    "citationTitle": "Wikipedia: Anubis"
+  },
+  {
+    "id": "5575f165-4054-4c1a-adf2-13c02f910d92",
+    "text": "The Rosetta Stone, crucial for deciphering hieroglyphs, contained the same text written in how many different scripts?",
+    "options": [
+      "Two scripts",
+      "Three scripts",
+      "Four scripts",
+      "Five scripts"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "hard",
+    "explanation": "The Rosetta Stone contained the same decree in three scripts: hieroglyphic, Demotic, and ancient Greek.",
+    "detailedExplanation": "The Rosetta Stone, dating from 196 BCE during the Ptolemaic period, contains a decree issued by King Ptolemy V written in three different scripts: ancient Egyptian hieroglyphs, Demotic script (a cursive form of Egyptian writing), and ancient Greek. This trilingual inscription was key to Jean-François Champollion's breakthrough in deciphering Egyptian hieroglyphs in 1822, as scholars could use the known Greek text to decode the meaning of the Egyptian scripts. The stone was discovered by French soldiers in 1799 near the town of Rosetta (modern Rashid) during Napoleon's Egyptian campaign.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Rosetta_Stone",
+    "citationTitle": "Wikipedia: Rosetta Stone"
+  },
+  {
+    "id": "6471792d-74e4-4572-8f04-5b990577a242",
+    "text": "Which pharaoh was responsible for the construction of Abu Simbel, the massive rock-cut temple complex in Nubia?",
+    "options": [
+      "Khufu",
+      "Ramesses II",
+      "Amenhotep III",
+      "Seti I"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "hard",
+    "explanation": "Ramesses II built Abu Simbel as a demonstration of Egyptian power and to intimidate Nubian neighbors.",
+    "detailedExplanation": "Ramesses II, who ruled from 1279 to 1213 BCE during the 19th Dynasty, commissioned the construction of the Abu Simbel temples in southern Egypt (ancient Nubia). The complex consists of two temples carved directly into rock faces, with the larger temple featuring four colossal 65-foot-tall statues of Ramesses II at its entrance. Built to demonstrate Egyptian power and divine authority to Nubian populations, the temples were also designed to honor the gods Ra-Harakhty, Ptah, and Amun, as well as the deified Ramesses himself. The smaller temple was dedicated to the goddess Hathor and Ramesses' queen, Nefertari.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Abu_Simbel_temples",
+    "citationTitle": "Wikipedia: Abu Simbel temples"
+  },
+  {
+    "id": "a44a808a-a8fd-42dc-98f6-8054507c967f",
+    "text": "What was the name of the ancient Egyptian writing system that developed as a simplified, cursive form of hieroglyphs for everyday use?",
+    "options": [
+      "Coptic",
+      "Demotic",
+      "Linear A",
+      "Cuneiform"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "hard",
+    "explanation": "Demotic script was the everyday writing system that evolved from hieroglyphs for practical administrative and commercial use.",
+    "detailedExplanation": "Demotic script emerged around 650 BCE as a highly cursive and simplified form of Egyptian hieroglyphic writing, designed for everyday administrative, legal, and commercial purposes. The name 'demotic' comes from the Greek word 'demotikos,' meaning 'popular' or 'of the people.' Unlike formal hieroglyphs which were primarily used for religious and monumental inscriptions, demotic was written on papyrus, ostraca, and other materials for contracts, letters, literary works, and government documents. It remained in use until about the 5th century CE, when it was gradually replaced by the Coptic script, which used Greek letters to write the Egyptian language.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Demotic_(Egyptian)",
+    "citationTitle": "Wikipedia: Demotic (Egyptian)"
+  },
+  {
+    "id": "e5beac6e-8fd8-4b3d-b686-5dd859891132",
+    "text": "Which pharaoh commissioned the first known surgical papyrus, containing descriptions of 48 surgical cases and procedures?",
+    "options": [
+      "Imhotep",
+      "Edwin Smith",
+      "Thutmose III",
+      "Amenhotep II"
+    ],
+    "correctIndex": 0,
+    "category": "history",
+    "difficulty": "hard",
+    "explanation": "Imhotep, the architect of the Step Pyramid, is credited with commissioning what became known as the Edwin Smith Papyrus.",
+    "detailedExplanation": "The Edwin Smith Papyrus, dating to around 1600 BCE but believed to be based on much older texts from around 3000-2500 BCE, is attributed to Imhotep, the legendary polymath who served under Pharaoh Djoser. Imhotep was not only the architect of the first pyramid at Saqqara but also served as a physician and is considered one of the earliest known doctors in history. The papyrus contains 48 cases of injuries and surgical procedures, making it the oldest known surgical treatise.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Edwin_Smith_Papyrus",
+    "citationTitle": "Wikipedia: Edwin Smith Papyrus"
+  },
+  {
+    "id": "719172ff-fb98-44c9-b434-6b90af5707ca",
+    "text": "What was the ancient Egyptian term for the concept of truth, justice, and cosmic order that pharaohs were expected to maintain?",
+    "options": [
+      "Ka",
+      "Ba",
+      "Ma'at",
+      "Ankh"
+    ],
+    "correctIndex": 2,
+    "category": "history",
+    "difficulty": "hard",
+    "explanation": "Ma'at was the fundamental concept of truth, justice, balance, and cosmic order in ancient Egyptian religion and society.",
+    "detailedExplanation": "Ma'at was both a goddess and a concept central to ancient Egyptian civilization, representing truth, justice, harmony, and cosmic order. Pharaohs were considered the earthly representatives responsible for maintaining Ma'at, and this concept influenced law, religion, and daily life. In the afterlife, the deceased's heart was weighed against the feather of Ma'at to determine their worthiness. This principle was so fundamental that it shaped Egyptian civilization for over 3,000 years.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Maat",
+    "citationTitle": "Wikipedia: Maat"
+  },
+  {
+    "id": "f47086be-759b-4b7d-a4aa-5007ad502242",
+    "text": "During which dynasty did the ancient Egyptians first begin using iron tools and weapons on a regular basis?",
+    "options": [
+      "18th Dynasty",
+      "21st Dynasty",
+      "25th Dynasty",
+      "26th Dynasty"
+    ],
+    "correctIndex": 2,
+    "category": "history",
+    "difficulty": "hard",
+    "explanation": "The 25th Dynasty (Nubian/Kushite Dynasty) marked the beginning of regular iron use in Egypt around 700 BCE.",
+    "detailedExplanation": "While iron objects existed in Egypt much earlier as rare imports, regular use of iron tools and weapons didn't begin until the 25th Dynasty (around 747-656 BCE), when the Nubian rulers of Kush conquered Egypt. The Nubians had developed ironworking technology earlier than the Egyptians, and their conquest introduced widespread iron use to Egypt. This was relatively late compared to other civilizations - Egypt's abundant copper resources and conservative traditions meant they remained in the Bronze Age longer than neighboring regions.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Twenty-fifth_Dynasty_of_Egypt",
+    "citationTitle": "Wikipedia: Twenty-fifth Dynasty of Egypt"
+  },
+  {
+    "id": "3e9aeaf0-6f6a-43ba-b3be-e3f421581ca0",
+    "text": "What was the name of the ancient Egyptian calendar system that divided the year into three seasons of four months each?",
+    "options": [
+      "Akhet, Peret, Shemu",
+      "Thoth, Phaophi, Hathor",
+      "Inundation, Emergence, Harvest",
+      "Sopdet, Benben, Duat"
+    ],
+    "correctIndex": 0,
+    "category": "history",
+    "difficulty": "hard",
+    "explanation": "The three seasons were called Akhet (inundation), Peret (growing), and Shemu (harvest), each lasting four months.",
+    "detailedExplanation": "The ancient Egyptian civil calendar was based on the agricultural cycle of the Nile River and consisted of 365 days divided into three seasons: Akhet (the inundation season when the Nile flooded), Peret (the growing season when crops were planted), and Shemu (the harvest season). Each season contained four months of 30 days, plus five additional epagomenal days. This calendar system was remarkably sophisticated and remained largely unchanged throughout Egyptian history, influencing later calendar systems including our modern one.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Egyptian_calendar",
+    "citationTitle": "Wikipedia: Egyptian Calendar"
+  }
+]

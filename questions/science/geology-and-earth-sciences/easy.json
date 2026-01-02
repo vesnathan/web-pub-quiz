@@ -1,0 +1,325 @@
+[
+  {
+    "id": "6706d6ab-39cb-4cfd-9471-955d175d4435",
+    "text": "Which type of plant tissue is responsible for transporting water from roots to leaves?",
+    "options": [
+      "Phloem",
+      "Xylem",
+      "Epidermis",
+      "Cambium"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Xylem tissue transports water and dissolved minerals from the roots upward through the plant.",
+    "detailedExplanation": "Xylem is one of the two main types of vascular tissue in plants, specialized for transporting water and dissolved minerals from the roots to all other parts of the plant. This tissue consists of hollow, tube-like cells that form a continuous pathway from the roots to the leaves. The movement of water through xylem is driven by transpiration - the evaporation of water from leaf surfaces - which creates a negative pressure that pulls water upward through the plant, even in very tall trees.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Xylem",
+    "citationTitle": "Wikipedia: Xylem"
+  },
+  {
+    "id": "0c8d4ffa-4de6-4336-be85-70919a45ca41",
+    "text": "What type of rock is formed by the cooling and solidification of magma or lava?",
+    "options": [
+      "Sedimentary",
+      "Igneous",
+      "Metamorphic",
+      "Crystalline"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Igneous rocks form when molten rock (magma or lava) cools and solidifies.",
+    "detailedExplanation": "Igneous rocks are one of the three main rock types, formed through the cooling and solidification of magma or lava. When magma cools slowly beneath the Earth's surface, it forms intrusive igneous rocks like granite. When lava cools quickly on the surface, it creates extrusive igneous rocks like basalt. The word 'igneous' comes from the Latin word 'ignis,' meaning fire, reflecting their fiery origin.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Igneous_rock",
+    "citationTitle": "Wikipedia: Igneous rock"
+  },
+  {
+    "id": "d841405c-b2a4-4975-a383-38b41c86a2f0",
+    "text": "What is the hardest naturally occurring substance on Earth?",
+    "options": [
+      "Quartz",
+      "Diamond",
+      "Steel",
+      "Granite"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Diamond is the hardest naturally occurring mineral, rating 10 on the Mohs hardness scale.",
+    "detailedExplanation": "Diamond is the hardest naturally occurring substance on Earth, composed of carbon atoms arranged in a crystal lattice structure. It rates 10 on the Mohs scale of mineral hardness, making it extremely valuable for industrial cutting and drilling applications. Diamonds form deep within the Earth's mantle under extreme pressure and temperature conditions, typically 150-200 kilometers below the surface.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Diamond",
+    "citationTitle": "Wikipedia: Diamond"
+  },
+  {
+    "id": "4619a93c-e846-49c3-9e58-ddcefa47a7f5",
+    "text": "What type of boundary occurs when two tectonic plates move away from each other?",
+    "options": [
+      "Convergent boundary",
+      "Divergent boundary",
+      "Transform boundary",
+      "Subduction zone"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Divergent boundaries form when tectonic plates separate, creating new oceanic crust.",
+    "detailedExplanation": "Divergent boundaries occur where two tectonic plates move away from each other, typically found at mid-ocean ridges like the Mid-Atlantic Ridge. As plates separate, magma rises from the mantle to fill the gap, creating new oceanic crust through a process called seafloor spreading. This process is fundamental to plate tectonics and continental drift, constantly creating new ocean floor while older crust is destroyed at convergent boundaries.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Divergent_boundary",
+    "citationTitle": "Wikipedia: Divergent boundary"
+  },
+  {
+    "id": "5d16c3e0-f7d6-4e31-a0ad-c26c1191da65",
+    "text": "What is the name for molten rock when it's still underground?",
+    "options": [
+      "Lava",
+      "Magma",
+      "Basalt",
+      "Obsidian"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Magma is molten rock beneath the Earth's surface; it becomes lava when it erupts.",
+    "detailedExplanation": "Magma is molten or semi-molten rock material found beneath the Earth's surface, typically in the upper mantle or lower crust. When magma reaches the surface through volcanic eruption, it becomes lava. Magma forms through the melting of existing rock due to high temperatures, pressure changes, or the addition of water. The composition of magma varies and determines the type of igneous rock that will form when it cools and solidifies.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Magma",
+    "citationTitle": "Wikipedia: Magma"
+  },
+  {
+    "id": "88510735-d57b-489b-8576-0f3af12f52f4",
+    "text": "What is the outermost layer of the Earth called?",
+    "options": [
+      "Crust",
+      "Mantle",
+      "Core",
+      "Magma"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "The crust is the thin, solid outermost layer of Earth where we live.",
+    "detailedExplanation": "Earth's crust is the outermost solid shell of the planet, ranging from about 5-10 km thick under the oceans to 30-70 km thick under continents. It's composed primarily of rock and is where all terrestrial life exists. Below the crust lies the mantle, which makes up most of Earth's volume, and at the center is the core.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Earth%27s_crust",
+    "citationTitle": "Wikipedia: Earth's crust"
+  },
+  {
+    "id": "1fcfab1d-10ab-4bec-ba74-d70fa76a140e",
+    "text": "Which type of rock is formed from cooled and solidified lava or magma?",
+    "options": [
+      "Sedimentary",
+      "Igneous",
+      "Metamorphic",
+      "Limestone"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Igneous rocks form when molten rock (magma or lava) cools and hardens.",
+    "detailedExplanation": "Igneous rocks are one of the three main rock types, formed through the cooling and solidification of magma or lava. Examples include granite (formed from slowly cooling magma underground) and basalt (formed from quickly cooling lava on the surface). The word 'igneous' comes from the Latin word for fire, reflecting their fiery origins.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Igneous_rock",
+    "citationTitle": "Wikipedia: Igneous rock"
+  },
+  {
+    "id": "18e92d7f-bb4d-44db-9adb-de97bbeccdb4",
+    "text": "What is the name for molten rock that flows on the Earth's surface?",
+    "options": [
+      "Magma",
+      "Lava",
+      "Basalt",
+      "Granite"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Lava is molten rock that has erupted onto Earth's surface, while magma is molten rock underground.",
+    "detailedExplanation": "The distinction between magma and lava is simply location: magma is molten rock beneath the Earth's surface, while lava is molten rock that has erupted onto the surface through volcanic activity. Once lava cools and solidifies, it becomes igneous rock. Lava temperatures typically range from 700°C to 1,200°C (1,300°F to 2,200°F).",
+    "citationUrl": "https://en.wikipedia.org/wiki/Lava",
+    "citationTitle": "Wikipedia: Lava"
+  },
+  {
+    "id": "bfba2fbb-5b8d-4443-98bc-4d78a574f03c",
+    "text": "What scale is used to measure the hardness of minerals?",
+    "options": [
+      "Richter Scale",
+      "Mohs Scale",
+      "Beaufort Scale",
+      "Kelvin Scale"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "The Mohs Scale ranks minerals from 1 (softest) to 10 (hardest) based on scratch resistance.",
+    "detailedExplanation": "The Mohs Scale of mineral hardness was created in 1812 by German geologist Friedrich Mohs. It ranks minerals from 1 to 10, with talc being the softest (1) and diamond being the hardest (10). The scale is based on the ability of one mineral to scratch another - a mineral can scratch any mineral with a lower number on the scale.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Mohs_scale",
+    "citationTitle": "Wikipedia: Mohs scale"
+  },
+  {
+    "id": "e4848e22-75c2-484e-9573-0d8c274cfecc",
+    "text": "What type of boundary occurs where two tectonic plates move away from each other?",
+    "options": [
+      "Convergent boundary",
+      "Divergent boundary",
+      "Transform boundary",
+      "Subduction zone"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Divergent boundaries occur where plates separate, creating new oceanic crust as magma rises.",
+    "detailedExplanation": "Divergent boundaries are locations where tectonic plates are moving away from each other. As the plates separate, magma rises from the mantle to fill the gap, creating new oceanic crust. The Mid-Atlantic Ridge is a famous example of a divergent boundary. These boundaries are also called spreading centers and are typically found along the ocean floor, though some occur on continents like the East African Rift.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Divergent_boundary",
+    "citationTitle": "Wikipedia: Divergent boundary"
+  },
+  {
+    "id": "1f1d83d8-0d1d-4b2a-87cc-69d17ee7d1d2",
+    "text": "Which mineral is the primary component of most beach sand?",
+    "options": [
+      "Feldspar",
+      "Quartz",
+      "Calcite",
+      "Mica"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Quartz is very hard and weather-resistant, making it the most common mineral in beach sand.",
+    "detailedExplanation": "Quartz (silicon dioxide) makes up the majority of most beach sands because it is extremely durable and resistant to weathering. While other minerals break down over time when exposed to water and weather, quartz crystals remain largely intact. This durability, combined with quartz being one of the most abundant minerals in the Earth's crust, explains why it dominates sandy beaches worldwide.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Quartz",
+    "citationTitle": "Wikipedia: Quartz"
+  },
+  {
+    "id": "0b96a167-e34f-4492-9fb6-6508fc1e8e4e",
+    "text": "What is the study of earthquakes called?",
+    "options": [
+      "Volcanology",
+      "Seismology",
+      "Meteorology",
+      "Hydrology"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Seismology is the scientific study of earthquakes and seismic waves.",
+    "detailedExplanation": "Seismology is the branch of geophysics that studies earthquakes and the propagation of elastic waves through the Earth. Seismologists use instruments called seismometers to detect and measure ground motion caused by earthquakes, volcanic eruptions, and other seismic sources. The field has been crucial in understanding Earth's internal structure and developing earthquake hazard assessments.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Seismology",
+    "citationTitle": "Wikipedia: Seismology"
+  },
+  {
+    "id": "ffb68ac4-406b-4e6d-ac03-ff8d20063b53",
+    "text": "Which layer of the Earth is the thickest?",
+    "options": [
+      "Crust",
+      "Mantle",
+      "Outer core",
+      "Inner core"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "The mantle is the thickest layer, extending from about 30 km to 2,900 km below the surface.",
+    "detailedExplanation": "The Earth's mantle is by far the thickest of the four main layers, extending from the base of the crust (about 5-70 km deep) down to approximately 2,900 kilometers below the surface. This represents about 84% of Earth's total volume. The mantle is composed primarily of hot, dense rock that flows very slowly over geological time scales. In contrast, the crust is only 5-70 km thick, while the outer and inner cores together extend from 2,900 km to the center at 6,371 km depth.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Structure_of_the_Earth",
+    "citationTitle": "Wikipedia: Structure of the Earth"
+  },
+  {
+    "id": "8ca51090-5790-4f93-b023-5cae2ae75499",
+    "text": "What type of rock is formed when magma cools and solidifies?",
+    "options": [
+      "Sedimentary",
+      "Metamorphic",
+      "Igneous",
+      "Limestone"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Igneous rocks form when molten magma or lava cools and crystallizes into solid rock.",
+    "detailedExplanation": "Igneous rocks are one of the three main types of rocks in the rock cycle, formed through the cooling and solidification of magma or lava. When magma cools slowly underground, it forms intrusive igneous rocks like granite with large crystals. When lava cools quickly on the Earth's surface, it forms extrusive igneous rocks like basalt with small crystals. This process is fundamental to understanding how new rock material is created on Earth, particularly at volcanic regions and mid-ocean ridges.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Igneous_rock",
+    "citationTitle": "Wikipedia: Igneous rock"
+  },
+  {
+    "id": "265894ef-e9f3-420f-b4fa-61e8a1dfc931",
+    "text": "Which type of plate boundary creates mountain ranges like the Himalayas?",
+    "options": [
+      "Divergent",
+      "Convergent",
+      "Transform",
+      "Subduction"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Convergent boundaries, where plates collide, create mountain ranges through compression and uplift.",
+    "detailedExplanation": "Convergent plate boundaries occur where two tectonic plates move toward each other and collide. When two continental plates converge, neither can subduct due to their low density, so they crumple and push upward, forming large mountain ranges. The Himalayas are the classic example, formed by the ongoing collision between the Indian and Eurasian plates that began about 50 million years ago. This process continues today, making the Himalayas one of the youngest and still-growing mountain ranges on Earth.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Convergent_boundary",
+    "citationTitle": "Wikipedia: Convergent boundary"
+  },
+  {
+    "id": "d0d998c0-e00e-4491-b9b1-d334d25ab274",
+    "text": "What is the most common mineral found in beach sand?",
+    "options": [
+      "Feldspar",
+      "Calcite",
+      "Quartz",
+      "Mica"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Quartz is the most abundant mineral in most beach sands due to its hardness and resistance to weathering.",
+    "detailedExplanation": "Quartz (silicon dioxide) is the most common mineral found in beach sand worldwide because of its exceptional durability and resistance to chemical weathering. While other minerals break down over time when exposed to water, wind, and chemical processes, quartz grains maintain their structure and are transported by rivers and waves to accumulate on beaches. Quartz has a hardness of 7 on the Mohs scale and is chemically stable, making it the survivor among minerals that originally formed the rocks being weathered inland.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Quartz",
+    "citationTitle": "Wikipedia: Quartz"
+  },
+  {
+    "id": "73d658a5-4ce9-40bc-b4a6-1030b874a70c",
+    "text": "How long ago did the last ice age end?",
+    "options": [
+      "About 1,000 years ago",
+      "About 11,000 years ago",
+      "About 50,000 years ago",
+      "About 100,000 years ago"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "The last glacial period ended approximately 11,700 years ago, marking the beginning of our current interglacial period.",
+    "detailedExplanation": "The Last Glacial Period, commonly called the last ice age, ended approximately 11,700 years ago. This marked the transition from the Pleistocene epoch to the Holocene epoch, which is our current geological time period. The end of the ice age was characterized by rapid warming that caused massive ice sheets covering North America and northern Europe to retreat. This timing coincides with the development of agriculture and the rise of human civilization, as the more stable, warmer climate provided better conditions for settled communities and farming.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Last_Glacial_Period",
+    "citationTitle": "Wikipedia: Last Glacial Period"
+  },
+  {
+    "id": "45d4c0d4-8a35-40a3-8295-470213edb223",
+    "text": "What causes earthquakes to occur?",
+    "options": [
+      "Volcanic eruptions only",
+      "Movement of tectonic plates",
+      "Changes in atmospheric pressure",
+      "Ocean currents"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Earthquakes are primarily caused by the sudden movement and release of stress along tectonic plate boundaries.",
+    "detailedExplanation": "Earthquakes occur when tectonic plates move and interact with each other along fault lines. As these massive pieces of Earth's crust slowly move, they can become locked together due to friction. Stress builds up over time until it overcomes the friction, causing the plates to suddenly slip and release accumulated energy in the form of seismic waves. While volcanic activity can cause earthquakes, the vast majority are caused by tectonic plate movement. The point where the rupture begins underground is called the focus or hypocenter, while the point directly above it on the surface is the epicenter.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Earthquake",
+    "citationTitle": "Wikipedia: Earthquake"
+  },
+  {
+    "id": "9718f8ff-6721-4a85-a219-046098e58c6e",
+    "text": "What is the outermost solid layer of the Earth called?",
+    "options": [
+      "The crust",
+      "The mantle",
+      "The outer core",
+      "The inner core"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "The crust is the thin, outermost solid shell of our planet.",
+    "detailedExplanation": "The Earth's crust is the outermost solid layer of our planet, ranging from about 5-10 kilometers thick under the oceans to 30-70 kilometers thick under continents. It's composed mainly of rocks and soil and is where all life exists. Beneath the crust lies the mantle (mostly solid rock), followed by the outer core (liquid iron and nickel), and finally the inner core (solid iron and nickel) at the center.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Earth%27s_crust",
+    "citationTitle": "Wikipedia: Earth's crust"
+  }
+]

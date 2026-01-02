@@ -1,0 +1,342 @@
+[
+  {
+    "id": "469f6d86-bb5e-44c2-9f2c-5c3e6127f9d9",
+    "text": "According to Noether's theorem, what fundamental conservation law corresponds to the symmetry of time translation invariance?",
+    "options": [
+      "Conservation of energy",
+      "Conservation of momentum",
+      "Conservation of angular momentum",
+      "Conservation of charge"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Noether's theorem states that time translation symmetry corresponds to conservation of energy.",
+    "detailedExplanation": "Emmy Noether's groundbreaking theorem in 1915 established that every continuous symmetry in physics corresponds to a conservation law. Time translation invariance (the idea that the laws of physics don't change over time) directly leads to the conservation of energy. Similarly, spatial translation invariance leads to conservation of momentum, and rotational invariance leads to conservation of angular momentum.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Noether%27s_theorem",
+    "citationTitle": "Wikipedia: Noether's theorem"
+  },
+  {
+    "id": "fb9d501e-3f4d-485d-80b0-0c52e13bd6c9",
+    "text": "In quantum mechanics, which principle states that it's impossible to simultaneously know both the exact position and momentum of a particle?",
+    "options": [
+      "Pauli exclusion principle",
+      "Heisenberg uncertainty principle",
+      "Schrödinger's principle",
+      "de Broglie principle"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "The Heisenberg uncertainty principle fundamentally limits the precision of simultaneous position and momentum measurements.",
+    "detailedExplanation": "Werner Heisenberg's uncertainty principle, formulated in 1927, is one of the cornerstone principles of quantum mechanics. It states that the more precisely you know a particle's position, the less precisely you can know its momentum, and vice versa. This isn't due to measurement limitations but is a fundamental property of quantum systems. The principle is mathematically expressed as Δx × Δp ≥ ℏ/2, where ℏ is the reduced Planck constant.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Uncertainty_principle",
+    "citationTitle": "Wikipedia: Uncertainty principle"
+  },
+  {
+    "id": "14279d3e-e618-44f1-915f-06e69baf4fd0",
+    "text": "What physical principle explains why a spinning ice skater speeds up when they pull their arms inward?",
+    "options": [
+      "Conservation of energy",
+      "Conservation of angular momentum",
+      "Newton's third law",
+      "Bernoulli's principle"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Conservation of angular momentum: as moment of inertia decreases (arms pulled in), angular velocity must increase.",
+    "detailedExplanation": "Conservation of angular momentum states that L = Iω remains constant in the absence of external torques, where I is the moment of inertia and ω is the angular velocity. When an ice skater pulls their arms inward, they reduce their moment of inertia (I decreases). Since angular momentum must be conserved, the angular velocity (ω) must increase proportionally, causing the skater to spin faster. This principle applies to many rotating systems, from figure skaters to pulsars.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Angular_momentum",
+    "citationTitle": "Wikipedia: Angular momentum"
+  },
+  {
+    "id": "bc848897-c9d2-49a6-8a51-9c1691ede9c9",
+    "text": "What does the equipartition theorem predict for the average kinetic energy per degree of freedom in thermal equilibrium?",
+    "options": [
+      "kT/4",
+      "kT/2",
+      "kT",
+      "3kT/2"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "The equipartition theorem states that each degree of freedom contributes kT/2 to the average energy.",
+    "detailedExplanation": "The equipartition theorem is a fundamental result in statistical mechanics that states that energy is shared equally among all accessible degrees of freedom in thermal equilibrium. Specifically, each quadratic term in the energy (like kinetic energy terms ½mv² or potential energy terms ½kx²) contributes an average energy of kT/2, where k is Boltzmann's constant and T is temperature. This theorem explains the heat capacities of gases and the distribution of energy in molecular motion.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Equipartition_theorem",
+    "citationTitle": "Wikipedia: Equipartition theorem"
+  },
+  {
+    "id": "5e242d91-df89-4029-ad4b-b348fd4f776d",
+    "text": "What was the speed achieved by NASA's Parker Solar Probe when it set the record for fastest human-made object?",
+    "options": [
+      "430,000 mph",
+      "532,000 mph",
+      "394,000 mph",
+      "621,000 mph"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "The Parker Solar Probe reached approximately 532,000 mph during its close approach to the Sun.",
+    "detailedExplanation": "NASA's Parker Solar Probe set the record for the fastest human-made object when it reached speeds of approximately 532,000 mph (856,000 km/h) during its close approach to the Sun in November 2021. The probe achieves these incredible speeds through gravity assists from Venus and its highly elliptical orbit around the Sun. At this speed, the probe could travel from New York to Tokyo in under a minute, making it more than twice as fast as the previous record holder, Helios 2.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Parker_Solar_Probe",
+    "citationTitle": "Wikipedia: Parker Solar Probe"
+  },
+  {
+    "id": "86ec51d0-b2e1-4247-a4a0-3eb1769bfaed",
+    "text": "Which scientist's doctoral thesis was initially rejected by the University of Zurich for being 'too short'?",
+    "options": [
+      "Albert Einstein",
+      "Niels Bohr",
+      "Werner Heisenberg",
+      "Erwin Schrödinger"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Einstein's 1905 doctoral thesis 'A New Determination of Molecular Dimensions' was initially rejected for being too short.",
+    "detailedExplanation": "Albert Einstein's doctoral thesis, submitted to the University of Zurich in 1905, was initially rejected by his advisor Alfred Kleiner for being too brief. Einstein had to add a single sentence to make it acceptable. Ironically, this 'short' thesis later became one of his most cited papers, as it provided a method for determining molecular sizes and Avogadro's number through the study of sugar dissolved in water.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Albert_Einstein%27s_doctoral_dissertation",
+    "citationTitle": "Wikipedia: Albert Einstein's doctoral dissertation"
+  },
+  {
+    "id": "5aa693a7-b38f-423e-b26c-7e86bf05549c",
+    "text": "In which part of the chloroplast do the light-independent reactions (Calvin cycle) of photosynthesis occur?",
+    "options": [
+      "Thylakoid membrane",
+      "Thylakoid lumen",
+      "Stroma",
+      "Outer membrane"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "The Calvin cycle occurs in the stroma, the fluid-filled space surrounding the thylakoids inside chloroplasts.",
+    "detailedExplanation": "The stroma is the aqueous matrix that fills the space between the inner chloroplast membrane and the thylakoid membranes. This is where the light-independent reactions of photosynthesis take place, including the Calvin-Benson cycle that fixes carbon dioxide into organic molecules. The stroma contains the enzyme RuBisCO (ribulose-1,5-bisphosphate carboxylase/oxygenase), which catalyzes the first step of carbon fixation, as well as other enzymes necessary for the cycle. The stroma also houses chloroplast DNA, ribosomes, and various metabolites. The spatial separation of light-dependent reactions (in thylakoids) and light-independent reactions (in stroma) allows for efficient regulation and optimization of both processes.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Stroma_(fluid)",
+    "citationTitle": "Wikipedia: Stroma (fluid)"
+  },
+  {
+    "id": "2a8087a4-27a6-4b17-a3eb-880d3f7c214b",
+    "text": "What is the name of the boundary layer in Earth's interior where S-waves (secondary seismic waves) cannot propagate?",
+    "options": [
+      "Lithosphere-asthenosphere boundary",
+      "Core-mantle boundary",
+      "Inner core-outer core boundary",
+      "Mohorovičić discontinuity"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "S-waves cannot travel through liquids, so they stop at the boundary between the solid inner core and liquid outer core.",
+    "detailedExplanation": "The boundary between Earth's liquid outer core and solid inner core creates a shadow zone for S-waves (shear waves) because these waves cannot propagate through liquids. This phenomenon was crucial in discovering that Earth's outer core is liquid, composed primarily of molten iron and nickel. The S-wave shadow zone extends from about 103° to 180° from an earthquake's epicenter, providing key evidence for understanding Earth's internal structure through seismic wave analysis.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Shadow_zone",
+    "citationTitle": "Wikipedia: Shadow Zone"
+  },
+  {
+    "id": "f7137b87-35c2-4158-9993-3062fc536fa1",
+    "text": "Which fundamental principle states that it's impossible to simultaneously know both the exact position and momentum of a particle?",
+    "options": [
+      "Pauli Exclusion Principle",
+      "Heisenberg Uncertainty Principle",
+      "Schrödinger's Principle",
+      "Planck's Quantum Principle"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "The Heisenberg Uncertainty Principle establishes fundamental limits to measurement precision in quantum mechanics.",
+    "detailedExplanation": "The Heisenberg Uncertainty Principle, formulated by Werner Heisenberg in 1927, is a cornerstone of quantum mechanics. It states that the more precisely we know the position of a particle, the less precisely we can know its momentum, and vice versa. This isn't due to measurement limitations but represents a fundamental property of quantum systems. The principle is mathematically expressed as Δx × Δp ≥ ℏ/2, where ℏ is the reduced Planck constant.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Uncertainty_principle",
+    "citationTitle": "Wikipedia: Uncertainty Principle"
+  },
+  {
+    "id": "90c8c72c-c01a-4b5a-a826-92de304e7379",
+    "text": "What is the name of the law that describes how the magnetic field created by an electric current is proportional to the current and inversely proportional to the distance from it?",
+    "options": [
+      "Faraday's Law",
+      "Lenz's Law",
+      "Ampère's Circuital Law",
+      "Gauss's Law for Magnetism"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Ampère's Circuital Law relates magnetic fields to the electric currents that produce them.",
+    "detailedExplanation": "Ampère's Circuital Law, formulated by André-Marie Ampère, is one of Maxwell's four equations describing electromagnetism. It states that the magnetic field around a closed loop is proportional to the electric current flowing through the loop. In its original form, it applies to steady currents, but Maxwell later modified it to include changing electric fields, making it applicable to electromagnetic waves and completing the theoretical foundation for electromagnetic theory.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Amp%C3%A8re%27s_circuital_law",
+    "citationTitle": "Wikipedia: Ampère's Circuital Law"
+  },
+  {
+    "id": "d79edd7c-ba15-4710-9a93-59705022b7ea",
+    "text": "According to the Stefan-Boltzmann Law, how does the total energy radiated by a black body relate to its temperature?",
+    "options": [
+      "Directly proportional to temperature",
+      "Proportional to temperature squared",
+      "Proportional to temperature cubed",
+      "Proportional to temperature to the fourth power"
+    ],
+    "correctIndex": 3,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "The Stefan-Boltzmann Law states that radiated power is proportional to the fourth power of absolute temperature.",
+    "detailedExplanation": "The Stefan-Boltzmann Law describes the power radiated from a black body in terms of its temperature. Mathematically expressed as P = σAT⁴, where P is power, σ is the Stefan-Boltzmann constant, A is surface area, and T is absolute temperature. This T⁴ relationship means that small increases in temperature result in dramatically increased radiation. For example, doubling the temperature increases radiated power by a factor of 16. This law is crucial in understanding stellar physics, thermal imaging, and climate science.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Stefan%E2%80%93Boltzmann_law",
+    "citationTitle": "Wikipedia: Stefan–Boltzmann Law"
+  },
+  {
+    "id": "c9b07fca-10c1-428e-8491-31089d74fd70",
+    "text": "Which principle explains why ice floats on water, despite both being the same substance?",
+    "options": [
+      "Archimedes' Principle",
+      "Pascal's Principle",
+      "Bernoulli's Principle",
+      "Le Chatelier's Principle"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Archimedes' Principle explains buoyancy - objects float when they displace fluid weighing more than themselves.",
+    "detailedExplanation": "Archimedes' Principle states that any object immersed in a fluid experiences a buoyant force equal to the weight of the fluid it displaces. Ice floats because its crystalline structure makes it less dense than liquid water (about 0.92 g/cm³ vs 1.00 g/cm³). When ice displaces its own volume of water, that displaced water weighs more than the ice itself, creating a net upward buoyant force. This principle applies to all floating objects and is fundamental to understanding buoyancy in ships, submarines, and natural phenomena.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Archimedes%27_principle",
+    "citationTitle": "Wikipedia: Archimedes' Principle"
+  },
+  {
+    "id": "7e9dcd10-9675-475c-bf7e-af2e50889383",
+    "text": "What does the Second Law of Thermodynamics state about entropy in an isolated system?",
+    "options": [
+      "Entropy always decreases",
+      "Entropy remains constant",
+      "Entropy can increase or decrease",
+      "Entropy always increases or remains constant"
+    ],
+    "correctIndex": 3,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "The Second Law states that entropy in an isolated system never decreases - it either increases or stays the same.",
+    "detailedExplanation": "The Second Law of Thermodynamics is one of the most fundamental principles in physics, establishing the concept of entropy and the arrow of time. In an isolated system, entropy (a measure of disorder or energy dispersal) can only increase or remain constant - it never decreases spontaneously. This means energy naturally flows from hot to cold, gases expand to fill available space, and organized systems tend toward disorder. This law explains why perpetual motion machines are impossible and provides the theoretical foundation for understanding irreversible processes in nature.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Second_law_of_thermodynamics",
+    "citationTitle": "Wikipedia: Second Law of Thermodynamics"
+  },
+  {
+    "id": "d7c2886f-551a-4e59-9043-e3e56c193e73",
+    "text": "Which principle describes the relationship between the pressure and speed of a flowing fluid?",
+    "options": [
+      "Poiseuille's Law",
+      "Bernoulli's Principle",
+      "Torricelli's Law",
+      "Stokes' Law"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Bernoulli's Principle states that as fluid speed increases, pressure decreases along a streamline.",
+    "detailedExplanation": "Bernoulli's Principle, derived from the conservation of energy for flowing fluids, states that an increase in fluid speed occurs simultaneously with a decrease in pressure or potential energy. This principle explains how airplane wings generate lift, how carburetors work, and why shower curtains get sucked inward when water flows. The principle applies to ideal fluids (incompressible and non-viscous) and is fundamental to fluid dynamics, though real-world applications often require consideration of additional factors like viscosity and turbulence.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Bernoulli%27s_principle",
+    "citationTitle": "Wikipedia: Bernoulli's Principle"
+  },
+  {
+    "id": "b469101d-700d-4cec-93b6-a23e77becc49",
+    "text": "What does Gauss's Law for Electric Fields mathematically relate?",
+    "options": [
+      "Electric field to magnetic field",
+      "Electric flux through a surface to enclosed charge",
+      "Electric potential to electric field",
+      "Electric current to resistance"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Gauss's Law relates the electric flux through any closed surface to the total electric charge enclosed within that surface.",
+    "detailedExplanation": "Gauss's Law for Electric Fields is one of Maxwell's four fundamental equations of electromagnetism. It states that the electric flux through any closed surface is proportional to the total electric charge enclosed within that surface, divided by the permittivity of free space. Mathematically expressed as ∮E⋅dA = Q/ε₀, this law provides an elegant way to calculate electric fields for symmetric charge distributions and demonstrates that electric field lines must originate from positive charges and terminate on negative charges.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Gauss%27s_law",
+    "citationTitle": "Wikipedia: Gauss's Law"
+  },
+  {
+    "id": "fb9f4113-f145-4024-b580-42d0c661c127",
+    "text": "According to the Doppler Effect, what happens to the frequency of waves when the source moves toward an observer?",
+    "options": [
+      "Frequency decreases",
+      "Frequency increases",
+      "Frequency remains unchanged",
+      "Frequency oscillates"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "When a wave source moves toward an observer, the observed frequency increases due to wave compression.",
+    "detailedExplanation": "The Doppler Effect describes the change in frequency of waves when there is relative motion between the source and observer. When the source moves toward the observer, successive wave crests are emitted from positions closer to the observer, causing the waves to be compressed and the observed frequency to increase (higher pitch for sound, blue-shift for light). Conversely, when the source moves away, the frequency decreases. This effect is observable in everyday life with ambulance sirens and is crucial in astronomy for measuring stellar velocities and the expansion of the universe.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Doppler_effect",
+    "citationTitle": "Wikipedia: Doppler Effect"
+  },
+  {
+    "id": "beefed51-24e8-45cb-b406-8af52da468c9",
+    "text": "According to Heisenberg's uncertainty principle, what is the minimum uncertainty in energy-time for a quantum system?",
+    "options": [
+      "ℏ/2",
+      "ℏ",
+      "2ℏ",
+      "ℏ/4π"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "The energy-time uncertainty relation states ΔE·Δt ≥ ℏ/2, where ℏ is the reduced Planck constant.",
+    "detailedExplanation": "Heisenberg's uncertainty principle establishes fundamental limits on the precision with which certain pairs of physical properties can be simultaneously known. The energy-time uncertainty relation, ΔE·Δt ≥ ℏ/2, means that the more precisely we try to measure the energy of a quantum system, the less precisely we can determine the time at which that energy measurement is valid. This has profound implications for quantum mechanics, including the existence of virtual particles and the natural linewidth of atomic transitions.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Uncertainty_principle",
+    "citationTitle": "Wikipedia: Uncertainty principle"
+  },
+  {
+    "id": "aabbce08-75b8-4b04-b677-4e66d86fd1db",
+    "text": "In Einstein's field equations of general relativity, what does the cosmological constant Λ (Lambda) represent?",
+    "options": [
+      "The speed of light in vacuum",
+      "The energy density of empty space",
+      "The curvature of spacetime",
+      "The gravitational field strength"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "The cosmological constant Λ represents the energy density of empty space, associated with dark energy and the accelerating expansion of the universe.",
+    "detailedExplanation": "Einstein introduced the cosmological constant Λ in his field equations to allow for a static universe, but later called it his 'greatest mistake' when Hubble discovered cosmic expansion. However, the cosmological constant has made a comeback in modern cosmology as it's now associated with dark energy - the mysterious force causing the accelerating expansion of the universe. In the field equations Gμν + Λgμν = 8πTμν, the Λ term represents the energy density of the quantum vacuum, contributing to spacetime curvature even in the absence of matter.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Cosmological_constant",
+    "citationTitle": "Wikipedia: Cosmological constant"
+  },
+  {
+    "id": "14a42179-61ff-41fe-8dc2-ce138c2a5010",
+    "text": "According to the Pauli exclusion principle, which quantum numbers must differ for two fermions occupying the same quantum state?",
+    "options": [
+      "Only the spin quantum number",
+      "At least one of the four quantum numbers",
+      "Only the magnetic quantum numbers",
+      "The principal and azimuthal quantum numbers"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "The Pauli exclusion principle states that no two fermions can occupy the same quantum state, meaning at least one of their four quantum numbers must differ.",
+    "detailedExplanation": "The Pauli exclusion principle is fundamental to understanding atomic structure and the periodic table. It states that no two identical fermions (particles with half-integer spin) can simultaneously occupy the same quantum state within a quantum system. For electrons in atoms, this means that each electron must have a unique combination of the four quantum numbers: principal (n), azimuthal (l), magnetic (ml), and spin (ms). This principle explains why electrons fill atomic orbitals in a specific pattern and why atoms have their characteristic chemical properties.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Pauli_exclusion_principle",
+    "citationTitle": "Wikipedia: Pauli exclusion principle"
+  },
+  {
+    "id": "0aac96e6-b58f-4555-a887-09476858df9e",
+    "text": "In thermodynamics, what does the second law state about entropy in an isolated system?",
+    "options": [
+      "Entropy always decreases",
+      "Entropy remains constant",
+      "Entropy never decreases",
+      "Entropy oscillates periodically"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "The second law of thermodynamics states that entropy of an isolated system never decreases; it either increases or remains constant in reversible processes.",
+    "detailedExplanation": "The second law of thermodynamics is one of the most fundamental principles in physics, establishing the concept of entropy and the arrow of time. For an isolated system (one that exchanges neither energy nor matter with its surroundings), entropy can only increase or remain constant - it never decreases. This law explains why heat flows from hot to cold objects, why perpetual motion machines are impossible, and why certain processes are irreversible. The entropy increase drives the universe toward thermal equilibrium and gives thermodynamic processes their directional character.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Second_law_of_thermodynamics",
+    "citationTitle": "Wikipedia: Second law of thermodynamics"
+  }
+]

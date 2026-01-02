@@ -1,12 +1,5 @@
-import Ably from 'ably';
-import { graphqlClient, queries } from '@/lib/graphql';
-
-interface AblyTokenResponse {
-  token: string;
-  expires: string;
-  duplicateSession?: boolean;
-  duplicateIp?: boolean;
-}
+import Ably from "ably";
+import { getAblyToken } from "@/lib/api";
 
 /**
  * Singleton service for managing Ably realtime connection
@@ -25,14 +18,11 @@ class AblyServiceClass {
   /**
    * Fetch Ably token from AppSync Lambda
    */
-  private async fetchToken(): Promise<AblyTokenResponse | null> {
+  private async fetchToken() {
     try {
-      const result = await graphqlClient.graphql({
-        query: queries.getAblyToken,
-      }) as { data: { getAblyToken: AblyTokenResponse } };
-      return result.data.getAblyToken;
+      return await getAblyToken();
     } catch (error) {
-      console.error('Failed to fetch Ably token:', error);
+      console.error("Failed to fetch Ably token:", error);
       return null;
     }
   }
@@ -40,13 +30,16 @@ class AblyServiceClass {
   /**
    * Initialize or reuse Ably connection
    */
-  async connect(playerId: string, roomId: string): Promise<{
+  async connect(
+    playerId: string,
+    roomId: string,
+  ): Promise<{
     roomChannel: Ably.RealtimeChannel;
     userChannel: Ably.RealtimeChannel;
   } | null> {
     // Already connected with same player and room
     if (
-      this.ably?.connection.state === 'connected' &&
+      this.ably?.connection.state === "connected" &&
       this.currentPlayerId === playerId &&
       this.currentRoomId === roomId &&
       this.roomChannel &&
@@ -72,7 +65,7 @@ class AblyServiceClass {
     try {
       const tokenData = await this.fetchToken();
       if (!tokenData) {
-        throw new Error('Failed to get Ably token');
+        throw new Error("Failed to get Ably token");
       }
 
       this.ably = new Ably.Realtime({
@@ -83,18 +76,18 @@ class AblyServiceClass {
           if (newToken) {
             callback(null, newToken.token);
           } else {
-            callback('Failed to refresh Ably token', null);
+            callback("Failed to refresh Ably token", null);
           }
         },
       });
 
       // Wait for connection
       await new Promise<void>((resolve, reject) => {
-        if (this.ably!.connection.state === 'connected') {
+        if (this.ably!.connection.state === "connected") {
           resolve();
         } else {
-          this.ably!.connection.once('connected', () => resolve());
-          this.ably!.connection.once('failed', (err) => reject(err));
+          this.ably!.connection.once("connected", () => resolve());
+          this.ably!.connection.once("failed", (err) => reject(err));
         }
       });
 
@@ -109,7 +102,7 @@ class AblyServiceClass {
         userChannel: this.userChannel,
       };
     } catch (error) {
-      console.error('Failed to initialize Ably:', error);
+      console.error("Failed to initialize Ably:", error);
       this.isInitializing = false;
       this.currentPlayerId = null;
       this.currentRoomId = null;
@@ -163,7 +156,8 @@ class AblyServiceClass {
     const measure = () => {
       if (!this.roomChannel) return;
       const start = Date.now();
-      this.roomChannel.publish('latency_ping', { timestamp: start })
+      this.roomChannel
+        .publish("latency_ping", { timestamp: start })
         .then(() => {
           onLatency(Date.now() - start);
         })
@@ -204,7 +198,7 @@ class AblyServiceClass {
    * Check if connected
    */
   isConnected(): boolean {
-    return this.ably?.connection.state === 'connected';
+    return this.ably?.connection.state === "connected";
   }
 
   /**
@@ -232,13 +226,16 @@ class AblyServiceClass {
     if (this.roomChannel) {
       try {
         // Only leave presence if channel is still attached
-        if (this.roomChannel.state === 'attached') {
+        if (this.roomChannel.state === "attached") {
           this.roomChannel.presence.leave().catch(() => {
             // Ignore leave errors
           });
         }
         // Only unsubscribe if channel is not detached/failed
-        if (this.roomChannel.state !== 'detached' && this.roomChannel.state !== 'failed') {
+        if (
+          this.roomChannel.state !== "detached" &&
+          this.roomChannel.state !== "failed"
+        ) {
           this.roomChannel.unsubscribe();
         }
       } catch {
@@ -249,7 +246,10 @@ class AblyServiceClass {
 
     if (this.userChannel) {
       try {
-        if (this.userChannel.state !== 'detached' && this.userChannel.state !== 'failed') {
+        if (
+          this.userChannel.state !== "detached" &&
+          this.userChannel.state !== "failed"
+        ) {
           this.userChannel.unsubscribe();
         }
       } catch {

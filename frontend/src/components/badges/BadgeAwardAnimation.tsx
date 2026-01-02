@@ -1,9 +1,9 @@
-'use client';
+"use client";
 
-import { useEffect, useState } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
-import type { AwardBadge } from '@quiz/shared';
-import { getRarityGradient, getRarityColor } from '@quiz/shared';
+import { useEffect, useState } from "react";
+import { motion, AnimatePresence } from "framer-motion";
+import type { AwardBadge } from "@quiz/shared";
+import { getRarityGradient, getRarityColor } from "@quiz/shared";
 
 interface BadgeAwardAnimationProps {
   badge: AwardBadge | null;
@@ -12,7 +12,15 @@ interface BadgeAwardAnimationProps {
 }
 
 // Sparkle component for the explosion effect
-function Sparkle({ delay, angle, distance }: { delay: number; angle: number; distance: number }) {
+function Sparkle({
+  delay,
+  angle,
+  distance,
+}: {
+  delay: number;
+  angle: number;
+  distance: number;
+}) {
   const x = Math.cos(angle) * distance;
   const y = Math.sin(angle) * distance;
 
@@ -29,7 +37,7 @@ function Sparkle({ delay, angle, distance }: { delay: number; angle: number; dis
       transition={{
         duration: 0.8,
         delay,
-        ease: 'easeOut',
+        ease: "easeOut",
       }}
     />
   );
@@ -44,7 +52,7 @@ function StarBurst() {
     const angle = (i / numSparkles) * Math.PI * 2;
     const distance = 80 + Math.random() * 40;
     sparkles.push(
-      <Sparkle key={i} delay={i * 0.02} angle={angle} distance={distance} />
+      <Sparkle key={i} delay={i * 0.02} angle={angle} distance={distance} />,
     );
   }
 
@@ -53,27 +61,36 @@ function StarBurst() {
     const angle = Math.random() * Math.PI * 2;
     const distance = 60 + Math.random() * 60;
     sparkles.push(
-      <Sparkle key={`r${i}`} delay={0.1 + i * 0.03} angle={angle} distance={distance} />
+      <Sparkle
+        key={`r${i}`}
+        delay={0.1 + i * 0.03}
+        angle={angle}
+        distance={distance}
+      />,
     );
   }
 
   return <>{sparkles}</>;
 }
 
-export function BadgeAwardAnimation({ badge, onComplete, targetPosition }: BadgeAwardAnimationProps) {
-  const [phase, setPhase] = useState<'explode' | 'fly' | 'done'>('explode');
+export function BadgeAwardAnimation({
+  badge,
+  onComplete,
+  targetPosition,
+}: BadgeAwardAnimationProps) {
+  const [phase, setPhase] = useState<"explode" | "fly" | "done">("explode");
 
   useEffect(() => {
     if (!badge) return;
 
     // Phase 1: Explosion (1.2s)
     const flyTimer = setTimeout(() => {
-      setPhase('fly');
+      setPhase("fly");
     }, 1200);
 
     // Phase 2: Fly to target (0.8s)
     const doneTimer = setTimeout(() => {
-      setPhase('done');
+      setPhase("done");
       onComplete();
     }, 2000);
 
@@ -95,7 +112,7 @@ export function BadgeAwardAnimation({ badge, onComplete, targetPosition }: Badge
 
   return (
     <AnimatePresence>
-      {phase !== 'done' && (
+      {phase !== "done" && (
         <motion.div
           className="fixed inset-0 z-50 pointer-events-none"
           initial={{ opacity: 0 }}
@@ -106,7 +123,7 @@ export function BadgeAwardAnimation({ badge, onComplete, targetPosition }: Badge
           <motion.div
             className="absolute inset-0 bg-black/50"
             initial={{ opacity: 0 }}
-            animate={{ opacity: phase === 'explode' ? 0.5 : 0 }}
+            animate={{ opacity: phase === "explode" ? 0.5 : 0 }}
             transition={{ duration: 0.3 }}
           />
 
@@ -116,16 +133,16 @@ export function BadgeAwardAnimation({ badge, onComplete, targetPosition }: Badge
             initial={{
               left: centerX,
               top: centerY,
-              x: '-50%',
-              y: '-50%',
+              x: "-50%",
+              y: "-50%",
             }}
             animate={
-              phase === 'fly'
+              phase === "fly"
                 ? {
                     left: target.x,
                     top: target.y,
-                    x: '-50%',
-                    y: '-50%',
+                    x: "-50%",
+                    y: "-50%",
                     scale: 0.3,
                   }
                 : {}
@@ -136,7 +153,7 @@ export function BadgeAwardAnimation({ badge, onComplete, targetPosition }: Badge
             }}
           >
             {/* Sparkles */}
-            {phase === 'explode' && (
+            {phase === "explode" && (
               <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2">
                 <StarBurst />
               </div>
@@ -147,11 +164,16 @@ export function BadgeAwardAnimation({ badge, onComplete, targetPosition }: Badge
               className={`absolute inset-0 rounded-full bg-gradient-to-r ${rarityGradient} blur-xl`}
               initial={{ opacity: 0, scale: 0.5 }}
               animate={{
-                opacity: phase === 'explode' ? [0, 0.8, 0.4] : 0,
-                scale: phase === 'explode' ? [0.5, 1.5, 1.2] : 1,
+                opacity: phase === "explode" ? [0, 0.8, 0.4] : 0,
+                scale: phase === "explode" ? [0.5, 1.5, 1.2] : 1,
               }}
               transition={{ duration: 0.6 }}
-              style={{ width: 200, height: 200, marginLeft: -100, marginTop: -100 }}
+              style={{
+                width: 200,
+                height: 200,
+                marginLeft: -100,
+                marginTop: -100,
+              }}
             />
 
             {/* Badge */}
@@ -159,12 +181,12 @@ export function BadgeAwardAnimation({ badge, onComplete, targetPosition }: Badge
               className={`relative flex flex-col items-center justify-center rounded-2xl bg-gradient-to-br ${rarityGradient} p-1`}
               initial={{ scale: 0, rotate: -180 }}
               animate={{
-                scale: phase === 'explode' ? [0, 1.2, 1] : 1,
-                rotate: phase === 'explode' ? [-180, 10, 0] : 0,
+                scale: phase === "explode" ? [0, 1.2, 1] : 1,
+                rotate: phase === "explode" ? [-180, 10, 0] : 0,
               }}
               transition={{
                 duration: 0.6,
-                ease: 'easeOut',
+                ease: "easeOut",
               }}
               style={{ width: 160, height: 180 }}
             >
@@ -213,7 +235,7 @@ export function BadgeAwardAnimation({ badge, onComplete, targetPosition }: Badge
             </motion.div>
 
             {/* "Badge Unlocked" text */}
-            {phase === 'explode' && (
+            {phase === "explode" && (
               <motion.div
                 className="absolute -top-16 left-1/2 -translate-x-1/2 whitespace-nowrap"
                 initial={{ opacity: 0, y: 20 }}

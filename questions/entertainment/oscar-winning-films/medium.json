@@ -1,0 +1,342 @@
+[
+  {
+    "id": "2213c77a-7068-4141-8ab2-f6803c074c6f",
+    "text": "Which film holds the record for most Academy Award wins by a single movie?",
+    "options": [
+      "Titanic",
+      "Ben-Hur",
+      "The Lord of the Rings: The Return of the King",
+      "All three are tied with 11 wins"
+    ],
+    "correctIndex": 3,
+    "category": "entertainment",
+    "difficulty": "medium",
+    "explanation": "Ben-Hur (1959), Titanic (1997), and The Lord of the Rings: The Return of the King (2003) are all tied with 11 Oscar wins each.",
+    "detailedExplanation": "Three films share the record for most Academy Award wins with 11 Oscars each: Ben-Hur won in 1960 including Best Picture and Best Director, Titanic swept the 1998 ceremony with wins including Best Picture and Best Director, and The Lord of the Rings: The Return of the King completed Peter Jackson's trilogy with 11 wins in 2004, also including Best Picture and Best Director.",
+    "citationUrl": "https://en.wikipedia.org/wiki/List_of_films_with_the_most_Academy_Award_wins",
+    "citationTitle": "Wikipedia: List of films with the most Academy Award wins"
+  },
+  {
+    "id": "70d40836-49b4-4e24-9cbb-fdee8071d9e7",
+    "text": "Who is the only person to have won an Oscar for acting in a Quentin Tarantino film?",
+    "options": [
+      "Samuel L. Jackson",
+      "Christoph Waltz",
+      "Uma Thurman",
+      "John Travolta"
+    ],
+    "correctIndex": 1,
+    "category": "entertainment",
+    "difficulty": "medium",
+    "explanation": "Christoph Waltz won Best Supporting Actor for 'Inglourious Basterds' (2009) and again for 'Django Unchained' (2012).",
+    "detailedExplanation": "Christoph Waltz is the only actor to win an Academy Award for a performance in a Quentin Tarantino film, and he's done it twice. He won Best Supporting Actor for his role as Colonel Hans Landa in 'Inglourious Basterds' (2009) and again for playing bounty hunter Dr. King Schultz in 'Django Unchained' (2012). Despite Tarantino's films receiving numerous nominations for actors like Samuel L. Jackson, John Travolta, and Uma Thurman, Waltz remains the sole winner.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Christoph_Waltz",
+    "citationTitle": "Wikipedia: Christoph Waltz"
+  },
+  {
+    "id": "422b671b-4463-4772-8af6-09b565e72978",
+    "text": "Which Best Picture winner was the first sequel to win the Academy Award for Best Picture?",
+    "options": [
+      "The Godfather Part II",
+      "The Lord of the Rings: The Return of the King",
+      "Mad Max: Fury Road",
+      "Toy Story 3"
+    ],
+    "correctIndex": 0,
+    "category": "entertainment",
+    "difficulty": "medium",
+    "explanation": "The Godfather Part II (1974) was the first sequel to win Best Picture, and remains one of only two sequels to achieve this honor.",
+    "detailedExplanation": "The Godfather Part II made history in 1975 by becoming the first sequel ever to win the Academy Award for Best Picture. Directed by Francis Ford Coppola, it was both a sequel and prequel to the original Godfather, telling parallel stories of Vito and Michael Corleone. For decades, it remained the only sequel to win Best Picture until The Lord of the Rings: The Return of the King achieved the same feat in 2004, making it only the second sequel in Oscar history to win the top prize.",
+    "citationUrl": "https://en.wikipedia.org/wiki/The_Godfather_Part_II",
+    "citationTitle": "Wikipedia: The Godfather Part II"
+  },
+  {
+    "id": "9521ce05-61ea-4920-a630-2eb14f4b8bed",
+    "text": "Which film won Best Picture despite its director NOT being nominated for Best Director?",
+    "options": [
+      "Argo",
+      "Driving Miss Daisy",
+      "Wings",
+      "All of the above"
+    ],
+    "correctIndex": 3,
+    "category": "entertainment",
+    "difficulty": "medium",
+    "explanation": "All three films won Best Picture without their directors receiving nominations: Argo (Ben Affleck), Driving Miss Daisy (Bruce Beresford), and Wings (William Wellman).",
+    "detailedExplanation": "Several Best Picture winners have achieved this unusual distinction of winning without a Best Director nomination for their helmer. Wings (1929) won the first-ever Best Picture Oscar without William Wellman being nominated for directing. Driving Miss Daisy (1989) won despite Bruce Beresford being snubbed in the director category. Most recently, Argo (2012) won Best Picture even though Ben Affleck was controversially omitted from the Best Director nominees, a snub that many believed actually helped the film gain sympathy votes and contributed to its upset victory.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Academy_Award_for_Best_Picture",
+    "citationTitle": "Wikipedia: Academy Award for Best Picture"
+  },
+  {
+    "id": "d21aa942-4777-44f8-87be-e19561b99ecd",
+    "text": "Which Oscar-winning film features the famous line 'Nobody puts Baby in a corner'?",
+    "options": [
+      "Dirty Dancing won Best Picture",
+      "Dirty Dancing won Best Original Song",
+      "Dirty Dancing won Best Cinematography",
+      "Dirty Dancing has never won an Oscar"
+    ],
+    "correctIndex": 1,
+    "category": "entertainment",
+    "difficulty": "medium",
+    "explanation": "Dirty Dancing won the Academy Award for Best Original Song for '(I've Had) The Time of My Life' in 1988.",
+    "detailedExplanation": "While Dirty Dancing is famous for Patrick Swayze's iconic line 'Nobody puts Baby in a corner,' the 1987 film's only Oscar win was for Best Original Song. The song '(I've Had) The Time of My Life,' performed by Bill Medley and Jennifer Warnes, won at the 1988 Academy Awards. The film was not nominated in any other categories, including Best Picture, despite its massive cultural impact and box office success. The song perfectly captured the film's romantic energy and became synonymous with the movie's climactic dance scene.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Dirty_Dancing",
+    "citationTitle": "Wikipedia: Dirty Dancing"
+  },
+  {
+    "id": "138a00c7-2514-410a-b005-fcbbc0e0412a",
+    "text": "Which Best Picture winner has the shortest runtime?",
+    "options": [
+      "Marty (90 minutes)",
+      "Annie Hall (93 minutes)",
+      "The Hurt Locker (97 minutes)",
+      "Rocky (119 minutes)"
+    ],
+    "correctIndex": 0,
+    "category": "entertainment",
+    "difficulty": "medium",
+    "explanation": "Marty (1955) holds the record as the shortest Best Picture winner at just 90 minutes.",
+    "detailedExplanation": "Marty, the 1955 film starring Ernest Borgnine, holds the distinction of being the shortest film ever to win the Academy Award for Best Picture at just 90 minutes long. This intimate character study about a lonely Bronx butcher who finds unexpected love was originally a television play before being adapted for the big screen. Despite its brief runtime, the film packed an emotional punch that resonated with audiences and critics alike, proving that epic length wasn't necessary for epic impact. The film also won Oscars for Best Director (Delbert Mann) and Best Actor (Ernest Borgnine).",
+    "citationUrl": "https://en.wikipedia.org/wiki/Marty_(film)",
+    "citationTitle": "Wikipedia: Marty (film)"
+  },
+  {
+    "id": "40637df4-4c89-4b51-b05c-63413d7e5a52",
+    "text": "Which actor has won the most competitive acting Oscars in history?",
+    "options": [
+      "Jack Nicholson",
+      "Walter Brennan",
+      "Daniel Day-Lewis",
+      "Meryl Streep"
+    ],
+    "correctIndex": 1,
+    "category": "entertainment",
+    "difficulty": "medium",
+    "explanation": "Walter Brennan won three Best Supporting Actor Oscars, tied for the most competitive acting wins with Daniel Day-Lewis and Frances McDormand.",
+    "detailedExplanation": "Walter Brennan holds the record for most competitive acting Oscar wins with three Best Supporting Actor awards, earned for Come and Get It (1936), Kentucky (1938), and The Westerner (1940). He shares this record with Daniel Day-Lewis, who won three Best Actor Oscars for My Left Foot (1989), There Will Be Blood (2007), and Lincoln (2012), and Frances McDormand, who won Best Actress three times for Fargo (1996), Three Billboards Outside Ebbing, Missouri (2017), and Nomadland (2020). While Meryl Streep has the most nominations, she has won three times but one was Supporting, making her total wins three as well.",
+    "citationUrl": "https://en.wikipedia.org/wiki/List_of_actors_with_Academy_Award_nominations",
+    "citationTitle": "Wikipedia: List of actors with Academy Award nominations"
+  },
+  {
+    "id": "f7906645-1b26-4fea-b231-474a282014a7",
+    "text": "Which 1994 film won Best Picture despite its main character never appearing on screen?",
+    "options": [
+      "Forrest Gump",
+      "Pulp Fiction",
+      "The Shawshank Redemption",
+      "Four Weddings and a Funeral"
+    ],
+    "correctIndex": 0,
+    "category": "entertainment",
+    "difficulty": "medium",
+    "explanation": "Forrest Gump won Best Picture in 1995, with the title character narrating most of the historical events he 'witnessed.'",
+    "detailedExplanation": "Forrest Gump won the Academy Award for Best Picture at the 67th Academy Awards in 1995. The film was notable for its groundbreaking visual effects that inserted Tom Hanks' character into historical footage, making it appear he was present at major historical events. The film also won Oscars for Best Director (Robert Zemeckis), Best Actor (Tom Hanks), Best Adapted Screenplay, Best Visual Effects, and Best Film Editing.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Forrest_Gump",
+    "citationTitle": "Wikipedia: Forrest Gump"
+  },
+  {
+    "id": "ae13e62c-3141-428d-a0b2-cc2e397f9883",
+    "text": "Which actor holds the record for the most Oscar nominations without ever winning?",
+    "options": [
+      "Peter O'Toole",
+      "Glenn Close",
+      "Amy Adams",
+      "Richard Burton"
+    ],
+    "correctIndex": 0,
+    "category": "entertainment",
+    "difficulty": "medium",
+    "explanation": "Peter O'Toole received 8 Oscar nominations throughout his career but never won a competitive Oscar, though he received an honorary award in 2003.",
+    "detailedExplanation": "Peter O'Toole holds the record for most Academy Award nominations without a win, having been nominated 8 times for Best Actor between 1962 and 2006. His nominations included roles in Lawrence of Arabia, Becket, The Lion in Winter, and My Favorite Year. In 2003, he was offered an Honorary Academy Award, which he initially considered declining, saying he was 'still in the game' and might win a competitive Oscar.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Peter_O%27Toole",
+    "citationTitle": "Wikipedia: Peter O'Toole"
+  },
+  {
+    "id": "5f27d82b-9156-4dd2-b2ed-31cd36941a72",
+    "text": "What was unusual about the Best Picture winner at the 2017 Academy Awards ceremony?",
+    "options": [
+      "It was announced twice",
+      "The wrong film was initially announced",
+      "No film won",
+      "It was a tie"
+    ],
+    "correctIndex": 1,
+    "category": "entertainment",
+    "difficulty": "medium",
+    "explanation": "La La Land was mistakenly announced as Best Picture winner, but Moonlight was the actual winner due to an envelope mix-up.",
+    "detailedExplanation": "At the 89th Academy Awards in 2017, presenters Warren Beatty and Faye Dunaway were given the wrong envelope for Best Picture. They announced La La Land as the winner, and the cast and crew came on stage to accept. However, it was quickly discovered that Moonlight was the actual Best Picture winner. This mistake occurred because Beatty had been given the duplicate Best Actress envelope instead of the Best Picture envelope, creating one of the most memorable moments in Oscar history.",
+    "citationUrl": "https://en.wikipedia.org/wiki/89th_Academy_Awards",
+    "citationTitle": "Wikipedia: 89th Academy Awards"
+  },
+  {
+    "id": "b2e44945-82de-4c53-83dc-ea1fabcd678e",
+    "text": "Which film won the first-ever Academy Award for Best Animated Feature in 2002?",
+    "options": [
+      "Monsters, Inc.",
+      "Shrek",
+      "Jimmy Neutron: Boy Genius",
+      "Ice Age"
+    ],
+    "correctIndex": 1,
+    "category": "entertainment",
+    "difficulty": "medium",
+    "explanation": "Shrek won the inaugural Best Animated Feature Oscar at the 74th Academy Awards in 2002.",
+    "detailedExplanation": "The Academy Award for Best Animated Feature was first introduced at the 74th Academy Awards in 2002, recognizing animated films released in 2001. Shrek, produced by DreamWorks Animation, won this historic first award, beating fellow nominees Monsters, Inc. and Jimmy Neutron: Boy Genius. The category was created due to the increasing number and quality of animated films being produced, particularly with the rise of computer animation.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Academy_Award_for_Best_Animated_Feature",
+    "citationTitle": "Wikipedia: Academy Award for Best Animated Feature"
+  },
+  {
+    "id": "ae05ac05-37f2-42b1-9147-f2fdb0b0c7d9",
+    "text": "Which 1976 Best Picture winner was the first sequel to win this award?",
+    "options": [
+      "Rocky",
+      "All the President's Men",
+      "The Godfather Part II",
+      "Network"
+    ],
+    "correctIndex": 2,
+    "category": "entertainment",
+    "difficulty": "medium",
+    "explanation": "The Godfather Part II was the first sequel to win Best Picture, achieving this milestone at the 47th Academy Awards.",
+    "detailedExplanation": "The Godfather Part II, directed by Francis Ford Coppola, made history at the 47th Academy Awards in 1975 by becoming the first sequel to win the Academy Award for Best Picture. The film was both a sequel and prequel to the original Godfather, telling two parallel stories of Vito Corleone's rise to power and his son Michael's expansion of the family empire. It won six Oscars total, including Best Director for Coppola and Best Supporting Actor for Robert De Niro.",
+    "citationUrl": "https://en.wikipedia.org/wiki/The_Godfather_Part_II",
+    "citationTitle": "Wikipedia: The Godfather Part II"
+  },
+  {
+    "id": "efe6c2a0-ae35-46e2-9640-94834f2d71c0",
+    "text": "Which actress won consecutive Best Actress Oscars in 1935 and 1936?",
+    "options": [
+      "Bette Davis",
+      "Katharine Hepburn",
+      "Joan Crawford",
+      "Luise Rainer"
+    ],
+    "correctIndex": 3,
+    "category": "entertainment",
+    "difficulty": "medium",
+    "explanation": "Luise Rainer won back-to-back Best Actress Oscars for 'The Great Ziegfeld' (1936) and 'The Good Earth' (1937).",
+    "detailedExplanation": "Austrian actress Luise Rainer achieved the remarkable feat of winning consecutive Academy Awards for Best Actress at the 9th and 10th Academy Awards ceremonies. She won her first Oscar for her role as Anna Held in 'The Great Ziegfeld' (1936) and her second for playing O-Lan in 'The Good Earth' (1937). Rainer was only the second person to win multiple acting Oscars and remains one of only a few actors to win in consecutive years.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Luise_Rainer",
+    "citationTitle": "Wikipedia: Luise Rainer"
+  },
+  {
+    "id": "71cacd38-21f4-4c4e-8d92-328df57ac7cf",
+    "text": "Which Best Picture winner has the shortest title with just one letter?",
+    "options": [
+      "Z",
+      "M",
+      "8½",
+      "No single-letter winner"
+    ],
+    "correctIndex": 0,
+    "category": "entertainment",
+    "difficulty": "medium",
+    "explanation": "The French-Algerian political thriller 'Z' won Best Foreign Language Film in 1970 and was also nominated for Best Picture.",
+    "detailedExplanation": "While 'Z' didn't actually win Best Picture (it won Best Foreign Language Film at the 42nd Academy Awards in 1970), no Best Picture winner has had a single-letter title. 'Z', directed by Costa-Gavras, was notable for being nominated in both the Best Picture and Best Foreign Language Film categories, which was unusual at the time. The film's title refers to a Greek expression meaning 'he lives,' used in reference to political activists who had died.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Z_(1969_film)",
+    "citationTitle": "Wikipedia: Z (1969 film)"
+  },
+  {
+    "id": "bf801ba1-0c3e-4e41-981f-c7443e091109",
+    "text": "Which film won Best Picture despite receiving the fewest total Oscar nominations (just 5) since 1980?",
+    "options": [
+      "Crash",
+      "Green Book",
+      "CODA",
+      "Moonlight"
+    ],
+    "correctIndex": 2,
+    "category": "entertainment",
+    "difficulty": "medium",
+    "explanation": "CODA won Best Picture at the 2022 ceremony with only 3 nominations, making it the least-nominated Best Picture winner in modern Oscar history.",
+    "detailedExplanation": "CODA made Oscar history at the 94th Academy Awards in 2022 by winning Best Picture with only three nominations total (Best Picture, Best Supporting Actor for Troy Kotsur, and Best Adapted Screenplay). This made it the least-nominated film to win Best Picture since the Academy Awards began. The film was also notable for being the first film from a streaming service (Apple TV+) to win Best Picture and for its authentic representation of deaf culture.",
+    "citationUrl": "https://en.wikipedia.org/wiki/CODA_(2021_film)",
+    "citationTitle": "Wikipedia: CODA (2021 film)"
+  },
+  {
+    "id": "fd941239-b768-425c-a10a-e9db59f1b77f",
+    "text": "Which Oscar-winning film holds the record for the most Academy Awards won by a single movie?",
+    "options": [
+      "Titanic",
+      "Ben-Hur",
+      "The Lord of the Rings: The Return of the King",
+      "All three are tied with 11 wins"
+    ],
+    "correctIndex": 3,
+    "category": "entertainment",
+    "difficulty": "medium",
+    "explanation": "Ben-Hur (1959), Titanic (1997), and The Lord of the Rings: The Return of the King (2003) are all tied with 11 Academy Awards each.",
+    "detailedExplanation": "Three films share the record for most Oscar wins with 11 awards each: Ben-Hur won in 1960 including Best Picture and Best Director, Titanic swept the 1998 ceremony with technical and major category wins, and The Lord of the Rings: The Return of the King dominated in 2004, winning every category it was nominated for. This three-way tie has stood since 2004.",
+    "citationUrl": "https://en.wikipedia.org/wiki/List_of_films_with_the_most_Academy_Awards",
+    "citationTitle": "Wikipedia: List of films with the most Academy Awards"
+  },
+  {
+    "id": "67880d04-dfa4-418e-b955-09f7496fe555",
+    "text": "Who is the only person to win an Oscar for acting in a film they also directed?",
+    "options": [
+      "Clint Eastwood",
+      "Roberto Benigni",
+      "Warren Beatty",
+      "Kevin Costner"
+    ],
+    "correctIndex": 1,
+    "category": "entertainment",
+    "difficulty": "medium",
+    "explanation": "Roberto Benigni won Best Actor for 'Life is Beautiful' (1998), which he also directed, making him the only person to achieve both.",
+    "detailedExplanation": "Roberto Benigni accomplished this unique double achievement with 'Life is Beautiful' at the 1999 Academy Awards ceremony. He won Best Actor for his performance and also directed the film, which won Best Foreign Language Film. His enthusiastic acceptance speech, where he climbed over seats to reach the stage, became one of the most memorable Oscar moments. While others like Clint Eastwood have won Oscars for directing, none have won acting and directing for the same film.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Roberto_Benigni",
+    "citationTitle": "Wikipedia: Roberto Benigni"
+  },
+  {
+    "id": "914adc7e-55d7-426f-8f13-27244c96a3ef",
+    "text": "Which Oscar-winning film was the first to win Best Picture without receiving any other nominations?",
+    "options": [
+      "Grand Hotel",
+      "Broadway Melody",
+      "Wings",
+      "No film has ever done this"
+    ],
+    "correctIndex": 3,
+    "category": "entertainment",
+    "difficulty": "medium",
+    "explanation": "No film has ever won Best Picture as its sole nomination; every Best Picture winner has received at least one other nomination.",
+    "detailedExplanation": "This is actually a trick question that catches many film trivia enthusiasts. Every single Best Picture winner in Oscar history has received multiple nominations. Even films that won very few Oscars, such as 'Grand Hotel' (1932) which won only Best Picture, still received additional nominations in other categories like Best Director. The Academy's voting process and the prestige of Best Picture make it virtually impossible for a film to be recognized as the year's best without acknowledgment in other technical or creative categories.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Academy_Award_for_Best_Picture",
+    "citationTitle": "Wikipedia: Academy Award for Best Picture"
+  },
+  {
+    "id": "2d9ce31c-f27b-48ce-81e6-7f50ec534e0c",
+    "text": "Which animated film was the first to be nominated for Best Picture after the category was expanded beyond five nominees?",
+    "options": [
+      "Up",
+      "Toy Story 3",
+      "Beauty and the Beast",
+      "WALL-E"
+    ],
+    "correctIndex": 0,
+    "category": "entertainment",
+    "difficulty": "medium",
+    "explanation": "Up (2009) was the first animated film nominated for Best Picture after the category expansion, receiving the nomination at the 2010 ceremony.",
+    "detailedExplanation": "Pixar's 'Up' made history at the 2010 Academy Awards by becoming the first animated film to receive a Best Picture nomination after the category was expanded to up to 10 nominees in 2009. While Disney's 'Beauty and the Beast' was the first animated film ever nominated for Best Picture in 1991, 'Up' broke new ground in the expanded category era. The film, which tells the touching story of an elderly man's adventure with a young Boy Scout, was praised for its emotional depth and storytelling sophistication, proving animated films could compete with live-action dramas for the industry's top honor.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Up_(2009_film)",
+    "citationTitle": "Wikipedia: Up (2009 film)"
+  },
+  {
+    "id": "512e47a5-b947-4f37-a73e-639925a17560",
+    "text": "Which Oscar-winning film holds the record for the most Academy Award wins by a single movie?",
+    "options": [
+      "Titanic",
+      "Ben-Hur",
+      "The Lord of the Rings: The Return of the King",
+      "West Side Story"
+    ],
+    "correctIndex": 1,
+    "category": "entertainment",
+    "difficulty": "medium",
+    "explanation": "Ben-Hur (1959) won 11 Academy Awards, sharing the record with Titanic and The Lord of the Rings: The Return of the King.",
+    "detailedExplanation": "Ben-Hur, the 1959 epic historical drama starring Charlton Heston, was the first film to win 11 Academy Awards, setting a record that stood alone for nearly 40 years. The film won in categories including Best Picture, Best Director, Best Actor, and Best Cinematography. This record was later tied by Titanic in 1998 and The Lord of the Rings: The Return of the King in 2004, but Ben-Hur remains historically significant as the original record-holder. The film's sweep at the 32nd Academy Awards was unprecedented at the time and demonstrated the Academy's appreciation for epic filmmaking.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Ben-Hur_(1959_film)",
+    "citationTitle": "Wikipedia: Ben-Hur (1959 film)"
+  }
+]

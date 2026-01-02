@@ -1,6 +1,6 @@
-'use client';
+"use client";
 
-import { useState } from 'react';
+import { useState } from "react";
 import {
   Modal,
   ModalContent,
@@ -9,10 +9,13 @@ import {
   ModalFooter,
   Button,
   Input,
-} from '@nextui-org/react';
-import { useAuth } from '@/contexts/AuthContext';
-import { EyeFilledIcon, EyeSlashFilledIcon } from './EyeIcons';
-import { PasswordStrengthIndicator, usePasswordValidation } from './PasswordStrengthIndicator';
+} from "@nextui-org/react";
+import { useAuth } from "@/contexts/AuthContext";
+import { EyeFilledIcon, EyeSlashFilledIcon } from "./EyeIcons";
+import {
+  PasswordStrengthIndicator,
+  usePasswordValidation,
+} from "./PasswordStrengthIndicator";
 
 interface ChangePasswordModalProps {
   isOpen: boolean;
@@ -27,23 +30,23 @@ export function ChangePasswordModal({
 }: ChangePasswordModalProps) {
   const { changePassword } = useAuth();
 
-  const [currentPassword, setCurrentPassword] = useState('');
-  const [newPassword, setNewPassword] = useState('');
-  const [confirmPassword, setConfirmPassword] = useState('');
+  const [currentPassword, setCurrentPassword] = useState("");
+  const [newPassword, setNewPassword] = useState("");
+  const [confirmPassword, setConfirmPassword] = useState("");
   const [isCurrentVisible, setIsCurrentVisible] = useState(false);
   const [isNewVisible, setIsNewVisible] = useState(false);
   const [isConfirmVisible, setIsConfirmVisible] = useState(false);
-  const [error, setError] = useState('');
+  const [error, setError] = useState("");
   const [loading, setLoading] = useState(false);
   const [success, setSuccess] = useState(false);
 
   const { isValid: isPasswordValid } = usePasswordValidation(newPassword);
 
   const resetState = () => {
-    setCurrentPassword('');
-    setNewPassword('');
-    setConfirmPassword('');
-    setError('');
+    setCurrentPassword("");
+    setNewPassword("");
+    setConfirmPassword("");
+    setError("");
     setLoading(false);
     setSuccess(false);
   };
@@ -57,21 +60,21 @@ export function ChangePasswordModal({
     if (!currentPassword || !newPassword || !confirmPassword) return;
 
     if (newPassword !== confirmPassword) {
-      setError('New passwords do not match');
+      setError("New passwords do not match");
       return;
     }
 
     if (!isPasswordValid) {
-      setError('New password does not meet requirements');
+      setError("New password does not meet requirements");
       return;
     }
 
     if (currentPassword === newPassword) {
-      setError('New password must be different from current password');
+      setError("New password must be different from current password");
       return;
     }
 
-    setError('');
+    setError("");
     setLoading(true);
 
     try {
@@ -79,35 +82,41 @@ export function ChangePasswordModal({
       setSuccess(true);
       onSuccess?.();
     } catch (error: unknown) {
-      setError(error instanceof Error ? error.message : 'Failed to change password');
+      setError(
+        error instanceof Error ? error.message : "Failed to change password",
+      );
     } finally {
       setLoading(false);
     }
   };
 
   const handleKeyDown = (e: React.KeyboardEvent) => {
-    if (e.key === 'Enter') {
+    if (e.key === "Enter") {
       e.preventDefault();
       handleChangePassword();
     }
   };
 
-  const isDisabled = !currentPassword || !newPassword || !confirmPassword ||
-    !isPasswordValid || newPassword !== confirmPassword;
+  const isDisabled =
+    !currentPassword ||
+    !newPassword ||
+    !confirmPassword ||
+    !isPasswordValid ||
+    newPassword !== confirmPassword;
 
   const renderForm = () => (
     <div className="space-y-4">
       <Input
         label="Current Password"
-        type={isCurrentVisible ? 'text' : 'password'}
+        type={isCurrentVisible ? "text" : "password"}
         value={currentPassword}
         onChange={(e) => setCurrentPassword(e.target.value)}
         onKeyDown={handleKeyDown}
         isDisabled={loading}
         variant="bordered"
         classNames={{
-          input: 'text-white',
-          label: 'text-gray-400',
+          input: "text-white",
+          label: "text-gray-400",
         }}
         endContent={
           <button
@@ -125,15 +134,15 @@ export function ChangePasswordModal({
       />
       <Input
         label="New Password"
-        type={isNewVisible ? 'text' : 'password'}
+        type={isNewVisible ? "text" : "password"}
         value={newPassword}
         onChange={(e) => setNewPassword(e.target.value)}
         onKeyDown={handleKeyDown}
         isDisabled={loading}
         variant="bordered"
         classNames={{
-          input: 'text-white',
-          label: 'text-gray-400',
+          input: "text-white",
+          label: "text-gray-400",
         }}
         endContent={
           <button
@@ -152,17 +161,21 @@ export function ChangePasswordModal({
       <PasswordStrengthIndicator password={newPassword} />
       <Input
         label="Confirm New Password"
-        type={isConfirmVisible ? 'text' : 'password'}
+        type={isConfirmVisible ? "text" : "password"}
         value={confirmPassword}
         onChange={(e) => setConfirmPassword(e.target.value)}
         onKeyDown={handleKeyDown}
         isDisabled={loading}
         variant="bordered"
         isInvalid={!!confirmPassword && newPassword !== confirmPassword}
-        errorMessage={confirmPassword && newPassword !== confirmPassword ? 'Passwords do not match' : undefined}
+        errorMessage={
+          confirmPassword && newPassword !== confirmPassword
+            ? "Passwords do not match"
+            : undefined
+        }
         classNames={{
-          input: 'text-white',
-          label: 'text-gray-400',
+          input: "text-white",
+          label: "text-gray-400",
         }}
         endContent={
           <button
@@ -211,10 +224,10 @@ export function ChangePasswordModal({
       onClose={handleClose}
       size="md"
       classNames={{
-        base: 'bg-gray-900 border border-gray-700',
-        header: 'border-b border-gray-700',
-        body: 'py-6',
-        footer: 'border-t border-gray-700',
+        base: "bg-gray-900 border border-gray-700",
+        header: "border-b border-gray-700",
+        body: "py-6",
+        footer: "border-t border-gray-700",
       }}
     >
       <ModalContent>
@@ -222,12 +235,10 @@ export function ChangePasswordModal({
           <>
             <ModalHeader className="flex flex-col items-center gap-1 text-white">
               <h2 className="text-xl font-bold">
-                {success ? 'Password Changed' : 'Change Password'}
+                {success ? "Password Changed" : "Change Password"}
               </h2>
             </ModalHeader>
-            <ModalBody>
-              {success ? renderSuccess() : renderForm()}
-            </ModalBody>
+            <ModalBody>{success ? renderSuccess() : renderForm()}</ModalBody>
             <ModalFooter className="flex flex-col gap-2">
               {success ? (
                 <Button

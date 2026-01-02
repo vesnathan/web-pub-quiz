@@ -1,0 +1,342 @@
+[
+  {
+    "id": "2be14086-3e1e-4ad7-8ee5-b32438b937be",
+    "text": "Which island nation has the highest GDP per capita in the world as of 2023?",
+    "options": [
+      "Monaco",
+      "Luxembourg",
+      "Nauru",
+      "Singapore"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "Nauru has the highest GDP per capita due to its massive phosphate mining revenues relative to its tiny population of around 10,000 people.",
+    "detailedExplanation": "Despite being one of the world's smallest nations by both area and population, Nauru achieved the highest GDP per capita globally due to its extensive phosphate deposits from centuries of bird droppings (guano). The mining industry generates enormous revenue that, when divided by the small population of approximately 10,000 residents, results in an exceptionally high per capita figure. However, this wealth is not evenly distributed among citizens, and the country faces environmental challenges from strip mining.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Nauru",
+    "citationTitle": "Wikipedia: Nauru"
+  },
+  {
+    "id": "923c5791-049e-46fc-a639-b12b7e344701",
+    "text": "The Socotra Island, known for its unique dragon's blood trees and endemic species, belongs to which country?",
+    "options": [
+      "Oman",
+      "Yemen",
+      "Somalia",
+      "Eritrea"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "Socotra Island is part of Yemen and is famous for its extraordinary biodiversity and alien-like landscape with dragon's blood trees.",
+    "detailedExplanation": "Socotra Island, located in the Arabian Sea off the coast of Yemen, is often called the 'Galápagos of the Indian Ocean' due to its remarkable isolation and unique ecosystem. About one-third of its plant species are found nowhere else on Earth, including the iconic dragon's blood tree (Dracaena cinnabari) with its distinctive umbrella shape. The island's isolation for millions of years has allowed evolution to create this living laboratory of endemic species, making it a UNESCO World Heritage Site.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Socotra",
+    "citationTitle": "Wikipedia: Socotra"
+  },
+  {
+    "id": "99eff63f-4ccd-410b-8c9c-4c581240bc69",
+    "text": "Which Pacific island nation was the first country to recognize the independence of Abkhazia and South Ossetia alongside Russia?",
+    "options": [
+      "Nauru",
+      "Tuvalu",
+      "Palau",
+      "Vanuatu"
+    ],
+    "correctIndex": 0,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "Nauru became the first Pacific nation and third country worldwide to recognize these breakaway Georgian regions in 2009.",
+    "detailedExplanation": "In December 2009, Nauru became the third country in the world (after Russia and Nicaragua) to formally recognize the independence of Abkhazia and South Ossetia, two breakaway regions of Georgia. This controversial decision was part of Nauru's complex diplomatic relationships and was widely criticized by the international community, as most countries consider these territories to be occupied by Russia. Nauru's recognition was seen as part of a broader pattern of the small island nation making diplomatic decisions that often contradict mainstream international opinion.",
+    "citationUrl": "https://en.wikipedia.org/wiki/International_recognition_of_Abkhazia_and_South_Ossetia",
+    "citationTitle": "Wikipedia: International recognition of Abkhazia and South Ossetia"
+  },
+  {
+    "id": "a12211e7-ca50-4e25-8571-6b8565abcfd7",
+    "text": "The island nation of São Tomé and Príncipe lies closest to which point on the African mainland?",
+    "options": [
+      "Equatorial Guinea",
+      "Cameroon",
+      "Gabon",
+      "Nigeria"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "São Tomé and Príncipe is located approximately 300 km off the western coast of Gabon in the Gulf of Guinea.",
+    "detailedExplanation": "São Tomé and Príncipe, Africa's second-smallest country, consists of two main volcanic islands situated in the Gulf of Guinea. The islands are located roughly 300 kilometers (186 miles) off the western coast of Central Africa, with Gabon being the nearest mainland country. The nation sits almost exactly on the equator, with São Tomé being the larger southern island and Príncipe the smaller northern one. These islands were uninhabited when discovered by Portuguese explorers in the 1470s and later became a major center for sugar production using enslaved labor.",
+    "citationUrl": "https://en.wikipedia.org/wiki/São_Tomé_and_Príncipe",
+    "citationTitle": "Wikipedia: São Tomé and Príncipe"
+  },
+  {
+    "id": "388f2df5-08cb-473a-816d-f7fb4c66dfe7",
+    "text": "Which island nation has the most official languages, recognizing 16 different languages as official?",
+    "options": [
+      "Papua New Guinea",
+      "Vanuatu",
+      "Solomon Islands",
+      "Zimbabwe"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "Vanuatu recognizes 16 official languages, reflecting its incredible linguistic diversity across its 83 islands.",
+    "detailedExplanation": "Vanuatu holds the remarkable distinction of having 16 official languages, making it one of the most linguistically diverse countries per capita in the world. The official languages include Bislama (the national language), English, French, and 13 indigenous languages representing different regions and cultural groups across the archipelago's 83 islands. This linguistic richness reflects Vanuatu's complex colonial history under both British and French administration (the New Hebrides Condominium) and the preservation of indigenous Melanesian cultures. Despite having only about 300,000 people, Vanuatu is home to over 100 local languages in total.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Vanuatu",
+    "citationTitle": "Wikipedia: Vanuatu"
+  },
+  {
+    "id": "d9d5d507-864a-446f-8eee-148e9d7819a0",
+    "text": "The island nation of Kiribati spans across how many time zones due to its vast Pacific territory?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "Kiribati spans 4 time zones, making it the country with the largest time zone spread relative to its land area.",
+    "detailedExplanation": "Kiribati, composed of 33 atolls scattered across 3.5 million square kilometers of the Pacific Ocean, spans an extraordinary four time zones despite having a total land area of only 811 square kilometers. The country stretches from the Gilbert Islands in the west to the Line Islands in the east, crossing both sides of the International Date Line. In 1995, Kiribati moved the International Date Line eastward to ensure all its islands shared the same calendar day for administrative purposes, making it the first country to enter each new day and year. This vast oceanic territory makes Kiribati one of the most geographically dispersed nations on Earth.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Kiribati",
+    "citationTitle": "Wikipedia: Kiribati"
+  },
+  {
+    "id": "eace20b3-b05e-4fe3-9959-754b31f94d97",
+    "text": "Which island nation is home to the world's oldest parliament that is still in operation?",
+    "options": [
+      "Iceland",
+      "Isle of Man",
+      "Malta",
+      "Cyprus"
+    ],
+    "correctIndex": 0,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "Iceland's Althing, established in 930 AD, is recognized as the world's oldest surviving parliament.",
+    "detailedExplanation": "Iceland's Althing (Alþingi) was established in 930 AD at Þingvellir (Thingvellir) and is widely recognized as the oldest surviving parliament in the world. Founded by Viking settlers, the Althing originally served as both a legislative assembly and a court, meeting annually in an outdoor assembly. Although it was suspended from 1799 to 1845 during Danish rule, the institution maintained its continuity and traditions. The parliament met at Þingvellir, a dramatic rift valley where the North American and Eurasian tectonic plates meet, until moving to Reykjavik in 1845. Today, the Althing continues to function as Iceland's national parliament.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Althing",
+    "citationTitle": "Wikipedia: Althing"
+  },
+  {
+    "id": "9fc698dd-4420-41ed-aeef-5085fc39c525",
+    "text": "The Maldives consists of approximately how many coral islands, though only about 200 are inhabited?",
+    "options": [
+      "580",
+      "890",
+      "1,192",
+      "1,456"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "The Maldives is composed of approximately 1,192 coral islands grouped into 26 atolls, with only about 200 being inhabited.",
+    "detailedExplanation": "The Republic of Maldives consists of approximately 1,192 small coral islands grouped into 26 natural atolls, spread across roughly 90,000 square kilometers of the Indian Ocean. Of these nearly 1,200 islands, only about 200 are permanently inhabited by local communities, while around 100 additional islands have been developed as tourist resorts. The remaining islands are either too small, lack fresh water sources, or are kept as nature reserves. Each island is extremely low-lying, with the highest natural point being only 2.4 meters above sea level, making the Maldives the flattest country on Earth and particularly vulnerable to rising sea levels due to climate change.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Maldives",
+    "citationTitle": "Wikipedia: Maldives"
+  },
+  {
+    "id": "89a4a561-51d4-4f36-8cbb-319ee19f3d45",
+    "text": "Which island nation has the highest population density in the world, with over 1,700 people per square kilometer?",
+    "options": [
+      "Malta",
+      "Singapore",
+      "Bahrain",
+      "Maldives"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "Singapore has a population density of approximately 8,000 people per square kilometer, making it the most densely populated sovereign state in the world.",
+    "detailedExplanation": "Singapore, despite being a city-state and island nation of only 728 square kilometers, houses over 5.9 million people, resulting in an extraordinary population density of approximately 8,000 people per square kilometer. This makes it not just the most densely populated island nation, but the most densely populated sovereign state globally. The high density is managed through innovative urban planning, including extensive public housing programs and vertical development.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Singapore",
+    "citationTitle": "Wikipedia: Singapore"
+  },
+  {
+    "id": "23efdd0f-bd36-42d2-a0d1-17fecd4b71d7",
+    "text": "The island nation of Nauru was once one of the wealthiest countries per capita due to exports of which resource?",
+    "options": [
+      "Diamonds",
+      "Phosphate",
+      "Oil",
+      "Bauxite"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "Nauru's wealth came from phosphate mining, derived from centuries of bird droppings (guano) that created rich phosphate deposits across the island.",
+    "detailedExplanation": "Nauru, a tiny Pacific island nation of just 21 square kilometers, became extraordinarily wealthy in the mid-20th century due to phosphate mining. The phosphate was formed over millennia from the accumulated droppings of seabirds, creating some of the world's richest phosphate deposits. At its peak in the 1970s, Nauru had one of the highest per capita incomes globally. However, the resource was finite, and by the 1990s, the deposits were largely exhausted, leaving the island environmentally devastated and economically struggling.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Nauru",
+    "citationTitle": "Wikipedia: Nauru"
+  },
+  {
+    "id": "21b03089-26bd-4e1f-8b59-d4708800fcfa",
+    "text": "Which island nation consists of exactly 188 coral atolls and was the last country to join the United Nations in the 20th century?",
+    "options": [
+      "Tuvalu",
+      "Kiribati",
+      "Marshall Islands",
+      "Palau"
+    ],
+    "correctIndex": 3,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "Palau consists of 188 coral atolls and joined the United Nations in 1994, making it the last country to join the UN in the 20th century.",
+    "detailedExplanation": "Palau, officially the Republic of Palau, is a Micronesian island nation in the western Pacific Ocean composed of approximately 340 islands, with 188 of them being coral atolls. The country gained independence from UN trusteeship administered by the United States in 1994 and immediately joined the United Nations, making it the 185th and final member state to join the UN in the 20th century. Palau is renowned for its marine biodiversity and was one of the first countries to create a shark sanctuary.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Palau",
+    "citationTitle": "Wikipedia: Palau"
+  },
+  {
+    "id": "bb198c24-da06-4444-87ea-e7465a0d10f3",
+    "text": "Madagascar separated from which landmass approximately 165 million years ago, leading to its unique biodiversity?",
+    "options": [
+      "Africa",
+      "India",
+      "Antarctica",
+      "South America"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "Madagascar separated from the Indian subcontinent about 165 million years ago, which explains its unique flora and fauna distinct from nearby Africa.",
+    "detailedExplanation": "Madagascar's extraordinary biodiversity stems from its geological history. The island separated from the Indian subcontinent approximately 165 million years ago during the breakup of Gondwana, and later moved closer to Africa. This long isolation allowed species to evolve independently, resulting in over 90% of Madagascar's wildlife being endemic. Famous examples include lemurs, fossas, and numerous unique plant species. The separation from India, rather than Africa (which is much closer today), explains why Madagascar's species are so distinct from those found on the African mainland.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Madagascar",
+    "citationTitle": "Wikipedia: Madagascar"
+  },
+  {
+    "id": "c26da5a3-86be-4f55-b70e-8530fadcf458",
+    "text": "Which Caribbean island nation is the only one to have two capital cities?",
+    "options": [
+      "Trinidad and Tobago",
+      "Saint Kitts and Nevis",
+      "Antigua and Barbuda",
+      "Saint Vincent and the Grenadines"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "Saint Kitts and Nevis has Basseterre as the capital of Saint Kitts and the federation, while Charlestown serves as the capital of Nevis.",
+    "detailedExplanation": "Saint Kitts and Nevis is unique among Caribbean nations in having two capital cities due to its federal structure. Basseterre, located on Saint Kitts, serves as the national capital and the capital of Saint Kitts island. Charlestown, on the island of Nevis, serves as the capital of Nevis and has significant autonomy under the federal constitution. This dual capital system reflects the island's federal structure, where Nevis maintains considerable self-governance and even has a constitutional right to secede from the federation.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Saint_Kitts_and_Nevis",
+    "citationTitle": "Wikipedia: Saint Kitts and Nevis"
+  },
+  {
+    "id": "572d20ae-fa74-4e04-a0e1-75de3f4485a6",
+    "text": "The island nation of Tonga is unique among Pacific Island countries for which historical reason?",
+    "options": [
+      "Never being fully colonized by a European power",
+      "Being the first to gain independence",
+      "Having the oldest continuous monarchy",
+      "Being discovered last by Europeans"
+    ],
+    "correctIndex": 0,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "Tonga is the only Pacific Island nation that was never fully colonized by a European power, maintaining its independence throughout the colonial period.",
+    "detailedExplanation": "The Kingdom of Tonga holds the distinction of being the only Pacific Island nation that was never fully colonized by a European power. While Tonga did become a British protectorate in 1900, it maintained its monarchy and internal self-governance throughout this period. The Tongan royal family successfully negotiated treaties that preserved their sovereignty while gaining British protection from other colonial powers. This unique status allowed Tonga to maintain its traditional political structures and cultural practices more effectively than other Pacific nations that experienced direct colonial rule.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Tonga",
+    "citationTitle": "Wikipedia: Tonga"
+  },
+  {
+    "id": "e4e0e707-2eee-448b-9b65-ce80c8f3492c",
+    "text": "Which island nation's flag is the only national flag that features a different design on each side?",
+    "options": [
+      "Cyprus",
+      "Paraguay",
+      "Moldova",
+      "None - no island nation has this distinction"
+    ],
+    "correctIndex": 3,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "No island nation has a flag with different designs on each side. Paraguay has this distinction, but it is a landlocked country in South America.",
+    "detailedExplanation": "This is a trick question designed to test knowledge of both flag designs and geography. While Paraguay does indeed have the only national flag in the world with different designs on each side (featuring its national coat of arms on the front and treasury seal on the reverse), Paraguay is a landlocked country in South America, not an island nation. All island nations have flags with identical designs on both sides, following the standard practice of most countries worldwide. Cyprus, often confused in flag trivia, has a simple design identical on both sides.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Flag_of_Paraguay",
+    "citationTitle": "Wikipedia: Flag of Paraguay"
+  },
+  {
+    "id": "6d9e56cb-e3c3-4ffd-a8d5-aa2f5c1a6292",
+    "text": "The island nation of Vanuatu is located on the Pacific Ring of Fire and has how many active volcanoes?",
+    "options": [
+      "3",
+      "7",
+      "12",
+      "18"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "Vanuatu has 7 active volcanoes, making it one of the most volcanically active countries per capita in the world.",
+    "detailedExplanation": "Vanuatu, an archipelago of 83 islands in the South Pacific, sits on the Pacific Ring of Fire and has 7 active volcanoes, making it one of the most volcanically active nations relative to its size and population. The most famous is Yasur on Tanna Island, known for its persistent strombolian activity and accessibility to tourists. The volcanic activity is due to Vanuatu's position above the subduction zone where the Indo-Australian Plate meets the Pacific Plate. This intense geological activity also makes Vanuatu prone to earthquakes and tsunamis, contributing to its ranking as one of the most disaster-prone countries in the world.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Vanuatu",
+    "citationTitle": "Wikipedia: Vanuatu"
+  },
+  {
+    "id": "4cbcd329-1acf-48e4-8992-33ae2621fdb4",
+    "text": "Which island nation has the most time zones of any country in the world?",
+    "options": [
+      "New Zealand",
+      "France",
+      "United Kingdom",
+      "Indonesia"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "France has 12 time zones due to its overseas territories scattered across the globe.",
+    "detailedExplanation": "While France is primarily a continental European country, it technically qualifies as having island territories that make it span 12 time zones - more than any other nation. This is due to its overseas departments and territories including French Polynesia, New Caledonia, Réunion, Martinique, Guadeloupe, and others scattered across the Pacific, Indian, and Atlantic oceans. The United States follows with 11 time zones, while purely island nations like Indonesia have only 3 time zones despite their vast archipelago.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Time_in_France",
+    "citationTitle": "Wikipedia: Time in France"
+  },
+  {
+    "id": "cde3d36a-0a71-4d7b-ae3b-014d52091502",
+    "text": "Which island nation is home to the Socotra Dragon Tree, found nowhere else on Earth?",
+    "options": [
+      "Madagascar",
+      "Sri Lanka",
+      "Yemen",
+      "Cyprus"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "The Socotra Dragon Tree is endemic to Socotra Island, which belongs to Yemen.",
+    "detailedExplanation": "Socotra Island, part of Yemen, is often called the 'Galápagos of the Indian Ocean' due to its extraordinary biodiversity and high level of endemism. The island has been isolated for millions of years, allowing unique species to evolve, including the iconic Socotra Dragon Tree (Dracaena cinnabari). About one-third of its plant species are found nowhere else on Earth. The island's isolation in the Arabian Sea, approximately 380 kilometers south of the Arabian Peninsula, has created this unique ecosystem that was designated a UNESCO World Heritage Site in 2008.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Socotra",
+    "citationTitle": "Wikipedia: Socotra"
+  },
+  {
+    "id": "9de557c3-020a-4a57-8dbf-80bd19c01e94",
+    "text": "Which island nation's capital city is built on 14 islands connected by over 50 bridges?",
+    "options": [
+      "Finland",
+      "Sweden",
+      "Denmark",
+      "Estonia"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "Stockholm, Sweden's capital, is famously built on 14 islands in an archipelago.",
+    "detailedExplanation": "Stockholm, the capital of Sweden, is uniquely constructed across 14 islands where Lake Mälaren meets the Baltic Sea. The city is connected by 57 bridges, earning it the nickname 'Venice of the North.' While Sweden itself is not technically an island nation (it's connected to the Scandinavian Peninsula), its capital's distinctive island-based geography and the country's extensive archipelago of over 50,000 islands and skerries make this a challenging geography question. The old town, Gamla Stan, sits on the original island of Stadsholmen and is one of Europe's best-preserved medieval city centers.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Stockholm",
+    "citationTitle": "Wikipedia: Stockholm"
+  },
+  {
+    "id": "9f68314c-4e40-4a04-9cab-9a2209a65115",
+    "text": "Which island nation is the only country in the world to have territory in all four hemispheres (Northern, Southern, Eastern, and Western)?",
+    "options": [
+      "Kiribati",
+      "Fiji",
+      "Marshall Islands",
+      "Tuvalu"
+    ],
+    "correctIndex": 0,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "Kiribati spans across the International Date Line and the Equator, placing it in all four hemispheres.",
+    "detailedExplanation": "Kiribati is a Pacific island nation consisting of 33 atolls and reef islands spread across approximately 3.5 million square kilometers of ocean. The country uniquely straddles both the Equator (dividing Northern and Southern hemispheres) and the International Date Line at 180° longitude (dividing Eastern and Western hemispheres). This makes it the only sovereign nation with territory in all four hemispheres simultaneously. The Line Islands group extends into the Southern and Eastern hemispheres, while the Gilbert Islands lie in the Northern and Eastern hemispheres, and the Phoenix Islands span the Eastern hemisphere on both sides of the Equator.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Kiribati",
+    "citationTitle": "Wikipedia: Kiribati"
+  }
+]

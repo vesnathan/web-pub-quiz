@@ -1,0 +1,342 @@
+[
+  {
+    "id": "8ebb2479-cbb1-4c03-92b6-0c115c0a4202",
+    "text": "Which country's flag features a dragon?",
+    "options": [
+      "Wales",
+      "Bhutan",
+      "Both Wales and Bhutan",
+      "Mongolia"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "Both Wales and Bhutan feature dragons on their flags.",
+    "detailedExplanation": "Wales features a red dragon (Y Ddraig Goch) on a green and white background, while Bhutan displays a white dragon (Druk) diagonally across orange and yellow fields. The Welsh dragon represents the ancient symbol of Wales, while Bhutan's dragon represents the country's name in the local language (Druk Yul means 'Land of the Thunder Dragon').",
+    "citationUrl": "https://en.wikipedia.org/wiki/List_of_flags_with_dragons",
+    "citationTitle": "Wikipedia: List of flags with dragons"
+  },
+  {
+    "id": "6d906c83-f0dc-4bd6-8547-ab2d4bdead8a",
+    "text": "What is unique about the flag of Nepal?",
+    "options": [
+      "It's the only flag with more than 4 colors",
+      "It's the only non-rectangular flag",
+      "It's the largest flag in the world",
+      "It changes design every 10 years"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "Nepal's flag is the only non-rectangular national flag in the world.",
+    "detailedExplanation": "Nepal's flag consists of two overlapping triangular pennons, making it the world's only non-quadrilateral national flag. The flag features a crimson red background with blue borders, and contains a white moon and sun symbol. This unique shape was officially adopted in 1962, though similar designs had been used for centuries.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Flag_of_Nepal",
+    "citationTitle": "Wikipedia: Flag of Nepal"
+  },
+  {
+    "id": "3ba8fe27-b44b-4247-9e94-8b8cc7160081",
+    "text": "Which country's flag is completely different on each side?",
+    "options": [
+      "Paraguay",
+      "Moldova",
+      "Saudi Arabia",
+      "All of the above"
+    ],
+    "correctIndex": 0,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "Paraguay's flag has different emblems on each side - the national coat of arms on front and treasury seal on back.",
+    "detailedExplanation": "Paraguay is one of the few countries with a flag that displays different designs on each side. The obverse (front) shows the national coat of arms featuring a yellow star surrounded by a wreath, while the reverse (back) displays the seal of the treasury featuring a lion and staff. The background consists of three horizontal stripes: red, white, and blue.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Flag_of_Paraguay",
+    "citationTitle": "Wikipedia: Flag of Paraguay"
+  },
+  {
+    "id": "10d7a8f3-d889-4303-b858-b728371951a5",
+    "text": "How many countries have the Union Jack incorporated in their national flag?",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "Four countries currently have the Union Jack on their flags: UK, Australia, New Zealand, and Fiji.",
+    "detailedExplanation": "The Union Jack appears on the national flags of the United Kingdom (obviously), Australia, New Zealand, and Fiji. Several other territories and dependencies also feature it, but these four are the sovereign nations that currently incorporate the British Union Jack into their official national flag designs. Many former British colonies have removed it since gaining independence.",
+    "citationUrl": "https://en.wikipedia.org/wiki/List_of_countries_and_territories_with_the_Union_Jack_displayed_on_their_flag",
+    "citationTitle": "Wikipedia: List of countries and territories with the Union Jack displayed on their flag"
+  },
+  {
+    "id": "5c143585-a769-4a22-9567-d73da08d3bca",
+    "text": "Which color appears on the most national flags worldwide?",
+    "options": [
+      "Blue",
+      "Red",
+      "White",
+      "Green"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "Red appears on more national flags than any other color.",
+    "detailedExplanation": "Red is the most common color appearing on national flags worldwide, found on approximately 75% of all national flags. This prevalence is due to red's historical significance representing courage, revolution, blood of heroes, or socialist ideologies. White and blue follow as the second and third most common colors respectively, while red's dominance spans across all continents and political systems.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Gallery_of_sovereign_state_flags",
+    "citationTitle": "Wikipedia: Gallery of sovereign state flags"
+  },
+  {
+    "id": "5311e141-a17b-482f-9f7c-6aaff5354bc3",
+    "text": "Which country's flag features the most stars?",
+    "options": [
+      "United States (50 stars)",
+      "Brazil (27 stars)",
+      "European Union (12 stars)",
+      "Uzbekistan (12 stars)"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "Brazil's flag has the most stars with 27, representing each state and the federal district.",
+    "detailedExplanation": "Brazil's flag features 27 stars arranged in the pattern of the night sky over Rio de Janeiro on November 15, 1889, when the Republic of Brazil was declared. Each star represents one of Brazil's 26 states plus the Federal District. The constellations include the Southern Cross and other stars visible from the Southern Hemisphere, making it not only the flag with the most stars but also astronomically accurate.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Flag_of_Brazil",
+    "citationTitle": "Wikipedia: Flag of Brazil"
+  },
+  {
+    "id": "208fd9a9-20a1-49ce-aa9c-8bb4d1b908f3",
+    "text": "What symbol appears at the center of the Lebanese flag?",
+    "options": [
+      "Palm tree",
+      "Cedar tree",
+      "Olive tree",
+      "Pine tree"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "A green cedar tree appears at the center of Lebanon's red and white striped flag.",
+    "detailedExplanation": "The Lebanese flag features a green cedar tree (Cedar of Lebanon) centered on a white horizontal stripe, flanked by two red horizontal stripes above and below. The cedar tree is an ancient symbol of Lebanon, representing eternity, steadiness, happiness, and prosperity. These trees were historically significant in the region and are mentioned frequently in religious texts including the Bible.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Flag_of_Lebanon",
+    "citationTitle": "Wikipedia: Flag of Lebanon"
+  },
+  {
+    "id": "9f208a0d-5896-42aa-baee-af887b288c35",
+    "text": "Which African country has a flag identical to Romania's flag?",
+    "options": [
+      "Morocco",
+      "Chad",
+      "Algeria",
+      "Ghana"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "Chad's flag is nearly identical to Romania's, both featuring blue, yellow, and red vertical stripes.",
+    "detailedExplanation": "Chad and Romania have virtually identical flags, both consisting of three equal vertical stripes of blue, yellow, and red from left to right. Chad adopted this design in 1959, while Romania's current version dates to 1989 (though Romania used similar designs much earlier). The similarity is purely coincidental, as Chad's colors represent the sky and hope (blue), sun and desert (yellow), and progress and unity (red).",
+    "citationUrl": "https://en.wikipedia.org/wiki/Flag_of_Chad",
+    "citationTitle": "Wikipedia: Flag of Chad"
+  },
+  {
+    "id": "8240a969-25da-49ea-b194-eb4fae2aa5e3",
+    "text": "Which country's flag features a cedar tree in the center?",
+    "options": [
+      "Cyprus",
+      "Lebanon",
+      "Jordan",
+      "Syria"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "Lebanon's flag features a distinctive green cedar tree on a white stripe between two red stripes.",
+    "detailedExplanation": "The Lebanese flag consists of two horizontal red stripes separated by a white stripe that is twice the height of each red stripe. In the center of the white stripe is a green cedar tree, which has been a symbol of Lebanon for centuries. The cedar represents peace, eternity, and resilience, reflecting the famous cedars of Lebanon mentioned in biblical texts.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Flag_of_Lebanon",
+    "citationTitle": "Wikipedia: Flag of Lebanon"
+  },
+  {
+    "id": "e019ffc1-6a10-4fd9-af87-73f984463c43",
+    "text": "How many stars appear on the flag of Brazil?",
+    "options": [
+      "23",
+      "27",
+      "31",
+      "35"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "The Brazilian flag contains 27 stars representing the country's 26 states plus the Federal District.",
+    "detailedExplanation": "The flag of Brazil features a celestial globe with 27 stars arranged in the pattern of the night sky over Rio de Janeiro on November 15, 1889, the day the Republic of Brazil was established. Each star represents one of Brazil's 26 states and the Federal District (Brasília). The stars are from nine constellations, with the Southern Cross being the most prominent.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Flag_of_Brazil",
+    "citationTitle": "Wikipedia: Flag of Brazil"
+  },
+  {
+    "id": "344006d1-22e1-4600-9dda-afa08ef1e604",
+    "text": "Which two countries have square-shaped national flags?",
+    "options": [
+      "Monaco and Nepal",
+      "Vatican City and Switzerland",
+      "Switzerland and Vatican City",
+      "San Marino and Liechtenstein"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "Switzerland and Vatican City are the only two countries with square national flags.",
+    "detailedExplanation": "Among all the world's national flags, only Switzerland and Vatican City feature square proportions rather than the typical rectangular shape. Switzerland's flag displays a white cross on a red background, while Vatican City's flag shows vertical yellow and white stripes with the papal coat of arms. Nepal has a unique double-pennon shape, but it is not square.",
+    "citationUrl": "https://en.wikipedia.org/wiki/List_of_aspect_ratios_of_national_flags",
+    "citationTitle": "Wikipedia: List of aspect ratios of national flags"
+  },
+  {
+    "id": "6d8acbc9-35b7-4a1e-b96f-5f6e4a804fe4",
+    "text": "What appears in the center of the flag of Kazakhstan?",
+    "options": [
+      "A crescent moon",
+      "A golden eagle",
+      "A snow leopard",
+      "A wolf"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "Kazakhstan's flag features a golden eagle (specifically a steppe eagle) soaring beneath a golden sun.",
+    "detailedExplanation": "The flag of Kazakhstan displays a light blue background with a golden sun in the center, beneath which soars a golden steppe eagle. On the hoist side is a vertical strip with traditional Kazakh ornamental pattern. The eagle represents the power of the state and symbolizes independence, while the sun represents abundance and prosperity. The light blue color represents the endless sky and water.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Flag_of_Kazakhstan",
+    "citationTitle": "Wikipedia: Flag of Kazakhstan"
+  },
+  {
+    "id": "fe675cfd-219d-4cef-8dc9-aa4dc4fc94fe",
+    "text": "Which country's flag is known as the 'Tricolour' and was adopted in 1794?",
+    "options": [
+      "Netherlands",
+      "France",
+      "Italy",
+      "Ireland"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "The French Tricolour was officially adopted in 1794 during the French Revolution.",
+    "detailedExplanation": "The French flag, known as the Tricolour (Tricolore), consists of three vertical stripes of blue, white, and red. It was first adopted in 1794 during the French Revolution, though it went through several modifications before becoming the permanent national flag. The blue and red represent the colors of Paris, while white traditionally represented the monarchy, symbolizing the unity of the revolution with the old regime.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Flag_of_France",
+    "citationTitle": "Wikipedia: Flag of France"
+  },
+  {
+    "id": "de847328-1c1e-4223-a2cb-a4f2ce57da4d",
+    "text": "What is unique about the flag of Mozambique compared to all other national flags?",
+    "options": [
+      "It contains 6 different colors",
+      "It features an AK-47 rifle",
+      "It has text written on it",
+      "It contains a real photograph"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "Mozambique is the only country whose flag features an AK-47 assault rifle as part of its design.",
+    "detailedExplanation": "The flag of Mozambique is unique among world flags as it depicts an AK-47 assault rifle crossed with a hoe on an open book, all superimposed on a star. This emblem appears on a red triangle on the hoist side of the flag. The AK-47 represents defense and vigilance, the hoe represents agriculture, the book represents education, and the star represents Marxism and internationalism. This makes it the only national flag to feature a modern weapon.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Flag_of_Mozambique",
+    "citationTitle": "Wikipedia: Flag of Mozambique"
+  },
+  {
+    "id": "15cedb93-c6b0-4e8b-8494-33c927fe3fe4",
+    "text": "Which country has a flag that changes depending on whether it's displayed during peace or wartime?",
+    "options": [
+      "Japan",
+      "Thailand",
+      "Philippines",
+      "South Korea"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "The Philippines flag is flipped during wartime, with the red stripe on top instead of the blue stripe.",
+    "detailedExplanation": "The flag of the Philippines is unique in that it serves dual purposes depending on how it's displayed. During peacetime, the blue stripe is on top, but during times of war, the flag is flipped so that the red stripe appears on top. This feature was incorporated into the flag's design from its inception in 1898. The blue represents peace, truth, and justice, while red represents patriotism and valor, making the wartime inversion symbolically appropriate.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Flag_of_the_Philippines",
+    "citationTitle": "Wikipedia: Flag of the Philippines"
+  },
+  {
+    "id": "6f0aedbd-c663-42d4-931c-7888bb0730b7",
+    "text": "Which African country's flag features a bird that is also found on ancient stone carvings in the country?",
+    "options": [
+      "Zimbabwe",
+      "Botswana",
+      "Zambia",
+      "Kenya"
+    ],
+    "correctIndex": 0,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "Zimbabwe's flag features the Zimbabwe bird, found on ancient soapstone carvings at Great Zimbabwe ruins.",
+    "detailedExplanation": "The flag of Zimbabwe features the Zimbabwe bird, a representation of a fish eagle carved from soapstone, found in the ancient city of Great Zimbabwe. These carved birds, dating from the 11th to 15th centuries, were discovered at the Great Zimbabwe ruins and have become the national symbol. The bird appears on a red star in the white triangle of the flag and also serves as Zimbabwe's national emblem, connecting the modern nation to its ancient heritage.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Flag_of_Zimbabwe",
+    "citationTitle": "Wikipedia: Flag of Zimbabwe"
+  },
+  {
+    "id": "9f72aae9-89c1-4e4a-bc87-27055e33007d",
+    "text": "Which country's flag features a unique non-rectangular shape?",
+    "options": [
+      "Switzerland",
+      "Vatican City",
+      "Nepal",
+      "Monaco"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "Nepal is the only country with a non-rectangular flag, featuring two triangular pennants.",
+    "detailedExplanation": "Nepal's flag is distinctive as the world's only national flag that is not rectangular or square. It consists of two triangular pennants stacked vertically, representing the country's mountain peaks and Hindu and Buddhist religions. The flag was officially adopted in 1962, though its design dates back centuries to when Nepal consisted of individual kingdoms with triangular pennants.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Flag_of_Nepal",
+    "citationTitle": "Wikipedia: Flag of Nepal"
+  },
+  {
+    "id": "590e223f-19c6-4863-9161-a486f15a302a",
+    "text": "How many stars appear on the flag of the European Union?",
+    "options": [
+      "12",
+      "15",
+      "25",
+      "27"
+    ],
+    "correctIndex": 0,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "The EU flag has 12 stars arranged in a circle, representing unity and perfection.",
+    "detailedExplanation": "The European Union flag features 12 golden stars arranged in a circle on a blue background. The number 12 was chosen to represent completeness and perfection, and importantly, the number of stars does not change regardless of how many countries join the EU. The flag was originally adopted by the Council of Europe in 1955 and later adopted by the European Communities (predecessor to the EU) in 1985.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Flag_of_Europe",
+    "citationTitle": "Wikipedia: Flag of Europe"
+  },
+  {
+    "id": "c8309d55-6c2c-4e65-92f6-96bab43c7816",
+    "text": "Which two countries have flags that are nearly identical, differing only in their proportions?",
+    "options": [
+      "Indonesia and Poland",
+      "Chad and Romania",
+      "Netherlands and Luxembourg",
+      "Monaco and Indonesia"
+    ],
+    "correctIndex": 3,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "Monaco and Indonesia both have red and white horizontal stripes but different width-to-length ratios.",
+    "detailedExplanation": "The flags of Monaco and Indonesia are remarkably similar, both featuring two horizontal stripes of red (top) and white (bottom). The key difference lies in their proportions: Monaco's flag has a ratio of 4:5 (making it more square), while Indonesia's flag has a ratio of 2:3 (making it more rectangular). This similarity has occasionally caused confusion at international events, though both countries have historical reasons for their designs dating back centuries.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Flag_of_Monaco",
+    "citationTitle": "Wikipedia: Flag of Monaco"
+  },
+  {
+    "id": "adb9a643-9555-43c4-9c57-68b092bee0a4",
+    "text": "Which country's flag features a green cedar tree in the center on a white horizontal stripe between two red horizontal stripes?",
+    "options": [
+      "Jordan",
+      "Lebanon",
+      "Syria",
+      "Palestine"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "Lebanon's flag features a distinctive green cedar tree symbolizing peace, eternity, and resilience.",
+    "detailedExplanation": "The flag of Lebanon was adopted in 1943 and consists of two horizontal red stripes separated by a white stripe that is twice the height of each red stripe. In the center of the white stripe is a green cedar tree, which is the country's national symbol. The cedar of Lebanon has been revered since ancient times and represents peace, eternity, and resilience. The red stripes symbolize the blood shed for liberation, while the white represents peace and the snow-capped mountains of Lebanon.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Flag_of_Lebanon",
+    "citationTitle": "Wikipedia: Flag of Lebanon"
+  }
+]

@@ -1,0 +1,342 @@
+[
+  {
+    "id": "ec0368fa-ea82-40fb-a05b-fd2c40bdff83",
+    "text": "Which inventor is credited with developing the first commercially successful steam engine in 1712?",
+    "options": [
+      "James Watt",
+      "Thomas Newcomen",
+      "Richard Trevithick",
+      "George Stephenson"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "medium",
+    "explanation": "Thomas Newcomen invented the atmospheric engine in 1712, the first commercially successful steam engine.",
+    "detailedExplanation": "Thomas Newcomen's atmospheric engine of 1712 was the first commercially successful steam engine, primarily used for pumping water out of mines. While James Watt later improved upon steam engine design in the 1760s with his separate condenser, making it much more efficient, Newcomen deserves credit for the original breakthrough that launched the age of steam power.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Newcomen_atmospheric_engine",
+    "citationTitle": "Wikipedia: Newcomen atmospheric engine"
+  },
+  {
+    "id": "6793c502-3b23-4165-8583-4bd8c8ce0a8d",
+    "text": "What revolutionary textile invention did James Hargreaves create around 1764 that could spin multiple threads simultaneously?",
+    "options": [
+      "The Water Frame",
+      "The Spinning Jenny",
+      "The Power Loom",
+      "The Cotton Gin"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "medium",
+    "explanation": "The Spinning Jenny, invented by James Hargreaves around 1764, could spin eight threads at once initially.",
+    "detailedExplanation": "The Spinning Jenny was a multi-spindle spinning frame that dramatically increased textile production efficiency. Named allegedly after Hargreaves' wife or daughter Jenny, this hand-powered machine could initially spin eight threads simultaneously, though later versions could handle even more. It was one of the key inventions that mechanized textile production and helped launch the Industrial Revolution in Britain.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Spinning_jenny",
+    "citationTitle": "Wikipedia: Spinning jenny"
+  },
+  {
+    "id": "0b8f0654-ad16-45ba-92ac-b3f8d0cebc7a",
+    "text": "Which American inventor created the cotton gin in 1793, revolutionizing cotton production in the Southern United States?",
+    "options": [
+      "Samuel Slater",
+      "Eli Whitney",
+      "Robert Fulton",
+      "John Deere"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "medium",
+    "explanation": "Eli Whitney invented the cotton gin in 1793, which mechanized the separation of cotton fibers from seeds.",
+    "detailedExplanation": "Eli Whitney's cotton gin (short for cotton engine) revolutionized cotton production by mechanically separating cotton fibers from their seeds, a process that was previously done laboriously by hand. This invention made cotton production extremely profitable in the American South, unfortunately also increasing demand for slave labor on cotton plantations and having profound social and economic impacts on American history.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Cotton_gin",
+    "citationTitle": "Wikipedia: Cotton gin"
+  },
+  {
+    "id": "88ddef7e-a756-44ee-be12-61b89cefa8e9",
+    "text": "Which invention by John Kay in 1733 significantly sped up the weaving process by allowing weavers to work alone on wide fabrics?",
+    "options": [
+      "The Spinning Wheel",
+      "The Flying Shuttle",
+      "The Jacquard Loom",
+      "The Dobby Loom"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "medium",
+    "explanation": "John Kay's Flying Shuttle of 1733 allowed one weaver to work wide fabrics alone, doubling productivity.",
+    "detailedExplanation": "The Flying Shuttle, invented by John Kay in 1733, was a crucial early textile innovation that doubled weaving speed and allowed single weavers to create wider fabrics. The shuttle 'flew' across the loom on wheels in a track, propelled by a handle the weaver could operate alone. This invention created a bottleneck in thread supply, spurring further innovations in spinning technology like the Spinning Jenny.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Flying_shuttle",
+    "citationTitle": "Wikipedia: Flying shuttle"
+  },
+  {
+    "id": "f74dd08c-4810-4540-84a5-dba256505e9d",
+    "text": "What smelting innovation did Abraham Darby introduce around 1709 that revolutionized iron production?",
+    "options": [
+      "Using coal instead of charcoal",
+      "Using coke instead of charcoal",
+      "Introducing water-powered bellows",
+      "Developing the blast furnace"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "medium",
+    "explanation": "Abraham Darby first successfully used coke instead of charcoal for smelting iron around 1709.",
+    "detailedExplanation": "Abraham Darby's use of coke (processed coal) instead of charcoal for iron smelting around 1709 was revolutionary because it freed iron production from dependence on wood supplies. Coke burned hotter and more consistently than charcoal, producing higher quality iron while being more economical. This innovation made large-scale iron production feasible and helped Britain become the world's leading iron producer during the Industrial Revolution.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Abraham_Darby_I",
+    "citationTitle": "Wikipedia: Abraham Darby I"
+  },
+  {
+    "id": "c21dafa3-2f44-4674-9f91-d6366b90c6cd",
+    "text": "Which Scottish inventor patented the pneumatic tire in 1888, revolutionizing transportation?",
+    "options": [
+      "Robert Thomson",
+      "John Boyd Dunlop",
+      "Charles Goodyear",
+      "Thomas Hancock"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "medium",
+    "explanation": "John Boyd Dunlop patented the pneumatic tire in 1888, initially for his son's bicycle.",
+    "detailedExplanation": "John Boyd Dunlop, a Scottish veterinarian, developed the first practical pneumatic tire in 1888 for his son's bicycle to provide a more comfortable ride. While Robert Thomson had patented a pneumatic tire earlier in 1845, it was impractical and forgotten. Dunlop's design proved commercially viable and founded the tire company that bears his name, revolutionizing not just cycling but eventually automobile transportation.",
+    "citationUrl": "https://en.wikipedia.org/wiki/John_Boyd_Dunlop",
+    "citationTitle": "Wikipedia: John Boyd Dunlop"
+  },
+  {
+    "id": "8a5829cf-dc08-442a-9f89-77e198393c91",
+    "text": "What communication innovation did Samuel Morse successfully demonstrate in 1844 with the message 'What hath God wrought'?",
+    "options": [
+      "The telephone",
+      "The telegraph",
+      "The phonograph",
+      "The radio"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "medium",
+    "explanation": "Samuel Morse demonstrated the electric telegraph in 1844, sending the first long-distance message.",
+    "detailedExplanation": "Samuel Morse's electric telegraph system was successfully demonstrated on May 24, 1844, when the message 'What hath God wrought' was transmitted from Washington D.C. to Baltimore using Morse code. This invention revolutionized long-distance communication, allowing messages to be sent almost instantaneously over hundreds of miles via electrical wires, replacing slower methods like letters and semaphore systems. It became the backbone of 19th-century communication networks.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Electrical_telegraph",
+    "citationTitle": "Wikipedia: Electrical telegraph"
+  },
+  {
+    "id": "e02215e7-fb02-4688-bf0a-74bf82f5385f",
+    "text": "Which invention by James Watt in 1769 significantly improved steam engine efficiency and helped power the Industrial Revolution?",
+    "options": [
+      "The steam turbine",
+      "The separate condenser",
+      "The steam locomotive",
+      "The pressure cooker"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "medium",
+    "explanation": "James Watt's separate condenser prevented the main cylinder from cooling and heating repeatedly, dramatically improving steam engine efficiency.",
+    "detailedExplanation": "James Watt's separate condenser, patented in 1769, was a revolutionary improvement to the Newcomen steam engine. By condensing steam in a separate chamber rather than in the main cylinder, Watt eliminated the need to repeatedly heat and cool the cylinder, reducing fuel consumption by about 75%. This innovation made steam power economically viable for manufacturing and transportation, becoming a cornerstone technology of the Industrial Revolution.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Watt_steam_engine",
+    "citationTitle": "Wikipedia: Watt steam engine"
+  },
+  {
+    "id": "11d774bd-3860-4e04-9c8c-3bca0c3a9c36",
+    "text": "The spinning jenny, invented in the 1760s, revolutionized which industry during the Industrial Revolution?",
+    "options": [
+      "Metalworking",
+      "Pottery making",
+      "Textile production",
+      "Food processing"
+    ],
+    "correctIndex": 2,
+    "category": "history",
+    "difficulty": "medium",
+    "explanation": "The spinning jenny, invented by James Hargreaves around 1764, allowed one worker to spin multiple threads simultaneously, revolutionizing textile production.",
+    "detailedExplanation": "The spinning jenny was a multi-spindle spinning frame invented by James Hargreaves in Lancashire, England, around 1764. Named after his daughter Jenny, this machine allowed a single worker to spin eight threads at once, later improved to spin up to 120 threads simultaneously. This dramatically increased yarn production speed and efficiency, making it a crucial invention in the mechanization of textile manufacturing during the Industrial Revolution.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Spinning_jenny",
+    "citationTitle": "Wikipedia: Spinning jenny"
+  },
+  {
+    "id": "6fce3998-684f-42b5-ae9f-4daac235adb3",
+    "text": "What year did George Stephenson's 'Rocket' locomotive win the Rainhill Trials, proving the viability of steam railways?",
+    "options": [
+      "1825",
+      "1829",
+      "1833",
+      "1840"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "medium",
+    "explanation": "Stephenson's Rocket won the Rainhill Trials in 1829, demonstrating superior speed and reliability for the Liverpool-Manchester Railway.",
+    "detailedExplanation": "The Rainhill Trials were held in October 1829 to select the best locomotive design for the Liverpool and Manchester Railway. George Stephenson's 'Rocket' emerged victorious, reaching speeds of 30 mph and proving more reliable than its competitors. The Rocket incorporated several innovations including a multi-tube boiler and direct drive system, establishing design principles that would influence locomotive development for decades and cement the future of steam railway transportation.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Rainhill_Trials",
+    "citationTitle": "Wikipedia: Rainhill Trials"
+  },
+  {
+    "id": "7c385503-cf36-47e6-a0a8-01d846ca6fb9",
+    "text": "Which Industrial Revolution invention used a system of punched cards to control the weaving of complex patterns?",
+    "options": [
+      "The power loom",
+      "The cotton gin",
+      "The Jacquard loom",
+      "The spinning mule"
+    ],
+    "correctIndex": 2,
+    "category": "history",
+    "difficulty": "medium",
+    "explanation": "The Jacquard loom, invented by Joseph Marie Jacquard in 1804, used punched cards to automatically control the weaving of intricate patterns.",
+    "detailedExplanation": "The Jacquard loom, developed by French inventor Joseph Marie Jacquard in 1804, was revolutionary for its use of punched cards to control the weaving process. Each hole in the card corresponded to a specific thread movement, allowing complex patterns to be woven automatically without skilled manual intervention. This invention not only transformed textile production but also served as an early form of programmable automation, influencing later developments in computing and data processing.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Jacquard_machine",
+    "citationTitle": "Wikipedia: Jacquard machine"
+  },
+  {
+    "id": "81739d08-01b9-447f-a9a6-f74656e881e4",
+    "text": "The process of 'puddling' iron, developed during the Industrial Revolution, was designed to remove what substance?",
+    "options": [
+      "Sulfur",
+      "Carbon",
+      "Phosphorus",
+      "Silicon"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "medium",
+    "explanation": "Puddling removed carbon from pig iron to produce wrought iron, creating a stronger and more workable metal for construction and manufacturing.",
+    "detailedExplanation": "The puddling process, developed by Henry Cort in the 1780s, was a method of converting pig iron into wrought iron by removing excess carbon. The process involved stirring molten pig iron in a reverberatory furnace, causing carbon to oxidize and burn off as carbon monoxide. This produced wrought iron with much lower carbon content, making it more malleable, weldable, and less brittle than cast iron. Puddling became crucial for producing quality iron for railways, bridges, and machinery during the Industrial Revolution.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Puddling_(metallurgy)",
+    "citationTitle": "Wikipedia: Puddling (metallurgy)"
+  },
+  {
+    "id": "4317cc79-67b3-4b39-9908-a050525402c3",
+    "text": "The 'hot blast' technique, invented by James Beaumont Neilson in 1828, improved the efficiency of which industrial process?",
+    "options": [
+      "Textile dyeing",
+      "Iron smelting",
+      "Glass making",
+      "Coal mining"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "medium",
+    "explanation": "The hot blast technique preheated air before injecting it into blast furnaces, significantly reducing fuel consumption in iron production.",
+    "detailedExplanation": "James Beaumont Neilson's hot blast technique, patented in 1828, revolutionized iron smelting by preheating the air blown into blast furnaces. Instead of using cold air, the system heated incoming air using waste gases from the furnace itself. This innovation reduced coal consumption by about one-third while increasing furnace temperature and iron output. The hot blast technique made iron production more economical and environmentally efficient, contributing significantly to the expansion of iron and steel industries during the Industrial Revolution.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Hot_blast",
+    "citationTitle": "Wikipedia: Hot blast"
+  },
+  {
+    "id": "98fdf704-90a4-4d32-a14d-04edf0f4d5b2",
+    "text": "What was the primary advantage of Edmund Cartwright's power loom, invented in 1785, over traditional hand looms?",
+    "options": [
+      "It produced stronger thread",
+      "It could weave multiple colors",
+      "It operated much faster",
+      "It required no electricity"
+    ],
+    "correctIndex": 2,
+    "category": "history",
+    "difficulty": "medium",
+    "explanation": "The power loom automated the weaving process using water or steam power, operating much faster than manual hand looms and requiring less skilled labor.",
+    "detailedExplanation": "Edmund Cartwright's power loom, first patented in 1785, mechanized the weaving process by using external power sources like water wheels or steam engines instead of human muscle power. While early versions were crude and unreliable, improvements over the following decades made power looms significantly faster than hand looms, capable of producing cloth at unprecedented rates. This automation also reduced the need for highly skilled weavers, though it initially faced resistance from traditional textile workers who feared unemployment.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Power_loom",
+    "citationTitle": "Wikipedia: Power loom"
+  },
+  {
+    "id": "727f2217-69f8-4573-a335-a6f78b61e703",
+    "text": "Which invention by James Watt in 1769 dramatically improved the efficiency of steam engines and helped power the Industrial Revolution?",
+    "options": [
+      "The steam turbine",
+      "The separate condenser",
+      "The flywheel governor",
+      "The pressure gauge"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "medium",
+    "explanation": "James Watt's separate condenser prevented the waste of steam and energy that occurred in earlier Newcomen engines.",
+    "detailedExplanation": "James Watt's separate condenser was a revolutionary improvement to the steam engine that he patented in 1769. Unlike Thomas Newcomen's earlier design where the cylinder was alternately heated and cooled, Watt's innovation kept the cylinder hot at all times by condensing the steam in a separate chamber. This dramatically reduced fuel consumption and increased efficiency, making steam power economically viable for a wide range of applications beyond just pumping water from mines.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Watt_steam_engine",
+    "citationTitle": "Wikipedia: Watt steam engine"
+  },
+  {
+    "id": "c7f7cf73-40ce-415b-a188-a63d4b0c6cd7",
+    "text": "What revolutionary textile machine, invented by Edmund Cartwright in 1785, mechanized the weaving process?",
+    "options": [
+      "The spinning jenny",
+      "The water frame",
+      "The power loom",
+      "The cotton gin"
+    ],
+    "correctIndex": 2,
+    "category": "history",
+    "difficulty": "medium",
+    "explanation": "Edmund Cartwright's power loom mechanized weaving, completing the mechanization of textile production that began with spinning machines.",
+    "detailedExplanation": "The power loom, invented by Edmund Cartwright in 1785, was a water-powered and later steam-powered loom that mechanized the process of weaving cloth. This invention completed the mechanization of textile production, as earlier innovations like the spinning jenny and water frame had already mechanized the spinning process. The power loom dramatically increased the speed of cloth production and reduced labor costs, though its adoption was initially slow due to resistance from hand-loom weavers who feared unemployment.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Power_loom",
+    "citationTitle": "Wikipedia: Power loom"
+  },
+  {
+    "id": "f70c1dde-5e66-4ddd-8031-787654111ac3",
+    "text": "Which transportation innovation, first successfully demonstrated by George Stephenson in 1825, revolutionized land travel and freight transport?",
+    "options": [
+      "The macadam road",
+      "The steam carriage",
+      "The passenger railway",
+      "The canal lock system"
+    ],
+    "correctIndex": 2,
+    "category": "history",
+    "difficulty": "medium",
+    "explanation": "George Stephenson's Stockton and Darlington Railway in 1825 was the world's first passenger railway to use steam locomotives.",
+    "detailedExplanation": "The passenger railway was revolutionized by George Stephenson's Stockton and Darlington Railway, which opened in 1825 as the world's first public railway to use steam locomotives for passenger service. Stephenson's locomotive 'Locomotion No. 1' hauled the first train, reaching speeds of 15 mph. This marked the beginning of the railway age, which would transform transportation, commerce, and society by enabling rapid movement of people and goods across long distances at unprecedented speeds.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Stockton_and_Darlington_Railway",
+    "citationTitle": "Wikipedia: Stockton and Darlington Railway"
+  },
+  {
+    "id": "57cfb4d2-d0b0-42ff-8a8b-9354798f24cf",
+    "text": "What process, developed by Henry Cort in the 1780s, revolutionized iron production by removing impurities and producing higher quality wrought iron?",
+    "options": [
+      "The blast furnace method",
+      "The puddling process",
+      "The crucible technique",
+      "The hot rolling method"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "medium",
+    "explanation": "Henry Cort's puddling process used a reverberatory furnace to burn off carbon and other impurities, producing superior wrought iron.",
+    "detailedExplanation": "The puddling process, developed by Henry Cort in the 1780s, was a method of converting pig iron into wrought iron by removing impurities, particularly carbon. The process involved melting pig iron in a reverberatory furnace and stirring (or 'puddling') it with long iron rods to expose it to air, which burned off the carbon. This produced a higher quality, more malleable iron that was essential for construction, machinery, and tools. Cort also developed the rolling mill process, and together these innovations greatly improved iron quality and production efficiency.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Puddling_(metallurgy)",
+    "citationTitle": "Wikipedia: Puddling (metallurgy)"
+  },
+  {
+    "id": "b6e759d9-a9b7-46d8-a421-d4bd797127e7",
+    "text": "Which agricultural innovation, perfected by Jethro Tull in the early 1700s, allowed farmers to plant seeds in precise rows and depths?",
+    "options": [
+      "The mechanical reaper",
+      "The seed drill",
+      "The threshing machine",
+      "The steel plow"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "medium",
+    "explanation": "Jethro Tull's seed drill mechanically planted seeds in rows at controlled depths, improving crop yields and reducing seed waste.",
+    "detailedExplanation": "The seed drill, perfected by Jethro Tull around 1701, was a mechanical device that planted seeds in precise rows at controlled depths and spacing. This innovation was crucial to the Agricultural Revolution that preceded and enabled the Industrial Revolution. Unlike the traditional method of broadcasting seeds by hand, the seed drill reduced seed waste, improved germination rates, and made cultivation easier. The precise planting also allowed for better crop management and higher yields, helping to feed the growing urban populations that would work in the new industrial factories.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Seed_drill",
+    "citationTitle": "Wikipedia: Seed drill"
+  },
+  {
+    "id": "b95082c5-f42c-4f8c-962d-3a673851ef7b",
+    "text": "Which inventor is credited with developing the spinning jenny in 1764, revolutionizing textile production during the Industrial Revolution?",
+    "options": [
+      "James Hargreaves",
+      "Richard Arkwright",
+      "Samuel Crompton",
+      "Edmund Cartwright"
+    ],
+    "correctIndex": 0,
+    "category": "history",
+    "difficulty": "medium",
+    "explanation": "James Hargreaves invented the spinning jenny in 1764, allowing one worker to spin multiple threads simultaneously.",
+    "detailedExplanation": "James Hargreaves, a weaver and carpenter from Lancashire, England, invented the spinning jenny around 1764. This revolutionary machine allowed a single worker to spin eight threads at once (later versions could spin up to 120 threads), dramatically increasing textile production efficiency. The invention was named after his daughter Jenny, though some historians debate this origin story. While Richard Arkwright developed the water frame, Samuel Crompton created the spinning mule, and Edmund Cartwright invented the power loom, it was Hargreaves' spinning jenny that first mechanized the spinning process and helped launch the textile manufacturing boom of the Industrial Revolution.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Spinning_jenny",
+    "citationTitle": "Wikipedia: Spinning jenny"
+  }
+]

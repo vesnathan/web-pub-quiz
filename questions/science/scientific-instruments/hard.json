@@ -1,0 +1,342 @@
+[
+  {
+    "id": "44c49e95-7c90-4cd5-8e60-f6a83b33f7cd",
+    "text": "Which scientific instrument was invented by Antonie van Leeuwenhoek and allowed him to observe bacteria for the first time in the 1670s?",
+    "options": [
+      "Compound microscope",
+      "Simple microscope",
+      "Electron microscope",
+      "Phase-contrast microscope"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Van Leeuwenhoek used simple microscopes (single-lens) that he crafted himself, achieving magnifications of up to 275x.",
+    "detailedExplanation": "Antonie van Leeuwenhoek, a Dutch draper and scientist, revolutionized microscopy in the 17th century using simple microscopes of his own design. Unlike compound microscopes which use multiple lenses, his simple microscopes consisted of a single, tiny glass bead lens mounted between brass plates. Despite their simple construction, van Leeuwenhoek's instruments achieved remarkable magnifications of 200-275x and superior image quality compared to the compound microscopes of his era. Using these instruments, he became the first person to observe and describe bacteria, protists, and sperm cells, fundamentally changing our understanding of the microscopic world.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Antonie_van_Leeuwenhoek",
+    "citationTitle": "Wikipedia: Antonie van Leeuwenhoek"
+  },
+  {
+    "id": "6525444a-06bf-4b4e-be9a-43b420ff255f",
+    "text": "What does a spectrophotometer primarily measure to determine the concentration of substances in solution?",
+    "options": [
+      "Light absorption at specific wavelengths",
+      "Electrical conductivity",
+      "Magnetic field strength",
+      "Sound wave frequency"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Spectrophotometers measure how much light is absorbed by a sample at specific wavelengths, following Beer-Lambert law.",
+    "detailedExplanation": "A spectrophotometer is a fundamental analytical instrument that measures the intensity of light absorbed by a sample at specific wavelengths. The instrument works on the principle of Beer-Lambert law, which states that the concentration of a substance is directly proportional to the amount of light it absorbs. The spectrophotometer passes light of a known wavelength through a sample and measures how much light is absorbed versus transmitted. This absorption data allows scientists to determine the concentration of colored compounds, monitor chemical reactions, analyze DNA and protein concentrations, and perform quantitative analysis across numerous fields including chemistry, biology, and environmental science.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Spectrophotometry",
+    "citationTitle": "Wikipedia: Spectrophotometry"
+  },
+  {
+    "id": "4d2da3ed-d71c-433f-8c94-6b43956b90f9",
+    "text": "Which instrument would a geophysicist use to measure tiny variations in gravitational field strength for geological surveys?",
+    "options": [
+      "Seismograph",
+      "Magnetometer",
+      "Gravimeter",
+      "Barometer"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "A gravimeter detects minute variations in gravitational acceleration, useful for finding oil deposits and geological structures.",
+    "detailedExplanation": "A gravimeter is a highly sensitive instrument designed to measure variations in gravitational acceleration with extreme precision, often detecting changes as small as one part in a billion. These instruments are crucial in geophysics for mapping subsurface geological structures, as different rock densities and formations create subtle variations in gravitational pull. Modern gravimeters use spring-based systems or superconducting technology to achieve this remarkable sensitivity. They are extensively used in oil and mineral exploration, earthquake research, and geodetic surveys. By measuring gravity anomalies, geophysicists can infer the presence of dense ore bodies, oil-bearing sedimentary basins, or underground cavities without invasive drilling.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Gravimeter",
+    "citationTitle": "Wikipedia: Gravimeter"
+  },
+  {
+    "id": "a0f8b077-b1c7-4d28-b0f9-2c3fb357495c",
+    "text": "What is the primary function of a cryostat in scientific research?",
+    "options": [
+      "To measure crystal structures",
+      "To maintain extremely low temperatures",
+      "To compress gases",
+      "To generate high-frequency sound waves"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "A cryostat maintains samples at very low temperatures, often using liquid helium or nitrogen for cooling.",
+    "detailedExplanation": "A cryostat is a specialized apparatus designed to maintain extremely low temperatures, typically ranging from a few degrees above absolute zero to several hundred degrees below room temperature. These instruments are essential in many areas of scientific research, including superconductivity studies, quantum physics experiments, and materials science. Cryostats use various cooling methods, including liquid helium (reaching temperatures as low as 1.5K), liquid nitrogen (77K), or closed-cycle refrigeration systems. They provide precise temperature control and thermal isolation, allowing researchers to study phenomena that only occur at cryogenic temperatures, such as superconductivity, quantum coherence effects, and the behavior of materials at extremely low thermal energies.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Cryostat",
+    "citationTitle": "Wikipedia: Cryostat"
+  },
+  {
+    "id": "ee93eb7c-2f9d-4a2f-ada6-accabe3010d8",
+    "text": "Which analytical instrument separates mixtures by exploiting differences in how components distribute between mobile and stationary phases?",
+    "options": [
+      "Mass spectrometer",
+      "Chromatograph",
+      "Centrifuge",
+      "Electrophoresis apparatus"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Chromatography separates compounds based on their different affinities for stationary and mobile phases.",
+    "detailedExplanation": "Chromatography is a powerful separation technique that exploits the differential distribution of mixture components between a stationary phase (such as a solid adsorbent or liquid coating) and a mobile phase (liquid or gas). As the mobile phase carries the sample through the stationary phase, different compounds travel at different rates based on their chemical properties, molecular size, charge, or polarity. This results in temporal or spatial separation of the components. Various types include gas chromatography (GC), liquid chromatography (LC), and thin-layer chromatography (TLC). Modern instruments like HPLC (High-Performance Liquid Chromatography) and GC-MS (Gas Chromatography-Mass Spectrometry) are indispensable in analytical chemistry, forensics, pharmaceuticals, and environmental analysis.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Chromatography",
+    "citationTitle": "Wikipedia: Chromatography"
+  },
+  {
+    "id": "5330bc8b-b39f-4130-8d95-5ca400a42a0e",
+    "text": "What does an atomic force microscope (AFM) use to create images of surfaces at the nanoscale?",
+    "options": [
+      "Electron beams",
+      "X-ray diffraction",
+      "A sharp tip on a cantilever",
+      "Laser interferometry"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "AFM uses a sharp tip mounted on a flexible cantilever that deflects as it interacts with surface atoms.",
+    "detailedExplanation": "An Atomic Force Microscope (AFM) operates by scanning a sharp tip, typically only a few atoms wide, mounted on a flexible cantilever across a sample surface. As the tip approaches the surface, atomic forces (van der Waals forces, electrostatic forces, etc.) between the tip and sample atoms cause the cantilever to deflect. A laser beam reflects off the cantilever onto a photodetector, which measures these minute deflections with sub-angstrom precision. By mapping these force interactions across the surface, the AFM constructs detailed topographical images with resolution down to the atomic level. Unlike electron microscopes, AFM can operate in air, liquid, or vacuum conditions and can image non-conductive samples, making it invaluable for studying biological specimens, polymers, and nanomaterials.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Atomic_force_microscopy",
+    "citationTitle": "Wikipedia: Atomic force microscopy"
+  },
+  {
+    "id": "f87296e3-7eb2-40fd-8d47-6cc559b29aee",
+    "text": "Which instrument would an astronomer use to analyze the chemical composition of distant stars by splitting their light into component wavelengths?",
+    "options": [
+      "Photometer",
+      "Spectrograph",
+      "Interferometer",
+      "Coronagraph"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "A spectrograph disperses starlight into its constituent wavelengths, revealing absorption lines that indicate chemical elements.",
+    "detailedExplanation": "A spectrograph is an essential astronomical instrument that disperses light from celestial objects into its constituent wavelengths, creating a spectrum that reveals detailed information about the object's composition, temperature, velocity, and other physical properties. The instrument typically uses a diffraction grating or prism to separate light into different wavelengths, which are then recorded on a detector. Dark absorption lines in stellar spectra correspond to specific chemical elements in the star's atmosphere, allowing astronomers to determine stellar composition from vast distances. Modern spectrographs can also detect Doppler shifts to measure stellar velocities and discover exoplanets, measure redshift to determine cosmic distances, and analyze the physical conditions in interstellar gas clouds.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Optical_spectrometer",
+    "citationTitle": "Wikipedia: Optical spectrometer"
+  },
+  {
+    "id": "d55e1583-9714-404d-8a4b-cfc5b8bc16d4",
+    "text": "What principle does a Geiger counter utilize to detect ionizing radiation?",
+    "options": [
+      "Photoelectric effect",
+      "Gas ionization and electrical discharge",
+      "Fluorescence emission",
+      "Magnetic field deflection"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Geiger counters detect radiation by measuring electrical pulses created when radiation ionizes gas atoms in the detector tube.",
+    "detailedExplanation": "A Geiger counter operates on the principle of gas ionization and avalanche discharge within a sealed tube filled with an inert gas (typically helium, neon, or argon) and containing a central wire electrode. When ionizing radiation enters the tube, it strips electrons from gas atoms, creating ion pairs. The tube operates at a high voltage (typically 400-900 volts) such that these initial ion pairs trigger an avalanche effect, where secondary ionizations rapidly multiply the number of charge carriers. This creates a brief but detectable electrical pulse that is amplified and counted by the associated electronics. Each radiation event produces a distinct pulse, making it possible to count individual radiation events and measure radiation intensity. This simple yet effective design has made Geiger counters the standard portable radiation detection instrument since their invention by Hans Geiger and Walther Müller in 1928.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Geiger_counter",
+    "citationTitle": "Wikipedia: Geiger counter"
+  },
+  {
+    "id": "47b4865f-b351-44bf-8a8a-cdbf58a290b6",
+    "text": "Which scientific instrument was invented by Dutch spectacle maker Zacharias Janssen around 1590 and uses multiple lenses to magnify small objects?",
+    "options": [
+      "Telescope",
+      "Compound microscope",
+      "Astrolabe",
+      "Barometer"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Zacharias Janssen invented the compound microscope around 1590.",
+    "detailedExplanation": "Zacharias Janssen, a Dutch spectacle maker, is credited with inventing the compound microscope around 1590. This instrument uses two or more lenses to achieve greater magnification than a simple magnifying glass. The compound microscope revolutionized the study of biology and medicine by allowing scientists to observe cells, bacteria, and other microscopic structures for the first time.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Compound_microscope",
+    "citationTitle": "Wikipedia: Compound microscope"
+  },
+  {
+    "id": "0e51f701-d4da-4cf0-be32-c0867e2157b4",
+    "text": "What is the name of the highly sensitive scientific instrument that detected gravitational waves for the first time in 2015?",
+    "options": [
+      "Hubble Space Telescope",
+      "Large Hadron Collider",
+      "LIGO",
+      "Chandra X-ray Observatory"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "LIGO (Laser Interferometer Gravitational-Wave Observatory) first detected gravitational waves in 2015.",
+    "detailedExplanation": "The Laser Interferometer Gravitational-Wave Observatory (LIGO) made history on September 14, 2015, by detecting gravitational waves for the first time. These ripples in spacetime were predicted by Einstein's theory of general relativity a century earlier. LIGO uses laser interferometry to measure incredibly tiny changes in distance caused by passing gravitational waves, with a sensitivity capable of detecting changes smaller than 1/10,000th the width of a proton.",
+    "citationUrl": "https://en.wikipedia.org/wiki/LIGO",
+    "citationTitle": "Wikipedia: LIGO"
+  },
+  {
+    "id": "f862d10f-0424-4e62-b734-e208491ad69d",
+    "text": "Which instrument, invented by Robert Hooke in 1665, uses the principle of elastic deformation to measure force and weight?",
+    "options": [
+      "Dynamometer",
+      "Spring scale",
+      "Cavendish balance",
+      "Torsion balance"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Robert Hooke invented the spring scale in 1665, based on his law of elasticity.",
+    "detailedExplanation": "Robert Hooke invented the spring scale in 1665, applying his famous law of elasticity (Hooke's Law) which states that the force needed to extend or compress a spring is proportional to the distance of extension or compression. This principle became fundamental to many measuring instruments. The spring scale works by measuring the displacement of a spring when a force is applied, making it useful for measuring both weight and other forces.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Spring_scale",
+    "citationTitle": "Wikipedia: Spring scale"
+  },
+  {
+    "id": "11df3e88-aefc-4826-89b7-4e8431e2c573",
+    "text": "What is the name of the sophisticated analytical instrument that separates ions based on their mass-to-charge ratio and was awarded the Nobel Prize in Chemistry in 2002?",
+    "options": [
+      "Nuclear magnetic resonance spectrometer",
+      "Gas chromatograph",
+      "Mass spectrometer",
+      "X-ray crystallography apparatus"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "The mass spectrometer separates ions by mass-to-charge ratio, and developments in this field earned the 2002 Nobel Prize.",
+    "detailedExplanation": "Mass spectrometry is a powerful analytical technique that ionizes chemical species and sorts the ions based on their mass-to-charge ratio. The 2002 Nobel Prize in Chemistry was awarded to John Fenn and Koichi Tanaka for developing soft ionization methods that allowed mass spectrometry to be applied to biological macromolecules like proteins. This breakthrough revolutionized proteomics and drug discovery by enabling the analysis of large, fragile molecules that would be destroyed by traditional ionization methods.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Mass_spectrometry",
+    "citationTitle": "Wikipedia: Mass spectrometry"
+  },
+  {
+    "id": "8fe6f1f6-b7f6-4d64-b9b7-73fa5469514a",
+    "text": "Which precision instrument, developed by Henry Cavendish in 1798, was used to measure the gravitational constant and determine the density of Earth?",
+    "options": [
+      "Pendulum gravimeter",
+      "Cavendish balance",
+      "Foucault pendulum",
+      "Atwood machine"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "The Cavendish balance was used by Henry Cavendish to measure Earth's density and the gravitational constant.",
+    "detailedExplanation": "The Cavendish balance, also known as a torsion balance, was used by Henry Cavendish in 1798 in what became known as the 'Cavendish experiment.' This sensitive instrument measured the tiny gravitational attraction between lead spheres, allowing Cavendish to determine the gravitational constant G and calculate Earth's density for the first time. The experiment was so precise that Cavendish's value for Earth's density was within 1% of the modern accepted value.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Cavendish_experiment",
+    "citationTitle": "Wikipedia: Cavendish experiment"
+  },
+  {
+    "id": "2a9d4dcf-a1a2-47c6-8801-6b01311285b9",
+    "text": "What is the name of the optical instrument that uses the interference of light waves to make extremely precise measurements of small distances and surface irregularities?",
+    "options": [
+      "Interferometer",
+      "Spectrometer",
+      "Polarimeter",
+      "Refractometer"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "An interferometer uses light wave interference to measure distances with extreme precision.",
+    "detailedExplanation": "An interferometer is an optical instrument that uses the wave properties of light to make extremely precise measurements. By splitting a light beam and then recombining the separate beams, interferometers can detect phase differences caused by small changes in optical path length. This makes them invaluable for measuring tiny distances, surface roughness, and changes in refractive index. Famous applications include the Michelson-Morley experiment and modern gravitational wave detectors like LIGO.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Interferometry",
+    "citationTitle": "Wikipedia: Interferometry"
+  },
+  {
+    "id": "9d04c3fc-a3ab-4acb-b015-0e0859be3b31",
+    "text": "Which analytical instrument, invented by Archer Martin and Richard Synge (Nobel Prize winners in 1952), separates mixtures by differential partitioning between phases?",
+    "options": [
+      "Centrifuge",
+      "Electrophoresis apparatus",
+      "Chromatograph",
+      "Spectrophotometer"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Martin and Synge developed chromatography and won the 1952 Nobel Prize in Chemistry for this separation technique.",
+    "detailedExplanation": "Archer Martin and Richard Synge developed partition chromatography in the 1940s, for which they were awarded the Nobel Prize in Chemistry in 1952. Chromatography separates mixtures based on the different rates at which components move through a stationary phase when carried by a mobile phase. This technique revolutionized analytical chemistry and biochemistry, enabling the separation and identification of complex mixtures of chemicals, from amino acids to pharmaceuticals.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Chromatography",
+    "citationTitle": "Wikipedia: Chromatography"
+  },
+  {
+    "id": "17abd341-0e3b-463e-b68a-1befcc38d850",
+    "text": "What is the name of the instrument that measures the three-dimensional structure of crystals by analyzing the diffraction pattern of X-rays?",
+    "options": [
+      "Electron microscope",
+      "X-ray crystallography diffractometer",
+      "Atomic force microscope",
+      "Scanning tunneling microscope"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "X-ray crystallography diffractometers determine crystal structures by analyzing X-ray diffraction patterns.",
+    "detailedExplanation": "X-ray crystallography diffractometers are sophisticated instruments that determine the three-dimensional structure of crystalline materials by analyzing how X-rays are diffracted when they interact with the regular array of atoms in a crystal. This technique has been crucial in determining the structures of countless molecules, including DNA, proteins, and pharmaceutical compounds. The method earned Max von Laue the 1914 Nobel Prize in Physics and later helped determine the double helix structure of DNA.",
+    "citationUrl": "https://en.wikipedia.org/wiki/X-ray_crystallography",
+    "citationTitle": "Wikipedia: X-ray crystallography"
+  },
+  {
+    "id": "ef1c3617-b617-45ab-8a1c-0acd26cfa093",
+    "text": "What scientific instrument was invented by Antonie van Leeuwenhoek in the 1670s that enabled him to observe bacteria and protozoa for the first time?",
+    "options": [
+      "Compound microscope",
+      "Simple microscope",
+      "Electron microscope",
+      "Phase contrast microscope"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Van Leeuwenhoek used simple microscopes with a single lens to achieve magnifications up to 275x.",
+    "detailedExplanation": "Antonie van Leeuwenhoek, a Dutch draper and scientist, crafted simple microscopes consisting of a single, carefully ground lens mounted between metal plates. Despite their basic design, his microscopes achieved remarkable magnifications of up to 275 times, far superior to the compound microscopes of his era. Using these instruments, he became the first person to observe and describe bacteria, which he called 'animalcules,' as well as protozoa, sperm cells, and red blood cells, revolutionizing our understanding of the microscopic world.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Antonie_van_Leeuwenhoek",
+    "citationTitle": "Wikipedia: Antonie van Leeuwenhoek"
+  },
+  {
+    "id": "890483a6-3aa9-44e0-9549-825677bd4766",
+    "text": "The Michelson interferometer, crucial for detecting gravitational waves in LIGO, was originally designed by Albert Michelson for which famous 19th-century physics experiment?",
+    "options": [
+      "The photoelectric effect experiment",
+      "The oil drop experiment",
+      "The Michelson-Morley experiment",
+      "The cathode ray tube experiment"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "The Michelson-Morley experiment attempted to detect the luminiferous aether by measuring light speed in different directions.",
+    "detailedExplanation": "Albert Michelson developed his interferometer in the 1880s for the Michelson-Morley experiment, which aimed to detect the motion of Earth through the hypothetical luminiferous aether by measuring differences in the speed of light in perpendicular directions. The experiment's null result helped pave the way for Einstein's theory of special relativity. Over a century later, the same interferometric principles were scaled up dramatically in LIGO (Laser Interferometer Gravitational-Wave Observatory), where laser beams travel 4-kilometer arms to detect minute spacetime distortions caused by gravitational waves.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Michelson_interferometer",
+    "citationTitle": "Wikipedia: Michelson interferometer"
+  },
+  {
+    "id": "01b48777-5c43-4b6c-80b3-abc081aa03cd",
+    "text": "What type of detector is used in modern X-ray crystallography to replace photographic film, allowing for faster data collection and digital processing?",
+    "options": [
+      "Photomultiplier tube",
+      "Charge-coupled device (CCD)",
+      "Scintillation counter",
+      "Geiger-Müller tube"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "CCD detectors convert X-rays to light then to electrical signals, enabling rapid digital data collection in crystallography.",
+    "detailedExplanation": "Modern X-ray crystallography has largely replaced photographic film with charge-coupled device (CCD) detectors and newer complementary metal-oxide-semiconductor (CMOS) detectors. These silicon-based detectors convert incoming X-rays into electrical signals through a phosphor layer that first converts X-rays to visible light, which is then detected by the semiconductor array. This technology allows for real-time data collection, immediate feedback on crystal quality, and digital processing of diffraction patterns, dramatically speeding up protein structure determination and other crystallographic analyses.",
+    "citationUrl": "https://en.wikipedia.org/wiki/X-ray_crystallography",
+    "citationTitle": "Wikipedia: X-ray crystallography"
+  },
+  {
+    "id": "8788cf27-9a76-444c-8867-854c5f3c9e5c",
+    "text": "Which scientific instrument measures the three-dimensional orientation and angular velocity of spacecraft and aircraft using the Coriolis effect?",
+    "options": [
+      "Accelerometer",
+      "Magnetometer",
+      "Ring laser gyroscope",
+      "Barometric altimeter"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Ring laser gyroscopes use the Coriolis effect on laser light to detect rotational motion without moving parts.",
+    "detailedExplanation": "A ring laser gyroscope (RLG) consists of laser beams traveling in opposite directions around a closed triangular or square path. When the device rotates, the Coriolis effect causes the beam traveling in the direction of rotation to have a slightly longer path than the counter-rotating beam, creating a frequency difference proportional to the rotation rate. This phenomenon, known as the Sagnac effect, allows extremely precise measurement of angular velocity. RLGs are preferred in aerospace applications because they have no moving mechanical parts, making them highly reliable and accurate for inertial navigation systems in aircraft, spacecraft, and submarines.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Ring_laser_gyroscope",
+    "citationTitle": "Wikipedia: Ring laser gyroscope"
+  }
+]

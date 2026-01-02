@@ -1,8 +1,12 @@
-'use client';
+"use client";
 
-import { motion } from 'framer-motion';
-import type { AwardBadge } from '@quiz/shared';
-import { getRarityGradient, getRarityColor, calculateTotalSkillPoints } from '@quiz/shared';
+import { motion } from "framer-motion";
+import type { AwardBadge } from "@quiz/shared";
+import {
+  getRarityGradient,
+  getRarityColor,
+  calculateTotalSkillPoints,
+} from "@quiz/shared";
 
 interface BadgeUnlockSummaryProps {
   badges: AwardBadge[];
@@ -20,7 +24,7 @@ function BadgeCard({ badge, index }: { badge: AwardBadge; index: number }) {
       transition={{
         delay: 0.2 + index * 0.15,
         duration: 0.4,
-        ease: 'easeOut',
+        ease: "easeOut",
       }}
       className={`relative flex flex-col items-center p-1 rounded-xl bg-gradient-to-br ${rarityGradient}`}
     >
@@ -36,7 +40,7 @@ function BadgeCard({ badge, index }: { badge: AwardBadge; index: number }) {
             transition={{
               duration: 2,
               repeat: Infinity,
-              ease: 'easeInOut',
+              ease: "easeInOut",
             }}
           />
           <span className="relative text-4xl">{badge.icon}</span>
@@ -69,7 +73,10 @@ function BadgeCard({ badge, index }: { badge: AwardBadge; index: number }) {
   );
 }
 
-export function BadgeUnlockSummary({ badges, totalSkillPointsEarned }: BadgeUnlockSummaryProps) {
+export function BadgeUnlockSummary({
+  badges,
+  totalSkillPointsEarned,
+}: BadgeUnlockSummaryProps) {
   if (badges.length === 0) return null;
 
   return (
@@ -86,11 +93,10 @@ export function BadgeUnlockSummary({ badges, totalSkillPointsEarned }: BadgeUnlo
         transition={{ delay: 0.1, duration: 0.4 }}
         className="text-center mb-6"
       >
-        <h3 className="text-2xl font-bold text-white mb-1">
-          Congratulations!
-        </h3>
+        <h3 className="text-2xl font-bold text-white mb-1">Congratulations!</h3>
         <p className="text-gray-400">
-          You earned {badges.length} badge{badges.length > 1 ? 's' : ''} this set
+          You earned {badges.length} badge{badges.length > 1 ? "s" : ""} this
+          set
         </p>
       </motion.div>
 
@@ -108,7 +114,9 @@ export function BadgeUnlockSummary({ badges, totalSkillPointsEarned }: BadgeUnlo
         transition={{ delay: 0.3 + badges.length * 0.15, duration: 0.4 }}
         className="text-center p-4 rounded-lg bg-gray-800/50 border border-yellow-500/30"
       >
-        <div className="text-gray-400 text-sm mb-1">Total Skill Points Earned</div>
+        <div className="text-gray-400 text-sm mb-1">
+          Total Skill Points Earned
+        </div>
         <div className="text-3xl font-bold text-yellow-400">
           +{totalSkillPointsEarned} SP
         </div>

@@ -1,0 +1,342 @@
+[
+  {
+    "id": "11cd0a2c-0473-4fd2-ad11-9bed38c12d50",
+    "text": "What is the chemical formula for table salt?",
+    "options": [
+      "NaCl",
+      "KCl",
+      "CaCl2",
+      "MgCl2"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Table salt is sodium chloride, with the chemical formula NaCl.",
+    "detailedExplanation": "Table salt, commonly used in cooking and food preservation, is chemically known as sodium chloride. It consists of one sodium (Na) atom and one chlorine (Cl) atom bonded together in an ionic compound. This white crystalline substance is essential for human health and has been used throughout history for food preservation and flavoring.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Sodium_chloride",
+    "citationTitle": "Wikipedia: Sodium chloride"
+  },
+  {
+    "id": "35718034-beac-4ceb-a988-439b5453452e",
+    "text": "Which element has the highest melting point of all known elements?",
+    "options": [
+      "Tungsten",
+      "Carbon",
+      "Rhenium",
+      "Osmium"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Tungsten has the highest melting point at 3,695°K (3,422°C or 6,192°F).",
+    "detailedExplanation": "Tungsten, with the chemical symbol W (from its German name Wolfram), holds the record for the highest melting point among all elements at 3,695 Kelvin. This exceptional property makes tungsten invaluable in high-temperature applications, including light bulb filaments, welding electrodes, and rocket nozzles. Its remarkable heat resistance stems from its strong metallic bonding and dense crystal structure.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Tungsten",
+    "citationTitle": "Wikipedia: Tungsten"
+  },
+  {
+    "id": "ca623200-f824-4b08-acf2-f1962b6221a2",
+    "text": "Which compound is commonly known as 'dry ice'?",
+    "options": [
+      "Frozen water",
+      "Solid nitrogen",
+      "Solid carbon dioxide",
+      "Solid methane"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Dry ice is solid carbon dioxide (CO2) that sublimates directly from solid to gas.",
+    "detailedExplanation": "Dry ice is the solid form of carbon dioxide (CO2) that exists at temperatures below -78.5°C (-109.3°F). Unlike regular ice made from water, dry ice doesn't melt into a liquid but instead undergoes sublimation, transitioning directly from solid to gas phase. This property makes it extremely useful for refrigeration, theatrical fog effects, and cleaning applications. The name 'dry ice' comes from the fact that it doesn't leave any liquid residue.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Dry_ice",
+    "citationTitle": "Wikipedia: Dry ice"
+  },
+  {
+    "id": "210fc1e3-5269-48c2-9b50-de5504a718ce",
+    "text": "Which element is essential for the production of thyroid hormones?",
+    "options": [
+      "Iron",
+      "Iodine",
+      "Calcium",
+      "Zinc"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Iodine is crucial for producing thyroid hormones T3 and T4.",
+    "detailedExplanation": "Iodine is an essential trace element required for the synthesis of thyroid hormones, specifically thyroxine (T4) and triiodothyronine (T3). The thyroid gland actively concentrates iodine from the bloodstream and incorporates it into these hormones, which regulate metabolism, growth, and development. Iodine deficiency can lead to goiter and other thyroid disorders. This is why table salt is often fortified with iodine in many countries as a public health measure.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Iodine_in_biology",
+    "citationTitle": "Wikipedia: Iodine in biology"
+  },
+  {
+    "id": "0dfc93b6-56b5-4dcd-889f-aa3f1b9252ab",
+    "text": "What type of chemical bond holds the atoms together in a water molecule?",
+    "options": [
+      "Ionic bonds",
+      "Metallic bonds",
+      "Covalent bonds",
+      "Van der Waals forces"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Water molecules are held together by covalent bonds between hydrogen and oxygen atoms.",
+    "detailedExplanation": "In a water molecule (H2O), the hydrogen and oxygen atoms are connected by covalent bonds, specifically polar covalent bonds. These bonds form when atoms share electrons, with oxygen being more electronegative and pulling the shared electrons closer to itself. This creates a partial negative charge on the oxygen atom and partial positive charges on the hydrogen atoms, giving water its polar nature and enabling hydrogen bonding between water molecules.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Properties_of_water",
+    "citationTitle": "Wikipedia: Properties of water"
+  },
+  {
+    "id": "49121d38-72fb-4b7c-b242-af8550df691f",
+    "text": "What process do plants use to convert carbon dioxide and water into glucose using sunlight?",
+    "options": [
+      "Photosynthesis",
+      "Respiration",
+      "Transpiration",
+      "Osmosis"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Photosynthesis is the process where plants use chlorophyll to capture sunlight energy and convert CO2 and water into glucose.",
+    "detailedExplanation": "Photosynthesis is arguably the most important biological process on Earth, performed by plants, algae, and some bacteria. During this process, chloroplasts in plant cells capture light energy and use it to convert carbon dioxide from the air and water from the soil into glucose (sugar) and oxygen. This process not only provides energy for the plant but also produces the oxygen that most life on Earth depends on.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Photosynthesis",
+    "citationTitle": "Wikipedia: Photosynthesis"
+  },
+  {
+    "id": "fb953413-e235-42a9-9a06-74e9184b1b51",
+    "text": "Which mineral is the primary component of limestone?",
+    "options": [
+      "Quartz",
+      "Feldspar",
+      "Calcite",
+      "Mica"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Calcite (calcium carbonate) is the main mineral component that makes up limestone.",
+    "detailedExplanation": "Limestone is a sedimentary rock composed primarily of calcite (CaCO₃), which forms from the accumulation of marine organisms like corals, shells, and microscopic creatures over millions of years. When these calcium carbonate-rich materials are compressed and cemented together, they form limestone. This rock is economically important for construction, cement production, and as a source of lime. Limestone also creates distinctive landscapes through chemical weathering, forming features like caves and karst topography.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Limestone",
+    "citationTitle": "Wikipedia: Limestone"
+  },
+  {
+    "id": "d03f32b7-11ca-4941-8c55-dd618fc417fd",
+    "text": "What is the chemical symbol for tungsten?",
+    "options": [
+      "Tu",
+      "Tn",
+      "W",
+      "Tg"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Tungsten's chemical symbol is W, derived from its German name 'wolfram'.",
+    "detailedExplanation": "Tungsten has the chemical symbol W, which comes from its alternative name 'wolfram' in German. This element was first identified in 1781 and is known for having the highest melting point of all elements at 3,695°C (6,683°F). It's commonly used in light bulb filaments and industrial applications requiring high-temperature resistance.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Tungsten",
+    "citationTitle": "Wikipedia: Tungsten"
+  },
+  {
+    "id": "aee14fcc-6094-4406-abc0-8e2b32657c65",
+    "text": "Which compound is commonly known as laughing gas?",
+    "options": [
+      "Carbon dioxide",
+      "Nitrous oxide",
+      "Sulfur dioxide",
+      "Nitrogen dioxide"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Nitrous oxide (N₂O) is commonly called laughing gas due to its euphoric effects.",
+    "detailedExplanation": "Nitrous oxide (N₂O) earned the nickname 'laughing gas' because of the euphoric effects it produces when inhaled. Discovered by Joseph Priestley in 1772, it was first used for entertainment at 'laughing gas parties' before finding medical applications as an anesthetic. Today it's widely used in dentistry and as a whipped cream propellant.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Nitrous_oxide",
+    "citationTitle": "Wikipedia: Nitrous oxide"
+  },
+  {
+    "id": "380ccb6e-ec4c-4a7f-bf1a-5d2abccbc20c",
+    "text": "What is the most abundant element in the Earth's crust by mass?",
+    "options": [
+      "Silicon",
+      "Aluminum",
+      "Iron",
+      "Oxygen"
+    ],
+    "correctIndex": 3,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Oxygen makes up about 46% of the Earth's crust by mass, mostly in oxide compounds.",
+    "detailedExplanation": "Oxygen is the most abundant element in Earth's crust, comprising approximately 46% by mass. This abundance comes primarily from oxygen's presence in silicate minerals, water, and various oxide compounds rather than as free oxygen gas. Silicon is the second most abundant at about 28%, forming the backbone of most rock-forming minerals.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Abundance_of_elements_in_Earth%27s_crust",
+    "citationTitle": "Wikipedia: Abundance of elements in Earth's crust"
+  },
+  {
+    "id": "9e970b29-a166-481d-918f-003d2d899c57",
+    "text": "What type of bond holds the atoms together in a molecule of methane (CH₄)?",
+    "options": [
+      "Ionic bonds",
+      "Metallic bonds",
+      "Covalent bonds",
+      "Hydrogen bonds"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Methane molecules are held together by covalent bonds between carbon and hydrogen atoms.",
+    "detailedExplanation": "Methane (CH₄) is held together by covalent bonds, where electrons are shared between the carbon atom and four hydrogen atoms. This sharing creates a stable tetrahedral structure. Covalent bonds typically form between nonmetal atoms and are characterized by the sharing of electron pairs, unlike ionic bonds where electrons are transferred from one atom to another.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Methane",
+    "citationTitle": "Wikipedia: Methane"
+  },
+  {
+    "id": "ecf272ec-e954-44df-adba-d006aa56e373",
+    "text": "Which compound gives vinegar its characteristic sour taste and smell?",
+    "options": [
+      "Citric acid",
+      "Lactic acid",
+      "Acetic acid",
+      "Tartaric acid"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Acetic acid (CH₃COOH) is the main component that gives vinegar its sour properties.",
+    "detailedExplanation": "Acetic acid (CH₃COOH) is the primary component responsible for vinegar's sour taste and pungent smell. Typically comprising 4-8% of vinegar by volume, acetic acid forms when ethanol is oxidized by acetic acid bacteria. This simple carboxylic acid has been used for thousands of years in food preservation and cooking, and is also used industrially in the production of various chemicals and plastics.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Acetic_acid",
+    "citationTitle": "Wikipedia: Acetic acid"
+  },
+  {
+    "id": "91adccc5-6603-44c4-80b6-1aae23f20ea0",
+    "text": "Which noble gas is most commonly used in advertising signs and produces an orange-red glow?",
+    "options": [
+      "Helium",
+      "Neon",
+      "Argon",
+      "Krypton"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Neon gas produces the characteristic orange-red glow in neon signs when electrified.",
+    "detailedExplanation": "Neon is the noble gas famous for producing the bright orange-red light in traditional neon signs. When an electric current passes through neon gas in a sealed tube, it excites the neon atoms, causing them to emit light at specific wavelengths that appear orange-red to our eyes. Other colors in 'neon' signs are typically produced using different gases like argon with mercury, or by coating the inside of the tube with phosphor powders.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Neon",
+    "citationTitle": "Wikipedia: Neon"
+  },
+  {
+    "id": "cae34606-ca77-4385-b444-11bd0d56c37c",
+    "text": "What is the chemical symbol for the element with atomic number 79?",
+    "options": [
+      "Ag",
+      "Au",
+      "Pt",
+      "Pb"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Gold has atomic number 79 and the chemical symbol Au, from its Latin name 'aurum'.",
+    "detailedExplanation": "Gold, with atomic number 79, has the chemical symbol Au derived from its Latin name 'aurum' meaning 'shining dawn'. This precious metal has been known since ancient times and is highly valued for its resistance to corrosion, excellent conductivity, and malleability. The other options are silver (Ag), platinum (Pt), and lead (Pb).",
+    "citationUrl": "https://en.wikipedia.org/wiki/Gold",
+    "citationTitle": "Wikipedia: Gold"
+  },
+  {
+    "id": "90a79653-2600-44a7-be59-108ffa0194c1",
+    "text": "Which gas makes up approximately 78% of Earth's atmosphere by volume?",
+    "options": [
+      "Oxygen",
+      "Carbon dioxide",
+      "Nitrogen",
+      "Argon"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Nitrogen (N₂) comprises about 78% of Earth's atmosphere by volume.",
+    "detailedExplanation": "Earth's atmosphere is primarily composed of nitrogen gas (N₂) at approximately 78% by volume, followed by oxygen at about 21%, and argon at nearly 1%. The remaining fraction includes carbon dioxide, water vapor, and trace gases. Despite being the most abundant atmospheric gas, nitrogen is relatively inert and doesn't participate readily in biological processes without specialized bacteria or industrial processes.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Atmosphere_of_Earth",
+    "citationTitle": "Wikipedia: Atmosphere of Earth"
+  },
+  {
+    "id": "3e96fe72-7580-4e0f-89f1-844703d5d067",
+    "text": "Which element is essential for all organic compounds but makes up less than 1% of Earth's crust?",
+    "options": [
+      "Nitrogen",
+      "Phosphorus",
+      "Carbon",
+      "Sulfur"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Carbon is essential for all organic compounds but comprises only about 0.025% of Earth's crust.",
+    "detailedExplanation": "Carbon is the defining element of organic chemistry and is essential for all known life forms, yet it makes up only about 0.025% of the Earth's crust by mass. This relative scarcity in the crust contrasts sharply with its fundamental importance in biology. Carbon's unique ability to form four stable bonds and create long chains and complex structures makes it the backbone of all organic molecules.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Carbon",
+    "citationTitle": "Wikipedia: Carbon"
+  },
+  {
+    "id": "fb7286d0-0c93-4e8d-899a-d6ca94bfb832",
+    "text": "Which element has the atomic number 79?",
+    "options": [
+      "Silver",
+      "Platinum",
+      "Gold",
+      "Mercury"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Gold (Au) has the atomic number 79, meaning it has 79 protons in its nucleus.",
+    "detailedExplanation": "Gold (Au, from the Latin 'aurum') is a precious metal with atomic number 79, placing it in period 6 of the periodic table. It's known for its distinctive yellow color, resistance to corrosion, and malleability. Throughout history, gold has been valued for jewelry, currency, and various industrial applications. Silver has atomic number 47, platinum has 78, and mercury has 80, making them close neighbors to gold on the periodic table.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Gold",
+    "citationTitle": "Wikipedia: Gold"
+  },
+  {
+    "id": "67a9f918-2f4e-4ed4-84b2-cf4d7665a5b1",
+    "text": "What type of chemical bond is primarily found in diamond?",
+    "options": [
+      "Ionic bonds",
+      "Metallic bonds",
+      "Covalent bonds",
+      "Hydrogen bonds"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Diamond consists of carbon atoms connected by strong covalent bonds in a crystal lattice structure.",
+    "detailedExplanation": "Diamond is an allotrope of carbon where each carbon atom is covalently bonded to four other carbon atoms in a tetrahedral arrangement, forming a three-dimensional crystal lattice. These covalent bonds involve the sharing of electrons between carbon atoms, creating an extremely strong and rigid structure that gives diamond its exceptional hardness. This is different from ionic bonds (electron transfer), metallic bonds (electron sea model), or hydrogen bonds (weak intermolecular forces).",
+    "citationUrl": "https://en.wikipedia.org/wiki/Diamond",
+    "citationTitle": "Wikipedia: Diamond"
+  },
+  {
+    "id": "b050b46d-6dcb-4e1b-8020-f658ab417b41",
+    "text": "What is the chemical name for the compound commonly known as 'fool's gold'?",
+    "options": [
+      "Iron sulfide (FeS)",
+      "Iron pyrite (FeS₂)",
+      "Gold sulfide (AuS)",
+      "Copper sulfide (CuS)"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Fool's gold is iron pyrite (FeS₂), a mineral composed of iron and sulfur that resembles gold in appearance.",
+    "detailedExplanation": "Iron pyrite (FeS₂) is commonly known as 'fool's gold' due to its metallic luster and pale brass-yellow hue that can deceive people into thinking it's real gold. Unlike gold, pyrite is much harder and brittle, and when struck against steel or flint, it produces sparks - which is actually how it got its name from the Greek word 'pyr' meaning fire. Pyrite is one of the most common sulfide minerals and can be found in many geological environments, from sedimentary to metamorphic rocks.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Pyrite",
+    "citationTitle": "Wikipedia: Pyrite"
+  },
+  {
+    "id": "a3baaf04-1f94-4977-8c01-ec9df23d1968",
+    "text": "Which element's name comes from the Greek word 'chloros' meaning 'pale green' due to its characteristic color as a gas?",
+    "options": [
+      "Chromium",
+      "Chlorine",
+      "Copper",
+      "Cesium"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Chlorine gets its name from the Greek word 'chloros' meaning pale green, referring to its greenish-yellow gas color.",
+    "detailedExplanation": "Chlorine was first isolated in 1774 by Carl Wilhelm Scheele, who called it 'dephlogisticated marine acid air.' The element wasn't recognized as a distinct element until 1810 when Humphry Davy named it 'chlorine' from the Greek word 'chloros,' meaning pale green or yellow-green. This name perfectly describes the characteristic color of chlorine gas, which has a distinctive greenish-yellow hue. The element is highly reactive and toxic, making it useful for water purification and as a component in many household bleaches and disinfectants.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Chlorine",
+    "citationTitle": "Wikipedia: Chlorine"
+  }
+]

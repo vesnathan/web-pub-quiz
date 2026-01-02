@@ -1,8 +1,8 @@
-'use client';
+"use client";
 
-import { useEffect, useRef, useCallback } from 'react';
-import { AblyService } from '@/services/AblyService';
-import { useGameStore } from '@/stores/gameStore';
+import { useEffect, useRef, useCallback } from "react";
+import { AblyService } from "@/services/AblyService";
+import { useGameStore } from "@/stores/gameStore";
 
 interface PlayerActionsReturn {
   buzz: (timestamp: number, latency: number) => void;
@@ -16,28 +16,34 @@ interface PlayerActionsReturn {
 export function usePlayerActions(): PlayerActionsReturn {
   const player = useGameStore((state) => state.player);
 
-  const buzz = useCallback((timestamp: number, latency: number) => {
-    if (!player) return;
+  const buzz = useCallback(
+    (timestamp: number, latency: number) => {
+      if (!player) return;
 
-    const adjustedTimestamp = timestamp - latency / 2;
+      const adjustedTimestamp = timestamp - latency / 2;
 
-    AblyService.publishToRoom('buzz', {
-      playerId: player.id,
-      displayName: player.displayName,
-      timestamp,
-      latency,
-      adjustedTimestamp,
-    });
-  }, [player]);
+      AblyService.publishToRoom("buzz", {
+        playerId: player.id,
+        displayName: player.displayName,
+        timestamp,
+        latency,
+        adjustedTimestamp,
+      });
+    },
+    [player],
+  );
 
-  const answer = useCallback((answerIndex: number) => {
-    if (!player) return;
+  const answer = useCallback(
+    (answerIndex: number) => {
+      if (!player) return;
 
-    AblyService.publishToRoom('answer', {
-      playerId: player.id,
-      answerIndex,
-    });
-  }, [player]);
+      AblyService.publishToRoom("answer", {
+        playerId: player.id,
+        answerIndex,
+      });
+    },
+    [player],
+  );
 
   return { buzz, answer };
 }
@@ -65,12 +71,12 @@ export function usePlayerEventListeners(): void {
       answer(answerIndex);
     };
 
-    window.addEventListener('playerBuzz', handleBuzz as EventListener);
-    window.addEventListener('playerAnswer', handleAnswer as EventListener);
+    window.addEventListener("playerBuzz", handleBuzz as EventListener);
+    window.addEventListener("playerAnswer", handleAnswer as EventListener);
 
     return () => {
-      window.removeEventListener('playerBuzz', handleBuzz as EventListener);
-      window.removeEventListener('playerAnswer', handleAnswer as EventListener);
+      window.removeEventListener("playerBuzz", handleBuzz as EventListener);
+      window.removeEventListener("playerAnswer", handleAnswer as EventListener);
       hasSetupRef.current = false;
     };
   }, [player, buzz, answer]);

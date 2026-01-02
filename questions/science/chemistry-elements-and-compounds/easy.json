@@ -1,0 +1,308 @@
+[
+  {
+    "id": "00e76ef3-d47c-4730-9fe0-12aeeca1e301",
+    "text": "What is the chemical symbol for gold?",
+    "options": [
+      "Go",
+      "Gd",
+      "Au",
+      "Ag"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Gold's chemical symbol is Au, derived from the Latin word 'aurum'.",
+    "detailedExplanation": "Gold's chemical symbol Au comes from its Latin name 'aurum', meaning 'shining dawn'. This is one of many elements whose symbols derive from their Latin names rather than their English names. Gold is a precious metal with atomic number 79 and has been valued by humans for thousands of years due to its resistance to corrosion and distinctive color.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Gold",
+    "citationTitle": "Wikipedia: Gold"
+  },
+  {
+    "id": "e07cf5c8-fbf6-4d69-b879-e17b25022901",
+    "text": "What is the chemical formula for water?",
+    "options": [
+      "HO",
+      "H₂O",
+      "H₂O₂",
+      "OH"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Water consists of two hydrogen atoms bonded to one oxygen atom, giving it the formula H₂O.",
+    "detailedExplanation": "Water has the chemical formula H₂O, indicating that each water molecule consists of two hydrogen atoms covalently bonded to one oxygen atom. This simple compound is essential for all known forms of life and covers about 71% of Earth's surface. The bent molecular structure of water gives it unique properties like its ability to dissolve many substances, earning it the nickname 'universal solvent'.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Water",
+    "citationTitle": "Wikipedia: Water"
+  },
+  {
+    "id": "d719585d-2153-427b-820b-7a1ff3c83763",
+    "text": "Which element has the atomic number 1?",
+    "options": [
+      "Helium",
+      "Lithium",
+      "Hydrogen",
+      "Carbon"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Hydrogen has atomic number 1, meaning it has one proton in its nucleus.",
+    "detailedExplanation": "Hydrogen is the first element on the periodic table with atomic number 1, meaning each hydrogen atom has one proton in its nucleus. It's the lightest and most abundant element in the universe, making up about 75% of all normal matter. Hydrogen typically has no neutrons in its most common isotope and one electron orbiting its nucleus, making it the simplest atom possible.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Hydrogen",
+    "citationTitle": "Wikipedia: Hydrogen"
+  },
+  {
+    "id": "c2bb424e-4c8a-43bd-9369-169e3c2fd34e",
+    "text": "What do we call the horizontal rows in the periodic table?",
+    "options": [
+      "Groups",
+      "Periods",
+      "Families",
+      "Series"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "The horizontal rows in the periodic table are called periods.",
+    "detailedExplanation": "The horizontal rows in the periodic table are called periods, while the vertical columns are called groups or families. There are seven periods in the modern periodic table, with each period representing elements that have the same number of electron shells. As you move across a period from left to right, the atomic number increases and properties change in predictable ways, such as decreasing atomic radius and increasing electronegativity.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Period_(periodic_table)",
+    "citationTitle": "Wikipedia: Period (periodic table)"
+  },
+  {
+    "id": "67cb1884-855a-4e19-8486-61813597e101",
+    "text": "Which gas do plants absorb from the atmosphere during photosynthesis?",
+    "options": [
+      "Oxygen",
+      "Nitrogen",
+      "Carbon dioxide",
+      "Methane"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Plants absorb carbon dioxide (CO₂) from the atmosphere and convert it into glucose during photosynthesis.",
+    "detailedExplanation": "During photosynthesis, plants absorb carbon dioxide (CO₂) from the atmosphere through tiny pores called stomata in their leaves. Using energy from sunlight and water from their roots, plants convert CO₂ into glucose (C₆H₁₂O₆) and release oxygen as a byproduct. This process is fundamental to life on Earth as it produces the oxygen we breathe and forms the base of most food chains.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Photosynthesis",
+    "citationTitle": "Wikipedia: Photosynthesis"
+  },
+  {
+    "id": "1755727c-1ce5-4392-84cc-3f201d5b3676",
+    "text": "What is the chemical symbol for iron?",
+    "options": [
+      "Ir",
+      "In",
+      "Fe",
+      "Fr"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Iron's chemical symbol is Fe, from the Latin word 'ferrum'.",
+    "detailedExplanation": "Iron has the chemical symbol Fe, derived from its Latin name 'ferrum'. Iron is one of the most important metals in human civilization, with atomic number 26. It's the most common element on Earth by mass and is essential for human health as a component of hemoglobin in red blood cells. Iron's ability to form strong alloys, particularly steel when combined with carbon, has made it crucial for construction, tools, and machinery throughout history.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Iron",
+    "citationTitle": "Wikipedia: Iron"
+  },
+  {
+    "id": "a7a83f23-9cef-4620-94b6-a786fe7fc57a",
+    "text": "What process do plants use to convert sunlight into energy?",
+    "options": [
+      "Photosynthesis",
+      "Respiration",
+      "Transpiration",
+      "Germination"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Photosynthesis is the process plants use to convert sunlight, carbon dioxide, and water into glucose and oxygen.",
+    "detailedExplanation": "Photosynthesis is the fundamental process by which plants, algae, and some bacteria convert light energy from the sun into chemical energy stored in glucose molecules. This process occurs primarily in the chloroplasts of plant cells, where chlorophyll captures light energy and uses it to power the conversion of carbon dioxide and water into glucose and oxygen. This process is essential for life on Earth as it produces the oxygen we breathe and forms the base of most food chains.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Photosynthesis",
+    "citationTitle": "Wikipedia: Photosynthesis"
+  },
+  {
+    "id": "8557a73f-4a8e-4424-a6a6-368400880ee8",
+    "text": "Which gas do plants primarily absorb from the atmosphere during photosynthesis?",
+    "options": [
+      "Oxygen",
+      "Nitrogen",
+      "Carbon dioxide",
+      "Hydrogen"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Plants absorb carbon dioxide from the atmosphere and use it as a raw material in photosynthesis.",
+    "detailedExplanation": "During photosynthesis, plants absorb carbon dioxide (CO2) from the atmosphere through their stomata - tiny pores primarily located on the undersides of leaves. This carbon dioxide serves as one of the key raw materials in the photosynthetic process, along with water absorbed through the roots and light energy captured by chlorophyll. The carbon from CO2 is incorporated into glucose molecules during the light-independent reactions of photosynthesis, while oxygen is released as a beneficial byproduct.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Carbon_dioxide_in_Earth%27s_atmosphere",
+    "citationTitle": "Wikipedia: Carbon dioxide in Earth's atmosphere"
+  },
+  {
+    "id": "a12b1922-b492-417f-8007-357e98481104",
+    "text": "What is table salt chemically known as?",
+    "options": [
+      "Sodium chloride",
+      "Potassium chloride",
+      "Calcium carbonate",
+      "Magnesium sulfate"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Table salt is sodium chloride (NaCl), composed of sodium and chlorine ions.",
+    "detailedExplanation": "Table salt is chemically known as sodium chloride, with the formula NaCl. It forms when sodium (Na⁺) and chloride (Cl⁻) ions bond together in a crystalline structure. This ionic compound is essential for human health in small quantities and has been used throughout history for food preservation and seasoning. Salt can be obtained from seawater evaporation or mined from underground deposits.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Sodium_chloride",
+    "citationTitle": "Wikipedia: Sodium chloride"
+  },
+  {
+    "id": "7c806abc-c7b3-4650-bb07-1d6855bf8544",
+    "text": "What type of bond holds the atoms together in a water molecule?",
+    "options": [
+      "Ionic bond",
+      "Metallic bond",
+      "Covalent bond",
+      "Van der Waals force"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Water molecules are held together by covalent bonds, where atoms share electrons.",
+    "detailedExplanation": "The atoms in a water molecule are held together by covalent bonds, specifically polar covalent bonds. In these bonds, the hydrogen and oxygen atoms share electrons, though the oxygen atom attracts the shared electrons more strongly due to its higher electronegativity. This creates a slightly negative charge on the oxygen and slightly positive charges on the hydrogens, giving water its polar nature and many unique properties.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Covalent_bond",
+    "citationTitle": "Wikipedia: Covalent bond"
+  },
+  {
+    "id": "d432a889-aa2c-4ddc-b784-1b3f557e4f46",
+    "text": "Which of these is a noble gas?",
+    "options": [
+      "Chlorine",
+      "Helium",
+      "Hydrogen",
+      "Nitrogen"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Helium is a noble gas, characterized by its chemical inertness under normal conditions.",
+    "detailedExplanation": "Helium is a noble gas, belonging to Group 18 of the periodic table. Noble gases are characterized by their complete outer electron shells, making them chemically inert under normal conditions. Helium is the second most abundant element in the universe and is commonly used in balloons because it's lighter than air and non-flammable, making it safer than hydrogen for this purpose.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Helium",
+    "citationTitle": "Wikipedia: Helium"
+  },
+  {
+    "id": "cede6485-e2cb-48c2-a040-bebf0239553b",
+    "text": "What happens when you mix an acid and a base?",
+    "options": [
+      "Explosion occurs",
+      "Neutralization reaction",
+      "Nothing happens",
+      "Gas is always produced"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Mixing an acid and base produces a neutralization reaction, forming salt and water.",
+    "detailedExplanation": "When an acid and base are mixed together, they undergo a neutralization reaction. The hydrogen ions (H⁺) from the acid combine with the hydroxide ions (OH⁻) from the base to form water (H₂O), while the remaining ions form a salt. For example, hydrochloric acid (HCl) plus sodium hydroxide (NaOH) produces water and sodium chloride (table salt).",
+    "citationUrl": "https://en.wikipedia.org/wiki/Neutralization_(chemistry)",
+    "citationTitle": "Wikipedia: Neutralization (chemistry)"
+  },
+  {
+    "id": "fd422437-b1a0-4753-95fa-8d0f6a02de87",
+    "text": "What is the hardest naturally occurring substance?",
+    "options": [
+      "Iron",
+      "Quartz",
+      "Diamond",
+      "Granite"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Diamond is the hardest naturally occurring substance, rating 10 on the Mohs hardness scale.",
+    "detailedExplanation": "Diamond is the hardest naturally occurring substance known to humans, rating 10 on the Mohs hardness scale. Diamonds are made of pure carbon atoms arranged in a strong crystal lattice structure, which gives them their exceptional hardness. This property makes diamonds valuable not only for jewelry but also for industrial applications such as cutting tools and drill bits.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Diamond",
+    "citationTitle": "Wikipedia: Diamond"
+  },
+  {
+    "id": "5e0c4a1f-ce5f-413c-a467-5ee2c706879e",
+    "text": "What element does the symbol 'Fe' represent?",
+    "options": [
+      "Fluorine",
+      "Iron",
+      "Lead",
+      "Tin"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Fe is the chemical symbol for iron, derived from the Latin word 'ferrum'.",
+    "detailedExplanation": "The chemical symbol Fe represents iron, derived from the Latin word 'ferrum' meaning iron. Iron is one of the most important metals in human civilization and is the main component of steel. It's also essential for human health as a component of hemoglobin, which carries oxygen in our blood. Iron is the fourth most abundant element in Earth's crust.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Iron",
+    "citationTitle": "Wikipedia: Iron"
+  },
+  {
+    "id": "6bc9ffdf-eb5d-4c2c-a7cc-abfcb9835da7",
+    "text": "What is the main component of limestone?",
+    "options": [
+      "Silicon dioxide",
+      "Aluminum oxide",
+      "Calcium carbonate",
+      "Iron oxide"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Limestone is primarily composed of calcium carbonate (CaCO₃).",
+    "detailedExplanation": "Limestone is a sedimentary rock composed mainly of calcium carbonate (CaCO₃), often in the form of the minerals calcite or aragonite. It forms from the compressed remains of marine organisms like coral, shells, and algae over millions of years. Limestone is widely used in construction, as a raw material for cement production, and in various industrial processes. It's also the primary component of marble when subjected to heat and pressure.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Limestone",
+    "citationTitle": "Wikipedia: Limestone"
+  },
+  {
+    "id": "a02c3504-935f-40eb-9c50-4e3bb87d7c01",
+    "text": "What does H₂O represent?",
+    "options": [
+      "Hydrogen gas",
+      "Heavy water",
+      "Regular water",
+      "Hydrogen peroxide"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "H₂O is the chemical formula for water, consisting of two hydrogen atoms and one oxygen atom.",
+    "detailedExplanation": "H₂O is the chemical formula for water, one of the most important compounds on Earth. Each water molecule consists of two hydrogen atoms covalently bonded to one oxygen atom. Water covers about 71% of Earth's surface and is essential for all known forms of life. It has unique properties like being a universal solvent, having a high specific heat capacity, and expanding when it freezes, which are crucial for life on Earth.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Water",
+    "citationTitle": "Wikipedia: Water"
+  },
+  {
+    "id": "fe394802-89c7-428a-9862-635af990dfc6",
+    "text": "How many atoms are in a molecule of water (H₂O)?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "1"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Water (H₂O) contains 3 atoms: 2 hydrogen atoms and 1 oxygen atom.",
+    "detailedExplanation": "A water molecule (H₂O) consists of exactly three atoms: two hydrogen atoms and one oxygen atom. The chemical formula H₂O tells us this composition, where the subscript '2' indicates two hydrogen atoms, and the oxygen atom has no subscript, meaning there is one oxygen atom. These atoms are held together by covalent bonds, with the oxygen atom sharing electrons with each hydrogen atom to form this essential compound for life.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Water",
+    "citationTitle": "Wikipedia: Water"
+  },
+  {
+    "id": "04c244e6-6a1f-4e6d-b370-8db6df2e2646",
+    "text": "What is the chemical formula for common table salt?",
+    "options": [
+      "NaCl",
+      "KCl",
+      "CaCl₂",
+      "MgCl₂"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Table salt is sodium chloride with the chemical formula NaCl.",
+    "detailedExplanation": "Common table salt has the chemical formula NaCl, which represents sodium chloride. This ionic compound forms when sodium (Na), a highly reactive metal, combines with chlorine (Cl), a toxic gas. When these two dangerous elements bond together, they create a stable, essential compound that is vital for human health. Sodium chloride forms cubic crystals and is highly soluble in water. It's not only used for flavoring food but also for food preservation, de-icing roads, and in numerous industrial processes.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Sodium_chloride",
+    "citationTitle": "Wikipedia: Sodium chloride"
+  }
+]

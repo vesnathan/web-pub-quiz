@@ -1,28 +1,38 @@
-'use client';
+"use client";
 
-import { Button } from '@nextui-org/react';
-import { signInWithRedirect } from 'aws-amplify/auth';
-import { GOOGLE_OAUTH_ENABLED } from '@/lib/amplify';
+import { useState } from "react";
+import { Button } from "@nextui-org/react";
+import { signInWithRedirect } from "aws-amplify/auth";
+import { GOOGLE_OAUTH_ENABLED } from "@/lib/amplify";
 
 interface GoogleSignInButtonProps {
   isDisabled?: boolean;
   onError?: (message: string) => void;
+  showDivider?: boolean;
 }
 
-export function GoogleSignInButton({ isDisabled, onError }: GoogleSignInButtonProps) {
+export function GoogleSignInButton({
+  isDisabled,
+  onError,
+  showDivider = true,
+}: GoogleSignInButtonProps) {
+  const [isLoading, setIsLoading] = useState(false);
+
   if (!GOOGLE_OAUTH_ENABLED) {
     return null;
   }
 
   const handleGoogleSignIn = async () => {
+    setIsLoading(true);
     try {
-      await signInWithRedirect({ provider: 'Google' });
+      await signInWithRedirect({ provider: "Google" });
     } catch (error: unknown) {
+      setIsLoading(false);
       const err = error as { name?: string };
-      if (err?.name === 'UserAlreadyAuthenticatedException') {
-        onError?.('You are already signed in. Please refresh the page.');
+      if (err?.name === "UserAlreadyAuthenticatedException") {
+        onError?.("You are already signed in. Please refresh the page.");
       } else {
-        onError?.('Google sign-in failed. Please try again.');
+        onError?.("Google sign-in failed. Please try again.");
       }
     }
   };
@@ -32,20 +42,23 @@ export function GoogleSignInButton({ isDisabled, onError }: GoogleSignInButtonPr
       <Button
         variant="bordered"
         onPress={handleGoogleSignIn}
-        isDisabled={isDisabled}
+        isDisabled={isDisabled || isLoading}
+        isLoading={isLoading}
         className="w-full text-white border-gray-600 hover:bg-gray-800"
-        startContent={<GoogleIcon />}
+        startContent={!isLoading ? <GoogleIcon /> : undefined}
       >
-        Continue with Google
+        {isLoading ? "Redirecting to Google..." : "Continue with Google"}
       </Button>
-      <div className="relative w-full my-2">
-        <div className="absolute inset-0 flex items-center">
-          <div className="w-full border-t border-gray-700" />
+      {showDivider && (
+        <div className="relative w-full my-2">
+          <div className="absolute inset-0 flex items-center">
+            <div className="w-full border-t border-gray-700" />
+          </div>
+          <div className="relative flex justify-center text-sm">
+            <span className="px-2 bg-gray-900 text-gray-400">or</span>
+          </div>
         </div>
-        <div className="relative flex justify-center text-sm">
-          <span className="px-2 bg-gray-900 text-gray-400">or</span>
-        </div>
-      </div>
+      )}
     </>
   );
 }

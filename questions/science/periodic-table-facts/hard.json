@@ -1,0 +1,342 @@
+[
+  {
+    "id": "956b1719-e3cd-4cce-95fa-49df7c86728f",
+    "text": "Which element was the first to be discovered by spectroscopy, identified by its characteristic blue spectral lines in 1860?",
+    "options": [
+      "Rubidium",
+      "Cesium",
+      "Thallium",
+      "Indium"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Cesium was discovered in 1860 by Robert Bunsen and Gustav Kirchhoff using spectroscopy, identified by its blue spectral lines.",
+    "detailedExplanation": "Cesium holds the distinction of being the first element discovered purely through spectroscopic analysis. German chemists Robert Bunsen and Gustav Kirchhoff identified cesium in 1860 by analyzing the emission spectrum of mineral water residue. They noticed previously unknown bright blue spectral lines, leading them to name the element 'cesium' from the Latin 'caesius' meaning sky-blue. This discovery marked a revolutionary moment in chemistry, proving that spectroscopy could be used to identify new elements.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Cesium",
+    "citationTitle": "Wikipedia: Cesium"
+  },
+  {
+    "id": "674135cc-0727-4209-b36c-66c1ac67c40c",
+    "text": "What is the only element that has different numbers of neutrons in its most common isotopes, causing its atomic weight to be listed as a range on modern periodic tables?",
+    "options": [
+      "Hydrogen",
+      "Carbon",
+      "Lithium",
+      "Boron"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Lithium's atomic weight varies significantly in nature, ranging from 6.938 to 6.997, so it's listed as [6.938, 6.997] on the periodic table.",
+    "detailedExplanation": "Lithium is unique among elements because its isotopic composition varies significantly in different natural sources, making it impossible to assign a single standard atomic weight. The two stable isotopes, Li-6 and Li-7, occur in ratios that can vary dramatically depending on the geological source. This natural variation is so pronounced that IUPAC now lists lithium's atomic weight as an interval [6.938, 6.997] rather than a single value, making it the first element to receive this treatment on the periodic table.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Standard_atomic_weight",
+    "citationTitle": "Wikipedia: Standard Atomic Weight"
+  },
+  {
+    "id": "6ec864c5-6adf-460d-92c5-b25811353c69",
+    "text": "Which superheavy element was named after the physicist who proposed the concept of 'magic numbers' in nuclear physics?",
+    "options": [
+      "Seaborgium",
+      "Meitnerium",
+      "Roentgenium",
+      "Flerovium"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Meitnerium (Mt, element 109) was named after Lise Meitner, who along with colleagues developed the nuclear shell model and magic numbers concept.",
+    "detailedExplanation": "Meitnerium, element 109, was named in honor of Lise Meitner, the Austrian-Swedish physicist who made groundbreaking contributions to nuclear physics. Meitner, working with Otto Hahn and Fritz Strassmann, was instrumental in the discovery of nuclear fission. She also contributed significantly to the understanding of nuclear structure, including work that led to the concept of 'magic numbers' - specific numbers of protons or neutrons that result in particularly stable nuclear configurations. The element was first synthesized in 1982 at the GSI facility in Germany.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Meitnerium",
+    "citationTitle": "Wikipedia: Meitnerium"
+  },
+  {
+    "id": "f0d2045d-190f-435a-bc00-a3d7eff5f9a0",
+    "text": "What unusual property makes francium extremely difficult to study, despite being the most electropositive element?",
+    "options": [
+      "It explodes on contact with air",
+      "Its longest-lived isotope has a half-life of only 22 minutes",
+      "It exists only as a gas at room temperature",
+      "It immediately converts to plasma"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Francium-223, the longest-lived isotope of francium, has a half-life of just 22 minutes, making it extremely difficult to accumulate and study.",
+    "detailedExplanation": "Francium is considered one of the rarest and most elusive elements on Earth, not because it's hard to create, but because it doesn't stick around long enough to study properly. The most stable isotope, francium-223, has a half-life of only 22 minutes before it decays radioactively. This means that any sample of francium shrinks to half its size every 22 minutes, making it virtually impossible to accumulate enough material for detailed chemical analysis. Scientists estimate that there are only about 20-30 grams of francium in the Earth's crust at any given time.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Francium",
+    "citationTitle": "Wikipedia: Francium"
+  },
+  {
+    "id": "1b587c15-dff2-4f11-9070-eee385e98b64",
+    "text": "Which element's discovery was initially rejected by the scientific community because its properties didn't fit Mendeleev's predicted characteristics for 'eka-silicon'?",
+    "options": [
+      "Germanium",
+      "Gallium",
+      "Scandium",
+      "Technetium"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Germanium's discoverer Clemens Winkler initially doubted his own discovery because the element's properties seemed to deviate from Mendeleev's predictions for eka-silicon.",
+    "detailedExplanation": "When Clemens Winkler discovered germanium in 1886, he initially questioned whether he had found Mendeleev's predicted 'eka-silicon' because some of germanium's properties didn't match the predictions exactly. Mendeleev had predicted an atomic weight of 72 for eka-silicon, while Winkler measured 72.6 for germanium. The density and some chemical properties also showed slight deviations. However, upon closer examination and correspondence with Mendeleev himself, it became clear that germanium was indeed the missing eka-silicon, and the small discrepancies were due to experimental limitations and impurities in early samples.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Germanium",
+    "citationTitle": "Wikipedia: Germanium"
+  },
+  {
+    "id": "ce3a2267-8f1d-48a4-bbae-0214ba235fe3",
+    "text": "What unique distinction does tellurium hold in relation to its position on the modern periodic table?",
+    "options": [
+      "It's the heaviest stable element",
+      "It has a higher atomic mass than the element that follows it (iodine)",
+      "It's the only metalloid in its period",
+      "It has the most stable isotopes of any element"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Tellurium (127.60 u) has a higher atomic mass than iodine (126.90 u), even though iodine comes after it in the periodic table.",
+    "detailedExplanation": "Tellurium presents one of the most famous anomalies in the periodic table arrangement. Despite having a higher atomic mass (127.60 u) than iodine (126.90 u), tellurium appears before iodine in the periodic table. This seeming contradiction puzzled scientists in Mendeleev's time, who arranged elements by atomic weight. However, the modern periodic table is arranged by atomic number (number of protons), not atomic mass. Tellurium has 52 protons while iodine has 53, which explains their correct positioning despite the mass inversion. This anomaly helped scientists understand that atomic number, not atomic mass, is the fundamental organizing principle.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Tellurium",
+    "citationTitle": "Wikipedia: Tellurium"
+  },
+  {
+    "id": "ff14dc8b-7ae4-4783-bae1-df7bdd0d6fdb",
+    "text": "Which element has isotopes with the largest known difference in neutron-to-proton ratios among all naturally occurring elements?",
+    "options": [
+      "Uranium",
+      "Lead",
+      "Mercury",
+      "Tin"
+    ],
+    "correctIndex": 3,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Tin has isotopes ranging from Sn-112 to Sn-124, giving it the largest variation in neutron-to-proton ratios among stable isotopes.",
+    "detailedExplanation": "Tin holds the remarkable record of having more stable isotopes than any other element - ten in total, ranging from Sn-112 to Sn-124. This gives tin the largest span of neutron-to-proton ratios among naturally occurring stable isotopes. With 50 protons, tin's isotopes range from having 62 neutrons (Sn-112, ratio 1.24) to 74 neutrons (Sn-124, ratio 1.48). This exceptional nuclear stability across such a wide range of neutron numbers makes tin unique among the elements and contributes to its abundance and usefulness throughout human history.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Isotopes_of_tin",
+    "citationTitle": "Wikipedia: Isotopes of Tin"
+  },
+  {
+    "id": "2829d598-74fb-4fdd-a693-e5dbe7e07074",
+    "text": "What phenomenon causes the 6s electrons in gold to move at approximately 60% the speed of light, giving gold its characteristic color?",
+    "options": [
+      "Quantum tunneling",
+      "Relativistic effects",
+      "Electron spin coupling",
+      "d-orbital splitting"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Relativistic effects cause gold's 6s electrons to move at high speeds and contract their orbitals, affecting light absorption and giving gold its yellow color.",
+    "detailedExplanation": "Gold's distinctive yellow color results from relativistic effects that become significant for heavy atoms. In gold atoms, the 6s electrons move at approximately 60% the speed of light due to the strong attraction from the highly charged nucleus (79 protons). At these speeds, relativistic effects cause the 6s orbital to contract and increase in binding energy. This brings the 6s and 5d energy levels closer together, allowing gold to absorb blue light (around 2.4 eV) and reflect the complementary yellow-red wavelengths. Without these relativistic effects, gold would appear silvery like other metals.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Relativistic_quantum_chemistry",
+    "citationTitle": "Wikipedia: Relativistic Quantum Chemistry"
+  },
+  {
+    "id": "68196fd9-c1e5-4fe7-b5b1-0557fb0883e6",
+    "text": "What is the only element named after a woman?",
+    "options": [
+      "Curium",
+      "Meitnerium",
+      "Roentgenium",
+      "Berkelium"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Meitnerium (Mt, element 109) is named after Lise Meitner, the Austrian-Swedish physicist who played a vital role in the discovery of nuclear fission.",
+    "detailedExplanation": "Meitnerium was first synthesized in 1982 by the GSI Helmholtz Centre for Heavy Ion Research in Germany and was officially named in 1997 after Lise Meitner. She was a pioneering physicist who worked on radioactivity and nuclear physics, and was part of the team that first realized that atomic nuclei could be split. Despite her crucial contributions to the discovery of nuclear fission, she was overlooked for the Nobel Prize, making the naming of element 109 in her honor particularly significant as recognition of her groundbreaking work.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Meitnerium",
+    "citationTitle": "Wikipedia: Meitnerium"
+  },
+  {
+    "id": "684cab55-f4af-41f4-822b-24f9eaa8ffc3",
+    "text": "Which element exists in the most allotropic forms?",
+    "options": [
+      "Carbon",
+      "Sulfur",
+      "Phosphorus",
+      "Oxygen"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Carbon has the most known allotropes, including diamond, graphite, graphene, fullerenes, carbon nanotubes, and many others.",
+    "detailedExplanation": "Carbon's ability to form four covalent bonds in various geometric arrangements allows it to create an extraordinary number of allotropic forms. Beyond the well-known diamond (tetrahedral structure) and graphite (layered structure), carbon forms fullerenes (soccer ball-like C60), graphene (single-layer sheets), carbon nanotubes, lonsdaleite, carbyne, and numerous other structures. Each allotrope has vastly different properties - for example, diamond is the hardest natural material while graphite is soft and conducts electricity. This versatility makes carbon unique among all elements in terms of structural diversity.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Allotropes_of_carbon",
+    "citationTitle": "Wikipedia: Allotropes of Carbon"
+  },
+  {
+    "id": "ab7cd983-6cb5-4354-9b57-628e0e04599a",
+    "text": "What is the atomic number of the heaviest element that occurs naturally on Earth in detectable quantities?",
+    "options": [
+      "92",
+      "94",
+      "96",
+      "88"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Uranium (atomic number 92) is the heaviest naturally occurring element found in detectable quantities on Earth.",
+    "detailedExplanation": "While elements 93 (neptunium) and 94 (plutonium) can be found in trace amounts in uranium ores due to neutron bombardment, uranium-238 and uranium-235 are the heaviest elements that occur naturally in significant, detectable quantities. Uranium makes up about 2.8 parts per million of Earth's crust. Elements heavier than uranium are either synthetic or occur in such minute traces (often just a few atoms) that they're essentially laboratory curiosities rather than naturally occurring elements in any meaningful sense.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Uranium",
+    "citationTitle": "Wikipedia: Uranium"
+  },
+  {
+    "id": "ddec63dc-09e6-42f7-b9dd-e0253b1e2bf6",
+    "text": "Which element has the unusual property of having a liquid range spanning over 2000°C?",
+    "options": [
+      "Tungsten",
+      "Gallium",
+      "Mercury",
+      "Cesium"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Gallium melts at just 29.8°C but doesn't boil until 2204°C, giving it a liquid range of over 2170°C.",
+    "detailedExplanation": "Gallium has one of the most extreme liquid ranges of any element. It melts at 29.76°C (just above room temperature - it will melt in your hand) but has an extremely high boiling point of 2204°C. This gives gallium a liquid range of approximately 2174°C, which is remarkable among the elements. This property makes gallium useful in high-temperature thermometers and as a liquid metal for various applications. The large liquid range is due to gallium's metallic bonding becoming stronger as temperature increases, requiring significant energy to break the bonds completely for vaporization.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Gallium",
+    "citationTitle": "Wikipedia: Gallium"
+  },
+  {
+    "id": "1b000e8f-8b10-468e-8816-ec9da5663858",
+    "text": "In Mendeleev's original periodic table, which element did he incorrectly predict would have an atomic weight of 68?",
+    "options": [
+      "Gallium",
+      "Scandium",
+      "Germanium",
+      "Technetium"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Mendeleev predicted 'eka-aluminum' (later discovered as gallium) would have atomic weight 68, but gallium actually has atomic weight 69.7.",
+    "detailedExplanation": "Dmitri Mendeleev's periodic table had gaps which he boldly predicted would be filled by undiscovered elements. He called the missing element below aluminum 'eka-aluminum' and predicted it would have an atomic weight of about 68. When Paul-Émile Lecoq de Boisbaudran discovered gallium in 1875, it closely matched most of Mendeleev's predictions, validating his periodic law. However, gallium's actual atomic weight of 69.723 was slightly higher than predicted. This small discrepancy actually led to some initial skepticism about whether gallium was truly Mendeleev's predicted element, until further properties confirmed the match.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Mendeleev%27s_predicted_elements",
+    "citationTitle": "Wikipedia: Mendeleev's Predicted Elements"
+  },
+  {
+    "id": "70c931c5-b744-487e-a616-e40e2771643d",
+    "text": "Which element has the most stable isotope with the longest known half-life?",
+    "options": [
+      "Tellurium-128",
+      "Xenon-124",
+      "Bismuth-209",
+      "Uranium-238"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Tellurium-128 has a half-life of approximately 2.2 × 10²⁴ years, making it the longest-lived known radioactive isotope.",
+    "detailedExplanation": "Tellurium-128 undergoes double beta decay with an extraordinarily long half-life of about 2.2 × 10²⁴ years - that's about 160 trillion times the age of the universe. This makes it practically stable for all intents and purposes, yet it is technically radioactive. The decay is so slow that it was only confirmed through extremely sensitive detection methods. For comparison, the age of the universe is only about 1.38 × 10¹⁰ years. This isotope represents the boundary between what we consider stable and unstable matter, challenging our understanding of nuclear stability.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Tellurium-128",
+    "citationTitle": "Wikipedia: Tellurium-128"
+  },
+  {
+    "id": "8024214f-667a-4ba1-a630-d3bea2a4e997",
+    "text": "What is the rarest naturally occurring element that is not radioactive?",
+    "options": [
+      "Rhenium",
+      "Rhodium",
+      "Iridium",
+      "Osmium"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Rhenium is the rarest stable element in Earth's crust, with a concentration of only about 1 part per billion.",
+    "detailedExplanation": "Rhenium has an abundance of approximately 1 part per billion in Earth's crust, making it the rarest non-radioactive element. It's even rarer than many radioactive elements like uranium and thorium. Rhenium's scarcity is due to its high volatility during Earth's formation - most of it escaped into space rather than condensing into the planet. It wasn't discovered until 1925, making it one of the last stable elements to be found. Today, rhenium is extremely valuable and is primarily used in high-temperature superalloys for jet engines, where its exceptional heat resistance is crucial.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Rhenium",
+    "citationTitle": "Wikipedia: Rhenium"
+  },
+  {
+    "id": "8ba08ac7-8d07-4806-9970-57ffcb96b842",
+    "text": "What is the only element that appears in two different groups of the periodic table in some arrangements?",
+    "options": [
+      "Hydrogen",
+      "Carbon",
+      "Helium",
+      "Lithium"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Hydrogen can be placed in both Group 1 (alkali metals) and Group 17 (halogens) due to its unique electron configuration.",
+    "detailedExplanation": "Hydrogen is unique because it can be placed in either Group 1 or Group 17 depending on the classification system used. It can be placed in Group 1 because, like alkali metals, it has one valence electron and can lose it to form H⁺ ions. Alternatively, it can be placed in Group 17 because, like halogens, it needs one electron to complete its shell and can form H⁻ ions (hydride). This dual nature stems from hydrogen's single electron configuration, making it chemically distinct from any other element.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Hydrogen",
+    "citationTitle": "Wikipedia: Hydrogen"
+  },
+  {
+    "id": "e7df4814-b563-4207-ae42-0c7140ffaf57",
+    "text": "Which element was the first to be discovered purely through spectroscopy before being found on Earth?",
+    "options": [
+      "Technetium",
+      "Helium",
+      "Francium",
+      "Rhenium"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Helium was discovered in 1868 through spectroscopic analysis of the Sun before being isolated on Earth in 1895.",
+    "detailedExplanation": "Helium was first discovered in 1868 by French astronomer Pierre Janssen and English astronomer Norman Lockyer through spectroscopic analysis of light from the Sun during a solar eclipse. They observed a bright yellow spectral line (587.49 nm) that didn't match any known element at the time. The element was named 'helium' after 'helios,' the Greek word for Sun. It wasn't until 1895 that Scottish chemist William Ramsay isolated helium on Earth from uranium ore, making it the first element discovered in space before being found terrestrially.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Helium",
+    "citationTitle": "Wikipedia: Helium"
+  },
+  {
+    "id": "6f340354-1233-4b83-8bbc-682da8e50256",
+    "text": "What is the maximum number of electrons that can occupy the f subshell across all orbitals?",
+    "options": [
+      "10",
+      "12",
+      "14",
+      "16"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "The f subshell contains 7 orbitals, and each orbital can hold a maximum of 2 electrons, giving a total of 14 electrons.",
+    "detailedExplanation": "The f subshell can hold a maximum of 14 electrons. This subshell consists of 7 different f orbitals (fₓ₃₋₃ᵧ₂, fᵧ₍ₓ₂₋ᵧ₂₎, fₓᵧz, fᵧz₂, fₓz₂, fz₃, and fₓ₍ₓ₂₋₃ᵧ₂₎), and according to the Pauli exclusion principle, each orbital can accommodate a maximum of 2 electrons with opposite spins. The f subshell appears in the lanthanide and actinide series (periods 6 and 7), which is why these series each contain 14 elements. This electron capacity determines the structure of the periodic table's f-block elements.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Electron_shell",
+    "citationTitle": "Wikipedia: Electron Shell"
+  },
+  {
+    "id": "279fc108-e376-4d22-8a12-92cf12ee1ca8",
+    "text": "Which element has the highest first ionization energy in the entire periodic table?",
+    "options": [
+      "Fluorine",
+      "Helium",
+      "Neon",
+      "Hydrogen"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Helium has the highest first ionization energy at 24.59 eV due to its complete electron shell and nuclear charge.",
+    "detailedExplanation": "While many people might guess fluorine due to its high electronegativity, helium actually holds the record for the highest first ionization energy in the periodic table at 24.59 eV. This is because helium has a complete 1s² electron configuration, making it extremely stable, and its electrons are held very tightly by the nuclear charge with no electron shielding effects. The high nuclear charge relative to the single electron shell makes it extraordinarily difficult to remove an electron from helium.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Ionization_energy",
+    "citationTitle": "Wikipedia: Ionization Energy"
+  },
+  {
+    "id": "69ad85f0-50b0-4bd0-b343-330ae43f756b",
+    "text": "What is the only element that can exist in all four fundamental states of matter under naturally occurring conditions on Earth?",
+    "options": [
+      "Carbon",
+      "Water",
+      "Mercury",
+      "Sulfur"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Carbon can exist as gas (CO₂), liquid (organic compounds), solid (diamond/graphite), and plasma (in lightning).",
+    "detailedExplanation": "Carbon is unique among elements for its ability to exist in all four fundamental states of matter under conditions naturally found on Earth. It exists as a solid in forms like diamond and graphite, as a liquid in various organic compounds and solutions, as a gas in carbon dioxide and methane, and as plasma in natural phenomena like lightning and stellar processes. This versatility is due to carbon's ability to form multiple types of bonds and its presence in countless molecular configurations, making it the backbone of organic chemistry.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Carbon",
+    "citationTitle": "Wikipedia: Carbon"
+  }
+]

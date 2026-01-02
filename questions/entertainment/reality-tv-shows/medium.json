@@ -1,0 +1,342 @@
+[
+  {
+    "id": "f4e6dd24-51ab-412b-9637-572bce903208",
+    "text": "Which reality TV show featured the catchphrase 'You're fired!' as contestants competed for a job opportunity?",
+    "options": [
+      "The Bachelor",
+      "The Apprentice",
+      "Survivor",
+      "Big Brother"
+    ],
+    "correctIndex": 1,
+    "category": "entertainment",
+    "difficulty": "medium",
+    "explanation": "The Apprentice featured Donald Trump (and later Lord Sugar in the UK) saying 'You're fired!' when eliminating contestants.",
+    "detailedExplanation": "The Apprentice is a reality television series where contestants compete in business-related challenges for a chance to work for a successful entrepreneur. The show became famous for its dramatic elimination process where the host would point at the eliminated contestant and deliver the iconic line 'You're fired!' The format originated in the UK with Lord Alan Sugar and was later adapted in the US with Donald Trump as the host.",
+    "citationUrl": "https://en.wikipedia.org/wiki/The_Apprentice",
+    "citationTitle": "Wikipedia: The Apprentice"
+  },
+  {
+    "id": "19c53398-f5e7-4e83-a2c7-9bebcc343dae",
+    "text": "What is the name of the private diary room where contestants speak directly to producers in Big Brother?",
+    "options": [
+      "The Vault",
+      "The Confession Room",
+      "The Diary Room",
+      "The Truth Box"
+    ],
+    "correctIndex": 2,
+    "category": "entertainment",
+    "difficulty": "medium",
+    "explanation": "The Diary Room is the iconic private space in Big Brother where contestants share their thoughts and feelings.",
+    "detailedExplanation": "The Diary Room is a central element of the Big Brother format, serving as a private space where contestants can speak directly to 'Big Brother' (the show's producers) without other housemates hearing. This room features a distinctive chair facing a camera, and contestants often use it to express their true feelings about other housemates, discuss strategy, or complete tasks assigned by Big Brother. The Diary Room segments provide viewers with insights into contestants' genuine thoughts and emotions.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Big_Brother_(franchise)",
+    "citationTitle": "Wikipedia: Big Brother (franchise)"
+  },
+  {
+    "id": "4cea9d07-aa42-44f4-8eb1-b8e27a0a7685",
+    "text": "Which dating reality show is known for its 'rose ceremony' elimination format?",
+    "options": [
+      "Love Island",
+      "The Bachelor",
+      "Married at First Sight",
+      "90 Day Fiancé"
+    ],
+    "correctIndex": 1,
+    "category": "entertainment",
+    "difficulty": "medium",
+    "explanation": "The Bachelor and its spin-offs are famous for rose ceremonies where contestants receive roses to continue in the competition.",
+    "detailedExplanation": "The Bachelor franchise, including The Bachelor and The Bachelorette, centers around rose ceremonies as its primary elimination mechanism. During these ceremonies, the lead bachelor or bachelorette offers roses to contestants they wish to keep in the competition. Those who don't receive a rose must leave immediately. The rose ceremony has become an iconic element of the show, creating dramatic tension as contestants wait to see if their name will be called.",
+    "citationUrl": "https://en.wikipedia.org/wiki/The_Bachelor_(American_TV_series)",
+    "citationTitle": "Wikipedia: The Bachelor (American TV series)"
+  },
+  {
+    "id": "91e437c2-ea8f-4514-84a9-bb51e50376b1",
+    "text": "In which country did the reality show format 'Survivor' originate?",
+    "options": [
+      "United States",
+      "Australia",
+      "Sweden",
+      "United Kingdom"
+    ],
+    "correctIndex": 2,
+    "category": "entertainment",
+    "difficulty": "medium",
+    "explanation": "Survivor originated in Sweden as 'Expedition Robinson' in 1997 before being adapted internationally.",
+    "detailedExplanation": "The Survivor format was created by Charlie Parsons and originally aired in Sweden in 1997 under the name 'Expedition Robinson.' The Swedish version established the core elements that would become synonymous with Survivor: contestants stranded in a remote location, tribal councils, immunity challenges, and elimination votes. The format was later acquired and adapted by Mark Burnett for American television, premiering as 'Survivor' in 2000, which became hugely successful and led to numerous international versions.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Survivor_(franchise)",
+    "citationTitle": "Wikipedia: Survivor (franchise)"
+  },
+  {
+    "id": "99ec4635-33a1-434e-8992-6f42f494b3c0",
+    "text": "What cooking reality show is hosted by Gordon Ramsay and features aspiring chefs competing for a restaurant job?",
+    "options": [
+      "Top Chef",
+      "MasterChef",
+      "Hell's Kitchen",
+      "The Great British Bake Off"
+    ],
+    "correctIndex": 2,
+    "category": "entertainment",
+    "difficulty": "medium",
+    "explanation": "Hell's Kitchen features Gordon Ramsay as head chef training contestants to work in a professional restaurant kitchen.",
+    "detailedExplanation": "Hell's Kitchen is a reality cooking show where Gordon Ramsay puts aspiring chefs through intense culinary challenges and dinner service competitions. The show takes place in a restaurant setting where contestants must cook for real customers while dealing with Ramsay's demanding standards and fiery temper. The winner typically receives a head chef position at one of Ramsay's restaurants. The show is known for its high-pressure environment, dramatic eliminations, and Ramsay's colorful language and intense coaching style.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Hell%27s_Kitchen_(American_TV_series)",
+    "citationTitle": "Wikipedia: Hell's Kitchen (American TV series)"
+  },
+  {
+    "id": "4126ede4-4bb2-4a61-94fc-f073ab3ac459",
+    "text": "Which reality show popularized the term 'getting voted off the island'?",
+    "options": [
+      "The Amazing Race",
+      "Survivor",
+      "Fear Factor",
+      "The Real World"
+    ],
+    "correctIndex": 1,
+    "category": "entertainment",
+    "difficulty": "medium",
+    "explanation": "Survivor popularized this phrase as contestants are literally voted off a remote island location by their fellow competitors.",
+    "detailedExplanation": "The phrase 'getting voted off the island' became part of popular culture thanks to Survivor, where contestants are stranded on a remote tropical island and must vote each other out at tribal council. The phrase perfectly captures the show's elimination process and remote island setting. It has since entered everyday language as a way to describe being excluded or eliminated from any group or situation, extending far beyond reality television into business and social contexts.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Survivor_(American_TV_series)",
+    "citationTitle": "Wikipedia: Survivor (American TV series)"
+  },
+  {
+    "id": "10f5998a-2d14-4718-aee8-b0abb46c4aa4",
+    "text": "What is the maximum prize money typically offered on the US version of 'Deal or No Deal'?",
+    "options": [
+      "$500,000",
+      "$1 million",
+      "$2 million",
+      "$5 million"
+    ],
+    "correctIndex": 1,
+    "category": "entertainment",
+    "difficulty": "medium",
+    "explanation": "The top prize in the original US version of Deal or No Deal was $1 million.",
+    "detailedExplanation": "Deal or No Deal featured contestants choosing from 26 sealed briefcases containing various monetary amounts, with the top prize being $1 million in the original US version hosted by Howie Mandel. Contestants would eliminate cases one by one while receiving offers from a mysterious 'banker' to buy their chosen case. The dramatic tension came from deciding whether to accept the banker's offer or continue playing, hoping their case contained the $1 million prize. The show's simple format and high stakes made it a popular primetime reality game show.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Deal_or_No_Deal_(American_game_show)",
+    "citationTitle": "Wikipedia: Deal or No Deal (American game show)"
+  },
+  {
+    "id": "1b900bda-c98f-4d42-bc08-17e88aa3856b",
+    "text": "Which reality TV family became famous through 'Keeping Up with the Kardashians'?",
+    "options": [
+      "The Osbournes",
+      "The Kardashian-Jenners",
+      "The Hiltons",
+      "The Simmons"
+    ],
+    "correctIndex": 1,
+    "category": "entertainment",
+    "difficulty": "medium",
+    "explanation": "The Kardashian-Jenner family starred in 'Keeping Up with the Kardashians' which launched their reality TV empire.",
+    "detailedExplanation": "Keeping Up with the Kardashians premiered in 2007 and followed the personal and professional lives of the Kardashian-Jenner family, including Kim, Kourtney, Khloé Kardashian, and their half-sisters Kendall and Kylie Jenner, along with their parents Kris Jenner and Caitlyn Jenner (formerly Bruce Jenner). The show became one of the longest-running reality series and turned the family into global celebrities, launching numerous business ventures, spin-off shows, and social media empires. The series concluded in 2021 after 20 seasons.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Keeping_Up_with_the_Kardashians",
+    "citationTitle": "Wikipedia: Keeping Up with the Kardashians"
+  },
+  {
+    "id": "3cf69744-db01-46de-8898-7e3a449f7e18",
+    "text": "Which reality TV show features the catchphrase 'You're fired!' and was originally hosted by Donald Trump?",
+    "options": [
+      "The Bachelor",
+      "The Apprentice",
+      "Survivor",
+      "Big Brother"
+    ],
+    "correctIndex": 1,
+    "category": "entertainment",
+    "difficulty": "medium",
+    "explanation": "The Apprentice features Donald Trump's famous 'You're fired!' catchphrase.",
+    "detailedExplanation": "The Apprentice premiered in 2004 with Donald Trump as host, becoming famous for his dramatic boardroom eliminations where he would tell contestants 'You're fired!' The show ran for 14 seasons with Trump before he was replaced by Arnold Schwarzenegger in 2017. The format originated in the UK and has been adapted in numerous countries worldwide.",
+    "citationUrl": "https://en.wikipedia.org/wiki/The_Apprentice_(American_TV_series)",
+    "citationTitle": "Wikipedia: The Apprentice (American TV series)"
+  },
+  {
+    "id": "afc8f597-dd5d-47b9-aa17-3ed21640de9e",
+    "text": "What is the name of the island where the UK version of Love Island has been primarily filmed since 2015?",
+    "options": [
+      "Ibiza",
+      "Mallorca",
+      "Cyprus",
+      "Malta"
+    ],
+    "correctIndex": 1,
+    "category": "entertainment",
+    "difficulty": "medium",
+    "explanation": "Love Island UK is filmed in Mallorca, Spain, at a specially built villa.",
+    "detailedExplanation": "Since its 2015 reboot, Love Island UK has been filmed at a custom-built villa in Sant Llorenç des Cardassar, Mallorca. The villa features the iconic firepit area, swimming pool, and bedroom spaces that have become synonymous with the show. The Spanish location provides the consistent sunny weather needed for the summer dating show format.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Love_Island_(2015_TV_series)",
+    "citationTitle": "Wikipedia: Love Island (2015 TV series)"
+  },
+  {
+    "id": "4ef50675-85f6-4482-a7cb-86878ffaf315",
+    "text": "Which Kardashian family member was the first to have their own spin-off reality show?",
+    "options": [
+      "Kim Kardashian",
+      "Kourtney Kardashian",
+      "Khloé Kardashian",
+      "Rob Kardashian"
+    ],
+    "correctIndex": 0,
+    "category": "entertainment",
+    "difficulty": "medium",
+    "explanation": "Kim Kardashian was the first with 'Kim Kardashian: Hollywood' and various other spin-offs.",
+    "detailedExplanation": "Kim Kardashian was the first family member to branch out with her own reality programming, appearing in several spin-offs including 'Kourtney and Kim Take Miami' (2009) and 'Kourtney and Kim Take New York' (2011), before her other solo ventures. While these were initially with sister Kourtney, Kim was consistently the central figure driving these spin-offs from the main 'Keeping Up with the Kardashians' series.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Kim_Kardashian",
+    "citationTitle": "Wikipedia: Kim Kardashian"
+  },
+  {
+    "id": "ab98a86d-b864-4070-85ca-e7b0dff5669a",
+    "text": "In which year did the first season of Survivor premiere on American television?",
+    "options": [
+      "1999",
+      "2000",
+      "2001",
+      "2002"
+    ],
+    "correctIndex": 1,
+    "category": "entertainment",
+    "difficulty": "medium",
+    "explanation": "Survivor premiered in 2000 and became an immediate cultural phenomenon.",
+    "detailedExplanation": "Survivor premiered on CBS on May 31, 2000, with 'Survivor: Borneo' filmed in Malaysia. The show was adapted from the Swedish format 'Expedition Robinson' and became one of the most successful reality TV franchises. Hosted by Jeff Probst, it introduced the concept of voting contestants off while surviving in remote locations, essentially creating the template for modern competition reality TV.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Survivor_(American_TV_series)",
+    "citationTitle": "Wikipedia: Survivor (American TV series)"
+  },
+  {
+    "id": "191bd490-1a78-4056-a9f7-5ae3be74175c",
+    "text": "What is the maximum number of housemates that can live in the Big Brother house at one time in the UK version?",
+    "options": [
+      "12",
+      "16",
+      "20",
+      "24"
+    ],
+    "correctIndex": 1,
+    "category": "entertainment",
+    "difficulty": "medium",
+    "explanation": "The UK Big Brother house typically accommodates a maximum of 16 housemates.",
+    "detailedExplanation": "The UK Big Brother house has generally been designed to accommodate up to 16 housemates, though the exact number has varied by season. Some seasons have started with fewer contestants, while others have introduced late arrivals. The house layout includes bedrooms, common areas, and the famous Diary Room where housemates confess to Big Brother, with the space carefully designed to create interpersonal dynamics among the residents.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Big_Brother_(British_TV_series)",
+    "citationTitle": "Wikipedia: Big Brother (British TV series)"
+  },
+  {
+    "id": "db61292b-c521-4643-b6bc-c889ac5cb900",
+    "text": "Which reality dating show features singles trying to find love while completely naked?",
+    "options": [
+      "Love Is Blind",
+      "Naked and Afraid",
+      "Dating Naked",
+      "Too Hot to Handle"
+    ],
+    "correctIndex": 2,
+    "category": "entertainment",
+    "difficulty": "medium",
+    "explanation": "Dating Naked features contestants dating in the nude on a tropical island.",
+    "detailedExplanation": "Dating Naked premiered in 2014 on VH1, featuring singles attempting to find romantic connections while completely nude on a tropical island. The show's premise was that removing clothes would remove superficial barriers and help people connect on a deeper level. While controversial, it ran for three seasons and spawned international versions, representing the reality TV industry's willingness to push boundaries for ratings.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Dating_Naked",
+    "citationTitle": "Wikipedia: Dating Naked"
+  },
+  {
+    "id": "a2e49f04-3a37-4595-beb9-f90049888f9a",
+    "text": "What cooking reality show is hosted by Gordon Ramsay and features amateur home cooks competing for the title?",
+    "options": [
+      "Hell's Kitchen",
+      "Kitchen Nightmares",
+      "MasterChef",
+      "The F Word"
+    ],
+    "correctIndex": 2,
+    "category": "entertainment",
+    "difficulty": "medium",
+    "explanation": "MasterChef features amateur home cooks competing, while Hell's Kitchen focuses on professional chefs.",
+    "detailedExplanation": "MasterChef, hosted by Gordon Ramsay (along with other judges depending on the version), specifically features amateur home cooks rather than professional chefs. Contestants compete in various cooking challenges to win the MasterChef title and typically a cash prize. This differs from Hell's Kitchen, where professional chefs compete for the chance to work in one of Ramsay's restaurants. The MasterChef format has been adapted in numerous countries worldwide.",
+    "citationUrl": "https://en.wikipedia.org/wiki/MasterChef",
+    "citationTitle": "Wikipedia: MasterChef"
+  },
+  {
+    "id": "09608640-15bc-4cdd-8ade-364354ec3451",
+    "text": "In 'The Bachelor' franchise, what is the traditional item given to contestants who are selected to continue to the next round?",
+    "options": [
+      "A key",
+      "A rose",
+      "A ring",
+      "A photograph"
+    ],
+    "correctIndex": 1,
+    "category": "entertainment",
+    "difficulty": "medium",
+    "explanation": "Roses are the iconic symbol of The Bachelor, given during rose ceremonies to continuing contestants.",
+    "detailedExplanation": "The rose ceremony is the most iconic element of The Bachelor franchise, where the Bachelor gives roses to contestants he wants to keep for another week. Those who don't receive roses are eliminated from the show. This tradition has remained constant since the show's debut in 2002 and has become synonymous with the franchise, spawning the phrase 'will you accept this rose?' The final rose of each ceremony typically creates the most dramatic tension.",
+    "citationUrl": "https://en.wikipedia.org/wiki/The_Bachelor_(American_TV_series)",
+    "citationTitle": "Wikipedia: The Bachelor (American TV series)"
+  },
+  {
+    "id": "0772b6a9-104c-41b5-866e-28f813d014dc",
+    "text": "Which reality TV show features contestants living in a house while being constantly filmed, with viewers voting to evict housemates?",
+    "options": [
+      "The Real World",
+      "Big Brother",
+      "Survivor",
+      "The Bachelor"
+    ],
+    "correctIndex": 1,
+    "category": "entertainment",
+    "difficulty": "medium",
+    "explanation": "Big Brother is the reality show where contestants live in a house under constant surveillance while viewers vote on evictions.",
+    "detailedExplanation": "Big Brother, which premiered in the Netherlands in 1999 and has been adapted worldwide, features contestants (called 'housemates') living together in a specially constructed house while being filmed 24/7. Unlike other reality shows, Big Brother's defining characteristic is the combination of constant surveillance and audience participation in elimination decisions. The show's format has been incredibly successful globally, with versions in over 60 countries.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Big_Brother_(franchise)",
+    "citationTitle": "Wikipedia: Big Brother (franchise)"
+  },
+  {
+    "id": "e62a338d-95c0-4538-9756-4a9f0581ec51",
+    "text": "What is the name of the island location where the US version of 'Survivor' has been filmed most frequently since 2016?",
+    "options": [
+      "Fiji",
+      "Cook Islands",
+      "Philippines",
+      "Malaysia"
+    ],
+    "correctIndex": 0,
+    "category": "entertainment",
+    "difficulty": "medium",
+    "explanation": "Fiji has been the primary filming location for US Survivor since season 33 in 2016, hosting multiple consecutive seasons.",
+    "detailedExplanation": "Since Survivor: Millennials vs. Gen X (Season 33) in 2016, Fiji has become the go-to location for filming the US version of Survivor. The show has filmed there consistently due to favorable filming conditions, established local crew relationships, and cost-effectiveness. The Mamanuca Islands in Fiji provide the tropical backdrop that has become synonymous with modern Survivor seasons, making it the most frequently used location in the show's recent history.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Survivor_(American_TV_series)",
+    "citationTitle": "Wikipedia: Survivor (American TV series)"
+  },
+  {
+    "id": "721c03d9-c1c9-4f49-a8f9-3a01a3d14d8f",
+    "text": "Which reality competition show popularized the phrase 'You're fired!' as its elimination catchphrase?",
+    "options": [
+      "Project Runway",
+      "The Apprentice",
+      "Hell's Kitchen",
+      "Top Chef"
+    ],
+    "correctIndex": 1,
+    "category": "entertainment",
+    "difficulty": "medium",
+    "explanation": "The Apprentice, hosted by Donald Trump, made 'You're fired!' famous as the elimination catchphrase used in the boardroom.",
+    "detailedExplanation": "The Apprentice, which premiered in 2004 with Donald Trump as host, popularized the catchphrase 'You're fired!' as the dramatic elimination line delivered in the show's boardroom setting. This phrase became so associated with Trump and the show that it entered popular culture and was widely recognized even by people who didn't watch the program. The catchphrase was used at the climactic moment when Trump would point at the eliminated contestant and deliver the line, making it one of reality TV's most memorable elimination formats.",
+    "citationUrl": "https://en.wikipedia.org/wiki/The_Apprentice_(American_TV_series)",
+    "citationTitle": "Wikipedia: The Apprentice (American TV series)"
+  },
+  {
+    "id": "9c653da0-e756-493e-bccd-2ff31d56da86",
+    "text": "In 'RuPaul's Drag Race,' what does 'LSFYL' stand for?",
+    "options": [
+      "Love Songs For Your Life",
+      "Lip Sync For Your Legacy",
+      "Lip Sync For Your Life",
+      "Last Stand For Your Life"
+    ],
+    "correctIndex": 2,
+    "category": "entertainment",
+    "difficulty": "medium",
+    "explanation": "'LSFYL' stands for 'Lip Sync For Your Life,' the elimination challenge where bottom contestants perform to avoid being sent home.",
+    "detailedExplanation": "'Lip Sync For Your Life' (LSFYL) is a crucial element of RuPaul's Drag Race where the bottom two contestants of each episode must perform a lip sync battle to a chosen song. The contestant who delivers the better performance, as judged by RuPaul, gets to 'shantay and stay' while the other is told to 'sashay away.' This format creates dramatic tension and showcases the contestants' performance skills, making it one of the most anticipated segments of each episode and a defining feature of the show's elimination process.",
+    "citationUrl": "https://en.wikipedia.org/wiki/RuPaul%27s_Drag_Race",
+    "citationTitle": "Wikipedia: RuPaul's Drag Race"
+  }
+]

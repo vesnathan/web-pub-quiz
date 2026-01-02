@@ -1,0 +1,342 @@
+[
+  {
+    "id": "b04b74b0-d79d-4dc0-ba2d-1a4ecaafdc13",
+    "text": "Which country has the most land borders with other countries?",
+    "options": [
+      "Russia",
+      "China",
+      "Brazil",
+      "Germany"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "China borders 14 different countries, the most of any nation.",
+    "detailedExplanation": "China shares land borders with 14 countries: Afghanistan, Bhutan, India, Kazakhstan, Kyrgyzstan, Laos, Mongolia, Myanmar, Nepal, North Korea, Pakistan, Russia, Tajikistan, and Vietnam. This makes it the country with the most international land borders in the world, just ahead of Russia which borders 13 countries.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Borders_of_China",
+    "citationTitle": "Wikipedia: Borders of China"
+  },
+  {
+    "id": "1cdd3b19-1e2a-4c89-a152-c8690f1e5735",
+    "text": "The Durand Line is a disputed border between which two countries?",
+    "options": [
+      "India and Pakistan",
+      "Afghanistan and Pakistan",
+      "Iran and Iraq",
+      "China and India"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "The Durand Line is the controversial 2,640-kilometer border between Afghanistan and Pakistan.",
+    "detailedExplanation": "The Durand Line was established in 1893 by British diplomat Sir Mortimer Durand and Afghan ruler Abdur Rahman Khan. This border runs for 2,640 kilometers through mountainous terrain and divides Pashtun tribal areas. Afghanistan has never formally recognized this border, considering it an artificial division imposed during British colonial rule, making it one of the world's most contentious international boundaries.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Durand_Line",
+    "citationTitle": "Wikipedia: Durand Line"
+  },
+  {
+    "id": "b8a8b36e-404d-4ff5-8e78-58e44ee1a861",
+    "text": "Which European country borders the most other European countries?",
+    "options": [
+      "France",
+      "Germany",
+      "Austria",
+      "Switzerland"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "Germany borders nine other European countries.",
+    "detailedExplanation": "Germany shares land borders with nine countries: Denmark to the north, Poland and Czech Republic to the east, Austria and Switzerland to the south, and France, Luxembourg, Belgium, and the Netherlands to the west. This makes Germany the European country with the most neighboring countries, reflecting its central position in the continent and its historical role as a crossroads of European trade and culture.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Borders_of_Germany",
+    "citationTitle": "Wikipedia: Borders of Germany"
+  },
+  {
+    "id": "57ea423c-cf07-420b-aae9-1b5b14212c61",
+    "text": "Which two South American countries do NOT share a border with Brazil?",
+    "options": [
+      "Chile and Ecuador",
+      "Uruguay and Paraguay",
+      "Colombia and Peru",
+      "Bolivia and Argentina"
+    ],
+    "correctIndex": 0,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "Chile and Ecuador are the only South American countries that don't border Brazil.",
+    "detailedExplanation": "Brazil is the largest country in South America and borders every South American nation except Chile and Ecuador. Chile is separated from Brazil by the width of Argentina and Bolivia, while Ecuador is separated by Colombia and Peru. Brazil's massive territory covers nearly half of South America's landmass, giving it borders with 10 of the continent's 12 independent countries.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Borders_of_Brazil",
+    "citationTitle": "Wikipedia: Borders of Brazil"
+  },
+  {
+    "id": "cdc59149-6689-4c57-bf58-5174877d6e45",
+    "text": "The 38th parallel originally divided which two countries?",
+    "options": [
+      "East and West Germany",
+      "North and South Korea",
+      "North and South Vietnam",
+      "India and Pakistan"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "The 38th parallel was the original dividing line between North and South Korea after World War II.",
+    "detailedExplanation": "The 38th parallel north was chosen somewhat arbitrarily by U.S. military planners in 1945 as the dividing line for the occupation of Korea after Japan's surrender. The Soviet Union would occupy the north and the United States the south. Although the current border (the Korean Demilitarized Zone) roughly follows this line, it was officially replaced after the Korean War armistice in 1953 with a border that varies slightly from the original parallel.",
+    "citationUrl": "https://en.wikipedia.org/wiki/38th_parallel_north",
+    "citationTitle": "Wikipedia: 38th parallel north"
+  },
+  {
+    "id": "115855d3-94e0-4afe-859b-6fa7c1eaf615",
+    "text": "Which country has the longest undefended border in the world?",
+    "options": [
+      "USA-Canada",
+      "USA-Mexico",
+      "Russia-Mongolia",
+      "Argentina-Chile"
+    ],
+    "correctIndex": 0,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "The USA-Canada border stretches 8,891 kilometers and is largely undefended.",
+    "detailedExplanation": "The border between the United States and Canada is the world's longest international border at 8,891 kilometers (5,525 miles), including 2,475 kilometers along the Alaska-Canada border. Often called the 'world's longest undefended border,' it's characterized by minimal military presence and peaceful relations. The border crosses through diverse terrain from ocean to forest to prairie, and is marked by over 8,000 boundary monuments.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Canada%E2%80%93United_States_border",
+    "citationTitle": "Wikipedia: Canada–United States border"
+  },
+  {
+    "id": "908425d9-5c7e-471f-b272-97c54e90fa22",
+    "text": "Which landlocked Asian country is bordered by only two other countries?",
+    "options": [
+      "Mongolia",
+      "Bhutan",
+      "Laos",
+      "Nepal"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "Bhutan is bordered only by China to the north and India to the south.",
+    "detailedExplanation": "Bhutan is a small Himalayan kingdom that shares borders with only two countries: China (Tibet) to the north and India to the south, east, and west. This makes it one of the few landlocked countries globally that borders exactly two other nations. Despite being small, Bhutan's strategic location between these two Asian giants has significantly influenced its foreign policy and development, with India being its closest ally and largest trading partner.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Bhutan",
+    "citationTitle": "Wikipedia: Bhutan"
+  },
+  {
+    "id": "b4230239-c8dd-42c0-a281-47372808e88d",
+    "text": "Which South American country is completely landlocked and borders only two other nations?",
+    "options": [
+      "Bolivia",
+      "Paraguay",
+      "Uruguay",
+      "Ecuador"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "Paraguay is landlocked and borders only Brazil to the north and east, and Argentina to the south and west.",
+    "detailedExplanation": "Paraguay is one of only two landlocked countries in South America (the other being Bolivia, which borders five countries). Paraguay's strategic position between the two South American giants has significantly influenced its history and economy. The country relies on the Paraguay-Paraná river system for access to the Atlantic Ocean through Argentina, making river transport crucial for its international trade.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Geography_of_Paraguay",
+    "citationTitle": "Wikipedia: Geography of Paraguay"
+  },
+  {
+    "id": "66a08283-7104-4b3e-b470-b68e0a4bef92",
+    "text": "The 49th parallel forms most of the border between which two countries?",
+    "options": [
+      "USA and Mexico",
+      "USA and Canada",
+      "Norway and Sweden",
+      "Poland and Germany"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "The 49th parallel north forms most of the border between the United States and Canada.",
+    "detailedExplanation": "The 49th parallel was established as the boundary between the US and Canada from the Treaty of 1818, running from the Lake of the Woods to the Rocky Mountains, and later extended to the Pacific Ocean in 1846. However, it doesn't form the entire border - the boundary deviates in several places, particularly around the Great Lakes region and in Alaska. This parallel represents one of the world's longest undefended borders at over 8,891 kilometers total.",
+    "citationUrl": "https://en.wikipedia.org/wiki/49th_parallel_north",
+    "citationTitle": "Wikipedia: 49th parallel north"
+  },
+  {
+    "id": "68eed374-94cd-4f14-9703-7bfb891b36d3",
+    "text": "The McMahon Line is a disputed boundary between which two countries?",
+    "options": [
+      "North Korea and South Korea",
+      "India and China",
+      "Israel and Palestine",
+      "Morocco and Algeria"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "The McMahon Line is the disputed border between India and China, particularly in the region of Arunachal Pradesh.",
+    "detailedExplanation": "The McMahon Line was drawn in 1914 by British administrator Sir Henry McMahon during the Simla Convention between Britain, Tibet, and China. It defines the border between Tibet (now controlled by China) and British India (now northeastern India). China has never recognized this line, claiming the region of Arunachal Pradesh as 'South Tibet.' This dispute has been a major source of tension between India and China, contributing to border conflicts including the 1962 Sino-Indian War.",
+    "citationUrl": "https://en.wikipedia.org/wiki/McMahon_Line",
+    "citationTitle": "Wikipedia: McMahon Line"
+  },
+  {
+    "id": "9cd8b9e7-63a6-4bb8-9d56-3e96a3ca8da8",
+    "text": "Which European country shares borders with the most other European nations?",
+    "options": [
+      "Germany",
+      "France",
+      "Austria",
+      "Switzerland"
+    ],
+    "correctIndex": 0,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "Germany borders 9 countries: Denmark, Poland, Czech Republic, Austria, Switzerland, France, Luxembourg, Belgium, and the Netherlands.",
+    "detailedExplanation": "Germany's central position in Europe gives it the most international borders of any European country, sharing boundaries with nine nations. This central location has historically made Germany a crossroads of European politics, trade, and conflict. From north to south, Germany borders Denmark, then moving clockwise: Poland, Czech Republic, Austria, Switzerland, France, Luxembourg, Belgium, and the Netherlands. This extensive border network reflects Germany's role as Europe's largest economy and most populous country after Russia.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Borders_of_Germany",
+    "citationTitle": "Wikipedia: Borders of Germany"
+  },
+  {
+    "id": "827b69d9-8de4-4a99-b88d-13f2be58a431",
+    "text": "How many countries share a border with Germany?",
+    "options": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "Germany shares borders with 9 countries, making it one of the most connected nations in Europe.",
+    "detailedExplanation": "Germany borders nine countries: Denmark to the north, Poland and Czech Republic to the east, Austria and Switzerland to the south, and France, Luxembourg, Belgium, and the Netherlands to the west. This central location in Europe has made Germany historically significant as a crossroads of trade, culture, and unfortunately, conflict. Only Russia and China have more neighboring countries than Germany.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Geography_of_Germany",
+    "citationTitle": "Wikipedia: Geography of Germany"
+  },
+  {
+    "id": "070580b9-0758-4813-9789-baabde7dfba7",
+    "text": "The McMahon Line is a disputed border between which two countries?",
+    "options": [
+      "China and India",
+      "North and South Korea",
+      "Pakistan and India",
+      "Russia and China"
+    ],
+    "correctIndex": 0,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "The McMahon Line is the disputed border between China and India in the eastern sector.",
+    "detailedExplanation": "The McMahon Line was drawn in 1914 during the Simla Convention between British India and Tibet, defining the border between Tibet and British India in what is now Arunachal Pradesh. China has never recognized this line, claiming the entire state of Arunachal Pradesh as part of Tibet. This 890-kilometer border dispute remains one of the major sources of tension between China and India, contributing to conflicts including the 1962 Sino-Indian War.",
+    "citationUrl": "https://en.wikipedia.org/wiki/McMahon_Line",
+    "citationTitle": "Wikipedia: McMahon Line"
+  },
+  {
+    "id": "4bc18da2-238d-4785-a48b-34f58d3c10cb",
+    "text": "Point Roberts, Washington (USA) can only be reached by land through which country?",
+    "options": [
+      "Mexico",
+      "Canada",
+      "Russia",
+      "It's an island"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "Point Roberts is a US exclave that can only be reached by land through Canada.",
+    "detailedExplanation": "Point Roberts is a 5-square-mile peninsula in Washington State that is cut off from the rest of the United States by the 49th parallel border with Canada. To reach Point Roberts by land from anywhere else in the US, one must drive through British Columbia, Canada. This unusual situation exists because the border was drawn along the 49th parallel without consideration for geographic features, creating this American exclave south of Vancouver. Residents need to cross international borders twice just to reach the nearest US post office.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Point_Roberts,_Washington",
+    "citationTitle": "Wikipedia: Point Roberts, Washington"
+  },
+  {
+    "id": "28e18200-5498-4518-9f12-56f289b635e5",
+    "text": "Which two countries are separated by the world's longest undefended border?",
+    "options": [
+      "USA and Mexico",
+      "Canada and USA",
+      "Russia and Mongolia",
+      "Argentina and Chile"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "The Canada-USA border stretches 8,891 kilometers and is famously undefended.",
+    "detailedExplanation": "The border between Canada and the United States is the world's longest international border at 8,891 kilometers (5,525 miles), including the Alaska-Canada portion. Known as the 'longest undefended border in the world,' it has been largely demilitarized since the Treaty of Ghent in 1814. The border runs through diverse terrain from the Atlantic to the Pacific and up to the Arctic Ocean, crossing forests, lakes, rivers, and mountains.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Canada%E2%80%93United_States_border",
+    "citationTitle": "Wikipedia: Canada–United States border"
+  },
+  {
+    "id": "c2804ccd-52cc-462f-b024-96ef6d7d48d2",
+    "text": "Which country has the most international borders, sharing boundaries with 14 different nations?",
+    "options": [
+      "Russia",
+      "China",
+      "Brazil",
+      "Germany"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "China shares borders with 14 countries, the most of any nation in the world.",
+    "detailedExplanation": "China holds the record for having the most international land borders of any country, sharing boundaries with 14 nations: North Korea, Russia, Mongolia, Kazakhstan, Kyrgyzstan, Tajikistan, Afghanistan, Pakistan, India, Nepal, Bhutan, Myanmar, Laos, and Vietnam. Russia comes in second with 16 neighbors if you count maritime borders, but only 14 land borders. This extensive border network reflects China's central position in Asia and its historical role as a crossroads of civilizations.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Borders_of_China",
+    "citationTitle": "Wikipedia: Borders of China"
+  },
+  {
+    "id": "1914d99e-cd02-4592-8ed9-07e47ce77c5c",
+    "text": "The Tripoint where Argentina, Brazil, and which third country meet is marked by the Iguazu and Paraná rivers?",
+    "options": [
+      "Paraguay",
+      "Uruguay",
+      "Bolivia",
+      "Chile"
+    ],
+    "correctIndex": 0,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "Paraguay meets Argentina and Brazil at the confluence of the Iguazu and Paraná rivers.",
+    "detailedExplanation": "The tripoint of Argentina, Brazil, and Paraguay is located at the confluence of the Iguazu and Paraná rivers, near the famous Iguazu Falls. This strategic location has been important throughout South American history and is marked by the Tres Fronteras (Three Borders) landmark. The area is significant not only geographically but also economically, as it's close to the Itaipu Dam on the Paraná River between Brazil and Paraguay, one of the world's largest hydroelectric power stations. Each country has built monuments and viewing areas at this triple border point.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Tripoint",
+    "citationTitle": "Wikipedia: Tripoint"
+  },
+  {
+    "id": "b396bd25-8428-4f23-9264-14b52317698b",
+    "text": "Which country has the most international land borders with other countries?",
+    "options": [
+      "Russia",
+      "China",
+      "Brazil",
+      "Germany"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "China borders 14 countries, making it tied with Russia for the most international land borders.",
+    "detailedExplanation": "China shares land borders with 14 countries: North Korea, Russia, Mongolia, Kazakhstan, Kyrgyzstan, Tajikistan, Afghanistan, Pakistan, India, Nepal, Bhutan, Myanmar, Laos, and Vietnam. Russia also borders 14 countries (16 if including partially recognized states), making these two nations tied for having the most international land borders in the world.",
+    "citationUrl": "https://en.wikipedia.org/wiki/List_of_countries_and_territories_by_number_of_land_borders",
+    "citationTitle": "Wikipedia: List of countries and territories by number of land borders"
+  },
+  {
+    "id": "e2e8c94a-c212-48ba-87f8-e0ef7773fc1d",
+    "text": "Which European country is completely surrounded by only one other country?",
+    "options": [
+      "Monaco",
+      "Vatican City",
+      "San Marino",
+      "Liechtenstein"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "San Marino is completely surrounded by Italy, making it one of only three countries in the world entirely enclosed by another country.",
+    "detailedExplanation": "San Marino is one of only three countries in the world that are completely enclosed by another single country (the others being Vatican City and Lesotho). Located in the Italian Peninsula, San Marino is entirely surrounded by Italy and has maintained its independence for over 1,700 years. Monaco borders both France and the Mediterranean Sea, Vatican City is surrounded by Italy, and Liechtenstein borders both Austria and Switzerland.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Enclave_and_exclave",
+    "citationTitle": "Wikipedia: Enclave and exclave"
+  },
+  {
+    "id": "bba58dc2-6f45-48c1-b02b-01c134136271",
+    "text": "Which country shares the longest land border with France?",
+    "options": [
+      "Spain",
+      "Germany",
+      "Italy",
+      "Belgium"
+    ],
+    "correctIndex": 0,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "Spain shares a 623-kilometer border with France along the Pyrenees mountains.",
+    "detailedExplanation": "France shares borders with eight countries, but its longest land border is with Spain at 623 kilometers, running along the Pyrenees mountain range from the Atlantic Ocean to the Mediterranean Sea. This border has remained relatively stable since the Treaty of the Pyrenees in 1659, which ended the war between France and Spain. Germany comes second with a 451-kilometer border, followed by Belgium (620 km), but the Spanish border remains the longest of all French land borders.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Borders_of_France",
+    "citationTitle": "Wikipedia: Borders of France"
+  }
+]

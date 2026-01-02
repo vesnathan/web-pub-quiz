@@ -1,0 +1,342 @@
+[
+  {
+    "id": "6714aa52-522c-4e3b-be4d-1e93d702776c",
+    "text": "In which year did Julius Caesar cross the Rubicon, effectively starting a civil war?",
+    "options": [
+      "51 BCE",
+      "49 BCE",
+      "47 BCE",
+      "44 BCE"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "medium",
+    "explanation": "Julius Caesar crossed the Rubicon River in 49 BCE, defying the Roman Senate's order to disband his army.",
+    "detailedExplanation": "On January 10, 49 BCE, Julius Caesar made the momentous decision to cross the Rubicon River with his army, uttering the famous phrase 'alea iacta est' (the die is cast). This act violated Roman law, which forbade generals from bringing their armies into Italy proper, and effectively declared war on the Roman Republic. The crossing triggered a civil war between Caesar and Pompey that would ultimately lead to the end of the Roman Republic and Caesar's rise to dictatorial power.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Caesar%27s_civil_war",
+    "citationTitle": "Wikipedia: Caesar's Civil War"
+  },
+  {
+    "id": "5eb8b27e-1a0f-4061-95d0-cd765a89dd96",
+    "text": "Which Roman emperor was responsible for the construction of Hadrian's Wall in northern Britain?",
+    "options": [
+      "Trajan",
+      "Hadrian",
+      "Antoninus Pius",
+      "Marcus Aurelius"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "medium",
+    "explanation": "Emperor Hadrian ordered the construction of Hadrian's Wall around 122 CE to defend Roman Britain from Scottish tribes.",
+    "detailedExplanation": "Hadrian's Wall was built on the orders of Emperor Hadrian during his visit to Britain in 122 CE. The wall stretched 84 miles (135 km) across northern England from Wallsend on the River Tyne to Bowness-on-Solway. It was designed to keep out the Pictish tribes from Scotland and marked the northernmost frontier of the Roman Empire in Britain. The wall included forts, milecastles, and turrets, and was manned by auxiliary troops rather than legionaries.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Hadrian%27s_Wall",
+    "citationTitle": "Wikipedia: Hadrian's Wall"
+  },
+  {
+    "id": "ba7638d0-151d-4dbd-aac2-ce5a16179269",
+    "text": "The eruption of Mount Vesuvius in 79 CE destroyed Pompeii and which other major Roman city?",
+    "options": [
+      "Stabiae",
+      "Herculaneum",
+      "Oplontis",
+      "Nuceria"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "medium",
+    "explanation": "Mount Vesuvius destroyed both Pompeii and Herculaneum in 79 CE, with Herculaneum being the other major city.",
+    "detailedExplanation": "The catastrophic eruption of Mount Vesuvius in 79 CE destroyed several settlements, but the two major cities were Pompeii and Herculaneum. While Pompeii was buried under volcanic ash and pumice, Herculaneum was engulfed by pyroclastic flows that preserved the city in a different way. Herculaneum was a wealthy seaside resort town that housed many Roman elites. The disaster was famously documented by Pliny the Younger in letters to the historian Tacitus, providing one of the earliest detailed accounts of a volcanic eruption.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Eruption_of_Mount_Vesuvius_in_79_AD",
+    "citationTitle": "Wikipedia: Eruption of Mount Vesuvius in 79 AD"
+  },
+  {
+    "id": "9d8d3b2a-d92f-4bce-ae7d-3b4e9ebd742b",
+    "text": "Which emperor split the Roman Empire into Western and Eastern halves for administrative purposes?",
+    "options": [
+      "Constantine",
+      "Diocletian",
+      "Theodosius I",
+      "Valentinian I"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "medium",
+    "explanation": "Emperor Diocletian divided the Roman Empire in 285 CE, creating the Tetrarchy system with separate rulers for different regions.",
+    "detailedExplanation": "Emperor Diocletian implemented major administrative reforms around 285 CE, dividing the Roman Empire into Eastern and Western halves to make it more manageable. He established the Tetrarchy, a system of four rulers: two senior emperors (Augusti) and two junior emperors (Caesares). Diocletian ruled the eastern portion from Nicomedia, while Maximian governed the west from Milan. This division was primarily administrative and military, aimed at addressing the crisis of the third century and defending the empire's vast frontiers more effectively.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Diocletian",
+    "citationTitle": "Wikipedia: Diocletian"
+  },
+  {
+    "id": "de2046a8-4b1d-4430-860d-ac5575417fc2",
+    "text": "The Battle of Teutoburg Forest in 9 CE was a major defeat for Rome against which Germanic leader?",
+    "options": [
+      "Arminius",
+      "Maroboduus",
+      "Civilis",
+      "Vercingetorix"
+    ],
+    "correctIndex": 0,
+    "category": "history",
+    "difficulty": "medium",
+    "explanation": "Arminius led a coalition of Germanic tribes to victory against three Roman legions in the Teutoburg Forest.",
+    "detailedExplanation": "The Battle of Teutoburg Forest was one of Rome's most devastating defeats, occurring in 9 CE when Arminius (Hermann), a Germanic chieftain who had served in the Roman army, led an alliance of Germanic tribes against three Roman legions. The Roman force, led by Publius Quinctilius Varus, was completely destroyed in the dense forests of Germania. This defeat effectively ended Roman attempts to conquer Germany beyond the Rhine River and established the Rhine as the permanent frontier of the Roman Empire in the region.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Battle_of_the_Teutoburg_Forest",
+    "citationTitle": "Wikipedia: Battle of the Teutoburg Forest"
+  },
+  {
+    "id": "982197b4-9975-4436-9c4c-b3d2c5affcff",
+    "text": "Which emperor issued the Edict of Milan in 313 CE, granting religious tolerance throughout the empire?",
+    "options": [
+      "Diocletian",
+      "Constantine I",
+      "Theodosius I",
+      "Julian"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "medium",
+    "explanation": "Constantine I issued the Edict of Milan in 313 CE, ending the persecution of Christians and establishing religious tolerance.",
+    "detailedExplanation": "The Edict of Milan was issued in 313 CE by Constantine I and his co-emperor Licinius, marking a turning point in the history of Christianity and religious freedom in the Roman Empire. The edict granted tolerance for all religions throughout the empire and specifically ended the persecution of Christians that had intensified under previous emperors like Diocletian. It also restored confiscated Christian property and allowed Christians to worship openly. This edict paved the way for Christianity to eventually become the dominant religion of the Roman Empire.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Edict_of_Milan",
+    "citationTitle": "Wikipedia: Edict of Milan"
+  },
+  {
+    "id": "ed747598-e4a9-4e8b-b7cd-fbaafb308a38",
+    "text": "The Year of the Four Emperors occurred in which year, following Nero's death?",
+    "options": [
+      "68 CE",
+      "69 CE",
+      "70 CE",
+      "71 CE"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "medium",
+    "explanation": "The Year of the Four Emperors was 69 CE, when Galba, Otho, Vitellius, and Vespasian all claimed the imperial throne.",
+    "detailedExplanation": "The Year of the Four Emperors (69 CE) was a period of civil war and political instability following Emperor Nero's suicide in 68 CE. Four different men claimed the imperial throne in rapid succession: Galba (who was already emperor when the year began), Otho, Vitellius, and finally Vespasian, who emerged victorious and founded the Flavian dynasty. This chaotic period demonstrated the power of the military in determining imperial succession and marked the end of the Julio-Claudian dynasty that had ruled since Augustus.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Year_of_the_Four_Emperors",
+    "citationTitle": "Wikipedia: Year of the Four Emperors"
+  },
+  {
+    "id": "5b1b3791-c5a7-41fb-b414-f91c39f8bab6",
+    "text": "Which Roman general completed the conquest of Gaul and wrote detailed accounts of the campaign?",
+    "options": [
+      "Pompey",
+      "Julius Caesar",
+      "Mark Antony",
+      "Crassus"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "medium",
+    "explanation": "Julius Caesar conquered Gaul between 58-50 BCE and documented his campaigns in 'Commentarii de Bello Gallico.'",
+    "detailedExplanation": "Julius Caesar conducted the Gallic Wars from 58 to 50 BCE, systematically conquering the various Celtic tribes of Gaul (modern-day France, Belgium, and parts of surrounding regions). His military campaigns extended Roman territory significantly and provided him with immense wealth and a loyal army. Caesar documented these campaigns in his famous work 'Commentarii de Bello Gallico' (Commentaries on the Gallic Wars), which serves as both a historical record and a piece of political propaganda. The conquest of Gaul was crucial to Caesar's rise to power and his eventual crossing of the Rubicon.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Gallic_Wars",
+    "citationTitle": "Wikipedia: Gallic Wars"
+  },
+  {
+    "id": "a05bb456-bf90-45dc-919f-145d6cfef66d",
+    "text": "Which Roman emperor was known for 'fiddling while Rome burned' during the Great Fire of 64 AD?",
+    "options": [
+      "Caligula",
+      "Nero",
+      "Claudius",
+      "Vespasian"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "medium",
+    "explanation": "Nero was emperor during the Great Fire of Rome in 64 AD, though the 'fiddling' story is likely myth.",
+    "detailedExplanation": "The Great Fire of Rome occurred in July 64 AD during Nero's reign, devastating much of the city for six days. While popular legend claims Nero played the fiddle while watching Rome burn, this is historically inaccurate as fiddles didn't exist in ancient Rome. Contemporary accounts suggest Nero was actually in Antium during the fire's start and rushed back to organize relief efforts, opening his own palaces to house the homeless.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Great_Fire_of_Rome",
+    "citationTitle": "Wikipedia: Great Fire of Rome"
+  },
+  {
+    "id": "a28268af-6198-48b6-8ec7-f2b25fb3610a",
+    "text": "At which battle in 9 AD did Germanic tribes destroy three Roman legions, halting Roman expansion into Germany?",
+    "options": [
+      "Battle of Cannae",
+      "Battle of Teutoburg Forest",
+      "Battle of Alesia",
+      "Battle of Carrhae"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "medium",
+    "explanation": "The Battle of Teutoburg Forest saw Arminius lead Germanic tribes to destroy Varus's three legions.",
+    "detailedExplanation": "The Battle of Teutoburg Forest in 9 AD was a devastating defeat for Rome when Arminius, a Germanic chieftain and former Roman auxiliary, ambushed three Roman legions led by Publius Quinctilius Varus. The battle resulted in the complete annihilation of approximately 20,000 Roman soldiers and effectively ended Roman attempts to conquer Germania beyond the Rhine. Emperor Augustus reportedly banged his head against walls crying 'Varus, give me back my legions!'",
+    "citationUrl": "https://en.wikipedia.org/wiki/Battle_of_the_Teutoburg_Forest",
+    "citationTitle": "Wikipedia: Battle of the Teutoburg Forest"
+  },
+  {
+    "id": "f8fc6772-5069-4021-bd89-eab7e1fb9af1",
+    "text": "Which event in 49 BC marked Julius Caesar's point of no return in his conflict with the Roman Senate?",
+    "options": [
+      "Crossing the Rubicon",
+      "Siege of Alesia",
+      "Battle of Pharsalus",
+      "Assassination of Pompey"
+    ],
+    "correctIndex": 0,
+    "category": "history",
+    "difficulty": "medium",
+    "explanation": "Caesar crossed the Rubicon River with his army, defying the Senate's order and starting civil war.",
+    "detailedExplanation": "When Julius Caesar crossed the Rubicon River in 49 BC with his army, he violated Roman law that forbade generals from bringing their armies into Italy proper. This act of defiance against the Senate's direct orders effectively declared war on the Roman Republic and began Caesar's civil war against Pompey and the optimates. Caesar allegedly declared 'alea iacta est' (the die is cast), knowing there was no turning back from this decision that would ultimately lead to his dictatorship.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Caesar%27s_civil_war",
+    "citationTitle": "Wikipedia: Caesar's Civil War"
+  },
+  {
+    "id": "4b700141-dc94-454c-b3fe-c4037de93b75",
+    "text": "What catastrophic event destroyed Pompeii and Herculaneum in 79 AD?",
+    "options": [
+      "Earthquake",
+      "Tsunami",
+      "Mount Vesuvius eruption",
+      "Barbarian invasion"
+    ],
+    "correctIndex": 2,
+    "category": "history",
+    "difficulty": "medium",
+    "explanation": "Mount Vesuvius erupted in 79 AD, burying both cities in volcanic ash and preserving them.",
+    "detailedExplanation": "The eruption of Mount Vesuvius on August 24, 79 AD completely buried the Roman cities of Pompeii and Herculaneum under meters of volcanic ash and pumice. The disaster struck so suddenly that many inhabitants were caught in their daily activities, creating a remarkable archaeological time capsule. Pliny the Younger provided the only contemporary account of the eruption, describing the mushroom-shaped cloud and his uncle Pliny the Elder's death while attempting a rescue mission.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Eruption_of_Mount_Vesuvius_in_79_AD",
+    "citationTitle": "Wikipedia: Eruption of Mount Vesuvius in 79 AD"
+  },
+  {
+    "id": "d39cf369-f235-4843-82dc-40ceab84ef8f",
+    "text": "Which battle in 378 AD marked a major defeat for Rome and the death of Emperor Valens?",
+    "options": [
+      "Battle of Milvian Bridge",
+      "Battle of Adrianople",
+      "Battle of Chalons",
+      "Battle of Ravenna"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "medium",
+    "explanation": "The Battle of Adrianople saw Emperor Valens killed and Roman forces devastated by the Visigoths.",
+    "detailedExplanation": "The Battle of Adrianople on August 9, 378 AD was one of the worst military disasters in Roman history. Emperor Valens led an army against the Visigoths near modern-day Turkey, but was decisively defeated and killed in the battle. The defeat demonstrated the growing military effectiveness of 'barbarian' tribes and marked a turning point in the decline of Roman military dominance. The battle's aftermath forced Rome to increasingly rely on foederati (allied barbarian troops) and highlighted the empire's vulnerability to Gothic invasions.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Battle_of_Adrianople",
+    "citationTitle": "Wikipedia: Battle of Adrianople"
+  },
+  {
+    "id": "9d083e1a-eea3-4464-9770-99878da17936",
+    "text": "What significant religious change did Emperor Constantine make official with the Edict of Milan in 313 AD?",
+    "options": [
+      "Banned Christianity",
+      "Made Christianity the state religion",
+      "Legalized Christianity",
+      "Restored pagan worship"
+    ],
+    "correctIndex": 2,
+    "category": "history",
+    "difficulty": "medium",
+    "explanation": "The Edict of Milan legalized Christianity throughout the Roman Empire, ending centuries of persecution.",
+    "detailedExplanation": "The Edict of Milan, issued by Constantine and co-emperor Licinius in 313 AD, granted religious tolerance throughout the empire and specifically legalized Christianity. This ended the systematic persecution of Christians that had occurred under previous emperors, most notably during Diocletian's Great Persecution (303-311 AD). While the edict didn't make Christianity the official state religion (that came later under Theodosius), it marked a revolutionary change that allowed Christianity to flourish and eventually become the dominant religion of the Roman Empire.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Edict_of_Milan",
+    "citationTitle": "Wikipedia: Edict of Milan"
+  },
+  {
+    "id": "066c34ae-17b8-45e5-bdb3-a9f667b8e7be",
+    "text": "In what year did the Great Fire of Rome occur during Emperor Nero's reign?",
+    "options": [
+      "64 CE",
+      "68 CE",
+      "61 CE",
+      "66 CE"
+    ],
+    "correctIndex": 0,
+    "category": "history",
+    "difficulty": "medium",
+    "explanation": "The Great Fire of Rome devastated the city for six days and seven nights in 64 CE.",
+    "detailedExplanation": "The Great Fire of Rome began on July 19, 64 CE, and burned for six days and seven nights, destroying much of the city. While popular legend blames Emperor Nero and claims he 'fiddled while Rome burned,' historical evidence suggests he was actually in Antium (modern Anzio) when the fire started and rushed back to organize relief efforts. The fire destroyed 10 of Rome's 14 districts and left hundreds of thousands homeless.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Great_Fire_of_Rome",
+    "citationTitle": "Wikipedia: Great Fire of Rome"
+  },
+  {
+    "id": "1d53279d-014a-4080-9fcd-59b76fc9a154",
+    "text": "Which emperor built the famous wall across northern Britain to keep out the Picts and other Celtic tribes?",
+    "options": [
+      "Trajan",
+      "Hadrian",
+      "Marcus Aurelius",
+      "Antoninus Pius"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "medium",
+    "explanation": "Emperor Hadrian ordered the construction of Hadrian's Wall around 122 CE to defend Roman Britain.",
+    "detailedExplanation": "Hadrian's Wall was built beginning around 122 CE during Emperor Hadrian's visit to Britain. The wall stretched 84 miles (135 km) across northern England from Wallsend on the River Tyne to Bowness-on-Solway. It was designed to keep out the unconquered Pictish tribes of Scotland and control movement between the Roman province of Britannia and the unconquered lands to the north. The wall included forts, milecastles, and turrets, and required a garrison of approximately 9,000 soldiers.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Hadrian%27s_Wall",
+    "citationTitle": "Wikipedia: Hadrian's Wall"
+  },
+  {
+    "id": "cccb9cc0-89c9-411e-add2-b4f763557c82",
+    "text": "Which battle in 378 CE resulted in the death of Emperor Valens and is considered a major defeat that weakened the Eastern Roman Empire?",
+    "options": [
+      "Battle of Chalons",
+      "Battle of Adrianople",
+      "Battle of Frigidus",
+      "Battle of Mursa"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "medium",
+    "explanation": "The Battle of Adrianople in 378 CE resulted in Emperor Valens' death and a devastating Roman defeat against the Visigoths.",
+    "detailedExplanation": "The Battle of Adrianople, fought on August 9, 378 CE, was one of the most catastrophic defeats in Roman military history. Emperor Valens led the Eastern Roman army against a coalition of Gothic tribes near present-day Edirne, Turkey. The Romans were decisively defeated, with Valens himself killed in the battle along with much of the Eastern Roman army. This defeat severely weakened Roman control over the Balkans and marked a turning point in the relationship between Rome and the barbarian tribes, leading to increased Gothic settlement within Roman territory.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Battle_of_Adrianople",
+    "citationTitle": "Wikipedia: Battle of Adrianople"
+  },
+  {
+    "id": "170cb9a9-aa5b-4bc9-9b65-81d3dddd13b4",
+    "text": "In 212 CE, Emperor Caracalla issued which edict that granted Roman citizenship to all free inhabitants of the empire?",
+    "options": [
+      "Edict of Milan",
+      "Constitutio Antoniniana",
+      "Edict of Maximum Prices",
+      "Edict of Toleration"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "medium",
+    "explanation": "The Constitutio Antoniniana, issued by Caracalla in 212 CE, extended Roman citizenship to all free men in the empire.",
+    "detailedExplanation": "The Constitutio Antoniniana (also known as the Edict of Caracalla) was issued by Emperor Caracalla in 212 CE and represented a revolutionary change in Roman law and society. This edict granted Roman citizenship to all free inhabitants of the Roman Empire, effectively ending the distinction between Romans and provincial subjects that had existed for centuries. While this appears generous, historians debate whether Caracalla's primary motivation was idealistic or financial, as Roman citizens were subject to inheritance taxes that non-citizens were exempt from, potentially increasing imperial revenue.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Constitutio_Antoniniana",
+    "citationTitle": "Wikipedia: Constitutio Antoniniana"
+  },
+  {
+    "id": "471c0a81-496a-41a6-8da9-91f803754841",
+    "text": "Which Roman Emperor was responsible for the Edict of Milan in 313 CE, which granted religious tolerance throughout the empire?",
+    "options": [
+      "Constantine I",
+      "Diocletian",
+      "Marcus Aurelius",
+      "Theodosius I"
+    ],
+    "correctIndex": 0,
+    "category": "history",
+    "difficulty": "medium",
+    "explanation": "Constantine I issued the Edict of Milan in 313 CE, ending the persecution of Christians.",
+    "detailedExplanation": "The Edict of Milan was a pivotal moment in Roman history, issued by Emperor Constantine I in 313 CE. This proclamation established religious tolerance throughout the Roman Empire, effectively ending the systematic persecution of Christians that had occurred under previous emperors like Diocletian. The edict allowed Christians to practice their faith openly and marked Constantine's favor toward Christianity, though he wouldn't be baptized until his deathbed. This policy shift fundamentally changed the religious landscape of the empire and paved the way for Christianity's eventual dominance in the Roman world.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Edict_of_Milan",
+    "citationTitle": "Wikipedia: Edict of Milan"
+  },
+  {
+    "id": "6faaca2b-f184-433a-b155-70623d0c20c8",
+    "text": "Which Roman Emperor was responsible for dividing the Empire into four administrative regions, each ruled by a different leader, in an attempt to make it more manageable?",
+    "options": [
+      "Constantine the Great",
+      "Diocletian",
+      "Marcus Aurelius",
+      "Septimius Severus"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "medium",
+    "explanation": "Diocletian established the Tetrarchy system around 293 CE, dividing the empire among four rulers.",
+    "detailedExplanation": "Emperor Diocletian (284-305 CE) created the Tetrarchy, or 'rule of four,' to address the crisis of the third century and make the vast Roman Empire more governable. This system divided the empire into four prefectures, each ruled by either an Augustus (senior emperor) or a Caesar (junior emperor). Diocletian himself ruled the eastern part from Nicomedia, while Maximian controlled the western regions from Milan. This innovative administrative reform helped stabilize the empire temporarily, though it eventually led to civil wars as the tetrarchs' successors fought for supreme control.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Tetrarchy",
+    "citationTitle": "Wikipedia: Tetrarchy"
+  }
+]

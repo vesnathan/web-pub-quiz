@@ -149,6 +149,61 @@ Resources:
         - Key: Project
           Value: quiz-night-live
 
+  # Check Email Has Google Account Lambda - checks if email is registered with Google
+  CheckEmailHasGoogleAccountFunction:
+    Type: AWS::Lambda::Function
+    Properties:
+      FunctionName: !Sub "${AppName}-check-email-google-${Stage}"
+      Runtime: nodejs20.x
+      Handler: index.handler
+      Role: !GetAtt CheckEmailHasGoogleAccountRole.Arn
+      Timeout: 10
+      Environment:
+        Variables:
+          USER_POOL_ID: !Ref UserPoolId
+      Code:
+        S3Bucket: !Ref TemplateBucketName
+        S3Key: !Sub "functions/${Stage}/checkEmailHasGoogleAccount.zip"
+      Tags:
+        - Key: Project
+          Value: quiz-night-live
+
+  CheckEmailHasGoogleAccountRole:
+    Type: AWS::IAM::Role
+    Properties:
+      RoleName: !Sub "${AppName}-check-email-google-role-${Stage}"
+      AssumeRolePolicyDocument:
+        Version: "2012-10-17"
+        Statement:
+          - Effect: Allow
+            Principal:
+              Service: lambda.amazonaws.com
+            Action: sts:AssumeRole
+      ManagedPolicyArns:
+        - arn:aws:iam::aws:policy/service-role/AWSLambdaBasicExecutionRole
+      Policies:
+        - PolicyName: CognitoListUsers
+          PolicyDocument:
+            Version: "2012-10-17"
+            Statement:
+              - Effect: Allow
+                Action:
+                  - cognito-idp:ListUsers
+                Resource:
+                  - !Sub "arn:aws:cognito-idp:${AWS::Region}:${AWS::AccountId}:userpool/${UserPoolId}"
+      Tags:
+        - Key: Project
+          Value: quiz-night-live
+
+  CheckEmailHasGoogleAccountLogGroup:
+    Type: AWS::Logs::LogGroup
+    Properties:
+      LogGroupName: !Sub "/aws/lambda/${AppName}-check-email-google-${Stage}"
+      RetentionInDays: !Ref LogRetentionInDays
+      Tags:
+        - Key: Project
+          Value: quiz-night-live
+
   # Note: Orchestrator is now running on Fargate, not Lambda
   # See deploy/resources/Fargate/fargate.yaml
 
@@ -252,6 +307,44 @@ Resources:
         - Key: Project
           Value: quiz-night-live
 
+  # Tip Checkout Lambda (one-time $2 tip for 24hr unlimited sets)
+  CreateTipCheckoutFunction:
+    Type: AWS::Lambda::Function
+    Properties:
+      FunctionName: !Sub "${AppName}-create-tip-checkout-${Stage}"
+      Runtime: nodejs20.x
+      Handler: index.handler
+      Role: !GetAtt PaymentWebhookRole.Arn
+      Timeout: 30
+      Environment:
+        Variables:
+          TABLE_NAME: !Ref DataTableName
+          STRIPE_SECRETS_ARN: !Ref StripeSecrets
+          PAYPAL_SECRETS_ARN: !Ref PayPalSecrets
+          PAYPAL_API_URL: !If
+            - IsProd
+            - "https://api-m.paypal.com"
+            - "https://api-m.sandbox.paypal.com"
+          FRONTEND_URL: !If
+            - IsProd
+            - "https://quiznight.live"
+            - "https://dev.quiznight.live"
+      Code:
+        S3Bucket: !Ref TemplateBucketName
+        S3Key: !Sub "functions/${Stage}/createTipCheckout.zip"
+      Tags:
+        - Key: Project
+          Value: quiz-night-live
+
+  CreateTipCheckoutLogGroup:
+    Type: AWS::Logs::LogGroup
+    Properties:
+      LogGroupName: !Sub "/aws/lambda/${AppName}-create-tip-checkout-${Stage}"
+      RetentionInDays: !Ref LogRetentionInDays
+      Tags:
+        - Key: Project
+          Value: quiz-night-live
+
   # Shared IAM Role for Payment Lambdas
   PaymentWebhookRole:
     Type: AWS::IAM::Role
@@ -300,7 +393,7 @@ Resources:
     Properties:
       Name: !Sub "${AppName}/stripe-${Stage}"
       Description: Stripe API credentials
-      SecretString: '{"secretKey":"sk_test_placeholder","publishableKey":"pk_test_placeholder","webhookSecret":"whsec_placeholder","priceIdSupporter":"price_supporter","priceIdChampion":"price_champion"}'
+      SecretString: '{"secretKey":"sk_test_placeholder","publishableKey":"pk_test_placeholder","webhookSecret":"whsec_placeholder","priceIdSupporter":"price_supporter","priceIdChampion":"price_champion","tipPriceId":"price_tip"}'
       Tags:
         - Key: Project
           Value: quiz-night-live
@@ -399,6 +492,63 @@ Resources:
       Principal: apigateway.amazonaws.com
       SourceArn: !Sub "arn:aws:execute-api:${AWS::Region}:${AWS::AccountId}:${PaymentWebhookApi}/*"
 
+  # ============================================
+  # Schema Ready Waiter - Custom Resource Lambda
+  # ============================================
+  # This Lambda waits for AppSync schema updates to complete.
+  # It's used as a CloudFormation Custom Resource to ensure schema
+  # is fully updated before resolvers are created/modified.
+
+  SchemaReadyWaiterFunction:
+    Type: AWS::Lambda::Function
+    Properties:
+      FunctionName: !Sub "${AppName}-schema-ready-waiter-${Stage}"
+      Runtime: nodejs20.x
+      Handler: index.handler
+      Role: !GetAtt SchemaReadyWaiterRole.Arn
+      Timeout: 120
+      Code:
+        S3Bucket: !Ref TemplateBucketName
+        S3Key: !Sub "functions/${Stage}/schemaReadyWaiter.zip"
+      Tags:
+        - Key: Project
+          Value: quiz-night-live
+
+  SchemaReadyWaiterRole:
+    Type: AWS::IAM::Role
+    Properties:
+      RoleName: !Sub "${AppName}-schema-ready-waiter-role-${Stage}"
+      AssumeRolePolicyDocument:
+        Version: "2012-10-17"
+        Statement:
+          - Effect: Allow
+            Principal:
+              Service: lambda.amazonaws.com
+            Action: sts:AssumeRole
+      ManagedPolicyArns:
+        - arn:aws:iam::aws:policy/service-role/AWSLambdaBasicExecutionRole
+      Policies:
+        - PolicyName: AppSyncSchemaAccess
+          PolicyDocument:
+            Version: "2012-10-17"
+            Statement:
+              - Effect: Allow
+                Action:
+                  - appsync:GetSchemaCreationStatus
+                Resource: "*"
+      Tags:
+        - Key: Project
+          Value: quiz-night-live
+
+  SchemaReadyWaiterLogGroup:
+    Type: AWS::Logs::LogGroup
+    Properties:
+      LogGroupName: !Sub "/aws/lambda/${AppName}-schema-ready-waiter-${Stage}"
+      RetentionInDays: !Ref LogRetentionInDays
+      Tags:
+        - Key: Project
+          Value: quiz-night-live
+
 Conditions:
   IsProd: !Equals [!Ref Stage, "prod"]
 
@@ -414,6 +564,14 @@ Outputs:
   CreateCheckoutFunctionArn:
     Description: Create Checkout Lambda ARN
     Value: !GetAtt CreateCheckoutFunction.Arn
+
+  CreateTipCheckoutFunctionArn:
+    Description: Create Tip Checkout Lambda ARN
+    Value: !GetAtt CreateTipCheckoutFunction.Arn
+
+  CheckEmailHasGoogleAccountFunctionArn:
+    Description: Check Email Has Google Account Lambda ARN
+    Value: !GetAtt CheckEmailHasGoogleAccountFunction.Arn
 
   PaymentWebhookApiUrl:
     Description: Payment Webhook API URL
@@ -434,3 +592,7 @@ Outputs:
   PayPalSecretsArn:
     Description: PayPal Secrets ARN
     Value: !Ref PayPalSecrets
+
+  SchemaReadyWaiterFunctionArn:
+    Description: Schema Ready Waiter Lambda ARN
+    Value: !GetAtt SchemaReadyWaiterFunction.Arn

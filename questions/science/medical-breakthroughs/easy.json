@@ -1,0 +1,342 @@
+[
+  {
+    "id": "87b266c6-0c59-43ac-b307-38eff1993e30",
+    "text": "Which Scottish scientist discovered penicillin in 1928?",
+    "options": [
+      "Alexander Fleming",
+      "Joseph Lister",
+      "Alexander Graham Bell",
+      "Robert Koch"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Alexander Fleming discovered penicillin accidentally when mold contaminated his bacterial cultures.",
+    "detailedExplanation": "Alexander Fleming made his groundbreaking discovery in September 1928 at St. Mary's Hospital in London. He noticed that a mold had contaminated one of his Petri dishes containing Staphylococcus bacteria, and that the bacteria around the mold had been killed. This accidental discovery led to the development of penicillin as the world's first widely used antibiotic, revolutionizing medicine and saving millions of lives.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Alexander_Fleming",
+    "citationTitle": "Wikipedia: Alexander Fleming"
+  },
+  {
+    "id": "2c5d716d-9994-49f8-a708-ca5bbcfecae6",
+    "text": "What did Wilhelm Röntgen discover in 1895 that revolutionized medical diagnosis?",
+    "options": [
+      "Ultrasound waves",
+      "X-rays",
+      "MRI scanning",
+      "CT scanning"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Wilhelm Röntgen discovered X-rays in 1895, earning him the first Nobel Prize in Physics.",
+    "detailedExplanation": "German physicist Wilhelm Röntgen discovered X-rays on November 8, 1895, while experimenting with cathode rays. He noticed that a fluorescent screen glowed even when shielded from the cathode tube, indicating the presence of invisible rays that could penetrate matter. His first X-ray image was of his wife's hand, showing her bones and wedding ring. This discovery transformed medical diagnosis by allowing doctors to see inside the human body without surgery.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Wilhelm_R%C3%B6ntgen",
+    "citationTitle": "Wikipedia: Wilhelm Röntgen"
+  },
+  {
+    "id": "6afc176c-40ef-4dff-a76d-1409baf4dbf7",
+    "text": "Who performed the first successful human heart transplant in 1967?",
+    "options": [
+      "Michael DeBakey",
+      "Christiaan Barnard",
+      "Norman Shumway",
+      "Richard Lower"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "South African surgeon Christiaan Barnard performed the first human heart transplant on December 3, 1967.",
+    "detailedExplanation": "Dr. Christiaan Barnard performed the first human-to-human heart transplant at Groote Schuur Hospital in Cape Town, South Africa. The patient, Louis Washkansky, received the heart of a 25-year-old woman who had died in a car accident. While Washkansky survived the surgery, he died 18 days later from pneumonia. Despite this, the operation marked a historic milestone in cardiac surgery and paved the way for modern heart transplantation procedures.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Christiaan_Barnard",
+    "citationTitle": "Wikipedia: Christiaan Barnard"
+  },
+  {
+    "id": "0da70651-34e6-47de-a592-227553a55d1d",
+    "text": "What life-saving medication did Frederick Banting and Charles Best discover in 1921?",
+    "options": [
+      "Aspirin",
+      "Insulin",
+      "Morphine",
+      "Digitalis"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Banting and Best discovered insulin at the University of Toronto, providing treatment for diabetes.",
+    "detailedExplanation": "Frederick Banting and Charles Best, working at the University of Toronto, successfully isolated insulin from pancreatic extracts in 1921. Their work, along with colleagues James Collip and John Macleod, led to the first successful treatment of diabetes mellitus. Before insulin, a diabetes diagnosis was essentially a death sentence. The discovery transformed diabetes from a fatal disease into a manageable condition, and Banting became the youngest person to receive a Nobel Prize in Medicine at age 32.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Discovery_of_insulin",
+    "citationTitle": "Wikipedia: Discovery of insulin"
+  },
+  {
+    "id": "9613cde2-45d6-4cc9-a49b-074fb845455e",
+    "text": "Which vaccine did Jonas Salk develop in the 1950s?",
+    "options": [
+      "Measles vaccine",
+      "Polio vaccine",
+      "Smallpox vaccine",
+      "Tuberculosis vaccine"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Jonas Salk developed the first successful polio vaccine, announced to the world in 1955.",
+    "detailedExplanation": "Jonas Salk developed the first effective polio vaccine using killed poliovirus. The vaccine was tested in a massive field trial involving 1.8 million children in 1954, and its success was announced on April 12, 1955. Polio had been a terrifying disease that caused paralysis and death, particularly in children. Salk's vaccine, followed later by Albert Sabin's oral vaccine, virtually eliminated polio from most of the world. Remarkably, Salk chose not to patent the vaccine, forgoing potential profits to ensure widespread access.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Jonas_Salk",
+    "citationTitle": "Wikipedia: Jonas Salk"
+  },
+  {
+    "id": "ecd9c9bc-d198-4ad9-9330-fc7067499325",
+    "text": "What surgical technique did Joseph Lister pioneer to reduce infections?",
+    "options": [
+      "Sterilization with heat",
+      "Antiseptic surgery",
+      "Surgical masks",
+      "Rubber gloves"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Joseph Lister introduced antiseptic surgery using carbolic acid to kill germs during operations.",
+    "detailedExplanation": "Joseph Lister, inspired by Louis Pasteur's germ theory, introduced antiseptic surgery in the 1860s. He began using carbolic acid (phenol) to sterilize surgical instruments and clean wounds, dramatically reducing post-operative infections and deaths. Before Lister's antiseptic methods, surgical mortality rates were extremely high due to infection. His techniques revolutionized surgery and laid the foundation for modern sterile surgical procedures. Lister is often called the 'father of antiseptic surgery' for his pioneering work.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Joseph_Lister",
+    "citationTitle": "Wikipedia: Joseph Lister"
+  },
+  {
+    "id": "22184c7b-6668-47a9-b3ff-b24fb0434195",
+    "text": "What did Edward Jenner develop in 1796 that led to the eradication of a major disease?",
+    "options": [
+      "The first antibiotic",
+      "The smallpox vaccine",
+      "Anesthesia",
+      "Blood transfusion"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Edward Jenner created the first smallpox vaccine, leading to the eventual worldwide eradication of smallpox.",
+    "detailedExplanation": "Edward Jenner developed the world's first vaccine in 1796 when he inoculated 8-year-old James Phipps with cowpox to protect against smallpox. Jenner had observed that milkmaids who contracted cowpox seemed immune to smallpox. His vaccine proved highly effective and launched the science of immunization. Smallpox vaccination became widespread, and the World Health Organization declared smallpox eradicated in 1980, making it the first human disease eliminated through vaccination campaigns.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Edward_Jenner",
+    "citationTitle": "Wikipedia: Edward Jenner"
+  },
+  {
+    "id": "89cafb5a-b05b-4eac-8e77-9870949e884a",
+    "text": "What pain-relieving breakthrough did William Morton demonstrate publicly in 1846?",
+    "options": [
+      "Morphine injection",
+      "Ether anesthesia",
+      "Aspirin tablets",
+      "Acupuncture"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "William Morton publicly demonstrated ether anesthesia for surgery at Massachusetts General Hospital.",
+    "detailedExplanation": "On October 16, 1846, dentist William Morton publicly demonstrated the use of ether as an anesthetic during surgery at Massachusetts General Hospital in Boston. The operation, performed by surgeon John Collins Warren, involved removing a tumor from a patient's neck while the patient remained unconscious and pain-free. This demonstration proved that major surgery could be performed without the excruciating pain that patients had previously endured. The date is now celebrated as 'Ether Day,' marking the beginning of modern anesthesia and pain-free surgery.",
+    "citationUrl": "https://en.wikipedia.org/wiki/William_T._G._Morton",
+    "citationTitle": "Wikipedia: William T. G. Morton"
+  },
+  {
+    "id": "75a649e0-6148-4ac3-8a07-923f8520da76",
+    "text": "Which Scottish scientist discovered penicillin in 1928, revolutionizing the treatment of bacterial infections?",
+    "options": [
+      "Alexander Fleming",
+      "Robert Koch",
+      "Louis Pasteur",
+      "Joseph Lister"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Alexander Fleming discovered penicillin in 1928 when he noticed mold had killed bacteria in his laboratory.",
+    "detailedExplanation": "Alexander Fleming, a Scottish bacteriologist, made his groundbreaking discovery of penicillin in September 1928 at St. Mary's Hospital in London. He noticed that a mold (later identified as Penicillium notatum) had contaminated one of his bacterial culture plates and had killed the surrounding bacteria. This accidental discovery led to the development of the first true antibiotic, which has saved millions of lives by treating previously deadly bacterial infections.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Penicillin",
+    "citationTitle": "Wikipedia: Penicillin"
+  },
+  {
+    "id": "c8a3eb75-aa33-4888-b7bf-dd99b3a52d0f",
+    "text": "What medical imaging technique was developed by Wilhelm Röntgen in 1895, allowing doctors to see inside the human body?",
+    "options": [
+      "MRI scan",
+      "X-ray",
+      "Ultrasound",
+      "CT scan"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Wilhelm Röntgen discovered X-rays in 1895, the first form of medical imaging that could show bones and internal structures.",
+    "detailedExplanation": "German physicist Wilhelm Röntgen discovered X-rays on November 8, 1895, while experimenting with cathode rays. He noticed that a fluorescent screen in his lab glowed even when shielded from the cathode ray tube, indicating the presence of unknown rays he called 'X-rays.' The first X-ray image was of his wife's hand, clearly showing her bones and wedding ring. This revolutionary discovery earned him the first Nobel Prize in Physics in 1901 and transformed medical diagnosis forever.",
+    "citationUrl": "https://en.wikipedia.org/wiki/X-ray",
+    "citationTitle": "Wikipedia: X-ray"
+  },
+  {
+    "id": "c8c354d1-a1f3-4459-b0f0-b2f044c75667",
+    "text": "Which vaccine was developed by Jonas Salk in the 1950s to combat a disease that primarily affected children?",
+    "options": [
+      "Measles vaccine",
+      "Polio vaccine",
+      "Smallpox vaccine",
+      "Whooping cough vaccine"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Jonas Salk developed the first successful polio vaccine in 1955, ending the polio epidemics that paralyzed thousands of children.",
+    "detailedExplanation": "Jonas Salk developed the first effective polio vaccine in 1955, marking a major victory against a disease that had terrorized families worldwide. Polio primarily affected children, causing paralysis and sometimes death. Salk's vaccine used killed virus particles to stimulate immunity without causing the disease. The vaccine was tested on over 1.8 million children in 1954, and its success led to mass vaccination campaigns that virtually eliminated polio from most of the world.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Polio_vaccine",
+    "citationTitle": "Wikipedia: Polio vaccine"
+  },
+  {
+    "id": "bef8c316-466c-47f4-b019-2698699232b6",
+    "text": "What life-saving hormone was first successfully extracted and used to treat diabetes in 1922?",
+    "options": [
+      "Adrenaline",
+      "Insulin",
+      "Cortisol",
+      "Thyroxine"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Insulin was first successfully extracted and used to treat diabetes by Frederick Banting and Charles Best in 1922.",
+    "detailedExplanation": "Insulin was discovered and first used to treat diabetes in 1922 by Canadian researchers Frederick Banting and Charles Best, working under John Macleod at the University of Toronto. Before insulin, diabetes was essentially a death sentence. The first human patient treated was 14-year-old Leonard Thompson, whose condition dramatically improved after receiving insulin injections. This breakthrough transformed diabetes from a fatal disease into a manageable condition, saving millions of lives worldwide.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Insulin",
+    "citationTitle": "Wikipedia: Insulin"
+  },
+  {
+    "id": "2c7e62a2-d9d9-40fb-954f-4f557c7b2bf3",
+    "text": "Which organ was first successfully transplanted between humans in 1954?",
+    "options": [
+      "Heart",
+      "Liver",
+      "Kidney",
+      "Lung"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "The first successful human organ transplant was a kidney transplant performed in 1954 between identical twins.",
+    "detailedExplanation": "The first successful human organ transplant was performed on December 23, 1954, at Brigham Hospital in Boston by surgeon Joseph Murray. The transplant involved a kidney donated by Ronald Herrick to his identical twin brother Richard, who was dying of kidney disease. The surgery was successful because identical twins have the same genetic makeup, eliminating the risk of organ rejection. Richard lived for eight more years, and this breakthrough paved the way for modern organ transplantation medicine.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Kidney_transplantation",
+    "citationTitle": "Wikipedia: Kidney transplantation"
+  },
+  {
+    "id": "4693a539-ada7-4cfe-aeb6-59a38bc423d8",
+    "text": "What surgical technique did Joseph Lister pioneer in the 1860s that dramatically reduced post-operative infections?",
+    "options": [
+      "Sterilization",
+      "Antiseptic surgery",
+      "Blood transfusion",
+      "General anesthesia"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Joseph Lister introduced antiseptic surgery in the 1860s, using carbolic acid to prevent infections during operations.",
+    "detailedExplanation": "Joseph Lister revolutionized surgery in the 1860s by introducing antiseptic techniques based on Louis Pasteur's germ theory. He began using carbolic acid (phenol) to sterilize surgical instruments, clean wounds, and disinfect the air in operating rooms. Before Lister's work, post-operative infection rates were extremely high, with many patients dying from sepsis even after successful operations. His antiseptic methods reduced infection rates dramatically and laid the foundation for modern sterile surgical practices.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Antiseptic",
+    "citationTitle": "Wikipedia: Antiseptic"
+  },
+  {
+    "id": "8b0c382d-9d45-4f74-b7ca-d310cd0411ce",
+    "text": "Which painkilling gas was first used as an anesthetic during surgery in the 1840s?",
+    "options": [
+      "Oxygen",
+      "Nitrous oxide",
+      "Carbon dioxide",
+      "Helium"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Nitrous oxide, also known as laughing gas, was one of the first anesthetics used during surgery in the 1840s.",
+    "detailedExplanation": "Nitrous oxide, commonly known as laughing gas, was one of the first anesthetics used in medicine during the 1840s. American dentist Horace Wells first used it for tooth extraction in 1844, though his public demonstration was unsuccessful. The use of anesthesia revolutionized surgery by eliminating the excruciating pain that patients previously endured during operations. Along with ether and chloroform, nitrous oxide helped establish the field of anesthesiology and made complex surgeries possible for the first time in human history.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Nitrous_oxide",
+    "citationTitle": "Wikipedia: Nitrous oxide"
+  },
+  {
+    "id": "0d1536a7-cddb-458f-ab00-24efd8ff416a",
+    "text": "What technique did Edward Jenner develop in 1796 that led to the eventual eradication of smallpox?",
+    "options": [
+      "Quarantine",
+      "Vaccination",
+      "Antibiotics",
+      "Blood letting"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Edward Jenner developed vaccination in 1796 using cowpox to immunize against smallpox, leading to the first vaccine.",
+    "detailedExplanation": "Edward Jenner developed the first vaccine in 1796 when he inoculated 8-year-old James Phipps with cowpox pus, then later exposed him to smallpox to prove immunity. Jenner had observed that milkmaids who caught cowpox from cattle seemed protected against smallpox. His work established the principle of vaccination - using a less dangerous disease to protect against a more serious one. This breakthrough eventually led to the complete eradication of smallpox in 1980, making it the first disease eliminated by human intervention.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Edward_Jenner",
+    "citationTitle": "Wikipedia: Edward Jenner"
+  },
+  {
+    "id": "0084560d-d2d0-420d-9cee-d60833578881",
+    "text": "What life-saving drug was accidentally discovered by Alexander Fleming in 1928 when he noticed mold had killed bacteria in his laboratory?",
+    "options": [
+      "Aspirin",
+      "Penicillin",
+      "Insulin",
+      "Morphine"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Alexander Fleming discovered penicillin in 1928 when he observed that a mold had contaminated his bacterial cultures and killed the surrounding bacteria.",
+    "detailedExplanation": "Alexander Fleming's discovery of penicillin in 1928 was one of the most important medical breakthroughs of the 20th century. While working at St. Mary's Hospital in London, Fleming noticed that a petri dish containing Staphylococcus bacteria had been contaminated with a blue-green mold, and the bacteria around the mold had been killed. This accidental discovery led to the development of the first true antibiotic, which has saved millions of lives by treating bacterial infections that were previously often fatal.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Penicillin",
+    "citationTitle": "Wikipedia: Penicillin"
+  },
+  {
+    "id": "0b7740e5-713c-4132-8af5-5f9eb5008ef3",
+    "text": "Which medical procedure, first successfully performed by Joseph Murray in 1954, earned him the Nobel Prize in Medicine?",
+    "options": [
+      "Heart transplant",
+      "Kidney transplant",
+      "Liver transplant",
+      "Lung transplant"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Joseph Murray performed the first successful kidney transplant in 1954 between identical twins, which earned him the Nobel Prize in Physiology or Medicine in 1990.",
+    "detailedExplanation": "On December 23, 1954, Joseph Murray and his team at Brigham Hospital in Boston performed the world's first successful organ transplant, transplanting a kidney from Ronald Herrick to his identical twin brother Richard. This groundbreaking surgery was successful because identical twins have the same tissue type, eliminating the risk of organ rejection. Murray's work laid the foundation for modern transplant surgery and immunosuppressive therapy, earning him the Nobel Prize in Physiology or Medicine in 1990.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Joseph_Murray",
+    "citationTitle": "Wikipedia: Joseph Murray"
+  },
+  {
+    "id": "4fb955f7-2700-46e9-b47c-110891eebcd8",
+    "text": "What medical imaging technique was developed by Godfrey Hounsfield and Allan Cormack, earning them the 1979 Nobel Prize?",
+    "options": [
+      "MRI scan",
+      "CT scan",
+      "Ultrasound",
+      "X-ray"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "The CT (Computed Tomography) scan was developed by Godfrey Hounsfield and Allan Cormack, who shared the 1979 Nobel Prize in Physiology or Medicine for this revolutionary imaging technique.",
+    "detailedExplanation": "Godfrey Hounsfield and Allan Cormack developed computed tomography (CT) scanning in the early 1970s, revolutionizing medical diagnosis. Hounsfield built the first commercial CT scanner while working at EMI, and Cormack developed the mathematical techniques that made CT scanning possible. The first clinical CT scan was performed in 1971, and this non-invasive imaging technique allowed doctors to see detailed cross-sectional images of the human body for the first time, dramatically improving diagnosis of brain tumors, strokes, and other conditions.",
+    "citationUrl": "https://en.wikipedia.org/wiki/CT_scan",
+    "citationTitle": "Wikipedia: CT scan"
+  },
+  {
+    "id": "91b7da6c-d8cd-4208-bcf2-127fdba22d3f",
+    "text": "Which vaccine, developed by Jonas Salk in the 1950s, helped virtually eliminate a disease that once paralyzed thousands of children annually?",
+    "options": [
+      "Measles vaccine",
+      "Polio vaccine",
+      "Smallpox vaccine",
+      "Mumps vaccine"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Jonas Salk developed the first effective polio vaccine in the 1950s, which dramatically reduced cases of poliomyelitis, a disease that had paralyzed thousands of children each year.",
+    "detailedExplanation": "Jonas Salk developed the first successful inactivated polio vaccine (IPV) in 1952, which was announced to the world on April 12, 1955. Before the vaccine, polio epidemics struck fear into parents worldwide as the disease could cause permanent paralysis or death, particularly in children. Salk's vaccine, followed later by Albert Sabin's oral polio vaccine, led to a dramatic decline in polio cases. The disease has been eliminated from most of the world, with only a few countries still reporting cases today.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Polio_vaccine",
+    "citationTitle": "Wikipedia: Polio vaccine"
+  }
+]

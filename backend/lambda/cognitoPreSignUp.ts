@@ -1,36 +1,23 @@
 import {
   CognitoIdentityProviderClient,
   ListUsersCommand,
-  AdminLinkProviderForUserCommand,
-  AdminCreateUserCommand,
-  AdminSetUserPasswordCommand,
 } from '@aws-sdk/client-cognito-identity-provider';
 import type { PreSignUpTriggerEvent, PreSignUpTriggerHandler } from 'aws-lambda';
 
 const cognitoClient = new CognitoIdentityProviderClient({});
 
-const USER_POOL_ID = process.env.USER_POOL_ID!;
-
-interface CognitoIdentity {
-  providerName: string;
-  userId: string;
-  providerType?: string;
-  issuer?: string;
-  primary?: boolean;
-  dateCreated?: number;
-}
-
 /**
  * Pre Sign-Up Lambda Trigger
  *
- * This trigger handles the case where a user signs in with an external provider (Google)
- * but already has an existing native Cognito account with the same email.
+ * This trigger handles account conflicts for users with the same email:
  *
- * When this happens, we:
- * 1. Link the external provider to the existing native account
- * 2. Throw an error to prevent creating a duplicate user
+ * Case 1: External provider (Google) sign-up when native account exists
+ *   - Reject with NATIVE_ACCOUNT_EXISTS error
+ *   - User should sign in with email/password instead
  *
- * The user can then sign in with either method and get the same Cognito user.
+ * Case 2: Native sign-up when external provider account exists
+ *   - Reject with GOOGLE_ACCOUNT_EXISTS error
+ *   - User should sign in with Google instead
  */
 export const handler: PreSignUpTriggerHandler = async (event: PreSignUpTriggerEvent) => {
   console.log('PreSignUp trigger:', JSON.stringify(event, null, 2));
@@ -38,13 +25,43 @@ export const handler: PreSignUpTriggerHandler = async (event: PreSignUpTriggerEv
   const { triggerSource, request, userPoolId } = event;
   const email = request.userAttributes.email;
 
-  // Only process external provider sign-ups (e.g., Google)
-  if (triggerSource !== 'PreSignUp_ExternalProvider') {
-    // For native sign-ups, auto-confirm if email is verified
-    if (triggerSource === 'PreSignUp_SignUp') {
-      // Don't auto-confirm - let the normal flow happen
-      return event;
+  // Handle native sign-ups - check if external provider account exists
+  if (triggerSource === 'PreSignUp_SignUp') {
+    try {
+      const existingUsers = await cognitoClient.send(new ListUsersCommand({
+        UserPoolId: userPoolId,
+        Filter: `email = "${email}"`,
+        Limit: 10,
+      }));
+
+      console.log('Checking for external provider accounts:', JSON.stringify(existingUsers.Users, null, 2));
+
+      // Find external provider user (Google, etc.)
+      const externalUser = existingUsers.Users?.find(user => {
+        const username = user.Username?.toLowerCase() || '';
+        return username.startsWith('google_') ||
+               username.startsWith('facebook_') ||
+               username.startsWith('loginwithamazon_');
+      });
+
+      if (externalUser) {
+        console.log('Found existing external provider user:', externalUser.Username);
+        // Tell user to sign in with Google instead
+        throw new Error('GOOGLE_ACCOUNT_EXISTS');
+      }
+    } catch (error: unknown) {
+      if (error instanceof Error && error.message === 'GOOGLE_ACCOUNT_EXISTS') {
+        throw error;
+      }
+      console.error('Error checking for external accounts:', error);
+      // Don't block signup on errors - let normal flow proceed
     }
+
+    return event;
+  }
+
+  // Only process external provider sign-ups (e.g., Google) below this point
+  if (triggerSource !== 'PreSignUp_ExternalProvider') {
     return event;
   }
 
@@ -71,68 +88,8 @@ export const handler: PreSignUpTriggerHandler = async (event: PreSignUpTriggerEv
 
     if (nativeUser) {
       console.log('Found existing native user:', nativeUser.Username);
-
-      // Get the provider info from the current sign-up attempt
-      // The username for external providers is like "Google_123456789"
-      const externalUsername = event.userName;
-      const providerMatch = externalUsername.match(/^([^_]+)_(.+)$/);
-
-      if (providerMatch) {
-        // Capitalize provider name to match Cognito's expected format
-        // Username comes as "google_123..." but Cognito expects "Google"
-        const rawProviderName = providerMatch[1];
-        const providerName = rawProviderName.charAt(0).toUpperCase() + rawProviderName.slice(1).toLowerCase();
-        const providerUserId = providerMatch[2]; // e.g., "123456789"
-
-        // Check if this provider is already linked to the native user
-        const identitiesAttr = nativeUser.Attributes?.find(a => a.Name === 'identities');
-        if (identitiesAttr?.Value) {
-          try {
-            const identities: CognitoIdentity[] = JSON.parse(identitiesAttr.Value);
-            const alreadyLinked = identities.some((id: CognitoIdentity) =>
-              id.providerName === providerName && id.userId === providerUserId
-            );
-            if (alreadyLinked) {
-              console.log(`${providerName} identity already linked to user ${nativeUser.Username}, allowing sign-in`);
-              // Identity already linked - this is a normal sign-in, not a new sign-up
-              // Return normally to allow the sign-in to proceed
-              // Cognito will route this to the existing linked user
-              event.response.autoVerifyEmail = true;
-              event.response.autoConfirmUser = true;
-              return event;
-            }
-          } catch (parseError) {
-            // If it's our own error, re-throw it
-            if (parseError instanceof Error && parseError.message === 'LINKED_TO_EXISTING_USER') {
-              throw parseError;
-            }
-            // If parsing fails, continue with linking attempt
-            console.log('Failed to parse identities attribute:', parseError);
-          }
-        }
-
-        console.log(`Linking ${providerName} identity to existing user ${nativeUser.Username}`);
-
-        // Link the external provider to the existing native user
-        await cognitoClient.send(new AdminLinkProviderForUserCommand({
-          UserPoolId: userPoolId,
-          DestinationUser: {
-            ProviderName: 'Cognito',
-            ProviderAttributeValue: nativeUser.Username,
-          },
-          SourceUser: {
-            ProviderName: providerName,
-            ProviderAttributeName: 'Cognito_Subject',
-            ProviderAttributeValue: providerUserId,
-          },
-        }));
-
-        console.log('Successfully linked provider to existing user');
-
-        // Throw error to prevent creating duplicate user
-        // The user will be able to sign in with Google and use the linked native account
-        throw new Error('LINKED_TO_EXISTING_USER');
-      }
+      // Tell user to sign in with email/password instead
+      throw new Error('NATIVE_ACCOUNT_EXISTS');
     }
 
     // No existing native user found - allow the external provider sign-up to proceed
@@ -142,7 +99,7 @@ export const handler: PreSignUpTriggerHandler = async (event: PreSignUpTriggerEv
 
     return event;
   } catch (error: unknown) {
-    if (error instanceof Error && error.message === 'LINKED_TO_EXISTING_USER') {
+    if (error instanceof Error && error.message === 'NATIVE_ACCOUNT_EXISTS') {
       // Re-throw our custom error
       throw error;
     }

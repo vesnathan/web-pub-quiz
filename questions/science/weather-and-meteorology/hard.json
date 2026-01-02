@@ -1,0 +1,342 @@
+[
+  {
+    "id": "dbf9c77d-199f-47cf-a3a5-a499a8dd85fc",
+    "text": "Which metamorphic facies is characterized by the presence of glaucophane and represents high-pressure, low-temperature conditions?",
+    "options": [
+      "Greenschist facies",
+      "Amphibolite facies",
+      "Blueschist facies",
+      "Granulite facies"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Blueschist facies is characterized by high pressure and relatively low temperature, with glaucophane as a key indicator mineral.",
+    "detailedExplanation": "Blueschist facies metamorphism occurs under high-pressure, low-temperature conditions, typically 0.4-1.2 GPa pressure and 200-500°C temperature. The characteristic blue mineral glaucophane (a sodium-rich amphibole) gives these rocks their distinctive color. This metamorphic environment is typically found in subduction zones where oceanic crust is rapidly buried to great depths before it has time to heat up significantly. Classic localities include the Franciscan Complex in California and the Alps in Europe.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Blueschist",
+    "citationTitle": "Wikipedia: Blueschist"
+  },
+  {
+    "id": "1f00c1bf-5e94-4be3-b72e-7e1e2befb1e0",
+    "text": "What is the name of the atmospheric phenomenon where temperature increases with altitude, opposite to the normal pattern?",
+    "options": [
+      "Temperature inversion",
+      "Thermocline",
+      "Isothermal layer",
+      "Adiabatic warming"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "A temperature inversion occurs when warm air sits above cooler air, reversing the normal atmospheric temperature gradient.",
+    "detailedExplanation": "Temperature inversions are crucial meteorological phenomena that occur when a layer of warm air sits above cooler air near the surface. This reverses the normal atmospheric condition where temperature decreases with altitude. Inversions can trap pollutants close to the ground, contribute to fog formation, and create unique weather patterns. They commonly occur during clear, calm nights when the ground loses heat rapidly through radiation, or when warm air masses move over cooler surfaces.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Inversion_(meteorology)",
+    "citationTitle": "Wikipedia: Inversion (meteorology)"
+  },
+  {
+    "id": "fbfa8842-91b8-4842-a219-e7fd3c9caf8e",
+    "text": "Which scale measures tornado intensity based on damage rather than wind speed?",
+    "options": [
+      "Beaufort Scale",
+      "Enhanced Fujita Scale",
+      "Saffir-Simpson Scale",
+      "Mercalli Scale"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "The Enhanced Fujita Scale (EF Scale) rates tornadoes from EF0 to EF5 based on damage assessment rather than direct wind measurements.",
+    "detailedExplanation": "The Enhanced Fujita Scale, implemented in 2007, replaced the original Fujita Scale for rating tornado intensity. Unlike scales that measure direct meteorological parameters, the EF Scale evaluates tornado strength by examining damage to buildings, vegetation, and other structures. This approach is necessary because directly measuring wind speeds inside tornadoes is extremely difficult and dangerous. The scale ranges from EF0 (light damage, 65-85 mph winds) to EF5 (incredible destruction, over 200 mph winds).",
+    "citationUrl": "https://en.wikipedia.org/wiki/Enhanced_Fujita_scale",
+    "citationTitle": "Wikipedia: Enhanced Fujita scale"
+  },
+  {
+    "id": "cbfeabdb-ef1b-41dc-9964-c74254e8730a",
+    "text": "What is the technical term for the small ice pellets that form when raindrops freeze before reaching the ground?",
+    "options": [
+      "Graupel",
+      "Sleet",
+      "Rime ice",
+      "Glaze ice"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Sleet forms when raindrops freeze completely while falling through a layer of cold air before reaching the surface.",
+    "detailedExplanation": "Sleet is a specific type of winter precipitation that occurs when raindrops encounter a thick layer of freezing air and solidify into small ice pellets before hitting the ground. This differs from freezing rain, where drops freeze upon contact with surfaces, and from graupel, which forms when supercooled water droplets freeze onto snowflakes. Sleet typically creates a distinctive bouncing sound when it hits surfaces and can accumulate like small hailstones, making surfaces extremely slippery.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Ice_pellets",
+    "citationTitle": "Wikipedia: Ice pellets"
+  },
+  {
+    "id": "ad7b5172-2fec-4552-8585-d8571cada3f5",
+    "text": "At what altitude does the tropopause typically occur in mid-latitudes?",
+    "options": [
+      "5-8 kilometers",
+      "11-13 kilometers",
+      "18-20 kilometers",
+      "25-30 kilometers"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "The tropopause, which separates the troposphere from the stratosphere, occurs at approximately 11-13 km altitude in mid-latitudes.",
+    "detailedExplanation": "The tropopause is the boundary layer between the troposphere and stratosphere, characterized by a cessation of the normal temperature decrease with altitude. In mid-latitudes, this boundary typically occurs between 11-13 kilometers above sea level. The altitude varies by latitude (higher at the equator around 17-18 km, lower at the poles around 8-9 km) and season. This boundary is crucial for aviation and weather patterns, as it often acts as a cap that limits the vertical development of thunderstorms and marks the level where jet streams typically flow.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Tropopause",
+    "citationTitle": "Wikipedia: Tropopause"
+  },
+  {
+    "id": "1094bc77-6b82-46a4-b657-d4b451a0362b",
+    "text": "What meteorological condition is required for the formation of mammatus clouds?",
+    "options": [
+      "Strong updrafts",
+      "Temperature inversion",
+      "Sinking air currents",
+      "High humidity at surface"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Mammatus clouds form when dense, cold air sinks downward, creating the characteristic pouch-like bulges hanging from cloud bases.",
+    "detailedExplanation": "Mammatus clouds are rare and distinctive cloud formations that appear as pouch-like bulges hanging from the underside of clouds, resembling cow udders. They form when dense, cold, and typically dry air sinks downward through lighter, warmer air below. This downward motion is opposite to the typical upward convection that forms most clouds. Mammatus are often associated with severe thunderstorms and can indicate atmospheric instability, though they themselves are not dangerous. They're most commonly observed after the passage of severe weather systems.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Mammatus_cloud",
+    "citationTitle": "Wikipedia: Mammatus cloud"
+  },
+  {
+    "id": "ca2b3ec3-0633-4e57-991e-9a269691105f",
+    "text": "What is the Coriolis parameter approximately at 45 degrees latitude?",
+    "options": [
+      "7.3 × 10⁻⁵ s⁻¹",
+      "1.0 × 10⁻⁴ s⁻¹",
+      "1.5 × 10⁻⁴ s⁻¹",
+      "2.1 × 10⁻⁴ s⁻¹"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "The Coriolis parameter at 45° latitude is approximately 1.0 × 10⁻⁴ s⁻¹, calculated as 2Ω sin(φ) where Ω is Earth's rotation rate.",
+    "detailedExplanation": "The Coriolis parameter (f) quantifies the effect of Earth's rotation on moving objects and is crucial in meteorology for understanding atmospheric motion. It's calculated as f = 2Ω sin(φ), where Ω is Earth's angular velocity (7.27 × 10⁻⁵ rad/s) and φ is latitude. At 45° latitude, sin(45°) = 0.707, giving f ≈ 1.0 × 10⁻⁴ s⁻¹. This parameter is essential for geostrophic balance, cyclone formation, and large-scale atmospheric dynamics. It's zero at the equator and maximum at the poles.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Coriolis_frequency",
+    "citationTitle": "Wikipedia: Coriolis frequency"
+  },
+  {
+    "id": "c57a1e6a-8a9e-4211-ade2-7e4bfa95865c",
+    "text": "Which atmospheric wave type is primarily responsible for the meandering of the jet stream?",
+    "options": [
+      "Gravity waves",
+      "Rossby waves",
+      "Kelvin waves",
+      "Mountain waves"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Rossby waves are large-scale atmospheric waves that cause the characteristic north-south meanders of the jet stream.",
+    "detailedExplanation": "Rossby waves, also known as planetary waves, are large-scale atmospheric waves that develop due to the variation of the Coriolis effect with latitude (beta effect) and topographic features. These waves have wavelengths of thousands of kilometers and are responsible for the characteristic meandering pattern of the jet stream. When Rossby waves amplify, they create deep troughs and high ridges in the jet stream, leading to persistent weather patterns, blocking highs, and can transport warm air poleward and cold air equatorward. They're fundamental to understanding long-range weather forecasting.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Rossby_wave",
+    "citationTitle": "Wikipedia: Rossby wave"
+  },
+  {
+    "id": "9d1f21fc-95b9-4acd-87d0-fe71b790bf87",
+    "text": "What is the name of the pressure system that forms when cold air becomes trapped in valleys during winter, often lasting for weeks?",
+    "options": [
+      "Thermal low",
+      "Cold air pool",
+      "Katabatic circulation",
+      "Valley inversion"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Cold air pools form when dense, cold air settles and becomes trapped in valleys and basins, creating persistent high-pressure systems.",
+    "detailedExplanation": "Cold air pools are meteorological phenomena that occur when dense, cold air accumulates and becomes trapped in topographic depressions such as valleys and basins. The cold air, being denser than warm air, flows downhill and collects in low-lying areas where it can persist for days or weeks, especially during winter months with minimal solar heating. These pools often create their own local high-pressure systems and can lead to severe air quality problems as pollutants become trapped. They're particularly common in locations like the Great Basin of the western United States.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Cold_air_pool",
+    "citationTitle": "Wikipedia: Cold air pool"
+  },
+  {
+    "id": "90457a7c-0d97-4e16-a1a0-74434272556d",
+    "text": "Which scale is used to measure the intensity of tornadoes based on damage rather than wind speed?",
+    "options": [
+      "Saffir-Simpson Scale",
+      "Enhanced Fujita Scale",
+      "Beaufort Scale",
+      "Mercalli Scale"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "The Enhanced Fujita Scale (EF Scale) rates tornadoes from EF0 to EF5 based on damage to structures and vegetation.",
+    "detailedExplanation": "The Enhanced Fujita Scale, implemented in 2007, replaced the original Fujita Scale for rating tornado intensity. It uses 28 damage indicators including buildings, towers, and trees to estimate wind speeds and assign ratings from EF0 (light damage, 65-85 mph winds) to EF5 (incredible/total destruction, over 200 mph winds). This damage-based approach is more practical than direct wind measurement, as it's extremely difficult to place instruments in a tornado's path.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Enhanced_Fujita_scale",
+    "citationTitle": "Wikipedia: Enhanced Fujita scale"
+  },
+  {
+    "id": "de162f3f-722c-4f33-b23a-e0d3ecc705c8",
+    "text": "What is the approximate pressure at the center of the most intense hurricanes, measured in millibars?",
+    "options": [
+      "1013 mb",
+      "980 mb",
+      "950 mb",
+      "870 mb"
+    ],
+    "correctIndex": 3,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "The most intense hurricanes can have central pressures as low as 870 mb, with the record being Hurricane Wilma at 882 mb.",
+    "detailedExplanation": "The central pressure of a hurricane is inversely related to its intensity - the lower the pressure, the stronger the storm. Normal atmospheric pressure at sea level is 1013.25 millibars. Category 5 hurricanes typically have central pressures below 920 mb, with the most extreme storms reaching pressures around 870-880 mb. Hurricane Wilma holds the record for lowest pressure in the Atlantic at 882 mb (2005), while Typhoon Tip in the Pacific reached 870 mb (1979).",
+    "citationUrl": "https://en.wikipedia.org/wiki/List_of_the_most_intense_tropical_cyclones",
+    "citationTitle": "Wikipedia: List of the most intense tropical cyclones"
+  },
+  {
+    "id": "c4dd1fe5-1415-4991-83f7-cb82fb966957",
+    "text": "What type of cloud is associated with severe thunderstorms and has a distinctive anvil-shaped top?",
+    "options": [
+      "Cumulus congestus",
+      "Cumulonimbus incus",
+      "Mammatus",
+      "Altocumulus castellanus"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Cumulonimbus incus clouds have the characteristic anvil shape formed when the rising air hits the tropopause and spreads horizontally.",
+    "detailedExplanation": "Cumulonimbus incus clouds are mature thunderstorm clouds that have developed the characteristic anvil shape at their top. The term 'incus' is Latin for anvil. This shape forms when the powerful updrafts within the thunderstorm reach the tropopause (the boundary between the troposphere and stratosphere) and can no longer rise due to the temperature inversion there. The air then spreads horizontally, creating the flat, anvil-like appearance that can extend for hundreds of miles downwind.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Cumulonimbus_cloud",
+    "citationTitle": "Wikipedia: Cumulonimbus cloud"
+  },
+  {
+    "id": "dd21c65e-83fd-4845-86ca-7424839dd70b",
+    "text": "Which jet stream phenomenon involves a large northward bend that can cause extreme weather events like heat domes?",
+    "options": [
+      "Meridional flow",
+      "Zonal flow",
+      "Rossby waves",
+      "Omega blocks"
+    ],
+    "correctIndex": 3,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Omega blocks are persistent high-pressure ridges shaped like the Greek letter omega that can trap weather patterns for weeks.",
+    "detailedExplanation": "Omega blocks are a specific type of atmospheric blocking pattern where the jet stream forms a large, persistent ridge resembling the Greek letter omega (Ω). These blocks involve a strong high-pressure system flanked by low-pressure areas, creating a very stable pattern that can persist for weeks. When omega blocks form, they can trap hot air masses underneath the ridge, leading to heat domes and prolonged heat waves, while the flanking low-pressure areas may experience cooler, stormier weather.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Block_(meteorology)",
+    "citationTitle": "Wikipedia: Block (meteorology)"
+  },
+  {
+    "id": "2934aee3-f4c9-475e-98fc-93ce2bc782ad",
+    "text": "What is the term for the boundary between two different air masses where neither is advancing?",
+    "options": [
+      "Warm front",
+      "Cold front",
+      "Occluded front",
+      "Stationary front"
+    ],
+    "correctIndex": 3,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "A stationary front occurs when neither air mass has enough force to displace the other, resulting in days of similar weather.",
+    "detailedExplanation": "A stationary front forms when two different air masses meet but neither has sufficient strength to advance and displace the other. The front remains relatively motionless, sometimes for several days, with the boundary oscillating back and forth over the same general area. Weather along a stationary front is typically characterized by clouds, light precipitation, and fog, with conditions remaining fairly consistent until one air mass eventually gains dominance or the front dissipates.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Weather_front",
+    "citationTitle": "Wikipedia: Weather front"
+  },
+  {
+    "id": "76682db7-03fe-487f-a5e4-e7c33a76932c",
+    "text": "What is the minimum sustained wind speed required for a tropical cyclone to be classified as a hurricane in the Atlantic basin?",
+    "options": [
+      "64 knots (74 mph)",
+      "58 knots (67 mph)",
+      "70 knots (81 mph)",
+      "55 knots (63 mph)"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "A tropical cyclone becomes a hurricane when sustained winds reach 64 knots (74 mph), marking the beginning of Category 1 intensity.",
+    "detailedExplanation": "The classification system for tropical cyclones in the Atlantic and Eastern Pacific basins defines a hurricane as having sustained winds of at least 64 knots (74 mph or 119 km/h). Below this threshold, storms are classified as tropical depressions (winds up to 38 mph) or tropical storms (39-73 mph). Once the 74 mph threshold is reached, the storm becomes a Category 1 hurricane on the Saffir-Simpson scale. Different ocean basins use different terminology - the same wind speed would make a typhoon in the Western Pacific or a cyclone in the Indian Ocean.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Tropical_cyclone_scales",
+    "citationTitle": "Wikipedia: Tropical cyclone scales"
+  },
+  {
+    "id": "350df206-327c-4b70-8fd7-9df096f2c0f8",
+    "text": "What atmospheric optical phenomenon is caused by ice crystals in cirrus clouds and appears as a bright spot 22 degrees from the sun?",
+    "options": [
+      "Sun pillar",
+      "Parhelion",
+      "Circumzenithal arc",
+      "Solar halo"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "A parhelion, or sun dog, appears as a bright spot exactly 22 degrees to the left or right of the sun due to ice crystal refraction.",
+    "detailedExplanation": "A parhelion, commonly called a sun dog, is an atmospheric optical phenomenon that appears as a bright, often colorful spot in the sky approximately 22 degrees to the left or right of the sun. Sun dogs are caused by the refraction of sunlight through hexagonal ice crystals in cirrus or cirrostratus clouds. The crystals act like prisms, bending the light at specific angles. Sun dogs are most commonly seen when the sun is low on the horizon and are often accompanied by a 22-degree halo around the sun.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Sun_dog",
+    "citationTitle": "Wikipedia: Sun dog"
+  },
+  {
+    "id": "c187148e-4a38-4837-88a6-179284d756e4",
+    "text": "What is the name of the phenomenon where temperature increases with altitude in the atmosphere, opposite to the normal pattern?",
+    "options": [
+      "Temperature inversion",
+      "Adiabatic warming",
+      "Thermal stratification",
+      "Convective reversal"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "A temperature inversion occurs when warm air sits above cooler air, reversing the normal atmospheric temperature gradient.",
+    "detailedExplanation": "Temperature inversions are meteorological phenomena where the normal decrease in temperature with increasing altitude is reversed. Typically, air temperature drops about 6.5°C per kilometer of altitude, but during an inversion, a layer of warm air sits above cooler air near the surface. This creates a stable atmospheric condition that can trap pollutants, fog, and smog in the lower atmosphere. Inversions commonly occur during clear, calm nights when the ground rapidly cools through radiative heat loss, or in valleys where cold air becomes trapped.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Inversion_(meteorology)",
+    "citationTitle": "Wikipedia: Inversion (meteorology)"
+  },
+  {
+    "id": "8f315031-f3bc-4cce-9388-a2dc5067dd67",
+    "text": "Which pressure measurement represents the lowest sea-level atmospheric pressure ever reliably recorded?",
+    "options": [
+      "870 hPa",
+      "870 mmHg",
+      "870 inHg",
+      "870 Pa"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "The lowest recorded sea-level pressure was 870 hPa (hectopascals), measured in Typhoon Tip in 1979.",
+    "detailedExplanation": "The record low sea-level atmospheric pressure of 870 hPa (hectopascals) was recorded on October 19, 1979, in the eye of Typhoon Tip in the Western Pacific Ocean. This measurement equals approximately 25.69 inches of mercury. Typhoon Tip was not only notable for this pressure record but also became the most intense tropical cyclone ever recorded and the largest by diameter. The extreme low pressure contributed to sustained winds of 190 mph (305 km/h). Normal sea-level atmospheric pressure is about 1013.25 hPa, making this reading extraordinarily low.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Typhoon_Tip",
+    "citationTitle": "Wikipedia: Typhoon Tip"
+  },
+  {
+    "id": "a06c101d-9447-443a-9d48-299ffaefced3",
+    "text": "What type of cloud is associated with the rare atmospheric phenomenon known as 'morning glory'?",
+    "options": [
+      "Roll cloud",
+      "Mammatus cloud",
+      "Lenticular cloud",
+      "Shelf cloud"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Morning glory is a rare roll cloud phenomenon, most famously occurring in northern Australia's Gulf of Carpentaria.",
+    "detailedExplanation": "The morning glory is a rare meteorological phenomenon consisting of a low-level atmospheric solitary wave and accompanying roll cloud. It appears as a long, tube-shaped cloud that can stretch for hundreds of kilometers and move at speeds up to 60 km/h. The most famous and predictable occurrence happens in Burketown, Australia, near the Gulf of Carpentaria, typically between September and November. The phenomenon results from complex interactions between sea breezes from both sides of the Cape York Peninsula, creating a collision of air masses that forms this spectacular rolling cloud formation. Glider pilots often seek out morning glories for the unique soaring opportunities they provide.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Morning_Glory_cloud",
+    "citationTitle": "Wikipedia: Morning Glory cloud"
+  },
+  {
+    "id": "141303b6-f8e6-4ccb-b463-d731eb8bdc60",
+    "text": "Which scale is used to classify the strength of tornadoes based on damage assessment rather than wind speed measurement?",
+    "options": [
+      "Enhanced Fujita Scale",
+      "Beaufort Scale",
+      "Saffir-Simpson Scale",
+      "Torro Scale"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "The Enhanced Fujita Scale (EF Scale) replaced the original Fujita Scale in 2007 and rates tornadoes from EF0 to EF5 based on damage indicators.",
+    "detailedExplanation": "The Enhanced Fujita Scale, implemented in the United States in 2007, is the current system for rating tornado intensity based on damage assessment. It replaced the original Fujita Scale developed by Ted Fujita in 1971. The EF Scale rates tornadoes from EF0 (light damage, 65-85 mph winds) to EF5 (incredible/total destruction, over 200 mph winds). Unlike direct wind measurement, the scale uses 28 damage indicators including building types, trees, and poles, with specific degrees of damage for each. This approach provides more accurate wind speed estimates since direct measurement of tornado winds is extremely difficult and dangerous.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Enhanced_Fujita_scale",
+    "citationTitle": "Wikipedia: Enhanced Fujita scale"
+  }
+]

@@ -1,0 +1,172 @@
+[
+  {
+    "id": "dd1886f0-b947-41b9-82c0-4f83ab949cc2",
+    "text": "How many pairs of ribs does a typical human have?",
+    "options": [
+      "10 pairs",
+      "11 pairs",
+      "12 pairs",
+      "13 pairs"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Humans typically have 12 pairs of ribs, totaling 24 ribs.",
+    "detailedExplanation": "The typical human rib cage consists of 12 pairs of ribs, for a total of 24 individual ribs. These are categorized into three types: true ribs (pairs 1-7) that connect directly to the sternum, false ribs (pairs 8-10) that connect indirectly to the sternum via cartilage, and floating ribs (pairs 11-12) that don't connect to the sternum at all. While 12 pairs is the standard, some people may have cervical ribs or other variations, but these are relatively rare anatomical variants.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Rib_cage",
+    "citationTitle": "Wikipedia: Rib cage"
+  },
+  {
+    "id": "e8310a78-6ed1-474b-8874-cb7667b0a58f",
+    "text": "What does Ohm's Law relate in electrical circuits?",
+    "options": [
+      "Power, energy, and time",
+      "Voltage, current, and resistance",
+      "Charge, mass, and velocity",
+      "Frequency, wavelength, and speed"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Ohm's Law states that voltage equals current multiplied by resistance (V = IR).",
+    "detailedExplanation": "Ohm's Law is a fundamental principle in electrical engineering and physics that describes the relationship between voltage, current, and resistance in electrical circuits. Formulated by German physicist Georg Ohm in 1827, the law states that the voltage (V) across a conductor is directly proportional to the current (I) flowing through it, with the constant of proportionality being the resistance (R). Mathematically, this is expressed as V = IR. This simple but powerful relationship allows engineers and scientists to calculate any one of these three quantities if the other two are known, making it essential for circuit analysis and design.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Ohm%27s_law",
+    "citationTitle": "Wikipedia: Ohm's law"
+  },
+  {
+    "id": "1d059a65-a7b0-4636-9ab1-078a1f4e14bd",
+    "text": "Which law explains why ice floats on water?",
+    "options": [
+      "Newton's Law of Gravitation",
+      "Archimedes' Principle",
+      "Pascal's Law",
+      "Coulomb's Law"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Archimedes' Principle states that objects float when they displace a weight of fluid equal to their own weight.",
+    "detailedExplanation": "Archimedes' Principle, discovered by the ancient Greek mathematician Archimedes, states that any object partially or fully immersed in a fluid experiences an upward buoyant force equal to the weight of the fluid displaced by the object. Ice floats on water because it is less dense than liquid water - when water freezes, it expands and becomes about 9% less dense. This means that ice displaces a weight of water greater than its own weight, resulting in a net upward buoyant force that keeps it floating. This principle applies to all floating objects, from ships to icebergs.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Archimedes%27_principle",
+    "citationTitle": "Wikipedia: Archimedes' principle"
+  },
+  {
+    "id": "2751f645-23a2-4fca-8b43-cda9553fc8f2",
+    "text": "Which space station was the first permanently inhabited space station?",
+    "options": [
+      "Skylab",
+      "Mir",
+      "Salyut 1",
+      "International Space Station"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "The Soviet space station Mir was continuously inhabited from 1989 to 1999, making it the first permanently inhabited space station.",
+    "detailedExplanation": "Mir was a space station operated by the Soviet Union and later Russia from 1986 to 2001. It became permanently inhabited in 1989 when continuous crew rotations began, with astronauts and cosmonauts living aboard for months at a time. The station served as a testbed for long-duration spaceflight and international cooperation, hosting crew members from various countries during its operational lifetime.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Mir",
+    "citationTitle": "Wikipedia: Mir"
+  },
+  {
+    "id": "25220be2-2f43-4488-bc09-fd6d0635f52c",
+    "text": "Which phylum do spiders, scorpions, and horseshoe crabs all belong to?",
+    "options": [
+      "Mollusca",
+      "Arthropoda",
+      "Cnidaria",
+      "Annelida"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Spiders, scorpions, and horseshoe crabs are all arthropods, characterized by jointed legs and segmented bodies.",
+    "detailedExplanation": "Arthropoda is the largest phylum in the animal kingdom, containing over 80% of all known animal species. All arthropods share key characteristics including jointed appendages, segmented bodies, and an external skeleton (exoskeleton) made of chitin. This phylum includes insects, arachnids (spiders and scorpions), crustaceans, and other groups like horseshoe crabs, which are actually more closely related to spiders than to true crabs.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Arthropod",
+    "citationTitle": "Wikipedia: Arthropod"
+  },
+  {
+    "id": "a87a2b7d-e432-465b-aeea-a0d6384d4561",
+    "text": "Which class do frogs, toads, and salamanders belong to?",
+    "options": [
+      "Reptilia",
+      "Amphibia",
+      "Mammalia",
+      "Aves"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Frogs, toads, and salamanders are all amphibians, characterized by their ability to live both in water and on land.",
+    "detailedExplanation": "Amphibia is a class of vertebrates that includes frogs, toads, salamanders, and caecilians. The name 'amphibian' means 'both lives,' referring to their typical life cycle that involves both aquatic larval stages (like tadpoles) and terrestrial adult stages. Most amphibians have permeable skin that can absorb water and oxygen, undergo metamorphosis during development, and require moist environments to prevent dehydration. They are ectothermic (cold-blooded) and were among the first vertebrates to successfully colonize land environments.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Amphibian",
+    "citationTitle": "Wikipedia: Amphibian"
+  },
+  {
+    "id": "f5e69feb-6882-4906-bc1b-fdc6bc5dfb52",
+    "text": "Which plant family do roses, apples, and strawberries all belong to?",
+    "options": [
+      "Rosaceae",
+      "Solanaceae",
+      "Brassicaceae",
+      "Fabaceae"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Roses, apples, and strawberries all belong to the Rosaceae family, also known as the rose family.",
+    "detailedExplanation": "The Rosaceae family, commonly called the rose family, is a large plant family that includes many economically important species. This family is characterized by flowers that typically have five petals and numerous stamens. Besides roses, apples, and strawberries, the family also includes cherries, plums, peaches, pears, and many ornamental shrubs. Many members of this family produce edible fruits and are cultivated worldwide for food production.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Rosaceae",
+    "citationTitle": "Wikipedia: Rosaceae"
+  },
+  {
+    "id": "59c05a33-fe53-432c-ad78-0cf31da6481a",
+    "text": "Which pigment is responsible for the red and blue colors in many flowers and fruits?",
+    "options": [
+      "Chlorophyll",
+      "Carotenoids",
+      "Anthocyanins",
+      "Xanthophylls"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Anthocyanins are water-soluble pigments that produce red, purple, and blue colors in plant tissues.",
+    "detailedExplanation": "Anthocyanins are a class of flavonoid compounds that act as natural pigments in plants, responsible for red, purple, blue, and sometimes black colors in flowers, fruits, and leaves. These pigments serve multiple functions including attracting pollinators and seed dispersers, protecting against UV radiation, and providing antioxidant properties. Foods rich in anthocyanins include blueberries, red grapes, purple cabbage, and red roses. The intensity and specific hue depend on factors like pH levels and the presence of other compounds.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Anthocyanin",
+    "citationTitle": "Wikipedia: Anthocyanin"
+  },
+  {
+    "id": "0fdfed83-ae6d-444c-a439-c722a9f3b669",
+    "text": "What type of root system is characterized by one main root growing straight down?",
+    "options": [
+      "Fibrous root system",
+      "Taproot system",
+      "Adventitious root system",
+      "Aerial root system"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "A taproot system has one dominant main root that grows vertically downward with smaller lateral roots branching off.",
+    "detailedExplanation": "A taproot system consists of one primary root that grows straight down into the soil, with smaller secondary and tertiary roots branching off from it. This system is common in dicotyledonous plants like carrots, radishes, and oak trees. Taproots can penetrate deeply into soil to access water and nutrients, and they often serve as storage organs for carbohydrates. This contrasts with fibrous root systems, where many roots of similar size spread out horizontally, which is typical of monocots like grasses.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Taproot",
+    "citationTitle": "Wikipedia: Taproot"
+  },
+  {
+    "id": "d4055e0b-725f-447d-8877-f727bab3d5b9",
+    "text": "What is the waxy protective layer that covers the surface of most plant leaves called?",
+    "options": [
+      "Epidermis",
+      "Cuticle",
+      "Stomata",
+      "Mesophyll"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "The cuticle is a waxy, waterproof layer that covers the epidermis of leaves and stems to prevent water loss.",
+    "detailedExplanation": "The cuticle is a protective waxy layer that covers the outer surface of leaves, young stems, and other aerial parts of plants. Composed primarily of waxy substances called cutins, the cuticle serves as a barrier against water loss, UV radiation, and pathogens. The thickness and composition of the cuticle can vary significantly between species and environmental conditions - desert plants typically have thicker cuticles to conserve water, while shade plants may have thinner cuticles since water conservation is less critical.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Plant_cuticle",
+    "citationTitle": "Wikipedia: Plant cuticle"
+  }
+]

@@ -1,0 +1,342 @@
+[
+  {
+    "id": "cc7ab701-d9cd-4e5a-9095-6326f2562e3e",
+    "text": "Which spacecraft was the first to successfully land on Mars and transmit data back to Earth?",
+    "options": [
+      "Viking 1",
+      "Mars Pathfinder",
+      "Mariner 4",
+      "Viking 2"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Viking 1 was the first spacecraft to successfully land on Mars and transmit data back to Earth in July 1976.",
+    "detailedExplanation": "NASA's Viking 1 mission consisted of both an orbiter and a lander. The Viking 1 lander touched down on Mars on July 20, 1976, becoming the first U.S. spacecraft to successfully land on the Red Planet and operate on its surface. It transmitted the first clear images from Mars' surface and conducted various scientific experiments, operating for over six years until 1982.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Viking_1",
+    "citationTitle": "Wikipedia: Viking 1"
+  },
+  {
+    "id": "d65bb889-d512-40f0-b8f6-4d1b44657079",
+    "text": "Which Apollo mission was the first to successfully land humans on the Moon?",
+    "options": [
+      "Apollo 10",
+      "Apollo 11",
+      "Apollo 8",
+      "Apollo 12"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Apollo 11 successfully landed Neil Armstrong and Buzz Aldrin on the Moon on July 20, 1969.",
+    "detailedExplanation": "Apollo 11 was the culmination of the Apollo program's goal to land humans on the Moon before the end of the 1960s. The mission launched on July 16, 1969, with astronauts Neil Armstrong, Buzz Aldrin, and Michael Collins. Armstrong became the first human to step onto the lunar surface, followed by Aldrin, while Collins remained in lunar orbit aboard the command module.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Apollo_11",
+    "citationTitle": "Wikipedia: Apollo 11"
+  },
+  {
+    "id": "af60c472-4997-42e8-8247-9bf2b760ad76",
+    "text": "What was the first space probe to leave our solar system and enter interstellar space?",
+    "options": [
+      "Pioneer 10",
+      "Voyager 2",
+      "Voyager 1",
+      "Pioneer 11"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Voyager 1 crossed into interstellar space in August 2012, becoming the first human-made object to do so.",
+    "detailedExplanation": "Launched in 1977, Voyager 1 was originally designed for a four-year mission to study Jupiter and Saturn. However, it continued operating far beyond expectations and crossed the heliopause boundary in August 2012, officially entering interstellar space. The probe is now more than 14 billion miles from Earth and continues to send back valuable scientific data about the conditions beyond our solar system.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Voyager_1",
+    "citationTitle": "Wikipedia: Voyager 1"
+  },
+  {
+    "id": "eb6e2e9c-b59c-484a-904a-870b138e2cb9",
+    "text": "What was the first successful Mars rover to operate on the planet's surface?",
+    "options": [
+      "Spirit",
+      "Sojourner",
+      "Opportunity",
+      "Curiosity"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Sojourner was the first successful Mars rover, operating on Mars from July to September 1997 as part of the Mars Pathfinder mission.",
+    "detailedExplanation": "Sojourner was a six-wheeled rover about the size of a microwave oven that landed on Mars as part of the Mars Pathfinder mission on July 4, 1997. Designed to operate for just seven days, it exceeded expectations by functioning for 85 days. The rover analyzed rocks and soil, took thousands of images, and proved that mobile robotic exploration of Mars was feasible, paving the way for future, larger rovers.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Sojourner_(rover)",
+    "citationTitle": "Wikipedia: Sojourner (rover)"
+  },
+  {
+    "id": "b1dd413a-c85b-4284-a841-0cdd62175a29",
+    "text": "Which mission was the first to successfully return samples from the Moon to Earth?",
+    "options": [
+      "Luna 15",
+      "Apollo 11",
+      "Luna 16",
+      "Chang'e 5"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Luna 16 was the first robotic mission to successfully return lunar samples to Earth in September 1970.",
+    "detailedExplanation": "While Apollo 11 astronauts brought back lunar samples manually, Luna 16 was the first automated spacecraft to collect and return lunar samples to Earth. This Soviet mission landed on the Moon on September 20, 1970, collected 101 grams of lunar soil using a drilling apparatus, and successfully returned the samples to Earth. This achievement demonstrated that robotic missions could successfully perform complex sample-return operations.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Luna_16",
+    "citationTitle": "Wikipedia: Luna 16"
+  },
+  {
+    "id": "7f6ed4c5-28a4-4ebf-bef4-3e2265145a6c",
+    "text": "What was the first spacecraft to successfully orbit Jupiter?",
+    "options": [
+      "Voyager 1",
+      "Galileo",
+      "Pioneer 10",
+      "Juno"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "NASA's Galileo spacecraft became the first to orbit Jupiter when it arrived at the planet in December 1995.",
+    "detailedExplanation": "The Galileo spacecraft was launched in 1989 and took six years to reach Jupiter, using gravity assists from Venus and Earth. It became the first spacecraft to orbit the gas giant in December 1995, studying Jupiter and its moons for eight years. The mission made numerous groundbreaking discoveries, including evidence of subsurface oceans on Europa and detailed observations of Jupiter's atmosphere, ending dramatically in 2003 when it was deliberately crashed into Jupiter.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Galileo_(spacecraft)",
+    "citationTitle": "Wikipedia: Galileo (spacecraft)"
+  },
+  {
+    "id": "091a1ed2-0656-436b-84e0-69125ae17178",
+    "text": "Which physicist formulated the three laws of planetary motion in the early 1600s?",
+    "options": [
+      "Galileo Galilei",
+      "Isaac Newton",
+      "Johannes Kepler",
+      "Nicolaus Copernicus"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Johannes Kepler discovered that planets move in elliptical orbits, not perfect circles as previously believed.",
+    "detailedExplanation": "Johannes Kepler, a German astronomer and mathematician, formulated his three laws of planetary motion between 1609 and 1619. His laws describe how planets orbit the Sun in elliptical paths, how they speed up when closer to the Sun, and the mathematical relationship between orbital period and distance. These laws were groundbreaking because they contradicted the ancient belief in perfect circular orbits and laid the foundation for Newton's later work on gravitation.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Johannes_Kepler",
+    "citationTitle": "Wikipedia: Johannes Kepler"
+  },
+  {
+    "id": "719d9b1f-096f-4c1e-905d-1db5468e8819",
+    "text": "What type of symmetry do adult echinoderms (like starfish and sea urchins) display?",
+    "options": [
+      "Bilateral symmetry",
+      "Radial symmetry",
+      "Asymmetry",
+      "Spherical symmetry"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Adult echinoderms exhibit radial symmetry, typically with five-fold symmetry around a central axis.",
+    "detailedExplanation": "Echinoderms are unique among complex animals because they develop bilateral symmetry as larvae but transform into radially symmetric adults, usually with pentaradial (five-fold) symmetry. This means their body parts are arranged around a central axis, like spokes on a wheel. A starfish, for example, typically has five arms radiating from a central disc. This radial symmetry is thought to be advantageous for their largely sedentary or slow-moving lifestyle on the sea floor, allowing them to interact with their environment equally in all directions.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Echinoderm",
+    "citationTitle": "Wikipedia: Echinoderm"
+  },
+  {
+    "id": "792724a4-dbba-4f89-978d-b7e2a8beb17a",
+    "text": "Which layer of the Earth is responsible for generating the planet's magnetic field?",
+    "options": [
+      "Crust",
+      "Mantle",
+      "Outer core",
+      "Inner core"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "The outer core, composed of liquid iron and nickel, generates Earth's magnetic field through convective motion.",
+    "detailedExplanation": "Earth's magnetic field is generated in the outer core, a layer of liquid iron and nickel located between 2,890 and 5,150 kilometers below the surface. The movement of this electrically conductive liquid metal, driven by heat from the inner core and rotation of the Earth, creates electric currents that produce the magnetic field through a process called the geodynamo. This magnetic field is crucial for life on Earth as it deflects harmful solar radiation and cosmic rays, and it also enables navigation using compasses.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Earth%27s_magnetic_field",
+    "citationTitle": "Wikipedia: Earth's magnetic field"
+  },
+  {
+    "id": "460d9689-f85c-4df8-9907-6712fe45dc39",
+    "text": "Which spacecraft was the first to successfully land humans on the Moon?",
+    "options": [
+      "Apollo 10",
+      "Apollo 11",
+      "Apollo 12",
+      "Luna 15"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Apollo 11 successfully landed Neil Armstrong and Buzz Aldrin on the Moon on July 20, 1969.",
+    "detailedExplanation": "Apollo 11 was the historic NASA mission that achieved President Kennedy's goal of landing humans on the Moon before the end of the 1960s. On July 20, 1969, the Lunar Module Eagle touched down in the Sea of Tranquility with Neil Armstrong and Buzz Aldrin aboard, while Michael Collins orbited in the Command Module. Armstrong became the first human to step onto the lunar surface, followed by Aldrin, marking humanity's first steps on another celestial body.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Apollo_11",
+    "citationTitle": "Wikipedia: Apollo 11"
+  },
+  {
+    "id": "b20eb77b-ce82-492f-b21e-3a72376138f1",
+    "text": "Which space probe was the first to leave our solar system and enter interstellar space?",
+    "options": [
+      "Pioneer 10",
+      "Voyager 1",
+      "Voyager 2",
+      "New Horizons"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Voyager 1 crossed into interstellar space in August 2012, becoming the first human-made object to do so.",
+    "detailedExplanation": "Voyager 1, launched in 1977, became the first human-made object to enter interstellar space when it crossed the heliopause boundary in August 2012. This milestone occurred about 35 years after its launch and at a distance of approximately 121 astronomical units from the Sun. The spacecraft detected changes in cosmic ray levels and plasma density that confirmed it had left the heliosphere - the bubble of charged particles surrounding our solar system. Voyager 1 continues to transmit data back to Earth, providing unprecedented insights into the nature of interstellar space.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Voyager_1",
+    "citationTitle": "Wikipedia: Voyager 1"
+  },
+  {
+    "id": "ab453305-8de8-4ecd-9b38-c176e9d0c0dd",
+    "text": "Which Mars rover successfully landed in Jezero Crater in February 2021?",
+    "options": [
+      "Curiosity",
+      "Opportunity",
+      "Perseverance",
+      "Sojourner"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "NASA's Perseverance rover landed in Jezero Crater on February 18, 2021, to search for signs of ancient life.",
+    "detailedExplanation": "NASA's Perseverance rover successfully landed in Jezero Crater on Mars on February 18, 2021, after a dramatic entry sequence that included the innovative 'sky crane' landing system. The six-wheeled rover is part of NASA's Mars 2020 mission and is designed to search for signs of ancient microbial life, collect rock and soil samples for future return to Earth, and generate oxygen from the Martian atmosphere. Perseverance also carries the Ingenuity helicopter, which became the first powered aircraft to fly on another planet.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Perseverance_(rover)",
+    "citationTitle": "Wikipedia: Perseverance (rover)"
+  },
+  {
+    "id": "9f74d4d6-a204-4fe4-8f07-ebe096b723a4",
+    "text": "What was the first space station launched by any country?",
+    "options": [
+      "Skylab",
+      "Mir",
+      "Salyut 1",
+      "Tiangong-1"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Salyut 1 was launched by the Soviet Union on April 19, 1971, becoming the world's first space station.",
+    "detailedExplanation": "Salyut 1 was launched by the Soviet Union on April 19, 1971, marking the beginning of the space station era. The station was 14.6 meters long and designed to be crewed by three cosmonauts for extended periods. Although the first crew mission (Soyuz 10) failed to dock properly, the second mission (Soyuz 11) successfully docked and the crew spent 23 days aboard - a new space endurance record at the time. Tragically, the Soyuz 11 crew died during re-entry due to cabin depressurization, but Salyut 1 proved the concept of long-duration spaceflight and paved the way for future space stations.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Salyut_1",
+    "citationTitle": "Wikipedia: Salyut 1"
+  },
+  {
+    "id": "b36bab8b-9d13-45f3-8da4-bf428e3dcbb7",
+    "text": "Which spacecraft performed the first successful flyby of Pluto?",
+    "options": [
+      "Cassini",
+      "New Horizons",
+      "Dawn",
+      "Juno"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "New Horizons flew past Pluto on July 14, 2015, providing the first close-up images of the dwarf planet.",
+    "detailedExplanation": "NASA's New Horizons spacecraft made history on July 14, 2015, when it conducted the first successful flyby of Pluto, coming within 7,800 miles of the dwarf planet's surface. Launched in 2006, the probe traveled for over nine years to reach Pluto, covering a distance of about 3 billion miles. The mission revealed Pluto to be a geologically active world with a complex atmosphere, nitrogen plains, water-ice mountains, and possible subsurface ocean. New Horizons also studied Pluto's largest moon, Charon, and provided detailed images that revolutionized our understanding of the outer solar system.",
+    "citationUrl": "https://en.wikipedia.org/wiki/New_Horizons",
+    "citationTitle": "Wikipedia: New Horizons"
+  },
+  {
+    "id": "3efd1287-a7af-4ae7-a010-16dbd8a94e8d",
+    "text": "Which company became the first private organization to successfully dock a spacecraft with the International Space Station?",
+    "options": [
+      "Boeing",
+      "SpaceX",
+      "Virgin Galactic",
+      "Blue Origin"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "SpaceX's Dragon capsule successfully docked with the ISS in May 2012, marking a milestone in commercial spaceflight.",
+    "detailedExplanation": "SpaceX made history on May 25, 2012, when its Dragon capsule became the first commercial spacecraft to successfully dock with the International Space Station. This achievement was part of NASA's Commercial Orbital Transportation Services (COTS) program, designed to develop private sector capabilities for cargo resupply missions to the ISS. The Dragon capsule was launched on a Falcon 9 rocket and spent six days docked to the station before returning to Earth with cargo. This milestone marked the beginning of the commercial space era and reduced NASA's dependence on foreign spacecraft for ISS operations.",
+    "citationUrl": "https://en.wikipedia.org/wiki/SpaceX_Dragon",
+    "citationTitle": "Wikipedia: SpaceX Dragon"
+  },
+  {
+    "id": "710fe1e9-34ee-45a4-bcfc-63313953f7cc",
+    "text": "What was the primary mission objective of the Cassini spacecraft?",
+    "options": [
+      "Study Jupiter's moons",
+      "Explore Saturn and its moons",
+      "Search for asteroids",
+      "Map Venus's surface"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Cassini was launched in 1997 to study Saturn, its rings, and its moons, operating until 2017.",
+    "detailedExplanation": "The Cassini-Huygens mission was a joint NASA-ESA project launched in 1997 with the primary goal of studying Saturn, its spectacular ring system, and its diverse collection of moons. During its 20-year journey and 13-year orbital mission around Saturn, Cassini made groundbreaking discoveries including liquid methane lakes on Titan, geysers of water ice on Enceladus, and detailed observations of Saturn's rings. The mission concluded in September 2017 when Cassini was deliberately crashed into Saturn's atmosphere.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Cassini%E2%80%93Huygens",
+    "citationTitle": "Wikipedia: Cassini–Huygens"
+  },
+  {
+    "id": "14bdddf0-6267-458c-8aab-bbf2dddc1c05",
+    "text": "Which astronaut holds the record for the longest single spaceflight in history?",
+    "options": [
+      "Scott Kelly",
+      "Valeri Polyakov",
+      "Sergei Krikalev",
+      "Peggy Whitson"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Valeri Polyakov spent 437 days aboard the Mir space station from 1994-1995.",
+    "detailedExplanation": "Russian cosmonaut Valeri Polyakov holds the record for the longest single spaceflight, spending 437 days, 17 hours, and 58 minutes aboard the Mir space station from January 8, 1994, to March 22, 1995. This remarkable endurance mission was conducted to study the long-term effects of spaceflight on the human body, particularly in preparation for potential Mars missions. Polyakov's record still stands today, though it may be broken as space agencies prepare for longer-duration missions to Mars and beyond.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Valeri_Polyakov",
+    "citationTitle": "Wikipedia: Valeri Polyakov"
+  },
+  {
+    "id": "c2465b76-5532-4f1a-a85c-889b3ea93db3",
+    "text": "What significant space exploration first did the New Horizons mission achieve in 2015?",
+    "options": [
+      "First landing on an asteroid",
+      "First flyby of Pluto",
+      "First orbit of Neptune",
+      "First sample return from a comet"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "New Horizons became the first spacecraft to fly by Pluto in July 2015, providing our first close-up images of the dwarf planet.",
+    "detailedExplanation": "NASA's New Horizons spacecraft made history on July 14, 2015, when it became the first spacecraft to fly by Pluto, coming within 7,800 miles of the dwarf planet's surface. Launched in 2006, the mission revealed Pluto to be a surprisingly complex and geologically active world with nitrogen plains, methane ice, and a thin atmosphere. The flyby provided humanity's first detailed images and scientific data about Pluto and its largest moon Charon, revolutionizing our understanding of objects in the outer solar system.",
+    "citationUrl": "https://en.wikipedia.org/wiki/New_Horizons",
+    "citationTitle": "Wikipedia: New Horizons"
+  },
+  {
+    "id": "2b419b16-2eb2-467e-b8a2-901adb1afe93",
+    "text": "Which spacecraft became the first human-made object to enter interstellar space in 2012?",
+    "options": [
+      "Voyager 1",
+      "Voyager 2",
+      "Pioneer 10",
+      "New Horizons"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Voyager 1 crossed into interstellar space in August 2012, becoming the first human-made object to leave the solar system.",
+    "detailedExplanation": "Launched in 1977, Voyager 1 made history on August 25, 2012, when it officially entered interstellar space after crossing the heliopause - the boundary where the solar wind meets the interstellar medium. This milestone was confirmed by measuring changes in plasma density and magnetic field data. The spacecraft had traveled over 11 billion miles from Earth to achieve this historic feat, making it humanity's most distant ambassador to the cosmos.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Voyager_1",
+    "citationTitle": "Wikipedia: Voyager 1"
+  },
+  {
+    "id": "1964c937-ca8a-4b9a-84e7-f7c3e8f02dbf",
+    "text": "What was the name of the first space station launched by the Soviet Union in 1971?",
+    "options": [
+      "Mir",
+      "Salyut 1",
+      "Skylab",
+      "Almaz"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Salyut 1 was the world's first space station, launched by the Soviet Union on April 19, 1971.",
+    "detailedExplanation": "Salyut 1 marked the beginning of the space station era when it was launched on April 19, 1971. Though the first crew mission (Soyuz 10) failed to dock properly, and the tragic Soyuz 11 crew died during reentry after a successful 23-day stay, Salyut 1 proved that humans could live and work in space for extended periods. The station operated for 175 days before being deorbited, paving the way for future space stations including the later Salyut series, Mir, and eventually the International Space Station.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Salyut_1",
+    "citationTitle": "Wikipedia: Salyut 1"
+  }
+]

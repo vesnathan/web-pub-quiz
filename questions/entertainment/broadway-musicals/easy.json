@@ -1,0 +1,342 @@
+[
+  {
+    "id": "d9aaacc5-b209-4dde-8906-6be03fb657da",
+    "text": "Which Broadway musical features the songs 'Memory' and 'The Rum Tum Tugger'?",
+    "options": [
+      "Cats",
+      "The Lion King",
+      "Chicago",
+      "Phantom of the Opera"
+    ],
+    "correctIndex": 0,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "Cats features 'Memory' as its most famous song and 'The Rum Tum Tugger' as another well-known number.",
+    "detailedExplanation": "Cats, based on T.S. Eliot's 'Old Possum's Book of Practical Cats,' premiered on Broadway in 1982 and became one of the longest-running shows in Broadway history. The musical features various cat characters, with 'Memory' being sung by Grizabella and 'The Rum Tum Tugger' being a playful number about a mischievous cat character. The show ran for 18 years on Broadway before closing in 2000.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Cats_(musical)",
+    "citationTitle": "Wikipedia: Cats (musical)"
+  },
+  {
+    "id": "cf314500-463b-4e9a-a96a-e38846d0b335",
+    "text": "What is the name of the main character in the musical 'Hamilton'?",
+    "options": [
+      "Thomas Jefferson",
+      "George Washington",
+      "Alexander Hamilton",
+      "Aaron Burr"
+    ],
+    "correctIndex": 2,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "Alexander Hamilton is the titular character and protagonist of the musical 'Hamilton.'",
+    "detailedExplanation": "Hamilton is a biographical musical about Alexander Hamilton, one of America's founding fathers and the first Secretary of the Treasury. Created by Lin-Manuel Miranda, the musical premiered on Broadway in 2015 and tells Hamilton's life story from his arrival in New York through his death in a duel with Aaron Burr. The show revolutionized Broadway with its hip-hop influenced score and diverse casting.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Hamilton_(musical)",
+    "citationTitle": "Wikipedia: Hamilton (musical)"
+  },
+  {
+    "id": "281391a6-c461-4c35-99c8-a7f45c385e0d",
+    "text": "Which Broadway musical is set in the fictional town of River City, Iowa?",
+    "options": [
+      "Oklahoma!",
+      "The Music Man",
+      "State Fair",
+      "Carousel"
+    ],
+    "correctIndex": 1,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "The Music Man takes place in River City, Iowa, where con man Harold Hill tries to sell band instruments.",
+    "detailedExplanation": "The Music Man premiered on Broadway in 1957 and follows Harold Hill, a traveling salesman who poses as a boys' band leader to con the people of River City, Iowa, into buying instruments. The musical features classic songs like '76 Trombones' and 'Till There Was You.' The show won five Tony Awards and has been revived multiple times on Broadway, becoming a beloved American classic.",
+    "citationUrl": "https://en.wikipedia.org/wiki/The_Music_Man",
+    "citationTitle": "Wikipedia: The Music Man"
+  },
+  {
+    "id": "30e7d5df-8d06-4d45-b9cf-fa7b1225d0a4",
+    "text": "What does the 'T' in RENT stand for in the context of the musical's themes?",
+    "options": [
+      "Time",
+      "Truth",
+      "The rent money",
+      "Trust"
+    ],
+    "correctIndex": 2,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "RENT centers around a group of friends struggling to pay their rent while dealing with love, loss, and life in New York City.",
+    "detailedExplanation": "RENT, which premiered on Broadway in 1996, follows a group of young artists and friends living in New York's East Village during the HIV/AIDS crisis. The title refers to the literal rent money the characters struggle to pay, which serves as a metaphor for the cost of pursuing artistic dreams and living authentically. The musical was created by Jonathan Larson and won the Pulitzer Prize for Drama and four Tony Awards.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Rent_(musical)",
+    "citationTitle": "Wikipedia: Rent (musical)"
+  },
+  {
+    "id": "90fca47f-bfe3-4929-92d8-b8be03f040df",
+    "text": "Which musical features the song 'Defying Gravity'?",
+    "options": [
+      "Wicked",
+      "The Lion King",
+      "Mamma Mia!",
+      "Les Misérables"
+    ],
+    "correctIndex": 0,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "'Defying Gravity' is the Act I finale of Wicked, sung by the character Elphaba.",
+    "detailedExplanation": "Wicked premiered on Broadway in 2003 and serves as a prequel to The Wizard of Oz, focusing on the friendship between Elphaba (the future Wicked Witch of the West) and Glinda the Good Witch. 'Defying Gravity' is one of the musical's most iconic songs, performed at the end of Act I when Elphaba embraces her power and literally rises above the stage. The song has become a showcase piece for Broadway performers.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Wicked_(musical)",
+    "citationTitle": "Wikipedia: Wicked (musical)"
+  },
+  {
+    "id": "71e13b21-4eaf-47de-b59d-b0e064434fa4",
+    "text": "What Broadway musical is based on the life of Eva Perón?",
+    "options": [
+      "Evita",
+      "Cabaret",
+      "Chicago",
+      "Annie"
+    ],
+    "correctIndex": 0,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "Evita tells the story of Eva Perón, the wife of Argentine president Juan Perón.",
+    "detailedExplanation": "Evita premiered on Broadway in 1979 and chronicles the life of Eva Perón, from her humble beginnings to becoming the First Lady of Argentina. Created by Andrew Lloyd Webber and Tim Rice, the musical features famous songs like 'Don't Cry for Me Argentina' and 'Another Suitcase in Another Hall.' The show won seven Tony Awards and was later adapted into a successful film starring Madonna.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Evita_(musical)",
+    "citationTitle": "Wikipedia: Evita (musical)"
+  },
+  {
+    "id": "9737e694-cb19-46ec-900c-946d0f5d9736",
+    "text": "Which musical features characters named Tony and Maria?",
+    "options": [
+      "Romeo and Juliet",
+      "West Side Story",
+      "Grease",
+      "Hair"
+    ],
+    "correctIndex": 1,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "West Side Story features star-crossed lovers Tony and Maria from rival gangs in New York.",
+    "detailedExplanation": "West Side Story premiered on Broadway in 1957 and is a modern retelling of Romeo and Juliet set in New York City. The musical focuses on the romance between Tony, a former member of the Jets gang, and Maria, the sister of the leader of the rival Sharks gang. With music by Leonard Bernstein and lyrics by Stephen Sondheim, the show features classic songs like 'Maria,' 'Tonight,' and 'America.'",
+    "citationUrl": "https://en.wikipedia.org/wiki/West_Side_Story",
+    "citationTitle": "Wikipedia: West Side Story"
+  },
+  {
+    "id": "323517ec-ae1a-47dd-a729-0a7cc67b180e",
+    "text": "What is the longest-running Broadway musical of all time?",
+    "options": [
+      "Cats",
+      "Chicago",
+      "The Lion King",
+      "The Phantom of the Opera"
+    ],
+    "correctIndex": 3,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "The Phantom of the Opera held the record as the longest-running Broadway musical for over 30 years.",
+    "detailedExplanation": "The Phantom of the Opera opened on Broadway in 1988 and ran continuously until April 2023, making it the longest-running show in Broadway history with over 13,900 performances. Created by Andrew Lloyd Webber, the musical tells the story of a mysterious masked figure who haunts the Paris Opera House and becomes obsessed with a young soprano named Christine. The show won seven Tony Awards and has been seen by millions of theatergoers worldwide.",
+    "citationUrl": "https://en.wikipedia.org/wiki/The_Phantom_of_the_Opera_(1986_musical)",
+    "citationTitle": "Wikipedia: The Phantom of the Opera (1986 musical)"
+  },
+  {
+    "id": "9699ca3e-1416-4d62-9760-62188e027487",
+    "text": "Which Broadway musical features the songs 'Memory' and 'Jellicle Songs for Jellicle Cats'?",
+    "options": [
+      "Cats",
+      "Chicago",
+      "Hair",
+      "Rent"
+    ],
+    "correctIndex": 0,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "Cats features both 'Memory' and 'Jellicle Songs for Jellicle Cats' as signature songs.",
+    "detailedExplanation": "Cats is a musical composed by Andrew Lloyd Webber based on T.S. Eliot's Old Possum's Book of Practical Cats. 'Memory' is the show's most famous song, sung by the character Grizabella, while 'Jellicle Songs for Jellicle Cats' is the opening number that introduces the concept of Jellicle cats. The musical premiered on Broadway in 1982 and ran for 18 years, making it one of the longest-running shows in Broadway history at the time.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Cats_(musical)",
+    "citationTitle": "Wikipedia: Cats (musical)"
+  },
+  {
+    "id": "ffec1722-13c5-4d19-a022-12617744d5f3",
+    "text": "What is the name of the main character in the Broadway musical 'The Phantom of the Opera'?",
+    "options": [
+      "Erik",
+      "Raoul",
+      "Carlotta",
+      "Piangi"
+    ],
+    "correctIndex": 0,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "The Phantom's real name is Erik, though he is primarily known simply as 'The Phantom.'",
+    "detailedExplanation": "In Andrew Lloyd Webber's 'The Phantom of the Opera,' the mysterious masked figure who haunts the Paris Opera House is named Erik. While he is referred to throughout most of the musical simply as 'The Phantom' or 'The Opera Ghost,' his actual name Erik is revealed in the story. The character was originally created by French author Gaston Leroux in his 1910 novel, and Lloyd Webber's musical adaptation premiered on Broadway in 1988, becoming the longest-running show in Broadway history.",
+    "citationUrl": "https://en.wikipedia.org/wiki/The_Phantom_of_the_Opera_(1986_musical)",
+    "citationTitle": "Wikipedia: The Phantom of the Opera (1986 musical)"
+  },
+  {
+    "id": "ce78536a-c21a-4752-b45f-0ef1c2e2d663",
+    "text": "Which Broadway musical tells the story of founding father Alexander Hamilton?",
+    "options": [
+      "1776",
+      "Hamilton",
+      "Assassins",
+      "Liberty"
+    ],
+    "correctIndex": 1,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "Hamilton is the biographical musical about Alexander Hamilton created by Lin-Manuel Miranda.",
+    "detailedExplanation": "Hamilton is a biographical musical about Alexander Hamilton, one of the Founding Fathers of the United States, created by Lin-Manuel Miranda. The musical covers Hamilton's life from his arrival in New York as a young immigrant through his rise in politics and his death in a duel with Aaron Burr. The show premiered off-Broadway in 2015 and moved to Broadway the same year, where it became a cultural phenomenon, winning 11 Tony Awards and the Pulitzer Prize for Drama.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Hamilton_(musical)",
+    "citationTitle": "Wikipedia: Hamilton (musical)"
+  },
+  {
+    "id": "ba354b7f-ca92-4d3e-9eea-305e79af3dcb",
+    "text": "In 'The Lion King' musical, what type of animals are Timon and Pumbaa?",
+    "options": [
+      "Meerkat and warthog",
+      "Monkey and elephant",
+      "Zebra and giraffe",
+      "Hyena and cheetah"
+    ],
+    "correctIndex": 0,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "Timon is a meerkat and Pumbaa is a warthog, the same as in the Disney animated film.",
+    "detailedExplanation": "In Disney's 'The Lion King' musical, Timon and Pumbaa are the comedic duo who befriend young Simba. Timon is a meerkat and Pumbaa is a warthog, and they teach Simba their philosophy of 'Hakuna Matata' (no worries). The Broadway musical, which opened in 1997, faithfully adapted these characters from the 1994 Disney animated film, using innovative puppetry and costume design by Julie Taymor to bring the African savanna and its animals to life on stage.",
+    "citationUrl": "https://en.wikipedia.org/wiki/The_Lion_King_(musical)",
+    "citationTitle": "Wikipedia: The Lion King (musical)"
+  },
+  {
+    "id": "1444cc2a-8998-4e89-8b33-995dc3982a69",
+    "text": "Which Broadway musical features the song 'Defying Gravity'?",
+    "options": [
+      "Hairspray",
+      "Mamma Mia!",
+      "Wicked",
+      "Jersey Boys"
+    ],
+    "correctIndex": 2,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "'Defying Gravity' is the Act 1 finale of Wicked, sung by the character Elphaba.",
+    "detailedExplanation": "'Defying Gravity' is one of the most iconic songs from the musical Wicked, serving as the powerful Act 1 finale. The song is performed by Elphaba (the Wicked Witch of the West) as she decides to embrace her powers and defy the corrupt system of Oz. Wicked, which premiered on Broadway in 2003, tells the untold story of the witches of Oz and is based on Gregory Maguire's novel. The song showcases the impressive vocal range required for the role of Elphaba and has become a showcase piece for musical theatre performers.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Wicked_(musical)",
+    "citationTitle": "Wikipedia: Wicked (musical)"
+  },
+  {
+    "id": "ea79032c-ba50-4eb2-93e4-57651293697b",
+    "text": "What city is the setting for the musical 'Chicago'?",
+    "options": [
+      "New York City",
+      "Chicago",
+      "Los Angeles",
+      "Detroit"
+    ],
+    "correctIndex": 1,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "Chicago is set in Chicago, Illinois, during the jazz age of the 1920s.",
+    "detailedExplanation": "The musical Chicago is set in Chicago, Illinois, during the Prohibition era of the 1920s. The story follows Roxie Hart and Velma Kelly, two women on trial for murder, as they compete for fame and media attention. The musical, with music by John Kander and lyrics by Fred Ebb, was inspired by real events and trials that took place in Chicago during this period. The show captures the corruption, celebrity culture, and jazz age atmosphere of 1920s Chicago, making the city itself an integral part of the story's identity.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Chicago_(musical)",
+    "citationTitle": "Wikipedia: Chicago (musical)"
+  },
+  {
+    "id": "1da205d9-2fd9-4471-b1c3-402760ac0912",
+    "text": "Which Broadway musical is based on the music of the Swedish pop group ABBA?",
+    "options": [
+      "Rock of Ages",
+      "Mamma Mia!",
+      "We Will Rock You",
+      "Movin' Out"
+    ],
+    "correctIndex": 1,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "Mamma Mia! is the jukebox musical built around the hit songs of ABBA.",
+    "detailedExplanation": "Mamma Mia! is a jukebox musical written by British playwright Catherine Johnson, based on the songs of ABBA composed by Benny Andersson and Björn Ulvaeus, former members of the Swedish pop group. The musical's title is taken from ABBA's 1975 chart-topper 'Mamma Mia.' The story revolves around a young woman's quest to discover the identity of her father, bringing three men from her mother's past back to a Greek island for her wedding. The musical premiered in London's West End in 1999 and opened on Broadway in 2001.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Mamma_Mia!_(musical)",
+    "citationTitle": "Wikipedia: Mamma Mia! (musical)"
+  },
+  {
+    "id": "bc8876ac-eca0-4e91-97f1-82e709573098",
+    "text": "In the musical 'Oklahoma!', what state does the story take place in?",
+    "options": [
+      "Texas",
+      "Oklahoma",
+      "Kansas",
+      "Arkansas"
+    ],
+    "correctIndex": 1,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "Oklahoma! is set in Oklahoma Territory at the turn of the 20th century.",
+    "detailedExplanation": "Oklahoma! is set in Oklahoma Territory in 1906, just before Oklahoma became a state in 1907. The musical, with music by Richard Rodgers and book and lyrics by Oscar Hammerstein II, was groundbreaking when it premiered on Broadway in 1943. The story focuses on farm girl Laurey Williams and her courtship by two rival suitors, cowboy Curly McLain and the sinister Jud Fry. The musical was revolutionary for integrating songs, dances, and plot in a cohesive way and is often credited with creating the template for the modern American musical.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Oklahoma!",
+    "citationTitle": "Wikipedia: Oklahoma!"
+  },
+  {
+    "id": "018b9899-736c-42ea-bdb6-348033b3e074",
+    "text": "Which Broadway musical features the song 'Memory' sung by the character Grizabella?",
+    "options": [
+      "Phantom of the Opera",
+      "Cats",
+      "Chicago",
+      "Les Misérables"
+    ],
+    "correctIndex": 1,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "The song 'Memory' is the signature song from the musical Cats, performed by the character Grizabella.",
+    "detailedExplanation": "Cats is a musical composed by Andrew Lloyd Webber based on T.S. Eliot's Old Possum's Book of Practical Cats. The song 'Memory' is sung by Grizabella, a former glamour cat who is now old and shabby. It became one of the most recognizable songs in musical theater history and helped propel the show to become one of the longest-running musicals on Broadway.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Cats_(musical)",
+    "citationTitle": "Wikipedia: Cats (musical)"
+  },
+  {
+    "id": "01b6d471-8f06-49a2-9157-d97d200b277c",
+    "text": "In which musical would you hear the song 'Defying Gravity'?",
+    "options": [
+      "Wicked",
+      "Mamma Mia!",
+      "Hamilton",
+      "The Lion King"
+    ],
+    "correctIndex": 0,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "'Defying Gravity' is the Act 1 finale of the Broadway musical Wicked, sung primarily by Elphaba.",
+    "detailedExplanation": "Wicked is a musical with music and lyrics by Stephen Schwartz and book by Winnie Holzman. 'Defying Gravity' is performed at the end of Act 1 by Elphaba (the future Wicked Witch of the West) as she decides to fight against the corruption she's discovered in the Wizard of Oz's government. The song is known for its soaring vocals and is considered one of the most challenging and iconic songs in contemporary musical theater.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Wicked_(musical)",
+    "citationTitle": "Wikipedia: Wicked (musical)"
+  },
+  {
+    "id": "0b4990cf-cedf-4aa4-b0d8-fb24c5edf56d",
+    "text": "Which Broadway musical is based on the songs of the Swedish pop group ABBA?",
+    "options": [
+      "Jersey Boys",
+      "Rock of Ages",
+      "Mamma Mia!",
+      "We Will Rock You"
+    ],
+    "correctIndex": 2,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "Mamma Mia! is a jukebox musical that uses the hit songs of the Swedish pop group ABBA to tell its story.",
+    "detailedExplanation": "Mamma Mia! is a musical written by British playwright Catherine Johnson, based on the songs of ABBA composed by Benny Andersson and Björn Ulvaeus, former members of the Swedish pop group. The musical tells the story of a young woman's search for her birth father, using ABBA's hit songs including 'Dancing Queen,' 'Take a Chance on Me,' and the title song 'Mamma Mia.' It became a global phenomenon and was later adapted into successful film versions.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Mamma_Mia!_(musical)",
+    "citationTitle": "Wikipedia: Mamma Mia! (musical)"
+  },
+  {
+    "id": "60c0a0ad-fdd9-46c9-a47d-9bffa867c256",
+    "text": "What is the name of the phantom's underground lair in 'The Phantom of the Opera'?",
+    "options": [
+      "The Music Box",
+      "The Opera House Cellar",
+      "The Phantom's Lair",
+      "The Lake"
+    ],
+    "correctIndex": 3,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "The Phantom's dwelling is located by an underground lake beneath the Paris Opera House, commonly referred to as 'The Lake.'",
+    "detailedExplanation": "In Andrew Lloyd Webber's 'The Phantom of the Opera,' based on Gaston Leroux's novel, the Phantom lives in a elaborate lair located on the shores of an underground lake beneath the Paris Opera House. This mysterious location is where he takes Christine Daaé in the famous boat scene, crossing the underground lake to his domain. The lake and the lair are central to the gothic atmosphere of the musical and represent the Phantom's isolation from the world above.",
+    "citationUrl": "https://en.wikipedia.org/wiki/The_Phantom_of_the_Opera_(musical)",
+    "citationTitle": "Wikipedia: The Phantom of the Opera (musical)"
+  }
+]

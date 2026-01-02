@@ -1,10 +1,13 @@
-'use client';
+"use client";
 
-import { useEffect, useState } from 'react';
-import { Button } from '@nextui-org/react';
-import { useNotifications, useCountdownNotifications } from '@/hooks/useNotifications';
-import { useGameStore } from '@/stores/gameStore';
-import { DID_YOU_KNOW_FACTS } from '@/data/didYouKnowFacts';
+import { useEffect, useState } from "react";
+import { Button } from "@nextui-org/react";
+import {
+  useNotifications,
+  useCountdownNotifications,
+} from "@/hooks/useNotifications";
+import { useGameStore } from "@/stores/gameStore";
+import { DID_YOU_KNOW_FACTS } from "@/data/didYouKnowFacts";
 
 interface CountdownTimerProps {
   targetTime: number;
@@ -12,9 +15,11 @@ interface CountdownTimerProps {
 }
 
 export function CountdownTimer({ targetTime, isActive }: CountdownTimerProps) {
-  const [timeLeft, setTimeLeft] = useState<string>('');
+  const [timeLeft, setTimeLeft] = useState<string>("");
   // Start with a random fact
-  const [factIndex, setFactIndex] = useState(() => Math.floor(Math.random() * DID_YOU_KNOW_FACTS.length));
+  const [factIndex, setFactIndex] = useState(() =>
+    Math.floor(Math.random() * DID_YOU_KNOW_FACTS.length),
+  );
   const [factFading, setFactFading] = useState(false);
   const updateSetTiming = useGameStore((state) => state.updateSetTiming);
   const questionIndex = useGameStore((state) => state.questionIndex);
@@ -49,7 +54,7 @@ export function CountdownTimer({ targetTime, isActive }: CountdownTimerProps) {
     targetTime,
     isActive,
     notificationsEnabled,
-    sendNotification
+    sendNotification,
   );
 
   useEffect(() => {
@@ -60,15 +65,15 @@ export function CountdownTimer({ targetTime, isActive }: CountdownTimerProps) {
       if (diff <= 0) {
         // Update set timing state when countdown reaches zero
         updateSetTiming();
-        setTimeLeft('Starting soon...');
-        document.title = isActive ? '🟢 LIVE - Quiz' : '⏳ Starting... - Quiz';
+        setTimeLeft("Starting soon...");
+        document.title = isActive ? "🟢 LIVE - Quiz" : "⏳ Starting... - Quiz";
         checkNotifications(diff);
         return;
       }
 
       const minutes = Math.floor(diff / 60000);
       const seconds = Math.floor((diff % 60000) / 1000);
-      const time = `${minutes}:${seconds.toString().padStart(2, '0')}`;
+      const time = `${minutes}:${seconds.toString().padStart(2, "0")}`;
 
       setTimeLeft(time);
 
@@ -88,18 +93,19 @@ export function CountdownTimer({ targetTime, isActive }: CountdownTimerProps) {
 
     return () => {
       clearInterval(interval);
-      document.title = 'Quiz Night Live';
+      document.title = "Quiz Night Live";
     };
   }, [targetTime, isActive, checkNotifications]);
 
   // Calculate pie chart progress (0-100) based on questions completed
-  const pieProgress = totalQuestions > 0 ? ((questionIndex) / totalQuestions) * 100 : 0;
+  const pieProgress =
+    totalQuestions > 0 ? (questionIndex / totalQuestions) * 100 : 0;
 
   // Notification toggle component
   const NotificationToggle = () => {
-    if (permissionState === 'unsupported') return null;
+    if (permissionState === "unsupported") return null;
 
-    if (permissionState === 'denied') {
+    if (permissionState === "denied") {
       return (
         <div className="text-sm text-gray-500">
           Notifications blocked (check browser settings)
@@ -107,15 +113,19 @@ export function CountdownTimer({ targetTime, isActive }: CountdownTimerProps) {
       );
     }
 
-    if (permissionState === 'granted') {
+    if (permissionState === "granted") {
       return (
         <Button
           size="sm"
           variant="flat"
-          onPress={notificationsEnabled ? disableNotifications : enableNotifications}
+          onPress={
+            notificationsEnabled ? disableNotifications : enableNotifications
+          }
           className="text-sm"
         >
-          {notificationsEnabled ? '🔔 Notifications on' : '🔕 Notifications off'}
+          {notificationsEnabled
+            ? "🔔 Notifications on"
+            : "🔕 Notifications off"}
         </Button>
       );
     }
@@ -151,11 +161,7 @@ export function CountdownTimer({ targetTime, isActive }: CountdownTimerProps) {
           {/* Circular progress indicator */}
           <div className="relative" style={{ width: size, height: size }}>
             {/* Background circle */}
-            <svg
-              className="transform -rotate-90"
-              width={size}
-              height={size}
-            >
+            <svg className="transform -rotate-90" width={size} height={size}>
               <circle
                 cx={size / 2}
                 cy={size / 2}
@@ -178,7 +184,13 @@ export function CountdownTimer({ targetTime, isActive }: CountdownTimerProps) {
                 className="transition-all duration-500 ease-out"
               />
               <defs>
-                <linearGradient id="progressGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                <linearGradient
+                  id="progressGradient"
+                  x1="0%"
+                  y1="0%"
+                  x2="100%"
+                  y2="0%"
+                >
                   <stop offset="0%" stopColor="#22c55e" />
                   <stop offset="100%" stopColor="#4ade80" />
                 </linearGradient>
@@ -190,9 +202,7 @@ export function CountdownTimer({ targetTime, isActive }: CountdownTimerProps) {
               <div className="text-3xl font-bold text-white">
                 Q{questionIndex + 1}
               </div>
-              <div className="text-sm text-gray-400">
-                of {totalQuestions}
-              </div>
+              <div className="text-sm text-gray-400">of {totalQuestions}</div>
             </div>
           </div>
 
@@ -208,7 +218,7 @@ export function CountdownTimer({ targetTime, isActive }: CountdownTimerProps) {
             <div className="text-xs text-gray-500 mb-1">Did you know?</div>
             <div
               className={`text-sm text-gray-300 italic transition-opacity duration-300 ${
-                factFading ? 'opacity-0' : 'opacity-100'
+                factFading ? "opacity-0" : "opacity-100"
               }`}
             >
               {DID_YOU_KNOW_FACTS[factIndex].text}

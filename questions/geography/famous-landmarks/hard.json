@@ -1,0 +1,342 @@
+[
+  {
+    "id": "fed4dfd8-3a40-4b96-8bfe-8dc03db77176",
+    "text": "Which famous landmark was originally built as a temporary structure for the 1889 Exposition Universelle and was initially criticized by Parisian artists and intellectuals?",
+    "options": [
+      "Arc de Triomphe",
+      "Eiffel Tower",
+      "Sacré-Cœur Basilica",
+      "Notre-Dame Cathedral"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "The Eiffel Tower was built as a temporary entrance arch for the 1889 World's Fair and faced significant opposition from prominent artists and writers.",
+    "detailedExplanation": "The Eiffel Tower was constructed as the entrance arch to the 1889 Exposition Universelle (World's Fair) in Paris, celebrating the centennial of the French Revolution. It was intended to stand for only 20 years but was saved because it proved valuable for communication purposes. Initially, it faced fierce criticism from prominent artists and intellectuals, including Guy de Maupassant and Alexandre Dumas fils, who considered it an eyesore that would ruin Paris's skyline.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Eiffel_Tower",
+    "citationTitle": "Wikipedia: Eiffel Tower"
+  },
+  {
+    "id": "fb70d4b2-d44d-46cc-a626-78ff8f1bcd0b",
+    "text": "The ancient city of Petra, famous for its rock-cut architecture, was the capital of which ancient kingdom?",
+    "options": [
+      "Nabataean Kingdom",
+      "Phoenician Empire",
+      "Assyrian Empire",
+      "Babylonian Empire"
+    ],
+    "correctIndex": 0,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "Petra was the capital city of the Nabataean Kingdom, which controlled important trade routes between Arabia, Egypt, and the Mediterranean.",
+    "detailedExplanation": "Petra served as the capital of the Nabataean Kingdom from around the 4th century BCE to 106 CE, when it was annexed by the Roman Empire. The Nabataeans were Arab people who controlled crucial trade routes for spices, incense, and other luxury goods between Arabia, Egypt, Syria, and the Mediterranean world. Their strategic location and control of water resources in the desert allowed them to prosper and create the magnificent rock-cut city we see today in Jordan.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Petra",
+    "citationTitle": "Wikipedia: Petra"
+  },
+  {
+    "id": "f856deb3-bcc8-4eb5-a133-806d51634f8a",
+    "text": "Which architectural feature makes the Leaning Tower of Pisa unique among medieval bell towers, and what is the approximate angle of its lean?",
+    "options": [
+      "It leans 2.4 degrees due to soft ground",
+      "It leans 3.97 degrees due to soft ground",
+      "It leans 5.2 degrees due to earthquake damage",
+      "It leans 1.8 degrees due to design flaw"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "The Leaning Tower of Pisa leans approximately 3.97 degrees due to soft ground on one side of the foundation that began sinking during construction.",
+    "detailedExplanation": "The Leaning Tower of Pisa began leaning during its construction in the 12th century due to soft clay soil on one side of the foundation. The tilt gradually increased over the centuries, reaching a maximum of 5.5 degrees before stabilization efforts reduced it to the current 3.97 degrees. The tower's lean is not due to poor design but rather the inadequate foundation for the tower's weight combined with the soft subsoil, which consists of clay, fine sand, and shells.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Leaning_Tower_of_Pisa",
+    "citationTitle": "Wikipedia: Leaning Tower of Pisa"
+  },
+  {
+    "id": "2609d258-6c4d-4978-972a-6f4e06e891bf",
+    "text": "Angkor Wat, the world's largest religious monument, was originally built in the early 12th century as a temple dedicated to which Hindu deity?",
+    "options": [
+      "Shiva",
+      "Brahma",
+      "Vishnu",
+      "Ganesha"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "Angkor Wat was originally built as a Hindu temple dedicated to Vishnu by King Suryavarman VII in the early 12th century.",
+    "detailedExplanation": "Angkor Wat was constructed in the early 12th century during the reign of King Suryavarman VII of the Khmer Empire as a Hindu temple dedicated to the god Vishnu. The temple complex was designed to represent Mount Meru, the center of the universe in Hindu cosmology. Unlike most Khmer temples, Angkor Wat faces west, which is associated with Vishnu. The temple later transformed into a Buddhist temple in the late 13th century, reflecting the religious shift in the Khmer Empire.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Angkor_Wat",
+    "citationTitle": "Wikipedia: Angkor Wat"
+  },
+  {
+    "id": "b62b9c63-474d-49d7-8249-769a823ab04c",
+    "text": "The Golden Gate Bridge's distinctive International Orange color was chosen for which primary reason?",
+    "options": [
+      "To match the California sunset",
+      "To enhance visibility in San Francisco's frequent fog",
+      "To complement the surrounding landscape",
+      "To honor the University of California's colors"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "International Orange was chosen primarily for safety reasons, as it enhances the bridge's visibility in San Francisco's frequent fog and marine layer.",
+    "detailedExplanation": "The Golden Gate Bridge's International Orange color was selected by consulting architect Irving Morrow primarily for safety and visibility reasons. San Francisco Bay is notorious for its thick fog and marine layer, which can severely reduce visibility. The International Orange color provides excellent visibility for both ships passing underneath and aircraft flying overhead. While the color also complements the natural surroundings and enhances the bridge's aesthetic appeal, safety was the primary consideration in this choice.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Golden_Gate_Bridge",
+    "citationTitle": "Wikipedia: Golden Gate Bridge"
+  },
+  {
+    "id": "57e4d2c5-4de1-4935-b68f-171e1910d758",
+    "text": "Machu Picchu's precise astronomical alignments suggest it served multiple purposes. The Intihuatana stone is specifically aligned with which celestial event?",
+    "options": [
+      "Summer solstice sunrise",
+      "Winter solstice at noon",
+      "Spring equinox sunset",
+      "Autumn equinox sunrise"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "The Intihuatana stone at Machu Picchu is precisely aligned to cast no shadow at noon during the winter solstice.",
+    "detailedExplanation": "The Intihuatana stone, whose name means 'hitching post of the sun' in Quechua, is one of Machu Picchu's most important ritual stones. It's carved from a single piece of granite and positioned so that it casts no shadow at noon during the winter solstice (around June 21 in the Southern Hemisphere). This precise astronomical alignment demonstrates the sophisticated understanding of astronomy possessed by the Inca civilization and suggests that Machu Picchu served as an important astronomical observatory and religious center.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Machu_Picchu",
+    "citationTitle": "Wikipedia: Machu Picchu"
+  },
+  {
+    "id": "54457097-a311-4981-ac15-831603b424ac",
+    "text": "The Colosseum's arena floor was covered with sand for a specific practical purpose. What was the primary reason for this?",
+    "options": [
+      "To provide better footing for gladiators",
+      "To absorb blood and provide drainage",
+      "To create dramatic dust clouds",
+      "To prevent animals from digging"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "Sand was used on the Colosseum's arena floor primarily to absorb blood from gladiatorial combat and provide drainage.",
+    "detailedExplanation": "The arena floor of the Colosseum was covered with sand (the Latin word 'arena' actually means sand) primarily for practical reasons related to the bloody spectacles held there. The sand absorbed blood from gladiatorial combat, animal hunts, and executions, making it easier to clean between events. The sand also provided better drainage and could be easily raked smooth. Additionally, it gave gladiators better footing than stone floors and helped prevent slipping during combat, though this was secondary to its primary function of managing the aftermath of violent entertainment.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Colosseum",
+    "citationTitle": "Wikipedia: Colosseum"
+  },
+  {
+    "id": "ecce3867-8678-459d-b7ee-78c40231caf9",
+    "text": "Mount Rushmore's sculptor Gutzon Borglum originally planned to include which additional element that was never completed?",
+    "options": [
+      "The presidents' hands holding historical documents",
+      "A Hall of Records behind Lincoln's head",
+      "Full torsos of all four presidents",
+      "Indigenous leaders on the opposite side"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "Borglum planned a Hall of Records to be carved behind Lincoln's head to house important American historical documents.",
+    "detailedExplanation": "Gutzon Borglum's original vision for Mount Rushmore included a Hall of Records, a large chamber to be carved into the rock behind Abraham Lincoln's head. This hall was intended to house important American historical documents, including the Declaration of Independence, Constitution, and Bill of Rights, along with busts of famous Americans and a history of the United States. Work on the hall began in 1938, but the project was never completed due to funding constraints and Borglum's death in 1941. A smaller repository was eventually created in 1998 containing records about the monument's construction.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Mount_Rushmore",
+    "citationTitle": "Wikipedia: Mount Rushmore"
+  },
+  {
+    "id": "be9d3dac-5669-4b2a-a233-e2c36ea45797",
+    "text": "Which architect designed the Sagrada Familia in Barcelona, a UNESCO World Heritage Site that has been under construction since 1882?",
+    "options": [
+      "Lluís Domènech i Montaner",
+      "Antoni Gaudí",
+      "Josep Puig i Cadafalch",
+      "Rafael Guastavino"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "Antoni Gaudí designed the Sagrada Familia, his most famous work.",
+    "detailedExplanation": "Antoni Gaudí began work on the Sagrada Familia in 1883, taking over from Francisco de Paula del Villar. This iconic basilica in Barcelona represents the pinnacle of Gaudí's unique architectural style, combining Gothic and Art Nouveau forms with his distinctive organic shapes inspired by nature. Despite being under construction for over 140 years, it remains incomplete, with current estimates suggesting completion around 2026-2030.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Sagrada_Fam%C3%ADlia",
+    "citationTitle": "Wikipedia: Sagrada Família"
+  },
+  {
+    "id": "c6f5acbc-99c5-412c-b5de-9aea5ef40e7d",
+    "text": "The ancient city of Petra in Jordan was carved into rock faces of which type of geological formation?",
+    "options": [
+      "Limestone cliffs",
+      "Volcanic basalt",
+      "Red sandstone",
+      "Granite mountains"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "Petra was carved into red sandstone cliffs by the Nabataeans.",
+    "detailedExplanation": "The archaeological site of Petra, known as the 'Rose City,' was carved directly into vibrant red, pink, and orange sandstone cliff faces by the Nabataean people between the 4th century BCE and 2nd century CE. The distinctive coloration of the sandstone, caused by iron oxide deposits, gives Petra its characteristic appearance and nickname. This UNESCO World Heritage Site served as the capital of the Nabataean Kingdom and was a crucial trading hub along ancient caravan routes.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Petra",
+    "citationTitle": "Wikipedia: Petra"
+  },
+  {
+    "id": "2ada455e-c5f6-4748-8f1c-9452fb568869",
+    "text": "Which emperor ordered the construction of the Colosseum in Rome, though it was completed under his successor?",
+    "options": [
+      "Emperor Nero",
+      "Emperor Vespasian",
+      "Emperor Trajan",
+      "Emperor Hadrian"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "Emperor Vespasian began construction of the Colosseum, completed under Emperor Titus.",
+    "detailedExplanation": "Emperor Vespasian ordered the construction of the Colosseum (originally known as the Flavian Amphitheatre) around 70-72 CE as part of his efforts to restore Rome and gain public favor after the civil wars. Construction began on the site of Nero's former palace lake. Vespasian died in 79 CE before its completion, and his son Emperor Titus officially opened the amphitheater in 80 CE with games lasting 100 days. The structure could hold an estimated 50,000-80,000 spectators.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Colosseum",
+    "citationTitle": "Wikipedia: Colosseum"
+  },
+  {
+    "id": "d438d7a1-62f3-4839-92c7-cc59f6915450",
+    "text": "The moai statues of Easter Island were primarily carved from volcanic rock quarried at which location on the island?",
+    "options": [
+      "Orongo ceremonial village",
+      "Rano Raraku quarry",
+      "Ahu Tongariki platform",
+      "Terevaka crater"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "Most moai were carved at the Rano Raraku volcanic quarry site.",
+    "detailedExplanation": "Rano Raraku served as the primary quarry and carving site for nearly all of Easter Island's famous moai statues. This volcanic crater contains compressed volcanic ash called tuff, which was relatively soft and easy to carve when freshly quarried. Of the approximately 1,000 moai on the island, about 400 remain at Rano Raraku in various stages of completion. The Rapa Nui people carved these monumental statues between 1250 and 1500 CE, with many later transported across the island to ceremonial platforms called ahu.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Rano_Raraku",
+    "citationTitle": "Wikipedia: Rano Raraku"
+  },
+  {
+    "id": "6617ebb3-6d4e-467c-9a3d-6fb9318e59e1",
+    "text": "Which specific mathematical ratio was intentionally incorporated into the design proportions of the Parthenon in Athens?",
+    "options": [
+      "The Fibonacci sequence",
+      "The golden ratio",
+      "Pi (π)",
+      "The square root of 2"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "The Parthenon was designed using the golden ratio for aesthetic harmony.",
+    "detailedExplanation": "The Parthenon, built between 447-432 BCE under Pericles, incorporates the golden ratio (approximately 1.618:1) throughout its architectural proportions. This mathematical relationship, considered aesthetically pleasing to the human eye, appears in the ratio of the building's width to height, the spacing of columns, and various other architectural elements. The architects Ictinus and Callicrates, along with sculptor Phidias, used this ratio along with other optical refinements to create what many consider the pinnacle of Classical Greek architecture.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Parthenon",
+    "citationTitle": "Wikipedia: Parthenon"
+  },
+  {
+    "id": "36a54c99-f7c0-4af2-8361-73178561a7e5",
+    "text": "Angkor Wat in Cambodia was originally built as a temple dedicated to which Hindu deity before becoming a Buddhist temple?",
+    "options": [
+      "Shiva",
+      "Brahma",
+      "Vishnu",
+      "Ganesha"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "Angkor Wat was originally dedicated to the Hindu god Vishnu.",
+    "detailedExplanation": "Angkor Wat was constructed in the early 12th century (1113-1150 CE) by King Suryavarman VII as a Hindu temple complex dedicated to Vishnu, the preserver god in the Hindu trinity. The temple's orientation faces west, unusual for Khmer temples, likely because Vishnu is associated with the west. The complex served as the king's state temple and eventual mausoleum. By the late 13th century, as the Khmer Empire adopted Buddhism, Angkor Wat was gradually transformed into a Buddhist temple, which it remains today.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Angkor_Wat",
+    "citationTitle": "Wikipedia: Angkor Wat"
+  },
+  {
+    "id": "cea6866f-fe1e-407a-b0a1-62618255a258",
+    "text": "The Christ the Redeemer statue in Rio de Janeiro is made primarily of which material covering its concrete and steel frame?",
+    "options": [
+      "Marble from Carrara",
+      "Brazilian granite",
+      "Soapstone tiles",
+      "Limestone blocks"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "The statue is covered in soapstone tiles, chosen for their weather resistance.",
+    "detailedExplanation": "The Christ the Redeemer statue, completed in 1931, has a reinforced concrete and steel frame designed by engineer Heitor da Silva Costa and sculpted by French artist Paul Landowski. The entire structure is covered with approximately six million triangular soapstone tiles, each about 5x5cm. Soapstone was chosen specifically for its resistance to extreme weather conditions and its soft texture that weathers well over time. The 30-meter tall statue (38 meters including its pedestal) stands atop Corcovado Mountain and was designated one of the New Seven Wonders of the World in 2007.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Christ_the_Redeemer_(statue)",
+    "citationTitle": "Wikipedia: Christ the Redeemer (statue)"
+  },
+  {
+    "id": "cf0b1e4d-1ff0-4470-b4ea-e93ca1386297",
+    "text": "The ancient Lighthouse of Alexandria, one of the Seven Wonders of the Ancient World, was built on which island?",
+    "options": [
+      "Pharos Island",
+      "Rhodes Island",
+      "Delos Island",
+      "Patmos Island"
+    ],
+    "correctIndex": 0,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "The lighthouse was built on Pharos Island, giving it the name 'Pharos of Alexandria'.",
+    "detailedExplanation": "The Lighthouse of Alexandria, also known as the Pharos of Alexandria, was constructed on the small island of Pharos in Alexandria's harbor during the 3rd century BCE under Ptolemy II. The island was connected to the mainland by a causeway called the Heptastadion. Standing between 120-140 meters tall, it was one of the tallest man-made structures in the ancient world. The lighthouse operated for over 1,000 years until it was eventually destroyed by earthquakes between the 12th and 15th centuries. The word 'pharos' became synonymous with lighthouse in many languages.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Lighthouse_of_Alexandria",
+    "citationTitle": "Wikipedia: Lighthouse of Alexandria"
+  },
+  {
+    "id": "e7427154-4d9f-488e-b01b-87dc1f25c5c0",
+    "text": "The ancient city of Petra in Jordan is famous for its rock-cut architecture. What does the name 'Petra' actually mean in Greek?",
+    "options": [
+      "Stone",
+      "Rock",
+      "Hidden",
+      "Rose"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "Petra means 'rock' in Greek, referring to the city's distinctive rock-cut buildings.",
+    "detailedExplanation": "The name Petra derives from the Greek word 'petros' meaning rock, which is fitting given that the entire city was carved directly into rose-red sandstone cliff faces by the Nabataeans between the 4th century BC and 2nd century AD. This UNESCO World Heritage site was the capital of the Nabataean Kingdom and served as a major trading hub connecting Arabia, Egypt, and Syria-Phoenicia. The city's most famous structure, Al-Khazneh (The Treasury), stands 40 meters high and showcases the incredible skill of ancient stone carvers.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Petra",
+    "citationTitle": "Wikipedia: Petra"
+  },
+  {
+    "id": "9f57bc5c-ce96-4aa5-9914-dc609d40726f",
+    "text": "Mount Rushmore features the carved faces of four US presidents. In what year was the final face completed?",
+    "options": [
+      "1939",
+      "1941",
+      "1943",
+      "1945"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "The final face (Theodore Roosevelt) was completed in 1941, just months before sculptor Gutzon Borglum's death.",
+    "detailedExplanation": "Mount Rushmore's construction began in 1927 under the direction of sculptor Gutzon Borglum and was completed in 1941. The faces of George Washington, Thomas Jefferson, Theodore Roosevelt, and Abraham Lincoln were carved into the granite face of Mount Rushmore in the Black Hills of South Dakota. Theodore Roosevelt's face was the last to be completed in October 1941, just seven months before Borglum died in March 1942. His son Lincoln Borglum briefly continued the project to finish some final details, but the monument was declared complete later that year due to lack of funding and the onset of World War II.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Mount_Rushmore",
+    "citationTitle": "Wikipedia: Mount Rushmore"
+  },
+  {
+    "id": "39a778e6-e4c6-4812-8676-a45ef06749a0",
+    "text": "The Great Wall of China is often said to be visible from space. According to NASA, what is the actual maximum distance from which the Great Wall can be seen with the naked eye?",
+    "options": [
+      "Low Earth orbit (160-320 km)",
+      "Commercial flight altitude (10-12 km)",
+      "Hot air balloon altitude (3-6 km)",
+      "It cannot be seen from any significant altitude"
+    ],
+    "correctIndex": 3,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "NASA has confirmed that the Great Wall cannot be seen from space with the naked eye, debunking this popular myth.",
+    "detailedExplanation": "Despite being one of the most persistent myths about the Great Wall of China, NASA astronauts have repeatedly confirmed that the Great Wall cannot be seen from space with the naked eye. The wall is generally only about 6 meters wide, making it far too narrow to be visible from the altitudes of space flight. While it can sometimes be detected in photographs taken from low Earth orbit under perfect lighting conditions with high-resolution cameras, this requires knowing exactly where to look. The myth likely persists because the Great Wall is indeed an impressive feat of engineering, stretching over 13,000 miles, but width, not length, determines visibility from great distances.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Great_Wall_of_China",
+    "citationTitle": "Wikipedia: Great Wall of China"
+  },
+  {
+    "id": "7d349888-f760-43e8-884f-07620f7fba56",
+    "text": "The ancient city of Petra in Jordan is famous for its rock-cut architecture, but what does the name 'Petra' actually mean in Greek?",
+    "options": [
+      "Rock",
+      "Rose",
+      "Red",
+      "Temple"
+    ],
+    "correctIndex": 0,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "Petra means 'rock' in Greek, referring to the city's famous stone-carved buildings.",
+    "detailedExplanation": "The name Petra derives from the Greek word 'petros' meaning rock or stone, which is highly appropriate given that this ancient Nabataean city is renowned for its spectacular buildings carved directly into rose-red sandstone cliffs. The city was established around the 4th century BCE and served as the capital of the Nabataean Kingdom. While Petra is often called the 'Rose City' due to the color of the stone, and many of its structures served as temples, the actual etymology of its name comes from the Greek word for rock, reflecting the fundamental characteristic that makes this UNESCO World Heritage site so extraordinary.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Petra",
+    "citationTitle": "Wikipedia: Petra"
+  }
+]

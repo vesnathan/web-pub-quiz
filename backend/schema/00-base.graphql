@@ -4,7 +4,8 @@ type Query {
   # User queries
   getMyProfile: User @aws_cognito_user_pools
   getUserProfile(userId: ID!): UserPublic
-  checkScreenNameAvailable(screenName: String!): Boolean!
+  checkDisplayNameAvailable(displayName: String!): Boolean!
+  checkEmailHasGoogleAccount(email: String!): Boolean!
 
   # Leaderboard queries
   getLeaderboard(type: LeaderboardType!, limit: Int): Leaderboard
@@ -18,13 +19,43 @@ type Query {
 
   # Ably token for real-time
   getAblyToken: AblyTokenResponse @aws_cognito_user_pools
+
+  # Chat queries
+  getChatMessages(channelId: ID!, limit: Int, nextToken: String): ChatMessageConnection @aws_cognito_user_pools
+  getMyConversations(limit: Int): [Conversation!]! @aws_cognito_user_pools
+
+  # Admin queries
+  getWebhookLogs(provider: String, limit: Int, nextToken: String): WebhookLogConnection! @aws_cognito_user_pools
 }
 
 type Mutation {
   # User mutations
   updateDisplayName(displayName: String!): User @aws_cognito_user_pools
+  ensureProfile(displayName: String!): User @aws_cognito_user_pools
+
+  # Subscription mutations
+  createCheckoutSession(input: CreateCheckoutInput!): CheckoutSession @aws_cognito_user_pools
+
+  # Tip jar mutation
+  createTipCheckout(provider: SubscriptionProvider!): CheckoutSession @aws_cognito_user_pools
 
   # Admin mutations
   createQuestion(input: CreateQuestionInput!): Question @aws_cognito_user_pools
   seedQuestions(questions: [CreateQuestionInput!]!): Int @aws_cognito_user_pools
+
+  # Chat mutations (needed in base for @aws_subscribe to work)
+  sendChatMessage(channelId: ID!, content: String!): ChatMessage @aws_cognito_user_pools
+  startConversation(targetUserId: ID!): Conversation @aws_cognito_user_pools
+
+  # Admin mutations
+  adminUpdateUserTier(userId: ID!, tier: Int!): User @aws_cognito_user_pools
+  adminGiftSubscription(input: GiftSubscriptionInput!): User @aws_cognito_user_pools
+
+  # Gift notification mutations
+  markGiftNotificationSeen: Boolean @aws_cognito_user_pools
+}
+
+type Subscription {
+  # Chat subscriptions
+  onNewChatMessage(channelId: ID!): ChatMessage @aws_subscribe(mutations: ["sendChatMessage"]) @aws_cognito_user_pools
 }

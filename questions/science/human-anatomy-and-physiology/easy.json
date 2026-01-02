@@ -1,0 +1,342 @@
+[
+  {
+    "id": "7a95ed89-91d0-4c3c-8a7f-12eda75f5dad",
+    "text": "How many bones are in an adult human body?",
+    "options": [
+      "186",
+      "206",
+      "226",
+      "246"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Adults have 206 bones, fewer than babies who are born with about 270 bones that fuse together as they grow.",
+    "detailedExplanation": "The human skeleton undergoes significant changes from birth to adulthood. Babies are born with approximately 270 bones, many of which are made of cartilage. As a person grows and develops, many of these bones fuse together through a process called ossification. By adulthood, the number of distinct bones in the human body is reduced to 206. This number can vary slightly between individuals due to anatomical variations, but 206 is the standard count used in medical and anatomical education.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Human_skeleton",
+    "citationTitle": "Wikipedia: Human skeleton"
+  },
+  {
+    "id": "6f4a00fb-bf18-463e-981f-527b3dbc147a",
+    "text": "Which organ is responsible for producing insulin in the human body?",
+    "options": [
+      "Liver",
+      "Pancreas",
+      "Kidney",
+      "Spleen"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "The pancreas produces insulin, a hormone that regulates blood sugar levels by helping cells absorb glucose.",
+    "detailedExplanation": "The pancreas is a vital organ located behind the stomach that serves both digestive and endocrine functions. Within the pancreas are clusters of cells called islets of Langerhans, which contain beta cells responsible for producing insulin. Insulin is a crucial hormone that allows the body's cells to absorb glucose from the bloodstream, thereby regulating blood sugar levels. When the pancreas fails to produce enough insulin or the body becomes resistant to insulin, diabetes can develop. This dual-function organ also produces digestive enzymes that help break down food in the small intestine.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Pancreas",
+    "citationTitle": "Wikipedia: Pancreas"
+  },
+  {
+    "id": "f286e325-a95d-4cf6-96c6-15b366e4f510",
+    "text": "What is the largest muscle in the human body?",
+    "options": [
+      "Biceps",
+      "Quadriceps",
+      "Gluteus maximus",
+      "Latissimus dorsi"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "The gluteus maximus, located in the buttocks, is the largest muscle by volume and one of the strongest muscles in the body.",
+    "detailedExplanation": "The gluteus maximus is the largest and most superficial of the three gluteal muscles that make up the buttocks. This powerful muscle plays a crucial role in maintaining upright posture, walking, running, and climbing stairs. It originates from the pelvis and sacrum and inserts into the femur and iliotibial tract. The gluteus maximus is essential for hip extension and helps stabilize the pelvis during movement. Its large size reflects the demands of bipedal locomotion in humans, as it provides the power needed for activities like rising from a seated position, climbing, and explosive movements like jumping.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Gluteus_maximus",
+    "citationTitle": "Wikipedia: Gluteus maximus"
+  },
+  {
+    "id": "cbef79b5-c111-4ce1-a5c5-1c38dfc97af9",
+    "text": "Which blood type is known as the universal donor?",
+    "options": [
+      "Type A",
+      "Type B",
+      "Type AB",
+      "Type O"
+    ],
+    "correctIndex": 3,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Type O blood, especially O-negative, is the universal donor because it lacks A and B antigens that could cause reactions in recipients.",
+    "detailedExplanation": "Blood typing is based on the presence or absence of specific antigens on red blood cells. Type O blood lacks both A and B antigens on the surface of red blood cells, which means it is less likely to cause an immune reaction when transfused into people with other blood types. Type O-negative blood is particularly valuable because it also lacks the Rh factor, making it compatible with virtually any recipient in emergency situations. However, people with Type O blood can only receive Type O blood themselves, as their immune system will attack blood cells with A or B antigens. This makes Type AB the universal recipient, as they can receive any blood type.",
+    "citationUrl": "https://en.wikipedia.org/wiki/ABO_blood_group_system",
+    "citationTitle": "Wikipedia: ABO blood group system"
+  },
+  {
+    "id": "3c3365cb-749f-4f27-b543-f37ffc02a9bb",
+    "text": "How many chambers does a human heart have?",
+    "options": [
+      "Two",
+      "Three",
+      "Four",
+      "Five"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "The human heart has four chambers: two atria (upper chambers) and two ventricles (lower chambers).",
+    "detailedExplanation": "The human heart is divided into four distinct chambers that work together to pump blood throughout the body. The two upper chambers, called atria (singular: atrium), receive blood returning to the heart. The right atrium receives deoxygenated blood from the body, while the left atrium receives oxygenated blood from the lungs. The two lower chambers, called ventricles, pump blood away from the heart. The right ventricle pumps blood to the lungs for oxygenation, while the left ventricle, which is the most muscular chamber, pumps oxygenated blood to the rest of the body. This four-chamber design allows for efficient separation of oxygenated and deoxygenated blood.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Heart",
+    "citationTitle": "Wikipedia: Heart"
+  },
+  {
+    "id": "ab9a3690-e2f4-4f9c-8a08-9f0e21dec388",
+    "text": "What is the body's largest organ?",
+    "options": [
+      "Liver",
+      "Lungs",
+      "Brain",
+      "Skin"
+    ],
+    "correctIndex": 3,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "The skin is the largest organ, covering the entire body and accounting for about 16% of total body weight in adults.",
+    "detailedExplanation": "The skin is often overlooked as an organ, but it is actually the largest organ in the human body by both surface area and weight. In adults, the skin covers approximately 20 square feet (1.8 square meters) and accounts for about 16% of total body weight. The skin serves multiple vital functions including protection from pathogens and physical damage, regulation of body temperature through sweating and blood vessel dilation or constriction, sensation through nerve endings, and synthesis of vitamin D when exposed to sunlight. The skin consists of multiple layers, with the epidermis being the outermost protective layer and the dermis containing blood vessels, nerves, and hair follicles.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Skin",
+    "citationTitle": "Wikipedia: Skin"
+  },
+  {
+    "id": "6a263070-0288-446b-b06b-90ecc8d47d82",
+    "text": "Which part of the brain controls balance and coordination?",
+    "options": [
+      "Cerebrum",
+      "Cerebellum",
+      "Brain stem",
+      "Hippocampus"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "The cerebellum, located at the back of the brain below the cerebrum, is responsible for balance, coordination, and fine motor control.",
+    "detailedExplanation": "The cerebellum, which means 'little brain' in Latin, is a crucial structure located at the posterior part of the brain, underneath the cerebral hemispheres. Despite comprising only about 10% of the brain's total volume, the cerebellum contains approximately 80% of the brain's neurons. It plays a vital role in motor control, particularly in coordinating voluntary movements, maintaining posture and balance, and ensuring smooth, precise motions. The cerebellum receives input from sensory systems, the spinal cord, and other parts of the brain, and integrates this information to fine-tune motor activity. Damage to the cerebellum can result in problems with balance, coordination, speech, and the ability to perform precise movements.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Cerebellum",
+    "citationTitle": "Wikipedia: Cerebellum"
+  },
+  {
+    "id": "65bc5494-6345-4bc6-a065-7949a61bff4f",
+    "text": "Which phylum do humans belong to?",
+    "options": [
+      "Arthropoda",
+      "Mollusca",
+      "Chordata",
+      "Cnidaria"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Humans belong to Phylum Chordata, characterized by having a backbone or spinal cord.",
+    "detailedExplanation": "Phylum Chordata includes all animals that have a notochord (which develops into a backbone in vertebrates) at some stage of their development. This phylum encompasses fish, amphibians, reptiles, birds, and mammals, including humans. Chordates are distinguished by having a dorsal nerve cord, pharyngeal slits, and a post-anal tail during embryonic development.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Chordate",
+    "citationTitle": "Wikipedia: Chordate"
+  },
+  {
+    "id": "9db14a34-b466-4b2f-b1c5-763684efc3a3",
+    "text": "Which of these animals is a vertebrate?",
+    "options": [
+      "Jellyfish",
+      "Octopus",
+      "Butterfly",
+      "Shark"
+    ],
+    "correctIndex": 3,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "A shark is a vertebrate because it has a backbone made of cartilage.",
+    "detailedExplanation": "Vertebrates are animals that possess a backbone or spinal column, and they all belong to the subphylum Vertebrata within Phylum Chordata. Sharks are cartilaginous fish with skeletons made of cartilage rather than bone, but they still have a proper vertebral column. Jellyfish (cnidarians), octopi (mollusks), and butterflies (arthropods) are all invertebrates, lacking a backbone entirely.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Vertebrate",
+    "citationTitle": "Wikipedia: Vertebrate"
+  },
+  {
+    "id": "d2b03750-660d-48f6-9dd1-b168838f45cb",
+    "text": "Which part of a flower contains the male reproductive organs?",
+    "options": [
+      "Pistil",
+      "Stamen",
+      "Sepal",
+      "Petal"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "The stamen is the male reproductive organ of a flower, consisting of the anther and filament.",
+    "detailedExplanation": "The stamen is the male reproductive structure of a flower, typically consisting of two main parts: the anther, which produces and contains pollen, and the filament, which is the stalk that supports the anther. Most flowers have multiple stamens arranged around the female reproductive organ (pistil) in the center. The stamen plays a crucial role in plant reproduction by producing pollen grains that contain the male gametes necessary for fertilization.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Stamen",
+    "citationTitle": "Wikipedia: Stamen"
+  },
+  {
+    "id": "b3e24b9d-cfd2-4b55-85ab-99b2ab65ac3b",
+    "text": "How many bones are there in an adult human body?",
+    "options": [
+      "186",
+      "206",
+      "226",
+      "246"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "An adult human skeleton contains 206 bones.",
+    "detailedExplanation": "The human skeleton starts with approximately 270 bones at birth, but many of these bones fuse together as we grow and develop. By the time we reach adulthood, the number of bones has decreased to 206. This fusion process is particularly evident in areas like the skull, where multiple bones join to form a solid protective structure for the brain.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Human_skeleton",
+    "citationTitle": "Wikipedia: Human skeleton"
+  },
+  {
+    "id": "ccf74f39-fc3d-4ce4-abe7-265cd47e27e4",
+    "text": "Which organ in the human body produces insulin?",
+    "options": [
+      "Liver",
+      "Pancreas",
+      "Kidney",
+      "Spleen"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "The pancreas produces insulin to regulate blood sugar levels.",
+    "detailedExplanation": "The pancreas is a vital organ located behind the stomach that serves both digestive and endocrine functions. Specialized cells called beta cells in the pancreas produce insulin, a hormone that helps regulate blood glucose levels by allowing cells to absorb glucose from the bloodstream. When the pancreas doesn't produce enough insulin or the body becomes resistant to it, diabetes can develop.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Insulin",
+    "citationTitle": "Wikipedia: Insulin"
+  },
+  {
+    "id": "15c9d15a-f332-4b24-abb6-d00526e88126",
+    "text": "Which chamber of the heart pumps blood to the rest of the body?",
+    "options": [
+      "Left atrium",
+      "Right atrium",
+      "Left ventricle",
+      "Right ventricle"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "The left ventricle is the heart's main pumping chamber that sends oxygenated blood throughout the body.",
+    "detailedExplanation": "The heart has four chambers: two atria (upper chambers) and two ventricles (lower chambers). The left ventricle is the largest and strongest chamber, with thick muscular walls that contract forcefully to pump oxygen-rich blood through the aorta to supply all organs and tissues in the body. This is why the left ventricle is often called the heart's main pumping chamber.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Ventricle_(heart)",
+    "citationTitle": "Wikipedia: Ventricle (heart)"
+  },
+  {
+    "id": "177d0360-faee-4e3e-8ca5-d35d39b5ff8d",
+    "text": "What type of blood cells are responsible for fighting infections?",
+    "options": [
+      "Red blood cells",
+      "White blood cells",
+      "Platelets",
+      "Plasma cells"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "White blood cells are part of the immune system and fight infections and foreign substances.",
+    "detailedExplanation": "White blood cells, also known as leukocytes, are a crucial component of the immune system. Unlike red blood cells that carry oxygen, white blood cells are specifically designed to defend the body against infections, diseases, and foreign substances. There are several types of white blood cells, including neutrophils, lymphocytes, monocytes, eosinophils, and basophils, each with specialized functions in immune defense.",
+    "citationUrl": "https://en.wikipedia.org/wiki/White_blood_cell",
+    "citationTitle": "Wikipedia: White blood cell"
+  },
+  {
+    "id": "e35e98fd-9fc4-4544-aa07-899781ae02e2",
+    "text": "Which part of the brain is responsible for balance and coordination?",
+    "options": [
+      "Cerebrum",
+      "Cerebellum",
+      "Brain stem",
+      "Hippocampus"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "The cerebellum controls balance, coordination, and fine motor movements.",
+    "detailedExplanation": "The cerebellum, which means 'little brain' in Latin, is located at the back of the skull beneath the cerebrum. Despite being only about 10% of the brain's total weight, it contains over half of all neurons in the brain. The cerebellum is essential for maintaining balance, coordinating voluntary movements, and ensuring smooth, precise motor control. Damage to this area can result in problems with balance, coordination, and speech.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Cerebellum",
+    "citationTitle": "Wikipedia: Cerebellum"
+  },
+  {
+    "id": "5849536c-9338-4608-8384-a0d0096497ff",
+    "text": "Which gas do we breathe in that our body needs to survive?",
+    "options": [
+      "Carbon dioxide",
+      "Nitrogen",
+      "Oxygen",
+      "Hydrogen"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "We breathe in oxygen, which is essential for cellular respiration and energy production.",
+    "detailedExplanation": "Oxygen is vital for human survival because it plays a crucial role in cellular respiration, the process by which cells convert glucose into energy (ATP). When we inhale, oxygen enters our lungs and is transported by red blood cells to tissues throughout the body. At the cellular level, oxygen helps break down nutrients to release energy. Without adequate oxygen, cells cannot function properly, and vital organs like the brain and heart will quickly fail.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Oxygen",
+    "citationTitle": "Wikipedia: Oxygen"
+  },
+  {
+    "id": "645f30fd-a7ba-4abf-bb59-934ad0cea719",
+    "text": "How many bones does an adult human body typically have?",
+    "options": [
+      "186",
+      "206",
+      "226",
+      "246"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "An adult human skeleton contains 206 bones.",
+    "detailedExplanation": "While babies are born with approximately 270 bones, many of these are made of cartilage that gradually hardens and fuses together as they grow. By adulthood, the typical human skeleton consists of 206 bones. This number can vary slightly between individuals due to anatomical variations, but 206 is the standard count used in medical and anatomical references.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Human_skeleton",
+    "citationTitle": "Wikipedia: Human skeleton"
+  },
+  {
+    "id": "a6048b53-b55a-4a4c-aa53-55a8d1fdf196",
+    "text": "Which organ is responsible for pumping blood throughout the human body?",
+    "options": [
+      "Liver",
+      "Lungs",
+      "Heart",
+      "Kidneys"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "The heart is the muscular organ that pumps blood throughout the circulatory system.",
+    "detailedExplanation": "The heart is a four-chambered muscular organ that serves as the central pump of the circulatory system. It contracts rhythmically to push blood through blood vessels, delivering oxygen and nutrients to tissues throughout the body while removing waste products. The heart beats approximately 60-100 times per minute in a healthy adult at rest, pumping about 5 liters of blood per minute.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Heart",
+    "citationTitle": "Wikipedia: Heart"
+  },
+  {
+    "id": "df846a59-c225-4bb3-afe5-626d8b6e8901",
+    "text": "Which organ is responsible for filtering waste from the blood?",
+    "options": [
+      "Liver",
+      "Kidneys",
+      "Lungs",
+      "Heart"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "The kidneys filter waste products and excess water from the blood to produce urine.",
+    "detailedExplanation": "The kidneys are bean-shaped organs located on either side of the spine that serve as the body's primary filtration system. They process about 50 gallons of blood daily, removing waste products like urea, excess water, and toxins while retaining essential substances like proteins and blood cells. This filtration process produces urine, which is then transported to the bladder for storage and eventual elimination from the body.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Kidney",
+    "citationTitle": "Wikipedia: Kidney"
+  },
+  {
+    "id": "2274c659-880f-4bc9-81b0-db00f9658990",
+    "text": "Which organ in the human body is responsible for pumping blood throughout the circulatory system?",
+    "options": [
+      "Heart",
+      "Liver",
+      "Lungs",
+      "Kidneys"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "The heart is a muscular organ that pumps blood through blood vessels throughout the body.",
+    "detailedExplanation": "The heart is a vital muscular organ located in the chest cavity that serves as the central pump of the circulatory system. It contracts rhythmically to push blood through arteries, veins, and capillaries, delivering oxygen and nutrients to all body tissues while removing waste products. The average human heart beats about 60-100 times per minute and pumps approximately 5 liters of blood per minute.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Heart",
+    "citationTitle": "Wikipedia: Heart"
+  }
+]

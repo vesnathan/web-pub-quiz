@@ -1,0 +1,342 @@
+[
+  {
+    "id": "a12b2250-3593-474f-bf85-a6ad3145b543",
+    "text": "What is the largest climate zone on Earth by area?",
+    "options": [
+      "Tropical",
+      "Temperate",
+      "Polar",
+      "Arid"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "The temperate climate zone covers the largest area of Earth's surface.",
+    "detailedExplanation": "The temperate climate zone, found roughly between 30° and 60° latitude in both hemispheres, covers the largest area of Earth's surface. This zone includes much of North America, Europe, and parts of Asia, characterized by moderate temperatures and seasonal variations. While tropical zones might seem extensive, the temperate zone's coverage across multiple continents makes it the most expansive climate classification.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Temperate_climate",
+    "citationTitle": "Wikipedia: Temperate Climate"
+  },
+  {
+    "id": "32eef3c6-65a8-4195-a644-d983aae640b2",
+    "text": "Which climate zone is characterized by very hot summers and very cold winters?",
+    "options": [
+      "Mediterranean",
+      "Continental",
+      "Oceanic",
+      "Subtropical"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "Continental climate zones experience extreme temperature variations between seasons.",
+    "detailedExplanation": "Continental climate zones are found in the interior of large landmasses, particularly in North America and Eurasia. These areas experience extreme seasonal temperature variations because they are far from the moderating influence of oceans. Summers can be very hot while winters are severely cold, with temperature ranges often exceeding 35°C (63°F) between the hottest and coldest months.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Continental_climate",
+    "citationTitle": "Wikipedia: Continental Climate"
+  },
+  {
+    "id": "1991c378-9d1a-40d9-b88f-da66784621d5",
+    "text": "The Amazon rainforest is located in which climate zone?",
+    "options": [
+      "Temperate",
+      "Arid",
+      "Tropical",
+      "Polar"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "The Amazon rainforest is located in the tropical climate zone near the equator.",
+    "detailedExplanation": "The Amazon rainforest spans across the equatorial region of South America, placing it firmly within the tropical climate zone. This zone is characterized by consistently high temperatures year-round, high humidity, and abundant rainfall. The tropical climate's warm, wet conditions are perfect for supporting the Amazon's incredible biodiversity and dense forest growth.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Tropical_climate",
+    "citationTitle": "Wikipedia: Tropical Climate"
+  },
+  {
+    "id": "1837ea8a-badb-4365-8f43-ae1692d614b6",
+    "text": "What type of climate is typically found in the Sahara Desert?",
+    "options": [
+      "Polar",
+      "Arid",
+      "Temperate",
+      "Tropical"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "The Sahara Desert has an arid climate with very little rainfall and extreme temperatures.",
+    "detailedExplanation": "The Sahara Desert exemplifies an arid (or desert) climate zone, characterized by extremely low precipitation (less than 250mm annually), high daytime temperatures, and significant temperature drops at night. Arid climates occur in regions where evaporation exceeds precipitation, often found around 30° latitude where high-pressure systems create dry conditions. The Sahara receives less than 25mm of rain per year in most areas.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Desert_climate",
+    "citationTitle": "Wikipedia: Desert Climate"
+  },
+  {
+    "id": "17c70a75-c1db-46f9-8cd3-f4c3b835d16c",
+    "text": "Which climate zone would you find at the North and South Poles?",
+    "options": [
+      "Temperate",
+      "Tropical",
+      "Polar",
+      "Mediterranean"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "The North and South Poles are located in the polar climate zone.",
+    "detailedExplanation": "The polar climate zone is found at the highest latitudes near the Earth's poles, typically above 60° latitude. This zone is characterized by extremely cold temperatures year-round, with the warmest month averaging below 10°C (50°F). The polar regions experience extreme seasonal variation in daylight, with continuous daylight in summer and continuous darkness in winter, contributing to the harsh climate conditions.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Polar_climate",
+    "citationTitle": "Wikipedia: Polar Climate"
+  },
+  {
+    "id": "b3aab348-947d-4f92-ad5a-91f3d9eda241",
+    "text": "The Mediterranean climate is characterized by which seasonal pattern?",
+    "options": [
+      "Wet summers, dry winters",
+      "Dry summers, wet winters",
+      "Wet year-round",
+      "Dry year-round"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "Mediterranean climates have dry summers and wet winters.",
+    "detailedExplanation": "The Mediterranean climate, found in regions like Southern California, central Chile, and around the Mediterranean Sea, is characterized by dry, warm summers and mild, wet winters. This unique pattern occurs due to the seasonal shift of high-pressure systems that block rainfall in summer but allow winter storms to bring precipitation. This climate is ideal for growing olives, grapes, and citrus fruits.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Mediterranean_climate",
+    "citationTitle": "Wikipedia: Mediterranean Climate"
+  },
+  {
+    "id": "ac4edb79-d34a-4847-b487-eb2f654a0008",
+    "text": "Which line of latitude is most associated with tropical climate zones?",
+    "options": [
+      "Arctic Circle",
+      "Tropic of Cancer",
+      "Equator",
+      "Antarctic Circle"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "The equator (0° latitude) is the center of the tropical climate zone.",
+    "detailedExplanation": "The equator at 0° latitude receives the most direct sunlight year-round, making it the heart of the tropical climate zone. The tropical zone generally extends from about 23.5° North to 23.5° South latitude, encompassing the area between the Tropic of Cancer and Tropic of Capricorn. This region experiences consistently high temperatures and receives intense solar radiation throughout the year due to the sun's angle.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Equator",
+    "citationTitle": "Wikipedia: Equator"
+  },
+  {
+    "id": "69a84dce-59a1-43aa-95ea-13a6d64e9e9b",
+    "text": "Which factor most directly determines climate zones around the world?",
+    "options": [
+      "Ocean currents",
+      "Mountain ranges",
+      "Latitude",
+      "Wind patterns"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "Latitude is the primary factor determining climate zones as it affects solar radiation received.",
+    "detailedExplanation": "Latitude is the most fundamental factor in determining climate zones because it directly affects the amount and angle of solar radiation a region receives. Areas near the equator (low latitude) receive more direct sunlight year-round, creating tropical climates, while areas near the poles (high latitude) receive less direct sunlight, creating polar climates. While ocean currents, mountains, and wind patterns all influence local climate, latitude provides the basic framework for global climate zone distribution.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Climate_classification",
+    "citationTitle": "Wikipedia: Climate Classification"
+  },
+  {
+    "id": "73d01fa5-4f74-407f-b0b1-35509e5198d4",
+    "text": "What is the hottest climate zone on Earth, located near the equator?",
+    "options": [
+      "Arctic",
+      "Temperate",
+      "Tropical",
+      "Desert"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "Tropical climate zones are found near the equator and experience consistently high temperatures year-round.",
+    "detailedExplanation": "Tropical climate zones are characterized by high temperatures throughout the year, typically averaging above 18°C (64°F) in the coldest month. These regions receive direct sunlight year-round due to their proximity to the equator, resulting in minimal seasonal temperature variation. Tropical zones often feature high humidity and significant rainfall, supporting lush vegetation like rainforests.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Tropical_climate",
+    "citationTitle": "Wikipedia: Tropical climate"
+  },
+  {
+    "id": "7d27f3ad-45fa-4728-a02c-de68cb99d6d4",
+    "text": "Which climate zone is characterized by extremely cold temperatures and is found at the North and South Poles?",
+    "options": [
+      "Polar",
+      "Continental",
+      "Mediterranean",
+      "Subtropical"
+    ],
+    "correctIndex": 0,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "Polar climate zones are found at the Earth's poles and experience the coldest temperatures on the planet.",
+    "detailedExplanation": "Polar climate zones are located at the extreme northern and southern latitudes of Earth, including Antarctica and the Arctic regions. These areas are characterized by extremely cold temperatures year-round, with the warmest month averaging below 10°C (50°F). Polar regions receive very little direct sunlight, especially during winter months, and are often covered by ice and snow throughout the year.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Polar_climate",
+    "citationTitle": "Wikipedia: Polar climate"
+  },
+  {
+    "id": "6139ab7b-aaee-419d-84d8-06ef70b83439",
+    "text": "What type of climate zone typically has four distinct seasons with moderate temperatures?",
+    "options": [
+      "Tropical",
+      "Polar",
+      "Temperate",
+      "Arid"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "Temperate climate zones experience four distinct seasons with moderate temperatures between tropical and polar extremes.",
+    "detailedExplanation": "Temperate climate zones are found in the middle latitudes, roughly between 30° and 60° north and south of the equator. These regions experience four distinct seasons - spring, summer, autumn, and winter - with moderate temperatures that fall between the extremes of tropical and polar climates. Temperate zones typically have adequate rainfall and support deciduous forests, grasslands, and agricultural activities.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Temperate_climate",
+    "citationTitle": "Wikipedia: Temperate climate"
+  },
+  {
+    "id": "acd44668-fdd8-4454-b403-86e27570ccd9",
+    "text": "Which climate zone is known for receiving very little rainfall throughout the year?",
+    "options": [
+      "Rainforest",
+      "Arid",
+      "Oceanic",
+      "Humid subtropical"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "Arid climate zones are characterized by very low precipitation, creating desert conditions.",
+    "detailedExplanation": "Arid climate zones, also known as desert climates, are defined by their extremely low precipitation levels, typically receiving less than 250mm (10 inches) of rainfall per year. These regions often experience large temperature variations between day and night, and between seasons. Arid zones can be hot deserts like the Sahara or cold deserts like parts of Mongolia. The lack of moisture limits vegetation to drought-resistant plants.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Arid_climate",
+    "citationTitle": "Wikipedia: Arid climate"
+  },
+  {
+    "id": "8507f189-3a85-474b-bc01-aa571799a141",
+    "text": "The Mediterranean climate zone is characterized by what type of weather pattern?",
+    "options": [
+      "Hot summers and cold winters",
+      "Wet summers and dry winters",
+      "Dry summers and wet winters",
+      "Constant rainfall year-round"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "Mediterranean climates feature dry, warm summers and mild, wet winters.",
+    "detailedExplanation": "Mediterranean climate zones are characterized by their distinctive seasonal pattern of dry summers and wet winters. These regions typically experience warm to hot, dry summers with little to no rainfall, followed by mild winters with moderate precipitation. This climate pattern is found around the Mediterranean Sea, parts of California, central Chile, southwestern Australia, and the Western Cape of South Africa. The dry summer period is ideal for growing certain crops like grapes and olives.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Mediterranean_climate",
+    "citationTitle": "Wikipedia: Mediterranean climate"
+  },
+  {
+    "id": "11789f8a-9c89-4dff-aeaf-52a5378731eb",
+    "text": "What is the main factor that determines Earth's different climate zones?",
+    "options": [
+      "Ocean currents",
+      "Mountain ranges",
+      "Latitude",
+      "Wind patterns"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "Latitude is the primary factor determining climate zones, as it affects how much solar energy different regions receive.",
+    "detailedExplanation": "Latitude is the most important factor in determining Earth's climate zones because it controls the amount and angle of solar radiation that different regions receive throughout the year. Areas near the equator (low latitudes) receive direct, intense sunlight year-round, creating tropical climates. As you move toward the poles (higher latitudes), the sun's rays strike at increasingly oblique angles, resulting in less heat and progressively cooler climates. While factors like ocean currents, elevation, and wind patterns also influence local climates, latitude provides the fundamental framework for global climate zones.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Climate_classification",
+    "citationTitle": "Wikipedia: Climate classification"
+  },
+  {
+    "id": "621eb13f-6d8b-4ea2-91ae-86460c3a647b",
+    "text": "Which continent contains examples of all major climate zones?",
+    "options": [
+      "Australia",
+      "Europe",
+      "Asia",
+      "Africa"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "Asia is the largest continent and spans from the Arctic to the tropics, containing all major climate zones.",
+    "detailedExplanation": "Asia is the world's largest continent and extends across an enormous range of latitudes, from the Arctic regions of Siberia in the north to the tropical areas of Southeast Asia in the south. This vast latitudinal range means Asia contains examples of all major climate zones: polar climates in northern Russia, temperate climates in much of China and central Asia, arid climates in regions like the Gobi Desert, tropical climates in Southeast Asia, and Mediterranean climates in parts of western Asia. The continent's size and geographic diversity make it unique in encompassing such climatic variety.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Climate_of_Asia",
+    "citationTitle": "Wikipedia: Climate of Asia"
+  },
+  {
+    "id": "0b722dca-ed0f-4a8e-98ae-0a262771a45a",
+    "text": "What do we call the imaginary line around Earth where tropical climate zones are typically centered?",
+    "options": [
+      "Prime Meridian",
+      "Tropic of Cancer",
+      "Equator",
+      "International Date Line"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "The equator is the imaginary line at 0° latitude where tropical climates are centered due to receiving the most direct sunlight.",
+    "detailedExplanation": "The equator is an imaginary line that circles the Earth at 0° latitude, exactly halfway between the North and South Poles. Tropical climate zones are typically centered around the equator because this region receives the most direct and consistent solar radiation throughout the year. The sun's rays strike the equatorial region nearly perpendicular to the Earth's surface, providing maximum heating. Areas within approximately 23.5° north and south of the equator (between the Tropic of Cancer and Tropic of Capricorn) generally experience tropical climates.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Equator",
+    "citationTitle": "Wikipedia: Equator"
+  },
+  {
+    "id": "4f215f2e-200d-4dfa-a97a-89134931ad17",
+    "text": "What is the climate zone found at the Earth's equator characterized by high temperatures and heavy rainfall year-round?",
+    "options": [
+      "Tropical",
+      "Desert",
+      "Temperate",
+      "Arctic"
+    ],
+    "correctIndex": 0,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "The tropical climate zone occurs near the equator with consistently high temperatures and abundant rainfall.",
+    "detailedExplanation": "The tropical climate zone is located between approximately 23.5°N and 23.5°S latitude, encompassing the equatorial regions. This zone is characterized by high temperatures throughout the year (typically above 18°C or 64°F) and significant precipitation, often exceeding 150cm annually. The consistent solar radiation received at these latitudes creates the hot, humid conditions that support lush rainforests like the Amazon and Congo Basin.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Tropical_climate",
+    "citationTitle": "Wikipedia: Tropical climate"
+  },
+  {
+    "id": "67f3eced-0337-43cd-8a0b-1cf6006bce68",
+    "text": "Which climate zone is characterized by very cold temperatures and is found in the northernmost parts of Canada, Alaska, and Siberia?",
+    "options": [
+      "Temperate",
+      "Subtropical",
+      "Arctic",
+      "Mediterranean"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "The Arctic climate zone features extremely cold temperatures and is located in the polar regions of the Northern Hemisphere.",
+    "detailedExplanation": "The Arctic climate zone, also known as the polar climate, is found in the northernmost regions of the planet, typically above 60°N latitude. This zone experiences long, extremely cold winters with temperatures often dropping below -30°C (-22°F), and short, cool summers. The region receives limited solar radiation due to its high latitude, and much of the precipitation falls as snow. Permafrost is common, and vegetation is limited to hardy species like mosses, lichens, and small shrubs.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Polar_climate",
+    "citationTitle": "Wikipedia: Polar climate"
+  },
+  {
+    "id": "e4cae37e-1fd9-46c5-94f2-65b08d352d6b",
+    "text": "What type of climate zone would you expect to find in the Sahara Desert?",
+    "options": [
+      "Humid continental",
+      "Arid",
+      "Oceanic",
+      "Subarctic"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "Arid climate zones are characterized by very low rainfall and high evaporation rates, typical of desert regions.",
+    "detailedExplanation": "Arid climate zones, also called desert climates, are characterized by extremely low precipitation (typically less than 250mm or 10 inches annually) and high rates of evaporation. The Sahara Desert exemplifies this climate type with scorching daytime temperatures that can exceed 50°C (122°F) and dramatic temperature drops at night. These regions often experience less than 25% cloud cover and have sparse vegetation adapted to water scarcity, such as cacti and drought-resistant shrubs.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Desert_climate",
+    "citationTitle": "Wikipedia: Desert climate"
+  },
+  {
+    "id": "755a27ae-cfad-489c-b1c0-124f2f6d07f5",
+    "text": "Which climate zone typically experiences four distinct seasons with moderate temperatures and precipitation?",
+    "options": [
+      "Tropical",
+      "Temperate",
+      "Desert",
+      "Tundra"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "Temperate climate zones have four distinct seasons with moderate temperatures and regular precipitation throughout the year.",
+    "detailedExplanation": "Temperate climate zones are found in the middle latitudes, roughly between 30° and 60° north and south of the equator. These regions experience four distinct seasons - spring, summer, autumn, and winter - with moderate temperatures and fairly regular precipitation distribution throughout the year. Average temperatures typically range from -3°C to 18°C (27°F to 64°F). Much of Europe, eastern North America, and parts of Asia fall within temperate zones, supporting diverse ecosystems including deciduous forests and grasslands.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Temperate_climate",
+    "citationTitle": "Wikipedia: Temperate climate"
+  }
+]

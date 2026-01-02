@@ -1,0 +1,342 @@
+[
+  {
+    "id": "2d7db3a4-5fd2-451a-9f8c-26c358866cd5",
+    "text": "Which part of a flower is responsible for producing pollen?",
+    "options": [
+      "Pistil",
+      "Petal",
+      "Stamen",
+      "Sepal"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "The stamen is the male reproductive organ of a flower that produces pollen in its anthers.",
+    "detailedExplanation": "The stamen consists of two main parts: the anther, which produces and contains pollen grains, and the filament, which supports the anther. Pollen contains the male gametes necessary for plant reproduction. When mature, the anthers release pollen, which can be transferred to the female parts of flowers through various means including wind, insects, or other pollinators. This is a crucial step in the sexual reproduction of flowering plants.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Stamen",
+    "citationTitle": "Wikipedia: Stamen"
+  },
+  {
+    "id": "cb8d277e-140b-4519-a88a-dc2335b6da3b",
+    "text": "What do we call plants that complete their life cycle in one growing season?",
+    "options": [
+      "Perennials",
+      "Biennials",
+      "Annuals",
+      "Evergreens"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Annuals are plants that germinate, grow, flower, produce seeds, and die all within one year.",
+    "detailedExplanation": "Annual plants complete their entire life cycle - from seed germination through growth, flowering, seed production, and death - within a single growing season, typically one year. Common examples include marigolds, zinnias, and many vegetable crops like tomatoes and beans. This strategy allows plants to quickly take advantage of favorable growing conditions and produce many seeds to ensure species survival. Annuals are popular in gardens because they often bloom continuously throughout their growing season.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Annual_plant",
+    "citationTitle": "Wikipedia: Annual plant"
+  },
+  {
+    "id": "40dbeb70-2e6e-4793-a178-381915e79029",
+    "text": "What is the process called when a seed begins to grow into a new plant?",
+    "options": [
+      "Pollination",
+      "Fertilization",
+      "Germination",
+      "Photosynthesis"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Germination is the process by which a seed develops into a new plant.",
+    "detailedExplanation": "Germination is the process by which a plant emerges from a seed and begins its growth into a mature plant. This process typically begins when a seed absorbs water, causing it to swell and break through its seed coat. The embryo inside the seed then begins to grow, with the root (radicle) usually emerging first to anchor the plant and absorb water, followed by the shoot that will develop into the stem and leaves. Germination requires specific conditions including adequate moisture, appropriate temperature, and often exposure to light or darkness depending on the species.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Germination",
+    "citationTitle": "Wikipedia: Germination"
+  },
+  {
+    "id": "5e26b28c-dccd-49e8-90e9-942fa7bca8cc",
+    "text": "What are the tiny pores on the underside of leaves called?",
+    "options": [
+      "Chloroplasts",
+      "Stomata",
+      "Vacuoles",
+      "Mitochondria"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Stomata are small pores on leaves that allow gas exchange and water vapor to pass through.",
+    "detailedExplanation": "Stomata (singular: stoma) are microscopic pores found primarily on the underside of leaves, surrounded by specialized cells called guard cells. These pores serve as the primary sites for gas exchange in plants, allowing carbon dioxide to enter for photosynthesis and oxygen to exit as a byproduct. Stomata also regulate water loss through transpiration. The guard cells can open and close the stomatal pores in response to various environmental factors such as light, humidity, and carbon dioxide levels, helping plants balance their need for gas exchange with water conservation.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Stoma",
+    "citationTitle": "Wikipedia: Stoma"
+  },
+  {
+    "id": "996accd5-257d-435e-b78d-697d8e48ca95",
+    "text": "Which part of a plant is primarily responsible for absorbing water and nutrients from the soil?",
+    "options": [
+      "Leaves",
+      "Stems",
+      "Roots",
+      "Flowers"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Roots are the plant organs that anchor the plant and absorb water and minerals from the soil.",
+    "detailedExplanation": "Roots serve multiple crucial functions for plants, with absorption being one of the most important. The root system, particularly the tiny root hairs that extend from the main roots, dramatically increases the surface area available for absorption. These structures take up water and dissolved minerals from the soil, which are then transported throughout the plant via the vascular system. Roots also anchor the plant in place, store food reserves, and can sometimes reproduce the plant vegetatively. The extensive network of roots can often be much larger than the visible above-ground portion of the plant.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Root",
+    "citationTitle": "Wikipedia: Root"
+  },
+  {
+    "id": "ed1c2c32-e186-4ef3-8a47-2df46a548f34",
+    "text": "What is the name of the green pigment that gives plants their color and helps them absorb light?",
+    "options": [
+      "Carotene",
+      "Chlorophyll",
+      "Anthocyanin",
+      "Xanthophyll"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Chlorophyll is the green pigment found in plant chloroplasts that captures light energy for photosynthesis.",
+    "detailedExplanation": "Chlorophyll is the most important photosynthetic pigment in plants, giving them their characteristic green color. There are several types of chlorophyll, with chlorophyll-a and chlorophyll-b being the most common in higher plants. These molecules are specifically designed to absorb light energy, primarily in the red and blue portions of the light spectrum, while reflecting green light, which is why we see plants as green. Chlorophyll is contained within chloroplasts, specialized organelles found mainly in leaf cells. When autumn arrives, chlorophyll breaks down, revealing other pigments like carotenes and anthocyanins that create the beautiful fall colors.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Chlorophyll",
+    "citationTitle": "Wikipedia: Chlorophyll"
+  },
+  {
+    "id": "0fab4a5f-8d35-417c-af26-354d38147abb",
+    "text": "Which of these is NOT a method of plant reproduction?",
+    "options": [
+      "Seeds",
+      "Spores",
+      "Budding",
+      "Mitosis"
+    ],
+    "correctIndex": 3,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Mitosis is a type of cell division, not a method of plant reproduction itself.",
+    "detailedExplanation": "While mitosis is indeed a crucial cellular process that occurs during plant growth and reproduction, it is not itself a method of reproduction but rather a mechanism of cell division. Plants reproduce through various methods including sexual reproduction via seeds (which develop from fertilized ovules), asexual reproduction through spores (particularly in ferns and mosses), and vegetative reproduction through budding (where new plants grow from buds on the parent plant). Mitosis is the process by which cells divide to create two identical daughter cells, and it occurs during all these reproductive methods as well as during normal growth and tissue repair.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Plant_reproduction",
+    "citationTitle": "Wikipedia: Plant reproduction"
+  },
+  {
+    "id": "7dd6e9bf-9857-43d8-8466-86b700643e99",
+    "text": "What do we call the tiny pores on plant leaves that allow gas exchange?",
+    "options": [
+      "Stomata",
+      "Lenticels",
+      "Nodes",
+      "Cambium"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Stomata are microscopic pores on leaf surfaces that open and close to control gas exchange and water loss.",
+    "detailedExplanation": "Stomata are tiny openings found primarily on the undersides of leaves, though they can also occur on stems and other plant parts. Each stoma (singular of stomata) is surrounded by two specialized cells called guard cells that can change shape to open or close the pore. When stomata are open, they allow carbon dioxide to enter the plant for photosynthesis and oxygen to exit as a byproduct. They also allow water vapor to escape in a process called transpiration. Plants can control their stomata to balance their need for carbon dioxide with their need to conserve water, typically opening them during cooler parts of the day and closing them during hot, dry conditions.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Stoma",
+    "citationTitle": "Wikipedia: Stoma"
+  },
+  {
+    "id": "a92c329d-3be0-4b3f-8b1b-8ff24b882726",
+    "text": "Which plant hormone is primarily responsible for promoting stem elongation and growth toward light?",
+    "options": [
+      "Cytokinin",
+      "Auxin",
+      "Gibberellin",
+      "Abscisic acid"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Auxin is the plant hormone that controls cell elongation and causes plants to bend toward light sources.",
+    "detailedExplanation": "Auxin is one of the most important plant hormones, discovered through studies of how plants bend toward light in a process called phototropism. When light hits one side of a plant stem, auxin concentrates on the shaded side, causing those cells to elongate more than the cells on the light side, resulting in the plant bending toward the light source. Auxin also plays crucial roles in many other plant processes including root development, fruit development, and the inhibition of lateral bud growth (apical dominance). This hormone is produced mainly in the growing tips of shoots and roots and is transported throughout the plant to coordinate growth and development.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Auxin",
+    "citationTitle": "Wikipedia: Auxin"
+  },
+  {
+    "id": "d5148cee-e34e-40ef-a682-990ab97986d1",
+    "text": "What type of plant tissue is responsible for transporting water from roots to leaves?",
+    "options": [
+      "Phloem",
+      "Xylem",
+      "Epidermis",
+      "Cortex"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Xylem is the vascular tissue that transports water and minerals upward from roots to the rest of the plant.",
+    "detailedExplanation": "Xylem is one of the two main types of vascular tissue in plants (the other being phloem). It consists of specialized cells that form tubes running from the roots up through the stem to the leaves. These cells are actually dead at maturity, creating hollow tubes that efficiently transport water and dissolved minerals. The movement of water through xylem is driven by transpiration - as water evaporates from the leaves, it creates a negative pressure that pulls more water up from the roots, similar to sucking on a straw. This system can transport water hundreds of feet up in tall trees. Xylem tissue also provides structural support to the plant, and in woody plants, old xylem becomes the wood.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Xylem",
+    "citationTitle": "Wikipedia: Xylem"
+  },
+  {
+    "id": "5ee7f354-02a9-4896-8b23-4c16e03fe8b1",
+    "text": "Which part of a flower typically contains the male reproductive organs?",
+    "options": [
+      "Pistil",
+      "Stamen",
+      "Sepal",
+      "Petal"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "The stamen is the male reproductive part of a flower, consisting of the anther and filament.",
+    "detailedExplanation": "The stamen is the male reproductive organ of flowering plants, typically consisting of two main parts: the anther, which produces and contains pollen, and the filament, which is the stalk that holds the anther in position. Most flowers have multiple stamens arranged around the center of the flower. When the pollen is mature, the anthers release it, and it can then be transferred to the female reproductive parts (the pistil) of the same or different flowers through various means such as wind, insects, or other pollinators. This process, called pollination, is the first step in sexual reproduction in flowering plants and leads to the formation of seeds.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Stamen",
+    "citationTitle": "Wikipedia: Stamen"
+  },
+  {
+    "id": "36872688-70c8-423f-b7f3-7ec9527ebefa",
+    "text": "What gas do plants absorb from the atmosphere during photosynthesis?",
+    "options": [
+      "Carbon dioxide",
+      "Oxygen",
+      "Nitrogen",
+      "Hydrogen"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Plants absorb carbon dioxide and release oxygen during photosynthesis.",
+    "detailedExplanation": "During photosynthesis, plants use chlorophyll to capture sunlight and convert carbon dioxide from the air and water from the soil into glucose for energy. This process also produces oxygen as a byproduct, which is released back into the atmosphere. This fundamental process is essential for life on Earth as it provides the oxygen we breathe.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Photosynthesis",
+    "citationTitle": "Wikipedia: Photosynthesis"
+  },
+  {
+    "id": "bdec9eb0-c7b2-4952-8010-d5716a81fef6",
+    "text": "What is the green pigment in plants called?",
+    "options": [
+      "Carotene",
+      "Chlorophyll",
+      "Anthocyanin",
+      "Xanthophyll"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Chlorophyll is the green pigment that captures light energy for photosynthesis.",
+    "detailedExplanation": "Chlorophyll is the primary pigment found in the chloroplasts of plant cells that gives plants their green color. It plays a crucial role in photosynthesis by absorbing light energy, particularly red and blue wavelengths, while reflecting green light. There are several types of chlorophyll, with chlorophyll-a and chlorophyll-b being the most common in higher plants.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Chlorophyll",
+    "citationTitle": "Wikipedia: Chlorophyll"
+  },
+  {
+    "id": "75bc570c-903b-4039-b397-bc000fc13b61",
+    "text": "What process allows plants to lose water through their leaves?",
+    "options": [
+      "Photosynthesis",
+      "Respiration",
+      "Transpiration",
+      "Germination"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Transpiration is the process of water loss through leaf pores called stomata.",
+    "detailedExplanation": "Transpiration is the process by which plants lose water vapor through small openings in their leaves called stomata. This process helps plants cool themselves, creates suction that pulls water up from the roots, and allows for the transport of nutrients throughout the plant. It's essentially the plant equivalent of sweating and is a crucial part of the water cycle in nature.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Transpiration",
+    "citationTitle": "Wikipedia: Transpiration"
+  },
+  {
+    "id": "4a1e4e63-5eac-4b35-94bb-9026935ea90a",
+    "text": "Which of these is NOT a method of seed dispersal in plants?",
+    "options": [
+      "Wind dispersal",
+      "Animal dispersal",
+      "Water dispersal",
+      "Root dispersal"
+    ],
+    "correctIndex": 3,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Seeds are not dispersed by roots; they use wind, animals, water, and other methods.",
+    "detailedExplanation": "Plants have evolved various strategies to disperse their seeds away from the parent plant to reduce competition and colonize new areas. Common methods include wind dispersal (like dandelions), animal dispersal (through eating fruits or seeds sticking to fur), and water dispersal (like coconuts). Roots, however, are not involved in seed dispersal as they remain anchored in the soil and serve to absorb nutrients and water.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Seed_dispersal",
+    "citationTitle": "Wikipedia: Seed dispersal"
+  },
+  {
+    "id": "c51caa14-4e96-4539-ab77-77ff133e4da4",
+    "text": "Which part of a flower typically attracts pollinators with bright colors?",
+    "options": [
+      "Stem",
+      "Roots",
+      "Petals",
+      "Leaves"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Petals are the colorful parts of flowers that attract insects, birds, and other pollinators.",
+    "detailedExplanation": "Petals are modified leaves that form the corolla of a flower and serve as the plant's advertising billboard to attract pollinators. They often display vibrant colors, patterns, and may produce fragrances to signal to bees, butterflies, birds, and other animals that nectar and pollen are available. The bright colors and patterns, sometimes including ultraviolet markings invisible to humans, help guide pollinators to the reproductive parts of the flower, facilitating the transfer of pollen between plants.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Petal",
+    "citationTitle": "Wikipedia: Petal"
+  },
+  {
+    "id": "46d41345-045d-4080-acdd-eb6850c3cb48",
+    "text": "What part of a plant is responsible for absorbing water and nutrients from the soil?",
+    "options": [
+      "Roots",
+      "Leaves",
+      "Stems",
+      "Flowers"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Roots absorb water and nutrients from the soil through their root hairs.",
+    "detailedExplanation": "Plant roots serve as the primary absorption system for water and essential nutrients from the soil. The root system includes tiny structures called root hairs that dramatically increase the surface area available for absorption. These microscopic extensions allow plants to efficiently uptake water through osmosis and minerals through active transport, making roots absolutely essential for plant survival and growth.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Root",
+    "citationTitle": "Wikipedia: Root"
+  },
+  {
+    "id": "60c25bfd-0fae-47bf-aa03-2cd2ae9dc06b",
+    "text": "Which part of a flower typically contains the colorful petals?",
+    "options": [
+      "Stamen",
+      "Pistil",
+      "Corolla",
+      "Sepals"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "The corolla is the collective term for all the petals of a flower, which are typically the colorful parts that attract pollinators.",
+    "detailedExplanation": "The corolla is one of the four main parts of a flower, consisting of all the petals collectively. These petals are usually the most visually striking part of the flower, often brightly colored and sometimes fragrant to attract pollinators like bees, butterflies, and birds. The corolla surrounds and protects the reproductive organs of the flower while serving as a landing platform for visiting pollinators. The other main flower parts include the calyx (sepals), stamen (male reproductive organs), and pistil (female reproductive organs).",
+    "citationUrl": "https://en.wikipedia.org/wiki/Petal",
+    "citationTitle": "Wikipedia: Petal"
+  },
+  {
+    "id": "c059d804-67ec-420f-a0e0-eed4356b849b",
+    "text": "What do we call the tiny pores on the underside of leaves that allow gas exchange?",
+    "options": [
+      "Chloroplasts",
+      "Stomata",
+      "Xylem",
+      "Phloem"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Stomata are microscopic pores found mainly on the underside of leaves that regulate gas exchange and water loss.",
+    "detailedExplanation": "Stomata are small openings or pores found primarily on the underside of leaves, though they can also be found on stems and other plant parts. Each stoma (singular) is surrounded by two specialized cells called guard cells that can open and close the pore to regulate the exchange of gases, particularly carbon dioxide and oxygen, as well as control water loss through transpiration. This regulation is crucial for photosynthesis, as plants need to take in carbon dioxide while minimizing water loss. The ability of guard cells to respond to environmental conditions like light, humidity, and carbon dioxide levels makes stomata essential for plant survival.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Stoma",
+    "citationTitle": "Wikipedia: Stoma"
+  },
+  {
+    "id": "71960368-db89-4fcc-9f4a-1906ec5b7ca6",
+    "text": "What process do plants use to convert sunlight, carbon dioxide, and water into glucose and oxygen?",
+    "options": [
+      "Photosynthesis",
+      "Respiration",
+      "Transpiration",
+      "Germination"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Photosynthesis is the process by which plants convert light energy into chemical energy (glucose) while releasing oxygen as a byproduct.",
+    "detailedExplanation": "Photosynthesis is the fundamental process that allows plants to create their own food using sunlight, carbon dioxide from the air, and water from their roots. This process occurs primarily in the leaves, specifically in chloroplasts containing chlorophyll, which gives plants their green color. The chemical equation for photosynthesis is 6CO₂ + 6H₂O + light energy → C₆H₁₂O₆ + 6O₂. This process is essential for life on Earth as it produces the oxygen we breathe and forms the base of most food chains.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Photosynthesis",
+    "citationTitle": "Wikipedia: Photosynthesis"
+  }
+]

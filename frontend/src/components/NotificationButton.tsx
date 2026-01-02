@@ -1,16 +1,16 @@
-'use client';
+"use client";
 
-import { Button, Chip } from '@nextui-org/react';
-import { useNotifications } from '@/hooks/useNotifications';
+import { Button, Chip } from "@nextui-org/react";
+import { useNotifications } from "@/hooks/useNotifications";
 
 export function NotificationButton() {
   const { permissionState, requestPermission } = useNotifications();
 
-  if (permissionState === 'unsupported') {
+  if (permissionState === "unsupported") {
     return null;
   }
 
-  if (permissionState === 'granted') {
+  if (permissionState === "granted") {
     return (
       <Chip size="sm" color="success" variant="flat">
         🔔 Notifications on
@@ -18,7 +18,7 @@ export function NotificationButton() {
     );
   }
 
-  if (permissionState === 'denied') {
+  if (permissionState === "denied") {
     return (
       <Chip size="sm" color="default" variant="flat">
         🔕 Notifications blocked
@@ -27,11 +27,7 @@ export function NotificationButton() {
   }
 
   return (
-    <Button
-      size="sm"
-      variant="flat"
-      onPress={requestPermission}
-    >
+    <Button size="sm" variant="flat" onPress={requestPermission}>
       🔔 Enable notifications
     </Button>
   );

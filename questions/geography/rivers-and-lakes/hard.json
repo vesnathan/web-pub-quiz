@@ -1,0 +1,342 @@
+[
+  {
+    "id": "b78cce85-0879-4a7f-9329-d10a1187ff48",
+    "text": "Which river has the largest discharge of water into the ocean by volume?",
+    "options": [
+      "Nile River",
+      "Amazon River",
+      "Mississippi River",
+      "Congo River"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "The Amazon River discharges approximately 209,000 cubic meters of water per second into the Atlantic Ocean.",
+    "detailedExplanation": "Despite the Nile being the longest river, the Amazon River in South America has by far the largest discharge of any river in the world. It accounts for about 20% of all freshwater entering the oceans globally, with an average discharge of 209,000 cubic meters per second. This massive flow is due to the river's enormous drainage basin covering much of the Amazon rainforest, which receives heavy rainfall year-round.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Amazon_River",
+    "citationTitle": "Wikipedia: Amazon River"
+  },
+  {
+    "id": "081c9b67-d09c-41ba-8ce4-52900d22dcac",
+    "text": "Lake Baikal in Russia contains approximately what percentage of the world's unfrozen freshwater?",
+    "options": [
+      "10%",
+      "20%",
+      "30%",
+      "40%"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "Lake Baikal contains about 20% of the world's unfrozen freshwater, making it the largest freshwater lake by volume.",
+    "detailedExplanation": "Lake Baikal is not only the world's deepest lake at 1,642 meters deep, but also the oldest at around 25-30 million years old. Its immense depth and size allow it to hold approximately 20% of all unfrozen freshwater on Earth - more than all the North American Great Lakes combined. The lake's pristine waters are so clear that objects can be seen at depths of up to 40 meters, and it hosts over 1,700 species of plants and animals, two-thirds of which are found nowhere else in the world.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Lake_Baikal",
+    "citationTitle": "Wikipedia: Lake Baikal"
+  },
+  {
+    "id": "cd3ea8ec-912c-4e25-91ad-651c6e0104bf",
+    "text": "The Okavango River in Africa is unique because it flows into which geographical feature?",
+    "options": [
+      "An underground cave system",
+      "A desert delta",
+      "A volcanic crater",
+      "A salt flat"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "The Okavango River flows into the Kalahari Desert, creating the world's largest inland delta.",
+    "detailedExplanation": "The Okavango River is one of the few major rivers that never reaches the sea. Instead, it flows from the Angolan highlands into the Kalahari Desert in Botswana, where it forms the Okavango Delta - the world's largest inland delta. This unique ecosystem covers between 6,000 to 15,000 square kilometers depending on seasonal flooding. The delta supports an incredible diversity of wildlife and is considered one of Africa's last pristine wilderness areas, designated as a UNESCO World Heritage Site in 2014.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Okavango_Delta",
+    "citationTitle": "Wikipedia: Okavango Delta"
+  },
+  {
+    "id": "5a60ca4c-9c08-4143-8e98-25942d8b2432",
+    "text": "Which lake, formed by a meteor impact, is the largest meteorite crater lake on Earth?",
+    "options": [
+      "Crater Lake, Oregon",
+      "Lake Manicouagan, Canada",
+      "Lake Bosumtwi, Ghana",
+      "Lonar Lake, India"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "Lake Manicouagan in Quebec, Canada, is a ring-shaped lake formed by a meteor impact 214 million years ago.",
+    "detailedExplanation": "Lake Manicouagan, also known as the 'Eye of Quebec' due to its distinctive ring shape visible from space, was formed by a meteorite impact approximately 214 million years ago. The original crater was about 100 kilometers in diameter, making it one of the largest known impact craters on Earth. The central uplift of the crater now forms René-Levasseur Island, which is larger than the lake itself. The lake covers about 1,942 square kilometers and serves as a reservoir for a major hydroelectric facility.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Manicouagan_Reservoir",
+    "citationTitle": "Wikipedia: Manicouagan Reservoir"
+  },
+  {
+    "id": "fb0226ff-2558-4648-9730-d30e6a7341b5",
+    "text": "The Mekong River flows through how many countries before reaching the South China Sea?",
+    "options": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "The Mekong River flows through 6 countries: China, Myanmar, Laos, Thailand, Cambodia, and Vietnam.",
+    "detailedExplanation": "The Mekong River is the 12th longest river in the world and the 7th longest in Asia. It originates in the Tibetan Plateau in China and flows for 4,350 kilometers through six countries: China (where it's called the Lancang), Myanmar, Laos, Thailand, Cambodia, and Vietnam before emptying into the South China Sea through the Mekong Delta. The river is crucial for the livelihoods of over 60 million people who depend on it for fishing, agriculture, and transportation. The Lower Mekong Basin is considered the world's largest inland fishery.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Mekong",
+    "citationTitle": "Wikipedia: Mekong"
+  },
+  {
+    "id": "e656e7bc-926f-4764-851d-80047b7137f7",
+    "text": "Which European river flows backwards during certain tidal conditions?",
+    "options": [
+      "River Thames",
+      "River Seine",
+      "River Severn",
+      "River Rhine"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "The River Severn experiences the Severn Bore, where tidal surges cause the river to flow upstream.",
+    "detailedExplanation": "The River Severn in the United Kingdom is famous for the Severn Bore, a tidal bore that occurs when the rising tide forms a wave that travels up the river against the direction of the current. This natural phenomenon happens because the Severn Estuary has the second-highest tidal range in the world (up to 15 meters), and the funnel shape of the estuary amplifies the incoming tide. The bore can travel at speeds of up to 12 mph and can be surfed by experienced riders. The largest bores occur during spring tides, particularly around the equinoxes.",
+    "citationUrl": "https://en.wikipedia.org/wiki/River_Severn",
+    "citationTitle": "Wikipedia: River Severn"
+  },
+  {
+    "id": "08de2ca2-465f-4b46-b045-4f922ef12405",
+    "text": "The Aral Sea has shrunk dramatically since the 1960s. What was its original rank among the world's lakes by surface area?",
+    "options": [
+      "2nd largest",
+      "3rd largest",
+      "4th largest",
+      "5th largest"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "The Aral Sea was originally the 4th largest lake in the world by surface area before its dramatic shrinkage.",
+    "detailedExplanation": "The Aral Sea, located between Kazakhstan and Uzbekistan, was once the 4th largest lake in the world with a surface area of 68,000 square kilometers. Since the 1960s, it has shrunk to less than 10% of its original size due to Soviet irrigation projects that diverted the Amu Darya and Syr Darya rivers. This environmental disaster has been called one of the planet's worst environmental catastrophes, leaving behind the Aralkum Desert where the lake once was. The shrinkage has caused severe climate change in the region, with hotter summers, colder winters, and frequent dust storms.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Aral_Sea",
+    "citationTitle": "Wikipedia: Aral Sea"
+  },
+  {
+    "id": "6e750fdf-e2d6-4aa4-97a5-a790e760f784",
+    "text": "Which river system includes the world's largest river island by area?",
+    "options": [
+      "Amazon River system",
+      "Ganges-Brahmaputra system",
+      "Mississippi River system",
+      "Nile River system"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "Majuli Island in the Brahmaputra River in Assam, India, is the world's largest river island.",
+    "detailedExplanation": "Majuli Island, located in the Brahmaputra River in the state of Assam, India, is recognized as the world's largest river island with an area of approximately 880 square kilometers (though it was larger in the past). The island is formed by the Brahmaputra River to the south and the Kherkutia Xuti and Subansiri rivers to the north. Majuli is not only geographically significant but also culturally important as a center of Assamese culture and Vaishnavite philosophy. However, the island faces threats from erosion and flooding, having lost about two-thirds of its area over the past century.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Majuli",
+    "citationTitle": "Wikipedia: Majuli"
+  },
+  {
+    "id": "304dccdb-8065-4ce1-9c45-e4cb7a099bc6",
+    "text": "Lake Baikal, the world's deepest freshwater lake, contains approximately what percentage of the world's unfrozen fresh water?",
+    "options": [
+      "10%",
+      "15%",
+      "20%",
+      "25%"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "Lake Baikal contains approximately 20% of the world's unfrozen fresh water despite being just one lake.",
+    "detailedExplanation": "Lake Baikal in Siberia, Russia, is not only the world's deepest freshwater lake at 1,642 meters deep, but also the world's largest freshwater lake by volume. It contains roughly 20% of the world's unfrozen fresh water, which is more than all the North American Great Lakes combined. This ancient lake, formed 25-30 million years ago, holds about 23,615 cubic kilometers of water and is home to thousands of endemic species.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Lake_Baikal",
+    "citationTitle": "Wikipedia: Lake Baikal"
+  },
+  {
+    "id": "3247f3d6-6631-4315-92cf-3154d80a0c75",
+    "text": "The Salton Sea in California was accidentally created in 1905 due to the failure of what?",
+    "options": [
+      "A dam burst",
+      "Canal irrigation controls",
+      "An earthquake",
+      "Mining operations"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "The Salton Sea was created when Colorado River water breached irrigation canal controls and flowed into the Salton Basin for two years.",
+    "detailedExplanation": "The Salton Sea was formed between 1905 and 1907 when heavy rainfall and snowmelt caused the Colorado River to swell and breach an intake of the California Development Company's irrigation canal system. For nearly two years, the entire flow of the Colorado River rushed into the Salton Basin before engineers could redirect it back to its original course. This accidental flooding created California's largest lake, which sits 226 feet below sea level and has no natural outlet.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Salton_Sea",
+    "citationTitle": "Wikipedia: Salton Sea"
+  },
+  {
+    "id": "3f9262d8-04b4-4418-89e5-2cf423669f99",
+    "text": "Which African river flows northward and empties into the Mediterranean Sea, but is NOT the Nile?",
+    "options": [
+      "There is no such river",
+      "Senegal River",
+      "Orange River",
+      "Congo River"
+    ],
+    "correctIndex": 0,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "The Nile is the only river that flows northward from Africa into the Mediterranean Sea.",
+    "detailedExplanation": "This is a trick question designed to test detailed geographical knowledge. The Nile River is unique among African rivers as the only major river that flows northward into the Mediterranean Sea. The Senegal River flows westward into the Atlantic, the Orange River flows westward into the Atlantic from South Africa, and the Congo River flows westward into the Atlantic. All other significant African rivers flow into either the Atlantic Ocean, Indian Ocean, or are part of internal drainage systems.",
+    "citationUrl": "https://en.wikipedia.org/wiki/List_of_rivers_of_Africa",
+    "citationTitle": "Wikipedia: List of rivers of Africa"
+  },
+  {
+    "id": "e58d916f-bc82-4e40-a94c-2a067dd4c7ae",
+    "text": "The Aral Sea, once the world's fourth-largest lake, has shrunk dramatically since the 1960s primarily due to what?",
+    "options": [
+      "Climate change and drought",
+      "Irrigation diversions for cotton farming",
+      "Industrial pollution",
+      "Tectonic plate movement"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "Soviet irrigation projects diverted the Amu Darya and Syr Darya rivers for cotton cultivation, causing the Aral Sea to lose 90% of its volume.",
+    "detailedExplanation": "The Aral Sea catastrophe is one of the world's worst environmental disasters. Starting in the 1960s, the Soviet Union diverted the two main rivers feeding the Aral Sea - the Amu Darya and Syr Darya - for massive irrigation projects, primarily to grow cotton in the desert. By 2014, the eastern basin had completely dried up, and the sea had lost about 90% of its original volume. What was once a 68,000 square kilometer lake became a series of smaller lakes and largely desert, causing severe ecological and economic consequences for the region.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Aral_Sea",
+    "citationTitle": "Wikipedia: Aral Sea"
+  },
+  {
+    "id": "ab15233c-5e31-4642-be8e-6847a3446f4e",
+    "text": "Which river forms the border between Argentina and Uruguay before emptying into the Río de la Plata?",
+    "options": [
+      "Paraná River",
+      "Paraguay River",
+      "Uruguay River",
+      "Pilcomayo River"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "The Uruguay River forms the border between Argentina and Uruguay before joining the Paraná to form the Río de la Plata.",
+    "detailedExplanation": "The Uruguay River rises in southern Brazil and flows southward, forming the border between Argentina and Uruguay for much of its lower course. It eventually joins with the Paraná River to form the Río de la Plata estuary near Buenos Aires and Montevideo. The river is approximately 1,838 kilometers long and is an important waterway for both countries, providing hydroelectric power and serving as a transportation route. The river's mouth area is where Spanish explorer Juan Díaz de Solís first encountered the region in 1516.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Uruguay_River",
+    "citationTitle": "Wikipedia: Uruguay River"
+  },
+  {
+    "id": "fa1a94d3-f49c-441d-b669-ca0f6f3075af",
+    "text": "Lake Titicaca, shared by Peru and Bolivia, is notable for being what type of lake?",
+    "options": [
+      "The highest navigable lake in the world",
+      "The deepest lake in South America",
+      "The largest lake in South America",
+      "The saltiest lake in South America"
+    ],
+    "correctIndex": 0,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "Lake Titicaca sits at 3,812 meters above sea level, making it the highest navigable lake in the world.",
+    "detailedExplanation": "Lake Titicaca, straddling the border between Peru and Bolivia in the Andes Mountains, sits at an elevation of 3,812 meters (12,507 feet) above sea level. This makes it the highest navigable lake in the world, meaning it's the highest body of water that can support large commercial vessels. The lake covers 8,372 square kilometers and reaches depths of 281 meters. It's also significant culturally, as it was considered sacred by the Inca civilization and contains numerous islands with important archaeological sites.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Lake_Titicaca",
+    "citationTitle": "Wikipedia: Lake Titicaca"
+  },
+  {
+    "id": "09ede1b4-9c76-484d-afa0-44f8011eaa5a",
+    "text": "The Mackenzie River, Canada's longest river, flows into which body of water?",
+    "options": [
+      "Hudson Bay",
+      "Beaufort Sea",
+      "Labrador Sea",
+      "Baffin Bay"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "The Mackenzie River flows northward through the Northwest Territories and empties into the Beaufort Sea, part of the Arctic Ocean.",
+    "detailedExplanation": "The Mackenzie River is Canada's longest river at 1,738 kilometers, and when combined with its tributaries forms the second-longest river system in North America after the Missouri-Mississippi system. It flows northward from Great Slave Lake through the Northwest Territories and empties into the Mackenzie Delta in the Beaufort Sea, which is part of the Arctic Ocean. The river system drains a massive area of northern Canada and is crucial for transportation and commerce in the remote northern regions, though it's frozen for much of the year.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Mackenzie_River",
+    "citationTitle": "Wikipedia: Mackenzie River"
+  },
+  {
+    "id": "6e5a8e97-446b-45da-a2ce-035574bd2884",
+    "text": "Which river system has the largest drainage basin by area in the world?",
+    "options": [
+      "Nile River",
+      "Amazon River",
+      "Mississippi River",
+      "Yangtze River"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "The Amazon River system has the world's largest drainage basin, covering approximately 7 million square kilometers.",
+    "detailedExplanation": "The Amazon River system drains an enormous area of approximately 7,050,000 square kilometers (2,720,000 square miles), which is roughly 40% of South America. This massive drainage basin spans across Brazil, Peru, Bolivia, Colombia, Ecuador, Venezuela, Guyana, and Suriname. While the Nile is longer, the Amazon's drainage basin is significantly larger, collecting water from the Andes Mountains to the Atlantic Ocean and supporting the world's largest tropical rainforest ecosystem.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Amazon_basin",
+    "citationTitle": "Wikipedia: Amazon basin"
+  },
+  {
+    "id": "fd0f0c87-6ac4-4be3-a187-531c6e24386d",
+    "text": "The Okavango Delta, one of the world's largest inland deltas, is located in which country?",
+    "options": [
+      "Namibia",
+      "Zambia",
+      "Botswana",
+      "Zimbabwe"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "The Okavango Delta is located in Botswana, where the Okavango River spreads into the Kalahari Desert.",
+    "detailedExplanation": "The Okavango Delta in Botswana is a unique geographical phenomenon where the Okavango River, originating in Angola's highlands, flows into the Kalahari Desert instead of reaching the ocean. This creates a massive inland delta covering 15,000 square kilometers during peak flooding. The delta is a UNESCO World Heritage Site and supports diverse wildlife including elephants, lions, hippos, and over 400 bird species. It's one of the few major river systems that doesn't flow into a sea or ocean, making it an endorheic basin.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Okavango_Delta",
+    "citationTitle": "Wikipedia: Okavango Delta"
+  },
+  {
+    "id": "07c89613-b8b0-4fce-8552-0b566f217ca3",
+    "text": "Which European river flows through the most capital cities?",
+    "options": [
+      "Rhine",
+      "Danube",
+      "Volga",
+      "Dnieper"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "The Danube River flows through four capital cities: Vienna (Austria), Bratislava (Slovakia), Budapest (Hungary), and Belgrade (Serbia).",
+    "detailedExplanation": "The Danube River, Europe's second-longest river at 2,850 kilometers, has the distinction of flowing through more capital cities than any other river in the world. It passes through Vienna (Austria), Bratislava (Slovakia), Budapest (Hungary), and Belgrade (Serbia). The river originates in Germany's Black Forest and flows southeast through ten countries before emptying into the Black Sea via the Danube Delta in Romania. This international waterway has been crucial for trade, culture, and politics in Central and Eastern Europe for millennia.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Danube",
+    "citationTitle": "Wikipedia: Danube"
+  },
+  {
+    "id": "f9b5fa7e-6963-47f6-88b5-ba70292fdf34",
+    "text": "The Caspian Sea, despite its name, is technically a lake. What makes it unique among the world's lakes?",
+    "options": [
+      "It's the deepest lake",
+      "It's the largest lake by surface area",
+      "It has the highest salinity",
+      "It's the oldest lake"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "The Caspian Sea is the world's largest lake by surface area, covering approximately 371,000 square kilometers.",
+    "detailedExplanation": "The Caspian Sea is technically a lake because it's completely enclosed by land, but its massive size of 371,000 square kilometers makes it larger than many seas. It's bordered by Russia, Kazakhstan, Turkmenistan, Iran, and Azerbaijan. Despite being called a 'sea,' it's a remnant of the ancient Tethys Ocean and is considered an endorheic basin. The lake is saline but much less so than ocean water, and it's famous for its caviar-producing sturgeon. Its water level fluctuates significantly due to climate variations and human activities.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Caspian_Sea",
+    "citationTitle": "Wikipedia: Caspian Sea"
+  },
+  {
+    "id": "22d7e6dd-02f0-471d-81d5-997a4c64d9b6",
+    "text": "Which river system forms the world's largest river delta by area, covering approximately 105,000 square kilometers across Bangladesh and eastern India?",
+    "options": [
+      "Mekong River",
+      "Ganges-Brahmaputra",
+      "Amazon River",
+      "Nile River"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "The Ganges-Brahmaputra Delta is the world's largest river delta by area.",
+    "detailedExplanation": "The Ganges-Brahmaputra Delta, also known as the Bengal Delta or Sundarbans Delta, is formed by the confluence of the Ganges, Brahmaputra, and Meghna rivers. Covering approximately 105,000 square kilometers, it spans across Bangladesh and the Indian state of West Bengal. This massive delta system is home to the world's largest mangrove forest, the Sundarbans, and supports over 130 million people. The delta is characterized by its intricate network of rivers, channels, and islands, making it one of the most fertile and densely populated regions in the world.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Ganges_Delta",
+    "citationTitle": "Wikipedia: Ganges Delta"
+  }
+]

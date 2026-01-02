@@ -1,0 +1,342 @@
+[
+  {
+    "id": "5d33ee28-a891-402c-95d9-42a734cece2b",
+    "text": "Which phylum contains the largest number of described species in the animal kingdom?",
+    "options": [
+      "Chordata",
+      "Arthropoda",
+      "Mollusca",
+      "Cnidaria"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Arthropoda contains over 1 million described species, more than any other phylum.",
+    "detailedExplanation": "Phylum Arthropoda, which includes insects, spiders, crustaceans, and myriapods, represents approximately 80% of all known animal species. With over 1 million described species and potentially millions more undiscovered, arthropods vastly outnumber all other animal groups. Their success is attributed to their segmented bodies, jointed legs, and chitinous exoskeletons that have allowed them to adapt to virtually every environment on Earth.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Arthropod",
+    "citationTitle": "Wikipedia: Arthropod"
+  },
+  {
+    "id": "03bcefb2-14ef-47a4-be1b-88437ecf6713",
+    "text": "What is the taxonomic class of the platypus (Ornithorhynchus anatinus)?",
+    "options": [
+      "Reptilia",
+      "Monotremata",
+      "Mammalia",
+      "Prototheria"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "The platypus belongs to class Mammalia, specifically the order Monotremata within that class.",
+    "detailedExplanation": "Despite its unusual characteristics like laying eggs and having a bill, the platypus is classified as a mammal in the class Mammalia. It belongs to the order Monotremata, which represents the most primitive group of mammals. Monotremes are distinguished from other mammals by laying eggs rather than giving birth to live young, yet they still possess key mammalian traits including hair, milk production, and being warm-blooded. The confusion often arises because Monotremata is sometimes mistakenly thought of as a separate class.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Platypus",
+    "citationTitle": "Wikipedia: Platypus"
+  },
+  {
+    "id": "c2f569d9-324c-4b45-865d-f7a2e6ad95ad",
+    "text": "In which taxonomic order would you find animals with a pseudocoelom and a complete digestive tract, commonly known as roundworms?",
+    "options": [
+      "Platyhelminthes",
+      "Nematoda",
+      "Annelida",
+      "Rotifera"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Nematoda (roundworms) are characterized by having a pseudocoelom and complete digestive system.",
+    "detailedExplanation": "Nematodes, or roundworms, belong to the phylum Nematoda and are characterized by their pseudocoelom (a body cavity not completely lined with mesoderm) and complete digestive tract with both mouth and anus. This distinguishes them from flatworms (Platyhelminthes) which lack a body cavity and have incomplete digestive systems, and from segmented worms (Annelida) which have a true coelom. Nematodes are incredibly abundant and diverse, found in virtually every environment, with some species being important parasites of humans, animals, and plants.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Nematode",
+    "citationTitle": "Wikipedia: Nematode"
+  },
+  {
+    "id": "086de49f-13e0-4980-b7c4-1410ef25ffd0",
+    "text": "Which taxonomic group represents the sister group to all other animals (Metazoa)?",
+    "options": [
+      "Cnidaria",
+      "Porifera",
+      "Ctenophora",
+      "Placozoa"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Recent phylogenetic studies suggest Ctenophora (comb jellies) are the sister group to all other animals.",
+    "detailedExplanation": "Traditional classification long held that sponges (Porifera) were the most basal animal group, but recent molecular phylogenetic analyses suggest that comb jellies (Ctenophora) may actually be the sister group to all other animals. This finding is controversial and challenges our understanding of early animal evolution, particularly regarding the evolution of nervous systems, since ctenophores have nerve nets while sponges lack nervous systems entirely. If correct, this would imply that either nervous systems evolved independently twice, or that sponges secondarily lost their nervous systems.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Ctenophora",
+    "citationTitle": "Wikipedia: Ctenophora"
+  },
+  {
+    "id": "42e74efe-0d97-43d0-966d-3c20372d34e9",
+    "text": "Animals in the class Scyphozoa are characterized by which defining feature?",
+    "options": [
+      "Medusa-dominant life cycle",
+      "Presence of nematocysts only",
+      "Bilateral symmetry",
+      "Segmented body plan"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Scyphozoans (true jellyfish) have a life cycle dominated by the medusa (jellyfish) stage.",
+    "detailedExplanation": "Scyphozoa, commonly known as true jellyfish, belong to the phylum Cnidaria and are distinguished by their medusa-dominant life cycle. Unlike other cnidarians where the polyp stage may be dominant or equally important, scyphozoans spend most of their life cycle as free-swimming medusae. While they do possess nematocysts (stinging cells) like other cnidarians, this isn't unique to them. They maintain the radial symmetry characteristic of cnidarians, not bilateral symmetry, and lack segmentation entirely. The polyp stage in scyphozoans is often small and short-lived, primarily serving as a means of asexual reproduction to produce more medusae.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Scyphozoa",
+    "citationTitle": "Wikipedia: Scyphozoa"
+  },
+  {
+    "id": "f39e5f79-9895-47fa-9cbb-4c1eb7ba290e",
+    "text": "Which superphylum contains animals that molt their external covering as they grow?",
+    "options": [
+      "Lophotrochozoa",
+      "Deuterostomia",
+      "Ecdysozoa",
+      "Radiata"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Ecdysozoa includes all molting animals, named after the molting process called ecdysis.",
+    "detailedExplanation": "Ecdysozoa is a major superphylum of protostome animals united by their ability to molt or shed their external covering as they grow, a process called ecdysis. This group includes arthropods (insects, crustaceans, spiders), nematodes (roundworms), tardigrades (water bears), and several other phyla. The discovery that these diverse groups share this fundamental characteristic revolutionized animal phylogeny in the 1990s, as it was previously thought that arthropods were more closely related to annelids. Molecular evidence strongly supports this grouping, showing that the ability to molt represents a key evolutionary innovation.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Ecdysozoa",
+    "citationTitle": "Wikipedia: Ecdysozoa"
+  },
+  {
+    "id": "82d09179-57ed-48d8-933c-1555a0d4f729",
+    "text": "What type of specialized leaf structure do carnivorous pitcher plants use to trap insects?",
+    "options": [
+      "Modified stipules",
+      "Modified petioles",
+      "Modified leaf blades",
+      "Modified leaf sheaths"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Pitcher plants have modified leaf blades that form deep, slippery pitchers filled with digestive enzymes to trap and digest insects.",
+    "detailedExplanation": "Carnivorous pitcher plants, such as those in the genus Nepenthes and Sarracenia, have evolved highly specialized trapping mechanisms from modified leaf blades. These leaves form deep, pitcher-shaped structures with slippery walls and often have downward-pointing hairs that prevent insects from climbing out. The bottom of the pitcher contains digestive enzymes and sometimes bacterial communities that help break down trapped prey, allowing the plant to absorb nutrients like nitrogen and phosphorus that are often scarce in their native habitats.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Pitcher_plant",
+    "citationTitle": "Wikipedia: Pitcher plant"
+  },
+  {
+    "id": "b5e16338-26e8-4e92-b89d-68aca03e42a6",
+    "text": "Which phylum contains animals that are deuterostomes, have a water vascular system, and exhibit pentaradial symmetry as adults?",
+    "options": [
+      "Cnidaria",
+      "Echinodermata",
+      "Mollusca",
+      "Arthropoda"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Echinodermata includes sea stars, sea urchins, and sea cucumbers, which are deuterostomes with water vascular systems and five-fold radial symmetry.",
+    "detailedExplanation": "Echinoderms are unique among invertebrates as they are deuterostomes (like vertebrates), meaning their anus develops before their mouth during embryonic development. Their water vascular system is a network of fluid-filled canals used for locomotion, feeding, and gas exchange. While echinoderm larvae are bilaterally symmetric, adults exhibit pentaradial symmetry, typically organized in multiples of five.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Echinoderm",
+    "citationTitle": "Wikipedia: Echinoderm"
+  },
+  {
+    "id": "c9753a2c-9820-4b36-9ac7-a9dbfef1a5c1",
+    "text": "The taxonomic class Cephalopoda belongs to which phylum and is characterized by what defining feature?",
+    "options": [
+      "Arthropoda; jointed appendages",
+      "Mollusca; modified foot forming tentacles",
+      "Chordata; presence of a notochord",
+      "Cnidaria; radial symmetry"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Cephalopods (octopi, squid, nautilus) are mollusks where the characteristic mollusk foot has evolved into tentacles or arms around the head.",
+    "detailedExplanation": "Cephalopods represent the most advanced class within Phylum Mollusca. Unlike other mollusks, their muscular foot has been modified into tentacles or arms that surround the head region. This adaptation, combined with their advanced nervous systems and sophisticated eyes, makes them the most intelligent invertebrates. The name 'cephalopod' literally means 'head-foot,' referring to this distinctive body plan.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Cephalopod",
+    "citationTitle": "Wikipedia: Cephalopod"
+  },
+  {
+    "id": "d848df3e-18a9-41c8-a5e6-08797e7bbe7d",
+    "text": "Which of these animal groups represents a paraphyletic classification that is no longer considered valid in modern phylogenetic taxonomy?",
+    "options": [
+      "Reptilia (traditional reptiles)",
+      "Mammalia (mammals)",
+      "Aves (birds)",
+      "Amphibia (amphibians)"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Traditional Reptilia is paraphyletic because it excludes birds, even though birds evolved from reptilian ancestors and are more closely related to some reptiles than those reptiles are to each other.",
+    "detailedExplanation": "In classical taxonomy, reptiles were defined as cold-blooded vertebrates with scales, excluding birds and mammals. However, phylogenetic analysis shows that birds are actually dinosaurs, making them reptiles in an evolutionary sense. The traditional reptile group is paraphyletic because it excludes descendants (birds) of the group's common ancestor. Modern classification often uses 'Sauropsida' to include both traditional reptiles and birds as a monophyletic group.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Reptile",
+    "citationTitle": "Wikipedia: Reptile"
+  },
+  {
+    "id": "2f527f9d-4048-441e-9974-6d4aab2b2c0b",
+    "text": "What is the correct taxonomic order for the classification hierarchy from most inclusive to most specific?",
+    "options": [
+      "Kingdom, Class, Phylum, Order, Family, Genus, Species",
+      "Kingdom, Phylum, Class, Order, Family, Genus, Species",
+      "Domain, Kingdom, Class, Phylum, Order, Family, Genus, Species",
+      "Domain, Kingdom, Phylum, Class, Order, Family, Genus, Species"
+    ],
+    "correctIndex": 3,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "The modern taxonomic hierarchy is Domain, Kingdom, Phylum, Class, Order, Family, Genus, Species (mnemonic: 'Dear King Philip Came Over For Good Soup').",
+    "detailedExplanation": "Carl Linnaeus originally established a hierarchical classification system, but it has been expanded over time. Domain was added as the highest level to distinguish between Bacteria, Archaea, and Eukarya. The complete sequence from most inclusive to most specific is Domain, Kingdom, Phylum, Class, Order, Family, Genus, Species. Each level represents increasingly specific groupings based on shared characteristics and evolutionary relationships.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Taxonomic_rank",
+    "citationTitle": "Wikipedia: Taxonomic rank"
+  },
+  {
+    "id": "6e3f62ec-baa3-4221-adc7-369d8d430a22",
+    "text": "Which characteristic is unique to members of the phylum Chordata and present at some stage of their development?",
+    "options": [
+      "Bilateral symmetry",
+      "A notochord",
+      "Segmented body",
+      "Closed circulatory system"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "A notochord is the defining characteristic of chordates - a flexible rod-like structure that provides support and is present in all chordates at some developmental stage.",
+    "detailedExplanation": "The notochord is a flexible, rod-like structure that runs along the back of chordate embryos and serves as the primary support structure. In vertebrates, it is largely replaced by the vertebral column during development, but remnants persist as the nucleus pulposus of intervertebral discs. Other chordate characteristics include a dorsal hollow nerve cord, pharyngeal slits, and a post-anal tail, but the notochord is the most fundamental defining feature.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Chordate",
+    "citationTitle": "Wikipedia: Chordate"
+  },
+  {
+    "id": "865634e8-6b47-471c-aac3-e8fad47c819e",
+    "text": "The superorder Xenarthra (formerly Edentata) contains which group of placental mammals characterized by additional articulations between vertebrae?",
+    "options": [
+      "Bats, flying lemurs, and tree shrews",
+      "Anteaters, sloths, and armadillos",
+      "Elephants, manatees, and hyraxes",
+      "Pangolins, aardvarks, and tenrecs"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Xenarthra includes anteaters, sloths, and armadillos, named for their unique 'xenarthrous' vertebral joints that provide extra flexibility and strength.",
+    "detailedExplanation": "Xenarthra, meaning 'strange joints,' refers to the additional articulations (xenarthrous processes) between the lumbar vertebrae that distinguish this group from other mammals. This superorder includes three families: Myrmecophagidae (anteaters), Bradypodidae and Megalonychidae (sloths), and Dasypodidae (armadillos). These extra vertebral joints likely provide additional support for their specialized lifestyles, whether digging, hanging from trees, or carrying heavy armor.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Xenarthra",
+    "citationTitle": "Wikipedia: Xenarthra"
+  },
+  {
+    "id": "c48570b3-3004-4c6a-9030-7fd3221e4971",
+    "text": "Which taxonomic concept describes a group that includes an ancestor and ALL of its descendants?",
+    "options": [
+      "Polyphyletic",
+      "Paraphyletic",
+      "Monophyletic",
+      "Holophyletic"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "A monophyletic group (or clade) contains an ancestor and all of its descendants, representing a complete evolutionary lineage.",
+    "detailedExplanation": "Monophyletic groups, also called clades, are the gold standard in modern phylogenetic classification because they represent natural evolutionary units. They include a common ancestor and every single species that descended from that ancestor. This contrasts with paraphyletic groups (ancestor + some but not all descendants) and polyphyletic groups (descendants from multiple ancestors). Modern taxonomists strive to recognize only monophyletic groups because they reflect true evolutionary relationships.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Monophyly",
+    "citationTitle": "Wikipedia: Monophyly"
+  },
+  {
+    "id": "d41a62e5-b395-43d2-b5de-129da2517989",
+    "text": "The class Agnatha, representing jawless fish, includes which two extant orders?",
+    "options": [
+      "Petromyzontiformes and Myxiniformes",
+      "Chondrichthyes and Osteichthyes",
+      "Selachii and Batoidea",
+      "Dipnoi and Crossopterygii"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Agnatha includes lampreys (Petromyzontiformes) and hagfish (Myxiniformes), the only surviving jawless vertebrates.",
+    "detailedExplanation": "Agnatha, meaning 'without jaws,' represents the most primitive group of vertebrates. While historically diverse, only two orders survive today: Petromyzontiformes (lampreys) and Myxiniformes (hagfish). These animals lack paired fins, jaws, and true vertebrae, instead retaining many ancestral chordate features. Some modern classifications question whether Agnatha forms a natural monophyletic group, as hagfish and lampreys may have evolved their jawless condition independently.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Agnatha",
+    "citationTitle": "Wikipedia: Agnatha"
+  },
+  {
+    "id": "81dbc8bd-ed8a-4c73-987d-ca588cdae4af",
+    "text": "Which phylum contains animals that have a water vascular system and exhibit pentaradial symmetry as adults?",
+    "options": [
+      "Cnidaria",
+      "Echinodermata",
+      "Mollusca",
+      "Arthropoda"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Echinodermata includes starfish, sea urchins, and sea cucumbers, which have unique water vascular systems and five-fold radial symmetry.",
+    "detailedExplanation": "The phylum Echinodermata is characterized by two unique features: a water vascular system that operates their tube feet for locomotion and feeding, and pentaradial symmetry (five-fold radial symmetry) in their adult form. This group includes starfish, sea urchins, sea cucumbers, and sea lilies. Interestingly, echinoderm larvae are bilaterally symmetrical, but they transform into radially symmetrical adults during development.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Echinoderm",
+    "citationTitle": "Wikipedia: Echinoderm"
+  },
+  {
+    "id": "76a752a6-3fe5-4918-8f66-6dbb382bee68",
+    "text": "What is the correct taxonomic order from most inclusive to least inclusive?",
+    "options": [
+      "Kingdom, Phylum, Class, Order, Family, Genus, Species",
+      "Kingdom, Class, Phylum, Order, Family, Genus, Species",
+      "Phylum, Kingdom, Class, Order, Family, Genus, Species",
+      "Kingdom, Phylum, Order, Class, Family, Genus, Species"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "The standard taxonomic hierarchy follows: Kingdom, Phylum, Class, Order, Family, Genus, Species (remembered by 'King Philip Came Over For Good Soup').",
+    "detailedExplanation": "The taxonomic hierarchy was formalized by Carl Linnaeus and represents a system of classification from the most inclusive (Kingdom) to the most specific (Species). Each level represents increasingly specific groupings of organisms based on shared characteristics. Modern taxonomy has added additional levels like Domain above Kingdom, and various sub-levels, but the core seven-level system remains the foundation of biological classification.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Taxonomic_rank",
+    "citationTitle": "Wikipedia: Taxonomic rank"
+  },
+  {
+    "id": "5e2be335-3876-4e7d-b9c0-651e4677a8eb",
+    "text": "Which class of vertebrates is characterized by having a three-chambered heart with two atria and one ventricle?",
+    "options": [
+      "Mammalia",
+      "Aves",
+      "Reptilia",
+      "Amphibia"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Most reptiles have a three-chambered heart, though crocodilians have evolved a four-chambered heart similar to birds and mammals.",
+    "detailedExplanation": "The class Reptilia typically features a three-chambered heart consisting of two atria and one ventricle, which allows for some mixing of oxygenated and deoxygenated blood. This is more efficient than the two-chambered hearts of fish but less efficient than the four-chambered hearts of mammals and birds. However, crocodilians are an exception within reptiles, having evolved a four-chambered heart independently, which reflects their closer evolutionary relationship to birds.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Reptile",
+    "citationTitle": "Wikipedia: Reptile"
+  },
+  {
+    "id": "12939f74-2754-4c70-a813-7e7873e9832d",
+    "text": "Animals belonging to which phylum are characterized by having choanocytes and spicules but lack true tissues?",
+    "options": [
+      "Cnidaria",
+      "Platyhelminthes",
+      "Porifera",
+      "Nematoda"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Porifera (sponges) have collar cells called choanocytes for feeding and structural elements called spicules, but lack organized tissues.",
+    "detailedExplanation": "The phylum Porifera consists of sponges, which are among the most primitive multicellular animals. They are characterized by choanocytes (collar cells) that create water currents and capture food particles, and spicules made of calcium carbonate, silica, or protein that provide structural support. Unlike other animal phyla, sponges lack true tissues, organs, and body symmetry, representing a unique evolutionary path in animal development.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Sponge",
+    "citationTitle": "Wikipedia: Sponge"
+  },
+  {
+    "id": "159b80c1-0424-4a58-9b12-6ced6f108f3d",
+    "text": "Which subphylum of Chordata includes animals that retain their notochord, dorsal nerve cord, and pharyngeal slits throughout their adult life?",
+    "options": [
+      "Vertebrata",
+      "Cephalochordata",
+      "Urochordata",
+      "Myxini"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Cephalochordata (lancelets) retain all key chordate characteristics as adults, unlike vertebrates who lose most of these features during development.",
+    "detailedExplanation": "The subphylum Cephalochordata, represented by lancelets (amphioxus), are small marine animals that retain all the defining characteristics of chordates throughout their lives: a notochord for structural support, a hollow dorsal nerve cord, and pharyngeal slits for filter feeding. In contrast, vertebrates typically lose or modify these features during development - the notochord is replaced by vertebrae, and pharyngeal slits are lost in terrestrial vertebrates. This makes cephalochordates crucial for understanding chordate evolution.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Cephalochordate",
+    "citationTitle": "Wikipedia: Cephalochordate"
+  }
+]

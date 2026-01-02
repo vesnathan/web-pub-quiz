@@ -1,0 +1,342 @@
+[
+  {
+    "id": "51651b6f-6822-4799-8ac5-78117495c2a8",
+    "text": "What is the term for when organisms better adapted to their environment tend to survive and produce more offspring?",
+    "options": [
+      "Genetic drift",
+      "Natural selection",
+      "Mutation",
+      "Gene flow"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Natural selection is the process where organisms with favorable traits survive and reproduce more successfully than others.",
+    "detailedExplanation": "Natural selection is the fundamental mechanism of evolution proposed by Darwin. It describes the process by which organisms with characteristics that are advantageous for survival and reproduction in a particular environment are more likely to pass these traits to their offspring. Over time, this leads to changes in the frequency of traits within populations, as beneficial characteristics become more common while less advantageous ones become rarer.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Natural_selection",
+    "citationTitle": "Wikipedia: Natural selection"
+  },
+  {
+    "id": "c0a9b338-e026-47c1-aa4b-ade2821c70ec",
+    "text": "Which of these is NOT one of Darwin's finches' most notable adaptive features?",
+    "options": [
+      "Beak shape",
+      "Body color",
+      "Wing span",
+      "Feeding behavior"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Darwin's finches are famous for their diverse beak shapes adapted to different food sources, not wing span variations.",
+    "detailedExplanation": "Darwin's finches from the Galápagos Islands are a classic example of adaptive radiation. These birds evolved different beak shapes and sizes to exploit various food sources - from large, strong beaks for cracking nuts to thin, pointed beaks for extracting nectar. Their body colors and feeding behaviors also adapted accordingly. However, wing span was not a primary adaptive feature that distinguished these species from one another.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Darwin%27s_finches",
+    "citationTitle": "Wikipedia: Darwin's finches"
+  },
+  {
+    "id": "e840e264-2837-4230-bdc8-7f51ba17e990",
+    "text": "What do we call a trait that helps an organism survive in its environment?",
+    "options": [
+      "Mutation",
+      "Adaptation",
+      "Variation",
+      "Selection"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "An adaptation is a trait that has evolved to help an organism survive and reproduce in its specific environment.",
+    "detailedExplanation": "An adaptation is any heritable trait that increases an organism's ability to survive and reproduce in its environment. Adaptations can be structural (like a bird's beak shape), behavioral (like migration patterns), or physiological (like the ability to digest certain foods). These traits develop over many generations through natural selection, as individuals with beneficial characteristics are more likely to survive and pass these traits to their offspring.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Adaptation",
+    "citationTitle": "Wikipedia: Adaptation"
+  },
+  {
+    "id": "3cea5e24-b8c7-4e4d-a742-f8c4f4309cf3",
+    "text": "According to evolutionary theory, all life on Earth shares what?",
+    "options": [
+      "The same DNA sequence",
+      "A common ancestor",
+      "Identical proteins",
+      "The same number of chromosomes"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "All life on Earth is believed to have evolved from a common ancestor, forming the 'tree of life.'",
+    "detailedExplanation": "One of the key principles of evolutionary biology is that all life on Earth shares a common ancestor. This concept, often visualized as the 'tree of life,' suggests that all organisms - from bacteria to plants to animals - descended from a single ancestral organism that lived billions of years ago. Evidence for this includes similarities in DNA, cellular structure, and biochemical processes across all living things, despite the vast diversity of life forms we see today.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Common_descent",
+    "citationTitle": "Wikipedia: Common descent"
+  },
+  {
+    "id": "a8f4138d-4862-4a42-bf2c-4ab7af9501a3",
+    "text": "What is the main source of genetic variation that provides raw material for evolution?",
+    "options": [
+      "Photosynthesis",
+      "Mutations",
+      "Digestion",
+      "Respiration"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Mutations are changes in DNA that create genetic variation, which natural selection can then act upon.",
+    "detailedExplanation": "Mutations are random changes in an organism's DNA sequence and serve as the primary source of genetic variation in populations. While many mutations are neutral or harmful, some provide beneficial traits that can be favored by natural selection. Without mutations, all individuals in a species would be genetically identical, and evolution could not occur. Other sources of variation include sexual reproduction and genetic recombination, but mutations are the ultimate source of all genetic diversity.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Mutation",
+    "citationTitle": "Wikipedia: Mutation"
+  },
+  {
+    "id": "3c2212f9-d693-41e6-9492-b310d021c769",
+    "text": "Which term describes when unrelated species develop similar traits due to similar environmental pressures?",
+    "options": [
+      "Divergent evolution",
+      "Convergent evolution",
+      "Parallel evolution",
+      "Reverse evolution"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Convergent evolution occurs when unrelated species independently evolve similar characteristics in response to similar environmental challenges.",
+    "detailedExplanation": "Convergent evolution is the process by which organisms that are not closely related independently develop similar characteristics in response to similar environmental pressures or ecological niches. Classic examples include the wings of birds and bats (both evolved for flight but from different ancestral structures), or the camera eyes of vertebrates and octopi. This demonstrates that natural selection can produce similar solutions to environmental challenges across different evolutionary lineages.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Convergent_evolution",
+    "citationTitle": "Wikipedia: Convergent evolution"
+  },
+  {
+    "id": "c5423a1d-a6bc-4104-a81e-6dde5e5fc21d",
+    "text": "What is the term for the gradual change in species over many generations?",
+    "options": [
+      "Revolution",
+      "Evolution",
+      "Devolution",
+      "Involution"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Evolution is the process of gradual change in heritable traits of biological populations over successive generations.",
+    "detailedExplanation": "Evolution is the fundamental concept in biology that describes how species change over time through the inheritance of traits across generations. It occurs when there are changes in the frequency of genetic variants in a population over time, driven by mechanisms such as natural selection, genetic drift, mutation, and gene flow. Evolution explains both the unity and diversity of life, showing how all species are related while also accounting for the incredible variety of life forms on Earth.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Evolution",
+    "citationTitle": "Wikipedia: Evolution"
+  },
+  {
+    "id": "6d5b9899-1631-4f26-a609-fe345156a68f",
+    "text": "Who proposed the theory of evolution by natural selection?",
+    "options": [
+      "Charles Darwin",
+      "Gregor Mendel",
+      "Louis Pasteur",
+      "Alexander Fleming"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Charles Darwin developed the theory of evolution by natural selection in the 19th century.",
+    "detailedExplanation": "Charles Darwin, after his voyage on the HMS Beagle and years of research, published 'On the Origin of Species' in 1859, which outlined his theory of evolution by natural selection. This groundbreaking work explained how species change over time through the process of natural selection, where organisms with favorable traits are more likely to survive and reproduce.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Charles_Darwin",
+    "citationTitle": "Wikipedia: Charles Darwin"
+  },
+  {
+    "id": "bf007abd-52b4-4156-ac3c-f0231c437a47",
+    "text": "What are the Galápagos Islands famous for in terms of evolutionary studies?",
+    "options": [
+      "Darwin's finches",
+      "Giant pandas",
+      "Arctic foxes",
+      "Polar bears"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Darwin's finches on the Galápagos Islands showed different beak shapes adapted to different food sources.",
+    "detailedExplanation": "The Galápagos Islands are famous for Darwin's finches, a group of bird species that played a crucial role in Darwin's understanding of evolution. These finches showed remarkable variation in their beak shapes and sizes, each adapted to different food sources available on different islands. This observation helped Darwin understand how species could diverge and adapt to their specific environments through natural selection.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Darwin%27s_finches",
+    "citationTitle": "Wikipedia: Darwin's finches"
+  },
+  {
+    "id": "68cf4ecc-16c7-4b16-9b5d-d74f931d5331",
+    "text": "What does 'survival of the fittest' mean in evolutionary terms?",
+    "options": [
+      "The strongest animals survive",
+      "Those best adapted to their environment survive",
+      "The fastest animals survive",
+      "The largest animals survive"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "'Survival of the fittest' refers to organisms that are best adapted to their environment, not necessarily the strongest.",
+    "detailedExplanation": "The phrase 'survival of the fittest' is often misunderstood to mean the strongest or most aggressive organisms survive. In evolutionary biology, 'fitness' refers to an organism's ability to survive and reproduce in its specific environment. This means the organisms best adapted to their particular environment - whether through camouflage, efficient feeding, disease resistance, or reproductive success - are most likely to pass on their genes to the next generation.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Survival_of_the_fittest",
+    "citationTitle": "Wikipedia: Survival of the fittest"
+  },
+  {
+    "id": "16af2a78-6f79-456b-b8de-c287d178e51e",
+    "text": "Approximately how long ago did humans and chimpanzees share a common ancestor?",
+    "options": [
+      "1 million years ago",
+      "6-7 million years ago",
+      "50 million years ago",
+      "100 million years ago"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Humans and chimpanzees diverged from a common ancestor approximately 6-7 million years ago.",
+    "detailedExplanation": "Based on fossil evidence and molecular clock studies comparing DNA sequences, scientists estimate that humans and chimpanzees shared a common ancestor approximately 6-7 million years ago. This relatively recent divergence explains why humans and chimpanzees share about 98-99% of their DNA sequences, making chimpanzees our closest living relatives in the animal kingdom.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Chimpanzee%E2%80%93human_last_common_ancestor",
+    "citationTitle": "Wikipedia: Chimpanzee-human last common ancestor"
+  },
+  {
+    "id": "b7b5f29e-9a77-4db3-94f2-6ad40f14db49",
+    "text": "What is a fossil?",
+    "options": [
+      "A living ancient organism",
+      "Preserved remains or traces of ancient life",
+      "A type of rock formation",
+      "A modern animal bone"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Fossils are preserved remains or traces of organisms that lived in the past.",
+    "detailedExplanation": "Fossils are the preserved remains or traces of organisms that lived in ancient times, typically buried in sedimentary rock layers. They can include bones, shells, teeth, leaves, footprints, or even entire organisms preserved in amber or ice. Fossils provide crucial evidence for evolution by showing how life forms have changed over millions of years and documenting the existence of species that are now extinct.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Fossil",
+    "citationTitle": "Wikipedia: Fossil"
+  },
+  {
+    "id": "6d0beddd-7a3c-4e91-8c43-7b8c80d18f64",
+    "text": "Which of these is an example of natural selection in action?",
+    "options": [
+      "Bacteria becoming resistant to antibiotics",
+      "A dog learning new tricks",
+      "Plants growing taller in rich soil",
+      "Birds migrating south for winter"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Antibiotic resistance in bacteria is a classic example of natural selection occurring in real time.",
+    "detailedExplanation": "Antibiotic resistance in bacteria is one of the most observable examples of natural selection happening today. When exposed to antibiotics, most bacteria die, but those with genetic mutations that make them resistant survive and reproduce. Over time, the resistant bacteria become more common in the population. This process demonstrates natural selection because the environmental pressure (antibiotics) selects for organisms with advantageous traits (resistance), which then become more prevalent in subsequent generations.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Antibiotic_resistance",
+    "citationTitle": "Wikipedia: Antibiotic resistance"
+  },
+  {
+    "id": "f724b5b3-cd96-4416-b9fd-f512a8e7d0aa",
+    "text": "What is the main source of genetic variation that drives evolution?",
+    "options": [
+      "Exercise and diet",
+      "Mutations in DNA",
+      "Environmental temperature",
+      "Seasonal changes"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Mutations in DNA create genetic variation, which provides the raw material for natural selection.",
+    "detailedExplanation": "Mutations in DNA are the primary source of genetic variation that drives evolution. These random changes in genetic code can occur during DNA replication or due to environmental factors like radiation. While most mutations are neutral or harmful, some provide advantages that help organisms survive and reproduce better in their environment. Without genetic variation from mutations, there would be no differences for natural selection to act upon, and evolution could not occur.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Mutation",
+    "citationTitle": "Wikipedia: Mutation"
+  },
+  {
+    "id": "2f47f0e8-e6c2-4f73-ac4c-9b2f1774a87a",
+    "text": "What evidence supports the idea that all life on Earth is related?",
+    "options": [
+      "All organisms live on the same planet",
+      "All organisms use the same genetic code",
+      "All organisms need water",
+      "All organisms reproduce"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "The universal genetic code used by all life forms suggests common ancestry.",
+    "detailedExplanation": "One of the strongest pieces of evidence for common ancestry is that virtually all life on Earth uses the same genetic code - the same DNA bases (A, T, G, C) and the same system for translating genetic information into proteins. This universality is extremely unlikely to have arisen independently multiple times. Additionally, all life shares similar cellular machinery, metabolic pathways, and molecular structures, suggesting that all organisms descended from a common ancestor billions of years ago.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Evidence_of_common_descent",
+    "citationTitle": "Wikipedia: Evidence of common descent"
+  },
+  {
+    "id": "a9f3c2ff-7adf-4694-acc4-a5ada98ec7e6",
+    "text": "What are the basic units of heredity that are passed from parents to offspring?",
+    "options": [
+      "Chromosomes",
+      "Genes",
+      "Proteins",
+      "Enzymes"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Genes are the basic units of heredity that carry genetic information from parents to their offspring.",
+    "detailedExplanation": "Genes are segments of DNA that contain the instructions for building and maintaining an organism. They are the fundamental units of inheritance, determining traits like eye color, height, and susceptibility to certain diseases. While genes are located on chromosomes and code for proteins, it is the genes themselves that serve as the basic hereditary units passed down through generations, making them crucial to the evolutionary process.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Gene",
+    "citationTitle": "Wikipedia: Gene"
+  },
+  {
+    "id": "2e331307-1c32-4320-9a05-d40b78c7b8cf",
+    "text": "What is the term for when organisms with favorable traits are more likely to survive and reproduce?",
+    "options": [
+      "Genetic drift",
+      "Natural selection",
+      "Mutation",
+      "Gene flow"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Natural selection is the process where organisms with advantageous traits have better survival and reproduction rates.",
+    "detailedExplanation": "Natural selection is the driving mechanism of evolution, where environmental pressures favor individuals with traits that improve their chances of survival and reproduction. These favorable traits become more common in the population over time because organisms possessing them are more likely to pass their genes to the next generation. This process leads to evolutionary change as advantageous characteristics become more prevalent while less beneficial traits become rarer.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Natural_selection",
+    "citationTitle": "Wikipedia: Natural selection"
+  },
+  {
+    "id": "b21b2f6b-c704-43be-95b2-d231c2105145",
+    "text": "Which group of animals is most closely related to modern birds according to evolutionary evidence?",
+    "options": [
+      "Mammals",
+      "Dinosaurs",
+      "Fish",
+      "Amphibians"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Birds are direct descendants of theropod dinosaurs, making dinosaurs their closest evolutionary relatives.",
+    "detailedExplanation": "Extensive fossil evidence and comparative anatomy studies have established that birds evolved from theropod dinosaurs during the Mesozoic Era. Birds are actually considered living dinosaurs by scientists, as they are direct descendants of this group. Features like hollow bones, feathers (found on some dinosaur fossils), and similar skeletal structures provide compelling evidence for this evolutionary relationship. The discovery of transitional fossils like Archaeopteryx has further supported this connection.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Origin_of_birds",
+    "citationTitle": "Wikipedia: Origin of birds"
+  },
+  {
+    "id": "d8ddd58f-23c7-4eab-aeed-ec12989b5e6f",
+    "text": "What type of evidence for evolution can be observed in the similar bone structures of human arms, whale flippers, and bat wings?",
+    "options": [
+      "Fossil evidence",
+      "DNA evidence",
+      "Homologous structures",
+      "Vestigial organs"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "These similar underlying bone structures are called homologous structures, indicating common evolutionary ancestry.",
+    "detailedExplanation": "Homologous structures are anatomical features that have the same basic structure and developmental origin but may serve different functions in different species. The arm bones of humans, the flipper bones of whales, and the wing bones of bats all share the same basic pattern of bones (humerus, radius, ulna, etc.) despite being adapted for different purposes. This similarity suggests these species evolved from a common ancestor with this bone structure, providing strong evidence for evolutionary relationships among vertebrates.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Homologous_structures",
+    "citationTitle": "Wikipedia: Homology (biology)"
+  },
+  {
+    "id": "9365b9d6-378b-4ff5-813c-4a9888e685fb",
+    "text": "What famous ship did Charles Darwin sail on when he made observations that led to his theory of evolution?",
+    "options": [
+      "HMS Beagle",
+      "HMS Victory",
+      "HMS Bounty",
+      "HMS Endeavour"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Charles Darwin sailed on HMS Beagle from 1831-1836, making crucial observations that informed his theory of evolution.",
+    "detailedExplanation": "Charles Darwin embarked on a five-year voyage aboard HMS Beagle as the ship's naturalist from 1831 to 1836. During this journey, he made critical observations of wildlife, geology, and fossils across South America, the Galápagos Islands, and other locations. His observations of finches and other species in the Galápagos, along with geological evidence and fossil discoveries, provided key insights that later formed the foundation of his theory of evolution by natural selection, published in 'On the Origin of Species' in 1859.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Second_voyage_of_HMS_Beagle",
+    "citationTitle": "Wikipedia: Second voyage of HMS Beagle"
+  }
+]

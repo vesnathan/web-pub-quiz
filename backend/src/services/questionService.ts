@@ -1,6 +1,6 @@
 import { GetCommand, PutCommand, QueryCommand, UpdateCommand } from '@aws-sdk/lib-dynamodb';
 import { docClient, TableNames } from '../config/dynamodb';
-import type { Question, QuestionCategory } from '@quiz/shared';
+import type { OrchestratorQuestion as Question, QuestionCategory } from '@quiz/shared';
 import { v4 as uuidv4 } from 'uuid';
 
 export async function getUnusedQuestions(count: number): Promise<Question[]> {

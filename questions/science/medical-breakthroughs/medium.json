@@ -1,0 +1,342 @@
+[
+  {
+    "id": "fd3fbfda-afa2-4619-a754-81161d815a08",
+    "text": "Which medical breakthrough in 1928 was discovered accidentally when Alexander Fleming noticed that a mold had contaminated one of his bacterial culture plates?",
+    "options": [
+      "Streptomycin",
+      "Penicillin",
+      "Insulin",
+      "Aspirin"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Alexander Fleming discovered penicillin in 1928 when he observed that a Penicillium mold had killed bacteria in a contaminated petri dish.",
+    "detailedExplanation": "Alexander Fleming's accidental discovery of penicillin in 1928 at St. Mary's Hospital in London revolutionized medicine and saved countless lives. Fleming noticed that a culture plate of Staphylococcus bacteria had been contaminated by a blue-green mold, and the bacteria around the mold had been killed. This serendipitous observation led to the development of the first true antibiotic, though it wasn't mass-produced until World War II.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Penicillin",
+    "citationTitle": "Wikipedia: Penicillin"
+  },
+  {
+    "id": "ef62016b-87d3-4118-97d2-b68bcd1696e0",
+    "text": "The first successful human heart transplant was performed in 1967 by which South African surgeon?",
+    "options": [
+      "Michael DeBakey",
+      "Christiaan Barnard",
+      "Norman Shumway",
+      "Richard Lower"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Christiaan Barnard performed the first human heart transplant on December 3, 1967, in Cape Town, South Africa.",
+    "detailedExplanation": "On December 3, 1967, Christiaan Barnard made medical history by performing the first human-to-human heart transplant at Groote Schuur Hospital in Cape Town. The patient, Louis Washkansky, received the heart of a 25-year-old accident victim. While Washkansky survived the surgery, he died 18 days later from pneumonia. Despite this, the procedure marked a revolutionary milestone in cardiac surgery and paved the way for modern organ transplantation.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Christiaan_Barnard",
+    "citationTitle": "Wikipedia: Christiaan Barnard"
+  },
+  {
+    "id": "bd4675cd-949c-4c0d-b9e0-01aa96a71a10",
+    "text": "What groundbreaking medical imaging technique was developed by Godfrey Hounsfield and Allan Cormack, earning them the Nobel Prize in 1979?",
+    "options": [
+      "MRI scanning",
+      "CT scanning",
+      "Ultrasound",
+      "PET scanning"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "CT (Computed Tomography) scanning was developed by Hounsfield and Cormack, revolutionizing medical diagnosis through detailed cross-sectional imaging.",
+    "detailedExplanation": "The CT scanner, developed independently by Godfrey Hounsfield at EMI and Allan Cormack at Tufts University in the early 1970s, represented a massive leap forward in medical imaging. This technology uses X-rays and computer processing to create detailed cross-sectional images of the body, allowing doctors to see inside patients without invasive procedures. The first clinical CT scanner was installed in 1972, and by 1979, the inventors had earned the Nobel Prize in Physiology or Medicine for their revolutionary contribution.",
+    "citationUrl": "https://en.wikipedia.org/wiki/CT_scan",
+    "citationTitle": "Wikipedia: CT scan"
+  },
+  {
+    "id": "576374bb-f4bf-4d65-a811-210e8acbaf94",
+    "text": "The discovery of insulin in 1922, which transformed diabetes treatment, was made by a team led by which Canadian scientist?",
+    "options": [
+      "Frederick Banting",
+      "Charles Best",
+      "John Macleod",
+      "James Collip"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Frederick Banting led the team that discovered insulin at the University of Toronto, though he worked closely with Charles Best and others.",
+    "detailedExplanation": "Frederick Banting, along with his assistant Charles Best, successfully isolated insulin at the University of Toronto in 1921-1922. Working under the supervision of John Macleod and with the help of biochemist James Collip, they extracted the hormone from dog pancreases and demonstrated its effectiveness in treating diabetes. The first human patient, 14-year-old Leonard Thompson, received insulin injections in January 1922 with remarkable success. Banting and Macleod shared the 1923 Nobel Prize, with Banting sharing his prize money with Best.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Insulin",
+    "citationTitle": "Wikipedia: Insulin"
+  },
+  {
+    "id": "3a0c49bd-c2e1-4e9b-a4a0-7d3ba2e9a27b",
+    "text": "The development of the polio vaccine in the 1950s involved two different approaches. Jonas Salk created an inactivated vaccine, while Albert Sabin developed what type?",
+    "options": [
+      "Live attenuated vaccine",
+      "Subunit vaccine",
+      "mRNA vaccine",
+      "Viral vector vaccine"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Albert Sabin developed an oral live attenuated polio vaccine, which used weakened live virus unlike Salk's inactivated version.",
+    "detailedExplanation": "The fight against polio involved two revolutionary vaccine approaches. Jonas Salk developed the first successful polio vaccine in 1952 using inactivated (killed) poliovirus, which was given by injection. Albert Sabin later developed an oral vaccine using live but weakened (attenuated) poliovirus in the late 1950s. Sabin's oral vaccine became more widely used globally because it was easier to administer, provided longer-lasting immunity, and helped create community immunity. Both vaccines were instrumental in the near-eradication of polio worldwide.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Polio_vaccine",
+    "citationTitle": "Wikipedia: Polio vaccine"
+  },
+  {
+    "id": "2ad37a96-25d0-47ed-a970-135c92b2bbc1",
+    "text": "What revolutionary gene-editing technique, developed in the 2010s, uses guide RNAs to direct precise cuts in DNA sequences?",
+    "options": [
+      "TALEN",
+      "Zinc finger nucleases",
+      "CRISPR-Cas9",
+      "Prime editing"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "CRISPR-Cas9 uses guide RNAs to direct the Cas9 enzyme to make precise cuts in DNA, revolutionizing genetic engineering.",
+    "detailedExplanation": "CRISPR-Cas9, developed primarily by Jennifer Doudna and Emmanuelle Charpentier in 2012, represents one of the most significant breakthroughs in genetic engineering. This system, adapted from a bacterial immune mechanism, uses guide RNAs to direct the Cas9 enzyme to specific DNA sequences where it makes precise cuts. This allows scientists to edit genes with unprecedented accuracy and ease, opening possibilities for treating genetic diseases, improving crops, and advancing biological research. The developers won the Nobel Prize in Chemistry in 2020.",
+    "citationUrl": "https://en.wikipedia.org/wiki/CRISPR",
+    "citationTitle": "Wikipedia: CRISPR"
+  },
+  {
+    "id": "e9434fea-4e39-4338-a9ac-83ddc391f3ba",
+    "text": "The first in vitro fertilization (IVF) baby, Louise Brown, was born in 1978 thanks to the work of which British physiologist and embryologist team?",
+    "options": [
+      "Robert Edwards and Patrick Steptoe",
+      "Ian Wilmut and Keith Campbell",
+      "Martin Evans and Oliver Smithies",
+      "John Gurdon and Shinya Yamanaka"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Robert Edwards and Patrick Steptoe pioneered IVF technology, resulting in the birth of Louise Brown, the world's first 'test tube baby.'",
+    "detailedExplanation": "Robert Edwards, a physiologist, and Patrick Steptoe, a gynecologist, worked together for over a decade to develop in vitro fertilization. Their breakthrough came on July 25, 1978, when Louise Brown was born at Oldham General Hospital in England, becoming the world's first baby conceived through IVF. This revolutionary technique involved fertilizing an egg with sperm outside the body and then implanting the embryo into the uterus. Edwards received the Nobel Prize in Physiology or Medicine in 2010 for this work, which has since helped millions of couples worldwide conceive children.",
+    "citationUrl": "https://en.wikipedia.org/wiki/In_vitro_fertilisation",
+    "citationTitle": "Wikipedia: In vitro fertilisation"
+  },
+  {
+    "id": "ae04b153-c557-482c-8044-f17060ddb0d0",
+    "text": "Which antibiotic was accidentally discovered by Alexander Fleming in 1928 when a mold contaminated his bacterial culture?",
+    "options": [
+      "Streptomycin",
+      "Penicillin",
+      "Tetracycline",
+      "Chloramphenicol"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Fleming discovered penicillin when Penicillium mold contaminated his Staphylococcus culture.",
+    "detailedExplanation": "Alexander Fleming's discovery of penicillin was a happy accident that revolutionized medicine. In September 1928, Fleming noticed that a Penicillium mold had contaminated one of his Staphylococcus bacterial culture plates, and the bacteria around the mold had been killed. This observation led to the development of the first widely used antibiotic, saving millions of lives and earning Fleming the Nobel Prize in 1945.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Penicillin",
+    "citationTitle": "Wikipedia: Penicillin"
+  },
+  {
+    "id": "bb6c543c-e9f9-4a85-bced-3eb5e70dff57",
+    "text": "In what year was the first successful human heart transplant performed by Dr. Christiaan Barnard?",
+    "options": [
+      "1965",
+      "1967",
+      "1969",
+      "1971"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Dr. Christiaan Barnard performed the first human heart transplant on December 3, 1967, in Cape Town, South Africa.",
+    "detailedExplanation": "On December 3, 1967, South African surgeon Christiaan Barnard performed the world's first human-to-human heart transplant at Groote Schuur Hospital in Cape Town. The patient, Louis Washkansky, received the heart of Denise Darvall, who had died in a car accident. Although Washkansky died 18 days later from pneumonia, the surgery was technically successful and marked a historic milestone in cardiac surgery.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Heart_transplantation",
+    "citationTitle": "Wikipedia: Heart transplantation"
+  },
+  {
+    "id": "8d56f1e6-c26e-4210-aebc-42b29687d016",
+    "text": "Which hormone was first successfully extracted and used to treat diabetes by Frederick Banting and Charles Best?",
+    "options": [
+      "Glucagon",
+      "Insulin",
+      "Cortisol",
+      "Growth hormone"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Banting and Best discovered insulin in 1921, transforming diabetes from a fatal disease to a manageable condition.",
+    "detailedExplanation": "In 1921, Frederick Banting and Charles Best, working at the University of Toronto, successfully isolated insulin from pancreatic tissue. Their breakthrough came after they ligated the pancreatic ducts in dogs and extracted the hormone from the remaining islet cells. The first human patient, 14-year-old Leonard Thompson, received insulin in January 1922, marking the beginning of effective diabetes treatment and saving millions of lives worldwide.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Insulin",
+    "citationTitle": "Wikipedia: Insulin"
+  },
+  {
+    "id": "68cd7d23-b729-4d50-9bb7-90780e5fb249",
+    "text": "The first IVF baby, Louise Brown, was born in which year?",
+    "options": [
+      "1976",
+      "1978",
+      "1980",
+      "1982"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Louise Brown, the world's first IVF baby, was born on July 25, 1978, in England.",
+    "detailedExplanation": "Louise Brown was born on July 25, 1978, at Oldham General Hospital in England, becoming the world's first baby conceived through in vitro fertilization (IVF). The groundbreaking procedure was developed by Robert Edwards, Patrick Steptoe, and Jean Purdy. Edwards later received the Nobel Prize in 2010 for his work, which has since helped millions of couples worldwide overcome infertility.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Louise_Brown",
+    "citationTitle": "Wikipedia: Louise Brown"
+  },
+  {
+    "id": "c0ca44a4-2dfa-4578-9975-6253f78bc707",
+    "text": "Which vaccination technique was pioneered by Edward Jenner in 1796 using cowpox to prevent smallpox?",
+    "options": [
+      "Inoculation",
+      "Vaccination",
+      "Immunization",
+      "Variolation"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Jenner coined the term 'vaccination' from the Latin word for cow (vacca) when he used cowpox to prevent smallpox.",
+    "detailedExplanation": "Edward Jenner performed the first vaccination in 1796 when he inoculated 8-year-old James Phipps with cowpox material, then later exposed him to smallpox to prove immunity. Jenner observed that milkmaids who contracted cowpox rarely got smallpox, leading to his hypothesis. The term 'vaccination' comes from 'vacca,' the Latin word for cow. This breakthrough laid the foundation for modern immunology and eventually led to smallpox eradication in 1980.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Edward_Jenner",
+    "citationTitle": "Wikipedia: Edward Jenner"
+  },
+  {
+    "id": "a0bd2ac7-6a74-48c0-8bc1-be4d762c7619",
+    "text": "What life-saving discovery did Wilhelm Röntgen make in 1895 that earned him the first Nobel Prize in Physics?",
+    "options": [
+      "Radioactivity",
+      "X-rays",
+      "Electron microscopy",
+      "Gamma rays"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Röntgen discovered X-rays in 1895, revolutionizing medical diagnosis and earning the first Physics Nobel Prize.",
+    "detailedExplanation": "Wilhelm Röntgen discovered X-rays on November 8, 1895, while experimenting with cathode rays. He noticed that a fluorescent screen glowed even when shielded from direct cathode rays, indicating the presence of invisible radiation. Röntgen's first X-ray image was of his wife's hand, showing her bones and wedding ring. This discovery revolutionized medicine by allowing doctors to see inside the human body without surgery, and earned him the inaugural Nobel Prize in Physics in 1901.",
+    "citationUrl": "https://en.wikipedia.org/wiki/X-ray",
+    "citationTitle": "Wikipedia: X-ray"
+  },
+  {
+    "id": "685c2e85-8d8a-45de-97b3-bf68e002f8db",
+    "text": "Which breakthrough drug for treating depression was first developed in the 1950s and belongs to the SSRI class?",
+    "options": [
+      "Fluoxetine (Prozac)",
+      "Imipramine",
+      "Lithium",
+      "Chlorpromazine"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Fluoxetine (Prozac) was the first widely used SSRI antidepressant, though it was actually developed in the 1970s and approved in 1987.",
+    "detailedExplanation": "While the question's timeframe is slightly off, fluoxetine (Prozac) was the first selective serotonin reuptake inhibitor (SSRI) to gain widespread use. Developed by Eli Lilly in the 1970s and approved by the FDA in 1987, Prozac revolutionized depression treatment with fewer side effects than earlier antidepressants. The 1950s actually saw the development of the first antidepressants like imipramine, but SSRIs came later and represented a major breakthrough in psychiatric medicine.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Fluoxetine",
+    "citationTitle": "Wikipedia: Fluoxetine"
+  },
+  {
+    "id": "f7cd83ae-e18d-49f7-a695-4526e940a9c2",
+    "text": "The first successful human heart transplant was performed in 1967 in which country?",
+    "options": [
+      "United States",
+      "United Kingdom",
+      "South Africa",
+      "France"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Dr. Christiaan Barnard performed the first human heart transplant in Cape Town, South Africa.",
+    "detailedExplanation": "On December 3, 1967, South African cardiac surgeon Dr. Christiaan Barnard performed the world's first human-to-human heart transplant at Groote Schuur Hospital in Cape Town. The patient, Louis Washkansky, received the heart of a 25-year-old woman who had died in a car accident. While Washkansky survived the surgery, he died 18 days later from pneumonia. This historic operation marked the beginning of the era of heart transplantation and established South Africa as a pioneer in cardiac surgery.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Heart_transplantation",
+    "citationTitle": "Wikipedia: Heart transplantation"
+  },
+  {
+    "id": "8b41a159-0e7b-4e90-8975-269049a37033",
+    "text": "The first test-tube baby, Louise Brown, was born in 1978 using which assisted reproductive technology?",
+    "options": [
+      "Artificial insemination",
+      "In vitro fertilization (IVF)",
+      "Intracytoplasmic sperm injection",
+      "Surrogate pregnancy"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Louise Brown was conceived through in vitro fertilization (IVF), where fertilization occurs outside the body.",
+    "detailedExplanation": "Louise Brown was born on July 25, 1978, at Oldham General Hospital in England, becoming the world's first baby conceived through in vitro fertilization. The procedure was developed by physiologist Robert Edwards and gynecologist Patrick Steptoe. IVF involves fertilizing an egg with sperm outside the body in a laboratory dish, then transferring the resulting embryo to the uterus. Edwards later won the Nobel Prize in Physiology or Medicine in 2010 for this breakthrough, which has since helped millions of couples worldwide overcome infertility.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Louise_Brown",
+    "citationTitle": "Wikipedia: Louise Brown"
+  },
+  {
+    "id": "e955d54d-c41c-4349-92be-ff3b240b325d",
+    "text": "Which vitamin deficiency disease was largely eliminated through fortification of milk and other foods in the 20th century?",
+    "options": [
+      "Scurvy",
+      "Beriberi",
+      "Rickets",
+      "Pellagra"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Rickets, caused by vitamin D deficiency, was eliminated through milk fortification and vitamin D supplements.",
+    "detailedExplanation": "Rickets, a disease causing soft and weak bones in children, was a major public health problem in industrialized cities during the early 20th century due to vitamin D deficiency. The breakthrough came when scientists discovered that vitamin D could prevent and cure rickets. Beginning in the 1930s, many countries began fortifying milk with vitamin D, and cod liver oil was widely recommended. This public health intervention virtually eliminated rickets as a common childhood disease in developed countries, representing one of the most successful nutritional interventions in medical history.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Rickets",
+    "citationTitle": "Wikipedia: Rickets"
+  },
+  {
+    "id": "b40cbf82-c360-40bd-90aa-669832a35cea",
+    "text": "Which Scottish biologist discovered penicillin in 1928, revolutionizing the treatment of bacterial infections?",
+    "options": [
+      "Alexander Fleming",
+      "Joseph Lister",
+      "Robert Koch",
+      "Louis Pasteur"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Alexander Fleming discovered penicillin in 1928 when he noticed mold contamination killing bacteria in his laboratory.",
+    "detailedExplanation": "Alexander Fleming made his groundbreaking discovery of penicillin at St. Mary's Hospital in London in September 1928. He noticed that a mold (later identified as Penicillium notatum) had contaminated one of his bacterial culture plates and had killed the surrounding Staphylococcus bacteria. This accidental discovery led to the development of the first true antibiotic, saving millions of lives and earning Fleming the Nobel Prize in Physiology or Medicine in 1945.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Alexander_Fleming",
+    "citationTitle": "Wikipedia: Alexander Fleming"
+  },
+  {
+    "id": "f396c640-46c3-4f51-8ddf-cfa07c7b80b1",
+    "text": "In 1967, Dr. Christiaan Barnard performed the world's first successful human organ transplant of which vital organ?",
+    "options": [
+      "Liver",
+      "Kidney",
+      "Heart",
+      "Lung"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Dr. Christiaan Barnard performed the first human heart transplant on December 3, 1967, in Cape Town, South Africa.",
+    "detailedExplanation": "On December 3, 1967, South African cardiac surgeon Christiaan Barnard performed the world's first human-to-human heart transplant at Groote Schuur Hospital in Cape Town. The patient, Louis Washkansky, received the heart of Denise Darvall, a 25-year-old woman who had died in a car accident. While Washkansky survived the surgery, he died 18 days later from pneumonia. Despite this, the operation marked a revolutionary milestone in cardiac surgery and paved the way for modern organ transplantation.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Christiaan_Barnard",
+    "citationTitle": "Wikipedia: Christiaan Barnard"
+  },
+  {
+    "id": "912930c7-9f21-459b-a8a2-cbfe8d728836",
+    "text": "Which antibiotic, discovered accidentally by Alexander Fleming in 1928, revolutionized medicine and saved millions of lives during World War II?",
+    "options": [
+      "Streptomycin",
+      "Penicillin",
+      "Tetracycline",
+      "Chloramphenicol"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Penicillin was discovered by Alexander Fleming in 1928 when he noticed mold contamination killing bacteria in his lab.",
+    "detailedExplanation": "Alexander Fleming discovered penicillin in September 1928 at St. Mary's Hospital in London when he observed that a mold (later identified as Penicillium notatum) had contaminated one of his bacterial culture plates and killed the surrounding bacteria. This accidental discovery led to the development of the first true antibiotic, which became widely available during World War II and dramatically reduced deaths from bacterial infections. Fleming shared the 1945 Nobel Prize in Physiology or Medicine for this groundbreaking discovery.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Penicillin",
+    "citationTitle": "Wikipedia: Penicillin"
+  }
+]

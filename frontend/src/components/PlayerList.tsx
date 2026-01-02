@@ -1,7 +1,7 @@
-'use client';
+"use client";
 
-import { Card, CardBody, Avatar } from '@nextui-org/react';
-import type { Player } from '@quiz/shared';
+import { Card, CardBody, Avatar } from "@nextui-org/react";
+import type { Player } from "@quiz/shared";
 
 interface PlayerListProps {
   players: Player[];
@@ -18,7 +18,7 @@ export function PlayerList({
 }: PlayerListProps) {
   // Sort players by score
   const sortedPlayers = [...players].sort(
-    (a, b) => (scores[b.id] || 0) - (scores[a.id] || 0)
+    (a, b) => (scores[b.id] || 0) - (scores[a.id] || 0),
   );
 
   return (
@@ -40,8 +40,8 @@ export function PlayerList({
                 className={`
                   flex items-center justify-between p-2 rounded-lg
                   transition-all duration-200
-                  ${isCurrentPlayer ? 'bg-primary-900/50 border border-primary-500' : ''}
-                  ${isBuzzerWinner ? 'bg-blue-900/50 animate-pulse' : ''}
+                  ${isCurrentPlayer ? "bg-primary-900/50 border border-primary-500" : ""}
+                  ${isBuzzerWinner ? "bg-blue-900/50 animate-pulse" : ""}
                 `}
               >
                 <div className="flex items-center space-x-3">
@@ -67,10 +67,11 @@ export function PlayerList({
                 <div
                   className={`
                     font-bold text-sm
-                    ${score >= 0 ? 'text-green-400' : 'text-red-400'}
+                    ${score >= 0 ? "text-green-400" : "text-red-400"}
                   `}
                 >
-                  {score >= 0 ? '+' : ''}{score}
+                  {score >= 0 ? "+" : ""}
+                  {score}
                 </div>
               </div>
             );

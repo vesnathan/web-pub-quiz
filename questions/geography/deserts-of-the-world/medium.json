@@ -1,0 +1,342 @@
+[
+  {
+    "id": "310d5621-1428-4e59-8829-676dc35a098c",
+    "text": "Which desert is the largest hot desert in the world?",
+    "options": [
+      "Kalahari Desert",
+      "Sahara Desert",
+      "Arabian Desert",
+      "Thar Desert"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "The Sahara Desert is the largest hot desert in the world, covering approximately 9 million square kilometers.",
+    "detailedExplanation": "The Sahara Desert spans across North Africa and covers roughly 9 million square kilometers (3.5 million square miles), making it about the size of the United States. It stretches across multiple countries including Morocco, Algeria, Tunisia, Libya, Egypt, Mauritania, Mali, Niger, Chad, and Sudan. While Antarctica and the Arctic are larger deserts, they are cold deserts, making the Sahara the world's largest hot desert.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Sahara",
+    "citationTitle": "Wikipedia: Sahara"
+  },
+  {
+    "id": "f7221499-cda2-4438-b476-830bed2181a8",
+    "text": "The Atacama Desert, known as one of the driest places on Earth, is located in which country?",
+    "options": [
+      "Peru",
+      "Chile",
+      "Bolivia",
+      "Argentina"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "The Atacama Desert is primarily located in northern Chile, though it extends into Peru.",
+    "detailedExplanation": "The Atacama Desert is a plateau in South America covering a 1,600-kilometer strip of land on the Pacific coast, primarily in northern Chile. Some weather stations in the Atacama have never recorded rainfall, and the average rainfall is about 1 millimeter per year. The desert's extreme dryness is caused by its location between two mountain ranges and cold ocean currents that prevent moisture from reaching the area.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Atacama_Desert",
+    "citationTitle": "Wikipedia: Atacama Desert"
+  },
+  {
+    "id": "2b9742f6-0635-4331-9e64-2315ebbfdf7d",
+    "text": "The Namib Desert, home to some of the world's highest sand dunes, is located along which ocean?",
+    "options": [
+      "Indian Ocean",
+      "Pacific Ocean",
+      "Atlantic Ocean",
+      "Arctic Ocean"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "The Namib Desert runs along the Atlantic Ocean coast of southwestern Africa.",
+    "detailedExplanation": "The Namib Desert stretches along the Atlantic Ocean coast for about 2,000 kilometers, primarily through Namibia but also extending into Angola and South Africa. This coastal desert is notable for containing some of the world's highest sand dunes, particularly around Sossusvlei, where dunes can reach heights of over 300 meters. The desert's proximity to the cold Benguela Current of the Atlantic Ocean creates frequent fog that provides crucial moisture for desert-adapted plants and animals.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Namib",
+    "citationTitle": "Wikipedia: Namib"
+  },
+  {
+    "id": "aec4bd74-cec7-4bf7-aa2a-48d063aae695",
+    "text": "Which desert straddles the border between the United States and Mexico?",
+    "options": [
+      "Mojave Desert",
+      "Sonoran Desert",
+      "Chihuahuan Desert",
+      "Great Basin Desert"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "The Sonoran Desert extends across the US-Mexico border, covering parts of Arizona, California, and northwestern Mexico.",
+    "detailedExplanation": "The Sonoran Desert covers approximately 260,000 square kilometers across the southwestern United States and northwestern Mexico. It includes parts of Arizona, California, and the Mexican states of Sonora and Baja California. The desert is famous for its iconic saguaro cacti, which can live for 150-200 years and grow up to 12 meters tall. The Sonoran Desert is considered one of the most biologically diverse deserts in North America, supporting over 2,000 plant species and numerous animal species.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Sonoran_Desert",
+    "citationTitle": "Wikipedia: Sonoran Desert"
+  },
+  {
+    "id": "ef0620f7-a30e-4312-afbc-0f7149615de8",
+    "text": "What is the primary reason the Sahara Desert continues to expand southward?",
+    "options": [
+      "Volcanic activity",
+      "Climate change and overgrazing",
+      "Tectonic plate movement",
+      "Ocean current changes"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "The Sahara expands southward primarily due to climate change, drought, and human activities like overgrazing and deforestation.",
+    "detailedExplanation": "The southward expansion of the Sahara Desert, known as desertification, is primarily driven by a combination of climate change and human activities. Prolonged droughts, rising temperatures, and reduced rainfall contribute to the natural expansion, while human activities such as overgrazing by livestock, deforestation, and intensive agriculture degrade the soil and remove vegetation that would otherwise prevent desert encroachment. This process threatens the Sahel region, affecting millions of people across countries like Mali, Niger, and Chad.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Desertification",
+    "citationTitle": "Wikipedia: Desertification"
+  },
+  {
+    "id": "371491d2-58b5-4901-b1c7-4d47a35aa3c9",
+    "text": "Which desert is known for its distinctive red sand dunes and is located in Saudi Arabia?",
+    "options": [
+      "Empty Quarter",
+      "Rub' al Khali",
+      "Both A and B",
+      "An-Nafud Desert"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "The Empty Quarter and Rub' al Khali are the same desert - Rub' al Khali is the Arabic name meaning 'Empty Quarter.'",
+    "detailedExplanation": "The Rub' al Khali, also known as the Empty Quarter, is the world's largest continuous sand desert, covering about 650,000 square kilometers across Saudi Arabia, Oman, the UAE, and Yemen. The desert is famous for its massive red and orange sand dunes that can reach heights of 250 meters. The distinctive red color comes from iron oxide in the sand. However, the An-Nafud Desert, located in northern Saudi Arabia, is also known for its reddish sand dunes, making it another notable red sand desert in the region.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Rub%27_al_Khali",
+    "citationTitle": "Wikipedia: Rub' al Khali"
+  },
+  {
+    "id": "86ae848a-558c-46ca-9b16-ed6b10fe70a0",
+    "text": "What is the primary reason the Gobi Desert experiences extreme temperature variations between summer and winter?",
+    "options": [
+      "Its high altitude",
+      "Its continental location far from oceans",
+      "Its proximity to the equator",
+      "Its underground volcanic activity"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "The Gobi Desert's continental location, far from moderating ocean influences, causes extreme seasonal temperature variations.",
+    "detailedExplanation": "The Gobi Desert, spanning northern China and southern Mongolia, experiences a continental climate characterized by extreme temperature variations. Summer temperatures can reach 50°C (122°F), while winter temperatures can drop to -40°C (-40°F). This dramatic range occurs because the desert is located deep within the Asian continent, far from oceans that would moderate temperatures. Ocean waters heat up and cool down much more slowly than land masses, so coastal areas experience less extreme temperature swings than inland continental areas like the Gobi.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Gobi_Desert",
+    "citationTitle": "Wikipedia: Gobi Desert"
+  },
+  {
+    "id": "a8e0f640-e6c6-4ad8-adaa-df012ce3f957",
+    "text": "Which Australian desert is famous for Uluru (Ayers Rock)?",
+    "options": [
+      "Great Sandy Desert",
+      "Gibson Desert",
+      "Great Victoria Desert",
+      "Central Desert"
+    ],
+    "correctIndex": 3,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "Uluru is located in the Central Desert region of Australia, also known as the Red Centre.",
+    "detailedExplanation": "Uluru, the iconic monolithic rock formation sacred to the Aboriginal Anangu people, rises from the Central Desert in the heart of Australia's Red Centre. This region, part of the larger Great Western Desert complex, is characterized by red sand, scattered shrubland, and remarkable geological formations. The Central Desert receives minimal rainfall and experiences significant temperature variations between day and night. Uluru itself stands 348 meters (1,142 feet) high and has a circumference of 9.4 kilometers (5.8 miles).",
+    "citationUrl": "https://en.wikipedia.org/wiki/Uluru",
+    "citationTitle": "Wikipedia: Uluru"
+  },
+  {
+    "id": "3bec6be7-3ae6-4c44-91c1-30ca6953e1c5",
+    "text": "The Namib Desert is notable for having some of the world's highest sand dunes. In which African country are these dunes primarily located?",
+    "options": [
+      "South Africa",
+      "Botswana",
+      "Angola",
+      "Namibia"
+    ],
+    "correctIndex": 3,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "The Namib Desert's famous high sand dunes are primarily located in Namibia, particularly around Sossusvlei.",
+    "detailedExplanation": "The Namib Desert stretches along the Atlantic coast of southwestern Africa, primarily through Namibia, with portions extending into Angola and South Africa. The desert is home to some of the world's highest sand dunes, particularly in the Sossusvlei area of Namibia. These dunes can reach heights of over 380 meters (1,250 feet) and are famous for their striking red-orange color, caused by iron oxide. The Namib is considered one of the world's oldest deserts, having existed for at least 55 million years.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Namib",
+    "citationTitle": "Wikipedia: Namib"
+  },
+  {
+    "id": "f6329b36-883c-4a85-b27f-669cc86ac4df",
+    "text": "Which desert spans parts of Argentina, Chile, and is known for its windswept plateaus and sparse vegetation?",
+    "options": [
+      "Sechura Desert",
+      "Monte Desert",
+      "Patagonian Desert",
+      "Puna de Atacama"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "The Patagonian Desert spans parts of both Argentina and Chile and is characterized by windswept plateaus and minimal vegetation.",
+    "detailedExplanation": "The Patagonian Desert, also known as the Patagonian Steppe, is South America's largest desert, covering approximately 673,000 square kilometers (260,000 square miles) across southern Argentina and small parts of Chile. It's a cold desert characterized by strong westerly winds, sparse grassland vegetation, and elevated plateaus. The desert exists in the rain shadow of the Andes Mountains, which block moisture-carrying winds from the Pacific Ocean. Despite its harsh conditions, the region supports some wildlife including guanacos, rheas, and various species of armadillos.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Patagonian_Desert",
+    "citationTitle": "Wikipedia: Patagonian Desert"
+  },
+  {
+    "id": "87d50f87-5c63-48b7-88f9-4573339d07db",
+    "text": "The Thar Desert, also known as the Great Indian Desert, is shared between India and which neighboring country?",
+    "options": [
+      "Bangladesh",
+      "Pakistan",
+      "Afghanistan",
+      "Nepal"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "The Thar Desert spans the border between northwestern India and southeastern Pakistan.",
+    "detailedExplanation": "The Thar Desert covers approximately 200,000 square kilometers (77,000 square miles) and straddles the border between India and Pakistan. In India, it covers most of Rajasthan state and extends into parts of Haryana, Punjab, and Gujarat. In Pakistan, it covers the eastern portion of Sindh province and the southeastern part of Punjab province. The desert is characterized by shifting sand dunes, scrub vegetation, and extreme temperature variations. Despite its arid conditions, the Thar is one of the most densely populated deserts in the world, with several cities including Jodhpur, Bikaner, and Jaisalmer.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Thar_Desert",
+    "citationTitle": "Wikipedia: Thar Desert"
+  },
+  {
+    "id": "794f0143-a891-4850-9648-a156e48e0911",
+    "text": "The Atacama Desert, one of the world's driest places, is located in which South American country?",
+    "options": [
+      "Peru",
+      "Chile",
+      "Bolivia",
+      "Argentina"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "The Atacama Desert is located in northern Chile and is considered the driest non-polar desert in the world.",
+    "detailedExplanation": "The Atacama Desert stretches along Chile's Pacific coast in the northern part of the country, covering approximately 105,000 square kilometers. It is renowned as the driest non-polar desert on Earth, with some weather stations in the region never having recorded rainfall. The extreme aridity is caused by its location between two mountain ranges and cold ocean currents that prevent moisture from reaching the area. Some areas of the desert are so Mars-like that NASA has used it to test equipment for Mars missions.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Atacama_Desert",
+    "citationTitle": "Wikipedia: Atacama Desert"
+  },
+  {
+    "id": "416dc860-49d3-4a65-9c08-17ea219a0b4b",
+    "text": "Which Australian desert is known for its distinctive red sand and is the country's largest desert?",
+    "options": [
+      "Simpson Desert",
+      "Gibson Desert",
+      "Great Victoria Desert",
+      "Great Western Desert"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "The Great Victoria Desert is Australia's largest desert, covering about 348,750 square kilometers and known for its red sand.",
+    "detailedExplanation": "The Great Victoria Desert covers approximately 348,750 square kilometers across southern Australia, spanning parts of Western Australia and South Australia. It's characterized by red sand plains, low scrubland, and salt lakes. The desert was named after Queen Victoria and was first crossed by explorer Ernest Giles in 1875. Despite its harsh conditions, it supports various wildlife including echidnas, dingoes, and numerous reptile species. The desert experiences hot summers and mild winters, with sparse and irregular rainfall.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Great_Victoria_Desert",
+    "citationTitle": "Wikipedia: Great Victoria Desert"
+  },
+  {
+    "id": "f79d5a3a-e94f-413e-94e2-8637ccf30c84",
+    "text": "The Gobi Desert spans across which two countries?",
+    "options": [
+      "India and Pakistan",
+      "Iran and Afghanistan",
+      "China and Mongolia",
+      "Kazakhstan and Uzbekistan"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "The Gobi Desert spans across northern China and southern Mongolia, making it Asia's largest desert.",
+    "detailedExplanation": "The Gobi Desert covers approximately 1.3 million square kilometers across northern China and southern Mongolia. It's a cold desert, experiencing freezing temperatures in winter and extreme heat in summer. The Gobi is famous for its significant paleontological discoveries, including numerous dinosaur fossils and eggs. It played an important role along the ancient Silk Road trade routes. The desert continues to expand southward into China due to desertification, which has become an environmental concern for both countries.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Gobi_Desert",
+    "citationTitle": "Wikipedia: Gobi Desert"
+  },
+  {
+    "id": "e61e0f33-7395-4f89-af33-b05d877c2d00",
+    "text": "Which desert in the southwestern United States is known for its distinctive Joshua trees?",
+    "options": [
+      "Sonoran Desert",
+      "Chihuahuan Desert",
+      "Great Basin Desert",
+      "Mojave Desert"
+    ],
+    "correctIndex": 3,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "The Mojave Desert is famous for its Joshua trees, which are found almost exclusively in this desert region.",
+    "detailedExplanation": "The Mojave Desert spans across southeastern California, southern Nevada, southwestern Utah, and northwestern Arizona. It's characterized by its unique Joshua trees (Yucca brevifolia), which can live for hundreds of years and grow up to 40 feet tall. The desert covers about 124,000 square kilometers and includes famous locations like Death Valley, the lowest and hottest place in North America. The Mojave is a transition zone between the hot Sonoran Desert to the south and the cold Great Basin Desert to the north.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Mojave_Desert",
+    "citationTitle": "Wikipedia: Mojave Desert"
+  },
+  {
+    "id": "19ef76bf-cef9-4153-9e6d-a357bf929e86",
+    "text": "What percentage of Earth's land surface is covered by deserts?",
+    "options": [
+      "About 15%",
+      "About 25%",
+      "About 33%",
+      "About 45%"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "Approximately 33% (one-third) of Earth's land surface is covered by deserts and semi-arid regions.",
+    "detailedExplanation": "Desert and semi-arid regions cover approximately 33% of Earth's total land surface, which equals about 50 million square kilometers. This includes both hot and cold deserts across all continents except Antarctica (though Antarctica itself is considered a polar desert). The distribution includes major hot deserts like the Sahara, Arabian, and Australian deserts, as well as cold deserts like those in Central Asia and the high-altitude regions of the Americas. Climate change and human activities are causing some regions to become more arid, potentially increasing this percentage over time.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Desert",
+    "citationTitle": "Wikipedia: Desert"
+  },
+  {
+    "id": "0264ae80-eeea-47d3-aeaf-ceb054cd6a98",
+    "text": "Which desert is known as the 'Place of No Return' and is located in the Taklamakan region?",
+    "options": [
+      "Gobi Desert",
+      "Taklamakan Desert",
+      "Kyzylkum Desert",
+      "Karakum Desert"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "The Taklamakan Desert in China is known as the 'Place of No Return' due to its extreme conditions and shifting sand dunes.",
+    "detailedExplanation": "The Taklamakan Desert, located in the Tarim Basin in northwest China, is one of the world's largest sandy deserts. Its name literally translates to 'Place of No Return' in the local Uyghur language, referring to the extreme difficulty of crossing it due to its vast expanse of shifting sand dunes, extreme temperatures, and lack of water sources. The desert covers approximately 337,000 square kilometers and is surrounded by high mountain ranges, making it one of the most isolated and inhospitable places on Earth.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Taklamakan_Desert",
+    "citationTitle": "Wikipedia: Taklamakan Desert"
+  },
+  {
+    "id": "039cbb17-c53c-42fa-9f06-a2db96f5720f",
+    "text": "Which desert is the largest hot desert in the world by area?",
+    "options": [
+      "Kalahari Desert",
+      "Sahara Desert",
+      "Arabian Desert",
+      "Great Victoria Desert"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "The Sahara Desert covers approximately 9 million square kilometers across North Africa.",
+    "detailedExplanation": "The Sahara Desert is the world's largest hot desert, covering roughly 9 million square kilometers (3.5 million square miles) across North Africa. It spans multiple countries including Morocco, Algeria, Tunisia, Libya, Egypt, Sudan, Chad, Niger, Mali, and Mauritania. While Antarctica and the Arctic are larger deserts, they are classified as cold deserts, making the Sahara the largest hot desert on Earth.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Sahara",
+    "citationTitle": "Wikipedia: Sahara"
+  },
+  {
+    "id": "00e3a5c8-2163-4a3e-97de-90d2c8e93d47",
+    "text": "The Atacama Desert, known as one of the driest places on Earth, is located in which South American country?",
+    "options": [
+      "Peru",
+      "Bolivia",
+      "Chile",
+      "Argentina"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "The Atacama Desert is located in northern Chile, stretching along the Pacific coast.",
+    "detailedExplanation": "The Atacama Desert is situated in northern Chile, extending approximately 1,600 kilometers along the Pacific coast. It is renowned as one of the world's driest non-polar deserts, with some weather stations in the region having never recorded rainfall. The desert's extreme aridity is caused by its location between two mountain ranges and the cold Humboldt Current offshore, which prevents moisture from reaching the area.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Atacama_Desert",
+    "citationTitle": "Wikipedia: Atacama Desert"
+  },
+  {
+    "id": "84cb142b-a530-4628-9a80-1038812a1616",
+    "text": "What is the name of the large desert region that covers parts of northern China and southern Mongolia?",
+    "options": [
+      "Taklamakan Desert",
+      "Gobi Desert",
+      "Thar Desert",
+      "Karakum Desert"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "The Gobi Desert is a large cold desert spanning northern China and southern Mongolia.",
+    "detailedExplanation": "The Gobi Desert is a vast cold desert and grassland region spanning approximately 1.3 million square kilometers across northern China and southern Mongolia. Unlike many other major deserts, the Gobi is characterized by its cold winters and is classified as a cold desert rather than a hot desert. It plays a significant role in the climate of East Asia and is famous for its fossil discoveries, including dinosaur remains, and its historical importance along the ancient Silk Road trade routes.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Gobi_Desert",
+    "citationTitle": "Wikipedia: Gobi Desert"
+  }
+]

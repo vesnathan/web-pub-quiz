@@ -455,8 +455,8 @@ class ResolverCompiler {
     logger.success("✓ All resolvers compiled and uploaded successfully.\n");
     logger.info(`Build hash: ${buildHash}`);
 
-    // Clean up old resolver deployments from S3 (keep none)
-    await this.cleanupOldS3Resolvers(0);
+    // Clean up old resolver deployments from S3 (keep current + 1 previous for rollback)
+    await this.cleanupOldS3Resolvers(2);
 
     return buildHash;
   }
@@ -545,6 +545,8 @@ class ResolverCompiler {
         downlevelIteration: false,
         importHelpers: false,
         noEmitHelpers: true,
+        strict: false,
+        noImplicitAny: false,
       },
       include: ["**/*.ts"],
       exclude: ["node_modules", "dist", "**/__tests__", "**/*.test.ts", "**/*.spec.ts"],
@@ -696,7 +698,7 @@ interface ContextIdentity {
   defaultAuthStrategy: string;
   groups: string[] | null;
 }
-type Context<TArguments = Record<string, unknown>, TSource = Record<string, unknown> | null, TStash = Record<string, unknown>, TResult = unknown, TReturns = unknown> = {
+type Context<TArguments = Record<string, unknown>, TSource = Record<string, unknown> | null, TStash = Record<string, unknown>, TResult = any, TReturns = unknown> = {
   arguments: TArguments;
   args: TArguments;
   source: TSource;
@@ -715,7 +717,7 @@ type AppSyncIdentityCognito = ContextIdentity;
     codeToCompile = appsyncGlobals + codeToCompile;
 
     // Inject table name
-    const tableName = `qnl-datatable-${this.stage}`;
+    const tableName = `quiz-night-live-datatable-${this.stage}`;
 
     if (codeToCompile.includes("ctx.env.TABLE_NAME")) {
       codeToCompile = codeToCompile.replace(/ctx\.env\.TABLE_NAME/g, `"${tableName}"`);

@@ -1,0 +1,240 @@
+[
+  {
+    "id": "f560634c-ee68-4463-854d-4b65c4ff3e6b",
+    "text": "What is the common name for sodium chloride?",
+    "options": [
+      "Baking soda",
+      "Table salt",
+      "Chalk",
+      "Sugar"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Sodium chloride (NaCl) is commonly known as table salt or just salt.",
+    "detailedExplanation": "Sodium chloride (NaCl) is the chemical name for common table salt, one of the most familiar compounds in everyday life. It forms when sodium, a highly reactive metal, combines with chlorine, a toxic gas, to create a stable, edible compound essential for human health. Salt has been used for food preservation and seasoning for thousands of years and plays crucial roles in biological processes including nerve function and fluid balance.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Sodium_chloride",
+    "citationTitle": "Wikipedia: Sodium chloride"
+  },
+  {
+    "id": "68534517-c1fd-4d1a-979d-e2f5818372fb",
+    "text": "What does Ohm's Law describe the relationship between?",
+    "options": [
+      "Voltage, current, and resistance",
+      "Mass, acceleration, and force",
+      "Pressure, volume, and temperature",
+      "Frequency, wavelength, and speed"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Ohm's Law states that voltage equals current times resistance (V = I × R), describing the relationship between these three electrical quantities.",
+    "detailedExplanation": "Ohm's Law is a fundamental principle in electrical engineering and physics that describes how voltage, current, and resistance are related in electrical circuits. The law states that the voltage across a conductor is directly proportional to the current flowing through it, with resistance as the constant of proportionality. This simple relationship (V = I × R) is essential for designing electrical circuits, calculating power consumption, and understanding how electrical devices work.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Ohm%27s_law",
+    "citationTitle": "Wikipedia: Ohm's law"
+  },
+  {
+    "id": "bee418fa-2c1c-4ff8-91d9-a4b3588b2d47",
+    "text": "What was the name of the first artificial satellite launched into space?",
+    "options": [
+      "Explorer 1",
+      "Sputnik 1",
+      "Vanguard 1",
+      "Luna 1"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Sputnik 1 was the first artificial satellite, launched by the Soviet Union in 1957.",
+    "detailedExplanation": "Sputnik 1 was launched by the Soviet Union on October 4, 1957, marking the beginning of the Space Age. This beach ball-sized satellite orbited Earth every 96 minutes, transmitting radio signals that could be heard by amateur radio operators worldwide. Its successful launch shocked the world and initiated the Space Race between the Soviet Union and the United States.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Sputnik_1",
+    "citationTitle": "Wikipedia: Sputnik 1"
+  },
+  {
+    "id": "a2f0f1d8-c938-4c53-b88d-e6db6a0fcc68",
+    "text": "Who was the first human to travel into space?",
+    "options": [
+      "Neil Armstrong",
+      "John Glenn",
+      "Yuri Gagarin",
+      "Alan Shepard"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Soviet cosmonaut Yuri Gagarin became the first human in space on April 12, 1961.",
+    "detailedExplanation": "Yuri Gagarin, a Soviet Air Forces pilot, made history on April 12, 1961, when he completed one orbit of Earth aboard the Vostok 1 spacecraft. His 108-minute flight marked humanity's first journey into space and made him an international hero. Gagarin's achievement came just three weeks before Alan Shepard became the first American in space, giving the Soviet Union another major victory in the early Space Race.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Yuri_Gagarin",
+    "citationTitle": "Wikipedia: Yuri Gagarin"
+  },
+  {
+    "id": "048b4222-498c-49e5-8f88-9f3751a9d5cc",
+    "text": "Which space shuttle was involved in the first fatal accident during launch?",
+    "options": [
+      "Columbia",
+      "Challenger",
+      "Discovery",
+      "Atlantis"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Space Shuttle Challenger broke apart 73 seconds after launch in 1986, killing all seven crew members.",
+    "detailedExplanation": "The Space Shuttle Challenger disaster occurred on January 28, 1986, when the shuttle broke apart 73 seconds into its flight, killing all seven crew members including teacher Christa McAuliffe. The accident was caused by the failure of O-ring seals in cold weather. This tragedy led to a 32-month hiatus in the shuttle program and significant design and safety improvements.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Space_Shuttle_Challenger_disaster",
+    "citationTitle": "Wikipedia: Space Shuttle Challenger disaster"
+  },
+  {
+    "id": "9e13a8ae-5010-403a-98a6-c657b77a1fac",
+    "text": "What is the name of the first space station launched by humans?",
+    "options": [
+      "Mir",
+      "Skylab",
+      "Salyut 1",
+      "International Space Station"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Salyut 1 was the first space station, launched by the Soviet Union in 1971.",
+    "detailedExplanation": "Salyut 1 was launched by the Soviet Union on April 19, 1971, becoming the world's first space station. Although the first crew mission to dock with it ended tragically when the three cosmonauts died during re-entry due to cabin depressurization, Salyut 1 marked the beginning of long-duration human spaceflight and paved the way for future space stations like Mir and the International Space Station.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Salyut_1",
+    "citationTitle": "Wikipedia: Salyut 1"
+  },
+  {
+    "id": "910843c0-c740-4bf8-ae13-4dfe0fdfad70",
+    "text": "What was the name of the first American woman to travel to space?",
+    "options": [
+      "Mae Jemison",
+      "Sally Ride",
+      "Christa McAuliffe",
+      "Eileen Collins"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Sally Ride became the first American woman in space aboard Space Shuttle Challenger in 1983.",
+    "detailedExplanation": "Dr. Sally Ride made history on June 18, 1983, when she became the first American woman to travel to space aboard Space Shuttle Challenger during the STS-7 mission. A physicist and astronaut, Ride operated the shuttle's robotic arm and helped deploy satellites during the six-day mission. Her achievement came 20 years after Soviet cosmonaut Valentina Tereshkova became the first woman in space in 1963.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Sally_Ride",
+    "citationTitle": "Wikipedia: Sally Ride"
+  },
+  {
+    "id": "3ab9b1ea-3382-4deb-9555-28a9fd72e222",
+    "text": "Which spacecraft was the first to successfully land on Venus?",
+    "options": [
+      "Venera 7",
+      "Pioneer Venus",
+      "Magellan",
+      "Mariner 2"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Soviet spacecraft Venera 7 achieved the first successful landing on Venus in 1970.",
+    "detailedExplanation": "Venera 7, launched by the Soviet Union, became the first spacecraft to successfully land on Venus and transmit data from the surface on December 15, 1970. The probe survived Venus's extreme conditions—temperatures of 475°C (887°F) and crushing atmospheric pressure 90 times that of Earth—for 23 minutes. This achievement marked humanity's first successful landing on another planet and provided crucial data about Venus's hostile environment.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Venera_7",
+    "citationTitle": "Wikipedia: Venera 7"
+  },
+  {
+    "id": "4ae5c8ea-9f0f-447e-9786-8fbab530bbb6",
+    "text": "Which scientist discovered penicillin, the first widely used antibiotic?",
+    "options": [
+      "Louis Pasteur",
+      "Alexander Fleming",
+      "Joseph Lister",
+      "Robert Koch"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Alexander Fleming discovered penicillin in 1928 when he noticed mold had killed bacteria in his laboratory.",
+    "detailedExplanation": "Alexander Fleming made his famous discovery of penicillin in 1928 at St. Mary's Hospital in London. He noticed that a mold (later identified as Penicillium notatum) had contaminated one of his bacterial culture plates and had killed the surrounding bacteria. This accidental discovery led to the development of the first widely used antibiotic, which has saved millions of lives and revolutionized medicine by making it possible to treat previously deadly bacterial infections.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Alexander_Fleming",
+    "citationTitle": "Wikipedia: Alexander Fleming"
+  },
+  {
+    "id": "f285f3ac-e2bb-450a-bc18-1d19ea582df2",
+    "text": "Which scientist is credited with inventing the telephone?",
+    "options": [
+      "Thomas Edison",
+      "Nikola Tesla",
+      "Alexander Graham Bell",
+      "Benjamin Franklin"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Alexander Graham Bell is credited with inventing the first practical telephone and made the first successful telephone call in 1876.",
+    "detailedExplanation": "Alexander Graham Bell is widely credited with inventing the telephone, receiving the first patent for a practical telephone device on March 7, 1876. Three days later, he made the first successful telephone call to his assistant, saying the famous words 'Mr. Watson, come here, I want to see you.' While other inventors were working on similar devices, Bell's patent and successful demonstration established him as the inventor of the telephone, which revolutionized global communication.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Alexander_Graham_Bell",
+    "citationTitle": "Wikipedia: Alexander Graham Bell"
+  },
+  {
+    "id": "ea5ef90d-46a6-45c4-8497-94ab75fee90e",
+    "text": "Which scientist developed the first successful vaccine?",
+    "options": [
+      "Edward Jenner",
+      "Louis Pasteur",
+      "Jonas Salk",
+      "Alexander Fleming"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Edward Jenner developed the first successful vaccine in 1796, using cowpox to protect against smallpox.",
+    "detailedExplanation": "Edward Jenner developed the world's first successful vaccine in 1796 when he created the smallpox vaccine. He observed that milkmaids who contracted cowpox seemed immune to smallpox, and tested this by inoculating a young boy with cowpox and later exposing him to smallpox - the boy remained healthy. This groundbreaking work established the principle of vaccination (from the Latin 'vacca' meaning cow) and led to the eventual global eradication of smallpox in 1980, saving countless lives.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Edward_Jenner",
+    "citationTitle": "Wikipedia: Edward Jenner"
+  },
+  {
+    "id": "ea4ef67b-fdc5-4529-82a8-d1dcb7c0b609",
+    "text": "What do we call the process by which plants lose water through their leaves?",
+    "options": [
+      "Absorption",
+      "Transpiration",
+      "Photosynthesis",
+      "Pollination"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Transpiration is the process of water evaporation from plant leaves through tiny pores called stomata.",
+    "detailedExplanation": "Transpiration is the process by which plants lose water vapor through their leaves, primarily through tiny pores called stomata. This process serves several important functions: it helps cool the plant, creates the driving force for water uptake from roots, and facilitates the transport of nutrients throughout the plant. Transpiration is essentially the plant equivalent of sweating in animals, and it plays a crucial role in the water cycle by returning moisture to the atmosphere.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Transpiration",
+    "citationTitle": "Wikipedia: Transpiration"
+  },
+  {
+    "id": "89bb4817-1a8f-422f-8ab8-bb151192cefc",
+    "text": "What is the main function of a plant's root system?",
+    "options": [
+      "Photosynthesis",
+      "Reproduction",
+      "Absorbing water and nutrients",
+      "Producing flowers"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Roots primarily function to absorb water and nutrients from the soil and anchor the plant.",
+    "detailedExplanation": "The root system serves multiple vital functions for plants, with the primary role being the absorption of water and essential nutrients from the soil. Roots also anchor the plant securely in the ground, providing structural support against wind and gravity. Additionally, many roots serve as storage organs for carbohydrates and other nutrients, and some can even participate in vegetative reproduction. The root system often mirrors the above-ground portion of the plant in size and complexity, forming an extensive network that can extend far beyond the plant's canopy.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Root",
+    "citationTitle": "Wikipedia: Root"
+  },
+  {
+    "id": "eebf5e28-2ff4-451f-ba3e-5cda1c8aae97",
+    "text": "What are the tiny pores on plant leaves called that allow gas exchange?",
+    "options": [
+      "Chloroplasts",
+      "Stomata",
+      "Vacuoles",
+      "Mitochondria"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Stomata are small pores on leaves that open and close to control gas exchange and water loss.",
+    "detailedExplanation": "Stomata are microscopic pores found primarily on the undersides of leaves, though they can also occur on stems and other plant parts. Each stoma (singular of stomata) is surrounded by two specialized cells called guard cells that can change shape to open or close the pore. This opening and closing mechanism allows plants to control the exchange of gases - taking in carbon dioxide for photosynthesis and releasing oxygen - while also regulating water loss through transpiration. Plants can adjust their stomatal opening in response to environmental conditions like light, humidity, and carbon dioxide levels.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Stoma",
+    "citationTitle": "Wikipedia: Stoma"
+  }
+]

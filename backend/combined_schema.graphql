@@ -1,11 +1,142 @@
+# --- 00-base.graphql ---
 # Base schema with Query, Mutation, and Subscription roots
 
+type Query {
+  # User queries
+  getMyProfile: User @aws_cognito_user_pools
+  getUserProfile(userId: ID!): UserPublic
+  checkDisplayNameAvailable(displayName: String!): Boolean!
+  checkEmailHasGoogleAccount(email: String!): Boolean!
+
+  # Leaderboard queries
+  getLeaderboard(type: LeaderboardType!, limit: Int): Leaderboard
+  getMyRank(type: LeaderboardType!): Int @aws_cognito_user_pools
+
+  # Game state queries
+  getGameState: GameState
+
+  # Question queries (admin only)
+  listQuestions(limit: Int, nextToken: String): QuestionConnection @aws_cognito_user_pools
+
+  # Ably token for real-time
+  getAblyToken: AblyTokenResponse @aws_cognito_user_pools
+
+  # Chat queries
+  getChatMessages(channelId: ID!, limit: Int, nextToken: String): ChatMessageConnection @aws_cognito_user_pools
+  getMyConversations(limit: Int): [Conversation!]! @aws_cognito_user_pools
+
+  # Admin queries
+  getWebhookLogs(provider: String, limit: Int, nextToken: String): WebhookLogConnection! @aws_cognito_user_pools
+}
+
+type Mutation {
+  # User mutations
+  updateDisplayName(displayName: String!): User @aws_cognito_user_pools
+  ensureProfile(displayName: String!): User @aws_cognito_user_pools
+
+  # Subscription mutations
+  createCheckoutSession(input: CreateCheckoutInput!): CheckoutSession @aws_cognito_user_pools
+
+  # Tip jar mutation
+  createTipCheckout(provider: SubscriptionProvider!): CheckoutSession @aws_cognito_user_pools
+
+  # Admin mutations
+  createQuestion(input: CreateQuestionInput!): Question @aws_cognito_user_pools
+  seedQuestions(questions: [CreateQuestionInput!]!): Int @aws_cognito_user_pools
+
+  # Chat mutations (needed in base for @aws_subscribe to work)
+  sendChatMessage(channelId: ID!, content: String!): ChatMessage @aws_cognito_user_pools
+  startConversation(targetUserId: ID!): Conversation @aws_cognito_user_pools
+
+  # Admin mutations
+  adminUpdateUserTier(userId: ID!, tier: Int!): User @aws_cognito_user_pools
+  adminGiftSubscription(input: GiftSubscriptionInput!): User @aws_cognito_user_pools
+
+  # Gift notification mutations
+  markGiftNotificationSeen: Boolean @aws_cognito_user_pools
+}
+
+type Subscription {
+  # Chat subscriptions
+  onNewChatMessage(channelId: ID!): ChatMessage @aws_subscribe(mutations: ["sendChatMessage"]) @aws_cognito_user_pools
+}
 
 
+# --- Admin.graphql ---
+# Admin types and queries
+
+type WebhookLog {
+  eventId: ID!
+  provider: String!
+  eventType: String!
+  payload: String!
+  status: String!
+  errorMessage: String
+  createdAt: String!
+}
+
+type WebhookLogConnection {
+  items: [WebhookLog!]!
+  nextToken: String
+}
+
+# Query fields are defined in 00-base.graphql to avoid extend type issues with AppSync
+
+
+# --- Badge.graphql ---
+# Badge and Award types
+
+enum AwardRarity {
+  common
+  uncommon
+  rare
+  epic
+  legendary
+}
+
+type Badge {
+  id: ID!
+  name: String!
+  description: String!
+  icon: String!
+  groupId: String!
+  tier: Int!
+  rarity: AwardRarity!
+  skillPoints: Int!
+  earnedAt: String!
+}
+
+type BadgeGroup {
+  id: ID!
+  name: String!
+  description: String!
+  showHighestOnly: Boolean!
+  badges: [BadgeDefinition!]!
+}
+
+type BadgeDefinition {
+  id: ID!
+  name: String!
+  description: String!
+  icon: String!
+  groupId: String!
+  tier: Int!
+  rarity: AwardRarity!
+  skillPoints: Int!
+  requirement: Int!
+}
+
+# User's badge summary for display
+type UserBadgeSummary {
+  badges: [Badge!]!
+  totalSkillPoints: Int!
+  badgeCount: Int!
+}
+
+
+# --- Chat.graphql ---
 # Chat types
-
-
-
+# Note: Chat queries, mutations and subscriptions are in 00-base.graphql
 
 type ChatMessage {
   id: ID!
@@ -30,6 +161,8 @@ type Conversation {
   updatedAt: String!
 }
 
+
+# --- Game.graphql ---
 # Game state types
 
 type GameState {
@@ -43,8 +176,12 @@ type GameState {
 type AblyTokenResponse {
   token: String!
   expires: String!
+  duplicateSession: Boolean
+  duplicateIp: Boolean
 }
 
+
+# --- Leaderboard.graphql ---
 # Leaderboard types
 
 enum LeaderboardType {
@@ -69,6 +206,8 @@ type LeaderboardEntry {
   memberSince: String
 }
 
+
+# --- Question.graphql ---
 # Question types
 
 type Question {
@@ -95,6 +234,8 @@ type QuestionConnection {
   nextToken: String
 }
 
+
+# --- User.graphql ---
 # User types
 
 type User {
@@ -104,6 +245,10 @@ type User {
   displayName: String!
   createdAt: String!
   stats: UserStats!
+  subscription: UserSubscription!
+  badges: [Badge!]!
+  totalSkillPoints: Int!
+  tipUnlockedUntil: String
 }
 
 type UserPublic {
@@ -111,6 +256,8 @@ type UserPublic {
   username: String!
   displayName: String!
   stats: UserStats!
+  badges: [Badge!]!
+  totalSkillPoints: Int!
 }
 
 type UserStats {
@@ -123,38 +270,55 @@ type UserStats {
   longestStreak: Int!
 }
 
-
-type Query {
-  # User queries
-  getMyProfile: User @aws_cognito_user_pools
-  getUserProfile(userId: ID!): UserPublic
-  checkScreenNameAvailable(screenName: String!): Boolean!
-  # Leaderboard queries
-  getLeaderboard(type: LeaderboardType!, limit: Int): Leaderboard
-  getMyRank(type: LeaderboardType!): Int @aws_cognito_user_pools
-  # Game state queries
-  getGameState: GameState
-  # Question queries (admin only)
-  listQuestions(limit: Int, nextToken: String): QuestionConnection @aws_cognito_user_pools
-  # Ably token for real-time
-  getAblyToken: AblyTokenResponse @aws_cognito_user_pools
-  # Chat queries
-  getChatMessages(channelId: ID!, limit: Int, nextToken: String): ChatMessageConnection @aws_cognito_user_pools
-  getMyConversations(limit: Int): [Conversation!]! @aws_cognito_user_pools
+# Subscription types (payment tiers)
+type UserSubscription {
+  tier: Int!
+  status: SubscriptionStatus
+  provider: SubscriptionProvider
+  subscriptionId: String
+  customerId: String
+  startedAt: String
+  expiresAt: String
+  cancelledAt: String
+  # Gift subscription fields
+  giftedBy: String
+  giftedByName: String
+  giftedAt: String
+  giftExpiresAt: String
+  giftNotificationSeen: Boolean
 }
 
-type Mutation {
-  # User mutations
-  updateDisplayName(displayName: String!): User @aws_cognito_user_pools
-  # Admin mutations
-  createQuestion(input: CreateQuestionInput!): Question @aws_cognito_user_pools
-  seedQuestions(questions: [CreateQuestionInput!]!): Int @aws_cognito_user_pools
-  # Chat mutations
-  sendChatMessage(channelId: ID!, content: String!): ChatMessage @aws_cognito_user_pools
-  startConversation(targetUserId: ID!): Conversation @aws_cognito_user_pools
+enum SubscriptionStatus {
+  active
+  cancelled
+  past_due
+  trialing
 }
 
-type Subscription {
-  # Chat subscriptions
-  onNewChatMessage(channelId: ID!): ChatMessage @aws_subscribe(mutations: ["sendChatMessage"]) @aws_cognito_user_pools
+enum SubscriptionProvider {
+  stripe
+  paypal
 }
+
+# Checkout types
+type CheckoutSession {
+  checkoutUrl: String!
+  sessionId: String
+}
+
+input CreateCheckoutInput {
+  tier: Int!
+  provider: SubscriptionProvider!
+  successUrl: String!
+  cancelUrl: String!
+}
+
+# Gift subscription input
+input GiftSubscriptionInput {
+  recipientUserId: ID!
+  tier: Int!
+  durationDays: Int!
+  message: String
+}
+
+

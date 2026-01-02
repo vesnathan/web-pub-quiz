@@ -53,6 +53,7 @@ export function request(ctx: Context<Args>) {
 
 /**
  * Processes DynamoDB response and returns the leaderboard.
+ * Sorts entries by score descending and assigns rank numbers.
  *
  * @param ctx - AppSync context containing query result
  * @returns Leaderboard object with type, entries, and updatedAt
@@ -62,9 +63,47 @@ export function response(ctx: Context<Args>) {
     return util.error(ctx.error.message, ctx.error.type);
   }
 
+  const items = ctx.result.items || [];
+
+  // Sort by score descending using insertion sort (AppSync-compatible, only for...of allowed)
+  const sorted: typeof items = [];
+  for (const item of items) {
+    let insertIndex = sorted.length; // Default: insert at end
+    let checkIndex = 0;
+    for (const existing of sorted) {
+      if (item.score > existing.score) {
+        insertIndex = checkIndex;
+        break;
+      }
+      checkIndex = checkIndex + 1;
+    }
+    sorted.splice(insertIndex, 0, item);
+  }
+
+  // Assign ranks using for...of with manual counter
+  const entries: Array<{
+    rank: number;
+    userId: string;
+    displayName: string;
+    score: number;
+  }> = [];
+
+  let rank = 1;
+  for (const item of sorted) {
+    const sk = item.SK || "";
+    const userId = item.userId || sk.replace("USER#", "") || "";
+    entries.push({
+      rank: rank,
+      userId: userId,
+      displayName: item.displayName || "Unknown",
+      score: item.score || 0,
+    });
+    rank = rank + 1;
+  }
+
   return {
     type: ctx.arguments.type,
-    entries: ctx.result.items,
+    entries,
     updatedAt: util.time.nowISO8601(),
   };
 }

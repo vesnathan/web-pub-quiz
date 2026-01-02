@@ -324,6 +324,10 @@ Outputs:
     Description: ECR Repository URI
     Value: !Sub "${AWS::AccountId}.dkr.ecr.${AWS::Region}.amazonaws.com/${OrchestratorRepository}"
 
+  RepositoryArn:
+    Description: ECR Repository ARN
+    Value: !GetAtt OrchestratorRepository.Arn
+
   LogGroupName:
     Description: CloudWatch Log Group
     Value: !Ref OrchestratorLogGroup

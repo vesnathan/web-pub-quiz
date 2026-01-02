@@ -1,0 +1,342 @@
+[
+  {
+    "id": "fa30618f-4731-4776-ad1e-4bceffae27f0",
+    "text": "Which country has the smallest surface area of any UN member state?",
+    "options": [
+      "San Marino",
+      "Monaco",
+      "Nauru",
+      "Vatican City"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "Nauru is the smallest UN member state at 21 square kilometers.",
+    "detailedExplanation": "While Vatican City is the world's smallest sovereign state at 0.17 square miles, it is not a UN member state. Among actual UN member countries, Nauru holds the record as the smallest by land area at just 8.1 square miles (21 square kilometers). This Pacific island nation gained independence in 1968 and joined the UN in 1999, making it both one of the newest and smallest members of the organization.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Nauru",
+    "citationTitle": "Wikipedia: Nauru"
+  },
+  {
+    "id": "eb3022fd-92d5-4703-83a3-bc0519315089",
+    "text": "Which lake holds the record for being the world's deepest?",
+    "options": [
+      "Lake Superior",
+      "Caspian Sea",
+      "Lake Baikal",
+      "Lake Tanganyika"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "Lake Baikal reaches a maximum depth of 1,642 meters (5,387 feet).",
+    "detailedExplanation": "Lake Baikal in Siberia, Russia, is not only the world's deepest lake but also the oldest (25 million years) and contains about 20% of the world's unfrozen fresh water. Its maximum depth of 5,387 feet makes it deeper than Lake Tanganyika (4,823 feet), which holds second place. The lake is so deep that if it were completely drained, it would take all the world's rivers about a year to refill it.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Lake_Baikal",
+    "citationTitle": "Wikipedia: Lake Baikal"
+  },
+  {
+    "id": "a14f132f-bac4-4f6a-b3cd-1d7e95b228b0",
+    "text": "What is the shortest river in the world recognized by the Guinness Book of World Records?",
+    "options": [
+      "D River in Oregon, USA",
+      "Roe River in Montana, USA",
+      "Tamborasi River in Indonesia",
+      "Reprua River in Georgia"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "The Roe River in Montana is officially recognized as the world's shortest river at 201 feet.",
+    "detailedExplanation": "The Roe River flows between Giant Springs and the Missouri River near Great Falls, Montana. At just 201 feet (61 meters) long, it held the Guinness World Record for the shortest river, though this category was later retired due to disputes over the definition of a river versus a stream. The D River in Oregon previously held this record at 440 feet, but lost it when the Roe River was measured more precisely.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Roe_River",
+    "citationTitle": "Wikipedia: Roe River"
+  },
+  {
+    "id": "f1459698-60d9-4662-b956-698c87e87db6",
+    "text": "What is the world's smallest mountain range by area?",
+    "options": [
+      "Sutter Buttes",
+      "Arbuckle Mountains",
+      "Wichita Mountains",
+      "Ouachita Mountains"
+    ],
+    "correctIndex": 0,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "The Sutter Buttes in California cover only about 75 square miles.",
+    "detailedExplanation": "The Sutter Buttes, located in the Central Valley of California about 60 miles north of Sacramento, are often called the 'world's smallest mountain range.' These volcanic hills cover an area of approximately 75 square miles (200 square kilometers) and rise to a maximum elevation of 2,122 feet. They were formed by volcanic activity about 1.6 million years ago and stand as an isolated circular complex of peaks and ridges surrounded by flat agricultural land.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Sutter_Buttes",
+    "citationTitle": "Wikipedia: Sutter Buttes"
+  },
+  {
+    "id": "282026df-8e1e-41c8-96c7-d24c1d30d2a0",
+    "text": "Which waterfall has the greatest average flow rate (volume of water) in the world?",
+    "options": [
+      "Niagara Falls",
+      "Boyoma Falls",
+      "Khone Phapheng Falls",
+      "Iguazu Falls"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "Boyoma Falls in the Democratic Republic of Congo has the highest average flow rate.",
+    "detailedExplanation": "Boyoma Falls (formerly Stanley Falls) on the Lualaba River in the Democratic Republic of Congo has the greatest average flow rate of any waterfall system in the world, with approximately 600,000 cubic feet per second. While Niagara Falls is more famous and has impressive flow rates of around 85,000 cubic feet per second, it cannot match Boyoma's volume. The falls consist of seven cataracts spread over 60 miles along the river, which eventually becomes the Congo River.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Boyoma_Falls",
+    "citationTitle": "Wikipedia: Boyoma Falls"
+  },
+  {
+    "id": "eb773281-97c7-4b51-99b9-0cee0c3b8979",
+    "text": "What is the world's largest island that is not considered a continent?",
+    "options": [
+      "Madagascar",
+      "Baffin Island",
+      "Greenland",
+      "New Guinea"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "Greenland is the world's largest island at 2.17 million square kilometers.",
+    "detailedExplanation": "Greenland covers approximately 836,330 square miles (2.17 million square kilometers), making it by far the world's largest island. It's more than three times larger than the second-largest island, New Guinea. Despite its massive size, Greenland is classified as an island rather than a continent due to its relatively small population, political status as part of Denmark, and geological structure. About 80% of its surface is covered by ice, and it has a population of only about 56,000 people.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Greenland",
+    "citationTitle": "Wikipedia: Greenland"
+  },
+  {
+    "id": "2976ad30-f50b-4f46-93b0-7407bcf320a8",
+    "text": "Which is the smallest sovereign country in the world by land area?",
+    "options": [
+      "Monaco",
+      "Vatican City",
+      "Nauru",
+      "San Marino"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "Vatican City is the smallest sovereign country at 0.17 square miles (0.44 km²).",
+    "detailedExplanation": "Vatican City, officially Vatican City State, covers just 0.17 square miles (0.44 square kilometers), making it roughly one-eighth the size of New York's Central Park. While Monaco is often thought to be the smallest country, it's actually about five times larger than Vatican City. The Vatican's small size is due to its unique status as both a spiritual center of the Catholic Church and an independent city-state established by the Lateran Treaty of 1929.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Vatican_City",
+    "citationTitle": "Wikipedia: Vatican City"
+  },
+  {
+    "id": "1655ae3f-769a-4187-b905-1dc9d5bffd13",
+    "text": "What is the world's largest lake by surface area?",
+    "options": [
+      "Lake Superior",
+      "Lake Victoria",
+      "Caspian Sea",
+      "Lake Huron"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "The Caspian Sea is the world's largest lake by surface area at 143,244 square miles.",
+    "detailedExplanation": "Despite its name, the Caspian Sea is actually a lake - the world's largest by surface area at 143,244 square miles (371,000 km²). It's bordered by five countries: Russia, Kazakhstan, Turkmenistan, Iran, and Azerbaijan. The confusion over its classification as a sea rather than a lake stems from its size and salinity. It contains about 40% of the world's lake water and is roughly the size of Japan or Germany.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Caspian_Sea",
+    "citationTitle": "Wikipedia: Caspian Sea"
+  },
+  {
+    "id": "6ae4231b-ad94-4e4a-9b6b-006a7271d79a",
+    "text": "Which desert holds the record as the world's largest hot desert?",
+    "options": [
+      "Gobi Desert",
+      "Kalahari Desert",
+      "Sahara Desert",
+      "Arabian Desert"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "The Sahara Desert is the world's largest hot desert, covering approximately 3.5 million square miles.",
+    "detailedExplanation": "The Sahara Desert spans approximately 3.5 million square miles (9 million km²) across North Africa, making it roughly the size of the entire United States. It's the world's largest hot desert, though Antarctica and the Arctic are larger cold deserts. The Sahara covers parts of eleven countries and continues to expand southward into the Sahel region. Its name comes from the Arabic word 'sahra,' meaning desert, so 'Sahara Desert' literally means 'desert desert.'",
+    "citationUrl": "https://en.wikipedia.org/wiki/Sahara",
+    "citationTitle": "Wikipedia: Sahara"
+  },
+  {
+    "id": "41e2da26-378e-4819-84b9-e53df2530b70",
+    "text": "What is the world's smallest ocean?",
+    "options": [
+      "Arctic Ocean",
+      "Indian Ocean",
+      "Southern Ocean",
+      "Atlantic Ocean"
+    ],
+    "correctIndex": 0,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "The Arctic Ocean is the smallest ocean, covering about 5.4 million square miles.",
+    "detailedExplanation": "The Arctic Ocean covers approximately 5.4 million square miles (14 million km²), making it the smallest of the world's five oceans. It's roughly 1.5 times the size of the United States and is largely covered by sea ice throughout the year. The Arctic Ocean is also the shallowest ocean, with an average depth of about 3,953 feet (1,205 meters). It's surrounded by the landmasses of Eurasia, North America, Greenland, and several islands, and plays a crucial role in global climate regulation.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Arctic_Ocean",
+    "citationTitle": "Wikipedia: Arctic Ocean"
+  },
+  {
+    "id": "478d583e-7a7a-44ff-96e2-013a28d7f6b1",
+    "text": "Which country contains the world's highest waterfall?",
+    "options": [
+      "Norway",
+      "Venezuela",
+      "Canada",
+      "Brazil"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "Angel Falls in Venezuela is the world's highest waterfall at 3,212 feet tall.",
+    "detailedExplanation": "Angel Falls (Salto Ángel) in Venezuela's Canaima National Park holds the record as the world's highest uninterrupted waterfall at 3,212 feet (979 meters) tall, with an uninterrupted drop of 2,648 feet (807 meters). Named after American aviator Jimmy Angel who was the first to fly over the falls in 1933, it's located on the Kerepakupai Merú river and flows from the Auyán-tepui mountain. The falls are so high that much of the water turns to mist before reaching the bottom during the dry season.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Angel_Falls",
+    "citationTitle": "Wikipedia: Angel Falls"
+  },
+  {
+    "id": "14417152-1685-43f9-a043-aa5823b22de5",
+    "text": "What is the world's smallest capital city by population?",
+    "options": [
+      "Vaduz, Liechtenstein",
+      "Vatican City",
+      "Ngerulmud, Palau",
+      "San Marino City, San Marino"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "Ngerulmud, Palau is the world's smallest capital by population with fewer than 400 residents.",
+    "detailedExplanation": "Ngerulmud became the capital of Palau in 2006, replacing Koror, and has a population of fewer than 400 people, making it the world's smallest capital city by population. The city was purpose-built to serve as the new capital and houses the country's government buildings. Despite its tiny size, Ngerulmud serves as the political center of Palau, a Pacific island nation of about 18,000 people. The city's small population reflects Palau's overall small size and the fact that most citizens still live in the former capital, Koror.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Ngerulmud",
+    "citationTitle": "Wikipedia: Ngerulmud"
+  },
+  {
+    "id": "b038b6d4-8593-4adf-9f6a-a8af8da32b52",
+    "text": "What is the smallest sovereign nation by land area?",
+    "options": [
+      "Monaco",
+      "Vatican City",
+      "Nauru",
+      "San Marino"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "Vatican City is the smallest sovereign nation at just 0.17 square miles (0.44 square kilometers).",
+    "detailedExplanation": "Vatican City, officially Vatican City State, is an enclave within Rome, Italy. At just 121 acres or 0.17 square miles, it's roughly one-eighth the size of New York's Central Park. Monaco is the second smallest at 0.78 square miles, followed by Nauru at 8.1 square miles. The Vatican's small size reflects its role as the spiritual and administrative headquarters of the Catholic Church rather than a traditional nation-state.",
+    "citationUrl": "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area",
+    "citationTitle": "Wikipedia: List of countries and dependencies by area"
+  },
+  {
+    "id": "06cfdfc9-80dc-4551-b72a-e287bb0bbfea",
+    "text": "Which desert holds the record for the largest hot desert in the world?",
+    "options": [
+      "Gobi Desert",
+      "Kalahari Desert",
+      "Sahara Desert",
+      "Arabian Desert"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "The Sahara Desert is the largest hot desert, covering approximately 9 million square kilometers.",
+    "detailedExplanation": "The Sahara Desert spans across North Africa, covering parts of 11 countries including Algeria, Chad, Egypt, Libya, Mali, Mauritania, Morocco, Niger, Sudan, Tunisia, and Western Sahara. At roughly 9 million square kilometers (3.5 million square miles), it's about the size of the United States. While Antarctica is technically the largest desert overall, the Sahara holds the record for hot deserts. The Arabian Desert is the second-largest hot desert at about 2.3 million square kilometers.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Sahara",
+    "citationTitle": "Wikipedia: Sahara"
+  },
+  {
+    "id": "d06ada89-01b7-409b-a559-9b67576587a2",
+    "text": "Which country contains the world's highest capital city?",
+    "options": [
+      "Peru",
+      "Ecuador",
+      "Nepal",
+      "Bolivia"
+    ],
+    "correctIndex": 3,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "La Paz, Bolivia's administrative capital, sits at 3,500-4,150 meters above sea level.",
+    "detailedExplanation": "La Paz, Bolivia's seat of government and administrative capital, is located at an elevation between 3,500 and 4,150 meters (11,480-13,615 feet) above sea level in the Altiplano plateau. While Sucre is Bolivia's constitutional capital, La Paz functions as the de facto capital and holds the altitude record. The city's extreme elevation causes notable effects like decreased oxygen levels and unique weather patterns. Quito, Ecuador comes second at about 2,850 meters above sea level.",
+    "citationUrl": "https://en.wikipedia.org/wiki/List_of_capital_cities_by_altitude",
+    "citationTitle": "Wikipedia: List of capital cities by altitude"
+  },
+  {
+    "id": "31de781d-0f06-4ec4-81ee-4b84d012e0a7",
+    "text": "Which lake holds the record for being the world's largest lake by volume of water?",
+    "options": [
+      "Lake Superior",
+      "Caspian Sea",
+      "Lake Baikal",
+      "Lake Victoria"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "Lake Baikal contains about 20% of the world's unfrozen fresh water by volume.",
+    "detailedExplanation": "Lake Baikal in Siberia, Russia, contains approximately 23,615 cubic kilometers of water, representing about 20% of all unfrozen fresh water on Earth. Despite the Caspian Sea being larger by surface area, Baikal's extreme depth (maximum 1,642 meters) gives it the largest volume. The lake is also the world's oldest (25-30 million years) and deepest freshwater lake. Its volume is greater than all of North America's Great Lakes combined, and it could supply the entire world's population with fresh water for about 40 years.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Lake_Baikal",
+    "citationTitle": "Wikipedia: Lake Baikal"
+  },
+  {
+    "id": "28228df6-d079-431e-bfeb-cba81607f0e9",
+    "text": "What is the world's longest mountain range?",
+    "options": [
+      "Himalayas",
+      "Rocky Mountains",
+      "Andes Mountains",
+      "Mid-Atlantic Ridge"
+    ],
+    "correctIndex": 3,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "The Mid-Atlantic Ridge extends for about 65,000 kilometers along the Atlantic Ocean floor.",
+    "detailedExplanation": "The Mid-Atlantic Ridge is the world's longest mountain range, stretching approximately 65,000 kilometers (40,000 miles) along the floor of the Atlantic Ocean from the Arctic to the southern tip of Africa. This underwater mountain range is part of the global mid-ocean ridge system and marks the boundary between tectonic plates. While mostly submerged, it surfaces in places like Iceland and the Azores. The Andes, the longest continental mountain range, extends about 7,000 kilometers along South America's western coast.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Mid-Atlantic_Ridge",
+    "citationTitle": "Wikipedia: Mid-Atlantic Ridge"
+  },
+  {
+    "id": "9af46c0c-6d62-45a3-9e12-a6599a3ea6f2",
+    "text": "Which country has the smallest land area in the world?",
+    "options": [
+      "Monaco",
+      "Nauru",
+      "Vatican City",
+      "San Marino"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "Vatican City is the smallest sovereign nation by land area at 0.17 square miles (0.44 km²).",
+    "detailedExplanation": "Vatican City, officially Vatican City State, is an enclave within Rome, Italy, and is the smallest internationally recognized sovereign state in the world by both area and population. With an area of approximately 121 acres (0.17 square miles or 0.44 square kilometers), it is roughly one-eighth the size of New York's Central Park. The Vatican serves as the spiritual and administrative headquarters of the Roman Catholic Church and is home to iconic landmarks including St. Peter's Basilica and the Sistine Chapel.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Vatican_City",
+    "citationTitle": "Wikipedia: Vatican City"
+  },
+  {
+    "id": "bac93019-aaa8-4b67-a6be-c665a8477dc2",
+    "text": "What is the name of the deepest known point in Earth's oceans?",
+    "options": [
+      "Puerto Rico Trench",
+      "Challenger Deep",
+      "Tonga Trench",
+      "Japan Trench"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "Challenger Deep in the Mariana Trench is the deepest known point, reaching approximately 36,200 feet (11,034 meters) below sea level.",
+    "detailedExplanation": "Challenger Deep is located in the Mariana Trench in the western Pacific Ocean, approximately 200 miles southwest of Guam. Named after the HMS Challenger II, which first surveyed the area in 1951, this oceanic trench represents the deepest known point on Earth's surface. The immense depth creates crushing pressures over 1,000 times greater than at sea level, yet remarkably, unique life forms have been discovered thriving in this extreme environment. Only a handful of crewed expeditions have successfully reached the bottom, including James Cameron's solo dive in 2012.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Challenger_Deep",
+    "citationTitle": "Wikipedia: Challenger Deep"
+  },
+  {
+    "id": "29af4726-68a6-498c-b36d-8c660884cf24",
+    "text": "Which desert holds the record as the largest hot desert in the world by area?",
+    "options": [
+      "Arabian Desert",
+      "Kalahari Desert",
+      "Sahara Desert",
+      "Great Victoria Desert"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "The Sahara Desert covers approximately 3.6 million square miles, making it the largest hot desert globally.",
+    "detailedExplanation": "The Sahara Desert spans across North Africa, covering approximately 3.6 million square miles (9.2 million square kilometers), roughly the size of the United States or China. While Antarctica is technically the world's largest desert, the Sahara holds the distinction of being the largest hot desert. It stretches across multiple countries including Morocco, Algeria, Tunisia, Libya, Egypt, Sudan, Chad, Niger, Mali, and Mauritania. The desert's landscape varies dramatically from sand dunes and rocky plateaus to oases and salt flats, and despite its harsh conditions, it supports various adapted wildlife and human populations.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Sahara",
+    "citationTitle": "Wikipedia: Sahara"
+  }
+]

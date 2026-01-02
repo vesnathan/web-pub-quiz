@@ -14,13 +14,29 @@
     "build-gql": "yarn workspace quiz-frontend build-gql",
     "lint": "yarn workspace quiz-frontend lint",
     "tsc": "yarn workspace quiz-frontend tsc --noEmit",
-    "test": "yarn workspaces foreach --all run test",
+    "test": "vitest",
+    "test:run": "vitest run",
+    "test:coverage": "vitest run --coverage",
+    "test:e2e": "playwright test",
+    "test:e2e:ui": "playwright test --ui",
     "deploy": "yarn workspace @quiz/deploy deploy",
     "deploy:dev": "yarn workspace @quiz/deploy deploy:dev",
     "deploy:prod": "yarn workspace @quiz/deploy deploy:prod",
-    "seed": "yarn workspace @quiz/deploy seed"
+    "seed": "yarn workspace @quiz/deploy seed",
+    "generate-questions": "npx tsx backend/scripts/generate-bulk-questions.ts",
+    "question-status": "npx tsx backend/scripts/question-status.ts"
   },
   "devDependencies": {
-    "typescript": "^5.5.4"
+    "@playwright/test": "^1.57.0",
+    "@testing-library/dom": "^10.4.1",
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.1",
+    "@vitejs/plugin-react": "^5.1.2",
+    "@vitest/coverage-v8": "^4.0.16",
+    "jsdom": "^27.4.0",
+    "knip": "^5.78.0",
+    "turbo": "^2.7.2",
+    "typescript": "^5.5.4",
+    "vitest": "^4.0.16"
   }
 }

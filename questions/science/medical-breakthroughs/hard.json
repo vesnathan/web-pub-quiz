@@ -1,0 +1,342 @@
+[
+  {
+    "id": "0d318bd1-fab4-435d-a1ce-246f155b99e3",
+    "text": "Which pioneering surgeon performed the first successful human heart transplant in 1967?",
+    "options": [
+      "Norman Shumway",
+      "Christiaan Barnard",
+      "Richard Lower",
+      "Adrian Kantrowitz"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Christiaan Barnard performed the first human heart transplant on December 3, 1967, in Cape Town, South Africa.",
+    "detailedExplanation": "South African cardiac surgeon Christiaan Barnard made medical history on December 3, 1967, when he performed the first human-to-human heart transplant at Groote Schuur Hospital in Cape Town. The patient, Louis Washkansky, received the heart of a 25-year-old woman who had died in a car accident. While Washkansky survived the surgery, he died 18 days later from pneumonia due to immunosuppressive drugs weakening his immune system.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Christiaan_Barnard",
+    "citationTitle": "Wikipedia: Christiaan Barnard"
+  },
+  {
+    "id": "ddc9b7a5-0f6b-4240-8a3e-edc750b7d607",
+    "text": "The discovery of insulin in 1922 earned which researchers the Nobel Prize in Physiology or Medicine in 1923?",
+    "options": [
+      "Frederick Banting and Charles Best",
+      "Frederick Banting and John Macleod",
+      "Charles Best and John Macleod",
+      "Frederick Banting, Charles Best, and John Macleod"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Frederick Banting and John Macleod shared the 1923 Nobel Prize for the discovery of insulin.",
+    "detailedExplanation": "The 1923 Nobel Prize in Physiology or Medicine was awarded to Frederick Banting and John Macleod for their discovery of insulin. Notably, Charles Best, who was Banting's graduate student and crucial collaborator, was not included in the Nobel Prize despite his significant contributions. Banting was so upset by Best's exclusion that he shared half of his prize money with him. The discovery revolutionized diabetes treatment, transforming it from a fatal diagnosis to a manageable condition.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Discovery_of_insulin",
+    "citationTitle": "Wikipedia: Discovery of insulin"
+  },
+  {
+    "id": "35f4ad88-c36b-4ac5-8430-a3adc57c6752",
+    "text": "What was the name of the first antibiotic drug mass-produced and widely used during World War II?",
+    "options": [
+      "Streptomycin",
+      "Penicillin",
+      "Chloramphenicol",
+      "Tetracycline"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Penicillin was the first antibiotic to be mass-produced and widely used, particularly during World War II.",
+    "detailedExplanation": "Although Alexander Fleming discovered penicillin in 1928, it wasn't until the early 1940s that Howard Florey and Ernst Boris Chain developed methods for mass production. The drug was first mass-produced during World War II and dramatically reduced deaths from bacterial infections among wounded soldiers. The widespread use of penicillin marked the beginning of the antibiotic era and earned Fleming, Florey, and Chain the 1945 Nobel Prize in Physiology or Medicine.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Penicillin",
+    "citationTitle": "Wikipedia: Penicillin"
+  },
+  {
+    "id": "eacaac76-48f7-41a5-8d17-806d0be42f9e",
+    "text": "In which year was the first successful in vitro fertilization (IVF) baby, Louise Brown, born?",
+    "options": [
+      "1976",
+      "1978",
+      "1980",
+      "1982"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Louise Brown, the world's first IVF baby, was born on July 25, 1978.",
+    "detailedExplanation": "Louise Joy Brown was born on July 25, 1978, at Oldham General Hospital in England, making her the world's first baby conceived through in vitro fertilization. Her birth was the result of groundbreaking work by physiologist Robert Edwards and gynecologist Patrick Steptoe. The achievement was initially controversial but revolutionized reproductive medicine. Edwards later received the 2010 Nobel Prize in Physiology or Medicine for developing IVF treatment, which has since helped millions of couples worldwide conceive children.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Louise_Brown",
+    "citationTitle": "Wikipedia: Louise Brown"
+  },
+  {
+    "id": "74210e69-f75d-4276-a004-bfa627c94c16",
+    "text": "Which imaging technique was developed by Godfrey Hounsfield and Allan Cormack, earning them the 1979 Nobel Prize?",
+    "options": [
+      "Magnetic Resonance Imaging (MRI)",
+      "Computed Tomography (CT)",
+      "Positron Emission Tomography (PET)",
+      "Ultrasound"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Godfrey Hounsfield and Allan Cormack developed computed tomography (CT) scanning technology.",
+    "detailedExplanation": "Godfrey Hounsfield, a British electrical engineer, and Allan Cormack, a South African-American physicist, independently developed the mathematical and technical foundations for computed tomography (CT) scanning in the early 1970s. The first commercial CT scanner was installed in 1972. This revolutionary imaging technique allows doctors to see detailed cross-sectional images of the body's internal structures, dramatically improving diagnostic capabilities. Their work earned them the 1979 Nobel Prize in Physiology or Medicine.",
+    "citationUrl": "https://en.wikipedia.org/wiki/CT_scan",
+    "citationTitle": "Wikipedia: CT scan"
+  },
+  {
+    "id": "eabfc14a-b317-4c11-be7c-77ff863ccfdd",
+    "text": "The first successful gene therapy treatment was approved by the FDA in 1990 for which condition?",
+    "options": [
+      "Severe Combined Immunodeficiency (SCID)",
+      "Cystic Fibrosis",
+      "Adenosine Deaminase Deficiency",
+      "Hemophilia B"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "The first FDA-approved gene therapy was for Adenosine Deaminase Deficiency (ADA-SCID) in 1990.",
+    "detailedExplanation": "On September 14, 1990, the first approved gene therapy treatment was performed on 4-year-old Ashanti DeSilva, who suffered from Adenosine Deaminase Deficiency (ADA-SCID), a rare genetic disorder that severely compromises the immune system. The treatment was conducted by a team led by Dr. W. French Anderson at the National Institutes of Health. White blood cells were removed from the patient, genetically modified to produce the missing enzyme, and then reinfused. This landmark procedure marked the beginning of the gene therapy era in medicine.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Gene_therapy",
+    "citationTitle": "Wikipedia: Gene therapy"
+  },
+  {
+    "id": "a2031873-7e7e-4a84-a4de-3d8db7afcf71",
+    "text": "Which researchers developed the PCR (Polymerase Chain Reaction) technique that revolutionized molecular biology and forensic science?",
+    "options": [
+      "Kary Mullis",
+      "Francis Crick and James Watson",
+      "Frederick Sanger",
+      "Rosalind Franklin"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Kary Mullis developed the PCR technique in 1983, earning him the 1993 Nobel Prize in Chemistry.",
+    "detailedExplanation": "Kary Mullis developed the Polymerase Chain Reaction (PCR) technique in 1983 while working at Cetus Corporation. PCR allows scientists to make millions of copies of a specific DNA sequence from a tiny sample, revolutionizing fields including medical diagnostics, forensic science, evolutionary biology, and genetic research. The technique became essential for DNA fingerprinting, genetic testing, and later enabled rapid testing for diseases like COVID-19. Mullis was awarded the 1993 Nobel Prize in Chemistry for this groundbreaking invention.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Polymerase_chain_reaction",
+    "citationTitle": "Wikipedia: Polymerase chain reaction"
+  },
+  {
+    "id": "ec085f3c-fe2b-4961-a583-ae7be3f362f1",
+    "text": "The first successful use of anesthesia in surgery was demonstrated in 1846 using which substance?",
+    "options": [
+      "Chloroform",
+      "Nitrous oxide",
+      "Diethyl ether",
+      "Cocaine"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "William Morton first successfully demonstrated diethyl ether as a surgical anesthetic on October 16, 1846.",
+    "detailedExplanation": "On October 16, 1846, dentist William T.G. Morton successfully demonstrated the use of diethyl ether as a surgical anesthetic at Massachusetts General Hospital in Boston. The patient, Gilbert Abbott, underwent the removal of a tumor from his neck while unconscious from ether inhalation. After the surgery, surgeon John Collins Warren famously declared, 'Gentlemen, this is no humbug.' This date is now celebrated as 'Ether Day' and marked the beginning of modern surgical anesthesia, revolutionizing surgery by eliminating the excruciating pain that had previously limited surgical procedures.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Ether_Day",
+    "citationTitle": "Wikipedia: Ether Day"
+  },
+  {
+    "id": "569084cb-20b7-4de5-b668-3a97fbd187e2",
+    "text": "Which physician performed the first successful human heart transplant in 1967, revolutionizing cardiac surgery?",
+    "options": [
+      "Michael DeBakey",
+      "Christiaan Barnard",
+      "Norman Shumway",
+      "Richard Lower"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Christiaan Barnard performed the first successful human heart transplant on December 3, 1967, in Cape Town, South Africa.",
+    "detailedExplanation": "South African cardiac surgeon Christiaan Barnard made medical history on December 3, 1967, when he performed the world's first successful human-to-human heart transplant at Groote Schuur Hospital in Cape Town. The patient, Louis Washkansky, received the heart from a 25-year-old woman who had died in a car accident. While Washkansky survived the surgery, he died 18 days later from pneumonia, but the operation proved that heart transplantation was technically feasible and paved the way for modern cardiac transplant programs.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Christiaan_Barnard",
+    "citationTitle": "Wikipedia: Christiaan Barnard"
+  },
+  {
+    "id": "c56eccc5-443e-4c81-af31-5527fb7bbd29",
+    "text": "The discovery of which antibiotic by Alexander Fleming in 1928 is considered one of the most important medical breakthroughs of the 20th century?",
+    "options": [
+      "Streptomycin",
+      "Tetracycline",
+      "Penicillin",
+      "Chloramphenicol"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Alexander Fleming discovered penicillin in 1928, which became the world's first widely used antibiotic and saved millions of lives.",
+    "detailedExplanation": "Alexander Fleming's accidental discovery of penicillin in September 1928 at St. Mary's Hospital in London fundamentally transformed medicine. Fleming noticed that a mold contaminating one of his bacterial culture plates had killed the surrounding bacteria. He identified the mold as belonging to the genus Penicillium and found that it produced a substance with antibacterial properties. Though Fleming published his findings in 1929, it wasn't until Howard Florey and Ernst Boris Chain developed methods for mass production during World War II that penicillin became widely available, ushering in the antibiotic era and saving countless lives from bacterial infections.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Penicillin",
+    "citationTitle": "Wikipedia: Penicillin"
+  },
+  {
+    "id": "5f2765fb-ef42-4c94-88d4-3a1fdb2c8638",
+    "text": "In 1953, James Watson and Francis Crick discovered the double helix structure of DNA. Which X-ray crystallographer's work was crucial to their discovery but often overlooked?",
+    "options": [
+      "Dorothy Hodgkin",
+      "Rosalind Franklin",
+      "Kathleen Lonsdale",
+      "Isabella Karle"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Rosalind Franklin's X-ray crystallography work, particularly 'Photo 51,' provided crucial evidence for the double helix structure of DNA.",
+    "detailedExplanation": "Rosalind Franklin's meticulous X-ray crystallography work at King's College London was instrumental in determining DNA's structure. Her famous 'Photo 51,' taken in May 1952, clearly showed the helical structure of DNA and provided crucial measurements. Franklin's data, including the spacing between base pairs and the location of phosphate groups, was shared with Watson and Crick through her colleague Maurice Wilkins, often without her direct knowledge or consent. While Watson, Crick, and Wilkins received the Nobel Prize in 1962, Franklin had died of ovarian cancer in 1958 at age 37, making her ineligible for the prize, though her contributions are now widely recognized.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Rosalind_Franklin",
+    "citationTitle": "Wikipedia: Rosalind Franklin"
+  },
+  {
+    "id": "6c042f94-65ea-49d4-b064-8690b937a01c",
+    "text": "The first successful in vitro fertilization (IVF) birth occurred in 1978. What was the name of the world's first 'test tube baby'?",
+    "options": [
+      "Sarah Johnson",
+      "Louise Brown",
+      "Mary Williams",
+      "Jennifer Davis"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Louise Brown was born on July 25, 1978, becoming the world's first baby conceived through in vitro fertilization.",
+    "detailedExplanation": "Louise Joy Brown was born on July 25, 1978, at Oldham General Hospital in England, weighing 5 pounds 12 ounces. She was conceived through the groundbreaking work of physiologist Robert Edwards and gynecologist Patrick Steptoe, who developed the IVF technique after years of research. Her parents, Lesley and John Brown, had been trying to conceive for nine years due to blocked fallopian tubes. The success of Louise's birth opened new possibilities for treating infertility and led to Edwards receiving the Nobel Prize in Physiology or Medicine in 2010. Today, millions of people worldwide have been born through IVF and related assisted reproductive technologies.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Louise_Brown",
+    "citationTitle": "Wikipedia: Louise Brown"
+  },
+  {
+    "id": "aec047a6-4b22-47cf-8d61-768f3fb6b6e2",
+    "text": "Which imaging technique, developed in the 1970s by Godfrey Hounsfield and Allan Cormack, revolutionized medical diagnostics and earned them the Nobel Prize?",
+    "options": [
+      "Magnetic Resonance Imaging (MRI)",
+      "Computed Tomography (CT)",
+      "Positron Emission Tomography (PET)",
+      "Ultrasound"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Godfrey Hounsfield and Allan Cormack developed computed tomography (CT) scanning, earning the 1979 Nobel Prize in Physiology or Medicine.",
+    "detailedExplanation": "Computed tomography, commonly known as CT or CAT scanning, was independently developed by British engineer Godfrey Hounsfield at EMI and American physicist Allan Cormack at Tufts University in the early 1970s. The first clinical CT scanner was installed at Atkinson Morley Hospital in London in 1971. This revolutionary imaging technique uses X-rays taken from multiple angles and computer processing to create detailed cross-sectional images of internal body structures. CT scanning transformed medical diagnosis by allowing physicians to see inside the body without surgery, dramatically improving the detection and treatment of tumors, injuries, and diseases. Both inventors shared the 1979 Nobel Prize in Physiology or Medicine for this breakthrough.",
+    "citationUrl": "https://en.wikipedia.org/wiki/CT_scan",
+    "citationTitle": "Wikipedia: CT scan"
+  },
+  {
+    "id": "78588013-fad0-4fa8-bc03-22dd46a4fa9e",
+    "text": "The first gene therapy trial approved by the FDA in 1990 treated which rare genetic disorder?",
+    "options": [
+      "Severe Combined Immunodeficiency (SCID)",
+      "Adenosine Deaminase Deficiency (ADA-SCID)",
+      "Cystic Fibrosis",
+      "Huntington's Disease"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "The first FDA-approved gene therapy trial in 1990 treated a 4-year-old girl with Adenosine Deaminase Deficiency, a form of severe combined immunodeficiency.",
+    "detailedExplanation": "On September 14, 1990, four-year-old Ashanti DeSilva became the first person to receive federally approved gene therapy in the United States. She suffered from ADA-SCID (Adenosine Deaminase Deficiency - Severe Combined Immunodeficiency), a rare genetic disorder that left her with virtually no immune system. The treatment, conducted by researchers W. French Anderson, Michael Blaese, and Kenneth Culver at the National Institutes of Health, involved extracting her white blood cells, inserting functional copies of the ADA gene using a modified virus, and reinfusing the cells back into her body. While not a complete cure, the treatment was successful enough to allow Ashanti to lead a relatively normal life, marking the beginning of the gene therapy era.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Gene_therapy",
+    "citationTitle": "Wikipedia: Gene therapy"
+  },
+  {
+    "id": "b29b2b59-958e-4f4c-b62b-40663f99eea8",
+    "text": "Which neurosurgeon pioneered the lobotomy procedure in the 1930s, initially considered a breakthrough but later deemed unethical?",
+    "options": [
+      "Walter Freeman",
+      "António Egas Moniz",
+      "Harvey Cushing",
+      "Wilder Penfield"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Portuguese neurologist António Egas Moniz developed the lobotomy procedure in 1935, for which he controversially won the Nobel Prize in 1949.",
+    "detailedExplanation": "António Egas Moniz, a Portuguese neurologist, developed the prefrontal lobotomy procedure in 1935 as a treatment for various mental illnesses. The procedure involved cutting connections between the prefrontal cortex and other parts of the brain. Initially hailed as a breakthrough for treating severe psychiatric conditions like schizophrenia and depression, Moniz was awarded the Nobel Prize in Physiology or Medicine in 1949. However, the procedure often resulted in severe personality changes, reduced cognitive function, and other serious side effects. American neurologist Walter Freeman later popularized and modified the technique, performing thousands of procedures. By the 1970s, lobotomies were largely abandoned due to their devastating effects and the development of psychiatric medications, making this one of medicine's most controversial 'breakthroughs.'",
+    "citationUrl": "https://en.wikipedia.org/wiki/Ant%C3%B3nio_Egas_Moniz",
+    "citationTitle": "Wikipedia: António Egas Moniz"
+  },
+  {
+    "id": "cc151852-c1ed-46ac-9564-ff8dbef1292a",
+    "text": "The discovery of insulin as a treatment for diabetes in 1922 earned the Nobel Prize. Which researcher famously sold his patent rights for just $1?",
+    "options": [
+      "Charles Best",
+      "James Collip",
+      "Frederick Banting",
+      "John Macleod"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Frederick Banting, along with his colleagues, sold the insulin patent to the University of Toronto for $1 to ensure widespread availability.",
+    "detailedExplanation": "Frederick Banting, along with Charles Best, James Collip, and John Macleod, discovered and developed insulin as a treatment for diabetes at the University of Toronto in 1921-1922. Recognizing the life-saving potential of their discovery, the team made the remarkable decision to sell the patent rights to the University of Toronto for just $1 on January 23, 1923. Banting famously stated that insulin 'belongs to the world,' not to him. This altruistic act ensured that insulin could be manufactured and distributed widely without restrictive patent limitations. Banting and Macleod were awarded the Nobel Prize in Physiology or Medicine in 1923, with Banting sharing his prize money with Best, and Macleod sharing his with Collip. The discovery transformed diabetes from a fatal diagnosis to a manageable chronic condition.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Frederick_Banting",
+    "citationTitle": "Wikipedia: Frederick Banting"
+  },
+  {
+    "id": "c03846d6-34ff-4403-a53f-5afce65b746b",
+    "text": "Which Nobel Prize-winning scientist discovered the first antibiotic by accidentally contaminating a bacterial culture with mold in 1928?",
+    "options": [
+      "Paul Ehrlich",
+      "Alexander Fleming",
+      "Selman Waksman",
+      "Howard Florey"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Alexander Fleming discovered penicillin in 1928 when a mold contaminated his bacterial cultures.",
+    "detailedExplanation": "Alexander Fleming made his groundbreaking discovery of penicillin at St. Mary's Hospital in London in September 1928. He noticed that a mold (later identified as Penicillium notatum) had contaminated one of his Petri dishes containing Staphylococcus bacteria, and that the bacteria around the mold had been killed. This accidental discovery led to the development of the first true antibiotic, revolutionizing medicine and saving millions of lives. Fleming shared the 1945 Nobel Prize in Physiology or Medicine with Howard Florey and Ernst Boris Chain, who helped develop penicillin for mass production.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Alexander_Fleming",
+    "citationTitle": "Wikipedia: Alexander Fleming"
+  },
+  {
+    "id": "df2edc3a-b910-4e0e-b5a7-45ca9d5ba451",
+    "text": "Which medical imaging technique, developed in the 1970s, uses powerful magnetic fields and radio waves to create detailed images of internal body structures?",
+    "options": [
+      "CT scan",
+      "MRI",
+      "Ultrasound",
+      "PET scan"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "MRI (Magnetic Resonance Imaging) uses magnetic fields and radio waves, developed in the 1970s.",
+    "detailedExplanation": "Magnetic Resonance Imaging (MRI) was developed in the 1970s based on the principles of nuclear magnetic resonance (NMR). Paul Lauterbur and Peter Mansfield won the 2003 Nobel Prize in Physiology or Medicine for their discoveries concerning MRI. The technique uses powerful magnetic fields, magnetic field gradients, and radio waves to generate images of the organs in the body. Unlike CT scans, MRI does not use ionizing radiation, making it safer for repeated use. MRI provides excellent contrast between different soft tissues, making it particularly useful for imaging the brain, muscles, heart, and cancers.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Magnetic_resonance_imaging",
+    "citationTitle": "Wikipedia: Magnetic resonance imaging"
+  },
+  {
+    "id": "d71d12ca-5bd9-4979-8df0-8ca2b25dc087",
+    "text": "The discovery of which blood component in 1940 by Karl Landsteiner and Alexander Wiener revolutionized blood transfusion safety?",
+    "options": [
+      "ABO blood groups",
+      "Rh factor",
+      "Platelets",
+      "White blood cells"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "The Rh factor was discovered in 1940, crucial for preventing hemolytic disease and transfusion reactions.",
+    "detailedExplanation": "Karl Landsteiner and Alexander Wiener discovered the Rh blood group system in 1940, named after the Rhesus monkey used in their experiments. This discovery was crucial for understanding hemolytic disease of the newborn (erythroblastosis fetalis), which occurs when an Rh-negative mother carries an Rh-positive baby. The mother's immune system can produce antibodies against the baby's Rh-positive blood cells, potentially causing severe anemia or death in subsequent pregnancies. This breakthrough led to the development of Rh immune globulin (RhoGAM) therapy, which prevents sensitization and has saved countless lives. Landsteiner had previously discovered the ABO blood group system in 1901.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Rh_blood_group_system",
+    "citationTitle": "Wikipedia: Rh blood group system"
+  },
+  {
+    "id": "73d64c18-b6d1-487a-b15e-886d9d39d0d8",
+    "text": "Which medical breakthrough, first successfully demonstrated in 1967, required the development of a heart-lung machine and immunosuppressive drugs, but the patient survived only 18 days?",
+    "options": [
+      "The first artificial heart implantation",
+      "The first human heart transplant",
+      "The first coronary artery bypass surgery",
+      "The first pacemaker implantation"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "The first human heart transplant was performed by Dr. Christiaan Barnard in South Africa in 1967.",
+    "detailedExplanation": "On December 3, 1967, South African cardiac surgeon Dr. Christiaan Barnard performed the world's first human heart transplant at Groote Schuur Hospital in Cape Town. The patient, Louis Washkansky, received the heart of a 25-year-old woman who had died in a car accident. While the surgery itself was technically successful, Washkansky died 18 days later from pneumonia, as the immunosuppressive drugs that prevented organ rejection also weakened his immune system. This groundbreaking procedure marked the beginning of the era of organ transplantation, though it would take years to develop better immunosuppressive protocols that would make heart transplants more viable long-term.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Heart_transplantation",
+    "citationTitle": "Wikipedia: Heart transplantation"
+  }
+]

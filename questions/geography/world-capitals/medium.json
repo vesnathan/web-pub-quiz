@@ -1,0 +1,342 @@
+[
+  {
+    "id": "090c5f5a-4672-4743-98d9-80abd086550d",
+    "text": "Which European capital city is known as the 'Pearl of the Danube'?",
+    "options": [
+      "Vienna",
+      "Budapest",
+      "Prague",
+      "Bratislava"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "Budapest is commonly called the 'Pearl of the Danube' due to its stunning architecture and location along the Danube River.",
+    "detailedExplanation": "Budapest, the capital of Hungary, earned the nickname 'Pearl of the Danube' because of its magnificent position along the Danube River and its breathtaking architecture. The city is actually composed of two formerly separate cities, Buda and Pest, united in 1873. The Danube divides these two sides, with the hilly Buda on the west bank featuring the famous Buda Castle, and the flatter Pest on the east bank containing the Hungarian Parliament Building.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Budapest",
+    "citationTitle": "Wikipedia: Budapest"
+  },
+  {
+    "id": "80177788-d9c5-4e45-abc6-21412085141a",
+    "text": "At approximately 12,000 feet above sea level, which capital city is considered the highest in the world?",
+    "options": [
+      "Quito, Ecuador",
+      "La Paz, Bolivia",
+      "Bogotá, Colombia",
+      "Addis Ababa, Ethiopia"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "La Paz, Bolivia sits at about 12,000 feet (3,500-4,000 meters) above sea level, making it the world's highest capital city.",
+    "detailedExplanation": "La Paz, Bolivia is widely recognized as the world's highest capital city, situated at an elevation of approximately 11,975 feet (3,650 meters) above sea level. However, there's some complexity here as Sucre is Bolivia's constitutional capital, while La Paz serves as the administrative capital and seat of government. The extreme altitude means visitors often experience altitude sickness, and the city has a unique climate despite being relatively close to the equator due to its elevation in the Andes Mountains.",
+    "citationUrl": "https://en.wikipedia.org/wiki/La_Paz",
+    "citationTitle": "Wikipedia: La Paz"
+  },
+  {
+    "id": "a71601e9-6d8e-49ec-999a-80b1adb8daa0",
+    "text": "Which capital city was purpose-built in the 1960s to replace the former capital that was considered too crowded?",
+    "options": [
+      "Canberra, Australia",
+      "Brasília, Brazil",
+      "Islamabad, Pakistan",
+      "Abuja, Nigeria"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "Brasília was constructed in the 1960s to replace Rio de Janeiro as Brazil's capital, designed to move the center of power inland.",
+    "detailedExplanation": "Brasília was inaugurated as Brazil's new capital in 1960, replacing Rio de Janeiro. The city was designed by urban planner Lúcio Costa and architect Oscar Niemeyer as a completely planned city built from scratch in the Brazilian interior. The project aimed to promote development in Brazil's interior regions and reduce the concentration of political and economic power in the coastal city of Rio de Janeiro. The modernist architecture and urban planning of Brasília earned it UNESCO World Heritage status in 1987, making it the youngest city ever to receive this designation.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Bras%C3%ADlia",
+    "citationTitle": "Wikipedia: Brasília"
+  },
+  {
+    "id": "9edeecd0-7a2d-497b-b98a-ad9a25d9ab10",
+    "text": "Which Asian capital city is built on more than 100 small islands connected by over 400 bridges?",
+    "options": [
+      "Bangkok, Thailand",
+      "Manila, Philippines",
+      "Male, Maldives",
+      "Stockholm, Sweden"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "Male, the capital of the Maldives, is built across multiple small islands connected by numerous bridges in the Indian Ocean.",
+    "detailedExplanation": "Male (pronounced 'MAH-lay') is the capital and most populous city of the Maldives, built on a natural island in the North Malé Atoll. The city spans across Male Island and several artificial islands created through land reclamation, connected by bridges. As one of the world's most densely populated cities, Male faces unique challenges due to rising sea levels, being only about 1.5 meters above sea level on average. The city serves as the economic and political center of this island nation of nearly 1,200 coral islands grouped in 26 atolls.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Mal%C3%A9",
+    "citationTitle": "Wikipedia: Malé"
+  },
+  {
+    "id": "d2bafaf7-d645-4bbf-ad77-36d2e858e0e2",
+    "text": "Which capital city is home to the oldest continuously operating university in the world, founded in 859 AD?",
+    "options": [
+      "Cairo, Egypt",
+      "Fez, Morocco",
+      "Damascus, Syria",
+      "Baghdad, Iraq"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "Fez, Morocco is home to the University of al-Qarawiyyin, founded in 859 AD and recognized as the world's oldest continuously operating university.",
+    "detailedExplanation": "Fez was the capital of Morocco for over 400 years and remains one of the country's most important cultural centers. The city is home to the University of al-Qarawiyyin (also spelled al-Karaouine), founded in 859 AD by Fatima al-Fihri. According to UNESCO and the Guinness World Records, it is the oldest continuously operating degree-granting university in the world. While Fez is no longer Morocco's capital (Rabat currently holds that distinction), it was the capital during various periods of Moroccan history and remains a crucial cultural and religious center.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Fez,_Morocco",
+    "citationTitle": "Wikipedia: Fez, Morocco"
+  },
+  {
+    "id": "fac7b301-a037-4289-8ddf-4df219d84a22",
+    "text": "Which capital city straddles two continents, with parts located in both Europe and Asia?",
+    "options": [
+      "Istanbul, Turkey",
+      "Ankara, Turkey",
+      "Moscow, Russia",
+      "Tbilisi, Georgia"
+    ],
+    "correctIndex": 0,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "Istanbul straddles the Bosphorus strait, placing parts of the city in both Europe and Asia, though it's not Turkey's current capital.",
+    "detailedExplanation": "While Istanbul is not currently Turkey's capital (Ankara has been the capital since 1923), it was the capital of the Ottoman Empire and Byzantine Empire for centuries. Istanbul uniquely straddles the Bosphorus strait, which forms the boundary between Europe and Asia. The European side contains the historic peninsula with landmarks like Hagia Sophia and the Blue Mosque, while the Asian side (called Anatolia) contains about one-third of the city's population. This makes Istanbul the only major city in the world that spans two continents, though technically it's a former capital rather than a current one.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Istanbul",
+    "citationTitle": "Wikipedia: Istanbul"
+  },
+  {
+    "id": "4617ae57-3f1b-41a6-b80d-877ba14d582a",
+    "text": "What is the capital of Canada?",
+    "options": [
+      "Toronto",
+      "Vancouver",
+      "Montreal",
+      "Ottawa"
+    ],
+    "correctIndex": 3,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "Ottawa is Canada's capital city, located in the province of Ontario near the Quebec border.",
+    "detailedExplanation": "Ottawa serves as Canada's capital city and is located in the province of Ontario, near the border with Quebec. The city was chosen as the capital in 1857 by Queen Victoria, partly because of its location between the English-speaking and French-speaking regions of Canada, and because it was considered less vulnerable to American attack than other major cities. Ottawa is home to Parliament Hill, where the Canadian government meets, and numerous national institutions. Despite being the capital, it's only Canada's fourth-largest city by population, after Toronto, Montreal, and Calgary.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Ottawa",
+    "citationTitle": "Wikipedia: Ottawa"
+  },
+  {
+    "id": "193c9723-179a-4d22-b2d4-d1b88653b1ac",
+    "text": "Which Scandinavian capital is known as the 'Venice of the North' due to its numerous waterways and islands?",
+    "options": [
+      "Oslo, Norway",
+      "Copenhagen, Denmark",
+      "Stockholm, Sweden",
+      "Helsinki, Finland"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "Stockholm is called the 'Venice of the North' because it's built on 14 islands connected by over 50 bridges across extensive waterways.",
+    "detailedExplanation": "Stockholm, Sweden's capital, is famously known as the 'Venice of the North' due to its unique geography. The city is built on 14 islands where Lake Mälaren meets the Baltic Sea, connected by more than 50 bridges. About 30% of Stockholm's area consists of waterways, and another 30% is made up of parks and green spaces. This extensive archipelago setting creates a scenic urban landscape with water visible from almost everywhere in the city center. The well-preserved medieval old town, Gamla Stan, sits on one of these islands and adds to the city's historic charm.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Stockholm",
+    "citationTitle": "Wikipedia: Stockholm"
+  },
+  {
+    "id": "9160897e-a1bd-4ae8-8c32-22bdb268e5cf",
+    "text": "Which capital city is known as the 'Pearl of the Danube'?",
+    "options": [
+      "Vienna",
+      "Budapest",
+      "Belgrade",
+      "Bratislava"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "Budapest is famously called the 'Pearl of the Danube' due to its stunning location along the Danube River.",
+    "detailedExplanation": "Budapest, the capital of Hungary, earned the nickname 'Pearl of the Danube' because of its magnificent architecture and picturesque setting along the Danube River. The city is actually composed of two historic cities, Buda and Pest, which were unified in 1873. The nickname reflects the city's beauty, with its impressive Parliament building, thermal baths, and the historic Buda Castle all contributing to its reputation as one of Europe's most beautiful capitals.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Budapest",
+    "citationTitle": "Wikipedia: Budapest"
+  },
+  {
+    "id": "a4e2e57a-e1be-43fe-9e71-b0c1eb6fc172",
+    "text": "What is the highest capital city in the world by elevation?",
+    "options": [
+      "Quito, Ecuador",
+      "La Paz, Bolivia",
+      "Bogotá, Colombia",
+      "Addis Ababa, Ethiopia"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "La Paz, Bolivia sits at approximately 3,500 meters (11,500 feet) above sea level, making it the highest capital city globally.",
+    "detailedExplanation": "La Paz, Bolivia is widely recognized as the world's highest capital city, located at an elevation of approximately 3,500-3,650 meters (11,500-12,000 feet) above sea level in the Andes Mountains. While Sucre is Bolivia's constitutional capital, La Paz serves as the administrative capital and seat of government. The extreme altitude means visitors often experience altitude sickness, and the city has a unique climate despite being relatively close to the equator.",
+    "citationUrl": "https://en.wikipedia.org/wiki/La_Paz",
+    "citationTitle": "Wikipedia: La Paz"
+  },
+  {
+    "id": "80c0843c-32ef-4183-b059-eefa072882ec",
+    "text": "Which European capital was divided by a wall from 1961 to 1989?",
+    "options": [
+      "Vienna",
+      "Prague",
+      "Berlin",
+      "Warsaw"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "Berlin was divided by the Berlin Wall from 1961 to 1989, separating East and West Berlin during the Cold War.",
+    "detailedExplanation": "Berlin, Germany's capital, was physically divided by the Berlin Wall from August 13, 1961, until November 9, 1989. The wall was constructed by East Germany to prevent East Berliners from fleeing to West Berlin and the democratic West. The 155-kilometer barrier became the most potent symbol of the Cold War division between communist Eastern Europe and the capitalist West. Its fall in 1989 marked the beginning of German reunification and the end of the Cold War era.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Berlin_Wall",
+    "citationTitle": "Wikipedia: Berlin Wall"
+  },
+  {
+    "id": "fde65556-d0bc-4936-9ecb-df8ecf05f3af",
+    "text": "Which capital city straddles two continents?",
+    "options": [
+      "Cairo",
+      "Istanbul",
+      "Moscow",
+      "Tehran"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "Istanbul straddles Europe and Asia, though it's not Turkey's capital - Ankara is. The question refers to the unique geographical position.",
+    "detailedExplanation": "While Istanbul is not actually Turkey's capital (Ankara is), it's the most famous city that straddles two continents - Europe and Asia - separated by the Bosphorus strait. However, if we're being strictly accurate about capitals, no current capital city truly straddles two continents. Moscow, Russia's capital, is entirely in Europe despite Russia extending into Asia. The question highlights the common misconception about Istanbul's status, as it was the capital of the Ottoman Empire but lost this status when Ankara became Turkey's capital in 1923.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Istanbul",
+    "citationTitle": "Wikipedia: Istanbul"
+  },
+  {
+    "id": "a3060d86-ef18-4191-8ec9-a41e0532740b",
+    "text": "Which capital city is built on 14 islands connected by over 50 bridges?",
+    "options": [
+      "Stockholm",
+      "Amsterdam",
+      "Venice",
+      "Copenhagen"
+    ],
+    "correctIndex": 0,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "Stockholm, Sweden's capital, is famously built on 14 islands in the Stockholm archipelago, connected by 57 bridges.",
+    "detailedExplanation": "Stockholm, the capital of Sweden, is uniquely built across 14 islands where Lake Mälaren meets the Baltic Sea. The islands are connected by 57 bridges, earning Stockholm the nickname 'Venice of the North.' The city's island geography creates a stunning waterfront cityscape and makes water transport an integral part of daily life. The historic center, Gamla Stan (Old Town), sits on one of these islands and is one of the largest and best-preserved medieval city centers in Europe.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Stockholm",
+    "citationTitle": "Wikipedia: Stockholm"
+  },
+  {
+    "id": "9b649b4e-de43-403e-986f-ee1453c7109b",
+    "text": "Which African capital city was never colonized and served as the headquarters for the Organization of African Unity?",
+    "options": [
+      "Cairo",
+      "Lagos",
+      "Addis Ababa",
+      "Nairobi"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "Addis Ababa, Ethiopia's capital, was never colonized (except for brief Italian occupation) and hosted the OAU headquarters.",
+    "detailedExplanation": "Addis Ababa, the capital of Ethiopia, holds special significance in African history as the capital of one of only two African nations (along with Liberia) that was never fully colonized by European powers. While Italy occupied Ethiopia from 1936-1941, this was relatively brief compared to other colonial experiences. Due to this unique status and Ethiopia's symbolic importance to African independence, Addis Ababa was chosen as the headquarters of the Organization of African Unity (OAU) when it was founded in 1963, and later became the headquarters of its successor, the African Union, earning it the nickname 'political capital of Africa.'",
+    "citationUrl": "https://en.wikipedia.org/wiki/Addis_Ababa",
+    "citationTitle": "Wikipedia: Addis Ababa"
+  },
+  {
+    "id": "53044d6f-bf1e-44e7-928b-afad1c6292d1",
+    "text": "Which capital city is located on two continents?",
+    "options": [
+      "Cairo",
+      "Istanbul",
+      "Moscow",
+      "Tbilisi"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "Istanbul straddles both Europe and Asia across the Bosphorus strait.",
+    "detailedExplanation": "Istanbul, Turkey's largest city and former capital, is uniquely positioned across the Bosphorus strait, with the historic peninsula and northern districts in Europe and the Asian side forming the eastern part of the city. While Ankara is now Turkey's capital, Istanbul remains the country's cultural and economic center. The city's transcontinental location has made it a crucial bridge between East and West throughout history.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Istanbul",
+    "citationTitle": "Wikipedia: Istanbul"
+  },
+  {
+    "id": "84e90a82-7556-4df0-9cb1-3a88ce27c949",
+    "text": "Which European capital was divided by a famous wall from 1961 to 1989?",
+    "options": [
+      "Vienna",
+      "Berlin",
+      "Prague",
+      "Warsaw"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "The Berlin Wall divided East and West Berlin during the Cold War era.",
+    "detailedExplanation": "Berlin was physically divided by the Berlin Wall from August 13, 1961, until November 9, 1989. The wall separated East Berlin (controlled by East Germany/Soviet Union) from West Berlin (controlled by the Western Allies). The 155-kilometer barrier became a powerful symbol of the Cold War division between communist and capitalist ideologies. Its fall in 1989 marked a pivotal moment in German reunification and the end of the Cold War.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Berlin_Wall",
+    "citationTitle": "Wikipedia: Berlin Wall"
+  },
+  {
+    "id": "b3aee40f-be9a-4df9-8bb2-ed5942f27c07",
+    "text": "Canberra was specifically built to be Australia's capital because of a rivalry between which two cities?",
+    "options": [
+      "Perth and Adelaide",
+      "Sydney and Melbourne",
+      "Brisbane and Darwin",
+      "Melbourne and Perth"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "Canberra was created as a compromise between Sydney and Melbourne's competing claims.",
+    "detailedExplanation": "When Australia became a federation in 1901, both Sydney and Melbourne wanted to be the national capital. The rivalry was so intense that the Australian Constitution required the capital to be in New South Wales but at least 100 miles from Sydney. Canberra was designed as a planned city by American architect Walter Burley Griffin and officially became the capital in 1927, serving as a neutral compromise between the two rival cities.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Canberra",
+    "citationTitle": "Wikipedia: Canberra"
+  },
+  {
+    "id": "622cd8fa-15d6-49de-8c86-e2cb9d1b0f61",
+    "text": "Which African capital city shares its name with a famous explorer?",
+    "options": [
+      "Livingstone",
+      "Stanley",
+      "Brazzaville",
+      "Khartoum"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "Brazzaville, capital of Republic of the Congo, is named after Pierre Savorgnan de Brazza.",
+    "detailedExplanation": "Brazzaville, the capital and largest city of the Republic of the Congo, was named after the Italian-French explorer Pierre Savorgnan de Brazza, who founded the settlement in 1880. The city sits on the Congo River directly across from Kinshasa, the capital of the Democratic Republic of the Congo, making them two of the closest capital cities in the world. De Brazza was instrumental in establishing French colonial presence in the region.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Brazzaville",
+    "citationTitle": "Wikipedia: Brazzaville"
+  },
+  {
+    "id": "05c13017-6568-439e-886c-8ee85876bebb",
+    "text": "Which capital city is known as the 'Pearl of the Orient' and was once called Saigon?",
+    "options": [
+      "Bangkok",
+      "Manila",
+      "Ho Chi Minh City",
+      "Kuala Lumpur"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "Ho Chi Minh City, Vietnam's largest city and former capital, was previously known as Saigon.",
+    "detailedExplanation": "Ho Chi Minh City, formerly known as Saigon, is Vietnam's largest city and former capital of South Vietnam. The city was renamed in 1976 after North Vietnamese leader Ho Chi Minh following the end of the Vietnam War. While Hanoi is now Vietnam's capital, Ho Chi Minh City remains the country's economic powerhouse and is still often referred to by its former name Saigon, especially the central district area.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Ho_Chi_Minh_City",
+    "citationTitle": "Wikipedia: Ho Chi Minh City"
+  },
+  {
+    "id": "fc8211c1-c331-494a-b2ab-b382820612ac",
+    "text": "Which world capital city is built on 14 islands connected by over 50 bridges?",
+    "options": [
+      "Amsterdam, Netherlands",
+      "Stockholm, Sweden",
+      "Venice, Italy",
+      "Copenhagen, Denmark"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "Stockholm is built on 14 islands in the archipelago where Lake Mälaren meets the Baltic Sea.",
+    "detailedExplanation": "Stockholm, the capital of Sweden, is uniquely situated on 14 islands in the archipelago where Lake Mälaren flows into the Baltic Sea. The city is connected by more than 50 bridges, earning it the nickname 'Venice of the North.' This distinctive geography makes Stockholm one of the most beautiful capitals in the world, with water comprising about 30% of the city area. The historic old town, Gamla Stan, sits on one of these islands and dates back to the 13th century.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Stockholm",
+    "citationTitle": "Wikipedia: Stockholm"
+  }
+]

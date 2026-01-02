@@ -1,10 +1,10 @@
-'use client';
+"use client";
 
-import { useEffect, useSyncExternalStore } from 'react';
-import Ably from 'ably';
-import { ABLY_CHANNELS } from '@quiz/shared';
-import { useGameStore } from '@/stores/gameStore';
-import type { QuestionStartPayload } from '@quiz/shared';
+import { useEffect, useSyncExternalStore } from "react";
+import Ably from "ably";
+import { ABLY_CHANNELS } from "@quiz/shared";
+import { useGameStore } from "@/stores/gameStore";
+import type { QuestionStartPayload } from "@quiz/shared";
 
 interface ActiveUser {
   clientId: string;
@@ -40,7 +40,7 @@ function initAbly(userId?: string, displayName?: string) {
   const ablyKey = process.env.NEXT_PUBLIC_ABLY_KEY;
 
   if (!ablyKey) {
-    console.error('[useLobbyPresence] No NEXT_PUBLIC_ABLY_KEY found');
+    console.error("[useLobbyPresence] No NEXT_PUBLIC_ABLY_KEY found");
     return;
   }
   if (ably) return;
@@ -50,18 +50,21 @@ function initAbly(userId?: string, displayName?: string) {
     clientId: userId || `anon-${Date.now()}`,
   });
 
-  ably.connection.on('connected', () => {
+  ably.connection.on("connected", () => {
     isConnected = true;
     notifySubscribers();
   });
 
-  ably.connection.on('disconnected', () => {
+  ably.connection.on("disconnected", () => {
     isConnected = false;
     notifySubscribers();
   });
 
-  ably.connection.on('failed', (stateChange) => {
-    console.error('[useLobbyPresence] Ably connection failed:', stateChange?.reason);
+  ably.connection.on("failed", (stateChange) => {
+    console.error(
+      "[useLobbyPresence] Ably connection failed:",
+      stateChange?.reason,
+    );
     isConnected = false;
     notifySubscribers();
   });
@@ -69,21 +72,22 @@ function initAbly(userId?: string, displayName?: string) {
   const channel = ably.channels.get(ABLY_CHANNELS.LOBBY);
   const presence = channel.presence;
 
-  presence.subscribe('enter', (member) => {
+  presence.subscribe("enter", (member) => {
     if (!activeUsers.some((u) => u.clientId === member.clientId)) {
       activeUsers = [
         ...activeUsers,
         {
           clientId: member.clientId!,
-          username: member.data?.username || 'Player',
-          displayName: member.data?.displayName || member.data?.username || 'Player',
+          username: member.data?.username || "Player",
+          displayName:
+            member.data?.displayName || member.data?.username || "Player",
         },
       ];
       notifySubscribers();
     }
   });
 
-  presence.subscribe('leave', (member) => {
+  presence.subscribe("leave", (member) => {
     activeUsers = activeUsers.filter((u) => u.clientId !== member.clientId);
     notifySubscribers();
   });
@@ -92,23 +96,25 @@ function initAbly(userId?: string, displayName?: string) {
   // This hook only handles presence (user count) and game events
 
   // Subscribe to game state events (question_start, set_end) for lobby display
-  channel.subscribe('question_start', (message) => {
+  channel.subscribe("question_start", (message) => {
     const payload = message.data as QuestionStartPayload;
-    useGameStore.getState().setCurrentQuestion(
-      payload.question,
-      payload.questionIndex,
-      payload.totalQuestions,
-      payload.questionDuration
-    );
+    useGameStore
+      .getState()
+      .setCurrentQuestion(
+        payload.question,
+        payload.questionIndex,
+        payload.totalQuestions,
+        payload.questionDuration,
+      );
     useGameStore.getState().setSetActive(true);
   });
 
-  channel.subscribe('set_end', () => {
+  channel.subscribe("set_end", () => {
     useGameStore.getState().setSetActive(false);
   });
 
   // Enter presence, fetch members, and get current game state when connected
-  ably.connection.once('connected', async () => {
+  ably.connection.once("connected", async () => {
     try {
       // Only enter presence if we have a real user ID (authenticated)
       if (userId && displayName) {
@@ -118,14 +124,14 @@ function initAbly(userId?: string, displayName?: string) {
       const members = await presence.get();
       activeUsers = members.map((m) => ({
         clientId: m.clientId!,
-        username: m.data?.username || 'Player',
-        displayName: m.data?.displayName || m.data?.username || 'Player',
+        username: m.data?.username || "Player",
+        displayName: m.data?.displayName || m.data?.username || "Player",
       }));
       notifySubscribers();
 
       // Game state received via useLobbyChannel's room_list subscription
     } catch (e) {
-      console.error('Failed to initialize lobby state:', e);
+      console.error("Failed to initialize lobby state:", e);
     }
   });
 }
@@ -135,13 +141,13 @@ async function cleanupAbly() {
     try {
       const channel = ably.channels.get(ABLY_CHANNELS.LOBBY);
       // Only leave presence if channel is still attached
-      if (channel.state === 'attached') {
+      if (channel.state === "attached") {
         await channel.presence.leave().catch(() => {
           // Ignore leave errors
         });
       }
       // Unsubscribe only if channel is not detached/failed
-      if (channel.state !== 'detached' && channel.state !== 'failed') {
+      if (channel.state !== "detached" && channel.state !== "failed") {
         channel.unsubscribe();
         channel.presence.unsubscribe();
       }
@@ -162,12 +168,18 @@ interface UseLobbyPresenceOptions {
   displayName?: string;
 }
 
-export function useLobbyPresence(options: UseLobbyPresenceOptions = { enabled: false }) {
+export function useLobbyPresence(
+  options: UseLobbyPresenceOptions = { enabled: false },
+) {
   const { enabled, userId, displayName } = options;
 
   // Use useSyncExternalStore for reactive updates
   const users = useSyncExternalStore(subscribe, getActiveUsers, getActiveUsers);
-  const connected = useSyncExternalStore(subscribe, getIsConnected, getIsConnected);
+  const connected = useSyncExternalStore(
+    subscribe,
+    getIsConnected,
+    getIsConnected,
+  );
 
   useEffect(() => {
     if (!enabled) return;

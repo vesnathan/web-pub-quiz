@@ -43,6 +43,11 @@ Parameters:
     Type: String
     Description: Route53 Hosted Zone ID for DNS records
     Default: ""
+  AdminPassword:
+    Type: String
+    Description: Initial password for admin user (change after first login)
+    NoEcho: true
+    Default: "QuizAdmin2024!"
 
 Conditions:
   HasGoogleOAuth: !And
@@ -274,6 +279,96 @@ Resources:
         - aws.cognito.signin.user.admin
       AllowedOAuthFlowsUserPoolClient: true
 
+  # Admin group for site administrators
+  SiteAdminGroup:
+    Type: AWS::Cognito::UserPoolGroup
+    Properties:
+      GroupName: SiteAdmin
+      UserPoolId: !Ref UserPool
+      Description: Site administrators with full access
+
+  # Admin Seeder Lambda - creates initial admin user
+  AdminSeederFunction:
+    Type: AWS::Lambda::Function
+    Properties:
+      FunctionName: !Sub "${AppName}-admin-seeder-${Stage}"
+      Runtime: nodejs20.x
+      Handler: index.handler
+      Role: !GetAtt AdminSeederRole.Arn
+      Timeout: 60
+      Environment:
+        Variables:
+          TABLE_NAME: !Ref DataTableName
+          USER_POOL_ID: !Ref UserPool
+          ADMIN_EMAIL: "vesnathan+qnl-admin@gmail.com"
+          ADMIN_PASSWORD: !Ref AdminPassword
+      Code:
+        S3Bucket: !Ref TemplateBucketName
+        S3Key: !Sub "functions/${Stage}/seedAdminUser.zip"
+      Tags:
+        - Key: Project
+          Value: quiz-night-live
+
+  AdminSeederRole:
+    Type: AWS::IAM::Role
+    Properties:
+      RoleName: !Sub "${AppName}-admin-seeder-role-${Stage}"
+      AssumeRolePolicyDocument:
+        Version: "2012-10-17"
+        Statement:
+          - Effect: Allow
+            Principal:
+              Service: lambda.amazonaws.com
+            Action: sts:AssumeRole
+      ManagedPolicyArns:
+        - arn:aws:iam::aws:policy/service-role/AWSLambdaBasicExecutionRole
+      Policies:
+        - PolicyName: CognitoAdminAccess
+          PolicyDocument:
+            Version: "2012-10-17"
+            Statement:
+              - Effect: Allow
+                Action:
+                  - cognito-idp:AdminCreateUser
+                  - cognito-idp:AdminSetUserPassword
+                  - cognito-idp:AdminAddUserToGroup
+                  - cognito-idp:AdminGetUser
+                Resource:
+                  - !GetAtt UserPool.Arn
+        - PolicyName: DynamoDBAccess
+          PolicyDocument:
+            Version: "2012-10-17"
+            Statement:
+              - Effect: Allow
+                Action:
+                  - dynamodb:PutItem
+                  - dynamodb:GetItem
+                Resource:
+                  - !Sub "arn:aws:dynamodb:${AWS::Region}:${AWS::AccountId}:table/${DataTableName}"
+      Tags:
+        - Key: Project
+          Value: quiz-night-live
+
+  AdminSeederLogGroup:
+    Type: AWS::Logs::LogGroup
+    Properties:
+      LogGroupName: !Sub "/aws/lambda/${AppName}-admin-seeder-${Stage}"
+      RetentionInDays: !Ref LogRetentionInDays
+      Tags:
+        - Key: Project
+          Value: quiz-night-live
+
+  # Custom Resource to trigger admin seeding after deployment
+  AdminSeederCustomResource:
+    Type: Custom::AdminSeeder
+    DependsOn:
+      - SiteAdminGroup
+      - AdminSeederFunction
+    Properties:
+      ServiceToken: !GetAtt AdminSeederFunction.Arn
+      # Force update on each deployment by including a timestamp or version
+      Version: "1.0.0"
+
   IdentityPool:
     Type: AWS::Cognito::IdentityPool
     Properties:
@@ -377,6 +472,7 @@ Resources:
       Environment:
         Variables:
           USER_POOL_ID: !Sub "${AppName}-userpool-${Stage}"
+          TABLE_NAME: !Ref DataTableName
       Code:
         S3Bucket: !Ref TemplateBucketName
         S3Key: !Sub "functions/${Stage}/cognitoPreSignUp.zip"
@@ -408,8 +504,20 @@ Resources:
                   - cognito-idp:AdminLinkProviderForUser
                   - cognito-idp:AdminCreateUser
                   - cognito-idp:AdminSetUserPassword
+                  - cognito-idp:AdminGetUser
                 Resource:
                   - !Sub "arn:aws:cognito-idp:${AWS::Region}:${AWS::AccountId}:userpool/*"
+        - PolicyName: DynamoDBAccess
+          PolicyDocument:
+            Version: "2012-10-17"
+            Statement:
+              - Effect: Allow
+                Action:
+                  - dynamodb:GetItem
+                  - dynamodb:PutItem
+                  - dynamodb:DeleteItem
+                Resource:
+                  - !Sub "arn:aws:dynamodb:${AWS::Region}:${AWS::AccountId}:table/${DataTableName}"
       Tags:
         - Key: Project
           Value: quiz-night-live
@@ -482,6 +590,7 @@ Resources:
                 Resource:
                   # Allow only specific queries for unauthenticated users
                   - !Sub "arn:aws:appsync:${AWS::Region}:${AWS::AccountId}:apis/*/types/Query/fields/checkDisplayNameAvailable"
+                  - !Sub "arn:aws:appsync:${AWS::Region}:${AWS::AccountId}:apis/*/types/Query/fields/checkEmailHasGoogleAccount"
       Tags:
         - Key: Project
           Value: quiz-night-live

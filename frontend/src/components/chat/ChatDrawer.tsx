@@ -1,24 +1,23 @@
-'use client';
+"use client";
 
-import { useEffect, useState } from 'react';
-import {
-  Button,
-  Avatar,
-} from '@nextui-org/react';
-import { LoadingDots } from '@/components/LoadingScreen';
-import { useAuth } from '@/contexts/AuthContext';
-import { graphqlClient } from '@/lib/graphql';
-import { GET_MY_CONVERSATIONS, START_CONVERSATION } from '@/graphql';
-import { ChatPanel } from './ChatPanel';
-import { useChatStore } from '@/stores/chatStore';
-import type { Conversation } from '@quiz/shared';
+import { useEffect } from "react";
+import { Avatar } from "@nextui-org/react";
+import { LoadingDots } from "@/components/LoadingScreen";
+import { useAuth } from "@/contexts/AuthContext";
+import { useConversations } from "@/hooks/queries";
+import { ChatPanel } from "./ChatPanel";
+import { useChatStore } from "@/stores/chatStore";
+import type { Conversation } from "@quiz/shared";
 
 interface ChatDrawerProps {
   isOpen?: boolean;
   onClose?: () => void;
 }
 
-export function ChatDrawer({ isOpen: propIsOpen, onClose: propOnClose }: ChatDrawerProps) {
+export function ChatDrawer({
+  isOpen: propIsOpen,
+  onClose: propOnClose,
+}: ChatDrawerProps) {
   const { user, isAuthenticated } = useAuth();
   const {
     isOpen: storeIsOpen,
@@ -29,33 +28,25 @@ export function ChatDrawer({ isOpen: propIsOpen, onClose: propOnClose }: ChatDra
     setConversations,
     goToList,
   } = useChatStore();
-  const [loading, setLoading] = useState(true);
 
   // Use prop values if provided, otherwise use store
   const isOpen = propIsOpen ?? storeIsOpen;
   const onClose = propOnClose ?? closeChat;
 
-  // Fetch conversations
+  // Fetch conversations using TanStack Query
+  const { data: fetchedConversations, isLoading } = useConversations(
+    20,
+    isAuthenticated && isOpen,
+  );
+
+  // Sync fetched conversations to store for other components
   useEffect(() => {
-    if (!isAuthenticated || !isOpen) return;
+    if (fetchedConversations) {
+      setConversations(fetchedConversations);
+    }
+  }, [fetchedConversations, setConversations]);
 
-    const fetchConversations = async () => {
-      try {
-        const result = await graphqlClient.graphql({
-          query: GET_MY_CONVERSATIONS,
-          variables: { limit: 20 },
-        }) as { data: { getMyConversations: Conversation[] } };
-
-        setConversations(result.data.getMyConversations);
-      } catch (error) {
-        console.error('Failed to fetch conversations:', error);
-      } finally {
-        setLoading(false);
-      }
-    };
-
-    fetchConversations();
-  }, [isAuthenticated, isOpen, setConversations]);
+  const loading = isLoading;
 
   const getOtherParticipant = (conversation: Conversation) => {
     return conversation.participants.find((p) => p.id !== user?.userId);
@@ -71,30 +62,37 @@ export function ChatDrawer({ isOpen: propIsOpen, onClose: propOnClose }: ChatDra
 
   const getAvatarColor = (id: string) => {
     const colors = [
-      'bg-gradient-to-br from-pink-500 to-orange-400',
-      'bg-gradient-to-br from-cyan-500 to-blue-500',
-      'bg-gradient-to-br from-green-400 to-cyan-500',
-      'bg-gradient-to-br from-purple-500 to-pink-500',
-      'bg-gradient-to-br from-yellow-400 to-orange-500',
-      'bg-gradient-to-br from-indigo-500 to-purple-500',
+      "bg-gradient-to-br from-pink-500 to-orange-400",
+      "bg-gradient-to-br from-cyan-500 to-blue-500",
+      "bg-gradient-to-br from-green-400 to-cyan-500",
+      "bg-gradient-to-br from-purple-500 to-pink-500",
+      "bg-gradient-to-br from-yellow-400 to-orange-500",
+      "bg-gradient-to-br from-indigo-500 to-purple-500",
     ];
-    const hash = id.split('').reduce((acc, char) => acc + char.charCodeAt(0), 0);
+    const hash = id
+      .split("")
+      .reduce((acc, char) => acc + char.charCodeAt(0), 0);
     return colors[hash % colors.length];
   };
 
   const formatTime = (isoString: string) => {
     const date = new Date(isoString);
     const now = new Date();
-    const diffDays = Math.floor((now.getTime() - date.getTime()) / (1000 * 60 * 60 * 24));
+    const diffDays = Math.floor(
+      (now.getTime() - date.getTime()) / (1000 * 60 * 60 * 24),
+    );
 
     if (diffDays === 0) {
-      return date.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+      return date.toLocaleTimeString([], {
+        hour: "2-digit",
+        minute: "2-digit",
+      });
     } else if (diffDays === 1) {
-      return 'Yesterday';
+      return "Yesterday";
     } else if (diffDays < 7) {
-      return date.toLocaleDateString([], { weekday: 'short' });
+      return date.toLocaleDateString([], { weekday: "short" });
     } else {
-      return date.toLocaleDateString([], { month: 'short', day: 'numeric' });
+      return date.toLocaleDateString([], { month: "short", day: "numeric" });
     }
   };
 
@@ -110,27 +108,46 @@ export function ChatDrawer({ isOpen: propIsOpen, onClose: propOnClose }: ChatDra
               onClick={goToList}
               className="text-gray-400 hover:text-white mr-2"
             >
-              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
+              <svg
+                className="w-5 h-5"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M15 19l-7-7 7-7"
+                />
               </svg>
             </button>
             <h2 className="text-lg font-semibold text-white flex-1">
               {(() => {
-                const conv = conversations.find((c) => c.id === activeConversation);
+                const conv = conversations.find(
+                  (c) => c.id === activeConversation,
+                );
                 const other = conv ? getOtherParticipant(conv) : null;
-                return other?.displayName || 'Chat';
+                return other?.displayName || "Chat";
               })()}
             </h2>
           </>
         ) : (
           <h2 className="text-lg font-semibold text-white">Messages</h2>
         )}
-        <button
-          onClick={onClose}
-          className="text-gray-400 hover:text-white"
-        >
-          <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+        <button onClick={onClose} className="text-gray-400 hover:text-white">
+          <svg
+            className="w-5 h-5"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth={2}
+              d="M6 18L18 6M6 6l12 12"
+            />
           </svg>
         </button>
       </div>
@@ -146,24 +163,38 @@ export function ChatDrawer({ isOpen: propIsOpen, onClose: propOnClose }: ChatDra
           {/* Lobby Chat */}
           <div className="p-4 border-b border-gray-700">
             <button
-              onClick={() => setActiveConversation('lobby')}
+              onClick={() => setActiveConversation("lobby")}
               className="w-full flex items-center gap-3 p-3 rounded-lg hover:bg-gray-800 transition-colors"
             >
               <div className="w-10 h-10 rounded-full bg-primary flex items-center justify-center">
-                <svg className="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
+                <svg
+                  className="w-5 h-5 text-white"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"
+                  />
                 </svg>
               </div>
               <div className="flex-1 text-left">
                 <p className="font-medium text-white">Lobby Chat</p>
-                <p className="text-sm text-gray-400">Public chat with all players</p>
+                <p className="text-sm text-gray-400">
+                  Public chat with all players
+                </p>
               </div>
             </button>
           </div>
 
           {/* Private Conversations */}
           <div className="p-4">
-            <h3 className="text-sm font-medium text-gray-400 mb-3">Private Messages</h3>
+            <h3 className="text-sm font-medium text-gray-400 mb-3">
+              Private Messages
+            </h3>
             {loading ? (
               <div className="flex justify-center py-4">
                 <LoadingDots />

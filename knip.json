@@ -1,0 +1,48 @@
+{
+  "$schema": "https://unpkg.com/knip@5/schema.json",
+  "workspaces": {
+    ".": {
+      "ignore": ["test/**"]
+    },
+    "frontend": {
+      "entry": [
+        "src/app/**/*.{ts,tsx}",
+        "src/components/**/*.{ts,tsx}",
+        "src/hooks/queries/index.ts",
+        "scripts/buildGql.ts"
+      ],
+      "project": ["src/**/*.{ts,tsx}"],
+      "ignore": ["src/graphql/**"],
+      "ignoreDependencies": ["graphql"]
+    },
+    "backend": {
+      "entry": [
+        "lambda/*.ts",
+        "resolvers/**/*.ts",
+        "src/orchestrator/index.ts",
+        "scripts/*.ts"
+      ],
+      "project": ["**/*.ts"],
+      "ignoreDependencies": [
+        "@aws-appsync/utils",
+        "@aws-sdk/client-cognito-identity-provider",
+        "@aws-sdk/client-secrets-manager"
+      ]
+    },
+    "deploy": {
+      "entry": ["deploy.ts", "bootstrap-check.ts"],
+      "project": ["**/*.ts"],
+      "ignoreDependencies": [
+        "@aws-sdk/client-acm",
+        "@aws-sdk/client-cognito-identity-provider",
+        "@aws-sdk/client-dynamodb",
+        "@aws-sdk/lib-dynamodb"
+      ]
+    },
+    "shared": {
+      "project": ["src/**/*.ts"]
+    }
+  },
+  "ignoreDependencies": ["tsx"],
+  "ignoreExportsUsedInFile": true
+}

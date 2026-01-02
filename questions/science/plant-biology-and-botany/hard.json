@@ -1,0 +1,342 @@
+[
+  {
+    "id": "c15bc971-ba66-483f-b678-7d0207c718fa",
+    "text": "Which plant hormone is primarily responsible for phototropism (bending toward light)?",
+    "options": [
+      "Auxin",
+      "Gibberellin",
+      "Cytokinin",
+      "Abscisic acid"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Auxin accumulates on the shaded side of stems, causing cells to elongate and the plant to bend toward light.",
+    "detailedExplanation": "Auxin is a crucial plant hormone that regulates various growth processes, with phototropism being one of its most studied functions. When light hits a plant stem from one side, auxin redistributes to the shaded side, where it promotes cell elongation. This differential growth causes the stem to bend toward the light source, maximizing photosynthesis efficiency. This response was first studied by Charles Darwin and later explained through the discovery of auxin by Fritz Went in the 1920s.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Auxin",
+    "citationTitle": "Wikipedia: Auxin"
+  },
+  {
+    "id": "d73f1c2a-c828-481b-8aa3-f6b8578e1e73",
+    "text": "What type of specialized root structure allows epiphytic orchids to absorb moisture directly from the air?",
+    "options": [
+      "Pneumatophores",
+      "Velamen",
+      "Haustoria",
+      "Mycorrhizae"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Velamen is a spongy tissue layer covering epiphytic orchid roots that absorbs water and nutrients from humid air.",
+    "detailedExplanation": "Velamen is a unique adaptation found in epiphytic orchids and some other air plants. This multi-layered tissue consists of dead cells with thickened walls that act like a sponge, rapidly absorbing water vapor and dissolved nutrients from the atmosphere. The velamen appears white or silvery when dry and becomes translucent when wet, allowing the green photosynthetic root cortex beneath to be visible. This adaptation is crucial for survival in canopy environments where roots cannot access soil.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Velamen",
+    "citationTitle": "Wikipedia: Velamen"
+  },
+  {
+    "id": "2f3e664c-afb6-4876-9b16-f66a88e175e5",
+    "text": "Which type of leaf arrangement describes leaves that emerge in groups of three or more from a single node?",
+    "options": [
+      "Alternate",
+      "Opposite",
+      "Whorled",
+      "Fasciculate"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Whorled phyllotaxis occurs when three or more leaves attach at the same node around the stem.",
+    "detailedExplanation": "Phyllotaxis refers to the arrangement of leaves on a plant stem, and whorled (or verticillate) is one of the main patterns. In whorled arrangement, three or more leaves emerge from a single node, forming a ring around the stem. This pattern is seen in plants like oleander, catalpa, and some lilies. The arrangement optimizes light capture while minimizing self-shading. Mathematical models show that whorled arrangements often follow Fibonacci sequences, representing optimal packing solutions that evolved to maximize photosynthetic efficiency.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Phyllotaxis",
+    "citationTitle": "Wikipedia: Phyllotaxis"
+  },
+  {
+    "id": "d7f6bdf0-208a-4018-8a11-4341166fc55c",
+    "text": "What is the term for the phenomenon where plants flower in response to specific day-night length ratios?",
+    "options": [
+      "Vernalization",
+      "Photoperiodism",
+      "Thigmotropism",
+      "Circadian rhythm"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Photoperiodism is the biological response to the length of day or night, triggering flowering in many plants.",
+    "detailedExplanation": "Photoperiodism is a critical mechanism that allows plants to time their reproductive cycles with favorable seasons. Plants are classified as short-day (long-night), long-day (short-night), or day-neutral based on their flowering response to photoperiod. The process involves phytochrome photoreceptors that detect red and far-red light ratios, ultimately affecting the expression of flowering genes like FT (Flowering Locus T). This discovery revolutionized agriculture, enabling controlled flowering in greenhouse production and explaining why certain crops only flower at specific times of year.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Photoperiodism",
+    "citationTitle": "Wikipedia: Photoperiodism"
+  },
+  {
+    "id": "5fa2f241-72de-4594-bf80-b0444714330d",
+    "text": "Which specialized cell type in plant leaves controls gas exchange and water loss?",
+    "options": [
+      "Trichomes",
+      "Guard cells",
+      "Collenchyma cells",
+      "Transfer cells"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Guard cells surround stomatal pores and regulate their opening and closing to control gas exchange and transpiration.",
+    "detailedExplanation": "Guard cells are highly specialized kidney-shaped cells that form stomatal pores on leaf surfaces. These cells can rapidly change shape by altering their turgor pressure, opening stomata when water is abundant and CO2 is needed for photosynthesis, and closing them during drought stress or darkness to prevent water loss. The mechanism involves ion pumps that move potassium and chloride ions, creating osmotic gradients that drive water movement. This dynamic control system is essential for balancing photosynthesis with water conservation, representing one of the most sophisticated regulatory mechanisms in plant biology.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Guard_cell",
+    "citationTitle": "Wikipedia: Guard cell"
+  },
+  {
+    "id": "0883fa62-f9da-4f5a-9e6f-e752c0b4e35f",
+    "text": "What pigment gives red and blue colors to many flowers and fruits, and also serves as a pH indicator in plant cells?",
+    "options": [
+      "Chlorophyll",
+      "Carotenoids",
+      "Anthocyanins",
+      "Betalains"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Anthocyanins are water-soluble pigments that produce red, purple, and blue colors and change color based on cellular pH.",
+    "detailedExplanation": "Anthocyanins are flavonoid pigments stored in plant cell vacuoles that serve multiple functions beyond coloration. These compounds act as natural pH indicators, appearing red in acidic conditions and blue in alkaline conditions, which explains the color variation in flowers like hydrangeas. They also provide protection against UV radiation, attract pollinators, and have antioxidant properties that protect plants from oxidative stress. The biosynthesis of anthocyanins is regulated by environmental factors including light, temperature, and nutrient availability, making them important adaptive molecules in plant survival strategies.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Anthocyanin",
+    "citationTitle": "Wikipedia: Anthocyanin"
+  },
+  {
+    "id": "7b0af539-8b87-4fd9-bc15-cc5b78dcbf7f",
+    "text": "Which type of plant tissue is responsible for secondary growth (increase in girth) in woody plants?",
+    "options": [
+      "Apical meristem",
+      "Vascular cambium",
+      "Ground meristem",
+      "Procambium"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Vascular cambium is the lateral meristem that produces secondary xylem (wood) and phloem, causing stems and roots to thicken.",
+    "detailedExplanation": "The vascular cambium is a cylindrical layer of meristematic tissue that runs through stems and roots of woody plants. This lateral meristem divides to produce secondary xylem toward the inside (forming wood) and secondary phloem toward the outside (forming inner bark). The cambium's activity is seasonal in temperate climates, creating annual growth rings visible in tree cross-sections. This secondary growth allows trees to support massive above-ground structures and live for centuries or even millennia, distinguishing woody plants from herbaceous species that rely only on primary growth from apical meristems.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Vascular_cambium",
+    "citationTitle": "Wikipedia: Vascular cambium"
+  },
+  {
+    "id": "52c62188-b3a6-4393-8b99-f4f6ce47dc0c",
+    "text": "What is the specialized nutritive tissue that surrounds the developing embryo in angiosperm seeds called?",
+    "options": [
+      "Perisperm",
+      "Endosperm",
+      "Cotyledon",
+      "Nucellus"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Endosperm is the triploid tissue formed during double fertilization that provides nutrients for the developing embryo.",
+    "detailedExplanation": "Endosperm is a unique feature of angiosperm reproduction, formed through the process of double fertilization where one sperm fertilizes the egg (forming the diploid embryo) and another fuses with two polar nuclei (forming the triploid endosperm). This tissue serves as the primary food storage for the developing seed, containing starches, oils, and proteins. In some seeds like corn and wheat, endosperm persists to maturity and forms the bulk of the grain, while in others like beans, the endosperm is absorbed by the cotyledons during development. This innovation contributed significantly to angiosperm evolutionary success.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Endosperm",
+    "citationTitle": "Wikipedia: Endosperm"
+  },
+  {
+    "id": "654ca986-1a6c-4846-ac83-330835143dde",
+    "text": "Which plant hormone is primarily responsible for the phenomenon of apical dominance, where the main stem suppresses the growth of lateral buds?",
+    "options": [
+      "Auxin",
+      "Cytokinin",
+      "Gibberellin",
+      "Abscisic acid"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Auxin, produced in the apical meristem, inhibits lateral bud growth through apical dominance.",
+    "detailedExplanation": "Auxin is a plant hormone produced primarily in the shoot apex that travels downward through the plant, inhibiting the outgrowth of lateral buds. This creates apical dominance, where the main stem grows preferentially over side branches. When the apical bud is removed, auxin levels drop and lateral buds begin to grow, which is why pruning often results in bushier plant growth.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Apical_dominance",
+    "citationTitle": "Wikipedia: Apical dominance"
+  },
+  {
+    "id": "2faea925-273d-42e0-9017-f7a619789358",
+    "text": "What is the name of the specialized water-conducting cells found in gymnosperms that are characterized by bordered pits and lack perforations?",
+    "options": [
+      "Vessel elements",
+      "Tracheids",
+      "Sieve tubes",
+      "Companion cells"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Tracheids are the primitive water-conducting cells in gymnosperms, featuring bordered pits but no perforations.",
+    "detailedExplanation": "Tracheids are elongated, dead cells that form the primary water-conducting tissue in gymnosperms and some angiosperms. Unlike vessel elements found in most flowering plants, tracheids lack perforations in their end walls and instead rely on bordered pits for water movement between cells. These bordered pits contain a flexible membrane that can seal off damaged cells, making tracheids more resistant to cavitation than vessel elements.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Tracheid",
+    "citationTitle": "Wikipedia: Tracheid"
+  },
+  {
+    "id": "6d8a6e6e-d5b8-41cb-bc57-ad86ce89a17d",
+    "text": "Which photosynthetic pathway is characterized by the initial fixation of CO2 into a 4-carbon compound by the enzyme PEP carboxylase?",
+    "options": [
+      "C3 photosynthesis",
+      "C4 photosynthesis",
+      "CAM photosynthesis",
+      "Photorespiration"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "C4 photosynthesis uses PEP carboxylase to initially fix CO2 into 4-carbon compounds like oxaloacetate.",
+    "detailedExplanation": "C4 photosynthesis is an adaptation found in plants like corn, sugarcane, and many tropical grasses. In this pathway, CO2 is first fixed by phosphoenolpyruvate (PEP) carboxylase into 4-carbon compounds such as oxaloacetate in mesophyll cells. This compound is then transported to bundle sheath cells where CO2 is released and refixed by RuBisCO. This mechanism concentrates CO2 around RuBisCO, reducing photorespiration and making the process more efficient in hot, dry conditions.",
+    "citationUrl": "https://en.wikipedia.org/wiki/C4_carbon_fixation",
+    "citationTitle": "Wikipedia: C4 carbon fixation"
+  },
+  {
+    "id": "e25c0d9e-5a53-4713-be27-536ba2edef4c",
+    "text": "The coevolution between figs and fig wasps represents which type of mutualistic relationship?",
+    "options": [
+      "Facultative mutualism",
+      "Obligate mutualism",
+      "Commensalism",
+      "Protocooperation"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Fig-fig wasp relationships are obligate mutualism where both species are entirely dependent on each other for survival.",
+    "detailedExplanation": "The relationship between figs (Ficus species) and their pollinating wasps represents one of nature's most extreme examples of obligate mutualism. Each fig species typically has one specific wasp species that pollinates it, and the wasps can only reproduce inside fig flowers. Female wasps enter the fig through a tiny opening, losing their wings in the process, and lay eggs while pollinating the flowers. The wasps cannot survive without the figs, and the figs cannot reproduce without their specific wasp pollinators.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Fig_wasp",
+    "citationTitle": "Wikipedia: Fig wasp"
+  },
+  {
+    "id": "a0668618-7377-4242-bb06-b2f86ac17d95",
+    "text": "Which type of leaf venation pattern is characterized by several major veins arising from the base of the leaf blade?",
+    "options": [
+      "Pinnate venation",
+      "Palmate venation",
+      "Parallel venation",
+      "Dichotomous venation"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Palmate venation has multiple major veins radiating from the leaf base, like fingers from a palm.",
+    "detailedExplanation": "Palmate venation, also called digitate venation, is a pattern where three or more primary veins arise from a single point at the base of the leaf blade and radiate outward like the fingers of a hand. This pattern is commonly seen in plants like maples, sycamores, and geraniums. It differs from pinnate venation where secondary veins branch off from a single central midrib, and from parallel venation where veins run parallel to each other without forming networks.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Leaf#Venation",
+    "citationTitle": "Wikipedia: Leaf"
+  },
+  {
+    "id": "a1b963d1-b449-4d13-aa69-a28aeb69a34f",
+    "text": "What is the primary function of the endodermis in plant roots?",
+    "options": [
+      "Photosynthesis",
+      "Selective regulation of water and solute transport",
+      "Storage of starch",
+      "Production of root hairs"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "The endodermis controls what enters the vascular system through its Casparian strips that block passive transport.",
+    "detailedExplanation": "The endodermis is a single layer of cells surrounding the vascular cylinder in roots, characterized by the presence of Casparian strips - waxy, waterproof bands made of suberin and lignin. These strips force all water and dissolved materials to pass through the cell membranes rather than between cells, giving the plant selective control over what enters the xylem and phloem. This regulatory barrier prevents harmful substances from reaching the shoot system and allows the plant to actively control nutrient uptake.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Endodermis",
+    "citationTitle": "Wikipedia: Endodermis"
+  },
+  {
+    "id": "52858e8d-1fdd-43aa-8e27-c4284fe3ee81",
+    "text": "Which plant family is characterized by having zygomorphic flowers, a distinctive lip-shaped labellum, and seeds that lack endosperm?",
+    "options": [
+      "Rosaceae",
+      "Orchidaceae",
+      "Brassicaceae",
+      "Asteraceae"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Orchidaceae (orchids) have bilateral symmetry, a modified petal called a labellum, and tiny seeds without endosperm.",
+    "detailedExplanation": "The Orchidaceae family, containing over 25,000 species, is characterized by several unique features. Their flowers show zygomorphic (bilateral) symmetry with one petal modified into a labellum or 'lip' that often serves as a landing platform for pollinators. Orchid seeds are among the smallest in the plant kingdom and lack endosperm, instead relying on symbiotic relationships with mycorrhizal fungi for germination and early growth. The family also typically has a column structure where stamens and pistils are fused.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Orchidaceae",
+    "citationTitle": "Wikipedia: Orchidaceae"
+  },
+  {
+    "id": "dedd8486-6b2a-4a2b-a4f3-3a6d877b4765",
+    "text": "In which cellular compartment does the Calvin cycle of photosynthesis occur?",
+    "options": [
+      "Thylakoid lumen",
+      "Thylakoid membrane",
+      "Chloroplast stroma",
+      "Cytoplasm"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "The Calvin cycle occurs in the stroma, the fluid-filled space surrounding the thylakoids in chloroplasts.",
+    "detailedExplanation": "The Calvin cycle, also known as the light-independent reactions or dark reactions of photosynthesis, takes place in the stroma of chloroplasts. The stroma is the gel-like matrix that surrounds the thylakoid membranes and contains the enzymes necessary for carbon fixation, including RuBisCO (ribulose-1,5-bisphosphate carboxylase/oxygenase). This compartment provides the appropriate environment for the enzymatic reactions that convert CO2 into organic compounds using the ATP and NADPH produced during the light-dependent reactions on the thylakoid membranes.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Calvin_cycle",
+    "citationTitle": "Wikipedia: Calvin cycle"
+  },
+  {
+    "id": "e5768bfe-0054-43b7-be38-893cd1440f1e",
+    "text": "Which plant hormone is primarily responsible for apical dominance, preventing lateral buds from growing while the main shoot continues to elongate?",
+    "options": [
+      "Auxin",
+      "Gibberellin",
+      "Cytokinin",
+      "Abscisic acid"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Auxin, produced in the apical meristem, suppresses the growth of lateral buds through apical dominance.",
+    "detailedExplanation": "Auxin is a plant hormone that plays a crucial role in apical dominance, a phenomenon where the main central stem of a plant grows more strongly than the side shoots. The auxin is produced in the shoot apex and transported downward, inhibiting the outgrowth of lateral buds. This allows the plant to grow vertically toward light sources before branching out. When the apical bud is removed, auxin levels drop and lateral buds begin to grow, which is why pruning encourages bushier growth in plants.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Auxin",
+    "citationTitle": "Wikipedia: Auxin"
+  },
+  {
+    "id": "254b1efd-6b29-4e48-8573-3e81daf6a3ee",
+    "text": "What specialized type of water-conducting cell found in gymnosperms and some angiosperms has bordered pits and provides both structural support and water transport?",
+    "options": [
+      "Vessel elements",
+      "Tracheids",
+      "Sieve tubes",
+      "Companion cells"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Tracheids are elongated cells with bordered pits that conduct water and provide structural support in vascular plants.",
+    "detailedExplanation": "Tracheids are specialized water-conducting cells that are the primary component of xylem in gymnosperms and are also found in angiosperms alongside vessel elements. They are elongated, dead cells at maturity with thick, lignified walls that provide structural support to the plant. Their characteristic bordered pits allow water to move between adjacent tracheids while preventing air bubbles from passing through, which could cause cavitation and block water transport. This dual function of water conduction and structural support makes tracheids essential for plant survival, especially in tall trees.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Tracheid",
+    "citationTitle": "Wikipedia: Tracheid"
+  },
+  {
+    "id": "84c4b630-6e0d-457c-996c-2e4355cc33e0",
+    "text": "In which photosynthetic pathway do plants initially fix CO2 into a 4-carbon compound before transferring it to bundle sheath cells for the Calvin cycle?",
+    "options": [
+      "CAM photosynthesis",
+      "C3 photosynthesis",
+      "C4 photosynthesis",
+      "Photorespiration"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "C4 photosynthesis involves fixing CO2 into 4-carbon compounds in mesophyll cells before concentrating it in bundle sheath cells.",
+    "detailedExplanation": "C4 photosynthesis is an adaptation found in about 3% of flowering plants, including corn, sugarcane, and many tropical grasses. In this pathway, CO2 is first fixed by the enzyme PEP carboxylase in mesophyll cells, forming 4-carbon compounds like malate or aspartate. These compounds are then transported to specialized bundle sheath cells, where they release CO2 in high concentrations around the enzyme RuBisCO. This spatial separation and CO2 concentration mechanism minimizes photorespiration and increases photosynthetic efficiency, particularly in hot, dry conditions where C3 plants struggle.",
+    "citationUrl": "https://en.wikipedia.org/wiki/C4_carbon_fixation",
+    "citationTitle": "Wikipedia: C4 carbon fixation"
+  },
+  {
+    "id": "b6a48aa1-eebf-42fc-8a99-ac12af83e61b",
+    "text": "What is the term for the symbiotic relationship between plant roots and fungi that enhances nutrient uptake, particularly phosphorus?",
+    "options": [
+      "Rhizobia",
+      "Mycorrhizae",
+      "Endophytes",
+      "Haustoria"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Mycorrhizae are symbiotic associations between plant roots and fungi that improve nutrient absorption, especially phosphorus.",
+    "detailedExplanation": "Mycorrhizae represent one of the most important symbiotic relationships in terrestrial ecosystems, involving the roots of most vascular plants and specialized soil fungi. The fungi extend the plant's root system through their hyphal networks, dramatically increasing the surface area for nutrient absorption. In exchange for carbohydrates from the plant, the fungi provide enhanced uptake of phosphorus, nitrogen, and other minerals. There are two main types: ectomycorrhizae, which form a sheath around roots, and endomycorrhizae (arbuscular mycorrhizae), which penetrate root cells. This relationship is so crucial that many plants cannot survive without their mycorrhizal partners.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Mycorrhiza",
+    "citationTitle": "Wikipedia: Mycorrhiza"
+  }
+]

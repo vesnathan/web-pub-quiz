@@ -32,7 +32,7 @@ export const RegistrationFormSchema = z
       .max(20, "Screen name must be at most 20 characters")
       .regex(
         /^[a-zA-Z0-9_]+$/,
-        "Screen name can only contain letters, numbers, and underscores"
+        "Screen name can only contain letters, numbers, and underscores",
       ),
     password: z
       .string()
@@ -42,7 +42,7 @@ export const RegistrationFormSchema = z
       .regex(/[0-9]/, "Password must contain at least one number")
       .regex(
         /[!@#$%^&*(),.?":{}|<>]/,
-        "Password must contain at least one special character"
+        "Password must contain at least one special character",
       ),
     confirmPassword: z.string().min(1, "Please confirm your password"),
   })

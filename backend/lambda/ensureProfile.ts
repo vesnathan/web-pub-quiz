@@ -11,6 +11,17 @@ interface EnsureProfileArgs {
   displayName: string;
 }
 
+interface UserSubscription {
+  tier: number;
+  status: string | null;
+  provider: string | null;
+  subscriptionId: string | null;
+  customerId: string | null;
+  startedAt: string | null;
+  expiresAt: string | null;
+  cancelledAt: string | null;
+}
+
 interface UserProfile {
   PK: string;
   SK: string;
@@ -31,7 +42,19 @@ interface UserProfile {
     currentStreak: number;
     longestStreak: number;
   };
+  subscription: UserSubscription;
 }
+
+const DEFAULT_SUBSCRIPTION: UserSubscription = {
+  tier: 0,
+  status: null,
+  provider: null,
+  subscriptionId: null,
+  customerId: null,
+  startedAt: null,
+  expiresAt: null,
+  cancelledAt: null,
+};
 
 async function checkDisplayNameExists(displayName: string): Promise<boolean> {
   const result = await docClient.send(new QueryCommand({
@@ -96,6 +119,7 @@ export const handler = async (event: AppSyncResolverEvent<EnsureProfileArgs>) =>
       displayName: existingProfile.Item.displayName,
       createdAt: existingProfile.Item.createdAt,
       stats: existingProfile.Item.stats,
+      subscription: existingProfile.Item.subscription || DEFAULT_SUBSCRIPTION,
     };
   }
 
@@ -125,6 +149,7 @@ export const handler = async (event: AppSyncResolverEvent<EnsureProfileArgs>) =>
       currentStreak: 0,
       longestStreak: 0,
     },
+    subscription: DEFAULT_SUBSCRIPTION,
   };
 
   try {
@@ -154,6 +179,7 @@ export const handler = async (event: AppSyncResolverEvent<EnsureProfileArgs>) =>
           displayName: profile.Item.displayName,
           createdAt: profile.Item.createdAt,
           stats: profile.Item.stats,
+          subscription: profile.Item.subscription || DEFAULT_SUBSCRIPTION,
         };
       }
     }
@@ -166,5 +192,6 @@ export const handler = async (event: AppSyncResolverEvent<EnsureProfileArgs>) =>
     displayName: userProfile.displayName,
     createdAt: userProfile.createdAt,
     stats: userProfile.stats,
+    subscription: userProfile.subscription,
   };
 };

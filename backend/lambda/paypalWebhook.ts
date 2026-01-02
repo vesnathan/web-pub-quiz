@@ -1,5 +1,5 @@
 import { DynamoDBClient } from '@aws-sdk/client-dynamodb';
-import { DynamoDBDocumentClient, UpdateCommand, QueryCommand } from '@aws-sdk/lib-dynamodb';
+import { DynamoDBDocumentClient, UpdateCommand, QueryCommand, PutCommand } from '@aws-sdk/lib-dynamodb';
 import { SecretsManagerClient, GetSecretValueCommand } from '@aws-sdk/client-secrets-manager';
 import type { SubscriptionTier, SubscriptionStatus } from '@quiz/shared';
 
@@ -313,6 +313,42 @@ async function handleSubscriptionUpdated(event: PayPalSubscriptionEvent): Promis
   console.log(`PayPal subscription updated for user ${userId}: tier=${tier}, status=${status}`);
 }
 
+async function logWebhookEvent(
+  eventId: string,
+  eventType: string,
+  payload: Record<string, unknown>,
+  status: 'received' | 'processed' | 'error',
+  errorMessage?: string
+): Promise<void> {
+  const now = new Date();
+  const timestamp = now.toISOString();
+
+  try {
+    await docClient.send(
+      new PutCommand({
+        TableName: TABLE_NAME,
+        Item: {
+          PK: 'WEBHOOK_LOG',
+          SK: `PAYPAL#${timestamp}#${eventId}`,
+          GSI1PK: 'WEBHOOK_LOG#PAYPAL',
+          GSI1SK: timestamp,
+          provider: 'paypal',
+          eventId,
+          eventType,
+          payload: JSON.stringify(payload),
+          status,
+          errorMessage,
+          createdAt: timestamp,
+          // TTL: 30 days from now
+          ttl: Math.floor(now.getTime() / 1000) + 30 * 24 * 60 * 60,
+        },
+      })
+    );
+  } catch (error) {
+    console.error('Failed to log webhook event:', error);
+  }
+}
+
 async function handleSubscriptionCancelled(event: PayPalSubscriptionEvent): Promise<void> {
   const resource = event.resource;
   const subscriptionId = resource.id;
@@ -382,6 +418,48 @@ async function handleSubscriptionSuspended(event: PayPalSubscriptionEvent): Prom
   console.log(`PayPal subscription suspended for user ${userId}`);
 }
 
+interface PayPalOrderEvent {
+  event_type: string;
+  resource: {
+    id: string;
+    purchase_units?: Array<{
+      custom_id?: string;
+    }>;
+    custom_id?: string;
+  };
+}
+
+async function handleTipPayment(event: PayPalOrderEvent): Promise<void> {
+  const resource = event.resource;
+
+  // Get userId from custom_id (set during order creation)
+  const userId = resource.purchase_units?.[0]?.custom_id || resource.custom_id;
+  if (!userId) {
+    console.log('PayPal order without custom_id (userId) - not a tip');
+    return;
+  }
+
+  const now = new Date();
+  const tipUnlockedUntil = new Date(now.getTime() + 24 * 60 * 60 * 1000).toISOString(); // 24 hours from now
+
+  await docClient.send(
+    new UpdateCommand({
+      TableName: TABLE_NAME,
+      Key: { PK: `USER#${userId}`, SK: 'PROFILE' },
+      UpdateExpression: `
+        SET tipUnlockedUntil = :tipUnlockedUntil,
+            updatedAt = :now
+      `,
+      ExpressionAttributeValues: {
+        ':tipUnlockedUntil': tipUnlockedUntil,
+        ':now': now.toISOString(),
+      },
+    })
+  );
+
+  console.log(`PayPal tip payment processed for user ${userId}, unlocked until ${tipUnlockedUntil}`);
+}
+
 export async function handler(event: APIGatewayEvent): Promise<APIGatewayResponse> {
   console.log('PayPal webhook received');
 
@@ -413,38 +491,58 @@ export async function handler(event: APIGatewayEvent): Promise<APIGatewayRespons
     // Parse event
     const paypalEvent = JSON.parse(rawBody);
     const eventType = paypalEvent.event_type;
+    const eventId = paypalEvent.id;
 
-    console.log(`Processing PayPal event: ${eventType}`);
+    console.log(`Processing PayPal event: ${eventType} (${eventId})`);
 
-    // Handle different event types
-    switch (eventType) {
-      case 'BILLING.SUBSCRIPTION.CREATED':
-        await handleSubscriptionCreated(paypalEvent);
-        break;
+    // Log webhook received
+    await logWebhookEvent(eventId, eventType, paypalEvent, 'received');
 
-      case 'BILLING.SUBSCRIPTION.ACTIVATED':
-        await handleSubscriptionActivated(paypalEvent);
-        break;
+    try {
+      // Handle different event types
+      switch (eventType) {
+        case 'BILLING.SUBSCRIPTION.CREATED':
+          await handleSubscriptionCreated(paypalEvent);
+          break;
 
-      case 'BILLING.SUBSCRIPTION.UPDATED':
-        await handleSubscriptionUpdated(paypalEvent);
-        break;
+        case 'BILLING.SUBSCRIPTION.ACTIVATED':
+          await handleSubscriptionActivated(paypalEvent);
+          break;
 
-      case 'BILLING.SUBSCRIPTION.CANCELLED':
-        await handleSubscriptionCancelled(paypalEvent);
-        break;
+        case 'BILLING.SUBSCRIPTION.UPDATED':
+          await handleSubscriptionUpdated(paypalEvent);
+          break;
 
-      case 'BILLING.SUBSCRIPTION.SUSPENDED':
-        await handleSubscriptionSuspended(paypalEvent);
-        break;
+        case 'BILLING.SUBSCRIPTION.CANCELLED':
+          await handleSubscriptionCancelled(paypalEvent);
+          break;
 
-      case 'PAYMENT.SALE.COMPLETED':
-        // Payment successful - subscription should already be active
-        console.log('PayPal payment completed');
-        break;
+        case 'BILLING.SUBSCRIPTION.SUSPENDED':
+          await handleSubscriptionSuspended(paypalEvent);
+          break;
 
-      default:
-        console.log(`Unhandled PayPal event type: ${eventType}`);
+        case 'PAYMENT.SALE.COMPLETED':
+          // Payment successful - subscription should already be active
+          console.log('PayPal payment completed');
+          break;
+
+        case 'CHECKOUT.ORDER.APPROVED':
+        case 'PAYMENT.CAPTURE.COMPLETED':
+          // One-time payment (tip) completed
+          await handleTipPayment(paypalEvent);
+          break;
+
+        default:
+          console.log(`Unhandled PayPal event type: ${eventType}`);
+      }
+
+      // Log webhook processed successfully
+      await logWebhookEvent(eventId, eventType, paypalEvent, 'processed');
+    } catch (processingError) {
+      // Log webhook processing error
+      const errorMessage = processingError instanceof Error ? processingError.message : 'Unknown error';
+      await logWebhookEvent(eventId, eventType, paypalEvent, 'error', errorMessage);
+      throw processingError;
     }
 
     return {

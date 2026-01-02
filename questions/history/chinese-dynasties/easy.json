@@ -1,0 +1,342 @@
+[
+  {
+    "id": "e903bfdf-88ed-462a-a1c5-ed178507a8ed",
+    "text": "Which dynasty is famous for building the Great Wall of China as we know it today?",
+    "options": [
+      "Tang Dynasty",
+      "Ming Dynasty",
+      "Song Dynasty",
+      "Yuan Dynasty"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "The Ming Dynasty (1368-1644) built most of the Great Wall that tourists visit today.",
+    "detailedExplanation": "While earlier dynasties built walls for defense, the Ming Dynasty constructed the majority of the Great Wall that exists today. They rebuilt and extended earlier fortifications into the iconic stone and brick structure that stretches over 13,000 miles across northern China. The Ming emperors undertook this massive project to defend against Mongol invasions from the north.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Great_Wall_of_China",
+    "citationTitle": "Wikipedia: Great Wall of China"
+  },
+  {
+    "id": "0dbaf737-b9b5-4ca0-a365-ae0ce8043878",
+    "text": "What was the first unified dynasty of China?",
+    "options": [
+      "Qin Dynasty",
+      "Han Dynasty",
+      "Shang Dynasty",
+      "Zhou Dynasty"
+    ],
+    "correctIndex": 0,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "The Qin Dynasty (221-206 BCE) was the first to unify all of China under one ruler.",
+    "detailedExplanation": "The Qin Dynasty, though short-lived, was historically significant as the first dynasty to unify all of China under Emperor Qin Shi Huang. Despite lasting only 15 years, the Qin established many foundational elements of Chinese civilization including standardized currency, writing systems, and measurements. The dynasty's name is the origin of the English word 'China'.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Qin_dynasty",
+    "citationTitle": "Wikipedia: Qin Dynasty"
+  },
+  {
+    "id": "5f5c9bbd-4811-4045-ad65-fde34aed210e",
+    "text": "Which dynasty was the last imperial dynasty of China?",
+    "options": [
+      "Ming Dynasty",
+      "Yuan Dynasty",
+      "Tang Dynasty",
+      "Qing Dynasty"
+    ],
+    "correctIndex": 3,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "The Qing Dynasty (1644-1912) was China's final imperial dynasty before the republic.",
+    "detailedExplanation": "The Qing Dynasty ruled China for nearly 270 years and was established by the Manchus, making it the second dynasty ruled by non-Han people. The Qing expanded China to its largest territorial extent and reached its peak during the reigns of the Kangxi and Qianlong emperors. The dynasty ended in 1912 with the abdication of Emperor Puyi and the establishment of the Republic of China.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Qing_dynasty",
+    "citationTitle": "Wikipedia: Qing Dynasty"
+  },
+  {
+    "id": "773a92b8-356d-4412-be59-b06526b17e46",
+    "text": "During which dynasty was the famous Terracotta Army created?",
+    "options": [
+      "Han Dynasty",
+      "Qin Dynasty",
+      "Tang Dynasty",
+      "Ming Dynasty"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "The Terracotta Army was built during the Qin Dynasty for Emperor Qin Shi Huang's tomb.",
+    "detailedExplanation": "The Terracotta Army consists of thousands of life-sized clay soldiers, horses, and chariots that were buried with China's first emperor, Qin Shi Huang, around 210-209 BCE. This archaeological wonder was discovered in 1974 near Xi'an and is considered one of the greatest archaeological finds of the 20th century. Each terracotta warrior has unique facial features and was originally painted in bright colors.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Terracotta_Army",
+    "citationTitle": "Wikipedia: Terracotta Army"
+  },
+  {
+    "id": "220fd02e-880b-4970-9b7d-af1d36c20ee2",
+    "text": "Which dynasty is considered the golden age of Chinese poetry and culture?",
+    "options": [
+      "Tang Dynasty",
+      "Song Dynasty",
+      "Han Dynasty",
+      "Qing Dynasty"
+    ],
+    "correctIndex": 0,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "The Tang Dynasty (618-907 CE) is renowned as the golden age of Chinese poetry and arts.",
+    "detailedExplanation": "The Tang Dynasty is often considered the pinnacle of Chinese civilization, particularly known for its poetry, art, and cultural achievements. Famous poets like Li Bai and Du Fu lived during this period. The Tang was also notable for its cosmopolitan capital Chang'an (modern Xi'an), religious tolerance, and the only female emperor in Chinese history, Wu Zetian. The dynasty was marked by territorial expansion and flourishing trade along the Silk Road.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Tang_dynasty",
+    "citationTitle": "Wikipedia: Tang Dynasty"
+  },
+  {
+    "id": "4b1e0fc5-403d-4d1d-9653-3563cfc7eff6",
+    "text": "Which dynasty was established by Kublai Khan?",
+    "options": [
+      "Ming Dynasty",
+      "Yuan Dynasty",
+      "Song Dynasty",
+      "Jin Dynasty"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "Kublai Khan, grandson of Genghis Khan, founded the Yuan Dynasty in 1271.",
+    "detailedExplanation": "The Yuan Dynasty (1271-1368) was established by Kublai Khan, making it the first dynasty to rule all of China under foreign leadership. As Mongols, the Yuan rulers maintained many of their traditional customs while adopting Chinese administrative practices. This dynasty is famous for hosting Marco Polo at Kublai Khan's court and for promoting trade and cultural exchange. The Yuan eventually fell to the Ming Dynasty after about a century of rule.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Yuan_dynasty",
+    "citationTitle": "Wikipedia: Yuan Dynasty"
+  },
+  {
+    "id": "58dc04e9-78f7-4d98-a330-b46cf016dc14",
+    "text": "What major invention is the Han Dynasty credited with creating?",
+    "options": [
+      "Gunpowder",
+      "Paper",
+      "Compass",
+      "Printing press"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "The Han Dynasty invented paper around 105 CE, revolutionizing communication and record-keeping.",
+    "detailedExplanation": "The Han Dynasty (206 BCE - 220 CE) is credited with the invention of paper by Cai Lun, a court official, around 105 CE. This invention revolutionized communication, education, and record-keeping not just in China but eventually worldwide. The Han Dynasty also established the Silk Road trade routes, created a merit-based civil service system, and developed many other technologies. The period was so influential that ethnic Chinese still call themselves 'Han people' today.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Han_dynasty",
+    "citationTitle": "Wikipedia: Han Dynasty"
+  },
+  {
+    "id": "e5481734-1fee-4b30-a6a0-89aa9d6d7813",
+    "text": "Which dynasty came immediately after the fall of the Yuan Dynasty?",
+    "options": [
+      "Qing Dynasty",
+      "Tang Dynasty",
+      "Ming Dynasty",
+      "Song Dynasty"
+    ],
+    "correctIndex": 2,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "The Ming Dynasty (1368-1644) succeeded the Yuan Dynasty after overthrowing Mongol rule.",
+    "detailedExplanation": "The Ming Dynasty was founded by Emperor Hongwu (formerly Zhu Yuanzhang), a peasant who led a rebellion against the Mongol Yuan Dynasty. The Ming restored native Chinese rule and established their capital first in Nanjing, then later in Beijing. This dynasty is famous for the Forbidden City, Admiral Zheng He's maritime expeditions, and the aforementioned reconstruction of the Great Wall. The Ming period saw significant developments in literature, including classic novels like 'Journey to the West.'",
+    "citationUrl": "https://en.wikipedia.org/wiki/Ming_dynasty",
+    "citationTitle": "Wikipedia: Ming Dynasty"
+  },
+  {
+    "id": "6eb03b22-bd8e-4727-ba6b-555a3aa2b0b2",
+    "text": "Which dynasty is famous for building most of the Great Wall of China as we know it today?",
+    "options": [
+      "Ming Dynasty",
+      "Tang Dynasty",
+      "Song Dynasty",
+      "Yuan Dynasty"
+    ],
+    "correctIndex": 0,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "The Ming Dynasty (1368-1644) built and restored most of the Great Wall sections that tourists visit today.",
+    "detailedExplanation": "While earlier dynasties like the Qin began wall construction, the Ming Dynasty undertook the most extensive building and restoration of the Great Wall between 1368-1644. The iconic brick and stone sections that millions of tourists visit today, including areas near Beijing, were primarily constructed during the Ming period as defense against northern invasions.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Great_Wall_of_China",
+    "citationTitle": "Wikipedia: Great Wall of China"
+  },
+  {
+    "id": "b5478240-e574-4b33-9d33-d32ad161a533",
+    "text": "What was the first dynasty to unify China under one emperor?",
+    "options": [
+      "Han Dynasty",
+      "Qin Dynasty",
+      "Zhou Dynasty",
+      "Shang Dynasty"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "The Qin Dynasty (221-206 BCE) first unified China under Emperor Qin Shi Huang.",
+    "detailedExplanation": "The Qin Dynasty, though short-lived (221-206 BCE), achieved the monumental task of unifying China's warring states under Emperor Qin Shi Huang. This dynasty standardized currency, writing systems, and measurements across the newly unified territory. Despite lasting only 15 years, the Qin established the template for imperial rule that would influence Chinese governance for over 2,000 years.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Qin_dynasty",
+    "citationTitle": "Wikipedia: Qin Dynasty"
+  },
+  {
+    "id": "36631c63-a4be-41fa-ba34-0de2c2a3baec",
+    "text": "Which dynasty ruled China for the longest period in Chinese history?",
+    "options": [
+      "Ming Dynasty",
+      "Tang Dynasty",
+      "Zhou Dynasty",
+      "Han Dynasty"
+    ],
+    "correctIndex": 2,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "The Zhou Dynasty ruled for approximately 800 years (1046-256 BCE), making it the longest-ruling dynasty.",
+    "detailedExplanation": "The Zhou Dynasty holds the record as China's longest-ruling dynasty, lasting approximately 800 years from 1046 to 256 BCE. The Zhou period is divided into the Western Zhou (1046-771 BCE) and Eastern Zhou (770-256 BCE). This dynasty introduced the concept of the 'Mandate of Heaven,' which justified their rule and became a fundamental principle in Chinese political philosophy for centuries to come.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Zhou_dynasty",
+    "citationTitle": "Wikipedia: Zhou Dynasty"
+  },
+  {
+    "id": "d9093c42-7c6d-4850-aa71-6ac138846dfc",
+    "text": "The Tang Dynasty is often considered the golden age of which art form?",
+    "options": [
+      "Sculpture",
+      "Poetry",
+      "Painting",
+      "Architecture"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "The Tang Dynasty (618-907 CE) is renowned as the golden age of Chinese poetry, producing legendary poets like Li Bai and Du Fu.",
+    "detailedExplanation": "The Tang Dynasty (618-907 CE) is celebrated as the pinnacle of Chinese poetry, with an estimated 48,900 poems surviving from this era. Famous poets like Li Bai (Li Po) and Du Fu created works that are still revered today. The dynasty's cosmopolitan culture, economic prosperity, and imperial patronage of the arts created ideal conditions for poetic expression, making Tang poetry a cornerstone of Chinese literature.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Tang_dynasty",
+    "citationTitle": "Wikipedia: Tang Dynasty"
+  },
+  {
+    "id": "25faa176-d5b5-4ebb-bf4c-f91d5097acf7",
+    "text": "Which dynasty was founded by Kublai Khan?",
+    "options": [
+      "Ming Dynasty",
+      "Song Dynasty",
+      "Yuan Dynasty",
+      "Qing Dynasty"
+    ],
+    "correctIndex": 2,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "The Yuan Dynasty (1271-1368) was established by Kublai Khan, grandson of Genghis Khan.",
+    "detailedExplanation": "The Yuan Dynasty was founded by Kublai Khan in 1271, making it the first dynasty to rule all of China under foreign leadership. As the grandson of Genghis Khan, Kublai Khan completed the Mongol conquest of China and established Beijing as the capital. This dynasty is notable for being visited by Marco Polo and for integrating China into the larger Mongol Empire, facilitating trade and cultural exchange along the Silk Road.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Yuan_dynasty",
+    "citationTitle": "Wikipedia: Yuan Dynasty"
+  },
+  {
+    "id": "95f4e0e1-c7e5-4c50-8278-e895661b9ba1",
+    "text": "What major trade route flourished during the Han Dynasty?",
+    "options": [
+      "The Silk Road",
+      "The Tea Route",
+      "The Spice Route",
+      "The Jade Path"
+    ],
+    "correctIndex": 0,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "The Silk Road trade network was established and flourished during the Han Dynasty (206 BCE - 220 CE).",
+    "detailedExplanation": "The Han Dynasty (206 BCE - 220 CE) established and developed the famous Silk Road, a network of trade routes connecting China with Central Asia, the Middle East, and eventually Europe. This trade network facilitated not only the exchange of silk, spices, and other goods, but also the spread of ideas, technologies, and religions. The Han's military expansion westward secured these trade routes and brought immense wealth to the empire.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Han_dynasty",
+    "citationTitle": "Wikipedia: Han Dynasty"
+  },
+  {
+    "id": "30749cdd-4ed4-4583-87da-edd6b260392d",
+    "text": "Which was the last imperial dynasty to rule China?",
+    "options": [
+      "Ming Dynasty",
+      "Yuan Dynasty",
+      "Qing Dynasty",
+      "Song Dynasty"
+    ],
+    "correctIndex": 2,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "The Qing Dynasty (1644-1912) was China's final imperial dynasty before the Republic of China was established.",
+    "detailedExplanation": "The Qing Dynasty ruled China from 1644 to 1912, making it the last imperial dynasty in Chinese history. Founded by the Manchus, this dynasty saw China reach its largest territorial extent but also faced significant challenges from Western powers and internal rebellions. The dynasty ended with the Xinhai Revolution in 1912, leading to the establishment of the Republic of China and ending over 2,000 years of imperial rule.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Qing_dynasty",
+    "citationTitle": "Wikipedia: Qing Dynasty"
+  },
+  {
+    "id": "d6a67a61-8be1-483a-8ff4-fe52960b37aa",
+    "text": "Which Chinese dynasty is famous for building most of the Great Wall of China as we know it today?",
+    "options": [
+      "Ming Dynasty",
+      "Tang Dynasty",
+      "Song Dynasty",
+      "Yuan Dynasty"
+    ],
+    "correctIndex": 0,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "The Ming Dynasty (1368-1644) built most of the Great Wall that tourists visit today.",
+    "detailedExplanation": "While earlier dynasties built walls and fortifications, the Ming Dynasty constructed most of the Great Wall of China that exists today. After overthrowing the Mongol Yuan Dynasty, the Ming rulers rebuilt and extended the wall using brick and stone rather than the earth and wood used by earlier dynasties. The iconic sections near Beijing, including Badaling and Mutianyu, were built during the Ming period as defense against northern invasions.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Ming_dynasty",
+    "citationTitle": "Wikipedia: Ming dynasty"
+  },
+  {
+    "id": "dac9abf1-4864-417f-8f78-661aea14a1d3",
+    "text": "What was the last imperial dynasty to rule China before the establishment of the Republic of China?",
+    "options": [
+      "Ming Dynasty",
+      "Tang Dynasty",
+      "Qing Dynasty",
+      "Song Dynasty"
+    ],
+    "correctIndex": 2,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "The Qing Dynasty (1644-1912) was China's final imperial dynasty, ending with the 1911 Revolution.",
+    "detailedExplanation": "The Qing Dynasty, established by the Manchus, was China's last imperial dynasty, ruling from 1644 to 1912. It began when Manchu forces conquered the Ming Dynasty and ended with the Xinhai Revolution in 1911, which led to the abdication of the last emperor, Puyi, in 1912. The Qing Dynasty was notable for being founded by non-Han Chinese rulers and for significant territorial expansion, but it eventually declined due to internal rebellions, foreign invasions, and pressure from Western powers.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Qing_dynasty",
+    "citationTitle": "Wikipedia: Qing dynasty"
+  },
+  {
+    "id": "a0edf85c-96f6-4452-95eb-64ab66846018",
+    "text": "Which dynasty was founded by Liu Bang and is known for establishing the Silk Road trade routes?",
+    "options": [
+      "Qin Dynasty",
+      "Han Dynasty",
+      "Zhou Dynasty",
+      "Jin Dynasty"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "The Han Dynasty (206 BCE - 220 CE), founded by Liu Bang, established the Silk Road and greatly expanded Chinese territory and influence.",
+    "detailedExplanation": "The Han Dynasty was founded by Liu Bang (later Emperor Gaozu) in 206 BCE after the fall of the short-lived Qin Dynasty. The Han Dynasty is credited with establishing and developing the Silk Road, the famous network of trade routes connecting China with Central Asia, the Middle East, and eventually Europe. Under Emperor Wu, the Han expanded westward and sent explorer Zhang Qian to establish diplomatic and trade relations with western regions. The dynasty lasted over 400 years and was so influential that the majority ethnic group in China is still called 'Han Chinese' today.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Han_dynasty",
+    "citationTitle": "Wikipedia: Han dynasty"
+  },
+  {
+    "id": "75898e13-5aa8-4cd3-929b-c77f41c4820b",
+    "text": "Which short-lived dynasty is famous for unifying China and standardizing currency, writing, and measurements?",
+    "options": [
+      "Qin Dynasty",
+      "Sui Dynasty",
+      "Jin Dynasty",
+      "Xia Dynasty"
+    ],
+    "correctIndex": 0,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "The Qin Dynasty (221-206 BCE), though lasting only 15 years, unified China and standardized many aspects of Chinese civilization.",
+    "detailedExplanation": "The Qin Dynasty, established by Qin Shi Huang in 221 BCE, was China's first unified imperial dynasty, though it lasted only 15 years until 206 BCE. Despite its brief duration, the Qin Dynasty implemented sweeping reforms that shaped Chinese civilization for millennia. Qin Shi Huang standardized currency, weights and measures, writing systems, and even cart axle widths across the newly unified territory. The dynasty also began construction of what would become the Great Wall by connecting existing defensive walls built by earlier warring states. The name 'China' itself derives from 'Qin.'",
+    "citationUrl": "https://en.wikipedia.org/wiki/Qin_dynasty",
+    "citationTitle": "Wikipedia: Qin dynasty"
+  },
+  {
+    "id": "5829ce58-9da4-4ddb-8474-1ea1ad79004b",
+    "text": "Which Chinese dynasty is famous for building most of the Great Wall of China that exists today?",
+    "options": [
+      "Tang Dynasty",
+      "Ming Dynasty",
+      "Song Dynasty",
+      "Yuan Dynasty"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "The Ming Dynasty (1368-1644) built most of the Great Wall that tourists visit today.",
+    "detailedExplanation": "While earlier dynasties like the Qin built sections of defensive walls, the Great Wall of China that exists today and attracts millions of visitors was primarily constructed during the Ming Dynasty (1368-1644). The Ming emperors rebuilt, extended, and fortified the wall using brick and stone, creating the iconic structure we recognize today. The Ming Dynasty undertook this massive construction project to defend against invasions from northern nomadic tribes, particularly the Mongols.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Great_Wall_of_China",
+    "citationTitle": "Wikipedia: Great Wall of China"
+  }
+]

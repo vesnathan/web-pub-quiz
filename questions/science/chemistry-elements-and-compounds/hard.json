@@ -1,0 +1,342 @@
+[
+  {
+    "id": "718c9a68-b08e-450c-b2ea-28367ff95cc3",
+    "text": "Which element has the highest electronegativity on the Pauling scale?",
+    "options": [
+      "Oxygen",
+      "Fluorine",
+      "Chlorine",
+      "Nitrogen"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Fluorine has the highest electronegativity at 3.98 on the Pauling scale.",
+    "detailedExplanation": "Electronegativity measures an atom's ability to attract electrons in a chemical bond. Fluorine tops the Pauling scale at 3.98, followed by oxygen at 3.44. This extreme electronegativity makes fluorine highly reactive and explains why it forms some of the strongest bonds in chemistry, such as the carbon-fluorine bond in Teflon.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Electronegativity",
+    "citationTitle": "Wikipedia: Electronegativity"
+  },
+  {
+    "id": "75bef895-9e7f-4cea-8e6b-8d609a3b0458",
+    "text": "What is the molecular geometry of sulfur hexafluoride (SF₆)?",
+    "options": [
+      "Tetrahedral",
+      "Octahedral",
+      "Trigonal bipyramidal",
+      "Square planar"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "SF₆ has an octahedral molecular geometry with six fluorine atoms arranged symmetrically around the central sulfur atom.",
+    "detailedExplanation": "Sulfur hexafluoride demonstrates expanded octet behavior, where sulfur uses its d orbitals to accommodate 12 electrons in six bonds. The VSEPR theory predicts an octahedral geometry with 90° bond angles. This perfectly symmetrical structure makes SF₆ an excellent electrical insulator and explains its use in high-voltage electrical equipment.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Sulfur_hexafluoride",
+    "citationTitle": "Wikipedia: Sulfur hexafluoride"
+  },
+  {
+    "id": "b12a09d7-3030-4f74-a42e-f43be4c788c7",
+    "text": "What is the oxidation state of chromium in the dichromate ion (Cr₂O₇²⁻)?",
+    "options": [
+      "+3",
+      "+4",
+      "+5",
+      "+6"
+    ],
+    "correctIndex": 3,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "In the dichromate ion, each chromium atom has an oxidation state of +6.",
+    "detailedExplanation": "The dichromate ion (Cr₂O₇²⁻) contains two chromium atoms, each in the +6 oxidation state. This can be calculated by considering that oxygen has a -2 oxidation state: 2x + 7(-2) = -2, where x is the chromium oxidation state, giving x = +6. This high oxidation state makes dichromate a powerful oxidizing agent, commonly used in analytical chemistry and industrial processes.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Dichromate",
+    "citationTitle": "Wikipedia: Dichromate"
+  },
+  {
+    "id": "6b5b82e5-1983-4e7d-acb3-b1dfe528d606",
+    "text": "Which element's most stable isotope has a half-life of only 2.01 minutes, making it the heaviest element with no stable isotopes that can be produced in weighable quantities?",
+    "options": [
+      "Francium",
+      "Astatine",
+      "Radon",
+      "Polonium"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Francium-223, the most stable isotope of francium, has a half-life of 2.01 minutes.",
+    "detailedExplanation": "Francium is the second rarest naturally occurring element (after astatine) and the heaviest alkali metal. Its most stable isotope, Fr-223, decays by beta emission with a half-life of just 2.01 minutes. This extremely short half-life means that only tiny amounts can exist at any given time, making francium one of the most difficult elements to study. It was the last naturally occurring element to be discovered, identified by Marguerite Perey in 1939.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Francium",
+    "citationTitle": "Wikipedia: Francium"
+  },
+  {
+    "id": "394b1ee7-b390-461a-b42f-97aff3df2977",
+    "text": "What is the hybridization of the central carbon atom in carbon tetrachloride (CCl₄)?",
+    "options": [
+      "sp",
+      "sp²",
+      "sp³",
+      "sp³d"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "The central carbon in CCl₄ is sp³ hybridized, forming four equivalent bonds in a tetrahedral geometry.",
+    "detailedExplanation": "In carbon tetrachloride, the central carbon atom undergoes sp³ hybridization, mixing one s orbital with three p orbitals to form four equivalent sp³ hybrid orbitals. These orbitals arrange themselves in a tetrahedral geometry with 109.5° bond angles to minimize electron pair repulsion. This hybridization explains CCl₄'s symmetrical structure and its properties as a nonpolar solvent.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Carbon_tetrachloride",
+    "citationTitle": "Wikipedia: Carbon tetrachloride"
+  },
+  {
+    "id": "3f19ce80-a633-4a93-b6cf-a7607fd4740e",
+    "text": "Which rare earth element is named after the village of Ytterby in Sweden and has the chemical symbol Yb?",
+    "options": [
+      "Yttrium",
+      "Ytterbium",
+      "Terbium",
+      "Erbium"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Ytterbium (Yb) is named after Ytterby, Sweden, where its ore was first discovered.",
+    "detailedExplanation": "Ytterbium, with symbol Yb and atomic number 70, is one of four elements named after the Swedish village of Ytterby (the others being yttrium, terbium, and erbium). This lanthanide element was discovered by Jean Charles Galissard de Marignac in 1878. Ytterbium is used in some stainless steel alloys and as a gamma ray source for portable X-ray machines when combined with other elements.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Ytterbium",
+    "citationTitle": "Wikipedia: Ytterbium"
+  },
+  {
+    "id": "4e43a734-8633-44c5-a6c6-734504b8334f",
+    "text": "Barbara McClintock won the Nobel Prize in 1983 for discovering what genetic phenomenon, decades before it was accepted by the scientific community?",
+    "options": [
+      "DNA fingerprinting",
+      "Jumping genes (transposition)",
+      "Gene splicing",
+      "Chromosomal crossover"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "McClintock discovered transposable elements or 'jumping genes' in the 1940s-50s, but wasn't recognized until the 1970s-80s.",
+    "detailedExplanation": "Barbara McClintock discovered transposable elements, or 'jumping genes,' through her work with maize in the 1940s and 1950s. Her findings showed that genes could move within chromosomes and regulate other genes, contradicting the prevailing view that genes were fixed in chromosomes. The scientific community largely ignored or dismissed her work for decades, considering it too radical. Only in the 1970s and 1980s, when molecular techniques confirmed transposition in bacteria and other organisms, was her groundbreaking work finally recognized, earning her the Nobel Prize in Physiology or Medicine in 1983.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Barbara_McClintock",
+    "citationTitle": "Wikipedia: Barbara McClintock"
+  },
+  {
+    "id": "ba0bfed5-9c7c-4daf-9c73-9a455e05a98c",
+    "text": "Which mineral polymorph of carbon is metastable at Earth's surface conditions but forms at high pressure and temperature in the mantle?",
+    "options": [
+      "Graphite",
+      "Diamond",
+      "Fullerene",
+      "Graphene"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Diamond forms at high pressure and temperature conditions in Earth's mantle but is metastable at surface conditions.",
+    "detailedExplanation": "Diamond is a high-pressure, high-temperature polymorph of carbon that forms deep within Earth's mantle at pressures exceeding 4.5 GPa and temperatures above 1000°C. While thermodynamically unstable (metastable) at Earth's surface conditions where graphite is the stable form, diamond persists due to kinetic barriers that prevent its conversion to graphite at low temperatures. This metastability allows diamonds to survive their journey to the surface through volcanic eruptions.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Diamond",
+    "citationTitle": "Wikipedia: Diamond"
+  },
+  {
+    "id": "f8407944-9d96-4cea-91c9-b07b733a5758",
+    "text": "What is the only element that forms a stable compound with helium under extreme conditions?",
+    "options": [
+      "Hydrogen",
+      "Fluorine",
+      "Oxygen",
+      "Xenon"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Fluorine can form HelF+ under extreme high pressure conditions.",
+    "detailedExplanation": "While helium is generally considered chemically inert, theoretical calculations and experiments under extreme pressure (above 113 GPa) have shown that helium can form a metastable ionic compound with fluorine, creating HelF+. This discovery challenges the traditional view of noble gases as completely unreactive and demonstrates how extreme conditions can force even the most inert elements to participate in chemical bonding.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Helium_compounds",
+    "citationTitle": "Wikipedia: Helium compounds"
+  },
+  {
+    "id": "70932c6f-8547-4ff4-afd0-5df345bfb5e0",
+    "text": "Which compound has the highest known melting point of any substance?",
+    "options": [
+      "Tungsten carbide",
+      "Hafnium carbide",
+      "Tantalum hafnium carbide",
+      "Diamond"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Tantalum hafnium carbide (Ta4HfC5) has a melting point of approximately 4215°C.",
+    "detailedExplanation": "Tantalum hafnium carbide (Ta4HfC5) holds the record for the highest melting point of any known compound at approximately 4215°C (7619°F). This ultra-high temperature ceramic was discovered relatively recently and surpasses other refractory materials like hafnium carbide and tantalum carbide. These materials are of great interest for applications in extreme environments such as rocket nozzles and hypersonic vehicle leading edges.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Tantalum_hafnium_carbide",
+    "citationTitle": "Wikipedia: Tantalum hafnium carbide"
+  },
+  {
+    "id": "1e9f7b02-2642-4c63-9a87-89f3913b278c",
+    "text": "What is the systematic IUPAC name for element 118?",
+    "options": [
+      "Ununoctium",
+      "Oganesson",
+      "Moscovium",
+      "Livermorium"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Element 118 was officially named Oganesson (Og) in 2016, honoring Russian physicist Yuri Oganessian.",
+    "detailedExplanation": "Element 118 was officially named Oganesson (Og) by the International Union of Pure and Applied Chemistry (IUPAC) in 2016. It honors Russian physicist Yuri Oganessian, who made significant contributions to superheavy element research. Before receiving its official name, it was temporarily called Ununoctium using IUPAC's systematic naming convention. Oganesson is a synthetic, radioactive element with an extremely short half-life, and it's predicted to be a noble gas despite being much heavier than other noble gases.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Oganesson",
+    "citationTitle": "Wikipedia: Oganesson"
+  },
+  {
+    "id": "c8916cd1-84e2-46b3-b092-0a9014abc9a9",
+    "text": "Which lanthanide element is paramagnetic at room temperature despite having a half-filled f orbital?",
+    "options": [
+      "Gadolinium",
+      "Europium",
+      "Terbium",
+      "Dysprosium"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Europium (Eu) is paramagnetic despite having seven unpaired f electrons in its divalent state.",
+    "detailedExplanation": "Europium is unique among the lanthanides because it commonly exists in the +2 oxidation state (Eu2+) rather than the typical +3 state. In the Eu2+ state, it has seven unpaired electrons in its 4f orbitals (4f7 configuration), which would normally suggest maximum magnetic moment. However, the actual magnetic behavior is more complex due to crystal field effects and temperature-dependent magnetic coupling. While gadolinium (Gd3+) also has seven unpaired f electrons and shows strong paramagnetism, europium's behavior is distinctive due to its preference for the divalent state.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Europium",
+    "citationTitle": "Wikipedia: Europium"
+  },
+  {
+    "id": "3b297647-478e-44a6-a43e-66d5eee7ab0f",
+    "text": "Which allotrope of carbon has the lowest density?",
+    "options": [
+      "Graphite",
+      "Diamond",
+      "Graphene",
+      "Carbon aerogel"
+    ],
+    "correctIndex": 3,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Carbon aerogel can have densities as low as 0.16 mg/cm³, making it one of the lightest solid materials.",
+    "detailedExplanation": "Carbon aerogel is an extremely lightweight allotrope of carbon with a three-dimensional network structure of interconnected carbon particles. It can achieve densities as low as 0.16 mg/cm³, making it lighter than air and one of the lightest solid materials known. While graphene is technically a single layer of carbon atoms and has minimal mass per unit area, carbon aerogel represents a bulk three-dimensional material. These aerogels are created through sol-gel processes and are used in applications requiring ultra-light materials with high surface area, such as supercapacitor electrodes and thermal insulation.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Carbon_aerogel",
+    "citationTitle": "Wikipedia: Carbon aerogel"
+  },
+  {
+    "id": "65b5d778-c09a-41ad-8a21-82a06fb75924",
+    "text": "What is the coordination number of the central metal atom in potassium ferricyanide?",
+    "options": [
+      "4",
+      "6",
+      "8",
+      "12"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "In K3[Fe(CN)6], the iron atom is coordinated to six cyanide ligands in an octahedral arrangement.",
+    "detailedExplanation": "Potassium ferricyanide, K3[Fe(CN)6], contains the ferricyanide ion [Fe(CN)6]3- where the central iron(III) atom is coordinated to six cyanide ligands. Each cyanide ion acts as a monodentate ligand, bonding through its carbon atom to the iron center. This results in a coordination number of 6 and an octahedral geometry around the iron atom. The compound is notable for its stability due to the strong field cyanide ligands, which cause significant crystal field splitting and result in a low-spin iron(III) complex.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Potassium_ferricyanide",
+    "citationTitle": "Wikipedia: Potassium ferricyanide"
+  },
+  {
+    "id": "458e774f-dcff-48d3-99d0-4c84e68cc934",
+    "text": "Which element has the largest atomic radius in the periodic table?",
+    "options": [
+      "Cesium",
+      "Francium",
+      "Radium",
+      "Actinium"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Francium has the largest atomic radius due to being in the bottom-left corner of the periodic table.",
+    "detailedExplanation": "Francium (Fr) has the largest atomic radius of all elements, estimated to be around 260-270 picometers. As the heaviest alkali metal in period 7, francium exhibits the maximum effect of both increasing period number (more electron shells) and being in group 1 (single valence electron with minimal effective nuclear charge). However, precise measurements are extremely difficult because francium is highly radioactive with a very short half-life (the longest-lived isotope, Fr-223, has a half-life of only 22 minutes), making it one of the rarest naturally occurring elements on Earth.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Francium",
+    "citationTitle": "Wikipedia: Francium"
+  },
+  {
+    "id": "71e51c2b-143f-4020-936d-9cb5730b720c",
+    "text": "What is the molecular formula for the compound known as 'laughing gas'?",
+    "options": [
+      "NO",
+      "NO₂",
+      "N₂O",
+      "N₂O₄"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Nitrous oxide (N₂O) is commonly known as laughing gas and used as an anesthetic.",
+    "detailedExplanation": "Nitrous oxide (N₂O), commonly called laughing gas, is a colorless gas with a slightly sweet odor and taste. It was first synthesized by Joseph Priestley in 1772 and later used by Humphry Davy, who coined the term 'laughing gas' due to its euphoric effects. The compound consists of two nitrogen atoms bonded to one oxygen atom and is widely used in medicine as an anesthetic and analgesic, as well as in food production as a propellant.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Nitrous_oxide",
+    "citationTitle": "Wikipedia: Nitrous oxide"
+  },
+  {
+    "id": "0a91c5d0-0f8a-472f-9a56-d3a4165f36dc",
+    "text": "Which synthetic element was first created by bombarding curium-242 with alpha particles?",
+    "options": [
+      "Seaborgium",
+      "Berkelium",
+      "Californium",
+      "Einsteinium"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Berkelium was first synthesized in 1949 by bombarding curium-242 with alpha particles at UC Berkeley.",
+    "detailedExplanation": "Berkelium (element 97) was first synthesized on December 19, 1949, by Glenn T. Seaborg, Albert Ghiorso, Stanley G. Thompson, and Kenneth Street Jr. at the University of California, Berkeley. They created it by bombarding a curium-242 target with alpha particles (helium-4 nuclei) in a cyclotron. The element was named after Berkeley, California, where it was discovered. Berkelium is an actinide metal that is extremely radioactive and has no practical applications outside of scientific research.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Berkelium",
+    "citationTitle": "Wikipedia: Berkelium"
+  },
+  {
+    "id": "46e3fa95-e2b4-4983-a5be-725c9d832ac1",
+    "text": "What type of crystal structure does diamond have?",
+    "options": [
+      "Face-centered cubic",
+      "Body-centered cubic",
+      "Hexagonal close-packed",
+      "Cubic close-packed (face-centered cubic)"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Diamond has a face-centered cubic crystal structure where each carbon atom is tetrahedrally bonded to four others.",
+    "detailedExplanation": "Diamond crystallizes in a face-centered cubic (FCC) crystal structure, also known as the diamond cubic structure. In this arrangement, each carbon atom is covalently bonded to four other carbon atoms in a tetrahedral geometry, with bond angles of approximately 109.5°. This three-dimensional network of strong covalent bonds throughout the entire crystal structure gives diamond its exceptional hardness, making it the hardest naturally occurring material. The FCC structure can be visualized as two interpenetrating face-centered cubic lattices offset by one-quarter of the space diagonal.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Diamond_cubic",
+    "citationTitle": "Wikipedia: Diamond cubic"
+  },
+  {
+    "id": "a4c76e23-937b-4959-9b0d-f3020fa1b58e",
+    "text": "Which element has the highest first ionization energy of all the elements in the periodic table?",
+    "options": [
+      "Fluorine",
+      "Helium",
+      "Neon",
+      "Hydrogen"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Helium has the highest first ionization energy at 2372 kJ/mol due to its complete electron shell and high nuclear charge relative to its size.",
+    "detailedExplanation": "While many people might guess fluorine due to its high electronegativity, helium actually holds the record for the highest first ionization energy of all elements. This is because helium has a completely filled outer electron shell (1s²) and a relatively high nuclear charge for its small size, making it extremely difficult to remove an electron. The first ionization energy of helium is 2372 kJ/mol, significantly higher than fluorine's 1681 kJ/mol, neon's 2081 kJ/mol, or hydrogen's 1312 kJ/mol.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Ionization_energy",
+    "citationTitle": "Wikipedia: Ionization Energy"
+  },
+  {
+    "id": "bd9dd9ba-a11e-4748-8557-c76f356f83ac",
+    "text": "Which element has the highest electronegativity on the Pauling scale, making it the most electron-attracting element in chemical bonds?",
+    "options": [
+      "Oxygen",
+      "Fluorine",
+      "Chlorine",
+      "Nitrogen"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Fluorine has the highest electronegativity at 3.98 on the Pauling scale.",
+    "detailedExplanation": "Fluorine holds the distinction of being the most electronegative element on the periodic table with a Pauling electronegativity value of 3.98. This extreme electronegativity is due to fluorine's small atomic radius and high nuclear charge relative to its electron cloud, making it incredibly effective at attracting electrons in chemical bonds. This property makes fluorine compounds highly reactive and explains why hydrogen fluoride (HF) forms such strong hydrogen bonds compared to other hydrogen halides.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Electronegativity",
+    "citationTitle": "Wikipedia: Electronegativity"
+  }
+]

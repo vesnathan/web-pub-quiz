@@ -1,8 +1,8 @@
-'use client';
+"use client";
 
-import { useState, useEffect, useCallback } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
-import { useGameStore } from '@/stores/gameStore';
+import { useState, useEffect, useCallback } from "react";
+import { motion, AnimatePresence } from "framer-motion";
+import { useGameStore } from "@/stores/gameStore";
 
 interface BuzzerProps {
   enabled: boolean;
@@ -11,7 +11,12 @@ interface BuzzerProps {
   otherPlayerBuzzed?: string | null; // Name of player who buzzed (if not current player)
 }
 
-export function Buzzer({ enabled, isWinner, deadline, otherPlayerBuzzed }: BuzzerProps) {
+export function Buzzer({
+  enabled,
+  isWinner,
+  deadline,
+  otherPlayerBuzzed,
+}: BuzzerProps) {
   const [isPressed, setIsPressed] = useState(false);
   const [timeLeft, setTimeLeft] = useState<number | null>(null);
   const [isUrgent, setIsUrgent] = useState(false);
@@ -49,7 +54,7 @@ export function Buzzer({ enabled, isWinner, deadline, otherPlayerBuzzed }: Buzze
     setIsPressed(true);
 
     // Send buzz event via Ably
-    const event = new CustomEvent('playerBuzz', {
+    const event = new CustomEvent("playerBuzz", {
       detail: { timestamp: Date.now(), latency },
     });
     window.dispatchEvent(event);
@@ -61,38 +66,40 @@ export function Buzzer({ enabled, isWinner, deadline, otherPlayerBuzzed }: Buzze
   // Keyboard support
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
-      if (e.code === 'Space' && enabled && !isPressed) {
+      if (e.code === "Space" && enabled && !isPressed) {
         e.preventDefault();
         handleBuzz();
       }
     };
 
-    window.addEventListener('keydown', handleKeyDown);
-    return () => window.removeEventListener('keydown', handleKeyDown);
+    window.addEventListener("keydown", handleKeyDown);
+    return () => window.removeEventListener("keydown", handleKeyDown);
   }, [enabled, isPressed, handleBuzz]);
 
   const getBuzzerState = () => {
-    if (isWinner) return 'winner';
-    if (otherPlayerBuzzed) return 'other_buzzed';
-    if (isPressed) return 'pressed';
-    if (!enabled) return 'disabled';
-    return 'ready';
+    if (isWinner) return "winner";
+    if (otherPlayerBuzzed) return "other_buzzed";
+    if (isPressed) return "pressed";
+    if (!enabled) return "disabled";
+    return "ready";
   };
 
   const state = getBuzzerState();
 
   const getButtonStyle = () => {
-    if (state === 'winner') {
+    if (state === "winner") {
       if (isUrgent) {
-        return 'cursor-default'; // Color handled by animation
+        return "cursor-default"; // Color handled by animation
       }
-      return 'bg-blue-500 cursor-default';
+      return "bg-blue-500 cursor-default";
     }
-    if (state === 'other_buzzed') return 'bg-purple-600 cursor-not-allowed';
-    if (state === 'ready') return 'bg-green-500 hover:bg-green-600 active:bg-green-700 cursor-pointer';
-    if (state === 'pressed') return 'bg-yellow-500 cursor-wait';
-    if (state === 'disabled') return 'bg-gray-600 cursor-not-allowed opacity-50';
-    return 'bg-gray-600';
+    if (state === "other_buzzed") return "bg-purple-600 cursor-not-allowed";
+    if (state === "ready")
+      return "bg-green-500 hover:bg-green-600 active:bg-green-700 cursor-pointer";
+    if (state === "pressed") return "bg-yellow-500 cursor-wait";
+    if (state === "disabled")
+      return "bg-gray-600 cursor-not-allowed opacity-50";
+    return "bg-gray-600";
   };
 
   const getSecondsLeft = () => {
@@ -103,7 +110,7 @@ export function Buzzer({ enabled, isWinner, deadline, otherPlayerBuzzed }: Buzze
   const secondsLeft = getSecondsLeft();
 
   const getDisplayContent = () => {
-    if (state === 'winner') {
+    if (state === "winner") {
       return (
         <div className="text-center">
           <AnimatePresence mode="wait">
@@ -115,14 +122,14 @@ export function Buzzer({ enabled, isWinner, deadline, otherPlayerBuzzed }: Buzze
               transition={{ duration: 0.15 }}
               className="text-5xl font-bold"
             >
-              {secondsLeft !== null && secondsLeft > 0 ? secondsLeft : '!'}
+              {secondsLeft !== null && secondsLeft > 0 ? secondsLeft : "!"}
             </motion.div>
           </AnimatePresence>
           <div className="text-sm mt-1">Answer now!</div>
         </div>
       );
     }
-    if (state === 'other_buzzed') {
+    if (state === "other_buzzed") {
       return (
         <div className="text-center px-2">
           <div className="text-sm">Buzzed!</div>
@@ -133,15 +140,15 @@ export function Buzzer({ enabled, isWinner, deadline, otherPlayerBuzzed }: Buzze
   };
 
   const getHelpText = () => {
-    if (state === 'ready') return 'Press SPACE or click to buzz';
-    if (state === 'pressed') return 'Buzzing...';
-    if (state === 'disabled') return 'Wait for question';
-    if (state === 'other_buzzed') return `${otherPlayerBuzzed} is answering...`;
-    if (state === 'winner') {
-      if (isUrgent) return 'HURRY! Time running out!';
-      return 'Select your answer!';
+    if (state === "ready") return "Press SPACE or click to buzz";
+    if (state === "pressed") return "Buzzing...";
+    if (state === "disabled") return "Wait for question";
+    if (state === "other_buzzed") return `${otherPlayerBuzzed} is answering...`;
+    if (state === "winner") {
+      if (isUrgent) return "HURRY! Time running out!";
+      return "Select your answer!";
     }
-    return '';
+    return "";
   };
 
   return (
@@ -156,24 +163,24 @@ export function Buzzer({ enabled, isWinner, deadline, otherPlayerBuzzed }: Buzze
           w-full p-4 rounded-lg border-2
           /* Desktop: circular button */
           md:w-40 md:h-40 md:rounded-full md:p-0
-          ${state === 'ready' ? 'border-green-400' : 'border-gray-600'}
-          ${state === 'winner' && !isUrgent ? 'border-blue-400' : ''}
-          ${state === 'winner' && isUrgent ? 'border-red-400' : ''}
-          ${state === 'other_buzzed' ? 'border-purple-500' : ''}
+          ${state === "ready" ? "border-green-400" : "border-gray-600"}
+          ${state === "winner" && !isUrgent ? "border-blue-400" : ""}
+          ${state === "winner" && isUrgent ? "border-red-400" : ""}
+          ${state === "other_buzzed" ? "border-purple-500" : ""}
         `}
-        whileTap={state === 'ready' ? { scale: 0.98 } : {}}
-        whileHover={state === 'ready' ? { scale: 1.02 } : {}}
+        whileTap={state === "ready" ? { scale: 0.98 } : {}}
+        whileHover={state === "ready" ? { scale: 1.02 } : {}}
         onClick={handleBuzz}
-        disabled={state !== 'ready'}
+        disabled={state !== "ready"}
         animate={
-          state === 'winner'
+          state === "winner"
             ? isUrgent
               ? {
-                  backgroundColor: ['#ef4444', '#f97316', '#ef4444'], // red-500 to orange-500
+                  backgroundColor: ["#ef4444", "#f97316", "#ef4444"], // red-500 to orange-500
                   scale: [1, 1.02, 1],
                 }
               : {
-                  backgroundColor: '#3b82f6', // blue-500
+                  backgroundColor: "#3b82f6", // blue-500
                 }
             : {}
         }
@@ -200,7 +207,9 @@ export function Buzzer({ enabled, isWinner, deadline, otherPlayerBuzzed }: Buzze
         </AnimatePresence>
       </motion.button>
 
-      <div className={`mt-2 text-center text-xs ${isUrgent ? 'text-red-400 font-bold animate-pulse' : 'text-gray-400'}`}>
+      <div
+        className={`mt-2 text-center text-xs ${isUrgent ? "text-red-400 font-bold animate-pulse" : "text-gray-400"}`}
+      >
         {getHelpText()}
       </div>
     </div>

@@ -1,0 +1,325 @@
+[
+  {
+    "id": "8baddee5-9ae5-4487-8606-df2018fe8650",
+    "text": "Who discovered the structure of DNA?",
+    "options": [
+      "Gregor Mendel",
+      "James Watson and Francis Crick",
+      "Charles Darwin",
+      "Louis Pasteur"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Watson and Crick determined the double helix structure of DNA in 1953, with crucial contributions from Rosalind Franklin and Maurice Wilkins.",
+    "detailedExplanation": "James Watson and Francis Crick are credited with discovering the double helix structure of DNA in 1953. Their work built heavily on X-ray crystallography data from Rosalind Franklin and Maurice Wilkins, particularly Franklin's 'Photo 51' which showed the helical structure. This discovery explained how genetic information is stored and replicated, laying the foundation for modern genetics, molecular biology, and biotechnology. The four scientists shared the 1962 Nobel Prize in Physiology or Medicine for this groundbreaking work.",
+    "citationUrl": "https://en.wikipedia.org/wiki/DNA",
+    "citationTitle": "Wikipedia: DNA"
+  },
+  {
+    "id": "7df3d3fc-e400-4d00-a607-44b0681b5fef",
+    "text": "What does DNA stand for?",
+    "options": [
+      "Deoxyribonucleic Acid",
+      "Dinitrogen Acid",
+      "Double Nuclear Acid",
+      "Dynamic Nucleotide Acid"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "DNA stands for Deoxyribonucleic Acid, the molecule that carries genetic information in living organisms.",
+    "detailedExplanation": "DNA (Deoxyribonucleic Acid) is a complex molecule that contains the genetic instructions used in the development and functioning of all known living organisms. The name comes from its chemical structure: it's a nucleic acid that contains the sugar deoxyribose, as opposed to RNA which contains ribose. DNA was first identified in the 1860s, but its role as the carrier of genetic information wasn't established until the 20th century.",
+    "citationUrl": "https://en.wikipedia.org/wiki/DNA",
+    "citationTitle": "Wikipedia: DNA"
+  },
+  {
+    "id": "2f45e5d0-bc85-4806-9c7d-16931fad696f",
+    "text": "How many pairs of chromosomes do humans typically have?",
+    "options": [
+      "21 pairs",
+      "23 pairs",
+      "25 pairs",
+      "46 pairs"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Humans typically have 23 pairs of chromosomes, for a total of 46 chromosomes.",
+    "detailedExplanation": "Human cells normally contain 23 pairs of chromosomes, totaling 46 chromosomes. Twenty-two of these pairs are called autosomes and look the same in both males and females. The 23rd pair consists of the sex chromosomes, called X and Y. Females have two X chromosomes, while males have one X and one Y chromosome. Each parent contributes one chromosome from each pair, which is why we inherit genetic traits from both parents.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Human_chromosome",
+    "citationTitle": "Wikipedia: Human chromosome"
+  },
+  {
+    "id": "e0ea25c1-f0ec-4f39-98c8-5feed984bc04",
+    "text": "Which scientist is famous for discovering the double helix structure of DNA?",
+    "options": [
+      "Gregor Mendel",
+      "Charles Darwin",
+      "James Watson",
+      "Alexander Fleming"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "James Watson, along with Francis Crick, is credited with discovering the double helix structure of DNA in 1953.",
+    "detailedExplanation": "James Watson and Francis Crick are most famously associated with determining the double helix structure of DNA in 1953. Their work was built upon crucial X-ray crystallography data from Rosalind Franklin and Maurice Wilkins. The discovery of DNA's structure was groundbreaking because it revealed how genetic information could be stored and replicated. Watson, Crick, and Wilkins shared the Nobel Prize in Physiology or Medicine in 1962 for this discovery.",
+    "citationUrl": "https://en.wikipedia.org/wiki/James_Watson",
+    "citationTitle": "Wikipedia: James Watson"
+  },
+  {
+    "id": "2f735ebb-5322-4cb6-801b-77cd4b6e7021",
+    "text": "What are the four bases found in DNA?",
+    "options": [
+      "A, T, G, C",
+      "A, U, G, C",
+      "A, T, G, U",
+      "B, T, G, C"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "The four bases in DNA are Adenine (A), Thymine (T), Guanine (G), and Cytosine (C).",
+    "detailedExplanation": "DNA consists of four nitrogenous bases: Adenine (A), Thymine (T), Guanine (G), and Cytosine (C). These bases pair specifically with each other - Adenine always pairs with Thymine, and Guanine always pairs with Cytosine. This complementary base pairing is what allows DNA to replicate accurately and maintain genetic information. The sequence of these bases along the DNA strand encodes genetic information, much like letters in an alphabet form words and sentences.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Nucleotide",
+    "citationTitle": "Wikipedia: Nucleotide"
+  },
+  {
+    "id": "c9bf87e7-11f0-4c34-b290-9f717979cd7b",
+    "text": "What determines whether a baby will be male or female?",
+    "options": [
+      "The mother's chromosomes",
+      "The father's chromosomes",
+      "Environmental factors",
+      "Random chance"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "The father's chromosomes determine the baby's sex, as fathers contribute either an X or Y chromosome.",
+    "detailedExplanation": "The sex of a baby is determined by the sex chromosomes inherited from the parents. Mothers always contribute an X chromosome, while fathers can contribute either an X or a Y chromosome. If the father contributes an X chromosome, the baby will be female (XX). If the father contributes a Y chromosome, the baby will be male (XY). This means that genetically, it's the father's contribution that determines the biological sex of the child, though this is a random process during sperm formation.",
+    "citationUrl": "https://en.wikipedia.org/wiki/XY_sex-determination_system",
+    "citationTitle": "Wikipedia: XY sex-determination system"
+  },
+  {
+    "id": "811d92ab-fdc7-4249-b505-7f38c41d37f3",
+    "text": "What is a gene?",
+    "options": [
+      "A type of cell",
+      "A segment of DNA that codes for a trait",
+      "A chromosome",
+      "A type of protein"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "A gene is a specific segment of DNA that contains the instructions for making a particular protein or trait.",
+    "detailedExplanation": "A gene is a specific sequence of DNA that contains the instructions needed to make a functional product, usually a protein. Genes are the basic units of heredity and are responsible for passing traits from parents to offspring. Each gene occupies a specific location on a chromosome and consists of the four DNA bases arranged in a particular sequence. When a gene is 'expressed,' the cell uses the gene's instructions to produce a specific protein, which then carries out a particular function in the body.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Gene",
+    "citationTitle": "Wikipedia: Gene"
+  },
+  {
+    "id": "c359e363-2123-4a8d-a08f-9643b44116de",
+    "text": "What is the process called when DNA makes a copy of itself?",
+    "options": [
+      "Translation",
+      "Transcription",
+      "Replication",
+      "Mutation"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "DNA replication is the process by which DNA makes an identical copy of itself.",
+    "detailedExplanation": "DNA replication is the biological process by which a cell makes an identical copy of its DNA. This process is essential for cell division, allowing each new cell to receive a complete set of genetic instructions. During replication, the double helix unwinds and each strand serves as a template for creating a new complementary strand. The result is two identical DNA molecules, each containing one original strand and one newly synthesized strand. This semi-conservative process ensures genetic information is accurately passed from one generation of cells to the next.",
+    "citationUrl": "https://en.wikipedia.org/wiki/DNA_replication",
+    "citationTitle": "Wikipedia: DNA replication"
+  },
+  {
+    "id": "8b9f859b-9457-4346-bad6-33b75cd5d0f4",
+    "text": "Where is DNA located in human cells?",
+    "options": [
+      "In the cell membrane",
+      "In the nucleus",
+      "In the cytoplasm",
+      "In the mitochondria only"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Most DNA in human cells is located in the nucleus, though small amounts are also found in mitochondria.",
+    "detailedExplanation": "In human cells, the vast majority of DNA is located in the cell nucleus, organized into chromosomes. This nuclear DNA contains most of the genetic information that determines our traits and characteristics. However, human cells also contain a small amount of DNA in the mitochondria, called mitochondrial DNA (mtDNA). Mitochondrial DNA is inherited only from the mother and contains genes essential for mitochondrial function. While the question asks where DNA is located and the nucleus is the primary location, it's worth noting that both locations contain DNA in human cells.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Nuclear_DNA",
+    "citationTitle": "Wikipedia: Nuclear DNA"
+  },
+  {
+    "id": "4e47c98f-1ef7-4441-973a-96349cda1517",
+    "text": "What is the term for different versions of the same gene?",
+    "options": [
+      "Chromosomes",
+      "Alleles",
+      "Proteins",
+      "Mutations"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Different versions of the same gene are called alleles.",
+    "detailedExplanation": "Alleles are different versions or variants of the same gene that occur at the same position on a chromosome. For example, there might be one allele for blue eyes and another allele for brown eyes at the same gene location. Individuals inherit one allele from each parent for every gene. The combination of alleles determines the expression of traits, and alleles can be dominant or recessive in their effects.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Allele",
+    "citationTitle": "Wikipedia: Allele"
+  },
+  {
+    "id": "108e883d-254a-45c8-853c-be8d9f5b4b9d",
+    "text": "Where in the cell is most of the DNA located?",
+    "options": [
+      "Cytoplasm",
+      "Cell membrane",
+      "Nucleus",
+      "Mitochondria"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Most of the cell's DNA is located in the nucleus.",
+    "detailedExplanation": "In eukaryotic cells (cells with a nucleus), the vast majority of DNA is contained within the nucleus, organized into chromosomes. This nuclear DNA contains most of the genes that determine an organism's characteristics. However, small amounts of DNA are also found in mitochondria (and in plant chloroplasts), but the nuclear DNA represents the main genetic material of the cell.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Cell_nucleus",
+    "citationTitle": "Wikipedia: Cell nucleus"
+  },
+  {
+    "id": "a7d7ed26-4c29-40df-88ba-1492eabbb6c3",
+    "text": "How many chromosomes do humans typically have?",
+    "options": [
+      "44",
+      "46",
+      "48",
+      "50"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Humans typically have 46 chromosomes arranged in 23 pairs.",
+    "detailedExplanation": "Most humans have 46 chromosomes arranged in 23 pairs. Each parent contributes 23 chromosomes to their offspring - 22 pairs of autosomes and one pair of sex chromosomes (XX for females, XY for males). This diploid number is characteristic of human cells, except for reproductive cells (gametes) which have 23 chromosomes each.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Human_chromosome",
+    "citationTitle": "Wikipedia: Human chromosome"
+  },
+  {
+    "id": "228cceb6-29c7-46bb-8247-5e05b079e570",
+    "text": "Which four bases make up DNA?",
+    "options": [
+      "A, T, G, C",
+      "A, U, G, C",
+      "A, T, X, Y",
+      "B, D, F, H"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "DNA is made up of four bases: Adenine (A), Thymine (T), Guanine (G), and Cytosine (C).",
+    "detailedExplanation": "DNA consists of four nitrogenous bases: Adenine (A), Thymine (T), Guanine (G), and Cytosine (C). These bases pair specifically - A always pairs with T, and G always pairs with C. This complementary base pairing is crucial for DNA replication and the storage of genetic information. The sequence of these bases along the DNA strand encodes genetic instructions.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Nucleobase",
+    "citationTitle": "Wikipedia: Nucleobase"
+  },
+  {
+    "id": "3d6b9bba-d01e-4c8e-9ab0-b37be0b5d030",
+    "text": "Where in the cell is most DNA located?",
+    "options": [
+      "Cell membrane",
+      "Cytoplasm",
+      "Nucleus",
+      "Mitochondria"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Most DNA is located in the cell's nucleus, though small amounts exist in mitochondria.",
+    "detailedExplanation": "The vast majority of a cell's DNA is housed within the nucleus, organized into chromosomes. This nuclear DNA contains most of the genetic instructions for the organism. However, cells also contain a small amount of DNA in their mitochondria (the cell's powerhouses), which is maternally inherited and codes for some proteins essential for cellular energy production.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Cell_nucleus",
+    "citationTitle": "Wikipedia: Cell nucleus"
+  },
+  {
+    "id": "a39cfdd3-0431-4675-be26-d60e02ae59c3",
+    "text": "What process creates an exact copy of DNA?",
+    "options": [
+      "Translation",
+      "Transcription",
+      "Replication",
+      "Mutation"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "DNA replication is the process that creates identical copies of the DNA molecule.",
+    "detailedExplanation": "DNA replication is the biological process by which DNA makes an identical copy of itself. This process is essential for cell division, allowing genetic information to be passed from parent cells to daughter cells. During replication, the double helix unwinds, and each strand serves as a template for creating a new complementary strand, resulting in two identical DNA molecules.",
+    "citationUrl": "https://en.wikipedia.org/wiki/DNA_replication",
+    "citationTitle": "Wikipedia: DNA replication"
+  },
+  {
+    "id": "d43fc3b8-15f9-42d0-9366-4940f3f59b2a",
+    "text": "Which scientist is famous for discovering the structure of DNA?",
+    "options": [
+      "Albert Einstein",
+      "Rosalind Franklin",
+      "Isaac Newton",
+      "Marie Curie"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Rosalind Franklin made crucial contributions to understanding DNA's structure, though Watson, Crick, and Wilkins received the Nobel Prize.",
+    "detailedExplanation": "Rosalind Franklin was a British chemist whose X-ray crystallography work was crucial to understanding the helical structure of DNA. Her famous 'Photo 51' provided key evidence for the double helix structure. While James Watson, Francis Crick, and Maurice Wilkins received the 1962 Nobel Prize for determining DNA's structure, Franklin's contributions were essential to this discovery. Unfortunately, she died in 1958 before the Nobel Prize was awarded.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Rosalind_Franklin",
+    "citationTitle": "Wikipedia: Rosalind Franklin"
+  },
+  {
+    "id": "a3ce629f-2cd2-4b05-a50c-5ea06893c42a",
+    "text": "How many pairs of chromosomes do humans normally have?",
+    "options": [
+      "21",
+      "23",
+      "25",
+      "46"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Humans normally have 23 pairs of chromosomes, for a total of 46 chromosomes.",
+    "detailedExplanation": "Human cells contain 23 pairs of chromosomes (46 total chromosomes). Twenty-two pairs are autosomes, which are the same in both males and females, and one pair consists of sex chromosomes (XX for females, XY for males). Each parent contributes one chromosome from each pair, which is why we receive half our genetic material from each parent.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Human_chromosome",
+    "citationTitle": "Wikipedia: Human chromosome"
+  },
+  {
+    "id": "e422980b-d541-40c9-9dae-e98741e1f9f1",
+    "text": "Which scientist is famous for discovering the laws of inheritance through pea plant experiments?",
+    "options": [
+      "Charles Darwin",
+      "Gregor Mendel",
+      "James Watson",
+      "Marie Curie"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Gregor Mendel discovered the fundamental laws of inheritance through his experiments with pea plants in the 1860s.",
+    "detailedExplanation": "Gregor Mendel, an Austrian friar, conducted systematic experiments with pea plants between 1856 and 1863. His work revealed patterns of inheritance that led to the formulation of Mendel's laws, including the law of segregation and the law of independent assortment. Though his work was initially overlooked, it became the foundation of modern genetics when rediscovered in the early 20th century.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Gregor_Mendel",
+    "citationTitle": "Wikipedia: Gregor Mendel"
+  },
+  {
+    "id": "cffd9f11-fdbb-4bd1-ba01-7e967fa00233",
+    "text": "What are the four chemical bases that make up DNA?",
+    "options": [
+      "A, T, G, C",
+      "A, U, G, C",
+      "A, T, X, Y",
+      "P, Q, R, S"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "The four DNA bases are Adenine (A), Thymine (T), Guanine (G), and Cytosine (C).",
+    "detailedExplanation": "DNA is composed of four nitrogenous bases: Adenine (A), Thymine (T), Guanine (G), and Cytosine (C). These bases pair specifically with each other - Adenine always pairs with Thymine, and Guanine always pairs with Cytosine. This complementary base pairing is crucial for DNA replication and the storage of genetic information. RNA uses the same bases except Uracil (U) replaces Thymine.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Nucleobase",
+    "citationTitle": "Wikipedia: Nucleobase"
+  }
+]

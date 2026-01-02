@@ -1,0 +1,342 @@
+[
+  {
+    "id": "9242aa21-0c90-4c99-8e57-e940740fd612",
+    "text": "What is the most abundant gas in Earth's atmosphere?",
+    "options": [
+      "Oxygen",
+      "Carbon dioxide",
+      "Nitrogen",
+      "Hydrogen"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Nitrogen makes up about 78% of Earth's atmosphere.",
+    "detailedExplanation": "Nitrogen (N₂) comprises approximately 78% of Earth's atmosphere by volume, making it by far the most abundant atmospheric gas. Oxygen comes second at about 21%, while argon accounts for about 0.93%. Carbon dioxide, despite its importance in climate discussions, makes up only about 0.04% of the atmosphere. Nitrogen is essential for life as it's a key component of amino acids and proteins.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Atmosphere_of_Earth",
+    "citationTitle": "Wikipedia: Atmosphere of Earth"
+  },
+  {
+    "id": "871e9b61-d9ec-4a70-9b32-4102d0a18fb9",
+    "text": "What is the name of the clouds that look like fluffy cotton balls on a sunny day?",
+    "options": [
+      "Cumulus",
+      "Stratus",
+      "Cirrus",
+      "Nimbus"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Cumulus clouds are the puffy, cotton-like clouds commonly seen on fair weather days.",
+    "detailedExplanation": "Cumulus clouds are easily recognizable by their distinctive puffy, cotton-ball appearance with flat bases and rounded tops. They typically form during fair weather when warm air rises and cools, creating water vapor condensation. These clouds are often associated with pleasant, sunny conditions, though they can develop into larger storm clouds if conditions become unstable.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Cumulus_cloud",
+    "citationTitle": "Wikipedia: Cumulus cloud"
+  },
+  {
+    "id": "0c2ab431-6554-488f-8b64-fdfd4de410d7",
+    "text": "What instrument is used to measure air pressure?",
+    "options": [
+      "Thermometer",
+      "Barometer",
+      "Hygrometer",
+      "Anemometer"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "A barometer measures atmospheric pressure, which helps predict weather changes.",
+    "detailedExplanation": "A barometer is an essential meteorological instrument that measures atmospheric pressure. Changes in air pressure often indicate approaching weather systems - falling pressure typically suggests stormy weather approaching, while rising pressure indicates fair weather. The most common types are mercury barometers and aneroid barometers, both of which help meteorologists make accurate weather forecasts.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Barometer",
+    "citationTitle": "Wikipedia: Barometer"
+  },
+  {
+    "id": "dc1b02a0-57b5-4deb-9c37-e8d541c13d0b",
+    "text": "What is the term for tiny water droplets suspended in the air near the ground that reduce visibility?",
+    "options": [
+      "Smog",
+      "Haze",
+      "Fog",
+      "Mist"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Fog consists of water droplets suspended in air that significantly reduce visibility at ground level.",
+    "detailedExplanation": "Fog is a visible aerosol consisting of tiny water droplets or ice crystals suspended in the air at or near the Earth's surface. It forms when the difference between air temperature and dew point is generally less than 2.5°C. Fog reduces visibility to less than 1 kilometer, distinguishing it from mist, which allows visibility greater than 1 kilometer. Common types include radiation fog, advection fog, and evaporation fog.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Fog",
+    "citationTitle": "Wikipedia: Fog"
+  },
+  {
+    "id": "4c3760f7-6236-428f-9010-ba4fc4ccdcd1",
+    "text": "On the Beaufort Scale, what wind speed range corresponds to a 'gentle breeze'?",
+    "options": [
+      "1-6 mph",
+      "7-12 mph",
+      "13-18 mph",
+      "19-24 mph"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "A gentle breeze on the Beaufort Scale is Force 3, with winds of 7-12 mph.",
+    "detailedExplanation": "The Beaufort Scale is a method for estimating wind speeds based on observed conditions at sea or on land. Force 3, classified as a 'gentle breeze,' corresponds to wind speeds of 7-12 mph (12-19 km/h). At this level, leaves and small twigs are in constant motion, and light flags are extended. The scale was developed in 1805 by Sir Francis Beaufort and remains widely used in meteorology and marine forecasting.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Beaufort_scale",
+    "citationTitle": "Wikipedia: Beaufort scale"
+  },
+  {
+    "id": "0c3698ed-792c-4b38-a92d-a2d52ef7c766",
+    "text": "What type of precipitation occurs when raindrops freeze before reaching the ground?",
+    "options": [
+      "Snow",
+      "Sleet",
+      "Hail",
+      "Freezing rain"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Sleet forms when raindrops freeze into ice pellets before hitting the ground.",
+    "detailedExplanation": "Sleet occurs when raindrops fall through a layer of freezing air near the surface and freeze into small ice pellets before reaching the ground. This differs from freezing rain, where drops freeze upon contact with surfaces, and from hail, which forms through repeated cycling in thunderstorm updrafts. Sleet typically bounces when it hits surfaces and creates a distinctive tapping sound, often making roads and walkways slippery.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Sleet",
+    "citationTitle": "Wikipedia: Sleet"
+  },
+  {
+    "id": "6c7a4fae-0424-40d4-a66b-82fe1503b8f4",
+    "text": "What is the most common gas in Earth's atmosphere?",
+    "options": [
+      "Oxygen",
+      "Carbon dioxide",
+      "Nitrogen",
+      "Argon"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Nitrogen makes up about 78% of Earth's atmosphere, making it the most abundant gas.",
+    "detailedExplanation": "Earth's atmosphere is composed primarily of nitrogen, which accounts for approximately 78% of the total volume. Oxygen makes up about 21%, while argon accounts for nearly 1%, and carbon dioxide represents about 0.04%. This composition is crucial for weather patterns, as nitrogen provides atmospheric stability, while oxygen supports combustion and respiration. The remaining gases, including water vapor, play important roles in weather formation and climate regulation.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Atmosphere_of_Earth",
+    "citationTitle": "Wikipedia: Atmosphere of Earth"
+  },
+  {
+    "id": "36387c29-95c3-4512-a859-99c24cf65cac",
+    "text": "What do we call the boundary between two different air masses?",
+    "options": [
+      "Pressure ridge",
+      "Weather front",
+      "Thermal line",
+      "Wind shear"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "A weather front is the boundary where two different air masses meet, often causing weather changes.",
+    "detailedExplanation": "A weather front is the transition zone between two air masses of different temperatures, humidity levels, and densities. When these air masses collide, they create various weather phenomena including clouds, precipitation, and storms. The four main types are cold fronts (cold air displacing warm air), warm fronts (warm air overriding cold air), occluded fronts (complex systems with multiple air masses), and stationary fronts (little movement between air masses). Fronts are fundamental to understanding weather patterns and forecasting.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Weather_front",
+    "citationTitle": "Wikipedia: Weather front"
+  },
+  {
+    "id": "95fcaeec-4896-450e-8c12-3050c4cba946",
+    "text": "What is the name for a violently rotating column of air that extends from a thunderstorm to the ground?",
+    "options": [
+      "Hurricane",
+      "Cyclone",
+      "Tornado",
+      "Waterspout"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "A tornado is a violently rotating column of air that connects a thunderstorm cloud to the ground.",
+    "detailedExplanation": "A tornado is a rapidly rotating column of air that extends from the base of a thunderstorm to the ground. These powerful weather phenomena can produce winds exceeding 300 mph and are classified using the Enhanced Fujita Scale from EF0 to EF5 based on damage intensity. Tornadoes form when warm, moist air meets cool, dry air under specific atmospheric conditions, creating the rotation necessary for their development. They are most common in the central United States, particularly in an area known as 'Tornado Alley.'",
+    "citationUrl": "https://en.wikipedia.org/wiki/Tornado",
+    "citationTitle": "Wikipedia: Tornado"
+  },
+  {
+    "id": "95526d38-d7d4-410c-a9d8-4762b1fe9325",
+    "text": "What instrument is used to measure atmospheric pressure?",
+    "options": [
+      "Barometer",
+      "Thermometer",
+      "Hygrometer",
+      "Anemometer"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "A barometer measures atmospheric pressure.",
+    "detailedExplanation": "A barometer is an instrument used to measure atmospheric pressure, which is the weight of the air above us. Changes in atmospheric pressure can indicate weather changes - falling pressure often means stormy weather is approaching, while rising pressure typically indicates fair weather. The barometer was invented by Evangelista Torricelli in 1643 and remains an essential tool in weather forecasting today.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Barometer",
+    "citationTitle": "Wikipedia: Barometer"
+  },
+  {
+    "id": "363cdbec-baca-4416-83b7-7a1972c622b7",
+    "text": "What type of cloud is typically associated with thunderstorms?",
+    "options": [
+      "Cirrus",
+      "Cumulonimbus",
+      "Stratus",
+      "Altocumulus"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Cumulonimbus clouds are the towering clouds that produce thunderstorms.",
+    "detailedExplanation": "Cumulonimbus clouds are massive, towering clouds that can extend from near ground level up to 60,000 feet or higher. These dramatic clouds are characterized by their anvil-shaped tops and are responsible for producing thunderstorms, heavy rain, hail, lightning, and even tornadoes. They form when warm, moist air rises rapidly in unstable atmospheric conditions, creating the powerful convection currents that fuel severe weather.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Cumulonimbus_cloud",
+    "citationTitle": "Wikipedia: Cumulonimbus cloud"
+  },
+  {
+    "id": "c3d277d1-e39d-44ab-b04a-1be4894670d3",
+    "text": "At what temperature does water freeze at sea level?",
+    "options": [
+      "0°C (32°F)",
+      "-10°C (14°F)",
+      "5°C (41°F)",
+      "10°C (50°F)"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Water freezes at 0°C or 32°F at standard atmospheric pressure.",
+    "detailedExplanation": "Water freezes at 0 degrees Celsius (32 degrees Fahrenheit) at standard atmospheric pressure at sea level. This temperature is used as one of the fundamental reference points for both the Celsius and Fahrenheit temperature scales. The freezing point can vary slightly with changes in atmospheric pressure and the presence of dissolved substances, but 0°C/32°F remains the standard reference point for pure water under normal conditions.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Melting_point",
+    "citationTitle": "Wikipedia: Melting point"
+  },
+  {
+    "id": "d5da45c2-293f-4acc-a1c9-1d4bbbf03d45",
+    "text": "What is the name for a violent rotating column of air that extends from a thunderstorm to the ground?",
+    "options": [
+      "Hurricane",
+      "Tornado",
+      "Cyclone",
+      "Typhoon"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "A tornado is a rotating column of air extending from a thunderstorm to the ground.",
+    "detailedExplanation": "A tornado is a violently rotating column of air that extends from a thunderstorm cloud to the ground. Tornadoes are characterized by their funnel shape and can have wind speeds ranging from 65 mph to over 300 mph in the most extreme cases. They typically form in severe thunderstorms when there are strong wind shears and atmospheric instability. The United States experiences more tornadoes than any other country, with Tornado Alley in the Great Plains being particularly prone to these phenomena.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Tornado",
+    "citationTitle": "Wikipedia: Tornado"
+  },
+  {
+    "id": "3f845c78-4019-44a7-8e22-ad81a0a3504c",
+    "text": "What does 'humidity' measure in the atmosphere?",
+    "options": [
+      "Air pressure",
+      "Wind speed",
+      "Water vapor content",
+      "Temperature"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Humidity measures the amount of water vapor present in the air.",
+    "detailedExplanation": "Humidity refers to the amount of water vapor present in the atmosphere. It's commonly expressed as relative humidity, which is the percentage of water vapor in the air compared to the maximum amount the air can hold at that temperature. High humidity makes hot weather feel even hotter because it reduces the effectiveness of evaporation in cooling our bodies through sweating. Humidity plays a crucial role in weather formation, cloud development, and precipitation.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Humidity",
+    "citationTitle": "Wikipedia: Humidity"
+  },
+  {
+    "id": "7a102260-0c19-4d9f-bb55-105e5e1bc871",
+    "text": "What scale is commonly used to measure wind speed?",
+    "options": [
+      "Richter Scale",
+      "Beaufort Scale",
+      "Fujita Scale",
+      "Celsius Scale"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "The Beaufort Scale measures wind speed based on observed conditions.",
+    "detailedExplanation": "The Beaufort Scale is a empirical measure for describing wind speed based on observed conditions at sea or on land. Developed in 1805 by Sir Francis Beaufort, it ranges from 0 (calm) to 12 (hurricane force winds). Each level describes the effects of wind on the environment, such as how flags behave, how trees move, or the state of the sea surface. While modern meteorology uses precise measurements in mph or km/h, the Beaufort Scale remains useful for quickly estimating wind conditions without instruments.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Beaufort_scale",
+    "citationTitle": "Wikipedia: Beaufort scale"
+  },
+  {
+    "id": "dc15e272-b3d6-46a2-b054-57c95a93db79",
+    "text": "What weather phenomenon is measured by a rain gauge?",
+    "options": [
+      "Wind speed",
+      "Temperature",
+      "Precipitation",
+      "Humidity"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "A rain gauge measures precipitation, specifically rainfall amounts.",
+    "detailedExplanation": "A rain gauge is a meteorological instrument used to measure the amount of precipitation (rainfall, snow, sleet, or hail) that falls at a specific location over a given period of time. The measurement is typically expressed in millimeters or inches of water equivalent. Rain gauges are essential tools for weather monitoring, flood forecasting, agricultural planning, and water resource management. The basic design consists of a funnel that directs precipitation into a measuring container.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Rain_gauge",
+    "citationTitle": "Wikipedia: Rain gauge"
+  },
+  {
+    "id": "9ebc6b5c-3f4f-48ac-93e8-a6775893c729",
+    "text": "What is the term for the boundary between two different air masses?",
+    "options": [
+      "Isobar",
+      "Front",
+      "Ridge",
+      "Trough"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "A front is the boundary zone between two different air masses.",
+    "detailedExplanation": "A weather front is the boundary or transition zone between two different air masses with distinct characteristics such as temperature, humidity, and density. When these different air masses meet, they don't mix easily, creating a front that often brings changes in weather conditions. There are several types of fronts including cold fronts (where cold air displaces warm air), warm fronts (where warm air overrides cold air), and occluded fronts. The interaction at these boundaries typically produces clouds, precipitation, and changing weather patterns.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Weather_front",
+    "citationTitle": "Wikipedia: Weather front"
+  },
+  {
+    "id": "4256d432-38a3-4f98-a13c-8084dd5fb66f",
+    "text": "On the Beaufort Scale, what wind speed range defines a 'gentle breeze'?",
+    "options": [
+      "1-3 mph",
+      "8-12 mph",
+      "25-31 mph",
+      "39-46 mph"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "A gentle breeze on the Beaufort Scale is Force 3, with wind speeds of 8-12 mph (13-19 km/h).",
+    "detailedExplanation": "The Beaufort Scale is a system for estimating wind speeds based on observed conditions at sea or on land, developed by Admiral Sir Francis Beaufort in 1805. Force 3, or 'gentle breeze,' is characterized by wind speeds of 8-12 mph (13-19 km/h). At this level, leaves and small twigs move constantly, and light flags extend from poles. The scale ranges from 0 (calm) to 12 (hurricane force), providing a standardized way for sailors and meteorologists to communicate wind conditions.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Beaufort_scale",
+    "citationTitle": "Wikipedia: Beaufort scale"
+  },
+  {
+    "id": "b150cd21-ceb1-4983-b1da-473d74e055d6",
+    "text": "What is the most common type of cloud that produces rain?",
+    "options": [
+      "Cirrus",
+      "Cumulonimbus",
+      "Stratus",
+      "Altocumulus"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Cumulonimbus clouds are towering storm clouds that produce most precipitation including rain, thunderstorms, and severe weather.",
+    "detailedExplanation": "Cumulonimbus clouds are massive, towering clouds that can extend from low altitudes up to 60,000 feet or higher. These dramatic storm clouds are responsible for producing most of the world's precipitation, including heavy rain, thunderstorms, hail, and tornadoes. Their distinctive anvil-shaped top and dark, imposing appearance make them easily recognizable. Unlike other cloud types such as wispy cirrus clouds or thin stratus layers, cumulonimbus clouds contain the powerful updrafts and downdrafts necessary to generate significant weather events.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Cumulonimbus_cloud",
+    "citationTitle": "Wikipedia: Cumulonimbus cloud"
+  },
+  {
+    "id": "3c7aec94-c78a-4eaa-ba17-06d4a7872d7b",
+    "text": "What instrument is commonly used to measure atmospheric pressure?",
+    "options": [
+      "Barometer",
+      "Thermometer",
+      "Anemometer",
+      "Hygrometer"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "A barometer measures atmospheric pressure, which helps predict weather changes.",
+    "detailedExplanation": "A barometer is the standard instrument for measuring atmospheric pressure, invented by Evangelista Torricelli in 1643. It works by measuring the weight of the atmosphere pressing down on Earth's surface. Changes in atmospheric pressure are key indicators of weather patterns - falling pressure often signals approaching storms, while rising pressure typically indicates fair weather. Mercury barometers and aneroid barometers are the two main types used in meteorology.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Barometer",
+    "citationTitle": "Wikipedia: Barometer"
+  }
+]

@@ -1,0 +1,342 @@
+[
+  {
+    "id": "ed2ca1ca-760b-41d8-83d9-63e3e21511b4",
+    "text": "Which inventor is credited with improving the steam engine in 1769, making it much more efficient?",
+    "options": [
+      "James Watt",
+      "Thomas Newcomen",
+      "George Stephenson",
+      "Richard Trevithick"
+    ],
+    "correctIndex": 0,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "James Watt improved the steam engine by adding a separate condenser, making it much more fuel-efficient.",
+    "detailedExplanation": "James Watt's improvements to the steam engine in 1769 revolutionized industrial production. His key innovation was the separate condenser, which prevented the loss of heat that occurred in earlier engines when steam was condensed in the same cylinder where it was generated. This made the engine about four times more fuel-efficient than previous designs and helped power the Industrial Revolution.",
+    "citationUrl": "https://en.wikipedia.org/wiki/James_Watt",
+    "citationTitle": "Wikipedia: James Watt"
+  },
+  {
+    "id": "0e516520-d9a7-456d-a419-ad12f7bd4939",
+    "text": "What spinning machine, invented by James Hargreaves around 1764, could spin multiple threads at once?",
+    "options": [
+      "Water Frame",
+      "Spinning Jenny",
+      "Spinning Mule",
+      "Power Loom"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "The Spinning Jenny allowed one operator to spin multiple threads simultaneously, greatly increasing textile production.",
+    "detailedExplanation": "The Spinning Jenny, invented by James Hargreaves around 1764, was a crucial invention in the textile industry during the Industrial Revolution. Named possibly after Hargreaves' wife or daughter Jenny, this machine allowed a single worker to spin eight or more threads at the same time, compared to the traditional spinning wheel which could only spin one thread. This dramatically increased productivity and helped meet the growing demand for yarn.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Spinning_jenny",
+    "citationTitle": "Wikipedia: Spinning Jenny"
+  },
+  {
+    "id": "ba5905ef-44d1-441d-a095-005b54f2dd3f",
+    "text": "Which invention by Eli Whitney in 1793 revolutionized cotton production in the American South?",
+    "options": [
+      "Cotton Loom",
+      "Cotton Gin",
+      "Cotton Press",
+      "Cotton Spinner"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "The cotton gin mechanized the separation of cotton fibers from seeds, making cotton production much more profitable.",
+    "detailedExplanation": "Eli Whitney's cotton gin, invented in 1793, mechanized the tedious process of separating cotton fibers from their seeds. Before this invention, it took a full day to separate seeds from just one pound of cotton by hand. The cotton gin could process 50 pounds of cotton in the same time. This innovation made cotton cultivation extremely profitable and unfortunately reinforced the institution of slavery in the American South.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Cotton_gin",
+    "citationTitle": "Wikipedia: Cotton Gin"
+  },
+  {
+    "id": "4ec3bb2f-090b-4ddc-ba51-e2547d4abeca",
+    "text": "What was the name of George Stephenson's famous locomotive that won the Rainhill Trials in 1829?",
+    "options": [
+      "The Puffing Billy",
+      "The Rocket",
+      "The Locomotion",
+      "The Comet"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "Stephenson's Rocket won the competition to determine the best locomotive design for the Liverpool-Manchester Railway.",
+    "detailedExplanation": "The Rocket, designed by George Stephenson and his son Robert, won the Rainhill Trials in 1829. This competition was held to determine the best locomotive design for the new Liverpool and Manchester Railway. The Rocket's success was due to its innovative design featuring a multi-tube boiler and improved steam blast, allowing it to reach speeds of 36 mph. This victory established the basic design principles for steam locomotives that would be used for decades.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Stephenson%27s_Rocket",
+    "citationTitle": "Wikipedia: Stephenson's Rocket"
+  },
+  {
+    "id": "234cdfd6-3973-4ec4-a5dd-e649b0ed0ca2",
+    "text": "Who invented the power loom in 1785, which mechanized the weaving process?",
+    "options": [
+      "Edmund Cartwright",
+      "Samuel Crompton",
+      "Richard Arkwright",
+      "John Kay"
+    ],
+    "correctIndex": 0,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "Edmund Cartwright invented the power loom, which automated weaving and completed the mechanization of textile production.",
+    "detailedExplanation": "Edmund Cartwright invented the power loom in 1785, which mechanized the weaving process that had previously been done by hand. This invention completed the mechanization of textile production that had begun with spinning machines like the Spinning Jenny and Water Frame. Though initially crude and requiring several improvements over the years, the power loom eventually became essential to textile manufacturing and helped establish the factory system.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Power_loom",
+    "citationTitle": "Wikipedia: Power Loom"
+  },
+  {
+    "id": "0ed26cc8-5c51-4cfd-b1d6-bf1ffeb242ff",
+    "text": "What communication invention by Samuel Morse was first successfully demonstrated in 1844?",
+    "options": [
+      "Telephone",
+      "Radio",
+      "Telegraph",
+      "Phonograph"
+    ],
+    "correctIndex": 2,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "Morse's telegraph system revolutionized long-distance communication using electrical signals and Morse code.",
+    "detailedExplanation": "Samuel Morse's telegraph system was first successfully demonstrated over a long distance in 1844, when a message was sent from Washington D.C. to Baltimore using his famous code of dots and dashes. The first official message transmitted was 'What hath God wrought.' This invention revolutionized communication by allowing messages to be sent across vast distances almost instantaneously, transforming business, journalism, and personal communication during the Industrial Revolution.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Electrical_telegraph",
+    "citationTitle": "Wikipedia: Electrical Telegraph"
+  },
+  {
+    "id": "b783eba3-7efd-4d79-abb0-bbf9027b45b5",
+    "text": "Which agricultural invention by Jethro Tull in the early 1700s allowed for more efficient planting of seeds?",
+    "options": [
+      "Reaping Machine",
+      "Seed Drill",
+      "Threshing Machine",
+      "Steel Plow"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "Tull's seed drill planted seeds in precise rows at the correct depth, improving crop yields significantly.",
+    "detailedExplanation": "Jethro Tull's seed drill, invented in the early 1700s, was a crucial innovation that helped spark the Agricultural Revolution that preceded and enabled the Industrial Revolution. The seed drill planted seeds in neat rows at the proper depth and spacing, rather than scattering them by hand. This method increased crop yields significantly, reduced seed waste, and made it easier to weed and cultivate crops. The improved agricultural productivity freed up labor for industrial work.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Seed_drill",
+    "citationTitle": "Wikipedia: Seed Drill"
+  },
+  {
+    "id": "13013516-8425-406a-abbe-aa23deeee053",
+    "text": "What process, developed by Henry Cort in the 1780s, improved iron production by removing impurities?",
+    "options": [
+      "Smelting",
+      "Puddling",
+      "Forging",
+      "Tempering"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "The puddling process produced wrought iron by stirring molten pig iron to remove carbon and other impurities.",
+    "detailedExplanation": "Henry Cort's puddling process, developed in the 1780s, revolutionized iron production during the Industrial Revolution. This process involved stirring molten pig iron in a furnace to remove carbon and other impurities, producing high-quality wrought iron. Combined with Cort's rolling mill, which shaped the iron into bars and sheets, this innovation made iron production more efficient and economical. The availability of better quality iron was essential for building machinery, railways, and infrastructure.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Puddling_(metallurgy)",
+    "citationTitle": "Wikipedia: Puddling (metallurgy)"
+  },
+  {
+    "id": "d5ff5b02-989a-4a47-b78f-f35f8e8167e8",
+    "text": "Which inventor is credited with creating the first practical steam engine in 1712?",
+    "options": [
+      "Thomas Newcomen",
+      "James Watt",
+      "George Stephenson",
+      "Richard Trevithick"
+    ],
+    "correctIndex": 0,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "Thomas Newcomen invented the first practical steam engine in 1712, known as the Newcomen atmospheric engine.",
+    "detailedExplanation": "Thomas Newcomen's atmospheric engine of 1712 was the first commercially successful steam engine. It was primarily used for pumping water out of mines and marked a crucial breakthrough in harnessing steam power. While James Watt later improved upon Newcomen's design with his more efficient steam engine in 1769, Newcomen deserves credit for creating the foundational technology that would power the Industrial Revolution.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Newcomen_atmospheric_engine",
+    "citationTitle": "Wikipedia: Newcomen atmospheric engine"
+  },
+  {
+    "id": "f3731aa3-0250-4e9e-b047-51038b2893cd",
+    "text": "What revolutionary textile machine did James Hargreaves invent around 1764?",
+    "options": [
+      "Water Frame",
+      "Spinning Jenny",
+      "Power Loom",
+      "Cotton Gin"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "James Hargreaves invented the Spinning Jenny around 1764, which allowed one worker to spin multiple threads simultaneously.",
+    "detailedExplanation": "The Spinning Jenny was a multi-spindle spinning frame that revolutionized textile production by allowing a single operator to spin eight or more threads at once, compared to the traditional spinning wheel which could only produce one thread at a time. Named allegedly after Hargreaves' daughter Jenny, this invention dramatically increased productivity in yarn production and was one of the key innovations that launched the textile revolution during the Industrial Revolution.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Spinning_jenny",
+    "citationTitle": "Wikipedia: Spinning jenny"
+  },
+  {
+    "id": "ff24dc40-f55f-47b9-8b03-1fcf796b08b6",
+    "text": "Which invention by Alessandro Volta in 1800 provided the first reliable source of electric current?",
+    "options": [
+      "Electric Generator",
+      "Voltaic Pile",
+      "Electric Motor",
+      "Telegraph"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "Alessandro Volta invented the Voltaic Pile in 1800, the first true battery that could provide a steady electric current.",
+    "detailedExplanation": "The Voltaic Pile, invented by Italian physicist Alessandro Volta in 1800, was the first electrical battery that could provide a reliable and continuous source of electric current. Constructed from alternating discs of zinc and copper separated by cardboard soaked in saltwater, it proved that electricity could be generated chemically rather than just by friction. This invention laid the foundation for all future electrical developments and earned Volta the honor of having the unit of electrical potential, the volt, named after him.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Voltaic_pile",
+    "citationTitle": "Wikipedia: Voltaic pile"
+  },
+  {
+    "id": "0e455cc4-6304-42a5-b770-ce1af7ddcd5a",
+    "text": "What industrial process did Henry Cort develop in the 1780s that greatly improved iron production?",
+    "options": [
+      "Blast Furnace Method",
+      "Puddling Process",
+      "Crucible Steel",
+      "Hot Rolling"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "Henry Cort developed the puddling process in the 1780s, which removed impurities from iron and produced higher quality wrought iron.",
+    "detailedExplanation": "Henry Cort's puddling process, developed in the 1780s, revolutionized iron production by providing a method to convert pig iron into wrought iron on a large scale. The process involved melting pig iron in a reverberatory furnace and stirring (or 'puddling') it to remove carbon and other impurities, producing stronger, more malleable iron. Combined with his rolling mill technique, Cort's innovations dramatically increased both the quality and quantity of iron production, providing the high-quality iron necessary for machinery, railways, and construction during the Industrial Revolution.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Puddling_(metallurgy)",
+    "citationTitle": "Wikipedia: Puddling (metallurgy)"
+  },
+  {
+    "id": "c8f968de-f085-4673-890e-935dcbd7731e",
+    "text": "Which invention by Samuel Morse revolutionized long-distance communication in the 1830s?",
+    "options": [
+      "Telephone",
+      "Radio",
+      "Telegraph",
+      "Printing Press"
+    ],
+    "correctIndex": 2,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "Samuel Morse invented the electric telegraph in the 1830s, along with Morse code for transmitting messages.",
+    "detailedExplanation": "Samuel Morse developed the electric telegraph system in the 1830s and 1840s, which could transmit messages over long distances almost instantaneously using electrical signals sent through wires. Along with the telegraph, Morse created Morse code, a system of dots and dashes representing letters and numbers that could be easily transmitted and decoded. The first successful long-distance message was sent in 1844 between Washington D.C. and Baltimore, reading 'What hath God wrought.' This invention transformed communication, commerce, and journalism by connecting distant locations in real-time.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Electrical_telegraph",
+    "citationTitle": "Wikipedia: Electrical telegraph"
+  },
+  {
+    "id": "a9909d7d-5be7-464b-ac9b-cd23b6c78d84",
+    "text": "What safety device did Humphry Davy invent in 1815 to protect miners from explosions?",
+    "options": [
+      "Safety Helmet",
+      "Davy Lamp",
+      "Gas Mask",
+      "Emergency Bell"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "Humphry Davy invented the Davy Lamp in 1815, a safety lamp that prevented methane gas explosions in coal mines.",
+    "detailedExplanation": "The Davy Lamp, invented by Sir Humphry Davy in 1815, was a crucial safety innovation for coal mining. The lamp used a fine wire mesh around the flame that prevented the ignition of methane gas (firedamp) that naturally occurred in coal mines and frequently caused deadly explosions. The mesh allowed air to enter for combustion but prevented the flame from escaping to ignite dangerous gases outside the lamp. This invention saved countless miners' lives and allowed deeper, more dangerous mines to be worked safely, contributing significantly to increased coal production during the Industrial Revolution.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Davy_lamp",
+    "citationTitle": "Wikipedia: Davy lamp"
+  },
+  {
+    "id": "58311f22-bf8f-4cc6-bfbc-eaac0a7ebd9c",
+    "text": "Which invention revolutionized textile production and is often considered the starting point of the Industrial Revolution?",
+    "options": [
+      "The Steam Engine",
+      "The Spinning Jenny",
+      "The Telegraph",
+      "The Power Loom"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "The Spinning Jenny, invented by James Hargreaves in 1764, revolutionized textile production by allowing one worker to spin multiple threads simultaneously.",
+    "detailedExplanation": "The Spinning Jenny was a multi-spindle spinning frame that was one of the key developments in the industrialization of textile manufacturing during the first Industrial Revolution. It reduced the amount of work needed to produce cloth, with a worker able to work eight or more spools at once. This invention marked a crucial transition from hand production methods to mechanized manufacturing, making it a cornerstone of the Industrial Revolution.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Spinning_jenny",
+    "citationTitle": "Wikipedia: Spinning Jenny"
+  },
+  {
+    "id": "bfcd9dbe-f702-4736-9a56-c7fb1df2c7c1",
+    "text": "Who invented the first practical steam engine that powered the Industrial Revolution?",
+    "options": [
+      "Thomas Edison",
+      "James Watt",
+      "Alexander Graham Bell",
+      "Henry Ford"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "James Watt improved the steam engine design in 1769, making it much more efficient and practical for industrial use.",
+    "detailedExplanation": "James Watt's improvements to the steam engine in 1769 made it far more fuel-efficient and practical than earlier designs. His separate condenser design prevented the loss of steam and dramatically improved efficiency. Watt's steam engine became the driving force behind the Industrial Revolution, powering factories, mills, and eventually locomotives and steamships. The unit of power 'watt' is named in his honor.",
+    "citationUrl": "https://en.wikipedia.org/wiki/James_Watt",
+    "citationTitle": "Wikipedia: James Watt"
+  },
+  {
+    "id": "b4c6d6ca-c564-4c17-9042-417bfb34b945",
+    "text": "What revolutionary transportation invention was first successfully demonstrated by George Stephenson in 1825?",
+    "options": [
+      "The Automobile",
+      "The Steam Locomotive",
+      "The Hot Air Balloon",
+      "The Steamboat"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "George Stephenson's steam locomotive 'Locomotion No. 1' opened the world's first passenger railway line between Stockton and Darlington in 1825.",
+    "detailedExplanation": "George Stephenson's steam locomotive marked the beginning of the railway age. His locomotive 'Locomotion No. 1' hauled the first train on the Stockton and Darlington Railway on September 27, 1825, carrying both freight and passengers. This event demonstrated the viability of steam-powered rail transport and led to rapid expansion of railway networks across Britain and the world, fundamentally changing how people and goods moved across distances.",
+    "citationUrl": "https://en.wikipedia.org/wiki/George_Stephenson",
+    "citationTitle": "Wikipedia: George Stephenson"
+  },
+  {
+    "id": "a61b3304-ad80-4f25-9183-32d017e4032a",
+    "text": "Which communication invention by Samuel Morse transformed long-distance messaging during the Industrial Revolution?",
+    "options": [
+      "The Telephone",
+      "The Radio",
+      "The Telegraph",
+      "The Printing Press"
+    ],
+    "correctIndex": 2,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "Samuel Morse invented the telegraph in the 1830s, which used electrical signals to transmit coded messages over long distances almost instantaneously.",
+    "detailedExplanation": "Samuel Morse's telegraph, developed in the 1830s and first successfully demonstrated over long distances in 1844, revolutionized communication by allowing messages to be sent almost instantaneously across vast distances using electrical signals sent through wires. Along with Morse code, this invention connected distant places like never before, facilitating business, journalism, and personal communication. The telegraph network became the nervous system of the industrial world, enabling coordination of railway schedules, stock prices, and news distribution.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Electrical_telegraph",
+    "citationTitle": "Wikipedia: Electrical Telegraph"
+  },
+  {
+    "id": "fb3441bf-d628-42a0-881d-cbb239543560",
+    "text": "Which invention by James Watt, patented in 1769, is considered one of the most important innovations of the Industrial Revolution?",
+    "options": [
+      "The spinning jenny",
+      "The improved steam engine",
+      "The power loom",
+      "The cotton gin"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "James Watt's improved steam engine revolutionized manufacturing and transportation during the Industrial Revolution.",
+    "detailedExplanation": "James Watt's improvements to the steam engine, particularly his separate condenser design patented in 1769, made steam engines far more efficient and practical for widespread industrial use. His innovations reduced fuel consumption by about 75% compared to earlier designs, making steam power economically viable for factories, mills, and eventually transportation. This breakthrough helped power the Industrial Revolution by providing reliable mechanical energy independent of natural water sources.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Watt_steam_engine",
+    "citationTitle": "Wikipedia: Watt steam engine"
+  },
+  {
+    "id": "5a5a6bea-9975-4169-bbf5-9e07b5307bf0",
+    "text": "What revolutionary textile machine, invented by James Hargreaves around 1764, allowed one worker to spin multiple threads simultaneously?",
+    "options": [
+      "The water frame",
+      "The spinning jenny",
+      "The flying shuttle",
+      "The spinning wheel"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "The spinning jenny, invented by James Hargreaves, could spin eight or more threads at once, dramatically increasing textile production.",
+    "detailedExplanation": "The spinning jenny, named after Hargreaves' wife or daughter Jenny, was a multi-spindle spinning frame that revolutionized textile production. Initially capable of spinning eight threads simultaneously (later versions could handle even more), it increased productivity dramatically compared to traditional spinning wheels that could only produce one thread at a time. This invention was crucial in transforming textile manufacturing from a cottage industry to factory-based production, marking a key step in the Industrial Revolution's mechanization of cloth production.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Spinning_jenny",
+    "citationTitle": "Wikipedia: Spinning jenny"
+  }
+]

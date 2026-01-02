@@ -30,9 +30,24 @@ Parameters:
   EnsureProfileFunctionArn:
     Type: String
     Description: Ensure Profile Lambda ARN
+  CreateCheckoutFunctionArn:
+    Type: String
+    Description: Create Checkout Lambda ARN
+  CreateTipCheckoutFunctionArn:
+    Type: String
+    Description: Create Tip Checkout Lambda ARN
+  CheckEmailHasGoogleAccountFunctionArn:
+    Type: String
+    Description: Check Email Has Google Account Lambda ARN
+  SchemaReadyWaiterFunctionArn:
+    Type: String
+    Description: Schema Ready Waiter Lambda ARN
   ResolversBuildHash:
     Type: String
     Description: Build hash for resolver versioning
+  SchemaBuildHash:
+    Type: String
+    Description: Build hash for schema versioning
 
 Resources:
   # AppSync GraphQL API
@@ -58,164 +73,24 @@ Resources:
         - Key: Stage
           Value: !Ref Stage
 
-  # GraphQL Schema
+  # GraphQL Schema - loaded from S3 (merged from backend/schema/*.graphql files)
+  # NEVER embed schema inline - see ARCHITECTURE_GUIDELINES.md
   GraphQLSchema:
     Type: AWS::AppSync::GraphQLSchema
     Properties:
       ApiId: !GetAtt GraphQLApi.ApiId
-      Definition: |
-        type Query {
-          # User queries
-          getMyProfile: User @aws_cognito_user_pools
-          getUserProfile(userId: ID!): UserPublic
-          checkDisplayNameAvailable(displayName: String!): Boolean! @aws_iam
+      DefinitionS3Location: !Sub "s3://${TemplateBucketName}/schema/${Stage}/${SchemaBuildHash}/schema.graphql"
 
-          # Leaderboard queries
-          getLeaderboard(type: LeaderboardType!, limit: Int): Leaderboard
-          getMyRank(type: LeaderboardType!): Int @aws_cognito_user_pools
-
-          # Game state queries
-          getGameState: GameState
-
-          # Question queries (admin only)
-          listQuestions(limit: Int, nextToken: String): QuestionConnection @aws_cognito_user_pools
-
-          # Ably token for real-time
-          getAblyToken: AblyTokenResponse @aws_cognito_user_pools
-
-          # Chat queries
-          getChatMessages(channelId: ID!, limit: Int, nextToken: String): ChatMessageConnection @aws_cognito_user_pools
-          getMyConversations(limit: Int): [Conversation!]! @aws_cognito_user_pools
-        }
-
-        type Mutation {
-          # User mutations
-          updateDisplayName(displayName: String!): User @aws_cognito_user_pools
-          ensureProfile(displayName: String!): User @aws_cognito_user_pools
-
-          # Admin mutations
-          createQuestion(input: CreateQuestionInput!): Question @aws_cognito_user_pools
-          seedQuestions(questions: [CreateQuestionInput!]!): Int @aws_cognito_user_pools
-
-          # Chat mutations
-          sendChatMessage(channelId: ID!, content: String!): ChatMessage @aws_cognito_user_pools
-          startConversation(targetUserId: ID!): Conversation @aws_cognito_user_pools
-        }
-
-        type Subscription {
-          # Chat subscriptions
-          onNewChatMessage(channelId: ID!): ChatMessage @aws_subscribe(mutations: ["sendChatMessage"]) @aws_cognito_user_pools
-        }
-
-        # User types
-        type User {
-          id: ID!
-          email: String!
-          displayName: String!
-          createdAt: String!
-          stats: UserStats!
-        }
-
-        type UserPublic {
-          id: ID!
-          displayName: String!
-          stats: UserStats!
-        }
-
-        type UserStats {
-          totalCorrect: Int!
-          totalWrong: Int!
-          totalPoints: Int!
-          setsPlayed: Int!
-          setsWon: Int!
-          currentStreak: Int!
-          longestStreak: Int!
-        }
-
-        # Leaderboard types
-        enum LeaderboardType {
-          DAILY
-          WEEKLY
-          ALL_TIME
-        }
-
-        type Leaderboard {
-          type: LeaderboardType!
-          entries: [LeaderboardEntry!]!
-          updatedAt: String!
-        }
-
-        type LeaderboardEntry {
-          rank: Int!
-          userId: ID!
-          displayName: String!
-          score: Int!
-        }
-
-        # Game state types
-        type GameState {
-          isSetActive: Boolean!
-          currentSetId: String
-          nextSetTime: String!
-          playerCount: Int!
-        }
-
-        # Question types
-        type Question {
-          id: ID!
-          text: String!
-          options: [String!]!
-          correctIndex: Int!
-          category: String!
-          difficulty: String!
-          explanation: String
-        }
-
-        input CreateQuestionInput {
-          text: String!
-          options: [String!]!
-          correctIndex: Int!
-          category: String!
-          difficulty: String!
-          explanation: String
-        }
-
-        type QuestionConnection {
-          items: [Question!]!
-          nextToken: String
-        }
-
-        # Ably token response
-        type AblyTokenResponse {
-          token: String!
-          expires: String!
-          duplicateSession: Boolean
-          duplicateIp: Boolean
-        }
-
-        # Chat types
-        type ChatMessage {
-          id: ID!
-          channelId: ID!
-          senderId: ID!
-          senderUsername: String!
-          senderDisplayName: String!
-          content: String!
-          createdAt: String!
-        }
-
-        type ChatMessageConnection {
-          items: [ChatMessage!]!
-          nextToken: String
-        }
-
-        type Conversation {
-          id: ID!
-          participantIds: [ID!]!
-          participants: [UserPublic!]!
-          lastMessage: ChatMessage
-          updatedAt: String!
-        }
+  # Custom Resource that waits for schema to be fully ready
+  # This ensures resolvers aren't created until schema update is complete.
+  # CloudFormation's DependsOn only checks existence, not update completion.
+  SchemaReadyCustomResource:
+    Type: Custom::SchemaReady
+    DependsOn: GraphQLSchema
+    Properties:
+      ServiceToken: !Ref SchemaReadyWaiterFunctionArn
+      ApiId: !GetAtt GraphQLApi.ApiId
+      SchemaHash: !Ref SchemaBuildHash
 
   # DynamoDB Data Source
   DynamoDBDataSource:
@@ -251,10 +126,43 @@ Resources:
       LambdaConfig:
         LambdaFunctionArn: !Ref EnsureProfileFunctionArn
 
+  # Lambda Data Source for Create Checkout
+  CreateCheckoutDataSource:
+    Type: AWS::AppSync::DataSource
+    Properties:
+      ApiId: !GetAtt GraphQLApi.ApiId
+      Name: CreateCheckoutDataSource
+      Type: AWS_LAMBDA
+      ServiceRoleArn: !GetAtt AppSyncLambdaRole.Arn
+      LambdaConfig:
+        LambdaFunctionArn: !Ref CreateCheckoutFunctionArn
+
+  # Lambda Data Source for Check Email Has Google Account
+  CheckEmailHasGoogleAccountDataSource:
+    Type: AWS::AppSync::DataSource
+    Properties:
+      ApiId: !GetAtt GraphQLApi.ApiId
+      Name: CheckEmailHasGoogleAccountDataSource
+      Type: AWS_LAMBDA
+      ServiceRoleArn: !GetAtt AppSyncLambdaRole.Arn
+      LambdaConfig:
+        LambdaFunctionArn: !Ref CheckEmailHasGoogleAccountFunctionArn
+
+  # Lambda Data Source for Tip Checkout
+  CreateTipCheckoutDataSource:
+    Type: AWS::AppSync::DataSource
+    Properties:
+      ApiId: !GetAtt GraphQLApi.ApiId
+      Name: CreateTipCheckoutDataSource
+      Type: AWS_LAMBDA
+      ServiceRoleArn: !GetAtt AppSyncLambdaRole.Arn
+      LambdaConfig:
+        LambdaFunctionArn: !Ref CreateTipCheckoutFunctionArn
+
   # Resolvers
   GetMyProfileResolver:
     Type: AWS::AppSync::Resolver
-    DependsOn: GraphQLSchema
+    DependsOn: SchemaReadyCustomResource
     Properties:
       ApiId: !GetAtt GraphQLApi.ApiId
       TypeName: Query
@@ -268,7 +176,7 @@ Resources:
 
   GetUserProfileResolver:
     Type: AWS::AppSync::Resolver
-    DependsOn: GraphQLSchema
+    DependsOn: SchemaReadyCustomResource
     Properties:
       ApiId: !GetAtt GraphQLApi.ApiId
       TypeName: Query
@@ -282,7 +190,7 @@ Resources:
 
   CheckDisplayNameAvailableResolver:
     Type: AWS::AppSync::Resolver
-    DependsOn: GraphQLSchema
+    DependsOn: SchemaReadyCustomResource
     Properties:
       ApiId: !GetAtt GraphQLApi.ApiId
       TypeName: Query
@@ -294,9 +202,23 @@ Resources:
         RuntimeVersion: "1.0.0"
       CodeS3Location: !Sub "s3://${TemplateBucketName}/resolvers/${Stage}/${ResolversBuildHash}/users/Queries/Query.checkDisplayNameAvailable.js"
 
+  CheckEmailHasGoogleAccountResolver:
+    Type: AWS::AppSync::Resolver
+    DependsOn: SchemaReadyCustomResource
+    Properties:
+      ApiId: !GetAtt GraphQLApi.ApiId
+      TypeName: Query
+      FieldName: checkEmailHasGoogleAccount
+      DataSourceName: !GetAtt CheckEmailHasGoogleAccountDataSource.Name
+      Kind: UNIT
+      Runtime:
+        Name: APPSYNC_JS
+        RuntimeVersion: "1.0.0"
+      CodeS3Location: !Sub "s3://${TemplateBucketName}/resolvers/${Stage}/${ResolversBuildHash}/auth/Queries/Query.checkEmailHasGoogleAccount.js"
+
   GetLeaderboardResolver:
     Type: AWS::AppSync::Resolver
-    DependsOn: GraphQLSchema
+    DependsOn: SchemaReadyCustomResource
     Properties:
       ApiId: !GetAtt GraphQLApi.ApiId
       TypeName: Query
@@ -308,9 +230,23 @@ Resources:
         RuntimeVersion: "1.0.0"
       CodeS3Location: !Sub "s3://${TemplateBucketName}/resolvers/${Stage}/${ResolversBuildHash}/leaderboard/Queries/Query.getLeaderboard.js"
 
+  GetMyRankResolver:
+    Type: AWS::AppSync::Resolver
+    DependsOn: SchemaReadyCustomResource
+    Properties:
+      ApiId: !GetAtt GraphQLApi.ApiId
+      TypeName: Query
+      FieldName: getMyRank
+      DataSourceName: !GetAtt DynamoDBDataSource.Name
+      Kind: UNIT
+      Runtime:
+        Name: APPSYNC_JS
+        RuntimeVersion: "1.0.0"
+      CodeS3Location: !Sub "s3://${TemplateBucketName}/resolvers/${Stage}/${ResolversBuildHash}/leaderboard/Queries/Query.getMyRank.js"
+
   GetAblyTokenResolver:
     Type: AWS::AppSync::Resolver
-    DependsOn: GraphQLSchema
+    DependsOn: SchemaReadyCustomResource
     Properties:
       ApiId: !GetAtt GraphQLApi.ApiId
       TypeName: Query
@@ -324,7 +260,7 @@ Resources:
 
   UpdateDisplayNameResolver:
     Type: AWS::AppSync::Resolver
-    DependsOn: GraphQLSchema
+    DependsOn: SchemaReadyCustomResource
     Properties:
       ApiId: !GetAtt GraphQLApi.ApiId
       TypeName: Mutation
@@ -336,9 +272,23 @@ Resources:
         RuntimeVersion: "1.0.0"
       CodeS3Location: !Sub "s3://${TemplateBucketName}/resolvers/${Stage}/${ResolversBuildHash}/users/Mutations/Mutation.updateDisplayName.js"
 
+  MarkGiftNotificationSeenResolver:
+    Type: AWS::AppSync::Resolver
+    DependsOn: SchemaReadyCustomResource
+    Properties:
+      ApiId: !GetAtt GraphQLApi.ApiId
+      TypeName: Mutation
+      FieldName: markGiftNotificationSeen
+      DataSourceName: !GetAtt DynamoDBDataSource.Name
+      Kind: UNIT
+      Runtime:
+        Name: APPSYNC_JS
+        RuntimeVersion: "1.0.0"
+      CodeS3Location: !Sub "s3://${TemplateBucketName}/resolvers/${Stage}/${ResolversBuildHash}/users/Mutations/Mutation.markGiftNotificationSeen.js"
+
   EnsureProfileResolver:
     Type: AWS::AppSync::Resolver
-    DependsOn: GraphQLSchema
+    DependsOn: SchemaReadyCustomResource
     Properties:
       ApiId: !GetAtt GraphQLApi.ApiId
       TypeName: Mutation
@@ -350,10 +300,40 @@ Resources:
         RuntimeVersion: "1.0.0"
       CodeS3Location: !Sub "s3://${TemplateBucketName}/resolvers/${Stage}/${ResolversBuildHash}/profile/Mutations/Mutation.ensureProfile.js"
 
+  # Subscription (Payment) Resolvers
+  CreateCheckoutSessionResolver:
+    Type: AWS::AppSync::Resolver
+    DependsOn: SchemaReadyCustomResource
+    Properties:
+      ApiId: !GetAtt GraphQLApi.ApiId
+      TypeName: Mutation
+      FieldName: createCheckoutSession
+      DataSourceName: !GetAtt CreateCheckoutDataSource.Name
+      Kind: UNIT
+      Runtime:
+        Name: APPSYNC_JS
+        RuntimeVersion: "1.0.0"
+      CodeS3Location: !Sub "s3://${TemplateBucketName}/resolvers/${Stage}/${ResolversBuildHash}/subscription/Mutations/Mutation.createCheckoutSession.js"
+
+  # Tip Checkout Resolver
+  CreateTipCheckoutResolver:
+    Type: AWS::AppSync::Resolver
+    DependsOn: SchemaReadyCustomResource
+    Properties:
+      ApiId: !GetAtt GraphQLApi.ApiId
+      TypeName: Mutation
+      FieldName: createTipCheckout
+      DataSourceName: !GetAtt CreateTipCheckoutDataSource.Name
+      Kind: UNIT
+      Runtime:
+        Name: APPSYNC_JS
+        RuntimeVersion: "1.0.0"
+      CodeS3Location: !Sub "s3://${TemplateBucketName}/resolvers/${Stage}/${ResolversBuildHash}/tip/Mutations/Mutation.createTipCheckout.js"
+
   # Chat Resolvers
   GetChatMessagesResolver:
     Type: AWS::AppSync::Resolver
-    DependsOn: GraphQLSchema
+    DependsOn: SchemaReadyCustomResource
     Properties:
       ApiId: !GetAtt GraphQLApi.ApiId
       TypeName: Query
@@ -367,7 +347,7 @@ Resources:
 
   GetMyConversationsResolver:
     Type: AWS::AppSync::Resolver
-    DependsOn: GraphQLSchema
+    DependsOn: SchemaReadyCustomResource
     Properties:
       ApiId: !GetAtt GraphQLApi.ApiId
       TypeName: Query
@@ -381,7 +361,7 @@ Resources:
 
   SendChatMessageResolver:
     Type: AWS::AppSync::Resolver
-    DependsOn: GraphQLSchema
+    DependsOn: SchemaReadyCustomResource
     Properties:
       ApiId: !GetAtt GraphQLApi.ApiId
       TypeName: Mutation
@@ -395,7 +375,7 @@ Resources:
 
   StartConversationResolver:
     Type: AWS::AppSync::Resolver
-    DependsOn: GraphQLSchema
+    DependsOn: SchemaReadyCustomResource
     Properties:
       ApiId: !GetAtt GraphQLApi.ApiId
       TypeName: Mutation
@@ -406,6 +386,49 @@ Resources:
         Name: APPSYNC_JS
         RuntimeVersion: "1.0.0"
       CodeS3Location: !Sub "s3://${TemplateBucketName}/resolvers/${Stage}/${ResolversBuildHash}/chat/Mutations/Mutation.startConversation.js"
+
+  # Admin Resolvers
+  GetWebhookLogsResolver:
+    Type: AWS::AppSync::Resolver
+    DependsOn: SchemaReadyCustomResource
+    Properties:
+      ApiId: !GetAtt GraphQLApi.ApiId
+      TypeName: Query
+      FieldName: getWebhookLogs
+      DataSourceName: !GetAtt DynamoDBDataSource.Name
+      Kind: UNIT
+      Runtime:
+        Name: APPSYNC_JS
+        RuntimeVersion: "1.0.0"
+      CodeS3Location: !Sub "s3://${TemplateBucketName}/resolvers/${Stage}/${ResolversBuildHash}/admin/Queries/Query.getWebhookLogs.js"
+
+  AdminUpdateUserTierResolver:
+    Type: AWS::AppSync::Resolver
+    DependsOn: SchemaReadyCustomResource
+    Properties:
+      ApiId: !GetAtt GraphQLApi.ApiId
+      TypeName: Mutation
+      FieldName: adminUpdateUserTier
+      DataSourceName: !GetAtt DynamoDBDataSource.Name
+      Kind: UNIT
+      Runtime:
+        Name: APPSYNC_JS
+        RuntimeVersion: "1.0.0"
+      CodeS3Location: !Sub "s3://${TemplateBucketName}/resolvers/${Stage}/${ResolversBuildHash}/admin/Mutations/Mutation.adminUpdateUserTier.js"
+
+  AdminGiftSubscriptionResolver:
+    Type: AWS::AppSync::Resolver
+    DependsOn: SchemaReadyCustomResource
+    Properties:
+      ApiId: !GetAtt GraphQLApi.ApiId
+      TypeName: Mutation
+      FieldName: adminGiftSubscription
+      DataSourceName: !GetAtt DynamoDBDataSource.Name
+      Kind: UNIT
+      Runtime:
+        Name: APPSYNC_JS
+        RuntimeVersion: "1.0.0"
+      CodeS3Location: !Sub "s3://${TemplateBucketName}/resolvers/${Stage}/${ResolversBuildHash}/admin/Mutations/Mutation.adminGiftSubscription.js"
 
   # IAM Role for AppSync to invoke Lambda
   AppSyncLambdaRole:
@@ -429,6 +452,9 @@ Resources:
                 Resource:
                   - !Ref GetAblyTokenFunctionArn
                   - !Ref EnsureProfileFunctionArn
+                  - !Ref CreateCheckoutFunctionArn
+                  - !Ref CreateTipCheckoutFunctionArn
+                  - !Ref CheckEmailHasGoogleAccountFunctionArn
 
   # IAM Role for AppSync CloudWatch Logs
   AppSyncLogsRole:

@@ -1,0 +1,342 @@
+[
+  {
+    "id": "4795d1b7-d7b0-4b5b-b920-e52e8b2aff5d",
+    "text": "Which Broadway musical holds the record for the longest-running show in Broadway history?",
+    "options": [
+      "The Lion King",
+      "Chicago",
+      "The Phantom of the Opera",
+      "Cats"
+    ],
+    "correctIndex": 2,
+    "category": "entertainment",
+    "difficulty": "medium",
+    "explanation": "The Phantom of the Opera ran for 35 years from 1988 to 2023.",
+    "detailedExplanation": "Andrew Lloyd Webber's The Phantom of the Opera opened on January 26, 1988, and closed on April 16, 2023, after 13,981 performances. It surpassed the previous record holder, Cats (also by Lloyd Webber), in 2006 and maintained its position as Broadway's longest-running show for over 15 years until its closure.",
+    "citationUrl": "https://en.wikipedia.org/wiki/The_Phantom_of_the_Opera_(1986_musical)",
+    "citationTitle": "Wikipedia: The Phantom of the Opera (1986 musical)"
+  },
+  {
+    "id": "4aeae042-8227-4999-b8a6-c13a8c50bcc2",
+    "text": "Which composer wrote the music for both 'West Side Story' and 'Sweeney Todd'?",
+    "options": [
+      "Stephen Sondheim",
+      "Leonard Bernstein",
+      "Andrew Lloyd Webber",
+      "Richard Rodgers"
+    ],
+    "correctIndex": 0,
+    "category": "entertainment",
+    "difficulty": "medium",
+    "explanation": "Stephen Sondheim wrote the music for Sweeney Todd and the lyrics for West Side Story.",
+    "detailedExplanation": "Stephen Sondheim had different roles in these two landmark musicals. For West Side Story (1957), he wrote the lyrics while Leonard Bernstein composed the music. For Sweeney Todd: The Demon Barber of Fleet Street (1979), Sondheim wrote both the music and lyrics. This showcases his evolution from lyricist to composer-lyricist, becoming one of Broadway's most influential figures.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Stephen_Sondheim",
+    "citationTitle": "Wikipedia: Stephen Sondheim"
+  },
+  {
+    "id": "46b2d556-5b3a-4752-aa5f-102741f8b82a",
+    "text": "What is the name of the opening number in the musical 'Hamilton'?",
+    "options": [
+      "Wait for It",
+      "Alexander Hamilton",
+      "The Room Where It Happens",
+      "My Shot"
+    ],
+    "correctIndex": 1,
+    "category": "entertainment",
+    "difficulty": "medium",
+    "explanation": "'Alexander Hamilton' is the opening song that introduces the title character and other key figures.",
+    "detailedExplanation": "The opening number 'Alexander Hamilton' serves as an exposition song, introducing Alexander Hamilton's backstory and the key historical figures who will drive the narrative. Written by Lin-Manuel Miranda, the song establishes the musical's unique hip-hop influenced style while efficiently conveying Hamilton's origins in the Caribbean, his arrival in New York, and his ambitious nature.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Hamilton_(musical)",
+    "citationTitle": "Wikipedia: Hamilton (musical)"
+  },
+  {
+    "id": "04b4963a-95bb-4668-8807-05812e25f6da",
+    "text": "Which Broadway musical won the Tony Award for Best Musical in 1996?",
+    "options": [
+      "Rent",
+      "Chicago Revival",
+      "Bring in 'da Noise, Bring in 'da Funk",
+      "Big"
+    ],
+    "correctIndex": 0,
+    "category": "entertainment",
+    "difficulty": "medium",
+    "explanation": "Rent won the Tony Award for Best Musical in 1996, along with the Pulitzer Prize for Drama.",
+    "detailedExplanation": "Jonathan Larson's Rent won the 1996 Tony Award for Best Musical, beating out several other nominees. The musical, inspired by Puccini's La Bohème, dealt with contemporary issues like HIV/AIDS, poverty, and LGBTQ+ relationships. Tragically, Larson died suddenly the night before Rent's first Off-Broadway preview, making the Tony win posthumous. The musical also won the Pulitzer Prize for Drama that same year.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Rent_(musical)",
+    "citationTitle": "Wikipedia: Rent (musical)"
+  },
+  {
+    "id": "6d6b19c0-1029-413d-afcc-8b454c2c66a3",
+    "text": "In 'The Book of Mormon', what is the name of the fictional African country where the missionaries are sent?",
+    "options": [
+      "Wakanda",
+      "Uganda",
+      "Burundi",
+      "Rwanda"
+    ],
+    "correctIndex": 1,
+    "category": "entertainment",
+    "difficulty": "medium",
+    "explanation": "The missionaries in The Book of Mormon are sent to Uganda, which is a real country in East Africa.",
+    "detailedExplanation": "In Trey Parker, Matt Stone, and Robert Lopez's satirical musical The Book of Mormon, the two main characters Elder Price and Elder Cunningham are sent on their Mormon mission to Uganda. While Uganda is a real East African country, the musical presents a satirical and often controversial portrayal of both Mormon missionary work and African culture, which has sparked considerable discussion about representation and cultural sensitivity in theater.",
+    "citationUrl": "https://en.wikipedia.org/wiki/The_Book_of_Mormon_(musical)",
+    "citationTitle": "Wikipedia: The Book of Mormon (musical)"
+  },
+  {
+    "id": "3eb556df-0fbc-4ac0-8f35-6ac4fff3d702",
+    "text": "Which musical is based on the life of founding father Alexander Hamilton and premiered on Broadway in 2015?",
+    "options": [
+      "1776",
+      "Hamilton",
+      "Assassins",
+      "John Adams"
+    ],
+    "correctIndex": 1,
+    "category": "entertainment",
+    "difficulty": "medium",
+    "explanation": "Hamilton, created by Lin-Manuel Miranda, premiered on Broadway in August 2015.",
+    "detailedExplanation": "Hamilton premiered Off-Broadway at The Public Theater in early 2015 before transferring to the Richard Rodgers Theatre on Broadway in August 2015. Created by Lin-Manuel Miranda and inspired by Ron Chernow's biography of Alexander Hamilton, the musical revolutionized Broadway with its diverse casting, hip-hop influenced score, and rapid-fire lyrics that pack dense historical information into memorable songs.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Hamilton_(musical)",
+    "citationTitle": "Wikipedia: Hamilton (musical)"
+  },
+  {
+    "id": "038aabec-e310-4f6c-8966-70853bea047c",
+    "text": "What is the name of the male lead character in 'Mamma Mia!'?",
+    "options": [
+      "Sky",
+      "Sam",
+      "Bill",
+      "Harry"
+    ],
+    "correctIndex": 0,
+    "category": "entertainment",
+    "difficulty": "medium",
+    "explanation": "Sky is Sophie's fiancé and the male romantic lead in Mamma Mia!",
+    "detailedExplanation": "In the ABBA-based musical Mamma Mia!, Sky is Sophie's fiancé and represents the younger generation's romantic storyline. While Sam, Bill, and Harry are the three potential fathers that Sophie invites to her wedding, Sky serves as the primary male lead opposite Sophie. The character navigates the complications that arise when Sophie's three potential fathers arrive, and their relationship faces challenges throughout the musical's plot.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Mamma_Mia!_(musical)",
+    "citationTitle": "Wikipedia: Mamma Mia! (musical)"
+  },
+  {
+    "id": "0d3f3ab4-bdc4-4b65-8aec-0478c5483a6e",
+    "text": "Who composed the music for the Broadway musical 'West Side Story'?",
+    "options": [
+      "Stephen Sondheim",
+      "Leonard Bernstein",
+      "Richard Rodgers",
+      "Cole Porter"
+    ],
+    "correctIndex": 1,
+    "category": "entertainment",
+    "difficulty": "medium",
+    "explanation": "Leonard Bernstein composed the music, while Stephen Sondheim wrote the lyrics for West Side Story.",
+    "detailedExplanation": "West Side Story premiered on Broadway in 1957 with music by Leonard Bernstein and lyrics by Stephen Sondheim (his first major Broadway credit). The book was written by Arthur Laurents, and the show was conceived and choreographed by Jerome Robbins. This modern adaptation of Romeo and Juliet set in New York's Upper West Side featured iconic songs like 'Maria,' 'Tonight,' and 'America,' and revolutionized Broadway with its integration of music, dance, and dramatic storytelling.",
+    "citationUrl": "https://en.wikipedia.org/wiki/West_Side_Story",
+    "citationTitle": "Wikipedia: West Side Story"
+  },
+  {
+    "id": "2f04e2dd-51e1-4269-b1da-4ff7542a875d",
+    "text": "In the musical 'Hamilton,' which founding father serves as the narrator and primary antagonist?",
+    "options": [
+      "Thomas Jefferson",
+      "George Washington",
+      "John Adams",
+      "Aaron Burr"
+    ],
+    "correctIndex": 3,
+    "category": "entertainment",
+    "difficulty": "medium",
+    "explanation": "Aaron Burr serves as both the narrator and Hamilton's political rival who eventually kills him in a duel.",
+    "detailedExplanation": "In Lin-Manuel Miranda's groundbreaking musical Hamilton, Aaron Burr is portrayed as both the narrator who guides the audience through Alexander Hamilton's life story and as Hamilton's primary foil. The musical explores their complex relationship from their early friendship through their growing political differences, culminating in the famous 1804 duel in which Burr killed Hamilton. Burr's perspective frames the entire show, beginning with 'Alexander Hamilton' and ending with 'The World Was Wide Enough,' making him a central figure despite Hamilton being the titular character.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Hamilton_(musical)",
+    "citationTitle": "Wikipedia: Hamilton (musical)"
+  },
+  {
+    "id": "ed3cd464-54ee-45b9-a756-ac27730469a5",
+    "text": "What is the name of the street where most Broadway theaters are actually located?",
+    "options": [
+      "Broadway",
+      "42nd Street",
+      "Times Square",
+      "Theater District"
+    ],
+    "correctIndex": 1,
+    "category": "entertainment",
+    "difficulty": "medium",
+    "explanation": "Most Broadway theaters are located on side streets, particularly 42nd Street, rather than on Broadway itself.",
+    "detailedExplanation": "While the theater district is called 'Broadway,' most of the actual theaters designated as Broadway houses are located on the side streets between 6th and 8th Avenues, particularly concentrated around 42nd Street through 54th Street. To be considered a 'Broadway theater,' a venue must have 500 or more seats and be located in Manhattan's Theater District. Many of the most famous theaters, including the New Amsterdam, Lyceum, and Majestic theaters, are situated on these cross streets rather than on Broadway Avenue itself, though the name 'Broadway' has become synonymous with professional theater in New York.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Broadway_theatre",
+    "citationTitle": "Wikipedia: Broadway theatre"
+  },
+  {
+    "id": "ffa65a0c-040b-472a-9068-aa4a2419bbe9",
+    "text": "Which musical won the first-ever Tony Award for Best Musical in 1949?",
+    "options": [
+      "Oklahoma!",
+      "South Pacific",
+      "Kiss Me, Kate",
+      "Carousel"
+    ],
+    "correctIndex": 2,
+    "category": "entertainment",
+    "difficulty": "medium",
+    "explanation": "Kiss Me, Kate won the first Tony Award for Best Musical when the category was introduced in 1949.",
+    "detailedExplanation": "Kiss Me, Kate, with music and lyrics by Cole Porter and book by Samuel and Bella Spewack, won the inaugural Tony Award for Best Musical in 1949. The Tony Awards themselves began in 1947, but the Best Musical category wasn't introduced until 1949. Kiss Me, Kate is a musical adaptation of Shakespeare's The Taming of the Shrew, featuring a play-within-a-play structure where divorced actors perform together in a musical version of the Shakespeare comedy. The show featured classic Porter songs like 'Another Op'nin, Another Show' and 'So in Love.'",
+    "citationUrl": "https://en.wikipedia.org/wiki/Kiss_Me,_Kate",
+    "citationTitle": "Wikipedia: Kiss Me, Kate"
+  },
+  {
+    "id": "df788d9e-7592-45be-a18a-74df1d8b9a10",
+    "text": "In 'The Book of Mormon,' the two main missionary characters are Elder Price and Elder what?",
+    "options": [
+      "Cunningham",
+      "McKinley",
+      "Thomas",
+      "Arnold"
+    ],
+    "correctIndex": 0,
+    "category": "entertainment",
+    "difficulty": "medium",
+    "explanation": "Elder Cunningham is Elder Price's awkward missionary companion in the satirical musical.",
+    "detailedExplanation": "The Book of Mormon, created by Trey Parker and Matt Stone (creators of South Park) along with Robert Lopez, premiered on Broadway in 2011. The musical follows two young Mormon missionaries, the confident Elder Kevin Price and the nerdy, compulsive-lying Elder Arnold Cunningham, who are sent to Uganda to convert locals to their faith. Elder Cunningham serves as the comedic foil to the more traditional Elder Price, and his unconventional approach to missionary work drives much of the show's humor. The musical won nine Tony Awards, including Best Musical.",
+    "citationUrl": "https://en.wikipedia.org/wiki/The_Book_of_Mormon_(musical)",
+    "citationTitle": "Wikipedia: The Book of Mormon (musical)"
+  },
+  {
+    "id": "97f67065-06cf-4136-9c4f-69a98585241f",
+    "text": "Which Rodgers and Hammerstein musical was the first to win the Pulitzer Prize for Drama?",
+    "options": [
+      "South Pacific",
+      "The King and I",
+      "Oklahoma!",
+      "The Sound of Music"
+    ],
+    "correctIndex": 0,
+    "category": "entertainment",
+    "difficulty": "medium",
+    "explanation": "South Pacific won the Pulitzer Prize for Drama in 1950, becoming the first musical to receive this honor.",
+    "detailedExplanation": "South Pacific, which premiered on Broadway in 1949, became the first musical to win the Pulitzer Prize for Drama in 1950. The musical, with music by Richard Rodgers, lyrics by Oscar Hammerstein II, and book by Hammerstein and Joshua Logan, was based on James A. Michener's Pulitzer Prize-winning book 'Tales of the South Pacific.' Set during World War II in the Pacific theater, the musical tackled serious themes including racial prejudice and war, which contributed to its recognition by the Pulitzer committee. The show also won 10 Tony Awards and featured memorable songs like 'Some Enchanted Evening' and 'Bali Ha'i.'",
+    "citationUrl": "https://en.wikipedia.org/wiki/South_Pacific_(musical)",
+    "citationTitle": "Wikipedia: South Pacific (musical)"
+  },
+  {
+    "id": "a51174c5-0ee4-47b1-8cf8-43964c2c4799",
+    "text": "In which Broadway musical would you hear the song 'Defying Gravity'?",
+    "options": [
+      "Wicked",
+      "Rent",
+      "Hamilton",
+      "Dear Evan Hansen"
+    ],
+    "correctIndex": 0,
+    "category": "entertainment",
+    "difficulty": "medium",
+    "explanation": "'Defying Gravity' is the Act I finale of Wicked, sung primarily by Elphaba.",
+    "detailedExplanation": "'Defying Gravity' is one of the most iconic songs from the musical Wicked, which premiered on Broadway in 2003. The song serves as the Act I finale and is performed primarily by Elphaba (the future Wicked Witch of the West), with some parts sung by Glinda. The song represents Elphaba's decision to embrace her powers and stand against the Wizard of Oz, literally and figuratively rising above the constraints placed upon her. The musical, with music and lyrics by Stephen Schwartz, tells the backstory of the witches from L. Frank Baum's The Wonderful Wizard of Oz.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Wicked_(musical)",
+    "citationTitle": "Wikipedia: Wicked (musical)"
+  },
+  {
+    "id": "b39d7da0-631d-4c0c-956b-9a659e98a336",
+    "text": "Which musical features the characters Nathan Detroit and Sky Masterson?",
+    "options": [
+      "Guys and Dolls",
+      "How to Succeed in Business Without Really Trying",
+      "The Music Man",
+      "Kiss Me, Kate"
+    ],
+    "correctIndex": 0,
+    "category": "entertainment",
+    "difficulty": "medium",
+    "explanation": "Nathan Detroit and Sky Masterson are main characters in the 1950 musical Guys and Dolls.",
+    "detailedExplanation": "Guys and Dolls premiered on Broadway in 1950 with music and lyrics by Frank Loesser and book by Jo Swerling and Abe Burrows. The musical is based on short stories by Damon Runyon and follows the stories of gamblers and showgirls in New York City. Nathan Detroit runs illegal crap games and is engaged to nightclub performer Adelaide, while Sky Masterson is a high-rolling gambler who bets he can take Salvation Army missionary Sarah Brown to Havana. The musical won the Tony Award for Best Musical and has been revived numerous times.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Guys_and_Dolls",
+    "citationTitle": "Wikipedia: Guys and Dolls"
+  },
+  {
+    "id": "7bac1fee-b993-4225-a5dd-a3d1e567029f",
+    "text": "What was the first Broadway musical to win the Pulitzer Prize for Drama?",
+    "options": [
+      "South Pacific",
+      "Of Thee I Sing",
+      "A Chorus Line",
+      "Rent"
+    ],
+    "correctIndex": 1,
+    "category": "entertainment",
+    "difficulty": "medium",
+    "explanation": "Of Thee I Sing won the Pulitzer Prize for Drama in 1932, becoming the first musical to receive this honor.",
+    "detailedExplanation": "Of Thee I Sing, which premiered in 1931, made history in 1932 by becoming the first musical to win the Pulitzer Prize for Drama. The musical featured music by George Gershwin, lyrics by Ira Gershwin, and book by George S. Kaufman and Morrie Ryskind. It was a political satire about presidential campaigns and politics in America. Interestingly, the Pulitzer Prize was awarded specifically to the librettists Kaufman and Ryskind, and lyricist Ira Gershwin, but not to composer George Gershwin, as the committee felt that the award should go to the authors of the text.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Of_Thee_I_Sing",
+    "citationTitle": "Wikipedia: Of Thee I Sing"
+  },
+  {
+    "id": "b2bbc454-8f35-4558-9dd6-b36f0cb80554",
+    "text": "Which Broadway musical is based on the life of Alexander Hamilton and features a predominantly non-white cast?",
+    "options": [
+      "1776",
+      "Hamilton",
+      "Assassins",
+      "Sunday in the Park with George"
+    ],
+    "correctIndex": 1,
+    "category": "entertainment",
+    "difficulty": "medium",
+    "explanation": "Hamilton, created by Lin-Manuel Miranda, revolutionized Broadway with its hip-hop influenced score and diverse casting.",
+    "detailedExplanation": "Hamilton premiered off-Broadway in 2015 and moved to Broadway the same year, created by Lin-Manuel Miranda who wrote the music, lyrics, and book. The musical tells the story of Alexander Hamilton, one of America's founding fathers, using a blend of hip-hop, R&B, pop, and traditional show tunes. One of its most notable features is the intentional casting of Black and Latino actors as white historical figures, which Miranda described as a way to make the story more relevant to contemporary audiences. The musical won 11 Tony Awards and the Pulitzer Prize for Drama.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Hamilton_(musical)",
+    "citationTitle": "Wikipedia: Hamilton (musical)"
+  },
+  {
+    "id": "c11826e2-10f2-4c91-b448-11c09b494937",
+    "text": "In 'Chicago,' what is the name of the lawyer who represents both Roxie Hart and Velma Kelly?",
+    "options": [
+      "Amos Hart",
+      "Billy Flynn",
+      "Fred Casely",
+      "Matron Morton"
+    ],
+    "correctIndex": 1,
+    "category": "entertainment",
+    "difficulty": "medium",
+    "explanation": "Billy Flynn is the slick lawyer who represents both murderesses in the musical Chicago.",
+    "detailedExplanation": "Billy Flynn is the charismatic and manipulative defense attorney in the musical Chicago who represents both Roxie Hart and Velma Kelly, two women accused of murder in 1920s Chicago. The character is known for his showmanship and ability to manipulate the media and jury to get his clients acquitted. The role has been played by notable actors including Jerry Orbach in the original 1975 production and Richard Gere in the 2002 film adaptation. The current Broadway revival, which began in 1996, has featured many celebrities in the role of Billy Flynn, including Richard Gere, John O'Hurley, and many others.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Chicago_(musical)",
+    "citationTitle": "Wikipedia: Chicago (musical)"
+  },
+  {
+    "id": "d1212b32-284c-4eda-824f-67e34fa9d5aa",
+    "text": "In the musical 'Hamilton', which founding father serves as the narrator and deuteragonist who ultimately kills Hamilton in a duel?",
+    "options": [
+      "Thomas Jefferson",
+      "George Washington",
+      "Aaron Burr",
+      "John Adams"
+    ],
+    "correctIndex": 2,
+    "category": "entertainment",
+    "difficulty": "medium",
+    "explanation": "Aaron Burr serves as both narrator and Hamilton's foil, culminating in their fatal duel in 1804.",
+    "detailedExplanation": "In Lin-Manuel Miranda's groundbreaking musical 'Hamilton', Aaron Burr functions as both the narrator who guides the audience through Alexander Hamilton's story and as the deuteragonist whose complex relationship with Hamilton drives much of the dramatic tension. Burr opens the show with 'Alexander Hamilton' and appears throughout as Hamilton's friend, rival, and philosophical opposite. The musical explores their contrasting approaches to ambition and politics, with Burr advocating for patience and careful political maneuvering while Hamilton pushes forward boldly. Their relationship ultimately deteriorates over political differences, leading to the famous duel in Weehawken, New Jersey, on July 11, 1804, where Burr fatally shoots Hamilton.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Hamilton_(musical)",
+    "citationTitle": "Wikipedia: Hamilton (musical)"
+  },
+  {
+    "id": "2955ed99-6dbb-4f9f-bccb-833acb42fc8f",
+    "text": "Which Broadway musical features the songs 'Defying Gravity' and 'Popular'?",
+    "options": [
+      "Wicked",
+      "The Lion King",
+      "Hamilton",
+      "Chicago"
+    ],
+    "correctIndex": 0,
+    "category": "entertainment",
+    "difficulty": "medium",
+    "explanation": "Wicked features both 'Defying Gravity' and 'Popular' as signature songs.",
+    "detailedExplanation": "Wicked, which premiered on Broadway in 2003, is a musical prequel to The Wizard of Oz that tells the story of the witches of Oz. 'Defying Gravity' is the powerful Act I finale sung by Elphaba (the Wicked Witch of the West), while 'Popular' is a comedic number performed by Glinda as she attempts to give Elphaba a makeover. Both songs, composed by Stephen Schwartz, have become iconic numbers in musical theater, with 'Defying Gravity' being particularly famous for its vocal demands and staging.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Wicked_(musical)",
+    "citationTitle": "Wikipedia: Wicked (musical)"
+  }
+]

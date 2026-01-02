@@ -1,0 +1,342 @@
+[
+  {
+    "id": "eb11c028-f10a-4be8-8e6f-c0faa351aadb",
+    "text": "Which inventor's improvement to the Newcomen engine in 1769 involved adding a separate condenser, dramatically increasing efficiency?",
+    "options": [
+      "James Watt",
+      "Thomas Savery",
+      "Richard Trevithick",
+      "George Stephenson"
+    ],
+    "correctIndex": 0,
+    "category": "history",
+    "difficulty": "hard",
+    "explanation": "James Watt's separate condenser was the key innovation that made steam engines practical for widespread industrial use.",
+    "detailedExplanation": "James Watt's 1769 patent for a steam engine with a separate condenser was revolutionary because it prevented the waste of steam that occurred in Thomas Newcomen's earlier design. By keeping the cylinder hot while condensing steam in a separate chamber, Watt's engine used about 75% less fuel than the Newcomen engine. This improvement made steam power economically viable for a wide range of industrial applications beyond just pumping water from mines, effectively launching the Industrial Revolution's expansion.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Watt_steam_engine",
+    "citationTitle": "Wikipedia: Watt Steam Engine"
+  },
+  {
+    "id": "d4252ae4-9d2a-47ac-841e-9dc4ca3237b8",
+    "text": "The spinning jenny, invented around 1764, could initially spin how many threads simultaneously compared to a traditional spinning wheel's single thread?",
+    "options": [
+      "4 threads",
+      "8 threads",
+      "12 threads",
+      "16 threads"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "hard",
+    "explanation": "James Hargreaves' original spinning jenny could spin 8 threads at once, later versions could handle even more.",
+    "detailedExplanation": "James Hargreaves invented the spinning jenny around 1764, and his original design could spin eight threads simultaneously using a single wheel. This represented an eight-fold increase in productivity over traditional spinning wheels. Later improvements to the jenny allowed it to handle 16, 20, or even more threads at once. The invention was crucial to the textile industry's mechanization, though it initially caused social unrest as hand spinners feared unemployment. The name 'jenny' possibly came from Hargreaves' wife or daughter, though this origin story is disputed.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Spinning_jenny",
+    "citationTitle": "Wikipedia: Spinning Jenny"
+  },
+  {
+    "id": "6d356b66-b37a-46d7-854c-ee2cce9b39bf",
+    "text": "Henry Cort's puddling process, patented in 1784, revolutionized the production of which material by using a reverberatory furnace?",
+    "options": [
+      "Cast iron",
+      "Steel",
+      "Wrought iron",
+      "Pig iron"
+    ],
+    "correctIndex": 2,
+    "category": "history",
+    "difficulty": "hard",
+    "explanation": "Cort's puddling process converted pig iron into wrought iron by removing impurities in a reverberatory furnace.",
+    "detailedExplanation": "Henry Cort's puddling process, patented in 1784, was a method for converting pig iron into wrought iron by removing carbon and other impurities. The process used a reverberatory furnace where the iron was 'puddled' (stirred) with long iron rods while exposed to an oxidizing atmosphere. This technique, combined with Cort's rolling mill patent, allowed for mass production of high-quality wrought iron, which was essential for construction, machinery, and later railroad development. The process remained the primary method for producing wrought iron until the development of the Bessemer process for steel production.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Puddling_(metallurgy)",
+    "citationTitle": "Wikipedia: Puddling (metallurgy)"
+  },
+  {
+    "id": "6df0f475-c6b3-405f-a6af-cdcb629bce00",
+    "text": "Edmund Cartwright's power loom, first patented in 1785, initially struggled with which technical problem that wasn't solved until the early 1800s?",
+    "options": [
+      "Thread breakage due to excessive tension",
+      "Inability to weave complex patterns",
+      "Power transmission from water wheels",
+      "Inconsistent cloth width"
+    ],
+    "correctIndex": 0,
+    "category": "history",
+    "difficulty": "hard",
+    "explanation": "Early power looms frequently broke threads due to poor tension control, making them less efficient than hand looms initially.",
+    "detailedExplanation": "Edmund Cartwright patented his power loom in 1785, but early versions were plagued by technical problems, particularly thread breakage caused by excessive and inconsistent tension. The mechanical action was too rigid compared to the subtle adjustments skilled hand weavers could make. It wasn't until improvements by manufacturers like Horrocks, Stockport, and others in the early 1800s that better tension control mechanisms were developed. These improvements included better shuttle mechanisms, tension regulators, and automatic stop-motions that would halt the loom when threads broke, making power looms finally superior to hand weaving in both speed and consistency.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Power_loom",
+    "citationTitle": "Wikipedia: Power Loom"
+  },
+  {
+    "id": "3f594e60-b1a2-498f-a08d-f893742f30f9",
+    "text": "The safety lamp invented by Humphry Davy in 1815 prevented mine explosions by surrounding the flame with what material?",
+    "options": [
+      "Perforated tin sheeting",
+      "Wire gauze mesh",
+      "Glass chimney with air vents",
+      "Ceramic honeycomb structure"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "hard",
+    "explanation": "Davy's safety lamp used wire gauze mesh to prevent the flame from igniting methane gas in coal mines.",
+    "detailedExplanation": "Sir Humphry Davy's safety lamp, invented in 1815, used a fine wire gauze mesh surrounding the flame to prevent methane gas explosions in coal mines. The principle worked because the wire gauze conducted heat away from the flame so efficiently that it prevented the temperature from reaching the ignition point of methane gas outside the lamp. Even if methane entered the lamp and burned inside the gauze, the flame could not pass through the mesh to ignite the explosive atmosphere outside. This invention saved countless miners' lives and allowed deeper, more dangerous mines to be worked safely, significantly advancing coal extraction during the Industrial Revolution.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Davy_lamp",
+    "citationTitle": "Wikipedia: Davy Lamp"
+  },
+  {
+    "id": "2e9f3708-68fe-465c-ac39-e445110e3857",
+    "text": "John Kay's flying shuttle, invented in 1733, allowed a single weaver to operate looms of what maximum width, compared to the previous 30-inch limitation?",
+    "options": [
+      "45 inches",
+      "60 inches",
+      "75 inches",
+      "90 inches"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "hard",
+    "explanation": "The flying shuttle enabled single weavers to work looms up to 60 inches wide, doubling the previous practical limit.",
+    "detailedExplanation": "John Kay's flying shuttle, invented in 1733, revolutionized weaving by allowing a single operator to work much wider looms. Before this invention, wide cloth required two weavers to throw the shuttle back and forth, limiting practical loom width to about 30 inches for a single weaver. Kay's mechanism used a picking stick and drivers to propel the shuttle across the loom automatically, enabling single weavers to operate looms up to 60 inches wide. This doubled productivity and allowed for the production of wider cloth. The invention was so significant that it contributed to the labor unrest of the time, as weavers feared job losses, and Kay eventually fled to France.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Flying_shuttle",
+    "citationTitle": "Wikipedia: Flying Shuttle"
+  },
+  {
+    "id": "664f69dc-7c90-4b2b-99e3-2540edf3235e",
+    "text": "Abraham Darby I's use of coke instead of charcoal for iron smelting at Coalbrookdale around 1709 was initially successful only for producing which specific type of iron?",
+    "options": [
+      "Wrought iron for tools",
+      "Cast iron for pots and machinery",
+      "Steel for weapons",
+      "Malleable iron for horseshoes"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "hard",
+    "explanation": "Darby's coke-smelting process initially worked well only for cast iron, as wrought iron required additional refining processes.",
+    "detailedExplanation": "Abraham Darby I's breakthrough in using coke (processed coal) instead of charcoal for iron smelting around 1709 at Coalbrookdale was initially limited to producing cast iron, particularly for pots, pans, and later machinery parts. The coke-smelted iron contained too much carbon and sulfur to be directly worked into wrought iron, which required additional processing that wasn't perfected until later innovations like Henry Cort's puddling process. However, for cast iron products, Darby's method was revolutionary because it freed iron production from dependence on charcoal, which required vast amounts of increasingly scarce wood. This innovation laid the groundwork for the massive expansion of iron production that fueled the Industrial Revolution.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Abraham_Darby_I",
+    "citationTitle": "Wikipedia: Abraham Darby I"
+  },
+  {
+    "id": "a7c231f0-d03c-47f5-ab42-be7ef3085ea1",
+    "text": "Richard Arkwright's water frame, patented in 1769, produced thread that was notably different from spinning jenny thread in what crucial characteristic?",
+    "options": [
+      "Much finer diameter",
+      "Stronger tensile strength",
+      "More consistent color",
+      "Faster production speed"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "hard",
+    "explanation": "The water frame produced stronger thread suitable for warp threads, unlike the weaker thread from spinning jennies.",
+    "detailedExplanation": "Richard Arkwright's water frame, patented in 1769, produced thread with much greater tensile strength compared to the spinning jenny's output. This was crucial because strong thread was needed for the warp (lengthwise threads) in weaving, while the spinning jenny could only produce thread suitable for the weft (crosswise threads). The water frame achieved this strength through its continuous drawing process using rollers rotating at different speeds, which properly aligned and stretched the fibers. This innovation meant that for the first time, cotton cloth could be made entirely from machine-spun thread, reducing dependence on hand-spun linen warp threads and making cotton textiles more economical to produce.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Water_frame",
+    "citationTitle": "Wikipedia: Water Frame"
+  },
+  {
+    "id": "cb5c17da-d337-468c-b523-b97fed72e97b",
+    "text": "Which inventor created the 'Spinning Jenny' in 1764, revolutionizing textile production by allowing one worker to spin multiple threads simultaneously?",
+    "options": [
+      "James Hargreaves",
+      "Samuel Crompton",
+      "Richard Arkwright",
+      "Edmund Cartwright"
+    ],
+    "correctIndex": 0,
+    "category": "history",
+    "difficulty": "hard",
+    "explanation": "James Hargreaves invented the Spinning Jenny in 1764, named after his wife Jenny.",
+    "detailedExplanation": "James Hargreaves invented the Spinning Jenny around 1764, which was one of the key innovations that sparked the Industrial Revolution in textile manufacturing. The machine allowed a single worker to spin eight or more threads at once, dramatically increasing productivity compared to the traditional spinning wheel. The invention was initially met with hostility from other spinners who feared it would put them out of work, and Hargreaves' original machines were destroyed by angry crowds.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Spinning_jenny",
+    "citationTitle": "Wikipedia: Spinning Jenny"
+  },
+  {
+    "id": "dd00efac-ed8c-4d1d-8480-d416ed252e77",
+    "text": "What was the name of the first commercially successful steamboat, launched by Robert Fulton in 1807 on the Hudson River?",
+    "options": [
+      "North River Steamboat",
+      "Clermont",
+      "New Orleans",
+      "Phoenix"
+    ],
+    "correctIndex": 0,
+    "category": "history",
+    "difficulty": "hard",
+    "explanation": "The North River Steamboat was Fulton's first commercial steamboat, though it was later nicknamed 'Clermont'.",
+    "detailedExplanation": "Robert Fulton's first commercially successful steamboat was officially called the 'North River Steamboat of Clermont,' launched in August 1807. The vessel operated between New York City and Albany, making the 150-mile journey in 32 hours compared to the days it took sailing vessels. While popularly known as the 'Clermont' after Fulton's patron Robert Livingston's estate, its actual registered name was simply 'North River Steamboat.' This marked the beginning of the steamboat era in America.",
+    "citationUrl": "https://en.wikipedia.org/wiki/North_River_Steamboat",
+    "citationTitle": "Wikipedia: North River Steamboat"
+  },
+  {
+    "id": "0c69ae9d-1187-4c85-8042-05d6f71a6747",
+    "text": "Which atmospheric engine inventor's design was significantly improved by James Watt's separate condenser innovation in 1769?",
+    "options": [
+      "Denis Papin",
+      "Thomas Savery",
+      "Thomas Newcomen",
+      "Hero of Alexandria"
+    ],
+    "correctIndex": 2,
+    "category": "history",
+    "difficulty": "hard",
+    "explanation": "Thomas Newcomen's atmospheric engine was the basis that James Watt improved upon with his separate condenser.",
+    "detailedExplanation": "Thomas Newcomen developed the atmospheric engine in 1712, which was the first practical steam engine used for pumping water from mines. James Watt's crucial improvement came in 1769 when he added a separate condenser, which prevented the cylinder from being cooled and reheated with each cycle. This innovation made the steam engine much more fuel-efficient and practical for a wider range of applications, leading to Watt's engine becoming the driving force of the Industrial Revolution.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Newcomen_atmospheric_engine",
+    "citationTitle": "Wikipedia: Newcomen Atmospheric Engine"
+  },
+  {
+    "id": "9018d0f8-f241-47cb-b24c-6bc5749534f2",
+    "text": "What was the maximum speed achieved by George Stephenson's 'Rocket' locomotive during the 1829 Rainhill Trials?",
+    "options": [
+      "24 mph",
+      "29 mph",
+      "36 mph",
+      "42 mph"
+    ],
+    "correctIndex": 2,
+    "category": "history",
+    "difficulty": "hard",
+    "explanation": "Stephenson's Rocket reached a top speed of 36 mph during the Rainhill Trials, far exceeding the required 10 mph.",
+    "detailedExplanation": "During the famous Rainhill Trials of 1829, organized by the Liverpool and Manchester Railway to select the best locomotive design, George Stephenson's 'Rocket' not only won the competition but also achieved a remarkable top speed of 36 mph. The trials required locomotives to maintain an average speed of 10 mph, but the Rocket's performance far exceeded expectations. This victory established Stephenson's design principles as the standard for future locomotive development and demonstrated the viability of steam railways for both freight and passenger transport.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Stephenson%27s_Rocket",
+    "citationTitle": "Wikipedia: Stephenson's Rocket"
+  },
+  {
+    "id": "7193f9af-ff7a-4c88-97a1-08730a0bccba",
+    "text": "Which Scottish inventor patented the first practical mechanical reaper in 1826, revolutionizing grain harvesting?",
+    "options": [
+      "Patrick Bell",
+      "Cyrus McCormick",
+      "Obed Hussey",
+      "John Ridley"
+    ],
+    "correctIndex": 0,
+    "category": "history",
+    "difficulty": "hard",
+    "explanation": "Patrick Bell, a Scottish minister and inventor, created the first practical reaper in 1826, predating McCormick's American version.",
+    "detailedExplanation": "Patrick Bell, a Scottish clergyman and inventor, developed and patented the first practical mechanical reaper in 1826. His machine used a scissor-like cutting mechanism and could harvest grain much faster than traditional hand methods. Although Bell's reaper was technically successful and predated Cyrus McCormick's more famous American reaper by several years, it didn't achieve commercial success in Britain due to the abundance of cheap agricultural labor. However, Bell's design influenced later reaper development and several were exported to other countries.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Patrick_Bell_(inventor)",
+    "citationTitle": "Wikipedia: Patrick Bell (Inventor)"
+  },
+  {
+    "id": "d88874c5-d9b3-41a5-b368-fe66c5a4d809",
+    "text": "What innovative smelting technique did Abraham Darby I first successfully use at Coalbrookdale in 1709?",
+    "options": [
+      "Using anthracite coal directly",
+      "Smelting iron ore with coke instead of charcoal",
+      "Introducing water-powered bellows",
+      "Creating wrought iron from pig iron"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "hard",
+    "explanation": "Abraham Darby I pioneered the use of coke (processed coal) instead of charcoal for iron smelting in 1709.",
+    "detailedExplanation": "Abraham Darby I revolutionized iron production in 1709 when he successfully smelted iron ore using coke instead of the traditional charcoal at his blast furnace in Coalbrookdale, Shropshire. Coke, made by heating coal in the absence of air, burned hotter and more consistently than charcoal, and was much cheaper and more abundant than wood-derived charcoal. This breakthrough made iron production more economical and scalable, leading to the mass production of iron goods and contributing significantly to Britain's Industrial Revolution. The technique gradually spread throughout the iron industry over the following decades.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Abraham_Darby_I",
+    "citationTitle": "Wikipedia: Abraham Darby I"
+  },
+  {
+    "id": "bcd66b74-bb29-485e-ad38-f14b7b18dc6a",
+    "text": "Which French inventor created the Jacquard loom in 1804, using punched cards to control weaving patterns automatically?",
+    "options": [
+      "Jacques de Vaucanson",
+      "Joseph Marie Jacquard",
+      "Philippe de Girard",
+      "Claude Chappe"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "hard",
+    "explanation": "Joseph Marie Jacquard invented the programmable Jacquard loom in 1804, using punched cards to control complex weaving patterns.",
+    "detailedExplanation": "Joseph Marie Jacquard developed the Jacquard loom in 1804, which used a series of punched cards to control the weaving of complex patterns automatically. The holes in the cards determined which threads would be raised during weaving, allowing for intricate designs to be reproduced consistently without skilled manual intervention. This invention is considered a precursor to computer programming, as it used binary information (hole or no hole) to control mechanical processes. Initially met with resistance from silk weavers who feared unemployment, the Jacquard loom eventually revolutionized textile production and influenced later developments in mechanical calculation.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Jacquard_machine",
+    "citationTitle": "Wikipedia: Jacquard Machine"
+  },
+  {
+    "id": "9ea8c6fb-ad60-4888-9f85-2244963abff9",
+    "text": "What was the name of the world's first iron bridge, completed in 1779 and spanning the River Severn in Shropshire?",
+    "options": [
+      "Coalbrookdale Bridge",
+      "The Iron Bridge",
+      "Severn Iron Crossing",
+      "Darby Bridge"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "hard",
+    "explanation": "The world's first iron bridge was simply called 'The Iron Bridge,' completed in 1779 across the River Severn.",
+    "detailedExplanation": "The Iron Bridge, completed in 1779, was the world's first major bridge constructed entirely of cast iron. Spanning the River Severn in Shropshire, it was designed by architect Thomas Farnolls Pritchard and cast by Abraham Darby III using iron produced at the nearby Coalbrookdale foundry. The bridge demonstrated the structural possibilities of cast iron and became a symbol of the Industrial Revolution. Its construction required innovative techniques, as traditional joinery methods were adapted for iron construction. The bridge still stands today and gives its name to the town of Ironbridge, now a UNESCO World Heritage Site.",
+    "citationUrl": "https://en.wikipedia.org/wiki/The_Iron_Bridge",
+    "citationTitle": "Wikipedia: The Iron Bridge"
+  },
+  {
+    "id": "bf6589f8-86c2-4455-825b-3c4e91191919",
+    "text": "Which Industrial Revolution invention was patented by Joseph Marie Jacquard in 1804 and revolutionized textile production by using punched cards to control weaving patterns?",
+    "options": [
+      "The Jacquard loom",
+      "The spinning jenny",
+      "The power loom",
+      "The cotton gin"
+    ],
+    "correctIndex": 0,
+    "category": "history",
+    "difficulty": "hard",
+    "explanation": "The Jacquard loom used punched cards to automatically control complex weaving patterns.",
+    "detailedExplanation": "Joseph Marie Jacquard's loom, patented in 1804, was revolutionary because it used a series of punched cards to control the weaving of intricate patterns automatically. The holes in the cards determined which threads would be raised, allowing for complex designs to be reproduced consistently. This innovation not only transformed textile manufacturing but also served as an important precursor to computer programming, as the punched card system represented one of the earliest forms of programmable automation.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Jacquard_machine",
+    "citationTitle": "Wikipedia: Jacquard machine"
+  },
+  {
+    "id": "5e8948ce-15ca-4363-8c04-c54282bf2ff3",
+    "text": "Which Scottish inventor developed the hot blast technique in 1828 that dramatically reduced fuel consumption in iron smelting by preheating the air blown into blast furnaces?",
+    "options": [
+      "James Beaumont Neilson",
+      "Henry Cort",
+      "Abraham Darby",
+      "James Watt"
+    ],
+    "correctIndex": 0,
+    "category": "history",
+    "difficulty": "hard",
+    "explanation": "James Beaumont Neilson's hot blast technique reduced coal consumption by up to two-thirds in iron production.",
+    "detailedExplanation": "James Beaumont Neilson, a Scottish inventor and gas engineer, developed the hot blast technique in 1828 while working as foreman of Glasgow Gas Works. His innovation involved preheating the air blown into blast furnaces using waste heat from the furnace itself, rather than using cold air as was traditional. This seemingly simple modification reduced fuel consumption by up to two-thirds, making iron production far more economical and efficient. The technique was so revolutionary that it enabled the use of cheaper raw coal instead of expensive coke, fundamentally transforming the iron industry and accelerating industrial development.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Hot_blast",
+    "citationTitle": "Wikipedia: Hot blast"
+  },
+  {
+    "id": "5a872ce5-e200-4093-9a53-48bd0ecc3775",
+    "text": "What was the name of the safety lamp invented by Humphry Davy in 1815 that prevented explosions in coal mines by enclosing the flame in fine wire mesh?",
+    "options": [
+      "The Geordie lamp",
+      "The Clanny lamp",
+      "The Davy lamp",
+      "The Wolf lamp"
+    ],
+    "correctIndex": 2,
+    "category": "history",
+    "difficulty": "hard",
+    "explanation": "The Davy lamp's wire mesh gauze prevented methane gas ignition while still providing light for miners.",
+    "detailedExplanation": "Sir Humphry Davy invented the Davy lamp in 1815 following a request from coal mine owners to develop a safe lighting solution for underground mining. The lamp's key innovation was a fine wire mesh gauze that surrounded the flame. This mesh was designed with holes small enough to prevent the flame from igniting methane gas (firedamp) that accumulated in mines, while still allowing air to reach the flame and light to illuminate the workspace. The mesh absorbed heat from any potential ignition, preventing explosions. Davy famously refused to patent his invention, considering it his gift to humanity, which saved countless miners' lives during the Industrial Revolution.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Davy_lamp",
+    "citationTitle": "Wikipedia: Davy lamp"
+  },
+  {
+    "id": "f5571032-86c1-444c-b96a-db002d894c30",
+    "text": "Which invention by Richard Trevithick in 1804 is considered the world's first railway locomotive to successfully haul a load on rails?",
+    "options": [
+      "The Rocket",
+      "Penydarren locomotive",
+      "Locomotion No. 1",
+      "Tom Thumb"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "hard",
+    "explanation": "The Penydarren locomotive was built by Richard Trevithick in 1804 and successfully hauled 10 tons of iron and 70 passengers on the Merthyr Tramroad in Wales.",
+    "detailedExplanation": "Richard Trevithick's Penydarren locomotive, built in 1804, marked a pivotal moment in transportation history as the first steam locomotive to successfully haul a load on rails. On February 21, 1804, it pulled 10 tons of iron, 5 wagons, and 70 passengers along the Merthyr Tramroad in South Wales, covering 9 miles in about 4 hours. While other options like George Stephenson's 'Rocket' (1829) and 'Locomotion No. 1' (1825) were later and more famous locomotives, and 'Tom Thumb' (1830) was an American locomotive, Trevithick's achievement predated them all and proved that steam locomotion on rails was viable, laying the foundation for the railway age.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Penydarren_locomotive",
+    "citationTitle": "Wikipedia: Penydarren locomotive"
+  }
+]

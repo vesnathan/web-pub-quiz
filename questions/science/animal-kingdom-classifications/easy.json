@@ -1,0 +1,342 @@
+[
+  {
+    "id": "09d8d58f-6037-45c5-aad2-afd8de3c9ea5",
+    "text": "Who is famous for developing the theory of evolution by natural selection?",
+    "options": [
+      "Charles Darwin",
+      "Gregor Mendel",
+      "Louis Pasteur",
+      "Marie Curie"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Charles Darwin developed the theory of evolution by natural selection, published in 'On the Origin of Species' in 1859.",
+    "detailedExplanation": "Charles Darwin revolutionized our understanding of life on Earth with his theory of evolution by natural selection. After his voyage on the HMS Beagle and years of research, he published 'On the Origin of Species' in 1859, which explained how species evolve over time through the process of natural selection. This groundbreaking work fundamentally changed biology and our understanding of how all living things are related.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Charles_Darwin",
+    "citationTitle": "Wikipedia: Charles Darwin"
+  },
+  {
+    "id": "ab1e6648-4ea5-4ff7-8256-b3b13f4e5ae7",
+    "text": "What is the largest group in the animal kingdom classification system?",
+    "options": [
+      "Phylum",
+      "Kingdom",
+      "Class",
+      "Order"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Kingdom is the largest and most inclusive group in animal classification.",
+    "detailedExplanation": "In the hierarchical system of biological classification, Kingdom represents the largest and most inclusive taxonomic group. All animals belong to the Kingdom Animalia, which encompasses millions of species from tiny insects to massive whales. The classification system then breaks down into progressively smaller groups: Phylum, Class, Order, Family, Genus, and Species.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Taxonomic_rank",
+    "citationTitle": "Wikipedia: Taxonomic rank"
+  },
+  {
+    "id": "97c2b911-7e5e-46cd-8988-e908a4d52b8f",
+    "text": "What class do spiders belong to?",
+    "options": [
+      "Insecta",
+      "Arachnida",
+      "Crustacea",
+      "Myriapoda"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Spiders belong to Class Arachnida, which includes animals with eight legs.",
+    "detailedExplanation": "Class Arachnida is a group within Phylum Arthropoda that includes spiders, scorpions, ticks, and mites. Arachnids are characterized by having eight legs (unlike insects which have six), two main body segments, and no antennae. They are primarily terrestrial arthropods and many are predatory, using various methods to capture prey including webs, venom, and ambush tactics.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Arachnid",
+    "citationTitle": "Wikipedia: Arachnid"
+  },
+  {
+    "id": "d82f1321-0f9d-4261-9611-4c28808cad59",
+    "text": "What type of animal is characterized by having jointed legs and an exoskeleton?",
+    "options": [
+      "Mollusks",
+      "Arthropods",
+      "Echinoderms",
+      "Annelids"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Arthropods are defined by their jointed legs and hard external skeleton (exoskeleton).",
+    "detailedExplanation": "Phylum Arthropoda is the largest phylum in the animal kingdom, including insects, spiders, crustaceans, and centipedes. All arthropods share key characteristics: segmented bodies, jointed legs, and an exoskeleton made of chitin that provides protection and support. This exoskeleton must be periodically shed and regrown as the animal grows, a process called molting.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Arthropod",
+    "citationTitle": "Wikipedia: Arthropod"
+  },
+  {
+    "id": "9f0f5784-317d-46d7-8a8c-d4a025821c11",
+    "text": "What distinguishes mammals from other animal classes?",
+    "options": [
+      "They lay eggs",
+      "They have feathers",
+      "They produce milk",
+      "They live in water"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Mammals are uniquely characterized by their ability to produce milk to feed their young.",
+    "detailedExplanation": "Class Mammalia is distinguished by several key characteristics, but the most defining feature is the production of milk through mammary glands to nourish their offspring. Mammals also typically have hair or fur, are warm-blooded, and give birth to live young (though monotremes like platypuses are egg-laying mammals). The name 'mammal' literally comes from the Latin word for breast, referring to the mammary glands.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Mammal",
+    "citationTitle": "Wikipedia: Mammal"
+  },
+  {
+    "id": "26e4ba10-9477-46a9-8869-5bf9266b7a3f",
+    "text": "Which group includes animals like snails, clams, and squids?",
+    "options": [
+      "Arthropoda",
+      "Mollusca",
+      "Annelida",
+      "Nematoda"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Mollusca includes snails, clams, and squids - animals typically with soft bodies and often shells.",
+    "detailedExplanation": "Phylum Mollusca is the second-largest phylum in the animal kingdom after Arthropoda. Mollusks are characterized by having a soft body, often protected by a hard shell, though some like squids and octopi have internalized or lost their shells. They typically have a muscular foot for locomotion and a mantle that secretes the shell. The phylum includes gastropods (snails), bivalves (clams, oysters), and cephalopods (squids, octopi).",
+    "citationUrl": "https://en.wikipedia.org/wiki/Mollusca",
+    "citationTitle": "Wikipedia: Mollusca"
+  },
+  {
+    "id": "f6dea99b-e4c3-4efe-a4e1-7abdc42d69d0",
+    "text": "What is the name of the supercontinent that existed about 300 million years ago?",
+    "options": [
+      "Pangaea",
+      "Gondwana",
+      "Laurasia",
+      "Rodinia"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Pangaea was the supercontinent that formed during the late Paleozoic and early Mesozoic eras.",
+    "detailedExplanation": "Pangaea was a supercontinent that existed during the late Paleozoic and early Mesozoic eras, approximately 335 to 175 million years ago. It assembled from earlier continental units and began to break apart during the Triassic and Jurassic periods. The name comes from Ancient Greek, meaning 'entire earth.' Continental drift and plate tectonics theory explain how this massive landmass eventually separated into the continents we know today.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Pangaea",
+    "citationTitle": "Wikipedia: Pangaea"
+  },
+  {
+    "id": "eee98ad2-eeda-496f-a751-96a94f2c5585",
+    "text": "Which animal group is characterized by having a backbone or spinal column?",
+    "options": [
+      "Vertebrates",
+      "Invertebrates",
+      "Arthropods",
+      "Mollusks"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Vertebrates are animals that possess a backbone or spinal column made of vertebrae.",
+    "detailedExplanation": "Vertebrates represent one of the major divisions in the animal kingdom, comprising animals with a backbone or spinal column. This group includes fish, amphibians, reptiles, birds, and mammals. The backbone, made up of individual bones called vertebrae, provides structural support and protects the spinal cord. In contrast, invertebrates lack this feature and make up about 97% of all animal species.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Vertebrate",
+    "citationTitle": "Wikipedia: Vertebrate"
+  },
+  {
+    "id": "52d562eb-9195-4834-9d23-533d2c63974d",
+    "text": "What is the largest group of animals in the animal kingdom?",
+    "options": [
+      "Mammals",
+      "Birds",
+      "Insects",
+      "Fish"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Insects make up the largest group of animals, representing over half of all known animal species.",
+    "detailedExplanation": "Insects constitute the most diverse group of organisms in the animal kingdom, with over one million described species representing more than half of all known living organisms. They belong to the phylum Arthropoda and are characterized by having three body segments, six legs, and typically one or two pairs of wings. Their incredible diversity and adaptability have allowed them to colonize virtually every habitat on Earth.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Insect",
+    "citationTitle": "Wikipedia: Insect"
+  },
+  {
+    "id": "f746cdd0-d10c-4790-8f37-104e76035dfa",
+    "text": "Which of these animals belongs to the class Mammalia?",
+    "options": [
+      "Eagle",
+      "Shark",
+      "Dolphin",
+      "Crocodile"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Dolphins are marine mammals that belong to the class Mammalia, not fish.",
+    "detailedExplanation": "Despite living in water and having a fish-like appearance, dolphins are mammals, not fish. They belong to the class Mammalia because they are warm-blooded, breathe air through lungs, give birth to live young, and nurse their offspring with milk. Dolphins are specifically cetaceans, a group of fully aquatic mammals that also includes whales and porpoises. They must surface regularly to breathe air, unlike fish which extract oxygen from water through gills.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Dolphin",
+    "citationTitle": "Wikipedia: Dolphin"
+  },
+  {
+    "id": "73f43792-f87f-4de4-b0b0-bc6e203bb180",
+    "text": "What do we call animals that eat only plants?",
+    "options": [
+      "Carnivores",
+      "Herbivores",
+      "Omnivores",
+      "Insectivores"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Herbivores are animals that feed exclusively on plant matter.",
+    "detailedExplanation": "Herbivores are animals whose diet consists entirely of plant material such as leaves, stems, roots, fruits, and seeds. This classification is based on feeding behavior and digestive adaptations rather than taxonomic relationships. Examples include rabbits, deer, elephants, and many insects. Herbivores have evolved specialized digestive systems to break down cellulose and other plant compounds, often featuring longer intestinal tracts or multiple stomach chambers to maximize nutrient extraction from plant matter.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Herbivore",
+    "citationTitle": "Wikipedia: Herbivore"
+  },
+  {
+    "id": "5ed022fb-e6c1-4442-bf61-28bb4c4465b7",
+    "text": "Which animal group includes spiders, scorpions, and ticks?",
+    "options": [
+      "Insects",
+      "Arachnids",
+      "Crustaceans",
+      "Myriapods"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Arachnids are characterized by having eight legs and include spiders, scorpions, ticks, and mites.",
+    "detailedExplanation": "Arachnids form a class within the phylum Arthropoda and are distinguished by having eight legs, two main body segments (cephalothorax and abdomen), and no antennae or wings. This group includes spiders, scorpions, ticks, mites, and harvestmen. Unlike insects, which have six legs and three body segments, arachnids have evolved diverse feeding strategies and habitats. Many are predators, while others like ticks are parasites, and some mites are herbivorous.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Arachnid",
+    "citationTitle": "Wikipedia: Arachnid"
+  },
+  {
+    "id": "39ea2dce-8f08-4e42-9ace-8a31fda5a5e1",
+    "text": "What is the scientific term for animals that are active during the night?",
+    "options": [
+      "Diurnal",
+      "Nocturnal",
+      "Crepuscular",
+      "Cathemeral"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Nocturnal animals are active during nighttime hours and rest during the day.",
+    "detailedExplanation": "Nocturnal behavior is an adaptation where animals are primarily active during nighttime hours and rest or sleep during the day. This behavioral classification cuts across many taxonomic groups and includes animals like owls, bats, raccoons, and many big cats. Nocturnal animals often have enhanced night vision, acute hearing, or other sensory adaptations that help them navigate and hunt in low-light conditions. This lifestyle can help avoid predators, reduce competition for resources, or take advantage of cooler nighttime temperatures.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Nocturnality",
+    "citationTitle": "Wikipedia: Nocturnality"
+  },
+  {
+    "id": "caf6fa62-8ead-42a5-8465-460b3564120a",
+    "text": "Which of these is NOT one of the five main vertebrate groups?",
+    "options": [
+      "Amphibians",
+      "Arthropods",
+      "Reptiles",
+      "Birds"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Arthropods are invertebrates with jointed legs and exoskeletons, not vertebrates.",
+    "detailedExplanation": "The five main groups of vertebrates are fish, amphibians, reptiles, birds, and mammals. Arthropods, which include insects, spiders, and crustaceans, are actually the largest phylum of invertebrates. They are characterized by having jointed legs, segmented bodies, and external skeletons (exoskeletons) made of chitin, but they lack the internal backbone that defines vertebrates. Arthropods represent a completely different evolutionary lineage and are far more numerous than vertebrates in terms of species diversity.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Arthropod",
+    "citationTitle": "Wikipedia: Arthropod"
+  },
+  {
+    "id": "71cbeb6f-d31f-4e34-bc19-adb7e8d767a2",
+    "text": "What type of animal is a penguin?",
+    "options": [
+      "Mammal",
+      "Fish",
+      "Bird",
+      "Reptile"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Penguins are flightless birds that have adapted to life in aquatic environments.",
+    "detailedExplanation": "Despite being unable to fly and spending most of their time in water, penguins are birds belonging to the class Aves. They retain all the key characteristics that define birds: they have feathers, lay eggs, have beaks, and are warm-blooded. Their wings have evolved into flippers for swimming, and their bodies are streamlined for underwater propulsion. Penguins are found primarily in the Southern Hemisphere, with the greatest concentrations in Antarctica, though some species live in more temperate regions.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Penguin",
+    "citationTitle": "Wikipedia: Penguin"
+  },
+  {
+    "id": "5210a882-7552-4a6e-a0d0-0ff7127db90c",
+    "text": "Which of these animals is a mammal?",
+    "options": [
+      "Shark",
+      "Dolphin",
+      "Penguin",
+      "Salamander"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Dolphins are mammals that breathe air and nurse their young with milk.",
+    "detailedExplanation": "Dolphins are marine mammals belonging to the class Mammalia. Despite living in water, they are warm-blooded, breathe air through lungs, give birth to live young, and produce milk to feed their offspring. Sharks are fish, penguins are birds, and salamanders are amphibians.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Dolphin",
+    "citationTitle": "Wikipedia: Dolphin"
+  },
+  {
+    "id": "8a26f9f8-69cb-43f1-9221-c3264a725891",
+    "text": "What is the largest group in the standard biological classification system?",
+    "options": [
+      "Kingdom",
+      "Phylum",
+      "Domain",
+      "Class"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Domain is the highest and most inclusive taxonomic rank in modern classification.",
+    "detailedExplanation": "The modern biological classification system uses a hierarchical structure where Domain is the highest taxonomic rank, followed by Kingdom, Phylum, Class, Order, Family, Genus, and Species. The three domains are Bacteria, Archaea, and Eukarya, which encompass all life on Earth.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Taxonomic_rank",
+    "citationTitle": "Wikipedia: Taxonomic rank"
+  },
+  {
+    "id": "283a8edc-7073-410d-9f46-89c6fd9f7ff9",
+    "text": "Which animal group is characterized by having feathers?",
+    "options": [
+      "Reptiles",
+      "Mammals",
+      "Birds",
+      "Amphibians"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Birds are the only animals that have feathers as their defining characteristic.",
+    "detailedExplanation": "Feathers are unique to birds and are one of their most distinctive features. All birds have feathers, even flightless species like penguins and ostriches. Feathers serve multiple purposes including flight, insulation, waterproofing, and display. This characteristic distinguishes birds from all other animal classes.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Bird",
+    "citationTitle": "Wikipedia: Bird"
+  },
+  {
+    "id": "21c287a1-939e-4d11-b36b-a3cc3a6efd55",
+    "text": "What type of animal is a spider classified as?",
+    "options": [
+      "Insect",
+      "Arachnid",
+      "Crustacean",
+      "Mollusk"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Spiders are arachnids, distinguished from insects by having eight legs instead of six.",
+    "detailedExplanation": "Spiders belong to the class Arachnida, which is part of the phylum Arthropoda. Arachnids are characterized by having eight legs, two body segments, and no antennae or wings. This differs from insects, which have six legs, three body segments, and usually antennae. Other arachnids include scorpions, ticks, and mites.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Spider",
+    "citationTitle": "Wikipedia: Spider"
+  },
+  {
+    "id": "b66fc676-4d3e-4877-8b80-290dc11de914",
+    "text": "Which of these animals belongs to the same class as humans?",
+    "options": [
+      "Eagle",
+      "Whale",
+      "Crocodile",
+      "Frog"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Whales are mammals like humans, belonging to the class Mammalia.",
+    "detailedExplanation": "Both humans and whales belong to the class Mammalia. Despite whales living in aquatic environments, they share key mammalian characteristics with humans: they are warm-blooded, breathe air, give birth to live young, and produce milk. Eagles are birds, crocodiles are reptiles, and frogs are amphibians.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Whale",
+    "citationTitle": "Wikipedia: Whale"
+  }
+]

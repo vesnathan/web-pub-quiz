@@ -1,13 +1,15 @@
-'use client';
+"use client";
 
-import { useEffect, useState } from 'react';
+import { useEffect, useState } from "react";
 
 interface AnswerCountdownProps {
   deadline: number;
 }
 
 export function AnswerCountdown({ deadline }: AnswerCountdownProps) {
-  const [timeLeft, setTimeLeft] = useState(() => Math.max(0, Math.ceil((deadline - Date.now()) / 1000)));
+  const [timeLeft, setTimeLeft] = useState(() =>
+    Math.max(0, Math.ceil((deadline - Date.now()) / 1000)),
+  );
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -23,8 +25,6 @@ export function AnswerCountdown({ deadline }: AnswerCountdownProps) {
   }, [deadline]);
 
   return (
-    <div className="text-lg text-gray-400">
-      Time remaining: {timeLeft}s
-    </div>
+    <div className="text-lg text-gray-400">Time remaining: {timeLeft}s</div>
   );
 }

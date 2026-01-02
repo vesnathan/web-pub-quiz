@@ -1,0 +1,325 @@
+[
+  {
+    "id": "d4416c83-2d2d-4ee7-8c44-72925f1b1dcc",
+    "text": "Which country has the largest population in the world?",
+    "options": [
+      "India",
+      "China",
+      "United States",
+      "Indonesia"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "China has the world's largest population with over 1.4 billion people.",
+    "detailedExplanation": "China has maintained the position as the world's most populous country for decades, with a population exceeding 1.4 billion people. However, India is projected to surpass China's population in the near future due to China's declining birth rates and India's continued population growth.",
+    "citationUrl": "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_population",
+    "citationTitle": "Wikipedia: List of countries and dependencies by population"
+  },
+  {
+    "id": "d5d66f29-7967-4324-9bf9-404f32079f9b",
+    "text": "What is the most populous city in the world?",
+    "options": [
+      "Tokyo, Japan",
+      "Delhi, India",
+      "Shanghai, China",
+      "São Paulo, Brazil"
+    ],
+    "correctIndex": 0,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "Tokyo's metropolitan area is the world's most populous urban agglomeration with over 37 million people.",
+    "detailedExplanation": "The Greater Tokyo Area, which includes Tokyo and surrounding prefectures, is home to over 37 million people, making it the world's largest metropolitan area by population. This massive urban agglomeration encompasses multiple cities and has been the world's largest for several decades.",
+    "citationUrl": "https://en.wikipedia.org/wiki/List_of_largest_cities",
+    "citationTitle": "Wikipedia: List of largest cities"
+  },
+  {
+    "id": "281a5de6-b2a2-4d34-b89b-4e0f9dfbd3c1",
+    "text": "Approximately what percentage of the world's population lives in Asia?",
+    "options": [
+      "45%",
+      "50%",
+      "60%",
+      "35%"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "About 60% of the world's population lives in Asia, making it by far the most populous continent.",
+    "detailedExplanation": "Asia is home to approximately 60% of the world's population, housing over 4.6 billion people out of the global population of nearly 8 billion. This is largely due to the massive populations of China and India, which together account for over one-third of all people on Earth.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Demographics_of_Asia",
+    "citationTitle": "Wikipedia: Demographics of Asia"
+  },
+  {
+    "id": "c7174423-3915-4450-accd-299e78ff6f32",
+    "text": "Which continent has the fastest growing population?",
+    "options": [
+      "Asia",
+      "Africa",
+      "South America",
+      "Europe"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "Africa has the highest population growth rate of all continents, with many countries experiencing rapid demographic expansion.",
+    "detailedExplanation": "Africa currently has the fastest growing population of any continent, with an average annual growth rate of about 2.5%. This growth is driven by high birth rates and declining mortality rates. The continent's population is expected to double by 2050, making it a major demographic trend of the 21st century.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Demographics_of_Africa",
+    "citationTitle": "Wikipedia: Demographics of Africa"
+  },
+  {
+    "id": "da0a02fb-c23f-40d4-98f7-f96e8700ab34",
+    "text": "What is the approximate current world population?",
+    "options": [
+      "6 billion",
+      "7 billion",
+      "8 billion",
+      "9 billion"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "The world population reached approximately 8 billion people in late 2022.",
+    "detailedExplanation": "The global population reached the milestone of 8 billion people in late 2022, according to United Nations estimates. This represents a dramatic increase from just 3 billion in 1960, demonstrating the rapid population growth of the late 20th and early 21st centuries, though growth rates are now slowing in many developed countries.",
+    "citationUrl": "https://en.wikipedia.org/wiki/World_population",
+    "citationTitle": "Wikipedia: World population"
+  },
+  {
+    "id": "e3515f87-5d94-4d3d-8fbb-46b62801c5e2",
+    "text": "Which European country has the largest population?",
+    "options": [
+      "Germany",
+      "United Kingdom",
+      "France",
+      "Italy"
+    ],
+    "correctIndex": 0,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "Germany has the largest population in Europe with approximately 83 million people.",
+    "detailedExplanation": "Germany is the most populous country in the European Union and Europe as a whole (excluding Russia), with a population of approximately 83 million people. This has remained consistent since German reunification in 1990, making Germany a major demographic and economic force in European affairs.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Demographics_of_Germany",
+    "citationTitle": "Wikipedia: Demographics of Germany"
+  },
+  {
+    "id": "b333d88f-6563-4ee9-b362-2890e7e337e8",
+    "text": "Which country has the smallest population in the world?",
+    "options": [
+      "Monaco",
+      "Nauru",
+      "Vatican City",
+      "San Marino"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "Vatican City has the smallest population with fewer than 1,000 residents.",
+    "detailedExplanation": "Vatican City, officially known as Vatican City State, has the smallest population of any sovereign nation with approximately 800 residents. Most inhabitants are clergy, Swiss Guards, and a small number of lay workers. The population fluctuates but rarely exceeds 1,000 people, making it unique among world nations.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Demographics_of_Vatican_City",
+    "citationTitle": "Wikipedia: Demographics of Vatican City"
+  },
+  {
+    "id": "b157f7e1-7cd2-4afc-9614-6f8cb7c4fb90",
+    "text": "What term describes the average number of people living per square kilometer?",
+    "options": [
+      "Population density",
+      "Population distribution",
+      "Population growth",
+      "Population pyramid"
+    ],
+    "correctIndex": 0,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "Population density measures how many people live in a given area, typically expressed as people per square kilometer.",
+    "detailedExplanation": "Population density is a key demographic measurement that calculates the average number of people living in a specific area, usually expressed as people per square kilometer or square mile. This statistic helps geographers and planners understand how crowded or sparse different regions are, and is crucial for urban planning and resource allocation.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Population_density",
+    "citationTitle": "Wikipedia: Population density"
+  },
+  {
+    "id": "ebc00fa5-1b10-41be-bb4f-f44bb43ad23e",
+    "text": "What is the most populous city in the United States?",
+    "options": [
+      "Los Angeles",
+      "Chicago",
+      "New York City",
+      "Houston"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "New York City is the most populous city in the United States with over 8 million residents.",
+    "detailedExplanation": "New York City has been the most populous city in the United States since the first U.S. census in 1790. The city proper has over 8 million residents, while the greater New York metropolitan area contains over 20 million people, making it one of the largest urban agglomerations in the world.",
+    "citationUrl": "https://en.wikipedia.org/wiki/List_of_United_States_cities_by_population",
+    "citationTitle": "Wikipedia: List of United States cities by population"
+  },
+  {
+    "id": "1bc2195f-57a6-4c00-b01e-dba34b3263b5",
+    "text": "Which continent has the smallest population?",
+    "options": [
+      "Australia/Oceania",
+      "Antarctica",
+      "South America",
+      "Europe"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "Antarctica has the smallest population, with no permanent residents, only temporary research station staff.",
+    "detailedExplanation": "Antarctica has no permanent human population, making it the continent with the smallest population. Only temporary residents live there, primarily scientists and support staff at research stations. The population varies seasonally, with around 1,000-5,000 people present at any given time, depending on the season.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Demographics_of_Antarctica",
+    "citationTitle": "Wikipedia: Demographics of Antarctica"
+  },
+  {
+    "id": "e5040afe-ce83-4fa2-a8bb-14eccc25cd2d",
+    "text": "What is the current approximate world population?",
+    "options": [
+      "6 billion",
+      "7 billion",
+      "8 billion",
+      "9 billion"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "The world population reached approximately 8 billion people in 2022.",
+    "detailedExplanation": "The global population reached the 8 billion milestone in late 2022, according to United Nations estimates. The population has been growing steadily, having reached 7 billion in 2011, but the growth rate is slowing. The UN projects the population will peak at around 10-11 billion people later this century.",
+    "citationUrl": "https://en.wikipedia.org/wiki/World_population",
+    "citationTitle": "Wikipedia: World population"
+  },
+  {
+    "id": "c5d6e5c5-4ae9-4940-a976-273e40864eda",
+    "text": "Which country has the highest population density in the world?",
+    "options": [
+      "Singapore",
+      "Monaco",
+      "Hong Kong",
+      "Bangladesh"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "Monaco has the highest population density in the world with over 25,000 people per square kilometer.",
+    "detailedExplanation": "Monaco, the tiny city-state on the French Riviera, has the highest population density of any country in the world, with over 25,000 people per square kilometer. This is due to its extremely small size (just 2.02 square kilometers) combined with a population of around 39,000 people. Singapore and Hong Kong also have very high population densities but are significantly lower than Monaco.",
+    "citationUrl": "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_population_density",
+    "citationTitle": "Wikipedia: List of countries and dependencies by population density"
+  },
+  {
+    "id": "1cd759ae-04eb-490e-a2ab-bef0bab1a3cc",
+    "text": "Which city is considered the most populous urban area in the world?",
+    "options": [
+      "Tokyo-Yokohama",
+      "Delhi",
+      "Shanghai",
+      "São Paulo"
+    ],
+    "correctIndex": 0,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "The Tokyo-Yokohama metropolitan area has the largest urban population with over 38 million people.",
+    "detailedExplanation": "The Greater Tokyo Area, which includes Tokyo, Yokohama, and surrounding prefectures, is home to over 38 million people, making it the world's largest urban agglomeration. This massive metropolitan area accounts for about 30% of Japan's total population and serves as the country's economic and political center.",
+    "citationUrl": "https://en.wikipedia.org/wiki/List_of_largest_cities",
+    "citationTitle": "Wikipedia: List of largest cities"
+  },
+  {
+    "id": "94710a67-e3a2-4fd2-9c22-da6f5ff679c4",
+    "text": "What is the most sparsely populated country in the world?",
+    "options": [
+      "Mongolia",
+      "Greenland",
+      "Iceland",
+      "Australia"
+    ],
+    "correctIndex": 0,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "Mongolia has the lowest population density of any sovereign country.",
+    "detailedExplanation": "Mongolia has a population density of only about 2 people per square kilometer, making it the most sparsely populated sovereign country in the world. With a vast territory of over 1.5 million square kilometers but only about 3.3 million inhabitants, Mongolia's low density is due to its harsh climate, mountainous terrain, and large areas of desert and steppe.",
+    "citationUrl": "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_population_density",
+    "citationTitle": "Wikipedia: List of countries by population density"
+  },
+  {
+    "id": "52987a10-be6b-42cd-87e1-bfe8ba9b42e8",
+    "text": "Which European country has the highest population?",
+    "options": [
+      "Germany",
+      "United Kingdom",
+      "France",
+      "Italy"
+    ],
+    "correctIndex": 0,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "Germany has the largest population in Europe with over 83 million people.",
+    "detailedExplanation": "Germany is Europe's most populous country with approximately 83 million inhabitants. This is followed by the United Kingdom (67 million), France (68 million), and Italy (59 million). Germany's large population, combined with its central location and strong economy, makes it one of the most influential countries in European politics and economics.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Demographics_of_Europe",
+    "citationTitle": "Wikipedia: Demographics of Europe"
+  },
+  {
+    "id": "8952fcd5-bf45-4a58-8be0-a654e273aebb",
+    "text": "What term describes a country with more elderly people than young people?",
+    "options": [
+      "Population boom",
+      "Aging society",
+      "Youth bulge",
+      "Demographic transition"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "An aging society is characterized by a high proportion of elderly people relative to younger generations.",
+    "detailedExplanation": "An aging society occurs when the median age of a population rises due to declining birth rates and increasing life expectancy. Countries like Japan, South Korea, and many European nations are experiencing this demographic shift, which presents challenges for healthcare systems, pension programs, and economic growth as the working-age population shrinks relative to retirees.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Population_ageing",
+    "citationTitle": "Wikipedia: Population ageing"
+  },
+  {
+    "id": "9b660003-0ff9-482b-b226-ac218a86c858",
+    "text": "Which U.S. state has the largest population?",
+    "options": [
+      "Texas",
+      "California",
+      "Florida",
+      "New York"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "California has the largest population of any U.S. state with nearly 40 million residents.",
+    "detailedExplanation": "California is by far the most populous U.S. state, with approximately 39 million residents as of recent estimates. This represents about 12% of the entire U.S. population. Texas comes second with about 30 million people, followed by Florida and New York. California's large population is concentrated in major metropolitan areas like Los Angeles, San Francisco, and San Diego.",
+    "citationUrl": "https://en.wikipedia.org/wiki/List_of_U.S._states_and_territories_by_population",
+    "citationTitle": "Wikipedia: List of U.S. states by population"
+  },
+  {
+    "id": "60eff268-a8e4-423a-bb5e-612f0c9cc39d",
+    "text": "Approximately what percentage of the world's population lives in urban areas?",
+    "options": [
+      "35%",
+      "45%",
+      "55%",
+      "65%"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "About 55% of the world's population currently lives in urban areas.",
+    "detailedExplanation": "According to the United Nations, approximately 55% of the world's population lived in urban areas in 2018, and this proportion is expected to increase to 68% by 2050. This represents a dramatic shift from 1950 when only 30% of people lived in cities. Urbanization is happening fastest in Asia and Africa, driven by economic opportunities, better access to services, and rural-to-urban migration. This trend has significant implications for infrastructure, environmental sustainability, and economic development worldwide.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Urbanization",
+    "citationTitle": "Wikipedia: Urbanization"
+  },
+  {
+    "id": "2ddcbfed-2c26-45b7-8803-c3f3db898952",
+    "text": "Approximately what percentage of the world's population lives in urban areas as of 2024?",
+    "options": [
+      "35%",
+      "45%",
+      "57%",
+      "72%"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "About 57% of the global population lives in urban areas, with this percentage continuing to grow.",
+    "detailedExplanation": "According to the United Nations, approximately 57% of the world's population lived in urban areas as of 2024, representing about 4.4 billion people out of the global population of nearly 8 billion. This marks a dramatic shift from 1950 when only 30% of people lived in cities. The trend toward urbanization is expected to continue, with projections suggesting that by 2050, nearly 68% of the world's population will live in urban areas. This urbanization is particularly rapid in developing countries in Asia and Africa.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Urbanization",
+    "citationTitle": "Wikipedia: Urbanization"
+  }
+]

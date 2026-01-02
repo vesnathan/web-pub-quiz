@@ -1,0 +1,342 @@
+[
+  {
+    "id": "2e6dcb7e-94d6-420f-a420-2fdd25ae56e7",
+    "text": "Which country was first to successfully land a human on the Moon?",
+    "options": [
+      "United States",
+      "Soviet Union",
+      "China",
+      "Japan"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "The United States achieved the first human Moon landing with Apollo 11 in 1969.",
+    "detailedExplanation": "On July 20, 1969, NASA's Apollo 11 mission successfully landed the first humans on the Moon. Neil Armstrong and Buzz Aldrin became the first people to walk on the lunar surface, while Michael Collins remained in orbit. Armstrong's famous words 'That's one small step for man, one giant leap for mankind' marked this historic achievement for the United States in the Space Race.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Apollo_11",
+    "citationTitle": "Wikipedia: Apollo 11"
+  },
+  {
+    "id": "a2b5303d-f02b-493f-b7eb-a3a532cd3f8e",
+    "text": "Which planet did the Mariner 4 spacecraft first successfully photograph in 1965?",
+    "options": [
+      "Venus",
+      "Mars",
+      "Jupiter",
+      "Mercury"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Mariner 4 took the first close-up photographs of Mars in 1965.",
+    "detailedExplanation": "NASA's Mariner 4 spacecraft conducted the first successful flyby of Mars on July 14, 1965, taking 22 close-up photographs of the planet's surface. These grainy black-and-white images revealed a cratered, Moon-like landscape and dispelled earlier theories about Martian canals and possible life. The mission provided humanity's first detailed look at another planet and marked a major milestone in planetary exploration.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Mariner_4",
+    "citationTitle": "Wikipedia: Mariner 4"
+  },
+  {
+    "id": "1ef7f32a-fe60-46cc-9b73-a8a4469414d9",
+    "text": "Which phylum includes animals like starfish and sea urchins?",
+    "options": [
+      "Cnidaria",
+      "Porifera",
+      "Echinodermata",
+      "Platyhelminthes"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Echinodermata includes starfish and sea urchins, marine animals with spiny skin and radial symmetry.",
+    "detailedExplanation": "Phylum Echinodermata consists entirely of marine animals characterized by their spiny skin, radial symmetry (usually five-fold), and a unique water vascular system used for locomotion and feeding. This phylum includes starfish (sea stars), sea urchins, sand dollars, sea cucumbers, and brittle stars. Despite their simple appearance, echinoderms are actually closely related to chordates in evolutionary terms.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Echinoderm",
+    "citationTitle": "Wikipedia: Echinoderm"
+  },
+  {
+    "id": "3284dac4-db56-46f5-9707-6c53edd146d5",
+    "text": "Which layer of the Earth is liquid and responsible for generating the planet's magnetic field?",
+    "options": [
+      "Inner core",
+      "Outer core",
+      "Mantle",
+      "Crust"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "The outer core is liquid iron and nickel, and its movement generates Earth's magnetic field.",
+    "detailedExplanation": "The outer core is a liquid layer of iron and nickel alloy that surrounds the solid inner core, extending from about 2,900 to 5,150 kilometers below the surface. The convective movement of this electrically conductive liquid metal generates electric currents, which in turn produce Earth's magnetic field through a process called the geodynamo. This magnetic field is crucial for protecting Earth from harmful solar radiation.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Earth%27s_outer_core",
+    "citationTitle": "Wikipedia: Earth's outer core"
+  },
+  {
+    "id": "42e39d02-aa72-4d2f-8f5e-562bdda12711",
+    "text": "Which country launched the first artificial satellite into orbit?",
+    "options": [
+      "United States",
+      "Soviet Union",
+      "China",
+      "United Kingdom"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "The Soviet Union launched Sputnik 1 on October 4, 1957.",
+    "detailedExplanation": "Sputnik 1 was launched by the Soviet Union on October 4, 1957, marking the beginning of the Space Age. This beach ball-sized satellite orbited Earth every 96 minutes, transmitting radio signals that could be heard by amateur radio operators around the world. The launch surprised the world and sparked the Space Race between the Soviet Union and the United States.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Sputnik_1",
+    "citationTitle": "Wikipedia: Sputnik 1"
+  },
+  {
+    "id": "e4a6a7bd-ae36-454c-b245-9a1b40b1eb0c",
+    "text": "Who was the first human to travel to space?",
+    "options": [
+      "Alan Shepard",
+      "Yuri Gagarin",
+      "John Glenn",
+      "Neil Armstrong"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Soviet cosmonaut Yuri Gagarin became the first human in space on April 12, 1961.",
+    "detailedExplanation": "Yuri Gagarin, a 27-year-old Soviet Air Force pilot, made history on April 12, 1961, when he completed a single orbit of Earth aboard Vostok 1. His flight lasted 108 minutes and reached a maximum altitude of 327 kilometers. Gagarin's famous words upon seeing Earth from space were 'I see Earth! It is so beautiful!' This achievement gave the Soviet Union another major victory in the early Space Race.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Yuri_Gagarin",
+    "citationTitle": "Wikipedia: Yuri Gagarin"
+  },
+  {
+    "id": "7c6db101-cf42-484a-bf5d-3e22f990e2ab",
+    "text": "Which Apollo mission first successfully landed humans on the Moon?",
+    "options": [
+      "Apollo 8",
+      "Apollo 10",
+      "Apollo 11",
+      "Apollo 12"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Apollo 11 achieved the first crewed lunar landing on July 20, 1969.",
+    "detailedExplanation": "Apollo 11 launched on July 16, 1969, carrying astronauts Neil Armstrong, Buzz Aldrin, and Michael Collins. On July 20, 1969, Armstrong and Aldrin landed the lunar module Eagle on the Moon's surface while Collins remained in lunar orbit. Armstrong became the first person to step onto the Moon, followed by Aldrin. They spent 21 hours on the lunar surface before returning safely to Earth on July 24, 1969.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Apollo_11",
+    "citationTitle": "Wikipedia: Apollo 11"
+  },
+  {
+    "id": "e24ec652-4cbe-4eb9-bf01-c1b47fb3e0f1",
+    "text": "What was the name of the first space station launched by the Soviet Union?",
+    "options": [
+      "Mir",
+      "Skylab",
+      "Salyut 1",
+      "Almaz"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Salyut 1 was the world's first space station, launched on April 19, 1971.",
+    "detailedExplanation": "Salyut 1 was launched by the Soviet Union on April 19, 1971, becoming the first space station to orbit Earth. Although the first crew mission to dock with it ended in tragedy, Salyut 1 proved the concept of long-duration spaceflight and orbital laboratories. The Salyut program continued with six more successful stations, paving the way for later space stations including Mir and the International Space Station.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Salyut_1",
+    "citationTitle": "Wikipedia: Salyut 1"
+  },
+  {
+    "id": "e019fe10-fe84-415b-8954-08f6bada3c63",
+    "text": "Which space shuttle was the first to be launched by NASA?",
+    "options": [
+      "Discovery",
+      "Atlantis",
+      "Columbia",
+      "Challenger"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Columbia was the first space shuttle to fly, launching on April 12, 1981.",
+    "detailedExplanation": "Space Shuttle Columbia launched on STS-1 on April 12, 1981, exactly 20 years after Yuri Gagarin's historic flight. Commanded by John Young and piloted by Robert Crippen, this maiden flight of the Space Shuttle program lasted 54 hours and completed 36 orbits of Earth. Columbia's successful mission proved the viability of reusable spacecraft and began a new era of space exploration that would last 30 years until the shuttle program's retirement in 2011.",
+    "citationUrl": "https://en.wikipedia.org/wiki/STS-1",
+    "citationTitle": "Wikipedia: STS-1"
+  },
+  {
+    "id": "3bf8180d-42d4-47ac-bf75-7c7b809ab535",
+    "text": "What is the name of the telescope launched by NASA in 1990 that revolutionized astronomy?",
+    "options": [
+      "Spitzer Space Telescope",
+      "Kepler Space Telescope",
+      "Hubble Space Telescope",
+      "James Webb Space Telescope"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "The Hubble Space Telescope was launched in 1990 and has provided unprecedented views of the universe.",
+    "detailedExplanation": "The Hubble Space Telescope was launched aboard Space Shuttle Discovery on April 24, 1990. Despite initial problems with its primary mirror that were fixed by a servicing mission in 1993, Hubble has become one of the most important scientific instruments ever created. Operating above Earth's atmosphere, it has captured stunning images and made groundbreaking discoveries about the age of the universe, black holes, exoplanets, and the expansion of space.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Hubble_Space_Telescope",
+    "citationTitle": "Wikipedia: Hubble Space Telescope"
+  },
+  {
+    "id": "66286b62-2fbf-4299-8063-8fe2d2bb8219",
+    "text": "Which international project began construction in space in 1998?",
+    "options": [
+      "Mir Space Station",
+      "Freedom Space Station",
+      "International Space Station",
+      "Tiangong Space Station"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "The International Space Station began construction in 1998 with the launch of the Zarya module.",
+    "detailedExplanation": "Construction of the International Space Station (ISS) began on November 20, 1998, when Russia launched the Zarya control module. This was followed by the American Unity node in December 1998. The ISS represents unprecedented international cooperation in space, involving space agencies from the United States, Russia, Europe, Japan, and Canada. It has been continuously occupied since November 2000 and serves as a laboratory for scientific research and a testbed for future deep space missions.",
+    "citationUrl": "https://en.wikipedia.org/wiki/International_Space_Station",
+    "citationTitle": "Wikipedia: International Space Station"
+  },
+  {
+    "id": "7f8bb5bc-4d41-4ded-85bf-ec808ffd7f52",
+    "text": "Who was the first human to walk on the Moon?",
+    "options": [
+      "Buzz Aldrin",
+      "Neil Armstrong",
+      "John Glenn",
+      "Yuri Gagarin"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Neil Armstrong was the first person to set foot on the Moon during the Apollo 11 mission in 1969.",
+    "detailedExplanation": "Neil Armstrong made history on July 20, 1969, when he became the first human to walk on the Moon during NASA's Apollo 11 mission. As he stepped onto the lunar surface, he spoke the famous words: 'That's one small step for man, one giant leap for mankind.' He was followed by Buzz Aldrin, making them the first two humans to walk on another celestial body.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Neil_Armstrong",
+    "citationTitle": "Wikipedia: Neil Armstrong"
+  },
+  {
+    "id": "33396525-8734-4032-afff-dbd317d93399",
+    "text": "What was the name of the first Space Shuttle to fly in space?",
+    "options": [
+      "Challenger",
+      "Discovery",
+      "Columbia",
+      "Atlantis"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Columbia was the first Space Shuttle to complete a spaceflight mission in April 1981.",
+    "detailedExplanation": "Space Shuttle Columbia launched on April 12, 1981, on mission STS-1, becoming the first Space Shuttle to reach space. Commanded by John Young and piloted by Robert Crippen, this historic two-day mission marked the beginning of NASA's Space Shuttle program. Columbia would go on to complete 27 more missions over 22 years of service before tragically breaking up during re-entry in 2003.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Space_Shuttle_Columbia",
+    "citationTitle": "Wikipedia: Space Shuttle Columbia"
+  },
+  {
+    "id": "89729f64-9338-4aa8-b8f3-3e4fe88d9771",
+    "text": "Which space station was the first to be permanently inhabited by humans?",
+    "options": [
+      "Skylab",
+      "Mir",
+      "International Space Station",
+      "Salyut 1"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Mir was the first space station to be continuously occupied by humans for extended periods.",
+    "detailedExplanation": "The Soviet space station Mir, launched in 1986, was the first space station to be permanently inhabited by rotating crews of astronauts and cosmonauts. Operating until 2001, Mir hosted international crews for continuous periods, with some individuals staying for over a year. This pioneering station paved the way for long-duration spaceflight research and international cooperation that continues today with the International Space Station.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Mir",
+    "citationTitle": "Wikipedia: Mir"
+  },
+  {
+    "id": "c0131796-da65-4cfe-adb3-c36de22c1cfe",
+    "text": "What was the name of the first successful Mars rover to land and operate on the Red Planet?",
+    "options": [
+      "Spirit",
+      "Opportunity",
+      "Sojourner",
+      "Curiosity"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Sojourner was the first successful rover to operate on Mars in 1997 as part of the Mars Pathfinder mission.",
+    "detailedExplanation": "Sojourner, a small six-wheeled rover about the size of a microwave oven, became the first successful rover to operate on Mars when it landed on July 4, 1997, as part of NASA's Mars Pathfinder mission. During its 85-day mission, Sojourner traveled about 100 meters from its landing site, analyzed Martian rocks and soil, and sent back over 550 images, proving that mobile exploration of Mars was feasible.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Sojourner_(rover)",
+    "citationTitle": "Wikipedia: Sojourner (rover)"
+  },
+  {
+    "id": "51212c0e-b95f-4ee8-8cde-e3bd64ef56a5",
+    "text": "Who was the first woman to travel to space?",
+    "options": [
+      "Sally Ride",
+      "Valentina Tereshkova",
+      "Mae Jemison",
+      "Svetlana Savitskaya"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Valentina Tereshkova, a Soviet cosmonaut, became the first woman in space in 1963.",
+    "detailedExplanation": "Valentina Tereshkova made history on June 16, 1963, when she became the first woman to travel to space aboard Vostok 6. The Soviet cosmonaut orbited Earth 48 times during her nearly three-day solo mission. She remains the only woman to have been on a solo space mission and was just 26 years old at the time. Her achievement broke significant gender barriers in space exploration.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Valentina_Tereshkova",
+    "citationTitle": "Wikipedia: Valentina Tereshkova"
+  },
+  {
+    "id": "e5643ed7-89cd-4085-a3ae-e5756b0083dc",
+    "text": "Which planet did the Voyager 1 spacecraft first provide detailed images of in 1979?",
+    "options": [
+      "Mars",
+      "Jupiter",
+      "Saturn",
+      "Neptune"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Voyager 1 conducted its first major planetary flyby of Jupiter in March 1979, sending back detailed images.",
+    "detailedExplanation": "Voyager 1 made its closest approach to Jupiter in March 1979, providing humanity with the first detailed, close-up images of the gas giant and its moons. The spacecraft discovered volcanic activity on Jupiter's moon Io and revealed intricate details of Jupiter's atmospheric storms and ring system. This flyby marked the beginning of Voyager 1's grand tour of the outer solar system, which continues today as it travels through interstellar space.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Voyager_1",
+    "citationTitle": "Wikipedia: Voyager 1"
+  },
+  {
+    "id": "0e30c916-d111-4d84-a0b3-09874583ee9c",
+    "text": "What achievement made SpaceX notable in space exploration history in 2020?",
+    "options": [
+      "First private company to reach Mars",
+      "First reusable rocket to orbit",
+      "First private company to send astronauts to the ISS",
+      "First commercial satellite launch"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "SpaceX became the first private company to send astronauts to the International Space Station with the Crew Dragon Demo-2 mission in May 2020.",
+    "detailedExplanation": "On May 30, 2020, SpaceX made history when its Crew Dragon spacecraft successfully carried NASA astronauts Doug Hurley and Bob Behnken to the International Space Station as part of the Demo-2 mission. This marked the first time a private company had sent humans to orbit and to the ISS, ending nearly a decade of American reliance on Russian Soyuz spacecraft for crew transportation and ushering in a new era of commercial human spaceflight.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Crew_Dragon_Demo-2",
+    "citationTitle": "Wikipedia: Crew Dragon Demo-2"
+  },
+  {
+    "id": "24d7a964-2223-4e15-be1e-245bef65f37e",
+    "text": "What was the name of the first artificial satellite launched into space in 1957?",
+    "options": [
+      "Sputnik 1",
+      "Explorer 1",
+      "Luna 1",
+      "Vanguard 1"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Sputnik 1 was launched by the Soviet Union on October 4, 1957, marking the beginning of the space age.",
+    "detailedExplanation": "Sputnik 1 was a 183-pound aluminum sphere that orbited Earth every 96 minutes, transmitting radio signals back to Earth. Its successful launch by the Soviet Union shocked the world and marked the beginning of the Space Race between the USSR and the United States. The satellite remained in orbit for three months before burning up in Earth's atmosphere, but its impact on space exploration and global politics was immense.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Sputnik_1",
+    "citationTitle": "Wikipedia: Sputnik 1"
+  },
+  {
+    "id": "61cd5a5f-4c27-4e33-8171-098d1700ca33",
+    "text": "Which country was the first to successfully land a human-made object on the Moon?",
+    "options": [
+      "United States",
+      "Soviet Union",
+      "China",
+      "Japan"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "The Soviet Union's Luna 2 probe was the first human-made object to reach the Moon in 1959.",
+    "detailedExplanation": "The Soviet Union achieved the first successful lunar impact with their Luna 2 spacecraft on September 14, 1959. This unmanned probe crashed into the Moon's surface near the Sea of Serenity, making it the first human-made object to reach another celestial body. This milestone came two years before the first human spaceflight and a decade before the Apollo 11 moon landing, marking an early victory for the Soviet space program during the Space Race.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Luna_2",
+    "citationTitle": "Wikipedia: Luna 2"
+  }
+]

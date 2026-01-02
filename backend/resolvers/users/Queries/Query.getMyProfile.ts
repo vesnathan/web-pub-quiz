@@ -40,5 +40,21 @@ export function response(ctx: Context) {
   if (ctx.error) {
     return util.error(ctx.error.message, ctx.error.type);
   }
-  return ctx.result;
+
+  if (!ctx.result) {
+    return null;
+  }
+
+  // Calculate total skill points from badges
+  const badges = ctx.result.badges || [];
+  let totalSkillPoints = 0;
+  for (const badge of badges) {
+    totalSkillPoints += badge.skillPoints || 0;
+  }
+
+  return {
+    ...ctx.result,
+    badges: badges,
+    totalSkillPoints: totalSkillPoints,
+  };
 }

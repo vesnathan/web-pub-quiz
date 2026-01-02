@@ -7,6 +7,23 @@ const docClient = DynamoDBDocumentClient.from(client);
 
 const TABLE_NAME = process.env.TABLE_NAME!;
 
+interface UserSubscription {
+  tier: number;
+  status: string | null;
+  provider: string | null;
+  subscriptionId: string | null;
+  customerId: string | null;
+  startedAt: string | null;
+  expiresAt: string | null;
+  cancelledAt: string | null;
+  // Gift subscription fields
+  giftedBy: string | null;
+  giftedByName: string | null;
+  giftedAt: string | null;
+  giftExpiresAt: string | null;
+  giftNotificationSeen: boolean | null;
+}
+
 interface UserProfile {
   PK: string;
   SK: string;
@@ -26,6 +43,31 @@ interface UserProfile {
     setsWon: number;
     currentStreak: number;
     longestStreak: number;
+  };
+  subscription: UserSubscription;
+}
+
+// 1 week in milliseconds
+const ONE_WEEK_MS = 7 * 24 * 60 * 60 * 1000;
+
+function createWelcomeSubscription(now: string): UserSubscription {
+  const expiresAt = new Date(Date.parse(now) + ONE_WEEK_MS).toISOString();
+
+  return {
+    tier: 1, // Supporter tier for welcome gift
+    status: 'active',
+    provider: null,
+    subscriptionId: null,
+    customerId: null,
+    startedAt: now,
+    expiresAt: expiresAt,
+    cancelledAt: null,
+    // Gift info - "system" indicates welcome bonus
+    giftedBy: 'system',
+    giftedByName: 'Quiz Night Live',
+    giftedAt: now,
+    giftExpiresAt: expiresAt,
+    giftNotificationSeen: false,
   };
 }
 
@@ -97,6 +139,7 @@ export const handler: PostConfirmationTriggerHandler = async (event: PostConfirm
         currentStreak: 0,
         longestStreak: 0,
       },
+      subscription: createWelcomeSubscription(now),
     };
 
     await docClient.send(new PutCommand({

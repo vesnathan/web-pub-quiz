@@ -1,0 +1,342 @@
+[
+  {
+    "id": "c1e62a30-84b6-4eec-a77e-fa87eff0a9d7",
+    "text": "Which scientist accidentally discovered penicillin when a mold contaminated his bacterial culture plates?",
+    "options": [
+      "Paul Ehrlich",
+      "Alexander Fleming",
+      "Gerhard Domagk",
+      "Selman Waksman"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Alexander Fleming discovered penicillin in 1928 when he noticed that a Penicillium mold had killed bacteria in his laboratory cultures.",
+    "detailedExplanation": "Alexander Fleming made his serendipitous discovery of penicillin in September 1928 at St. Mary's Hospital in London. Fleming had left some bacterial culture plates uncovered while on vacation, and upon his return, he noticed that one plate contaminated with a blue-green mold had a clear zone around it where the bacteria had been killed. The mold was identified as belonging to the genus Penicillium. Fleming realized the mold was producing a substance with antibacterial properties, which he named penicillin. However, it wasn't until the early 1940s that Howard Florey and Ernst Boris Chain developed methods to mass-produce penicillin, making it available as a life-saving antibiotic during World War II.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Alexander_Fleming",
+    "citationTitle": "Wikipedia: Alexander Fleming"
+  },
+  {
+    "id": "325c02f8-33f1-4f87-98c0-3c019ab6b4e4",
+    "text": "Marie Tharp revolutionized our understanding of ocean floors by discovering what major geological feature?",
+    "options": [
+      "Deep ocean trenches",
+      "The Mid-Atlantic Ridge",
+      "Hydrothermal vents",
+      "Continental drift evidence"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Marie Tharp mapped the Mid-Atlantic Ridge and discovered it was a rift valley, providing crucial evidence for plate tectonics theory.",
+    "detailedExplanation": "Marie Tharp, an American geologist and oceanographic cartographer, revolutionized our understanding of the ocean floor in the 1950s. Working with Bruce Heezen at Columbia University, she used sonar data to create the first comprehensive maps of the Atlantic Ocean floor. Her most significant discovery was identifying the Mid-Atlantic Ridge as a continuous rift valley running down the center of the Atlantic Ocean. Initially, her male colleagues dismissed her findings, with Heezen calling it 'girl talk.' However, Tharp's discovery provided crucial evidence for the theory of continental drift and plate tectonics, showing that the ocean floor was spreading apart at these ridges. Her meticulous work fundamentally changed how we understand the dynamic nature of Earth's crust.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Marie_Tharp",
+    "citationTitle": "Wikipedia: Marie Tharp"
+  },
+  {
+    "id": "e90a056d-e580-466a-857d-d095a60f7919",
+    "text": "The Mohs hardness scale was based on which principle?",
+    "options": [
+      "Absolute hardness measurements",
+      "Scratch resistance comparison",
+      "Crystal structure analysis",
+      "Chemical composition"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "The Mohs scale is based on the ability of one mineral to scratch another, creating a relative hardness scale.",
+    "detailedExplanation": "Friedrich Mohs developed his hardness scale in 1812 based on the simple principle that harder minerals can scratch softer ones. The scale uses ten reference minerals, from talc (1) to diamond (10), arranged so that each mineral can scratch all those below it on the scale. This qualitative approach made it practical for field identification of minerals, though it doesn't represent absolute hardness values - for instance, diamond is actually much more than ten times harder than talc in absolute terms.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Mohs_scale_of_mineral_hardness",
+    "citationTitle": "Wikipedia: Mohs Scale of Mineral Hardness"
+  },
+  {
+    "id": "90d1f65e-f805-4eb8-af79-e4df3b2a60b8",
+    "text": "Which type of unconformity represents a gap in the geological record where tilted or folded sedimentary rocks are overlain by horizontal sedimentary rocks?",
+    "options": [
+      "Disconformity",
+      "Nonconformity",
+      "Angular unconformity",
+      "Paraconformity"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Angular unconformity occurs when tilted or folded rocks are eroded and then covered by horizontal sedimentary layers.",
+    "detailedExplanation": "An angular unconformity represents a significant gap in the geological record where older sedimentary rocks were tilted, folded, uplifted, and eroded before younger horizontal sedimentary rocks were deposited on top. This creates a distinctive angular relationship between the older tilted beds and the younger horizontal ones. Famous examples include the Great Unconformity at the Grand Canyon and Siccar Point in Scotland, where James Hutton first recognized the concept of deep geological time.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Unconformity",
+    "citationTitle": "Wikipedia: Unconformity"
+  },
+  {
+    "id": "4217e2c7-b67e-4a65-89c7-f6b5ae2afb38",
+    "text": "Which igneous rock texture indicates extremely rapid cooling, often associated with volcanic glass?",
+    "options": [
+      "Phaneritic",
+      "Aphanitic",
+      "Porphyritic",
+      "Glassy"
+    ],
+    "correctIndex": 3,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Glassy texture forms when magma cools so rapidly that crystals cannot form, creating volcanic glass like obsidian.",
+    "detailedExplanation": "Glassy texture in igneous rocks develops when magma or lava cools extremely rapidly, preventing the formation of crystals. This rapid cooling, or quenching, typically occurs when lava is ejected into air or water during explosive volcanic eruptions. The resulting rock lacks crystalline structure and appears glass-like, with obsidian being the most common example. The rate of cooling is so fast that atoms don't have time to arrange themselves into orderly crystal structures, creating an amorphous solid.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Igneous_rock",
+    "citationTitle": "Wikipedia: Igneous Rock"
+  },
+  {
+    "id": "123336af-845e-437a-b6e4-ab290f4e1894",
+    "text": "What is the name of the geological boundary that separates the Earth's crust from the mantle?",
+    "options": [
+      "Gutenberg discontinuity",
+      "Mohorovičić discontinuity",
+      "Lehmann discontinuity",
+      "Conrad discontinuity"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "The Mohorovičić discontinuity (Moho) is the boundary between the Earth's crust and mantle.",
+    "detailedExplanation": "The Mohorovičić discontinuity, commonly called the Moho, was discovered in 1909 by Croatian seismologist Andrija Mohorovičić. It represents a sharp increase in seismic wave velocities as they pass from the crust into the denser mantle below. The depth varies from about 5-10 km beneath ocean floors to 20-90 km beneath continental surfaces. This discontinuity is crucial for understanding Earth's internal structure and is named after its discoverer.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Mohorovi%C4%8Di%C4%87_discontinuity",
+    "citationTitle": "Wikipedia: Mohorovičić discontinuity"
+  },
+  {
+    "id": "fda212c3-6b01-4e1e-88d7-25efee86b24b",
+    "text": "Which mineral group makes up approximately 90% of the Earth's crust by volume?",
+    "options": [
+      "Carbonates",
+      "Oxides",
+      "Silicates",
+      "Sulfides"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Silicates comprise about 90% of the Earth's crust by volume, containing silicon and oxygen as their fundamental components.",
+    "detailedExplanation": "Silicate minerals are built around the silicon-oxygen tetrahedron (SiO₄) and form the largest and most important class of rock-forming minerals. Common examples include quartz, feldspars, micas, and pyroxenes. Their dominance in the crust reflects the abundance of silicon and oxygen in the Earth's composition. These minerals form the foundation of igneous, sedimentary, and metamorphic rocks, making them essential to understanding crustal geology and petrology.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Silicate_mineral",
+    "citationTitle": "Wikipedia: Silicate mineral"
+  },
+  {
+    "id": "1557beed-cd5d-4ce4-a056-463caad76384",
+    "text": "What type of metamorphic process occurs when rocks are altered by direct contact with magma or lava?",
+    "options": [
+      "Regional metamorphism",
+      "Contact metamorphism",
+      "Dynamic metamorphism",
+      "Hydrothermal metamorphism"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Contact metamorphism occurs when rocks are heated by direct contact with igneous intrusions or lava flows.",
+    "detailedExplanation": "Contact metamorphism, also called thermal metamorphism, happens when existing rocks are heated by nearby magma or lava without significant pressure changes. This process creates a metamorphic aureole around the igneous body, with the degree of metamorphism decreasing with distance from the heat source. Common contact metamorphic rocks include hornfels, marble (from limestone), and quartzite (from sandstone). The process typically occurs at relatively shallow depths and can happen rapidly compared to other metamorphic processes.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Contact_metamorphism",
+    "citationTitle": "Wikipedia: Contact metamorphism"
+  },
+  {
+    "id": "dc31340b-21cf-46d5-b88a-78fe8d3b8d07",
+    "text": "Which ancient supercontinent existed approximately 1.3 to 0.9 billion years ago, predating Pangaea?",
+    "options": [
+      "Gondwana",
+      "Laurasia",
+      "Rodinia",
+      "Pannotia"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Rodinia was a Neoproterozoic supercontinent that existed from about 1.3 to 0.9 billion years ago.",
+    "detailedExplanation": "Rodinia was one of Earth's earliest well-documented supercontinents, forming during the Mesoproterozoic era and breaking up during the Neoproterozoic era. The name comes from the Russian word 'rodit', meaning 'to give birth', reflecting its role as the parent of later continental configurations. Its breakup is associated with significant climate changes, including possible 'Snowball Earth' events. Evidence for Rodinia comes from matching geological formations, fossil records, and paleomagnetic data across now-separated continents, making it a crucial concept in understanding Earth's deep geological history.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Rodinia",
+    "citationTitle": "Wikipedia: Rodinia"
+  },
+  {
+    "id": "0807f3bb-244d-45d9-b0da-f39466122def",
+    "text": "What is the term for the zone in the upper mantle where rock becomes partially molten and loses rigidity?",
+    "options": [
+      "Lithosphere",
+      "Mesosphere",
+      "Asthenosphere",
+      "Thermosphere"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "The asthenosphere is the partially molten, ductile layer in the upper mantle beneath the rigid lithosphere.",
+    "detailedExplanation": "The asthenosphere, meaning 'weak sphere' in Greek, extends from about 80-200 km depth and is characterized by temperatures high enough (1300-1600°C) to partially melt rock, making it mechanically weak and ductile. This layer is crucial for plate tectonics, as the rigid lithospheric plates above can move and slide over the more plastic asthenosphere. The partial melting is due to the presence of volatiles like water and the proximity to the solidus temperature of mantle rock, allowing for convection currents that drive plate motion.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Asthenosphere",
+    "citationTitle": "Wikipedia: Asthenosphere"
+  },
+  {
+    "id": "4d51542b-3ad6-413f-bd8e-06b6206fcc2a",
+    "text": "Which type of volcanic rock typically has a glassy texture due to rapid cooling and contains over 70% silica?",
+    "options": [
+      "Basalt",
+      "Andesite",
+      "Rhyolite",
+      "Dacite"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Rhyolite is a felsic volcanic rock with high silica content (>70%) that often displays a glassy texture from rapid cooling.",
+    "detailedExplanation": "Rhyolite is the volcanic equivalent of granite, containing high amounts of silica (typically 70-77%) and forming from highly viscous, felsic magma. When this silica-rich magma cools rapidly at the Earth's surface, it often forms a glassy texture called vitrophyre, or may contain glassy groundmass with embedded crystals. The high silica content makes rhyolitic magma very viscous, leading to explosive eruptions. Obsidian, volcanic glass, is essentially rhyolitic in composition but cooled so rapidly that no crystals formed at all.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Rhyolite",
+    "citationTitle": "Wikipedia: Rhyolite"
+  },
+  {
+    "id": "efb7ca56-881a-4a04-b914-6a6a7bbc1775",
+    "text": "What geological process is responsible for creating the characteristic 'pillow' structures found in some basaltic rocks?",
+    "options": [
+      "Subaerial eruption",
+      "Submarine eruption",
+      "Pyroclastic flow",
+      "Phreatomagmatic eruption"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Pillow basalts form when basaltic lava erupts underwater, creating rounded, pillow-like structures.",
+    "detailedExplanation": "Pillow basalts are formed when basaltic lava erupts under water, typically on the ocean floor at mid-ocean ridges. The rapid cooling effect of water causes the outer surface of the lava flow to solidify quickly, forming a glassy rind while the interior remains molten. Continued pressure from the molten interior causes the lava to bulge out and form rounded, pillow-shaped masses. These structures are important indicators of ancient marine environments and are commonly found in ophiolite sequences, helping geologists reconstruct past oceanic conditions and plate tectonic settings.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Pillow_lava",
+    "citationTitle": "Wikipedia: Pillow lava"
+  },
+  {
+    "id": "d9dc674e-ad18-4dea-a640-7e648c66aa6d",
+    "text": "Which isotope dating method is most commonly used to determine the age of rocks older than 100 million years?",
+    "options": [
+      "Carbon-14 dating",
+      "Potassium-Argon dating",
+      "Uranium-Lead dating",
+      "Rubidium-Strontium dating"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Uranium-Lead dating is the most reliable method for dating very old rocks, especially those over 100 million years old.",
+    "detailedExplanation": "Uranium-Lead (U-Pb) dating is considered the gold standard for dating ancient rocks because it involves two independent decay chains (U-238 to Pb-206 and U-235 to Pb-207) that can cross-check each other for accuracy. The method is particularly effective on zircon crystals, which readily incorporate uranium but exclude lead during formation, making them ideal chronometers. With half-lives of 4.47 billion and 704 million years respectively, these isotopes are perfect for dating rocks from millions to billions of years old, far exceeding the ~50,000-year limit of carbon-14 dating.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Uranium%E2%80%93lead_dating",
+    "citationTitle": "Wikipedia: Uranium–lead dating"
+  },
+  {
+    "id": "9f5bb255-51d8-433b-a2ba-75b8b0108849",
+    "text": "Which mineral series forms the most abundant group of minerals in the Earth's crust, making up approximately 60% of crustal rocks?",
+    "options": [
+      "Pyroxenes",
+      "Feldspars",
+      "Olivines",
+      "Amphiboles"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Feldspars are the most abundant mineral group in Earth's crust, comprising about 60% of crustal rocks.",
+    "detailedExplanation": "Feldspars are a group of rock-forming tectosilicate minerals that make up about 60% of the Earth's crust. They are aluminum silicates containing sodium, potassium, or calcium, and are essential components of many igneous, metamorphic, and sedimentary rocks. The two main subgroups are plagioclase feldspars (containing sodium and calcium) and alkali feldspars (containing potassium and sodium). Their abundance makes them crucial for understanding crustal composition and geological processes.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Feldspar",
+    "citationTitle": "Wikipedia: Feldspar"
+  },
+  {
+    "id": "403a94e2-f4f5-48e7-8259-43dac5906bb2",
+    "text": "The Mohorovičić discontinuity (Moho) represents the boundary between which two major layers of the Earth?",
+    "options": [
+      "Outer core and inner core",
+      "Mantle and outer core",
+      "Crust and mantle",
+      "Upper mantle and lower mantle"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "The Mohorovičić discontinuity marks the boundary between the Earth's crust and the underlying mantle.",
+    "detailedExplanation": "The Mohorovičić discontinuity, commonly called the Moho, is a distinct boundary discovered by Croatian seismologist Andrija Mohorovičić in 1909. It separates the Earth's crust from the mantle and is characterized by a sharp increase in seismic wave velocities. The depth of the Moho varies from about 5-10 km beneath oceanic crust to 20-90 km beneath continental crust. This discontinuity is identified through seismic studies and represents a significant change in rock density and composition between crustal rocks and mantle peridotite.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Mohorovi%C4%8Di%C4%87_discontinuity",
+    "citationTitle": "Wikipedia: Mohorovičić discontinuity"
+  },
+  {
+    "id": "703235c7-9b3f-4fe8-b92d-21ddac244169",
+    "text": "Which type of metamorphic rock forms under extremely high pressure and relatively low temperature conditions, typically in subduction zones?",
+    "options": [
+      "Granulite",
+      "Eclogite",
+      "Amphibolite",
+      "Hornfels"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Eclogite forms under high-pressure, low-temperature conditions characteristic of subduction zones.",
+    "detailedExplanation": "Eclogite is a high-grade metamorphic rock that forms under extreme pressure (>1.5 GPa) and moderate temperature conditions (400-800°C), typically found in subduction zones where oceanic crust is forced deep into the mantle. It consists primarily of garnet and omphacite (a sodium-rich pyroxene), giving it a distinctive green and red appearance. Eclogites are important indicators of ancient subduction processes and provide crucial information about deep crustal and upper mantle conditions. They are much denser than typical crustal rocks, which affects their buoyancy and geological behavior.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Eclogite",
+    "citationTitle": "Wikipedia: Eclogite"
+  },
+  {
+    "id": "3423c8f9-b59f-4119-9493-42fe3dd97281",
+    "text": "What is the approximate age of the oldest known zircon crystals, which provide evidence for early crustal formation on Earth?",
+    "options": [
+      "3.8 billion years",
+      "4.0 billion years",
+      "4.4 billion years",
+      "4.6 billion years"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "The oldest known zircon crystals from Jack Hills, Australia, are approximately 4.4 billion years old.",
+    "detailedExplanation": "Zircon crystals found in the Jack Hills region of Western Australia have been dated to approximately 4.4 billion years ago, making them the oldest known terrestrial materials. These ancient zircons provide crucial evidence for early crustal formation and suggest that liquid water may have existed on Earth's surface much earlier than previously thought. The zircons' chemical composition indicates they crystallized from granitic magmas, suggesting that plate tectonic processes and crustal differentiation began very early in Earth's history, within just 150 million years of the planet's formation.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Zircon",
+    "citationTitle": "Wikipedia: Zircon"
+  },
+  {
+    "id": "a84e153b-edd5-468a-94e3-e57ff253e6e2",
+    "text": "Which geological process is primarily responsible for the formation of ophiolite complexes?",
+    "options": [
+      "Continental rifting",
+      "Seafloor spreading",
+      "Transform faulting",
+      "Hotspot volcanism"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Ophiolites form through seafloor spreading processes at mid-ocean ridges.",
+    "detailedExplanation": "Ophiolite complexes are sequences of rocks that represent fragments of ancient oceanic crust and upper mantle that have been thrust onto continental margins during tectonic collisions. They form through seafloor spreading at mid-ocean ridges, where new oceanic crust is continuously created. The classic ophiolite sequence includes, from bottom to top: mantle peridotite, layered gabbros, sheeted dike complexes, pillow basalts, and marine sediments. These complexes are invaluable for understanding ancient oceanic processes and provide direct access to rocks that normally lie beneath kilometers of ocean water.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Ophiolite",
+    "citationTitle": "Wikipedia: Ophiolite"
+  },
+  {
+    "id": "cf89c769-6ff4-4e36-add8-4648e3f6cefc",
+    "text": "The Great Oxygenation Event occurred approximately how many billion years ago and was caused by which type of organisms?",
+    "options": [
+      "3.5 billion years ago by archaea",
+      "2.4 billion years ago by cyanobacteria",
+      "1.8 billion years ago by eukaryotes",
+      "1.2 billion years ago by algae"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "The Great Oxygenation Event occurred around 2.4 billion years ago due to oxygen production by cyanobacteria.",
+    "detailedExplanation": "The Great Oxygenation Event (GOE) was a pivotal moment in Earth's history that occurred approximately 2.4 billion years ago during the Paleoproterozoic Era. Cyanobacteria evolved oxygenic photosynthesis, releasing free oxygen as a waste product. This dramatically changed Earth's atmosphere from anoxic to oxygen-rich, leading to the near-extinction of anaerobic organisms in what's sometimes called the 'oxygen catastrophe.' The event is recorded in geological formations, particularly banded iron formations, and marked the beginning of aerobic life's dominance on Earth.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Great_Oxidation_Event",
+    "citationTitle": "Wikipedia: Great Oxidation Event"
+  },
+  {
+    "id": "875dd05e-133b-40a2-82bd-c11384bdff87",
+    "text": "Which rare earth element is commonly used as a proxy for measuring ancient ocean temperatures through its incorporation in marine carbonates?",
+    "options": [
+      "Neodymium",
+      "Cerium",
+      "Europium",
+      "Gadolinium"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Neodymium isotopes in marine carbonates serve as proxies for ancient ocean temperatures and circulation patterns.",
+    "detailedExplanation": "Neodymium (Nd) isotopes, particularly the 143Nd/144Nd ratio, are widely used in paleoceanography as tracers for ancient ocean circulation and climate conditions. Marine organisms incorporate neodymium from seawater into their calcium carbonate shells and skeletons in temperature-dependent ratios. The isotopic composition reflects both the temperature of formation and the source of the seawater, making it an invaluable tool for reconstructing past ocean conditions. This proxy is especially useful for understanding deep-water circulation patterns and climate changes over geological time scales.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Neodymium",
+    "citationTitle": "Wikipedia: Neodymium"
+  }
+]

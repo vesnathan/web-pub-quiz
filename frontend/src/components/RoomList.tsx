@@ -1,16 +1,26 @@
-'use client';
+"use client";
 
-import { useState, useEffect } from 'react';
-import { Card, CardBody, Button, Progress, Chip, CircularProgress } from '@nextui-org/react';
-import { useRouter } from 'next/navigation';
-import { useAuth } from '@/contexts/AuthContext';
-import { useGameStore } from '@/stores/gameStore';
-import { useLobbyChannel } from '@/hooks/useLobbyChannel';
-import { useNotifications, useCountdownNotifications } from '@/hooks/useNotifications';
-import { DID_YOU_KNOW_FACTS } from '@/data/didYouKnowFacts';
-import { LoadingDots } from '@/components/LoadingScreen';
-import { MAX_PLAYERS_PER_ROOM } from '@quiz/shared';
-import type { RoomListItem } from '@quiz/shared';
+import { useState, useEffect } from "react";
+import {
+  Card,
+  CardBody,
+  Button,
+  Progress,
+  Chip,
+  CircularProgress,
+} from "@nextui-org/react";
+import { useRouter } from "next/navigation";
+import { useAuth } from "@/contexts/AuthContext";
+import { useGameStore } from "@/stores/gameStore";
+import { useLobbyChannel } from "@/hooks/useLobbyChannel";
+import {
+  useNotifications,
+  useCountdownNotifications,
+} from "@/hooks/useNotifications";
+import { DID_YOU_KNOW_FACTS } from "@/data/didYouKnowFacts";
+import { LoadingDots } from "@/components/LoadingScreen";
+import { MAX_PLAYERS_PER_ROOM } from "@quiz/shared";
+import type { RoomListItem } from "@quiz/shared";
 
 interface RoomListProps {
   onJoinRoom?: (roomId: string) => void;
@@ -21,7 +31,15 @@ export function RoomList({ onJoinRoom }: RoomListProps) {
   const { user } = useAuth();
   const { setPlayer, setCurrentRoomId } = useGameStore();
   const { nextSetTime } = useGameStore();
-  const { rooms, isConnected, joinWindowOpen, secondsUntilJoinOpen, joinRoom, queueJoin, queueLeave } = useLobbyChannel();
+  const {
+    rooms,
+    isConnected,
+    joinWindowOpen,
+    secondsUntilJoinOpen,
+    joinRoom,
+    queueJoin,
+    queueLeave,
+  } = useLobbyChannel();
   const [joining, setJoining] = useState<string | null>(null);
   const [error, setError] = useState<string | null>(null);
 
@@ -40,11 +58,13 @@ export function RoomList({ onJoinRoom }: RoomListProps) {
     nextSetTime,
     false, // not active (we're in lobby waiting)
     notificationsEnabled,
-    sendNotification
+    sendNotification,
   );
 
   // Random facts state
-  const [factIndex, setFactIndex] = useState(() => Math.floor(Math.random() * DID_YOU_KNOW_FACTS.length));
+  const [factIndex, setFactIndex] = useState(() =>
+    Math.floor(Math.random() * DID_YOU_KNOW_FACTS.length),
+  );
   const [factFading, setFactFading] = useState(false);
 
   // Use server-provided join window status
@@ -85,7 +105,7 @@ export function RoomList({ onJoinRoom }: RoomListProps) {
     if (result.success && result.roomId) {
       setPlayer({
         id: user.userId,
-        displayName: user.name || user.email.split('@')[0],
+        displayName: user.name || user.email.split("@")[0],
         isAI: false,
         latency: 0,
         score: 0,
@@ -101,7 +121,7 @@ export function RoomList({ onJoinRoom }: RoomListProps) {
         router.push(`/game?roomId=${result.roomId}`);
       }
     } else {
-      setError(result.error || 'Failed to join room');
+      setError(result.error || "Failed to join room");
       setJoining(null);
     }
   };
@@ -110,21 +130,27 @@ export function RoomList({ onJoinRoom }: RoomListProps) {
   const formatTime = (seconds: number): string => {
     const minutes = Math.floor(seconds / 60);
     const secs = seconds % 60;
-    return `${minutes}:${secs.toString().padStart(2, '0')}`;
+    return `${minutes}:${secs.toString().padStart(2, "0")}`;
   };
 
   // Calculate progress percentage (for 29 min countdown to join window)
   // Progress shrinks from 100% to 0% as time runs out
   const maxWaitSeconds = 29 * 60; // 29 minutes max wait
-  const progressValue = canJoin ? 0 : Math.min(100, ((secondsUntilJoinOpen || 0) / maxWaitSeconds) * 100);
+  const progressValue = canJoin
+    ? 0
+    : Math.min(100, ((secondsUntilJoinOpen || 0) / maxWaitSeconds) * 100);
 
   return (
     <Card className="bg-gray-900/70 backdrop-blur-sm">
       <CardBody className="p-6">
         <div className="flex items-center justify-between mb-4">
           <h2 className="text-xl font-bold">Quiz Rooms</h2>
-          <Chip color={isConnected ? 'success' : 'default'} variant="flat" size="sm">
-            {isConnected ? 'Live' : 'Connecting...'}
+          <Chip
+            color={isConnected ? "success" : "default"}
+            variant="flat"
+            size="sm"
+          >
+            {isConnected ? "Live" : "Connecting..."}
           </Chip>
         </div>
 
@@ -151,10 +177,12 @@ export function RoomList({ onJoinRoom }: RoomListProps) {
 
             {/* Did you know? facts */}
             <div className="mt-4 px-2 w-full">
-              <div className="text-xs text-gray-500 mb-1 text-center">Did you know?</div>
+              <div className="text-xs text-gray-500 mb-1 text-center">
+                Did you know?
+              </div>
               <div
                 className={`text-sm text-gray-300 italic text-center transition-opacity duration-300 ${
-                  factFading ? 'opacity-0' : 'opacity-100'
+                  factFading ? "opacity-0" : "opacity-100"
                 }`}
               >
                 {DID_YOU_KNOW_FACTS[factIndex].text}
@@ -173,20 +201,26 @@ export function RoomList({ onJoinRoom }: RoomListProps) {
 
             {/* Notification Toggle */}
             <div className="mt-4 flex justify-center">
-              {permissionState === 'denied' ? (
+              {permissionState === "denied" ? (
                 <div className="text-sm text-gray-500">
                   Notifications blocked (check browser settings)
                 </div>
-              ) : permissionState === 'granted' ? (
+              ) : permissionState === "granted" ? (
                 <Button
                   size="sm"
                   variant="flat"
-                  onPress={notificationsEnabled ? disableNotifications : enableNotifications}
+                  onPress={
+                    notificationsEnabled
+                      ? disableNotifications
+                      : enableNotifications
+                  }
                   className="text-sm"
                 >
-                  {notificationsEnabled ? '🔔 Notifications on' : '🔕 Notifications off'}
+                  {notificationsEnabled
+                    ? "🔔 Notifications on"
+                    : "🔕 Notifications off"}
                 </Button>
-              ) : permissionState !== 'unsupported' ? (
+              ) : permissionState !== "unsupported" ? (
                 <Button
                   size="sm"
                   variant="flat"
@@ -213,7 +247,7 @@ export function RoomList({ onJoinRoom }: RoomListProps) {
         )}
 
         {/* Room List */}
-        <div className="space-y-3 max-h-[400px] overflow-y-auto">
+        <div className="space-y-3">
           {!isConnected ? (
             <div className="flex flex-col items-center justify-center py-8 gap-2">
               <LoadingDots />
@@ -223,7 +257,9 @@ export function RoomList({ onJoinRoom }: RoomListProps) {
             <div className="text-center py-8 text-gray-400">
               <p>No rooms available</p>
               <p className="text-sm mt-1">
-                {canJoin ? 'Rooms will appear shortly' : 'Rooms will appear when join opens'}
+                {canJoin
+                  ? "Rooms will appear shortly"
+                  : "Rooms will appear when join opens"}
               </p>
             </div>
           ) : (
@@ -253,55 +289,93 @@ interface RoomCardProps {
   canJoin: boolean;
   joining: string | null;
   onJoin: (roomId: string) => void;
-  onQueueJoin: (roomId: string) => Promise<{ success: boolean; queuePosition?: number }>;
+  onQueueJoin: (
+    roomId: string,
+  ) => Promise<{ success: boolean; queuePosition?: number }>;
   onQueueLeave: (roomId: string) => Promise<{ success: boolean }>;
   isAuthenticated: boolean;
   secondsUntilJoinOpen: number | null;
   formatTime: (seconds: number) => string;
 }
 
-function RoomCard({ room, canJoin, joining, onJoin, onQueueJoin, onQueueLeave, isAuthenticated, secondsUntilJoinOpen, formatTime }: RoomCardProps) {
+function RoomCard({
+  room,
+  canJoin,
+  joining,
+  onJoin,
+  onQueueJoin,
+  onQueueLeave,
+  isAuthenticated,
+  secondsUntilJoinOpen,
+  formatTime,
+}: RoomCardProps) {
   const [isQueued, setIsQueued] = useState(false);
 
-  const getRoomStatusColor = (room: RoomListItem): 'success' | 'warning' | 'danger' | 'default' => {
-    if (room.status === 'in_progress') return 'warning';
-    if (room.currentPlayers >= room.maxPlayers) return 'danger';
-    if (room.currentPlayers > room.maxPlayers * 0.7) return 'warning';
-    return 'success';
+  const getRoomStatusColor = (
+    room: RoomListItem,
+  ): "success" | "warning" | "danger" | "default" => {
+    if (room.status === "in_progress") return "warning";
+    if (room.currentPlayers >= room.maxPlayers) return "danger";
+    if (room.currentPlayers > room.maxPlayers * 0.7) return "warning";
+    return "success";
   };
 
   // Room is joinable if: join window open, room waiting, not full, and user is authenticated
-  const isJoinable = canJoin && room.status === 'waiting' && room.currentPlayers < room.maxPlayers;
+  const isJoinable =
+    canJoin &&
+    room.status === "waiting" &&
+    room.currentPlayers < room.maxPlayers;
   // For unauthenticated users, clicking will open login modal
-  const canClickJoin = isAuthenticated ? isJoinable : (room.status === 'waiting' && room.currentPlayers < room.maxPlayers);
+  const canClickJoin = isAuthenticated
+    ? isJoinable
+    : room.status === "waiting" && room.currentPlayers < room.maxPlayers;
   // Can enable auto-join if: authenticated, window not open yet, room is waiting and not full
-  const canEnableAutoJoin = isAuthenticated && !canJoin && room.status === 'waiting' && room.currentPlayers < room.maxPlayers;
+  const canEnableAutoJoin =
+    isAuthenticated &&
+    !canJoin &&
+    room.status === "waiting" &&
+    room.currentPlayers < room.maxPlayers;
 
   // Auto-join when window opens (if queued)
   useEffect(() => {
-    if (isQueued && canJoin && room.status === 'waiting' && room.currentPlayers < room.maxPlayers) {
+    if (
+      isQueued &&
+      canJoin &&
+      room.status === "waiting" &&
+      room.currentPlayers < room.maxPlayers
+    ) {
       onJoin(room.id);
       setIsQueued(false);
     }
-  }, [isQueued, canJoin, room.status, room.currentPlayers, room.maxPlayers, room.id, onJoin]);
+  }, [
+    isQueued,
+    canJoin,
+    room.status,
+    room.currentPlayers,
+    room.maxPlayers,
+    room.id,
+    onJoin,
+  ]);
 
   const getButtonText = () => {
     if (!isAuthenticated) {
-      if (room.status === 'in_progress') return 'In Progress';
-      if (room.currentPlayers >= room.maxPlayers) return 'Full';
-      return 'Sign in to Join';
+      if (room.status === "in_progress") return "In Progress";
+      if (room.currentPlayers >= room.maxPlayers) return "Full";
+      return "Sign in to Join";
     }
     if (isQueued) {
-      return secondsUntilJoinOpen ? `Joining in ${formatTime(secondsUntilJoinOpen)}` : 'Joining soon...';
+      return secondsUntilJoinOpen
+        ? `Joining in ${formatTime(secondsUntilJoinOpen)}`
+        : "Joining soon...";
     }
     if (!canJoin) {
-      if (room.status === 'in_progress') return 'In Progress';
-      if (room.currentPlayers >= room.maxPlayers) return 'Full';
-      return 'Join when open';
+      if (room.status === "in_progress") return "In Progress";
+      if (room.currentPlayers >= room.maxPlayers) return "Full";
+      return "Join when open";
     }
-    if (room.status === 'in_progress') return 'In Progress';
-    if (room.currentPlayers >= room.maxPlayers) return 'Full';
-    return 'Join';
+    if (room.status === "in_progress") return "In Progress";
+    if (room.currentPlayers >= room.maxPlayers) return "Full";
+    return "Join";
   };
 
   const handleButtonClick = async () => {
@@ -322,7 +396,7 @@ function RoomCard({ room, canJoin, joining, onJoin, onQueueJoin, onQueueLeave, i
   const isButtonDisabled = () => {
     if (joining !== null) return true;
     if (!isAuthenticated) return !canClickJoin;
-    if (room.status === 'in_progress') return true;
+    if (room.status === "in_progress") return true;
     if (room.currentPlayers >= room.maxPlayers) return true;
     return false;
   };
@@ -330,11 +404,45 @@ function RoomCard({ room, canJoin, joining, onJoin, onQueueJoin, onQueueLeave, i
   // Show queued players if window is not open and there are people queued
   const showQueuedCount = !canJoin && room.queuedPlayers > 0;
 
+  // Get difficulty color and points based on room difficulty
+  const getDifficultyConfig = (difficulty: string) => {
+    switch (difficulty) {
+      case "easy":
+        return {
+          color: "success" as const,
+          label: "Easy",
+          correct: "+50",
+          wrong: "-100",
+        };
+      case "hard":
+        return {
+          color: "danger" as const,
+          label: "Hard",
+          correct: "+100",
+          wrong: "-300",
+        };
+      default:
+        return {
+          color: "warning" as const,
+          label: "Medium",
+          correct: "+50",
+          wrong: "-200",
+        };
+    }
+  };
+
+  const diffConfig = getDifficultyConfig(room.difficulty);
+
   return (
-    <div className="bg-gray-800/50 rounded-lg p-3 hover:bg-gray-700/50 transition-colors">
+    <div className="bg-gray-800/50 rounded-lg p-3 transition-colors hover:bg-gray-700/50">
       <div className="flex items-center justify-between mb-2">
-        <span className="font-medium">{room.name}</span>
-        {room.status === 'in_progress' ? (
+        <div className="flex items-center gap-2">
+          <span className="font-medium">{room.name}</span>
+          <Chip color={diffConfig.color} variant="flat" size="sm">
+            {diffConfig.label}
+          </Chip>
+        </div>
+        {room.status === "in_progress" ? (
           <Chip color="warning" variant="flat" size="sm">
             In Progress
           </Chip>
@@ -349,10 +457,20 @@ function RoomCard({ room, canJoin, joining, onJoin, onQueueJoin, onQueueLeave, i
         )}
       </div>
 
+      {/* Points info */}
+      <div className="flex items-center gap-3 text-xs mb-2">
+        <span className="text-green-400">{diffConfig.correct} correct</span>
+        <span className="text-red-400">{diffConfig.wrong} wrong</span>
+      </div>
+
       <div className="mb-2">
         <div className="flex justify-between text-xs text-gray-400 mb-1">
-          <span>{showQueuedCount ? 'Queued' : 'Players'}</span>
-          <span>{showQueuedCount ? room.queuedPlayers : `${room.currentPlayers}/${room.maxPlayers}`}</span>
+          <span>{showQueuedCount ? "Queued" : "Players"}</span>
+          <span>
+            {showQueuedCount
+              ? room.queuedPlayers
+              : `${room.currentPlayers}/${room.maxPlayers}`}
+          </span>
         </div>
         {showQueuedCount ? (
           <Progress
@@ -372,8 +490,14 @@ function RoomCard({ room, canJoin, joining, onJoin, onQueueJoin, onQueueLeave, i
       </div>
 
       <Button
-        color={isQueued ? 'secondary' : (canClickJoin || canEnableAutoJoin) ? 'primary' : 'default'}
-        variant={isQueued ? 'solid' : 'flat'}
+        color={
+          isQueued
+            ? "secondary"
+            : canClickJoin || canEnableAutoJoin
+              ? "primary"
+              : "default"
+        }
+        variant={isQueued ? "solid" : "flat"}
         size="sm"
         className="w-full"
         isDisabled={isButtonDisabled()}

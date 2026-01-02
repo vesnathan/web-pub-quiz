@@ -1,0 +1,342 @@
+[
+  {
+    "id": "53a02760-5893-425d-b025-bc2a788ea1c4",
+    "text": "Which Indonesian volcano's 1815 eruption caused the 'Year Without a Summer' in 1816, leading to global climate anomalies and crop failures?",
+    "options": [
+      "Mount Krakatoa",
+      "Mount Tambora",
+      "Mount Merapi",
+      "Mount Agung"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "Mount Tambora's 1815 eruption was the most powerful volcanic eruption in recorded history, ejecting massive amounts of ash into the atmosphere.",
+    "detailedExplanation": "Mount Tambora's eruption in April 1815 was a VEI-7 event that ejected approximately 38 cubic miles of material into the atmosphere. The volcanic ash and sulfur dioxide created a global climate anomaly, blocking sunlight and causing temperatures to drop worldwide in 1816. This led to widespread crop failures, famine, and unusual weather patterns across Europe, North America, and Asia, earning 1816 the nickname 'The Year Without a Summer.'",
+    "citationUrl": "https://en.wikipedia.org/wiki/1815_eruption_of_Mount_Tambora",
+    "citationTitle": "Wikipedia: 1815 eruption of Mount Tambora"
+  },
+  {
+    "id": "f7c17e85-8e04-47a3-a044-274813b8db29",
+    "text": "The 2011 Tōhoku earthquake that triggered the devastating tsunami in Japan registered what magnitude on the moment magnitude scale?",
+    "options": [
+      "8.9",
+      "9.1",
+      "9.3",
+      "8.7"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "The Tōhoku earthquake registered 9.1 on the moment magnitude scale, making it one of the most powerful earthquakes ever recorded.",
+    "detailedExplanation": "The Great East Japan Earthquake occurred on March 11, 2011, with its epicenter approximately 70 kilometers east of the Oshika Peninsula. Initially reported as magnitude 8.9, it was later upgraded to 9.1 after more precise calculations. The earthquake was so powerful it shifted the Earth's axis by approximately 10 centimeters and moved Japan's main island of Honshu 2.4 meters eastward. The resulting tsunami waves reached heights of up to 40 meters in some areas.",
+    "citationUrl": "https://en.wikipedia.org/wiki/2011_T%C5%8Dhoku_earthquake_and_tsunami",
+    "citationTitle": "Wikipedia: 2011 Tōhoku earthquake and tsunami"
+  },
+  {
+    "id": "ee2e4403-e5cf-457b-a373-db39dfaba49c",
+    "text": "Which type of seismic wave arrives first at recording stations and can only travel through solid materials?",
+    "options": [
+      "S-waves (Secondary waves)",
+      "P-waves (Primary waves)",
+      "Love waves",
+      "Rayleigh waves"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "P-waves are the fastest seismic waves and can travel through both solid and liquid materials, arriving first at seismograph stations.",
+    "detailedExplanation": "Primary waves (P-waves) are compressional waves that travel by pushing and pulling rock in the direction of wave propagation. They are the fastest seismic waves, traveling at speeds of 6-8 km/s in the Earth's crust, which is why they arrive first at recording stations. Unlike S-waves, P-waves can travel through both solid rock and liquid materials like the Earth's outer core. This characteristic has been crucial in understanding the Earth's internal structure, as the shadow zone created by P-waves bending through the liquid outer core helped scientists determine the core's composition.",
+    "citationUrl": "https://en.wikipedia.org/wiki/P_wave",
+    "citationTitle": "Wikipedia: P wave"
+  },
+  {
+    "id": "04cf0b41-ffd7-4b6f-b85d-aacd72e115fa",
+    "text": "The Yellowstone Caldera is classified as what type of volcanic system, characterized by its massive size and potential for catastrophic eruptions?",
+    "options": [
+      "Shield volcano",
+      "Stratovolcano",
+      "Supervolcano",
+      "Cinder cone"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "Yellowstone is classified as a supervolcano due to its enormous caldera and capacity for VEI-8 eruptions.",
+    "detailedExplanation": "The Yellowstone Caldera is one of the world's largest active volcanic systems, measuring approximately 55 by 72 kilometers. It's classified as a supervolcano because it has the potential to produce eruptions of magnitude 8 on the Volcanic Explosivity Index (VEI), which would eject more than 1,000 cubic kilometers of material. The Yellowstone system has experienced three major caldera-forming eruptions in the past 2.1 million years, with the most recent occurring 640,000 years ago. The caldera sits atop a hotspot where a column of hot rock rises from deep within the Earth's mantle.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Yellowstone_Caldera",
+    "citationTitle": "Wikipedia: Yellowstone Caldera"
+  },
+  {
+    "id": "1e89732a-e719-44bf-96d5-836ee6e9242d",
+    "text": "Which transform fault system runs approximately 1,200 kilometers through California and is responsible for many of the state's major earthquakes?",
+    "options": [
+      "Hayward Fault",
+      "San Andreas Fault",
+      "Garlock Fault",
+      "Calaveras Fault"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "The San Andreas Fault is California's most significant fault system, forming the boundary between the Pacific and North American tectonic plates.",
+    "detailedExplanation": "The San Andreas Fault is a continental transform fault that extends roughly 1,200 kilometers through California. It forms the primary boundary between the Pacific Plate and the North American Plate, with the Pacific Plate moving northwest relative to the North American Plate at a rate of about 20-35 millimeters per year. The fault system is responsible for many significant earthquakes in California's history, including the devastating 1906 San Francisco earthquake (magnitude 7.9) and the 1989 Loma Prieta earthquake (magnitude 6.9). The fault is divided into several segments, each with different characteristics and seismic risks.",
+    "citationUrl": "https://en.wikipedia.org/wiki/San_Andreas_Fault",
+    "citationTitle": "Wikipedia: San Andreas Fault"
+  },
+  {
+    "id": "cee02a72-9990-4813-9977-7824d0c8fccd",
+    "text": "What is the name of the volcanic process where magma composition becomes more silica-rich through the removal of mafic minerals?",
+    "options": [
+      "Fractional crystallization",
+      "Assimilation",
+      "Partial melting",
+      "Degassing"
+    ],
+    "correctIndex": 0,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "Fractional crystallization occurs when early-forming mafic minerals are removed from cooling magma, leaving behind more silica-rich magma.",
+    "detailedExplanation": "Fractional crystallization is a key process in magmatic differentiation where a single parent magma can produce rocks of varying compositions. As magma cools, minerals crystallize in a specific sequence based on their melting temperatures (following Bowen's reaction series). Mafic minerals like olivine and pyroxene crystallize first at higher temperatures and may settle out or be otherwise removed from the magma. This leaves the remaining liquid enriched in silica and other incompatible elements, potentially evolving from basaltic to andesitic to rhyolitic compositions. This process explains how explosive, silica-rich volcanic eruptions can occur in areas that initially produced more mafic magmas.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Fractional_crystallization_(geology)",
+    "citationTitle": "Wikipedia: Fractional crystallization (geology)"
+  },
+  {
+    "id": "3f5d53c7-fc88-462d-8b26-c83710456468",
+    "text": "The 1960 Chilean earthquake, the most powerful earthquake ever recorded, originated in which specific region of Chile?",
+    "options": [
+      "Atacama Desert region",
+      "Valdivia region",
+      "Santiago metropolitan area",
+      "Patagonian region"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "The 1960 Chilean earthquake, also known as the Great Chilean earthquake, occurred in the Valdivia region of south-central Chile.",
+    "detailedExplanation": "The Great Chilean earthquake occurred on May 22, 1960, with its epicenter near Lumaco in the Valdivia region of south-central Chile. Registering magnitude 9.5, it remains the most powerful earthquake ever recorded by modern seismographs. The earthquake was caused by rupture along approximately 1,000 kilometers of the fault between the Nazca and South American plates. The event triggered devastating tsunamis that affected the entire Pacific Basin, reaching Japan, Hawaii, the Philippines, and New Zealand. The earthquake sequence began on May 21 and continued for several days, causing widespread destruction across southern Chile and killing approximately 1,655 people.",
+    "citationUrl": "https://en.wikipedia.org/wiki/1960_Valdivia_earthquake",
+    "citationTitle": "Wikipedia: 1960 Valdivia earthquake"
+  },
+  {
+    "id": "a6621807-a73b-4521-ae4a-916da9659aaf",
+    "text": "Which volcanic island chain was formed by a stationary hotspot as the Pacific Plate moved northwestward over it?",
+    "options": [
+      "Aleutian Islands",
+      "Hawaiian Islands",
+      "Galapagos Islands",
+      "Mariana Islands"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "The Hawaiian Islands were formed by the Hawaiian hotspot, with the chain showing a clear age progression from southeast to northwest.",
+    "detailedExplanation": "The Hawaiian Islands provide the classic example of hotspot volcanism, where a stationary plume of hot mantle material creates volcanoes as tectonic plates move over it. As the Pacific Plate moves northwest at about 3-4 centimeters per year, the hotspot has created a chain of volcanoes extending from the currently active Big Island to the older, eroded islands and seamounts to the northwest. The age progression is clear: the Big Island has active volcanoes (Kilauea and Mauna Loa), while Kauai (about 5 million years old) shows significant erosion. The chain continues northwest as the Emperor Seamount Chain, demonstrating over 80 million years of hotspot activity and plate motion.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Hawaii_hotspot",
+    "citationTitle": "Wikipedia: Hawaii hotspot"
+  },
+  {
+    "id": "40cc487c-0e99-4c95-9afc-da29cb33842e",
+    "text": "Which volcano holds the record for the most deadly eruption in recorded history, killing approximately 71,000 people in 1815?",
+    "options": [
+      "Mount Vesuvius",
+      "Mount Tambora",
+      "Krakatoa",
+      "Mount Pelée"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "Mount Tambora's 1815 eruption killed around 71,000 people and caused global climate anomalies.",
+    "detailedExplanation": "Mount Tambora in Indonesia erupted in April 1815, producing the most powerful volcanic eruption in recorded human history. The eruption killed approximately 71,000 people directly and indirectly, and ejected so much volcanic material into the atmosphere that it caused global climate anomalies, leading to 1816 being known as the 'Year Without a Summer' in the Northern Hemisphere.",
+    "citationUrl": "https://en.wikipedia.org/wiki/1815_eruption_of_Mount_Tambora",
+    "citationTitle": "Wikipedia: 1815 eruption of Mount Tambora"
+  },
+  {
+    "id": "7de3671b-b230-473a-b70b-b2e2d64fd9d5",
+    "text": "The 2004 Indian Ocean earthquake that triggered the devastating tsunami originated from which specific type of tectonic boundary?",
+    "options": [
+      "Transform boundary",
+      "Divergent boundary",
+      "Megathrust fault",
+      "Strike-slip fault"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "The 2004 earthquake occurred along the Indo-Australian and Burma plates' megathrust fault interface.",
+    "detailedExplanation": "The 2004 Indian Ocean earthquake with a magnitude of 9.1-9.3 occurred along a megathrust fault, where the oceanic Indo-Australian Plate slides beneath the Burma Plate. This type of fault boundary is characterized by one tectonic plate being forced under another, creating enormous stress that when released can produce the most powerful earthquakes on Earth. The sudden displacement of the seafloor created the devastating tsunami waves.",
+    "citationUrl": "https://en.wikipedia.org/wiki/2004_Indian_Ocean_earthquake_and_tsunami",
+    "citationTitle": "Wikipedia: 2004 Indian Ocean earthquake and tsunami"
+  },
+  {
+    "id": "5ede8520-0644-4ba8-b906-bceeca41271c",
+    "text": "What is the name of the supervolcano caldera located beneath Yellowstone National Park?",
+    "options": [
+      "Long Valley Caldera",
+      "Yellowstone Caldera",
+      "Valles Caldera",
+      "Mount Mazama Caldera"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "The Yellowstone Caldera is the volcanic caldera and supervolcano located in Yellowstone National Park.",
+    "detailedExplanation": "The Yellowstone Caldera, measuring approximately 34 by 45 miles, is the volcanic caldera and supervolcano located in Yellowstone National Park in the western United States. It was formed by a catastrophic volcanic eruption 640,000 years ago that released 1,000 cubic kilometers of ash, rock and pyroclastic materials. The caldera is considered an active volcanic system and is monitored continuously by the United States Geological Survey.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Yellowstone_Caldera",
+    "citationTitle": "Wikipedia: Yellowstone Caldera"
+  },
+  {
+    "id": "32a95a60-fb06-4acf-bee0-e7ff19bdb20a",
+    "text": "Which scale, developed in 1935, measures the magnitude of earthquakes and is logarithmic in nature?",
+    "options": [
+      "Mercalli Intensity Scale",
+      "Richter Scale",
+      "Modified Mercalli Scale",
+      "Moment Magnitude Scale"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "The Richter Scale, developed by Charles Richter in 1935, uses logarithmic measurements of seismic wave amplitude.",
+    "detailedExplanation": "The Richter Scale was developed by seismologist Charles Francis Richter in 1935 at the California Institute of Technology. It measures the magnitude of earthquakes using a logarithmic scale based on the amplitude of seismic waves recorded by seismographs. Each whole number increase on the scale represents a tenfold increase in measured amplitude and roughly 31.6 times more energy release. While largely superseded by the Moment Magnitude Scale for large earthquakes, the Richter Scale remains widely known and used for smaller seismic events.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Richter_magnitude_scale",
+    "citationTitle": "Wikipedia: Richter magnitude scale"
+  },
+  {
+    "id": "d8d789c3-acf2-449c-8d3f-75fb2303c65b",
+    "text": "Which volcanic island nation experienced its most powerful earthquake in recorded history in 2008, measuring 7.0 on the moment magnitude scale?",
+    "options": [
+      "Iceland",
+      "New Zealand",
+      "Philippines",
+      "Indonesia"
+    ],
+    "correctIndex": 0,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "Iceland's strongest recorded earthquake was the 7.0 magnitude South Iceland Seismic Zone earthquake in 2008.",
+    "detailedExplanation": "On May 29, 2008, Iceland experienced its strongest earthquake in recorded history with a magnitude of 7.0 in the South Iceland Seismic Zone. The earthquake occurred in the Ölfus region and was felt throughout the country, causing damage to buildings and infrastructure. Iceland sits on the Mid-Atlantic Ridge where the North American and Eurasian tectonic plates meet, making it one of the most seismically and volcanically active regions in the world, despite typically experiencing smaller magnitude earthquakes.",
+    "citationUrl": "https://en.wikipedia.org/wiki/2008_Iceland_earthquake",
+    "citationTitle": "Wikipedia: 2008 Iceland earthquake"
+  },
+  {
+    "id": "a4d0bc65-2d0e-4b28-9184-6005c021c7bb",
+    "text": "The term 'lahar' specifically refers to what type of volcanic hazard?",
+    "options": [
+      "Pyroclastic flow",
+      "Volcanic mudflow",
+      "Lava fountain",
+      "Volcanic gas emission"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "A lahar is a destructive mudflow composed of volcanic debris mixed with water.",
+    "detailedExplanation": "A lahar is a type of mudflow or debris flow composed of pyroclastic material, rocky debris, and water that flows down from a volcano, typically along river valleys. These flows can be extremely dangerous and destructive, traveling at speeds of up to 60 kilometers per hour and extending for dozens of kilometers from their source. Lahars can form during eruptions when volcanic material mixes with water from heavy rainfall, crater lakes, or melted snow and ice, or even years after an eruption when loose volcanic deposits are mobilized by heavy rains.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Lahar",
+    "citationTitle": "Wikipedia: Lahar"
+  },
+  {
+    "id": "d8a9a4df-e069-404b-b4c4-ff0f77ca946d",
+    "text": "Which specific type of earthquake wave arrives first at seismic monitoring stations and can only travel through solid materials?",
+    "options": [
+      "Surface waves",
+      "Love waves",
+      "P-waves",
+      "S-waves"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "P-waves (primary waves) are the fastest seismic waves and arrive first at monitoring stations.",
+    "detailedExplanation": "P-waves, or primary waves, are compressional seismic waves that travel fastest through the Earth and therefore arrive first at seismic monitoring stations. These waves can travel through both solid and liquid materials by alternately compressing and expanding the material in the direction of wave propagation, similar to sound waves. P-waves typically travel at speeds of 6-8 km/s in the Earth's crust and are followed by the slower S-waves (secondary waves) which can only travel through solid materials.",
+    "citationUrl": "https://en.wikipedia.org/wiki/P-wave",
+    "citationTitle": "Wikipedia: P-wave"
+  },
+  {
+    "id": "65a7513d-e11e-488f-9a09-aeef9de339f5",
+    "text": "Mount Erebus, one of the world's few volcanoes with a permanent lava lake, is located on which continent?",
+    "options": [
+      "South America",
+      "Africa",
+      "Antarctica",
+      "Australia"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "Mount Erebus is located on Ross Island in Antarctica and contains one of the world's few permanent lava lakes.",
+    "detailedExplanation": "Mount Erebus is located on Ross Island in Antarctica and is notable for being the southernmost active volcano on Earth. Standing at 3,794 meters tall, it contains one of only a few permanent lava lakes in the world within its summit crater. The volcano has been continuously active with a convecting lava lake since at least 1972, making it unique among Antarctic volcanoes. Despite the extreme cold of Antarctica, the lava lake maintains temperatures of over 1000°C and provides valuable research opportunities for volcanologists studying magma processes.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Mount_Erebus",
+    "citationTitle": "Wikipedia: Mount Erebus"
+  },
+  {
+    "id": "88e399b3-973c-4a50-ab80-aa97dd58c078",
+    "text": "Which volcanic eruption in 1815 caused the 'Year Without a Summer' due to its massive ash cloud affecting global climate?",
+    "options": [
+      "Mount Krakatoa",
+      "Mount Tambora",
+      "Mount Vesuvius",
+      "Mount Pelée"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "Mount Tambora's 1815 eruption was the most powerful volcanic eruption in recorded history, causing global climate anomalies.",
+    "detailedExplanation": "Mount Tambora in Indonesia erupted in April 1815, ejecting an estimated 160 cubic kilometers of material into the atmosphere. The massive ash cloud circled the globe, blocking sunlight and causing temperatures to drop worldwide. This led to crop failures, famine, and unusual weather patterns throughout 1816, which became known as the 'Year Without a Summer.' The eruption killed approximately 71,000 people and had a Volcanic Explosivity Index (VEI) of 7, making it one of the most catastrophic volcanic events in human history.",
+    "citationUrl": "https://en.wikipedia.org/wiki/1815_eruption_of_Mount_Tambora",
+    "citationTitle": "Wikipedia: 1815 eruption of Mount Tambora"
+  },
+  {
+    "id": "a0b671f6-7991-4c19-8dd6-9e0b056d1bc6",
+    "text": "The 2004 Indian Ocean earthquake that triggered the devastating tsunami originated from which type of plate boundary?",
+    "options": [
+      "Transform boundary",
+      "Divergent boundary",
+      "Convergent boundary (subduction zone)",
+      "Intraplate hotspot"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "The earthquake occurred at a convergent boundary where the Indo-Australian Plate subducts beneath the Burma Plate.",
+    "detailedExplanation": "The magnitude 9.1-9.3 earthquake on December 26, 2004, occurred off the west coast of northern Sumatra at a convergent plate boundary. Here, the Indo-Australian Plate is being subducted beneath the Burma Plate along the Indo-Australian/Eurasian plate boundary. The sudden rupture along approximately 1,600 kilometers of fault line displaced massive amounts of water, generating the tsunami that killed over 230,000 people across 14 countries. Subduction zones are particularly prone to generating large earthquakes and tsunamis due to the immense forces involved when oceanic plates are forced under continental plates.",
+    "citationUrl": "https://en.wikipedia.org/wiki/2004_Indian_Ocean_earthquake_and_tsunami",
+    "citationTitle": "Wikipedia: 2004 Indian Ocean earthquake and tsunami"
+  },
+  {
+    "id": "a0e49b18-909a-46f6-bf97-50ef3c2880b1",
+    "text": "What is the name of the supervolcano caldera system that lies beneath Yellowstone National Park?",
+    "options": [
+      "Long Valley Caldera",
+      "Valles Caldera",
+      "Yellowstone Caldera",
+      "Toba Caldera"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "The Yellowstone Caldera is the volcanic caldera and supervolcano located in Yellowstone National Park.",
+    "detailedExplanation": "The Yellowstone Caldera, measuring approximately 55 by 72 kilometers, was formed by a catastrophic eruption 640,000 years ago that created the Lava Creek Tuff formation. This supervolcano has had three major eruptions in the past 2.1 million years, with the most recent being 640,000 years ago. The caldera sits above the Yellowstone hotspot, a stationary plume of hot material rising from deep within the Earth's mantle. The geothermal features throughout Yellowstone, including geysers like Old Faithful, are direct results of this underlying volcanic system. Scientists continuously monitor the area for signs of volcanic activity, though an eruption is not considered imminent.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Yellowstone_Caldera",
+    "citationTitle": "Wikipedia: Yellowstone Caldera"
+  },
+  {
+    "id": "f83ccc36-c510-4ab7-8277-f8c0e8f47901",
+    "text": "Which scale is used to measure the intensity of earthquakes based on observed effects and damage, rather than energy released?",
+    "options": [
+      "Richter Scale",
+      "Moment Magnitude Scale",
+      "Modified Mercalli Scale",
+      "Body Wave Magnitude Scale"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "The Modified Mercalli Scale measures earthquake intensity based on observed effects and damage rather than seismic energy.",
+    "detailedExplanation": "The Modified Mercalli Intensity Scale, developed by Italian volcanologist Giuseppe Mercalli and later modified by American seismologists, measures earthquake intensity from I (not felt) to XII (total destruction) based on observed effects on people, buildings, and the environment. Unlike magnitude scales such as Richter or Moment Magnitude which measure the energy released at the source, the Mercalli Scale assesses the actual impact and damage at specific locations. This makes it particularly useful for historical earthquakes where instrumental data is unavailable, and for understanding the practical effects of seismic events on communities. The same earthquake can have different Mercalli intensities at different locations depending on distance from the epicenter, local geology, and building construction.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Modified_Mercalli_intensity_scale",
+    "citationTitle": "Wikipedia: Modified Mercalli intensity scale"
+  }
+]

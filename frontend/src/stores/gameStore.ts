@@ -1,18 +1,22 @@
-import { create } from 'zustand';
-import { persist } from 'zustand/middleware';
+import { create } from "zustand";
+import { persist } from "zustand/middleware";
 import type {
   Player,
   Question,
   GameState,
   LeaderboardEntry,
   AwardBadge,
-} from '@quiz/shared';
-import {
-  SET_DURATION_MINUTES,
-} from '@quiz/shared';
+} from "@quiz/shared";
+import { SET_DURATION_MINUTES } from "@quiz/shared";
 
 // Game phases
-export type GamePhase = 'waiting' | 'countdown' | 'question' | 'answering' | 'results' | 'set_end';
+export type GamePhase =
+  | "waiting"
+  | "countdown"
+  | "question"
+  | "answering"
+  | "results"
+  | "set_end";
 
 interface GameStore {
   // Player state
@@ -38,16 +42,18 @@ interface GameStore {
   setGamePhase: (phase: GamePhase) => void;
 
   // Current question
-  currentQuestion: Omit<Question, 'correctIndex'> | null;
+  currentQuestion: Omit<Question, "correctIndex"> | null;
   questionIndex: number;
   totalQuestions: number;
   questionDuration: number;
+  answerTimeout: number;
   questionStartTime: number | null;
   setCurrentQuestion: (
-    question: Omit<Question, 'correctIndex'> | null,
+    question: Omit<Question, "correctIndex"> | null,
     index: number,
     total?: number,
-    duration?: number
+    duration?: number,
+    answerTimeout?: number,
   ) => void;
 
   // Buzzer state
@@ -59,7 +65,7 @@ interface GameStore {
     enabled: boolean,
     winner: string | null,
     winnerName: string | null,
-    deadline: number | null
+    deadline: number | null,
   ) => void;
 
   // Answer state
@@ -69,7 +75,7 @@ interface GameStore {
   setAnswerState: (
     selected: number | null,
     revealed: number | null,
-    correct: boolean | null
+    correct: boolean | null,
   ) => void;
 
   // Results state
@@ -81,7 +87,7 @@ interface GameStore {
     explanation: string,
     wasAnswered: boolean,
     wasCorrect: boolean | null,
-    nextQuestionIn: number
+    nextQuestionIn: number,
   ) => void;
   clearResultsState: () => void;
 
@@ -175,207 +181,230 @@ function isCurrentlyInSet(): boolean {
 export const useGameStore = create<GameStore>()(
   persist(
     (set, get) => ({
-  // Player state
-  player: null,
-  setPlayer: (player) => set({ player }),
+      // Player state
+      player: null,
+      setPlayer: (player) => set({ player }),
 
-  // Room state
-  currentRoomId: null,
-  currentRoomName: null,
-  setCurrentRoomId: (currentRoomId, currentRoomName = null) => set({ currentRoomId, currentRoomName }),
+      // Room state
+      currentRoomId: null,
+      currentRoomName: null,
+      setCurrentRoomId: (currentRoomId, currentRoomName = null) =>
+        set({ currentRoomId, currentRoomName }),
 
-  // Session state (kicked from another session)
-  sessionKicked: false,
-  sessionKickedReason: null,
-  setSessionKicked: (sessionKicked, reason) =>
-    set({ sessionKicked, sessionKickedReason: reason || null }),
+      // Session state (kicked from another session)
+      sessionKicked: false,
+      sessionKickedReason: null,
+      setSessionKicked: (sessionKicked, reason) =>
+        set({ sessionKicked, sessionKickedReason: reason || null }),
 
-  // Game state
-  gameState: null,
-  setGameState: (gameState) => set({ gameState }),
-
-  // Game phase
-  gamePhase: 'waiting' as GamePhase,
-  setGamePhase: (gamePhase) => set({ gamePhase }),
-
-  // Current question
-  currentQuestion: null,
-  questionIndex: 0,
-  totalQuestions: 20,
-  questionDuration: 5000,
-  questionStartTime: null,
-  setCurrentQuestion: (currentQuestion, questionIndex, totalQuestions = 20, questionDuration = 5000) =>
-    set({
-      currentQuestion,
-      questionIndex,
-      totalQuestions,
-      questionDuration,
-      questionStartTime: currentQuestion ? Date.now() : null,
-    }),
-
-  // Buzzer state
-  buzzerEnabled: false,
-  buzzerWinner: null,
-  buzzerWinnerName: null,
-  answerDeadline: null,
-  setBuzzerState: (buzzerEnabled, buzzerWinner, buzzerWinnerName, answerDeadline) =>
-    set({ buzzerEnabled, buzzerWinner, buzzerWinnerName, answerDeadline }),
-
-  // Answer state
-  selectedAnswer: null,
-  revealedAnswer: null,
-  isCorrect: null,
-  setAnswerState: (selectedAnswer, revealedAnswer, isCorrect) =>
-    set({ selectedAnswer, revealedAnswer, isCorrect }),
-
-  // Results state
-  explanation: null,
-  wasAnswered: false,
-  wasCorrect: null,
-  nextQuestionTime: null,
-  setResultsState: (explanation, wasAnswered, wasCorrect, nextQuestionIn) =>
-    set({
-      explanation,
-      wasAnswered,
-      wasCorrect,
-      nextQuestionTime: Date.now() + nextQuestionIn,
-      gamePhase: 'results',
-    }),
-  clearResultsState: () =>
-    set({
-      explanation: null,
-      wasAnswered: false,
-      wasCorrect: null,
-      nextQuestionTime: null,
-      leftTabDuringQuestion: false, // Reset anti-cheat flag for new question
-    }),
-
-  // Anti-cheat
-  leftTabDuringQuestion: false,
-  setLeftTabDuringQuestion: (leftTabDuringQuestion) => set({ leftTabDuringQuestion }),
-
-  // Scores
-  scores: {},
-  updateScores: (scores) => set({ scores }),
-
-  // Set timing
-  isSetActive: isCurrentlyInSet(),
-  nextSetTime: calculateNextSetTime(),
-  setActiveTime: isCurrentlyInSet() ? Date.now() : null,
-  updateSetTiming: () =>
-    set({
-      isSetActive: isCurrentlyInSet(),
-      nextSetTime: calculateNextSetTime(),
-      setActiveTime: isCurrentlyInSet() ? Date.now() : null,
-    }),
-  setSetActive: (active) =>
-    set({
-      isSetActive: active,
-      setActiveTime: active ? Date.now() : null,
-    }),
-
-  // Leaderboards
-  setLeaderboard: [],
-  setSetLeaderboard: (setLeaderboard) => set({ setLeaderboard }),
-
-  // Latency tracking
-  latency: 0,
-  latencySamples: [],
-  addLatencySample: (sample) => {
-    const { latencySamples } = get();
-    const newSamples = [...latencySamples, sample].slice(-5);
-    const avgLatency =
-      newSamples.reduce((a, b) => a + b, 0) / newSamples.length;
-    set({ latencySamples: newSamples, latency: Math.round(avgLatency) });
-  },
-
-  // Players
-  players: [],
-  setPlayers: (players) => set({ players }),
-  addPlayer: (player) =>
-    set((state) => ({
-      players: [...state.players.filter((p) => p.id !== player.id), player],
-    })),
-  removePlayer: (playerId) =>
-    set((state) => ({
-      players: state.players.filter((p) => p.id !== playerId),
-    })),
-
-  // Badge awards
-  pendingBadgeAward: null,
-  earnedBadgesThisSet: [],
-  earnedBadgesThisQuestion: [],
-  setPendingBadgeAward: (pendingBadgeAward) => set({ pendingBadgeAward }),
-  addEarnedBadge: (badgeId) =>
-    set((state) => ({
-      earnedBadgesThisSet: [...state.earnedBadgesThisSet, badgeId], // Don't dedupe - allow repeatable badges
-    })),
-  setEarnedBadgesThisQuestion: (earnedBadgesThisQuestion) => set({ earnedBadgesThisQuestion }),
-  clearEarnedBadges: () => set({ earnedBadgesThisSet: [], earnedBadgesThisQuestion: [], pendingBadgeAward: null }),
-
-  // Completed questions
-  completedQuestions: [],
-  addCompletedQuestion: (question) =>
-    set((state) => ({
-      completedQuestions: [...state.completedQuestions, question],
-    })),
-  clearCompletedQuestions: () => set({ completedQuestions: [] }),
-
-  // Reset
-  resetGame: () =>
-    set({
+      // Game state
       gameState: null,
-      gamePhase: 'waiting',
+      setGameState: (gameState) => set({ gameState }),
+
+      // Game phase
+      gamePhase: "waiting" as GamePhase,
+      setGamePhase: (gamePhase) => set({ gamePhase }),
+
+      // Current question
       currentQuestion: null,
       questionIndex: 0,
       totalQuestions: 20,
       questionDuration: 5000,
+      answerTimeout: 4000,
       questionStartTime: null,
+      setCurrentQuestion: (
+        currentQuestion,
+        questionIndex,
+        totalQuestions = 20,
+        questionDuration = 5000,
+        answerTimeout = 4000,
+      ) =>
+        set({
+          currentQuestion,
+          questionIndex,
+          totalQuestions,
+          questionDuration,
+          answerTimeout,
+          questionStartTime: currentQuestion ? Date.now() : null,
+        }),
+
+      // Buzzer state
       buzzerEnabled: false,
       buzzerWinner: null,
       buzzerWinnerName: null,
       answerDeadline: null,
+      setBuzzerState: (
+        buzzerEnabled,
+        buzzerWinner,
+        buzzerWinnerName,
+        answerDeadline,
+      ) =>
+        set({ buzzerEnabled, buzzerWinner, buzzerWinnerName, answerDeadline }),
+
+      // Answer state
       selectedAnswer: null,
       revealedAnswer: null,
       isCorrect: null,
+      setAnswerState: (selectedAnswer, revealedAnswer, isCorrect) =>
+        set({ selectedAnswer, revealedAnswer, isCorrect }),
+
+      // Results state
       explanation: null,
       wasAnswered: false,
       wasCorrect: null,
       nextQuestionTime: null,
+      setResultsState: (explanation, wasAnswered, wasCorrect, nextQuestionIn) =>
+        set({
+          explanation,
+          wasAnswered,
+          wasCorrect,
+          nextQuestionTime: Date.now() + nextQuestionIn,
+          gamePhase: "results",
+        }),
+      clearResultsState: () =>
+        set({
+          explanation: null,
+          wasAnswered: false,
+          wasCorrect: null,
+          nextQuestionTime: null,
+          leftTabDuringQuestion: false, // Reset anti-cheat flag for new question
+        }),
+
+      // Anti-cheat
       leftTabDuringQuestion: false,
+      setLeftTabDuringQuestion: (leftTabDuringQuestion) =>
+        set({ leftTabDuringQuestion }),
+
+      // Scores
       scores: {},
+      updateScores: (scores) => set({ scores }),
+
+      // Set timing
+      isSetActive: isCurrentlyInSet(),
+      nextSetTime: calculateNextSetTime(),
+      setActiveTime: isCurrentlyInSet() ? Date.now() : null,
+      updateSetTiming: () =>
+        set({
+          isSetActive: isCurrentlyInSet(),
+          nextSetTime: calculateNextSetTime(),
+          setActiveTime: isCurrentlyInSet() ? Date.now() : null,
+        }),
+      setSetActive: (active) =>
+        set({
+          isSetActive: active,
+          setActiveTime: active ? Date.now() : null,
+        }),
+
+      // Leaderboards
       setLeaderboard: [],
+      setSetLeaderboard: (setLeaderboard) => set({ setLeaderboard }),
+
+      // Latency tracking
+      latency: 0,
+      latencySamples: [],
+      addLatencySample: (sample) => {
+        const { latencySamples } = get();
+        const newSamples = [...latencySamples, sample].slice(-5);
+        const avgLatency =
+          newSamples.reduce((a, b) => a + b, 0) / newSamples.length;
+        set({ latencySamples: newSamples, latency: Math.round(avgLatency) });
+      },
+
+      // Players
       players: [],
+      setPlayers: (players) => set({ players }),
+      addPlayer: (player) =>
+        set((state) => ({
+          players: [...state.players.filter((p) => p.id !== player.id), player],
+        })),
+      removePlayer: (playerId) =>
+        set((state) => ({
+          players: state.players.filter((p) => p.id !== playerId),
+        })),
+
+      // Badge awards
       pendingBadgeAward: null,
       earnedBadgesThisSet: [],
       earnedBadgesThisQuestion: [],
+      setPendingBadgeAward: (pendingBadgeAward) => set({ pendingBadgeAward }),
+      addEarnedBadge: (badgeId) =>
+        set((state) => ({
+          earnedBadgesThisSet: [...state.earnedBadgesThisSet, badgeId], // Don't dedupe - allow repeatable badges
+        })),
+      setEarnedBadgesThisQuestion: (earnedBadgesThisQuestion) =>
+        set({ earnedBadgesThisQuestion }),
+      clearEarnedBadges: () =>
+        set({
+          earnedBadgesThisSet: [],
+          earnedBadgesThisQuestion: [],
+          pendingBadgeAward: null,
+        }),
+
+      // Completed questions
       completedQuestions: [],
-      sessionKicked: false,
-      sessionKickedReason: null,
-      currentRoomId: null,
-      currentRoomName: null,
-    }),
+      addCompletedQuestion: (question) =>
+        set((state) => ({
+          completedQuestions: [...state.completedQuestions, question],
+        })),
+      clearCompletedQuestions: () => set({ completedQuestions: [] }),
+
+      // Reset
+      resetGame: () =>
+        set({
+          gameState: null,
+          gamePhase: "waiting",
+          currentQuestion: null,
+          questionIndex: 0,
+          totalQuestions: 20,
+          questionDuration: 5000,
+          answerTimeout: 4000,
+          questionStartTime: null,
+          buzzerEnabled: false,
+          buzzerWinner: null,
+          buzzerWinnerName: null,
+          answerDeadline: null,
+          selectedAnswer: null,
+          revealedAnswer: null,
+          isCorrect: null,
+          explanation: null,
+          wasAnswered: false,
+          wasCorrect: null,
+          nextQuestionTime: null,
+          leftTabDuringQuestion: false,
+          scores: {},
+          setLeaderboard: [],
+          players: [],
+          pendingBadgeAward: null,
+          earnedBadgesThisSet: [],
+          earnedBadgesThisQuestion: [],
+          completedQuestions: [],
+          sessionKicked: false,
+          sessionKickedReason: null,
+          currentRoomId: null,
+          currentRoomName: null,
+        }),
     }),
     {
-      name: 'quiz-game-storage',
+      name: "quiz-game-storage",
       storage: {
         getItem: (name) => {
-          if (typeof window === 'undefined') return null;
+          if (typeof window === "undefined") return null;
           const str = sessionStorage.getItem(name);
           return str ? JSON.parse(str) : null;
         },
         setItem: (name, value) => {
-          if (typeof window === 'undefined') return;
+          if (typeof window === "undefined") return;
           sessionStorage.setItem(name, JSON.stringify(value));
         },
         removeItem: (name) => {
-          if (typeof window === 'undefined') return;
+          if (typeof window === "undefined") return;
           sessionStorage.removeItem(name);
         },
       },
-      partialize: (state) => ({
-        player: state.player,
-      }) as GameStore,
-    }
-  )
+      partialize: (state) =>
+        ({
+          player: state.player,
+        }) as GameStore,
+    },
+  ),
 );

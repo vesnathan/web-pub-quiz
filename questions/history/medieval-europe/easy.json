@@ -1,0 +1,342 @@
+[
+  {
+    "id": "16f6d2e4-3a52-49da-aea9-7a81f0c2044b",
+    "text": "What year did William the Conqueror invade England at the Battle of Hastings?",
+    "options": [
+      "1066",
+      "1056",
+      "1076",
+      "1086"
+    ],
+    "correctIndex": 0,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "William the Conqueror defeated King Harold II at the Battle of Hastings in 1066.",
+    "detailedExplanation": "The Battle of Hastings on October 14, 1066, marked the beginning of Norman rule in England. William, Duke of Normandy, claimed the English throne after defeating King Harold II, who was killed in the battle. This conquest fundamentally changed English culture, language, and governance, introducing Norman-French influences that persist today.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Battle_of_Hastings",
+    "citationTitle": "Wikipedia: Battle of Hastings"
+  },
+  {
+    "id": "be596329-66cf-4f2c-9045-1aa82597f713",
+    "text": "Which devastating pandemic swept through Europe in the 14th century, killing approximately one-third of the population?",
+    "options": [
+      "The Great Plague",
+      "The Black Death",
+      "The Red Fever",
+      "The White Pestilence"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "The Black Death (1347-1351) was a bubonic plague pandemic that devastated medieval Europe.",
+    "detailedExplanation": "The Black Death, caused by the bacterium Yersinia pestis, arrived in Europe via trade routes from Asia. It spread rapidly through ports and trading centers, causing social, economic, and religious upheaval. The massive population decline led to labor shortages, social mobility, and significant changes in European society and economy.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Black_Death",
+    "citationTitle": "Wikipedia: Black Death"
+  },
+  {
+    "id": "f2665d4c-455d-4205-a6fe-cc48d0a49289",
+    "text": "What were the series of religious wars fought between Christians and Muslims for control of the Holy Land called?",
+    "options": [
+      "The Holy Wars",
+      "The Crusades",
+      "The Sacred Campaigns",
+      "The Jerusalem Wars"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "The Crusades were a series of religious wars primarily between 1095 and 1291.",
+    "detailedExplanation": "The Crusades began when Pope Urban II called for Christian warriors to reclaim Jerusalem from Muslim control in 1095. These military campaigns had profound effects on European society, increasing trade with the East, weakening the Byzantine Empire, and contributing to the persecution of Jews and other minorities. The Crusades also facilitated cultural and technological exchange between East and West.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Crusades",
+    "citationTitle": "Wikipedia: Crusades"
+  },
+  {
+    "id": "6d625622-d2ef-4f72-8d0c-1c7f8cc7738d",
+    "text": "Which social system dominated medieval Europe, where land was exchanged for military service and loyalty?",
+    "options": [
+      "Capitalism",
+      "Feudalism",
+      "Socialism",
+      "Mercantilism"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "Feudalism was the dominant social and economic system in medieval Europe.",
+    "detailedExplanation": "Feudalism was a hierarchical system where kings granted land (fiefs) to nobles in exchange for military service and loyalty. Nobles, in turn, granted smaller portions of land to knights and peasants. This system provided security and organization in an era of frequent warfare, but also created rigid social classes with limited mobility for most people.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Feudalism",
+    "citationTitle": "Wikipedia: Feudalism"
+  },
+  {
+    "id": "37d4674f-74b7-4b38-b96f-b7a72642a5dd",
+    "text": "Which empire, founded by Charlemagne, was considered the revival of the Western Roman Empire?",
+    "options": [
+      "The Byzantine Empire",
+      "The Holy Roman Empire",
+      "The Frankish Empire",
+      "The Carolingian Empire"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "The Holy Roman Empire, established when Charlemagne was crowned Emperor in 800 AD, was seen as the Western Roman Empire's successor.",
+    "detailedExplanation": "Although Charlemagne's empire was initially called the Carolingian Empire, it evolved into what became known as the Holy Roman Empire. This empire lasted for over a thousand years and encompassed much of central Europe. It represented the medieval ideal of a unified Christian Europe under one emperor, though in practice it was often fragmented and faced constant internal conflicts.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Holy_Roman_Empire",
+    "citationTitle": "Wikipedia: Holy Roman Empire"
+  },
+  {
+    "id": "93f16d53-6b3f-4271-b1ac-2652991da81b",
+    "text": "What was the primary language of learning, literature, and the Church throughout medieval Europe?",
+    "options": [
+      "Greek",
+      "Latin",
+      "French",
+      "German"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "Latin served as the universal language of education, religion, and scholarly communication in medieval Europe.",
+    "detailedExplanation": "Latin remained the lingua franca of medieval Europe long after the fall of Rome. The Catholic Church conducted all services in Latin, universities taught in Latin, and most scholarly works were written in Latin. This common language allowed scholars, clergy, and educated individuals to communicate across different regions and kingdoms, facilitating the spread of knowledge and ideas throughout medieval Europe.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Medieval_Latin",
+    "citationTitle": "Wikipedia: Medieval Latin"
+  },
+  {
+    "id": "035ed262-8c0c-42c2-8926-b660d6f1ec0a",
+    "text": "Which architectural style, characterized by pointed arches and flying buttresses, dominated European cathedral construction from the 12th century?",
+    "options": [
+      "Romanesque",
+      "Gothic",
+      "Byzantine",
+      "Renaissance"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "Gothic architecture emerged in 12th-century France and spread throughout Europe, featuring pointed arches, ribbed vaults, and flying buttresses.",
+    "detailedExplanation": "Gothic architecture revolutionized medieval building by allowing for much taller structures with larger windows than previous Romanesque style. The pointed arches and flying buttresses distributed weight more efficiently, enabling the construction of soaring cathedrals filled with light. Famous examples include Notre-Dame de Paris, Chartres Cathedral, and Westminster Abbey. This style reflected the medieval desire to reach toward heaven and create spaces that inspired religious devotion.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Gothic_architecture",
+    "citationTitle": "Wikipedia: Gothic architecture"
+  },
+  {
+    "id": "8bdd59d9-18d6-4870-8505-39a401c6d3bb",
+    "text": "What was the name for the agricultural laborers who were bound to work on their lord's land and could not leave without permission?",
+    "options": [
+      "Peasants",
+      "Serfs",
+      "Vassals",
+      "Yeomen"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "Serfs were unfree agricultural workers bound to the land under the feudal system.",
+    "detailedExplanation": "Serfs formed the largest class in medieval society and were tied to the manor where they were born. Unlike slaves, they could not be sold separately from the land, but they also could not leave without their lord's permission. They worked the lord's land in exchange for protection and the right to farm small plots for themselves. This system provided stability but limited personal freedom, and serfdom persisted in some parts of Europe until the 19th century.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Serfdom",
+    "citationTitle": "Wikipedia: Serfdom"
+  },
+  {
+    "id": "a2ac01d5-b7da-4d1e-a201-924745db19cf",
+    "text": "What was the feudal system primarily based on in Medieval Europe?",
+    "options": [
+      "Land ownership and loyalty",
+      "Trade and commerce",
+      "Religious devotion",
+      "Military conquest"
+    ],
+    "correctIndex": 0,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "The feudal system was based on land ownership and personal loyalty between lords and vassals.",
+    "detailedExplanation": "The feudal system was the dominant social and economic structure in Medieval Europe, built around the exchange of land for military service and loyalty. Lords granted fiefs (land holdings) to vassals in exchange for military service, homage, and various obligations. This created a hierarchical system where everyone from kings to peasants had specific roles and duties based on land tenure and personal bonds of loyalty.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Feudalism",
+    "citationTitle": "Wikipedia: Feudalism"
+  },
+  {
+    "id": "ab3bedc9-8ba4-4f72-9c53-3a111b447815",
+    "text": "Which empire was divided into the Holy Roman Empire in 962 AD?",
+    "options": [
+      "Byzantine Empire",
+      "Carolingian Empire",
+      "Roman Empire",
+      "Ottoman Empire"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "The Holy Roman Empire was established from the remnants of Charlemagne's Carolingian Empire.",
+    "detailedExplanation": "The Holy Roman Empire was founded in 962 AD when Otto I was crowned emperor, but its roots trace back to Charlemagne's Carolingian Empire. After Charlemagne's death in 814 AD, his empire was eventually divided among his grandsons through the Treaty of Verdun in 843 AD. The eastern portion of this divided Carolingian Empire eventually became the foundation for what would be called the Holy Roman Empire, which lasted until 1806.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Holy_Roman_Empire",
+    "citationTitle": "Wikipedia: Holy Roman Empire"
+  },
+  {
+    "id": "59de16d8-7331-471b-8a42-2ec1807091bb",
+    "text": "What were the military expeditions launched by Western European Christians to reclaim the Holy Land called?",
+    "options": [
+      "Pilgrimages",
+      "Crusades",
+      "Conquests",
+      "Jihads"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "The Crusades were a series of religious wars launched to recapture Jerusalem and the Holy Land from Muslim control.",
+    "detailedExplanation": "The Crusades were a series of military campaigns launched between 1095 and 1291 AD, initiated by Pope Urban II's call to reclaim Jerusalem and other holy sites from Muslim control. These expeditions combined religious fervor with political and economic motivations, involving knights, nobles, and common people from across Western Europe. The First Crusade successfully captured Jerusalem in 1099, but subsequent crusades had mixed results, ultimately ending with Muslim reconquest of the last Crusader strongholds.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Crusades",
+    "citationTitle": "Wikipedia: Crusades"
+  },
+  {
+    "id": "3b6df1d3-c9b9-4eda-ad3c-731f7e78f842",
+    "text": "Which devastating disease killed approximately one-third of Europe's population in the 14th century?",
+    "options": [
+      "Smallpox",
+      "Cholera",
+      "The Black Death",
+      "Typhus"
+    ],
+    "correctIndex": 2,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "The Black Death, a bubonic plague pandemic, devastated Europe between 1347-1351.",
+    "detailedExplanation": "The Black Death was a catastrophic pandemic of bubonic plague that swept through Europe from 1347 to 1351, killing an estimated 30-40% of the European population. Caused by the bacterium Yersinia pestis and spread by fleas on rats, the plague arrived via trade routes from Asia. The pandemic had profound social, economic, and cultural consequences, leading to labor shortages, social upheaval, religious questioning, and significant changes in European society that helped transition from the Medieval to the Renaissance period.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Black_Death",
+    "citationTitle": "Wikipedia: Black Death"
+  },
+  {
+    "id": "dfac716f-76b9-4ee1-a626-ec80cccacf68",
+    "text": "What was the primary language used by the Catholic Church and educated people in Medieval Europe?",
+    "options": [
+      "French",
+      "Latin",
+      "Greek",
+      "German"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "Latin was the lingua franca of Medieval Europe, used in religious ceremonies, education, and scholarly works.",
+    "detailedExplanation": "Latin served as the universal language of Medieval Europe, inherited from the Roman Empire. The Catholic Church conducted all its services in Latin, and it was the language of education, scholarship, law, and diplomacy. Most written works, including religious texts, legal documents, and scholarly treatises, were composed in Latin. This created a common intellectual currency across Europe, allowing scholars, clerics, and educated nobility to communicate regardless of their native vernacular languages.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Medieval_Latin",
+    "citationTitle": "Wikipedia: Medieval Latin"
+  },
+  {
+    "id": "5391edbe-f8bf-4f15-8e18-bcc2c7147ae5",
+    "text": "Which architectural style is characterized by pointed arches, ribbed vaults, and flying buttresses?",
+    "options": [
+      "Romanesque",
+      "Gothic",
+      "Byzantine",
+      "Renaissance"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "Gothic architecture emerged in 12th century France and featured innovations that allowed for taller, more light-filled buildings.",
+    "detailedExplanation": "Gothic architecture developed in 12th century France and became the dominant architectural style for cathedrals and churches throughout Medieval Europe. Its key innovations included pointed arches (which distributed weight more effectively than round arches), ribbed vaults (which provided structural support while reducing weight), and flying buttresses (external supports that allowed for thinner walls and larger windows). These features enabled the construction of soaring cathedrals filled with light, exemplified by structures like Notre-Dame de Paris and Chartres Cathedral.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Gothic_architecture",
+    "citationTitle": "Wikipedia: Gothic architecture"
+  },
+  {
+    "id": "24316b62-0bad-4268-9cc9-6c26a86b0402",
+    "text": "What was the most common occupation for people in Medieval Europe?",
+    "options": [
+      "Merchant",
+      "Craftsman",
+      "Farmer",
+      "Soldier"
+    ],
+    "correctIndex": 2,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "The vast majority of Medieval Europeans were farmers or agricultural workers, as society was primarily agrarian.",
+    "detailedExplanation": "Medieval Europe was overwhelmingly agricultural, with approximately 90% of the population engaged in farming or related agricultural activities. Most people lived as peasants or serfs on manorial estates, working the land to produce food for themselves and their lords. Agriculture was the foundation of the Medieval economy, and the rhythm of rural life - planting, harvesting, and seasonal cycles - dominated most people's existence. Towns and cities were relatively small, and specialized occupations like merchants, craftsmen, and soldiers represented only a small fraction of the population.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Medieval_demography",
+    "citationTitle": "Wikipedia: Medieval demography"
+  },
+  {
+    "id": "726c2895-bb9a-4e31-a367-cf5c153dab82",
+    "text": "Who is traditionally considered the first Holy Roman Emperor?",
+    "options": [
+      "Otto I",
+      "Charlemagne",
+      "Frederick Barbarossa",
+      "Henry IV"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "Charlemagne was crowned Emperor by Pope Leo III on Christmas Day 800 AD, establishing the precedent for the Holy Roman Empire.",
+    "detailedExplanation": "While Otto I is often credited with founding the Holy Roman Empire in 962 AD, Charlemagne (Charles the Great) is traditionally considered its first emperor. On Christmas Day 800 AD, Pope Leo III crowned Charlemagne as 'Emperor of the Romans' in St. Peter's Basilica, reviving the concept of a Western Roman Empire. This event established the precedent for the Holy Roman Empire and the relationship between papal authority and imperial power that would define Medieval European politics for centuries.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Charlemagne",
+    "citationTitle": "Wikipedia: Charlemagne"
+  },
+  {
+    "id": "3c995e5b-8214-4cb6-9e20-5c52c324c4c6",
+    "text": "What was the dominant political system in Medieval Europe?",
+    "options": [
+      "Feudalism",
+      "Democracy",
+      "Capitalism",
+      "Socialism"
+    ],
+    "correctIndex": 0,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "Feudalism was the dominant political and social system in Medieval Europe, based on land ownership and personal loyalty.",
+    "detailedExplanation": "Feudalism was the prevailing political, economic, and social system in Medieval Europe from roughly the 9th to 15th centuries. It was characterized by a hierarchical structure where land was held in exchange for service, typically military service. Lords granted land (fiefs) to vassals in return for loyalty and military support, creating a complex web of obligations and dependencies that dominated medieval society.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Feudalism",
+    "citationTitle": "Wikipedia: Feudalism"
+  },
+  {
+    "id": "6cd97fa7-41b5-4bbf-b1cb-36259af3fdd2",
+    "text": "Which disease killed approximately one-third of Europe's population in the 14th century?",
+    "options": [
+      "Smallpox",
+      "The Black Death",
+      "Cholera",
+      "Typhus"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "The Black Death (bubonic plague) devastated Europe between 1347-1351, killing an estimated 75-200 million people.",
+    "detailedExplanation": "The Black Death was one of the most devastating pandemics in human history, peaking in Europe between 1347 and 1351. Caused by the bacterium Yersinia pestis and spread by fleas on rats, it arrived in Europe via trade routes from Asia. The plague killed an estimated 30-60% of Europe's population, fundamentally changing European society, economy, and culture, and contributing to major social upheavals including peasant revolts.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Black_Death",
+    "citationTitle": "Wikipedia: Black Death"
+  },
+  {
+    "id": "f0cf97d9-3478-4d44-ae0c-7be8a631c0a4",
+    "text": "What were the religious wars fought between Christians and Muslims for control of the Holy Land called?",
+    "options": [
+      "The Hundred Years' War",
+      "The Crusades",
+      "The Reconquista",
+      "The Investiture Controversy"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "The Crusades were a series of religious wars from 1095-1291 aimed at recapturing Jerusalem and the Holy Land from Muslim control.",
+    "detailedExplanation": "The Crusades were a series of religious wars sanctioned by the Catholic Church between 1095 and 1291. They were primarily fought between Christian Europe and the Muslim world, with the stated goal of recapturing Jerusalem and other holy sites in the Levant from Islamic rule. The First Crusade was called by Pope Urban II in 1095, and while several Crusades achieved temporary success, the ultimate result was the failure to permanently establish Christian control over the Holy Land.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Crusades",
+    "citationTitle": "Wikipedia: Crusades"
+  },
+  {
+    "id": "bfdc9226-9f1d-4d4d-b0b3-9744265a3050",
+    "text": "What was the most important building in a medieval town, serving as both a religious and community center?",
+    "options": [
+      "The castle",
+      "The cathedral or church",
+      "The marketplace",
+      "The guildhall"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "The cathedral or church was the central building in medieval towns, serving religious, social, and often educational functions.",
+    "detailedExplanation": "In Medieval Europe, the cathedral or parish church was typically the most prominent and important building in any town or city. These structures served not only as places of worship but as community centers where people gathered for various social functions, announcements, and sometimes education. The church dominated both the physical skyline and the spiritual life of medieval communities, reflecting the central role of Christianity in medieval society. Many of these grand Gothic cathedrals took centuries to complete and represented the pinnacle of medieval architecture and craftsmanship.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Gothic_architecture",
+    "citationTitle": "Wikipedia: Gothic architecture"
+  }
+]

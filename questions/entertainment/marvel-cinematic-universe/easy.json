@@ -1,0 +1,325 @@
+[
+  {
+    "id": "445cf98f-1b19-4f53-a4c8-ff803f115790",
+    "text": "What is the name of Tony Stark's AI assistant in the Iron Man movies?",
+    "options": [
+      "FRIDAY",
+      "JARVIS",
+      "KAREN",
+      "EDITH"
+    ],
+    "correctIndex": 1,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "JARVIS (Just A Rather Very Intelligent System) is Tony Stark's primary AI assistant throughout most of the Iron Man films.",
+    "detailedExplanation": "JARVIS, voiced by Paul Bettany, serves as Tony Stark's sophisticated AI assistant from the first Iron Man movie through Avengers: Age of Ultron. The AI manages Stark's home, lab, and Iron Man suits with remarkable efficiency and wit. After Ultron's attack on JARVIS in Age of Ultron, the AI's consciousness eventually becomes part of Vision, and Stark later creates FRIDAY as his new assistant.",
+    "citationUrl": "https://en.wikipedia.org/wiki/J.A.R.V.I.S.",
+    "citationTitle": "Wikipedia: J.A.R.V.I.S."
+  },
+  {
+    "id": "f615df79-3ebf-4928-b652-7c402e31dc11",
+    "text": "Which Infinity Stone is hidden on the planet Vormir?",
+    "options": [
+      "Power Stone",
+      "Reality Stone",
+      "Soul Stone",
+      "Time Stone"
+    ],
+    "correctIndex": 2,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "The Soul Stone is located on Vormir and requires the sacrifice of someone you love to obtain it.",
+    "detailedExplanation": "Vormir is a desolate planet where the Soul Stone is kept under the guardianship of Red Skull, who was transported there after touching the Tesseract in Captain America: The First Avenger. The Soul Stone's unique requirement demands that whoever seeks it must sacrifice someone they love by throwing them off a cliff. This tragic requirement leads to Gamora's death in Avengers: Infinity War when Thanos sacrifices her to obtain the stone.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Infinity_Stones",
+    "citationTitle": "Wikipedia: Infinity Stones"
+  },
+  {
+    "id": "df716052-d0f8-4bb3-a8a2-f19e1a65f4c6",
+    "text": "What is the real name of the Winter Soldier?",
+    "options": [
+      "Steve Rogers",
+      "Sam Wilson",
+      "Bucky Barnes",
+      "John Walker"
+    ],
+    "correctIndex": 2,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "James Buchanan 'Bucky' Barnes is Steve Rogers' childhood friend who becomes the Winter Soldier after being captured and brainwashed by HYDRA.",
+    "detailedExplanation": "Bucky Barnes was Steve Rogers' best friend from Brooklyn who served alongside him in World War II before seemingly dying in a fall from a train. However, he was actually captured by HYDRA, given a version of the super-soldier serum, and brainwashed to become their deadly assassin known as the Winter Soldier. His mechanical arm and decades of conditioning made him one of the most feared operatives until Steve Rogers helped him recover his memories and identity.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Bucky_Barnes",
+    "citationTitle": "Wikipedia: Bucky Barnes"
+  },
+  {
+    "id": "3d68b71e-93a7-4d80-9c3a-f2b66ec5ee90",
+    "text": "Which actor plays the character of Thor in the Marvel Cinematic Universe?",
+    "options": [
+      "Chris Evans",
+      "Chris Hemsworth",
+      "Chris Pratt",
+      "Chris Pine"
+    ],
+    "correctIndex": 1,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "Chris Hemsworth portrays the Asgardian God of Thunder, Thor, throughout the MCU films.",
+    "detailedExplanation": "Australian actor Chris Hemsworth was cast as Thor after an extensive audition process that included many well-known actors. His portrayal of the Asgardian prince has evolved from the arrogant, hammer-wielding god in the first Thor movie to a more mature and humorous character by the time of Thor: Ragnarok and the Avengers films. Hemsworth's physical transformation and commitment to the role helped establish Thor as one of the most beloved characters in the MCU.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Chris_Hemsworth",
+    "citationTitle": "Wikipedia: Chris Hemsworth"
+  },
+  {
+    "id": "1bfa8f59-7005-43de-b760-afcfcc4a109f",
+    "text": "What is the name of the elite female bodyguards who protect the King of Wakanda?",
+    "options": [
+      "Dora Milaje",
+      "War Dogs",
+      "Jabari Warriors",
+      "River Tribe"
+    ],
+    "correctIndex": 0,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "The Dora Milaje are the all-female special forces who serve as the personal bodyguards to the King of Wakanda.",
+    "detailedExplanation": "The Dora Milaje, which translates to 'adored ones' in the Hausa language, are an elite group of female warriors who serve as the royal guard of Wakanda. Led by General Okoye in the films, they are skilled fighters who use vibranium spears and are bound by tradition and honor to protect the throne of Wakanda. They play crucial roles in both Black Panther films and appear in several other MCU movies, showcasing their formidable combat skills and unwavering loyalty.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Dora_Milaje",
+    "citationTitle": "Wikipedia: Dora Milaje"
+  },
+  {
+    "id": "aaebaf29-bf40-4cda-95bf-1bbbc8fd41a9",
+    "text": "In which MCU film does Spider-Man make his first appearance?",
+    "options": [
+      "Spider-Man: Homecoming",
+      "Avengers: Age of Ultron",
+      "Captain America: Civil War",
+      "Avengers: Infinity War"
+    ],
+    "correctIndex": 2,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "Spider-Man first appears in Captain America: Civil War before getting his own solo film.",
+    "detailedExplanation": "Tom Holland's Spider-Man made his MCU debut in Captain America: Civil War, where he was recruited by Tony Stark to help fight against Captain America's team. This appearance came about after Sony Pictures and Marvel Studios reached a deal to share the character, allowing Spider-Man to appear in MCU films while Sony retained the rights to make solo Spider-Man movies. His introduction in Civil War was crucial in establishing his relationship with Tony Stark, which became central to his character development throughout the MCU.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Spider-Man_in_film",
+    "citationTitle": "Wikipedia: Spider-Man in film"
+  },
+  {
+    "id": "e8ca4c20-1ad9-48fd-a915-63a2011ca4bd",
+    "text": "What does S.H.I.E.L.D. stand for?",
+    "options": [
+      "Strategic Headquarters, International Espionage, Law-Enforcement Division",
+      "Strategic Homeland Intervention, Enforcement and Logistics Division",
+      "Secret Headquarters for International Emergency and Law Defense",
+      "Strategic Human Intelligence, Enforcement and Legal Department"
+    ],
+    "correctIndex": 1,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "S.H.I.E.L.D. stands for Strategic Homeland Intervention, Enforcement and Logistics Division.",
+    "detailedExplanation": "S.H.I.E.L.D. is the international peacekeeping organization that plays a central role in many MCU films. Founded after World War II by Peggy Carter, Howard Stark, and Chester Phillips, the organization was created to protect the world from threats too large for any one country to handle alone. Led by Nick Fury for much of the MCU timeline, S.H.I.E.L.D. was responsible for the Avengers Initiative and maintaining global security until it was revealed to be heavily infiltrated by HYDRA in Captain America: The Winter Soldier.",
+    "citationUrl": "https://en.wikipedia.org/wiki/S.H.I.E.L.D.",
+    "citationTitle": "Wikipedia: S.H.I.E.L.D."
+  },
+  {
+    "id": "4b3a53e1-94d5-43b2-be9f-e40a7eed0ae9",
+    "text": "What is the name of the blue cube that contains the Space Stone?",
+    "options": [
+      "The Orb",
+      "The Aether",
+      "The Tesseract",
+      "The Eye of Agamotto"
+    ],
+    "correctIndex": 2,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "The Tesseract is the blue cube that houses the Space Stone and appears in multiple MCU films.",
+    "detailedExplanation": "The Tesseract is a cube-shaped containment vessel for the Space Stone, one of the six Infinity Stones. It first appeared in Captain America: The First Avenger as a power source that HYDRA and Red Skull attempted to use for world domination. The cube has a rich history in the MCU, from being hidden in a Norwegian church during WWII to being studied by S.H.I.E.L.D. and eventually stolen by Loki in The Avengers. Its power to open portals across space makes it one of the most sought-after artifacts in the universe.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Tesseract_(Marvel_Cinematic_Universe)",
+    "citationTitle": "Wikipedia: Tesseract (Marvel Cinematic Universe)"
+  },
+  {
+    "id": "5c3a88bf-b1b1-4a4c-ac94-65e629ed65a6",
+    "text": "What is the name of Thor's hammer?",
+    "options": [
+      "Stormbreaker",
+      "Mjolnir",
+      "Gungnir",
+      "Hofund"
+    ],
+    "correctIndex": 1,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "Mjolnir is Thor's enchanted hammer that can only be lifted by those who are worthy.",
+    "detailedExplanation": "Mjolnir is Thor's mystical hammer, forged from Uru metal and enchanted by Odin with the spell that only those who are worthy may wield its power. The hammer grants Thor the ability to fly, control lightning and thunder, and serves as his primary weapon throughout most of his MCU appearances. It is destroyed by Hela in Thor: Ragnarok but later restored through time travel in Avengers: Endgame.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Mjolnir_(comics)",
+    "citationTitle": "Wikipedia: Mjolnir (comics)"
+  },
+  {
+    "id": "29bb2cd0-3910-4637-9c8b-d25ea7967e17",
+    "text": "In which movie does Spider-Man first appear in the MCU?",
+    "options": [
+      "Spider-Man: Homecoming",
+      "Avengers: Infinity War",
+      "Captain America: Civil War",
+      "Avengers: Age of Ultron"
+    ],
+    "correctIndex": 2,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "Spider-Man makes his MCU debut in Captain America: Civil War, fighting alongside Team Iron Man.",
+    "detailedExplanation": "Tom Holland's Spider-Man first appears in the Marvel Cinematic Universe in Captain America: Civil War (2016), where Tony Stark recruits the young Peter Parker to help his side in the conflict against Captain America's team. This marked Spider-Man's integration into the MCU after Sony Pictures and Marvel Studios reached an agreement to share the character, following previous Spider-Man film series starring Tobey Maguire and Andrew Garfield.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Spider-Man_in_film",
+    "citationTitle": "Wikipedia: Spider-Man in film"
+  },
+  {
+    "id": "544e6f12-c814-47c0-b74e-96fb6af44daf",
+    "text": "What is the name of the African nation ruled by Black Panther?",
+    "options": [
+      "Zamunda",
+      "Genosha",
+      "Wakanda",
+      "Atlantis"
+    ],
+    "correctIndex": 2,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "Wakanda is the technologically advanced African nation ruled by T'Challa, the Black Panther.",
+    "detailedExplanation": "Wakanda is a fictional African nation in the Marvel Cinematic Universe, ruled by T'Challa who serves as the Black Panther. The country is incredibly advanced technologically due to its vast deposits of vibranium, a rare metal that crashed to Earth via meteorite thousands of years ago. Wakanda has remained hidden from the outside world for centuries, using advanced holographic technology to appear as a poor, rural nation while actually being the most technologically sophisticated country on Earth.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Wakanda",
+    "citationTitle": "Wikipedia: Wakanda"
+  },
+  {
+    "id": "3f3593d5-e47e-44be-bfa5-711c0b476771",
+    "text": "Who plays the character Nick Fury in the MCU?",
+    "options": [
+      "Laurence Fishburne",
+      "Samuel L. Jackson",
+      "Morgan Freeman",
+      "James Earl Jones"
+    ],
+    "correctIndex": 1,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "Samuel L. Jackson portrays Nick Fury, the director of S.H.I.E.L.D., throughout the MCU.",
+    "detailedExplanation": "Samuel L. Jackson has played Nick Fury since his first appearance in a post-credits scene of Iron Man (2008). Fury serves as the director of S.H.I.E.L.D. and is instrumental in bringing together the Avengers. Jackson's portrayal is based on the Ultimate Marvel version of the character, which was actually designed to resemble Jackson himself. He has appeared in multiple MCU films and the Disney+ series 'Secret Invasion.'",
+    "citationUrl": "https://en.wikipedia.org/wiki/Nick_Fury_(Marvel_Cinematic_Universe)",
+    "citationTitle": "Wikipedia: Nick Fury (Marvel Cinematic Universe)"
+  },
+  {
+    "id": "a7669aa9-e229-4565-81a3-469dbc6e53d9",
+    "text": "In Guardians of the Galaxy, what is the name of Peter Quill's ship?",
+    "options": [
+      "The Benatar",
+      "Milano",
+      "The Dark Aster",
+      "Yondu's Arrow"
+    ],
+    "correctIndex": 1,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "Peter Quill's ship in the first Guardians of the Galaxy movie is called the Milano.",
+    "detailedExplanation": "The Milano is Peter Quill's spaceship in Guardians of the Galaxy, named after actress Alyssa Milano, whom Quill had a crush on as a child in the 1980s. The ship serves as the primary mode of transportation for the Guardians team and becomes their mobile headquarters. After the Milano is heavily damaged, the team later acquires a new ship called the Benatar (named after singer Pat Benatar) which appears in subsequent films.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Guardians_of_the_Galaxy_(film)",
+    "citationTitle": "Wikipedia: Guardians of the Galaxy (film)"
+  },
+  {
+    "id": "3af09fd2-b1b1-4da2-8dd7-84d6624f2939",
+    "text": "Which Infinity Stone is housed within the Tesseract?",
+    "options": [
+      "Power Stone",
+      "Space Stone",
+      "Reality Stone",
+      "Time Stone"
+    ],
+    "correctIndex": 1,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "The Tesseract contains the Space Stone, one of the six Infinity Stones that grant power over space and teleportation.",
+    "detailedExplanation": "The Tesseract first appears in Captain America: The First Avenger and plays a crucial role throughout the MCU. It contains the Space Stone, which grants the wielder power over space itself, allowing for teleportation and opening portals across the universe. The Tesseract is central to the plots of several MCU films, including The Avengers and Avengers: Infinity War.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Infinity_Stones",
+    "citationTitle": "Wikipedia: Infinity Stones"
+  },
+  {
+    "id": "ffa903d0-d79a-409e-bf87-c28511ec8bed",
+    "text": "In which movie did Spider-Man first appear in the MCU?",
+    "options": [
+      "Spider-Man: Homecoming",
+      "Avengers: Infinity War",
+      "Captain America: Civil War",
+      "Spider-Man: Far From Home"
+    ],
+    "correctIndex": 2,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "Spider-Man made his MCU debut in Captain America: Civil War (2016), before getting his own solo film.",
+    "detailedExplanation": "Tom Holland's Spider-Man first appeared in the Marvel Cinematic Universe in Captain America: Civil War, where he was recruited by Tony Stark to help fight against Captain America's team. This appearance came before his first solo MCU film, Spider-Man: Homecoming, which was released in 2017. His introduction in Civil War helped establish his relationship with Tony Stark, which became a central element of his character arc in the MCU.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Spider-Man_in_film",
+    "citationTitle": "Wikipedia: Spider-Man in film"
+  },
+  {
+    "id": "82643dd3-86db-4367-8ab6-bf6e1bbe8824",
+    "text": "What is the name of Thor's home realm?",
+    "options": [
+      "Midgard",
+      "Jotunheim",
+      "Asgard",
+      "Alfheim"
+    ],
+    "correctIndex": 2,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "Asgard is the home realm of Thor and the Asgardian gods in the MCU.",
+    "detailedExplanation": "Asgard is one of the Nine Realms in the MCU and serves as the home of Thor, Odin, and the other Asgardian gods. It's depicted as a magnificent realm connected to other worlds through the World Tree, Yggdrasil. Asgard is ultimately destroyed during the events of Thor: Ragnarok by the fire demon Surtur, fulfilling the prophecy of Ragnarok, though the Asgardian people survive and seek a new home on Earth.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Asgard_(comics)",
+    "citationTitle": "Wikipedia: Asgard (comics)"
+  },
+  {
+    "id": "572cccbe-6968-46b6-9423-f1ab1fe3e7be",
+    "text": "Who directed the first Iron Man movie that launched the MCU?",
+    "options": [
+      "Joss Whedon",
+      "Jon Favreau",
+      "Kenneth Branagh",
+      "Joe Russo"
+    ],
+    "correctIndex": 1,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "Jon Favreau directed Iron Man (2008), which was the first film in the Marvel Cinematic Universe.",
+    "detailedExplanation": "Jon Favreau directed the original Iron Man film released in 2008, which kicked off the Marvel Cinematic Universe. Favreau also appeared in the film as Happy Hogan, Tony Stark's bodyguard and chauffeur, a role he continued to play throughout multiple MCU films. His direction of Iron Man was crucial in establishing the tone and style that would define the early MCU films, balancing humor, action, and character development.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Iron_Man_(2008_film)",
+    "citationTitle": "Wikipedia: Iron Man (2008 film)"
+  },
+  {
+    "id": "12770952-a656-472a-8013-4a9dee06f4ff",
+    "text": "What is the name of Tony Stark's AI assistant in the Iron Man films?",
+    "options": [
+      "FRIDAY",
+      "JARVIS",
+      "KAREN",
+      "EDITH"
+    ],
+    "correctIndex": 1,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "JARVIS (Just A Rather Very Intelligent System) is Tony Stark's primary AI assistant throughout most of the MCU films.",
+    "detailedExplanation": "JARVIS, voiced by Paul Bettany, serves as Tony Stark's artificial intelligence assistant from the first Iron Man movie through Avengers: Age of Ultron. The AI helps Stark with his Iron Man suits, manages his home systems, and provides tactical support during missions. JARVIS is later uploaded into Vision's body in Age of Ultron, after which Tony creates a new AI assistant called FRIDAY.",
+    "citationUrl": "https://en.wikipedia.org/wiki/J.A.R.V.I.S.",
+    "citationTitle": "Wikipedia: J.A.R.V.I.S."
+  },
+  {
+    "id": "d319dde5-d0d9-4581-bd58-a22c86909f5b",
+    "text": "Which actor plays the character Steve Rogers/Captain America in the MCU?",
+    "options": [
+      "Chris Pine",
+      "Chris Evans",
+      "Chris Hemsworth",
+      "Chris Pratt"
+    ],
+    "correctIndex": 1,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "Chris Evans portrayed Steve Rogers/Captain America from 2011's Captain America: The First Avenger through 2019's Avengers: Endgame.",
+    "detailedExplanation": "Chris Evans brought the character of Steve Rogers to life across multiple MCU films, beginning with Captain America: The First Avenger in 2011. He continued in the role through several Avengers movies and Captain America sequels, concluding his tenure as the character in Avengers: Endgame where Rogers passes the Captain America mantle to Sam Wilson.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Steve_Rogers_(Marvel_Cinematic_Universe)",
+    "citationTitle": "Wikipedia: Steve Rogers (Marvel Cinematic Universe)"
+  }
+]

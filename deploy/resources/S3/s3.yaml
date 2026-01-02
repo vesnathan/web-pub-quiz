@@ -15,7 +15,7 @@ Resources:
   FrontendBucket:
     Type: AWS::S3::Bucket
     Properties:
-      BucketName: !Sub "${AppName}-frontend-${Stage}-${AWS::AccountId}"
+      BucketName: !Sub "${AppName}-frontend-${Stage}"
       PublicAccessBlockConfiguration:
         BlockPublicAcls: true
         BlockPublicPolicy: true

@@ -1,0 +1,342 @@
+[
+  {
+    "id": "688450f0-1d76-4c58-9ac4-3ac6edebaaad",
+    "text": "The Grand Canyon is located in which U.S. state?",
+    "options": [
+      "Nevada",
+      "Utah",
+      "Arizona",
+      "Colorado"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "The Grand Canyon is located in Arizona and is carved by the Colorado River.",
+    "detailedExplanation": "The Grand Canyon is a massive gorge carved by the Colorado River over millions of years, located in northwestern Arizona. It stretches approximately 277 miles long, up to 18 miles wide, and reaches depths of over a mile. The canyon exposes rock layers that are nearly 2 billion years old, making it one of the most studied geological formations in the world.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Grand_Canyon",
+    "citationTitle": "Wikipedia: Grand Canyon"
+  },
+  {
+    "id": "a8446f06-2c8d-4818-a7f5-b26de7eee684",
+    "text": "What type of natural formation is the Giant's Causeway in Northern Ireland?",
+    "options": [
+      "Sand dunes",
+      "Limestone caves",
+      "Hexagonal rock columns",
+      "Coral reef"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "The Giant's Causeway consists of thousands of hexagonal basalt columns formed by volcanic activity.",
+    "detailedExplanation": "The Giant's Causeway is an area of approximately 40,000 interlocking hexagonal basalt columns on the coast of County Antrim in Northern Ireland. These remarkable geological formations were created by intense volcanic activity around 50-60 million years ago. The columns are mostly hexagonal in shape and were formed when molten lava cooled and contracted, creating the distinctive geometric patterns.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Giant%27s_Causeway",
+    "citationTitle": "Wikipedia: Giant's Causeway"
+  },
+  {
+    "id": "86ca772c-2dca-45f3-879e-0db709581077",
+    "text": "Which waterfall is considered the tallest uninterrupted waterfall in the world?",
+    "options": [
+      "Niagara Falls",
+      "Victoria Falls",
+      "Angel Falls",
+      "Iguazu Falls"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "Angel Falls in Venezuela drops 979 meters (3,212 feet) in a single uninterrupted fall.",
+    "detailedExplanation": "Angel Falls, located in Venezuela's Canaima National Park, is the world's tallest uninterrupted waterfall with a height of 979 meters (3,212 feet) and a total drop of 979 meters. The waterfall was named after Jimmy Angel, an American aviator who was the first to fly over the falls in 1933. The falls flow over the edge of the Auyán-tepui mountain into the Kerepacupai Merú river below.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Angel_Falls",
+    "citationTitle": "Wikipedia: Angel Falls"
+  },
+  {
+    "id": "5d2c985b-ae61-43b7-8af9-b7faa9eb2694",
+    "text": "The Great Barrier Reef is located off the coast of which country?",
+    "options": [
+      "Brazil",
+      "Australia",
+      "Philippines",
+      "Indonesia"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "The Great Barrier Reef is located off the northeastern coast of Australia in the Coral Sea.",
+    "detailedExplanation": "The Great Barrier Reef is the world's largest coral reef system, stretching over 2,300 kilometers (1,400 miles) along the northeastern coast of Australia in Queensland. It consists of over 2,900 individual reefs and 900 islands, covering an area of approximately 344,400 square kilometers. The reef is home to thousands of species of marine life and is visible from outer space, making it one of the most remarkable natural wonders on Earth.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Great_Barrier_Reef",
+    "citationTitle": "Wikipedia: Great Barrier Reef"
+  },
+  {
+    "id": "944b2680-325c-4878-ba0d-eae460d57382",
+    "text": "In which African country would you find Victoria Falls?",
+    "options": [
+      "Kenya and Tanzania",
+      "Zambia and Zimbabwe",
+      "South Africa and Botswana",
+      "Uganda and Rwanda"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "Victoria Falls is located on the Zambezi River between Zambia and Zimbabwe.",
+    "detailedExplanation": "Victoria Falls, known locally as Mosi-oa-Tunya (meaning 'The Smoke that Thunders'), is one of the largest waterfalls in the world. It is located on the Zambezi River at the border between Zambia and Zimbabwe in southern Africa. The falls are approximately 1,708 meters wide and 108 meters high, creating a spectacular curtain of water. David Livingstone, the Scottish explorer, named the falls after Queen Victoria when he became the first European to see them in 1855.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Victoria_Falls",
+    "citationTitle": "Wikipedia: Victoria Falls"
+  },
+  {
+    "id": "9a1ed568-34a0-4879-900a-3fbdcf034cb5",
+    "text": "What natural phenomenon creates the Northern Lights (Aurora Borealis)?",
+    "options": [
+      "Volcanic ash",
+      "Solar particles interacting with Earth's atmosphere",
+      "Reflected moonlight",
+      "Ice crystals in clouds"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "The Northern Lights are created when solar particles collide with gases in Earth's magnetic field.",
+    "detailedExplanation": "The Northern Lights, or Aurora Borealis, are caused by interactions between solar wind particles and Earth's magnetosphere. When charged particles from the sun collide with gases in Earth's atmosphere, they create colorful light displays typically seen in polar regions. The most common colors are green and red, caused by oxygen molecules at different altitudes, while nitrogen can produce blue and purple hues. The phenomenon is most visible during periods of high solar activity.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Aurora",
+    "citationTitle": "Wikipedia: Aurora"
+  },
+  {
+    "id": "9b2978da-84ff-4793-9194-858642e093d3",
+    "text": "The Ring of Fire, known for its volcanic activity and earthquakes, surrounds which ocean?",
+    "options": [
+      "Atlantic Ocean",
+      "Indian Ocean",
+      "Pacific Ocean",
+      "Arctic Ocean"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "The Ring of Fire is a horseshoe-shaped zone around the Pacific Ocean with high volcanic and seismic activity.",
+    "detailedExplanation": "The Ring of Fire, also known as the Circum-Pacific Belt, is a major area in the basin of the Pacific Ocean where many earthquakes and volcanic eruptions occur. This horseshoe-shaped zone stretches approximately 40,000 kilometers and is associated with a nearly continuous series of oceanic trenches, volcanic arcs, and volcanic belts. About 90% of the world's earthquakes and 81% of the world's largest earthquakes occur along the Ring of Fire, making it one of the most geologically active regions on Earth.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Ring_of_Fire",
+    "citationTitle": "Wikipedia: Ring of Fire"
+  },
+  {
+    "id": "1175348b-cd64-4ed9-b84d-71edf8e2c335",
+    "text": "Which waterfall is located on the border between the United States and Canada?",
+    "options": [
+      "Victoria Falls",
+      "Niagara Falls",
+      "Angel Falls",
+      "Iguazu Falls"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "Niagara Falls is situated on the border between New York State and Ontario, Canada.",
+    "detailedExplanation": "Niagara Falls is one of the world's most famous waterfalls, consisting of three waterfalls: Horseshoe Falls, American Falls, and Bridal Veil Falls. Located on the Niagara River, it forms part of the international border between the United States and Canada. The falls are renowned for their beauty and the massive volume of water flowing over them, making them a major tourist attraction and source of hydroelectric power.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Niagara_Falls",
+    "citationTitle": "Wikipedia: Niagara Falls"
+  },
+  {
+    "id": "9aab6735-31b3-4d4b-b8c5-213c5a3b8104",
+    "text": "What is the name of the world's largest coral reef system?",
+    "options": [
+      "Red Sea Coral Reef",
+      "Great Barrier Reef",
+      "Caribbean Reef",
+      "Belize Barrier Reef"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "The Great Barrier Reef off the coast of Australia is the world's largest coral reef system.",
+    "detailedExplanation": "The Great Barrier Reef stretches over 2,300 kilometers along the Queensland coast in northeastern Australia. It is composed of over 2,900 individual reefs and 900 islands, making it the largest coral reef system in the world. The reef is home to an incredible diversity of marine life and is visible from outer space. It was designated a UNESCO World Heritage Site in 1981 due to its outstanding universal value.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Great_Barrier_Reef",
+    "citationTitle": "Wikipedia: Great Barrier Reef"
+  },
+  {
+    "id": "9e79b229-8622-4a25-b590-6fe7d0ecd8f1",
+    "text": "Mount Everest is located on the border between which two countries?",
+    "options": [
+      "India and China",
+      "Nepal and China",
+      "Nepal and India",
+      "Bhutan and China"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "Mount Everest sits on the border between Nepal and China (Tibet).",
+    "detailedExplanation": "Mount Everest, known as Sagarmatha in Nepali and Chomolungma in Tibetan, is the Earth's highest mountain above sea level at 8,848.86 meters. The summit ridge separates Nepal and the Tibet Autonomous Region of China. The mountain attracts climbers from around the world, with the most popular routes being from the Nepal side (South Col route) and the Tibet side (North Col route).",
+    "citationUrl": "https://en.wikipedia.org/wiki/Mount_Everest",
+    "citationTitle": "Wikipedia: Mount Everest"
+  },
+  {
+    "id": "f9f2f131-be14-43bc-8b94-9f0f471bd75a",
+    "text": "Which natural wonder consists of hexagonal basalt columns and is located in Northern Ireland?",
+    "options": [
+      "Giant's Causeway",
+      "Fingal's Cave",
+      "Devil's Postpile",
+      "Staffa Island"
+    ],
+    "correctIndex": 0,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "The Giant's Causeway is famous for its hexagonal basalt columns formed by ancient volcanic activity.",
+    "detailedExplanation": "The Giant's Causeway is located on the northeast coast of Northern Ireland and consists of about 40,000 interlocking basalt columns formed by intense volcanic and geological activity around 50-60 million years ago. The columns are mostly hexagonal in shape and create a natural pathway that appears to lead into the sea. It was declared a UNESCO World Heritage Site in 1986 and is Northern Ireland's most popular tourist attraction.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Giant%27s_Causeway",
+    "citationTitle": "Wikipedia: Giant's Causeway"
+  },
+  {
+    "id": "ccbd7c53-f00f-4586-8fbf-6a94ff07d4b3",
+    "text": "Victoria Falls is located on which African river?",
+    "options": [
+      "Nile River",
+      "Congo River",
+      "Zambezi River",
+      "Niger River"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "Victoria Falls is located on the Zambezi River between Zambia and Zimbabwe.",
+    "detailedExplanation": "Victoria Falls, known locally as Mosi-oa-Tunya ('The Smoke That Thunders'), is one of the largest waterfalls in the world. Located on the Zambezi River at the border between Zambia and Zimbabwe, the falls are 1,708 meters wide and 108 meters high. The waterfall was named after Queen Victoria by Scottish explorer David Livingstone in 1855. The mist from the falls can be seen from up to 50 kilometers away, creating spectacular rainbows.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Victoria_Falls",
+    "citationTitle": "Wikipedia: Victoria Falls"
+  },
+  {
+    "id": "21ff5f9b-8a06-4b45-bcb2-6333a5688de1",
+    "text": "Which mountain range contains the highest peaks in South America?",
+    "options": [
+      "Rocky Mountains",
+      "Andes Mountains",
+      "Appalachian Mountains",
+      "Brazilian Highlands"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "The Andes Mountains run along South America's western coast and contain the continent's highest peaks.",
+    "detailedExplanation": "The Andes is the longest continental mountain range in the world, extending about 7,000 kilometers along South America's western coast through seven countries: Venezuela, Colombia, Ecuador, Peru, Bolivia, Chile, and Argentina. The range contains the highest peak in the Western and Southern Hemispheres, Aconcagua, which rises to 6,961 meters above sea level. The Andes were formed by tectonic plate movements and volcanic activity.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Andes",
+    "citationTitle": "Wikipedia: Andes"
+  },
+  {
+    "id": "2f5d41e8-bf8c-43ec-82ae-845e14e15c35",
+    "text": "In which country would you find the Northern Lights most commonly visible?",
+    "options": [
+      "Canada",
+      "Norway",
+      "Iceland",
+      "All of the above"
+    ],
+    "correctIndex": 3,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "The Northern Lights are commonly visible in all northern countries within the auroral zone, including Canada, Norway, and Iceland.",
+    "detailedExplanation": "The Northern Lights, or Aurora Borealis, are naturally occurring light displays that appear in high-latitude regions around the Arctic Circle. They are commonly visible in several northern countries including Norway, Iceland, Canada, Alaska (USA), Finland, Sweden, and northern parts of Russia. The phenomenon occurs when charged particles from the sun interact with Earth's magnetic field and atmosphere, creating spectacular displays of green, pink, and purple lights dancing across the night sky.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Aurora",
+    "citationTitle": "Wikipedia: Aurora"
+  },
+  {
+    "id": "e5ba04b4-85e9-4b53-9fa6-838096547a8a",
+    "text": "What type of rock formation is the Giant's Causeway in Northern Ireland made of?",
+    "options": [
+      "Limestone",
+      "Sandstone",
+      "Basalt",
+      "Granite"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "The Giant's Causeway is made of basalt columns formed by ancient volcanic activity.",
+    "detailedExplanation": "The Giant's Causeway consists of about 40,000 interlocking basalt columns formed by volcanic activity approximately 50-60 million years ago. When molten basalt lava cooled rapidly, it contracted and cracked in a hexagonal pattern, creating the distinctive stepping-stone appearance. Located on the coast of County Antrim in Northern Ireland, this UNESCO World Heritage Site has inspired numerous legends, including the famous tale of giant Finn McCool building a causeway to Scotland.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Giant%27s_Causeway",
+    "citationTitle": "Wikipedia: Giant's Causeway"
+  },
+  {
+    "id": "53053205-3159-41c5-92d2-a2bd2232d9ca",
+    "text": "Which natural wonder is known as 'The Smoke that Thunders'?",
+    "options": [
+      "Mount Vesuvius",
+      "Victoria Falls",
+      "Old Faithful Geyser",
+      "Mount Etna"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "Victoria Falls is called 'The Smoke that Thunders' due to the massive spray and sound it creates.",
+    "detailedExplanation": "Victoria Falls, located on the border between Zambia and Zimbabwe, is locally known as 'Mosi-oa-Tunya,' which translates to 'The Smoke that Thunders' in the Kololo and Lozi languages. This name perfectly describes the thunderous roar and towering spray clouds created as the Zambezi River plunges 108 meters (354 feet) into a narrow gorge. The falls are approximately 1,708 meters (5,604 feet) wide, making them one of the largest waterfalls in the world by combined width and height.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Victoria_Falls",
+    "citationTitle": "Wikipedia: Victoria Falls"
+  },
+  {
+    "id": "e46ba97a-3868-4d9b-9c12-be20038fa614",
+    "text": "What is the deepest natural point on Earth's surface?",
+    "options": [
+      "Grand Canyon",
+      "Mariana Trench",
+      "Dead Sea",
+      "Lake Baikal"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "The Mariana Trench in the Pacific Ocean is the deepest natural point on Earth, reaching depths of about 11,000 meters below sea level.",
+    "detailedExplanation": "The Mariana Trench, located in the western Pacific Ocean near Guam, contains the deepest known point on Earth's surface called Challenger Deep. This oceanic trench reaches a maximum depth of approximately 11,034 meters (36,200 feet) below sea level. Formed by the subduction of the Pacific Plate beneath the smaller Mariana Plate, this natural wonder represents one of the most extreme environments on our planet, with crushing pressure over 1,000 times greater than at sea level.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Mariana_Trench",
+    "citationTitle": "Wikipedia: Mariana Trench"
+  },
+  {
+    "id": "c95fc980-6c38-492b-8080-64c0f122d309",
+    "text": "Which famous waterfall system is located on the border between the United States and Canada?",
+    "options": [
+      "Victoria Falls",
+      "Niagara Falls",
+      "Angel Falls",
+      "Iguazu Falls"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "Niagara Falls is the famous waterfall system on the US-Canada border.",
+    "detailedExplanation": "Niagara Falls consists of three waterfalls - Horseshoe Falls, American Falls, and Bridal Veil Falls - located on the border between Ontario, Canada and New York, United States. The falls are a major tourist attraction and source of hydroelectric power, with over 3,000 tons of water flowing over the falls every minute during peak daytime tourist hours.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Niagara_Falls",
+    "citationTitle": "Wikipedia: Niagara Falls"
+  },
+  {
+    "id": "d8f6e2b2-c385-425d-9ec9-31c2a6bec84b",
+    "text": "The Great Barrier Reef, the world's largest coral reef system, is located off the coast of which country?",
+    "options": [
+      "Brazil",
+      "Philippines",
+      "Australia",
+      "Indonesia"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "The Great Barrier Reef is located off the northeastern coast of Australia.",
+    "detailedExplanation": "The Great Barrier Reef stretches over 2,300 kilometers along the coast of Queensland, Australia. It is composed of over 2,900 individual reefs and 900 islands, making it the largest coral reef system in the world. The reef is home to thousands of species of marine life and is visible from space, making it one of the most iconic natural wonders on Earth.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Great_Barrier_Reef",
+    "citationTitle": "Wikipedia: Great Barrier Reef"
+  },
+  {
+    "id": "bd6195e8-b089-4157-b256-5b1a5d44a88e",
+    "text": "Mount Everest, the world's highest mountain peak, is located in which mountain range?",
+    "options": [
+      "The Andes",
+      "The Alps",
+      "The Rockies",
+      "The Himalayas"
+    ],
+    "correctIndex": 3,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "Mount Everest is located in the Himalayas mountain range.",
+    "detailedExplanation": "Mount Everest, known as Sagarmatha in Nepali and Chomolungma in Tibetan, stands at 8,848.86 meters (29,031.7 feet) above sea level. It is located in the Mahalangur Himal sub-range of the Himalayas, straddling the border between Nepal and Tibet. The mountain has attracted climbers from around the world since the first successful summit by Edmund Hillary and Tenzing Norgay in 1953.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Mount_Everest",
+    "citationTitle": "Wikipedia: Mount Everest"
+  }
+]

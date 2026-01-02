@@ -1,0 +1,342 @@
+[
+  {
+    "id": "1d61707f-bb46-4947-9035-5f1f68902933",
+    "text": "In which year did the French Revolution begin?",
+    "options": [
+      "1789",
+      "1792",
+      "1786",
+      "1791"
+    ],
+    "correctIndex": 0,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "The French Revolution began in 1789 with the convening of the Estates-General.",
+    "detailedExplanation": "The French Revolution officially began in 1789 when King Louis XVI convened the Estates-General for the first time since 1614. This assembly of representatives from the three estates (clergy, nobility, and commoners) was called to address France's financial crisis, but it quickly escalated into a revolutionary movement that would transform French society and government.",
+    "citationUrl": "https://en.wikipedia.org/wiki/French_Revolution",
+    "citationTitle": "Wikipedia: French Revolution"
+  },
+  {
+    "id": "50927e97-3e68-4182-ab2e-ab5294725629",
+    "text": "What was the name of the famous prison stormed by revolutionaries on July 14, 1789?",
+    "options": [
+      "The Bastille",
+      "The Louvre",
+      "Vincennes",
+      "Conciergerie"
+    ],
+    "correctIndex": 0,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "The Bastille was stormed on July 14, 1789, marking a key symbolic moment of the revolution.",
+    "detailedExplanation": "The storming of the Bastille on July 14, 1789, became one of the most iconic events of the French Revolution. Though the fortress-prison held only seven prisoners at the time, it symbolized royal authority and oppression. The event is still celebrated today as Bastille Day, France's national holiday, commemorating the beginning of the revolution and the fight for liberty.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Storming_of_the_Bastille",
+    "citationTitle": "Wikipedia: Storming of the Bastille"
+  },
+  {
+    "id": "7b352ade-80bf-4057-8dfd-491775b90079",
+    "text": "Which queen was executed during the French Revolution?",
+    "options": [
+      "Marie Antoinette",
+      "Catherine de Medici",
+      "Anne of Austria",
+      "Marie Thérèse"
+    ],
+    "correctIndex": 0,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "Marie Antoinette, wife of Louis XVI, was executed by guillotine in 1793.",
+    "detailedExplanation": "Marie Antoinette, the Austrian-born queen of France and wife of King Louis XVI, became a symbol of royal excess and was widely unpopular among the French people. She was executed by guillotine on October 16, 1793, nine months after her husband. Her alleged quote 'Let them eat cake' (though historically disputed) epitomized the perceived disconnect between the monarchy and the struggling French population.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Marie_Antoinette",
+    "citationTitle": "Wikipedia: Marie Antoinette"
+  },
+  {
+    "id": "2ea3b2cf-5e00-49dc-9498-585b28b4b355",
+    "text": "What was the period of extreme violence during the French Revolution called?",
+    "options": [
+      "The Terror",
+      "The Purge",
+      "The Massacre",
+      "The Bloodbath"
+    ],
+    "correctIndex": 0,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "The Reign of Terror (1793-1794) was the period of state-sanctioned violence and mass executions.",
+    "detailedExplanation": "The Reign of Terror, also known simply as 'The Terror,' lasted from September 1793 to July 1794. During this period, the revolutionary government executed thousands of people deemed enemies of the revolution, including nobles, clergy, and eventually many revolutionaries themselves. The Terror ended with the execution of Robespierre, one of its main architects, in July 1794.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Reign_of_Terror",
+    "citationTitle": "Wikipedia: Reign of Terror"
+  },
+  {
+    "id": "e2b10ef0-77be-4630-a821-17fe32514931",
+    "text": "What was the primary method of execution used during the French Revolution?",
+    "options": [
+      "Guillotine",
+      "Hanging",
+      "Firing squad",
+      "Drowning"
+    ],
+    "correctIndex": 0,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "The guillotine was adopted as the standard method of execution, considered more humane and egalitarian.",
+    "detailedExplanation": "The guillotine became the symbol of revolutionary justice during the French Revolution. Proposed by Dr. Joseph-Ignace Guillotin as a more humane and egalitarian form of execution, it was designed to provide a quick, painless death regardless of social class. Previously, different methods of execution were used for different social ranks, but the guillotine was used for all condemned prisoners, reflecting revolutionary ideals of equality.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Guillotine",
+    "citationTitle": "Wikipedia: Guillotine"
+  },
+  {
+    "id": "f79756e0-c705-4db3-addf-581314d04abf",
+    "text": "Which revolutionary leader was known as 'The Incorruptible'?",
+    "options": [
+      "Maximilien Robespierre",
+      "Georges Danton",
+      "Jean-Paul Marat",
+      "Jacques Hébert"
+    ],
+    "correctIndex": 0,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "Maximilien Robespierre earned this nickname for his moral rigidity and incorruptible reputation.",
+    "detailedExplanation": "Maximilien Robespierre was nicknamed 'L'Incorruptible' (The Incorruptible) due to his reputation for moral virtue, dedication to revolutionary ideals, and resistance to corruption. As a leader of the Jacobins and the Committee of Public Safety, he played a crucial role in the Reign of Terror. However, his rigid ideology and increasing extremism eventually led to his own downfall and execution in 1794.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Maximilien_Robespierre",
+    "citationTitle": "Wikipedia: Maximilien Robespierre"
+  },
+  {
+    "id": "bc22f4bf-b77b-4fd2-92cb-b0be80655778",
+    "text": "What was the slogan of the French Revolution?",
+    "options": [
+      "Liberty, Equality, Fraternity",
+      "Freedom, Justice, Brotherhood",
+      "Liberty, Justice, Unity",
+      "Equality, Freedom, Peace"
+    ],
+    "correctIndex": 0,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "'Liberté, égalité, fraternité' became the motto of the French Revolution and remains France's national motto.",
+    "detailedExplanation": "'Liberté, égalité, fraternité' (Liberty, Equality, Fraternity) emerged as the rallying cry and motto of the French Revolution. These three principles embodied the revolutionary ideals of personal freedom, equal rights before the law, and solidarity among citizens. This motto later became the official motto of the French Republic and remains so today, appearing on government buildings and official documents throughout France.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Liberté,_égalité,_fraternité",
+    "citationTitle": "Wikipedia: Liberté, égalité, fraternité"
+  },
+  {
+    "id": "355f0a0d-f855-4489-be77-4a59755af880",
+    "text": "Which military leader rose to power at the end of the French Revolution?",
+    "options": [
+      "Napoleon Bonaparte",
+      "Joachim Murat",
+      "Michel Ney",
+      "Jean Lannes"
+    ],
+    "correctIndex": 0,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "Napoleon Bonaparte seized power in 1799, effectively ending the revolutionary period.",
+    "detailedExplanation": "Napoleon Bonaparte, a young military general, capitalized on the political instability following the Revolution to seize power in a coup d'état on November 9, 1799 (18 Brumaire in the revolutionary calendar). His rise marked the end of the revolutionary period and the beginning of the Napoleonic era. While he preserved some revolutionary gains like legal equality and merit-based advancement, he also established an authoritarian regime that eventually crowned him Emperor.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Napoleon",
+    "citationTitle": "Wikipedia: Napoleon"
+  },
+  {
+    "id": "7af9a27b-0642-412b-83c7-a686f0983f50",
+    "text": "Which prison fortress was stormed by revolutionaries on July 14, 1789?",
+    "options": [
+      "The Louvre",
+      "The Bastille",
+      "Vincennes",
+      "Conciergerie"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "The Bastille fortress was stormed on July 14, 1789, marking a key moment in the French Revolution.",
+    "detailedExplanation": "The Bastille was a medieval fortress and prison in Paris that had become a symbol of royal oppression. On July 14, 1789, angry Parisians stormed the fortress seeking gunpowder and weapons, and to free political prisoners. Though only seven prisoners were actually held there at the time, the event became a powerful symbol of the people's revolt against tyranny and is commemorated annually as Bastille Day.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Storming_of_the_Bastille",
+    "citationTitle": "Wikipedia: Storming of the Bastille"
+  },
+  {
+    "id": "3c3d034c-a6f6-4f29-aaed-c99a2e6f5d7d",
+    "text": "What was the execution device commonly used during the Reign of Terror?",
+    "options": [
+      "Hanging",
+      "Guillotine",
+      "Firing squad",
+      "Electric chair"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "The guillotine was the primary execution method during the French Revolution, considered more humane and egalitarian.",
+    "detailedExplanation": "The guillotine was adopted as the official method of execution during the French Revolution because it was considered quick, painless, and equal for all classes of society. Previously, different methods of execution were used for different social classes. Named after Dr. Joseph-Ignace Guillotin who proposed its use, the device became synonymous with the Reign of Terror period when thousands were executed, including King Louis XVI and Queen Marie Antoinette.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Guillotine",
+    "citationTitle": "Wikipedia: Guillotine"
+  },
+  {
+    "id": "8de9207c-04f2-4c2b-b89c-ab5999c7bae2",
+    "text": "Who was the Queen of France during the French Revolution?",
+    "options": [
+      "Marie Antoinette",
+      "Catherine de Medici",
+      "Anne of Austria",
+      "Josephine"
+    ],
+    "correctIndex": 0,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "Marie Antoinette was Queen of France and was executed during the revolution in 1793.",
+    "detailedExplanation": "Marie Antoinette was the Austrian-born Queen of France, wife of King Louis XVI. She became a symbol of royal excess and was nicknamed 'l'Autrichienne' (the Austrian) by critics who viewed her as a foreign influence. Despite likely being misattributed to her, she is famously associated with the phrase 'Let them eat cake.' She was tried for treason and executed by guillotine on October 16, 1793, nine months after her husband's execution.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Marie_Antoinette",
+    "citationTitle": "Wikipedia: Marie Antoinette"
+  },
+  {
+    "id": "adee50cd-c066-4720-838b-df315f6188a3",
+    "text": "What document adopted during the revolution declared the rights of citizens?",
+    "options": [
+      "The Tennis Court Oath",
+      "Declaration of the Rights of Man and Citizen",
+      "The Civil Constitution",
+      "The Social Contract"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "The Declaration of the Rights of Man and Citizen was adopted in 1789 and established fundamental human rights.",
+    "detailedExplanation": "The Declaration of the Rights of Man and of the Citizen was adopted by the National Assembly on August 26, 1789. This groundbreaking document established fundamental human and civil rights, including freedom of speech, freedom of religion, and the right to property. It was heavily influenced by Enlightenment philosophy and the American Declaration of Independence, and it became one of the most important documents in the history of human rights, influencing democratic movements worldwide.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Declaration_of_the_Rights_of_Man_and_of_the_Citizen",
+    "citationTitle": "Wikipedia: Declaration of the Rights of Man and of the Citizen"
+  },
+  {
+    "id": "8b1b2849-af2b-448e-a6f6-223ef7bd16ea",
+    "text": "Which radical political group led by Robespierre came to power during the Reign of Terror?",
+    "options": [
+      "Girondins",
+      "Jacobins",
+      "Montagnards",
+      "Feuillants"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "The Jacobins were the radical republican group that dominated during the Reign of Terror from 1793-1794.",
+    "detailedExplanation": "The Jacobins were members of a radical political club that became the most powerful faction during the French Revolution. Led by figures like Maximilien Robespierre, they advocated for republican government, equal rights, and the execution of the king. During the Reign of Terror (1793-1794), the Jacobins controlled the Committee of Public Safety and were responsible for the mass executions of perceived enemies of the revolution. Their extreme measures eventually led to a backlash and Robespierre's own execution.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Jacobin",
+    "citationTitle": "Wikipedia: Jacobin"
+  },
+  {
+    "id": "078a6aff-a3a5-4d9f-9630-b33b54b8a1a3",
+    "text": "What was the name of the third social class in pre-revolutionary France?",
+    "options": [
+      "The Clergy",
+      "The Nobility",
+      "The Third Estate",
+      "The Bourgeoisie"
+    ],
+    "correctIndex": 2,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "The Third Estate comprised about 98% of France's population and included everyone who wasn't clergy or nobility.",
+    "detailedExplanation": "The Third Estate was the largest of the three estates in the Estates-General of pre-revolutionary France, representing everyone who was neither clergy (First Estate) nor nobility (Second Estate). This included peasants, urban workers, and the bourgeoisie (middle class merchants and professionals). Despite making up about 98% of the population and bearing most of the tax burden, the Third Estate had limited political power. Their frustration with this inequality was a major catalyst for the French Revolution, and they eventually formed the National Assembly to create a new constitution.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Estates_of_the_realm#France",
+    "citationTitle": "Wikipedia: Estates of the realm"
+  },
+  {
+    "id": "048c7b60-cbbc-46aa-91ac-fcc50479b0c5",
+    "text": "In what year did the French Revolution begin?",
+    "options": [
+      "1789",
+      "1792",
+      "1785",
+      "1791"
+    ],
+    "correctIndex": 0,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "The French Revolution began in 1789 with the convening of the Estates-General.",
+    "detailedExplanation": "The French Revolution officially began in 1789 when King Louis XVI convened the Estates-General for the first time since 1614. This assembly of representatives from the three estates (clergy, nobility, and commoners) was called to address France's severe financial crisis. The Third Estate's formation of the National Assembly and the Tennis Court Oath in June 1789 marked the true beginning of revolutionary action.",
+    "citationUrl": "https://en.wikipedia.org/wiki/French_Revolution",
+    "citationTitle": "Wikipedia: French Revolution"
+  },
+  {
+    "id": "ac95a841-ec4f-4cdf-ac35-d53bdc1ca58b",
+    "text": "What was the name of the prison stormed by Parisian revolutionaries on July 14, 1789?",
+    "options": [
+      "The Bastille",
+      "The Louvre",
+      "The Conciergerie",
+      "Vincennes"
+    ],
+    "correctIndex": 0,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "The Bastille was stormed on July 14, 1789, marking a key moment in the French Revolution.",
+    "detailedExplanation": "The storming of the Bastille on July 14, 1789, became one of the most iconic events of the French Revolution. The medieval fortress and prison represented royal authority and oppression to the people of Paris. Though it held only seven prisoners at the time, the revolutionaries sought to seize the gunpowder stored there. The event is now celebrated annually as Bastille Day, France's national holiday.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Storming_of_the_Bastille",
+    "citationTitle": "Wikipedia: Storming of the Bastille"
+  },
+  {
+    "id": "10e4bb02-fea3-4183-b431-efbef5bf44d8",
+    "text": "Which French queen was famously (though likely falsely) attributed with saying 'Let them eat cake'?",
+    "options": [
+      "Marie Antoinette",
+      "Catherine de' Medici",
+      "Anne of Austria",
+      "Marie de' Medici"
+    ],
+    "correctIndex": 0,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "Marie Antoinette is famously associated with the phrase 'Let them eat cake,' though historians doubt she actually said it.",
+    "detailedExplanation": "Marie Antoinette, the Austrian-born queen of France and wife of Louis XVI, became a symbol of royal excess during the French Revolution. The phrase 'Let them eat cake' (originally 'Qu'ils mangent de la brioche') was attributed to her as an example of her supposed indifference to the people's suffering. However, historians widely believe this attribution is false, as similar phrases had been used before her time to criticize royal callousness.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Marie_Antoinette",
+    "citationTitle": "Wikipedia: Marie Antoinette"
+  },
+  {
+    "id": "e5406e9c-dff8-4b3e-9a75-8e64bcf49e73",
+    "text": "What was the period called when thousands of people were executed by guillotine during 1793-1794?",
+    "options": [
+      "The Reign of Terror",
+      "The Great Fear",
+      "The Directory",
+      "The Thermidorian Reaction"
+    ],
+    "correctIndex": 0,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "The Reign of Terror (1793-1794) was the period of mass executions during the French Revolution.",
+    "detailedExplanation": "The Reign of Terror, lasting from September 1793 to July 1794, was the most violent phase of the French Revolution. Led primarily by Maximilien Robespierre and the Committee of Public Safety, this period saw approximately 17,000 people executed by guillotine, including King Louis XVI, Marie Antoinette, and eventually Robespierre himself. The Terror was justified as necessary to defend the revolution from internal and external enemies.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Reign_of_Terror",
+    "citationTitle": "Wikipedia: Reign of Terror"
+  },
+  {
+    "id": "d9f3a47f-e658-4a95-bc6b-01874ff1eba9",
+    "text": "Who was the radical revolutionary leader known as 'The Incorruptible' who was eventually executed in 1794?",
+    "options": [
+      "Maximilien Robespierre",
+      "Georges Danton",
+      "Jean-Paul Marat",
+      "Jacques Hébert"
+    ],
+    "correctIndex": 0,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "Maximilien Robespierre was nicknamed 'The Incorruptible' and led the Reign of Terror before his own execution.",
+    "detailedExplanation": "Maximilien Robespierre earned the nickname 'The Incorruptible' due to his moral rigidity and dedication to revolutionary ideals. As a leader of the Jacobins and the Committee of Public Safety, he was instrumental in orchestrating the Reign of Terror. Robespierre believed that virtue and terror were necessary to establish the republic, but his increasingly radical policies eventually turned other revolutionaries against him. He was executed on July 28, 1794, ending the Terror.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Maximilien_Robespierre",
+    "citationTitle": "Wikipedia: Maximilien Robespierre"
+  },
+  {
+    "id": "d6bf6364-d309-4217-b33b-63eb9cd5407b",
+    "text": "What important document declaring the rights of citizens was adopted during the early phase of the French Revolution?",
+    "options": [
+      "Declaration of the Rights of Man and of the Citizen",
+      "The Social Contract",
+      "Civil Constitution of the Clergy",
+      "Constitution of 1791"
+    ],
+    "correctIndex": 0,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "The Declaration of the Rights of Man and of the Citizen was adopted in August 1789 as a fundamental document of human rights.",
+    "detailedExplanation": "The Declaration of the Rights of Man and of the Citizen was adopted by the National Constituent Assembly on August 26, 1789. Inspired by Enlightenment philosophy and the American Declaration of Independence, it established fundamental rights such as liberty, property, security, and resistance to oppression. The document proclaimed that 'men are born and remain free and equal in rights' and became a cornerstone of human rights philosophy, influencing democratic movements worldwide.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Declaration_of_the_Rights_of_Man_and_of_the_Citizen",
+    "citationTitle": "Wikipedia: Declaration of the Rights of Man and of the Citizen"
+  }
+]

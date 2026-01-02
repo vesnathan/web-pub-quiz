@@ -1,0 +1,342 @@
+[
+  {
+    "id": "589908c8-c0c4-4da0-9c6e-c36eaeddcc52",
+    "text": "Which cranial nerve is responsible for controlling the muscles of facial expression?",
+    "options": [
+      "Trigeminal nerve (CN V)",
+      "Facial nerve (CN VII)",
+      "Glossopharyngeal nerve (CN IX)",
+      "Hypoglossal nerve (CN XII)"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "The facial nerve (cranial nerve VII) controls the muscles of facial expression.",
+    "detailedExplanation": "The facial nerve (CN VII) is a mixed cranial nerve that has both motor and sensory functions. Its motor component innervates the muscles of facial expression, including those responsible for smiling, frowning, blinking, and other facial movements. The trigeminal nerve primarily handles sensation and chewing muscles, while the glossopharyngeal and hypoglossal nerves control swallowing and tongue movements respectively.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Facial_nerve",
+    "citationTitle": "Wikipedia: Facial nerve"
+  },
+  {
+    "id": "17c1f8f4-2012-4b60-b53f-1c1a9b42d066",
+    "text": "Which layer of the heart wall contains the cardiac muscle cells?",
+    "options": [
+      "Epicardium",
+      "Myocardium",
+      "Endocardium",
+      "Pericardium"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "The myocardium is the middle layer of the heart wall that contains cardiac muscle cells.",
+    "detailedExplanation": "The heart wall consists of three layers: the epicardium (outer layer), myocardium (middle layer), and endocardium (inner layer). The myocardium is the thickest layer and contains the cardiac muscle cells (cardiomyocytes) responsible for the heart's contractile function. These specialized muscle cells are striated like skeletal muscle but are involuntary and interconnected by intercalated discs, allowing for synchronized contraction.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Myocardium",
+    "citationTitle": "Wikipedia: Myocardium"
+  },
+  {
+    "id": "01baf437-dcbd-4f82-a46d-83804bc7e96c",
+    "text": "Which hormone is primarily responsible for regulating calcium levels in the blood?",
+    "options": [
+      "Calcitonin",
+      "Parathyroid hormone (PTH)",
+      "Aldosterone",
+      "Cortisol"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Parathyroid hormone (PTH) is the primary regulator of blood calcium levels.",
+    "detailedExplanation": "Parathyroid hormone, secreted by the parathyroid glands, is the most important hormone for maintaining calcium homeostasis. When blood calcium levels drop, PTH is released and acts on bones (stimulating calcium release), kidneys (increasing calcium reabsorption and activating vitamin D), and indirectly on the intestines (enhancing calcium absorption). While calcitonin also affects calcium levels by lowering them, PTH is the primary regulator and has a much more significant physiological impact.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Parathyroid_hormone",
+    "citationTitle": "Wikipedia: Parathyroid hormone"
+  },
+  {
+    "id": "7fe1a4d2-dffa-4f78-8081-ca20cd125fb0",
+    "text": "According to the Stefan-Boltzmann law, how does the total energy radiated by a black body change if its temperature doubles?",
+    "options": [
+      "Increases by factor of 2",
+      "Increases by factor of 4",
+      "Increases by factor of 8",
+      "Increases by factor of 16"
+    ],
+    "correctIndex": 3,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "The Stefan-Boltzmann law states power is proportional to T⁴, so doubling temperature increases radiation by 2⁴ = 16 times.",
+    "detailedExplanation": "The Stefan-Boltzmann law describes the total energy radiated per unit surface area of a black body per unit time. The law states that this radiated power is proportional to the fourth power of the absolute temperature (P = σT⁴, where σ is the Stefan-Boltzmann constant). This T⁴ dependence means that small changes in temperature result in dramatic changes in radiated energy. This principle is fundamental to understanding stellar physics, thermal radiation, and climate science.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Stefan%E2%80%93Boltzmann_law",
+    "citationTitle": "Wikipedia: Stefan–Boltzmann law"
+  },
+  {
+    "id": "1d0f00e8-e8f5-4c80-9f19-f58e3a3e718d",
+    "text": "Which plant hormone is responsible for phototropism, the growth of plants toward light sources?",
+    "options": [
+      "Auxin",
+      "Gibberellin",
+      "Cytokinin",
+      "Abscisic acid"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Auxin is the plant hormone that causes cells to elongate on the shaded side of a plant, making it bend toward light.",
+    "detailedExplanation": "Auxin, first discovered in the 1880s by Charles Darwin and his son Francis, is a plant hormone that plays a crucial role in phototropism. When light hits one side of a plant stem, auxin accumulates on the darker side, causing those cells to elongate more than the cells on the light side. This differential growth causes the plant to bend toward the light source. Auxin also regulates other plant processes including apical dominance, root development, and fruit development.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Auxin",
+    "citationTitle": "Wikipedia: Auxin"
+  },
+  {
+    "id": "04e8d353-05df-4461-833b-a38092852023",
+    "text": "Which specialized plant tissue is responsible for transporting sugars and other organic compounds throughout the plant?",
+    "options": [
+      "Xylem",
+      "Phloem",
+      "Cambium",
+      "Collenchyma"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Phloem is the vascular tissue that transports sugars, amino acids, and other organic molecules from leaves to other parts of the plant.",
+    "detailedExplanation": "Phloem is one of the two main vascular tissues in plants, working alongside xylem to form the plant's transport system. Unlike xylem which moves water and minerals upward from roots, phloem transports organic compounds (primarily sucrose) bidirectionally throughout the plant via a process called translocation. Phloem tissue consists of specialized cells including sieve tube elements (in angiosperms) or sieve cells (in gymnosperms), companion cells, phloem parenchyma, and phloem fibers. The movement of materials through phloem follows source-to-sink patterns, where photosynthetic leaves act as sources and growing tissues, roots, or storage organs act as sinks.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Phloem",
+    "citationTitle": "Wikipedia: Phloem"
+  },
+  {
+    "id": "bc194c64-a2e8-4afb-9ef8-5e21515f5856",
+    "text": "Which cranial nerve is responsible for both taste sensation from the anterior two-thirds of the tongue and facial muscle movement?",
+    "options": [
+      "Trigeminal nerve (CN V)",
+      "Facial nerve (CN VII)",
+      "Glossopharyngeal nerve (CN IX)",
+      "Hypoglossal nerve (CN XII)"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "The facial nerve (CN VII) controls facial muscles and carries taste from the anterior two-thirds of the tongue.",
+    "detailedExplanation": "The facial nerve is unique among cranial nerves because it has both motor and sensory functions. Its motor component controls the muscles of facial expression, while its sensory component (chorda tympani branch) carries taste sensation from the anterior two-thirds of the tongue. This dual function makes it particularly vulnerable to conditions like Bell's palsy, which can cause both facial paralysis and loss of taste.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Facial_nerve",
+    "citationTitle": "Wikipedia: Facial nerve"
+  },
+  {
+    "id": "a532aa7a-d542-44f2-8bf5-d3dbf364baed",
+    "text": "What is the name of the functional unit of the kidney responsible for filtering blood and producing urine?",
+    "options": [
+      "Glomerulus",
+      "Nephron",
+      "Bowman's capsule",
+      "Loop of Henle"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "The nephron is the complete functional unit of the kidney, containing all structures needed for filtration and urine formation.",
+    "detailedExplanation": "Each human kidney contains approximately 1-1.5 million nephrons, which are the basic functional units responsible for filtering waste and excess substances from the blood. A nephron consists of several components including the glomerulus, Bowman's capsule, proximal and distal convoluted tubules, and the loop of Henle. Together, these structures filter about 180 liters of blood daily, reabsorbing most of the water and essential nutrients while eliminating waste products.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Nephron",
+    "citationTitle": "Wikipedia: Nephron"
+  },
+  {
+    "id": "0b82758e-cccf-475d-b29e-520f363b6e08",
+    "text": "Which hormone, produced by the posterior pituitary gland, regulates water reabsorption in the kidneys?",
+    "options": [
+      "Aldosterone",
+      "Antidiuretic hormone (ADH)",
+      "Insulin",
+      "Parathyroid hormone"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "ADH (vasopressin) is released by the posterior pituitary and increases water reabsorption in the kidney's collecting ducts.",
+    "detailedExplanation": "Antidiuretic hormone, also known as vasopressin, is synthesized in the hypothalamus and stored in the posterior pituitary gland. When blood osmolality increases or blood volume decreases, ADH is released and travels to the kidneys where it binds to receptors in the collecting duct. This binding triggers the insertion of aquaporin-2 water channels, dramatically increasing water reabsorption and concentrating the urine. Diabetes insipidus results from ADH deficiency or resistance.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Vasopressin",
+    "citationTitle": "Wikipedia: Vasopressin"
+  },
+  {
+    "id": "5fbb035c-d062-4ba3-9d32-c8ca2dc0176f",
+    "text": "In the cardiac conduction system, which structure has the fastest intrinsic firing rate and serves as the heart's natural pacemaker?",
+    "options": [
+      "Atrioventricular node",
+      "Bundle of His",
+      "Purkinje fibers",
+      "Sinoatrial node"
+    ],
+    "correctIndex": 3,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "The sinoatrial (SA) node fires at 60-100 beats per minute, faster than other cardiac conduction structures.",
+    "detailedExplanation": "The sinoatrial node, located in the right atrium near the superior vena cava, contains specialized pacemaker cells that spontaneously depolarize at a rate of 60-100 times per minute. This intrinsic firing rate is faster than other parts of the conduction system: the AV node fires at 40-60 bpm, and the Purkinje fibers at 20-40 bpm. This hierarchy ensures that the SA node normally controls heart rhythm, with other structures serving as backup pacemakers if the SA node fails.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Sinoatrial_node",
+    "citationTitle": "Wikipedia: Sinoatrial node"
+  },
+  {
+    "id": "1566218c-ee15-4371-91db-c80d5ed6225c",
+    "text": "Which cells in the nervous system are responsible for producing myelin in the central nervous system?",
+    "options": [
+      "Schwann cells",
+      "Oligodendrocytes",
+      "Astrocytes",
+      "Microglia"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Oligodendrocytes produce myelin sheaths around axons in the brain and spinal cord (CNS).",
+    "detailedExplanation": "Oligodendrocytes are specialized glial cells found exclusively in the central nervous system that produce myelin, a fatty substance that wraps around axons to increase the speed of electrical signal transmission. Unlike Schwann cells in the peripheral nervous system (which myelinate one axon segment each), a single oligodendrocyte can extend processes to myelinate multiple axon segments simultaneously. Damage to oligodendrocytes, as occurs in multiple sclerosis, leads to demyelination and impaired neural conduction.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Oligodendrocyte",
+    "citationTitle": "Wikipedia: Oligodendrocyte"
+  },
+  {
+    "id": "4298becb-443e-4e5f-8f4e-4c7dbd9d0fa0",
+    "text": "What is the approximate surface area of the human lung's alveolar surface when fully expanded?",
+    "options": [
+      "20 square meters",
+      "50 square meters",
+      "70 square meters",
+      "100 square meters"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "The alveolar surface area is approximately 70 square meters, about the size of a tennis court.",
+    "detailedExplanation": "The human lungs contain approximately 300-500 million alveoli, tiny air sacs where gas exchange occurs. When fully expanded, these alveoli provide a total surface area of roughly 70 square meters (about 750 square feet), which is comparable to the size of a tennis court. This enormous surface area is packed into the relatively small space of the thoracic cavity through the intricate branching structure of the respiratory tree and the microscopic size of individual alveoli (about 0.2-0.3 mm in diameter).",
+    "citationUrl": "https://en.wikipedia.org/wiki/Pulmonary_alveolus",
+    "citationTitle": "Wikipedia: Pulmonary alveolus"
+  },
+  {
+    "id": "ea5f1f96-3367-4954-9b7b-8add9713ba57",
+    "text": "Which phase of gastric secretion is triggered by the sight, smell, or thought of food before it enters the stomach?",
+    "options": [
+      "Cephalic phase",
+      "Gastric phase",
+      "Intestinal phase",
+      "Hepatic phase"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "The cephalic phase is the initial phase of gastric secretion triggered by sensory input before food reaches the stomach.",
+    "detailedExplanation": "The cephalic phase of gastric secretion is initiated by sensory stimuli such as the sight, smell, taste, or even thought of food. This phase is mediated by the vagus nerve (parasympathetic nervous system) and can account for up to 30% of total gastric acid secretion. The vagus nerve stimulates gastric acid production both directly (by stimulating parietal cells) and indirectly (by stimulating gastrin release from G cells). This preparatory response helps optimize digestion before food actually enters the stomach.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Gastric_acid",
+    "citationTitle": "Wikipedia: Gastric acid"
+  },
+  {
+    "id": "6ec263d3-98dd-4c55-8725-dd8a16e5e47b",
+    "text": "In bone physiology, which cells are responsible for breaking down and resorbing bone tissue?",
+    "options": [
+      "Osteoblasts",
+      "Osteocytes",
+      "Osteoclasts",
+      "Chondroblasts"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Osteoclasts are multinucleated cells that break down bone tissue through the process of bone resorption.",
+    "detailedExplanation": "Osteoclasts are large, multinucleated cells derived from hematopoietic stem cells that specialize in bone resorption. They attach to bone surfaces and create an acidic microenvironment that dissolves the mineral matrix, while releasing enzymes like cathepsin K that break down the organic collagen matrix. This process is essential for bone remodeling, calcium homeostasis, and repair of microdamage. Osteoclast activity is regulated by various factors including parathyroid hormone, calcitonin, and the RANK/RANKL/OPG signaling pathway.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Osteoclast",
+    "citationTitle": "Wikipedia: Osteoclast"
+  },
+  {
+    "id": "5b94d26f-55c4-47af-b09b-b934df9d076c",
+    "text": "Which type of muscle fiber has the highest concentration of mitochondria and is most resistant to fatigue?",
+    "options": [
+      "Type I (slow-twitch)",
+      "Type IIa (fast-twitch oxidative)",
+      "Type IIx (fast-twitch glycolytic)",
+      "Type III (super-fast twitch)"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Type I slow-twitch muscle fibers contain the most mitochondria and rely on oxidative metabolism, making them highly fatigue-resistant.",
+    "detailedExplanation": "Type I muscle fibers, also known as slow-twitch fibers, are characterized by their high mitochondrial density, extensive capillary networks, and high myoglobin content. These adaptations allow them to efficiently use oxygen for aerobic metabolism, producing ATP through oxidative phosphorylation rather than glycolysis. This makes them ideal for endurance activities and highly resistant to fatigue compared to the faster-contracting but less efficient Type II fibers.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Skeletal_muscle",
+    "citationTitle": "Wikipedia: Skeletal muscle"
+  },
+  {
+    "id": "625217a7-ec99-4044-b4d7-6e3b535f80cc",
+    "text": "The Bundle of His is a crucial component of which body system?",
+    "options": [
+      "Nervous system",
+      "Cardiovascular system",
+      "Respiratory system",
+      "Lymphatic system"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "The Bundle of His is part of the heart's electrical conduction system, transmitting electrical impulses from the AV node to the ventricles.",
+    "detailedExplanation": "The Bundle of His, named after Swiss cardiologist Wilhelm His Jr., is a collection of specialized cardiac muscle fibers that forms part of the heart's electrical conduction system. It receives electrical impulses from the atrioventricular (AV) node and transmits them through the interventricular septum before dividing into the left and right bundle branches. This system ensures coordinated contraction of the ventricles, making it essential for proper cardiac function and rhythm maintenance.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Bundle_of_His",
+    "citationTitle": "Wikipedia: Bundle of His"
+  },
+  {
+    "id": "fb91253d-6698-49b3-b904-48cedce384b6",
+    "text": "Which hormone is primarily responsible for stimulating the release of aldosterone from the adrenal cortex?",
+    "options": [
+      "ACTH (Adrenocorticotropic hormone)",
+      "Angiotensin II",
+      "ADH (Antidiuretic hormone)",
+      "Cortisol"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Angiotensin II is the primary stimulus for aldosterone release as part of the renin-angiotensin-aldosterone system regulating blood pressure and electrolyte balance.",
+    "detailedExplanation": "Angiotensin II is the most potent stimulus for aldosterone secretion from the zona glomerulosa of the adrenal cortex. As part of the renin-angiotensin-aldosterone system (RAAS), angiotensin II is formed when angiotensin I is converted by angiotensin-converting enzyme (ACE). This system responds to decreased blood pressure, reduced blood volume, or low sodium levels. While ACTH can stimulate some aldosterone release, its primary target is cortisol production, and angiotensin II provides the predominant regulatory control over mineralocorticoid secretion.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Aldosterone",
+    "citationTitle": "Wikipedia: Aldosterone"
+  },
+  {
+    "id": "56a8b5cb-ccc7-43ae-b44b-a3913110d7ca",
+    "text": "The Golgi tendon organs primarily detect which type of sensory information?",
+    "options": [
+      "Muscle length and stretch",
+      "Muscle tension and force",
+      "Joint position and movement",
+      "Vibration and pressure"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Golgi tendon organs are proprioceptors that specifically detect muscle tension and force generation, providing feedback about muscle contraction strength.",
+    "detailedExplanation": "Golgi tendon organs (GTOs) are specialized mechanoreceptors located at the junction between muscles and tendons. Unlike muscle spindles which detect muscle length changes and stretch, GTOs are specifically designed to monitor muscle tension and the force generated during muscle contraction. They contain sensory nerve endings intertwined with collagen fibers that become compressed when tension increases. This information is crucial for motor control, helping prevent excessive force that could damage muscles or tendons, and contributing to the inverse stretch reflex that causes muscle relaxation when tension becomes too high.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Golgi_tendon_organ",
+    "citationTitle": "Wikipedia: Golgi tendon organ"
+  },
+  {
+    "id": "0140a4b8-668d-48b3-a5ee-49a366495ad9",
+    "text": "In the nephron, which structure is specifically responsible for the fine-tuning of sodium and potassium balance?",
+    "options": [
+      "Bowman's capsule",
+      "Proximal convoluted tubule",
+      "Loop of Henle",
+      "Collecting duct"
+    ],
+    "correctIndex": 3,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "The collecting duct contains principal cells and intercalated cells that fine-tune sodium and potassium balance under the control of aldosterone and other hormones.",
+    "detailedExplanation": "The collecting duct is the final site for fine-tuning electrolyte balance in the nephron. It contains two main cell types: principal cells, which respond to aldosterone by increasing sodium reabsorption and potassium secretion through epithelial sodium channels (ENaC) and potassium channels, and intercalated cells, which regulate acid-base balance. While other parts of the nephron handle bulk reabsorption and concentration, the collecting duct provides the precise hormonal control needed to maintain homeostasis of sodium, potassium, and water balance according to the body's immediate needs.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Collecting_duct_system",
+    "citationTitle": "Wikipedia: Collecting duct system"
+  },
+  {
+    "id": "842596d4-8a72-438e-bb8c-b695ed6c8fd9",
+    "text": "Which layer of the eye contains the photoreceptor cells responsible for vision?",
+    "options": [
+      "Sclera",
+      "Choroid",
+      "Neural retina",
+      "Retinal pigment epithelium"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "The neural retina contains the photoreceptor cells (rods and cones) that convert light into electrical signals for vision.",
+    "detailedExplanation": "The neural retina is the innermost layer of the eye and contains the actual photoreceptor cells - rods and cones - that are responsible for converting light photons into electrical signals through the process of phototransduction. The neural retina also contains multiple layers of neurons including bipolar cells, ganglion cells, and various interneurons that process visual information before sending it to the brain via the optic nerve. While the retinal pigment epithelium supports the photoreceptors by recycling visual pigments and phagocytosing shed outer segments, the photoreceptors themselves reside in the neural retina.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Retina",
+    "citationTitle": "Wikipedia: Retina"
+  }
+]

@@ -1,0 +1,342 @@
+[
+  {
+    "id": "7d84abd1-6ff4-49a5-84ce-a92d4cc20c1c",
+    "text": "Which current is responsible for creating the Sargasso Sea, a region of the Atlantic Ocean known for its floating seaweed?",
+    "options": [
+      "Gulf Stream",
+      "North Atlantic Gyre",
+      "Canary Current",
+      "Labrador Current"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "The North Atlantic Gyre's circular pattern creates the calm center where sargassum seaweed accumulates.",
+    "detailedExplanation": "The Sargasso Sea is formed by the circular motion of the North Atlantic Gyre, which includes the Gulf Stream, North Atlantic Current, Canary Current, and North Atlantic Equatorial Current. This gyre creates a relatively calm area in the center where floating sargassum seaweed accumulates, giving the sea its distinctive character. The clockwise rotation of these currents effectively traps the seaweed in this region of the Atlantic Ocean.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Sargasso_Sea",
+    "citationTitle": "Wikipedia: Sargasso Sea"
+  },
+  {
+    "id": "73d32119-e98f-4559-9ce9-9ad879e39f62",
+    "text": "The Cromwell Current, also known as the Pacific Equatorial Undercurrent, flows in which direction relative to the surface currents above it?",
+    "options": [
+      "Same direction but deeper",
+      "Opposite direction",
+      "Perpendicular to surface currents",
+      "Vertically upward only"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "The Cromwell Current flows eastward beneath the westward-flowing surface equatorial currents.",
+    "detailedExplanation": "The Cromwell Current is a fascinating example of subsurface ocean circulation that flows in the opposite direction to surface currents. While the Pacific's surface equatorial currents flow westward due to trade winds, the Cromwell Current flows eastward at depths of 100-400 meters along the equator. This countercurrent was discovered in 1952 and plays a crucial role in nutrient distribution and marine ecosystems in the equatorial Pacific.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Equatorial_Undercurrent",
+    "citationTitle": "Wikipedia: Equatorial Undercurrent"
+  },
+  {
+    "id": "093f0e70-a859-4935-92e0-2f12fad91ee5",
+    "text": "Which sea has the highest salinity levels in the world, with salt content reaching up to 35%?",
+    "options": [
+      "Dead Sea",
+      "Red Sea",
+      "Great Salt Lake",
+      "Lake Assal"
+    ],
+    "correctIndex": 0,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "The Dead Sea has salinity levels around 34-35%, making it nearly 10 times saltier than ocean water.",
+    "detailedExplanation": "The Dead Sea, located between Jordan and Israel, has the highest salinity of any major body of water on Earth. Its extreme salinity of approximately 34-35% is due to its position as a terminal lake with no outlet, high evaporation rates in the desert climate, and continuous mineral input from surrounding springs. This extreme salinity makes it impossible for fish and most marine life to survive, hence the name 'Dead Sea,' though some bacteria and microbial fungi can still exist in these conditions.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Dead_Sea",
+    "citationTitle": "Wikipedia: Dead Sea"
+  },
+  {
+    "id": "6fb6f0f2-a23d-40dd-9c3e-d1b4b01271d1",
+    "text": "The Agulhas Current, one of the fastest warm ocean currents, flows along the coast of which continent before retroflecting back into the Indian Ocean?",
+    "options": [
+      "Australia",
+      "South America",
+      "Africa",
+      "Antarctica"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "The Agulhas Current flows southward along Africa's east coast before looping back in the Agulhas Retroflection.",
+    "detailedExplanation": "The Agulhas Current is a powerful warm current that flows southward along the eastern coast of South Africa, reaching speeds of up to 2.5 meters per second. At the southern tip of Africa, it encounters the cold Benguela Current and performs what's called the Agulhas Retroflection, where most of the current loops back eastward into the Indian Ocean. However, some water 'leaks' into the Atlantic Ocean through Agulhas Rings, playing an important role in global ocean circulation and climate patterns.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Agulhas_Current",
+    "citationTitle": "Wikipedia: Agulhas Current"
+  },
+  {
+    "id": "41eb4541-3298-4698-aaeb-79e8676a4ea4",
+    "text": "Which deep water formation process is primarily responsible for driving the global thermohaline circulation?",
+    "options": [
+      "Upwelling near the equator",
+      "Evaporation in tropical seas",
+      "Cooling and sinking in polar regions",
+      "Tidal forces from the moon"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "Cold, dense water formation in polar regions, especially the North Atlantic and Antarctica, drives global deep ocean circulation.",
+    "detailedExplanation": "Thermohaline circulation, often called the global conveyor belt, is primarily driven by the formation of cold, dense water masses in polar regions. In the North Atlantic, particularly around Greenland and the Nordic Seas, surface water cools and becomes denser, causing it to sink and form North Atlantic Deep Water. Similarly, around Antarctica, extremely cold and salty water forms Antarctic Bottom Water. These dense water masses sink and flow along the ocean floor, driving the deep circulation that connects all the world's oceans and plays a crucial role in global climate regulation.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Thermohaline_circulation",
+    "citationTitle": "Wikipedia: Thermohaline circulation"
+  },
+  {
+    "id": "f046f01a-cd9e-4b1f-8996-3369535c00b6",
+    "text": "The Weddell Sea is notable for having the world's clearest seawater. What measurement describes this exceptional clarity?",
+    "options": [
+      "Visibility extends to 80 meters depth",
+      "Light penetrates 200 meters",
+      "Secchi disk visible at 79 meters",
+      "Transparency equals distilled water"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "A Secchi disk was visible at 79 meters depth in the Weddell Sea, indicating exceptional water clarity.",
+    "detailedExplanation": "The Weddell Sea in Antarctica holds the record for the clearest natural waters on Earth. Scientists measure water clarity using a Secchi disk - a circular disk that's lowered into the water until it disappears from view. In the Weddell Sea, this disk remained visible at an extraordinary depth of 79 meters, nearly matching the clarity of distilled water. This exceptional transparency is due to the extremely low levels of particles, plankton, and dissolved organic matter in these frigid Antarctic waters.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Weddell_Sea",
+    "citationTitle": "Wikipedia: Weddell Sea"
+  },
+  {
+    "id": "bf0422f7-ddd4-4e8c-982b-c326e01d9942",
+    "text": "Which current phenomenon in the Indian Ocean completely reverses direction seasonally due to monsoon winds?",
+    "options": [
+      "Agulhas Current",
+      "Somali Current",
+      "Indonesian Throughflow",
+      "Leeuwin Current"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "The Somali Current changes from southward to northward flow between monsoon seasons.",
+    "detailedExplanation": "The Somali Current is unique among major ocean currents because it completely reverses direction twice a year in response to monsoon wind patterns. During the northeast monsoon (winter), it flows southward along the East African coast. However, during the southwest monsoon (summer), strong winds cause it to reverse and flow northward with considerable strength, reaching speeds of up to 3 meters per second. This dramatic seasonal reversal is one of the most pronounced examples of how atmospheric patterns directly control ocean currents.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Somali_Current",
+    "citationTitle": "Wikipedia: Somali Current"
+  },
+  {
+    "id": "bcc1d979-9629-4535-89bc-3b6738277a62",
+    "text": "The Denmark Strait overflow, crucial for Atlantic deep water formation, flows between which two landmasses?",
+    "options": [
+      "Norway and Iceland",
+      "Greenland and Iceland",
+      "Greenland and Norway",
+      "Iceland and Faroe Islands"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "The Denmark Strait lies between Greenland and Iceland, where cold Arctic water spills into the North Atlantic.",
+    "detailedExplanation": "The Denmark Strait, located between Greenland and Iceland, is the site of one of the most important deep water formation processes in the world's oceans. Cold, dense Arctic water flows over an underwater sill in the strait and cascades down into the depths of the North Atlantic, forming what becomes North Atlantic Deep Water. This overflow carries approximately 3 million cubic meters of water per second and is essential for maintaining the Atlantic Meridional Overturning Circulation, which has profound effects on global climate patterns.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Denmark_Strait",
+    "citationTitle": "Wikipedia: Denmark Strait"
+  },
+  {
+    "id": "41c53bdb-b30d-4ffe-8a26-0b127557947a",
+    "text": "Which ocean current is responsible for the phenomenon known as 'La Niña' when it strengthens significantly?",
+    "options": [
+      "Humboldt Current",
+      "Kuroshio Current",
+      "Gulf Stream",
+      "Agulhas Current"
+    ],
+    "correctIndex": 0,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "The Humboldt Current's strengthening contributes to La Niña conditions by bringing cold water to the surface along the South American coast.",
+    "detailedExplanation": "The Humboldt Current, also known as the Peru Current, flows northward along the western coast of South America. When this cold water current strengthens, it enhances the upwelling of cold, nutrient-rich water, which contributes to La Niña conditions in the Pacific Ocean. This strengthening creates a greater temperature differential between the eastern and western Pacific, intensifying trade winds and oceanic circulation patterns.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Humboldt_Current",
+    "citationTitle": "Wikipedia: Humboldt Current"
+  },
+  {
+    "id": "3795cd86-03a1-474b-ae1d-212d0539dd81",
+    "text": "The Sargasso Sea is unique among world seas because it:",
+    "options": [
+      "Has no land boundaries",
+      "Contains the deepest ocean trench",
+      "Is completely frozen year-round",
+      "Has the highest salinity levels"
+    ],
+    "correctIndex": 0,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "The Sargasso Sea is the only sea in the world defined entirely by ocean currents rather than land masses.",
+    "detailedExplanation": "The Sargasso Sea, located in the North Atlantic Ocean, is bounded entirely by ocean currents: the Gulf Stream to the west, the North Atlantic Current to the north, the Canary Current to the east, and the Atlantic North Equatorial Current to the south. This creates a relatively still body of water in the center of the North Atlantic Gyre, characterized by its floating sargassum seaweed and serving as a breeding ground for American and European eels.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Sargasso_Sea",
+    "citationTitle": "Wikipedia: Sargasso Sea"
+  },
+  {
+    "id": "792cb28a-15d3-4d16-9698-bed462d2f02b",
+    "text": "Which thermohaline circulation phenomenon could potentially shut down due to climate change, drastically cooling Northern Europe?",
+    "options": [
+      "Antarctic Circumpolar Current",
+      "Atlantic Meridional Overturning Circulation",
+      "Pacific Decadal Oscillation",
+      "Indian Ocean Dipole"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "The AMOC drives warm water northward and could weaken or shut down due to freshwater influx from melting ice, potentially cooling Europe significantly.",
+    "detailedExplanation": "The Atlantic Meridional Overturning Circulation (AMOC) is a large-scale ocean circulation pattern that transports warm, salty water northward in the upper layers of the Atlantic and cold water southward in the deep Atlantic. This circulation is driven by density differences caused by temperature and salinity variations. Climate change threatens this system through increased freshwater input from melting Greenland ice sheet and increased precipitation, which could reduce the water density and weaken or shut down the circulation, potentially leading to significant cooling in Northern Europe despite global warming.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Atlantic_meridional_overturning_circulation",
+    "citationTitle": "Wikipedia: Atlantic Meridional Overturning Circulation"
+  },
+  {
+    "id": "19331376-1c49-4df7-8763-f8756567e89d",
+    "text": "The Mozambique Channel is notorious for which type of oceanic phenomenon that poses significant threats to shipping?",
+    "options": [
+      "Tsunami generation",
+      "Anticyclonic eddies",
+      "Tidal bores",
+      "Methane seeps"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "The Mozambique Channel regularly produces large anticyclonic eddies that can be over 200km in diameter and create dangerous conditions for ships.",
+    "detailedExplanation": "The Mozambique Channel, between Madagascar and the African mainland, is known for generating some of the largest and most powerful anticyclonic eddies in the world's oceans. These massive rotating water masses, often called 'Mozambique Channel rings,' can exceed 200 kilometers in diameter and extend to depths of over 1000 meters. They form approximately every 8-9 weeks and travel southward, creating unpredictable currents, rough seas, and navigation hazards for shipping. These eddies play a crucial role in the regional ocean circulation and marine ecosystem.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Mozambique_Channel",
+    "citationTitle": "Wikipedia: Mozambique Channel"
+  },
+  {
+    "id": "8ea80ff3-e487-445b-aae0-c2f63efce8bc",
+    "text": "Which sea has the highest recorded surface water temperature, regularly exceeding 35°C (95°F)?",
+    "options": [
+      "Red Sea",
+      "Persian Gulf",
+      "Sea of Cortez",
+      "Timor Sea"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "The Persian Gulf's shallow depth, enclosed nature, and desert climate create the world's warmest sea surface temperatures.",
+    "detailedExplanation": "The Persian Gulf experiences the highest sea surface temperatures in the world, regularly exceeding 35°C (95°F) in summer months and occasionally reaching over 36°C (97°F). This extreme heating occurs due to the combination of its shallow average depth (about 50 meters), semi-enclosed geography that limits water exchange, intense solar radiation, and the surrounding hot, arid desert climate. The high temperatures, combined with high evaporation rates, also make it one of the most saline water bodies in the world, creating unique marine ecosystems adapted to these extreme conditions.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Persian_Gulf",
+    "citationTitle": "Wikipedia: Persian Gulf"
+  },
+  {
+    "id": "bd8ab9c6-84a8-4f7d-b469-064ed51e59a1",
+    "text": "The Benguela Current is primarily responsible for creating which major geographical feature along Africa's coast?",
+    "options": [
+      "The Nile Delta",
+      "The Namib Desert",
+      "The Congo Basin",
+      "The Ethiopian Highlands"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "The cold Benguela Current creates offshore upwelling that contributes to the arid conditions forming the Namib Desert along Africa's west coast.",
+    "detailedExplanation": "The Benguela Current is a cold ocean current that flows northward along Africa's southwestern coast. This current brings cold water from the Southern Ocean, creating upwelling conditions that bring cold, nutrient-rich water to the surface. The cold water temperatures create a temperature inversion in the atmosphere above, preventing the formation of rain clouds and contributing to the extreme aridity of the Namib Desert. This same upwelling effect creates one of the world's most productive marine ecosystems while simultaneously maintaining one of the world's oldest and driest deserts just inland.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Benguela_Current",
+    "citationTitle": "Wikipedia: Benguela Current"
+  },
+  {
+    "id": "6d7f83e2-0fc8-462a-b661-abdbd6280b7a",
+    "text": "Which deep ocean current is formed by the mixing of North Atlantic Deep Water and Antarctic Bottom Water?",
+    "options": [
+      "Pacific Deep Water",
+      "Indian Deep Water",
+      "Arctic Deep Water",
+      "Circumpolar Deep Water"
+    ],
+    "correctIndex": 0,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "Pacific Deep Water forms when North Atlantic Deep Water mixes with Antarctic Bottom Water as it circulates through the deep Pacific Ocean.",
+    "detailedExplanation": "Pacific Deep Water is a deep ocean water mass that forms through the mixing of North Atlantic Deep Water and Antarctic Bottom Water within the Pacific Ocean basin. This water mass represents the end point of the global thermohaline circulation, where water that originally sank in the North Atlantic and around Antarctica eventually converges and mixes in the deep Pacific. Pacific Deep Water is characterized by intermediate properties between its two source waters and plays a crucial role in the global overturning circulation before eventually upwelling in various regions of the Pacific and Indian Oceans.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Pacific_Deep_Water",
+    "citationTitle": "Wikipedia: Pacific Deep Water"
+  },
+  {
+    "id": "32daa46d-5d75-4ae4-a434-4c94ff29c7d8",
+    "text": "The Weddell Gyre is crucial for global ocean circulation because it:",
+    "options": [
+      "Generates the strongest surface currents",
+      "Produces the densest water masses",
+      "Creates the largest upwelling zones",
+      "Forms the warmest deep water"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "The Weddell Gyre produces Antarctic Bottom Water, the densest water mass in the global ocean, which drives deep ocean circulation worldwide.",
+    "detailedExplanation": "The Weddell Gyre, located in the Southern Ocean near Antarctica, is a massive clockwise circulation system that plays a fundamental role in global ocean circulation. Within this gyre, particularly in the southern and western regions, surface water becomes extremely cold and salty due to sea ice formation and brine rejection. This creates Antarctic Bottom Water, the densest water mass in the world's oceans. This dense water sinks to the ocean floor and spreads northward into all major ocean basins, driving the bottom layer of the global thermohaline circulation and influencing deep water properties worldwide.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Weddell_Gyre",
+    "citationTitle": "Wikipedia: Weddell Gyre"
+  },
+  {
+    "id": "465ab769-5ad9-4c89-b1ea-7398a79ab323",
+    "text": "The Agulhas Current, one of the fastest-flowing ocean currents in the world, flows along which continent's coast and is notorious for creating dangerous maritime conditions?",
+    "options": [
+      "Eastern coast of South Africa",
+      "Western coast of Australia",
+      "Eastern coast of Brazil",
+      "Western coast of Morocco"
+    ],
+    "correctIndex": 0,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "The Agulhas Current flows along South Africa's east coast at speeds up to 7 km/h, creating treacherous 'rogue waves' when it meets opposing winds.",
+    "detailedExplanation": "The Agulhas Current is a warm, fast-flowing ocean current that runs along the east coast of South Africa. It flows southward at remarkable speeds of up to 7 kilometers per hour, making it one of the fastest ocean currents globally. The current is particularly notorious among mariners for creating extremely dangerous maritime conditions, especially when strong southwesterly winds oppose the current's flow, generating massive 'rogue waves' that can exceed 20 meters in height. These conditions have contributed to numerous shipwrecks along South Africa's coast, earning this area the nickname 'Cape of Storms.'",
+    "citationUrl": "https://en.wikipedia.org/wiki/Agulhas_Current",
+    "citationTitle": "Wikipedia: Agulhas Current"
+  },
+  {
+    "id": "8f375287-1e11-4621-bd56-d08cabd618a1",
+    "text": "Which sea, despite being called a 'sea,' is actually the world's largest lake by surface area and is located between Europe and Asia?",
+    "options": [
+      "Aral Sea",
+      "Dead Sea",
+      "Caspian Sea",
+      "Salton Sea"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "The Caspian Sea covers 371,000 square kilometers and is technically a lake as it's completely enclosed by land, despite its name.",
+    "detailedExplanation": "The Caspian Sea, despite its name, is actually the world's largest lake by both surface area and volume. Covering approximately 371,000 square kilometers (143,200 square miles), it's technically classified as a lake because it's completely enclosed by land with no natural outlet to the ocean. Located between Europe and Asia, it borders five countries: Russia, Kazakhstan, Turkmenistan, Iran, and Azerbaijan. The Caspian Sea is fed primarily by the Volga River and contains brackish water with a salinity about one-third that of typical seawater. Its vast size and sea-like characteristics, including substantial depths reaching over 1,000 meters, explain why it's called a 'sea' rather than a lake in common usage.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Caspian_Sea",
+    "citationTitle": "Wikipedia: Caspian Sea"
+  },
+  {
+    "id": "f70b14ad-576a-44c3-a1f1-2fa30fd54aee",
+    "text": "The Antarctic Circumpolar Current, the world's strongest ocean current, connects which three major oceans as it flows continuously around Antarctica?",
+    "options": [
+      "Atlantic, Pacific, and Indian Oceans",
+      "Atlantic, Arctic, and Pacific Oceans",
+      "Pacific, Indian, and Southern Oceans",
+      "Atlantic, Indian, and Arctic Oceans"
+    ],
+    "correctIndex": 0,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "The Antarctic Circumpolar Current is the only current that flows completely around the globe, connecting the Atlantic, Pacific, and Indian Oceans in the Southern Ocean.",
+    "detailedExplanation": "The Antarctic Circumpolar Current (ACC) is the world's strongest ocean current and the only current that flows completely around the globe uninterrupted by landmasses. It flows from west to east around Antarctica, connecting the Atlantic, Pacific, and Indian Oceans in what is collectively known as the Southern Ocean. The ACC transports approximately 134 million cubic meters of water per second, making it by far the largest current by volume transport. This massive current plays a crucial role in global ocean circulation and climate regulation, as it effectively isolates Antarctica from warmer waters to the north, helping maintain the continent's ice sheets. The current extends from the surface to the ocean floor and spans roughly 2,000 kilometers in width.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Antarctic_Circumpolar_Current",
+    "citationTitle": "Wikipedia: Antarctic Circumpolar Current"
+  },
+  {
+    "id": "843d1408-db0e-47fa-9044-72438f936b69",
+    "text": "The thermohaline circulation, often called the 'global conveyor belt,' is primarily driven by differences in water density caused by variations in which two factors?",
+    "options": [
+      "Temperature and pressure",
+      "Temperature and salinity",
+      "Salinity and oxygen content",
+      "Pressure and wind patterns"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "Thermohaline circulation is driven by temperature (thermo) and salinity (haline) differences, which create density variations that drive deep ocean currents.",
+    "detailedExplanation": "Thermohaline circulation, nicknamed the 'global conveyor belt,' is a massive system of deep ocean currents driven primarily by differences in water density, which is determined by temperature and salinity variations. The term itself comes from 'thermo' (temperature) and 'haline' (salinity). Cold, salty water is denser and sinks, while warm, less salty water is lighter and rises. This process begins in polar regions where surface water becomes very cold and salty (due to ice formation that leaves salt behind), causing it to sink and flow along the ocean floor toward the equator. Meanwhile, warmer surface currents flow toward the poles to replace the sinking water. This circulation pattern takes approximately 1,000-1,600 years to complete one full cycle and plays a critical role in distributing heat around the planet, significantly influencing global climate patterns.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Thermohaline_circulation",
+    "citationTitle": "Wikipedia: Thermohaline circulation"
+  }
+]

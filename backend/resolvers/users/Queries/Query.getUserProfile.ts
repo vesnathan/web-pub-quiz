@@ -45,10 +45,19 @@ export function response(ctx: Context<Args>) {
     return null;
   }
 
+  // Calculate total skill points from badges
+  const badges = ctx.result.badges || [];
+  let totalSkillPoints = 0;
+  for (const badge of badges) {
+    totalSkillPoints += badge.skillPoints || 0;
+  }
+
   // Return only public fields
   return {
     id: ctx.result.id,
     displayName: ctx.result.displayName,
     stats: ctx.result.stats,
+    badges: badges,
+    totalSkillPoints: totalSkillPoints,
   };
 }

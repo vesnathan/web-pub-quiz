@@ -1,0 +1,342 @@
+[
+  {
+    "id": "afd90bc8-5a88-4e84-8708-7fd10b3452db",
+    "text": "What type of paper-like material did ancient Egyptians use for writing?",
+    "options": [
+      "Papyrus",
+      "Parchment",
+      "Bamboo",
+      "Clay tablets"
+    ],
+    "correctIndex": 0,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "Papyrus was made from the papyrus plant that grew along the Nile River.",
+    "detailedExplanation": "Ancient Egyptians invented papyrus around 3000 BCE by weaving together strips of the papyrus plant that grew abundantly along the Nile River. This revolutionary writing material was lighter and more portable than stone tablets and became so valuable that Egypt maintained a virtual monopoly on its production for centuries, exporting it throughout the Mediterranean world.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Papyrus",
+    "citationTitle": "Wikipedia: Papyrus"
+  },
+  {
+    "id": "3cd15167-d4d6-4ff6-bbbb-79f1e8665e7b",
+    "text": "Which famous queen of Egypt was known for her relationships with Julius Caesar and Mark Antony?",
+    "options": [
+      "Nefertiti",
+      "Cleopatra VII",
+      "Hatshepsut",
+      "Ankhesenamun"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "Cleopatra VII was the last pharaoh of Egypt and famously allied with these Roman leaders.",
+    "detailedExplanation": "Cleopatra VII, who ruled from 69-30 BCE, was the last active pharaoh of ancient Egypt. She formed strategic political and romantic alliances with Julius Caesar and later Mark Antony in attempts to preserve Egypt's independence from Roman conquest. Her dramatic life and death have made her one of the most famous figures from ancient Egypt, though she was actually of Macedonian Greek descent.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Cleopatra",
+    "citationTitle": "Wikipedia: Cleopatra"
+  },
+  {
+    "id": "a583277d-9395-41f1-afc7-c2967af7ad8a",
+    "text": "What is the process called by which ancient Egyptians preserved dead bodies?",
+    "options": [
+      "Embalming",
+      "Mummification",
+      "Preservation",
+      "Desiccation"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "Mummification was the complex process of preserving bodies for the afterlife.",
+    "detailedExplanation": "Mummification was a sophisticated preservation process that could take up to 70 days to complete. The process involved removing internal organs, drying the body with natron salt, and wrapping it in linen bandages. This practice was based on religious beliefs about the afterlife, where Egyptians believed the preserved body was necessary for the soul's journey and eventual resurrection.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Mummy",
+    "citationTitle": "Wikipedia: Mummy"
+  },
+  {
+    "id": "d4e86aaa-bd4a-4225-923a-1e02eb1fe66e",
+    "text": "What is the name of the ancient Egyptian writing system using picture symbols?",
+    "options": [
+      "Cuneiform",
+      "Hieroglyphics",
+      "Phoenician",
+      "Linear B"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "Hieroglyphics used pictures and symbols to represent words, sounds, and ideas.",
+    "detailedExplanation": "Egyptian hieroglyphics, meaning 'sacred carvings' in Greek, were a complex writing system that combined logographic and alphabetic elements. The system used over 700 different symbols that could represent objects, sounds, or abstract concepts. Hieroglyphics were primarily used for religious and monumental inscriptions, while simpler forms like hieratic and demotic scripts were used for everyday writing.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Egyptian_hieroglyphs",
+    "citationTitle": "Wikipedia: Egyptian hieroglyphs"
+  },
+  {
+    "id": "7140fa45-3fd8-4327-ad88-3ad0b7ec1d6b",
+    "text": "Which river was essential to ancient Egyptian civilization?",
+    "options": [
+      "Euphrates River",
+      "Tigris River",
+      "Nile River",
+      "Jordan River"
+    ],
+    "correctIndex": 2,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "The Nile River provided water, fertile soil, and transportation for ancient Egypt.",
+    "detailedExplanation": "The Nile River was absolutely crucial to ancient Egyptian civilization, earning Egypt the nickname 'Gift of the Nile.' The river's annual flooding deposited nutrient-rich silt across the land, creating fertile soil for agriculture in an otherwise desert region. The Nile also served as the primary highway for transportation and trade, and its predictable flood cycle allowed Egyptians to develop one of the world's first organized agricultural societies.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Nile",
+    "citationTitle": "Wikipedia: Nile"
+  },
+  {
+    "id": "436c6075-e8a8-4210-91f1-45600e064ba4",
+    "text": "What was the title given to the rulers of ancient Egypt?",
+    "options": [
+      "Emperor",
+      "Pharaoh",
+      "Sultan",
+      "Caliph"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "Pharaoh was the title for Egyptian kings, meaning 'Great House' or royal palace.",
+    "detailedExplanation": "The word 'pharaoh' originally referred to the royal palace or 'great house' but eventually became the title for the king himself. Pharaohs were considered divine rulers, believed to be the earthly embodiment of the god Horus and the son of Ra, the sun god. This divine status gave them absolute authority over all aspects of Egyptian society, from religious ceremonies to state administration and military command.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Pharaoh",
+    "citationTitle": "Wikipedia: Pharaoh"
+  },
+  {
+    "id": "a98064b1-d4df-4555-bd9f-db20aea52ed8",
+    "text": "Which Great Pyramid is located at Giza and is one of the Seven Wonders of the Ancient World?",
+    "options": [
+      "Pyramid of Djoser",
+      "Pyramid of Khufu",
+      "Pyramid of Unas",
+      "Red Pyramid"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "The Great Pyramid of Khufu (also called Cheops) is the largest and most famous pyramid at Giza.",
+    "detailedExplanation": "The Great Pyramid of Khufu, built around 2580-2560 BCE, is the largest of the three pyramids at Giza and the only surviving wonder of the ancient world. Standing at 146.5 meters tall originally, it was constructed using an estimated 2.3 million stone blocks. Built as a tomb for Pharaoh Khufu of the Fourth Dynasty, it demonstrates the incredible engineering and organizational capabilities of ancient Egyptian civilization.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Great_Pyramid_of_Giza",
+    "citationTitle": "Wikipedia: Great Pyramid of Giza"
+  },
+  {
+    "id": "03caf26c-3162-46ab-b5b0-d114720fc4b8",
+    "text": "What creature has a human head and a lion's body, famously found near the pyramids of Giza?",
+    "options": [
+      "Griffin",
+      "Sphinx",
+      "Chimera",
+      "Manticore"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "The Great Sphinx of Giza is a limestone statue with a human head and lion's body.",
+    "detailedExplanation": "The Great Sphinx of Giza is a colossal limestone statue measuring 73 meters long and 20 meters high, carved from a single piece of bedrock around 2500 BCE. With the body of a lion and a human head (believed to represent Pharaoh Khafre), it served as a guardian figure for the pyramid complex. The Sphinx represents the pharaoh's divine power, combining human intelligence with the strength and courage of a lion.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Great_Sphinx_of_Giza",
+    "citationTitle": "Wikipedia: Great Sphinx of Giza"
+  },
+  {
+    "id": "56d61050-c79c-4a21-a217-0c3ab4343552",
+    "text": "What massive stone structure stands guard near the pyramids at Giza?",
+    "options": [
+      "The Great Sphinx",
+      "The Colossus of Rhodes",
+      "The Temple of Karnak",
+      "The Lighthouse of Alexandria"
+    ],
+    "correctIndex": 0,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "The Great Sphinx is the famous limestone statue with a human head and lion's body located at Giza.",
+    "detailedExplanation": "The Great Sphinx of Giza is one of the world's largest and oldest statues, carved from a single piece of limestone around 2500 BCE. Standing 66 feet high and 240 feet long, it has the body of a lion and a human head, traditionally believed to represent Pharaoh Khafre. The Sphinx has guarded the Giza pyramid complex for over 4,500 years and remains one of Egypt's most iconic monuments.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Great_Sphinx_of_Giza",
+    "citationTitle": "Wikipedia: Great Sphinx of Giza"
+  },
+  {
+    "id": "1fe7164d-334e-4bb6-8696-d29072d0b866",
+    "text": "Which river was absolutely crucial to ancient Egyptian civilization?",
+    "options": [
+      "The Euphrates",
+      "The Nile",
+      "The Tigris",
+      "The Jordan"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "The Nile River was the lifeblood of ancient Egypt, providing water, fertile soil, and transportation.",
+    "detailedExplanation": "The Nile River, the world's longest river, was fundamental to ancient Egyptian civilization. Its annual flooding deposited nutrient-rich silt across the floodplains, creating fertile agricultural land in an otherwise desert region. The Egyptians called their country 'Kemet' (black land) referring to the dark, fertile soil left by the Nile floods. The river also served as a major transportation route, enabling trade and communication throughout the kingdom.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Nile",
+    "citationTitle": "Wikipedia: Nile"
+  },
+  {
+    "id": "674eaa7c-d5fb-4adc-9e30-86ed5bd8e3c1",
+    "text": "What material did ancient Egyptians use to make their famous writing surface?",
+    "options": [
+      "Clay tablets",
+      "Animal skin",
+      "Papyrus",
+      "Stone slabs"
+    ],
+    "correctIndex": 2,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "Papyrus was made from the papyrus plant and became the primary writing material in ancient Egypt.",
+    "detailedExplanation": "Ancient Egyptians created papyrus from the papyrus plant (Cyperus papyrus) that grew abundantly along the Nile River. They cut the plant's stem into strips, laid them in overlapping layers, pressed and dried them to create sheets. This innovation gave us the word 'paper' and was so successful that papyrus became a major export product throughout the Mediterranean world, remaining the primary writing material for over 3,000 years.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Papyrus",
+    "citationTitle": "Wikipedia: Papyrus"
+  },
+  {
+    "id": "35d90b2d-8a6f-4f4c-ba20-f5f96682325a",
+    "text": "Which pharaoh is famous for building the Great Pyramid at Giza?",
+    "options": [
+      "Tutankhamun",
+      "Ramesses II",
+      "Khufu",
+      "Cleopatra"
+    ],
+    "correctIndex": 2,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "Khufu (also known as Cheops) commissioned the Great Pyramid around 2580-2560 BCE.",
+    "detailedExplanation": "Pharaoh Khufu, who ruled during Egypt's Fourth Dynasty (around 2580-2560 BCE), commissioned the Great Pyramid of Giza as his tomb. Originally standing 481 feet tall, it was the tallest man-made structure in the world for over 3,800 years. The pyramid required an estimated 2.3 million stone blocks, each weighing 2-15 tons, and took approximately 20 years to complete. It remains the only surviving wonder of the ancient world.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Khufu",
+    "citationTitle": "Wikipedia: Khufu"
+  },
+  {
+    "id": "c062b94b-8714-4ab0-9f80-717d8b61a0f6",
+    "text": "What process did ancient Egyptians use to preserve bodies for the afterlife?",
+    "options": [
+      "Cremation",
+      "Mummification",
+      "Burial at sea",
+      "Sky burial"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "Mummification was the elaborate process of preserving bodies using natron salt and other techniques.",
+    "detailedExplanation": "Mummification was a complex 70-day process that ancient Egyptians developed to preserve bodies for the afterlife. The process involved removing internal organs, drying the body with natron (a natural salt), and wrapping it in linen bandages. The Egyptians believed that preserving the physical body was essential for the soul's journey to the afterlife. This practice was initially reserved for pharaohs and nobility but eventually became available to anyone who could afford it.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Mummy",
+    "citationTitle": "Wikipedia: Mummy"
+  },
+  {
+    "id": "1aecf956-c312-4758-93d5-448777a610f5",
+    "text": "What writing system did ancient Egyptians develop using pictures and symbols?",
+    "options": [
+      "Cuneiform",
+      "Hieroglyphics",
+      "Phoenician script",
+      "Linear A"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "Hieroglyphics was the ancient Egyptian writing system using pictorial symbols and characters.",
+    "detailedExplanation": "Hieroglyphics, meaning 'sacred carved letters' in Greek, was the formal writing system of ancient Egypt that used a combination of pictographic, ideographic, and phonetic symbols. The system contained over 700 distinct symbols and was primarily used for religious texts and official inscriptions on monuments and tombs. Hieroglyphics remained undeciphered until 1822 when Jean-François Champollion used the Rosetta Stone to crack the code, revolutionizing our understanding of ancient Egyptian civilization.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Egyptian_hieroglyphs",
+    "citationTitle": "Wikipedia: Egyptian hieroglyphs"
+  },
+  {
+    "id": "05761f5b-0ebb-4dd4-91db-c213301dbbc8",
+    "text": "Which boy pharaoh's tomb was discovered nearly intact in 1922?",
+    "options": [
+      "Akhenaten",
+      "Tutankhamun",
+      "Ramesses III",
+      "Amenhotep II"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "Tutankhamun's tomb was discovered by Howard Carter in the Valley of the Kings in 1922.",
+    "detailedExplanation": "King Tutankhamun, who ruled from approximately 1332-1323 BCE and died at around age 19, became famous worldwide when British archaeologist Howard Carter discovered his nearly intact tomb (KV62) in the Valley of the Kings on November 4, 1922. The tomb contained over 5,000 artifacts, including the iconic golden funeral mask, providing unprecedented insight into ancient Egyptian burial practices and royal life. The discovery sparked global fascination with ancient Egypt and remains one of archaeology's greatest finds.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Tutankhamun",
+    "citationTitle": "Wikipedia: Tutankhamun"
+  },
+  {
+    "id": "faf1928d-ac1b-4185-aaa4-e7cc1e4704cc",
+    "text": "What were the massive triangular stone monuments built as tombs for pharaohs called?",
+    "options": [
+      "Ziggurats",
+      "Pyramids",
+      "Mastabas",
+      "Obelisks"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "Pyramids were the iconic triangular monuments built as elaborate tombs for Egyptian pharaohs.",
+    "detailedExplanation": "Pyramids were monumental tombs built for Egyptian pharaohs during the Old and Middle Kingdom periods (roughly 2686-2181 BCE and 2055-1650 BCE). These massive stone structures, with their distinctive triangular shape, were designed to protect the pharaoh's body and grave goods for eternity. The most famous pyramid complex is at Giza, but over 100 pyramids have been discovered throughout Egypt. The pyramid shape was believed to help the pharaoh's soul ascend to the heavens and join the sun god Ra.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Egyptian_pyramids",
+    "citationTitle": "Wikipedia: Egyptian pyramids"
+  },
+  {
+    "id": "ad1cc81a-c9c3-496a-b5dc-020fa27e4210",
+    "text": "What is the name of the famous ancient Egyptian writing system that used pictures and symbols?",
+    "options": [
+      "Hieroglyphics",
+      "Cuneiform",
+      "Phoenician",
+      "Linear B"
+    ],
+    "correctIndex": 0,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "Hieroglyphics was the formal writing system used by ancient Egyptians, combining logographic and alphabetic elements.",
+    "detailedExplanation": "Hieroglyphics, derived from the Greek words meaning 'sacred carving,' was the ancient Egyptian writing system that combined logographic and alphabetic elements. This complex script used hundreds of symbols representing objects, sounds, and concepts, and was primarily used for religious texts, royal decrees, and monumental inscriptions. The system remained undeciphered until the discovery of the Rosetta Stone in 1799, which provided the key to understanding this ancient form of communication.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Egyptian_hieroglyphs",
+    "citationTitle": "Wikipedia: Egyptian hieroglyphs"
+  },
+  {
+    "id": "0588521e-1c93-4969-8ad5-c8adf148b925",
+    "text": "What were the massive stone structures built as tombs for Egyptian pharaohs called?",
+    "options": [
+      "Ziggurats",
+      "Pyramids",
+      "Mastabas",
+      "Temples"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "Pyramids were monumental tombs built for pharaohs, with the most famous examples at Giza.",
+    "detailedExplanation": "Pyramids were massive stone structures built primarily during the Old Kingdom period (c. 2686-2181 BCE) as eternal resting places for pharaohs. The most famous examples are the three pyramids at Giza, including the Great Pyramid of Khufu, which was considered one of the Seven Wonders of the Ancient World. These architectural marvels required enormous resources and sophisticated engineering techniques, reflecting the pharaoh's divine status and the Egyptians' beliefs about the afterlife. The pyramid shape was thought to help the pharaoh's soul ascend to the heavens.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Egyptian_pyramids",
+    "citationTitle": "Wikipedia: Egyptian pyramids"
+  },
+  {
+    "id": "49adebb6-4fa2-4ef9-9c92-157d911618d7",
+    "text": "Who was the famous female pharaoh known for her long and prosperous reign during the New Kingdom?",
+    "options": [
+      "Nefertiti",
+      "Cleopatra VII",
+      "Hatshepsut",
+      "Ankhesenamun"
+    ],
+    "correctIndex": 2,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "Hatshepsut ruled for about 22 years and was one of the most successful female pharaohs in Egyptian history.",
+    "detailedExplanation": "Hatshepsut (c. 1507-1458 BCE) was one of ancient Egypt's most successful female pharaohs, ruling for approximately 22 years during the 18th Dynasty of the New Kingdom. Initially serving as regent for her young stepson Thutmose III, she eventually assumed full pharaonic powers and was often depicted wearing the traditional false beard of kingship. Her reign was marked by peace, prosperity, and extensive building projects, including her magnificent mortuary temple at Deir el-Bahari. She focused on trade expeditions rather than military conquests, most notably the famous expedition to the land of Punt.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Hatshepsut",
+    "citationTitle": "Wikipedia: Hatshepsut"
+  },
+  {
+    "id": "46387d93-ef7d-46b5-ada4-e49f6205938e",
+    "text": "What is the name of the famous ancient Egyptian writing system that uses picture symbols?",
+    "options": [
+      "Hieroglyphs",
+      "Cuneiform",
+      "Sanskrit",
+      "Phoenician"
+    ],
+    "correctIndex": 0,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "Hieroglyphs were the formal writing system used by ancient Egyptians, consisting of pictorial symbols.",
+    "detailedExplanation": "Hieroglyphs were the formal writing system of ancient Egypt, consisting of a combination of logographic and alphabetic elements. The word 'hieroglyph' comes from the Greek words meaning 'sacred carving.' This writing system used hundreds of symbols representing sounds, concepts, and objects, and was primarily used for religious texts and official inscriptions on temples and monuments. The Rosetta Stone, discovered in 1799, was crucial in deciphering hieroglyphs because it contained the same text in hieroglyphs, Demotic script, and ancient Greek.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Egyptian_hieroglyphs",
+    "citationTitle": "Wikipedia: Egyptian hieroglyphs"
+  }
+]

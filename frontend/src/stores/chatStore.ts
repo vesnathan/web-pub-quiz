@@ -1,7 +1,7 @@
-'use client';
+"use client";
 
-import { create } from 'zustand';
-import type { Conversation } from '@quiz/shared';
+import { create } from "zustand";
+import type { Conversation } from "@quiz/shared";
 
 interface ChatState {
   // Drawer state
@@ -29,18 +29,13 @@ export const useChatStore = create<ChatState>((set) => ({
       activeConversation: conversationId ?? state.activeConversation,
     })),
 
-  closeChat: () =>
-    set({ isOpen: false }),
+  closeChat: () => set({ isOpen: false }),
 
-  setActiveConversation: (id) =>
-    set({ activeConversation: id }),
+  setActiveConversation: (id) => set({ activeConversation: id }),
 
-  setConversations: (conversations) =>
-    set({ conversations }),
+  setConversations: (conversations) => set({ conversations }),
 
-  goToList: () =>
-    set({ activeConversation: null }),
+  goToList: () => set({ activeConversation: null }),
 
-  openLobby: () =>
-    set({ isOpen: true, activeConversation: 'lobby' }),
+  openLobby: () => set({ isOpen: true, activeConversation: "lobby" }),
 }));

@@ -1,0 +1,342 @@
+[
+  {
+    "id": "f671c65f-1da4-49ec-a7cd-d751321a32b0",
+    "text": "Who was the first actor to play James Bond in the official film series?",
+    "options": [
+      "Roger Moore",
+      "Sean Connery",
+      "George Lazenby",
+      "Timothy Dalton"
+    ],
+    "correctIndex": 1,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "Sean Connery was the first actor to portray James Bond in the official film series, starting with Dr. No in 1962.",
+    "detailedExplanation": "Sean Connery launched the James Bond film franchise when he starred as the secret agent in Dr. No in 1962. His portrayal established many of the character's iconic traits and helped make Bond a global phenomenon. Connery went on to play Bond in six more official films, including From Russia with Love, Goldfinger, and Thunderball, becoming synonymous with the character for many fans.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Sean_Connery",
+    "citationTitle": "Wikipedia: Sean Connery"
+  },
+  {
+    "id": "4121c3dd-feaf-46e4-8fd6-5429700b097a",
+    "text": "What is the name of James Bond's signature drink?",
+    "options": [
+      "Manhattan",
+      "Old Fashioned",
+      "Martini",
+      "Whiskey Sour"
+    ],
+    "correctIndex": 2,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "James Bond's signature drink is a martini, famously ordered 'shaken, not stirred.'",
+    "detailedExplanation": "The martini became James Bond's iconic drink throughout the film series, with the character's specific preference for it to be 'shaken, not stirred' becoming one of the most quoted lines in cinema. This particular preparation method was first mentioned in the novel Diamonds Are Forever and became a recurring element in the films, helping to establish Bond's sophisticated and particular personality traits.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Martini_(cocktail)",
+    "citationTitle": "Wikipedia: Martini (cocktail)"
+  },
+  {
+    "id": "02e3ea2e-e18f-4440-a38e-8ddf2aab036d",
+    "text": "Which organization does James Bond work for?",
+    "options": [
+      "CIA",
+      "MI6",
+      "FBI",
+      "KGB"
+    ],
+    "correctIndex": 1,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "James Bond works for MI6, the British Secret Intelligence Service.",
+    "detailedExplanation": "MI6, officially known as the Secret Intelligence Service (SIS), is the British foreign intelligence service for which James Bond works. In the films and novels, Bond holds the agent number 007 and reports to M, the head of MI6. The organization is responsible for gathering intelligence outside the United Kingdom, making Bond's international missions and adventures a natural fit for the spy thriller format.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Secret_Intelligence_Service",
+    "citationTitle": "Wikipedia: Secret Intelligence Service"
+  },
+  {
+    "id": "0927bc91-996a-45bc-8b68-9be79a1caa8c",
+    "text": "What does the '00' in James Bond's code number '007' signify?",
+    "options": [
+      "Top secret clearance",
+      "License to kill",
+      "International operative",
+      "Double agent status"
+    ],
+    "correctIndex": 1,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "The '00' prefix indicates that the agent has a 'license to kill' - authorization to eliminate targets in the line of duty.",
+    "detailedExplanation": "In the James Bond universe created by Ian Fleming, the '00' designation represents agents who have been given a 'license to kill' by the British government. This means they are authorized to use lethal force when necessary during their missions. The concept was established in Fleming's novels and carried over into the film series, with only a select few agents holding this prestigious and dangerous status within MI6.",
+    "citationUrl": "https://en.wikipedia.org/wiki/00_Agent",
+    "citationTitle": "Wikipedia: 00 Agent"
+  },
+  {
+    "id": "41400fc0-4aa6-42e1-bfb8-aa062eeabcf2",
+    "text": "Who is the author of the original James Bond novels?",
+    "options": [
+      "John le Carré",
+      "Ian Fleming",
+      "Graham Greene",
+      "Frederick Forsyth"
+    ],
+    "correctIndex": 1,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "Ian Fleming created the James Bond character and wrote the original series of novels starting with Casino Royale in 1953.",
+    "detailedExplanation": "Ian Fleming, a former British naval intelligence officer, created James Bond and wrote 12 novels and two short story collections featuring the character between 1953 and 1966. His first Bond novel, Casino Royale, introduced the world to Agent 007. Fleming drew on his own experiences in naval intelligence during World War II to create realistic espionage scenarios and the character's sophisticated lifestyle, establishing the foundation for what would become one of the most successful franchises in entertainment history.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Ian_Fleming",
+    "citationTitle": "Wikipedia: Ian Fleming"
+  },
+  {
+    "id": "ab8c46ae-dea1-4c62-ae33-a4a69364a642",
+    "text": "In which exotic location is James Bond typically NOT found on his missions?",
+    "options": [
+      "Caribbean islands",
+      "Swiss Alps",
+      "Arctic tundra",
+      "Mediterranean coast"
+    ],
+    "correctIndex": 2,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "While Bond has visited cold locations, the Arctic tundra is not a typical exotic locale associated with Bond missions, which usually feature glamorous warm-weather destinations.",
+    "detailedExplanation": "James Bond films are famous for their exotic and glamorous locations, typically featuring warm, luxurious destinations like Caribbean islands, Mediterranean resorts, and Alpine ski locations. The franchise has built its reputation on showcasing beautiful, upscale locations around the world where Bond can operate in style. While some films have featured colder climates, the harsh, remote Arctic tundra doesn't fit the typical Bond aesthetic of sophisticated, accessible luxury locations that serve as backdrops for his adventures.",
+    "citationUrl": "https://en.wikipedia.org/wiki/James_Bond_in_film",
+    "citationTitle": "Wikipedia: James Bond in film"
+  },
+  {
+    "id": "bb85a2d7-c937-4110-b355-1f844fd9974f",
+    "text": "What is the name of the fictional criminal organization that frequently opposes James Bond?",
+    "options": [
+      "HYDRA",
+      "SPECTRE",
+      "COBRA",
+      "CHAOS"
+    ],
+    "correctIndex": 1,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "SPECTRE is the international criminal organization that serves as James Bond's primary antagonist throughout many films and novels.",
+    "detailedExplanation": "SPECTRE (Special Executive for Counterintelligence, Terrorism, Revenge and Extortion) is the fictional international criminal organization created by Ian Fleming as James Bond's primary nemesis. Led by Ernst Stavro Blofeld, SPECTRE appears in numerous Bond novels and films, serving as a shadowy organization that engages in terrorism, extortion, and world domination schemes. The organization became so iconic that it defined the template for fictional criminal enterprises in spy fiction and action films.",
+    "citationUrl": "https://en.wikipedia.org/wiki/SPECTRE",
+    "citationTitle": "Wikipedia: SPECTRE"
+  },
+  {
+    "id": "416113ee-b49f-4cd3-b634-a1fc0d1f3da7",
+    "text": "Which car brand is most famously associated with James Bond?",
+    "options": [
+      "Ferrari",
+      "Aston Martin",
+      "Porsche",
+      "Jaguar"
+    ],
+    "correctIndex": 1,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "Aston Martin is the car brand most closely associated with James Bond, featuring in numerous films with various gadgets and modifications.",
+    "detailedExplanation": "Aston Martin became synonymous with James Bond after the DB5 appeared in Goldfinger (1964), complete with ejector seat and other gadgets designed by Q Branch. The partnership between Bond and Aston Martin has continued throughout most of the film series, with various models appearing in multiple films. The luxury British sports car brand perfectly matched Bond's sophisticated image and became as much a part of his character as his suits and martinis, representing the epitome of British automotive excellence.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Aston_Martin_in_James_Bond_films",
+    "citationTitle": "Wikipedia: Aston Martin in James Bond films"
+  },
+  {
+    "id": "a975bd41-0059-4b6d-8e2c-d658b66f732f",
+    "text": "Who was the first actor to portray James Bond in the official film series?",
+    "options": [
+      "Roger Moore",
+      "Sean Connery",
+      "George Lazenby",
+      "Timothy Dalton"
+    ],
+    "correctIndex": 1,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "Sean Connery was the first actor to play James Bond in Dr. No (1962).",
+    "detailedExplanation": "Sean Connery originated the role of James Bond in the first official EON Productions film 'Dr. No' in 1962. His portrayal established many of the character's iconic traits and launched the successful film franchise. Connery went on to play Bond in six more films, including From Russia with Love, Goldfinger, Thunderball, You Only Live Twice, Diamonds Are Forever, and Never Say Never Again.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Sean_Connery",
+    "citationTitle": "Wikipedia: Sean Connery"
+  },
+  {
+    "id": "59bcb659-c991-438c-9494-80f95de52af3",
+    "text": "Which secret intelligence service does James Bond work for?",
+    "options": [
+      "CIA",
+      "MI6",
+      "KGB",
+      "Mossad"
+    ],
+    "correctIndex": 1,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "James Bond works for MI6, the British Secret Intelligence Service.",
+    "detailedExplanation": "MI6, officially known as the Secret Intelligence Service (SIS), is the United Kingdom's foreign intelligence service. In the James Bond series, Bond works as a secret agent with the designation 007, reporting to 'M' who heads the service. MI6 is responsible for gathering intelligence outside the UK, making it the appropriate agency for Bond's international missions against various criminal organizations and enemy agents.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Secret_Intelligence_Service",
+    "citationTitle": "Wikipedia: Secret Intelligence Service"
+  },
+  {
+    "id": "87d23782-1294-49bc-ae0a-c14110e41d87",
+    "text": "What does the '00' designation mean in Bond's '007' code number?",
+    "options": [
+      "Double agent status",
+      "License to kill",
+      "Top secret clearance",
+      "Double salary grade"
+    ],
+    "correctIndex": 1,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "The '00' designation indicates that Bond has a 'license to kill' in the line of duty.",
+    "detailedExplanation": "In the James Bond universe, agents with '00' status are elite operatives who have been granted the authority to kill in the field when necessary for their missions. This 'license to kill' distinguishes them from regular intelligence agents and reflects the dangerous, high-stakes nature of their assignments. The concept was created by Ian Fleming in his original novels and became a central element of Bond's character and capabilities.",
+    "citationUrl": "https://en.wikipedia.org/wiki/00_Agent",
+    "citationTitle": "Wikipedia: 00 Agent"
+  },
+  {
+    "id": "a1a16a30-f265-4525-b69b-cf14b021c290",
+    "text": "Who created the character of James Bond?",
+    "options": [
+      "John le Carré",
+      "Ian Fleming",
+      "Frederick Forsyth",
+      "Graham Greene"
+    ],
+    "correctIndex": 1,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "Ian Fleming created James Bond and wrote the original series of novels.",
+    "detailedExplanation": "Ian Fleming, a British author and former naval intelligence officer, created the character of James Bond in 1953 with his first novel 'Casino Royale.' Fleming drew on his own experiences in naval intelligence during World War II to create the sophisticated spy character. He went on to write 12 Bond novels and two short story collections before his death in 1964, establishing the foundation for one of the most successful entertainment franchises in history.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Ian_Fleming",
+    "citationTitle": "Wikipedia: Ian Fleming"
+  },
+  {
+    "id": "d5302c4f-a703-4614-9120-d0577ae045c6",
+    "text": "What is the name of Bond's boss, typically referred to by a single letter?",
+    "options": [
+      "Q",
+      "M",
+      "R",
+      "Z"
+    ],
+    "correctIndex": 1,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "'M' is the code name for the head of MI6 and Bond's superior.",
+    "detailedExplanation": "In the James Bond series, 'M' is the codename used by the head of the British Secret Intelligence Service (MI6). This character serves as Bond's superior officer, assigning missions and providing guidance. The role has been portrayed by various actors throughout the film series, including Bernard Lee, Robert Brown, and Judi Dench, with each bringing their own interpretation to the authoritative figure who manages Bond's dangerous assignments.",
+    "citationUrl": "https://en.wikipedia.org/wiki/M_(James_Bond)",
+    "citationTitle": "Wikipedia: M (James Bond)"
+  },
+  {
+    "id": "a0295e5a-5804-4ac7-b3d2-86f00bea03c2",
+    "text": "Which 1964 James Bond film is famous for introducing the Aston Martin DB5?",
+    "options": [
+      "Dr. No",
+      "From Russia with Love",
+      "Goldfinger",
+      "Thunderball"
+    ],
+    "correctIndex": 2,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "The Aston Martin DB5 made its debut in Goldfinger (1964).",
+    "detailedExplanation": "Goldfinger (1964) introduced the iconic Aston Martin DB5, complete with gadgets provided by Q Branch including an ejector seat, machine guns, and a bulletproof rear screen. This film established the tradition of Bond driving luxury Aston Martin vehicles equipped with various spy gadgets. The DB5 became so associated with the Bond franchise that it appeared in several subsequent films and remains one of the most recognizable movie cars in cinema history.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Goldfinger_(film)",
+    "citationTitle": "Wikipedia: Goldfinger (film)"
+  },
+  {
+    "id": "f1e60e1d-9e0f-48b0-b3d4-dc5cfbfc1f3e",
+    "text": "What is the name of the criminal organization that Bond frequently battles in early films?",
+    "options": [
+      "SPECTRE",
+      "HYDRA",
+      "COBRA",
+      "KAOS"
+    ],
+    "correctIndex": 0,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "SPECTRE is the international criminal organization that serves as Bond's primary adversary.",
+    "detailedExplanation": "SPECTRE (Special Executive for Counter-intelligence, Terrorism, Revenge and Extortion) is the shadowy criminal organization that appears as the main antagonist in several James Bond films. Led by the mysterious Ernst Stavro Blofeld, SPECTRE operates as an international crime syndicate involved in terrorism, extortion, and world domination schemes. The organization first appeared in the film 'From Russia with Love' and became a recurring threat throughout the early Bond films, representing the kind of global criminal network that only a secret agent like Bond could combat.",
+    "citationUrl": "https://en.wikipedia.org/wiki/SPECTRE",
+    "citationTitle": "Wikipedia: SPECTRE"
+  },
+  {
+    "id": "0fbff335-fee8-479d-8692-7e590ab2b34f",
+    "text": "What is the famous code number assigned to James Bond?",
+    "options": [
+      "006",
+      "008",
+      "007",
+      "009"
+    ],
+    "correctIndex": 2,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "James Bond's code number is 007, making him a 'double-0' agent.",
+    "detailedExplanation": "James Bond is designated as Agent 007, a member of the elite '00' section of MI6. The '00' prefix indicates that the agent has a 'license to kill' in the line of duty. This iconic number was created by author Ian Fleming and has become synonymous with the character across all media adaptations.",
+    "citationUrl": "https://en.wikipedia.org/wiki/James_Bond",
+    "citationTitle": "Wikipedia: James Bond"
+  },
+  {
+    "id": "55cbf631-297b-4846-98d6-cd1222b4c3c7",
+    "text": "What is James Bond's preferred drink order?",
+    "options": [
+      "Whiskey on the rocks",
+      "Vodka martini, shaken not stirred",
+      "Gin and tonic",
+      "Scotch and soda"
+    ],
+    "correctIndex": 1,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "Bond famously orders his vodka martini 'shaken, not stirred.'",
+    "detailedExplanation": "James Bond's signature drink order of a vodka martini 'shaken, not stirred' has become one of the most recognizable catchphrases in cinema history. This specific preparation method was established in Ian Fleming's novels and carried over into the films, becoming a defining characteristic of Bond's sophisticated and particular personality.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Martini_(cocktail)",
+    "citationTitle": "Wikipedia: Martini (cocktail)"
+  },
+  {
+    "id": "46ad3283-0f9b-4dab-89c2-4f6b399a8301",
+    "text": "Which 1964 James Bond film features the villain Goldfinger?",
+    "options": [
+      "From Russia with Love",
+      "Thunderball",
+      "Goldfinger",
+      "You Only Live Twice"
+    ],
+    "correctIndex": 2,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "The villain Goldfinger appears in the 1964 film of the same name.",
+    "detailedExplanation": "'Goldfinger' (1964) was the third James Bond film starring Sean Connery and featured Auric Goldfinger, played by Gert Fröbe, as the main antagonist. The film is famous for introducing several Bond trademarks including the Aston Martin DB5 and memorable scenes like the laser table sequence. It was a massive commercial success and helped establish the Bond formula that would be used in subsequent films.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Goldfinger_(film)",
+    "citationTitle": "Wikipedia: Goldfinger (film)"
+  },
+  {
+    "id": "33e1b22f-3d64-4bdd-9d22-d7a801a2eabf",
+    "text": "What is the name of James Bond's signature cocktail?",
+    "options": [
+      "Manhattan",
+      "Old Fashioned",
+      "Martini",
+      "Whiskey Sour"
+    ],
+    "correctIndex": 2,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "James Bond's signature drink is a Martini, famously ordered 'shaken, not stirred.'",
+    "detailedExplanation": "The Martini is James Bond's most famous cocktail, typically made with gin and dry vermouth. Bond's specific preference for having it 'shaken, not stirred' became one of the most recognizable catchphrases in cinema history. This particular preparation method was first mentioned in the 1964 film Goldfinger and has appeared throughout the franchise, becoming an integral part of Bond's sophisticated persona.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Martini_(cocktail)",
+    "citationTitle": "Wikipedia: Martini (cocktail)"
+  },
+  {
+    "id": "4b142d27-d88e-43f7-9761-c0bc3f8927af",
+    "text": "Which actor played James Bond in the most official films?",
+    "options": [
+      "Sean Connery",
+      "Roger Moore",
+      "Pierce Brosnan",
+      "Daniel Craig"
+    ],
+    "correctIndex": 1,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "Roger Moore played Bond in 7 official films from 1973-1985.",
+    "detailedExplanation": "Roger Moore holds the record for playing James Bond in the most official EON Productions films, starring in seven movies: Live and Let Die (1973), The Man with the Golden Gun (1974), The Spy Who Loved Me (1977), Moonraker (1979), For Your Eyes Only (1981), Octopussy (1983), and A View to a Kill (1985). While Sean Connery is often considered the most iconic Bond, he officially played the role in six EON films, though he returned for the unofficial Never Say Never Again in 1983.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Roger_Moore",
+    "citationTitle": "Wikipedia: Roger Moore"
+  }
+]

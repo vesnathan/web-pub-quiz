@@ -1,0 +1,342 @@
+[
+  {
+    "id": "f5d6488e-829f-4ff3-af66-9768f2fc1de9",
+    "text": "Which US President delivered the famous 'I Have a Dream' speech?",
+    "options": [
+      "Martin Luther King Jr.",
+      "John F. Kennedy",
+      "Franklin D. Roosevelt",
+      "Abraham Lincoln"
+    ],
+    "correctIndex": 0,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "Martin Luther King Jr. delivered the 'I Have a Dream' speech during the March on Washington in 1963.",
+    "detailedExplanation": "Martin Luther King Jr. delivered his iconic 'I Have a Dream' speech on August 28, 1963, during the March on Washington for Jobs and Freedom. Speaking from the steps of the Lincoln Memorial to over 250,000 civil rights supporters, King's speech became one of the defining moments of the American Civil Rights Movement and is widely regarded as one of the greatest speeches in American history.",
+    "citationUrl": "https://en.wikipedia.org/wiki/I_Have_a_Dream",
+    "citationTitle": "Wikipedia: I Have a Dream"
+  },
+  {
+    "id": "1f446c07-b358-4a8d-bae0-68711114e72a",
+    "text": "In which year did Winston Churchill deliver his famous 'We Shall Never Surrender' speech?",
+    "options": [
+      "1939",
+      "1940",
+      "1941",
+      "1942"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "Churchill delivered this speech to the House of Commons on June 4, 1940, following the evacuation of Dunkirk.",
+    "detailedExplanation": "Winston Churchill delivered his 'We Shall Never Surrender' speech on June 4, 1940, to the House of Commons following the successful evacuation of British and Allied forces from Dunkirk. The speech was meant to prepare the British people for the possibility of invasion while demonstrating unwavering resolve. It concluded with the famous words about fighting on the seas, in the air, and never surrendering, even if Britain were conquered.",
+    "citationUrl": "https://en.wikipedia.org/wiki/We_shall_never_surrender",
+    "citationTitle": "Wikipedia: We shall never surrender"
+  },
+  {
+    "id": "3162340c-5bd6-42af-afa2-dd9220214f6b",
+    "text": "What was the opening phrase of Abraham Lincoln's Gettysburg Address?",
+    "options": [
+      "Four score and seven years ago",
+      "My fellow Americans",
+      "We the people",
+      "In this great nation"
+    ],
+    "correctIndex": 0,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "Lincoln began the Gettysburg Address with 'Four score and seven years ago our fathers brought forth on this continent a new nation.'",
+    "detailedExplanation": "Abraham Lincoln began his famous Gettysburg Address on November 19, 1863, with the words 'Four score and seven years ago our fathers brought forth on this continent, a new nation, conceived in Liberty, and dedicated to the proposition that all men are created equal.' The phrase 'four score and seven years ago' refers to 87 years earlier (1776), when the Declaration of Independence was signed. This brief but powerful speech redefined the Civil War as not just a struggle for union, but as a fight for the principles of human equality.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Gettysburg_Address",
+    "citationTitle": "Wikipedia: Gettysburg Address"
+  },
+  {
+    "id": "2d764640-eea6-4f29-b5f9-8105e95c3ea7",
+    "text": "Which Roman leader famously said 'Et tu, Brute?' according to Shakespeare?",
+    "options": [
+      "Augustus Caesar",
+      "Julius Caesar",
+      "Mark Antony",
+      "Cicero"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "Julius Caesar allegedly spoke these words when he saw Brutus among his assassins, though this is from Shakespeare's play rather than historical record.",
+    "detailedExplanation": "According to William Shakespeare's play 'Julius Caesar,' these were the dying words of Julius Caesar when he saw his friend Marcus Brutus among his assassins on the Ides of March, 44 BCE. The phrase means 'And you, Brutus?' in Latin, expressing Caesar's shock at his friend's betrayal. While historically Caesar's actual last words are disputed, with some sources suggesting he said nothing or spoke in Greek, Shakespeare's version has become the most famous and culturally significant.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Et_tu,_Brute%3F",
+    "citationTitle": "Wikipedia: Et tu, Brute?"
+  },
+  {
+    "id": "168ac3ba-4053-4bbd-9d8f-df8fd5f2e14b",
+    "text": "What did John F. Kennedy famously ask Americans to do in his inaugural address?",
+    "options": [
+      "Ask what they can do for their country",
+      "Defend democracy worldwide",
+      "Support space exploration",
+      "Fight against communism"
+    ],
+    "correctIndex": 0,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "Kennedy's famous line was 'Ask not what your country can do for you—ask what you can do for your country.'",
+    "detailedExplanation": "In his inaugural address on January 20, 1961, President John F. Kennedy delivered one of the most memorable lines in American political rhetoric: 'And so, my fellow Americans: ask not what your country can do for you—ask what you can do for your country.' This call to public service and civic responsibility became emblematic of Kennedy's presidency and the idealistic spirit of the early 1960s. The speech was notable for its themes of global cooperation, civil rights, and the challenges of the Cold War era.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Inaugural_address_of_John_F._Kennedy",
+    "citationTitle": "Wikipedia: Inaugural address of John F. Kennedy"
+  },
+  {
+    "id": "4caf558f-cdc2-4be3-9fd7-8dec7ac4ba10",
+    "text": "Which ancient Greek orator was known as 'the greatest orator of antiquity'?",
+    "options": [
+      "Pericles",
+      "Socrates",
+      "Demosthenes",
+      "Aristotle"
+    ],
+    "correctIndex": 2,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "Demosthenes was renowned for his powerful speeches, particularly his Philippics against Philip II of Macedon.",
+    "detailedExplanation": "Demosthenes (384-322 BCE) is widely considered the greatest orator of ancient Greece and possibly of all antiquity. He was particularly famous for his series of speeches called the 'Philippics,' delivered against Philip II of Macedon, whom he saw as a threat to Athenian independence. Despite suffering from a speech impediment in his youth, Demosthenes overcame this through rigorous practice, allegedly speaking with pebbles in his mouth and reciting verses while running uphill. His eloquent and passionate defense of Athenian democracy made him a model for orators throughout history.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Demosthenes",
+    "citationTitle": "Wikipedia: Demosthenes"
+  },
+  {
+    "id": "ee48b286-059b-468d-8894-b46631029ebd",
+    "text": "In which city did Nelson Mandela deliver his first speech after being released from prison?",
+    "options": [
+      "Johannesburg",
+      "Cape Town",
+      "Pretoria",
+      "Durban"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "Mandela gave his first speech as a free man from the balcony of Cape Town City Hall on February 11, 1990.",
+    "detailedExplanation": "Nelson Mandela delivered his first speech after 27 years in prison from the balcony of Cape Town City Hall on February 11, 1990, just hours after his release. Speaking to a crowd of 50,000 people, Mandela declared that his commitment to a free South Africa remained unchanged and called for continued struggle against apartheid through peaceful means. The speech was broadcast live around the world and marked a pivotal moment in South Africa's transition from apartheid to democracy. His words emphasized reconciliation and his vision for a non-racial, democratic South Africa.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Nelson_Mandela",
+    "citationTitle": "Wikipedia: Nelson Mandela"
+  },
+  {
+    "id": "398a2087-00f3-48cb-a615-6f9b4db10ea2",
+    "text": "What type of barrier did Ronald Reagan famously challenge Mikhail Gorbachev to 'tear down'?",
+    "options": [
+      "The Iron Curtain",
+      "The Berlin Wall",
+      "Trade barriers",
+      "Nuclear weapons"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "Reagan delivered his famous 'tear down this wall' speech at the Brandenburg Gate in Berlin in 1987.",
+    "detailedExplanation": "On June 12, 1987, President Ronald Reagan delivered a speech at the Brandenburg Gate in West Berlin where he challenged Soviet leader Mikhail Gorbachev with the famous words: 'Mr. Gorbachev, tear down this wall!' Reagan was referring to the Berlin Wall, which had divided East and West Berlin since 1961. While initially dismissed by many as mere political theater, the speech became iconic when the Berlin Wall actually fell in 1989, just two years later. The moment symbolized the end of the Cold War and the beginning of German reunification.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Tear_down_this_wall!",
+    "citationTitle": "Wikipedia: Tear down this wall!"
+  },
+  {
+    "id": "b95e28cc-acc9-42fc-82ea-7678358107ec",
+    "text": "In which famous speech did Winston Churchill say 'We shall never surrender'?",
+    "options": [
+      "Blood, Toil, Tears and Sweat",
+      "We Shall Fight on the Beaches",
+      "Their Finest Hour",
+      "The Iron Curtain"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "Churchill declared 'We shall never surrender' in his 'We Shall Fight on the Beaches' speech to Parliament on June 4, 1940.",
+    "detailedExplanation": "Winston Churchill delivered his 'We Shall Fight on the Beaches' speech to the House of Commons on June 4, 1940, following the evacuation of Dunkirk. The speech was meant to prepare Britain for a potential German invasion and boost morale during one of the darkest periods of World War II. The famous concluding words 'we shall never surrender' became a rallying cry for British resistance and one of the most memorable phrases of the war.",
+    "citationUrl": "https://en.wikipedia.org/wiki/We_shall_fight_on_the_beaches",
+    "citationTitle": "Wikipedia: We shall fight on the beaches"
+  },
+  {
+    "id": "5540a3a8-f247-4c35-beab-d8b19ab0de72",
+    "text": "Abraham Lincoln delivered the Gettysburg Address during which war?",
+    "options": [
+      "World War I",
+      "American Civil War",
+      "War of 1812",
+      "Spanish-American War"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "The Gettysburg Address was delivered during the American Civil War in 1863 to dedicate a cemetery for fallen soldiers.",
+    "detailedExplanation": "Abraham Lincoln delivered the Gettysburg Address on November 19, 1863, during the American Civil War. The speech was given at the dedication of the Gettysburg National Cemetery in Pennsylvania, honoring Union soldiers who died in the Battle of Gettysburg earlier that year. Despite lasting only about two minutes, the speech redefined the war as not merely a struggle for union, but as a fight for the principles of human equality and democracy.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Gettysburg_Address",
+    "citationTitle": "Wikipedia: Gettysburg Address"
+  },
+  {
+    "id": "85bd5a58-a58f-4331-bf8c-c6b3ead7e74c",
+    "text": "Which Roman leader was famous for saying 'Et tu, Brute?' according to Shakespeare?",
+    "options": [
+      "Marcus Antonius",
+      "Cicero",
+      "Julius Caesar",
+      "Augustus"
+    ],
+    "correctIndex": 2,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "Julius Caesar supposedly said 'Et tu, Brute?' when he saw Brutus among his assassins, though this is from Shakespeare's play rather than historical record.",
+    "detailedExplanation": "The phrase 'Et tu, Brute?' (And you, Brutus?) is attributed to Julius Caesar in William Shakespeare's play 'Julius Caesar,' spoken when Caesar sees his friend Brutus among his assassins on the Ides of March, 44 BC. While Shakespeare popularized this Latin phrase, historical accounts suggest Caesar's actual last words were different, with some sources claiming he said nothing, while others report he spoke in Greek. The phrase has become one of the most famous expressions of betrayal in literature.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Et_tu,_Brute%3F",
+    "citationTitle": "Wikipedia: Et tu, Brute?"
+  },
+  {
+    "id": "c9bdeed0-b8a5-4788-9a9c-3d058680e395",
+    "text": "What did President Kennedy famously say in Berlin in 1963?",
+    "options": [
+      "Ich bin ein Berliner",
+      "Vive la Berlin",
+      "Berlin ist frei",
+      "Deutschland über alles"
+    ],
+    "correctIndex": 0,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "Kennedy declared 'Ich bin ein Berliner' (I am a Berliner) in his famous speech in West Berlin on June 26, 1963.",
+    "detailedExplanation": "On June 26, 1963, President John F. Kennedy delivered his famous 'Ich bin ein Berliner' speech to 450,000 people gathered in West Berlin's Rudolph Wilde Platz. The speech was given during the Cold War, less than two years after the construction of the Berlin Wall. Kennedy's declaration of solidarity with West Berlin was seen as a powerful statement against communist oppression and became one of his most memorable speeches, demonstrating American commitment to West Berlin's freedom.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Ich_bin_ein_Berliner",
+    "citationTitle": "Wikipedia: Ich bin ein Berliner"
+  },
+  {
+    "id": "85591ea2-2057-4d4d-b88c-b23a418f7ec1",
+    "text": "Which British king famously overcame a stammer, as depicted in 'The King's Speech'?",
+    "options": [
+      "Edward VIII",
+      "George VI",
+      "George V",
+      "Edward VII"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "King George VI overcame his stammer to deliver important wartime speeches, including his coronation speech and wartime radio addresses.",
+    "detailedExplanation": "King George VI struggled with a severe stammer throughout his life but worked with speech therapist Lionel Logue to overcome it. His most famous speeches were delivered during World War II, including his coronation speech in 1937 and his wartime radio broadcasts that helped boost British morale. His struggle and triumph over his speech impediment was famously depicted in the 2010 film 'The King's Speech,' which won the Academy Award for Best Picture.",
+    "citationUrl": "https://en.wikipedia.org/wiki/George_VI",
+    "citationTitle": "Wikipedia: George VI"
+  },
+  {
+    "id": "7ab3e5d0-dc65-48f7-ad8a-fb76a03a54d8",
+    "text": "In which ancient Greek city-state did Pericles deliver his famous Funeral Oration?",
+    "options": [
+      "Sparta",
+      "Thebes",
+      "Athens",
+      "Corinth"
+    ],
+    "correctIndex": 2,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "Pericles delivered his Funeral Oration in Athens around 431 BC to honor soldiers who died in the first year of the Peloponnesian War.",
+    "detailedExplanation": "Pericles delivered his famous Funeral Oration in Athens around 431 BC, as recorded by the historian Thucydides. The speech was given to honor Athenian soldiers who had died in the first year of the Peloponnesian War. Rather than simply mourning the dead, Pericles used the occasion to celebrate Athenian democracy, culture, and values. The speech is considered one of the greatest examples of ancient oratory and provides valuable insight into Athenian society and democratic ideals.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Pericles%27_Funeral_Oration",
+    "citationTitle": "Wikipedia: Pericles' Funeral Oration"
+  },
+  {
+    "id": "67f7d2ad-9582-4a75-a25e-df1ffea72f7c",
+    "text": "Which world leader made the famous 'Iron Curtain' speech in 1946?",
+    "options": [
+      "Harry Truman",
+      "Winston Churchill",
+      "Joseph Stalin",
+      "Charles de Gaulle"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "Winston Churchill delivered the 'Iron Curtain' speech at Westminster College in Missouri on March 5, 1946.",
+    "detailedExplanation": "Winston Churchill delivered his famous 'Iron Curtain' speech on March 5, 1946, at Westminster College in Fulton, Missouri. Officially titled 'The Sinews of Peace,' the speech warned of Soviet expansion in Eastern Europe and marked one of the opening statements of the Cold War. Churchill's phrase 'iron curtain' described the ideological and physical barrier that the Soviet Union was creating between itself and Western Europe, and the term became synonymous with the division of Europe during the Cold War era.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Iron_Curtain_speech",
+    "citationTitle": "Wikipedia: Iron Curtain speech"
+  },
+  {
+    "id": "5ffacb8e-35ab-4c0c-b308-d12af37380ae",
+    "text": "Who delivered the famous Gettysburg Address in 1863?",
+    "options": [
+      "Thomas Jefferson",
+      "George Washington",
+      "Abraham Lincoln",
+      "Franklin D. Roosevelt"
+    ],
+    "correctIndex": 2,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "Abraham Lincoln delivered the Gettysburg Address on November 19, 1863, during the dedication of a national cemetery at Gettysburg.",
+    "detailedExplanation": "The Gettysburg Address was delivered by President Abraham Lincoln on November 19, 1863, during the American Civil War. The speech was given at the dedication of the Gettysburg National Cemetery in Pennsylvania, honoring Union soldiers killed at the Battle of Gettysburg. Despite lasting only about two minutes and containing just 272 words, it is considered one of the greatest speeches in American history. Lincoln redefined the Civil War not just as a struggle for union, but as a fight for the principles of human equality and democracy.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Gettysburg_Address",
+    "citationTitle": "Wikipedia: Gettysburg Address"
+  },
+  {
+    "id": "3a6505a8-5e24-4f64-9796-32a6527737ee",
+    "text": "Which British Prime Minister famously declared 'We shall never surrender' during World War II?",
+    "options": [
+      "Neville Chamberlain",
+      "Winston Churchill",
+      "Clement Attlee",
+      "Anthony Eden"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "Winston Churchill delivered this famous line in his 'We Shall Fight on the Beaches' speech to the House of Commons on June 4, 1940.",
+    "detailedExplanation": "Winston Churchill delivered the famous 'We Shall Fight on the Beaches' speech to the House of Commons on June 4, 1940, following the evacuation of British forces from Dunkirk. The speech was designed to prepare the British people for a possible German invasion and to steel their resolve during one of the darkest periods of World War II. The speech concluded with the stirring words 'we shall never surrender,' which became emblematic of British determination during the war. Churchill's wartime speeches are credited with maintaining British morale during the country's finest hour.",
+    "citationUrl": "https://en.wikipedia.org/wiki/We_shall_fight_on_the_beaches",
+    "citationTitle": "Wikipedia: We shall fight on the beaches"
+  },
+  {
+    "id": "0f856a61-dead-4784-8e79-b98ed544c6c1",
+    "text": "What famous phrase did President John F. Kennedy use in his 1961 inaugural address to inspire public service?",
+    "options": [
+      "Ask not what your country can do for you",
+      "The torch has been passed",
+      "We choose to go to the moon",
+      "Ich bin ein Berliner"
+    ],
+    "correctIndex": 0,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "Kennedy's famous line was 'Ask not what your country can do for you—ask what you can do for your country' from his January 20, 1961 inaugural address.",
+    "detailedExplanation": "John F. Kennedy's inaugural address on January 20, 1961, contained the famous challenge to American citizens: 'Ask not what your country can do for you—ask what you can do for your country.' This call to public service became one of the most memorable lines in American political rhetoric. The speech, delivered on a cold winter day in Washington D.C., was designed to inspire Americans to take an active role in public service and to commit to fighting tyranny, poverty, disease, and war. Kennedy was the youngest person ever elected president, and his speech marked a generational changing of the guard in American politics.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Inaugural_address_of_John_F._Kennedy",
+    "citationTitle": "Wikipedia: Inaugural address of John F. Kennedy"
+  },
+  {
+    "id": "fde17b0c-bf9b-44f8-ba6a-b9447ea6b444",
+    "text": "Which ancient Roman leader famously said 'Et tu, Brute?' according to Shakespeare's play?",
+    "options": [
+      "Marc Antony",
+      "Augustus Caesar",
+      "Julius Caesar",
+      "Cicero"
+    ],
+    "correctIndex": 2,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "In Shakespeare's play 'Julius Caesar,' these were Caesar's last words when he saw his friend Brutus among his assassins.",
+    "detailedExplanation": "While not technically a speech but rather famous last words, 'Et tu, Brute?' (meaning 'And you, Brutus?') was attributed to Julius Caesar by William Shakespeare in his play 'Julius Caesar.' According to the play, Caesar spoke these words in Latin when he saw his trusted friend Marcus Brutus among the senators who were assassinating him on the Ides of March in 44 BC. However, this is likely Shakespeare's invention—the Roman historian Suetonius reported that Caesar's actual last words were in Greek, and Plutarch suggested he said nothing at all. Nevertheless, Shakespeare's version has become the most famous account in popular culture.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Et_tu,_Brute%3F",
+    "citationTitle": "Wikipedia: Et tu, Brute?"
+  },
+  {
+    "id": "5e35344d-64f7-4c27-82bf-b151fcd5fb55",
+    "text": "Which famous phrase did Martin Luther King Jr. repeat multiple times during his iconic 1963 speech at the Lincoln Memorial?",
+    "options": [
+      "\"I have a dream\"",
+      "\"We shall overcome\"",
+      "\"Let freedom ring\"",
+      "\"Free at last\""
+    ],
+    "correctIndex": 0,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "Martin Luther King Jr. repeated the phrase 'I have a dream' eight times during his famous speech, which became known by that very phrase.",
+    "detailedExplanation": "Martin Luther King Jr.'s speech on August 28, 1963, during the March on Washington for Jobs and Freedom, is widely known as the 'I Have a Dream' speech because of his repeated use of this powerful phrase. King delivered this speech to over 250,000 civil rights supporters from the steps of the Lincoln Memorial in Washington, D.C. The 'I have a dream' refrain came in the latter portion of the speech, where King departed from his prepared text and spoke from the heart about his vision of racial equality and harmony in America. This speech is considered one of the most important and influential speeches in American history.",
+    "citationUrl": "https://en.wikipedia.org/wiki/I_Have_a_Dream",
+    "citationTitle": "Wikipedia: I Have a Dream"
+  }
+]

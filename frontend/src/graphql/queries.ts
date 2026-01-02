@@ -16,6 +16,34 @@ export const GET_MY_PROFILE = /* GraphQL */ `
         currentStreak
         longestStreak
       }
+      subscription {
+        tier
+        status
+        provider
+        subscriptionId
+        customerId
+        startedAt
+        expiresAt
+        cancelledAt
+        giftedBy
+        giftedByName
+        giftedAt
+        giftExpiresAt
+        giftNotificationSeen
+      }
+      badges {
+        id
+        name
+        description
+        icon
+        groupId
+        tier
+        rarity
+        skillPoints
+        earnedAt
+      }
+      totalSkillPoints
+      tipUnlockedUntil
     }
   }
 `;
@@ -44,6 +72,12 @@ export const CHECK_DISPLAY_NAME_AVAILABLE = /* GraphQL */ `
   }
 `;
 
+export const CHECK_EMAIL_HAS_GOOGLE_ACCOUNT = /* GraphQL */ `
+  query CheckEmailHasGoogleAccount($email: String!) {
+    checkEmailHasGoogleAccount(email: $email)
+  }
+`;
+
 export const GET_LEADERBOARD = /* GraphQL */ `
   query GetLeaderboard($type: LeaderboardType!, $limit: Int) {
     getLeaderboard(type: $type, limit: $limit) {
@@ -56,6 +90,12 @@ export const GET_LEADERBOARD = /* GraphQL */ `
       }
       updatedAt
     }
+  }
+`;
+
+export const GET_MY_RANK = /* GraphQL */ `
+  query GetMyRank($type: LeaderboardType!) {
+    getMyRank(type: $type)
   }
 `;
 
@@ -81,7 +121,11 @@ export const GET_ABLY_TOKEN = /* GraphQL */ `
 
 export const GET_CHAT_MESSAGES = /* GraphQL */ `
   query GetChatMessages($channelId: ID!, $limit: Int, $nextToken: String) {
-    getChatMessages(channelId: $channelId, limit: $limit, nextToken: $nextToken) {
+    getChatMessages(
+      channelId: $channelId
+      limit: $limit
+      nextToken: $nextToken
+    ) {
       items {
         id
         channelId
@@ -112,6 +156,23 @@ export const GET_MY_CONVERSATIONS = /* GraphQL */ `
         senderDisplayName
       }
       updatedAt
+    }
+  }
+`;
+
+export const GET_WEBHOOK_LOGS = /* GraphQL */ `
+  query GetWebhookLogs($provider: String, $limit: Int, $nextToken: String) {
+    getWebhookLogs(provider: $provider, limit: $limit, nextToken: $nextToken) {
+      items {
+        eventId
+        provider
+        eventType
+        payload
+        status
+        errorMessage
+        createdAt
+      }
+      nextToken
     }
   }
 `;

@@ -1,0 +1,342 @@
+[
+  {
+    "id": "6c46f43b-b096-4a5e-8f5d-7bad075aa5c2",
+    "text": "Which famous landmark is located on Liberty Island in New York Harbor?",
+    "options": [
+      "Empire State Building",
+      "Statue of Liberty",
+      "Brooklyn Bridge",
+      "One World Trade Center"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "The Statue of Liberty stands on Liberty Island in New York Harbor.",
+    "detailedExplanation": "The Statue of Liberty, officially named 'Liberty Enlightening the World,' is a neoclassical sculpture located on Liberty Island in New York Harbor. It was a gift from France to the United States in 1886 to celebrate America's centennial and abolition of slavery. The statue has become one of the most recognizable symbols of freedom and democracy worldwide.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Statue_of_Liberty",
+    "citationTitle": "Wikipedia: Statue of Liberty"
+  },
+  {
+    "id": "7f839e03-2101-4139-8f99-b483125cc925",
+    "text": "In which country would you find Machu Picchu?",
+    "options": [
+      "Bolivia",
+      "Ecuador",
+      "Peru",
+      "Colombia"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "Machu Picchu is an ancient Incan citadel located in Peru.",
+    "detailedExplanation": "Machu Picchu is a 15th-century Inca citadel located in the Eastern Cordillera of southern Peru on a mountain ridge at 2,430 meters above sea level. Built around 1450 during the reign of Inca emperor Pachacuti, it was abandoned a century later during the Spanish conquest. The site was brought to international attention by American historian Hiram Bingham in 1911 and is now a UNESCO World Heritage Site.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Machu_Picchu",
+    "citationTitle": "Wikipedia: Machu Picchu"
+  },
+  {
+    "id": "1ad6c31c-5c3b-4963-9f19-faed13860de5",
+    "text": "What is the name of the famous clock tower that houses Big Ben in London?",
+    "options": [
+      "Westminster Tower",
+      "Elizabeth Tower",
+      "Parliament Tower",
+      "Thames Tower"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "The clock tower is officially called Elizabeth Tower, renamed in 2012 to honor Queen Elizabeth II.",
+    "detailedExplanation": "Elizabeth Tower is the clock tower at the Palace of Westminster in London, England. Completed in 1859, it was originally simply called the Clock Tower, but was renamed Elizabeth Tower in 2012 to commemorate the Diamond Jubilee of Queen Elizabeth II. Big Ben is actually the nickname for the largest bell inside the tower, though the name is commonly used to refer to both the clock and the tower itself.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Big_Ben",
+    "citationTitle": "Wikipedia: Big Ben"
+  },
+  {
+    "id": "7bf49f7f-30f6-4e32-a540-c784bdca0e5c",
+    "text": "Which wonder of the ancient world can still be visited today in Egypt?",
+    "options": [
+      "Hanging Gardens of Babylon",
+      "Great Pyramid of Giza",
+      "Colossus of Rhodes",
+      "Lighthouse of Alexandria"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "The Great Pyramid of Giza is the only surviving wonder of the ancient world.",
+    "detailedExplanation": "The Great Pyramid of Giza is the oldest and largest of the pyramids in the Giza pyramid complex, located on the outskirts of Cairo, Egypt. Built as a tomb for the Fourth Dynasty Egyptian pharaoh Khufu around 2580-2510 BCE, it is the only one of the Seven Wonders of the Ancient World that remains largely intact. For over 3,800 years, it was the tallest human-made structure in the world.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Great_Pyramid_of_Giza",
+    "citationTitle": "Wikipedia: Great Pyramid of Giza"
+  },
+  {
+    "id": "61768931-6812-4a90-9a05-3192aca862b8",
+    "text": "The Eiffel Tower was built for which international event?",
+    "options": [
+      "1889 World's Fair",
+      "1900 Olympics",
+      "French Revolution Centenary",
+      "Napoleon's Victory Celebration"
+    ],
+    "correctIndex": 0,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "The Eiffel Tower was constructed as the entrance arch for the 1889 World's Fair in Paris.",
+    "detailedExplanation": "The Eiffel Tower was built by Gustave Eiffel as the entrance arch to the 1889 World's Fair (Exposition Universelle) held in Paris to commemorate the centennial of the French Revolution. Initially criticized by some of France's leading artists and intellectuals for its design, it has become a global cultural icon of France and one of the most recognizable structures in the world. Standing 330 meters tall, it was the world's tallest structure until 1930.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Eiffel_Tower",
+    "citationTitle": "Wikipedia: Eiffel Tower"
+  },
+  {
+    "id": "f779f3e8-239e-4737-b522-84e163ef0fc8",
+    "text": "Mount Rushmore features the carved faces of how many U.S. presidents?",
+    "options": [
+      "Three",
+      "Four",
+      "Five",
+      "Six"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "Mount Rushmore displays the faces of four U.S. presidents: Washington, Jefferson, Roosevelt, and Lincoln.",
+    "detailedExplanation": "Mount Rushmore National Memorial is a sculpture carved into the granite face of Mount Rushmore in South Dakota. It features 60-foot sculptures of the heads of four United States presidents: George Washington, Thomas Jefferson, Theodore Roosevelt, and Abraham Lincoln. The memorial was carved between 1927 and 1941 under the direction of sculptor Gutzon Borglum and his son Lincoln Borglum.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Mount_Rushmore",
+    "citationTitle": "Wikipedia: Mount Rushmore"
+  },
+  {
+    "id": "fb55dd58-6642-43e7-9d10-1fd274ed44da",
+    "text": "The ancient amphitheater known as the Colosseum is located in which city?",
+    "options": [
+      "Athens",
+      "Rome",
+      "Naples",
+      "Florence"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "The Colosseum is located in Rome, Italy, and is one of the city's most famous landmarks.",
+    "detailedExplanation": "The Colosseum, also known as the Flavian Amphitheatre, is an oval amphitheatre in the centre of Rome, Italy. Built of travertine limestone, tuff, and brick-faced concrete, it was the largest amphitheatre ever built, holding an estimated 50,000 to 80,000 spectators. Construction began under Emperor Vespasian around 70-72 AD and was completed in 80 AD under his successor Titus. It was used for gladiatorial contests and public spectacles for approximately 400 years.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Colosseum",
+    "citationTitle": "Wikipedia: Colosseum"
+  },
+  {
+    "id": "44104018-80a1-4946-b425-cb22c1894601",
+    "text": "Which famous wall can be seen from space and stretches across northern China?",
+    "options": [
+      "Wall of Hadrian",
+      "Berlin Wall",
+      "Great Wall of China",
+      "Western Wall"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "The Great Wall of China is the famous fortification that stretches across northern China.",
+    "detailedExplanation": "The Great Wall of China is a series of fortifications made of stone, brick, tamped earth, wood, and other materials, built along the historical northern borders of China to protect against invasions. Various walls were built from the 7th century BC, with selective stretches later joined together by the first Emperor of China, Qin Shi Huang (220-210 BC). The wall stretches over 13,000 miles in total length, though the popular claim that it's visible from space is actually a myth.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Great_Wall_of_China",
+    "citationTitle": "Wikipedia: Great Wall of China"
+  },
+  {
+    "id": "617b71e1-ddcf-4d40-97a2-37dd387f38ed",
+    "text": "Which famous statue stands on Liberty Island in New York Harbor?",
+    "options": [
+      "Statue of Liberty",
+      "Christ the Redeemer",
+      "David",
+      "The Thinker"
+    ],
+    "correctIndex": 0,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "The Statue of Liberty stands on Liberty Island in New York Harbor.",
+    "detailedExplanation": "The Statue of Liberty, officially named 'Liberty Enlightening the World,' was a gift from France to the United States in 1886. Standing 305 feet tall including its pedestal, it has become one of the most recognizable symbols of freedom and democracy in the world. The copper statue was designed by French sculptor Frédéric Auguste Bartholdi and its metal framework was built by Gustave Eiffel.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Statue_of_Liberty",
+    "citationTitle": "Wikipedia: Statue of Liberty"
+  },
+  {
+    "id": "bf8799a4-ed5b-49f8-8a7b-4af8a6821cc4",
+    "text": "What is the famous clock tower in London commonly called?",
+    "options": [
+      "Big Ben",
+      "Tower Bridge",
+      "London Eye",
+      "Westminster Abbey"
+    ],
+    "correctIndex": 0,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "Big Ben is the nickname for the famous clock tower at the Palace of Westminster in London.",
+    "detailedExplanation": "Big Ben is the nickname for the Great Bell of the Great Clock of Westminster, though the name is frequently extended to refer to both the clock and the clock tower. The tower was officially renamed Elizabeth Tower in 2012 to commemorate the Diamond Jubilee of Elizabeth II. Standing 316 feet tall, it has been keeping time for London since 1859 and is one of the most prominent symbols of the United Kingdom.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Big_Ben",
+    "citationTitle": "Wikipedia: Big Ben"
+  },
+  {
+    "id": "7d09420a-b8b3-4a4e-8935-78bac4a60459",
+    "text": "Which ancient wonder of the world is located in Egypt?",
+    "options": [
+      "Colossus of Rhodes",
+      "Great Pyramid of Giza",
+      "Hanging Gardens of Babylon",
+      "Lighthouse of Alexandria"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "The Great Pyramid of Giza is the only surviving ancient wonder of the world and is located in Egypt.",
+    "detailedExplanation": "The Great Pyramid of Giza was built as a tomb for the Fourth Dynasty Egyptian pharaoh Khufu around 2580-2510 BC. Standing originally at 481 feet tall, it was the tallest man-made structure in the world for more than 3,800 years. It is the oldest and largest of the pyramids in the Giza pyramid complex and is the only one of the Seven Wonders of the Ancient World still largely intact today.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Great_Pyramid_of_Giza",
+    "citationTitle": "Wikipedia: Great Pyramid of Giza"
+  },
+  {
+    "id": "df37fe6b-300c-4aee-8088-a54eb9c24836",
+    "text": "The Eiffel Tower is located in which European city?",
+    "options": [
+      "Rome",
+      "Berlin",
+      "Paris",
+      "Madrid"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "The Eiffel Tower is located in Paris, France.",
+    "detailedExplanation": "The Eiffel Tower was constructed between 1887 and 1889 as the entrance to the 1889 World's Fair. Designed by Gustave Eiffel, it stands 1,083 feet tall and was the world's tallest structure until 1930. Initially criticized by some of France's leading artists and intellectuals, it has become a global cultural icon of France and one of the most recognizable structures in the world, attracting millions of visitors annually.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Eiffel_Tower",
+    "citationTitle": "Wikipedia: Eiffel Tower"
+  },
+  {
+    "id": "f9cefbed-93c1-4e0f-81ce-0cc10934708a",
+    "text": "Which famous wall stretches across northern China?",
+    "options": [
+      "Berlin Wall",
+      "Hadrian's Wall",
+      "Great Wall of China",
+      "Western Wall"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "The Great Wall of China stretches across northern China and is one of the world's most famous landmarks.",
+    "detailedExplanation": "The Great Wall of China is a series of fortifications built across the historical northern borders of ancient Chinese states and Imperial China as protection against nomadic invasions. Built over many centuries by various dynasties, the most well-known sections were built by the Ming Dynasty (1368-1644). Stretching over 13,000 miles, it is often considered one of the most impressive architectural feats in history and is a UNESCO World Heritage Site.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Great_Wall_of_China",
+    "citationTitle": "Wikipedia: Great Wall of China"
+  },
+  {
+    "id": "e2053078-0010-4b40-a3aa-b8a66de03be8",
+    "text": "The Taj Mahal is located in which country?",
+    "options": [
+      "Pakistan",
+      "India",
+      "Bangladesh",
+      "Nepal"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "The Taj Mahal is located in Agra, India.",
+    "detailedExplanation": "The Taj Mahal is an ivory-white marble mausoleum located in Agra, India. It was commissioned in 1631 by the Mughal emperor Shah Jahan to house the tomb of his favorite wife, Mumtaz Mahal. Construction took approximately 22 years and was completed in 1653. Widely considered one of the most beautiful buildings in the world, it combines elements of Islamic, Persian, Ottoman Turkish and Indian architectural styles and is a UNESCO World Heritage Site.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Taj_Mahal",
+    "citationTitle": "Wikipedia: Taj Mahal"
+  },
+  {
+    "id": "b0d8242f-6643-4a98-9163-c650813b307a",
+    "text": "Which famous clock tower is located in London and commonly called 'Big Ben'?",
+    "options": [
+      "Tower Bridge Clock",
+      "Elizabeth Tower",
+      "London Eye Clock",
+      "Westminster Clock"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "Elizabeth Tower houses the famous Big Ben bell and clock.",
+    "detailedExplanation": "The Elizabeth Tower, previously known as the Clock Tower, is the iconic landmark at the Palace of Westminster in London. While many people refer to the entire tower as 'Big Ben', this name technically refers only to the largest bell within the tower. The tower was renamed Elizabeth Tower in 2012 to honor Queen Elizabeth II's Diamond Jubilee and stands 316 feet tall, making it one of London's most recognizable symbols.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Big_Ben",
+    "citationTitle": "Wikipedia: Big Ben"
+  },
+  {
+    "id": "406bc696-7872-404e-a88f-e1127177f44a",
+    "text": "What is the name of the famous statue that overlooks Rio de Janeiro from Corcovado Mountain?",
+    "options": [
+      "Christ the Redeemer",
+      "Christ the King",
+      "Sacred Heart of Jesus",
+      "Christ of the Andes"
+    ],
+    "correctIndex": 0,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "Christ the Redeemer is the iconic Art Deco statue overlooking Rio de Janeiro.",
+    "detailedExplanation": "Christ the Redeemer (Cristo Redentor in Portuguese) is a massive Art Deco statue of Jesus Christ that stands atop the 2,300-foot Corcovado Mountain in Rio de Janeiro, Brazil. Completed in 1931, the statue stands 98 feet tall with its arms stretching 92 feet wide. It was voted one of the New Seven Wonders of the World in 2007 and has become an iconic symbol of both Rio de Janeiro and Brazil itself, visible from most parts of the city.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Christ_the_Redeemer_(statue)",
+    "citationTitle": "Wikipedia: Christ the Redeemer (statue)"
+  },
+  {
+    "id": "5fe499e3-b2b4-4c71-bc5d-8ddf69c8d06d",
+    "text": "The Statue of Liberty was a gift from which country to the United States?",
+    "options": [
+      "Britain",
+      "France",
+      "Spain",
+      "Italy"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "France gifted the Statue of Liberty to the United States in 1886.",
+    "detailedExplanation": "The Statue of Liberty was a gift from France to the United States, dedicated on October 28, 1886. The statue was designed by French sculptor Frédéric Auguste Bartholdi and was intended to celebrate the centennial of American independence and to celebrate the friendship between the two nations. The internal structure was designed by Gustave Eiffel. The statue stands on Liberty Island in New York Harbor and has welcomed millions of immigrants to the United States, becoming a universal symbol of freedom and democracy.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Statue_of_Liberty",
+    "citationTitle": "Wikipedia: Statue of Liberty"
+  },
+  {
+    "id": "3811446e-ea4c-4866-857f-d83af18059b0",
+    "text": "Which famous landmark in France is known as 'The Iron Lady'?",
+    "options": [
+      "Arc de Triomphe",
+      "Eiffel Tower",
+      "Louvre Pyramid",
+      "Notre-Dame Cathedral"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "The Eiffel Tower is nicknamed 'The Iron Lady' due to its iron lattice construction.",
+    "detailedExplanation": "The Eiffel Tower, built by Gustave Eiffel for the 1889 World's Fair in Paris, earned the nickname 'La Dame de Fer' (The Iron Lady) because of its distinctive iron lattice structure. Standing 330 meters tall, it was initially controversial but became an iconic symbol of France and one of the world's most recognizable landmarks.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Eiffel_Tower",
+    "citationTitle": "Wikipedia: Eiffel Tower"
+  },
+  {
+    "id": "3663b456-bfee-46f1-9426-6036f8f16948",
+    "text": "What is the name of the large clock tower in London that houses Big Ben?",
+    "options": [
+      "Victoria Tower",
+      "Elizabeth Tower",
+      "Westminster Tower",
+      "Parliament Tower"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "The tower is officially called Elizabeth Tower, renamed in 2012 to honor Queen Elizabeth II.",
+    "detailedExplanation": "The famous clock tower at the Palace of Westminster in London is officially known as Elizabeth Tower, renamed in 2012 from Clock Tower to honor Queen Elizabeth II's Diamond Jubilee. Big Ben actually refers to the largest bell inside the tower, though the name is commonly used for the entire tower. The tower stands 316 feet tall and was completed in 1859.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Big_Ben",
+    "citationTitle": "Wikipedia: Big Ben"
+  },
+  {
+    "id": "85852e70-e5c4-48a6-b10a-26f6c92a415d",
+    "text": "Which famous landmark in Paris is known as the 'Iron Lady'?",
+    "options": [
+      "Arc de Triomphe",
+      "Eiffel Tower",
+      "Louvre Pyramid",
+      "Notre-Dame Cathedral"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "The Eiffel Tower is nicknamed the 'Iron Lady' due to its iron lattice construction.",
+    "detailedExplanation": "The Eiffel Tower, completed in 1889 for the Paris Exposition, is affectionately known as 'La Dame de Fer' or 'The Iron Lady' in French. This nickname comes from its distinctive iron lattice construction, designed by Gustave Eiffel. Standing 330 meters tall, it was the world's tallest structure until 1930 and has become the most recognizable symbol of Paris and France.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Eiffel_Tower",
+    "citationTitle": "Wikipedia: Eiffel Tower"
+  }
+]

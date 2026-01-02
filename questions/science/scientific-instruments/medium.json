@@ -1,0 +1,342 @@
+[
+  {
+    "id": "08bb12a4-7114-4246-8798-03cb99a43f77",
+    "text": "Which scientific instrument is used to measure the refractive index of liquids?",
+    "options": [
+      "Refractometer",
+      "Polarimeter",
+      "Viscometer",
+      "Densimeter"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "A refractometer measures the refractive index of liquids by analyzing how light bends when passing through the sample.",
+    "detailedExplanation": "A refractometer is an optical instrument that measures the refractive index of a substance, which indicates how much light bends when entering the material. This measurement is crucial in various industries, including food production (measuring sugar content in fruits), brewing, and quality control in manufacturing. The instrument works by comparing the angle of refraction of light passing through the sample versus a reference standard.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Refractometer",
+    "citationTitle": "Wikipedia: Refractometer"
+  },
+  {
+    "id": "86716403-cea3-433d-bac6-a83d59b727d9",
+    "text": "What does a seismograph primarily measure?",
+    "options": [
+      "Ocean currents",
+      "Atmospheric pressure",
+      "Ground motion from earthquakes",
+      "Magnetic field variations"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "A seismograph detects and records ground motion caused by earthquakes, volcanic activity, and other seismic events.",
+    "detailedExplanation": "A seismograph is a sensitive instrument designed to detect and record the motion of the Earth's surface during seismic events. It consists of a mass suspended on a spring that remains stationary while the ground moves beneath it, creating a record of the earthquake's intensity and duration. Modern seismographs are highly sophisticated digital instruments that can detect ground movements as small as a few nanometers, helping scientists study earthquake patterns and predict volcanic activity.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Seismometer",
+    "citationTitle": "Wikipedia: Seismometer"
+  },
+  {
+    "id": "2893a26a-7210-4207-8ac2-5f43a90a8b95",
+    "text": "Which instrument would a meteorologist use to measure wind speed?",
+    "options": [
+      "Barometer",
+      "Hygrometer",
+      "Anemometer",
+      "Psychrometer"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "An anemometer is specifically designed to measure wind speed and is a standard tool in meteorological stations.",
+    "detailedExplanation": "An anemometer is a weather monitoring instrument used to measure wind speed and, in some cases, wind direction. The most common type features three or four cups mounted on horizontal arms that rotate around a vertical axis - the faster the wind blows, the faster the cups rotate. Modern electronic anemometers can provide real-time digital readouts and are essential tools for weather forecasting, aviation safety, and environmental monitoring.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Anemometer",
+    "citationTitle": "Wikipedia: Anemometer"
+  },
+  {
+    "id": "92a5ca4a-ef99-42e9-8c4a-69c7f4c23e98",
+    "text": "What is the primary function of a spectrophotometer?",
+    "options": [
+      "Measuring electrical conductivity",
+      "Analyzing light absorption by substances",
+      "Determining crystal structure",
+      "Measuring radioactivity levels"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "A spectrophotometer measures how much light a substance absorbs at different wavelengths, allowing identification and quantification of materials.",
+    "detailedExplanation": "A spectrophotometer is an analytical instrument that measures the amount of light absorbed by a sample at specific wavelengths. By analyzing absorption patterns across the electromagnetic spectrum, scientists can identify chemical compounds, determine concentrations, and study molecular structures. This technique is fundamental in chemistry, biology, and materials science, with applications ranging from DNA analysis to quality control in pharmaceuticals and environmental testing.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Spectrophotometry",
+    "citationTitle": "Wikipedia: Spectrophotometry"
+  },
+  {
+    "id": "aacc7456-9a0f-4739-bbf5-90f094617c53",
+    "text": "Which scientific instrument uses X-rays to determine the atomic structure of crystals?",
+    "options": [
+      "Mass spectrometer",
+      "X-ray diffractometer",
+      "Electron microscope",
+      "Nuclear magnetic resonance spectrometer"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "An X-ray diffractometer uses X-ray diffraction patterns to determine the arrangement of atoms within crystalline materials.",
+    "detailedExplanation": "An X-ray diffractometer is a sophisticated analytical instrument that determines the atomic and molecular structure of crystalline materials. When X-rays are directed at a crystal, they are scattered by the atoms in specific patterns called diffraction patterns. By analyzing these patterns, scientists can determine the precise arrangement of atoms, identify unknown materials, and study crystal defects. This technique has been crucial in discovering the structure of DNA, proteins, and developing new materials like semiconductors and pharmaceuticals.",
+    "citationUrl": "https://en.wikipedia.org/wiki/X-ray_crystallography",
+    "citationTitle": "Wikipedia: X-ray crystallography"
+  },
+  {
+    "id": "02a7f169-9129-4df8-bfd4-c92248e6db1c",
+    "text": "What does a Geiger counter detect?",
+    "options": [
+      "Magnetic fields",
+      "Ionizing radiation",
+      "Ultrasonic waves",
+      "Infrared radiation"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "A Geiger counter detects and measures ionizing radiation such as alpha particles, beta particles, and gamma rays.",
+    "detailedExplanation": "A Geiger counter, formally known as a Geiger-Müller counter, is a radiation detection instrument that measures ionizing radiation. It consists of a tube filled with inert gas that becomes conductive when radiation passes through it, producing electrical pulses that are counted and often converted to audible clicks. Geiger counters are essential tools for radiation safety monitoring, geological surveys for uranium deposits, medical applications, and nuclear facility operations.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Geiger_counter",
+    "citationTitle": "Wikipedia: Geiger counter"
+  },
+  {
+    "id": "c0dd94ee-229e-4280-9d01-0b678cd758e4",
+    "text": "Which instrument is specifically designed to measure very small masses with high precision?",
+    "options": [
+      "Analytical balance",
+      "Spring scale",
+      "Load cell",
+      "Strain gauge"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "An analytical balance can measure masses to within 0.1 milligrams or better, making it ideal for precise laboratory measurements.",
+    "detailedExplanation": "An analytical balance is a highly sensitive laboratory instrument designed to measure small masses with exceptional precision, typically to four decimal places (0.1 mg). These balances feature enclosed weighing chambers to prevent air currents from affecting measurements, electromagnetic force restoration technology, and sophisticated calibration systems. They are essential in analytical chemistry, pharmaceutical research, and any application requiring precise mass measurements of small samples.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Analytical_balance",
+    "citationTitle": "Wikipedia: Analytical balance"
+  },
+  {
+    "id": "4e70ced6-c37b-496d-8cfa-6bcac0992275",
+    "text": "What type of scientific instrument is a theodolite?",
+    "options": [
+      "Astronomical telescope",
+      "Surveying instrument for measuring angles",
+      "Weather monitoring device",
+      "Geological core sampling tool"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "A theodolite is a precision surveying instrument used to measure horizontal and vertical angles in surveying and engineering applications.",
+    "detailedExplanation": "A theodolite is a precision optical instrument used in surveying and engineering to measure both horizontal and vertical angles with high accuracy. It consists of a telescope mounted on a rotating base with graduated circles for angle measurement. Theodolites are essential for creating accurate maps, establishing property boundaries, constructing buildings and roads, and conducting geodetic surveys. Modern electronic theodolites can display digital readouts and interface with computer systems for automated data collection.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Theodolite",
+    "citationTitle": "Wikipedia: Theodolite"
+  },
+  {
+    "id": "f0e5628d-5184-4257-ba92-a040aa0a3e66",
+    "text": "What scientific instrument is used to measure atmospheric pressure?",
+    "options": [
+      "Barometer",
+      "Hygrometer",
+      "Anemometer",
+      "Thermometer"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "A barometer measures atmospheric pressure, typically using mercury or aneroid mechanisms.",
+    "detailedExplanation": "A barometer is an essential meteorological instrument that measures atmospheric pressure. The most traditional type is the mercury barometer, invented by Evangelista Torricelli in 1643, which uses a column of mercury in a glass tube. Modern aneroid barometers use a flexible metal capsule that expands and contracts with pressure changes. Barometric readings are crucial for weather forecasting, as changes in atmospheric pressure often indicate approaching weather systems.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Barometer",
+    "citationTitle": "Wikipedia: Barometer"
+  },
+  {
+    "id": "40c1031c-3be0-4323-a317-45c06e91bf5e",
+    "text": "Which instrument would a scientist use to observe the structure of crystals using X-rays?",
+    "options": [
+      "Spectrometer",
+      "X-ray diffractometer",
+      "Electron microscope",
+      "Polarimeter"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "An X-ray diffractometer analyzes crystal structures by measuring how X-rays scatter when they hit crystalline materials.",
+    "detailedExplanation": "X-ray diffractometry is a powerful analytical technique used to determine the atomic and molecular structure of crystals. When X-rays are directed at a crystalline sample, they are scattered in specific patterns that depend on the arrangement of atoms within the crystal lattice. The X-ray diffractometer measures these diffraction patterns, allowing scientists to deduce the crystal structure, identify unknown materials, and determine factors like crystal size and strain. This technique was crucial in discovering the structure of DNA and continues to be essential in materials science, chemistry, and geology.",
+    "citationUrl": "https://en.wikipedia.org/wiki/X-ray_crystallography",
+    "citationTitle": "Wikipedia: X-ray crystallography"
+  },
+  {
+    "id": "edda2a8a-4116-4f1b-b8ba-4670034a6c64",
+    "text": "What is the primary function of a centrifuge in laboratory work?",
+    "options": [
+      "Heating samples",
+      "Separating mixtures by density",
+      "Measuring pH levels",
+      "Sterilizing equipment"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "A centrifuge spins samples at high speeds to separate components based on their different densities.",
+    "detailedExplanation": "A centrifuge is a laboratory instrument that uses centrifugal force to separate mixtures based on density differences. By spinning samples at high speeds (often thousands of revolutions per minute), denser materials are forced to the bottom while lighter materials remain closer to the center of rotation. This principle is widely used in medical laboratories to separate blood components, in research to isolate DNA or proteins, and in industrial applications to purify materials. The technique is essential for many diagnostic tests and research procedures in biology, chemistry, and medicine.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Centrifuge",
+    "citationTitle": "Wikipedia: Centrifuge"
+  },
+  {
+    "id": "a03f7ae6-b756-4c85-aee7-9ea8d46f52ad",
+    "text": "Which scientific instrument measures the intensity of earthquakes?",
+    "options": [
+      "Seismograph",
+      "Magnetometer",
+      "Gravimeter",
+      "Accelerometer"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "A seismograph detects and records ground motion caused by seismic waves from earthquakes.",
+    "detailedExplanation": "A seismograph is a sensitive instrument designed to detect and record seismic waves produced by earthquakes, volcanic activity, or other ground movements. The instrument typically consists of a heavy mass suspended from a frame that remains stationary while the ground moves beneath it. This relative motion is recorded on a rotating drum or digital system, creating a seismogram that shows the amplitude and frequency of ground movement over time. Modern seismographic networks around the world work together to locate earthquake epicenters, determine magnitude, and provide early warning systems for potentially dangerous seismic events.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Seismometer",
+    "citationTitle": "Wikipedia: Seismometer"
+  },
+  {
+    "id": "af72d177-f216-4662-abc5-913bf4925ad1",
+    "text": "What type of scientific instrument is a calorimeter used for?",
+    "options": [
+      "Measuring electrical current",
+      "Measuring heat energy changes",
+      "Measuring light intensity",
+      "Measuring magnetic fields"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "A calorimeter measures the heat absorbed or released during chemical reactions or physical changes.",
+    "detailedExplanation": "A calorimeter is a scientific instrument specifically designed to measure the amount of heat involved in chemical reactions or physical changes. The basic principle involves containing a reaction or process in an insulated chamber and measuring the temperature change of a known quantity of water or other substance. This allows scientists to calculate the heat energy (measured in calories or joules) absorbed or released. Calorimeters are essential in thermodynamics research, determining the caloric content of foods, studying metabolic processes in living organisms, and analyzing the energy changes in various chemical reactions.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Calorimeter",
+    "citationTitle": "Wikipedia: Calorimeter"
+  },
+  {
+    "id": "94edbc23-9a28-4b5b-a319-b512ff2bd57d",
+    "text": "Which instrument would you use to measure very small electric currents, typically in the microampere range?",
+    "options": [
+      "Voltmeter",
+      "Galvanometer",
+      "Ohmmeter",
+      "Oscilloscope"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "A galvanometer is specifically designed to detect and measure small electric currents with high sensitivity.",
+    "detailedExplanation": "A galvanometer is a highly sensitive instrument used to detect and measure small electric currents, often in the microampere (µA) or even nanoampere range. The traditional moving-coil galvanometer works by placing a coil of wire in a magnetic field; when current flows through the coil, it experiences a torque that causes it to rotate, with the deflection proportional to the current. Modern electronic versions can detect even smaller currents. Galvanometers are essential in precision electrical measurements, scientific research, and as components in other measuring instruments like multimeters and bridge circuits.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Galvanometer",
+    "citationTitle": "Wikipedia: Galvanometer"
+  },
+  {
+    "id": "da6cdb2a-c9bb-4dda-9e92-94757783d2f3",
+    "text": "What does a spectrophotometer primarily measure?",
+    "options": [
+      "Temperature variations",
+      "Light absorption by substances",
+      "Electrical resistance",
+      "Sound frequencies"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "A spectrophotometer measures how much light a substance absorbs at different wavelengths.",
+    "detailedExplanation": "A spectrophotometer is an analytical instrument that measures the amount of light absorbed by a substance at specific wavelengths across the electromagnetic spectrum. The instrument works by passing light of known intensity through a sample and measuring how much light is transmitted versus absorbed. Different substances have characteristic absorption patterns, making spectrophotometry invaluable for identifying unknown compounds, determining concentrations of solutions, and analyzing the purity of substances. This technique is widely used in chemistry, biology, environmental science, and quality control in industries ranging from pharmaceuticals to food production.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Spectrophotometry",
+    "citationTitle": "Wikipedia: Spectrophotometry"
+  },
+  {
+    "id": "081d8f51-9b95-4496-9c56-d02808a26d89",
+    "text": "Which scientific instrument is specifically designed to measure humidity in the air?",
+    "options": [
+      "Hygrometer",
+      "Manometer",
+      "Pyrometer",
+      "Densitometer"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "A hygrometer measures the moisture content or humidity level in the atmosphere.",
+    "detailedExplanation": "A hygrometer is a meteorological instrument specifically designed to measure humidity, or the amount of water vapor present in the air. There are several types of hygrometers, including mechanical versions that use materials like human hair or synthetic fibers that expand and contract with moisture changes, and electronic versions that measure electrical conductivity or capacitance changes. Psychrometric hygrometers use two thermometers (dry bulb and wet bulb) to calculate relative humidity. These instruments are essential in weather monitoring, climate control systems, industrial processes, and scientific research where precise humidity control is crucial.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Hygrometer",
+    "citationTitle": "Wikipedia: Hygrometer"
+  },
+  {
+    "id": "ef6064f4-10da-4f32-b676-451d1691c286",
+    "text": "What scientific instrument uses the principle of electromagnetic induction to measure very small electrical currents, often used in physics experiments?",
+    "options": [
+      "Galvanometer",
+      "Spectrometer",
+      "Calorimeter",
+      "Interferometer"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "A galvanometer measures small electrical currents using electromagnetic induction principles.",
+    "detailedExplanation": "A galvanometer is a sensitive instrument used to detect and measure small electrical currents. It works on the principle of electromagnetic induction, where a current-carrying conductor in a magnetic field experiences a force. The deflection of a needle or coil is proportional to the current flowing through it. Galvanometers are essential components in many electrical measuring instruments and were historically crucial in telegraph systems and early electrical experiments.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Galvanometer",
+    "citationTitle": "Wikipedia: Galvanometer"
+  },
+  {
+    "id": "c88020dc-742b-4896-9442-83c55f2329e8",
+    "text": "Which instrument would a marine biologist use to measure the salinity of seawater?",
+    "options": [
+      "pH meter",
+      "Salinometer",
+      "Turbidimeter",
+      "Densitometer"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "A salinometer specifically measures the salt content or salinity of water.",
+    "detailedExplanation": "A salinometer is an instrument designed to measure the salinity (salt content) of water, particularly important in oceanography and marine biology. Modern salinometers often work by measuring electrical conductivity, as saltwater conducts electricity better than fresh water. The conductivity reading is then converted to salinity units. This instrument is crucial for understanding ocean currents, marine ecosystems, and climate patterns, as salinity affects water density and marine life distribution.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Salinometer",
+    "citationTitle": "Wikipedia: Salinometer"
+  },
+  {
+    "id": "b4b66a8b-d6f8-4edf-9a42-bdeb4efebc3f",
+    "text": "What does a pyrheliometer measure?",
+    "options": [
+      "Atmospheric pressure",
+      "Direct solar radiation",
+      "Wind speed",
+      "Humidity levels"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "A pyrheliometer measures direct solar radiation from the sun.",
+    "detailedExplanation": "A pyrheliometer is a specialized meteorological instrument used to measure direct beam solar irradiance. It consists of a thermopile sensor housed in a collimated tube that tracks the sun throughout the day, measuring only the solar radiation coming directly from the sun's disk and a small surrounding area. This instrument is essential in solar energy research, climate studies, and weather monitoring stations. It differs from pyranometers, which measure total solar radiation from all directions.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Pyrheliometer",
+    "citationTitle": "Wikipedia: Pyrheliometer"
+  },
+  {
+    "id": "42891362-aac9-4730-82a3-610cdd6eca84",
+    "text": "What scientific instrument did Anton van Leeuwenhoek use to first observe bacteria and other microorganisms in the 1670s?",
+    "options": [
+      "Telescope",
+      "Microscope",
+      "Spectroscope",
+      "Barometer"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Anton van Leeuwenhoek used simple microscopes of his own design to become the first person to observe bacteria and other microorganisms.",
+    "detailedExplanation": "Anton van Leeuwenhoek (1632-1723) was a Dutch tradesman who became famous for his work with microscopes. He crafted simple microscopes with a single lens that could magnify objects up to 275 times. Using these instruments in the 1670s, he became the first person to observe and describe bacteria, protozoa, sperm cells, and other microorganisms, which he called 'animalcules.' His discoveries revolutionized our understanding of the microscopic world and laid the foundation for microbiology.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Antonie_van_Leeuwenhoek",
+    "citationTitle": "Wikipedia: Antonie van Leeuwenhoek"
+  }
+]

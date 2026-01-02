@@ -1,0 +1,342 @@
+[
+  {
+    "id": "ad36bf32-0e6f-4006-b769-6143d2653bb9",
+    "text": "In what year did the American Revolution begin?",
+    "options": [
+      "1773",
+      "1775",
+      "1776",
+      "1778"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "The American Revolution began in 1775 with the Battles of Lexington and Concord.",
+    "detailedExplanation": "The American Revolution officially began on April 19, 1775, when British troops marched from Boston to Concord, Massachusetts, to seize colonial weapons. This led to the famous 'shot heard round the world' at Lexington Green, marking the start of armed conflict between Britain and the American colonies. While tensions had been building for years, this date represents the beginning of actual warfare.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Battles_of_Lexington_and_Concord",
+    "citationTitle": "Wikipedia: Battles of Lexington and Concord"
+  },
+  {
+    "id": "aa6012db-3a6f-4c3e-b6c9-3d2cbfe6d3f5",
+    "text": "Who was the primary author of the Declaration of Independence?",
+    "options": [
+      "Benjamin Franklin",
+      "John Adams",
+      "Thomas Jefferson",
+      "George Washington"
+    ],
+    "correctIndex": 2,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "Thomas Jefferson was chosen by the Continental Congress to draft the Declaration of Independence.",
+    "detailedExplanation": "Thomas Jefferson was selected by the Continental Congress in June 1776 to draft the Declaration of Independence. Though he worked with a committee that included Benjamin Franklin and John Adams, Jefferson wrote the initial draft and is credited as the primary author. The document was formally adopted on July 4, 1776, and Jefferson's eloquent writing established the philosophical foundation for American independence.",
+    "citationUrl": "https://en.wikipedia.org/wiki/United_States_Declaration_of_Independence",
+    "citationTitle": "Wikipedia: United States Declaration of Independence"
+  },
+  {
+    "id": "4e92114d-6920-45ba-a397-28154c4dc434",
+    "text": "Which European country provided crucial military support to the American colonists during the Revolution?",
+    "options": [
+      "Spain",
+      "France",
+      "Prussia",
+      "Netherlands"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "France provided essential military aid, supplies, and naval support to the American colonies.",
+    "detailedExplanation": "France became America's most important ally during the Revolutionary War, officially entering the conflict in 1778. Motivated by their rivalry with Britain and desire for revenge after the Seven Years' War, France provided crucial military supplies, financial aid, troops, and naval support. The French fleet's assistance was particularly vital in the decisive victory at Yorktown in 1781, effectively ending the war.",
+    "citationUrl": "https://en.wikipedia.org/wiki/France_in_the_American_Revolutionary_War",
+    "citationTitle": "Wikipedia: France in the American Revolutionary War"
+  },
+  {
+    "id": "34be1204-4505-4592-81ee-95f7b3a99283",
+    "text": "What was the final major battle of the American Revolution?",
+    "options": [
+      "Battle of Saratoga",
+      "Battle of Yorktown",
+      "Battle of Bunker Hill",
+      "Battle of Trenton"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "The Battle of Yorktown in 1781 was the final major battle that led to British surrender.",
+    "detailedExplanation": "The Battle of Yorktown, fought from September 28 to October 19, 1781, was the last major battle of the American Revolution. British General Cornwallis and his army were trapped at Yorktown, Virginia, by American and French forces on land and the French fleet at sea. Cornwallis surrendered on October 19, 1781, effectively ending major combat operations and leading to peace negotiations.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Siege_of_Yorktown",
+    "citationTitle": "Wikipedia: Siege of Yorktown"
+  },
+  {
+    "id": "d2b032b7-1c2d-49f1-94c4-c29d593b47b7",
+    "text": "What famous act by the Boston Tea Party protesters occurred in 1773?",
+    "options": [
+      "Burned British ships",
+      "Dumped tea into Boston Harbor",
+      "Stormed the governor's mansion",
+      "Blocked all trade routes"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "Boston Tea Party protesters dumped 342 chests of British tea into Boston Harbor.",
+    "detailedExplanation": "On December 16, 1773, American colonists disguised as Native Americans dumped 342 chests of British East India Company tea into Boston Harbor to protest the Tea Act. This act of defiance was organized by the Sons of Liberty and was a direct response to British taxation without colonial representation in Parliament. The event significantly escalated tensions between Britain and the American colonies, leading to the punitive Coercive Acts in 1774.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Boston_Tea_Party",
+    "citationTitle": "Wikipedia: Boston Tea Party"
+  },
+  {
+    "id": "70f32d58-9637-4f4e-8217-aa6ac44699d5",
+    "text": "Who famously warned that 'The British are coming!' during his midnight ride?",
+    "options": [
+      "Samuel Adams",
+      "Paul Revere",
+      "John Hancock",
+      "Patrick Henry"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "Paul Revere made his famous midnight ride to warn of approaching British troops in 1775.",
+    "detailedExplanation": "Paul Revere made his legendary midnight ride on April 18, 1775, to warn Samuel Adams and John Hancock that British troops were marching toward Lexington and Concord. Though the famous phrase 'The British are coming!' was popularized by Henry Wadsworth Longfellow's 1861 poem, Revere likely used more discreet warnings since the countryside was filled with British patrols. His ride helped mobilize the colonial militia for the battles the next day.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Paul_Revere",
+    "citationTitle": "Wikipedia: Paul Revere"
+  },
+  {
+    "id": "b8a199f9-7374-4fca-bbda-bc16ad282716",
+    "text": "Which treaty officially ended the American Revolutionary War?",
+    "options": [
+      "Treaty of Paris",
+      "Treaty of Versailles",
+      "Treaty of London",
+      "Treaty of Boston"
+    ],
+    "correctIndex": 0,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "The Treaty of Paris, signed in 1783, officially ended the Revolutionary War.",
+    "detailedExplanation": "The Treaty of Paris was signed on September 3, 1783, officially ending the American Revolutionary War. The treaty was negotiated by American representatives Benjamin Franklin, John Adams, and John Jay. Under its terms, Britain recognized American independence, established borders extending to the Mississippi River, and agreed to withdraw all British troops from American territory. The treaty marked the formal conclusion of the conflict and America's emergence as a sovereign nation.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Treaty_of_Paris_(1783)",
+    "citationTitle": "Wikipedia: Treaty of Paris (1783)"
+  },
+  {
+    "id": "68d569ea-b843-465f-8790-2256535a43fa",
+    "text": "What was the slogan that summarized colonial opposition to British taxation policies?",
+    "options": [
+      "Give me liberty or give me death",
+      "Don't tread on me",
+      "No taxation without representation",
+      "United we stand"
+    ],
+    "correctIndex": 2,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "'No taxation without representation' became the rallying cry against British tax policies.",
+    "detailedExplanation": "'No taxation without representation' became the primary slogan expressing colonial grievances against British rule in the 1760s and 1770s. The phrase captured the colonists' fundamental objection to being taxed by the British Parliament when they had no elected representatives in that body. This principle became central to colonial resistance movements and was rooted in traditional English rights dating back to the Magna Carta, making it a powerful rallying cry for independence.",
+    "citationUrl": "https://en.wikipedia.org/wiki/No_taxation_without_representation",
+    "citationTitle": "Wikipedia: No taxation without representation"
+  },
+  {
+    "id": "3bf1d15c-efcd-43be-9a02-89eb69ff667c",
+    "text": "In what year did the American Revolution officially begin?",
+    "options": [
+      "1773",
+      "1775",
+      "1776",
+      "1778"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "The American Revolution began in 1775 with the battles of Lexington and Concord.",
+    "detailedExplanation": "The American Revolution officially began on April 19, 1775, when British troops marched from Boston to Concord to seize colonial weapons and arrest patriot leaders. This led to the famous battles of Lexington and Concord, often called 'the shot heard round the world,' marking the start of armed conflict between Britain and the American colonies.",
+    "citationUrl": "https://en.wikipedia.org/wiki/American_Revolutionary_War",
+    "citationTitle": "Wikipedia: American Revolutionary War"
+  },
+  {
+    "id": "8a12896d-f543-4275-b7ee-e6d54b7c0fd9",
+    "text": "Which document declared American independence from Britain?",
+    "options": [
+      "The Constitution",
+      "The Declaration of Independence",
+      "The Articles of Confederation",
+      "The Bill of Rights"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "The Declaration of Independence, adopted on July 4, 1776, declared American independence from Britain.",
+    "detailedExplanation": "The Declaration of Independence was drafted primarily by Thomas Jefferson and adopted by the Continental Congress on July 4, 1776. This document formally announced the thirteen American colonies' decision to break away from British rule and established the philosophical foundation for American independence, including the famous phrase 'Life, Liberty and the pursuit of Happiness.'",
+    "citationUrl": "https://en.wikipedia.org/wiki/United_States_Declaration_of_Independence",
+    "citationTitle": "Wikipedia: United States Declaration of Independence"
+  },
+  {
+    "id": "36364982-cecd-4200-898a-42b781e23707",
+    "text": "Which European country was America's most important ally during the Revolutionary War?",
+    "options": [
+      "Spain",
+      "France",
+      "Netherlands",
+      "Prussia"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "France was America's most crucial ally, providing military support, supplies, and naval assistance.",
+    "detailedExplanation": "France became America's most important ally during the Revolutionary War, motivated by their desire to weaken Britain following their defeat in the Seven Years' War. French support included military advisors like Marquis de Lafayette, crucial naval support that helped win the Battle of Yorktown, weapons, supplies, and financial aid. The French alliance was formalized in 1778 and proved decisive in American victory.",
+    "citationUrl": "https://en.wikipedia.org/wiki/France_in_the_American_Revolutionary_War",
+    "citationTitle": "Wikipedia: France in the American Revolutionary War"
+  },
+  {
+    "id": "7d399be9-8027-4f8c-9bd4-998e15eb4475",
+    "text": "What was the Boston Tea Party a protest against?",
+    "options": [
+      "High tea prices",
+      "Tea taxation without representation",
+      "Poor quality tea",
+      "Tea import bans"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "The Boston Tea Party protested British taxation on tea without colonial representation in Parliament.",
+    "detailedExplanation": "The Boston Tea Party occurred on December 16, 1773, when American colonists disguised as Native Americans dumped 342 chests of British tea into Boston Harbor. This act of defiance was a protest against the Tea Act of 1773, which gave the British East India Company a monopoly on tea sales in the colonies while maintaining a tax on tea. The colonists opposed this 'taxation without representation' since they had no voice in the British Parliament that imposed these taxes.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Boston_Tea_Party",
+    "citationTitle": "Wikipedia: Boston Tea Party"
+  },
+  {
+    "id": "9cec8a09-21da-4180-81cb-95d5ab24814f",
+    "text": "Which famous pamphlet helped inspire American colonists to support independence?",
+    "options": [
+      "Common Sense",
+      "The Federalist Papers",
+      "Poor Richard's Almanack",
+      "Letters from a Farmer"
+    ],
+    "correctIndex": 0,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "Thomas Paine's 'Common Sense' persuaded many colonists to support independence from Britain.",
+    "detailedExplanation": "Published in January 1776, Thomas Paine's pamphlet 'Common Sense' played a crucial role in swaying public opinion toward independence. Written in plain language that ordinary colonists could understand, it argued against monarchy and hereditary rule while making the case for American independence. The pamphlet sold over 500,000 copies and was widely read throughout the colonies, helping to build popular support for the revolutionary cause.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Common_Sense",
+    "citationTitle": "Wikipedia: Common Sense"
+  },
+  {
+    "id": "7fb295f3-3fdc-4557-9e9a-baaf024cc7c8",
+    "text": "What treaty officially ended the American Revolutionary War?",
+    "options": [
+      "Treaty of Paris",
+      "Treaty of Versailles",
+      "Treaty of London",
+      "Treaty of Boston"
+    ],
+    "correctIndex": 0,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "The Treaty of Paris, signed in 1783, officially ended the American Revolutionary War.",
+    "detailedExplanation": "The Treaty of Paris was signed on September 3, 1783, officially ending the American Revolutionary War between Great Britain and the United States. The treaty recognized American independence, established borders for the new nation extending from the Atlantic Ocean to the Mississippi River, and secured important fishing rights. Negotiated by American diplomats including Benjamin Franklin, John Adams, and John Jay, this treaty marked the formal conclusion of America's fight for independence.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Treaty_of_Paris_(1783)",
+    "citationTitle": "Wikipedia: Treaty of Paris (1783)"
+  },
+  {
+    "id": "251efaaf-881b-449d-ad82-1ad6a87a91aa",
+    "text": "What was the rallying cry that protested British taxation without colonial representation in Parliament?",
+    "options": [
+      "Give me liberty or give me death",
+      "No taxation without representation",
+      "Don't tread on me",
+      "Join or die"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "\"No taxation without representation\" became the famous slogan protesting British tax policies.",
+    "detailedExplanation": "\"No taxation without representation\" became the primary rallying cry of American colonists who opposed British tax policies like the Stamp Act and Tea Act. The phrase expressed the colonists' fundamental objection to being taxed by the British Parliament when they had no elected representatives in that body to voice their interests. This principle, rooted in English constitutional tradition, became a central justification for colonial resistance and eventually revolution.",
+    "citationUrl": "https://en.wikipedia.org/wiki/No_taxation_without_representation",
+    "citationTitle": "Wikipedia: No taxation without representation"
+  },
+  {
+    "id": "7cfe5351-20ff-4b8b-8c3a-13f1e9c630dc",
+    "text": "Which European country became America's most important ally during the Revolutionary War?",
+    "options": [
+      "Spain",
+      "France",
+      "Netherlands",
+      "Prussia"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "France provided crucial military and financial support to the American colonists throughout the war.",
+    "detailedExplanation": "France became America's most vital ally during the Revolutionary War, formally entering the conflict in 1778 after the American victory at Saratoga convinced them that the colonists could actually win. French support included naval assistance, military supplies, financial aid, and thousands of troops. The French fleet's role in the decisive Battle of Yorktown in 1781 was particularly crucial in securing American independence. France's motivation was largely to weaken their longtime rival, Great Britain.",
+    "citationUrl": "https://en.wikipedia.org/wiki/France_in_the_American_Revolutionary_War",
+    "citationTitle": "Wikipedia: France in the American Revolutionary War"
+  },
+  {
+    "id": "39cf8902-ef3d-454e-aea4-64b7d423de5b",
+    "text": "Which document, signed in 1776, formally declared the American colonies' independence from British rule?",
+    "options": [
+      "The Declaration of Independence",
+      "The Articles of Confederation",
+      "The Constitution",
+      "The Bill of Rights"
+    ],
+    "correctIndex": 0,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "The Declaration of Independence was signed on July 4, 1776, formally declaring American independence from Britain.",
+    "detailedExplanation": "The Declaration of Independence, primarily authored by Thomas Jefferson, was adopted by the Continental Congress on July 4, 1776. This historic document announced that the thirteen American colonies were no longer subject to British rule and were now free and independent states. The document outlined the colonists' grievances against King George III and established the philosophical foundation for the new nation, including the famous phrase 'Life, Liberty and the pursuit of Happiness.' The other options came later: the Articles of Confederation (1781), the Constitution (1787), and the Bill of Rights (1791).",
+    "citationUrl": "https://en.wikipedia.org/wiki/United_States_Declaration_of_Independence",
+    "citationTitle": "Wikipedia: United States Declaration of Independence"
+  },
+  {
+    "id": "c1c32c33-79d4-45b7-9469-dd9a74744e0e",
+    "text": "In what year did the American Revolution begin with the famous 'shot heard round the world'?",
+    "options": [
+      "1773",
+      "1775",
+      "1776",
+      "1778"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "The American Revolution began in 1775 with the Battles of Lexington and Concord.",
+    "detailedExplanation": "The American Revolution officially began on April 19, 1775, with the Battles of Lexington and Concord in Massachusetts. These skirmishes between British troops and colonial militia marked the first military engagements of the Revolutionary War. The phrase 'shot heard round the world' comes from Ralph Waldo Emerson's 1837 poem 'Concord Hymn,' which commemorated the battle at Concord's North Bridge.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Battles_of_Lexington_and_Concord",
+    "citationTitle": "Wikipedia: Battles of Lexington and Concord"
+  },
+  {
+    "id": "ba7812e0-f571-4cbc-bafb-ffa70eb9f9fe",
+    "text": "Which document, adopted on July 4, 1776, formally declared American independence from Britain?",
+    "options": [
+      "The Constitution",
+      "The Bill of Rights",
+      "The Declaration of Independence",
+      "The Articles of Confederation"
+    ],
+    "correctIndex": 2,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "The Declaration of Independence was adopted on July 4, 1776, declaring the thirteen colonies' independence from British rule.",
+    "detailedExplanation": "The Declaration of Independence was primarily written by Thomas Jefferson and adopted by the Continental Congress on July 4, 1776. This document formally announced that the thirteen American colonies were no longer subject to British rule and had become free and independent states. It outlined the colonists' grievances against King George III and established the philosophical foundation for American democracy, including the famous phrase that 'all men are created equal.'",
+    "citationUrl": "https://en.wikipedia.org/wiki/United_States_Declaration_of_Independence",
+    "citationTitle": "Wikipedia: United States Declaration of Independence"
+  },
+  {
+    "id": "8830fd2a-746a-45a5-8133-c485e64f8600",
+    "text": "Who was the commanding general of the Continental Army during the American Revolution?",
+    "options": [
+      "Benjamin Franklin",
+      "Thomas Jefferson",
+      "George Washington",
+      "John Adams"
+    ],
+    "correctIndex": 2,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "George Washington served as the commanding general of the Continental Army throughout the American Revolution.",
+    "detailedExplanation": "George Washington was appointed commander-in-chief of the Continental Army by the Second Continental Congress on June 15, 1775. Despite facing numerous challenges including poorly equipped troops, supply shortages, and harsh winters, Washington successfully led the colonial forces against the British for eight years. His leadership during difficult periods like the winter at Valley Forge and his strategic victories, including the surprise attack at Trenton, were crucial to American victory in the war.",
+    "citationUrl": "https://en.wikipedia.org/wiki/George_Washington_in_the_American_Revolution",
+    "citationTitle": "Wikipedia: George Washington in the American Revolution"
+  }
+]

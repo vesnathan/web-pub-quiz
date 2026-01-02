@@ -1,0 +1,342 @@
+[
+  {
+    "id": "b5555ba3-ff3c-4074-841d-cfdc90709fbe",
+    "text": "Which is the world's highest mountain peak?",
+    "options": [
+      "Mount Everest",
+      "K2",
+      "Kangchenjunga",
+      "Mount McKinley"
+    ],
+    "correctIndex": 0,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "Mount Everest stands at 8,848.86 meters (29,031.7 feet) above sea level.",
+    "detailedExplanation": "Mount Everest, located in the Himalayas on the border between Nepal and Tibet, is officially recognized as the world's highest mountain peak. Known as 'Sagarmatha' in Nepali and 'Chomolungma' in Tibetan, it was first successfully summited by Edmund Hillary and Tenzing Norgay in 1953. The mountain continues to grow about 4mm per year due to tectonic activity.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Mount_Everest",
+    "citationTitle": "Wikipedia: Mount Everest"
+  },
+  {
+    "id": "db414d8b-1141-4043-a7d7-97a292dddfd7",
+    "text": "The Alps mountain range runs through which continent?",
+    "options": [
+      "Asia",
+      "Europe",
+      "North America",
+      "South America"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "The Alps are a major mountain range system located in south-central Europe.",
+    "detailedExplanation": "The Alps stretch approximately 1,200 kilometers across eight countries in Europe, including France, Switzerland, Italy, Austria, Germany, Slovenia, Liechtenstein, and Monaco. This iconic mountain range is famous for its dramatic peaks, glaciers, and Alpine culture, and serves as a major watershed for Europe, giving rise to rivers like the Rhine, Rhône, and Po.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Alps",
+    "citationTitle": "Wikipedia: Alps"
+  },
+  {
+    "id": "44cd3da1-9f07-4899-8742-d0a217b1a51a",
+    "text": "Which mountain range contains Mount McKinley (Denali)?",
+    "options": [
+      "Rocky Mountains",
+      "Cascade Range",
+      "Alaska Range",
+      "Sierra Nevada"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "Denali (formerly Mount McKinley) is located in the Alaska Range in south-central Alaska.",
+    "detailedExplanation": "Denali, which stands at 20,310 feet (6,190 meters), is the highest peak in North America and is situated within the Alaska Range. The mountain was officially renamed from Mount McKinley to Denali in 2015, restoring its original Alaska Native name meaning 'the high one.' The Alaska Range extends roughly 650 kilometers through the south-central portion of Alaska.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Denali",
+    "citationTitle": "Wikipedia: Denali"
+  },
+  {
+    "id": "d999f575-6be3-42e2-a668-0f6dca974e29",
+    "text": "The Andes mountain range is primarily located on which continent?",
+    "options": [
+      "Africa",
+      "Asia",
+      "South America",
+      "Australia"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "The Andes is the longest continental mountain range in the world, running along South America's western coast.",
+    "detailedExplanation": "The Andes mountain range stretches about 7,000 kilometers (4,350 miles) along the western edge of South America, passing through seven countries: Venezuela, Colombia, Ecuador, Peru, Bolivia, Chile, and Argentina. It's not only the longest continental mountain range but also the highest mountain range outside of Asia, with numerous peaks exceeding 6,000 meters in elevation.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Andes",
+    "citationTitle": "Wikipedia: Andes"
+  },
+  {
+    "id": "2433955c-f856-4251-86c3-5dfc24ade4cf",
+    "text": "Mount Kilimanjaro, Africa's highest peak, is located in which country?",
+    "options": [
+      "Kenya",
+      "Tanzania",
+      "Ethiopia",
+      "South Africa"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "Mount Kilimanjaro is located in northern Tanzania, near the border with Kenya.",
+    "detailedExplanation": "Mount Kilimanjaro rises 19,341 feet (5,895 meters) above sea level and is actually a stratovolcano with three volcanic cones. Located in Kilimanjaro National Park in northern Tanzania, it's famous for being the highest free-standing mountain in the world and is one of the Seven Summits. Despite being near the equator, its peak is permanently snow-capped, though climate change is threatening its glaciers.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Mount_Kilimanjaro",
+    "citationTitle": "Wikipedia: Mount Kilimanjaro"
+  },
+  {
+    "id": "a53759fa-84fb-45b3-9e7e-0083fd842fa6",
+    "text": "Which mountain range forms the backbone of the Italian peninsula?",
+    "options": [
+      "Pyrenees",
+      "Carpathians",
+      "Apennines",
+      "Dinaric Alps"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "The Apennine Mountains run down the length of the Italian peninsula like a backbone.",
+    "detailedExplanation": "The Apennine Mountains, also called the Apennines, extend approximately 1,200 kilometers down the Italian peninsula from north to south. Starting from the northwest near Genoa and running to the southern tip of Calabria, these mountains form the geological backbone of Italy. The range continues into Sicily as the Sicilian Apennines and includes the famous Mount Vesuvius near Naples.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Apennine_Mountains",
+    "citationTitle": "Wikipedia: Apennine Mountains"
+  },
+  {
+    "id": "7b8d2fc4-ea39-4181-89e0-55834a40fb6a",
+    "text": "The Himalayas are primarily located in which continent?",
+    "options": [
+      "Europe",
+      "Asia",
+      "Africa",
+      "North America"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "The Himalayas are a mountain range in Asia, separating the plains of the Indian subcontinent from the Tibetan Plateau.",
+    "detailedExplanation": "The Himalayan mountain range spans across five countries in Asia: India, Nepal, Bhutan, China (Tibet), and Pakistan. This massive mountain system contains the world's highest peaks, including Mount Everest, and was formed by the collision of the Indian and Eurasian tectonic plates. The Himalayas are home to numerous peaks over 7,000 meters and serve as the source of major Asian river systems including the Ganges, Indus, and Brahmaputra.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Himalayas",
+    "citationTitle": "Wikipedia: Himalayas"
+  },
+  {
+    "id": "33edb1d0-6ad4-4986-9488-28fe320577c4",
+    "text": "Which mountain range separates Europe from Asia?",
+    "options": [
+      "Caucasus Mountains",
+      "Ural Mountains",
+      "Carpathian Mountains",
+      "Scandinavian Mountains"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "The Ural Mountains form the traditional boundary between European Russia and Asian Russia.",
+    "detailedExplanation": "The Ural Mountains run roughly north-south through western Russia for about 2,500 kilometers, from the Arctic Ocean to the Ural River and northwestern Kazakhstan. While the distinction between Europe and Asia is largely cultural and historical rather than geological, the Urals have long served as the traditional boundary between these two continents. The range is relatively low compared to other major mountain systems, with the highest peak being Mount Narodnaya at 1,894 meters.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Ural_Mountains",
+    "citationTitle": "Wikipedia: Ural Mountains"
+  },
+  {
+    "id": "4bd1c1d2-4744-4887-a51a-759a73b6f16b",
+    "text": "What is the highest mountain peak in the world?",
+    "options": [
+      "Mount Everest",
+      "K2",
+      "Mount McKinley",
+      "Mount Kilimanjaro"
+    ],
+    "correctIndex": 0,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "Mount Everest stands at 29,032 feet (8,849 meters) above sea level.",
+    "detailedExplanation": "Mount Everest, located in the Himalayas on the border between Nepal and Tibet, is the Earth's highest mountain above sea level. Known as Sagarmatha in Nepali and Chomolungma in Tibetan, it was first successfully climbed by Edmund Hillary and Tenzing Norgay in 1953. The mountain continues to grow slightly each year due to tectonic activity.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Mount_Everest",
+    "citationTitle": "Wikipedia: Mount Everest"
+  },
+  {
+    "id": "0520c51e-8736-4ac9-b19f-14d17746981b",
+    "text": "Which mountain range contains Mount Everest?",
+    "options": [
+      "The Alps",
+      "The Himalayas",
+      "The Andes",
+      "The Rocky Mountains"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "The Himalayas stretch across several Asian countries and contain the world's highest peaks.",
+    "detailedExplanation": "The Himalayas are a mountain range in South and East Asia separating the plains of the Indian subcontinent from the Tibetan Plateau. The range has many of Earth's highest peaks, including the highest, Mount Everest. The Himalayas include over fifty mountains exceeding 7,200 meters in elevation and span across five countries: Bhutan, China, India, Nepal, and Pakistan.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Himalayas",
+    "citationTitle": "Wikipedia: Himalayas"
+  },
+  {
+    "id": "17ac0fda-8156-4432-a5e3-fac2c7955edc",
+    "text": "What is the longest mountain range in the world?",
+    "options": [
+      "The Himalayas",
+      "The Rocky Mountains",
+      "The Andes",
+      "The Alps"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "The Andes stretch approximately 7,000 kilometers along South America's western coast.",
+    "detailedExplanation": "The Andes mountain range extends along the entire western coast of South America, running through seven countries: Venezuela, Colombia, Ecuador, Peru, Bolivia, Chile, and Argentina. At about 7,000 kilometers long, it is the longest continental mountain range in the world and contains the highest peaks outside of Asia, including Aconcagua in Argentina.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Andes",
+    "citationTitle": "Wikipedia: Andes"
+  },
+  {
+    "id": "4946b8b1-ef33-4acf-99ed-44e5f9c9afba",
+    "text": "Which mountain is famously known as the 'Matterhorn'?",
+    "options": [
+      "A peak in the Rocky Mountains",
+      "A peak in the Alps",
+      "A peak in the Himalayas",
+      "A peak in the Andes"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "The Matterhorn is an iconic pyramidal peak located on the border between Switzerland and Italy.",
+    "detailedExplanation": "The Matterhorn is a mountain of the Alps, straddling the main watershed and border between Switzerland and Italy. It is a large, near-symmetrical pyramidal peak in the extended Monte Rosa area of the Pennine Alps. The mountain overlooks the Swiss town of Zermatt and the Italian town of Breuil-Cervinia. It is one of the most photographed mountains in the world and has become an iconic symbol of the Alps.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Matterhorn",
+    "citationTitle": "Wikipedia: Matterhorn"
+  },
+  {
+    "id": "f28715f9-c622-4f93-ab32-079c538ff8c5",
+    "text": "What is the highest peak in North America?",
+    "options": [
+      "Mount McKinley (Denali)",
+      "Mount Whitney",
+      "Mount Rainier",
+      "Mount Washington"
+    ],
+    "correctIndex": 0,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "Denali in Alaska stands at 20,310 feet, making it North America's highest peak.",
+    "detailedExplanation": "Denali, formerly known as Mount McKinley, is the highest mountain peak in North America, with a summit elevation of 20,310 feet above sea level. Located in Alaska, it is the centerpiece of Denali National Park and Preserve. The mountain was officially renamed Denali in 2015, restoring its original Alaska Native name, which means 'the high one' in the native Koyukon language.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Denali",
+    "citationTitle": "Wikipedia: Denali"
+  },
+  {
+    "id": "fafac2f4-ca24-4352-8094-31885ae10887",
+    "text": "Which African mountain is famous for being the continent's highest peak?",
+    "options": [
+      "Mount Kenya",
+      "Mount Stanley",
+      "Mount Kilimanjaro",
+      "Mount Elgon"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "Mount Kilimanjaro in Tanzania rises to 19,341 feet above sea level.",
+    "detailedExplanation": "Mount Kilimanjaro is a stratovolcano in Tanzania, near the border with Kenya. It comprises three volcanic cones: Kibo, Mawenzi, and Shira. It is the highest mountain in Africa and the highest single free-standing mountain in the world, rising approximately 4,900 meters from its base. The mountain is famous for its snow-capped peak despite being located just south of the equator, though climate change has significantly reduced its glacial coverage.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Mount_Kilimanjaro",
+    "citationTitle": "Wikipedia: Mount Kilimanjaro"
+  },
+  {
+    "id": "189cdef0-a55b-4fad-96ea-422e304f97a2",
+    "text": "In which mountain range would you find Mount Rushmore?",
+    "options": [
+      "The Appalachian Mountains",
+      "The Sierra Nevada",
+      "The Black Hills",
+      "The Cascade Range"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "Mount Rushmore is carved into granite in the Black Hills of South Dakota.",
+    "detailedExplanation": "Mount Rushmore National Memorial is a massive sculpture carved into the granite face of Mount Rushmore in the Black Hills region of South Dakota. The Black Hills are a small, isolated mountain range rising from the Great Plains. The memorial features 60-foot sculptures of the heads of four former U.S. presidents: George Washington, Thomas Jefferson, Theodore Roosevelt, and Abraham Lincoln, carved by sculptor Gutzon Borglum between 1927 and 1941.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Mount_Rushmore",
+    "citationTitle": "Wikipedia: Mount Rushmore"
+  },
+  {
+    "id": "2d6439f4-fac4-4cad-85fe-1b3ddac7aeec",
+    "text": "Which European mountain range separates France from Spain?",
+    "options": [
+      "The Alps",
+      "The Carpathians",
+      "The Pyrenees",
+      "The Apennines"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "The Pyrenees form a natural border between France and Spain, stretching from the Atlantic to the Mediterranean.",
+    "detailedExplanation": "The Pyrenees are a range of mountains in southwest Europe that form a natural border between France and Spain. They separate the Iberian Peninsula from the rest of continental Europe, stretching 491 kilometers from the Bay of Biscay (Cap Higuer) to the Mediterranean Sea (Cap de Creus). The tiny principality of Andorra is situated in the eastern Pyrenees, between France and Spain. The highest peak is Aneto at 3,404 meters.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Pyrenees",
+    "citationTitle": "Wikipedia: Pyrenees"
+  },
+  {
+    "id": "3f803d9b-9f0f-44e1-8831-2e641a3b4786",
+    "text": "Which mountain range contains Mount Everest, the world's highest peak?",
+    "options": [
+      "The Andes",
+      "The Himalayas",
+      "The Rocky Mountains",
+      "The Alps"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "Mount Everest is located in the Himalayas on the border between Nepal and Tibet.",
+    "detailedExplanation": "The Himalayas are a mountain range in Asia separating the plains of the Indian subcontinent from the Tibetan Plateau. Mount Everest, standing at 29,032 feet (8,849 meters) above sea level, is located in the Mahalangur Himal sub-range of the Himalayas, straddling the border between Nepal and Tibet (China). The Himalayas contain many of the world's highest peaks, including the fourteen peaks over 8,000 meters.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Mount_Everest",
+    "citationTitle": "Wikipedia: Mount Everest"
+  },
+  {
+    "id": "e058270e-94a8-45ef-a9a8-7caa76ccaa7f",
+    "text": "The Andes mountain range runs along the western coast of which continent?",
+    "options": [
+      "North America",
+      "Africa",
+      "South America",
+      "Europe"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "The Andes are the longest continental mountain range in the world, extending along South America's western coast.",
+    "detailedExplanation": "The Andes mountain range stretches approximately 7,000 kilometers (4,300 miles) along the western coast of South America, passing through seven countries: Venezuela, Colombia, Ecuador, Peru, Bolivia, Chile, and Argentina. It is the longest continental mountain range in the world and contains the highest peaks in the Western Hemisphere, including Aconcagua in Argentina, which stands at 22,837 feet (6,961 meters).",
+    "citationUrl": "https://en.wikipedia.org/wiki/Andes",
+    "citationTitle": "Wikipedia: Andes"
+  },
+  {
+    "id": "293c887e-0c06-46ee-8467-d6ab6f800f79",
+    "text": "Which famous peak is known as the 'Matterhorn'?",
+    "options": [
+      "A peak in the Swiss Alps",
+      "A peak in the Rocky Mountains",
+      "A peak in the Himalayas",
+      "A peak in the Andes"
+    ],
+    "correctIndex": 0,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "The Matterhorn is an iconic pyramid-shaped mountain peak located in the Swiss Alps on the border between Switzerland and Italy.",
+    "detailedExplanation": "The Matterhorn is a mountain in the Pennine Alps on the border between Switzerland and Italy. Standing at 14,692 feet (4,478 meters), it is one of the most recognizable mountains in the world due to its distinctive pyramid shape and near-symmetrical faces. The mountain overlooks the Swiss town of Zermatt and the Italian town of Breuil-Cervinia, and it has become an iconic symbol of the Swiss Alps and Switzerland itself.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Matterhorn",
+    "citationTitle": "Wikipedia: Matterhorn"
+  },
+  {
+    "id": "490b559f-0895-4f13-b751-1a71e0d88e9c",
+    "text": "Mount McKinley, now officially called Denali, is the highest peak in which country?",
+    "options": [
+      "Canada",
+      "United States",
+      "Russia",
+      "Norway"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "Denali (formerly Mount McKinley) is located in Alaska and is the highest mountain peak in North America.",
+    "detailedExplanation": "Denali, located in Alaska's Denali National Park, stands at 20,310 feet (6,190 meters) above sea level, making it the highest mountain peak in North America. The mountain was officially renamed from Mount McKinley to Denali in 2015, restoring its original Alaska Native name, which means 'the high one' in the Koyukon language. The peak is part of the Alaska Range and presents one of the most challenging climbs in the world due to its extreme weather conditions and high altitude.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Denali",
+    "citationTitle": "Wikipedia: Denali"
+  }
+]

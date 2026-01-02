@@ -37,12 +37,46 @@ Conditions:
     - !Not [!Equals [!Ref CertificateArn, ""]]
 
 Resources:
+  # CloudFront Function for URL rewriting (Next.js static export uses flat .html files)
+  UrlRewriteFunction:
+    Type: AWS::CloudFront::Function
+    Properties:
+      Name: !Sub "${AppName}-url-rewrite-${Stage}"
+      AutoPublish: true
+      FunctionConfig:
+        Comment: "Rewrites /path to /path.html for Next.js static export"
+        Runtime: cloudfront-js-2.0
+      FunctionCode: |
+        function handler(event) {
+          var request = event.request;
+          var uri = request.uri;
+
+          // If root path, let DefaultRootObject handle it
+          if (uri === '/') {
+            return request;
+          }
+
+          // If URI already has a file extension, pass through
+          if (uri.includes('.')) {
+            return request;
+          }
+
+          // Remove trailing slash if present
+          if (uri.endsWith('/')) {
+            uri = uri.slice(0, -1);
+          }
+
+          // Append .html extension
+          request.uri = uri + '.html';
+          return request;
+        }
+
   # Origin Access Control for S3
   CloudFrontOAC:
     Type: AWS::CloudFront::OriginAccessControl
     Properties:
       OriginAccessControlConfig:
-        Name: !Sub "${AppName}-frontend-oac-${Stage}-${AWS::AccountId}"
+        Name: !Sub "${AppName}-frontend-oac-${Stage}"
         Description: !Sub "OAC for ${AppName} frontend ${Stage}"
         OriginAccessControlOriginType: s3
         SigningBehavior: always
@@ -86,14 +120,17 @@ Resources:
             - HEAD
           Compress: true
           CachePolicyId: 658327ea-f89d-4fab-a63d-7e88639e58f6  # CachingOptimized
+          FunctionAssociations:
+            - EventType: viewer-request
+              FunctionARN: !GetAtt UrlRewriteFunction.FunctionARN
         CustomErrorResponses:
           - ErrorCode: 403
-            ResponseCode: 200
-            ResponsePagePath: /index.html
+            ResponseCode: 404
+            ResponsePagePath: /404.html
             ErrorCachingMinTTL: 0
           - ErrorCode: 404
-            ResponseCode: 200
-            ResponsePagePath: /index.html
+            ResponseCode: 404
+            ResponsePagePath: /404.html
             ErrorCachingMinTTL: 0
         PriceClass: PriceClass_100  # US, Canada, Europe
         HttpVersion: http2and3

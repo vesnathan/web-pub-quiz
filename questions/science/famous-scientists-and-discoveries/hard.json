@@ -1,0 +1,342 @@
+[
+  {
+    "id": "91572e84-9058-424f-ac05-5cd764434f93",
+    "text": "Which scientist discovered the structure of benzene after reportedly dreaming of a snake eating its own tail?",
+    "options": [
+      "Friedrich August Kekulé",
+      "Dmitri Mendeleev",
+      "Louis Pasteur",
+      "Marie Curie"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Friedrich August Kekulé discovered the ring structure of benzene in 1865, allegedly inspired by a dream of a snake seizing its own tail.",
+    "detailedExplanation": "Friedrich August Kekulé's discovery of benzene's ring structure was one of the most important breakthroughs in organic chemistry. According to his own account, the insight came to him in a dream where he saw a snake seizing its own tail, leading him to propose the cyclic structure of benzene. This discovery revolutionized our understanding of aromatic compounds and laid the foundation for modern organic chemistry.",
+    "citationUrl": "https://en.wikipedia.org/wiki/August_Kekul%C3%A9",
+    "citationTitle": "Wikipedia: August Kekulé"
+  },
+  {
+    "id": "61e6b9a7-f244-4611-bdf6-1f82d35959c0",
+    "text": "What was the name of the famous thought experiment proposed by Erwin Schrödinger to illustrate the absurdity of quantum superposition?",
+    "options": [
+      "Schrödinger's Dog",
+      "Schrödinger's Cat",
+      "Schrödinger's Bird",
+      "Schrödinger's Mouse"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Schrödinger's Cat is the famous thought experiment where a cat in a box is simultaneously alive and dead until observed.",
+    "detailedExplanation": "Erwin Schrödinger proposed this thought experiment in 1935 to illustrate what he saw as the problem with the Copenhagen interpretation of quantum mechanics when applied to everyday objects. The experiment imagines a cat sealed in a box with a Geiger counter, radioactive sample, hammer, and poison. According to quantum mechanics, the cat would be in a superposition of being simultaneously alive and dead until the box is opened and observed.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Schr%C3%B6dinger%27s_cat",
+    "citationTitle": "Wikipedia: Schrödinger's cat"
+  },
+  {
+    "id": "b3b0685c-9db7-49f8-837e-e2f08caed03a",
+    "text": "Which scientist's work on pea plants established the fundamental laws of inheritance, though his findings were largely ignored during his lifetime?",
+    "options": [
+      "Charles Darwin",
+      "Gregor Mendel",
+      "Alfred Russel Wallace",
+      "Jean-Baptiste Lamarck"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Gregor Mendel's experiments with pea plants in the 1860s established the basic principles of heredity, but weren't recognized until after his death.",
+    "detailedExplanation": "Gregor Mendel, an Austrian monk, conducted systematic experiments with pea plants from 1856 to 1863, discovering the fundamental laws of inheritance including dominant and recessive traits. His work, published in 1866, was largely ignored by the scientific community until it was rediscovered in 1900 by three independent researchers. Today, Mendel is known as the father of genetics, and his laws form the foundation of modern genetics.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Gregor_Mendel",
+    "citationTitle": "Wikipedia: Gregor Mendel"
+  },
+  {
+    "id": "0e36ab08-c50e-4841-95a9-34f43b478a0e",
+    "text": "Who developed the first successful polio vaccine using killed virus, leading to mass immunization campaigns in the 1950s?",
+    "options": [
+      "Albert Sabin",
+      "Jonas Salk",
+      "Thomas Francis",
+      "John Enders"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Jonas Salk developed the first successful inactivated polio vaccine in 1952, which was widely distributed starting in 1955.",
+    "detailedExplanation": "Jonas Salk developed the first effective polio vaccine using killed poliovirus, announcing his success in 1955. The vaccine was tested in massive field trials involving over 1.8 million children. Salk famously refused to patent the vaccine, foregoing potential profits to ensure widespread availability. His work led to dramatic reductions in polio cases and paved the way for the near-eradication of the disease worldwide.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Jonas_Salk",
+    "citationTitle": "Wikipedia: Jonas Salk"
+  },
+  {
+    "id": "89e14eac-814e-46b0-b847-a9a494d9f71f",
+    "text": "Which scientist proposed the theory of continental drift in 1912, though it wasn't widely accepted until the 1960s?",
+    "options": [
+      "Harry Hess",
+      "Alfred Wegener",
+      "Arthur Holmes",
+      "J. Tuzo Wilson"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Alfred Wegener proposed continental drift in 1912, but lacked a mechanism to explain how continents moved until plate tectonics was developed.",
+    "detailedExplanation": "Alfred Wegener, a German meteorologist, proposed the theory of continental drift in 1912, suggesting that continents moved across Earth's surface over geological time. He provided evidence from fossil distributions, rock formations, and the fit of continental margins. However, his theory was largely rejected because he couldn't explain the mechanism for continental movement. It wasn't until the development of plate tectonics theory in the 1960s that his ideas gained widespread acceptance.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Alfred_Wegener",
+    "citationTitle": "Wikipedia: Alfred Wegener"
+  },
+  {
+    "id": "c5057437-0477-4b7f-a01f-d9e73d2d2f2e",
+    "text": "What discovery did Alexander Fleming make in 1928 when he noticed that a mold had contaminated one of his bacterial culture plates?",
+    "options": [
+      "Streptomycin",
+      "Penicillin",
+      "Chloramphenicol",
+      "Tetracycline"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Fleming discovered penicillin when he observed that Penicillium mold had killed bacteria in a contaminated culture plate.",
+    "detailedExplanation": "Alexander Fleming discovered penicillin in September 1928 when he returned from vacation to find that a Penicillium mold had contaminated one of his Staphylococcus culture plates and had killed the surrounding bacteria. This serendipitous discovery led to the development of the first true antibiotic, revolutionizing medicine and saving millions of lives. Fleming shared the 1945 Nobel Prize in Physiology or Medicine for this discovery.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Alexander_Fleming",
+    "citationTitle": "Wikipedia: Alexander Fleming"
+  },
+  {
+    "id": "d84f2692-8106-46b2-a75c-36195748d52f",
+    "text": "Which mathematician and computer scientist is credited with breaking the Enigma code during World War II and laying foundations for artificial intelligence?",
+    "options": [
+      "John von Neumann",
+      "Claude Shannon",
+      "Alan Turing",
+      "Norbert Wiener"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Alan Turing played a crucial role in breaking the Enigma code and later developed the Turing Test for artificial intelligence.",
+    "detailedExplanation": "Alan Turing was instrumental in breaking the German Enigma code during World War II while working at Bletchley Park. His work significantly shortened the war and saved countless lives. After the war, he made fundamental contributions to computer science and artificial intelligence, including the famous Turing Test to determine machine intelligence. Despite his contributions, he was persecuted for his homosexuality and died in 1954 at age 41.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Alan_Turing",
+    "citationTitle": "Wikipedia: Alan Turing"
+  },
+  {
+    "id": "3d8e858f-9e49-409b-8438-8e5547b2c76e",
+    "text": "Who discovered the cosmic microwave background radiation in 1965, providing crucial evidence for the Big Bang theory?",
+    "options": [
+      "Edwin Hubble and Milton Humason",
+      "Arno Penzias and Robert Wilson",
+      "George Gamow and Ralph Alpher",
+      "Fred Hoyle and Thomas Gold"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Arno Penzias and Robert Wilson accidentally discovered the cosmic microwave background while working on satellite communications.",
+    "detailedExplanation": "Arno Penzias and Robert Wilson of Bell Labs discovered the cosmic microwave background radiation in 1965 while trying to eliminate mysterious static from their radio antenna. This radiation, predicted by Big Bang theorists, provided the strongest evidence for the Big Bang theory and against the steady-state theory of the universe. Their discovery earned them the 1978 Nobel Prize in Physics and fundamentally changed our understanding of cosmology.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Cosmic_microwave_background",
+    "citationTitle": "Wikipedia: Cosmic microwave background"
+  },
+  {
+    "id": "f6dfcd1d-cbe8-4eab-a458-080a420b88cf",
+    "text": "Which scientist's Nobel Prize medal was dissolved in aqua regia during WWII to hide it from the Nazis, and was later recast after the war?",
+    "options": [
+      "Max von Laue",
+      "James Franck",
+      "Niels Bohr",
+      "Max Planck"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Max von Laue's Nobel Prize medal was dissolved by chemist George de Hevesy to hide it from Nazi authorities.",
+    "detailedExplanation": "During World War II, Hungarian chemist George de Hevesy dissolved Max von Laue's Nobel Prize medal in aqua regia (a mixture of nitric and hydrochloric acids) to prevent it from being confiscated by Nazi authorities in Copenhagen. The solution sat inconspicuously on a laboratory shelf throughout the war. After the war ended, de Hevesy precipitated the gold from the solution and sent it to the Nobel Foundation, where it was recast into a new medal for von Laue.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Max_von_Laue",
+    "citationTitle": "Wikipedia: Max von Laue"
+  },
+  {
+    "id": "969c992d-d0f2-412e-8804-da0b72f14521",
+    "text": "What phenomenon did Marie and Pierre Curie originally call 'Becquerel rays' before Marie coined the term we use today?",
+    "options": [
+      "Radioactivity",
+      "X-rays",
+      "Gamma radiation",
+      "Cathode rays"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Marie Curie coined the term 'radioactivity' to describe the phenomenon initially called 'Becquerel rays' after Henri Becquerel's discovery.",
+    "detailedExplanation": "Henri Becquerel discovered the spontaneous emission of radiation from uranium salts in 1896, initially calling this phenomenon 'Becquerel rays.' Marie Curie, while studying this same phenomenon for her doctoral thesis, coined the term 'radioactivity' in 1898 to describe the property of certain elements to spontaneously emit energy in the form of particles or electromagnetic waves. This terminology became the standard scientific nomenclature and led to her groundbreaking work isolating radium and polonium.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Marie_Curie",
+    "citationTitle": "Wikipedia: Marie Curie"
+  },
+  {
+    "id": "2e2834c1-7d22-4619-874f-f37cdf6f858a",
+    "text": "Which mathematician's last theorem remained unproven for 358 years until Andrew Wiles finally proved it in 1995?",
+    "options": [
+      "Euler's Last Theorem",
+      "Fermat's Last Theorem",
+      "Goldbach's Last Theorem",
+      "Riemann's Last Theorem"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Fermat's Last Theorem, proposed by Pierre de Fermat in 1637, was finally proven by Andrew Wiles in 1995.",
+    "detailedExplanation": "Pierre de Fermat wrote in the margin of his copy of Diophantus's Arithmetica around 1637 that he had discovered a 'truly marvelous proof' that no three positive integers a, b, and c satisfy the equation aⁿ + bⁿ = cⁿ for any integer value of n greater than 2. However, he claimed the margin was too narrow to contain the proof. This became known as Fermat's Last Theorem and remained one of mathematics' most famous unsolved problems until Andrew Wiles presented his proof in 1995, using sophisticated techniques far beyond what was available in Fermat's time.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Fermat%27s_Last_Theorem",
+    "citationTitle": "Wikipedia: Fermat's Last Theorem"
+  },
+  {
+    "id": "6d4597a5-3736-40a0-a788-c1fe6b5362af",
+    "text": "What did Rosalind Franklin call the two forms of DNA structure she discovered through X-ray crystallography?",
+    "options": [
+      "Alpha and Beta forms",
+      "Wet and Dry forms",
+      "A-form and B-form",
+      "Crystalline and Paracrystalline forms"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Franklin designated the two forms of DNA as A-form (dehydrated) and B-form (hydrated), with B-form being the famous double helix structure.",
+    "detailedExplanation": "Rosalind Franklin's meticulous X-ray crystallography work revealed that DNA could exist in two distinct structural forms depending on humidity conditions. She designated these as A-form (found under low humidity conditions) and B-form (found under high humidity conditions). Her famous 'Photo 51' showed the B-form structure, which provided crucial evidence for the helical structure of DNA. Franklin's precise measurements of both forms were instrumental in Watson and Crick's determination of the double helix structure, though her contributions were not fully recognized until after her death.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Rosalind_Franklin",
+    "citationTitle": "Wikipedia: Rosalind Franklin"
+  },
+  {
+    "id": "633bd215-06ba-49d7-818d-268de0b9829c",
+    "text": "Which element did Dmitri Mendeleev predict the existence of in 1871, calling it 'eka-silicon' before it was discovered in 1886?",
+    "options": [
+      "Gallium",
+      "Germanium",
+      "Scandium",
+      "Technetium"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Mendeleev predicted 'eka-silicon' in 1871, which was later discovered as germanium by Clemens Winkler in 1886.",
+    "detailedExplanation": "Dmitri Mendeleev's periodic table had gaps that he believed represented undiscovered elements. In 1871, he predicted the existence of an element he called 'eka-silicon' (meaning 'beyond silicon'), predicting its atomic weight, density, and chemical properties with remarkable accuracy. Fifteen years later, German chemist Clemens Winkler discovered this element in the mineral argyrodite and named it germanium after his homeland. The properties of germanium matched Mendeleev's predictions so closely that it provided strong validation for the periodic law and demonstrated the predictive power of the periodic table.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Germanium",
+    "citationTitle": "Wikipedia: Germanium"
+  },
+  {
+    "id": "edcf86e7-3a02-4426-942a-c9aadb6eb231",
+    "text": "What was the name of the thought experiment Einstein used to challenge the completeness of quantum mechanics, involving 'spooky action at a distance'?",
+    "options": [
+      "Schrödinger's cat",
+      "Maxwell's demon",
+      "EPR paradox",
+      "Zeno's paradox"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "The EPR paradox (Einstein-Podolsky-Rosen) was Einstein's thought experiment challenging quantum entanglement and non-locality.",
+    "detailedExplanation": "In 1935, Einstein, along with Boris Podolsky and Nathan Rosen, published a paper describing what became known as the EPR paradox. This thought experiment was designed to show that quantum mechanics was incomplete by highlighting the seemingly impossible phenomenon of quantum entanglement, where measuring one particle instantaneously affects its entangled partner regardless of distance. Einstein famously called this 'spooky action at a distance' and believed it indicated hidden variables that quantum mechanics failed to account for. However, later experiments, particularly those by John Stewart Bell and Alain Aspect, confirmed that quantum entanglement is real and Einstein's local realism was incorrect.",
+    "citationUrl": "https://en.wikipedia.org/wiki/EPR_paradox",
+    "citationTitle": "Wikipedia: EPR paradox"
+  },
+  {
+    "id": "09c800a1-fe16-4206-8873-6a71dff01c20",
+    "text": "Which scientist discovered the structure of benzene after claiming the solution came to him in a dream about a snake seizing its own tail?",
+    "options": [
+      "Friedrich Kekulé",
+      "Justus von Liebig",
+      "August Wilhelm von Hofmann",
+      "Adolf von Baeyer"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Friedrich Kekulé discovered benzene's ring structure in 1865, famously claiming inspiration came from a dream of a snake biting its own tail.",
+    "detailedExplanation": "Friedrich August Kekulé von Stradonitz proposed the ring structure of benzene in 1865, solving one of chemistry's most perplexing problems. According to his later account, the solution came to him in a dream where he saw a snake seizing its own tail, inspiring the idea of a circular structure. This breakthrough established the concept of aromatic compounds and cyclic structures in organic chemistry. While the historical accuracy of the dream story is debated by historians, Kekulé's discovery of benzene's structure was revolutionary and laid the foundation for modern organic chemistry and the understanding of aromatic compounds.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Friedrich_August_Kekul%C3%A9_von_Stradonitz",
+    "citationTitle": "Wikipedia: Friedrich August Kekulé von Stradonitz"
+  },
+  {
+    "id": "26711e7d-99ce-40cd-818e-f0163c0901d3",
+    "text": "What did Barbara McClintock call the genetic elements she discovered that could move within chromosomes, initially dismissed by the scientific community?",
+    "options": [
+      "Jumping genes",
+      "Mobile elements",
+      "Controlling elements",
+      "Transposable elements"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "McClintock originally called them 'controlling elements' - they're now known as transposable elements or transposons.",
+    "detailedExplanation": "Barbara McClintock discovered genetic elements that could move from one location to another within chromosomes during her work with corn in the 1940s and 1950s. She originally termed these 'controlling elements' because she observed they could control the expression of other genes. Her revolutionary findings were initially met with skepticism and dismissal from the scientific community, as they challenged the prevailing view that genes were fixed in their chromosomal positions. It wasn't until the 1970s that her work was vindicated when similar mobile genetic elements were found in bacteria and other organisms. These elements are now known as transposons or transposable elements, and McClintock received the Nobel Prize in 1983 for her groundbreaking discovery.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Barbara_McClintock",
+    "citationTitle": "Wikipedia: Barbara McClintock"
+  },
+  {
+    "id": "e5c94ef2-3fe8-427b-9fb5-6297e96dc68b",
+    "text": "Which Nobel Prize-winning scientist discovered the structure of benzene and is credited with the concept of chemical valence, but also accidentally discovered the carcinogenic properties of benzene through his own experiments?",
+    "options": [
+      "August Kekulé",
+      "Friedrich August Kekulé",
+      "Archibald Scott Couper",
+      "Edward Frankland"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Friedrich August Kekulé discovered benzene's ring structure and developed valence theory, but also identified benzene's toxic properties.",
+    "detailedExplanation": "Friedrich August Kekulé von Stradonitz was a German organic chemist who made groundbreaking contributions to structural theory in organic chemistry. He is most famous for discovering the ring structure of benzene in 1865, allegedly after having a dream about a snake seizing its own tail. Kekulé also developed the concept of chemical valence and structural formulas. Ironically, while working extensively with benzene, he documented its toxic effects, unknowingly contributing to the later understanding of its carcinogenic properties. His work laid the foundation for modern organic chemistry and earned him widespread recognition in the scientific community.",
+    "citationUrl": "https://en.wikipedia.org/wiki/August_Kekul%C3%A9",
+    "citationTitle": "Wikipedia: August Kekulé"
+  },
+  {
+    "id": "b316faf5-0f24-4473-b0b3-77008290f065",
+    "text": "Barbara McClintock won the Nobel Prize in 1983 for discovering what genetic phenomenon, decades before the scientific community accepted her findings?",
+    "options": [
+      "DNA fingerprinting",
+      "Jumping genes (transposons)",
+      "RNA interference",
+      "CRISPR gene editing"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Barbara McClintock discovered transposable elements or 'jumping genes' in the 1940s-50s, but wasn't recognized until the 1970s-80s.",
+    "detailedExplanation": "Barbara McClintock was an American geneticist who discovered genetic transposition or 'jumping genes' - DNA sequences that can move from one location to another within a genome. Working with corn in the 1940s and 1950s, she observed that genes could change position on chromosomes and affect the expression of nearby genes. Her revolutionary findings challenged the prevailing view that genes were fixed in their chromosomal positions. The scientific community largely ignored or dismissed her work for decades, considering it too radical. Only in the 1970s did molecular biology techniques confirm her discoveries, leading to her Nobel Prize in Physiology or Medicine in 1983 at age 81.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Barbara_McClintock",
+    "citationTitle": "Wikipedia: Barbara McClintock"
+  },
+  {
+    "id": "2f88c7e7-5a59-4817-b368-cc541ce5db1c",
+    "text": "Which physicist's thought experiment involving a cat in a box was actually intended to criticize a specific interpretation of quantum mechanics?",
+    "options": [
+      "Werner Heisenberg's uncertainty cat",
+      "Erwin Schrödinger's cat",
+      "Niels Bohr's quantum cat",
+      "Max Planck's probability cat"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Schrödinger's cat was designed to show the absurdity of the Copenhagen interpretation when applied to macroscopic objects.",
+    "detailedExplanation": "Erwin Schrödinger proposed his famous thought experiment in 1935 not to support quantum mechanics, but to illustrate what he saw as the problematic nature of the Copenhagen interpretation when applied to everyday objects. The thought experiment involves a cat in a sealed box with a quantum-triggered poison mechanism, suggesting the cat would be simultaneously alive and dead until observed - a superposition state. Schrödinger intended this paradox to demonstrate the absurdity of applying quantum superposition to macroscopic objects and to criticize the idea that quantum systems exist in all possible states simultaneously until measured. The paradox remains one of the most famous illustrations of the conceptual problems in quantum mechanics interpretation.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Schr%C3%B6dinger%27s_cat",
+    "citationTitle": "Wikipedia: Schrödinger's cat"
+  },
+  {
+    "id": "e6c4146c-6fb8-42ee-8b1b-5691303c17e6",
+    "text": "Rosalind Franklin's famous 'Photo 51' was crucial evidence for DNA's double helix structure, but she also made significant contributions to understanding the structure of which other biological molecule?",
+    "options": [
+      "Insulin",
+      "RNA and viral structures",
+      "Hemoglobin",
+      "Penicillin"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "After her DNA work, Franklin focused on RNA structure and virus architecture, particularly the tobacco mosaic virus.",
+    "detailedExplanation": "While Rosalind Franklin is best known for her X-ray crystallography work on DNA, including the famous 'Photo 51' that helped Watson and Crick determine DNA's helical structure, she made equally important contributions to understanding RNA and viral structures. After moving from King's College London to Birkbeck College in 1953, Franklin shifted her focus to RNA structure and virus architecture. She conducted pioneering research on the tobacco mosaic virus (TMV) and poliovirus, determining their structural organization and demonstrating how RNA was arranged within viral particles. Her work laid crucial groundwork for understanding viral structure and RNA function, contributions that were as significant as her DNA research but often overshadowed by the double helix discovery.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Rosalind_Franklin",
+    "citationTitle": "Wikipedia: Rosalind Franklin"
+  }
+]

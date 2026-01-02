@@ -1,0 +1,342 @@
+[
+  {
+    "id": "7858b17a-0210-4642-8035-a2791fdc2c07",
+    "text": "Which climate classification system is most widely used by geographers and climatologists worldwide?",
+    "options": [
+      "Köppen climate classification",
+      "Thornthwaite system",
+      "Trewartha climate classification",
+      "Holdridge life zones"
+    ],
+    "correctIndex": 0,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "The Köppen climate classification system is the most widely used climate classification system globally.",
+    "detailedExplanation": "Developed by German-Russian climatologist Wladimir Köppen in 1884 and later modified, the Köppen climate classification is based on the concept that native vegetation is the best expression of climate. It uses temperature and precipitation data to classify climates into five main groups (A, B, C, D, E) with various subdivisions. This system remains the standard for climate classification in geography, meteorology, and ecology textbooks worldwide.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Köppen_climate_classification",
+    "citationTitle": "Wikipedia: Köppen climate classification"
+  },
+  {
+    "id": "5a3d0b5b-f689-4efd-94d9-703d63a0d53f",
+    "text": "What is the defining characteristic of a Mediterranean climate (Köppen Csa/Csb)?",
+    "options": [
+      "Hot, humid summers and mild winters",
+      "Dry summers and wet winters",
+      "Uniform rainfall throughout the year",
+      "Cold, dry winters and hot, wet summers"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "Mediterranean climates are characterized by dry summers and wet, mild winters.",
+    "detailedExplanation": "Mediterranean climates, found in regions like coastal California, central Chile, southwestern Australia, and the Mediterranean Basin, experience a distinctive seasonal pattern where most precipitation falls during the cooler months (winter) while summers are predominantly dry. This pattern is caused by the seasonal shift of high-pressure systems that block rainfall during summer months. The combination of dry summers and wet winters creates ideal conditions for specific vegetation types, including drought-resistant shrubs and trees.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Mediterranean_climate",
+    "citationTitle": "Wikipedia: Mediterranean climate"
+  },
+  {
+    "id": "a2d0e82f-bcc1-411c-948c-85187158d511",
+    "text": "Which of these cities experiences a tropical savanna climate with distinct wet and dry seasons?",
+    "options": [
+      "Singapore",
+      "Darwin, Australia",
+      "Manaus, Brazil",
+      "Honolulu, Hawaii"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "Darwin experiences a tropical savanna climate (Aw) with pronounced wet and dry seasons.",
+    "detailedExplanation": "Darwin, located in northern Australia, has a tropical savanna climate characterized by two distinct seasons: a wet season (October to April) with heavy monsoon rains and high humidity, and a dry season (May to September) with little to no rainfall and lower humidity. Singapore and Manaus have tropical rainforest climates with year-round precipitation, while Honolulu has a tropical semi-arid climate with more moderate seasonal variation.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Tropical_savanna_climate",
+    "citationTitle": "Wikipedia: Tropical savanna climate"
+  },
+  {
+    "id": "b0517576-dc80-4851-bd8c-0019b7a12cc1",
+    "text": "At approximately what latitude do you typically find the boundaries between tropical and subtropical climate zones?",
+    "options": [
+      "15° North and South",
+      "23.5° North and South",
+      "30° North and South",
+      "40° North and South"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "The boundaries between tropical and subtropical climates typically occur around 30° North and South latitude.",
+    "detailedExplanation": "While 23.5° North and South mark the Tropics of Cancer and Capricorn respectively, the actual climatic boundaries between tropical and subtropical zones generally occur around 30° latitude. This is where the subtropical high-pressure belts are located, creating the transition from the consistently warm tropical climates to the more seasonally variable subtropical climates. These high-pressure systems also contribute to the formation of many of the world's major deserts at these latitudes.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Subtropics",
+    "citationTitle": "Wikipedia: Subtropics"
+  },
+  {
+    "id": "c2a47b98-4d35-4bda-aad7-46d267404b69",
+    "text": "Which climate zone is characterized by permafrost and is represented by the Köppen classification 'ET'?",
+    "options": [
+      "Boreal/Taiga",
+      "Alpine",
+      "Tundra",
+      "Ice cap"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "Tundra climate (ET) is characterized by permafrost and temperatures too cold for tree growth.",
+    "detailedExplanation": "The tundra climate (ET in Köppen classification) is found in regions where the warmest month averages between 0°C and 10°C (32°F to 50°F). This climate supports low-growing vegetation like mosses, lichens, and small shrubs, but is too cold for trees to grow. Permafrost (permanently frozen subsoil) is a defining characteristic. Tundra climates are found in northern Canada, Alaska, northern Russia, and high mountain elevations. The 'EF' classification represents ice cap climates, which are even colder.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Tundra",
+    "citationTitle": "Wikipedia: Tundra"
+  },
+  {
+    "id": "8d7031a4-4a05-4dbc-86ff-683c93abfade",
+    "text": "What causes the formation of desert climates around 30° North and South latitude?",
+    "options": [
+      "Ocean currents",
+      "Mountain barriers",
+      "Subtropical high-pressure belts",
+      "Distance from the equator"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "Subtropical high-pressure belts around 30° latitude create descending air that suppresses precipitation, forming deserts.",
+    "detailedExplanation": "The Hadley Cell circulation pattern causes air to rise at the equator, move poleward at high altitude, then descend around 30° North and South latitude, creating subtropical high-pressure belts. This descending air warms and dries as it compresses, creating stable atmospheric conditions that suppress cloud formation and precipitation. This is why many of the world's major hot deserts, including the Sahara, Arabian, Kalahari, and Australian deserts, are located near these latitudes.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Horse_latitudes",
+    "citationTitle": "Wikipedia: Horse latitudes"
+  },
+  {
+    "id": "21d249e2-bc8c-4226-9c0d-70067f502196",
+    "text": "Which climate type is characterized by hot, humid summers and cold winters, with precipitation throughout the year?",
+    "options": [
+      "Humid subtropical (Cfa)",
+      "Marine west coast (Cfb)",
+      "Humid continental (Dfa/Dfb)",
+      "Subarctic (Dfc)"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "Humid continental climates have hot summers, cold winters, and year-round precipitation.",
+    "detailedExplanation": "Humid continental climates (Dfa/Dfb in Köppen classification) are found in interior regions of large continents, typically between 40° and 60° latitude. They experience large seasonal temperature variations with hot, often humid summers and cold winters where the coldest month averages below -3°C (27°F). Precipitation occurs throughout the year, often with summer maximums due to convective thunderstorms. This climate is common in the northern United States, southern Canada, northern China, and eastern Europe.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Humid_continental_climate",
+    "citationTitle": "Wikipedia: Humid continental climate"
+  },
+  {
+    "id": "904024e4-a594-46d5-8162-7700ea706cfa",
+    "text": "Which ocean current phenomenon significantly influences the climate zones along western coasts of continents?",
+    "options": [
+      "Warm currents bringing tropical air",
+      "Cold upwelling currents",
+      "Tidal variations",
+      "Ocean gyres"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "Cold upwelling currents along western continental coasts moderate temperatures and create unique climate patterns.",
+    "detailedExplanation": "Cold upwelling currents, such as the California Current, Peru Current, and Canary Current, flow along the western coasts of continents, bringing cold, nutrient-rich water to the surface. These currents significantly moderate coastal temperatures, creating cooler summers than would be expected at those latitudes. They also contribute to the formation of marine layer clouds and fog, and help create the dry conditions that characterize many western coastal regions by stabilizing the atmosphere and suppressing precipitation.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Upwelling",
+    "citationTitle": "Wikipedia: Upwelling"
+  },
+  {
+    "id": "1a0588dc-bf3f-4342-97dc-8bc272bc7890",
+    "text": "Which climate zone is characterized by hot, wet summers and mild, dry winters?",
+    "options": [
+      "Mediterranean",
+      "Humid subtropical",
+      "Tropical savanna",
+      "Marine west coast"
+    ],
+    "correctIndex": 0,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "The Mediterranean climate features hot, dry summers and mild, wet winters, not hot wet summers.",
+    "detailedExplanation": "The Mediterranean climate zone, found in regions like Southern California, central Chile, and the Mediterranean Basin, is distinguished by its distinctive seasonal pattern of dry summers and wet winters. This climate supports unique vegetation like olive trees and cork oaks, and is ideal for wine production. The dry summer period is caused by high-pressure systems that block moisture, while winter brings most of the annual precipitation.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Mediterranean_climate",
+    "citationTitle": "Wikipedia: Mediterranean climate"
+  },
+  {
+    "id": "d1abdf5d-09ba-4cbf-9659-96dccc76836a",
+    "text": "What is the primary factor that determines the boundaries between different climate zones?",
+    "options": [
+      "Altitude",
+      "Latitude",
+      "Ocean currents",
+      "Vegetation type"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "Latitude is the primary factor determining climate zones as it controls solar radiation intensity.",
+    "detailedExplanation": "Latitude is the most fundamental factor in determining climate zones because it directly affects the angle and intensity of solar radiation received at different parts of Earth's surface. Areas near the equator receive more direct sunlight year-round, creating tropical climates, while polar regions receive less intense, seasonal sunlight. While altitude, ocean currents, and other factors modify local climates, the broad global climate zones are primarily organized by latitude bands.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Climate_classification",
+    "citationTitle": "Wikipedia: Climate classification"
+  },
+  {
+    "id": "aa9bec25-d7c3-495e-b266-7f75b138f760",
+    "text": "Which climate zone typically experiences the greatest annual temperature range?",
+    "options": [
+      "Tropical rainforest",
+      "Continental",
+      "Desert",
+      "Tundra"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "Continental climates have the greatest temperature range due to their inland location away from moderating ocean influences.",
+    "detailedExplanation": "Continental climates, found in the interior of large landmasses like central North America and Siberia, experience the greatest annual temperature ranges on Earth. These regions can see temperature swings of 40-60°C (72-108°F) between winter and summer. This extreme variation occurs because continental areas lack the moderating influence of nearby oceans, which would otherwise stabilize temperatures through their high heat capacity.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Continental_climate",
+    "citationTitle": "Wikipedia: Continental climate"
+  },
+  {
+    "id": "949da287-d8e0-44d5-a4ae-5a2ecc7923a6",
+    "text": "The Köppen climate classification system uses which two primary variables to define climate zones?",
+    "options": [
+      "Wind speed and humidity",
+      "Temperature and precipitation",
+      "Pressure and sunshine hours",
+      "Elevation and soil type"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "The Köppen system primarily uses temperature and precipitation patterns to classify climates.",
+    "detailedExplanation": "Developed by German climatologist Wladimir Köppen in the early 20th century, the Köppen climate classification system is based primarily on temperature and precipitation patterns, as these two variables most strongly influence the types of vegetation that can grow in different regions. The system uses specific temperature and precipitation thresholds to define boundaries between climate types, making it one of the most widely used climate classification systems in geography and climatology.",
+    "citationUrl": "https://en.wikipedia.org/wiki/K%C3%B6ppen_climate_classification",
+    "citationTitle": "Wikipedia: Köppen climate classification"
+  },
+  {
+    "id": "c87a9c24-61d4-42e7-aacd-51a904763fce",
+    "text": "Which climate zone is found between approximately 30° and 60° latitude in both hemispheres?",
+    "options": [
+      "Tropical",
+      "Temperate",
+      "Polar",
+      "Subarctic"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "The temperate climate zone is located between the subtropical and polar regions, roughly 30-60° latitude.",
+    "detailedExplanation": "The temperate climate zone occupies the middle latitudes between approximately 30° and 60° in both the Northern and Southern hemispheres. This zone is characterized by moderate temperatures, distinct seasons, and variable precipitation patterns. It includes several sub-types such as Mediterranean, oceanic, and continental climates. Most of the world's major population centers are located within this zone, including much of Europe, eastern North America, and parts of Asia and Australia.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Temperate_climate",
+    "citationTitle": "Wikipedia: Temperate climate"
+  },
+  {
+    "id": "9e5a8cce-2195-45e7-b5e9-ecaf5a310c37",
+    "text": "What defines the 'dry season' in a tropical savanna climate?",
+    "options": [
+      "Temperature below 18°C",
+      "Less than 60mm rainfall per month",
+      "Humidity below 40%",
+      "No cloud cover for 30 days"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "The dry season in tropical savanna is defined by months receiving less than 60mm of rainfall.",
+    "detailedExplanation": "Tropical savanna climates, also known as tropical wet and dry climates, are characterized by a pronounced dry season where monthly precipitation falls below 60mm (2.4 inches). This dry period typically lasts 3-8 months and is caused by the seasonal migration of the Intertropical Convergence Zone (ITCZ). During the dry season, many trees shed their leaves, grass becomes dormant, and wildlife congregates around water sources. This climate supports the iconic African savanna landscape with scattered trees and grasslands.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Tropical_savanna_climate",
+    "citationTitle": "Wikipedia: Tropical savanna climate"
+  },
+  {
+    "id": "e293e313-759e-48ac-bfbe-bfedb903a4a9",
+    "text": "Which ocean current significantly moderates the climate of Western Europe?",
+    "options": [
+      "Canary Current",
+      "Gulf Stream",
+      "Labrador Current",
+      "North Equatorial Current"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "The Gulf Stream brings warm water northward, significantly warming Western Europe's climate.",
+    "detailedExplanation": "The Gulf Stream is a powerful warm ocean current that originates in the Gulf of Mexico and flows northeastward across the Atlantic Ocean. As part of the larger North Atlantic Current system, it transports warm tropical water toward Western Europe, moderating the climate and making it significantly warmer than other regions at similar latitudes. Without this current, places like Britain and Norway would have much colder climates similar to Labrador, Canada, which lies at comparable latitudes but lacks this warming influence.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Gulf_Stream",
+    "citationTitle": "Wikipedia: Gulf Stream"
+  },
+  {
+    "id": "23596c0d-72d8-4482-9117-c6b7f66b8885",
+    "text": "At what elevation does the 'alpine' climate zone typically begin in tropical regions?",
+    "options": [
+      "1,500 meters",
+      "2,500 meters",
+      "3,500 meters",
+      "4,500 meters"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "Alpine climate typically begins around 3,500 meters elevation in tropical regions due to temperature decrease with altitude.",
+    "detailedExplanation": "In tropical regions, the alpine climate zone typically begins around 3,500 meters (11,500 feet) above sea level, though this can vary based on local conditions. At this elevation, temperatures drop sufficiently due to the environmental lapse rate (approximately 6.5°C per 1,000 meters) to create conditions similar to those found at much higher latitudes. This elevation marks the approximate treeline in tropical mountains, above which specialized alpine vegetation adapted to cold temperatures, intense UV radiation, and thin air begins to dominate.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Alpine_climate",
+    "citationTitle": "Wikipedia: Alpine climate"
+  },
+  {
+    "id": "7b30b8d9-8e63-4d69-8199-9c98286c05fc",
+    "text": "The Mediterranean climate zone is characterized by hot, dry summers and mild, wet winters. Which of these cities does NOT have a Mediterranean climate?",
+    "options": [
+      "Perth, Australia",
+      "San Diego, USA",
+      "Cape Town, South Africa",
+      "Miami, USA"
+    ],
+    "correctIndex": 3,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "Miami has a tropical climate with wet summers and dry winters, opposite to the Mediterranean pattern.",
+    "detailedExplanation": "Mediterranean climates are found in five regions worldwide: the Mediterranean Basin, California, central Chile, southwestern and southern Australia, and the Western Cape of South Africa. These areas are characterized by hot, dry summers and mild, wet winters due to their location between 30-40 degrees latitude. Miami, located in southern Florida, has a tropical climate with the opposite pattern - wet, humid summers and relatively dry winters, making it distinctly different from Mediterranean climate zones.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Mediterranean_climate",
+    "citationTitle": "Wikipedia: Mediterranean climate"
+  },
+  {
+    "id": "5acd9a1d-be32-4406-a7cb-aaec4e3264db",
+    "text": "The taiga, also known as the boreal forest, is associated with which climate zone?",
+    "options": [
+      "Humid continental",
+      "Subarctic",
+      "Tundra",
+      "Temperate oceanic"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "The taiga corresponds to the subarctic climate zone, characterized by long, cold winters and short, mild summers.",
+    "detailedExplanation": "The taiga or boreal forest is the world's largest terrestrial biome, stretching across Canada, Alaska, Russia, and Scandinavia. It corresponds to the subarctic climate zone (Köppen classification Dfc and Dfb), which experiences long, very cold winters and short, mild summers. This climate supports vast coniferous forests dominated by spruces, firs, and pines that are adapted to the harsh conditions. The subarctic climate is distinct from the tundra (which is colder with permafrost) and humid continental (which has warmer summers), making it a unique transitional zone between temperate and polar regions.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Subarctic_climate",
+    "citationTitle": "Wikipedia: Subarctic climate"
+  },
+  {
+    "id": "8b78f476-57ad-4935-b04a-f8486049ca2b",
+    "text": "Which climate classification system uses three-letter codes like 'Cfa' and 'BWh' to categorize world climates?",
+    "options": [
+      "Köppen climate classification",
+      "Thornthwaite system",
+      "Trewartha climate classification",
+      "Holdridge life zones"
+    ],
+    "correctIndex": 0,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "The Köppen climate classification system uses distinctive three-letter codes to categorize climates worldwide.",
+    "detailedExplanation": "The Köppen climate classification, developed by German climatologist Wladimir Köppen in the early 20th century, is the most widely used climate classification system. It uses a system of three letters to describe climate types, where the first letter indicates the main climate group (A=tropical, B=dry, C=temperate, D=continental, E=polar), the second letter describes precipitation patterns, and the third indicates temperature characteristics. For example, 'Cfa' represents a humid subtropical climate, while 'BWh' indicates a hot desert climate.",
+    "citationUrl": "https://en.wikipedia.org/wiki/K%C3%B6ppen_climate_classification",
+    "citationTitle": "Wikipedia: Köppen climate classification"
+  },
+  {
+    "id": "1678de60-0bc3-44ed-a173-75f68c12592f",
+    "text": "The Mediterranean climate zone is characterized by wet winters and dry summers. Which of these cities does NOT have a Mediterranean climate?",
+    "options": [
+      "Perth, Australia",
+      "San Diego, USA",
+      "Athens, Greece",
+      "Miami, USA"
+    ],
+    "correctIndex": 3,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "Miami has a tropical climate with wet summers and dry winters, opposite to the Mediterranean pattern.",
+    "detailedExplanation": "Mediterranean climates (Köppen classification Csa and Csb) are characterized by mild, wet winters and warm to hot, dry summers. This climate type is found in five main regions globally: the Mediterranean Basin, California, central Chile, southwestern Australia, and the Western Cape of South Africa. Perth, San Diego, and Athens all exhibit this pattern. However, Miami has a tropical climate with the opposite seasonal precipitation pattern - it experiences wet, humid summers due to the Atlantic hurricane season and drier winters, making it distinctly non-Mediterranean.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Mediterranean_climate",
+    "citationTitle": "Wikipedia: Mediterranean climate"
+  }
+]

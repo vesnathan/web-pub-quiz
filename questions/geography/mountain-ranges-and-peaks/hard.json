@@ -1,0 +1,342 @@
+[
+  {
+    "id": "15ab606c-ff83-4246-9741-a18ab9283591",
+    "text": "Which mountain peak holds the distinction of being the most prominent peak in the world (having the greatest vertical distance between its summit and the lowest contour line encircling it)?",
+    "options": [
+      "K2",
+      "Mount Everest",
+      "Denali",
+      "Mount McKinley"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "Mount Everest has the greatest topographic prominence at 8,848 meters.",
+    "detailedExplanation": "Topographic prominence measures the height of a mountain's summit above the lowest contour line encircling it and no higher summit. Mount Everest, being the highest point on Earth at 8,848 meters above sea level, has a prominence equal to its full height since there is no higher peak anywhere on the planet. This makes it not only the tallest mountain but also the most prominent peak in the world.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Topographic_prominence",
+    "citationTitle": "Wikipedia: Topographic prominence"
+  },
+  {
+    "id": "b4295b49-378b-4f9e-9c15-0efac9e0b2b6",
+    "text": "The Vinson Massif, Antarctica's highest mountain range, is located in which mountain system?",
+    "options": [
+      "Transantarctic Mountains",
+      "Ellsworth Mountains",
+      "Antarctic Peninsula Mountains",
+      "Queen Maud Mountains"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "The Vinson Massif is part of the Ellsworth Mountains in Antarctica.",
+    "detailedExplanation": "The Vinson Massif, containing Mount Vinson (4,892 meters), Antarctica's highest peak, is located within the Ellsworth Mountains. This mountain range is situated in the western part of Antarctica and was discovered in 1957. The Ellsworth Mountains are divided into two main groups: the Sentinel Range (which includes the Vinson Massif) and the Heritage Range. These mountains are significant as they represent some of the most challenging climbing conditions on Earth due to extreme cold and isolation.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Vinson_Massif",
+    "citationTitle": "Wikipedia: Vinson Massif"
+  },
+  {
+    "id": "9f728e30-6432-42e5-9840-9c2aa5bedd7e",
+    "text": "Which mountain range contains the geological formation known as the 'Roof of Africa' and includes several peaks over 4,000 meters?",
+    "options": [
+      "Atlas Mountains",
+      "Drakensberg Mountains",
+      "Ethiopian Highlands",
+      "Rwenzori Mountains"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "The Ethiopian Highlands are known as the 'Roof of Africa' with numerous peaks over 4,000 meters.",
+    "detailedExplanation": "The Ethiopian Highlands, often called the 'Roof of Africa,' form the largest continuous area of elevated land on the African continent. This massive plateau contains numerous peaks exceeding 4,000 meters, including Ras Dashen at 4,550 meters, which is the highest peak in Ethiopia and the fourth highest in Africa. The highlands cover most of Ethiopia and extend into Eritrea, creating a unique ecosystem that has been isolated for millions of years, leading to high levels of endemism in both flora and fauna.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Ethiopian_Highlands",
+    "citationTitle": "Wikipedia: Ethiopian Highlands"
+  },
+  {
+    "id": "f8fa507a-423f-47ca-9991-456124adc032",
+    "text": "Mount Erebus, one of the most active volcanoes in the world, is located in which mountain range?",
+    "options": [
+      "Transantarctic Mountains",
+      "Andes Mountains",
+      "Cascade Range",
+      "Antarctic Peninsula Mountains"
+    ],
+    "correctIndex": 0,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "Mount Erebus is located in the Transantarctic Mountains of Antarctica.",
+    "detailedExplanation": "Mount Erebus (3,794 meters) is an active stratovolcano located on Ross Island in the Transantarctic Mountains of Antarctica. It is famous for containing one of the few permanent lava lakes on Earth and is one of the most closely monitored volcanoes in the world despite its remote location. The Transantarctic Mountains divide Antarctica into East and West Antarctica and stretch across the entire continent for about 3,500 kilometers, making it one of the longest mountain ranges in the world.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Mount_Erebus",
+    "citationTitle": "Wikipedia: Mount Erebus"
+  },
+  {
+    "id": "1cbde8cf-8ace-4331-bbd1-604ea2c62cd8",
+    "text": "Which peak in the Karakoram range is known as the 'Savage Mountain' due to its extremely high fatality rate among climbers?",
+    "options": [
+      "Nanga Parbat",
+      "K2",
+      "Broad Peak",
+      "Gasherbrum I"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "K2 is known as the 'Savage Mountain' due to its dangerous climbing conditions and high fatality rate.",
+    "detailedExplanation": "K2, the second-highest mountain in the world at 8,611 meters, earned the nickname 'Savage Mountain' from climber George Bell after the disastrous 1953 American expedition. Located in the Karakoram range on the border between Pakistan and China, K2 is considered one of the most difficult and dangerous of the world's 8,000-meter peaks to climb. Its fatality rate historically has been around 25%, much higher than Mount Everest's rate, due to steep, rocky faces, unpredictable weather, and technical climbing challenges.",
+    "citationUrl": "https://en.wikipedia.org/wiki/K2",
+    "citationTitle": "Wikipedia: K2"
+  },
+  {
+    "id": "ca4f5605-dbcb-4059-9666-1aed3d095866",
+    "text": "The Brooks Range, extending across northern Alaska, represents the northernmost extension of which major mountain system?",
+    "options": [
+      "Rocky Mountains",
+      "Appalachian Mountains",
+      "Sierra Nevada",
+      "Cascade Range"
+    ],
+    "correctIndex": 0,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "The Brooks Range is the northernmost extension of the Rocky Mountain system.",
+    "detailedExplanation": "The Brooks Range stretches approximately 1,100 kilometers across northern Alaska from the Chukchi Sea to the Canadian border and represents the northernmost extension of the Rocky Mountain system. The range includes several subranges and contains Alaska's northernmost peaks, including Mount Isto at 2,736 meters. The Brooks Range serves as a continental divide, with rivers flowing north to the Arctic Ocean and south to the Pacific Ocean, and forms an important barrier that influences Alaska's climate patterns.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Brooks_Range",
+    "citationTitle": "Wikipedia: Brooks Range"
+  },
+  {
+    "id": "eca94eb3-082b-4f2e-a5d4-e3725b628265",
+    "text": "Which volcanic peak in the Cascade Range is considered the most dangerous volcano in the continental United States due to its proximity to populated areas?",
+    "options": [
+      "Mount Baker",
+      "Mount Rainier",
+      "Mount Hood",
+      "Mount Shasta"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "Mount Rainier is considered the most dangerous due to its large population exposure and lahar potential.",
+    "detailedExplanation": "Mount Rainier (4,392 meters) in Washington State is considered the most dangerous volcano in the continental United States primarily due to its massive glacial system and proximity to the Seattle-Tacoma metropolitan area, which houses over 3 million people. The mountain's greatest threat comes from lahars (volcanic mudflows) that could be triggered by relatively small eruptions, potentially reaching populated valleys within hours. The mountain has more glacial ice than any other peak in the contiguous United States, and its steep slopes and unstable volcanic deposits make it particularly prone to generating destructive debris flows.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Mount_Rainier",
+    "citationTitle": "Wikipedia: Mount Rainier"
+  },
+  {
+    "id": "212cc30f-6fa7-4af8-8e13-01445d4d5941",
+    "text": "The Dinaric Alps, extending along the eastern coast of the Adriatic Sea, are primarily composed of which type of rock, creating extensive cave systems?",
+    "options": [
+      "Granite",
+      "Limestone",
+      "Basalt",
+      "Sandstone"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "The Dinaric Alps are primarily composed of limestone, creating extensive karst landscapes and cave systems.",
+    "detailedExplanation": "The Dinaric Alps, stretching approximately 645 kilometers from Italy through Slovenia, Croatia, Bosnia and Herzegovina, Montenegro, and into Albania, are predominantly composed of limestone and dolomite rocks. This composition has created one of the world's most extensive karst landscapes, characterized by underground drainage systems, caves, sinkholes, and underground rivers. The region contains some of Europe's deepest cave systems and largest underground chambers, making it a globally significant karst region that has contributed greatly to our understanding of karst geomorphology.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Dinaric_Alps",
+    "citationTitle": "Wikipedia: Dinaric Alps"
+  },
+  {
+    "id": "69b380e1-c4af-4ada-84bf-e365fd19a748",
+    "text": "Which mountain peak has the highest prominence (vertical distance from base to summit) of any mountain on Earth?",
+    "options": [
+      "Mount Everest",
+      "Denali (Mount McKinley)",
+      "Mauna Kea",
+      "K2"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "Denali has a prominence of 6,144 meters, the highest of any mountain.",
+    "detailedExplanation": "While Mount Everest is the highest peak above sea level, Denali (formerly Mount McKinley) in Alaska has the greatest prominence of any mountain on Earth at 6,144 meters (20,156 feet). Prominence measures the vertical distance between a mountain's summit and the lowest contour line that encircles it and no higher summit. Denali's massive prominence is due to its dramatic rise from the relatively low-lying Alaskan terrain surrounding it.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Denali",
+    "citationTitle": "Wikipedia: Denali"
+  },
+  {
+    "id": "a63d979d-acfd-4629-969a-86055f53c60f",
+    "text": "Which of these mountain ranges was formed by the collision of the Indian and Eurasian tectonic plates approximately 50 million years ago?",
+    "options": [
+      "Hindu Kush",
+      "Karakoram",
+      "Pamir Mountains",
+      "All of the above"
+    ],
+    "correctIndex": 3,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "All three ranges were formed by the Indo-Eurasian collision that created the entire Himalayan orogenic system.",
+    "detailedExplanation": "The Hindu Kush, Karakoram, and Pamir Mountains are all part of the greater Himalayan orogenic system created by the collision of the Indian subcontinent with the Eurasian plate beginning approximately 50 million years ago. This massive geological event didn't just create the Himalayas proper, but an entire network of related mountain ranges across Central and South Asia. The ongoing collision continues to push these ranges upward, making them some of the most geologically active and highest mountain systems on Earth, often referred to collectively as the 'Third Pole' due to their extensive glaciation.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Himalayan_orogeny",
+    "citationTitle": "Wikipedia: Himalayan orogeny"
+  },
+  {
+    "id": "b7e41764-b62e-4dd9-b57d-9184dda74ab2",
+    "text": "What is the name of the highest unclimbed mountain in the world, located in Bhutan?",
+    "options": [
+      "Gangkar Puensum",
+      "Jomolhari",
+      "Kula Kangri",
+      "Rinchen Zoe La"
+    ],
+    "correctIndex": 0,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "Gangkar Puensum at 7,570 meters remains unclimbed due to Bhutan's climbing restrictions.",
+    "detailedExplanation": "Gangkar Puensum, standing at 7,570 meters (24,836 feet), holds the distinction of being the world's highest unclimbed mountain. Located on the border between Bhutan and Tibet, it remains unclimbed primarily due to Bhutan's prohibition on climbing mountains higher than 6,000 meters, implemented in 1994 for spiritual and environmental reasons. The mountain's name means 'White Peak of the Three Spiritual Brothers' in the local language. Several attempts were made to climb it in the 1980s and early 1990s, but none succeeded, and now the ban ensures it will likely remain untouched indefinitely.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Gangkhar_Puensum",
+    "citationTitle": "Wikipedia: Gangkhar Puensum"
+  },
+  {
+    "id": "45bfe2c2-70cf-461d-9f09-246f97ffd832",
+    "text": "The Pobeda Peak (Jengish Chokusu) is the highest point in which Central Asian mountain range?",
+    "options": [
+      "Altai Mountains",
+      "Tian Shan",
+      "Kopet Dag",
+      "Alborz Mountains"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "Pobeda Peak at 7,439 meters is the highest summit in the Tian Shan range.",
+    "detailedExplanation": "Pobeda Peak, also known as Jengish Chokusu, reaches 7,439 meters (24,406 feet) and is the highest point in the Tian Shan mountain system. Located on the border between Kyrgyzstan and China's Xinjiang region, this peak was first climbed in 1956 by a Soviet expedition. The Tian Shan, meaning 'Celestial Mountains' in Chinese, extends across several countries in Central Asia. Pobeda Peak is considered one of the most technically challenging 7,000-meter peaks due to its remote location, severe weather conditions, and complex route-finding requirements.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Jengish_Chokusu",
+    "citationTitle": "Wikipedia: Jengish Chokusu"
+  },
+  {
+    "id": "b1f0b007-cd10-4c62-831e-6b071c3188e3",
+    "text": "Which volcanic mountain range contains the highest peak in both North and South America?",
+    "options": [
+      "Cascade Range",
+      "Andes Mountains",
+      "Alaska Range",
+      "Sierra Nevada"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "The Andes contain Aconcagua (South America's highest) and many of North America's highest volcanic peaks.",
+    "detailedExplanation": "While the Andes Mountains contain Aconcagua (6,962m), the highest peak in South America, the question's premise about containing the highest peaks of both continents is actually incorrect. Denali (6,190m) in Alaska's Alaska Range is North America's highest peak, not a peak in the Andes. However, the Andes do form the world's longest continental mountain range and contain numerous high volcanic peaks. The range stretches along South America's western coast and includes many active volcanoes, with Ojos del Salado being the world's highest active volcano at 6,893 meters.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Andes",
+    "citationTitle": "Wikipedia: Andes"
+  },
+  {
+    "id": "d4417ec6-2895-463d-b855-0aa9a6390b7a",
+    "text": "The Rwenzori Mountains, also known as the 'Mountains of the Moon,' straddle the border between which two African countries?",
+    "options": [
+      "Kenya and Tanzania",
+      "Uganda and Democratic Republic of Congo",
+      "Rwanda and Burundi",
+      "Ethiopia and Eritrea"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "The Rwenzori Mountains form a natural border between Uganda and the Democratic Republic of Congo.",
+    "detailedExplanation": "The Rwenzori Mountains, famously dubbed the 'Mountains of the Moon' by the ancient geographer Ptolemy, form a 120-kilometer-long mountain range along the border between Uganda and the Democratic Republic of Congo. The range's highest peak, Margherita Peak on Mount Stanley, reaches 5,109 meters, making it the third-highest mountain in Africa after Kilimanjaro and Mount Kenya. Unlike these other high African peaks, the Rwenzori are not volcanic but were formed by tectonic uplifting. The range is renowned for its unique alpine flora, permanent glaciers (though rapidly retreating), and extremely wet climate.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Rwenzori_Mountains",
+    "citationTitle": "Wikipedia: Rwenzori Mountains"
+  },
+  {
+    "id": "70bfa252-48a7-4dba-a938-6cf1299766cb",
+    "text": "Mount Erebus, one of the world's southernmost active volcanoes, contains a permanent lava lake and is located in which Antarctic mountain range?",
+    "options": [
+      "Ellsworth Mountains",
+      "Transantarctic Mountains",
+      "Antarctic Peninsula Mountains",
+      "Gamburtsev Mountain Range"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "Mount Erebus is part of the Transantarctic Mountains on Ross Island.",
+    "detailedExplanation": "Mount Erebus, standing 3,794 meters tall, is located on Ross Island and is part of the Transantarctic Mountains. This remarkable volcano is famous for containing one of the world's few permanent lava lakes, which has been active for decades despite the extreme Antarctic conditions. The mountain was discovered in 1841 by James Clark Ross and named after one of his ships. Mount Erebus presents unique scientific opportunities, allowing researchers to study volcanic processes in extreme cold conditions. The persistent lava lake, combined with the mountain's remote location and harsh weather, makes it one of the most challenging and fascinating volcanoes for scientific study.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Mount_Erebus",
+    "citationTitle": "Wikipedia: Mount Erebus"
+  },
+  {
+    "id": "265f439a-c99a-42d8-96e4-728d9d88ae80",
+    "text": "Which mountain peak has the greatest vertical relief from base to summit when measured from its oceanic base?",
+    "options": [
+      "Mount Everest",
+      "Mauna Kea",
+      "Denali",
+      "Mount McKinley"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "Mauna Kea rises approximately 10,203 meters from the ocean floor to its summit, making it taller than Everest when measured from base to peak.",
+    "detailedExplanation": "While Mount Everest is the highest peak above sea level at 8,849 meters, Mauna Kea in Hawaii actually has the greatest vertical relief when measured from its true base on the ocean floor. The mountain rises approximately 10,203 meters (33,476 feet) from the Pacific Ocean floor to its summit, with about 4,207 meters above sea level and roughly 6,000 meters below. This makes it technically the tallest mountain on Earth when measured from base to summit, though Everest remains the highest above sea level.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Mauna_Kea",
+    "citationTitle": "Wikipedia: Mauna Kea"
+  },
+  {
+    "id": "50628a91-72e5-4af3-82ae-866ddcf2f45b",
+    "text": "Which mountain range contains the world's second-highest peak, K2, and extends across multiple countries in Central and South Asia?",
+    "options": [
+      "Hindu Kush",
+      "Pamir Mountains",
+      "Karakoram",
+      "Kunlun Mountains"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "K2, at 8,611 meters, is located in the Karakoram range, which spans Pakistan, India, and China.",
+    "detailedExplanation": "The Karakoram is a major mountain range spanning the borders of Pakistan, India, and China, located in the regions of Gilgit-Baltistan, Ladakh, and Xinjiang respectively. This range is home to K2 (8,611 meters), the world's second-highest peak, as well as four of the world's fourteen 8,000-meter peaks. The Karakoram is often considered more technically challenging for climbers than the Himalayas due to its steeper terrain and harsh weather conditions. The range contains some of the world's longest glaciers outside the polar regions, including the Siachen, Baltoro, and Biafo glaciers.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Karakoram",
+    "citationTitle": "Wikipedia: Karakoram"
+  },
+  {
+    "id": "440ec515-5f7d-4d48-9716-9cd6a6093976",
+    "text": "Mount Chimborazo in Ecuador holds which unique geographical distinction despite not being the world's highest peak above sea level?",
+    "options": [
+      "It's the most isolated peak on Earth",
+      "It's the furthest point from Earth's center",
+      "It has the steepest average gradient",
+      "It's the closest point to the Moon"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "Due to Earth's equatorial bulge, Mount Chimborazo's summit is the furthest point from Earth's center, despite being lower than Everest above sea level.",
+    "detailedExplanation": "Mount Chimborazo, standing at 6,263 meters above sea level, holds the unique distinction of having its summit as the furthest point from Earth's center. This is due to Earth's oblate shape - the planet bulges at the equator due to its rotation. Since Chimborazo is located just one degree south of the equator, this equatorial bulge places its summit approximately 2,168 meters further from Earth's center than Mount Everest's summit. In essence, while Everest is the highest point above sea level, Chimborazo's peak is technically the 'highest' point when measured from the planet's core, making it the closest point on Earth's surface to outer space.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Chimborazo",
+    "citationTitle": "Wikipedia: Chimborazo"
+  },
+  {
+    "id": "7b2a17f7-17d2-4def-98ae-b5af7992e40a",
+    "text": "The Dufourspitze, the highest peak entirely within Switzerland's borders, is part of which specific mountain massif?",
+    "options": [
+      "Matterhorn massif",
+      "Monte Rosa massif",
+      "Bernina massif",
+      "Finsteraarhorn massif"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "Dufourspitze (4,634m) is the highest point of the Monte Rosa massif and the highest peak completely within Switzerland.",
+    "detailedExplanation": "The Dufourspitze, standing at 4,634 meters, is the highest summit of the Monte Rosa massif and represents the highest point entirely within Switzerland's borders. The Monte Rosa massif straddles the border between Switzerland and Italy, with several peaks shared between the two countries. The Dufourspitze was named after Guillaume-Henri Dufour, a Swiss general and topographer who led the first official survey of Switzerland. While the Matterhorn might be more famous, it's actually lower at 4,478 meters. The Monte Rosa massif is notable for having multiple peaks over 4,000 meters and contains some of the largest glaciated areas in the Alps.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Dufourspitze",
+    "citationTitle": "Wikipedia: Dufourspitze"
+  },
+  {
+    "id": "2e2443ea-b569-4dee-bfa3-e793b6f1b61a",
+    "text": "Which mountain peak holds the distinction of being the most prominent mountain in North America, meaning it has the greatest vertical distance between its summit and the lowest contour line encircling it?",
+    "options": [
+      "Mount McKinley (Denali)",
+      "Mount Logan",
+      "Mount Saint Elias",
+      "Mount Foraker"
+    ],
+    "correctIndex": 0,
+    "category": "geography",
+    "difficulty": "hard",
+    "explanation": "Mount McKinley (Denali) has a topographic prominence of 6,144 meters, making it the most prominent peak in North America.",
+    "detailedExplanation": "Topographic prominence measures how much a mountain peak stands out from its surroundings by calculating the vertical distance between the summit and the lowest contour line encircling it before encountering higher ground. Mount McKinley, also known as Denali, in Alaska has an extraordinary prominence of 6,144 meters (20,156 feet), which is the highest prominence of any mountain in North America. This means that from its base to summit, Denali rises more dramatically than any other North American peak, contributing to its reputation as one of the most challenging and visually striking mountains on the continent.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Denali",
+    "citationTitle": "Wikipedia: Denali"
+  }
+]

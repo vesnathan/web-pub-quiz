@@ -1,0 +1,68 @@
+AWSTemplateFormatVersion: "2010-09-09"
+Description: "Quiz Night Live - ACM Certificates (must be deployed in us-east-1 for CloudFront)"
+
+Parameters:
+  Stage:
+    Type: String
+    Description: Deployment stage
+  AppName:
+    Type: String
+    Description: Application name
+  DomainName:
+    Type: String
+    Description: Domain name (e.g., quiznight.live)
+  HostedZoneId:
+    Type: String
+    Description: Route53 Hosted Zone ID for DNS validation
+
+Resources:
+  # Main certificate for CloudFront (domain + www)
+  MainCertificate:
+    Type: AWS::CertificateManager::Certificate
+    Properties:
+      DomainName: !Ref DomainName
+      SubjectAlternativeNames:
+        - !Sub "www.${DomainName}"
+      ValidationMethod: DNS
+      DomainValidationOptions:
+        - DomainName: !Ref DomainName
+          HostedZoneId: !Ref HostedZoneId
+        - DomainName: !Sub "www.${DomainName}"
+          HostedZoneId: !Ref HostedZoneId
+      Tags:
+        - Key: Name
+          Value: !Sub "${AppName}-main-certificate-${Stage}"
+        - Key: Project
+          Value: quiz-night-live
+        - Key: Stage
+          Value: !Ref Stage
+
+  # Auth subdomain certificate for Cognito custom domain
+  AuthCertificate:
+    Type: AWS::CertificateManager::Certificate
+    Properties:
+      DomainName: !Sub "auth.${DomainName}"
+      ValidationMethod: DNS
+      DomainValidationOptions:
+        - DomainName: !Sub "auth.${DomainName}"
+          HostedZoneId: !Ref HostedZoneId
+      Tags:
+        - Key: Name
+          Value: !Sub "${AppName}-auth-certificate-${Stage}"
+        - Key: Project
+          Value: quiz-night-live
+        - Key: Stage
+          Value: !Ref Stage
+
+Outputs:
+  MainCertificateArn:
+    Description: ARN of the main domain certificate
+    Value: !Ref MainCertificate
+    Export:
+      Name: !Sub "${AppName}-${Stage}-main-certificate-arn"
+
+  AuthCertificateArn:
+    Description: ARN of the auth subdomain certificate
+    Value: !Ref AuthCertificate
+    Export:
+      Name: !Sub "${AppName}-${Stage}-auth-certificate-arn"

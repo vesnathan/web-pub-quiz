@@ -13,11 +13,7 @@
         "cloudformation:DescribeStackResources",
         "cloudformation:GetTemplate"
       ],
-      "Resource": [
-        "arn:aws:cloudformation:*:430118819356:stack/qnl-*/*",
-        "arn:aws:cloudformation:*:430118819356:stack/quiz-night-live-*/*",
-        "arn:aws:cloudformation:*:430118819356:stack/quiz-night-live-*/*"
-      ]
+      "Resource": "arn:aws:cloudformation:*:430118819356:stack/quiz-night-live-*/*"
     },
     {
       "Sid": "CloudFormationList",
@@ -36,8 +32,8 @@
         "s3:GetBucketLocation"
       ],
       "Resource": [
-        "arn:aws:s3:::qnl-*",
-        "arn:aws:s3:::qnl-*/*"
+        "arn:aws:s3:::quiz-night-live-*",
+        "arn:aws:s3:::quiz-night-live-*/*"
       ]
     },
     {
@@ -54,7 +50,7 @@
       "Sid": "PassCFNRole",
       "Effect": "Allow",
       "Action": "iam:PassRole",
-      "Resource": "arn:aws:iam::430118819356:role/qnl-cfn-role",
+      "Resource": "arn:aws:iam::430118819356:role/quiz-night-live-cfn-role",
       "Condition": {
         "StringEquals": {
           "iam:PassedToService": "cloudformation.amazonaws.com"
@@ -65,7 +61,7 @@
       "Sid": "IAMReadRole",
       "Effect": "Allow",
       "Action": "iam:GetRole",
-      "Resource": "arn:aws:iam::430118819356:role/qnl-cfn-role"
+      "Resource": "arn:aws:iam::430118819356:role/quiz-night-live-cfn-role"
     },
     {
       "Sid": "CloudWatchLogs",
@@ -74,7 +70,7 @@
         "logs:DeleteLogGroup",
         "logs:DescribeLogGroups"
       ],
-      "Resource": "arn:aws:logs:*:430118819356:log-group:/aws/lambda/qnl-*"
+      "Resource": "arn:aws:logs:*:430118819356:log-group:/aws/lambda/quiz-night-live-*"
     }
   ]
 }

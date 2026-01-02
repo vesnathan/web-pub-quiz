@@ -110,6 +110,7 @@ async function createStripeCheckout(
       'metadata[tier]': event.tier.toString(),
       'subscription_data[metadata][userId]': event.userId,
       'subscription_data[metadata][tier]': event.tier.toString(),
+      'subscription_data[description]': 'App Builder Studio - QuizNight.live',
       allow_promotion_codes: 'true',
     }),
   });
@@ -176,7 +177,7 @@ async function createPayPalCheckout(
       plan_id: planId,
       custom_id: event.userId, // Used to link subscription to user
       application_context: {
-        brand_name: 'QuizNight.live',
+        brand_name: 'App Builder Studio',
         locale: 'en-AU',
         shipping_preference: 'NO_SHIPPING',
         user_action: 'SUBSCRIBE_NOW',

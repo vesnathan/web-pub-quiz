@@ -23,7 +23,12 @@ export interface RoomListItem {
   queuedPlayers: number; // Players waiting to join when window opens
   maxPlayers: number;
   status: RoomStatus;
+  disabled?: boolean; // If true, room is not joinable (not enough online players)
+  disabledReason?: string; // Reason for being disabled
 }
+
+// Players per room - add a new room for every N players online
+export const PLAYERS_PER_ROOM_THRESHOLD = 20;
 
 // Quiz-themed room name components
 export const ROOM_NAME_ADJECTIVES = [

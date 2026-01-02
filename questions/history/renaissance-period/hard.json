@@ -1,0 +1,342 @@
+[
+  {
+    "id": "eaba4f56-13f8-4e47-9415-5365267122af",
+    "text": "Which Florentine family banking house financed many Renaissance artists and effectively ruled Florence for much of the 15th century?",
+    "options": [
+      "The Borgias",
+      "The Medicis",
+      "The Sforzas",
+      "The Gonzagas"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "hard",
+    "explanation": "The Medici family were powerful bankers who became the de facto rulers of Florence and major patrons of Renaissance art.",
+    "detailedExplanation": "The Medici family rose to prominence through their banking empire, becoming one of the wealthiest families in Europe. They used their fortune to patronize artists like Michelangelo, Botticelli, and Brunelleschi, while also wielding significant political power in Florence. Their patronage system was crucial to the flourishing of Renaissance art and culture.",
+    "citationUrl": "https://en.wikipedia.org/wiki/House_of_Medici",
+    "citationTitle": "Wikipedia: House of Medici"
+  },
+  {
+    "id": "72d5aa1f-4f10-47d3-bc68-3dee8c447f06",
+    "text": "What innovative artistic technique, perfected during the Renaissance, creates the illusion of depth by making parallel lines appear to converge at a vanishing point?",
+    "options": [
+      "Chiaroscuro",
+      "Sfumato",
+      "Linear perspective",
+      "Contrapposto"
+    ],
+    "correctIndex": 2,
+    "category": "history",
+    "difficulty": "hard",
+    "explanation": "Linear perspective was a revolutionary technique that allowed Renaissance artists to create realistic three-dimensional space on flat surfaces.",
+    "detailedExplanation": "Linear perspective was systematically developed by architects and artists like Filippo Brunelleschi and Leon Battista Alberti in the early 15th century. This mathematical approach to representing space transformed art by allowing artists to create convincing illusions of depth and distance, marking a major departure from the flatter, more symbolic medieval artistic style.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Perspective_(graphical)",
+    "citationTitle": "Wikipedia: Perspective (graphical)"
+  },
+  {
+    "id": "740407b3-45f0-4d5f-b8e8-eae773435e1e",
+    "text": "Which Renaissance humanist scholar wrote 'The Prince,' a political treatise that argued rulers should be pragmatic rather than moral in their governance?",
+    "options": [
+      "Erasmus of Rotterdam",
+      "Niccolò Machiavelli",
+      "Thomas More",
+      "Baldassare Castiglione"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "hard",
+    "explanation": "Niccolò Machiavelli wrote 'The Prince' in 1513, introducing the concept that effective leadership sometimes requires morally questionable actions.",
+    "detailedExplanation": "Machiavelli's 'The Prince' was groundbreaking for its realistic, rather than idealistic, approach to politics. Written during his exile from Florence, the work analyzed how rulers could gain and maintain power through pragmatic means, coining the phrase 'the ends justify the means.' This marked a significant departure from medieval political theory that emphasized Christian virtue in leadership.",
+    "citationUrl": "https://en.wikipedia.org/wiki/The_Prince",
+    "citationTitle": "Wikipedia: The Prince"
+  },
+  {
+    "id": "ebc0cfa1-da6e-4ea8-adbb-2b4369501bfd",
+    "text": "What term describes the Renaissance belief that humans could achieve greatness through education, reason, and individual effort rather than divine intervention alone?",
+    "options": [
+      "Scholasticism",
+      "Humanism",
+      "Nominalism",
+      "Empiricism"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "hard",
+    "explanation": "Renaissance Humanism emphasized human potential, dignity, and achievement through classical learning and individual development.",
+    "detailedExplanation": "Renaissance Humanism emerged in 14th century Italy, emphasizing the study of classical texts, languages, and literature. Humanists like Petrarch and Pico della Mirandola believed in human dignity and the capacity for individual achievement through education and reason. This philosophical movement shifted focus from purely theological concerns to include secular learning and human experience, fundamentally changing European intellectual culture.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Renaissance_humanism",
+    "citationTitle": "Wikipedia: Renaissance humanism"
+  },
+  {
+    "id": "3daae2e3-fd8f-40e3-a504-90333508a105",
+    "text": "Which Pope commissioned Michelangelo to paint the ceiling of the Sistine Chapel between 1508 and 1512?",
+    "options": [
+      "Pope Alexander VI",
+      "Pope Julius II",
+      "Pope Leo X",
+      "Pope Paul III"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "hard",
+    "explanation": "Pope Julius II, known as the 'Warrior Pope,' commissioned Michelangelo to paint the Sistine Chapel ceiling as part of his ambitious artistic patronage.",
+    "detailedExplanation": "Pope Julius II was one of the most influential Renaissance popes, known for his military campaigns and extensive patronage of the arts. He initially commissioned Michelangelo to create his tomb, but then assigned him the monumental task of painting the Sistine Chapel ceiling. The project took four years to complete and resulted in one of the most famous artistic achievements in Western art, depicting scenes from Genesis across over 5,000 square feet of ceiling.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Pope_Julius_II",
+    "citationTitle": "Wikipedia: Pope Julius II"
+  },
+  {
+    "id": "529ab3c1-9a72-47cf-b3f3-d9430b7d2859",
+    "text": "What revolutionary printing innovation by Johannes Gutenberg around 1440 dramatically increased the spread of Renaissance ideas across Europe?",
+    "options": [
+      "Woodblock printing",
+      "Movable metal type",
+      "Paper manufacturing",
+      "Ink formulation"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "hard",
+    "explanation": "Gutenberg's movable metal type printing press allowed for mass production of books, revolutionizing the spread of knowledge and ideas.",
+    "detailedExplanation": "Johannes Gutenberg's development of movable metal type around 1440 in Mainz, Germany, transformed European society by making books affordable and widely available. His printing press could produce books much faster and cheaper than hand-copying, leading to increased literacy rates and the rapid spread of Renaissance humanist ideas, scientific knowledge, and religious texts across Europe. The Gutenberg Bible, printed around 1455, was among the first major books produced using this technology.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Johannes_Gutenberg",
+    "citationTitle": "Wikipedia: Johannes Gutenberg"
+  },
+  {
+    "id": "63583308-d02e-49dc-82eb-1c622a2be306",
+    "text": "Which Renaissance architect designed the dome of Florence Cathedral, an engineering marvel that was completed without traditional scaffolding?",
+    "options": [
+      "Leon Battista Alberti",
+      "Andrea Palladio",
+      "Filippo Brunelleschi",
+      "Donato Bramante"
+    ],
+    "correctIndex": 2,
+    "category": "history",
+    "difficulty": "hard",
+    "explanation": "Filippo Brunelleschi engineered the innovative double-shell dome of Florence Cathedral using revolutionary construction techniques.",
+    "detailedExplanation": "Brunelleschi's dome for Florence Cathedral (Santa Maria del Fiore) was completed in 1436 and represented a triumph of Renaissance engineering. The dome was built using a revolutionary double-shell design and innovative construction techniques that eliminated the need for traditional wooden scaffolding. This architectural achievement demonstrated the Renaissance synthesis of classical learning with innovative problem-solving, inspiring a generation of architects and establishing Brunelleschi as the father of Renaissance architecture.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Filippo_Brunelleschi",
+    "citationTitle": "Wikipedia: Filippo Brunelleschi"
+  },
+  {
+    "id": "f6306773-6d01-4d8e-93bf-e489d0c2882c",
+    "text": "Which Polish astronomer published 'De revolutionibus orbium coelestium' in 1543, proposing that the sun, not Earth, was the center of the solar system?",
+    "options": [
+      "Tycho Brahe",
+      "Johannes Kepler",
+      "Galileo Galilei",
+      "Nicolaus Copernicus"
+    ],
+    "correctIndex": 3,
+    "category": "history",
+    "difficulty": "hard",
+    "explanation": "Nicolaus Copernicus proposed the heliocentric model of the solar system, fundamentally challenging medieval cosmology.",
+    "detailedExplanation": "Copernicus's 'De revolutionibus orbium coelestium' (On the Revolutions of the Celestial Spheres) presented the first comprehensive heliocentric model since ancient times, arguing that Earth and other planets orbit the sun. Published in the year of his death, this work initiated the Scientific Revolution and challenged the geocentric Ptolemaic system that had dominated European thinking for over a millennium. Though initially controversial, the Copernican model laid the foundation for modern astronomy.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Nicolaus_Copernicus",
+    "citationTitle": "Wikipedia: Nicolaus Copernicus"
+  },
+  {
+    "id": "8fa1b48b-665e-4b70-8ed2-ce1afc33a259",
+    "text": "Which Florentine banking family's financial innovations, including double-entry bookkeeping and letters of credit, helped fund much of the early Renaissance?",
+    "options": [
+      "The Pazzi",
+      "The Medici",
+      "The Strozzi",
+      "The Albizzi"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "hard",
+    "explanation": "The Medici family pioneered banking innovations that provided the financial foundation for Renaissance art and culture.",
+    "detailedExplanation": "The Medici Bank, established by Giovanni di Bicci de' Medici in 1397, became the largest and most respected bank in Europe during the 15th century. Their innovations in international finance, including sophisticated accounting methods and credit systems, generated enormous wealth that they used to patronize artists like Michelangelo, Donatello, and Brunelleschi. The family's financial empire extended across Europe with branches in major cities, making them instrumental in funding the cultural explosion of the Renaissance.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Medici_Bank",
+    "citationTitle": "Wikipedia: Medici Bank"
+  },
+  {
+    "id": "55b8fffb-5edf-4c0b-b126-b770be998e15",
+    "text": "The Peace of Lodi in 1454 established a balance of power between which five major Italian states during the Renaissance?",
+    "options": [
+      "Venice, Florence, Milan, Papal States, and Naples",
+      "Genoa, Pisa, Siena, Rome, and Bologna",
+      "Turin, Mantua, Ferrara, Urbino, and Rimini",
+      "Modena, Parma, Lucca, Verona, and Padua"
+    ],
+    "correctIndex": 0,
+    "category": "history",
+    "difficulty": "hard",
+    "explanation": "The Peace of Lodi created a 40-year period of relative stability among Italy's five major powers.",
+    "detailedExplanation": "The Peace of Lodi was a pivotal diplomatic agreement signed in 1454 that ended decades of warfare between Italian city-states and established a delicate balance of power. The treaty recognized Venice, Florence, Milan, the Papal States, and the Kingdom of Naples as the five major Italian powers, with agreements to respect each other's territories and form defensive alliances. This period of relative peace, lasting until the Italian Wars began in 1494, allowed Renaissance culture to flourish as resources could be directed toward art, architecture, and learning rather than constant warfare.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Peace_of_Lodi",
+    "citationTitle": "Wikipedia: Peace of Lodi"
+  },
+  {
+    "id": "eca212b5-8a2a-48e6-aa6c-d1f0a95de470",
+    "text": "Which humanist scholar's rediscovery and translation of Plato's complete works in the 1460s profoundly influenced Renaissance Neoplatonism?",
+    "options": [
+      "Pico della Mirandola",
+      "Marsilio Ficino",
+      "Cristoforo Landino",
+      "Angelo Poliziano"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "hard",
+    "explanation": "Marsilio Ficino's translations of Plato introduced Western Europe to complete Platonic philosophy for the first time since antiquity.",
+    "detailedExplanation": "Marsilio Ficino, working under the patronage of Cosimo de' Medici, completed the first complete Latin translation of Plato's dialogues between 1463-1469. This monumental achievement made Plato's works accessible to European scholars, who had previously known only fragments and secondhand accounts. Ficino's translations sparked the development of Renaissance Neoplatonism, which profoundly influenced art, literature, and philosophy. His work at the Platonic Academy in Florence created a intellectual movement that sought to reconcile Christian theology with Platonic philosophy, influencing thinkers and artists throughout Europe.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Marsilio_Ficino",
+    "citationTitle": "Wikipedia: Marsilio Ficino"
+  },
+  {
+    "id": "aee386f2-832c-41b1-a0d9-15b96db8b1fb",
+    "text": "The printing technique of chiaroscuro woodcuts, perfected during the Renaissance, used multiple blocks to achieve what specific artistic effect?",
+    "options": [
+      "Color gradation from warm to cool tones",
+      "Perspective depth through geometric patterns",
+      "Light and shadow modeling through tonal variation",
+      "Metallic lustre effects using gold and silver inks"
+    ],
+    "correctIndex": 2,
+    "category": "history",
+    "difficulty": "hard",
+    "explanation": "Chiaroscuro woodcuts used multiple blocks in different tones to simulate the light-and-shadow effects of paintings.",
+    "detailedExplanation": "Chiaroscuro woodcuts, developed in the early 16th century, represented a revolutionary printing technique that used multiple wooden blocks—typically one for outlines and others for different tonal values—to create prints with sophisticated light and shadow modeling. This technique, perfected by artists like Ugo da Carpi and Hans Burgkmair, allowed printmakers to reproduce the dramatic lighting effects that were becoming prominent in Renaissance painting. The process involved printing successive layers of ink, usually moving from light to dark tones, creating prints that resembled wash drawings or oil paintings in their tonal complexity.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Chiaroscuro_woodcut",
+    "citationTitle": "Wikipedia: Chiaroscuro woodcut"
+  },
+  {
+    "id": "87f9d7cf-f163-4e29-8e74-0ddeec528270",
+    "text": "The Aldine Press, established by Aldus Manutius in Venice, revolutionized Renaissance book production by introducing which innovation in 1501?",
+    "options": [
+      "The first illustrated botanical texts",
+      "Portable octavo format books with italic typeface",
+      "Multi-colored printing using separate plates",
+      "Watermarked paper with anti-counterfeiting measures"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "hard",
+    "explanation": "Aldus Manutius created the first portable, affordable books using italic type in a compact octavo format.",
+    "detailedExplanation": "Aldus Manutius revolutionized book publishing in 1501 by introducing the octavo format—books that were one-eighth the size of a full sheet—combined with a new italic typeface based on humanist handwriting. This innovation made books portable, affordable, and elegant, creating the first 'pocket books' that scholars could easily carry and study. The Aldine Press became famous for its high-quality editions of classical texts, with distinctive italic fonts that saved space while remaining highly readable. This format influenced book design for centuries and made literature more accessible to a broader educated public throughout Europe.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Aldine_Press",
+    "citationTitle": "Wikipedia: Aldine Press"
+  },
+  {
+    "id": "8db40dee-eb89-4293-b2db-d5543980a68b",
+    "text": "Which architectural feature, perfected by Filippo Brunelleschi in the early 15th century, solved the centuries-old problem of constructing large domes without wooden centering?",
+    "options": [
+      "Flying buttresses with integrated drainage systems",
+      "Interlocking herringbone brick patterns",
+      "Segmented ribs with pendentive supports",
+      "Concrete aggregate with volcanic ash admixture"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "hard",
+    "explanation": "Brunelleschi used interlocking herringbone brickwork that supported itself during construction without temporary wooden frameworks.",
+    "detailedExplanation": "Filippo Brunelleschi's construction of the Florence Cathedral dome (1420-1436) solved an architectural problem that had puzzled builders for centuries: how to construct a massive dome without the enormous wooden centering that would be prohibitively expensive and technically challenging. His solution involved laying bricks in a herringbone pattern where each course of bricks interlocked with and supported the next, creating a self-supporting structure during construction. This technique, combined with his innovative use of multiple shells and carefully calculated proportions, allowed him to complete the largest masonry dome ever built and established principles that influenced dome construction throughout the Renaissance and beyond.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Florence_Cathedral",
+    "citationTitle": "Wikipedia: Florence Cathedral"
+  },
+  {
+    "id": "85ded8cc-2cd7-45d9-932b-d2b082875d22",
+    "text": "The Renaissance musical technique of 'word painting' or 'madrigalism' was most prominently developed by composers of which musical form?",
+    "options": [
+      "Sacred motets",
+      "Secular madrigals",
+      "Liturgical masses",
+      "Instrumental ricercars"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "hard",
+    "explanation": "Word painting was primarily developed in secular madrigals, where music was composed to reflect the meaning of the text.",
+    "detailedExplanation": "Word painting, or madrigalism, was a sophisticated Renaissance compositional technique where musical elements directly illustrated or reflected the meaning of the text being sung. This technique reached its highest development in secular madrigals, particularly in the works of composers like Claudio Monteverdi, Luca Marenzio, and Carlo Gesualdo during the late 16th and early 17th centuries. Composers would use ascending melodic lines for words like 'heaven' or 'rising,' dissonance for words expressing pain or anguish, and rapid note patterns for words suggesting movement or excitement. This close relationship between text and music represented a fundamental shift toward expressive, humanistic music that paralleled developments in Renaissance art and literature.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Word_painting",
+    "citationTitle": "Wikipedia: Word painting"
+  },
+  {
+    "id": "cd2bcf82-f8af-40ed-976a-ee89b5b7f0ce",
+    "text": "The Renaissance alchemical work 'Splendor Solis', created around 1582, is primarily significant for its influence on which aspect of Renaissance culture?",
+    "options": [
+      "Development of scientific methodology",
+      "Advancement of metallurgical techniques",
+      "Integration of hermetic symbolism in art",
+      "Establishment of pharmaceutical practices"
+    ],
+    "correctIndex": 2,
+    "category": "history",
+    "difficulty": "hard",
+    "explanation": "Splendor Solis influenced Renaissance art through its elaborate hermetic and alchemical symbolism and illuminated imagery.",
+    "detailedExplanation": "The 'Splendor Solis' (Splendour of the Sun) is a beautifully illuminated alchemical manuscript that became one of the most influential works of Renaissance hermetic literature. Created by Salomon Trismosin around 1582, it contained 22 elaborate allegorical illustrations depicting the alchemical process through rich symbolic imagery including astronomical, mythological, and religious elements. These images profoundly influenced Renaissance artists and intellectuals, providing a visual vocabulary for hermetic and Neoplatonic concepts that appeared in paintings, architecture, and literature. The work represents the Renaissance synthesis of art, philosophy, and proto-scientific inquiry, where alchemical symbolism became integrated into the broader cultural movement toward hidden knowledge and spiritual transformation.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Splendor_Solis",
+    "citationTitle": "Wikipedia: Splendor Solis"
+  },
+  {
+    "id": "aaaf4f21-91aa-4b71-90f8-d6525ce6165f",
+    "text": "Which Renaissance artist completed the first known anatomical drawing of a human fetus in the womb?",
+    "options": [
+      "Michelangelo",
+      "Leonardo da Vinci",
+      "Andreas Vesalius",
+      "Albrecht Dürer"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "hard",
+    "explanation": "Leonardo da Vinci created detailed anatomical drawings of a human fetus around 1510-1513.",
+    "detailedExplanation": "Leonardo da Vinci's anatomical studies were groundbreaking for the Renaissance period. Around 1510-1513, he created remarkably accurate drawings of a human fetus in the womb, based on his dissection of a pregnant woman who had died. These drawings were centuries ahead of their time and demonstrated his pioneering approach to combining art with scientific observation. His anatomical work remained largely unknown until his notebooks were studied much later, but they represent some of the most advanced medical illustrations of the Renaissance.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Leonardo_da_Vinci%27s_anatomical_studies",
+    "citationTitle": "Wikipedia: Leonardo da Vinci's anatomical studies"
+  },
+  {
+    "id": "39e47a89-551a-43fe-9717-ed6ae472c28e",
+    "text": "The Peace of Augsburg (1555) established which principle that would influence European politics for centuries?",
+    "options": [
+      "Divine right of kings",
+      "Cuius regio, eius religio",
+      "Balance of power",
+      "Parliamentary sovereignty"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "hard",
+    "explanation": "The Peace of Augsburg established 'cuius regio, eius religio' - the ruler's religion determines the region's religion.",
+    "detailedExplanation": "The Peace of Augsburg in 1555 ended the religious conflicts within the Holy Roman Empire by establishing the principle of 'cuius regio, eius religio' (whose realm, his religion). This meant that the ruler of each German state could determine whether their territory would be Catholic or Lutheran, and subjects were expected to follow their ruler's choice or emigrate. This principle became a cornerstone of the early modern European state system and influenced religious and political arrangements well into the 17th century, particularly in the later Peace of Westphalia (1648).",
+    "citationUrl": "https://en.wikipedia.org/wiki/Peace_of_Augsburg",
+    "citationTitle": "Wikipedia: Peace of Augsburg"
+  },
+  {
+    "id": "e8250de8-be86-4563-b0a5-8fdef740b284",
+    "text": "Which Renaissance banking family controlled approximately 25% of all European banking assets at their peak in the 15th century?",
+    "options": [
+      "The Fuggers",
+      "The Medicis",
+      "The Borgias",
+      "The Sforzas"
+    ],
+    "correctIndex": 0,
+    "category": "history",
+    "difficulty": "hard",
+    "explanation": "The Fugger family of Augsburg became Europe's wealthiest banking dynasty, controlling about 25% of European banking assets.",
+    "detailedExplanation": "The Fugger family of Augsburg, Germany, became the most powerful banking dynasty of the Renaissance, even surpassing the famous Medicis in wealth and influence. At their peak in the late 15th and early 16th centuries, they controlled approximately 25% of all European banking assets. Jakob Fugger, known as 'Jakob the Rich,' financed emperors and kings, including helping to secure Charles V's election as Holy Roman Emperor. Their wealth came from banking, mining (especially silver and copper), and international trade, making them arguably the richest private individuals in history when adjusted for their era.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Fugger_family",
+    "citationTitle": "Wikipedia: Fugger family"
+  },
+  {
+    "id": "40bd0291-b8cf-446a-914e-ab5895f4d584",
+    "text": "Which Renaissance scholar's translation work was so influential that it shaped European understanding of Plato for over 200 years?",
+    "options": [
+      "Pico della Mirandola",
+      "Marsilio Ficino",
+      "Lorenzo Valla",
+      "Desiderius Erasmus"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "hard",
+    "explanation": "Marsilio Ficino translated Plato's complete works into Latin, making them accessible to European scholars for the first time.",
+    "detailedExplanation": "Marsilio Ficino (1433-1499) was commissioned by Cosimo de' Medici to translate the complete works of Plato from Greek into Latin, completing this monumental task by 1484. This was the first complete translation of Plato's dialogues available in Western Europe, as most medieval scholars had only known Plato through fragments and secondhand references. Ficino's translations became the standard text for over two centuries and were instrumental in the development of Renaissance Neoplatonism. His work fundamentally changed European philosophy by making Platonic thought directly accessible to scholars who couldn't read Greek, influencing countless thinkers during and after the Renaissance.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Marsilio_Ficino",
+    "citationTitle": "Wikipedia: Marsilio Ficino"
+  }
+]

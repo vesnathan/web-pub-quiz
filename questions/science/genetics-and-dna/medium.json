@@ -1,0 +1,342 @@
+[
+  {
+    "id": "2c208598-6559-4581-bf43-5137c1e79776",
+    "text": "Which scientist is credited with discovering the structure of DNA alongside James Watson, but was largely overlooked for the Nobel Prize?",
+    "options": [
+      "Marie Curie",
+      "Rosalind Franklin",
+      "Barbara McClintock",
+      "Dorothy Hodgkin"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Rosalind Franklin's X-ray crystallography work was crucial to understanding DNA structure, but she died before the Nobel Prize was awarded.",
+    "detailedExplanation": "Rosalind Franklin was a British chemist whose X-ray crystallography work, particularly Photo 51, provided critical evidence for the helical structure of DNA. Her research was instrumental in Watson and Crick's model, but she died in 1958 before the Nobel Prize was awarded in 1962. Nobel Prizes cannot be awarded posthumously, and there has been ongoing debate about whether she would have shared the prize had she lived.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Rosalind_Franklin",
+    "citationTitle": "Wikipedia: Rosalind Franklin"
+  },
+  {
+    "id": "e8be4424-cee2-4dd8-9d9b-26d0d4f75558",
+    "text": "What percentage of DNA do humans share with chimpanzees?",
+    "options": [
+      "98.8%",
+      "95.2%",
+      "92.1%",
+      "88.7%"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Humans and chimpanzees share approximately 98.8% of their DNA sequences.",
+    "detailedExplanation": "Genetic studies have revealed that humans and chimpanzees are remarkably similar at the DNA level, sharing about 98.8% of their genetic material. This high degree of similarity reflects our recent evolutionary divergence from a common ancestor approximately 6-7 million years ago. The small percentage of genetic difference accounts for the significant biological and behavioral distinctions between the two species.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Chimpanzee%E2%80%93human_last_common_ancestor",
+    "citationTitle": "Wikipedia: Chimpanzee-human last common ancestor"
+  },
+  {
+    "id": "4e0873f7-91c3-415f-9a2e-0a5c163180a6",
+    "text": "Which genetic disorder is caused by an extra copy of chromosome 21?",
+    "options": [
+      "Turner syndrome",
+      "Huntington's disease",
+      "Down syndrome",
+      "Cystic fibrosis"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Down syndrome is caused by trisomy 21, meaning there are three copies of chromosome 21 instead of two.",
+    "detailedExplanation": "Down syndrome, also known as trisomy 21, occurs when an individual has three copies of chromosome 21 instead of the typical two copies. This extra genetic material causes the developmental changes and physical features associated with Down syndrome. The condition affects approximately 1 in 700 births worldwide and can occur in all ethnic groups and economic levels.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Down_syndrome",
+    "citationTitle": "Wikipedia: Down syndrome"
+  },
+  {
+    "id": "d2c51ea1-ee5b-45a2-a19c-fe8e00ae55b6",
+    "text": "What does the acronym 'PCR' stand for in molecular biology?",
+    "options": [
+      "Protein Chain Reaction",
+      "Polymerase Chain Reaction",
+      "Primary Cell Replication",
+      "Paired Chromosome Recombination"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "PCR stands for Polymerase Chain Reaction, a technique used to amplify DNA sequences.",
+    "detailedExplanation": "Polymerase Chain Reaction (PCR) is a revolutionary molecular biology technique developed by Kary Mullis in the 1980s, for which he won the Nobel Prize in Chemistry. PCR allows scientists to make millions of copies of a specific DNA sequence from a small sample. This amplification technique has become fundamental in genetic research, medical diagnostics, forensic science, and many other applications.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Polymerase_chain_reaction",
+    "citationTitle": "Wikipedia: Polymerase chain reaction"
+  },
+  {
+    "id": "8cb2c5a1-792b-4261-9759-ab3a40342ef9",
+    "text": "Which scientist is credited with discovering the double helix structure of DNA?",
+    "options": [
+      "Gregor Mendel",
+      "Watson and Crick",
+      "Marie Curie",
+      "Charles Darwin"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "James Watson and Francis Crick discovered the double helix structure of DNA in 1953.",
+    "detailedExplanation": "James Watson and Francis Crick published their groundbreaking model of DNA's double helix structure in Nature magazine in April 1953. Their work was built upon X-ray crystallography data from Rosalind Franklin and Maurice Wilkins. This discovery revolutionized our understanding of genetics and molecular biology, showing how genetic information is stored and replicated. Watson, Crick, and Wilkins shared the Nobel Prize in Physiology or Medicine in 1962.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Molecular_Structure_of_Nucleic_Acids:_A_Structure_for_Deoxyribose_Nucleic_Acid",
+    "citationTitle": "Wikipedia: Molecular Structure of Nucleic Acids"
+  },
+  {
+    "id": "457e291e-d90b-48ea-8d0f-6be8611e94bd",
+    "text": "What are the four nitrogenous bases found in DNA?",
+    "options": [
+      "A, T, G, U",
+      "A, U, C, G",
+      "A, T, C, G",
+      "A, T, C, X"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "The four DNA bases are Adenine (A), Thymine (T), Cytosine (C), and Guanine (G).",
+    "detailedExplanation": "DNA contains four nitrogenous bases: Adenine (A), Thymine (T), Cytosine (C), and Guanine (G). These bases pair specifically with each other - Adenine with Thymine, and Cytosine with Guanine - forming the rungs of the DNA ladder. This complementary base pairing is crucial for DNA replication and the storage of genetic information. Note that RNA contains Uracil (U) instead of Thymine.",
+    "citationUrl": "https://en.wikipedia.org/wiki/DNA",
+    "citationTitle": "Wikipedia: DNA"
+  },
+  {
+    "id": "e83ae0b9-c90e-4b15-bbec-4b68c6366e95",
+    "text": "What is the name of the process where genetic material is exchanged between homologous chromosomes during meiosis?",
+    "options": [
+      "Mitosis",
+      "Crossing over",
+      "Transcription",
+      "Translation"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Crossing over is the process where homologous chromosomes exchange genetic material during meiosis.",
+    "detailedExplanation": "Crossing over, also known as chromosomal crossover or recombination, occurs during prophase I of meiosis when homologous chromosomes pair up and exchange segments of genetic material. This process increases genetic diversity in offspring by creating new combinations of genes. The points where chromosomes cross over are called chiasmata, and this mechanism is essential for proper chromosome segregation and evolutionary adaptation.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Chromosomal_crossover",
+    "citationTitle": "Wikipedia: Chromosomal crossover"
+  },
+  {
+    "id": "af78880b-b90b-45a2-88c1-08bdbbef179b",
+    "text": "How many chromosomes does a normal human cell contain?",
+    "options": [
+      "44",
+      "46",
+      "48",
+      "50"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Normal human cells contain 46 chromosomes, arranged in 23 pairs.",
+    "detailedExplanation": "A typical human cell contains 46 chromosomes arranged in 23 pairs. Twenty-two pairs are autosomes (non-sex chromosomes), and one pair consists of sex chromosomes (XX for females, XY for males). This diploid number is represented as 2n=46. Gametes (sperm and egg cells) are haploid and contain only 23 chromosomes each, which combine during fertilization to restore the diploid number in offspring.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Human_genome",
+    "citationTitle": "Wikipedia: Human genome"
+  },
+  {
+    "id": "447a972a-e7e8-4f80-8239-97d4a6659c69",
+    "text": "Which technique is primarily used for DNA fingerprinting in forensic science?",
+    "options": [
+      "CRISPR",
+      "Gel electrophoresis",
+      "STR analysis",
+      "Northern blotting"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "STR (Short Tandem Repeat) analysis is the primary technique used for DNA fingerprinting in forensics.",
+    "detailedExplanation": "Short Tandem Repeat (STR) analysis is the gold standard for DNA fingerprinting in forensic science. STRs are short sequences of DNA (2-6 base pairs) that repeat multiple times in specific locations on chromosomes. The number of repeats varies between individuals, creating unique genetic profiles. Modern forensic laboratories typically analyze 13-20 different STR loci to create a DNA profile with extremely low probability of random match, making it highly reliable for human identification.",
+    "citationUrl": "https://en.wikipedia.org/wiki/STR_analysis",
+    "citationTitle": "Wikipedia: STR analysis"
+  },
+  {
+    "id": "31087197-beb6-4769-b5b8-d5454e1608aa",
+    "text": "What does PCR stand for in molecular biology?",
+    "options": [
+      "Protein Chain Reaction",
+      "Polymerase Chain Reaction",
+      "Primary Cell Replication",
+      "Palindromic Code Reading"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "PCR stands for Polymerase Chain Reaction, a technique used to amplify DNA sequences.",
+    "detailedExplanation": "Polymerase Chain Reaction (PCR) is a revolutionary molecular biology technique developed by Kary Mullis in 1983, for which he won the Nobel Prize in Chemistry in 1993. PCR allows scientists to make millions of copies of specific DNA sequences from tiny amounts of starting material. The process involves repeated cycles of heating and cooling to denature DNA, allow primers to bind, and enable DNA polymerase to synthesize new strands. This technique is fundamental to genetic research, medical diagnostics, and forensic science.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Polymerase_chain_reaction",
+    "citationTitle": "Wikipedia: Polymerase chain reaction"
+  },
+  {
+    "id": "8bfc2553-ae78-42f1-9a53-db583dae90b3",
+    "text": "Which nitrogenous bases pair together in DNA?",
+    "options": [
+      "Adenine with Guanine, Thymine with Cytosine",
+      "Adenine with Thymine, Guanine with Cytosine",
+      "Adenine with Cytosine, Thymine with Guanine",
+      "All bases pair with each other equally"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "In DNA, Adenine pairs with Thymine, and Guanine pairs with Cytosine through hydrogen bonding.",
+    "detailedExplanation": "DNA base pairing follows Chargaff's rules, where adenine (A) always pairs with thymine (T) through two hydrogen bonds, and guanine (G) always pairs with cytosine (C) through three hydrogen bonds. This complementary base pairing is crucial for DNA's double helix structure and enables accurate DNA replication. The specificity of these pairings ensures that genetic information is faithfully copied during cell division and provides the mechanism for the semi-conservative nature of DNA replication.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Base_pair",
+    "citationTitle": "Wikipedia: Base pair"
+  },
+  {
+    "id": "6822bc11-c1bf-4b83-b1d6-fa08479482a7",
+    "text": "What is a telomere?",
+    "options": [
+      "A type of genetic mutation",
+      "Protective DNA-protein structures at chromosome ends",
+      "The center of a chromosome",
+      "A damaged section of DNA"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Telomeres are protective DNA-protein structures found at the ends of chromosomes.",
+    "detailedExplanation": "Telomeres are specialized DNA-protein structures located at the ends of linear chromosomes that protect them from degradation and fusion with other chromosomes. They consist of repetitive DNA sequences (TTAGGG in humans) and associated proteins. Telomeres shorten with each cell division and are associated with aging and cellular senescence. The enzyme telomerase can extend telomeres, which is active in stem cells and unfortunately also in many cancer cells. Elizabeth Blackburn, Carol Greider, and Jack Szostak won the 2009 Nobel Prize for discovering telomeres and telomerase.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Telomere",
+    "citationTitle": "Wikipedia: Telomere"
+  },
+  {
+    "id": "d49f32fa-7dad-4e07-962a-7d8b1c6ae2bf",
+    "text": "Which technique is commonly used to separate DNA fragments by size?",
+    "options": [
+      "Centrifugation",
+      "Gel electrophoresis",
+      "Chromatography",
+      "Spectrophotometry"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Gel electrophoresis separates DNA fragments by size using an electric field through a gel matrix.",
+    "detailedExplanation": "Gel electrophoresis is a fundamental molecular biology technique that separates DNA fragments based on their size and charge. DNA samples are loaded into wells in an agarose or polyacrylamide gel, and an electric current is applied. Since DNA is negatively charged due to its phosphate groups, fragments migrate toward the positive electrode. Smaller fragments move faster and farther through the gel matrix than larger ones, resulting in size-based separation. This technique is essential for analyzing PCR products, restriction enzyme digests, and purifying DNA fragments for cloning.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Gel_electrophoresis",
+    "citationTitle": "Wikipedia: Gel electrophoresis"
+  },
+  {
+    "id": "e2dbd602-3679-44ba-904a-4a1d0dbc5312",
+    "text": "Which genetic disorder is caused by having an extra copy of chromosome 21?",
+    "options": [
+      "Turner syndrome",
+      "Down syndrome",
+      "Klinefelter syndrome",
+      "Huntington's disease"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Down syndrome is caused by trisomy 21, meaning there are three copies of chromosome 21 instead of the normal two.",
+    "detailedExplanation": "Down syndrome, also known as trisomy 21, occurs when an individual has three copies of chromosome 21 instead of the typical pair. This extra genetic material affects development and causes the characteristic features associated with Down syndrome, including intellectual disability, distinctive facial features, and increased risk of certain medical conditions. The condition occurs in approximately 1 in 700 births and is the most common chromosomal disorder.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Down_syndrome",
+    "citationTitle": "Wikipedia: Down syndrome"
+  },
+  {
+    "id": "8a8c5537-c670-4e18-a39e-97b363f8aa2d",
+    "text": "What does the acronym CRISPR stand for in genetic engineering?",
+    "options": [
+      "Cellular Replication in Systematic Protein Restructuring",
+      "Clustered Regularly Interspaced Short Palindromic Repeats",
+      "Complex RNA Integration for Selective Protein Repair",
+      "Controlled Recombination of Inherited Structural Protein Regions"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "CRISPR stands for Clustered Regularly Interspaced Short Palindromic Repeats, a revolutionary gene-editing technology.",
+    "detailedExplanation": "CRISPR-Cas9 is a groundbreaking gene-editing system that allows scientists to make precise changes to DNA. Originally discovered as part of bacterial immune systems, CRISPR consists of DNA sequences with short palindromic repeats that are clustered and regularly interspaced. When combined with Cas proteins, it can be programmed to cut specific DNA sequences, enabling researchers to edit genes with unprecedented accuracy. This technology has revolutionized genetics research and holds promise for treating genetic diseases.",
+    "citationUrl": "https://en.wikipedia.org/wiki/CRISPR",
+    "citationTitle": "Wikipedia: CRISPR"
+  },
+  {
+    "id": "6c2ee2c6-5333-4fe5-8eff-573af0205ee5",
+    "text": "What is the name of the process by which RNA is made from a DNA template?",
+    "options": [
+      "Translation",
+      "Transcription",
+      "Replication",
+      "Mutation"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Transcription is the process where RNA polymerase creates RNA from a DNA template strand.",
+    "detailedExplanation": "Transcription is the first step in gene expression, where the information stored in DNA is copied into RNA. During this process, RNA polymerase enzyme binds to a promoter region on DNA and moves along the gene, creating a complementary RNA strand using the DNA as a template. The resulting RNA can be messenger RNA (mRNA), which carries genetic information to ribosomes for protein synthesis, or other types like transfer RNA (tRNA) or ribosomal RNA (rRNA). This process is essential for converting genetic information into functional proteins.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Transcription_(biology)",
+    "citationTitle": "Wikipedia: Transcription (biology)"
+  },
+  {
+    "id": "82422e73-43e1-433c-83b3-5ee81d4d179d",
+    "text": "How many pairs of chromosomes do normal human cells contain?",
+    "options": [
+      "21",
+      "22",
+      "23",
+      "24"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Normal human cells contain 23 pairs of chromosomes, totaling 46 chromosomes.",
+    "detailedExplanation": "Human cells typically contain 23 pairs of chromosomes, for a total of 46 chromosomes. These include 22 pairs of autosomes (numbered chromosomes) and one pair of sex chromosomes (XX for females, XY for males). Each parent contributes one chromosome to each pair, which is why we inherit genetic material from both parents. Gametes (sperm and egg cells) contain only 23 individual chromosomes, so when fertilization occurs, the diploid number of 46 chromosomes is restored in the offspring.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Human_chromosome",
+    "citationTitle": "Wikipedia: Human chromosome"
+  },
+  {
+    "id": "60d5e27e-61ca-474d-847c-5d84b24bd9bd",
+    "text": "What term describes different versions of the same gene?",
+    "options": [
+      "Chromosomes",
+      "Alleles",
+      "Codons",
+      "Genomes"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Alleles are different versions or variants of the same gene that occur at the same location on a chromosome.",
+    "detailedExplanation": "Alleles are alternative forms of a gene that arise through mutations and occupy the same relative position (locus) on homologous chromosomes. For example, the gene for eye color may have different alleles that code for brown, blue, or green eyes. Since humans have two copies of each chromosome, we typically have two alleles for each gene. The combination of alleles an individual carries determines their genotype, while the observable characteristics that result are called the phenotype. Understanding alleles is fundamental to genetics and inheritance patterns.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Allele",
+    "citationTitle": "Wikipedia: Allele"
+  },
+  {
+    "id": "05e1f7db-8b3b-4c51-9ed1-8b58f053e6e3",
+    "text": "Which scientist is credited with discovering the double helix structure of DNA in 1953?",
+    "options": [
+      "Gregor Mendel",
+      "James Watson and Francis Crick",
+      "Marie Curie",
+      "Charles Darwin"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "James Watson and Francis Crick discovered DNA's double helix structure in 1953, with crucial contributions from Rosalind Franklin's X-ray crystallography work.",
+    "detailedExplanation": "James Watson and Francis Crick published their model of DNA's double helix structure in Nature magazine in April 1953. Their discovery was built upon critical X-ray crystallography data from Rosalind Franklin and Maurice Wilkins. This breakthrough revealed how genetic information is stored and replicated, earning Watson, Crick, and Wilkins the 1962 Nobel Prize in Physiology or Medicine. Franklin had died in 1958 and was not eligible for the Nobel Prize, though her contributions were essential to the discovery.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Molecular_Structure_of_Nucleic_Acids:_A_Structure_for_Deoxyribose_Nucleic_Acid",
+    "citationTitle": "Wikipedia: Molecular Structure of Nucleic Acids"
+  },
+  {
+    "id": "60902661-d9a7-4993-bce0-4843eb2a0ef6",
+    "text": "What percentage of human DNA is typically shared between any two unrelated individuals?",
+    "options": [
+      "75%",
+      "85%",
+      "99.9%",
+      "95%"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Humans share approximately 99.9% of their DNA with other humans, making us remarkably genetically similar despite our apparent differences.",
+    "detailedExplanation": "Despite the vast diversity we observe in human populations around the world, all humans share approximately 99.9% of their DNA sequences. This means that only about 0.1% of our genetic code varies between individuals, which amounts to roughly 3 million base pairs out of the 3 billion in the human genome. These small genetic differences account for all the variation we see in traits like appearance, disease susceptibility, and other characteristics. This high degree of genetic similarity reflects our recent common ancestry as a species and explains why humans can successfully reproduce with any other human regardless of geographic origin or apparent physical differences.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Human_genetic_variation",
+    "citationTitle": "Wikipedia: Human genetic variation"
+  }
+]

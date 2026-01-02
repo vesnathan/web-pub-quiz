@@ -1,11 +1,11 @@
-'use client';
+"use client";
 
-import { Card, CardBody } from '@nextui-org/react';
-import { QuestionDisplay } from '@/components/QuestionDisplay';
-import { AnswerOptions } from '@/components/AnswerOptions';
-import { Buzzer } from '@/components/Buzzer';
-import { AnswerCountdown } from '@/components/AnswerCountdown';
-import { useGameStore } from '@/stores/gameStore';
+import { Card, CardBody } from "@nextui-org/react";
+import { QuestionDisplay } from "@/components/QuestionDisplay";
+import { AnswerOptions } from "@/components/AnswerOptions";
+import { Buzzer } from "@/components/Buzzer";
+import { AnswerCountdown } from "@/components/AnswerCountdown";
+import { useGameStore } from "@/stores/gameStore";
 
 /**
  * Question phase component
@@ -23,12 +23,15 @@ export function QuestionPhase() {
   const selectedAnswer = useGameStore((state) => state.selectedAnswer);
   const revealedAnswer = useGameStore((state) => state.revealedAnswer);
   const isCorrect = useGameStore((state) => state.isCorrect);
-  const leftTabDuringQuestion = useGameStore((state) => state.leftTabDuringQuestion);
+  const leftTabDuringQuestion = useGameStore(
+    (state) => state.leftTabDuringQuestion,
+  );
   const player = useGameStore((state) => state.player);
 
   const isMyTurn = buzzerWinner === player?.id;
   const canBuzz = buzzerEnabled && !buzzerWinner && !leftTabDuringQuestion;
-  const canAnswer = isMyTurn && answerDeadline !== null && !leftTabDuringQuestion;
+  const canAnswer =
+    isMyTurn && answerDeadline !== null && !leftTabDuringQuestion;
 
   return (
     <div className="space-y-6">
@@ -128,7 +131,6 @@ function MobileQuestionUI({
           revealedAnswer={revealedAnswer}
           isCorrect={isCorrect}
           canAnswer={canAnswer}
-          disabled={!buzzerWinner}
         />
 
         {/* Buzzer - only show when no one has buzzed */}
@@ -183,7 +185,9 @@ function DesktopQuestionUI({
                 enabled={canBuzz}
                 isWinner={isMyTurn}
                 deadline={answerDeadline}
-                otherPlayerBuzzed={buzzerWinner && !isMyTurn ? buzzerWinnerName : null}
+                otherPlayerBuzzed={
+                  buzzerWinner && !isMyTurn ? buzzerWinnerName : null
+                }
               />
               {leftTabDuringQuestion && (
                 <div className="mt-4 text-center text-red-400 text-sm">
@@ -200,27 +204,18 @@ function DesktopQuestionUI({
       {/* Answer Options Card */}
       <Card className="bg-gray-800/50 backdrop-blur">
         <CardBody className="p-6 min-h-[200px]">
-          {buzzerWinner ? (
-            <>
-              {!isMyTurn && (
-                <div className="mb-4 text-center text-purple-400">
-                  {buzzerWinnerName} is answering...
-                </div>
-              )}
-              <AnswerOptions
-                options={currentQuestion?.options || []}
-                selectedAnswer={selectedAnswer}
-                revealedAnswer={revealedAnswer}
-                isCorrect={isCorrect}
-                canAnswer={canAnswer}
-              />
-            </>
-          ) : (
-            <div className="flex flex-col items-center justify-center h-full text-gray-500">
-              <div className="text-lg mb-2">Answer Options</div>
-              <div className="text-sm">Buzz in to reveal!</div>
+          {!isMyTurn && buzzerWinner && (
+            <div className="mb-4 text-center text-purple-400">
+              {buzzerWinnerName} is answering...
             </div>
           )}
+          <AnswerOptions
+            options={currentQuestion?.options || []}
+            selectedAnswer={selectedAnswer}
+            revealedAnswer={revealedAnswer}
+            isCorrect={isCorrect}
+            canAnswer={canAnswer}
+          />
         </CardBody>
       </Card>
     </div>

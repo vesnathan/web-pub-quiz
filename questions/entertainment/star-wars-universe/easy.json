@@ -1,0 +1,342 @@
+[
+  {
+    "id": "89e3ada6-6bed-4af1-bcac-1b0b1aaef6e1",
+    "text": "What is the name of Luke Skywalker's home planet?",
+    "options": [
+      "Tatooine",
+      "Coruscant",
+      "Hoth",
+      "Dagobah"
+    ],
+    "correctIndex": 0,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "Tatooine is Luke Skywalker's desert home planet where he grew up with his aunt and uncle.",
+    "detailedExplanation": "Tatooine is a desert planet in the Outer Rim territories where Luke Skywalker was raised by his aunt Beru and uncle Owen Lars. The planet is characterized by its twin suns and harsh desert environment, and serves as the starting point for Luke's journey in the original Star Wars trilogy.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Tatooine",
+    "citationTitle": "Wikipedia: Tatooine"
+  },
+  {
+    "id": "5be5e757-48f3-426f-a613-1fc63c360f10",
+    "text": "Who is Darth Vader's son?",
+    "options": [
+      "Han Solo",
+      "Obi-Wan Kenobi",
+      "Luke Skywalker",
+      "Chewbacca"
+    ],
+    "correctIndex": 2,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "Luke Skywalker is revealed to be Darth Vader's son in The Empire Strikes Back.",
+    "detailedExplanation": "The revelation that Luke Skywalker is Darth Vader's son is one of the most famous plot twists in cinema history, revealed in 'The Empire Strikes Back' during their lightsaber duel in Cloud City. Vader tells Luke 'I am your father' after cutting off Luke's hand, fundamentally changing the direction of the story.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Luke_Skywalker",
+    "citationTitle": "Wikipedia: Luke Skywalker"
+  },
+  {
+    "id": "50cf002e-158b-4eff-8a83-1f4086796382",
+    "text": "What type of weapon do Jedi typically use?",
+    "options": [
+      "Blaster",
+      "Lightsaber",
+      "Vibroblade",
+      "Force Pike"
+    ],
+    "correctIndex": 1,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "Lightsabers are the signature weapons of the Jedi, elegant energy swords for a more civilized age.",
+    "detailedExplanation": "Lightsabers are plasma-based energy swords that serve as the primary weapon of both Jedi and Sith. Each lightsaber is typically constructed by its wielder and contains a kyber crystal that determines its color. Obi-Wan Kenobi describes it as 'an elegant weapon for a more civilized age' in the original Star Wars film.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Lightsaber",
+    "citationTitle": "Wikipedia: Lightsaber"
+  },
+  {
+    "id": "0d6e2185-8ca4-4634-97f8-4f2df19ccfaf",
+    "text": "What is the name of Han Solo's ship?",
+    "options": [
+      "X-wing",
+      "TIE Fighter",
+      "Millennium Falcon",
+      "Star Destroyer"
+    ],
+    "correctIndex": 2,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "The Millennium Falcon is Han Solo's famous smuggling ship, which he won from Lando Calrissian.",
+    "detailedExplanation": "The Millennium Falcon is a modified YT-1300 light freighter that serves as Han Solo and Chewbacca's primary vessel throughout the original trilogy. Despite its worn appearance, Han claims it 'made the Kessel Run in less than twelve parsecs' and the ship plays a crucial role in the Rebel Alliance's victory against the Empire.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Millennium_Falcon",
+    "citationTitle": "Wikipedia: Millennium Falcon"
+  },
+  {
+    "id": "090fae63-4067-4247-b2a6-12a881910360",
+    "text": "What color is Yoda's lightsaber?",
+    "options": [
+      "Blue",
+      "Red",
+      "Green",
+      "Purple"
+    ],
+    "correctIndex": 2,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "Yoda wields a green lightsaber, which he uses in his duels with Count Dooku and Emperor Palpatine.",
+    "detailedExplanation": "Yoda's lightsaber blade is green and notably smaller than standard lightsabers to accommodate his diminutive stature. He first displays his lightsaber skills in 'Attack of the Clones' during his duel with Count Dooku, surprising audiences who had only seen him as a wise teacher in the original trilogy.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Yoda",
+    "citationTitle": "Wikipedia: Yoda"
+  },
+  {
+    "id": "bdc6bbcf-7402-4cd6-a8a7-0b6747c57bee",
+    "text": "Which planet is destroyed by the Death Star in the first Star Wars movie?",
+    "options": [
+      "Coruscant",
+      "Alderaan",
+      "Naboo",
+      "Kamino"
+    ],
+    "correctIndex": 1,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "Alderaan, Princess Leia's home planet, is destroyed by the Death Star to demonstrate its power.",
+    "detailedExplanation": "Alderaan is destroyed by the Death Star's superlaser in 'A New Hope' as a demonstration of the space station's destructive capability and to force Princess Leia to reveal the location of the Rebel base. The peaceful planet was Leia's adopted homeworld and the destruction is witnessed by Obi-Wan Kenobi, who senses the disturbance in the Force.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Alderaan",
+    "citationTitle": "Wikipedia: Alderaan"
+  },
+  {
+    "id": "3c632a00-4acf-4f0f-a281-267cd3fa4132",
+    "text": "What species is Chewbacca?",
+    "options": [
+      "Ewok",
+      "Wookiee",
+      "Jawa",
+      "Hutt"
+    ],
+    "correctIndex": 1,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "Chewbacca is a Wookiee, a tall, furry species from the planet Kashyyyk.",
+    "detailedExplanation": "Chewbacca is a Wookiee from the planet Kashyyyk, known for their great height, strength, and distinctive growling language. Wookiees are a proud warrior species with a strong sense of honor and loyalty. Chewbacca serves as Han Solo's co-pilot and loyal companion throughout the saga, and their friendship spans decades.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Chewbacca",
+    "citationTitle": "Wikipedia: Chewbacca"
+  },
+  {
+    "id": "d0a8741c-fd91-440a-a8fe-1b390cbefd37",
+    "text": "Who trained Luke Skywalker to become a Jedi?",
+    "options": [
+      "Mace Windu",
+      "Qui-Gon Jinn",
+      "Yoda and Obi-Wan Kenobi",
+      "Count Dooku"
+    ],
+    "correctIndex": 2,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "Luke was trained by both Obi-Wan Kenobi initially and then completed his training under Yoda.",
+    "detailedExplanation": "Luke Skywalker's Jedi training was conducted by two masters: Obi-Wan Kenobi provided his initial introduction to the Force and lightsaber combat in 'A New Hope,' while Yoda completed his formal Jedi training on the swamp planet Dagobah in 'The Empire Strikes Back.' Both masters continued to guide Luke as Force spirits after their deaths.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Luke_Skywalker",
+    "citationTitle": "Wikipedia: Luke Skywalker"
+  },
+  {
+    "id": "3e3e47a1-7b57-42e4-9dd7-70bbf362ae5f",
+    "text": "Who is revealed to be Luke Skywalker's father?",
+    "options": [
+      "Obi-Wan Kenobi",
+      "Emperor Palpatine",
+      "Darth Vader",
+      "Han Solo"
+    ],
+    "correctIndex": 2,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "Darth Vader reveals he is Luke's father in The Empire Strikes Back with the famous line 'I am your father.'",
+    "detailedExplanation": "One of cinema's most famous plot twists occurs in The Empire Strikes Back when Darth Vader reveals to Luke Skywalker that he is his father. This revelation comes after Vader cuts off Luke's hand during their lightsaber duel in Cloud City. The twist fundamentally changed the Star Wars saga and Luke's understanding of his destiny.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Darth_Vader",
+    "citationTitle": "Wikipedia: Darth Vader"
+  },
+  {
+    "id": "de46b0be-c134-4f9a-ae0d-f443422bd9a7",
+    "text": "Which episode is subtitled 'A New Hope'?",
+    "options": [
+      "Episode III",
+      "Episode IV",
+      "Episode V",
+      "Episode VI"
+    ],
+    "correctIndex": 1,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "Episode IV: A New Hope was the first Star Wars film released in 1977, though it was initially just called 'Star Wars.'",
+    "detailedExplanation": "Star Wars Episode IV: A New Hope was the original 1977 film that started the franchise, though it was simply titled 'Star Wars' upon its initial release. The subtitle 'A New Hope' was added in 1981. This film introduced audiences to Luke Skywalker, Princess Leia, and the rebellion against the evil Galactic Empire.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Star_Wars_(film)",
+    "citationTitle": "Wikipedia: Star Wars (film)"
+  },
+  {
+    "id": "117acc3f-dd49-4096-b81e-9e8e1f665c4f",
+    "text": "What weapon is primarily used by Jedi and Sith?",
+    "options": [
+      "Blaster",
+      "Lightsaber",
+      "Vibroblade",
+      "Force pike"
+    ],
+    "correctIndex": 1,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "The lightsaber is the iconic weapon of both Jedi and Sith, consisting of a plasma blade powered by a kyber crystal.",
+    "detailedExplanation": "The lightsaber is the signature weapon of Force-users in the Star Wars universe. These elegant weapons consist of a metal hilt that projects a blade of pure plasma energy, typically powered by kyber crystals. Jedi commonly use blue or green blades, while Sith use red blades. The lightsaber requires significant training to master and is deeply connected to Jedi philosophy and combat techniques.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Lightsaber",
+    "citationTitle": "Wikipedia: Lightsaber"
+  },
+  {
+    "id": "40368412-d5c9-41ee-bf95-1958649f8655",
+    "text": "Who composed the music for the original Star Wars trilogy?",
+    "options": [
+      "Hans Zimmer",
+      "Danny Elfman",
+      "John Williams",
+      "Alan Silvestri"
+    ],
+    "correctIndex": 2,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "John Williams composed the iconic Star Wars musical scores, including themes like the Main Title and Imperial March.",
+    "detailedExplanation": "John Williams composed the musical scores for all the original Star Wars films, creating some of cinema's most recognizable themes. His work includes the triumphant Main Title theme, the ominous Imperial March (Darth Vader's theme), and Princess Leia's theme among many others. Williams' orchestral scores have become inseparable from the Star Wars experience and have won numerous awards.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Music_of_Star_Wars",
+    "citationTitle": "Wikipedia: Music of Star Wars"
+  },
+  {
+    "id": "24ebae12-1bb0-45db-b60e-a8059ad80d05",
+    "text": "Who is Luke Skywalker's father?",
+    "options": [
+      "Obi-Wan Kenobi",
+      "Emperor Palpatine",
+      "Darth Vader",
+      "Han Solo"
+    ],
+    "correctIndex": 2,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "Darth Vader, formerly known as Anakin Skywalker, is revealed to be Luke's father.",
+    "detailedExplanation": "The revelation that Darth Vader is Luke Skywalker's father occurs in 'The Empire Strikes Back' and is one of cinema's most famous plot twists. Vader was once Anakin Skywalker, a Jedi Knight who turned to the dark side of the Force and became a Sith Lord under Emperor Palpatine's influence.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Darth_Vader",
+    "citationTitle": "Wikipedia: Darth Vader"
+  },
+  {
+    "id": "6b1726dd-bfaf-45a1-bd0e-9b577f8096a8",
+    "text": "What weapon is primarily used by Jedi Knights?",
+    "options": [
+      "Blaster",
+      "Lightsaber",
+      "Vibroblade",
+      "Force Pike"
+    ],
+    "correctIndex": 1,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "Lightsabers are the signature weapons of Jedi Knights and Sith Lords.",
+    "detailedExplanation": "A lightsaber is an energy sword that consists of a hilt that projects a blade of plasma. These elegant weapons are not just tools but symbols of the Jedi Order, requiring Force sensitivity and extensive training to wield effectively. Each Jedi typically constructs their own lightsaber as part of their training.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Lightsaber",
+    "citationTitle": "Wikipedia: Lightsaber"
+  },
+  {
+    "id": "6730da57-074d-4791-8509-fe1c5c66c0ba",
+    "text": "Who is the green, wise Jedi Master who trained Luke Skywalker?",
+    "options": [
+      "Mace Windu",
+      "Yoda",
+      "Qui-Gon Jinn",
+      "Obi-Wan Kenobi"
+    ],
+    "correctIndex": 1,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "Yoda is the small, green Jedi Master who trained Luke on Dagobah.",
+    "detailedExplanation": "Yoda is a legendary Jedi Master who lived for 900 years and trained Jedi for over 800 of those years. Despite his small size and advanced age, he was considered one of the most powerful Jedi ever. He trained Luke Skywalker in the ways of the Force on the swamp planet Dagobah in 'The Empire Strikes Back.'",
+    "citationUrl": "https://en.wikipedia.org/wiki/Yoda",
+    "citationTitle": "Wikipedia: Yoda"
+  },
+  {
+    "id": "58e7a867-07d9-4a58-b989-4e1ec1ddfefb",
+    "text": "What is the evil galactic government called in the original Star Wars trilogy?",
+    "options": [
+      "The Republic",
+      "The Empire",
+      "The Federation",
+      "The Alliance"
+    ],
+    "correctIndex": 1,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "The Galactic Empire is the authoritarian regime that rules the galaxy in the original trilogy.",
+    "detailedExplanation": "The Galactic Empire, also known as the First Galactic Empire, was the fascist galactic government established by Emperor Palpatine after the fall of the Galactic Republic. Ruled through fear and military might, the Empire constructed superweapons like the Death Star and eliminated the Jedi Order to maintain control over the galaxy.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Galactic_Empire_(Star_Wars)",
+    "citationTitle": "Wikipedia: Galactic Empire (Star Wars)"
+  },
+  {
+    "id": "96261716-b86e-414b-9e16-15b7451d9448",
+    "text": "In which movie does Princess Leia first appear?",
+    "options": [
+      "The Empire Strikes Back",
+      "Return of the Jedi",
+      "A New Hope",
+      "Attack of the Clones"
+    ],
+    "correctIndex": 2,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "Princess Leia first appears in 'A New Hope' (1977), the first Star Wars movie released.",
+    "detailedExplanation": "'A New Hope,' originally released simply as 'Star Wars' in 1977, introduced audiences to Princess Leia Organa of Alderaan. In the opening sequence, she is captured while trying to deliver stolen Death Star plans to the Rebel Alliance, setting the entire saga in motion. The character was portrayed by Carrie Fisher throughout the original trilogy.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Princess_Leia",
+    "citationTitle": "Wikipedia: Princess Leia"
+  },
+  {
+    "id": "d17bc526-0c8e-441b-9a9c-568a4b4953e9",
+    "text": "What is the name of Luke Skywalker's home planet in the original Star Wars trilogy?",
+    "options": [
+      "Tatooine",
+      "Hoth",
+      "Endor",
+      "Dagobah"
+    ],
+    "correctIndex": 0,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "Luke Skywalker grew up on the desert planet Tatooine with his aunt and uncle.",
+    "detailedExplanation": "Tatooine is the desert planet where Luke Skywalker was raised by his Uncle Owen and Aunt Beru. It's a harsh world with twin suns, inhabited by moisture farmers, Jawas, and Tusken Raiders. Luke lived there until the events of A New Hope when he joined Obi-Wan Kenobi on his journey to rescue Princess Leia and ultimately destroy the Death Star.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Tatooine",
+    "citationTitle": "Wikipedia: Tatooine"
+  },
+  {
+    "id": "09ac3761-5c3b-4715-8cb7-deda2ff0d14c",
+    "text": "Who is revealed to be Luke Skywalker's father in The Empire Strikes Back?",
+    "options": [
+      "Emperor Palpatine",
+      "Obi-Wan Kenobi",
+      "Darth Vader",
+      "Yoda"
+    ],
+    "correctIndex": 2,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "Darth Vader reveals he is Luke's father during their lightsaber duel in Cloud City.",
+    "detailedExplanation": "In one of cinema's most famous plot twists, Darth Vader reveals to Luke Skywalker that he is his father during their lightsaber battle in Cloud City's carbon-freezing chamber. This revelation comes after Vader cuts off Luke's hand, and delivers the iconic line 'No, I am your father' in response to Luke's belief that Vader killed his father. This twist fundamentally changed the Star Wars saga and Luke's understanding of his destiny.",
+    "citationUrl": "https://en.wikipedia.org/wiki/The_Empire_Strikes_Back",
+    "citationTitle": "Wikipedia: The Empire Strikes Back"
+  },
+  {
+    "id": "24a904f4-cb01-4bf7-884b-8b2e0c80031f",
+    "text": "What type of spacecraft does Han Solo pilot throughout the original trilogy?",
+    "options": [
+      "X-wing fighter",
+      "TIE fighter",
+      "Millennium Falcon",
+      "Imperial Star Destroyer"
+    ],
+    "correctIndex": 2,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "Han Solo is the captain of the Millennium Falcon, which he calls the fastest ship in the galaxy.",
+    "detailedExplanation": "The Millennium Falcon is Han Solo's beloved Corellian YT-1300 light freighter, which he won from Lando Calrissian in a game of sabacc. Despite its worn appearance and frequent mechanical problems, Han boasts that it made the Kessel Run in less than twelve parsecs. The ship serves as the primary transport for the main characters throughout the original trilogy and plays a crucial role in many key scenes, including the escape from Mos Eisley cantina and the attack on the second Death Star.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Millennium_Falcon",
+    "citationTitle": "Wikipedia: Millennium Falcon"
+  }
+]

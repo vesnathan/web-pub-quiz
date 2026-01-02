@@ -1,0 +1,18 @@
+# Admin types and queries
+
+type WebhookLog {
+  eventId: ID!
+  provider: String!
+  eventType: String!
+  payload: String!
+  status: String!
+  errorMessage: String
+  createdAt: String!
+}
+
+type WebhookLogConnection {
+  items: [WebhookLog!]!
+  nextToken: String
+}
+
+# Query fields are defined in 00-base.graphql to avoid extend type issues with AppSync

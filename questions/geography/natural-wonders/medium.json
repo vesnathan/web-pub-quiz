@@ -1,0 +1,342 @@
+[
+  {
+    "id": "6fc41f03-a4fb-47b9-b5df-1ae16733789b",
+    "text": "Which natural wonder is formed by the erosion of the Colorado River and is located primarily in Arizona?",
+    "options": [
+      "Bryce Canyon",
+      "Grand Canyon",
+      "Antelope Canyon",
+      "Canyon de Chelly"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "The Grand Canyon was carved by the Colorado River over millions of years.",
+    "detailedExplanation": "The Grand Canyon is a steep-sided canyon carved by the Colorado River in Arizona. The canyon is 277 river miles long, up to 18 miles wide, and reaches depths of over a mile. It was formed through geological processes over millions of years, with the Colorado River cutting through rock layers to expose nearly 2 billion years of Earth's geological history.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Grand_Canyon",
+    "citationTitle": "Wikipedia: Grand Canyon"
+  },
+  {
+    "id": "6a013fad-e7fe-46d9-aec1-e8dcdb1ecfb9",
+    "text": "The Northern Lights (Aurora Borealis) are most commonly visible in which geographical region?",
+    "options": [
+      "Antarctic Circle",
+      "Equatorial regions",
+      "Arctic Circle",
+      "Temperate zones"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "The Northern Lights are most visible in the Arctic Circle due to Earth's magnetic field.",
+    "detailedExplanation": "The Aurora Borealis, or Northern Lights, occurs when charged particles from the sun interact with Earth's magnetic field and atmosphere. These interactions are most intense near the magnetic poles, making the Aurora Borealis most visible in the Arctic Circle, including northern Canada, Alaska, northern Scandinavia, and northern Russia. The phenomenon typically occurs at altitudes between 80 and 300 kilometers above Earth's surface.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Aurora",
+    "citationTitle": "Wikipedia: Aurora"
+  },
+  {
+    "id": "2f9edb28-4a76-4da8-b38b-05a1d7a23206",
+    "text": "Victoria Falls, one of the world's largest waterfalls, is located on the border between which two African countries?",
+    "options": [
+      "Kenya and Tanzania",
+      "South Africa and Botswana",
+      "Zambia and Zimbabwe",
+      "Uganda and Rwanda"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "Victoria Falls is situated on the Zambezi River between Zambia and Zimbabwe.",
+    "detailedExplanation": "Victoria Falls is a waterfall on the Zambezi River in southern Africa, forming the border between Zambia and Zimbabwe. The falls are approximately 1,708 meters wide and 108 meters high, making them one of the largest waterfalls in the world. Known locally as Mosi-oa-Tunya ('The Smoke That Thunders'), the falls were named after Queen Victoria by Scottish explorer David Livingstone in 1855.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Victoria_Falls",
+    "citationTitle": "Wikipedia: Victoria Falls"
+  },
+  {
+    "id": "af60c585-5ce0-4811-a828-5c36054d0ad5",
+    "text": "Mount Everest, the world's highest peak, is located in which mountain range?",
+    "options": [
+      "Andes",
+      "Rocky Mountains",
+      "Alps",
+      "Himalayas"
+    ],
+    "correctIndex": 3,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "Mount Everest is part of the Himalayan mountain range between Nepal and Tibet.",
+    "detailedExplanation": "Mount Everest, known as Sagarmatha in Nepali and Chomolungma in Tibetan, is Earth's highest mountain above sea level at 8,848.86 meters. It is located in the Mahalangur Himal sub-range of the Himalayas, straddling the border between Nepal and the Tibet Autonomous Region of China. The mountain was formed by the collision of the Indian and Eurasian tectonic plates approximately 50-60 million years ago.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Mount_Everest",
+    "citationTitle": "Wikipedia: Mount Everest"
+  },
+  {
+    "id": "1a5aa315-e422-44cf-860f-79afeb945364",
+    "text": "Which natural wonder is known as the 'Stone Forest' and is located in China's Yunnan Province?",
+    "options": [
+      "Zhangjiajie",
+      "Shilin",
+      "Guilin",
+      "Danxia"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "Shilin, meaning 'Stone Forest,' is a limestone formation in Yunnan Province, China.",
+    "detailedExplanation": "The Shilin Stone Forest is a notable limestone formation located in Shilin Yi Autonomous County, Yunnan Province, China. This UNESCO World Heritage site covers an area of 400 square kilometers and features towering limestone pillars that resemble petrified trees, hence the name 'Stone Forest.' The formations were created over 270 million years ago through geological processes including erosion and weathering of limestone bedrock.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Stone_Forest",
+    "citationTitle": "Wikipedia: Stone Forest"
+  },
+  {
+    "id": "0cec934f-2c16-4d6c-bb23-18457de8c7ed",
+    "text": "The Ring of Fire, a region with frequent earthquakes and volcanic eruptions, primarily surrounds which ocean?",
+    "options": [
+      "Atlantic Ocean",
+      "Indian Ocean",
+      "Arctic Ocean",
+      "Pacific Ocean"
+    ],
+    "correctIndex": 3,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "The Ring of Fire is a horseshoe-shaped belt of tectonic activity around the Pacific Ocean.",
+    "detailedExplanation": "The Ring of Fire, also known as the Circum-Pacific Belt, is a region around much of the rim of the Pacific Ocean where many volcanic eruptions and earthquakes occur. This horseshoe-shaped belt stretches for about 40,000 kilometers and is associated with a nearly continuous series of oceanic trenches, volcanic arcs, and volcanic belts. It contains about 75% of the world's active and dormant volcanoes and is home to approximately 90% of the world's earthquakes.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Ring_of_Fire",
+    "citationTitle": "Wikipedia: Ring of Fire"
+  },
+  {
+    "id": "517d28e0-4ed2-4a2d-b98f-a0651ecddf3f",
+    "text": "The Giant's Causeway, a natural formation of interlocking basalt columns, is located in which country?",
+    "options": [
+      "Scotland",
+      "Ireland",
+      "Iceland",
+      "Norway"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "The Giant's Causeway is located in Northern Ireland on the Antrim coast.",
+    "detailedExplanation": "The Giant's Causeway is an area of approximately 40,000 interlocking basalt columns located in County Antrim on the north coast of Northern Ireland. These hexagonal columns were formed as a result of ancient volcanic fissure eruptions that occurred between 50 and 60 million years ago. The unique geometric formations were created when molten basalt lava cooled rapidly, causing it to contract and crack in a regular pattern. It is Northern Ireland's only UNESCO World Heritage Site.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Giant%27s_Causeway",
+    "citationTitle": "Wikipedia: Giant's Causeway"
+  },
+  {
+    "id": "5f56d761-18d5-46ca-9902-269b1ba37d86",
+    "text": "Which natural wonder is known as the 'Smoke that Thunders' in the local Tonga language?",
+    "options": [
+      "Niagara Falls",
+      "Victoria Falls",
+      "Angel Falls",
+      "Iguazu Falls"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "Victoria Falls is called 'Mosi-oa-Tunya' meaning 'Smoke that Thunders' in the Tonga language.",
+    "detailedExplanation": "Victoria Falls, located on the border between Zambia and Zimbabwe, is known locally as 'Mosi-oa-Tunya' which translates to 'Smoke that Thunders' in the Tonga language. This name perfectly describes the massive spray and thunderous sound created when the Zambezi River plunges over the 100-meter-high cliff. The falls were named Victoria Falls by explorer David Livingstone in 1855 after Queen Victoria, but the indigenous name remains widely used and more accurately captures the falls' dramatic character.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Victoria_Falls",
+    "citationTitle": "Wikipedia: Victoria Falls"
+  },
+  {
+    "id": "03ddc5ab-d487-4054-a093-258ec9158758",
+    "text": "The Giant's Causeway in Northern Ireland is famous for its unique rock formations. What type of rock is it primarily made of?",
+    "options": [
+      "Limestone",
+      "Sandstone",
+      "Basalt",
+      "Granite"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "The Giant's Causeway is made of basalt columns formed by ancient volcanic activity.",
+    "detailedExplanation": "The Giant's Causeway consists of about 40,000 interlocking basalt columns that formed during intense volcanic activity around 50-60 million years ago. When molten basalt lava cooled rapidly, it contracted and cracked in a hexagonal pattern, creating the distinctive stepped appearance we see today. This UNESCO World Heritage Site demonstrates one of nature's most perfect examples of columnar jointing in volcanic rock, making it both a geological marvel and a stunning tourist attraction on Northern Ireland's coast.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Giant%27s_Causeway",
+    "citationTitle": "Wikipedia: Giant's Causeway"
+  },
+  {
+    "id": "9937935f-f373-4309-b4ef-3d5d7f737e03",
+    "text": "Mount Everest straddles the border between which two countries?",
+    "options": [
+      "Nepal and India",
+      "Nepal and China",
+      "China and Bhutan",
+      "India and China"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "Mount Everest is located on the border between Nepal and China (Tibet).",
+    "detailedExplanation": "Mount Everest, the world's highest peak at 8,848.86 meters (29,031.7 feet), sits on the border between Nepal and China's Tibet Autonomous Region. The southern approach through Nepal via the Khumbu region is the most popular climbing route, while the northern approach goes through Tibet. The mountain is known as 'Sagarmatha' in Nepali, meaning 'Goddess of the Sky,' and 'Chomolungma' in Tibetan, meaning 'Goddess Mother of the World.' Both countries have established base camps and regulate climbing expeditions from their respective sides.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Mount_Everest",
+    "citationTitle": "Wikipedia: Mount Everest"
+  },
+  {
+    "id": "681371a4-4b36-4139-8ae5-8987c3289d67",
+    "text": "The Aurora Borealis (Northern Lights) is best viewed from which latitude range?",
+    "options": [
+      "30-45 degrees North",
+      "45-60 degrees North",
+      "60-75 degrees North",
+      "75-90 degrees North"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "The Aurora Borealis is most commonly visible between 60-75 degrees North latitude, in the auroral oval zone.",
+    "detailedExplanation": "The Aurora Borealis is most frequently and vividly visible within the auroral oval, which typically occurs between 60-75 degrees North latitude. This zone includes northern parts of Canada, Alaska, northern Scandinavia, northern Russia, and southern Greenland. The auroras are caused by charged particles from the sun interacting with Earth's magnetic field and atmosphere. While they can sometimes be seen at lower latitudes during periods of high solar activity, the 60-75 degree range offers the most consistent and spectacular displays, which is why cities like Fairbanks, Tromsø, and Yellowknife are prime aurora viewing destinations.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Aurora",
+    "citationTitle": "Wikipedia: Aurora"
+  },
+  {
+    "id": "aac8ca86-9e6f-4ada-a90a-55a6486b9d99",
+    "text": "The Dead Sea, famous for its extreme salinity, is located at what elevation relative to sea level?",
+    "options": [
+      "Sea level",
+      "430 meters above sea level",
+      "430 meters below sea level",
+      "200 meters below sea level"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "The Dead Sea is located approximately 430 meters (1,410 feet) below sea level, making it the lowest point on Earth's surface.",
+    "detailedExplanation": "The Dead Sea sits at approximately 430 meters (1,410 feet) below sea level, making it the lowest exposed point on Earth's land surface. This hypersaline lake, bordered by Jordan, Israel, and Palestine, has a salinity level of about 34%, nearly 10 times saltier than ocean water. The extreme elevation and high evaporation rate contribute to its incredible salt concentration, which makes it nearly impossible for most life forms to survive (hence the name 'Dead Sea') but allows humans to float effortlessly on its surface.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Dead_Sea",
+    "citationTitle": "Wikipedia: Dead Sea"
+  },
+  {
+    "id": "4504b355-b533-4c9b-a1e5-0354cdfae754",
+    "text": "Which desert is considered the driest non-polar desert in the world?",
+    "options": [
+      "Sahara Desert",
+      "Gobi Desert",
+      "Atacama Desert",
+      "Kalahari Desert"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "The Atacama Desert in Chile is the driest non-polar desert, with some weather stations never recording rainfall.",
+    "detailedExplanation": "The Atacama Desert in northern Chile is widely recognized as the driest non-polar desert on Earth. Some weather monitoring stations in the Atacama have never recorded rainfall, and the average precipitation across the desert is less than 1 millimeter per year. This extreme aridity is caused by its location between two mountain ranges and the cold Humboldt Current offshore, which creates a rain shadow effect. The desert's conditions are so Mars-like that NASA has used it as a testing ground for Mars rovers, and some areas are completely devoid of vegetation and microbial life.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Atacama_Desert",
+    "citationTitle": "Wikipedia: Atacama Desert"
+  },
+  {
+    "id": "d1d8f9a6-c05e-41a2-a7d2-73e8edc63bed",
+    "text": "The Great Blue Hole, a giant marine sinkhole, is located off the coast of which Central American country?",
+    "options": [
+      "Guatemala",
+      "Honduras",
+      "Costa Rica",
+      "Belize"
+    ],
+    "correctIndex": 3,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "The Great Blue Hole is located off the coast of Belize in the Lighthouse Reef Atoll.",
+    "detailedExplanation": "The Great Blue Hole is a spectacular circular marine sinkhole located about 70 kilometers off the coast of Belize, near the center of Lighthouse Reef Atoll. This UNESCO World Heritage Site is approximately 300 meters wide and 125 meters deep, with its distinctive dark blue color caused by its great depth. The formation was created during the last ice age when sea levels were much lower - it was originally a limestone cave system that collapsed and was later flooded as sea levels rose. Made famous by Jacques Cousteau, who declared it one of the top diving sites in the world, it's now a bucket-list destination for divers and snorkelers.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Great_Blue_Hole",
+    "citationTitle": "Wikipedia: Great Blue Hole"
+  },
+  {
+    "id": "360baa26-a218-412c-8471-84e4350c400f",
+    "text": "Which volcanic island nation in the North Atlantic sits directly on the Mid-Atlantic Ridge?",
+    "options": [
+      "Faroe Islands",
+      "Iceland",
+      "Greenland",
+      "Azores"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "Iceland sits directly on the Mid-Atlantic Ridge, where the North American and Eurasian tectonic plates meet.",
+    "detailedExplanation": "Iceland is uniquely positioned directly on the Mid-Atlantic Ridge, the underwater mountain range where the North American and Eurasian tectonic plates are slowly separating. This location makes Iceland one of the most geologically active places on Earth, with frequent volcanic eruptions, geysers, hot springs, and earthquakes. The island is literally being pulled apart at a rate of about 2 centimeters per year, with new land being created by volcanic activity. This geological setting has created Iceland's dramatic landscape of glaciers, volcanoes, and geothermal features, including the famous Blue Lagoon and Geysir hot spring.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Iceland",
+    "citationTitle": "Wikipedia: Iceland"
+  },
+  {
+    "id": "4af6c304-bed0-4b32-89b6-4df92c79545a",
+    "text": "The Giant's Causeway, famous for its hexagonal basalt columns, is located in which country?",
+    "options": [
+      "Scotland",
+      "Ireland",
+      "Iceland",
+      "Norway"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "The Giant's Causeway is located in Northern Ireland, part of the United Kingdom but on the island of Ireland.",
+    "detailedExplanation": "The Giant's Causeway is situated on the coast of County Antrim in Northern Ireland. This UNESCO World Heritage Site consists of approximately 40,000 interlocking basalt columns formed by volcanic activity around 50-60 million years ago. The columns are predominantly hexagonal, though some have four, five, seven, or eight sides. According to Irish mythology, the causeway was built by the giant Finn MacCool as a bridge to Scotland to fight another giant.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Giant%27s_Causeway",
+    "citationTitle": "Wikipedia: Giant's Causeway"
+  },
+  {
+    "id": "fc1fc4fc-3c9f-4cb9-bd9c-9a67e7af5f30",
+    "text": "Which desert is home to the famous red sand dunes of Sossusvlei?",
+    "options": [
+      "Sahara Desert",
+      "Kalahari Desert",
+      "Namib Desert",
+      "Atacama Desert"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "Sossusvlei is located in the Namib Desert of Namibia, known for having some of the world's highest sand dunes.",
+    "detailedExplanation": "Sossusvlei is a salt and clay pan surrounded by high red sand dunes in the central Namib Desert, one of the world's oldest deserts. The area is famous for its towering dunes, some reaching heights of over 300 meters, which appear bright red due to high iron oxide content. The contrast between the red dunes, white salt pan, and occasional green camel thorn trees creates one of the most photographed landscapes in Africa. The word 'Sossusvlei' means 'dead-end marsh' in Afrikaans.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Sossusvlei",
+    "citationTitle": "Wikipedia: Sossusvlei"
+  },
+  {
+    "id": "58ce8704-ff2f-40bc-89a7-22d002838e30",
+    "text": "The Aurora Borealis can be regularly observed from which of these locations?",
+    "options": [
+      "Southern Chile",
+      "Northern Alaska",
+      "Central Australia",
+      "Southern Africa"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "The Aurora Borealis (Northern Lights) is visible in northern polar regions, making Northern Alaska an ideal viewing location.",
+    "detailedExplanation": "The Aurora Borealis, commonly known as the Northern Lights, occurs in the northern polar regions within the auroral oval. Northern Alaska, particularly areas like Fairbanks and the Arctic Circle, offers some of the best viewing opportunities due to its high latitude position and long periods of darkness during winter months. The phenomenon is caused by solar particles interacting with Earth's magnetic field and atmosphere, creating spectacular displays of colored lights dancing across the sky, typically in shades of green, purple, and red.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Aurora",
+    "citationTitle": "Wikipedia: Aurora"
+  },
+  {
+    "id": "75f99c55-0fe6-47ce-b5d1-1c45550487c8",
+    "text": "Mount Roraima, which inspired Arthur Conan Doyle's 'The Lost World', straddles the borders of which three countries?",
+    "options": [
+      "Brazil, Colombia, Peru",
+      "Venezuela, Brazil, Guyana",
+      "Ecuador, Colombia, Brazil",
+      "Bolivia, Brazil, Paraguay"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "Mount Roraima is located at the triple border point of Venezuela, Brazil, and Guyana in South America.",
+    "detailedExplanation": "Mount Roraima is a spectacular tabletop mountain (tepui) that rises 2,810 meters above sea level at the junction of Venezuela, Brazil, and Guyana. This ancient geological formation, estimated to be around 2 billion years old, features a flat summit plateau of approximately 31 square kilometers. The mountain's unique ecosystem, dramatic cliff faces, and mysterious appearance inspired Sir Arthur Conan Doyle's 1912 novel 'The Lost World.' It's considered one of the oldest geological formations on Earth and hosts many endemic plant and animal species.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Mount_Roraima",
+    "citationTitle": "Wikipedia: Mount Roraima"
+  },
+  {
+    "id": "b668decc-6b57-4bf6-bbee-f2e629ec3edb",
+    "text": "Which natural wonder is known as the 'Smoke that Thunders' in the local Lozi language?",
+    "options": [
+      "Niagara Falls",
+      "Angel Falls",
+      "Victoria Falls",
+      "Iguazu Falls"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "Victoria Falls is called 'Mosi-oa-Tunya' meaning 'the smoke that thunders' in the local Lozi language.",
+    "detailedExplanation": "Victoria Falls, located on the border between Zambia and Zimbabwe on the Zambezi River, is known locally as 'Mosi-oa-Tunya,' which translates to 'the smoke that thunders' in the Lozi language. This name perfectly describes the thunderous roar and massive spray clouds that rise from the falls, which can be seen from miles away. The falls were named Victoria Falls by Scottish explorer David Livingstone in 1855 after Queen Victoria, but the indigenous name captures the natural phenomenon much more poetically. At 108 meters high and 1,708 meters wide, it's considered one of the largest waterfalls in the world.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Victoria_Falls",
+    "citationTitle": "Wikipedia: Victoria Falls"
+  }
+]

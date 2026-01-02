@@ -1,0 +1,342 @@
+[
+  {
+    "id": "8f736813-e0db-40a4-be61-e072b8e0f5fb",
+    "text": "Which streaming platform produced the hit series 'Stranger Things'?",
+    "options": [
+      "Hulu",
+      "Netflix",
+      "Amazon Prime Video",
+      "Disney+"
+    ],
+    "correctIndex": 1,
+    "category": "entertainment",
+    "difficulty": "medium",
+    "explanation": "Netflix produced and exclusively streams Stranger Things.",
+    "detailedExplanation": "Stranger Things is a Netflix original series that premiered in 2016. Created by the Duffer Brothers, it became one of Netflix's most popular and culturally significant shows, helping to establish the platform as a major producer of original content alongside traditional television networks.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Stranger_Things",
+    "citationTitle": "Wikipedia: Stranger Things"
+  },
+  {
+    "id": "6431b2c5-36e4-4d49-88fe-d454ab52b75d",
+    "text": "In 'The Mandalorian', what is the real name of the character known as 'Baby Yoda'?",
+    "options": [
+      "Grogu",
+      "Yiddle",
+      "Din Djarin",
+      "Mando Jr."
+    ],
+    "correctIndex": 0,
+    "category": "entertainment",
+    "difficulty": "medium",
+    "explanation": "The character's real name is revealed to be Grogu in the series.",
+    "detailedExplanation": "The character popularly nicknamed 'Baby Yoda' by fans was officially revealed to be named Grogu in Season 2 of The Mandalorian. The character belongs to the same species as Jedi Master Yoda but is not actually Yoda as a baby, despite the fan nickname that stuck throughout the show's early episodes.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Grogu",
+    "citationTitle": "Wikipedia: Grogu"
+  },
+  {
+    "id": "a24fa979-95b0-4b1b-9eb4-a7ae2fba021d",
+    "text": "Which actress plays Queen Elizabeth II in the first two seasons of Netflix's 'The Crown'?",
+    "options": [
+      "Olivia Colman",
+      "Claire Foy",
+      "Helena Bonham Carter",
+      "Imelda Staunton"
+    ],
+    "correctIndex": 1,
+    "category": "entertainment",
+    "difficulty": "medium",
+    "explanation": "Claire Foy portrayed Queen Elizabeth II in seasons 1 and 2 of The Crown.",
+    "detailedExplanation": "Claire Foy played Queen Elizabeth II in the first two seasons of The Crown, covering the early years of her reign from 1947 to 1964. The role was then passed to Olivia Colman for seasons 3 and 4, and later to Imelda Staunton for the final seasons, as the show aged up the characters to reflect different periods of the Queen's life.",
+    "citationUrl": "https://en.wikipedia.org/wiki/The_Crown_(TV_series)",
+    "citationTitle": "Wikipedia: The Crown (TV series)"
+  },
+  {
+    "id": "5c9ea4fd-8243-4267-b22b-079561a864d3",
+    "text": "In which fictional town is the Amazon Prime series 'The Boys' primarily set?",
+    "options": [
+      "Gotham City",
+      "New York City",
+      "Star City",
+      "The series doesn't specify a main location"
+    ],
+    "correctIndex": 1,
+    "category": "entertainment",
+    "difficulty": "medium",
+    "explanation": "The Boys is primarily set in New York City.",
+    "detailedExplanation": "The Boys takes place in a contemporary version of New York City, where superheroes are managed by the powerful corporation Vought International. While the show features a dark, satirical take on superhero culture, it grounds itself in the recognizable setting of NYC, with many scenes filmed in Toronto doubling for New York locations.",
+    "citationUrl": "https://en.wikipedia.org/wiki/The_Boys_(TV_series)",
+    "citationTitle": "Wikipedia: The Boys (TV series)"
+  },
+  {
+    "id": "36b6e316-0e0d-41c7-ad54-ab19002bc3b1",
+    "text": "What is the name of the coffee shop in the Apple TV+ series 'Ted Lasso'?",
+    "options": [
+      "Crown & Anchor",
+      "The Local",
+      "Perk Up",
+      "There is no specific coffee shop featured"
+    ],
+    "correctIndex": 0,
+    "category": "entertainment",
+    "difficulty": "medium",
+    "explanation": "The Crown & Anchor is the pub frequently visited by characters in Ted Lasso.",
+    "detailedExplanation": "The Crown & Anchor is actually the local pub in Ted Lasso, not a coffee shop. It serves as a central gathering place for the characters throughout the series. The pub is where many important conversations and character development moments take place, reflecting the important role of local pubs in British culture and community life.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Ted_Lasso",
+    "citationTitle": "Wikipedia: Ted Lasso"
+  },
+  {
+    "id": "0db407db-e2ed-4b69-a342-17dbece01c30",
+    "text": "Which streaming service is home to 'The Handmaid's Tale'?",
+    "options": [
+      "Netflix",
+      "Amazon Prime Video",
+      "Hulu",
+      "HBO Max"
+    ],
+    "correctIndex": 2,
+    "category": "entertainment",
+    "difficulty": "medium",
+    "explanation": "The Handmaid's Tale is a Hulu original series.",
+    "detailedExplanation": "The Handmaid's Tale premiered on Hulu in 2017 and became one of the platform's most critically acclaimed original series. Based on Margaret Atwood's 1985 novel, the dystopian drama helped establish Hulu as a serious competitor in the original programming space, earning multiple Emmy Awards including Outstanding Drama Series.",
+    "citationUrl": "https://en.wikipedia.org/wiki/The_Handmaid%27s_Tale_(TV_series)",
+    "citationTitle": "Wikipedia: The Handmaid's Tale (TV series)"
+  },
+  {
+    "id": "648f93bd-c9e1-46f8-9528-ce26f38f82fd",
+    "text": "In 'Squid Game', what is the total prize money that players compete for?",
+    "options": [
+      "45.6 billion won",
+      "100 billion won",
+      "25.5 billion won",
+      "67.8 billion won"
+    ],
+    "correctIndex": 0,
+    "category": "entertainment",
+    "difficulty": "medium",
+    "explanation": "The prize money in Squid Game is 45.6 billion won.",
+    "detailedExplanation": "In Squid Game, the prize pool starts at 100 million won per player and grows with each elimination. With 456 players initially, the final prize money totals 45.6 billion Korean won, which is approximately $38 million USD. This enormous sum represents the monetary value placed on human life in the show's brutal commentary on economic inequality.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Squid_Game",
+    "citationTitle": "Wikipedia: Squid Game"
+  },
+  {
+    "id": "f73c79ed-0bc6-490c-a891-a3f8fd84555f",
+    "text": "Which actor plays Geralt of Rivia in Netflix's 'The Witcher'?",
+    "options": [
+      "Chris Hemsworth",
+      "Henry Cavill",
+      "Jason Momoa",
+      "Charlie Hunnam"
+    ],
+    "correctIndex": 1,
+    "category": "entertainment",
+    "difficulty": "medium",
+    "explanation": "Henry Cavill portrays Geralt of Rivia in The Witcher.",
+    "detailedExplanation": "Henry Cavill, best known for playing Superman in DC films, stars as Geralt of Rivia in Netflix's adaptation of The Witcher. Cavill was actually a fan of the video game series and books before being cast, and his enthusiasm for the source material was evident in his performance. However, he announced his departure from the series after Season 3, with Liam Hemsworth set to take over the role.",
+    "citationUrl": "https://en.wikipedia.org/wiki/The_Witcher_(TV_series)",
+    "citationTitle": "Wikipedia: The Witcher (TV series)"
+  },
+  {
+    "id": "9ec3b594-397a-4ff1-923c-97a6956bf1c2",
+    "text": "Which streaming service produced the critically acclaimed series 'The Queen's Gambit' starring Anya Taylor-Joy?",
+    "options": [
+      "Amazon Prime Video",
+      "Netflix",
+      "Hulu",
+      "HBO Max"
+    ],
+    "correctIndex": 1,
+    "category": "entertainment",
+    "difficulty": "medium",
+    "explanation": "Netflix produced 'The Queen's Gambit' as a limited series in 2020.",
+    "detailedExplanation": "'The Queen's Gambit' was released as a Netflix original limited series in October 2020. Based on Walter Tevis's 1983 novel, the show follows Beth Harmon, an orphaned chess prodigy on her rise to the top of the chess world while struggling with emotional problems and drug addiction. The series became Netflix's most-watched scripted limited series at the time, viewed by 62 million households in its first 28 days.",
+    "citationUrl": "https://en.wikipedia.org/wiki/The_Queen%27s_Gambit_(miniseries)",
+    "citationTitle": "Wikipedia: The Queen's Gambit (miniseries)"
+  },
+  {
+    "id": "132df036-4e48-4d70-9c5a-ba85b88c7693",
+    "text": "In 'Stranger Things', what is the name of the parallel dimension known as the dark, decaying alternate version of Hawkins?",
+    "options": [
+      "The Shadow Realm",
+      "The Upside Down",
+      "The Dark Place",
+      "The Void"
+    ],
+    "correctIndex": 1,
+    "category": "entertainment",
+    "difficulty": "medium",
+    "explanation": "The Upside Down is the dark parallel dimension that serves as a central plot element in Stranger Things.",
+    "detailedExplanation": "The Upside Down is a dark and twisted alternate dimension existing in parallel to the human world in the Netflix series 'Stranger Things'. It appears as a dark reflection of the real world, stuck in a state of decay and filled with dangerous creatures like the Demogorgon. The dimension was first accessed accidentally during Eleven's psychic experiments at Hawkins National Laboratory, setting the events of the series in motion.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Stranger_Things",
+    "citationTitle": "Wikipedia: Stranger Things"
+  },
+  {
+    "id": "78dbfac3-82bb-47d0-a32c-900e158d8973",
+    "text": "Which actor plays the character Marty Byrde in the Netflix crime drama series 'Ozark'?",
+    "options": [
+      "Bryan Cranston",
+      "Jason Bateman",
+      "Jon Hamm",
+      "Kevin Spacey"
+    ],
+    "correctIndex": 1,
+    "category": "entertainment",
+    "difficulty": "medium",
+    "explanation": "Jason Bateman stars as Marty Byrde, the financial advisor turned money launderer in 'Ozark'.",
+    "detailedExplanation": "Jason Bateman both stars in and serves as executive producer and director for several episodes of 'Ozark'. In the series, he plays Marty Byrde, a Chicago financial advisor who relocates his family to the Missouri Ozarks to launder money for a Mexican drug cartel. Bateman's performance earned him critical acclaim and multiple award nominations, including Emmy and Golden Globe nominations for his acting and directing work on the show.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Ozark_(TV_series)",
+    "citationTitle": "Wikipedia: Ozark (TV series)"
+  },
+  {
+    "id": "734af28f-dfb3-489c-9f0a-c1047b12d712",
+    "text": "What is the name of the fictional kingdom where most of 'The Witcher' Netflix series takes place?",
+    "options": [
+      "Temeria",
+      "The Continent",
+      "Cintra",
+      "Redania"
+    ],
+    "correctIndex": 1,
+    "category": "entertainment",
+    "difficulty": "medium",
+    "explanation": "The Continent is the main landmass where The Witcher series is set, containing various kingdoms including Temeria and Cintra.",
+    "detailedExplanation": "The Netflix adaptation of 'The Witcher' is set primarily on a landmass known as 'The Continent', which contains multiple kingdoms, principalities, and regions. While specific kingdoms like Cintra, Temeria, and Redania are featured prominently in the show, The Continent refers to the overall fantasy world created by author Andrzej Sapkowski. The series follows Geralt of Rivia as he travels across this continent, encountering various political conflicts and supernatural creatures.",
+    "citationUrl": "https://en.wikipedia.org/wiki/The_Witcher_(TV_series)",
+    "citationTitle": "Wikipedia: The Witcher (TV series)"
+  },
+  {
+    "id": "5f3ace00-9a17-4fa5-89f7-f6edfe462383",
+    "text": "Which Disney+ series features the character Din Djarin as the main protagonist?",
+    "options": [
+      "The Book of Boba Fett",
+      "Obi-Wan Kenobi",
+      "The Mandalorian",
+      "Andor"
+    ],
+    "correctIndex": 2,
+    "category": "entertainment",
+    "difficulty": "medium",
+    "explanation": "Din Djarin is the real name of the title character in 'The Mandalorian' Disney+ series.",
+    "detailedExplanation": "'The Mandalorian' premiered on Disney+ in 2019 as the first live-action Star Wars series. The show follows Din Djarin, a lone bounty hunter in the outer reaches of the galaxy, far from the authority of the New Republic. Initially referred to only as 'the Mandalorian' or 'Mando', his real name Din Djarin was revealed in the show's second season. The series became a flagship show for Disney+ and introduced the popular character known as 'Baby Yoda' or Grogu.",
+    "citationUrl": "https://en.wikipedia.org/wiki/The_Mandalorian",
+    "citationTitle": "Wikipedia: The Mandalorian"
+  },
+  {
+    "id": "5f39f690-f870-427a-bae0-9f7cc6b3e401",
+    "text": "How many seasons did the Amazon Prime Video series 'The Boys' run for before concluding?",
+    "options": [
+      "3 seasons",
+      "4 seasons",
+      "5 seasons",
+      "Still ongoing"
+    ],
+    "correctIndex": 3,
+    "category": "entertainment",
+    "difficulty": "medium",
+    "explanation": "The Boys is still ongoing, with multiple seasons already released and more planned.",
+    "detailedExplanation": "'The Boys' premiered on Amazon Prime Video in July 2019 and is still an active series. Based on the comic book series by Garth Ennis and Darick Robertson, the show has released multiple seasons with more planned. The series follows a group of vigilantes as they combat corrupt superheroes who abuse their superpowers. Amazon has renewed the show for additional seasons and has also produced spin-off content, making it one of Prime Video's most successful original series.",
+    "citationUrl": "https://en.wikipedia.org/wiki/The_Boys_(TV_series)",
+    "citationTitle": "Wikipedia: The Boys (TV series)"
+  },
+  {
+    "id": "1e0a7eeb-ca11-4dd0-905b-185e5769ade2",
+    "text": "In the Apple TV+ series 'Ted Lasso', what sport does the main character coach?",
+    "options": [
+      "American Football",
+      "Soccer/Football",
+      "Basketball",
+      "Baseball"
+    ],
+    "correctIndex": 1,
+    "category": "entertainment",
+    "difficulty": "medium",
+    "explanation": "Ted Lasso, an American football coach, is hired to coach a British soccer/football team despite having no experience with the sport.",
+    "detailedExplanation": "'Ted Lasso' follows an American football coach from Kansas who is hired to coach AFC Richmond, a fictional English Premier League soccer team, despite having no experience coaching soccer. The show's central premise revolves around Ted's optimistic approach to coaching soccer (known as football in the UK) and his attempts to win over skeptical players, media, and fans. The series, starring Jason Sudeikis, became a critical and commercial success for Apple TV+, winning multiple Emmy Awards.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Ted_Lasso",
+    "citationTitle": "Wikipedia: Ted Lasso"
+  },
+  {
+    "id": "fb18e650-78b2-4bbb-9369-58433e3d6cb3",
+    "text": "Which streaming platform produced the dystopian series 'The Handmaid's Tale' based on Margaret Atwood's novel?",
+    "options": [
+      "Netflix",
+      "Amazon Prime Video",
+      "Hulu",
+      "HBO Max"
+    ],
+    "correctIndex": 2,
+    "category": "entertainment",
+    "difficulty": "medium",
+    "explanation": "Hulu produced 'The Handmaid's Tale' as one of its flagship original series.",
+    "detailedExplanation": "'The Handmaid's Tale' premiered on Hulu in April 2017 and became the streaming service's first series to win an Emmy Award for Outstanding Drama Series. Based on Margaret Atwood's 1985 novel, the series is set in a dystopian future called Gilead, where fertile women are forced to bear children for the ruling class. Starring Elisabeth Moss as Offred/June, the show has been both critically acclaimed and controversial, winning multiple Emmy and Golden Globe awards while sparking discussions about women's rights and authoritarianism.",
+    "citationUrl": "https://en.wikipedia.org/wiki/The_Handmaid%27s_Tale_(TV_series)",
+    "citationTitle": "Wikipedia: The Handmaid's Tale (TV series)"
+  },
+  {
+    "id": "8a380b87-486b-424a-bdb4-b0da213acd3c",
+    "text": "Which Netflix series holds the record for most Emmy nominations received by a comedy series in a single year?",
+    "options": [
+      "The Good Place",
+      "Ted Lasso",
+      "Schitt's Creek",
+      "The Marvelous Mrs. Maisel"
+    ],
+    "correctIndex": 3,
+    "category": "entertainment",
+    "difficulty": "medium",
+    "explanation": "The Marvelous Mrs. Maisel received 20 Emmy nominations in 2019.",
+    "detailedExplanation": "Amazon Prime's 'The Marvelous Mrs. Maisel' set a record in 2019 when it received 20 Emmy nominations in a single year, breaking the previous record for most nominations received by a comedy series. The show, starring Rachel Brosnahan as a 1950s housewife turned stand-up comedian, has been praised for its writing, cinematography, and period detail, making it one of the most acclaimed streaming comedies of the modern era.",
+    "citationUrl": "https://en.wikipedia.org/wiki/The_Marvelous_Mrs._Maisel",
+    "citationTitle": "Wikipedia: The Marvelous Mrs. Maisel"
+  },
+  {
+    "id": "18805cf7-5604-4f69-a5ee-cfeedf316eb0",
+    "text": "In the Netflix series 'Stranger Things', what is the name of the parallel dimension that threatens the town of Hawkins?",
+    "options": [
+      "The Shadow Realm",
+      "The Upside Down",
+      "The Dark Place",
+      "The Void"
+    ],
+    "correctIndex": 1,
+    "category": "entertainment",
+    "difficulty": "medium",
+    "explanation": "The Upside Down is the dark parallel dimension in Stranger Things.",
+    "detailedExplanation": "The Upside Down is the central supernatural element in Netflix's hit series 'Stranger Things'. This dark, decaying parallel dimension mirrors the real world of Hawkins, Indiana, but is inhabited by dangerous creatures like the Demogorgon and controlled by the Mind Flayer. The concept was created by the Duffer Brothers and has become one of the most recognizable elements of modern streaming horror, inspiring countless memes and cultural references since the show's debut in 2016.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Stranger_Things",
+    "citationTitle": "Wikipedia: Stranger Things"
+  },
+  {
+    "id": "0b27a1cc-56d1-48d2-bb3b-1d69658337d8",
+    "text": "Which streaming platform originally produced 'The Boys', the controversial superhero series based on the comic book series?",
+    "options": [
+      "Netflix",
+      "Hulu",
+      "Amazon Prime Video",
+      "HBO Max"
+    ],
+    "correctIndex": 2,
+    "category": "entertainment",
+    "difficulty": "medium",
+    "explanation": "The Boys is an Amazon Prime Video original series that premiered in 2019.",
+    "detailedExplanation": "Amazon Prime Video's 'The Boys' premiered in 2019 as a dark, satirical take on the superhero genre. Based on the comic book series by Garth Ennis and Darick Robertson, the show presents superheroes as corrupt celebrities managed by a powerful corporation called Vought International. The series has been praised for its social commentary and has become one of Amazon's most successful original productions, spawning spin-offs and establishing the platform as a major competitor in the streaming wars.",
+    "citationUrl": "https://en.wikipedia.org/wiki/The_Boys_(TV_series)",
+    "citationTitle": "Wikipedia: The Boys (TV series)"
+  },
+  {
+    "id": "87350e25-9d32-43c2-8bc6-7f35594ed779",
+    "text": "What is the name of the fictional streaming service featured in the Apple TV+ series 'Mythic Quest'?",
+    "options": [
+      "Eternal Realms",
+      "Mythic Quest: Raven's Banquet",
+      "Dark Quiet Death",
+      "Legendary Gaming"
+    ],
+    "correctIndex": 1,
+    "category": "entertainment",
+    "difficulty": "medium",
+    "explanation": "Mythic Quest: Raven's Banquet is both the name of the game and the show's original full title.",
+    "detailedExplanation": "In Apple TV+'s workplace comedy 'Mythic Quest', the central focus is the development of a popular MMORPG called 'Mythic Quest: Raven's Banquet'. The show, co-created by Rob McElhenney, Charlie Day, and Megan Ganz, follows the dysfunctional team behind this fictional video game at a company called Mythic Quest. The series offers a satirical look at the gaming industry and workplace dynamics, and was originally titled 'Mythic Quest: Raven's Banquet' before being shortened to just 'Mythic Quest' for subsequent seasons.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Mythic_Quest",
+    "citationTitle": "Wikipedia: Mythic Quest"
+  }
+]

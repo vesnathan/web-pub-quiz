@@ -1,0 +1,325 @@
+[
+  {
+    "id": "ddbe9e35-c5be-49e1-be0b-fba86d019ea0",
+    "text": "What is the capital city of Australia?",
+    "options": [
+      "Sydney",
+      "Melbourne",
+      "Canberra",
+      "Perth"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "Canberra is Australia's capital city, located in the Australian Capital Territory.",
+    "detailedExplanation": "While Sydney and Melbourne are Australia's largest cities, Canberra was specifically chosen as the capital in 1908 as a compromise between the two rival cities. Construction of the planned city began in 1913, and it officially became the seat of government. The city was designed by American architects Walter Burley Griffin and Marion Mahony Griffin following an international design competition.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Canberra",
+    "citationTitle": "Wikipedia: Canberra"
+  },
+  {
+    "id": "b08e6fd3-ec97-4293-96cd-a7835b5a0741",
+    "text": "Which city is the capital of Japan?",
+    "options": [
+      "Osaka",
+      "Tokyo",
+      "Kyoto",
+      "Hiroshima"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "Tokyo has been Japan's capital and largest city since 1868.",
+    "detailedExplanation": "Tokyo became Japan's capital in 1868 when the Meiji Restoration moved the seat of government from Kyoto. Originally called Edo, the city was renamed Tokyo, meaning 'Eastern Capital.' Today it serves as the political, economic, and cultural center of Japan, housing the Imperial Palace and the Japanese government. The Greater Tokyo Area is the most populous metropolitan area in the world.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Tokyo",
+    "citationTitle": "Wikipedia: Tokyo"
+  },
+  {
+    "id": "6490970f-d1c9-4bfb-b56d-3e9d3563d7d2",
+    "text": "What is the capital of Egypt?",
+    "options": [
+      "Alexandria",
+      "Cairo",
+      "Luxor",
+      "Giza"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "Cairo is Egypt's capital and largest city, known as 'The City of a Thousand Minarets.'",
+    "detailedExplanation": "Cairo has been Egypt's capital for over 1,000 years and is the largest city in the Arab world and Africa. Located near the ancient city of Memphis and the Giza Pyramids, Cairo sits at the head of the Nile Delta. The city is famous for its Islamic architecture, including hundreds of mosques and madrasas, earning it the nickname 'The City of a Thousand Minarets.' It serves as the political, economic, and cultural center of Egypt.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Cairo",
+    "citationTitle": "Wikipedia: Cairo"
+  },
+  {
+    "id": "5b5d2de2-168e-4740-bf16-e5136d21d3f6",
+    "text": "Which of these cities is the capital of Canada?",
+    "options": [
+      "Toronto",
+      "Vancouver",
+      "Montreal",
+      "Ottawa"
+    ],
+    "correctIndex": 3,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "Ottawa is Canada's capital city, located in the province of Ontario.",
+    "detailedExplanation": "Ottawa was chosen as Canada's capital in 1857 by Queen Victoria, partly because of its location on the border between English-speaking Ontario and French-speaking Quebec. Despite being the fourth-largest city in Canada, Ottawa serves as the political center, housing Parliament Hill, the Supreme Court, and numerous government departments. The city is known for its Victorian Gothic Revival architecture and the Rideau Canal, a UNESCO World Heritage Site.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Ottawa",
+    "citationTitle": "Wikipedia: Ottawa"
+  },
+  {
+    "id": "0feb6bdc-4b02-423a-86a8-e078133c59a0",
+    "text": "What is the capital city of Brazil?",
+    "options": [
+      "São Paulo",
+      "Rio de Janeiro",
+      "Brasília",
+      "Salvador"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "Brasília is Brazil's capital, a planned city built in the 1950s in the country's interior.",
+    "detailedExplanation": "Brasília was constructed between 1956 and 1960 to serve as Brazil's new capital, replacing Rio de Janeiro. The city was planned and developed by architect Oscar Niemeyer and urban planner Lúcio Costa, featuring modernist architecture and a unique airplane-shaped layout. Located in the federal district in Brazil's central plateau, Brasília was designed to promote development of the interior regions and is recognized as a UNESCO World Heritage Site for its innovative urban planning.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Bras%C3%ADlia",
+    "citationTitle": "Wikipedia: Brasília"
+  },
+  {
+    "id": "1448378d-55d4-4c56-85dd-9f3d15d97994",
+    "text": "Which city serves as the capital of South Korea?",
+    "options": [
+      "Seoul",
+      "Busan",
+      "Incheon",
+      "Daegu"
+    ],
+    "correctIndex": 0,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "Seoul is South Korea's capital and largest city, home to nearly 10 million people.",
+    "detailedExplanation": "Seoul has been Korea's capital for over 600 years, dating back to the Joseon Dynasty in 1394. Located along the Han River, Seoul is one of the world's most populous metropolitan areas and serves as South Korea's political, economic, and cultural hub. The city is known for its mix of ancient palaces like Gyeongbokgung and modern skyscrapers, as well as being a global center for technology and pop culture, including K-pop and Korean dramas.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Seoul",
+    "citationTitle": "Wikipedia: Seoul"
+  },
+  {
+    "id": "db41e218-68e5-4ec3-97e5-3eb449a28abe",
+    "text": "What is the capital of New Zealand?",
+    "options": [
+      "Auckland",
+      "Wellington",
+      "Christchurch",
+      "Hamilton"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "Wellington is New Zealand's capital city, located at the southern tip of the North Island.",
+    "detailedExplanation": "Wellington became New Zealand's capital in 1865, taking over from Auckland due to its more central location between the North and South Islands. Situated around a natural harbor at the southern tip of the North Island, Wellington is known for its strong winds, vibrant arts scene, and compact downtown area. Despite being smaller than Auckland, it houses the New Zealand Parliament, Supreme Court, and most government ministries, making it the country's political center.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Wellington",
+    "citationTitle": "Wikipedia: Wellington"
+  },
+  {
+    "id": "89c8d471-5b50-4d33-bb18-9bcfe09beb31",
+    "text": "Which city is the capital of Thailand?",
+    "options": [
+      "Chiang Mai",
+      "Phuket",
+      "Bangkok",
+      "Pattaya"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "Bangkok is Thailand's capital and most populous city, officially known as Krung Thep Maha Nakhon.",
+    "detailedExplanation": "Bangkok has been Thailand's capital since 1782 when King Rama I established it as the seat of the Chakri Dynasty. The city's full ceremonial name is one of the longest place names in the world, though locals typically call it 'Krung Thep.' Located along the Chao Phraya River, Bangkok serves as Thailand's political, economic, and cultural center. The city is famous for its ornate temples, bustling markets, vibrant street life, and serves as a major tourist gateway to Southeast Asia.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Bangkok",
+    "citationTitle": "Wikipedia: Bangkok"
+  },
+  {
+    "id": "d1cffbee-9c77-425f-a16f-4991ab0aeb7b",
+    "text": "Which city is the capital of Canada?",
+    "options": [
+      "Toronto",
+      "Vancouver",
+      "Montreal",
+      "Ottawa"
+    ],
+    "correctIndex": 3,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "Ottawa is Canada's capital city and seat of the federal government.",
+    "detailedExplanation": "Ottawa was chosen as Canada's capital in 1857 by Queen Victoria, partly because of its location on the border between English-speaking Ontario and French-speaking Quebec. The city serves as the political center of Canada and houses Parliament Hill, where the federal government conducts its business. While Toronto is Canada's largest city, Ottawa remains the capital.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Ottawa",
+    "citationTitle": "Wikipedia: Ottawa"
+  },
+  {
+    "id": "e588e10a-8ab9-467d-9084-cfdb4f588402",
+    "text": "What is the capital of Brazil?",
+    "options": [
+      "Rio de Janeiro",
+      "São Paulo",
+      "Brasília",
+      "Salvador"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "Brasília is Brazil's capital city, replacing Rio de Janeiro in 1960.",
+    "detailedExplanation": "Brasília was inaugurated as Brazil's capital in 1960, taking over from Rio de Janeiro. The city was purpose-built in the country's interior as part of a plan to promote development away from the coastal areas. Designed by architect Oscar Niemeyer and urban planner Lúcio Costa, Brasília is known for its modernist architecture and unique urban planning, earning it UNESCO World Heritage status.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Bras%C3%ADlia",
+    "citationTitle": "Wikipedia: Brasília"
+  },
+  {
+    "id": "f3f7c134-d65f-490f-a7c5-0467914bff8b",
+    "text": "Which of these cities is the capital of Spain?",
+    "options": [
+      "Barcelona",
+      "Madrid",
+      "Valencia",
+      "Seville"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "Madrid is Spain's capital and largest city, located in the center of the country.",
+    "detailedExplanation": "Madrid has been the capital of Spain since 1561, when King Philip II moved the court there from Toledo. Located in the geographic center of the Iberian Peninsula, Madrid serves as the political, economic, and cultural heart of Spain. The city houses the Spanish royal family, government institutions, and major museums like the Prado, making it the undisputed capital despite Barcelona's prominence in Catalonia.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Madrid",
+    "citationTitle": "Wikipedia: Madrid"
+  },
+  {
+    "id": "0c54564b-046f-422f-af0d-379564bcae20",
+    "text": "What is the capital city of Egypt?",
+    "options": [
+      "Alexandria",
+      "Cairo",
+      "Luxor",
+      "Giza"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "Cairo is Egypt's capital and largest city, known as 'The City of a Thousand Minarets.'",
+    "detailedExplanation": "Cairo has been Egypt's capital for over 1,000 years and is the largest city in the Arab world. Located near the ancient city of Memphis and the Giza pyramid complex, Cairo sits at the head of the Nile Delta. The city serves as the political, economic, and cultural center of Egypt and the broader Arab world, housing major institutions like Al-Azhar University, one of the oldest continuously operating universities in the world.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Cairo",
+    "citationTitle": "Wikipedia: Cairo"
+  },
+  {
+    "id": "c957b907-0b9d-40db-acf7-bbd8f79f8691",
+    "text": "Which city serves as the capital of Japan?",
+    "options": [
+      "Osaka",
+      "Kyoto",
+      "Tokyo",
+      "Yokohama"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "Tokyo is Japan's capital city and has been since 1868.",
+    "detailedExplanation": "Tokyo became Japan's capital in 1868 when Emperor Meiji moved there from Kyoto, marking the beginning of the Meiji Restoration. Originally called Edo, the city was renamed Tokyo, meaning 'Eastern Capital.' Today, Tokyo is not only Japan's political center but also the world's most populous metropolitan area, serving as a global hub for finance, technology, and culture.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Tokyo",
+    "citationTitle": "Wikipedia: Tokyo"
+  },
+  {
+    "id": "baf799b8-b2f2-474c-a2b5-197a08f6115a",
+    "text": "What is the capital of South Africa?",
+    "options": [
+      "Johannesburg",
+      "Cape Town",
+      "All three cities share capital duties",
+      "Durban"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "South Africa uniquely has three capital cities: Cape Town (legislative), Pretoria (executive), and Bloemfontein (judicial).",
+    "detailedExplanation": "South Africa is one of the few countries in the world with multiple capital cities. Cape Town serves as the legislative capital where Parliament meets, Pretoria is the executive capital housing the president and cabinet, and Bloemfontein functions as the judicial capital with the Supreme Court of Appeal. This arrangement was established as a compromise during the formation of the Union of South Africa in 1910, allowing different regions to maintain important governmental functions.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Capital_of_South_Africa",
+    "citationTitle": "Wikipedia: Capital of South Africa"
+  },
+  {
+    "id": "a51d607b-0b1f-415e-b9fc-25cb91d85d69",
+    "text": "Which city is the capital of Russia?",
+    "options": [
+      "St. Petersburg",
+      "Moscow",
+      "Novosibirsk",
+      "Kazan"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "Moscow is Russia's capital city and has been for most of Russian history.",
+    "detailedExplanation": "Moscow has served as Russia's capital for most of its history, except for a period from 1712 to 1918 when St. Petersburg held that distinction. The city returned to capital status after the Russian Revolution in 1918. Located in western Russia, Moscow is the country's largest city and serves as its political, economic, and cultural center. The Kremlin in Moscow houses the Russian government and is one of the most recognizable symbols of Russian power.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Moscow",
+    "citationTitle": "Wikipedia: Moscow"
+  },
+  {
+    "id": "31dac216-43dd-47a3-b716-6cc51b5ed03e",
+    "text": "What is the capital of Japan?",
+    "options": [
+      "Osaka",
+      "Kyoto",
+      "Tokyo",
+      "Hiroshima"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "Tokyo is Japan's capital and largest city, serving as the country's political and economic center.",
+    "detailedExplanation": "Tokyo became Japan's capital in 1868 during the Meiji Restoration, replacing Kyoto which had served as the imperial capital for over 1,000 years. Originally called Edo, the city was renamed Tokyo meaning 'Eastern Capital' when Emperor Meiji moved his residence there. Today, Tokyo is one of the world's most populous metropolitan areas and serves as Japan's center of government, finance, and culture.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Tokyo",
+    "citationTitle": "Wikipedia: Tokyo"
+  },
+  {
+    "id": "5d5ab36a-a24c-4e4f-8a3b-61d59cde512a",
+    "text": "Which city serves as the capital of Egypt?",
+    "options": [
+      "Alexandria",
+      "Cairo",
+      "Luxor",
+      "Giza"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "Cairo is Egypt's capital and largest city, known as 'The City of a Thousand Minarets.'",
+    "detailedExplanation": "Cairo has been Egypt's capital for over 1,000 years and is the largest city in the Arab world. Located near the Nile Delta, Cairo is home to over 20 million people in its metropolitan area. The city serves as the political, economic, and cultural center of Egypt and the broader Arab world, housing important institutions like Al-Azhar University, one of the oldest universities in the world.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Cairo",
+    "citationTitle": "Wikipedia: Cairo"
+  },
+  {
+    "id": "490ef12c-0cd4-4b5f-b858-fd972d3ab92c",
+    "text": "Which city serves as the capital of Canada?",
+    "options": [
+      "Toronto",
+      "Vancouver",
+      "Montreal",
+      "Ottawa"
+    ],
+    "correctIndex": 3,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "Ottawa is Canada's capital city, located in the province of Ontario.",
+    "detailedExplanation": "Ottawa became Canada's capital in 1857 when Queen Victoria chose it as the capital of the Province of Canada, and it remained the capital when Canada became a federation in 1867. Despite being smaller than cities like Toronto, Montreal, and Vancouver, Ottawa was selected partly because of its location on the border between English-speaking Ontario and French-speaking Quebec, making it a politically neutral choice.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Ottawa",
+    "citationTitle": "Wikipedia: Ottawa"
+  },
+  {
+    "id": "348e9235-312f-4fb5-9e96-d381dab50201",
+    "text": "What is the capital city of Japan?",
+    "options": [
+      "Osaka",
+      "Kyoto",
+      "Tokyo",
+      "Hiroshima"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "Tokyo is Japan's capital and largest city, serving as the country's political and economic center.",
+    "detailedExplanation": "Tokyo became Japan's capital in 1868 when the Emperor moved there from Kyoto during the Meiji Restoration. Originally called Edo, the city was renamed Tokyo, meaning 'Eastern Capital.' Today it's not only Japan's political center but also one of the world's major financial hubs and the most populous metropolitan area globally, with over 37 million people in the Greater Tokyo Area.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Tokyo",
+    "citationTitle": "Wikipedia: Tokyo"
+  }
+]

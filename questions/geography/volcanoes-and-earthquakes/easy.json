@@ -1,0 +1,342 @@
+[
+  {
+    "id": "a43838bf-e97a-485b-ada3-8f196ddd5901",
+    "text": "What is the name given to molten rock when it's still underground?",
+    "options": [
+      "Lava",
+      "Magma",
+      "Basalt",
+      "Pumice"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "Molten rock underground is called magma; it becomes lava when it reaches the surface.",
+    "detailedExplanation": "The terminology for molten rock depends on its location. When molten rock is still beneath the Earth's surface, it is called magma. Once this molten rock erupts from a volcano and flows on the Earth's surface, it is then called lava. This distinction is important in volcanology as magma and lava can have different properties due to temperature changes and gas content differences.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Magma",
+    "citationTitle": "Wikipedia: Magma"
+  },
+  {
+    "id": "ea51ca1f-93f2-40ce-9b45-c02f9e50bea0",
+    "text": "Which scale is most commonly used to measure the magnitude of earthquakes?",
+    "options": [
+      "Beaufort Scale",
+      "Richter Scale",
+      "Fujita Scale",
+      "Mercalli Scale"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "The Richter Scale is the most well-known scale for measuring earthquake magnitude.",
+    "detailedExplanation": "The Richter Scale, developed by Charles F. Richter in 1935, is the most widely recognized scale for measuring earthquake magnitude. It uses a logarithmic scale, meaning each whole number increase represents a tenfold increase in measured amplitude. While modern seismologists often use the moment magnitude scale for very large earthquakes, the Richter Scale remains the most commonly referenced system in public discourse.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Richter_magnitude_scale",
+    "citationTitle": "Wikipedia: Richter magnitude scale"
+  },
+  {
+    "id": "e2bf3186-4603-4fab-82a0-d8cab26d27e5",
+    "text": "Which country has the most active volcanoes in the world?",
+    "options": [
+      "Japan",
+      "Indonesia",
+      "Philippines",
+      "United States"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "Indonesia has the most active volcanoes, with over 130 active volcanic peaks.",
+    "detailedExplanation": "Indonesia leads the world in the number of active volcanoes, with approximately 130 active volcanic peaks. This is due to its location along the Pacific Ring of Fire, where several tectonic plates meet. The country sits at the intersection of the Indo-Australian, Pacific, and Eurasian plates, creating intense geological activity. Famous Indonesian volcanoes include Krakatoa, Mount Merapi, and Mount Tambora.",
+    "citationUrl": "https://en.wikipedia.org/wiki/List_of_volcanoes_in_Indonesia",
+    "citationTitle": "Wikipedia: List of volcanoes in Indonesia"
+  },
+  {
+    "id": "8626bf6e-3d86-439f-828e-eaa454050a0d",
+    "text": "What is the point on the Earth's surface directly above an earthquake's origin called?",
+    "options": [
+      "Hypocenter",
+      "Epicenter",
+      "Focus",
+      "Seismic center"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "The epicenter is the point on Earth's surface directly above where an earthquake originates.",
+    "detailedExplanation": "The epicenter is the location on the Earth's surface that lies directly above the hypocenter (or focus) of an earthquake. The hypocenter is the actual point within the Earth where the earthquake rupture starts. The epicenter is crucial for earthquake reporting and emergency response, as it indicates the surface location closest to the source and often experiences the strongest shaking.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Epicenter",
+    "citationTitle": "Wikipedia: Epicenter"
+  },
+  {
+    "id": "e8cb89cc-604a-4065-9502-5aaa6a0d2259",
+    "text": "Mount Vesuvius, famous for destroying Pompeii, is located in which country?",
+    "options": [
+      "Greece",
+      "Turkey",
+      "Italy",
+      "Spain"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "Mount Vesuvius is located in Italy, near Naples, and famously erupted in 79 AD.",
+    "detailedExplanation": "Mount Vesuvius is an active volcano located in the Campania region of Italy, near the city of Naples. It is most famous for its catastrophic eruption in 79 AD that buried the Roman cities of Pompeii and Herculaneum under volcanic ash and pumice. This eruption preserved these cities in remarkable detail, providing invaluable insights into ancient Roman life. Vesuvius remains one of the most dangerous volcanoes in the world due to the large population living in its vicinity.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Mount_Vesuvius",
+    "citationTitle": "Wikipedia: Mount Vesuvius"
+  },
+  {
+    "id": "f1f8e7b1-1e65-4b37-ad1a-c60945b27c26",
+    "text": "What type of earthquake waves arrive first at seismic monitoring stations?",
+    "options": [
+      "S-waves",
+      "P-waves",
+      "Surface waves",
+      "Love waves"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "P-waves (primary waves) are the fastest seismic waves and arrive first at monitoring stations.",
+    "detailedExplanation": "P-waves, or primary waves, are compressional waves that travel faster than other seismic waves, typically at speeds of 6-8 km/second in the Earth's crust. They are called 'primary' because they arrive first at seismic monitoring stations. P-waves can travel through both solid rock and liquid, making them valuable for studying the Earth's interior structure. They are followed by S-waves (secondary waves) and then surface waves.",
+    "citationUrl": "https://en.wikipedia.org/wiki/P-wave",
+    "citationTitle": "Wikipedia: P-wave"
+  },
+  {
+    "id": "96b6428a-d5b0-48bf-a748-6d49fe00d441",
+    "text": "Which volcanic rock is so light it can float on water?",
+    "options": [
+      "Obsidian",
+      "Basalt",
+      "Pumice",
+      "Granite"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "Pumice is a volcanic rock filled with gas bubbles that make it light enough to float.",
+    "detailedExplanation": "Pumice is a volcanic rock that forms when very hot, highly pressurized rock is violently ejected from a volcano. The rapid cooling and depressurization creates a rock filled with gas bubbles, giving it a foam-like structure. This makes pumice extremely lightweight and porous, with a density low enough that it can float on water. Pumice is commonly used as an abrasive and in lightweight concrete construction.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Pumice",
+    "citationTitle": "Wikipedia: Pumice"
+  },
+  {
+    "id": "28e54dce-e6a3-4711-883a-51c8dbc07bb6",
+    "text": "The 'Ring of Fire' is a region known for high volcanic and earthquake activity. Which ocean does it primarily surround?",
+    "options": [
+      "Atlantic Ocean",
+      "Indian Ocean",
+      "Arctic Ocean",
+      "Pacific Ocean"
+    ],
+    "correctIndex": 3,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "The Ring of Fire surrounds the Pacific Ocean and contains about 75% of the world's active volcanoes.",
+    "detailedExplanation": "The Ring of Fire is a horseshoe-shaped region that encircles the Pacific Ocean, stretching for about 40,000 kilometers. It contains approximately 75% of the world's active and dormant volcanoes and is responsible for about 90% of the world's earthquakes. This intense geological activity is caused by the movement and collision of tectonic plates around the Pacific Plate. Countries along the Ring of Fire include Japan, Indonesia, the Philippines, New Zealand, Chile, and the western United States.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Ring_of_Fire",
+    "citationTitle": "Wikipedia: Ring of Fire"
+  },
+  {
+    "id": "8270c199-de1e-4e79-b722-56456c7dd8e5",
+    "text": "What is the name of the famous volcano that destroyed the ancient city of Pompeii in 79 AD?",
+    "options": [
+      "Mount Etna",
+      "Mount Vesuvius",
+      "Stromboli",
+      "Mount Olympus"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "Mount Vesuvius erupted in 79 AD, burying Pompeii in volcanic ash.",
+    "detailedExplanation": "Mount Vesuvius, located in southern Italy near Naples, is one of the world's most famous volcanoes due to its catastrophic eruption in 79 AD. This eruption buried the Roman cities of Pompeii and Herculaneum under meters of volcanic ash and pumice, preserving them in remarkable detail for archaeologists to discover centuries later. The volcano remains active today and is considered one of the most dangerous volcanoes in the world due to the dense population in the surrounding area.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Mount_Vesuvius",
+    "citationTitle": "Wikipedia: Mount Vesuvius"
+  },
+  {
+    "id": "3fecb708-16c3-4938-83a1-c0a2e1f74006",
+    "text": "Which scale is commonly used to measure the magnitude of earthquakes?",
+    "options": [
+      "Beaufort Scale",
+      "Richter Scale",
+      "Fujita Scale",
+      "Mercalli Scale"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "The Richter Scale is the most widely known scale for measuring earthquake magnitude.",
+    "detailedExplanation": "The Richter Scale, developed by Charles F. Richter in 1935, measures the magnitude of earthquakes based on the amplitude of seismic waves recorded by seismographs. The scale is logarithmic, meaning each whole number increase represents a tenfold increase in measured amplitude and roughly 31.6 times more energy release. While scientists now often use the moment magnitude scale for more accurate measurements of large earthquakes, the Richter Scale remains the most recognizable to the general public.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Richter_magnitude_scale",
+    "citationTitle": "Wikipedia: Richter magnitude scale"
+  },
+  {
+    "id": "bc0adef6-61e9-4b17-aa7e-b4ebe0346a56",
+    "text": "What is the 'Ring of Fire' in relation to volcanoes and earthquakes?",
+    "options": [
+      "A volcanic crater",
+      "A belt around the Pacific Ocean",
+      "The center of the Earth",
+      "A type of lava"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "The Ring of Fire is a belt of volcanoes and earthquake zones around the Pacific Ocean.",
+    "detailedExplanation": "The Ring of Fire, also known as the Circum-Pacific Belt, is a major area in the basin of the Pacific Ocean where many earthquakes and volcanic eruptions occur. This horseshoe-shaped belt is associated with a nearly continuous series of oceanic trenches, volcanic arcs, and volcanic belts. It contains about 75% of the world's active and dormant volcanoes and is responsible for about 90% of the world's earthquakes. The Ring of Fire is a direct result of plate tectonics and the movement and collisions of lithospheric plates.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Ring_of_Fire",
+    "citationTitle": "Wikipedia: Ring of Fire"
+  },
+  {
+    "id": "7c963079-03f6-44c2-aca9-c1341e3a097d",
+    "text": "What type of rock is formed when lava cools and solidifies?",
+    "options": [
+      "Sedimentary rock",
+      "Metamorphic rock",
+      "Igneous rock",
+      "Limestone"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "Igneous rock forms when molten lava or magma cools and solidifies.",
+    "detailedExplanation": "Igneous rocks are formed through the cooling and solidification of magma or lava. When volcanic eruptions occur, the molten rock (lava) that flows from the volcano eventually cools and hardens to form igneous rock. There are two main types: intrusive igneous rocks that form when magma cools slowly beneath the Earth's surface, and extrusive igneous rocks that form when lava cools quickly on the surface. Examples include granite (intrusive) and basalt (extrusive). This process is fundamental to the rock cycle and volcanic activity.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Igneous_rock",
+    "citationTitle": "Wikipedia: Igneous rock"
+  },
+  {
+    "id": "7a05ea74-13b2-49c8-81b7-b2f28f77516f",
+    "text": "In which country would you find Mount Fuji, one of the world's most famous volcanoes?",
+    "options": [
+      "China",
+      "Japan",
+      "Philippines",
+      "Indonesia"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "Mount Fuji is located in Japan and is the country's highest peak.",
+    "detailedExplanation": "Mount Fuji is Japan's highest mountain at 3,776 meters (12,389 feet) and is located on the island of Honshu. It's an active stratovolcano that last erupted in 1707-1708 during the Edo period. Mount Fuji is not only a geological landmark but also holds great cultural and spiritual significance in Japanese culture, often depicted in art and literature. It's considered one of Japan's three sacred mountains and attracts millions of visitors and climbers each year. The mountain's nearly perfect volcanic cone shape has made it an iconic symbol of Japan worldwide.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Mount_Fuji",
+    "citationTitle": "Wikipedia: Mount Fuji"
+  },
+  {
+    "id": "e66a22df-24d3-4fb4-ae80-1a435ecb7f6c",
+    "text": "What causes most earthquakes to occur?",
+    "options": [
+      "Volcanic eruptions",
+      "Tectonic plate movement",
+      "Underground explosions",
+      "Ocean waves"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "Most earthquakes are caused by the movement and collision of tectonic plates.",
+    "detailedExplanation": "The majority of earthquakes occur due to tectonic plate movement. The Earth's outer shell, called the lithosphere, is divided into several large and small pieces called tectonic plates that slowly move over the underlying mantle. When these plates interact at their boundaries - whether they're moving apart, sliding past each other, or colliding - they can become stuck due to friction. When the stress overcomes the friction, the plates suddenly move, releasing energy in the form of seismic waves that we feel as earthquakes. This process explains why most earthquakes occur along plate boundaries.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Earthquake",
+    "citationTitle": "Wikipedia: Earthquake"
+  },
+  {
+    "id": "031fb362-4765-41c8-93aa-7996ceb30e80",
+    "text": "What is magma called when it reaches the Earth's surface?",
+    "options": [
+      "Lava",
+      "Ash",
+      "Steam",
+      "Pumice"
+    ],
+    "correctIndex": 0,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "Magma is called lava when it erupts and flows on the Earth's surface.",
+    "detailedExplanation": "Magma is molten rock that exists beneath the Earth's surface, typically in the mantle or lower crust. When this molten rock is expelled from a volcano during an eruption and flows onto the Earth's surface, it is then called lava. The temperature of lava typically ranges from 700°C to 1,200°C (1,292°F to 2,192°F). As lava flows away from its source, it gradually cools and eventually solidifies to form igneous rock. The distinction between magma and lava is simply based on location - underground versus above ground.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Lava",
+    "citationTitle": "Wikipedia: Lava"
+  },
+  {
+    "id": "64fe605b-542a-4bdc-ad66-8663575dc7f6",
+    "text": "Which major earthquake fault line runs through California?",
+    "options": [
+      "New Madrid Fault",
+      "San Andreas Fault",
+      "Hayward Fault",
+      "Alpine Fault"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "The San Andreas Fault is California's most famous and significant earthquake fault line.",
+    "detailedExplanation": "The San Andreas Fault is a continental transform fault that extends roughly 1,200 kilometers (750 miles) through California. It forms the tectonic boundary between the Pacific Plate and the North American Plate, with the Pacific Plate moving northwest relative to the North American Plate. This fault system is responsible for many of California's most significant earthquakes, including the devastating 1906 San Francisco earthquake. The fault runs from the Salton Sea in the south to Cape Mendocino in the north and passes through major population centers, making it one of the most studied and monitored fault systems in the world.",
+    "citationUrl": "https://en.wikipedia.org/wiki/San_Andreas_Fault",
+    "citationTitle": "Wikipedia: San Andreas Fault"
+  },
+  {
+    "id": "357944e3-05b8-4d21-a283-71ee878acca4",
+    "text": "What is the name of the scale used to measure the magnitude of earthquakes?",
+    "options": [
+      "Richter Scale",
+      "Beaufort Scale",
+      "Fujita Scale",
+      "Mohs Scale"
+    ],
+    "correctIndex": 0,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "The Richter Scale is the logarithmic scale used to measure earthquake magnitude.",
+    "detailedExplanation": "The Richter Scale, developed by Charles Francis Richter in 1935, is a logarithmic scale used to measure the magnitude of earthquakes. Each whole number increase on the scale represents a tenfold increase in measured amplitude and roughly 31.6 times more energy release. While modern seismologists often use the moment magnitude scale for very large earthquakes, the Richter Scale remains the most well-known measurement system for the general public.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Richter_magnitude_scale",
+    "citationTitle": "Wikipedia: Richter magnitude scale"
+  },
+  {
+    "id": "9386e032-1c66-4c51-ba91-d67fd31ef717",
+    "text": "Which type of volcano is characterized by explosive eruptions and steep-sided cones?",
+    "options": [
+      "Shield volcano",
+      "Stratovolcano",
+      "Cinder cone",
+      "Caldera"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "Stratovolcanoes are steep-sided composite volcanoes known for their explosive eruptions.",
+    "detailedExplanation": "Stratovolcanoes, also known as composite volcanoes, are characterized by their steep-sided conical shape and explosive eruptions. They are built up by alternating layers of lava flows, volcanic ash, and pyroclastic materials. Famous examples include Mount Fuji in Japan, Mount Vesuvius in Italy, and Mount St. Helens in the United States. Their explosive nature is due to the high silica content of their magma, which makes it more viscous and prone to trapping gases.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Stratovolcano",
+    "citationTitle": "Wikipedia: Stratovolcano"
+  },
+  {
+    "id": "8a2db106-d8d0-47cd-a653-d2f0b616538b",
+    "text": "The 'Ring of Fire' is a region known for frequent volcanic and seismic activity. Which ocean does it primarily surround?",
+    "options": [
+      "Atlantic Ocean",
+      "Indian Ocean",
+      "Pacific Ocean",
+      "Arctic Ocean"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "The Ring of Fire encircles the Pacific Ocean, containing about 75% of the world's active volcanoes.",
+    "detailedExplanation": "The Ring of Fire is a major area in the basin of the Pacific Ocean where many earthquakes and volcanic eruptions occur. This 40,000-kilometer horseshoe-shaped region is associated with a nearly continuous series of oceanic trenches, volcanic arcs, and volcanic belts. It contains approximately 75% of the world's active and dormant volcanoes and is home to about 90% of the world's earthquakes. The high level of seismic activity is caused by plate tectonics and the movement and collisions of lithospheric plates.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Ring_of_Fire",
+    "citationTitle": "Wikipedia: Ring of Fire"
+  },
+  {
+    "id": "bb2038b7-9e40-4e0b-8fb0-3defcbb0d116",
+    "text": "What is the term for the point on Earth's surface directly above where an earthquake originates underground?",
+    "options": [
+      "Hypocenter",
+      "Epicenter",
+      "Fault line",
+      "Seismic zone"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "The epicenter is the point on Earth's surface directly above the earthquake's underground origin point.",
+    "detailedExplanation": "The epicenter is the point on the Earth's surface that is directly above the hypocenter (or focus), which is the actual underground location where an earthquake rupture starts. The epicenter is typically where the strongest shaking occurs during an earthquake, though the intensity can vary depending on local geological conditions. Seismologists locate the epicenter by analyzing seismic wave arrival times at multiple monitoring stations around the world, using triangulation methods to pinpoint the surface location.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Epicenter",
+    "citationTitle": "Wikipedia: Epicenter"
+  }
+]

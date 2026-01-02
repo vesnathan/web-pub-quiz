@@ -1,0 +1,342 @@
+[
+  {
+    "id": "315fea52-a528-4ece-aa94-77564b8b7e02",
+    "text": "On which date did the storming of the Bastille take place?",
+    "options": [
+      "July 4, 1789",
+      "July 14, 1789",
+      "August 14, 1789",
+      "June 14, 1789"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "medium",
+    "explanation": "The Bastille was stormed on July 14, 1789, now celebrated as Bastille Day.",
+    "detailedExplanation": "The storming of the Bastille fortress on July 14, 1789, marked a pivotal moment in the French Revolution. Parisians attacked the medieval fortress seeking gunpowder and weapons, and the event became a powerful symbol of the uprising against the monarchy. July 14th is now celebrated annually as Bastille Day, France's national holiday, commemorating the beginning of the French Revolution.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Storming_of_the_Bastille",
+    "citationTitle": "Wikipedia: Storming of the Bastille"
+  },
+  {
+    "id": "062cc1d6-63d3-45f8-b498-c61c3deff403",
+    "text": "What was the revolutionary calendar month during which many executions took place in 1794?",
+    "options": [
+      "Thermidor",
+      "Fructidor",
+      "Ventôse",
+      "Germinal"
+    ],
+    "correctIndex": 0,
+    "category": "history",
+    "difficulty": "medium",
+    "explanation": "Thermidor (July-August 1794) saw the end of the Reign of Terror and Robespierre's execution.",
+    "detailedExplanation": "The month of Thermidor in Year II of the Revolutionary Calendar (July 19 - August 17, 1794) marked the end of the Reign of Terror. The period is known for the Thermidorian Reaction, when Maximilien Robespierre and his supporters were themselves executed on 9 Thermidor (July 27, 1794). This event ended the most radical phase of the Revolution and led to a more moderate period known as the Thermidorian Reaction.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Thermidorian_Reaction",
+    "citationTitle": "Wikipedia: Thermidorian Reaction"
+  },
+  {
+    "id": "23229b35-d810-4499-ad35-927f92ad986e",
+    "text": "Which document, adopted in 1789, proclaimed the fundamental rights of French citizens?",
+    "options": [
+      "The Civil Constitution of the Clergy",
+      "The Declaration of the Rights of Man and Citizen",
+      "The Constitution of 1791",
+      "The Law of Suspects"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "medium",
+    "explanation": "The Declaration of the Rights of Man and Citizen established fundamental human rights and freedoms.",
+    "detailedExplanation": "The Declaration of the Rights of Man and of the Citizen was adopted by the National Constituent Assembly on August 26, 1789. This foundational document of the French Revolution proclaimed universal rights including liberty, property, security, and resistance to oppression. It was heavily influenced by Enlightenment philosophy and the American Declaration of Independence, establishing principles that would influence democratic movements worldwide.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Declaration_of_the_Rights_of_Man_and_of_the_Citizen",
+    "citationTitle": "Wikipedia: Declaration of the Rights of Man and of the Citizen"
+  },
+  {
+    "id": "d24bfa73-9a5b-40a1-a693-8a1c77b62c4e",
+    "text": "What was the name of the revolutionary tribunal's method of execution?",
+    "options": [
+      "The rack",
+      "The guillotine",
+      "Hanging",
+      "The wheel"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "medium",
+    "explanation": "The guillotine was adopted as the official method of execution during the Revolution.",
+    "detailedExplanation": "The guillotine, named after Dr. Joseph-Ignace Guillotin who proposed its use, became the official method of execution during the French Revolution. It was chosen as a 'humane' and egalitarian form of capital punishment, as previously only nobles had the 'privilege' of beheading while commoners faced more brutal executions. An estimated 16,000-17,000 people were guillotined during the Reign of Terror between 1793-1794.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Guillotine",
+    "citationTitle": "Wikipedia: Guillotine"
+  },
+  {
+    "id": "febd533d-8fb4-4b7b-9da3-8a62bddf1afd",
+    "text": "Which military leader rose to power following the Directory period?",
+    "options": [
+      "Lafayette",
+      "Danton",
+      "Napoleon Bonaparte",
+      "Carnot"
+    ],
+    "correctIndex": 2,
+    "category": "history",
+    "difficulty": "medium",
+    "explanation": "Napoleon Bonaparte seized power in a coup d'état in 1799, ending the Directory.",
+    "detailedExplanation": "Napoleon Bonaparte came to power through the coup of 18 Brumaire (November 9, 1799), which overthrew the Directory government. Initially serving as First Consul, Napoleon eventually crowned himself Emperor in 1804. His rise marked the end of the revolutionary period and the beginning of the Napoleonic era. He consolidated many revolutionary gains while establishing a more authoritarian regime that would dominate European politics for the next decade and a half.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Napoleon",
+    "citationTitle": "Wikipedia: Napoleon"
+  },
+  {
+    "id": "c5b01ebd-c98a-4faa-ab91-ce4bf25e8597",
+    "text": "What was the Third Estate's pledge made in a tennis court in 1789 called?",
+    "options": [
+      "The Great Fear",
+      "The Tennis Court Oath",
+      "The August Decrees",
+      "The Civil Oath"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "medium",
+    "explanation": "The Tennis Court Oath was a pledge by the Third Estate to draft a new constitution.",
+    "detailedExplanation": "The Tennis Court Oath (Serment du Jeu de Paume) was taken on June 20, 1789, by members of the Third Estate who found themselves locked out of their usual meeting place. Gathering at a tennis court in Versailles, 576 deputies pledged not to separate until they had given France a new constitution. This act of defiance against Louis XVI marked a crucial step toward revolution, as it demonstrated the Third Estate's determination to limit royal power and establish representative government.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Tennis_Court_Oath",
+    "citationTitle": "Wikipedia: Tennis Court Oath"
+  },
+  {
+    "id": "e655cf8c-c5ec-4736-8944-e6d1767c0c23",
+    "text": "On what date did the storming of the Bastille occur, now celebrated as France's national day?",
+    "options": [
+      "July 12, 1789",
+      "July 14, 1789",
+      "July 16, 1789",
+      "July 18, 1789"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "medium",
+    "explanation": "The Bastille was stormed on July 14, 1789, which became Bastille Day.",
+    "detailedExplanation": "The storming of the Bastille fortress on July 14, 1789, marked a pivotal moment in the French Revolution when Parisian revolutionaries and mutinous troops attacked the medieval fortress and prison. Though only seven prisoners were freed, the event symbolized the uprising of the common people against the monarchy and became a powerful symbol of liberty. This date is now celebrated annually as Bastille Day, France's national holiday.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Storming_of_the_Bastille",
+    "citationTitle": "Wikipedia: Storming of the Bastille"
+  },
+  {
+    "id": "abff648b-c1f7-4383-b9b3-0e9575fbe687",
+    "text": "What was the name of the execution device that became synonymous with the French Revolution?",
+    "options": [
+      "The Pendulum",
+      "The Guillotine",
+      "The Gibbet",
+      "The Scaffold"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "medium",
+    "explanation": "The guillotine was the execution device used extensively during the French Revolution.",
+    "detailedExplanation": "The guillotine, named after Dr. Joseph-Ignace Guillotin who proposed its use, became the primary method of execution during the French Revolution. Designed to be a more humane and egalitarian form of capital punishment, it was used to execute thousands during the Reign of Terror, including King Louis XVI, Marie Antoinette, and eventually Robespierre himself. The device became a powerful symbol of revolutionary justice and terror.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Guillotine",
+    "citationTitle": "Wikipedia: Guillotine"
+  },
+  {
+    "id": "e14abd01-63dd-4588-a569-e4e490331a9b",
+    "text": "What was the revolutionary calendar month during which King Louis XVI was executed?",
+    "options": [
+      "Pluviôse",
+      "Nivôse",
+      "Germinal",
+      "Ventôse"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "medium",
+    "explanation": "Louis XVI was executed on January 21, 1793, which corresponded to Nivôse in the revolutionary calendar.",
+    "detailedExplanation": "King Louis XVI was executed on January 21, 1793, during the month of Nivôse (the 'snowy month') in the French Republican Calendar. The revolutionary calendar, adopted in 1793, renamed months and restructured the year to remove Christian and royal influences. Nivôse typically corresponded to late December through January in the Gregorian calendar. The king's execution marked a definitive break with the monarchy and shocked European powers.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Execution_of_Louis_XVI",
+    "citationTitle": "Wikipedia: Execution of Louis XVI"
+  },
+  {
+    "id": "a71f19d1-94c8-49e5-b931-876ffab8fa1b",
+    "text": "Which social class formed the majority of the Third Estate before the Revolution?",
+    "options": [
+      "Bourgeoisie",
+      "Urban workers",
+      "Peasants",
+      "Artisans"
+    ],
+    "correctIndex": 2,
+    "category": "history",
+    "difficulty": "medium",
+    "explanation": "Peasants made up approximately 80% of France's population and formed the majority of the Third Estate.",
+    "detailedExplanation": "The Third Estate, which comprised about 98% of France's population, was dominated by peasants who made up roughly 80% of the country's inhabitants. While the bourgeoisie (middle class), urban workers, and artisans were also part of the Third Estate, peasants formed the vast majority. These rural farmers faced heavy taxation, feudal obligations, and poor harvests, making them a crucial force in the revolutionary movement despite their initial limited political representation.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Estates_of_the_realm",
+    "citationTitle": "Wikipedia: Estates of the realm"
+  },
+  {
+    "id": "4a9ed2b0-83bc-4f71-a8f9-b9703f2ec8ca",
+    "text": "What was the name of the political assembly that governed France during the most radical phase of the Revolution?",
+    "options": [
+      "The Legislative Assembly",
+      "The National Assembly",
+      "The National Convention",
+      "The Directory"
+    ],
+    "correctIndex": 2,
+    "category": "history",
+    "difficulty": "medium",
+    "explanation": "The National Convention governed during the radical phase including the Reign of Terror.",
+    "detailedExplanation": "The National Convention governed France from September 1792 to October 1795, during the most radical phase of the French Revolution. This body abolished the monarchy, proclaimed the First French Republic, tried and executed King Louis XVI, and oversaw the Reign of Terror. The Convention was dominated by various factions including the Jacobins and Girondins, and it was responsible for many of the Revolution's most dramatic and violent episodes.",
+    "citationUrl": "https://en.wikipedia.org/wiki/National_Convention",
+    "citationTitle": "Wikipedia: National Convention"
+  },
+  {
+    "id": "d944504d-9159-4cdd-b5ec-2b9b129dc115",
+    "text": "Which European coalition was formed primarily to combat the spread of revolutionary ideas from France?",
+    "options": [
+      "The Holy Alliance",
+      "The First Coalition",
+      "The Continental System",
+      "The League of Armed Neutrality"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "medium",
+    "explanation": "The First Coalition was formed in 1792-1797 to fight revolutionary France.",
+    "detailedExplanation": "The First Coalition (1792-1797) was formed by European monarchies including Austria, Prussia, Great Britain, Spain, and others to combat revolutionary France and prevent the spread of republican ideas. These powers feared that revolutionary principles would inspire uprisings in their own territories and threaten the existing monarchical order. The coalition fought the French Revolutionary Wars, but ultimately failed to restore the French monarchy, with France achieving several military victories under leaders like Napoleon Bonaparte.",
+    "citationUrl": "https://en.wikipedia.org/wiki/War_of_the_First_Coalition",
+    "citationTitle": "Wikipedia: War of the First Coalition"
+  },
+  {
+    "id": "b2e9d309-5711-4859-a9fe-60111468a33c",
+    "text": "What was the name of the radical political group led by Maximilien Robespierre during the French Revolution?",
+    "options": [
+      "Girondins",
+      "Jacobins",
+      "Sans-culottes",
+      "Montagnards"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "medium",
+    "explanation": "The Jacobins were the radical political club led by Robespierre during the Reign of Terror.",
+    "detailedExplanation": "The Jacobins were members of a radical political club during the French Revolution, officially known as the Society of the Friends of the Constitution. Led by Maximilien Robespierre, they became the dominant political force during the Reign of Terror (1793-1794). The club was named after the former Jacobin convent in Paris where they met. While the Girondins were their moderate rivals and the Sans-culottes were working-class revolutionaries, the Jacobins represented the most organized and influential radical faction.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Jacobin",
+    "citationTitle": "Wikipedia: Jacobin"
+  },
+  {
+    "id": "835b1bff-9cfa-4e0b-ab6e-30fc5df6badd",
+    "text": "Which event is traditionally considered the beginning of the French Revolution?",
+    "options": [
+      "The execution of Louis XVI",
+      "The storming of the Bastille",
+      "The Tennis Court Oath",
+      "The Women's March on Versailles"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "medium",
+    "explanation": "The storming of the Bastille on July 14, 1789, is traditionally marked as the beginning of the French Revolution.",
+    "detailedExplanation": "The storming of the Bastille on July 14, 1789, is widely considered the symbolic beginning of the French Revolution. The medieval fortress and prison represented royal authority and tyranny to the Parisian revolutionaries. When rumors spread that the king was planning to suppress the National Assembly, angry citizens attacked the Bastille to secure gunpowder and weapons. The successful capture of this symbol of royal oppression became a powerful rallying point for the revolution, and July 14th is still celebrated as Bastille Day, France's national holiday.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Storming_of_the_Bastille",
+    "citationTitle": "Wikipedia: Storming of the Bastille"
+  },
+  {
+    "id": "a3efb41d-4e89-4453-a00a-244d36f9bfa2",
+    "text": "What was the name of the revolutionary calendar system introduced during the French Revolution?",
+    "options": [
+      "Republican Calendar",
+      "Revolutionary Calendar",
+      "Decimal Calendar",
+      "Rational Calendar"
+    ],
+    "correctIndex": 0,
+    "category": "history",
+    "difficulty": "medium",
+    "explanation": "The Republican Calendar, also known as the French Revolutionary Calendar, was introduced in 1793 to remove religious and royalist influences from the measurement of time.",
+    "detailedExplanation": "The Republican Calendar (officially called the French Revolutionary Calendar) was introduced on October 24, 1793, as part of the revolution's effort to de-Christianize French society and create a more rational system. The calendar featured 12 months of 30 days each, with poetic names like Thermidor (heat) and Brumaire (mist), plus five or six additional days called 'complementary days.' Years were numbered from the establishment of the First Republic (September 22, 1792, became Year I). The calendar eliminated Sunday as a day of rest and traditional Christian holidays. Though an ambitious attempt at cultural revolution, it proved impractical and was abandoned by Napoleon in 1806.",
+    "citationUrl": "https://en.wikipedia.org/wiki/French_Republican_calendar",
+    "citationTitle": "Wikipedia: French Republican calendar"
+  },
+  {
+    "id": "bc6c1add-a475-44f9-824b-4a05d39df446",
+    "text": "What was the name of the radical political club that came to dominate the National Convention during the Reign of Terror?",
+    "options": [
+      "The Girondins",
+      "The Jacobins",
+      "The Feuillants",
+      "The Cordeliers"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "medium",
+    "explanation": "The Jacobins were the radical political club that controlled the National Convention during the Reign of Terror.",
+    "detailedExplanation": "The Jacobin Club, originally known as the Society of the Friends of the Constitution, became the most influential political club during the French Revolution. Led by figures like Maximilien Robespierre, they advocated for radical democratic reforms and came to dominate the National Convention from 1793-1794 during the Reign of Terror. They were instrumental in the execution of King Louis XVI and the implementation of radical revolutionary policies.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Jacobin_Club",
+    "citationTitle": "Wikipedia: Jacobin Club"
+  },
+  {
+    "id": "9b718a2b-20b9-47ff-a057-b804aeb3df9f",
+    "text": "On which date did the storming of the Bastille occur, now celebrated as France's national day?",
+    "options": [
+      "July 4, 1789",
+      "July 14, 1789",
+      "August 4, 1789",
+      "October 5, 1789"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "medium",
+    "explanation": "The storming of the Bastille occurred on July 14, 1789, which is now celebrated as Bastille Day.",
+    "detailedExplanation": "The storming of the Bastille on July 14, 1789, marked a pivotal moment in the French Revolution. Parisians attacked the medieval fortress and prison, seeking gunpowder and weapons while also symbolically striking against royal authority. Though only seven prisoners were found inside, the event became a powerful symbol of popular uprising against tyranny. July 14th has been celebrated as France's national day (Bastille Day) since 1880.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Storming_of_the_Bastille",
+    "citationTitle": "Wikipedia: Storming of the Bastille"
+  },
+  {
+    "id": "d7f58714-2eea-423c-8a70-f9c771643536",
+    "text": "Which of these women became known as 'The Friend of the People' and was assassinated in her bath by Charlotte Corday?",
+    "options": [
+      "Olympe de Gouges",
+      "Madame Roland",
+      "This describes Jean-Paul Marat (a man)",
+      "Théroigne de Méricourt"
+    ],
+    "correctIndex": 2,
+    "category": "history",
+    "difficulty": "medium",
+    "explanation": "This is a trick question - 'The Friend of the People' was Jean-Paul Marat, a male revolutionary journalist who was assassinated by Charlotte Corday.",
+    "detailedExplanation": "Jean-Paul Marat was a radical journalist during the French Revolution who published the newspaper 'L'Ami du peuple' (The Friend of the People). He was known for his extreme radical views and calls for violence against enemies of the revolution. On July 13, 1793, he was assassinated by Charlotte Corday, a Girondin sympathizer, while he was taking a medicinal bath to treat a painful skin condition. Corday believed killing Marat would help end the violence of the Revolution.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Jean-Paul_Marat",
+    "citationTitle": "Wikipedia: Jean-Paul Marat"
+  },
+  {
+    "id": "3edda79b-6f27-4a00-9d9e-93563d742771",
+    "text": "What was the final battle that effectively ended Napoleon's Hundred Days and his political career?",
+    "options": [
+      "Battle of Leipzig",
+      "Battle of Austerlitz",
+      "Battle of Waterloo",
+      "Battle of Trafalgar"
+    ],
+    "correctIndex": 2,
+    "category": "history",
+    "difficulty": "medium",
+    "explanation": "The Battle of Waterloo in 1815 was Napoleon's final defeat, ending his Hundred Days return to power.",
+    "detailedExplanation": "The Battle of Waterloo, fought on June 18, 1815, was the decisive battle that ended Napoleon's Hundred Days return from exile on Elba. Napoleon faced a coalition army led by the Duke of Wellington and Prussian forces under Field Marshal Blücher near Waterloo in present-day Belgium. His defeat led to his final abdication and exile to the remote island of Saint Helena, effectively ending the revolutionary and Napoleonic era that had begun in 1789.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Battle_of_Waterloo",
+    "citationTitle": "Wikipedia: Battle of Waterloo"
+  },
+  {
+    "id": "55b0c7d8-a1b9-4a00-aa84-353438ee7cb4",
+    "text": "Which political club, known for its radical views and influential during the Reign of Terror, was named after the former convent where they held their meetings?",
+    "options": [
+      "The Girondins",
+      "The Jacobins",
+      "The Feuillants",
+      "The Cordeliers"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "medium",
+    "explanation": "The Jacobins were named after the former Jacobin convent where they met and became the most powerful radical political club during the French Revolution.",
+    "detailedExplanation": "The Jacobin Club, officially known as the Society of the Friends of the Constitution, was the most influential political club during the French Revolution. They got their popular name from meeting in the former convent of the Jacobin friars in Paris. Initially moderate, the club became increasingly radical, especially after the more moderate Feuillants split off in 1791. Under leaders like Maximilien Robespierre, the Jacobins dominated the Committee of Public Safety and were instrumental in implementing the Reign of Terror from 1793-1794. Their influence extended throughout France through a network of affiliated clubs in provincial towns.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Jacobin_Club",
+    "citationTitle": "Wikipedia: Jacobin Club"
+  }
+]

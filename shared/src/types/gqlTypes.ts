@@ -15,8 +15,50 @@ export type Scalars = {
 };
 
 export type AblyTokenResponse = {
+  duplicateIp?: Maybe<Scalars['Boolean']['output']>;
+  duplicateSession?: Maybe<Scalars['Boolean']['output']>;
   expires: Scalars['String']['output'];
   token: Scalars['String']['output'];
+};
+
+export enum AwardRarity {
+  common = 'common',
+  epic = 'epic',
+  legendary = 'legendary',
+  rare = 'rare',
+  uncommon = 'uncommon'
+}
+
+export type Badge = {
+  description: Scalars['String']['output'];
+  earnedAt: Scalars['String']['output'];
+  groupId: Scalars['String']['output'];
+  icon: Scalars['String']['output'];
+  id: Scalars['ID']['output'];
+  name: Scalars['String']['output'];
+  rarity: AwardRarity;
+  skillPoints: Scalars['Int']['output'];
+  tier: Scalars['Int']['output'];
+};
+
+export type BadgeDefinition = {
+  description: Scalars['String']['output'];
+  groupId: Scalars['String']['output'];
+  icon: Scalars['String']['output'];
+  id: Scalars['ID']['output'];
+  name: Scalars['String']['output'];
+  rarity: AwardRarity;
+  requirement: Scalars['Int']['output'];
+  skillPoints: Scalars['Int']['output'];
+  tier: Scalars['Int']['output'];
+};
+
+export type BadgeGroup = {
+  badges: Array<BadgeDefinition>;
+  description: Scalars['String']['output'];
+  id: Scalars['ID']['output'];
+  name: Scalars['String']['output'];
+  showHighestOnly: Scalars['Boolean']['output'];
 };
 
 export type ChatMessage = {
@@ -34,12 +76,24 @@ export type ChatMessageConnection = {
   nextToken?: Maybe<Scalars['String']['output']>;
 };
 
+export type CheckoutSession = {
+  checkoutUrl: Scalars['String']['output'];
+  sessionId?: Maybe<Scalars['String']['output']>;
+};
+
 export type Conversation = {
   id: Scalars['ID']['output'];
   lastMessage?: Maybe<ChatMessage>;
   participantIds: Array<Scalars['ID']['output']>;
   participants: Array<UserPublic>;
   updatedAt: Scalars['String']['output'];
+};
+
+export type CreateCheckoutInput = {
+  cancelUrl: Scalars['String']['input'];
+  provider: SubscriptionProvider;
+  successUrl: Scalars['String']['input'];
+  tier: Scalars['Int']['input'];
 };
 
 export type CreateQuestionInput = {
@@ -56,6 +110,13 @@ export type GameState = {
   isSetActive: Scalars['Boolean']['output'];
   nextSetTime: Scalars['String']['output'];
   playerCount: Scalars['Int']['output'];
+};
+
+export type GiftSubscriptionInput = {
+  durationDays: Scalars['Int']['input'];
+  message?: InputMaybe<Scalars['String']['input']>;
+  recipientUserId: Scalars['ID']['input'];
+  tier: Scalars['Int']['input'];
 };
 
 export type Leaderboard = {
@@ -81,7 +142,13 @@ export enum LeaderboardType {
 }
 
 export type Mutation = {
+  adminGiftSubscription?: Maybe<User>;
+  adminUpdateUserTier?: Maybe<User>;
+  createCheckoutSession?: Maybe<CheckoutSession>;
   createQuestion?: Maybe<Question>;
+  createTipCheckout?: Maybe<CheckoutSession>;
+  ensureProfile?: Maybe<User>;
+  markGiftNotificationSeen?: Maybe<Scalars['Boolean']['output']>;
   seedQuestions?: Maybe<Scalars['Int']['output']>;
   sendChatMessage?: Maybe<ChatMessage>;
   startConversation?: Maybe<Conversation>;
@@ -89,8 +156,34 @@ export type Mutation = {
 };
 
 
+export type MutationAdminGiftSubscriptionArgs = {
+  input: GiftSubscriptionInput;
+};
+
+
+export type MutationAdminUpdateUserTierArgs = {
+  tier: Scalars['Int']['input'];
+  userId: Scalars['ID']['input'];
+};
+
+
+export type MutationCreateCheckoutSessionArgs = {
+  input: CreateCheckoutInput;
+};
+
+
 export type MutationCreateQuestionArgs = {
   input: CreateQuestionInput;
+};
+
+
+export type MutationCreateTipCheckoutArgs = {
+  provider: SubscriptionProvider;
+};
+
+
+export type MutationEnsureProfileArgs = {
+  displayName: Scalars['String']['input'];
 };
 
 
@@ -115,7 +208,8 @@ export type MutationUpdateDisplayNameArgs = {
 };
 
 export type Query = {
-  checkScreenNameAvailable: Scalars['Boolean']['output'];
+  checkDisplayNameAvailable: Scalars['Boolean']['output'];
+  checkEmailHasGoogleAccount: Scalars['Boolean']['output'];
   getAblyToken?: Maybe<AblyTokenResponse>;
   getChatMessages?: Maybe<ChatMessageConnection>;
   getGameState?: Maybe<GameState>;
@@ -124,12 +218,18 @@ export type Query = {
   getMyProfile?: Maybe<User>;
   getMyRank?: Maybe<Scalars['Int']['output']>;
   getUserProfile?: Maybe<UserPublic>;
+  getWebhookLogs: WebhookLogConnection;
   listQuestions?: Maybe<QuestionConnection>;
 };
 
 
-export type QueryCheckScreenNameAvailableArgs = {
-  screenName: Scalars['String']['input'];
+export type QueryCheckDisplayNameAvailableArgs = {
+  displayName: Scalars['String']['input'];
+};
+
+
+export type QueryCheckEmailHasGoogleAccountArgs = {
+  email: Scalars['String']['input'];
 };
 
 
@@ -158,6 +258,13 @@ export type QueryGetMyRankArgs = {
 
 export type QueryGetUserProfileArgs = {
   userId: Scalars['ID']['input'];
+};
+
+
+export type QueryGetWebhookLogsArgs = {
+  limit?: InputMaybe<Scalars['Int']['input']>;
+  nextToken?: InputMaybe<Scalars['String']['input']>;
+  provider?: InputMaybe<Scalars['String']['input']>;
 };
 
 
@@ -190,19 +297,43 @@ export type SubscriptionOnNewChatMessageArgs = {
   channelId: Scalars['ID']['input'];
 };
 
+export enum SubscriptionProvider {
+  paypal = 'paypal',
+  stripe = 'stripe'
+}
+
+export enum SubscriptionStatus {
+  active = 'active',
+  cancelled = 'cancelled',
+  past_due = 'past_due',
+  trialing = 'trialing'
+}
+
 export type User = {
+  badges: Array<Badge>;
   createdAt: Scalars['String']['output'];
   displayName: Scalars['String']['output'];
   email: Scalars['String']['output'];
   id: Scalars['ID']['output'];
   stats: UserStats;
+  subscription: UserSubscription;
+  tipUnlockedUntil?: Maybe<Scalars['String']['output']>;
+  totalSkillPoints: Scalars['Int']['output'];
   username: Scalars['String']['output'];
 };
 
+export type UserBadgeSummary = {
+  badgeCount: Scalars['Int']['output'];
+  badges: Array<Badge>;
+  totalSkillPoints: Scalars['Int']['output'];
+};
+
 export type UserPublic = {
+  badges: Array<Badge>;
   displayName: Scalars['String']['output'];
   id: Scalars['ID']['output'];
   stats: UserStats;
+  totalSkillPoints: Scalars['Int']['output'];
   username: Scalars['String']['output'];
 };
 
@@ -216,6 +347,37 @@ export type UserStats = {
   totalWrong: Scalars['Int']['output'];
 };
 
+export type UserSubscription = {
+  cancelledAt?: Maybe<Scalars['String']['output']>;
+  customerId?: Maybe<Scalars['String']['output']>;
+  expiresAt?: Maybe<Scalars['String']['output']>;
+  giftExpiresAt?: Maybe<Scalars['String']['output']>;
+  giftNotificationSeen?: Maybe<Scalars['Boolean']['output']>;
+  giftedAt?: Maybe<Scalars['String']['output']>;
+  giftedBy?: Maybe<Scalars['String']['output']>;
+  giftedByName?: Maybe<Scalars['String']['output']>;
+  provider?: Maybe<SubscriptionProvider>;
+  startedAt?: Maybe<Scalars['String']['output']>;
+  status?: Maybe<SubscriptionStatus>;
+  subscriptionId?: Maybe<Scalars['String']['output']>;
+  tier: Scalars['Int']['output'];
+};
+
+export type WebhookLog = {
+  createdAt: Scalars['String']['output'];
+  errorMessage?: Maybe<Scalars['String']['output']>;
+  eventId: Scalars['ID']['output'];
+  eventType: Scalars['String']['output'];
+  payload: Scalars['String']['output'];
+  provider: Scalars['String']['output'];
+  status: Scalars['String']['output'];
+};
+
+export type WebhookLogConnection = {
+  items: Array<WebhookLog>;
+  nextToken?: Maybe<Scalars['String']['output']>;
+};
+
 export type UpdateDisplayNameMutationVariables = Exact<{
   displayName: Scalars['String']['input'];
 }>;
@@ -223,32 +385,87 @@ export type UpdateDisplayNameMutationVariables = Exact<{
 
 export type UpdateDisplayNameMutation = { updateDisplayName?: { id: string, displayName: string } | null };
 
+export type EnsureProfileMutationVariables = Exact<{
+  displayName: Scalars['String']['input'];
+}>;
+
+
+export type EnsureProfileMutation = { ensureProfile?: { id: string, email: string, displayName: string, createdAt: string, stats: { totalCorrect: number, totalWrong: number, totalPoints: number, setsPlayed: number, setsWon: number, currentStreak: number, longestStreak: number }, subscription: { tier: number, status?: SubscriptionStatus | null, provider?: SubscriptionProvider | null, subscriptionId?: string | null, customerId?: string | null, startedAt?: string | null, expiresAt?: string | null, cancelledAt?: string | null } } | null };
+
+export type CreateCheckoutSessionMutationVariables = Exact<{
+  input: CreateCheckoutInput;
+}>;
+
+
+export type CreateCheckoutSessionMutation = { createCheckoutSession?: { checkoutUrl: string, sessionId?: string | null } | null };
+
 export type SendChatMessageMutationVariables = Exact<{
   channelId: Scalars['ID']['input'];
   content: Scalars['String']['input'];
 }>;
 
 
-export type SendChatMessageMutation = { sendChatMessage?: { id: string, channelId: string, senderId: string, senderUsername: string, senderDisplayName: string, content: string, createdAt: string } | null };
+export type SendChatMessageMutation = { sendChatMessage?: { id: string, channelId: string, senderId: string, senderDisplayName: string, content: string, createdAt: string } | null };
 
 export type StartConversationMutationVariables = Exact<{
   targetUserId: Scalars['ID']['input'];
 }>;
 
 
-export type StartConversationMutation = { startConversation?: { id: string, participantIds: Array<string>, updatedAt: string, participants: Array<{ id: string, username: string, displayName: string }> } | null };
+export type StartConversationMutation = { startConversation?: { id: string, participantIds: Array<string>, updatedAt: string, participants: Array<{ id: string, displayName: string }> } | null };
+
+export type AdminGiftSubscriptionMutationVariables = Exact<{
+  input: GiftSubscriptionInput;
+}>;
+
+
+export type AdminGiftSubscriptionMutation = { adminGiftSubscription?: { id: string, displayName: string, email: string, subscription: { tier: number, status?: SubscriptionStatus | null, startedAt?: string | null, expiresAt?: string | null, giftedBy?: string | null, giftedByName?: string | null, giftedAt?: string | null, giftExpiresAt?: string | null, giftNotificationSeen?: boolean | null } } | null };
+
+export type AdminUpdateUserTierMutationVariables = Exact<{
+  userId: Scalars['ID']['input'];
+  tier: Scalars['Int']['input'];
+}>;
+
+
+export type AdminUpdateUserTierMutation = { adminUpdateUserTier?: { id: string, subscription: { tier: number, status?: SubscriptionStatus | null } } | null };
+
+export type MarkGiftNotificationSeenMutationVariables = Exact<{ [key: string]: never; }>;
+
+
+export type MarkGiftNotificationSeenMutation = { markGiftNotificationSeen?: boolean | null };
+
+export type CreateTipCheckoutMutationVariables = Exact<{
+  provider: SubscriptionProvider;
+}>;
+
+
+export type CreateTipCheckoutMutation = { createTipCheckout?: { checkoutUrl: string, sessionId?: string | null } | null };
 
 export type GetMyProfileQueryVariables = Exact<{ [key: string]: never; }>;
 
 
-export type GetMyProfileQuery = { getMyProfile?: { id: string, email: string, username: string, displayName: string, createdAt: string, stats: { totalCorrect: number, totalWrong: number, totalPoints: number, setsPlayed: number, setsWon: number, currentStreak: number, longestStreak: number } } | null };
+export type GetMyProfileQuery = { getMyProfile?: { id: string, email: string, displayName: string, createdAt: string, totalSkillPoints: number, tipUnlockedUntil?: string | null, stats: { totalCorrect: number, totalWrong: number, totalPoints: number, setsPlayed: number, setsWon: number, currentStreak: number, longestStreak: number }, subscription: { tier: number, status?: SubscriptionStatus | null, provider?: SubscriptionProvider | null, subscriptionId?: string | null, customerId?: string | null, startedAt?: string | null, expiresAt?: string | null, cancelledAt?: string | null, giftedBy?: string | null, giftedByName?: string | null, giftedAt?: string | null, giftExpiresAt?: string | null, giftNotificationSeen?: boolean | null }, badges: Array<{ id: string, name: string, description: string, icon: string, groupId: string, tier: number, rarity: AwardRarity, skillPoints: number, earnedAt: string }> } | null };
 
 export type GetUserProfileQueryVariables = Exact<{
   userId: Scalars['ID']['input'];
 }>;
 
 
-export type GetUserProfileQuery = { getUserProfile?: { id: string, username: string, displayName: string, stats: { totalCorrect: number, totalWrong: number, totalPoints: number, setsPlayed: number, setsWon: number, currentStreak: number, longestStreak: number } } | null };
+export type GetUserProfileQuery = { getUserProfile?: { id: string, displayName: string, stats: { totalCorrect: number, totalWrong: number, totalPoints: number, setsPlayed: number, setsWon: number, currentStreak: number, longestStreak: number } } | null };
+
+export type CheckDisplayNameAvailableQueryVariables = Exact<{
+  displayName: Scalars['String']['input'];
+}>;
+
+
+export type CheckDisplayNameAvailableQuery = { checkDisplayNameAvailable: boolean };
+
+export type CheckEmailHasGoogleAccountQueryVariables = Exact<{
+  email: Scalars['String']['input'];
+}>;
+
+
+export type CheckEmailHasGoogleAccountQuery = { checkEmailHasGoogleAccount: boolean };
 
 export type GetLeaderboardQueryVariables = Exact<{
   type: LeaderboardType;
@@ -256,7 +473,14 @@ export type GetLeaderboardQueryVariables = Exact<{
 }>;
 
 
-export type GetLeaderboardQuery = { getLeaderboard?: { type: LeaderboardType, updatedAt: string, entries: Array<{ rank: number, userId: string, username: string, displayName: string, score: number }> } | null };
+export type GetLeaderboardQuery = { getLeaderboard?: { type: LeaderboardType, updatedAt: string, entries: Array<{ rank: number, userId: string, displayName: string, score: number }> } | null };
+
+export type GetMyRankQueryVariables = Exact<{
+  type: LeaderboardType;
+}>;
+
+
+export type GetMyRankQuery = { getMyRank?: number | null };
 
 export type GetGameStateQueryVariables = Exact<{ [key: string]: never; }>;
 
@@ -282,7 +506,16 @@ export type GetMyConversationsQueryVariables = Exact<{
 }>;
 
 
-export type GetMyConversationsQuery = { getMyConversations: Array<{ id: string, participantIds: Array<string>, updatedAt: string, participants: Array<{ id: string, username: string, displayName: string }>, lastMessage?: { id: string, content: string, createdAt: string, senderDisplayName: string } | null }> };
+export type GetMyConversationsQuery = { getMyConversations: Array<{ id: string, participantIds: Array<string>, updatedAt: string, participants: Array<{ id: string, displayName: string }>, lastMessage?: { id: string, content: string, createdAt: string, senderDisplayName: string } | null }> };
+
+export type GetWebhookLogsQueryVariables = Exact<{
+  provider?: InputMaybe<Scalars['String']['input']>;
+  limit?: InputMaybe<Scalars['Int']['input']>;
+  nextToken?: InputMaybe<Scalars['String']['input']>;
+}>;
+
+
+export type GetWebhookLogsQuery = { getWebhookLogs: { nextToken?: string | null, items: Array<{ eventId: string, provider: string, eventType: string, payload: string, status: string, errorMessage?: string | null, createdAt: string }> } };
 
 export type OnNewChatMessageSubscriptionVariables = Exact<{
   channelId: Scalars['ID']['input'];

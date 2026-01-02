@@ -1,0 +1,342 @@
+[
+  {
+    "id": "c8da3cc7-ba19-4cfb-ae60-078c7f23ccfe",
+    "text": "According to Newton's Third Law of Motion, what happens when you push against a wall?",
+    "options": [
+      "The wall pushes back with equal force",
+      "The wall absorbs all the energy",
+      "Nothing happens to the wall",
+      "The wall pushes back with greater force"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Newton's Third Law states that for every action, there is an equal and opposite reaction.",
+    "detailedExplanation": "Newton's Third Law of Motion is one of the fundamental principles of classical mechanics. It states that when one object exerts a force on a second object, the second object simultaneously exerts a force equal in magnitude but opposite in direction on the first object. This is often summarized as 'for every action, there is an equal and opposite reaction.' When you push against a wall, the wall pushes back against you with exactly the same force, which is why you don't fall through it.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Newton%27s_laws_of_motion",
+    "citationTitle": "Wikipedia: Newton's laws of motion"
+  },
+  {
+    "id": "769cf2a7-e2fb-407c-8c35-6214af824472",
+    "text": "What does the First Law of Thermodynamics state?",
+    "options": [
+      "Heat always flows from hot to cold",
+      "Energy cannot be created or destroyed, only transformed",
+      "Entropy always increases",
+      "Temperature is proportional to kinetic energy"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "The First Law of Thermodynamics is the principle of conservation of energy applied to thermal systems.",
+    "detailedExplanation": "The First Law of Thermodynamics, also known as the Law of Conservation of Energy, states that energy cannot be created or destroyed in an isolated system, only transformed from one form to another. This fundamental principle means that the total energy of the universe remains constant. In practical terms, it explains why perpetual motion machines are impossible and forms the basis for understanding heat engines, refrigerators, and all energy conversion processes.",
+    "citationUrl": "https://en.wikipedia.org/wiki/First_law_of_thermodynamics",
+    "citationTitle": "Wikipedia: First law of thermodynamics"
+  },
+  {
+    "id": "61a7e378-7c03-47d5-8b29-2bb395faaa6e",
+    "text": "According to Einstein's Special Theory of Relativity, what happens to time as you approach the speed of light?",
+    "options": [
+      "Time speeds up",
+      "Time slows down",
+      "Time remains constant",
+      "Time reverses"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Time dilation occurs at high speeds, causing time to slow down relative to stationary observers.",
+    "detailedExplanation": "Einstein's Special Theory of Relativity introduces the concept of time dilation, which states that time passes more slowly for objects moving at high speeds relative to a stationary observer. As an object's velocity approaches the speed of light, time dilation becomes more pronounced. This effect has been experimentally verified using atomic clocks on fast-moving aircraft and is crucial for the accuracy of GPS satellites. The phenomenon occurs because the speed of light is constant for all observers, requiring space and time to be relative rather than absolute as previously believed in classical physics.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Time_dilation",
+    "citationTitle": "Wikipedia: Time dilation"
+  },
+  {
+    "id": "78800d4c-5af2-410c-a571-a29579e732b9",
+    "text": "What does the Uncertainty Principle in quantum mechanics state?",
+    "options": [
+      "Energy and mass cannot both be measured precisely",
+      "Position and momentum cannot both be known precisely simultaneously",
+      "Time and frequency are always uncertain",
+      "Wave and particle properties exclude each other"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Heisenberg's Uncertainty Principle states that you cannot simultaneously determine both the exact position and momentum of a particle.",
+    "detailedExplanation": "The Heisenberg Uncertainty Principle, formulated by Werner Heisenberg in 1927, is a fundamental principle of quantum mechanics that places a limit on the precision with which certain pairs of physical properties, called complementary variables, can be known simultaneously. The most famous example involves position and momentum - the more precisely you know a particle's position, the less precisely you can know its momentum, and vice versa. This isn't due to limitations in measurement technology, but rather reflects the fundamental nature of quantum systems. The principle has profound implications for our understanding of atomic and subatomic particles and is essential to quantum theory.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Uncertainty_principle",
+    "citationTitle": "Wikipedia: Uncertainty principle"
+  },
+  {
+    "id": "8f258b90-23d7-4b6f-800e-e63791ac88a4",
+    "text": "Which scientist is famous for his uncertainty principle in quantum mechanics?",
+    "options": [
+      "Niels Bohr",
+      "Werner Heisenberg",
+      "Erwin Schrödinger",
+      "Max Planck"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Werner Heisenberg formulated the uncertainty principle, which states that you cannot simultaneously know both the position and momentum of a particle with perfect accuracy.",
+    "detailedExplanation": "Werner Heisenberg, a German physicist, formulated the uncertainty principle in 1927, which is fundamental to quantum mechanics. The principle states that there is a limit to how precisely we can know certain pairs of properties of a particle, such as its position and momentum, simultaneously. This principle challenged classical physics and our understanding of measurement and reality at the atomic scale. Heisenberg won the Nobel Prize in Physics in 1932 for his contributions to quantum mechanics.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Werner_Heisenberg",
+    "citationTitle": "Wikipedia: Werner Heisenberg"
+  },
+  {
+    "id": "861c47bf-c272-471c-bc50-4e52cc35cbc2",
+    "text": "Which mathematician and physicist developed calculus independently of Newton and also made significant contributions to philosophy?",
+    "options": [
+      "René Descartes",
+      "Gottfried Wilhelm Leibniz",
+      "Blaise Pascal",
+      "Pierre-Simon Laplace"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Leibniz developed calculus independently of Newton, leading to a famous priority dispute, and was also a prominent philosopher.",
+    "detailedExplanation": "Gottfried Wilhelm Leibniz, a German mathematician and philosopher, developed differential and integral calculus independently of Isaac Newton in the late 17th century. This led to a famous priority dispute known as the 'Leibniz-Newton calculus controversy.' Leibniz's notation system is actually the one used in modern calculus. Beyond mathematics, he made significant contributions to philosophy, logic, and physics, including early ideas about kinetic energy and the principle of sufficient reason. He is considered one of the last universal geniuses.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Gottfried_Wilhelm_Leibniz",
+    "citationTitle": "Wikipedia: Gottfried Wilhelm Leibniz"
+  },
+  {
+    "id": "3fb3fd52-9747-4997-a7f9-acc741a98583",
+    "text": "According to Newton's Second Law of Motion, what happens to acceleration when the mass of an object doubles while the force remains constant?",
+    "options": [
+      "Acceleration is halved",
+      "Acceleration doubles",
+      "Acceleration remains the same",
+      "Acceleration quadruples"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Newton's Second Law states F = ma, so when mass doubles and force stays constant, acceleration must halve.",
+    "detailedExplanation": "Newton's Second Law of Motion is expressed as F = ma, where F is force, m is mass, and a is acceleration. This equation shows that force and acceleration are directly proportional, while mass and acceleration are inversely proportional. When mass doubles while force remains constant, the acceleration must decrease by half to maintain the equality. This principle is fundamental to understanding how objects respond to forces in classical mechanics.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Newton%27s_laws_of_motion",
+    "citationTitle": "Wikipedia: Newton's laws of motion"
+  },
+  {
+    "id": "36790d37-e88c-48a6-8290-12d7dabad443",
+    "text": "Which law of thermodynamics states that entropy of an isolated system never decreases?",
+    "options": [
+      "First Law",
+      "Second Law",
+      "Third Law",
+      "Zeroth Law"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "The Second Law of Thermodynamics states that entropy of an isolated system always increases or remains constant, never decreases.",
+    "detailedExplanation": "The Second Law of Thermodynamics is one of the most fundamental principles in physics, stating that the entropy (measure of disorder) of an isolated system never decreases over time. This law explains why heat flows from hot to cold objects, why perpetual motion machines are impossible, and establishes the arrow of time. It has profound implications for understanding energy conversion, chemical reactions, and the ultimate fate of the universe.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Second_law_of_thermodynamics",
+    "citationTitle": "Wikipedia: Second law of thermodynamics"
+  },
+  {
+    "id": "a043d608-0565-4b43-838d-b0fb906c12ee",
+    "text": "Ohm's Law describes the relationship between voltage, current, and what third electrical property?",
+    "options": [
+      "Power",
+      "Resistance",
+      "Capacitance",
+      "Inductance"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Ohm's Law states that V = IR, relating voltage (V), current (I), and resistance (R).",
+    "detailedExplanation": "Ohm's Law, formulated by German physicist Georg Simon Ohm in 1827, describes the linear relationship between voltage, current, and resistance in electrical circuits. The law states that the current through a conductor is directly proportional to the voltage across it and inversely proportional to its resistance (V = IR). This fundamental principle is essential for understanding and designing electrical circuits, from simple household wiring to complex electronic devices.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Ohm%27s_law",
+    "citationTitle": "Wikipedia: Ohm's law"
+  },
+  {
+    "id": "5eb78f2b-87e5-4a38-b44e-38f5bd12febc",
+    "text": "What does Archimedes' Principle explain about objects submerged in fluids?",
+    "options": [
+      "They experience upward buoyant force equal to the weight of displaced fluid",
+      "They sink at a constant rate",
+      "They heat up due to friction",
+      "They become electrically charged"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Archimedes' Principle states that the buoyant force on a submerged object equals the weight of the fluid it displaces.",
+    "detailedExplanation": "Archimedes' Principle, discovered by the ancient Greek mathematician and physicist Archimedes, states that any object wholly or partially immersed in a fluid experiences an upward buoyant force equal to the weight of the fluid displaced by the object. This principle explains why ships float, why helium balloons rise, and is fundamental to understanding fluid statics. The principle applies to all fluids, including liquids and gases, and is crucial in engineering applications from submarine design to hot air ballooning.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Archimedes%27_principle",
+    "citationTitle": "Wikipedia: Archimedes' principle"
+  },
+  {
+    "id": "db4cc3af-2e05-40fa-9856-13445d8f283e",
+    "text": "Hooke's Law describes the behavior of what type of material when force is applied?",
+    "options": [
+      "Magnetic materials",
+      "Elastic materials",
+      "Radioactive materials",
+      "Conductive materials"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Hooke's Law describes how elastic materials deform proportionally to applied force: F = kx.",
+    "detailedExplanation": "Hooke's Law, formulated by 17th-century English scientist Robert Hooke, states that the force needed to extend or compress a spring or other elastic material is proportional to the distance of extension or compression (F = kx, where k is the spring constant). This law applies to elastic materials within their elastic limit, meaning they return to their original shape when the force is removed. The principle is fundamental in engineering applications including springs, shock absorbers, and structural analysis.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Hooke%27s_law",
+    "citationTitle": "Wikipedia: Hooke's law"
+  },
+  {
+    "id": "c5fdff5a-f293-422b-b4bd-e0c064165c71",
+    "text": "According to the conservation of energy principle, energy can be:",
+    "options": [
+      "Created but not destroyed",
+      "Destroyed but not created",
+      "Neither created nor destroyed, only transformed",
+      "Both created and destroyed freely"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "The law of conservation of energy states that energy cannot be created or destroyed, only converted from one form to another.",
+    "detailedExplanation": "The principle of conservation of energy, also known as the First Law of Thermodynamics, is one of the most fundamental laws in physics. It states that the total energy of an isolated system remains constant—energy can neither be created nor destroyed, but can only be transformed from one form to another. This principle applies to all forms of energy including kinetic, potential, thermal, chemical, nuclear, and electromagnetic energy. It's essential for understanding everything from simple pendulum motion to complex power plant operations.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Conservation_of_energy",
+    "citationTitle": "Wikipedia: Conservation of energy"
+  },
+  {
+    "id": "9394a8a2-c70c-4c46-b54f-b0bc299abe29",
+    "text": "What does Pascal's Law state about pressure in enclosed fluids?",
+    "options": [
+      "Pressure decreases with depth",
+      "Pressure is transmitted equally in all directions",
+      "Pressure only acts downward",
+      "Pressure depends on container shape"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Pascal's Law states that pressure applied to an enclosed fluid is transmitted equally in all directions throughout the fluid.",
+    "detailedExplanation": "Pascal's Law, formulated by French mathematician Blaise Pascal in the 17th century, states that pressure applied to a confined fluid is transmitted undiminished in all directions throughout the fluid. This principle is the foundation for hydraulic systems, which can amplify force by applying pressure to a small area and transmitting it to a larger area. Applications include hydraulic jacks, car brakes, hydraulic presses, and heavy machinery, making it one of the most practically important principles in engineering.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Pascal%27s_law",
+    "citationTitle": "Wikipedia: Pascal's law"
+  },
+  {
+    "id": "fd1490c8-7cf6-45d9-b33b-587cd5b04e21",
+    "text": "Faraday's Law of Electromagnetic Induction describes the relationship between changing magnetic fields and:",
+    "options": [
+      "Electric current",
+      "Gravitational force",
+      "Temperature",
+      "Sound waves"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Faraday's Law states that a changing magnetic field induces an electric current in a conductor.",
+    "detailedExplanation": "Faraday's Law of Electromagnetic Induction, discovered by Michael Faraday in 1831, states that an electromotive force (EMF) is induced in a conductor when it experiences a changing magnetic field. The induced EMF is proportional to the rate of change of magnetic flux through the conductor. This fundamental principle explains how electric generators, transformers, and induction motors work. It's one of Maxwell's equations and forms the basis for much of our modern electrical technology, from power generation to wireless charging.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Faraday%27s_law_of_induction",
+    "citationTitle": "Wikipedia: Faraday's law of induction"
+  },
+  {
+    "id": "846e90cc-4233-448f-a751-afb0c12fb5ae",
+    "text": "Which law states that for every action, there is an equal and opposite reaction?",
+    "options": [
+      "Newton's First Law",
+      "Newton's Second Law",
+      "Newton's Third Law",
+      "Law of Universal Gravitation"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Newton's Third Law states that for every action, there is an equal and opposite reaction.",
+    "detailedExplanation": "Newton's Third Law of Motion is one of the fundamental principles of classical mechanics. It states that when one object exerts a force on a second object, the second object simultaneously exerts a force equal in magnitude but opposite in direction on the first object. This law explains phenomena ranging from walking (pushing against the ground) to rocket propulsion, where expelled gases push the rocket forward.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Newton%27s_laws_of_motion",
+    "citationTitle": "Wikipedia: Newton's laws of motion"
+  },
+  {
+    "id": "9143ffa1-ab09-4a58-a29a-c51b697fa65f",
+    "text": "According to Heisenberg's Uncertainty Principle, what two properties of a particle cannot be precisely measured simultaneously?",
+    "options": [
+      "Mass and velocity",
+      "Energy and time",
+      "Position and momentum",
+      "Charge and spin"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Heisenberg's Uncertainty Principle states that position and momentum cannot be precisely measured simultaneously.",
+    "detailedExplanation": "Werner Heisenberg's Uncertainty Principle, formulated in 1927, is a fundamental concept in quantum mechanics. It states that the more precisely you know the position of a particle, the less precisely you can know its momentum, and vice versa. This isn't due to measurement limitations but is a fundamental property of quantum systems. The principle mathematically expresses that the product of uncertainties in position and momentum must be greater than or equal to a constant related to Planck's constant.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Uncertainty_principle",
+    "citationTitle": "Wikipedia: Uncertainty principle"
+  },
+  {
+    "id": "440d2578-cb37-4437-9b41-162406d11973",
+    "text": "What does the Second Law of Thermodynamics primarily describe?",
+    "options": [
+      "Conservation of energy",
+      "Increase of entropy in isolated systems",
+      "Relationship between pressure and volume",
+      "Conservation of momentum"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "The Second Law of Thermodynamics describes the tendency for entropy to increase in isolated systems.",
+    "detailedExplanation": "The Second Law of Thermodynamics is fundamental to understanding energy flow and the direction of natural processes. It states that the entropy (measure of disorder) of an isolated system never decreases over time. This law explains why heat flows from hot to cold objects, why perpetual motion machines are impossible, and why energy conversions are never 100% efficient. It introduces the concept of irreversibility in natural processes and defines the 'arrow of time' in physics.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Second_law_of_thermodynamics",
+    "citationTitle": "Wikipedia: Second law of thermodynamics"
+  },
+  {
+    "id": "986da26b-9a7c-4ad9-8416-049321903628",
+    "text": "Ohm's Law relates voltage, current, and what third electrical property?",
+    "options": [
+      "Power",
+      "Capacitance",
+      "Resistance",
+      "Inductance"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Ohm's Law relates voltage, current, and resistance in the equation V = I × R.",
+    "detailedExplanation": "Ohm's Law, discovered by German physicist Georg Ohm in 1827, is one of the most fundamental principles in electrical engineering and physics. The law states that the voltage (V) across a conductor is directly proportional to the current (I) flowing through it, with the constant of proportionality being the resistance (R). Mathematically expressed as V = I × R, this relationship applies to ohmic materials and forms the basis for analyzing electrical circuits and understanding how electrical devices function.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Ohm%27s_law",
+    "citationTitle": "Wikipedia: Ohm's law"
+  },
+  {
+    "id": "fe9b7d33-8204-45bd-a42d-0c10ab06d77f",
+    "text": "According to Archimedes' Principle, the buoyant force on a submerged object equals what?",
+    "options": [
+      "The object's weight",
+      "The object's volume",
+      "The weight of displaced fluid",
+      "The density of the object"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Archimedes' Principle states that buoyant force equals the weight of the fluid displaced by the object.",
+    "detailedExplanation": "Archimedes' Principle, discovered by the ancient Greek mathematician Archimedes around 250 BCE, explains why objects float or sink in fluids. The principle states that any object partially or fully submerged in a fluid experiences an upward buoyant force equal to the weight of the fluid displaced by the object. This principle explains why ships float despite being made of dense materials, how hot air balloons work, and forms the basis for determining density and measuring volume of irregular objects through water displacement.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Archimedes%27_principle",
+    "citationTitle": "Wikipedia: Archimedes' principle"
+  },
+  {
+    "id": "e3cedd5a-4ece-43fc-86ee-b51b852fddbb",
+    "text": "What does Faraday's Law of Electromagnetic Induction describe?",
+    "options": [
+      "Electric charge attraction",
+      "Magnetic field strength",
+      "Generation of electric current from changing magnetic fields",
+      "Speed of electromagnetic waves"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Faraday's Law describes how changing magnetic fields can induce electric currents in conductors.",
+    "detailedExplanation": "Faraday's Law of Electromagnetic Induction, discovered by Michael Faraday in 1831, is fundamental to understanding how electric generators, transformers, and motors work. The law states that a changing magnetic field through a conductor induces an electromotive force (EMF) proportional to the rate of change of the magnetic flux. This principle explains how mechanical energy can be converted to electrical energy and vice versa, forming the basis of most electrical power generation and many modern technologies including wireless charging and induction cooking.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Faraday%27s_law_of_induction",
+    "citationTitle": "Wikipedia: Faraday's law of induction"
+  }
+]

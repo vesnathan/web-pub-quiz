@@ -1,6 +1,6 @@
-import { Suspense } from 'react';
-import GamePageContent from './GamePageContent';
-import { LoadingScreen } from '@/components/LoadingScreen';
+import { Suspense } from "react";
+import GamePageContent from "./GamePageContent";
+import { LoadingScreen } from "@/components/LoadingScreen";
 
 /**
  * Game page wrapper with Suspense boundary

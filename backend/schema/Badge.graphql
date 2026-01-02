@@ -1,0 +1,48 @@
+# Badge and Award types
+
+enum AwardRarity {
+  common
+  uncommon
+  rare
+  epic
+  legendary
+}
+
+type Badge {
+  id: ID!
+  name: String!
+  description: String!
+  icon: String!
+  groupId: String!
+  tier: Int!
+  rarity: AwardRarity!
+  skillPoints: Int!
+  earnedAt: String!
+}
+
+type BadgeGroup {
+  id: ID!
+  name: String!
+  description: String!
+  showHighestOnly: Boolean!
+  badges: [BadgeDefinition!]!
+}
+
+type BadgeDefinition {
+  id: ID!
+  name: String!
+  description: String!
+  icon: String!
+  groupId: String!
+  tier: Int!
+  rarity: AwardRarity!
+  skillPoints: Int!
+  requirement: Int!
+}
+
+# User's badge summary for display
+type UserBadgeSummary {
+  badges: [Badge!]!
+  totalSkillPoints: Int!
+  badgeCount: Int!
+}

@@ -6,25 +6,25 @@ const buildGql = async () => {
   // Step 1: Merge schema files using the backend script with ESM support
   const mergeSchemaScript = path.resolve(
     __dirname,
-    "../../backend/scripts/merge-schema-for-appsync.ts"
+    "../../backend/scripts/merge-schema-for-appsync.ts",
   );
 
   console.log("Merging GraphQL schema files...");
   try {
-    execSync(
-      `npx tsx ${mergeSchemaScript}`,
-      {
-        cwd: path.resolve(__dirname, "../../backend"),
-        stdio: "inherit"
-      }
-    );
+    execSync(`npx tsx ${mergeSchemaScript}`, {
+      cwd: path.resolve(__dirname, "../../backend"),
+      stdio: "inherit",
+    });
   } catch (err) {
     console.error("Schema merge failed:", err);
     throw err;
   }
 
   // Step 2: Run graphql-codegen
-  const schemaPath = path.resolve(__dirname, "../../backend/combined_schema.graphql");
+  const schemaPath = path.resolve(
+    __dirname,
+    "../../backend/combined_schema.graphql",
+  );
   const outDir = path.resolve(__dirname, "../../shared/src/types");
 
   if (!fs.existsSync(outDir)) {
@@ -35,7 +35,7 @@ const buildGql = async () => {
   const tmpConfigPath = path.resolve(__dirname, "../codegen.temp.yml");
   const relativeSchemaPath = path.relative(
     path.resolve(__dirname, ".."),
-    schemaPath
+    schemaPath,
   );
 
   const yaml = `schema: "${relativeSchemaPath}"
@@ -58,13 +58,10 @@ generates:
 
   console.log("Running graphql-codegen...");
   try {
-    execSync(
-      `npx graphql-codegen generate --config ${tmpConfigPath}`,
-      {
-        cwd: path.resolve(__dirname, ".."),
-        stdio: "inherit"
-      }
-    );
+    execSync(`npx graphql-codegen generate --config ${tmpConfigPath}`, {
+      cwd: path.resolve(__dirname, ".."),
+      stdio: "inherit",
+    });
     console.log("Types generated to shared/src/types/gqlTypes.ts");
   } catch (err) {
     console.error("graphql-codegen failed:", err);

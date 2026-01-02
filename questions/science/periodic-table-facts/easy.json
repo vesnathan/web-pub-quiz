@@ -1,0 +1,325 @@
+[
+  {
+    "id": "c44759ea-b75a-43a4-8971-ba3b1e1e0c62",
+    "text": "How many elements are in the first period of the periodic table?",
+    "options": [
+      "1",
+      "2",
+      "8",
+      "18"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "The first period contains only 2 elements: hydrogen and helium.",
+    "detailedExplanation": "The first period of the periodic table is the shortest, containing only hydrogen (H) and helium (He). Periods represent the number of electron shells an atom has, and these two elements have only one electron shell. Hydrogen has one electron and helium has two electrons, both occupying the first energy level.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Period_1_element",
+    "citationTitle": "Wikipedia: Period 1 element"
+  },
+  {
+    "id": "7803b147-02c5-4f09-bcba-f71b6a802d96",
+    "text": "What do we call the vertical columns in the periodic table?",
+    "options": [
+      "Periods",
+      "Groups",
+      "Families",
+      "Both Groups and Families"
+    ],
+    "correctIndex": 3,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Vertical columns are called both groups and families - these terms are used interchangeably.",
+    "detailedExplanation": "The vertical columns in the periodic table are called groups or families, with both terms being used interchangeably in chemistry. Elements in the same group have the same number of electrons in their outer shell, which gives them similar chemical properties. There are 18 groups in the modern periodic table, numbered from 1 to 18.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Group_(periodic_table)",
+    "citationTitle": "Wikipedia: Group (periodic table)"
+  },
+  {
+    "id": "4319b9a6-dc11-41c2-9a07-9062c56ca558",
+    "text": "Which of these elements is a noble gas?",
+    "options": [
+      "Nitrogen",
+      "Neon",
+      "Sodium",
+      "Sulfur"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Neon is a noble gas found in Group 18 of the periodic table.",
+    "detailedExplanation": "Neon is a noble gas, located in Group 18 of the periodic table. Noble gases are characterized by having complete outer electron shells, making them very stable and generally unreactive under normal conditions. The noble gases include helium, neon, argon, krypton, xenon, and radon. Neon is commonly used in advertising signs and produces an orange-red glow when electrified.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Noble_gas",
+    "citationTitle": "Wikipedia: Noble gas"
+  },
+  {
+    "id": "d374aeae-db0a-4c36-b287-7d3b504996ce",
+    "text": "What is the chemical symbol for sodium?",
+    "options": [
+      "So",
+      "Sd",
+      "Na",
+      "S"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Sodium's chemical symbol is Na, from the Latin word 'natrium'.",
+    "detailedExplanation": "Sodium has the chemical symbol Na, which derives from 'natrium', the Latin name for sodium compounds. Sodium is element number 11 on the periodic table and is an alkali metal in Group 1. It's highly reactive and is commonly found in compounds like table salt (sodium chloride, NaCl) rather than in its pure metallic form in nature.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Sodium",
+    "citationTitle": "Wikipedia: Sodium"
+  },
+  {
+    "id": "87b0ca92-9791-4e50-a392-8d2cc7a3317d",
+    "text": "Which element is commonly known as the 'building block of life'?",
+    "options": [
+      "Oxygen",
+      "Carbon",
+      "Nitrogen",
+      "Hydrogen"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Carbon is known as the building block of life due to its ability to form complex organic molecules.",
+    "detailedExplanation": "Carbon is often called the 'building block of life' because it can form four strong covalent bonds with other atoms, allowing it to create complex organic molecules like proteins, carbohydrates, fats, and DNA. Carbon is element number 6 on the periodic table and is found in Group 14. Its versatility in bonding makes it essential for all known life forms on Earth.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Carbon",
+    "citationTitle": "Wikipedia: Carbon"
+  },
+  {
+    "id": "3b284a7a-d946-475c-9c1b-5a067b856d9a",
+    "text": "How many elements are there in the third period of the periodic table?",
+    "options": [
+      "2",
+      "8",
+      "10",
+      "18"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "The third period contains 8 elements, from sodium (Na) to argon (Ar).",
+    "detailedExplanation": "The third period of the periodic table contains 8 elements: sodium (Na), magnesium (Mg), aluminum (Al), silicon (Si), phosphorus (P), sulfur (S), chlorine (Cl), and argon (Ar). These elements have three electron shells and show a progression from metals on the left through metalloids in the middle to non-metals and a noble gas on the right, demonstrating the periodic nature of element properties.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Period_3_element",
+    "citationTitle": "Wikipedia: Period 3 element"
+  },
+  {
+    "id": "34ef6c5a-c83a-4c31-b050-3a1fedd29949",
+    "text": "How many elements are in the seventh period of the periodic table?",
+    "options": [
+      "18",
+      "32",
+      "8",
+      "14"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "The seventh period contains 32 elements, from francium (Fr) to oganesson (Og).",
+    "detailedExplanation": "The seventh period of the periodic table is the most recent complete period, containing 32 elements numbered from 87 (francium) to 118 (oganesson). This period includes the actinide series, which are typically shown separately below the main table. The seventh period was completed in 2016 when the last four elements (nihonium, moscovium, tennessine, and oganesson) were officially named.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Period_7_element",
+    "citationTitle": "Wikipedia: Period 7 element"
+  },
+  {
+    "id": "b5b896d1-d3f9-428b-b106-6b29dd8254cc",
+    "text": "What is the most abundant element in Earth's atmosphere?",
+    "options": [
+      "Oxygen",
+      "Carbon dioxide",
+      "Nitrogen",
+      "Argon"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Nitrogen makes up about 78% of Earth's atmosphere by volume.",
+    "detailedExplanation": "Nitrogen (N₂) comprises approximately 78% of Earth's atmosphere by volume, making it the most abundant atmospheric gas. Oxygen comes second at about 21%, followed by argon at about 0.93%. Despite being essential for life, oxygen is actually the second most abundant gas in our atmosphere. Nitrogen is relatively inert under normal conditions, which is why it doesn't readily react with other atmospheric components.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Atmosphere_of_Earth",
+    "citationTitle": "Wikipedia: Atmosphere of Earth"
+  },
+  {
+    "id": "a499c564-9e1b-461a-a516-a8f22f9c4427",
+    "text": "Which group of elements is known as the 'noble gases'?",
+    "options": [
+      "Group 1",
+      "Group 17",
+      "Group 18",
+      "Group 2"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Group 18 contains the noble gases, including helium, neon, argon, krypton, xenon, and radon.",
+    "detailedExplanation": "Group 18 elements are called noble gases because they are generally unreactive under normal conditions, historically thought to be completely inert. This group includes helium, neon, argon, krypton, xenon, and radon. They have complete outer electron shells, which makes them very stable. The term 'noble' was chosen to reflect their lack of tendency to react with other elements, similar to how noble metals resist corrosion.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Noble_gas",
+    "citationTitle": "Wikipedia: Noble gas"
+  },
+  {
+    "id": "fa70880a-2d10-4400-84d0-15d8af0bf94d",
+    "text": "Which element is commonly known as the 'element of life'?",
+    "options": [
+      "Oxygen",
+      "Hydrogen",
+      "Carbon",
+      "Nitrogen"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Carbon is known as the 'element of life' because it forms the backbone of all organic molecules.",
+    "detailedExplanation": "Carbon is often called the 'element of life' because it is the fundamental building block of all known life forms. Carbon's unique ability to form four strong covalent bonds allows it to create complex molecules including proteins, DNA, carbohydrates, and fats. Its versatility in bonding makes it essential for the complex chemistry required for life processes. Carbon can form long chains, rings, and branched structures that no other element can match.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Carbon",
+    "citationTitle": "Wikipedia: Carbon"
+  },
+  {
+    "id": "06ceac77-5994-42b8-bb61-c9b2c3faf3fe",
+    "text": "How many naturally occurring elements are there on Earth?",
+    "options": [
+      "88",
+      "92",
+      "98",
+      "118"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "There are 92 naturally occurring elements on Earth, from hydrogen to uranium.",
+    "detailedExplanation": "There are 92 naturally occurring elements found on Earth, ranging from hydrogen (atomic number 1) to uranium (atomic number 92). Elements with atomic numbers higher than 92 are synthetic and have been created artificially in laboratories. While technetium (element 43) and promethium (element 61) are extremely rare in nature, they do occur naturally in trace amounts, so they are counted among the 92 naturally occurring elements.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Chemical_element",
+    "citationTitle": "Wikipedia: Chemical element"
+  },
+  {
+    "id": "a9516330-560b-422e-a83d-1b9a208c77dc",
+    "text": "What do elements in the same group (vertical column) of the periodic table have in common?",
+    "options": [
+      "Same number of protons",
+      "Same atomic mass",
+      "Same number of electron shells",
+      "Same number of valence electrons"
+    ],
+    "correctIndex": 3,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Elements in the same group have the same number of valence electrons, giving them similar chemical properties.",
+    "detailedExplanation": "Elements in the same group or family of the periodic table have the same number of valence electrons (electrons in their outermost shell). This similarity in valence electrons is what gives elements in the same group similar chemical properties and behaviors. For example, all elements in Group 1 (alkali metals) have one valence electron, making them highly reactive and likely to form ionic bonds by losing that electron.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Group_(periodic_table)",
+    "citationTitle": "Wikipedia: Group (periodic table)"
+  },
+  {
+    "id": "6d53001e-b02d-4593-93ed-ffc1d751e980",
+    "text": "What is the heaviest naturally occurring element?",
+    "options": [
+      "Lead",
+      "Uranium",
+      "Plutonium",
+      "Radium"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Uranium is the heaviest naturally occurring element with atomic number 92.",
+    "detailedExplanation": "Uranium, with atomic number 92, is the heaviest element that occurs naturally in significant quantities on Earth. While trace amounts of heavier elements like neptunium and plutonium can be found in nature as products of uranium decay, uranium is considered the heaviest naturally occurring element. It's a radioactive actinide metal that was discovered in 1789 and later became famous for its use in nuclear power and weapons.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Uranium",
+    "citationTitle": "Wikipedia: Uranium"
+  },
+  {
+    "id": "bbe1106f-614e-425f-899e-e9c4f803f979",
+    "text": "Which scientist is credited with creating the first version of the periodic table?",
+    "options": [
+      "Marie Curie",
+      "Dmitri Mendeleev",
+      "Albert Einstein",
+      "Niels Bohr"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Dmitri Mendeleev created the first widely recognized periodic table in 1869.",
+    "detailedExplanation": "Russian chemist Dmitri Mendeleev published the first widely recognized periodic table in 1869. His genius lay not just in organizing the known elements by atomic weight, but in leaving gaps for undiscovered elements and predicting their properties. When elements like gallium and germanium were later discovered with properties matching his predictions, it validated his periodic law and cemented his legacy as the father of the periodic table.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Dmitri_Mendeleev",
+    "citationTitle": "Wikipedia: Dmitri Mendeleev"
+  },
+  {
+    "id": "1b83a670-3b27-4195-979f-fdda98f25880",
+    "text": "At room temperature, which of these elements exists as a liquid?",
+    "options": [
+      "Iron",
+      "Mercury",
+      "Lead",
+      "Silver"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Mercury is the only metal that is liquid at room temperature.",
+    "detailedExplanation": "Mercury is unique among metals as it remains liquid at room temperature, with a melting point of -38.83°C (-37.89°F). This unusual property, combined with its high density and ability to conduct electricity, made it valuable for thermometers and barometers before its toxicity became well understood. Mercury is the only elemental metal that is liquid under standard conditions, though bromine is another element that is liquid at room temperature.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Mercury_(element)",
+    "citationTitle": "Wikipedia: Mercury (element)"
+  },
+  {
+    "id": "a3701523-fad1-4c39-8825-20e580e7df42",
+    "text": "How many elements are in the periodic table as of 2024?",
+    "options": [
+      "108",
+      "116",
+      "118",
+      "120"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "There are currently 118 confirmed elements in the periodic table.",
+    "detailedExplanation": "The periodic table currently contains 118 confirmed elements, with the most recent additions being elements 113 (Nihonium), 115 (Moscovium), 117 (Tennessine), and 118 (Oganesson), which were officially named in 2016. Scientists continue to attempt to synthesize new superheavy elements, but none beyond element 118 have been confirmed yet.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Periodic_table",
+    "citationTitle": "Wikipedia: Periodic table"
+  },
+  {
+    "id": "f22d939b-ccd6-490e-9156-a0a9a2847866",
+    "text": "What are the vertical columns in the periodic table called?",
+    "options": [
+      "Periods",
+      "Groups",
+      "Families",
+      "Both Groups and Families"
+    ],
+    "correctIndex": 3,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Vertical columns are called both groups and families - these terms are used interchangeably.",
+    "detailedExplanation": "The vertical columns in the periodic table are called groups or families, with both terms being used interchangeably in chemistry. Elements in the same group have the same number of valence electrons, which gives them similar chemical properties. There are 18 groups in the modern periodic table, numbered from 1 to 18.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Group_(periodic_table)",
+    "citationTitle": "Wikipedia: Group (periodic table)"
+  },
+  {
+    "id": "24ad4e3e-e937-487c-96b0-563c70bd9df7",
+    "text": "How many elements are there in the modern periodic table?",
+    "options": [
+      "108",
+      "118",
+      "120",
+      "114"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "There are currently 118 confirmed elements in the modern periodic table.",
+    "detailedExplanation": "The modern periodic table contains 118 confirmed chemical elements, with the most recent additions being nihonium (113), moscovium (115), tennessine (117), and oganesson (118), which were officially named in 2016. The periodic table continues to grow as scientists create new superheavy elements in laboratories, though these synthetic elements are typically very unstable and exist for only fractions of a second.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Periodic_table",
+    "citationTitle": "Wikipedia: Periodic table"
+  },
+  {
+    "id": "c6ed465a-8602-41a2-b9b0-8db7b605d40d",
+    "text": "How many elements are in the first period (row) of the periodic table?",
+    "options": [
+      "1",
+      "2",
+      "8",
+      "18"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "The first period contains only 2 elements: hydrogen and helium.",
+    "detailedExplanation": "The first period of the periodic table is the shortest, containing only hydrogen (H) and helium (He). Periods in the periodic table represent the number of electron shells (energy levels) that atoms of the elements possess. Since hydrogen has one electron and helium has two electrons, they both have only one electron shell, placing them in the first period. The subsequent periods contain more elements as additional electron shells can accommodate more electrons in various subshells.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Period_1_element",
+    "citationTitle": "Wikipedia: Period 1 element"
+  }
+]

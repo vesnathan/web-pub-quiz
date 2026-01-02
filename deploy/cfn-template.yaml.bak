@@ -1,0 +1,369 @@
+AWSTemplateFormatVersion: "2010-09-09"
+Description: "Quiz Night Live Infrastructure"
+
+Parameters:
+  Stage:
+    Type: String
+    Description: Deployment stage (e.g., dev, prod)
+    AllowedPattern: ^[a-zA-Z0-9-]+$
+  AppName:
+    Type: String
+    Description: Application short name (used in resource names)
+    Default: qnl
+  TemplateBucketName:
+    Type: String
+    Description: Name of the S3 bucket containing nested stack templates
+  LogRetentionInDays:
+    Type: Number
+    Description: Number of days to retain CloudWatch Logs
+    Default: 14
+  DomainName:
+    Type: String
+    Description: Custom domain name for CloudFront (e.g., quiznight.live)
+    Default: ""
+  HostedZoneId:
+    Type: String
+    Description: Route53 Hosted Zone ID for domain validation
+    Default: ""
+  CertificateArn:
+    Type: String
+    Description: ACM Certificate ARN in us-east-1 for custom domain
+    Default: ""
+  DeployUserArn:
+    Type: String
+    Description: ARN of the deploy user that can assume the seed role
+    Default: ""
+  AblyApiKey:
+    Type: String
+    Description: Ably API key for real-time messaging
+    NoEcho: true
+  GoogleClientId:
+    Type: String
+    Description: Google OAuth Client ID
+    Default: ""
+  GoogleClientSecret:
+    Type: String
+    Description: Google OAuth Client Secret
+    NoEcho: true
+    Default: ""
+  AuthDomainCertificateArn:
+    Type: String
+    Description: ACM Certificate ARN in us-east-1 for auth subdomain (e.g., auth.quiznight.live)
+    Default: ""
+  ResolversBuildHash:
+    Type: String
+    Description: Build hash for resolver versioning
+    Default: "initial"
+
+Conditions:
+  HasDeployUser: !Not [!Equals [!Ref DeployUserArn, ""]]
+  IsProd: !Equals [!Ref Stage, "prod"]
+  HasCustomDomain: !And
+    - !Condition IsProd
+    - !Not [!Equals [!Ref DomainName, ""]]
+  HasAuthDomain: !And
+    - !Condition HasCustomDomain
+    - !Not [!Equals [!Ref AuthDomainCertificateArn, ""]]
+
+Resources:
+  # DynamoDB Single Table
+  DynamoDbStack:
+    Type: AWS::CloudFormation::Stack
+    Properties:
+      TemplateURL: !Sub https://${TemplateBucketName}.s3.${AWS::Region}.amazonaws.com/resources/DynamoDb/dynamoDb.yaml
+      Parameters:
+        Stage: !Ref Stage
+        AppName: !Ref AppName
+
+  # S3 Buckets for frontend
+  S3Stack:
+    Type: AWS::CloudFormation::Stack
+    Properties:
+      TemplateURL: !Sub https://${TemplateBucketName}.s3.${AWS::Region}.amazonaws.com/resources/S3/s3.yaml
+      Parameters:
+        Stage: !Ref Stage
+        AppName: !Ref AppName
+
+  # Cognito User Pool and Identity Pool
+  CognitoStack:
+    Type: AWS::CloudFormation::Stack
+    DependsOn: [DynamoDbStack, CloudFrontStack]
+    Properties:
+      TemplateURL: !Sub https://${TemplateBucketName}.s3.${AWS::Region}.amazonaws.com/resources/Cognito/cognito.yaml
+      Parameters:
+        Stage: !Ref Stage
+        AppName: !Ref AppName
+        TemplateBucketName: !Ref TemplateBucketName
+        DataTableName: !GetAtt DynamoDbStack.Outputs.DataTableName
+        LogRetentionInDays: !Ref LogRetentionInDays
+        GoogleClientId: !Ref GoogleClientId
+        GoogleClientSecret: !Ref GoogleClientSecret
+        FrontendUrl: !If
+          - HasCustomDomain
+          - !Sub "https://${DomainName}"
+          - !Sub "https://${CloudFrontStack.Outputs.CloudFrontDomainName}"
+        AuthDomainName: !If
+          - HasAuthDomain
+          - !Sub "auth.${DomainName}"
+          - ""
+        AuthDomainCertificateArn: !Ref AuthDomainCertificateArn
+        HostedZoneId: !Ref HostedZoneId
+
+  # CloudFront Distribution
+  CloudFrontStack:
+    Type: AWS::CloudFormation::Stack
+    DependsOn: S3Stack
+    Properties:
+      TemplateURL: !Sub https://${TemplateBucketName}.s3.${AWS::Region}.amazonaws.com/resources/CloudFront/cloudfront.yaml
+      Parameters:
+        Stage: !Ref Stage
+        AppName: !Ref AppName
+        FrontendBucketName: !GetAtt S3Stack.Outputs.FrontendBucketName
+        FrontendBucketArn: !GetAtt S3Stack.Outputs.FrontendBucketArn
+        FrontendBucketRegionalDomainName: !GetAtt S3Stack.Outputs.FrontendBucketRegionalDomainName
+        DomainName: !Ref DomainName
+        HostedZoneId: !Ref HostedZoneId
+        CertificateArn: !Ref CertificateArn
+
+  # Lambda Functions (Ably token auth, orchestrator trigger)
+  LambdaStack:
+    Type: AWS::CloudFormation::Stack
+    DependsOn: [DynamoDbStack, CognitoStack]
+    Properties:
+      TemplateURL: !Sub https://${TemplateBucketName}.s3.${AWS::Region}.amazonaws.com/resources/Lambda/lambda.yaml
+      Parameters:
+        Stage: !Ref Stage
+        AppName: !Ref AppName
+        TemplateBucketName: !Ref TemplateBucketName
+        DataTableName: !GetAtt DynamoDbStack.Outputs.DataTableName
+        DataTableArn: !GetAtt DynamoDbStack.Outputs.DataTableArn
+        UserPoolId: !GetAtt CognitoStack.Outputs.UserPoolId
+        LogRetentionInDays: !Ref LogRetentionInDays
+        AblyApiKey: !Ref AblyApiKey
+
+  # AppSync GraphQL API
+  AppSyncStack:
+    Type: AWS::CloudFormation::Stack
+    DependsOn: [DynamoDbStack, CognitoStack, LambdaStack]
+    Properties:
+      TemplateURL: !Sub https://${TemplateBucketName}.s3.${AWS::Region}.amazonaws.com/resources/AppSync/appsync.yaml
+      Parameters:
+        Stage: !Ref Stage
+        AppName: !Ref AppName
+        TemplateBucketName: !Ref TemplateBucketName
+        UserPoolId: !GetAtt CognitoStack.Outputs.UserPoolId
+        DataTableName: !GetAtt DynamoDbStack.Outputs.DataTableName
+        AppSyncDynamoDBRoleArn: !GetAtt DynamoDbStack.Outputs.AppSyncDynamoDBRoleArn
+        LogRetentionInDays: !Ref LogRetentionInDays
+        GetAblyTokenFunctionArn: !GetAtt LambdaStack.Outputs.GetAblyTokenFunctionArn
+        EnsureProfileFunctionArn: !GetAtt LambdaStack.Outputs.EnsureProfileFunctionArn
+        CreateCheckoutFunctionArn: !GetAtt LambdaStack.Outputs.CreateCheckoutFunctionArn
+        CreateTipCheckoutFunctionArn: !GetAtt LambdaStack.Outputs.CreateTipCheckoutFunctionArn
+        CheckEmailHasGoogleAccountFunctionArn: !GetAtt LambdaStack.Outputs.CheckEmailHasGoogleAccountFunctionArn
+        ResolversBuildHash: !Ref ResolversBuildHash
+
+  # Fargate Orchestrator (runs game logic continuously)
+  FargateStack:
+    Type: AWS::CloudFormation::Stack
+    DependsOn: [DynamoDbStack]
+    Properties:
+      TemplateURL: !Sub https://${TemplateBucketName}.s3.${AWS::Region}.amazonaws.com/resources/Fargate/fargate.yaml
+      Parameters:
+        Stage: !Ref Stage
+        AppName: !Ref AppName
+        DataTableName: !GetAtt DynamoDbStack.Outputs.DataTableName
+        DataTableArn: !GetAtt DynamoDbStack.Outputs.DataTableArn
+        AblyApiKey: !Ref AblyApiKey
+        LogRetentionInDays: !Ref LogRetentionInDays
+
+  # Seed role for deployment
+  SeedRole:
+    Type: AWS::IAM::Role
+    Condition: HasDeployUser
+    DependsOn: [DynamoDbStack, CognitoStack, S3Stack, CloudFrontStack, FargateStack]
+    Properties:
+      RoleName: !Sub "${AppName}-seed-role-${Stage}"
+      AssumeRolePolicyDocument:
+        Version: "2012-10-17"
+        Statement:
+          - Effect: Allow
+            Principal:
+              AWS: !Ref DeployUserArn
+            Action: sts:AssumeRole
+            Condition:
+              StringEquals:
+                sts:ExternalId: !Sub "${AppName}-seed-${Stage}"
+      Policies:
+        - PolicyName: seed-policy
+          PolicyDocument:
+            Version: "2012-10-17"
+            Statement:
+              - Sid: DynamoDBSeedAccess
+                Effect: Allow
+                Action:
+                  - dynamodb:Scan
+                  - dynamodb:Query
+                  - dynamodb:PutItem
+                  - dynamodb:DeleteItem
+                  - dynamodb:BatchWriteItem
+                  - dynamodb:GetItem
+                  - dynamodb:BatchGetItem
+                Resource:
+                  - !GetAtt DynamoDbStack.Outputs.DataTableArn
+                  - !Sub "${DynamoDbStack.Outputs.DataTableArn}/index/*"
+              - Sid: CognitoUserManagement
+                Effect: Allow
+                Action:
+                  - cognito-idp:AdminGetUser
+                  - cognito-idp:ListUsers
+                  - cognito-idp:AdminCreateUser
+                  - cognito-idp:AdminSetUserPassword
+                Resource:
+                  - !Sub "arn:aws:cognito-idp:${AWS::Region}:${AWS::AccountId}:userpool/${CognitoStack.Outputs.UserPoolId}"
+              - Sid: FrontendBucketAccess
+                Effect: Allow
+                Action:
+                  - s3:PutObject
+                  - s3:GetObject
+                  - s3:DeleteObject
+                  - s3:ListBucket
+                Resource:
+                  - !GetAtt S3Stack.Outputs.FrontendBucketArn
+                  - !Sub "${S3Stack.Outputs.FrontendBucketArn}/*"
+              - Sid: CloudFrontInvalidation
+                Effect: Allow
+                Action:
+                  - cloudfront:CreateInvalidation
+                  - cloudfront:GetInvalidation
+                Resource:
+                  - !Sub "arn:aws:cloudfront::${AWS::AccountId}:distribution/${CloudFrontStack.Outputs.CloudFrontDistributionId}"
+              - Sid: ECRAuth
+                Effect: Allow
+                Action:
+                  - ecr:GetAuthorizationToken
+                Resource: "*"
+              - Sid: ECRPush
+                Effect: Allow
+                Action:
+                  - ecr:BatchCheckLayerAvailability
+                  - ecr:GetDownloadUrlForLayer
+                  - ecr:BatchGetImage
+                  - ecr:PutImage
+                  - ecr:InitiateLayerUpload
+                  - ecr:UploadLayerPart
+                  - ecr:CompleteLayerUpload
+                Resource:
+                  - !GetAtt FargateStack.Outputs.RepositoryArn
+              - Sid: ECSUpdateService
+                Effect: Allow
+                Action:
+                  - ecs:UpdateService
+                  - ecs:DescribeServices
+                Resource:
+                  - !Sub "arn:aws:ecs:${AWS::Region}:${AWS::AccountId}:service/${FargateStack.Outputs.ClusterName}/*"
+              - Sid: LambdaUpdateCode
+                Effect: Allow
+                Action:
+                  - lambda:GetFunction
+                  - lambda:UpdateFunctionCode
+                Resource:
+                  - !Sub "arn:aws:lambda:${AWS::Region}:${AWS::AccountId}:function:${AppName}-*-${Stage}"
+              - Sid: DeployBucketRead
+                Effect: Allow
+                Action:
+                  - s3:GetObject
+                Resource:
+                  - !Sub "arn:aws:s3:::${TemplateBucketName}/functions/*"
+      Tags:
+        - Key: App
+          Value: !Ref AppName
+        - Key: Project
+          Value: quiz-night-live
+        - Key: Stage
+          Value: !Ref Stage
+
+Outputs:
+  ApiUrl:
+    Description: AppSync API URL
+    Value: !GetAtt AppSyncStack.Outputs.AppSyncApiUrl
+    Export:
+      Name: !Sub ${AppName}-${Stage}-api-url
+
+  ApiId:
+    Description: AppSync API ID
+    Value: !GetAtt AppSyncStack.Outputs.AppSyncApiId
+    Export:
+      Name: !Sub ${AppName}-${Stage}-api-id
+
+  UserPoolId:
+    Description: Cognito User Pool ID
+    Value: !GetAtt CognitoStack.Outputs.UserPoolId
+    Export:
+      Name: !Sub "${AppName}-${Stage}-user-pool-id"
+
+  UserPoolClientId:
+    Description: Cognito User Pool Client ID
+    Value: !GetAtt CognitoStack.Outputs.UserPoolClientId
+    Export:
+      Name: !Sub "${AppName}-${Stage}-user-pool-client-id"
+
+  IdentityPoolId:
+    Description: Cognito Identity Pool ID
+    Value: !GetAtt CognitoStack.Outputs.IdentityPoolId
+    Export:
+      Name: !Sub "${AppName}-${Stage}-identity-pool-id"
+
+  CognitoDomain:
+    Description: Cognito User Pool Domain for OAuth
+    Value: !GetAtt CognitoStack.Outputs.UserPoolDomain
+    Export:
+      Name: !Sub "${AppName}-${Stage}-cognito-domain"
+
+  GoogleOAuthEnabled:
+    Description: Whether Google OAuth is enabled
+    Value: !GetAtt CognitoStack.Outputs.GoogleOAuthEnabled
+    Export:
+      Name: !Sub "${AppName}-${Stage}-google-oauth-enabled"
+
+  WebsiteBucket:
+    Description: S3 bucket for frontend
+    Value: !GetAtt S3Stack.Outputs.FrontendBucketName
+    Export:
+      Name: !Sub "${AppName}-${Stage}-website-bucket"
+
+  CloudFrontDistributionId:
+    Description: CloudFront Distribution ID
+    Value: !GetAtt CloudFrontStack.Outputs.CloudFrontDistributionId
+    Export:
+      Name: !Sub "${AppName}-${Stage}-cloudfront-id"
+
+  CloudFrontDomainName:
+    Description: CloudFront Distribution Domain Name
+    Value: !GetAtt CloudFrontStack.Outputs.CloudFrontDomainName
+    Export:
+      Name: !Sub "${AppName}-${Stage}-cloudfront-domain"
+
+  DataTableName:
+    Description: DynamoDB Data Table Name
+    Value: !GetAtt DynamoDbStack.Outputs.DataTableName
+    Export:
+      Name: !Sub "${AppName}-${Stage}-datatable-name"
+
+  SeedRoleArn:
+    Description: ARN of the seed role for database seeding
+    Condition: HasDeployUser
+    Value: !GetAtt SeedRole.Arn
+    Export:
+      Name: !Sub "${AppName}-${Stage}-seed-role-arn"
+
+  OrchestratorClusterName:
+    Description: ECS Cluster name for orchestrator
+    Value: !GetAtt FargateStack.Outputs.ClusterName
+    Export:
+      Name: !Sub "${AppName}-${Stage}-orchestrator-cluster"
+
+  OrchestratorRepositoryUri:
+    Description: ECR Repository URI for orchestrator
+    Value: !GetAtt FargateStack.Outputs.RepositoryUri
+    Export:
+      Name: !Sub "${AppName}-${Stage}-orchestrator-repo"

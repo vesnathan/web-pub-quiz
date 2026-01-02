@@ -1,0 +1,325 @@
+[
+  {
+    "id": "c27c98f3-d613-4097-a653-3e2b2d76deb9",
+    "text": "Which country's flag consists of three horizontal stripes in black, red, and yellow?",
+    "options": [
+      "Belgium",
+      "Germany",
+      "Netherlands",
+      "Austria"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "Germany's flag features three horizontal stripes: black at the top, red in the middle, and yellow at the bottom.",
+    "detailedExplanation": "The German flag, known as the Bundesflagge, consists of three equal horizontal bands of black (top), red (middle), and gold/yellow (bottom). These colors have deep historical significance, dating back to the uniforms of the Lützow Free Corps during the Napoleonic Wars and later becoming symbols of German unity and democracy during the 1848 revolutions.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Flag_of_Germany",
+    "citationTitle": "Wikipedia: Flag of Germany"
+  },
+  {
+    "id": "167c63dd-4d04-40f2-ab5e-433f1b5d569a",
+    "text": "How many stars are on the flag of the United States of America?",
+    "options": [
+      "48",
+      "50",
+      "51",
+      "52"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "The US flag has 50 stars, representing the 50 states of America.",
+    "detailedExplanation": "The current design of the American flag features 50 five-pointed white stars arranged in nine rows on a blue canton, representing the 50 states. The flag has been modified 27 times since 1777, with stars being added as new states joined the Union. The most recent change occurred in 1960 when Hawaii became the 50th state.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Flag_of_the_United_States",
+    "citationTitle": "Wikipedia: Flag of the United States"
+  },
+  {
+    "id": "d3887e91-52c6-4263-adf4-12790dbaa6cc",
+    "text": "Which country's flag features a red maple leaf?",
+    "options": [
+      "Switzerland",
+      "Canada",
+      "Austria",
+      "Denmark"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "Canada's flag features a distinctive red maple leaf in the center on a white square with red bands on either side.",
+    "detailedExplanation": "The National Flag of Canada, often called the Maple Leaf flag, was adopted on February 15, 1965. It consists of a red stylized eleven-pointed maple leaf centered on a white square, flanked by two red vertical bands. The maple leaf has been a Canadian symbol since the 18th century and represents the country's natural heritage.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Flag_of_Canada",
+    "citationTitle": "Wikipedia: Flag of Canada"
+  },
+  {
+    "id": "b3b43d21-54b9-46a2-ae54-4f866952d246",
+    "text": "What symbol appears in the center of the Japanese flag?",
+    "options": [
+      "A star",
+      "A red circle",
+      "A crescent moon",
+      "A cross"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "The Japanese flag features a red circle (representing the sun) centered on a white background.",
+    "detailedExplanation": "The flag of Japan, known as the Nisshōki or Hinomaru, consists of a red disc centered on a white rectangular field. The red circle represents the sun, which has deep cultural and religious significance in Japanese culture, as Japan is often referred to as the 'Land of the Rising Sun.' This simple yet iconic design has been used in various forms for centuries.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Flag_of_Japan",
+    "citationTitle": "Wikipedia: Flag of Japan"
+  },
+  {
+    "id": "5c0bdb1a-ded9-4e6f-aed0-7822f1e1e964",
+    "text": "Which country's flag is entirely green with Arabic text and a sword?",
+    "options": [
+      "Saudi Arabia",
+      "Pakistan",
+      "Iran",
+      "Iraq"
+    ],
+    "correctIndex": 0,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "Saudi Arabia's flag is entirely green with white Arabic text (the Shahada) and a white sword below it.",
+    "detailedExplanation": "The flag of Saudi Arabia features a green field with the Shahada (Islamic declaration of faith) written in white Arabic script above a white horizontal sword pointing toward the hoist side. Green is considered the traditional color of Islam, and the sword represents the strength and power of the state. The flag is one of the few national flags that is never flown at half-mast due to the sacred nature of the Shahada.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Flag_of_Saudi_Arabia",
+    "citationTitle": "Wikipedia: Flag of Saudi Arabia"
+  },
+  {
+    "id": "71dfa26e-d6db-4451-9cfe-7d9fa462b158",
+    "text": "What colors appear on the flag of France?",
+    "options": [
+      "Red, white, and green",
+      "Blue, white, and red",
+      "Blue, yellow, and red",
+      "Red, white, and black"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "The French flag consists of three vertical stripes in blue, white, and red (from left to right).",
+    "detailedExplanation": "The flag of France, known as the Tricolore, consists of three equal vertical bands of blue (hoist side), white, and red. These colors originated during the French Revolution, with blue and red representing the city of Paris, and white representing the monarchy. The flag symbolizes liberty, equality, and fraternity - the motto of the French Republic.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Flag_of_France",
+    "citationTitle": "Wikipedia: Flag of France"
+  },
+  {
+    "id": "8526b946-a158-4aa9-ba82-31f0f298b95e",
+    "text": "Which country's flag features the Union Jack in the upper left corner?",
+    "options": [
+      "New Zealand",
+      "South Africa",
+      "India",
+      "Ireland"
+    ],
+    "correctIndex": 0,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "New Zealand's flag features the Union Jack in the upper left corner (canton) along with four red stars representing the Southern Cross.",
+    "detailedExplanation": "The flag of New Zealand consists of a blue ensign with the Union Flag in the canton and four red stars with white borders on the fly representing the Southern Cross constellation. This design reflects New Zealand's historical ties to Britain as a former British colony. The flag has been in use since 1902, though there have been periodic discussions about adopting a new design.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Flag_of_New_Zealand",
+    "citationTitle": "Wikipedia: Flag of New Zealand"
+  },
+  {
+    "id": "192852c0-49b8-4936-815f-965e2f335528",
+    "text": "What shape is the central symbol on the flag of Switzerland?",
+    "options": [
+      "A star",
+      "A circle",
+      "A cross",
+      "A triangle"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "Switzerland's flag features a white cross centered on a red square background.",
+    "detailedExplanation": "The flag of Switzerland displays a white Greek cross centered on a red square field. Switzerland is one of only two sovereign nations with a square flag (the other being Vatican City). The white cross on red background has been associated with Switzerland since the medieval period and was officially adopted as the national flag in 1848. The cross represents Christianity and Swiss neutrality.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Flag_of_Switzerland",
+    "citationTitle": "Wikipedia: Flag of Switzerland"
+  },
+  {
+    "id": "4a805ba8-01cc-48a9-87f2-54d0e9d35655",
+    "text": "Which country's flag is completely green with Arabic text and a sword?",
+    "options": [
+      "Iran",
+      "Pakistan",
+      "Saudi Arabia",
+      "Algeria"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "Saudi Arabia's flag is entirely green with white Arabic calligraphy and a sword.",
+    "detailedExplanation": "The flag of Saudi Arabia is a green field with Arabic inscription and a sword in white. The Arabic text is the Islamic creed or shahada: 'There is no god but Allah; Muhammad is the Messenger of Allah.' The sword symbolizes the victories of Ibn Saud, the founder of Saudi Arabia. Green is considered a sacred color in Islam.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Flag_of_Saudi_Arabia",
+    "citationTitle": "Wikipedia: Flag of Saudi Arabia"
+  },
+  {
+    "id": "9bec4cd8-8dcd-4e9b-94e2-583cc2eddebf",
+    "text": "What colors appear on the flag of Germany?",
+    "options": [
+      "Red, white, and blue",
+      "Black, red, and gold",
+      "Green, white, and red",
+      "Blue, yellow, and red"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "Germany's flag consists of three horizontal stripes: black, red, and gold.",
+    "detailedExplanation": "The flag of Germany consists of three equal horizontal bands displaying the national colors of Germany: black, red, and gold. These colors were first associated with German nationalism in the 19th century and were officially adopted as the national flag colors in 1919, and again in 1949 for West Germany and unified Germany in 1990.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Flag_of_Germany",
+    "citationTitle": "Wikipedia: Flag of Germany"
+  },
+  {
+    "id": "41fe421a-cbf1-499e-89a6-aee20fddf223",
+    "text": "What is the main color of Libya's flag?",
+    "options": [
+      "Green",
+      "Red",
+      "Blue",
+      "Red, black, and green"
+    ],
+    "correctIndex": 3,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "Libya's current flag features red, black, and green horizontal stripes with a white crescent and star.",
+    "detailedExplanation": "The current flag of Libya was adopted in 1951 and readopted in 2011 after the fall of Muammar Gaddafi. It consists of three horizontal stripes of red, black, and green, with a white crescent and star centered on the black stripe. The red represents the blood of those who died for independence, black represents Libya itself, and green represents prosperity and agriculture.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Flag_of_Libya",
+    "citationTitle": "Wikipedia: Flag of Libya"
+  },
+  {
+    "id": "8467c2c8-2d04-470e-9f87-e3811fd5a4a1",
+    "text": "Which country's flag consists of a red circle on a white background?",
+    "options": [
+      "China",
+      "Japan",
+      "South Korea",
+      "Bangladesh"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "Japan's flag, known as the Hinomaru, features a red circle representing the sun on a white field.",
+    "detailedExplanation": "The flag of Japan is officially called Nisshōki, but is more commonly known as Hinomaru. It embodies the country's sobriquet: Land of the Rising Sun. The design consists of a red disc centered on a white field. The red disc represents the sun, which has been an important symbol in Japanese culture for centuries, and white represents honesty and purity.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Flag_of_Japan",
+    "citationTitle": "Wikipedia: Flag of Japan"
+  },
+  {
+    "id": "b3bb8043-8da1-4017-b11e-ed73c8a960fa",
+    "text": "How many colors are on the flag of France?",
+    "options": [
+      "Two",
+      "Three",
+      "Four",
+      "Five"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "The French flag has three colors: blue, white, and red in vertical stripes.",
+    "detailedExplanation": "The flag of France, known as the Tricolour, consists of three vertical bands of equal width, displaying the country's national colors: blue, white, and red. The flag was adopted in 1794 during the French Revolution. Blue and red are associated with Paris, while white was the color of the royal House of Bourbon. Together, they came to represent liberty, equality, and fraternity.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Flag_of_France",
+    "citationTitle": "Wikipedia: Flag of France"
+  },
+  {
+    "id": "9ebabb11-c360-449e-8a32-bb7a32716365",
+    "text": "Which country's flag is a simple red circle on a white background?",
+    "options": [
+      "China",
+      "South Korea",
+      "Japan",
+      "Thailand"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "Japan's flag features a red circle (representing the sun) on a white background.",
+    "detailedExplanation": "The flag of Japan, known as the Nisshōki or Hinomaru, consists of a red disc centered on a white rectangular field. The red disc represents the sun, which has been an important symbol in Japanese culture and mythology. This design has been used since the 19th century and was officially adopted as the national flag in 1999.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Flag_of_Japan",
+    "citationTitle": "Wikipedia: Flag of Japan"
+  },
+  {
+    "id": "f4e925e5-2d33-41c3-9830-1b6fe978999e",
+    "text": "What are the colors of the German flag from top to bottom?",
+    "options": [
+      "Red, Black, Yellow",
+      "Black, Red, Yellow",
+      "Yellow, Red, Black",
+      "Black, Yellow, Red"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "The German flag has three horizontal stripes: black on top, red in the middle, and yellow (gold) on the bottom.",
+    "detailedExplanation": "The flag of Germany consists of three equal horizontal bands of black, red, and gold (yellow) from top to bottom. These colors have deep historical significance, dating back to the early 19th century German liberation movement. The current flag was adopted by West Germany in 1949 and retained by unified Germany in 1990.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Flag_of_Germany",
+    "citationTitle": "Wikipedia: Flag of Germany"
+  },
+  {
+    "id": "2288ff6f-216d-44a0-a83c-ad9b284dc6da",
+    "text": "Which country's flag features the Union Jack in the top left corner along with stars?",
+    "options": [
+      "Canada",
+      "Australia",
+      "South Africa",
+      "India"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "Australia's flag displays the Union Jack in the canton with the Southern Cross constellation and Commonwealth Star.",
+    "detailedExplanation": "The flag of Australia features the Union Jack in the upper left corner (canton), reflecting its historical ties to Britain. The flag also displays the Southern Cross constellation (five white stars) on the right side and the Commonwealth Star (seven-pointed white star) below the Union Jack. This design was chosen in 1901 following a public competition and has remained largely unchanged since.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Flag_of_Australia",
+    "citationTitle": "Wikipedia: Flag of Australia"
+  },
+  {
+    "id": "457f0fc9-3a93-4f61-98da-85bc3c528237",
+    "text": "Which country has a flag that is completely green with Arabic text and a sword?",
+    "options": [
+      "Iran",
+      "Saudi Arabia",
+      "Pakistan",
+      "Algeria"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "Saudi Arabia's flag is entirely green and features Arabic calligraphy of the Islamic declaration of faith with a sword beneath it.",
+    "detailedExplanation": "The flag of Saudi Arabia consists of a green field with white Arabic inscription and a sword. The text is the Islamic declaration of faith (Shahada): 'There is no god but Allah; Muhammad is the Messenger of Allah.' Below the text is a horizontal sword pointing toward the hoist side. Green is considered the color of Islam, and the flag is one of the few national flags that should never be flown at half-mast due to its religious significance.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Flag_of_Saudi_Arabia",
+    "citationTitle": "Wikipedia: Flag of Saudi Arabia"
+  },
+  {
+    "id": "3dfda440-fb83-40e6-bdf9-5ca1436f2676",
+    "text": "How many stars appear on the flag of the United States of America?",
+    "options": [
+      "48",
+      "49",
+      "50",
+      "51"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "The US flag has 50 stars representing the 50 states.",
+    "detailedExplanation": "The current flag of the United States features 50 white five-pointed stars arranged in nine rows on a blue canton (upper left corner), representing the 50 states of the union. The flag also has 13 alternating red and white stripes representing the original 13 colonies. The 50-star flag was adopted on July 4, 1960, after Hawaii became the 50th state in 1959.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Flag_of_the_United_States",
+    "citationTitle": "Wikipedia: Flag of the United States"
+  },
+  {
+    "id": "03508838-8873-47dd-bc51-7afb3b453b9a",
+    "text": "Which country's flag features a red maple leaf on a white square with red bands on either side?",
+    "options": [
+      "United States",
+      "Canada",
+      "Switzerland",
+      "Denmark"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "Canada's flag features a distinctive red maple leaf on a white square flanked by red vertical bands.",
+    "detailedExplanation": "The National Flag of Canada, adopted on February 15, 1965, consists of a red eleven-pointed maple leaf centered on a white square, with red vertical bands on the hoist and fly sides. The maple leaf has been a symbol of Canada since the 18th century, and the red and white colors were proclaimed Canada's national colors by King George V in 1921.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Flag_of_Canada",
+    "citationTitle": "Wikipedia: Flag of Canada"
+  }
+]

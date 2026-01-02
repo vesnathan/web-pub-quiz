@@ -1,0 +1,325 @@
+[
+  {
+    "id": "1c192d2d-e477-48c7-b57b-8040ded87e63",
+    "text": "What scientific instrument is used to measure temperature?",
+    "options": [
+      "Thermometer",
+      "Barometer",
+      "Hygrometer",
+      "Anemometer"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "A thermometer is the instrument specifically designed to measure temperature.",
+    "detailedExplanation": "A thermometer is a device that measures temperature or a temperature gradient using a variety of different principles. The most common types include liquid-in-glass thermometers using mercury or alcohol, digital electronic thermometers, and infrared thermometers. While barometers measure atmospheric pressure, hygrometers measure humidity, and anemometers measure wind speed, only thermometers are designed to measure temperature.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Thermometer",
+    "citationTitle": "Wikipedia: Thermometer"
+  },
+  {
+    "id": "21c6f5eb-4478-44ac-a35c-e6166cd81e66",
+    "text": "Which instrument would a scientist use to observe bacteria and other microorganisms?",
+    "options": [
+      "Telescope",
+      "Microscope",
+      "Stethoscope",
+      "Periscope"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "A microscope magnifies small objects, making bacteria and microorganisms visible to the human eye.",
+    "detailedExplanation": "A microscope is an instrument used to see objects that are too small for the naked eye. Light microscopes can magnify specimens up to about 1000 times, allowing scientists to observe bacteria, cells, and other microorganisms. Electron microscopes can provide even greater magnification. Telescopes observe distant objects, stethoscopes listen to sounds within the body, and periscopes allow observation around obstacles.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Microscope",
+    "citationTitle": "Wikipedia: Microscope"
+  },
+  {
+    "id": "7f83b122-4765-4a1d-9dd0-f91df6fde771",
+    "text": "What does a barometer measure?",
+    "options": [
+      "Wind speed",
+      "Atmospheric pressure",
+      "Rainfall",
+      "Temperature"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "A barometer is specifically designed to measure atmospheric pressure.",
+    "detailedExplanation": "A barometer is a scientific instrument that measures atmospheric pressure, also known as barometric pressure. Changes in atmospheric pressure can indicate weather changes, making barometers useful for weather forecasting. The two main types are mercury barometers and aneroid barometers. Wind speed is measured by anemometers, rainfall by rain gauges, and temperature by thermometers.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Barometer",
+    "citationTitle": "Wikipedia: Barometer"
+  },
+  {
+    "id": "ef28fc5f-c4f9-4cc1-9f4d-7f4aabca3ddc",
+    "text": "Which instrument is used to measure the acidity or alkalinity of a solution?",
+    "options": [
+      "pH meter",
+      "Voltmeter",
+      "Ammeter",
+      "Ohmmeter"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "A pH meter measures the pH level, which indicates how acidic or alkaline a solution is.",
+    "detailedExplanation": "A pH meter is a scientific instrument that measures the hydrogen-ion activity in water-based solutions, indicating its acidity or alkalinity. The pH scale ranges from 0 to 14, with 7 being neutral, below 7 acidic, and above 7 alkaline. pH meters are essential in chemistry, biology, and environmental science. Voltmeters measure voltage, ammeters measure electric current, and ohmmeters measure electrical resistance.",
+    "citationUrl": "https://en.wikipedia.org/wiki/PH_meter",
+    "citationTitle": "Wikipedia: pH meter"
+  },
+  {
+    "id": "3619336b-e76b-444d-8d95-54ab4bb09a48",
+    "text": "What is the primary function of a spectroscope?",
+    "options": [
+      "Measure weight",
+      "Analyze light and radiation",
+      "Measure distance",
+      "Detect sound"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "A spectroscope analyzes light by separating it into its component wavelengths or colors.",
+    "detailedExplanation": "A spectroscope is an instrument used to analyze light and other electromagnetic radiation by separating it into its component wavelengths, creating a spectrum. This allows scientists to identify the chemical composition of substances, study stellar compositions, and analyze various materials. The instrument works by dispersing light through a prism or diffraction grating, revealing the characteristic spectral lines of different elements.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Spectroscope",
+    "citationTitle": "Wikipedia: Spectroscope"
+  },
+  {
+    "id": "28359327-46b5-4bbf-a799-42d7fd70e2cb",
+    "text": "Which instrument would you use to measure the mass of a chemical sample in a laboratory?",
+    "options": [
+      "Ruler",
+      "Balance scale",
+      "Graduated cylinder",
+      "Bunsen burner"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "A balance scale (or analytical balance) is used to accurately measure the mass of substances in laboratories.",
+    "detailedExplanation": "A balance scale, particularly an analytical balance in laboratory settings, is the instrument used to measure mass with high precision. These instruments can measure mass to several decimal places and are essential for preparing chemical solutions and conducting quantitative experiments. Rulers measure length, graduated cylinders measure volume, and Bunsen burners are heating devices, not measuring instruments.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Analytical_balance",
+    "citationTitle": "Wikipedia: Analytical balance"
+  },
+  {
+    "id": "49fff03d-9566-4084-b90a-10658bb61fd2",
+    "text": "What does a seismograph measure?",
+    "options": [
+      "Ocean currents",
+      "Magnetic fields",
+      "Earthquake activity",
+      "Solar radiation"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "A seismograph detects and measures earthquake activity and ground vibrations.",
+    "detailedExplanation": "A seismograph is an instrument that measures and records the motion of the ground during earthquakes and other seismic events. It consists of a sensor called a seismometer and a recording system. The data collected helps scientists study earthquake patterns, locate epicenters, and understand the Earth's internal structure. Ocean currents are measured by current meters, magnetic fields by magnetometers, and solar radiation by radiometers.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Seismograph",
+    "citationTitle": "Wikipedia: Seismograph"
+  },
+  {
+    "id": "097e2c15-0d64-4025-b941-ab6746149a54",
+    "text": "Which instrument is commonly used to measure electrical voltage?",
+    "options": [
+      "Ammeter",
+      "Voltmeter",
+      "Thermometer",
+      "Hydrometer"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "A voltmeter is specifically designed to measure electrical voltage or potential difference.",
+    "detailedExplanation": "A voltmeter is an instrument used to measure electric potential difference between two points in an electric circuit, commonly known as voltage. Modern voltmeters are usually digital multimeters that can also measure current and resistance. They are essential tools in electronics and electrical work. Ammeters measure electric current, thermometers measure temperature, and hydrometers measure the specific gravity of liquids.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Voltmeter",
+    "citationTitle": "Wikipedia: Voltmeter"
+  },
+  {
+    "id": "f47904d1-31e6-444a-a9c0-60ee55b36ea8",
+    "text": "What instrument is used to measure temperature?",
+    "options": [
+      "Thermometer",
+      "Barometer",
+      "Hygrometer",
+      "Anemometer"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "A thermometer measures temperature using various methods like mercury expansion or digital sensors.",
+    "detailedExplanation": "A thermometer is a device that measures temperature or a temperature gradient using a variety of different principles. The most common types include liquid-in-glass thermometers (like mercury or alcohol), digital electronic thermometers, and infrared thermometers. The name comes from the Greek words 'thermos' meaning hot and 'metron' meaning measure.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Thermometer",
+    "citationTitle": "Wikipedia: Thermometer"
+  },
+  {
+    "id": "429fc627-3f2b-4ad1-8537-1c2090365e79",
+    "text": "Which instrument would you use to look at very small objects like bacteria?",
+    "options": [
+      "Telescope",
+      "Microscope",
+      "Periscope",
+      "Stethoscope"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "A microscope magnifies tiny objects to make them visible, allowing us to see bacteria and other microscopic organisms.",
+    "detailedExplanation": "A microscope is a laboratory instrument used to examine objects that are too small to be seen by the naked eye. There are several types including light microscopes, electron microscopes, and scanning probe microscopes. Light microscopes can magnify objects up to about 1000 times, while electron microscopes can achieve magnifications of over 100,000 times, making it possible to see individual bacteria, viruses, and even cellular structures.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Microscope",
+    "citationTitle": "Wikipedia: Microscope"
+  },
+  {
+    "id": "cde32fd4-59ca-4251-84bb-a1f800196f52",
+    "text": "Which instrument is primarily used by doctors to listen to heartbeats?",
+    "options": [
+      "Otoscope",
+      "Ophthalmoscope",
+      "Stethoscope",
+      "Endoscope"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "A stethoscope amplifies internal body sounds, particularly heartbeats and breathing.",
+    "detailedExplanation": "A stethoscope is an acoustic medical device for auscultation, or listening to internal sounds of an animal or human body. It typically has a small disc-shaped resonator that is placed against the skin, and one or two tubes connected to earpieces. It was invented in 1816 by French physician René Laennec. Modern stethoscopes allow doctors to hear heart sounds, lung sounds, and intestinal sounds, making it an essential diagnostic tool.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Stethoscope",
+    "citationTitle": "Wikipedia: Stethoscope"
+  },
+  {
+    "id": "e0f85433-56db-489b-9b49-65900d01956d",
+    "text": "What instrument would an astronomer use to observe distant stars and planets?",
+    "options": [
+      "Microscope",
+      "Telescope",
+      "Periscope",
+      "Kaleidoscope"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "A telescope collects and focuses light to magnify distant objects in space.",
+    "detailedExplanation": "A telescope is an optical instrument designed to make distant objects appear nearer and larger by collecting electromagnetic radiation such as visible light. There are three primary types: refracting telescopes (using lenses), reflecting telescopes (using mirrors), and compound telescopes (using both). Modern telescopes can observe not just visible light but also radio waves, X-rays, and other forms of electromagnetic radiation, greatly expanding our understanding of the universe.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Telescope",
+    "citationTitle": "Wikipedia: Telescope"
+  },
+  {
+    "id": "ea9e2e7b-740a-4c66-aee8-04bea68836a4",
+    "text": "Which instrument measures wind speed?",
+    "options": [
+      "Anemometer",
+      "Altimeter",
+      "Hygrometer",
+      "Seismometer"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "An anemometer measures wind speed and is commonly used in weather monitoring.",
+    "detailedExplanation": "An anemometer is a device used for measuring wind speed and direction. The most common type is the cup anemometer, invented in 1845, which consists of three or more cups mounted on horizontal arms on a vertical shaft. As wind blows, the cups rotate, and the rotation speed is proportional to wind speed. Other types include vane anemometers, hot-wire anemometers, and sonic anemometers. They are essential instruments in meteorology, aviation, and marine navigation.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Anemometer",
+    "citationTitle": "Wikipedia: Anemometer"
+  },
+  {
+    "id": "72530fe9-9d42-4f21-98fd-0e9d1ef70218",
+    "text": "What is the main purpose of a pH meter?",
+    "options": [
+      "Measure electrical current",
+      "Measure acidity or alkalinity",
+      "Measure magnetic fields",
+      "Measure radioactivity"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "A pH meter measures how acidic or alkaline (basic) a solution is on a scale from 0 to 14.",
+    "detailedExplanation": "A pH meter is a scientific instrument that measures the hydrogen-ion activity in water-based solutions, indicating its acidity or alkalinity expressed as pH. The pH scale runs from 0 to 14, with 7 being neutral, values below 7 being acidic, and values above 7 being alkaline or basic. pH meters use a glass electrode and reference electrode to measure the electrical potential difference, which correlates to pH. They are widely used in chemistry, biology, agriculture, water treatment, and food production.",
+    "citationUrl": "https://en.wikipedia.org/wiki/PH_meter",
+    "citationTitle": "Wikipedia: PH meter"
+  },
+  {
+    "id": "b2efe1d9-d43d-4942-8bba-93932186df7c",
+    "text": "Which instrument would a chemist use to weigh very small amounts of substances accurately?",
+    "options": [
+      "Kitchen scale",
+      "Bathroom scale",
+      "Analytical balance",
+      "Spring scale"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "An analytical balance can measure masses to within 0.1 milligrams or better, making it essential for precise chemical measurements.",
+    "detailedExplanation": "An analytical balance is a highly sensitive laboratory instrument designed to accurately measure mass. Unlike regular scales, analytical balances can typically measure to four decimal places (0.1 mg) or even finer. They feature enclosed weighing chambers to protect against air currents and environmental factors that could affect readings. These instruments are essential in chemistry, pharmaceuticals, and research laboratories where precise measurements of chemicals, reagents, and samples are critical for accurate results and safety.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Analytical_balance",
+    "citationTitle": "Wikipedia: Analytical balance"
+  },
+  {
+    "id": "58f664b0-7b06-498b-82d9-ddd4f13ee4b0",
+    "text": "What instrument measures atmospheric pressure?",
+    "options": [
+      "Anemometer",
+      "Barometer",
+      "Seismograph",
+      "Voltmeter"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "A barometer measures atmospheric pressure, which is important for weather forecasting.",
+    "detailedExplanation": "A barometer is a scientific instrument that is used to measure air pressure in a certain environment. Pressure tendency can forecast short term changes in the weather. Many measurements of air pressure are used within surface weather analysis to help find surface troughs, pressure systems and frontal boundaries. The first barometer was invented by Italian physicist Evangelista Torricelli in 1643. Common types include mercury barometers and aneroid barometers, with digital versions now widely available.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Barometer",
+    "citationTitle": "Wikipedia: Barometer"
+  },
+  {
+    "id": "cb095375-b8d0-4b24-a69c-da44848f625e",
+    "text": "Which scientific instrument is used to measure the mass of objects?",
+    "options": [
+      "Ruler",
+      "Balance scale",
+      "Protractor",
+      "Graduated cylinder"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "A balance scale (or simply 'balance') is used to measure mass by comparing it to known masses.",
+    "detailedExplanation": "A weighing scale or balance is a device to measure weight or mass. These are also known as mass scales, weight scales, mass balances, and weight balances. The traditional scale consists of two platforms or bowls suspended at equal distances from a fulcrum. One platform holds an object of unknown mass, while known masses are added to the other platform until static equilibrium is achieved. Modern electronic balances use load cells and can provide very precise measurements, often to several decimal places.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Weighing_scale",
+    "citationTitle": "Wikipedia: Weighing scale"
+  },
+  {
+    "id": "c9dc954c-944f-41c0-9c31-c14f515e7c5f",
+    "text": "What instrument do astronomers primarily use to observe distant stars and planets?",
+    "options": [
+      "Microscope",
+      "Periscope",
+      "Telescope",
+      "Kaleidoscope"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "A telescope collects and magnifies light from distant objects, making stars and planets appear larger and brighter.",
+    "detailedExplanation": "A telescope is an optical instrument designed to make distant objects appear magnified. It is a crucial tool in astronomy and astrophysics for observing distant celestial objects. The first known practical telescopes were refracting telescopes invented in the Netherlands at the beginning of the 17th century. Modern telescopes include refracting telescopes (using lenses), reflecting telescopes (using mirrors), and radio telescopes (detecting radio waves from space). Space-based telescopes like the Hubble Space Telescope provide even clearer images by avoiding atmospheric interference.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Telescope",
+    "citationTitle": "Wikipedia: Telescope"
+  },
+  {
+    "id": "5b55f2dc-9578-4d85-8003-a47ac7969fc8",
+    "text": "What scientific instrument is commonly used to measure temperature?",
+    "options": [
+      "Thermometer",
+      "Barometer",
+      "Hygrometer",
+      "Anemometer"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "A thermometer is specifically designed to measure temperature.",
+    "detailedExplanation": "A thermometer is a device that measures temperature or a temperature gradient using a variety of different principles. The most common types include liquid-in-glass thermometers (like mercury or alcohol thermometers), digital electronic thermometers, and infrared thermometers. While a barometer measures atmospheric pressure, a hygrometer measures humidity, and an anemometer measures wind speed, the thermometer is the dedicated instrument for temperature measurement and is found in homes, laboratories, and medical facilities worldwide.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Thermometer",
+    "citationTitle": "Wikipedia: Thermometer"
+  }
+]

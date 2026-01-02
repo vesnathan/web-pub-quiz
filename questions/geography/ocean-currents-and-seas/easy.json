@@ -1,0 +1,342 @@
+[
+  {
+    "id": "fc3243c7-2fbe-4375-92f0-4109d5c41385",
+    "text": "Which ocean current helps keep Western Europe warmer than other regions at similar latitudes?",
+    "options": [
+      "Gulf Stream",
+      "California Current",
+      "Kuroshio Current",
+      "Canary Current"
+    ],
+    "correctIndex": 0,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "The Gulf Stream carries warm water from the Gulf of Mexico across the Atlantic, moderating Western Europe's climate.",
+    "detailedExplanation": "The Gulf Stream is a powerful, warm ocean current that originates in the Gulf of Mexico and flows along the eastern coastlines of the United States and Newfoundland before crossing the Atlantic Ocean toward Europe. This current transports warm water northeastward, where it releases heat into the atmosphere, significantly warming the climate of Western Europe. Without the Gulf Stream, countries like the United Kingdom and Norway would have much colder climates similar to other regions at the same latitude.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Gulf_Stream",
+    "citationTitle": "Wikipedia: Gulf Stream"
+  },
+  {
+    "id": "71ab62d1-7e4e-44d1-ae5a-25c4f921408b",
+    "text": "Which sea is located between Europe and Africa?",
+    "options": [
+      "Black Sea",
+      "Red Sea",
+      "Mediterranean Sea",
+      "Caspian Sea"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "The Mediterranean Sea separates Europe from Africa and connects to the Atlantic Ocean through the Strait of Gibraltar.",
+    "detailedExplanation": "The Mediterranean Sea is a large body of water that lies between the continents of Europe to the north and Africa to the south. It is almost completely enclosed by land, with only a narrow connection to the Atlantic Ocean through the Strait of Gibraltar. The Mediterranean has been crucial to human civilization for thousands of years, serving as a major trade route and cultural exchange point. It borders numerous countries including Spain, France, Italy, Greece, Turkey, Egypt, Libya, and Morocco.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Mediterranean_Sea",
+    "citationTitle": "Wikipedia: Mediterranean Sea"
+  },
+  {
+    "id": "cd2843cb-37a1-475c-ae47-9018e99c286f",
+    "text": "What is the name of the world's largest ocean current system that circles Antarctica?",
+    "options": [
+      "Antarctic Circumpolar Current",
+      "South Atlantic Current",
+      "Antarctic Coastal Current",
+      "Southern Ocean Drift"
+    ],
+    "correctIndex": 0,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "The Antarctic Circumpolar Current is the world's strongest ocean current, flowing continuously around Antarctica.",
+    "detailedExplanation": "The Antarctic Circumpolar Current (ACC) is the world's largest and strongest ocean current system, flowing continuously from west to east around Antarctica. It is the only current that connects the Atlantic, Pacific, and Indian Oceans, and it plays a crucial role in global ocean circulation and climate regulation. The ACC transports more water than any other current - about 140 times the flow of all the world's rivers combined. This massive current helps to isolate Antarctica thermally, contributing to its extremely cold climate.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Antarctic_Circumpolar_Current",
+    "citationTitle": "Wikipedia: Antarctic Circumpolar Current"
+  },
+  {
+    "id": "79aed1e0-5c4b-43ae-b693-776d34089233",
+    "text": "Which sea is known for being the saltiest body of water on Earth where people can easily float?",
+    "options": [
+      "Dead Sea",
+      "Red Sea",
+      "Aral Sea",
+      "Baltic Sea"
+    ],
+    "correctIndex": 0,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "The Dead Sea has extremely high salt content (about 34%), making it easy for people to float on its surface.",
+    "detailedExplanation": "The Dead Sea, located between Jordan and Israel, is one of the saltiest bodies of water on Earth with a salt concentration of about 34% - nearly 10 times saltier than typical ocean water. This extreme salinity is due to high evaporation rates and the fact that it has no outlet, causing minerals and salts to accumulate over thousands of years. The high salt content creates such buoyancy that people can effortlessly float on the surface without any effort to stay afloat. The Dead Sea is also the lowest point on Earth's surface at about 1,412 feet below sea level.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Dead_Sea",
+    "citationTitle": "Wikipedia: Dead Sea"
+  },
+  {
+    "id": "b307ffd7-832b-4831-86c7-210b46a94b45",
+    "text": "Ocean currents are primarily driven by which two main factors?",
+    "options": [
+      "Wind and temperature differences",
+      "Moon phases and tides",
+      "Earthquakes and volcanic activity",
+      "Fish migration and plant growth"
+    ],
+    "correctIndex": 0,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "Wind patterns and temperature differences (which create density variations) are the primary drivers of ocean currents.",
+    "detailedExplanation": "Ocean currents are primarily driven by two main factors: wind patterns and temperature differences in the water. Surface currents are mainly caused by prevailing winds that drag the water along, while deep ocean currents are driven by thermohaline circulation - the movement of water based on differences in temperature and salinity that affect water density. Warm water is less dense and rises, while cold, salty water is denser and sinks, creating a global conveyor belt of ocean circulation. These factors work together to create the complex system of currents that distribute heat around the planet and influence global climate patterns.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Ocean_current",
+    "citationTitle": "Wikipedia: Ocean current"
+  },
+  {
+    "id": "d14a76b5-9c0f-4dce-8261-553185d54fa4",
+    "text": "Which sea separates Great Britain from continental Europe?",
+    "options": [
+      "Irish Sea",
+      "North Sea",
+      "English Channel",
+      "Celtic Sea"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "The English Channel separates southern England from northern France and is the narrowest part of the divide between Britain and Europe.",
+    "detailedExplanation": "The English Channel (called 'La Manche' in French) is the body of water that separates southern England from northern France, and by extension, Great Britain from continental Europe. At its narrowest point, the Strait of Dover, it is only about 21 miles (34 kilometers) wide. The Channel has played a crucial role in British history, serving as both a protective barrier and a connection to Europe. It's a busy shipping lane and has been crossed by swimmers, and is now also crossed by the Channel Tunnel, which connects England and France via an underwater rail link.",
+    "citationUrl": "https://en.wikipedia.org/wiki/English_Channel",
+    "citationTitle": "Wikipedia: English Channel"
+  },
+  {
+    "id": "409a43c9-5f1a-457d-a518-ee7dce34ed39",
+    "text": "What name is given to the phenomenon where cold, deep ocean water rises to the surface?",
+    "options": [
+      "Downwelling",
+      "Upwelling",
+      "Thermocline",
+      "Gyration"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "Upwelling occurs when deep, cold, nutrient-rich water rises to the ocean's surface, often creating rich fishing areas.",
+    "detailedExplanation": "Upwelling is an oceanographic phenomenon where deep, cold, and nutrient-rich water rises toward the ocean's surface. This process typically occurs when winds blow surface water away from an area, allowing deeper water to rise up and replace it. Upwelling is extremely important for marine ecosystems because the deep water brings nutrients like nitrogen and phosphorus to the surface, supporting the growth of phytoplankton and creating some of the world's most productive fishing grounds. Famous upwelling areas include the coasts of Peru, California, and West Africa.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Upwelling",
+    "citationTitle": "Wikipedia: Upwelling"
+  },
+  {
+    "id": "ca5d2895-147f-43ed-ab40-4d652c835ea0",
+    "text": "Which ocean current flows along the west coast of North America?",
+    "options": [
+      "Alaska Current",
+      "California Current",
+      "Gulf Stream",
+      "Labrador Current"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "The California Current flows southward along the west coast of North America, bringing cool water from the north.",
+    "detailedExplanation": "The California Current is a cold ocean current that flows southward along the western coast of North America, from southern British Columbia to the southern tip of Baja California. This current is part of the North Pacific Gyre and brings cool water from the northern Pacific Ocean down the coast. The California Current is responsible for the relatively cool coastal temperatures along much of the U.S. West Coast and supports upwelling that creates nutrient-rich waters, making it an important fishing region. The current varies seasonally, being strongest in the spring and summer months.",
+    "citationUrl": "https://en.wikipedia.org/wiki/California_Current",
+    "citationTitle": "Wikipedia: California Current"
+  },
+  {
+    "id": "44cb72ee-6802-427d-a6ab-eef4229715a1",
+    "text": "Which ocean current is responsible for keeping Western Europe warmer than it would otherwise be?",
+    "options": [
+      "Gulf Stream",
+      "Kuroshio Current",
+      "California Current",
+      "Canary Current"
+    ],
+    "correctIndex": 0,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "The Gulf Stream transports warm water from the Gulf of Mexico across the Atlantic, moderating Western Europe's climate.",
+    "detailedExplanation": "The Gulf Stream is a powerful, warm ocean current that originates in the Gulf of Mexico and flows northeastward along the eastern coast of North America before crossing the Atlantic Ocean. This current carries warm tropical water to the North Atlantic, significantly influencing the climate of Western Europe by making it much warmer than other regions at similar latitudes. Without the Gulf Stream, places like the UK and Ireland would have much colder temperatures similar to those found in Labrador, Canada.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Gulf_Stream",
+    "citationTitle": "Wikipedia: Gulf Stream"
+  },
+  {
+    "id": "b0adbfd1-3e4f-439d-be3c-d51cdcad1616",
+    "text": "What is the world's largest sea by surface area?",
+    "options": [
+      "Mediterranean Sea",
+      "Philippine Sea",
+      "Arabian Sea",
+      "Caribbean Sea"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "The Philippine Sea covers approximately 5 million square kilometers, making it the largest sea by surface area.",
+    "detailedExplanation": "The Philippine Sea is a marginal sea of the western North Pacific Ocean, located east and northeast of the Philippines. Covering approximately 5 million square kilometers (2 million square miles), it is significantly larger than other well-known seas. The Philippine Sea contains some of the deepest parts of the ocean, including the Philippine Trench and the Mariana Trench, which contains the deepest known point on Earth, Challenger Deep.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Philippine_Sea",
+    "citationTitle": "Wikipedia: Philippine Sea"
+  },
+  {
+    "id": "704b4ff0-1a23-44ad-9b30-049122874ac1",
+    "text": "Ocean currents are primarily driven by which natural force?",
+    "options": [
+      "Tidal forces",
+      "Wind patterns",
+      "Underwater earthquakes",
+      "Marine life migration"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "Wind patterns are the primary driving force behind surface ocean currents, with trade winds and westerlies being particularly important.",
+    "detailedExplanation": "Ocean currents are primarily driven by wind patterns, particularly the consistent global wind systems like trade winds, westerlies, and polar easterlies. These winds create friction with the ocean surface, generating movement that develops into currents. The Coriolis effect, caused by Earth's rotation, also influences the direction of these currents. While other factors like temperature differences, salinity variations, and tidal forces play roles in ocean circulation, wind remains the dominant force driving the major surface currents that distribute heat around the globe.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Ocean_current",
+    "citationTitle": "Wikipedia: Ocean current"
+  },
+  {
+    "id": "068d14d3-d462-451c-99af-c5d4360d55ac",
+    "text": "Which body of water is known as the 'Sea of Galilee'?",
+    "options": [
+      "A saltwater sea",
+      "A freshwater lake",
+      "An ocean bay",
+      "A river delta"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "The Sea of Galilee is actually a freshwater lake in Israel, despite its name containing 'sea'.",
+    "detailedExplanation": "The Sea of Galilee, also known as Lake Tiberias or Kinneret, is actually a freshwater lake located in northern Israel. Despite being called a 'sea,' it is completely surrounded by land and contains fresh water rather than salt water. This lake is significant both geographically and historically, being the lowest freshwater lake on Earth at about 200 meters below sea level. It serves as an important water source for Israel and holds great religious significance in Christianity as the location where Jesus conducted much of his ministry.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Sea_of_Galilee",
+    "citationTitle": "Wikipedia: Sea of Galilee"
+  },
+  {
+    "id": "500526e9-bae5-4a07-b443-2a72339cdcec",
+    "text": "What causes the distinctive blue color of deep ocean water?",
+    "options": [
+      "Algae and plankton",
+      "Reflection of the sky",
+      "Absorption and scattering of light",
+      "Dissolved minerals"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "Ocean water appears blue due to the way it absorbs and scatters different wavelengths of sunlight.",
+    "detailedExplanation": "The ocean appears blue because water molecules absorb colors in the red part of the light spectrum more strongly than colors in the blue part. When sunlight hits the water, red wavelengths are absorbed quickly, while blue wavelengths are scattered and reflected back to our eyes. This selective absorption and scattering becomes more pronounced in deeper water. While the sky's reflection can enhance the blue appearance, the primary cause is the optical properties of water itself. In shallow areas or areas with lots of particles, the water may appear different colors due to other factors.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Ocean_color",
+    "citationTitle": "Wikipedia: Ocean color"
+  },
+  {
+    "id": "b8489edc-f772-45e3-aa83-6560845af1ec",
+    "text": "Which sea is completely enclosed by land and has no natural outlet to the ocean?",
+    "options": [
+      "Baltic Sea",
+      "Caspian Sea",
+      "Adriatic Sea",
+      "Coral Sea"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "The Caspian Sea is actually the world's largest lake, completely surrounded by land with no connection to the ocean.",
+    "detailedExplanation": "The Caspian Sea is technically the world's largest lake by surface area, despite its name. It is completely enclosed by land, bordered by Russia, Kazakhstan, Turkmenistan, Iran, and Azerbaijan. With no natural outlet to the ocean, it is classified as an endorheic basin. The water is slightly saline, but much less so than ocean water. The Caspian Sea is famous for its caviar-producing sturgeon and significant oil reserves. Its isolation has led to unique endemic species that evolved separately from ocean life.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Caspian_Sea",
+    "citationTitle": "Wikipedia: Caspian Sea"
+  },
+  {
+    "id": "038fa15e-dcf0-4e1c-8bf5-b0275c0e3277",
+    "text": "In which ocean would you find the Sargasso Sea?",
+    "options": [
+      "Pacific Ocean",
+      "Atlantic Ocean",
+      "Indian Ocean",
+      "Arctic Ocean"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "The Sargasso Sea is located in the North Atlantic Ocean, bounded by four major currents.",
+    "detailedExplanation": "The Sargasso Sea is a unique region of the North Atlantic Ocean, distinguished by its abundance of floating sargassum seaweed and its boundaries formed by ocean currents rather than land. It is bounded by the Gulf Stream to the west, the North Atlantic Current to the north, the Canary Current to the east, and the North Atlantic Equatorial Current to the south. This sea is notable for being relatively still and clear, earning it the nickname 'desert of the Atlantic.' It serves as an important breeding ground for American and European eels and provides habitat for numerous marine species.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Sargasso_Sea",
+    "citationTitle": "Wikipedia: Sargasso Sea"
+  },
+  {
+    "id": "aa7a2507-791c-491a-936d-a6060a22e18c",
+    "text": "Which ocean current is responsible for warming the climate of Western Europe?",
+    "options": [
+      "Gulf Stream",
+      "California Current",
+      "Kuroshio Current",
+      "Benguela Current"
+    ],
+    "correctIndex": 0,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "The Gulf Stream carries warm water from the Gulf of Mexico across the Atlantic, moderating Western Europe's climate.",
+    "detailedExplanation": "The Gulf Stream is a powerful, warm ocean current that originates in the Gulf of Mexico and flows northeast across the Atlantic Ocean. This current transports warm tropical waters toward Europe, significantly warming the climate of countries like the United Kingdom, Ireland, and Norway. Without the Gulf Stream, these regions would experience much colder temperatures similar to other locations at the same latitude, such as Labrador in Canada.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Gulf_Stream",
+    "citationTitle": "Wikipedia: Gulf Stream"
+  },
+  {
+    "id": "8671944d-9805-44b6-8106-30cc3104fa7e",
+    "text": "What is the name of the sea located between Europe and Africa?",
+    "options": [
+      "Black Sea",
+      "Mediterranean Sea",
+      "Red Sea",
+      "Caspian Sea"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "The Mediterranean Sea is the large sea that separates Europe from Africa and connects to the Atlantic Ocean through the Strait of Gibraltar.",
+    "detailedExplanation": "The Mediterranean Sea is a nearly enclosed sea bordered by Europe to the north, Africa to the south, and Asia to the east. It covers approximately 2.5 million square kilometers and is connected to the Atlantic Ocean through the narrow Strait of Gibraltar. The Mediterranean has been crucial to human civilization for thousands of years, serving as a major trade route and cultural exchange point between continents.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Mediterranean_Sea",
+    "citationTitle": "Wikipedia: Mediterranean Sea"
+  },
+  {
+    "id": "bacde65e-d1f6-44f3-b4c4-3b385d9cd3e5",
+    "text": "What drives the primary circulation of ocean currents around the world?",
+    "options": [
+      "Tidal forces",
+      "Wind patterns",
+      "Underwater earthquakes",
+      "Moon's gravity"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "Global wind patterns, particularly trade winds and westerlies, are the primary force driving surface ocean currents worldwide.",
+    "detailedExplanation": "Ocean currents are primarily driven by global wind patterns that develop due to the Earth's rotation and uneven heating by the sun. Trade winds near the equator and westerlies in temperate regions create friction with the ocean surface, pushing water along in consistent patterns. These wind-driven surface currents, combined with the Coriolis effect from Earth's rotation, create the major circular current systems (gyres) found in each ocean basin.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Ocean_current",
+    "citationTitle": "Wikipedia: Ocean current"
+  },
+  {
+    "id": "d2ff0bb5-e6de-4fb7-8794-efceef734e32",
+    "text": "What is the name of the warm ocean current that flows along the eastern coast of North America?",
+    "options": [
+      "Gulf Stream",
+      "California Current",
+      "Labrador Current",
+      "Canary Current"
+    ],
+    "correctIndex": 0,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "The Gulf Stream is a powerful warm ocean current that originates in the Gulf of Mexico and flows northward along the U.S. East Coast.",
+    "detailedExplanation": "The Gulf Stream is one of the world's most well-known ocean currents, transporting warm water from the Gulf of Mexico up the eastern seaboard of the United States before crossing the Atlantic toward Europe. This massive current system plays a crucial role in regulating climate on both sides of the Atlantic, helping to keep Western Europe warmer than it would otherwise be at such northern latitudes. The current can flow at speeds of up to 5.6 mph and carries about 30 million cubic meters of water per second.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Gulf_Stream",
+    "citationTitle": "Wikipedia: Gulf Stream"
+  },
+  {
+    "id": "09ce772c-ec3f-4208-b7fe-6cae0af92250",
+    "text": "Which sea is completely enclosed by land and is the world's largest lake by surface area?",
+    "options": [
+      "Dead Sea",
+      "Caspian Sea",
+      "Aral Sea",
+      "Sea of Galilee"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "The Caspian Sea is technically a lake since it's completely enclosed by land, making it the world's largest lake by surface area at about 371,000 square kilometers.",
+    "detailedExplanation": "Despite its name, the Caspian Sea is actually the world's largest enclosed inland body of water, technically making it a lake rather than a true sea. Located between Europe and Asia, it's bordered by Russia, Kazakhstan, Turkmenistan, Iran, and Azerbaijan. The Caspian Sea covers approximately 371,000 square kilometers (143,200 square miles) and contains brackish water - less salty than ocean water but saltier than fresh water. It's famous for its caviar-producing sturgeon and significant oil and natural gas reserves.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Caspian_Sea",
+    "citationTitle": "Wikipedia: Caspian Sea"
+  }
+]

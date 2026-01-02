@@ -7,6 +7,10 @@ type User {
   displayName: String!
   createdAt: String!
   stats: UserStats!
+  subscription: UserSubscription!
+  badges: [Badge!]!
+  totalSkillPoints: Int!
+  tipUnlockedUntil: String
 }
 
 type UserPublic {
@@ -14,6 +18,8 @@ type UserPublic {
   username: String!
   displayName: String!
   stats: UserStats!
+  badges: [Badge!]!
+  totalSkillPoints: Int!
 }
 
 type UserStats {
@@ -24,4 +30,55 @@ type UserStats {
   setsWon: Int!
   currentStreak: Int!
   longestStreak: Int!
+}
+
+# Subscription types (payment tiers)
+type UserSubscription {
+  tier: Int!
+  status: SubscriptionStatus
+  provider: SubscriptionProvider
+  subscriptionId: String
+  customerId: String
+  startedAt: String
+  expiresAt: String
+  cancelledAt: String
+  # Gift subscription fields
+  giftedBy: String
+  giftedByName: String
+  giftedAt: String
+  giftExpiresAt: String
+  giftNotificationSeen: Boolean
+}
+
+enum SubscriptionStatus {
+  active
+  cancelled
+  past_due
+  trialing
+}
+
+enum SubscriptionProvider {
+  stripe
+  paypal
+}
+
+# Checkout types
+type CheckoutSession {
+  checkoutUrl: String!
+  sessionId: String
+}
+
+input CreateCheckoutInput {
+  tier: Int!
+  provider: SubscriptionProvider!
+  successUrl: String!
+  cancelUrl: String!
+}
+
+# Gift subscription input
+input GiftSubscriptionInput {
+  recipientUserId: ID!
+  tier: Int!
+  durationDays: Int!
+  message: String
 }

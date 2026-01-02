@@ -1,0 +1,342 @@
+[
+  {
+    "id": "97aa1858-1508-492f-a450-4a1b0529d1bb",
+    "text": "What is the name of the supervolcano located beneath Yellowstone National Park?",
+    "options": [
+      "Yellowstone Caldera",
+      "Grand Prismatic Crater",
+      "Old Faithful Volcano",
+      "Mammoth Supervolcano"
+    ],
+    "correctIndex": 0,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "The Yellowstone Caldera is the volcanic caldera and supervolcano located in Yellowstone National Park.",
+    "detailedExplanation": "The Yellowstone Caldera, sometimes referred to as the Yellowstone Supervolcano, is a volcanic caldera and supervolcano in Yellowstone National Park in the Western United States. The caldera and most of the park are located in the northwest corner of Wyoming. The caldera measures 43 by 28 miles and was formed by the last three super-eruptions over the past 2.1 million years.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Yellowstone_Caldera",
+    "citationTitle": "Wikipedia: Yellowstone Caldera"
+  },
+  {
+    "id": "20795fe7-d3f0-4742-bad8-701ad37bcb15",
+    "text": "Mount Vesuvius, famous for destroying Pompeii, is located in which modern-day country?",
+    "options": [
+      "Greece",
+      "Turkey",
+      "Italy",
+      "Spain"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "Mount Vesuvius is located in Italy, near Naples in the Campania region.",
+    "detailedExplanation": "Mount Vesuvius is a somma-stratovolcano located on the Gulf of Naples in Campania, Italy, about 9 km east of Naples. It is one of several volcanoes which form the Roman volcanic arc. Vesuvius consists of a large cone partially encircled by the steep rim of a summit caldera caused by the collapse of an earlier and originally much higher structure. The eruption in 79 AD buried the cities of Pompeii and Herculaneum under volcanic ash and pumice.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Mount_Vesuvius",
+    "citationTitle": "Wikipedia: Mount Vesuvius"
+  },
+  {
+    "id": "7199d9b0-8453-4030-9792-7721d14b5f30",
+    "text": "What type of plate boundary typically produces the most powerful earthquakes?",
+    "options": [
+      "Divergent boundaries",
+      "Transform boundaries",
+      "Convergent boundaries",
+      "Intraplate boundaries"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "Convergent boundaries, where tectonic plates collide, typically produce the most powerful earthquakes.",
+    "detailedExplanation": "Convergent plate boundaries, where oceanic and continental plates or two oceanic plates collide, are responsible for the world's most powerful earthquakes. These boundaries create subduction zones where one plate slides beneath another, building up enormous stress over time. When this stress is released, it can produce earthquakes with magnitudes exceeding 9.0, such as the 2004 Indian Ocean earthquake (magnitude 9.1-9.3) and the 2011 Tōhoku earthquake in Japan (magnitude 9.1).",
+    "citationUrl": "https://en.wikipedia.org/wiki/Convergent_boundary",
+    "citationTitle": "Wikipedia: Convergent boundary"
+  },
+  {
+    "id": "696c5672-6f61-4e39-a326-e64e5c9f230c",
+    "text": "Which volcanic island nation experienced a massive eruption in 1883 that was heard 3,000 miles away?",
+    "options": [
+      "Philippines",
+      "Japan",
+      "Indonesia",
+      "New Zealand"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "The 1883 eruption of Krakatoa in Indonesia was one of the loudest sounds in recorded history.",
+    "detailedExplanation": "The 1883 eruption of Krakatoa in the Dutch East Indies (now Indonesia) was among the most violent volcanic events in recorded human history. The sound of the final explosion was heard as far away as Australia and the island of Rodrigues near Mauritius, 4,800 km away. The eruption destroyed most of the volcanic island and created tsunamis up to 40 meters high, killing approximately 36,000 people in the surrounding coastal areas.",
+    "citationUrl": "https://en.wikipedia.org/wiki/1883_eruption_of_Krakatoa",
+    "citationTitle": "Wikipedia: 1883 eruption of Krakatoa"
+  },
+  {
+    "id": "4012e457-dfbf-4356-8f0b-2b64ec6a99bd",
+    "text": "The San Andreas Fault in California is an example of which type of plate boundary?",
+    "options": [
+      "Divergent boundary",
+      "Convergent boundary",
+      "Transform boundary",
+      "Subduction zone"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "The San Andreas Fault is a transform boundary where two plates slide horizontally past each other.",
+    "detailedExplanation": "The San Andreas Fault is a continental transform fault that extends roughly 1,200 kilometers through California. It forms the tectonic boundary between the Pacific Plate and the North American Plate, with the Pacific Plate moving northwest relative to the North American Plate. This horizontal sliding motion makes it a transform boundary, and the friction between the plates causes frequent earthquakes throughout California, including the famous 1906 San Francisco earthquake.",
+    "citationUrl": "https://en.wikipedia.org/wiki/San_Andreas_Fault",
+    "citationTitle": "Wikipedia: San Andreas Fault"
+  },
+  {
+    "id": "47f70994-57ce-4347-b4b6-c722653dbd6b",
+    "text": "What is the term for molten rock beneath the Earth's surface?",
+    "options": [
+      "Lava",
+      "Magma",
+      "Pyroclast",
+      "Tephra"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "Magma is the term for molten rock while it's still underground; it becomes lava when it reaches the surface.",
+    "detailedExplanation": "Magma is molten or semi-molten natural material from which all igneous rocks are formed. It exists beneath the surface of the Earth and other terrestrial planets. When magma reaches the surface through volcanic eruptions, it is called lava. Magma is formed by the melting of existing rock in the Earth's crust or mantle, typically at temperatures between 700-1300°C. The composition and temperature of magma determines the type of volcanic eruption and the characteristics of the resulting igneous rock.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Magma",
+    "citationTitle": "Wikipedia: Magma"
+  },
+  {
+    "id": "a19f2283-2468-474f-a5fc-fcd9adcec0e6",
+    "text": "Which country experiences the most earthquakes annually due to its location on the Pacific Ring of Fire?",
+    "options": [
+      "Chile",
+      "Indonesia",
+      "Japan",
+      "Philippines"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "Japan experiences the highest number of earthquakes annually, recording over 1,500 earthquakes per year.",
+    "detailedExplanation": "Japan sits at the junction of four major tectonic plates (Pacific, Philippine Sea, Eurasian, and North American plates), making it one of the most seismically active regions in the world. The country experiences over 1,500 earthquakes annually, though most are minor. Japan's location on the Pacific Ring of Fire, combined with multiple subduction zones around its coastline, creates the perfect conditions for frequent seismic activity. The country has developed some of the world's most advanced earthquake monitoring and building safety systems as a result.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Earthquakes_in_Japan",
+    "citationTitle": "Wikipedia: Earthquakes in Japan"
+  },
+  {
+    "id": "b6d6e148-d701-44eb-a7d4-f7db4ba55fb8",
+    "text": "Which volcanic event led to the 'Year Without a Summer' in 1816?",
+    "options": [
+      "Mount Tambora eruption in Indonesia",
+      "Krakatoa eruption in Indonesia",
+      "Mount Vesuvius eruption in Italy",
+      "Mount Pinatubo eruption in Philippines"
+    ],
+    "correctIndex": 0,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "Mount Tambora's 1815 eruption caused global climate anomalies in 1816.",
+    "detailedExplanation": "The eruption of Mount Tambora in April 1815 was one of the most powerful volcanic eruptions in recorded history. It ejected enormous amounts of volcanic ash and sulfur dioxide into the atmosphere, which blocked sunlight and caused global temperatures to drop by 0.4–0.7°C. This led to crop failures, famine, and abnormal weather patterns across the Northern Hemisphere in 1816, earning it the nickname 'The Year Without a Summer.'",
+    "citationUrl": "https://en.wikipedia.org/wiki/1815_eruption_of_Mount_Tambora",
+    "citationTitle": "Wikipedia: 1815 eruption of Mount Tambora"
+  },
+  {
+    "id": "74c1108d-8d13-4cc9-bef6-1c9e1b74c680",
+    "text": "What is the name of the most seismically active region around the Pacific Ocean?",
+    "options": [
+      "Pacific Fault Zone",
+      "Ring of Fire",
+      "Circum-Pacific Belt",
+      "Pacific Seismic Arc"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "The Ring of Fire is the most active earthquake and volcanic zone encircling the Pacific.",
+    "detailedExplanation": "The Ring of Fire, also known as the Circum-Pacific Belt, is a major area in the basin of the Pacific Ocean where many earthquakes and volcanic eruptions occur. It stretches for about 40,000 kilometers and is associated with a nearly continuous series of oceanic trenches, volcanic arcs, and volcanic belts. Approximately 90% of the world's earthquakes and 75% of the world's active volcanoes occur within this region due to tectonic plate movements.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Ring_of_Fire",
+    "citationTitle": "Wikipedia: Ring of Fire"
+  },
+  {
+    "id": "165f29ff-f2d8-4250-95c2-cf2434d9ed7e",
+    "text": "The 2004 Indian Ocean earthquake that triggered devastating tsunamis measured what magnitude on the Richter scale?",
+    "options": [
+      "8.5",
+      "9.1-9.3",
+      "8.9",
+      "9.5"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "The 2004 Indian Ocean earthquake measured between 9.1-9.3 magnitude.",
+    "detailedExplanation": "The 2004 Indian Ocean earthquake occurred on December 26, 2004, with its epicenter off the coast of Sumatra, Indonesia. With a magnitude between 9.1 and 9.3, it was one of the most powerful earthquakes ever recorded. The earthquake triggered massive tsunamis that affected coastlines across the Indian Ocean, killing over 230,000 people in 14 countries. The rupture zone extended over 1,600 kilometers, making it the longest fault rupture ever documented.",
+    "citationUrl": "https://en.wikipedia.org/wiki/2004_Indian_Ocean_earthquake_and_tsunami",
+    "citationTitle": "Wikipedia: 2004 Indian Ocean earthquake and tsunami"
+  },
+  {
+    "id": "3ca2b652-9d01-46e7-b4ea-63eac950d147",
+    "text": "Which type of volcano is characterized by gentle slopes and is built from fluid lava flows?",
+    "options": [
+      "Stratovolcano",
+      "Cinder cone",
+      "Shield volcano",
+      "Composite volcano"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "Shield volcanoes have gentle slopes formed by fluid basaltic lava flows.",
+    "detailedExplanation": "Shield volcanoes are built almost entirely of fluid basaltic lava flows that spread out in all directions from a central summit vent, creating a broad, gently sloping cone that resembles a warrior's shield. These volcanoes are characterized by their low profile and large base diameter. Famous examples include Mauna Loa and Kilauea in Hawaii, and the Galápagos Islands. Their non-explosive eruptions and fluid lava allow them to grow to enormous sizes over time.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Shield_volcano",
+    "citationTitle": "Wikipedia: Shield volcano"
+  },
+  {
+    "id": "cfcfc5e7-c5e3-42e2-8b9e-f803bd9c2c79",
+    "text": "Which volcanic disaster in 79 AD preserved the Roman cities of Pompeii and Herculaneum?",
+    "options": [
+      "Mount Etna eruption",
+      "Mount Vesuvius eruption",
+      "Mount Stromboli eruption",
+      "Vulcano eruption"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "Mount Vesuvius buried Pompeii and Herculaneum in ash and pumice in 79 AD.",
+    "detailedExplanation": "The eruption of Mount Vesuvius in 79 AD was a catastrophic volcanic event that buried the Roman cities of Pompeii and Herculaneum under meters of ash, pumice, and pyroclastic material. The eruption preserved these cities in remarkable detail, providing modern archaeologists with an unprecedented snapshot of Roman life. Pliny the Younger documented the event, making it one of the first recorded volcanic eruptions in history. The disaster killed thousands of people, including the famous Roman author Pliny the Elder.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Eruption_of_Mount_Vesuvius_in_79_AD",
+    "citationTitle": "Wikipedia: Eruption of Mount Vesuvius in 79 AD"
+  },
+  {
+    "id": "9898d2e9-152c-4b34-85ec-f561a2953676",
+    "text": "What is the name of the volcanic belt that encircles the Pacific Ocean, containing about 75% of the world's active volcanoes?",
+    "options": [
+      "Ring of Fire",
+      "Pacific Ridge",
+      "Circum-Pacific Belt",
+      "Volcanic Arc"
+    ],
+    "correctIndex": 0,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "The Ring of Fire is the major area in the basin of the Pacific Ocean where many earthquakes and volcanic eruptions occur.",
+    "detailedExplanation": "The Ring of Fire, also known as the Circum-Pacific Belt, is a major area in the basin of the Pacific Ocean where a large number of earthquakes and volcanic eruptions occur. This 40,000-kilometer horseshoe-shaped ring is associated with a nearly continuous series of oceanic trenches, volcanic arcs, and volcanic belts. It contains approximately 75% of the world's active and dormant volcanoes and is home to 90% of the world's earthquakes.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Ring_of_Fire",
+    "citationTitle": "Wikipedia: Ring of Fire"
+  },
+  {
+    "id": "c754e944-4808-4421-ab2a-3df62af32b44",
+    "text": "The Richter scale, used to measure earthquake magnitude, is logarithmic. How much more energy does a magnitude 7 earthquake release compared to a magnitude 5?",
+    "options": [
+      "10 times more",
+      "100 times more",
+      "1,000 times more",
+      "10,000 times more"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "Each whole number increase on the Richter scale represents a 10-fold increase in amplitude and roughly 32 times more energy release.",
+    "detailedExplanation": "The Richter scale is logarithmic, meaning each whole number increase represents a 10-fold increase in measured amplitude. However, in terms of energy release, each whole number step represents approximately 31.6 times (or roughly 32 times) more energy. Therefore, a magnitude 7 earthquake releases about 32 × 32 = 1,024 times more energy than a magnitude 5 earthquake, which is approximately 1,000 times more energy.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Richter_magnitude_scale",
+    "citationTitle": "Wikipedia: Richter magnitude scale"
+  },
+  {
+    "id": "ca6f2ab2-727d-4327-a114-f1aa71d0f665",
+    "text": "Mount Vesuvius, famous for destroying Pompeii in 79 AD, is located near which modern Italian city?",
+    "options": [
+      "Rome",
+      "Naples",
+      "Florence",
+      "Milan"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "Mount Vesuvius is located in the Campania region of Italy, east of Naples and southeast of the city center.",
+    "detailedExplanation": "Mount Vesuvius is a volcano located in the Campania region of Italy, on the Gulf of Naples. It is situated about 9 kilometers east of Naples and a short distance from the shore. Vesuvius is one of the most dangerous volcanoes in the world due to the large population living in its vicinity. The famous eruption in 79 AD buried the cities of Pompeii and Herculaneum under volcanic ash and pumice, preserving them for modern archaeological study.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Mount_Vesuvius",
+    "citationTitle": "Wikipedia: Mount Vesuvius"
+  },
+  {
+    "id": "1a3e0925-ab54-45d4-8a47-643f98fcb006",
+    "text": "Which type of plate boundary is typically associated with the most powerful earthquakes?",
+    "options": [
+      "Divergent boundaries",
+      "Transform boundaries",
+      "Convergent boundaries",
+      "Hot spot boundaries"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "Convergent boundaries, where plates collide, generate the most powerful earthquakes due to the immense forces involved.",
+    "detailedExplanation": "Convergent plate boundaries, where tectonic plates move toward each other and collide, are associated with the most powerful earthquakes. This occurs because of the enormous compressive forces generated when plates collide, causing one plate to be forced beneath another (subduction) or creating mountain ranges. The friction and stress that builds up at these boundaries can be released suddenly, creating megathrust earthquakes with magnitudes often exceeding 8.0 or 9.0, such as the 2004 Indian Ocean earthquake and the 2011 Tōhoku earthquake in Japan.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Convergent_boundary",
+    "citationTitle": "Wikipedia: Convergent boundary"
+  },
+  {
+    "id": "056b4c4c-78a4-4a5e-81f1-d4f6099630ac",
+    "text": "What is the most abundant gas typically released during volcanic eruptions?",
+    "options": [
+      "Carbon dioxide",
+      "Sulfur dioxide",
+      "Water vapor",
+      "Hydrogen sulfide"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "Water vapor makes up 60-90% of volcanic gases, far exceeding other gases released during eruptions.",
+    "detailedExplanation": "Water vapor (H2O) is by far the most abundant gas released during volcanic eruptions, typically comprising 60-90% of all volcanic gases. This water comes from groundwater heated by magma, water originally dissolved in the magma, and water from the breakdown of hydrous minerals. Carbon dioxide is usually the second most abundant gas, followed by sulfur dioxide, hydrogen sulfide, and other trace gases. The high water vapor content is why volcanic eruptions often produce large steam clouds.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Volcanic_gas",
+    "citationTitle": "Wikipedia: Volcanic gas"
+  },
+  {
+    "id": "e812c50b-cd17-462e-9624-319cb1516405",
+    "text": "The 1906 San Francisco earthquake was primarily caused by movement along which famous fault line?",
+    "options": [
+      "Hayward Fault",
+      "San Andreas Fault",
+      "Calaveras Fault",
+      "Garlock Fault"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "The 1906 San Francisco earthquake resulted from a rupture along the San Andreas Fault system.",
+    "detailedExplanation": "The great 1906 San Francisco earthquake, with an estimated magnitude of 7.9, was caused by a rupture along the San Andreas Fault system. The earthquake occurred at 5:12 AM on April 18, 1906, and the rupture extended for approximately 477 kilometers along the fault. The San Andreas Fault is a continental transform fault that forms the tectonic boundary between the Pacific Plate and the North American Plate. The earthquake and subsequent fires destroyed much of San Francisco and killed an estimated 3,000 people.",
+    "citationUrl": "https://en.wikipedia.org/wiki/1906_San_Francisco_earthquake",
+    "citationTitle": "Wikipedia: 1906 San Francisco earthquake"
+  },
+  {
+    "id": "f4dc6cd3-844e-4493-a7de-99464d345fde",
+    "text": "Which volcanic hazard is described as a fast-moving current of hot gas and volcanic matter that flows down the slopes of a volcano?",
+    "options": [
+      "Lahar",
+      "Pyroclastic flow",
+      "Volcanic bomb",
+      "Tephra fall"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "Pyroclastic flows are fast-moving currents of hot gas and volcanic matter that can reach speeds of over 100 mph.",
+    "detailedExplanation": "A pyroclastic flow is a fast-moving current of hot gas and volcanic matter (collectively known as tephra) that moves away from a volcano at speeds that can exceed 100 mph (160 km/h) and reach temperatures of over 1,000°C (1,830°F). These flows are extremely dangerous and deadly, as they can travel for miles and destroy everything in their path. They form during explosive volcanic eruptions when columns of ash and gas collapse under their own weight or when volcanic domes collapse, creating these devastating ground-hugging flows.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Pyroclastic_flow",
+    "citationTitle": "Wikipedia: Pyroclastic flow"
+  },
+  {
+    "id": "01040d79-d3c3-4b81-9c74-552e979c24dc",
+    "text": "Iceland sits on which major geological feature that contributes to its high volcanic activity?",
+    "options": [
+      "Continental rift valley",
+      "Mid-Atlantic Ridge",
+      "Transform fault zone",
+      "Volcanic hot spot"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "Iceland sits on the Mid-Atlantic Ridge, where the North American and Eurasian tectonic plates are spreading apart.",
+    "detailedExplanation": "Iceland sits directly on the Mid-Atlantic Ridge, a divergent tectonic plate boundary that runs through the Atlantic Ocean. At this location, the North American Plate and the Eurasian Plate are spreading apart at a rate of about 2 centimeters per year. This spreading creates new oceanic crust and is responsible for Iceland's high volcanic activity. Additionally, Iceland is situated over a mantle plume or hotspot, which provides an extra source of magma. This combination of the ridge and hotspot makes Iceland one of the most volcanically active places on Earth.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Mid-Atlantic_Ridge",
+    "citationTitle": "Wikipedia: Mid-Atlantic Ridge"
+  }
+]

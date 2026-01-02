@@ -1,0 +1,342 @@
+[
+  {
+    "id": "0ab423d4-e73e-4359-b1e5-7e51ca2e9e43",
+    "text": "Which 1939 film starring Judy Garland features the famous line 'There's no place like home'?",
+    "options": [
+      "Gone with the Wind",
+      "The Wizard of Oz",
+      "Singin' in the Rain",
+      "Casablanca"
+    ],
+    "correctIndex": 1,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "The Wizard of Oz (1939) features Dorothy clicking her ruby slippers while saying this iconic line.",
+    "detailedExplanation": "The Wizard of Oz, released in 1939 and starring Judy Garland as Dorothy, is famous for many memorable quotes, but none more so than 'There's no place like home.' Dorothy says this line while clicking her ruby slippers together three times, attempting to return to Kansas from the magical land of Oz. The film was groundbreaking for its use of Technicolor and became one of the most beloved classics in cinema history.",
+    "citationUrl": "https://en.wikipedia.org/wiki/The_Wizard_of_Oz_(1939_film)",
+    "citationTitle": "Wikipedia: The Wizard of Oz (1939 film)"
+  },
+  {
+    "id": "8eed3b04-7486-45cb-9ead-1cb61e202c31",
+    "text": "Who played the leading male role opposite Ingrid Bergman in the 1942 classic 'Casablanca'?",
+    "options": [
+      "Clark Gable",
+      "Cary Grant",
+      "Humphrey Bogart",
+      "James Stewart"
+    ],
+    "correctIndex": 2,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "Humphrey Bogart played Rick Blaine, the cynical American expatriate who owns a nightclub in Casablanca.",
+    "detailedExplanation": "Humphrey Bogart starred as Rick Blaine in Casablanca (1942), delivering one of his most iconic performances opposite Ingrid Bergman's Ilsa Lund. The film, set during World War II, tells the story of Rick's moral transformation from a cynical nightclub owner to someone willing to sacrifice personal happiness for the greater good. Bogart's portrayal of Rick became synonymous with the classic Hollywood leading man, and the film is filled with memorable quotes like 'Here's looking at you, kid.'",
+    "citationUrl": "https://en.wikipedia.org/wiki/Casablanca_(film)",
+    "citationTitle": "Wikipedia: Casablanca (film)"
+  },
+  {
+    "id": "3b8cf107-d11c-4108-b287-a4d42ca185c4",
+    "text": "Which 1950 film noir starring Gloria Swanson is about an aging silent film star?",
+    "options": [
+      "Double Indemnity",
+      "The Maltese Falcon",
+      "Sunset Boulevard",
+      "All About Eve"
+    ],
+    "correctIndex": 2,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "Sunset Boulevard (1950) features Gloria Swanson as Norma Desmond, a forgotten silent film star living in delusion.",
+    "detailedExplanation": "Sunset Boulevard, directed by Billy Wilder in 1950, stars Gloria Swanson as Norma Desmond, a faded silent film star who lives in a fantasy world, refusing to accept that her career is over. The film is a dark commentary on Hollywood's treatment of aging stars and the transition from silent films to talkies. Swanson's performance was particularly poignant as she herself was a major silent film star, making her portrayal of Norma Desmond deeply personal and authentic.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Sunset_Boulevard_(film)",
+    "citationTitle": "Wikipedia: Sunset Boulevard (film)"
+  },
+  {
+    "id": "e7732796-4b4b-40cc-ad53-d5506d775d0b",
+    "text": "What 1939 epic film starring Clark Gable and Vivien Leigh was set during the American Civil War?",
+    "options": [
+      "Gone with the Wind",
+      "The Birth of a Nation",
+      "How Green Was My Valley",
+      "Rebecca"
+    ],
+    "correctIndex": 0,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "Gone with the Wind (1939) follows Scarlett O'Hara and Rhett Butler during the Civil War and Reconstruction era.",
+    "detailedExplanation": "Gone with the Wind, released in 1939, is an epic historical romance set in Georgia during the American Civil War and Reconstruction era. Clark Gable played the roguish Rhett Butler opposite Vivien Leigh's headstrong Scarlett O'Hara. The film was based on Margaret Mitchell's novel and became one of the highest-grossing films of all time when adjusted for inflation. It won ten Academy Awards and is famous for Rhett's parting line: 'Frankly, my dear, I don't give a damn.'",
+    "citationUrl": "https://en.wikipedia.org/wiki/Gone_with_the_Wind_(film)",
+    "citationTitle": "Wikipedia: Gone with the Wind (film)"
+  },
+  {
+    "id": "752ce910-f2a9-4fb3-a98b-56f38d2cac06",
+    "text": "Which Alfred Hitchcock thriller from 1960 features the infamous shower scene?",
+    "options": [
+      "Vertigo",
+      "North by Northwest",
+      "Psycho",
+      "Rear Window"
+    ],
+    "correctIndex": 2,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "Psycho (1960) contains the legendary shower scene where Janet Leigh's character is murdered at the Bates Motel.",
+    "detailedExplanation": "Psycho, released in 1960, is Alfred Hitchcock's psychological horror masterpiece featuring one of cinema's most famous scenes - the shower murder of Janet Leigh's character Marion Crane. The scene, lasting only 45 seconds, used 77 camera angles and 50 cuts, and was revolutionary for its time in both its violence and its technique. The film stars Anthony Perkins as the disturbed Norman Bates and was groundbreaking for killing off what appeared to be the main character early in the film.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Psycho_(1960_film)",
+    "citationTitle": "Wikipedia: Psycho (1960 film)"
+  },
+  {
+    "id": "a658cb18-c698-44b2-af02-1c0ed660cc23",
+    "text": "What 1952 musical starring Gene Kelly features dancing in the rain as its most famous scene?",
+    "options": [
+      "An American in Paris",
+      "On the Town",
+      "Singin' in the Rain",
+      "Anchors Aweigh"
+    ],
+    "correctIndex": 2,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "Singin' in the Rain (1952) features Gene Kelly's iconic dance number performed in artificial rain on a Hollywood street.",
+    "detailedExplanation": "Singin' in the Rain, released in 1952, is widely considered one of the greatest musicals ever made. The film stars Gene Kelly, Donald O'Connor, and Debbie Reynolds in a story about Hollywood's transition from silent films to talkies. The most memorable sequence features Gene Kelly dancing and singing the title song while splashing through puddles in the rain. Kelly co-directed the film with Stanley Donen, and the famous rain scene was shot on a studio backlot with Kelly performing despite having a fever of 103°F.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Singin%27_in_the_Rain",
+    "citationTitle": "Wikipedia: Singin' in the Rain"
+  },
+  {
+    "id": "95e4c22f-25fa-4380-a2e6-50bb2b4c4843",
+    "text": "Which 1946 film starring James Stewart shows what life would be like if he had never been born?",
+    "options": [
+      "Mr. Smith Goes to Washington",
+      "It's a Wonderful Life",
+      "The Philadelphia Story",
+      "Harvey"
+    ],
+    "correctIndex": 1,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "It's a Wonderful Life (1946) shows George Bailey (James Stewart) an alternate reality where he never existed.",
+    "detailedExplanation": "It's a Wonderful Life, directed by Frank Capra in 1946, stars James Stewart as George Bailey, a man who believes his life has been worthless and contemplates suicide on Christmas Eve. His guardian angel Clarence shows him what his town would have been like if he had never been born, helping George realize the positive impact he's had on others. Though initially a box office disappointment, the film has become a beloved Christmas classic, largely due to its frequent television broadcasts starting in the 1970s.",
+    "citationUrl": "https://en.wikipedia.org/wiki/It%27s_a_Wonderful_Life",
+    "citationTitle": "Wikipedia: It's a Wonderful Life"
+  },
+  {
+    "id": "1e60dfbe-9deb-4799-a901-50d5a3bbf442",
+    "text": "What 1944 film noir starring Fred MacMurray and Barbara Stanwyck involves a murder plot for insurance money?",
+    "options": [
+      "The Postman Always Rings Twice",
+      "Double Indemnity",
+      "Laura",
+      "The Big Sleep"
+    ],
+    "correctIndex": 1,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "Double Indemnity (1944) features an insurance salesman and a femme fatale plotting to kill her husband for the insurance payout.",
+    "detailedExplanation": "Double Indemnity, directed by Billy Wilder in 1944, is a classic film noir starring Fred MacMurray as insurance salesman Walter Neff and Barbara Stanwyck as the seductive Phyllis Dietrichson. The film follows their scheme to murder Phyllis's husband and collect on his life insurance policy's double indemnity clause. Based on a James M. Cain novella, the film is notable for its cynical tone, sharp dialogue co-written by Raymond Chandler, and Stanwyck's iconic performance as one of cinema's most memorable femmes fatales.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Double_Indemnity",
+    "citationTitle": "Wikipedia: Double Indemnity"
+  },
+  {
+    "id": "c1fff334-606c-4903-80c5-bf38f61c2a3f",
+    "text": "Which 1939 film starring Judy Garland features the famous song 'Over the Rainbow'?",
+    "options": [
+      "Singin' in the Rain",
+      "The Wizard of Oz",
+      "Casablanca",
+      "Gone with the Wind"
+    ],
+    "correctIndex": 1,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "The Wizard of Oz featured Judy Garland singing 'Over the Rainbow'.",
+    "detailedExplanation": "The Wizard of Oz, released in 1939, starred Judy Garland as Dorothy and featured the iconic song 'Over the Rainbow,' which became one of the most beloved songs in cinema history. The film was groundbreaking for its use of Technicolor and became a classic of Hollywood's Golden Age.",
+    "citationUrl": "https://en.wikipedia.org/wiki/The_Wizard_of_Oz_(1939_film)",
+    "citationTitle": "Wikipedia: The Wizard of Oz (1939 film)"
+  },
+  {
+    "id": "3e6e5de9-c835-48e5-8bf6-e769a7c59d64",
+    "text": "Who played Rick Blaine in the 1942 classic 'Casablanca'?",
+    "options": [
+      "Clark Gable",
+      "Gary Cooper",
+      "Humphrey Bogart",
+      "James Stewart"
+    ],
+    "correctIndex": 2,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "Humphrey Bogart played Rick Blaine opposite Ingrid Bergman in Casablanca.",
+    "detailedExplanation": "Humphrey Bogart's portrayal of Rick Blaine in Casablanca (1942) is considered one of his most iconic roles. The film, set during World War II, featured the famous line 'Here's looking at you, kid' and won three Academy Awards, including Best Picture.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Casablanca_(film)",
+    "citationTitle": "Wikipedia: Casablanca (film)"
+  },
+  {
+    "id": "5020a0d3-8f5c-4264-a76a-df0b6ef81704",
+    "text": "Which Alfred Hitchcock film features a famous shower scene?",
+    "options": [
+      "Vertigo",
+      "North by Northwest",
+      "Psycho",
+      "Rear Window"
+    ],
+    "correctIndex": 2,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "Psycho (1960) contains the infamous shower scene at the Bates Motel.",
+    "detailedExplanation": "Alfred Hitchcock's Psycho (1960) revolutionized horror cinema with its shocking shower scene, where Janet Leigh's character Marion Crane meets her demise at the Bates Motel. The scene is considered one of the most influential sequences in film history and helped establish many conventions of the slasher genre.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Psycho_(1960_film)",
+    "citationTitle": "Wikipedia: Psycho (1960 film)"
+  },
+  {
+    "id": "8c57f792-9568-4523-9eda-e5f21d8e43be",
+    "text": "What is the name of Orson Welles' 1941 film about a newspaper tycoon?",
+    "options": [
+      "The Maltese Falcon",
+      "Citizen Kane",
+      "The Third Man",
+      "Touch of Evil"
+    ],
+    "correctIndex": 1,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "Citizen Kane tells the story of Charles Foster Kane, a wealthy newspaper publisher.",
+    "detailedExplanation": "Citizen Kane (1941), directed by and starring Orson Welles, follows the rise and fall of newspaper magnate Charles Foster Kane. The film is widely regarded as one of the greatest films ever made and was groundbreaking in its cinematography, narrative structure, and sound design. It's often cited by critics as the best American film of all time.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Citizen_Kane",
+    "citationTitle": "Wikipedia: Citizen Kane"
+  },
+  {
+    "id": "6c7f6eff-7116-4b8a-8995-da948fd1518a",
+    "text": "Which actress starred alongside Clark Gable in 'Gone with the Wind' (1939)?",
+    "options": [
+      "Vivien Leigh",
+      "Katharine Hepburn",
+      "Bette Davis",
+      "Joan Crawford"
+    ],
+    "correctIndex": 0,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "Vivien Leigh played Scarlett O'Hara opposite Clark Gable's Rhett Butler.",
+    "detailedExplanation": "Vivien Leigh's portrayal of Scarlett O'Hara in Gone with the Wind (1939) earned her the Academy Award for Best Actress. The epic historical romance, set during the American Civil War and Reconstruction era, was a massive commercial success and won ten Academy Awards, including Best Picture.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Gone_with_the_Wind_(film)",
+    "citationTitle": "Wikipedia: Gone with the Wind (film)"
+  },
+  {
+    "id": "4b870e2c-7fb4-47b5-890a-f01061246d49",
+    "text": "In which 1952 musical do Gene Kelly and Donald O'Connor perform together?",
+    "options": [
+      "An American in Paris",
+      "On the Town",
+      "Singin' in the Rain",
+      "Anchors Aweigh"
+    ],
+    "correctIndex": 2,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "Singin' in the Rain featured both Gene Kelly and Donald O'Connor in memorable dance sequences.",
+    "detailedExplanation": "Singin' in the Rain (1952) starred Gene Kelly and Donald O'Connor alongside Debbie Reynolds. The film, which satirized Hollywood's transition from silent films to talkies, featured spectacular dance numbers including Kelly's iconic title song sequence and O'Connor's acrobatic 'Make 'Em Laugh' routine. It's considered one of the greatest movie musicals ever made.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Singin%27_in_the_Rain",
+    "citationTitle": "Wikipedia: Singin' in the Rain"
+  },
+  {
+    "id": "4b6e04fa-2265-4128-b990-6bb285f562b6",
+    "text": "What was the first film to win the Academy Award for Best Picture in 1929?",
+    "options": [
+      "Wings",
+      "Sunrise",
+      "The Jazz Singer",
+      "Metropolis"
+    ],
+    "correctIndex": 0,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "Wings, a World War I aviation epic, won the first Best Picture Oscar.",
+    "detailedExplanation": "Wings (1927) won the first Academy Award for Outstanding Picture (now Best Picture) at the inaugural ceremony in 1929. This World War I aviation drama starred Clara Bow and featured spectacular aerial sequences that were groundbreaking for their time. The film remains notable for being the only silent film to win Best Picture until The Artist in 2011.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Wings_(1927_film)",
+    "citationTitle": "Wikipedia: Wings (1927 film)"
+  },
+  {
+    "id": "3ed6bacd-7788-43d1-9e37-e2f6dbf225c6",
+    "text": "Which 1950 film noir features Gloria Swanson as a faded silent movie star?",
+    "options": [
+      "Double Indemnity",
+      "The Big Sleep",
+      "Sunset Boulevard",
+      "Laura"
+    ],
+    "correctIndex": 2,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "Sunset Boulevard starred Gloria Swanson as Norma Desmond, a forgotten silent film actress.",
+    "detailedExplanation": "Sunset Boulevard (1950), directed by Billy Wilder, featured Gloria Swanson as Norma Desmond, a delusional former silent film star living in Hollywood obscurity. The film was a brilliant commentary on Hollywood's treatment of aging stars and the transition from silent films to talkies. Swanson's powerful performance earned her an Academy Award nomination for Best Actress.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Sunset_Boulevard_(film)",
+    "citationTitle": "Wikipedia: Sunset Boulevard (film)"
+  },
+  {
+    "id": "4189dc64-528d-48e5-803c-129d46bcca5f",
+    "text": "Who played the lead role of Rick Blaine in the 1942 classic film 'Casablanca'?",
+    "options": [
+      "Clark Gable",
+      "Cary Grant",
+      "Humphrey Bogart",
+      "James Stewart"
+    ],
+    "correctIndex": 2,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "Humphrey Bogart played Rick Blaine in Casablanca (1942).",
+    "detailedExplanation": "Humphrey Bogart starred as Rick Blaine, the cynical American expatriate who runs a nightclub in Casablanca, Morocco, during World War II. The film, directed by Michael Curtiz, also starred Ingrid Bergman as Ilsa Lund. Casablanca won three Academy Awards, including Best Picture, and is famous for iconic lines like 'Here's looking at you, kid' and 'Play it again, Sam' (though the latter is often misquoted). The film is consistently ranked among the greatest movies ever made.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Casablanca_(film)",
+    "citationTitle": "Wikipedia: Casablanca (film)"
+  },
+  {
+    "id": "90f88343-eee0-4036-a9d6-cbc1e04eb887",
+    "text": "Which Alfred Hitchcock film from 1960 features the famous shower scene?",
+    "options": [
+      "Vertigo",
+      "North by Northwest",
+      "Psycho",
+      "Rear Window"
+    ],
+    "correctIndex": 2,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "Psycho (1960) contains the iconic shower scene at the Bates Motel.",
+    "detailedExplanation": "Psycho, released in 1960, shocked audiences with its infamous shower scene where Janet Leigh's character Marion Crane is murdered at the Bates Motel. The scene, accompanied by Bernard Herrmann's shrieking violins, lasted only 45 seconds but required 77 camera angles and took seven days to shoot. The film starred Anthony Perkins as the disturbed Norman Bates and revolutionized the horror genre. It was Hitchcock's most commercially successful film and earned him his fifth and final Oscar nomination for Best Director.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Psycho_(1960_film)",
+    "citationTitle": "Wikipedia: Psycho (1960 film)"
+  },
+  {
+    "id": "7a53d471-eea8-4022-8875-e183cdcf3398",
+    "text": "What is the name of the plantation in the 1939 epic 'Gone with the Wind'?",
+    "options": [
+      "Twelve Oaks",
+      "Tara",
+      "Bellerive",
+      "Magnolia Grove"
+    ],
+    "correctIndex": 1,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "Tara is the name of Scarlett O'Hara's family plantation in Gone with the Wind.",
+    "detailedExplanation": "Tara is the fictional plantation owned by the O'Hara family in Gone with the Wind, starring Vivien Leigh as Scarlett O'Hara and Clark Gable as Rhett Butler. The plantation serves as the central location and symbol of the Old South in Margaret Mitchell's story. Scarlett's famous declaration 'As God is my witness, I'll never be hungry again!' is delivered at Tara after the devastation of the Civil War. The film won 10 Academy Awards, including Best Picture, and was the highest-grossing film of all time for many years.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Gone_with_the_Wind_(film)",
+    "citationTitle": "Wikipedia: Gone with the Wind (film)"
+  },
+  {
+    "id": "affc02d2-0310-4420-ae7d-76a5886cfa3a",
+    "text": "In the 1939 classic 'The Wizard of Oz', what does Dorothy need to follow to reach the Emerald City?",
+    "options": [
+      "The Yellow Brick Road",
+      "The Red Brick Road",
+      "The Golden Path",
+      "The Rainbow Trail"
+    ],
+    "correctIndex": 0,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "Dorothy follows the Yellow Brick Road to reach the Emerald City and find the Wizard of Oz.",
+    "detailedExplanation": "In MGM's 1939 adaptation of L. Frank Baum's novel, Dorothy is told by the Good Witch of the North to 'follow the Yellow Brick Road' to reach the Emerald City where the Wizard of Oz lives. This iconic yellow path becomes central to the film's journey, leading Dorothy and her companions through various adventures. The phrase 'follow the yellow brick road' has since become part of popular culture, symbolizing the beginning of any journey or adventure.",
+    "citationUrl": "https://en.wikipedia.org/wiki/The_Wizard_of_Oz_(1939_film)",
+    "citationTitle": "Wikipedia: The Wizard of Oz (1939 film)"
+  }
+]

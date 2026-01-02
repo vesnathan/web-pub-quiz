@@ -1,0 +1,342 @@
+[
+  {
+    "id": "27e8bbca-ddab-417b-8d4a-7256aa7fdb0d",
+    "text": "Which spacecraft was the first to successfully soft-land on the far side of the Moon?",
+    "options": [
+      "Chang'e 4",
+      "Luna 3",
+      "Apollo 8",
+      "Chang'e 3"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Chang'e 4 achieved the first soft landing on the Moon's far side in January 2019.",
+    "detailedExplanation": "China's Chang'e 4 mission made history on January 3, 2019, when it became the first spacecraft to successfully perform a soft landing on the far side of the Moon. The mission landed in the Von Kármán crater within the South Pole-Aitken Basin. This achievement was particularly challenging because direct communication with Earth is impossible from the far side, requiring the use of the Queqiao relay satellite positioned at the Earth-Moon L2 Lagrange point.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Chang%27e_4",
+    "citationTitle": "Wikipedia: Chang'e 4"
+  },
+  {
+    "id": "29b37e0d-507f-4a38-9742-2aa0a03062b8",
+    "text": "Which planetary probe was the first to successfully land on Titan, Saturn's largest moon?",
+    "options": [
+      "Cassini",
+      "Huygens",
+      "Voyager 1",
+      "Pioneer 11"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "The Huygens probe successfully landed on Titan in January 2005.",
+    "detailedExplanation": "The Huygens probe, part of the joint NASA-ESA Cassini-Huygens mission, became the first spacecraft to land on Titan on January 14, 2005. After separating from the Cassini orbiter, Huygens descended through Titan's thick atmosphere for about 2.5 hours, taking measurements and photographs. It continued transmitting data for about 90 minutes after landing, revealing a surface with evidence of liquid methane lakes and complex organic chemistry.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Huygens_(spacecraft)",
+    "citationTitle": "Wikipedia: Huygens (spacecraft)"
+  },
+  {
+    "id": "bcc619d9-835a-42bb-afe6-f8d2cefcda20",
+    "text": "Which astronaut holds the record for the most cumulative time spent in space by any human?",
+    "options": [
+      "Scott Kelly",
+      "Gennady Padalka",
+      "Peggy Whitson",
+      "Sergei Krikalev"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Gennady Padalka holds the record with 878 days in space across five missions.",
+    "detailedExplanation": "Russian cosmonaut Gennady Padalka holds the world record for most cumulative time spent in space by any human, with 878 days, 11 hours, and 29 minutes across five space missions between 1998 and 2015. His final mission was a one-year stay aboard the International Space Station from March 2014 to September 2015. Padalka's record encompasses time spent on both the Mir space station and the International Space Station, and he also commanded the ISS multiple times during his career.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Gennady_Padalka",
+    "citationTitle": "Wikipedia: Gennady Padalka"
+  },
+  {
+    "id": "5157d2bb-e762-4b3f-9850-f3c1ce2cb0e1",
+    "text": "What was the name of the first Mars rover to successfully operate on the Martian surface?",
+    "options": [
+      "Opportunity",
+      "Sojourner",
+      "Spirit",
+      "Curiosity"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Sojourner was the first successful Mars rover, operating for 85 days in 1997.",
+    "detailedExplanation": "Sojourner, part of NASA's Mars Pathfinder mission, became the first successful Mars rover when it landed on July 4, 1997. The small, six-wheeled rover was originally designed to operate for just seven days but exceeded expectations by functioning for 85 days. Weighing only 23 pounds, Sojourner analyzed Martian rocks and soil, took over 550 images, and proved that mobile exploration of Mars was feasible, paving the way for future rover missions including Spirit, Opportunity, and Curiosity.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Sojourner_(rover)",
+    "citationTitle": "Wikipedia: Sojourner (rover)"
+  },
+  {
+    "id": "b742d81b-b26e-45cf-9fb2-4beac7a53437",
+    "text": "Which Soviet spacecraft was the first to successfully soft-land on Venus and transmit data from its surface in 1970?",
+    "options": [
+      "Venera 5",
+      "Venera 7",
+      "Venera 9",
+      "Luna 16"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Venera 7 was the first spacecraft to successfully soft-land on Venus and transmit data from the surface.",
+    "detailedExplanation": "On December 15, 1970, the Soviet Union's Venera 7 became the first spacecraft to successfully soft-land on Venus and transmit data from another planet's surface. Despite being partially damaged during its descent through Venus's harsh atmosphere, it managed to send back temperature readings of 475°C (887°F) for 23 minutes, confirming the extreme greenhouse effect on Venus. Previous Venera missions had either crashed or been crushed by the immense atmospheric pressure.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Venera_7",
+    "citationTitle": "Wikipedia: Venera 7"
+  },
+  {
+    "id": "e9a5c1e6-a85a-42de-a98a-1210ea1bbb5f",
+    "text": "Which NASA probe was the first to leave the solar system and enter interstellar space in 2012?",
+    "options": [
+      "Voyager 2",
+      "Voyager 1",
+      "Pioneer 10",
+      "Pioneer 11"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Voyager 1 became the first human-made object to enter interstellar space in August 2012.",
+    "detailedExplanation": "NASA's Voyager 1 crossed the heliopause boundary on August 25, 2012, becoming the first human-made object to enter interstellar space. This milestone was confirmed by detecting changes in cosmic ray levels and the absence of solar wind particles. Launched in 1977, Voyager 1 had already completed its primary mission of studying Jupiter and Saturn before continuing on its interstellar journey. The spacecraft is still operational and continues to send back data about conditions in interstellar space, though communication becomes increasingly challenging as it moves further from Earth.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Voyager_1",
+    "citationTitle": "Wikipedia: Voyager 1"
+  },
+  {
+    "id": "8883a891-dd5f-4a88-8981-f46124e351e3",
+    "text": "What was the duration of the longest single spaceflight by a human, achieved by Russian cosmonaut Valeri Polyakov?",
+    "options": [
+      "365 days",
+      "438 days",
+      "311 days",
+      "520 days"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Valeri Polyakov spent 437 days, 17 hours, and 58 minutes aboard Mir, the longest single spaceflight in history.",
+    "detailedExplanation": "Russian cosmonaut Valeri Polyakov holds the record for the longest single spaceflight in human history, spending 437 days, 17 hours, and 58 minutes aboard the Mir space station from January 8, 1994, to March 22, 1995. This mission was crucial for studying the long-term effects of spaceflight on the human body, particularly in preparation for eventual missions to Mars. Remarkably, Polyakov was able to walk immediately upon his return to Earth, demonstrating that humans could potentially survive the journey to Mars and back. His total career time in space across two missions was 678 days.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Valeri_Polyakov",
+    "citationTitle": "Wikipedia: Valeri Polyakov"
+  },
+  {
+    "id": "acbfa4b6-b059-49d7-9c7f-40957e4c88de",
+    "text": "Which European Space Agency mission was the first to successfully land on a comet's surface?",
+    "options": [
+      "Giotto",
+      "Rosetta-Philae",
+      "BepiColombo",
+      "Cassini-Huygens"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "The ESA's Rosetta mission deployed the Philae lander, which became the first spacecraft to successfully land on a comet.",
+    "detailedExplanation": "On November 12, 2014, the European Space Agency's Philae lander, deployed from the Rosetta spacecraft, became the first human-made object to successfully soft-land on a comet's surface. The target was comet 67P/Churyumov-Gerasimenko. Despite bouncing twice due to harpoon failure and ending up in a shadowed location that limited solar power, Philae managed to conduct scientific experiments for about 60 hours and transmitted valuable data about the comet's composition. This achievement marked a historic milestone in space exploration and cometary science.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Philae_(spacecraft)",
+    "citationTitle": "Wikipedia: Philae (spacecraft)"
+  },
+  {
+    "id": "0a1d5631-0655-4d8f-8f4a-3a325191c890",
+    "text": "In which year did the first commercial spacecraft, SpaceX's Dragon, successfully dock with the International Space Station?",
+    "options": [
+      "2010",
+      "2012",
+      "2014",
+      "2016"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "SpaceX's Dragon became the first commercial spacecraft to dock with the ISS on May 25, 2012.",
+    "detailedExplanation": "On May 25, 2012, SpaceX's Dragon spacecraft made history by becoming the first commercial vehicle to successfully dock with the International Space Station during the COTS Demo Flight 2 mission. This milestone marked the beginning of the commercial space era and NASA's transition from solely government-operated space missions to partnerships with private companies. The Dragon capsule delivered supplies to the ISS and successfully returned to Earth three days later, splashing down in the Pacific Ocean. This achievement validated NASA's Commercial Orbital Transportation Services program and opened the door for routine commercial cargo and eventually crew missions to the ISS.",
+    "citationUrl": "https://en.wikipedia.org/wiki/SpaceX_Dragon",
+    "citationTitle": "Wikipedia: SpaceX Dragon"
+  },
+  {
+    "id": "9f852980-b927-4035-ac93-2073960dc259",
+    "text": "Which space telescope discovered the most exoplanets before being retired in 2018 after nearly a decade of operation?",
+    "options": [
+      "Hubble Space Telescope",
+      "Spitzer Space Telescope",
+      "Kepler Space Telescope",
+      "James Webb Space Telescope"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "The Kepler Space Telescope discovered over 2,600 confirmed exoplanets during its mission from 2009 to 2018.",
+    "detailedExplanation": "NASA's Kepler Space Telescope revolutionized our understanding of exoplanets during its mission from March 2009 to October 2018. Using the transit method to detect planets passing in front of their host stars, Kepler discovered 2,662 confirmed exoplanets and identified over 4,000 additional planet candidates. The telescope's discoveries included the first Earth-size planets in the habitable zones of their stars and revealed that planets are more common than stars in our galaxy. Kepler's data continues to yield new discoveries even after the mission's end, fundamentally changing our perspective on planetary systems and the potential for life elsewhere in the universe.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Kepler_space_telescope",
+    "citationTitle": "Wikipedia: Kepler space telescope"
+  },
+  {
+    "id": "2e190bd4-56d6-4fd8-a0c5-dc52bd04f724",
+    "text": "Which spacecraft was the first to successfully land on the far side of the Moon?",
+    "options": [
+      "Luna 3",
+      "Chang'e 4",
+      "Apollo 8",
+      "Luna 9"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Chang'e 4 achieved the first soft landing on the Moon's far side in January 2019.",
+    "detailedExplanation": "China's Chang'e 4 mission made history on January 3, 2019, when it became the first spacecraft to successfully perform a soft landing on the far side of the Moon. The mission included both a lander and the Yutu-2 rover, which began exploring the Von Kármán crater in the South Pole-Aitken Basin. This achievement was particularly challenging due to communication difficulties, as the far side of the Moon is not visible from Earth, requiring a relay satellite called Queqiao positioned at the L2 Lagrange point.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Chang%27e_4",
+    "citationTitle": "Wikipedia: Chang'e 4"
+  },
+  {
+    "id": "f14581a7-b1d5-4339-a120-a9e41f0d2975",
+    "text": "What was the duration of Valeri Polyakov's record-breaking continuous spaceflight aboard Mir?",
+    "options": [
+      "365 days",
+      "437 days",
+      "520 days",
+      "342 days"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Valeri Polyakov spent 437 days continuously in space from 1994-1995, setting the record for longest single spaceflight.",
+    "detailedExplanation": "Russian cosmonaut Valeri Polyakov holds the record for the longest continuous time spent in space by a human, spending 437 days and 18 hours aboard the Mir space station from January 8, 1994, to March 22, 1995. This mission was part of studies on the long-term effects of spaceflight on the human body, crucial research for future missions to Mars. Remarkably, Polyakov was able to walk unaided immediately after landing, demonstrating that humans could potentially survive the journey to Mars and back.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Valeri_Polyakov",
+    "citationTitle": "Wikipedia: Valeri Polyakov"
+  },
+  {
+    "id": "e779416f-16fc-4186-8736-2b3850e77617",
+    "text": "Which mission first detected organic compounds on Mars?",
+    "options": [
+      "Viking 1",
+      "Mars Pathfinder",
+      "Phoenix",
+      "Curiosity"
+    ],
+    "correctIndex": 3,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "NASA's Curiosity rover first definitively detected organic compounds in Martian rocks in 2014.",
+    "detailedExplanation": "NASA's Mars Science Laboratory mission, featuring the Curiosity rover, made the groundbreaking discovery of organic compounds in Martian rocks in 2014. Using its Sample Analysis at Mars (SAM) instrument, Curiosity detected chlorobenzene and dichloroalkanes in drill samples from the Yellowknife Bay area in Gale Crater. While Viking missions in the 1970s had detected chlorinated compounds, these were initially attributed to contamination from Earth-based cleaning solvents, making Curiosity's findings the first definitive detection of indigenous organic molecules on Mars.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Life_on_Mars#Organic_compounds",
+    "citationTitle": "Wikipedia: Life on Mars"
+  },
+  {
+    "id": "f9d69dd8-4972-4dd7-939a-af3b1cf12f54",
+    "text": "What was the first spacecraft to enter orbit around an asteroid?",
+    "options": [
+      "NEAR Shoemaker",
+      "Dawn",
+      "Hayabusa",
+      "Deep Impact"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "NEAR Shoemaker became the first spacecraft to orbit an asteroid when it entered orbit around 433 Eros in 2000.",
+    "detailedExplanation": "NASA's Near Earth Asteroid Rendezvous (NEAR) Shoemaker spacecraft achieved a historic milestone on February 14, 2000, when it became the first spacecraft to successfully enter orbit around an asteroid, 433 Eros. The mission spent nearly a year studying the near-Earth asteroid, collecting over 160,000 images and mapping its composition, geology, and gravitational field. The spacecraft concluded its mission with an unexpected bonus by successfully landing on Eros's surface in February 2001, transmitting data from the surface for two weeks before going silent.",
+    "citationUrl": "https://en.wikipedia.org/wiki/NEAR_Shoemaker",
+    "citationTitle": "Wikipedia: NEAR Shoemaker"
+  },
+  {
+    "id": "ac28954b-011a-4cfa-8f2f-7939bee8c919",
+    "text": "Which space telescope was the first to be serviced by astronauts in space?",
+    "options": [
+      "Hubble Space Telescope",
+      "Spitzer Space Telescope",
+      "Kepler Space Telescope",
+      "Compton Gamma Ray Observatory"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "The Hubble Space Telescope was serviced five times by Space Shuttle crews, starting in 1993.",
+    "detailedExplanation": "The Hubble Space Telescope holds the unique distinction of being the first and only space telescope designed for in-orbit servicing by astronauts. Between 1993 and 2009, five Space Shuttle servicing missions were conducted to maintain, upgrade, and repair Hubble. The first servicing mission (STS-61) in December 1993 was particularly crucial, as it corrected Hubble's spherical aberration problem by installing the Corrective Optics Space Telescope Axial Replacement (COSTAR) and a new Wide Field and Planetary Camera. These missions extended Hubble's operational life far beyond its original 15-year design specification.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Hubble_Space_Telescope_servicing_missions",
+    "citationTitle": "Wikipedia: Hubble Space Telescope servicing missions"
+  },
+  {
+    "id": "b5ec558f-2c43-48dd-85b2-689b88cb5253",
+    "text": "What was the first spacecraft to achieve a gravitational assist or 'slingshot' maneuver around a planet?",
+    "options": [
+      "Pioneer 10",
+      "Mariner 10",
+      "Voyager 1",
+      "Luna 3"
+    ],
+    "correctIndex": 3,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Luna 3 performed the first gravitational assist in 1959, using Earth's gravity to photograph the Moon's far side.",
+    "detailedExplanation": "The Soviet Luna 3 spacecraft achieved the first gravitational assist maneuver in October 1959, though this technique wasn't fully recognized or intentionally exploited at the time. Luna 3 used Earth's gravitational field to help stabilize its trajectory and enable it to photograph the far side of the Moon for the first time. While Luna 3 pioneered the technique, Mariner 10 in 1974 was the first mission to deliberately use gravitational assist as a primary mission strategy, using Venus's gravity to reach Mercury and enabling multiple Mercury flybys with minimal fuel consumption.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Luna_3",
+    "citationTitle": "Wikipedia: Luna 3"
+  },
+  {
+    "id": "f4ed90d0-06a2-40e6-abfa-02e8cc37be5a",
+    "text": "Which was the first spacecraft to successfully return samples from a comet?",
+    "options": [
+      "Giotto",
+      "Deep Impact",
+      "Stardust",
+      "Rosetta"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "NASA's Stardust mission returned samples from Comet Wild 2 to Earth in 2006.",
+    "detailedExplanation": "NASA's Stardust mission made history by becoming the first spacecraft to return samples from a comet to Earth. Launched in 1999, Stardust flew by Comet Wild 2 in January 2004, collecting dust particles in aerogel collectors during its closest approach. The sample return capsule successfully landed in the Utah desert in January 2006, bringing back thousands of particles from the comet's coma and tail, as well as interstellar dust particles. Analysis of these samples provided unprecedented insights into the composition and formation of comets, confirming that they contain both high-temperature and low-temperature materials from the early solar system.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Stardust_(spacecraft)",
+    "citationTitle": "Wikipedia: Stardust (spacecraft)"
+  },
+  {
+    "id": "4cb757d4-528d-4f08-a862-32fba5e40689",
+    "text": "What was the first artificial satellite to be launched by a private company?",
+    "options": [
+      "Conestoga 1",
+      "Falcon 1 Flight 4",
+      "Electron Test Flight",
+      "Pegasus XL"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Conestoga 1, built by Space Services Inc., was the first privately-built satellite launched in 1982, though it failed to reach orbit.",
+    "detailedExplanation": "The first artificial satellite launched by a private company was Conestoga 1, developed by Space Services Inc. of America and launched on September 9, 1982. However, this mission failed to reach orbit due to a malfunction in the rocket's fourth stage. The first successful private satellite launch was achieved by Orbital Sciences Corporation's Pegasus rocket in 1990, which deployed several small satellites. SpaceX later became the first private company to successfully launch, orbit, and recover a spacecraft with their Dragon capsule in 2010, and the first private company to send astronauts to the International Space Station in 2020.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Private_spaceflight",
+    "citationTitle": "Wikipedia: Private spaceflight"
+  },
+  {
+    "id": "f23ac572-0fd3-4241-a12a-5e52cd49e2d7",
+    "text": "Which spacecraft became the first human-made object to enter interstellar space, crossing the heliopause in August 2012?",
+    "options": [
+      "Voyager 1",
+      "Voyager 2",
+      "Pioneer 10",
+      "New Horizons"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Voyager 1 crossed the heliopause in August 2012, becoming the first human-made object to enter interstellar space.",
+    "detailedExplanation": "Launched in 1977, Voyager 1 made history on August 25, 2012, when it crossed the heliopause - the boundary where the solar wind from our Sun gives way to the interstellar medium. This milestone made it the first human-made object to leave the solar system and enter interstellar space. The spacecraft continues to transmit data back to Earth despite being over 14 billion miles away, providing unprecedented insights into the space between stars.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Voyager_1",
+    "citationTitle": "Wikipedia: Voyager 1"
+  },
+  {
+    "id": "615282a6-fae0-4153-961b-0b2c38f273e9",
+    "text": "What was the name of the first successful Mars rover mission that landed on July 4, 1997, and deployed the Sojourner rover?",
+    "options": [
+      "Mars Observer",
+      "Mars Pathfinder",
+      "Mars Global Surveyor",
+      "Mars Climate Orbiter"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Mars Pathfinder successfully landed on Mars on July 4, 1997, and deployed the first successful Mars rover, Sojourner.",
+    "detailedExplanation": "Mars Pathfinder was a groundbreaking mission that demonstrated a low-cost approach to Mars exploration. The mission consisted of a stationary lander and a small rover named Sojourner, which became the first successful rover to operate on Mars. Landing in Ares Vallis on July 4, 1997, the mission far exceeded its planned 30-day duration, operating for 85 days and revolutionizing our understanding of Martian geology and atmosphere while proving that mobile exploration of Mars was feasible.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Mars_Pathfinder",
+    "citationTitle": "Wikipedia: Mars Pathfinder"
+  }
+]

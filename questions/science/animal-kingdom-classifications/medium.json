@@ -1,0 +1,342 @@
+[
+  {
+    "id": "e70c1c8d-b78f-4816-9c26-dafa65d88aa6",
+    "text": "Who developed the theory of evolution by natural selection, publishing it in 'On the Origin of Species'?",
+    "options": [
+      "Gregor Mendel",
+      "Charles Darwin",
+      "Alfred Russel Wallace",
+      "Jean-Baptiste Lamarck"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Charles Darwin published his theory of evolution by natural selection in 1859, fundamentally changing our understanding of life on Earth.",
+    "detailedExplanation": "Charles Darwin published 'On the Origin of Species by Means of Natural Selection' in 1859, presenting his theory that all species descended from common ancestors through a process he called natural selection. His theory was based on observations made during his voyage on the HMS Beagle and years of subsequent research. While Alfred Russel Wallace independently conceived a similar theory, Darwin's comprehensive work became the foundation of modern evolutionary biology and revolutionized the biological sciences.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Charles_Darwin",
+    "citationTitle": "Wikipedia: Charles Darwin"
+  },
+  {
+    "id": "2f6bf4b6-9ff6-436f-96b7-50cfa7b637cc",
+    "text": "What is the correct order of taxonomic ranks from largest to smallest?",
+    "options": [
+      "Kingdom, Phylum, Class, Order, Family, Genus, Species",
+      "Kingdom, Class, Phylum, Order, Family, Genus, Species",
+      "Phylum, Kingdom, Class, Order, Family, Genus, Species",
+      "Kingdom, Phylum, Order, Class, Family, Genus, Species"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "The taxonomic hierarchy from broadest to most specific is Kingdom, Phylum, Class, Order, Family, Genus, Species.",
+    "detailedExplanation": "Taxonomic classification follows a hierarchical system developed by Carl Linnaeus in the 18th century. Each level becomes progressively more specific, with organisms sharing more characteristics as you move down the hierarchy. The mnemonic 'King Philip Came Over For Good Soup' is often used to remember this sequence. Modern taxonomy sometimes includes additional ranks like Domain (above Kingdom) and various sub-categories, but these seven remain the primary levels used in biological classification.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Taxonomic_rank",
+    "citationTitle": "Wikipedia: Taxonomic rank"
+  },
+  {
+    "id": "21904cc2-43db-4c34-bdc2-40373f5e28af",
+    "text": "Which of these animal groups is characterized by having a notochord at some stage of their development?",
+    "options": [
+      "Echinoderms",
+      "Mollusks",
+      "Chordates",
+      "Cnidarians"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Chordates are defined by having a notochord, a flexible rod-like structure, at some point in their development.",
+    "detailedExplanation": "The phylum Chordata includes all vertebrates (fish, amphibians, reptiles, birds, and mammals) as well as some invertebrate groups like lancelets and tunicates. The defining characteristic is the presence of a notochord, a flexible rod that provides structural support, at least during embryonic development. In most vertebrates, the notochord is eventually replaced by the vertebral column (spine). Chordates also possess a dorsal nerve cord, pharyngeal gill slits, and a post-anal tail at some stage of their development.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Chordate",
+    "citationTitle": "Wikipedia: Chordate"
+  },
+  {
+    "id": "6eab5f56-8dfb-43f5-9bc4-3568a3d6fc68",
+    "text": "Which phylum do starfish, sea urchins, and sand dollars belong to?",
+    "options": [
+      "Cnidaria",
+      "Echinodermata",
+      "Mollusca",
+      "Arthropoda"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Starfish, sea urchins, and sand dollars are all echinoderms, characterized by their spiny skin and radial symmetry.",
+    "detailedExplanation": "Echinodermata is a phylum of marine animals that includes starfish, sea urchins, sand dollars, sea cucumbers, and crinoids. These animals are characterized by their spiny skin (echino = spiny, derma = skin), radial symmetry (usually five-fold), and a unique water vascular system used for locomotion and feeding. They are deuterostomes, making them more closely related to vertebrates than many other invertebrate groups.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Echinoderm",
+    "citationTitle": "Wikipedia: Echinoderm"
+  },
+  {
+    "id": "8aa729b2-62c9-4baa-b400-560da94361bf",
+    "text": "What is the correct order of taxonomic classification from broadest to most specific?",
+    "options": [
+      "Kingdom, Phylum, Class, Order, Family, Genus, Species",
+      "Kingdom, Class, Phylum, Order, Family, Genus, Species",
+      "Phylum, Kingdom, Class, Order, Family, Genus, Species",
+      "Kingdom, Phylum, Order, Class, Family, Genus, Species"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "The correct taxonomic hierarchy is Kingdom, Phylum, Class, Order, Family, Genus, Species (remembered by 'King Philip Came Over For Good Soup').",
+    "detailedExplanation": "Taxonomic classification, developed by Carl Linnaeus, organizes living organisms into a hierarchical system of increasingly specific categories. Starting from the broadest category, the order is: Kingdom (e.g., Animalia), Phylum (e.g., Chordata), Class (e.g., Mammalia), Order (e.g., Primates), Family (e.g., Hominidae), Genus (e.g., Homo), and Species (e.g., sapiens). This system allows scientists to organize and understand the relationships between all living organisms.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Taxonomic_rank",
+    "citationTitle": "Wikipedia: Taxonomic rank"
+  },
+  {
+    "id": "39319e3c-b402-4f83-8a6b-a0025e217c19",
+    "text": "Which class of vertebrates includes animals that undergo metamorphosis and can breathe through both lungs and skin?",
+    "options": [
+      "Reptilia",
+      "Amphibia",
+      "Aves",
+      "Mammalia"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Amphibians like frogs and salamanders undergo metamorphosis and have permeable skin that assists with respiration.",
+    "detailedExplanation": "Amphibia is the class of vertebrates that includes frogs, toads, salamanders, and caecilians. These animals are characterized by their ability to live both in water and on land (amphi = both, bios = life), undergoing metamorphosis from aquatic larvae to terrestrial or semi-terrestrial adults. Their skin is typically moist and permeable, allowing for cutaneous respiration alongside their lungs. This dual respiratory system is unique among vertebrate classes and reflects their evolutionary transition from aquatic to terrestrial life.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Amphibian",
+    "citationTitle": "Wikipedia: Amphibian"
+  },
+  {
+    "id": "e25d8e0b-d5d9-4f78-9a58-5c0b78212bf8",
+    "text": "What distinguishes animals in the phylum Cnidaria from other animal phyla?",
+    "options": [
+      "They have jointed legs",
+      "They possess stinging cells called cnidocytes",
+      "They have a hard exoskeleton",
+      "They are all microscopic"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Cnidarians are characterized by their specialized stinging cells called cnidocytes, which contain nematocysts for capturing prey and defense.",
+    "detailedExplanation": "Cnidaria is a phylum that includes jellyfish, corals, sea anemones, and hydras. The defining characteristic of cnidarians is the presence of cnidocytes, specialized cells containing nematocysts - tiny, harpoon-like structures that can inject toxins into prey or predators. These animals also display radial symmetry and have a simple body plan with a central gastrovascular cavity. They exist in two main body forms: the polyp (like sea anemones) and the medusa (like jellyfish).",
+    "citationUrl": "https://en.wikipedia.org/wiki/Cnidaria",
+    "citationTitle": "Wikipedia: Cnidaria"
+  },
+  {
+    "id": "502cc09b-cd90-4793-af89-0485f59cd0b4",
+    "text": "Which animal group is characterized by having a notochord at some stage of their development?",
+    "options": [
+      "Arthropods",
+      "Mollusks",
+      "Chordates",
+      "Annelids"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Chordates are defined by having a notochord, a flexible rod-like structure that provides support and is present at some stage of development.",
+    "detailedExplanation": "Chordata is the phylum that includes all vertebrates (fish, amphibians, reptiles, birds, mammals) as well as some invertebrates like lancelets and tunicates. All chordates share four key characteristics at some point in their development: a notochord (a flexible, rod-shaped structure), a dorsal hollow nerve cord, pharyngeal slits, and a post-anal tail. In most vertebrates, the notochord is replaced by the vertebral column during development, but it serves as the primary structural support in early embryonic stages.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Chordate",
+    "citationTitle": "Wikipedia: Chordate"
+  },
+  {
+    "id": "517a86da-fd6e-4839-a680-c97d7e76afc6",
+    "text": "What type of body cavity do animals in the phylum Platyhelminthes (flatworms) possess?",
+    "options": [
+      "Coelom",
+      "Pseudocoelom",
+      "Acoelomate",
+      "Hemocoel"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Flatworms are acoelomate, meaning they lack a body cavity and have solid bodies with organs embedded in tissue.",
+    "detailedExplanation": "Platyhelminthes, or flatworms, are acoelomate animals, meaning they lack a body cavity (coelom). Instead, their organs are embedded directly in the mesenchyme tissue between the outer body wall and the digestive tract. This body plan limits their size and complexity compared to animals with body cavities. Flatworms include free-living planarians as well as parasitic tapeworms and flukes. Their flattened body shape maximizes surface area for gas exchange and nutrient absorption, compensating for the lack of specialized circulatory and respiratory systems.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Flatworm",
+    "citationTitle": "Wikipedia: Flatworm"
+  },
+  {
+    "id": "52416c97-0fe7-4d09-9cd3-cc7b8fcfd220",
+    "text": "Animals that are bilaterally symmetrical and have three germ layers during development are called what?",
+    "options": [
+      "Diploblastic",
+      "Triploblastic",
+      "Asymmetric",
+      "Radially symmetric"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Triploblastic animals develop from three germ layers (ectoderm, mesoderm, endoderm) and typically show bilateral symmetry.",
+    "detailedExplanation": "Triploblastic animals are those that develop from three primary germ layers during embryonic development: the ectoderm (outer layer), mesoderm (middle layer), and endoderm (inner layer). These layers give rise to different organ systems - ectoderm forms the nervous system and skin, mesoderm forms muscles and circulatory system, and endoderm forms the digestive tract. Most triploblastic animals exhibit bilateral symmetry and include all complex animals from flatworms to humans. This is in contrast to diploblastic animals like cnidarians, which have only two germ layers.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Triploblasty",
+    "citationTitle": "Wikipedia: Triploblasty"
+  },
+  {
+    "id": "deb38ae1-dac3-432b-acef-5f17e10bb3bb",
+    "text": "Which taxonomic rank comes directly below 'Class' in the standard biological classification system?",
+    "options": [
+      "Family",
+      "Order",
+      "Genus",
+      "Phylum"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Order comes directly below Class in the hierarchy: Kingdom, Phylum, Class, Order, Family, Genus, Species.",
+    "detailedExplanation": "The standard taxonomic hierarchy, established by Carl Linnaeus and refined over centuries, follows a specific order from broadest to most specific: Kingdom, Phylum, Class, Order, Family, Genus, and Species. This system allows scientists to organize and classify all living organisms in a logical, hierarchical manner. Each level represents increasingly specific groupings of organisms that share common characteristics.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Taxonomic_rank",
+    "citationTitle": "Wikipedia: Taxonomic rank"
+  },
+  {
+    "id": "f0478456-997e-4c4d-82b7-5f80ea03eb73",
+    "text": "What is the scientific name for humans using binomial nomenclature?",
+    "options": [
+      "Homo erectus",
+      "Homo sapiens",
+      "Homo habilis",
+      "Homo neanderthalensis"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Homo sapiens is the binomial name for modern humans, where 'Homo' is the genus and 'sapiens' means 'wise' in Latin.",
+    "detailedExplanation": "Binomial nomenclature, developed by Carl Linnaeus in the 18th century, uses two names to identify each species: the genus name (capitalized) followed by the specific epithet (lowercase). For humans, 'Homo' represents our genus, which includes other extinct human species, while 'sapiens' (meaning 'wise' or 'knowing') distinguishes our particular species. This system ensures that every species has a unique, universally recognized scientific name.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Homo_sapiens",
+    "citationTitle": "Wikipedia: Homo sapiens"
+  },
+  {
+    "id": "9bca9c91-9768-42d3-9f7d-778b2be2f209",
+    "text": "Which phylum do starfish, sea urchins, and sea cucumbers belong to?",
+    "options": [
+      "Cnidaria",
+      "Mollusca",
+      "Echinodermata",
+      "Arthropoda"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "These marine animals belong to phylum Echinodermata, characterized by their spiny skin and radial symmetry.",
+    "detailedExplanation": "Echinodermata, meaning 'spiny skin' in Greek, is a phylum of exclusively marine animals that includes starfish, sea urchins, sea cucumbers, brittle stars, and sea lilies. These creatures are characterized by their unique water vascular system, radial symmetry (usually five-fold), and endoskeleton made of calcium carbonate plates. Despite their simple appearance, echinoderms are actually more closely related to vertebrates than to other invertebrate groups.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Echinoderm",
+    "citationTitle": "Wikipedia: Echinoderm"
+  },
+  {
+    "id": "69cec088-55a9-458f-b1d2-d52bdc6ae791",
+    "text": "What characteristic distinguishes vertebrates from invertebrates?",
+    "options": [
+      "Having a brain",
+      "Having a backbone",
+      "Having bilateral symmetry",
+      "Having blood circulation"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Vertebrates are distinguished by having a backbone (vertebral column), while invertebrates lack this spinal structure.",
+    "detailedExplanation": "The presence of a vertebral column, commonly called a backbone or spine, is the defining characteristic that separates vertebrates from invertebrates. This structure, made up of individual vertebrae, protects the spinal cord and provides structural support. Vertebrates include fish, amphibians, reptiles, birds, and mammals, while invertebrates encompass all other animals including insects, mollusks, cnidarians, and many others. Interestingly, about 97% of all animal species are invertebrates.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Vertebrate",
+    "citationTitle": "Wikipedia: Vertebrate"
+  },
+  {
+    "id": "713747fe-b6b6-4f8f-aef8-c6efd1b4e2bc",
+    "text": "What is the largest order within the class Mammalia?",
+    "options": [
+      "Primates",
+      "Carnivora",
+      "Rodentia",
+      "Chiroptera"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Rodentia (rodents) is the largest mammalian order, comprising about 40% of all mammal species.",
+    "detailedExplanation": "Order Rodentia contains over 2,200 species, making up roughly 40% of all mammalian species. This incredibly diverse group includes mice, rats, squirrels, beavers, porcupines, and many others. Rodents are found on every continent except Antarctica and have adapted to nearly every habitat on Earth. They are characterized by their continuously growing incisors, which they must constantly gnaw to keep at a manageable length. Their success is largely due to their high reproductive rate and adaptability.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Rodent",
+    "citationTitle": "Wikipedia: Rodent"
+  },
+  {
+    "id": "7fa88d87-d33e-4291-8a48-da7edde32038",
+    "text": "Which kingdom do mushrooms and yeasts belong to?",
+    "options": [
+      "Plantae",
+      "Protista",
+      "Fungi",
+      "Monera"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Mushrooms and yeasts belong to kingdom Fungi, which are neither plants nor animals but form their own distinct kingdom.",
+    "detailedExplanation": "Kingdom Fungi includes mushrooms, yeasts, molds, and other fungal organisms. Unlike plants, fungi cannot photosynthesize and must obtain nutrients by decomposing organic matter or forming symbiotic relationships with other organisms. Unlike animals, they have cell walls (made of chitin rather than cellulose) and typically reproduce through spores. Fungi play crucial ecological roles as decomposers and form important partnerships with plant roots (mycorrhizae) that help plants absorb nutrients.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Fungus",
+    "citationTitle": "Wikipedia: Fungus"
+  },
+  {
+    "id": "30d18c15-0e20-479b-a385-77cb82696a96",
+    "text": "What type of symmetry do most members of phylum Cnidaria exhibit?",
+    "options": [
+      "Bilateral symmetry",
+      "Radial symmetry",
+      "Asymmetry",
+      "Spherical symmetry"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Cnidarians like jellyfish, corals, and sea anemones exhibit radial symmetry, with body parts arranged around a central axis.",
+    "detailedExplanation": "Phylum Cnidaria, which includes jellyfish, sea anemones, corals, and hydras, typically displays radial symmetry. This means their body parts are arranged around a central axis, like spokes on a wheel, allowing them to respond to stimuli from any direction equally well. This is in contrast to bilateral symmetry (found in most animals, including humans) where the body has distinct left and right sides. Cnidarians are also characterized by their stinging cells called cnidocytes, which contain nematocysts used for capturing prey and defense.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Cnidaria",
+    "citationTitle": "Wikipedia: Cnidaria"
+  },
+  {
+    "id": "84638f6e-b217-4bd6-848c-8f92c802bd69",
+    "text": "Which taxonomic group contains animals that have three body segments, six legs, and often wings?",
+    "options": [
+      "Arachnida",
+      "Insecta",
+      "Crustacea",
+      "Myriapoda"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Insects (class Insecta) are characterized by having three body segments (head, thorax, abdomen), six legs, and often wings.",
+    "detailedExplanation": "The class Insecta is the largest group within the phylum Arthropoda and includes beetles, flies, butterflies, ants, and bees. The defining characteristics of insects include three distinct body segments (head, thorax, and abdomen), exactly six legs attached to the thorax, and typically one or two pairs of wings. This distinguishes them from other arthropods like spiders (Arachnida) which have eight legs and two body segments, crustaceans like crabs and lobsters, and myriapods like centipedes and millipedes which have many legs.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Insect",
+    "citationTitle": "Wikipedia: Insect"
+  },
+  {
+    "id": "d48ddcf8-6fe4-460a-bf4d-4b8851951803",
+    "text": "Which of the following animals belongs to the phylum Cnidaria?",
+    "options": [
+      "Starfish",
+      "Jellyfish",
+      "Octopus",
+      "Sea cucumber"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Jellyfish belong to phylum Cnidaria, characterized by stinging cells called cnidocytes.",
+    "detailedExplanation": "Cnidaria is a phylum of aquatic animals that includes jellyfish, corals, sea anemones, and hydras. These animals are characterized by their radial symmetry, simple body plan with a single opening serving as both mouth and anus, and specialized stinging cells called cnidocytes. Starfish belong to Echinodermata, octopus to Mollusca, and sea cucumbers to Echinodermata.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Cnidaria",
+    "citationTitle": "Wikipedia: Cnidaria"
+  },
+  {
+    "id": "0260377c-5c68-4397-b3ff-8db7e6b8daea",
+    "text": "What is the correct taxonomic order from broadest to most specific classification?",
+    "options": [
+      "Kingdom, Phylum, Class, Order, Family, Genus, Species",
+      "Kingdom, Class, Phylum, Order, Family, Genus, Species",
+      "Phylum, Kingdom, Class, Order, Family, Genus, Species",
+      "Kingdom, Phylum, Order, Class, Family, Genus, Species"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "The correct taxonomic hierarchy is Kingdom, Phylum, Class, Order, Family, Genus, Species (remembered by 'King Philip Came Over For Good Soup').",
+    "detailedExplanation": "Taxonomic classification follows a hierarchical system established by Carl Linnaeus, where each level becomes increasingly specific. Starting from the broadest category (Kingdom), it narrows down through Phylum, Class, Order, Family, Genus, and finally Species - the most specific level. This system allows scientists to organize and categorize all living organisms in a standardized way that reflects evolutionary relationships.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Taxonomic_rank",
+    "citationTitle": "Wikipedia: Taxonomic rank"
+  }
+]

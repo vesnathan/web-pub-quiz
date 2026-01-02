@@ -1,11 +1,11 @@
-'use client';
+"use client";
 
-import { useEffect } from 'react';
-import { AblyService } from '@/services/AblyService';
-import { useGameStore } from '@/stores/gameStore';
-import { useAuth } from '@/contexts/AuthContext';
-import { useGameEventHandlers } from './useGameEventHandlers';
-import { usePlayerEventListeners } from './usePlayerActions';
+import { useEffect } from "react";
+import { AblyService } from "@/services/AblyService";
+import { useGameStore } from "@/stores/gameStore";
+import { useAuth } from "@/contexts/AuthContext";
+import { useGameEventHandlers } from "./useGameEventHandlers";
+import { usePlayerEventListeners } from "./usePlayerActions";
 
 /**
  * Main Ably connection hook
@@ -58,7 +58,7 @@ export function useAbly(roomId?: string | null): void {
       const members = await AblyService.getPresenceMembers();
       const players = members.map((m) => ({
         id: m.clientId!,
-        displayName: m.data?.displayName || 'Player',
+        displayName: m.data?.displayName || "Player",
         isAI: false,
         latency: 0,
         score: 0,

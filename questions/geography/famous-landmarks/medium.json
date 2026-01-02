@@ -1,0 +1,342 @@
+[
+  {
+    "id": "ba8efba8-0696-4073-9baa-b367e1086aaf",
+    "text": "The ancient city of Petra, famous for its rock-cut architecture, is located in which modern-day country?",
+    "options": [
+      "Egypt",
+      "Jordan",
+      "Syria",
+      "Lebanon"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "Petra is located in southern Jordan and was the capital city of the ancient Nabataean kingdom.",
+    "detailedExplanation": "Petra, also known as the 'Rose City' due to the color of the stone from which it is carved, is an archaeological site in southern Jordan. It was established around the 4th century BC as the capital city of the Nabataean Kingdom. The site is famous for its water conduit system and rock-cut architecture, including the iconic Treasury building. It was designated a UNESCO World Heritage Site in 1985.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Petra",
+    "citationTitle": "Wikipedia: Petra"
+  },
+  {
+    "id": "41057435-904d-4e87-933d-0d346fbcd707",
+    "text": "How many faces does the Lincoln Memorial Penny's subject have carved into Mount Rushmore?",
+    "options": [
+      "Two",
+      "Three",
+      "Four",
+      "Five"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "Mount Rushmore features four presidential faces: Washington, Jefferson, Theodore Roosevelt, and Lincoln.",
+    "detailedExplanation": "Mount Rushmore National Memorial in South Dakota features the carved faces of four U.S. Presidents: George Washington, Thomas Jefferson, Theodore Roosevelt, and Abraham Lincoln. The monument was carved between 1927 and 1941 under the direction of sculptor Gutzon Borglum. Each face is approximately 60 feet tall, and the monument represents the first 150 years of American history.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Mount_Rushmore",
+    "citationTitle": "Wikipedia: Mount Rushmore"
+  },
+  {
+    "id": "77e058a1-3f94-45f7-82c0-1d5a1af2947a",
+    "text": "The Leaning Tower of Pisa began tilting during its construction due to what underlying problem?",
+    "options": [
+      "Earthquake damage",
+      "Soft ground on one side",
+      "Poor architectural design",
+      "War damage"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "The tower tilts because it was built on soft ground that couldn't properly support the structure's weight.",
+    "detailedExplanation": "The Leaning Tower of Pisa began tilting during construction in the 12th century due to soft ground on one side of the foundation, consisting of clay, fine sand, and shells. The foundation was only 3 meters deep, inadequate for a structure of its height and weight. Construction was halted several times over nearly 200 years as engineers attempted to correct the tilt, but the tower continued to lean, currently at about 3.97 degrees from vertical.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Leaning_Tower_of_Pisa",
+    "citationTitle": "Wikipedia: Leaning Tower of Pisa"
+  },
+  {
+    "id": "afc3b17d-df8e-4d30-9c1d-99f1d58c527e",
+    "text": "Which landmark serves as the dividing line between Europe and Asia in Istanbul?",
+    "options": [
+      "Golden Horn",
+      "Bosphorus Strait",
+      "Sea of Marmara",
+      "Galata Bridge"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "The Bosphorus Strait divides Istanbul between its European and Asian sides.",
+    "detailedExplanation": "The Bosphorus Strait is a natural waterway that runs through Istanbul, Turkey, connecting the Black Sea to the Sea of Marmara. It forms part of the boundary between Europe and Asia, with the western side of Istanbul located in Europe and the eastern side in Asia. The strait is approximately 30 kilometers long and varies in width from 700 to 3,000 meters, making Istanbul the only major city in the world that spans two continents.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Bosphorus",
+    "citationTitle": "Wikipedia: Bosphorus"
+  },
+  {
+    "id": "40bbe8e3-579a-48c2-b85d-15d5cd157a42",
+    "text": "The Christ the Redeemer statue overlooking Rio de Janeiro stands atop which mountain?",
+    "options": [
+      "Sugarloaf Mountain",
+      "Corcovado",
+      "Pedra da Gávea",
+      "Tijuca Peak"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "The Christ the Redeemer statue stands on top of Corcovado mountain in Rio de Janeiro.",
+    "detailedExplanation": "Christ the Redeemer (Cristo Redentor) is a 98-foot-tall Art Deco statue of Jesus Christ that stands atop the 2,300-foot Corcovado mountain in Rio de Janeiro, Brazil. Completed in 1931, the statue was designed by French sculptor Paul Landowski and built by Brazilian engineer Heitor da Silva Costa. The statue has become an iconic symbol of both Rio de Janeiro and Brazil, and was designated one of the New Seven Wonders of the World in 2007.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Christ_the_Redeemer_(statue)",
+    "citationTitle": "Wikipedia: Christ the Redeemer (statue)"
+  },
+  {
+    "id": "f61d95c6-7472-4c92-824a-bc43fb3ac585",
+    "text": "Neuschwanstein Castle in Germany served as inspiration for which famous fictional castle?",
+    "options": [
+      "Hogwarts Castle",
+      "Disney's Sleeping Beauty Castle",
+      "Dracula's Castle",
+      "Camelot"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "Neuschwanstein Castle inspired the design of Disney's Sleeping Beauty Castle in Disneyland.",
+    "detailedExplanation": "Neuschwanstein Castle, built in the 19th century by King Ludwig II of Bavaria, served as the primary inspiration for Sleeping Beauty Castle at Disneyland in California. Walt Disney visited the castle and was so impressed by its fairy-tale appearance that he used it as a model for his theme park's centerpiece. The Bavarian castle, with its romantic architecture and dramatic mountain setting, perfectly embodied the magical aesthetic Disney wanted to achieve.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Neuschwanstein_Castle",
+    "citationTitle": "Wikipedia: Neuschwanstein Castle"
+  },
+  {
+    "id": "e96536cb-0857-42f2-8828-375528a99e66",
+    "text": "How many time zones does the Great Wall of China cross?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correctIndex": 0,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "Despite its enormous length, the entire Great Wall of China lies within a single time zone - China Standard Time.",
+    "detailedExplanation": "Although the Great Wall of China stretches over 13,000 miles across northern China, the entire country operates on a single time zone called China Standard Time (CST), which is UTC+8. This means that despite the wall's massive east-west span, which would theoretically cross multiple time zones in other countries, it remains within just one time zone due to China's political decision to maintain unified time across the nation.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Great_Wall_of_China",
+    "citationTitle": "Wikipedia: Great Wall of China"
+  },
+  {
+    "id": "f90bceca-328e-4f70-92fb-270a8f814359",
+    "text": "Which landmark is known as 'La Gioconda' in its native country?",
+    "options": [
+      "Venus de Milo",
+      "The Thinker",
+      "Mona Lisa",
+      "David"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "The Mona Lisa is called 'La Gioconda' in Italian, referring to the subject's married name, Lisa Gherardini del Giocondo.",
+    "detailedExplanation": "The Mona Lisa, painted by Leonardo da Vinci between 1503 and 1519, is known as 'La Gioconda' in Italian and 'La Joconde' in French. The name comes from Lisa Gherardini's married name - she was the wife of Florentine merchant Francesco del Giocondo. The painting is housed in the Louvre Museum in Paris and is considered one of the most famous paintings in the world.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Mona_Lisa",
+    "citationTitle": "Wikipedia: Mona Lisa"
+  },
+  {
+    "id": "e6ec3f62-575b-4e56-8074-5530bce66802",
+    "text": "Mount Rushmore features the faces of four U.S. presidents. Which president was carved last?",
+    "options": [
+      "George Washington",
+      "Abraham Lincoln",
+      "Theodore Roosevelt",
+      "Thomas Jefferson"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "Abraham Lincoln's face was the final one completed on Mount Rushmore in 1941.",
+    "detailedExplanation": "Mount Rushmore was carved between 1927 and 1941 under the direction of sculptor Gutzon Borglum. The faces were carved in this order: Washington (1930), Jefferson (1936), Roosevelt (1939), and finally Lincoln (1941). Lincoln's face was the most challenging due to the quality of the granite in that area, and Borglum died in March 1941, just months before the project was completed by his son Lincoln Borglum.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Mount_Rushmore",
+    "citationTitle": "Wikipedia: Mount Rushmore"
+  },
+  {
+    "id": "fab9c19f-ba35-4232-b8dd-2bcbf9457fe5",
+    "text": "The Leaning Tower of Pisa began tilting during which phase of its construction?",
+    "options": [
+      "Before construction began",
+      "During the first floor",
+      "During the second floor",
+      "After completion"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "The tower began leaning during construction of the second floor due to soft ground and a shallow foundation.",
+    "detailedExplanation": "Construction of the Leaning Tower of Pisa began in 1173, and the tower started tilting during the construction of the second floor in 1178. The tilt was caused by soft ground on one side consisting of clay, fine sand, and shells, combined with a foundation that was only 3 meters deep. Various architects attempted to correct the lean during subsequent construction phases, but the distinctive tilt became the tower's most famous feature.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Leaning_Tower_of_Pisa",
+    "citationTitle": "Wikipedia: Leaning Tower of Pisa"
+  },
+  {
+    "id": "f05e1802-9583-4808-ad98-c15906ef3042",
+    "text": "Which ancient wonder of the world was located in the city of Alexandria?",
+    "options": [
+      "Colossus of Rhodes",
+      "Lighthouse of Alexandria",
+      "Hanging Gardens",
+      "Mausoleum at Halicarnassus"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "The Lighthouse of Alexandria, also known as the Pharos of Alexandria, was one of the Seven Wonders of the Ancient World.",
+    "detailedExplanation": "The Lighthouse of Alexandria, also called the Pharos of Alexandria, was a lighthouse built by the Ptolemaic Kingdom of ancient Egypt. Standing between 393 and 450 feet tall, it was one of the tallest man-made structures in the world for many centuries. Built around 280 BC on the small island of Pharos near Alexandria, it guided sailors safely into the harbor for over 1,500 years until it was severely damaged by earthquakes between 956 and 1323 AD.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Lighthouse_of_Alexandria",
+    "citationTitle": "Wikipedia: Lighthouse of Alexandria"
+  },
+  {
+    "id": "6a9eb8de-7648-4990-9ec5-1e3a479c533c",
+    "text": "Angkor Wat, the world's largest religious monument, was originally built for which religion?",
+    "options": [
+      "Buddhism",
+      "Hinduism",
+      "Islam",
+      "Christianity"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "Angkor Wat was originally constructed as a Hindu temple complex dedicated to the god Vishnu in the early 12th century.",
+    "detailedExplanation": "Angkor Wat was built in the early 12th century by King Suryavarman VII as a Hindu temple complex dedicated to the god Vishnu. Located in Cambodia, it was the capital of the Khmer Empire and originally served as the king's state temple and eventual mausoleum. By the late 13th century, it gradually transformed from a Hindu center of worship to a Buddhist temple, which it remains today. The complex covers over 400 acres and is considered the largest religious monument in the world.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Angkor_Wat",
+    "citationTitle": "Wikipedia: Angkor Wat"
+  },
+  {
+    "id": "6eb06b3a-5a3e-45e5-9a84-e986181f6beb",
+    "text": "Which famous landmark was originally built as the entrance arch to the 1889 World's Fair in Paris?",
+    "options": [
+      "Arc de Triomphe",
+      "Eiffel Tower",
+      "Notre-Dame Cathedral",
+      "Louvre Pyramid"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "The Eiffel Tower was constructed as the entrance arch for the 1889 Exposition Universelle (World's Fair) in Paris.",
+    "detailedExplanation": "The Eiffel Tower was built between 1887 and 1889 as the entrance to the 1889 World's Fair, commemorating the centennial of the French Revolution. Designed by Gustave Eiffel, it was initially intended to be temporary and was criticized by many Parisians as an eyesore. However, it proved useful for communication purposes and became the iconic symbol of Paris we know today.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Eiffel_Tower",
+    "citationTitle": "Wikipedia: Eiffel Tower"
+  },
+  {
+    "id": "57809c03-c852-46f0-a5ad-dcc18f42a26d",
+    "text": "Which famous statue was a gift from France to the United States to celebrate America's centennial and abolition of slavery?",
+    "options": [
+      "Lincoln Memorial",
+      "Mount Rushmore",
+      "Statue of Liberty",
+      "Washington Monument"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "The Statue of Liberty was a gift from France in 1886 to commemorate American independence and the abolition of slavery.",
+    "detailedExplanation": "The Statue of Liberty was designed by French sculptor Frédéric Auguste Bartholdi and its metal framework was built by Gustave Eiffel. The statue was intended to celebrate America's centennial in 1876 and commemorate the alliance between France and the United States during the American Revolution, as well as celebrate the recent abolition of slavery. Due to fundraising difficulties, it wasn't completed until 1886, ten years after the centennial.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Statue_of_Liberty",
+    "citationTitle": "Wikipedia: Statue of Liberty"
+  },
+  {
+    "id": "c645c901-3abc-4d75-8e47-825cb0e2f0b6",
+    "text": "Which famous landmark was originally built as the entrance arch to the 1889 World's Fair?",
+    "options": [
+      "Arc de Triomphe",
+      "Eiffel Tower",
+      "Brandenburg Gate",
+      "Gateway Arch"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "The Eiffel Tower was constructed as the entrance arch for the 1889 Exposition Universelle (World's Fair) in Paris.",
+    "detailedExplanation": "The Eiffel Tower was built by Gustave Eiffel for the 1889 Exposition Universelle held in Paris to commemorate the centennial of the French Revolution. Initially criticized by many Parisians as an eyesore, it was intended to be temporary and was supposed to be dismantled after 20 years. However, it proved too valuable as a radio transmission tower and became an iconic symbol of Paris and France.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Eiffel_Tower",
+    "citationTitle": "Wikipedia: Eiffel Tower"
+  },
+  {
+    "id": "ef76612e-97f9-46c9-9640-b374b29fb3b2",
+    "text": "The ancient city of Petra in Jordan is famous for buildings carved directly into what type of rock?",
+    "options": [
+      "Limestone",
+      "Granite",
+      "Sandstone",
+      "Marble"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "Petra's famous facades and buildings are carved directly into rose-red sandstone cliff faces.",
+    "detailedExplanation": "Petra, also known as the 'Rose City' due to the color of the stone, was the capital of the ancient Nabataean Kingdom. The city's most famous structures, including the Treasury (Al-Khazneh) and the Monastery, were carved directly into towering sandstone cliffs. The distinctive rose-red color comes from iron oxide in the sandstone, which creates stunning visual effects as the light changes throughout the day.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Petra",
+    "citationTitle": "Wikipedia: Petra"
+  },
+  {
+    "id": "192ba48b-6bef-4984-8961-8bbdc90e8d23",
+    "text": "Machu Picchu sits at approximately what elevation above sea level?",
+    "options": [
+      "5,000 feet (1,500m)",
+      "8,000 feet (2,400m)",
+      "11,000 feet (3,400m)",
+      "14,000 feet (4,300m)"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "Machu Picchu is located at approximately 8,000 feet (2,430 meters) above sea level in the Andes Mountains.",
+    "detailedExplanation": "The ancient Incan citadel of Machu Picchu sits at an elevation of 7,972 feet (2,430 meters) above sea level on the eastern slopes of the Huayna Picchu mountain in Peru. This high altitude location in the Andes Mountains contributed to its preservation, as it was hidden from Spanish conquistadors and remained largely unknown to the outside world until American historian Hiram Bingham brought it to international attention in 1911.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Machu_Picchu",
+    "citationTitle": "Wikipedia: Machu Picchu"
+  },
+  {
+    "id": "ef903c98-1268-43e8-a009-ea8611ed5709",
+    "text": "The Statue of Liberty was a gift from France to the United States, but which country supplied the pedestal?",
+    "options": [
+      "France",
+      "United States",
+      "United Kingdom",
+      "Canada"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "While France gifted the statue itself, the United States was responsible for funding and constructing the pedestal.",
+    "detailedExplanation": "The Statue of Liberty was a gift from France to the United States in 1886 to celebrate America's centennial and abolition of slavery. However, the agreement was that France would provide the statue while America would fund and build the pedestal. The American fundraising effort, led partly by newspaper publisher Joseph Pulitzer, raised the necessary funds from public donations. The pedestal was designed by American architect Richard Morris Hunt and built on Liberty Island.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Statue_of_Liberty",
+    "citationTitle": "Wikipedia: Statue of Liberty"
+  },
+  {
+    "id": "e3ed2a7d-3627-435e-8828-f7241dddfcb8",
+    "text": "Angkor Wat in Cambodia was originally built in the 12th century as a temple dedicated to which Hindu god?",
+    "options": [
+      "Shiva",
+      "Brahma",
+      "Vishnu",
+      "Ganesha"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "Angkor Wat was originally constructed as a Hindu temple complex dedicated to the god Vishnu.",
+    "detailedExplanation": "Angkor Wat was built in the early 12th century by King Suryavarman VII as the state temple and capital city of the Khmer Empire. It was originally dedicated to the Hindu god Vishnu, serving as the king's funerary temple. The temple's orientation faces west, which is associated with Vishnu and death in Hindu tradition. Later in the 12th century, it was gradually transformed into a Buddhist temple, which it remains today.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Angkor_Wat",
+    "citationTitle": "Wikipedia: Angkor Wat"
+  },
+  {
+    "id": "a56cc3c4-bb0b-475d-a0e9-98f472294ea4",
+    "text": "The Leaning Tower of Pisa began tilting during its construction due to problems with what?",
+    "options": [
+      "Strong winds",
+      "Poor foundation and soft soil",
+      "Earthquake damage",
+      "Architectural miscalculations"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "The tower's famous tilt is caused by inadequate foundation depth and soft clay soil on one side.",
+    "detailedExplanation": "Construction of the Leaning Tower of Pisa began in 1173, but the tower started tilting during construction due to a foundation that was only 3 meters deep and soft clay soil underneath. The foundation was inadequate for the tower's weight, and the soft soil on the south side caused the structure to sink and tilt. Construction was halted several times over nearly 200 years as engineers attempted various solutions. The tilt gradually increased over time until stabilization efforts in the late 20th and early 21st centuries reduced it from 5.5 degrees to about 3.97 degrees.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Leaning_Tower_of_Pisa",
+    "citationTitle": "Wikipedia: Leaning Tower of Pisa"
+  }
+]

@@ -1,12 +1,12 @@
-'use client';
+"use client";
 
-import { useEffect, useState } from 'react';
-import { Progress, CircularProgress } from '@nextui-org/react';
-import type { Question } from '@quiz/shared';
-import { useGameStore } from '@/stores/gameStore';
+import { useEffect, useState } from "react";
+import { Progress, CircularProgress } from "@nextui-org/react";
+import type { Question } from "@quiz/shared";
+import { useGameStore } from "@/stores/gameStore";
 
 interface QuestionDisplayProps {
-  question: Omit<Question, 'correctIndex'> | null;
+  question: Omit<Question, "correctIndex"> | null;
   questionIndex: number;
   totalQuestions: number;
 }
@@ -25,7 +25,7 @@ export function QuestionDisplay({
 
   // Countdown timer for question
   useEffect(() => {
-    if (!questionStartTime || !questionDuration || gamePhase !== 'question') {
+    if (!questionStartTime || !questionDuration || gamePhase !== "question") {
       setTimeRemaining(0);
       return;
     }
@@ -56,14 +56,15 @@ export function QuestionDisplay({
   }
 
   const progress = ((questionIndex + 1) / totalQuestions) * 100;
-  const timerProgress = questionDuration > 0 ? (timeRemaining / questionDuration) * 100 : 0;
+  const timerProgress =
+    questionDuration > 0 ? (timeRemaining / questionDuration) * 100 : 0;
   const timerSeconds = Math.ceil(timeRemaining / 1000);
 
   // Determine timer color based on time remaining
   const getTimerColor = () => {
-    if (timerSeconds <= 2) return 'danger';
-    if (timerSeconds <= 4) return 'warning';
-    return 'primary';
+    if (timerSeconds <= 2) return "danger";
+    if (timerSeconds <= 4) return "warning";
+    return "primary";
   };
 
   return (
@@ -82,7 +83,7 @@ export function QuestionDisplay({
             {question.category}
           </span>
           {/* Question Timer */}
-          {gamePhase === 'question' && timerSeconds > 0 && (
+          {gamePhase === "question" && timerSeconds > 0 && (
             <div className="flex items-center gap-2">
               <CircularProgress
                 value={timerProgress}
@@ -95,10 +96,15 @@ export function QuestionDisplay({
                 }}
                 showValueLabel={false}
               />
-              <span className={`text-lg font-bold ${
-                timerSeconds <= 2 ? 'text-red-400' :
-                timerSeconds <= 4 ? 'text-yellow-400' : 'text-primary-400'
-              }`}>
+              <span
+                className={`text-lg font-bold ${
+                  timerSeconds <= 2
+                    ? "text-red-400"
+                    : timerSeconds <= 4
+                      ? "text-yellow-400"
+                      : "text-primary-400"
+                }`}
+              >
                 {timerSeconds}s
               </span>
             </div>
@@ -106,7 +112,13 @@ export function QuestionDisplay({
         </div>
       </div>
       {isSetActive && (
-        <Progress value={progress} color="primary" size="sm" className="mb-6" aria-label="Question progress" />
+        <Progress
+          value={progress}
+          color="primary"
+          size="sm"
+          className="mb-6"
+          aria-label="Question progress"
+        />
       )}
 
       {/* Question */}
@@ -119,9 +131,9 @@ export function QuestionDisplay({
         <span
           className={`
             px-3 py-1 rounded-full text-xs font-medium
-            ${question.difficulty === 'easy' ? 'bg-green-900 text-green-300' : ''}
-            ${question.difficulty === 'medium' ? 'bg-yellow-900 text-yellow-300' : ''}
-            ${question.difficulty === 'hard' ? 'bg-red-900 text-red-300' : ''}
+            ${question.difficulty === "easy" ? "bg-green-900 text-green-300" : ""}
+            ${question.difficulty === "medium" ? "bg-yellow-900 text-yellow-300" : ""}
+            ${question.difficulty === "hard" ? "bg-red-900 text-red-300" : ""}
           `}
         >
           {question.difficulty}

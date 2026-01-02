@@ -1,0 +1,342 @@
+[
+  {
+    "id": "02827a8e-2934-40c9-92fe-bf930689807a",
+    "text": "Which is the smallest country in the world by land area?",
+    "options": [
+      "Monaco",
+      "Vatican City",
+      "San Marino",
+      "Liechtenstein"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "Vatican City is the smallest sovereign state in the world at just 0.17 square miles (0.44 square kilometers).",
+    "detailedExplanation": "Vatican City, officially Vatican City State, is an enclave within Rome, Italy. With an area of approximately 121 acres (49 hectares), it is by far the smallest internationally recognized sovereign state in the world by both area and population. The entire country can be walked across in about 20 minutes, and it contains famous landmarks like St. Peter's Basilica and the Sistine Chapel.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Vatican_City",
+    "citationTitle": "Wikipedia: Vatican City"
+  },
+  {
+    "id": "acf04c0f-e81c-42c2-99f2-c51c1c45c374",
+    "text": "Which desert holds the record as the largest hot desert in the world?",
+    "options": [
+      "Kalahari Desert",
+      "Gobi Desert",
+      "Sahara Desert",
+      "Arabian Desert"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "The Sahara Desert is the largest hot desert in the world, covering much of North Africa.",
+    "detailedExplanation": "The Sahara Desert spans approximately 3.5 million square miles (9 million square kilometers), making it roughly the size of the United States or China. It stretches across multiple North African countries including Morocco, Algeria, Tunisia, Libya, Egypt, Mauritania, Mali, Niger, Chad, and Sudan. While Antarctica is technically the largest desert overall, the Sahara holds the distinction of being the largest hot desert on Earth.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Sahara",
+    "citationTitle": "Wikipedia: Sahara"
+  },
+  {
+    "id": "c2ee112d-20c4-49c8-a808-5ac94a0386e8",
+    "text": "Which is the smallest US state by land area?",
+    "options": [
+      "Delaware",
+      "Rhode Island",
+      "Connecticut",
+      "Hawaii"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "Rhode Island is the smallest US state by land area, covering just 1,034 square miles (2,678 square kilometers).",
+    "detailedExplanation": "Rhode Island, officially known as the State of Rhode Island, covers only 1,034 square miles (2,678 square kilometers), making it the smallest state in the United States by land area. Despite its small size, it is the second-most densely populated state after New Jersey. The state is nicknamed 'The Ocean State' due to its extensive coastline relative to its size, and you can drive across the entire state in about an hour.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Rhode_Island",
+    "citationTitle": "Wikipedia: Rhode Island"
+  },
+  {
+    "id": "5db2f201-b78b-4830-bfb0-1e219a474994",
+    "text": "Which river has the largest drainage basin in the world?",
+    "options": [
+      "Nile River",
+      "Mississippi River",
+      "Congo River",
+      "Amazon River"
+    ],
+    "correctIndex": 3,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "The Amazon River has the largest drainage basin in the world, covering approximately 2.7 million square miles (7 million square kilometers).",
+    "detailedExplanation": "The Amazon River basin covers roughly 40% of the South American continent, spanning across nine countries with the majority in Brazil. This massive watershed collects water from an area of approximately 2.7 million square miles (7 million square kilometers), which is nearly twice the size of India. The basin encompasses the world's largest tropical rainforest and plays a crucial role in global climate regulation and biodiversity.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Amazon_basin",
+    "citationTitle": "Wikipedia: Amazon basin"
+  },
+  {
+    "id": "7e031f4a-c7fe-4fb1-b7f8-9d4104a4845d",
+    "text": "What is the largest desert in the world?",
+    "options": [
+      "Sahara Desert",
+      "Arabian Desert",
+      "Antarctica",
+      "Gobi Desert"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "Antarctica is technically the world's largest desert at 5.4 million square miles, as deserts are defined by low precipitation, not temperature.",
+    "detailedExplanation": "While most people think of hot, sandy environments when they hear 'desert,' the technical definition of a desert is an area that receives very little precipitation. Antarctica qualifies as a polar desert, receiving less than 8 inches of precipitation annually. At approximately 5.4 million square miles (14 million square kilometers), it's nearly twice the size of the Sahara Desert, which is the largest hot desert at about 3.6 million square miles.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Antarctic_Desert",
+    "citationTitle": "Wikipedia: Antarctic Desert"
+  },
+  {
+    "id": "a06220a0-d50f-489b-82d9-3eb194ecc05f",
+    "text": "Which is the deepest lake in the world?",
+    "options": [
+      "Lake Superior",
+      "Caspian Sea",
+      "Lake Baikal",
+      "Lake Tanganyika"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "Lake Baikal in Russia reaches a maximum depth of 5,387 feet (1,642 meters) and contains about 20% of the world's unfrozen freshwater.",
+    "detailedExplanation": "Lake Baikal, located in southern Siberia, Russia, is not only the world's deepest lake but also the oldest (25-30 million years) and largest freshwater lake by volume. Its maximum depth of 5,387 feet (1,642 meters) makes it deeper than four Empire State Buildings stacked on top of each other. The lake is so large that it contains approximately 20% of Earth's unfrozen freshwater and is home to thousands of species, many of which are endemic to the lake.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Lake_Baikal",
+    "citationTitle": "Wikipedia: Lake Baikal"
+  },
+  {
+    "id": "93848d03-1207-41d4-81ed-80c54f8a9ba5",
+    "text": "What is the smallest capital city in the world by population?",
+    "options": [
+      "Vatican City",
+      "San Marino",
+      "Ngerulmud, Palau",
+      "Vaduz, Liechtenstein"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "Ngerulmud, the capital of Palau, has a population of around 400 people, making it the world's least populous capital city.",
+    "detailedExplanation": "Ngerulmud became the capital of Palau in 2006, taking over from Koror. Located on Babeldaob Island, this purpose-built capital city has a population of approximately 400 residents. The city was designed to house government buildings and provide a new administrative center for the Pacific island nation. While Vatican City is smaller by area, it technically functions more as a city-state, making Ngerulmud the smallest traditional capital city by population.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Ngerulmud",
+    "citationTitle": "Wikipedia: Ngerulmud"
+  },
+  {
+    "id": "a777738a-f0ff-4a83-96e6-be5fca5a889f",
+    "text": "Which country has the longest coastline in the world?",
+    "options": [
+      "Russia",
+      "Australia",
+      "Canada",
+      "Norway"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "Canada has the world's longest coastline at approximately 125,567 miles (202,080 km), due to its many islands and complex geography.",
+    "detailedExplanation": "Canada's extensive coastline stretches along three oceans: the Atlantic, Pacific, and Arctic. The country's coastline measures approximately 125,567 miles (202,080 kilometers), which is more than six times longer than the distance around the Earth's equator. This remarkable length is due to Canada's numerous islands (over 30,000), deep bays, inlets, and fjords. The Arctic Archipelago alone contributes significantly to this total, with its complex network of islands and waterways.",
+    "citationUrl": "https://en.wikipedia.org/wiki/List_of_countries_by_length_of_coastline",
+    "citationTitle": "Wikipedia: List of countries by length of coastline"
+  },
+  {
+    "id": "ee881cbc-99b8-4427-847c-cfe874ba9b10",
+    "text": "What is the highest waterfall in the world?",
+    "options": [
+      "Niagara Falls",
+      "Angel Falls",
+      "Victoria Falls",
+      "Iguazu Falls"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "Angel Falls in Venezuela drops 3,212 feet (979 meters), making it the world's tallest uninterrupted waterfall.",
+    "detailedExplanation": "Angel Falls, known locally as Kerepakupai Merú, is located in Canaima National Park in Venezuela. The waterfall plunges 3,212 feet (979 meters) from the Auyán-tepui mountain, with an uninterrupted drop of 2,648 feet (807 meters). Named after American aviator Jimmy Angel who flew over the falls in 1933, this natural wonder is about 15 times higher than Niagara Falls. The falls are so tall that much of the water evaporates into mist before reaching the bottom during the dry season.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Angel_Falls",
+    "citationTitle": "Wikipedia: Angel Falls"
+  },
+  {
+    "id": "4ad07f28-54ee-4d4f-a399-1cb2ef606ce2",
+    "text": "Which is the largest island in the world (excluding continents)?",
+    "options": [
+      "Madagascar",
+      "Borneo",
+      "Greenland",
+      "New Guinea"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "Greenland is the world's largest island at 836,330 square miles (2.17 million km²), though it's politically part of Denmark.",
+    "detailedExplanation": "Greenland, an autonomous territory of Denmark, covers approximately 836,330 square miles (2.17 million square kilometers), making it the world's largest island. Despite its name, about 80% of Greenland is covered by ice, with the ice sheet being up to 2 miles thick in some places. The island is roughly three times the size of Texas and larger than all but 13 countries in the world. Australia is larger but is considered a continent rather than an island.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Greenland",
+    "citationTitle": "Wikipedia: Greenland"
+  },
+  {
+    "id": "3b4ba5f7-61de-48bd-bc38-a81e6c6b4404",
+    "text": "What is the lowest point on Earth's surface?",
+    "options": [
+      "Death Valley",
+      "Dead Sea shore",
+      "Mariana Trench",
+      "Caspian Sea shore"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "The shore of the Dead Sea sits at approximately 1,412 feet (430.5 meters) below sea level, making it the lowest exposed land on Earth.",
+    "detailedExplanation": "The Dead Sea, bordered by Jordan and Israel, sits in the Jordan Rift Valley at approximately 1,412 feet (430.5 meters) below sea level, making its shore the lowest exposed point on Earth's surface. The lake itself is also the deepest hypersaline lake in the world. While the Mariana Trench is deeper, it's underwater. The Dead Sea's extreme depth below sea level is due to its location in a geological depression, and the level continues to drop about 3 feet per year due to water diversion and evaporation.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Dead_Sea",
+    "citationTitle": "Wikipedia: Dead Sea"
+  },
+  {
+    "id": "bf23d433-01f6-4fef-bb12-88994972c7b2",
+    "text": "What is the highest mountain peak in North America?",
+    "options": [
+      "Mount Whitney",
+      "Mount Elbert",
+      "Denali (Mount McKinley)",
+      "Mount Rainier"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "Denali in Alaska reaches 20,310 feet (6,190 meters), making it North America's highest peak.",
+    "detailedExplanation": "Denali, located in Alaska and formerly known as Mount McKinley, is North America's highest mountain peak at 20,310 feet (6,190 meters) above sea level. The mountain was officially renamed Denali in 2015, restoring its original Alaska Native name meaning 'the high one.' It's not only the highest peak in North America but also has one of the largest base-to-peak rises on Earth, making it a formidable challenge for mountaineers.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Denali",
+    "citationTitle": "Wikipedia: Denali"
+  },
+  {
+    "id": "d6508a3d-aabd-4d11-9c5e-e03d6edeb277",
+    "text": "Which is the longest river system in the world?",
+    "options": [
+      "Amazon River",
+      "Nile River",
+      "Yangtze River",
+      "Mississippi-Missouri River"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "The Nile River system stretches approximately 4,135 miles (6,650 kilometers) from its source to the Mediterranean Sea.",
+    "detailedExplanation": "The Nile River holds the record as the world's longest river system, flowing approximately 4,135 miles (6,650 kilometers) from its remote headwaters to its delta on the Mediterranean Sea. The river flows through eleven countries in northeastern Africa, with Egypt and Sudan receiving most of its water. While the Amazon carries more water by volume, the Nile wins in terms of total length, though this has been a subject of geographical debate for decades.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Nile",
+    "citationTitle": "Wikipedia: Nile"
+  },
+  {
+    "id": "231bd0f9-f911-416e-aee4-140b770e46c5",
+    "text": "What is the largest island in the world by land area?",
+    "options": [
+      "Australia",
+      "Greenland",
+      "New Guinea",
+      "Borneo"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "Greenland covers approximately 836,330 square miles, making it the world's largest island.",
+    "detailedExplanation": "Greenland is the world's largest island by land area, covering approximately 836,330 square miles (2.17 million square kilometers). Despite its massive size, about 80% of Greenland is covered by an ice sheet, leaving only the coastal areas habitable. The island is an autonomous territory within Denmark and has a population of only about 56,000 people, making it one of the least densely populated territories on Earth.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Greenland",
+    "citationTitle": "Wikipedia: Greenland"
+  },
+  {
+    "id": "03312a5c-0a5f-4f3c-aefb-b23227ec3ab3",
+    "text": "Which lake holds the record for being the deepest freshwater lake in the world?",
+    "options": [
+      "Lake Superior",
+      "Lake Baikal",
+      "Lake Tanganyika",
+      "Crater Lake"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "Lake Baikal in Siberia reaches a maximum depth of 5,387 feet (1,642 meters).",
+    "detailedExplanation": "Lake Baikal in southern Siberia, Russia, is the world's deepest freshwater lake, reaching a maximum depth of 5,387 feet (1,642 meters). This ancient lake is also the world's largest freshwater lake by volume, containing about 20% of the world's unfrozen freshwater. At approximately 25 million years old, it's also considered the world's oldest lake and is home to thousands of plant and animal species, many of which are found nowhere else on Earth.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Lake_Baikal",
+    "citationTitle": "Wikipedia: Lake Baikal"
+  },
+  {
+    "id": "7bc2e0fa-42cb-495b-9b17-0d35ba714c0f",
+    "text": "What is the smallest sovereign nation by population?",
+    "options": [
+      "Monaco",
+      "Vatican City",
+      "Tuvalu",
+      "Nauru"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "Vatican City has a population of approximately 800 people, making it the least populous sovereign state.",
+    "detailedExplanation": "Vatican City holds the record as the world's least populous sovereign state, with a population of approximately 800 people. However, only about 450 hold Vatican citizenship, and this number fluctuates based on appointments and assignments. Citizenship is not based on birth but rather on appointment to work in Vatican City, and it's usually temporary. Most citizens are members of the clergy, Swiss Guard, or work in administrative positions for the Holy See.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Demographics_of_Vatican_City",
+    "citationTitle": "Wikipedia: Demographics of Vatican City"
+  },
+  {
+    "id": "facac243-9da8-4af0-bbd6-82791109243b",
+    "text": "What is the smallest sovereign country in the world by land area?",
+    "options": [
+      "Monaco",
+      "Vatican City",
+      "San Marino",
+      "Liechtenstein"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "Vatican City is the smallest sovereign country at just 0.17 square miles (0.44 square kilometers).",
+    "detailedExplanation": "Vatican City, officially known as Vatican City State, is an enclave within Rome, Italy, and serves as the spiritual and administrative headquarters of the Roman Catholic Church. At just 0.17 square miles (0.44 square kilometers), it's roughly one-eighth the size of New York's Central Park. Monaco is the second smallest at 0.78 square miles, followed by San Marino at 24 square miles, and Liechtenstein at 62 square miles.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Vatican_City",
+    "citationTitle": "Wikipedia: Vatican City"
+  },
+  {
+    "id": "a6989354-4c98-432a-9f82-af87b8e59451",
+    "text": "What is the world's largest desert by area?",
+    "options": [
+      "Sahara Desert",
+      "Arabian Desert",
+      "Antarctica",
+      "Gobi Desert"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "Antarctica is technically the world's largest desert at 5.4 million square miles, as deserts are defined by low precipitation, not temperature.",
+    "detailedExplanation": "While many people think of hot, sandy landscapes when they hear 'desert,' the technical definition of a desert is a region that receives very little precipitation - typically less than 10 inches (250mm) per year. Antarctica, covering approximately 5.4 million square miles (14 million square kilometers), qualifies as a polar desert due to its extremely low precipitation levels. The Sahara, while the largest hot desert, covers about 3.5 million square miles, making it significantly smaller than Antarctica.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Antarctic_Desert",
+    "citationTitle": "Wikipedia: Antarctic Desert"
+  },
+  {
+    "id": "15900968-0fca-412a-87dd-563985d21997",
+    "text": "Which mountain has the greatest distance from base to summit when measured from the ocean floor?",
+    "options": [
+      "Mount Everest",
+      "Mauna Kea",
+      "K2",
+      "Denali"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "Mauna Kea measures over 33,000 feet from its base on the Pacific Ocean floor to its summit, making it taller than Everest when measured this way.",
+    "detailedExplanation": "While Mount Everest holds the record for highest elevation above sea level at 29,032 feet, Mauna Kea in Hawaii is actually taller when measured from base to summit. Most of Mauna Kea lies beneath the Pacific Ocean, with its base on the ocean floor approximately 19,700 feet below sea level. When combined with its 13,803 feet above sea level, Mauna Kea's total height from base to summit is over 33,500 feet - making it the tallest mountain on Earth by this measurement.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Mauna_Kea",
+    "citationTitle": "Wikipedia: Mauna Kea"
+  },
+  {
+    "id": "c010f60d-b68f-43fa-924c-9be4c552530e",
+    "text": "What is the smallest country in the world by land area?",
+    "options": [
+      "Monaco",
+      "San Marino",
+      "Vatican City",
+      "Liechtenstein"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "medium",
+    "explanation": "Vatican City is the smallest country in the world at just 0.17 square miles (0.44 square kilometers).",
+    "detailedExplanation": "Vatican City, officially Vatican City State, is an enclave within Rome, Italy, and serves as the spiritual and administrative headquarters of the Roman Catholic Church. With an area of just 0.17 square miles (0.44 square kilometers), it is by far the smallest sovereign nation in the world. The entire country can be walked across in about 20 minutes. Despite its tiny size, Vatican City is a fully independent nation with its own postal system, telephone system, radio station, and currency (though it uses the Euro). Monaco, while also very small at 0.78 square miles, is nearly five times larger than Vatican City.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Vatican_City",
+    "citationTitle": "Wikipedia: Vatican City"
+  }
+]

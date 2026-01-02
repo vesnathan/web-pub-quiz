@@ -1,0 +1,325 @@
+[
+  {
+    "id": "482afcc1-0c0c-4334-b2fa-4107b3820640",
+    "text": "Which island nation is famous for its unique wildlife including lemurs?",
+    "options": [
+      "Madagascar",
+      "Sri Lanka",
+      "New Zealand",
+      "Tasmania"
+    ],
+    "correctIndex": 0,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "Madagascar is home to lemurs, which are found nowhere else in the world naturally.",
+    "detailedExplanation": "Madagascar, located off the east coast of Africa, is the world's fourth-largest island and is renowned for its unique biodiversity. About 90% of its wildlife is found nowhere else on Earth, including all species of lemurs. The island separated from Africa around 160 million years ago, allowing its flora and fauna to evolve in isolation.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Madagascar",
+    "citationTitle": "Wikipedia: Madagascar"
+  },
+  {
+    "id": "9eb822a4-f22f-4b3d-af3c-b86b4f653393",
+    "text": "What is the capital city of Iceland?",
+    "options": [
+      "Oslo",
+      "Reykjavik",
+      "Helsinki",
+      "Copenhagen"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "Reykjavik is the capital and largest city of Iceland.",
+    "detailedExplanation": "Reykjavik is the capital and largest city of Iceland, home to about 130,000 people in the city proper and over 230,000 in the greater metropolitan area. This represents about two-thirds of Iceland's total population. The city is known for its colorful buildings, vibrant cultural scene, and proximity to geothermal features.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Reykjavik",
+    "citationTitle": "Wikipedia: Reykjavik"
+  },
+  {
+    "id": "a00a8227-7a44-4f43-b30a-b723b9c7573b",
+    "text": "Which currency is used in the United Kingdom?",
+    "options": [
+      "Euro",
+      "Dollar",
+      "Pound Sterling",
+      "Franc"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "The United Kingdom uses the Pound Sterling as its official currency.",
+    "detailedExplanation": "The Pound Sterling, often simply called the pound, has been the currency of the United Kingdom for over 1,200 years. It is one of the oldest currencies still in use today and is symbolized by £. Despite being a member of the European Union until 2020, the UK never adopted the Euro and maintained its own currency throughout.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Pound_sterling",
+    "citationTitle": "Wikipedia: Pound sterling"
+  },
+  {
+    "id": "af64487d-cde5-4656-a225-cb9cf38b8b03",
+    "text": "Which island nation is located southeast of India and is known for its tea production?",
+    "options": [
+      "Maldives",
+      "Sri Lanka",
+      "Seychelles",
+      "Mauritius"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "Sri Lanka is famous worldwide for its Ceylon tea production.",
+    "detailedExplanation": "Sri Lanka, formerly known as Ceylon, is an island nation located southeast of India in the Indian Ocean. The country is one of the world's largest tea exporters, and Ceylon tea is considered among the finest in the world. Tea was introduced to Sri Lanka by the British in the 19th century and quickly became the backbone of the island's economy.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Sri_Lanka",
+    "citationTitle": "Wikipedia: Sri Lanka"
+  },
+  {
+    "id": "223fa993-d30d-458a-90a1-a610a8bb6701",
+    "text": "What are the two main islands that make up New Zealand?",
+    "options": [
+      "North Island and South Island",
+      "East Island and West Island",
+      "Upper Island and Lower Island",
+      "Main Island and Stewart Island"
+    ],
+    "correctIndex": 0,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "New Zealand consists primarily of the North Island and South Island.",
+    "detailedExplanation": "New Zealand is composed of two main landmasses: the North Island and the South Island, separated by the Cook Strait. The North Island is home to about three-quarters of New Zealand's population and includes the largest city, Auckland, and the capital, Wellington. The South Island is larger in area and is known for its dramatic landscapes including the Southern Alps.",
+    "citationUrl": "https://en.wikipedia.org/wiki/New_Zealand",
+    "citationTitle": "Wikipedia: New Zealand"
+  },
+  {
+    "id": "863f0bbf-0fdc-4e07-839b-6808b8992541",
+    "text": "Which island nation in the Caribbean is known for reggae music and is the birthplace of Bob Marley?",
+    "options": [
+      "Cuba",
+      "Haiti",
+      "Jamaica",
+      "Dominican Republic"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "Jamaica is the birthplace of reggae music and Bob Marley.",
+    "detailedExplanation": "Jamaica is a Caribbean island nation that gave birth to reggae music in the late 1960s. The genre gained international recognition largely through Bob Marley, who was born in Saint Ann Parish, Jamaica, in 1945. Reggae music, with its distinctive rhythm and often spiritual or political lyrics, became Jamaica's most famous cultural export.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Jamaica",
+    "citationTitle": "Wikipedia: Jamaica"
+  },
+  {
+    "id": "716878f6-cac9-47a4-affc-8e1855dfa7ce",
+    "text": "What is the smallest country in the world that is also an island nation?",
+    "options": [
+      "Monaco",
+      "Nauru",
+      "San Marino",
+      "Malta"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "Nauru is the world's smallest island nation by area.",
+    "detailedExplanation": "Nauru is a small island nation in the Pacific Ocean with an area of just 21 square kilometers (8.1 square miles), making it the smallest island nation in the world. Located northeast of Australia, this phosphate-rich island has a population of around 10,000 people. While Monaco and San Marino are smaller countries, they are not island nations.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Nauru",
+    "citationTitle": "Wikipedia: Nauru"
+  },
+  {
+    "id": "678f63e9-8fdf-4fbf-9511-9f22b9378251",
+    "text": "Which island nation is home to the Galápagos Islands, famous for inspiring Charles Darwin's theory of evolution?",
+    "options": [
+      "Peru",
+      "Colombia",
+      "Ecuador",
+      "Chile"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "The Galápagos Islands belong to Ecuador.",
+    "detailedExplanation": "The Galápagos Islands are a volcanic archipelago in the Pacific Ocean that belongs to Ecuador, located about 1,000 kilometers off the South American coast. These islands are famous for their unique wildlife and their role in inspiring Charles Darwin's theory of evolution by natural selection during his visit in 1835. The islands are now a UNESCO World Heritage Site and a major destination for eco-tourism.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Gal%C3%A1pagos_Islands",
+    "citationTitle": "Wikipedia: Galápagos Islands"
+  },
+  {
+    "id": "1663f185-1dfc-430e-b5ac-75b3760ba6fb",
+    "text": "Which island nation is famous for being shaped like a boot?",
+    "options": [
+      "Greece",
+      "Italy",
+      "Cyprus",
+      "Malta"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "Italy is famously shaped like a boot kicking a ball (Sicily).",
+    "detailedExplanation": "Italy is a peninsula that extends into the Mediterranean Sea and is often described as being shaped like a high-heeled boot. The 'toe' of the boot is Calabria, while Sicily sits at the 'tip' like a football being kicked. This distinctive shape makes Italy one of the most recognizable countries on any world map.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Italy",
+    "citationTitle": "Wikipedia: Italy"
+  },
+  {
+    "id": "c43590f4-8215-4230-85e8-5aad939d3bf9",
+    "text": "Which island nation is located directly south of India?",
+    "options": [
+      "Maldives",
+      "Sri Lanka",
+      "Madagascar",
+      "Mauritius"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "Sri Lanka is located in the Indian Ocean, southeast of India.",
+    "detailedExplanation": "Sri Lanka, formerly known as Ceylon, is an island nation located in the Indian Ocean, separated from India by the Palk Strait. The country lies approximately 31 kilometers south of India's southern tip. With its rich cultural heritage, tea plantations, and Buddhist temples, Sri Lanka is often called the 'Pearl of the Indian Ocean.'",
+    "citationUrl": "https://en.wikipedia.org/wiki/Sri_Lanka",
+    "citationTitle": "Wikipedia: Sri Lanka"
+  },
+  {
+    "id": "ee093a12-0f1d-490c-921c-de2cef25ce06",
+    "text": "Which of these island nations is located in the Caribbean Sea?",
+    "options": [
+      "Fiji",
+      "Jamaica",
+      "Philippines",
+      "New Zealand"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "Jamaica is a Caribbean island nation south of Cuba.",
+    "detailedExplanation": "Jamaica is the third-largest island nation in the Caribbean Sea, located south of Cuba and west of Haiti. Known for its reggae music, Blue Mountain coffee, and beautiful beaches, Jamaica gained independence from the United Kingdom in 1962. The other options are located in different regions: Fiji and New Zealand in the Pacific, and the Philippines in Southeast Asia.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Jamaica",
+    "citationTitle": "Wikipedia: Jamaica"
+  },
+  {
+    "id": "07e9d73b-baa3-459d-ad61-0f35e96a2c49",
+    "text": "What currency is used in the United Kingdom?",
+    "options": [
+      "Euro",
+      "Dollar",
+      "Pound Sterling",
+      "Franc"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "The UK uses the Pound Sterling, often simply called the pound.",
+    "detailedExplanation": "The United Kingdom, consisting of England, Scotland, Wales, and Northern Ireland, uses the Pound Sterling (GBP) as its official currency. Despite being part of the European Union until Brexit, the UK never adopted the Euro and maintained its own currency. The pound is one of the oldest currencies still in use today and is symbolized by £.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Pound_sterling",
+    "citationTitle": "Wikipedia: Pound sterling"
+  },
+  {
+    "id": "86553bc3-4b02-432e-a9d6-a247ec193e6a",
+    "text": "Which island nation is known as the 'Land of Fire and Ice'?",
+    "options": [
+      "Greenland",
+      "Iceland",
+      "Ireland",
+      "Madagascar"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "Iceland is called the 'Land of Fire and Ice' due to its volcanoes and glaciers.",
+    "detailedExplanation": "Iceland earned the nickname 'Land of Fire and Ice' because of its unique geological features. The island sits on the Mid-Atlantic Ridge, resulting in significant volcanic activity with numerous active volcanoes, while also hosting large glaciers that cover about 11% of the country. This combination of volcanic heat and glacial ice creates spectacular landscapes and geothermal features like geysers and hot springs.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Iceland",
+    "citationTitle": "Wikipedia: Iceland"
+  },
+  {
+    "id": "a78791a5-f933-4d9f-b5ce-9caa451bb1d8",
+    "text": "Which is the largest island nation in the world by land area?",
+    "options": [
+      "Australia",
+      "Madagascar",
+      "Japan",
+      "United Kingdom"
+    ],
+    "correctIndex": 0,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "Australia is the largest island nation, covering approximately 7.7 million square kilometers.",
+    "detailedExplanation": "Australia is considered the world's largest island nation, covering approximately 7.7 million square kilometers. While it's often classified as a continent due to its size, Australia is technically an island as it's completely surrounded by water. It's significantly larger than other major island nations, being about 32 times larger than the United Kingdom and over 100 times larger than Ireland.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Australia",
+    "citationTitle": "Wikipedia: Australia"
+  },
+  {
+    "id": "287090ee-8b64-416d-bc0e-4700a43362da",
+    "text": "Which island nation is famous for its lemurs and is located off the coast of Africa?",
+    "options": [
+      "Seychelles",
+      "Mauritius",
+      "Madagascar",
+      "Cape Verde"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "Madagascar is home to most of the world's lemur species and lies off Africa's east coast.",
+    "detailedExplanation": "Madagascar, located in the Indian Ocean off the southeastern coast of Africa, is famous for its unique wildlife, particularly lemurs. About 90% of all lemur species are found only in Madagascar, having evolved in isolation after the island separated from the African continent millions of years ago. Madagascar is the fourth-largest island in the world and is sometimes called the 'eighth continent' due to its biodiversity.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Madagascar",
+    "citationTitle": "Wikipedia: Madagascar"
+  },
+  {
+    "id": "1b0cd0c7-cf4e-4e74-ad5b-ba4257ebdbc2",
+    "text": "Which island nation is known as the 'Land of the Rising Sun'?",
+    "options": [
+      "Philippines",
+      "Japan",
+      "Indonesia",
+      "Madagascar"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "Japan is traditionally called the 'Land of the Rising Sun' because it lies to the east of China.",
+    "detailedExplanation": "Japan has been known as the 'Land of the Rising Sun' for centuries, a name that derives from its position east of the Asian mainland. The name originates from the Chinese perspective, as Japan appeared to be where the sun rose. This poetic name is also reflected in Japan's flag, which features a red circle representing the sun on a white background. The country consists of 6,852 islands, with the four main islands being Honshu, Hokkaido, Kyushu, and Shikoku.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Japan",
+    "citationTitle": "Wikipedia: Japan"
+  },
+  {
+    "id": "a0346766-fbb8-45e6-a1f1-2c298d7aedd3",
+    "text": "What is the capital city of Cuba?",
+    "options": [
+      "Santiago",
+      "Havana",
+      "Trinidad",
+      "Varadero"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "Havana is the capital and largest city of Cuba, located on the northwestern coast of the island.",
+    "detailedExplanation": "Havana (La Habana in Spanish) is Cuba's capital and most populous city, home to approximately 2.1 million people. Founded by the Spanish in the 16th century, it served as a key port in the Spanish colonial empire and remains Cuba's economic and cultural center today. The city is famous for its well-preserved colonial architecture, classic American cars from the 1950s, and vibrant music scene. Old Havana is a UNESCO World Heritage Site.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Havana",
+    "citationTitle": "Wikipedia: Havana"
+  },
+  {
+    "id": "49159c64-089f-4340-9d19-a37627bc8915",
+    "text": "Which European island nation is famous for its geysers and Northern Lights?",
+    "options": [
+      "Ireland",
+      "Cyprus",
+      "Malta",
+      "Iceland"
+    ],
+    "correctIndex": 3,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "Iceland is renowned for its geothermal features like geysers and its prime location for viewing the Northern Lights.",
+    "detailedExplanation": "Iceland is a Nordic island country located in the North Atlantic Ocean, known for its dramatic volcanic landscape, geysers, hot springs, and waterfalls. The country sits on the Mid-Atlantic Ridge, making it one of the most geologically active places on Earth. Its northern location and minimal light pollution make it one of the best places in the world to observe the Aurora Borealis (Northern Lights). The famous Geysir, from which the English word 'geyser' originates, is located in Iceland's Haukadalur valley.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Iceland",
+    "citationTitle": "Wikipedia: Iceland"
+  },
+  {
+    "id": "d233b894-1bfc-4fc0-ad25-8d47e530c12b",
+    "text": "Which island nation consists of over 7,000 islands in Southeast Asia?",
+    "options": [
+      "Indonesia",
+      "Philippines",
+      "Malaysia",
+      "Brunei"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "The Philippines is an archipelago composed of approximately 7,641 islands in Southeast Asia.",
+    "detailedExplanation": "The Philippines is an archipelagic country in Southeast Asia consisting of approximately 7,641 islands, though only about 2,000 are inhabited. The country is divided into three main geographical regions: Luzon, Visayas, and Mindanao. Located in the western Pacific Ocean, the Philippines is bounded by the South China Sea to the west and the Philippine Sea to the east. Manila is the capital city, while Quezon City is the most populous. The country has a rich cultural heritage influenced by indigenous, Spanish, American, and other Asian cultures.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Philippines",
+    "citationTitle": "Wikipedia: Philippines"
+  }
+]

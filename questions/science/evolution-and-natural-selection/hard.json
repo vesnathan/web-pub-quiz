@@ -1,0 +1,342 @@
+[
+  {
+    "id": "43882799-6808-4de8-b38c-a44ad81bb2e5",
+    "text": "Which mechanism of evolution is primarily responsible for the loss of pigmentation in cave-dwelling organisms?",
+    "options": [
+      "Sexual selection",
+      "Genetic drift",
+      "Gene flow",
+      "Relaxed selection pressure"
+    ],
+    "correctIndex": 3,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Relaxed selection pressure allows traits that were previously advantageous to be lost when they're no longer needed.",
+    "detailedExplanation": "Cave-dwelling organisms often lose pigmentation through relaxed selection pressure rather than active selection against pigmentation. In dark environments, maintaining pigmentation genes becomes metabolically costly with no benefit, so mutations that disable pigment production are not selected against. Over time, these neutral or slightly beneficial mutations accumulate, leading to the loss of pigmentation. This process is also called regression or vestigialization.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Cave_fish",
+    "citationTitle": "Wikipedia: Cave fish"
+  },
+  {
+    "id": "f2b003d1-8113-4581-8f14-537deb4eb245",
+    "text": "What is the term for the evolutionary phenomenon where distantly related organisms develop similar traits due to similar environmental pressures?",
+    "options": [
+      "Homologous evolution",
+      "Convergent evolution",
+      "Parallel evolution",
+      "Divergent evolution"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Convergent evolution occurs when unrelated species independently evolve similar characteristics in response to similar environmental challenges.",
+    "detailedExplanation": "Convergent evolution is the independent evolution of similar features in species of different lineages. Classic examples include the similar body shapes of sharks (fish) and dolphins (mammals), both adapted for efficient swimming, or the echolocation abilities that evolved separately in bats and dolphins. These similarities arise not from common ancestry but from similar selective pressures acting on different genetic backgrounds.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Convergent_evolution",
+    "citationTitle": "Wikipedia: Convergent evolution"
+  },
+  {
+    "id": "c32cb0eb-b92b-4407-b432-2a6a7dd65167",
+    "text": "According to the Red Queen hypothesis, what drives continuous evolutionary change in organisms?",
+    "options": [
+      "Climate change",
+      "Genetic mutations",
+      "Co-evolutionary arms races",
+      "Population bottlenecks"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "The Red Queen hypothesis suggests that organisms must continuously evolve just to maintain their fitness relative to co-evolving organisms.",
+    "detailedExplanation": "The Red Queen hypothesis, named after the character in Lewis Carroll's 'Through the Looking-Glass' who must run continuously just to stay in place, proposes that organisms face a constant evolutionary struggle against co-evolving organisms. Predator-prey relationships, host-parasite interactions, and sexual reproduction are all explained by this hypothesis. For example, as prey species evolve better defenses, predators must evolve better hunting abilities, creating an ongoing evolutionary arms race.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Red_Queen_hypothesis",
+    "citationTitle": "Wikipedia: Red Queen hypothesis"
+  },
+  {
+    "id": "e1881219-a0ca-492f-b045-452a45167575",
+    "text": "Which evolutionary biologist proposed the theory of punctuated equilibrium?",
+    "options": [
+      "Richard Dawkins",
+      "Stephen Jay Gould and Niles Eldredge",
+      "Ernst Mayr",
+      "Theodosius Dobzhansky"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Stephen Jay Gould and Niles Eldredge introduced punctuated equilibrium in 1972 as an alternative to gradualism.",
+    "detailedExplanation": "Stephen Jay Gould and Niles Eldredge proposed punctuated equilibrium in 1972, challenging the traditional view of gradual evolutionary change. Their theory suggests that evolutionary change occurs in rapid bursts followed by long periods of stasis. This pattern helps explain gaps in the fossil record and suggests that most morphological evolution occurs during speciation events rather than during the long periods between them.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Punctuated_equilibrium",
+    "citationTitle": "Wikipedia: Punctuated equilibrium"
+  },
+  {
+    "id": "d06edbca-bbf2-49ba-affc-dc3c61499533",
+    "text": "What percentage of DNA do humans share with chimpanzees, our closest living relatives?",
+    "options": [
+      "95%",
+      "96%",
+      "98-99%",
+      "92%"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Humans and chimpanzees share approximately 98-99% of their DNA sequences, reflecting our recent common ancestor.",
+    "detailedExplanation": "Humans and chimpanzees share between 98-99% of their DNA, depending on the method of comparison used. This high degree of similarity reflects the fact that humans and chimpanzees diverged from a common ancestor relatively recently in evolutionary terms, approximately 6-7 million years ago. The small percentage of genetic difference accounts for the significant morphological and cognitive differences between the species, highlighting how small genetic changes can have large evolutionary consequences.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Chimpanzee%E2%80%93human_last_common_ancestor",
+    "citationTitle": "Wikipedia: Chimpanzee–human last common ancestor"
+  },
+  {
+    "id": "6b728cdf-2b7a-4490-adf4-e7375831dd24",
+    "text": "Which type of selection maintains genetic variation by favoring heterozygotes over both homozygotes?",
+    "options": [
+      "Directional selection",
+      "Stabilizing selection",
+      "Disruptive selection",
+      "Balancing selection"
+    ],
+    "correctIndex": 3,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Balancing selection maintains multiple alleles in a population, often through heterozygote advantage (overdominance).",
+    "detailedExplanation": "Balancing selection maintains genetic diversity within populations through various mechanisms, including heterozygote advantage (overdominance). A classic example is the sickle cell allele in human populations exposed to malaria. Individuals heterozygous for the sickle cell allele have resistance to malaria while avoiding the severe anemia of homozygous sickle cell individuals. This maintains both normal and sickle cell alleles in the population at higher frequencies than would occur through mutation alone.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Balancing_selection",
+    "citationTitle": "Wikipedia: Balancing selection"
+  },
+  {
+    "id": "449f5267-0f20-48ba-a5db-c80482c136ab",
+    "text": "What is the term for evolution that occurs when a small group becomes isolated from a larger population and evolves rapidly due to different selective pressures?",
+    "options": [
+      "Genetic bottleneck",
+      "Founder effect",
+      "Adaptive radiation",
+      "Allopatric speciation"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Adaptive radiation is the rapid evolution of diversely adapted species from a common ancestor when new ecological opportunities arise.",
+    "detailedExplanation": "Adaptive radiation occurs when a single ancestral species rapidly diversifies into multiple species adapted to different ecological niches. This often happens when organisms colonize new environments with many available ecological opportunities and few competitors. Famous examples include Darwin's finches in the Galápagos Islands, Hawaiian honeycreepers, and the cichlid fish of African lakes. Each group evolved from a common ancestor into numerous species with different feeding strategies, body sizes, and behaviors.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Adaptive_radiation",
+    "citationTitle": "Wikipedia: Adaptive radiation"
+  },
+  {
+    "id": "3bc990d0-2e44-40b8-bfe0-66c45fcac1d1",
+    "text": "Which molecular evidence provides the strongest support for the endosymbiotic theory of eukaryotic evolution?",
+    "options": [
+      "Ribosomal RNA sequences",
+      "Mitochondrial and chloroplast DNA similarity to bacterial DNA",
+      "Nuclear DNA complexity",
+      "Protein folding patterns"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Mitochondrial and chloroplast genomes closely resemble bacterial DNA, supporting their origin as endosymbiotic bacteria.",
+    "detailedExplanation": "The endosymbiotic theory proposes that mitochondria and chloroplasts originated as free-living bacteria that were engulfed by early eukaryotic cells. Strong molecular evidence includes the fact that mitochondrial and chloroplast DNA is circular like bacterial DNA, their ribosomes are 70S like bacteria (not 80S like eukaryotes), and phylogenetic analyses show mitochondria are most closely related to α-proteobacteria while chloroplasts are related to cyanobacteria. These organelles also reproduce independently within cells through binary fission.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Endosymbiotic_theory",
+    "citationTitle": "Wikipedia: Endosymbiotic theory"
+  },
+  {
+    "id": "c4f556b8-71db-496a-8099-a381a49b7170",
+    "text": "What is the name of the evolutionary phenomenon where unrelated organisms independently develop similar traits due to similar environmental pressures?",
+    "options": [
+      "Convergent evolution",
+      "Divergent evolution",
+      "Parallel evolution",
+      "Coevolution"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Convergent evolution occurs when unrelated species independently evolve similar characteristics in response to similar environmental challenges.",
+    "detailedExplanation": "Convergent evolution is a fascinating process where organisms that are not closely related independently develop similar traits as adaptations to comparable environmental pressures. Classic examples include the evolution of wings in bats, birds, and insects, or the camera eyes of vertebrates and cephalopods. This demonstrates how natural selection can lead to similar solutions to environmental challenges across different evolutionary lineages.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Convergent_evolution",
+    "citationTitle": "Wikipedia: Convergent evolution"
+  },
+  {
+    "id": "b0f0ed88-56aa-4cfd-b44f-46a1bc6c7a2e",
+    "text": "Which evolutionary biologist proposed the theory of punctuated equilibrium, suggesting that evolutionary change occurs in rapid bursts separated by long periods of stasis?",
+    "options": [
+      "Stephen Jay Gould",
+      "Richard Dawkins",
+      "Ernst Mayr",
+      "Theodosius Dobzhansky"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Stephen Jay Gould, along with Niles Eldredge, proposed punctuated equilibrium in 1972 as an alternative to gradualism.",
+    "detailedExplanation": "Stephen Jay Gould and Niles Eldredge introduced the theory of punctuated equilibrium in 1972, challenging the traditional view of gradual evolutionary change. Their theory suggests that species remain relatively unchanged for long periods (stasis) punctuated by brief periods of rapid evolutionary change, often associated with speciation events. This theory helps explain gaps in the fossil record and has sparked significant debate in evolutionary biology about the tempo and mode of evolution.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Punctuated_equilibrium",
+    "citationTitle": "Wikipedia: Punctuated equilibrium"
+  },
+  {
+    "id": "418b3975-8732-46cd-870a-86a5e0fb8ea3",
+    "text": "What is the Hardy-Weinberg equilibrium principle used to calculate in population genetics?",
+    "options": [
+      "Mutation rates",
+      "Allele frequencies",
+      "Selection coefficients",
+      "Gene flow rates"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "The Hardy-Weinberg principle calculates expected allele and genotype frequencies in populations under specific conditions.",
+    "detailedExplanation": "The Hardy-Weinberg equilibrium, formulated independently by Godfrey Hardy and Wilhelm Weinberg in 1908, provides a mathematical framework for calculating allele and genotype frequencies in populations. Under conditions of no mutation, no selection, no gene flow, infinite population size, and random mating, allele frequencies remain constant across generations. Deviations from Hardy-Weinberg expectations indicate that one or more evolutionary forces are acting on the population.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Hardy%E2%80%93Weinberg_principle",
+    "citationTitle": "Wikipedia: Hardy–Weinberg principle"
+  },
+  {
+    "id": "53a0ddec-985e-4151-8b98-7e142553d628",
+    "text": "Which type of natural selection increases genetic diversity by favoring extreme phenotypes at both ends of a distribution?",
+    "options": [
+      "Directional selection",
+      "Disruptive selection",
+      "Stabilizing selection",
+      "Balancing selection"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Disruptive selection favors individuals at both extremes of a phenotypic distribution, potentially leading to speciation.",
+    "detailedExplanation": "Disruptive selection, also called diversifying selection, occurs when natural selection favors individuals at both extremes of a phenotypic range while selecting against intermediate phenotypes. This type of selection increases genetic variance and can lead to a bimodal distribution of traits. It's considered one of the mechanisms that can drive speciation, as it may eventually split a population into two distinct groups. Examples include body size selection in some bird species where both very large and very small individuals have advantages over medium-sized ones.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Disruptive_selection",
+    "citationTitle": "Wikipedia: Disruptive selection"
+  },
+  {
+    "id": "ad4428c7-ee1c-40e9-8740-eb9b2a2e04ff",
+    "text": "What is the term for the evolutionary process where one species evolves to mimic the warning signals of another dangerous or unpalatable species?",
+    "options": [
+      "Müllerian mimicry",
+      "Batesian mimicry",
+      "Aggressive mimicry",
+      "Automimicry"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Batesian mimicry involves a harmless species evolving to resemble a harmful or unpalatable model species.",
+    "detailedExplanation": "Batesian mimicry, named after naturalist Henry Walter Bates, is an evolutionary strategy where a harmless species (the mimic) evolves to resemble a harmful, dangerous, or unpalatable species (the model). This deceptive resemblance provides protection to the mimic by fooling predators who have learned to avoid the model species. Classic examples include harmless snakes that mimic venomous coral snakes, or palatable butterflies that mimic toxic species. This differs from Müllerian mimicry, where multiple harmful species converge on similar warning signals.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Batesian_mimicry",
+    "citationTitle": "Wikipedia: Batesian mimicry"
+  },
+  {
+    "id": "9759a604-5744-4f66-8bf4-dd7f3331c313",
+    "text": "Which evolutionary mechanism explains the persistence of traits that reduce an individual's survival but increase their reproductive success?",
+    "options": [
+      "Group selection",
+      "Sexual selection",
+      "Kin selection",
+      "Frequency-dependent selection"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Sexual selection can favor traits that decrease survival but increase mating success, like elaborate peacock tails.",
+    "detailedExplanation": "Sexual selection, first described by Charles Darwin, is a mode of natural selection that can favor traits that reduce an individual's chances of survival but increase their reproductive success. This occurs through two main mechanisms: intrasexual selection (competition between members of the same sex for mates) and intersexual selection (mate choice by one sex). The classic example is the peacock's elaborate tail, which makes the male more conspicuous to predators but more attractive to females, ultimately increasing reproductive success despite survival costs.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Sexual_selection",
+    "citationTitle": "Wikipedia: Sexual selection"
+  },
+  {
+    "id": "0447c1c9-9be9-474a-adb2-e547ab9f1b25",
+    "text": "What is the name of the evolutionary phenomenon where the fitness of a genotype depends on its frequency in the population?",
+    "options": [
+      "Genetic drift",
+      "Gene flow",
+      "Frequency-dependent selection",
+      "Epistasis"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Frequency-dependent selection occurs when the fitness of a phenotype depends on how common it is in the population.",
+    "detailedExplanation": "Frequency-dependent selection is an evolutionary process where the fitness of a particular genotype or phenotype depends on its frequency within the population. In negative frequency-dependent selection, rare variants have higher fitness, which maintains genetic diversity (like in host-pathogen interactions). In positive frequency-dependent selection, common variants have higher fitness, potentially leading to fixation. This mechanism is important in maintaining polymorphisms, explaining sex ratios, and understanding the evolution of warning coloration and social behaviors.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Frequency-dependent_selection",
+    "citationTitle": "Wikipedia: Frequency-dependent selection"
+  },
+  {
+    "id": "ae74b0e1-c2ea-4ab4-bd53-f46fb6b1c91b",
+    "text": "Which concept describes the maximum number of offspring an individual could produce under ideal conditions, as opposed to the number they actually produce?",
+    "options": [
+      "Realized fecundity",
+      "Reproductive potential",
+      "Fitness",
+      "Net reproductive rate"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Reproductive potential refers to the theoretical maximum reproductive output under optimal conditions.",
+    "detailedExplanation": "Reproductive potential, also known as biotic potential, represents the maximum reproductive capacity of an organism or population under ideal environmental conditions with no limiting factors such as food shortage, disease, or predation. This theoretical maximum is contrasted with realized fecundity, which is the actual reproductive output observed in natural conditions. The difference between reproductive potential and realized reproduction reflects the impact of environmental constraints and natural selection pressures that limit population growth in real-world scenarios.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Reproductive_success",
+    "citationTitle": "Wikipedia: Reproductive success"
+  },
+  {
+    "id": "e201777e-c19d-4bbe-9abc-3a7d9e9f522e",
+    "text": "Which evolutionary mechanism describes the random changes in allele frequencies in small populations that can lead to the loss of genetic diversity over time?",
+    "options": [
+      "Gene flow",
+      "Genetic drift",
+      "Balancing selection",
+      "Founder effect"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Genetic drift refers to random changes in allele frequencies in populations, with stronger effects in smaller populations.",
+    "detailedExplanation": "Genetic drift is the change in allele frequencies in a population due to random sampling effects. Unlike natural selection, which is directional, genetic drift is completely random and can cause alleles to increase or decrease in frequency regardless of their effect on fitness. The effect is inversely proportional to population size - smaller populations experience stronger genetic drift, which can lead to the random fixation or loss of alleles, reducing genetic diversity over time.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Genetic_drift",
+    "citationTitle": "Wikipedia: Genetic drift"
+  },
+  {
+    "id": "56af08eb-8421-4559-89b8-06aa78457818",
+    "text": "The evolutionary biologist Stephen Jay Gould proposed which theory suggesting that evolution occurs in rapid bursts followed by long periods of stasis?",
+    "options": [
+      "Gradualism",
+      "Punctuated equilibrium",
+      "Neutral theory",
+      "Red Queen hypothesis"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Punctuated equilibrium proposes that evolutionary change occurs in rapid bursts separated by long periods of evolutionary stasis.",
+    "detailedExplanation": "Punctuated equilibrium, proposed by Stephen Jay Gould and Niles Eldredge in 1972, challenges the traditional view of gradualism in evolution. This theory suggests that species remain relatively unchanged for long periods (stasis), interrupted by brief periods of rapid evolutionary change, often associated with speciation events. The theory helps explain gaps in the fossil record and suggests that most evolutionary change occurs during speciation rather than within established lineages.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Punctuated_equilibrium",
+    "citationTitle": "Wikipedia: Punctuated equilibrium"
+  },
+  {
+    "id": "d51c3c2b-7973-47f9-8d15-ac6e5e73f85b",
+    "text": "Which type of selection maintains multiple alleles in a population by favoring heterozygotes or different phenotypes in different environments?",
+    "options": [
+      "Directional selection",
+      "Disruptive selection",
+      "Stabilizing selection",
+      "Balancing selection"
+    ],
+    "correctIndex": 3,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Balancing selection maintains genetic diversity by favoring multiple alleles through mechanisms like heterozygote advantage or frequency-dependent selection.",
+    "detailedExplanation": "Balancing selection is a form of natural selection that maintains multiple alleles at a locus within a population. This can occur through several mechanisms: heterozygote advantage (where heterozygotes have higher fitness than homozygotes), frequency-dependent selection (where rare phenotypes have advantages), or environmental variation favoring different alleles in different conditions. A classic example is the sickle cell allele, which is maintained in populations because heterozygotes have resistance to malaria while avoiding the severe anemia of homozygotes.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Balancing_selection",
+    "citationTitle": "Wikipedia: Balancing selection"
+  },
+  {
+    "id": "e25edc74-0839-44b3-9718-58f4c8ecfc39",
+    "text": "The concept of 'evolutionary stable strategy' (ESS) was developed to explain which aspect of evolutionary biology?",
+    "options": [
+      "Molecular clock rates",
+      "Behavioral evolution and game theory",
+      "Phylogenetic relationships",
+      "Adaptive radiation patterns"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Evolutionary stable strategy applies game theory to evolution, explaining how behaviors evolve when fitness depends on the actions of other individuals.",
+    "detailedExplanation": "Evolutionary Stable Strategy (ESS), developed by John Maynard Smith, applies game theory principles to evolutionary biology. An ESS is a behavioral strategy that, if adopted by most members of a population, cannot be invaded by any alternative strategy. This concept explains how behaviors evolve in situations where an individual's fitness depends not only on its own behavior but also on the behaviors of others in the population. ESS has been crucial in understanding phenomena like animal aggression, mating strategies, and cooperative behaviors.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Evolutionarily_stable_strategy",
+    "citationTitle": "Wikipedia: Evolutionarily stable strategy"
+  }
+]

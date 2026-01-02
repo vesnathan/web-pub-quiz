@@ -1,0 +1,342 @@
+[
+  {
+    "id": "4e8b4a97-a8fe-4a78-8d6f-24bca6dda5d8",
+    "text": "The Renaissance period is generally considered to have begun in which country?",
+    "options": [
+      "Italy",
+      "France",
+      "England",
+      "Germany"
+    ],
+    "correctIndex": 0,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "The Renaissance began in Italy during the 14th century.",
+    "detailedExplanation": "The Renaissance originated in Italy during the 14th century, particularly in city-states like Florence, Venice, and Rome. This cultural movement was fueled by Italy's wealthy merchant class, rediscovery of classical texts, and patronage of the arts. The Italian Renaissance later spread to other parts of Europe during the 15th and 16th centuries.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Italian_Renaissance",
+    "citationTitle": "Wikipedia: Italian Renaissance"
+  },
+  {
+    "id": "9cc3bd5f-dfc5-4b7b-9fe7-8900c361a52b",
+    "text": "Which famous artist painted the ceiling of the Sistine Chapel?",
+    "options": [
+      "Leonardo da Vinci",
+      "Raphael",
+      "Michelangelo",
+      "Donatello"
+    ],
+    "correctIndex": 2,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "Michelangelo painted the Sistine Chapel ceiling between 1508 and 1512.",
+    "detailedExplanation": "Michelangelo Buonarroti painted the ceiling of the Sistine Chapel in Vatican City between 1508 and 1512, commissioned by Pope Julius II. The masterpiece depicts scenes from the Book of Genesis, including the famous 'Creation of Adam.' Despite being primarily known as a sculptor, this work established Michelangelo as one of the greatest painters of the Renaissance.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Sistine_Chapel_ceiling",
+    "citationTitle": "Wikipedia: Sistine Chapel ceiling"
+  },
+  {
+    "id": "a77187d3-e8b5-4b6f-848e-fe6c667a556f",
+    "text": "What does the word 'Renaissance' mean in French?",
+    "options": [
+      "Revolution",
+      "Rebirth",
+      "Enlightenment",
+      "Discovery"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "Renaissance means 'rebirth' in French, referring to the revival of classical learning.",
+    "detailedExplanation": "The term 'Renaissance' comes from the French word meaning 'rebirth' or 'revival.' It was used to describe this historical period because it represented a renewed interest in classical Greek and Roman culture, art, literature, and learning after the Middle Ages. The term was popularized by 19th-century historians to describe this cultural flowering that occurred roughly from the 14th to 17th centuries.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Renaissance",
+    "citationTitle": "Wikipedia: Renaissance"
+  },
+  {
+    "id": "2230c27d-155c-4e26-a0d9-3ea314790690",
+    "text": "Which Renaissance inventor is famous for designing flying machines and military devices?",
+    "options": [
+      "Galileo Galilei",
+      "Leonardo da Vinci",
+      "Nicolaus Copernicus",
+      "Johannes Gutenberg"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "Leonardo da Vinci designed numerous inventions including flying machines and military devices.",
+    "detailedExplanation": "Leonardo da Vinci (1452-1519) was not only a master painter but also a prolific inventor and engineer. His notebooks contain designs for flying machines, helicopters, tanks, submarines, and various military devices, many centuries before such technology became practical. His curiosity and innovative thinking epitomized the Renaissance ideal of the 'universal genius' or 'Renaissance man.'",
+    "citationUrl": "https://en.wikipedia.org/wiki/Leonardo_da_Vinci",
+    "citationTitle": "Wikipedia: Leonardo da Vinci"
+  },
+  {
+    "id": "508d17e6-c461-41d2-9173-b3052b47cc83",
+    "text": "Which invention by Johannes Gutenberg revolutionized the spread of knowledge during the Renaissance?",
+    "options": [
+      "The telescope",
+      "The printing press",
+      "The compass",
+      "The clock"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "Gutenberg's printing press made books widely available and accelerated the spread of Renaissance ideas.",
+    "detailedExplanation": "Johannes Gutenberg's invention of the movable-type printing press around 1440 revolutionized communication and learning during the Renaissance. This technology made books much cheaper and faster to produce, leading to increased literacy and the rapid spread of Renaissance ideas, scientific knowledge, and religious reformation throughout Europe. The Gutenberg Bible, printed around 1455, was one of the first major books produced using this technology.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Printing_press",
+    "citationTitle": "Wikipedia: Printing press"
+  },
+  {
+    "id": "a79d04cb-9ffc-471e-9e9a-0a7766fd97d4",
+    "text": "Which wealthy Italian family were major patrons of Renaissance artists in Florence?",
+    "options": [
+      "The Borgias",
+      "The Medicis",
+      "The Sforzas",
+      "The Gonzagas"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "The Medici family were powerful bankers who sponsored many Renaissance artists and scholars.",
+    "detailedExplanation": "The Medici family were influential Florentine bankers and politicians who became renowned patrons of Renaissance art and learning. They sponsored artists like Michelangelo, Botticelli, and Donatello, and supported scholars and philosophers. Their patronage was crucial to the flourishing of Renaissance culture in Florence, and they effectively ruled the city for much of the 15th and 16th centuries.",
+    "citationUrl": "https://en.wikipedia.org/wiki/House_of_Medici",
+    "citationTitle": "Wikipedia: House of Medici"
+  },
+  {
+    "id": "259d2519-cb4a-4faf-bf65-13e20a2c6a72",
+    "text": "Which Renaissance astronomer proposed that the Earth revolves around the Sun?",
+    "options": [
+      "Galileo Galilei",
+      "Johannes Kepler",
+      "Nicolaus Copernicus",
+      "Tycho Brahe"
+    ],
+    "correctIndex": 2,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "Copernicus developed the heliocentric model, placing the Sun at the center of the solar system.",
+    "detailedExplanation": "Nicolaus Copernicus (1473-1543) developed the heliocentric model of the solar system, proposing that the Earth and other planets revolve around the Sun. His book 'De revolutionibus orbium coelestium' (On the Revolutions of the Celestial Spheres), published in 1543, challenged the prevailing geocentric model and marked a major shift in astronomical thinking during the Renaissance, contributing to what became known as the Scientific Revolution.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Nicolaus_Copernicus",
+    "citationTitle": "Wikipedia: Nicolaus Copernicus"
+  },
+  {
+    "id": "81bd1c75-1cf4-4f1a-85a7-50bc072664ac",
+    "text": "Which famous Renaissance painting by Leonardo da Vinci features a woman with a mysterious smile?",
+    "options": [
+      "The Birth of Venus",
+      "The Last Supper",
+      "The Mona Lisa",
+      "The School of Athens"
+    ],
+    "correctIndex": 2,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "The Mona Lisa is Leonardo da Vinci's famous portrait known for the subject's enigmatic smile.",
+    "detailedExplanation": "The Mona Lisa, painted by Leonardo da Vinci between 1503 and 1519, is arguably the world's most famous painting. The portrait depicts Lisa Gherardini, likely the wife of a Florentine merchant, and is renowned for her enigmatic smile and da Vinci's innovative painting techniques. The painting is housed in the Louvre Museum in Paris and represents the pinnacle of Renaissance portraiture.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Mona_Lisa",
+    "citationTitle": "Wikipedia: Mona Lisa"
+  },
+  {
+    "id": "0b28da70-b049-4ffd-ba19-bbfed724cf20",
+    "text": "The Renaissance period roughly spanned which centuries?",
+    "options": [
+      "14th to 17th centuries",
+      "12th to 15th centuries",
+      "16th to 19th centuries",
+      "10th to 13th centuries"
+    ],
+    "correctIndex": 0,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "The Renaissance period generally spanned from the 14th to the 17th centuries.",
+    "detailedExplanation": "The Renaissance was a period of cultural, artistic, political and economic 'rebirth' following the Middle Ages. It began in Italy in the 14th century and spread throughout Europe, lasting until the 17th century. This period marked the transition from medieval to modern Europe, characterized by renewed interest in classical learning, humanism, and significant developments in art, science, and literature.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Renaissance",
+    "citationTitle": "Wikipedia: Renaissance"
+  },
+  {
+    "id": "b9ed7f21-8ebd-4a3e-9ae4-478953a72b57",
+    "text": "Which Italian city is widely considered the birthplace of the Renaissance?",
+    "options": [
+      "Florence",
+      "Venice",
+      "Rome",
+      "Milan"
+    ],
+    "correctIndex": 0,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "Florence is widely considered the birthplace of the Renaissance.",
+    "detailedExplanation": "Florence, located in Tuscany, Italy, is recognized as the cradle of the Renaissance. The city's wealthy merchant families, particularly the Medici, patronized artists and scholars, creating an environment that fostered artistic and intellectual innovation. Florence was home to legendary figures like Leonardo da Vinci, Michelangelo, and Dante, and its republican government and banking wealth provided the perfect conditions for Renaissance culture to flourish.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Italian_Renaissance",
+    "citationTitle": "Wikipedia: Italian Renaissance"
+  },
+  {
+    "id": "76a68abe-eeb2-4c94-aace-19d8bcfb3ae6",
+    "text": "Who painted the famous 'Mona Lisa'?",
+    "options": [
+      "Leonardo da Vinci",
+      "Michelangelo",
+      "Raphael",
+      "Botticelli"
+    ],
+    "correctIndex": 0,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "Leonardo da Vinci painted the Mona Lisa.",
+    "detailedExplanation": "Leonardo da Vinci created the Mona Lisa between 1503 and 1519. This portrait of Lisa Gherardini, believed to be the wife of a Florentine merchant, became one of the most famous paintings in the world. Da Vinci's innovative techniques, including sfumato (subtle gradations of tones), and the subject's enigmatic smile have captivated viewers for centuries. The painting currently hangs in the Louvre Museum in Paris.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Mona_Lisa",
+    "citationTitle": "Wikipedia: Mona Lisa"
+  },
+  {
+    "id": "91c5e346-f7a1-4b62-b430-a2cc71ec71c6",
+    "text": "Which famous Renaissance artist painted the ceiling of the Sistine Chapel?",
+    "options": [
+      "Michelangelo",
+      "Leonardo da Vinci",
+      "Donatello",
+      "Titian"
+    ],
+    "correctIndex": 0,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "Michelangelo painted the ceiling of the Sistine Chapel.",
+    "detailedExplanation": "Michelangelo Buonarroti painted the ceiling of the Sistine Chapel in Vatican City between 1508 and 1512, commissioned by Pope Julius II. The masterpiece depicts scenes from the Book of Genesis, including the famous 'Creation of Adam' where God's finger nearly touches Adam's. Despite being primarily a sculptor, Michelangelo created one of the most celebrated works of Renaissance art, working on his back on scaffolding for four years to complete the massive fresco.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Sistine_Chapel_ceiling",
+    "citationTitle": "Wikipedia: Sistine Chapel ceiling"
+  },
+  {
+    "id": "750788ec-944b-4dac-be24-69d4f396b43f",
+    "text": "Which powerful Italian banking family were major patrons of Renaissance art?",
+    "options": [
+      "The Medici",
+      "The Borgia",
+      "The Sforza",
+      "The Este"
+    ],
+    "correctIndex": 0,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "The Medici family were major patrons of Renaissance art.",
+    "detailedExplanation": "The Medici family of Florence were among the wealthiest and most powerful patrons of the Renaissance. Their banking empire provided the financial means to support artists, architects, and scholars. Notable Medici patrons included Cosimo de' Medici and his grandson Lorenzo the Magnificent, who supported artists like Michelangelo, Botticelli, and Donatello. The family's patronage was crucial to the development of Renaissance art and culture, and they effectively ruled Florence for much of the Renaissance period.",
+    "citationUrl": "https://en.wikipedia.org/wiki/House_of_Medici",
+    "citationTitle": "Wikipedia: House of Medici"
+  },
+  {
+    "id": "f9eaa91a-b83f-4118-8c1b-dbc352ba5bf8",
+    "text": "Which Shakespeare play is set in Renaissance-era Denmark?",
+    "options": [
+      "Hamlet",
+      "Othello",
+      "King Lear",
+      "Macbeth"
+    ],
+    "correctIndex": 0,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "Hamlet is set in Renaissance-era Denmark.",
+    "detailedExplanation": "William Shakespeare's tragedy 'Hamlet' is set in the Kingdom of Denmark, specifically at Elsinore Castle (Kronborg Castle in real life). Written around 1600-1601 during the English Renaissance, the play tells the story of Prince Hamlet's quest for revenge against his uncle Claudius. While Shakespeare lived during the Renaissance, he set many of his plays in earlier periods, but Hamlet reflects the intellectual and philosophical concerns of the Renaissance era, including themes of humanism, individual consciousness, and moral complexity.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Hamlet",
+    "citationTitle": "Wikipedia: Hamlet"
+  },
+  {
+    "id": "7e32a52e-8d97-49b1-8327-013801258c3d",
+    "text": "Which Italian city is considered the birthplace of the Renaissance?",
+    "options": [
+      "Venice",
+      "Florence",
+      "Rome",
+      "Milan"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "Florence is widely considered the birthplace of the Renaissance.",
+    "detailedExplanation": "Florence, Italy, is recognized as the birthplace of the Renaissance due to its unique combination of wealthy merchant families (like the Medici), political stability, and cultural achievements during the 14th-16th centuries. The city fostered an environment where art, literature, and humanist philosophy could flourish, producing legendary figures like Leonardo da Vinci, Michelangelo, and Brunelleschi.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Italian_Renaissance",
+    "citationTitle": "Wikipedia: Italian Renaissance"
+  },
+  {
+    "id": "74673047-65d0-4c6c-9d93-3ad49ccc0c53",
+    "text": "Who painted the famous ceiling of the Sistine Chapel?",
+    "options": [
+      "Leonardo da Vinci",
+      "Raphael",
+      "Michelangelo",
+      "Donatello"
+    ],
+    "correctIndex": 2,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "Michelangelo painted the Sistine Chapel ceiling between 1508 and 1512.",
+    "detailedExplanation": "Michelangelo Buonarroti painted the iconic ceiling of the Sistine Chapel in Vatican City between 1508 and 1512, commissioned by Pope Julius II. The masterpiece features nine scenes from the Book of Genesis, including the famous 'Creation of Adam.' Despite considering himself primarily a sculptor, Michelangelo created one of the most celebrated works of Renaissance art on this 5,800 square foot ceiling.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Sistine_Chapel_ceiling",
+    "citationTitle": "Wikipedia: Sistine Chapel ceiling"
+  },
+  {
+    "id": "fc7bdde3-cfc3-40e8-b199-36e4899d0b5a",
+    "text": "Which famous Renaissance artist and inventor is known for painting the Mona Lisa?",
+    "options": [
+      "Michelangelo",
+      "Raphael",
+      "Leonardo da Vinci",
+      "Botticelli"
+    ],
+    "correctIndex": 2,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "Leonardo da Vinci painted the Mona Lisa around 1503-1519.",
+    "detailedExplanation": "Leonardo da Vinci (1452-1519) painted the Mona Lisa, one of the world's most famous paintings, between approximately 1503 and 1519. Da Vinci was the quintessential 'Renaissance man' - excelling not only as a painter but also as an inventor, scientist, engineer, and anatomist. The Mona Lisa, currently housed in the Louvre Museum in Paris, is renowned for the subject's enigmatic smile and da Vinci's revolutionary painting techniques.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Leonardo_da_Vinci",
+    "citationTitle": "Wikipedia: Leonardo da Vinci"
+  },
+  {
+    "id": "24ecf608-02b9-4699-a51f-71a40bc08334",
+    "text": "Which Italian artist painted the famous ceiling of the Sistine Chapel during the Renaissance?",
+    "options": [
+      "Michelangelo",
+      "Leonardo da Vinci",
+      "Raphael",
+      "Donatello"
+    ],
+    "correctIndex": 0,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "Michelangelo painted the Sistine Chapel ceiling between 1508 and 1512.",
+    "detailedExplanation": "Michelangelo Buonarroti was commissioned by Pope Julius II to paint the ceiling of the Sistine Chapel in Vatican City. This monumental work, completed between 1508 and 1512, features nine scenes from the Book of Genesis, including the famous 'Creation of Adam.' Despite being primarily known as a sculptor, Michelangelo created one of the most celebrated masterpieces of Renaissance art, working on his back for four years to complete the approximately 5,000 square feet of frescoes.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Sistine_Chapel_ceiling",
+    "citationTitle": "Wikipedia: Sistine Chapel ceiling"
+  },
+  {
+    "id": "d9bfddeb-2c4e-4b23-984e-0a96666ce620",
+    "text": "Which famous Italian artist painted the ceiling of the Sistine Chapel during the Renaissance?",
+    "options": [
+      "Michelangelo",
+      "Leonardo da Vinci",
+      "Raphael",
+      "Donatello"
+    ],
+    "correctIndex": 0,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "Michelangelo painted the Sistine Chapel ceiling between 1508 and 1512.",
+    "detailedExplanation": "Michelangelo Buonarroti was commissioned by Pope Julius II to paint the ceiling of the Sistine Chapel in Vatican City. The project took four years to complete (1508-1512) and features nine scenes from the Book of Genesis, including the famous 'Creation of Adam.' Despite being primarily known as a sculptor, Michelangelo created one of the most iconic masterpieces of Renaissance art through this monumental fresco work.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Sistine_Chapel_ceiling",
+    "citationTitle": "Wikipedia: Sistine Chapel ceiling"
+  },
+  {
+    "id": "194306fd-6127-4d8f-9acc-51db5baa01eb",
+    "text": "Which famous artist painted the ceiling of the Sistine Chapel during the Renaissance?",
+    "options": [
+      "Michelangelo",
+      "Leonardo da Vinci",
+      "Raphael",
+      "Donatello"
+    ],
+    "correctIndex": 0,
+    "category": "history",
+    "difficulty": "easy",
+    "explanation": "Michelangelo painted the Sistine Chapel ceiling between 1508-1512.",
+    "detailedExplanation": "Michelangelo Buonarroti painted the iconic ceiling of the Sistine Chapel in Vatican City between 1508 and 1512, commissioned by Pope Julius II. The masterpiece features nine scenes from the Book of Genesis, including the famous 'Creation of Adam' where God's finger nearly touches Adam's finger. Despite being primarily known as a sculptor, Michelangelo's fresco work on the chapel ceiling is considered one of the greatest achievements in Western art and a defining work of High Renaissance art.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Sistine_Chapel_ceiling",
+    "citationTitle": "Wikipedia: Sistine Chapel ceiling"
+  }
+]

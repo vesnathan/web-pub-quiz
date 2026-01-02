@@ -1,0 +1,359 @@
+[
+  {
+    "id": "ad5e5569-4b7e-4653-b0e8-c60ace89abfd",
+    "text": "What is the normal resting membrane potential of a typical neuron?",
+    "options": [
+      "-55 mV",
+      "-70 mV",
+      "-90 mV",
+      "-30 mV"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "The typical resting membrane potential of a neuron is approximately -70 mV.",
+    "detailedExplanation": "The resting membrane potential is maintained by the sodium-potassium pump and selective permeability of the cell membrane. This pump actively transports three sodium ions out of the cell for every two potassium ions it brings in, creating a negative charge inside the cell relative to the outside. The value of -70 mV represents the electrical potential difference across the membrane when the neuron is at rest and not transmitting signals.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Resting_potential",
+    "citationTitle": "Wikipedia: Resting potential"
+  },
+  {
+    "id": "8b21e010-6050-422d-aee1-661819f88861",
+    "text": "In which part of the nephron does most glucose reabsorption occur?",
+    "options": [
+      "Glomerulus",
+      "Proximal convoluted tubule",
+      "Loop of Henle",
+      "Distal convoluted tubule"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "The proximal convoluted tubule reabsorbs approximately 90% of filtered glucose.",
+    "detailedExplanation": "The proximal convoluted tubule is responsible for the bulk of glucose reabsorption in the kidney, reclaiming about 90% of the glucose that was initially filtered at the glomerulus. This occurs through sodium-glucose co-transporters (SGLT1 and SGLT2) in the tubular cells. Under normal circumstances, virtually all glucose is reabsorbed, which is why glucose typically doesn't appear in urine unless blood glucose levels exceed the renal threshold.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Proximal_tubule",
+    "citationTitle": "Wikipedia: Proximal tubule"
+  },
+  {
+    "id": "88138ba1-646f-4d87-9453-112ec1c38d2b",
+    "text": "What is the name of the valve between the left atrium and left ventricle?",
+    "options": [
+      "Tricuspid valve",
+      "Pulmonary valve",
+      "Mitral valve",
+      "Aortic valve"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "The mitral valve (also called bicuspid valve) separates the left atrium from the left ventricle.",
+    "detailedExplanation": "The mitral valve, also known as the bicuspid valve, is located between the left atrium and left ventricle. It has two leaflets (cusps) and prevents backflow of blood from the ventricle to the atrium during ventricular contraction. The valve is supported by chordae tendineae and papillary muscles. The tricuspid valve is between the right atrium and ventricle, while the pulmonary and aortic valves are semilunar valves at the exits of the ventricles.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Mitral_valve",
+    "citationTitle": "Wikipedia: Mitral valve"
+  },
+  {
+    "id": "d97fc1fd-5f93-4a87-a166-ac3a0e3126e8",
+    "text": "What is the approximate pH of normal gastric juice?",
+    "options": [
+      "1.5-3.5",
+      "4.5-5.5",
+      "6.5-7.5",
+      "7.5-8.5"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Normal gastric juice has a highly acidic pH of approximately 1.5-3.5.",
+    "detailedExplanation": "Gastric juice is extremely acidic due to the secretion of hydrochloric acid (HCl) by parietal cells in the stomach lining. This strong acidity serves multiple functions: it activates pepsinogen to pepsin for protein digestion, kills many bacteria and pathogens, and helps with the absorption of certain nutrients like iron and vitamin B12. The pH can be as low as 1.5 when actively secreting acid, making it one of the most acidic environments in the human body.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Gastric_acid",
+    "citationTitle": "Wikipedia: Gastric acid"
+  },
+  {
+    "id": "25f607d3-0e82-492a-87bf-4cb735d1cf15",
+    "text": "Which compound is known as 'philosopher's mercury' and has the formula Sb₂S₃?",
+    "options": [
+      "Antimony trioxide",
+      "Antimony trisulfide",
+      "Arsenic trisulfide",
+      "Bismuth sulfide"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Antimony trisulfide (Sb₂S₃) was historically called 'philosopher's mercury' by alchemists.",
+    "detailedExplanation": "Antimony trisulfide, also known as stibnite in its mineral form, was highly prized by medieval alchemists who called it 'philosopher's mercury.' This dark gray crystalline compound was used in early cosmetics, particularly as kohl for eye makeup in ancient Egypt. It occurs naturally and can be synthesized by direct combination of antimony and sulfur elements.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Antimony_trisulfide",
+    "citationTitle": "Wikipedia: Antimony trisulfide"
+  },
+  {
+    "id": "544e1352-db5b-461c-b61a-e2d893f48761",
+    "text": "What is the systematic IUPAC name for the compound commonly known as 'blue vitriol'?",
+    "options": [
+      "Copper(I) sulfate pentahydrate",
+      "Copper(II) sulfate pentahydrate",
+      "Cobalt(II) sulfate heptahydrate",
+      "Iron(II) sulfate heptahydrate"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Blue vitriol is copper(II) sulfate pentahydrate, CuSO₄·5H₂O.",
+    "detailedExplanation": "Blue vitriol, historically used as a fungicide and in electroplating, is the pentahydrate form of copper(II) sulfate with the formula CuSO₄·5H₂O. The brilliant blue color comes from the Cu²⁺ ion coordinated with water molecules. When heated, it loses its water of crystallization and becomes white anhydrous copper(II) sulfate, making it useful as a test for the presence of water.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Copper(II)_sulfate",
+    "citationTitle": "Wikipedia: Copper(II) sulfate"
+  },
+  {
+    "id": "0317eaaf-7699-40a5-b4d5-c8c141146e75",
+    "text": "What is the maximum theoretical efficiency of a heat engine operating between reservoirs at 400K and 300K, according to the Carnot cycle?",
+    "options": [
+      "15%",
+      "20%",
+      "25%",
+      "30%"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Carnot efficiency = 1 - (T_cold/T_hot) = 1 - (300/400) = 0.25 or 25%.",
+    "detailedExplanation": "The Carnot cycle represents the theoretical maximum efficiency for any heat engine operating between two thermal reservoirs. Named after Sadi Carnot, this fundamental principle of thermodynamics shows that efficiency depends only on the absolute temperatures of the hot and cold reservoirs. The formula η = 1 - (T_c/T_h) gives us the upper limit that no real heat engine can exceed, making it crucial for understanding the fundamental limitations of thermal engines.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Carnot_cycle",
+    "citationTitle": "Wikipedia: Carnot cycle"
+  },
+  {
+    "id": "86689728-887a-42e4-a0df-cf18d240c0c6",
+    "text": "What does Gauss's law for magnetism state about magnetic monopoles?",
+    "options": [
+      "They exist in pairs only",
+      "They don't exist in nature",
+      "They exist only at absolute zero",
+      "They exist only in superconductors"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Gauss's law for magnetism states that the magnetic flux through any closed surface is zero, implying no magnetic monopoles exist.",
+    "detailedExplanation": "Gauss's law for magnetism is one of Maxwell's four fundamental equations describing electromagnetic phenomena. It mathematically states that ∇·B = 0, meaning the divergence of the magnetic field is always zero. This implies that magnetic field lines must form closed loops and that isolated magnetic poles (monopoles) cannot exist. Unlike electric charges which can exist independently, magnetic poles always come in north-south pairs, making the net magnetic charge of any isolated region zero.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Gauss%27s_law_for_magnetism",
+    "citationTitle": "Wikipedia: Gauss's law for magnetism"
+  },
+  {
+    "id": "09d25584-d3bd-4c73-89f3-a29c62058b17",
+    "text": "According to Lenz's law, the direction of an induced current will always be such that it:",
+    "options": [
+      "Maximizes the magnetic flux",
+      "Opposes the change in magnetic flux",
+      "Creates a stronger magnetic field",
+      "Follows the right-hand rule"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Lenz's law states that induced currents flow in a direction to oppose the change in magnetic flux that created them.",
+    "detailedExplanation": "Lenz's law, formulated by Heinrich Lenz in 1834, is a consequence of the conservation of energy and provides the direction of electromagnetically induced currents. It states that the induced current will flow in such a direction that its magnetic field opposes the change in flux that produced it. This is why the negative sign appears in Faraday's law of electromagnetic induction. Lenz's law explains phenomena like electromagnetic braking and the resistance experienced when moving a magnet near a conductor.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Lenz%27s_law",
+    "citationTitle": "Wikipedia: Lenz's law"
+  },
+  {
+    "id": "523d461d-5ec8-49ac-818d-22399ce65101",
+    "text": "What was the duration of the longest single spacewalk in history, performed during the Space Shuttle program?",
+    "options": [
+      "6 hours 56 minutes",
+      "8 hours 56 minutes",
+      "7 hours 33 minutes",
+      "9 hours 15 minutes"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "The longest spacewalk lasted 8 hours 56 minutes, performed by Susan Helms and James Voss in 2001.",
+    "detailedExplanation": "On March 11, 2001, astronauts Susan Helms and James Voss conducted the longest spacewalk in history during the STS-102 Space Shuttle Discovery mission. Their EVA (Extravehicular Activity) lasted 8 hours and 56 minutes as they worked on the International Space Station, installing equipment and preparing for the arrival of the station's second crew. This record still stands today, though it was nearly matched by several subsequent spacewalks.",
+    "citationUrl": "https://en.wikipedia.org/wiki/List_of_spacewalks_and_moonwalks_1965%E2%80%932019",
+    "citationTitle": "Wikipedia: List of spacewalks and moonwalks 1965–2019"
+  },
+  {
+    "id": "7ff24112-258c-489f-b031-9fb624c8593c",
+    "text": "What was the name of the first private spacecraft to successfully dock with the International Space Station?",
+    "options": [
+      "Dragon 1",
+      "Cygnus",
+      "Dream Chaser",
+      "Starliner"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "SpaceX's Dragon 1 became the first private spacecraft to dock with the ISS in May 2012.",
+    "detailedExplanation": "On May 25, 2012, SpaceX's Dragon 1 spacecraft made history by becoming the first commercially-built and operated spacecraft to dock with the International Space Station. This occurred during the COTS Demo Flight 2 (C2+) mission, marking a significant milestone in commercial spaceflight. The Dragon capsule delivered supplies to the ISS and returned scientific samples to Earth, proving that private companies could reliably service the space station.",
+    "citationUrl": "https://en.wikipedia.org/wiki/SpaceX_Dragon_1",
+    "citationTitle": "Wikipedia: SpaceX Dragon 1"
+  },
+  {
+    "id": "34ab959c-c950-419c-9702-15c97cbcb7c5",
+    "text": "Which Soviet spacecraft achieved the first successful Venus surface landing and data transmission?",
+    "options": [
+      "Venera 7",
+      "Venera 9",
+      "Venera 4",
+      "Venera 13"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Venera 7 was the first spacecraft to successfully land on Venus and transmit data in December 1970.",
+    "detailedExplanation": "Venera 7 achieved a historic milestone on December 15, 1970, when it became the first spacecraft to successfully land on another planet's surface and transmit data back to Earth. The Soviet probe survived Venus's extreme conditions—temperatures of 475°C and atmospheric pressure 90 times that of Earth—for 23 minutes, sending back temperature and pressure readings. This achievement marked humanity's first successful landing on another planet.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Venera_7",
+    "citationTitle": "Wikipedia: Venera 7"
+  },
+  {
+    "id": "067eed1c-d39d-44a1-9b17-10eeb518cc65",
+    "text": "What did Ignaz Semmelweis discover that led to him being ostracized by the medical community and eventually dying in an asylum?",
+    "options": [
+      "The cause of scurvy",
+      "The importance of handwashing",
+      "The structure of DNA",
+      "The circulation of blood"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Semmelweis discovered that handwashing dramatically reduced childbed fever deaths, but was rejected by colleagues who found the idea offensive.",
+    "detailedExplanation": "Ignaz Semmelweis, a Hungarian physician working in Vienna in the 1840s, observed that maternity wards staffed by doctors had much higher death rates from childbed fever than those staffed by midwives. He realized that doctors were performing autopsies and then delivering babies without washing their hands. When he instituted mandatory handwashing with chlorinated lime, death rates plummeted from 18% to less than 2%. However, the medical establishment rejected his findings, partly because the idea that gentlemen's hands could be unclean was considered offensive. Semmelweis was eventually dismissed from his position, suffered a mental breakdown, and died in an asylum in 1865, ironically from an infection.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Ignaz_Semmelweis",
+    "citationTitle": "Wikipedia: Ignaz Semmelweis"
+  },
+  {
+    "id": "c86c0508-f6ba-470c-95d6-fb1d5626a47e",
+    "text": "Lise Meitner was excluded from the Nobel Prize despite her crucial role in discovering what phenomenon?",
+    "options": [
+      "Nuclear fission",
+      "Radioactive decay",
+      "Neutron activation",
+      "Beta radiation"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Meitner provided the theoretical explanation for nuclear fission but was excluded from the 1944 Nobel Prize awarded to her male colleague Otto Hahn.",
+    "detailedExplanation": "Lise Meitner, an Austrian-Swedish physicist, was instrumental in the discovery and theoretical explanation of nuclear fission. Working with Otto Hahn and Fritz Strassmann in Berlin, she helped conduct the experiments that first split uranium atoms. However, as a Jewish woman, she was forced to flee Nazi Germany in 1938. When Hahn and Strassmann published their experimental results, Meitner (now in exile) provided the crucial theoretical framework explaining that the uranium nucleus had actually split, coining the term 'nuclear fission.' Despite her fundamental contributions, only Otto Hahn received the 1944 Nobel Prize in Chemistry. This exclusion is now widely regarded as one of the most significant oversights in Nobel Prize history.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Lise_Meitner",
+    "citationTitle": "Wikipedia: Lise Meitner"
+  },
+  {
+    "id": "a79807f6-ddd5-433c-8836-10d5b4483842",
+    "text": "What unusual method did Tycho Brahe use to make some of his most accurate astronomical observations?",
+    "options": [
+      "A telescope with mirrors instead of lenses",
+      "Observations from a hot air balloon",
+      "The naked eye without any instruments",
+      "A camera obscura technique"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Tycho Brahe made incredibly precise naked-eye observations before the telescope was invented, achieving accuracy of 2 arcminutes.",
+    "detailedExplanation": "Tycho Brahe, the Danish astronomer, made his groundbreaking astronomical observations in the late 16th century using only his naked eyes and large, precisely constructed instruments like quadrants and sextants. The telescope wouldn't be invented until after his death in 1601. Despite this limitation, Brahe achieved unprecedented accuracy in his measurements, with errors typically less than 2 arcminutes. His meticulous observations of planetary positions, particularly Mars, were so precise that they later enabled Johannes Kepler to discover the laws of planetary motion and realize that planets move in elliptical rather than circular orbits. Brahe's dedication to accuracy revolutionized observational astronomy and laid the foundation for modern celestial mechanics.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Tycho_Brahe",
+    "citationTitle": "Wikipedia: Tycho Brahe"
+  },
+  {
+    "id": "597e13f6-87ce-447e-98fd-53a45651bbbc",
+    "text": "Which of these is NOT one of the five kingdoms in the traditional Whittaker classification system?",
+    "options": [
+      "Monera",
+      "Protista",
+      "Chromista",
+      "Plantae"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Chromista is part of more modern classification systems, not Whittaker's original five-kingdom system.",
+    "detailedExplanation": "Robert Whittaker's five-kingdom system, proposed in 1969, included Monera (bacteria), Protista (single-celled eukaryotes), Fungi, Plantae, and Animalia. Chromista was later proposed as a separate kingdom by Thomas Cavalier-Smith in 1981 to accommodate certain algae and other organisms with specific characteristics like chlorophyll c. Modern classification has evolved significantly beyond Whittaker's system, with some scientists now recognizing six or more kingdoms, and others favoring domain-based systems.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Kingdom_(biology)",
+    "citationTitle": "Wikipedia: Kingdom (biology)"
+  },
+  {
+    "id": "716dae78-6af9-4f56-89af-f5f8a3c91240",
+    "text": "What characteristic distinguishes deuterostomes from protostomes during embryonic development?",
+    "options": [
+      "The fate of the blastopore",
+      "The presence of a coelom",
+      "The number of germ layers",
+      "The type of cleavage pattern"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "In deuterostomes, the blastopore becomes the anus, while in protostomes it becomes the mouth.",
+    "detailedExplanation": "The fundamental difference between deuterostomes and protostomes lies in what happens to the blastopore, the first opening that appears during gastrulation in embryonic development. In protostomes ('first mouth'), the blastopore develops into the mouth, with the anus forming later. In deuterostomes ('second mouth'), the blastopore becomes the anus, and the mouth forms secondarily. This distinction divides bilateral animals into two major groups: protostomes include arthropods, mollusks, and annelids, while deuterostomes include echinoderms and chordates (including vertebrates).",
+    "citationUrl": "https://en.wikipedia.org/wiki/Deuterostome",
+    "citationTitle": "Wikipedia: Deuterostome"
+  },
+  {
+    "id": "0055de3a-62b9-46b9-ae07-3a51aec9fc8d",
+    "text": "In plant taxonomy, what does the term 'monophyletic' mean when referring to a group of plants?",
+    "options": [
+      "Plants with single leaves",
+      "A group including an ancestor and all its descendants",
+      "Plants that reproduce only once",
+      "A group with similar flower structures"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Monophyletic refers to a taxonomic group that includes a common ancestor and all of its evolutionary descendants, representing a complete branch of the evolutionary tree.",
+    "detailedExplanation": "In phylogenetic taxonomy, a monophyletic group (also called a clade) represents a natural evolutionary unit that includes a single common ancestor and all species that have evolved from that ancestor. This concept is fundamental to modern plant classification systems like APG IV (Angiosperm Phylogeny Group). Monophyletic groups are preferred in taxonomy because they reflect actual evolutionary relationships, unlike paraphyletic groups (which exclude some descendants) or polyphyletic groups (which include species from different ancestors). DNA sequencing has revolutionized our understanding of plant relationships, often revealing that traditional morphology-based groups were not monophyletic.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Monophyly",
+    "citationTitle": "Wikipedia: Monophyly"
+  },
+  {
+    "id": "ff3a7b8b-dbab-4c80-ba68-3bb4e7d11cfa",
+    "text": "Which pigment is primarily responsible for the red and purple colors in plant tissues?",
+    "options": [
+      "Chlorophyll",
+      "Carotenoids",
+      "Anthocyanins",
+      "Xanthophylls"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Anthocyanins are water-soluble pigments that produce red, purple, and blue colors in plant tissues, particularly in flowers, fruits, and autumn leaves.",
+    "detailedExplanation": "Anthocyanins are flavonoid pigments that belong to a larger group of compounds called phenolics. These water-soluble pigments are stored in cell vacuoles and are responsible for the red, purple, magenta, and blue colors seen in many flowers, fruits, stems, and leaves. Unlike chlorophyll and carotenoids which are involved in photosynthesis, anthocyanins serve multiple functions including attracting pollinators and seed dispersers, protecting against UV radiation, and providing antioxidant protection. Their production is often triggered by factors like cold temperatures, bright light, or plant stress, which explains why autumn leaves develop brilliant red and purple colors as chlorophyll breaks down.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Anthocyanin",
+    "citationTitle": "Wikipedia: Anthocyanin"
+  },
+  {
+    "id": "50f49321-75c5-4a16-b421-b89deb23ebd7",
+    "text": "What is the specialized root structure called that forms when certain plants partner with nitrogen-fixing bacteria?",
+    "options": [
+      "Mycorrhizae",
+      "Root nodules",
+      "Pneumatophores",
+      "Contractile roots"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Root nodules are specialized structures formed by legumes and other plants in partnership with nitrogen-fixing bacteria like Rhizobium.",
+    "detailedExplanation": "Root nodules are specialized plant organs that develop through a complex symbiotic relationship between certain plants (primarily legumes in the Fabaceae family) and nitrogen-fixing bacteria such as Rhizobium, Bradyrhizobium, and Frankia. These bacteria convert atmospheric nitrogen gas into ammonia, which the plant can use to synthesize amino acids and proteins. In exchange, the plant provides carbohydrates and a protective environment within the nodule. The process involves sophisticated chemical signaling between plant and bacteria, leading to controlled bacterial infection and nodule development. This symbiosis is ecologically crucial, as it allows plants to thrive in nitrogen-poor soils and contributes significantly to the global nitrogen cycle.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Root_nodule",
+    "citationTitle": "Wikipedia: Root nodule"
+  },
+  {
+    "id": "16293114-ffdb-4955-9bc1-2f8b72b3c965",
+    "text": "What causes the phenomenon known as isostatic rebound?",
+    "options": [
+      "Tectonic plate collision",
+      "Removal of overlying mass load",
+      "Thermal expansion of rocks",
+      "Magnetic field reversal"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Isostatic rebound occurs when the Earth's crust rises after the removal of heavy loads like ice sheets.",
+    "detailedExplanation": "Isostatic rebound, or post-glacial rebound, occurs when Earth's crust gradually rises after the removal of heavy surface loads, most commonly massive ice sheets from the last ice age. The process is based on the principle of isostasy - the equilibrium between Earth's lithosphere and the underlying asthenosphere. When ice sheets melt, the previously depressed crust slowly rebounds upward to restore gravitational equilibrium. This process is ongoing in regions like Scandinavia and northern Canada, where the land continues to rise at rates of several centimeters per century.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Post-glacial_rebound",
+    "citationTitle": "Wikipedia: Post-glacial Rebound"
+  }
+]

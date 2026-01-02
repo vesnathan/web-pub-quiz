@@ -1,0 +1,342 @@
+[
+  {
+    "id": "adfd872d-d7df-4ae3-a6d0-d370c09055cc",
+    "text": "Which scientist is credited with discovering penicillin in 1928?",
+    "options": [
+      "Louis Pasteur",
+      "Alexander Fleming",
+      "Marie Curie",
+      "Robert Koch"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Alexander Fleming discovered penicillin accidentally when mold contaminated his bacterial culture plates.",
+    "detailedExplanation": "Alexander Fleming made his groundbreaking discovery of penicillin in September 1928 at St. Mary's Hospital in London. He noticed that a mold had contaminated one of his Petri dishes containing Staphylococcus bacteria, and the bacteria around the mold had been killed. This accidental discovery led to the development of antibiotics, revolutionizing medicine and saving millions of lives.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Alexander_Fleming",
+    "citationTitle": "Wikipedia: Alexander Fleming"
+  },
+  {
+    "id": "92125a8d-813d-496c-a4c3-f2671c7d931f",
+    "text": "What did Rosalind Franklin's X-ray crystallography work contribute to discovering?",
+    "options": [
+      "The structure of proteins",
+      "The double helix structure of DNA",
+      "The composition of chromosomes",
+      "The process of cell division"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Franklin's Photo 51 X-ray diffraction image provided crucial evidence for DNA's helical structure.",
+    "detailedExplanation": "Rosalind Franklin's X-ray crystallography work, particularly her famous 'Photo 51,' provided critical evidence for the double helix structure of DNA. Her precise measurements and high-quality X-ray diffraction images showed the helical structure and gave key dimensions that Watson and Crick used in their model. Though her contributions were initially underrecognized, she is now acknowledged as fundamental to understanding DNA structure.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Rosalind_Franklin",
+    "citationTitle": "Wikipedia: Rosalind Franklin"
+  },
+  {
+    "id": "4026357a-c414-4f7a-8486-64f5284d418a",
+    "text": "Which physicist proposed the theory of continental drift in 1912?",
+    "options": [
+      "Charles Darwin",
+      "Alfred Wegener",
+      "Gregor Mendel",
+      "Niels Bohr"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Alfred Wegener proposed continental drift theory, though it wasn't accepted until plate tectonics was discovered decades later.",
+    "detailedExplanation": "Alfred Wegener, a German meteorologist and geophysicist, proposed the theory of continental drift in 1912. He suggested that continents moved across Earth's surface over geological time, supported by evidence like matching fossils and rock formations across oceans. However, his theory was largely rejected during his lifetime because he couldn't explain the mechanism. It wasn't until the 1960s discovery of plate tectonics that his ideas were vindicated.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Alfred_Wegener",
+    "citationTitle": "Wikipedia: Alfred Wegener"
+  },
+  {
+    "id": "5678aeaa-583f-4783-92ff-964da58f7061",
+    "text": "What element did Marie and Pierre Curie discover in 1898?",
+    "options": [
+      "Uranium",
+      "Radium",
+      "Plutonium",
+      "Polonium"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "The Curies discovered radium in 1898, for which Marie Curie won her second Nobel Prize.",
+    "detailedExplanation": "Marie and Pierre Curie discovered radium in 1898 while investigating radioactive materials. They also discovered polonium the same year. Marie Curie spent years processing tons of pitchblende ore to isolate pure radium, eventually succeeding in 1910. Her work with radium earned her a second Nobel Prize in Chemistry in 1911, making her the first person to win Nobel Prizes in two different scientific fields.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Marie_Curie",
+    "citationTitle": "Wikipedia: Marie Curie"
+  },
+  {
+    "id": "715c6fbb-9728-47e3-843f-8275f0646ec9",
+    "text": "Which scientist developed the first successful polio vaccine?",
+    "options": [
+      "Jonas Salk",
+      "Albert Sabin",
+      "Edward Jenner",
+      "Paul Ehrlich"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Jonas Salk developed the first successful polio vaccine, which was announced as safe and effective in 1955.",
+    "detailedExplanation": "Jonas Salk developed the first successful polio vaccine in the early 1950s. His killed-virus vaccine was tested in a massive field trial involving 1.8 million children, and the results announced in April 1955 showed it was safe and effective. Salk famously refused to patent the vaccine, saying 'Can you patent the sun?' His work led to the near-eradication of polio worldwide, though Albert Sabin later developed an oral polio vaccine that became widely used.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Jonas_Salk",
+    "citationTitle": "Wikipedia: Jonas Salk"
+  },
+  {
+    "id": "bd6051a1-05f3-4795-8e2b-ea67bb217657",
+    "text": "What did Dmitri Mendeleev organize to create the periodic table?",
+    "options": [
+      "Atomic weights and properties of elements",
+      "Chemical reaction speeds",
+      "Molecular structures",
+      "Electron configurations"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Mendeleev arranged elements by atomic weight and properties, predicting undiscovered elements.",
+    "detailedExplanation": "Dmitri Mendeleev created the periodic table in 1869 by arranging the known elements according to their atomic weights and chemical properties. His genius lay not just in organization, but in leaving gaps for undiscovered elements and predicting their properties. When elements like gallium, scandium, and germanium were later discovered with properties matching his predictions, it validated his periodic system and established him as one of chemistry's greatest figures.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Dmitri_Mendeleev",
+    "citationTitle": "Wikipedia: Dmitri Mendeleev"
+  },
+  {
+    "id": "762b088e-f0f3-4a57-b279-3ab6e90c6779",
+    "text": "Which astronomer proposed that the Sun, not Earth, was the center of the solar system?",
+    "options": [
+      "Galileo Galilei",
+      "Johannes Kepler",
+      "Nicolaus Copernicus",
+      "Tycho Brahe"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Copernicus proposed the heliocentric model in his 1543 work 'On the Revolutions of the Celestial Spheres.'",
+    "detailedExplanation": "Nicolaus Copernicus revolutionized astronomy with his heliocentric model, published in 'De revolutionibus orbium coelestium' (On the Revolutions of the Celestial Spheres) in 1543. His theory placed the Sun at the center of the solar system, challenging the long-held geocentric model. While Galileo provided observational evidence and Kepler refined the orbital mechanics, Copernicus was the first to propose this fundamental shift in understanding our place in the cosmos.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Nicolaus_Copernicus",
+    "citationTitle": "Wikipedia: Nicolaus Copernicus"
+  },
+  {
+    "id": "f2d571d9-769c-47e9-afc2-921d0f6070e1",
+    "text": "What revolutionary concept did Charles Darwin and Alfred Russel Wallace independently propose?",
+    "options": [
+      "Genetic inheritance",
+      "Evolution by natural selection",
+      "Cell theory",
+      "Germ theory of disease"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Both Darwin and Wallace independently developed the theory of evolution by natural selection in the 1850s.",
+    "detailedExplanation": "Charles Darwin and Alfred Russel Wallace independently conceived the theory of evolution by natural selection in the 1850s. Wallace sent Darwin a manuscript outlining his ideas in 1858, which prompted Darwin to present their findings jointly to the Linnean Society. Darwin then published 'On the Origin of Species' in 1859, providing extensive evidence for the theory. This concept revolutionized biology by explaining how species change over time through differential survival and reproduction.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Charles_Darwin",
+    "citationTitle": "Wikipedia: Charles Darwin"
+  },
+  {
+    "id": "763508cb-3900-4b35-8679-8c8a283b8fbc",
+    "text": "What fundamental law of physics did Isaac Newton NOT formulate?",
+    "options": [
+      "Law of Universal Gravitation",
+      "Conservation of Energy",
+      "Three Laws of Motion",
+      "Law of Cooling"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "The Conservation of Energy was developed later by various scientists including Julius Mayer and James Joule in the 19th century.",
+    "detailedExplanation": "While Isaac Newton formulated the Law of Universal Gravitation, the three laws of motion, and Newton's law of cooling (among other contributions), the principle of Conservation of Energy was not established by him. This fundamental principle was developed in the 19th century through the work of several scientists including Julius Mayer, James Joule, and Hermann von Helmholtz, long after Newton's time in the 17th century.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Isaac_Newton",
+    "citationTitle": "Wikipedia: Isaac Newton"
+  },
+  {
+    "id": "5c409636-93e2-4286-9a2e-adaab6d2c47c",
+    "text": "Which female scientist won Nobel Prizes in both Physics and Chemistry?",
+    "options": [
+      "Rosalind Franklin",
+      "Marie Curie",
+      "Dorothy Hodgkin",
+      "Lise Meitner"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Marie Curie won the Nobel Prize in Physics in 1903 and in Chemistry in 1911 for her work on radioactivity.",
+    "detailedExplanation": "Marie Curie is the only person to have won Nobel Prizes in two different scientific disciplines. She shared the 1903 Nobel Prize in Physics with her husband Pierre Curie and Henri Becquerel for their work on radioactivity. In 1911, she won the Nobel Prize in Chemistry for discovering the elements radium and polonium. She remains one of only four people to have won Nobel Prizes in multiple categories.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Marie_Curie",
+    "citationTitle": "Wikipedia: Marie Curie"
+  },
+  {
+    "id": "0b1ec03f-0a58-4631-8a06-a0ec29eb064b",
+    "text": "Who developed the theory of evolution by natural selection independently of Charles Darwin?",
+    "options": [
+      "Gregor Mendel",
+      "Alfred Russel Wallace",
+      "Jean-Baptiste Lamarck",
+      "Thomas Malthus"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Alfred Russel Wallace developed his theory of evolution by natural selection while studying wildlife in Southeast Asia.",
+    "detailedExplanation": "Alfred Russel Wallace independently conceived the theory of evolution through natural selection while suffering from a fever in the Indonesian island of Ternate in 1858. He sent his essay to Charles Darwin, who had been developing similar ideas for over 20 years. This led to a joint presentation of their theories to the Linnean Society of London in 1858, though Darwin's 'On the Origin of Species' published the following year became the more famous exposition of the theory.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Alfred_Russel_Wallace",
+    "citationTitle": "Wikipedia: Alfred Russel Wallace"
+  },
+  {
+    "id": "c37a6cd7-e50d-4610-a8b7-c7e502b45bc4",
+    "text": "What did Dmitri Mendeleev organize in 1869 that revolutionized chemistry?",
+    "options": [
+      "The first chemistry laboratory",
+      "The periodic table of elements",
+      "The molecular structure of water",
+      "The atomic theory"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Mendeleev arranged the known elements by atomic weight and predicted the existence of undiscovered elements.",
+    "detailedExplanation": "Dmitri Mendeleev created the first widely recognized periodic table of chemical elements in 1869. He arranged the 63 known elements by atomic weight and noticed that certain properties repeated periodically. Most remarkably, he left gaps in his table for elements that hadn't been discovered yet and accurately predicted their properties. When gallium, scandium, and germanium were later discovered, they matched his predictions almost perfectly, validating his periodic law.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Dmitri_Mendeleev",
+    "citationTitle": "Wikipedia: Dmitri Mendeleev"
+  },
+  {
+    "id": "7961f683-8f16-4f5e-be33-1c19a63d4e60",
+    "text": "Which scientist's famous equation relates mass and energy?",
+    "options": [
+      "Max Planck",
+      "Niels Bohr",
+      "Albert Einstein",
+      "Werner Heisenberg"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Einstein's equation E=mc² shows that mass and energy are interchangeable, derived from his special theory of relativity.",
+    "detailedExplanation": "Albert Einstein's famous equation E=mc² emerged from his special theory of relativity published in 1905. The equation demonstrates that mass and energy are interchangeable - a small amount of mass can be converted into a tremendous amount of energy (since c, the speed of light, is squared in the equation). This principle later became crucial for understanding nuclear reactions and led to both nuclear power and nuclear weapons development.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Mass%E2%80%93energy_equivalence",
+    "citationTitle": "Wikipedia: Mass–energy equivalence"
+  },
+  {
+    "id": "7299bd36-2f16-4dd0-a8c1-cf7cb5facd54",
+    "text": "What did Watson and Crick discover in 1953 that earned them a Nobel Prize?",
+    "options": [
+      "The structure of proteins",
+      "The double helix structure of DNA",
+      "The genetic code",
+      "DNA replication mechanism"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Watson and Crick determined that DNA has a double helix structure, using X-ray crystallography data from Rosalind Franklin.",
+    "detailedExplanation": "James Watson and Francis Crick discovered the double helix structure of DNA in 1953, publishing their findings in the journal Nature. Their model showed that DNA consists of two complementary strands wound around each other in a helical structure, with bases paired in the middle (A with T, G with C). This discovery was crucial for understanding how genetic information is stored and replicated. They shared the 1962 Nobel Prize in Physiology or Medicine with Maurice Wilkins, though Rosalind Franklin's X-ray crystallography work was essential to their discovery.",
+    "citationUrl": "https://en.wikipedia.org/wiki/DNA",
+    "citationTitle": "Wikipedia: DNA"
+  },
+  {
+    "id": "559cdb7b-8561-46a6-9ee4-7a95fd9d204f",
+    "text": "Which astronomer was the first to use a telescope for astronomical observations?",
+    "options": [
+      "Johannes Kepler",
+      "Tycho Brahe",
+      "Galileo Galilei",
+      "Nicolaus Copernicus"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Galileo was the first to systematically use a telescope for astronomy, discovering Jupiter's moons and lunar craters in 1609.",
+    "detailedExplanation": "Galileo Galilei was the first person to use a telescope for systematic astronomical observations in 1609. After hearing about the invention of the telescope in the Netherlands, he quickly built his own improved version and turned it skyward. His discoveries included the four largest moons of Jupiter (now called the Galilean moons), the phases of Venus, lunar craters and mountains, and countless stars in the Milky Way. These observations provided strong evidence for the heliocentric model of the solar system.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Galileo_Galilei",
+    "citationTitle": "Wikipedia: Galileo Galilei"
+  },
+  {
+    "id": "b8955671-73ef-4bc5-b025-be19598d9923",
+    "text": "Which scientist discovered the structure of benzene after allegedly dreaming of a snake eating its own tail?",
+    "options": [
+      "August Kekulé",
+      "Dmitri Mendeleev",
+      "Marie Curie",
+      "Niels Bohr"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "August Kekulé discovered the ring structure of benzene in 1865, famously claiming the idea came to him in a dream of a snake seizing its own tail.",
+    "detailedExplanation": "August Kekulé's discovery of benzene's ring structure was one of the most important breakthroughs in organic chemistry. According to his own account, the inspiration came from a vivid dream where he saw a snake eating its own tail (an ouroboros), which led him to realize that benzene molecules form a closed ring rather than an open chain. This discovery laid the foundation for understanding aromatic compounds and revolutionized organic chemistry.",
+    "citationUrl": "https://en.wikipedia.org/wiki/August_Kekul%C3%A9",
+    "citationTitle": "Wikipedia: August Kekulé"
+  },
+  {
+    "id": "cf5290ba-9406-43a6-b897-9c2e2231c889",
+    "text": "Who was the first woman to win a Nobel Prize and remains the only person to win Nobel Prizes in two different scientific fields?",
+    "options": [
+      "Rosalind Franklin",
+      "Dorothy Hodgkin",
+      "Marie Curie",
+      "Lise Meitner"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Marie Curie won the Nobel Prize in Physics (1903) and Chemistry (1911), making her the only person to win Nobel Prizes in two different scientific disciplines.",
+    "detailedExplanation": "Marie Curie broke multiple barriers in science and Nobel Prize history. She first won the Nobel Prize in Physics in 1903 (shared with her husband Pierre and Henri Becquerel) for their work on radioactivity, making her the first woman to win a Nobel Prize. In 1911, she won the Nobel Prize in Chemistry for discovering the elements polonium and radium. To this day, she remains the only person to have won Nobel Prizes in two different scientific fields.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Marie_Curie",
+    "citationTitle": "Wikipedia: Marie Curie"
+  },
+  {
+    "id": "da7b9439-6350-4284-b172-6f281102666d",
+    "text": "Alexander Fleming's accidental discovery of which substance revolutionized medicine and saved millions of lives?",
+    "options": [
+      "Insulin",
+      "Penicillin",
+      "Aspirin",
+      "Morphine"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Fleming discovered penicillin in 1928 when he noticed that a mold had contaminated one of his bacterial culture plates and killed the surrounding bacteria.",
+    "detailedExplanation": "In September 1928, Alexander Fleming returned from vacation to find that a mold had contaminated one of his Staphylococcus bacterial culture plates. Rather than discarding it, he observed that the bacteria around the mold had been killed. He identified the mold as belonging to the genus Penicillium and found that it produced a substance with antibacterial properties, which he named penicillin. This accidental discovery became the world's first true antibiotic and has saved countless lives since its mass production began in the 1940s.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Alexander_Fleming",
+    "citationTitle": "Wikipedia: Alexander Fleming"
+  },
+  {
+    "id": "d4319c88-c61a-4d7a-bd94-43a836cd1e72",
+    "text": "Which physicist developed the theory of continental drift, proposing that continents move across Earth's surface over geological time?",
+    "options": [
+      "Charles Lyell",
+      "Alfred Wegener",
+      "James Hutton",
+      "Harry Hess"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Alfred Wegener proposed the theory of continental drift in 1912, suggesting that continents had moved from their original positions over millions of years.",
+    "detailedExplanation": "Alfred Wegener, a German meteorologist and geophysicist, proposed the theory of continental drift in 1912. He noticed that the coastlines of different continents seemed to fit together like puzzle pieces and observed similar fossils and rock formations on continents now separated by vast oceans. Despite compelling evidence, his theory was initially rejected because he couldn't explain the mechanism for continental movement. It wasn't until the 1960s, with the discovery of plate tectonics, that Wegener's ideas were vindicated and became fundamental to modern geology.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Alfred_Wegener",
+    "citationTitle": "Wikipedia: Alfred Wegener"
+  },
+  {
+    "id": "89d3fc27-3dc0-4cc9-b685-5e3dc68d412d",
+    "text": "Gregor Mendel's experiments with which plant led to his groundbreaking laws of inheritance?",
+    "options": [
+      "Sunflowers",
+      "Pea plants",
+      "Corn",
+      "Beans"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Mendel conducted his famous heredity experiments using pea plants (Pisum sativum) in his monastery garden, establishing the fundamental principles of genetics.",
+    "detailedExplanation": "Between 1856 and 1863, Gregor Mendel conducted systematic experiments with pea plants in the garden of his monastery in what is now the Czech Republic. He chose pea plants because they had easily observable traits (like flower color and seed shape), could self-pollinate or be cross-pollinated, and had a relatively short generation time. Through careful breeding experiments and statistical analysis, Mendel discovered the laws of segregation and independent assortment, laying the foundation for the science of genetics. His work was largely ignored during his lifetime but was rediscovered in 1900.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Gregor_Mendel",
+    "citationTitle": "Wikipedia: Gregor Mendel"
+  }
+]
