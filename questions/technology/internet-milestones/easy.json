@@ -1,0 +1,342 @@
+[
+  {
+    "id": "ef1579c1-d3b6-4883-bff3-a204222cf5a8",
+    "text": "What year was the World Wide Web invented by Tim Berners-Lee?",
+    "options": [
+      "1989",
+      "1991",
+      "1993",
+      "1995"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Tim Berners-Lee invented the World Wide Web in 1989 while working at CERN.",
+    "detailedExplanation": "Tim Berners-Lee invented the World Wide Web in 1989 while working as a software engineer at CERN, the European physics research laboratory in Switzerland. He wrote the first web browser, web server, and website, fundamentally changing how we access and share information. The first website went live in 1991, but the actual invention and conceptualization happened in 1989.",
+    "citationUrl": "https://en.wikipedia.org/wiki/World_Wide_Web",
+    "citationTitle": "Wikipedia: World Wide Web"
+  },
+  {
+    "id": "917f4acf-7eca-4fa3-ab54-b15558d5f69d",
+    "text": "Which company launched the first widely successful web browser called Mosaic?",
+    "options": [
+      "Microsoft",
+      "Netscape",
+      "National Center for Supercomputing Applications",
+      "Apple"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Mosaic was developed by the National Center for Supercomputing Applications (NCSA) at the University of Illinois.",
+    "detailedExplanation": "The Mosaic web browser was developed in 1993 by the National Center for Supercomputing Applications (NCSA) at the University of Illinois Urbana-Champaign. It was the first browser to display images alongside text and was instrumental in popularizing the World Wide Web among the general public. Many of its developers later went on to create Netscape Navigator.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Mosaic_(web_browser)",
+    "citationTitle": "Wikipedia: Mosaic (web browser)"
+  },
+  {
+    "id": "47948d3f-7373-4033-a9ba-35cc2d43ce3e",
+    "text": "What was the name of the first search engine created for the World Wide Web?",
+    "options": [
+      "Yahoo!",
+      "AltaVista",
+      "Archie",
+      "WebCrawler"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Archie was the first search engine, created in 1990 to index FTP archives.",
+    "detailedExplanation": "Archie was created in 1990 by Alan Emtage at McGill University in Montreal. It was the first tool to automatically index files available on public FTP servers, making it the first search engine for the internet. The name 'Archie' came from the word 'archive' without the 'v'. While it wasn't specifically for web pages (which barely existed then), it laid the groundwork for all future search engines.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Archie_(search_engine)",
+    "citationTitle": "Wikipedia: Archie (search engine)"
+  },
+  {
+    "id": "2e147257-199e-40e4-a9aa-21a42b66532a",
+    "text": "In what year did Amazon.com launch as an online bookstore?",
+    "options": [
+      "1993",
+      "1994",
+      "1995",
+      "1996"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Amazon.com was launched by Jeff Bezos in 1995 as an online bookstore.",
+    "detailedExplanation": "Amazon.com was founded by Jeff Bezos and launched in July 1995 as an online bookstore operating out of his garage in Bellevue, Washington. Bezos chose books as the initial product because of their low cost, universal demand, and the vast number of titles available. The company was originally incorporated as 'Cadabra' but was later changed to Amazon, named after the world's largest river.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Amazon_(company)",
+    "citationTitle": "Wikipedia: Amazon (company)"
+  },
+  {
+    "id": "68eb360c-854f-4931-a455-11bb9193881d",
+    "text": "What does 'HTTP' stand for in web addresses?",
+    "options": [
+      "HyperText Transfer Protocol",
+      "High Tech Transfer Process",
+      "HyperText Transport Program",
+      "Host Transfer Text Protocol"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "HTTP stands for HyperText Transfer Protocol, the foundation of data communication on the Web.",
+    "detailedExplanation": "HTTP (HyperText Transfer Protocol) is the underlying protocol used by the World Wide Web to define how messages are formatted and transmitted between web servers and browsers. It was developed by Tim Berners-Lee alongside HTML and URLs as one of the foundational technologies of the Web. HTTP defines the rules for how web browsers request web pages from servers and how servers respond to those requests.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol",
+    "citationTitle": "Wikipedia: Hypertext Transfer Protocol"
+  },
+  {
+    "id": "e5ff1cfd-61ec-454e-884b-e30f1d88e0d8",
+    "text": "Which social networking site was founded first?",
+    "options": [
+      "MySpace",
+      "Facebook",
+      "Friendster",
+      "LinkedIn"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Friendster was launched in 2002, making it one of the earliest social networking sites.",
+    "detailedExplanation": "Friendster was launched in 2002 by Jonathan Abrams and is considered one of the pioneering social networking websites. It predated MySpace (2003), LinkedIn (2003), and Facebook (2004). Friendster introduced many features that became standard in social networking, such as connecting with friends, viewing profiles, and expanding networks through mutual connections. Despite its early start, technical problems and competition from newer sites led to its decline in Western markets.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Friendster",
+    "citationTitle": "Wikipedia: Friendster"
+  },
+  {
+    "id": "76b922f4-495f-444e-b348-9c2197f99b12",
+    "text": "What was the first item ever sold on eBay?",
+    "options": [
+      "A computer mouse",
+      "A broken laser pointer",
+      "A Pez dispenser",
+      "A book"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "The first item sold on eBay was a broken laser pointer for $14.83 in 1995.",
+    "detailedExplanation": "The first item ever sold on eBay was a broken laser pointer that sold for $14.83 in September 1995. eBay founder Pierre Omidyar had listed his own broken laser pointer as a test of his auction website, originally called AuctionWeb. Surprisingly, someone actually bid on and purchased the broken item. When Omidyar contacted the buyer to make sure they understood it was broken, the buyer replied that he collected broken laser pointers, giving Omidyar confidence that his platform had real potential.",
+    "citationUrl": "https://en.wikipedia.org/wiki/EBay",
+    "citationTitle": "Wikipedia: eBay"
+  },
+  {
+    "id": "0126e76e-1ecf-4321-9150-56782c9c3b9d",
+    "text": "In what year did Google launch its search engine?",
+    "options": [
+      "1996",
+      "1997",
+      "1998",
+      "1999"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Google was officially incorporated and launched its search engine in 1998.",
+    "detailedExplanation": "Google was founded by Larry Page and Sergey Brin in September 1998 while they were PhD students at Stanford University. The company was officially incorporated on September 4, 1998. The Google search engine was based on their PageRank algorithm, which ranked web pages based on their relevance and authority. The name 'Google' was derived from 'googol', a mathematical term for the number 1 followed by 100 zeros, reflecting their mission to organize the world's vast amount of information.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Google",
+    "citationTitle": "Wikipedia: Google"
+  },
+  {
+    "id": "253cd721-cc8f-4950-91d4-c94ffc02c746",
+    "text": "What was the original name of the network that eventually became the Internet?",
+    "options": [
+      "ARPANET",
+      "MILNET",
+      "NSFNET",
+      "BITNET"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "ARPANET (Advanced Research Projects Agency Network) was the precursor to the modern Internet.",
+    "detailedExplanation": "ARPANET was developed by the U.S. Department of Defense's Advanced Research Projects Agency (ARPA) in the late 1960s. It was designed to enable resource sharing between computers and provide a robust communication network that could survive partial outages. The first ARPANET message was sent in 1969 between UCLA and Stanford, marking the beginning of what would eventually evolve into the global Internet we know today.",
+    "citationUrl": "https://en.wikipedia.org/wiki/ARPANET",
+    "citationTitle": "Wikipedia: ARPANET"
+  },
+  {
+    "id": "dfa3510c-3cad-4696-8179-9cac7ebde1d2",
+    "text": "Which symbol is used in email addresses to separate the user name from the domain name?",
+    "options": [
+      "@",
+      "#",
+      "&",
+      "%"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "The @ symbol separates the username from the domain in email addresses.",
+    "detailedExplanation": "Ray Tomlinson, who sent the first network email in 1971, chose the @ symbol to separate the user's name from their location (domain). He selected this symbol because it was the only preposition available on the keyboard at the time, and it made logical sense - the @ symbol meant 'at' a particular location. This simple innovation became a fundamental part of email addressing that remains unchanged today.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Email_address",
+    "citationTitle": "Wikipedia: Email address"
+  },
+  {
+    "id": "9d447759-3640-4926-b7fe-be7751024b42",
+    "text": "What milestone did Facebook reach in 2012 that made major headlines?",
+    "options": [
+      "1 billion users",
+      "Acquired Instagram",
+      "Went public (IPO)",
+      "All of the above"
+    ],
+    "correctIndex": 3,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Facebook achieved all three major milestones in 2012: reaching 1 billion users, acquiring Instagram, and going public.",
+    "detailedExplanation": "2012 was a landmark year for Facebook. In May, the company went public with one of the largest IPOs in tech history. Earlier that year, Facebook acquired Instagram for $1 billion. Then in October, Facebook announced it had reached 1 billion monthly active users, making it the largest social network in the world at the time. These three milestones collectively marked Facebook's transformation from a college startup to a global technology giant.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Facebook",
+    "citationTitle": "Wikipedia: Facebook"
+  },
+  {
+    "id": "7afe088b-61fc-4e2f-bcd1-0fda54c75b1e",
+    "text": "What was the first live concert streamed over the Internet?",
+    "options": [
+      "Rolling Stones concert in 1994",
+      "Nirvana concert in 1993",
+      "U2 concert in 1995",
+      "Pearl Jam concert in 1994"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "The Rolling Stones' 1994 concert was the first major live concert streamed over the Internet.",
+    "detailedExplanation": "On November 18, 1994, the Rolling Stones performed at the Cotton Bowl in Dallas, Texas, and the concert was broadcast live over the Internet using technology called MBone (Multicast Backbone). This groundbreaking event attracted approximately 500,000 viewers online, making it the first major live concert to be streamed over the Internet. The stream was relatively primitive by today's standards - viewers saw a small, grainy video window - but it represented a major milestone in Internet broadcasting.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Webcast",
+    "citationTitle": "Wikipedia: Webcast"
+  },
+  {
+    "id": "62f67eb7-9b15-41fb-be3b-6e7f5654fa2e",
+    "text": "In what year was YouTube founded?",
+    "options": [
+      "2003",
+      "2004",
+      "2005",
+      "2006"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "YouTube was founded in 2005 by three former PayPal employees.",
+    "detailedExplanation": "YouTube was founded in February 2005 by Chad Hurley, Steve Chen, and Jawed Karim, who were all former employees of PayPal. The first video, titled 'Me at the zoo,' was uploaded in April 2005. The platform quickly gained popularity as an easy way to share videos online, and by October 2006, Google acquired YouTube for $1.65 billion in stock. YouTube revolutionized how people consume and share video content, becoming the world's largest video-sharing platform.",
+    "citationUrl": "https://en.wikipedia.org/wiki/YouTube",
+    "citationTitle": "Wikipedia: YouTube"
+  },
+  {
+    "id": "450dfd9a-0327-4750-bd7a-cf297b30d85e",
+    "text": "What was the first domain name ever registered on the Internet?",
+    "options": [
+      "symbolics.com",
+      "ibm.com",
+      "mit.edu",
+      "arpa.gov"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Symbolics.com was registered on March 15, 1985, making it the first commercial domain name.",
+    "detailedExplanation": "On March 15, 1985, Symbolics.com became the first domain name registered in the .com top-level domain. It was registered by Symbolics Inc., a computer manufacturer that specialized in Lisp machines. The domain registration predated the World Wide Web by several years, as the DNS (Domain Name System) was implemented in 1984-1985 to replace the previous system of maintaining a simple text file of host names and addresses. Symbolics.com is still active today and serves as a historical monument to Internet history.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Symbolics.com",
+    "citationTitle": "Wikipedia: Symbolics.com"
+  },
+  {
+    "id": "eca8dfed-beac-4040-8fd2-1ccc24005a0f",
+    "text": "Which messaging service introduced the concept of 'status updates' that later became widely adopted?",
+    "options": [
+      "AOL Instant Messenger",
+      "ICQ",
+      "MSN Messenger",
+      "Yahoo Messenger"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "ICQ introduced status messages in the 1990s, pioneering the concept later adopted by other platforms.",
+    "detailedExplanation": "ICQ, launched in 1996 by Israeli company Mirabilis, was one of the first instant messaging services to introduce status messages where users could share what they were doing or thinking. This feature allowed users to communicate their availability and mood to their contact list, pioneering a concept that would later evolve into the status updates we see on social media platforms today. ICQ's innovation in online presence and status sharing influenced the development of social networking and how people communicate their daily activities online.",
+    "citationUrl": "https://en.wikipedia.org/wiki/ICQ",
+    "citationTitle": "Wikipedia: ICQ"
+  },
+  {
+    "id": "5fbc409a-4199-483e-a8cf-bea961c7f415",
+    "text": "What major Internet milestone occurred on January 1, 1983?",
+    "options": [
+      "ARPANET adopted TCP/IP protocol",
+      "First email was sent",
+      "Domain Name System launched",
+      "World Wide Web went live"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "January 1, 1983 marked ARPANET's transition to TCP/IP, creating the foundation of the modern Internet.",
+    "detailedExplanation": "On January 1, 1983, ARPANET officially switched from its original Network Control Protocol (NCP) to the TCP/IP protocol suite. This transition is often considered the official birth of the Internet as we know it today, because TCP/IP allowed different networks to interconnect and communicate with each other. The standardization of TCP/IP made it possible for various computer networks around the world to connect and form the global network that became the Internet. This date is sometimes referred to as 'Flag Day' in Internet history.",
+    "citationUrl": "https://en.wikipedia.org/wiki/History_of_the_Internet",
+    "citationTitle": "Wikipedia: History of the Internet"
+  },
+  {
+    "id": "8b1e3b83-fde2-4421-9e50-2a05ff8ce2aa",
+    "text": "What was the name of the first email program that allowed users to send messages between different computers on a network?",
+    "options": [
+      "MAILBOX",
+      "SNDMSG",
+      "READMAIL",
+      "NETMAIL"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "SNDMSG was the first email program created by Ray Tomlinson in 1971.",
+    "detailedExplanation": "SNDMSG was developed by Ray Tomlinson at BBN Technologies in 1971 as the first program capable of sending electronic messages between users on different computers connected to ARPANET. This program also introduced the use of the @ symbol to separate usernames from host names, establishing the email address format we still use today. Tomlinson's work laid the foundation for modern email communication.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Email",
+    "citationTitle": "Wikipedia: Email"
+  },
+  {
+    "id": "7e820d60-b9bc-4841-ac3e-4bd4fd66bfce",
+    "text": "Which Internet phenomenon occurred for the first time on May 3, 1978, when Gary Thuerk sent a message to 393 recipients?",
+    "options": [
+      "The first computer virus",
+      "The first spam email",
+      "The first online purchase",
+      "The first chat room"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Gary Thuerk sent the first spam email in 1978 to promote DEC computers to ARPANET users.",
+    "detailedExplanation": "On May 3, 1978, Gary Thuerk, a marketing representative for Digital Equipment Corporation (DEC), sent what is widely considered the first spam email to 393 users on ARPANET. The unsolicited message advertised DEC's new line of computers and generated significant backlash from recipients who complained about the inappropriate use of the network. This incident established an unwanted precedent and introduced the world to what would become one of the Internet's most persistent problems.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Email_spam",
+    "citationTitle": "Wikipedia: Email spam"
+  },
+  {
+    "id": "58196fc5-6d62-46d1-9e73-88ec9bd3400e",
+    "text": "What major Internet security milestone was achieved in 1988 when Robert Morris accidentally demonstrated a critical vulnerability?",
+    "options": [
+      "The first firewall was created",
+      "The first computer worm was released",
+      "The first antivirus software was developed",
+      "The first encrypted website was launched"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "The Morris Worm in 1988 was the first major computer worm distributed via the Internet.",
+    "detailedExplanation": "In November 1988, Robert Tappan Morris, a graduate student at Cornell University, released what became known as the Morris Worm - the first major malicious program distributed via the Internet. The worm was intended as a harmless experiment to gauge the size of the Internet, but a programming error caused it to replicate aggressively, infecting approximately 6,000 computers (about 10% of the Internet at the time) and effectively bringing much of the network to a halt. This incident highlighted critical security vulnerabilities and led to the establishment of the Computer Emergency Response Team (CERT).",
+    "citationUrl": "https://en.wikipedia.org/wiki/Morris_worm",
+    "citationTitle": "Wikipedia: Morris worm"
+  },
+  {
+    "id": "9ae91cc1-3141-408e-bee3-91a4a14322c5",
+    "text": "Which online service became the first to reach 1 billion registered users in 2012?",
+    "options": [
+      "Twitter",
+      "Skype",
+      "Facebook",
+      "Gmail"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Facebook became the first online service to reach 1 billion active users in October 2012.",
+    "detailedExplanation": "In October 2012, Facebook announced that it had reached the historic milestone of 1 billion monthly active users, making it the first social networking platform and online service to achieve this scale. This milestone represented roughly one-seventh of the world's population at the time and demonstrated the unprecedented reach and influence of social media. The achievement marked a significant moment in Internet history, showing how digital platforms could connect people on a truly global scale.",
+    "citationUrl": "https://en.wikipedia.org/wiki/History_of_Facebook",
+    "citationTitle": "Wikipedia: History of Facebook"
+  }
+]

@@ -10,6 +10,7 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://quiznight.live"),
   title: "QuizNight.live - Real-time Multiplayer Trivia",
   description:
     "Real-time multiplayer trivia with buzzer mechanics. Join live quiz sessions, compete with players worldwide, and climb the leaderboards!",
@@ -39,7 +40,7 @@ export const metadata: Metadata = {
     siteName: "QuizNight.live",
     images: [
       {
-        url: "/og-image.png",
+        url: "https://quiznight.live/og-image.png",
         width: 1024,
         height: 1024,
         alt: "QuizNight.live Logo",
@@ -53,7 +54,7 @@ export const metadata: Metadata = {
     title: "QuizNight.live - Real-time Multiplayer Trivia",
     description:
       "Real-time multiplayer trivia with buzzer mechanics. Join live quiz sessions and compete!",
-    images: ["/og-image.png"],
+    images: ["https://quiznight.live/og-image.png"],
   },
   manifest: "/manifest.json",
 };

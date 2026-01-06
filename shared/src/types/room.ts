@@ -20,11 +20,10 @@ export interface RoomListItem {
   name: string;
   difficulty: RoomDifficulty;
   currentPlayers: number;
-  queuedPlayers: number; // Players waiting to join when window opens
   maxPlayers: number;
   status: RoomStatus;
-  disabled?: boolean; // If true, room is not joinable (not enough online players)
-  disabledReason?: string; // Reason for being disabled
+  inProgress: boolean; // Game is currently running
+  currentQuestion: number | null; // Current question index if in progress
 }
 
 // Players per room - add a new room for every N players online

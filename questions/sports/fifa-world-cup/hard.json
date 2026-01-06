@@ -1,0 +1,342 @@
+[
+  {
+    "id": "39b775ea-e935-45c4-a810-a3d345680ae8",
+    "text": "Which player holds the record for the most World Cup appearances across different tournaments?",
+    "options": [
+      "Lothar Matthäus",
+      "Gianluigi Buffon",
+      "Alfredo Talavera",
+      "Antonio Carbajal"
+    ],
+    "correctIndex": 2,
+    "category": "sports",
+    "difficulty": "hard",
+    "explanation": "Alfredo Talavera appeared in 5 World Cups (2006, 2010, 2014, 2018, 2022).",
+    "detailedExplanation": "Mexican goalkeeper Alfredo Talavera holds the record for most World Cup appearances with 5 tournaments from 2006 to 2022. While he didn't always start as first-choice keeper, his consistent selection across two decades demonstrates remarkable longevity. Lothar Matthäus previously held records for most games played, but Talavera's achievement spans the most tournaments.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Alfredo_Talavera",
+    "citationTitle": "Wikipedia: Alfredo Talavera"
+  },
+  {
+    "id": "9808d3f1-552a-41a3-9e5e-80d19ecb5dd6",
+    "text": "What was unique about the 1950 FIFA World Cup final tournament structure?",
+    "options": [
+      "It was played as a single elimination tournament",
+      "It had no knockout rounds, only a final group stage",
+      "It was the first to use penalty shootouts",
+      "It featured 32 teams for the first time"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "hard",
+    "explanation": "The 1950 World Cup had no final match - the winner was determined by a final group stage.",
+    "detailedExplanation": "The 1950 FIFA World Cup in Brazil was unique in that it didn't have a traditional knockout final. Instead, the four group winners advanced to a final group stage where each team played the others once. Uruguay won by finishing top of this final group, with their decisive match against Brazil at the Maracanã often referred to as the 'final' despite technically being just another group game.",
+    "citationUrl": "https://en.wikipedia.org/wiki/1950_FIFA_World_Cup",
+    "citationTitle": "Wikipedia: 1950 FIFA World Cup"
+  },
+  {
+    "id": "51b08707-d313-43aa-b28c-82f608a01877",
+    "text": "Which country has appeared in the most World Cup finals without ever winning the tournament?",
+    "options": [
+      "Croatia",
+      "Netherlands",
+      "Hungary",
+      "Czechoslovakia"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "hard",
+    "explanation": "The Netherlands has reached 3 World Cup finals (1974, 1978, 2010) but never won.",
+    "detailedExplanation": "The Netherlands holds the unfortunate record of reaching three World Cup finals without winning any of them. They lost to West Germany in 1974, Argentina in 1978, and Spain in 2010. This has earned them the unwanted distinction of being the most successful team never to win the World Cup, despite producing legendary players and playing attractive football throughout their history.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Netherlands_at_the_FIFA_World_Cup",
+    "citationTitle": "Wikipedia: Netherlands at the FIFA World Cup"
+  },
+  {
+    "id": "a92b9e41-d612-48fc-b77f-089ba6489a1f",
+    "text": "Who was the first player to score in 5 different World Cup tournaments?",
+    "options": [
+      "Pelé",
+      "Uwe Seeler",
+      "Miroslav Klose",
+      "Cristiano Ronaldo"
+    ],
+    "correctIndex": 3,
+    "category": "sports",
+    "difficulty": "hard",
+    "explanation": "Cristiano Ronaldo scored in 5 World Cups: 2006, 2010, 2014, 2018, and 2022.",
+    "detailedExplanation": "Cristiano Ronaldo became the first player in World Cup history to score in five different tournaments when he scored against Ghana in Portugal's opening match of the 2022 World Cup in Qatar. His goals came across 2006 (Germany), 2010 (South Africa), 2014 (Brazil), 2018 (Russia), and 2022 (Qatar), spanning 16 years of international football at the highest level.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Cristiano_Ronaldo",
+    "citationTitle": "Wikipedia: Cristiano Ronaldo"
+  },
+  {
+    "id": "122f0ab4-43bd-46dd-86e9-8db5f11cc5bd",
+    "text": "Which World Cup featured the lowest average goals per game in tournament history?",
+    "options": [
+      "1990 Italy",
+      "2010 South Africa",
+      "1986 Mexico",
+      "2018 Russia"
+    ],
+    "correctIndex": 0,
+    "category": "sports",
+    "difficulty": "hard",
+    "explanation": "Italia '90 had an average of just 2.21 goals per game, the lowest in World Cup history.",
+    "detailedExplanation": "The 1990 World Cup in Italy is remembered for its defensive, tactical play and lack of goals. With just 115 goals scored across 52 matches, it averaged only 2.21 goals per game - the lowest in World Cup history. The tournament was criticized for being overly cautious, with many teams prioritizing not losing over attacking play, leading to numerous 1-0 results and penalty shootouts.",
+    "citationUrl": "https://en.wikipedia.org/wiki/1990_FIFA_World_Cup",
+    "citationTitle": "Wikipedia: 1990 FIFA World Cup"
+  },
+  {
+    "id": "9fecb37a-3300-4023-9d77-c76c30d259ac",
+    "text": "What was the controversy surrounding the 1978 World Cup match between Argentina and Peru?",
+    "options": [
+      "Peru used ineligible players",
+      "Argentina needed to win by 4+ goals and won 6-0",
+      "The match was played behind closed doors",
+      "Both teams were eliminated before playing"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "hard",
+    "explanation": "Argentina needed to win by at least 4 goals to reach the final and suspiciously won 6-0.",
+    "detailedExplanation": "The Argentina vs Peru match in the 1978 World Cup remains one of football's most controversial games. Argentina needed to win by at least 4 goals to advance to the final ahead of Brazil on goal difference. They won 6-0, with Peru offering little resistance despite having previously been competitive. Allegations of bribery and political pressure from Argentina's military junta have persisted for decades, though never conclusively proven.",
+    "citationUrl": "https://en.wikipedia.org/wiki/1978_FIFA_World_Cup",
+    "citationTitle": "Wikipedia: 1978 FIFA World Cup"
+  },
+  {
+    "id": "d19be537-1da3-4400-9df8-894ab7d52d11",
+    "text": "Which goalkeeper has kept the most clean sheets in World Cup history?",
+    "options": [
+      "Gianluigi Buffon",
+      "Fabien Barthez",
+      "Walter Zenga",
+      "Claudio Taffarel"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "hard",
+    "explanation": "Fabien Barthez kept 10 clean sheets across the 1998 and 2006 World Cups.",
+    "detailedExplanation": "French goalkeeper Fabien Barthez holds the record for most clean sheets in World Cup history with 10 shutouts across two tournaments. He kept 5 clean sheets during France's victorious 1998 campaign on home soil and added 5 more during the 2006 tournament in Germany, where France reached the final. His consistency and shot-stopping ability were crucial to France's success in both tournaments.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Fabien_Barthez",
+    "citationTitle": "Wikipedia: Fabien Barthez"
+  },
+  {
+    "id": "337ee9f4-4e4a-48d9-92e1-12082c72f288",
+    "text": "Which two countries were awarded hosting rights for 2030 World Cup matches to commemorate the tournament's centenary?",
+    "options": [
+      "Argentina and Brazil",
+      "Uruguay and Argentina",
+      "Spain and Portugal",
+      "Morocco and Spain"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "hard",
+    "explanation": "Uruguay and Argentina will host opening matches in 2030 to mark 100 years since the first World Cup.",
+    "detailedExplanation": "FIFA announced that the 2030 World Cup will feature a unique format with Uruguay and Argentina hosting commemorative opening matches to mark the 100th anniversary of the first World Cup held in Uruguay in 1930. These matches will be played before the main tournament moves to the primary hosts Spain, Portugal, and Morocco. This decision honors Uruguay as the original World Cup host and Argentina as runners-up in that inaugural tournament.",
+    "citationUrl": "https://en.wikipedia.org/wiki/2030_FIFA_World_Cup",
+    "citationTitle": "Wikipedia: 2030 FIFA World Cup"
+  },
+  {
+    "id": "90f6bce5-4935-484a-ae04-fab8c783cbe2",
+    "text": "Which World Cup winner never actually lifted the original Jules Rimet Trophy due to it being stolen before the tournament?",
+    "options": [
+      "England 1966",
+      "Brazil 1970",
+      "West Germany 1974",
+      "Argentina 1978"
+    ],
+    "correctIndex": 0,
+    "category": "sports",
+    "difficulty": "hard",
+    "explanation": "England won in 1966 but lifted a replica as the original Jules Rimet Trophy was stolen four months before the tournament.",
+    "detailedExplanation": "The original Jules Rimet Trophy was stolen from an exhibition at Central Hall in Westminster, London, on March 20, 1966, just four months before England hosted the World Cup. Although it was found a week later by a dog named Pickles, FIFA decided to use a replica for the actual tournament ceremonies. This means England, despite winning on home soil, never actually lifted the genuine original trophy during their victory celebration.",
+    "citationUrl": "https://en.wikipedia.org/wiki/1966_FIFA_World_Cup",
+    "citationTitle": "Wikipedia: 1966 FIFA World Cup"
+  },
+  {
+    "id": "30bd2b49-ab00-4fb0-9457-46f06d662c23",
+    "text": "What is the record for the fastest goal ever scored in a World Cup match?",
+    "options": [
+      "9.6 seconds",
+      "11.5 seconds",
+      "15.3 seconds",
+      "22.8 seconds"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "hard",
+    "explanation": "Hakan Şükür of Turkey scored after 11.5 seconds against South Korea in the 2002 third-place playoff.",
+    "detailedExplanation": "Turkish striker Hakan Şükür holds the record for the fastest goal in World Cup history, scoring just 11.5 seconds into Turkey's 3-2 victory over South Korea in the third-place playoff match at the 2002 World Cup in Japan/South Korea. This remarkable goal came in the opening seconds of the match in Daegu, helping Turkey secure third place in what was their best-ever World Cup performance.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Hakan_Şükür",
+    "citationTitle": "Wikipedia: Hakan Şükür"
+  },
+  {
+    "id": "f5fcd3df-82bf-428d-b17d-d186fee470cd",
+    "text": "Which country was banned from the 1950 World Cup in Brazil despite being invited to participate?",
+    "options": [
+      "Germany",
+      "Japan",
+      "India",
+      "South Africa"
+    ],
+    "correctIndex": 2,
+    "category": "sports",
+    "difficulty": "hard",
+    "explanation": "India withdrew from the 1950 World Cup reportedly because FIFA wouldn't allow their players to play barefoot.",
+    "detailedExplanation": "India qualified for the 1950 World Cup in Brazil as the only Asian team, but withdrew before the tournament began. The most commonly cited reason is that FIFA required all players to wear football boots, while the Indian team preferred to play barefoot. However, some historians suggest the withdrawal was due to financial constraints and the Indian Football Association's focus on the Olympics rather than the World Cup, which was still a relatively new competition at the time.",
+    "citationUrl": "https://en.wikipedia.org/wiki/1950_FIFA_World_Cup",
+    "citationTitle": "Wikipedia: 1950 FIFA World Cup"
+  },
+  {
+    "id": "906c52f6-0c81-4852-b142-3787b8331e19",
+    "text": "Which player scored the most goals in a single World Cup tournament?",
+    "options": [
+      "Pelé (13 goals)",
+      "Just Fontaine (13 goals)",
+      "Gerd Müller (10 goals)",
+      "Sándor Kocsis (11 goals)"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "hard",
+    "explanation": "Just Fontaine of France scored 13 goals in the 1958 World Cup, a single-tournament record that still stands.",
+    "detailedExplanation": "French striker Just Fontaine set the record for most goals in a single World Cup tournament by scoring 13 goals in just 6 matches during the 1958 World Cup in Sweden. This incredible feat included 4 goals against West Germany in the third-place playoff match. Remarkably, Fontaine achieved this record despite suffering from injury concerns and only being selected for the French squad as a late replacement. His record has stood for over 65 years and remains one of football's most enduring achievements.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Just_Fontaine",
+    "citationTitle": "Wikipedia: Just Fontaine"
+  },
+  {
+    "id": "c837fcd1-93d2-4390-aa07-6ffe3cb7cacd",
+    "text": "Which World Cup match holds the record for the highest attendance at a football match?",
+    "options": [
+      "1950 Brazil vs Uruguay final",
+      "1970 Brazil vs Italy final",
+      "1994 Brazil vs Italy final",
+      "1966 England vs West Germany final"
+    ],
+    "correctIndex": 0,
+    "category": "sports",
+    "difficulty": "hard",
+    "explanation": "The 1950 World Cup final between Brazil and Uruguay at Maracanã had an official attendance of 173,850.",
+    "detailedExplanation": "The 1950 World Cup final between Brazil and Uruguay at the Maracanã Stadium in Rio de Janeiro holds the official record for the highest attendance at a football match, with 173,850 spectators. However, estimates suggest the actual attendance may have been closer to 200,000. The match ended in a shocking 2-1 victory for Uruguay, silencing the massive home crowd in what Brazilians call 'Maracanaço' (the Maracanã blow), one of the most traumatic defeats in Brazilian football history.",
+    "citationUrl": "https://en.wikipedia.org/wiki/1950_FIFA_World_Cup_Final",
+    "citationTitle": "Wikipedia: 1950 FIFA World Cup Final"
+  },
+  {
+    "id": "a0c378c3-5959-40cb-9b35-dadbdcbb9392",
+    "text": "Which World Cup was the first to feature a penalty shootout to decide a match?",
+    "options": [
+      "1970 Mexico",
+      "1974 West Germany",
+      "1978 Argentina",
+      "1982 Spain"
+    ],
+    "correctIndex": 3,
+    "category": "sports",
+    "difficulty": "hard",
+    "explanation": "The 1982 World Cup in Spain was the first to use penalty shootouts, with West Germany beating France in the semifinal.",
+    "detailedExplanation": "The 1982 World Cup in Spain was the first to introduce penalty shootouts as a method to decide knockout matches after extra time. The first penalty shootout in World Cup history took place on July 8, 1982, in the semifinal between West Germany and France in Seville. After a dramatic 3-3 draw, West Germany won 5-4 on penalties. Prior to this tournament, replays were used to decide drawn knockout matches, but FIFA introduced the shootout system to eliminate the need for additional matches and scheduling complications.",
+    "citationUrl": "https://en.wikipedia.org/wiki/1982_FIFA_World_Cup",
+    "citationTitle": "Wikipedia: 1982 FIFA World Cup"
+  },
+  {
+    "id": "2329ee98-b6b9-4462-8ee1-a3eefd7876cd",
+    "text": "Which player has received the most yellow cards in World Cup history?",
+    "options": [
+      "Diego Maradona (5)",
+      "Cafu (6)",
+      "Rafael Márquez (7)",
+      "Miroslav Klose (4)"
+    ],
+    "correctIndex": 2,
+    "category": "sports",
+    "difficulty": "hard",
+    "explanation": "Rafael Márquez of Mexico received 7 yellow cards across 5 World Cup tournaments from 2002 to 2018.",
+    "detailedExplanation": "Mexican defender Rafael Márquez holds the unwanted record of receiving the most yellow cards in World Cup history with 7 bookings across five tournaments (2002, 2006, 2010, 2014, and 2018). Márquez's record is partly due to his longevity - he's one of only a few players to appear in five World Cups. His disciplinary record reflects his role as a defensive leader for Mexico throughout nearly two decades of international football, often having to make tactical fouls to break up opposition attacks.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Rafael_Márquez",
+    "citationTitle": "Wikipedia: Rafael Márquez"
+  },
+  {
+    "id": "518afa4b-a875-433a-b2ba-ea83201f6005",
+    "text": "Which country hosted the World Cup but was eliminated in the group stage for the first time in tournament history?",
+    "options": [
+      "South Africa 2010",
+      "Brazil 2014",
+      "Russia 2018",
+      "South Korea 2002"
+    ],
+    "correctIndex": 0,
+    "category": "sports",
+    "difficulty": "hard",
+    "explanation": "South Africa became the first host nation to be eliminated in the group stage at the 2010 World Cup.",
+    "detailedExplanation": "South Africa made unwanted history at the 2010 World Cup by becoming the first host nation ever to be eliminated in the group stage. Despite the advantage of home support and automatic qualification, South Africa finished third in Group A with just 4 points from 3 matches (1 win, 1 draw, 1 loss). They were eliminated after a 2-1 defeat to France and Uruguay's victory over Mexico in the final group matches. This broke the tradition of host nations either winning their group or at least progressing to the knockout rounds.",
+    "citationUrl": "https://en.wikipedia.org/wiki/2010_FIFA_World_Cup",
+    "citationTitle": "Wikipedia: 2010 FIFA World Cup"
+  },
+  {
+    "id": "6bd7a2e7-b855-4f65-9f62-e0f5abcf8d23",
+    "text": "Which World Cup mascot was the first to be commercially marketed and became a cultural phenomenon?",
+    "options": [
+      "World Cup Willie (England 1966)",
+      "Juanito (Mexico 1970)",
+      "Tip and Tap (West Germany 1974)",
+      "Gauchito (Argentina 1978)"
+    ],
+    "correctIndex": 0,
+    "category": "sports",
+    "difficulty": "hard",
+    "explanation": "World Cup Willie was the first official FIFA World Cup mascot and the first to be extensively commercialized.",
+    "detailedExplanation": "World Cup Willie, a lion wearing a Union Jack jersey with the words 'WORLD CUP' on it, was created for the 1966 FIFA World Cup in England. Designed by Reg Hoye, Willie was revolutionary as the first official World Cup mascot and marked the beginning of commercial mascot marketing in football. The character appeared on merchandise, had a hit song recorded by Lonnie Donegan, and became a cultural icon that established the template for all future World Cup mascots.",
+    "citationUrl": "https://en.wikipedia.org/wiki/World_Cup_Willie",
+    "citationTitle": "Wikipedia: World Cup Willie"
+  },
+  {
+    "id": "0e945b94-c6ad-490b-8542-67a3d728e178",
+    "text": "Which stadium has hosted World Cup matches in three different decades?",
+    "options": [
+      "Estadio Azteca (Mexico)",
+      "Maracanã Stadium (Brazil)",
+      "Wembley Stadium (England)",
+      "Rose Bowl (USA)"
+    ],
+    "correctIndex": 0,
+    "category": "sports",
+    "difficulty": "hard",
+    "explanation": "Estadio Azteca hosted World Cup matches in 1970, 1986, and is scheduled for 2026.",
+    "detailedExplanation": "The Estadio Azteca in Mexico City holds the unique distinction of hosting FIFA World Cup matches across three different decades. It first hosted matches during the 1970 World Cup in Mexico, including the famous final between Brazil and Italy. The stadium again served as a venue during the 1986 World Cup, witnessing Diego Maradona's legendary performances including the 'Hand of God' and 'Goal of the Century' against England. It is set to make history again as a venue for the 2026 World Cup, making it the only stadium to host World Cup matches in three separate tournaments.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Estadio_Azteca",
+    "citationTitle": "Wikipedia: Estadio Azteca"
+  },
+  {
+    "id": "ce93e690-2a9b-4e6c-9fe7-44cd15b7cf51",
+    "text": "What was the official name of the replacement trophy introduced after the Jules Rimet Trophy was permanently awarded to Brazil?",
+    "options": [
+      "FIFA World Cup Trophy",
+      "FIFA Champions Trophy",
+      "The Golden Globe Trophy",
+      "FIFA Victory Cup"
+    ],
+    "correctIndex": 0,
+    "category": "sports",
+    "difficulty": "hard",
+    "explanation": "The FIFA World Cup Trophy replaced the Jules Rimet Trophy starting with the 1974 tournament.",
+    "detailedExplanation": "After Brazil won their third World Cup in 1970, they were permanently awarded the Jules Rimet Trophy according to FIFA regulations. For the 1974 World Cup in West Germany, FIFA introduced a new trophy simply called the 'FIFA World Cup Trophy.' Designed by Italian artist Silvio Gazzaniga and made of 18-carat gold, this trophy depicts two human figures holding up the Earth. Unlike its predecessor, this trophy remains in FIFA's possession permanently, with winners receiving a gold-plated replica to keep.",
+    "citationUrl": "https://en.wikipedia.org/wiki/FIFA_World_Cup_Trophy",
+    "citationTitle": "Wikipedia: FIFA World Cup Trophy"
+  },
+  {
+    "id": "359dab5e-6b7d-4ec2-b014-5ef59292d4bb",
+    "text": "Which World Cup was the first to implement the Video Assistant Referee (VAR) system?",
+    "options": [
+      "2014 Brazil",
+      "2018 Russia",
+      "2022 Qatar",
+      "2010 South Africa"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "hard",
+    "explanation": "The 2018 FIFA World Cup in Russia was the first to use VAR technology.",
+    "detailedExplanation": "The 2018 FIFA World Cup in Russia marked a historic milestone as the first World Cup to implement the Video Assistant Referee (VAR) system. This technology was used to assist referees in making crucial decisions regarding goals, penalty incidents, direct red card situations, and cases of mistaken identity. The system proved controversial but impactful, with VAR interventions affecting several key matches throughout the tournament. The technology had been tested in various domestic leagues and competitions before its World Cup debut, representing FIFA's commitment to improving officiating accuracy at the highest level.",
+    "citationUrl": "https://en.wikipedia.org/wiki/2018_FIFA_World_Cup",
+    "citationTitle": "Wikipedia: 2018 FIFA World Cup"
+  }
+]

@@ -1,0 +1,342 @@
+[
+  {
+    "id": "2356b136-6e42-4e23-a85c-a441c91245b4",
+    "text": "What is the traditional German purity law that restricts beer ingredients to water, hops, malt, and yeast?",
+    "options": [
+      "Reinheitsgebot",
+      "Biergesetz",
+      "Brauordnung",
+      "Hopfenregel"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Reinheitsgebot is the German beer purity law dating from 1516.",
+    "detailedExplanation": "The Reinheitsgebot, also known as the German Beer Purity Law, was originally enacted in Bavaria in 1516 and is one of the oldest food safety laws in the world. It stipulated that beer could only be made from water, hops, and malt (yeast was added later when its role was understood). This law was designed to ensure beer quality and prevent bakers and brewers from competing for precious grains like wheat and rye, which were needed for bread production.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Reinheitsgebot",
+    "citationTitle": "Wikipedia: Reinheitsgebot"
+  },
+  {
+    "id": "6e04d3ff-d317-4658-9465-9e12f6d4a627",
+    "text": "Which beer style is characterized by being fermented with wild yeasts and bacteria, often aged in wooden barrels for months or years?",
+    "options": [
+      "Lambic",
+      "Pilsner",
+      "Porter",
+      "Weissbier"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Lambic is a Belgian beer style that uses wild fermentation and lengthy aging processes.",
+    "detailedExplanation": "Lambic is a traditional Belgian beer style that relies on spontaneous fermentation by wild yeasts and bacteria naturally present in the air, particularly in the Senne valley region around Brussels. Unlike other beers that use cultivated yeast strains, lambics are exposed to open air during cooling, allowing wild microorganisms to inoculate the wort. The beer is then aged in wooden barrels for one to three years, developing complex sour and funky flavors through this extended fermentation process.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Lambic",
+    "citationTitle": "Wikipedia: Lambic"
+  },
+  {
+    "id": "caedbc8d-7064-4bd9-9e26-1d2f3ecfc554",
+    "text": "What is the name of the process where sugars are extracted from malted grains by soaking them in hot water?",
+    "options": [
+      "Sparging",
+      "Mashing",
+      "Lautering",
+      "Boiling"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Mashing is the process of mixing malted grains with hot water to extract fermentable sugars.",
+    "detailedExplanation": "Mashing is a crucial step in the brewing process where crushed malted grains are mixed with hot water (typically between 148-158°F) in a vessel called a mash tun. This process activates enzymes in the malt that convert starches into fermentable sugars, creating a sweet liquid called wort. The temperature and duration of mashing can significantly affect the final beer's body, sweetness, and alcohol content. Different temperature rests during mashing can emphasize different enzyme activities, allowing brewers to control the beer's characteristics.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Mashing",
+    "citationTitle": "Wikipedia: Mashing"
+  },
+  {
+    "id": "4d53503a-9802-45a1-8787-156dccbdc500",
+    "text": "Which hop variety is considered the 'noble hop' most associated with traditional German lagers and pilsners?",
+    "options": [
+      "Cascade",
+      "Hallertau",
+      "Centennial",
+      "Chinook"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Hallertau is one of the four traditional German noble hops prized for their delicate aroma.",
+    "detailedExplanation": "Hallertau, also known as Hallertauer Mittelfrüh, is one of the four traditional German noble hops along with Tettnang, Spalt, and Saaz (Czech). These hops are characterized by their low alpha acid content, delicate floral and herbal aromas, and excellent storage stability. Hallertau hops are particularly prized in German lagers and pilsners for their refined, subtle bitterness and classic European hop character. The Hallertau region in Bavaria has been the world's largest hop-growing area, though disease issues have led to the development of disease-resistant varieties.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Hallertau_(hop)",
+    "citationTitle": "Wikipedia: Hallertau (hop)"
+  },
+  {
+    "id": "9952f209-90b2-4764-8e0c-5007ff9db371",
+    "text": "What temperature range distinguishes ale fermentation from lager fermentation?",
+    "options": [
+      "32-40°F (0-4°C)",
+      "60-75°F (15-24°C)",
+      "80-95°F (27-35°C)",
+      "100-110°F (38-43°C)"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Ales ferment at warmer temperatures (60-75°F) while lagers ferment cooler (45-55°F).",
+    "detailedExplanation": "The fundamental difference between ales and lagers lies in their fermentation temperature and yeast types. Ales use top-fermenting yeast (Saccharomyces cerevisiae) that works optimally at warmer temperatures, typically 60-75°F (15-24°C). This warmer fermentation produces more esters and phenols, contributing to ales' typically more complex and fruity flavor profiles. Lagers, conversely, use bottom-fermenting yeast (Saccharomyces pastorianus) that ferments at cooler temperatures around 45-55°F (7-13°C), followed by extended cold conditioning that produces cleaner, crisper flavors.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Fermentation_in_food_processing",
+    "citationTitle": "Wikipedia: Fermentation in food processing"
+  },
+  {
+    "id": "912b84e9-647f-4dea-9b86-d8020128d407",
+    "text": "Which Scottish beer style is traditionally the strongest, indicated by the 'shilling' system of classification?",
+    "options": [
+      "60 Shilling",
+      "70 Shilling",
+      "80 Shilling",
+      "90 Shilling"
+    ],
+    "correctIndex": 3,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "90 Shilling (Wee Heavy) is the strongest in the Scottish shilling system, with highest alcohol content.",
+    "detailedExplanation": "The Scottish shilling system historically classified beers based on their strength and price per barrel. In this system, 60/- (Light), 70/- (Heavy), 80/- (Export), and 90/- (Wee Heavy) represent increasing strength and alcohol content. The 90 Shilling, also known as 'Wee Heavy' or Scotch Ale, is the strongest style, typically ranging from 6.5-10% ABV. These beers are characterized by rich malty sweetness, caramel and toffee flavors, and minimal hop presence. The 'wee' refers to the small serving size due to the beer's strength, while 'heavy' indicates its full body and high alcohol content.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Scotch_ale",
+    "citationTitle": "Wikipedia: Scotch ale"
+  },
+  {
+    "id": "f27b5ed0-69e8-4a5b-8c3a-022c6ca1882e",
+    "text": "What is the scientific term for the compound that gives beer its bitter taste and also acts as a natural preservative?",
+    "options": [
+      "Iso-alpha acids",
+      "Beta-glucans",
+      "Anthocyanins",
+      "Phenolic compounds"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Iso-alpha acids are formed when hops are boiled and provide both bitterness and preservative qualities.",
+    "detailedExplanation": "Iso-alpha acids, also known as isohumulones, are the primary bittering compounds in beer formed when alpha acids from hops are isomerized during the boiling process. This chemical transformation occurs when hop alpha acids are exposed to heat, converting them into more soluble and bitter iso-alpha acids. Beyond providing beer's characteristic bitter taste, these compounds have antimicrobial properties that help preserve the beer by inhibiting the growth of gram-positive bacteria. The level of iso-alpha acids is measured in International Bitterness Units (IBUs), which quantifies a beer's bitterness.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Hops",
+    "citationTitle": "Wikipedia: Hops"
+  },
+  {
+    "id": "0fcf5b65-c3d2-4f5a-b9cd-05f0a04c2273",
+    "text": "Which beer style originated in Burton-on-Trent and is characterized by high hop bitterness and pale color due to the local water chemistry?",
+    "options": [
+      "English Bitter",
+      "India Pale Ale",
+      "Mild Ale",
+      "Brown Ale"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "India Pale Ale (IPA) was developed in Burton-on-Trent, with its mineral-rich water enhancing hop character.",
+    "detailedExplanation": "India Pale Ale (IPA) was originally developed in Burton-on-Trent, England, in the late 18th century for export to British troops in India. Burton's water is naturally high in minerals, particularly gypsum (calcium sulfate), which enhances hop bitterness and creates a crisp, dry finish ideal for pale ales. This mineral content, known as 'Burton water,' became so associated with excellent IPAs that the process of adjusting water chemistry to match Burton's profile is called 'Burtonization.' The style was heavily hopped not only for flavor but also because hops' antimicrobial properties helped preserve the beer during the long sea voyage to India.",
+    "citationUrl": "https://en.wikipedia.org/wiki/India_pale_ale",
+    "citationTitle": "Wikipedia: India pale ale"
+  },
+  {
+    "id": "429e9517-f155-46fd-a208-f8ce4fc36868",
+    "text": "Which Belgian abbey is credited with creating the first Tripel beer style in the 1930s?",
+    "options": [
+      "Westmalle",
+      "Chimay",
+      "Orval",
+      "Rochefort"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Westmalle Abbey created the first Tripel in 1934.",
+    "detailedExplanation": "Westmalle Abbey in Belgium is widely credited with creating the first Tripel beer style in 1934. This golden, strong ale became the template for all future Tripel beers, characterized by its pale color, high alcohol content (typically 8-10% ABV), and complex fruity and spicy flavors derived from Belgian yeast strains. The style name 'Tripel' doesn't refer to triple fermentation as commonly misconceived, but rather indicates the strongest beer in a monastery's range.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Tripel",
+    "citationTitle": "Wikipedia: Tripel"
+  },
+  {
+    "id": "b629c2b9-0d52-4dd0-8dab-a3b1625c55eb",
+    "text": "What is the name of the enzyme that converts starches into fermentable sugars during the malting process?",
+    "options": [
+      "Amylase",
+      "Protease",
+      "Invertase",
+      "Maltase"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Amylase is the key enzyme that breaks down starches into sugars during malting.",
+    "detailedExplanation": "Amylase is the crucial enzyme responsible for converting complex starches in malted grain into simpler, fermentable sugars during the brewing process. There are two main types: alpha-amylase, which breaks starch chains randomly, and beta-amylase, which works from the ends of starch molecules. These enzymes are naturally present in malted barley and become active during mashing when the grain is mixed with hot water at specific temperatures (typically 148-158°F), creating the sugary wort that yeast will later ferment into alcohol.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Amylase",
+    "citationTitle": "Wikipedia: Amylase"
+  },
+  {
+    "id": "d7c2b885-ea1e-40fd-a6a1-f8fe30904e25",
+    "text": "Which beer style was traditionally brewed to survive long sea voyages to British troops in India?",
+    "options": [
+      "Porter",
+      "India Pale Ale",
+      "Mild Ale",
+      "Brown Ale"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "India Pale Ale (IPA) was heavily hopped to preserve it during long voyages to India.",
+    "detailedExplanation": "India Pale Ale (IPA) was developed in the late 18th and early 19th centuries specifically to survive the long sea journey from Britain to India for colonial troops and administrators. The high hop content (which acts as a natural preservative) and elevated alcohol levels helped prevent spoilage during the months-long voyage around the Cape of Good Hope. Brewers like Hodgson's Bow Brewery became famous for perfecting this style, which ironically became more popular in India than in Britain itself until the craft beer revival brought IPAs back to prominence.",
+    "citationUrl": "https://en.wikipedia.org/wiki/India_pale_ale",
+    "citationTitle": "Wikipedia: India pale ale"
+  },
+  {
+    "id": "9a5d53ab-55c5-44e3-876b-639088e37955",
+    "text": "What is the maximum alcohol percentage that Brettanomyces yeast can typically survive and remain active?",
+    "options": [
+      "8%",
+      "12%",
+      "15%",
+      "18%"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Brettanomyces can remain active up to approximately 15% alcohol by volume.",
+    "detailedExplanation": "Brettanomyces, often called 'Brett,' is a wild yeast strain that can survive and remain metabolically active at much higher alcohol concentrations than typical brewing yeasts, typically up to about 15% ABV. This hardy characteristic makes it particularly valuable in brewing high-alcohol Belgian ales, lambics, and sour beers where it continues to slowly ferment residual sugars and contribute its distinctive funky, earthy, and sometimes fruity flavors over months or years. Its alcohol tolerance, combined with its ability to ferment complex sugars that Saccharomyces cerevisiae cannot, makes it essential for many traditional farmhouse and wild-fermented beer styles.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Brettanomyces",
+    "citationTitle": "Wikipedia: Brettanomyces"
+  },
+  {
+    "id": "68278971-41b6-43d9-a101-68226de78cf4",
+    "text": "Which Czech city is home to the original Budweiser brewery, established in 1295?",
+    "options": [
+      "Prague",
+      "Plzen",
+      "České Budějovice",
+      "Brno"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "České Budějovice (historically called Budweis) is home to the original Budweiser brewery.",
+    "detailedExplanation": "České Budějovice, known historically by its German name Budweis, is home to the Budějovický Budvar brewery, which has been brewing beer since 1895 and claims the historical right to the Budweiser name. The city's brewing tradition dates back to 1265 when citizens were granted brewing rights. This has led to a long-running trademark dispute with the American Anheuser-Busch company over the Budweiser brand name. In many countries, the Czech beer is sold as 'Czechvar' due to these legal conflicts, while the original brewery maintains its claim as the authentic source of Budweiser beer.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Bud%C4%9Bjovick%C3%BD_Budvar",
+    "citationTitle": "Wikipedia: Budějovický Budvar"
+  },
+  {
+    "id": "e4693039-ef78-4102-bef3-c92e5198ce35",
+    "text": "What does the 'SRM' scale measure in beer production?",
+    "options": [
+      "Specific gravity",
+      "Color intensity",
+      "Bitterness units",
+      "Alcohol content"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "SRM (Standard Reference Method) measures the color intensity of beer.",
+    "detailedExplanation": "The Standard Reference Method (SRM) is a system used primarily in North America to measure and quantify the color of beer. The scale typically ranges from 1 (very pale, almost water-like) to 40+ (black), with most commercial beers falling between 2-30. Light lagers typically measure 2-3 SRM, amber ales around 10-17 SRM, and stouts 25-40+ SRM. The measurement is taken by shining light through a beer sample and measuring how much light is absorbed. This system allows brewers to consistently reproduce beer colors and helps consumers understand what to expect visually from different beer styles.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Standard_Reference_Method",
+    "citationTitle": "Wikipedia: Standard Reference Method"
+  },
+  {
+    "id": "10b57b99-5462-42af-9727-5766b65647d9",
+    "text": "Which traditional German beer style is smoked using beechwood, giving it a distinctive bacon-like flavor?",
+    "options": [
+      "Kölsch",
+      "Rauchbier",
+      "Hefeweizen",
+      "Märzen"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Rauchbier is the traditional German smoked beer, typically using beechwood.",
+    "detailedExplanation": "Rauchbier, literally meaning 'smoke beer' in German, is a traditional beer style most famously produced in Bamberg, Bavaria. The distinctive smoky flavor comes from malting barley over beechwood fires, which imparts intense smoky, sometimes bacon-like flavors to the finished beer. Schlenkerla brewery in Bamberg is the most famous producer, having perfected this ancient technique that was once common throughout Germany before indirect heating methods were developed. The style nearly disappeared but has been preserved by a handful of Franconian breweries and has gained international recognition among craft beer enthusiasts seeking unique flavor experiences.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Rauchbier",
+    "citationTitle": "Wikipedia: Rauchbier"
+  },
+  {
+    "id": "0fab1d2d-ba3e-41ea-b666-381dbb948eca",
+    "text": "What is the name of the Japanese brewing technique where rice is added to lighten beer body and flavor?",
+    "options": [
+      "Junmai",
+      "Nigori",
+      "Happoshu",
+      "Rice adjunct brewing"
+    ],
+    "correctIndex": 3,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Rice adjunct brewing is the technique of adding rice to beer to lighten its body and flavor.",
+    "detailedExplanation": "Rice adjunct brewing involves adding rice to the grain bill alongside traditional malted barley to create lighter-bodied beers with cleaner, crisper flavors. This technique was popularized in Japan and later adopted by major American breweries like Anheuser-Busch and Coors. The rice contributes fermentable sugars while adding minimal flavor or color, resulting in beers with higher alcohol content but lighter body and taste. In Japan, this technique helps create the clean, refreshing character desired in lagers that pair well with Japanese cuisine and suit the local climate preferences.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Adjuncts",
+    "citationTitle": "Wikipedia: Adjuncts"
+  },
+  {
+    "id": "3ac1e8f2-b859-4980-937f-af9ba7a4d912",
+    "text": "Which beer component is measured in International Bitterness Units (IBU), and what is the approximate IBU range for an American IPA?",
+    "options": [
+      "Hops alpha acids, 40-70 IBU",
+      "Roasted malt tannins, 15-25 IBU",
+      "Yeast esters, 80-100 IBU",
+      "Wheat proteins, 5-15 IBU"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "IBU measures hop bitterness from alpha acids, with American IPAs typically ranging 40-70 IBU.",
+    "detailedExplanation": "International Bitterness Units (IBU) specifically measure the concentration of iso-alpha acids in beer, which are derived from the alpha acids in hops during the boiling process. American IPAs, known for their prominent hop character, typically fall within the 40-70 IBU range, though some can exceed this. The IBU scale theoretically goes up to around 100, beyond which the human palate struggles to detect additional bitterness. This measurement system allows brewers to standardize and communicate the bitterness level of their beers across different recipes and batches.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Beer_measurement",
+    "citationTitle": "Wikipedia: Beer measurement"
+  },
+  {
+    "id": "72369dae-153f-4cda-9544-c78aee5d2d38",
+    "text": "What is the primary distinguishing characteristic of a Gose beer, and from which German region does this style originate?",
+    "options": [
+      "Sour and salty with coriander, from Goslar",
+      "Sweet and malty, from Bavaria",
+      "Smoky and dark, from Bamberg",
+      "Hoppy and bitter, from Düsseldorf"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Gose is a sour, salty wheat beer flavored with coriander, originating from Goslar, Germany.",
+    "detailedExplanation": "Gose is a historic German beer style that originated in the medieval town of Goslar and later became associated with Leipzig. This unique wheat beer is characterized by its tart, salty flavor profile achieved through the use of salt and coriander seeds during brewing. The beer undergoes lactic acid fermentation, which creates its distinctive sourness. Traditional Gose was brewed with at least 50% wheat malt and was naturally carbonated. After nearly disappearing in the mid-20th century, the style has experienced a remarkable revival, particularly in the American craft beer scene.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Gose",
+    "citationTitle": "Wikipedia: Gose"
+  },
+  {
+    "id": "bfd05c00-a31b-4eb5-9994-d8c79dae291a",
+    "text": "Which brewing process involves adding fresh hops during or after fermentation to enhance aroma without adding bitterness, and what is this technique called?",
+    "options": [
+      "Dry hopping",
+      "Wet hopping",
+      "First wort hopping",
+      "Continuous hopping"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Dry hopping adds hops during or after fermentation to enhance aroma without extracting bitter compounds.",
+    "detailedExplanation": "Dry hopping is a brewing technique where hops are added to beer during or after primary fermentation, typically in the conditioning tank or cask. Since no heat is involved, the volatile aromatic oils from the hops are preserved while avoiding the extraction of alpha acids that create bitterness. This process dramatically enhances the beer's hop aroma and can add subtle flavor notes. The technique has become particularly popular in modern IPA production, where brewers seek to maximize hop character. The timing and duration of dry hopping can significantly impact the final product, with contact times ranging from a few days to several weeks.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Hops",
+    "citationTitle": "Wikipedia: Hops"
+  },
+  {
+    "id": "a7b980de-0303-49ef-bdfe-bfa9935fb6c1",
+    "text": "What is the name of the traditional Belgian beer serving vessel that has a specific shape designed to enhance the beer's aroma and maintain its head?",
+    "options": [
+      "Snifter",
+      "Chalice",
+      "Tulip",
+      "Goblet"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "A chalice is the traditional Belgian beer glass designed to enhance aroma and maintain the beer's foam head.",
+    "detailedExplanation": "The chalice (or goblet) is a traditional Belgian beer glass characterized by its wide bowl and thick walls, often featuring a heavy, sturdy base. This design serves multiple purposes: the wide opening allows the beer's complex aromas to concentrate and reach the drinker's nose, while the shape helps maintain the beer's foam head. Many chalices feature etched markings or nucleation points at the bottom to encourage proper carbonation release. Different Belgian breweries often have their own proprietary chalice designs, and the glassware is considered an integral part of the beer service experience in Belgian beer culture.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Beer_glassware",
+    "citationTitle": "Wikipedia: Beer glassware"
+  }
+]

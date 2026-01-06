@@ -1,0 +1,342 @@
+[
+  {
+    "id": "cf6c44c0-6c86-45fe-8b7f-7a58d33e647c",
+    "text": "What is the primary base spirit in a classic Sazerac cocktail?",
+    "options": [
+      "Bourbon whiskey",
+      "Rye whiskey",
+      "Cognac",
+      "Rum"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "The classic Sazerac is made with rye whiskey as its base spirit.",
+    "detailedExplanation": "The Sazerac is one of America's oldest known cocktails, originating in New Orleans in the 1850s. While it was originally made with Sazerac de Forge et Fils cognac, the recipe evolved to use rye whiskey as the primary base spirit. The cocktail also features sugar, Peychaud's bitters, and an absinthe rinse, making it a cornerstone of classic American mixology.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Sazerac",
+    "citationTitle": "Wikipedia: Sazerac"
+  },
+  {
+    "id": "5e165ba6-0142-4fdd-a4e1-586329591b8e",
+    "text": "Which cocktail ingredient is known as 'liquid cocaine' due to its bitter taste and dark color?",
+    "options": [
+      "Campari",
+      "Fernet-Branca",
+      "Jägermeister",
+      "Angostura bitters"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Fernet-Branca is nicknamed 'liquid cocaine' by bartenders due to its intensely bitter taste and dark appearance.",
+    "detailedExplanation": "Fernet-Branca is an Italian bitter liqueur made from a secret blend of 27 herbs and spices. Its extremely bitter taste and nearly black color have earned it the nickname 'liquid cocaine' in bartending circles. It's traditionally consumed as a digestif in Argentina and has gained popularity among bartenders worldwide as both a shot and cocktail ingredient, particularly in drinks like the Toronto and Hanky Panky.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Fernet-Branca",
+    "citationTitle": "Wikipedia: Fernet-Branca"
+  },
+  {
+    "id": "13098c72-d146-4bbf-a0df-14be70bff545",
+    "text": "What does the term 'muddling' refer to in cocktail preparation?",
+    "options": [
+      "Shaking ingredients vigorously",
+      "Gently pressing ingredients to release oils and flavors",
+      "Layering liquids by density",
+      "Straining through fine mesh"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Muddling involves gently pressing ingredients like herbs or fruit to release their essential oils and flavors.",
+    "detailedExplanation": "Muddling is a fundamental bartending technique that involves using a muddler (a pestle-like tool) to gently press and twist ingredients such as mint leaves, fruit, or sugar cubes at the bottom of a glass or shaker. This technique releases essential oils from herbs and extracts juices from fruits without completely pulverizing them. It's essential for cocktails like the Mojito, Old Fashioned, and Caipirinha, where the fresh flavors of muddled ingredients are crucial to the drink's character.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Muddler",
+    "citationTitle": "Wikipedia: Muddler"
+  },
+  {
+    "id": "13e1084f-a876-4b00-aae0-b8f679edb7ef",
+    "text": "Which classic cocktail was supposedly named after a dog?",
+    "options": [
+      "Greyhound",
+      "Salty Dog",
+      "Hair of the Dog",
+      "Bulldog"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "The Greyhound cocktail was named after the sleek racing dog breed.",
+    "detailedExplanation": "The Greyhound is a simple two-ingredient cocktail consisting of vodka (or gin) and grapefruit juice, typically served over ice in a highball glass. The drink was named after the Greyhound racing dog, likely due to its clean, simple nature and refreshing qualities. When salt is added to the rim of the glass, the drink becomes a 'Salty Dog.' The cocktail gained popularity in the 1950s and remains a classic example of how simple combinations can create enduring drinks.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Greyhound_(cocktail)",
+    "citationTitle": "Wikipedia: Greyhound (cocktail)"
+  },
+  {
+    "id": "754e5495-8db6-4e69-964a-ba5940bbccc4",
+    "text": "What is the correct ratio of gin to dry vermouth in a classic Dry Martini according to traditional recipes?",
+    "options": [
+      "2:1",
+      "3:1",
+      "5:1",
+      "6:1"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "The traditional dry martini calls for a 5:1 ratio of gin to dry vermouth.",
+    "detailedExplanation": "The classic Dry Martini has evolved significantly since its creation in the late 19th century, with the ratio of gin to vermouth becoming increasingly gin-heavy over time. While early martinis used equal parts or 2:1 ratios, the traditional dry martini settled on a 5:1 ratio of gin to dry vermouth. Modern preferences have pushed this even further, with some preferring ratios as high as 15:1 or simply rinsing the glass with vermouth. The drink is typically garnished with either an olive or lemon twist.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Martini_(cocktail)",
+    "citationTitle": "Wikipedia: Martini (cocktail)"
+  },
+  {
+    "id": "36dbd7e6-53fb-4365-b61e-f658f098b979",
+    "text": "Which technique involves pouring a liquid slowly over the back of a bar spoon to create distinct layers in a cocktail?",
+    "options": [
+      "Floating",
+      "Building",
+      "Rolling",
+      "Rinsing"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Floating is the technique of layering liquids by pouring slowly over a bar spoon to maintain separation.",
+    "detailedExplanation": "Floating is a bartending technique used to create visually striking layered cocktails by taking advantage of different liquid densities. By pouring the lighter liquid slowly over the back of a bar spoon held just above the surface of the heavier liquid, bartenders can create distinct layers that don't immediately mix. This technique is essential for drinks like the B-52, Irish Coffee (floating cream), and Black and Tan beer cocktails. The key is understanding the specific gravity of different spirits, liqueurs, and mixers.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Layered_drink",
+    "citationTitle": "Wikipedia: Layered drink"
+  },
+  {
+    "id": "40761d19-6e1a-4d29-b602-44cd46ff2554",
+    "text": "What type of glass is traditionally used to serve a Brandy Alexander?",
+    "options": [
+      "Coupe glass",
+      "Snifter",
+      "Nick and Nora glass",
+      "Hurricane glass"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "A Brandy Alexander is traditionally served in a coupe glass.",
+    "detailedExplanation": "The Brandy Alexander, a cognac-based cocktail made with crème de cacao and heavy cream, is traditionally served in a coupe glass. This wide, shallow bowl-shaped glass was originally designed for champagne but became the standard for many classic cocktails during the early-to-mid 20th century. The coupe's shape allows the drinker to appreciate the cocktail's creamy texture and nutty aroma while providing an elegant presentation. The drink itself is a variation of the earlier Alexander cocktail, which used gin instead of brandy.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Brandy_Alexander",
+    "citationTitle": "Wikipedia: Brandy Alexander"
+  },
+  {
+    "id": "d4560446-28ed-4088-bb42-f40b353a0c90",
+    "text": "Which cocktail ingredient is produced by macerating cinchona bark?",
+    "options": [
+      "Angostura bitters",
+      "Tonic water",
+      "Vermouth",
+      "Amaretto"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Tonic water gets its distinctive bitter taste from quinine, which is extracted from cinchona bark.",
+    "detailedExplanation": "Tonic water contains quinine, a bitter compound extracted from the bark of the cinchona tree. Originally developed as an anti-malarial medication for British colonial troops in tropical regions, quinine was mixed with water and sugar to make it more palatable. When gin was added to this medicinal tonic, the gin and tonic cocktail was born. Modern tonic water contains much lower levels of quinine than historical versions but still retains that characteristic bitter flavor that makes it essential for classic cocktails like the gin and tonic and vodka tonic.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Tonic_water",
+    "citationTitle": "Wikipedia: Tonic water"
+  },
+  {
+    "id": "de9b84d1-3922-4570-bd00-cc1eb7dfe253",
+    "text": "Which cocktail is traditionally garnished with a cherry and an orange slice, and is known as the 'training wheels' drink for whiskey beginners?",
+    "options": [
+      "Manhattan",
+      "Old Fashioned",
+      "Whiskey Sour",
+      "Mint Julep"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "The Old Fashioned is traditionally garnished with a cherry and orange slice and is considered beginner-friendly.",
+    "detailedExplanation": "The Old Fashioned is one of the oldest cocktails, dating back to the 1880s. It consists of whiskey, sugar, bitters, and water, garnished with a cherry and orange slice. Despite its simple ingredients, it's often called the 'training wheels' drink because it introduces newcomers to whiskey in a sweetened, approachable way. The drink was originally called just a 'whiskey cocktail' until bartenders began adding more elaborate ingredients, prompting customers to ask for their whiskey prepared 'the old-fashioned way.'",
+    "citationUrl": "https://en.wikipedia.org/wiki/Old_Fashioned",
+    "citationTitle": "Wikipedia: Old Fashioned"
+  },
+  {
+    "id": "16e1bea6-50f9-4313-bd93-a1426466362d",
+    "text": "What does 'proof' measure in spirits, and what is 80 proof equivalent to in terms of alcohol by volume (ABV)?",
+    "options": [
+      "Sugar content; 80% ABV",
+      "Alcohol content; 40% ABV",
+      "Density; 80% ABV",
+      "Age; 40% ABV"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Proof measures alcohol content, and 80 proof equals 40% ABV (alcohol by volume).",
+    "detailedExplanation": "In the United States, proof is exactly double the alcohol by volume (ABV) percentage. So 80 proof spirit contains 40% alcohol by volume. This system originated from a historical method of testing spirits by soaking gunpowder with the liquor and trying to ignite it. If it burned, the spirit was 'proved' to contain sufficient alcohol content. The UK uses a different proof system, but the ABV percentage remains the standard international measurement for alcohol content in cocktail recipes.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Alcohol_proof",
+    "citationTitle": "Wikipedia: Alcohol proof"
+  },
+  {
+    "id": "ffe33d20-78ca-4bea-b2d1-ab8e1025aad6",
+    "text": "Which Cuban cocktail was Ernest Hemingway's favorite, leading to a variation being named after him?",
+    "options": [
+      "Mojito",
+      "Cuba Libre",
+      "Daiquiri",
+      "Piña Colada"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "The Daiquiri was Hemingway's favorite, and the 'Hemingway Daiquiri' variation was named after him.",
+    "detailedExplanation": "Ernest Hemingway was a regular patron of El Floridita bar in Havana, Cuba, where he developed a love for daiquiris. However, being diabetic, he preferred his daiquiri without sugar and with double the rum, plus grapefruit juice and maraschino liqueur instead of simple syrup. This variation became known as the 'Hemingway Daiquiri' or 'Papa Doble.' The bar still displays a bronze statue of Hemingway at his favorite spot, and his modified recipe remains popular among cocktail enthusiasts worldwide.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Hemingway_daiquiri",
+    "citationTitle": "Wikipedia: Hemingway daiquiri"
+  },
+  {
+    "id": "82e07651-cb4d-4de7-83a8-fcb5e07317c3",
+    "text": "What is the key difference between a Collins and a Fizz cocktail?",
+    "options": [
+      "Collins uses gin, Fizz uses vodka",
+      "Collins is served over ice, Fizz is served straight up",
+      "Collins has lemon juice, Fizz has lime juice",
+      "Collins uses club soda, Fizz uses plain soda water"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Collins cocktails are served over ice in tall glasses, while Fizz cocktails are traditionally served straight up without ice.",
+    "detailedExplanation": "The main distinction between Collins and Fizz cocktails lies in their presentation and preparation method. A Collins (like the Tom Collins) is built in the glass over ice and served in a tall Collins glass, while a Fizz (like the Gin Fizz) is traditionally shaken with ice, strained into a glass, and served without ice. Both typically contain similar ingredients - gin, lemon juice, sugar, and soda water - but the Fizz often has a more frothy texture due to vigorous shaking. Some Fizz variations also include egg white for additional foam.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Fizz_(cocktail)",
+    "citationTitle": "Wikipedia: Fizz (cocktail)"
+  },
+  {
+    "id": "310d503d-22df-4a20-948b-f270792ae6bf",
+    "text": "Which cocktail was created in 1915 at the Hotel Monteleone in New Orleans and contains both rye whiskey and cognac?",
+    "options": [
+      "Ramos Gin Fizz",
+      "Vieux Carré",
+      "Boulevardier",
+      "Brown Derby"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "The Vieux Carré was created in 1915 at Hotel Monteleone and uniquely combines rye whiskey and cognac.",
+    "detailedExplanation": "The Vieux Carré was created by head bartender Walter Bergeron at the Hotel Monteleone's Carousel Bar in New Orleans' French Quarter in 1938 (though some sources cite 1915). The cocktail is named after the French term for the French Quarter ('Vieux Carré' means 'Old Square'). It's unusual because it combines two base spirits: rye whiskey and cognac, along with sweet vermouth, Bénédictine, and both Peychaud's and Angostura bitters. This makes it one of the few classic cocktails to successfully blend American whiskey with French brandy.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Vieux_Carr%C3%A9_(cocktail)",
+    "citationTitle": "Wikipedia: Vieux Carré (cocktail)"
+  },
+  {
+    "id": "3f418d3f-d540-4192-be68-ffefce4fed77",
+    "text": "What temperature should a properly made Piña Colada be served at?",
+    "options": [
+      "Room temperature",
+      "Chilled (40-50°F)",
+      "Frozen/slushy consistency",
+      "Hot (120-140°F)"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "A proper Piña Colada should be served frozen with a slushy consistency.",
+    "detailedExplanation": "The Piña Colada, Puerto Rico's national drink, should be served frozen with a thick, slushy consistency similar to a milkshake. This is achieved by blending rum, coconut cream, pineapple juice, and ice in a blender until smooth and thick. The frozen preparation is essential to the drink's character and was part of the original recipe created in the 1950s (either by Ramón 'Monchito' Marrero at the Caribe Hilton or Ricardo Gracia at the Barrachina Restaurant, both in San Juan). The icy texture balances the rich coconut cream and sweet pineapple flavors.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Pi%C3%B1a_colada",
+    "citationTitle": "Wikipedia: Piña colada"
+  },
+  {
+    "id": "cf93cf2d-3e4f-4061-9160-d036f99e85ec",
+    "text": "Which bartending technique involves chilling a cocktail glass by filling it with ice water before preparing the drink?",
+    "options": [
+      "Tempering",
+      "Frosting",
+      "Priming",
+      "Conditioning"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Tempering involves chilling a glass with ice water before serving a cocktail in it.",
+    "detailedExplanation": "Tempering is a bartending technique where a cocktail glass is pre-chilled by filling it with ice water while the cocktail is being prepared. This ensures the glass is at the optimal temperature when the drink is served, preventing the cocktail from warming up too quickly. The ice water is discarded just before straining the cocktail into the glass. This technique is particularly important for cocktails served 'up' (without ice) like Martinis or Manhattans, where maintaining the drink's temperature is crucial for the optimal drinking experience.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Bartending_terminology",
+    "citationTitle": "Wikipedia: Bartending terminology"
+  },
+  {
+    "id": "60ff2842-1c86-4b97-a3e7-cdb9acddecdf",
+    "text": "What ingredient gives the Aviation cocktail its distinctive pale purple color?",
+    "options": [
+      "Butterfly pea flower",
+      "Crème de Violette",
+      "Purple food coloring",
+      "Blackcurrant liqueur"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Crème de Violette gives the Aviation cocktail its characteristic pale purple hue.",
+    "detailedExplanation": "The Aviation cocktail was created in the early 20th century by Hugo Ensslin and contains gin, maraschino liqueur, crème de violette, and lemon juice. The crème de violette, a violet-flavored liqueur, provides the cocktail's distinctive pale purple color and floral notes. However, this ingredient became difficult to find for many decades, leading to variations that omitted it entirely. The cocktail experienced a revival in the 2000s when crème de violette became more widely available again, allowing bartenders to recreate the original recipe with its characteristic color and delicate violet flavor.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Aviation_(cocktail)",
+    "citationTitle": "Wikipedia: Aviation (cocktail)"
+  },
+  {
+    "id": "ae757d7e-a610-48b6-a108-f1efdad8fc61",
+    "text": "Which cocktail was invented in 1919 at the Chatham Hotel in Paris by Harry MacElhone and contains equal parts cognac, orange liqueur, and lemon juice?",
+    "options": [
+      "Sidecar",
+      "Brandy Crusta",
+      "Between the Sheets",
+      "Stinger"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "The Sidecar was created by Harry MacElhone in 1919 at the Chatham Hotel in Paris.",
+    "detailedExplanation": "The Sidecar is a classic cocktail that emerged during the Prohibition era, invented by Scottish bartender Harry MacElhone at the Chatham Hotel in Paris in 1919. The drink consists of equal parts cognac, orange liqueur (typically Cointreau), and fresh lemon juice, served in a sugar-rimmed coupe glass. Its name allegedly comes from the motorcycle sidecar in which a regular customer would arrive at the bar. The cocktail belongs to the sour family and is considered one of the fundamental classic cocktails in mixology.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Sidecar_(cocktail)",
+    "citationTitle": "Wikipedia: Sidecar (cocktail)"
+  },
+  {
+    "id": "2826a147-ff59-4e75-8fd5-061042960459",
+    "text": "What is the term for the foam that forms on top of cocktails containing egg white when properly shaken?",
+    "options": [
+      "Crema",
+      "Meringue",
+      "Foam cap",
+      "Sour foam"
+    ],
+    "correctIndex": 3,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Sour foam is the technical term for the light, frothy layer created when egg whites are shaken vigorously in cocktails.",
+    "detailedExplanation": "Sour foam refers to the distinctive white, creamy foam that develops on top of cocktails containing egg white when they are properly shaken using the dry shake technique. This foam is created when the proteins in egg white are denatured and whipped into a stable foam through vigorous agitation. Classic cocktails that feature sour foam include the Whiskey Sour, Pisco Sour, and Ramos Gin Fizz. The foam not only provides visual appeal but also contributes to the cocktail's texture and mouthfeel, creating a smooth, velvety drinking experience.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Whiskey_sour",
+    "citationTitle": "Wikipedia: Whiskey sour"
+  },
+  {
+    "id": "5adcfe08-92c2-4653-a41e-d1ae561f47f4",
+    "text": "Which Italian bitter liqueur, essential in a Negroni, was created in Milan in 1860 by Gaspare Campari?",
+    "options": [
+      "Aperol",
+      "Cynar",
+      "Campari",
+      "Fernet-Branca"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Campari was created by Gaspare Campari in Milan in 1860 and is the key bitter component in a Negroni.",
+    "detailedExplanation": "Campari is an iconic Italian bitter aperitif liqueur created by Gaspare Campari in Novara in 1860, with the company later moving to Milan. This bright red, intensely bitter liqueur is made from a secret blend of herbs, spices, and fruit peels steeped in alcohol and water. Campari is essential in classic cocktails like the Negroni (equal parts gin, Campari, and sweet vermouth) and the Americano. Its distinctive bitter flavor profile and vibrant color have made it a cornerstone ingredient in Italian aperitivo culture and international cocktail making for over 160 years.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Campari",
+    "citationTitle": "Wikipedia: Campari"
+  },
+  {
+    "id": "ecdb27b3-cadd-4602-8796-138970a13575",
+    "text": "What is the traditional method called when a bartender ignites the oils from a citrus peel over a cocktail's surface?",
+    "options": [
+      "Flaming",
+      "Expressing",
+      "Torching",
+      "Flambéing"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Expressing is the technique of squeezing citrus peel oils over a drink, which can be ignited for dramatic effect.",
+    "detailedExplanation": "Expressing is a fundamental bartending technique that involves squeezing a piece of citrus peel (typically lemon, orange, or lime) over a cocktail to release the essential oils from the peel's surface onto the drink. When done properly, these oils create an aromatic layer that enhances the cocktail's flavor and aroma. Advanced bartenders sometimes ignite these oils as they're expressed, creating a brief flame that caramelizes the oils and adds a subtle smoky note to the drink's profile. This technique is commonly used in cocktails like the Old Fashioned and various martini variations.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Bartending_terminology",
+    "citationTitle": "Wikipedia: Bartending terminology"
+  }
+]

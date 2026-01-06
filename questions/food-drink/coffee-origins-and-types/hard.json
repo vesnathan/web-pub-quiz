@@ -1,0 +1,342 @@
+[
+  {
+    "id": "15a09487-6a80-45d4-a589-2fbb3ff7a6f4",
+    "text": "Which country is believed to be the birthplace of coffee, where the legend of Kaldi the goat herder discovering coffee beans originates?",
+    "options": [
+      "Yemen",
+      "Ethiopia",
+      "Kenya",
+      "Sudan"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Ethiopia is considered the birthplace of coffee, with the famous legend of Kaldi discovering the energizing effects of coffee beans.",
+    "detailedExplanation": "Ethiopia is widely regarded as the birthplace of coffee, with archaeological evidence and genetic studies of coffee plants supporting this claim. The popular legend tells of Kaldi, an Ethiopian goat herder who noticed his goats becoming energetic after eating certain berries. The coffee plant (Coffea arabica) is indigenous to the Ethiopian highlands, and coffee has been consumed there for centuries before spreading to Yemen and the rest of the world.",
+    "citationUrl": "https://en.wikipedia.org/wiki/History_of_coffee",
+    "citationTitle": "Wikipedia: History of coffee"
+  },
+  {
+    "id": "6f46fb4f-e1a1-4a16-96f0-50d5c2ccbbcc",
+    "text": "What percentage of the world's coffee production comes from the Coffea arabica species, as opposed to Coffea robusta?",
+    "options": [
+      "45%",
+      "60%",
+      "75%",
+      "90%"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Coffea arabica accounts for approximately 75% of global coffee production, with robusta making up most of the remainder.",
+    "detailedExplanation": "Coffea arabica dominates global coffee production, accounting for roughly 75% of all coffee grown worldwide. This species is prized for its superior flavor profile, lower caffeine content, and aromatic qualities. Coffea robusta makes up most of the remaining 25%, with other species like Coffea liberica contributing minimal amounts. Arabica is more challenging to grow, requiring higher altitudes and specific climate conditions, but commands higher prices due to its quality.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Coffea_arabica",
+    "citationTitle": "Wikipedia: Coffea arabica"
+  },
+  {
+    "id": "6ae90bdf-ca4c-4da7-b3a1-b1a76234fda3",
+    "text": "Which processing method involves removing the cherry flesh while leaving the mucilage on the bean during drying?",
+    "options": [
+      "Washed process",
+      "Natural process",
+      "Honey process",
+      "Wet hulling"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "The honey process removes the cherry skin but leaves the sticky mucilage layer on the bean during drying, creating unique flavor characteristics.",
+    "detailedExplanation": "The honey process, also known as pulped natural or semi-washed processing, is a hybrid method that combines elements of both washed and natural processing. After harvesting, the outer cherry skin is removed, but the sticky, sweet mucilage layer remains on the bean during the drying process. This method originated in Costa Rica and Brazil and creates coffees with characteristics between fully washed and natural processed beans, often resulting in enhanced sweetness and body while maintaining some of the clarity associated with washed coffees.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Coffee_processing",
+    "citationTitle": "Wikipedia: Coffee processing"
+  },
+  {
+    "id": "2a07186e-b1a7-485b-bf23-f70087a0692d",
+    "text": "What is the name of the most expensive coffee variety that is partially digested by Asian palm civets?",
+    "options": [
+      "Black Ivory Coffee",
+      "Kopi Luwak",
+      "Blue Mountain",
+      "Geisha Coffee"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Kopi Luwak is the expensive coffee made from beans that have been eaten and partially digested by Asian palm civets.",
+    "detailedExplanation": "Kopi Luwak, also known as civet coffee, is one of the world's most expensive coffees, produced in Indonesia and other Southeast Asian countries. The process involves Asian palm civets eating ripe coffee cherries, with the beans passing through their digestive system where enzymes allegedly reduce the bitter compounds. The beans are then collected from the civet droppings, cleaned, and processed. While marketed as premium coffee, the practice has raised significant animal welfare concerns due to caged civets in commercial operations.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Kopi_luwak",
+    "citationTitle": "Wikipedia: Kopi luwak"
+  },
+  {
+    "id": "dfae530b-a25e-4a3f-9ad1-976e2072a666",
+    "text": "Which coffee variety, originally from Panama, is renowned for its jasmine-like floral aroma and has broken multiple auction price records?",
+    "options": [
+      "Typica",
+      "Bourbon",
+      "Geisha",
+      "Caturra"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Geisha coffee, originally from Ethiopia but made famous in Panama, is known for its exceptional floral qualities and record-breaking auction prices.",
+    "detailedExplanation": "The Geisha variety (also spelled Gesha) originated in Ethiopia but gained international acclaim when grown in Panama, particularly at Hacienda La Esmeralda. This variety is prized for its distinctive jasmine-like floral aroma, tea-like body, and complex flavor profile. Geisha coffees have consistently broken auction records, with some lots selling for over $1,000 per pound. The variety is notoriously difficult to cultivate, requiring specific growing conditions and careful processing, which contributes to its rarity and high prices.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Geisha_(coffee)",
+    "citationTitle": "Wikipedia: Geisha (coffee)"
+  },
+  {
+    "id": "a97d9bc9-7ebc-4a50-aa14-cce54de4240e",
+    "text": "What is the optimal altitude range in meters for growing high-quality Arabica coffee?",
+    "options": [
+      "200-600m",
+      "600-1000m",
+      "1000-2000m",
+      "2000-3000m"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "High-quality Arabica coffee typically grows best at altitudes between 1000-2000 meters, where cooler temperatures slow cherry maturation.",
+    "detailedExplanation": "Arabica coffee thrives at higher altitudes, typically between 1000-2000 meters above sea level, though some exceptional coffees grow even higher. The cooler temperatures at these elevations slow the maturation process of coffee cherries, allowing more time for complex sugars and flavor compounds to develop. This results in denser beans with more concentrated flavors and higher acidity. Lower altitudes generally produce coffee with less complexity, while extremely high altitudes can stress the plants. The specific ideal altitude varies by latitude and local climate conditions.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Coffee_cultivation",
+    "citationTitle": "Wikipedia: Coffee cultivation"
+  },
+  {
+    "id": "08d7ada0-fe28-41a2-993a-0ca6ea6d1003",
+    "text": "Which country produces the famous 'Peaberry' coffee, where single rounded beans develop instead of the typical two flat-sided beans?",
+    "options": [
+      "Colombia",
+      "Brazil",
+      "Tanzania",
+      "All coffee-producing countries"
+    ],
+    "correctIndex": 3,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Peaberry beans are a natural mutation that can occur in any coffee-producing country, though some regions market them specifically.",
+    "detailedExplanation": "Peaberry coffee beans are not specific to any single country but rather occur as a natural mutation in approximately 5-10% of all coffee cherries worldwide. Instead of the typical two flat-sided beans (called flat beans), a peaberry develops as a single, rounded bean when only one seed develops inside the cherry. Tanzania is particularly famous for marketing its peaberry separately, and Kona peaberry from Hawaii commands premium prices, but peaberries occur in coffee farms across all producing regions. Many believe peaberries have more concentrated flavors due to receiving all the nutrients that would normally be shared between two beans.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Peaberry",
+    "citationTitle": "Wikipedia: Peaberry"
+  },
+  {
+    "id": "eac4f43b-158e-4bbf-99c4-0d0818dd9fd1",
+    "text": "What is the caffeine content difference between Robusta and Arabica beans?",
+    "options": [
+      "Robusta has half the caffeine of Arabica",
+      "They have equal caffeine content",
+      "Robusta has twice the caffeine of Arabica",
+      "Robusta has four times the caffeine of Arabica"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Robusta beans contain approximately twice the caffeine content of Arabica beans, contributing to their bitter taste and pest resistance.",
+    "detailedExplanation": "Coffea robusta contains significantly more caffeine than Coffea arabica, with robusta beans typically containing 2.2-2.7% caffeine compared to arabica's 1.2-1.5% caffeine content. This roughly doubles caffeine concentration serves as a natural pesticide, making robusta plants more resistant to insects and diseases. The higher caffeine content contributes to robusta's more bitter, harsh flavor profile compared to arabica's smoother, more nuanced taste. This biological difference is one reason why robusta is often used in espresso blends for added body and crema, while arabica is preferred for specialty single-origin coffees.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Coffea_canephora",
+    "citationTitle": "Wikipedia: Coffea canephora"
+  },
+  {
+    "id": "5a6c6ecb-4671-442a-914d-c7c5a6c7b943",
+    "text": "Which coffee variety is known as 'Bourbon Pointu' and was nearly extinct until its revival on Réunion Island?",
+    "options": [
+      "Coffea laurina",
+      "Coffea stenophylla",
+      "Coffea racemosa",
+      "Coffea mauritiana"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Coffea laurina, known as Bourbon Pointu, is a naturally low-caffeine variety that was nearly extinct until its revival on Réunion Island.",
+    "detailedExplanation": "Coffea laurina, commonly known as Bourbon Pointu, is a rare coffee variety that naturally contains only about half the caffeine of regular arabica beans. Originally cultivated on Réunion Island (formerly Île Bourbon) in the Indian Ocean, this variety was nearly extinct by the 1940s due to low yields and disease susceptibility. However, it has been successfully revived and is now considered one of the world's most premium coffees, prized for its exceptional sweetness and complexity.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Coffea_laurina",
+    "citationTitle": "Wikipedia: Coffea laurina"
+  },
+  {
+    "id": "1f750730-9a88-476e-9a6c-395d4fc5b158",
+    "text": "What is the name of the traditional Ethiopian coffee ceremony vessel used for roasting green coffee beans?",
+    "options": [
+      "Mукecha",
+      "Mitad",
+      "Jebena",
+      "Rekebot"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "The mitad is the traditional flat pan used in Ethiopian coffee ceremonies to roast green coffee beans over an open flame.",
+    "detailedExplanation": "In Ethiopian coffee culture, the mitad is a crucial piece of equipment used during the traditional coffee ceremony. This flat, circular pan made of clay or metal is used to roast green coffee beans over an open flame or charcoal. The ceremony involves washing the green beans, roasting them on the mitad while guests inhale the aromatic smoke, then grinding and brewing the coffee in a jebena (clay coffee pot). This ritual is deeply embedded in Ethiopian social culture and can take several hours.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Ethiopian_coffee_ceremony",
+    "citationTitle": "Wikipedia: Ethiopian coffee ceremony"
+  },
+  {
+    "id": "a4003469-84f5-4310-a6de-b3eef3f86082",
+    "text": "Which island nation produces the rare 'St. Helena Coffee' that was allegedly Napoleon's favorite during his exile?",
+    "options": [
+      "Mauritius",
+      "Saint Helena",
+      "Madagascar",
+      "Seychelles"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Saint Helena, a remote British territory in the South Atlantic, produces this rare coffee that Napoleon reportedly enjoyed during his exile there.",
+    "detailedExplanation": "Saint Helena Coffee is grown on the remote island of Saint Helena in the South Atlantic Ocean, where Napoleon Bonaparte was exiled from 1815 until his death in 1821. The coffee is said to have been one of the few pleasures Napoleon enjoyed during his imprisonment. The island's unique volcanic soil, high altitude, and isolation create distinctive growing conditions. Today, Saint Helena Coffee is extremely rare and expensive, with only small quantities produced annually, making it one of the world's most exclusive coffee origins.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Saint_Helena_coffee",
+    "citationTitle": "Wikipedia: Saint Helena coffee"
+  },
+  {
+    "id": "c583890f-a56e-44a2-bca2-c3e23951a1b4",
+    "text": "What is the name of the coffee processing method that originated in Brazil and combines elements of both washed and natural processing?",
+    "options": [
+      "Semi-lavado",
+      "Pulped natural",
+      "Wet hulling",
+      "Black honey"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Pulped natural processing, developed in Brazil, removes the cherry skin but leaves some mucilage on the bean during drying, creating a hybrid method.",
+    "detailedExplanation": "Pulped natural processing, also known as semi-washed or honey process, was developed in Brazil in the 1990s as a way to combine the benefits of both natural and washed processing methods. In this method, the outer cherry skin is mechanically removed, but some or all of the sticky mucilage is left on the bean during the drying process. This creates coffees with more body and sweetness than fully washed coffees, but with more clarity than natural processed coffees. The method has since spread to other coffee-producing regions and has variations like white, yellow, red, and black honey processes.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Coffee_processing",
+    "citationTitle": "Wikipedia: Coffee processing"
+  },
+  {
+    "id": "b1012737-9389-45b2-838e-724a86980836",
+    "text": "Which coffee cultivar, developed in Kenya, is known for its distinctive blackcurrant flavor notes and SL designation?",
+    "options": [
+      "SL28",
+      "SL34",
+      "Ruiru 11",
+      "Batian"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "SL28 is a Kenyan cultivar famous for its wine-like acidity and blackcurrant flavor profile, developed by Scott Labs in the 1930s.",
+    "detailedExplanation": "SL28 is one of Kenya's most prized coffee cultivars, developed by Scott Agricultural Laboratories (hence the 'SL' designation) in the 1930s. This variety is renowned for producing coffees with exceptional cup quality, characterized by bright acidity, full body, and distinctive blackcurrant or wine-like flavor notes. SL28 is believed to be derived from a single tree discovered in Tanzania and has become synonymous with the high-quality Kenyan coffee profile. Despite its susceptibility to diseases and relatively low yields, it remains highly valued by specialty coffee roasters worldwide for its unique flavor characteristics.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Coffee_varieties",
+    "citationTitle": "Wikipedia: Coffee varieties"
+  },
+  {
+    "id": "2e25a830-030b-471f-9d7d-02f075b4a433",
+    "text": "What is the traditional Turkish method of coffee preparation called, which was inscribed on UNESCO's Intangible Cultural Heritage list?",
+    "options": [
+      "Ibrik brewing",
+      "Turkish coffee",
+      "Cezve method",
+      "Ottoman brewing"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Turkish coffee, with its specific preparation method and cultural significance, was recognized by UNESCO in 2013 as an Intangible Cultural Heritage.",
+    "detailedExplanation": "Turkish coffee represents a traditional method of coffee preparation and presentation that was inscribed on UNESCO's Representative List of the Intangible Cultural Heritage of Humanity in 2013. This brewing method involves roasting and grinding coffee beans to a very fine powder, then slowly cooking the grounds with water and sugar in a special pot called a cezve or ibrik over low heat. The coffee is served unfiltered with the grounds still in the cup, and the preparation and serving ritual holds deep cultural significance in Turkish society, often associated with hospitality and social bonding.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Turkish_coffee",
+    "citationTitle": "Wikipedia: Turkish coffee"
+  },
+  {
+    "id": "6ffb8f4b-75eb-49a9-914c-ff041b8af730",
+    "text": "Which coffee-producing region is known for the 'Monsoon Malabar' processing method that exposes beans to monsoon winds?",
+    "options": [
+      "Kerala, India",
+      "Karnataka, India",
+      "Tamil Nadu, India",
+      "Goa, India"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "The Malabar coast of Kerala, India, is famous for Monsoon Malabar coffee, where beans are exposed to monsoon winds and moisture.",
+    "detailedExplanation": "Monsoon Malabar is a unique coffee processing method that originated on the Malabar coast of Kerala, India, during the colonial period. This process developed accidentally when coffee beans shipped from India to Europe were exposed to monsoon winds and moisture during the long sea voyage, causing them to swell and change color and flavor. Today, this effect is deliberately recreated by exposing coffee beans to the monsoon winds in open warehouses during the rainy season (June to September). The resulting coffee has a distinctive heavy body, low acidity, and earthy, musty flavor profile that is quite different from other Indian coffees.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Indian_coffee",
+    "citationTitle": "Wikipedia: Indian coffee"
+  },
+  {
+    "id": "cf2804ad-10eb-4733-bbd1-b98c67427439",
+    "text": "What percentage of global coffee production comes from the 'Coffee Belt' region between the Tropics of Cancer and Capricorn?",
+    "options": [
+      "Nearly 100%",
+      "About 85%",
+      "Around 70%",
+      "Approximately 60%"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Nearly 100% of commercial coffee production occurs within the Coffee Belt due to the specific climate requirements of coffee plants.",
+    "detailedExplanation": "The Coffee Belt, also known as the Coffee Zone, encompasses the equatorial region between approximately 25°N and 30°S latitude, including parts of Central and South America, Africa, the Middle East, and Asia. This region provides the ideal conditions for coffee cultivation: consistent temperatures between 60-70°F (15-24°C), adequate rainfall, rich soil, and appropriate altitude. Nearly 100% of the world's commercial coffee production occurs within this belt because coffee plants (both Arabica and Robusta) require these specific tropical and subtropical conditions to thrive and produce viable crops for commercial harvest.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Coffee_belt",
+    "citationTitle": "Wikipedia: Coffee belt"
+  },
+  {
+    "id": "8ddeba40-62ae-47fb-af07-6604caac99f8",
+    "text": "Which coffee variety, discovered in 1931 in Ethiopia, is considered the most disease-resistant arabica cultivar and forms the genetic foundation for many modern coffee varieties?",
+    "options": [
+      "Typica",
+      "Timor Hybrid",
+      "Geisha",
+      "Heirloom"
+    ],
+    "correctIndex": 3,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Ethiopian Heirloom varieties are the original wild arabica cultivars with exceptional genetic diversity and natural disease resistance.",
+    "detailedExplanation": "Ethiopian Heirloom coffee refers to the thousands of wild arabica varieties that grow naturally in Ethiopia's forests. These varieties represent the original genetic pool of coffee arabica and possess remarkable diversity in flavor profiles and natural resistance to diseases like coffee leaf rust. Many modern coffee breeding programs rely on Ethiopian Heirloom genetics to develop new resistant cultivars, making Ethiopia not just coffee's birthplace but also its genetic treasure trove.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Coffea_arabica",
+    "citationTitle": "Wikipedia: Coffea arabica"
+  },
+  {
+    "id": "a4b0b2a0-481b-4ebb-8952-fdb3630de623",
+    "text": "What is the name of the coffee grading system used in Jamaica that classifies Blue Mountain coffee, with the highest grade being reserved for beans grown above 5,000 feet?",
+    "options": [
+      "Supreme",
+      "Grade A",
+      "No. 1",
+      "Prime Washed"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Jamaica Blue Mountain No. 1 is the highest grade, reserved for beans grown above 5,000 feet with strict size and defect standards.",
+    "detailedExplanation": "The Jamaica Blue Mountain grading system is one of the world's most stringent coffee classification methods. No. 1 grade requires beans to be grown above 5,000 feet elevation, pass through specific screen sizes (17/18), and have virtually zero defects. This grade represents less than 10% of Jamaica's total coffee production and commands premium prices, particularly in Japan where over 80% of authentic Blue Mountain coffee is exported.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Jamaican_Blue_Mountain_Coffee",
+    "citationTitle": "Wikipedia: Jamaican Blue Mountain Coffee"
+  },
+  {
+    "id": "09e03e8c-03ff-4f91-a64b-39b39e101d33",
+    "text": "Which volcanic Indonesian island produces a coffee known for its distinctive earthy, herbal flavor profile and full body, often described as having 'rustic' characteristics?",
+    "options": [
+      "Java",
+      "Sumatra",
+      "Sulawesi",
+      "Flores"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Sumatra produces coffee with distinctive earthy, herbal, and full-bodied characteristics due to its unique wet-hulling processing method.",
+    "detailedExplanation": "Sumatran coffee is renowned for its unique flavor profile characterized by earthy, herbal, and sometimes smoky notes with a heavy body and low acidity. This distinctive taste comes from the 'Giling Basah' (wet-hulling) processing method unique to Indonesia, where beans are hulled while still containing 30-50% moisture content. Famous regions include Mandheling, Lintong, and Aceh, with the volcanic soil and tropical climate contributing to the coffee's complex, rustic character that coffee enthusiasts either love or find polarizing.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Coffee_production_in_Indonesia",
+    "citationTitle": "Wikipedia: Coffee production in Indonesia"
+  },
+  {
+    "id": "152a839e-6386-42d3-9c71-c41abdae2cab",
+    "text": "What is the name of the coffee mutation characterized by beans that are significantly larger than normal, originally discovered in Guatemala and now grown in several Central American countries?",
+    "options": [
+      "Maragogype",
+      "Pacamara",
+      "Maracaturra",
+      "Mundo Novo"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Maragogype is a natural mutation of Typica coffee featuring beans up to 40% larger than normal, first discovered in Brazil's Bahia state.",
+    "detailedExplanation": "Maragogype, often called 'Elephant Bean' coffee, is a natural mutation of the Typica variety first discovered in the town of Maragogipe in Bahia, Brazil, in 1870. The beans can be up to 40% larger than regular arabica beans and produce a mild, smooth cup with low acidity. Despite the impressive bean size, Maragogype plants have relatively low yields and are susceptible to diseases, making them commercially challenging but prized by specialty roasters for their novelty and gentle flavor profile.",
+    "citationUrl": "https://en.wikipedia.org/wiki/List_of_coffee_varieties",
+    "citationTitle": "Wikipedia: List of coffee varieties"
+  }
+]

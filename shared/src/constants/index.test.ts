@@ -3,67 +3,31 @@ import {
   calculateQuestionDisplayTime,
   calculateAnswerTimeout,
   WORDS_PER_SECOND,
-  MIN_QUESTION_DISPLAY_MS,
-  MAX_QUESTION_DISPLAY_MS,
   MIN_ANSWER_TIMEOUT_MS,
   MAX_ANSWER_TIMEOUT_MS,
-  POINTS_CORRECT,
-  POINTS_WRONG,
+  DIFFICULTY_POINTS,
   QUESTIONS_PER_SET,
   MAX_PLAYERS_PER_ROOM,
-  JOIN_WINDOW_SECONDS,
+  QUESTION_DURATION_MS,
+  MIN_QUESTION_DISPLAY_MS,
+  MAX_QUESTION_DISPLAY_MS,
 } from './index';
 
 describe('calculateQuestionDisplayTime', () => {
-  it('returns minimum time for very short questions', () => {
+  it('returns fixed 10 seconds for any question', () => {
     const result = calculateQuestionDisplayTime('Hi?', ['A', 'B']);
-    expect(result).toBe(MIN_QUESTION_DISPLAY_MS);
+    expect(result).toBe(QUESTION_DURATION_MS);
+    expect(result).toBe(10000);
   });
 
-  it('returns maximum time for very long questions', () => {
-    // Create a question with ~100 words
+  it('returns same duration regardless of question length', () => {
+    const shortResult = calculateQuestionDisplayTime('Hi?', ['A', 'B']);
     const longQuestion = Array(50).fill('word').join(' ');
     const longOptions = Array(4).fill(Array(15).fill('word').join(' '));
+    const longResult = calculateQuestionDisplayTime(longQuestion, longOptions);
 
-    const result = calculateQuestionDisplayTime(longQuestion, longOptions);
-    expect(result).toBe(MAX_QUESTION_DISPLAY_MS);
-  });
-
-  it('scales time based on word count', () => {
-    const shortQuestion = 'What is the capital of France?'; // ~6 words
-    const shortOptions = ['Paris', 'London', 'Berlin', 'Madrid']; // ~4 words
-    // Total: ~10 words = 2.5 seconds reading + 1 second buffer = 3.5 seconds
-    // But clamped to minimum of 4 seconds
-
-    const result = calculateQuestionDisplayTime(shortQuestion, shortOptions);
-    expect(result).toBe(MIN_QUESTION_DISPLAY_MS);
-
-    // Medium question - enough words to exceed minimum
-    const mediumQuestion = 'According to the periodic table of elements, what is the atomic symbol for the element gold?'; // ~15 words
-    const mediumOptions = [
-      'Au (from Latin aurum)',
-      'Go (from English gold)',
-      'Gd (from German Gold)',
-      'Ag (from Latin argentum)',
-    ]; // ~12 words total
-    // Total: ~27 words / 4 words per second = 6.75 seconds + 1 buffer = 7.75 seconds
-
-    const mediumResult = calculateQuestionDisplayTime(mediumQuestion, mediumOptions);
-    expect(mediumResult).toBeGreaterThan(MIN_QUESTION_DISPLAY_MS);
-    expect(mediumResult).toBeLessThan(MAX_QUESTION_DISPLAY_MS);
-  });
-
-  it('handles empty options array', () => {
-    const result = calculateQuestionDisplayTime('What is two plus two?', []);
-    expect(result).toBe(MIN_QUESTION_DISPLAY_MS);
-  });
-
-  it('returns a rounded number', () => {
-    const result = calculateQuestionDisplayTime(
-      'This is a question with some words to test rounding behavior',
-      ['Option A', 'Option B', 'Option C', 'Option D']
-    );
-    expect(Number.isInteger(result)).toBe(true);
+    expect(shortResult).toBe(longResult);
+    expect(shortResult).toBe(10000);
   });
 });
 
@@ -119,15 +83,23 @@ describe('calculateAnswerTimeout', () => {
 });
 
 describe('Constants', () => {
-  it('has correct scoring values', () => {
-    expect(POINTS_CORRECT).toBe(50);
-    expect(POINTS_WRONG).toBe(-200);
+  it('has correct scoring values by difficulty', () => {
+    // Easy: high penalty for wrong, low reward for correct
+    expect(DIFFICULTY_POINTS.easy.correct).toBe(50);
+    expect(DIFFICULTY_POINTS.easy.wrong).toBe(-200);
+
+    // Medium: balanced
+    expect(DIFFICULTY_POINTS.medium.correct).toBe(75);
+    expect(DIFFICULTY_POINTS.medium.wrong).toBe(-100);
+
+    // Hard: low penalty for wrong, high reward for correct
+    expect(DIFFICULTY_POINTS.hard.correct).toBe(100);
+    expect(DIFFICULTY_POINTS.hard.wrong).toBe(-50);
   });
 
   it('has correct game configuration', () => {
     expect(QUESTIONS_PER_SET).toBe(20);
     expect(MAX_PLAYERS_PER_ROOM).toBe(20);
-    expect(JOIN_WINDOW_SECONDS).toBe(60);
   });
 
   it('has valid timing ranges', () => {

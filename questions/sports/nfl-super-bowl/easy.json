@@ -1,0 +1,342 @@
+[
+  {
+    "id": "65defb38-95af-4df4-8558-860ad9c5acbf",
+    "text": "Which team has won the most Super Bowl championships?",
+    "options": [
+      "New England Patriots",
+      "Pittsburgh Steelers",
+      "Dallas Cowboys",
+      "San Francisco 49ers"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "The Pittsburgh Steelers have won 6 Super Bowl championships.",
+    "detailedExplanation": "The Pittsburgh Steelers hold the record for most Super Bowl victories with 6 championships, winning in 1974, 1975, 1978, 1979, 2005, and 2008. They are tied with the New England Patriots who also have 6 Super Bowl wins. The Cowboys and 49ers each have 5 Super Bowl victories.",
+    "citationUrl": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+    "citationTitle": "Wikipedia: List of Super Bowl champions"
+  },
+  {
+    "id": "a42d6200-47f7-4e46-8549-eab909df3445",
+    "text": "What is the name of the trophy awarded to the Super Bowl winner?",
+    "options": [
+      "Lombardi Trophy",
+      "Halas Trophy",
+      "Hunt Trophy",
+      "Rozelle Trophy"
+    ],
+    "correctIndex": 0,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "The Lombardi Trophy is awarded to the Super Bowl champion.",
+    "detailedExplanation": "The Vince Lombardi Trophy is awarded annually to the winner of the Super Bowl. Named after legendary Green Bay Packers coach Vince Lombardi, who won the first two Super Bowls, the trophy was renamed in his honor after his death in 1970. The trophy is made of sterling silver and stands 22 inches tall.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Vince_Lombardi_Trophy",
+    "citationTitle": "Wikipedia: Vince Lombardi Trophy"
+  },
+  {
+    "id": "19147afc-4edd-42d4-aaac-c3268115b54c",
+    "text": "In which city was the first Super Bowl played in 1967?",
+    "options": [
+      "Miami",
+      "New Orleans",
+      "Los Angeles",
+      "Phoenix"
+    ],
+    "correctIndex": 2,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "Super Bowl I was played at the Los Angeles Memorial Coliseum in Los Angeles.",
+    "detailedExplanation": "The first Super Bowl (then called the AFL-NFL World Championship Game) was played on January 15, 1967, at the Los Angeles Memorial Coliseum in Los Angeles, California. The Green Bay Packers defeated the Kansas City Chiefs 35-10. The game was not a sellout, with about 61,946 fans in attendance in the 93,000-seat stadium.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Super_Bowl_I",
+    "citationTitle": "Wikipedia: Super Bowl I"
+  },
+  {
+    "id": "535afb3d-e94f-46ac-9005-5e856e8421e8",
+    "text": "How often does the Super Bowl take place?",
+    "options": [
+      "Every year",
+      "Every two years",
+      "Every four years",
+      "Every three years"
+    ],
+    "correctIndex": 0,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "The Super Bowl is held annually at the end of each NFL season.",
+    "detailedExplanation": "The Super Bowl takes place every year, typically on the first Sunday in February, serving as the championship game of the National Football League (NFL) season. It determines the league champion for that particular season and marks the culmination of the NFL playoffs that begin in January.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Super_Bowl",
+    "citationTitle": "Wikipedia: Super Bowl"
+  },
+  {
+    "id": "3b2dfbdf-c11d-4e7f-b9d6-5d786776055b",
+    "text": "What day of the week is the Super Bowl traditionally played on?",
+    "options": [
+      "Saturday",
+      "Sunday",
+      "Monday",
+      "Friday"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "The Super Bowl is traditionally played on Sunday.",
+    "detailedExplanation": "The Super Bowl is played on Sunday, specifically 'Super Bowl Sunday,' which has become an unofficial American holiday. The game typically kicks off in the early evening Eastern Time to maximize television viewership. This Sunday tradition has made Super Bowl Sunday one of the most-watched television events in the United States each year.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Super_Bowl_Sunday",
+    "citationTitle": "Wikipedia: Super Bowl Sunday"
+  },
+  {
+    "id": "02118192-eb1f-4089-b1d7-88f6fd651e7a",
+    "text": "Which quarterback has won the most Super Bowl MVP awards?",
+    "options": [
+      "Peyton Manning",
+      "Tom Brady",
+      "Joe Montana",
+      "Terry Bradshaw"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "Tom Brady has won 5 Super Bowl MVP awards.",
+    "detailedExplanation": "Tom Brady holds the record for most Super Bowl MVP awards with 5, winning the honor in 2001, 2003, 2004, 2014, and 2016. Joe Montana has 3 Super Bowl MVP awards, while both Peyton Manning and Terry Bradshaw each have 1. Brady's dominance in Super Bowl play helped establish him as one of the greatest quarterbacks in NFL history.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Super_Bowl_Most_Valuable_Player_Award",
+    "citationTitle": "Wikipedia: Super Bowl Most Valuable Player Award"
+  },
+  {
+    "id": "1ac12ef8-7670-4cf4-b0e6-ca2808459fe5",
+    "text": "What is the maximum length of a Super Bowl halftime show performance?",
+    "options": [
+      "10-12 minutes",
+      "12-15 minutes",
+      "15-18 minutes",
+      "20-25 minutes"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "Super Bowl halftime shows typically last 12-15 minutes.",
+    "detailedExplanation": "The Super Bowl halftime show is traditionally 12-15 minutes long, significantly longer than regular NFL halftime breaks which last about 12 minutes. This extended time allows for elaborate performances featuring major musical artists, choreography, and special effects. The halftime show has become a major entertainment spectacle that often draws viewers who may not be interested in football.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Super_Bowl_halftime_show",
+    "citationTitle": "Wikipedia: Super Bowl halftime show"
+  },
+  {
+    "id": "9d63de47-7276-44fb-bca4-07b2247d14ed",
+    "text": "Which conference won the first Super Bowl?",
+    "options": [
+      "AFC",
+      "NFC",
+      "NFL",
+      "AFL"
+    ],
+    "correctIndex": 2,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "The NFL conference won the first Super Bowl when the Green Bay Packers defeated the Kansas City Chiefs.",
+    "detailedExplanation": "The first Super Bowl was won by the Green Bay Packers, who represented the established National Football League (NFL), defeating the Kansas City Chiefs from the American Football League (AFL) 35-10. At that time, the modern AFC and NFC conferences did not exist - they were created in 1970 when the AFL and NFL officially merged and reorganized into the current conference structure.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Super_Bowl_I",
+    "citationTitle": "Wikipedia: Super Bowl I"
+  },
+  {
+    "id": "0b5c0985-6e10-4b43-8220-07c564a4b316",
+    "text": "What Roman numeral was used for Super Bowl 50?",
+    "options": [
+      "L",
+      "50",
+      "XLVIII",
+      "LII"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "Super Bowl 50 was the only Super Bowl to not use Roman numerals in its official branding.",
+    "detailedExplanation": "Super Bowl 50, played in 2016, broke from the NFL's tradition of using Roman numerals for the game's official branding. Instead of using 'L' (which would be 50 in Roman numerals), the NFL decided to use the Arabic numeral '50' because they felt the 'L' looked less appealing in their marketing materials and merchandise designs.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Super_Bowl_50",
+    "citationTitle": "Wikipedia: Super Bowl 50"
+  },
+  {
+    "id": "1afc0a18-787b-47e3-9978-e46ffc0a6295",
+    "text": "Which network aired the first Super Bowl in 1967?",
+    "options": [
+      "NBC only",
+      "CBS only",
+      "Both CBS and NBC",
+      "ABC"
+    ],
+    "correctIndex": 2,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "The first Super Bowl was simultaneously broadcast on both CBS and NBC.",
+    "detailedExplanation": "Super Bowl I in 1967 was unique in television history as it was simultaneously broadcast on both CBS and NBC networks. This unusual arrangement occurred because CBS had the rights to NFL games while NBC had the rights to AFL games, and since the Super Bowl was a championship game between the two leagues, both networks were allowed to broadcast it.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Super_Bowl_I",
+    "citationTitle": "Wikipedia: Super Bowl I"
+  },
+  {
+    "id": "bf2ab4e1-809b-4aae-94bd-c10e10e4ac70",
+    "text": "What color of Gatorade was famously dumped on Bill Parcells after the Giants won Super Bowl XXI?",
+    "options": [
+      "Orange",
+      "Blue",
+      "Yellow",
+      "Red"
+    ],
+    "correctIndex": 0,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "Orange Gatorade was dumped on Giants coach Bill Parcells, helping to popularize the Gatorade shower tradition.",
+    "detailedExplanation": "The famous Gatorade shower tradition became widely recognized after New York Giants players dumped orange Gatorade on head coach Bill Parcells following their victory in Super Bowl XXI in 1987. While the practice had been done before, this nationally televised moment helped establish the Gatorade shower as a standard celebration for major sporting victories.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Gatorade_shower",
+    "citationTitle": "Wikipedia: Gatorade shower"
+  },
+  {
+    "id": "c1b95331-d87c-402a-9a5b-6fe9479519f4",
+    "text": "Which artist performed during the halftime show when the lights went out during Super Bowl XLVII?",
+    "options": [
+      "Madonna",
+      "Beyoncé",
+      "Bruno Mars",
+      "Lady Gaga"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "Beyoncé was the halftime performer during Super Bowl XLVII when a power outage caused a 34-minute delay.",
+    "detailedExplanation": "Super Bowl XLVII in 2013 featured Beyoncé as the halftime show performer, but the game is also remembered for a partial power outage that occurred in the third quarter, about 30 minutes after her performance ended. The outage caused a 34-minute delay and affected lighting in the Superdome, leading many to jokingly blame Beyoncé's high-energy performance for overloading the electrical system.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Super_Bowl_XLVII",
+    "citationTitle": "Wikipedia: Super Bowl XLVII"
+  },
+  {
+    "id": "b2461e73-e0b1-47a6-bddd-b829b3ab56bb",
+    "text": "What is the typical cost range for a 30-second Super Bowl commercial in recent years?",
+    "options": [
+      "$1-2 million",
+      "$3-4 million",
+      "$5-7 million",
+      "$10-12 million"
+    ],
+    "correctIndex": 2,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "Super Bowl commercials typically cost between $5-7 million for a 30-second spot in recent years.",
+    "detailedExplanation": "Super Bowl advertising has become one of the most expensive forms of television advertising, with 30-second commercial spots costing between $5-7 million in recent years. The high cost is justified by the massive audience, as the Super Bowl consistently ranks among the most-watched television broadcasts annually in the United States, often drawing over 100 million viewers.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Super_Bowl_commercials",
+    "citationTitle": "Wikipedia: Super Bowl commercials"
+  },
+  {
+    "id": "224d94c6-24da-407b-b199-a7a0e76a4b48",
+    "text": "Which team scored the fastest touchdown in Super Bowl history?",
+    "options": [
+      "Denver Broncos",
+      "Seattle Seahawks",
+      "New England Patriots",
+      "San Francisco 49ers"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "The Seattle Seahawks scored just 12 seconds into Super Bowl XLVIII on a safety, the fastest score in Super Bowl history.",
+    "detailedExplanation": "The Seattle Seahawks hold the record for the fastest score in Super Bowl history, achieving a safety just 12 seconds into Super Bowl XLVIII against the Denver Broncos in 2014. The score came when the Broncos snapped the ball over Peyton Manning's head into their own end zone, where it was recovered by the Seahawks for a safety, giving Seattle a 2-0 lead.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Super_Bowl_XLVIII",
+    "citationTitle": "Wikipedia: Super Bowl XLVIII"
+  },
+  {
+    "id": "fb4af920-e490-45f0-a8f2-7f4168f96999",
+    "text": "What was the original name for the championship game before it was called the 'Super Bowl'?",
+    "options": [
+      "AFL-NFL Championship Game",
+      "Professional Football Championship",
+      "American Football League Championship",
+      "National Championship Game"
+    ],
+    "correctIndex": 0,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "The game was originally called the AFL-NFL World Championship Game before becoming the Super Bowl.",
+    "detailedExplanation": "Before the name 'Super Bowl' was adopted, the championship game between the AFL and NFL was officially called the 'AFL-NFL World Championship Game.' The term 'Super Bowl' was coined by Kansas City Chiefs owner Lamar Hunt, who was inspired by his children's Super Ball toy. The name wasn't officially adopted by the NFL until Super Bowl III, though it was used informally for the earlier games.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Super_Bowl",
+    "citationTitle": "Wikipedia: Super Bowl"
+  },
+  {
+    "id": "9356e5ba-e951-492e-acbf-bdf9bfa8b920",
+    "text": "Which Super Bowl featured the largest point spread (betting line) in history?",
+    "options": [
+      "Super Bowl XXIV",
+      "Super Bowl XLVIII",
+      "Super Bowl III",
+      "Super Bowl XVIII"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "Super Bowl XLVIII had the largest point spread, with Seattle favored by 2.5 points over Denver despite Denver's record-setting offense.",
+    "detailedExplanation": "Super Bowl XLVIII between the Seattle Seahawks and Denver Broncos featured one of the most unusual betting scenarios in Super Bowl history. Despite the Broncos having the highest-scoring offense in NFL history that season, the Seahawks were actually favored by 2.5 points due to their dominant defense. The game lived up to the defensive expectations as Seattle won 43-8, representing one of the largest margins of victory in Super Bowl history.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Super_Bowl_XLVIII",
+    "citationTitle": "Wikipedia: Super Bowl XLVIII"
+  },
+  {
+    "id": "b45727d9-5c6e-4286-a73e-9bc1d9cd08e5",
+    "text": "What is the youngest age a player has ever been when winning a Super Bowl?",
+    "options": [
+      "20 years old",
+      "21 years old",
+      "22 years old",
+      "23 years old"
+    ],
+    "correctIndex": 0,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "Dan Rooney was 20 years old when the Pittsburgh Steelers won Super Bowl IX in 1975.",
+    "detailedExplanation": "The youngest player to win a Super Bowl was Dan Rooney of the Pittsburgh Steelers, who was just 20 years old when Pittsburgh defeated the Minnesota Vikings 16-6 in Super Bowl IX on January 12, 1975. Rooney was born in 1954 and was still in his rookie season when the Steelers captured their first Super Bowl championship. This record has stood for nearly five decades, as most NFL players don't enter the league until they're at least 21 or 22 years old.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Super_Bowl_IX",
+    "citationTitle": "Wikipedia: Super Bowl IX"
+  },
+  {
+    "id": "294f483e-26a0-45c0-a379-55a8d9df54ec",
+    "text": "Which month has hosted the most Super Bowl games?",
+    "options": [
+      "January",
+      "February",
+      "March",
+      "December"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "February has hosted the majority of Super Bowl games throughout the championship's history.",
+    "detailedExplanation": "February has been the primary month for Super Bowl games, hosting the vast majority of championships since the game's inception. While the first few Super Bowls were played in January, the NFL moved the game to early February to allow for additional playoff rounds and better scheduling. This timing also helps avoid conflicts with other major sporting events and provides better television ratings during the winter months when fewer outdoor activities compete for viewers' attention.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Super_Bowl",
+    "citationTitle": "Wikipedia: Super Bowl"
+  },
+  {
+    "id": "caec2929-8c36-4abb-8aad-65934e524bac",
+    "text": "What was the original ticket price for the first Super Bowl in 1967?",
+    "options": [
+      "$6-$12",
+      "$10-$20",
+      "$15-$25",
+      "$25-$35"
+    ],
+    "correctIndex": 0,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "The original Super Bowl I tickets ranged from $6 to $12, making it quite affordable compared to today's prices.",
+    "detailedExplanation": "When Super Bowl I was played between the Green Bay Packers and Kansas City Chiefs on January 15, 1967, at the Los Angeles Memorial Coliseum, tickets were priced between $6 and $12. This was considered expensive for football tickets at the time, but remarkably affordable by today's standards where Super Bowl tickets can cost thousands of dollars. Interestingly, the game didn't sell out, with about 61,946 fans attending the 93,000-capacity stadium, partly due to the high ticket prices and the game being broadcast on both NBC and CBS simultaneously.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Super_Bowl_I",
+    "citationTitle": "Wikipedia: Super Bowl I"
+  },
+  {
+    "id": "1fcbbfe4-aa68-4848-9cc9-e6c7bab48807",
+    "text": "How many times has the Super Bowl been played in the same stadium in consecutive years?",
+    "options": [
+      "Never",
+      "Once",
+      "Twice",
+      "Three times"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "The Super Bowl has been played in the same stadium in consecutive years only once, at the Orange Bowl in Miami.",
+    "detailedExplanation": "The Super Bowl has been held in the same stadium in consecutive years only once in its history. This occurred at the Orange Bowl in Miami, Florida, which hosted Super Bowl II in 1968 and Super Bowl III in 1969. The NFL typically rotates the Super Bowl location among different cities and stadiums to spread the economic benefits and maintain interest from various markets. Since those early years, the league has been more deliberate about ensuring geographic and venue diversity for subsequent Super Bowl locations.",
+    "citationUrl": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_venues",
+    "citationTitle": "Wikipedia: List of Super Bowl venues"
+  }
+]

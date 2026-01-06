@@ -68,14 +68,63 @@ export function ChatPanel({
   }, [messages, scrollToBottom]);
 
   const handleSendMessage = async () => {
-    if (!newMessage.trim() || !isAuthenticated) return;
+    if (!newMessage.trim() || !isAuthenticated || !user) return;
 
+    const messageContent = newMessage.trim();
+    setNewMessage("");
     setSending(true);
+
+    // Optimistically add the message to the cache immediately
+    // Use timestamp + random string to prevent ID collisions on fast consecutive sends
+    const optimisticMessage: ChatMessage = {
+      id: `temp-${Date.now()}-${Math.random().toString(36).substring(2, 11)}`,
+      channelId,
+      senderId: user.userId,
+      senderUsername: user.username || user.email?.split("@")[0] || "User",
+      senderDisplayName: user.name || user.username || "User",
+      content: messageContent,
+      createdAt: new Date().toISOString(),
+    };
+
+    queryClient.setQueryData<ChatMessageConnection>(
+      chatMessagesKeys.byChannel(channelId),
+      (old) => {
+        if (!old) return { items: [optimisticMessage], nextToken: null };
+        return { ...old, items: [...old.items, optimisticMessage] };
+      },
+    );
+
     try {
-      await sendChatMessage(channelId, newMessage.trim());
-      setNewMessage("");
+      const sentMessage = await sendChatMessage(channelId, messageContent);
+      // Replace optimistic message with real one
+      if (sentMessage) {
+        queryClient.setQueryData<ChatMessageConnection>(
+          chatMessagesKeys.byChannel(channelId),
+          (old) => {
+            if (!old) return { items: [sentMessage], nextToken: null };
+            // Remove optimistic message and add real one (if not already there via subscription)
+            const filtered = old.items.filter(
+              (m) => m.id !== optimisticMessage.id && m.id !== sentMessage.id,
+            );
+            return { ...old, items: [...filtered, sentMessage] };
+          },
+        );
+      }
     } catch (error) {
       console.error("Failed to send message:", error);
+      // Remove optimistic message on failure
+      queryClient.setQueryData<ChatMessageConnection>(
+        chatMessagesKeys.byChannel(channelId),
+        (old) => {
+          if (!old) return { items: [], nextToken: null };
+          return {
+            ...old,
+            items: old.items.filter((m) => m.id !== optimisticMessage.id),
+          };
+        },
+      );
+      // Restore the message to the input
+      setNewMessage(messageContent);
     } finally {
       setSending(false);
     }

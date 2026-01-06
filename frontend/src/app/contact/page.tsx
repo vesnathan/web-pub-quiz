@@ -5,16 +5,28 @@ import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { Card, CardBody, Input, Textarea, Button } from "@nextui-org/react";
 import { Navbar } from "@/components/Navbar";
-import { Footer } from "@/components/Footer";
+import { AppFooter } from "@/components/AppFooter";
 import {
   ContactFormSchema,
   type ContactFormInput,
 } from "@/schemas/FormSchemas";
+import { useRecaptcha } from "@/hooks/useRecaptcha";
+import { graphqlClient } from "@/lib/graphql";
+import { SEND_CONTACT } from "@/graphql/mutations";
+
+interface SendContactResponse {
+  data?: {
+    sendContact?: boolean;
+  };
+  errors?: Array<{ message: string }>;
+}
 
 export default function ContactPage() {
   const [submitStatus, setSubmitStatus] = useState<
     "idle" | "success" | "error"
   >("idle");
+  const [errorMessage, setErrorMessage] = useState<string>("");
+  const { executeRecaptcha, isConfigured } = useRecaptcha();
 
   const {
     register,
@@ -33,15 +45,50 @@ export default function ContactPage() {
 
   const onSubmit = async (data: ContactFormInput) => {
     setSubmitStatus("idle");
+    setErrorMessage("");
 
     try {
-      // TODO: Implement actual form submission to backend
-      console.log("Form data:", data);
-      await new Promise((resolve) => setTimeout(resolve, 1000));
-      setSubmitStatus("success");
-      reset();
-    } catch {
+      // Get reCAPTCHA token
+      const recaptchaToken = await executeRecaptcha("contact_form");
+      if (!recaptchaToken) {
+        setSubmitStatus("error");
+        setErrorMessage(
+          "reCAPTCHA verification failed. Please refresh and try again.",
+        );
+        return;
+      }
+
+      // Send contact form via GraphQL
+      const result = (await graphqlClient.graphql({
+        query: SEND_CONTACT,
+        variables: {
+          name: data.name,
+          email: data.email,
+          subject: data.subject,
+          message: data.message,
+          recaptchaToken,
+        },
+        authMode: "iam",
+      })) as SendContactResponse;
+
+      if (result.errors && result.errors.length > 0) {
+        throw new Error(result.errors[0].message);
+      }
+
+      if (result.data?.sendContact) {
+        setSubmitStatus("success");
+        reset();
+      } else {
+        throw new Error("Failed to send message");
+      }
+    } catch (error) {
+      console.error("Contact form error:", error);
       setSubmitStatus("error");
+      setErrorMessage(
+        error instanceof Error
+          ? error.message
+          : "Something went wrong. Please try again later.",
+      );
     }
   };
 
@@ -118,7 +165,15 @@ export default function ContactPage() {
 
                 {submitStatus === "error" && (
                   <div className="p-4 bg-red-500/20 border border-red-500/50 rounded-lg text-red-400">
-                    Something went wrong. Please try again later.
+                    {errorMessage ||
+                      "Something went wrong. Please try again later."}
+                  </div>
+                )}
+
+                {!isConfigured && (
+                  <div className="p-4 bg-yellow-500/20 border border-yellow-500/50 rounded-lg text-yellow-400 text-sm">
+                    Contact form is temporarily unavailable. Please email us
+                    directly at support@quiznight.live
                   </div>
                 )}
 
@@ -128,15 +183,38 @@ export default function ContactPage() {
                   size="lg"
                   className="w-full font-semibold"
                   isLoading={isSubmitting}
+                  isDisabled={!isConfigured}
                 >
                   Send Message
                 </Button>
+
+                <p className="text-xs text-gray-500 text-center">
+                  This site is protected by reCAPTCHA and the Google{" "}
+                  <a
+                    href="https://policies.google.com/privacy"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-primary hover:underline"
+                  >
+                    Privacy Policy
+                  </a>{" "}
+                  and{" "}
+                  <a
+                    href="https://policies.google.com/terms"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-primary hover:underline"
+                  >
+                    Terms of Service
+                  </a>{" "}
+                  apply.
+                </p>
               </form>
             </CardBody>
           </Card>
         </div>
       </main>
-      <Footer />
+      <AppFooter />
     </>
   );
 }

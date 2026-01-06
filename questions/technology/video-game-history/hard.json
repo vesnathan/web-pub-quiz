@@ -1,0 +1,342 @@
+[
+  {
+    "id": "b19881dc-f231-4fd7-bbb7-3335feb731b6",
+    "text": "Which video game company was founded by Trip Hawkins in 1982 and became famous for sports simulation games?",
+    "options": [
+      "Activision",
+      "Electronic Arts",
+      "Atari",
+      "Midway"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Electronic Arts (EA) was founded by Trip Hawkins in 1982.",
+    "detailedExplanation": "Trip Hawkins founded Electronic Arts in 1982 after leaving Apple Computer. EA became renowned for its sports franchises like Madden NFL, FIFA, and NHL Hockey. Hawkins had a vision of treating game developers like recording artists, which was revolutionary at the time. The company's early slogan 'Can a Computer Make You Cry?' reflected their ambition to create emotionally engaging interactive entertainment.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Electronic_Arts",
+    "citationTitle": "Wikipedia: Electronic Arts"
+  },
+  {
+    "id": "0b8f1094-687a-428c-828d-c757a7924ce2",
+    "text": "What was the name of the vector graphics arcade game released by Atari in 1979 that featured wireframe spaceships in combat?",
+    "options": [
+      "Battlezone",
+      "Asteroids",
+      "Tempest",
+      "Star Wars"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Asteroids was released by Atari in 1979 and featured vector graphics with wireframe spaceships.",
+    "detailedExplanation": "Asteroids was designed by Lyle Rains and Ed Logg and became one of the most successful arcade games of all time. The game used vector graphics to display wireframe objects on screen, creating crisp, clean lines that could scale without pixelation. Players controlled a triangular ship navigating an asteroid field, with the innovative physics allowing for realistic momentum and rotation. The game's 'hyperspace' feature and UFO enemies added strategic depth.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Asteroids_(video_game)",
+    "citationTitle": "Wikipedia: Asteroids (video game)"
+  },
+  {
+    "id": "1b803e18-1f63-470e-ba11-5ecee4b2e77f",
+    "text": "Which Japanese company created the first commercially successful handheld electronic game with interchangeable cartridges in 1982?",
+    "options": [
+      "Nintendo",
+      "Sega",
+      "Epoch",
+      "Bandai"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Epoch released the Game Pocket Computer in 1982, predating Nintendo's Game Boy by seven years.",
+    "detailedExplanation": "The Epoch Game Pocket Computer was released in Japan in 1982 and featured interchangeable ROM cartridges, making it the first successful handheld console with this capability. While primitive compared to later handhelds, it established the template for portable gaming systems. Epoch was known for innovative gaming hardware in Japan, though they never achieved the global success of Nintendo or Sega. This system laid groundwork for the handheld gaming revolution.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Epoch_Game_Pocket_Computer",
+    "citationTitle": "Wikipedia: Epoch Game Pocket Computer"
+  },
+  {
+    "id": "2f3061cf-3b03-4423-a92e-43af5d8c43c8",
+    "text": "What was the codename for the Sega Genesis/Mega Drive during its development phase?",
+    "options": [
+      "Project Mars",
+      "Project Neptune",
+      "Project Mercury",
+      "Project Jupiter"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "The Sega Genesis/Mega Drive was codenamed 'Project Mars' during development.",
+    "detailedExplanation": "Sega used planetary codenames for their console projects during the 1980s and 1990s. The Genesis/Mega Drive was known internally as 'Project Mars' before its 1988 release in Japan. This 16-bit console was Sega's most successful home system, competing directly with Nintendo's Super Nintendo Entertainment System. The Mars codename was fitting, as Sega positioned the system as a more mature, aggressive alternative to Nintendo's family-friendly approach.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Sega_Genesis",
+    "citationTitle": "Wikipedia: Sega Genesis"
+  },
+  {
+    "id": "68bb67e2-e733-4f7b-b4ab-284b6f4617f8",
+    "text": "Which programming language was specifically created by John Carmack for id Software's game engines, starting with Quake?",
+    "options": [
+      "QuakeScript",
+      "idTech Script",
+      "QuakeC",
+      "Doom Script"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "QuakeC was the scripting language created by John Carmack for the Quake engine.",
+    "detailedExplanation": "QuakeC was developed by John Carmack as a C-like scripting language for Quake's game logic. This innovation allowed modders to create custom gameplay mechanics without access to the engine's source code, revolutionizing game modification culture. QuakeC compiled to bytecode that ran on a virtual machine within the Quake engine. This approach influenced many subsequent games and helped establish the modding community that would create influential modifications like Team Fortress and Counter-Strike.",
+    "citationUrl": "https://en.wikipedia.org/wiki/QuakeC",
+    "citationTitle": "Wikipedia: QuakeC"
+  },
+  {
+    "id": "2de4294a-3a62-4cf8-bfe6-49064eb017bd",
+    "text": "What was the original retail price of the 3DO Interactive Multiplayer when it launched in North America in 1993?",
+    "options": [
+      "$499",
+      "$599",
+      "$699",
+      "$799"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "The 3DO launched at $699, making it one of the most expensive consoles ever released.",
+    "detailedExplanation": "The 3DO Interactive Multiplayer launched at the premium price of $699 in 1993, equivalent to over $1,400 today. This high price was due to Trip Hawkins' strategy of licensing the 3DO technology to multiple manufacturers rather than subsidizing hardware costs. While the system was technologically advanced with CD-based games and 32-bit processing, the price point made it inaccessible to most consumers, contributing to its commercial failure despite quality titles like Road Rash and Need for Speed.",
+    "citationUrl": "https://en.wikipedia.org/wiki/3DO_Interactive_Multiplayer",
+    "citationTitle": "Wikipedia: 3DO Interactive Multiplayer"
+  },
+  {
+    "id": "0b1a7e92-e6fa-4d77-8e40-db5777880bba",
+    "text": "Which fighting game introduced the concept of 'fatalities' and sparked major controversy over video game violence in the early 1990s?",
+    "options": [
+      "Street Fighter II",
+      "Fatal Fury",
+      "Mortal Kombat",
+      "King of Fighters"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Mortal Kombat introduced fatalities and became the center of video game violence debates.",
+    "detailedExplanation": "Mortal Kombat, released by Midway in 1992, introduced finishing moves called 'Fatalities' that allowed players to brutally execute defeated opponents. These graphic animations, combined with realistic digitized characters, sparked unprecedented controversy about video game violence. The game's content led to congressional hearings in 1993 and directly resulted in the creation of the Entertainment Software Rating Board (ESRB) in 1994. Despite the controversy, Mortal Kombat became a cultural phenomenon and established a successful franchise.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Mortal_Kombat_(1992_video_game)",
+    "citationTitle": "Wikipedia: Mortal Kombat (1992 video game)"
+  },
+  {
+    "id": "1d6c07a3-0e17-4282-a650-886c0b9a90de",
+    "text": "What was the name of the first commercially released video game cartridge system, launched by Fairchild in 1976?",
+    "options": [
+      "Fairchild Channel F",
+      "Fairchild Video Entertainment System",
+      "Fairchild Console-1",
+      "Fairchild GameSystem"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "The Fairchild Channel F was the first console to use removable game cartridges.",
+    "detailedExplanation": "The Fairchild Channel F (originally called the Video Entertainment System) was released in August 1976 and revolutionized home gaming by introducing removable ROM cartridges. This innovation eliminated the need for dedicated consoles with built-in games, allowing players to expand their game libraries. Designed by Jerry Lawson, one of the few African American engineers in the early video game industry, the system used the Fairchild F8 microprocessor and competed with the Atari 2600, which adopted similar cartridge technology a year later.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Fairchild_Channel_F",
+    "citationTitle": "Wikipedia: Fairchild Channel F"
+  },
+  {
+    "id": "139f2052-28e4-42c7-bc2b-c4dd0a4db9db",
+    "text": "What was the name of the failed Nintendo console peripheral that was developed in partnership with Sony and ultimately led Sony to create their own PlayStation console?",
+    "options": [
+      "Nintendo Sound System",
+      "Nintendo Play Station",
+      "Nintendo CD-ROM System",
+      "Nintendo Super Drive"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "The Nintendo Play Station was a hybrid console/CD player that Nintendo developed with Sony, but Nintendo's betrayal of this partnership led Sony to develop the PlayStation independently.",
+    "detailedExplanation": "In the late 1980s, Nintendo partnered with Sony to create a CD-ROM add-on for the Super Famicom called the Nintendo Play Station. However, Nintendo became concerned about the licensing terms and secretly partnered with Philips instead, publicly humiliating Sony at the 1991 Consumer Electronics Show. This betrayal motivated Sony to enter the video game market independently, leading to the creation of the original PlayStation console that would eventually dominate the industry.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Nintendo_Play_Station",
+    "citationTitle": "Wikipedia: Nintendo Play Station"
+  },
+  {
+    "id": "adcb6061-8783-4633-aaac-44426a4e0c88",
+    "text": "Which arcade cabinet layout innovation, first introduced by Nintendo's Donkey Kong in 1981, became the standard configuration for most arcade games thereafter?",
+    "options": [
+      "Horizontal monitor orientation",
+      "Vertical monitor orientation",
+      "Dual joystick controls",
+      "Trackball interface"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Donkey Kong pioneered the vertical monitor orientation for arcade games, which became the standard for platformers and many other arcade genres.",
+    "detailedExplanation": "Before Donkey Kong, most arcade games used horizontal monitor orientations. Nintendo's decision to rotate the monitor 90 degrees for Donkey Kong created a tall, narrow playing field that was perfect for the climbing gameplay mechanics. This vertical orientation allowed players to see multiple platforms and plan their routes more effectively. The innovation was so successful that it became the standard configuration for countless arcade games that followed, particularly in the platformer genre.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Donkey_Kong_(video_game)",
+    "citationTitle": "Wikipedia: Donkey Kong (video game)"
+  },
+  {
+    "id": "34c4c805-f01e-43f4-80ee-846613a6e869",
+    "text": "What was the maximum number of simultaneous colors that the original Commodore 64 could display on screen, making it superior to many competitors of its era?",
+    "options": [
+      "8 colors",
+      "16 colors",
+      "64 colors",
+      "256 colors"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "The Commodore 64 could display 16 colors simultaneously from a palette of 16 total colors, which was impressive for home computers in 1982.",
+    "detailedExplanation": "The Commodore 64's VIC-II graphics chip was capable of displaying 16 colors simultaneously, chosen from a fixed palette of 16 colors. This was a significant advantage over competitors like the Apple II, which could only display a handful of colors in high resolution modes. The C64's color capabilities, combined with features like hardware sprites and smooth scrolling, made it an exceptional gaming platform and contributed to its massive success, with over 17 million units sold worldwide.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Commodore_64",
+    "citationTitle": "Wikipedia: Commodore 64"
+  },
+  {
+    "id": "588d96f0-3753-41df-8418-ecc00e8d10d4",
+    "text": "Which innovative copy protection method did Maniac Mansion use that required players to reference the game's packaging to progress?",
+    "options": [
+      "Code wheels",
+      "Manual verification questions",
+      "Special decoder glasses",
+      "Radioactive age verification card"
+    ],
+    "correctIndex": 3,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Maniac Mansion included a fake 'radioactive age verification card' as copy protection, requiring players to reference it to bypass an age verification screen.",
+    "detailedExplanation": "LucasArts' Maniac Mansion featured one of the most creative copy protection schemes in gaming history. The game included a mock 'radioactive age verification card' that players had to reference when the game asked them to prove their age by identifying which parts of a person would glow after exposure to radiation. This humorous approach to copy protection fit perfectly with the game's quirky tone while serving as an effective deterrent to piracy, as copied versions of the game would not include the physical card.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Maniac_Mansion",
+    "citationTitle": "Wikipedia: Maniac Mansion"
+  },
+  {
+    "id": "b98666c5-f1d7-4f36-beb9-19c359d4f3c0",
+    "text": "What was the original internal codename for the project that eventually became the Nintendo Entertainment System in North America?",
+    "options": [
+      "Project Reality",
+      "Advanced Video System",
+      "Nintendo Video Entertainment System",
+      "Family Computer Adapter"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "The Advanced Video System (AVS) was Nintendo's original plan for bringing the Famicom to America, featuring a very different design before becoming the NES.",
+    "detailedExplanation": "Before settling on the Nintendo Entertainment System design, Nintendo initially planned to release the Famicom in America as the Advanced Video System (AVS). The AVS featured a sleek, futuristic design with a wireless infrared controller, keyboard, and even a light gun. However, after the 1983 video game crash, retailers were extremely hesitant about video game consoles. Nintendo redesigned the system to look more like a VCR and marketed it as an 'Entertainment System' rather than a game console, ultimately leading to the NES design we know today.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Nintendo_Entertainment_System",
+    "citationTitle": "Wikipedia: Nintendo Entertainment System"
+  },
+  {
+    "id": "dcc1575f-b58c-4371-bc88-43dbfc188298",
+    "text": "Which groundbreaking 3D graphics technique did the arcade game Hard Drivin' first introduce to gaming in 1989?",
+    "options": [
+      "Texture mapping",
+      "Real-time polygon rendering",
+      "Ray tracing",
+      "Bump mapping"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Hard Drivin' was the first arcade game to feature real-time 3D polygon rendering, pioneering techniques that would become standard in 3D gaming.",
+    "detailedExplanation": "Atari's Hard Drivin' was revolutionary for its time, being the first arcade game to render 3D polygonal graphics in real-time. The game used specialized hardware to calculate and display complex 3D environments at playable frame rates, something that was previously impossible in arcade gaming. This technical achievement laid the groundwork for the 3D gaming revolution that would follow in the 1990s, influencing everything from racing simulations to first-person shooters. The game's polygon-based approach would eventually become the standard for 3D graphics in gaming.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Hard_Drivin%27",
+    "citationTitle": "Wikipedia: Hard Drivin'"
+  },
+  {
+    "id": "6299c690-1c1d-4690-aefd-74241590409c",
+    "text": "What was the name of the first commercially successful MMO (Massively Multiplayer Online) game that launched in 1996 and supported thousands of simultaneous players?",
+    "options": [
+      "Ultima Online",
+      "Meridian 59",
+      "The Realm Online",
+      "Nexus: The Kingdom of the Winds"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Meridian 59 was the first successful commercial MMO, launching in 1996 and pioneering many features that would become standard in the genre.",
+    "detailedExplanation": "Meridian 59, developed by Archetype Interactive and published by 3DO, was the first commercially successful graphical MMO to support thousands of simultaneous players. Launching in September 1996, it featured real-time combat, player vs. player gameplay, and a persistent online world that continued to exist even when individual players logged off. While other online games existed earlier, Meridian 59 was the first to successfully combine commercial viability with the scale and features that would define the MMO genre, paving the way for later successes like Ultima Online and EverQuest.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Meridian_59",
+    "citationTitle": "Wikipedia: Meridian 59"
+  },
+  {
+    "id": "5c31a351-2dfb-45cf-a071-bc1de8962a6a",
+    "text": "Which video game company holds the record for the most expensive video game acquisition in history, purchased by Microsoft in 2023?",
+    "options": [
+      "Activision Blizzard",
+      "Bethesda Softworks",
+      "Mojang Studios",
+      "Rare Ltd."
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Microsoft's acquisition of Activision Blizzard for $68.7 billion in 2023 was the largest video game acquisition in history.",
+    "detailedExplanation": "Microsoft's acquisition of Activision Blizzard for $68.7 billion, completed in October 2023, represents the largest acquisition in video game industry history. The deal gave Microsoft control over major franchises including Call of Duty, World of Warcraft, Candy Crush Saga, and Overwatch. The acquisition faced significant regulatory scrutiny worldwide, with concerns about market consolidation and competition, particularly regarding cloud gaming services. The deal fundamentally reshaped the gaming industry landscape and positioned Microsoft as one of the dominant forces in gaming content creation.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Acquisition_of_Activision_Blizzard_by_Microsoft",
+    "citationTitle": "Wikipedia: Acquisition of Activision Blizzard by Microsoft"
+  },
+  {
+    "id": "12675b91-750c-4709-b8fd-887c2f9ed3e6",
+    "text": "What was the name of the pioneering 1962 computer game created at MIT on a PDP-1 computer that is widely considered one of the first interactive computer games?",
+    "options": [
+      "Pong",
+      "Spacewar!",
+      "Tennis for Two",
+      "OXO"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Spacewar! was created in 1962 by Steve Russell and others at MIT on a PDP-1 computer.",
+    "detailedExplanation": "Spacewar! was developed in 1962 by Steve Russell, Martin Graetz, and Wayne Wiitanen at the Massachusetts Institute of Technology on a Digital Equipment Corporation PDP-1 computer. The game featured two spaceships, nicknamed 'the needle' and 'the wedge,' controlled by players attempting to destroy each other while navigating around a star's gravitational field. It became widely distributed among computer installations and is considered one of the most important and influential early computer games, inspiring many future developers and establishing many conventions that would become standard in video games.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Spacewar!",
+    "citationTitle": "Wikipedia: Spacewar!"
+  },
+  {
+    "id": "e6831d1b-b412-4fd4-9ca0-5bf6fa48c115",
+    "text": "Which graphics processing unit (GPU) architecture introduced by NVIDIA in 1999 revolutionized 3D gaming by bringing hardware transform and lighting to consumer graphics cards?",
+    "options": [
+      "Voodoo3",
+      "GeForce 256",
+      "Radeon DDR",
+      "TNT2 Ultra"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "The GeForce 256 was marketed as the world's first GPU and introduced hardware transform and lighting (T&L).",
+    "detailedExplanation": "The NVIDIA GeForce 256, launched in October 1999, was revolutionary because it was the first consumer graphics card to include dedicated hardware for transform and lighting calculations, which had previously been handled by the CPU. NVIDIA coined the term 'Graphics Processing Unit' (GPU) specifically for this chip, distinguishing it from earlier graphics accelerators. The hardware T&L capability allowed for much more complex 3D scenes with better performance, enabling games to feature more detailed geometry, better lighting effects, and smoother framerates. This advancement marked a crucial turning point in PC gaming graphics capabilities.",
+    "citationUrl": "https://en.wikipedia.org/wiki/GeForce_256",
+    "citationTitle": "Wikipedia: GeForce 256"
+  },
+  {
+    "id": "cb52181c-4f3a-46a5-9188-5be7f3c9bb93",
+    "text": "What was the original name of the game development studio founded by John Romero and Tom Hall after leaving id Software, which later became Ion Storm?",
+    "options": [
+      "Rebel Boat Rocker",
+      "Crack dot Com",
+      "Raven Software",
+      "Ritual Entertainment"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Rebel Boat Rocker was the original name before it was changed to Ion Storm in 1996.",
+    "detailedExplanation": "After leaving id Software in 1996 following the completion of Quake, John Romero and Tom Hall initially founded a company called 'Rebel Boat Rocker.' However, they quickly discovered that this name was already trademarked, forcing them to change it to Ion Storm. The company was established in Dallas, Texas, with significant financial backing and ambitious goals to create innovative games while giving developers more creative freedom. Ion Storm became famous for games like Deus Ex and Thief: Deadly Shadows, though it also produced some notorious failures like Daikatana, which became a cautionary tale about overpromising in game development.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Ion_Storm",
+    "citationTitle": "Wikipedia: Ion Storm"
+  },
+  {
+    "id": "44f0c3d9-5c71-45be-99e7-e93e4735c490",
+    "text": "Which computer system, released in 1985, was the first to use custom chips named 'Agnus,' 'Denise,' and 'Paula' that gave it revolutionary multimedia capabilities for its time?",
+    "options": [
+      "Atari ST",
+      "Commodore Amiga",
+      "Apple IIGS",
+      "Acorn Archimedes"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "The Commodore Amiga featured custom chips named Agnus, Denise, and Paula that provided advanced graphics and sound.",
+    "detailedExplanation": "The Commodore Amiga, first released in 1985, featured three revolutionary custom chips that gave it unprecedented multimedia capabilities. 'Agnus' handled memory management and blitting operations, 'Denise' managed the display with capabilities for up to 4096 colors and multiple screen resolutions, and 'Paula' provided four-channel stereo sound and handled input/output operations. These chips allowed the Amiga to display graphics and produce sound quality that was years ahead of its contemporaries, making it the platform of choice for many game developers and digital artists throughout the late 1980s and early 1990s. The Amiga's technical superiority influenced many classic games and established it as a cornerstone of gaming history.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Original_Chip_Set",
+    "citationTitle": "Wikipedia: Original Chip Set"
+  }
+]

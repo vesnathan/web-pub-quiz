@@ -410,6 +410,33 @@ async function handleSubscriptionDeleted(event: StripeSubscriptionEvent): Promis
   console.log(`Subscription cancelled for user ${userId}`);
 }
 
+/**
+ * Extract email from Stripe event payload
+ */
+function extractEmailFromStripeEvent(event: Record<string, unknown>): string | undefined {
+  const data = event.data as { object?: Record<string, unknown> } | undefined;
+  const obj = data?.object;
+  if (!obj) return undefined;
+
+  // Try various fields where email might be present
+  // checkout.session.completed: customer_email or customer_details.email
+  if (typeof obj.customer_email === 'string') {
+    return obj.customer_email;
+  }
+
+  const customerDetails = obj.customer_details as { email?: string } | undefined;
+  if (customerDetails?.email) {
+    return customerDetails.email;
+  }
+
+  // invoice events: customer_email
+  if (typeof obj.receipt_email === 'string') {
+    return obj.receipt_email;
+  }
+
+  return undefined;
+}
+
 async function logWebhookEvent(
   eventId: string,
   eventType: string,
@@ -419,6 +446,9 @@ async function logWebhookEvent(
 ): Promise<void> {
   const now = new Date();
   const timestamp = now.toISOString();
+
+  // Extract email from the payload
+  const email = extractEmailFromStripeEvent(payload);
 
   try {
     await docClient.send(
@@ -435,6 +465,7 @@ async function logWebhookEvent(
           payload: JSON.stringify(payload),
           status,
           errorMessage,
+          email,
           createdAt: timestamp,
           // TTL: 30 days from now
           ttl: Math.floor(now.getTime() / 1000) + 30 * 24 * 60 * 60,

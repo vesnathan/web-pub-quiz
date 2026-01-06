@@ -1,0 +1,342 @@
+[
+  {
+    "id": "eee0c6bf-20d6-4898-80d2-bfacd1e71293",
+    "text": "Which NHL team holds the record for the most consecutive Stanley Cup championships?",
+    "options": [
+      "Montreal Canadiens",
+      "New York Islanders",
+      "Edmonton Oilers",
+      "Detroit Red Wings"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "medium",
+    "explanation": "The New York Islanders won four straight Stanley Cups from 1980-1983.",
+    "detailedExplanation": "The New York Islanders achieved one of the most dominant stretches in NHL history by winning four consecutive Stanley Cup championships from 1980 to 1983. This record has never been matched in the modern era, with the team defeating the Philadelphia Flyers (1980), Minnesota North Stars (1981), Vancouver Canucks (1982), and Edmonton Oilers (1983) in their respective Cup finals.",
+    "citationUrl": "https://en.wikipedia.org/wiki/New_York_Islanders",
+    "citationTitle": "Wikipedia: New York Islanders"
+  },
+  {
+    "id": "480a5297-fbfd-470c-a01a-9ddb5c4fbccd",
+    "text": "What is the maximum number of players (including goaltender) a team can have on the ice during regular play?",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "medium",
+    "explanation": "Each team can have a maximum of 6 players on ice: 5 skaters plus 1 goaltender.",
+    "detailedExplanation": "During regular play, each NHL team is allowed to have a maximum of six players on the ice at any given time. This consists of five skaters (typically three forwards and two defensemen) and one goaltender. Teams may pull their goaltender for an extra skater in certain situations, but the total number of players on ice cannot exceed six during regular play.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Ice_hockey_rules",
+    "citationTitle": "Wikipedia: Ice hockey rules"
+  },
+  {
+    "id": "4c4bc879-a776-4f39-9bfb-290da7297bc1",
+    "text": "Which goaltender holds the NHL record for most career wins?",
+    "options": [
+      "Patrick Roy",
+      "Martin Brodeur",
+      "Terry Sawchuk",
+      "Ed Belfour"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "medium",
+    "explanation": "Martin Brodeur retired with 691 regular season wins, the most in NHL history.",
+    "detailedExplanation": "Martin Brodeur, who played primarily for the New Jersey Devils, holds the NHL record for most career regular season wins by a goaltender with 691 victories. He played 22 seasons in the NHL from 1991 to 2015, also winning three Stanley Cups with New Jersey. His record surpassed previous record-holder Patrick Roy, who had 551 wins.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Martin_Brodeur",
+    "citationTitle": "Wikipedia: Martin Brodeur"
+  },
+  {
+    "id": "efe9a429-da83-488b-958b-ea3ef2199e2a",
+    "text": "In what year did the NHL first expand beyond the 'Original Six' teams?",
+    "options": [
+      "1965",
+      "1967",
+      "1969",
+      "1972"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "medium",
+    "explanation": "The NHL doubled from 6 to 12 teams in 1967, adding six expansion franchises.",
+    "detailedExplanation": "The NHL's first major expansion occurred in 1967 when the league doubled in size from the Original Six teams to 12 teams. The six new franchises were the Los Angeles Kings, Minnesota North Stars, Oakland Seals, Philadelphia Flyers, Pittsburgh Penguins, and St. Louis Blues. This expansion marked the end of the Original Six era that had lasted from 1942 to 1967.",
+    "citationUrl": "https://en.wikipedia.org/wiki/1967_NHL_expansion",
+    "citationTitle": "Wikipedia: 1967 NHL expansion"
+  },
+  {
+    "id": "61293277-5797-4849-b00f-d71837a37787",
+    "text": "What is the standard duration of a minor penalty in the NHL?",
+    "options": [
+      "1 minute",
+      "2 minutes",
+      "4 minutes",
+      "5 minutes"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "medium",
+    "explanation": "Minor penalties result in 2 minutes in the penalty box for the offending player.",
+    "detailedExplanation": "In the NHL, minor penalties such as tripping, slashing, interference, or high-sticking result in a two-minute penalty. During this time, the penalized player must serve time in the penalty box, leaving their team short-handed. The penalty ends either when the two minutes expire or when the opposing team scores a power-play goal.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Penalty_(ice_hockey)",
+    "citationTitle": "Wikipedia: Penalty (ice hockey)"
+  },
+  {
+    "id": "74b06c42-a7ca-4a56-97f2-1a05758304a8",
+    "text": "Which NHL team was the first American franchise to win the Stanley Cup?",
+    "options": [
+      "Boston Bruins",
+      "New York Rangers",
+      "Seattle Metropolitans",
+      "Chicago Blackhawks"
+    ],
+    "correctIndex": 2,
+    "category": "sports",
+    "difficulty": "medium",
+    "explanation": "The Seattle Metropolitans won the Stanley Cup in 1917, becoming the first U.S. team to do so.",
+    "detailedExplanation": "The Seattle Metropolitans made history in 1917 by becoming the first American team to win the Stanley Cup, defeating the Montreal Canadiens. The Metropolitans played in the Pacific Coast Hockey Association (PCHA) before the NHL was established. They existed from 1915 to 1924 and were based in Seattle, Washington, representing a significant milestone in North American professional hockey.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Seattle_Metropolitans",
+    "citationTitle": "Wikipedia: Seattle Metropolitans"
+  },
+  {
+    "id": "9c1873fa-bba4-4fb9-9b85-1db9495713a5",
+    "text": "What does the term 'hat trick' mean in hockey?",
+    "options": [
+      "Three assists in one game",
+      "Three goals by one player in one game",
+      "Three penalties in one period",
+      "Three saves in a row"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "medium",
+    "explanation": "A hat trick occurs when one player scores three goals in a single game.",
+    "detailedExplanation": "In hockey, a hat trick refers to one player scoring three goals in a single game. The tradition of throwing hats onto the ice to celebrate a hat trick began in the 1950s and has become one of hockey's most recognizable celebrations. There are variations like the 'natural hat trick' (three consecutive goals by the same player) and the 'Gordie Howe hat trick' (a goal, an assist, and a fight in the same game).",
+    "citationUrl": "https://en.wikipedia.org/wiki/Hat-trick",
+    "citationTitle": "Wikipedia: Hat-trick"
+  },
+  {
+    "id": "7a90a121-8c95-4e05-950a-02aef725aab2",
+    "text": "How many periods are there in a standard NHL regular season game?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "medium",
+    "explanation": "NHL games consist of three 20-minute periods of regulation play.",
+    "detailedExplanation": "A standard NHL regular season game consists of three periods, each lasting 20 minutes of playing time. Between each period, there is an intermission that typically lasts 15-20 minutes. If the game is tied after regulation, it goes to a 3-on-3 overtime period followed by a shootout if necessary. During the playoffs, overtime periods continue until someone scores.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Ice_hockey_rules",
+    "citationTitle": "Wikipedia: Ice hockey rules"
+  },
+  {
+    "id": "b9b5d51b-72f1-4bdd-bbe4-89c0f1c42603",
+    "text": "Which NHL player holds the record for most career points (goals + assists)?",
+    "options": [
+      "Gordie Howe",
+      "Wayne Gretzky",
+      "Mario Lemieux",
+      "Mark Messier"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "medium",
+    "explanation": "Wayne Gretzky holds the NHL record with 2,857 career points.",
+    "detailedExplanation": "Wayne Gretzky, known as 'The Great One,' accumulated 2,857 points during his NHL career (894 goals and 1,963 assists). His point total is so far ahead of second place that he could have never scored a single goal and still hold the all-time points record based on assists alone. This record is considered one of the most unbreakable in professional sports.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Wayne_Gretzky",
+    "citationTitle": "Wikipedia: Wayne Gretzky"
+  },
+  {
+    "id": "5d6380d2-2c33-459b-973b-0021d061f85f",
+    "text": "What is the name of the trophy awarded annually to the NHL's top rookie?",
+    "options": [
+      "James Norris Memorial Trophy",
+      "Calder Memorial Trophy",
+      "Lady Byng Memorial Trophy",
+      "Frank J. Selke Trophy"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "medium",
+    "explanation": "The Calder Memorial Trophy is awarded to the NHL's Rookie of the Year.",
+    "detailedExplanation": "The Calder Memorial Trophy has been awarded annually since 1937 to the player selected as the most proficient in his first year of competition in the National Hockey League. It is named after Frank Calder, the NHL's first president. To be eligible, a player cannot have played more than 25 games in any single preceding season nor in six or more games in each of any two preceding seasons in any major professional league.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Calder_Memorial_Trophy",
+    "citationTitle": "Wikipedia: Calder Memorial Trophy"
+  },
+  {
+    "id": "039bd9cb-a2c0-4e0d-84dc-65ff63a957a0",
+    "text": "Which NHL team has retired the most jersey numbers?",
+    "options": [
+      "Montreal Canadiens",
+      "Boston Bruins",
+      "Detroit Red Wings",
+      "Toronto Maple Leafs"
+    ],
+    "correctIndex": 0,
+    "category": "sports",
+    "difficulty": "medium",
+    "explanation": "The Montreal Canadiens have retired 15 jersey numbers, the most in NHL history.",
+    "detailedExplanation": "The Montreal Canadiens, with their rich history dating back to 1909, have retired 15 jersey numbers to honor their greatest players. This includes legendary numbers like Maurice Richard's #9, Jean Beliveau's #4, and Guy Lafleur's #10. The team's tradition of retiring numbers reflects their status as the most successful franchise in NHL history with 24 Stanley Cup championships.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Montreal_Canadiens",
+    "citationTitle": "Wikipedia: Montreal Canadiens"
+  },
+  {
+    "id": "22cbdd6e-97d0-48d7-b362-997a67899514",
+    "text": "What is the minimum age for a player to be eligible for the NHL Entry Draft?",
+    "options": [
+      "17 years old",
+      "18 years old",
+      "19 years old",
+      "20 years old"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "medium",
+    "explanation": "Players must be 18 years old by September 15th of the draft year to be eligible.",
+    "detailedExplanation": "The NHL Entry Draft eligibility rules state that all male players who will be 18 years old on or before September 15 and not older than 19 years old before December 31 of the draft year are eligible for selection. Players who are 19 years old or will be 19 before December 31 of the draft year and were not previously drafted are also eligible. This system ensures players have sufficient physical and mental development before entering professional hockey.",
+    "citationUrl": "https://en.wikipedia.org/wiki/NHL_Entry_Draft",
+    "citationTitle": "Wikipedia: NHL Entry Draft"
+  },
+  {
+    "id": "956d1645-1fe8-4ce7-b161-5143be9a3176",
+    "text": "Which NHL arena is known as 'The Garden' and is the oldest arena currently in use?",
+    "options": [
+      "TD Garden",
+      "Madison Square Garden",
+      "Scotiabank Arena",
+      "United Center"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "medium",
+    "explanation": "Madison Square Garden, home of the New York Rangers, opened in 1968 and is the oldest NHL arena.",
+    "detailedExplanation": "Madison Square Garden in New York City, home to the New York Rangers, opened on February 11, 1968, making it the oldest arena currently used by an NHL team. Often simply called 'The Garden,' it has a capacity of 18,006 for hockey and is located in Midtown Manhattan. The venue is also famous for hosting the New York Knicks and countless legendary concerts and events throughout its history.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Madison_Square_Garden",
+    "citationTitle": "Wikipedia: Madison Square Garden"
+  },
+  {
+    "id": "52fef662-3e50-4be7-9fff-dd8f761b4d3e",
+    "text": "What is the term for when a team pulls their goaltender for an extra attacker?",
+    "options": [
+      "Power play",
+      "Empty net",
+      "Line change",
+      "Penalty kill"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "medium",
+    "explanation": "When a goaltender is pulled for an extra attacker, it creates an 'empty net' situation.",
+    "detailedExplanation": "An empty net situation occurs when a team removes their goaltender from the ice, typically in the final minutes of a game when trailing by one or two goals. This creates a 6-on-5 advantage (or 6-on-4 during a power play) to increase offensive pressure. However, it also leaves the net undefended, making it easier for the opposing team to score an 'empty net goal' if they gain possession of the puck.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Empty_net_goal",
+    "citationTitle": "Wikipedia: Empty net goal"
+  },
+  {
+    "id": "95cf2cfe-155d-4ff2-8065-f1ac2be57ec4",
+    "text": "Which city has hosted the NHL Winter Classic outdoor game the most times?",
+    "options": [
+      "Boston",
+      "Chicago",
+      "New York",
+      "Philadelphia"
+    ],
+    "correctIndex": 0,
+    "category": "sports",
+    "difficulty": "medium",
+    "explanation": "Boston has hosted the Winter Classic three times (2010, 2016, 2023).",
+    "detailedExplanation": "Boston holds the record for hosting the most NHL Winter Classic games, with three events held at Fenway Park in 2010 and 2023, and at Gillette Stadium in nearby Foxborough in 2016. The Winter Classic is an annual outdoor regular season NHL game held on or around New Year's Day. Boston's multiple hosting opportunities reflect the city's strong hockey tradition and the success of previous outdoor games in the region.",
+    "citationUrl": "https://en.wikipedia.org/wiki/NHL_Winter_Classic",
+    "citationTitle": "Wikipedia: NHL Winter Classic"
+  },
+  {
+    "id": "541db966-3658-4eb4-bdb3-ad6018a9102b",
+    "text": "What does 'LTIR' stand for in NHL salary cap management?",
+    "options": [
+      "Long Term Injured Reserve",
+      "Limited Time Insurance Relief",
+      "League Trade Information Registry",
+      "Last Transaction Information Record"
+    ],
+    "correctIndex": 0,
+    "category": "sports",
+    "difficulty": "medium",
+    "explanation": "LTIR stands for Long Term Injured Reserve, used when players are injured for extended periods.",
+    "detailedExplanation": "Long Term Injured Reserve (LTIR) is a designation in the NHL that allows teams to exceed the salary cap when a player is expected to miss at least 10 games and 24 days due to injury or illness. When a player is placed on LTIR, their salary can be replaced by other players' salaries up to that amount, providing teams with salary cap relief while dealing with significant injuries to key players.",
+    "citationUrl": "https://en.wikipedia.org/wiki/NHL_salary_cap",
+    "citationTitle": "Wikipedia: NHL salary cap"
+  },
+  {
+    "id": "d2fcd1b7-c2d8-4392-a587-9cf39cca65e8",
+    "text": "Which NHL team was originally known as the Quebec Nordiques before relocating in 1995?",
+    "options": [
+      "Colorado Avalanche",
+      "Carolina Hurricanes",
+      "Phoenix Coyotes",
+      "Tampa Bay Lightning"
+    ],
+    "correctIndex": 0,
+    "category": "sports",
+    "difficulty": "medium",
+    "explanation": "The Quebec Nordiques relocated to Denver and became the Colorado Avalanche in 1995.",
+    "detailedExplanation": "The Quebec Nordiques were a professional ice hockey team based in Quebec City from 1972 to 1995. Due to financial difficulties and the small market size, the team was sold and relocated to Denver, Colorado, where they became the Colorado Avalanche. Ironically, the Avalanche won the Stanley Cup in their first season after the move in 1996, something the Nordiques had never achieved despite having talented rosters in their final years.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Quebec_Nordiques",
+    "citationTitle": "Wikipedia: Quebec Nordiques"
+  },
+  {
+    "id": "3d140b5f-8acc-4ad2-ad95-f21cd7813cac",
+    "text": "What is the name of the line that divides the ice surface in half and is used for offside calls?",
+    "options": [
+      "Goal line",
+      "Blue line",
+      "Red line",
+      "Face-off line"
+    ],
+    "correctIndex": 2,
+    "category": "sports",
+    "difficulty": "medium",
+    "explanation": "The red line (center line) divides the ice in half and was historically important for two-line pass violations.",
+    "detailedExplanation": "The red line, also known as the center line, runs across the width of the ice surface at the halfway point between the two goals. While it divides the rink in half, it's most notable for its role in the now-abolished two-line pass rule, which prohibited passes that crossed both the center line and a blue line. This rule was eliminated in 2005 to increase offensive play. The red line is also where center ice face-offs occur at the start of periods and after goals.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Ice_hockey_rink",
+    "citationTitle": "Wikipedia: Ice hockey rink"
+  },
+  {
+    "id": "ffe22cfd-05b1-4e97-a5f8-ca390db7c809",
+    "text": "Which NHL player is known as 'Mr. Hockey' and played professional hockey into his 50s?",
+    "options": [
+      "Maurice Richard",
+      "Gordie Howe",
+      "Bobby Hull",
+      "Jean Beliveau"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "medium",
+    "explanation": "Gordie Howe earned the nickname 'Mr. Hockey' and played professionally until age 52.",
+    "detailedExplanation": "Gordie Howe, nicknamed 'Mr. Hockey,' is considered one of the greatest players in NHL history. He played 26 seasons in the NHL, primarily with the Detroit Red Wings, and was known for his incredible longevity and toughness. Howe retired from the NHL in 1971 but came out of retirement in 1973 to play with his sons Mark and Marty for the Houston Aeros in the WHA. He eventually returned to the NHL with the Hartford Whalers, playing his final season at age 52 in 1979-80. His combination of scoring ability and physical play made him a legendary figure in hockey.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Gordie_Howe",
+    "citationTitle": "Wikipedia: Gordie Howe"
+  },
+  {
+    "id": "91cf37c7-5551-4e60-93d4-953a0f74e36c",
+    "text": "What does the acronym 'PPG' stand for in NHL statistics?",
+    "options": [
+      "Power Play Goals",
+      "Points Per Game",
+      "Penalty Per Game",
+      "Plus/Plus Goals"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "medium",
+    "explanation": "PPG stands for Points Per Game, which measures a player's scoring rate over their career or season.",
+    "detailedExplanation": "Points Per Game (PPG) is a crucial NHL statistic that measures a player's offensive production efficiency by dividing their total points (goals plus assists) by the number of games played. This metric allows for fair comparison between players who have played different numbers of games or across different eras. For example, a player with 60 points in 60 games has a PPG of 1.00, which is considered excellent production. Elite players often maintain PPG rates above 1.00 over their careers, with legends like Wayne Gretzky holding the all-time record at 2.857 PPG.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Point_(ice_hockey)",
+    "citationTitle": "Wikipedia: Point (ice hockey)"
+  }
+]

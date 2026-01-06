@@ -1,0 +1,342 @@
+[
+  {
+    "id": "ac588f13-68c5-4791-b2aa-2b91ee3c8728",
+    "text": "What is the term for a government system where power is divided between a central authority and constituent political units?",
+    "options": [
+      "Federalism",
+      "Unitarism",
+      "Confederalism",
+      "Separatism"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Federalism is a system where power is constitutionally divided between central and regional governments.",
+    "detailedExplanation": "Federalism is a form of government in which power is divided between a central authority and constituent political units, such as states or provinces. In federal systems like the United States, Canada, and Germany, both levels of government have sovereignty in some areas and share power in others. This differs from unitary systems where power flows from the center, and confederations where regional units retain most authority.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Federalism",
+    "citationTitle": "Wikipedia: Federalism"
+  },
+  {
+    "id": "06a0723d-6165-4324-b762-be1231415eed",
+    "text": "In the Westminster parliamentary system, what is the role of the 'Shadow Cabinet'?",
+    "options": [
+      "Secret government advisors",
+      "Opposition party's alternative cabinet",
+      "Security council members",
+      "Judicial oversight committee"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "The Shadow Cabinet consists of opposition MPs who scrutinize and offer alternatives to the governing party's policies.",
+    "detailedExplanation": "In Westminster systems like those in the UK, Canada, and Australia, the Shadow Cabinet is formed by the main opposition party. Each shadow minister corresponds to a government minister and is responsible for critiquing government policy in their area, developing alternative policies, and preparing to potentially govern. This system ensures continuous parliamentary oversight and provides voters with clear policy alternatives.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Shadow_Cabinet",
+    "citationTitle": "Wikipedia: Shadow Cabinet"
+  },
+  {
+    "id": "eaf6c52b-486d-4e8b-9d00-2fa6c3c2d2e6",
+    "text": "Which country is famous for having a 'grand coalition' system where major opposing parties often govern together?",
+    "options": [
+      "France",
+      "Switzerland",
+      "Netherlands",
+      "Austria"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Switzerland's Federal Council traditionally includes representatives from multiple major parties in a grand coalition arrangement.",
+    "detailedExplanation": "Switzerland operates under a unique consensus-based system where the Federal Council (executive branch) is composed of seven members representing different major political parties, regardless of electoral outcomes. This 'magic formula' has traditionally allocated seats to the four largest parties, creating a permanent grand coalition that emphasizes compromise and stability over adversarial politics typical in other democracies.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Politics_of_Switzerland",
+    "citationTitle": "Wikipedia: Politics of Switzerland"
+  },
+  {
+    "id": "b25a22cf-5d8a-4bcb-a46c-19e05ede39ae",
+    "text": "What distinguishes a 'semi-presidential system' from pure presidential or parliamentary systems?",
+    "options": [
+      "President serves half-terms",
+      "Two presidents share power",
+      "Both president and prime minister exist",
+      "Parliament meets twice yearly"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Semi-presidential systems feature both a directly elected president and a prime minister responsible to parliament.",
+    "detailedExplanation": "A semi-presidential system combines elements of presidential and parliamentary systems by having both a president (usually directly elected) and a prime minister who leads the government. The president typically handles foreign policy and defense, while the prime minister manages domestic policy and must maintain parliamentary confidence. France is the most famous example, with countries like Russia, Ukraine, and several African nations also using variations of this system.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Semi-presidential_system",
+    "citationTitle": "Wikipedia: Semi-presidential system"
+  },
+  {
+    "id": "8cc96b7b-fd01-4ecc-9d8d-b4bed2e1b675",
+    "text": "In bicameral legislatures, what is typically the main difference between the upper and lower houses?",
+    "options": [
+      "Upper house has more members",
+      "Lower house represents population, upper represents regions/states",
+      "Upper house handles foreign policy only",
+      "Lower house members serve longer terms"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "The lower house typically represents population proportionally, while the upper house represents territorial units or regions.",
+    "detailedExplanation": "In most bicameral systems, the lower house (like the House of Representatives or House of Commons) represents citizens based on population, with districts of roughly equal size. The upper house (like the Senate or House of Lords) typically represents territorial units, states, or regions, often giving smaller areas equal or disproportionate representation. This structure balances democratic representation with territorial/federal interests, though the specific powers and selection methods vary significantly between countries.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Bicameralism",
+    "citationTitle": "Wikipedia: Bicameralism"
+  },
+  {
+    "id": "e1a209db-42c7-426a-b691-c5469fd436fe",
+    "text": "What is the primary purpose of 'judicial review' in democratic government systems?",
+    "options": [
+      "Courts reviewing judge performance",
+      "Legislature examining court decisions",
+      "Courts checking constitutionality of laws",
+      "Executive appointing new judges"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Judicial review allows courts to examine whether laws and government actions comply with the constitution.",
+    "detailedExplanation": "Judicial review is the power of courts to examine the constitutionality of legislative acts, executive actions, and lower court decisions. This mechanism serves as a crucial check on legislative and executive power, ensuring that government actions comply with constitutional principles and protecting individual rights. While strongly established in countries like the United States, the extent and nature of judicial review varies significantly across different legal systems and constitutions worldwide.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Judicial_review",
+    "citationTitle": "Wikipedia: Judicial review"
+  },
+  {
+    "id": "a0b7115e-9144-4e92-b8e4-d56cbba06318",
+    "text": "Which voting system is designed to ensure that winning candidates receive an absolute majority of votes?",
+    "options": [
+      "First-past-the-post",
+      "Two-round system",
+      "Proportional representation",
+      "Single transferable vote"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "The two-round system requires a runoff between top candidates if no one wins over 50% in the first round.",
+    "detailedExplanation": "The two-round system (also called runoff voting) ensures that elected officials have majority support by holding a second round of voting between the top two candidates if no candidate receives an absolute majority (over 50%) in the first round. This system is used in French presidential elections and many other countries. It differs from first-past-the-post where plurality wins, and from systems like STV which achieve similar goals through preference transfers rather than separate elections.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Two-round_system",
+    "citationTitle": "Wikipedia: Two-round system"
+  },
+  {
+    "id": "200bf0eb-c6d1-48b8-ba35-dc2d894903c8",
+    "text": "What is a 'coalition government' and when does it typically occur?",
+    "options": [
+      "Military and civilian leaders sharing power",
+      "Multiple parties governing together when none has a majority",
+      "Temporary government during elections",
+      "Regional governments joining together"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Coalition governments form when no single party wins enough seats to govern alone, requiring parties to cooperate.",
+    "detailedExplanation": "A coalition government occurs when two or more political parties join together to form a government, typically because no single party has won enough legislative seats to govern with a stable majority. Parties negotiate coalition agreements outlining shared policies and ministerial positions. This is common in proportional representation systems like those in Germany, Netherlands, and Israel, where multiple parties often win significant but insufficient vote shares to govern alone.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Coalition_government",
+    "citationTitle": "Wikipedia: Coalition government"
+  },
+  {
+    "id": "7753847b-df59-406e-91d2-8dff1c03531f",
+    "text": "What is the term for a government system where religious leaders hold political power and religious law is the basis of governance?",
+    "options": [
+      "Oligarchy",
+      "Theocracy",
+      "Autocracy",
+      "Plutocracy"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "A theocracy is a government system ruled by religious leaders based on religious law.",
+    "detailedExplanation": "A theocracy is a form of government in which a deity is recognized as the supreme civil ruler, and religious leaders or clergy hold political power. In theocratic systems, government policies are typically based on religious law and doctrine. Historical and contemporary examples include ancient Egypt under pharaohs, Tibet under the Dalai Lama, and modern Iran with its Supreme Leader system.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Theocracy",
+    "citationTitle": "Wikipedia: Theocracy"
+  },
+  {
+    "id": "b3f8b86c-f968-4313-ae66-9f498b98107c",
+    "text": "In which type of government structure does a single ruler hold absolute power, typically inherited through family lineage?",
+    "options": [
+      "Republic",
+      "Constitutional monarchy",
+      "Absolute monarchy",
+      "Parliamentary democracy"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "An absolute monarchy is ruled by a single monarch with unlimited power, usually inherited.",
+    "detailedExplanation": "An absolute monarchy is a form of government where a single ruler, typically a king, queen, or emperor, holds supreme authority over the state with no constitutional limitations on their power. The position is usually hereditary, passed down through royal bloodlines. Unlike constitutional monarchies where the monarch's power is limited by law, absolute monarchs have complete control over the executive, legislative, and judicial branches of government. Historical examples include Louis XIV of France and modern examples like Saudi Arabia.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Absolute_monarchy",
+    "citationTitle": "Wikipedia: Absolute monarchy"
+  },
+  {
+    "id": "c6f7d53c-3d73-4fd4-b09c-6d36498fe78c",
+    "text": "What is the name of the principle where each branch of government has the ability to limit the powers of the other branches?",
+    "options": [
+      "Separation of powers",
+      "Checks and balances",
+      "Judicial supremacy",
+      "Executive privilege"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Checks and balances is the system where each branch can limit the others' power.",
+    "detailedExplanation": "Checks and balances is a fundamental principle in democratic government structures, particularly prominent in the United States system, where each branch of government (executive, legislative, and judicial) has specific powers that can limit and control the actions of the other branches. This system prevents any single branch from becoming too powerful and ensures accountability. Examples include the president's veto power over legislation, Congress's ability to impeach officials, and the courts' power of judicial review.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Separation_of_powers",
+    "citationTitle": "Wikipedia: Separation of powers"
+  },
+  {
+    "id": "1b2afe70-0e16-4be0-ad11-ff245265ec92",
+    "text": "Which term describes a government system where power is concentrated in the hands of a small group of wealthy individuals or corporations?",
+    "options": [
+      "Meritocracy",
+      "Technocracy",
+      "Plutocracy",
+      "Gerontocracy"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "A plutocracy is a government controlled by the wealthy or rich elite.",
+    "detailedExplanation": "A plutocracy is a form of government where political power is concentrated among wealthy individuals or families, either directly through holding office or indirectly through their economic influence over political processes. The term comes from the Greek words 'ploutos' (wealth) and 'kratos' (power or rule). In plutocratic systems, economic power translates into political influence, often through campaign contributions, lobbying, or direct control of media and other institutions that shape public opinion and policy.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Plutocracy",
+    "citationTitle": "Wikipedia: Plutocracy"
+  },
+  {
+    "id": "baf4cec3-ea09-4eaa-ba34-5945da7aac53",
+    "text": "What is a 'vote of no confidence' in parliamentary systems?",
+    "options": [
+      "A referendum to change the constitution",
+      "A procedure to remove individual MPs from office",
+      "A mechanism to dissolve parliament and call new elections",
+      "A formal statement that parliament no longer supports the government"
+    ],
+    "correctIndex": 3,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "A vote of no confidence expresses parliament's lack of support for the current government.",
+    "detailedExplanation": "A vote of no confidence is a parliamentary procedure used in Westminster-style democracies where the legislature formally declares that it no longer has confidence in the government's ability to govern effectively. If such a vote passes, the government typically must resign, leading either to the formation of a new government or to new elections. This mechanism is a crucial check on executive power in parliamentary systems, allowing the legislature to hold the government accountable and remove it from power without waiting for scheduled elections.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Motion_of_no_confidence",
+    "citationTitle": "Wikipedia: Motion of no confidence"
+  },
+  {
+    "id": "a3a0fa9a-fad3-4331-b7e0-8539fd0c3905",
+    "text": "In a unitary state, how is governmental power distributed?",
+    "options": [
+      "Power is shared equally between national and regional governments",
+      "All power emanates from and remains with the central government",
+      "Regional governments have sovereignty over specific policy areas",
+      "Power is distributed through a written constitution"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "In a unitary state, the central government holds supreme authority and delegates limited power to lower levels.",
+    "detailedExplanation": "A unitary state is a sovereign state governed as a single entity where the central government is supreme and any administrative divisions exercise only the powers that the central government chooses to delegate. Unlike federal systems where power is constitutionally divided between levels of government, in unitary states all political power flows from the national government. Local and regional authorities exist at the pleasure of the central government and can have their powers altered or revoked. Examples include the United Kingdom, France, and Japan.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Unitary_state",
+    "citationTitle": "Wikipedia: Unitary state"
+  },
+  {
+    "id": "dcd6fe6e-c583-425e-afed-f1c0e76e02ee",
+    "text": "What distinguishes a 'presidential republic' from other forms of republic?",
+    "options": [
+      "The president is elected by parliament",
+      "The president serves as both head of state and head of government",
+      "The president has no executive powers",
+      "The president serves for life"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "In a presidential republic, the president serves as both ceremonial head of state and chief executive.",
+    "detailedExplanation": "A presidential republic is a form of government where the president serves as both head of state and head of government, combining ceremonial duties with executive authority. The president is typically elected directly by the people or through an electoral system, rather than being chosen by the legislature. This system features a strong separation of powers between the executive and legislative branches, with the president having significant independent authority. The United States is the classic example of a presidential republic, contrasting with parliamentary republics where executive power is vested in a prime minister chosen by the legislature.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Presidential_system",
+    "citationTitle": "Wikipedia: Presidential system"
+  },
+  {
+    "id": "0d95abd4-efbf-42fa-a893-be6397b18e3b",
+    "text": "What is the primary function of a 'bicameral legislature'?",
+    "options": [
+      "To ensure laws are debated and reviewed by two separate chambers",
+      "To separate criminal and civil law-making",
+      "To divide responsibilities between domestic and foreign policy",
+      "To represent different political parties equally"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "A bicameral legislature has two chambers that both participate in the law-making process.",
+    "detailedExplanation": "A bicameral legislature consists of two separate chambers or houses that participate in the law-making process. This structure is designed to provide a system of internal checks and balances within the legislative branch, ensuring that proposed laws receive thorough scrutiny and debate from different perspectives. The two chambers often have different compositions, terms of office, or methods of election, which can lead to more deliberative and representative law-making. Examples include the U.S. Congress (House and Senate), the UK Parliament (Commons and Lords), and the German Bundestag and Bundesrat.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Bicameralism",
+    "citationTitle": "Wikipedia: Bicameralism"
+  },
+  {
+    "id": "24b11720-7405-49f1-b45e-8264cdf000fe",
+    "text": "What is the term for a government official who is appointed to represent a monarch or president in a dependent territory or former colony?",
+    "options": [
+      "Ambassador",
+      "Governor-General",
+      "Consul",
+      "High Commissioner"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "A Governor-General is appointed to represent the head of state in territories or Commonwealth realms.",
+    "detailedExplanation": "A Governor-General is a representative of a monarch or president who exercises executive power in a dependent territory, dominion, or Commonwealth realm. This position is common in countries like Australia, Canada, and New Zealand, where the Governor-General represents the British monarch as head of state. They typically perform ceremonial duties and constitutional functions, including giving royal assent to legislation and appointing prime ministers.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Governor-general",
+    "citationTitle": "Wikipedia: Governor-general"
+  },
+  {
+    "id": "50fae926-0a58-4bd2-8725-738e88e0f44b",
+    "text": "Which type of electoral system allocates parliamentary seats based on the percentage of votes each party receives nationwide?",
+    "options": [
+      "First-past-the-post",
+      "Proportional representation",
+      "Electoral college",
+      "Single transferable vote"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Proportional representation systems allocate seats based on the proportion of votes each party receives.",
+    "detailedExplanation": "Proportional representation (PR) is an electoral system where parties gain seats in parliament in proportion to the number of votes cast for them. Unlike first-past-the-post systems where only the candidate with the most votes wins, PR ensures that minority parties can still gain representation if they receive sufficient votes. This system is used in many European countries and can result in more diverse parliaments but may also lead to coalition governments due to the difficulty of any single party achieving a majority.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Proportional_representation",
+    "citationTitle": "Wikipedia: Proportional representation"
+  },
+  {
+    "id": "297c6e9d-3474-4aaf-b981-359a66ed617a",
+    "text": "In the German Bundestag, what is the 'constructive vote of no confidence' designed to prevent?",
+    "options": [
+      "Government instability",
+      "Judicial interference",
+      "Presidential veto",
+      "Coalition breakdown"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "The constructive vote of no confidence requires parliament to elect a new chancellor when removing the current one, preventing governmental instability.",
+    "detailedExplanation": "Germany's constructive vote of no confidence is a unique parliamentary mechanism designed to prevent the governmental instability that plagued the Weimar Republic. Unlike traditional no-confidence votes that simply remove a government, the constructive version requires the Bundestag to simultaneously elect a new chancellor when voting to remove the current one. This ensures there is always a functioning government and prevents opposition parties from bringing down a government without having a viable alternative ready to govern.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Constructive_vote_of_no_confidence",
+    "citationTitle": "Wikipedia: Constructive vote of no confidence"
+  },
+  {
+    "id": "347d929e-deaf-4093-83a2-f8c1fc2e7277",
+    "text": "What is the minimum number of members typically required to be present in a legislative body for official business to be conducted?",
+    "options": [
+      "Plurality",
+      "Quorum",
+      "Caucus",
+      "Majority"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "A quorum is the minimum number of members required to be present for a legislative body to conduct official business.",
+    "detailedExplanation": "A quorum is the minimum number of members of a legislative or decision-making body that must be present for the proceedings to be valid and for official business to be conducted. The specific number varies by institution - for example, the U.S. House of Representatives requires a majority of members (218 out of 435) to constitute a quorum, while the U.S. Senate requires 51 senators. Without a quorum present, the body cannot vote on legislation, make decisions, or conduct formal business, ensuring that important decisions aren't made when most members are absent.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Quorum",
+    "citationTitle": "Wikipedia: Quorum"
+  }
+]

@@ -1,0 +1,342 @@
+[
+  {
+    "id": "777c7def-11e2-4e15-9354-dd045ad529e5",
+    "text": "Which art museum houses the world's largest collection of Van Gogh paintings, containing over 200 works by the Dutch master?",
+    "options": [
+      "Museum of Modern Art, New York",
+      "Van Gogh Museum, Amsterdam",
+      "Musée d'Orsay, Paris",
+      "National Gallery, London"
+    ],
+    "correctIndex": 1,
+    "category": "arts",
+    "difficulty": "hard",
+    "explanation": "The Van Gogh Museum in Amsterdam holds the world's largest collection of Van Gogh's works.",
+    "detailedExplanation": "The Van Gogh Museum in Amsterdam houses the world's most extensive collection of Vincent van Gogh's artworks, with over 200 paintings, 500 drawings, and 750 personal letters. The collection was initially based on the works inherited by Vincent's brother Theo and later acquired by the Vincent van Gogh Foundation. The museum opened in 1973 and displays the works chronologically, showing the development of Van Gogh's artistic style throughout his career.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Van_Gogh_Museum",
+    "citationTitle": "Wikipedia: Van Gogh Museum"
+  },
+  {
+    "id": "d912a671-31e0-4f7e-ba3a-3ce44b6ed98f",
+    "text": "The Frick Collection in New York was originally the private residence of which American industrialist who made his fortune in steel and coke?",
+    "options": [
+      "Andrew Carnegie",
+      "Henry Clay Frick",
+      "J.P. Morgan",
+      "John D. Rockefeller"
+    ],
+    "correctIndex": 1,
+    "category": "arts",
+    "difficulty": "hard",
+    "explanation": "Henry Clay Frick was the steel and coke magnate whose former mansion houses The Frick Collection.",
+    "detailedExplanation": "Henry Clay Frick (1849-1919) was an American industrialist who made his fortune in steel and coke production, working closely with Andrew Carnegie. His Fifth Avenue mansion, completed in 1914, was specifically designed to accommodate his extensive art collection. Upon his death, Frick bequeathed his home and collection to establish a public museum. The Frick Collection opened to the public in 1935 and is renowned for its intimate setting and exceptional collection of Old Master paintings, decorative arts, and sculpture.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Frick_Collection",
+    "citationTitle": "Wikipedia: Frick Collection"
+  },
+  {
+    "id": "08483dfa-c88e-46ff-942b-89f8659fc596",
+    "text": "Which museum's collection includes the controversial 'Elgin Marbles' that were removed from the Parthenon in Athens in the early 19th century?",
+    "options": [
+      "Louvre Museum",
+      "Metropolitan Museum of Art",
+      "British Museum",
+      "Pergamon Museum"
+    ],
+    "correctIndex": 2,
+    "category": "arts",
+    "difficulty": "hard",
+    "explanation": "The British Museum houses the Elgin Marbles, classical Greek sculptures from the Parthenon.",
+    "detailedExplanation": "The Elgin Marbles, also known as the Parthenon Marbles, are a collection of classical Greek marble sculptures that were removed from the Parthenon and other structures on the Acropolis of Athens by Thomas Bruce, 7th Earl of Elgin, between 1801 and 1812. The British Museum acquired them in 1816, and they remain one of the museum's most significant and controversial collections. Greece has repeatedly requested their return, arguing they were taken illegally during Ottoman occupation, while the British Museum maintains they were legally acquired and are better preserved in London.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Elgin_Marbles",
+    "citationTitle": "Wikipedia: Elgin Marbles"
+  },
+  {
+    "id": "25f80f6c-4d49-401d-8a95-e1d848aca3b4",
+    "text": "The Hermitage Museum in St. Petersburg claims to have the world's largest collection of paintings. Approximately how many paintings does it house?",
+    "options": [
+      "Over 12,000",
+      "Over 17,000",
+      "Over 25,000",
+      "Over 35,000"
+    ],
+    "correctIndex": 1,
+    "category": "arts",
+    "difficulty": "hard",
+    "explanation": "The Hermitage Museum houses over 17,000 paintings in its vast collection.",
+    "detailedExplanation": "The State Hermitage Museum in St. Petersburg, Russia, is one of the largest and oldest museums in the world, founded in 1764 by Catherine the Great. The museum's collection contains over 17,000 paintings, making it one of the largest painting collections globally. The entire collection spans over 3 million items, including paintings, sculptures, decorative arts, and archaeological artifacts. The museum complex consists of six historic buildings along the Palace Embankment, with the Winter Palace being the most famous among them.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Hermitage_Museum",
+    "citationTitle": "Wikipedia: Hermitage Museum"
+  },
+  {
+    "id": "ac05b6a9-865c-4379-a06f-df9be6279cc1",
+    "text": "Which American museum houses the largest collection of Impressionist and Post-Impressionist paintings outside of France, including works by Monet, Renoir, and Cézanne?",
+    "options": [
+      "National Gallery of Art, Washington D.C.",
+      "Art Institute of Chicago",
+      "Metropolitan Museum of Art, New York",
+      "Museum of Fine Arts, Boston"
+    ],
+    "correctIndex": 1,
+    "category": "arts",
+    "difficulty": "hard",
+    "explanation": "The Art Institute of Chicago holds the largest collection of Impressionist and Post-Impressionist works outside France.",
+    "detailedExplanation": "The Art Institute of Chicago houses one of the world's finest collections of Impressionist and Post-Impressionist paintings, with the largest collection outside of France. The museum's strength in this area is largely due to the vision of early curators and generous donors, particularly Bertha Honoré Palmer and Martin Ryerson. The collection includes iconic works such as Seurat's 'A Sunday on La Grande Jatte,' multiple water lily paintings by Monet, and significant works by Renoir, Degas, Cézanne, and Toulouse-Lautrec. Many of these acquisitions were made in the early 20th century when such works were more readily available.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Art_Institute_of_Chicago",
+    "citationTitle": "Wikipedia: Art Institute of Chicago"
+  },
+  {
+    "id": "da355249-88b8-4e5b-8841-adec59324656",
+    "text": "The Uffizi Gallery's collection was originally assembled by which powerful Italian family that ruled Florence during the Renaissance?",
+    "options": [
+      "The Sforza family",
+      "The Borgia family",
+      "The Medici family",
+      "The Este family"
+    ],
+    "correctIndex": 2,
+    "category": "arts",
+    "difficulty": "hard",
+    "explanation": "The Medici family assembled the original collection that became the Uffizi Gallery.",
+    "detailedExplanation": "The Uffizi Gallery in Florence houses one of the world's most important collections of Renaissance art, originally assembled by the powerful Medici family who ruled Florence for centuries. The collection began with Cosimo de' Medici in the 15th century and grew significantly under Lorenzo the Magnificent and subsequent generations. The last Medici heir, Anna Maria Luisa, bequeathed the entire collection to the city of Florence in 1743 with the stipulation that it never leave the city. The gallery opened to the public in 1769 and contains masterpieces by Botticelli, Leonardo da Vinci, Michelangelo, and Raphael.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Uffizi",
+    "citationTitle": "Wikipedia: Uffizi"
+  },
+  {
+    "id": "9be7f958-93ae-4df5-886e-bdc54d2b1dc6",
+    "text": "Which museum became the first in the world to be entirely dedicated to a single artist when it opened in 1973?",
+    "options": [
+      "Picasso Museum, Barcelona",
+      "Van Gogh Museum, Amsterdam",
+      "Rodin Museum, Paris",
+      "Dalí Theatre-Museum, Figueres"
+    ],
+    "correctIndex": 1,
+    "category": "arts",
+    "difficulty": "hard",
+    "explanation": "The Van Gogh Museum was the first museum entirely dedicated to a single artist when it opened in 1973.",
+    "detailedExplanation": "The Van Gogh Museum in Amsterdam, which opened on June 2, 1973, was the first museum in the world to be entirely dedicated to the work of a single artist. The museum was built specifically to house the collection of Vincent van Gogh's works that had been inherited by his family and managed by the Vincent van Gogh Foundation. The building was designed by Gerrit Rietveld and later expanded with an additional wing by Kisho Kurokawa in 1999. This pioneering concept of single-artist museums has since been replicated worldwide with institutions dedicated to artists like Picasso, Dalí, and others.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Van_Gogh_Museum",
+    "citationTitle": "Wikipedia: Van Gogh Museum"
+  },
+  {
+    "id": "ad831d0d-42eb-4c74-8311-fe0c4d337b24",
+    "text": "The Getty Center's collection policy famously focuses on acquiring artworks created before which specific year, due to concerns about cultural patrimony laws?",
+    "options": [
+      "1800",
+      "1850",
+      "1900",
+      "1970"
+    ],
+    "correctIndex": 3,
+    "category": "arts",
+    "difficulty": "hard",
+    "explanation": "The Getty Center generally acquires artworks created before 1970 to avoid cultural patrimony issues.",
+    "detailedExplanation": "The J. Paul Getty Museum has adopted a strict acquisition policy that generally limits purchases to artworks created before 1970, particularly for antiquities and cultural artifacts. This policy was implemented to address concerns about cultural patrimony laws and to avoid acquiring objects that may have been illegally excavated or exported from their countries of origin. The 1970 date coincides with the UNESCO Convention on cultural property protection. This policy has made the Getty a leader in ethical collecting practices, though it has also returned several disputed artifacts to Italy and Greece in recent years after investigations revealed problematic acquisition histories.",
+    "citationUrl": "https://en.wikipedia.org/wiki/J._Paul_Getty_Museum",
+    "citationTitle": "Wikipedia: J. Paul Getty Museum"
+  },
+  {
+    "id": "59dace2c-2201-492f-8751-c1eb1c2cc790",
+    "text": "The Prado Museum in Madrid houses one of the world's most important collections of which specific artist's works, including 'Las Meninas' and over 50 other paintings?",
+    "options": [
+      "Francisco Goya",
+      "Diego Velázquez",
+      "El Greco",
+      "Pablo Picasso"
+    ],
+    "correctIndex": 1,
+    "category": "arts",
+    "difficulty": "hard",
+    "explanation": "The Prado holds the world's largest collection of Velázquez works, including his masterpiece 'Las Meninas'.",
+    "detailedExplanation": "The Prado Museum in Madrid houses the world's most comprehensive collection of Diego Velázquez's works, with over 50 paintings by the Spanish Golden Age master. The collection includes his most famous work 'Las Meninas' (1656), considered one of the most analyzed works in Western art history. The Prado's Velázquez collection is unparalleled globally, as most of his works remained in Spanish royal collections and were incorporated into the museum when it opened in 1819.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Museo_del_Prado",
+    "citationTitle": "Wikipedia: Museo del Prado"
+  },
+  {
+    "id": "6d9f262f-a259-4f77-9f03-2c60bd71bfb1",
+    "text": "The Peggy Guggenheim Collection in Venice is housed in which historically significant building that the collector purchased in 1948?",
+    "options": [
+      "Doge's Palace",
+      "Ca' Rezzonico",
+      "Palazzo Venier dei Leoni",
+      "Palazzo Ducale"
+    ],
+    "correctIndex": 2,
+    "category": "arts",
+    "difficulty": "hard",
+    "explanation": "The collection is housed in Palazzo Venier dei Leoni, an 18th-century unfinished palace on the Grand Canal.",
+    "detailedExplanation": "The Peggy Guggenheim Collection is housed in the Palazzo Venier dei Leoni, an 18th-century palace on the Grand Canal in Venice. The palace is unique because it was never completed - construction stopped at the first floor, earning it the nickname 'il palazzo non finito' (the unfinished palace). Peggy Guggenheim purchased the building in 1948 and lived there until her death in 1979, displaying her exceptional collection of modern art including works by Picasso, Pollock, and Kandinsky throughout the palazzo's rooms and gardens.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Peggy_Guggenheim_Collection",
+    "citationTitle": "Wikipedia: Peggy Guggenheim Collection"
+  },
+  {
+    "id": "83398afb-6d59-4b2b-8e5e-5aa78eda5dee",
+    "text": "The Musée d'Orsay's collection was largely transferred from which other major Parisian museum when it opened in 1986?",
+    "options": [
+      "The Louvre",
+      "Centre Pompidou",
+      "Musée Rodin",
+      "Palais de Tokyo"
+    ],
+    "correctIndex": 0,
+    "category": "arts",
+    "difficulty": "hard",
+    "explanation": "Most Impressionist and Post-Impressionist works were transferred from the Louvre to create the Musée d'Orsay's core collection.",
+    "detailedExplanation": "When the Musée d'Orsay opened in 1986, its core collection was primarily assembled by transferring Impressionist and Post-Impressionist paintings from the Louvre, which had been displaying these works since the early 20th century. The decision to create a dedicated museum for 19th-century art (1848-1914) meant that masterpieces by Monet, Renoir, Degas, and other Impressionist masters were moved from the Louvre's galleries to the converted Beaux-Arts railway station. This transfer created one of the world's most visited museums and allowed the Louvre to focus on earlier periods.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Mus%C3%A9e_d%27Orsay",
+    "citationTitle": "Wikipedia: Musée d'Orsay"
+  },
+  {
+    "id": "83295977-6e29-49cf-b9b3-27ca793a9309",
+    "text": "The Barnes Foundation's collection was originally displayed according to which unique organizing principle established by its founder Albert Barnes?",
+    "options": [
+      "Chronological periods",
+      "Geographical regions",
+      "Aesthetic and educational 'ensembles'",
+      "Monetary value"
+    ],
+    "correctIndex": 2,
+    "category": "arts",
+    "difficulty": "hard",
+    "explanation": "Barnes arranged works in unique 'ensembles' mixing different periods and cultures for educational purposes rather than traditional chronological display.",
+    "detailedExplanation": "Albert Barnes developed a revolutionary display method for his collection, arranging artworks in what he called 'ensembles' - carefully composed wall arrangements that combined paintings, sculptures, and decorative arts from different periods and cultures. A typical Barnes ensemble might feature a Cézanne next to African sculptures and Pennsylvania German furniture, designed to highlight formal relationships, color harmonies, and compositional elements across cultures and time periods. This educational approach was mandated to continue even after the collection's controversial move from Merion to Philadelphia in 2012.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Barnes_Foundation",
+    "citationTitle": "Wikipedia: Barnes Foundation"
+  },
+  {
+    "id": "97360e1e-d391-4c37-9920-a1e9176cddf8",
+    "text": "The National Gallery of Art in Washington D.C. was founded with a core collection donated by which American financier and Treasury Secretary?",
+    "options": [
+      "J.P. Morgan",
+      "Andrew Mellon",
+      "John D. Rockefeller Jr.",
+      "Henry Clay Frick"
+    ],
+    "correctIndex": 1,
+    "category": "arts",
+    "difficulty": "hard",
+    "explanation": "Andrew Mellon donated his extensive art collection and funding to establish the National Gallery of Art, which opened in 1941.",
+    "detailedExplanation": "Andrew Mellon, who served as Treasury Secretary under three presidents, donated his remarkable art collection along with $15 million and a building design to create the National Gallery of Art. His collection included major works by European masters such as Raphael's 'Alba Madonna' and Vermeer's 'Girl with a Wine Glass.' Mellon had been secretly acquiring works throughout the 1920s and 1930s, including purchasing 21 masterpieces from the Soviet Union's Hermitage Museum. The gallery opened in 1941, two years after Mellon's death, fulfilling his vision of a great national art museum.",
+    "citationUrl": "https://en.wikipedia.org/wiki/National_Gallery_of_Art",
+    "citationTitle": "Wikipedia: National Gallery of Art"
+  },
+  {
+    "id": "54637d14-7e39-401f-85da-4619778ac139",
+    "text": "The Tate Modern's Turbine Hall, famous for hosting large-scale contemporary art installations, was originally part of which type of industrial facility?",
+    "options": [
+      "Steel foundry",
+      "Power station",
+      "Textile mill",
+      "Chemical plant"
+    ],
+    "correctIndex": 1,
+    "category": "arts",
+    "difficulty": "hard",
+    "explanation": "The Tate Modern is housed in the former Bankside Power Station, with the Turbine Hall being the original turbine hall of the power plant.",
+    "detailedExplanation": "The Tate Modern occupies the former Bankside Power Station, a massive brick building designed by Sir Giles Gilbert Scott and built in two phases (1947-1963) on the south bank of the Thames. The building's central Turbine Hall, which originally housed the power station's electricity-generating turbines, was converted into a dramatic 500-foot-long exhibition space with a soaring ceiling. Since the museum's opening in 2000, this industrial cathedral has hosted monumental installations by artists like Olafur Eliasson, Anselm Kiefer, and Ai Weiwei, making it one of the most distinctive exhibition spaces in the world.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Tate_Modern",
+    "citationTitle": "Wikipedia: Tate Modern"
+  },
+  {
+    "id": "fdd99e66-dea3-4515-8b5f-650f94e3c3fb",
+    "text": "The Alte Pinakothek in Munich houses one of the world's finest collections of paintings from which specific period?",
+    "options": [
+      "Italian Renaissance",
+      "Northern European Old Masters",
+      "French Impressionism",
+      "German Expressionism"
+    ],
+    "correctIndex": 1,
+    "category": "arts",
+    "difficulty": "hard",
+    "explanation": "The Alte Pinakothek specializes in Northern European Old Master paintings from the 14th to 18th centuries, including exceptional works by Dürer, Rubens, and Van Dyck.",
+    "detailedExplanation": "The Alte Pinakothek, opened in 1836, houses one of the world's most important collections of Northern European Old Master paintings spanning the 14th to 18th centuries. The collection is particularly renowned for its German Renaissance works, including the largest collection of Albrecht Dürer paintings, and an exceptional array of Flemish and Dutch masters such as Peter Paul Rubens, Anthony van Dyck, and Rembrandt. King Ludwig I of Bavaria systematically built this collection to rival the great European royal collections, focusing specifically on Northern European schools rather than Italian art.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Alte_Pinakothek",
+    "citationTitle": "Wikipedia: Alte Pinakothek"
+  },
+  {
+    "id": "194f38d7-7306-4866-b807-e0ec197ccc64",
+    "text": "The Rijksmuseum's famous collection includes 'The Night Watch' by Rembrandt, but the museum also holds the world's largest collection of works by which other Dutch Golden Age master?",
+    "options": [
+      "Johannes Vermeer",
+      "Jan Steen",
+      "Frans Hals",
+      "Jacob van Ruisdael"
+    ],
+    "correctIndex": 1,
+    "category": "arts",
+    "difficulty": "hard",
+    "explanation": "The Rijksmuseum holds the world's largest collection of Jan Steen paintings, with over 30 works by the Dutch genre painter.",
+    "detailedExplanation": "While the Rijksmuseum is famous for Rembrandt's 'The Night Watch' and has significant works by many Dutch Golden Age masters, it holds the world's most extensive collection of paintings by Jan Steen, with over 30 works by the prolific 17th-century genre painter. Steen was known for his lively, often humorous scenes of daily life, tavern scenes, and moral allegories. The Rijksmuseum's Steen collection spans his entire career and includes masterpieces like 'The Feast of Saint Nicholas' and 'The Merry Family,' providing the most comprehensive overview of this important Dutch artist's work available anywhere in the world.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Rijksmuseum",
+    "citationTitle": "Wikipedia: Rijksmuseum"
+  },
+  {
+    "id": "fa58f110-1d75-4e20-9f79-3b480464d203",
+    "text": "The Isabella Stewart Gardner Museum in Boston is famous for an unsolved art heist in 1990. How many artworks were stolen during this robbery, which remains the largest unsolved art theft in history?",
+    "options": [
+      "9 pieces",
+      "13 pieces",
+      "17 pieces",
+      "21 pieces"
+    ],
+    "correctIndex": 1,
+    "category": "arts",
+    "difficulty": "hard",
+    "explanation": "Thirteen artworks were stolen from the Gardner Museum in 1990, including works by Vermeer, Rembrandt, and Degas.",
+    "detailedExplanation": "On March 18, 1990, two men disguised as police officers entered the Isabella Stewart Gardner Museum and stole 13 artworks valued at over $500 million. The stolen pieces included Vermeer's 'The Concert,' three Rembrandts including 'The Storm on the Sea of Galilee,' five Degas drawings, and a Manet. Despite a $10 million reward and decades of investigation, the case remains unsolved and the artworks have never been recovered, making it the most infamous unsolved art theft in history.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Isabella_Stewart_Gardner_Museum_theft",
+    "citationTitle": "Wikipedia: Isabella Stewart Gardner Museum theft"
+  },
+  {
+    "id": "16906c5d-fbe5-4dbc-8288-13e88e7231a4",
+    "text": "The Museo del Prado's collection includes 'The Garden of Earthly Delights,' but this masterpiece is actually on permanent loan from which institution that technically owns it?",
+    "options": [
+      "The Vatican Museums",
+      "The Spanish Royal Collection",
+      "The Bosch Foundation",
+      "The Dutch National Museum"
+    ],
+    "correctIndex": 1,
+    "category": "arts",
+    "difficulty": "hard",
+    "explanation": "The Garden of Earthly Delights by Hieronymus Bosch is owned by the Spanish Royal Collection but displayed at the Prado.",
+    "detailedExplanation": "While Hieronymus Bosch's triptych 'The Garden of Earthly Delights' is one of the most famous works displayed at the Museo del Prado in Madrid, it is actually owned by the Spanish Royal Collection (Patrimonio Nacional) and is on permanent loan to the museum. The painting was acquired by Philip II of Spain in the 16th century and has been part of the Spanish royal holdings ever since. This arrangement allows the public to view the masterpiece while maintaining the historical royal ownership that dates back centuries.",
+    "citationUrl": "https://en.wikipedia.org/wiki/The_Garden_of_Earthly_Delights",
+    "citationTitle": "Wikipedia: The Garden of Earthly Delights"
+  },
+  {
+    "id": "aa3131d1-f0e2-490a-b252-94ce4b7beb3c",
+    "text": "The Neue Galerie in New York paid a record-breaking $135 million in 2006 for which Gustav Klimt painting, making it one of the most expensive artworks ever sold?",
+    "options": [
+      "Portrait of Adele Bloch-Bauer I",
+      "The Kiss",
+      "Portrait of Adele Bloch-Bauer II",
+      "Judith and the Head of Holofernes"
+    ],
+    "correctIndex": 0,
+    "category": "arts",
+    "difficulty": "hard",
+    "explanation": "Portrait of Adele Bloch-Bauer I was purchased by the Neue Galerie for $135 million in 2006.",
+    "detailedExplanation": "The Neue Galerie New York acquired Gustav Klimt's 'Portrait of Adele Bloch-Bauer I' (also known as the 'Golden Adele') in 2006 for $135 million, making it one of the most expensive paintings ever sold at that time. The painting was part of a group of Klimt works that were restituted to the heirs of Ferdinand Bloch-Bauer after a lengthy legal battle with the Austrian government, a case that inspired the 2015 film 'Woman in Gold.' The gold-leafed portrait, painted between 1903-1907, became the centerpiece of the Neue Galerie's collection of Austrian and German art from the early 20th century.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Portrait_of_Adele_Bloch-Bauer_I",
+    "citationTitle": "Wikipedia: Portrait of Adele Bloch-Bauer I"
+  },
+  {
+    "id": "87b2b6a8-1211-4f3b-a56e-a2275a385e1b",
+    "text": "The Musée Picasso in Paris houses over 5,000 works by the artist, but this collection was primarily formed through which unusual method of acquisition?",
+    "options": [
+      "Direct purchase by the French government",
+      "Donation from Picasso's estate in lieu of inheritance taxes",
+      "Private collector donations",
+      "War reparations from Spain"
+    ],
+    "correctIndex": 1,
+    "category": "arts",
+    "difficulty": "hard",
+    "explanation": "The collection was formed when Picasso's heirs donated artworks to the French state instead of paying inheritance taxes.",
+    "detailedExplanation": "The Musée Picasso in Paris owes its extensive collection to France's 'dation' system, which allows heirs to pay inheritance taxes with artworks instead of money. When Pablo Picasso died in 1973, his heirs donated a significant portion of his personal collection to the French state in lieu of paying the substantial inheritance taxes owed on his estate. This donation included paintings, sculptures, drawings, prints, and personal artifacts that Picasso had kept throughout his career. Additional works were later added through similar arrangements when other family members died, making it one of the world's most comprehensive collections of the artist's work across all periods of his career.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Musée_Picasso",
+    "citationTitle": "Wikipedia: Musée Picasso"
+  }
+]

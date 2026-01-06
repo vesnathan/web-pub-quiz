@@ -23,8 +23,10 @@
     "deploy:dev": "yarn workspace @quiz/deploy deploy:dev",
     "deploy:prod": "yarn workspace @quiz/deploy deploy:prod",
     "seed": "yarn workspace @quiz/deploy seed",
-    "generate-questions": "npx tsx backend/scripts/generate-bulk-questions.ts",
-    "question-status": "npx tsx backend/scripts/question-status.ts"
+    "generate-questions": "tsx backend/scripts/generate-bulk-questions.ts",
+    "question-status": "tsx backend/scripts/question-status.ts",
+    "upload-questions": "tsx backend/scripts/upload-questions.ts",
+    "test:delete-user": "tsx backend/scripts/delete-user.ts"
   },
   "devDependencies": {
     "@playwright/test": "^1.57.0",
@@ -35,6 +37,7 @@
     "@vitest/coverage-v8": "^4.0.16",
     "jsdom": "^27.4.0",
     "knip": "^5.78.0",
+    "tsx": "^4.20.6",
     "turbo": "^2.7.2",
     "typescript": "^5.5.4",
     "vitest": "^4.0.16"

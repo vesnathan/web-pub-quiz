@@ -1,0 +1,342 @@
+[
+  {
+    "id": "f036b789-b094-4a8e-83dd-fdf3a10adc4a",
+    "text": "Which fast food chain's mascot is a red-haired clown named Ronald?",
+    "options": [
+      "Burger King",
+      "McDonald's",
+      "Wendy's",
+      "KFC"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Ronald McDonald has been the primary mascot for McDonald's since 1963.",
+    "detailedExplanation": "Ronald McDonald was introduced as McDonald's mascot in 1963, becoming one of the most recognizable advertising characters worldwide. The character was created by Willard Scott and has undergone several design changes over the decades, but has remained McDonald's primary brand ambassador for over 60 years.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Ronald_McDonald",
+    "citationTitle": "Wikipedia: Ronald McDonald"
+  },
+  {
+    "id": "b8e4fcd3-c4b3-43d7-a59f-25c4af2f0df5",
+    "text": "What does the 'A&W' in A&W Root Beer stand for?",
+    "options": [
+      "Allen & Wright",
+      "American & Western",
+      "Armstrong & Wells",
+      "Anderson & Wright"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "A&W was named after its founders Roy W. Allen and Frank Wright.",
+    "detailedExplanation": "A&W Root Beer was founded in 1919 by Roy W. Allen, who later partnered with Frank Wright in 1922. The company name combines the first letters of both founders' surnames. A&W is credited with being America's first franchised restaurant chain and pioneered the drive-in restaurant concept with carhop service.",
+    "citationUrl": "https://en.wikipedia.org/wiki/A%26W_Restaurants",
+    "citationTitle": "Wikipedia: A&W Restaurants"
+  },
+  {
+    "id": "32bd6bbc-d707-499b-87ae-855e2e176fa7",
+    "text": "Which fast food chain introduced the first modern drive-thru window?",
+    "options": [
+      "McDonald's",
+      "Wendy's",
+      "Jack in the Box",
+      "Burger King"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Jack in the Box opened the first drive-thru window in 1951 in El Paso, Texas.",
+    "detailedExplanation": "Jack in the Box pioneered the modern drive-thru concept by installing the first drive-thru window at their location in El Paso, Texas in 1951. This innovation revolutionized fast food service by allowing customers to order and receive food without leaving their cars, setting a standard that would be adopted by virtually every major fast food chain.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Jack_in_the_Box",
+    "citationTitle": "Wikipedia: Jack in the Box"
+  },
+  {
+    "id": "2241b412-055c-4065-94fc-db9c20c4568f",
+    "text": "What is the name of Subway's signature sandwich bread length that's longer than a footlong?",
+    "options": [
+      "The Giant",
+      "The Big One",
+      "Double Footlong",
+      "There isn't one - footlong is the largest"
+    ],
+    "correctIndex": 3,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Subway's footlong (12 inches) is their largest standard sandwich size.",
+    "detailedExplanation": "Subway built their brand around two main sandwich sizes: the 6-inch and the footlong (12-inch). While they have occasionally offered promotional larger sizes in some markets, the footlong remains their largest standard menu item. The footlong became central to Subway's marketing campaigns and helped establish them as the world's largest submarine sandwich chain.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Subway_(restaurant)",
+    "citationTitle": "Wikipedia: Subway (restaurant)"
+  },
+  {
+    "id": "22661184-eef1-4050-82f5-2793a59444d8",
+    "text": "In which country did the Nando's chicken restaurant chain originate?",
+    "options": [
+      "Portugal",
+      "Brazil",
+      "South Africa",
+      "Australia"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Nando's was founded in Johannesburg, South Africa in 1987.",
+    "detailedExplanation": "Nando's was founded by Fernando Duarte and Robert Brozin in Johannesburg, South Africa in 1987. Despite serving Portuguese-style peri-peri chicken and having Portuguese cultural influences, the restaurant chain itself originated in South Africa. The founders were inspired by a Portuguese friend's chicken recipe and African bird's eye chili, creating the distinctive peri-peri style that became Nando's signature.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Nando%27s",
+    "citationTitle": "Wikipedia: Nando's"
+  },
+  {
+    "id": "6c9921df-9279-438d-aab6-1ae5cb82eeb7",
+    "text": "Which fast food chain's original recipe is famously said to contain '11 herbs and spices'?",
+    "options": [
+      "Popeyes",
+      "Church's Chicken",
+      "KFC",
+      "Chick-fil-A"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "KFC's Original Recipe chicken is marketed as containing a secret blend of 11 herbs and spices.",
+    "detailedExplanation": "KFC has built much of their marketing around Colonel Harland Sanders' 'Original Recipe' of 11 herbs and spices, which he supposedly developed in the 1940s. The recipe is one of the most famous trade secrets in the food industry, allegedly kept in a vault at KFC's headquarters. While the exact ingredients remain secret, the '11 herbs and spices' phrase has become synonymous with KFC's brand identity.",
+    "citationUrl": "https://en.wikipedia.org/wiki/KFC_Original_Recipe",
+    "citationTitle": "Wikipedia: KFC Original Recipe"
+  },
+  {
+    "id": "c86ec5de-e077-4def-a0c1-0dc745b87b5d",
+    "text": "What was the original name of Dunkin' Donuts when it first opened in 1950?",
+    "options": [
+      "Open Kettle",
+      "Donut Delight",
+      "The Donut Shop",
+      "Dunkin' Donuts"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Dunkin' Donuts was originally called 'Open Kettle' when William Rosenberg opened it in 1948.",
+    "detailedExplanation": "William Rosenberg first opened his donut and coffee shop in Quincy, Massachusetts in 1948 under the name 'Open Kettle.' The name was changed to 'Dunkin' Donuts' in 1950 to better reflect the practice of dunking donuts in coffee. This rebranding proved successful and helped establish the chain's identity around the coffee-and-donut pairing that became their signature offering.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Dunkin%27",
+    "citationTitle": "Wikipedia: Dunkin'"
+  },
+  {
+    "id": "181982a5-b0c4-467e-a13c-84dbab60d012",
+    "text": "Which fast food chain was founded by Dave Thomas and is famous for its square hamburger patties?",
+    "options": [
+      "Burger King",
+      "Wendy's",
+      "White Castle",
+      "Carl's Jr."
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Wendy's was founded by Dave Thomas in 1969 and is known for its distinctive square beef patties.",
+    "detailedExplanation": "Dave Thomas opened the first Wendy's restaurant in Columbus, Ohio in 1969, naming it after his daughter Melinda Lou 'Wendy' Thomas. The chain became famous for its 'old fashioned' square hamburger patties that hang over the edges of circular buns, fresh (never frozen) beef, and the advertising slogan 'Where's the beef?' The square patties were designed to show that Wendy's doesn't cut corners on quality.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Wendy%27s",
+    "citationTitle": "Wikipedia: Wendy's"
+  },
+  {
+    "id": "4c3a38af-bd10-4363-9490-72cfa99e4b46",
+    "text": "What is the name of Taco Bell's signature hot sauce packet with the highest heat level?",
+    "options": [
+      "Fire",
+      "Diablo",
+      "Inferno",
+      "Volcano"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Diablo is Taco Bell's hottest sauce packet, introduced in 2015 as their spiciest option.",
+    "detailedExplanation": "Taco Bell's sauce packet hierarchy includes Mild, Hot, Fire, and Diablo, with Diablo being the hottest option available. Introduced in May 2015, Diablo sauce contains a blend of aji panca, chipotle, and chili peppers. The packets are known not only for their heat levels but also for their witty sayings printed on them, which have become a cultural phenomenon among fast food enthusiasts.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Taco_Bell",
+    "citationTitle": "Wikipedia: Taco Bell"
+  },
+  {
+    "id": "7a2f5207-db37-44dc-b82c-152f48a0a679",
+    "text": "Which pizza chain is known for guaranteeing delivery within 30 minutes during the 1980s and early 1990s?",
+    "options": [
+      "Pizza Hut",
+      "Papa John's",
+      "Domino's",
+      "Little Caesars"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Domino's was famous for their '30 minutes or it's free' delivery guarantee, which they discontinued in 1993.",
+    "detailedExplanation": "Domino's Pizza implemented their famous '30 minutes or less' delivery guarantee in 1979, promising that if a pizza wasn't delivered within 30 minutes, it would be free. This policy helped establish Domino's as a major player in the pizza delivery market. However, the company discontinued this practice in 1993 due to safety concerns and lawsuits related to delivery drivers speeding and causing accidents while trying to meet the time deadline.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Domino%27s",
+    "citationTitle": "Wikipedia: Domino's"
+  },
+  {
+    "id": "263a68a8-be53-4aa9-9537-21b1be746e3f",
+    "text": "Which fast food chain's slogan is 'Eat Fresh'?",
+    "options": [
+      "Quiznos",
+      "Jimmy John's",
+      "Subway",
+      "Potbelly"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Subway has used 'Eat Fresh' as their primary marketing slogan since the early 2000s.",
+    "detailedExplanation": "Subway adopted 'Eat Fresh' as their main advertising slogan to emphasize the freshness of their ingredients and their position as a healthier fast food alternative. The campaign began in the early 2000s and has been central to Subway's brand identity, highlighting their use of fresh vegetables, bread baked daily in-store, and made-to-order sandwiches. This slogan helped differentiate Subway from traditional fast food chains that rely on pre-made, processed foods.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Subway_(restaurant)",
+    "citationTitle": "Wikipedia: Subway (restaurant)"
+  },
+  {
+    "id": "5f99a6c8-f124-4957-ab7c-854ad3c6dbe7",
+    "text": "What is the name of McDonald's breakfast sandwich that features a beef patty instead of sausage or bacon?",
+    "options": [
+      "McGriddle",
+      "McMuffin Deluxe",
+      "Big Breakfast",
+      "There is no such item"
+    ],
+    "correctIndex": 3,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "McDonald's does not offer a breakfast sandwich with a beef patty - their breakfast menu features sausage, bacon, and chicken options.",
+    "detailedExplanation": "McDonald's breakfast menu, which was introduced nationally in 1977, focuses on traditional breakfast proteins like sausage, bacon, ham, and more recently chicken, but has never included beef patties in their breakfast sandwiches. The breakfast menu features items like the Egg McMuffin (with Canadian bacon), Sausage McMuffin, and various McGriddles, but the company has maintained a clear separation between their breakfast offerings and their beef-based lunch/dinner items.",
+    "citationUrl": "https://en.wikipedia.org/wiki/McDonald%27s_breakfast",
+    "citationTitle": "Wikipedia: McDonald's breakfast"
+  },
+  {
+    "id": "1e288e5c-9b79-4fef-b680-727abb3d2062",
+    "text": "Which fast food chain was the first to introduce the concept of a kids' meal with a toy?",
+    "options": [
+      "McDonald's",
+      "Burger King",
+      "Wendy's",
+      "Roy Rogers"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "McDonald's introduced the Happy Meal in 1979, pioneering the concept of a kids' meal packaged with a toy.",
+    "detailedExplanation": "McDonald's launched the Happy Meal in June 1979, becoming the first major fast food chain to create a meal specifically designed for children that included a toy as part of the package. The original Happy Meal came in a colorful box and included a hamburger or cheeseburger, fries, cookies, and a small soft drink, along with a toy. This marketing innovation was hugely successful and was quickly copied by competitors, fundamentally changing how fast food chains marketed to families and children.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Happy_Meal",
+    "citationTitle": "Wikipedia: Happy Meal"
+  },
+  {
+    "id": "6a9ca95e-4fb7-4e03-9e33-325a127bab5f",
+    "text": "Which sandwich chain is famous for their 'Freaky Fast' delivery slogan?",
+    "options": [
+      "Jersey Mike's",
+      "Jimmy John's",
+      "Which Wich",
+      "Firehouse Subs"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Jimmy John's uses 'Freaky Fast' as their main slogan to emphasize their quick delivery service.",
+    "detailedExplanation": "Jimmy John's Gourmet Sandwiches has built their brand around speed of service, using 'Freaky Fast' as their primary marketing slogan since the early 2000s. The chain promises delivery within minutes for locations near their stores, and this focus on speed has become a key differentiator in the competitive sandwich market. Their delivery drivers are known for their quick service, and the company has built its operational model around minimizing delivery times while maintaining food quality.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Jimmy_John%27s",
+    "citationTitle": "Wikipedia: Jimmy John's"
+  },
+  {
+    "id": "30bbdb31-975a-45a7-8d96-d8ace183f202",
+    "text": "In what year did White Castle, considered America's first fast food chain, open its first location?",
+    "options": [
+      "1916",
+      "1921",
+      "1925",
+      "1930"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "White Castle opened its first location in 1921 in Wichita, Kansas, making it the first fast food hamburger chain in America.",
+    "detailedExplanation": "White Castle was founded by Walter Anderson and Billy Ingram in Wichita, Kansas in 1921, making it widely recognized as America's first fast food hamburger chain. The company pioneered many concepts that became standard in the fast food industry, including standardized food preparation, distinctive architecture with white porcelain buildings, and affordable pricing. Their small, square hamburgers became known as 'sliders,' and the chain's influence on the development of the American fast food industry cannot be overstated.",
+    "citationUrl": "https://en.wikipedia.org/wiki/White_Castle_(restaurant)",
+    "citationTitle": "Wikipedia: White Castle (restaurant)"
+  },
+  {
+    "id": "58307fdb-0e9b-48db-aa15-f828adcaa3f8",
+    "text": "Which fast food chain was originally called 'Pete's Super Submarines' before changing its name in 1972?",
+    "options": [
+      "Subway",
+      "Quiznos",
+      "Jimmy John's",
+      "Blimpie"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Subway was originally called 'Pete's Super Submarines' when it first opened in 1965.",
+    "detailedExplanation": "Fred DeLuca and Peter Buck opened their first sandwich shop in Bridgeport, Connecticut in 1965 under the name 'Pete's Super Submarines.' The name was changed to 'Pete's Subway' in 1968 and eventually shortened to just 'Subway' in 1972. The original concept was to create a submarine sandwich shop that could compete with local delis, and the business model proved so successful that it became one of the world's largest franchise chains.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Subway_(restaurant)",
+    "citationTitle": "Wikipedia: Subway (restaurant)"
+  },
+  {
+    "id": "c7ae6ec0-6653-4480-ae33-a923243158f2",
+    "text": "What distinctive cooking method does Burger King use for their hamburgers that they prominently advertise?",
+    "options": [
+      "Steaming",
+      "Flame-grilling",
+      "Deep frying",
+      "Griddle cooking"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Burger King flame-grills their burgers and uses this as a major marketing point with their 'flame-grilled' branding.",
+    "detailedExplanation": "Burger King has built much of their brand identity around flame-grilling their hamburgers, which they claim gives their burgers a distinctive taste compared to competitors who typically use flat-top grills. This cooking method has been a cornerstone of their marketing campaigns for decades, with slogans like 'flame-grilled since 1954' and emphasizing the smoky flavor that comes from cooking over an open flame rather than on a flat grill surface.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Burger_King",
+    "citationTitle": "Wikipedia: Burger King"
+  },
+  {
+    "id": "a7194c1b-677c-48a7-999e-05ac3eeeea6f",
+    "text": "Which fast food chain's founder was a former Kentucky Fried Chicken franchisee who left to start his own competing chicken restaurant?",
+    "options": [
+      "Popeyes",
+      "Church's Chicken",
+      "Bojangles",
+      "Raising Cane's"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Popeyes was founded by Al Copeland, who was previously a KFC franchisee before starting his own chicken chain in 1972.",
+    "detailedExplanation": "Al Copeland opened the first Popeyes location in New Orleans in 1972, initially calling it 'Chicken on the Run.' Copeland had previously operated KFC franchises but became frustrated with their business model and restrictions. He wanted to create a chicken restaurant that reflected New Orleans flavors and cooking styles, eventually developing the spicy, Cajun-style chicken that became Popeyes' signature. The restaurant was renamed 'Popeyes' after the character Jimmy 'Popeye' Doyle from The French Connection movie.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Popeyes",
+    "citationTitle": "Wikipedia: Popeyes"
+  },
+  {
+    "id": "9c60e941-6c59-4659-b6f7-f52735b05bc0",
+    "text": "What was unique about the original McDonald's menu when the restaurant first opened in 1940?",
+    "options": [
+      "It only served breakfast items",
+      "It was a barbecue restaurant",
+      "It only sold chicken",
+      "It was vegetarian-only"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "The original McDonald's was actually a barbecue restaurant, not a hamburger joint, when the McDonald brothers first opened it.",
+    "detailedExplanation": "When brothers Richard and Maurice McDonald opened their first restaurant in San Bernardino, California in 1940, it was called 'McDonald's Bar-B-Q' and served barbecued beef, pork, and ham along with other items. It wasn't until 1948 that they revolutionized their business by streamlining the menu to focus primarily on hamburgers, cheeseburgers, fries, and shakes, introducing what they called the 'Speedee Service System' that would later influence the entire fast food industry. This transformation laid the groundwork for what Ray Kroc would eventually franchise into the McDonald's empire we know today.",
+    "citationUrl": "https://en.wikipedia.org/wiki/McDonald%27s",
+    "citationTitle": "Wikipedia: McDonald's"
+  },
+  {
+    "id": "4b8e5f23-a049-45ad-a4a1-d9a85e196e6e",
+    "text": "Which pizza chain was founded by two brothers who borrowed $600 from their mother to start their business in 1960?",
+    "options": [
+      "Pizza Hut",
+      "Domino's",
+      "Papa John's",
+      "Little Caesars"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Domino's was founded by Tom and James Monaghan, who borrowed $600 from their mother to purchase a small pizza store called DomiNick's.",
+    "detailedExplanation": "In 1960, brothers Tom and James Monaghan borrowed $600 from their mother to buy a small pizza store called DomiNick's in Ypsilanti, Michigan. James sold his share back to Tom within eight months, leaving Tom as the sole owner. The name was changed to 'Domino's' in 1965, and Tom Monaghan built it into one of the world's largest pizza delivery companies. The company became famous for its 30-minute delivery guarantee and innovative delivery-focused business model, which differentiated it from sit-down pizza restaurants of the era.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Domino%27s",
+    "citationTitle": "Wikipedia: Domino's"
+  }
+]

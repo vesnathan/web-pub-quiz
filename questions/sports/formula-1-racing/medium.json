@@ -1,0 +1,342 @@
+[
+  {
+    "id": "b2366e5d-7183-43fb-88a3-b4fd00955a49",
+    "text": "Which Formula 1 driver holds the record for the most World Championship titles?",
+    "options": [
+      "Ayrton Senna",
+      "Michael Schumacher",
+      "Lewis Hamilton",
+      "Juan Manuel Fangio"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "medium",
+    "explanation": "Michael Schumacher holds the record with 7 World Championship titles.",
+    "detailedExplanation": "Michael Schumacher won his first two championships with Benetton in 1994 and 1995, then claimed five consecutive titles with Ferrari from 2000 to 2004, giving him a total of 7 World Championships. This record was later matched by Lewis Hamilton, who won his 7th title in 2020, but Schumacher was the first to achieve this milestone.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Michael_Schumacher",
+    "citationTitle": "Wikipedia: Michael Schumacher"
+  },
+  {
+    "id": "350cbad2-2228-493d-b3f3-a93984926804",
+    "text": "What is the minimum weight requirement for a Formula 1 car including the driver in the current regulations?",
+    "options": [
+      "740 kg",
+      "795 kg",
+      "820 kg",
+      "850 kg"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "medium",
+    "explanation": "The minimum weight is 795 kg including the driver as per current F1 regulations.",
+    "detailedExplanation": "Formula 1 has strict weight regulations to ensure fair competition. The minimum weight of 795 kg includes the car and driver, and was established to prevent teams from gaining unfair advantages through extreme weight reduction. This weight limit has been adjusted over the years, with increases made to accommodate safety improvements and hybrid power units introduced in 2014.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Formula_One_regulations",
+    "citationTitle": "Wikipedia: Formula One regulations"
+  },
+  {
+    "id": "82db2bc6-69e0-4386-9667-a144de3c0fb0",
+    "text": "Which circuit is known as 'The Temple of Speed' in Formula 1?",
+    "options": [
+      "Silverstone",
+      "Monza",
+      "Spa-Francorchamps",
+      "Indianapolis"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "medium",
+    "explanation": "Monza in Italy is nicknamed 'The Temple of Speed' due to its high-speed nature.",
+    "detailedExplanation": "The Autodromo Nazionale di Monza has been part of the Formula 1 calendar since 1950 and is famous for its long straights and high speeds. The circuit's layout, with minimal chicanes and long acceleration zones, allows cars to reach their maximum speeds, earning it the nickname 'The Temple of Speed.' It's also notable for its passionate Italian fans and historic significance to Ferrari.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Autodromo_Nazionale_di_Monza",
+    "citationTitle": "Wikipedia: Autodromo Nazionale di Monza"
+  },
+  {
+    "id": "603eaf97-eda3-4395-a10f-ea24f19f2134",
+    "text": "In what year did Formula 1 introduce the Drag Reduction System (DRS)?",
+    "options": [
+      "2009",
+      "2011",
+      "2013",
+      "2014"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "medium",
+    "explanation": "DRS was introduced in 2011 to aid overtaking in Formula 1.",
+    "detailedExplanation": "The Drag Reduction System (DRS) was introduced for the 2011 Formula 1 season as part of efforts to increase overtaking opportunities. DRS allows drivers to open a flap in their rear wing when following another car closely, reducing drag and increasing straight-line speed. The system can only be used in designated DRS zones when a driver is within one second of the car ahead, and has become a controversial but integral part of modern Formula 1 racing.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Drag_reduction_system",
+    "citationTitle": "Wikipedia: Drag reduction system"
+  },
+  {
+    "id": "2120826e-0fbb-4eaf-83e9-d18953a418c3",
+    "text": "Which team has won the most Constructors' Championship titles in Formula 1 history?",
+    "options": [
+      "McLaren",
+      "Williams",
+      "Ferrari",
+      "Mercedes"
+    ],
+    "correctIndex": 2,
+    "category": "sports",
+    "difficulty": "medium",
+    "explanation": "Ferrari holds the record with 16 Constructors' Championship titles.",
+    "detailedExplanation": "Ferrari has been the most successful team in Formula 1's Constructors' Championship since its introduction in 1958. The Italian team has won 16 titles, with their most recent championship coming in 2008. Their success spans different eras of the sport, including dominant periods in the 1960s, 1970s, and early 2000s during the Michael Schumacher era. Ferrari is also the only team to have competed in every Formula 1 season since the championship began in 1950.",
+    "citationUrl": "https://en.wikipedia.org/wiki/List_of_Formula_One_constructors",
+    "citationTitle": "Wikipedia: List of Formula One constructors"
+  },
+  {
+    "id": "fffcc0e2-9f1c-46ab-b419-dc836141f9aa",
+    "text": "What is the maximum number of power units (engines) a Formula 1 driver can use in a season without penalty?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "medium",
+    "explanation": "Drivers are allowed 3 power units per season before facing grid penalties.",
+    "detailedExplanation": "Formula 1 introduced power unit limitations to control costs and improve sustainability. Each power unit consists of six components: the Internal Combustion Engine (ICE), Motor Generator Unit-Kinetic (MGU-K), Motor Generator Unit-Heat (MGU-H), Energy Store (ES), Turbocharger (TC), and Control Electronics (CE). Drivers can use up to 3 of each component per season, and exceeding this limit results in grid penalties for subsequent races.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Formula_One_engines",
+    "citationTitle": "Wikipedia: Formula One engines"
+  },
+  {
+    "id": "d8e29642-e652-454e-a8f2-bd6d5913a19d",
+    "text": "Which driver scored points in their first 15 Formula 1 races, a record streak for a rookie?",
+    "options": [
+      "Lewis Hamilton",
+      "Charles Leclerc",
+      "Lando Norris",
+      "Oscar Piastri"
+    ],
+    "correctIndex": 3,
+    "category": "sports",
+    "difficulty": "medium",
+    "explanation": "Oscar Piastri holds the record for most consecutive points finishes from debut with 15 races.",
+    "detailedExplanation": "Oscar Piastri, driving for McLaren, achieved this remarkable feat during his rookie 2023 season by consistently finishing in the points-paying positions (top 10) for his first 15 Formula 1 races. This broke the previous record and demonstrated exceptional consistency for a newcomer to the sport. The achievement is particularly impressive given the competitive nature of modern Formula 1 and the learning curve typically faced by rookie drivers.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Oscar_Piastri",
+    "citationTitle": "Wikipedia: Oscar Piastri"
+  },
+  {
+    "id": "8f7756e3-7c81-4473-b74d-5626904639ef",
+    "text": "How many points does the winner of a Formula 1 Grand Prix receive under the current points system?",
+    "options": [
+      "20 points",
+      "25 points",
+      "30 points",
+      "35 points"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "medium",
+    "explanation": "The race winner receives 25 points under the current Formula 1 points system.",
+    "detailedExplanation": "Formula 1's current points system was introduced in 2010 and awards 25 points to the race winner, with points distributed down to 10th place (1 point). The top 8 positions receive: 25, 18, 15, 12, 10, 8, 6, and 4 points respectively. Additionally, the driver who sets the fastest lap during the race receives 1 bonus point, provided they finish in the top 10. This system replaced the previous 10-point system that had been in use since 2003.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Formula_One_racing",
+    "citationTitle": "Wikipedia: Formula One racing"
+  },
+  {
+    "id": "3c8f1063-b65a-41b3-bcb6-131db0f057a6",
+    "text": "Which Formula 1 circuit features the famous Eau Rouge corner sequence?",
+    "options": [
+      "Spa-Francorchamps",
+      "Silverstone",
+      "Suzuka",
+      "Interlagos"
+    ],
+    "correctIndex": 0,
+    "category": "sports",
+    "difficulty": "medium",
+    "explanation": "Spa-Francorchamps in Belgium features the legendary Eau Rouge corner complex.",
+    "detailedExplanation": "The Eau Rouge corner at Spa-Francorchamps is one of Formula 1's most iconic and challenging corner sequences. Located in the Ardennes forest in Belgium, this uphill left-right-left combination through Eau Rouge and Raidillon is considered a true test of driver skill and bravery. The corner has been largely unchanged since the 1920s and remains a highlight of the Belgian Grand Prix, with drivers taking it at high speed while navigating significant elevation changes.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Circuit_de_Spa-Francorchamps",
+    "citationTitle": "Wikipedia: Circuit de Spa-Francorchamps"
+  },
+  {
+    "id": "df4deebc-811a-4448-9c30-8597317d9314",
+    "text": "What does the black flag with an orange circle shown to a Formula 1 driver indicate?",
+    "options": [
+      "Immediate disqualification",
+      "Mechanical problem - return to pits",
+      "Final warning for dangerous driving",
+      "Oil leak detected"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "medium",
+    "explanation": "The black flag with orange circle means the driver has a mechanical problem and must return to the pits immediately.",
+    "detailedExplanation": "In Formula 1, the black flag with an orange circle (also known as the 'meatball flag') is shown to a driver when race officials detect a mechanical problem with their car that could be dangerous to themselves or other competitors. This could include loose bodywork, a damaged wing, or other mechanical issues. The driver must return to the pits within a reasonable time to have the problem addressed before they can continue racing. This flag is different from the solid black flag, which indicates disqualification.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Racing_flags",
+    "citationTitle": "Wikipedia: Racing flags"
+  },
+  {
+    "id": "afb088e2-4a20-41dd-9396-d60f2e5e347b",
+    "text": "Which Formula 1 team was originally founded by Bruce McLaren in 1963?",
+    "options": [
+      "Williams Racing",
+      "McLaren",
+      "Lotus",
+      "Brabham"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "medium",
+    "explanation": "McLaren was founded by New Zealand racing driver Bruce McLaren in 1963.",
+    "detailedExplanation": "Bruce McLaren Racing was established in 1963 by New Zealand racing driver Bruce McLaren, initially to compete in the Tasman Series. The team entered Formula 1 in 1966 and scored their first victory at the 1968 Belgian Grand Prix with Bruce McLaren himself driving. Tragically, Bruce McLaren died in 1970 during testing of a Can-Am car, but his team continued under the leadership of Teddy Mayer. McLaren has since become one of the most successful teams in Formula 1 history, winning multiple Constructors' and Drivers' Championships.",
+    "citationUrl": "https://en.wikipedia.org/wiki/McLaren",
+    "citationTitle": "Wikipedia: McLaren"
+  },
+  {
+    "id": "a09a3319-f6e5-4e51-8453-86bbbc2df882",
+    "text": "What is the term for the aerodynamic effect that occurs when an F1 car follows closely behind another car?",
+    "options": [
+      "Ground effect",
+      "Slipstream",
+      "Dirty air",
+      "Venturi effect"
+    ],
+    "correctIndex": 2,
+    "category": "sports",
+    "difficulty": "medium",
+    "explanation": "Dirty air refers to the turbulent airflow behind a car that reduces aerodynamic efficiency for following cars.",
+    "detailedExplanation": "Dirty air is the turbulent, disrupted airflow that trails behind a Formula 1 car, caused by the car's aerodynamic elements disturbing the smooth air. When a following car enters this turbulent wake, it experiences a significant reduction in aerodynamic downforce, particularly affecting the front wing's efficiency. This makes the car more difficult to handle through corners and typically prevents close following, which is why overtaking can be challenging in Formula 1. The phenomenon is different from slipstreaming, which refers to the reduced air resistance on straights that can actually benefit a following car.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Formula_One_aerodynamics",
+    "citationTitle": "Wikipedia: Formula One aerodynamics"
+  },
+  {
+    "id": "b10696ac-5d26-4522-a9ab-343fbb754895",
+    "text": "In which year did Formula 1 introduce the halo cockpit protection device?",
+    "options": [
+      "2016",
+      "2017",
+      "2018",
+      "2019"
+    ],
+    "correctIndex": 2,
+    "category": "sports",
+    "difficulty": "medium",
+    "explanation": "The halo cockpit protection system was introduced in Formula 1 for the 2018 season.",
+    "detailedExplanation": "The halo cockpit protection device was mandated in Formula 1 starting with the 2018 season following extensive testing and development by the FIA. The titanium structure surrounds the driver's head and is designed to deflect large debris and provide protection in certain types of accidents. While initially controversial among fans and some drivers due to aesthetic concerns and questions about visibility, the halo has since proven its worth in several incidents, including notable saves in accidents involving Charles Leclerc at Spa 2018 and Romain Grosjean at Bahrain 2020.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Halo_(safety_device)",
+    "citationTitle": "Wikipedia: Halo (safety device)"
+  },
+  {
+    "id": "3965a3c2-fa9b-4cb0-ad84-e0ecde3bb5c1",
+    "text": "Which Formula 1 Grand Prix is traditionally held on the streets of Monte Carlo?",
+    "options": [
+      "French Grand Prix",
+      "Italian Grand Prix",
+      "Monaco Grand Prix",
+      "Spanish Grand Prix"
+    ],
+    "correctIndex": 2,
+    "category": "sports",
+    "difficulty": "medium",
+    "explanation": "The Monaco Grand Prix takes place on the streets of Monte Carlo in the principality of Monaco.",
+    "detailedExplanation": "The Monaco Grand Prix is one of Formula 1's most prestigious races, held annually on the narrow streets of Monte Carlo since 1929 (though it wasn't part of the World Championship until 1950). The 3.337-kilometer circuit winds through the streets of the principality, featuring famous landmarks like the Casino Square, the Swimming Pool section, and the tight Fairmont Hairpin. Known for its glamour and difficulty, Monaco is considered part of motorsport's Triple Crown along with the Indianapolis 500 and 24 Hours of Le Mans. The race is notoriously difficult to overtake on, making qualifying position crucial.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Monaco_Grand_Prix",
+    "citationTitle": "Wikipedia: Monaco Grand Prix"
+  },
+  {
+    "id": "5e7d527f-93a8-486d-bd61-9c2d05a326d8",
+    "text": "What is the name of the scoring system used to determine the Formula 1 World Constructors' Championship?",
+    "options": [
+      "Combined driver points",
+      "Best car points only",
+      "Average driver points",
+      "Bonus constructor points"
+    ],
+    "correctIndex": 0,
+    "category": "sports",
+    "difficulty": "medium",
+    "explanation": "The Constructors' Championship is determined by combining the points scored by both drivers for each team.",
+    "detailedExplanation": "The Formula 1 World Constructors' Championship is awarded to the team (constructor) that scores the most points during a season by combining the points earned by both of their drivers. Unlike some other motorsports, there are no separate constructor-specific points - the championship is simply the sum of all points scored by a team's drivers throughout the season. This system has been in place since the Constructors' Championship was first awarded in 1958, though the individual race points values have changed over the years. The championship recognizes the team's overall performance in terms of car design, development, and race strategy.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Formula_One_World_Constructors%27_Championship",
+    "citationTitle": "Wikipedia: Formula One World Constructors' Championship"
+  },
+  {
+    "id": "1cf7c097-6969-4119-b85c-9b7de14d117a",
+    "text": "Which tire compound manufacturer has been the exclusive supplier to Formula 1 since 2011?",
+    "options": [
+      "Michelin",
+      "Bridgestone",
+      "Pirelli",
+      "Goodyear"
+    ],
+    "correctIndex": 2,
+    "category": "sports",
+    "difficulty": "medium",
+    "explanation": "Pirelli has been the sole tire supplier for Formula 1 since the 2011 season.",
+    "detailedExplanation": "Pirelli became Formula 1's exclusive tire supplier starting with the 2011 season, taking over from Bridgestone who had been the sole supplier since 2007. Pirelli previously supplied tires to Formula 1 from 1989 to 1991 during the tire war era. The Italian manufacturer provides different tire compounds for each race weekend, typically bringing three different compounds (hard, medium, and soft) that are color-coded for easy identification. Pirelli's current contract runs through 2024, and their tire strategy has become an integral part of modern Formula 1 racing tactics.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Formula_One_tyres",
+    "citationTitle": "Wikipedia: Formula One tyres"
+  },
+  {
+    "id": "e7ea175c-3ca2-42d9-bccc-fed2ffee0a50",
+    "text": "Which Formula 1 driver famously won the 2008 World Championship by overtaking Timo Glock on the final corner of the final lap of the season?",
+    "options": [
+      "Sebastian Vettel",
+      "Lewis Hamilton",
+      "Fernando Alonso",
+      "Jenson Button"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "medium",
+    "explanation": "Lewis Hamilton overtook Timo Glock in the final moments of the 2008 Brazilian Grand Prix to secure his first World Championship.",
+    "detailedExplanation": "The 2008 Brazilian Grand Prix provided one of Formula 1's most dramatic championship finishes. Lewis Hamilton needed to finish fifth or higher to win his first title, but as rain began falling in the final laps, he dropped to sixth place behind Toyota's Timo Glock, who had stayed on dry tires. In a heart-stopping final corner, Hamilton passed the struggling Glock to claim fifth place and the championship by just one point over Felipe Massa, who had won the race and briefly thought he had won the title.",
+    "citationUrl": "https://en.wikipedia.org/wiki/2008_Brazilian_Grand_Prix",
+    "citationTitle": "Wikipedia: 2008 Brazilian Grand Prix"
+  },
+  {
+    "id": "cc3b21cf-f3ad-4742-a32c-ac312f1dcf9f",
+    "text": "What is the name of the qualifying format introduced in 2006 that eliminates the slowest drivers in each of three sessions?",
+    "options": [
+      "Knockout qualifying",
+      "Super pole",
+      "Elimination rounds",
+      "Time attack qualifying"
+    ],
+    "correctIndex": 0,
+    "category": "sports",
+    "difficulty": "medium",
+    "explanation": "Knockout qualifying (also called elimination qualifying) was introduced in 2006 and features three sessions (Q1, Q2, Q3) with progressive elimination.",
+    "detailedExplanation": "Knockout qualifying revolutionized Formula 1's qualifying format when it was introduced in 2006. The system consists of three sessions: Q1 (18 minutes) eliminates the five slowest cars, Q2 (15 minutes) eliminates the next five slowest, and Q3 (12 minutes) determines pole position among the fastest 10 cars. This format replaced the previous single-lap qualifying system and has remained largely unchanged, creating more television-friendly qualifying sessions with guaranteed track action throughout all three segments.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Formula_One_qualifying",
+    "citationTitle": "Wikipedia: Formula One qualifying"
+  },
+  {
+    "id": "f59320c0-078a-4583-a6dc-0ee4d282eac8",
+    "text": "Which Formula 1 Grand Prix holds the record for the shortest race distance due to weather conditions, lasting only 4 laps in 2021?",
+    "options": [
+      "Turkish Grand Prix",
+      "Belgian Grand Prix",
+      "Hungarian Grand Prix",
+      "Russian Grand Prix"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "medium",
+    "explanation": "The 2021 Belgian Grand Prix lasted only 4 laps due to heavy rain and poor visibility, making it the shortest F1 race in history.",
+    "detailedExplanation": "The 2021 Belgian Grand Prix at Spa-Francorchamps became infamous as the shortest race in Formula 1 history. After multiple delays due to torrential rain, the race finally started behind the safety car but conditions remained treacherous with extremely poor visibility. After completing just two formation laps and two racing laps behind the safety car, the race was red-flagged and eventually declared finished. Max Verstappen was declared the winner, though half points were awarded due to the shortened distance, sparking controversy about whether it could even be called a proper race.",
+    "citationUrl": "https://en.wikipedia.org/wiki/2021_Belgian_Grand_Prix",
+    "citationTitle": "Wikipedia: 2021 Belgian Grand Prix"
+  },
+  {
+    "id": "b6c04d99-e3be-462f-8945-5f3e70e8a5dd",
+    "text": "What is the name of the chicane complex at Monza that was added in 1972 to reduce speeds on the main straight?",
+    "options": [
+      "Variante del Rettifilo",
+      "Variante della Roggia",
+      "Variante Ascari",
+      "Curva Grande"
+    ],
+    "correctIndex": 0,
+    "category": "sports",
+    "difficulty": "medium",
+    "explanation": "The Variante del Rettifilo (also known as the Prima Variante) is the first chicane at Monza, added in 1972 for safety reasons.",
+    "detailedExplanation": "The Variante del Rettifilo, meaning 'straight variant' in Italian, was constructed at Monza in 1972 as a safety modification to the circuit. Located at the end of the main straight before the old Curva Grande, this tight left-right chicane was designed to reduce the extremely high speeds that cars were achieving on Monza's long straights. The chicane has become one of the most famous overtaking spots in Formula 1, though it's also notorious for first-lap incidents as drivers brake heavily from over 300 km/h and funnel into the narrow chicane complex.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Monza_Circuit",
+    "citationTitle": "Wikipedia: Monza Circuit"
+  }
+]

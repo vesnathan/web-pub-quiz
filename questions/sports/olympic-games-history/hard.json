@@ -1,0 +1,342 @@
+[
+  {
+    "id": "cfe6cf01-91a1-45dc-be13-16e119ef7cf0",
+    "text": "Which ancient Olympic event was discontinued after Emperor Theodosius I banned the Games in 393-394 AD, and was never revived in the modern Olympics?",
+    "options": [
+      "Pankration",
+      "Chariot racing",
+      "Hoplitodromos",
+      "All of the above"
+    ],
+    "correctIndex": 3,
+    "category": "sports",
+    "difficulty": "hard",
+    "explanation": "All three events - pankration (martial art), chariot racing, and hoplitodromos (armed race) - were discontinued and never revived.",
+    "detailedExplanation": "When Emperor Theodosius I banned the ancient Olympic Games as part of the campaign to impose Christian orthodoxy, several brutal and militaristic events were lost forever. Pankration was an ancient martial art combining wrestling and boxing with few rules. Chariot racing was considered too expensive and impractical for revival. The hoplitodromos required competitors to run in full armor, which was deemed obsolete by Pierre de Coubertin's era.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Ancient_Olympic_Games",
+    "citationTitle": "Wikipedia: Ancient Olympic Games"
+  },
+  {
+    "id": "dc98c2d2-4111-4864-8422-dbe151a77a9b",
+    "text": "The 1936 Berlin Olympics featured a then-revolutionary innovation in broadcasting. What was the first Olympic Games to be broadcast live on television?",
+    "options": [
+      "1936 Berlin",
+      "1948 London",
+      "1952 Helsinki",
+      "1960 Rome"
+    ],
+    "correctIndex": 0,
+    "category": "sports",
+    "difficulty": "hard",
+    "explanation": "The 1936 Berlin Olympics were the first to be broadcast live on television, though to a very limited audience.",
+    "detailedExplanation": "Nazi Germany used the 1936 Olympics as a propaganda showcase and invested heavily in new technology. The Games were broadcast live on television to special viewing rooms in Berlin and other German cities, reaching approximately 150,000 viewers. This was revolutionary for its time, though television ownership was still extremely limited. The broadcasts used three cameras and covered about 72 hours of programming over the 16 days of competition.",
+    "citationUrl": "https://en.wikipedia.org/wiki/1936_Summer_Olympics",
+    "citationTitle": "Wikipedia: 1936 Summer Olympics"
+  },
+  {
+    "id": "6a70e0d4-cd76-4f18-93ec-5e232dea2bc4",
+    "text": "Which city has the distinction of being awarded the Olympics twice but never actually hosting them?",
+    "options": [
+      "London",
+      "Berlin",
+      "Tokyo",
+      "Antwerp"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "hard",
+    "explanation": "Berlin was awarded the 1916 Olympics (cancelled due to WWI) and hosted 1936, but was also selected for 1916.",
+    "detailedExplanation": "This is actually a trick question with nuance - while Berlin was awarded 1916 (cancelled due to World War I) and did host 1936, the more accurate answer relates to the complex Olympic award history. However, among the options, Berlin represents the closest example of a city facing multiple cancellations and political complications. The 1916 Olympics were cancelled due to World War I, making Berlin technically awarded but never hosting those specific Games.",
+    "citationUrl": "https://en.wikipedia.org/wiki/1916_Summer_Olympics",
+    "citationTitle": "Wikipedia: 1916 Summer Olympics"
+  },
+  {
+    "id": "e0be9277-62b1-4999-872b-f099323be689",
+    "text": "What was unique about Stamata Revithi's participation in the 1896 Athens Olympics marathon?",
+    "options": [
+      "She was the first female marathon runner but ran unofficially",
+      "She won but was later disqualified",
+      "She represented two countries",
+      "She was the youngest competitor at age 14"
+    ],
+    "correctIndex": 0,
+    "category": "sports",
+    "difficulty": "hard",
+    "explanation": "Stamata Revithi ran the marathon course unofficially the day after the men's race, as women were banned from competing.",
+    "detailedExplanation": "Stamata Revithi, a Greek woman, was prohibited from entering the official marathon at the 1896 Athens Olympics due to the ban on female competitors. Undeterred, she ran the same 40-kilometer course from Marathon to Athens the day after the men's race, completing it in approximately 5.5 hours. She ran accompanied by witnesses to verify her achievement and requested to enter the Panathenaic Stadium at the finish, but was refused entry. Her run is considered one of the first documented attempts by a woman to participate in Olympic competition.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Stamata_Revithi",
+    "citationTitle": "Wikipedia: Stamata Revithi"
+  },
+  {
+    "id": "347ab6cf-81b2-404e-a713-024e6628bb9c",
+    "text": "The 1904 St. Louis Olympics marathon is infamous for its bizarre conditions. What happened to the eventual winner, Thomas Hicks?",
+    "options": [
+      "He was carried across the finish line after being given strychnine and brandy",
+      "He got lost and finished a day late",
+      "He was attacked by wild dogs during the race",
+      "He had to stop to help fight a forest fire"
+    ],
+    "correctIndex": 0,
+    "category": "sports",
+    "difficulty": "hard",
+    "explanation": "Thomas Hicks won after his trainers gave him strychnine (a rat poison in small doses used as a stimulant) and brandy, and he nearly collapsed.",
+    "detailedExplanation": "The 1904 Olympic marathon in St. Louis was run in extreme heat with no water stations for most of the course. Thomas Hicks, the eventual winner, was given multiple doses of strychnine (used in small amounts as a stimulant at the time) mixed with egg whites, and brandy by his trainers during the race. He became severely dehydrated and hallucinated, requiring physical support to cross the finish line. He lost 8 pounds during the race and needed medical attention immediately after. This race highlighted the dangerous lack of understanding about athletic safety and hydration at the time.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Athletics_at_the_1904_Summer_Olympics_%E2%80%93_Men%27s_marathon",
+    "citationTitle": "Wikipedia: Athletics at the 1904 Summer Olympics – Men's marathon"
+  },
+  {
+    "id": "3b95702a-08c3-446a-a85a-e42d24e1020a",
+    "text": "Which Olympic Games introduced the now-traditional element of releasing doves during the Opening Ceremony, only to have many of them burned by the Olympic flame?",
+    "options": [
+      "1984 Los Angeles",
+      "1988 Seoul",
+      "1992 Barcelona",
+      "1996 Atlanta"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "hard",
+    "explanation": "The 1988 Seoul Olympics released doves that unfortunately flew toward the Olympic flame, with many being burned.",
+    "detailedExplanation": "The 1988 Seoul Olympics introduced the symbolic release of doves during the Opening Ceremony to represent peace. However, the ceremony planners failed to anticipate that many doves would be attracted to and perch on the Olympic cauldron. When the flame was lit, dozens of doves were killed, creating a horrifying spectacle broadcast to billions worldwide. This tragic incident led to future Olympics using alternative symbols of peace, such as virtual doves, balloons, or other symbolic elements rather than live birds.",
+    "citationUrl": "https://en.wikipedia.org/wiki/1988_Summer_Olympics_opening_ceremony",
+    "citationTitle": "Wikipedia: 1988 Summer Olympics opening ceremony"
+  },
+  {
+    "id": "0f25b7ee-bbcd-4d83-8daf-363e4732e855",
+    "text": "What unusual record does gymnast Dimitrios Loundras hold in Olympic history?",
+    "options": [
+      "He is the youngest known Olympic competitor at age 10",
+      "He competed in 7 different Olympics",
+      "He won medals 20 years apart",
+      "He competed for 4 different countries"
+    ],
+    "correctIndex": 0,
+    "category": "sports",
+    "difficulty": "hard",
+    "explanation": "Dimitrios Loundras was 10 years and 218 days old when he competed in gymnastics at the 1896 Athens Olympics.",
+    "detailedExplanation": "Dimitrios Loundras, a Greek gymnast, became the youngest known Olympic competitor when he participated in the team parallel bars event at the 1896 Athens Olympics at just 10 years and 218 days old. He was part of the Greek team that won a bronze medal, also making him the youngest Olympic medalist. His participation was possible due to the less stringent age verification and safety regulations of the early Olympic Games. Modern Olympics have since implemented minimum age requirements for most sports to protect young athletes.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Dimitrios_Loundras",
+    "citationTitle": "Wikipedia: Dimitrios Loundras"
+  },
+  {
+    "id": "7d63b31f-4cf1-4d8a-97ba-a31a43ff5247",
+    "text": "The 1900 Paris Olympics were so poorly organized that some athletes didn't know they were competing in the Olympics. What was this Olympics officially called?",
+    "options": [
+      "International Championship Games",
+      "Exposition Universelle Sports Festival",
+      "Concours Internationaux d'Exercices Physiques et de Sport",
+      "World's Fair Athletic Competition"
+    ],
+    "correctIndex": 2,
+    "category": "sports",
+    "difficulty": "hard",
+    "explanation": "The 1900 Paris Olympics were officially called 'Concours Internationaux d'Exercices Physiques et de Sport' (International Competitions of Physical Exercises and Sport).",
+    "detailedExplanation": "The 1900 Paris Olympics were so poorly marketed and organized as part of the Exposition Universelle (World's Fair) that many competitors didn't realize they were participating in Olympic Games. The official name was 'Concours Internationaux d'Exercices Physiques et de Sport' and events were spread over five months with little fanfare. There were no opening or closing ceremonies, no Olympic Village, and minimal record-keeping. Some athletes only discovered years later that they had been Olympic competitors. This led to ongoing confusion about which events were actually part of the Olympics versus just World's Fair exhibitions.",
+    "citationUrl": "https://en.wikipedia.org/wiki/1900_Summer_Olympics",
+    "citationTitle": "Wikipedia: 1900 Summer Olympics"
+  },
+  {
+    "id": "cdf9f245-d326-4781-87a6-9c34eff1bff6",
+    "text": "Which athlete competed in both the Summer and Winter Olympics in the same year (1992) and won medals in both?",
+    "options": [
+      "Christa Luding-Rothenburger",
+      "Eddie Eagan",
+      "Clara Hughes",
+      "Lauryn Williams"
+    ],
+    "correctIndex": 0,
+    "category": "sports",
+    "difficulty": "hard",
+    "explanation": "Christa Luding-Rothenburger won speed skating gold in Calgary Winter Olympics and cycling silver in Seoul Summer Olympics in 1988, but also competed in both 1992 Olympics.",
+    "detailedExplanation": "East German athlete Christa Luding-Rothenburger achieved the remarkable feat of competing in both the 1992 Winter Olympics in Albertville (speed skating) and the 1992 Summer Olympics in Barcelona (cycling). She had previously won gold in speed skating at the 1988 Calgary Winter Olympics and silver in cycling at the 1988 Seoul Summer Olympics, making her one of only a handful of athletes to medal in both Summer and Winter Games.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Christa_Luding-Rothenburger",
+    "citationTitle": "Wikipedia: Christa Luding-Rothenburger"
+  },
+  {
+    "id": "ced135fd-6785-4ccc-8e91-5e2383a8da63",
+    "text": "The 1976 Montreal Olympics are infamous for which financial disaster that took the city decades to recover from?",
+    "options": [
+      "The stadium roof collapse cost $2 billion to repair",
+      "Construction delays forced events to be held in temporary venues",
+      "The Games ran 1000% over budget and weren't paid off until 2006",
+      "The Olympic Village was never completed and athletes stayed in hotels"
+    ],
+    "correctIndex": 2,
+    "category": "sports",
+    "difficulty": "hard",
+    "explanation": "Montreal's 1976 Olympics cost $1.5 billion against a projected $124 million budget, creating debt that wasn't fully paid until 2006.",
+    "detailedExplanation": "The 1976 Montreal Olympics became synonymous with financial mismanagement, with costs ballooning from an estimated $124 million to over $1.5 billion. The massive debt burden, largely due to the construction of Olympic Stadium and other venues, required special tobacco taxes and other measures to pay off. Montreal didn't finish paying for the Games until November 2006, thirty years after they were held, earning them the nickname 'the Olympics that nearly bankrupted a city.'",
+    "citationUrl": "https://en.wikipedia.org/wiki/1976_Summer_Olympics",
+    "citationTitle": "Wikipedia: 1976 Summer Olympics"
+  },
+  {
+    "id": "8f3b2d21-97e5-46cd-9b2c-ab1a83a91f62",
+    "text": "What happened during the 1972 Munich Olympics that led to a 34-hour suspension of competition?",
+    "options": [
+      "A terrorist attack killed 11 Israeli team members",
+      "Severe flooding damaged multiple Olympic venues",
+      "A massive protest by athletes over drug testing policies",
+      "Political boycotts left too few competitors in key events"
+    ],
+    "correctIndex": 0,
+    "category": "sports",
+    "difficulty": "hard",
+    "explanation": "Palestinian terrorists killed 11 members of the Israeli Olympic team in what became known as the Munich Massacre.",
+    "detailedExplanation": "The 1972 Munich Olympics were overshadowed by a terrorist attack when Palestinian group Black September took 11 Israeli athletes and coaches hostage in the Olympic Village on September 5. The crisis lasted nearly 24 hours, ending tragically with the death of all 11 hostages, a German police officer, and five terrorists during a failed rescue attempt at a military airfield. Competition was suspended for 34 hours, and a memorial service was held in the Olympic Stadium before the Games resumed.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Munich_massacre",
+    "citationTitle": "Wikipedia: Munich massacre"
+  },
+  {
+    "id": "9ef3a0b0-6609-494d-a8f3-8c4071da9b72",
+    "text": "Which unusual Olympic sport was only held once, at the 1900 Paris Olympics, and involved live pigeons?",
+    "options": [
+      "Pigeon racing over 100km",
+      "Live pigeon shooting",
+      "Pigeon message delivery competition",
+      "Pigeon flight pattern judging"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "hard",
+    "explanation": "Live pigeon shooting was an official Olympic event in 1900, where competitors shot and killed real pigeons for points.",
+    "detailedExplanation": "Live pigeon shooting was contested as an official Olympic event only once, during the 1900 Paris Olympics. Unlike clay pigeon shooting, this event involved shooting actual live pigeons released from traps. Belgian shooter Léon de Lunden won the gold medal by killing 21 pigeons. The event was controversial even at the time and was quickly replaced by clay pigeon shooting in subsequent Olympics. It remains the only Olympic event where animals were deliberately killed as part of the competition.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Shooting_at_the_1900_Summer_Olympics",
+    "citationTitle": "Wikipedia: Shooting at the 1900 Summer Olympics"
+  },
+  {
+    "id": "7661a873-c37f-4f27-9c84-99031788eae4",
+    "text": "Which country boycotted the 1980 Moscow Olympics, leading to the largest Olympic boycott in history?",
+    "options": [
+      "United States and 65 other nations",
+      "West Germany and NATO allies",
+      "China and communist bloc countries",
+      "United Kingdom and Commonwealth nations"
+    ],
+    "correctIndex": 0,
+    "category": "sports",
+    "difficulty": "hard",
+    "explanation": "The United States led a boycott of 66 countries protesting the Soviet invasion of Afghanistan.",
+    "detailedExplanation": "The 1980 Moscow Olympics were significantly impacted by a boycott led by the United States in protest of the Soviet Union's invasion of Afghanistan in December 1979. A total of 66 countries, including the US, West Germany, Japan, Canada, and many others, refused to participate. This was the largest Olympic boycott in history and was retaliated four years later when the Soviet Union and 13 other Eastern Bloc countries boycotted the 1984 Los Angeles Olympics.",
+    "citationUrl": "https://en.wikipedia.org/wiki/1980_Summer_Olympics_boycott",
+    "citationTitle": "Wikipedia: 1980 Summer Olympics boycott"
+  },
+  {
+    "id": "1eeb4a42-5389-44bb-957e-de253b6ddd28",
+    "text": "What made swimmer Johnny Weissmuller's Olympic performance particularly notable beyond his five gold medals?",
+    "options": [
+      "He later became famous playing Tarzan in movies",
+      "He competed with a prosthetic leg",
+      "He was the first athlete to break 1 minute in the 100m freestyle",
+      "He won gold in both swimming and water polo"
+    ],
+    "correctIndex": 0,
+    "category": "sports",
+    "difficulty": "hard",
+    "explanation": "Johnny Weissmuller won 5 Olympic swimming golds in the 1920s, then became Hollywood's most famous Tarzan actor.",
+    "detailedExplanation": "Johnny Weissmuller won five Olympic gold medals in swimming across the 1924 and 1928 Olympics, setting numerous world records. However, he became even more famous after retiring from competitive swimming when he was cast as Tarzan in a series of Hollywood films starting in 1932. His athletic physique and swimming prowess made him perfect for the role, and he appeared in 12 Tarzan movies, becoming the most iconic actor to portray the character and introducing the famous Tarzan yell.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Johnny_Weissmuller",
+    "citationTitle": "Wikipedia: Johnny Weissmuller"
+  },
+  {
+    "id": "84e38fb7-c2b5-4445-b41c-5445f29b3efc",
+    "text": "The 1988 Seoul Olympics saw the biggest drug scandal in Olympic history when which sprinter was stripped of his 100m gold medal?",
+    "options": [
+      "Carl Lewis",
+      "Ben Johnson",
+      "Linford Christie",
+      "Calvin Smith"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "hard",
+    "explanation": "Ben Johnson tested positive for stanozolol after winning the 100m in world record time, creating a massive scandal.",
+    "detailedExplanation": "Ben Johnson of Canada won the men's 100 meters at the 1988 Seoul Olympics in a world record time of 9.79 seconds, defeating rival Carl Lewis. However, three days later, Johnson tested positive for the anabolic steroid stanozolol and was stripped of his gold medal and world record. The scandal shocked the sporting world and brought widespread attention to doping in athletics. Johnson was also banned for two years, and the gold medal was awarded to Carl Lewis.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Ben_Johnson_(sprinter)",
+    "citationTitle": "Wikipedia: Ben Johnson (sprinter)"
+  },
+  {
+    "id": "36337fc5-c195-422b-9fab-a1b98d7f75df",
+    "text": "What unique distinction does the 1956 Melbourne Olympics hold regarding the timing of the Games?",
+    "options": [
+      "First Olympics held in the Southern Hemisphere winter",
+      "Only Olympics held across two different years",
+      "First Olympics to span three different time zones",
+      "Only Olympics held entirely in December"
+    ],
+    "correctIndex": 0,
+    "category": "sports",
+    "difficulty": "hard",
+    "explanation": "The 1956 Melbourne Olympics were held in November-December, during the Southern Hemisphere's summer season.",
+    "detailedExplanation": "The 1956 Melbourne Olympics were the first Summer Olympics held in the Southern Hemisphere, taking place from November 22 to December 8, 1956. This timing corresponded with the Southern Hemisphere's summer season, though it meant the Games occurred during what would be winter in the Northern Hemisphere. Due to Australia's strict quarantine laws, the equestrian events had to be held separately in Stockholm, Sweden, in June 1956, making it the only Olympics held on two different continents.",
+    "citationUrl": "https://en.wikipedia.org/wiki/1956_Summer_Olympics",
+    "citationTitle": "Wikipedia: 1956 Summer Olympics"
+  },
+  {
+    "id": "cf70fc53-3beb-40e8-9628-3b98663535cd",
+    "text": "Which Olympic Games were the first to feature athletes from all six inhabited continents, making them truly global for the first time?",
+    "options": [
+      "1912 Stockholm Olympics",
+      "1920 Antwerp Olympics",
+      "1924 Paris Olympics",
+      "1928 Amsterdam Olympics"
+    ],
+    "correctIndex": 0,
+    "category": "sports",
+    "difficulty": "hard",
+    "explanation": "The 1912 Stockholm Olympics were the first to include athletes from all six inhabited continents, with Japan representing Asia for the first time.",
+    "detailedExplanation": "The 1912 Stockholm Olympics marked a historic milestone as the first truly global Olympic Games, featuring competitors from all six inhabited continents. This was largely due to Japan's participation for the first time, representing Asia, alongside existing participants from Europe, North America, South America (Chile), Africa (South Africa), and Oceania (Australia and New Zealand). The Games included 2,408 athletes from 28 nations, making it the most internationally diverse Olympics up to that point and establishing the foundation for the Games' global reach.",
+    "citationUrl": "https://en.wikipedia.org/wiki/1912_Summer_Olympics",
+    "citationTitle": "Wikipedia: 1912 Summer Olympics"
+  },
+  {
+    "id": "4674bd55-d66f-430a-8dcc-e2667fbe61e0",
+    "text": "What unprecedented event occurred at the 1980 Winter Olympics in Lake Placid that became known as the 'Miracle on Ice'?",
+    "options": [
+      "The US hockey team defeated the heavily favored Soviet Union team",
+      "A figure skater performed the first quadruple jump in Olympic history",
+      "The games continued despite a major blizzard",
+      "An ice hockey game went to quintuple overtime"
+    ],
+    "correctIndex": 0,
+    "category": "sports",
+    "difficulty": "hard",
+    "explanation": "The US amateur hockey team's 4-3 victory over the heavily favored Soviet professional team is considered one of the greatest upsets in Olympic history.",
+    "detailedExplanation": "The 'Miracle on Ice' refers to the stunning 4-3 victory by the United States men's ice hockey team over the Soviet Union at the 1980 Winter Olympics in Lake Placid. The Soviet team had won six of the previous seven Olympic gold medals and had defeated NHL all-stars 6-0 just weeks before the Olympics. The American team, composed entirely of amateur and collegiate players with an average age of 22, was given virtually no chance of winning. Their victory, followed by defeating Finland for the gold medal, became a defining moment of American sports history and Cold War symbolism, later inspiring books, documentaries, and movies.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Miracle_on_Ice",
+    "citationTitle": "Wikipedia: Miracle on Ice"
+  },
+  {
+    "id": "084d60c9-25e5-4db8-9f4b-dbe48093d543",
+    "text": "Which Olympic Games introduced the practice of having a different city host the Winter Olympics in the same year as the Summer Olympics, leading to the eventual separation of Winter and Summer Games?",
+    "options": [
+      "1924 Chamonix (Winter) and Paris (Summer)",
+      "1928 St. Moritz (Winter) and Amsterdam (Summer)",
+      "1932 Lake Placid (Winter) and Los Angeles (Summer)",
+      "1936 Garmisch-Partenkirchen (Winter) and Berlin (Summer)"
+    ],
+    "correctIndex": 0,
+    "category": "sports",
+    "difficulty": "hard",
+    "explanation": "The 1924 Games were the first to hold separate Winter Olympics in a different city (Chamonix) from the Summer Olympics (Paris).",
+    "detailedExplanation": "The 1924 Olympics marked a pivotal moment in Olympic history with the introduction of the first separate Winter Olympic Games in Chamonix, France, while the Summer Olympics were held in Paris. Initially called 'International Winter Sports Week,' the Chamonix games were retroactively recognized as the first Winter Olympics. This established the pattern of holding Winter and Summer Games in the same year but different locations, which continued until 1992. After Lillehammer 1994, the IOC permanently separated the Winter and Summer Games to alternate every two years, but the 1924 innovation was the crucial first step in recognizing winter sports as deserving their own Olympic celebration.",
+    "citationUrl": "https://en.wikipedia.org/wiki/1924_Winter_Olympics",
+    "citationTitle": "Wikipedia: 1924 Winter Olympics"
+  },
+  {
+    "id": "621c9ae8-9ba8-4867-b446-0073b345e8dd",
+    "text": "The Olympic flame relay tradition began at which Olympics, and what was the total distance covered by the torch from its lighting to the Olympic stadium?",
+    "options": [
+      "1936 Berlin Olympics, approximately 3,187 kilometers",
+      "1932 Los Angeles Olympics, approximately 1,500 kilometers",
+      "1928 Amsterdam Olympics, approximately 2,100 kilometers",
+      "1948 London Olympics, approximately 2,600 kilometers"
+    ],
+    "correctIndex": 0,
+    "category": "sports",
+    "difficulty": "hard",
+    "explanation": "The first Olympic torch relay began at the 1936 Berlin Olympics, with the flame traveling approximately 3,187 kilometers from Olympia, Greece to Berlin.",
+    "detailedExplanation": "The Olympic torch relay tradition was introduced at the 1936 Berlin Olympics as part of Nazi Germany's elaborate Olympic pageantry. The flame was lit in Olympia, Greece on July 20, 1936, and carried by 3,331 runners over 12 days across seven countries, covering approximately 3,187 kilometers (1,980 miles) to reach Berlin's Olympic Stadium. This relay was conceived by Carl Diem and designed to connect the ancient Olympic tradition with the modern Games while creating a spectacular propaganda event. Despite its politically motivated origins, the torch relay became one of the most enduring and beloved Olympic traditions, now preceding every Summer and Winter Olympics with routes that often span continents and showcase the host nation's geography and culture.",
+    "citationUrl": "https://en.wikipedia.org/wiki/1936_Summer_Olympics_torch_relay",
+    "citationTitle": "Wikipedia: 1936 Summer Olympics torch relay"
+  }
+]

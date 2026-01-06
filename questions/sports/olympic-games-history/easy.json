@@ -1,0 +1,342 @@
+[
+  {
+    "id": "65bd0645-ac96-404f-80b2-0b30f552c697",
+    "text": "In which city were the first modern Olympic Games held in 1896?",
+    "options": [
+      "Paris",
+      "Athens",
+      "London",
+      "Rome"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "The first modern Olympic Games were held in Athens, Greece in 1896.",
+    "detailedExplanation": "The 1896 Summer Olympics, officially known as the Games of the I Olympiad, were held in Athens, Greece from April 6 to 15, 1896. Pierre de Coubertin founded the International Olympic Committee (IOC) in 1894, and Athens was chosen as the host city to honor the ancient Greek origins of the Olympic Games. The games featured 241 athletes from 14 nations competing in 43 events.",
+    "citationUrl": "https://en.wikipedia.org/wiki/1896_Summer_Olympics",
+    "citationTitle": "Wikipedia: 1896 Summer Olympics"
+  },
+  {
+    "id": "f6277d9d-687e-4c6f-b2cb-4a60a9405781",
+    "text": "How often are the Summer Olympic Games typically held?",
+    "options": [
+      "Every 2 years",
+      "Every 4 years",
+      "Every 3 years",
+      "Every 6 years"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "The Summer Olympic Games are held every four years.",
+    "detailedExplanation": "The Olympic Games follow a four-year cycle known as an Olympiad, a tradition that dates back to the ancient Olympic Games in Greece. This four-year interval allows sufficient time for preparation by host cities and athletes, and maintains the special nature of the competition. The only major interruptions to this schedule occurred during World War I and World War II when several games were cancelled.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Olympic_Games",
+    "citationTitle": "Wikipedia: Olympic Games"
+  },
+  {
+    "id": "48557814-34f5-4a06-a3cd-0458cf6df667",
+    "text": "What do the five interlocking rings in the Olympic symbol represent?",
+    "options": [
+      "The five Olympic sports",
+      "The five continents",
+      "The five founding countries",
+      "The five Olympic values"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "The five rings represent the five inhabited continents of the world.",
+    "detailedExplanation": "The Olympic rings were designed by Pierre de Coubertin in 1913 and represent the union of the five inhabited continents: Africa, the Americas, Asia, Europe, and Oceania. The six colors (including the white background) were chosen because at least one of these colors appeared on every national flag at the time. The interlocking design symbolizes the meeting of athletes from around the world at the Olympic Games.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Olympic_symbols",
+    "citationTitle": "Wikipedia: Olympic symbols"
+  },
+  {
+    "id": "c51862d2-97f9-4477-aab3-958cd9cd60c3",
+    "text": "When were the first Winter Olympic Games held?",
+    "options": [
+      "1920",
+      "1924",
+      "1928",
+      "1932"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "The first Winter Olympic Games were held in 1924 in Chamonix, France.",
+    "detailedExplanation": "The 1924 Winter Olympics, officially known as the I Olympic Winter Games, were held in Chamonix, France from January 25 to February 5, 1924. Initially called 'International Winter Sports Week,' the event was retroactively designated as the first Winter Olympics. The games featured 258 athletes from 16 nations competing in 16 events across six sports disciplines.",
+    "citationUrl": "https://en.wikipedia.org/wiki/1924_Winter_Olympics",
+    "citationTitle": "Wikipedia: 1924 Winter Olympics"
+  },
+  {
+    "id": "ddbbc17d-5e29-4edc-9d0e-90c925916619",
+    "text": "Which Olympic Games were cancelled due to World War II?",
+    "options": [
+      "1940 and 1944",
+      "1936 and 1940",
+      "1944 and 1948",
+      "1940 and 1948"
+    ],
+    "correctIndex": 0,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "The 1940 and 1944 Olympic Games were cancelled due to World War II.",
+    "detailedExplanation": "World War II caused the cancellation of both the 1940 and 1944 Olympic Games. The 1940 Summer Olympics were originally awarded to Tokyo but were moved to Helsinki due to the Second Sino-Japanese War, then cancelled entirely. The 1940 Winter Olympics, originally scheduled for Sapporo, were also cancelled. The 1944 Olympics, planned for London, were cancelled as the war continued. The Olympics resumed in 1948 with the London Summer Olympics.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Olympic_Games",
+    "citationTitle": "Wikipedia: Olympic Games"
+  },
+  {
+    "id": "177dbfaa-a49d-457c-8ff5-3faaefc4481e",
+    "text": "What is the Olympic motto in Latin?",
+    "options": [
+      "Citius, Altius, Fortius",
+      "Velocius, Altius, Fortius",
+      "Citius, Altior, Fortius",
+      "Citus, Altius, Fortior"
+    ],
+    "correctIndex": 0,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "The Olympic motto is 'Citius, Altius, Fortius' meaning 'Faster, Higher, Stronger'.",
+    "detailedExplanation": "The Olympic motto 'Citius, Altius, Fortius' was proposed by Pierre de Coubertin in 1894 and was borrowed from his friend Henri Didon, a Dominican priest who used it to describe the achievements of athletes at his school. The motto expresses the Olympic spirit of striving for excellence and pushing human limits. In 2021, the IOC updated the motto to 'Citius, Altius, Fortius - Communiter' (Together) to emphasize solidarity.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Olympic_symbols",
+    "citationTitle": "Wikipedia: Olympic symbols"
+  },
+  {
+    "id": "4b024811-717f-4f2f-8215-7c6aa9bb9b9f",
+    "text": "In which year did women first participate in the modern Olympic Games?",
+    "options": [
+      "1896",
+      "1900",
+      "1904",
+      "1908"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "Women first participated in the modern Olympics in 1900 at the Paris Games.",
+    "detailedExplanation": "Women made their Olympic debut at the 1900 Summer Olympics in Paris, though their participation was very limited. Only 22 women competed out of 997 total athletes, representing just 2.2% of participants. They competed in five sports: tennis, sailing, croquet, equestrian, and golf. Charlotte Cooper of Great Britain became the first woman to win an Olympic gold medal, winning the tennis singles competition.",
+    "citationUrl": "https://en.wikipedia.org/wiki/1900_Summer_Olympics",
+    "citationTitle": "Wikipedia: 1900 Summer Olympics"
+  },
+  {
+    "id": "80cf450b-9206-4c11-be5e-ec9b68f8e02d",
+    "text": "Which city has hosted the Summer Olympic Games three times?",
+    "options": [
+      "Paris",
+      "Tokyo",
+      "London",
+      "Los Angeles"
+    ],
+    "correctIndex": 2,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "London has hosted the Summer Olympics three times: 1908, 1948, and 2012.",
+    "detailedExplanation": "London holds the distinction of being the only city to have hosted the Summer Olympic Games three times. The city first hosted in 1908 (taking over from Rome), then again in 1948 (the first post-World War II Olympics, known as the 'Austerity Olympics'), and most recently in 2012. Paris will join London as a three-time host when it hosts the 2024 Olympics, having previously hosted in 1900 and 1924.",
+    "citationUrl": "https://en.wikipedia.org/wiki/London",
+    "citationTitle": "Wikipedia: London"
+  },
+  {
+    "id": "d1c35cf2-f97b-41e0-a2e6-482196d2bb01",
+    "text": "Which ancient Greek sanctuary was the original home of the Olympic Games?",
+    "options": [
+      "Delphi",
+      "Olympia",
+      "Corinth",
+      "Sparta"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "The ancient Olympic Games were held in Olympia, a sanctuary in western Greece.",
+    "detailedExplanation": "The ancient Olympic Games took place in Olympia, a sacred site in the western Peloponnese region of Greece. These games were held regularly from 776 BC to 393-394 AD, making them one of the oldest known sporting competitions. The site was dedicated to Zeus, the king of the Greek gods, and featured various temples and sporting venues. The modern Olympic Games draw their name and inspiration from this ancient Greek tradition.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Ancient_Olympic_Games",
+    "citationTitle": "Wikipedia: Ancient Olympic Games"
+  },
+  {
+    "id": "6fcda58f-3099-46b8-b7d4-13f34a2663d1",
+    "text": "What is lit at the opening ceremony of each Olympic Games using rays from the sun?",
+    "options": [
+      "Olympic Beacon",
+      "Sacred Fire",
+      "Olympic Torch",
+      "Victory Flame"
+    ],
+    "correctIndex": 2,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "The Olympic Torch is lit using the sun's rays in a ceremony at Olympia, Greece.",
+    "detailedExplanation": "The Olympic Torch lighting ceremony is one of the most iconic traditions of the modern Olympic Games. Several months before each Olympics, the torch is lit at the ancient site of Olympia in Greece using a parabolic mirror to focus the sun's rays. This flame is then carried by relay runners to the host city, where it lights the Olympic cauldron during the opening ceremony. This tradition was first introduced for the 1936 Berlin Olympics and has continued ever since, symbolizing the link between ancient and modern Olympic Games.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Olympic_flame",
+    "citationTitle": "Wikipedia: Olympic flame"
+  },
+  {
+    "id": "ceb9ee9d-d2e2-4247-9fd2-03d0d09f61e2",
+    "text": "Which medal is awarded to athletes who finish in second place at the Olympic Games?",
+    "options": [
+      "Bronze",
+      "Silver",
+      "Gold",
+      "Platinum"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "Silver medals are awarded to second-place finishers at the Olympic Games.",
+    "detailedExplanation": "The modern Olympic medal system awards gold medals to first place, silver medals to second place, and bronze medals to third place finishers. This three-medal system was established at the 1904 Summer Olympics in St. Louis. Prior to this, winners at the first modern Olympics in 1896 received silver medals and olive branches, while second-place finishers received bronze medals. The current system has remained consistent for over a century and is now synonymous with Olympic competition worldwide.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Olympic_medal",
+    "citationTitle": "Wikipedia: Olympic medal"
+  },
+  {
+    "id": "15cd71e4-13e0-4333-aaf6-0b8c96b027cd",
+    "text": "In which country did the ancient Olympic Games originate?",
+    "options": [
+      "Italy",
+      "Turkey",
+      "Greece",
+      "Egypt"
+    ],
+    "correctIndex": 2,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "The ancient Olympic Games originated in Greece around 776 BC.",
+    "detailedExplanation": "The ancient Olympic Games originated in ancient Greece, specifically in the sanctuary of Olympia in the western Peloponnese. The first recorded Olympic Games date back to 776 BC, though they may have begun even earlier. These games were held in honor of Zeus and featured various athletic competitions including running, wrestling, boxing, chariot racing, and the pentathlon. The ancient games continued for nearly 12 centuries until Emperor Theodosius I banned them in 393-394 AD as part of the campaign to impose Christian orthodoxy.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Ancient_Olympic_Games",
+    "citationTitle": "Wikipedia: Ancient Olympic Games"
+  },
+  {
+    "id": "47b57db2-5421-4205-87ab-bd9103e16804",
+    "text": "What color are the Olympic rings that appear on the Olympic flag?",
+    "options": [
+      "Red, blue, green, yellow, and black",
+      "Red, blue, green, yellow, and white",
+      "Red, blue, green, orange, and black",
+      "Red, blue, purple, yellow, and black"
+    ],
+    "correctIndex": 0,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "The Olympic rings are blue, yellow, black, green, and red on a white background.",
+    "detailedExplanation": "The Olympic flag features five interlocking rings in blue, yellow, black, green, and red colors on a white background. This design was created by Baron Pierre de Coubertin in 1913 and was first used at the 1920 Antwerp Olympics. According to Coubertin, these six colors (including the white background) were chosen because every nation's flag contained at least one of these colors, making the symbol truly universal. The rings themselves represent the union of the five inhabited continents and the meeting of athletes from around the world.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Olympic_symbols",
+    "citationTitle": "Wikipedia: Olympic symbols"
+  },
+  {
+    "id": "280941cb-7196-4d5d-8f21-3b8ef699fe89",
+    "text": "Who is credited with founding the modern Olympic Games?",
+    "options": [
+      "Baron Pierre de Coubertin",
+      "King George I of Greece",
+      "Demetrios Vikelas",
+      "Henri Didon"
+    ],
+    "correctIndex": 0,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "Baron Pierre de Coubertin founded the modern Olympic Games and established the International Olympic Committee.",
+    "detailedExplanation": "Baron Pierre de Coubertin, a French educator and historian, is credited with founding the modern Olympic Games. In 1894, he established the International Olympic Committee (IOC) and organized the first modern Olympics in Athens in 1896. Coubertin was inspired by the ancient Greek Olympic Games and believed that international sporting competition could promote peace and understanding between nations. He served as the second President of the IOC from 1896 to 1925 and was instrumental in developing many Olympic traditions, including the Olympic Charter, the Olympic symbol, and the Olympic motto.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Pierre_de_Coubertin",
+    "citationTitle": "Wikipedia: Pierre de Coubertin"
+  },
+  {
+    "id": "5bd7a33d-6466-4a80-8deb-459444053282",
+    "text": "At which Olympic Games did professional athletes first become eligible to compete?",
+    "options": [
+      "1984 Los Angeles",
+      "1988 Seoul",
+      "1992 Barcelona",
+      "1996 Atlanta"
+    ],
+    "correctIndex": 2,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "The 1992 Barcelona Olympics were the first to allow professional athletes in all sports.",
+    "detailedExplanation": "The 1992 Summer Olympics in Barcelona marked a significant shift in Olympic eligibility rules, as they were the first Olympics to allow professional athletes to compete in all sports without restriction. Prior to this, the Olympics maintained strict amateurism rules, though these had been gradually relaxed in various sports throughout the 1980s. The change was most notably demonstrated by the participation of the United States' 'Dream Team' in basketball, featuring NBA superstars like Michael Jordan, Magic Johnson, and Larry Bird. This policy change helped raise the overall quality of competition and global interest in the Olympic Games.",
+    "citationUrl": "https://en.wikipedia.org/wiki/1992_Summer_Olympics",
+    "citationTitle": "Wikipedia: 1992 Summer Olympics"
+  },
+  {
+    "id": "110a1394-53b8-48b1-bc45-80cd11669c17",
+    "text": "What is the maximum number of sports that can be included in a Summer Olympic Games program?",
+    "options": [
+      "25",
+      "28",
+      "30",
+      "35"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "The IOC has set a limit of 28 sports for the Summer Olympic Games program.",
+    "detailedExplanation": "According to International Olympic Committee regulations established in 2002, the Summer Olympic Games program is limited to a maximum of 28 sports. This limit was set to control the size and cost of the Olympics while maintaining the Games' sporting integrity. Host cities can propose additional sports for their specific Games, but the total cannot exceed 28. The rule also established limits on the number of events (300 maximum) and athletes (10,500 maximum) to keep the Olympics manageable. This framework helps ensure that the Olympics remain focused while allowing for some flexibility and innovation in the program.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Olympic_sports",
+    "citationTitle": "Wikipedia: Olympic sports"
+  },
+  {
+    "id": "af2aa03f-a753-4b0a-bc42-0212da515b0a",
+    "text": "Which athlete holds the record for winning the most Olympic gold medals in history?",
+    "options": [
+      "Carl Lewis",
+      "Michael Phelps",
+      "Mark Spitz",
+      "Larisa Latynina"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "Michael Phelps holds the record with 23 Olympic gold medals.",
+    "detailedExplanation": "American swimmer Michael Phelps is the most decorated Olympian of all time, having won 28 Olympic medals total, with 23 of them being gold medals. He competed in four Olympic Games (2004, 2008, 2012, 2016) and dominated swimming events, particularly in Beijing 2008 where he won eight gold medals in a single Games, breaking Mark Spitz's previous record of seven golds in one Olympics.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Michael_Phelps",
+    "citationTitle": "Wikipedia: Michael Phelps"
+  },
+  {
+    "id": "934e9c21-e419-4f0a-884b-863d912b3fd8",
+    "text": "Which country boycotted the 1980 Summer Olympics in Moscow?",
+    "options": [
+      "Soviet Union",
+      "East Germany",
+      "United States",
+      "Cuba"
+    ],
+    "correctIndex": 2,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "The United States led a boycott of the 1980 Moscow Olympics due to the Soviet invasion of Afghanistan.",
+    "detailedExplanation": "The United States, along with approximately 65 other countries, boycotted the 1980 Summer Olympics in Moscow in protest of the Soviet Union's invasion of Afghanistan in December 1979. This was one of the most significant political protests in Olympic history. In retaliation, the Soviet Union and several Eastern Bloc countries boycotted the 1984 Summer Olympics in Los Angeles, creating a tit-for-tat situation that disrupted two consecutive Olympic Games.",
+    "citationUrl": "https://en.wikipedia.org/wiki/1980_Summer_Olympics_boycott",
+    "citationTitle": "Wikipedia: 1980 Summer Olympics boycott"
+  },
+  {
+    "id": "7686946f-30f0-4709-8b23-d24ff8094800",
+    "text": "In what year did the Paralympic Games first take place alongside the Olympics?",
+    "options": [
+      "1948",
+      "1960",
+      "1964",
+      "1972"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "The first Paralympic Games were held in Rome in 1960, coinciding with the Summer Olympics.",
+    "detailedExplanation": "The Paralympic Games began in 1960 in Rome, Italy, as the first official Paralympic competition. These games grew out of the Stoke Mandeville Games, which were first held in 1948 for World War II veterans with spinal cord injuries. The 1960 Rome Paralympics featured 400 athletes from 23 countries competing in eight sports. The term 'Paralympic' was initially thought to combine 'paraplegic' and 'Olympic,' but is now understood to mean 'parallel to the Olympics.'",
+    "citationUrl": "https://en.wikipedia.org/wiki/Paralympic_Games",
+    "citationTitle": "Wikipedia: Paralympic Games"
+  },
+  {
+    "id": "953f329d-7883-41e2-91fc-f78f589da8fd",
+    "text": "Which Olympic Games were the first to be broadcast live on television worldwide?",
+    "options": [
+      "1964 Tokyo Olympics",
+      "1968 Mexico City Olympics",
+      "1972 Munich Olympics",
+      "1976 Montreal Olympics"
+    ],
+    "correctIndex": 0,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "The 1964 Tokyo Olympics were the first to be broadcast live worldwide via satellite.",
+    "detailedExplanation": "The 1964 Summer Olympics in Tokyo marked a revolutionary moment in Olympic broadcasting history. These Games were the first to be broadcast live internationally via satellite, reaching audiences across the globe in real-time. This was made possible by the launch of communication satellites that could relay television signals across continents. The Tokyo Olympics also featured the first color Olympic broadcasts, though most viewers still watched in black and white. This technological breakthrough transformed the Olympics into the global spectacle we know today.",
+    "citationUrl": "https://en.wikipedia.org/wiki/1964_Summer_Olympics",
+    "citationTitle": "Wikipedia: 1964 Summer Olympics"
+  }
+]

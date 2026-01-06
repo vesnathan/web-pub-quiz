@@ -1,0 +1,342 @@
+[
+  {
+    "id": "ba851f22-590e-4beb-bd73-b5da8b9a4df6",
+    "text": "What does NASA stand for?",
+    "options": [
+      "National Aeronautics and Space Administration",
+      "National Aviation and Space Agency",
+      "North American Space Alliance",
+      "National Aerospace and Satellite Administration"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "NASA stands for National Aeronautics and Space Administration.",
+    "detailedExplanation": "NASA was established in 1958 as the United States' civilian space agency. The National Aeronautics and Space Administration was created to oversee and coordinate the country's space exploration efforts, taking over from the earlier National Advisory Committee for Aeronautics (NACA). NASA has been responsible for numerous historic achievements including the Apollo moon landings, the Space Shuttle program, and the International Space Station.",
+    "citationUrl": "https://en.wikipedia.org/wiki/NASA",
+    "citationTitle": "Wikipedia: NASA"
+  },
+  {
+    "id": "90b75566-61a1-4d1c-9637-d5d92d08a3bd",
+    "text": "Which was the first artificial satellite launched into Earth's orbit?",
+    "options": [
+      "Explorer 1",
+      "Sputnik 1",
+      "Telstar 1",
+      "Luna 1"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Sputnik 1 was the first artificial satellite launched into Earth's orbit in 1957.",
+    "detailedExplanation": "Sputnik 1 was launched by the Soviet Union on October 4, 1957, marking the beginning of the Space Age. This basketball-sized satellite weighed about 183 pounds and orbited Earth every 96 minutes. Its successful launch shocked the world and triggered the Space Race between the Soviet Union and the United States. The satellite transmitted radio signals back to Earth for 21 days before its batteries died.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Sputnik_1",
+    "citationTitle": "Wikipedia: Sputnik 1"
+  },
+  {
+    "id": "744fc2ae-3b0b-4903-a0bc-db9942378c78",
+    "text": "What type of fuel do most modern rockets use?",
+    "options": [
+      "Gasoline",
+      "Liquid oxygen and rocket fuel",
+      "Nuclear fuel",
+      "Solar power"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Most modern rockets use liquid oxygen combined with various rocket fuels like kerosene or hydrogen.",
+    "detailedExplanation": "Modern rockets typically use liquid propellants, most commonly liquid oxygen (LOX) as an oxidizer combined with fuels such as rocket-grade kerosene (RP-1) or liquid hydrogen. This combination provides the chemical reaction necessary to generate the tremendous thrust needed to escape Earth's gravity. The Space Shuttle used liquid hydrogen and oxygen, while SpaceX's Falcon 9 uses RP-1 kerosene and liquid oxygen. These liquid propellants offer better performance and control compared to solid fuels.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Rocket_propellant",
+    "citationTitle": "Wikipedia: Rocket propellant"
+  },
+  {
+    "id": "aa736c4b-132a-496f-8f9a-81304088061a",
+    "text": "How long does it typically take for a radio signal to travel from Earth to Mars?",
+    "options": [
+      "4-24 minutes",
+      "2 hours",
+      "30 seconds",
+      "1 minute"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Radio signals take between 4 and 24 minutes to travel from Earth to Mars, depending on the planets' positions.",
+    "detailedExplanation": "The time it takes for radio signals to travel between Earth and Mars varies significantly due to the elliptical orbits of both planets. When Mars and Earth are at their closest approach (about 35 million miles apart), signals take approximately 4 minutes. When they are on opposite sides of the Sun at their farthest distance (about 250 million miles apart), signals can take up to 24 minutes. This communication delay is a major challenge for controlling Mars rovers and spacecraft in real-time.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Communications_with_Mars",
+    "citationTitle": "Wikipedia: Communications with Mars"
+  },
+  {
+    "id": "bc0646f5-9a5e-4093-825d-19ca8cb552b0",
+    "text": "What is the name of the first reusable space shuttle?",
+    "options": [
+      "Discovery",
+      "Enterprise",
+      "Columbia",
+      "Atlantis"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Columbia was the first space shuttle to complete an orbital mission in 1981.",
+    "detailedExplanation": "Columbia was the first space shuttle to fly in space, launching on April 12, 1981, with astronauts John Young and Robert Crippen aboard. While Enterprise was the first shuttle built, it was only used for atmospheric test flights and never flew in space. Columbia completed 27 successful missions over 22 years before tragically breaking apart during re-entry in 2003. The shuttle represented a revolutionary approach to space travel as the first reusable orbital spacecraft.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Space_Shuttle_Columbia",
+    "citationTitle": "Wikipedia: Space Shuttle Columbia"
+  },
+  {
+    "id": "1de90d53-6e60-4f91-9127-b923de112568",
+    "text": "Which company founded by Elon Musk focuses on space exploration?",
+    "options": [
+      "Blue Origin",
+      "Virgin Galactic",
+      "SpaceX",
+      "Boeing Space"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "SpaceX (Space Exploration Technologies Corp.) was founded by Elon Musk in 2002.",
+    "detailedExplanation": "SpaceX was founded by Elon Musk in 2002 with the goal of reducing space transportation costs and enabling the colonization of Mars. The company has achieved numerous milestones including being the first private company to send astronauts to the International Space Station, developing the first reusable orbital rocket (Falcon 9), and creating the world's most powerful operational rocket (Falcon Heavy). SpaceX has revolutionized the space industry with its focus on reusability and cost reduction.",
+    "citationUrl": "https://en.wikipedia.org/wiki/SpaceX",
+    "citationTitle": "Wikipedia: SpaceX"
+  },
+  {
+    "id": "6a771795-eb73-4792-a181-d153bda952d0",
+    "text": "What does GPS stand for in satellite navigation?",
+    "options": [
+      "Global Positioning System",
+      "General Purpose Satellite",
+      "Geo-Physical Survey",
+      "Ground Positioning Service"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "GPS stands for Global Positioning System, a satellite-based navigation system.",
+    "detailedExplanation": "The Global Positioning System (GPS) is a satellite-based navigation system owned by the United States government and operated by the U.S. Space Force. It consists of at least 24 satellites orbiting Earth that transmit signals allowing GPS receivers to determine their precise location, velocity, and time. Originally developed for military use in the 1970s, GPS was made available for civilian use and has become essential for navigation, mapping, surveying, and many other applications in modern life.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Global_Positioning_System",
+    "citationTitle": "Wikipedia: Global Positioning System"
+  },
+  {
+    "id": "aacb5f2c-cc34-4efe-8fa0-490e19df3298",
+    "text": "At what altitude is the International Space Station (ISS) typically located?",
+    "options": [
+      "About 250 miles (400 km)",
+      "About 500 miles (800 km)",
+      "About 1000 miles (1600 km)",
+      "About 100 miles (160 km)"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "The ISS orbits at approximately 250 miles (400 kilometers) above Earth's surface.",
+    "detailedExplanation": "The International Space Station orbits Earth at an average altitude of about 250 miles (408 kilometers) above the planet's surface. This altitude is within the thermosphere and represents a balance between several factors: it's high enough to avoid most atmospheric drag that would quickly decay the orbit, but low enough that supply missions from Earth remain relatively economical. The ISS completes one orbit around Earth approximately every 90 minutes at this altitude, traveling at a speed of about 17,500 miles per hour.",
+    "citationUrl": "https://en.wikipedia.org/wiki/International_Space_Station",
+    "citationTitle": "Wikipedia: International Space Station"
+  },
+  {
+    "id": "2365f49f-b906-4dc5-bd11-5cd74dfcc97c",
+    "text": "What is the name of the robotic rover that successfully landed on Mars in 2021?",
+    "options": [
+      "Curiosity",
+      "Perseverance",
+      "Opportunity",
+      "Spirit"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Perseverance is the Mars rover that landed in February 2021.",
+    "detailedExplanation": "NASA's Perseverance rover successfully landed on Mars on February 18, 2021, in Jezero Crater. This six-wheeled robotic explorer is part of NASA's Mars 2020 mission and is equipped with advanced instruments to search for signs of ancient microbial life, collect rock and soil samples, and produce oxygen from the Martian atmosphere.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Perseverance_(rover)",
+    "citationTitle": "Wikipedia: Perseverance (rover)"
+  },
+  {
+    "id": "316902c7-ffd9-4319-922f-bda9360eafa6",
+    "text": "Which space telescope, launched in 1990, has provided stunning images of distant galaxies and nebulae?",
+    "options": [
+      "Kepler",
+      "Spitzer",
+      "Hubble",
+      "James Webb"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "The Hubble Space Telescope was launched in 1990 and has captured iconic space images.",
+    "detailedExplanation": "The Hubble Space Telescope, launched aboard the Space Shuttle Discovery in 1990, has revolutionized our understanding of the universe. Operating in low Earth orbit, it has captured breathtaking images of galaxies, nebulae, and other celestial objects while avoiding atmospheric distortion that affects ground-based telescopes.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Hubble_Space_Telescope",
+    "citationTitle": "Wikipedia: Hubble Space Telescope"
+  },
+  {
+    "id": "8c641127-94cd-4f1c-8bf4-8839d05fca76",
+    "text": "What does EVA stand for in space missions?",
+    "options": [
+      "Extra Vehicular Activity",
+      "Emergency Vehicle Access",
+      "Extended Voyage Assessment",
+      "External Valve Activation"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "EVA stands for Extra Vehicular Activity, commonly known as a spacewalk.",
+    "detailedExplanation": "Extra Vehicular Activity (EVA) refers to any activity performed by an astronaut outside a spacecraft beyond Earth's atmosphere. During EVAs, astronauts wear specialized spacesuits that provide life support and protection from the vacuum of space, radiation, and extreme temperatures. These spacewalks are essential for satellite repairs, space station maintenance, and scientific experiments.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Extravehicular_activity",
+    "citationTitle": "Wikipedia: Extravehicular activity"
+  },
+  {
+    "id": "3c6b5820-7022-4925-bf04-b2fd82c995f1",
+    "text": "Which country launched the first human into space?",
+    "options": [
+      "United States",
+      "China",
+      "Soviet Union",
+      "France"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "The Soviet Union launched Yuri Gagarin, the first human in space, in 1961.",
+    "detailedExplanation": "On April 12, 1961, Soviet cosmonaut Yuri Gagarin became the first human to travel into space aboard the Vostok 1 spacecraft. This historic achievement marked a significant milestone in the Space Race and demonstrated the Soviet Union's early leadership in space exploration technology during the Cold War era.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Yuri_Gagarin",
+    "citationTitle": "Wikipedia: Yuri Gagarin"
+  },
+  {
+    "id": "a4833ce3-2c42-49ec-8827-7b68244e3029",
+    "text": "What is the primary purpose of a heat shield on a spacecraft?",
+    "options": [
+      "To protect against solar radiation",
+      "To prevent overheating of electronics",
+      "To protect during atmospheric re-entry",
+      "To shield against space debris"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Heat shields protect spacecraft from extreme temperatures during atmospheric re-entry.",
+    "detailedExplanation": "Heat shields are critical components that protect spacecraft and their occupants from the intense heat generated during atmospheric re-entry. As a spacecraft travels at high speeds through the atmosphere, friction creates temperatures that can exceed 3,000°F (1,650°C). The heat shield uses ablative materials that burn away in a controlled manner, dissipating heat and protecting the vehicle's structure.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Heat_shield",
+    "citationTitle": "Wikipedia: Heat shield"
+  },
+  {
+    "id": "b64d1a38-ac09-43df-af57-16426b522a4a",
+    "text": "What is the name of the European Space Agency's spaceport located in South America?",
+    "options": [
+      "Kourou",
+      "Baikonur",
+      "Plesetsk",
+      "Vandenberg"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Kourou is the European Space Agency's launch facility in French Guiana.",
+    "detailedExplanation": "The Guiana Space Centre, located near Kourou in French Guiana, serves as the European Space Agency's primary launch facility. Its location near the equator provides significant advantages for launching satellites, as the Earth's rotational speed at this latitude gives rockets an additional boost, making it more fuel-efficient to reach orbit.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Guiana_Space_Centre",
+    "citationTitle": "Wikipedia: Guiana Space Centre"
+  },
+  {
+    "id": "48e33edb-1a0d-4458-a574-8a48d76c5f33",
+    "text": "Which technology allows astronauts to 'float' inside spacecraft during space missions?",
+    "options": [
+      "Anti-gravity generators",
+      "Magnetic levitation",
+      "Microgravity environment",
+      "Pressurized cabin systems"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Astronauts float due to the microgravity environment in orbit, not anti-gravity technology.",
+    "detailedExplanation": "Astronauts experience weightlessness or 'floating' due to microgravity conditions in orbit. This occurs because both the spacecraft and everything inside it are in continuous free fall around Earth, but moving fast enough horizontally that they never hit the ground. This creates the sensation of weightlessness, allowing astronauts to float freely within their spacecraft.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Micro-g_environment",
+    "citationTitle": "Wikipedia: Micro-g environment"
+  },
+  {
+    "id": "38caa7f5-f4e8-42e6-bed7-fbc8bf1ad4a3",
+    "text": "What type of engine do most satellites use for small orbital adjustments?",
+    "options": [
+      "Ion thrusters",
+      "Solid rocket boosters",
+      "Liquid fuel engines",
+      "Nuclear engines"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Ion thrusters are commonly used for precise satellite positioning and orbital adjustments.",
+    "detailedExplanation": "Ion thrusters are highly efficient propulsion systems that use electricity to accelerate ions and create thrust. While they produce very low thrust compared to chemical rockets, they are extremely fuel-efficient and can operate for long periods. This makes them ideal for satellites that need to make small, precise orbital adjustments or maintain their position over extended missions.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Ion_thruster",
+    "citationTitle": "Wikipedia: Ion thruster"
+  },
+  {
+    "id": "15c4999f-6a2e-46d7-b719-22c6b944804f",
+    "text": "What temperature can the surface of a spacecraft reach when re-entering Earth's atmosphere?",
+    "options": [
+      "500°F (260°C)",
+      "1,650°F (900°C)",
+      "3,000°F (1,650°C)",
+      "5,000°F (2,760°C)"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Spacecraft surfaces can reach temperatures of around 3,000°F (1,650°C) during atmospheric re-entry.",
+    "detailedExplanation": "During atmospheric re-entry, spacecraft encounter extreme temperatures due to friction with air molecules at high speeds. The leading edges and nose of spacecraft like the Space Shuttle can experience temperatures reaching approximately 3,000°F (1,650°C). This intense heat is why spacecraft require specialized thermal protection systems, such as reinforced carbon-carbon panels and silica tiles, to protect the vehicle and crew from the extreme thermal environment.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Atmospheric_entry",
+    "citationTitle": "Wikipedia: Atmospheric Entry"
+  },
+  {
+    "id": "069ece31-bf7f-4243-91eb-aab8ea468144",
+    "text": "Which space probe was the first to leave our solar system?",
+    "options": [
+      "Pioneer 10",
+      "Voyager 1",
+      "New Horizons",
+      "Cassini"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Voyager 1 became the first human-made object to leave our solar system in 2012.",
+    "detailedExplanation": "Launched in 1977, Voyager 1 officially crossed into interstellar space on August 25, 2012, making it the first human-made object to leave our solar system. The spacecraft crossed the heliopause, the boundary where the solar wind from our Sun gives way to the interstellar medium. Despite being over 45 years old, Voyager 1 continues to transmit data back to Earth from beyond the solar system, providing valuable information about the conditions in interstellar space.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Voyager_1",
+    "citationTitle": "Wikipedia: Voyager 1"
+  },
+  {
+    "id": "f6e71a38-a179-4b08-b03c-8bf2a2d0deff",
+    "text": "What is the minimum speed needed for a spacecraft to escape Earth's gravitational pull?",
+    "options": [
+      "7 miles per second",
+      "11.2 kilometers per second",
+      "25,000 mph",
+      "All of the above"
+    ],
+    "correctIndex": 3,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Earth's escape velocity is 11.2 km/s, which equals approximately 7 miles per second or 25,000 mph.",
+    "detailedExplanation": "Earth's escape velocity is the minimum speed an object must reach to break free from Earth's gravitational field without further propulsion. This speed is 11.2 kilometers per second (approximately 6.95 miles per second or about 25,000 miles per hour). This fundamental physics concept is crucial for space mission planning, as spacecraft must achieve this velocity to travel to other planets or escape Earth's orbit entirely. The exact value depends on the object's starting altitude, with 11.2 km/s being the speed needed at Earth's surface.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Escape_velocity",
+    "citationTitle": "Wikipedia: Escape Velocity"
+  },
+  {
+    "id": "914cfe93-2e4b-47b8-815e-278ab03991b6",
+    "text": "Which navigation system do spacecraft commonly use to determine their position in deep space?",
+    "options": [
+      "Stellar navigation",
+      "Inertial guidance systems",
+      "Radio beacons from Earth",
+      "Magnetic compass"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Spacecraft use stellar navigation, observing the positions of stars to determine their location in deep space.",
+    "detailedExplanation": "Stellar navigation, also known as celestial navigation, is the primary method spacecraft use to determine their position when traveling in deep space. This system works by measuring the angles between known stars and using onboard star catalogs and computers to calculate the spacecraft's precise location and orientation. Unlike GPS, which only works near Earth, stellar navigation is effective throughout the solar system and beyond. Many spacecraft carry star trackers - specialized cameras that can identify star patterns and provide continuous position updates during long-duration missions.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Stellar_navigation",
+    "citationTitle": "Wikipedia: Stellar Navigation"
+  }
+]

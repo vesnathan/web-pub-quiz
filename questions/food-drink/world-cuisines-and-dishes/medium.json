@@ -1,0 +1,342 @@
+[
+  {
+    "id": "3277eaf6-c58e-4829-abf5-6e1c73c6fde7",
+    "text": "Which Italian pasta dish gets its name from the Italian word meaning 'little worms'?",
+    "options": [
+      "Vermicelli",
+      "Linguine",
+      "Capellini",
+      "Fettuccine"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Vermicelli comes from the Italian 'vermi' meaning worms, with the diminutive suffix '-celli' making it 'little worms'.",
+    "detailedExplanation": "Vermicelli is a traditional type of pasta that originated in Italy. The name derives from the Italian word 'vermi' (worms) combined with the diminutive suffix '-celli', literally translating to 'little worms'. This thin, round pasta resembles thin spaghetti and is commonly used in both Italian cuisine and various Asian dishes, though the Asian versions are often made from rice or mung bean starch rather than wheat.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Vermicelli",
+    "citationTitle": "Wikipedia: Vermicelli"
+  },
+  {
+    "id": "eccf1c82-f9c9-4f18-97ec-16336d722e82",
+    "text": "What is the main ingredient in the Japanese soup dish 'miso shiru'?",
+    "options": [
+      "Seaweed",
+      "Fermented soybean paste",
+      "Fish stock",
+      "Rice vinegar"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Miso shiru (miso soup) is made primarily with miso paste, which is fermented soybean paste.",
+    "detailedExplanation": "Miso shiru, commonly known as miso soup, is a traditional Japanese soup consisting of a stock called 'dashi' into which softened miso paste is mixed. Miso is a fermented soybean paste that has been a staple of Japanese cuisine for centuries. The fermentation process involves soybeans, salt, and koji (a type of fungus), creating a rich, umami-flavored paste that forms the base of this iconic soup. Additional ingredients like tofu, seaweed, and green onions are often added.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Miso_soup",
+    "citationTitle": "Wikipedia: Miso soup"
+  },
+  {
+    "id": "7f7de742-2a1b-40f5-80e3-e66d1e746d72",
+    "text": "Which North African dish is traditionally cooked in a cone-shaped earthenware pot of the same name?",
+    "options": [
+      "Couscous",
+      "Tagine",
+      "Harira",
+      "Pastilla"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Tagine is both the name of the dish and the distinctive cone-shaped cooking vessel used to prepare it.",
+    "detailedExplanation": "Tagine refers to both a North African dish and the distinctive cooking vessel in which it's prepared. The tagine pot consists of a circular base unit that is flat with low sides and a large cone-shaped cover that sits on the base during cooking. This unique design allows steam to circulate during cooking, creating a moist environment that keeps ingredients tender. The dish typically consists of slow-cooked meat, vegetables, and aromatic spices, and is particularly associated with Moroccan cuisine.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Tajine",
+    "citationTitle": "Wikipedia: Tajine"
+  },
+  {
+    "id": "0e591a60-a937-4362-a8dd-f6ec7e4fd745",
+    "text": "What type of cheese is traditionally used in authentic Greek moussaka?",
+    "options": [
+      "Feta",
+      "Kasseri",
+      "Kefalotiri",
+      "Mizithra"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Kefalotiri, a hard salty cheese, is traditionally used in the béchamel topping of authentic Greek moussaka.",
+    "detailedExplanation": "Authentic Greek moussaka traditionally uses Kefalotiri cheese, a hard, salty cheese made from sheep's or goat's milk. This cheese is grated and incorporated into the béchamel sauce that tops the layered dish of eggplant, meat sauce, and white sauce. Kefalotiri has been produced in Greece for centuries and has a sharp, tangy flavor that complements the rich layers of moussaka. While many modern recipes substitute other cheeses like Parmesan, traditional Greek cooks prefer Kefalotiri for its distinctive taste and melting properties.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Moussaka",
+    "citationTitle": "Wikipedia: Moussaka"
+  },
+  {
+    "id": "4815d76e-6951-482f-b854-e4220d757697",
+    "text": "Which Indian bread is traditionally cooked by slapping the dough against the walls of a tandoor oven?",
+    "options": [
+      "Chapati",
+      "Paratha",
+      "Naan",
+      "Roti"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Naan is traditionally cooked by pressing the dough against the hot walls of a tandoor oven.",
+    "detailedExplanation": "Naan is a leavened flatbread that originated in Central and South Asia and is particularly associated with Indian cuisine. The traditional method of cooking naan involves stretching the dough and then slapping or pressing it against the extremely hot walls of a tandoor oven, where temperatures can reach over 900°F (480°C). The high heat and direct contact with the clay walls gives naan its characteristic charred spots and chewy texture. This cooking method distinguishes naan from other Indian breads like chapati or roti, which are typically cooked on flat griddles.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Naan",
+    "citationTitle": "Wikipedia: Naan"
+  },
+  {
+    "id": "fcedd951-de12-463d-be74-18f760317235",
+    "text": "What is the main protein ingredient in the Peruvian dish 'cuy'?",
+    "options": [
+      "Llama",
+      "Guinea pig",
+      "Alpaca",
+      "Rabbit"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Cuy is a traditional Peruvian dish made from roasted guinea pig, considered a delicacy in Andean cuisine.",
+    "detailedExplanation": "Cuy is a traditional dish from Peru and other Andean countries that consists of roasted guinea pig. Guinea pigs have been raised for food in the Andean region for over 5,000 years and are considered a protein-rich delicacy. The dish is particularly popular during festivals and special occasions. The guinea pigs are typically seasoned with herbs and spices, then roasted whole until the skin becomes crispy. While it may seem unusual to Western palates, cuy is an important cultural and nutritional tradition in Peru, Bolivia, and Ecuador.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Cuy",
+    "citationTitle": "Wikipedia: Cuy"
+  },
+  {
+    "id": "d476a0a1-ba60-4c7c-9b0a-1b8a7eb85b9e",
+    "text": "Which French cooking technique involves slowly cooking meat in its own fat?",
+    "options": [
+      "Confit",
+      "Braising",
+      "Sautéing",
+      "Poaching"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Confit is a French preservation method where meat is slowly cooked and stored in its own fat.",
+    "detailedExplanation": "Confit is a traditional French cooking technique and preservation method where meat (typically duck, goose, or pork) is slowly cooked in its own fat at a low temperature for several hours. The word 'confit' comes from the French verb 'confire,' meaning 'to preserve.' This method was originally developed as a way to preserve meat before refrigeration existed. The slow cooking process makes tough cuts of meat incredibly tender, while the fat creates a protective seal that prevents spoilage. Duck confit is perhaps the most famous example of this technique.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Confit",
+    "citationTitle": "Wikipedia: Confit"
+  },
+  {
+    "id": "073cdfa1-5489-4f6f-8678-77dd84e8fa4f",
+    "text": "What is the key ingredient that gives Korean kimchi its distinctive red color?",
+    "options": [
+      "Tomato paste",
+      "Red bell peppers",
+      "Gochugaru (Korean chili flakes)",
+      "Paprika"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Gochugaru, Korean red chili flakes, provides kimchi's characteristic red color and spicy flavor.",
+    "detailedExplanation": "Gochugaru is the key ingredient that gives kimchi its distinctive red color and much of its heat. These Korean red chili flakes are made from dried Korean red chili peppers that are ground to various consistencies. Gochugaru has a unique flavor profile that's slightly sweet, smoky, and moderately spicy, making it essential to authentic Korean cuisine. In kimchi production, gochugaru is mixed with other ingredients like garlic, ginger, and fish sauce to create the paste that coats the fermented vegetables, primarily napa cabbage.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Gochugaru",
+    "citationTitle": "Wikipedia: Gochugaru"
+  },
+  {
+    "id": "0d103de6-6706-4364-b9a8-d467e1b49061",
+    "text": "What does the Spanish cooking term 'sofrito' literally translate to in English?",
+    "options": [
+      "Slow fry",
+      "Light fry",
+      "Golden fry",
+      "Quick fry"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Sofrito literally means 'slow fry' in Spanish, referring to the gentle cooking technique used to prepare this aromatic base.",
+    "detailedExplanation": "Sofrito is a fundamental technique in Spanish, Latin American, and Caribbean cooking that involves slowly frying a mixture of ingredients like onions, garlic, peppers, and tomatoes to create an aromatic base for many dishes. The term comes from the Spanish verb 'sofreír,' which combines 'so' (under) and 'freír' (to fry), literally meaning to fry slowly or gently. This technique allows the ingredients to caramelize and develop deep, complex flavors that form the foundation of countless traditional recipes.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Sofrito",
+    "citationTitle": "Wikipedia: Sofrito"
+  },
+  {
+    "id": "439eb41d-eb43-4e0d-bc87-1b4df51e9ae1",
+    "text": "Which Vietnamese soup is traditionally eaten for breakfast and whose name literally means 'noodle soup'?",
+    "options": [
+      "Bun bo hue",
+      "Pho",
+      "Banh mi",
+      "Cao lau"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Pho is the famous Vietnamese breakfast soup whose name comes from the French 'pot-au-feu' but essentially means noodle soup.",
+    "detailedExplanation": "Pho is Vietnam's most iconic dish, a fragrant noodle soup typically consisting of a clear broth, rice noodles, herbs, and meat (usually beef or chicken). While often enjoyed throughout the day worldwide, pho is traditionally consumed as a breakfast dish in Vietnam. The name 'pho' is believed to derive from the French dish 'pot-au-feu,' introduced during French colonial rule, though it has evolved into something uniquely Vietnamese. The dish originated in northern Vietnam in the early 20th century and has since become a symbol of Vietnamese cuisine globally.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Pho",
+    "citationTitle": "Wikipedia: Pho"
+  },
+  {
+    "id": "f8366149-f769-43f2-a59b-b48c2dd54288",
+    "text": "What ingredient gives the Middle Eastern spice blend 'za'atar' its distinctive tangy flavor?",
+    "options": [
+      "Sesame seeds",
+      "Sumac",
+      "Dried thyme",
+      "Salt"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Sumac berries provide za'atar with its characteristic tart, lemony flavor that distinguishes this Middle Eastern spice blend.",
+    "detailedExplanation": "Za'atar is a popular Middle Eastern spice blend that typically contains dried herbs (usually thyme or oregano), sesame seeds, salt, and most importantly, ground sumac berries. Sumac, derived from the dried and ground berries of the sumac bush, provides the blend's signature tangy, slightly sour flavor that's reminiscent of lemon. This distinctive taste makes za'atar a versatile seasoning used throughout the Levantine region, often sprinkled on flatbread with olive oil, mixed into salads, or used as a seasoning for meats and vegetables.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Za%27atar",
+    "citationTitle": "Wikipedia: Za'atar"
+  },
+  {
+    "id": "b51d9083-05b3-466f-b603-6700471752f2",
+    "text": "Which German dish literally translates to 'heaven and earth' due to its combination of ingredients?",
+    "options": [
+      "Sauerbraten",
+      "Himmel un Ääd",
+      "Schnitzel",
+      "Currywurst"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Himmel un Ääd combines apples (from heaven/sky) and potatoes (from earth), literally meaning 'heaven and earth' in German dialect.",
+    "detailedExplanation": "Himmel un Ääd (also spelled Himmel und Erde) is a traditional German dish from the Rhineland region that combines mashed potatoes with stewed apples, often served with black pudding and fried onions. The poetic name 'heaven and earth' refers to the apples that grow up toward the sky (heaven) and the potatoes that grow underground (earth). This hearty, rustic dish represents the German culinary tradition of combining sweet and savory elements, and the contrasting textures and flavors create a comforting meal that's particularly popular in autumn when both apples and potatoes are freshly harvested.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Himmel_un_%C3%84%C3%A4d",
+    "citationTitle": "Wikipedia: Himmel un Ääd"
+  },
+  {
+    "id": "536c4c9e-0081-4d6c-990b-d8d09ae278cf",
+    "text": "What is the primary starch ingredient in the Ethiopian flatbread 'injera'?",
+    "options": [
+      "Wheat flour",
+      "Rice flour",
+      "Teff flour",
+      "Barley flour"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Injera is made primarily from teff flour, a tiny grain native to Ethiopia that creates the bread's distinctive spongy texture.",
+    "detailedExplanation": "Injera is a sourdough flatbread that serves as both plate and utensil in Ethiopian cuisine, made primarily from teff flour. Teff is a tiny grain (Eragrostis tef) that's native to Ethiopia and Eritrea, and it's naturally gluten-free and highly nutritious. The flour is fermented for several days to develop its characteristic tangy flavor and then cooked on a large circular griddle called a 'mitad.' The resulting bread has a unique spongy, pancake-like texture with countless tiny holes that make it perfect for soaking up the flavorful stews and sauces that are served on top of it.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Injera",
+    "citationTitle": "Wikipedia: Injera"
+  },
+  {
+    "id": "1ba173b8-1f48-4dd7-b516-0fe71d0f84e1",
+    "text": "Which Mexican sauce gets its dark color primarily from chocolate and chili peppers?",
+    "options": [
+      "Salsa verde",
+      "Pico de gallo",
+      "Mole poblano",
+      "Salsa roja"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Mole poblano is the famous Mexican sauce that combines chocolate with various chili peppers to create its complex, dark-colored sauce.",
+    "detailedExplanation": "Mole poblano is perhaps Mexico's most complex and celebrated sauce, originating from the state of Puebla. This rich, dark sauce typically contains over 20 ingredients, including various chili peppers (such as mulato, ancho, and chipotle), chocolate or cocoa, nuts, seeds, spices, and sometimes fruit. The combination of chocolate and chilies creates its distinctive dark color and complex flavor profile that balances sweet, spicy, and bitter notes. Legend attributes its creation to nuns at the Convent of Santa Rosa in Puebla in the 17th century, and it's traditionally served over turkey or chicken, especially during special occasions and festivals.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Mole_(sauce)",
+    "citationTitle": "Wikipedia: Mole (sauce)"
+  },
+  {
+    "id": "d741fc09-3735-477d-9826-8400553afde6",
+    "text": "What cooking method is used to prepare the Argentinian dish 'asado'?",
+    "options": [
+      "Steaming",
+      "Grilling over wood fire",
+      "Braising",
+      "Deep frying"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Asado refers to the traditional Argentine method of grilling meat over a wood fire, typically using a special grill called a 'parrilla.'",
+    "detailedExplanation": "Asado is both a cooking technique and a social tradition in Argentina, Uruguay, and other South American countries. The word literally means 'grilled' or 'roasted,' and it involves cooking various cuts of beef, pork, chicken, and sausages over a wood fire on a special grill called a 'parrilla.' The cooking process is slow and methodical, often taking several hours, and is typically overseen by an 'asador' (grill master). More than just a meal, asado is a cultural institution that brings families and friends together, especially on weekends and holidays, representing the heart of Argentine culinary and social tradition.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Asado",
+    "citationTitle": "Wikipedia: Asado"
+  },
+  {
+    "id": "bbf92282-3f46-46b7-b3bd-2d9da3752eba",
+    "text": "Which Thai curry is known for being the mildest and contains coconut milk as a primary ingredient?",
+    "options": [
+      "Green curry",
+      "Red curry",
+      "Massaman curry",
+      "Panang curry"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Massaman curry is the mildest of Thai curries, featuring coconut milk and influences from Persian and Indian cuisine with warm spices like cinnamon and cardamom.",
+    "detailedExplanation": "Massaman curry is a rich, relatively mild Thai curry that shows strong Persian and Indian influences, reflecting Thailand's historical trade connections. Unlike the fiery green and red curries, massaman curry features warm, aromatic spices such as cinnamon, cardamom, cloves, and star anise, combined with coconut milk to create a creamy, mellow sauce. The curry typically includes beef or chicken, potatoes, and sometimes peanuts. Its name is believed to derive from 'Mussulman,' an old term for Muslim, indicating its Middle Eastern origins. This curry represents the beautiful fusion of cultures that characterizes much of Thai cuisine.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Massaman_curry",
+    "citationTitle": "Wikipedia: Massaman curry"
+  },
+  {
+    "id": "da005aba-a4a9-4dfb-8877-05bfc61eb7e0",
+    "text": "What is the traditional Scottish dish 'haggis' primarily made from?",
+    "options": [
+      "Minced lamb with oats and spices",
+      "Sheep's offal with oatmeal and suet",
+      "Ground beef with barley and herbs",
+      "Pork sausage with wheat and onions"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Haggis is made from sheep's offal (heart, liver, lungs) mixed with oatmeal, suet, and seasonings.",
+    "detailedExplanation": "Haggis is Scotland's national dish, traditionally consisting of sheep's offal (including heart, liver, and historically lungs) that is minced and mixed with oatmeal, suet, onions, and various spices. The mixture is traditionally encased in the animal's stomach lining, though modern versions often use artificial casings. This hearty dish is central to Burns Night celebrations and represents centuries of Scottish culinary tradition, making use of parts of the animal that might otherwise be wasted.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Haggis",
+    "citationTitle": "Wikipedia: Haggis"
+  },
+  {
+    "id": "1b712fde-aed3-458a-aad0-254b96e007ab",
+    "text": "Which Russian soup is known for its distinctive purple-red color and is often served with sour cream?",
+    "options": [
+      "Solyanka",
+      "Borscht",
+      "Shchi",
+      "Okroshka"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Borscht gets its characteristic purple-red color from beetroot and is traditionally garnished with sour cream.",
+    "detailedExplanation": "Borscht is a traditional soup popular throughout Eastern Europe, particularly in Russia, Ukraine, and Poland. The soup's distinctive purple-red color comes from beetroot (beets), which is the primary ingredient. There are many regional variations, but it commonly includes vegetables like cabbage, carrots, and onions, and may contain meat or be served vegetarian. The soup is almost always served with a dollop of sour cream, which creates a beautiful visual contrast and adds richness to balance the earthy sweetness of the beets.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Borscht",
+    "citationTitle": "Wikipedia: Borscht"
+  },
+  {
+    "id": "23de1354-d302-4366-b798-c9bf2878122d",
+    "text": "In Chinese cuisine, what does the cooking technique 'wok hei' literally translate to?",
+    "options": [
+      "High heat cooking",
+      "Breath of the wok",
+      "Stir-fry method",
+      "Iron taste"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Wok hei literally means 'breath of the wok' and refers to the distinctive smoky flavor achieved through high-heat wok cooking.",
+    "detailedExplanation": "Wok hei is a Cantonese term that literally translates to 'breath of the wok' and describes the distinctive smoky, slightly charred flavor that is imparted to food when it's cooked properly in a wok over very high heat. This technique requires the wok to be heated until it's smoking hot, and the food must be constantly moved and tossed to achieve the characteristic flavor and aroma. Master wok cooking is considered an art form in Chinese cuisine, and achieving proper wok hei is seen as a mark of a skilled chef. The technique creates a unique taste that cannot be replicated with other cooking methods or equipment.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Wok_hei",
+    "citationTitle": "Wikipedia: Wok hei"
+  },
+  {
+    "id": "06ccb9ed-6298-4006-ac87-9b92b1da03e1",
+    "text": "Which spice gives Spanish paella its distinctive golden-yellow color?",
+    "options": [
+      "Turmeric",
+      "Paprika",
+      "Saffron",
+      "Annatto"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Saffron is the traditional and essential spice that gives authentic paella its characteristic golden color and distinctive flavor.",
+    "detailedExplanation": "Saffron is the key ingredient that gives authentic Spanish paella its distinctive golden-yellow color and subtle, complex flavor. This precious spice comes from the stigmas of the Crocus sativus flower and is one of the world's most expensive spices by weight. In traditional Valencian paella, saffron is considered absolutely essential and irreplaceable. The spice not only provides the characteristic color but also contributes a unique honey-like fragrance and slightly metallic, hay-like taste that is fundamental to authentic paella. While some modern or budget versions might use turmeric as a substitute for color, purists insist that real saffron is what makes paella truly authentic.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Paella",
+    "citationTitle": "Wikipedia: Paella"
+  }
+]

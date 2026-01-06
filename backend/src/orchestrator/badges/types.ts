@@ -3,9 +3,8 @@
  * Extended to support the comprehensive award system
  */
 
-import type { AwardRarity } from '@quiz/shared';
-
-export type { AwardRarity };
+// Use string literal type for badge definitions (not the gqlTypes enum)
+export type AwardRarity = 'common' | 'uncommon' | 'rare' | 'epic' | 'legendary';
 
 export interface BadgeDefinition {
   id: string;
@@ -64,6 +63,9 @@ export interface UserStats {
   earlyBirdSets?: number;
   nightOwlSets?: number;
   firstBloodCount?: number;
+
+  // Consecutive questions tracking (answering Q1, Q2, Q3... in a row within a set)
+  longestConsecutiveRun?: number;
 }
 
 /** Badge check context - additional context beyond stats */
@@ -74,6 +76,8 @@ export interface BadgeCheckContext {
   wasClutch?: boolean;
   wasFastestBuzzer?: boolean;
   currentHour?: number;
+  /** Current set's consecutive question run (e.g., answered Q1, Q2, Q3 in a row) */
+  consecutiveRunThisSet?: number;
 }
 
 /** Skill points by rarity */

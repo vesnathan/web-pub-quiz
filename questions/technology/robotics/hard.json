@@ -1,0 +1,342 @@
+[
+  {
+    "id": "ba577482-4645-4e8c-ac4c-c885b3f8249f",
+    "text": "What was the name of the first industrial robot installed in a General Motors assembly line in 1961?",
+    "options": [
+      "Shakey",
+      "Unimate",
+      "ASIMO",
+      "WABOT-1"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Unimate was the first industrial robot, created by George Devol and installed at GM in 1961.",
+    "detailedExplanation": "Unimate, developed by George Devol and Joseph Engelberger, was the first programmable industrial robot. It was installed at a General Motors assembly plant in Ewing Township, New Jersey, in 1961, where it performed dangerous die-casting operations. Weighing 4,000 pounds, Unimate could follow step-by-step commands stored on a magnetic drum and became the foundation of modern industrial automation.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Unimate",
+    "citationTitle": "Wikipedia: Unimate"
+  },
+  {
+    "id": "3efcf966-caf2-49d8-a077-5729f7a4a559",
+    "text": "Which mathematical concept describes a robot's workspace as the set of all points that can be reached by its end-effector?",
+    "options": [
+      "Jacobian Matrix",
+      "Reachability Envelope",
+      "Denavit-Hartenberg Parameters",
+      "Configuration Space"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "The reachability envelope defines the complete workspace volume that a robot's end-effector can physically reach.",
+    "detailedExplanation": "The reachability envelope, also known as the workspace envelope, is a fundamental concept in robotics that mathematically describes the three-dimensional region that a robot's end-effector can reach. This envelope is determined by the robot's kinematic structure, joint limits, and physical constraints. Understanding this envelope is crucial for robot placement, task planning, and ensuring the robot can perform required operations within its physical limitations.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Robot_kinematics",
+    "citationTitle": "Wikipedia: Robot kinematics"
+  },
+  {
+    "id": "a8d0f218-7196-4b19-8ee9-4ec01c282c88",
+    "text": "What is the primary advantage of using brushless DC motors (BLDC) over brushed DC motors in robotic applications?",
+    "options": [
+      "Higher torque output",
+      "Lower manufacturing cost",
+      "Elimination of electromagnetic interference and longer lifespan",
+      "Simpler control circuitry"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "BLDC motors eliminate brush friction and sparking, reducing EMI and significantly extending motor lifespan.",
+    "detailedExplanation": "Brushless DC motors are preferred in robotics because they eliminate the physical brushes that create friction, sparks, and electromagnetic interference in traditional brushed motors. Without brushes, BLDC motors have significantly longer lifespans, produce less electrical noise, operate more quietly, and offer better speed-torque characteristics. While they require more complex electronic speed controllers, the benefits of reliability and precision make them ideal for robotic applications where maintenance access may be limited.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Brushless_DC_electric_motor",
+    "citationTitle": "Wikipedia: Brushless DC electric motor"
+  },
+  {
+    "id": "e95e665f-3bdc-4e9a-8a8c-8836db2265a7",
+    "text": "In robot path planning, what does the 'A* algorithm' optimize when finding routes?",
+    "options": [
+      "Maximum velocity",
+      "Minimum energy consumption",
+      "Shortest path with lowest estimated total cost",
+      "Smoothest trajectory curvature"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "A* finds the optimal path by minimizing f(n) = g(n) + h(n), combining actual cost and heuristic estimation.",
+    "detailedExplanation": "The A* (A-star) algorithm is a graph traversal and path planning algorithm widely used in robotics. It finds the optimal path by evaluating nodes based on f(n) = g(n) + h(n), where g(n) is the actual cost from start to node n, and h(n) is the heuristic estimate of cost from n to the goal. This combination ensures A* finds the shortest path while being more efficient than algorithms like Dijkstra's by using the heuristic to guide the search toward the goal.",
+    "citationUrl": "https://en.wikipedia.org/wiki/A*_search_algorithm",
+    "citationTitle": "Wikipedia: A* search algorithm"
+  },
+  {
+    "id": "1fc58683-5ce2-430a-8518-9a7196105519",
+    "text": "What type of sensor technology does the da Vinci Surgical System primarily rely on for its haptic feedback capabilities?",
+    "options": [
+      "Strain gauges and force sensors",
+      "Ultrasonic proximity sensors",
+      "Optical encoders",
+      "The system provides no haptic feedback"
+    ],
+    "correctIndex": 3,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "The da Vinci system notably lacks haptic feedback, relying instead on visual cues for surgeons.",
+    "detailedExplanation": "Surprisingly, the widely-used da Vinci Surgical System does not provide haptic (force/tactile) feedback to surgeons. This is one of the system's most criticized limitations, as surgeons must rely entirely on visual cues to gauge tissue resistance and avoid applying excessive force. The absence of haptic feedback requires extensive training to develop visual compensation techniques. Newer robotic surgical systems are being developed with force feedback capabilities to address this significant limitation.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Da_Vinci_Surgical_System",
+    "citationTitle": "Wikipedia: Da Vinci Surgical System"
+  },
+  {
+    "id": "6fa3b7eb-e060-4b3f-9100-2daeb8bf9df7",
+    "text": "Which robotics company created the 'BigDog' quadruped robot that became famous for its dynamic balance capabilities?",
+    "options": [
+      "Honda",
+      "Boston Dynamics",
+      "Toyota",
+      "Sony"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Boston Dynamics developed BigDog, a quadruped robot known for remarkable stability and load-carrying ability.",
+    "detailedExplanation": "BigDog was developed by Boston Dynamics, founded by Marc Raibert, with funding from DARPA. Introduced in 2005, BigDog became internet-famous for its uncanny ability to maintain balance when kicked or walking on uneven terrain. The 240-pound robot could carry 340 pounds of cargo and demonstrated unprecedented dynamic stability for a legged robot. BigDog's success led to a series of increasingly sophisticated robots including Spot, Atlas, and Handle, establishing Boston Dynamics as a leader in dynamic robotics.",
+    "citationUrl": "https://en.wikipedia.org/wiki/BigDog",
+    "citationTitle": "Wikipedia: BigDog"
+  },
+  {
+    "id": "f9fd3c74-f1c3-4a70-bc91-70b1ca7de1b1",
+    "text": "What is the primary function of a 'resolver' in robotic servo systems?",
+    "options": [
+      "Convert digital signals to analog",
+      "Provide absolute angular position feedback",
+      "Regulate motor current",
+      "Filter electromagnetic noise"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Resolvers provide precise absolute angular position feedback without requiring initialization or calibration.",
+    "detailedExplanation": "A resolver is an electromagnetic position sensor that provides absolute angular position feedback in robotic servo systems. Unlike encoders that can lose position data during power cycles, resolvers use electromagnetic coupling between rotor and stator windings to generate sine and cosine signals proportional to shaft angle. This makes them extremely reliable in harsh environments with high vibration, temperature extremes, or electromagnetic interference. Resolvers are commonly used in aerospace, military, and industrial robotics where position accuracy and reliability are critical.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Resolver_(electrical)",
+    "citationTitle": "Wikipedia: Resolver (electrical)"
+  },
+  {
+    "id": "ee09ec9f-f974-479b-8c0d-3fb6fc5b5e75",
+    "text": "In swarm robotics, what does the term 'stigmergy' refer to?",
+    "options": [
+      "Direct robot-to-robot communication protocols",
+      "Indirect coordination through environmental modification",
+      "Hierarchical command structures",
+      "Error detection and correction algorithms"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Stigmergy is indirect coordination where robots communicate by modifying their shared environment.",
+    "detailedExplanation": "Stigmergy, originally observed in social insects like ants and termites, refers to a form of indirect coordination where agents communicate by modifying their environment, and other agents respond to these modifications. In swarm robotics, this might involve robots leaving physical or digital traces (like pheromone trails) that influence the behavior of other robots. This decentralized approach enables complex collective behaviors to emerge without direct communication or centralized control, making it valuable for applications like search and rescue, construction, or exploration missions.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Stigmergy",
+    "citationTitle": "Wikipedia: Stigmergy"
+  },
+  {
+    "id": "01e7d705-4059-43ed-b3df-5127b6530092",
+    "text": "Which Czech playwright introduced the word 'robot' to the world in his 1920 science fiction play?",
+    "options": [
+      "Karel Čapek",
+      "Václav Havel",
+      "Milan Kundera",
+      "Franz Kafka"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Karel Čapek coined the term 'robot' from the Czech word 'robota' meaning forced labor or work.",
+    "detailedExplanation": "Karel Čapek introduced the word 'robot' in his 1920 play 'R.U.R. (Rossum's Universal Robots)'. The term was derived from the Czech word 'robota', which means forced labor, corvée, or drudgery. Čapek's brother Josef actually suggested the word when Karel was looking for a term to describe artificial workers in his play. This theatrical debut gave birth to the modern concept of robots in popular culture and science fiction.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Karel_%C4%8Capek",
+    "citationTitle": "Wikipedia: Karel Čapek"
+  },
+  {
+    "id": "560034d1-1af1-4516-9503-bf2493e910ff",
+    "text": "What is the maximum number of degrees of freedom (DOF) that a typical humanoid robot arm possesses to match human arm mobility?",
+    "options": [
+      "5",
+      "7",
+      "9",
+      "12"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "A human arm has 7 degrees of freedom: 3 at the shoulder, 1 at the elbow, and 3 at the wrist.",
+    "detailedExplanation": "The human arm possesses 7 degrees of freedom when considering the shoulder (3 DOF), elbow (1 DOF), and wrist (3 DOF). This configuration allows for the remarkable dexterity and reach that characterizes human arm movement. Most advanced humanoid robots attempt to replicate this with 7-DOF robotic arms to achieve similar manipulation capabilities. Having exactly 7 DOF is also mathematically significant as it provides redundancy - more solutions than necessary for reaching a point in 3D space, allowing for obstacle avoidance and optimized joint configurations.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Degrees_of_freedom_(mechanics)",
+    "citationTitle": "Wikipedia: Degrees of freedom (mechanics)"
+  },
+  {
+    "id": "76f7be19-e805-4497-8c3f-2f08d955e4ec",
+    "text": "Which Japanese robotics professor is widely credited as the father of modern humanoid robotics for creating the WABOT-1 in 1973?",
+    "options": [
+      "Hiroshi Ishiguro",
+      "Ichiro Kato",
+      "Masahiro Mori",
+      "Toshio Fukuda"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Ichiro Kato led the team at Waseda University that created WABOT-1, the world's first full-scale humanoid robot.",
+    "detailedExplanation": "Ichiro Kato of Waseda University is considered the father of modern humanoid robotics for his groundbreaking work on the WABOT-1 (Waseda Robot) project completed in 1973. This was the world's first full-scale anthropomorphic robot, capable of walking, communicating in Japanese, and even playing simple tunes on an electronic organ. WABOT-1 stood about 2 meters tall and could measure distances and directions to objects using external receptors. Kato's work laid the foundation for decades of humanoid robot development that followed.",
+    "citationUrl": "https://en.wikipedia.org/wiki/WABOT-1",
+    "citationTitle": "Wikipedia: WABOT-1"
+  },
+  {
+    "id": "7145e6c8-7a63-48f3-82fc-378d7baa3eec",
+    "text": "In robotic control systems, what does 'PID' stand for in the context of feedback control algorithms?",
+    "options": [
+      "Process Integration Device",
+      "Proportional-Integral-Derivative",
+      "Primary Input Detector",
+      "Precision Interface Driver"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "PID stands for Proportional-Integral-Derivative, the three mathematical components used in this fundamental control algorithm.",
+    "detailedExplanation": "PID control is one of the most widely used feedback control algorithms in robotics and automation. The acronym stands for Proportional-Integral-Derivative, referring to the three mathematical terms used to calculate control output. The Proportional term produces output proportional to the current error, the Integral term accounts for past errors through accumulation, and the Derivative term predicts future errors based on the rate of change. This combination allows robots to achieve precise, stable control of motors, actuators, and other systems while minimizing oscillation and settling time.",
+    "citationUrl": "https://en.wikipedia.org/wiki/PID_controller",
+    "citationTitle": "Wikipedia: PID controller"
+  },
+  {
+    "id": "141e14eb-ca05-4466-b26d-540176392c7c",
+    "text": "Which robotics law, formulated by Intel co-founder Gordon Moore, predicts the exponential improvement in robotic computing capabilities?",
+    "options": [
+      "Asimov's Law",
+      "Moore's Law",
+      "Minsky's Law",
+      "Brooks' Law"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Moore's Law predicts the doubling of transistor density every two years, directly impacting robotic computing power.",
+    "detailedExplanation": "Moore's Law, formulated by Intel co-founder Gordon Moore in 1965, states that the number of transistors on a microchip doubles approximately every two years while computer costs are halved. This law has been fundamental to robotics advancement, as increasing computational power enables more sophisticated AI algorithms, real-time sensor processing, and complex control systems in robots. The exponential growth in processing capability predicted by Moore's Law has allowed modern robots to perform tasks that were impossible for earlier generations, from computer vision to machine learning applications.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Moore%27s_law",
+    "citationTitle": "Wikipedia: Moore's law"
+  },
+  {
+    "id": "cad03db0-d787-46dd-b655-7cff8517c547",
+    "text": "What is the technical term for the phenomenon where humans feel unease when encountering robots that appear almost, but not exactly, human?",
+    "options": [
+      "Anthropomorphic Anxiety",
+      "Synthetic Syndrome",
+      "Uncanny Valley",
+      "Humanoid Hesitation"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "The Uncanny Valley describes the eerie feeling humans experience when robots are human-like but not perfectly human.",
+    "detailedExplanation": "The Uncanny Valley is a concept in robotics and computer graphics describing the unsettling feeling humans experience when encountering robots or animated characters that appear almost human but retain subtle non-human characteristics. The term was coined by Japanese roboticist Masahiro Mori in 1970. The theory suggests that as robots become more human-like, they become more appealing until reaching a point where subtle imperfections create an eerie, uncomfortable feeling. This dip in comfort represents the 'valley' in the graph of human response versus robot human-likeness, and it remains a significant consideration in humanoid robot design.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Uncanny_valley",
+    "citationTitle": "Wikipedia: Uncanny valley"
+  },
+  {
+    "id": "c292abbb-9c66-49fd-a292-56bb1e86d719",
+    "text": "Which type of robotic actuator technology uses shape-memory alloys that contract when heated, mimicking biological muscle?",
+    "options": [
+      "Pneumatic cylinders",
+      "Servo motors",
+      "Artificial muscles",
+      "Linear encoders"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Artificial muscles using shape-memory alloys contract when heated, providing muscle-like motion in robots.",
+    "detailedExplanation": "Artificial muscles, also known as smart materials actuators, utilize shape-memory alloys (SMAs) that can contract when heated and return to their original length when cooled. These materials, typically made from nickel-titanium alloys, can provide smooth, quiet motion that closely mimics biological muscle behavior. When electrical current passes through the SMA wire, it heats up and contracts with considerable force. This technology is particularly useful in soft robotics and biomimetic applications where traditional motors would be too rigid, noisy, or power-hungry.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Artificial_muscle",
+    "citationTitle": "Wikipedia: Artificial muscle"
+  },
+  {
+    "id": "85ccfbce-de61-4084-a063-01594c95f8ae",
+    "text": "What does 'SLAM' stand for in the context of autonomous robot navigation and mapping?",
+    "options": [
+      "Sensor Location and Mapping",
+      "Simultaneous Localization and Mapping",
+      "Sequential Learning and Movement",
+      "Spatial Logic and Memory"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "SLAM stands for Simultaneous Localization and Mapping, a key algorithm for autonomous robot navigation.",
+    "detailedExplanation": "SLAM (Simultaneous Localization and Mapping) is a fundamental computational problem in robotics where an autonomous robot must build a map of an unknown environment while simultaneously determining its own location within that map. This is particularly challenging because both the robot's position and the map are unknown, creating a circular dependency. SLAM algorithms use sensor data from LIDAR, cameras, or other sensors to incrementally build environmental maps while tracking the robot's movement. This technology is essential for autonomous vehicles, robotic vacuum cleaners, and exploration robots operating in unfamiliar environments.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Simultaneous_localization_and_mapping",
+    "citationTitle": "Wikipedia: Simultaneous localization and mapping"
+  },
+  {
+    "id": "11669cfd-ca78-4111-9a4b-2b29ab152257",
+    "text": "Which pioneering robotics competition, first held at MIT in 1991, challenged teams to build autonomous robots that could collect ping pong balls in a specified time limit?",
+    "options": [
+      "BattleBots",
+      "6.270 Competition",
+      "FIRST Robotics",
+      "RoboCup"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "The 6.270 competition at MIT was one of the first major autonomous robotics competitions.",
+    "detailedExplanation": "The 6.270 competition, officially known as 'Autonomous Robot Design Competition,' was established at MIT in 1991 and became a model for robotics competitions worldwide. Teams had to build completely autonomous robots that could navigate a playing field and collect ping pong balls within a time limit, with no human control allowed during the match. This competition pioneered many concepts that influenced later robotics competitions and helped establish autonomous robotics as a competitive field.",
+    "citationUrl": "https://en.wikipedia.org/wiki/6.270",
+    "citationTitle": "Wikipedia: 6.270"
+  },
+  {
+    "id": "fa17773c-de89-4043-8825-dd7c272710f8",
+    "text": "What is the name of the robotic manufacturing process where multiple robot arms work collaboratively in a shared workspace without safety barriers?",
+    "options": [
+      "Collaborative robotics",
+      "Swarm manufacturing",
+      "Distributed assembly",
+      "Parallel processing"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Collaborative robotics (cobots) allows humans and robots to work safely together without barriers.",
+    "detailedExplanation": "Collaborative robotics, often shortened to 'cobots,' represents a paradigm shift in industrial automation where robots are designed to work alongside humans in shared workspaces without traditional safety barriers. These systems use advanced sensors, force-limiting technology, and sophisticated control algorithms to ensure safe human-robot interaction. Companies like Universal Robots and KUKA have pioneered this technology, which allows for more flexible manufacturing processes and easier integration into existing production lines.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Collaborative_robot",
+    "citationTitle": "Wikipedia: Collaborative robot"
+  },
+  {
+    "id": "f3d13b08-ee8e-476f-8635-86110a95105c",
+    "text": "Which space agency's robotic rover first successfully demonstrated autonomous drilling and sample analysis on another planet in 2012?",
+    "options": [
+      "ESA with ExoMars",
+      "JAXA with Hayabusa",
+      "NASA with Curiosity",
+      "Roscosmos with Luna-Glob"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "NASA's Curiosity rover was the first to autonomously drill into Martian rock and analyze samples.",
+    "detailedExplanation": "NASA's Curiosity rover, which landed on Mars in August 2012, became the first robotic system to successfully perform autonomous drilling operations on another planet. The rover's sophisticated robotic arm contains a drill system that can bore into Martian rocks and deliver powdered samples to onboard analytical instruments. This capability represented a major advancement in planetary robotics, allowing for detailed chemical and mineralogical analysis of Martian geology without requiring direct human control due to communication delays between Earth and Mars.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Curiosity_(rover)",
+    "citationTitle": "Wikipedia: Curiosity (rover)"
+  },
+  {
+    "id": "66392a02-5d5b-4b37-aa6d-997c68428282",
+    "text": "In biomimetic robotics, which type of locomotion system was inspired by the way geckos climb walls and led to the development of specialized gripping technologies?",
+    "options": [
+      "Magnetic adhesion",
+      "Van der Waals forces",
+      "Electrostatic attraction",
+      "Micro-suction"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Gecko-inspired robotics utilize Van der Waals forces through millions of microscopic hairs called setae.",
+    "detailedExplanation": "Gecko-inspired robotics represents a breakthrough in biomimetic engineering, where researchers studied how geckos can climb virtually any surface using Van der Waals forces. Geckos' feet contain millions of microscopic hairs called setae, which split into even smaller branches called spatulae. These create weak molecular attractions (Van der Waals forces) that collectively provide strong adhesion. This discovery led to the development of gecko tape and climbing robots that can scale walls and ceilings, with applications ranging from military reconnaissance to building inspection robots.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Gecko_tape",
+    "citationTitle": "Wikipedia: Gecko tape"
+  }
+]

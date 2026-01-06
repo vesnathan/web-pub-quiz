@@ -1,0 +1,342 @@
+[
+  {
+    "id": "726e2865-b85f-43f5-a39e-d3b61c1c252a",
+    "text": "Which country has won the Cricket World Cup the most number of times?",
+    "options": [
+      "India",
+      "Australia",
+      "West Indies",
+      "England"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "Australia has won the Cricket World Cup 5 times.",
+    "detailedExplanation": "Australia is the most successful team in Cricket World Cup history, having won the tournament five times in 1987, 1999, 2003, 2007, and 2015. Their dominance in the tournament is unmatched, with their most impressive run being three consecutive victories from 1999 to 2007.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Cricket_World_Cup",
+    "citationTitle": "Wikipedia: Cricket World Cup"
+  },
+  {
+    "id": "6c5d6dc3-798b-42b2-8b83-3cbea5f0e337",
+    "text": "In which year was the first Cricket World Cup held?",
+    "options": [
+      "1971",
+      "1973",
+      "1975",
+      "1977"
+    ],
+    "correctIndex": 2,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "The first Cricket World Cup was held in 1975 in England.",
+    "detailedExplanation": "The inaugural Cricket World Cup took place in 1975 in England, featuring eight teams playing in a 60-over format. The West Indies won this first tournament, defeating Australia in the final at Lord's Cricket Ground in London. This historic tournament laid the foundation for what would become cricket's premier international competition.",
+    "citationUrl": "https://en.wikipedia.org/wiki/1975_Cricket_World_Cup",
+    "citationTitle": "Wikipedia: 1975 Cricket World Cup"
+  },
+  {
+    "id": "0a98e8b0-3c90-4319-928b-1a4ba63a0239",
+    "text": "Which team won the 2019 Cricket World Cup?",
+    "options": [
+      "New Zealand",
+      "England",
+      "Australia",
+      "India"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "England won their first Cricket World Cup in 2019.",
+    "detailedExplanation": "England won their first-ever Cricket World Cup in 2019, defeating New Zealand in a thrilling final at Lord's. The match ended in a tie after both the regular match and the Super Over, with England being declared winners based on having hit more boundaries during the match. This victory ended England's long wait for World Cup glory in their home tournament.",
+    "citationUrl": "https://en.wikipedia.org/wiki/2019_Cricket_World_Cup",
+    "citationTitle": "Wikipedia: 2019 Cricket World Cup"
+  },
+  {
+    "id": "b663d5e4-f391-4813-b052-94e6243616f5",
+    "text": "How often is the Cricket World Cup held?",
+    "options": [
+      "Every 2 years",
+      "Every 3 years",
+      "Every 4 years",
+      "Every 5 years"
+    ],
+    "correctIndex": 2,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "The Cricket World Cup is held every four years.",
+    "detailedExplanation": "The Cricket World Cup follows a four-year cycle, similar to the FIFA World Cup. This schedule allows sufficient time for teams to prepare and qualify through various regional tournaments and rankings. The four-year gap also helps maintain the tournament's prestige and gives cricket fans something special to look forward to regularly.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Cricket_World_Cup",
+    "citationTitle": "Wikipedia: Cricket World Cup"
+  },
+  {
+    "id": "e6508df3-d78f-4828-99af-cdd1fc034a6d",
+    "text": "Which country hosted the 2011 Cricket World Cup?",
+    "options": [
+      "Australia",
+      "England",
+      "India, Sri Lanka, and Bangladesh",
+      "South Africa"
+    ],
+    "correctIndex": 2,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "The 2011 Cricket World Cup was jointly hosted by India, Sri Lanka, and Bangladesh.",
+    "detailedExplanation": "The 2011 Cricket World Cup was a joint venture hosted by three South Asian nations: India, Sri Lanka, and Bangladesh. This was notable as India won the tournament on home soil, defeating Sri Lanka in the final in Mumbai. The tournament featured 14 teams and was played in a 50-over format across multiple venues in the three host countries.",
+    "citationUrl": "https://en.wikipedia.org/wiki/2011_Cricket_World_Cup",
+    "citationTitle": "Wikipedia: 2011 Cricket World Cup"
+  },
+  {
+    "id": "8f211ca5-64bd-42ce-adff-59d96d1c559f",
+    "text": "Which player holds the record for most runs scored in a single Cricket World Cup tournament?",
+    "options": [
+      "Sachin Tendulkar",
+      "Rohit Sharma",
+      "Martin Guptill",
+      "Kumar Sangakkara"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "Rohit Sharma scored 648 runs in the 2019 Cricket World Cup.",
+    "detailedExplanation": "Rohit Sharma set the record for most runs in a single Cricket World Cup tournament during the 2019 edition in England, scoring 648 runs in 9 matches. His remarkable tournament included five centuries, which was also a World Cup record. Sharma's consistent batting was crucial for India's campaign, though they were eventually knocked out in the semi-finals.",
+    "citationUrl": "https://en.wikipedia.org/wiki/2019_Cricket_World_Cup",
+    "citationTitle": "Wikipedia: 2019 Cricket World Cup"
+  },
+  {
+    "id": "468350fb-d44c-48fb-bd41-c08ab7a6fd32",
+    "text": "What is the current format of overs per innings in the Cricket World Cup?",
+    "options": [
+      "40 overs",
+      "45 overs",
+      "50 overs",
+      "60 overs"
+    ],
+    "correctIndex": 2,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "The Cricket World Cup is currently played with 50 overs per innings.",
+    "detailedExplanation": "The Cricket World Cup currently uses the One Day International (ODI) format of 50 overs per innings for each team. This format was adopted in 1987, reducing from the original 60 overs used in the first two tournaments (1975 and 1979). The 50-over format provides a good balance between traditional cricket and the need for a match to be completed in a single day.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Cricket_World_Cup",
+    "citationTitle": "Wikipedia: Cricket World Cup"
+  },
+  {
+    "id": "cc676aa6-20ab-4f1f-b664-1f376f590058",
+    "text": "Which team was the first to win the Cricket World Cup twice?",
+    "options": [
+      "Australia",
+      "India",
+      "West Indies",
+      "Pakistan"
+    ],
+    "correctIndex": 2,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "The West Indies won the first two Cricket World Cups in 1975 and 1979.",
+    "detailedExplanation": "The West Indies became the first team to win the Cricket World Cup twice by claiming victory in both 1975 and 1979. They defeated Australia in the 1975 final and England in the 1979 final, both matches held at Lord's Cricket Ground in London. During this period, the West Indies were the dominant force in world cricket with their fearsome fast bowling attack and explosive batting lineup.",
+    "citationUrl": "https://en.wikipedia.org/wiki/West_Indies_cricket_team",
+    "citationTitle": "Wikipedia: West Indies cricket team"
+  },
+  {
+    "id": "37cae17a-d3df-4942-92dc-fdf4c8a287de",
+    "text": "Which country won the first-ever Cricket World Cup in 1975?",
+    "options": [
+      "Australia",
+      "West Indies",
+      "England",
+      "India"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "The West Indies won the inaugural Cricket World Cup in 1975.",
+    "detailedExplanation": "The West Indies cricket team, captained by Clive Lloyd, won the first Cricket World Cup held in England in 1975. They defeated Australia by 17 runs in the final at Lord's Cricket Ground, London. This victory marked the beginning of West Indies' dominance in limited-overs cricket during the 1970s and established them as the first-ever Cricket World Cup champions.",
+    "citationUrl": "https://en.wikipedia.org/wiki/1975_Cricket_World_Cup",
+    "citationTitle": "Wikipedia: 1975 Cricket World Cup"
+  },
+  {
+    "id": "ba8aab19-6432-4188-a899-03ae55e41e5e",
+    "text": "Which venue is famous for hosting multiple Cricket World Cup finals?",
+    "options": [
+      "Melbourne Cricket Ground",
+      "Lord's Cricket Ground",
+      "Eden Gardens",
+      "The Oval"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "Lord's Cricket Ground in London has hosted multiple Cricket World Cup finals.",
+    "detailedExplanation": "Lord's Cricket Ground, often referred to as the 'Home of Cricket', has been the venue for several Cricket World Cup finals including 1975, 1979, 1983, and 2019. Located in London, England, this iconic venue is considered one of the most prestigious cricket grounds in the world and has been the traditional home for major cricket finals since the tournament's inception.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Lord%27s_Cricket_Ground",
+    "citationTitle": "Wikipedia: Lord's Cricket Ground"
+  },
+  {
+    "id": "baee4659-dca1-424a-b9ba-89452d64f033",
+    "text": "What was unique about the 1996 Cricket World Cup?",
+    "options": [
+      "First to use colored clothing",
+      "First held outside England",
+      "First jointly hosted by three countries",
+      "First with 16 teams"
+    ],
+    "correctIndex": 2,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "The 1996 Cricket World Cup was the first to be jointly hosted by three countries.",
+    "detailedExplanation": "The 1996 Cricket World Cup was groundbreaking as it was the first World Cup to be jointly hosted by three nations: India, Pakistan, and Sri Lanka. This tournament was held in the Indian subcontinent and marked a significant shift from the previous World Cups that were primarily held in England or Australia. Sri Lanka went on to win their first World Cup title on home soil, defeating Australia in the final in Lahore, Pakistan.",
+    "citationUrl": "https://en.wikipedia.org/wiki/1996_Cricket_World_Cup",
+    "citationTitle": "Wikipedia: 1996 Cricket World Cup"
+  },
+  {
+    "id": "669e2792-ae8d-4782-8d4d-a15620c17157",
+    "text": "Which team famously upset the West Indies in the 1983 Cricket World Cup final?",
+    "options": [
+      "Pakistan",
+      "Australia",
+      "India",
+      "England"
+    ],
+    "correctIndex": 2,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "India defeated the defending champions West Indies in the 1983 World Cup final.",
+    "detailedExplanation": "India's victory over the West Indies in the 1983 Cricket World Cup final at Lord's is considered one of the greatest upsets in cricket history. The West Indies were the defending champions and heavy favorites, having won the previous two World Cups. However, under Kapil Dev's captaincy, India bowled out the West Indies for 140 and won by 43 runs, claiming their first World Cup title and transforming cricket's popularity in India.",
+    "citationUrl": "https://en.wikipedia.org/wiki/1983_Cricket_World_Cup_Final",
+    "citationTitle": "Wikipedia: 1983 Cricket World Cup Final"
+  },
+  {
+    "id": "f377d7b9-1b32-43c3-b64f-52e3b3136aba",
+    "text": "What is the trophy awarded to Cricket World Cup winners called?",
+    "options": [
+      "The Ashes Urn",
+      "ICC Cricket World Cup Trophy",
+      "Wisden Trophy",
+      "Border-Gavaskar Trophy"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "The winners receive the ICC Cricket World Cup Trophy.",
+    "detailedExplanation": "The ICC Cricket World Cup Trophy is the prize awarded to the winners of the Cricket World Cup. The current trophy was introduced in 1999 and is made of silver and gold-plated, standing 60 cm tall. It replaced the Prudential Cup that was used from 1975 to 1996. The trophy features a golden globe held up by three silver columns representing the three fundamental aspects of cricket: batting, bowling, and fielding.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Cricket_World_Cup_Trophy",
+    "citationTitle": "Wikipedia: Cricket World Cup Trophy"
+  },
+  {
+    "id": "c8f86b60-1af7-4a16-9fd7-f52afb0aa36b",
+    "text": "Which Cricket World Cup was the first to feature day-night matches with colored clothing?",
+    "options": [
+      "1975 World Cup",
+      "1983 World Cup",
+      "1992 World Cup",
+      "1987 World Cup"
+    ],
+    "correctIndex": 2,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "The 1992 Cricket World Cup introduced day-night matches with colored clothing.",
+    "detailedExplanation": "The 1992 Cricket World Cup, held in Australia and New Zealand, was revolutionary as it introduced day-night matches played under floodlights with colored clothing and a white ball. This was a significant departure from the traditional all-white clothing and red ball format. The tournament also introduced many innovations including the use of a white ball, field restrictions, and rain rules (Duckworth-Lewis method), making it more television-friendly and exciting for spectators.",
+    "citationUrl": "https://en.wikipedia.org/wiki/1992_Cricket_World_Cup",
+    "citationTitle": "Wikipedia: 1992 Cricket World Cup"
+  },
+  {
+    "id": "e98d3f52-449f-426e-a0dd-81ac35193088",
+    "text": "How many teams participated in the 2019 Cricket World Cup?",
+    "options": [
+      "12 teams",
+      "14 teams",
+      "10 teams",
+      "16 teams"
+    ],
+    "correctIndex": 2,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "The 2019 Cricket World Cup featured 10 teams.",
+    "detailedExplanation": "The 2019 Cricket World Cup in England and Wales featured 10 teams, which was a reduction from the 14 teams that participated in the 2015 tournament. This decision was controversial as it meant fewer associate nations could participate. The 10 teams played in a round-robin format where each team played every other team once, followed by semi-finals and a final. This format ensured more matches between top teams but limited opportunities for developing cricket nations.",
+    "citationUrl": "https://en.wikipedia.org/wiki/2019_Cricket_World_Cup",
+    "citationTitle": "Wikipedia: 2019 Cricket World Cup"
+  },
+  {
+    "id": "959a95ac-a4a0-4065-a647-846b862d1e50",
+    "text": "Which unusual method was used to decide the 2019 Cricket World Cup final winner?",
+    "options": [
+      "Bowl-out",
+      "Boundary count",
+      "Coin toss",
+      "Most sixes hit"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "England won the 2019 final on boundary count after a tie in both the match and Super Over.",
+    "detailedExplanation": "The 2019 Cricket World Cup final between England and New Zealand at Lord's ended in an extraordinary tie. Both the regular match and the Super Over finished level, leading to the controversial boundary count rule being applied. England was declared the winner because they had hit more boundaries (fours and sixes) throughout the match - 26 compared to New Zealand's 17. This rule was heavily criticized and has since been changed by the ICC.",
+    "citationUrl": "https://en.wikipedia.org/wiki/2019_Cricket_World_Cup_Final",
+    "citationTitle": "Wikipedia: 2019 Cricket World Cup Final"
+  },
+  {
+    "id": "0860d0d6-2af5-4cf8-911d-0a4f544b571e",
+    "text": "Which player holds the record for taking the most wickets in Cricket World Cup history?",
+    "options": [
+      "Glenn McGrath",
+      "Wasim Akram",
+      "Muttiah Muralitharan",
+      "Mitchell Starc"
+    ],
+    "correctIndex": 0,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "Glenn McGrath holds the record with 71 wickets across four World Cups.",
+    "detailedExplanation": "Australian fast bowler Glenn McGrath is the leading wicket-taker in Cricket World Cup history, having claimed 71 wickets across four tournaments from 1996 to 2007. His consistent performance and ability to take crucial wickets in pressure situations made him one of the most successful World Cup bowlers. McGrath's record includes memorable performances in Australia's victorious campaigns in 1999, 2003, and 2007.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Cricket_World_Cup_records",
+    "citationTitle": "Wikipedia: Cricket World Cup records"
+  },
+  {
+    "id": "cdbb83b0-0823-4816-9537-d6ce09354767",
+    "text": "Which Cricket World Cup final went to a Super Over after the main match ended in a tie?",
+    "options": [
+      "2015 final",
+      "2019 final",
+      "2011 final",
+      "2007 final"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "The 2019 World Cup final between England and New Zealand required a Super Over after both teams scored 241 runs.",
+    "detailedExplanation": "The 2019 Cricket World Cup final at Lord's between England and New Zealand was one of the most dramatic matches in cricket history. After both teams scored 241 runs in their respective 50-over innings, the match went to a Super Over - a six-ball eliminator. Even the Super Over ended in a tie with both teams scoring 15 runs, but England was declared the winner based on having hit more boundaries during the match, a controversial rule that has since been changed.",
+    "citationUrl": "https://en.wikipedia.org/wiki/2019_Cricket_World_Cup_Final",
+    "citationTitle": "Wikipedia: 2019 Cricket World Cup Final"
+  },
+  {
+    "id": "eb58d2f9-e7ad-424f-88fa-6575623f83aa",
+    "text": "Which team reached their first Cricket World Cup final in 2015?",
+    "options": [
+      "New Zealand",
+      "South Africa",
+      "Bangladesh",
+      "Ireland"
+    ],
+    "correctIndex": 0,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "New Zealand reached their first World Cup final in 2015, losing to Australia.",
+    "detailedExplanation": "New Zealand's cricket team, known as the Black Caps, reached their first-ever Cricket World Cup final in 2015 when they co-hosted the tournament with Australia. Led by Brendon McCullum, they played an aggressive brand of cricket throughout the tournament and defeated South Africa in a thrilling semi-final to reach the final. Although they lost to Australia by 7 wickets in the final at the MCG, their journey captured the imagination of cricket fans worldwide and marked a high point in New Zealand cricket history.",
+    "citationUrl": "https://en.wikipedia.org/wiki/2015_Cricket_World_Cup",
+    "citationTitle": "Wikipedia: 2015 Cricket World Cup"
+  },
+  {
+    "id": "77f682b7-85e2-4474-92c7-2b565ae28471",
+    "text": "In which decade did the Cricket World Cup expand to include more than 8 teams for the first time?",
+    "options": [
+      "1970s",
+      "1980s",
+      "1990s",
+      "2000s"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "The 1987 World Cup was the first to feature more than 8 teams, expanding to include 8 teams with the addition of associate nations.",
+    "detailedExplanation": "The Cricket World Cup expanded beyond its original format in 1987 when it moved from England to be jointly hosted by India and Pakistan. This tournament featured 8 teams for the first time, including associate member nations alongside the traditional Test-playing countries. The expansion marked a significant step in cricket's global development, giving opportunities to emerging cricket nations to compete on the world's biggest stage. The tournament continued to grow in subsequent editions, reaching as many as 16 teams in some tournaments.",
+    "citationUrl": "https://en.wikipedia.org/wiki/1987_Cricket_World_Cup",
+    "citationTitle": "Wikipedia: 1987 Cricket World Cup"
+  }
+]

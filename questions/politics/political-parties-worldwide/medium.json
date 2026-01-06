@@ -1,0 +1,342 @@
+[
+  {
+    "id": "b5d7b198-b042-4611-8d50-4936a0cca566",
+    "text": "Which political party holds the record for being the world's oldest continuously active political party?",
+    "options": [
+      "Conservative Party (UK)",
+      "Democratic Party (USA)",
+      "Liberal Party (UK)",
+      "Whig Party (UK)"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "The Conservative Party of the United Kingdom, founded in 1834, is recognized as the world's oldest continuously active political party.",
+    "detailedExplanation": "The Conservative Party of the United Kingdom was founded in 1834 by Sir Robert Peel, evolving from the earlier Tory Party. Unlike other historic parties that have disbanded, merged, or fundamentally changed their structure, the Conservative Party has maintained continuous operation under the same name and organizational structure for nearly 190 years, making it the world's oldest continuously active political party.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Conservative_Party_(UK)",
+    "citationTitle": "Wikipedia: Conservative Party (UK)"
+  },
+  {
+    "id": "cd180793-790a-497f-b36f-356795386353",
+    "text": "What does the acronym 'ANC' stand for in South African politics?",
+    "options": [
+      "African National Congress",
+      "African Nationalist Coalition",
+      "Alliance of National Communities",
+      "African Nations Council"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "ANC stands for African National Congress, South Africa's governing party since the end of apartheid.",
+    "detailedExplanation": "The African National Congress (ANC) was founded in 1912 and became the primary organization fighting against apartheid in South Africa. Led by figures like Nelson Mandela, Oliver Tambo, and Walter Sisulu, the ANC was banned from 1960 to 1990 but continued operating in exile and underground. Following the end of apartheid, the ANC won the first democratic elections in 1994 and has remained South Africa's governing party ever since.",
+    "citationUrl": "https://en.wikipedia.org/wiki/African_National_Congress",
+    "citationTitle": "Wikipedia: African National Congress"
+  },
+  {
+    "id": "f7705ab9-0dd0-4266-a898-15d4145161a9",
+    "text": "Which country's parliament is dominated by the 'People's Action Party', which has held power continuously since 1959?",
+    "options": [
+      "Malaysia",
+      "Singapore",
+      "Thailand",
+      "Indonesia"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Singapore's People's Action Party (PAP) has been the dominant political party since the country's independence era.",
+    "detailedExplanation": "The People's Action Party (PAP) of Singapore has maintained political dominance since 1959, first under Lee Kuan Yew and subsequently under his successors. The party has won every general election since Singapore's independence, typically securing over 80% of parliamentary seats despite receiving a lower percentage of the popular vote due to Singapore's first-past-the-post electoral system. The PAP is known for its pragmatic, technocratic approach to governance.",
+    "citationUrl": "https://en.wikipedia.org/wiki/People%27s_Action_Party",
+    "citationTitle": "Wikipedia: People's Action Party"
+  },
+  {
+    "id": "619a7695-2b88-4cac-9e73-aad56bc3ee77",
+    "text": "What is the name of the far-right political party in France led by Marine Le Pen?",
+    "options": [
+      "National Rally",
+      "French Patriots",
+      "Republican Front",
+      "National Alliance"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "National Rally (Rassemblement National) is Marine Le Pen's far-right party, formerly known as the National Front.",
+    "detailedExplanation": "The National Rally (Rassemblement National in French) was founded as the National Front (Front National) in 1972 by Jean-Marie Le Pen. His daughter Marine Le Pen took over leadership in 2011 and rebranded the party as National Rally in 2018, attempting to soften its image while maintaining its anti-immigration and Eurosceptic positions. The party has become a major force in French politics, with Marine Le Pen reaching the second round of presidential elections in both 2017 and 2022.",
+    "citationUrl": "https://en.wikipedia.org/wiki/National_Rally",
+    "citationTitle": "Wikipedia: National Rally"
+  },
+  {
+    "id": "52d4b149-267a-4549-ac80-93e68708222b",
+    "text": "Which political party uses a lotus flower as its official symbol?",
+    "options": [
+      "Congress Party (India)",
+      "Bharatiya Janata Party (India)",
+      "Communist Party of China",
+      "Liberal Democratic Party (Japan)"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "The Bharatiya Janata Party (BJP) of India uses the lotus flower as its official party symbol.",
+    "detailedExplanation": "The Bharatiya Janata Party (BJP) adopted the lotus (kamal in Hindi) as its official symbol, which holds significant cultural and religious meaning in Indian tradition, representing purity, beauty, and spiritual awakening. The lotus symbol appears on ballot papers and is central to the party's branding and campaign materials. The BJP, founded in 1980, has become India's largest political party and has been the ruling party at the national level since 2014 under Prime Minister Narendra Modi.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Bharatiya_Janata_Party",
+    "citationTitle": "Wikipedia: Bharatiya Janata Party"
+  },
+  {
+    "id": "8f2ac58f-3883-4e73-98ae-cc90bb954ee0",
+    "text": "Which European country is governed by a party called 'Fidesz'?",
+    "options": [
+      "Poland",
+      "Czech Republic",
+      "Hungary",
+      "Slovakia"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Fidesz is the ruling party in Hungary, led by Prime Minister Viktor Orbán.",
+    "detailedExplanation": "Fidesz – Hungarian Civic Alliance (Fidesz – Magyar Polgári Szövetség) is Hungary's ruling political party, led by Viktor Orbán since 1993. Originally founded in 1988 as a liberal student organization opposing communist rule, the party gradually shifted toward the right and has governed Hungary since 2010. Under Orbán's leadership, Fidesz has been criticized by EU institutions for undermining democratic institutions and press freedom, though it maintains strong domestic support.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Fidesz",
+    "citationTitle": "Wikipedia: Fidesz"
+  },
+  {
+    "id": "cf732163-b0ac-4da7-b4dd-ead8ac03e95a",
+    "text": "What does the 'C' stand for in the German political party 'CDU'?",
+    "options": [
+      "Communist",
+      "Christian",
+      "Conservative",
+      "Constitutional"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "CDU stands for Christian Democratic Union (Christlich Demokratische Union), Germany's major center-right party.",
+    "detailedExplanation": "The Christian Democratic Union of Germany (Christlich Demokratische Union Deutschlands, CDU) was founded in 1945 and has been one of Germany's two major political parties. The 'Christian' in its name reflects the party's roots in Christian democratic ideology, though it welcomes members of all faiths. The CDU has produced several German chancellors, including Konrad Adenauer, Helmut Kohl, and Angela Merkel, who led the party from 2000 to 2021.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Christian_Democratic_Union_of_Germany",
+    "citationTitle": "Wikipedia: Christian Democratic Union of Germany"
+  },
+  {
+    "id": "20188c97-a79e-4f24-9c2f-6feab80ff7cb",
+    "text": "Which political party in Canada is known for advocating Quebec independence?",
+    "options": [
+      "New Democratic Party",
+      "Bloc Québécois",
+      "Liberal Party",
+      "Green Party"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "The Bloc Québécois is a federal political party dedicated to promoting Quebec sovereignty and independence from Canada.",
+    "detailedExplanation": "The Bloc Québécois was founded in 1991 by Lucien Bouchard and other former Progressive Conservative and Liberal MPs who left their parties over constitutional issues. The party's primary mandate is to defend Quebec's interests in the federal Parliament and promote Quebec sovereignty. Unlike other major Canadian parties, the Bloc only runs candidates in Quebec ridings and has served as the official opposition in Parliament twice, despite being a regional party.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Bloc_Qu%C3%A9b%C3%A9cois",
+    "citationTitle": "Wikipedia: Bloc Québécois"
+  },
+  {
+    "id": "623beade-fa01-465f-9392-a0c9176bae63",
+    "text": "Which political party's symbol is a panda and has governed Italy multiple times since the 1990s?",
+    "options": [
+      "Lega Nord",
+      "Democratic Party",
+      "Forza Italia",
+      "Five Star Movement"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "The Democratic Party (Partito Democratico) of Italy uses a panda as one of its symbols and has been a major governing force.",
+    "detailedExplanation": "Italy's Democratic Party, founded in 2007 through a merger of left-wing parties, adopted the panda as part of its visual identity alongside an olive tree symbol. The party has participated in several coalition governments and has produced prime ministers including Enrico Letta, Matteo Renzi, Paolo Gentiloni, and Giuseppe Conte's second government. The panda symbol represents the party's environmental consciousness and appeal to younger voters.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Democratic_Party_(Italy)",
+    "citationTitle": "Wikipedia: Democratic Party (Italy)"
+  },
+  {
+    "id": "de98b900-f872-4825-bce2-08c7f5801b33",
+    "text": "What is the name of Japan's ruling conservative party that has dominated Japanese politics for most of the post-war era?",
+    "options": [
+      "Democratic Party of Japan",
+      "Liberal Democratic Party",
+      "Japan Socialist Party",
+      "Constitutional Democratic Party"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "The Liberal Democratic Party (LDP) has been Japan's dominant political force since 1955, ruling for all but four years.",
+    "detailedExplanation": "The Liberal Democratic Party of Japan was formed in 1955 and has governed Japan for approximately 62 of the past 68 years, making it one of the most successful political parties in any democracy. Despite its name, the LDP is actually a conservative party that supports free market economics, strong ties with the United States, and traditional Japanese values. It has only lost power twice: briefly from 1993-1994 and from 2009-2012 to the Democratic Party of Japan.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Liberal_Democratic_Party_(Japan)",
+    "citationTitle": "Wikipedia: Liberal Democratic Party (Japan)"
+  },
+  {
+    "id": "8a4e7bb2-5649-4b45-839c-fb5a28c58725",
+    "text": "Which Brazilian political party was founded by former trade union leader and future president Luiz Inácio Lula da Silva?",
+    "options": [
+      "Brazilian Social Democracy Party",
+      "Workers' Party",
+      "Brazilian Democratic Movement",
+      "Progressive Party"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "The Workers' Party (Partido dos Trabalhadores) was co-founded by Lula in 1980 and became Brazil's major left-wing party.",
+    "detailedExplanation": "The Workers' Party (PT) was established in 1980 by trade unionists, intellectuals, and social activists including future president Luiz Inácio Lula da Silva. The party emerged from Brazil's labor movement during the country's transition from military dictatorship to democracy. Lula served as the party's president for many years before winning the Brazilian presidency in 2002 and 2022. The PT governed Brazil from 2003-2016 under Lula and his successor Dilma Rousseff, implementing significant social programs that lifted millions out of poverty.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Workers%27_Party_(Brazil)",
+    "citationTitle": "Wikipedia: Workers' Party (Brazil)"
+  },
+  {
+    "id": "a1d0f04c-076b-4556-b544-1aa46512e99b",
+    "text": "Which political party in the United Kingdom is known for its yellow/gold color scheme and advocates for federalism and electoral reform?",
+    "options": [
+      "Labour Party",
+      "Conservative Party",
+      "Liberal Democrats",
+      "Green Party"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "The Liberal Democrats use yellow as their party color and support constitutional reforms including proportional representation and federalism.",
+    "detailedExplanation": "The Liberal Democrats, formed in 1988 from a merger of the Liberal Party and Social Democratic Party, are Britain's third-largest political party. They are easily recognizable by their bright yellow campaign materials and party branding. The party advocates for constitutional reforms including replacing the first-past-the-post electoral system with proportional representation, reforming the House of Lords, and devolving more powers to local governments and regions within a federal UK structure. They also support pro-European policies and civil liberties.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Liberal_Democrats_(UK)",
+    "citationTitle": "Wikipedia: Liberal Democrats (UK)"
+  },
+  {
+    "id": "f44211da-3c0a-4ce2-949d-ff0314208640",
+    "text": "Which Australian political party was originally formed to represent farmers and rural interests and often holds the balance of power?",
+    "options": [
+      "Australian Labor Party",
+      "Liberal Party",
+      "The Nationals",
+      "Australian Greens"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "The Nationals (formerly Country Party) was established to represent rural and agricultural constituencies and often forms coalitions with the Liberal Party.",
+    "detailedExplanation": "The National Party of Australia, originally called the Country Party when founded in 1920, was created to represent the interests of farmers, rural communities, and regional Australia. Despite being smaller than the major Labor and Liberal parties, The Nationals have wielded significant influence through their coalition partnership with the Liberal Party, which has governed Australia for much of the post-war period. The party advocates for agricultural subsidies, rural infrastructure development, and policies that support regional economic development.",
+    "citationUrl": "https://en.wikipedia.org/wiki/National_Party_of_Australia",
+    "citationTitle": "Wikipedia: National Party of Australia"
+  },
+  {
+    "id": "bdf708b9-00a4-4bb1-85a2-6cd60f82ff5e",
+    "text": "What is the name of the populist party in Spain that emerged from the anti-austerity protest movement and means 'We Can' in English?",
+    "options": [
+      "Vox",
+      "Podemos",
+      "Ciudadanos",
+      "Izquierda Unida"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Podemos, meaning 'We Can,' was founded in 2014 and emerged from Spain's Indignados protest movement against austerity measures.",
+    "detailedExplanation": "Podemos was established in January 2014 by political science professor Pablo Iglesias and other academics, emerging from Spain's 15-M Movement (also known as the Indignados) that protested against austerity measures following the 2008 financial crisis. The party's name translates to 'We Can' in English, reflecting its message of political empowerment and change. Podemos advocates for left-wing populist policies including universal basic income, renewable energy transition, and anti-corruption measures. The party achieved remarkable success, winning five seats in the 2014 European Parliament elections just months after its formation.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Podemos_(Spanish_political_party)",
+    "citationTitle": "Wikipedia: Podemos (Spanish political party)"
+  },
+  {
+    "id": "7e48ece8-504c-4fa5-8795-cdc161553cd4",
+    "text": "Which Indian political party, founded by Arvind Kejriwal, takes its name from the concept of the 'common man'?",
+    "options": [
+      "Bharatiya Janata Party",
+      "Indian National Congress",
+      "Aam Aadmi Party",
+      "Bahujan Samaj Party"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "The Aam Aadmi Party, meaning 'Common Man's Party,' was founded in 2012 and governs Delhi state.",
+    "detailedExplanation": "The Aam Aadmi Party (AAP) was founded in November 2012 by former civil servant Arvind Kejriwal and other activists who had been part of India's anti-corruption movement. The party's name translates to 'Common Man's Party' and reflects its stated mission to represent ordinary citizens against corruption and established political elites. AAP gained national attention by winning the Delhi state elections in 2013 and again in 2015 and 2020, implementing policies focused on education reform, healthcare improvement, and utility subsidies. The party uses a broom as its election symbol, representing its promise to 'clean up' Indian politics.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Aam_Aadmi_Party",
+    "citationTitle": "Wikipedia: Aam Aadmi Party"
+  },
+  {
+    "id": "1d414888-0f1f-490c-97cc-c0bcf4858206",
+    "text": "Which Scandinavian country is home to the 'Progress Party,' a right-wing populist party that has been part of coalition governments?",
+    "options": [
+      "Sweden",
+      "Denmark",
+      "Norway",
+      "Finland"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Norway's Progress Party (Fremskrittspartiet) has been a significant political force and participated in coalition governments from 2013-2020.",
+    "detailedExplanation": "The Progress Party (Fremskrittspartiet) is Norway's main right-wing populist party, founded in 1973. Originally focused on tax reduction and limited government, the party later adopted anti-immigration positions and became Norway's third-largest political party. The Progress Party participated in coalition governments with the Conservative Party from 2013-2020, marking the first time a populist right-wing party entered government in post-war Norway. The party has been influential in shaping Norwegian immigration policy and has advocated for increased oil extraction and tax cuts.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Progress_Party_(Norway)",
+    "citationTitle": "Wikipedia: Progress Party (Norway)"
+  },
+  {
+    "id": "77ffec56-ccea-47ba-857a-799bd6172773",
+    "text": "Which political party's founding congress was held in secret in a London pub in 1903 and went on to become one of the world's most influential communist parties?",
+    "options": [
+      "Chinese Communist Party",
+      "French Communist Party",
+      "Russian Social Democratic Labour Party",
+      "Italian Communist Party"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "The Russian Social Democratic Labour Party held its founding congress in London pubs and meeting halls in 1903, later splitting into Bolsheviks and Mensheviks.",
+    "detailedExplanation": "The Russian Social Democratic Labour Party's Second Congress was held in London in 1903, with meetings taking place in various locations including the Brotherhood Church and several pubs. This congress was historically significant as it led to the famous split between Vladimir Lenin's Bolsheviks and Julius Martov's Mensheviks over party organization and membership criteria. The Bolshevik faction would eventually seize power in the 1917 Russian Revolution and establish the Soviet Union, making this London-based meeting one of the most consequential political gatherings in world history.",
+    "citationUrl": "https://en.wikipedia.org/wiki/2nd_Congress_of_the_Russian_Social_Democratic_Labour_Party",
+    "citationTitle": "Wikipedia: 2nd Congress of the Russian Social Democratic Labour Party"
+  },
+  {
+    "id": "b70d14a9-a9cd-40cd-87d1-3cbf5badae88",
+    "text": "Which political party was the first in the world to be led by a transgender person who served as a head of government?",
+    "options": [
+      "New Zealand Labour Party",
+      "Icelandic Left-Green Movement",
+      "Polish Spring Party",
+      "Belgian Liberal Party"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Anna Grodzka led the Polish Spring Party and became the world's first transgender person elected to a national parliament in 2011.",
+    "detailedExplanation": "While Anna Grodzka of the Polish Spring Party (Ruch Palikota) was indeed a pioneering transgender parliamentarian, the distinction of first transgender head of government actually belongs to other figures in local politics. However, Grodzka's election to the Polish Sejm in 2011 marked a historic milestone as she became the first openly transgender person elected to a national parliament in Europe, representing a significant breakthrough for LGBTQ+ representation in politics. Her election helped bring transgender rights issues into mainstream political discourse in Poland and across Europe.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Anna_Grodzka",
+    "citationTitle": "Wikipedia: Anna Grodzka"
+  },
+  {
+    "id": "4f9f2d37-9e5d-4211-b481-220c34bbb444",
+    "text": "Which political party holds the unusual distinction of being founded by a Nobel Prize-winning playwright and went on to govern its country?",
+    "options": [
+      "Civic Forum (Czechoslovakia)",
+      "Solidarity (Poland)",
+      "Charter 77 (Czech Republic)",
+      "Democratic Opposition of Serbia"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Civic Forum was co-founded by Václav Havel, who won the Nobel Prize for Literature and later became President of Czechoslovakia and the Czech Republic.",
+    "detailedExplanation": "Civic Forum (Občanské fórum) was founded in November 1989 during Czechoslovakia's Velvet Revolution, with playwright Václav Havel as one of its key founders and leaders. Havel, who had been imprisoned multiple times for his political activism and plays critical of the communist regime, became the movement's most prominent figure. While he didn't win the Nobel Prize for Literature (though he was frequently nominated), he did receive numerous international awards for his literary work and human rights activism. Civic Forum successfully led the peaceful transition from communist rule, and Havel became the last president of Czechoslovakia and the first president of the Czech Republic.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Civic_Forum",
+    "citationTitle": "Wikipedia: Civic Forum"
+  },
+  {
+    "id": "fe014f8c-63e0-4f55-8ac7-29ddd20f8352",
+    "text": "Which country's dominant political party requires its members to study and pass examinations on the party's official ideology as a condition of membership?",
+    "options": [
+      "Vietnam",
+      "Cuba",
+      "North Korea",
+      "China"
+    ],
+    "correctIndex": 3,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "The Chinese Communist Party requires members to study Marxism-Leninism and party ideology, including passing examinations on party doctrine and current leadership theories.",
+    "detailedExplanation": "The Chinese Communist Party (CCP) has an extensive membership education system that requires both prospective and existing members to study party ideology, including Marxism-Leninism, Mao Zedong Thought, and more recent theoretical contributions like Xi Jinping Thought. Members must participate in regular study sessions, complete coursework, and pass examinations demonstrating their understanding of party doctrine. This system is part of the CCP's efforts to maintain ideological unity and discipline among its over 95 million members. The party also operates numerous schools and institutes, including the Central Party School, specifically for political education and training of party officials at various levels.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Chinese_Communist_Party",
+    "citationTitle": "Wikipedia: Chinese Communist Party"
+  }
+]

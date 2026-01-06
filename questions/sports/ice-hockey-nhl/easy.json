@@ -1,0 +1,342 @@
+[
+  {
+    "id": "14d328bd-672a-4e7c-b63e-466310e0faa9",
+    "text": "How many teams currently compete in the NHL?",
+    "options": [
+      "28",
+      "30",
+      "32",
+      "34"
+    ],
+    "correctIndex": 2,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "The NHL currently has 32 teams after recent expansions.",
+    "detailedExplanation": "The National Hockey League expanded to 32 teams with the addition of the Seattle Kraken in 2021. This followed the Vegas Golden Knights joining in 2017, bringing the league from 30 to its current 32-team format. The league is divided into two conferences (Eastern and Western) with four divisions total.",
+    "citationUrl": "https://en.wikipedia.org/wiki/National_Hockey_League",
+    "citationTitle": "Wikipedia: National Hockey League"
+  },
+  {
+    "id": "49c2a19a-66df-4355-b511-9b22ed62f8ee",
+    "text": "What is the name of the trophy awarded to the NHL champion each year?",
+    "options": [
+      "Lord Stanley Cup",
+      "Stanley Cup",
+      "Hockey Cup",
+      "Championship Cup"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "The Stanley Cup is awarded annually to the NHL playoff champion.",
+    "detailedExplanation": "The Stanley Cup is the oldest professional sports trophy in North America, first awarded in 1893. Named after Lord Stanley of Preston, the Governor General of Canada, it has been awarded to the NHL champion since 1926. The Cup is unique as the actual trophy travels with the winning team and players get to spend personal time with it.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Stanley_Cup",
+    "citationTitle": "Wikipedia: Stanley Cup"
+  },
+  {
+    "id": "ea92f2ea-0846-4a57-9b6a-74378cd8d259",
+    "text": "Which NHL team has won the most Stanley Cup championships?",
+    "options": [
+      "Boston Bruins",
+      "Detroit Red Wings",
+      "Montreal Canadiens",
+      "Toronto Maple Leafs"
+    ],
+    "correctIndex": 2,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "The Montreal Canadiens have won 24 Stanley Cup championships.",
+    "detailedExplanation": "The Montreal Canadiens are by far the most successful NHL franchise, having won 24 Stanley Cup championships. Their dominance was particularly notable from the 1950s through 1970s, including an unprecedented five consecutive championships from 1956-1960. Their last championship came in 1993, but their record remains untouchable in professional hockey.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Montreal_Canadiens",
+    "citationTitle": "Wikipedia: Montreal Canadiens"
+  },
+  {
+    "id": "7dc92370-2864-4611-9a28-251b9f1b9989",
+    "text": "How many players from each team are on the ice during regular play?",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "Each team has 6 players on the ice: 5 skaters plus 1 goaltender.",
+    "detailedExplanation": "During regular play, each NHL team has six players on the ice: one goaltender and five skaters (typically consisting of three forwards and two defensemen). This number can change during penalties when teams may play short-handed, or when goalies are pulled for an extra attacker. The total roster size is much larger, but only six per team play at any given time.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Ice_hockey_rules",
+    "citationTitle": "Wikipedia: Ice hockey rules"
+  },
+  {
+    "id": "8e28f03e-1152-4f3a-a772-5e648aefc7e7",
+    "text": "What is the standard length of an NHL regular season game?",
+    "options": [
+      "2 periods of 30 minutes",
+      "3 periods of 15 minutes",
+      "3 periods of 20 minutes",
+      "4 periods of 15 minutes"
+    ],
+    "correctIndex": 2,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "NHL games consist of three 20-minute periods of play.",
+    "detailedExplanation": "An NHL game is played in three periods of 20 minutes each, for a total of 60 minutes of playing time. Between each period, there is an 18-minute intermission. If the game is tied after regulation, overtime and potentially a shootout will determine the winner. The actual length of the game is much longer due to stoppages in play, typically lasting around 2.5 to 3 hours total.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Ice_hockey_rules",
+    "citationTitle": "Wikipedia: Ice hockey rules"
+  },
+  {
+    "id": "81183b8d-ce88-4e9d-b563-88e68fb4752b",
+    "text": "Which Canadian city does NOT currently have an NHL team?",
+    "options": [
+      "Quebec City",
+      "Montreal",
+      "Toronto",
+      "Vancouver"
+    ],
+    "correctIndex": 0,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "Quebec City lost their NHL team when the Nordiques moved to Colorado in 1995.",
+    "detailedExplanation": "Quebec City was home to the Quebec Nordiques from 1979 to 1995, but the team relocated to Denver and became the Colorado Avalanche. Currently, seven Canadian cities have NHL teams: Montreal, Toronto, Ottawa, Winnipeg, Calgary, Edmonton, and Vancouver. Quebec City has been mentioned as a potential expansion or relocation destination but currently remains without an NHL franchise.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Quebec_Nordiques",
+    "citationTitle": "Wikipedia: Quebec Nordiques"
+  },
+  {
+    "id": "03983495-a443-4c42-9b9a-470b4004175d",
+    "text": "What is it called when a player scores three goals in a single game?",
+    "options": [
+      "Triple",
+      "Hat trick",
+      "Three-pointer",
+      "Goal rush"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "A hat trick is when a player scores three goals in one game.",
+    "detailedExplanation": "The term 'hat trick' originated in cricket but has been adopted by hockey to describe a player scoring three goals in a single game. In NHL tradition, fans often throw their hats onto the ice to celebrate a hat trick. There are variations like a 'natural hat trick' (three consecutive goals by the same player) and a 'Gordie Howe hat trick' (a goal, an assist, and a fight in the same game).",
+    "citationUrl": "https://en.wikipedia.org/wiki/Hat-trick",
+    "citationTitle": "Wikipedia: Hat-trick"
+  },
+  {
+    "id": "f2ea03a4-6588-41d5-ad08-8a4b5c46b635",
+    "text": "Which NHL award is given to the league's most valuable player?",
+    "options": [
+      "Cy Young Trophy",
+      "Hart Memorial Trophy",
+      "Conn Smythe Trophy",
+      "Art Ross Trophy"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "The Hart Memorial Trophy is awarded to the NHL's most valuable player.",
+    "detailedExplanation": "The Hart Memorial Trophy has been awarded annually since 1924 to the player judged most valuable to his team during the regular season. The trophy is named after Dr. David A. Hart, father of Cecil Hart, a former manager-coach of the Montreal Canadiens. Notable recent winners include Connor McDavid, Leon Draisaitl, and Nathan MacKinnon. It's considered one of the most prestigious individual awards in hockey.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Hart_Memorial_Trophy",
+    "citationTitle": "Wikipedia: Hart Memorial Trophy"
+  },
+  {
+    "id": "7dfb1bdf-9171-4cba-b56a-87e66b174973",
+    "text": "What is the name of the area in front of the goal where offensive players cannot precede the puck?",
+    "options": [
+      "The crease",
+      "The slot",
+      "The offside zone",
+      "The neutral zone"
+    ],
+    "correctIndex": 2,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "The offside zone is the area where players cannot enter before the puck crosses the blue line.",
+    "detailedExplanation": "In NHL hockey, the offside rule prevents attacking players from entering the offensive zone (the area between the blue line and the goal line) before the puck. This fundamental rule ensures fair play and prevents players from simply camping out near the opponent's goal waiting for passes. When a player crosses the blue line into the attacking zone before the puck, play is stopped and a face-off occurs in the neutral zone.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Offside_(ice_hockey)",
+    "citationTitle": "Wikipedia: Offside (ice hockey)"
+  },
+  {
+    "id": "81fc496f-ac1a-4430-8885-d5fe3ba0cfa9",
+    "text": "Which NHL team is known as the 'Original Six' member from Detroit?",
+    "options": [
+      "Detroit Wings",
+      "Detroit Red Wings",
+      "Detroit Hawks",
+      "Detroit Rangers"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "The Detroit Red Wings are one of the Original Six NHL teams.",
+    "detailedExplanation": "The Detroit Red Wings are one of the six teams that made up the NHL from 1942 to 1967, known as the Original Six era. Founded in 1926, the Red Wings have a rich history and are based in Detroit, Michigan. They play their home games at Little Caesars Arena and are known for their distinctive red and white uniforms. The team has won multiple Stanley Cup championships and has been home to many legendary players throughout NHL history.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Detroit_Red_Wings",
+    "citationTitle": "Wikipedia: Detroit Red Wings"
+  },
+  {
+    "id": "42d87948-2604-4967-9fde-4da83a1d8a1c",
+    "text": "What happens when a player commits a minor penalty in NHL hockey?",
+    "options": [
+      "They are ejected from the game",
+      "They sit in the penalty box for 2 minutes",
+      "They sit in the penalty box for 5 minutes",
+      "The opposing team gets a free shot"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "Minor penalties result in a 2-minute stay in the penalty box.",
+    "detailedExplanation": "In NHL hockey, when a player commits a minor penalty (such as tripping, slashing, or interference), they must serve 2 minutes in the penalty box. During this time, their team plays short-handed, giving the opposing team a power play advantage with more players on the ice. Common minor penalties include hooking, high-sticking, boarding, and cross-checking. The penalty ends either when the 2 minutes expire or if the team with the power play scores a goal.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Penalty_(ice_hockey)",
+    "citationTitle": "Wikipedia: Penalty (ice hockey)"
+  },
+  {
+    "id": "24c3de86-7c03-49ea-bdef-0e3ad1d8912e",
+    "text": "In which country was the first organized indoor ice hockey game played?",
+    "options": [
+      "United States",
+      "Canada",
+      "Russia",
+      "Sweden"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "The first organized indoor ice hockey game was played in Montreal, Canada in 1875.",
+    "detailedExplanation": "Ice hockey's origins trace back to Canada, where the first organized indoor game was played at the Victoria Skating Rink in Montreal on March 3, 1875. The game evolved from various stick-and-ball games and was formalized with written rules. Canada is widely considered the birthplace of modern ice hockey, and the sport spread from there to other countries. The NHL itself began with Canadian teams, though it later expanded to include American franchises.",
+    "citationUrl": "https://en.wikipedia.org/wiki/History_of_ice_hockey",
+    "citationTitle": "Wikipedia: History of ice hockey"
+  },
+  {
+    "id": "c89fdaf4-1502-448d-8769-2e2a0a9cfe40",
+    "text": "What is the term for when a team scores a goal while short-handed due to a penalty?",
+    "options": [
+      "Power play goal",
+      "Short-handed goal",
+      "Penalty shot goal",
+      "Empty net goal"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "A short-handed goal occurs when a team scores while playing with fewer players due to a penalty.",
+    "detailedExplanation": "A short-handed goal is scored by a team that has fewer players on the ice due to one or more players serving penalties. This is considered a significant achievement because the team is at a numerical disadvantage, typically playing with four skaters against the opposing team's five during a power play. Short-handed goals often result from breakaways, odd-man rushes, or exceptional defensive plays that turn into offensive opportunities.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Short-handed",
+    "citationTitle": "Wikipedia: Short-handed"
+  },
+  {
+    "id": "984e2fc2-80d4-4a09-ab43-0c67522613e9",
+    "text": "Which position in hockey is primarily responsible for stopping the puck from entering the goal?",
+    "options": [
+      "Center",
+      "Defenseman",
+      "Goaltender",
+      "Winger"
+    ],
+    "correctIndex": 2,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "The goaltender (or goalie) is the player whose main job is to prevent goals by stopping the puck.",
+    "detailedExplanation": "The goaltender, also called a goalie or netminder, is a specialized position in ice hockey whose primary responsibility is to prevent the opposing team from scoring by stopping the puck from entering their team's goal. Goaltenders wear specialized protective equipment including large pads, a mask, chest protector, and use a specialized stick. They are the only players allowed to handle the puck with their hands in certain areas and have different rules applied to them compared to other players on the ice.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Goaltender",
+    "citationTitle": "Wikipedia: Goaltender"
+  },
+  {
+    "id": "ac5c29d5-6e3a-4089-84c3-8d163fa5db0c",
+    "text": "How many periods are played in a standard NHL regular season game?",
+    "options": [
+      "2 periods",
+      "3 periods",
+      "4 periods",
+      "5 periods"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "NHL games consist of three periods of play.",
+    "detailedExplanation": "A standard NHL regular season game is divided into three periods, each lasting 20 minutes of playing time. Between each period, there is an intermission that typically lasts 15-20 minutes, allowing players to rest and teams to strategize. If the game is tied after three periods during the regular season, the game goes to overtime and potentially a shootout. This three-period structure has been a fundamental part of professional ice hockey for decades.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Ice_hockey_rules",
+    "citationTitle": "Wikipedia: Ice hockey rules"
+  },
+  {
+    "id": "d4a57579-ac3f-4aad-84a0-4086a63846ae",
+    "text": "Which NHL team plays their home games in Madison Square Garden?",
+    "options": [
+      "New York Islanders",
+      "New Jersey Devils",
+      "New York Rangers",
+      "Buffalo Sabres"
+    ],
+    "correctIndex": 2,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "The New York Rangers play their home games at Madison Square Garden in Manhattan.",
+    "detailedExplanation": "The New York Rangers, one of the Original Six NHL teams, have called Madison Square Garden home since 1968. Located in Manhattan, New York City, Madison Square Garden is one of the most famous arenas in professional sports and is often called 'The World's Most Famous Arena.' The Rangers share this venue with the NBA's New York Knicks. The team was founded in 1926 and has a passionate fan base known for their loyalty and enthusiasm.",
+    "citationUrl": "https://en.wikipedia.org/wiki/New_York_Rangers",
+    "citationTitle": "Wikipedia: New York Rangers"
+  },
+  {
+    "id": "fa745e24-603c-4436-b0f5-0dbe4a5f4e05",
+    "text": "What color is the center line that divides an NHL hockey rink in half?",
+    "options": [
+      "Blue",
+      "Red",
+      "Yellow",
+      "White"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "The center line in NHL hockey is red.",
+    "detailedExplanation": "The center line in NHL hockey is painted red and runs across the width of the rink at the midpoint, dividing it into two equal halves. This red line is crucial for determining icing violations and serves as a reference point for various rules. The other major lines on the rink are blue (goal lines and blue lines that mark the defensive zones).",
+    "citationUrl": "https://en.wikipedia.org/wiki/Ice_hockey_rink",
+    "citationTitle": "Wikipedia: Ice hockey rink"
+  },
+  {
+    "id": "55f9df1e-a86e-41b6-ac54-bfb7562831e8",
+    "text": "Which NHL team is nicknamed 'The Great One's' former team, where Wayne Gretzky played the majority of his career?",
+    "options": [
+      "Los Angeles Kings",
+      "New York Rangers",
+      "Edmonton Oilers",
+      "St. Louis Blues"
+    ],
+    "correctIndex": 2,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "Wayne Gretzky played the majority of his career with the Edmonton Oilers.",
+    "detailedExplanation": "Wayne Gretzky, known as 'The Great One,' played nine seasons with the Edmonton Oilers from 1979-1988, which represented the majority and most successful portion of his career. During his time with the Oilers, he led the team to four Stanley Cup championships and set numerous NHL records. His trade to the Los Angeles Kings in 1988 was one of the most shocking transactions in hockey history.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Wayne_Gretzky",
+    "citationTitle": "Wikipedia: Wayne Gretzky"
+  },
+  {
+    "id": "563dfcae-3eb0-4425-b08e-ad1c9168b508",
+    "text": "What is the maximum weight limit in pounds for an NHL hockey puck?",
+    "options": [
+      "5 ounces",
+      "6 ounces",
+      "7 ounces",
+      "8 ounces"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "An NHL hockey puck must weigh between 5.5 and 6 ounces.",
+    "detailedExplanation": "According to NHL regulations, a hockey puck must weigh between 5.5 and 6 ounces (156 to 170 grams). The puck is made of vulcanized rubber and measures 3 inches in diameter and 1 inch thick. Before games, pucks are typically frozen to reduce bouncing and make them slide more smoothly on the ice surface.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Hockey_puck",
+    "citationTitle": "Wikipedia: Hockey puck"
+  },
+  {
+    "id": "9cd4c084-a067-4edf-90ae-b9a2e4a6e791",
+    "text": "In which month does the NHL regular season typically begin each year?",
+    "options": [
+      "September",
+      "October",
+      "November",
+      "December"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "The NHL regular season typically begins in October.",
+    "detailedExplanation": "The NHL regular season traditionally starts in early to mid-October each year, following a preseason period in September. The season runs through early April, spanning approximately six months. This timing allows the Stanley Cup playoffs to conclude by mid-June, giving players a summer break before training camps begin again in September.",
+    "citationUrl": "https://en.wikipedia.org/wiki/National_Hockey_League",
+    "citationTitle": "Wikipedia: National Hockey League"
+  }
+]

@@ -1,0 +1,342 @@
+[
+  {
+    "id": "6c02514e-180f-4c6d-ae24-7e7a980a39fe",
+    "text": "Which architectural style is characterized by the use of pendentives to support a dome over a square base?",
+    "options": [
+      "Byzantine",
+      "Romanesque",
+      "Gothic",
+      "Moorish"
+    ],
+    "correctIndex": 0,
+    "category": "arts",
+    "difficulty": "hard",
+    "explanation": "Byzantine architecture pioneered the use of pendentives, curved triangular sections that allow a circular dome to sit on a square base.",
+    "detailedExplanation": "Byzantine architecture, developed in the Eastern Roman Empire from the 4th century onwards, made significant innovations in dome construction. The most notable contribution was the pendentive system, which solved the complex engineering problem of placing a circular dome over a square base. These curved triangular sections distribute the dome's weight to the four corners of the square base below. The Hagia Sophia in Constantinople is the most famous example of this technique.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Byzantine_architecture",
+    "citationTitle": "Wikipedia: Byzantine architecture"
+  },
+  {
+    "id": "23b3bf3f-eaf3-45f3-bfd3-670709b8d1c8",
+    "text": "The Chateauesque style, popular in late 19th-century America, was primarily inspired by which country's Renaissance architecture?",
+    "options": [
+      "Italy",
+      "Spain",
+      "France",
+      "England"
+    ],
+    "correctIndex": 2,
+    "category": "arts",
+    "difficulty": "hard",
+    "explanation": "Chateauesque style drew inspiration from French Renaissance châteaux, featuring steep roofs, towers, and elaborate stonework.",
+    "detailedExplanation": "The Chateauesque style emerged in the United States during the Gilded Age (1870s-1910s) as wealthy industrialists sought to emulate European aristocracy. This architectural style was directly inspired by French Renaissance châteaux of the Loire Valley, incorporating distinctive features like steep-pitched roofs, conical towers, elaborate dormers, and ornate stonework. Notable examples include the Biltmore Estate in North Carolina and many buildings designed by architect Richard Morris Hunt, who studied at the École des Beaux-Arts in Paris.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Ch%C3%A2teauesque",
+    "citationTitle": "Wikipedia: Châteauesque"
+  },
+  {
+    "id": "d78611c1-366c-4fa2-9ffa-adc13cd61861",
+    "text": "Which architectural movement promoted the idea that 'form follows function' and rejected unnecessary ornamentation?",
+    "options": [
+      "Art Nouveau",
+      "Bauhaus",
+      "Chicago School",
+      "Prairie School"
+    ],
+    "correctIndex": 2,
+    "category": "arts",
+    "difficulty": "hard",
+    "explanation": "The Chicago School, led by architects like Louis Sullivan, championed the principle that 'form follows function' and emphasized structural honesty.",
+    "detailedExplanation": "The Chicago School of architecture emerged in the late 19th century following the Great Chicago Fire of 1871. Led by architects like Louis Sullivan and Daniel Burnham, this movement revolutionized building design by prioritizing function over decorative elements. Sullivan's famous maxim 'form ever follows function' became the movement's guiding principle. The Chicago School pioneered the use of steel-frame construction, large plate glass windows, and minimal ornamentation, laying the groundwork for modern skyscraper design and influencing the later development of modernist architecture.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Chicago_school_(architecture)",
+    "citationTitle": "Wikipedia: Chicago school (architecture)"
+  },
+  {
+    "id": "8e745430-b5ad-4b41-a0c5-d87abb46462b",
+    "text": "What distinguishes Mudéjar architecture from other Islamic architectural styles?",
+    "options": [
+      "It uses only geometric patterns",
+      "It was created by Muslims under Christian rule",
+      "It exclusively features horseshoe arches",
+      "It originated in North Africa"
+    ],
+    "correctIndex": 1,
+    "category": "arts",
+    "difficulty": "hard",
+    "explanation": "Mudéjar architecture was created by Muslim craftsmen living under Christian rule in medieval Spain, blending Islamic and Christian elements.",
+    "detailedExplanation": "Mudéjar architecture developed in medieval Spain from the 12th to 16th centuries, representing a unique cultural synthesis. The term 'Mudéjar' refers to Muslims who remained in Christian-controlled territories after the Reconquista. These skilled craftsmen continued to practice their traditional building techniques while incorporating Christian architectural elements and motifs. This style is characterized by the use of brick and tile work, intricate geometric patterns, horseshoe and multifoil arches, and wooden ceilings with Islamic-inspired decoration, often seen in churches and palaces throughout Spain.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Mud%C3%A9jar_architecture",
+    "citationTitle": "Wikipedia: Mudéjar architecture"
+  },
+  {
+    "id": "5b09132f-363e-4e2f-9ccb-c9ff2bce87e8",
+    "text": "Which architectural style features the distinctive 'balloon frame' construction method?",
+    "options": [
+      "Queen Anne",
+      "Stick Style",
+      "American Foursquare",
+      "Platform Frame"
+    ],
+    "correctIndex": 1,
+    "category": "arts",
+    "difficulty": "hard",
+    "explanation": "Stick Style architecture prominently displayed its balloon frame construction as a decorative element, showing the wooden framework on the exterior.",
+    "detailedExplanation": "The Stick Style, popular in American architecture from 1860-1890, was characterized by its emphasis on revealing the building's structural framework as decoration. This style made prominent use of balloon frame construction, a revolutionary building technique that used lightweight, closely-spaced wooden studs nailed together rather than traditional heavy timber joinery. Stick Style buildings displayed this framework on their exteriors through decorative wooden 'stickwork' that mimicked or actually revealed the underlying structure, often painted in contrasting colors to emphasize the geometric patterns created by the wooden elements.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Stick_style",
+    "citationTitle": "Wikipedia: Stick style"
+  },
+  {
+    "id": "68ae4524-db99-4c52-9bf9-7857040d0602",
+    "text": "The distinctive 'crow-stepped gables' are most commonly associated with which architectural tradition?",
+    "options": [
+      "Dutch Colonial",
+      "Scottish Baronial",
+      "Flemish Renaissance",
+      "All of the above"
+    ],
+    "correctIndex": 3,
+    "category": "arts",
+    "difficulty": "hard",
+    "explanation": "Crow-stepped gables are found in Dutch, Scottish, and Flemish architecture, reflecting shared Northern European building traditions.",
+    "detailedExplanation": "Crow-stepped gables, also known as corbie steps or trap gables, are stepped triangular wall sections that rise above the roofline. This distinctive feature appears across several Northern European architectural traditions that share historical connections through trade and cultural exchange. In Scotland, they're prominent in Scottish Baronial style castles and houses. Dutch Colonial architecture brought them to America, while Flemish Renaissance buildings in Belgium and the Netherlands extensively used this feature. The steps served both practical purposes (providing access for roof maintenance) and aesthetic functions, creating striking silhouettes that became signature elements of these regional styles.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Crow-stepped_gable",
+    "citationTitle": "Wikipedia: Crow-stepped gable"
+  },
+  {
+    "id": "0d85d6e4-7461-403e-8b2c-e4ab0bfd2d4a",
+    "text": "Which architect is credited with developing the 'Five Points of Architecture' that defined modern architectural principles?",
+    "options": [
+      "Frank Lloyd Wright",
+      "Le Corbusier",
+      "Ludwig Mies van der Rohe",
+      "Walter Gropius"
+    ],
+    "correctIndex": 1,
+    "category": "arts",
+    "difficulty": "hard",
+    "explanation": "Le Corbusier formulated the 'Five Points of Architecture' in 1927, establishing key principles of modernist design including pilotis and free façades.",
+    "detailedExplanation": "Le Corbusier developed his 'Five Points of Architecture' (Cinq points de l'architecture nouvelle) in 1927, which became fundamental principles of modern architecture. These five points were: pilotis (reinforced concrete stilts), free design of the ground plan, free design of the façade, horizontal windows, and roof gardens. These principles were made possible by reinforced concrete construction and represented a radical departure from traditional load-bearing wall construction. Le Corbusier demonstrated these concepts in buildings like the Villa Savoye (1931), which became an icon of International Style modernism and influenced architectural education and practice worldwide.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Five_points_of_architecture",
+    "citationTitle": "Wikipedia: Five points of architecture"
+  },
+  {
+    "id": "703e3000-f76d-4b78-b753-205b5cc71988",
+    "text": "The Perpendicular Gothic style, the final phase of English Gothic architecture, is distinguished by which characteristic feature?",
+    "options": [
+      "Clustered columns",
+      "Emphasis on vertical lines and rectangular panels",
+      "Elaborate rose windows",
+      "Ribbed vaulting"
+    ],
+    "correctIndex": 1,
+    "category": "arts",
+    "difficulty": "hard",
+    "explanation": "Perpendicular Gothic emphasized strong vertical lines and large rectangular window panels with grid-like tracery patterns.",
+    "detailedExplanation": "Perpendicular Gothic, which flourished in England from approximately 1350-1520, represented the final evolution of English Gothic architecture. This style was characterized by its emphasis on vertical lines and the use of rectilinear tracery that created large, rectangular panels in windows and wall surfaces. The tracery patterns resembled grids rather than the flowing curves of earlier Decorated Gothic style. This created an effect of strong vertical emphasis throughout the building, from floor to ceiling. King's College Chapel in Cambridge and Henry VII's Chapel at Westminster Abbey are prime examples, featuring soaring vertical lines, large areas of glass, and the distinctive perpendicular tracery that gave the style its name.",
+    "citationUrl": "https://en.wikipedia.org/wiki/English_Gothic_architecture#Perpendicular_Gothic",
+    "citationTitle": "Wikipedia: English Gothic architecture - Perpendicular Gothic"
+  },
+  {
+    "id": "70281ebd-15da-4b4e-8274-aa8579ba495b",
+    "text": "Which architectural style is characterized by the use of horseshoe arches, multicolored stone voussoirs, and intricate geometric patterns, originating in 8th century Spain?",
+    "options": [
+      "Mudéjar",
+      "Moorish",
+      "Romanesque",
+      "Visigothic"
+    ],
+    "correctIndex": 1,
+    "category": "arts",
+    "difficulty": "hard",
+    "explanation": "Moorish architecture developed in Islamic Spain and is distinguished by horseshoe arches and colorful geometric patterns.",
+    "detailedExplanation": "Moorish architecture emerged in medieval Spain under Islamic rule, beginning in the 8th century. This distinctive style is characterized by horseshoe arches (arcos de herradura), alternating red and white stone voussoirs, intricate geometric and calligraphic decorations, and the use of muqarnas (honeycomb vaulting). Famous examples include the Great Mosque of Córdoba and the Alhambra in Granada. The style represents a unique fusion of Islamic architectural principles with local Iberian building traditions.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Moorish_architecture",
+    "citationTitle": "Wikipedia: Moorish architecture"
+  },
+  {
+    "id": "820b7b74-eb04-4533-a5ed-95f79980dd26",
+    "text": "The Deconstructivist architectural movement, which emerged in the 1980s, was heavily influenced by which philosophical and literary movement?",
+    "options": [
+      "Existentialism",
+      "Poststructuralism",
+      "Phenomenology",
+      "Logical Positivism"
+    ],
+    "correctIndex": 1,
+    "category": "arts",
+    "difficulty": "hard",
+    "explanation": "Deconstructivism was influenced by poststructuralist philosophy, particularly the work of Jacques Derrida.",
+    "detailedExplanation": "Deconstructivist architecture emerged in the 1980s as a radical departure from traditional architectural forms, heavily influenced by poststructuralist philosophy, particularly Jacques Derrida's concept of deconstruction. This movement challenged conventional ideas about harmony, unity, and stability in architecture, instead embracing fragmentation, non-linear processes, and geometric complexity. Architects like Frank Gehry, Zaha Hadid, and Daniel Libeskind became prominent practitioners, creating buildings that appear to defy structural logic while maintaining functional integrity.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Deconstructivism",
+    "citationTitle": "Wikipedia: Deconstructivism"
+  },
+  {
+    "id": "ed539fdd-79a3-40ed-9de9-11e475504893",
+    "text": "Which distinctive architectural feature is the defining characteristic of Saracenic architecture, commonly seen in medieval Islamic buildings?",
+    "options": [
+      "Flying buttresses",
+      "Pointed arches with intricate tracery",
+      "Cloister vaults",
+      "Drum and dome construction"
+    ],
+    "correctIndex": 1,
+    "category": "arts",
+    "difficulty": "hard",
+    "explanation": "Saracenic architecture is defined by pointed arches decorated with elaborate geometric tracery and arabesque patterns.",
+    "detailedExplanation": "Saracenic architecture, a term used primarily in the 19th and early 20th centuries to describe Islamic architectural styles, is characterized by pointed arches adorned with intricate tracery, geometric patterns, and arabesque designs. This style emphasizes mathematical precision in decorative elements, often featuring complex interlacing patterns, calligraphic inscriptions, and stylized floral motifs. The pointed arch, adopted from earlier architectural traditions, became a signature element that allowed for greater structural flexibility and decorative possibilities than the rounded Roman arch.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Islamic_architecture",
+    "citationTitle": "Wikipedia: Islamic architecture"
+  },
+  {
+    "id": "da09d9a3-42f4-4965-ba7b-b45c4979fb1e",
+    "text": "The Stripped Classicism architectural style, popular in government buildings during the 1930s, emerged as a response to which architectural movement?",
+    "options": [
+      "Art Nouveau",
+      "Bauhaus Modernism",
+      "Gothic Revival",
+      "Beaux-Arts"
+    ],
+    "correctIndex": 1,
+    "category": "arts",
+    "difficulty": "hard",
+    "explanation": "Stripped Classicism developed as a compromise between traditional classical architecture and modernist principles.",
+    "detailedExplanation": "Stripped Classicism emerged in the 1930s as a architectural style that attempted to bridge the gap between traditional classical architecture and the radical modernist movement, particularly Bauhaus principles. This style retained classical proportions and symmetry while eliminating most decorative elements, resulting in clean, monumental facades. It became particularly popular for government and institutional buildings during the Great Depression era, as it conveyed authority and permanence while embracing some modern sensibilities. Notable examples include many New Deal-era federal buildings in the United States.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Stripped_Classicism",
+    "citationTitle": "Wikipedia: Stripped Classicism"
+  },
+  {
+    "id": "ff10a023-e147-4bb3-87ea-a65ecec17541",
+    "text": "Which architectural style features the distinctive use of 'nagare-zukuri' roofing, characterized by asymmetrical gabled roofs that extend forward over the entrance?",
+    "options": [
+      "Korean Hanok",
+      "Japanese Shinto",
+      "Chinese Siheyuan",
+      "Thai Sala"
+    ],
+    "correctIndex": 1,
+    "category": "arts",
+    "difficulty": "hard",
+    "explanation": "Nagare-zukuri is a traditional Japanese Shinto architectural style featuring asymmetrical roofs extending over the entrance.",
+    "detailedExplanation": "Nagare-zukuri (流造) is one of the oldest architectural styles used in Japanese Shinto shrine construction, dating back to the Heian period. The defining feature is its asymmetrical gabled roof that slopes down and extends forward to cover the entrance, creating a distinctive flowing appearance that gives the style its name (nagare meaning 'flowing'). This design not only provides practical protection from the elements but also creates a sense of movement and natural integration with the landscape, reflecting Shinto principles of harmony with nature.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Nagare-zukuri",
+    "citationTitle": "Wikipedia: Nagare-zukuri"
+  },
+  {
+    "id": "aede53db-57af-49eb-92ae-e16681774fe6",
+    "text": "The Metabolist architectural movement, which emerged in 1960s Japan, was based on which fundamental design principle?",
+    "options": [
+      "Buildings should integrate with natural landscapes",
+      "Architecture should consist of replaceable and adaptable components",
+      "Structures should minimize environmental impact",
+      "Form should reflect regional cultural traditions"
+    ],
+    "correctIndex": 1,
+    "category": "arts",
+    "difficulty": "hard",
+    "explanation": "Metabolism emphasized modular, adaptable architecture with replaceable components to accommodate urban growth and change.",
+    "detailedExplanation": "The Metabolist movement emerged in Japan during the 1960s as a response to rapid post-war urbanization and population growth. Founded by architects like Kisho Kurokawa and Kenzo Tange, Metabolism proposed that buildings should be designed like living organisms, with permanent structural cores supporting temporary, replaceable modules that could be added, removed, or reconfigured as needs changed. This philosophy reflected both biological metaphors and practical concerns about urban density, technological change, and social flexibility in rapidly evolving cities.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Metabolism_(architecture)",
+    "citationTitle": "Wikipedia: Metabolism (architecture)"
+  },
+  {
+    "id": "3e2c1f9c-3081-4814-ba9b-05b3c90b100a",
+    "text": "Which architectural style is distinguished by the use of 'platbands' - flat horizontal bands that replace traditional moldings around windows and doors?",
+    "options": [
+      "Federal Style",
+      "Italianate",
+      "Second Empire",
+      "Stick Style"
+    ],
+    "correctIndex": 0,
+    "category": "arts",
+    "difficulty": "hard",
+    "explanation": "Federal Style architecture features platbands as simplified classical elements, reflecting early American architectural preferences.",
+    "detailedExplanation": "Federal Style architecture, popular in the United States from approximately 1780 to 1830, represents the American interpretation of neoclassical design principles. Platbands - flat, rectangular trim pieces used around windows and doors instead of more elaborate classical moldings - are a characteristic feature of this style. This simplified approach to classical detailing reflected both the practical constraints of building in a new nation and the aesthetic preferences of early American architects who favored clean, geometric forms over the more ornate decorative traditions of European architecture.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Federal_architecture",
+    "citationTitle": "Wikipedia: Federal architecture"
+  },
+  {
+    "id": "b66a7160-faad-4e15-8fe9-d844308f9bdc",
+    "text": "The distinctive 'onion domes' topped with Orthodox crosses are most characteristic of which regional architectural tradition?",
+    "options": [
+      "Coptic Egyptian",
+      "Russian Orthodox",
+      "Ethiopian Highland",
+      "Armenian Apostolic"
+    ],
+    "correctIndex": 1,
+    "category": "arts",
+    "difficulty": "hard",
+    "explanation": "Onion domes are a distinctive feature of Russian Orthodox church architecture, symbolizing prayer rising to heaven.",
+    "detailedExplanation": "Russian Orthodox church architecture is renowned for its distinctive onion-shaped domes, which began appearing in the 12th century and became increasingly elaborate over time. These bulbous domes, often gilded and topped with Orthodox crosses, serve both practical and symbolic purposes. Practically, their shape helps shed snow and rain in harsh Russian winters. Symbolically, they represent flames of candles or prayers rising toward heaven. The most famous example is St. Basil's Cathedral in Moscow, with its colorful collection of onion domes creating one of the world's most recognizable architectural silhouettes.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Russian_architecture",
+    "citationTitle": "Wikipedia: Russian architecture"
+  },
+  {
+    "id": "6ae86822-533f-46cf-b7cb-7c48bd095b07",
+    "text": "Which architectural style is characterized by the distinctive use of 'squinches' - small arches built across the corners of a square room to support a circular dome above?",
+    "options": [
+      "Romanesque",
+      "Byzantine",
+      "Islamic",
+      "Gothic"
+    ],
+    "correctIndex": 2,
+    "category": "arts",
+    "difficulty": "hard",
+    "explanation": "Islamic architecture developed squinches as an innovative solution for placing domes on square bases.",
+    "detailedExplanation": "Squinches are a defining feature of Islamic architecture, representing an ingenious structural solution that predates the Byzantine pendentive. These small arches or corbelled structures are built diagonally across the corners of a square room, effectively creating an octagonal base that can more easily support a circular dome. This technique was perfected in Persian and early Islamic architecture and became widespread throughout the Islamic world, appearing in countless mosques, madrasas, and palaces from Spain to Central Asia.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Squinch",
+    "citationTitle": "Wikipedia: Squinch"
+  },
+  {
+    "id": "01dc807c-6ea0-413c-911a-5d01c13088cc",
+    "text": "The Richardsonian Romanesque style, popular in late 19th-century America, is most notably characterized by which distinctive feature?",
+    "options": [
+      "Polychromatic stonework with alternating colors",
+      "Massive rough-hewn stone masonry with rounded arches",
+      "Elaborate cast-iron ornamentation",
+      "Pointed spires with Gothic tracery"
+    ],
+    "correctIndex": 1,
+    "category": "arts",
+    "difficulty": "hard",
+    "explanation": "Richardsonian Romanesque is defined by its use of massive, rough-hewn stone blocks and prominent rounded arches.",
+    "detailedExplanation": "Named after architect Henry Hobson Richardson, this style dominated American institutional architecture from the 1870s to 1890s. The style is characterized by its use of massive walls built from rough-hewn stone (often sandstone or granite), prominent rounded arches, and a generally fortress-like appearance. Richardson drew inspiration from medieval Romanesque architecture but adapted it for American materials and construction methods. Famous examples include Trinity Church in Boston and the Marshall Field Wholesale Store in Chicago, which influenced the development of the Chicago School of architecture.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Richardsonian_Romanesque",
+    "citationTitle": "Wikipedia: Richardsonian Romanesque"
+  },
+  {
+    "id": "b96285d9-c092-44ff-9027-0eab79c9730e",
+    "text": "Which architectural movement of the 1960s-70s emphasized massive, monolithic concrete structures and was named after the French term for 'raw concrete'?",
+    "options": [
+      "Constructivism",
+      "Brutalism",
+      "Expressionism",
+      "Structuralism"
+    ],
+    "correctIndex": 1,
+    "category": "arts",
+    "difficulty": "hard",
+    "explanation": "Brutalism derives from 'béton brut,' meaning raw concrete in French, and emphasized massive concrete forms.",
+    "detailedExplanation": "Brutalism emerged in the 1950s-60s as an architectural movement that celebrated the raw, unfinished appearance of concrete construction. The name comes from the French term 'béton brut' (raw concrete), coined by architect Le Corbusier. Brutalist buildings are characterized by their monolithic, fortress-like appearance, heavy use of raw concrete (often showing the texture of wooden boards or molds used in casting), repetitive angular elements, and a general emphasis on the building's weight and solidity. The style was particularly popular for university buildings, housing estates, and civic centers, though it later fell out of favor due to public perception issues.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Brutalist_architecture",
+    "citationTitle": "Wikipedia: Brutalist architecture"
+  },
+  {
+    "id": "cd71c590-d23f-497c-a7a9-813f2b58ccce",
+    "text": "The distinctive 'iwan' - a rectangular hall or space walled on three sides with one end entirely open - is a characteristic feature of which architectural tradition?",
+    "options": [
+      "Moorish",
+      "Mamluk",
+      "Persian",
+      "Ottoman"
+    ],
+    "correctIndex": 2,
+    "category": "arts",
+    "difficulty": "hard",
+    "explanation": "The iwan originated in Persian architecture and became a defining feature of Islamic architectural design.",
+    "detailedExplanation": "The iwan is a fundamental element of Persian architecture that later spread throughout the Islamic world. This distinctive architectural feature consists of a rectangular hall or vaulted space that is walled on three sides, with one end entirely open to a courtyard. Iwans originated in pre-Islamic Sassanian palaces but were adopted and refined in Islamic architecture, becoming particularly prominent in Persian mosques, madrasas, and palaces. The classic Persian mosque layout features four iwans arranged around a central courtyard, with the largest iwan (the qibla iwan) indicating the direction of Mecca. This design influenced Islamic architecture from Central Asia to India.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Iwan",
+    "citationTitle": "Wikipedia: Iwan"
+  }
+]

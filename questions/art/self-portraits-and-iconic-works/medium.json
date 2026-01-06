@@ -1,0 +1,342 @@
+[
+  {
+    "id": "f35121a5-067b-4941-83b7-51efb03d506f",
+    "text": "Which artist famously painted over 60 self-portraits throughout their career, including works showing them with a bandaged ear?",
+    "options": [
+      "Vincent van Gogh",
+      "Pablo Picasso",
+      "Rembrandt van Rijn",
+      "Frida Kahlo"
+    ],
+    "correctIndex": 0,
+    "category": "arts",
+    "difficulty": "medium",
+    "explanation": "Vincent van Gogh created more than 60 self-portraits, including the famous ones painted after cutting off part of his ear.",
+    "detailedExplanation": "Vincent van Gogh produced an extraordinary number of self-portraits during his brief but prolific career, creating over 60 self-portraits in total. These works served as both artistic practice and psychological exploration, as he often couldn't afford to pay models. His most famous self-portraits include those painted in 1889 after the ear-cutting incident in Arles, showing himself with a bandaged ear. These self-portraits are considered among the most psychologically penetrating in art history.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Self-portraits_by_Vincent_van_Gogh",
+    "citationTitle": "Wikipedia: Self-portraits by Vincent van Gogh"
+  },
+  {
+    "id": "f1cca321-0bc1-44fe-ae11-1cc7bb2fdf44",
+    "text": "Leonardo da Vinci's 'Mona Lisa' is believed to be a portrait of which woman?",
+    "options": [
+      "Isabella d'Este",
+      "Caterina Sforza",
+      "Lisa Gherardini",
+      "Lucrezia Borgia"
+    ],
+    "correctIndex": 2,
+    "category": "arts",
+    "difficulty": "medium",
+    "explanation": "The Mona Lisa is widely believed to be a portrait of Lisa Gherardini, the wife of Florentine merchant Francesco del Giocondo.",
+    "detailedExplanation": "The subject of Leonardo da Vinci's Mona Lisa has been identified through historical research as Lisa Gherardini, born in 1479 to a family of cloth and silk merchants in Florence. She married Francesco del Giocondo, a wealthy silk merchant, in 1495. The painting's Italian name 'La Gioconda' derives from her married surname. Giorgio Vasari, the 16th-century art historian, was among the first to identify her as the subject, and modern scholarship has largely confirmed this identification through documentary evidence.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Mona_Lisa",
+    "citationTitle": "Wikipedia: Mona Lisa"
+  },
+  {
+    "id": "a53e366a-83fb-43a8-acc2-9f8aa39e4122",
+    "text": "Frida Kahlo's self-portrait 'The Two Fridas' depicts two versions of herself connected by what?",
+    "options": [
+      "A shared mirror",
+      "Intertwined hair",
+      "Blood vessels from their hearts",
+      "A golden chain"
+    ],
+    "correctIndex": 2,
+    "category": "arts",
+    "difficulty": "medium",
+    "explanation": "'The Two Fridas' shows two versions of Frida connected by blood vessels extending from their exposed hearts.",
+    "detailedExplanation": "Painted in 1939 during her divorce from Diego Rivera, 'The Two Fridas' is one of Kahlo's most famous self-portraits. The painting shows two versions of herself sitting side by side - one wearing a white European-style dress representing the Frida that Diego rejected, and another in traditional Tehuana dress representing the Frida he loved. The two figures are connected by blood vessels that extend from their exposed hearts, with the European Frida's heart damaged and bleeding onto her dress. This powerful symbolism represents her emotional pain and dual cultural identity.",
+    "citationUrl": "https://en.wikipedia.org/wiki/The_Two_Fridas",
+    "citationTitle": "Wikipedia: The Two Fridas"
+  },
+  {
+    "id": "5fc76737-1a40-4787-af4f-dbf64f869725",
+    "text": "Which artist created the iconic work 'American Gothic,' featuring a farmer and his daughter standing before a house?",
+    "options": [
+      "Edward Hopper",
+      "Grant Wood",
+      "Thomas Hart Benton",
+      "Andrew Wyeth"
+    ],
+    "correctIndex": 1,
+    "category": "arts",
+    "difficulty": "medium",
+    "explanation": "Grant Wood painted 'American Gothic' in 1930, inspired by a house with distinctive Gothic Revival architecture in Iowa.",
+    "detailedExplanation": "Grant Wood created 'American Gothic' in 1930 after being inspired by a small house in Eldon, Iowa, built in the Gothic Revival style. The painting depicts a farmer holding a pitchfork standing beside a woman, commonly assumed to be his daughter. Wood used his sister Nan Wood Graham and his dentist, Dr. Byron McKeeby, as models. The work has become one of the most parodied paintings in American art and is housed in the Art Institute of Chicago. It represents Wood's vision of steadfast American pioneer values during the Great Depression era.",
+    "citationUrl": "https://en.wikipedia.org/wiki/American_Gothic",
+    "citationTitle": "Wikipedia: American Gothic"
+  },
+  {
+    "id": "fb4fb5fa-1914-4e2e-9130-4aeaf8c25dd6",
+    "text": "Rembrandt's famous group portrait 'The Night Watch' actually depicts which time of day?",
+    "options": [
+      "Dawn",
+      "Midday",
+      "Dusk",
+      "Night"
+    ],
+    "correctIndex": 1,
+    "category": "arts",
+    "difficulty": "medium",
+    "explanation": "'The Night Watch' actually depicts a daytime scene; the title comes from the dark varnish that once obscured the painting's bright colors.",
+    "detailedExplanation": "Despite its popular name 'The Night Watch,' Rembrandt's 1642 masterpiece actually depicts a daytime scene of the Amsterdam militia company led by Captain Frans Banninck Cocq. The painting acquired its nocturnal nickname in the 18th century when layers of dirt and dark varnish made it appear as though the scene was set at night. When the painting was cleaned in the 1940s, it revealed that the scene actually takes place during the day, with sunlight streaming in from the left. The official title is 'Militia Company of District II under the Command of Captain Frans Banninck Cocq.'",
+    "citationUrl": "https://en.wikipedia.org/wiki/The_Night_Watch",
+    "citationTitle": "Wikipedia: The Night Watch"
+  },
+  {
+    "id": "19121b63-6570-4f25-9fbd-227343838767",
+    "text": "In which unusual location did David Hockney create his famous series of paintings depicting his friends and lovers?",
+    "options": [
+      "Hotel bathrooms",
+      "Swimming pools",
+      "Airport lounges",
+      "Hospital waiting rooms"
+    ],
+    "correctIndex": 1,
+    "category": "arts",
+    "difficulty": "medium",
+    "explanation": "Hockney's famous pool paintings, including portraits of friends and lovers, were created around and in swimming pools in Los Angeles.",
+    "detailedExplanation": "David Hockney's iconic pool paintings from the 1960s and 1970s, including works like 'Portrait of an Artist (Pool with Two Figures)' and 'A Bigger Splash,' were created during his time in Los Angeles. These works often featured portraits of his friends, lovers, and models in and around swimming pools, capturing the hedonistic California lifestyle. The paintings combined Hockney's interest in the play of light on water with intimate portraiture, using bold colors and clean lines that became synonymous with his style. The pool series established Hockney as a major figure in the Pop Art movement.",
+    "citationUrl": "https://en.wikipedia.org/wiki/David_Hockney",
+    "citationTitle": "Wikipedia: David Hockney"
+  },
+  {
+    "id": "0b1bce56-e8ae-42cb-b2cc-b36b85bb7355",
+    "text": "Johannes Vermeer's 'Girl with a Pearl Earring' is painted using which technique that gives it its luminous quality?",
+    "options": [
+      "Impasto",
+      "Sfumato",
+      "Glazing",
+      "Scumbling"
+    ],
+    "correctIndex": 2,
+    "category": "arts",
+    "difficulty": "medium",
+    "explanation": "Vermeer used glazing techniques, applying thin transparent layers of paint to achieve the luminous, jewel-like quality in 'Girl with a Pearl Earring.'",
+    "detailedExplanation": "Johannes Vermeer's 'Girl with a Pearl Earring' (c. 1665) achieves its distinctive luminous quality through the artist's masterful use of glazing techniques. Glazing involves applying thin, transparent layers of paint over dried underlayers, allowing light to pass through and reflect back from lower layers, creating depth and brilliance. Vermeer was particularly skilled at this technique, often using expensive pigments like ultramarine blue and vermillion. The pearl earring itself demonstrates this technique perfectly, appearing to glow with inner light. This method, combined with his careful attention to the effects of natural light, gives the painting its timeless, almost photographic quality.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Girl_with_a_Pearl_Earring",
+    "citationTitle": "Wikipedia: Girl with a Pearl Earring"
+  },
+  {
+    "id": "79776a2f-4cec-433b-9411-3ce6e2fb746d",
+    "text": "Andy Warhol's famous series of Marilyn Monroe portraits was created shortly after which significant event?",
+    "options": [
+      "Her divorce from Arthur Miller",
+      "Her performance in 'Some Like It Hot'",
+      "Her death in 1962",
+      "Her affair with JFK"
+    ],
+    "correctIndex": 2,
+    "category": "arts",
+    "difficulty": "medium",
+    "explanation": "Warhol created his iconic Marilyn Monroe portraits in 1962, shortly after the actress died from a barbiturate overdose in August of that year.",
+    "detailedExplanation": "Andy Warhol created his famous 'Marilyn Diptych' and other Marilyn Monroe portraits in 1962, just weeks after the actress's death from a barbiturate overdose on August 5, 1962. The timing was significant as Warhol was exploring themes of celebrity, death, and the commodification of image in American culture. He used a publicity photograph from Monroe's 1953 film 'Niagara' as the source image, silk-screening it repeatedly with varying colors and treatments. The series exemplifies Warhol's Pop Art philosophy and his fascination with how mass media transforms individuals into cultural icons, making Monroe's image both immortal and infinitely reproducible.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Marilyn_Diptych",
+    "citationTitle": "Wikipedia: Marilyn Diptych"
+  },
+  {
+    "id": "8178a39c-6ca3-4752-9cf7-bfcee9995338",
+    "text": "Which Spanish artist painted 'Las Meninas,' a complex composition that includes the artist himself working at an easel within the scene?",
+    "options": [
+      "Francisco Goya",
+      "Diego Velázquez",
+      "Pablo Picasso",
+      "El Greco"
+    ],
+    "correctIndex": 1,
+    "category": "arts",
+    "difficulty": "medium",
+    "explanation": "Diego Velázquez painted 'Las Meninas' in 1656, featuring himself as part of the composition.",
+    "detailedExplanation": "Diego Velázquez's 'Las Meninas' (1656) is considered one of the most analyzed works in Western art history. The painting shows the Infanta Margarita Teresa surrounded by her entourage in a room in the Royal Alcázar of Madrid. What makes it remarkable is that Velázquez included himself in the painting, shown working at a large canvas. The work plays with perspective and reality, as the viewer seems to be positioned where the king and queen would be standing, whose reflections can be seen in a mirror at the back of the room.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Las_Meninas",
+    "citationTitle": "Wikipedia: Las Meninas"
+  },
+  {
+    "id": "4834b3a9-5d5e-48e9-85c6-c52e8e3857ab",
+    "text": "Which Renaissance master's self-portrait, painted when he was 28, shows him with long golden curls and is notable for its Christ-like appearance?",
+    "options": [
+      "Michelangelo",
+      "Raphael",
+      "Albrecht Dürer",
+      "Titian"
+    ],
+    "correctIndex": 2,
+    "category": "arts",
+    "difficulty": "medium",
+    "explanation": "Albrecht Dürer's 1500 self-portrait deliberately evokes Christ imagery with its frontal pose and golden hair.",
+    "detailedExplanation": "Albrecht Dürer's Self-Portrait at 28 (1500) is groundbreaking for its frontal pose, which was typically reserved for religious imagery of Christ. The German Renaissance master depicts himself with long, curly golden hair and direct eye contact with the viewer. This was revolutionary for self-portraiture of the time, as most portraits showed subjects in three-quarter view. The Christ-like positioning was Dürer's way of expressing the divine nature of artistic creation and elevating the status of the artist.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Self-Portrait_(Dürer,_Munich)",
+    "citationTitle": "Wikipedia: Self-Portrait (Dürer, Munich)"
+  },
+  {
+    "id": "3523c7e4-6521-4f1d-b6a9-209201710754",
+    "text": "Grant Wood used which two people from his own life as models for the figures in his famous painting 'American Gothic'?",
+    "options": [
+      "His parents",
+      "His sister and dentist",
+      "His wife and brother",
+      "His neighbors"
+    ],
+    "correctIndex": 1,
+    "category": "arts",
+    "difficulty": "medium",
+    "explanation": "Wood used his sister Nan Wood Graham and his dentist Dr. Byron McKeeby as models.",
+    "detailedExplanation": "Grant Wood's iconic 1930 painting 'American Gothic' used real people from the artist's life as models. His sister, Nan Wood Graham, posed for the female figure, while his dentist, Dr. Byron McKeeby, served as the model for the male figure. The painting was inspired by a house Wood saw in Eldon, Iowa, with its distinctive Gothic Revival window. Contrary to popular belief, the figures represent a farmer and his daughter, not a married couple, though this is often misinterpreted.",
+    "citationUrl": "https://en.wikipedia.org/wiki/American_Gothic",
+    "citationTitle": "Wikipedia: American Gothic"
+  },
+  {
+    "id": "e06cfda1-ec9e-4f17-b848-f1cc00073f6e",
+    "text": "Which Post-Impressionist artist created multiple self-portraits while staying at the Saint-Paul-de-Mausole asylum, including one with a palette in hand?",
+    "options": [
+      "Paul Cézanne",
+      "Paul Gauguin",
+      "Vincent van Gogh",
+      "Henri Toulouse-Lautrec"
+    ],
+    "correctIndex": 2,
+    "category": "arts",
+    "difficulty": "medium",
+    "explanation": "Van Gogh painted several self-portraits during his stay at the asylum, including 'Self-Portrait with Palette' (1889).",
+    "detailedExplanation": "During Vincent van Gogh's stay at the Saint-Paul-de-Mausole asylum in Saint-Rémy-de-Provence (1889-1890), he created several self-portraits, including 'Self-Portrait with Palette.' These works show a more subdued color palette compared to his earlier self-portraits and reflect his mental state during this difficult period. The self-portrait with palette shows van Gogh in his role as an artist, holding the tools of his trade, and demonstrates his continued dedication to his craft despite his psychological struggles.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Portraits_by_Vincent_van_Gogh",
+    "citationTitle": "Wikipedia: Portraits by Vincent van Gogh"
+  },
+  {
+    "id": "9e17ccdd-4eea-4375-9b28-9d4660546066",
+    "text": "Caravaggio's 'Narcissus' is believed to be both a mythological scene and what type of artistic representation?",
+    "options": [
+      "A commissioned portrait",
+      "A self-portrait",
+      "A religious allegory",
+      "A political statement"
+    ],
+    "correctIndex": 1,
+    "category": "arts",
+    "difficulty": "medium",
+    "explanation": "Many art historians believe Caravaggio used his own reflection as the model for Narcissus, making it a disguised self-portrait.",
+    "detailedExplanation": "Caravaggio's 'Narcissus' (c. 1597-1599) depicts the Greek myth of Narcissus falling in love with his own reflection in water. However, many art historians believe this painting functions as a self-portrait, with Caravaggio using his own features for the figure of Narcissus. This interpretation is supported by the painting's introspective quality and the way it reflects Caravaggio's fascination with mirrors and reflections throughout his work. The painting combines classical mythology with personal artistic expression, typical of Caravaggio's innovative approach.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Narcissus_(Caravaggio)",
+    "citationTitle": "Wikipedia: Narcissus (Caravaggio)"
+  },
+  {
+    "id": "4636acaf-13b6-41d3-8909-22017ef8e7f3",
+    "text": "Which famous self-portrait by Gustave Courbet shows the artist in profile, intensely focused on his canvas while painting?",
+    "options": [
+      "The Artist's Studio",
+      "Self-Portrait with Black Dog",
+      "The Desperate Man",
+      "Self-Portrait (The Man with the Pipe)"
+    ],
+    "correctIndex": 0,
+    "category": "arts",
+    "difficulty": "medium",
+    "explanation": "'The Artist's Studio' (1855) includes Courbet painting at his easel as the central figure in this large allegorical work.",
+    "detailedExplanation": "'The Artist's Studio: A Real Allegory Summing Up Seven Years of My Artistic and Moral Life' (1855) is Gustave Courbet's monumental painting that places himself at the center of a complex allegorical composition. Courbet depicts himself in profile, painting a landscape while surrounded by various figures representing different aspects of society and his artistic world. This work serves as both a self-portrait and a manifesto of Realist art, with Courbet positioning himself as the central figure mediating between the 'real world' of common people on the right and the 'trivial world' of society figures on the left.",
+    "citationUrl": "https://en.wikipedia.org/wiki/The_Artist's_Studio",
+    "citationTitle": "Wikipedia: The Artist's Studio"
+  },
+  {
+    "id": "0a4ae840-6991-4c94-b6bf-e40340091594",
+    "text": "Édouard Manet's controversial painting 'Olympia' was inspired by which classical Renaissance work?",
+    "options": [
+      "Botticelli's Birth of Venus",
+      "Titian's Venus of Urbino",
+      "Giorgione's Sleeping Venus",
+      "Raphael's Sistine Madonna"
+    ],
+    "correctIndex": 1,
+    "category": "arts",
+    "difficulty": "medium",
+    "explanation": "Manet's 'Olympia' directly references Titian's 'Venus of Urbino' in its composition and pose.",
+    "detailedExplanation": "Édouard Manet's 'Olympia' (1863) caused a scandal when exhibited at the Paris Salon in 1865. The painting deliberately references Titian's revered 'Venus of Urbino' (1538) in its composition, with a reclining female nude in a similar pose. However, Manet transformed the classical goddess into a contemporary Parisian prostitute, complete with modern accessories like orchid in her hair, bracelet, and slippers. The black cat (replacing Titian's sleeping dog) and the flowers brought by a servant add to the provocative modern context that shocked contemporary audiences.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Olympia_(Manet)",
+    "citationTitle": "Wikipedia: Olympia (Manet)"
+  },
+  {
+    "id": "1093ce96-24a9-442c-9af4-df6c6e483b03",
+    "text": "Which Baroque artist painted 'Girl with a Wine Glass,' notable for its masterful depiction of light and the subject's direct gaze at the viewer?",
+    "options": [
+      "Johannes Vermeer",
+      "Jan Steen",
+      "Pieter de Hooch",
+      "Gerard ter Borch"
+    ],
+    "correctIndex": 0,
+    "category": "arts",
+    "difficulty": "medium",
+    "explanation": "Vermeer painted 'Girl with a Wine Glass' around 1659-1660, showcasing his signature use of light and intimate domestic scenes.",
+    "detailedExplanation": "Johannes Vermeer's 'Girl with a Wine Glass' (c. 1659-1660) exemplifies the Dutch master's ability to capture intimate moments with extraordinary attention to light and detail. The painting shows a young woman holding a wine glass while looking directly at the viewer, creating an engaging connection. Like many of Vermeer's works, it demonstrates his mastery of natural light filtering through windows, his precise rendering of textures and materials, and his ability to imbue everyday domestic scenes with a sense of timeless beauty and mystery.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Girl_with_a_Wine_Glass",
+    "citationTitle": "Wikipedia: Girl with a Wine Glass"
+  },
+  {
+    "id": "8e17687f-f694-4922-b424-a80869cd5684",
+    "text": "Which artist painted 'The Arnolfini Portrait,' a masterpiece that includes a convex mirror reflecting the artist's own presence in the room?",
+    "options": [
+      "Jan van Eyck",
+      "Pieter Bruegel the Elder",
+      "Rogier van der Weyden",
+      "Hans Memling"
+    ],
+    "correctIndex": 0,
+    "category": "arts",
+    "difficulty": "medium",
+    "explanation": "Jan van Eyck painted this 1434 masterpiece, where his presence is subtly indicated by the reflection in the mirror and the inscription 'Jan van Eyck was here.'",
+    "detailedExplanation": "Jan van Eyck's 'The Arnolfini Portrait' (1434) is one of the earliest known panel paintings and demonstrates the artist's revolutionary use of oil paint. The work features Giovanni Arnolfini and his wife in their home in Bruges. Most remarkably, van Eyck includes himself in the painting through a convex mirror in the background, which reflects two additional figures - likely the artist and an assistant. Above the mirror, van Eyck wrote 'Johannes de eyck fuit hic 1434' (Jan van Eyck was here 1434), making this both a portrait and a subtle self-portrait.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Arnolfini_Portrait",
+    "citationTitle": "Wikipedia: Arnolfini Portrait"
+  },
+  {
+    "id": "8c5a2ade-2da2-4572-9447-43c355ffeb01",
+    "text": "Édouard Manet's 'A Bar at the Folies-Bergère' features a barmaid whose reflection in the mirror behind her shows her talking to which figure?",
+    "options": [
+      "The artist himself",
+      "A wealthy patron",
+      "A customer (the viewer)",
+      "Another barmaid"
+    ],
+    "correctIndex": 2,
+    "category": "arts",
+    "difficulty": "medium",
+    "explanation": "The mirror shows the barmaid engaging with a customer, representing the viewer's perspective and creating a complex visual dialogue about observation and social interaction.",
+    "detailedExplanation": "Manet's final major work, 'A Bar at the Folies-Bergère' (1882), presents a sophisticated study of modern urban life and spectatorship. The barmaid, Suzon, stands directly facing the viewer, but her reflection in the mirror behind her shows her leaning forward, apparently serving a customer. This customer in the reflection represents the viewer's position, creating a psychological complexity about who is observing whom. The painting explores themes of alienation, commerce, and the performance of social roles in modern Paris, making it both a portrait of working-class life and a meditation on the act of looking itself.",
+    "citationUrl": "https://en.wikipedia.org/wiki/A_Bar_at_the_Folies-Berg%C3%A8re",
+    "citationTitle": "Wikipedia: A Bar at the Folies-Bergère"
+  },
+  {
+    "id": "2dc3446b-1fe6-4326-9b40-e0f068875cbc",
+    "text": "Georgia O'Keeffe's iconic close-up paintings of flowers, such as 'Black Iris III,' were created using which artistic approach that she pioneered?",
+    "options": [
+      "Extreme magnification and cropping",
+      "Pointillist technique",
+      "Cubist fragmentation",
+      "Surrealist automatism"
+    ],
+    "correctIndex": 0,
+    "category": "arts",
+    "difficulty": "medium",
+    "explanation": "O'Keeffe pioneered the technique of extreme close-up views and cropping of natural subjects, transforming flowers into abstract, monumental forms.",
+    "detailedExplanation": "Georgia O'Keeffe revolutionized flower painting through her technique of extreme magnification and radical cropping, taking small details of flowers and enlarging them to fill the entire canvas. Works like 'Black Iris III' (1926) transform intimate botanical subjects into powerful, abstract compositions that blur the line between representation and abstraction. O'Keeffe explained that she painted flowers large so that people would be forced to notice them, saying 'Nobody sees a flower - really - it is so small - we haven't time.' This approach made her one of the pioneers of American modernism and created some of the most recognizable images in 20th-century art.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Georgia_O%27Keeffe",
+    "citationTitle": "Wikipedia: Georgia O'Keeffe"
+  },
+  {
+    "id": "a02e0347-160c-492b-9e79-d42512d0a9af",
+    "text": "Which artist created 'The Birth of Venus,' and also painted himself into his earlier masterpiece 'Adoration of the Magi' as one of the figures in the crowd?",
+    "options": [
+      "Sandro Botticelli",
+      "Andrea Mantegna",
+      "Pietro Perugino",
+      "Domenico Ghirlandaio"
+    ],
+    "correctIndex": 0,
+    "category": "arts",
+    "difficulty": "medium",
+    "explanation": "Sandro Botticelli painted both 'The Birth of Venus' and included his self-portrait in 'Adoration of the Magi,' appearing as a figure in yellow robes on the right side of the composition.",
+    "detailedExplanation": "Sandro Botticelli (1445-1510) created some of the most recognizable images of the Renaissance, including 'The Birth of Venus' (c. 1485), which depicts the Roman goddess emerging from the sea as a grown woman. Earlier in his career, Botticelli painted 'Adoration of the Magi' (c. 1475) for the Medici family, and included his own likeness among the crowd of worshippers. He appears as a figure in golden-yellow robes on the far right of the painting, looking directly out at the viewer - a bold artistic statement for the time. This practice of inserting oneself into religious or mythological scenes was becoming more common during the Renaissance as artists gained social status and artistic recognition.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Sandro_Botticelli",
+    "citationTitle": "Wikipedia: Sandro Botticelli"
+  }
+]

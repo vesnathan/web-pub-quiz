@@ -1,0 +1,342 @@
+[
+  {
+    "id": "cfae6cd5-b5a3-49c1-b8e4-4d98d9450c57",
+    "text": "Which spice is known as 'Black Gold' and was once worth more than its weight in actual gold during medieval times?",
+    "options": [
+      "Saffron",
+      "Black Pepper",
+      "Cardamom",
+      "Cinnamon"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Black pepper was called 'Black Gold' and was extremely valuable in medieval Europe.",
+    "detailedExplanation": "Black pepper earned the nickname 'Black Gold' due to its extraordinary value in medieval Europe. It was so precious that it was used as currency, paid as tribute, and even included in dowries. The spice trade routes that brought pepper from India to Europe were fiercely contested, and pepper's high value was one of the primary drivers behind the Age of Exploration as Europeans sought direct routes to spice-producing regions.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Black_pepper",
+    "citationTitle": "Wikipedia: Black Pepper"
+  },
+  {
+    "id": "2fcbb192-ad65-4185-b0dc-69b960bd0bda",
+    "text": "What is the most expensive spice in the world by weight, requiring approximately 150 flowers to produce just 1 gram?",
+    "options": [
+      "Vanilla",
+      "Cardamom",
+      "Saffron",
+      "Star Anise"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Saffron requires about 150 crocus flowers to produce 1 gram, making it the world's most expensive spice.",
+    "detailedExplanation": "Saffron, derived from the flower of Crocus sativus, is the world's most expensive spice by weight. Each flower produces only three stigmas, which must be hand-picked during a brief harvest window. It takes approximately 150-200 flowers to produce just one gram of saffron, and about 70,000 flowers for a single pound. The labor-intensive harvesting process, combined with the small yield per flower, makes genuine saffron more valuable than gold.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Saffron",
+    "citationTitle": "Wikipedia: Saffron"
+  },
+  {
+    "id": "aa9e40f8-c694-4fbb-b1c8-35c5738e930d",
+    "text": "Which compound gives chili peppers their heat and is measured on the Scoville scale?",
+    "options": [
+      "Piperine",
+      "Capsaicin",
+      "Allicin",
+      "Gingerol"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Capsaicin is the active compound that creates the burning sensation in chili peppers.",
+    "detailedExplanation": "Capsaicin is the chemical compound responsible for the spicy heat sensation in chili peppers. It binds to pain receptors in the mouth and throat, creating the characteristic burning feeling. The Scoville scale, developed by pharmacist Wilbur Scoville in 1912, measures the concentration of capsaicin and related compounds. Pure capsaicin rates at 16 million Scoville Heat Units, while bell peppers contain no capsaicin and rate zero on the scale.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Capsaicin",
+    "citationTitle": "Wikipedia: Capsaicin"
+  },
+  {
+    "id": "88893812-e395-4463-99d6-37215121daff",
+    "text": "What is the active compound in turmeric that gives it both its golden color and anti-inflammatory properties?",
+    "options": [
+      "Curcumin",
+      "Gingerol",
+      "Eugenol",
+      "Thymol"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Curcumin is the primary bioactive compound in turmeric responsible for its color and health properties.",
+    "detailedExplanation": "Curcumin is the primary bioactive compound found in turmeric (Curcuma longa), comprising about 2-8% of most turmeric preparations. This polyphenolic compound is responsible for turmeric's distinctive golden-yellow color and has been extensively studied for its anti-inflammatory, antioxidant, and potentially anti-cancer properties. Curcumin is poorly absorbed by the body on its own, which is why it's often combined with piperine (from black pepper) to enhance bioavailability.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Curcumin",
+    "citationTitle": "Wikipedia: Curcumin"
+  },
+  {
+    "id": "379909e0-296b-4aa3-9542-2420474ac14d",
+    "text": "Which spice blend, essential to Ethiopian cuisine, typically contains fenugreek, coriander, cardamom, and up to 20 other spices?",
+    "options": [
+      "Harissa",
+      "Berbere",
+      "Dukkah",
+      "Baharat"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Berbere is the complex Ethiopian spice blend containing numerous spices including fenugreek and coriander.",
+    "detailedExplanation": "Berbere is a fundamental spice blend in Ethiopian cuisine, often called the soul of Ethiopian cooking. This complex mixture typically contains 10-20 different spices, including chili peppers, fenugreek, coriander, cardamom, black pepper, cinnamon, cloves, and ajwain seeds. The exact recipe varies by region and family tradition, but it always provides the characteristic heat and depth of flavor found in dishes like doro wat (chicken stew) and other Ethiopian specialties.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Berbere",
+    "citationTitle": "Wikipedia: Berbere"
+  },
+  {
+    "id": "0b5e29b4-eb10-4f0c-9fc9-1941740903e2",
+    "text": "What is the primary flavoring compound in vanilla that can be synthetically produced from wood pulp waste?",
+    "options": [
+      "Vanillic acid",
+      "Vanillin",
+      "Coumarin",
+      "Benzaldehyde"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Vanillin is the primary flavor compound in vanilla and can be synthetically produced from lignin in wood pulp.",
+    "detailedExplanation": "Vanillin is the primary flavor compound responsible for vanilla's distinctive taste and aroma. While natural vanillin comes from vanilla orchid pods, synthetic vanillin can be produced from lignin, a waste product of wood pulp processing in paper manufacturing. Synthetic vanillin makes up about 85% of the world's vanillin supply due to the labor-intensive nature of natural vanilla cultivation. Despite chemical similarity, many chefs and food enthusiasts claim natural vanilla has a more complex flavor profile.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Vanillin",
+    "citationTitle": "Wikipedia: Vanillin"
+  },
+  {
+    "id": "d8d23ea8-8c28-4803-9649-23a03b72451b",
+    "text": "Which spice, known as 'grains of paradise,' was once more popular than black pepper in medieval Europe and is still used in some gin recipes?",
+    "options": [
+      "Long pepper",
+      "Melegueta pepper",
+      "Pink peppercorns",
+      "Szechuan peppercorns"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Melegueta pepper, or grains of paradise, was highly prized in medieval Europe and is used in some modern gin recipes.",
+    "detailedExplanation": "Melegueta pepper, also known as 'grains of paradise' or Guinea pepper, comes from the seeds of Aframomum melegueta, a plant in the ginger family native to West Africa. During the 14th and 15th centuries, it was often preferred over black pepper in European cuisine for its complex, peppery-citrusy flavor. The spice fell out of favor as trade routes to Asia improved, making black pepper more accessible. Today, melegueta pepper is experiencing a revival and is used in some craft gin recipes and high-end cuisine.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Aframomum_melegueta",
+    "citationTitle": "Wikipedia: Aframomum melegueta"
+  },
+  {
+    "id": "111a8f82-8d9f-4d5e-8e40-97c6779dd7e8",
+    "text": "What gives wasabi its distinctive pungent heat, and why does the sensation differ from chili pepper heat?",
+    "options": [
+      "Allyl isothiocyanate - affects nasal passages",
+      "Capsaicin - affects pain receptors",
+      "Piperine - affects taste buds",
+      "Gingerol - affects throat"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Allyl isothiocyanate in wasabi creates a nasal burning sensation, unlike capsaicin's mouth heat.",
+    "detailedExplanation": "Wasabi's heat comes from allyl isothiocyanate, a volatile compound that's released when the plant's cells are damaged (by grating or chewing). Unlike capsaicin in chili peppers, which binds to pain receptors in the mouth and throat, allyl isothiocyanate primarily affects the nasal passages and sinuses, creating a sharp, penetrating sensation that quickly dissipates. This compound is also found in horseradish and mustard, explaining their similar pungent qualities. True wasabi (Wasabia japonica) is extremely difficult to cultivate, so most commercial 'wasabi' is actually horseradish with green coloring.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Wasabi",
+    "citationTitle": "Wikipedia: Wasabi"
+  },
+  {
+    "id": "38526c69-212f-469b-abe7-9bd42c46a4d9",
+    "text": "Which spice is derived from the dried stigmas of a flower and was so valuable that it led to the 'Saffron Wars' in 15th century Europe?",
+    "options": [
+      "Cardamom",
+      "Star Anise",
+      "Saffron",
+      "Mace"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Saffron comes from the dried stigmas of Crocus sativus flowers and was so valuable it sparked territorial conflicts.",
+    "detailedExplanation": "Saffron is harvested from the dried stigmas of the Crocus sativus flower, with each flower producing only three stigmas that must be hand-picked. Its extreme value in medieval Europe led to actual military conflicts known as the 'Saffron Wars,' particularly around the Swiss town of Basel in the 1370s, where merchants fought over control of the lucrative saffron trade routes. The spice was so precious that saffron adulteration was punishable by death in some regions.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Saffron",
+    "citationTitle": "Wikipedia: Saffron"
+  },
+  {
+    "id": "a51985f0-948f-448f-ac57-6ae449c5e03b",
+    "text": "What is the botanical relationship between cinnamon and cassia, two commonly confused spices?",
+    "options": [
+      "They are the same plant harvested at different times",
+      "They are different species within the same genus Cinnamomum",
+      "Cassia is synthetic cinnamon",
+      "They are unrelated plants that taste similar"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "True cinnamon and cassia are different species within the Cinnamomum genus, with distinct flavors and appearances.",
+    "detailedExplanation": "Cinnamon (Cinnamomum verum) and cassia (Cinnamomum cassia) are related but distinct species within the same botanical genus. True cinnamon, also called Ceylon cinnamon, has a sweeter, more delicate flavor and forms thin, papery layers when the bark is dried. Cassia, often sold as 'cinnamon' in North America, has a stronger, more pungent flavor and forms thick, hard sticks. Cassia also contains much higher levels of coumarin, a compound that can be harmful in large quantities.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Cinnamon",
+    "citationTitle": "Wikipedia: Cinnamon"
+  },
+  {
+    "id": "27fd72de-7156-422b-a432-e342a2effe4c",
+    "text": "Which aromatic seed spice is traditionally used to flavor the Greek spirit ouzo and has been cultivated since ancient Egyptian times?",
+    "options": [
+      "Fennel",
+      "Anise",
+      "Caraway",
+      "Nigella"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Anise seeds give ouzo its distinctive licorice flavor and have been prized since ancient times.",
+    "detailedExplanation": "Anise (Pimpinella anisum) seeds contain anethole, the compound responsible for the distinctive licorice flavor in ouzo, absinthe, and many other traditional spirits and foods. Ancient Egyptians used anise for both culinary and medicinal purposes, and it was so valued that it was sometimes used as currency. The seeds were also found in Egyptian tombs, indicating their importance in ancient burial rituals. Today, anise remains essential in Mediterranean, Middle Eastern, and Latin American cuisines.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Anise",
+    "citationTitle": "Wikipedia: Anise"
+  },
+  {
+    "id": "dff0d93c-0809-4f2a-9f56-1a040ad09112",
+    "text": "What distinguishes white peppercorns from black peppercorns in terms of processing and flavor?",
+    "options": [
+      "They come from different plants entirely",
+      "White peppercorns are soaked to remove the outer hull, creating a milder flavor",
+      "White peppercorns are bleached black peppercorns",
+      "White peppercorns are harvested from younger plants"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "White peppercorns are black peppercorns with the outer hull removed through soaking, resulting in a different flavor profile.",
+    "detailedExplanation": "White and black peppercorns come from the same plant (Piper nigrum), but undergo different processing methods. Black peppercorns are harvested when almost ripe and dried with their hulls intact, giving them their wrinkled appearance and complex flavor. White peppercorns are either picked when fully ripe or processed by soaking black peppercorns in water for several days to soften and remove the outer hull, revealing the smooth, light-colored inner seed. This process creates a milder, less complex flavor that's preferred in light-colored dishes where black specks would be visually undesirable.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Black_pepper",
+    "citationTitle": "Wikipedia: Black pepper"
+  },
+  {
+    "id": "4d1c4498-a53f-41f3-ac6b-4d191eaa9396",
+    "text": "Which spice blend forms the base of Moroccan cuisine and typically contains over 25 different spices including rose petals?",
+    "options": [
+      "Harissa",
+      "Ras el hanout",
+      "Za'atar",
+      "Baharat"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Ras el hanout is Morocco's signature spice blend, often containing 25+ spices including rose petals.",
+    "detailedExplanation": "Ras el hanout, which literally means 'head of the shop' in Arabic, is considered the signature spice blend of Moroccan cuisine. Master spice merchants traditionally create their own secret recipes, often containing 25 or more ingredients including cardamom, cinnamon, cloves, coriander, ginger, turmeric, and uniquely, dried rose petals and sometimes even ground insects for added complexity. Each blend is unique to its maker, representing the finest spices in their collection. The blend is essential in tagines, couscous dishes, and meat preparations.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Ras_el_hanout",
+    "citationTitle": "Wikipedia: Ras el hanout"
+  },
+  {
+    "id": "3e107ee5-e206-4f27-b437-0abb455e8f94",
+    "text": "What is the primary difference between Hungarian paprika varieties, and which type is considered the gold standard?",
+    "options": [
+      "Color intensity - darker is better",
+      "Heat level and sweetness - Noble Sweet is the premium grade",
+      "Size of the pepper used",
+      "Smoking process duration"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Hungarian paprika is graded by heat and sweetness, with Noble Sweet (Édesnemes) being the finest grade.",
+    "detailedExplanation": "Hungarian paprika is classified into eight distinct grades based on heat level, color, and flavor profile. The grades range from 'Noble Sweet' (Édesnemes), which is considered the gold standard with its deep red color, sweet flavor, and absence of heat, down to 'Hot' (Erős) which provides significant heat. The classification system also includes 'Half-Sweet' (Félédes), 'Rose' (Rózsa), and others. Noble Sweet paprika is made from carefully selected peppers with seeds and membranes removed, resulting in the pure, sweet pepper flavor that defines authentic Hungarian dishes like goulash.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Paprika",
+    "citationTitle": "Wikipedia: Paprika"
+  },
+  {
+    "id": "5e3764a7-9d8a-41ae-be90-c2ed04f51029",
+    "text": "Which spice is actually the dried flower bud of an evergreen tree and was once so valuable that wars were fought over its production islands?",
+    "options": [
+      "Allspice",
+      "Cloves",
+      "Nutmeg",
+      "Bay leaves"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Cloves are dried flower buds from evergreen trees, and European powers fought over the Spice Islands for control of clove production.",
+    "detailedExplanation": "Cloves are the aromatic dried flower buds of the evergreen tree Syzygium aromaticum, native to the Moluccas (Spice Islands) of Indonesia. For centuries, these islands were the world's only source of cloves, making them incredibly valuable and leading to fierce competition among European colonial powers. The Dutch eventually gained control and enforced a brutal monopoly, even destroying clove trees on islands they couldn't control to maintain high prices. The distinctive nail-shaped buds (the name 'clove' comes from the French 'clou' meaning nail) contain eugenol, which gives them their powerful aromatic properties.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Clove",
+    "citationTitle": "Wikipedia: Clove"
+  },
+  {
+    "id": "e964e9b7-6ab5-481e-851c-09c05e565c79",
+    "text": "What creates the distinctive smoky flavor in Spanish smoked paprika (Pimentón de la Vera), and why can this process take weeks?",
+    "options": [
+      "Peppers are buried underground with burning charcoal",
+      "Peppers are slowly dried over oak wood fires in traditional smokehouses",
+      "Peppers are soaked in liquid smoke concentrate",
+      "Peppers are sun-dried on volcanic rock"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Pimentón de la Vera gets its flavor from slow-drying peppers over oak wood fires for up to several weeks.",
+    "detailedExplanation": "Authentic Spanish Pimentón de la Vera is produced exclusively in the La Vera region of Extremadura using a traditional method that dates back centuries. Red peppers are slowly dried over oak wood fires in special smokehouses called 'secaderos' for 10-15 days, sometimes longer depending on weather conditions. This gradual process allows the peppers to absorb the oak smoke while slowly dehydrating, creating the characteristic deep, smoky flavor that cannot be replicated through quick industrial methods. The process requires constant attention to maintain proper temperature and smoke levels, making authentic Pimentón de la Vera a protected designation of origin product.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Paprika",
+    "citationTitle": "Wikipedia: Paprika"
+  },
+  {
+    "id": "bcb1befc-47c5-4470-9efd-88f54b1910fa",
+    "text": "Which spice mixture, known as 'Chinese Five-Spice,' traditionally contains star anise, cloves, Chinese cinnamon, Sichuan pepper, and which fifth spice that's often mistaken for a seed but is actually a fruit?",
+    "options": [
+      "Fennel",
+      "Cardamom",
+      "Coriander",
+      "Cumin"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Fennel is the fifth traditional spice in Chinese Five-Spice powder.",
+    "detailedExplanation": "Chinese Five-Spice powder (五香粉) is a fundamental seasoning blend in Chinese cuisine that represents the five elements of Chinese philosophy. The traditional composition includes star anise (sweet), cloves (pungent), Chinese cinnamon (bitter), Sichuan pepper (sour), and fennel (salty). Fennel, though often mistaken for a seed, is actually the dried fruit of the fennel plant (Foeniculum vulgare). This aromatic blend has been used for over a thousand years and is believed to create perfect flavor balance according to traditional Chinese medicine principles.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Five-spice_powder",
+    "citationTitle": "Wikipedia: Five-spice powder"
+  },
+  {
+    "id": "21b45d9d-0ef9-433a-b5db-274cba2b79bf",
+    "text": "What unique harvesting requirement makes sumac berries, used extensively in Middle Eastern cuisine, particularly challenging to collect for spice production?",
+    "options": [
+      "They must be picked during a new moon",
+      "They must be harvested before any rainfall",
+      "They can only be collected by hand at dawn",
+      "They require immediate freezing after picking"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Sumac berries must be harvested before rainfall washes away their tart, lemony coating.",
+    "detailedExplanation": "Sumac (Rhus coriaria) produces distinctive red berries that are prized for their tart, lemony flavor in Middle Eastern and Mediterranean cuisines. The crucial harvesting requirement is that the berries must be collected before any significant rainfall occurs. This is because the tannic acids and malic acid that give sumac its characteristic sour taste are concentrated in a coating on the outside of the berries. Rain will wash away this precious coating, leaving behind berries with greatly diminished flavor. This weather dependency makes sumac harvesting a time-sensitive operation that requires careful timing and local weather knowledge.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Sumac",
+    "citationTitle": "Wikipedia: Sumac"
+  },
+  {
+    "id": "9649c28a-876a-47cd-a6b4-be064ee6f121",
+    "text": "Which alkaloid compound found in long pepper (Piper longum) was historically more prized than black pepper and is now being researched for potential pharmaceutical applications?",
+    "options": [
+      "Piperine",
+      "Pellitorine",
+      "Chavicine",
+      "Piplartine"
+    ],
+    "correctIndex": 3,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Piplartine is the unique alkaloid in long pepper that distinguishes it from black pepper.",
+    "detailedExplanation": "Long pepper (Piper longum) contains the alkaloid piplartine, which gives it a more complex flavor profile than its cousin black pepper. Historically, long pepper was more expensive and sought-after than black pepper in ancient Rome and medieval Europe, commanding higher prices due to its unique taste and perceived medicinal properties. Modern pharmaceutical research has shown that piplartine exhibits promising anti-inflammatory, anti-platelet, and potential anti-cancer properties. The spice fell out of favor in European cuisine partly due to the discovery of chili peppers from the Americas, which provided heat without the bitter aftertaste that piplartine can produce.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Long_pepper",
+    "citationTitle": "Wikipedia: Long pepper"
+  },
+  {
+    "id": "930bdae2-0b81-47ef-86d8-be6824b1c6de",
+    "text": "What distinctive processing method gives Tellicherry peppercorns their superior status among black pepper varieties, making them larger and more aromatic than regular black pepper?",
+    "options": [
+      "They are aged in monsoon humidity for 6 months",
+      "They are left on the vine longer before harvesting",
+      "They are processed using traditional stone grinding",
+      "They are dried using solar concentration methods"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Tellicherry peppercorns are left on the vine longer, allowing them to grow larger and develop more complex flavors.",
+    "detailedExplanation": "Tellicherry peppercorns represent the premium grade of black pepper from India's Malabar Coast, specifically from the Tellicherry region in Kerala. The key difference lies in their extended maturation period - these peppercorns are left on the vine significantly longer than standard black pepper, allowing them to reach a larger size (at least 4.25mm in diameter) and develop more complex aromatic compounds. This extended growing period allows the essential oil content to increase and the flavor profile to become more nuanced, with deeper, more robust notes. The longer maturation also results in a higher concentration of piperine, the compound responsible for pepper's heat and pungency.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Black_pepper",
+    "citationTitle": "Wikipedia: Black pepper"
+  }
+]

@@ -1,0 +1,342 @@
+[
+  {
+    "id": "9cde6ed5-b60d-4666-b5a9-5d3ced5fb075",
+    "text": "Which author wrote the bestselling novel 'The Da Vinci Code' published in 2003?",
+    "options": [
+      "Dan Brown",
+      "John Grisham",
+      "Stephen King",
+      "Michael Crichton"
+    ],
+    "correctIndex": 0,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "Dan Brown wrote 'The Da Vinci Code', which became a global bestseller.",
+    "detailedExplanation": "Dan Brown's 'The Da Vinci Code' was published in 2003 and became one of the best-selling novels of all time, selling over 80 million copies worldwide. The thriller novel follows symbologist Robert Langdon as he investigates a murder in the Louvre Museum and uncovers a religious mystery. The book's success led to a film adaptation starring Tom Hanks in 2006.",
+    "citationUrl": "https://en.wikipedia.org/wiki/The_Da_Vinci_Code",
+    "citationTitle": "Wikipedia: The Da Vinci Code"
+  },
+  {
+    "id": "dde2da3d-cc0c-4617-a23b-d3602110219f",
+    "text": "What is the first book in Suzanne Collins' bestselling 'Hunger Games' trilogy?",
+    "options": [
+      "Catching Fire",
+      "The Hunger Games",
+      "Mockingjay",
+      "The Ballad of Songbirds and Snakes"
+    ],
+    "correctIndex": 1,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "'The Hunger Games' is the first book in the trilogy, published in 2008.",
+    "detailedExplanation": "Suzanne Collins published 'The Hunger Games' in 2008, launching a dystopian young adult series that became a cultural phenomenon. The novel follows Katniss Everdeen in a post-apocalyptic nation where teenagers are forced to fight to the death in televised games. The trilogy was completed with 'Catching Fire' (2009) and 'Mockingjay' (2010), and all three books became bestsellers with successful film adaptations.",
+    "citationUrl": "https://en.wikipedia.org/wiki/The_Hunger_Games",
+    "citationTitle": "Wikipedia: The Hunger Games"
+  },
+  {
+    "id": "9852eae7-d776-4704-9457-1ec83333e6cd",
+    "text": "Which contemporary author is known for the bestselling psychological thriller 'Gone Girl'?",
+    "options": [
+      "Paula Hawkins",
+      "Gillian Flynn",
+      "Tana French",
+      "Ruth Ware"
+    ],
+    "correctIndex": 1,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "Gillian Flynn wrote 'Gone Girl', which became a bestseller in 2012.",
+    "detailedExplanation": "Gillian Flynn's 'Gone Girl' was published in 2012 and became a massive bestseller, spending weeks at the top of various bestseller lists. The psychological thriller tells the story of Nick Dunne and the disappearance of his wife Amy, with unreliable narrators and shocking twists. The novel was adapted into a successful film directed by David Fincher in 2014, starring Ben Affleck and Rosamund Pike.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Gone_Girl_(novel)",
+    "citationTitle": "Wikipedia: Gone Girl (novel)"
+  },
+  {
+    "id": "e84d48bc-368b-4a53-bc1d-7466c706fffc",
+    "text": "What is the name of the boy wizard in J.K. Rowling's bestselling series that began in 1997?",
+    "options": [
+      "Ron Weasley",
+      "Draco Malfoy",
+      "Harry Potter",
+      "Neville Longbottom"
+    ],
+    "correctIndex": 2,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "Harry Potter is the protagonist of J.K. Rowling's bestselling series.",
+    "detailedExplanation": "Harry Potter is the titular character of J.K. Rowling's seven-book series that began with 'Harry Potter and the Philosopher's Stone' in 1997. The series became one of the best-selling book series in history, with over 500 million copies sold worldwide. The books follow Harry's journey from an orphaned boy to a young wizard attending Hogwarts School of Witchcraft and Wizardry, culminating in his battle against the dark wizard Voldemort.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Harry_Potter",
+    "citationTitle": "Wikipedia: Harry Potter"
+  },
+  {
+    "id": "f75e01c7-0cee-4774-8ad6-1003c836d635",
+    "text": "Which author wrote the bestselling novel 'The Kite Runner' published in 2003?",
+    "options": [
+      "Khaled Hosseini",
+      "Mohsin Hamid",
+      "Amir Hassan",
+      "Azar Nafisi"
+    ],
+    "correctIndex": 0,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "Khaled Hosseini wrote 'The Kite Runner', his debut novel that became a bestseller.",
+    "detailedExplanation": "Khaled Hosseini's 'The Kite Runner' was published in 2003 and became an international bestseller, remaining on the New York Times bestseller list for over two years. The novel tells the story of Amir, a young boy from Kabul, Afghanistan, and his complex relationship with his father's servant's son. The book explores themes of guilt, redemption, and the impact of Afghanistan's political turmoil, and was adapted into a film in 2007.",
+    "citationUrl": "https://en.wikipedia.org/wiki/The_Kite_Runner",
+    "citationTitle": "Wikipedia: The Kite Runner"
+  },
+  {
+    "id": "66843f76-8d64-4dc8-a19f-26aea542cbf1",
+    "text": "What is the name of the vampire family in Stephenie Meyer's 'Twilight' series?",
+    "options": [
+      "The Volturi",
+      "The Cullens",
+      "The Denalis",
+      "The Amazons"
+    ],
+    "correctIndex": 1,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "The Cullens are the vampire family that includes Edward, the male protagonist of the series.",
+    "detailedExplanation": "The Cullen family is the coven of vampires at the center of Stephenie Meyer's 'Twilight' series, which began in 2005. The family includes Edward Cullen, the vampire love interest of protagonist Bella Swan, along with Carlisle, Esme, Alice, Jasper, Emmett, and Rosalie. The four-book series became a global phenomenon, selling over 120 million copies worldwide and spawning a successful film franchise starring Kristen Stewart and Robert Pattinson.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Twilight_(novel_series)",
+    "citationTitle": "Wikipedia: Twilight (novel series)"
+  },
+  {
+    "id": "d0b57e1d-5ac4-43a7-80f3-e0b811baa2b5",
+    "text": "Which bestselling author wrote 'The Girl with the Dragon Tattoo'?",
+    "options": [
+      "Henning Mankell",
+      "Stieg Larsson",
+      "Jo Nesbø",
+      "Camilla Läckberg"
+    ],
+    "correctIndex": 1,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "Stieg Larsson wrote 'The Girl with the Dragon Tattoo', the first in his Millennium trilogy.",
+    "detailedExplanation": "Stieg Larsson wrote 'The Girl with the Dragon Tattoo', originally published in Swedish as 'Män som hatar kvinnor' in 2005. The novel became an international bestseller and launched the Nordic noir genre into mainstream popularity. The book features journalist Mikael Blomkvist and hacker Lisbeth Salander investigating a decades-old disappearance. Tragically, Larsson died in 2004, before seeing his trilogy's massive success, which included film adaptations in both Swedish and English.",
+    "citationUrl": "https://en.wikipedia.org/wiki/The_Girl_with_the_Dragon_Tattoo",
+    "citationTitle": "Wikipedia: The Girl with the Dragon Tattoo"
+  },
+  {
+    "id": "f3e8c973-6256-4020-bac1-07286806f30a",
+    "text": "What is the name of the mockingjay pin-wearing protagonist in 'The Hunger Games'?",
+    "options": [
+      "Primrose Everdeen",
+      "Katniss Everdeen",
+      "Rue Barnette",
+      "Johanna Mason"
+    ],
+    "correctIndex": 1,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "Katniss Everdeen is the main character who volunteers for the Hunger Games and wears the mockingjay pin.",
+    "detailedExplanation": "Katniss Everdeen is the protagonist of Suzanne Collins' 'The Hunger Games' trilogy. She volunteers to take her younger sister Primrose's place in the deadly Hunger Games, and throughout the series, she becomes known as 'The Mockingjay' - a symbol of rebellion against the oppressive Capitol. The mockingjay pin she wears becomes an important symbol throughout the series. Jennifer Lawrence portrayed Katniss in the film adaptations, earning critical acclaim for her performance.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Katniss_Everdeen",
+    "citationTitle": "Wikipedia: Katniss Everdeen"
+  },
+  {
+    "id": "09576ac6-eb69-4df0-9bdb-2a4e7687a7b9",
+    "text": "Which bestselling novel features the character Christian Grey?",
+    "options": [
+      "Fifty Shades of Grey",
+      "The Girl on the Train",
+      "Big Little Lies",
+      "The Fault in Our Stars"
+    ],
+    "correctIndex": 0,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "Christian Grey is the male protagonist in E.L. James' bestselling erotic romance novel 'Fifty Shades of Grey'.",
+    "detailedExplanation": "Published in 2011, 'Fifty Shades of Grey' by E.L. James became a global publishing phenomenon, selling over 125 million copies worldwide. The novel features Christian Grey, a wealthy businessman, and his relationship with Anastasia Steele. Originally started as fan fiction based on the Twilight series, it became one of the fastest-selling paperback novels of all time.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Fifty_Shades_of_Grey",
+    "citationTitle": "Wikipedia: Fifty Shades of Grey"
+  },
+  {
+    "id": "019c6e80-89cc-4572-be1c-882a5c8bee02",
+    "text": "What is the name of the dystopian society in Margaret Atwood's bestselling novel 'The Handmaid's Tale'?",
+    "options": [
+      "Panem",
+      "Gilead",
+      "Oceania",
+      "New Eden"
+    ],
+    "correctIndex": 1,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "Gilead is the totalitarian theocracy that has replaced the United States in Margaret Atwood's 'The Handmaid's Tale'.",
+    "detailedExplanation": "Published in 1985 and experiencing renewed popularity in recent years, 'The Handmaid's Tale' depicts the Republic of Gilead, a fundamentalist Christian regime that has overthrown the U.S. government. The novel won numerous awards and was adapted into a successful television series, making it one of Atwood's most recognizable works.",
+    "citationUrl": "https://en.wikipedia.org/wiki/The_Handmaid%27s_Tale",
+    "citationTitle": "Wikipedia: The Handmaid's Tale"
+  },
+  {
+    "id": "f513653f-c64a-4e4f-b900-0ef80a082b36",
+    "text": "Which author created the bestselling 'Jack Reacher' thriller series?",
+    "options": [
+      "John Grisham",
+      "Lee Child",
+      "Michael Crichton",
+      "Tom Clancy"
+    ],
+    "correctIndex": 1,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "Lee Child is the British author who created the Jack Reacher series, which has sold millions of copies worldwide.",
+    "detailedExplanation": "Lee Child began the Jack Reacher series in 1997 with 'Killing Floor'. The series features a former U.S. Army Military Police Major who travels across America solving crimes. With over 25 books in the series, it has become one of the most successful modern thriller franchises, with several books reaching #1 on bestseller lists and spawning movie adaptations.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Lee_Child",
+    "citationTitle": "Wikipedia: Lee Child"
+  },
+  {
+    "id": "b00165e3-65ad-48cb-bf70-37998f67a283",
+    "text": "What is the title of Paula Hawkins' bestselling psychological thriller about a woman who observes a couple from a train?",
+    "options": [
+      "The Girl on the Train",
+      "The Woman in the Window",
+      "Behind Closed Doors",
+      "The Silent Patient"
+    ],
+    "correctIndex": 0,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "'The Girl on the Train' is Paula Hawkins' debut novel that became an international bestseller in 2015.",
+    "detailedExplanation": "Published in 2015, 'The Girl on the Train' follows Rachel Watson, an alcoholic divorcee who becomes entangled in a missing person investigation. The novel spent over 20 weeks at #1 on The New York Times bestseller list and sold over 23 million copies worldwide. It was adapted into a major motion picture starring Emily Blunt in 2016.",
+    "citationUrl": "https://en.wikipedia.org/wiki/The_Girl_on_the_Train_(novel)",
+    "citationTitle": "Wikipedia: The Girl on the Train (novel)"
+  },
+  {
+    "id": "9e0b6e46-42e0-4f4f-8d2d-4c8d71a702a0",
+    "text": "Which bestselling author wrote 'The Alchemist', a novel about a young shepherd's journey?",
+    "options": [
+      "Gabriel García Márquez",
+      "Paulo Coelho",
+      "Isabel Allende",
+      "Mario Vargas Llosa"
+    ],
+    "correctIndex": 1,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "Paulo Coelho, a Brazilian author, wrote 'The Alchemist', which has become one of the best-selling novels in history.",
+    "detailedExplanation": "Originally published in Portuguese in 1988, 'The Alchemist' by Paulo Coelho tells the story of Santiago, a young Andalusian shepherd who travels from Spain to Egypt in search of treasure. The novel has been translated into over 80 languages and has sold more than 65 million copies worldwide, making it one of the best-selling books in history.",
+    "citationUrl": "https://en.wikipedia.org/wiki/The_Alchemist_(novel)",
+    "citationTitle": "Wikipedia: The Alchemist (novel)"
+  },
+  {
+    "id": "433368fd-47c9-480c-b0d3-1735b1383818",
+    "text": "What is the name of the school of magic in the bestselling 'Harry Potter' series?",
+    "options": [
+      "Beauxbatons",
+      "Durmstrang",
+      "Hogwarts",
+      "Ilvermorny"
+    ],
+    "correctIndex": 2,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "Hogwarts School of Witchcraft and Wizardry is the fictional boarding school where Harry Potter and his friends study magic.",
+    "detailedExplanation": "Hogwarts serves as the primary setting for most of the Harry Potter series by J.K. Rowling. Located in Scotland, the school is divided into four houses: Gryffindor, Slytherin, Hufflepuff, and Ravenclaw. The Harry Potter series has sold over 500 million copies worldwide, making it one of the best-selling book series in history.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Hogwarts",
+    "citationTitle": "Wikipedia: Hogwarts"
+  },
+  {
+    "id": "2a1547c6-767d-45b0-90a5-3c40d2f30b44",
+    "text": "Which bestselling novel by Yann Martel features a boy stranded on a lifeboat with a tiger?",
+    "options": [
+      "The Jungle Book",
+      "Life of Pi",
+      "The Tiger's Wife",
+      "Shantaram"
+    ],
+    "correctIndex": 1,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "'Life of Pi' by Yann Martel tells the story of Pi Patel, who survives 227 days stranded on a lifeboat with a Bengal tiger named Richard Parker.",
+    "detailedExplanation": "Published in 2001, 'Life of Pi' won the Man Booker Prize and became an international bestseller. The novel explores themes of survival, faith, and the relationship between humans and animals. It was adapted into an Academy Award-winning film directed by Ang Lee in 2012, further cementing its place in popular culture.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Life_of_Pi",
+    "citationTitle": "Wikipedia: Life of Pi"
+  },
+  {
+    "id": "392b1cf9-7014-47d4-aeda-a145496e3cea",
+    "text": "Which author wrote the bestselling novel 'Where the Crawdads Sing'?",
+    "options": [
+      "Delia Owens",
+      "Tara Westover",
+      "Celeste Ng",
+      "Jodi Picoult"
+    ],
+    "correctIndex": 0,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "Delia Owens wrote 'Where the Crawdads Sing', which became a massive bestseller and cultural phenomenon.",
+    "detailedExplanation": "Published in 2018, 'Where the Crawdads Sing' by Delia Owens became one of the best-selling novels of recent years, spending over 150 weeks on The New York Times bestseller list. The coming-of-age mystery novel is set in the marshlands of North Carolina and follows Kya Clark, known as the 'Marsh Girl'. It was adapted into a major motion picture in 2022.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Where_the_Crawdads_Sing",
+    "citationTitle": "Wikipedia: Where the Crawdads Sing"
+  },
+  {
+    "id": "9262a8a2-7f4b-4568-9570-2d63761c0234",
+    "text": "Which bestselling author wrote the post-apocalyptic novel 'The Road' that won the Pulitzer Prize for Fiction in 2007?",
+    "options": [
+      "Cormac McCarthy",
+      "Chuck Palahniuk",
+      "Don DeLillo",
+      "Jonathan Franzen"
+    ],
+    "correctIndex": 0,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "Cormac McCarthy wrote 'The Road', which became a bestseller and won the Pulitzer Prize for Fiction in 2007.",
+    "detailedExplanation": "Cormac McCarthy's 'The Road' tells the story of a father and son traveling through a post-apocalyptic wasteland. Published in 2006, the novel became a bestseller and was critically acclaimed, winning the Pulitzer Prize for Fiction in 2007. It was later adapted into a film starring Viggo Mortensen in 2009.",
+    "citationUrl": "https://en.wikipedia.org/wiki/The_Road",
+    "citationTitle": "Wikipedia: The Road"
+  },
+  {
+    "id": "1691d5c8-e7ac-4b8f-9b11-b9994ebe75f2",
+    "text": "What is the name of the fictional African country in the bestselling Marvel novel 'Black Panther' stories that became widely popular through recent films and books?",
+    "options": [
+      "Zamunda",
+      "Wakanda",
+      "Genovia",
+      "Krakozhia"
+    ],
+    "correctIndex": 1,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "Wakanda is the fictional African nation featured in Black Panther stories, which have seen renewed bestseller success.",
+    "detailedExplanation": "Wakanda is the technologically advanced fictional African nation ruled by the Black Panther in Marvel stories. While the character originated in comics, recent film adaptations and tie-in novels have become bestsellers, bringing the rich fictional world of Wakanda to new audiences through various literary formats.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Wakanda",
+    "citationTitle": "Wikipedia: Wakanda"
+  },
+  {
+    "id": "16ba3bf0-df32-4794-be95-56aaa85a0595",
+    "text": "Which bestselling memoir was written by former First Lady Michelle Obama and published in 2018?",
+    "options": [
+      "Living History",
+      "Becoming",
+      "Hard Choices",
+      "What Happened"
+    ],
+    "correctIndex": 1,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "'Becoming' is Michelle Obama's bestselling memoir published in 2018, which broke sales records.",
+    "detailedExplanation": "Michelle Obama's memoir 'Becoming' was published in November 2018 and quickly became one of the best-selling memoirs in history. The book chronicles her life from childhood through her years as First Lady, and it sold over 10 million copies worldwide within its first few months of publication.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Becoming_(book)",
+    "citationTitle": "Wikipedia: Becoming (book)"
+  },
+  {
+    "id": "baf26dbb-a25f-4422-a98b-63676d0f0975",
+    "text": "Which bestselling author created the character Jack Ryan, featured in novels like 'The Hunt for Red October' and 'Clear and Present Danger'?",
+    "options": [
+      "John le Carré",
+      "Tom Clancy",
+      "Frederick Forsyth",
+      "Robert Ludlum"
+    ],
+    "correctIndex": 1,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "Tom Clancy created the character Jack Ryan and wrote numerous bestselling techno-thrillers featuring this character.",
+    "detailedExplanation": "Tom Clancy created the character Jack Ryan, a CIA analyst who appears in many of his bestselling techno-thriller novels. Starting with 'The Hunt for Red October' in 1984, Clancy's Jack Ryan series became hugely popular, with many books becoming bestsellers and several being adapted into successful films starring actors like Alec Baldwin, Harrison Ford, and Ben Affleck.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Jack_Ryan_(character)",
+    "citationTitle": "Wikipedia: Jack Ryan (character)"
+  }
+]

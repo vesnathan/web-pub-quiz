@@ -304,5 +304,39 @@
     "detailedExplanation": "Common table salt has the chemical formula NaCl, which represents sodium chloride. This ionic compound forms when sodium (Na), a highly reactive metal, combines with chlorine (Cl), a toxic gas. When these two dangerous elements bond together, they create a stable, essential compound that is vital for human health. Sodium chloride forms cubic crystals and is highly soluble in water. It's not only used for flavoring food but also for food preservation, de-icing roads, and in numerous industrial processes.",
     "citationUrl": "https://en.wikipedia.org/wiki/Sodium_chloride",
     "citationTitle": "Wikipedia: Sodium chloride"
+  },
+  {
+    "id": "ac86a163-3a8e-4baa-9e63-c6dd532749bb",
+    "text": "Which gas makes up approximately 78% of Earth's atmosphere?",
+    "options": [
+      "Oxygen",
+      "Carbon dioxide",
+      "Nitrogen",
+      "Argon"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Nitrogen makes up about 78% of Earth's atmosphere, with oxygen being the second most abundant at 21%.",
+    "detailedExplanation": "Earth's atmosphere is composed primarily of nitrogen gas (N₂), which accounts for approximately 78% of the total volume. Oxygen makes up about 21%, while argon accounts for nearly 1%, and carbon dioxide and other gases make up the remaining fraction. Nitrogen is relatively inert under normal conditions, which makes it stable in the atmosphere and essential for many biological processes when converted into usable forms by nitrogen-fixing bacteria.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Atmosphere_of_Earth",
+    "citationTitle": "Wikipedia: Atmosphere of Earth"
+  },
+  {
+    "id": "78f07ede-4add-474f-a885-4ff86229febc",
+    "text": "What is the most abundant element in the human body by mass?",
+    "options": [
+      "Carbon",
+      "Hydrogen",
+      "Nitrogen",
+      "Oxygen"
+    ],
+    "correctIndex": 3,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Oxygen makes up about 65% of the human body by mass.",
+    "detailedExplanation": "Oxygen is the most abundant element in the human body by mass, comprising approximately 65% of body weight. This is primarily due to the large amount of water in our bodies, since water (H₂O) contains oxygen, and oxygen is much heavier than hydrogen. While hydrogen is more numerous by count of atoms, oxygen's greater atomic mass makes it the most abundant by weight. Carbon comes in second at about 18%, followed by hydrogen at 10%, and nitrogen at about 3%.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Composition_of_the_human_body",
+    "citationTitle": "Wikipedia: Composition of the human body"
   }
 ]

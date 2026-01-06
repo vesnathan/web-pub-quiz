@@ -1,6 +1,7 @@
 "use client";
 
-import { useEffect } from "react";
+import { useEffect, useCallback } from "react";
+import { useRouter } from "next/navigation";
 import { AblyService } from "@/services/AblyService";
 import { useGameStore } from "@/stores/gameStore";
 import { useAuth } from "@/contexts/AuthContext";
@@ -14,11 +15,13 @@ import { usePlayerEventListeners } from "./usePlayerActions";
  * @param roomId - Optional room ID override (uses store roomId if not provided)
  */
 export function useAbly(roomId?: string | null): void {
+  const router = useRouter();
   const { isAuthenticated } = useAuth();
   const player = useGameStore((state) => state.player);
   const currentRoomId = useGameStore((state) => state.currentRoomId);
   const addLatencySample = useGameStore((state) => state.addLatencySample);
   const setPlayers = useGameStore((state) => state.setPlayers);
+  const resetGame = useGameStore((state) => state.resetGame);
 
   const effectiveRoomId = roomId || currentRoomId;
   const {
@@ -30,6 +33,16 @@ export function useAbly(roomId?: string | null): void {
   // Set up player event listeners (buzz/answer)
   usePlayerEventListeners();
 
+  // Handle disconnect - redirect to lobby
+  const handleDisconnect = useCallback(
+    (reason: string) => {
+      console.log(`[useAbly] Disconnected: ${reason}`);
+      resetGame();
+      router.push("/rooms");
+    },
+    [resetGame, router],
+  );
+
   // Initialize Ably connection and subscriptions
   useEffect(() => {
     if (!player || !isAuthenticated || !effectiveRoomId) return;
@@ -37,12 +50,20 @@ export function useAbly(roomId?: string | null): void {
     let cleanupRoom: (() => void) | null = null;
     let cleanupUser: (() => void) | null = null;
     let cleanupPresence: (() => void) | null = null;
+    let cleanupDisconnect: (() => void) | null = null;
 
     const init = async () => {
+      console.log(
+        `[useAbly] Initializing for player ${player.id} in room ${effectiveRoomId}`,
+      );
       const channels = await AblyService.connect(player.id, effectiveRoomId);
-      if (!channels) return;
+      if (!channels) {
+        console.error("[useAbly] Failed to connect to Ably");
+        return;
+      }
 
       const { roomChannel, userChannel } = channels;
+      console.log(`[useAbly] Connected to room channel: ${roomChannel.name}`);
 
       // Set up event subscriptions
       cleanupRoom = setupRoomSubscriptions(roomChannel);
@@ -51,11 +72,22 @@ export function useAbly(roomId?: string | null): void {
       });
       cleanupPresence = setupPresenceSubscriptions(roomChannel);
 
+      // Register disconnect callback
+      cleanupDisconnect = AblyService.onDisconnect(handleDisconnect);
+
       // Enter presence
-      await AblyService.enterPresence(player.displayName);
+      const enteredPresence = await AblyService.enterPresence(
+        player.displayName,
+      );
+      if (!enteredPresence) {
+        console.error(
+          "[useAbly] Failed to enter presence - set may not start!",
+        );
+      }
 
       // Get initial presence members
       const members = await AblyService.getPresenceMembers();
+      console.log(`[useAbly] Current presence members: ${members.length}`);
       const players = members.map((m) => ({
         id: m.clientId!,
         displayName: m.data?.displayName || "Player",
@@ -78,6 +110,7 @@ export function useAbly(roomId?: string | null): void {
       cleanupRoom?.();
       cleanupUser?.();
       cleanupPresence?.();
+      cleanupDisconnect?.();
       AblyService.release();
     };
   }, [
@@ -90,5 +123,6 @@ export function useAbly(roomId?: string | null): void {
     setupPresenceSubscriptions,
     addLatencySample,
     setPlayers,
+    handleDisconnect,
   ]);
 }

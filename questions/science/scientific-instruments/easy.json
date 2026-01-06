@@ -321,5 +321,22 @@
     "detailedExplanation": "A thermometer is a device that measures temperature or a temperature gradient using a variety of different principles. The most common types include liquid-in-glass thermometers (like mercury or alcohol thermometers), digital electronic thermometers, and infrared thermometers. While a barometer measures atmospheric pressure, a hygrometer measures humidity, and an anemometer measures wind speed, the thermometer is the dedicated instrument for temperature measurement and is found in homes, laboratories, and medical facilities worldwide.",
     "citationUrl": "https://en.wikipedia.org/wiki/Thermometer",
     "citationTitle": "Wikipedia: Thermometer"
+  },
+  {
+    "id": "d9996135-979f-4c4d-867e-d217bd7cc4c9",
+    "text": "What scientific instrument is primarily used to measure temperature?",
+    "options": [
+      "Thermometer",
+      "Barometer",
+      "Hygrometer",
+      "Anemometer"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "A thermometer is the instrument specifically designed to measure temperature.",
+    "detailedExplanation": "A thermometer is a device that measures temperature or a temperature gradient using a variety of different principles. The most common types include liquid-in-glass thermometers (like mercury or alcohol thermometers), digital electronic thermometers, and infrared thermometers. While a barometer measures atmospheric pressure, a hygrometer measures humidity, and an anemometer measures wind speed, the thermometer remains the primary instrument for temperature measurement across scientific, medical, and everyday applications.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Thermometer",
+    "citationTitle": "Wikipedia: Thermometer"
   }
 ]

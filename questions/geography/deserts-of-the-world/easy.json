@@ -304,5 +304,39 @@
     "detailedExplanation": "The Rub' al Khali, literally meaning 'Empty Quarter,' is the world's largest continuous sand desert, covering approximately 650,000 square kilometers of the Arabian Peninsula. It spans across Saudi Arabia, Oman, the United Arab Emirates, and Yemen. The desert is characterized by massive sand dunes that can reach heights of up to 250 meters, extreme temperatures, and virtually no permanent settlements. Its name reflects the harsh, uninhabitable nature of this vast sandy wilderness.",
     "citationUrl": "https://en.wikipedia.org/wiki/Rub%27_al_Khali",
     "citationTitle": "Wikipedia: Rub' al Khali"
+  },
+  {
+    "id": "43ba40c3-ab94-4722-beaa-f250f6f3931e",
+    "text": "The Atacama Desert, known as one of the driest places on Earth, is located in which continent?",
+    "options": [
+      "Africa",
+      "Asia",
+      "South America",
+      "Australia"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "The Atacama Desert is located in South America, primarily in northern Chile, and is famous for being the driest non-polar desert in the world.",
+    "detailedExplanation": "The Atacama Desert stretches approximately 1,600 kilometers along the Pacific coast of South America, primarily in northern Chile but also extending into small portions of Peru, Bolivia, and Argentina. Some weather stations in the Atacama have never recorded rainfall, and the average precipitation is less than 1 millimeter per year in some areas. This extreme aridity is caused by its location between two mountain ranges and cold ocean currents that prevent moisture from reaching the region.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Atacama_Desert",
+    "citationTitle": "Wikipedia: Atacama Desert"
+  },
+  {
+    "id": "a9eddfd6-7204-4f85-b8b8-3dabb19ad795",
+    "text": "Which desert is famous for its white sand dunes and is located in New Mexico, USA?",
+    "options": [
+      "White Sands",
+      "Death Valley",
+      "Painted Desert",
+      "Antelope Canyon"
+    ],
+    "correctIndex": 0,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "White Sands National Park in New Mexico is famous for its brilliant white gypsum sand dunes.",
+    "detailedExplanation": "White Sands National Park, located in the Tularosa Basin of New Mexico, is renowned for its stunning white sand dunes made of gypsum crystals. Unlike most desert sand which is composed of quartz and appears tan or brown, the gypsum sand at White Sands appears brilliantly white and creates a unique and otherworldly landscape. The gypsum crystals are water-soluble, which is unusual for sand, and the dunes cover approximately 275 square miles, making it the world's largest gypsum dunefield.",
+    "citationUrl": "https://en.wikipedia.org/wiki/White_Sands_National_Park",
+    "citationTitle": "Wikipedia: White Sands National Park"
   }
 ]

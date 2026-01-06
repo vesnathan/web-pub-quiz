@@ -1,0 +1,342 @@
+[
+  {
+    "id": "88069227-35d6-4198-832b-5057691a8755",
+    "text": "Which Renaissance painter is famous for painting the ceiling of the Sistine Chapel?",
+    "options": [
+      "Michelangelo",
+      "Leonardo da Vinci",
+      "Raphael",
+      "Donatello"
+    ],
+    "correctIndex": 0,
+    "category": "arts",
+    "difficulty": "easy",
+    "explanation": "Michelangelo painted the famous ceiling frescoes of the Sistine Chapel between 1508-1512.",
+    "detailedExplanation": "Michelangelo Buonarroti, primarily known as a sculptor, was commissioned by Pope Julius II to paint the ceiling of the Sistine Chapel in Vatican City. The project took four years to complete (1508-1512) and features nine scenes from the Book of Genesis, including the iconic 'Creation of Adam' where God's finger nearly touches Adam's finger. Despite his reluctance to take on the project, considering himself more of a sculptor than a painter, Michelangelo created one of the most celebrated masterpieces in Western art.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Sistine_Chapel_ceiling",
+    "citationTitle": "Wikipedia: Sistine Chapel ceiling"
+  },
+  {
+    "id": "eb9a317e-4bef-42d8-8c04-05de3378dbf2",
+    "text": "Leonardo da Vinci's 'Mona Lisa' is currently housed in which famous museum?",
+    "options": [
+      "The Uffizi Gallery",
+      "The Louvre",
+      "The Metropolitan Museum",
+      "The British Museum"
+    ],
+    "correctIndex": 1,
+    "category": "arts",
+    "difficulty": "easy",
+    "explanation": "The Mona Lisa has been permanently displayed at the Louvre Museum in Paris since 1797.",
+    "detailedExplanation": "Leonardo da Vinci's Mona Lisa, painted between 1503-1519, is one of the world's most famous paintings and has been housed in the Louvre Museum in Paris for over two centuries. The painting was acquired by King Francis I of France and eventually became part of the royal collection. It has remained in France ever since, except for brief periods during World War II when it was hidden for protection, and a famous theft in 1911 when it was missing for two years before being recovered.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Mona_Lisa",
+    "citationTitle": "Wikipedia: Mona Lisa"
+  },
+  {
+    "id": "068a4aca-0efb-49bc-930d-c48ae32ea238",
+    "text": "Which Renaissance painter is known for 'The Birth of Venus'?",
+    "options": [
+      "Titian",
+      "Sandro Botticelli",
+      "Caravaggio",
+      "Giotto"
+    ],
+    "correctIndex": 1,
+    "category": "arts",
+    "difficulty": "easy",
+    "explanation": "Sandro Botticelli painted 'The Birth of Venus' around 1484-1486 during the Italian Renaissance.",
+    "detailedExplanation": "Sandro Botticelli's 'The Birth of Venus' is one of the most recognizable paintings from the Renaissance period, created around 1484-1486. The painting depicts the Roman goddess Venus emerging from the sea as a fully grown woman, as described in classical mythology. Painted in tempera on canvas, it measures about 6 feet by 9 feet and is housed in the Uffizi Gallery in Florence. The work exemplifies the Renaissance interest in classical mythology and idealized beauty, showing Venus standing nude on a shell with wind gods blowing her toward shore.",
+    "citationUrl": "https://en.wikipedia.org/wiki/The_Birth_of_Venus",
+    "citationTitle": "Wikipedia: The Birth of Venus"
+  },
+  {
+    "id": "19b8d9e0-f18a-490f-9b8b-3e117cd2b68d",
+    "text": "Raphael painted which famous fresco in the Vatican's Apostolic Palace?",
+    "options": [
+      "The Last Judgment",
+      "The School of Athens",
+      "The Creation of Adam",
+      "The Annunciation"
+    ],
+    "correctIndex": 1,
+    "category": "arts",
+    "difficulty": "easy",
+    "explanation": "'The School of Athens' is Raphael's masterpiece fresco painted in the Stanza della Segnatura between 1509-1511.",
+    "detailedExplanation": "Raphael's 'The School of Athens' is considered one of the greatest frescoes of the High Renaissance, painted between 1509 and 1511 in the Stanza della Segnatura in the Vatican. The fresco represents philosophy and depicts many of the greatest philosophers and mathematicians of ancient Greece, including Plato and Aristotle at the center. The architectural setting is inspired by classical Roman architecture, and the composition demonstrates Raphael's mastery of perspective and his ability to organize complex scenes with multiple figures into a harmonious whole.",
+    "citationUrl": "https://en.wikipedia.org/wiki/The_School_of_Athens",
+    "citationTitle": "Wikipedia: The School of Athens"
+  },
+  {
+    "id": "929ead77-cfc9-4944-b7a1-c1e73693769f",
+    "text": "Which technique, perfected during the Renaissance, creates the illusion of depth and three-dimensionality?",
+    "options": [
+      "Chiaroscuro",
+      "Linear perspective",
+      "Sfumato",
+      "Impasto"
+    ],
+    "correctIndex": 1,
+    "category": "arts",
+    "difficulty": "easy",
+    "explanation": "Linear perspective was developed and perfected during the Renaissance to create realistic depth in paintings.",
+    "detailedExplanation": "Linear perspective was a revolutionary artistic technique developed during the Italian Renaissance, most notably by architect Filippo Brunelleschi in the early 15th century. This mathematical system allows artists to create the illusion of three-dimensional space on a two-dimensional surface by using converging lines that meet at vanishing points on the horizon. Renaissance painters like Masaccio, Paolo Uccello, and later Leonardo da Vinci and Raphael, mastered this technique, which became fundamental to Western art and helped distinguish Renaissance painting from the flatter, more symbolic medieval art that preceded it.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Perspective_(graphical)",
+    "citationTitle": "Wikipedia: Perspective (graphical)"
+  },
+  {
+    "id": "b5d2ebc1-70ba-442f-aeb0-90df6df54cd1",
+    "text": "What was the primary painting medium used by most Renaissance painters?",
+    "options": [
+      "Watercolor",
+      "Acrylic",
+      "Tempera",
+      "Charcoal"
+    ],
+    "correctIndex": 2,
+    "category": "arts",
+    "difficulty": "easy",
+    "explanation": "Tempera, particularly egg tempera, was the dominant painting medium during the early Renaissance.",
+    "detailedExplanation": "Tempera painting, especially egg tempera, was the primary medium used by Renaissance artists before oil painting became more popular in the late 15th and 16th centuries. Tempera consists of pigments mixed with a water-soluble binder medium, typically egg yolk. This medium allowed for precise detail and bright, lasting colors, making it ideal for the detailed religious and mythological subjects popular during the Renaissance. Artists like Botticelli used tempera for masterpieces like 'The Birth of Venus,' while later Renaissance painters began adopting oil paints, which had been developed in Northern Europe.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Tempera",
+    "citationTitle": "Wikipedia: Tempera"
+  },
+  {
+    "id": "8b05fd0f-d8a6-4a5c-aaf0-9b53d93f1fd6",
+    "text": "Which city is considered the birthplace of Renaissance painting?",
+    "options": [
+      "Rome",
+      "Venice",
+      "Florence",
+      "Milan"
+    ],
+    "correctIndex": 2,
+    "category": "arts",
+    "difficulty": "easy",
+    "explanation": "Florence is widely considered the birthplace of Renaissance painting and art in general.",
+    "detailedExplanation": "Florence, Italy, is universally recognized as the birthplace of Renaissance painting and the broader Renaissance movement. The city's wealth from banking and trade, particularly through families like the Medici, provided patronage for artists. Florence was home to groundbreaking artists like Giotto (who preceded the Renaissance but influenced it greatly), Masaccio, Donatello, Botticelli, Leonardo da Vinci, and Michelangelo. The city's emphasis on humanism, classical learning, and artistic innovation created the perfect environment for the Renaissance to flourish in the 14th and 15th centuries before spreading to other Italian cities and throughout Europe.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Italian_Renaissance",
+    "citationTitle": "Wikipedia: Italian Renaissance"
+  },
+  {
+    "id": "045aa16d-98fb-44b4-8a79-0c74252e5924",
+    "text": "Which Renaissance painter was also accomplished as an inventor, scientist, and engineer?",
+    "options": [
+      "Raphael",
+      "Botticelli",
+      "Leonardo da Vinci",
+      "Titian"
+    ],
+    "correctIndex": 2,
+    "category": "arts",
+    "difficulty": "easy",
+    "explanation": "Leonardo da Vinci was a true Renaissance polymath, excelling in painting, invention, science, and engineering.",
+    "detailedExplanation": "Leonardo da Vinci (1452-1519) epitomized the Renaissance ideal of the 'universal genius' or polymath. While famous for masterpieces like the Mona Lisa and The Last Supper, Leonardo was equally passionate about science, engineering, anatomy, and invention. His notebooks contain designs for flying machines, tanks, submarines, parachutes, and countless other innovations centuries ahead of his time. He conducted detailed anatomical studies by dissecting corpses, studied water flow and geology, and applied his scientific observations to his art, creating unprecedented realism and technical precision in his paintings.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Leonardo_da_Vinci",
+    "citationTitle": "Wikipedia: Leonardo da Vinci"
+  },
+  {
+    "id": "6135e028-c1c2-40da-9edb-0aad814be1ad",
+    "text": "Which Renaissance painter created 'The Last Supper', a famous fresco depicting Christ's final meal with his disciples?",
+    "options": [
+      "Leonardo da Vinci",
+      "Michelangelo",
+      "Raphael",
+      "Donatello"
+    ],
+    "correctIndex": 0,
+    "category": "arts",
+    "difficulty": "easy",
+    "explanation": "Leonardo da Vinci painted 'The Last Supper' between 1495-1498.",
+    "detailedExplanation": "Leonardo da Vinci created 'The Last Supper' as a mural painting in the Convent of Santa Maria delle Grazie in Milan, Italy, between 1495 and 1498. This masterpiece depicts the biblical scene of Jesus announcing to his twelve apostles that one of them would betray him. The painting is renowned for its composition, emotional depth, and innovative use of perspective, making it one of the most famous works of Renaissance art.",
+    "citationUrl": "https://en.wikipedia.org/wiki/The_Last_Supper_(Leonardo)",
+    "citationTitle": "Wikipedia: The Last Supper (Leonardo)"
+  },
+  {
+    "id": "bd319dfc-b480-44f5-8bc8-50bf1f0aadd3",
+    "text": "Which Renaissance painter is known for his series of paintings featuring the Medici family and worked primarily in Florence?",
+    "options": [
+      "Sandro Botticelli",
+      "Titian",
+      "Caravaggio",
+      "Giotto"
+    ],
+    "correctIndex": 0,
+    "category": "arts",
+    "difficulty": "easy",
+    "explanation": "Sandro Botticelli was closely associated with the Medici family and created several works for them.",
+    "detailedExplanation": "Sandro Botticelli (1445-1510) was an Italian painter of the Early Renaissance who worked extensively for the powerful Medici family in Florence. He created numerous portraits and mythological scenes under their patronage, including works that featured members of the Medici family as models. Botticelli's elegant linear style and graceful figures made him one of the most celebrated artists of his time, and his association with the Medici helped establish his reputation as a master painter.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Sandro_Botticelli",
+    "citationTitle": "Wikipedia: Sandro Botticelli"
+  },
+  {
+    "id": "37a6eca9-3ed8-4af4-a701-52c6a605e4ef",
+    "text": "What painting technique involving the subtle gradation of tones was masterfully used by Leonardo da Vinci?",
+    "options": [
+      "Sfumato",
+      "Impasto",
+      "Glazing",
+      "Scumbling"
+    ],
+    "correctIndex": 0,
+    "category": "arts",
+    "difficulty": "easy",
+    "explanation": "Sfumato is the technique of soft, subtle transitions between colors and tones.",
+    "detailedExplanation": "Sfumato, which means 'smoky' in Italian, is a painting technique developed and perfected by Leonardo da Vinci during the Renaissance. This technique involves the subtle gradation of tones and colors without harsh outlines or borders, creating soft, almost imperceptible transitions between light and shadow. Da Vinci used sfumato to create atmospheric effects and give his subjects a more lifelike, three-dimensional appearance, most notably seen in the Mona Lisa's enigmatic smile and the atmospheric backgrounds of his paintings.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Sfumato",
+    "citationTitle": "Wikipedia: Sfumato"
+  },
+  {
+    "id": "22e7a5d9-7f8d-4f6e-82f8-669bf5b22211",
+    "text": "Which Renaissance painter was known as 'Il Divino' (The Divine) for his exceptional artistic abilities?",
+    "options": [
+      "Michelangelo",
+      "Leonardo da Vinci",
+      "Raphael",
+      "Titian"
+    ],
+    "correctIndex": 0,
+    "category": "arts",
+    "difficulty": "easy",
+    "explanation": "Michelangelo was called 'Il Divino' by his contemporaries due to his extraordinary talent.",
+    "detailedExplanation": "Michelangelo Buonarroti (1475-1564) was nicknamed 'Il Divino' (The Divine One) by his contemporaries, reflecting the almost superhuman reverence they held for his artistic abilities. This title was used during his lifetime, making him the first Western artist to be celebrated in this way while still alive. His mastery across multiple disciplines - sculpture, painting, architecture, and poetry - combined with works like the Sistine Chapel ceiling and the statue of David, earned him this divine designation and cemented his status as one of the greatest artists in human history.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Michelangelo",
+    "citationTitle": "Wikipedia: Michelangelo"
+  },
+  {
+    "id": "59a0aee0-b599-45c1-bf37-485f13e4ea2a",
+    "text": "Which Venetian Renaissance painter was famous for his rich use of color and painted 'Venus of Urbino'?",
+    "options": [
+      "Titian",
+      "Tintoretto",
+      "Veronese",
+      "Giorgione"
+    ],
+    "correctIndex": 0,
+    "category": "arts",
+    "difficulty": "easy",
+    "explanation": "Titian was renowned for his masterful use of color and created the famous 'Venus of Urbino'.",
+    "detailedExplanation": "Titian (c.1488-1576) was a leading figure of the Venetian school of Renaissance painting, celebrated for his revolutionary use of color and loose brushwork. His painting 'Venus of Urbino' (1538) is considered one of the masterpieces of Renaissance art, depicting a reclining female nude with remarkable sensuality and technical skill. Titian's approach to color, known as 'colorito', emphasized the expressive power of color over the precise drawing techniques favored by Florentine artists, making him one of the most influential painters of his era.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Titian",
+    "citationTitle": "Wikipedia: Titian"
+  },
+  {
+    "id": "6dcd1107-b846-4ee7-bc7d-17294238a508",
+    "text": "Which Renaissance painter died at the young age of 37 but was considered one of the three great masters alongside Leonardo and Michelangelo?",
+    "options": [
+      "Raphael",
+      "Botticelli",
+      "Donatello",
+      "Caravaggio"
+    ],
+    "correctIndex": 0,
+    "category": "arts",
+    "difficulty": "easy",
+    "explanation": "Raphael died at age 37 in 1520 but is considered one of the three High Renaissance masters.",
+    "detailedExplanation": "Raphael Sanzio (1483-1520) died at the remarkably young age of 37, yet his brief career was so exceptional that he is universally regarded as one of the three great masters of the High Renaissance, alongside Leonardo da Vinci and Michelangelo. Despite his short life, Raphael produced an extraordinary body of work characterized by perfection of form, grace, and harmony. His paintings demonstrate technical mastery and an idealized beauty that epitomized Renaissance artistic ideals, making his early death one of art history's greatest losses.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Raphael",
+    "citationTitle": "Wikipedia: Raphael"
+  },
+  {
+    "id": "96118301-0cc8-4557-bea7-3b3a757668af",
+    "text": "Which painting by Michelangelo depicts the biblical story of God giving life to the first man?",
+    "options": [
+      "The Creation of Adam",
+      "The Fall of Man",
+      "The Last Judgment",
+      "The Deluge"
+    ],
+    "correctIndex": 0,
+    "category": "arts",
+    "difficulty": "easy",
+    "explanation": "'The Creation of Adam' shows God reaching out to give life to Adam on the Sistine Chapel ceiling.",
+    "detailedExplanation": "'The Creation of Adam' is one of the most famous frescoes painted by Michelangelo on the ceiling of the Sistine Chapel, completed around 1512. This iconic image depicts the biblical creation narrative from the Book of Genesis, showing God reaching out his finger to give life to Adam, the first man. The near-touching hands of God and Adam have become one of the most replicated and recognizable images in art history, symbolizing the divine spark of life and the relationship between humanity and the divine.",
+    "citationUrl": "https://en.wikipedia.org/wiki/The_Creation_of_Adam",
+    "citationTitle": "Wikipedia: The Creation of Adam"
+  },
+  {
+    "id": "2853f8d2-0403-4090-b817-edb3f369245f",
+    "text": "Which Renaissance painter was primarily known for his portrait work and painted 'Girl with a Pearl Earring'?",
+    "options": [
+      "Johannes Vermeer",
+      "Hans Holbein",
+      "Albrecht Dürer",
+      "Jan van Eyck"
+    ],
+    "correctIndex": 0,
+    "category": "arts",
+    "difficulty": "easy",
+    "explanation": "Johannes Vermeer painted the famous 'Girl with a Pearl Earring' during the Dutch Renaissance.",
+    "detailedExplanation": "Johannes Vermeer (1632-1675) was a Dutch Renaissance painter who specialized in domestic interior scenes and portraits. His painting 'Girl with a Pearl Earring' (c.1665) has become one of the most famous portraits in art history, often called the 'Mona Lisa of the North.' Vermeer was known for his masterful use of light and his ability to capture intimate, quiet moments. Though he painted during the later period of the Renaissance in Northern Europe, his work exemplifies the technical precision and artistic innovation that characterized Renaissance painting.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Girl_with_a_Pearl_Earring",
+    "citationTitle": "Wikipedia: Girl with a Pearl Earring"
+  },
+  {
+    "id": "173e0b66-d1b7-4b2b-bfc2-91d5e1cd1a7e",
+    "text": "Which Renaissance painter was known for his detailed landscapes and is considered the first great master of oil painting in Northern Europe?",
+    "options": [
+      "Jan van Eyck",
+      "Albrecht Dürer",
+      "Pieter Bruegel",
+      "Hans Holbein"
+    ],
+    "correctIndex": 0,
+    "category": "arts",
+    "difficulty": "easy",
+    "explanation": "Jan van Eyck revolutionized oil painting techniques in the 15th century Northern Renaissance.",
+    "detailedExplanation": "Jan van Eyck (c. 1390-1441) was a Flemish painter who is often credited as one of the founders of Early Netherlandish painting and a pioneer in oil painting. His meticulous attention to detail, innovative use of oil paints, and ability to capture realistic textures and lighting effects made him legendary. His famous works include the Ghent Altarpiece and the Arnolfini Portrait, which showcase his mastery of the oil medium that would later influence painters throughout Europe.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Jan_van_Eyck",
+    "citationTitle": "Wikipedia: Jan van Eyck"
+  },
+  {
+    "id": "9177ac18-5680-476d-82de-2c29a8e25864",
+    "text": "Which Renaissance painter created the famous work 'Primavera', depicting mythological figures dancing in a garden?",
+    "options": [
+      "Piero della Francesca",
+      "Sandro Botticelli",
+      "Andrea Mantegna",
+      "Paolo Uccello"
+    ],
+    "correctIndex": 1,
+    "category": "arts",
+    "difficulty": "easy",
+    "explanation": "Sandro Botticelli painted 'Primavera' around 1482, featuring allegorical figures representing spring.",
+    "detailedExplanation": "Sandro Botticelli (1445-1510) created 'Primavera' (meaning 'Spring') around 1482, which is housed in the Uffizi Gallery in Florence. This large tempera painting depicts nine mythological figures dancing or standing in a garden, including Venus, Mercury, the Three Graces, and Flora. The work is celebrated for its elegant linear style, ethereal beauty, and complex allegorical meaning, representing the Renaissance fascination with classical mythology and Neoplatonic philosophy.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Primavera_(Botticelli)",
+    "citationTitle": "Wikipedia: Primavera (Botticelli)"
+  },
+  {
+    "id": "c1578c97-9e66-484c-bbbe-04029779f3cc",
+    "text": "Which Renaissance painter was famous for his mathematical approach to art and created 'The Flagellation of Christ'?",
+    "options": [
+      "Giorgio Vasari",
+      "Piero della Francesca",
+      "Domenico Ghirlandaio",
+      "Andrea del Verrocchio"
+    ],
+    "correctIndex": 1,
+    "category": "arts",
+    "difficulty": "easy",
+    "explanation": "Piero della Francesca combined mathematics with art, creating perfectly proportioned paintings using geometric principles.",
+    "detailedExplanation": "Piero della Francesca (c. 1415-1492) was renowned for his mathematical precision and use of geometric perspective in painting. He wrote treatises on mathematics and perspective, applying these principles to create harmonious, perfectly proportioned artworks. 'The Flagellation of Christ' demonstrates his mastery of linear perspective and architectural space. His scientific approach to art, combining mathematics with painting, made him unique among Renaissance artists and influenced the development of perspective techniques throughout the period.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Piero_della_Francesca",
+    "citationTitle": "Wikipedia: Piero della Francesca"
+  },
+  {
+    "id": "874cfeda-86d9-4705-8a44-0bdefbc0c7b6",
+    "text": "Which German Renaissance painter created the famous series of woodcut prints called 'The Four Horsemen of the Apocalypse'?",
+    "options": [
+      "Lucas Cranach",
+      "Albrecht Dürer",
+      "Hans Holbein the Younger",
+      "Matthias Grünewald"
+    ],
+    "correctIndex": 1,
+    "category": "arts",
+    "difficulty": "easy",
+    "explanation": "Albrecht Dürer created this famous woodcut series around 1498 as part of his Apocalypse series.",
+    "detailedExplanation": "Albrecht Dürer (1471-1528) was a German painter and printmaker who created 'The Four Horsemen of the Apocalypse' woodcut around 1498. This dramatic print depicts the biblical horsemen - Conquest, War, Famine, and Death - riding across the landscape. Dürer's technical mastery of woodcut printing and his ability to create intricate detail and dramatic composition made this one of the most famous prints of the Renaissance period. His work bridged Italian Renaissance techniques with Northern European artistic traditions.",
+    "citationUrl": "https://en.wikipedia.org/wiki/The_Four_Horsemen_of_the_Apocalypse_(D%C3%BCrer)",
+    "citationTitle": "Wikipedia: The Four Horsemen of the Apocalypse (Dürer)"
+  }
+]

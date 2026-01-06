@@ -1,0 +1,342 @@
+[
+  {
+    "id": "92ebb920-3095-4c6e-8a33-3457bc9c2337",
+    "text": "Which pioneering VR researcher coined the term 'virtual reality' and founded VPL Research in 1984?",
+    "options": [
+      "Ivan Sutherland",
+      "Jaron Lanier",
+      "Morton Heilig",
+      "Myron Krueger"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Jaron Lanier coined the term 'virtual reality' and founded VPL Research.",
+    "detailedExplanation": "Jaron Lanier is widely credited with popularizing the term 'virtual reality' in the 1980s. He founded VPL Research (Visual Programming Languages) in 1984, which became one of the first companies to sell VR goggles and wired gloves. While other researchers like Ivan Sutherland created early head-mounted displays, Lanier's work helped establish the modern conception of VR and brought the technology into public consciousness.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Jaron_Lanier",
+    "citationTitle": "Wikipedia: Jaron Lanier"
+  },
+  {
+    "id": "4d5b957f-0a39-4c25-ab4a-72890aa57603",
+    "text": "What is the minimum refresh rate typically required for VR headsets to prevent motion sickness and provide a comfortable experience?",
+    "options": [
+      "60 Hz",
+      "72 Hz",
+      "90 Hz",
+      "120 Hz"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "90 Hz is the minimum refresh rate typically required for comfortable VR experiences.",
+    "detailedExplanation": "VR headsets require high refresh rates to minimize motion sickness and provide smooth, believable experiences. While traditional monitors often operate at 60 Hz, VR displays typically need at least 90 Hz refresh rates. This higher rate is crucial because any lag between head movement and visual response can cause discomfort, nausea, or cybersickness. Many modern VR headsets now operate at 90 Hz, 120 Hz, or even higher to ensure user comfort.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Virtual_reality_headset",
+    "citationTitle": "Wikipedia: Virtual reality headset"
+  },
+  {
+    "id": "82937ec5-4eab-49ad-9b38-70e20a138272",
+    "text": "Which VR tracking technology uses infrared LEDs and cameras to precisely map headset and controller positions in space?",
+    "options": [
+      "Inside-out tracking",
+      "Constellation tracking",
+      "Lighthouse tracking",
+      "SLAM tracking"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Constellation tracking uses infrared LEDs and cameras for precise position mapping.",
+    "detailedExplanation": "Constellation tracking, developed by Oculus, uses infrared LEDs embedded in the headset and controllers along with external cameras (called sensors) to track their positions. The cameras detect the constellation of IR lights and calculate precise 6DOF (six degrees of freedom) positioning. This differs from Lighthouse tracking (which uses lasers) and inside-out tracking (which uses cameras on the headset itself rather than external ones).",
+    "citationUrl": "https://en.wikipedia.org/wiki/Oculus_Rift",
+    "citationTitle": "Wikipedia: Oculus Rift"
+  },
+  {
+    "id": "a6a6cd7c-4c2b-447c-b7ae-4da10a778f7b",
+    "text": "What does 'IPD' stand for in VR headset specifications, and why is it important for user comfort?",
+    "options": [
+      "Image Processing Delay",
+      "Interpupillary Distance",
+      "Immersive Pixel Density",
+      "Interactive Position Detection"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "IPD stands for Interpupillary Distance, the distance between a person's pupils.",
+    "detailedExplanation": "Interpupillary Distance (IPD) is the distance between the centers of a person's pupils, typically measured in millimeters and ranging from about 54-74mm in adults. In VR headsets, IPD adjustment is crucial because the lenses must be properly aligned with the user's eyes for clear vision and comfort. If the IPD setting doesn't match the user's actual IPD, it can cause blurred vision, eye strain, and reduced sense of immersion.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Pupillary_distance",
+    "citationTitle": "Wikipedia: Pupillary distance"
+  },
+  {
+    "id": "e8eb0144-0c0b-4cb5-ada6-f347ef23e605",
+    "text": "Which haptic feedback technology company was acquired by Facebook (Meta) in 2019 for their VR controller development?",
+    "options": [
+      "Tanvas",
+      "Ultraleap",
+      "CTRL-labs",
+      "Immersion Corporation"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "CTRL-labs was acquired by Facebook in 2019 for neural interface technology.",
+    "detailedExplanation": "Facebook (now Meta) acquired CTRL-labs in 2019 for a reported $500 million to $1 billion. CTRL-labs developed neural interface technology that could interpret electrical signals from the brain to muscles, allowing users to control devices through subtle finger movements or even just thinking about moving. This technology is intended to revolutionize VR and AR input methods, potentially eliminating the need for traditional controllers.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Reality_Labs",
+    "citationTitle": "Wikipedia: Reality Labs"
+  },
+  {
+    "id": "adae7045-7f38-4318-ae57-09903f1843c9",
+    "text": "What is the 'vergence-accommodation conflict' in VR displays, and why does it cause eye strain?",
+    "options": [
+      "Mismatch between screen resolution and eye tracking",
+      "Difference between stereoscopic depth cues and focus distance",
+      "Conflict between refresh rate and frame rate",
+      "Misalignment between IPD setting and actual pupil distance"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "It's the mismatch between stereoscopic depth perception and the fixed focus distance of VR screens.",
+    "detailedExplanation": "The vergence-accommodation conflict occurs because in VR, your eyes converge (angle inward) to focus on virtual objects at different perceived distances, but they must accommodate (adjust lens shape) to the fixed physical distance of the VR screen, which is typically just a few centimeters away. In real life, vergence and accommodation work together - both adjust based on object distance. This conflict can cause eye strain, fatigue, and discomfort during extended VR use.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Virtual_reality_sickness",
+    "citationTitle": "Wikipedia: Virtual reality sickness"
+  },
+  {
+    "id": "b33dca51-18bd-4acd-9e6c-43a59b5790ec",
+    "text": "Which advanced VR display technology uses multiple focal planes to reduce eye strain and create more realistic depth perception?",
+    "options": [
+      "OLED displays",
+      "Varifocal displays",
+      "Light field displays",
+      "Retinal projection displays"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Light field displays use multiple focal planes to create more natural depth perception.",
+    "detailedExplanation": "Light field displays represent an advanced VR display technology that captures and reproduces light rays from multiple angles and focal distances, creating multiple focal planes that more closely mimic natural vision. Unlike traditional VR displays that present images at a single focal distance, light field displays allow users to naturally focus at different depths within the virtual scene, potentially solving the vergence-accommodation conflict and reducing eye strain.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Light_field",
+    "citationTitle": "Wikipedia: Light field"
+  },
+  {
+    "id": "9f40eb7c-31f6-4645-94f0-1badb04fbf73",
+    "text": "What does 'SLAM' stand for in VR tracking systems, and what is its primary function?",
+    "options": [
+      "Spatial Light Analysis Mapping",
+      "Simultaneous Localization and Mapping",
+      "Structured Laser Alignment Method",
+      "Synchronized Linear Acceleration Measurement"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "SLAM stands for Simultaneous Localization and Mapping.",
+    "detailedExplanation": "SLAM (Simultaneous Localization and Mapping) is a computational method used in VR and robotics where a device simultaneously maps an unknown environment while keeping track of its location within that environment. In VR headsets with inside-out tracking, SLAM algorithms use data from cameras and sensors to create a 3D map of the room while tracking the headset's position and orientation. This technology enables room-scale VR without external sensors or lighthouses.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Simultaneous_localization_and_mapping",
+    "citationTitle": "Wikipedia: Simultaneous localization and mapping"
+  },
+  {
+    "id": "dc3acbc4-0db0-4075-bcc0-34302867322b",
+    "text": "Which company developed the first commercially successful VR headset called the VPL EyePhone in the late 1980s, priced at approximately $9,400?",
+    "options": [
+      "Atari",
+      "VPL Research",
+      "Nintendo",
+      "Sega"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "VPL Research developed the EyePhone, one of the first commercial VR headsets.",
+    "detailedExplanation": "VPL Research, founded by Jaron Lanier, created the EyePhone in the late 1980s, which was among the first commercially available VR headsets. The system was extremely expensive, costing around $9,400 for the headset alone, with full systems reaching over $200,000. Despite its high cost and limited capabilities by today's standards, the EyePhone represented a crucial milestone in making VR technology commercially available rather than just a research curiosity.",
+    "citationUrl": "https://en.wikipedia.org/wiki/VPL_Research",
+    "citationTitle": "Wikipedia: VPL Research"
+  },
+  {
+    "id": "298606e3-5af6-4541-9f25-551b36bc08df",
+    "text": "What is the technical term for the grid-like pattern visible between pixels on VR displays that can break immersion?",
+    "options": [
+      "Screen door effect",
+      "Pixel bleeding",
+      "Display ghosting",
+      "Chromatic aberration"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "The screen door effect refers to the visible grid pattern between pixels in VR displays.",
+    "detailedExplanation": "The screen door effect is a visual artifact in VR headsets where users can see the fine lines separating individual pixels, creating a mesh or screen door-like pattern overlay on the virtual environment. This occurs because VR displays are positioned very close to the user's eyes and are magnified by lenses, making the gaps between pixels more apparent. Higher resolution displays and improved pixel density have significantly reduced this effect in modern VR headsets.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Screen-door_effect",
+    "citationTitle": "Wikipedia: Screen-door effect"
+  },
+  {
+    "id": "bf6c2670-2508-4baa-948a-2c36544eda4b",
+    "text": "Which VR locomotion technique involves the user pointing to a location and instantly appearing there, commonly used to prevent motion sickness?",
+    "options": [
+      "Smooth locomotion",
+      "Teleportation",
+      "Room-scale walking",
+      "Arm swinging"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Teleportation allows users to instantly move to pointed locations, reducing motion sickness.",
+    "detailedExplanation": "Teleportation is a VR locomotion method where users point to a desired location using a controller and instantly transport there, often with a brief fade or visual effect. This technique was developed as a solution to motion sickness that can occur when using smooth locomotion (traditional joystick movement) in VR, which can cause a disconnect between visual movement and the inner ear's sense of balance. Teleportation eliminates this conflict by avoiding continuous motion, making VR experiences more comfortable for users prone to simulator sickness.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Virtual_reality_locomotion",
+    "citationTitle": "Wikipedia: Virtual reality locomotion"
+  },
+  {
+    "id": "973f1330-d51e-47f8-802a-e4a46410a2a7",
+    "text": "What does FOV stand for in VR specifications, and what is considered a good range for immersive experiences?",
+    "options": [
+      "Field of Vision, 90-110 degrees",
+      "Focus of View, 60-80 degrees",
+      "Frame of Visibility, 120-140 degrees",
+      "Frequency of Visuals, 90-120 Hz"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "FOV means Field of Vision, with 90-110 degrees being optimal for VR immersion.",
+    "detailedExplanation": "Field of Vision (FOV) in VR refers to the extent of the observable virtual world visible at any given moment, measured in degrees. Human natural FOV is approximately 200 degrees horizontally, but current VR headsets typically provide 90-110 degrees due to technical limitations. A wider FOV increases immersion by reducing the 'binocular' or 'tunnel vision' effect, making users feel more present in the virtual environment. However, increasing FOV is challenging as it requires more processing power and can introduce optical distortions at the periphery.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Field_of_view",
+    "citationTitle": "Wikipedia: Field of view"
+  },
+  {
+    "id": "4a1e869b-b9dc-4b4d-bb75-cfac306ebeee",
+    "text": "Which VR input method uses computer vision to track hand and finger movements without requiring controllers or gloves?",
+    "options": [
+      "Haptic feedback",
+      "Hand tracking",
+      "Eye tracking",
+      "Voice recognition"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Hand tracking uses computer vision to detect hand and finger movements without physical controllers.",
+    "detailedExplanation": "Hand tracking in VR uses computer vision algorithms and cameras built into the headset to detect and interpret hand and finger movements in real-time. This technology allows users to interact with virtual objects naturally using their bare hands, without needing to hold physical controllers. Modern VR headsets like the Oculus Quest series have integrated hand tracking capabilities, using machine learning models trained on thousands of hand gesture images to accurately recognize hand positions and finger articulation in various lighting conditions.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Gesture_recognition",
+    "citationTitle": "Wikipedia: Gesture recognition"
+  },
+  {
+    "id": "214b79bf-62b4-4ffb-9520-0527fb34e73b",
+    "text": "What is 'presence' in VR psychology, and which factor is considered most crucial for achieving it?",
+    "options": [
+      "Visual realism, graphics quality",
+      "Immersion feeling, low latency",
+      "Audio quality, 3D sound",
+      "Haptic feedback, tactile response"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Presence is the feeling of immersion in VR, with low latency being crucial for maintaining it.",
+    "detailedExplanation": "Presence in VR refers to the psychological phenomenon where users feel genuinely present in the virtual environment rather than just observing it through a screen. This sense of 'being there' is fundamental to effective VR experiences. Low latency (the delay between user movement and visual response) is considered the most critical factor for presence, as even small delays can break the illusion and cause discomfort. Motion-to-photon latency should ideally be under 20 milliseconds to maintain strong presence and prevent motion sickness.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Immersion_(virtual_reality)",
+    "citationTitle": "Wikipedia: Immersion (virtual reality)"
+  },
+  {
+    "id": "f9ea1f23-fda6-4ff3-bb14-a8b0cefc2c83",
+    "text": "Which VR rendering technique reduces computational load by rendering peripheral vision at lower quality than the center of vision?",
+    "options": [
+      "Dynamic resolution",
+      "Foveated rendering",
+      "Temporal upscaling",
+      "Adaptive shading"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Foveated rendering reduces quality in peripheral vision to improve performance.",
+    "detailedExplanation": "Foveated rendering is an optimization technique that takes advantage of human vision characteristics, where only the central area (fovea) can see fine details while peripheral vision has much lower acuity. This technique renders the center of the user's vision at full quality while progressively reducing detail toward the edges of the display. When combined with eye tracking, it can dynamically adjust the high-quality region based on where the user is looking, potentially reducing rendering workload by 30-50% without noticeable quality loss.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Foveated_rendering",
+    "citationTitle": "Wikipedia: Foveated rendering"
+  },
+  {
+    "id": "2f648c25-76c3-4ad7-8741-631ebae1768b",
+    "text": "What is the primary challenge of 'social VR' applications that current technology struggles to overcome?",
+    "options": [
+      "Network latency issues",
+      "Avatar facial expression capture",
+      "Voice chat quality",
+      "Multi-user synchronization"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Capturing natural facial expressions for avatars remains a major challenge in social VR.",
+    "detailedExplanation": "Social VR applications face numerous technical challenges, but avatar facial expression capture is considered one of the most significant barriers to natural social interaction. Since VR headsets cover much of the face, capturing subtle facial expressions, micro-expressions, and natural eye contact is extremely difficult with current consumer hardware. This limitation makes virtual social interactions feel less natural and emotionally engaging compared to real-world face-to-face communication. While some experimental systems use additional sensors or cameras, affordable solutions for accurate facial capture remain elusive.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Social_VR",
+    "citationTitle": "Wikipedia: Social VR"
+  },
+  {
+    "id": "ba116de7-b5e2-4f55-a83d-738884321539",
+    "text": "Which military flight simulator, developed in the 1960s, is considered one of the first precursors to modern VR systems?",
+    "options": [
+      "Link Trainer",
+      "Super Cockpit",
+      "SIMNET",
+      "Flight Simulator II"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "The Super Cockpit program developed advanced helmet-mounted displays and 3D graphics for pilot training.",
+    "detailedExplanation": "The Super Cockpit program, developed by the U.S. Air Force in the 1960s-1980s, featured helmet-mounted displays, 3D computer graphics, and speech recognition - many core technologies that would later become fundamental to VR systems. While the Link Trainer was an earlier flight simulator, it lacked the immersive visual displays that characterize VR. SIMNET came later and focused on networked simulation rather than individual immersion.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Virtual_reality",
+    "citationTitle": "Wikipedia: Virtual reality"
+  },
+  {
+    "id": "140c63c1-0b7f-44ae-b917-9aedd3187bdd",
+    "text": "What is the phenomenon called when VR users experience a temporary difficulty readjusting to real-world depth perception after extended VR use?",
+    "options": [
+      "Reality lag",
+      "Depth displacement",
+      "VR hangover",
+      "Perceptual aftereffect"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "VR hangover describes the disorientation and depth perception issues some users experience when returning to reality.",
+    "detailedExplanation": "VR hangover, also known as virtual reality sickness aftereffects, occurs when users have difficulty readjusting to real-world visual and spatial cues after extended VR sessions. This can manifest as continued dizziness, altered depth perception, or feeling like the real world appears 'flat' or strange. The brain temporarily retains adaptations it made to process the artificial VR environment, requiring time to recalibrate to natural visual processing.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Virtual_reality_sickness",
+    "citationTitle": "Wikipedia: Virtual reality sickness"
+  },
+  {
+    "id": "47091a85-1e8d-4d38-848d-5c2b1416e30e",
+    "text": "Which VR audio technology creates 3D spatial sound by simulating how sound waves interact with the human head and ears?",
+    "options": [
+      "Binaural rendering",
+      "Ambisonics",
+      "HRTF processing",
+      "Surround virtualization"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "HRTF (Head-Related Transfer Function) processing models how individual ear shapes affect sound perception for realistic 3D audio.",
+    "detailedExplanation": "Head-Related Transfer Function (HRTF) processing is crucial for creating convincing spatial audio in VR. It models how sound waves are filtered by the unique shape of each person's head, ears, and torso before reaching the eardrums. By applying these mathematical models to audio signals, VR systems can create the illusion that sounds are coming from specific locations in 3D space, greatly enhancing immersion and presence in virtual environments.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Head-related_transfer_function",
+    "citationTitle": "Wikipedia: Head-related transfer function"
+  },
+  {
+    "id": "a89d4a30-2f7c-4044-9e6e-1d8016d06b60",
+    "text": "What does 'photogrammetry' refer to in the context of VR content creation?",
+    "options": [
+      "Taking panoramic photos for VR backgrounds",
+      "Creating 3D models from multiple photographs",
+      "Measuring light levels in virtual scenes",
+      "Capturing user movements with cameras"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Photogrammetry reconstructs detailed 3D models and environments from overlapping photographs taken from multiple angles.",
+    "detailedExplanation": "Photogrammetry is a technique used extensively in VR content creation to generate highly realistic 3D models and environments from collections of overlapping photographs. By analyzing common features across multiple images taken from different angles, specialized software can calculate the 3D structure, geometry, and textures of real-world objects or locations. This allows VR developers to create incredibly detailed virtual replicas of actual places, objects, or people for immersive experiences.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Photogrammetry",
+    "citationTitle": "Wikipedia: Photogrammetry"
+  }
+]

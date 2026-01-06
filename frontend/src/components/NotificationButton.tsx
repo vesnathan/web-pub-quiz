@@ -1,34 +1,55 @@
 "use client";
 
-import { Button, Chip } from "@nextui-org/react";
+import { Button } from "@nextui-org/react";
 import { useNotifications } from "@/hooks/useNotifications";
 
 export function NotificationButton() {
-  const { permissionState, requestPermission } = useNotifications();
+  const {
+    notificationsEnabled,
+    permissionState,
+    requestPermission,
+    disableNotifications,
+    enableNotifications,
+  } = useNotifications();
 
   if (permissionState === "unsupported") {
     return null;
   }
 
-  if (permissionState === "granted") {
-    return (
-      <Chip size="sm" color="success" variant="flat">
-        🔔 Notifications on
-      </Chip>
-    );
-  }
-
   if (permissionState === "denied") {
+    return <span className="text-xs text-gray-500">Notifications blocked</span>;
+  }
+
+  if (permissionState === "granted" || permissionState === "mobile") {
     return (
-      <Chip size="sm" color="default" variant="flat">
-        🔕 Notifications blocked
-      </Chip>
+      <Button
+        size="sm"
+        variant="light"
+        onPress={
+          notificationsEnabled ? disableNotifications : enableNotifications
+        }
+        className="text-sm text-gray-400 hover:text-white min-w-0 px-2"
+      >
+        {notificationsEnabled
+          ? permissionState === "mobile"
+            ? "🔔 Alerts on"
+            : "🔔 Notifications on"
+          : permissionState === "mobile"
+            ? "🔕 Alerts off"
+            : "🔕 Notifications off"}
+      </Button>
     );
   }
 
+  // Default state - permission not yet requested
   return (
-    <Button size="sm" variant="flat" onPress={requestPermission}>
-      🔔 Enable notifications
+    <Button
+      size="sm"
+      variant="light"
+      onPress={requestPermission}
+      className="text-sm text-gray-400 hover:text-white min-w-0 px-2"
+    >
+      🔔 Enable alerts
     </Button>
   );
 }

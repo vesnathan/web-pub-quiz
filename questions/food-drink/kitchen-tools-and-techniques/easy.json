@@ -1,0 +1,342 @@
+[
+  {
+    "id": "2dffd34e-32f8-49d6-aced-ebb176946229",
+    "text": "What kitchen tool is specifically designed to remove the zest from citrus fruits?",
+    "options": [
+      "Zester",
+      "Peeler",
+      "Paring knife",
+      "Grater"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "A zester is the specialized tool for removing citrus zest.",
+    "detailedExplanation": "A zester is a kitchen utensil specifically designed to remove the colorful outer peel (zest) of citrus fruits like lemons, limes, and oranges while avoiding the bitter white pith underneath. Traditional zesters have small sharp holes that scrape off thin strips of zest, while modern microplane zesters create finely grated zest. The zest contains essential oils that add intense citrus flavor to dishes.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Zester",
+    "citationTitle": "Wikipedia: Zester"
+  },
+  {
+    "id": "b09b65f8-0b75-44a3-8d94-7b6b539acb11",
+    "text": "What cooking technique involves cooking food slowly in fat at a low temperature?",
+    "options": [
+      "Braising",
+      "Confit",
+      "Poaching",
+      "Steaming"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Confit is the technique of cooking food slowly submerged in fat at low temperature.",
+    "detailedExplanation": "Confit is a traditional French cooking method where food, typically duck legs or other meats, is cooked very slowly while completely submerged in fat (usually the animal's own fat or oil) at low temperatures around 200°F (93°C). This gentle cooking process preserves the food and creates incredibly tender results. The technique can also be applied to vegetables, with garlic confit being particularly popular.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Confit",
+    "citationTitle": "Wikipedia: Confit"
+  },
+  {
+    "id": "e590c97b-1778-497d-91f1-87a6d630ba85",
+    "text": "Which kitchen tool has holes and is used to drain water from cooked pasta?",
+    "options": [
+      "Sieve",
+      "Colander",
+      "Strainer",
+      "All of the above"
+    ],
+    "correctIndex": 3,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Colanders, sieves, and strainers can all be used to drain pasta water.",
+    "detailedExplanation": "While colander is the most common term for the bowl-shaped kitchen tool with holes used to drain pasta, sieves and strainers serve the same basic function. A colander typically has larger holes and is bowl-shaped, perfect for draining pasta and washing vegetables. Sieves and fine-mesh strainers have smaller holes and are better for finer tasks, but all three tools can effectively separate cooked pasta from its cooking water.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Colander",
+    "citationTitle": "Wikipedia: Colander"
+  },
+  {
+    "id": "05d678fe-d971-4c78-9d6d-c8349dd875a9",
+    "text": "What does 'mise en place' mean in cooking?",
+    "options": [
+      "Cooking in place",
+      "Everything in its place",
+      "French cooking style",
+      "Seasoning to taste"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Mise en place is French for 'everything in its place' - preparing ingredients before cooking.",
+    "detailedExplanation": "Mise en place is a fundamental culinary concept meaning 'everything in its place' in French. It refers to the practice of preparing and organizing all ingredients, tools, and equipment before beginning to cook. This includes washing, chopping, measuring, and arranging ingredients, as well as gathering necessary cookware. Professional chefs rely heavily on mise en place to ensure smooth, efficient cooking and to prevent mistakes during food preparation.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Mise_en_place",
+    "citationTitle": "Wikipedia: Mise en place"
+  },
+  {
+    "id": "8407f3e1-785a-47b7-b018-a2b6ebdc3a96",
+    "text": "Which knife is considered the most versatile and essential in most kitchens?",
+    "options": [
+      "Paring knife",
+      "Chef's knife",
+      "Serrated knife",
+      "Cleaver"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "The chef's knife is the most versatile and essential knife for most kitchen tasks.",
+    "detailedExplanation": "A chef's knife, typically 8-10 inches long with a broad, sharp blade, is considered the workhorse of the kitchen. Its versatile design allows it to handle most cutting tasks including chopping vegetables, slicing meat, mincing herbs, and crushing garlic. The wide blade provides good knuckle clearance and can be used to transfer chopped ingredients. Most professional chefs consider a good chef's knife the single most important tool in the kitchen.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Chef%27s_knife",
+    "citationTitle": "Wikipedia: Chef's knife"
+  },
+  {
+    "id": "3bcf46be-5d19-47c8-af35-1b27202aa53f",
+    "text": "What kitchen technique involves cooking food by surrounding it with dry heat in an oven?",
+    "options": [
+      "Baking",
+      "Roasting",
+      "Both baking and roasting",
+      "Broiling"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Both baking and roasting use dry heat in an oven, though they're typically used for different foods.",
+    "detailedExplanation": "Both baking and roasting involve cooking food with dry heat in an oven, but the terms are traditionally used for different types of food. Baking typically refers to cooking breads, cakes, pastries, and casseroles, while roasting is used for cooking meats and vegetables. The actual cooking method is essentially the same - surrounding food with hot, dry air in an enclosed oven space, allowing even heat distribution for thorough cooking.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Roasting",
+    "citationTitle": "Wikipedia: Roasting"
+  },
+  {
+    "id": "2b339662-700a-48fc-a236-416a577cc5ed",
+    "text": "What is a mandoline used for in the kitchen?",
+    "options": [
+      "Mixing ingredients",
+      "Slicing vegetables uniformly",
+      "Measuring liquids",
+      "Tenderizing meat"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "A mandoline is used for slicing vegetables and fruits into uniform, precise slices.",
+    "detailedExplanation": "A mandoline is a kitchen tool consisting of an adjustable blade mounted on a frame, designed to slice vegetables and fruits into uniform thickness. It can create paper-thin slices, julienne cuts, and waffle cuts depending on the blade attachments used. Mandolines are particularly useful for preparing ingredients like potato chips, onion rings, or vegetables for gratins where consistent thickness is important for even cooking. They require careful handling due to their extremely sharp blades.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Mandoline",
+    "citationTitle": "Wikipedia: Mandoline"
+  },
+  {
+    "id": "7b1172da-0020-4e2a-802d-c5e86e303b4d",
+    "text": "What does it mean to 'sauté' food?",
+    "options": [
+      "Cook quickly in a small amount of fat over high heat",
+      "Cook slowly in liquid",
+      "Cook under direct heat from above",
+      "Cook in steam"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Sautéing means cooking food quickly in a small amount of fat over relatively high heat.",
+    "detailedExplanation": "Sauté comes from the French verb 'sauter' meaning 'to jump,' referring to the way food moves in the pan when cooked this way. The technique involves cooking food quickly in a shallow pan with a small amount of fat (oil or butter) over relatively high heat. The food is kept moving in the pan, either by flipping or stirring, which prevents burning and ensures even cooking. This method is ideal for vegetables, small pieces of meat, and seafood.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Saut%C3%A9ing",
+    "citationTitle": "Wikipedia: Sautéing"
+  },
+  {
+    "id": "26679d46-a031-4eed-955e-0696aacb39b0",
+    "text": "What is the main purpose of a kitchen whisk?",
+    "options": [
+      "To incorporate air and blend ingredients",
+      "To measure liquid ingredients",
+      "To cut vegetables into strips",
+      "To tenderize meat"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "A whisk is designed to incorporate air into mixtures and blend ingredients smoothly.",
+    "detailedExplanation": "A whisk is an essential kitchen tool consisting of wire loops attached to a handle, specifically designed to incorporate air into mixtures like cream, eggs, or batters while simultaneously blending ingredients together. The wire design creates turbulence that helps achieve smooth, lump-free mixtures and can create volume through aeration, making it indispensable for tasks like whipping cream, beating eggs, or mixing batters.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Whisk",
+    "citationTitle": "Wikipedia: Whisk"
+  },
+  {
+    "id": "6225f61c-7493-42ed-998f-9a767be79945",
+    "text": "What does 'blanching' mean in cooking?",
+    "options": [
+      "Briefly boiling food then plunging into ice water",
+      "Coating food in flour before frying",
+      "Cooking food in butter until golden",
+      "Marinating food in wine overnight"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Blanching involves briefly boiling food and then immediately cooling it in ice water to stop the cooking process.",
+    "detailedExplanation": "Blanching is a cooking technique where food, typically vegetables, is briefly boiled in salted water and then immediately transferred to an ice water bath to halt the cooking process. This method helps preserve color, texture, and nutritional value while partially cooking the food. It's commonly used to prepare vegetables for freezing, remove strong flavors, or as a preliminary step before further cooking methods.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Blanching_(cooking)",
+    "citationTitle": "Wikipedia: Blanching (cooking)"
+  },
+  {
+    "id": "360b6004-c466-4c2b-971f-02e84035a83e",
+    "text": "Which kitchen tool is primarily used to flip pancakes and burgers?",
+    "options": [
+      "Spatula",
+      "Tongs",
+      "Ladle",
+      "Skimmer"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "A spatula, particularly a flat turner spatula, is the ideal tool for flipping flat foods like pancakes and burgers.",
+    "detailedExplanation": "A spatula, specifically the flat turner variety, is the go-to kitchen tool for flipping pancakes, burgers, and other flat foods. Its thin, flat blade allows cooks to easily slide under delicate items without breaking them, while providing enough surface area to support and flip the food safely. The angled design and long handle keep hands away from heat while providing leverage for smooth flipping motions.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Spatula",
+    "citationTitle": "Wikipedia: Spatula"
+  },
+  {
+    "id": "6d4b4d0e-7237-44d5-9391-24a5d2605d53",
+    "text": "What cooking method involves submerging food completely in hot oil?",
+    "options": [
+      "Deep frying",
+      "Braising",
+      "Steaming",
+      "Poaching"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Deep frying involves completely submerging food in hot oil, typically at temperatures between 350-375°F.",
+    "detailedExplanation": "Deep frying is a cooking method where food is completely submerged in hot oil, usually heated to temperatures between 350-375°F (175-190°C). This technique creates a crispy exterior while cooking the interior, and is used for foods like french fries, fried chicken, and donuts. The high heat and oil immersion create the characteristic golden-brown crust through the Maillard reaction while sealing in moisture.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Deep_frying",
+    "citationTitle": "Wikipedia: Deep frying"
+  },
+  {
+    "id": "326520d3-14d5-4167-b37d-3ba32e52ef30",
+    "text": "What is a rolling pin primarily used for?",
+    "options": [
+      "Flattening and shaping dough",
+      "Grinding spices",
+      "Tenderizing meat",
+      "Mixing ingredients"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "A rolling pin is used to flatten and shape dough for pastries, cookies, and other baked goods.",
+    "detailedExplanation": "A rolling pin is a cylindrical kitchen tool used primarily to flatten and shape dough to desired thickness and dimensions. Essential for baking tasks like making pie crusts, cookies, pasta, and pastries, the rolling pin applies even pressure across the dough surface. Available in various materials like wood, marble, or silicone, it helps achieve uniform thickness critical for even baking and professional-looking results.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Rolling_pin",
+    "citationTitle": "Wikipedia: Rolling pin"
+  },
+  {
+    "id": "b8430d34-26c7-4f00-9369-5d3f7831bf24",
+    "text": "What does 'julienne' refer to in cooking?",
+    "options": [
+      "Cutting vegetables into thin matchstick strips",
+      "A type of soup preparation",
+      "Cooking with white wine",
+      "A method of seasoning food"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Julienne is a knife cut that creates thin, uniform matchstick-shaped strips, typically 2-3 inches long.",
+    "detailedExplanation": "Julienne is a precise knife cutting technique that produces thin, uniform strips resembling matchsticks, typically measuring about 1/8 inch thick and 2-3 inches long. This classic French culinary technique is commonly used for vegetables like carrots, peppers, and potatoes, and serves both aesthetic and practical purposes - the uniform size ensures even cooking while creating an elegant presentation. The technique requires good knife skills and consistent hand positioning.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Julienning",
+    "citationTitle": "Wikipedia: Julienning"
+  },
+  {
+    "id": "50cf55ab-f3eb-401f-9a63-1b672a40e7da",
+    "text": "What kitchen appliance is specifically designed to blend ingredients into smooth liquids?",
+    "options": [
+      "Blender",
+      "Food processor",
+      "Stand mixer",
+      "Hand mixer"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "A blender uses spinning blades to create smooth liquids from various ingredients, perfect for smoothies and soups.",
+    "detailedExplanation": "A blender is a kitchen appliance specifically engineered to blend ingredients into smooth liquids through high-speed rotating blades at the bottom of a tall, narrow container. The vortex created by the blade design pulls ingredients downward, ensuring thorough blending. Blenders excel at making smoothies, soups, sauces, and purees, with their tall pitcher design and powerful motors capable of crushing ice and breaking down tough ingredients into completely smooth consistencies.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Blender",
+    "citationTitle": "Wikipedia: Blender"
+  },
+  {
+    "id": "63c4e1af-7695-48b6-8cfb-85a0a1764590",
+    "text": "What is the cooking technique called when you cook food gently in simmering liquid?",
+    "options": [
+      "Poaching",
+      "Grilling",
+      "Broiling",
+      "Searing"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Poaching involves cooking food gently in barely simmering liquid, typically water, wine, or broth.",
+    "detailedExplanation": "Poaching is a gentle, moist-heat cooking method where food is cooked in barely simmering liquid at temperatures between 160-180°F (71-82°C). The liquid should show only occasional bubbles breaking the surface, never a rolling boil. This technique is ideal for delicate foods like eggs, fish, chicken, and fruits, as the low temperature prevents the food from becoming tough or breaking apart while cooking it evenly and thoroughly.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Poaching_(cooking)",
+    "citationTitle": "Wikipedia: Poaching (cooking)"
+  },
+  {
+    "id": "823a0335-0368-47cf-87ea-6db68d3c2cc6",
+    "text": "What temperature is considered the 'danger zone' for food safety where bacteria multiply rapidly?",
+    "options": [
+      "40-140°F (4-60°C)",
+      "32-100°F (0-38°C)",
+      "60-180°F (16-82°C)",
+      "100-200°F (38-93°C)"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "The danger zone is 40-140°F (4-60°C) where harmful bacteria can double in number every 20 minutes.",
+    "detailedExplanation": "Food safety experts define the danger zone as the temperature range between 40°F and 140°F (4°C to 60°C) where pathogenic bacteria can multiply rapidly. In this temperature range, bacteria can double in number every 20 minutes, making food unsafe to eat. This is why perishable foods should be kept refrigerated below 40°F or heated above 140°F, and shouldn't be left at room temperature for more than 2 hours.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Food_safety",
+    "citationTitle": "Wikipedia: Food Safety"
+  },
+  {
+    "id": "f1ab7102-249f-43b1-bb56-62941e9e2241",
+    "text": "What is the correct internal temperature for safely cooked chicken?",
+    "options": [
+      "165°F (74°C)",
+      "145°F (63°C)",
+      "155°F (68°C)",
+      "180°F (82°C)"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Chicken must reach an internal temperature of 165°F (74°C) to kill harmful bacteria like salmonella.",
+    "detailedExplanation": "The USDA recommends cooking all poultry, including chicken, to a minimum internal temperature of 165°F (74°C) as measured with a food thermometer. This temperature ensures that harmful bacteria such as salmonella and campylobacter are destroyed. The temperature should be checked in the thickest part of the meat, avoiding bones, as they can give false readings. This applies to whole chickens, chicken pieces, ground chicken, and stuffing cooked inside poultry.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Poultry",
+    "citationTitle": "Wikipedia: Poultry"
+  },
+  {
+    "id": "701d725f-cea7-4cea-8a10-edeb9ac55399",
+    "text": "Which spice is derived from the bark of a tree and is commonly used in both sweet and savory dishes?",
+    "options": [
+      "Cinnamon",
+      "Paprika",
+      "Cumin",
+      "Oregano"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Cinnamon comes from the inner bark of trees in the Cinnamomum family and is popular in desserts and savory dishes.",
+    "detailedExplanation": "Cinnamon is a spice obtained from the inner bark of several tree species from the genus Cinnamomum. The bark is peeled, dried, and naturally curls into quills. It has been prized since ancient times for its distinctive sweet and warm flavor. Cinnamon is versatile enough to be used in sweet applications like cookies, cakes, and hot beverages, as well as savory dishes such as Middle Eastern stews, Indian curries, and Mexican moles.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Cinnamon",
+    "citationTitle": "Wikipedia: Cinnamon"
+  },
+  {
+    "id": "e389d8a9-e4db-45b5-924f-a6d2357592bd",
+    "text": "What does 'al dente' mean when cooking pasta?",
+    "options": [
+      "Firm to the bite",
+      "Completely soft",
+      "Slightly undercooked",
+      "With sauce"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Al dente is Italian for 'to the tooth' and describes pasta that is cooked until firm but not hard when bitten.",
+    "detailedExplanation": "Al dente is an Italian term literally meaning 'to the tooth' and refers to the ideal texture for cooked pasta. When pasta is al dente, it offers slight resistance when bitten but is not hard or crunchy. This texture is achieved by cooking pasta until it's tender but still has a slight firmness in the center. Properly cooked al dente pasta not only tastes better but also has a better mouthfeel and holds sauces more effectively than overcooked, mushy pasta.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Al_dente",
+    "citationTitle": "Wikipedia: Al Dente"
+  }
+]

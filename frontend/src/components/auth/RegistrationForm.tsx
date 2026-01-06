@@ -30,6 +30,8 @@ export function RegistrationForm({
     reset: resetScreenNameCheck,
   } = useScreenNameCheck();
 
+  const [firstName, setFirstName] = useState("");
+  const [lastName, setLastName] = useState("");
   const [email, setEmail] = useState("");
   const [screenName, setScreenName] = useState("");
   const [password, setPassword] = useState("");
@@ -48,7 +50,15 @@ export function RegistrationForm({
   }, [screenName, checkName]);
 
   const handleRegister = async () => {
-    if (!email || !screenName || !password || !confirmPassword) return;
+    if (
+      !firstName ||
+      !lastName ||
+      !email ||
+      !screenName ||
+      !password ||
+      !confirmPassword
+    )
+      return;
 
     if (screenName.length < MIN_SCREEN_NAME_LENGTH) {
       setError("Screen name must be at least 3 characters");
@@ -75,7 +85,13 @@ export function RegistrationForm({
     setIsLoading(true);
 
     try {
-      const result = await signUp(email, password, screenName);
+      const result = await signUp(
+        email,
+        password,
+        screenName,
+        firstName,
+        lastName,
+      );
       if (!result.isSignUpComplete) {
         onConfirmRequired(email, password);
       } else {
@@ -146,6 +162,8 @@ export function RegistrationForm({
   };
 
   const isDisabled =
+    !firstName ||
+    !lastName ||
     !email ||
     !screenName ||
     !password ||
@@ -185,6 +203,35 @@ export function RegistrationForm({
   return (
     <div className="space-y-4">
       <GoogleSignInButton isDisabled={isLoading} onError={setError} />
+
+      <div className="grid grid-cols-2 gap-3">
+        <Input
+          label="First Name"
+          type="text"
+          value={firstName}
+          onChange={(e) => setFirstName(e.target.value)}
+          onKeyDown={handleKeyDown}
+          isDisabled={isLoading}
+          variant="bordered"
+          classNames={{
+            input: "text-white",
+            label: "text-gray-400",
+          }}
+        />
+        <Input
+          label="Last Name"
+          type="text"
+          value={lastName}
+          onChange={(e) => setLastName(e.target.value)}
+          onKeyDown={handleKeyDown}
+          isDisabled={isLoading}
+          variant="bordered"
+          classNames={{
+            input: "text-white",
+            label: "text-gray-400",
+          }}
+        />
+      </div>
 
       <Input
         label="Email address"

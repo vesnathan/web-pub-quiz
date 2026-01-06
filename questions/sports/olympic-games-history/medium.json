@@ -1,0 +1,342 @@
+[
+  {
+    "id": "1406bf29-3530-4480-bb56-619bd1e2672f",
+    "text": "Which city has the distinction of being the only one to host the Summer Olympics three times?",
+    "options": [
+      "Paris",
+      "London",
+      "Los Angeles",
+      "Athens"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "medium",
+    "explanation": "London hosted the Summer Olympics in 1908, 1948, and 2012.",
+    "detailedExplanation": "London holds the unique record of hosting the Summer Olympic Games three times. The city first hosted in 1908 when the Games were moved from Rome due to the eruption of Mount Vesuvius. London hosted again in 1948, just three years after World War II ended, in what became known as the 'Austerity Games.' Most recently, London hosted the 2012 Olympics, making it the only city to achieve this triple hosting milestone.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Summer_Olympic_Games",
+    "citationTitle": "Wikipedia: Summer Olympic Games"
+  },
+  {
+    "id": "860d6809-e55e-4882-a0cf-59031b850971",
+    "text": "The 1936 Berlin Olympics are infamous for Hitler's presence, but which athlete's performance most famously contradicted Nazi racial ideology?",
+    "options": [
+      "Carl Lewis",
+      "Muhammad Ali",
+      "Jesse Owens",
+      "Joe Frazier"
+    ],
+    "correctIndex": 2,
+    "category": "sports",
+    "difficulty": "medium",
+    "explanation": "Jesse Owens won four gold medals at the 1936 Berlin Olympics, contradicting Nazi theories of racial superiority.",
+    "detailedExplanation": "Jesse Owens became a legend at the 1936 Berlin Olympics by winning four gold medals in track and field events (100m, 200m, long jump, and 4x100m relay). His victories directly contradicted Adolf Hitler's propaganda about Aryan racial superiority, as Owens, an African American athlete, dominated the Games. Hitler had intended to use the Olympics to showcase Nazi ideology, but Owens' remarkable performance instead became a powerful symbol against racism and a defining moment in Olympic history.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Jesse_Owens",
+    "citationTitle": "Wikipedia: Jesse Owens"
+  },
+  {
+    "id": "97825fae-1037-4199-8889-4939ae619e94",
+    "text": "Which Olympics were the first to be broadcast live on television worldwide via satellite?",
+    "options": [
+      "1964 Tokyo",
+      "1968 Mexico City",
+      "1972 Munich",
+      "1976 Montreal"
+    ],
+    "correctIndex": 0,
+    "category": "sports",
+    "difficulty": "medium",
+    "explanation": "The 1964 Tokyo Olympics were the first to be broadcast live worldwide via satellite television.",
+    "detailedExplanation": "The 1964 Tokyo Olympics marked a revolutionary moment in sports broadcasting as they became the first Olympic Games to be transmitted live worldwide via satellite. This technological breakthrough allowed viewers across the globe to watch Olympic events as they happened, rather than relying on delayed broadcasts or film footage. The satellite transmission capability transformed the Olympics into a truly global television event and significantly increased the Games' international reach and cultural impact.",
+    "citationUrl": "https://en.wikipedia.org/wiki/1964_Summer_Olympics",
+    "citationTitle": "Wikipedia: 1964 Summer Olympics"
+  },
+  {
+    "id": "af60a534-b5dd-480f-a72d-00460f4e4f8a",
+    "text": "The Olympic flame tradition began in the modern Olympics at which Games?",
+    "options": [
+      "1924 Paris",
+      "1928 Amsterdam",
+      "1932 Los Angeles",
+      "1936 Berlin"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "medium",
+    "explanation": "The Olympic flame was first lit at the 1928 Amsterdam Olympics, though the torch relay began later in 1936.",
+    "detailedExplanation": "The Olympic flame tradition began at the 1928 Amsterdam Olympics, where a flame was lit and burned throughout the Games in a tower at the stadium. However, this is often confused with the torch relay, which didn't begin until the 1936 Berlin Olympics. The flame itself was inspired by the ancient Olympic Games in Greece, where a sacred fire burned continuously during the competition. The 1928 Amsterdam Games established this as a permanent Olympic tradition that continues today.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Olympic_flame",
+    "citationTitle": "Wikipedia: Olympic flame"
+  },
+  {
+    "id": "8957e2cd-866a-4d61-a949-9d663e01c5d7",
+    "text": "Which was the first Olympics to feature athletes from all six inhabited continents?",
+    "options": [
+      "1912 Stockholm",
+      "1920 Antwerp",
+      "1924 Paris",
+      "1928 Amsterdam"
+    ],
+    "correctIndex": 0,
+    "category": "sports",
+    "difficulty": "medium",
+    "explanation": "The 1912 Stockholm Olympics featured athletes from all inhabited continents for the first time.",
+    "detailedExplanation": "The 1912 Stockholm Olympics were groundbreaking as they became the first Olympic Games to feature athletes from all six inhabited continents. This included participants from 28 countries, with Japan representing Asia, South Africa representing Africa, and various countries representing the other continents. The Games marked a significant step toward the Olympics' goal of global participation and international unity through sport, setting a precedent for the worldwide scope that characterizes the modern Olympic movement.",
+    "citationUrl": "https://en.wikipedia.org/wiki/1912_Summer_Olympics",
+    "citationTitle": "Wikipedia: 1912 Summer Olympics"
+  },
+  {
+    "id": "1729577a-fd17-4920-a40e-3d70a854054c",
+    "text": "The first Winter Olympics were held in 1924, but in which country?",
+    "options": [
+      "Switzerland",
+      "France",
+      "Norway",
+      "Austria"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "medium",
+    "explanation": "The first Winter Olympics were held in Chamonix, France in 1924.",
+    "detailedExplanation": "The first Winter Olympic Games took place in Chamonix, France from January 25 to February 5, 1924. Originally called 'International Winter Sports Week,' the event was retroactively designated as the first Winter Olympics. The Games featured 258 athletes from 16 countries competing in six sports. Chamonix was chosen partly due to its excellent winter sports facilities and its location in the French Alps, which provided ideal conditions for the various winter disciplines that would become Olympic traditions.",
+    "citationUrl": "https://en.wikipedia.org/wiki/1924_Winter_Olympics",
+    "citationTitle": "Wikipedia: 1924 Winter Olympics"
+  },
+  {
+    "id": "6ce5e013-2504-4567-893d-6010f1926583",
+    "text": "Which Olympic Games were the first to feature a mascot?",
+    "options": [
+      "1968 Mexico City",
+      "1972 Munich",
+      "1976 Montreal",
+      "1980 Moscow"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "medium",
+    "explanation": "The 1972 Munich Olympics introduced Waldi the dachshund, the first official Olympic mascot.",
+    "detailedExplanation": "The 1972 Munich Olympics introduced the concept of an official Olympic mascot with 'Waldi,' a colorful dachshund designed in blue, yellow, and green. Waldi was chosen to represent the friendly, welcoming spirit of the Games and was designed to embody attributes that Olympic athletes should have: resistance, tenacity, and agility. The dachshund was selected as a dog breed popular in Bavaria. This innovation proved so successful that Olympic mascots became a beloved tradition, with every subsequent Olympics featuring its own unique mascot design.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Olympic_mascot",
+    "citationTitle": "Wikipedia: Olympic mascot"
+  },
+  {
+    "id": "e10097dc-9110-441a-b51d-ab6090b5e094",
+    "text": "The Olympics were cancelled three times in history due to world wars. Which years were affected?",
+    "options": [
+      "1916, 1940, 1944",
+      "1914, 1940, 1944",
+      "1916, 1938, 1942",
+      "1918, 1940, 1944"
+    ],
+    "correctIndex": 0,
+    "category": "sports",
+    "difficulty": "medium",
+    "explanation": "The Olympics were cancelled in 1916 (WWI), 1940, and 1944 (WWII).",
+    "detailedExplanation": "The Olympic Games have been cancelled only three times in their modern history, all due to world wars. The 1916 Berlin Olympics were cancelled due to World War I, while both the 1940 Olympics (originally scheduled for Tokyo, then Helsinki) and the 1944 Olympics (scheduled for London) were cancelled due to World War II. These cancellations represent the only times in Olympic history that the Games were completely called off, highlighting how global conflicts can interrupt even the most enduring international traditions. The Olympics resumed in 1948 in London.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Cancelled_Olympic_Games",
+    "citationTitle": "Wikipedia: Cancelled Olympic Games"
+  },
+  {
+    "id": "8c1bae6f-036d-4adf-a2f4-cbe3e62fde82",
+    "text": "Which Olympic sport was removed from the Games after 1924 due to its violent nature and frequent injuries?",
+    "options": [
+      "Tug of War",
+      "Lacrosse",
+      "Polo",
+      "Water Motor Racing"
+    ],
+    "correctIndex": 0,
+    "category": "sports",
+    "difficulty": "medium",
+    "explanation": "Tug of War was an Olympic sport from 1900-1920, removed due to injuries and disputes.",
+    "detailedExplanation": "Tug of War was contested as an official Olympic sport from 1900 to 1920, with teams of eight men pulling against each other. The sport was removed from the Olympic program after frequent injuries to participants and numerous disputes over team composition, including controversies about whether police officers and military personnel should be allowed to compete due to their physical advantages.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Tug_of_war_at_the_Summer_Olympics",
+    "citationTitle": "Wikipedia: Tug of war at the Summer Olympics"
+  },
+  {
+    "id": "7fc54d39-6fd7-4a53-b865-d4aa845d5491",
+    "text": "In which year did women first participate in Olympic track and field events?",
+    "options": [
+      "1924",
+      "1928",
+      "1932",
+      "1936"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "medium",
+    "explanation": "Women first competed in Olympic track and field at the 1928 Amsterdam Olympics.",
+    "detailedExplanation": "The 1928 Amsterdam Olympics marked a historic milestone as the first Games to include women's track and field events. Five events were contested: 100m, 800m, 4×100m relay, high jump, and discus throw. The inclusion came after years of lobbying by women's sports organizations, though the controversial 800m race was subsequently dropped until 1960 due to concerns about women's physical capabilities.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Women_at_the_Olympics",
+    "citationTitle": "Wikipedia: Women at the Olympics"
+  },
+  {
+    "id": "5d7669f1-d418-4e33-ba24-9ca0035d9e81",
+    "text": "The modern Olympic Games were revived in 1896, but how many countries participated in these first modern Olympics?",
+    "options": [
+      "10",
+      "14",
+      "18",
+      "22"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "medium",
+    "explanation": "14 countries participated in the first modern Olympics in Athens, 1896.",
+    "detailedExplanation": "The first modern Olympic Games in Athens, 1896, featured athletes from 14 nations: Australia, Austria, Bulgaria, Chile, Denmark, France, Germany, Great Britain, Greece, Hungary, Italy, Sweden, Switzerland, and the United States. A total of 241 athletes (all male) competed in 43 events across 9 sports, marking the successful revival of the ancient Olympic tradition under Pierre de Coubertin's leadership.",
+    "citationUrl": "https://en.wikipedia.org/wiki/1896_Summer_Olympics",
+    "citationTitle": "Wikipedia: 1896 Summer Olympics"
+  },
+  {
+    "id": "78ba6b94-0374-4def-a203-2a1e1457c3c0",
+    "text": "Which unusual event was part of the early modern Olympics where competitors had to climb a rope?",
+    "options": [
+      "Rope Climbing",
+      "Naval Pentathlon",
+      "Standing High Jump",
+      "56-pound Weight Throw"
+    ],
+    "correctIndex": 0,
+    "category": "sports",
+    "difficulty": "medium",
+    "explanation": "Rope Climbing was an Olympic event from 1896-1932, judged on speed and technique.",
+    "detailedExplanation": "Rope Climbing was a legitimate Olympic event contested from 1896 to 1932, where athletes climbed a vertical rope using only their hands and arms (legs could not touch the rope). The event was judged on both speed and style, with ropes typically measuring 14 meters (46 feet) in height. American gymnasts dominated the event, and it was eventually removed as gymnastics evolved toward more artistic and apparatus-based competitions.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Rope_climbing",
+    "citationTitle": "Wikipedia: Rope climbing"
+  },
+  {
+    "id": "ed63bf43-025e-4998-81b7-e5e3222c0d2b",
+    "text": "The 1904 Olympics in St. Louis featured one of the strangest marathon races in Olympic history. What made it so bizarre?",
+    "options": [
+      "It was run backwards",
+      "Runners faced extreme heat and dust with limited water stations",
+      "It took place at midnight",
+      "Competitors had to carry weights"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "medium",
+    "explanation": "The 1904 marathon was run in extreme heat with only two water stations along the dusty course.",
+    "detailedExplanation": "The 1904 St. Louis Olympic marathon is considered one of the most chaotic races in Olympic history. Run in 90°F heat over dusty roads with only two water stations, the race saw competitors collapsing from dehydration and heat exhaustion. The eventual winner, Thomas Hicks, was given brandy and strychnine as stimulants during the race. Another runner, Felix Carvajal, stopped to chat with spectators and eat green apples, yet still finished fourth.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Athletics_at_the_1904_Summer_Olympics_%E2%80%93_men%27s_marathon",
+    "citationTitle": "Wikipedia: Athletics at the 1904 Summer Olympics – men's marathon"
+  },
+  {
+    "id": "cdbc3cc2-79a3-4233-9475-54cf291e6b13",
+    "text": "Which Olympic Games introduced the now-traditional Olympic Village concept where athletes live together?",
+    "options": [
+      "1924 Paris",
+      "1928 Amsterdam",
+      "1932 Los Angeles",
+      "1936 Berlin"
+    ],
+    "correctIndex": 2,
+    "category": "sports",
+    "difficulty": "medium",
+    "explanation": "The 1932 Los Angeles Olympics introduced the first purpose-built Olympic Village.",
+    "detailedExplanation": "The 1932 Los Angeles Olympics pioneered the Olympic Village concept by constructing a dedicated residential complex for male athletes in Baldwin Hills. The village featured 550 portable buildings and was designed as a self-contained community with dining facilities, recreational areas, and even a hospital. Female athletes stayed in a luxury hotel downtown. This innovation became a standard feature of future Olympic Games, promoting international friendship and cultural exchange among athletes.",
+    "citationUrl": "https://en.wikipedia.org/wiki/1932_Summer_Olympics",
+    "citationTitle": "Wikipedia: 1932 Summer Olympics"
+  },
+  {
+    "id": "2f49c1fe-bb63-4ca8-8498-712dd5449857",
+    "text": "What was unique about the medals awarded at the first modern Olympics in 1896?",
+    "options": [
+      "They were made entirely of gold",
+      "Winners received silver medals, not gold",
+      "They were wooden with metal inlays",
+      "Each medal contained a piece of marble from the Parthenon"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "medium",
+    "explanation": "In 1896, first place winners received silver medals and an olive branch, second place got bronze.",
+    "detailedExplanation": "The 1896 Athens Olympics did not award gold medals to winners. Instead, first-place finishers received silver medals, olive branches, and diplomas, while second-place athletes received bronze medals and laurel branches. Third-place finishers received nothing. The tradition of gold, silver, and bronze medals for first, second, and third place respectively was not established until the 1904 St. Louis Olympics, and has remained the standard ever since.",
+    "citationUrl": "https://en.wikipedia.org/wiki/1896_Summer_Olympics",
+    "citationTitle": "Wikipedia: 1896 Summer Olympics"
+  },
+  {
+    "id": "f4641cdc-145c-4267-be95-30cbf7e9846a",
+    "text": "The Olympic oath, where an athlete pledges to compete fairly, was first introduced at which Olympics?",
+    "options": [
+      "1912 Stockholm",
+      "1920 Antwerp",
+      "1924 Paris",
+      "1928 Amsterdam"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "medium",
+    "explanation": "The Olympic oath was first taken at the 1920 Antwerp Olympics by Belgian athlete Victor Boin.",
+    "detailedExplanation": "The Olympic oath tradition began at the 1920 Antwerp Olympics, where Belgian water polo player and fencer Victor Boin became the first athlete to recite the pledge on behalf of all competitors. The oath was introduced by Pierre de Coubertin to emphasize the Olympic ideals of fair play and sportsmanship. The original oath was much shorter than today's version and has been modified several times, with separate oaths later added for judges and coaches.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Olympic_oath",
+    "citationTitle": "Wikipedia: Olympic oath"
+  },
+  {
+    "id": "81a60de4-1e8b-4917-8509-7ff2685b38c1",
+    "text": "Which Olympic Games were the first to be held in the Southern Hemisphere?",
+    "options": [
+      "1956 Melbourne Olympics",
+      "1988 Seoul Olympics",
+      "2000 Sydney Olympics",
+      "2016 Rio de Janeiro Olympics"
+    ],
+    "correctIndex": 0,
+    "category": "sports",
+    "difficulty": "medium",
+    "explanation": "The 1956 Melbourne Olympics were the first Olympic Games held in the Southern Hemisphere.",
+    "detailedExplanation": "The 1956 Summer Olympics in Melbourne, Australia, marked a historic milestone as the first Olympic Games to be held in the Southern Hemisphere. This created unique challenges, including the fact that the Games were held during the Australian summer (November-December) rather than the traditional Northern Hemisphere summer months. Due to Australia's strict quarantine laws, the equestrian events had to be held separately in Stockholm, Sweden, five months earlier, making it the only Olympics to be held in two different countries.",
+    "citationUrl": "https://en.wikipedia.org/wiki/1956_Summer_Olympics",
+    "citationTitle": "Wikipedia: 1956 Summer Olympics"
+  },
+  {
+    "id": "57648ae1-c1b3-49a8-8e24-77429d956216",
+    "text": "The Olympic motto 'Citius, Altius, Fortius' (Faster, Higher, Stronger) was proposed by whom?",
+    "options": [
+      "Pierre de Coubertin",
+      "Baron Henri de Baillet-Latour",
+      "Father Henri Didon",
+      "Demetrius Vikelas"
+    ],
+    "correctIndex": 2,
+    "category": "sports",
+    "difficulty": "medium",
+    "explanation": "Father Henri Didon, a French Dominican priest, proposed the Olympic motto 'Citius, Altius, Fortius'.",
+    "detailedExplanation": "The Olympic motto 'Citius, Altius, Fortius' (Latin for 'Faster, Higher, Stronger') was actually proposed by Father Henri Didon, a French Dominican priest and educator, around 1891. Pierre de Coubertin, founder of the modern Olympic Games, was inspired by this motto and adopted it for the Olympics. Didon had used this phrase to encourage his students at Arcueil College. The motto was first used officially at the 1924 Paris Olympics and remains the Olympic motto today, though 'Together' was added in 2021 to make it 'Faster, Higher, Stronger - Together'.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Olympic_symbols",
+    "citationTitle": "Wikipedia: Olympic symbols"
+  },
+  {
+    "id": "548cd5dd-0edf-4d8e-8e57-89bf7eaf46cd",
+    "text": "Which sport returned to the Olympics in 2016 after being absent since 1924?",
+    "options": [
+      "Rugby",
+      "Golf",
+      "Lacrosse",
+      "Polo"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "medium",
+    "explanation": "Golf returned to the Olympics in 2016 Rio de Janeiro after a 112-year absence since the 1904 St. Louis Olympics.",
+    "detailedExplanation": "Golf made its return to the Olympic Games at the 2016 Rio de Janeiro Olympics after being absent since 1904. While golf was featured in the early modern Olympics (1900 and 1904), it was then dropped from the program for over a century. The sport's return was part of the IOC's efforts to attract younger audiences and global television viewers. Both men's and women's golf tournaments were held at the Olympic Golf Course in Rio, with Justin Rose of Great Britain and Inès Larroque of France winning the inaugural modern Olympic golf medals.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Golf_at_the_Summer_Olympics",
+    "citationTitle": "Wikipedia: Golf at the Summer Olympics"
+  },
+  {
+    "id": "e9113a5f-39ed-4f56-9827-20b983baf46a",
+    "text": "What was the longest gap between hosting Summer Olympics for any city that has hosted more than once?",
+    "options": [
+      "64 years (Paris 1900-1924)",
+      "76 years (London 1908-1984)",
+      "84 years (Paris 1900-1984)",
+      "100 years (Paris 1924-2024)"
+    ],
+    "correctIndex": 3,
+    "category": "sports",
+    "difficulty": "medium",
+    "explanation": "Paris had a 100-year gap between hosting the 1924 and 2024 Summer Olympics.",
+    "detailedExplanation": "Paris holds the record for the longest gap between hosting Summer Olympics for any city that has hosted more than once. After hosting the 1924 Summer Olympics, Paris waited exactly 100 years before hosting again in 2024. This century-long gap is remarkable in Olympic history. Paris previously hosted the Olympics in 1900 and 1924, making the 2024 Games its third time hosting the Summer Olympics. The city's patient wait and successful bid for 2024 created a perfect centennial celebration of its previous hosting experience.",
+    "citationUrl": "https://en.wikipedia.org/wiki/2024_Summer_Olympics",
+    "citationTitle": "Wikipedia: 2024 Summer Olympics"
+  }
+]

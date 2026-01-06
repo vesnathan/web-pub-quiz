@@ -313,6 +313,28 @@ async function handleSubscriptionUpdated(event: PayPalSubscriptionEvent): Promis
   console.log(`PayPal subscription updated for user ${userId}: tier=${tier}, status=${status}`);
 }
 
+/**
+ * Extract email from PayPal event payload
+ */
+function extractEmailFromPayPalEvent(event: Record<string, unknown>): string | undefined {
+  const resource = event.resource as Record<string, unknown> | undefined;
+  if (!resource) return undefined;
+
+  // Subscription events: subscriber.email_address
+  const subscriber = resource.subscriber as { email_address?: string } | undefined;
+  if (subscriber?.email_address) {
+    return subscriber.email_address;
+  }
+
+  // Order/payment events: payer.email_address
+  const payer = resource.payer as { email_address?: string } | undefined;
+  if (payer?.email_address) {
+    return payer.email_address;
+  }
+
+  return undefined;
+}
+
 async function logWebhookEvent(
   eventId: string,
   eventType: string,
@@ -322,6 +344,9 @@ async function logWebhookEvent(
 ): Promise<void> {
   const now = new Date();
   const timestamp = now.toISOString();
+
+  // Extract email from the payload
+  const email = extractEmailFromPayPalEvent(payload);
 
   try {
     await docClient.send(
@@ -338,6 +363,7 @@ async function logWebhookEvent(
           payload: JSON.stringify(payload),
           status,
           errorMessage,
+          email,
           createdAt: timestamp,
           // TTL: 30 days from now
           ttl: Math.floor(now.getTime() / 1000) + 30 * 24 * 60 * 60,

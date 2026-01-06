@@ -4,10 +4,10 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "deploy:dev": "npx tsx deploy.ts --stage dev",
-    "deploy:prod": "npx tsx deploy.ts --stage prod",
-    "deploy:fe": "npx tsx deploy.ts --stage dev --frontend-only",
-    "seed": "npx tsx utils/seed-db.ts"
+    "deploy:dev": "tsx deploy.ts --stage dev",
+    "deploy:prod": "tsx deploy.ts --stage prod",
+    "deploy:fe": "tsx deploy.ts --stage dev --frontend-only",
+    "seed": "tsx utils/seed-db.ts"
   },
   "dependencies": {
     "@aws-sdk/client-acm": "^3.669.0",

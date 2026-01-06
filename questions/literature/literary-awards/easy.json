@@ -1,0 +1,342 @@
+[
+  {
+    "id": "fc1af37e-aaad-4c06-94b8-0583c9720297",
+    "text": "Which prestigious literary prize is awarded annually for the best original novel written in English and published in the UK or Ireland?",
+    "options": [
+      "The Booker Prize",
+      "The Pulitzer Prize",
+      "The Hugo Award",
+      "The National Book Award"
+    ],
+    "correctIndex": 0,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "The Booker Prize is awarded annually for the best English-language novel published in the UK or Ireland.",
+    "detailedExplanation": "The Booker Prize, originally known as the Booker Prize for Fiction and later the Man Booker Prize, is one of the most prestigious literary awards in the English-speaking world. Established in 1969, it recognizes the best original novel written in English and published in the UK or Ireland. The prize has been won by many renowned authors including Margaret Atwood, Salman Rushdie, and Kazuo Ishiguro.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Booker_Prize",
+    "citationTitle": "Wikipedia: Booker Prize"
+  },
+  {
+    "id": "2deafadd-9657-4476-b47a-fb06c20732ed",
+    "text": "The Nobel Prize in Literature is awarded by which Scandinavian country?",
+    "options": [
+      "Norway",
+      "Denmark",
+      "Sweden",
+      "Finland"
+    ],
+    "correctIndex": 2,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "The Nobel Prize in Literature is awarded by the Swedish Academy in Stockholm, Sweden.",
+    "detailedExplanation": "The Nobel Prize in Literature has been awarded annually since 1901 by the Swedish Academy in Stockholm, Sweden. It recognizes outstanding contributions to the field of literature and is considered one of the most prestigious literary honors in the world. The prize includes a medal, diploma, and monetary award, and has been given to authors writing in dozens of different languages.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Nobel_Prize_in_Literature",
+    "citationTitle": "Wikipedia: Nobel Prize in Literature"
+  },
+  {
+    "id": "1b6021c8-f2fb-42c2-997a-aaca9f8bb908",
+    "text": "Which American literary award is considered the most prestigious for journalism, literature, and musical composition?",
+    "options": [
+      "The National Book Award",
+      "The Pulitzer Prize",
+      "The PEN/Faulkner Award",
+      "The Edgar Award"
+    ],
+    "correctIndex": 1,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "The Pulitzer Prize is the most prestigious American award recognizing excellence in journalism, literature, and musical composition.",
+    "detailedExplanation": "Established in 1917 through provisions in the will of newspaper publisher Joseph Pulitzer, the Pulitzer Prize has become synonymous with excellence in American journalism and arts. The literature categories include Fiction, Drama, History, Biography, Poetry, and General Nonfiction. Winners receive $15,000 and a certificate, with the Fiction winner also receiving a special citation.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Pulitzer_Prize",
+    "citationTitle": "Wikipedia: Pulitzer Prize"
+  },
+  {
+    "id": "cfc5be4d-1ebc-4092-88c2-d3900574e92e",
+    "text": "The Hugo Awards primarily recognize excellence in which literary genre?",
+    "options": [
+      "Romance",
+      "Science Fiction and Fantasy",
+      "Mystery",
+      "Historical Fiction"
+    ],
+    "correctIndex": 1,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "The Hugo Awards are given annually for the best science fiction and fantasy works and achievements.",
+    "detailedExplanation": "Named after Hugo Gernsback, the founder of Amazing Stories magazine, the Hugo Awards have been presented annually since 1953 at the World Science Fiction Convention. They recognize the best science fiction and fantasy works published in the previous year, including categories for novels, short stories, graphic stories, and related works. The awards are voted on by members of the World Science Fiction Society.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Hugo_Award",
+    "citationTitle": "Wikipedia: Hugo Award"
+  },
+  {
+    "id": "3f9e9da4-a15d-4e2c-b628-5131727d700b",
+    "text": "Which literary prize is specifically awarded to the best debut novel by a British, Irish, or Commonwealth author?",
+    "options": [
+      "The Orange Prize",
+      "The Costa Book Award",
+      "The Betty Trask Prize",
+      "The Whitbread Award"
+    ],
+    "correctIndex": 2,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "The Betty Trask Prize is awarded annually to the best first novel by an author under 35 from the UK, Ireland, or Commonwealth.",
+    "detailedExplanation": "Established in 1984, the Betty Trask Prize was created through a bequest by Betty Trask, who specified that the award should go to the best first novel by an author under the age of 35, written in English by a citizen of the UK, Ireland, or a Commonwealth country. The prize emphasizes traditional or romantic novels rather than experimental fiction, and winners must use the prize money for foreign travel.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Betty_Trask_Prize",
+    "citationTitle": "Wikipedia: Betty Trask Prize"
+  },
+  {
+    "id": "edeaa57a-3b3e-4d21-8cf0-2ca0c2d1543d",
+    "text": "The Edgar Awards, named after Edgar Allan Poe, recognize excellence in which literary genre?",
+    "options": [
+      "Horror",
+      "Mystery and Crime",
+      "Poetry",
+      "Gothic Fiction"
+    ],
+    "correctIndex": 1,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "The Edgar Awards honor the best mystery and crime writing published each year.",
+    "detailedExplanation": "Presented annually by the Mystery Writers of America since 1946, the Edgar Awards are named after Edgar Allan Poe, who is often credited with creating the detective fiction genre. The awards recognize outstanding achievement in mystery writing across various categories including Best Novel, Best First Novel, Best Short Story, and Best True Crime. The award itself is a ceramic bust of Edgar Allan Poe.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Edgar_Award",
+    "citationTitle": "Wikipedia: Edgar Award"
+  },
+  {
+    "id": "9f97fb94-b297-4c0f-b743-8a4b67f94eee",
+    "text": "Which literary award was formerly known as the Orange Prize for Fiction?",
+    "options": [
+      "The Bailey's Women's Prize for Fiction",
+      "The Costa Book Award",
+      "The Guardian First Book Award",
+      "The Commonwealth Writers' Prize"
+    ],
+    "correctIndex": 0,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "The Bailey's Women's Prize for Fiction was previously called the Orange Prize for Fiction until 2012.",
+    "detailedExplanation": "Founded in 1996 as the Orange Prize for Fiction, this award celebrates fiction written by women in English worldwide. It was renamed the Bailey's Women's Prize for Fiction in 2014 after a change in sponsorship, and later became simply the Women's Prize for Fiction. The prize was created to address the underrepresentation of female authors in major literary awards and has recognized works by authors such as Zadie Smith, Lionel Shriver, and Chimamanda Ngozi Adichie.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Women%27s_Prize_for_Fiction",
+    "citationTitle": "Wikipedia: Women's Prize for Fiction"
+  },
+  {
+    "id": "2bf1b2e2-4868-4f8e-86ec-4e0f080fc57a",
+    "text": "The Newbery Medal is awarded annually for excellence in which type of literature?",
+    "options": [
+      "Young Adult Fiction",
+      "Children's Literature",
+      "Poetry",
+      "Short Stories"
+    ],
+    "correctIndex": 1,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "The Newbery Medal recognizes the most distinguished contribution to American children's literature published in the previous year.",
+    "detailedExplanation": "Named after 18th-century British bookseller John Newbery, the Newbery Medal has been awarded annually since 1922 by the American Library Association. It honors the author of the most distinguished contribution to American literature for children published in the United States during the preceding year. Notable winners include books like 'Where the Red Fern Grows,' 'Bridge to Terabithia,' and 'The Giver.'",
+    "citationUrl": "https://en.wikipedia.org/wiki/Newbery_Medal",
+    "citationTitle": "Wikipedia: Newbery Medal"
+  },
+  {
+    "id": "7d57845d-1f4a-4008-bd7e-d7f7c9bab914",
+    "text": "Which literary award is given annually to the best science fiction or fantasy novel of the year and is voted on by members of the World Science Fiction Society?",
+    "options": [
+      "The Nebula Award",
+      "The Hugo Award",
+      "The Arthur C. Clarke Award",
+      "The Philip K. Dick Award"
+    ],
+    "correctIndex": 1,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "The Hugo Award is voted on by members of the World Science Fiction Society at the annual World Science Fiction Convention.",
+    "detailedExplanation": "The Hugo Award for Best Novel is one of the most prestigious awards in science fiction and fantasy literature. Unlike other awards that are chosen by panels of judges or professional writers, the Hugo Awards are democratically voted on by members of the World Science Fiction Society, making them unique in representing the preferences of the broader science fiction community.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Hugo_Award",
+    "citationTitle": "Wikipedia: Hugo Award"
+  },
+  {
+    "id": "8fbee9d9-a227-49d4-a444-0d57773fcaf7",
+    "text": "The Costa Book Awards, which recognize outstanding books by authors based in Britain and Ireland, were previously known by what name?",
+    "options": [
+      "The Guardian Book Awards",
+      "The Whitbread Book Awards",
+      "The Thames Literary Prize",
+      "The British Book Awards"
+    ],
+    "correctIndex": 1,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "The Costa Book Awards were called the Whitbread Book Awards from 1971 until 2005 when Costa Coffee took over sponsorship.",
+    "detailedExplanation": "The Whitbread Book Awards ran from 1971 to 2005, when the coffee company Costa took over sponsorship from Whitbread brewery and renamed them the Costa Book Awards. The awards recognize books in five categories: Novel, First Novel, Biography, Poetry, and Children's Book, with an overall Book of the Year chosen from these winners.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Costa_Book_Awards",
+    "citationTitle": "Wikipedia: Costa Book Awards"
+  },
+  {
+    "id": "adc764b3-0ec4-4782-befe-3a4f3f6a6aa0",
+    "text": "Which prestigious French literary prize, established in 1903, is awarded annually in November at the Drouant restaurant in Paris?",
+    "options": [
+      "Prix Femina",
+      "Prix Renaudot",
+      "Prix Goncourt",
+      "Prix Médicis"
+    ],
+    "correctIndex": 2,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "The Prix Goncourt is awarded each November at the Drouant restaurant in Paris, continuing a tradition that began in the early 20th century.",
+    "detailedExplanation": "The Prix Goncourt is France's most prestigious literary award, established in 1903 by the will of Edmond de Goncourt. The ten members of the Académie Goncourt meet monthly at the Drouant restaurant in Paris to discuss literature, and it's there in November each year that they announce the winner of the prize, which comes with a symbolic prize of just 10 euros but guarantees substantial book sales.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Prix_Goncourt",
+    "citationTitle": "Wikipedia: Prix Goncourt"
+  },
+  {
+    "id": "f45c045e-5397-4c9c-8784-28f293322885",
+    "text": "The Man Booker International Prize, awarded every two years, recognizes works in what category?",
+    "options": [
+      "Debut novels only",
+      "Fiction translated into English",
+      "Non-fiction biography",
+      "Poetry collections"
+    ],
+    "correctIndex": 1,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "The Man Booker International Prize specifically honors fiction translated into English, celebrating both the author and translator.",
+    "detailedExplanation": "The Man Booker International Prize was established in 2005 to complement the Man Booker Prize by recognizing fiction from around the world that has been translated into English. The prize is unique in that it honors both the author and the translator equally, splitting the £50,000 prize money between them. This award has helped bring international literature to English-speaking audiences and has elevated the profile of literary translation.",
+    "citationUrl": "https://en.wikipedia.org/wiki/International_Booker_Prize",
+    "citationTitle": "Wikipedia: International Booker Prize"
+  },
+  {
+    "id": "27834dc8-1772-43f6-9bda-6612f493a8f5",
+    "text": "Which annual award recognizes the best mystery novel written by an American author and is named after a famous mystery writer?",
+    "options": [
+      "The Agatha Award",
+      "The Anthony Award",
+      "The Macavity Award",
+      "The Hammett Prize"
+    ],
+    "correctIndex": 3,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "The Hammett Prize is named after Dashiell Hammett and is awarded annually by the International Association of Crime Writers for the best crime novel by a US or Canadian author.",
+    "detailedExplanation": "The Dashiell Hammett Prize is awarded annually by the North American Branch of the International Association of Crime Writers. Named after the legendary mystery writer Dashiell Hammett, author of 'The Maltese Falcon' and 'The Thin Man,' this award recognizes the most outstanding work of literary excellence in the field of crime writing by a U.S. or Canadian author.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Hammett_Prize",
+    "citationTitle": "Wikipedia: Hammett Prize"
+  },
+  {
+    "id": "9245a849-e5be-44a2-9a16-fdc0fd3f7456",
+    "text": "The Caldecott Medal, awarded annually by the American Library Association, recognizes excellence in what type of book?",
+    "options": [
+      "Young adult fiction",
+      "Picture books for children",
+      "Educational textbooks",
+      "Poetry collections"
+    ],
+    "correctIndex": 1,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "The Caldecott Medal honors the most distinguished American picture book for children published in the preceding year.",
+    "detailedExplanation": "Named after English illustrator Randolph Caldecott, the Caldecott Medal has been awarded annually since 1938 by the Association for Library Service to Children, a division of the American Library Association. It recognizes the artist who created the most distinguished picture book for children published in the United States during the preceding year, focusing specifically on the quality of the illustrations.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Caldecott_Medal",
+    "citationTitle": "Wikipedia: Caldecott Medal"
+  },
+  {
+    "id": "4fe4d5e5-f490-4a2f-b6ca-9ab22cb11961",
+    "text": "Which Commonwealth literary prize was established in 1987 and is awarded for the best first book of poetry or prose?",
+    "options": [
+      "The Commonwealth Writers' Prize",
+      "The David TK Wong Fellowship",
+      "The Commonwealth Short Story Prize",
+      "The Commonwealth Book Prize"
+    ],
+    "correctIndex": 0,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "The Commonwealth Writers' Prize was established in 1987 and included a Best First Book category for debut works of poetry or prose.",
+    "detailedExplanation": "The Commonwealth Writers' Prize was established in 1987 to encourage and reward the upsurge of new Commonwealth fiction and ensure that works of merit reach a wider audience outside their country of origin. The prize had several categories, including Best First Book, which recognized outstanding debut works of poetry or prose by Commonwealth authors. Though the main prize ended in 2013, it was succeeded by the Commonwealth Book Prize.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Commonwealth_Writers%27_Prize",
+    "citationTitle": "Wikipedia: Commonwealth Writers' Prize"
+  },
+  {
+    "id": "4ab8153d-2912-47c4-91aa-a456adfcc4bd",
+    "text": "The Lambda Literary Awards, established in 1989, specifically celebrate books in which category?",
+    "options": [
+      "Environmental literature",
+      "LGBTQ+ literature",
+      "Historical fiction",
+      "Travel writing"
+    ],
+    "correctIndex": 1,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "The Lambda Literary Awards, or 'Lammys,' honor the best in LGBTQ+ literature published each year.",
+    "detailedExplanation": "The Lambda Literary Awards were established in 1989 by the Lambda Literary Foundation to recognize and celebrate the best lesbian, gay, bisexual, and transgender literature published each year. Known colloquially as the 'Lammys,' these awards cover numerous categories including fiction, non-fiction, poetry, and various genre categories, all focused on works that explore LGBTQ+ themes or are written by LGBTQ+ authors.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Lambda_Literary_Award",
+    "citationTitle": "Wikipedia: Lambda Literary Award"
+  },
+  {
+    "id": "97014875-eed5-4a95-a427-c2778001ac59",
+    "text": "Which author holds the record for winning the Pulitzer Prize for Fiction three times?",
+    "options": [
+      "Toni Morrison",
+      "Booth Tarkington",
+      "William Faulkner",
+      "John Updike"
+    ],
+    "correctIndex": 2,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "William Faulkner won the Pulitzer Prize for Fiction three times, more than any other author.",
+    "detailedExplanation": "William Faulkner is the only author to have won the Pulitzer Prize for Fiction three times, receiving the award for 'A Fable' (1955), 'The Reivers' (1963), and posthumously. His distinctive Southern Gothic style and complex narratives exploring themes of decay, honor, and the American South made him one of the most celebrated American writers. Several other authors have won twice, including Booth Tarkington, William Styron, and John Updike, but Faulkner remains unique in his triple achievement.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Pulitzer_Prize_for_Fiction",
+    "citationTitle": "Wikipedia: Pulitzer Prize for Fiction"
+  },
+  {
+    "id": "520daa9c-4982-4c57-b5f6-a7b87ae5158d",
+    "text": "The Goncourt Prize, France's most prestigious literary award, has a unique tradition regarding the winner's payment. How much does the winner receive in prize money?",
+    "options": [
+      "€50,000",
+      "€10",
+      "€1,000",
+      "€100,000"
+    ],
+    "correctIndex": 1,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "The Goncourt Prize winner receives only €10, making it famous for its symbolic rather than monetary value.",
+    "detailedExplanation": "The Prix Goncourt, established in 1903, is one of France's most prestigious literary awards, but it comes with a famously modest monetary prize of just €10. This symbolic amount reflects the award's philosophy that the real value lies in the prestige and guaranteed book sales that follow winning. The small prize money is a deliberate tradition meant to emphasize that the honor and recognition are far more valuable than any monetary reward, and indeed, Goncourt winners typically see massive increases in book sales.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Prix_Goncourt",
+    "citationTitle": "Wikipedia: Prix Goncourt"
+  },
+  {
+    "id": "72f0b6e3-140c-4dbe-9713-25d2aafb6d09",
+    "text": "Which literary award is nicknamed 'the Booker for comics' and recognizes outstanding graphic novels?",
+    "options": [
+      "The Eisner Award",
+      "The Ignatz Award",
+      "The Costa Short Story Award",
+      "The Goldsmiths Prize"
+    ],
+    "correctIndex": 0,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "The Eisner Award is often called 'the Booker for comics' due to its prestige in recognizing excellence in graphic novels and comics.",
+    "detailedExplanation": "The Will Eisner Comic Industry Awards, commonly known as the Eisner Awards, are considered the most prestigious awards in the American comic book industry. Named after the pioneering comic book writer and artist Will Eisner, these awards have been presented annually since 1988 at the San Diego Comic-Con International. The awards recognize creative achievement in various categories of comic books and graphic novels, and winning an Eisner is considered the highest honor in the field, hence the comparison to the prestigious Booker Prize in literature.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Eisner_Award",
+    "citationTitle": "Wikipedia: Eisner Award"
+  },
+  {
+    "id": "807fdf81-bcf2-49a9-9f24-6dc015d2ff51",
+    "text": "The International Booker Prize specifically honors works that have been what?",
+    "options": [
+      "Written by debut authors",
+      "Translated into English",
+      "Published posthumously",
+      "Adapted for film"
+    ],
+    "correctIndex": 1,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "The International Booker Prize celebrates the finest translated fiction, honoring both author and translator equally.",
+    "detailedExplanation": "The International Booker Prize, formerly known as the Man Booker International Prize, is awarded annually for a single work of fiction translated into English and published in the UK or Ireland. Established to complement the main Booker Prize, it specifically celebrates the art of translation and brings international literature to English-speaking audiences. Uniquely, the £50,000 prize is split equally between the author and translator, recognizing that translation is a creative act deserving equal recognition. The award has helped bring attention to outstanding works from around the world that might otherwise remain unknown to English readers.",
+    "citationUrl": "https://en.wikipedia.org/wiki/International_Booker_Prize",
+    "citationTitle": "Wikipedia: International Booker Prize"
+  }
+]

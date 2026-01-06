@@ -1,71 +1,111 @@
-import { useEffect, useState, useCallback } from "react";
+import { useEffect, useState, useCallback, useRef } from "react";
 import Ably from "ably";
 import { ABLY_CHANNELS } from "@quiz/shared";
 import type { RoomListItem } from "@quiz/shared";
 import { useAuth } from "@/contexts/AuthContext";
+import { graphqlClient } from "@/lib/graphql";
+import { GET_ROOM_LIST } from "@/graphql/queries";
+
+const POLL_INTERVAL_MS = 10000; // Poll every 10 seconds
+
+// GraphQL response type
+interface GetRoomListResponse {
+  data?: {
+    getRoomList?: {
+      rooms: RoomListItem[];
+      lobbyPlayerCount: number;
+      maintenanceMode: boolean;
+      maintenanceMessage: string | null;
+      updatedAt: string;
+    };
+  };
+}
+
+interface GuestInfo {
+  guestId: string;
+  displayName: string;
+}
 
 interface UseLobbyChannelReturn {
   rooms: RoomListItem[];
   isConnected: boolean;
-  joinWindowOpen: boolean;
-  secondsUntilJoinOpen: number | null;
-  joinRoom: (roomId: string) => Promise<{
-    success: boolean;
-    roomId?: string;
-    roomName?: string;
-    error?: string;
-    secondsUntilOpen?: number;
-  }>;
-  autoJoin: () => Promise<{
-    success: boolean;
-    roomId?: string;
-    roomName?: string;
-    error?: string;
-    secondsUntilOpen?: number;
-  }>;
-  queueJoin: (
+  lobbyPlayerCount: number;
+  maintenanceMode: boolean;
+  maintenanceMessage: string | null;
+  setMaintenanceMode: (enabled: boolean, message?: string) => void;
+  joinRoom: (
     roomId: string,
-  ) => Promise<{ success: boolean; queuePosition?: number }>;
-  queueLeave: (roomId: string) => Promise<{ success: boolean }>;
+    guest?: GuestInfo,
+  ) => Promise<{
+    success: boolean;
+    roomId?: string;
+    roomName?: string;
+    error?: string;
+  }>;
+}
+
+// Store channel ref for beforeunload handler
+let lobbyChannelRef: Ably.RealtimeChannel | null = null;
+
+// Handle page unload - leave presence before closing
+function handleBeforeUnload() {
+  if (lobbyChannelRef) {
+    try {
+      lobbyChannelRef.presence.leave();
+    } catch {
+      // Ignore errors during unload
+    }
+  }
 }
 
 export function useLobbyChannel(): UseLobbyChannelReturn {
   const [rooms, setRooms] = useState<RoomListItem[]>([]);
   const [isConnected, setIsConnected] = useState(false);
-  const [joinWindowOpen, setJoinWindowOpen] = useState(false);
-  const [serverSecondsUntilJoinOpen, setServerSecondsUntilJoinOpen] = useState<
-    number | null
-  >(null);
-  const [lastServerUpdate, setLastServerUpdate] = useState<number>(Date.now());
-  const [interpolatedSeconds, setInterpolatedSeconds] = useState<number | null>(
+  const [lobbyPlayerCount, setLobbyPlayerCount] = useState(0);
+  const [maintenanceMode, setMaintenanceModeState] = useState(false);
+  const [maintenanceMessage, setMaintenanceMessage] = useState<string | null>(
     null,
   );
-  const [ably, setAbly] = useState<Ably.Realtime | null>(null);
   const [channel, setChannel] = useState<Ably.RealtimeChannel | null>(null);
   const { user } = useAuth();
+  const pollIntervalRef = useRef<NodeJS.Timeout | null>(null);
 
-  // Interpolate seconds between server updates for smooth countdown
-  useEffect(() => {
-    if (serverSecondsUntilJoinOpen === null || joinWindowOpen) {
-      setInterpolatedSeconds(null);
-      return;
+  // Poll room list via AppSync/GraphQL
+  const fetchRoomList = useCallback(async () => {
+    try {
+      const result = (await graphqlClient.graphql({
+        query: GET_ROOM_LIST,
+        authMode: "iam",
+      })) as GetRoomListResponse;
+
+      const data = result.data?.getRoomList;
+      if (data) {
+        setRooms(data.rooms || []);
+        setLobbyPlayerCount(data.lobbyPlayerCount || 0);
+        if (data.maintenanceMode !== undefined) {
+          setMaintenanceModeState(data.maintenanceMode);
+          setMaintenanceMessage(data.maintenanceMessage || null);
+        }
+      }
+    } catch (error) {
+      console.error("Failed to fetch room list:", error);
     }
+  }, []);
 
-    const updateInterpolated = () => {
-      const elapsed = Math.floor((Date.now() - lastServerUpdate) / 1000);
-      const remaining = Math.max(0, serverSecondsUntilJoinOpen - elapsed);
-      setInterpolatedSeconds(remaining);
+  // Start polling when component mounts
+  useEffect(() => {
+    // Initial fetch
+    fetchRoomList();
 
-      // If countdown reaches 0, assume window opened
-      if (remaining === 0) {
-        setJoinWindowOpen(true);
+    // Poll every 10 seconds
+    pollIntervalRef.current = setInterval(fetchRoomList, POLL_INTERVAL_MS);
+
+    return () => {
+      if (pollIntervalRef.current) {
+        clearInterval(pollIntervalRef.current);
       }
     };
-
-    updateInterpolated();
-    const interval = setInterval(updateInterpolated, 1000);
-    return () => clearInterval(interval);
-  }, [serverSecondsUntilJoinOpen, lastServerUpdate, joinWindowOpen]);
+  }, [fetchRoomList]);
 
   useEffect(() => {
     const ablyKey = process.env.NEXT_PUBLIC_ABLY_KEY;
@@ -88,19 +128,24 @@ export function useLobbyChannel(): UseLobbyChannelReturn {
 
     const lobbyChannel = ablyClient.channels.get(ABLY_CHANNELS.LOBBY);
     setChannel(lobbyChannel);
-    setAbly(ablyClient);
+    lobbyChannelRef = lobbyChannel;
 
-    // Subscribe to room list updates
-    lobbyChannel.subscribe("room_list", (message) => {
-      const {
-        rooms: roomList,
-        joinWindowOpen: windowOpen,
-        secondsUntilJoinOpen: secondsUntil,
-      } = message.data;
-      setRooms(roomList || []);
-      setJoinWindowOpen(windowOpen ?? false);
-      setServerSecondsUntilJoinOpen(secondsUntil ?? null);
-      setLastServerUpdate(Date.now());
+    // Add beforeunload handler to leave presence on page refresh/close
+    window.addEventListener("beforeunload", handleBeforeUnload);
+
+    // Subscribe to room updates
+    lobbyChannel.subscribe("room_update", (message) => {
+      const { rooms: roomList } = message.data;
+      if (roomList) {
+        setRooms(roomList);
+      }
+    });
+
+    // Subscribe to maintenance mode updates
+    lobbyChannel.subscribe("maintenance_update", (message) => {
+      const { enabled, customMessage } = message.data;
+      setMaintenanceModeState(enabled);
+      setMaintenanceMessage(customMessage || null);
     });
 
     // Only enter presence if authenticated (so player count only shows logged-in users)
@@ -110,14 +155,11 @@ export function useLobbyChannel(): UseLobbyChannelReturn {
       });
     }
 
-    // Request initial room list on connect
-    ablyClient.connection.once("connected", () => {
-      lobbyChannel.publish("request_room_list", {
-        clientId: ablyClient.auth.clientId,
-      });
-    });
-
     return () => {
+      // Remove beforeunload handler
+      window.removeEventListener("beforeunload", handleBeforeUnload);
+      lobbyChannelRef = null;
+
       // Only leave presence if we entered and channel is still attached
       try {
         if (user?.userId && lobbyChannel.state === "attached") {
@@ -141,37 +183,48 @@ export function useLobbyChannel(): UseLobbyChannelReturn {
   const joinRoom = useCallback(
     async (
       roomId: string,
+      guest?: GuestInfo,
     ): Promise<{
       success: boolean;
       roomId?: string;
       roomName?: string;
       error?: string;
-      secondsUntilOpen?: number;
     }> => {
-      if (!channel || !user) {
+      if (!channel) {
         return { success: false, error: "Not connected to lobby" };
+      }
+
+      // Use guest info or authenticated user
+      const playerId = guest?.guestId || user?.userId;
+      const displayName =
+        guest?.displayName ||
+        user?.name ||
+        user?.email?.split("@")[0] ||
+        "Anonymous";
+
+      if (!playerId) {
+        return { success: false, error: "No player identity" };
       }
 
       return new Promise((resolve) => {
         const handleResult = (message: Ably.Message) => {
           const data = message.data;
-          if (data.playerId === user.userId) {
+          if (data.playerId === playerId) {
             channel.unsubscribe("join_room_result", handleResult);
             resolve({
               success: data.success,
               roomId: data.roomId,
               roomName: data.roomName,
               error: data.error,
-              secondsUntilOpen: data.secondsUntilOpen,
             });
           }
         };
 
         channel.subscribe("join_room_result", handleResult);
         channel.publish("join_room", {
-          playerId: user.userId,
+          playerId,
           roomId,
-          displayName: user.name || user.email?.split("@")[0] || "Anonymous",
+          displayName,
         });
 
         // Timeout after 5 seconds
@@ -184,121 +237,27 @@ export function useLobbyChannel(): UseLobbyChannelReturn {
     [channel, user],
   );
 
-  const autoJoin = useCallback(async (): Promise<{
-    success: boolean;
-    roomId?: string;
-    roomName?: string;
-    error?: string;
-    secondsUntilOpen?: number;
-  }> => {
-    if (!channel || !user) {
-      return { success: false, error: "Not connected to lobby" };
-    }
-
-    return new Promise((resolve) => {
-      const handleResult = (message: Ably.Message) => {
-        const data = message.data;
-        if (data.playerId === user.userId) {
-          channel.unsubscribe("join_room_result", handleResult);
-          resolve({
-            success: data.success,
-            roomId: data.roomId,
-            roomName: data.roomName,
-            error: data.error,
-            secondsUntilOpen: data.secondsUntilOpen,
-          });
-        }
-      };
-
-      channel.subscribe("join_room_result", handleResult);
-      channel.publish("auto_join", {
-        playerId: user.userId,
-        displayName: user.name || user.email?.split("@")[0] || "Anonymous",
+  const setMaintenanceMode = useCallback(
+    (enabled: boolean, message?: string) => {
+      if (!channel) return;
+      channel.publish("maintenance_mode", {
+        enabled,
+        customMessage: message || null,
       });
-
-      // Timeout after 5 seconds
-      setTimeout(() => {
-        channel.unsubscribe("join_room_result", handleResult);
-        resolve({ success: false, error: "Request timed out" });
-      }, 5000);
-    });
-  }, [channel, user]);
-
-  const queueJoin = useCallback(
-    async (
-      roomId: string,
-    ): Promise<{ success: boolean; queuePosition?: number }> => {
-      if (!channel || !user) {
-        return { success: false };
-      }
-
-      return new Promise((resolve) => {
-        const handleResult = (message: Ably.Message) => {
-          const data = message.data;
-          if (data.playerId === user.userId && data.roomId === roomId) {
-            channel.unsubscribe("queue_join_result", handleResult);
-            resolve({
-              success: data.success,
-              queuePosition: data.queuePosition,
-            });
-          }
-        };
-
-        channel.subscribe("queue_join_result", handleResult);
-        channel.publish("queue_join", {
-          playerId: user.userId,
-          roomId,
-        });
-
-        // Timeout after 5 seconds
-        setTimeout(() => {
-          channel.unsubscribe("queue_join_result", handleResult);
-          resolve({ success: false });
-        }, 5000);
-      });
+      // Also update local state immediately for the admin
+      setMaintenanceModeState(enabled);
+      setMaintenanceMessage(message || null);
     },
-    [channel, user],
-  );
-
-  const queueLeave = useCallback(
-    async (roomId: string): Promise<{ success: boolean }> => {
-      if (!channel || !user) {
-        return { success: false };
-      }
-
-      return new Promise((resolve) => {
-        const handleResult = (message: Ably.Message) => {
-          const data = message.data;
-          if (data.playerId === user.userId && data.roomId === roomId) {
-            channel.unsubscribe("queue_leave_result", handleResult);
-            resolve({ success: data.success });
-          }
-        };
-
-        channel.subscribe("queue_leave_result", handleResult);
-        channel.publish("queue_leave", {
-          playerId: user.userId,
-          roomId,
-        });
-
-        // Timeout after 5 seconds
-        setTimeout(() => {
-          channel.unsubscribe("queue_leave_result", handleResult);
-          resolve({ success: false });
-        }, 5000);
-      });
-    },
-    [channel, user],
+    [channel],
   );
 
   return {
     rooms,
     isConnected,
-    joinWindowOpen,
-    secondsUntilJoinOpen: interpolatedSeconds,
+    lobbyPlayerCount,
+    maintenanceMode,
+    maintenanceMessage,
+    setMaintenanceMode,
     joinRoom,
-    autoJoin,
-    queueJoin,
-    queueLeave,
   };
 }

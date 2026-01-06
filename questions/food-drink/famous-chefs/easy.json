@@ -1,0 +1,342 @@
+[
+  {
+    "id": "dba6425d-7053-4402-bc61-9de7e8ce7d5c",
+    "text": "Which British chef is famous for his fiery temper and shows like 'Hell's Kitchen' and 'Kitchen Nightmares'?",
+    "options": [
+      "Jamie Oliver",
+      "Gordon Ramsay",
+      "Nigella Lawson",
+      "Marco Pierre White"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Gordon Ramsay is known for his explosive personality and popular cooking shows.",
+    "detailedExplanation": "Gordon Ramsay is a British celebrity chef who became internationally famous for his aggressive cooking style and temperamental personality on television shows. His most popular programs include 'Hell's Kitchen,' where he trains aspiring chefs, and 'Kitchen Nightmares,' where he helps struggling restaurants. Ramsay has earned multiple Michelin stars and built a global restaurant empire.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Gordon_Ramsay",
+    "citationTitle": "Wikipedia: Gordon Ramsay"
+  },
+  {
+    "id": "a217d5e5-82a9-40bb-afc1-99d992d05c96",
+    "text": "Which American chef popularized French cooking in America and wrote 'Mastering the Art of French Cooking'?",
+    "options": [
+      "Martha Stewart",
+      "Julia Child",
+      "Alice Waters",
+      "Emeril Lagasse"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Julia Child introduced French cuisine to American home cooks through her cookbook and TV shows.",
+    "detailedExplanation": "Julia Child was an American chef who revolutionized American cooking by making French cuisine accessible to home cooks. Her cookbook 'Mastering the Art of French Cooking,' co-authored with Simone Beck and Louisette Bertholle, became a classic. Child's life and career were later depicted in the popular film 'Julie & Julia' starring Meryl Streep.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Julia_Child",
+    "citationTitle": "Wikipedia: Julia Child"
+  },
+  {
+    "id": "be7d2dbd-3c3a-4667-bc8c-8d6c6b540e44",
+    "text": "Which celebrity chef is known for his 'BAM!' catchphrase and Creole/Cajun cooking style?",
+    "options": [
+      "Bobby Flay",
+      "Emeril Lagasse",
+      "Paul Prudhomme",
+      "Anthony Bourdain"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Emeril Lagasse became famous for his energetic cooking shows and signature 'BAM!' exclamation.",
+    "detailedExplanation": "Emeril Lagasse is an American celebrity chef who gained fame through his cooking shows 'Emeril Live' and 'The Essence of Emeril.' He's known for his enthusiastic personality, frequent use of the exclamation 'BAM!' when adding spices, and his expertise in Creole and Cajun cuisine. Lagasse owns several restaurants primarily in New Orleans and Las Vegas.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Emeril_Lagasse",
+    "citationTitle": "Wikipedia: Emeril Lagasse"
+  },
+  {
+    "id": "4f424f9a-c463-468b-9f21-62df1b0fa595",
+    "text": "Which British chef is known as 'The Naked Chef' and campaigns for healthier school meals?",
+    "options": [
+      "Gordon Ramsay",
+      "Jamie Oliver",
+      "Heston Blumenthal",
+      "Rick Stein"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Jamie Oliver earned the nickname 'The Naked Chef' and is famous for his healthy eating campaigns.",
+    "detailedExplanation": "Jamie Oliver is a British celebrity chef who gained fame with his television show 'The Naked Chef,' referring to his simple, stripped-down cooking style. He has become well-known for his campaigns to improve food education and nutrition, particularly his efforts to reform school meal programs in the UK and US. Oliver has also opened numerous restaurants and published many bestselling cookbooks.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Jamie_Oliver",
+    "citationTitle": "Wikipedia: Jamie Oliver"
+  },
+  {
+    "id": "e3523333-54e3-4ad4-9dd9-2c1b25647136",
+    "text": "Which French chef is often called the 'Chef of the Century' and mentored many famous chefs?",
+    "options": [
+      "Auguste Escoffier",
+      "Paul Bocuse",
+      "Joël Robuchon",
+      "Alain Ducasse"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Paul Bocuse was a legendary French chef who influenced modern French cuisine and trained many renowned chefs.",
+    "detailedExplanation": "Paul Bocuse was a French chef who became one of the most prominent figures in modern French cuisine. Often referred to as the 'Chef of the Century,' he was instrumental in developing nouvelle cuisine and maintained his three Michelin stars for over 50 years. Bocuse mentored numerous chefs who went on to become culinary stars themselves, and the prestigious Bocuse d'Or cooking competition is named in his honor.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Paul_Bocuse",
+    "citationTitle": "Wikipedia: Paul Bocuse"
+  },
+  {
+    "id": "a8efce45-18c7-41bd-9216-26e0f71802a2",
+    "text": "Which chef and author wrote 'Kitchen Confidential' and hosted 'No Reservations'?",
+    "options": [
+      "Anthony Bourdain",
+      "Andrew Zimmern",
+      "Guy Fieri",
+      "Alton Brown"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Anthony Bourdain wrote the bestselling memoir 'Kitchen Confidential' and became famous for his travel shows.",
+    "detailedExplanation": "Anthony Bourdain was an American chef, author, and television personality who gained widespread recognition with his 2000 memoir 'Kitchen Confidential: Adventures in the Culinary Underbelly.' The book provided a raw, behind-the-scenes look at professional kitchen culture. He later became famous for his travel and food shows, including 'No Reservations' and 'Parts Unknown,' where he explored global cuisine and culture.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Anthony_Bourdain",
+    "citationTitle": "Wikipedia: Anthony Bourdain"
+  },
+  {
+    "id": "bb02b0e3-a2db-448c-83d9-6cef49537cc5",
+    "text": "Which celebrity chef is known for molecular gastronomy and owns 'The Fat Duck' restaurant?",
+    "options": [
+      "Ferran Adrià",
+      "Heston Blumenthal",
+      "Grant Achatz",
+      "Thomas Keller"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Heston Blumenthal is famous for his experimental molecular gastronomy techniques at The Fat Duck.",
+    "detailedExplanation": "Heston Blumenthal is a British celebrity chef known for his innovative approach to cooking, particularly molecular gastronomy and multi-sensory cooking. His restaurant The Fat Duck in Bray, England, has held three Michelin stars and has been ranked among the world's best restaurants. Blumenthal is famous for dishes like snail porridge and bacon and egg ice cream, combining scientific techniques with culinary artistry.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Heston_Blumenthal",
+    "citationTitle": "Wikipedia: Heston Blumenthal"
+  },
+  {
+    "id": "ab2baa0e-a896-4f3c-85b9-0d9d8bb888fe",
+    "text": "Which Iron Chef is known for his expertise in Italian cuisine and owns multiple restaurants in New York?",
+    "options": [
+      "Mario Batali",
+      "Masaharu Morimoto",
+      "Bobby Flay",
+      "Michael Symon"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Mario Batali was an Iron Chef specializing in Italian cuisine with several New York restaurants.",
+    "detailedExplanation": "Mario Batali was an American celebrity chef who became famous for his expertise in Italian cuisine. He was one of the featured chefs on the Food Network's 'Iron Chef America' and co-owned numerous successful restaurants in New York City, including Babbo and Del Posto. Batali was also known for his orange Crocs, cookbooks, and television appearances, though his career was later overshadowed by personal controversies.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Mario_Batali",
+    "citationTitle": "Wikipedia: Mario Batali"
+  },
+  {
+    "id": "a8c35b94-8a0c-47af-8502-4246755568bd",
+    "text": "Which female chef became the first woman to win three Michelin stars and is known for her restaurant La Grenouillère in France?",
+    "options": [
+      "Anne-Sophie Pic",
+      "Hélène Darroze",
+      "Dominique Crenn",
+      "Clare Smyth"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Anne-Sophie Pic was the first woman to achieve three Michelin stars.",
+    "detailedExplanation": "Anne-Sophie Pic made culinary history as the first female chef to earn three Michelin stars for her restaurant Maison Pic in Valence, France. Coming from a family of renowned chefs, she initially pursued a different career path before returning to the kitchen to restore her family's culinary legacy. Her innovative approach to traditional French cuisine and exceptional skill earned her this prestigious recognition in 2007.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Anne-Sophie_Pic",
+    "citationTitle": "Wikipedia: Anne-Sophie Pic"
+  },
+  {
+    "id": "c15af1d5-ebd9-4c01-935e-8f2bfcb3f203",
+    "text": "Which Japanese chef is famous for his sushi restaurant Jiro Dreams of Sushi and is considered a master of his craft?",
+    "options": [
+      "Nobu Matsuhisa",
+      "Masaharu Morimoto",
+      "Jiro Ono",
+      "Yoshihiro Murata"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Jiro Ono is the legendary sushi master featured in the documentary 'Jiro Dreams of Sushi'.",
+    "detailedExplanation": "Jiro Ono is widely regarded as one of the greatest sushi chefs in the world and operates Sukiyabashi Jiro, a tiny 10-seat sushi restaurant in Tokyo. His dedication to perfection and decades of experience earned him three Michelin stars and international recognition through the acclaimed 2011 documentary 'Jiro Dreams of Sushi'. Despite being in his 90s, he continues to work and maintain the highest standards of sushi preparation.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Jiro_Ono",
+    "citationTitle": "Wikipedia: Jiro Ono"
+  },
+  {
+    "id": "242b3c35-42d8-4b7f-93bd-710a69006070",
+    "text": "Which Austrian-American chef is known for his upscale restaurants and was one of the pioneers of fusion cuisine in America?",
+    "options": [
+      "Thomas Keller",
+      "Daniel Boulud",
+      "Wolfgang Puck",
+      "Eric Ripert"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Wolfgang Puck is the Austrian-American chef famous for pioneering fusion cuisine and upscale dining.",
+    "detailedExplanation": "Wolfgang Puck revolutionized American dining by introducing California cuisine and fusion cooking at his flagship restaurant Spago in West Hollywood. Born in Austria, he moved to America and became one of the first celebrity chefs, combining French techniques with California ingredients and Asian influences. His empire includes numerous restaurants, catering services, and food products, making him one of the most recognizable chefs in America.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Wolfgang_Puck",
+    "citationTitle": "Wikipedia: Wolfgang Puck"
+  },
+  {
+    "id": "e1cf47d6-8765-47cd-9694-092b6e21df66",
+    "text": "Which Indian-British chef is known for her cookbooks and TV shows that helped popularize Indian cuisine in Britain?",
+    "options": [
+      "Madhur Jaffrey",
+      "Aarti Sequeira",
+      "Maneet Chauhan",
+      "Padma Lakshmi"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Madhur Jaffrey is credited with introducing authentic Indian cooking to Western audiences.",
+    "detailedExplanation": "Madhur Jaffrey is often called the 'Queen of Indian Cooking' and was instrumental in bringing authentic Indian cuisine to Western kitchens. Originally an actress, she began writing cookbooks in the 1970s and became a beloved television personality. Her detailed explanations of Indian cooking techniques, spices, and regional variations helped demystify Indian cuisine for home cooks around the world, making her one of the most influential food writers of her generation.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Madhur_Jaffrey",
+    "citationTitle": "Wikipedia: Madhur Jaffrey"
+  },
+  {
+    "id": "e0e5ce3d-c632-44ed-8efb-99c5be3ed811",
+    "text": "Which chef is known as the 'Godfather of Modern Australian Cuisine' and helped establish the country's culinary identity?",
+    "options": [
+      "Neil Perry",
+      "Tetsuya Wakuda",
+      "Stephanie Alexander",
+      "Peter Gilmore"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Stephanie Alexander is widely regarded as the 'Godfather of Modern Australian Cuisine'.",
+    "detailedExplanation": "Stephanie Alexander earned the title 'Godfather of Modern Australian Cuisine' through her pioneering work in establishing Australia's unique culinary identity. Her restaurant Stephanie's, which operated from 1976 to 1997, was instrumental in developing the Australian style of cooking that emphasized fresh, local ingredients. She has authored numerous influential cookbooks and founded the Kitchen Garden Program, which teaches children about food production and cooking in schools across Australia.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Stephanie_Alexander",
+    "citationTitle": "Wikipedia: Stephanie Alexander"
+  },
+  {
+    "id": "9f89b21f-47cf-4943-88d3-d1c5bbcc860b",
+    "text": "Which Mexican chef is known for revolutionizing Mexican cuisine and owns the restaurant Pujol in Mexico City?",
+    "options": [
+      "Enrique Olvera",
+      "Ricardo Muñoz Zurita",
+      "Martha Ortiz",
+      "Alejandro Ruiz"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Enrique Olvera is the renowned Mexican chef behind Pujol restaurant.",
+    "detailedExplanation": "Enrique Olvera has been credited with revolutionizing contemporary Mexican cuisine by elevating traditional dishes with modern techniques and presentation. His restaurant Pujol in Mexico City is consistently ranked among the world's best restaurants and has earned international acclaim for its innovative approach to Mexican flavors. Olvera's work has helped change global perceptions of Mexican cuisine, showing it can be both sophisticated and deeply rooted in tradition.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Enrique_Olvera",
+    "citationTitle": "Wikipedia: Enrique Olvera"
+  },
+  {
+    "id": "72bb7cd2-08a1-4ded-a131-b591b5d9b227",
+    "text": "Which American chef and restaurateur is famous for his barbecue expertise and owns Franklin Barbecue in Austin, Texas?",
+    "options": [
+      "Aaron Franklin",
+      "Joe Allen",
+      "Adam Perry Lang",
+      "Mike Mills"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Aaron Franklin is the pitmaster behind the world-famous Franklin Barbecue.",
+    "detailedExplanation": "Aaron Franklin has become synonymous with exceptional barbecue through his restaurant Franklin Barbecue in Austin, Texas. Despite only opening in 2009, the restaurant quickly gained a cult following with people waiting hours in line for his perfectly smoked brisket. Franklin won the James Beard Award for Best Chef Southwest and has authored cookbooks sharing his barbecue techniques. His dedication to the craft and consistent quality has made Franklin Barbecue a pilgrimage destination for barbecue enthusiasts worldwide.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Aaron_Franklin_(chef)",
+    "citationTitle": "Wikipedia: Aaron Franklin"
+  },
+  {
+    "id": "22899780-a889-4b9e-9632-963139275cc0",
+    "text": "Which Danish chef is known for his restaurant Noma and the New Nordic cuisine movement?",
+    "options": [
+      "Claus Meyer",
+      "Rasmus Kofoed",
+      "René Redzepi",
+      "Bo Bech"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "René Redzepi is the chef-owner of Noma and pioneer of New Nordic cuisine.",
+    "detailedExplanation": "René Redzepi transformed the culinary world through his restaurant Noma in Copenhagen and his leadership of the New Nordic cuisine movement. This approach emphasizes local, seasonal ingredients from the Nordic region, often featuring foraged items and traditional preservation techniques presented with modern creativity. Under his leadership, Noma has been named the world's best restaurant multiple times, and Redzepi has inspired chefs globally to explore their local food cultures and ingredients more deeply.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Ren%C3%A9_Redzepi",
+    "citationTitle": "Wikipedia: René Redzepi"
+  },
+  {
+    "id": "028e2cd4-9995-483b-9f9c-142bd9c4b515",
+    "text": "Which Italian chef is famous for his energetic cooking shows and signature dishes like 'Molto Mario' and is known for wearing orange Crocs?",
+    "options": [
+      "Mario Batali",
+      "Giada De Laurentiis",
+      "Lidia Bastianich",
+      "Fabio Viviani"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Mario Batali is the Italian-American chef known for his orange Crocs and 'Molto Mario' show.",
+    "detailedExplanation": "Mario Batali became a household name through his Food Network shows, particularly 'Molto Mario,' which ran from 1996 to 2004. He was instantly recognizable for his signature orange Crocs, casual attire, and energetic presentation style. Batali specialized in Italian cuisine and opened several successful restaurants in New York City, though his career later faced controversy.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Mario_Batali",
+    "citationTitle": "Wikipedia: Mario Batali"
+  },
+  {
+    "id": "2466ebb0-28e5-4ad1-81ef-5eb2ac9201ad",
+    "text": "Which chef is known as the 'Queen of Creole Cuisine' and has been cooking in New Orleans for over 40 years?",
+    "options": [
+      "Paula Deen",
+      "Leah Chase",
+      "Ina Garten",
+      "Martha Stewart"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Leah Chase was known as the 'Queen of Creole Cuisine' and ran Dooky Chase's Restaurant in New Orleans.",
+    "detailedExplanation": "Leah Chase (1923-2019) was a legendary African-American chef who became known as the 'Queen of Creole Cuisine.' She ran Dooky Chase's Restaurant in New Orleans for decades, serving authentic Creole dishes and becoming a cultural institution. Her restaurant was a gathering place during the Civil Rights era, and she continued cooking and inspiring others well into her 90s, becoming an icon of New Orleans culinary culture.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Leah_Chase",
+    "citationTitle": "Wikipedia: Leah Chase"
+  },
+  {
+    "id": "ea296bb0-612b-40ed-86e1-cff489064567",
+    "text": "Which Turkish-British chef is known for his salt-sprinkling technique that went viral on social media?",
+    "options": [
+      "Yotam Ottolenghi",
+      "Salt Bae (Nusret Gökçe)",
+      "Samin Nosrat",
+      "David Chang"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Salt Bae, whose real name is Nusret Gökçe, became famous for his distinctive salt-sprinkling technique.",
+    "detailedExplanation": "Nusret Gökçe, better known as 'Salt Bae,' is a Turkish chef who became an internet sensation in 2017 when a video of his distinctive salt-sprinkling technique went viral. His theatrical way of seasoning meat, letting salt cascade down his forearm onto the dish, became a worldwide meme. He owns a chain of upscale steakhouses called Nusr-Et and has served many celebrities, though his restaurants have also faced criticism for their high prices.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Salt_Bae",
+    "citationTitle": "Wikipedia: Salt Bae"
+  },
+  {
+    "id": "59edbc4a-67d5-40b0-82cb-8726835d451c",
+    "text": "Which chef is famous for her butter-heavy Southern cooking and was the host of 'Paula's Home Cooking' on Food Network?",
+    "options": [
+      "Rachael Ray",
+      "Paula Deen",
+      "Pioneer Woman",
+      "Trisha Yearwood"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Paula Deen is known for her Southern cooking style and hosted 'Paula's Home Cooking' on Food Network.",
+    "detailedExplanation": "Paula Deen is an American chef from Georgia who became famous for her Southern comfort food recipes that often feature generous amounts of butter, sugar, and other rich ingredients. She hosted 'Paula's Home Cooking' and 'Paula's Party' on Food Network for many years, wrote numerous cookbooks, and operated restaurants in Savannah, Georgia. Her cooking style epitomized indulgent Southern cuisine, though her career faced significant controversy in later years.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Paula_Deen",
+    "citationTitle": "Wikipedia: Paula Deen"
+  }
+]

@@ -1,0 +1,342 @@
+[
+  {
+    "id": "f2bef7d4-8f71-4ff8-8e62-0dd889bb9249",
+    "text": "In what year did the World Wide Web become publicly available?",
+    "options": [
+      "1989",
+      "1991",
+      "1993",
+      "1995"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Tim Berners-Lee made the World Wide Web publicly available in 1991, though he created it in 1989.",
+    "detailedExplanation": "While Tim Berners-Lee invented the World Wide Web in 1989 while working at CERN, it wasn't until August 6, 1991, that he made it publicly available by posting a summary of the project on the alt.hypertext newsgroup. This date marks when the general public first gained access to what would become the modern internet.",
+    "citationUrl": "https://en.wikipedia.org/wiki/World_Wide_Web",
+    "citationTitle": "Wikipedia: World Wide Web"
+  },
+  {
+    "id": "f5521b05-f7e6-4365-8754-607e2f226dd4",
+    "text": "Which company launched the first widely successful web browser with a graphical user interface?",
+    "options": [
+      "Microsoft",
+      "Apple",
+      "Netscape",
+      "IBM"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Netscape launched Netscape Navigator in 1994, which became the first widely successful graphical web browser.",
+    "detailedExplanation": "Netscape Communications Corporation released Netscape Navigator in October 1994, which became the first commercially successful web browser with a user-friendly graphical interface. While Mosaic came before it, Navigator's superior features and marketing made it the browser that truly brought the web to mainstream users, capturing over 75% market share by 1996.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Netscape_Navigator",
+    "citationTitle": "Wikipedia: Netscape Navigator"
+  },
+  {
+    "id": "1bcf5ded-87d6-47e2-88b7-76b491db4846",
+    "text": "What milestone did Google achieve on September 4, 1998?",
+    "options": [
+      "IPO launch",
+      "Gmail launch",
+      "Company incorporation",
+      "First search algorithm"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Google was officially incorporated as a company on September 4, 1998, by Larry Page and Sergey Brin.",
+    "detailedExplanation": "Larry Page and Sergey Brin officially incorporated Google as a company on September 4, 1998, in a garage in Menlo Park, California. This date marks the formal beginning of what would become the world's largest search engine and one of the most influential technology companies in history, transforming how people access and organize information online.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Google",
+    "citationTitle": "Wikipedia: Google"
+  },
+  {
+    "id": "67ed4e32-102b-400f-b248-46170da17ec8",
+    "text": "Which internet milestone occurred on January 1, 1983?",
+    "options": [
+      "First email sent",
+      "TCP/IP protocol adoption",
+      "Domain Name System launch",
+      "First website created"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "January 1, 1983, marked the official adoption of TCP/IP protocol by ARPANET, creating the modern internet foundation.",
+    "detailedExplanation": "On January 1, 1983, ARPANET officially adopted the TCP/IP protocol suite, replacing the earlier Network Control Protocol (NCP). This transition is often considered the birth of the modern internet as we know it, as TCP/IP became the standard communication protocol that allowed different networks to interconnect seamlessly, forming the global internet infrastructure.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Internet_Protocol_Suite",
+    "citationTitle": "Wikipedia: Internet Protocol Suite"
+  },
+  {
+    "id": "99346bfb-e4e7-401a-91c5-5bf60f3a2494",
+    "text": "What was significant about the first banner advertisement displayed on the web in 1994?",
+    "options": [
+      "It was animated",
+      "It had a 44% click-through rate",
+      "It was video-based",
+      "It cost $1 million"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "The first banner ad, displayed on HotWired.com, achieved an remarkable 44% click-through rate.",
+    "detailedExplanation": "The first banner advertisement appeared on HotWired.com in October 1994 and simply read 'Have you ever clicked your mouse right HERE? YOU WILL.' This historic ad, purchased by AT&T, achieved an astounding 44% click-through rate, demonstrating the novelty and effectiveness of early web advertising. This milestone marked the beginning of commercial advertising on the internet and the development of the digital advertising industry.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Web_banner",
+    "citationTitle": "Wikipedia: Web banner"
+  },
+  {
+    "id": "398971b6-1281-45fd-a8e2-74af2e4074e5",
+    "text": "In what year did Facebook open registration to the general public?",
+    "options": [
+      "2004",
+      "2005",
+      "2006",
+      "2007"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Facebook opened to the general public in September 2006, after initially being limited to college students.",
+    "detailedExplanation": "Facebook began in 2004 as a Harvard-only network, then expanded to other universities and high schools. On September 26, 2006, Facebook finally opened registration to anyone aged 13 and older with a valid email address, marking its transformation from an exclusive college network to the global social media platform that would eventually connect billions of users worldwide.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Facebook",
+    "citationTitle": "Wikipedia: Facebook"
+  },
+  {
+    "id": "e2a22f8d-f226-4190-aead-1dd1a190d00b",
+    "text": "What internet milestone was achieved when the billionth website was created?",
+    "options": [
+      "September 2014",
+      "March 2016",
+      "January 2018",
+      "May 2019"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "The billionth website was created in September 2014, though the number fluctuates as sites go online and offline.",
+    "detailedExplanation": "According to Netcraft's Web Server Survey, the internet reached the milestone of one billion websites in September 2014. This represented exponential growth from the single website that existed in 1991. However, this number is fluid as websites constantly come online and go offline, and the active number of websites is significantly lower than the total number ever created.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Website",
+    "citationTitle": "Wikipedia: Website"
+  },
+  {
+    "id": "3a0fdfbf-fc18-432a-ae0a-f57005c4109f",
+    "text": "Which messaging platform became the first to reach 1 billion monthly active users in 2016?",
+    "options": [
+      "Telegram",
+      "WhatsApp",
+      "Skype",
+      "WeChat"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "WhatsApp reached 1 billion monthly active users in February 2016, becoming the first messaging app to achieve this milestone.",
+    "detailedExplanation": "WhatsApp achieved a significant internet milestone in February 2016 when it became the first messaging application to reach 1 billion monthly active users worldwide. This achievement came just two years after Facebook acquired the company for $19 billion in 2014. The milestone demonstrated the rapid global adoption of mobile messaging platforms and marked WhatsApp's dominance in the instant messaging market across multiple continents.",
+    "citationUrl": "https://en.wikipedia.org/wiki/WhatsApp",
+    "citationTitle": "Wikipedia: WhatsApp"
+  },
+  {
+    "id": "ebfa3fcf-f5ca-46b8-8c82-5041802a75bf",
+    "text": "What was the name of the first email sent over ARPANET in 1971?",
+    "options": [
+      "HELLO WORLD",
+      "QWERTYUIOP",
+      "TEST MESSAGE",
+      "LOGIN"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Ray Tomlinson sent 'QWERTYUIOP' as the first networked email message in 1971, also introducing the @ symbol for email addresses.",
+    "detailedExplanation": "In 1971, computer engineer Ray Tomlinson sent the first networked email message over ARPANET, which simply contained the characters 'QWERTYUIOP' - the top row of letters on a QWERTY keyboard. This seemingly mundane message represented a revolutionary moment in internet history. Tomlinson also introduced the use of the @ symbol to separate the user name from the computer name in email addresses, a convention that remains standard today and fundamentally changed how people communicate electronically.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Email",
+    "citationTitle": "Wikipedia: Email"
+  },
+  {
+    "id": "584f79bd-e67f-4aef-b8e9-1b752f4fc28a",
+    "text": "In what year did YouTube upload its first video, titled 'Me at the zoo'?",
+    "options": [
+      "2004",
+      "2005",
+      "2006",
+      "2007"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "YouTube's first video 'Me at the zoo' was uploaded on April 23, 2005, by co-founder Jawed Karim.",
+    "detailedExplanation": "On April 23, 2005, YouTube co-founder Jawed Karim uploaded the platform's very first video titled 'Me at the zoo,' filmed at the San Diego Zoo. The 18-second video shows Karim standing in front of elephants, simply commenting on their long trunks. This humble beginning marked the start of what would become the world's largest video-sharing platform. YouTube was officially launched to the public in December 2005 and was acquired by Google for $1.65 billion just over a year later in October 2006.",
+    "citationUrl": "https://en.wikipedia.org/wiki/YouTube",
+    "citationTitle": "Wikipedia: YouTube"
+  },
+  {
+    "id": "bf17504e-688b-4e7f-a420-e84bd1060bb8",
+    "text": "Which online marketplace milestone occurred when eBay conducted its first transaction in September 1995?",
+    "options": [
+      "A vintage baseball card",
+      "A broken laser pointer",
+      "Computer software",
+      "A rare book"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "eBay's first transaction was the sale of a broken laser pointer for $14.83 to a collector of broken laser pointers.",
+    "detailedExplanation": "eBay's first transaction in September 1995 was remarkably unusual - founder Pierre Omidyar sold a broken laser pointer for $14.83. When Omidyar contacted the winning bidder to confirm they understood the item was broken, the buyer responded that he was a collector of broken laser pointers. This bizarre first sale demonstrated the internet's power to connect niche collectors and sellers worldwide, establishing the foundation for what would become one of the world's largest online marketplaces and revolutionizing e-commerce.",
+    "citationUrl": "https://en.wikipedia.org/wiki/EBay",
+    "citationTitle": "Wikipedia: eBay"
+  },
+  {
+    "id": "1c666902-d0a9-440d-87f1-aebaba8c91b0",
+    "text": "What significant internet infrastructure milestone was achieved in 1989 when the number of internet hosts exceeded which threshold?",
+    "options": [
+      "10,000",
+      "50,000",
+      "100,000",
+      "250,000"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "In 1989, the internet reached over 100,000 connected hosts, marking its transition from a research network to a broader communication infrastructure.",
+    "detailedExplanation": "In 1989, the internet achieved a critical mass milestone when the number of connected hosts exceeded 100,000 for the first time. This represented exponential growth from just a few hundred hosts in the early 1980s and signaled the internet's evolution from a primarily academic and research network into a broader communication infrastructure. This growth coincided with the development of commercial internet service providers and laid the groundwork for the explosive expansion that would follow with the introduction of the World Wide Web.",
+    "citationUrl": "https://en.wikipedia.org/wiki/History_of_the_Internet",
+    "citationTitle": "Wikipedia: History of the Internet"
+  },
+  {
+    "id": "d1e0201f-da91-4c14-bae1-5fc4599f2d70",
+    "text": "Which social media platform introduced the concept of 'hashtags' that became widely adopted across the internet?",
+    "options": [
+      "Facebook",
+      "Twitter",
+      "Instagram",
+      "MySpace"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Twitter popularized hashtags in 2007, which became a fundamental way to categorize and search content across social media platforms.",
+    "detailedExplanation": "Twitter revolutionized online content organization when it adopted hashtags in 2007, originally proposed by user Chris Messina. The hashtag system, using the # symbol followed by keywords, provided a simple way for users to categorize tweets and join conversations around specific topics. This innovation became so successful that it was subsequently adopted by virtually every major social media platform, including Facebook, Instagram, LinkedIn, and others, fundamentally changing how people discover and organize content on the internet.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Hashtag",
+    "citationTitle": "Wikipedia: Hashtag"
+  },
+  {
+    "id": "54d64da7-39c0-4363-83d1-923179d86a1d",
+    "text": "What internet milestone did Amazon achieve on July 16, 1995?",
+    "options": [
+      "Sold its first book",
+      "Went public on NASDAQ",
+      "Launched Prime membership",
+      "Opened its marketplace to third parties"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Amazon sold its first book, 'Fluid Concepts and Creative Analogies' by Douglas Hofstadter, on July 16, 1995.",
+    "detailedExplanation": "On July 16, 1995, Amazon.com made its first sale - a copy of 'Fluid Concepts and Creative Analogies: Computer Models of the Fundamental Mechanisms of Thought' by Douglas Hofstadter. This transaction marked the beginning of what would become the world's largest e-commerce company. Founded by Jeff Bezos just one year earlier, Amazon started as an online bookstore operating from his garage in Bellevue, Washington. This first sale represented the dawn of mainstream online retail and demonstrated the viability of e-commerce to skeptical consumers and investors.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Amazon_(company)",
+    "citationTitle": "Wikipedia: Amazon (company)"
+  },
+  {
+    "id": "8306e995-39e0-42fb-91e6-5864a2f5efd3",
+    "text": "In what year did the Internet Corporation for Assigned Names and Numbers (ICANN) begin overseeing internet domain names?",
+    "options": [
+      "1996",
+      "1998",
+      "2000",
+      "2002"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "ICANN was established in 1998 to manage internet domain names and IP address allocation, taking over from government oversight.",
+    "detailedExplanation": "The Internet Corporation for Assigned Names and Numbers (ICANN) was established in 1998 as a non-profit organization to oversee the internet's domain name system and IP address allocation. This marked a crucial milestone in internet governance, transitioning control from the U.S. government to an international multi-stakeholder organization. ICANN's creation represented the internet's maturation as a global resource requiring coordinated management, and it continues to play a vital role in maintaining the internet's technical infrastructure and ensuring the stable operation of the domain name system worldwide.",
+    "citationUrl": "https://en.wikipedia.org/wiki/ICANN",
+    "citationTitle": "Wikipedia: ICANN"
+  },
+  {
+    "id": "f2a4f396-24c8-4cb8-8fd2-0a384b34803b",
+    "text": "What was the name of the first computer virus to spread widely across the internet in 1988, causing significant disruption to ARPANET?",
+    "options": [
+      "Morris Worm",
+      "ILOVEYOU",
+      "Melissa",
+      "Code Red"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "The Morris Worm was the first major internet worm that infected about 10% of all internet-connected computers.",
+    "detailedExplanation": "Created by Cornell University graduate student Robert Tappan Morris in 1988, the Morris Worm was the first worm distributed via the Internet to gain significant mainstream media attention. It infected an estimated 6,000 computers, which represented about 10% of all internet-connected computers at the time. The incident led to Morris becoming the first person convicted under the Computer Fraud and Abuse Act and highlighted the need for better internet security measures.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Morris_worm",
+    "citationTitle": "Wikipedia: Morris worm"
+  },
+  {
+    "id": "0209203a-101a-4a81-aae8-ac47733f2f96",
+    "text": "Which pioneering online service, launched in 1985, was the first to offer real-time chat rooms and became known as 'the granddaddy of online services'?",
+    "options": [
+      "CompuServe",
+      "Quantum Link",
+      "Prodigy",
+      "America Online"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Quantum Link (Q-Link) was launched in 1985 and pioneered many online community features that later became standard.",
+    "detailedExplanation": "Quantum Link, originally launched for Commodore 64 users in 1985, was revolutionary in offering real-time chat rooms, online games, and community features. It was created by Control Video Corporation, which later became America Online (AOL). Q-Link introduced many concepts that became fundamental to online communities, including user profiles, instant messaging, and multiplayer online games. Its success paved the way for the broader consumer internet adoption of the 1990s.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Quantum_Link",
+    "citationTitle": "Wikipedia: Quantum Link"
+  },
+  {
+    "id": "4a692030-604a-4ef1-9826-9682ff01488e",
+    "text": "What significant internet protocol milestone occurred on June 6, 2012, known as 'World IPv6 Day'?",
+    "options": [
+      "First global test of IPv6",
+      "Permanent enablement of IPv6",
+      "IPv6 became mandatory",
+      "IPv4 addresses were exhausted"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "World IPv6 Launch on June 6, 2012, marked the permanent enablement of IPv6 by major websites and ISPs.",
+    "detailedExplanation": "World IPv6 Launch Day on June 6, 2012, was a coordinated effort by major internet service providers, websites, and networking companies to permanently enable IPv6 on their services. Unlike the previous year's World IPv6 Day which was just a 24-hour test, this event marked the beginning of the permanent dual-stack deployment of IPv6 alongside IPv4. Participants included Google, Facebook, Yahoo, Akamai, and many others, representing a crucial milestone in the internet's transition from IPv4 to IPv6 to address the growing shortage of IP addresses.",
+    "citationUrl": "https://en.wikipedia.org/wiki/World_IPv6_Day",
+    "citationTitle": "Wikipedia: World IPv6 Day"
+  },
+  {
+    "id": "f53ef5e1-e409-4195-9acb-799c3bc353fa",
+    "text": "Which internet milestone was achieved in 2005 when Time Magazine named 'You' as Person of the Year, specifically citing what phenomenon?",
+    "options": [
+      "Rise of social media",
+      "User-generated content and Web 2.0",
+      "Online shopping boom",
+      "Smartphone internet adoption"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Time cited the rise of user-generated content and Web 2.0 technologies that gave ordinary people unprecedented creative control.",
+    "detailedExplanation": "Time Magazine's 2005 Person of the Year award recognized 'You' - the individual user - for the revolutionary shift toward user-generated content and Web 2.0 technologies. This milestone acknowledged how platforms like Wikipedia, YouTube, MySpace, and blogs had transformed the internet from a read-only medium to an interactive space where ordinary people could create, share, and collaborate. The award recognized that the internet had evolved into a platform where users were not just consumers but active creators of content, fundamentally changing how information and media were produced and distributed.",
+    "citationUrl": "https://en.wikipedia.org/wiki/You_(Time_Person_of_the_Year)",
+    "citationTitle": "Wikipedia: You (Time Person of the Year)"
+  },
+  {
+    "id": "46089b6a-412d-45a2-8b0e-b041a413ad98",
+    "text": "What was the name of the first widely adopted file-sharing protocol that revolutionized peer-to-peer networking, launched by Shawn Fanning in 1999?",
+    "options": [
+      "BitTorrent",
+      "Napster",
+      "Kazaa",
+      "Gnutella"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Napster, created by Shawn Fanning, was the first mainstream peer-to-peer file-sharing service that brought P2P technology to millions of users.",
+    "detailedExplanation": "Napster, launched by Shawn Fanning in June 1999, revolutionized the internet by introducing peer-to-peer file sharing to mainstream users. Unlike traditional client-server models, Napster allowed users to share files directly with each other, fundamentally changing how digital content was distributed online. At its peak, Napster had over 80 million registered users and facilitated the sharing of millions of music files. Although it faced legal challenges and was shut down in 2001, Napster's impact was profound, paving the way for later P2P technologies and influencing how we think about digital distribution, copyright, and decentralized networks.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Napster",
+    "citationTitle": "Wikipedia: Napster"
+  }
+]

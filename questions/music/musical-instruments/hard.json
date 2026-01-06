@@ -1,0 +1,342 @@
+[
+  {
+    "id": "fca0152f-60d6-4e46-9cb8-f5eae40b4305",
+    "text": "Which musical instrument requires the player to use a technique called 'circular breathing' to produce a continuous drone and is traditionally made from a eucalyptus branch hollowed out by termites?",
+    "options": [
+      "Shakuhachi",
+      "Didgeridoo",
+      "Alphorn",
+      "Zurna"
+    ],
+    "correctIndex": 1,
+    "category": "entertainment",
+    "difficulty": "hard",
+    "explanation": "The didgeridoo is an Australian Aboriginal wind instrument requiring circular breathing technique.",
+    "detailedExplanation": "The didgeridoo is one of the world's oldest wind instruments, originating from Aboriginal Australian culture over 40,000 years ago. Traditional didgeridoos are made from eucalyptus branches that have been naturally hollowed out by termites. Players use a breathing technique called circular breathing, where they breathe in through their nose while simultaneously pushing air out through their mouth using air stored in their cheeks, creating a continuous drone sound without interruption.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Didgeridoo",
+    "citationTitle": "Wikipedia: Didgeridoo"
+  },
+  {
+    "id": "fdf91a1e-d918-4025-a21f-187a6eb7f68c",
+    "text": "What is the name of the small metal device inserted into the soundhole of a classical guitar to change the pitch of all strings simultaneously?",
+    "options": [
+      "Capo",
+      "Tremolo arm",
+      "Nut",
+      "Bridge pin"
+    ],
+    "correctIndex": 0,
+    "category": "entertainment",
+    "difficulty": "hard",
+    "explanation": "A capo is clamped across the guitar neck to raise the pitch of all strings equally.",
+    "detailedExplanation": "A capo (short for capotasto, Italian for 'head of fretboard') is a device used on the neck of stringed instruments to shorten the playable length of the strings, thereby raising the pitch. When placed across the guitar's fretboard, it acts as a movable nut, allowing guitarists to play in different keys using the same chord shapes. This is particularly useful for matching a singer's vocal range or playing with other instruments in different keys.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Capo",
+    "citationTitle": "Wikipedia: Capo"
+  },
+  {
+    "id": "fa6d4ebe-7918-4d44-84c7-ee88029cde5c",
+    "text": "Which percussion instrument, often used in Latin music, consists of a wooden box that the player sits on while striking it with their hands?",
+    "options": [
+      "Bongo",
+      "Cajón",
+      "Timbale",
+      "Pandeiro"
+    ],
+    "correctIndex": 1,
+    "category": "entertainment",
+    "difficulty": "hard",
+    "explanation": "The cajón is a box-shaped percussion instrument that originated in Peru and is played by sitting on it.",
+    "detailedExplanation": "The cajón (Spanish for 'box' or 'crate') is a box-shaped percussion instrument originally from Peru, played by slapping the front or rear faces with the hands, fingers, or sometimes various implements. The player sits astride the box, using their hands to create different sounds by striking different areas of the front face. It has become popular in flamenco music and various world music genres, offering a portable alternative to a full drum kit while providing a wide range of percussive sounds.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Caj%C3%B3n",
+    "citationTitle": "Wikipedia: Cajón"
+  },
+  {
+    "id": "5e044825-4c26-4a29-9483-66da2cfdfacc",
+    "text": "What is the maximum number of strings typically found on a concert harp used in modern orchestras?",
+    "options": [
+      "36",
+      "47",
+      "52",
+      "68"
+    ],
+    "correctIndex": 1,
+    "category": "entertainment",
+    "difficulty": "hard",
+    "explanation": "A concert harp typically has 47 strings spanning six and a half octaves.",
+    "detailedExplanation": "The modern concert harp, also known as the pedal harp, typically has 47 strings that span six and a half octaves from C♭₁ to G♭₇. The instrument features seven pedals at its base, each controlling all strings of the same note name across different octaves. Each pedal has three positions, allowing the harpist to play each string as a flat, natural, or sharp, giving the instrument full chromatic capability across its entire range.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Harp",
+    "citationTitle": "Wikipedia: Harp"
+  },
+  {
+    "id": "f8931925-b8e0-4990-b5d9-745532c43446",
+    "text": "Which part of a violin bow is made from horsehair and must be regularly maintained with rosin?",
+    "options": [
+      "Frog",
+      "Stick",
+      "Hair",
+      "Tip"
+    ],
+    "correctIndex": 2,
+    "category": "entertainment",
+    "difficulty": "hard",
+    "explanation": "The hair of a violin bow is made from horsehair and requires rosin to create friction with the strings.",
+    "detailedExplanation": "The hair of a violin bow is traditionally made from the tail hair of horses, specifically Mongolian horses, which provides the ideal texture and strength. The hair is stretched between the frog (heel) and tip of the bow. Rosin, a solid amber-colored substance made from tree resin, is regularly applied to the bow hair to increase friction between the hair and the violin strings, allowing the bow to 'grab' the strings and produce sound. Without rosin, the smooth hair would simply slide over the strings without creating vibration.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Bow_(music)",
+    "citationTitle": "Wikipedia: Bow (music)"
+  },
+  {
+    "id": "9493b613-dc95-4487-b0ec-729574b45354",
+    "text": "What is the name of the technique used on brass instruments where the player rapidly alternates between two adjacent notes to create a decorative effect?",
+    "options": [
+      "Glissando",
+      "Trill",
+      "Mordent",
+      "Flutter tonguing"
+    ],
+    "correctIndex": 1,
+    "category": "entertainment",
+    "difficulty": "hard",
+    "explanation": "A trill is the rapid alternation between two adjacent pitches, commonly used as ornamentation.",
+    "detailedExplanation": "A trill is a musical ornament consisting of the rapid alternation between two adjacent notes, typically a semitone or whole tone apart. On brass instruments, trills are executed either through lip technique (lip trill) or by rapidly operating valves or slide positions. The trill creates a decorative, shimmering effect and has been used extensively in classical music since the Baroque period. It requires considerable technical skill to execute cleanly and evenly, especially at different dynamic levels.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Trill_(music)",
+    "citationTitle": "Wikipedia: Trill (music)"
+  },
+  {
+    "id": "9d2de477-00ca-4ec8-8b8c-d8944fd16550",
+    "text": "Which keyboard instrument produces sound by plucking strings with quills or plectra rather than striking them with hammers?",
+    "options": [
+      "Clavichord",
+      "Fortepiano",
+      "Harpsichord",
+      "Celesta"
+    ],
+    "correctIndex": 2,
+    "category": "entertainment",
+    "difficulty": "hard",
+    "explanation": "The harpsichord plucks strings with quills when keys are pressed, unlike pianos which strike strings with hammers.",
+    "detailedExplanation": "The harpsichord is a keyboard instrument that produces sound by plucking strings with quills (originally bird feathers) or plastic plectra, rather than striking them with hammers like a piano. When a key is pressed, a mechanism called a jack rises, and the plectrum plucks the string. This plucking action means that unlike a piano, the harpsichord cannot vary volume through touch - each note sounds at essentially the same dynamic level regardless of how hard the key is pressed. The harpsichord was the dominant keyboard instrument from the 15th to 18th centuries.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Harpsichord",
+    "citationTitle": "Wikipedia: Harpsichord"
+  },
+  {
+    "id": "ebceae16-6d62-48c1-9d60-747bf7d49a12",
+    "text": "What is the lowest pitched instrument in the standard woodwind family of a symphony orchestra?",
+    "options": [
+      "Bass clarinet",
+      "Contrabassoon",
+      "Bass saxophone",
+      "Contrabass clarinet"
+    ],
+    "correctIndex": 1,
+    "category": "entertainment",
+    "difficulty": "hard",
+    "explanation": "The contrabassoon is the lowest pitched standard woodwind instrument in orchestras, sounding an octave below the bassoon.",
+    "detailedExplanation": "The contrabassoon (also called double bassoon) is the lowest pitched member of the woodwind family regularly used in symphony orchestras. It sounds an octave lower than the regular bassoon and has a range extending down to B♭₀, making it one of the lowest pitched instruments in the entire orchestra. The instrument is about 16 feet long when uncoiled and uses a double reed like the bassoon. Its deep, resonant tone provides the bass foundation for the woodwind section and is often used to double the string basses or add weight to low orchestral passages.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Contrabassoon",
+    "citationTitle": "Wikipedia: Contrabassoon"
+  },
+  {
+    "id": "46530aa8-f30b-4a59-ac7a-f10624231d28",
+    "text": "What is the name of the ancient bowed string instrument that is considered the predecessor to the modern violin and features sympathetic strings that vibrate without being directly played?",
+    "options": [
+      "Viola da gamba",
+      "Viola d'amore",
+      "Rebec",
+      "Hurdy-gurdy"
+    ],
+    "correctIndex": 1,
+    "category": "entertainment",
+    "difficulty": "hard",
+    "explanation": "The viola d'amore features sympathetic strings beneath the played strings that resonate to create a distinctive ethereal sound.",
+    "detailedExplanation": "The viola d'amore, meaning 'viol of love' in Italian, is a baroque-era string instrument that typically has 6-7 bowed strings and an equal number of sympathetic strings running beneath them. These sympathetic strings are not played directly but vibrate in resonance with the bowed strings, creating a distinctive shimmering, ethereal sound that was particularly popular in the 17th and 18th centuries.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Viola_d%27amore",
+    "citationTitle": "Wikipedia: Viola d'amore"
+  },
+  {
+    "id": "f2e08d46-3ef2-4009-bf69-869841942bd9",
+    "text": "Which traditional Japanese percussion instrument consists of a wooden body with animal skin heads and is played with thick wooden sticks called 'bachi'?",
+    "options": [
+      "Shamisen",
+      "Koto",
+      "Taiko",
+      "Biwa"
+    ],
+    "correctIndex": 2,
+    "category": "entertainment",
+    "difficulty": "hard",
+    "explanation": "Taiko drums are traditional Japanese percussion instruments played with thick wooden sticks called bachi.",
+    "detailedExplanation": "Taiko refers to a broad range of Japanese percussion instruments, from small hand drums to massive drums that can be over six feet in diameter. The drums feature wooden bodies (traditionally carved from a single tree trunk) with animal skin heads, typically cowhide or horsehide. They are struck with bachi, thick wooden sticks that can vary in size depending on the drum and the desired sound. Taiko drumming has been an integral part of Japanese culture for over 1,400 years.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Taiko",
+    "citationTitle": "Wikipedia: Taiko"
+  },
+  {
+    "id": "3d282beb-9c3f-4162-9675-e83705fa368e",
+    "text": "What is the name of the valve system used in modern French horns that allows players to change the instrument's pitch by redirecting air through additional tubing?",
+    "options": [
+      "Piston valves",
+      "Rotary valves",
+      "Slide valves",
+      "Reed valves"
+    ],
+    "correctIndex": 1,
+    "category": "entertainment",
+    "difficulty": "hard",
+    "explanation": "French horns use rotary valves, which are cylindrical valves that rotate to redirect airflow through different lengths of tubing.",
+    "detailedExplanation": "Modern French horns typically use rotary valves, also called rotary action valves, which consist of cylindrical valve mechanisms that rotate when activated by the player's fingers via connecting rods and levers. When a valve is pressed, it rotates to redirect the airflow through additional coils of tubing, effectively lengthening the instrument and lowering the pitch. This system is preferred over piston valves for French horns because it provides smoother transitions and is better suited to the instrument's complex tubing configuration.",
+    "citationUrl": "https://en.wikipedia.org/wiki/French_horn",
+    "citationTitle": "Wikipedia: French horn"
+  },
+  {
+    "id": "764fd63c-9a1f-4c21-bb05-6b5eb5090f97",
+    "text": "In piano construction, what is the name of the cast iron frame that supports the enormous tension created by all the strings?",
+    "options": [
+      "Soundboard",
+      "Plate",
+      "Pinblock",
+      "Bridge"
+    ],
+    "correctIndex": 1,
+    "category": "entertainment",
+    "difficulty": "hard",
+    "explanation": "The plate (also called the harp or frame) is the cast iron structure that bears the tremendous string tension in a piano.",
+    "detailedExplanation": "The plate, also known as the harp or frame, is a crucial cast iron component in piano construction that supports the enormous tension created by the piano's strings - which can total up to 20 tons of pressure in a grand piano. This heavy metal framework is precisely cast and machined to provide the structural integrity necessary to keep the piano in tune and prevent the wooden case from warping or breaking under the immense string tension. The development of the full cast iron plate in the 19th century was essential for creating the modern piano's power and tonal range.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Piano_construction",
+    "citationTitle": "Wikipedia: Piano construction"
+  },
+  {
+    "id": "175311aa-dacd-4938-85bc-5f9eed06b142",
+    "text": "Which woodwind instrument uses a double reed and is known for being notoriously difficult to tune, often serving as the reference pitch for orchestral tuning?",
+    "options": [
+      "English horn",
+      "Bassoon",
+      "Oboe",
+      "Clarinet"
+    ],
+    "correctIndex": 2,
+    "category": "entertainment",
+    "difficulty": "hard",
+    "explanation": "The oboe uses a double reed and traditionally provides the A440 reference pitch for orchestral tuning due to its penetrating tone and stability.",
+    "detailedExplanation": "The oboe is a double-reed woodwind instrument known for its distinctive penetrating and somewhat nasal tone. It is traditionally used to provide the reference pitch (A440) for orchestral tuning because its sound cuts through the ensemble and it maintains pitch stability better than most other instruments once warmed up. However, the oboe is notoriously difficult to tune and play in tune due to its double reed construction, which is highly sensitive to temperature, humidity, and embouchure changes. Professional oboists often spend considerable time making and adjusting their own reeds.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Oboe",
+    "citationTitle": "Wikipedia: Oboe"
+  },
+  {
+    "id": "925340c6-f64f-461e-957a-cdf395626992",
+    "text": "What is the name of the metal slide mechanism on a trombone that allows players to change pitch by altering the length of the instrument's tubing?",
+    "options": [
+      "Valve slide",
+      "Tuning slide",
+      "Main slide",
+      "Water key slide"
+    ],
+    "correctIndex": 2,
+    "category": "entertainment",
+    "difficulty": "hard",
+    "explanation": "The main slide is the primary moveable section of the trombone that changes the instrument's pitch by extending or shortening the tubing.",
+    "detailedExplanation": "The main slide, also called the hand slide, is the trombone's most distinctive feature - a telescoping section of tubing that the player moves in and out to change the instrument's pitch. The slide has seven basic positions, each creating a different harmonic series by lengthening the instrument's overall tubing. Position 1 (slide fully closed) produces the highest pitches, while position 7 (slide fully extended) produces the lowest. This mechanism makes the trombone unique among brass instruments, as it can produce true glissandos and access all pitches within its range without the discrete steps created by valves.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Trombone",
+    "citationTitle": "Wikipedia: Trombone"
+  },
+  {
+    "id": "3143c757-8e87-4d1b-a2f5-5f0be38ffc92",
+    "text": "Which stringed instrument technique involves rapidly moving the bow back and forth on the same note to create a trembling or agitated effect?",
+    "options": [
+      "Pizzicato",
+      "Tremolo",
+      "Harmonics",
+      "Col legno"
+    ],
+    "correctIndex": 1,
+    "category": "entertainment",
+    "difficulty": "hard",
+    "explanation": "Tremolo involves rapidly repeating the same note with quick bow changes to create a trembling, agitated sound effect.",
+    "detailedExplanation": "Tremolo is a string technique where the player rapidly alternates the bow direction (up-bow and down-bow) on the same note or chord to create a trembling, shimmering effect. This technique is achieved through quick, short bow strokes that maintain the same pitch while creating rhythmic intensity and dramatic tension. Tremolo is commonly used in orchestral music to build suspense, create atmospheric effects, or add emotional intensity to a passage. It differs from vibrato, which varies the pitch, as tremolo maintains constant pitch while varying the bow movement.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Tremolo",
+    "citationTitle": "Wikipedia: Tremolo"
+  },
+  {
+    "id": "61479f55-8c4e-414f-bf57-b66af5a2702b",
+    "text": "What is the name of the small wooden piece on string instruments that transmits vibrations from the strings to the soundboard?",
+    "options": [
+      "Nut",
+      "Bridge",
+      "Tailpiece",
+      "Sound post"
+    ],
+    "correctIndex": 1,
+    "category": "entertainment",
+    "difficulty": "hard",
+    "explanation": "The bridge is the wooden piece that supports the strings and transfers their vibrations to the instrument's soundboard.",
+    "detailedExplanation": "The bridge is a carefully carved piece of wood (typically maple) that stands on the soundboard of string instruments like violins, violas, cellos, and double basses. It supports the strings at the proper height and angle while serving as the primary transmission point for string vibrations to reach the soundboard, which then amplifies and resonates the sound. The bridge's shape, positioning, and wood quality significantly affect the instrument's tone, volume, and response. It must be precisely fitted and positioned, and professional musicians often have their bridges customized by skilled luthiers to optimize their instrument's sound.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Bridge_(instrument)",
+    "citationTitle": "Wikipedia: Bridge (instrument)"
+  },
+  {
+    "id": "bdd4f13d-33ed-4a95-a88d-322663f15fd6",
+    "text": "What is the name of the tuning system used in many Middle Eastern and North African instruments where the octave is divided into 24 equal intervals instead of the Western 12?",
+    "options": [
+      "Quartertone system",
+      "Microtonal system",
+      "Arabic maqam system",
+      "Byzantine system"
+    ],
+    "correctIndex": 0,
+    "category": "entertainment",
+    "difficulty": "hard",
+    "explanation": "The quartertone system divides octaves into 24 equal intervals, creating quarter-tones between Western semitones.",
+    "detailedExplanation": "The quartertone system is a tuning method that divides the octave into 24 equal parts rather than the 12 semitones used in Western music. This creates intervals that are half the size of a semitone, allowing for the microtonal inflections characteristic of Middle Eastern and North African music. Instruments like the oud, qanun, and ney are often tuned using this system, enabling musicians to perform the subtle pitch variations essential to traditional Arabic, Turkish, and Persian musical styles.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Quarter_tone",
+    "citationTitle": "Wikipedia: Quarter tone"
+  },
+  {
+    "id": "4338e3eb-befb-422b-9145-e21d01625a03",
+    "text": "Which ancient wind instrument, made from clay or ceramic, typically has 4-12 finger holes and is one of the oldest known musical instruments dating back over 12,000 years?",
+    "options": [
+      "Ocarina",
+      "Panpipes",
+      "Recorder",
+      "Tin whistle"
+    ],
+    "correctIndex": 0,
+    "category": "entertainment",
+    "difficulty": "hard",
+    "explanation": "The ocarina is an ancient clay wind instrument with finger holes that dates back thousands of years.",
+    "detailedExplanation": "The ocarina is a wind instrument typically made from clay, ceramic, or sometimes wood, characterized by its oval or elongated shape and multiple finger holes. Archaeological evidence suggests ocarinas have been used for over 12,000 years, with examples found in ancient civilizations across the world including China, Central America, and Europe. The instrument produces sound when air is blown through a mouthpiece and resonates within the enclosed chamber, with pitch controlled by covering and uncovering the finger holes. Modern ocarinas gained popularity partly due to their featured use in video games like The Legend of Zelda series.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Ocarina",
+    "citationTitle": "Wikipedia: Ocarina"
+  },
+  {
+    "id": "f62bffa4-b05f-46cd-983e-845de8a3aaf6",
+    "text": "What is the name of the electronic music instrument invented by Léon Theremin in 1920 that is played without physical contact by moving hands near two antennas?",
+    "options": [
+      "Theremin",
+      "Ondes Martenot",
+      "Mellotron",
+      "Moog synthesizer"
+    ],
+    "correctIndex": 0,
+    "category": "entertainment",
+    "difficulty": "hard",
+    "explanation": "The theremin is played by moving hands near antennas that control pitch and volume without touching the instrument.",
+    "detailedExplanation": "The theremin, invented by Russian physicist Léon Theremin in 1920, is one of the earliest electronic musical instruments and unique in that it's played without physical contact. The instrument consists of two antennas that create electromagnetic fields - one controls pitch (usually a vertical rod) and the other controls volume (typically a horizontal loop). As the performer's hands approach or move away from these antennas, they alter the electromagnetic field, producing eerie, continuous tones. The theremin became famous for its otherworldly sound in science fiction film soundtracks and classical compositions, most notably used by Clara Rockmore, who was considered the instrument's greatest virtuoso.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Theremin",
+    "citationTitle": "Wikipedia: Theremin"
+  },
+  {
+    "id": "d00172d4-6e5c-49d9-820e-884fcec37689",
+    "text": "In pipe organ construction, what term describes the wind chest component that controls which ranks of pipes receive air when specific keys are pressed?",
+    "options": [
+      "Action",
+      "Soundboard",
+      "Stop action",
+      "Key action"
+    ],
+    "correctIndex": 0,
+    "category": "entertainment",
+    "difficulty": "hard",
+    "explanation": "The action is the mechanical, pneumatic, or electric system that connects keys to the wind chests controlling pipe airflow.",
+    "detailedExplanation": "In pipe organ terminology, the 'action' refers to the complex system of mechanisms that connect the keyboard and stop controls to the wind chests and pipes. When an organist presses a key, the action opens the appropriate valves in the wind chest, allowing pressurized air to flow to the selected pipes and produce sound. There are three main types of action: mechanical (tracker action using physical linkages), pneumatic (using air pressure), and electric (using electrical switches and magnets). The action also includes the stop action, which determines which ranks of pipes are available when keys are pressed, allowing organists to select different timbres and combinations of sounds.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Pipe_organ",
+    "citationTitle": "Wikipedia: Pipe organ"
+  }
+]

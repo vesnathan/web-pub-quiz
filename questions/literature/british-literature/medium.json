@@ -1,0 +1,342 @@
+[
+  {
+    "id": "5798d1a0-d20f-4599-99c6-f2ab01f60ce5",
+    "text": "In Shakespeare's 'Hamlet', what is the name of Hamlet's love interest?",
+    "options": [
+      "Ophelia",
+      "Desdemona",
+      "Cordelia",
+      "Portia"
+    ],
+    "correctIndex": 0,
+    "category": "literature",
+    "difficulty": "medium",
+    "explanation": "Ophelia is Hamlet's tragic love interest who goes mad after her father's death.",
+    "detailedExplanation": "Ophelia is the daughter of Polonius and sister to Laertes in Shakespeare's tragedy. Her relationship with Hamlet becomes increasingly strained throughout the play, particularly after Hamlet kills her father. Her subsequent madness and drowning represent some of the most poignant scenes in the play. The other options are heroines from different Shakespeare plays: Desdemona from Othello, Cordelia from King Lear, and Portia from The Merchant of Venice.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Ophelia",
+    "citationTitle": "Wikipedia: Ophelia"
+  },
+  {
+    "id": "ffd44fe8-33ca-4ad9-a8ed-32920ef1d2e5",
+    "text": "Which 20th-century British author wrote the dystopian novels '1984' and 'Animal Farm'?",
+    "options": [
+      "Aldous Huxley",
+      "George Orwell",
+      "H.G. Wells",
+      "Anthony Burgess"
+    ],
+    "correctIndex": 1,
+    "category": "literature",
+    "difficulty": "medium",
+    "explanation": "George Orwell wrote both of these famous dystopian works critiquing totalitarianism.",
+    "detailedExplanation": "Eric Arthur Blair, writing under the pen name George Orwell, published Animal Farm in 1945 as an allegory about the Russian Revolution and Stalinist era. 1984, published in 1949, depicted a totalitarian future society and introduced concepts like 'Big Brother' and 'doublethink' into popular culture. Both novels remain highly influential critiques of authoritarianism and are considered masterpieces of dystopian fiction.",
+    "citationUrl": "https://en.wikipedia.org/wiki/George_Orwell",
+    "citationTitle": "Wikipedia: George Orwell"
+  },
+  {
+    "id": "ab5bf07b-c2dc-4df2-8e25-6d8ee7bc1635",
+    "text": "Which epic poem by John Milton tells the story of Satan's rebellion and the fall of Adam and Eve?",
+    "options": [
+      "Paradise Lost",
+      "Paradise Regained",
+      "Samson Agonistes",
+      "Lycidas"
+    ],
+    "correctIndex": 0,
+    "category": "literature",
+    "difficulty": "medium",
+    "explanation": "Paradise Lost is Milton's masterwork about the fall of man from the Garden of Eden.",
+    "detailedExplanation": "Published in 1667, Paradise Lost is a blank verse epic poem consisting of twelve books. It retells the biblical story of the fall of mankind, beginning with Satan's rebellion against God and culminating in Adam and Eve's expulsion from the Garden of Eden. The poem is renowned for its complex theology, rich imagery, and Milton's sympathetic portrayal of Satan, which has led to centuries of literary debate about the poem's true protagonist.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Paradise_Lost",
+    "citationTitle": "Wikipedia: Paradise Lost"
+  },
+  {
+    "id": "b03a14a6-a6e6-4e59-be40-0c28bda185c2",
+    "text": "Which Romantic poet wrote 'She Walks in Beauty' and 'Don Juan'?",
+    "options": [
+      "Percy Bysshe Shelley",
+      "John Keats",
+      "Lord Byron",
+      "Samuel Taylor Coleridge"
+    ],
+    "correctIndex": 2,
+    "category": "literature",
+    "difficulty": "medium",
+    "explanation": "Lord Byron wrote both of these famous works during the Romantic period.",
+    "detailedExplanation": "George Gordon Byron, 6th Baron Byron, was one of the leading figures of the Romantic movement. 'She Walks in Beauty' (1814) is one of his most famous lyric poems, inspired by his encounter with his cousin's wife at a party. 'Don Juan' (1819-1824) is his epic satirical poem, left unfinished at his death. Byron's scandalous personal life and revolutionary politics made him a controversial figure, leading to his self-imposed exile from England.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Lord_Byron",
+    "citationTitle": "Wikipedia: Lord Byron"
+  },
+  {
+    "id": "022dae5a-d0a9-4d93-9de9-40b37b22eb26",
+    "text": "Which Virginia Woolf novel uses stream-of-consciousness technique to follow characters through a single day in London?",
+    "options": [
+      "To the Lighthouse",
+      "Mrs Dalloway",
+      "The Waves",
+      "Orlando"
+    ],
+    "correctIndex": 1,
+    "category": "literature",
+    "difficulty": "medium",
+    "explanation": "Mrs Dalloway follows Clarissa Dalloway and other characters through one day using stream-of-consciousness.",
+    "detailedExplanation": "Published in 1925, Mrs Dalloway takes place over the course of a single day in post-World War I London, following Clarissa Dalloway as she prepares for a party. Woolf employs stream-of-consciousness narrative technique to reveal the inner thoughts and memories of various characters, including the shell-shocked war veteran Septimus Smith. The novel is considered a masterpiece of modernist literature and demonstrates Woolf's innovative approach to psychological realism and narrative structure.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Mrs_Dalloway",
+    "citationTitle": "Wikipedia: Mrs Dalloway"
+  },
+  {
+    "id": "491ed6ee-8bb2-4198-a244-3b7d7c734cca",
+    "text": "Which Charles Dickens novel features the characters Miss Havisham and Pip?",
+    "options": [
+      "Oliver Twist",
+      "Great Expectations",
+      "David Copperfield",
+      "A Tale of Two Cities"
+    ],
+    "correctIndex": 1,
+    "category": "literature",
+    "difficulty": "medium",
+    "explanation": "Great Expectations follows the story of Pip and includes the memorable character Miss Havisham in her decaying wedding dress.",
+    "detailedExplanation": "Great Expectations, published in 1861, is one of Charles Dickens' most celebrated novels. It tells the coming-of-age story of Philip Pirrip (Pip) and features the iconic character Miss Havisham, a wealthy spinster who lives in a decaying mansion wearing her old wedding dress after being jilted at the altar. The novel explores themes of social class, ambition, and moral development in Victorian England.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Great_Expectations",
+    "citationTitle": "Wikipedia: Great Expectations"
+  },
+  {
+    "id": "b9319407-5de8-4f29-b918-6747e3ab546d",
+    "text": "Which author created the detective character Sherlock Holmes?",
+    "options": [
+      "Agatha Christie",
+      "Arthur Conan Doyle",
+      "Dorothy L. Sayers",
+      "G.K. Chesterton"
+    ],
+    "correctIndex": 1,
+    "category": "literature",
+    "difficulty": "medium",
+    "explanation": "Sir Arthur Conan Doyle created Sherlock Holmes, who first appeared in 'A Study in Scarlet' in 1887.",
+    "detailedExplanation": "Sir Arthur Conan Doyle created the iconic detective Sherlock Holmes, who made his debut in the novel 'A Study in Scarlet' published in 1887. Holmes, along with his companion Dr. John Watson, became one of the most famous fictional detectives in literature. Doyle wrote four novels and 56 short stories featuring Holmes, establishing many conventions of detective fiction that are still used today.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Arthur_Conan_Doyle",
+    "citationTitle": "Wikipedia: Arthur Conan Doyle"
+  },
+  {
+    "id": "3946b991-adba-4a9c-bb3a-79e6a4e6c34f",
+    "text": "Which Shakespeare play features the characters Oberon, Titania, and Puck?",
+    "options": [
+      "The Tempest",
+      "As You Like It",
+      "A Midsummer Night's Dream",
+      "Much Ado About Nothing"
+    ],
+    "correctIndex": 2,
+    "category": "literature",
+    "difficulty": "medium",
+    "explanation": "A Midsummer Night's Dream features these fairy characters, with Oberon and Titania as the fairy king and queen, and Puck as Oberon's mischievous servant.",
+    "detailedExplanation": "A Midsummer Night's Dream, written around 1595-1596, is one of Shakespeare's most popular comedies. The play features two parallel worlds: the human world of Athens and the magical fairy world ruled by Oberon and Titania. Puck, also known as Robin Goodfellow, serves as Oberon's mischievous sprite who creates much of the confusion and comedy in the play through his magical interventions in both the fairy and human realms.",
+    "citationUrl": "https://en.wikipedia.org/wiki/A_Midsummer_Night%27s_Dream",
+    "citationTitle": "Wikipedia: A Midsummer Night's Dream"
+  },
+  {
+    "id": "dd054b17-b44d-4c32-ae3c-4853864dcf7c",
+    "text": "Which author wrote the Gothic novel 'Frankenstein'?",
+    "options": [
+      "Bram Stoker",
+      "Mary Shelley",
+      "Ann Radcliffe",
+      "Horace Walpole"
+    ],
+    "correctIndex": 1,
+    "category": "literature",
+    "difficulty": "medium",
+    "explanation": "Mary Shelley wrote 'Frankenstein' when she was just 18 years old, publishing it in 1818.",
+    "detailedExplanation": "Mary Shelley wrote 'Frankenstein; or, The Modern Prometheus' at the remarkably young age of 18, though it wasn't published until 1818 when she was 20. The novel originated during the famous summer of 1816 spent with Lord Byron and Percy Bysshe Shelley at Lake Geneva, where they challenged each other to write ghost stories. Shelley's contribution became one of the foundational works of both Gothic and science fiction literature.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Frankenstein",
+    "citationTitle": "Wikipedia: Frankenstein"
+  },
+  {
+    "id": "33b55828-df4a-4bcd-a6be-fb6d23395af3",
+    "text": "Which Thomas Hardy novel is set in the fictional county of Wessex and tells the story of Tess Durbeyfield?",
+    "options": [
+      "The Mayor of Casterbridge",
+      "Jude the Obscure",
+      "Tess of the d'Urbervilles",
+      "Far from the Madding Crowd"
+    ],
+    "correctIndex": 2,
+    "category": "literature",
+    "difficulty": "medium",
+    "explanation": "Tess of the d'Urbervilles follows the tragic story of Tess Durbeyfield in Hardy's fictional Wessex countryside.",
+    "detailedExplanation": "Published in 1891, 'Tess of the d'Urbervilles' is considered one of Thomas Hardy's greatest novels. Set in his fictional Wessex (based on his native Dorset and surrounding counties), the novel follows the tragic fate of Tess Durbeyfield, a young woman from a poor family who discovers she may be related to the noble d'Urberville family. The novel was controversial for its time due to its frank treatment of sexuality and its critique of Victorian moral standards.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Tess_of_the_d%27Urbervilles",
+    "citationTitle": "Wikipedia: Tess of the d'Urbervilles"
+  },
+  {
+    "id": "5f7db00d-c81a-48f6-b9aa-710cf3f1eb47",
+    "text": "Which poet wrote 'The Waste Land', a landmark modernist poem published in 1922?",
+    "options": [
+      "W.H. Auden",
+      "T.S. Eliot",
+      "W.B. Yeats",
+      "Ezra Pound"
+    ],
+    "correctIndex": 1,
+    "category": "literature",
+    "difficulty": "medium",
+    "explanation": "T.S. Eliot wrote 'The Waste Land', which became one of the most influential poems of the 20th century.",
+    "detailedExplanation": "T.S. Eliot's 'The Waste Land' was published in 1922 and is widely regarded as one of the most important poems of the 20th century. The 434-line poem reflects the disillusionment and spiritual emptiness following World War I. Written in five sections, it employs multiple voices, languages, and literary allusions, and was significantly edited by Ezra Pound. The poem's fragmented structure and complex symbolism made it a defining work of literary modernism.",
+    "citationUrl": "https://en.wikipedia.org/wiki/The_Waste_Land",
+    "citationTitle": "Wikipedia: The Waste Land"
+  },
+  {
+    "id": "81ffd5ad-45a3-4d23-a4cb-d4d049065233",
+    "text": "In which Brontë novel does the character Rochester lose his sight and hand in a fire?",
+    "options": [
+      "Wuthering Heights",
+      "Jane Eyre",
+      "Agnes Grey",
+      "The Tenant of Wildfell Hall"
+    ],
+    "correctIndex": 1,
+    "category": "literature",
+    "difficulty": "medium",
+    "explanation": "In Charlotte Brontë's 'Jane Eyre', Rochester is injured when his mansion Thornfield Hall burns down.",
+    "detailedExplanation": "In Charlotte Brontë's 'Jane Eyre' (1847), Edward Rochester suffers severe injuries when Thornfield Hall is set ablaze by his mentally ill wife Bertha Mason. In trying to save her from the fire, Rochester loses his sight and his left hand. This physical transformation occurs near the novel's end and represents both punishment for his past deceptions and a leveling of the power dynamic between him and Jane, allowing for their eventual reunion on more equal terms.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Jane_Eyre",
+    "citationTitle": "Wikipedia: Jane Eyre"
+  },
+  {
+    "id": "25dd18e5-1c11-4f75-a2bd-ffc6b77ee936",
+    "text": "Which British author wrote the fantasy trilogy 'His Dark Materials', featuring the character Lyra Belacqua?",
+    "options": [
+      "Neil Gaiman",
+      "Philip Pullman",
+      "Terry Pratchett",
+      "J.K. Rowling"
+    ],
+    "correctIndex": 1,
+    "category": "literature",
+    "difficulty": "medium",
+    "explanation": "Philip Pullman wrote 'His Dark Materials' trilogy.",
+    "detailedExplanation": "Philip Pullman created the acclaimed fantasy trilogy 'His Dark Materials' consisting of 'Northern Lights' (published as 'The Golden Compass' in North America), 'The Subtle Knife', and 'The Amber Spyglass'. The series follows Lyra Belacqua and later Will Parry as they travel through parallel universes, exploring themes of consciousness, religion, and coming of age.",
+    "citationUrl": "https://en.wikipedia.org/wiki/His_Dark_Materials",
+    "citationTitle": "Wikipedia: His Dark Materials"
+  },
+  {
+    "id": "429db5ec-cc35-423f-8db8-277e21e1769a",
+    "text": "Which Canterbury Tales character is described as a 'Wife of Bath' in Geoffrey Chaucer's work?",
+    "options": [
+      "Dame Prudence",
+      "Dame Alison",
+      "Dame Margaret",
+      "Dame Eleanor"
+    ],
+    "correctIndex": 1,
+    "category": "literature",
+    "difficulty": "medium",
+    "explanation": "Dame Alison is the Wife of Bath's name in Chaucer's Canterbury Tales.",
+    "detailedExplanation": "In Geoffrey Chaucer's 'The Canterbury Tales', the Wife of Bath is named Dame Alison (or Alisoun). She is one of the most memorable and complex characters in the collection, known for her views on marriage and female sovereignty. She tells a tale about what women most desire, having been married five times herself, and represents a strong female voice in medieval literature.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Wife_of_Bath",
+    "citationTitle": "Wikipedia: Wife of Bath"
+  },
+  {
+    "id": "1b29e22c-16d4-402a-8a0c-b00ab958dbb0",
+    "text": "Which British poet served as Poet Laureate for the longest period in history, from 1850 to 1892?",
+    "options": [
+      "William Wordsworth",
+      "Alfred, Lord Tennyson",
+      "Robert Browning",
+      "Matthew Arnold"
+    ],
+    "correctIndex": 1,
+    "category": "literature",
+    "difficulty": "medium",
+    "explanation": "Alfred, Lord Tennyson served as Poet Laureate for 42 years, the longest tenure in history.",
+    "detailedExplanation": "Alfred, Lord Tennyson was appointed Poet Laureate in 1850 following the death of William Wordsworth, and held the position until his own death in 1892—a record 42 years. During his tenure, he wrote some of his most famous works including 'The Charge of the Light Brigade' and completed 'Idylls of the King'. His long service made him one of the most influential literary figures of the Victorian era.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Alfred,_Lord_Tennyson",
+    "citationTitle": "Wikipedia: Alfred, Lord Tennyson"
+  },
+  {
+    "id": "a3ce8631-7409-40ef-b446-ff9c0424aa2d",
+    "text": "In which Agatha Christie novel does detective Hercule Poirot make his final appearance?",
+    "options": [
+      "The Murder of Roger Ackroyd",
+      "Curtain",
+      "Death on the Nile",
+      "The ABC Murders"
+    ],
+    "correctIndex": 1,
+    "category": "literature",
+    "difficulty": "medium",
+    "explanation": "'Curtain' was Poirot's final case, where he dies at the end of the novel.",
+    "detailedExplanation": "Agatha Christie's 'Curtain' (1975) marks the final appearance and death of her famous Belgian detective Hercule Poirot. Set at Styles Court, the same location as Poirot's first case, the novel sees an elderly and frail Poirot solving one last murder case with his old friend Captain Hastings. Christie wrote this novel in the 1940s but kept it in a vault, publishing it near the end of her career as Poirot's swan song.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Curtain_(novel)",
+    "citationTitle": "Wikipedia: Curtain (novel)"
+  },
+  {
+    "id": "85720c35-e3c0-4353-9bef-e503b1fed0e3",
+    "text": "Which Scottish author wrote 'Treasure Island' and 'The Strange Case of Dr. Jekyll and Mr. Hyde'?",
+    "options": [
+      "Sir Walter Scott",
+      "Robert Louis Stevenson",
+      "Arthur Conan Doyle",
+      "James Barrie"
+    ],
+    "correctIndex": 1,
+    "category": "literature",
+    "difficulty": "medium",
+    "explanation": "Robert Louis Stevenson wrote both adventure and horror classics.",
+    "detailedExplanation": "Robert Louis Stevenson (1850-1894) was a Scottish novelist, poet, and travel writer who created some of literature's most enduring works. 'Treasure Island' (1883) became the archetypal pirate adventure story, while 'The Strange Case of Dr. Jekyll and Mr. Hyde' (1886) explored the duality of human nature and became a cornerstone of Gothic literature. Despite his relatively short life, Stevenson's works remain popular worldwide.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Robert_Louis_Stevenson",
+    "citationTitle": "Wikipedia: Robert Louis Stevenson"
+  },
+  {
+    "id": "694e3e7f-1159-4dde-bb2f-dcb523f45357",
+    "text": "What is the name of the country estate in Jane Austen's 'Mansfield Park'?",
+    "options": [
+      "Pemberley",
+      "Kellynch Hall",
+      "Mansfield Park",
+      "Hartfield"
+    ],
+    "correctIndex": 2,
+    "category": "literature",
+    "difficulty": "medium",
+    "explanation": "Mansfield Park is both the title and the name of the estate in the novel.",
+    "detailedExplanation": "In Jane Austen's 'Mansfield Park' (1814), the estate called Mansfield Park is the central setting and gives the novel its title. It is the home of Sir Thomas and Lady Bertram, where the protagonist Fanny Price is brought up as a poor relation. The estate represents the English landed gentry's world and serves as the backdrop for examining issues of morality, social class, and the treatment of dependents in Regency society.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Mansfield_Park",
+    "citationTitle": "Wikipedia: Mansfield Park"
+  },
+  {
+    "id": "6bea4061-b4db-4f83-967f-a28b9842e7a0",
+    "text": "Which British author created the fictional African country of Azania in the satirical novel 'Black Mischief'?",
+    "options": [
+      "Graham Greene",
+      "Evelyn Waugh",
+      "Anthony Powell",
+      "Aldous Huxley"
+    ],
+    "correctIndex": 1,
+    "category": "literature",
+    "difficulty": "medium",
+    "explanation": "Evelyn Waugh created Azania as a setting for his satirical novel 'Black Mischief'.",
+    "detailedExplanation": "Evelyn Waugh created the fictional African country of Azania in his 1932 satirical novel 'Black Mischief'. The novel follows the misadventures of Emperor Seth of Azania as he attempts to modernize his backward country with disastrous results. Waugh used this fictional setting to satirize both African politics and British colonial attitudes, though the work is now considered controversial for its dated racial perspectives.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Black_Mischief",
+    "citationTitle": "Wikipedia: Black Mischief"
+  },
+  {
+    "id": "2cb211f3-b525-4f83-863f-5ed4c6710cc5",
+    "text": "Which British author wrote the novel 'Kidnapped' and created the character David Balfour?",
+    "options": [
+      "Robert Louis Stevenson",
+      "Walter Scott",
+      "Arthur Conan Doyle",
+      "Daniel Defoe"
+    ],
+    "correctIndex": 0,
+    "category": "literature",
+    "difficulty": "medium",
+    "explanation": "Robert Louis Stevenson wrote 'Kidnapped' in 1886, featuring the young protagonist David Balfour.",
+    "detailedExplanation": "'Kidnapped' is a historical adventure novel by Robert Louis Stevenson, published in 1886. The story follows David Balfour, a young Lowland Scot who becomes involved in the Jacobite struggles of 18th-century Scotland after being kidnapped and sold into slavery. The novel is considered one of Stevenson's finest works alongside 'Treasure Island' and showcases his talent for adventure narratives set in Scottish historical contexts.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Kidnapped_(novel)",
+    "citationTitle": "Wikipedia: Kidnapped (novel)"
+  }
+]

@@ -1,0 +1,342 @@
+[
+  {
+    "id": "5be20bbe-0643-402d-99da-868192769303",
+    "text": "Which constitutional amendment established the federal income tax?",
+    "options": [
+      "14th Amendment",
+      "16th Amendment",
+      "17th Amendment",
+      "19th Amendment"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "The 16th Amendment, ratified in 1913, gave Congress the power to levy income taxes.",
+    "detailedExplanation": "The 16th Amendment was ratified on February 3, 1913, and explicitly granted Congress the power to 'lay and collect taxes on incomes, from whatever source derived, without apportionment among the several States.' This overturned previous Supreme Court decisions that had limited the federal government's ability to impose direct taxes, paving the way for the modern federal income tax system.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Sixteenth_Amendment_to_the_United_States_Constitution",
+    "citationTitle": "Wikipedia: Sixteenth Amendment to the United States Constitution"
+  },
+  {
+    "id": "c98172bf-dc9d-42d9-a890-9a0ff51c8b53",
+    "text": "How many states must ratify a constitutional amendment for it to become part of the Constitution?",
+    "options": [
+      "Two-thirds (34 states)",
+      "Three-fourths (38 states)",
+      "Simple majority (26 states)",
+      "All 50 states"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Three-fourths of the states (currently 38 out of 50) must ratify an amendment for it to become part of the Constitution.",
+    "detailedExplanation": "Article V of the Constitution specifies that amendments become valid 'when ratified by the legislatures of three fourths of the several States, or by conventions in three fourths thereof.' With 50 states currently in the Union, this means 38 states must approve any proposed amendment. This high threshold ensures that constitutional changes have broad national support across diverse regions and political perspectives.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Article_Five_of_the_United_States_Constitution",
+    "citationTitle": "Wikipedia: Article Five of the United States Constitution"
+  },
+  {
+    "id": "caebfa04-67e2-42da-b547-7d67b36dcf9c",
+    "text": "Which amendment repealed another constitutional amendment?",
+    "options": [
+      "20th Amendment",
+      "21st Amendment",
+      "22nd Amendment",
+      "23rd Amendment"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "The 21st Amendment repealed the 18th Amendment, ending Prohibition in 1933.",
+    "detailedExplanation": "The 21st Amendment, ratified on December 5, 1933, explicitly repealed the 18th Amendment which had established Prohibition. This makes it unique in constitutional history as the only amendment to completely repeal another amendment. The failure of Prohibition, marked by widespread non-compliance, organized crime, and enforcement difficulties, led to growing public support for repeal during the Great Depression.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Twenty-first_Amendment_to_the_United_States_Constitution",
+    "citationTitle": "Wikipedia: Twenty-first Amendment to the United States Constitution"
+  },
+  {
+    "id": "809f839b-2334-451d-af42-9d53bfe8f655",
+    "text": "The 22nd Amendment limits presidents to how many terms?",
+    "options": [
+      "One term",
+      "Two terms",
+      "Three terms",
+      "Four terms"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "The 22nd Amendment, ratified in 1951, limits presidents to two terms in office.",
+    "detailedExplanation": "The 22nd Amendment was ratified on February 27, 1951, in direct response to Franklin D. Roosevelt's unprecedented four presidential election victories. The amendment states that 'No person shall be elected to the office of the President more than twice.' This codified the two-term tradition established by George Washington and broken only by FDR, ensuring that no future president could accumulate excessive power through prolonged tenure.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Twenty-second_Amendment_to_the_United_States_Constitution",
+    "citationTitle": "Wikipedia: Twenty-second Amendment to the United States Constitution"
+  },
+  {
+    "id": "5ea6dcc5-85f3-4e3b-9ebb-eec8b03e9624",
+    "text": "Which amendment established the direct election of U.S. Senators by popular vote?",
+    "options": [
+      "15th Amendment",
+      "16th Amendment",
+      "17th Amendment",
+      "18th Amendment"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "The 17th Amendment, ratified in 1913, established direct election of senators by voters instead of state legislatures.",
+    "detailedExplanation": "The 17th Amendment was ratified on April 8, 1913, fundamentally changing how U.S. Senators are chosen. Originally, the Constitution provided that senators be selected by state legislatures, but this system led to corruption, deadlocks, and senators who were often more accountable to political machines than to voters. The Progressive Era reform movement successfully pushed for this amendment to make the Senate more democratic and responsive to the people.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Seventeenth_Amendment_to_the_United_States_Constitution",
+    "citationTitle": "Wikipedia: Seventeenth Amendment to the United States Constitution"
+  },
+  {
+    "id": "e73fb1f9-3d71-4d10-9d78-b1b80148db79",
+    "text": "The Equal Rights Amendment (ERA) fell short of ratification by how many states?",
+    "options": [
+      "1 state",
+      "2 states",
+      "3 states",
+      "5 states"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "The ERA fell 3 states short of the 38 needed for ratification when its deadline expired in 1982.",
+    "detailedExplanation": "The Equal Rights Amendment was passed by Congress in 1972 with a seven-year deadline for ratification, later extended to 1982. By the deadline, only 35 states had ratified the amendment, falling three states short of the required 38. The amendment faced organized opposition, particularly from conservative groups who argued it would eliminate legal protections for women and lead to unintended consequences. Several states that initially ratified the amendment later attempted to rescind their ratification, though the legal validity of such rescissions remains disputed.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Equal_Rights_Amendment",
+    "citationTitle": "Wikipedia: Equal Rights Amendment"
+  },
+  {
+    "id": "539282b1-f635-4575-a0b2-b99b374ed329",
+    "text": "Which constitutional amendment granted women the right to vote?",
+    "options": [
+      "18th Amendment",
+      "19th Amendment",
+      "20th Amendment",
+      "21st Amendment"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "The 19th Amendment, ratified in 1920, granted women the right to vote.",
+    "detailedExplanation": "The 19th Amendment to the United States Constitution prohibits the states and the federal government from denying the right to vote to citizens of the United States on the basis of sex. It was passed by Congress on June 4, 1919, and ratified on August 18, 1920, culminating decades of activism by the women's suffrage movement.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Nineteenth_Amendment_to_the_United_States_Constitution",
+    "citationTitle": "Wikipedia: Nineteenth Amendment to the United States Constitution"
+  },
+  {
+    "id": "708ad903-dcea-40f9-8021-803c876dad60",
+    "text": "The 18th Amendment established what national policy?",
+    "options": [
+      "Women's suffrage",
+      "Prohibition of alcohol",
+      "Presidential term limits",
+      "Federal income tax"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "The 18th Amendment established Prohibition, banning the manufacture, sale, and transportation of alcoholic beverages.",
+    "detailedExplanation": "The Eighteenth Amendment to the United States Constitution established the prohibition of alcohol in the United States. It was ratified on January 16, 1919, and came into effect on January 17, 1920. This amendment was later repealed by the Twenty-first Amendment in 1933, making it the only constitutional amendment to be fully repealed.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Eighteenth_Amendment_to_the_United_States_Constitution",
+    "citationTitle": "Wikipedia: Eighteenth Amendment to the United States Constitution"
+  },
+  {
+    "id": "8f38da44-0a76-41e8-ba1b-d1d3261907a0",
+    "text": "Which amendment lowered the voting age from 21 to 18?",
+    "options": [
+      "24th Amendment",
+      "25th Amendment",
+      "26th Amendment",
+      "27th Amendment"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "The 26th Amendment, ratified in 1971, lowered the voting age to 18.",
+    "detailedExplanation": "The Twenty-sixth Amendment to the United States Constitution prohibits the states and the federal government from using age as a reason for denying the right to vote to citizens of the United States who are at least eighteen years old. It was proposed by Congress on March 23, 1971, and was ratified on July 1, 1971, making it the quickest amendment to be ratified in U.S. history.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Twenty-sixth_Amendment_to_the_United_States_Constitution",
+    "citationTitle": "Wikipedia: Twenty-sixth Amendment to the United States Constitution"
+  },
+  {
+    "id": "040977d8-3f95-41b8-99ca-90df8c6fbfec",
+    "text": "The 14th Amendment, ratified after the Civil War, primarily established what principle?",
+    "options": [
+      "Equal protection under the law",
+      "Abolition of slavery",
+      "Right to bear arms",
+      "Freedom of speech"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "The 14th Amendment established equal protection under the law and defined citizenship.",
+    "detailedExplanation": "The Fourteenth Amendment to the United States Constitution was adopted on July 9, 1868. It addresses citizenship rights and equal protection under the law and was proposed in response to issues related to former slaves following the American Civil War. The amendment's first section includes the Equal Protection Clause, which has been the basis for many landmark Supreme Court decisions regarding civil rights.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Fourteenth_Amendment_to_the_United_States_Constitution",
+    "citationTitle": "Wikipedia: Fourteenth Amendment to the United States Constitution"
+  },
+  {
+    "id": "9ceeb54b-7d25-460a-9d72-688c49a0a201",
+    "text": "Which amendment abolished slavery throughout the United States?",
+    "options": [
+      "12th Amendment",
+      "13th Amendment",
+      "14th Amendment",
+      "15th Amendment"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "The 13th Amendment, ratified in 1865, abolished slavery and involuntary servitude.",
+    "detailedExplanation": "The Thirteenth Amendment to the United States Constitution abolished slavery and involuntary servitude, except as punishment for a crime. It was passed by the Senate on April 8, 1864, and by the House of Representatives on January 31, 1865. The amendment was ratified by the required number of states on December 6, 1865, formally ending the institution of slavery in the United States.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Thirteenth_Amendment_to_the_United_States_Constitution",
+    "citationTitle": "Wikipedia: Thirteenth Amendment to the United States Constitution"
+  },
+  {
+    "id": "e8fb569b-4f96-4dcd-be24-edede320cf13",
+    "text": "The 25th Amendment deals with what governmental issue?",
+    "options": [
+      "Congressional pay raises",
+      "Presidential succession and disability",
+      "Voting rights",
+      "Term limits for Congress"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "The 25th Amendment addresses presidential succession and procedures for handling presidential disability.",
+    "detailedExplanation": "The Twenty-fifth Amendment to the United States Constitution deals with presidential succession and disability. Ratified on February 10, 1967, it clarifies what happens when the president dies, resigns, or is removed from office, and establishes procedures for dealing with presidential disabilities. It also provides a mechanism for filling vice presidential vacancies and for the vice president to serve as acting president when the president is unable to discharge their duties.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Twenty-fifth_Amendment_to_the_United_States_Constitution",
+    "citationTitle": "Wikipedia: Twenty-fifth Amendment to the United States Constitution"
+  },
+  {
+    "id": "ace332ed-d018-4aba-9ce3-2564ebd1c646",
+    "text": "The most recent constitutional amendment (27th) deals with what issue?",
+    "options": [
+      "Presidential term limits",
+      "Congressional pay raises",
+      "Voting age",
+      "Electoral College reform"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "The 27th Amendment prevents Congress from giving itself immediate pay raises.",
+    "detailedExplanation": "The Twenty-seventh Amendment to the United States Constitution prohibits Congress from giving itself immediate pay raises. Originally proposed in 1789 as part of the Bill of Rights, it lay dormant for over 200 years before being rediscovered and ratified on May 7, 1992. The amendment requires that any changes to congressional pay cannot take effect until after the next election of representatives, ensuring that voters have a chance to respond to congressional pay decisions at the ballot box.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Twenty-seventh_Amendment_to_the_United_States_Constitution",
+    "citationTitle": "Wikipedia: Twenty-seventh Amendment to the United States Constitution"
+  },
+  {
+    "id": "01d2d81f-ad8b-415b-acdc-4d1d3d26dc0a",
+    "text": "Which constitutional amendment established the procedure for filling vice presidential vacancies?",
+    "options": [
+      "23rd Amendment",
+      "24th Amendment",
+      "25th Amendment",
+      "26th Amendment"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "The 25th Amendment established procedures for filling vice presidential vacancies and addressing presidential disability.",
+    "detailedExplanation": "Ratified in 1967, the 25th Amendment was created in response to concerns about presidential succession following the Kennedy assassination. Section 2 specifically addresses vice presidential vacancies, requiring the President to nominate a replacement who must be confirmed by both houses of Congress. This provision was first used when Gerald Ford replaced Spiro Agnew as Vice President in 1973.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Twenty-fifth_Amendment_to_the_United_States_Constitution",
+    "citationTitle": "Wikipedia: Twenty-fifth Amendment to the United States Constitution"
+  },
+  {
+    "id": "ee3b207a-dd95-4f40-996e-086b1f17c1e6",
+    "text": "The 24th Amendment, ratified in 1964, eliminated what voting requirement?",
+    "options": [
+      "Property ownership requirements",
+      "Poll taxes in federal elections",
+      "Literacy tests",
+      "Residency requirements"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "The 24th Amendment prohibited poll taxes in federal elections for President, Vice President, and Congress.",
+    "detailedExplanation": "The 24th Amendment was a crucial piece of civil rights legislation that eliminated poll taxes as a barrier to voting in federal elections. Poll taxes had been used primarily in Southern states to prevent African Americans and poor whites from voting. The amendment stated that the right to vote 'shall not be denied or abridged by the United States or any State by reason of failure to pay any poll tax or other tax.'",
+    "citationUrl": "https://en.wikipedia.org/wiki/Twenty-fourth_Amendment_to_the_United_States_Constitution",
+    "citationTitle": "Wikipedia: Twenty-fourth Amendment to the United States Constitution"
+  },
+  {
+    "id": "774e17f3-0698-4029-81eb-6d1ea8b88225",
+    "text": "What is the minimum number of years that must pass between Congress proposing a pay raise for itself and when it can take effect, according to the 27th Amendment?",
+    "options": [
+      "1 year",
+      "2 years",
+      "4 years",
+      "Until after the next congressional election"
+    ],
+    "correctIndex": 3,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "The 27th Amendment requires that congressional pay changes cannot take effect until after the next election of representatives.",
+    "detailedExplanation": "The 27th Amendment prevents Congress from giving themselves immediate pay raises by requiring that any change in congressional compensation cannot take effect until after an election of representatives has intervened. Originally proposed in 1789 as part of the original Bill of Rights, it lay dormant for over 200 years before being rediscovered and ratified in 1992, making it the most recently adopted constitutional amendment.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Twenty-seventh_Amendment_to_the_United_States_Constitution",
+    "citationTitle": "Wikipedia: Twenty-seventh Amendment to the United States Constitution"
+  },
+  {
+    "id": "7f650a1d-d621-40f3-a114-3c6863313f5d",
+    "text": "The 23rd Amendment, ratified in 1961, granted electoral votes to which jurisdiction?",
+    "options": [
+      "Puerto Rico",
+      "Washington D.C.",
+      "U.S. Virgin Islands",
+      "American Samoa"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "The 23rd Amendment granted Washington D.C. electoral votes in presidential elections.",
+    "detailedExplanation": "The 23rd Amendment gave residents of the District of Columbia the right to vote for President and Vice President by granting D.C. electoral votes equal to the least populous state (currently 3 electoral votes). Prior to this amendment, D.C. residents were disenfranchised in presidential elections despite paying federal taxes and being subject to federal laws. The amendment was prompted by the civil rights movement and growing awareness of taxation without representation in the nation's capital.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Twenty-third_Amendment_to_the_United_States_Constitution",
+    "citationTitle": "Wikipedia: Twenty-third Amendment to the United States Constitution"
+  },
+  {
+    "id": "a65e9dbf-ce09-4bff-aa30-e86ad5e44d2d",
+    "text": "Which amendment specifically prohibits Congress from making laws 'respecting an establishment of religion'?",
+    "options": [
+      "1st Amendment",
+      "4th Amendment",
+      "9th Amendment",
+      "10th Amendment"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "The 1st Amendment contains the Establishment Clause, which prohibits Congress from establishing religion.",
+    "detailedExplanation": "The 1st Amendment's Establishment Clause states that 'Congress shall make no law respecting an establishment of religion,' creating the constitutional basis for separation of church and state. This clause, along with the Free Exercise Clause in the same amendment, forms the foundation of religious liberty in America. The Supreme Court has interpreted this to mean that government cannot favor one religion over another or religion over non-religion.",
+    "citationUrl": "https://en.wikipedia.org/wiki/First_Amendment_to_the_United_States_Constitution",
+    "citationTitle": "Wikipedia: First Amendment to the United States Constitution"
+  },
+  {
+    "id": "9ee4e862-48a8-4e9e-b9bc-f4d7b0dd9bcf",
+    "text": "The 16th Amendment overturned which Supreme Court decision that had declared federal income tax unconstitutional?",
+    "options": [
+      "Marbury v. Madison",
+      "Pollock v. Farmers' Loan & Trust Co.",
+      "McCulloch v. Maryland",
+      "Gibbons v. Ogden"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "The 16th Amendment overturned Pollock v. Farmers' Loan & Trust Co., which had struck down federal income tax as unconstitutional.",
+    "detailedExplanation": "In 1895, the Supreme Court ruled in Pollock v. Farmers' Loan & Trust Co. that federal income tax was unconstitutional because it was a 'direct tax' that wasn't apportioned among the states according to population as required by the Constitution. This decision effectively prevented the federal government from implementing income tax until the 16th Amendment was ratified in 1913, explicitly granting Congress the power to 'lay and collect taxes on incomes, from whatever source derived, without apportionment among the several States.'",
+    "citationUrl": "https://en.wikipedia.org/wiki/Sixteenth_Amendment_to_the_United_States_Constitution",
+    "citationTitle": "Wikipedia: Sixteenth Amendment to the United States Constitution"
+  },
+  {
+    "id": "483ddefa-40bf-4dc1-8883-7952790391c3",
+    "text": "The 8th Amendment's prohibition against 'cruel and unusual punishment' was influenced by which English document?",
+    "options": [
+      "Magna Carta",
+      "English Bill of Rights of 1689",
+      "Petition of Right",
+      "Habeas Corpus Act"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "The 8th Amendment's language was directly influenced by the English Bill of Rights of 1689.",
+    "detailedExplanation": "The 8th Amendment's prohibition against 'excessive bail,' 'excessive fines,' and 'cruel and unusual punishments' draws directly from the English Bill of Rights of 1689, which contained nearly identical language. The English version was created in response to abuses by King James II, who had imposed excessive bail and fines and authorized brutal punishments. The American framers adopted this language to ensure similar protections against government abuse in the criminal justice system.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Eighth_Amendment_to_the_United_States_Constitution",
+    "citationTitle": "Wikipedia: Eighth Amendment to the United States Constitution"
+  }
+]

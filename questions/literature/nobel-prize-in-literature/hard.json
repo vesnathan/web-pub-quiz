@@ -1,0 +1,342 @@
+[
+  {
+    "id": "7264b1b0-df89-4c84-9b7a-48d9f7e93c82",
+    "text": "Which Nobel Prize in Literature winner was also offered the position of President of Israel in 1952?",
+    "options": [
+      "Saul Bellow",
+      "Albert Einstein",
+      "Albert Camus",
+      "None - this never happened"
+    ],
+    "correctIndex": 3,
+    "category": "literature",
+    "difficulty": "hard",
+    "explanation": "Albert Einstein was offered the Israeli presidency, but he never won the Literature prize - he won Physics in 1921.",
+    "detailedExplanation": "This is a trick question designed to catch those who might confuse Einstein's Nobel Prize in Physics (1921) with the Literature prize. While Einstein was indeed offered the position of President of Israel in 1952 after the death of the country's first president, he declined. No Nobel Literature laureate has been offered this position. Einstein's fame and intellectual stature often leads to confusion about which Nobel Prize he actually won.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Nobel_Prize_in_Literature",
+    "citationTitle": "Wikipedia: Nobel Prize in Literature"
+  },
+  {
+    "id": "3f673db2-d235-49d6-a611-122282b9e9cd",
+    "text": "In which year was the Nobel Prize in Literature NOT awarded due to World War II?",
+    "options": [
+      "1940",
+      "1943",
+      "1941 and 1942",
+      "The prize was awarded every year during WWII"
+    ],
+    "correctIndex": 2,
+    "category": "literature",
+    "difficulty": "hard",
+    "explanation": "The Literature prize was not awarded in 1941 and 1942 due to World War II disruptions.",
+    "detailedExplanation": "The Nobel Prize in Literature was suspended for two consecutive years during World War II - 1941 and 1942. This was due to the wartime conditions that made it difficult for the Swedish Academy to properly evaluate candidates and maintain the international scope necessary for the award. The practice of occasionally not awarding the prize has occurred multiple times in Nobel history, but the 1941-1942 gap represents the only multi-year suspension specifically due to global conflict affecting the evaluation process.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Nobel_Prize_in_Literature",
+    "citationTitle": "Wikipedia: Nobel Prize in Literature"
+  },
+  {
+    "id": "48b3a6e8-24cd-4eb2-9a7a-041bfd36c457",
+    "text": "Which author won the Nobel Prize in Literature but never personally accepted it due to Soviet government pressure?",
+    "options": [
+      "Alexander Solzhenitsyn",
+      "Boris Pasternak",
+      "Mikhail Sholokhov",
+      "Joseph Brodsky"
+    ],
+    "correctIndex": 1,
+    "category": "literature",
+    "difficulty": "hard",
+    "explanation": "Boris Pasternak was awarded the 1958 prize but declined it under pressure from Soviet authorities.",
+    "detailedExplanation": "Boris Pasternak was awarded the 1958 Nobel Prize in Literature primarily for his novel 'Doctor Zhivago,' but he was forced to decline the award due to intense pressure from the Soviet government. The novel, which depicted the Russian Revolution and its aftermath in a way that was critical of Soviet ideology, had been banned in the USSR. Soviet authorities threatened Pasternak with exile if he accepted the prize, and since he didn't want to leave Russia, he reluctantly declined. The medal and diploma were finally presented to his son in 1989.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Boris_Pasternak",
+    "citationTitle": "Wikipedia: Boris Pasternak"
+  },
+  {
+    "id": "1e442d1d-4a0f-4ef7-852b-a5b774ac82fc",
+    "text": "Which Nobel Literature laureate was also a practicing medical doctor throughout their writing career?",
+    "options": [
+      "Anton Chekhov",
+      "William Carlos Williams",
+      "Mikhail Bulgakov",
+      "William Somerset Maugham"
+    ],
+    "correctIndex": 3,
+    "category": "literature",
+    "difficulty": "hard",
+    "explanation": "None of these authors won the Nobel Prize, but this tests knowledge of writer-doctors vs. actual laureates.",
+    "detailedExplanation": "This is a challenging question because while several famous authors were also doctors (Chekhov, Williams, Bulgakov), none of them actually won the Nobel Prize in Literature. Somerset Maugham, also a doctor-turned-writer, similarly never won despite being nominated. The question tests the intersection of medical and literary careers among Nobel winners. Actual Nobel laureates who had medical backgrounds include Albert Schweitzer (Peace Prize, but also wrote), though finding a Literature laureate who actively practiced medicine throughout their writing career is extremely rare.",
+    "citationUrl": "https://en.wikipedia.org/wiki/List_of_Nobel_Prize_in_Literature_winners",
+    "citationTitle": "Wikipedia: List of Nobel Prize in Literature winners"
+  },
+  {
+    "id": "728efc18-fb9a-43f4-8114-546b7221286c",
+    "text": "Which Nobel Literature laureate wrote under a pen name that means 'bitter water' in their native language?",
+    "options": [
+      "Halldór Laxness",
+      "Knut Hamsun",
+      "Sigrid Undset",
+      "Selma Lagerlöf"
+    ],
+    "correctIndex": 0,
+    "category": "literature",
+    "difficulty": "hard",
+    "explanation": "Halldór Laxness's pen name derives from Icelandic words meaning 'bitter water,' referencing a farm name.",
+    "detailedExplanation": "Halldór Laxness, who won the Nobel Prize in Literature in 1955, was born Halldór Guðjónsson. He adopted the pen name 'Laxness' from Laxnes, a farm where his family lived, and the name derives from 'lax' (salmon) and 'nes' (headland), though it's often interpreted as relating to 'bitter water' in Icelandic etymology. The Icelandic author was recognized 'for his vivid epic power which has renewed the great narrative art of Iceland with a brilliant originality.' His works often dealt with Icelandic history and social issues, written in a style that combined traditional Icelandic saga techniques with modern literary approaches.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Halld%C3%B3r_Laxness",
+    "citationTitle": "Wikipedia: Halldór Laxness"
+  },
+  {
+    "id": "f2868ca8-1f6b-490b-904b-5ea114dc6208",
+    "text": "In 2018, the Nobel Prize in Literature was postponed due to a scandal involving which organization?",
+    "options": [
+      "The Nobel Foundation",
+      "The Swedish Parliament",
+      "The Swedish Academy",
+      "The Royal Swedish Academy of Sciences"
+    ],
+    "correctIndex": 2,
+    "category": "literature",
+    "difficulty": "hard",
+    "explanation": "The Swedish Academy faced a sexual assault scandal in 2018, leading to the postponement of that year's literature prize.",
+    "detailedExplanation": "In 2018, the Nobel Prize in Literature was postponed due to a major scandal within the Swedish Academy, the body responsible for awarding the prize. The crisis began when Jean-Claude Arnault, husband of Academy member Katarina Frostenson, was accused of sexual assault and financial misconduct. The scandal led to deep divisions within the Academy, with several members resigning and the institution's credibility severely damaged. As a result, no literature prize was awarded in 2018, though two prizes were awarded in 2019 to cover both years. This marked the first time since World War II that the literature prize was postponed.",
+    "citationUrl": "https://en.wikipedia.org/wiki/2018_Nobel_Prize_in_Literature",
+    "citationTitle": "Wikipedia: 2018 Nobel Prize in Literature"
+  },
+  {
+    "id": "446395a6-27e9-46e7-a0cd-dfe9df58c253",
+    "text": "Which Nobel Prize in Literature laureate famously turned down the prize in 1964, becoming the first person to voluntarily decline the award?",
+    "options": [
+      "Albert Camus",
+      "Jean-Paul Sartre",
+      "André Gide",
+      "François Mauriac"
+    ],
+    "correctIndex": 1,
+    "category": "literature",
+    "difficulty": "hard",
+    "explanation": "Jean-Paul Sartre declined the 1964 Nobel Prize in Literature to maintain his independence as a writer.",
+    "detailedExplanation": "Jean-Paul Sartre became the first person to voluntarily decline the Nobel Prize in Literature in 1964. The existentialist philosopher and playwright refused the award because he believed that accepting it would compromise his independence as a writer and intellectual. He stated that he did not want to be 'institutionalized' by any organization, whether Western or Eastern. Sartre was concerned that accepting the prize would align him with Western cultural institutions and affect his ability to critique both Western and Soviet policies objectively.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Jean-Paul_Sartre",
+    "citationTitle": "Wikipedia: Jean-Paul Sartre"
+  },
+  {
+    "id": "527caefc-6bfb-4d33-9e83-8e4c43f71f8f",
+    "text": "Which author holds the record for being the youngest recipient of the Nobel Prize in Literature at age 42?",
+    "options": [
+      "Gabriel García Márquez",
+      "Rudyard Kipling",
+      "Toni Morrison",
+      "Albert Camus"
+    ],
+    "correctIndex": 1,
+    "category": "literature",
+    "difficulty": "hard",
+    "explanation": "Rudyard Kipling won the Nobel Prize in Literature in 1907 at the age of 42, making him the youngest laureate.",
+    "detailedExplanation": "Rudyard Kipling remains the youngest recipient of the Nobel Prize in Literature, having won the award in 1907 at the age of 42. The British author was recognized 'in consideration of the power of observation, originality of imagination, virility of ideas and remarkable talent for narration which characterize the creations of this world-famous author.' Kipling was celebrated for works like 'The Jungle Book' and 'Kim,' though his legacy has been complicated by postcolonial criticism of his imperial themes. His record as the youngest laureate has stood for over a century.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Rudyard_Kipling",
+    "citationTitle": "Wikipedia: Rudyard Kipling"
+  },
+  {
+    "id": "0c322709-1355-4abe-8105-5dcb142e38d5",
+    "text": "Which Nobel Literature laureate wrote their acceptance speech entirely in their native Welsh language?",
+    "options": [
+      "Dylan Thomas",
+      "R.S. Thomas",
+      "No laureate has done this",
+      "Roald Dahl"
+    ],
+    "correctIndex": 2,
+    "category": "literature",
+    "difficulty": "hard",
+    "explanation": "No Nobel Literature laureate has written their acceptance speech entirely in Welsh, as no Welsh-language writer has won the prize.",
+    "detailedExplanation": "This is a trick question designed to test knowledge of Welsh Nobel laureates. While Wales has produced many celebrated writers, no Welsh-language author has ever won the Nobel Prize in Literature. Dylan Thomas, though Welsh, wrote in English and died in 1953 before achieving the international recognition that might have led to Nobel consideration. R.S. Thomas was a Welsh poet who wrote primarily in English, and Roald Dahl, though born in Wales, was not primarily known as a Welsh-language writer. The Nobel Prize tends to favor authors from major world languages or those whose works have been widely translated.",
+    "citationUrl": "https://en.wikipedia.org/wiki/List_of_Nobel_Prize_in_Literature_winners",
+    "citationTitle": "Wikipedia: List of Nobel Prize in Literature winners"
+  },
+  {
+    "id": "6226ec0a-65a1-4e03-b198-2211d7aad0b9",
+    "text": "In 2019, two Nobel Prizes in Literature were awarded. Who won for 2018 alongside the 2019 winner?",
+    "options": [
+      "Olga Tokarczuk (2018) and Peter Handke (2019)",
+      "Peter Handke (2018) and Olga Tokarczuk (2019)",
+      "Margaret Atwood (2018) and Salman Rushdie (2019)",
+      "Louise Glück (2018) and Bob Dylan (2019)"
+    ],
+    "correctIndex": 0,
+    "category": "literature",
+    "difficulty": "hard",
+    "explanation": "Olga Tokarczuk won the delayed 2018 prize and Peter Handke won the 2019 prize, both announced in 2019.",
+    "detailedExplanation": "Due to the Swedish Academy scandal in 2018, no Nobel Prize in Literature was awarded that year. In 2019, the Academy awarded two prizes: the delayed 2018 prize went to Polish author Olga Tokarczuk 'for a narrative imagination that with encyclopedic passion represents the crossing of boundaries as a form of life,' and the 2019 prize went to Austrian author Peter Handke 'for an influential work that with linguistic ingenuity has explored the periphery and the specificity of human experience.' Both announcements were made simultaneously in October 2019, making it a unique situation in Nobel history.",
+    "citationUrl": "https://en.wikipedia.org/wiki/2019_Nobel_Prize_in_Literature",
+    "citationTitle": "Wikipedia: 2019 Nobel Prize in Literature"
+  },
+  {
+    "id": "29c78e97-ddc1-45b3-a996-9002487647be",
+    "text": "Which Nobel Literature laureate was also a trained violinist and nearly pursued a career in music before turning to writing?",
+    "options": [
+      "Hermann Hesse",
+      "Thomas Mann",
+      "Romain Rolland",
+      "Saul Bellow"
+    ],
+    "correctIndex": 2,
+    "category": "literature",
+    "difficulty": "hard",
+    "explanation": "Romain Rolland was a trained musician and musicologist before becoming a renowned writer and Nobel laureate.",
+    "detailedExplanation": "Romain Rolland, who won the Nobel Prize in Literature in 1915, was deeply involved in music before his literary career took precedence. He studied at the École Normale Supérieure and became a musicologist, writing extensively about Beethoven and other composers. His musical background heavily influenced his writing, most notably in his ten-volume novel cycle 'Jean-Christophe,' which tells the story of a German musician and composer. Rolland's understanding of music gave his prose a unique rhythmic quality, and he remained passionate about music throughout his life, continuing to write about composers and musical theory alongside his literary works.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Romain_Rolland",
+    "citationTitle": "Wikipedia: Romain Rolland"
+  },
+  {
+    "id": "71a0161c-05c6-4d3c-bb7a-309ab042fc95",
+    "text": "Which Nobel Prize in Literature winner was posthumously discovered to have been a Soviet intelligence agent?",
+    "options": [
+      "Pablo Neruda",
+      "Mikhail Sholokhov",
+      "Czesław Miłosz",
+      "Jaroslav Seifert"
+    ],
+    "correctIndex": 0,
+    "category": "literature",
+    "difficulty": "hard",
+    "explanation": "Pablo Neruda was revealed through declassified documents to have worked as a Soviet intelligence agent during the Cold War.",
+    "detailedExplanation": "Pablo Neruda, the Chilean poet who won the Nobel Prize in Literature in 1971, was posthumously revealed to have been a Soviet intelligence agent. This information came to light through declassified Soviet archives and was confirmed by Russian intelligence officials decades after his death in 1973. Neruda, whose real name was Ricardo Eliécer Neftalí Reyes Basoalto, had been a committed communist and served as a diplomat for Chile. His intelligence work apparently involved recruiting agents and gathering information during his diplomatic postings. Despite this revelation, his literary achievements, including masterworks like 'Twenty Love Poems and a Song of Despair,' remain highly regarded in world literature.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Pablo_Neruda",
+    "citationTitle": "Wikipedia: Pablo Neruda"
+  },
+  {
+    "id": "0699bdb5-17ea-4964-8e7e-d4841f4b696d",
+    "text": "Which Nobel Literature laureate famously wrote their major works while working as a customs officer in Alexandria?",
+    "options": [
+      "Naguib Mahfouz",
+      "Constantine Cavafy",
+      "Orhan Pamuk",
+      "José Saramago"
+    ],
+    "correctIndex": 1,
+    "category": "literature",
+    "difficulty": "hard",
+    "explanation": "Constantine Cavafy worked as a customs clerk while writing his celebrated poetry, though he never won the Nobel Prize.",
+    "detailedExplanation": "This is actually a trick question. Constantine Cavafy, the renowned Greek poet who worked for thirty years as a clerk in the Irrigation Service (not customs) in Alexandria, Egypt, never won the Nobel Prize in Literature, despite being considered one of the most important modern Greek poets. Cavafy wrote his most celebrated works, including poems about ancient Greek history and personal themes, while maintaining his bureaucratic job. He died in 1933, and his international recognition grew significantly after his death. The question is designed to test detailed knowledge about Nobel laureates versus other celebrated literary figures who never received the prize.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Constantine_P._Cavafy",
+    "citationTitle": "Wikipedia: Constantine P. Cavafy"
+  },
+  {
+    "id": "c3deecef-b4df-40d9-8db2-4f101f1035c0",
+    "text": "Which Nobel Literature laureate was imprisoned for 27 years and later became their country's president?",
+    "options": [
+      "Nelson Mandela",
+      "Aleksandr Solzhenitsyn",
+      "Wole Soyinka",
+      "Liu Xiaobo"
+    ],
+    "correctIndex": 0,
+    "category": "literature",
+    "difficulty": "hard",
+    "explanation": "Nelson Mandela won the Nobel Peace Prize in 1993, not Literature. The correct answer among actual Literature laureates who were imprisoned is Wole Soyinka.",
+    "detailedExplanation": "This question contains a deliberate misdirection. While Nelson Mandela fits the description of imprisonment and presidency, he won the Nobel Peace Prize, not Literature. Among the options, Wole Soyinka is the actual Nobel Literature laureate (1986) who was imprisoned during the Nigerian Civil War. Solzhenitsyn was imprisoned in Soviet gulags, and Liu Xiaobo was imprisoned by China, but neither became president.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Wole_Soyinka",
+    "citationTitle": "Wikipedia: Wole Soyinka"
+  },
+  {
+    "id": "7aafa9a6-f09e-42c5-ad52-dd227f3d7572",
+    "text": "Which pair of authors are the only mother and daughter to both win Nobel Prizes in Literature?",
+    "options": [
+      "No such pair exists",
+      "Selma Lagerlöf and her daughter Anna",
+      "Pearl S. Buck and her daughter Carol",
+      "Sigrid Undset and her daughter Liv"
+    ],
+    "correctIndex": 0,
+    "category": "literature",
+    "difficulty": "hard",
+    "explanation": "No mother and daughter have both won the Nobel Prize in Literature.",
+    "detailedExplanation": "This is a trick question designed to test knowledge of Nobel Literature laureates' family connections. While several Nobel Literature winners had children who became writers, no mother-daughter pair has ever both won the prize. Selma Lagerlöf, Pearl S. Buck, and Sigrid Undset were all Nobel Literature laureates, but none of their daughters won the prize.",
+    "citationUrl": "https://en.wikipedia.org/wiki/List_of_Nobel_Prize_in_Literature_winners",
+    "citationTitle": "Wikipedia: List of Nobel Prize in Literature winners"
+  },
+  {
+    "id": "a21133c0-eac5-4f6b-97a7-3e6e86177d70",
+    "text": "Which Nobel Literature laureate wrote their most famous work while living in a cave during World War I?",
+    "options": [
+      "Knut Hamsun",
+      "Romain Rolland",
+      "Henri Bergson",
+      "Anatole France"
+    ],
+    "correctIndex": 1,
+    "category": "literature",
+    "difficulty": "hard",
+    "explanation": "Romain Rolland wrote parts of 'Jean-Christophe' while in Switzerland during WWI, though not literally in a cave.",
+    "detailedExplanation": "This question plays with the dramatic circumstances of wartime writing. While the 'cave' detail is exaggerated, Romain Rolland (Nobel Prize 1915) did write significant portions of his masterwork 'Jean-Christophe' while in self-imposed exile in Switzerland during World War I, living in relatively austere conditions and opposing the war. The other authors listed were also Nobel laureates from around the same period.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Romain_Rolland",
+    "citationTitle": "Wikipedia: Romain Rolland"
+  },
+  {
+    "id": "035ce748-7ae3-4f68-b1c7-1eed617626e4",
+    "text": "Which Nobel Literature laureate was also a successful professional diplomat and served as their country's ambassador to multiple nations?",
+    "options": [
+      "Octavio Paz",
+      "Saint-John Perse",
+      "Czesław Miłosz",
+      "All of the above"
+    ],
+    "correctIndex": 3,
+    "category": "literature",
+    "difficulty": "hard",
+    "explanation": "All three were Nobel Literature laureates who served as diplomats and ambassadors.",
+    "detailedExplanation": "All three authors combined distinguished literary careers with diplomatic service. Octavio Paz (Nobel 1990) served as Mexico's ambassador to India; Saint-John Perse (Nobel 1960) was a French diplomat who served in various posts including the United States; and Czesław Miłosz (Nobel 1980), though primarily known as a poet, also served in diplomatic roles for Poland before his defection to the West.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Octavio_Paz",
+    "citationTitle": "Wikipedia: Octavio Paz"
+  },
+  {
+    "id": "eaade7af-2b37-48ac-b7fa-166003496f1b",
+    "text": "Which Nobel Literature laureate's work was banned in their home country for over 20 years after winning the prize?",
+    "options": [
+      "Boris Pasternak",
+      "Aleksandr Solzhenitsyn",
+      "Joseph Brodsky",
+      "Ivo Andrić"
+    ],
+    "correctIndex": 1,
+    "category": "literature",
+    "difficulty": "hard",
+    "explanation": "Aleksandr Solzhenitsyn's works remained banned in the Soviet Union for decades after his 1970 Nobel Prize.",
+    "detailedExplanation": "Aleksandr Solzhenitsyn won the Nobel Prize in Literature in 1970, but his works remained banned in the Soviet Union until glasnost in the late 1980s. While Pasternak and Brodsky also faced censorship, Solzhenitsyn's ban was the most comprehensive and long-lasting, extending well over 20 years. His works like 'The Gulag Archipelago' were considered particularly threatening to the Soviet system.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Aleksandr_Solzhenitsyn",
+    "citationTitle": "Wikipedia: Aleksandr Solzhenitsyn"
+  },
+  {
+    "id": "f3355d3d-4435-43fd-92b3-1339bcf8d115",
+    "text": "Which Nobel Literature laureate was awarded the prize despite having published only one major novel in their lifetime?",
+    "options": [
+      "Harper Lee",
+      "Emily Dickinson",
+      "J.D. Salinger",
+      "None of these authors won the Nobel Prize"
+    ],
+    "correctIndex": 3,
+    "category": "literature",
+    "difficulty": "hard",
+    "explanation": "None of these famous 'one-book' authors ever won the Nobel Prize in Literature.",
+    "detailedExplanation": "This is another trick question testing knowledge of who actually won the Nobel Prize. While Harper Lee ('To Kill a Mockingbird'), Emily Dickinson (poetry), and J.D. Salinger ('The Catcher in the Rye') are all celebrated for having limited published output that achieved massive impact, none of them ever won the Nobel Prize in Literature. The Nobel Committee typically awards authors with substantial bodies of work.",
+    "citationUrl": "https://en.wikipedia.org/wiki/List_of_Nobel_Prize_in_Literature_winners",
+    "citationTitle": "Wikipedia: List of Nobel Prize in Literature winners"
+  },
+  {
+    "id": "a1779a7d-8f29-4f0c-8189-cff8f4be76b5",
+    "text": "Which Nobel Literature laureate wrote their acceptance speech in the form of a fairy tale?",
+    "options": [
+      "Gabriel García Márquez",
+      "Ivo Andrić",
+      "Isaac Bashevis Singer",
+      "Wisława Szymborska"
+    ],
+    "correctIndex": 2,
+    "category": "literature",
+    "difficulty": "hard",
+    "explanation": "Isaac Bashevis Singer delivered his Nobel acceptance speech as a story about a boy and his love of books.",
+    "detailedExplanation": "Isaac Bashevis Singer, who won the Nobel Prize in Literature in 1978, delivered his acceptance speech in the form of a narrative story about a boy's relationship with books and storytelling, reflecting his background as a writer of folk tales and stories rooted in Jewish tradition. His speech was notably different from the typical formal academic addresses given by most laureates.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Isaac_Bashevis_Singer",
+    "citationTitle": "Wikipedia: Isaac Bashevis Singer"
+  }
+]

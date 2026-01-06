@@ -1,4 +1,4 @@
-import type { Question } from '@quiz/shared';
+import type { OrchestratorQuestion as Question } from '@quiz/shared';
 import { v4 as uuidv4 } from 'uuid';
 
 const questionBank: Omit<Question, 'id'>[] = [

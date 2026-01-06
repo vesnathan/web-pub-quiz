@@ -1,0 +1,342 @@
+[
+  {
+    "id": "c57394d1-50be-431d-b983-e5b8a11d25fb",
+    "text": "What is the primary difference between ale and lager brewing processes?",
+    "options": [
+      "Ales use top-fermenting yeast, lagers use bottom-fermenting yeast",
+      "Ales are filtered, lagers are unfiltered",
+      "Ales use wheat, lagers use barley",
+      "Ales are carbonated naturally, lagers are force-carbonated"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Ales use top-fermenting yeast (Saccharomyces cerevisiae) while lagers use bottom-fermenting yeast (Saccharomyces pastorianus).",
+    "detailedExplanation": "The fundamental distinction between ales and lagers lies in their fermentation process. Ales are brewed using top-fermenting yeast strains that work at warmer temperatures (60-75°F) and rise to the surface during fermentation. Lagers use bottom-fermenting yeast that operates at cooler temperatures (45-55°F) and settles at the bottom of the fermentation vessel. This difference affects the flavor profile, with ales typically being more robust and fruity, while lagers are cleaner and crisper.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Beer",
+    "citationTitle": "Wikipedia: Beer"
+  },
+  {
+    "id": "820e59d4-50cd-4e00-8cc4-768d81fd7bc5",
+    "text": "Which ingredient is responsible for the bitter flavor in beer?",
+    "options": [
+      "Barley malt",
+      "Hops",
+      "Wheat",
+      "Yeast"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Hops contain alpha acids that provide bitterness to balance the sweetness of malt in beer.",
+    "detailedExplanation": "Hops are the flowers of the hop plant (Humulus lupulus) and serve multiple purposes in brewing. They contain alpha acids that, when boiled during the brewing process, isomerize and create the characteristic bitter flavor that balances the sweetness from malted grains. Hops also contribute aromatic compounds and act as a natural preservative. Different hop varieties can impart various flavors ranging from citrusy and floral to earthy and spicy, making them crucial for defining a beer's character.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Hops",
+    "citationTitle": "Wikipedia: Hops"
+  },
+  {
+    "id": "30a60c53-072a-4c4c-b5e2-e596ff2246ab",
+    "text": "What does IBU stand for in beer terminology?",
+    "options": [
+      "International Barley Unit",
+      "Irish Beer Union",
+      "International Bitterness Unit",
+      "Imperial Brewing Unit"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "IBU stands for International Bitterness Unit, which measures the bitterness level in beer.",
+    "detailedExplanation": "International Bitterness Units (IBU) provide a standardized scale for measuring the bitterness in beer, ranging typically from 0 to over 100. The scale measures the concentration of iso-alpha acids derived from hops. Light lagers might have 5-15 IBUs, while India Pale Ales can range from 40-70 IBUs, and some extreme beers exceed 100 IBUs. However, perceived bitterness can be influenced by other factors like malt sweetness, alcohol content, and residual sugars, so IBU alone doesn't tell the complete story of how bitter a beer will taste.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Beer_measurement",
+    "citationTitle": "Wikipedia: Beer measurement"
+  },
+  {
+    "id": "2f853f74-9825-45fa-8146-095b1eddcef0",
+    "text": "Which beer style originated in the Burton-on-Trent region of England?",
+    "options": [
+      "Porter",
+      "India Pale Ale (IPA)",
+      "Stout",
+      "Mild"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "India Pale Ale was originally brewed in Burton-on-Trent for export to British colonies in India.",
+    "detailedExplanation": "India Pale Ale originated in the late 18th century in Burton-on-Trent, England, specifically to meet the needs of British troops and civilians stationed in India. The high mineral content of Burton's water, particularly its gypsum levels, was ideal for brewing hoppy beers. Brewers created a heavily hopped, higher-alcohol ale that could survive the long sea voyage to India without spoiling. The extra hops acted as a natural preservative, while the higher alcohol content also helped maintain the beer's quality during transport. This style became the foundation for modern IPAs.",
+    "citationUrl": "https://en.wikipedia.org/wiki/India_pale_ale",
+    "citationTitle": "Wikipedia: India pale ale"
+  },
+  {
+    "id": "3de112e8-e655-403e-bacb-f37c25dbb47b",
+    "text": "What is the German beer purity law called?",
+    "options": [
+      "Biergesetz",
+      "Reinheitsgebot",
+      "Brauordnung",
+      "Hopfengesetz"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "The Reinheitsgebot is Germany's beer purity law, originally limiting beer ingredients to water, hops, and malt.",
+    "detailedExplanation": "The Reinheitsgebot, enacted in Bavaria in 1516, is one of the world's oldest food quality regulations still in use today. Originally, it stated that beer could only be made from water, hops, and malt (yeast was added later when its role was understood). The law was designed to ensure beer quality, prevent the use of cheaper grains that were needed for bread, and protect consumers from potentially harmful additives that were sometimes used in brewing. While modern German brewing laws have been relaxed somewhat, the Reinheitsgebot remains a symbol of brewing tradition and quality.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Reinheitsgebot",
+    "citationTitle": "Wikipedia: Reinheitsgebot"
+  },
+  {
+    "id": "aef82856-72d8-4b4f-8f12-92c234ab9bf8",
+    "text": "What type of beer is a Hefeweizen?",
+    "options": [
+      "A dark German lager",
+      "A Belgian sour beer",
+      "A German wheat beer",
+      "An English bitter"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Hefeweizen is a traditional German wheat beer made with at least 50% wheat malt.",
+    "detailedExplanation": "Hefeweizen, literally meaning 'yeast wheat' in German, is a traditional Bavarian wheat beer that must contain at least 50% wheat malt by German law. It's characterized by its cloudy appearance due to the suspended yeast and wheat proteins, and its distinctive flavor profile featuring banana and clove notes produced by specific weizen yeast strains. The beer is typically served in tall, curved glasses that showcase its pale, cloudy appearance and help maintain its thick, creamy head. Hefeweizen is unfiltered, which contributes to both its appearance and smooth mouthfeel.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Wheat_beer",
+    "citationTitle": "Wikipedia: Wheat beer"
+  },
+  {
+    "id": "01b565e1-2809-47b7-8886-a765f72b1fe4",
+    "text": "At what temperature range are most lagers typically fermented?",
+    "options": [
+      "32-40°F (0-4°C)",
+      "45-55°F (7-13°C)",
+      "60-75°F (16-24°C)",
+      "80-90°F (27-32°C)"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Lagers are fermented at cool temperatures between 45-55°F using bottom-fermenting yeast.",
+    "detailedExplanation": "Lager fermentation occurs at significantly cooler temperatures than ale fermentation, typically between 45-55°F (7-13°C). This cold fermentation process, using bottom-fermenting Saccharomyces pastorianus yeast, takes longer than ale fermentation but produces the clean, crisp characteristics associated with lagers. After primary fermentation, lagers undergo an extended cold conditioning period called 'lagering' (from the German word 'lagern' meaning 'to store') at even colder temperatures, sometimes for several months. This process allows harsh flavors to mellow and creates the smooth, refined taste profile that defines the lager family of beers.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Lager",
+    "citationTitle": "Wikipedia: Lager"
+  },
+  {
+    "id": "69b6cbd2-af38-43c7-b819-96a41f89ff77",
+    "text": "What gives stout its characteristic dark color and roasted flavor?",
+    "options": [
+      "Dark chocolate additions",
+      "Roasted barley or black malt",
+      "Coffee beans",
+      "Molasses"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Roasted barley or heavily roasted black malt gives stout its dark color and distinctive roasted, coffee-like flavors.",
+    "detailedExplanation": "Stout derives its characteristic dark color and roasted flavor from the use of roasted barley or heavily roasted black malt. These grains are roasted at high temperatures until they develop deep, dark colors and intense flavors reminiscent of coffee, chocolate, or burnt toast. The roasting process creates complex compounds that contribute not only color but also the signature bitter-sweet, roasted taste that defines stouts. While some modern stouts may include actual coffee or chocolate, the traditional roasted grain character comes entirely from the malting and roasting process of barley, which can be roasted to various degrees to achieve different flavor intensities.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Stout",
+    "citationTitle": "Wikipedia: Stout"
+  },
+  {
+    "id": "0f22e355-63dc-45cf-8217-cea7933bca27",
+    "text": "Which Belgian beer style is traditionally brewed by Trappist monks and must be produced within monastery walls?",
+    "options": [
+      "Lambic",
+      "Trappist",
+      "Saison",
+      "Witbier"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Trappist beers must be brewed within Trappist monastery walls by or under supervision of monks.",
+    "detailedExplanation": "Trappist beer is a designation that can only be applied to beers brewed in Trappist monasteries by or under the supervision of Trappist monks. There are currently only 14 officially recognized Trappist breweries worldwide, with famous examples including Chimay, Westmalle, and Westvleteren. The International Trappist Association strictly controls this designation, requiring that brewing takes place within monastery walls, reflects brewing traditions, and that profits support the monastery and charitable works.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Trappist_beer",
+    "citationTitle": "Wikipedia: Trappist beer"
+  },
+  {
+    "id": "7513533e-d313-42d6-b173-783f7585c35b",
+    "text": "What is the term for the foam head on top of a freshly poured beer?",
+    "options": [
+      "Krausen",
+      "Lacing",
+      "Collar",
+      "Attenuation"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "The foam head on beer is called the collar, while lacing refers to foam residue on glass sides.",
+    "detailedExplanation": "The collar is the foam head that forms on top of beer when properly poured, created by carbon dioxide escaping and proteins from malted grains stabilizing the bubbles. Lacing refers to the foam patterns left on the inside of the glass as the beer level decreases. Krausen is the thick foam that forms during fermentation, and attenuation refers to the degree to which sugars are converted to alcohol during brewing.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Beer_head",
+    "citationTitle": "Wikipedia: Beer head"
+  },
+  {
+    "id": "06908b64-8721-4b9c-bbc9-d36e94f2eade",
+    "text": "Which country is credited with inventing the pilsner beer style in 1842?",
+    "options": [
+      "Germany",
+      "Czech Republic",
+      "Austria",
+      "Belgium"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Pilsner was first brewed in 1842 in Plzen (Pilsen), Bohemia, now part of the Czech Republic.",
+    "detailedExplanation": "Pilsner Urquell, the world's first pilsner beer, was created in 1842 in the city of Plzen (German: Pilsen) in Bohemia, which is now part of the Czech Republic. The style was developed by Bavarian brewer Josef Groll, who combined local soft water, Moravian malts, and Saaz hops with bottom-fermentation techniques. This created a golden, clear, and crisp beer that became the template for what is now the world's most popular beer style.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Pilsner",
+    "citationTitle": "Wikipedia: Pilsner"
+  },
+  {
+    "id": "a24b2acb-9a33-4df2-afbf-ca210ac43880",
+    "text": "What does the brewing term 'dry hopping' refer to?",
+    "options": [
+      "Using dried hops instead of fresh hops",
+      "Adding hops during fermentation or conditioning",
+      "Removing moisture from hops before brewing",
+      "Storing hops in a dry environment"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Dry hopping means adding hops during or after fermentation to enhance aroma without adding bitterness.",
+    "detailedExplanation": "Dry hopping is a brewing technique where hops are added during fermentation or conditioning phases, rather than during the boiling process. This method extracts hop oils and aromatic compounds without adding significant bitterness, since the alpha acids that create bitterness require heat to be activated. Dry hopping is commonly used in IPAs and other hop-forward styles to create intense hop aroma and flavor. The technique has become increasingly popular in craft brewing for creating complex hop profiles.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Dry_hopping",
+    "citationTitle": "Wikipedia: Dry hopping"
+  },
+  {
+    "id": "23f54ba4-cf44-4166-9eeb-f65b092d98ca",
+    "text": "Which beer ingredient serves as the primary source of fermentable sugars?",
+    "options": [
+      "Hops",
+      "Malted barley",
+      "Yeast",
+      "Water"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Malted barley provides the fermentable sugars that yeast converts into alcohol and carbon dioxide.",
+    "detailedExplanation": "Malted barley (and other malted grains) serves as the primary source of fermentable sugars in beer production. During the malting process, barley grains are soaked, allowed to germinate, then dried, which activates enzymes that convert starches into sugars. During mashing, these sugars are extracted into hot water to create wort. Yeast then ferments these sugars, converting them into alcohol and carbon dioxide. While other grains like wheat, rice, and corn can also provide fermentable sugars, malted barley remains the foundation of most beer recipes.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Malt",
+    "citationTitle": "Wikipedia: Malt"
+  },
+  {
+    "id": "a95d401d-2dd2-4b96-bd46-f473ea56cd79",
+    "text": "What is the alcohol by volume (ABV) range typically found in most standard beers?",
+    "options": [
+      "1-3%",
+      "3-6%",
+      "6-9%",
+      "9-12%"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Most standard beers range from 3-6% ABV, with light beers lower and strong ales higher.",
+    "detailedExplanation": "The majority of standard beers fall within the 3-6% alcohol by volume range. Light lagers typically range from 3-4% ABV, while regular strength lagers and ales usually fall between 4-6% ABV. Light beers often contain 2.5-4% ABV, while stronger styles like IPAs, Belgian ales, and barleywines can range from 6-12% or higher. The 3-6% range represents the sweet spot for most commercial beers, providing sufficient alcohol content while maintaining drinkability and flavor balance.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Alcohol_by_volume",
+    "citationTitle": "Wikipedia: Alcohol by volume"
+  },
+  {
+    "id": "62e9dd54-d658-4d9a-8232-94e99fcefc67",
+    "text": "Which spontaneously fermented Belgian beer style uses wild yeasts and bacteria from the environment?",
+    "options": [
+      "Gueuze",
+      "Lambic",
+      "Kriek",
+      "Faro"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Lambic uses wild yeasts and bacteria for spontaneous fermentation, while the others are lambic-based styles.",
+    "detailedExplanation": "Lambic is a unique Belgian beer style that relies on spontaneous fermentation using wild yeasts and bacteria naturally present in the air, particularly in the Pajottenland region near Brussels. The wort is exposed to open air in shallow cooling vessels, allowing wild microorganisms to inoculate the beer. This creates a distinctively sour, funky flavor profile. Gueuze is a blend of different aged lambics, Kriek is lambic fermented with cherries, and Faro is sweetened lambic. Only lambic breweries in specific regions of Belgium can produce authentic lambic using traditional methods.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Lambic",
+    "citationTitle": "Wikipedia: Lambic"
+  },
+  {
+    "id": "47c9f909-a550-4241-9470-5c13780c199f",
+    "text": "What is the name of the process where starches in malted grains are converted to fermentable sugars using hot water?",
+    "options": [
+      "Lautering",
+      "Mashing",
+      "Sparging",
+      "Boiling"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Mashing converts grain starches to sugars using hot water and enzymes activated during malting.",
+    "detailedExplanation": "Mashing is the brewing process where crushed malted grains are mixed with hot water (typically 148-158°F) to activate enzymes that convert starches into fermentable sugars. This creates a sweet liquid called wort. The temperature and duration of mashing affects the types of sugars produced and the final beer's body and alcohol potential. Lautering is the separation of the liquid wort from grain solids, sparging is rinsing the grain bed with additional hot water, and boiling is when hops are added for bitterness and sterilization.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Mashing",
+    "citationTitle": "Wikipedia: Mashing"
+  },
+  {
+    "id": "0605a8f8-2a44-40f5-9bdf-41531d8993e7",
+    "text": "Which beer style is characterized by its smoky flavor achieved by drying malted barley over open flames using beechwood?",
+    "options": [
+      "Rauchbier",
+      "Saison",
+      "Kölsch",
+      "Märzen"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Rauchbier is a German smoked beer made by drying malt over beechwood fires.",
+    "detailedExplanation": "Rauchbier, literally meaning 'smoke beer' in German, is a traditional beer style from Bamberg, Germany. The distinctive smoky flavor comes from malting barley over open beechwood fires, which imparts a characteristic bacon-like smokiness to the final product. This ancient brewing technique was once common throughout Germany but is now primarily associated with a few breweries in Franconia, particularly Schlenkerla and Spezial breweries in Bamberg.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Rauchbier",
+    "citationTitle": "Wikipedia: Rauchbier"
+  },
+  {
+    "id": "bddf5c33-a87c-4668-8803-d90d8449ff66",
+    "text": "What is the maximum number of ingredients traditionally allowed in beer according to the original Bavarian beer purity law of 1516?",
+    "options": [
+      "Three",
+      "Four",
+      "Five",
+      "Six"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "The original Reinheitsgebot allowed only water, hops, and malt (yeast was not yet understood).",
+    "detailedExplanation": "The original Bavarian beer purity law of 1516, known as the Reinheitsgebot, permitted only three ingredients in beer: water, hops, and malt. Yeast was not mentioned in the original law because its role in fermentation was not scientifically understood at the time. The law was later updated to include yeast as the fourth permitted ingredient once its importance in the brewing process was recognized. This regulation was created to ensure beer quality and prevent the use of potentially harmful additives.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Reinheitsgebot",
+    "citationTitle": "Wikipedia: Reinheitsgebot"
+  },
+  {
+    "id": "e8d70ef2-072a-45e3-8c68-542f29c245c4",
+    "text": "Which brewing term describes the process of aging beer in wooden barrels that previously held spirits or wine?",
+    "options": [
+      "Barrel aging",
+      "Cask conditioning",
+      "Bottle conditioning",
+      "Secondary fermentation"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Barrel aging refers to maturing beer in wooden barrels, often previously used for spirits or wine.",
+    "detailedExplanation": "Barrel aging is a brewing technique where beer is aged in wooden barrels, typically oak, that have previously contained spirits like whiskey, bourbon, rum, or wine. This process imparts complex flavors from both the wood and residual spirits or wine, creating unique taste profiles with notes of vanilla, caramel, fruit, or smokiness. The porous nature of wood allows for slow oxidation and interaction between the beer and barrel contents, resulting in more complex, nuanced flavors that cannot be achieved through traditional stainless steel fermentation.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Barrel-aged_beer",
+    "citationTitle": "Wikipedia: Barrel-aged beer"
+  },
+  {
+    "id": "4d15308d-599b-4019-9276-5199f2c987ee",
+    "text": "What is the name of the traditional British beer strength measurement system that predates alcohol by volume (ABV)?",
+    "options": [
+      "Original Gravity (OG)",
+      "Standard Reference Method (SRM)",
+      "European Brewery Convention (EBC)",
+      "Specific Gravity (SG)"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Original Gravity measures the density of wort before fermentation, indicating potential alcohol content.",
+    "detailedExplanation": "Original Gravity (OG) is a traditional British measurement system that determines the density of wort (unfermented beer) before yeast is added. It indicates the amount of fermentable sugars present and predicts the potential alcohol content after fermentation. OG is measured using a hydrometer and expressed in specific gravity units, typically ranging from 1.030 to 1.120 for different beer styles. This system predates modern ABV measurements and is still widely used by brewers alongside ABV to classify beer strength and style characteristics.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Gravity_(alcoholic_beverage)",
+    "citationTitle": "Wikipedia: Gravity (alcoholic beverage)"
+  }
+]

@@ -1,0 +1,342 @@
+[
+  {
+    "id": "cab62876-b071-4b7f-97bd-ced5409f14ae",
+    "text": "Which company developed the first consumer VR headset called the Oculus Rift?",
+    "options": [
+      "Facebook",
+      "Oculus VR",
+      "Sony",
+      "HTC"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Oculus VR developed the Oculus Rift before being acquired by Facebook.",
+    "detailedExplanation": "Oculus VR was founded in 2012 by Palmer Luckey and developed the original Oculus Rift through a highly successful Kickstarter campaign. The company was later acquired by Facebook (now Meta) in 2014 for $2 billion, but the initial development and creation of the consumer VR headset was by the independent company Oculus VR.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Oculus_Rift",
+    "citationTitle": "Wikipedia: Oculus Rift"
+  },
+  {
+    "id": "e163cc03-c7b4-4706-b6e5-d1b76dab6ae2",
+    "text": "What does the term 'presence' mean in virtual reality?",
+    "options": [
+      "The number of people in a VR space",
+      "The feeling of actually being in the virtual environment",
+      "The quality of graphics displayed",
+      "The speed of motion tracking"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Presence refers to the psychological sensation of being physically present in a virtual environment.",
+    "detailedExplanation": "Presence is a fundamental concept in VR that describes the subjective experience of being in a virtual environment, even when physically located elsewhere. It's the psychological state where users feel as though they are actually inside the virtual world rather than just observing it through a screen. This sensation is achieved through immersive visuals, spatial audio, and responsive tracking that convinces the brain of the virtual environment's reality.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Immersion_(virtual_reality)",
+    "citationTitle": "Wikipedia: Immersion (virtual reality)"
+  },
+  {
+    "id": "378c45a3-464b-4133-b7f6-08458aa1fd6d",
+    "text": "Which VR tracking method uses external sensors placed around a room to track the headset's position?",
+    "options": [
+      "Inside-out tracking",
+      "Outside-in tracking",
+      "Gyroscopic tracking",
+      "Infrared tracking"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Outside-in tracking uses external sensors or cameras to monitor the headset's movement from the outside.",
+    "detailedExplanation": "Outside-in tracking systems use external hardware like cameras, infrared sensors, or lighthouse base stations positioned around the play area to track the VR headset and controllers. This method was popularized by early VR systems like the original HTC Vive and Oculus Rift CV1. The external sensors create a tracking volume and precisely monitor the position and orientation of tracked objects, providing highly accurate positional data but requiring setup of external hardware.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Virtual_reality_headset",
+    "citationTitle": "Wikipedia: Virtual reality headset"
+  },
+  {
+    "id": "a8d2e23a-50ef-43a7-9262-7adfa5e39144",
+    "text": "What is the minimum refresh rate generally recommended for VR displays to avoid motion sickness?",
+    "options": [
+      "60 Hz",
+      "72 Hz",
+      "90 Hz",
+      "120 Hz"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "90 Hz is widely considered the minimum refresh rate needed to provide comfortable VR experiences.",
+    "detailedExplanation": "A 90 Hz refresh rate has become the industry standard minimum for VR displays because it significantly reduces motion sickness and provides smooth visual experiences. At lower refresh rates like 60 Hz, users often experience nausea, disorientation, and eye strain due to the disconnect between head movements and visual updates. Most modern VR headsets target 90 Hz or higher, with some premium devices offering 120 Hz or 144 Hz for even smoother experiences.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Virtual_reality_sickness",
+    "citationTitle": "Wikipedia: Virtual reality sickness"
+  },
+  {
+    "id": "abaa9373-7e86-487b-aeb6-28a0efe1e4ee",
+    "text": "Which science fiction author is often credited with coining the term 'cyberspace,' which heavily influenced VR development?",
+    "options": [
+      "Isaac Asimov",
+      "Philip K. Dick",
+      "William Gibson",
+      "Arthur C. Clarke"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "William Gibson coined 'cyberspace' in his 1984 novel Neuromancer.",
+    "detailedExplanation": "William Gibson introduced the term 'cyberspace' in his groundbreaking 1984 cyberpunk novel Neuromancer, describing it as a 'consensual hallucination' experienced by computer users. This concept of immersive digital environments heavily influenced the development of virtual reality technology and shaped how developers and users conceptualize virtual spaces. Gibson's vision of cyberspace as a three-dimensional representation of data that users could navigate became a foundational idea for VR interfaces and virtual worlds.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Cyberspace",
+    "citationTitle": "Wikipedia: Cyberspace"
+  },
+  {
+    "id": "b9b97164-1152-4715-80b6-6f93595f6fd0",
+    "text": "What does 'IPD' stand for in VR headset specifications?",
+    "options": [
+      "Image Processing Delay",
+      "Interpupillary Distance",
+      "Integrated Pixel Display",
+      "Input Processing Device"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "IPD stands for Interpupillary Distance, the distance between a person's pupils.",
+    "detailedExplanation": "Interpupillary Distance (IPD) is the measurement between the centers of a person's pupils, typically ranging from 54mm to 74mm in adults. This measurement is crucial for VR headsets because the lenses must be properly aligned with the user's eyes to provide clear, comfortable vision and prevent eye strain. Most VR headsets include IPD adjustment mechanisms, either physical sliders or software calibration, to accommodate different users' eye spacing for optimal visual comfort and clarity.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Pupillary_distance",
+    "citationTitle": "Wikipedia: Pupillary distance"
+  },
+  {
+    "id": "cf2f51af-718e-4cd4-a4ab-89a3b9d388d2",
+    "text": "Which VR application area uses virtual environments to help treat phobias and PTSD?",
+    "options": [
+      "Virtual tourism",
+      "Therapeutic VR",
+      "Social VR",
+      "Educational VR"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Therapeutic VR uses controlled virtual environments to treat various psychological conditions.",
+    "detailedExplanation": "Therapeutic VR, also known as VR therapy or medical VR, uses immersive virtual environments to treat various mental health conditions including phobias, PTSD, anxiety disorders, and addiction. The technology allows therapists to expose patients to controlled virtual scenarios that would be difficult, dangerous, or expensive to recreate in real life. For example, patients with fear of heights can gradually experience virtual elevated environments, while PTSD sufferers can process traumatic experiences in a safe, controlled virtual setting under professional supervision.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Virtual_reality_therapy",
+    "citationTitle": "Wikipedia: Virtual reality therapy"
+  },
+  {
+    "id": "a779eb85-bf7e-45c5-ada8-5707a4f397b8",
+    "text": "What is the term for the delay between a user's head movement and the corresponding visual update in VR?",
+    "options": [
+      "Frame rate",
+      "Motion-to-photon latency",
+      "Refresh delay",
+      "Tracking lag"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Motion-to-photon latency measures the time from physical movement to visual display update.",
+    "detailedExplanation": "Motion-to-photon latency is the critical measurement of time between when a user moves their head and when the corresponding visual change appears on the VR display. This latency must be kept extremely low (ideally under 20 milliseconds) to maintain the illusion of presence and prevent motion sickness. The latency encompasses the entire pipeline: motion detection by sensors, processing by the computer, rendering the new frame, and displaying it on the screen. High latency breaks immersion and can cause severe discomfort for VR users.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Virtual_reality_headset",
+    "citationTitle": "Wikipedia: Virtual reality headset"
+  },
+  {
+    "id": "a75b6b75-7176-40e0-9884-c67773191d44",
+    "text": "What is the name of Facebook's (Meta's) social VR platform where users can interact with avatars in virtual spaces?",
+    "options": [
+      "Horizon Worlds",
+      "VRChat",
+      "AltspaceVR",
+      "Rec Room"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Horizon Worlds is Meta's flagship social VR platform.",
+    "detailedExplanation": "Horizon Worlds, formerly known as Facebook Horizon, is Meta's primary social virtual reality platform launched in 2021. It allows users to create personalized avatars, explore virtual worlds, play games, and interact with other users in shared virtual spaces. The platform represents Meta's major push into the metaverse concept, providing tools for users to build their own virtual experiences and socialize in VR environments.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Horizon_Worlds",
+    "citationTitle": "Wikipedia: Horizon Worlds"
+  },
+  {
+    "id": "19ba4264-9f96-43bd-9996-ebeed73ca8e1",
+    "text": "Which Japanese company created the Virtual Boy, an early commercial VR gaming system released in 1995?",
+    "options": [
+      "Sony",
+      "Nintendo",
+      "Sega",
+      "Panasonic"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Nintendo developed the Virtual Boy as an early attempt at portable VR gaming.",
+    "detailedExplanation": "The Virtual Boy was Nintendo's ambitious but unsuccessful venture into virtual reality gaming, released in 1995. The system featured a distinctive red monochrome display and required users to look into a visor-like headset mounted on a table stand. Despite Nintendo's reputation for innovation, the Virtual Boy was a commercial failure due to its uncomfortable design, limited game library, and reports of eye strain. It was discontinued after less than a year, making it one of Nintendo's most notable commercial failures.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Virtual_Boy",
+    "citationTitle": "Wikipedia: Virtual Boy"
+  },
+  {
+    "id": "c4b5ce91-bcb0-48e0-9cbc-7c7e471ddb48",
+    "text": "What does 'CAVE' stand for in the context of VR display systems?",
+    "options": [
+      "Computer Assisted Virtual Environment",
+      "Cave Automatic Virtual Environment",
+      "Cubic Audio Visual Experience",
+      "Centralized Augmented VR Engine"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "CAVE stands for Cave Automatic Virtual Environment, a room-sized VR display system.",
+    "detailedExplanation": "A CAVE (Cave Automatic Virtual Environment) is an immersive virtual reality environment where projectors are directed to the walls of a room-sized cube. Users wear 3D glasses and can move freely within the space while surrounded by projected imagery that creates a sense of immersion. Developed in the 1990s at the University of Illinois, CAVE systems are primarily used for scientific visualization, research, and industrial applications due to their high cost and space requirements.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Cave_automatic_virtual_environment",
+    "citationTitle": "Wikipedia: Cave Automatic Virtual Environment"
+  },
+  {
+    "id": "e436d212-1e76-484f-b5b1-a957fde142e0",
+    "text": "Which VR headset was the first to feature inside-out tracking without requiring external sensors?",
+    "options": [
+      "HTC Vive Pro",
+      "Oculus Quest",
+      "PlayStation VR",
+      "Windows Mixed Reality headsets"
+    ],
+    "correctIndex": 3,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Windows Mixed Reality headsets were the first consumer VR devices with built-in inside-out tracking.",
+    "detailedExplanation": "Windows Mixed Reality headsets, launched in 2017 by various manufacturers like HP, Dell, and Lenovo, were the first consumer VR headsets to feature inside-out tracking as a standard feature. This technology uses cameras mounted on the headset itself to track movement and position without requiring external sensors or lighthouses to be set up around the room. This innovation made VR setup much more convenient and accessible for consumers, influencing the design of later headsets like the Oculus Quest series.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Windows_Mixed_Reality",
+    "citationTitle": "Wikipedia: Windows Mixed Reality"
+  },
+  {
+    "id": "fdd1ee67-96e7-486a-838e-8eda4329173e",
+    "text": "What is the term for the VR technique that allows users to see their real hands and keyboard while wearing a headset?",
+    "options": [
+      "Hand tracking",
+      "Passthrough",
+      "Mixed reality",
+      "Spatial mapping"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Passthrough technology shows real-world elements through the VR headset's cameras.",
+    "detailedExplanation": "Passthrough is a VR feature that uses the headset's external cameras to display real-world imagery inside the virtual environment. This allows users to see their physical surroundings, hands, keyboard, or other objects without removing the headset. Modern VR headsets like the Meta Quest series use passthrough for safety, setup procedures, and mixed reality applications where virtual objects are overlaid onto the real world. This technology bridges the gap between pure VR and augmented reality experiences.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Mixed_reality",
+    "citationTitle": "Wikipedia: Mixed Reality"
+  },
+  {
+    "id": "89d222af-f326-4832-9c33-8b1ad8b9093d",
+    "text": "Which 1992 science fiction film starring Keanu Reeves heavily featured virtual reality themes and influenced VR development?",
+    "options": [
+      "Strange Days",
+      "The Matrix",
+      "Johnny Mnemonic",
+      "The Lawnmower Man"
+    ],
+    "correctIndex": 3,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "The Lawnmower Man was released in 1992 and prominently featured virtual reality technology.",
+    "detailedExplanation": "The Lawnmower Man, released in 1992, was one of the first major Hollywood films to prominently feature virtual reality as a central plot element. The film depicted immersive VR environments and helped popularize the concept of virtual reality in mainstream culture during the early 1990s VR boom. While the film took creative liberties with VR technology, it influenced public perception and interest in virtual reality development, even though the technology at the time was far from the sophisticated experiences portrayed in the movie.",
+    "citationUrl": "https://en.wikipedia.org/wiki/The_Lawnmower_Man_(film)",
+    "citationTitle": "Wikipedia: The Lawnmower Man (film)"
+  },
+  {
+    "id": "74a26713-2fda-48bf-965c-2167d6c09e0b",
+    "text": "What is the name of Valve's VR platform that serves as the primary software hub for SteamVR experiences?",
+    "options": [
+      "Steam Home",
+      "SteamVR Home",
+      "Valve Virtual Hub",
+      "Steam Reality"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "SteamVR Home is Valve's virtual environment and launcher for VR applications.",
+    "detailedExplanation": "SteamVR Home is Valve's virtual reality platform that serves as a customizable home environment and launcher for VR experiences on Steam. Users can personalize their virtual spaces, display collectibles from games, and launch VR applications from within the immersive environment. It supports various VR headsets including the Valve Index, HTC Vive, and Oculus devices, providing a unified platform for accessing Steam's extensive library of VR content.",
+    "citationUrl": "https://en.wikipedia.org/wiki/SteamVR",
+    "citationTitle": "Wikipedia: SteamVR"
+  },
+  {
+    "id": "26beb74f-de5b-4a95-afd2-a5c1bd01d5e5",
+    "text": "Which haptic feedback technology allows VR users to feel virtual objects through ultrasound waves in mid-air?",
+    "options": [
+      "Force feedback gloves",
+      "Haptic suits",
+      "Ultrahaptics",
+      "Vibrotactile feedback"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Ultrahaptics technology creates tactile sensations in mid-air using focused ultrasound.",
+    "detailedExplanation": "Ultrahaptics is a revolutionary haptic technology that creates tactile sensations in mid-air without requiring users to wear or hold any devices. The system uses arrays of ultrasonic transducers to focus sound waves on specific points in space, creating pressure sensations that users can feel on their hands and fingers. This technology enables VR users to 'feel' virtual objects, buttons, and textures floating in space, adding a new dimension of immersion to virtual reality experiences without the need for gloves or controllers.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Haptic_technology",
+    "citationTitle": "Wikipedia: Haptic Technology"
+  },
+  {
+    "id": "7802ac65-d4ff-4aac-8259-25e5aee6a86f",
+    "text": "What is the field of view (FOV) range typically offered by most modern consumer VR headsets?",
+    "options": [
+      "60-80 degrees",
+      "90-110 degrees",
+      "120-140 degrees",
+      "150-180 degrees"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Most consumer VR headsets offer a field of view between 90-110 degrees.",
+    "detailedExplanation": "Field of view is a crucial specification for VR headsets as it determines how immersive the experience feels. Most modern consumer VR headsets like the Meta Quest 2, HTC Vive, and PlayStation VR offer a field of view between 90-110 degrees. This range provides a good balance between immersion and the technical limitations of current display technology. Human peripheral vision extends to about 200 degrees, so while current VR FOV is narrower than natural vision, the 90-110 degree range is sufficient for compelling virtual experiences.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Virtual_reality_headset",
+    "citationTitle": "Wikipedia: Virtual reality headset"
+  },
+  {
+    "id": "77bd102a-bc90-49ee-bb2f-dcc302469788",
+    "text": "Which VR content creation company was acquired by Apple in 2010 and contributed to their AR/VR development?",
+    "options": [
+      "Polar Rose",
+      "PrimeSense",
+      "Metaio",
+      "Flyby Media"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Apple acquired PrimeSense in 2013 for their 3D sensing technology that later influenced Apple's AR/VR efforts.",
+    "detailedExplanation": "PrimeSense was an Israeli 3D sensing company that developed the original technology behind Microsoft's Kinect sensor. Apple acquired PrimeSense in 2013 for an estimated $345 million, primarily for their expertise in 3D sensing and motion tracking technology. This acquisition was strategic for Apple's later development of augmented reality features in iPhones and iPads, including Face ID technology and ARKit. The depth-sensing capabilities that PrimeSense pioneered became fundamental building blocks for modern AR and VR applications.",
+    "citationUrl": "https://en.wikipedia.org/wiki/PrimeSense",
+    "citationTitle": "Wikipedia: PrimeSense"
+  },
+  {
+    "id": "480c0c72-1907-4218-8811-26bf0eb56d56",
+    "text": "What is the name of the VR programming language specifically designed for creating immersive web-based virtual reality experiences?",
+    "options": [
+      "WebGL",
+      "A-Frame",
+      "Three.js",
+      "Unity3D"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "A-Frame is a web framework specifically designed for building virtual reality experiences that run in web browsers.",
+    "detailedExplanation": "A-Frame is an open-source web framework developed by Mozilla for building virtual reality experiences that run directly in web browsers. Released in 2015, A-Frame uses HTML-like syntax to make VR development accessible to web developers without requiring extensive 3D graphics programming knowledge. It's built on top of Three.js and WebGL, providing a declarative approach to creating VR scenes. A-Frame supports various VR headsets and can also display content on desktop and mobile devices, making it a popular choice for cross-platform VR web applications and educational VR content.",
+    "citationUrl": "https://en.wikipedia.org/wiki/A-Frame_(virtual_reality_framework)",
+    "citationTitle": "Wikipedia: A-Frame (virtual reality framework)"
+  },
+  {
+    "id": "73fb4060-6c98-4840-8bc0-a2c5e9187bed",
+    "text": "Which NASA program uses VR technology to train astronauts for spacewalks and International Space Station operations?",
+    "options": [
+      "Virtual Reality Laboratory",
+      "Astronaut Training Experience",
+      "Mixed Reality Simulation",
+      "Virtual Environment Testing"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "NASA's Virtual Reality Laboratory is used extensively for astronaut training and mission preparation.",
+    "detailedExplanation": "NASA's Virtual Reality Laboratory at Johnson Space Center has been using VR technology since the 1990s to train astronauts for spacewalks, equipment operations, and emergency procedures aboard the International Space Station. The VR system allows astronauts to practice complex procedures in a risk-free environment, rehearsing everything from routine maintenance tasks to emergency scenarios. The technology has proven so effective that astronauts often report that their actual spacewalks feel familiar because of their extensive VR training. NASA continues to advance their VR capabilities, incorporating haptic feedback and increasingly realistic simulations of space environments.",
+    "citationUrl": "https://en.wikipedia.org/wiki/NASA_Virtual_Reality",
+    "citationTitle": "Wikipedia: NASA Virtual Reality"
+  }
+]

@@ -1,0 +1,342 @@
+[
+  {
+    "id": "fffbbf64-46ee-4446-b266-2a33c6fac115",
+    "text": "Which country operates under a 'Westminster system' but has a unicameral parliament, making it unique among major Commonwealth nations?",
+    "options": [
+      "New Zealand",
+      "Canada",
+      "Australia",
+      "South Africa"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "New Zealand abolished its upper house (Legislative Council) in 1950, making it the only major Westminster system with a single parliamentary chamber.",
+    "detailedExplanation": "New Zealand operates under the Westminster parliamentary system inherited from Britain, but uniquely among major Commonwealth nations, it has a unicameral parliament consisting only of the House of Representatives. The New Zealand Parliament abolished its upper house, the Legislative Council, in 1950, making it distinctive from other Westminster systems like the UK (House of Lords), Canada (Senate), and Australia (Senate) which maintain bicameral structures.",
+    "citationUrl": "https://en.wikipedia.org/wiki/New_Zealand_Parliament",
+    "citationTitle": "Wikipedia: New Zealand Parliament"
+  },
+  {
+    "id": "9a20a0f9-0c4f-4062-a06b-5390ea2b9c24",
+    "text": "In the German federal system, what is the name of the upper house that represents the 16 federal states (Länder)?",
+    "options": [
+      "Bundestag",
+      "Bundesrat",
+      "Landtag",
+      "Reichsrat"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "The Bundesrat is Germany's federal council representing the 16 states, while the Bundestag is the lower house representing the people directly.",
+    "detailedExplanation": "The Bundesrat serves as the upper house of the German parliament, representing the interests of Germany's 16 federal states (Länder). Unlike many upper houses, Bundesrat members are not directly elected but are appointed by state governments. Each state receives between three and six votes depending on population size. The Bundesrat must approve all legislation affecting state powers, making it a crucial component of German federalism and ensuring state participation in federal lawmaking.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Bundesrat_of_Germany",
+    "citationTitle": "Wikipedia: Bundesrat of Germany"
+  },
+  {
+    "id": "a274b3af-d8f2-498d-bb5d-de03d5d63491",
+    "text": "Which political system features a 'semi-presidential' structure where both a president and prime minister share executive power?",
+    "options": [
+      "United States",
+      "France",
+      "United Kingdom",
+      "Germany"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "France operates a semi-presidential system with a directly elected president handling foreign policy and defense, while a prime minister manages domestic affairs.",
+    "detailedExplanation": "France's Fifth Republic, established in 1958, created a unique semi-presidential system that combines elements of presidential and parliamentary governance. The President of France is directly elected and holds significant powers over foreign policy, defense, and can dissolve parliament, while the Prime Minister is appointed by the president but must maintain parliament's confidence to govern effectively. This dual executive structure allows for 'cohabitation' periods when the president and prime minister come from opposing political parties.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Semi-presidential_republic",
+    "citationTitle": "Wikipedia: Semi-presidential republic"
+  },
+  {
+    "id": "fd55b5fe-ef06-4888-9a8c-040349a329de",
+    "text": "What is the term for the Chinese political system where the Communist Party maintains control through multiple smaller parties that accept its leadership?",
+    "options": [
+      "Democratic centralism",
+      "Multi-party cooperation",
+      "Peoples democratic dictatorship",
+      "Socialist market system"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "China's 'multi-party cooperation' system allows eight democratic parties to exist alongside the Communist Party under its overall leadership.",
+    "detailedExplanation": "China operates under a system called 'multi-party cooperation and political consultation under the leadership of the Communist Party of China.' This system includes eight officially recognized democratic parties that participate in governance through the Chinese People's Political Consultative Conference (CPPCC). These parties, including the Revolutionary Committee of the Chinese Kuomintang and China Democratic League, accept the Communist Party's leading role while providing consultation and oversight, creating a controlled form of political pluralism within the one-party state structure.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Chinese_People%27s_Political_Consultative_Conference",
+    "citationTitle": "Wikipedia: Chinese People's Political Consultative Conference"
+  },
+  {
+    "id": "575da724-a703-41db-9063-c0a64ff11fbc",
+    "text": "In Switzerland's unique governmental structure, what is the name of the seven-member executive council that operates on consensus?",
+    "options": [
+      "Federal Assembly",
+      "Federal Council",
+      "Cantonal Council",
+      "National Council"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "The Swiss Federal Council consists of seven members who collectively serve as head of state and government, making decisions through consensus rather than majority rule.",
+    "detailedExplanation": "Switzerland's Federal Council (Bundesrat) represents one of the world's most unique executive structures. Composed of seven members elected by the Federal Assembly, the council operates on the principle of collegiality, meaning all decisions are made collectively through consensus. Each member heads a federal department and serves a one-year rotating presidency. This consensus-based approach, combined with Switzerland's direct democracy features like referendums and citizen initiatives, creates a highly decentralized and participatory form of government that reflects the country's multicultural and federalist traditions.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Federal_Council_(Switzerland)",
+    "citationTitle": "Wikipedia: Federal Council (Switzerland)"
+  },
+  {
+    "id": "fbce9239-1e3b-4c85-a59f-98de78f9919f",
+    "text": "Which country's parliament is called the 'Althing' and claims to be the world's oldest surviving parliament?",
+    "options": [
+      "Denmark",
+      "Norway",
+      "Iceland",
+      "Faroe Islands"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Iceland's Althing was established in 930 CE and is widely recognized as the world's oldest surviving parliamentary institution.",
+    "detailedExplanation": "The Icelandic Althing (Alþingi) was founded in 930 CE at Þingvellir and is considered the world's oldest surviving parliament. Originally, it functioned as both a legislative assembly and a court, where free men would gather annually to settle disputes and make laws. While it was suspended during periods of foreign rule, particularly under Danish control, the Althing was restored to full legislative powers when Iceland gained independence. The modern Althing operates as a unicameral parliament with 63 members, continuing a democratic tradition that spans over a millennium.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Althing",
+    "citationTitle": "Wikipedia: Althing"
+  },
+  {
+    "id": "6b39f5d6-bc90-4fb7-b184-fef52ef245c5",
+    "text": "In India's federal structure, what is the name of the constitutional body that mediates disputes between the central government and states?",
+    "options": [
+      "Planning Commission",
+      "Finance Commission",
+      "Interstate Council",
+      "Election Commission"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "The Interstate Council, established under Article 263 of the Indian Constitution, mediates disputes and coordinates policies between different levels of government.",
+    "detailedExplanation": "India's Interstate Council serves as a crucial constitutional mechanism for managing center-state relations in the world's largest federal democracy. Established under Article 263 of the Constitution, the council is chaired by the Prime Minister and includes Chief Ministers of all states and Union Territories with legislatures. It investigates disputes between governments, discusses policy matters requiring coordination, and makes recommendations for better cooperation. Though not permanently established until 1990, the Interstate Council has become essential for managing India's complex federal structure with 28 states and 8 Union Territories.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Inter-State_Council",
+    "citationTitle": "Wikipedia: Inter-State Council"
+  },
+  {
+    "id": "882c3863-d658-486b-8c40-f062bbe1a8b7",
+    "text": "What unique feature distinguishes Belgium's federal system from most other federal countries regarding language-based governance?",
+    "options": [
+      "Rotating official languages",
+      "Community governments alongside regional ones",
+      "Bilingual requirement for all officials",
+      "Language-based electoral districts only"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Belgium has both territorial regions (Flanders, Wallonia, Brussels) and cultural communities (Flemish, French, German) creating overlapping jurisdictions based on language and culture.",
+    "detailedExplanation": "Belgium's federal system is uniquely complex, featuring both territorial regions (Flanders, Wallonia, and Brussels-Capital) and cultural communities (Flemish, French, and German-speaking). This dual structure means citizens are governed by both regional authorities (handling economic matters, environment, transport) and community governments (managing education, culture, language policy). For example, someone in Brussels may be governed by the Brussels-Capital Region territorially but by either the Flemish or French Community culturally, depending on their language choice. This overlapping system of governance is designed to manage Belgium's linguistic and cultural divisions while maintaining national unity.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Communities,_regions_and_language_areas_of_Belgium",
+    "citationTitle": "Wikipedia: Communities, regions and language areas of Belgium"
+  },
+  {
+    "id": "685bc867-4e59-4a35-8854-de26153d1f04",
+    "text": "Which country has a unique parliamentary system where the Speaker of Parliament serves as the ceremonial head of state instead of a president or monarch?",
+    "options": [
+      "Nauru",
+      "San Marino",
+      "Andorra",
+      "Vatican City"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Nauru's Speaker of Parliament serves as the ceremonial head of state.",
+    "detailedExplanation": "Nauru operates under a unique system where the Speaker of Parliament acts as the ceremonial head of state, unlike most republics which have a separate president or parliamentary systems under constitutional monarchies. This small Pacific island nation's government structure reflects its size and practical needs, with the Speaker performing ceremonial duties typically reserved for heads of state while the President serves as head of government.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Politics_of_Nauru",
+    "citationTitle": "Wikipedia: Politics of Nauru"
+  },
+  {
+    "id": "845207e8-58b9-4696-ac2e-8a6c1bcaf2d2",
+    "text": "In Iran's theocratic system, what is the name of the unelected body of clerics and jurists that has veto power over all legislation and candidate eligibility?",
+    "options": [
+      "Assembly of Experts",
+      "Guardian Council",
+      "Expediency Council",
+      "Supreme Judicial Council"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "The Guardian Council has veto power over legislation and determines candidate eligibility in Iran.",
+    "detailedExplanation": "Iran's Guardian Council consists of twelve members - six clerics appointed by the Supreme Leader and six jurists nominated by the judiciary and approved by parliament. This body has the constitutional authority to veto any legislation passed by parliament if deemed incompatible with Islamic law or the constitution, and determines which candidates can run for president, parliament, and the Assembly of Experts, effectively controlling Iran's electoral process.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Guardian_Council",
+    "citationTitle": "Wikipedia: Guardian Council"
+  },
+  {
+    "id": "6f009e2c-e929-4ef5-93f5-a1a6ddbcaf6b",
+    "text": "Which African country operates under a 'Government of National Unity' structure where the presidency rotates between different ethnic groups every five years?",
+    "options": [
+      "South Africa",
+      "Kenya",
+      "Burundi",
+      "Rwanda"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Burundi's constitution mandates ethnic rotation in the presidency between Hutu and Tutsi groups.",
+    "detailedExplanation": "Burundi's post-civil war constitution established a unique power-sharing arrangement where the presidency must alternate between the Hutu and Tutsi ethnic groups every five years. This system, along with mandated ethnic quotas in government positions and the military, was designed to prevent the ethnic conflicts that plagued the country during its civil war period from 1993 to 2005.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Politics_of_Burundi",
+    "citationTitle": "Wikipedia: Politics of Burundi"
+  },
+  {
+    "id": "fe1aaa1e-4f57-4d21-adae-3c1dfdbc6a58",
+    "text": "What is the maximum number of ministers allowed in India's Council of Ministers according to the 91st Constitutional Amendment?",
+    "options": [
+      "15% of the total strength of the Lok Sabha",
+      "25 ministers",
+      "50 ministers",
+      "No constitutional limit exists"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "The 91st Amendment limits the Council of Ministers to 15% of the total strength of the Lok Sabha.",
+    "detailedExplanation": "The 91st Constitutional Amendment Act of 2003 imposed a ceiling on the size of India's Council of Ministers at both central and state levels. At the central level, the total number of ministers, including the Prime Minister, cannot exceed 15% of the total strength of the Lok Sabha. This amendment was enacted to prevent the practice of expanding cabinets purely for political accommodation and to ensure more efficient governance.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Ninety-first_Amendment_of_the_Constitution_of_India",
+    "citationTitle": "Wikipedia: Ninety-first Amendment of the Constitution of India"
+  },
+  {
+    "id": "f917b70d-f925-4dd9-b703-68f166452f2a",
+    "text": "Which country's legislature is called the 'Grand and General Council' and consists of 60 members serving five-year terms?",
+    "options": [
+      "Liechtenstein",
+      "Monaco",
+      "San Marino",
+      "Andorra"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "San Marino's parliament is called the Grand and General Council with 60 members.",
+    "detailedExplanation": "San Marino's Grand and General Council (Consiglio Grande e Generale) serves as both the legislative and electoral body of this microstate. The 60 members are elected by proportional representation for five-year terms, and the council elects two Captains Regent who serve as joint heads of state for six-month terms. This system has its roots in San Marino's medieval commune structure and represents one of the world's oldest republican traditions.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Grand_and_General_Council",
+    "citationTitle": "Wikipedia: Grand and General Council"
+  },
+  {
+    "id": "632e9e65-b099-4f93-ab0f-cb02128e8308",
+    "text": "In Cuba's governmental structure, what is the name of the municipal assemblies that form the base level of the 'People's Power' system?",
+    "options": [
+      "Consejos Populares",
+      "Asambleas Municipales",
+      "Comités de Defensa",
+      "Poder Popular Municipal"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Asambleas Municipales (Municipal Assemblies) are the base level of Cuba's People's Power system.",
+    "detailedExplanation": "Cuba's unique governmental structure is based on a pyramid of assemblies called 'Órganos del Poder Popular' (Organs of People's Power). At the base are the Asambleas Municipales (Municipal Assemblies), whose delegates are directly elected by citizens. These municipal assemblies then elect delegates to provincial assemblies, which in turn elect members to the National Assembly. This system is designed to implement Cuba's interpretation of socialist democracy, though all candidates must be approved by the Communist Party.",
+    "citationUrl": "https://en.wikipedia.org/wiki/National_Assembly_of_People%27s_Power",
+    "citationTitle": "Wikipedia: National Assembly of People's Power"
+  },
+  {
+    "id": "b27e651c-b2f5-4a36-bffa-ff03f80edb45",
+    "text": "Which country has a 'Tricameral Parliament' system with separate chambers for different racial groups, implemented during apartheid but later abolished?",
+    "options": [
+      "Zimbabwe",
+      "South Africa",
+      "Namibia",
+      "Botswana"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "South Africa implemented a Tricameral Parliament from 1984-1994 during apartheid with separate chambers by race.",
+    "detailedExplanation": "South Africa's Tricameral Parliament operated from 1984 to 1994 as part of the apartheid government's attempt at constitutional reform. It consisted of three chambers: the House of Assembly for whites, the House of Representatives for Coloureds, and the House of Delegates for Indians. Black South Africans were excluded entirely. This system was widely boycotted and criticized as a superficial reform that maintained white minority rule while creating divisions among oppressed groups.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Tricameral_Parliament",
+    "citationTitle": "Wikipedia: Tricameral Parliament"
+  },
+  {
+    "id": "cc01fa74-fd6b-4eb5-ae3e-b2ff7ea25286",
+    "text": "In Malaysia's federal system, what is the unique title given to the rotating constitutional monarch selected from among the nine hereditary state rulers?",
+    "options": [
+      "Sultan of Malaysia",
+      "Yang di-Pertuan Agong",
+      "Raja Malaysia",
+      "Tengku Mahkota"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Malaysia's rotating monarch is titled Yang di-Pertuan Agong.",
+    "detailedExplanation": "Malaysia operates under a unique constitutional monarchy where the Yang di-Pertuan Agong (literally 'He Who is Made Lord') serves as the federal monarch. This position rotates every five years among the nine hereditary Malay state rulers through election by the Conference of Rulers. The Yang di-Pertuan Agong serves as the constitutional head of state and symbol of national unity in Malaysia's federal system, while executive power rests with the Prime Minister and Cabinet.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Yang_di-Pertuan_Agong",
+    "citationTitle": "Wikipedia: Yang di-Pertuan Agong"
+  },
+  {
+    "id": "1ed50dcd-466e-4a15-ba27-73e2ea8d435b",
+    "text": "In which country does the 'Seanad Éireann' serve as the upper house of parliament, with most of its members elected by panels representing different vocational interests rather than geographic constituencies?",
+    "options": [
+      "Scotland",
+      "Ireland",
+      "Wales",
+      "Northern Ireland"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Ireland's Seanad Éireann (Senate) uses a unique vocational panel system for most elections.",
+    "detailedExplanation": "The Irish Senate (Seanad Éireann) is distinctive among upper houses worldwide for its vocational representation system. Of its 60 members, 43 are elected from five panels representing different sectors: Cultural and Educational, Agricultural, Labour, Industrial and Commercial, and Administrative. This system was designed to ensure representation of different professional and social interests rather than purely geographic or party-political representation, making it quite different from most other parliamentary upper chambers.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Seanad_%C3%89ireann",
+    "citationTitle": "Wikipedia: Seanad Éireann"
+  },
+  {
+    "id": "bb415863-d8fb-4a24-84f0-c57eaa6958ac",
+    "text": "What is the name of Japan's bicameral legislature, consisting of the House of Representatives and the House of Councillors?",
+    "options": [
+      "National Assembly",
+      "Diet",
+      "Congress",
+      "Parliament"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Japan's national legislature is called the Diet (Kokkai in Japanese).",
+    "detailedExplanation": "The National Diet of Japan is the country's bicameral legislature, established under the post-war constitution of 1947. It consists of the House of Representatives (lower house) with 465 members serving four-year terms, and the House of Councillors (upper house) with 248 members serving six-year terms. The Diet holds supreme power in the Japanese government system and is the only institution that can make laws and approve the national budget. The name 'Diet' comes from the Latin 'dieta', meaning a formal assembly.",
+    "citationUrl": "https://en.wikipedia.org/wiki/National_Diet",
+    "citationTitle": "Wikipedia: National Diet"
+  },
+  {
+    "id": "f4e462bc-8b8e-45e3-9eef-70b0a1912c35",
+    "text": "Which country employs a 'consociational democracy' system featuring a four-party coalition government with guaranteed representation for Dutch, French, German, and Italian-speaking communities?",
+    "options": [
+      "Austria",
+      "Belgium",
+      "Netherlands",
+      "Luxembourg"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Belgium uses consociational democracy to manage its linguistic divisions between Dutch, French, and German speakers.",
+    "detailedExplanation": "Belgium operates under a consociational democracy system designed to accommodate its complex linguistic and regional divisions. The country is divided into Dutch-speaking Flanders, French-speaking Wallonia, and a small German-speaking community, plus bilingual Brussels. The government structure includes elaborate power-sharing mechanisms, including proportional representation in government positions, mutual veto powers for each community, and segmental autonomy through a federal system with regions and communities having significant autonomy. This system ensures that no single linguistic group can dominate the others.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Politics_of_Belgium",
+    "citationTitle": "Wikipedia: Politics of Belgium"
+  },
+  {
+    "id": "ff4f53dd-e5d9-471c-bce8-0fb0e86875f8",
+    "text": "In South Africa's government structure, what is the name of the upper house that represents the nine provinces and has special powers over legislation affecting provincial interests?",
+    "options": [
+      "Provincial Assembly",
+      "National Council of Provinces",
+      "Senate of Provinces",
+      "Federal Council"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "South Africa's National Council of Provinces represents provincial interests in the national legislature.",
+    "detailedExplanation": "The National Council of Provinces (NCOP) is the upper house of South Africa's Parliament, established under the 1996 Constitution to replace the apartheid-era Senate. It consists of 90 members, with each of the nine provinces having equal representation of 10 delegates. The NCOP has special responsibilities for legislation that affects provincial interests and must approve any bill that affects provincial boundaries, powers, or functions. This body ensures that provincial voices are heard at the national level and maintains the balance between national and provincial government in South Africa's cooperative federal system.",
+    "citationUrl": "https://en.wikipedia.org/wiki/National_Council_of_Provinces",
+    "citationTitle": "Wikipedia: National Council of Provinces"
+  }
+]

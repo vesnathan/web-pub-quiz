@@ -1,0 +1,342 @@
+[
+  {
+    "id": "7760bc74-06da-45b5-9e38-6bf8055e8e8e",
+    "text": "Which spice is known as 'red gold' and is one of the most expensive spices in the world by weight?",
+    "options": [
+      "Cardamom",
+      "Saffron",
+      "Vanilla",
+      "Star anise"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Saffron is called 'red gold' due to its extremely high value and distinctive color.",
+    "detailedExplanation": "Saffron, derived from the flower of Crocus sativus, is one of the world's most expensive spices by weight. It takes about 150 flowers to produce just 1 gram of saffron, as only the three red stigmas from each flower are used. This labor-intensive harvesting process, combined with its distinctive flavor and coloring properties, has earned saffron the nickname 'red gold' throughout history.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Saffron",
+    "citationTitle": "Wikipedia: Saffron"
+  },
+  {
+    "id": "4586b55e-914e-415c-81a1-cdcb204feb64",
+    "text": "What part of the cinnamon tree is used to make the spice we commonly use in cooking?",
+    "options": [
+      "Leaves",
+      "Bark",
+      "Seeds",
+      "Roots"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Cinnamon is made from the inner bark of evergreen trees from the Cinnamomum family.",
+    "detailedExplanation": "Cinnamon is obtained from the inner bark of several tree species from the genus Cinnamomum. The bark is peeled and laid in the sun to dry, where it naturally curls into quills due to the drying process. The outer bark is removed, and the inner bark is the part that becomes the cinnamon spice we know, either in stick form or ground into powder.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Cinnamon",
+    "citationTitle": "Wikipedia: Cinnamon"
+  },
+  {
+    "id": "23efe696-93fd-45e8-ad15-a4cd6cc71197",
+    "text": "Which herb is traditionally associated with remembrance and is often used at weddings and funerals?",
+    "options": [
+      "Basil",
+      "Rosemary",
+      "Thyme",
+      "Oregano"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Rosemary has been associated with memory and remembrance since ancient times.",
+    "detailedExplanation": "Rosemary has been symbolically linked to memory and remembrance for thousands of years, dating back to ancient Greece where students would wear rosemary garlands while studying. This association led to its traditional use at both weddings (for remembering vows) and funerals (for remembering the deceased). Shakespeare famously referenced this in Hamlet with Ophelia's line 'There's rosemary, that's for remembrance.'",
+    "citationUrl": "https://en.wikipedia.org/wiki/Rosemary",
+    "citationTitle": "Wikipedia: Rosemary"
+  },
+  {
+    "id": "f253c4cf-af9e-4f5c-8814-0d2af390ba40",
+    "text": "What gives black pepper its characteristic heat and pungency?",
+    "options": [
+      "Capsaicin",
+      "Piperine",
+      "Allicin",
+      "Menthol"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Piperine is the alkaloid compound that gives black pepper its distinctive spicy bite.",
+    "detailedExplanation": "Black pepper gets its characteristic pungent heat from piperine, an alkaloid compound found in the fruit of the pepper plant. This is different from the capsaicin that makes chili peppers hot. Piperine creates a sharp, biting sensation rather than the burning heat of capsaicin. When pepper is ground, piperine is released, which is why freshly ground pepper is more potent than pre-ground pepper.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Piperine",
+    "citationTitle": "Wikipedia: Piperine"
+  },
+  {
+    "id": "2b37cb72-e36f-425d-bcd4-a8d9ea387c43",
+    "text": "Which spice blend is essential to Cajun and Creole cooking and typically contains paprika, garlic, and cayenne pepper?",
+    "options": [
+      "Old Bay",
+      "Cajun seasoning",
+      "Italian seasoning",
+      "Herbes de Provence"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Cajun seasoning is the signature spice blend of Louisiana Cajun and Creole cuisine.",
+    "detailedExplanation": "Cajun seasoning is a spice blend that originated in Louisiana and is fundamental to Cajun and Creole cooking. While recipes vary, it typically includes paprika, cayenne pepper, garlic powder, onion powder, oregano, and thyme. This blend provides the distinctive smoky, spicy flavor profile that characterizes dishes like jambalaya, gumbo, and blackened fish.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Cajun_cuisine",
+    "citationTitle": "Wikipedia: Cajun cuisine"
+  },
+  {
+    "id": "4ca5bbf2-2180-4a9e-920e-e93de8834ab1",
+    "text": "Which spice comes from the same plant as nutmeg but is actually the outer covering of the seed?",
+    "options": [
+      "Allspice",
+      "Mace",
+      "Cloves",
+      "Cardamom"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Mace is the dried aril (outer covering) of the nutmeg seed from the same tree.",
+    "detailedExplanation": "Mace and nutmeg both come from the fruit of the Myristica fragrans tree. The nutmeg is the seed inside the fruit, while mace is the red, lacy covering (called an aril) that surrounds the seed. When dried, mace turns yellow-orange and has a similar but more delicate flavor than nutmeg. This makes the nutmeg tree unique as one of the few plants that produces two distinct spices.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Mace_(spice)",
+    "citationTitle": "Wikipedia: Mace (spice)"
+  },
+  {
+    "id": "6df57fc9-5a7b-4f8a-8838-3c44f76849d4",
+    "text": "What is the main ingredient in wasabi that gives it its intense, nasal-clearing heat?",
+    "options": [
+      "Capsaicin",
+      "Piperine",
+      "Allyl isothiocyanate",
+      "Gingerol"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Allyl isothiocyanate creates wasabi's distinctive sharp, nasal heat that differs from other spicy foods.",
+    "detailedExplanation": "Wasabi gets its characteristic sharp, nasal-burning sensation from allyl isothiocyanate, a compound that's released when the plant's cells are damaged (such as by grating). This creates a different type of heat than capsaicin (chili peppers) or piperine (black pepper) - it's more volatile and affects the nasal passages rather than the tongue, which is why wasabi heat dissipates quickly and clears the sinuses.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Wasabi",
+    "citationTitle": "Wikipedia: Wasabi"
+  },
+  {
+    "id": "a03c51c9-1122-4cad-a808-dfaf679fcebf",
+    "text": "Which Mediterranean herb shares its name with a popular girls' name and is essential in tomato-based Italian dishes?",
+    "options": [
+      "Basil",
+      "Sage",
+      "Rosemary",
+      "Thyme"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Basil is both a common herb in Italian cooking and a popular name, derived from the Greek word for 'royal.'",
+    "detailedExplanation": "Basil, particularly sweet basil (Ocimum basilicum), is fundamental to Italian cuisine and is famously paired with tomatoes in dishes like Caprese salad and marinara sauce. The name 'Basil' comes from the Greek word 'basileus' meaning 'king' or 'royal,' reflecting the herb's esteemed status. It's also a popular given name for both the herb's pleasant associations and its historical significance.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Basil",
+    "citationTitle": "Wikipedia: Basil"
+  },
+  {
+    "id": "899e91e1-6d2d-4f45-bb0b-e9f3bd11d952",
+    "text": "Which spice is commonly known as the 'Queen of Spices' and is native to the Western Ghats of India?",
+    "options": [
+      "Turmeric",
+      "Cardamom",
+      "Cloves",
+      "Star Anise"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Cardamom is known as the 'Queen of Spices' and originates from India's Western Ghats.",
+    "detailedExplanation": "Cardamom, scientifically known as Elettaria cardamomum, has earned the title 'Queen of Spices' due to its distinctive flavor and aromatic properties. Native to the forests of the Western Ghats in southern India, cardamom is the third most expensive spice in the world after saffron and vanilla. It's widely used in both sweet and savory dishes across Indian, Middle Eastern, and Scandinavian cuisines.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Cardamom",
+    "citationTitle": "Wikipedia: Cardamom"
+  },
+  {
+    "id": "299f7a19-e354-4abe-b571-5569d9a78dcb",
+    "text": "What color does turmeric naturally turn food when used as a spice?",
+    "options": [
+      "Red",
+      "Yellow",
+      "Green",
+      "Orange"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Turmeric contains curcumin, which gives food a distinctive yellow color.",
+    "detailedExplanation": "Turmeric contains a compound called curcumin, which is responsible for its vibrant yellow color. This natural pigment is so strong that turmeric has been used as a dye for centuries, and it readily stains food, clothing, and surfaces yellow. In cooking, turmeric is prized not only for its earthy, slightly bitter flavor but also for the golden hue it imparts to dishes like curry, rice, and mustard.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Turmeric",
+    "citationTitle": "Wikipedia: Turmeric"
+  },
+  {
+    "id": "20be3c06-840e-40b2-be16-f098fdd9fc27",
+    "text": "Which dried herb is most commonly associated with pizza and has small, oval-shaped leaves?",
+    "options": [
+      "Thyme",
+      "Oregano",
+      "Sage",
+      "Marjoram"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Oregano is the classic pizza herb with distinctive small, oval leaves.",
+    "detailedExplanation": "Oregano is perhaps the most iconic herb associated with pizza, providing that distinctive Mediterranean flavor that complements tomato sauce and cheese perfectly. The dried herb has small, oval-shaped leaves and delivers a robust, slightly bitter taste with hints of pine and lemon. Native to the Mediterranean region, oregano has been a staple in Italian cuisine for centuries and is essential to many classic pizza recipes.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Oregano",
+    "citationTitle": "Wikipedia: Oregano"
+  },
+  {
+    "id": "eda06c72-28db-4531-9ecf-d48389080eb3",
+    "text": "What type of plant produces vanilla beans used to make vanilla extract?",
+    "options": [
+      "A tree",
+      "A shrub",
+      "An orchid",
+      "A grass"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Vanilla comes from orchid plants, specifically the Vanilla planifolia orchid.",
+    "detailedExplanation": "Vanilla beans come from orchid plants, primarily Vanilla planifolia, making vanilla the only edible fruit produced by the orchid family. These climbing orchid vines are native to Mexico and require specific growing conditions and hand-pollination in most commercial operations. The labor-intensive cultivation and processing of vanilla beans, which must be cured for several months, contributes to vanilla being the second most expensive spice in the world.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Vanilla",
+    "citationTitle": "Wikipedia: Vanilla"
+  },
+  {
+    "id": "6c9127b1-3603-405f-92bc-d8b4feb00076",
+    "text": "Which spice is made from dried and ground chili peppers and is essential to Hungarian cuisine?",
+    "options": [
+      "Cayenne",
+      "Paprika",
+      "Chili powder",
+      "Chipotle"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Paprika is made from ground chili peppers and is Hungary's national spice.",
+    "detailedExplanation": "Paprika is made from dried and ground chili peppers, typically sweet red peppers, and is considered Hungary's national spice. Hungarian paprika comes in various grades from mild and sweet to hot and pungent, with the finest varieties being highly prized worldwide. The spice is essential to classic Hungarian dishes like goulash and chicken paprikash, and different regions of Hungary produce paprika with distinct flavor profiles and heat levels.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Paprika",
+    "citationTitle": "Wikipedia: Paprika"
+  },
+  {
+    "id": "73feb559-42cb-460d-af87-c055393471c3",
+    "text": "Which aromatic spice comes from flower buds and is often stuck into oranges during Christmas?",
+    "options": [
+      "Allspice",
+      "Cloves",
+      "Cardamom",
+      "Fennel"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Cloves are dried flower buds commonly used in Christmas decorations and cooking.",
+    "detailedExplanation": "Cloves are the dried flower buds of the Syzygium aromaticum tree, native to Indonesia's Spice Islands. These nail-shaped spices have an intensely aromatic and warm flavor with hints of sweetness and slight numbing properties. During Christmas, cloves are traditionally stuck into oranges to create pomanders, which serve as natural air fresheners and decorative items. In cooking, cloves are used in both sweet and savory dishes, mulled wines, and spice blends like Chinese five-spice.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Clove",
+    "citationTitle": "Wikipedia: Clove"
+  },
+  {
+    "id": "b8b3d2dc-63b1-4eaa-a55d-08e604cc1fd9",
+    "text": "What gives fresh ginger its characteristic spicy, warming sensation?",
+    "options": [
+      "Capsaicin",
+      "Gingerol",
+      "Piperine",
+      "Menthol"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Gingerol is the compound responsible for ginger's spicy heat and warming properties.",
+    "detailedExplanation": "Fresh ginger gets its characteristic spicy, warming sensation from a compound called gingerol, which is chemically related to capsaicin (found in chili peppers) and piperine (found in black pepper). When ginger is dried or cooked, gingerol is converted to zingerone and shogaol, which have different flavor profiles - zingerone is less pungent and more sweet, while shogaol is more intensely spicy. This is why fresh, dried, and cooked ginger each have distinctly different tastes despite coming from the same root.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Ginger",
+    "citationTitle": "Wikipedia: Ginger"
+  },
+  {
+    "id": "38ae2617-efa6-4565-aae0-c2411ceb1aea",
+    "text": "Which seeds are commonly found on top of bagels and burger buns and come from a flowering plant?",
+    "options": [
+      "Poppy seeds",
+      "Sesame seeds",
+      "Sunflower seeds",
+      "Caraway seeds"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Sesame seeds are the small seeds commonly sprinkled on bagels and burger buns.",
+    "detailedExplanation": "Sesame seeds come from the Sesamum indicum plant and are among the oldest known oilseed crops, having been cultivated for over 3,000 years. These small, flat seeds have a mild, nutty flavor and are commonly used as a topping for bagels, hamburger buns, and various breads. Sesame seeds are also ground into tahini paste, pressed for sesame oil, and used extensively in Middle Eastern, Asian, and Mediterranean cuisines. They're rich in healthy fats, protein, and various minerals.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Sesame",
+    "citationTitle": "Wikipedia: Sesame"
+  },
+  {
+    "id": "d5bc7cca-726b-46d0-a7cf-7f8941ff996a",
+    "text": "Which spice is traditionally used to make the yellow color in mustard and comes from seeds that can be white, brown, or black?",
+    "options": [
+      "Turmeric",
+      "Mustard seed",
+      "Cumin",
+      "Coriander"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Mustard seed is ground to make mustard powder and paste, giving mustard its characteristic flavor and yellow color.",
+    "detailedExplanation": "Mustard seeds come from the mustard plant and are available in three main varieties: white (or yellow), brown, and black. When ground and mixed with liquid, they create the condiment we know as mustard. The seeds contain compounds that release their pungent flavor when crushed and moistened. White mustard seeds are milder and commonly used in American yellow mustard, while brown and black varieties are more pungent and used in European and Asian preparations.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Mustard_seed",
+    "citationTitle": "Wikipedia: Mustard seed"
+  },
+  {
+    "id": "b80a02eb-ba87-4c31-8a54-58b8809650ab",
+    "text": "What is the name of the spice blend that typically contains cumin, coriander, turmeric, and other spices, commonly used in Indian cuisine?",
+    "options": [
+      "Garam masala",
+      "Curry powder",
+      "Tandoori masala",
+      "Chaat masala"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Curry powder is a spice blend that typically includes cumin, coriander, turmeric, and other spices, though recipes vary widely.",
+    "detailedExplanation": "Curry powder is a spice mixture that was developed primarily for the Western market to approximate the complex spice blends used in Indian cooking. While there's no standard recipe, it commonly contains turmeric (which gives it the characteristic yellow color), cumin, coriander, fenugreek, and various other spices like ginger, garlic powder, and chili pepper. The blend was popularized during British colonial rule in India and has since become a staple in Western kitchens, though it's less commonly used in authentic Indian cooking where individual spices are typically used.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Curry_powder",
+    "citationTitle": "Wikipedia: Curry powder"
+  },
+  {
+    "id": "47a74632-06d0-4cdd-bf22-f01db9501972",
+    "text": "Which herb is known for its distinctive licorice-like flavor and is commonly used in French cooking, particularly with chicken and fish?",
+    "options": [
+      "Thyme",
+      "Tarragon",
+      "Sage",
+      "Chervil"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Tarragon has a distinctive anise or licorice-like flavor and is one of the classic herbs in French cuisine.",
+    "detailedExplanation": "Tarragon is an aromatic herb with a distinctive flavor profile that combines hints of licorice, anise, and vanilla. French tarragon is considered superior to Russian tarragon in terms of flavor intensity. It's one of the four herbs in the classic French 'fines herbes' mixture (along with chervil, chives, and parsley) and is essential in many French dishes including béarnaise sauce, chicken tarragon, and various fish preparations. The herb contains estragole, which gives it its characteristic anise-like taste.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Tarragon",
+    "citationTitle": "Wikipedia: Tarragon"
+  },
+  {
+    "id": "6e2fed36-a3fe-4072-909c-6a4f291a634f",
+    "text": "Which spice, often used in Middle Eastern and Mediterranean cuisine, comes from sumac berries and adds a tangy, lemony flavor to dishes?",
+    "options": [
+      "Sumac",
+      "Za'atar",
+      "Baharat",
+      "Dukkah"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Sumac is made from ground sumac berries and provides a tart, lemony flavor to Middle Eastern dishes.",
+    "detailedExplanation": "Sumac is a spice made from the dried and ground berries of the sumac shrub, particularly Rhus coriaria. It has a deep red color and provides a tangy, lemony flavor without the moisture of actual lemon juice. Sumac is widely used throughout the Middle East, Mediterranean region, and parts of Asia. It's commonly sprinkled over salads, grilled meats, rice dishes, and is a key ingredient in the spice blend za'atar. The spice is rich in antioxidants and has been used both culinarily and medicinally for centuries.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Sumac",
+    "citationTitle": "Wikipedia: Sumac"
+  }
+]

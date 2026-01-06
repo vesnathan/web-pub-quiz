@@ -1,0 +1,342 @@
+[
+  {
+    "id": "ca8a0c3a-85d3-4fa0-9389-7041b9b095a2",
+    "text": "What does the acronym 'VPN' stand for in cybersecurity?",
+    "options": [
+      "Virtual Private Network",
+      "Very Protected Network",
+      "Verified Public Network",
+      "Variable Password Network"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "VPN stands for Virtual Private Network, a secure connection method.",
+    "detailedExplanation": "A Virtual Private Network (VPN) creates a secure, encrypted connection between a user's device and a remote server, allowing users to browse the internet privately and securely. VPNs are commonly used to protect data when using public Wi-Fi networks and to access region-restricted content by masking the user's actual location.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Virtual_private_network",
+    "citationTitle": "Wikipedia: Virtual private network"
+  },
+  {
+    "id": "56419c03-da96-4975-83ad-90f3898e549d",
+    "text": "What is the most common type of malicious software that encrypts a victim's files and demands payment for their release?",
+    "options": [
+      "Trojan",
+      "Ransomware",
+      "Adware",
+      "Spyware"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Ransomware encrypts files and demands payment for decryption.",
+    "detailedExplanation": "Ransomware is a type of malicious software that encrypts a victim's files, making them inaccessible, and then demands a ransom payment (often in cryptocurrency) in exchange for the decryption key. This type of cyberattack has become increasingly common, targeting individuals, businesses, and even government institutions, causing billions of dollars in damages annually.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Ransomware",
+    "citationTitle": "Wikipedia: Ransomware"
+  },
+  {
+    "id": "019bc0b1-24cf-4a04-ba8e-9c91b3a61ed5",
+    "text": "What does 'phishing' refer to in cybersecurity?",
+    "options": [
+      "Catching viruses in networks",
+      "Fraudulent attempts to obtain sensitive information",
+      "Fishing for open network ports",
+      "Creating secure passwords"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Phishing involves fraudulent attempts to steal sensitive information like passwords.",
+    "detailedExplanation": "Phishing is a cybercrime where attackers impersonate legitimate organizations through fake emails, websites, or messages to trick victims into revealing sensitive information such as passwords, credit card numbers, or personal data. These attacks often appear to come from trusted sources like banks, social media platforms, or employers, making them particularly effective at deceiving unsuspecting users.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Phishing",
+    "citationTitle": "Wikipedia: Phishing"
+  },
+  {
+    "id": "e17b980c-7dcf-4f74-981e-580e5771c223",
+    "text": "What does 'SSL' stand for in web security?",
+    "options": [
+      "Secure Socket Layer",
+      "System Security Lock",
+      "Safe Site Login",
+      "Secure Server Link"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "SSL stands for Secure Socket Layer, a protocol for secure web communication.",
+    "detailedExplanation": "Secure Socket Layer (SSL) is a cryptographic protocol designed to provide secure communication over computer networks, most commonly used for securing web traffic between browsers and servers. When you see 'https://' in a web address and a padlock icon in your browser, SSL (or its successor TLS) is encrypting the data being transmitted, protecting it from eavesdroppers and tampering.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Transport_Layer_Security",
+    "citationTitle": "Wikipedia: Transport Layer Security"
+  },
+  {
+    "id": "b7a59e93-c1ac-45b6-a0e4-b93f93b8e855",
+    "text": "What is a 'firewall' in computer security?",
+    "options": [
+      "A physical barrier around servers",
+      "A network security system that monitors traffic",
+      "A type of antivirus software",
+      "A backup system for data"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "A firewall is a network security system that monitors and controls network traffic.",
+    "detailedExplanation": "A firewall is a network security device or software that monitors incoming and outgoing network traffic and decides whether to allow or block specific traffic based on predetermined security rules. Firewalls act as a barrier between trusted internal networks and untrusted external networks (like the internet), helping to prevent unauthorized access and cyber attacks while allowing legitimate communication to pass through.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Firewall_(computing)",
+    "citationTitle": "Wikipedia: Firewall (computing)"
+  },
+  {
+    "id": "8c9d754f-a72f-4938-9a2c-14eb44ac7a22",
+    "text": "What does 'MFA' or 'Multi-Factor Authentication' typically require?",
+    "options": [
+      "Multiple passwords",
+      "Two or more verification methods",
+      "Facial recognition only",
+      "A security clearance"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "MFA requires two or more different verification methods for enhanced security.",
+    "detailedExplanation": "Multi-Factor Authentication (MFA) is a security method that requires users to provide two or more verification factors to gain access to an account or system. These factors typically include something you know (password), something you have (smartphone or hardware token), and something you are (fingerprint or facial recognition). This layered approach significantly increases security by making it much harder for attackers to gain unauthorized access even if they obtain one factor.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Multi-factor_authentication",
+    "citationTitle": "Wikipedia: Multi-factor authentication"
+  },
+  {
+    "id": "966fe2f8-b333-44af-b657-3014412d16e4",
+    "text": "What is a 'DDoS attack' designed to do?",
+    "options": [
+      "Steal personal data",
+      "Overwhelm a server with traffic",
+      "Install malware",
+      "Crack passwords"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "DDoS attacks overwhelm servers with massive amounts of traffic to make them unavailable.",
+    "detailedExplanation": "A Distributed Denial of Service (DDoS) attack is a malicious attempt to disrupt the normal traffic of a targeted server, service, or network by overwhelming it with a flood of internet traffic from multiple sources. These attacks use networks of compromised computers (botnets) to generate the traffic, making the target unavailable to legitimate users. DDoS attacks are often used to take down websites, online services, or entire network infrastructures.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Denial-of-service_attack",
+    "citationTitle": "Wikipedia: Denial-of-service attack"
+  },
+  {
+    "id": "d7b92c0e-97c0-4fc6-b7bc-86ef15f006ee",
+    "text": "What is the primary purpose of antivirus software?",
+    "options": [
+      "Speed up computer performance",
+      "Detect and remove malicious software",
+      "Manage passwords",
+      "Create data backups"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Antivirus software is designed to detect and remove malicious software from computers.",
+    "detailedExplanation": "Antivirus software is a computer program designed to detect, prevent, and remove malicious software (malware) including viruses, worms, trojans, ransomware, and other threats. Modern antivirus programs use various detection methods including signature-based detection, heuristic analysis, and behavioral monitoring to identify and neutralize threats before they can damage systems or steal data. They typically run continuously in the background and regularly update their threat databases.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Antivirus_software",
+    "citationTitle": "Wikipedia: Antivirus software"
+  },
+  {
+    "id": "8b4d49d8-1ae9-4dfc-85b3-4d716ba24899",
+    "text": "What is the term for a secret word or phrase used to gain access to a computer system?",
+    "options": [
+      "Password",
+      "Username",
+      "Protocol",
+      "Gateway"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "A password is a secret authentication credential used to verify a user's identity.",
+    "detailedExplanation": "A password is one of the most fundamental security measures in cybersecurity, serving as a secret string of characters that users must provide to authenticate their identity and gain access to computer systems, accounts, or applications. Strong passwords typically combine letters, numbers, and special characters to make them harder for attackers to guess or crack through brute force methods.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Password",
+    "citationTitle": "Wikipedia: Password"
+  },
+  {
+    "id": "272eb33f-c1bb-432e-b42a-edaf222bb9c1",
+    "text": "Which type of cybercriminal specifically focuses on finding and exploiting security vulnerabilities in computer systems?",
+    "options": [
+      "Spammer",
+      "Hacker",
+      "Blogger",
+      "Designer"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "A hacker is someone who seeks to exploit weaknesses in computer systems or networks.",
+    "detailedExplanation": "In cybersecurity, a hacker is an individual who uses technical skills to gain unauthorized access to computer systems, networks, or data. While the term can refer to both malicious actors (black hat hackers) and security professionals who help improve systems (white hat hackers), in the context of cybercrime, hackers actively seek out vulnerabilities to exploit for various purposes including data theft, financial gain, or system disruption.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Hacker",
+    "citationTitle": "Wikipedia: Hacker"
+  },
+  {
+    "id": "3723de75-e05e-404c-bc13-f9c828aea196",
+    "text": "What does the 'S' in 'HTTPS' stand for when referring to secure web browsing?",
+    "options": [
+      "System",
+      "Secure",
+      "Server",
+      "Standard"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "HTTPS stands for HyperText Transfer Protocol Secure.",
+    "detailedExplanation": "HTTPS (HyperText Transfer Protocol Secure) is the secure version of HTTP, the protocol over which data is sent between a web browser and a website. The 'S' indicates that the connection is encrypted using SSL/TLS protocols, which protects sensitive information like passwords, credit card numbers, and personal data from being intercepted by malicious actors during transmission between the user's browser and the web server.",
+    "citationUrl": "https://en.wikipedia.org/wiki/HTTPS",
+    "citationTitle": "Wikipedia: HTTPS"
+  },
+  {
+    "id": "6a90ca62-da26-47c1-991b-0dad2ddae7f8",
+    "text": "What is the practice called when cybersecurity professionals attempt to hack into their own organization's systems to find vulnerabilities?",
+    "options": [
+      "Blue teaming",
+      "Penetration testing",
+      "Social engineering",
+      "Data mining"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Penetration testing involves authorized simulated attacks to identify security weaknesses.",
+    "detailedExplanation": "Penetration testing, often called 'pen testing,' is a legitimate cybersecurity practice where authorized security professionals simulate cyberattacks against an organization's own systems, networks, and applications. The goal is to identify security vulnerabilities before malicious hackers can exploit them. These controlled attacks help organizations understand their security posture and implement necessary improvements to protect against real threats.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Penetration_test",
+    "citationTitle": "Wikipedia: Penetration test"
+  },
+  {
+    "id": "138b4012-6d66-428c-850d-c7c7099d6f45",
+    "text": "What is the term for malicious software that disguises itself as legitimate software to trick users into installing it?",
+    "options": [
+      "Spam",
+      "Trojan horse",
+      "Cookie",
+      "Plugin"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "A Trojan horse is malware that appears legitimate but contains malicious code.",
+    "detailedExplanation": "A Trojan horse, or simply 'Trojan,' is a type of malicious software that masquerades as legitimate, useful software to deceive users into downloading and installing it. Unlike viruses or worms, Trojans don't replicate themselves but instead rely on social engineering to spread. Once installed, they can steal sensitive information, provide unauthorized access to cybercriminals, or cause other harm to the infected system.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Trojan_horse_(computing)",
+    "citationTitle": "Wikipedia: Trojan horse (computing)"
+  },
+  {
+    "id": "198f3fe6-e498-45a5-85bb-c09f2e7b8a93",
+    "text": "What is the term for keeping multiple copies of important data in different locations to prevent loss from cyberattacks?",
+    "options": [
+      "Backup",
+      "Download",
+      "Upload",
+      "Format"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "A backup is a copy of data stored separately to prevent loss from various threats.",
+    "detailedExplanation": "Data backup is a critical cybersecurity practice that involves creating copies of important files and storing them in separate locations, whether on external drives, cloud services, or other systems. Regular backups protect against data loss from various threats including ransomware attacks, hardware failures, natural disasters, or human error. The 3-2-1 backup rule suggests keeping 3 copies of important data, on 2 different types of media, with 1 copy stored offsite.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Backup",
+    "citationTitle": "Wikipedia: Backup"
+  },
+  {
+    "id": "4d8d0f66-ddee-4005-a097-264bd06308ac",
+    "text": "What is the cybersecurity term for software that automatically downloads and installs updates to fix security vulnerabilities?",
+    "options": [
+      "Patch management",
+      "File compression",
+      "System restore",
+      "Disk cleanup"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Patch management involves updating software to fix security vulnerabilities and bugs.",
+    "detailedExplanation": "Patch management is the process of identifying, acquiring, testing, and installing software updates (patches) to computer systems and applications. These patches often contain fixes for newly discovered security vulnerabilities that could be exploited by cybercriminals. Keeping software up-to-date through regular patching is one of the most important cybersecurity practices, as it closes security gaps that attackers might otherwise exploit to gain unauthorized access to systems.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Patch_(computing)",
+    "citationTitle": "Wikipedia: Patch (computing)"
+  },
+  {
+    "id": "90005a83-0add-4070-9123-988b4ff3f541",
+    "text": "What do cybersecurity experts call the human element of security, recognizing that people are often the weakest link in security systems?",
+    "options": [
+      "Hardware security",
+      "Social engineering",
+      "Network security",
+      "Cloud security"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Social engineering exploits human psychology rather than technical vulnerabilities.",
+    "detailedExplanation": "Social engineering is a cybersecurity attack method that relies on human interaction and psychological manipulation rather than technical hacking techniques. Attackers use social engineering to trick people into breaking normal security procedures, revealing confidential information, or granting access to restricted systems. This approach recognizes that humans are often the most vulnerable component of any security system, as they can be manipulated through tactics like impersonation, intimidation, or appealing to helpfulness.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Social_engineering_(security)",
+    "citationTitle": "Wikipedia: Social engineering (security)"
+  },
+  {
+    "id": "5bd9bb98-3c52-4ab5-aef3-7292f7d6c1b2",
+    "text": "What is the term for malicious software that secretly monitors and records a user's activities without their knowledge?",
+    "options": [
+      "Spyware",
+      "Adware",
+      "Bloatware",
+      "Shareware"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Spyware is malicious software that secretly monitors user activities and collects personal information.",
+    "detailedExplanation": "Spyware is a type of malicious software designed to enter your computer device, gather data about you, and forward it to a third-party without your consent. It can collect various types of personal information, such as internet surfing habits, user logins, and bank or credit account information. Spyware is often bundled with legitimate software or installed through deceptive means, making it particularly dangerous as users may not realize their activities are being monitored.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Spyware",
+    "citationTitle": "Wikipedia: Spyware"
+  },
+  {
+    "id": "8c113596-8bc0-4754-be8f-a8ac1a116242",
+    "text": "Which protocol is commonly used to securely transfer files over a network and operates on port 22 by default?",
+    "options": [
+      "FTP",
+      "SSH",
+      "SMTP",
+      "HTTP"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "SSH (Secure Shell) is a cryptographic network protocol that operates on port 22 and provides secure file transfer capabilities.",
+    "detailedExplanation": "SSH (Secure Shell) is a cryptographic network protocol for operating network services securely over an unsecured network. It provides strong password authentication and public key authentication, as well as encrypted data communications between two computers. SSH is widely used for secure file transfers, remote command-line login, and remote command execution. It typically operates on TCP port 22 and has largely replaced older, less secure protocols like Telnet and rlogin for remote access applications.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Secure_Shell",
+    "citationTitle": "Wikipedia: Secure Shell"
+  },
+  {
+    "id": "faf508dc-b20c-43ac-977c-77a69bdf2070",
+    "text": "What does 'CAPTCHA' stand for in online security?",
+    "options": [
+      "Computer Automated Public Turing Test",
+      "Completely Automated Public Turing test to tell Computers and Humans Apart",
+      "Central Authentication Protocol To Control Human Access",
+      "Computerized Anti-Phishing Technology for Checking Human Activity"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "CAPTCHA stands for 'Completely Automated Public Turing test to tell Computers and Humans Apart'.",
+    "detailedExplanation": "CAPTCHA is a type of challenge-response test used in computing to determine whether the user is human or not. The acronym stands for 'Completely Automated Public Turing test to tell Computers and Humans Apart.' CAPTCHAs are designed to be easy for humans to solve but difficult for automated programs (bots) to complete. They serve as a security measure to prevent automated software from performing actions that could be harmful, such as creating fake accounts, posting spam, or attempting brute force attacks on login systems.",
+    "citationUrl": "https://en.wikipedia.org/wiki/CAPTCHA",
+    "citationTitle": "Wikipedia: CAPTCHA"
+  },
+  {
+    "id": "9485ad57-58d1-4828-8f16-708f2d86b92a",
+    "text": "In cybersecurity, what does a 'zero-day' vulnerability refer to?",
+    "options": [
+      "A vulnerability that has been known for zero days",
+      "A security flaw that is discovered and exploited before developers can create a patch",
+      "A system that has zero security vulnerabilities",
+      "A daily security scan that finds no threats"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "A zero-day vulnerability is a security flaw that is discovered and exploited by attackers before developers have had time to create and distribute a patch.",
+    "detailedExplanation": "A zero-day vulnerability refers to a security hole in software that is unknown to the vendor and for which no patch or fix has been developed. The term 'zero-day' indicates that developers have had zero days to address and patch the vulnerability since it was discovered by attackers. These vulnerabilities are particularly dangerous because they can be exploited by cybercriminals before security researchers or software vendors are even aware they exist, leaving systems defenseless against attacks that target these flaws.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Zero-day_(computing)",
+    "citationTitle": "Wikipedia: Zero-day (computing)"
+  }
+]

@@ -1,0 +1,342 @@
+[
+  {
+    "id": "8f9839a6-2302-4d92-afdc-8f2a62da54a5",
+    "text": "What is tofu primarily made from?",
+    "options": [
+      "Soybeans",
+      "Chickpeas",
+      "Almonds",
+      "Rice"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Tofu is made from soybeans that are soaked, ground, and pressed into curds.",
+    "detailedExplanation": "Tofu, also known as bean curd, is a food prepared by coagulating soy milk and then pressing the resulting curds into solid white blocks. The process involves soaking soybeans, grinding them with water, boiling the mixture, and filtering it to produce soy milk. A coagulant is then added to curdle the soy milk, and the curds are pressed to remove excess liquid, forming tofu blocks of varying firmness.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Tofu",
+    "citationTitle": "Wikipedia: Tofu"
+  },
+  {
+    "id": "7f066ce5-2fcf-4328-8bdb-99e4160f3aa0",
+    "text": "Which vitamin is most commonly deficient in vegan diets and typically requires supplementation?",
+    "options": [
+      "Vitamin C",
+      "Vitamin B12",
+      "Vitamin A",
+      "Vitamin K"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Vitamin B12 is primarily found in animal products, making it the most common deficiency in vegan diets.",
+    "detailedExplanation": "Vitamin B12 is essential for proper red blood cell formation, neurological function, and DNA synthesis. It is naturally found almost exclusively in animal products, which makes it challenging for vegans to obtain adequate amounts from their diet alone. While some plant foods may be fortified with B12 or contain trace amounts from bacterial contamination, supplementation is generally recommended for those following a strict vegan diet to prevent deficiency.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Vitamin_B12_deficiency",
+    "citationTitle": "Wikipedia: Vitamin B12 deficiency"
+  },
+  {
+    "id": "7bf49ca3-495f-4c25-a1f0-7642b5973849",
+    "text": "What type of protein is seitan made from?",
+    "options": [
+      "Soy protein",
+      "Pea protein",
+      "Wheat gluten",
+      "Rice protein"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Seitan is made from wheat gluten, the main protein found in wheat.",
+    "detailedExplanation": "Seitan is a popular meat substitute made from vital wheat gluten, which is the main protein component of wheat. It's created by washing wheat flour dough with water until all the starch granules have been removed, leaving only the sticky, elastic gluten. This gluten is then seasoned and cooked, resulting in a chewy, meat-like texture that readily absorbs flavors. Seitan has been used in Asian cuisines for centuries and is particularly popular in Chinese Buddhist cuisine.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Seitan",
+    "citationTitle": "Wikipedia: Seitan"
+  },
+  {
+    "id": "66ea6262-6672-4f0a-9f9e-1d77632e6c75",
+    "text": "Which common baking ingredient is NOT vegan?",
+    "options": [
+      "Baking soda",
+      "Vanilla extract",
+      "Eggs",
+      "All-purpose flour"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Eggs are an animal product and therefore not vegan, while the other ingredients are plant-based or mineral-based.",
+    "detailedExplanation": "Eggs are a common ingredient in traditional baking that come from chickens and other birds, making them unsuitable for vegan diets. Vegan baking requires substitutes for eggs, which can include ingredients like flax eggs (ground flaxseed mixed with water), chia seeds, applesauce, mashed bananas, or commercial egg replacers. Baking soda is a mineral compound, all-purpose flour is made from wheat, and vanilla extract is typically made from vanilla beans and alcohol, all of which are vegan-friendly.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Vegan_nutrition",
+    "citationTitle": "Wikipedia: Vegan nutrition"
+  },
+  {
+    "id": "2f5fd0fa-a0eb-4a08-87be-9596b0471538",
+    "text": "What is tempeh traditionally made from?",
+    "options": [
+      "Fermented soybeans",
+      "Fermented rice",
+      "Fermented wheat",
+      "Fermented lentils"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Tempeh is made from fermented soybeans bound together by a white fungus called Rhizopus oligosporus.",
+    "detailedExplanation": "Tempeh is a traditional Indonesian soy product made by fermenting soybeans with a type of mold called Rhizopus oligosporus. The fermentation process binds the soybeans into a compact white cake with a nutty, mushroom-like flavor. Unlike tofu, tempeh retains the whole soybean, making it higher in protein, dietary fiber, and vitamins. The fermentation process also makes the soybeans easier to digest and adds beneficial probiotics. Tempeh has been a staple food in Indonesia for centuries and has gained popularity worldwide as a nutritious meat alternative.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Tempeh",
+    "citationTitle": "Wikipedia: Tempeh"
+  },
+  {
+    "id": "bf3a761e-a3fb-404b-bebe-be44f818c05f",
+    "text": "Which milk alternative has the highest protein content?",
+    "options": [
+      "Almond milk",
+      "Soy milk",
+      "Rice milk",
+      "Coconut milk"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Soy milk contains the most protein among common plant-based milk alternatives, with about 7 grams per cup.",
+    "detailedExplanation": "Among the most popular plant-based milk alternatives, soy milk stands out for its protein content, containing approximately 7 grams of protein per cup, which is comparable to cow's milk. This high protein content comes from the soybeans used to make the milk. In contrast, almond milk typically contains only 1 gram of protein per cup, rice milk contains less than 1 gram, and coconut milk contains minimal protein. The protein in soy milk is also considered a complete protein, containing all essential amino acids that the human body cannot produce on its own.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Soy_milk",
+    "citationTitle": "Wikipedia: Soy milk"
+  },
+  {
+    "id": "aa9f2167-f98f-40fc-b965-6cc8529c1bd9",
+    "text": "What is the main ingredient in traditional hummus?",
+    "options": [
+      "Lentils",
+      "Chickpeas",
+      "Black beans",
+      "White beans"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Hummus is primarily made from chickpeas (garbanzo beans) blended with tahini, lemon juice, and garlic.",
+    "detailedExplanation": "Hummus is a Middle Eastern dip or spread made primarily from cooked, mashed chickpeas (also known as garbanzo beans) blended with tahini (sesame seed paste), lemon juice, olive oil, and garlic. The chickpeas provide the bulk and protein content of the dish, while the tahini adds richness and a nutty flavor. Hummus has been consumed in the Middle East for centuries and has become popular worldwide as a healthy, protein-rich food that's naturally vegan and gluten-free.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Hummus",
+    "citationTitle": "Wikipedia: Hummus"
+  },
+  {
+    "id": "6eed866b-0a94-440a-9404-50e004e283df",
+    "text": "Which leafy green is often called a 'superfood' and is commonly used in vegan smoothies?",
+    "options": [
+      "Iceberg lettuce",
+      "Kale",
+      "Cabbage",
+      "Romaine lettuce"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Kale is nutrient-dense and frequently used in vegan smoothies due to its high vitamin and mineral content.",
+    "detailedExplanation": "Kale has gained recognition as a 'superfood' due to its exceptional nutritional density, containing high levels of vitamins A, C, and K, as well as calcium, iron, and antioxidants. Its robust flavor and nutritional benefits make it a popular choice for vegan smoothies, where it can be blended with fruits to mask its sometimes bitter taste while retaining its nutritional value. Unlike more delicate greens like iceberg lettuce, kale maintains its nutritional integrity when blended and provides substantial health benefits that align well with plant-based dietary goals.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Kale",
+    "citationTitle": "Wikipedia: Kale"
+  },
+  {
+    "id": "62c75721-3ac4-42e0-bc14-f4a94ef52ef0",
+    "text": "What does the term 'vegan' exclude that vegetarian diets may still include?",
+    "options": [
+      "Meat and fish only",
+      "All animal products including dairy and eggs",
+      "Only red meat",
+      "Processed foods"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Veganism excludes all animal products, while vegetarians may still consume dairy and eggs.",
+    "detailedExplanation": "The key difference between vegetarian and vegan diets is that while vegetarians avoid meat and fish, they may still consume animal-derived products like milk, cheese, eggs, and honey. Vegans, however, exclude all animal products from their diet, including dairy, eggs, honey, and any other ingredients derived from animals. This distinction makes veganism a more restrictive dietary choice than vegetarianism.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Veganism",
+    "citationTitle": "Wikipedia: Veganism"
+  },
+  {
+    "id": "8a424787-3ceb-4e96-9936-2e101f5f93db",
+    "text": "Which popular Italian dish is naturally vegan when made with traditional ingredients?",
+    "options": [
+      "Carbonara",
+      "Margherita pizza",
+      "Marinara pasta sauce",
+      "Risotto"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Traditional marinara sauce contains only tomatoes, garlic, herbs, and olive oil - no animal products.",
+    "detailedExplanation": "Marinara sauce, a classic Italian tomato-based sauce, is naturally vegan when prepared traditionally. It typically contains tomatoes, garlic, onions, herbs like basil and oregano, olive oil, salt, and pepper. Unlike other Italian dishes that often contain cheese, cream, eggs, or meat, marinara relies entirely on plant-based ingredients, making it a perfect vegan option when served over pasta.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Marinara_sauce",
+    "citationTitle": "Wikipedia: Marinara sauce"
+  },
+  {
+    "id": "b74c8b75-5f23-4208-887f-ac6de257b759",
+    "text": "What is nutritional yeast commonly used for in vegan cooking?",
+    "options": [
+      "As a rising agent for bread",
+      "To add a cheese-like flavor",
+      "To sweeten desserts",
+      "As a meat substitute"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Nutritional yeast has a nutty, cheese-like flavor that makes it popular as a cheese substitute in vegan dishes.",
+    "detailedExplanation": "Nutritional yeast is a deactivated form of Saccharomyces cerevisiae yeast that has become a staple in vegan cooking. It has a distinctive nutty, cheese-like flavor that makes it an excellent substitute for parmesan cheese and other dairy products. Vegans often sprinkle it on pasta, popcorn, salads, and use it in sauces to add umami depth and a savory, slightly cheesy taste to their meals. It's also rich in B vitamins, particularly B12.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Nutritional_yeast",
+    "citationTitle": "Wikipedia: Nutritional yeast"
+  },
+  {
+    "id": "bb4f2dcf-b2ff-45a7-9406-29f2c07c272e",
+    "text": "Which ancient grain is naturally gluten-free and high in protein, making it popular in vegetarian diets?",
+    "options": [
+      "Wheat",
+      "Barley",
+      "Quinoa",
+      "Rye"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Quinoa is a gluten-free pseudocereal that contains all nine essential amino acids.",
+    "detailedExplanation": "Quinoa, originally from South America, is technically a seed but used like a grain. It's particularly valuable in vegetarian and vegan diets because it's a complete protein, containing all nine essential amino acids that the human body cannot produce on its own. This makes it an excellent alternative to animal proteins. Additionally, quinoa is naturally gluten-free, high in fiber, and contains important minerals like iron and magnesium.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Quinoa",
+    "citationTitle": "Wikipedia: Quinoa"
+  },
+  {
+    "id": "95410777-0219-4585-9f8e-994101750678",
+    "text": "What is jackfruit commonly used as a substitute for in vegan cooking?",
+    "options": [
+      "Cheese",
+      "Eggs",
+      "Pulled pork or chicken",
+      "Butter"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Young jackfruit has a stringy texture similar to pulled meat when cooked and seasoned.",
+    "detailedExplanation": "Jackfruit, particularly when young and unripe, has gained popularity as a meat substitute in vegan cooking due to its unique fibrous, stringy texture that closely resembles pulled pork or shredded chicken. When seasoned and cooked properly, jackfruit can absorb flavors well and provide a satisfying meat-like experience in dishes like tacos, sandwiches, and curries. This large tropical fruit is native to South and Southeast Asia but has become increasingly available in Western markets.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Jackfruit",
+    "citationTitle": "Wikipedia: Jackfruit"
+  },
+  {
+    "id": "99ba8912-a4f8-480b-90b4-b7d3313b4392",
+    "text": "Which cooking method is aquafaba (the liquid from canned chickpeas) most commonly used to replace?",
+    "options": [
+      "Frying with oil",
+      "Grilling meat",
+      "Whipping egg whites",
+      "Boiling vegetables"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Aquafaba can be whipped like egg whites and used in meringues, mousses, and as a binding agent.",
+    "detailedExplanation": "Aquafaba, literally meaning 'bean water,' is the liquid found in canned chickpeas or other legumes. It has remarkable properties similar to egg whites - it can be whipped to create foam and peaks, making it an excellent vegan substitute for eggs in baking and dessert preparation. Aquafaba can be used to make vegan meringues, mousses, mayonnaise, and as a binding agent in various recipes, revolutionizing vegan baking and cooking.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Aquafaba",
+    "citationTitle": "Wikipedia: Aquafaba"
+  },
+  {
+    "id": "a2446884-f029-436b-b3ed-24c257e2725b",
+    "text": "What is the main protein source in a traditional veggie burger made from black beans?",
+    "options": [
+      "Gluten",
+      "Legumes",
+      "Nuts",
+      "Dairy"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Black beans are legumes, which are an excellent source of plant-based protein.",
+    "detailedExplanation": "Black beans belong to the legume family, which includes beans, lentils, peas, and peanuts. Legumes are considered one of the best plant-based protein sources available, making them a cornerstone of vegetarian and vegan diets. Black bean burgers typically combine mashed black beans with vegetables, spices, and binding agents to create a protein-rich patty. A single cup of black beans provides approximately 15 grams of protein along with fiber, folate, and other essential nutrients.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Black_turtle_bean",
+    "citationTitle": "Wikipedia: Black turtle bean"
+  },
+  {
+    "id": "49ea4259-8b6c-4b4b-877d-a3429f9fbd3c",
+    "text": "Which spice gives turmeric its characteristic golden color and is often used in vegan golden milk?",
+    "options": [
+      "Saffron",
+      "Curcumin",
+      "Paprika",
+      "Annatto"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Curcumin is the active compound in turmeric that provides its distinctive golden-yellow color.",
+    "detailedExplanation": "Curcumin is the primary active compound in turmeric root, responsible for its vibrant golden-yellow color and many of its purported health benefits. In vegan cuisine, turmeric is commonly used in golden milk (also called turmeric latte), a dairy-free beverage made with plant milk, turmeric, and other warming spices like ginger and cinnamon. This traditional Ayurvedic drink has become increasingly popular in vegan and health-conscious communities for its anti-inflammatory properties and comforting taste.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Curcumin",
+    "citationTitle": "Wikipedia: Curcumin"
+  },
+  {
+    "id": "6c77ad79-9351-492f-98b8-b95c6123a361",
+    "text": "Which country is widely credited as the birthplace of the modern vegetarian movement in the 19th century?",
+    "options": [
+      "India",
+      "England",
+      "Germany",
+      "Greece"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "England is credited as the birthplace of the modern vegetarian movement, with the Vegetarian Society founded there in 1847.",
+    "detailedExplanation": "While vegetarianism has ancient roots in various cultures, particularly in India and Greece, the modern organized vegetarian movement began in England during the 19th century. The Vegetarian Society was established in Manchester, England in 1847, making it the world's first vegetarian organization. This movement was influenced by both ethical concerns about animal welfare and health considerations, and it helped popularize vegetarianism throughout the Western world.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Vegetarianism",
+    "citationTitle": "Wikipedia: Vegetarianism"
+  },
+  {
+    "id": "a5519f30-07b5-4a96-8ab1-a1d2e6dcfd67",
+    "text": "What name is given to vegetarians who eat fish but not other meat?",
+    "options": [
+      "Flexitarians",
+      "Pescatarians",
+      "Lacto-vegetarians",
+      "Ovo-vegetarians"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Pescatarians are vegetarians who include fish and seafood in their diet while avoiding other meats.",
+    "detailedExplanation": "Pescatarianism is a dietary practice where individuals avoid meat from land animals but continue to eat fish and other seafood. The term comes from the Italian word 'pesce' meaning fish. While technically not strict vegetarians since they consume animal flesh, pescatarians often choose this diet for health benefits, environmental concerns, or as a transitional step toward full vegetarianism. This diet provides omega-3 fatty acids and complete proteins while still reducing the environmental impact associated with land-based meat production.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Pescetarianism",
+    "citationTitle": "Wikipedia: Pescetarianism"
+  },
+  {
+    "id": "7041ecf8-5abd-413a-9df8-cd671db7e7a8",
+    "text": "Which popular Mexican dish is traditionally vegan when made with refried beans cooked in vegetable oil instead of lard?",
+    "options": [
+      "Quesadillas",
+      "Burritos",
+      "Bean tostadas",
+      "Chiles rellenos"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Bean tostadas are naturally vegan when the refried beans are prepared with vegetable oil rather than traditional lard.",
+    "detailedExplanation": "Bean tostadas consist of crispy tortillas topped with refried beans and various vegetables like lettuce, tomatoes, and salsa. The dish becomes completely vegan when the refried beans are cooked in vegetable oil instead of lard (pig fat), which was traditionally used in Mexican cooking. Many modern Mexican restaurants now offer vegan versions of refried beans, making tostadas an accessible plant-based option. The other options typically contain cheese, meat, or eggs in their traditional preparations.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Tostada_(food)",
+    "citationTitle": "Wikipedia: Tostada (food)"
+  },
+  {
+    "id": "c1e76dd1-df72-4550-8b4f-004a3c4b5420",
+    "text": "What is the main ingredient in the popular vegan cheese substitute called cashew cheese?",
+    "options": [
+      "Cashew nuts",
+      "Coconut milk",
+      "Almond flour",
+      "Soy protein"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Cashew cheese is primarily made from cashew nuts, which are soaked and blended to create a creamy, cheese-like texture.",
+    "detailedExplanation": "Cashew cheese is a popular dairy-free alternative made primarily from raw cashew nuts that are soaked in water to soften them, then blended with water, nutritional yeast, lemon juice, and salt to create a creamy consistency that mimics traditional cheese. Cashews are ideal for this purpose because of their naturally creamy texture and mild flavor when processed. The high fat content in cashews helps create the rich mouthfeel associated with dairy cheese, while additional ingredients like nutritional yeast provide a cheesy, umami flavor that makes it an appealing substitute for vegans and those with dairy allergies.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Vegan_cheese",
+    "citationTitle": "Wikipedia: Vegan cheese"
+  }
+]

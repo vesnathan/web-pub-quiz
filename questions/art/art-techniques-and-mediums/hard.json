@@ -1,0 +1,342 @@
+[
+  {
+    "id": "0ce89f04-6f06-4597-b5ec-0e9cafc243f0",
+    "text": "Which painting technique involves applying wet paint onto a wet lime plaster surface, allowing the paint to become part of the wall itself?",
+    "options": [
+      "Encaustic",
+      "Fresco",
+      "Tempera",
+      "Impasto"
+    ],
+    "correctIndex": 1,
+    "category": "arts",
+    "difficulty": "hard",
+    "explanation": "Fresco is a mural painting technique where pigments are applied to wet lime plaster, creating a chemical bond.",
+    "detailedExplanation": "Fresco is an ancient painting technique that involves applying water-based pigments onto freshly laid lime plaster while it's still wet. As the plaster dries, it forms calcium carbonate crystals that trap the pigments, making them an integral part of the wall surface. This technique was famously used by Renaissance masters like Michelangelo in the Sistine Chapel and requires working quickly before the plaster sets, making it one of the most challenging painting mediums.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Fresco",
+    "citationTitle": "Wikipedia: Fresco"
+  },
+  {
+    "id": "dabc51fb-5a11-4c30-86ea-ce15846bb9c1",
+    "text": "What is the name of the Japanese printmaking technique that uses multiple wood blocks to create colored prints, popularized during the Edo period?",
+    "options": [
+      "Mokuhanga",
+      "Suminagashi",
+      "Gyotaku",
+      "Katazome"
+    ],
+    "correctIndex": 0,
+    "category": "arts",
+    "difficulty": "hard",
+    "explanation": "Mokuhanga is the traditional Japanese woodblock printing technique using water-based inks and multiple blocks for different colors.",
+    "detailedExplanation": "Mokuhanga, literally meaning 'wood picture,' is the traditional Japanese method of woodblock printing that flourished during the Edo period (1603-1868). Unlike Western woodblock printing, mokuhanga uses water-based pigments and a baren (a flat disc-like tool) to transfer ink from carved wooden blocks to paper. The technique typically requires separate blocks for each color, and master printers could use dozens of blocks for a single image. This method produced the famous ukiyo-e prints by artists like Hokusai and Hiroshige.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Woodblock_printing_in_Japan",
+    "citationTitle": "Wikipedia: Woodblock printing in Japan"
+  },
+  {
+    "id": "04a2f33c-7a5a-41a8-be3a-52571592869f",
+    "text": "Which drawing medium consists of powdered pigment mixed with a minimal amount of binder, known for its ability to be blended and its velvety finish?",
+    "options": [
+      "Conté crayon",
+      "Sanguine",
+      "Pastel",
+      "Charcoal vine"
+    ],
+    "correctIndex": 2,
+    "category": "arts",
+    "difficulty": "hard",
+    "explanation": "Pastel is made from pure pigment with minimal binder, creating soft, blendable sticks with rich color saturation.",
+    "detailedExplanation": "Pastel is a drawing medium made from pure powdered pigment mixed with just enough binder (usually gum tragacanth or methylcellulose) to hold the pigment together in stick form. This minimal binding allows for exceptional color purity and intensity. Pastels come in soft, hard, and oil varieties, with soft pastels being the most popular for their ability to blend smoothly and create subtle gradations. The medium gained popularity in 18th-century France and was masterfully employed by artists like Edgar Degas and Mary Cassatt.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Pastel",
+    "citationTitle": "Wikipedia: Pastel"
+  },
+  {
+    "id": "2966f3aa-c4fd-4be5-bb8d-778e6ed72e09",
+    "text": "What is the term for the ancient painting technique using heated wax mixed with pigments, famously used in Egyptian mummy portraits?",
+    "options": [
+      "Encaustic",
+      "Secco",
+      "Grisaille",
+      "Verdaccio"
+    ],
+    "correctIndex": 0,
+    "category": "arts",
+    "difficulty": "hard",
+    "explanation": "Encaustic painting uses heated wax as a binder for pigments, creating durable artworks that can last millennia.",
+    "detailedExplanation": "Encaustic painting is an ancient technique that involves mixing pigments with heated beeswax and applying the mixture to a surface while hot. The word derives from the Greek 'enkaustikos,' meaning 'to burn in.' This technique was used extensively in ancient Egypt for mummy portraits from the 1st to 3rd centuries CE, particularly in the Fayum region. The wax creates an extremely durable medium that resists moisture and aging, which is why many ancient encaustic works have survived in remarkable condition. Modern artists like Jasper Johns have revived this technique.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Encaustic_painting",
+    "citationTitle": "Wikipedia: Encaustic painting"
+  },
+  {
+    "id": "993b80d3-f262-48cc-93f0-045cba3b071b",
+    "text": "Which etching technique involves drawing through an acid-resistant ground with a needle, then immersing the plate in acid to create lines?",
+    "options": [
+      "Aquatint",
+      "Mezzotint",
+      "Drypoint",
+      "Line etching"
+    ],
+    "correctIndex": 3,
+    "category": "arts",
+    "difficulty": "hard",
+    "explanation": "Line etching involves scratching through an acid-resistant coating and using acid to etch the exposed lines into the metal plate.",
+    "detailedExplanation": "Line etching is an intaglio printmaking technique where a metal plate (usually copper or zinc) is first coated with an acid-resistant ground. The artist then draws through this coating with an etching needle, exposing the metal beneath. When the plate is immersed in acid, the exposed lines are etched into the metal surface. The depth and character of the lines can be controlled by varying the acid concentration and exposure time. This technique allows for much finer detail than engraving and was widely used by masters like Rembrandt and Goya.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Etching",
+    "citationTitle": "Wikipedia: Etching"
+  },
+  {
+    "id": "5af4d414-f2d7-4dc9-ad21-f88f85ed2734",
+    "text": "What is the name of the sculpture technique where material is removed from a larger block, as opposed to building up material?",
+    "options": [
+      "Additive sculpture",
+      "Subtractive sculpture",
+      "Assemblage",
+      "Installation"
+    ],
+    "correctIndex": 1,
+    "category": "arts",
+    "difficulty": "hard",
+    "explanation": "Subtractive sculpture involves carving or removing material from a larger mass, like stone or wood carving.",
+    "detailedExplanation": "Subtractive sculpture is a sculptural process where the artist removes material from a larger mass to reveal the final form, essentially 'freeing' the sculpture from within the original block. This technique is most commonly associated with stone carving and wood carving, where artists use chisels, gouges, and other tools to chip away excess material. Michelangelo famously described this process as releasing the figure trapped within the marble. This approach requires careful planning since removed material cannot be replaced, making it fundamentally different from additive techniques like modeling in clay.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Sculpture",
+    "citationTitle": "Wikipedia: Sculpture"
+  },
+  {
+    "id": "b054fc28-6fae-466f-8a5c-341ac4c2468d",
+    "text": "Which watercolor technique involves applying wet paint to a wet surface, allowing colors to blend and flow naturally?",
+    "options": [
+      "Wet-on-dry",
+      "Wet-into-wet",
+      "Glazing",
+      "Scumbling"
+    ],
+    "correctIndex": 1,
+    "category": "arts",
+    "difficulty": "hard",
+    "explanation": "Wet-into-wet technique applies wet watercolor paint onto an already wet surface, creating soft, flowing effects.",
+    "detailedExplanation": "Wet-into-wet, also known as 'wet-in-wet,' is a fundamental watercolor technique where wet paint is applied to a surface that is already dampened with water or wet paint. This method allows colors to flow and blend naturally, creating soft edges, atmospheric effects, and unpredictable but beautiful color combinations. The amount of moisture on the paper controls how much the paint will spread - more water creates more flow and softer effects. This technique is particularly effective for painting skies, water reflections, and creating mood in landscape paintings.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Watercolor_painting",
+    "citationTitle": "Wikipedia: Watercolor painting"
+  },
+  {
+    "id": "31aea9ae-05bb-49cb-9471-7dccc9466807",
+    "text": "What is the printmaking process called where a design is drawn with greasy materials on limestone or specially prepared plates?",
+    "options": [
+      "Lithography",
+      "Serigraphy",
+      "Collotype",
+      "Planography"
+    ],
+    "correctIndex": 0,
+    "category": "arts",
+    "difficulty": "hard",
+    "explanation": "Lithography uses the principle that oil and water repel each other, with greasy drawing materials on stone or metal plates.",
+    "detailedExplanation": "Lithography is a planographic printing process invented in 1796 by Alois Senefelder, based on the principle that oil and water do not mix. The artist draws directly onto a limestone surface (or specially treated metal plate) using greasy materials like lithographic crayons or tusche. The stone is then treated with a chemical solution that makes the non-image areas attract water and repel ink, while the drawn areas attract ink and repel water. This allows for direct, expressive mark-making and was revolutionary because it enabled artists to print exactly what they drew, leading to its adoption by artists like Toulouse-Lautrec for poster making.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Lithography",
+    "citationTitle": "Wikipedia: Lithography"
+  },
+  {
+    "id": "aa1dd31c-eb5a-41d2-abf7-fab1f7546f0e",
+    "text": "What is the name of the oil painting technique developed in the 15th century that involves building up paint in thin, transparent layers to create luminous effects?",
+    "options": [
+      "Impasto",
+      "Glazing",
+      "Scumbling",
+      "Alla prima"
+    ],
+    "correctIndex": 1,
+    "category": "arts",
+    "difficulty": "hard",
+    "explanation": "Glazing involves applying thin, transparent layers of paint over dried underlayers.",
+    "detailedExplanation": "Glazing is a fundamental oil painting technique that emerged during the Northern Renaissance, particularly perfected by Flemish masters like Jan van Eyck. The technique involves applying thin, transparent layers of paint (glazes) over completely dried underlayers, allowing light to penetrate through the transparent layers and reflect back from the opaque underpainting, creating extraordinary luminosity and depth. This method enabled painters to achieve rich, jewel-like colors and subtle modeling effects that were impossible with direct painting methods.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Glaze_(painting_technique)",
+    "citationTitle": "Wikipedia: Glaze (painting technique)"
+  },
+  {
+    "id": "ad2fa58b-3365-4b4c-b9c1-fcf569d3ee54",
+    "text": "Which ancient mosaic technique uses tiny cubes of stone, ceramic, or glass called tesserae to create images and patterns?",
+    "options": [
+      "Opus vermiculatum",
+      "Cloisonné",
+      "Pietra dura",
+      "Marquetry"
+    ],
+    "correctIndex": 0,
+    "category": "arts",
+    "difficulty": "hard",
+    "explanation": "Opus vermiculatum is the mosaic technique using small tesserae arranged in flowing, worm-like patterns.",
+    "detailedExplanation": "Opus vermiculatum (Latin for 'worm-like work') is the finest and most sophisticated form of ancient mosaic art, characterized by the use of extremely small tesserae arranged in flowing, curved lines that follow the contours of the subject matter. This technique was perfected by Roman artists and required exceptional skill, as the tiny pieces (often less than 4mm) were arranged to create smooth transitions, subtle shading, and intricate detail work. The flowing arrangement of tesserae resembled the tracks of worms, hence the name. This method was typically reserved for the most important central panels (emblemata) of larger mosaic compositions.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Opus_vermiculatum",
+    "citationTitle": "Wikipedia: Opus vermiculatum"
+  },
+  {
+    "id": "c81a5812-cd55-420d-9db0-ee296f6fc32a",
+    "text": "What is the ceramic technique called where unfired clay objects are decorated with colored slips, then carved through to reveal the underlying clay body?",
+    "options": [
+      "Sgraffito",
+      "Mishima",
+      "Raku",
+      "Crystalline glazing"
+    ],
+    "correctIndex": 0,
+    "category": "arts",
+    "difficulty": "hard",
+    "explanation": "Sgraffito involves scratching through slip layers to reveal contrasting clay underneath.",
+    "detailedExplanation": "Sgraffito (Italian for 'scratched') is a decorative ceramic technique that involves applying one or more layers of colored slip (liquid clay) to leather-hard pottery, then scratching or carving through these layers to reveal the contrasting clay body beneath. This creates linear designs and patterns with strong visual contrast. The technique originated in ancient times but was refined during the Renaissance in Italy. It requires precise timing as the slip must be firm enough to carve cleanly without chipping, but not so dry that it becomes difficult to remove. The scratched areas create permanent decoration that becomes integrated into the ceramic body during firing.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Sgraffito",
+    "citationTitle": "Wikipedia: Sgraffito"
+  },
+  {
+    "id": "36cb97f4-1817-4741-9890-6e9d6d4514d9",
+    "text": "Which printmaking technique involves creating raised lines on a metal plate by hammering from the reverse side, then inking the raised areas?",
+    "options": [
+      "Mezzotint",
+      "Aquatint",
+      "Repoussé",
+      "Drypoint"
+    ],
+    "correctIndex": 2,
+    "category": "arts",
+    "difficulty": "hard",
+    "explanation": "Repoussé creates raised relief patterns by hammering metal from the back side.",
+    "detailedExplanation": "Repoussé is a metalworking and printmaking technique where designs are hammered into metal sheets from the reverse side to create raised relief patterns on the front surface. In printmaking applications, the raised areas are inked and printed, creating bold, sculptural line work with characteristic thick-to-thin variations. The technique requires specialized tools including various shaped punches and hammers, and the metal (usually copper) must be properly annealed to remain workable. This method produces prints with a distinctive embossed quality and strong tactile presence, quite different from traditional engraving or etching methods that work into the surface of the plate.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Repoussé_and_chasing",
+    "citationTitle": "Wikipedia: Repoussé and chasing"
+  },
+  {
+    "id": "d8f2ebb0-2598-4772-8a54-c00eb4d9196b",
+    "text": "What is the traditional Chinese painting technique called that emphasizes capturing the spirit and essence of subjects through minimal, expressive brushwork?",
+    "options": [
+      "Gongbi",
+      "Xieyi",
+      "Shanshui",
+      "Mogu"
+    ],
+    "correctIndex": 1,
+    "category": "arts",
+    "difficulty": "hard",
+    "explanation": "Xieyi means 'freehand style' and emphasizes spontaneous, expressive brushwork over detailed representation.",
+    "detailedExplanation": "Xieyi (写意), literally meaning 'write idea' or 'freehand style,' is one of the two major traditional Chinese painting techniques, contrasting with the detailed gongbi style. Xieyi emphasizes capturing the essential spirit (shen) and vital energy (qi) of the subject through bold, spontaneous brushstrokes rather than precise realistic detail. This technique requires mastery of brush control and deep understanding of the subject's essence, as artists must convey maximum meaning with minimum strokes. The style became particularly prominent during the Song Dynasty and is closely associated with literati painting, where scholar-artists valued personal expression and spiritual content over technical virtuosity.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Chinese_painting",
+    "citationTitle": "Wikipedia: Chinese painting"
+  },
+  {
+    "id": "6cbb0ee4-f91e-465b-801e-754e321be747",
+    "text": "Which glass-working technique involves heating glass rods in a flame and shaping them while molten, commonly used for creating beads and small sculptures?",
+    "options": [
+      "Kiln-forming",
+      "Lampworking",
+      "Glassblowing",
+      "Pâte de verre"
+    ],
+    "correctIndex": 1,
+    "category": "arts",
+    "difficulty": "hard",
+    "explanation": "Lampworking uses a torch flame to heat and shape glass rods into small objects.",
+    "detailedExplanation": "Lampworking, also known as flameworking, is a glassworking technique that uses a torch or lamp flame to heat glass rods and tubes, making them malleable enough to shape into various forms. Unlike glassblowing which works with molten glass from a furnace, lampworking allows for precise, detailed work on a smaller scale. The technique originated in Murano, Italy, in the 14th century and was originally called 'lamp' working because oil-fueled lamps provided the heat source. Modern lampworking uses specialized torches burning propane, natural gas, or oxygen-fuel mixtures. This method is particularly suited for creating intricate beads, marbles, figurines, and scientific glassware due to the high degree of control it offers.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Lampworking",
+    "citationTitle": "Wikipedia: Lampworking"
+  },
+  {
+    "id": "f05d3f11-62b2-48d0-b5d2-56343fb835a6",
+    "text": "What is the name of the textile art technique where threads are knotted in specific patterns to create decorative and functional items without using needles or hooks?",
+    "options": [
+      "Tatting",
+      "Macramé",
+      "Bobbin lace",
+      "Needle lace"
+    ],
+    "correctIndex": 1,
+    "category": "arts",
+    "difficulty": "hard",
+    "explanation": "Macramé is the art of knotting cords in patterns to create textile items.",
+    "detailedExplanation": "Macramé is a form of textile art that uses knotting techniques to create decorative and functional items from cord, rope, or string. Unlike weaving, knitting, or crocheting, macramé relies entirely on various types of knots—including square knots, half hitches, and lark's head knots—arranged in patterns to create texture and structure. The technique has ancient origins, possibly beginning with 13th-century Arab craftsmen, and spread throughout Europe via the Moors in Spain. It experienced a major revival in the 1970s when it became popular for creating wall hangings, plant holders, and jewelry. The word 'macramé' derives from the Arabic word 'migramah,' meaning 'fringe,' referring to the decorative fringes on textiles.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Macramé",
+    "citationTitle": "Wikipedia: Macramé"
+  },
+  {
+    "id": "ed3358f4-92ff-49f9-bc0e-5843f32fea68",
+    "text": "Which painting medium consists of pigments bound with egg yolk, popular before the widespread adoption of oil paints in Renaissance Europe?",
+    "options": [
+      "Gouache",
+      "Casein",
+      "Tempera",
+      "Distemper"
+    ],
+    "correctIndex": 2,
+    "category": "arts",
+    "difficulty": "hard",
+    "explanation": "Tempera traditionally uses egg yolk as a binder for pigments, creating a fast-drying, durable paint.",
+    "detailedExplanation": "Tempera, specifically egg tempera, is a painting medium that combines pigments with egg yolk as the primary binder, sometimes mixed with water and occasionally a small amount of oil or vinegar. This medium was the dominant painting technique in Europe from the early medieval period through the 15th century, before being largely supplanted by oil painting. Egg tempera dries very quickly, creates a hard, durable surface, and produces bright, clear colors with a characteristic matte finish. Masters like Botticelli and Andrea Mantegna achieved extraordinary detail and luminosity with this medium. The technique requires working quickly due to rapid drying times and building up colors through careful layering and cross-hatching rather than blending.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Tempera",
+    "citationTitle": "Wikipedia: Tempera"
+  },
+  {
+    "id": "d877b40c-8d47-4100-9502-72e5f23bcacd",
+    "text": "What is the name of the ancient Roman painting technique that creates the illusion of architectural elements and landscapes on flat walls, famously used in Pompeii?",
+    "options": [
+      "Trompe-l'oeil",
+      "Tachisme",
+      "Tenebrism",
+      "Chiaroscuro"
+    ],
+    "correctIndex": 0,
+    "category": "arts",
+    "difficulty": "hard",
+    "explanation": "Trompe-l'oeil is a painting technique that creates extremely realistic optical illusions of three-dimensional objects.",
+    "detailedExplanation": "Trompe-l'oeil, French for 'deceive the eye,' is an art technique that uses realistic imagery to create optical illusions that depicted objects exist in three dimensions. This technique was extensively used by Roman artists, particularly in Pompeii and Herculaneum, where walls were decorated with painted architectural elements, windows, and landscapes that appeared to extend the actual space of rooms. The technique became highly sophisticated during the Roman period and was later revived during the Renaissance.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Trompe-l%27%C5%93il",
+    "citationTitle": "Wikipedia: Trompe-l'œil"
+  },
+  {
+    "id": "0fe79b73-121d-4ea6-84fe-466d207f7748",
+    "text": "Which metalworking technique involves hammering sheet metal from the reverse side to create a raised relief design, commonly used in ancient Greek and Roman decorative arts?",
+    "options": [
+      "Repoussé",
+      "Cloisonné",
+      "Granulation",
+      "Filigree"
+    ],
+    "correctIndex": 0,
+    "category": "arts",
+    "difficulty": "hard",
+    "explanation": "Repoussé is a metalworking technique where hammers and punches are used to raise designs in relief from the reverse side.",
+    "detailedExplanation": "Repoussé is an ancient metalworking technique in which malleable metal is ornamented or shaped by hammering from the reverse side to create a design in low relief. The technique is often combined with chasing, where the metal is refined by hammering on the front side. This method was extensively used by ancient civilizations including the Greeks, Romans, and Egyptians to create decorative vessels, armor, and religious artifacts. The Statue of Liberty was created using a variation of this technique on a massive scale.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Repouss%C3%A9_and_chasing",
+    "citationTitle": "Wikipedia: Repoussé and chasing"
+  },
+  {
+    "id": "5a8a4bd3-e299-4f0a-8972-a033842ea566",
+    "text": "What is the name of the pottery firing technique where the kiln's oxygen supply is restricted during the final stages, creating distinctive metallic and iridescent surface effects?",
+    "options": [
+      "Reduction firing",
+      "Oxidation firing",
+      "Saggar firing",
+      "Salt glazing"
+    ],
+    "correctIndex": 0,
+    "category": "arts",
+    "difficulty": "hard",
+    "explanation": "Reduction firing restricts oxygen in the kiln, causing clay and glazes to give up oxygen atoms, creating unique metallic effects.",
+    "detailedExplanation": "Reduction firing is a ceramic technique where the oxygen supply to the kiln is deliberately restricted during the firing process, typically by closing dampers or introducing combustible materials. This oxygen-starved environment forces the clay body and glazes to release oxygen atoms from their chemical structure, fundamentally altering their appearance. The process can create dramatic color changes, metallic lusters, and unique surface effects that cannot be achieved through normal oxidation firing. This technique has been used for centuries, notably in Chinese ceramics and Japanese raku pottery.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Reduction_firing",
+    "citationTitle": "Wikipedia: Reduction firing"
+  },
+  {
+    "id": "4badc5d4-d9b7-470d-bdd5-f7cff6c8b39c",
+    "text": "Which Renaissance painting technique involves applying multiple thin layers of oil paint mixed with increasing amounts of oil and decreasing amounts of solvent to achieve luminosity?",
+    "options": [
+      "Sfumato",
+      "Impasto",
+      "Scumbling",
+      "Fat over lean"
+    ],
+    "correctIndex": 3,
+    "category": "arts",
+    "difficulty": "hard",
+    "explanation": "The 'fat over lean' technique builds up paint layers with increasing oil content to prevent cracking and achieve proper adhesion.",
+    "detailedExplanation": "'Fat over lean' is a fundamental oil painting technique where each successive layer contains more oil (fat) than the layer beneath it (lean). The first layers are painted with paint thinned with turpentine or other solvents, while later layers contain increasing amounts of oil medium. This method ensures proper adhesion between layers and prevents cracking as the painting dries, since lean layers dry faster than fat layers. If applied in reverse (lean over fat), the top layer would dry first and crack as the bottom layer continued to shrink. This technique was perfected during the Renaissance and remains essential to oil painting today.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Fat_over_lean",
+    "citationTitle": "Wikipedia: Fat over lean"
+  }
+]

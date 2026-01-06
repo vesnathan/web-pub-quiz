@@ -321,5 +321,22 @@
     "detailedExplanation": "According to the United Nations, approximately 57% of the world's population lived in urban areas as of 2024, representing about 4.4 billion people out of the global population of nearly 8 billion. This marks a dramatic shift from 1950 when only 30% of people lived in cities. The trend toward urbanization is expected to continue, with projections suggesting that by 2050, nearly 68% of the world's population will live in urban areas. This urbanization is particularly rapid in developing countries in Asia and Africa.",
     "citationUrl": "https://en.wikipedia.org/wiki/Urbanization",
     "citationTitle": "Wikipedia: Urbanization"
+  },
+  {
+    "id": "abb23435-ff70-47d6-b396-ae9cb32d14e9",
+    "text": "Which country is projected to overtake China as the world's most populous country by 2024-2025?",
+    "options": [
+      "India",
+      "Indonesia",
+      "United States",
+      "Brazil"
+    ],
+    "correctIndex": 0,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "India is projected to surpass China's population by 2024-2025.",
+    "detailedExplanation": "According to United Nations population projections, India is expected to overtake China as the world's most populous country sometime between 2024 and 2025. While China has held the title of most populous country for centuries, its population growth has slowed significantly due to policies like the former one-child policy, while India continues to experience steady population growth. This demographic shift represents a major milestone in global population statistics.",
+    "citationUrl": "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_population",
+    "citationTitle": "Wikipedia: List of countries and dependencies by population"
   }
 ]

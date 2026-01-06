@@ -1,0 +1,342 @@
+[
+  {
+    "id": "860a1545-b242-4fd7-8801-e360af984da9",
+    "text": "Which poet wrote the famous line 'Do not go gentle into that good night'?",
+    "options": [
+      "Dylan Thomas",
+      "W.H. Auden",
+      "Philip Larkin",
+      "Ted Hughes"
+    ],
+    "correctIndex": 0,
+    "category": "literature",
+    "difficulty": "medium",
+    "explanation": "Dylan Thomas wrote this famous villanelle in 1947 for his dying father.",
+    "detailedExplanation": "Dylan Thomas penned 'Do Not Go Gentle Into That Good Night' in 1947, initially as a response to his father's failing health. The poem is written in the challenging villanelle form, with only two rhymes and two refrains repeated throughout. It became one of Thomas's most celebrated works and is widely regarded as one of the finest examples of the villanelle in English literature. The poem urges resistance against death and has become an iconic piece about aging and mortality.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Do_not_go_gentle_into_that_good_night",
+    "citationTitle": "Wikipedia: Do not go gentle into that good night"
+  },
+  {
+    "id": "bbdb6135-67c2-4972-b618-1f6ee888ce27",
+    "text": "What is the term for a 14-line poem typically written in iambic pentameter?",
+    "options": [
+      "Villanelle",
+      "Sonnet",
+      "Ballad",
+      "Haiku"
+    ],
+    "correctIndex": 1,
+    "category": "literature",
+    "difficulty": "medium",
+    "explanation": "A sonnet is a 14-line poem, traditionally written in iambic pentameter with specific rhyme schemes.",
+    "detailedExplanation": "The sonnet is one of the most enduring and popular poetic forms in Western literature. Originating in Italy in the 13th century, sonnets are characterized by their 14-line structure and are typically written in iambic pentameter. The two main types are the Petrarchan (Italian) sonnet, which has an octave and sestet, and the Shakespearean (English) sonnet, which consists of three quatrains and a final couplet. Famous sonnet writers include Shakespeare, Petrarch, Elizabeth Barrett Browning, and John Donne.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Sonnet",
+    "citationTitle": "Wikipedia: Sonnet"
+  },
+  {
+    "id": "2317b61c-43ee-406a-aeaa-27a098f1f843",
+    "text": "Which American poet wrote 'The Road Not Taken' and 'Stopping by Woods on a Snowy Evening'?",
+    "options": [
+      "Walt Whitman",
+      "Emily Dickinson",
+      "Robert Frost",
+      "Langston Hughes"
+    ],
+    "correctIndex": 2,
+    "category": "literature",
+    "difficulty": "medium",
+    "explanation": "Robert Frost wrote both of these iconic American poems celebrating nature and rural life.",
+    "detailedExplanation": "Robert Frost (1874-1963) was one of America's most celebrated poets, known for his depictions of rural New England life and his masterful use of colloquial speech. 'The Road Not Taken' (1916) is often misinterpreted as being about taking the unconventional path, while 'Stopping by Woods on a Snowy Evening' (1923) showcases his ability to find profound meaning in simple, everyday moments. Frost won four Pulitzer Prizes for Poetry and is remembered for his accessible yet deeply meaningful verse that often explored themes of nature, isolation, and human choice.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Robert_Frost",
+    "citationTitle": "Wikipedia: Robert Frost"
+  },
+  {
+    "id": "74b597b9-d65e-48e8-bb4e-6f218b843fd2",
+    "text": "Which epic poem begins with the line 'Sing, goddess, the anger of Peleus' son Achilleus'?",
+    "options": [
+      "The Odyssey",
+      "The Iliad",
+      "The Aeneid",
+      "Beowulf"
+    ],
+    "correctIndex": 1,
+    "category": "literature",
+    "difficulty": "medium",
+    "explanation": "The Iliad, attributed to Homer, opens with this invocation about Achilles' rage during the Trojan War.",
+    "detailedExplanation": "The Iliad is an ancient Greek epic poem traditionally attributed to Homer, composed in the 8th century BCE. The opening line calls upon the Muse to sing of Achilles' anger, which drives the central narrative of the poem. Set during the final year of the ten-year siege of Troy, the epic focuses on the quarrel between Achilles and Agamemnon, and its devastating consequences for both the Greeks and Trojans. The Iliad, along with its companion epic The Odyssey, forms the foundation of Western literature and has influenced countless works of poetry, drama, and prose throughout history.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Iliad",
+    "citationTitle": "Wikipedia: Iliad"
+  },
+  {
+    "id": "cd69a576-558d-4de2-bf5e-f57f397542a3",
+    "text": "Which poet was known as the 'Belle of Amherst' and wrote nearly 1,800 poems, most published posthumously?",
+    "options": [
+      "Maya Angelou",
+      "Emily Dickinson",
+      "Sylvia Plath",
+      "Anne Sexton"
+    ],
+    "correctIndex": 1,
+    "category": "literature",
+    "difficulty": "medium",
+    "explanation": "Emily Dickinson, who lived as a recluse in Amherst, Massachusetts, left behind a treasure trove of innovative poetry.",
+    "detailedExplanation": "Emily Dickinson (1830-1886) lived most of her adult life in isolation at her family home in Amherst, Massachusetts, earning her the nickname 'Belle of Amherst.' She wrote prolifically but published fewer than a dozen poems during her lifetime. After her death, her sister Lavinia discovered nearly 1,800 poems in Emily's room, many sewn into small booklets called fascicles. Dickinson's poetry is characterized by unconventional capitalization, punctuation, and slant rhyme. Her work explores themes of death, immortality, nature, and the inner life with remarkable innovation and psychological insight.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Emily_Dickinson",
+    "citationTitle": "Wikipedia: Emily Dickinson"
+  },
+  {
+    "id": "e1bccef1-961c-4656-a616-33c3bd5f082b",
+    "text": "What type of poem is traditionally composed of three lines with a 5-7-5 syllable pattern?",
+    "options": [
+      "Tanka",
+      "Haiku",
+      "Cinquain",
+      "Tercet"
+    ],
+    "correctIndex": 1,
+    "category": "literature",
+    "difficulty": "medium",
+    "explanation": "Haiku is a traditional Japanese form with 17 syllables arranged in three lines of 5-7-5.",
+    "detailedExplanation": "Haiku is a traditional form of Japanese poetry that captures a moment in nature or evokes a particular season. The classical form consists of 17 syllables arranged in three lines of 5-7-5 syllables respectively, though modern haiku in English often focus more on brevity and imagery than strict syllable counting. Traditional haiku also include a 'kigo' (seasonal word) and often feature a 'kireji' (cutting word) that provides a pause or break in the poem. Masters like Matsuo Bashō, Yosa Buson, and Kobayashi Issa elevated the form to high art, and haiku remains popular worldwide for its simplicity and depth.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Haiku",
+    "citationTitle": "Wikipedia: Haiku"
+  },
+  {
+    "id": "3f6387bc-e2e4-4ddb-b433-5c2dc032c105",
+    "text": "Which British Romantic poet wrote 'She Walks in Beauty' and 'The Destruction of Sennacherib'?",
+    "options": [
+      "Percy Bysshe Shelley",
+      "John Keats",
+      "Lord Byron",
+      "William Wordsworth"
+    ],
+    "correctIndex": 2,
+    "category": "literature",
+    "difficulty": "medium",
+    "explanation": "Lord Byron wrote these famous poems, becoming one of the leading figures of the Romantic movement.",
+    "detailedExplanation": "George Gordon Byron, 6th Baron Byron (1788-1824), commonly known as Lord Byron, was a leading figure in the Romantic movement and one of the most famous poets of his era. 'She Walks in Beauty' was written in 1814 and is one of his most beloved lyric poems, inspired by his cousin's wife whom he encountered at a party. Byron was known for his scandalous personal life, his political liberalism, and his eventual death while fighting for Greek independence. His work influenced not just literature but also the broader cultural conception of the Romantic hero - passionate, mysterious, and rebellious.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Lord_Byron",
+    "citationTitle": "Wikipedia: Lord Byron"
+  },
+  {
+    "id": "a8f548d0-816a-4344-8fe4-8f99827db7a9",
+    "text": "Which poem by T.S. Eliot begins with 'April is the cruellest month'?",
+    "options": [
+      "The Love Song of J. Alfred Prufrock",
+      "Four Quartets",
+      "The Waste Land",
+      "The Hollow Men"
+    ],
+    "correctIndex": 2,
+    "category": "literature",
+    "difficulty": "medium",
+    "explanation": "The Waste Land opens with this famous line that subverts the traditional view of spring as a time of renewal.",
+    "detailedExplanation": "T.S. Eliot's 'The Waste Land' (1922) begins with the shocking line 'April is the cruellest month,' immediately establishing the poem's theme of spiritual barrenness in the modern world. This opening deliberately contrasts with the traditional celebration of spring found in earlier poetry, such as Chaucer's Canterbury Tales. The 434-line poem is considered one of the most important works of modernist poetry, featuring multiple voices, languages, and literary allusions. Eliot's fragmented, allusive style reflects the disillusionment and cultural fragmentation following World War I, and the poem's influence on 20th-century literature cannot be overstated.",
+    "citationUrl": "https://en.wikipedia.org/wiki/The_Waste_Land",
+    "citationTitle": "Wikipedia: The Waste Land"
+  },
+  {
+    "id": "69f6baa0-8e64-428b-a6ea-3401af972127",
+    "text": "Which poet served as England's Poet Laureate for the longest period in history, holding the position for 42 years?",
+    "options": [
+      "Alfred, Lord Tennyson",
+      "William Wordsworth",
+      "John Dryden",
+      "Robert Southey"
+    ],
+    "correctIndex": 0,
+    "category": "literature",
+    "difficulty": "medium",
+    "explanation": "Alfred, Lord Tennyson served as Poet Laureate from 1850 to 1892, a record 42 years.",
+    "detailedExplanation": "Alfred, Lord Tennyson was appointed Poet Laureate in 1850 following the death of William Wordsworth, and held the position until his own death in 1892. His 42-year tenure remains the longest in the history of the position. During this time, he wrote many ceremonial poems and became one of the most popular Victorian poets, known for works like 'In Memoriam A.H.H.' and 'The Charge of the Light Brigade.'",
+    "citationUrl": "https://en.wikipedia.org/wiki/Alfred,_Lord_Tennyson",
+    "citationTitle": "Wikipedia: Alfred, Lord Tennyson"
+  },
+  {
+    "id": "647ced7f-39c5-4d18-80cb-c88a1daec606",
+    "text": "What is the name of the poetic form consisting of five tercets followed by a quatrain, with only two rhymes throughout?",
+    "options": [
+      "Villanelle",
+      "Pantoum",
+      "Sestina",
+      "Ghazal"
+    ],
+    "correctIndex": 0,
+    "category": "literature",
+    "difficulty": "medium",
+    "explanation": "A villanelle has 19 lines: five tercets and a quatrain, with intricate repetition of two refrains.",
+    "detailedExplanation": "The villanelle is a highly structured poetic form with 19 lines arranged in five tercets (three-line stanzas) followed by a quatrain (four-line stanza). It uses only two rhyme sounds and features two refrains that repeat in a specific pattern throughout the poem. Famous examples include Dylan Thomas's 'Do Not Go Gentle Into That Good Night' and Elizabeth Bishop's 'One Art.' The form originated in France and became popular in English poetry during the 19th and 20th centuries.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Villanelle",
+    "citationTitle": "Wikipedia: Villanelle"
+  },
+  {
+    "id": "6f586f1f-40b1-4057-8597-2715c2eb1a01",
+    "text": "Which Beat Generation poet wrote 'Howl,' a controversial poem that led to an obscenity trial in 1957?",
+    "options": [
+      "Jack Kerouac",
+      "Allen Ginsberg",
+      "Lawrence Ferlinghetti",
+      "Gary Snyder"
+    ],
+    "correctIndex": 1,
+    "category": "literature",
+    "difficulty": "medium",
+    "explanation": "Allen Ginsberg wrote 'Howl,' which sparked an obscenity trial when published by City Lights Books.",
+    "detailedExplanation": "Allen Ginsberg's 'Howl' was first performed in 1955 and published by Lawrence Ferlinghetti's City Lights Books in 1956. The poem's explicit content and criticism of American society led to Ferlinghetti's arrest and an obscenity trial in 1957. The trial became a landmark case for freedom of expression, with the court ultimately ruling that the poem had 'redeeming social importance.' 'Howl' became one of the most influential poems of the Beat Generation and helped establish Ginsberg as a major voice in American poetry.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Howl",
+    "citationTitle": "Wikipedia: Howl"
+  },
+  {
+    "id": "744fc7c5-fb76-4820-a65d-f40cb02dd712",
+    "text": "Which ancient Greek poet is traditionally credited as the author of 'The Odyssey' and 'The Iliad'?",
+    "options": [
+      "Hesiod",
+      "Sappho",
+      "Homer",
+      "Pindar"
+    ],
+    "correctIndex": 2,
+    "category": "literature",
+    "difficulty": "medium",
+    "explanation": "Homer is traditionally credited as the author of both major ancient Greek epic poems.",
+    "detailedExplanation": "Homer is the legendary ancient Greek poet traditionally said to be the author of the two foundational works of Western literature: 'The Iliad' and 'The Odyssey.' These epic poems, composed in the 8th century BCE, tell the stories of the Trojan War and Odysseus's journey home, respectively. While scholars debate whether Homer was a single historical person or represents a tradition of oral poets, his attributed works have profoundly influenced Western literature and culture for nearly three millennia.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Homer",
+    "citationTitle": "Wikipedia: Homer"
+  },
+  {
+    "id": "b2aed6c0-ed38-4252-b6f1-f92b980b2790",
+    "text": "Which Scottish poet wrote 'Auld Lang Syne,' traditionally sung on New Year's Eve?",
+    "options": [
+      "Sir Walter Scott",
+      "Robert Burns",
+      "Robert Louis Stevenson",
+      "Hugh MacDiarmid"
+    ],
+    "correctIndex": 1,
+    "category": "literature",
+    "difficulty": "medium",
+    "explanation": "Robert Burns wrote 'Auld Lang Syne,' which became the traditional New Year's Eve song.",
+    "detailedExplanation": "Robert Burns, Scotland's national poet, wrote 'Auld Lang Syne' in 1788, though he claimed to have collected it from an old man's singing rather than composing it entirely himself. The song, whose title means 'times long past' or 'old long since,' reflects on friendship and times gone by. It became associated with New Year's Eve celebrations and is now sung worldwide at midnight on December 31st. Burns is also famous for other works like 'To a Mouse' and 'Tam o' Shanter.'",
+    "citationUrl": "https://en.wikipedia.org/wiki/Robert_Burns",
+    "citationTitle": "Wikipedia: Robert Burns"
+  },
+  {
+    "id": "bc5e0554-cb9b-462b-8634-038c6e571e05",
+    "text": "Which American poet wrote 'I'm Nobody! Who are you?' and is famous for her unconventional use of capitalization and dashes?",
+    "options": [
+      "Sylvia Plath",
+      "Anne Sexton",
+      "Emily Dickinson",
+      "Marianne Moore"
+    ],
+    "correctIndex": 2,
+    "category": "literature",
+    "difficulty": "medium",
+    "explanation": "Emily Dickinson wrote this famous poem and was known for her distinctive punctuation style.",
+    "detailedExplanation": "Emily Dickinson is renowned for her unique poetic style, characterized by unconventional capitalization, frequent use of dashes instead of traditional punctuation, and slant rhymes. 'I'm Nobody! Who are you?' is one of her most famous short poems, reflecting themes of identity and fame that appear throughout her work. Though she lived as a recluse in Amherst, Massachusetts, and published very few poems during her lifetime, she is now considered one of America's greatest poets, having written nearly 1,800 poems.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Emily_Dickinson",
+    "citationTitle": "Wikipedia: Emily Dickinson"
+  },
+  {
+    "id": "1db347df-a2c5-4d4f-bcf2-c24346736ad7",
+    "text": "Which poet wrote 'The Raven,' featuring the famous refrain 'Nevermore'?",
+    "options": [
+      "Walt Whitman",
+      "Edgar Allan Poe",
+      "Henry Wadsworth Longfellow",
+      "Ralph Waldo Emerson"
+    ],
+    "correctIndex": 1,
+    "category": "literature",
+    "difficulty": "medium",
+    "explanation": "Edgar Allan Poe wrote 'The Raven' in 1845, featuring the repeated word 'Nevermore.'",
+    "detailedExplanation": "Edgar Allan Poe published 'The Raven' in 1845, and it immediately became his most famous work. The poem tells of a man's encounter with a talking raven that repeatedly answers his questions with the word 'Nevermore.' The poem's hypnotic rhythm, internal rhyme, and the increasingly desperate questions of the narrator create a haunting atmosphere typical of Poe's work. Poe later wrote an essay called 'The Philosophy of Composition' explaining his methodical approach to writing the poem.",
+    "citationUrl": "https://en.wikipedia.org/wiki/The_Raven",
+    "citationTitle": "Wikipedia: The Raven"
+  },
+  {
+    "id": "965b9dce-82a0-4e1d-bd47-f20effcd2fc7",
+    "text": "Which British World War I poet wrote 'Dulce et Decorum Est,' criticizing the glorification of war?",
+    "options": [
+      "Rupert Brooke",
+      "Siegfried Sassoon",
+      "Wilfred Owen",
+      "Robert Graves"
+    ],
+    "correctIndex": 2,
+    "category": "literature",
+    "difficulty": "medium",
+    "explanation": "Wilfred Owen wrote this powerful anti-war poem, calling the Latin phrase 'the old Lie.'",
+    "detailedExplanation": "Wilfred Owen wrote 'Dulce et Decorum Est' while serving as a soldier in World War I, drawing from his direct experience of trench warfare and gas attacks. The poem's title comes from a line by the Roman poet Horace meaning 'It is sweet and proper to die for one's country,' which Owen ironically calls 'the old Lie' at the poem's end. Owen was killed in action just one week before the Armistice in 1918, at age 25, but his poems became some of the most powerful anti-war literature ever written.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Wilfred_Owen",
+    "citationTitle": "Wikipedia: Wilfred Owen"
+  },
+  {
+    "id": "97a5a56e-e60a-4dad-9c5c-d95844f6000f",
+    "text": "Which poet wrote the collection 'Songs of Innocence and Experience' and created his own illustrated manuscripts using a unique printing technique?",
+    "options": [
+      "William Blake",
+      "Samuel Taylor Coleridge",
+      "William Wordsworth",
+      "Percy Bysshe Shelley"
+    ],
+    "correctIndex": 0,
+    "category": "literature",
+    "difficulty": "medium",
+    "explanation": "William Blake wrote 'Songs of Innocence and Experience' and was famous for his illuminated manuscripts.",
+    "detailedExplanation": "William Blake (1757-1827) was an English poet, painter, and printmaker who created 'Songs of Innocence and Experience' as part of his illuminated books. He developed a unique relief etching technique that allowed him to integrate his poetry with his visual art, creating manuscripts where text and illustrations were printed together from the same copper plate. This collection, subtitled 'Shewing the Two Contrary States of the Human Soul,' includes famous poems like 'The Tyger' and 'The Lamb.'",
+    "citationUrl": "https://en.wikipedia.org/wiki/William_Blake",
+    "citationTitle": "Wikipedia: William Blake"
+  },
+  {
+    "id": "2472f0d9-2bb7-4d49-af62-f26758302fb0",
+    "text": "What is the name of the verse form used in Dante's 'Divine Comedy,' characterized by interlocking three-line stanzas?",
+    "options": [
+      "Terza rima",
+      "Ottava rima",
+      "Spenserian stanza",
+      "Rhyme royal"
+    ],
+    "correctIndex": 0,
+    "category": "literature",
+    "difficulty": "medium",
+    "explanation": "Terza rima is the verse form consisting of interlocking tercets (ABA BCB CDC) famously used by Dante.",
+    "detailedExplanation": "Terza rima is an Italian poetic form consisting of tercets (three-line stanzas) with an interlocking rhyme scheme of ABA BCB CDC, and so on. This form was invented by Dante Alighieri for his epic poem 'The Divine Comedy' (c. 1308-1320). The interlocking rhyme creates a sense of forward momentum and unity throughout long narrative poems. The form was later adopted by English poets including Percy Bysshe Shelley in 'Ode to the West Wind' and Robert Frost in 'Acquainted with the Night.'",
+    "citationUrl": "https://en.wikipedia.org/wiki/Terza_rima",
+    "citationTitle": "Wikipedia: Terza rima"
+  },
+  {
+    "id": "e9e4e87d-cf33-451a-a551-6f5df90f3ce9",
+    "text": "Which Irish poet won the Nobel Prize in Literature in 1995 and translated the Old English epic 'Beowulf'?",
+    "options": [
+      "Patrick Kavanagh",
+      "Seamus Heaney",
+      "W.B. Yeats",
+      "Brendan Behan"
+    ],
+    "correctIndex": 1,
+    "category": "literature",
+    "difficulty": "medium",
+    "explanation": "Seamus Heaney won the 1995 Nobel Prize in Literature and published a acclaimed translation of 'Beowulf' in 1999.",
+    "detailedExplanation": "Seamus Heaney (1939-2013) was an Irish poet who received the Nobel Prize in Literature in 1995 'for works of lyrical beauty and ethical depth, which exalt everyday miracles and the living past.' His translation of 'Beowulf,' published in 1999, became widely praised for making the ancient Anglo-Saxon epic accessible to modern readers while maintaining its poetic power. Heaney drew on his Irish background and understanding of rural life to bring fresh perspective to the ancient text, and his translation won the Whitbread Book of the Year Award.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Seamus_Heaney",
+    "citationTitle": "Wikipedia: Seamus Heaney"
+  },
+  {
+    "id": "d97af4f2-50aa-4481-979b-ac16ee9155b0",
+    "text": "Which Russian poet wrote 'Eugene Onegin,' a novel in verse that inspired Tchaikovsky's opera of the same name?",
+    "options": [
+      "Mikhail Lermontov",
+      "Alexander Pushkin",
+      "Anna Akhmatova",
+      "Boris Pasternak"
+    ],
+    "correctIndex": 1,
+    "category": "literature",
+    "difficulty": "medium",
+    "explanation": "Alexander Pushkin wrote 'Eugene Onegin,' considered the greatest work of Russian literature.",
+    "detailedExplanation": "Alexander Pushkin (1799-1837) wrote 'Eugene Onegin' between 1825 and 1832, creating what many consider the greatest work of Russian literature. This novel in verse tells the story of the aristocratic Eugene Onegin and his relationships with the idealistic poet Vladimir Lensky and the young Tatiana Larina. Written in a specific stanza form now known as the 'Onegin stanza' (14 lines with the rhyme scheme AbAbCCddEffEgg), the work influenced countless Russian writers and was adapted into Tchaikovsky's famous opera in 1879.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Eugene_Onegin",
+    "citationTitle": "Wikipedia: Eugene Onegin"
+  }
+]

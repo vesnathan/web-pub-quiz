@@ -1,22 +1,28 @@
 "use client";
 
-import { useState, useCallback, useEffect } from "react";
-import { Button, Card, CardBody } from "@nextui-org/react";
+import { useState, useCallback, useEffect, useRef } from "react";
+import { Button, Card, CardBody, Input } from "@nextui-org/react";
 import { signInWithRedirect } from "aws-amplify/auth";
 import { useAuth } from "@/contexts/AuthContext";
 import { Leaderboards } from "@/components/Leaderboards";
 import { RoomList } from "@/components/RoomList";
-import { LobbyBottomBar } from "@/components/LobbyBottomBar";
+import { AppFooter } from "@/components/AppFooter";
 import { SplashScreen } from "@/components/SplashScreen";
 import { GameBackground } from "@/components/GameBackground";
-import { LoadingScreen } from "@/components/LoadingScreen";
+import { LoadingScreen, LoadingDots } from "@/components/LoadingScreen";
+import { MaintenanceScreen } from "@/components/MaintenanceScreen";
 import { useLobbyPresence } from "@/hooks/useLobbyPresence";
+import { useLobbyChannel } from "@/hooks/useLobbyChannel";
 import { useSubscription } from "@/hooks/useSubscription";
+import { useScreenNameCheck } from "@/hooks/useScreenNameCheck";
 import { AuthModal } from "@/components/auth/AuthModal";
 import { GiftSubscriptionModal } from "@/components/GiftSubscriptionModal";
 import { TipSupporterCards, OnlineChip, AdBanner } from "@/components/home";
+import { InviteFriend } from "@/components/InviteFriend";
+import { useReferral } from "@/hooks/useReferral";
 import { GOOGLE_OAUTH_ENABLED } from "@/lib/amplify";
-import { FREE_TIER_DAILY_SET_LIMIT } from "@quiz/shared";
+
+const ADMIN_EMAIL = "vesnathan+qnl-admin@gmail.com";
 
 // Check splash state synchronously before component renders
 function getSplashState(): boolean | null {
@@ -39,17 +45,24 @@ export default function Home() {
     displayName: user?.name || user?.email?.split("@")[0],
   });
 
+  const { maintenanceMode, maintenanceMessage } = useLobbyChannel();
+
+  // Check if user is admin (admins can bypass maintenance mode)
+  const isAdmin = user?.email === ADMIN_EMAIL;
+
   const {
     isAdFree,
-    hasUnlimitedSets,
-    setsRemainingToday,
     hasUnseenGift,
     giftInfo,
     tier,
     refreshSubscription,
+    isLoading: subscriptionLoading,
+    questionsRemainingToday,
+    hasUnlimitedQuestions,
   } = useSubscription();
 
   const [showGiftModal, setShowGiftModal] = useState(false);
+  const giftModalDismissedRef = useRef(false);
   const [showAuthModal, setShowAuthModal] = useState(false);
   const [authMode, setAuthMode] = useState<"login" | "register">("login");
   const [accountLinkedMessage, setAccountLinkedMessage] = useState<
@@ -59,15 +72,66 @@ export default function Home() {
   const [showSplash, setShowSplash] = useState<boolean | null>(() =>
     getSplashState(),
   );
+  const [guestName, setGuestName] = useState("");
+
+  // Screen name validation for guest users
+  const {
+    status: screenNameStatus,
+    checkName,
+    reset: resetScreenNameCheck,
+  } = useScreenNameCheck();
+
+  // Referral tracking - captures ?ref= parameter and records referral on auth
+  const { recordReferral, getReferrerId } = useReferral();
+
+  // Record referral when user first authenticates (if they came from a referral link)
+  useEffect(() => {
+    if (isAuthenticated && !isLoading) {
+      const referrerId = getReferrerId();
+      if (referrerId) {
+        recordReferral();
+      }
+    }
+  }, [isAuthenticated, isLoading, getReferrerId, recordReferral]);
+
+  // Check guest name availability when it changes
+  const handleGuestNameChange = useCallback(
+    (name: string) => {
+      setGuestName(name);
+      if (name.trim().length >= 3) {
+        checkName(name.trim());
+      } else {
+        resetScreenNameCheck();
+      }
+    },
+    [checkName, resetScreenNameCheck],
+  );
+
+  // Check immediately on blur
+  const handleGuestNameBlur = useCallback(() => {
+    if (guestName.trim().length >= 3) {
+      checkName(guestName.trim(), true);
+    }
+  }, [guestName, checkName]);
+
+  // Whether the guest name is valid for joining
+  const isGuestNameValid =
+    guestName.trim().length >= 3 && screenNameStatus === "available";
 
   // Show gift modal when user has unseen gift
   useEffect(() => {
-    if (isAuthenticated && hasUnseenGift && !showGiftModal) {
+    if (
+      isAuthenticated &&
+      hasUnseenGift &&
+      !showGiftModal &&
+      !giftModalDismissedRef.current
+    ) {
       setShowGiftModal(true);
     }
   }, [isAuthenticated, hasUnseenGift, showGiftModal]);
 
   const handleGiftModalClose = useCallback(async () => {
+    giftModalDismissedRef.current = true;
     setShowGiftModal(false);
     await refreshSubscription();
   }, [refreshSubscription]);
@@ -165,8 +229,20 @@ export default function Home() {
     return <LoadingScreen />;
   }
 
+  // Maintenance mode - show maintenance screen for non-admin users
+  if (maintenanceMode && !isAdmin) {
+    return <MaintenanceScreen message={maintenanceMessage || undefined} />;
+  }
+
   return (
     <GameBackground>
+      {/* Beta Tag */}
+      <div className="fixed top-2 right-2 z-50">
+        <div className="bg-yellow-500/90 text-black text-xs font-bold px-2 py-1 rounded-full shadow-lg">
+          BETA
+        </div>
+      </div>
+
       <main className="p-8 pb-20 flex-grow">
         <div className="max-w-6xl mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
@@ -175,16 +251,21 @@ export default function Home() {
               {/* Main Card - Auth or Welcome */}
               <Card className="bg-gray-900/70 backdrop-blur-sm">
                 <CardBody className={isAuthenticated ? "p-6" : "p-8"}>
-                  <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2 mb-4">
-                    <h2 className="text-2xl font-bold">
-                      {isAuthenticated
-                        ? `Welcome, ${user?.name || user?.email?.split("@")[0]}!`
-                        : "Join the Quiz"}
-                    </h2>
-                    <OnlineChip
-                      isConnected={isConnected}
-                      activeUserCount={activeUserCount}
-                    />
+                  <div className="mb-4">
+                    <div className="flex items-center justify-between mb-2">
+                      <h2 className="text-2xl font-bold">
+                        {isAuthenticated
+                          ? `Welcome, ${user?.name || user?.email?.split("@")[0]}!`
+                          : "Join the Quiz"}
+                      </h2>
+                      {!isAuthenticated && (
+                        <OnlineChip
+                          isConnected={isConnected}
+                          activeUserCount={activeUserCount}
+                        />
+                      )}
+                    </div>
+                    {isAuthenticated && <InviteFriend />}
                   </div>
 
                   {isAuthenticated ? (
@@ -233,7 +314,7 @@ export default function Home() {
                       </p>
                     </div>
                   ) : (
-                    // Unauthenticated: Show sign in options
+                    // Unauthenticated: Show guest play option and sign in
                     <>
                       {accountLinkedMessage && (
                         <div className="mb-4 p-4 bg-success-100 border border-success-300 rounded-lg">
@@ -243,7 +324,73 @@ export default function Home() {
                         </div>
                       )}
 
-                      <div className="space-y-4">
+                      {/* Guest Play Section */}
+                      <div className="p-4 bg-gray-800/50 rounded-lg mb-4">
+                        <Input
+                          label="Your display name"
+                          placeholder="Enter a name to play as guest"
+                          value={guestName}
+                          onValueChange={handleGuestNameChange}
+                          onBlur={handleGuestNameBlur}
+                          variant="bordered"
+                          size="sm"
+                          isInvalid={screenNameStatus === "taken"}
+                          errorMessage={
+                            screenNameStatus === "taken"
+                              ? "This name is already taken"
+                              : undefined
+                          }
+                          description={
+                            guestName.trim().length > 0 &&
+                            guestName.trim().length < 3
+                              ? "Name must be at least 3 characters"
+                              : undefined
+                          }
+                          endContent={
+                            screenNameStatus === "checking" ? (
+                              <LoadingDots className="scale-75" />
+                            ) : screenNameStatus === "available" ? (
+                              <span className="text-green-400 text-lg font-bold">
+                                ✓
+                              </span>
+                            ) : screenNameStatus === "taken" ? (
+                              <span className="text-red-400 text-lg font-bold">
+                                ✗
+                              </span>
+                            ) : null
+                          }
+                          classNames={{
+                            input: "text-white",
+                            label: "text-gray-400",
+                          }}
+                        />
+                        <p className="text-xs text-gray-500 mt-2">
+                          Playing as guest - progress won&apos;t be saved.
+                        </p>
+                      </div>
+
+                      {/* Why Create Account */}
+                      <div className="p-4 bg-primary-900/20 border border-primary-500/30 rounded-lg mb-4">
+                        <h4 className="text-sm font-semibold text-primary-300 mb-2">
+                          Why create an account?
+                        </h4>
+                        <ul className="text-xs text-gray-400 space-y-1">
+                          <li className="flex items-center gap-2">
+                            <span className="text-green-400">✓</span>
+                            Track your scores and climb the leaderboard
+                          </li>
+                          <li className="flex items-center gap-2">
+                            <span className="text-green-400">✓</span>
+                            Earn badges and skill points
+                          </li>
+                          <li className="flex items-center gap-2">
+                            <span className="text-green-400">✓</span>
+                            Auto-join games before they fill up
+                          </li>
+                        </ul>
+                      </div>
+
+                      <div className="space-y-3">
                         {GOOGLE_OAUTH_ENABLED && (
                           <>
                             <Button
@@ -296,7 +443,7 @@ export default function Home() {
                           className="w-full font-semibold"
                           onPress={() => handleAuthRequired("login")}
                         >
-                          Sign In to Play
+                          Sign In
                         </Button>
                         <Button
                           color="default"
@@ -308,69 +455,10 @@ export default function Home() {
                           Create Account
                         </Button>
                       </div>
-
-                      {/* Earn Badges CTA */}
-                      <div className="mt-6 p-4 bg-default-100 rounded-lg">
-                        <h3 className="font-semibold mb-3">Earn Badges</h3>
-                        <div className="flex flex-wrap gap-2 mb-2">
-                          <div className="w-10 h-10 rounded-full bg-gray-700/50 flex items-center justify-center text-xl opacity-50">
-                            🏆
-                          </div>
-                          <div className="w-10 h-10 rounded-full bg-gray-700/50 flex items-center justify-center text-xl opacity-50">
-                            🔥
-                          </div>
-                          <div className="w-10 h-10 rounded-full bg-gray-700/50 flex items-center justify-center text-xl opacity-50">
-                            ⭐
-                          </div>
-                        </div>
-                        <p className="text-xs text-default-500">
-                          Sign in to track your progress and earn badges!
-                        </p>
-                      </div>
                     </>
                   )}
                 </CardBody>
               </Card>
-
-              {/* Daily Sets Remaining - only for authenticated free tier */}
-              {isAuthenticated && !hasUnlimitedSets && (
-                <div
-                  className={`px-4 py-3 rounded-lg ${
-                    setsRemainingToday === 0
-                      ? "bg-red-900/30 border border-red-500/50"
-                      : setsRemainingToday === 1
-                        ? "bg-yellow-900/30 border border-yellow-500/50"
-                        : "bg-gray-800/50 border border-gray-700"
-                  }`}
-                >
-                  <div className="flex items-center justify-between">
-                    <div className="flex items-center gap-2">
-                      <span
-                        className={`text-lg font-bold ${
-                          setsRemainingToday === 0
-                            ? "text-red-400"
-                            : setsRemainingToday === 1
-                              ? "text-yellow-400"
-                              : "text-green-400"
-                        }`}
-                      >
-                        {setsRemainingToday} / {FREE_TIER_DAILY_SET_LIMIT}
-                      </span>
-                      <span className="text-gray-400 text-sm">
-                        free {setsRemainingToday === 1 ? "set" : "sets"} today
-                      </span>
-                    </div>
-                    <Button
-                      size="sm"
-                      color="primary"
-                      variant={setsRemainingToday === 0 ? "solid" : "flat"}
-                      onPress={() => (window.location.href = "/subscribe")}
-                    >
-                      {setsRemainingToday === 0 ? "Upgrade Now" : "Upgrade"}
-                    </Button>
-                  </div>
-                </div>
-              )}
 
               {/* Tip & Supporter Cards - shared component */}
               <TipSupporterCards
@@ -385,13 +473,10 @@ export default function Home() {
 
             {/* Right Column */}
             <div className="space-y-4">
-              <AdBanner isAdFree={isAdFree} />
+              <AdBanner isAdFree={isAdFree} isLoading={subscriptionLoading} />
               <RoomList
-                onJoinRoom={
-                  isAuthenticated
-                    ? undefined
-                    : () => handleAuthRequired("login")
-                }
+                guestName={!isAuthenticated ? guestName : undefined}
+                isGuestNameValid={!isAuthenticated ? isGuestNameValid : true}
               />
             </div>
           </div>
@@ -409,9 +494,11 @@ export default function Home() {
         />
       </main>
 
-      <LobbyBottomBar
+      <AppFooter
         isConnected={isConnected}
         activeUserCount={activeUserCount}
+        questionsRemaining={questionsRemainingToday}
+        hasUnlimitedQuestions={hasUnlimitedQuestions}
       />
 
       {/* Gift Subscription Modal - only for authenticated */}

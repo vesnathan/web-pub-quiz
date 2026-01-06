@@ -321,5 +321,22 @@
     "detailedExplanation": "Socrates, one of the most influential philosophers in Western thought, was tried and executed in Athens in 399 BCE. He was charged with corrupting the youth of Athens and introducing new gods, effectively accusations of impiety and subverting traditional values. Rather than fleeing Athens or accepting exile, Socrates chose to accept his death sentence and drank a cup of poison hemlock while surrounded by his students, including Plato, who later recorded the events in his dialogues.",
     "citationUrl": "https://en.wikipedia.org/wiki/Trial_of_Socrates",
     "citationTitle": "Wikipedia: Trial of Socrates"
+  },
+  {
+    "id": "78141d02-1545-46d7-afb7-44e8bce2638f",
+    "text": "Which ancient Greek physician is known as the 'Father of Medicine' and established the ethical foundation for medical practice?",
+    "options": [
+      "Galen",
+      "Hippocrates",
+      "Asclepius",
+      "Empedocles"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "difficulty": "medium",
+    "explanation": "Hippocrates established medical ethics and natural causes of disease.",
+    "detailedExplanation": "Hippocrates of Kos (c. 460-370 BCE) revolutionized medicine by moving away from supernatural explanations of illness and establishing that diseases had natural causes. He founded the Hippocratic School of Medicine and created the Hippocratic Oath, an ethical code that influenced medical practice for over 2,000 years. His systematic approach to clinical observation and his emphasis on the importance of prognosis, along with his belief that the body had its own ability to heal, earned him the title 'Father of Medicine' and established principles that remain fundamental to medical practice today.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Hippocrates",
+    "citationTitle": "Wikipedia: Hippocrates"
   }
 ]

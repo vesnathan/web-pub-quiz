@@ -140,6 +140,16 @@ export interface AnswerPayload {
   pointsAwarded: number;
 }
 
+/**
+ * Sent to individual player when they guess wrong (multi-guess mode)
+ */
+export interface WrongAnswerPayload {
+  answerIndex: number;
+  penalty: number;
+  guessCount: number;
+  wrongAnswers: number[];
+}
+
 export interface QuestionEndPayload {
   correctIndex: number;
   explanation: string;
@@ -147,8 +157,10 @@ export interface QuestionEndPayload {
   leaderboard: import('./gqlTypes').LeaderboardEntry[];
   winnerId: string | null;
   winnerName: string | null;
+  winnerPoints: number | null; // Points awarded to the winner
   wasAnswered: boolean;
   wasCorrect: boolean | null;
+  playerResults?: Record<string, { answered: boolean; correct: boolean }>;
   nextQuestionIn: number;
   questionText?: string;
   options?: string[];
@@ -208,7 +220,7 @@ export {
   DEFAULT_SUBSCRIPTION_INFO,
   type SubscriptionFeatures,
   getSubscriptionFeatures,
-  FREE_TIER_DAILY_SET_LIMIT,
+  FREE_TIER_DAILY_QUESTION_LIMIT,
   type StripeWebhookEvent,
   type PayPalWebhookEvent,
   type CreateCheckoutRequest,

@@ -1,0 +1,342 @@
+[
+  {
+    "id": "d7927c08-fca1-49ef-bc3d-7dcb25d45377",
+    "text": "Which smartphone was the first to feature a dual-camera system with optical zoom capabilities?",
+    "options": [
+      "HTC One M8",
+      "LG G5",
+      "iPhone 7 Plus",
+      "Huawei P9"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "The iPhone 7 Plus was the first smartphone to feature a dual-camera system with optical zoom.",
+    "detailedExplanation": "Released in September 2016, the iPhone 7 Plus introduced the first dual-camera system in a smartphone that provided true optical zoom capabilities. While other phones like the HTC One M8 had dual cameras earlier, they were primarily for depth sensing rather than zoom. The iPhone 7 Plus featured a 28mm wide-angle lens and a 56mm telephoto lens, allowing for 2x optical zoom without digital degradation.",
+    "citationUrl": "https://en.wikipedia.org/wiki/IPhone_7",
+    "citationTitle": "Wikipedia: iPhone 7"
+  },
+  {
+    "id": "7ae313e8-b0b7-4ae5-abc2-5440125b964e",
+    "text": "What was the screen resolution of the original iPhone released in 2007?",
+    "options": [
+      "320×240 pixels",
+      "480×320 pixels",
+      "640×480 pixels",
+      "320×480 pixels"
+    ],
+    "correctIndex": 3,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "The original iPhone had a screen resolution of 320×480 pixels at 163 pixels per inch.",
+    "detailedExplanation": "The first-generation iPhone, released on June 29, 2007, featured a 3.5-inch LCD screen with a resolution of 320×480 pixels, resulting in a pixel density of 163 pixels per inch (ppi). This resolution was revolutionary for its time, providing much sharper text and images compared to other mobile devices. The screen maintained this resolution until the iPhone 4 introduced the Retina display with 640×960 pixels in 2010.",
+    "citationUrl": "https://en.wikipedia.org/wiki/IPhone_(1st_generation)",
+    "citationTitle": "Wikipedia: iPhone (1st generation)"
+  },
+  {
+    "id": "3933da23-43b1-4af2-b946-8b84f9c10c77",
+    "text": "Which company developed the first commercially available smartphone with 5G connectivity?",
+    "options": [
+      "Samsung",
+      "Huawei",
+      "Motorola",
+      "OnePlus"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Motorola released the Moto Z3 with 5G Moto Mod attachment as the first commercially available 5G smartphone solution.",
+    "detailedExplanation": "While Samsung's Galaxy S10 5G was the first standalone 5G smartphone, Motorola technically achieved commercial 5G smartphone connectivity first through the Moto Z3 paired with the 5G Moto Mod attachment. This modular approach allowed existing Moto Z3 users to access Verizon's 5G network starting in April 2019. However, Samsung's Galaxy S10 5G, released in May 2019, was the first smartphone with integrated 5G capabilities built directly into the device.",
+    "citationUrl": "https://en.wikipedia.org/wiki/5G",
+    "citationTitle": "Wikipedia: 5G"
+  },
+  {
+    "id": "362b7abc-8b99-4dc5-8834-efbf7afa8bc6",
+    "text": "What was the storage capacity of the highest-end BlackBerry device ever released?",
+    "options": [
+      "32 GB",
+      "64 GB",
+      "128 GB",
+      "256 GB"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "The BlackBerry KEY2 was available with up to 64 GB of internal storage, the highest among BlackBerry devices.",
+    "detailedExplanation": "The BlackBerry KEY2, released in June 2018, represented the pinnacle of BlackBerry's smartphone evolution and was available with up to 64 GB of internal storage. This device also supported microSD card expansion up to 2 TB. While other smartphones had moved to much higher storage capacities by 2018, BlackBerry's focus remained on business users and security rather than competing in the premium consumer storage space.",
+    "citationUrl": "https://en.wikipedia.org/wiki/BlackBerry_KEY2",
+    "citationTitle": "Wikipedia: BlackBerry KEY2"
+  },
+  {
+    "id": "1467f75a-f1b9-4fcc-9e7a-855b5e4dba41",
+    "text": "Which smartphone operating system was developed by Nokia and Intel but discontinued in 2011?",
+    "options": [
+      "Symbian",
+      "MeeGo",
+      "Tizen",
+      "Windows Phone"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "MeeGo was a Linux-based operating system jointly developed by Nokia and Intel, discontinued in 2011.",
+    "detailedExplanation": "MeeGo was an ambitious mobile operating system that combined Nokia's Maemo and Intel's Moblin platforms. Announced in February 2010, it was designed to run on smartphones, tablets, netbooks, and in-vehicle systems. However, Nokia's strategic shift to Windows Phone in early 2011 led to MeeGo's abandonment. Only one MeeGo smartphone was ever released: the Nokia N9 in 2011. The project's legacy continued in various forms, including Sailfish OS and Tizen.",
+    "citationUrl": "https://en.wikipedia.org/wiki/MeeGo",
+    "citationTitle": "Wikipedia: MeeGo"
+  },
+  {
+    "id": "8a2260e8-8307-491d-9746-7a47064ba44e",
+    "text": "What was the maximum data transfer speed of the first EDGE-enabled smartphones?",
+    "options": [
+      "56 kbps",
+      "114 kbps",
+      "384 kbps",
+      "473.6 kbps"
+    ],
+    "correctIndex": 3,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "EDGE (Enhanced Data rates for GSM Evolution) provided theoretical maximum speeds of 473.6 kbps.",
+    "detailedExplanation": "EDGE technology, introduced in the early 2000s, was a significant evolution from GPRS and represented a crucial step in smartphone connectivity before 3G networks became widespread. The theoretical maximum data transfer rate for EDGE was 473.6 kbps, though real-world speeds were typically much lower, around 120-384 kbps. This technology enabled early smartphones to access email, basic web browsing, and simple data applications, laying the groundwork for the mobile internet revolution.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Enhanced_Data_Rates_for_GSM_Evolution",
+    "citationTitle": "Wikipedia: Enhanced Data Rates for GSM Evolution"
+  },
+  {
+    "id": "2ec864aa-9345-4067-8881-f908e62a3831",
+    "text": "Which smartphone manufacturer first introduced wireless charging as a standard feature across an entire product line?",
+    "options": [
+      "Nokia",
+      "Samsung",
+      "Apple",
+      "LG"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Nokia was the first to make wireless charging standard across an entire smartphone product line with the Lumia series.",
+    "detailedExplanation": "Nokia pioneered wireless charging in smartphones, first introducing it in the Nokia Lumia 920 in 2012. By 2013, Nokia had made wireless charging a standard feature across multiple models in their Lumia lineup, including the Lumia 928, 920, and later models. This was years before other major manufacturers like Samsung and Apple adopted wireless charging as standard features. Nokia used the Qi wireless charging standard and even created colorful wireless charging accessories that matched their phones' designs.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Nokia_Lumia_920",
+    "citationTitle": "Wikipedia: Nokia Lumia 920"
+  },
+  {
+    "id": "dc32f2cf-3a2b-4387-aef5-2107dad9ca17",
+    "text": "What was the RAM capacity of the first Android smartphone, the T-Mobile G1?",
+    "options": [
+      "64 MB",
+      "128 MB",
+      "192 MB",
+      "256 MB"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "The T-Mobile G1 (HTC Dream) featured 192 MB of RAM when it launched in 2008.",
+    "detailedExplanation": "The T-Mobile G1, also known as the HTC Dream, was released on October 22, 2008, as the first commercially available Android smartphone. It featured 192 MB of RAM and 256 MB of internal storage, with a microSD slot for expansion. This modest RAM allocation was typical for smartphones of that era, but it was sufficient to run Android 1.0 and basic applications. The device also featured a slide-out QWERTY keyboard, a 3.2-megapixel camera, and a trackball for navigation.",
+    "citationUrl": "https://en.wikipedia.org/wiki/HTC_Dream",
+    "citationTitle": "Wikipedia: HTC Dream"
+  },
+  {
+    "id": "49de6c46-96f2-4899-abe7-821a73c5a823",
+    "text": "Which smartphone was the first to introduce fingerprint authentication technology?",
+    "options": [
+      "Motorola Atrix 4G",
+      "iPhone 5s",
+      "Samsung Galaxy S5",
+      "HTC One Max"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "The Motorola Atrix 4G, released in 2011, was the first smartphone to feature fingerprint authentication.",
+    "detailedExplanation": "While Apple's iPhone 5s popularized fingerprint authentication with Touch ID in 2013, the Motorola Atrix 4G actually pioneered this technology in smartphones two years earlier. Released in February 2011, the Atrix 4G featured a fingerprint sensor on its back that could unlock the device and authorize purchases. However, the technology was not as refined or widely adopted as Apple's later implementation, which is why many people mistakenly believe the iPhone 5s was first.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Motorola_Atrix_4G",
+    "citationTitle": "Wikipedia: Motorola Atrix 4G"
+  },
+  {
+    "id": "86c3497a-7abd-4882-a3ff-9e007bd26a1b",
+    "text": "What was the name of the first smartphone to run Google's Android operating system?",
+    "options": [
+      "HTC Dream",
+      "Samsung Galaxy",
+      "Motorola Droid",
+      "LG Optimus"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "The HTC Dream, also known as the T-Mobile G1, was the first commercially released Android smartphone in 2008.",
+    "detailedExplanation": "The HTC Dream, marketed as the T-Mobile G1 in the United States, was released on October 22, 2008, making it the first commercially available smartphone to run Google's Android operating system. Developed by HTC in collaboration with Google, it featured a slide-out QWERTY keyboard, a trackball for navigation, and ran Android 1.0. This device marked the beginning of Android's challenge to Apple's iOS dominance and laid the foundation for what would become the world's most widely used mobile operating system.",
+    "citationUrl": "https://en.wikipedia.org/wiki/HTC_Dream",
+    "citationTitle": "Wikipedia: HTC Dream"
+  },
+  {
+    "id": "06f05dcc-085d-42c5-bdb5-05dc4add5f77",
+    "text": "Which company created the first smartphone with a foldable display that was commercially released?",
+    "options": [
+      "Samsung",
+      "Royole",
+      "Huawei",
+      "Motorola"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Royole released the FlexPai in late 2018, making it the first commercially available foldable smartphone.",
+    "detailedExplanation": "While Samsung and other major manufacturers received more attention for their foldable phones, the relatively unknown Chinese company Royole actually beat them to market. The Royole FlexPai was announced in October 2018 and began shipping in limited quantities in December 2018, making it the world's first commercially available smartphone with a foldable display. The device featured a 7.8-inch flexible AMOLED screen that could fold outward. However, due to its high price, limited availability, and software issues, it didn't achieve mainstream success like Samsung's Galaxy Fold series that followed.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Royole_FlexPai",
+    "citationTitle": "Wikipedia: Royole FlexPai"
+  },
+  {
+    "id": "b2542dad-36da-417b-ad1e-db0aae3da936",
+    "text": "What was the maximum number of megapixels in the camera of the Nokia N95, considered one of the most advanced smartphones of its era?",
+    "options": [
+      "3.2 MP",
+      "5 MP",
+      "8 MP",
+      "2 MP"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "The Nokia N95 featured a 5-megapixel camera, which was exceptionally high for smartphones when it was released in 2007.",
+    "detailedExplanation": "Released in March 2007, the Nokia N95 was considered a technological marvel of its time, featuring a 5-megapixel camera with Carl Zeiss optics and LED flash. This was remarkably advanced for 2007, as most smartphones of that era had cameras with 1-2 megapixels at best. The N95's camera could record video at 640x480 resolution at 30fps and included features like autofocus and digital zoom. The device also featured GPS navigation, 3G connectivity, and a unique two-way sliding design, making it one of the most feature-rich smartphones before the iPhone revolutionized the market.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Nokia_N95",
+    "citationTitle": "Wikipedia: Nokia N95"
+  },
+  {
+    "id": "4de69782-715e-421c-a04e-bcd8f8519010",
+    "text": "Which smartphone manufacturer first introduced water resistance rated at IP68 standard?",
+    "options": [
+      "Apple",
+      "Sony",
+      "Samsung",
+      "LG"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Sony was the first to achieve IP68 water resistance rating in smartphones with the Xperia Z series.",
+    "detailedExplanation": "Sony pioneered comprehensive water resistance in smartphones, first achieving the IP68 rating with their Xperia Z series. The original Xperia Z, released in early 2013, featured IP55/IP57 rating, but Sony quickly advanced to IP68 with subsequent models in the same year. IP68 means the device can survive continuous immersion in water beyond 1 meter depth. Sony's expertise came from their experience in waterproofing other electronic devices. While other manufacturers like Samsung and Apple later adopted IP68 ratings, Sony was the trailblazer in making waterproof smartphones mainstream, often marketing their devices with underwater photography and usage scenarios.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Sony_Xperia_Z",
+    "citationTitle": "Wikipedia: Sony Xperia Z"
+  },
+  {
+    "id": "b86c6566-28c8-4a53-8f53-1d2b932344ef",
+    "text": "What was the processor architecture used in the first iPhone's system-on-chip?",
+    "options": [
+      "x86",
+      "ARM11",
+      "ARM Cortex-A8",
+      "PowerPC"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "The original iPhone used Samsung's S5L8900 chip based on the ARM11 architecture running at 412 MHz.",
+    "detailedExplanation": "The first iPhone, released in 2007, was powered by Samsung's S5L8900 system-on-chip, which was based on the ARM11 processor architecture and manufactured using a 90nm process. The chip ran at 412 MHz, though Apple underclocked it from its maximum 667 MHz capability for better battery life and thermal management. This ARM11-based processor was a significant choice that established ARM architecture as the dominant platform for mobile devices. The chip also included PowerVR MBX Lite graphics processing unit and was paired with 128MB of RAM, which was considered adequate for the iPhone's revolutionary but relatively simple iOS interface at the time.",
+    "citationUrl": "https://en.wikipedia.org/wiki/IPhone_(1st_generation)",
+    "citationTitle": "Wikipedia: iPhone (1st generation)"
+  },
+  {
+    "id": "807c955f-8381-4274-83e1-9a3724b36517",
+    "text": "Which smartphone was the first to feature a 1080p Full HD display?",
+    "options": [
+      "HTC Butterfly",
+      "Samsung Galaxy S4",
+      "Sony Xperia Z",
+      "LG Optimus G Pro"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "The HTC Butterfly, released in late 2012, was the first smartphone to feature a 1080p Full HD display.",
+    "detailedExplanation": "The HTC Butterfly (known as HTC Droid DNA in the US) made history when it was released in Japan in December 2012 as the world's first smartphone with a 1080p Full HD display. The device featured a 5-inch Super LCD3 screen with a resolution of 1920×1080 pixels, resulting in an incredibly sharp pixel density of 440 pixels per inch. This was a massive leap from the typical 720p displays that were considered high-end at the time. The achievement was particularly impressive given the technical challenges of driving so many pixels on a mobile device while maintaining acceptable battery life and performance.",
+    "citationUrl": "https://en.wikipedia.org/wiki/HTC_Butterfly",
+    "citationTitle": "Wikipedia: HTC Butterfly"
+  },
+  {
+    "id": "5f6dfbf4-978d-42fc-94f6-e250ee1f58ba",
+    "text": "What was the maximum storage capacity offered in the Palm Treo 650, one of the most popular early smartphones?",
+    "options": [
+      "32 MB",
+      "64 MB",
+      "128 MB",
+      "23 MB"
+    ],
+    "correctIndex": 3,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "The Palm Treo 650 came with 23 MB of user-accessible internal storage memory.",
+    "detailedExplanation": "Released in 2004, the Palm Treo 650 was one of the most successful early smartphones, running Palm OS and featuring both phone and PDA capabilities. The device came with 32 MB of total RAM, but only 23 MB was available to users for storing applications, emails, contacts, and other data. This might seem incredibly small by today's standards, but it was adequate for the Palm OS ecosystem of that era, which emphasized efficient, lightweight applications. The Treo 650 also supported SD card expansion, allowing users to add additional storage. This device was particularly popular among business users and helped establish the concept of the modern smartphone before the iPhone era.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Palm_Treo_650",
+    "citationTitle": "Wikipedia: Palm Treo 650"
+  },
+  {
+    "id": "1f1a86b2-8b18-4415-aebd-aeceb1654171",
+    "text": "Which smartphone was the first to eliminate the traditional 3.5mm headphone jack, sparking widespread industry controversy?",
+    "options": [
+      "iPhone 7",
+      "Google Pixel",
+      "Samsung Galaxy S8",
+      "OnePlus 3"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "The iPhone 7, released in September 2016, was the first major smartphone to remove the 3.5mm headphone jack.",
+    "detailedExplanation": "Apple's decision to remove the headphone jack from the iPhone 7 in 2016 was one of the most controversial design changes in smartphone history. Apple cited the need for more internal space for other components and promoted wireless audio through AirPods and Lightning-connected headphones. This move sparked intense debate among consumers and tech enthusiasts, with many criticizing the decision as premature. However, it set a trend that many other manufacturers would eventually follow, fundamentally changing how people consume audio on mobile devices.",
+    "citationUrl": "https://en.wikipedia.org/wiki/IPhone_7",
+    "citationTitle": "Wikipedia: iPhone 7"
+  },
+  {
+    "id": "e77335a3-b2d6-48f0-aa6f-77714c66cf5f",
+    "text": "What was the codename for the original Android project during its early development at Android Inc. before Google's acquisition?",
+    "options": [
+      "Project Sooner",
+      "Project Green Robot",
+      "Project Mobile",
+      "Project Handset"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "The original Android project was codenamed 'Project Sooner' and was initially designed for BlackBerry-style devices with physical keyboards.",
+    "detailedExplanation": "Before Google acquired Android Inc. in 2005, the original Android operating system was developed under the codename 'Project Sooner.' Interestingly, this early version was designed for devices similar to BlackBerry smartphones, featuring physical QWERTY keyboards and no touchscreens. After the iPhone's revolutionary launch in 2007, the Android team pivoted dramatically, scrapping much of their work to focus on touchscreen interfaces. This led to 'Project Dream,' which became the T-Mobile G1, the first commercial Android device launched in 2008.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Android_(operating_system)",
+    "citationTitle": "Wikipedia: Android (operating system)"
+  },
+  {
+    "id": "53b8193a-eafe-444a-815b-ae1ba0de7782",
+    "text": "Which smartphone feature was first introduced by the Motorola Atrix 4G in 2011 that wouldn't become mainstream until nearly a decade later?",
+    "options": [
+      "Desktop docking mode",
+      "In-display fingerprint scanner",
+      "Wireless charging",
+      "Multi-lens camera system"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "The Motorola Atrix 4G introduced a laptop-style dock that turned the phone into a desktop computer, predating Samsung DeX and similar solutions by years.",
+    "detailedExplanation": "The Motorola Atrix 4G, released in 2011, was remarkably ahead of its time with its 'webtop' feature and laptop dock accessory. When placed in the dock, the phone would transform into a desktop-like computing experience with a full keyboard, trackpad, and larger display, running a modified Linux desktop environment alongside Android. This concept of smartphone-desktop convergence was revolutionary but commercially unsuccessful due to limited software optimization and high accessory costs. The idea wouldn't resurface successfully until Samsung DeX in 2017 and Microsoft's continuum features, showing how the Atrix was nearly a decade ahead of mainstream adoption.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Motorola_Atrix_4G",
+    "citationTitle": "Wikipedia: Motorola Atrix 4G"
+  },
+  {
+    "id": "8fb52051-e111-4905-8558-1eeca3983fa5",
+    "text": "Which smartphone operating system, launched in 2010, was based on Linux and used HTML5, CSS, and JavaScript for app development before being discontinued in 2018?",
+    "options": [
+      "webOS",
+      "Tizen",
+      "Firefox OS",
+      "Ubuntu Touch"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Firefox OS was Mozilla's mobile operating system that used web technologies for app development and targeted emerging markets before its discontinuation.",
+    "detailedExplanation": "Firefox OS, developed by Mozilla and launched in 2010, was an ambitious attempt to create a smartphone operating system built entirely on open web standards. Unlike traditional mobile OS platforms that required native app development, Firefox OS used HTML5, CSS, and JavaScript for all applications, essentially making every app a web application. The OS was primarily targeted at emerging markets and budget devices, with partners including Alcatel, ZTE, and LG. Despite its innovative approach and the backing of several mobile carriers worldwide, Firefox OS struggled to gain market share against established platforms like iOS and Android. Mozilla officially discontinued the project in 2016 for smartphones, though development continued for other devices until 2018.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Firefox_OS",
+    "citationTitle": "Wikipedia: Firefox OS"
+  }
+]

@@ -1,0 +1,342 @@
+[
+  {
+    "id": "59b6e4ec-2d1e-430b-90ea-f4c958979e03",
+    "text": "Which bestselling novel by Stephen King was adapted into a 1994 film starring Tim Robbins and Morgan Freeman?",
+    "options": [
+      "The Green Mile",
+      "The Shawshank Redemption",
+      "Stand By Me",
+      "Misery"
+    ],
+    "correctIndex": 1,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "The Shawshank Redemption was based on Stephen King's novella 'Rita Hayworth and Shawshank Redemption.'",
+    "detailedExplanation": "The Shawshank Redemption, directed by Frank Darabont, was adapted from Stephen King's 1982 novella 'Rita Hayworth and Shawshank Redemption' from his collection 'Different Seasons.' Despite being nominated for seven Academy Awards, the film initially underperformed at the box office but has since become widely regarded as one of the greatest films ever made.",
+    "citationUrl": "https://en.wikipedia.org/wiki/The_Shawshank_Redemption",
+    "citationTitle": "Wikipedia: The Shawshank Redemption"
+  },
+  {
+    "id": "fe7f6bdc-f747-4fe9-b3a8-a6b073d7d597",
+    "text": "The 2001 film 'The Lord of the Rings: The Fellowship of the Ring' was based on novels by which author?",
+    "options": [
+      "C.S. Lewis",
+      "J.R.R. Tolkien",
+      "George R.R. Martin",
+      "Terry Pratchett"
+    ],
+    "correctIndex": 1,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "J.R.R. Tolkien wrote The Lord of the Rings trilogy, which was adapted by Peter Jackson.",
+    "detailedExplanation": "J.R.R. Tolkien's epic fantasy novel The Lord of the Rings was published in three volumes between 1954 and 1955. Peter Jackson's film adaptation trilogy, beginning with The Fellowship of the Ring in 2001, became one of the most successful and acclaimed book-to-film adaptations ever made, winning multiple Academy Awards and grossing nearly $3 billion worldwide.",
+    "citationUrl": "https://en.wikipedia.org/wiki/The_Lord_of_the_Rings_film_series",
+    "citationTitle": "Wikipedia: The Lord of the Rings film series"
+  },
+  {
+    "id": "9168a07d-b359-4289-841c-4e5a7df0baf9",
+    "text": "Which Jane Austen novel has been adapted into films multiple times, including versions starring Keira Knightley and Jennifer Ehle?",
+    "options": [
+      "Emma",
+      "Sense and Sensibility",
+      "Pride and Prejudice",
+      "Persuasion"
+    ],
+    "correctIndex": 2,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "Pride and Prejudice has been adapted numerous times, including the 2005 Keira Knightley film and the 1995 BBC series with Jennifer Ehle.",
+    "detailedExplanation": "Jane Austen's 1813 novel Pride and Prejudice has been one of the most frequently adapted literary works. Notable adaptations include the beloved 1995 BBC miniseries starring Jennifer Ehle and Colin Firth, and the 2005 film starring Keira Knightley and Matthew Macfadyen. The story's themes of love, class, and social expectations continue to resonate with modern audiences.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Pride_and_Prejudice_(2005_film)",
+    "citationTitle": "Wikipedia: Pride and Prejudice (2005 film)"
+  },
+  {
+    "id": "32c2e64d-ad53-4adc-b4af-748ca695c541",
+    "text": "The 1975 thriller 'Jaws' was based on a novel by which author?",
+    "options": [
+      "Michael Crichton",
+      "Peter Benchley",
+      "John Grisham",
+      "Tom Clancy"
+    ],
+    "correctIndex": 1,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "Peter Benchley wrote the 1974 novel 'Jaws,' which Steven Spielberg adapted into the blockbuster film.",
+    "detailedExplanation": "Peter Benchley's 1974 novel 'Jaws' became the basis for Steven Spielberg's 1975 film that essentially created the summer blockbuster phenomenon. The movie was a massive commercial success and cultural phenomenon, though it significantly simplified the book's subplot involving an affair between the police chief's wife and the marine biologist character.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Jaws_(film)",
+    "citationTitle": "Wikipedia: Jaws (film)"
+  },
+  {
+    "id": "06c6bc3f-d581-4b39-83b8-2e39df7159ea",
+    "text": "Which dystopian novel by Suzanne Collins was adapted into a successful film series starring Jennifer Lawrence?",
+    "options": [
+      "Divergent",
+      "The Maze Runner",
+      "The Hunger Games",
+      "The Giver"
+    ],
+    "correctIndex": 2,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "The Hunger Games trilogy by Suzanne Collins was adapted into four films starring Jennifer Lawrence as Katniss Everdeen.",
+    "detailedExplanation": "Suzanne Collins' The Hunger Games trilogy, published between 2008 and 2010, was adapted into four films released from 2012 to 2015. Jennifer Lawrence's portrayal of protagonist Katniss Everdeen became iconic, and the films grossed nearly $3 billion worldwide. The adaptation successfully captured the books' themes of rebellion, survival, and political commentary.",
+    "citationUrl": "https://en.wikipedia.org/wiki/The_Hunger_Games_film_series",
+    "citationTitle": "Wikipedia: The Hunger Games film series"
+  },
+  {
+    "id": "b54feb96-e906-47b5-9c34-6d4fccf3b488",
+    "text": "The 1939 classic film 'Gone with the Wind' was based on a novel by which author?",
+    "options": [
+      "Margaret Mitchell",
+      "Harper Lee",
+      "Flannery O'Connor",
+      "Zora Neale Hurston"
+    ],
+    "correctIndex": 0,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "Margaret Mitchell wrote the 1936 Pulitzer Prize-winning novel 'Gone with the Wind.'",
+    "detailedExplanation": "Margaret Mitchell's 1936 novel 'Gone with the Wind' was her only published book during her lifetime, but it became one of the best-selling novels of all time. The 1939 film adaptation, starring Vivien Leigh and Clark Gable, won ten Academy Awards and was the highest-grossing film for over 25 years. Despite its commercial success, both the book and film are now widely criticized for their romanticized portrayal of the antebellum South and slavery.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Gone_with_the_Wind_(film)",
+    "citationTitle": "Wikipedia: Gone with the Wind (film)"
+  },
+  {
+    "id": "ef5d55c4-f02f-4534-9a16-1a6fff96c0f0",
+    "text": "Which Harry Potter book was split into two films for its adaptation?",
+    "options": [
+      "The Goblet of Fire",
+      "The Order of the Phoenix",
+      "The Half-Blood Prince",
+      "The Deathly Hallows"
+    ],
+    "correctIndex": 3,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "Harry Potter and the Deathly Hallows was split into Part 1 (2010) and Part 2 (2011).",
+    "detailedExplanation": "The final book in J.K. Rowling's Harry Potter series, 'The Deathly Hallows,' was adapted into two separate films due to its length and complexity. Harry Potter and the Deathly Hallows – Part 1 was released in November 2010, and Part 2 followed in July 2011. This decision allowed the filmmakers to include more detail from the source material and provide a more satisfying conclusion to the eight-film series.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Harry_Potter_and_the_Deathly_Hallows_%E2%80%93_Part_1",
+    "citationTitle": "Wikipedia: Harry Potter and the Deathly Hallows – Part 1"
+  },
+  {
+    "id": "b597cf0d-0ace-4015-83f5-086ca78c0d51",
+    "text": "The 1962 film 'To Kill a Mockingbird' starring Gregory Peck was based on a novel by which author?",
+    "options": [
+      "Harper Lee",
+      "Truman Capote",
+      "William Faulkner",
+      "Tennessee Williams"
+    ],
+    "correctIndex": 0,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "Harper Lee wrote the 1960 Pulitzer Prize-winning novel 'To Kill a Mockingbird.'",
+    "detailedExplanation": "Harper Lee's 1960 novel 'To Kill a Mockingbird' was adapted into the acclaimed 1962 film directed by Robert Mulligan. Gregory Peck's portrayal of lawyer Atticus Finch earned him the Academy Award for Best Actor. The film, like the book, deals with themes of racial injustice and moral growth in the American South during the 1930s, and both the novel and film remain influential works in American culture.",
+    "citationUrl": "https://en.wikipedia.org/wiki/To_Kill_a_Mockingbird_(film)",
+    "citationTitle": "Wikipedia: To Kill a Mockingbird (film)"
+  },
+  {
+    "id": "9d9cc96b-93aa-4167-b994-2baf113abe1b",
+    "text": "Which author wrote the novel that was adapted into the 1982 sci-fi film 'Blade Runner'?",
+    "options": [
+      "Philip K. Dick",
+      "Isaac Asimov",
+      "Ray Bradbury",
+      "Arthur C. Clarke"
+    ],
+    "correctIndex": 0,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "Philip K. Dick wrote 'Do Androids Dream of Electric Sheep?' which was adapted into Blade Runner.",
+    "detailedExplanation": "Philip K. Dick's 1968 novel 'Do Androids Dream of Electric Sheep?' served as the source material for Ridley Scott's 1982 film 'Blade Runner.' While the film took significant creative liberties and departed from many elements of the book, it retained the core themes of artificial intelligence, what it means to be human, and the bleak dystopian setting.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Blade_Runner",
+    "citationTitle": "Wikipedia: Blade Runner"
+  },
+  {
+    "id": "35756bb8-5eb7-4fc8-865f-11c6853118d2",
+    "text": "The 2012 film 'Life of Pi' starring Suraj Sharma was based on a novel by which author?",
+    "options": [
+      "Salman Rushdie",
+      "Yann Martel",
+      "Arundhati Roy",
+      "Vikram Seth"
+    ],
+    "correctIndex": 1,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "Yann Martel wrote the Booker Prize-winning novel 'Life of Pi' in 2001.",
+    "detailedExplanation": "Canadian author Yann Martel published 'Life of Pi' in 2001, and it won the Man Booker Prize for Fiction in 2002. The novel tells the story of Pi Patel, a young Indian boy stranded on a lifeboat with a Bengal tiger after a shipwreck. Ang Lee's film adaptation in 2012 was praised for its visual effects and won four Academy Awards, including Best Director.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Life_of_Pi_(film)",
+    "citationTitle": "Wikipedia: Life of Pi (film)"
+  },
+  {
+    "id": "c9fcc9d1-365d-4947-a30f-d9b2ecdf5aed",
+    "text": "Which Roald Dahl children's book was adapted into a 2005 film starring Johnny Depp?",
+    "options": [
+      "Matilda",
+      "The BFG",
+      "Charlie and the Chocolate Factory",
+      "The Witches"
+    ],
+    "correctIndex": 2,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "Tim Burton's 2005 adaptation of 'Charlie and the Chocolate Factory' featured Johnny Depp as Willy Wonka.",
+    "detailedExplanation": "'Charlie and the Chocolate Factory' was first published by Roald Dahl in 1964 and has been adapted multiple times for screen. While Gene Wilder's 1971 version 'Willy Wonka & the Chocolate Factory' is perhaps more famous, Tim Burton directed a new adaptation in 2005 starring Johnny Depp as the eccentric chocolatier, offering a darker and more visually stylized interpretation of Dahl's beloved story.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Charlie_and_the_Chocolate_Factory_(2005_film)",
+    "citationTitle": "Wikipedia: Charlie and the Chocolate Factory (2005 film)"
+  },
+  {
+    "id": "2581c8a1-1e28-4467-876b-6b9441570ed7",
+    "text": "The 1986 film 'Stand by Me' was based on a novella by Stephen King. What was the original title of this story?",
+    "options": [
+      "The Body",
+      "Different Seasons",
+      "The Long Walk",
+      "Four Past Midnight"
+    ],
+    "correctIndex": 0,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "'The Body' is the Stephen King novella that was adapted into the film 'Stand by Me.'",
+    "detailedExplanation": "Stephen King's novella 'The Body' was published in 1982 as part of his collection 'Different Seasons.' Rob Reiner adapted it into the coming-of-age film 'Stand by Me' in 1986, starring Wil Wheaton, River Phoenix, Corey Feldman, and Jerry O'Connell. The film follows four boys on a journey to find a dead body, exploring themes of friendship, mortality, and the loss of innocence.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Stand_by_Me_(film)",
+    "citationTitle": "Wikipedia: Stand by Me (film)"
+  },
+  {
+    "id": "538bd443-dbd9-4395-b1b9-7d767cb74905",
+    "text": "Which Nicholas Sparks novel was adapted into a 2004 romantic drama starring Ryan Gosling and Rachel McAdams?",
+    "options": [
+      "A Walk to Remember",
+      "Dear John",
+      "The Notebook",
+      "The Last Song"
+    ],
+    "correctIndex": 2,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "'The Notebook' by Nicholas Sparks became a popular 2004 film starring Ryan Gosling and Rachel McAdams.",
+    "detailedExplanation": "Nicholas Sparks published 'The Notebook' in 1996 as his debut novel. The book was adapted into a film in 2004, directed by Nick Cassavetes and starring Ryan Gosling and Rachel McAdams as young lovers Noah and Allie, with James Garner and Gena Rowlands playing their older selves. Despite mixed critical reviews, the film became a box office success and is considered a modern romantic classic.",
+    "citationUrl": "https://en.wikipedia.org/wiki/The_Notebook_(film)",
+    "citationTitle": "Wikipedia: The Notebook (film)"
+  },
+  {
+    "id": "644ef627-87b8-4cc2-b6fd-398d72152f02",
+    "text": "The 2018 film 'Crazy Rich Asians' was based on the first book in a trilogy by which author?",
+    "options": [
+      "Amy Tan",
+      "Kevin Kwan",
+      "Lisa See",
+      "Celeste Ng"
+    ],
+    "correctIndex": 1,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "Kevin Kwan wrote the 'Crazy Rich Asians' trilogy, with the first book published in 2013.",
+    "detailedExplanation": "Kevin Kwan, a Singaporean-American author, published 'Crazy Rich Asians' in 2013 as the first book in his trilogy about wealthy Asian families. The novel became a bestseller and was adapted into a groundbreaking 2018 film directed by Jon M. Chu, notable for being the first major Hollywood studio film to feature a predominantly Asian cast in a contemporary setting since 'The Joy Luck Club' in 1993.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Crazy_Rich_Asians_(film)",
+    "citationTitle": "Wikipedia: Crazy Rich Asians (film)"
+  },
+  {
+    "id": "fe02a3b6-1144-4a03-99a0-25fcdba12c7f",
+    "text": "Which classic novel by F. Scott Fitzgerald has been adapted into multiple films, including a 2013 version directed by Baz Luhrmann?",
+    "options": [
+      "This Side of Paradise",
+      "The Beautiful and Damned",
+      "The Great Gatsby",
+      "Tender Is the Night"
+    ],
+    "correctIndex": 2,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "'The Great Gatsby' has been adapted multiple times, including Baz Luhrmann's 2013 version starring Leonardo DiCaprio.",
+    "detailedExplanation": "F. Scott Fitzgerald's 1925 novel 'The Great Gatsby' is considered one of the greatest American novels and has been adapted for film several times. Notable versions include the 1974 film starring Robert Redford and the 2013 adaptation by Baz Luhrmann featuring Leonardo DiCaprio as Jay Gatsby. Luhrmann's version was known for its lavish visual style, modern soundtrack, and contemporary sensibility applied to the Jazz Age story.",
+    "citationUrl": "https://en.wikipedia.org/wiki/The_Great_Gatsby_(2013_film)",
+    "citationTitle": "Wikipedia: The Great Gatsby (2013 film)"
+  },
+  {
+    "id": "ed92cc9b-0e22-41a4-89fa-9d6547d7411a",
+    "text": "The 2007 film 'No Country for Old Men' was based on a novel by which acclaimed American author?",
+    "options": [
+      "Don DeLillo",
+      "Cormac McCarthy",
+      "Thomas Pynchon",
+      "Philip Roth"
+    ],
+    "correctIndex": 1,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "Cormac McCarthy wrote the novel 'No Country for Old Men,' which the Coen Brothers adapted into their Oscar-winning 2007 film.",
+    "detailedExplanation": "Cormac McCarthy published 'No Country for Old Men' in 2005, and it was quickly adapted into a film by Joel and Ethan Coen in 2007. The movie, starring Josh Brolin, Tommy Lee Jones, and Javier Bardem, won four Academy Awards including Best Picture, Best Director, and Best Supporting Actor for Bardem's chilling performance as the villainous Anton Chigurh. The Coen Brothers stayed remarkably faithful to McCarthy's sparse, violent prose style.",
+    "citationUrl": "https://en.wikipedia.org/wiki/No_Country_for_Old_Men_(film)",
+    "citationTitle": "Wikipedia: No Country for Old Men (film)"
+  },
+  {
+    "id": "4c22911e-89a5-445e-abac-63209bc9fed8",
+    "text": "Which James Bond novel by Ian Fleming was the first to be adapted into a film, launching the successful spy franchise in 1962?",
+    "options": [
+      "Casino Royale",
+      "From Russia with Love",
+      "Dr. No",
+      "Goldfinger"
+    ],
+    "correctIndex": 2,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "Dr. No was the first James Bond novel adapted for film in 1962, starring Sean Connery.",
+    "detailedExplanation": "Dr. No, published by Ian Fleming in 1958, became the first James Bond novel to be adapted for the cinema when it was released as a film in 1962. Starring Sean Connery as the iconic secret agent, the movie was produced by Albert R. Broccoli and Harry Saltzman and launched what would become one of the most successful film franchises in cinema history. While Casino Royale was Fleming's first Bond novel, it wasn't adapted into an official EON Productions film until 2006 with Daniel Craig.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Dr._No_(film)",
+    "citationTitle": "Wikipedia: Dr. No (film)"
+  },
+  {
+    "id": "e7f71b94-c338-42b2-90b5-240ce5065772",
+    "text": "The 1996 film 'Matilda' directed by Danny DeVito was based on a children's book by which beloved British author?",
+    "options": [
+      "Enid Blyton",
+      "Roald Dahl",
+      "Julia Donaldson",
+      "Michael Bond"
+    ],
+    "correctIndex": 1,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "Matilda was written by Roald Dahl and published in 1988 before being adapted into the 1996 film.",
+    "detailedExplanation": "Roald Dahl's 'Matilda' was published in 1988 and tells the story of a young girl with extraordinary intellectual abilities and telekinetic powers who overcomes neglectful parents and a tyrannical headmistress. The novel was adapted into a successful film in 1996, directed by and starring Danny DeVito, with Mara Wilson playing the titular character. The story has since been adapted into a successful West End and Broadway musical, demonstrating the enduring appeal of Dahl's creation.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Matilda_(1996_film)",
+    "citationTitle": "Wikipedia: Matilda (1996 film)"
+  },
+  {
+    "id": "a51fb39b-be68-491c-8104-209b89dde821",
+    "text": "Which classic adventure novel by Daniel Defoe was adapted into multiple films, including a 1997 version starring Pierce Brosnan?",
+    "options": [
+      "Treasure Island",
+      "Robinson Crusoe",
+      "Gulliver's Travels",
+      "The Swiss Family Robinson"
+    ],
+    "correctIndex": 1,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "Robinson Crusoe, first published in 1719, has been adapted many times including the 1997 film starring Pierce Brosnan.",
+    "detailedExplanation": "Daniel Defoe's 'Robinson Crusoe', published in 1719, is considered one of the first English novels and tells the story of a castaway who survives on a remote tropical island. The classic tale has been adapted into numerous films over the decades, including a 1997 version titled 'Robinson Crusoe' starring Pierce Brosnan in the title role. The story's themes of survival, isolation, and human resourcefulness have made it a popular source for film adaptations, with versions ranging from faithful adaptations to loose reinterpretations.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Robinson_Crusoe_(1997_film)",
+    "citationTitle": "Wikipedia: Robinson Crusoe (1997 film)"
+  },
+  {
+    "id": "4e678097-4092-47ee-8558-076c86d5ac17",
+    "text": "The 1990 romantic drama 'Ghost' starring Patrick Swayze was NOT based on a book, but which 1990 film starring Kathy Bates WAS based on a Stephen King novel?",
+    "options": [
+      "Flatliners",
+      "Misery",
+      "Pretty Woman",
+      "Home Alone"
+    ],
+    "correctIndex": 1,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "Misery, starring Kathy Bates and James Caan, was based on Stephen King's 1987 novel of the same name.",
+    "detailedExplanation": "While 'Ghost' was an original screenplay, 'Misery' released the same year was a successful adaptation of Stephen King's 1987 psychological horror novel. The film starred James Caan as novelist Paul Sheldon and Kathy Bates as his obsessed fan Annie Wilkes, who holds him captive. Bates won the Academy Award for Best Actress for her chilling portrayal of the unhinged fan. The film was directed by Rob Reiner and became one of the most successful Stephen King adaptations, praised for its faithful translation of the novel's claustrophobic tension to the screen.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Misery_(film)",
+    "citationTitle": "Wikipedia: Misery (film)"
+  }
+]

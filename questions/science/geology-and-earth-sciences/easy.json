@@ -321,5 +321,22 @@
     "detailedExplanation": "The Earth's crust is the outermost solid layer of our planet, ranging from about 5-10 kilometers thick under the oceans to 30-70 kilometers thick under continents. It's composed mainly of rocks and soil and is where all life exists. Beneath the crust lies the mantle (mostly solid rock), followed by the outer core (liquid iron and nickel), and finally the inner core (solid iron and nickel) at the center.",
     "citationUrl": "https://en.wikipedia.org/wiki/Earth%27s_crust",
     "citationTitle": "Wikipedia: Earth's crust"
+  },
+  {
+    "id": "d8731023-da80-4f0d-8b3b-6f8a21db0ff6",
+    "text": "What is the most abundant mineral in the Earth's crust?",
+    "options": [
+      "Quartz",
+      "Feldspar",
+      "Calcite",
+      "Mica"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Feldspar makes up about 60% of the Earth's crust, making it the most abundant mineral group.",
+    "detailedExplanation": "Feldspar is a group of rock-forming minerals that constitute approximately 60% of the Earth's continental crust by weight. This mineral group includes orthoclase, plagioclase, and microcline varieties. Feldspar is a key component in many igneous rocks like granite and is also found in metamorphic and sedimentary rocks. While quartz is very common and makes up about 12% of the crust, it ranks second to feldspar in abundance.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Feldspar",
+    "citationTitle": "Wikipedia: Feldspar"
   }
 ]

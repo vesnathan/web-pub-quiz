@@ -23,35 +23,20 @@ export const MAX_ANSWER_TIMEOUT_MS = 10000; // Maximum time for long options
 export const ANSWER_TIMEOUT_MS = 4000;
 export const QUESTION_DISPLAY_MS = 5000;
 
+// Fixed question duration - 10 seconds for all questions
+export const QUESTION_DURATION_MS = 10000;
+
 /**
  * Calculate time needed to read question text and options
- * @param questionText - The question text
- * @param options - Array of answer options
- * @returns Time in milliseconds to display question before buzzer opens
+ * @param questionText - The question text (unused - fixed duration)
+ * @param options - Array of answer options (unused - fixed duration)
+ * @returns Time in milliseconds - always 10 seconds
  */
 export function calculateQuestionDisplayTime(
-  questionText: string,
-  options: string[]
+  _questionText: string,
+  _options: string[]
 ): number {
-  // Count words in question
-  const questionWords = questionText.trim().split(/\s+/).length;
-
-  // Count words in all options
-  let optionWords = 0;
-  for (const option of options) {
-    optionWords += option.trim().split(/\s+/).length;
-  }
-
-  const totalWords = questionWords + optionWords;
-  const readingTimeMs = (totalWords / WORDS_PER_SECOND) * 1000;
-
-  // Add 1 second buffer for processing
-  const totalTime = readingTimeMs + 1000;
-
-  // Clamp between min and max
-  if (totalTime < MIN_QUESTION_DISPLAY_MS) return MIN_QUESTION_DISPLAY_MS;
-  if (totalTime > MAX_QUESTION_DISPLAY_MS) return MAX_QUESTION_DISPLAY_MS;
-  return Math.round(totalTime);
+  return QUESTION_DURATION_MS;
 }
 
 /**

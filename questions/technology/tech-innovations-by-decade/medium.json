@@ -1,0 +1,342 @@
+[
+  {
+    "id": "1ec4efab-dc36-4b63-b160-5a85fb745b66",
+    "text": "Which revolutionary personal computer, launched in 1977, became one of the first highly successful mass-produced microcomputers?",
+    "options": [
+      "Commodore PET",
+      "Apple II",
+      "TRS-80",
+      "Altair 8800"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "The Apple II was launched in 1977 and became one of the first highly successful mass-produced personal computers.",
+    "detailedExplanation": "The Apple II, introduced by Apple Computer in June 1977, was a major breakthrough in personal computing. Unlike earlier computers that required assembly, it came pre-assembled and featured color graphics, sound capabilities, and a sleek plastic case. It became wildly popular and helped establish the personal computer market, remaining in production until 1993 and selling millions of units worldwide.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Apple_II",
+    "citationTitle": "Wikipedia: Apple II"
+  },
+  {
+    "id": "45240b54-24c1-4f66-9c9f-7b36c6dfbd31",
+    "text": "What groundbreaking consumer electronics device was first introduced by Sony in Japan in 1979?",
+    "options": [
+      "Compact Disc Player",
+      "Walkman",
+      "Betamax",
+      "Trinitron TV"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Sony introduced the Walkman in 1979, revolutionizing portable music listening.",
+    "detailedExplanation": "The Sony Walkman was first released in Japan on July 1, 1979, as the TPS-L2. This portable cassette player with lightweight headphones transformed how people consumed music, allowing them to listen privately while mobile. The device became a cultural phenomenon and spawned an entire industry of portable audio devices, fundamentally changing music listening habits worldwide.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Walkman",
+    "citationTitle": "Wikipedia: Walkman"
+  },
+  {
+    "id": "0acf7230-9319-4566-a02d-05296b3b0a60",
+    "text": "Which decade saw the introduction of the first commercially successful mobile phone network technology?",
+    "options": [
+      "1960s",
+      "1970s",
+      "1980s",
+      "1990s"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "The 1980s marked the launch of the first commercial cellular networks, starting with 1G technology.",
+    "detailedExplanation": "The 1980s witnessed the birth of commercial cellular telephone networks. The first 1G (first generation) networks were deployed, with Japan's NTT launching the first commercial cellular network in 1979, followed by the Nordic Mobile Telephone system in 1981, and AT&T's Advanced Mobile Phone System (AMPS) in the United States in 1983. These analog networks made mobile phones commercially viable for the first time.",
+    "citationUrl": "https://en.wikipedia.org/wiki/1G",
+    "citationTitle": "Wikipedia: 1G"
+  },
+  {
+    "id": "fe32730f-30b7-4584-b9ec-338790709d46",
+    "text": "What revolutionary storage technology was first introduced to consumers in the 1990s, eventually replacing floppy disks?",
+    "options": [
+      "DVD",
+      "CD-ROM",
+      "USB Flash Drive",
+      "Zip Disk"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "CD-ROM technology became widely available to consumers in the 1990s, offering much greater storage capacity than floppy disks.",
+    "detailedExplanation": "CD-ROM (Compact Disc Read-Only Memory) technology became mainstream in personal computing during the 1990s. While the technology existed earlier, it was in this decade that CD-ROM drives became standard in personal computers and the media became affordable for consumers. CDs could store about 650 MB of data compared to 1.44 MB on a floppy disk, making them ideal for software distribution, multimedia applications, and data storage.",
+    "citationUrl": "https://en.wikipedia.org/wiki/CD-ROM",
+    "citationTitle": "Wikipedia: CD-ROM"
+  },
+  {
+    "id": "3dd368cc-b6a5-4501-a35f-0f27e2603336",
+    "text": "Which search engine, founded in 1998, became the dominant force in internet search during the 2000s?",
+    "options": [
+      "Yahoo!",
+      "AltaVista",
+      "Google",
+      "Ask Jeeves"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Google was founded in 1998 and quickly became the world's most popular search engine in the 2000s.",
+    "detailedExplanation": "Google was founded by Larry Page and Sergey Brin in September 1998 while they were PhD students at Stanford University. Their PageRank algorithm revolutionized internet search by ranking pages based on their relevance and authority. Throughout the 2000s, Google rapidly gained market share, overtaking established competitors like Yahoo! and AltaVista to become the world's most-used search engine, fundamentally changing how people access information online.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Google",
+    "citationTitle": "Wikipedia: Google"
+  },
+  {
+    "id": "4dff5ca9-6d2e-4f39-8090-efed8bc60557",
+    "text": "What revolutionary consumer device launched by Apple in 2007 transformed the mobile phone industry?",
+    "options": [
+      "iPad",
+      "iPod Touch",
+      "iPhone",
+      "Apple TV"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "The iPhone, launched in 2007, revolutionized smartphones with its touchscreen interface and apps ecosystem.",
+    "detailedExplanation": "The original iPhone was announced by Steve Jobs on January 9, 2007, and released on June 29, 2007. It combined a mobile phone, iPod, and internet communicator into a single device with a revolutionary multi-touch interface. The iPhone eliminated physical keyboards and styluses that were common on smartphones at the time, instead relying on finger gestures on a large touchscreen. This design philosophy became the template for virtually all subsequent smartphones.",
+    "citationUrl": "https://en.wikipedia.org/wiki/IPhone_(1st_generation)",
+    "citationTitle": "Wikipedia: iPhone (1st generation)"
+  },
+  {
+    "id": "31c0e9f9-51df-4ef7-b36a-db7102d84680",
+    "text": "Which social media platform, launched in the 2010s, popularized short-form vertical video content?",
+    "options": [
+      "Instagram",
+      "Snapchat",
+      "TikTok",
+      "Vine"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "TikTok, launched internationally in 2018, popularized short-form vertical video content and algorithm-driven feeds.",
+    "detailedExplanation": "TikTok became globally available in 2018 after ByteDance merged it with Musical.ly. The platform revolutionized social media by focusing exclusively on short-form vertical videos (initially 15-60 seconds) and using sophisticated AI algorithms to create highly personalized content feeds. TikTok's format and recommendation system influenced numerous other platforms to adopt similar features, fundamentally changing how social media content is created and consumed worldwide.",
+    "citationUrl": "https://en.wikipedia.org/wiki/TikTok",
+    "citationTitle": "Wikipedia: TikTok"
+  },
+  {
+    "id": "43610818-2f7d-44b0-b558-5d6b3f10f369",
+    "text": "What emerging technology became widely accessible to consumers in the 2010s, enabling immersive digital experiences?",
+    "options": [
+      "Augmented Reality",
+      "3D Printing",
+      "Virtual Reality",
+      "Blockchain"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Virtual Reality became consumer-accessible in the 2010s with devices like the Oculus Rift and PlayStation VR.",
+    "detailedExplanation": "The 2010s marked the breakthrough of consumer Virtual Reality technology. While VR had existed for decades, it was prohibitively expensive and technically limited. The decade saw the release of affordable, high-quality VR headsets like the Oculus Rift (2016), HTC Vive (2016), and PlayStation VR (2016). These devices offered immersive experiences previously only available in research labs or expensive commercial installations, making VR accessible to mainstream consumers for gaming, education, and entertainment.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Virtual_reality",
+    "citationTitle": "Wikipedia: Virtual reality"
+  },
+  {
+    "id": "ee209c4b-fab9-4e0d-be58-a30074984af0",
+    "text": "Which decade saw the invention of the World Wide Web by Tim Berners-Lee?",
+    "options": [
+      "1970s",
+      "1980s",
+      "1990s",
+      "2000s"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Tim Berners-Lee invented the World Wide Web in 1989-1991 while working at CERN.",
+    "detailedExplanation": "The World Wide Web was invented by Tim Berners-Lee between 1989 and 1991 while he was working at CERN in Switzerland. He created the first web browser, web server, and website, fundamentally changing how information is shared globally. The first website went live in 1991, marking the beginning of the modern internet age that would transform communication, commerce, and society throughout the 1990s and beyond.",
+    "citationUrl": "https://en.wikipedia.org/wiki/World_Wide_Web",
+    "citationTitle": "Wikipedia: World Wide Web"
+  },
+  {
+    "id": "fbe1bd2b-9030-4342-b72e-2e42770b1a0c",
+    "text": "What revolutionary manufacturing technology was first developed in the 1980s and became commercially available for consumers in the 2000s?",
+    "options": [
+      "Laser cutting",
+      "3D printing",
+      "CNC machining",
+      "Injection molding"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "3D printing was invented in the 1980s by Chuck Hull, with consumer models becoming available in the 2000s.",
+    "detailedExplanation": "3D printing, also known as additive manufacturing, was invented by Chuck Hull in 1983 when he developed stereolithography. The first commercial 3D printers were expensive industrial machines, but the technology gradually became more affordable. Consumer-oriented 3D printers began appearing in the 2000s, with companies like RepRap and later MakerBot making the technology accessible to hobbyists and small businesses, revolutionizing prototyping and small-scale manufacturing.",
+    "citationUrl": "https://en.wikipedia.org/wiki/3D_printing",
+    "citationTitle": "Wikipedia: 3D printing"
+  },
+  {
+    "id": "da778370-aceb-4a5e-8305-34bc38b65bf5",
+    "text": "Which 1970s innovation by Intel laid the foundation for the personal computer revolution?",
+    "options": [
+      "The first RAM chip",
+      "The microprocessor",
+      "The graphics card",
+      "The sound card"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Intel's 4004 microprocessor, released in 1971, was the first commercially available microprocessor chip.",
+    "detailedExplanation": "The Intel 4004, released in November 1971, was the first commercially available microprocessor. This 4-bit CPU was originally designed for calculators but represented a revolutionary breakthrough by putting the central processing unit of a computer onto a single chip. This innovation made it possible to create much smaller, more affordable computers, directly leading to the development of personal computers in the following decade and fundamentally changing the computing landscape.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Intel_4004",
+    "citationTitle": "Wikipedia: Intel 4004"
+  },
+  {
+    "id": "f75aeab1-a728-43e2-980a-11378b7df078",
+    "text": "What gaming innovation was first introduced by Nintendo in the 1980s that became standard for video game controllers?",
+    "options": [
+      "Analog joysticks",
+      "The directional pad (D-pad)",
+      "Wireless connectivity",
+      "Motion sensing"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Nintendo introduced the directional pad (D-pad) with the Game & Watch series and later the NES controller.",
+    "detailedExplanation": "Nintendo introduced the directional pad, commonly known as the D-pad, in the early 1980s with their Game & Watch handheld games and later popularized it with the Nintendo Entertainment System (NES) controller. This cross-shaped directional control replaced the joysticks that were common on earlier gaming systems and provided more precise digital control for 8-bit games. The D-pad became so influential that it remains a standard feature on virtually every gaming controller today.",
+    "citationUrl": "https://en.wikipedia.org/wiki/D-pad",
+    "citationTitle": "Wikipedia: D-pad"
+  },
+  {
+    "id": "5c265388-c5bf-41b7-8d76-08572145893b",
+    "text": "Which streaming technology became mainstream in the 2000s, allowing users to watch video content without downloading entire files?",
+    "options": [
+      "BitTorrent",
+      "Flash Video",
+      "DVD playback",
+      "Satellite TV"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Adobe Flash Video became the dominant streaming format in the 2000s, powering sites like YouTube.",
+    "detailedExplanation": "Adobe Flash Video (FLV) became the dominant streaming video format in the 2000s, enabling the rise of video sharing platforms like YouTube, which launched in 2005. This technology allowed users to watch video content in their web browsers without needing to download entire files first. Flash Video made online video streaming accessible to mainstream audiences and laid the groundwork for the streaming revolution that would later include Netflix, Hulu, and other major platforms.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Flash_Video",
+    "citationTitle": "Wikipedia: Flash Video"
+  },
+  {
+    "id": "83f6f59c-73b0-4be8-a7a3-bdd3f394c12f",
+    "text": "What digital payment innovation was first introduced in the late 1990s and revolutionized online commerce?",
+    "options": [
+      "Bitcoin",
+      "Apple Pay",
+      "PayPal",
+      "Venmo"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "PayPal was founded in 1998 and became the first widely successful digital payment system for online transactions.",
+    "detailedExplanation": "PayPal was founded in December 1998 by Max Levchin, Peter Thiel, and Luke Nosek, initially as a company called Confinity. It merged with Elon Musk's X.com in 2000 and became PayPal. The service revolutionized online commerce by providing a secure way for people to send and receive money over the internet without sharing credit card information with merchants. PayPal became essential to the growth of eBay and online shopping in general, establishing the foundation for modern digital payment systems.",
+    "citationUrl": "https://en.wikipedia.org/wiki/PayPal",
+    "citationTitle": "Wikipedia: PayPal"
+  },
+  {
+    "id": "709b403f-5c91-4e2b-8aad-54a7510b55f9",
+    "text": "Which voice-controlled technology became commercially successful in the 2010s, starting the smart speaker revolution?",
+    "options": [
+      "Google Assistant",
+      "Siri",
+      "Amazon Alexa",
+      "Microsoft Cortana"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Amazon Alexa, launched with the Echo speaker in 2014, pioneered the smart speaker market.",
+    "detailedExplanation": "Amazon Alexa was launched in November 2014 alongside the Amazon Echo smart speaker, creating an entirely new product category. While voice recognition technology had existed for decades, Alexa was the first voice assistant specifically designed for the home environment that achieved mainstream commercial success. The Echo's always-listening capability, combined with Alexa's expanding skills and smart home integration, sparked the smart speaker revolution and inspired competitors like Google Home and Apple HomePod.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Amazon_Alexa",
+    "citationTitle": "Wikipedia: Amazon Alexa"
+  },
+  {
+    "id": "c5c6f6e3-323c-4cc5-9065-bb2479e9b9da",
+    "text": "What 1960s innovation by IBM revolutionized data storage and remained the primary storage technology for decades?",
+    "options": [
+      "Magnetic tape",
+      "The hard disk drive",
+      "Punch cards",
+      "Optical discs"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "IBM introduced the first hard disk drive, the IBM 305 RAMAC, in 1956, but it was refined throughout the 1960s.",
+    "detailedExplanation": "The hard disk drive was first introduced by IBM with the IBM 305 RAMAC system in 1956, but the technology was significantly refined and improved throughout the 1960s. These early systems used magnetic storage on rotating disks to provide much faster data access than magnetic tape. The concept proved so successful that hard disk drives became the primary storage technology for computers for over 50 years, only recently being challenged by solid-state drives (SSDs) in consumer applications.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Hard_disk_drive",
+    "citationTitle": "Wikipedia: Hard disk drive"
+  },
+  {
+    "id": "359ca853-d291-4f9f-a9ca-591dbc91db00",
+    "text": "Which programming language, developed in the 1970s at Bell Labs, became fundamental to operating system development and influenced countless other languages?",
+    "options": [
+      "FORTRAN",
+      "C",
+      "BASIC",
+      "Pascal"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "C was developed by Dennis Ritchie at Bell Labs between 1969 and 1973.",
+    "detailedExplanation": "The C programming language was created by Dennis Ritchie at Bell Labs and first appeared in 1972. It became incredibly influential in software development, particularly for system programming and operating systems. Unix was rewritten in C, making it portable across different hardware platforms. C's influence extends to many modern languages including C++, Java, and JavaScript, and it remains widely used today for system programming, embedded systems, and performance-critical applications.",
+    "citationUrl": "https://en.wikipedia.org/wiki/C_(programming_language)",
+    "citationTitle": "Wikipedia: C (programming language)"
+  },
+  {
+    "id": "72db04a4-38ca-48d8-a42c-a651e71695cc",
+    "text": "What home entertainment technology was first commercially released in Japan in 1982 and revolutionized how people consumed audio content?",
+    "options": [
+      "Digital Audio Tape (DAT)",
+      "Compact Disc (CD)",
+      "MiniDisc",
+      "Cassette Tape"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "The Compact Disc was first released commercially by Sony and Philips in Japan in October 1982.",
+    "detailedExplanation": "The Compact Disc (CD) was jointly developed by Sony and Philips and launched commercially in Japan on October 1, 1982. The first CD player was the Sony CDP-101, and the technology represented a major leap forward in audio quality and durability compared to vinyl records and cassette tapes. CDs used digital encoding and laser reading technology to provide superior sound quality without the degradation that occurred with analog formats. The format quickly spread globally and dominated the music industry for decades.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Compact_disc",
+    "citationTitle": "Wikipedia: Compact disc"
+  },
+  {
+    "id": "8efa09d0-75b7-4fcc-b601-b0f971ee127a",
+    "text": "Which computer networking technology, standardized in the 1980s, became the dominant method for local area network (LAN) connections?",
+    "options": [
+      "Token Ring",
+      "ARCNET",
+      "Ethernet",
+      "FDDI"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Ethernet was standardized as IEEE 802.3 in 1983 and became the most widely adopted LAN technology.",
+    "detailedExplanation": "Ethernet was originally developed by Bob Metcalfe at Xerox PARC in the 1970s, but it was standardized as IEEE 802.3 in 1983. This networking technology became the foundation for most local area networks (LANs) and eventually evolved to support faster speeds and different physical media. Ethernet's success was due to its simplicity, scalability, and the collaborative approach taken by its developers, who made it an open standard rather than proprietary technology. It remains the dominant wired networking technology today.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Ethernet",
+    "citationTitle": "Wikipedia: Ethernet"
+  },
+  {
+    "id": "ad5af92b-1f63-41ed-80e4-9e6ed62c2cd2",
+    "text": "What innovative computer interface technology was first demonstrated commercially by Apple in 1983, making computers more accessible to non-technical users?",
+    "options": [
+      "Touch screen",
+      "Voice recognition",
+      "Graphical User Interface (GUI)",
+      "Light pen"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Apple Lisa, released in 1983, was the first commercial computer to feature a GUI with windows, icons, and mouse control.",
+    "detailedExplanation": "The Apple Lisa, released in January 1983, was the first commercial personal computer to feature a graphical user interface (GUI) with overlapping windows, icons, and mouse-driven navigation. While GUI concepts were developed earlier at Xerox PARC, Apple was the first to bring this technology to the consumer market. The Lisa's interface innovations were later refined and popularized with the Apple Macintosh in 1984. This technology revolutionized personal computing by making computers much more intuitive and accessible to everyday users who didn't need to learn command-line interfaces.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Apple_Lisa",
+    "citationTitle": "Wikipedia: Apple Lisa"
+  }
+]

@@ -1,0 +1,342 @@
+[
+  {
+    "id": "53f273e6-7804-48de-b26a-accafaf590d7",
+    "text": "Which British author created the famous detective Hercule Poirot?",
+    "options": [
+      "Agatha Christie",
+      "Arthur Conan Doyle",
+      "Dorothy L. Sayers",
+      "P.D. James"
+    ],
+    "correctIndex": 0,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "Agatha Christie created the Belgian detective Hercule Poirot, who appeared in 33 novels and 2 plays.",
+    "detailedExplanation": "Agatha Christie introduced Hercule Poirot in her first novel 'The Mysterious Affair at Styles' in 1920. The fastidious Belgian detective with his distinctive mustache and 'little grey cells' became one of literature's most beloved detectives, appearing in classics like 'Murder on the Orient Express' and 'The Murder of Roger Ackroyd'. Christie is often called the 'Queen of Crime' and remains one of the best-selling novelists of all time.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Agatha_Christie",
+    "citationTitle": "Wikipedia: Agatha Christie"
+  },
+  {
+    "id": "b1001144-7c27-43cf-807c-095b5e3945fc",
+    "text": "Who wrote 'The Girl with the Dragon Tattoo'?",
+    "options": [
+      "Jo Nesbø",
+      "Stieg Larsson",
+      "Henning Mankell",
+      "Camilla Läckberg"
+    ],
+    "correctIndex": 1,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "Stieg Larsson wrote 'The Girl with the Dragon Tattoo', the first book in his Millennium trilogy.",
+    "detailedExplanation": "Swedish journalist and writer Stieg Larsson wrote 'The Girl with the Dragon Tattoo' (originally titled 'Men Who Hate Women' in Swedish) as the first installment of his Millennium series. The book became an international bestseller and spawned both Swedish and American film adaptations. Tragically, Larsson died in 2004 before seeing the massive success of his novels, which were published posthumously and helped popularize Nordic noir fiction worldwide.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Stieg_Larsson",
+    "citationTitle": "Wikipedia: Stieg Larsson"
+  },
+  {
+    "id": "52784570-c4bc-4476-8441-6faea27384ec",
+    "text": "Which American author created the hard-boiled detective Philip Marlowe?",
+    "options": [
+      "Dashiell Hammett",
+      "James M. Cain",
+      "Raymond Chandler",
+      "Mickey Spillane"
+    ],
+    "correctIndex": 2,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "Raymond Chandler created Philip Marlowe, the iconic Los Angeles private detective who appeared in seven novels.",
+    "detailedExplanation": "Raymond Chandler created Philip Marlowe, the quintessential hard-boiled private detective who worked the mean streets of Los Angeles. Marlowe first appeared in 'The Big Sleep' (1939) and became the template for countless fictional detectives that followed. Chandler's noir novels, with their atmospheric descriptions of 1940s LA and Marlowe's cynical yet moral worldview, helped define the hard-boiled detective genre and influenced both literature and film noir.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Raymond_Chandler",
+    "citationTitle": "Wikipedia: Raymond Chandler"
+  },
+  {
+    "id": "41b65efd-dbfe-4b1a-81c4-c3d3bf840988",
+    "text": "What is the first name of mystery writer P.D. James?",
+    "options": [
+      "Patricia",
+      "Penelope",
+      "Phyllis",
+      "Prudence"
+    ],
+    "correctIndex": 2,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "P.D. James's full name was Phyllis Dorothy James, Baroness James of Holland Park.",
+    "detailedExplanation": "Phyllis Dorothy James, known professionally as P.D. James, was one of Britain's most celebrated crime writers. Born in 1920, she created the poet-detective Adam Dalgliesh and wrote acclaimed novels like 'Cover Her Face' and 'The Children of Men'. She worked in the civil service before becoming a full-time writer and was made a life peer in 1991. Her sophisticated psychological mysteries elevated the crime genre and earned her numerous awards including the Mystery Writers of America Grand Master Award.",
+    "citationUrl": "https://en.wikipedia.org/wiki/P._D._James",
+    "citationTitle": "Wikipedia: P. D. James"
+  },
+  {
+    "id": "607e0a08-3c22-472b-bcc2-3f1aea4a1a14",
+    "text": "Which thriller author wrote 'The Hunt for Red October'?",
+    "options": [
+      "John le Carré",
+      "Tom Clancy",
+      "Frederick Forsyth",
+      "Robert Ludlum"
+    ],
+    "correctIndex": 1,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "Tom Clancy wrote 'The Hunt for Red October', his debut novel that launched his career as a techno-thriller author.",
+    "detailedExplanation": "Tom Clancy published 'The Hunt for Red October' in 1984 as his first novel, introducing readers to the character Jack Ryan and establishing Clancy as the master of the techno-thriller genre. The book's detailed military and technological elements, combined with Cold War espionage, created a new subgenre of thriller fiction. The novel was adapted into a successful 1990 film starring Sean Connery and Alec Baldwin, and Clancy went on to write numerous bestsellers featuring military and intelligence themes.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Tom_Clancy",
+    "citationTitle": "Wikipedia: Tom Clancy"
+  },
+  {
+    "id": "fed252cb-ae2c-4b5e-a0d3-ac9db34f3edb",
+    "text": "Who created the fictional detective Miss Jane Marple?",
+    "options": [
+      "Dorothy L. Sayers",
+      "Ngaio Marsh",
+      "Agatha Christie",
+      "Margery Allingham"
+    ],
+    "correctIndex": 2,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "Agatha Christie created Miss Jane Marple, the elderly amateur detective from the village of St. Mary Mead.",
+    "detailedExplanation": "Agatha Christie created Miss Jane Marple, who first appeared in the short story 'The Tuesday Night Club' in 1927 and later in twelve novels beginning with 'The Murder at the Vicarage' (1930). Miss Marple is an elderly spinster who lives in the fictional village of St. Mary Mead and uses her knowledge of human nature and village life to solve crimes. Unlike Christie's other famous creation Hercule Poirot, Miss Marple relies more on intuition and understanding of human psychology rather than methodical detection.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Miss_Marple",
+    "citationTitle": "Wikipedia: Miss Marple"
+  },
+  {
+    "id": "4c7affbd-1835-4455-a1a8-d710337a8e00",
+    "text": "Which author is famous for the Alex Cross series of psychological thrillers?",
+    "options": [
+      "Michael Crichton",
+      "James Patterson",
+      "John Grisham",
+      "Stephen King"
+    ],
+    "correctIndex": 1,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "James Patterson created the Alex Cross series, featuring the forensic psychologist and detective Alex Cross.",
+    "detailedExplanation": "James Patterson created the Alex Cross character, a forensic psychologist and detective who works in Washington, D.C. The series began with 'Along Came a Spider' in 1993 and has continued for over 30 books, making it one of the longest-running thriller series. Patterson is known for his fast-paced writing style and short chapters, and has become one of the world's best-selling authors. Several Alex Cross novels have been adapted into films, including 'Kiss the Girls' and 'Along Came a Spider'.",
+    "citationUrl": "https://en.wikipedia.org/wiki/James_Patterson",
+    "citationTitle": "Wikipedia: James Patterson"
+  },
+  {
+    "id": "af07a884-f5e2-470d-b1f6-e15767a24edf",
+    "text": "What nationality was mystery writer Georges Simenon, creator of Inspector Maigret?",
+    "options": [
+      "French",
+      "Belgian",
+      "Swiss",
+      "Canadian"
+    ],
+    "correctIndex": 1,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "Georges Simenon was Belgian, born in Liège in 1903, though he wrote primarily in French.",
+    "detailedExplanation": "Georges Simenon was a Belgian author born in Liège who became one of the most prolific and widely translated authors of the 20th century. He created Inspector Jules Maigret, the pipe-smoking Parisian police commissioner who appeared in 75 novels and 28 short stories. Simenon wrote primarily in French and lived in various countries throughout his life, including France, the United States, and Switzerland. His atmospheric crime novels, set mostly in Paris, captured the mood and social fabric of mid-20th century France and influenced countless mystery writers.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Georges_Simenon",
+    "citationTitle": "Wikipedia: Georges Simenon"
+  },
+  {
+    "id": "e0ca3027-d382-4a42-8055-2eac26d37a79",
+    "text": "Which mystery author wrote 'The Maltese Falcon' featuring detective Sam Spade?",
+    "options": [
+      "Dashiell Hammett",
+      "Raymond Chandler",
+      "Mickey Spillane",
+      "James M. Cain"
+    ],
+    "correctIndex": 0,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "Dashiell Hammett wrote 'The Maltese Falcon' in 1930, featuring private detective Sam Spade.",
+    "detailedExplanation": "Dashiell Hammett was a pioneering American author of hard-boiled detective fiction who wrote 'The Maltese Falcon' in 1930. The novel introduced the iconic private detective Sam Spade and is considered one of the greatest crime novels ever written. Hammett's gritty, realistic style helped establish the hard-boiled detective genre and influenced countless mystery writers who followed.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Dashiell_Hammett",
+    "citationTitle": "Wikipedia: Dashiell Hammett"
+  },
+  {
+    "id": "3ed2f16a-2c4e-4693-a181-83dab96b31a4",
+    "text": "Who is the author of the 'Sherlock Holmes' stories?",
+    "options": [
+      "Edgar Allan Poe",
+      "Wilkie Collins",
+      "Arthur Conan Doyle",
+      "G.K. Chesterton"
+    ],
+    "correctIndex": 2,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "Arthur Conan Doyle created the legendary detective Sherlock Holmes and his companion Dr. Watson.",
+    "detailedExplanation": "Sir Arthur Conan Doyle was a British author who created the world's most famous fictional detective, Sherlock Holmes, along with his loyal companion Dr. John Watson. The first Holmes story, 'A Study in Scarlet,' was published in 1887. Doyle wrote four novels and 56 short stories featuring Holmes, establishing many of the conventions of the modern detective story and making Holmes an enduring cultural icon.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Arthur_Conan_Doyle",
+    "citationTitle": "Wikipedia: Arthur Conan Doyle"
+  },
+  {
+    "id": "b7f63ab6-2e91-4213-b160-f26b6c35d0ba",
+    "text": "Which thriller author wrote 'The Silence of the Lambs'?",
+    "options": [
+      "Stephen King",
+      "Thomas Harris",
+      "Dean Koontz",
+      "John Grisham"
+    ],
+    "correctIndex": 1,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "Thomas Harris wrote 'The Silence of the Lambs,' featuring FBI agent Clarice Starling and Dr. Hannibal Lecter.",
+    "detailedExplanation": "Thomas Harris is an American author best known for creating the character of Dr. Hannibal Lecter. His novel 'The Silence of the Lambs,' published in 1988, features FBI trainee Clarice Starling seeking help from the imprisoned cannibal psychiatrist to catch another serial killer. The book won the Bram Stoker Award and was adapted into the Academy Award-winning film starring Jodie Foster and Anthony Hopkins.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Thomas_Harris",
+    "citationTitle": "Wikipedia: Thomas Harris"
+  },
+  {
+    "id": "e7478e48-31b7-412b-8eff-2434ef1d652a",
+    "text": "Who wrote the psychological thriller 'Gone Girl'?",
+    "options": [
+      "Tana French",
+      "Gillian Flynn",
+      "Paula Hawkins",
+      "Laura Lippman"
+    ],
+    "correctIndex": 1,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "Gillian Flynn wrote 'Gone Girl,' a psychological thriller about a marriage gone wrong.",
+    "detailedExplanation": "Gillian Flynn is an American author and former journalist who wrote the bestselling psychological thriller 'Gone Girl' in 2012. The novel tells the story of Nick and Amy Dunne, focusing on Nick's perspective when Amy disappears on their fifth wedding anniversary. The book became a cultural phenomenon and was adapted into a successful film directed by David Fincher. Flynn's dark, twisted narratives have made her one of the most prominent voices in contemporary psychological thrillers.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Gillian_Flynn",
+    "citationTitle": "Wikipedia: Gillian Flynn"
+  },
+  {
+    "id": "3a15f9b6-4917-47fa-beb5-cc4844f74dec",
+    "text": "Which British author created the detective Inspector Rebus?",
+    "options": [
+      "Ian Rankin",
+      "John le Carré",
+      "Colin Dexter",
+      "Ruth Rendell"
+    ],
+    "correctIndex": 0,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "Ian Rankin created Inspector John Rebus, a detective based in Edinburgh, Scotland.",
+    "detailedExplanation": "Ian Rankin is a Scottish crime writer who created the popular Inspector John Rebus series. The first Rebus novel, 'Knots and Crosses,' was published in 1987. Set primarily in Edinburgh, the series follows the troubled detective as he investigates crimes while dealing with his own personal demons. Rankin has written over 20 Rebus novels, making it one of the longest-running detective series in contemporary crime fiction.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Ian_Rankin",
+    "citationTitle": "Wikipedia: Ian Rankin"
+  },
+  {
+    "id": "3087b691-bf1b-4a42-ba10-cdf1cdc372ba",
+    "text": "Who wrote 'The Big Sleep,' a classic of detective fiction?",
+    "options": [
+      "James M. Cain",
+      "Raymond Chandler",
+      "Ross Macdonald",
+      "John D. MacDonald"
+    ],
+    "correctIndex": 1,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "Raymond Chandler wrote 'The Big Sleep,' the first novel featuring private detective Philip Marlowe.",
+    "detailedExplanation": "Raymond Chandler was an American-British novelist and screenwriter who wrote 'The Big Sleep' in 1939. This novel introduced his most famous character, private detective Philip Marlowe, and is set in Los Angeles during the 1940s. Chandler's atmospheric writing style and his portrayal of urban corruption and moral ambiguity helped define the hard-boiled detective genre. The book was later adapted into a famous film starring Humphrey Bogart and Lauren Bacall.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Raymond_Chandler",
+    "citationTitle": "Wikipedia: Raymond Chandler"
+  },
+  {
+    "id": "8e555420-29a1-4c05-ab3d-f641f99844e1",
+    "text": "Which mystery author created the 'Father Brown' detective stories?",
+    "options": [
+      "Dorothy L. Sayers",
+      "G.K. Chesterton",
+      "Josephine Tey",
+      "Margery Allingham"
+    ],
+    "correctIndex": 1,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "G.K. Chesterton created Father Brown, a Catholic priest who solves mysteries through intuition and understanding of human nature.",
+    "detailedExplanation": "Gilbert Keith Chesterton was an English writer who created the character of Father Brown, a Catholic priest and amateur detective. The first Father Brown story appeared in 1910, and Chesterton wrote 53 short stories featuring the character over the course of his career. Unlike other fictional detectives who rely on scientific deduction, Father Brown solves crimes through his deep understanding of human psychology and moral insight. The stories are notable for their philosophical depth and Chesterton's exploration of good and evil.",
+    "citationUrl": "https://en.wikipedia.org/wiki/G._K._Chesterton",
+    "citationTitle": "Wikipedia: G. K. Chesterton"
+  },
+  {
+    "id": "35dda91c-b56d-45af-8833-81ee5df4fd45",
+    "text": "Who wrote 'The Talented Mr. Ripley'?",
+    "options": [
+      "Patricia Highsmith",
+      "Ruth Rendell",
+      "Margaret Millar",
+      "Dorothy B. Hughes"
+    ],
+    "correctIndex": 0,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "Patricia Highsmith wrote 'The Talented Mr. Ripley,' featuring the charming but sociopathic Tom Ripley.",
+    "detailedExplanation": "Patricia Highsmith was an American novelist known for her psychological thrillers. She wrote 'The Talented Mr. Ripley' in 1955, introducing the character of Tom Ripley, a charming but amoral young man who becomes obsessed with the wealthy Dickie Greenleaf. The novel was the first in a series of five books featuring Ripley and is considered a masterpiece of psychological crime fiction. Highsmith's exploration of the criminal mind from the inside was groundbreaking and influential in the genre.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Patricia_Highsmith",
+    "citationTitle": "Wikipedia: Patricia Highsmith"
+  },
+  {
+    "id": "43116f77-e4a3-4c76-9ff9-77daeb58fd0b",
+    "text": "Which mystery author created the character Jack Reacher, a former military police officer who drifts across America?",
+    "options": [
+      "Lee Child",
+      "Michael Crichton",
+      "John Grisham",
+      "Dan Brown"
+    ],
+    "correctIndex": 0,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "Lee Child created the Jack Reacher character in 1997.",
+    "detailedExplanation": "Lee Child, born James Dover Grant, is a British author who created the immensely popular Jack Reacher series. The first novel, 'Killing Floor,' was published in 1997 and introduced readers to the 6'5\" former U.S. Army Military Police Major who becomes a drifter and amateur detective. The series has become one of the most successful thriller franchises, with over 25 books published and adaptations for both film and television.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Lee_Child",
+    "citationTitle": "Wikipedia: Lee Child"
+  },
+  {
+    "id": "36ef3a2f-efa9-4b90-bc12-282e5d67fdc7",
+    "text": "Who wrote 'The Da Vinci Code,' which sparked controversy for its theories about Christianity and became a bestselling thriller?",
+    "options": [
+      "Dan Brown",
+      "Stephen King",
+      "Michael Crichton",
+      "John le Carré"
+    ],
+    "correctIndex": 0,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "Dan Brown wrote 'The Da Vinci Code' in 2003.",
+    "detailedExplanation": "Dan Brown is an American author who wrote 'The Da Vinci Code,' published in 2003. The novel follows symbologist Robert Langdon as he investigates a murder in the Louvre Museum and uncovers a conspiracy involving the Catholic Church. Despite being fiction, the book's theories about Jesus Christ and Mary Magdalene generated significant controversy and debate. It became one of the best-selling novels of all time and was adapted into a major Hollywood film starring Tom Hanks.",
+    "citationUrl": "https://en.wikipedia.org/wiki/The_Da_Vinci_Code",
+    "citationTitle": "Wikipedia: The Da Vinci Code"
+  },
+  {
+    "id": "f38b5bbc-7549-4169-aef7-d023d6c6a5fd",
+    "text": "Which author is known as the 'Master of Suspense' and wrote novels like 'Rebecca' and 'The Birds'?",
+    "options": [
+      "Daphne du Maurier",
+      "Patricia Highsmith",
+      "Ruth Rendell",
+      "Dorothy L. Sayers"
+    ],
+    "correctIndex": 0,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "Daphne du Maurier was known as the 'Master of Suspense' and wrote these classic thrillers.",
+    "detailedExplanation": "Dame Daphne du Maurier was a British author renowned for her atmospheric and suspenseful novels. Her 1938 novel 'Rebecca' is considered a masterpiece of Gothic fiction and won the National Book Award. 'The Birds,' published in 1952, was famously adapted by Alfred Hitchcock into one of his most terrifying films. Du Maurier's ability to create psychological tension and her exploration of dark human emotions earned her the reputation as a master of suspense literature.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Daphne_du_Maurier",
+    "citationTitle": "Wikipedia: Daphne du Maurier"
+  },
+  {
+    "id": "b3f7b550-34f4-48d2-92de-8347cf3f5120",
+    "text": "Who wrote 'The Firm,' a legal thriller about a young lawyer who discovers his law firm has dangerous mob connections?",
+    "options": [
+      "John Grisham",
+      "Scott Turow",
+      "Lisa Scottoline",
+      "Steve Martini"
+    ],
+    "correctIndex": 0,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "John Grisham wrote 'The Firm' in 1991, which became his breakthrough novel.",
+    "detailedExplanation": "John Grisham wrote 'The Firm,' published in 1991, which tells the story of Mitch McDeere, a Harvard Law graduate who joins a prestigious Memphis law firm only to discover it launders money for the mob. The novel was Grisham's second book but his first major commercial success, spending 47 weeks on The New York Times bestseller list. It was adapted into a successful 1993 film starring Tom Cruise and helped establish Grisham as the premier author of legal thrillers.",
+    "citationUrl": "https://en.wikipedia.org/wiki/The_Firm_(novel)",
+    "citationTitle": "Wikipedia: The Firm (novel)"
+  }
+]

@@ -62,8 +62,11 @@ export const SEND_CHAT_MESSAGE = /* GraphQL */ `
 `;
 
 export const START_CONVERSATION = /* GraphQL */ `
-  mutation StartConversation($targetUserId: ID!) {
-    startConversation(targetUserId: $targetUserId) {
+  mutation StartConversation($targetUserId: ID!, $targetDisplayName: String!) {
+    startConversation(
+      targetUserId: $targetUserId
+      targetDisplayName: $targetDisplayName
+    ) {
       id
       participantIds
       participants {
@@ -120,5 +123,43 @@ export const CREATE_TIP_CHECKOUT = /* GraphQL */ `
       checkoutUrl
       sessionId
     }
+  }
+`;
+
+export const SEND_INVITE = /* GraphQL */ `
+  mutation SendInvite(
+    $friendName: String!
+    $email: String!
+    $recaptchaToken: String!
+  ) {
+    sendInvite(
+      friendName: $friendName
+      email: $email
+      recaptchaToken: $recaptchaToken
+    )
+  }
+`;
+
+export const RECORD_REFERRAL = /* GraphQL */ `
+  mutation RecordReferral($referrerId: ID!) {
+    recordReferral(referrerId: $referrerId)
+  }
+`;
+
+export const SEND_CONTACT = /* GraphQL */ `
+  mutation SendContact(
+    $name: String!
+    $email: String!
+    $subject: String!
+    $message: String!
+    $recaptchaToken: String!
+  ) {
+    sendContact(
+      name: $name
+      email: $email
+      subject: $subject
+      message: $message
+      recaptchaToken: $recaptchaToken
+    )
   }
 `;

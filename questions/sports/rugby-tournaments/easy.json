@@ -1,0 +1,342 @@
+[
+  {
+    "id": "9d70a32f-5df5-4d16-ac92-6e47ad0410c2",
+    "text": "How often is the Rugby World Cup held?",
+    "options": [
+      "Every 2 years",
+      "Every 4 years",
+      "Every 3 years",
+      "Every 5 years"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "The Rugby World Cup is held every four years.",
+    "detailedExplanation": "The Rugby World Cup, first held in 1987, follows a four-year cycle similar to the FIFA World Cup and Summer Olympics. This scheduling allows enough time for teams to develop and qualify, while maintaining the tournament's prestige as rugby's premier international competition. The next tournament after 2023 in France will be held in Australia in 2027.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Rugby_World_Cup",
+    "citationTitle": "Wikipedia: Rugby World Cup"
+  },
+  {
+    "id": "35615b2c-3215-4a72-a942-079c13a5360d",
+    "text": "Which tournament features the national teams of England, France, Ireland, Italy, Scotland, and Wales?",
+    "options": [
+      "Six Nations Championship",
+      "Rugby Championship",
+      "European Rugby Cup",
+      "Celtic Cup"
+    ],
+    "correctIndex": 0,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "The Six Nations Championship is the annual tournament featuring these six European nations.",
+    "detailedExplanation": "The Six Nations Championship is the premier rugby union tournament in the Northern Hemisphere, held annually between February and March. Originally the Home Nations Championship in 1883 with just four teams, it became the Five Nations in 1910 when France joined, and finally the Six Nations in 2000 when Italy was added. It's one of the oldest international rugby competitions in the world.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Six_Nations_Championship",
+    "citationTitle": "Wikipedia: Six Nations Championship"
+  },
+  {
+    "id": "e7c0ee0e-fed4-43ca-b40a-98e94a31a3ab",
+    "text": "Which country has won the most Rugby World Cup titles?",
+    "options": [
+      "Australia",
+      "New Zealand",
+      "South Africa",
+      "England"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "New Zealand has won the Rugby World Cup three times (1987, 2011, 2015).",
+    "detailedExplanation": "New Zealand's All Blacks have been the most successful team in Rugby World Cup history, winning the tournament three times. They were inaugural champions in 1987 on home soil, then had to wait 24 years before winning again in 2011, also at home. They successfully defended their title in 2015 in England, becoming the first team to win consecutive World Cups.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Rugby_World_Cup",
+    "citationTitle": "Wikipedia: Rugby World Cup"
+  },
+  {
+    "id": "831784aa-3540-4faf-825b-95c79dbb4ba3",
+    "text": "What is the name of the trophy awarded to the winner of matches between England and Scotland in the Six Nations?",
+    "options": [
+      "Millennium Trophy",
+      "Calcutta Cup",
+      "Centenary Quaich",
+      "Triple Crown"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "The Calcutta Cup is contested annually between England and Scotland.",
+    "detailedExplanation": "The Calcutta Cup is one of rugby's oldest trophies, first contested in 1879. It was made from silver rupees contributed by members of the Calcutta Football Club in India when the club was dissolved. The cup is played for annually when England and Scotland meet in the Six Nations Championship, adding extra significance to this historic rivalry that represents the world's oldest international rugby fixture.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Calcutta_Cup",
+    "citationTitle": "Wikipedia: Calcutta Cup"
+  },
+  {
+    "id": "c1dc1af3-31d7-4caf-8bc1-e74d6718f6ee",
+    "text": "Which tournament is known as 'The Rugby Championship' and features teams from the Southern Hemisphere?",
+    "options": [
+      "A tournament with Argentina, Australia, New Zealand, and South Africa",
+      "A tournament with Australia, Fiji, New Zealand, and Tonga",
+      "A tournament with Argentina, Chile, South Africa, and Uruguay",
+      "A tournament with Australia, Japan, New Zealand, and Samoa"
+    ],
+    "correctIndex": 0,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "The Rugby Championship features Argentina, Australia, New Zealand, and South Africa.",
+    "detailedExplanation": "The Rugby Championship, formerly known as the Tri-Nations until Argentina joined in 2012, is the premier international rugby union competition in the Southern Hemisphere. The tournament sees each team play the others twice in a home-and-away format during the mid-year international window. It's considered one of the most competitive rugby tournaments in the world, featuring some of the sport's strongest national teams.",
+    "citationUrl": "https://en.wikipedia.org/wiki/The_Rugby_Championship",
+    "citationTitle": "Wikipedia: The Rugby Championship"
+  },
+  {
+    "id": "b7c0bf81-6165-400d-9649-85f7e61385ce",
+    "text": "In which year was the first Rugby World Cup held?",
+    "options": [
+      "1985",
+      "1987",
+      "1989",
+      "1991"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "The inaugural Rugby World Cup took place in 1987.",
+    "detailedExplanation": "The first Rugby World Cup was held in 1987 in New Zealand and Australia, making rugby union one of the later major sports to establish a world championship. The tournament featured 16 teams and was won by the host nation New Zealand, who defeated France 29-9 in the final at Eden Park in Auckland. The tournament's success led to it becoming rugby's premier competition and a major global sporting event.",
+    "citationUrl": "https://en.wikipedia.org/wiki/1987_Rugby_World_Cup",
+    "citationTitle": "Wikipedia: 1987 Rugby World Cup"
+  },
+  {
+    "id": "ad1f2337-a60e-42b3-ada2-2b4f578d7e53",
+    "text": "What is the name of the European club rugby tournament that replaced the Heineken Cup?",
+    "options": [
+      "European Rugby Champions Cup",
+      "European Rugby Challenge Cup",
+      "European Rugby Championship",
+      "Continental Cup"
+    ],
+    "correctIndex": 0,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "The European Rugby Champions Cup replaced the Heineken Cup in 2014.",
+    "detailedExplanation": "The European Rugby Champions Cup, also known as the Heineken Champions Cup for sponsorship reasons, replaced the previous Heineken Cup format in the 2014-15 season. This change came after disputes over tournament structure and revenue distribution. The new format features 24 teams from the top European leagues competing for European club rugby's most prestigious trophy, with qualification based on domestic league performance.",
+    "citationUrl": "https://en.wikipedia.org/wiki/European_Rugby_Champions_Cup",
+    "citationTitle": "Wikipedia: European Rugby Champions Cup"
+  },
+  {
+    "id": "c5cfe921-7273-4cb2-b788-b2ddee5668e8",
+    "text": "Which tournament features the winners of Super Rugby, Pro14, English Premiership, and French Top 14?",
+    "options": [
+      "World Club Championship",
+      "European Cup",
+      "Champions Cup",
+      "No such tournament exists"
+    ],
+    "correctIndex": 3,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "There is no regular tournament that brings together winners from all these major rugby competitions.",
+    "detailedExplanation": "Unlike some other sports, rugby union does not have a regular global club championship that brings together winners from different continental competitions. While there have been occasional one-off matches and proposals for such tournaments, the logistics, scheduling conflicts with international rugby, and different seasons in Northern and Southern Hemispheres make such a competition challenging to organize on a regular basis.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Rugby_union",
+    "citationTitle": "Wikipedia: Rugby Union"
+  },
+  {
+    "id": "ff699b50-3eec-46c7-8578-0345db3e4381",
+    "text": "Which country hosted the 2019 Rugby World Cup?",
+    "options": [
+      "South Africa",
+      "Japan",
+      "France",
+      "Australia"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "Japan hosted the 2019 Rugby World Cup, becoming the first Asian nation to do so.",
+    "detailedExplanation": "The 2019 Rugby World Cup was held in Japan from September 20 to November 2, 2019. This was the first time an Asian country had hosted the tournament, marking a significant milestone in rugby's global expansion. The tournament was widely praised for its organization and the enthusiastic support from Japanese fans, helping to grow rugby's popularity in Asia.",
+    "citationUrl": "https://en.wikipedia.org/wiki/2019_Rugby_World_Cup",
+    "citationTitle": "Wikipedia: 2019 Rugby World Cup"
+  },
+  {
+    "id": "3436d389-ac46-449e-a081-6603f9399947",
+    "text": "What is the name of the annual rugby tournament between Australia and New Zealand?",
+    "options": [
+      "Trans-Tasman Cup",
+      "Bledisloe Cup",
+      "Pacific Cup",
+      "ANZAC Cup"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "The Bledisloe Cup is the annual rugby union competition between Australia and New Zealand.",
+    "detailedExplanation": "The Bledisloe Cup is contested annually between the national rugby union teams of Australia (Wallabies) and New Zealand (All Blacks). Named after Lord Bledisloe, the Governor-General of New Zealand who donated the trophy in 1931, it is one of rugby's most prestigious bilateral competitions. New Zealand has dominated the series historically and currently holds the cup.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Bledisloe_Cup",
+    "citationTitle": "Wikipedia: Bledisloe Cup"
+  },
+  {
+    "id": "ffe56bbf-5990-4d97-920e-750a47a0ee66",
+    "text": "Which tournament is the premier professional rugby league competition in England?",
+    "options": [
+      "Championship",
+      "Super League",
+      "Challenge Cup",
+      "Northern Premier"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "Super League is the top-level professional rugby league competition in England.",
+    "detailedExplanation": "Super League is the highest level of professional rugby league in Europe, primarily featuring teams from England with some from France. Established in 1996, it replaced the previous first division system and introduced summer rugby to align with better weather conditions. The competition typically runs from February to October and culminates in the Super League Grand Final.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Super_League",
+    "citationTitle": "Wikipedia: Super League"
+  },
+  {
+    "id": "2d8a6a74-18c5-4da9-9340-8c7e2f309827",
+    "text": "What is the maximum number of teams that participate in the Rugby World Cup finals tournament?",
+    "options": [
+      "16",
+      "20",
+      "24",
+      "32"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "The Rugby World Cup features 20 teams in the finals tournament.",
+    "detailedExplanation": "The Rugby World Cup finals tournament has featured 20 teams since the 1999 edition in Wales. These teams are divided into four pools of five teams each, with the top two teams from each pool advancing to the knockout stages. The 20 teams qualify through a combination of automatic qualification (based on previous World Cup performance) and regional qualifying tournaments held worldwide.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Rugby_World_Cup",
+    "citationTitle": "Wikipedia: Rugby World Cup"
+  },
+  {
+    "id": "4449c795-9f1e-40fc-a1c8-c8cfce7149c7",
+    "text": "Which tournament is considered the women's equivalent of the Six Nations Championship?",
+    "options": [
+      "Women's Rugby Championship",
+      "TikTok Women's Six Nations",
+      "European Women's Cup",
+      "Women's International Rugby"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "The TikTok Women's Six Nations is the women's version of the Six Nations Championship.",
+    "detailedExplanation": "The Women's Six Nations Championship, currently known as the TikTok Women's Six Nations for sponsorship reasons, features the same six nations as the men's tournament: England, France, Ireland, Italy, Scotland, and Wales. The tournament has grown significantly in profile and professionalism in recent years, with increased media coverage and sponsorship investment helping to develop women's rugby across Europe.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Women%27s_Six_Nations_Championship",
+    "citationTitle": "Wikipedia: Women's Six Nations Championship"
+  },
+  {
+    "id": "95f14e81-9ea3-45b8-8453-92dc8964f8ca",
+    "text": "Which rugby tournament features teams from South Africa, Australia, New Zealand, and Argentina?",
+    "options": [
+      "Southern Hemisphere Cup",
+      "The Rugby Championship",
+      "Pacific Nations Cup",
+      "Tri Nations"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "The Rugby Championship includes South Africa, Australia, New Zealand, and Argentina.",
+    "detailedExplanation": "The Rugby Championship is the premier international rugby union competition in the Southern Hemisphere. Originally known as the Tri Nations when it featured only South Africa, Australia, and New Zealand from 1996, it expanded to include Argentina in 2012 and was renamed The Rugby Championship. Each team plays the others twice during the tournament, which typically runs from August to October.",
+    "citationUrl": "https://en.wikipedia.org/wiki/The_Rugby_Championship",
+    "citationTitle": "Wikipedia: The Rugby Championship"
+  },
+  {
+    "id": "72f18058-022d-4bbb-8e25-a0c0adc27326",
+    "text": "What is the name of rugby league's equivalent to the Rugby World Cup?",
+    "options": [
+      "Rugby League World Cup",
+      "International Rugby League Championship",
+      "Global Rugby League Tournament",
+      "World Rugby League Finals"
+    ],
+    "correctIndex": 0,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "The Rugby League World Cup is the premier international tournament for rugby league.",
+    "detailedExplanation": "The Rugby League World Cup is the premier international rugby league tournament, held every four years (though the schedule has varied). First held in 1954, it features national teams from around the world competing for the Paul Barrière Trophy. Australia has been the most successful nation in the tournament's history, though England, New Zealand, and Great Britain have also won the title.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Rugby_League_World_Cup",
+    "citationTitle": "Wikipedia: Rugby League World Cup"
+  },
+  {
+    "id": "b7672767-1dca-4320-a4fa-f5e466fc2002",
+    "text": "Which nation won the first-ever Rugby World Cup in 1987?",
+    "options": [
+      "Australia",
+      "New Zealand",
+      "South Africa",
+      "England"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "New Zealand won the inaugural Rugby World Cup in 1987.",
+    "detailedExplanation": "New Zealand, known as the All Blacks, won the first Rugby World Cup held in 1987, which was co-hosted by New Zealand and Australia. They defeated France 29-9 in the final at Eden Park in Auckland. The tournament featured 16 teams and was considered a great success, establishing the Rugby World Cup as rugby union's premier international competition and paving the way for the sport's continued global growth.",
+    "citationUrl": "https://en.wikipedia.org/wiki/1987_Rugby_World_Cup",
+    "citationTitle": "Wikipedia: 1987 Rugby World Cup"
+  },
+  {
+    "id": "d21c6898-af5d-4ff3-a1f5-74c09721ef02",
+    "text": "Which rugby tournament is known for awarding the 'Webb Ellis Cup' to its champion?",
+    "options": [
+      "Six Nations Championship",
+      "Rugby World Cup",
+      "The Rugby Championship",
+      "European Rugby Champions Cup"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "The Webb Ellis Cup is the trophy awarded to the winner of the Rugby World Cup.",
+    "detailedExplanation": "The Webb Ellis Cup is named after William Webb Ellis, who according to rugby legend first picked up the ball and ran with it at Rugby School in 1823, thus inventing the game of rugby. The cup has been awarded to every Rugby World Cup winner since the tournament's inception in 1987 and is considered the most prestigious trophy in international rugby union.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Webb_Ellis_Cup",
+    "citationTitle": "Wikipedia: Webb Ellis Cup"
+  },
+  {
+    "id": "36b04fc0-ddda-460c-8ec2-5fc0d0a70dfc",
+    "text": "What is the name of the rugby tournament that features the top professional teams from Wales, Scotland, Ireland, and Italy?",
+    "options": [
+      "United Rugby Championship",
+      "Celtic League",
+      "Pro12",
+      "European Challenge Cup"
+    ],
+    "correctIndex": 0,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "The United Rugby Championship is the current name for the tournament featuring professional teams from Wales, Scotland, Ireland, and Italy, plus South African teams.",
+    "detailedExplanation": "The United Rugby Championship (URC) was formed in 2021 as the successor to the Pro14. It features professional rugby teams from Wales, Scotland, Ireland, Italy, and South Africa. The tournament has undergone several name changes over the years, previously being known as the Celtic League, Pro12, and Pro14 as it expanded to include more teams and regions.",
+    "citationUrl": "https://en.wikipedia.org/wiki/United_Rugby_Championship",
+    "citationTitle": "Wikipedia: United Rugby Championship"
+  },
+  {
+    "id": "bf661207-80e9-4546-9b1f-988ce672e55d",
+    "text": "Which rugby tournament takes place every two years and features emerging rugby nations competing for promotion to higher tiers?",
+    "options": [
+      "Rugby World Cup Sevens",
+      "World Rugby Nations Cup",
+      "Rugby Europe Championship",
+      "World Rugby Trophy"
+    ],
+    "correctIndex": 3,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "The World Rugby Trophy is a biennial tournament for emerging rugby nations competing for promotion opportunities.",
+    "detailedExplanation": "The World Rugby Trophy, formerly known as the IRB Nations Cup, is a tournament designed to provide competitive opportunities for emerging rugby nations. Held every two years, it serves as part of World Rugby's global development pathway, allowing teams to compete for promotion to higher competitive tiers. The tournament plays a crucial role in developing rugby in nations outside the traditional powerhouses.",
+    "citationUrl": "https://en.wikipedia.org/wiki/World_Rugby_Trophy",
+    "citationTitle": "Wikipedia: World Rugby Trophy"
+  },
+  {
+    "id": "58655601-e1b8-4563-9e1c-c32303bd1b27",
+    "text": "In rugby sevens, how many teams typically compete in the main World Rugby Sevens Series tournaments?",
+    "options": [
+      "12 teams",
+      "16 teams",
+      "20 teams",
+      "24 teams"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "The World Rugby Sevens Series typically features 16 core teams competing in each tournament.",
+    "detailedExplanation": "The World Rugby Sevens Series is a global circuit of rugby sevens tournaments featuring 16 core teams that participate in multiple events throughout the season. These teams compete for both individual tournament titles and the overall series championship. The format allows for fast-paced, entertaining rugby with shorter matches that are perfect for television and live audiences, making sevens rugby increasingly popular worldwide.",
+    "citationUrl": "https://en.wikipedia.org/wiki/World_Rugby_Sevens_Series",
+    "citationTitle": "Wikipedia: World Rugby Sevens Series"
+  }
+]

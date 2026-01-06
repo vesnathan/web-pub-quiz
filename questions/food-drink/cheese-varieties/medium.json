@@ -1,0 +1,342 @@
+[
+  {
+    "id": "e408d9b0-5a08-43b4-a235-b75d1206188d",
+    "text": "Which Italian cheese is traditionally made from water buffalo milk?",
+    "options": [
+      "Parmigiano-Reggiano",
+      "Mozzarella di Bufala",
+      "Gorgonzola",
+      "Pecorino Romano"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Mozzarella di Bufala is made from water buffalo milk in Southern Italy.",
+    "detailedExplanation": "Mozzarella di Bufala Campana is a traditional Italian cheese made from the milk of Italian Mediterranean water buffalo. It is produced primarily in the regions of Campania, Lazio, Apulia, and Molise. The cheese has a protected designation of origin (PDO) status and is considered superior to regular cow's milk mozzarella, with a creamier texture and more complex flavor profile.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Mozzarella_di_bufala",
+    "citationTitle": "Wikipedia: Mozzarella di bufala"
+  },
+  {
+    "id": "9c1aded0-0f76-4ed2-988b-48b287034789",
+    "text": "What gives Roquefort cheese its distinctive blue-green veins?",
+    "options": [
+      "Penicillium candidum",
+      "Penicillium roqueforti",
+      "Brevibacterium linens",
+      "Propionibacterium freudenreichii"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Penicillium roqueforti is the mold that creates the characteristic blue veins in Roquefort cheese.",
+    "detailedExplanation": "Roquefort cheese gets its distinctive blue-green marbling from the mold Penicillium roqueforti, which is added during the cheese-making process. This mold grows throughout the cheese, creating the characteristic veining pattern. The cheese is aged in natural caves in the Aveyron region of France, where the specific humidity and temperature conditions allow the mold to develop properly, giving Roquefort its sharp, tangy flavor.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Roquefort",
+    "citationTitle": "Wikipedia: Roquefort"
+  },
+  {
+    "id": "8d8e1b2f-6c8a-4b6a-a413-77c720ad51ed",
+    "text": "Which cheese is essential for making a traditional Greek moussaka?",
+    "options": [
+      "Feta",
+      "Kasseri",
+      "Kefalotyri",
+      "Graviera"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Kefalotyri is traditionally used in moussaka for its excellent melting properties.",
+    "detailedExplanation": "Kefalotyri is a hard, salty Greek cheese made from sheep's milk or goat's milk, and is the traditional choice for moussaka's béchamel topping. Its firm texture and excellent melting properties make it ideal for creating the golden, crispy top layer that characterizes this classic Greek dish. While some modern recipes may substitute other cheeses like Parmesan, authentic moussaka relies on Kefalotyri for its distinctive flavor and texture.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Kefalotyri",
+    "citationTitle": "Wikipedia: Kefalotyri"
+  },
+  {
+    "id": "9ef2ca54-9f30-4ced-8991-55e350135138",
+    "text": "What is the minimum aging period required for authentic Parmigiano-Reggiano cheese?",
+    "options": [
+      "6 months",
+      "12 months",
+      "18 months",
+      "24 months"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Parmigiano-Reggiano must be aged for a minimum of 12 months to meet PDO standards.",
+    "detailedExplanation": "According to the Protected Designation of Origin (PDO) regulations, authentic Parmigiano-Reggiano cheese must be aged for a minimum of 12 months before it can be sold. However, many wheels are aged much longer - typically 24, 30, or even 36 months or more. The longer aging period develops more complex flavors and creates the characteristic crystalline texture that makes older Parmigiano-Reggiano so prized by cheese connoisseurs.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Parmigiano-Reggiano",
+    "citationTitle": "Wikipedia: Parmigiano-Reggiano"
+  },
+  {
+    "id": "406dd420-eb5a-4548-b16c-59bc61418b29",
+    "text": "Which English cheese is traditionally wrapped in nettle leaves?",
+    "options": [
+      "Stilton",
+      "Cornish Yarg",
+      "Wensleydale",
+      "Red Leicester"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Cornish Yarg is wrapped in wild nettle leaves, which create its distinctive appearance and affect its flavor.",
+    "detailedExplanation": "Cornish Yarg is a unique English cheese that is wrapped in wild nettle leaves during the aging process. The nettles are picked fresh and applied by hand to each cheese wheel, creating a distinctive lacy, gray-green rind as they dry and cure. This wrapping not only gives the cheese its striking appearance but also contributes to its fresh, citrusy flavor profile. The cheese was developed in Cornwall in the 1980s and has become one of the county's most famous culinary exports.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Cornish_Yarg",
+    "citationTitle": "Wikipedia: Cornish Yarg"
+  },
+  {
+    "id": "d3ddd528-eb60-4ffc-991d-b16e471c39d5",
+    "text": "What animal's milk is used to make traditional Manchego cheese?",
+    "options": [
+      "Cow",
+      "Goat",
+      "Sheep",
+      "Water buffalo"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Manchego cheese is made exclusively from the milk of Manchega sheep in Spain.",
+    "detailedExplanation": "Authentic Manchego cheese is made exclusively from the milk of Manchega sheep, a breed native to the La Mancha region of Spain. The cheese has PDO protection, which means it can only be produced in specific provinces of Castilla-La Mancha using milk from this particular breed of sheep. The distinctive herringbone pattern on the rind comes from the traditional esparto grass baskets used during the pressing process, though modern production often uses plastic molds that replicate this pattern.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Manchego",
+    "citationTitle": "Wikipedia: Manchego"
+  },
+  {
+    "id": "3fff21a9-f246-4c43-8893-e621b7fb63f7",
+    "text": "Which Swiss cheese is known for having the largest holes or 'eyes'?",
+    "options": [
+      "Gruyère",
+      "Emmental",
+      "Appenzeller",
+      "Tête de Moine"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Emmental is famous for its large, distinctive holes caused by gas-producing bacteria during aging.",
+    "detailedExplanation": "Emmental cheese is renowned for having the largest and most prominent holes or 'eyes' of any Swiss cheese. These holes are created by Propionibacterium freudenreichii bacteria, which consume the lactic acid in the cheese and produce carbon dioxide gas. As the gas has nowhere to escape, it forms bubbles that create the characteristic holes. Traditional Emmental can have eyes as large as a walnut, making it instantly recognizable and the cheese most people think of when they imagine 'Swiss cheese.'",
+    "citationUrl": "https://en.wikipedia.org/wiki/Emmental_cheese",
+    "citationTitle": "Wikipedia: Emmental cheese"
+  },
+  {
+    "id": "dbfdba58-4035-4557-8f21-a35a51103b75",
+    "text": "What gives Limburger cheese its notoriously strong smell?",
+    "options": [
+      "Penicillium candidum",
+      "Brevibacterium linens",
+      "Lactobacillus helveticus",
+      "Streptococcus thermophilus"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Brevibacterium linens bacteria on the rind creates Limburger's infamous pungent aroma.",
+    "detailedExplanation": "Limburger cheese owes its notorious strong smell to Brevibacterium linens, bacteria that grows on the cheese's surface during the aging process. These bacteria break down proteins and create various sulfur compounds, including methanethiol, which produces the cheese's characteristic pungent aroma often compared to unwashed feet. Despite its intimidating smell, Limburger has a relatively mild, creamy taste that doesn't match the intensity of its aroma, making it a classic example of a cheese that smells much stronger than it tastes.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Limburger_cheese",
+    "citationTitle": "Wikipedia: Limburger cheese"
+  },
+  {
+    "id": "8655b14f-f7f6-4ad8-99eb-b68ab67bcba3",
+    "text": "Which French cheese is protected by AOC regulations and must be made in the Burgundy region from cow's milk?",
+    "options": [
+      "Époisses",
+      "Camembert",
+      "Brie de Meaux",
+      "Pont-l'Évêque"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Époisses is a French AOC cheese from Burgundy, washed with marc de Bourgogne brandy.",
+    "detailedExplanation": "Époisses de Bourgogne is a soft-paste cow's milk cheese made in the Côte-d'Or department of Burgundy, France. It has been protected by AOC (Appellation d'Origine Contrôlée) status since 1991. The cheese is famous for being washed with marc de Bourgogne (grape brandy) during aging, which gives it its distinctive orange rind and pungent aroma. Napoleon Bonaparte was reportedly fond of this cheese.",
+    "citationUrl": "https://en.wikipedia.org/wiki/%C3%89poisses_cheese",
+    "citationTitle": "Wikipedia: Époisses cheese"
+  },
+  {
+    "id": "5e4e0ffd-ebf5-45bd-8ac4-db5cbb02522c",
+    "text": "What is the name of the hard, granular cheese from Sardinia that is often served with honey or pears?",
+    "options": [
+      "Pecorino Romano",
+      "Pecorino Sardo",
+      "Fiore Sardo",
+      "Casu Marzu"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Fiore Sardo is a traditional Sardinian sheep's milk cheese known for its hard texture and often paired with honey.",
+    "detailedExplanation": "Fiore Sardo is one of Italy's oldest cheeses, made exclusively in Sardinia from sheep's milk. It has PDO (Protected Designation of Origin) status and is characterized by its golden-yellow rind and distinctive basket-weave pattern from the traditional wicker molds used in production. The cheese has a sharp, slightly smoky flavor and is often served as a table cheese with honey, pears, or nuts, making it a popular choice in Sardinian cuisine.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Fiore_Sardo",
+    "citationTitle": "Wikipedia: Fiore Sardo"
+  },
+  {
+    "id": "a84992d7-43cc-4fd8-9b1e-bd070b7a9847",
+    "text": "Which Dutch cheese is traditionally covered in red wax and aged for at least 4 weeks?",
+    "options": [
+      "Gouda",
+      "Edam",
+      "Maasdam",
+      "Leerdammer"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Edam cheese is the Dutch cheese famous for its distinctive red wax coating and spherical shape.",
+    "detailedExplanation": "Edam is a semi-hard cow's milk cheese that originated in the town of Edam in North Holland. The cheese is traditionally formed into spheres and coated in red paraffin wax for export markets, though domestically it may be sold with a natural rind or yellow wax. Edam has a mild, slightly salty flavor that becomes more complex with age. The red wax coating helps preserve the cheese during transport and storage, making it historically important for Dutch cheese exports.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Edam_cheese",
+    "citationTitle": "Wikipedia: Edam cheese"
+  },
+  {
+    "id": "697e5ea6-4e66-4b65-b2b7-21d6b23b2707",
+    "text": "What type of milk is traditionally used to make authentic Halloumi cheese?",
+    "options": [
+      "Cow's milk only",
+      "Goat's milk only",
+      "A mixture of goat and sheep milk",
+      "Buffalo milk only"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Traditional Halloumi is made from a mixture of goat's and sheep's milk, though modern versions may include cow's milk.",
+    "detailedExplanation": "Halloumi is a traditional Cypriot cheese that has been made for centuries using a combination of goat's and sheep's milk. The traditional recipe calls for a specific ratio of these milks, which gives Halloumi its characteristic texture and flavor. Modern commercial production sometimes includes cow's milk to meet demand and reduce costs. The cheese is unique for its high melting point, allowing it to be grilled or fried without losing its shape, earning it the nickname 'grilling cheese.'",
+    "citationUrl": "https://en.wikipedia.org/wiki/Halloumi",
+    "citationTitle": "Wikipedia: Halloumi"
+  },
+  {
+    "id": "54fec847-7a24-49d5-a13d-cc59863960df",
+    "text": "Which American cheese variety was first created in Colby, Wisconsin in 1885?",
+    "options": [
+      "Monterey Jack",
+      "Colby",
+      "Wisconsin Brick",
+      "Maytag Blue"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Colby cheese was invented in 1885 by Joseph F. Steinwand in Colby, Wisconsin.",
+    "detailedExplanation": "Colby cheese was created in 1885 by Joseph F. Steinwand in the town of Colby, Wisconsin. This semi-hard cow's milk cheese is similar to Cheddar but uses a different manufacturing process called the 'washed curd' method, where warm water is added during production to remove some of the acidity. This results in a milder, more elastic cheese with a more open texture than traditional Cheddar. Colby is often combined with Monterey Jack to create 'Colby-Jack' cheese.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Colby_cheese",
+    "citationTitle": "Wikipedia: Colby cheese"
+  },
+  {
+    "id": "81fc8da2-a838-43fb-b1a7-c1e558f7a509",
+    "text": "What is the traditional method used to create the holes in Swiss Appenzeller cheese?",
+    "options": [
+      "Injecting carbon dioxide gas",
+      "Adding special bacteria cultures",
+      "Mechanical perforation",
+      "Natural fermentation with hay bacilli"
+    ],
+    "correctIndex": 3,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Appenzeller cheese develops its characteristic holes through natural fermentation processes involving specific bacterial cultures.",
+    "detailedExplanation": "Appenzeller is a Swiss hard cheese made in the Appenzell region that develops its characteristic holes (called 'eyes') through natural fermentation processes. The holes are created by carbon dioxide gas produced by specific bacterial cultures, particularly Propionibacterium shermanii, during the aging process. The cheese is also notable for being washed with a secret herbal brine mixture during maturation, which contributes to its distinctive flavor and golden rind. Appenzeller has been produced using traditional methods for over 700 years.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Appenzeller_cheese",
+    "citationTitle": "Wikipedia: Appenzeller cheese"
+  },
+  {
+    "id": "05e90dc0-f2ed-4d00-b396-73c293e74d21",
+    "text": "Which English cheese is traditionally made using unpasteurized milk and aged in caves in Cheddar Gorge?",
+    "options": [
+      "Stilton",
+      "Wensleydale",
+      "Farmhouse Cheddar",
+      "Red Leicester"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Traditional Farmhouse Cheddar is made with unpasteurized milk and historically aged in the natural caves of Cheddar Gorge in Somerset.",
+    "detailedExplanation": "Farmhouse Cheddar, particularly traditional West Country Farmhouse Cheddar, is made using unpasteurized milk and traditional methods in Somerset, England. The cheese originated in the village of Cheddar and was historically aged in the natural caves of Cheddar Gorge, where the constant temperature and humidity provided ideal conditions for maturation. These caves maintain a steady temperature of around 7°C (45°F) year-round. While most commercial Cheddar is now made with pasteurized milk, traditional farmhouse varieties still use raw milk and age for 12-24 months or longer.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Cheddar_cheese",
+    "citationTitle": "Wikipedia: Cheddar cheese"
+  },
+  {
+    "id": "fffd5bed-d5a9-451f-a3c4-1087491b160b",
+    "text": "What gives Caerphilly cheese its characteristic white, chalky appearance and crumbly texture?",
+    "options": [
+      "High salt content and quick aging",
+      "Addition of chalk powder",
+      "Low moisture content and high acidity",
+      "Special white mold cultures"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Caerphilly's white, crumbly texture results from its low moisture content and high acidity levels.",
+    "detailedExplanation": "Caerphilly is a traditional Welsh cheese that gets its distinctive white, chalky appearance and crumbly texture from its production method, which results in low moisture content and high acidity. The cheese is made using a process that removes much of the whey quickly, concentrating the curds and creating the characteristic dry, crumbly texture. The high acidity also contributes to the bright white color and sharp, lemony tang. Traditional Caerphilly was popular with Welsh miners because its high salt content helped replace minerals lost through sweating during hard labor.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Caerphilly_cheese",
+    "citationTitle": "Wikipedia: Caerphilly cheese"
+  },
+  {
+    "id": "abfa94d8-bd05-407d-aaf7-553ea648f452",
+    "text": "Which French cheese is known as 'The King of Cheeses' and has a creamy interior with a white, bloomy rind?",
+    "options": [
+      "Camembert",
+      "Brie",
+      "Coulommiers",
+      "Chaource"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Brie is traditionally called 'The King of Cheeses' and is famous for its creamy texture and white bloomy rind.",
+    "detailedExplanation": "Brie, originating from the French region of Brie east of Paris, has earned the prestigious title 'Le Roi des Fromages' (The King of Cheeses). This soft-ripened cheese is characterized by its creamy, buttery interior and distinctive white, bloomy rind created by Penicillium candidum mold. The cheese ripens from the outside in, creating a perfect contrast between the firmer center and the creamy edges when properly aged.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Brie",
+    "citationTitle": "Wikipedia: Brie"
+  },
+  {
+    "id": "c1ca9ee4-413b-430f-aca6-b385785c8fb1",
+    "text": "What is the name of the Spanish blue cheese made from a blend of cow's, goat's, and sheep's milk?",
+    "options": [
+      "Valdeon",
+      "Cabrales",
+      "Picón",
+      "Gamonéu"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Cabrales is a famous Spanish blue cheese traditionally made from a mixture of cow's, goat's, and sheep's milk.",
+    "detailedExplanation": "Cabrales is one of Spain's most renowned blue cheeses, produced in the Asturias region of northern Spain. What makes Cabrales unique is its traditional production method using a blend of unpasteurized milk from three different animals - cows, goats, and sheep. The cheese is aged in natural limestone caves in the Picos de Europa mountains, where the humid conditions and native molds create its characteristic strong, piquant flavor and blue-green veining.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Cabrales_cheese",
+    "citationTitle": "Wikipedia: Cabrales cheese"
+  },
+  {
+    "id": "0d719fba-469b-4f7c-b3d0-2add854644aa",
+    "text": "Which German cheese variety is traditionally served heated and scraped onto bread or potatoes?",
+    "options": [
+      "Tilsit",
+      "Limburger",
+      "Raclette",
+      "Münster"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Raclette is the German (and Swiss) cheese famous for being melted and scraped onto various foods.",
+    "detailedExplanation": "Raclette, while originally from Switzerland but also popular in Germany, is both the name of a cheese and a traditional dish. The semi-hard cow's milk cheese is specifically designed to be melted, traditionally by placing a wheel near a fire and scraping the melted portion onto bread, boiled potatoes, pickles, and onions. Modern raclette is often served using special electric grills or melting devices, making it a popular social dining experience throughout Alpine regions.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Raclette",
+    "citationTitle": "Wikipedia: Raclette"
+  },
+  {
+    "id": "8e0c4104-2ac9-4e72-9bc0-09a7013b531a",
+    "text": "Which Italian cheese gets its name from the Italian word meaning 'little ball' due to its traditional shape?",
+    "options": [
+      "Burrata",
+      "Bocconcini",
+      "Stracciatella",
+      "Ciliegine"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Bocconcini means 'little ball' or 'little bite' in Italian, referring to its small, round shape.",
+    "detailedExplanation": "Bocconcini is a type of fresh mozzarella cheese that gets its name from the Italian word 'boccone,' meaning 'mouthful' or 'little bite.' These small, white, ball-shaped cheeses are traditionally about the size of a large egg and are made from cow's milk (or sometimes water buffalo milk). They have a soft, elastic texture and mild, milky flavor typical of fresh mozzarella. Bocconcini are often served in salads, antipasto platters, or marinated in olive oil with herbs.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Bocconcini",
+    "citationTitle": "Wikipedia: Bocconcini"
+  }
+]

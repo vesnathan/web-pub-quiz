@@ -1,0 +1,342 @@
+[
+  {
+    "id": "b2854bef-1dbd-4c55-9c9d-59be929db447",
+    "text": "Which author created the fictional school Hogwarts and wrote the Harry Potter series?",
+    "options": [
+      "J.K. Rowling",
+      "Roald Dahl",
+      "C.S. Lewis",
+      "Philip Pullman"
+    ],
+    "correctIndex": 0,
+    "category": "literature",
+    "difficulty": "medium",
+    "explanation": "J.K. Rowling created Hogwarts School of Witchcraft and Wizardry and wrote all seven Harry Potter books.",
+    "detailedExplanation": "Joanne Rowling, writing under the pen name J.K. Rowling, created the Harry Potter series beginning with 'Harry Potter and the Philosopher's Stone' in 1997. The series follows Harry Potter's journey at Hogwarts School of Witchcraft and Wizardry and became one of the best-selling book series in history, spawning films, theme parks, and a massive global franchise.",
+    "citationUrl": "https://en.wikipedia.org/wiki/J._K._Rowling",
+    "citationTitle": "Wikipedia: J. K. Rowling"
+  },
+  {
+    "id": "3c5d2aa7-f809-4c84-8477-0b7bcbd3482c",
+    "text": "In Roald Dahl's 'Charlie and the Chocolate Factory', what is the name of the Oompa-Loompa's original homeland?",
+    "options": [
+      "Wonkaland",
+      "Loompaland",
+      "Chocolateland",
+      "Sweetland"
+    ],
+    "correctIndex": 1,
+    "category": "literature",
+    "difficulty": "medium",
+    "explanation": "The Oompa-Loompas came from Loompaland, where they were terrorized by creatures called Hornswogglers and Whangdoodles.",
+    "detailedExplanation": "In Roald Dahl's classic 1964 novel, Willy Wonka explains that he discovered the Oompa-Loompas in their native Loompaland, a place filled with dangerous creatures. He rescued them and brought them to work in his chocolate factory, where they would be safe and could indulge their love of cacao beans. This backstory was modified in later adaptations due to concerns about colonial overtones in the original text.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Charlie_and_the_Chocolate_Factory",
+    "citationTitle": "Wikipedia: Charlie and the Chocolate Factory"
+  },
+  {
+    "id": "1b23aaac-2d7f-4606-9305-7f6ebd76615c",
+    "text": "Which children's book character lives at 32 Windsor Gardens and is originally from 'Darkest Peru'?",
+    "options": [
+      "Winnie-the-Pooh",
+      "Paddington Bear",
+      "Corduroy",
+      "Rupert Bear"
+    ],
+    "correctIndex": 1,
+    "category": "literature",
+    "difficulty": "medium",
+    "explanation": "Paddington Bear lives with the Brown family at 32 Windsor Gardens in London after arriving from Peru.",
+    "detailedExplanation": "Created by Michael Bond in 1958, Paddington Bear is found at Paddington Railway Station by the Brown family, who take him home to 32 Windsor Gardens. The character was inspired by a lonely teddy bear Bond spotted in a London store on Christmas Eve. Paddington's adventures with his adoptive family, his love of marmalade sandwiches, and his polite nature despite causing chaos have made him a beloved figure in children's literature worldwide.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Paddington_Bear",
+    "citationTitle": "Wikipedia: Paddington Bear"
+  },
+  {
+    "id": "73a99f37-cc6e-44b6-a2f6-8d26e5c24df8",
+    "text": "What type of animal is the Gruffalo in Julia Donaldson's popular picture book?",
+    "options": [
+      "A real forest creature",
+      "A mythical dragon-like beast",
+      "A friendly giant",
+      "A talking tree"
+    ],
+    "correctIndex": 1,
+    "category": "literature",
+    "difficulty": "medium",
+    "explanation": "The Gruffalo is described as a mythical creature with terrible tusks, terrible claws, terrible teeth, and orange eyes.",
+    "detailedExplanation": "In Julia Donaldson's 1999 picture book illustrated by Axel Scheffler, the Gruffalo is initially presented as an imaginary creature invented by a clever mouse to scare away predators. The Gruffalo is described as having 'terrible tusks, and terrible claws, and terrible teeth in his terrible jaws.' However, the mouse discovers that the Gruffalo is actually real, leading to a clever twist where the mouse must use his wits to avoid becoming the Gruffalo's dinner.",
+    "citationUrl": "https://en.wikipedia.org/wiki/The_Gruffalo",
+    "citationTitle": "Wikipedia: The Gruffalo"
+  },
+  {
+    "id": "f50bd3d7-cf06-4c50-98d4-d7afa952806c",
+    "text": "In 'The Lion, the Witch and the Wardrobe', which Turkish confection does the White Witch use to tempt Edmund?",
+    "options": [
+      "Chocolate",
+      "Turkish Delight",
+      "Toffee",
+      "Fudge"
+    ],
+    "correctIndex": 1,
+    "category": "literature",
+    "difficulty": "medium",
+    "explanation": "The White Witch gives Edmund Turkish Delight, which becomes magically addictive and influences his betrayal of his siblings.",
+    "detailedExplanation": "In C.S. Lewis's first published Narnia book (1950), Edmund Pevensie is tempted by the White Witch with Turkish Delight, a sweet confection made from starch and sugar. The magical version becomes irresistibly addictive, leading Edmund to betray his siblings' location to the witch in hopes of getting more. This plot device serves as an allegory for temptation and the consequences of greed, central themes in Lewis's Christian allegory.",
+    "citationUrl": "https://en.wikipedia.org/wiki/The_Lion,_the_Witch_and_the_Wardrobe",
+    "citationTitle": "Wikipedia: The Lion, the Witch and the Wardrobe"
+  },
+  {
+    "id": "f84a5ddd-1b6f-4167-bf72-2169f9e68ee2",
+    "text": "Which award is considered the most prestigious prize for children's literature in the United Kingdom?",
+    "options": [
+      "The Newbery Medal",
+      "The Carnegie Medal",
+      "The Caldecott Medal",
+      "The Hans Christian Andersen Award"
+    ],
+    "correctIndex": 1,
+    "category": "literature",
+    "difficulty": "medium",
+    "explanation": "The Carnegie Medal is the UK's oldest and most prestigious award for children's literature, established in 1936.",
+    "detailedExplanation": "The Carnegie Medal, established in 1936, is awarded annually by the Chartered Institute of Library and Information Professionals (CILIP) to the writer of an outstanding book for children and young people. Named after philanthropist Andrew Carnegie, it recognizes the year's most outstanding children's book by a British author. Notable winners include Philip Pullman, Terry Pratchett, and Malorie Blackman. The award is often considered the British equivalent of the American Newbery Medal.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Carnegie_Medal_(literary_award)",
+    "citationTitle": "Wikipedia: Carnegie Medal (literary award)"
+  },
+  {
+    "id": "918c7ed4-9597-4454-afb5-19c8f7373d4d",
+    "text": "In 'Matilda' by Roald Dahl, what is the name of the terrifying headmistress who throws children by their pigtails?",
+    "options": [
+      "Miss Trunchbull",
+      "Miss Agatha",
+      "Miss Hannigan",
+      "Miss Minchin"
+    ],
+    "correctIndex": 0,
+    "category": "literature",
+    "difficulty": "medium",
+    "explanation": "Miss Trunchbull is the brutal headmistress of Crunchem Hall Primary School who terrorizes students with extreme punishments.",
+    "detailedExplanation": "Miss Agatha Trunchbull is the antagonist in Roald Dahl's 1988 novel 'Matilda.' She is described as a former Olympic athlete who became a tyrannical headmistress, famous for her extreme punishments including throwing children by their hair and locking them in 'The Chokey,' a narrow cupboard filled with spikes. Her character represents the abuse of authority and serves as a foil to Matilda's intelligence and Miss Honey's kindness.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Matilda_(novel)",
+    "citationTitle": "Wikipedia: Matilda (novel)"
+  },
+  {
+    "id": "23d81c82-5e4d-4585-a112-cb360b5a7692",
+    "text": "Which famous children's author wrote 'The Secret Garden' and 'A Little Princess'?",
+    "options": [
+      "Louisa May Alcott",
+      "Frances Hodgson Burnett",
+      "L.M. Montgomery",
+      "Edith Nesbit"
+    ],
+    "correctIndex": 1,
+    "category": "literature",
+    "difficulty": "medium",
+    "explanation": "Frances Hodgson Burnett wrote both 'The Secret Garden' (1911) and 'A Little Princess' (1905).",
+    "detailedExplanation": "Frances Hodgson Burnett was a British-American novelist and playwright who became one of the most successful children's authors of the late 19th and early 20th centuries. Born in England but raised in Tennessee, she wrote 'A Little Princess' in 1905 and 'The Secret Garden' in 1911. Both novels feature young protagonists who overcome adversity through resilience and the transformative power of friendship and nature. Her works remain popular adaptations for stage and screen.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Frances_Hodgson_Burnett",
+    "citationTitle": "Wikipedia: Frances Hodgson Burnett"
+  },
+  {
+    "id": "e2506500-680b-4359-a70f-86c2a90cda9f",
+    "text": "In Maurice Sendak's 'Where the Wild Things Are', what is the name of the mischievous boy who sails to the land of the Wild Things?",
+    "options": [
+      "Max",
+      "Sam",
+      "Ben",
+      "Tom"
+    ],
+    "correctIndex": 0,
+    "category": "literature",
+    "difficulty": "medium",
+    "explanation": "Max is the protagonist who creates havoc at home and then journeys to the Wild Things' island.",
+    "detailedExplanation": "Maurice Sendak's beloved 1963 picture book follows Max, a young boy who wears a wolf costume and causes trouble at home. After being sent to his room without supper, Max's imagination transforms his bedroom into a forest and ocean, leading him to the island where the Wild Things live. The book won the Caldecott Medal and became one of the most celebrated children's books of all time.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Where_the_Wild_Things_Are",
+    "citationTitle": "Wikipedia: Where the Wild Things Are"
+  },
+  {
+    "id": "55823595-029f-4c85-9ffc-e6d1762f83d7",
+    "text": "Which author created the beloved bear character Winnie-the-Pooh and his friends in the Hundred Acre Wood?",
+    "options": [
+      "Kenneth Grahame",
+      "A.A. Milne",
+      "Beatrix Potter",
+      "Lewis Carroll"
+    ],
+    "correctIndex": 1,
+    "category": "literature",
+    "difficulty": "medium",
+    "explanation": "A.A. Milne wrote the Winnie-the-Pooh stories, inspired by his son Christopher Robin's stuffed animals.",
+    "detailedExplanation": "A.A. Milne created Winnie-the-Pooh in the 1920s, writing two main collections: 'Winnie-the-Pooh' (1926) and 'The House at Pooh Corner' (1928). The stories were inspired by his son Christopher Robin Milne and his collection of stuffed animals. The characters include Pooh Bear, Piglet, Eeyore, Rabbit, Owl, Kanga, Roo, and Tigger, with illustrations by E.H. Shepard that became iconic.",
+    "citationUrl": "https://en.wikipedia.org/wiki/A._A._Milne",
+    "citationTitle": "Wikipedia: A. A. Milne"
+  },
+  {
+    "id": "0911d506-2358-4ae0-ba7f-24aa38bfe238",
+    "text": "In Judy Blume's 'Are You There God? It's Me, Margaret', what is Margaret's main internal struggle throughout the book?",
+    "options": [
+      "Choosing between her parents after their divorce",
+      "Dealing with bullies at her new school",
+      "Navigating religious identity and puberty",
+      "Moving to a different country"
+    ],
+    "correctIndex": 2,
+    "category": "literature",
+    "difficulty": "medium",
+    "explanation": "Margaret struggles with questions about religion and the physical and emotional changes of growing up.",
+    "detailedExplanation": "Published in 1970, 'Are You There God? It's Me, Margaret' follows 11-year-old Margaret Simon as she navigates the challenges of adolescence. Born to a Jewish father and Christian mother, Margaret hasn't been raised in any particular faith and struggles with choosing a religion. Simultaneously, she deals with the physical and emotional aspects of puberty, including waiting for her first period and developing physically. The book was groundbreaking for its frank discussion of these topics.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Are_You_There_God%3F_It%27s_Me,_Margaret",
+    "citationTitle": "Wikipedia: Are You There God? It's Me, Margaret"
+  },
+  {
+    "id": "8c579fa8-f4da-4103-8eed-901cc975a6ac",
+    "text": "What is the name of the pig who befriends a spider named Charlotte in E.B. White's classic novel?",
+    "options": [
+      "Babe",
+      "Peppa",
+      "Wilbur",
+      "Porky"
+    ],
+    "correctIndex": 2,
+    "category": "literature",
+    "difficulty": "medium",
+    "explanation": "Wilbur is the pig who is saved from slaughter by his friendship with Charlotte the spider.",
+    "detailedExplanation": "In E.B. White's 1952 novel 'Charlotte's Web', Wilbur is a runt pig who is initially saved from being killed by Fern Arable, then later by Charlotte A. Cavatica, a barn spider who becomes his friend. Charlotte saves Wilbur from being slaughtered by weaving words like 'Some Pig' and 'Terrific' into her web, making Wilbur famous. The book explores themes of friendship, life, death, and growing up.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Charlotte%27s_Web",
+    "citationTitle": "Wikipedia: Charlotte's Web"
+  },
+  {
+    "id": "edd0d1ce-ffac-4267-9b60-b2d626f2be84",
+    "text": "Which Dr. Seuss book features the character of Sam-I-Am trying to convince someone to try a particular green food?",
+    "options": [
+      "Green Eggs and Ham",
+      "The Cat in the Hat",
+      "Horton Hears a Who!",
+      "How the Grinch Stole Christmas!"
+    ],
+    "correctIndex": 0,
+    "category": "literature",
+    "difficulty": "medium",
+    "explanation": "Green Eggs and Ham is the story where Sam-I-Am persistently tries to get another character to try green eggs and ham.",
+    "detailedExplanation": "Published in 1960, 'Green Eggs and Ham' is one of Dr. Seuss's most popular books. The story features Sam-I-Am trying to convince an unnamed character to try green eggs and ham in various locations and situations. The book was written using only 50 different words, reportedly as the result of a bet between Dr. Seuss and his publisher Bennett Cerf. It became one of the best-selling children's books of all time.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Green_Eggs_and_Ham",
+    "citationTitle": "Wikipedia: Green Eggs and Ham"
+  },
+  {
+    "id": "70991463-eb0c-499a-ba02-79fb97d1a4d4",
+    "text": "In Louise Fitzhugh's 'Harriet the Spy', what does Harriet use to record her observations about her classmates and neighbors?",
+    "options": [
+      "A tape recorder",
+      "A notebook",
+      "A camera",
+      "Her computer"
+    ],
+    "correctIndex": 1,
+    "category": "literature",
+    "difficulty": "medium",
+    "explanation": "Harriet keeps a notebook where she writes down brutally honest observations about everyone around her.",
+    "detailedExplanation": "Published in 1964, 'Harriet the Spy' follows 11-year-old Harriet M. Welsch, who dreams of being a writer and spy. She carries a notebook everywhere, writing down candid and often harsh observations about her classmates, neighbors, and friends. When her classmates discover and read her notebook, they turn against her, leading to Harriet's social isolation and the central conflict of the story. The book was groundbreaking for its realistic portrayal of childhood cruelty and complex emotions.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Harriet_the_Spy",
+    "citationTitle": "Wikipedia: Harriet the Spy"
+  },
+  {
+    "id": "a05a220a-8dea-4d6a-beac-72bed84dd41e",
+    "text": "Which book series by Rick Riordan follows a boy who discovers he is the son of a Greek god?",
+    "options": [
+      "The Kane Chronicles",
+      "Magnus Chase and the Gods of Asgard",
+      "Percy Jackson & the Olympians",
+      "The Heroes of Olympus"
+    ],
+    "correctIndex": 2,
+    "category": "literature",
+    "difficulty": "medium",
+    "explanation": "Percy Jackson & the Olympians follows Percy Jackson, son of Poseidon, as he navigates the world of Greek mythology.",
+    "detailedExplanation": "Rick Riordan's 'Percy Jackson & the Olympians' series, beginning with 'The Lightning Thief' (2005), follows Percy Jackson, a twelve-year-old boy who discovers he is a demigod - the son of the Greek sea god Poseidon. The series combines modern settings with Greek mythology, as Percy attends Camp Half-Blood and goes on quests involving the Olympic gods. The books have been praised for making classical mythology accessible to young readers and for featuring a protagonist with ADHD and dyslexia.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Percy_Jackson_%26_the_Olympians",
+    "citationTitle": "Wikipedia: Percy Jackson & the Olympians"
+  },
+  {
+    "id": "a4a67b8f-5238-4460-b97b-c37208ce5397",
+    "text": "In Madeleine L'Engle's 'A Wrinkle in Time', what is the name of the main character who travels through space and time to rescue her father?",
+    "options": [
+      "Margaret",
+      "Martha",
+      "Meg",
+      "Mary"
+    ],
+    "correctIndex": 2,
+    "category": "literature",
+    "difficulty": "medium",
+    "explanation": "Meg Murry is the protagonist who goes on an interdimensional journey to find her missing scientist father.",
+    "detailedExplanation": "Published in 1962, 'A Wrinkle in Time' follows Meg Murry, a troubled adolescent who embarks on an adventure through space and time with her younger brother Charles Wallace and friend Calvin O'Keefe. Guided by three mysterious beings - Mrs. Whatsit, Mrs. Who, and Mrs. Which - they travel to the planet Camazotz to rescue Meg's father from the evil force known as 'It.' The book won the Newbery Medal in 1963 and is considered a classic of children's science fantasy literature.",
+    "citationUrl": "https://en.wikipedia.org/wiki/A_Wrinkle_in_Time",
+    "citationTitle": "Wikipedia: A Wrinkle in Time"
+  },
+  {
+    "id": "12a9e803-d5aa-4efd-ab04-03eeaeff2e5d",
+    "text": "Which author wrote the classic children's novel 'A Wrinkle in Time' and was the first woman to win the Newbery Medal for science fiction?",
+    "options": [
+      "Madeleine L'Engle",
+      "Ursula K. Le Guin",
+      "Lois Lowry",
+      "Katherine Paterson"
+    ],
+    "correctIndex": 0,
+    "category": "literature",
+    "difficulty": "medium",
+    "explanation": "Madeleine L'Engle wrote 'A Wrinkle in Time' and won the 1963 Newbery Medal, becoming the first woman to win for a science fiction work.",
+    "detailedExplanation": "Madeleine L'Engle's 'A Wrinkle in Time' was groundbreaking when it won the Newbery Medal in 1963, as it was the first science fiction novel to receive this prestigious award and L'Engle was the first woman to win the medal for a work in this genre. The novel, which blends science fiction with fantasy and philosophical themes, follows Meg Murry on her journey through space and time. L'Engle's work broke barriers in children's literature by addressing complex scientific concepts and existential questions while maintaining accessibility for young readers.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Madeleine_L%27Engle",
+    "citationTitle": "Wikipedia: Madeleine L'Engle"
+  },
+  {
+    "id": "1bc52265-4529-42b3-9cfa-8de22e5147e6",
+    "text": "In Kenneth Grahame's 'The Wind in the Willows', what is the name of Toad's grand estate?",
+    "options": [
+      "Toad Manor",
+      "Toad Hall",
+      "Toad Castle",
+      "Toad House"
+    ],
+    "correctIndex": 1,
+    "category": "literature",
+    "difficulty": "medium",
+    "explanation": "Toad Hall is the magnificent ancestral home of Mr. Toad in Kenneth Grahame's classic novel 'The Wind in the Willows'.",
+    "detailedExplanation": "Toad Hall serves as both a symbol of wealth and tradition and a central location in Kenneth Grahame's beloved 1908 novel 'The Wind in the Willows'. The grand estate represents Mr. Toad's privileged background and becomes a focal point in the story when it is taken over by the Wild Wooders (weasels, stoats, and ferrets) while Toad is imprisoned. The eventual recapture of Toad Hall by Toad and his friends (Rat, Mole, and Badger) forms the climactic battle of the novel, representing the triumph of friendship and rightful order.",
+    "citationUrl": "https://en.wikipedia.org/wiki/The_Wind_in_the_Willows",
+    "citationTitle": "Wikipedia: The Wind in the Willows"
+  },
+  {
+    "id": "658d7c8e-ad54-41c4-890b-d7e8222474ec",
+    "text": "Which children's book series features twins named Jack and Annie who discover a magical tree house that can transport them through time and space?",
+    "options": [
+      "The Bailey School Kids",
+      "The Magic Tree House",
+      "The Time Warp Trio",
+      "The Chronicles of Narnia"
+    ],
+    "correctIndex": 1,
+    "category": "literature",
+    "difficulty": "medium",
+    "explanation": "The Magic Tree House series by Mary Pope Osborne follows siblings Jack and Annie on their time-traveling adventures through a magical tree house.",
+    "detailedExplanation": "The Magic Tree House series, written by Mary Pope Osborne and first published in 1992, has become one of the most popular early chapter book series for children. The series follows Jack and Annie, a brother and sister who discover a tree house filled with books in the woods near their home in Frog Creek, Pennsylvania. When they point to a picture in one of the books and wish they could visit that place, the magic tree house transports them there. The series has over 60 books and has sold more than 143 million copies worldwide, helping young readers explore history, science, and different cultures through exciting adventures.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Magic_Tree_House",
+    "citationTitle": "Wikipedia: Magic Tree House"
+  },
+  {
+    "id": "5e81b370-a063-4ca6-a5aa-ab206c409c3c",
+    "text": "In Laura Ingalls Wilder's 'Little House' series, what is the name of Laura's older sister?",
+    "options": [
+      "Mary",
+      "Carrie",
+      "Grace",
+      "Rose"
+    ],
+    "correctIndex": 0,
+    "category": "literature",
+    "difficulty": "medium",
+    "explanation": "Mary Ingalls is Laura's older sister in the 'Little House' series, who becomes blind due to illness in 'By the Shores of Silver Lake'.",
+    "detailedExplanation": "Mary Ingalls plays a significant role throughout Laura Ingalls Wilder's semi-autobiographical 'Little House' series. As Laura's older sister, Mary is often portrayed as the more well-behaved and studious of the two sisters in the early books. A pivotal moment in the series occurs when Mary loses her sight due to what was described as 'brain fever' (likely meningoencephalitis) in 'By the Shores of Silver Lake'. Despite this challenge, Mary continues to be an important character, eventually attending a college for the blind in Iowa. The relationship between Laura and Mary, with their contrasting personalities and the family's adaptation to Mary's blindness, forms a crucial emotional thread throughout the beloved series.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Little_House_on_the_Prairie",
+    "citationTitle": "Wikipedia: Little House on the Prairie"
+  }
+]

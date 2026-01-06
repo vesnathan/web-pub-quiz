@@ -175,6 +175,8 @@ Resources:
         CreateTipCheckoutFunctionArn: !GetAtt LambdaStack.Outputs.CreateTipCheckoutFunctionArn
         CheckEmailHasGoogleAccountFunctionArn: !GetAtt LambdaStack.Outputs.CheckEmailHasGoogleAccountFunctionArn
         SchemaReadyWaiterFunctionArn: !GetAtt LambdaStack.Outputs.SchemaReadyWaiterFunctionArn
+        SendInviteFunctionArn: !GetAtt LambdaStack.Outputs.SendInviteFunctionArn
+        SendContactFunctionArn: !GetAtt LambdaStack.Outputs.SendContactFunctionArn
         ResolversBuildHash: !Ref ResolversBuildHash
         SchemaBuildHash: !Ref SchemaBuildHash
 

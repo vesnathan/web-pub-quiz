@@ -21,10 +21,10 @@ import {
   ModalBody,
   ModalFooter,
   useDisclosure,
-  Spinner,
 } from "@nextui-org/react";
+import { LoadingDots } from "@/components/LoadingScreen";
 import { Navbar } from "@/components/Navbar";
-import { Footer } from "@/components/Footer";
+import { AppFooter } from "@/components/AppFooter";
 import { RequireAdmin } from "@/components/auth";
 import { useWebhookLogs } from "@/hooks/queries";
 import type { WebhookLog } from "@quiz/shared";
@@ -123,7 +123,7 @@ function WebhookLogsContent() {
 
               {loading && logs.length === 0 ? (
                 <div className="flex justify-center items-center py-12">
-                  <Spinner size="lg" />
+                  <LoadingDots />
                 </div>
               ) : logs.length === 0 ? (
                 <div className="text-center py-12">
@@ -135,6 +135,7 @@ function WebhookLogsContent() {
                     <TableHeader>
                       <TableColumn>TIME</TableColumn>
                       <TableColumn>PROVIDER</TableColumn>
+                      <TableColumn>EMAIL</TableColumn>
                       <TableColumn>EVENT TYPE</TableColumn>
                       <TableColumn>STATUS</TableColumn>
                       <TableColumn>ACTIONS</TableColumn>
@@ -161,6 +162,11 @@ function WebhookLogsContent() {
                             >
                               {log.provider.toUpperCase()}
                             </Chip>
+                          </TableCell>
+                          <TableCell>
+                            <span className="text-sm text-gray-300">
+                              {log.email || "-"}
+                            </span>
                           </TableCell>
                           <TableCell>
                             <span className="text-sm font-mono">
@@ -213,7 +219,7 @@ function WebhookLogsContent() {
           </Card>
         </div>
       </main>
-      <Footer />
+      <AppFooter />
 
       {/* Payload Modal */}
       <Modal

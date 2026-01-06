@@ -4,8 +4,8 @@ type Query {
   # User queries
   getMyProfile: User @aws_cognito_user_pools
   getUserProfile(userId: ID!): UserPublic
-  checkDisplayNameAvailable(displayName: String!): Boolean!
-  checkEmailHasGoogleAccount(email: String!): Boolean!
+  checkDisplayNameAvailable(displayName: String!): Boolean! @aws_iam
+  checkEmailHasGoogleAccount(email: String!): Boolean! @aws_iam
 
   # Leaderboard queries
   getLeaderboard(type: LeaderboardType!, limit: Int): Leaderboard
@@ -13,6 +13,9 @@ type Query {
 
   # Game state queries
   getGameState: GameState
+
+  # Room list query (polled by frontend every 10 seconds)
+  getRoomList: RoomListState @aws_iam
 
   # Question queries (admin only)
   listQuestions(limit: Int, nextToken: String): QuestionConnection @aws_cognito_user_pools
@@ -26,6 +29,26 @@ type Query {
 
   # Admin queries
   getWebhookLogs(provider: String, limit: Int, nextToken: String): WebhookLogConnection! @aws_cognito_user_pools
+}
+
+# Room list state from orchestrator (stored in DynamoDB)
+type RoomListState @aws_iam {
+  rooms: [RoomInfo!]!
+  lobbyPlayerCount: Int!
+  maintenanceMode: Boolean!
+  maintenanceMessage: String
+  updatedAt: String!
+}
+
+type RoomInfo @aws_iam {
+  id: ID!
+  name: String!
+  status: String!
+  difficulty: String!
+  currentPlayers: Int!
+  maxPlayers: Int!
+  inProgress: Boolean!
+  currentQuestion: Int
 }
 
 type Mutation {
@@ -45,7 +68,7 @@ type Mutation {
 
   # Chat mutations (needed in base for @aws_subscribe to work)
   sendChatMessage(channelId: ID!, content: String!): ChatMessage @aws_cognito_user_pools
-  startConversation(targetUserId: ID!): Conversation @aws_cognito_user_pools
+  startConversation(targetUserId: ID!, targetDisplayName: String!): Conversation @aws_cognito_user_pools
 
   # Admin mutations
   adminUpdateUserTier(userId: ID!, tier: Int!): User @aws_cognito_user_pools
@@ -53,6 +76,13 @@ type Mutation {
 
   # Gift notification mutations
   markGiftNotificationSeen: Boolean @aws_cognito_user_pools
+
+  # Invite mutations
+  sendInvite(friendName: String!, email: String!, recaptchaToken: String!): Boolean @aws_cognito_user_pools
+  recordReferral(referrerId: ID!): Boolean @aws_cognito_user_pools
+
+  # Contact form mutation (public - uses reCAPTCHA for protection)
+  sendContact(name: String!, email: String!, subject: String!, message: String!, recaptchaToken: String!): Boolean @aws_iam
 }
 
 type Subscription {

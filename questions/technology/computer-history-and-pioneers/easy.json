@@ -1,0 +1,342 @@
+[
+  {
+    "id": "8492758f-126e-4555-8267-60fc421aa58e",
+    "text": "Who is often called the 'father of the computer' for his work on the Analytical Engine in the 1830s?",
+    "options": [
+      "Charles Babbage",
+      "Alan Turing",
+      "John von Neumann",
+      "Blaise Pascal"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Charles Babbage designed the Analytical Engine, considered the first general-purpose computer design.",
+    "detailedExplanation": "Charles Babbage, a 19th-century English mathematician and inventor, designed the Analytical Engine in the 1830s, which is considered the first design for a general-purpose computer. Though never fully built during his lifetime due to funding and precision manufacturing limitations, the design included all the basic elements of a modern computer including an arithmetic logic unit, control flow through conditional branching and loops, and integrated memory.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Charles_Babbage",
+    "citationTitle": "Wikipedia: Charles Babbage"
+  },
+  {
+    "id": "a3f1c385-a3a1-44e8-86c5-cbb80c3967e3",
+    "text": "Which company was founded by Bill Gates and Paul Allen in 1975?",
+    "options": [
+      "Apple",
+      "Microsoft",
+      "IBM",
+      "Intel"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Microsoft was founded by Bill Gates and Paul Allen on April 4, 1975.",
+    "detailedExplanation": "Microsoft Corporation was founded by Bill Gates and Paul Allen on April 4, 1975, in Albuquerque, New Mexico. The company started by developing and selling BASIC interpreters for the Altair 8800 microcomputer. Gates dropped out of Harvard University to focus on Microsoft, and the company eventually became one of the world's largest software companies, particularly known for the Windows operating system and Microsoft Office suite.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Microsoft",
+    "citationTitle": "Wikipedia: Microsoft"
+  },
+  {
+    "id": "f74a96fc-015a-45fa-bd81-44469d5700bd",
+    "text": "What does 'ENIAC' stand for, the name of one of the first general-purpose electronic computers?",
+    "options": [
+      "Electronic Numerical Integrator and Calculator",
+      "Enhanced Network Interface and Computer",
+      "Electronic Network Information and Control",
+      "European Nuclear Integration and Computing"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "ENIAC stands for Electronic Numerical Integrator and Calculator, completed in 1945.",
+    "detailedExplanation": "ENIAC (Electronic Numerical Integrator and Calculator) was one of the earliest general-purpose electronic digital computers. Completed in 1945 at the University of Pennsylvania, it was designed primarily to calculate artillery firing tables for the United States Army. The machine was enormous, weighing 30 tons and occupying 1,800 square feet. ENIAC could perform calculations much faster than mechanical calculators and was programmable, making it a significant milestone in computer history.",
+    "citationUrl": "https://en.wikipedia.org/wiki/ENIAC",
+    "citationTitle": "Wikipedia: ENIAC"
+  },
+  {
+    "id": "c0cae36a-c1bc-41cf-aa9a-6d8eb2d08189",
+    "text": "Who is credited with writing the first computer program for Charles Babbage's Analytical Engine?",
+    "options": [
+      "Grace Hopper",
+      "Ada Lovelace",
+      "Katherine Johnson",
+      "Hedy Lamarr"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Ada Lovelace wrote what is considered the first computer program in 1843.",
+    "detailedExplanation": "Ada Lovelace, the daughter of poet Lord Byron, is credited with writing the first computer program. In 1843, she published a method for calculating Bernoulli numbers using Charles Babbage's proposed Analytical Engine. Her notes included what is now recognized as the first algorithm intended to be processed by a machine. Lovelace also had remarkable insight into the potential of computers, envisioning that they could be used for more than just mathematical calculations, including composing music and creating art.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Ada_Lovelace",
+    "citationTitle": "Wikipedia: Ada Lovelace"
+  },
+  {
+    "id": "add27d73-291e-4be6-b431-6b63ac5867b8",
+    "text": "In which decade was the World Wide Web invented by Tim Berners-Lee?",
+    "options": [
+      "1970s",
+      "1980s",
+      "1990s",
+      "2000s"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Tim Berners-Lee invented the World Wide Web in 1989-1990 while working at CERN.",
+    "detailedExplanation": "Tim Berners-Lee invented the World Wide Web in 1989 while working as a software engineer at CERN, the European physics research laboratory in Switzerland. He wrote the first web browser (called WorldWideWeb, later renamed Nexus) and web server software in 1990. The first website was launched in 1991, and Berners-Lee made the crucial decision to make the Web free and open to everyone, rather than patenting his invention. This decision was fundamental to the explosive growth of the internet as we know it today.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Tim_Berners-Lee",
+    "citationTitle": "Wikipedia: Tim Berners-Lee"
+  },
+  {
+    "id": "b2d225dd-926f-4782-94a2-34163afa906d",
+    "text": "What was the name of Apple's first commercially successful personal computer, released in 1977?",
+    "options": [
+      "Apple I",
+      "Apple II",
+      "Macintosh",
+      "Lisa"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "The Apple II, released in 1977, was Apple's first major commercial success.",
+    "detailedExplanation": "The Apple II, launched in April 1977, was Apple Computer Company's first highly successful mass-produced microcomputer. Designed primarily by Steve Wozniak, it featured color graphics, sound capabilities, and a sleek plastic case designed by Jerry Manock. Unlike its predecessor the Apple I (which was sold as a kit), the Apple II was a complete system ready to use out of the box. It became one of the best-selling personal computers of its era and established Apple as a major player in the personal computer industry.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Apple_II",
+    "citationTitle": "Wikipedia: Apple II"
+  },
+  {
+    "id": "3b264f25-55be-4baa-9501-eba950dc4394",
+    "text": "Which programming language did Grace Hopper help develop that used English-like commands instead of numbers?",
+    "options": [
+      "FORTRAN",
+      "COBOL",
+      "BASIC",
+      "Pascal"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Grace Hopper was instrumental in developing COBOL, which used English-like syntax for business applications.",
+    "detailedExplanation": "Grace Hopper, a pioneering computer scientist and U.S. Navy rear admiral, was instrumental in the development of COBOL (Common Business-Oriented Language) in the late 1950s. COBOL was designed to be more readable and user-friendly by using English-like syntax instead of the cryptic numerical codes used by earlier programming languages. Hopper believed that programming languages should be accessible to business users, not just mathematicians and engineers. Her work on compilers and high-level programming languages earned her the nickname 'Amazing Grace' and made programming more accessible to a broader audience.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Grace_Hopper",
+    "citationTitle": "Wikipedia: Grace Hopper"
+  },
+  {
+    "id": "6585c8dc-8a7c-47d2-b9f2-310381b798a8",
+    "text": "What was the name of IBM's first personal computer, released in 1981?",
+    "options": [
+      "IBM System/360",
+      "IBM PC",
+      "IBM ThinkPad",
+      "IBM PS/2"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "The IBM PC (Personal Computer) was IBM's first personal computer, released on August 12, 1981.",
+    "detailedExplanation": "The IBM Personal Computer, commonly known as the IBM PC, was released on August 12, 1981. This computer established many of the standards that defined PC-compatible computers for decades to come. It used an Intel 8088 processor and ran PC-DOS (developed by Microsoft). The IBM PC's open architecture, which allowed other companies to create compatible hardware and software, led to the creation of a vast ecosystem of 'IBM PC compatible' computers. This approach helped establish the dominant platform for personal computing and made IBM a household name in the personal computer market.",
+    "citationUrl": "https://en.wikipedia.org/wiki/IBM_Personal_Computer",
+    "citationTitle": "Wikipedia: IBM Personal Computer"
+  },
+  {
+    "id": "22940ec2-3092-4c1f-94c8-cb8e5f2f5a0f",
+    "text": "What was the name of the first computer mouse, invented by Douglas Engelbart in 1964?",
+    "options": [
+      "The X-Y Position Indicator",
+      "The Pointing Device",
+      "The Cursor Controller",
+      "The Screen Navigator"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Douglas Engelbart's original computer mouse was officially called the 'X-Y Position Indicator for a Display System.'",
+    "detailedExplanation": "Douglas Engelbart invented the computer mouse in 1964 while working at Stanford Research Institute. The device was officially patented as an 'X-Y Position Indicator for a Display System.' Engelbart chose this technical name to describe its function of indicating positions on a screen using X and Y coordinates. The nickname 'mouse' came later due to its appearance with a cord that resembled a tail. This invention revolutionized human-computer interaction and became one of the most important input devices in computing history.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Computer_mouse",
+    "citationTitle": "Wikipedia: Computer mouse"
+  },
+  {
+    "id": "3fa65387-67f0-49e8-8631-e3d4f891bdbf",
+    "text": "Which computer company did Steve Jobs and Steve Wozniak found in a garage in 1976?",
+    "options": [
+      "Commodore",
+      "Apple",
+      "Atari",
+      "Tandy"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Steve Jobs and Steve Wozniak founded Apple Computer Company in Jobs' family garage in Los Altos, California in 1976.",
+    "detailedExplanation": "Apple Computer Company was founded on April 1, 1976, by Steve Jobs, Steve Wozniak, and Ronald Wayne in the Jobs family garage in Los Altos, California. The two Steves had previously worked together at Atari and were members of the Homebrew Computer Club. Wozniak had designed the Apple I computer, and Jobs convinced him to sell it commercially. They started the company with $1,350 in capital, raised by Jobs selling his Volkswagen van and Wozniak selling his HP calculator. The garage startup story has become legendary in Silicon Valley folklore.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Apple_Inc.",
+    "citationTitle": "Wikipedia: Apple Inc."
+  },
+  {
+    "id": "f1e89d6d-7fd2-4bfe-9b7c-b9d50fe40535",
+    "text": "What was the first commercially successful video game, released by Atari in 1972?",
+    "options": [
+      "Space Invaders",
+      "Pac-Man",
+      "Pong",
+      "Asteroids"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Pong was the first commercially successful video game, released by Atari in 1972 as an arcade game.",
+    "detailedExplanation": "Pong was created by Allan Alcorn at Atari and released in November 1972. It was a simple tennis-like game with two paddles and a ball, controlled by rotating knobs. While not the first video game ever created, Pong was the first to reach mainstream commercial success and helped establish the video game industry. The game was initially released as an arcade cabinet and later adapted for home consoles. Pong's success led to the founding of the video game industry and inspired countless imitators and improvements in the following years.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Pong",
+    "citationTitle": "Wikipedia: Pong"
+  },
+  {
+    "id": "1d7502d6-0367-4c53-aa45-5d31c972e2c9",
+    "text": "Which university was home to the creation of the UNIX operating system in the late 1960s?",
+    "options": [
+      "MIT",
+      "Stanford University",
+      "Bell Labs",
+      "Carnegie Mellon"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "UNIX was developed at Bell Labs (Bell Telephone Laboratories) by Ken Thompson and Dennis Ritchie starting in 1969.",
+    "detailedExplanation": "UNIX was created at Bell Labs in Murray Hill, New Jersey, beginning in 1969. Ken Thompson wrote the first version, and Dennis Ritchie joined the project soon after, contributing the C programming language in which UNIX was rewritten. Bell Labs was the research and development subsidiary of AT&T. The development of UNIX was initially a side project after Thompson and Ritchie had worked on the failed Multics operating system project. UNIX became one of the most influential operating systems in computing history, forming the basis for many modern operating systems including Linux and macOS.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Unix",
+    "citationTitle": "Wikipedia: Unix"
+  },
+  {
+    "id": "3341f07f-9a78-4a1a-9da1-595162d56754",
+    "text": "What does 'GPU' stand for in computer hardware?",
+    "options": [
+      "General Processing Unit",
+      "Graphics Processing Unit",
+      "Global Processing Unit",
+      "Game Processing Unit"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "GPU stands for Graphics Processing Unit, a specialized processor designed to handle graphics and visual computing tasks.",
+    "detailedExplanation": "Graphics Processing Unit (GPU) refers to a specialized electronic circuit designed to rapidly manipulate and alter memory to accelerate the creation of images in a frame buffer intended for output to a display device. GPUs were initially developed to handle the mathematical calculations required for 3D graphics rendering. The term was popularized by NVIDIA in 1999 with the release of the GeForce 256. Modern GPUs are highly parallel processors that excel not only at graphics tasks but also at general-purpose computing applications like machine learning and cryptocurrency mining.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Graphics_processing_unit",
+    "citationTitle": "Wikipedia: Graphics processing unit"
+  },
+  {
+    "id": "6a0371e8-48f8-48b4-951b-45b20d7c3662",
+    "text": "Which programming language was created by Bjarne Stroustrup at Bell Labs in the early 1980s?",
+    "options": [
+      "Java",
+      "Python",
+      "C++",
+      "Pascal"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "C++ was created by Bjarne Stroustrup at Bell Labs starting in 1979, originally called 'C with Classes.'",
+    "detailedExplanation": "C++ was developed by Bjarne Stroustrup at Bell Labs starting in 1979 as an enhancement to the C programming language. Initially called 'C with Classes,' it was renamed C++ in 1983. Stroustrup wanted to combine the efficiency and flexibility of C with features that would make large-scale programming easier. C++ introduced object-oriented programming concepts like classes and objects to C, along with other features like function overloading and references. The language became widely adopted and influenced many subsequent programming languages, remaining one of the most popular programming languages for system programming and game development.",
+    "citationUrl": "https://en.wikipedia.org/wiki/C%2B%2B",
+    "citationTitle": "Wikipedia: C++"
+  },
+  {
+    "id": "b4752742-8861-439b-95c2-1748d27688b5",
+    "text": "What was the name of the first electronic spreadsheet program, created in 1979?",
+    "options": [
+      "Lotus 1-2-3",
+      "Excel",
+      "VisiCalc",
+      "Quattro Pro"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "VisiCalc was the first electronic spreadsheet program, created by Dan Bricklin and Bob Frankston in 1979.",
+    "detailedExplanation": "VisiCalc (short for 'Visible Calculator') was developed by Dan Bricklin and Bob Frankston and released in 1979 for the Apple II computer. Bricklin conceived the idea while attending Harvard Business School, frustrated with the tedious process of recalculating financial projections by hand. VisiCalc became the first 'killer app' for personal computers, driving sales of the Apple II and legitimizing personal computers as business tools. The program allowed users to create electronic ledgers with automatic recalculation of formulas, revolutionizing financial analysis and business planning. VisiCalc's success paved the way for later spreadsheet programs like Lotus 1-2-3 and Microsoft Excel.",
+    "citationUrl": "https://en.wikipedia.org/wiki/VisiCalc",
+    "citationTitle": "Wikipedia: VisiCalc"
+  },
+  {
+    "id": "344d5e32-5da7-4a00-adcc-fff7ba86f671",
+    "text": "Which computer company introduced the first commercially available laptop computer in 1981?",
+    "options": [
+      "IBM",
+      "Compaq",
+      "Osborne",
+      "Toshiba"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "The Osborne Computer Corporation released the Osborne 1 in 1981, considered the first commercially successful portable computer.",
+    "detailedExplanation": "The Osborne 1 was released by the Osborne Computer Corporation in April 1981 and is widely considered the first commercially successful portable computer. Created by Adam Osborne, it weighed 24.5 pounds and featured a 5-inch monitor, two floppy disk drives, and came bundled with software worth more than the computer's $1,795 price. While not a laptop in the modern sense (it was more of a 'luggable' computer), the Osborne 1 established the market for portable computing. The company initially saw great success but ultimately failed due to premature announcement of future models, leading to the coining of the term 'Osborne Effect' in business.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Osborne_1",
+    "citationTitle": "Wikipedia: Osborne 1"
+  },
+  {
+    "id": "202778df-a2cf-4f73-9372-c4a1fa035681",
+    "text": "What was the name of Intel's first microprocessor, released in 1971?",
+    "options": [
+      "4004",
+      "8008",
+      "8080",
+      "8086"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "The Intel 4004 was Intel's first microprocessor, released in November 1971.",
+    "detailedExplanation": "The Intel 4004 was a 4-bit central processing unit released by Intel Corporation in 1971. It was the first commercially produced microprocessor, and the first in a long line of Intel CPUs. The 4004 was initially designed for use in Busicom calculators, but Intel later marketed it as a general-purpose processor. Despite its limited capabilities by today's standards, it revolutionized computing by putting the power of a computer's central processing unit onto a single chip.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Intel_4004",
+    "citationTitle": "Wikipedia: Intel 4004"
+  },
+  {
+    "id": "eb63b60e-ad33-4ba1-a6ab-49ea8301ceb8",
+    "text": "Which computer pioneer founded the company that created the Altair 8800, often considered the first successful personal computer kit?",
+    "options": [
+      "Ed Roberts",
+      "Chuck Peddle",
+      "Jack Tramiel",
+      "Nolan Bushnell"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Ed Roberts founded MITS (Micro Instrumentation and Telemetry Systems) and created the Altair 8800 in 1975.",
+    "detailedExplanation": "Ed Roberts, often called the 'father of the personal computer,' founded MITS and developed the Altair 8800 microcomputer in 1975. The Altair 8800 was featured on the cover of Popular Electronics magazine and sparked the personal computer revolution. It was sold as a kit that hobbyists could assemble themselves, and it inspired many future computer entrepreneurs, including Bill Gates and Paul Allen, who wrote a BASIC interpreter for the machine.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Ed_Roberts_(computer_engineer)",
+    "citationTitle": "Wikipedia: Ed Roberts (computer engineer)"
+  },
+  {
+    "id": "95b56e32-3691-4375-abd5-c59680106096",
+    "text": "What storage medium did IBM introduce in 1971 that became known as the 'floppy disk'?",
+    "options": [
+      "8-inch flexible disk",
+      "5.25-inch disk",
+      "3.5-inch disk",
+      "Magnetic tape cartridge"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "IBM introduced the 8-inch flexible disk in 1971, which became commonly known as the floppy disk.",
+    "detailedExplanation": "The original floppy disk was an 8-inch flexible magnetic storage medium introduced by IBM in 1971. It was called 'floppy' because the disk was made of flexible plastic material, unlike the rigid hard disks of the time. Initially developed as a way to load microcode into IBM mainframe computers, the floppy disk soon became a popular method for storing and transferring data on personal computers. Later versions included the more familiar 5.25-inch and 3.5-inch formats.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Floppy_disk",
+    "citationTitle": "Wikipedia: Floppy disk"
+  },
+  {
+    "id": "a8b12191-2aa7-468f-9a82-470e231801a6",
+    "text": "Which early computer language, developed in the late 1950s, was designed specifically for business applications and is still used today in some legacy systems?",
+    "options": [
+      "FORTRAN",
+      "COBOL",
+      "ALGOL",
+      "LISP"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "COBOL (Common Business-Oriented Language) was developed in the late 1950s specifically for business applications.",
+    "detailedExplanation": "COBOL was developed in 1959 by a committee led by Grace Hopper and sponsored by the U.S. Department of Defense. It was specifically designed to be a common business-oriented language that could run on different computer systems. COBOL's English-like syntax made it accessible to business users and programmers alike. Despite being over 60 years old, COBOL is still used today in many banking, insurance, and government systems, handling trillions of dollars in transactions daily.",
+    "citationUrl": "https://en.wikipedia.org/wiki/COBOL",
+    "citationTitle": "Wikipedia: COBOL"
+  }
+]

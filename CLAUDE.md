@@ -45,12 +45,14 @@ AppSync resolvers run in a restricted JavaScript environment.
 - **Imports**: `import { util, Context } from "@aws-appsync/utils"`
 - **IDs**: `util.autoId()` - NOT `uuid`
 - **Timestamps**: `util.time.nowISO8601()` - NOT `new Date().toISOString()`
+- **Random numbers**: `util.math.randomDouble()` - NOT `Math.random()`
 - **DynamoDB**: `util.dynamodb.toMapValues()` for converting objects
 - **Errors**: `return util.error(message, type)` - MUST include `return`
 
 ### NOT Allowed
 
 - `new Date()`, `Date.now()` - causes deployment failure
+- `Math.random()`, `Math.floor()` - use `util.math.randomDouble()`, `util.math.roundNum()`
 - `String()` constructor - use template literal: `` `${value}` ``
 - External npm packages (uuid, etc.)
 - Node.js built-in modules
@@ -309,6 +311,27 @@ When a test fails:
 3. **Check dependencies** - Are mocks correct? Is test setup right?
 4. **Fix the root cause** - Update the implementation, not the expectation
 5. **Only update the test** if requirements were misunderstood
+
+---
+
+## AppSync GraphQL Rules
+
+### Subscription Type Matching
+**CRITICAL**: Subscription return types must match ALL subscribed mutations' return types.
+
+```graphql
+# CORRECT - types match
+onNewMessage(channelId: ID!): Message
+  @aws_subscribe(mutations: ["sendMessage"])  # sendMessage returns Message
+
+# WRONG - deployment fails
+onGameUpdated(gameId: ID!): Game
+  @aws_subscribe(mutations: ["submitSelection"])  # returns SubmitResult, not Game!
+```
+
+### Resolver Format
+- AppSync JS runtime provides `util` as a global - do NOT import it
+- Use `export function request(ctx)` and `export function response(ctx)`
 
 ---
 

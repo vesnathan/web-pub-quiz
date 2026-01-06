@@ -1,0 +1,342 @@
+[
+  {
+    "id": "201cee12-d4e8-43b3-9d45-a8eb9569521f",
+    "text": "What does 'EV' stand for in the context of modern transportation?",
+    "options": [
+      "Electric Vehicle",
+      "Energy Vehicle",
+      "Electronic Vehicle",
+      "Efficient Vehicle"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "EV is the standard abbreviation for Electric Vehicle.",
+    "detailedExplanation": "Electric Vehicle (EV) is the widely accepted term for vehicles that use one or more electric motors for propulsion. These vehicles are powered by electricity stored in rechargeable battery packs, rather than traditional internal combustion engines that burn gasoline or diesel fuel. The term has become increasingly common as electric vehicles have gained popularity in recent years.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Electric_vehicle",
+    "citationTitle": "Wikipedia: Electric vehicle"
+  },
+  {
+    "id": "b8921eb9-911d-4906-be29-4168fe77ade4",
+    "text": "Which company is famous for popularizing modern electric cars with models like the Model S and Model 3?",
+    "options": [
+      "Ford",
+      "Tesla",
+      "General Motors",
+      "Toyota"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Tesla is the company that revolutionized the modern electric car market.",
+    "detailedExplanation": "Tesla, founded by Elon Musk and others, became the leading force in popularizing electric vehicles in the 21st century. Starting with the Tesla Roadster in 2008, the company went on to produce highly successful models like the Model S luxury sedan and the more affordable Model 3, which helped bring electric vehicles into the mainstream market and proved that EVs could be both practical and desirable.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Tesla,_Inc.",
+    "citationTitle": "Wikipedia: Tesla, Inc."
+  },
+  {
+    "id": "69ab7c98-77f0-4251-aaca-ab0fcb6a797a",
+    "text": "What type of energy storage device powers most modern electric vehicles?",
+    "options": [
+      "Solar panels",
+      "Lithium-ion batteries",
+      "Fuel cells",
+      "Wind turbines"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Lithium-ion batteries are the primary energy storage technology used in most electric vehicles.",
+    "detailedExplanation": "Lithium-ion batteries have become the standard power source for electric vehicles due to their high energy density, relatively light weight, and ability to be recharged hundreds of times. These batteries store electrical energy chemically and can deliver the high power needed for vehicle acceleration while providing sufficient range for daily driving needs. While other technologies like fuel cells exist, lithium-ion batteries dominate the current EV market.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Electric_vehicle_battery",
+    "citationTitle": "Wikipedia: Electric vehicle battery"
+  },
+  {
+    "id": "3e849bb9-22cc-4aaa-ae8a-db9f59f424bd",
+    "text": "What is the main advantage of electric vehicles over traditional gasoline cars in terms of environmental impact?",
+    "options": [
+      "They are lighter",
+      "They produce zero direct emissions",
+      "They are cheaper to manufacture",
+      "They last longer"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Electric vehicles produce no direct emissions from their operation, unlike gasoline cars.",
+    "detailedExplanation": "The primary environmental advantage of electric vehicles is that they produce zero direct emissions during operation. Unlike internal combustion engine vehicles that burn fossil fuels and emit pollutants directly from their tailpipes, electric vehicles only emit what comes from the electricity generation used to charge them. This means that in areas with clean electricity grids powered by renewable sources, EVs can have a dramatically lower environmental impact.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Environmental_aspects_of_the_electric_car",
+    "citationTitle": "Wikipedia: Environmental aspects of the electric car"
+  },
+  {
+    "id": "8106e4b0-058d-4376-833b-ba767ccb98aa",
+    "text": "What is 'range anxiety' in relation to electric vehicles?",
+    "options": [
+      "Fear of driving too fast",
+      "Concern about running out of battery charge",
+      "Worry about the car's price range",
+      "Anxiety about the vehicle's age range"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Range anxiety refers to the fear of running out of battery power before reaching a charging station.",
+    "detailedExplanation": "Range anxiety is a common concern among potential electric vehicle buyers and some current EV owners. It describes the worry that the vehicle's battery will run out of charge before the driver can reach their destination or find a charging station. This anxiety has been a significant barrier to EV adoption, though it has decreased as battery technology has improved, providing longer ranges, and charging infrastructure has expanded.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Range_anxiety",
+    "citationTitle": "Wikipedia: Range anxiety"
+  },
+  {
+    "id": "e85e842d-b4aa-4ac6-908d-f4c45de10bfc",
+    "text": "Which of these is a common method for charging an electric vehicle at home?",
+    "options": [
+      "Using a standard wall outlet",
+      "Solar panel direct connection",
+      "Hand crank generator",
+      "Wireless charging pad"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Most electric vehicles can be charged using a standard household electrical outlet.",
+    "detailedExplanation": "The most accessible way to charge an electric vehicle at home is by plugging it into a standard wall outlet, also known as Level 1 charging. While this method charges more slowly than dedicated charging stations, it's convenient because it requires no special installation and uses the same 120-volt outlets found in most homes. Many EV owners also install Level 2 chargers (240-volt) for faster home charging, but the standard outlet remains the most common starting point for home charging.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Charging_station",
+    "citationTitle": "Wikipedia: Charging station"
+  },
+  {
+    "id": "169bac7a-5789-4f67-82bf-959c12944e48",
+    "text": "What is regenerative braking in electric vehicles?",
+    "options": [
+      "A safety feature that prevents skidding",
+      "A system that recovers energy when slowing down",
+      "A method to cool the brakes",
+      "A way to brake without using the brake pedal"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Regenerative braking captures energy that would otherwise be lost during braking and feeds it back to the battery.",
+    "detailedExplanation": "Regenerative braking is an innovative feature in electric vehicles that helps improve efficiency and extend driving range. When the driver releases the accelerator or applies the brakes, the electric motor reverses its function and acts as a generator, converting the vehicle's kinetic energy back into electrical energy that is stored in the battery. This process not only helps recharge the battery but also provides braking force, reducing wear on traditional brake pads and improving overall energy efficiency.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Regenerative_brake",
+    "citationTitle": "Wikipedia: Regenerative brake"
+  },
+  {
+    "id": "b0466c06-7830-48be-9851-4c77c10c8dd8",
+    "text": "Which country is currently the world's largest market for electric vehicle sales?",
+    "options": [
+      "United States",
+      "Germany",
+      "China",
+      "Japan"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "China is the world's largest market for electric vehicle sales and production.",
+    "detailedExplanation": "China has emerged as the dominant global market for electric vehicles, accounting for more than half of all EV sales worldwide. The Chinese government has strongly promoted electric vehicle adoption through subsidies, regulations, and infrastructure development as part of efforts to reduce air pollution and dependence on oil imports. Major Chinese EV manufacturers like BYD and NIO have become significant players in the global market, and China also leads in EV battery production and charging infrastructure deployment.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Electric_car_use_by_country",
+    "citationTitle": "Wikipedia: Electric car use by country"
+  },
+  {
+    "id": "609cc70d-d01b-46b7-82ef-76caf32f6617",
+    "text": "What is the typical voltage range of the battery pack in most modern electric cars?",
+    "options": [
+      "12-24 volts",
+      "100-200 volts",
+      "300-800 volts",
+      "1000-2000 volts"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Most modern electric vehicles use high-voltage battery packs ranging from 300 to 800 volts.",
+    "detailedExplanation": "Modern electric vehicles require high-voltage battery systems to efficiently power their electric motors and deliver adequate performance. Most EVs operate with battery packs in the 300-800 volt range, with many premium models using 400V or 800V architectures. This high voltage allows for faster charging speeds and more efficient power delivery compared to lower voltage systems.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Electric_vehicle_battery",
+    "citationTitle": "Wikipedia: Electric vehicle battery"
+  },
+  {
+    "id": "02c92e04-8977-4bb5-b7d7-61f772a48d8a",
+    "text": "Which automaker produced the first mass-produced electric vehicle in the modern era, the EV1?",
+    "options": [
+      "Ford",
+      "General Motors",
+      "Toyota",
+      "Nissan"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "General Motors produced the EV1 from 1996-1999, which was the first mass-produced electric vehicle of the modern era.",
+    "detailedExplanation": "The General Motors EV1 was a revolutionary electric car produced from 1996 to 1999. It was the first mass-produced and purpose-designed electric vehicle of the modern era, featuring advanced aerodynamics and lightweight construction. The EV1 program was ultimately discontinued and most vehicles were recalled and destroyed, but it paved the way for future electric vehicle development.",
+    "citationUrl": "https://en.wikipedia.org/wiki/General_Motors_EV1",
+    "citationTitle": "Wikipedia: General Motors EV1"
+  },
+  {
+    "id": "8b0504e4-07ab-4622-8a54-4ed0ee8592d3",
+    "text": "What does 'kWh' measure in relation to electric vehicle batteries?",
+    "options": [
+      "Charging speed",
+      "Energy capacity",
+      "Motor power",
+      "Voltage output"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "kWh (kilowatt-hours) measures the energy storage capacity of an electric vehicle's battery pack.",
+    "detailedExplanation": "kWh stands for kilowatt-hours and represents the total amount of energy that can be stored in an electric vehicle's battery pack. This measurement is similar to how gasoline capacity is measured in gallons or liters. A higher kWh rating typically means longer driving range, though actual range also depends on the vehicle's efficiency and driving conditions.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Kilowatt-hour",
+    "citationTitle": "Wikipedia: Kilowatt-hour"
+  },
+  {
+    "id": "903249c0-e96c-44d0-af0d-5da9172ce6c0",
+    "text": "What type of electric motor is most commonly used in electric vehicles?",
+    "options": [
+      "DC brushed motor",
+      "AC induction motor",
+      "Stepper motor",
+      "Servo motor"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "AC induction motors are the most commonly used type in electric vehicles due to their efficiency and reliability.",
+    "detailedExplanation": "AC induction motors are widely used in electric vehicles because they offer excellent efficiency, reliability, and performance characteristics. These motors use alternating current and electromagnetic induction to create rotation, providing smooth acceleration and the ability to recover energy during braking. Tesla popularized their use in EVs, though some manufacturers also use permanent magnet synchronous motors.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Electric_motor",
+    "citationTitle": "Wikipedia: Electric motor"
+  },
+  {
+    "id": "82d08d17-3059-4043-8cf6-f46a02caa7be",
+    "text": "Which charging standard is most commonly used for fast DC charging in North America?",
+    "options": [
+      "CHAdeMO",
+      "CCS Combo",
+      "Tesla Supercharger",
+      "Type 2"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "CCS (Combined Charging System) Combo is the most widely adopted fast DC charging standard in North America.",
+    "detailedExplanation": "The Combined Charging System (CCS) Combo connector has become the dominant fast DC charging standard in North America, adopted by most major automakers except Tesla. CCS allows for both AC and DC charging through the same port and supports high-power charging up to 350kW or more. This standardization helps ensure compatibility across different vehicle brands and charging networks.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Combined_Charging_System",
+    "citationTitle": "Wikipedia: Combined Charging System"
+  },
+  {
+    "id": "d6e41492-25d9-4ec5-903e-6f3d73bd2a0b",
+    "text": "What is the approximate efficiency of electric vehicles compared to gasoline cars?",
+    "options": [
+      "Same efficiency (around 30%)",
+      "Slightly better (around 40%)",
+      "Much better (around 80-90%)",
+      "Lower efficiency (around 20%)"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Electric vehicles are much more efficient than gasoline cars, converting about 80-90% of electrical energy into motion.",
+    "detailedExplanation": "Electric vehicles are significantly more efficient than internal combustion engine vehicles. While gasoline cars typically convert only about 20-30% of the fuel's energy into motion (the rest is lost as heat), electric vehicles convert approximately 80-90% of the electrical energy from the battery into motion at the wheels. This high efficiency is one of the key advantages of electric propulsion.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Electric_vehicle",
+    "citationTitle": "Wikipedia: Electric vehicle"
+  },
+  {
+    "id": "4e4cbfa0-7b43-4531-bec2-54ba96689b2b",
+    "text": "Which electric vehicle was the world's best-selling all-electric car as of 2023?",
+    "options": [
+      "Nissan Leaf",
+      "Tesla Model 3",
+      "Chevrolet Bolt",
+      "BMW i3"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "The Tesla Model 3 became the world's best-selling all-electric vehicle, surpassing the Nissan Leaf.",
+    "detailedExplanation": "The Tesla Model 3 has become the world's best-selling all-electric vehicle since its launch in 2017. It overtook the Nissan Leaf, which held the title for many years as the first mass-market electric car. The Model 3's success helped accelerate global electric vehicle adoption and demonstrated consumer appetite for long-range, performance-oriented electric cars.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Tesla_Model_3",
+    "citationTitle": "Wikipedia: Tesla Model 3"
+  },
+  {
+    "id": "11fc743f-b7ac-4fd2-b716-168b53fc3ed8",
+    "text": "What is the typical lifespan of an electric vehicle battery pack?",
+    "options": [
+      "3-5 years",
+      "8-15 years",
+      "20-25 years",
+      "1-2 years"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Electric vehicle battery packs typically last 8-15 years, often outlasting the vehicle itself.",
+    "detailedExplanation": "Modern electric vehicle battery packs are designed to last 8-15 years or more, depending on usage patterns, climate, and battery chemistry. Most manufacturers provide warranties of 8-10 years or 100,000+ miles on their battery packs. While batteries do gradually lose capacity over time, many retain 70-80% of their original capacity even after a decade of use, and can often be repurposed for stationary energy storage applications.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Electric_vehicle_battery",
+    "citationTitle": "Wikipedia: Electric vehicle battery"
+  },
+  {
+    "id": "7c267e27-daa3-412b-a39b-4d97dfb35a6b",
+    "text": "What was the name of the first commercially successful electric car produced in the 1990s by General Motors?",
+    "options": [
+      "EV1",
+      "Volt",
+      "Bolt",
+      "Impact"
+    ],
+    "correctIndex": 3,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "The GM Impact was the prototype that led to the EV1 production model.",
+    "detailedExplanation": "The General Motors Impact was an electric concept car that debuted in 1990 and became the foundation for the EV1 production vehicle. The Impact was showcased at auto shows and served as GM's first serious attempt at creating a modern electric vehicle for mass production. While the EV1 became the actual production model, the Impact was the groundbreaking prototype that proved electric vehicles could be viable for everyday use.",
+    "citationUrl": "https://en.wikipedia.org/wiki/General_Motors_Impact",
+    "citationTitle": "Wikipedia: General Motors Impact"
+  },
+  {
+    "id": "e60e49ed-cf0f-4656-bb59-09d37310b8cb",
+    "text": "Which luxury car manufacturer launched the all-electric Taycan model in 2019?",
+    "options": [
+      "BMW",
+      "Mercedes-Benz",
+      "Audi",
+      "Porsche"
+    ],
+    "correctIndex": 3,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Porsche released the Taycan as their first fully electric sports car in 2019.",
+    "detailedExplanation": "The Porsche Taycan marked the German luxury sports car manufacturer's entry into the fully electric vehicle market when it launched in 2019. The Taycan represents Porsche's commitment to electrification while maintaining their reputation for high-performance vehicles. It was designed to compete with other luxury electric vehicles and demonstrated that electric cars could deliver the driving dynamics and luxury experience that Porsche customers expect.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Porsche_Taycan",
+    "citationTitle": "Wikipedia: Porsche Taycan"
+  },
+  {
+    "id": "aa3e295f-4618-4ff2-9552-21fb350b99d3",
+    "text": "What is the name of the electric vehicle charging network operated by Tesla?",
+    "options": [
+      "PowerGrid",
+      "Supercharger",
+      "ElectroNet",
+      "ChargeMaster"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Tesla's proprietary charging network is called the Supercharger network.",
+    "detailedExplanation": "Tesla's Supercharger network is the company's proprietary fast-charging infrastructure designed specifically for Tesla vehicles. Launched to address range anxiety and enable long-distance travel, the Supercharger network has become one of the most extensive and reliable fast-charging networks globally. These stations can charge Tesla vehicles much faster than standard home charging, typically adding hundreds of miles of range in less than an hour.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Tesla_Supercharger",
+    "citationTitle": "Wikipedia: Tesla Supercharger"
+  },
+  {
+    "id": "0eba235a-7680-4805-a0d9-2e46aa20de23",
+    "text": "Which Japanese automaker produced the Leaf, one of the world's first mass-market electric vehicles?",
+    "options": [
+      "Toyota",
+      "Honda",
+      "Nissan",
+      "Mazda"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Nissan launched the Leaf in 2010 as one of the first affordable mass-market electric cars.",
+    "detailedExplanation": "The Nissan Leaf, introduced in 2010, was revolutionary as one of the first affordable, mass-produced electric vehicles designed for everyday consumers. Unlike previous electric vehicles that were often limited production or experimental, the Leaf was marketed globally and helped establish the foundation for the modern electric vehicle market. It demonstrated that electric vehicles could be practical, reliable, and accessible to average consumers, not just luxury car buyers or environmental enthusiasts.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Nissan_Leaf",
+    "citationTitle": "Wikipedia: Nissan Leaf"
+  }
+]

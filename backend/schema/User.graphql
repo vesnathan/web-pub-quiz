@@ -5,18 +5,24 @@ type User {
   email: String!
   username: String!
   displayName: String!
+  firstName: String
+  lastName: String
   createdAt: String!
   stats: UserStats!
   subscription: UserSubscription!
   badges: [Badge!]!
   totalSkillPoints: Int!
   tipUnlockedUntil: String
+  referredBy: ID
+  referralCount: Int!
 }
 
 type UserPublic {
   id: ID!
   username: String!
   displayName: String!
+  firstName: String
+  lastName: String
   stats: UserStats!
   badges: [Badge!]!
   totalSkillPoints: Int!

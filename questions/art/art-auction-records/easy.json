@@ -1,0 +1,342 @@
+[
+  {
+    "id": "a0cc1373-8008-4f6a-8490-4ab128134b8f",
+    "text": "Which Leonardo da Vinci painting holds the record as the most expensive artwork ever sold at public auction?",
+    "options": [
+      "Mona Lisa",
+      "Salvator Mundi",
+      "The Last Supper",
+      "Vitruvian Man"
+    ],
+    "correctIndex": 1,
+    "category": "arts",
+    "difficulty": "easy",
+    "explanation": "Salvator Mundi sold for $450.3 million at Christie's in 2017.",
+    "detailedExplanation": "Leonardo da Vinci's 'Salvator Mundi' became the most expensive artwork ever sold at public auction when it fetched $450.3 million at Christie's New York in November 2017. The painting, depicting Christ as Savior of the World, dates from around 1500 and was long thought to be by a follower of da Vinci before being authenticated as a work by the master himself. The sale price far exceeded pre-sale estimates and broke all previous auction records.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Salvator_Mundi_(Leonardo)",
+    "citationTitle": "Wikipedia: Salvator Mundi (Leonardo)"
+  },
+  {
+    "id": "3c617967-1740-4c95-bfba-04ecb1d49490",
+    "text": "Which auction house achieved the record-breaking sale of Paul Cézanne's 'The Card Players' in a private sale?",
+    "options": [
+      "Christie's",
+      "Sotheby's",
+      "Phillips",
+      "It was not sold through a major auction house"
+    ],
+    "correctIndex": 3,
+    "category": "arts",
+    "difficulty": "easy",
+    "explanation": "The Card Players was sold privately between collectors, not through a traditional auction house.",
+    "detailedExplanation": "Paul Cézanne's 'The Card Players' was sold in a private sale directly between collectors rather than through a major auction house. The painting was reportedly sold for over $250 million around 2011, making it one of the most expensive paintings ever sold. Private sales like this are becoming increasingly common for extremely high-value artworks, as they offer more discretion and privacy than public auctions, though they don't generate the same publicity as public auction records.",
+    "citationUrl": "https://en.wikipedia.org/wiki/The_Card_Players",
+    "citationTitle": "Wikipedia: The Card Players"
+  },
+  {
+    "id": "27cf936e-a1e9-4262-901e-f91dab741a0e",
+    "text": "In what year did Vincent van Gogh's 'Portrait of Dr. Gachet' set a then-record auction price of $82.5 million?",
+    "options": [
+      "1987",
+      "1990",
+      "1993",
+      "1996"
+    ],
+    "correctIndex": 1,
+    "category": "arts",
+    "difficulty": "easy",
+    "explanation": "Van Gogh's Portrait of Dr. Gachet sold for $82.5 million at Christie's in 1990.",
+    "detailedExplanation": "Vincent van Gogh's 'Portrait of Dr. Gachet' was sold at Christie's New York in May 1990 for $82.5 million, setting a new world record for the most expensive painting sold at auction at that time. The sale marked a significant milestone in the art market, as it was the first painting to break the $80 million barrier. The painting was purchased by Japanese businessman Ryoei Saito, and the record stood for several years before being surpassed by other works.",
+    "citationUrl": "https://en.wikipedia.org/wiki/The_Portrait_of_Dr._Gachet",
+    "citationTitle": "Wikipedia: The Portrait of Dr. Gachet"
+  },
+  {
+    "id": "edae1179-b780-47a7-9918-a5c48efbb6c4",
+    "text": "Which Jackson Pollock painting became the first drip painting to sell for over $200 million?",
+    "options": [
+      "Autumn Rhythm",
+      "Blue Poles",
+      "No. 17A",
+      "No. 5, 1948"
+    ],
+    "correctIndex": 3,
+    "category": "arts",
+    "difficulty": "easy",
+    "explanation": "No. 5, 1948 reportedly sold for around $140-200 million in a private sale in 2006.",
+    "detailedExplanation": "Jackson Pollock's 'No. 5, 1948' is widely reported to have been sold in a private transaction for approximately $140-200 million in 2006, making it one of the most expensive paintings ever sold and the first drip painting to achieve such a price. The abstract expressionist work exemplifies Pollock's revolutionary drip painting technique, where paint was dripped and poured onto canvas laid on the floor. While the exact sale price has never been officially confirmed, it represents the high value placed on Pollock's innovative artistic contributions.",
+    "citationUrl": "https://en.wikipedia.org/wiki/No._5,_1948",
+    "citationTitle": "Wikipedia: No. 5, 1948"
+  },
+  {
+    "id": "884d9c52-cd91-4d08-af0d-c033bf878480",
+    "text": "What Pablo Picasso painting held the auction record for most expensive artwork before being surpassed by Salvator Mundi?",
+    "options": [
+      "Les Demoiselles d'Avignon",
+      "Women of Algiers (Version 'O')",
+      "Guernica",
+      "Boy with a Pipe"
+    ],
+    "correctIndex": 1,
+    "category": "arts",
+    "difficulty": "easy",
+    "explanation": "Women of Algiers (Version 'O') sold for $179.4 million in 2015.",
+    "detailedExplanation": "Pablo Picasso's 'Women of Algiers (Version 'O')' held the record as the most expensive artwork sold at public auction when it sold for $179.4 million at Christie's New York in May 2015. The 1955 painting is part of a series of 15 works inspired by Eugène Delacroix's 'The Women of Algiers in their Apartment.' This Cubist masterpiece held the auction record for about two and a half years until it was surpassed by Leonardo da Vinci's 'Salvator Mundi' in November 2017.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Women_of_Algiers",
+    "citationTitle": "Wikipedia: Women of Algiers"
+  },
+  {
+    "id": "f1caeb19-8271-4340-ba59-fd773b29fb1e",
+    "text": "Which artist's work 'Orange, Red, Yellow' became the most expensive post-war artwork sold at auction when it fetched $86.9 million in 2012?",
+    "options": [
+      "Jackson Pollock",
+      "Mark Rothko",
+      "Willem de Kooning",
+      "Cy Twombly"
+    ],
+    "correctIndex": 1,
+    "category": "arts",
+    "difficulty": "easy",
+    "explanation": "Mark Rothko's 'Orange, Red, Yellow' sold for $86.9 million at Christie's in 2012.",
+    "detailedExplanation": "Mark Rothko's 'Orange, Red, Yellow' from 1961 became the most expensive post-war artwork sold at auction when it achieved $86.9 million at Christie's New York in May 2012. The large-scale color field painting exemplifies Rothko's mature style with its luminous bands of color that seem to float and interact with each other. This sale demonstrated the strong market demand for Abstract Expressionist works and established Rothko as one of the most valuable post-war artists in the auction market.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Orange,_Red,_Yellow",
+    "citationTitle": "Wikipedia: Orange, Red, Yellow"
+  },
+  {
+    "id": "a02fd236-1816-498b-9cb0-37006ffc361f",
+    "text": "Which sculpture holds the record for most expensive sculpture sold at public auction?",
+    "options": [
+      "L'Homme au doigt by Giacometti",
+      "Balloon Dog by Jeff Koons",
+      "The Thinker by Rodin",
+      "Bird in Space by Brancusi"
+    ],
+    "correctIndex": 0,
+    "category": "arts",
+    "difficulty": "easy",
+    "explanation": "Giacometti's L'Homme au doigt sold for $141.3 million in 2015.",
+    "detailedExplanation": "Alberto Giacometti's bronze sculpture 'L'Homme au doigt' (Pointing Man) holds the record for the most expensive sculpture ever sold at public auction, achieving $141.3 million at Christie's New York in May 2015. The 1947 sculpture, standing about six feet tall, is one of six casts and exemplifies Giacometti's distinctive elongated figure style developed after World War II. The sale price far exceeded expectations and demonstrated the strong market for important 20th-century sculpture, particularly works that bridge traditional figurative art with modern sensibilities.",
+    "citationUrl": "https://en.wikipedia.org/wiki/L%27Homme_au_doigt",
+    "citationTitle": "Wikipedia: L'Homme au doigt"
+  },
+  {
+    "id": "576b961f-fcff-4ef6-9e6d-7f6b6991329d",
+    "text": "In which decade did art auction prices first regularly exceed $10 million for individual works?",
+    "options": [
+      "1970s",
+      "1980s",
+      "1990s",
+      "2000s"
+    ],
+    "correctIndex": 1,
+    "category": "arts",
+    "difficulty": "easy",
+    "explanation": "The 1980s saw the first regular sales exceeding $10 million, with van Gogh's Irises selling for $53.9 million in 1987.",
+    "detailedExplanation": "The 1980s marked a revolutionary period in art auction prices when works first regularly began selling for over $10 million. This decade saw unprecedented growth in the art market, driven by economic prosperity, increased global participation, and growing recognition of art as an investment class. The culmination came with van Gogh's 'Irises' selling for $53.9 million in 1987, which was then a record price. This period established the foundation for today's high-value art market and demonstrated that certain artworks could command prices previously thought impossible.",
+    "citationUrl": "https://en.wikipedia.org/wiki/List_of_most_expensive_paintings",
+    "citationTitle": "Wikipedia: List of most expensive paintings"
+  },
+  {
+    "id": "3f8717ca-6bd7-40e0-b7a6-716207759f5b",
+    "text": "Which famous auction house was founded first and remains one of the 'Big Two' auction houses for art sales today?",
+    "options": [
+      "Christie's",
+      "Sotheby's",
+      "Phillips",
+      "Bonhams"
+    ],
+    "correctIndex": 1,
+    "category": "arts",
+    "difficulty": "easy",
+    "explanation": "Sotheby's was founded in 1744, making it older than Christie's (1766).",
+    "detailedExplanation": "Sotheby's was established in London in 1744 by Samuel Baker, initially dealing in books and manuscripts before expanding into fine art. Christie's followed in 1766, founded by James Christie. Together, these two auction houses dominate the global art auction market and are responsible for most of the record-breaking sales in art history, including many works that have achieved prices exceeding $100 million.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Sotheby%27s",
+    "citationTitle": "Wikipedia: Sotheby's"
+  },
+  {
+    "id": "1a1a3355-b94c-4fb2-a6a7-5171e04c1425",
+    "text": "What percentage commission do major auction houses typically charge buyers on top of the hammer price?",
+    "options": [
+      "10-15%",
+      "25-30%",
+      "35-40%",
+      "45-50%"
+    ],
+    "correctIndex": 1,
+    "category": "arts",
+    "difficulty": "easy",
+    "explanation": "Major auction houses typically charge buyers a premium of 25-30% on top of the hammer price.",
+    "detailedExplanation": "Auction houses generate revenue through buyer's premiums, which are percentages added to the final hammer price. At major houses like Christie's and Sotheby's, this premium typically ranges from 25-30% depending on the sale price tier, with higher percentages for lower-value lots and reduced rates for very expensive pieces. This means when record prices are reported, the total amount paid by the buyer is actually higher than the headline hammer price.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Art_auction",
+    "citationTitle": "Wikipedia: Art auction"
+  },
+  {
+    "id": "3ee086db-46e6-4fd6-8b9d-3b1e4138b0e4",
+    "text": "Which month traditionally marks the peak season for major art auctions in New York and London?",
+    "options": [
+      "May",
+      "September",
+      "December",
+      "February"
+    ],
+    "correctIndex": 0,
+    "category": "arts",
+    "difficulty": "easy",
+    "explanation": "May is traditionally the peak auction season, particularly for Impressionist, Modern, and Contemporary art sales.",
+    "detailedExplanation": "The art auction calendar follows a predictable seasonal pattern, with May being the most important month for major sales. This timing coincides with favorable weather for international travel and follows the major art fairs earlier in the year. Many of the most significant auction records have been set during these May evening sales in New York, when auction houses present their most valuable consignments and attract the highest concentration of serious collectors and dealers.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Art_market",
+    "citationTitle": "Wikipedia: Art market"
+  },
+  {
+    "id": "ce00f23c-327b-4daf-8e77-2eb1725eb0b4",
+    "text": "Which billionaire collector has been involved in several record-breaking art purchases at auction in recent years?",
+    "options": [
+      "Elon Musk",
+      "Ken Griffin",
+      "Mark Zuckerberg",
+      "Bill Gates"
+    ],
+    "correctIndex": 1,
+    "category": "arts",
+    "difficulty": "easy",
+    "explanation": "Ken Griffin, hedge fund manager, has made several record-breaking art purchases including works by Basquiat and de Kooning.",
+    "detailedExplanation": "Ken Griffin, founder of Citadel hedge fund, has become one of the most prominent figures in the contemporary art auction market. He has purchased several works for record-breaking prices, including Jean-Michel Basquiat's painting that sold for over $100 million and Willem de Kooning's 'Interchange'. His collecting activity has significantly influenced auction records in the contemporary art market, demonstrating how wealthy collectors can drive prices to unprecedented levels.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Ken_Griffin",
+    "citationTitle": "Wikipedia: Ken Griffin"
+  },
+  {
+    "id": "eed13b18-fae9-4550-9747-757a67335c69",
+    "text": "What term describes the minimum price at which a seller agrees to sell their artwork at auction?",
+    "options": [
+      "Reserve price",
+      "Hammer price",
+      "Estimate price",
+      "Premium price"
+    ],
+    "correctIndex": 0,
+    "category": "arts",
+    "difficulty": "easy",
+    "explanation": "The reserve price is the confidential minimum price below which the auctioneer will not sell the lot.",
+    "detailedExplanation": "Reserve prices are crucial elements in art auctions that protect sellers from having to sell their valuable artworks below acceptable prices. Typically set between the low and high estimates, reserves are usually kept confidential. If bidding doesn't reach the reserve, the lot is 'bought in' or withdrawn. Understanding reserves is important when analyzing auction records, as they influence the success rate of sales and can affect the final hammer prices achieved by comparable works.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Reserve_price",
+    "citationTitle": "Wikipedia: Reserve price"
+  },
+  {
+    "id": "359224a8-c976-492a-a625-32a074384628",
+    "text": "Which contemporary artist's works have consistently achieved some of the highest prices at auction among living artists?",
+    "options": [
+      "Jeff Koons",
+      "Damien Hirst",
+      "David Hockney",
+      "Gerhard Richter"
+    ],
+    "correctIndex": 0,
+    "category": "arts",
+    "difficulty": "easy",
+    "explanation": "Jeff Koons holds multiple auction records for living artists, including his 'Rabbit' sculpture that sold for over $91 million.",
+    "detailedExplanation": "Jeff Koons has dominated auction records for living artists, with his works regularly achieving eight-figure prices. His stainless steel 'Rabbit' sculpture set a record for a living artist when it sold for $91.1 million in 2019. Koons' market success reflects the contemporary art boom and the willingness of collectors to pay premium prices for iconic works by established living artists, making him a key figure in understanding modern auction dynamics.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Jeff_Koons",
+    "citationTitle": "Wikipedia: Jeff Koons"
+  },
+  {
+    "id": "74f86cc3-e282-417b-9626-53b4d31a469e",
+    "text": "In which city do the highest-value art auctions typically take place?",
+    "options": [
+      "London",
+      "New York",
+      "Paris",
+      "Hong Kong"
+    ],
+    "correctIndex": 1,
+    "category": "arts",
+    "difficulty": "easy",
+    "explanation": "New York hosts the majority of record-breaking art auctions, particularly during the May and November sales seasons.",
+    "detailedExplanation": "New York has established itself as the global center for high-value art auctions, with both Christie's and Sotheby's conducting their most important sales in Manhattan. The city's concentration of wealthy collectors, museums, and art market professionals creates the ideal environment for record-breaking sales. While London, Hong Kong, and Paris host significant auctions, the highest prices and most media attention typically focus on New York's evening sales of Impressionist, Modern, and Contemporary art.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Art_market",
+    "citationTitle": "Wikipedia: Art market"
+  },
+  {
+    "id": "244a0d25-e12a-48ad-9de8-faa5806ade0d",
+    "text": "What happens to an artwork if it fails to meet its reserve price during an auction?",
+    "options": [
+      "It's sold at a discount",
+      "It's bought in",
+      "It goes to the next highest bidder",
+      "It's donated to charity"
+    ],
+    "correctIndex": 1,
+    "category": "arts",
+    "difficulty": "easy",
+    "explanation": "When an artwork doesn't reach its reserve price, it is 'bought in' meaning it remains unsold and returns to the consigner.",
+    "detailedExplanation": "When bidding fails to reach the reserve price, the lot is 'bought in' or 'passed,' meaning it doesn't sell and is returned to the consigner. This is a common occurrence in art auctions and doesn't necessarily reflect poorly on the artwork's quality or future prospects. Works that are bought in can be re-offered at future sales, sold privately, or withdrawn from the market. Understanding this process helps explain why not every lot at auction contributes to the record-breaking sales that make headlines.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Art_auction",
+    "citationTitle": "Wikipedia: Art auction"
+  },
+  {
+    "id": "515a309a-8d28-447f-a1cd-ea1c29bbe0cf",
+    "text": "Which artist's sculpture 'Rabbit' sold for $91.1 million in 2019, setting a record for a living artist at auction?",
+    "options": [
+      "Jeff Koons",
+      "Damien Hirst",
+      "David Hockney",
+      "Banksy"
+    ],
+    "correctIndex": 0,
+    "category": "arts",
+    "difficulty": "easy",
+    "explanation": "Jeff Koons' stainless steel 'Rabbit' sculpture sold for $91.1 million at Christie's in 2019.",
+    "detailedExplanation": "Jeff Koons' iconic stainless steel sculpture 'Rabbit' from 1986 achieved a record-breaking sale of $91.1 million at Christie's New York in May 2019, making it the most expensive work by a living artist ever sold at auction at that time. The reflective bunny sculpture is considered one of the most recognizable works of contemporary art and exemplifies Koons' exploration of consumer culture and childhood nostalgia.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Rabbit_(Koons)",
+    "citationTitle": "Wikipedia: Rabbit (Koons)"
+  },
+  {
+    "id": "08b3c9aa-be20-43ab-a723-49596d61a366",
+    "text": "What is the term for the pre-sale estimate range that auction houses provide for artworks?",
+    "options": [
+      "Estimate range",
+      "Bid guidance",
+      "Price forecast",
+      "Value bracket"
+    ],
+    "correctIndex": 0,
+    "category": "arts",
+    "difficulty": "easy",
+    "explanation": "Auction houses provide estimate ranges showing the expected selling price before the sale.",
+    "detailedExplanation": "The estimate range is a pre-sale assessment provided by auction houses indicating the price range they expect an artwork to achieve at auction. These estimates are typically listed as a low and high figure (e.g., $5-7 million) and are based on factors including the artist's auction history, the work's condition, provenance, and current market conditions. The estimates help guide potential bidders and are often used by the media to gauge whether a sale exceeded or fell short of expectations.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Art_auction",
+    "citationTitle": "Wikipedia: Art auction"
+  },
+  {
+    "id": "573d61e7-2277-4fe7-9b71-4ad7c452ee4b",
+    "text": "Which Andy Warhol work became the most expensive Warhol ever sold when it fetched $195 million in 2022?",
+    "options": [
+      "Shot Sage Blue Marilyn",
+      "Silver Car Crash",
+      "Triple Elvis",
+      "Campbell's Soup Cans"
+    ],
+    "correctIndex": 0,
+    "category": "arts",
+    "difficulty": "easy",
+    "explanation": "Warhol's 'Shot Sage Blue Marilyn' sold for $195 million at Christie's in May 2022.",
+    "detailedExplanation": "Andy Warhol's 1964 silkscreen 'Shot Sage Blue Marilyn' achieved a record-breaking $195 million at Christie's New York in May 2022, making it the most expensive Warhol ever sold and the most expensive 20th-century artwork at auction. The iconic portrait of Marilyn Monroe is part of Warhol's famous 'Shot Marilyns' series and represents the intersection of celebrity culture, mass media, and fine art that defined Warhol's career.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Shot_Marilyns",
+    "citationTitle": "Wikipedia: Shot Marilyns"
+  },
+  {
+    "id": "ec542e69-2d13-4537-bc62-2da785e16a8c",
+    "text": "What record did Edvard Munch's 'The Scream' achieve when it sold for $119.9 million in 2012?",
+    "options": [
+      "Most expensive pastel artwork",
+      "Most expensive Expressionist work",
+      "Most expensive artwork at auction (at the time)",
+      "Most expensive Norwegian artwork"
+    ],
+    "correctIndex": 2,
+    "category": "arts",
+    "difficulty": "easy",
+    "explanation": "Munch's 'The Scream' was the most expensive artwork ever sold at auction when it achieved $119.9 million in 2012.",
+    "detailedExplanation": "When Edvard Munch's 'The Scream' sold for $119.9 million at Sotheby's New York in May 2012, it became the most expensive artwork ever sold at public auction at that time. The 1895 pastel version of the iconic image held this record until it was surpassed by subsequent sales. The sale was particularly notable because 'The Scream' is one of the most recognizable images in art history, and the work had been in private hands since 1909.",
+    "citationUrl": "https://en.wikipedia.org/wiki/The_Scream",
+    "citationTitle": "Wikipedia: The Scream"
+  }
+]

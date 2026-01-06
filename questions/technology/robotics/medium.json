@@ -1,0 +1,342 @@
+[
+  {
+    "id": "083a2ba1-a2f4-4b2e-98f3-d6534b934d2c",
+    "text": "What does the term 'robot' originally derive from, and in which 1920 play was it first used?",
+    "options": [
+      "Czech word 'robota' meaning forced labor, in Karel Čapek's 'R.U.R.'",
+      "Latin word 'roboticus' meaning mechanical, in Isaac Asimov's 'I, Robot'",
+      "German word 'roboter' meaning worker, in Fritz Lang's 'Metropolis'",
+      "Russian word 'rabota' meaning work, in Yevgeny Zamyatin's 'We'"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "The word 'robot' comes from Czech 'robota' (forced labor) and was coined in Karel Čapek's 1920 play 'R.U.R.' (Rossum's Universal Robots).",
+    "detailedExplanation": "The term 'robot' was introduced to the world in Karel Čapek's 1920 science fiction play 'R.U.R.' (Rossum's Universal Robots). The word derives from the Czech word 'robota,' which means forced labor or drudgery. Čapek's brother Josef actually suggested the term when Karel was looking for a word to describe his artificial workers. The play depicted artificial beings created to serve humans, establishing many themes that continue in robotics fiction today.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Robot",
+    "citationTitle": "Wikipedia: Robot"
+  },
+  {
+    "id": "99afaa84-1df9-4ffa-bb91-7cd62b2c9a85",
+    "text": "Which Japanese company created ASIMO, one of the world's most advanced humanoid robots?",
+    "options": [
+      "Sony",
+      "Honda",
+      "Toyota",
+      "Mitsubishi"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Honda developed ASIMO (Advanced Step in Innovative Mobility) as part of their humanoid robotics research program.",
+    "detailedExplanation": "Honda's ASIMO robot, first introduced in 2000, represents one of the most sophisticated attempts at creating a humanoid robot capable of walking, running, and interacting with humans. Standing 4 feet 3 inches tall, ASIMO can walk up and down stairs, recognize faces and voices, and perform various tasks. Honda began their humanoid robotics research in the 1980s, and ASIMO represents decades of advancement in balance, mobility, and artificial intelligence technologies.",
+    "citationUrl": "https://en.wikipedia.org/wiki/ASIMO",
+    "citationTitle": "Wikipedia: ASIMO"
+  },
+  {
+    "id": "6c0505ba-400a-4e87-9eaf-1b5884dce92a",
+    "text": "Isaac Asimov's famous Three Laws of Robotics first appeared in which 1942 short story?",
+    "options": [
+      "I, Robot",
+      "The Caves of Steel",
+      "Runaround",
+      "Robot Dreams"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "The Three Laws of Robotics were first explicitly stated in Asimov's 1942 short story 'Runaround.'",
+    "detailedExplanation": "Isaac Asimov's Three Laws of Robotics were first clearly articulated in his 1942 short story 'Runaround,' published in Astounding Science Fiction magazine. The laws state: 1) A robot may not injure a human being or allow a human to come to harm, 2) A robot must obey human orders except when conflicting with the First Law, and 3) A robot must protect its own existence except when conflicting with the First or Second Laws. These laws have profoundly influenced both science fiction and real robotics ethics discussions.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Three_Laws_of_Robotics",
+    "citationTitle": "Wikipedia: Three Laws of Robotics"
+  },
+  {
+    "id": "6432803e-3f4f-4bbd-aba6-fdd38fb01f26",
+    "text": "What type of robot was Shakey, developed at Stanford Research Institute in the late 1960s?",
+    "options": [
+      "Industrial assembly robot",
+      "Mobile autonomous robot",
+      "Humanoid companion robot",
+      "Surgical assistance robot"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Shakey was one of the first mobile robots capable of reasoning about its actions and navigating autonomously.",
+    "detailedExplanation": "Shakey the Robot, developed at Stanford Research Institute (now SRI International) from 1966 to 1972, was groundbreaking as one of the first mobile robots to combine logical reasoning with physical action. Standing about six feet tall, Shakey could navigate through rooms, plan routes, and manipulate objects using a combination of cameras, sensors, and artificial intelligence. It earned its name from the way it shook when moving, but its real significance was demonstrating how robots could perceive their environment and make autonomous decisions.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Shakey_the_robot",
+    "citationTitle": "Wikipedia: Shakey the robot"
+  },
+  {
+    "id": "659e0991-b7a9-4aa4-b1fb-9f9abb89cb66",
+    "text": "Which programming language was specifically designed for robot control and became widely used in industrial robotics?",
+    "options": [
+      "VAL",
+      "BASIC",
+      "FORTRAN",
+      "COBOL"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "VAL (Variable Assembly Language) was created by Unimation specifically for programming industrial robots.",
+    "detailedExplanation": "VAL (Variable Assembly Language) was developed by Unimation in the late 1970s as one of the first programming languages specifically designed for robot control. Created for use with Unimation's PUMA robots, VAL allowed programmers to define robot movements, coordinate systems, and control logic in a relatively user-friendly manner. The language featured commands for joint movements, straight-line motions, and sensor integration, making it much easier to program complex robotic tasks compared to traditional assembly languages.",
+    "citationUrl": "https://en.wikipedia.org/wiki/VAL_(programming_language)",
+    "citationTitle": "Wikipedia: VAL (programming language)"
+  },
+  {
+    "id": "1d4d4b8e-9f9a-4eb8-b12d-5326bf249364",
+    "text": "What is the name of the robot vacuum cleaner that popularized domestic robotics when it was released by iRobot in 2002?",
+    "options": [
+      "Neato",
+      "Roomba",
+      "Dyson 360",
+      "Shark IQ"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "The Roomba, released by iRobot in 2002, was the first commercially successful autonomous vacuum cleaner robot.",
+    "detailedExplanation": "The iRobot Roomba, launched in September 2002, revolutionized domestic robotics by bringing autonomous functionality into ordinary households. Priced initially at $199, the Roomba used a combination of sensors and algorithms to navigate around furniture and obstacles while cleaning floors. Its success helped establish the consumer robotics market and demonstrated that robots could perform useful tasks in homes. The Roomba's impact extended beyond cleaning, serving as many people's first direct interaction with autonomous robotics technology.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Roomba",
+    "citationTitle": "Wikipedia: Roomba"
+  },
+  {
+    "id": "0dfae8b2-a7d0-4afc-b6ed-ba92aa2e453d",
+    "text": "Which robotic surgical system, approved by the FDA in 2000, allows surgeons to perform minimally invasive operations remotely?",
+    "options": [
+      "CyberKnife",
+      "Da Vinci Surgical System",
+      "ROBODOC",
+      "ZEUS"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "The Da Vinci Surgical System enables surgeons to operate using robotic arms controlled from a console.",
+    "detailedExplanation": "The Da Vinci Surgical System, developed by Intuitive Surgical and approved by the FDA in 2000, represents a major advancement in robotic surgery. The system allows surgeons to perform complex procedures through small incisions using robotic arms that translate the surgeon's hand movements into precise micro-movements. The surgeon operates from a console with 3D visualization and enhanced dexterity, while the robot's arms hold and manipulate surgical instruments inside the patient. This technology has been particularly successful in prostate, cardiac, and gynecologic surgeries.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Da_Vinci_Surgical_System",
+    "citationTitle": "Wikipedia: Da Vinci Surgical System"
+  },
+  {
+    "id": "580577ab-f49e-4962-aee9-20898a5800f1",
+    "text": "What does DOF stand for in robotics, referring to the number of independent ways a robot can move?",
+    "options": [
+      "Direction of Force",
+      "Degrees of Freedom",
+      "Depth of Field",
+      "Digital Output Function"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "DOF stands for Degrees of Freedom, indicating the number of independent parameters that define a robot's configuration.",
+    "detailedExplanation": "In robotics, DOF (Degrees of Freedom) refers to the number of independent ways a robot or robotic component can move through space. For example, a typical industrial robotic arm might have 6 DOF, allowing it to move in three linear directions (x, y, z) and rotate around three axes (pitch, yaw, roll). The human arm has 7 DOF, which is why some advanced robotic arms are designed with 7 degrees of freedom to more closely mimic human movement capabilities and provide redundancy for complex manipulations.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Degrees_of_freedom_(mechanics)",
+    "citationTitle": "Wikipedia: Degrees of freedom (mechanics)"
+  },
+  {
+    "id": "38707650-013f-4588-81fa-a135ad1e070f",
+    "text": "What is the name of the Mars rover that successfully landed on the Red Planet in February 2021 and has been searching for signs of ancient microbial life?",
+    "options": [
+      "Curiosity",
+      "Perseverance",
+      "Opportunity",
+      "Spirit"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Perseverance is NASA's most recent Mars rover that landed in 2021.",
+    "detailedExplanation": "NASA's Perseverance rover successfully landed in Mars' Jezero Crater on February 18, 2021. This six-wheeled robotic explorer is equipped with advanced scientific instruments to search for signs of ancient microbial life and collect rock samples for future return to Earth. Perseverance also carries the Ingenuity helicopter, which became the first aircraft to achieve powered flight on another planet.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Perseverance_(rover)",
+    "citationTitle": "Wikipedia: Perseverance (rover)"
+  },
+  {
+    "id": "2f472e22-8505-48cd-a95d-1611a5374851",
+    "text": "Which field of robotics focuses on swarms of simple robots working together to achieve complex tasks, inspired by the behavior of insects like ants and bees?",
+    "options": [
+      "Biomimetics",
+      "Swarm robotics",
+      "Distributed computing",
+      "Collective intelligence"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Swarm robotics studies how multiple simple robots can collaborate like insect colonies.",
+    "detailedExplanation": "Swarm robotics is a field that focuses on the coordination of multiple relatively simple robots to accomplish tasks that would be difficult or impossible for a single robot. Drawing inspiration from social insects like ants, bees, and termites, swarm robotics systems rely on local communication and simple rules to achieve emergent collective behavior. Applications include search and rescue operations, environmental monitoring, and construction projects.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Swarm_robotics",
+    "citationTitle": "Wikipedia: Swarm robotics"
+  },
+  {
+    "id": "c01c7005-2567-4509-b116-bd95e8ed2750",
+    "text": "What name is given to the theoretical point where artificial intelligence becomes capable of recursive self-improvement, potentially leading to rapid technological advancement?",
+    "options": [
+      "The Turing Point",
+      "The Singularity",
+      "The Intelligence Explosion",
+      "The AI Horizon"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "The Singularity refers to the hypothetical point where AI becomes capable of improving itself.",
+    "detailedExplanation": "The technological singularity is a hypothetical future point where artificial intelligence becomes capable of recursive self-improvement, leading to rapid and unpredictable changes in technology that could fundamentally alter human civilization. The concept was popularized by mathematician and computer scientist Vernor Vinge and later by futurist Ray Kurzweil. While controversial, it represents a key consideration in robotics and AI development discussions.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Technological_singularity",
+    "citationTitle": "Wikipedia: Technological singularity"
+  },
+  {
+    "id": "3078e729-03c6-4407-96a2-ebfd19321fbd",
+    "text": "Which Boston Dynamics robot, known for its parkour abilities and humanoid appearance, went viral in numerous internet videos?",
+    "options": [
+      "BigDog",
+      "Spot",
+      "Atlas",
+      "Handle"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Atlas is Boston Dynamics' humanoid robot famous for its acrobatic capabilities.",
+    "detailedExplanation": "Atlas is a bipedal humanoid robot developed by Boston Dynamics that has gained worldwide attention for its remarkable mobility and agility. The robot can perform complex movements including running, jumping, backflips, and navigating obstacle courses with parkour-like skills. Videos of Atlas performing these feats have gone viral multiple times, showcasing advances in robotics balance, coordination, and dynamic movement that were previously thought impossible for humanoid machines.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Atlas_(robot)",
+    "citationTitle": "Wikipedia: Atlas (robot)"
+  },
+  {
+    "id": "94abfc26-b093-4688-9639-fd6fe31a4c58",
+    "text": "What type of robotic end-effector is specifically designed to grasp and manipulate objects, often mimicking the function of a human hand?",
+    "options": [
+      "Actuator",
+      "Sensor array",
+      "Gripper",
+      "Manipulator arm"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "A gripper is the robotic equivalent of a hand, designed to grasp objects.",
+    "detailedExplanation": "A gripper is a robotic end-effector that serves as the 'hand' of a robot, designed to grasp, hold, and manipulate objects. Grippers come in various forms, from simple two-finger parallel jaw grippers to complex multi-fingered hands with tactile sensors. They are essential components in industrial robotics, enabling robots to pick up parts, assemble products, and perform delicate manipulation tasks in manufacturing, warehousing, and research applications.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Robot_end_effector",
+    "citationTitle": "Wikipedia: Robot end effector"
+  },
+  {
+    "id": "d81370e4-d09d-4f9c-b484-533c40bf78a5",
+    "text": "Which underwater robot category is typically tethered to a surface vessel and remotely operated by a human pilot?",
+    "options": [
+      "AUV",
+      "ROV",
+      "USV",
+      "ASV"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "ROV stands for Remotely Operated Vehicle, controlled via tether from the surface.",
+    "detailedExplanation": "An ROV (Remotely Operated Vehicle) is an underwater robot that is connected to a ship or platform by a tether cable, which provides power and allows real-time control by a human operator on the surface. ROVs are extensively used in offshore oil and gas operations, marine research, underwater construction, and deep-sea exploration. Unlike autonomous underwater vehicles (AUVs), ROVs rely on continuous human control and can operate for extended periods while maintaining constant communication with operators.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Remotely_operated_underwater_vehicle",
+    "citationTitle": "Wikipedia: Remotely operated underwater vehicle"
+  },
+  {
+    "id": "2bd4f9ad-324b-4eff-9b54-7238429123a7",
+    "text": "What is the name of the robotic bartender system that can mix and serve cocktails, which gained popularity in luxury hotels and cruise ships?",
+    "options": [
+      "Makr Shakr",
+      "BarBot",
+      "Cypher",
+      "RoboBar"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Makr Shakr is the pioneering robotic bartender system used in high-end venues.",
+    "detailedExplanation": "Makr Shakr is a robotic bartender system that uses industrial robotic arms to mix and serve cocktails with precision and flair. Developed by an Italian company, the system can prepare hundreds of different drinks and has been installed in luxury venues including cruise ships, airports, and hotels worldwide. Customers can order drinks through a mobile app, and the robotic arms perform choreographed movements while preparing beverages, combining functionality with entertainment.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Makr_Shakr",
+    "citationTitle": "Wikipedia: Makr Shakr"
+  },
+  {
+    "id": "3e54f650-de04-45b9-8c4b-edd33dc16b70",
+    "text": "In robotics, what does the term 'uncanny valley' describe?",
+    "options": [
+      "A programming error in robot navigation",
+      "The unsettling feeling humans get from almost-human-like robots",
+      "A manufacturing defect in robot joints",
+      "The gap between robot and human intelligence"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "The uncanny valley describes the eerie feeling people get from robots that look almost, but not quite, human.",
+    "detailedExplanation": "The uncanny valley is a concept in robotics and computer animation describing the unsettling or eerie feeling that people experience when encountering humanoid robots or animated characters that appear almost, but not exactly, like real humans. Coined by Japanese roboticist Masahiro Mori in 1970, the theory suggests that as robots become more human-like, people's emotional response becomes increasingly positive until a point where slight imperfections cause a sharp drop into revulsion, before rising again as the robot becomes indistinguishable from humans.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Uncanny_valley",
+    "citationTitle": "Wikipedia: Uncanny valley"
+  },
+  {
+    "id": "bf1c6716-9d1b-4b94-8201-5f826af76afc",
+    "text": "Which type of sensor technology allows robots to create detailed 3D maps of their environment by measuring the time it takes for laser pulses to return?",
+    "options": [
+      "LIDAR",
+      "Ultrasonic",
+      "Infrared",
+      "Gyroscope"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "LIDAR (Light Detection and Ranging) uses laser pulses to measure distances and create detailed 3D environmental maps.",
+    "detailedExplanation": "LIDAR technology is fundamental to modern robotics, particularly in autonomous vehicles and mobile robots. It works by emitting rapid laser pulses and measuring the time it takes for the light to bounce back from objects, allowing robots to build precise 3D maps of their surroundings. This technology enables robots to navigate complex environments, avoid obstacles, and perform tasks that require spatial awareness. Unlike ultrasonic sensors that use sound waves or simple infrared sensors, LIDAR provides high-resolution spatial data essential for advanced robotic applications.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Lidar",
+    "citationTitle": "Wikipedia: Lidar"
+  },
+  {
+    "id": "6f9e7193-c63f-4a99-b7af-138b81c3ad85",
+    "text": "What is the name of the bipedal robot developed by Agility Robotics that is designed for package delivery and warehouse operations?",
+    "options": [
+      "Digit",
+      "Pepper",
+      "NAO",
+      "Spot"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Digit is Agility Robotics' bipedal robot specifically designed for logistics and delivery applications.",
+    "detailedExplanation": "Digit represents a significant advancement in bipedal robotics, designed specifically for practical commercial applications rather than research demonstrations. Developed by Agility Robotics, this humanoid robot can walk on two legs, climb stairs, and carry packages, making it ideal for last-mile delivery and warehouse operations. Unlike wheeled robots, Digit's bipedal design allows it to navigate human-designed environments like stairs and curbs. The robot has been tested by companies like Amazon for potential use in their fulfillment centers, representing the transition of advanced robotics from laboratory settings to real-world commercial applications.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Agility_Robotics",
+    "citationTitle": "Wikipedia: Agility Robotics"
+  },
+  {
+    "id": "99821c8c-0d55-4057-87be-8630d8826146",
+    "text": "In industrial robotics, what does the acronym SCARA stand for, referring to a common type of robotic arm configuration?",
+    "options": [
+      "Selective Compliance Assembly Robot Arm",
+      "Sequential Control Automated Robotic Actuator",
+      "Standard Configuration Articulated Robot Architecture",
+      "Self-Calibrating Advanced Robotic Apparatus"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "SCARA stands for Selective Compliance Assembly Robot Arm, a robot design that is rigid in some directions but compliant in others.",
+    "detailedExplanation": "SCARA robots are widely used in industrial automation, particularly for assembly operations. The name 'Selective Compliance' refers to the robot's ability to be rigid in the vertical direction while being compliant (flexible) in the horizontal plane. This design makes SCARA robots ideal for tasks like inserting parts into holes, where some flexibility is beneficial for alignment while maintaining precision in the vertical axis. SCARA robots typically have four degrees of freedom and are commonly used in electronics manufacturing, automotive assembly, and packaging operations due to their speed, accuracy, and cost-effectiveness.",
+    "citationUrl": "https://en.wikipedia.org/wiki/SCARA",
+    "citationTitle": "Wikipedia: SCARA"
+  },
+  {
+    "id": "4db62efa-b8e6-46cf-b1bd-22a6b2320b99",
+    "text": "Which robotic control method uses biological neural networks or brain signals to directly command robot movements?",
+    "options": [
+      "Brain-Computer Interface (BCI)",
+      "Fuzzy Logic Control",
+      "PID Control",
+      "Reinforcement Learning"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Brain-Computer Interface technology allows direct neural control of robotic systems through brain signals.",
+    "detailedExplanation": "Brain-Computer Interface (BCI) technology represents one of the most cutting-edge developments in robotics, allowing humans to control robots directly through neural signals. This technology captures electrical signals from the brain, either through non-invasive methods like EEG or invasive implants, and translates these signals into robot commands. BCI-controlled robotics has shown particular promise in medical applications, helping paralyzed patients control robotic prosthetics or assistive devices through thought alone. Companies and research institutions have demonstrated remarkable success stories, including patients controlling robotic arms to perform complex tasks like drinking coffee or typing, purely through neural commands.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Brain%E2%80%93computer_interface",
+    "citationTitle": "Wikipedia: Brain-computer interface"
+  }
+]

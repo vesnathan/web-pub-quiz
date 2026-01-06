@@ -321,5 +321,22 @@
     "detailedExplanation": "Chris Evans brought the character of Steve Rogers to life across multiple MCU films, beginning with Captain America: The First Avenger in 2011. He continued in the role through several Avengers movies and Captain America sequels, concluding his tenure as the character in Avengers: Endgame where Rogers passes the Captain America mantle to Sam Wilson.",
     "citationUrl": "https://en.wikipedia.org/wiki/Steve_Rogers_(Marvel_Cinematic_Universe)",
     "citationTitle": "Wikipedia: Steve Rogers (Marvel Cinematic Universe)"
+  },
+  {
+    "id": "2bee9ff6-c11a-4454-a1a9-03804ce1918c",
+    "text": "What is the name of Tony Stark's AI assistant in the Marvel Cinematic Universe?",
+    "options": [
+      "FRIDAY",
+      "JARVIS",
+      "KAREN",
+      "EDITH"
+    ],
+    "correctIndex": 1,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "JARVIS (Just A Rather Very Intelligent System) is Tony Stark's primary AI assistant throughout most of the MCU films.",
+    "detailedExplanation": "JARVIS, voiced by Paul Bettany, serves as Tony Stark's artificial intelligence assistant from the first Iron Man movie through Avengers: Age of Ultron. The AI helps Stark with everything from managing his suits to running his home automation systems. JARVIS is eventually uploaded into Vision's body in Age of Ultron, after which Stark uses FRIDAY as his new AI assistant. KAREN is the AI in Spider-Man's suit, while EDITH is the AI system Stark leaves to Peter Parker.",
+    "citationUrl": "https://en.wikipedia.org/wiki/J.A.R.V.I.S.",
+    "citationTitle": "Wikipedia: J.A.R.V.I.S."
   }
 ]

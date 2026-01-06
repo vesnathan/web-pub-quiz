@@ -14,6 +14,124 @@ class AblyServiceClass {
   private isInitializing = false;
   private refCount = 0;
   private latencyInterval: NodeJS.Timeout | null = null;
+  private boundBeforeUnload: (() => void) | null = null;
+  private idleTimeout: NodeJS.Timeout | null = null;
+  private visibilityTimeout: NodeJS.Timeout | null = null;
+  private boundIdleReset: (() => void) | null = null;
+  private boundVisibilityChange: (() => void) | null = null;
+  private readonly IDLE_MS = 10 * 60 * 1000; // 10 min idle = disconnect
+  private readonly HIDDEN_TAB_MS = 10 * 60 * 1000; // 10 min hidden tab = disconnect
+  private disconnectCallbacks: Set<(reason: string) => void> = new Set();
+
+  /**
+   * Handle page unload - leave presence before closing
+   */
+  private handleBeforeUnload = () => {
+    if (this.roomChannel) {
+      try {
+        // Synchronous leave for reliability on page unload
+        this.roomChannel.presence.leave();
+      } catch {
+        // Ignore errors during unload
+      }
+    }
+  };
+
+  /**
+   * Register a callback to be notified when disconnected
+   */
+  onDisconnect(callback: (reason: string) => void): () => void {
+    this.disconnectCallbacks.add(callback);
+    return () => this.disconnectCallbacks.delete(callback);
+  }
+
+  /**
+   * Notify all disconnect callbacks
+   */
+  private notifyDisconnect(reason: string): void {
+    this.disconnectCallbacks.forEach((cb) => cb(reason));
+  }
+
+  /**
+   * Reset idle timer on user activity
+   */
+  private resetIdleTimer = () => {
+    if (this.idleTimeout) clearTimeout(this.idleTimeout);
+    this.idleTimeout = setTimeout(() => {
+      console.log("[AblyService] Disconnecting idle user");
+      this.notifyDisconnect("idle");
+      this.disconnect();
+    }, this.IDLE_MS);
+  };
+
+  /**
+   * Handle visibility change - disconnect after extended hidden period
+   */
+  private handleVisibilityChange = () => {
+    if (document.hidden) {
+      this.visibilityTimeout = setTimeout(() => {
+        console.log("[AblyService] Disconnecting due to hidden tab");
+        this.notifyDisconnect("hidden_tab");
+        this.disconnect();
+      }, this.HIDDEN_TAB_MS);
+    } else {
+      if (this.visibilityTimeout) {
+        clearTimeout(this.visibilityTimeout);
+        this.visibilityTimeout = null;
+      }
+      this.resetIdleTimer();
+    }
+  };
+
+  /**
+   * Setup idle detection listeners
+   */
+  private setupIdleDetection(): void {
+    if (typeof window === "undefined") return;
+
+    this.boundIdleReset = this.resetIdleTimer;
+    this.boundVisibilityChange = this.handleVisibilityChange;
+
+    ["mousedown", "keydown", "touchstart", "scroll"].forEach((event) => {
+      window.addEventListener(event, this.boundIdleReset!, { passive: true });
+    });
+
+    document.addEventListener("visibilitychange", this.boundVisibilityChange);
+
+    this.resetIdleTimer();
+  }
+
+  /**
+   * Cleanup idle detection listeners
+   */
+  private cleanupIdleDetection(): void {
+    if (typeof window === "undefined") return;
+
+    if (this.idleTimeout) {
+      clearTimeout(this.idleTimeout);
+      this.idleTimeout = null;
+    }
+
+    if (this.visibilityTimeout) {
+      clearTimeout(this.visibilityTimeout);
+      this.visibilityTimeout = null;
+    }
+
+    if (this.boundIdleReset) {
+      ["mousedown", "keydown", "touchstart", "scroll"].forEach((event) => {
+        window.removeEventListener(event, this.boundIdleReset!);
+      });
+      this.boundIdleReset = null;
+    }
+
+    if (this.boundVisibilityChange) {
+      document.removeEventListener(
+        "visibilitychange",
+        this.boundVisibilityChange,
+      );
+      this.boundVisibilityChange = null;
+    }
+  }
 
   /**
    * Fetch Ably token from AppSync Lambda
@@ -91,9 +209,34 @@ class AblyServiceClass {
         }
       });
 
+      // Monitor connection state changes
+      this.ably.connection.on("disconnected", () => {
+        console.log("[AblyService] Connection disconnected");
+      });
+      this.ably.connection.on("suspended", () => {
+        console.log("[AblyService] Connection suspended");
+        this.notifyDisconnect("connection_lost");
+      });
+      this.ably.connection.on("failed", () => {
+        console.log("[AblyService] Connection failed");
+        this.notifyDisconnect("connection_failed");
+      });
+      this.ably.connection.on("closed", () => {
+        console.log("[AblyService] Connection closed");
+      });
+
       // Create channels
       this.roomChannel = this.ably.channels.get(`quiz:room:${roomId}`);
       this.userChannel = this.ably.channels.get(`quiz:user:${playerId}`);
+
+      // Add beforeunload handler to leave presence on page close/refresh
+      if (typeof window !== "undefined" && !this.boundBeforeUnload) {
+        this.boundBeforeUnload = this.handleBeforeUnload;
+        window.addEventListener("beforeunload", this.boundBeforeUnload);
+      }
+
+      // Setup idle detection to disconnect inactive users
+      this.setupIdleDetection();
 
       this.isInitializing = false;
 
@@ -114,9 +257,22 @@ class AblyServiceClass {
   /**
    * Enter presence in room channel
    */
-  async enterPresence(displayName: string): Promise<void> {
-    if (!this.roomChannel) return;
-    await this.roomChannel.presence.enter({ displayName });
+  async enterPresence(displayName: string): Promise<boolean> {
+    if (!this.roomChannel) {
+      console.error("[AblyService] Cannot enter presence: no room channel");
+      return false;
+    }
+
+    try {
+      await this.roomChannel.presence.enter({ displayName });
+      console.log(
+        `[AblyService] Entered presence in ${this.roomChannel.name} as ${displayName}`,
+      );
+      return true;
+    } catch (error) {
+      console.error("[AblyService] Failed to enter presence:", error);
+      return false;
+    }
   }
 
   /**
@@ -222,6 +378,13 @@ class AblyServiceClass {
    */
   disconnect(): void {
     this.stopLatencyMeasurement();
+    this.cleanupIdleDetection();
+
+    // Remove beforeunload handler
+    if (typeof window !== "undefined" && this.boundBeforeUnload) {
+      window.removeEventListener("beforeunload", this.boundBeforeUnload);
+      this.boundBeforeUnload = null;
+    }
 
     if (this.roomChannel) {
       try {

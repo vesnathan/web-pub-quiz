@@ -1,0 +1,342 @@
+[
+  {
+    "id": "ef76b91b-31da-4c61-8449-4c202ffb1781",
+    "text": "What is the primary purpose of a mandoline in the kitchen?",
+    "options": [
+      "Slicing vegetables uniformly",
+      "Grinding spices",
+      "Whipping cream",
+      "Tenderizing meat"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "A mandoline is a slicing tool designed to cut vegetables and fruits into uniform, precise slices.",
+    "detailedExplanation": "A mandoline is a kitchen utensil used for slicing and cutting fruits and vegetables into uniform thickness. It consists of a flat surface with an adjustable blade that allows for precise cuts ranging from paper-thin to several millimeters thick. Professional chefs prize mandolines for creating consistent cuts for dishes like gratins, salads, and garnishes, though home cooks should exercise caution due to the extremely sharp blade.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Mandoline",
+    "citationTitle": "Wikipedia: Mandoline"
+  },
+  {
+    "id": "a2d131c7-7c58-4149-af9b-d6a5f21cb4c4",
+    "text": "What kitchen tool would you use to remove the zest from citrus fruits?",
+    "options": [
+      "Vegetable peeler",
+      "Microplane grater",
+      "Paring knife",
+      "All of the above"
+    ],
+    "correctIndex": 3,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "All three tools can effectively remove citrus zest, though each produces different results.",
+    "detailedExplanation": "Citrus zest can be removed using various kitchen tools, each producing different textures. A microplane grater creates fine, fluffy zest perfect for baking. A vegetable peeler removes wider strips ideal for garnishes or infusions. A paring knife can carefully remove zest in larger pieces. The key with any method is to avoid the bitter white pith underneath the colorful outer skin, taking only the aromatic oils found in the colored portion.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Zest_(ingredient)",
+    "citationTitle": "Wikipedia: Zest (ingredient)"
+  },
+  {
+    "id": "cb8dc7f2-9f9b-4750-8d66-e1f89e5456c7",
+    "text": "What does 'mise en place' mean in culinary terms?",
+    "options": [
+      "Putting ingredients in their place",
+      "Setting the table properly",
+      "Cooking at the right temperature",
+      "Seasoning to taste"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Mise en place is French for 'putting in place' and refers to organizing and arranging ingredients and tools before cooking.",
+    "detailedExplanation": "Mise en place is a fundamental culinary concept meaning 'everything in its place.' This French culinary phrase refers to organizing and arranging all ingredients, tools, and equipment needed for cooking before beginning the actual preparation. Professional chefs consider this practice essential for efficient cooking, as it reduces stress, prevents mistakes, and ensures smooth execution of recipes. It includes washing, chopping, measuring, and arranging ingredients in small bowls or containers.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Mise_en_place",
+    "citationTitle": "Wikipedia: Mise en place"
+  },
+  {
+    "id": "20832c64-a169-46d6-8f1b-ad3e714705da",
+    "text": "What is the main difference between a chef's knife and a santoku knife?",
+    "options": [
+      "Santoku knives are only for vegetables",
+      "Chef's knives have a curved blade, santoku knives are straighter",
+      "Santoku knives are always smaller",
+      "There is no significant difference"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Chef's knives have a curved blade ideal for rocking motions, while santoku knives have straighter edges better for chopping.",
+    "detailedExplanation": "The primary difference between a chef's knife and a santoku knife lies in their blade design and cutting technique. A traditional chef's knife has a curved blade that facilitates a rocking motion when cutting, with the tip remaining on the cutting board. A santoku knife, originating from Japan, has a straighter blade edge and is designed for an up-and-down chopping motion. Santoku means 'three virtues' in Japanese, referring to its ability to handle meat, fish, and vegetables effectively.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Santoku",
+    "citationTitle": "Wikipedia: Santoku"
+  },
+  {
+    "id": "6a9ac084-965b-4deb-b906-6e11f61b4458",
+    "text": "What cooking method involves partially cooking food in boiling water before finishing with another technique?",
+    "options": [
+      "Poaching",
+      "Blanching",
+      "Braising",
+      "Steaming"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Blanching involves briefly boiling food then often transferring it to ice water to stop the cooking process.",
+    "detailedExplanation": "Blanching is a cooking technique where food is briefly boiled in water or steam, then often immediately plunged into ice water to halt the cooking process. This method is commonly used to partially cook vegetables before freezing, to remove strong flavors, to soften vegetables for further cooking, or to make peeling easier (as with tomatoes). The quick cooking preserves color, texture, and nutrients while preparing the food for final preparation or storage.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Blanching_(cooking)",
+    "citationTitle": "Wikipedia: Blanching (cooking)"
+  },
+  {
+    "id": "2aa0f287-feea-43c1-980a-cb26bba7bff6",
+    "text": "What kitchen tool is specifically designed to remove air bubbles from batter or dough?",
+    "options": [
+      "Dough whisk",
+      "Bench scraper",
+      "Offset spatula",
+      "None - you tap the pan"
+    ],
+    "correctIndex": 3,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Air bubbles are typically removed by tapping or gently dropping the pan, not with a specific tool.",
+    "detailedExplanation": "Removing air bubbles from batter or dough is typically accomplished by tapping or gently dropping the filled pan on a counter surface, causing bubbles to rise to the surface and pop. While tools like offset spatulas can help spread batter evenly, and dough whisks can minimize bubble formation during mixing, there isn't a specific tool designed solely for bubble removal. Some bakers use techniques like inserting a knife and gently swirling to release large bubbles, but the tapping method remains the most common and effective approach.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Batter_(cooking)",
+    "citationTitle": "Wikipedia: Batter (cooking)"
+  },
+  {
+    "id": "99460b87-a637-479a-b2d0-786b3641182b",
+    "text": "What does a kitchen scale measure that measuring cups cannot accurately determine?",
+    "options": [
+      "Liquid volume",
+      "Weight/mass",
+      "Temperature",
+      "Time"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Kitchen scales measure weight or mass, providing more accurate measurements than volume-based measuring cups.",
+    "detailedExplanation": "Kitchen scales measure weight or mass, which is often more accurate than volume measurements provided by measuring cups. This is particularly important in baking, where precision is crucial. Different ingredients have varying densities - a cup of flour can weigh anywhere from 120-150 grams depending on how it's packed, while a scale will always give the exact weight needed. Professional bakers and many recipes now specify ingredients by weight rather than volume for consistency and accuracy.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Kitchen_scale",
+    "citationTitle": "Wikipedia: Kitchen scale"
+  },
+  {
+    "id": "1672a00d-0aec-4558-8cde-90ca450ce473",
+    "text": "What temperature should a candy thermometer read when sugar syrup reaches the 'hard crack' stage?",
+    "options": [
+      "235-240°F (113-116°C)",
+      "300-310°F (149-154°C)",
+      "250-266°F (121-130°C)",
+      "320-335°F (160-168°C)"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Hard crack stage occurs at 300-310°F (149-154°C), creating brittle candy when cooled.",
+    "detailedExplanation": "The hard crack stage is one of the key temperatures in candy making, occurring between 300-310°F (149-154°C). At this temperature, the sugar syrup will form hard, brittle threads when dropped into cold water, and creates candy that snaps cleanly when broken. This stage is essential for making hard candies, toffee, and brittles. Understanding these candy-making temperatures is crucial for successful confectionery work.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Candy_making",
+    "citationTitle": "Wikipedia: Candy making"
+  },
+  {
+    "id": "543f98dd-805f-4741-884c-45cf4b19d7a1",
+    "text": "What is the primary function of a kitchen rondeau?",
+    "options": [
+      "Steaming vegetables",
+      "Braising and slow cooking",
+      "Deep frying foods",
+      "Grilling meats"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "A rondeau is a wide, shallow pan with straight sides designed for braising and slow cooking.",
+    "detailedExplanation": "A rondeau is a professional kitchen pan characterized by its wide, shallow design with straight sides and two handles. Its broad surface area allows for even browning of meats and vegetables, while its relatively shallow depth makes it ideal for braising, where ingredients need to be partially submerged in liquid. The wide opening also facilitates evaporation control during slow cooking processes, making it indispensable for dishes like coq au vin or beef bourguignon.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Rondeau_(cookware)",
+    "citationTitle": "Wikipedia: Rondeau (cookware)"
+  },
+  {
+    "id": "977ad97e-4c6c-44fe-bc7f-730d380da679",
+    "text": "In knife techniques, what does 'julienne' refer to?",
+    "options": [
+      "Cubing vegetables into 1-inch pieces",
+      "Cutting into thin matchstick strips",
+      "Slicing paper-thin rounds",
+      "Chopping into coarse, irregular pieces"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Julienne is a cutting technique that creates thin matchstick strips, typically 1/8 inch × 1/8 inch × 2 inches.",
+    "detailedExplanation": "Julienne is a classic French knife technique that involves cutting vegetables or other ingredients into thin, uniform matchstick-shaped strips. The standard julienne cut measures approximately 1/8 inch × 1/8 inch × 2 inches long. This technique is commonly used for carrots, bell peppers, and other firm vegetables, and serves both aesthetic and practical purposes - the uniform cuts ensure even cooking and create an elegant presentation in dishes like stir-fries and salads.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Julienning",
+    "citationTitle": "Wikipedia: Julienning"
+  },
+  {
+    "id": "8c02e2df-793a-4ed1-b78d-9da4242e7b31",
+    "text": "What cooking technique involves cooking food slowly in its own fat at low temperature?",
+    "options": [
+      "Braising",
+      "Confit",
+      "Poaching",
+      "Sous vide"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Confit is a cooking method where food is slowly cooked and preserved in its own fat at low temperatures.",
+    "detailedExplanation": "Confit is a traditional French cooking technique where food, typically duck, goose, or pork, is slowly cooked in its own rendered fat at low temperatures (around 200-225°F). This gentle cooking process results in incredibly tender meat while the fat acts as a preservative. The technique can also be applied to vegetables using olive oil. Duck confit is perhaps the most famous example, where duck legs are cured in salt, then slowly cooked in duck fat for several hours.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Confit",
+    "citationTitle": "Wikipedia: Confit"
+  },
+  {
+    "id": "be72c13f-a3ff-4031-a2bd-f1f86f6e3e05",
+    "text": "What is the main purpose of a kitchen chinois?",
+    "options": [
+      "Measuring liquid volumes",
+      "Straining sauces and stocks",
+      "Whipping cream and eggs",
+      "Grinding spices"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "A chinois is a cone-shaped fine mesh strainer used for creating smooth, lump-free sauces and stocks.",
+    "detailedExplanation": "A chinois is a professional kitchen tool consisting of a cone-shaped fine mesh strainer, named after the French word for 'Chinese' due to its conical shape resembling a traditional Chinese hat. It's used to strain sauces, stocks, and soups to achieve a perfectly smooth consistency by removing any lumps, impurities, or solid particles. Often used with a ladle or pestle to push liquid through the fine mesh, it's essential for creating restaurant-quality sauces and consommés.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Chinois",
+    "citationTitle": "Wikipedia: Chinois"
+  },
+  {
+    "id": "484014af-6813-40d1-a478-238297b9bb7d",
+    "text": "What does 'tempering' chocolate involve?",
+    "options": [
+      "Adding sugar to bitter chocolate",
+      "Melting chocolate with cream",
+      "Controlling temperature to achieve proper crystal structure",
+      "Mixing chocolate with butter"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Tempering chocolate involves precise temperature control to form stable crystals, creating glossy, snappy chocolate.",
+    "detailedExplanation": "Tempering chocolate is a crucial technique that involves heating and cooling chocolate to specific temperatures to encourage the formation of stable beta crystals. This process typically involves heating chocolate to around 115°F, cooling it to 84°F, then reheating to 88-90°F for dark chocolate. Properly tempered chocolate has a glossy appearance, smooth texture, and satisfying snap when broken. Without tempering, chocolate can appear dull, develop white bloom, or have a soft, crumbly texture.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Chocolate_tempering",
+    "citationTitle": "Wikipedia: Chocolate tempering"
+  },
+  {
+    "id": "32cf863a-1990-439b-a28c-ed5c68ec5f17",
+    "text": "Which knife grip technique is considered the safest and most efficient for precision cutting?",
+    "options": [
+      "Hammer grip",
+      "Pinch grip",
+      "Palm grip",
+      "Finger grip"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "The pinch grip involves pinching the blade between thumb and forefinger for maximum control and safety.",
+    "detailedExplanation": "The pinch grip is the preferred knife-holding technique among professional chefs and culinary instructors. It involves pinching the blade of the knife between the thumb and index finger, just above the bolster, while the remaining three fingers wrap around the handle. This grip provides superior control, balance, and precision compared to simply gripping the handle. It allows for more accurate cuts, reduces hand fatigue, and actually increases safety by giving the user better command over the blade's movement.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Kitchen_knife",
+    "citationTitle": "Wikipedia: Kitchen knife"
+  },
+  {
+    "id": "c613e326-8251-428f-942d-585ec7041f6b",
+    "text": "What is the purpose of 'deglazing' a pan?",
+    "options": [
+      "Removing burnt food particles",
+      "Creating a sauce from browned bits",
+      "Seasoning cast iron cookware",
+      "Cooling down overheated oil"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Deglazing involves adding liquid to dissolve browned bits (fond) stuck to the pan, creating flavorful sauces.",
+    "detailedExplanation": "Deglazing is a fundamental cooking technique where liquid (such as wine, stock, or water) is added to a hot pan to dissolve the caramelized bits of food that stick to the bottom during cooking. These browned bits, called 'fond,' are packed with concentrated flavors that would otherwise be wasted. The deglazing liquid dissolves this fond, creating the base for pan sauces, gravies, and reductions. This technique is commonly used after searing meats or sautéing vegetables to capture and utilize every bit of flavor.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Deglazing_(cooking)",
+    "citationTitle": "Wikipedia: Deglazing (cooking)"
+  },
+  {
+    "id": "91b23c1e-28b3-4503-b46c-cd3d4fee9f7a",
+    "text": "What is the optimal internal temperature for a medium-rare steak when using a meat thermometer?",
+    "options": [
+      "120-125°F (49-52°C)",
+      "130-135°F (54-57°C)",
+      "140-145°F (60-63°C)",
+      "150-155°F (66-68°C)"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Medium-rare steak should reach 130-135°F (54-57°C) internal temperature.",
+    "detailedExplanation": "A meat thermometer is an essential kitchen tool for ensuring food safety and achieving desired doneness. For medium-rare steak, the optimal internal temperature range is 130-135°F (54-57°C), which produces a warm red center with a firm exterior. This temperature ensures the meat is safe to eat while maintaining the tender, juicy texture that characterizes medium-rare doneness. Lower temperatures would be rare, while higher temperatures move into medium territory.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Meat_thermometer",
+    "citationTitle": "Wikipedia: Meat thermometer"
+  },
+  {
+    "id": "6b6a5a47-c1bc-41ab-ad51-e577e89fda7c",
+    "text": "Which kitchen technique involves cooking vegetables until they become tender-crisp and bright in color, then immediately plunging them into ice water?",
+    "options": [
+      "Sautéing",
+      "Blanching",
+      "Braising",
+      "Steaming"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Blanching involves briefly boiling vegetables then shocking them in ice water to stop the cooking process.",
+    "detailedExplanation": "Blanching is a fundamental cooking technique that involves briefly boiling vegetables in salted water until they become tender-crisp and vibrant in color, then immediately transferring them to an ice water bath to halt the cooking process. This technique preserves the vegetable's color, texture, and nutritional value while partially cooking them. It's commonly used for preparing vegetables for freezing, removing strong flavors, or as a preliminary step before incorporating vegetables into other dishes.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Blanching_(cooking)",
+    "citationTitle": "Wikipedia: Blanching (cooking)"
+  },
+  {
+    "id": "8327761c-ba8e-4b1d-a8f2-07d05825fad0",
+    "text": "What is a kitchen spider primarily used for?",
+    "options": [
+      "Whisking eggs",
+      "Lifting and draining fried foods",
+      "Grating cheese",
+      "Measuring liquids"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "A kitchen spider is a wire mesh skimmer used for lifting and draining foods from hot oil or boiling water.",
+    "detailedExplanation": "A kitchen spider, also known as a wire skimmer or strainer spoon, is a specialized tool consisting of a wide, shallow wire mesh basket attached to a long handle. It's primarily used for lifting foods out of hot liquids while allowing excess liquid or oil to drain away quickly. This makes it indispensable for deep-frying, blanching vegetables, or retrieving pasta from boiling water. The wire mesh construction provides excellent drainage while the long handle keeps the cook's hands safely away from hot liquids.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Skimmer_(utensil)",
+    "citationTitle": "Wikipedia: Skimmer (utensil)"
+  },
+  {
+    "id": "51cb0078-8e4a-4234-a38a-047b3701669d",
+    "text": "In baking, what does 'creaming' butter and sugar together accomplish?",
+    "options": [
+      "It melts the butter completely",
+      "It incorporates air to create a light texture",
+      "It removes excess moisture",
+      "It prevents the sugar from crystallizing"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Creaming butter and sugar incorporates air into the mixture, creating a light, fluffy texture in baked goods.",
+    "detailedExplanation": "Creaming is a fundamental baking technique where softened butter and sugar are beaten together, typically with an electric mixer, until the mixture becomes light, fluffy, and pale in color. This process incorporates air bubbles into the butter, which expand during baking to create a tender, light texture in cakes, cookies, and other baked goods. The sugar crystals help create tiny air pockets in the butter, and proper creaming can take 3-5 minutes. This technique is crucial for achieving the proper structure and texture in many classic baked items.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Creaming_(food)",
+    "citationTitle": "Wikipedia: Creaming (food)"
+  },
+  {
+    "id": "e9d2b648-469e-487e-b981-444797146a74",
+    "text": "What type of pan material is best for making a perfect French omelet due to its even heat distribution and non-reactive properties?",
+    "options": [
+      "Cast iron",
+      "Carbon steel",
+      "Stainless steel",
+      "Aluminum"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Carbon steel pans are preferred for French omelets due to their even heating and natural non-stick properties when properly seasoned.",
+    "detailedExplanation": "Carbon steel pans are considered the gold standard for making French omelets by professional chefs. These pans heat evenly and, when properly seasoned, develop natural non-stick properties that allow the delicate omelet to slide effortlessly from the pan. Carbon steel responds quickly to temperature changes, giving cooks precise control over the gentle heat required for the creamy, barely-set texture of a classic French omelet. Unlike stainless steel, carbon steel won't cause sticking, and unlike cast iron, it's lightweight and heats more evenly without hot spots.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Carbon_steel",
+    "citationTitle": "Wikipedia: Carbon steel"
+  }
+]

@@ -2,7 +2,7 @@
 
 import { Card, CardBody } from "@nextui-org/react";
 import { Navbar } from "@/components/Navbar";
-import { Footer } from "@/components/Footer";
+import { AppFooter } from "@/components/AppFooter";
 
 export default function AboutPage() {
   return (
@@ -60,7 +60,7 @@ export default function AboutPage() {
           </Card>
         </div>
       </main>
-      <Footer />
+      <AppFooter />
     </>
   );
 }

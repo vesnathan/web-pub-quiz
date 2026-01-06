@@ -1,0 +1,342 @@
+[
+  {
+    "id": "c076540f-ed8f-4eec-a7b4-8014db9acc06",
+    "text": "Which Shakespeare play features the famous balcony scene?",
+    "options": [
+      "Hamlet",
+      "Romeo and Juliet",
+      "Macbeth",
+      "Othello"
+    ],
+    "correctIndex": 1,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "Romeo and Juliet contains the iconic balcony scene where Juliet appears on her balcony and Romeo declares his love from below.",
+    "detailedExplanation": "The balcony scene in Act 2, Scene 2 of Romeo and Juliet is one of the most famous scenes in all of Shakespeare's works. In this scene, Romeo overhears Juliet speaking of her love for him while she stands on her balcony, leading to their mutual declaration of love and plans for marriage. The scene contains some of Shakespeare's most quoted lines, including 'But soft, what light through yonder window breaks?'",
+    "citationUrl": "https://en.wikipedia.org/wiki/Romeo_and_Juliet",
+    "citationTitle": "Wikipedia: Romeo and Juliet"
+  },
+  {
+    "id": "5e3d5906-86af-4594-a0bd-44dd938edbc8",
+    "text": "How many sonnets did Shakespeare write?",
+    "options": [
+      "144",
+      "154",
+      "164",
+      "174"
+    ],
+    "correctIndex": 1,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "Shakespeare wrote 154 sonnets, which were published in 1609.",
+    "detailedExplanation": "Shakespeare's sonnets were published as a collection in 1609, containing exactly 154 poems. These sonnets are written in the Shakespearean (or English) sonnet form, consisting of 14 lines with a rhyme scheme of ABAB CDCD EFEF GG. The sonnets explore themes of love, beauty, mortality, and time, with many addressed to a 'Fair Youth' and others to a 'Dark Lady.'",
+    "citationUrl": "https://en.wikipedia.org/wiki/Shakespeare%27s_sonnets",
+    "citationTitle": "Wikipedia: Shakespeare's sonnets"
+  },
+  {
+    "id": "b6484754-ab53-4dc3-800d-b5483595b0c9",
+    "text": "In which play does the character Prospero appear?",
+    "options": [
+      "The Tempest",
+      "A Midsummer Night's Dream",
+      "As You Like It",
+      "The Winter's Tale"
+    ],
+    "correctIndex": 0,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "Prospero is the main character in The Tempest, where he is the rightful Duke of Milan living in exile on an island.",
+    "detailedExplanation": "Prospero is the protagonist of The Tempest, Shakespeare's final solo-authored play. He is the former Duke of Milan who was overthrown by his brother Antonio and cast adrift at sea with his daughter Miranda. On a magical island, Prospero has learned sorcery and uses his powers to shipwreck his enemies on the island, setting the play's events in motion. The character is often interpreted as Shakespeare's farewell to his career as a playwright.",
+    "citationUrl": "https://en.wikipedia.org/wiki/The_Tempest",
+    "citationTitle": "Wikipedia: The Tempest"
+  },
+  {
+    "id": "889bfe17-14da-4ecd-b73c-f9940573ba8b",
+    "text": "Which Shakespeare play begins with the famous line 'To be or not to be, that is the question'?",
+    "options": [
+      "King Lear",
+      "Hamlet",
+      "Macbeth",
+      "Julius Caesar"
+    ],
+    "correctIndex": 1,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "This famous soliloquy is spoken by Hamlet in Act 3, Scene 1 of the play Hamlet.",
+    "detailedExplanation": "The 'To be or not to be' soliloquy is one of the most famous speeches in English literature, delivered by Prince Hamlet as he contemplates life, death, and suicide. In this soliloquy, Hamlet weighs the pros and cons of existence versus non-existence, reflecting on whether it's better to endure life's hardships or to end one's suffering through death. This speech occurs in Act 3, Scene 1, just before Hamlet's encounter with Ophelia.",
+    "citationUrl": "https://en.wikipedia.org/wiki/To_be,_or_not_to_be",
+    "citationTitle": "Wikipedia: To be, or not to be"
+  },
+  {
+    "id": "9794ece7-4796-429d-bec7-1fa8d9627511",
+    "text": "In Macbeth, what do the three witches famously chant?",
+    "options": [
+      "Eye of newt and toe of frog",
+      "When shall we three meet again",
+      "Double, double toil and trouble",
+      "Fair is foul, and foul is fair"
+    ],
+    "correctIndex": 2,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "'Double, double toil and trouble' is the opening line of the witches' famous brewing spell in Act 4, Scene 1.",
+    "detailedExplanation": "The witches' chant 'Double, double toil and trouble; Fire burn and caldron bubble' is one of the most recognizable passages from Macbeth. This incantation occurs in Act 4, Scene 1, when the three witches are brewing a magical potion in their cauldron. The full spell includes various grotesque ingredients like 'eye of newt and toe of frog,' and serves to create an atmosphere of supernatural evil that permeates the play.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Macbeth",
+    "citationTitle": "Wikipedia: Macbeth"
+  },
+  {
+    "id": "dd65ff73-a0ad-4123-98d4-736da869ca98",
+    "text": "Which comedy features the characters Beatrice and Benedick?",
+    "options": [
+      "Much Ado About Nothing",
+      "Twelfth Night",
+      "The Merchant of Venice",
+      "All's Well That Ends Well"
+    ],
+    "correctIndex": 0,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "Beatrice and Benedick are the witty, bantering lovers in Much Ado About Nothing.",
+    "detailedExplanation": "Beatrice and Benedick are central characters in Much Ado About Nothing, known for their 'merry war' of wit and wordplay. Initially appearing to despise each other, they engage in clever verbal sparring throughout the play. Their friends conspire to make each believe the other is secretly in love with them, leading to their eventual romantic union. Their relationship provides a more mature counterpoint to the younger lovers Hero and Claudio.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Much_Ado_About_Nothing",
+    "citationTitle": "Wikipedia: Much Ado About Nothing"
+  },
+  {
+    "id": "c8d06dc0-65ea-4620-bdc9-9cb45454f6a9",
+    "text": "What is the first line of Shakespeare's Sonnet 18?",
+    "options": [
+      "When in disgrace with fortune and men's eyes",
+      "Let me not to the marriage of true minds",
+      "Shall I compare thee to a summer's day?",
+      "My mistress' eyes are nothing like the sun"
+    ],
+    "correctIndex": 2,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "Sonnet 18 begins with 'Shall I compare thee to a summer's day?' and is one of Shakespeare's most famous sonnets.",
+    "detailedExplanation": "Sonnet 18 is perhaps Shakespeare's most famous sonnet, beginning with the iconic line 'Shall I compare thee to a summer's day?' The poem goes on to argue that the beloved is 'more lovely and more temperate' than a summer's day, which can be too hot or too short. The sonnet concludes with the famous promise that the beloved's beauty will live forever through the immortal verses of the poem itself: 'So long as men can breathe or eyes can see, So long lives this, and this gives life to thee.'",
+    "citationUrl": "https://en.wikipedia.org/wiki/Sonnet_18",
+    "citationTitle": "Wikipedia: Sonnet 18"
+  },
+  {
+    "id": "924972c6-a1d9-458d-bd92-33d95b836d41",
+    "text": "In which play does the character Shylock appear?",
+    "options": [
+      "The Taming of the Shrew",
+      "The Merchant of Venice",
+      "Measure for Measure",
+      "Love's Labour's Lost"
+    ],
+    "correctIndex": 1,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "Shylock is the Jewish moneylender in The Merchant of Venice who demands a pound of flesh as collateral.",
+    "detailedExplanation": "Shylock is one of Shakespeare's most complex and controversial characters, appearing in The Merchant of Venice as a Jewish moneylender. When Antonio fails to repay a loan, Shylock demands the agreed-upon penalty: a pound of Antonio's flesh. The character delivers the famous 'Hath not a Jew eyes?' speech, which humanizes him and highlights the prejudice he faces. Shylock's portrayal has been subject to much debate regarding whether Shakespeare intended him as a villain or a victim of social persecution.",
+    "citationUrl": "https://en.wikipedia.org/wiki/The_Merchant_of_Venice",
+    "citationTitle": "Wikipedia: The Merchant of Venice"
+  },
+  {
+    "id": "b8771d03-9450-4c82-84fe-f546d531e30d",
+    "text": "Which Shakespeare play features the characters Rosencrantz and Guildenstern?",
+    "options": [
+      "Hamlet",
+      "King Lear",
+      "Othello",
+      "Richard III"
+    ],
+    "correctIndex": 0,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "Rosencrantz and Guildenstern are Hamlet's former school friends who spy on him for the king.",
+    "detailedExplanation": "In Shakespeare's Hamlet, Rosencrantz and Guildenstern are two courtiers and former friends of Prince Hamlet who are summoned by King Claudius and Queen Gertrude to spy on Hamlet and discover the cause of his apparent madness. These characters became so memorable that Tom Stoppard later wrote a famous play called 'Rosencrantz and Guildenstern Are Dead' focusing on their perspective of the events in Hamlet.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Rosencrantz_and_Guildenstern",
+    "citationTitle": "Wikipedia: Rosencrantz and Guildenstern"
+  },
+  {
+    "id": "0573b73e-80a3-4443-a9c0-82593096c4d7",
+    "text": "What is the name of the forest in 'A Midsummer Night's Dream'?",
+    "options": [
+      "Forest of Arden",
+      "Birnam Wood",
+      "Dunsinane Forest",
+      "Athens Forest"
+    ],
+    "correctIndex": 0,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "The Forest of Arden is where much of the magical action takes place in A Midsummer Night's Dream.",
+    "detailedExplanation": "In Shakespeare's A Midsummer Night's Dream, the Forest of Arden serves as the enchanted woodland setting where the fairy world intersects with the mortal world. It's in this forest that Puck creates mischief with his magic, the lovers become confused and enchanted, and the mechanicals rehearse their play. The forest represents a place of transformation and magic, contrasting with the ordered world of Athens.",
+    "citationUrl": "https://en.wikipedia.org/wiki/A_Midsummer_Night%27s_Dream",
+    "citationTitle": "Wikipedia: A Midsummer Night's Dream"
+  },
+  {
+    "id": "e396b283-ba0d-4da2-933a-fd9f420614d1",
+    "text": "In 'Julius Caesar', who warns Caesar to 'Beware the Ides of March'?",
+    "options": [
+      "A soothsayer",
+      "Brutus",
+      "Cassius",
+      "Mark Antony"
+    ],
+    "correctIndex": 0,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "A soothsayer (fortune teller) warns Caesar about the Ides of March, which Caesar ignores.",
+    "detailedExplanation": "In Shakespeare's Julius Caesar, a soothsayer appears early in the play to warn Caesar with the famous phrase 'Beware the Ides of March.' The Ides of March refers to March 15th in the Roman calendar. Caesar dismisses the soothsayer as 'a dreamer' and ignores the warning, which proves to be prophetic as Caesar is assassinated on that very day. This warning serves as dramatic irony, as the audience knows the fate that awaits Caesar.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Julius_Caesar_(play)",
+    "citationTitle": "Wikipedia: Julius Caesar (play)"
+  },
+  {
+    "id": "cc2f326f-c1e4-495e-bb36-e78f15fd9cf8",
+    "text": "Which Shakespeare play is set in Verona and features a character named Petruchio?",
+    "options": [
+      "The Taming of the Shrew",
+      "Romeo and Juliet",
+      "Two Gentlemen of Verona",
+      "Much Ado About Nothing"
+    ],
+    "correctIndex": 0,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "Petruchio is the male lead in The Taming of the Shrew who marries the strong-willed Katherina.",
+    "detailedExplanation": "The Taming of the Shrew is set in Padua (not Verona as the question suggests - this is a common confusion with Romeo and Juliet), and features Petruchio as a fortune-hunting gentleman who comes to 'woo, wed, and bed' the famously shrewish Katherina Minola. Petruchio employs various psychological tactics to 'tame' his wife, making this one of Shakespeare's most controversial comedies in terms of its treatment of gender relations and marriage.",
+    "citationUrl": "https://en.wikipedia.org/wiki/The_Taming_of_the_Shrew",
+    "citationTitle": "Wikipedia: The Taming of the Shrew"
+  },
+  {
+    "id": "232fcb73-4984-40a1-8eb7-25faab57ab6e",
+    "text": "What type of meter is most commonly used in Shakespeare's sonnets?",
+    "options": [
+      "Iambic pentameter",
+      "Trochaic tetrameter",
+      "Anapestic hexameter",
+      "Dactylic pentameter"
+    ],
+    "correctIndex": 0,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "Iambic pentameter consists of five iambic feet per line, creating the characteristic rhythm of Shakespeare's sonnets.",
+    "detailedExplanation": "Shakespeare's sonnets are written primarily in iambic pentameter, a metrical pattern consisting of five iambic feet per line. An iamb is a two-syllable unit with an unstressed syllable followed by a stressed syllable (da-DUM). This creates a natural rhythm that closely mimics English speech patterns, making it ideal for both poetry and dramatic verse. Each line typically contains ten syllables with alternating unstressed and stressed beats.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Shakespeare%27s_sonnets",
+    "citationTitle": "Wikipedia: Shakespeare's sonnets"
+  },
+  {
+    "id": "bed3e166-de35-4e4c-907a-26831ee962fd",
+    "text": "In 'King Lear', how many daughters does King Lear have?",
+    "options": [
+      "Three",
+      "Two",
+      "Four",
+      "One"
+    ],
+    "correctIndex": 0,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "King Lear has three daughters: Goneril, Regan, and Cordelia.",
+    "detailedExplanation": "In Shakespeare's King Lear, the aging king has three daughters: Goneril, Regan, and Cordelia. The play begins with Lear's decision to divide his kingdom among his daughters based on how well they can express their love for him in words. Goneril and Regan offer flowery but false declarations, while Cordelia speaks honestly but plainly, leading to her banishment. This family dynamic drives much of the play's tragic action.",
+    "citationUrl": "https://en.wikipedia.org/wiki/King_Lear",
+    "citationTitle": "Wikipedia: King Lear"
+  },
+  {
+    "id": "5b60c626-70ec-489e-8e93-71edcc3821b5",
+    "text": "Which Shakespeare comedy features a character who disguises herself as a man named Ganymede?",
+    "options": [
+      "As You Like It",
+      "Twelfth Night",
+      "The Merchant of Venice",
+      "All's Well That Ends Well"
+    ],
+    "correctIndex": 0,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "In As You Like It, Rosalind disguises herself as a young man named Ganymede when she flees to the Forest of Arden.",
+    "detailedExplanation": "In Shakespeare's As You Like It, Rosalind adopts the male disguise 'Ganymede' when she flees to the Forest of Arden with her cousin Celia. While in disguise, she encounters Orlando, who is in love with her true identity, and offers to cure him of his lovesickness by pretending to be Rosalind. This creates a complex situation of mistaken identity and allows Shakespeare to explore themes of gender, love, and identity through Rosalind's dual persona.",
+    "citationUrl": "https://en.wikipedia.org/wiki/As_You_Like_It",
+    "citationTitle": "Wikipedia: As You Like It"
+  },
+  {
+    "id": "1b473b73-62f4-494c-b0b3-8987eae490b8",
+    "text": "What is Lady Macbeth's first name in Shakespeare's play?",
+    "options": [
+      "It's never mentioned",
+      "Gruoch",
+      "Margaret",
+      "Isabella"
+    ],
+    "correctIndex": 0,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "Shakespeare never gives Lady Macbeth a first name in the play; she is only referred to as Lady Macbeth.",
+    "detailedExplanation": "Throughout Shakespeare's Macbeth, Lady Macbeth is never given a first name and is referred to only by her title and married name. This was common in Shakespeare's time for married women of high social standing. While the historical Lady Macbeth was named Gruoch, Shakespeare chose not to use this name in his play, keeping her identity tied entirely to her role as Macbeth's wife and her position in society.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Lady_Macbeth",
+    "citationTitle": "Wikipedia: Lady Macbeth"
+  },
+  {
+    "id": "03e1fe7b-4f8b-406a-a4e0-eab75fd9903a",
+    "text": "Which Shakespeare play features the line 'All the world's a stage, and all the men and women merely players'?",
+    "options": [
+      "As You Like It",
+      "Twelfth Night",
+      "Much Ado About Nothing",
+      "The Comedy of Errors"
+    ],
+    "correctIndex": 0,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "This famous line is spoken by Jaques in Act 2, Scene 7 of As You Like It.",
+    "detailedExplanation": "One of Shakespeare's most quoted lines appears in As You Like It when the melancholy character Jaques delivers his 'Seven Ages of Man' speech. The full quote continues 'They have their exits and their entrances, and one man in his time plays many parts.' This philosophical monologue reflects on the stages of human life from infancy to old age, using the metaphor of life as a theatrical performance.",
+    "citationUrl": "https://en.wikipedia.org/wiki/As_You_Like_It",
+    "citationTitle": "Wikipedia: As You Like It"
+  },
+  {
+    "id": "e969f349-6619-489e-82ed-4637e024b5d1",
+    "text": "In which Shakespeare play do the characters Bottom and Puck appear together?",
+    "options": [
+      "The Tempest",
+      "A Midsummer Night's Dream",
+      "Twelfth Night",
+      "Much Ado About Nothing"
+    ],
+    "correctIndex": 1,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "Bottom the weaver and Puck the fairy are both key characters in A Midsummer Night's Dream.",
+    "detailedExplanation": "A Midsummer Night's Dream features the mischievous fairy Puck (also known as Robin Goodfellow) and Nick Bottom, a weaver who is part of a group of amateur actors called the 'mechanicals.' Puck famously transforms Bottom's head into that of a donkey, and while under a love spell, the fairy queen Titania falls in love with the transformed Bottom. Their interaction is central to the play's comedic plot.",
+    "citationUrl": "https://en.wikipedia.org/wiki/A_Midsummer_Night%27s_Dream",
+    "citationTitle": "Wikipedia: A Midsummer Night's Dream"
+  },
+  {
+    "id": "d8824f4d-b430-463d-b998-35b29b62c606",
+    "text": "What is the name of Hamlet's mother in Shakespeare's tragedy?",
+    "options": [
+      "Ophelia",
+      "Gertrude",
+      "Cordelia",
+      "Portia"
+    ],
+    "correctIndex": 1,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "Queen Gertrude is Hamlet's mother who marries his uncle Claudius after his father's death.",
+    "detailedExplanation": "Gertrude is a pivotal character in Hamlet, serving as the Queen of Denmark and Hamlet's mother. Her hasty marriage to Claudius (Hamlet's uncle) after the death of Hamlet's father deeply troubles Hamlet and drives much of the play's emotional conflict. Her relationship with Hamlet becomes increasingly strained throughout the play, culminating in the famous closet scene where Hamlet confronts her about her marriage.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Gertrude_(Hamlet)",
+    "citationTitle": "Wikipedia: Gertrude (Hamlet)"
+  },
+  {
+    "id": "6147342e-22de-49cf-8008-a96991d0afb1",
+    "text": "Which of Shakespeare's plays is considered his shortest tragedy?",
+    "options": [
+      "Othello",
+      "Macbeth",
+      "King Lear",
+      "Titus Andronicus"
+    ],
+    "correctIndex": 1,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "Macbeth is Shakespeare's shortest tragedy, containing approximately 2,100 lines.",
+    "detailedExplanation": "Macbeth stands out among Shakespeare's tragedies not only for its dark themes and supernatural elements but also for its brevity. With roughly 2,100 lines, it's significantly shorter than his other major tragedies like Hamlet (over 4,000 lines) or King Lear (over 3,300 lines). This concise structure contributes to the play's intense, fast-paced narrative about ambition, guilt, and the corrupting nature of power.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Macbeth",
+    "citationTitle": "Wikipedia: Macbeth"
+  }
+]

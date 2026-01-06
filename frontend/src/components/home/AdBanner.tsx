@@ -3,10 +3,13 @@
 interface AdBannerProps {
   /** If true, the ad is hidden (for ad-free subscribers) */
   isAdFree?: boolean;
+  /** If true, subscription is still loading - hide ad to prevent flash */
+  isLoading?: boolean;
 }
 
-export function AdBanner({ isAdFree }: AdBannerProps) {
-  if (isAdFree) return null;
+export function AdBanner({ isAdFree, isLoading }: AdBannerProps) {
+  // Hide ad while loading to prevent flash for subscribers
+  if (isLoading || isAdFree) return null;
 
   return (
     <a

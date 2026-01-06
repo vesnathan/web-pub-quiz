@@ -1,0 +1,342 @@
+[
+  {
+    "id": "f2504d00-1497-455a-8360-443467a4f1fd",
+    "text": "What type of propulsion system do ion drives use to propel spacecraft?",
+    "options": [
+      "Chemical combustion",
+      "Electrically charged particles",
+      "Solar wind capture",
+      "Nuclear fusion"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Ion drives use electrically charged particles (ions) accelerated by electric fields to create thrust.",
+    "detailedExplanation": "Ion drives, also known as ion thrusters, work by ionizing a propellant gas (typically xenon) and then using electric fields to accelerate the charged particles to very high speeds. While they produce much less thrust than chemical rockets, they are extremely fuel-efficient and can operate for years, making them ideal for deep space missions. NASA's Dawn spacecraft used ion propulsion to visit both Vesta and Ceres.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Ion_thruster",
+    "citationTitle": "Wikipedia: Ion thruster"
+  },
+  {
+    "id": "199a6430-c2c1-478d-a529-916b6c6e47e5",
+    "text": "Which space agency operates the Galileo satellite navigation system?",
+    "options": [
+      "NASA",
+      "Roscosmos",
+      "European Space Agency",
+      "JAXA"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "The European Space Agency (ESA) operates the Galileo global navigation satellite system.",
+    "detailedExplanation": "Galileo is Europe's own global navigation satellite system, providing highly accurate positioning services worldwide. The system is operated by the European Space Agency and is designed to be independent from other navigation systems like GPS (US), GLONASS (Russia), and BeiDou (China). Galileo offers improved accuracy and reliability for civilian users and provides European strategic autonomy in satellite navigation.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Galileo_(satellite_navigation)",
+    "citationTitle": "Wikipedia: Galileo (satellite navigation)"
+  },
+  {
+    "id": "1c49fee3-eb70-4e97-a49c-8d58ec33ce0a",
+    "text": "What is the primary advantage of a geostationary orbit for communication satellites?",
+    "options": [
+      "Closest to Earth's surface",
+      "Always visible from the same location on Earth",
+      "Requires least fuel to maintain",
+      "Protected from space debris"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Geostationary satellites remain fixed above the same point on Earth, allowing constant communication coverage.",
+    "detailedExplanation": "A geostationary orbit is located approximately 35,786 kilometers above Earth's equator, where satellites orbit at the same rate as Earth's rotation. This means they appear stationary relative to a point on Earth's surface, making them ideal for communication satellites as ground antennas can be permanently pointed at them without needing to track their movement across the sky.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Geostationary_orbit",
+    "citationTitle": "Wikipedia: Geostationary orbit"
+  },
+  {
+    "id": "654685f7-9920-49ed-a141-aafd2da40a2b",
+    "text": "Which heat protection technology did SpaceX pioneer for reusable rocket boosters?",
+    "options": [
+      "Ablative heat shields",
+      "Grid fins and retro-propulsion",
+      "Ceramic tiles",
+      "Inflatable heat shields"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "SpaceX uses grid fins for steering and retro-propulsion (engine burns) to slow down and land their Falcon 9 boosters.",
+    "detailedExplanation": "SpaceX revolutionized rocket reusability by developing a system that uses titanium grid fins to steer the returning booster and performs controlled engine burns (retro-propulsion) to slow the rocket's descent. This allows the first stage to land vertically either on land or on autonomous drone ships at sea. This technology has dramatically reduced launch costs by enabling the reuse of expensive rocket hardware.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Falcon_9_first-stage_landing_tests",
+    "citationTitle": "Wikipedia: Falcon 9 first-stage landing tests"
+  },
+  {
+    "id": "9008a9eb-a798-43cc-a150-33966e395468",
+    "text": "What does the acronym 'EVA' stand for in space operations?",
+    "options": [
+      "Extra-Vehicular Activity",
+      "Emergency Vehicle Access",
+      "Electronic Valve Assembly",
+      "External Visual Array"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "EVA stands for Extra-Vehicular Activity, commonly known as a spacewalk.",
+    "detailedExplanation": "Extra-Vehicular Activity (EVA) refers to any activity done by an astronaut or cosmonaut outside a spacecraft beyond Earth's appreciable atmosphere. The first EVA was performed by Soviet cosmonaut Alexei Leonov in 1965. EVAs are essential for space station maintenance, satellite repairs, scientific experiments, and construction activities in space. Modern EVAs from the International Space Station typically last 6-8 hours and require extensive preparation.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Extravehicular_activity",
+    "citationTitle": "Wikipedia: Extravehicular activity"
+  },
+  {
+    "id": "7a54f533-1f62-4c02-8e3b-f4b36ef2eb65",
+    "text": "Which type of rocket fuel combination is used by the Space Shuttle's main engines?",
+    "options": [
+      "Kerosene and liquid oxygen",
+      "Liquid hydrogen and liquid oxygen",
+      "Solid propellant mixture",
+      "Methane and liquid oxygen"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "The Space Shuttle's main engines burn liquid hydrogen as fuel with liquid oxygen as the oxidizer.",
+    "detailedExplanation": "The Space Shuttle's three RS-25 main engines used cryogenic propellants: liquid hydrogen (LH2) as fuel and liquid oxygen (LOX) as oxidizer. This combination provides high specific impulse (efficiency) and burns cleanly, producing only water vapor as exhaust. The engines were highly advanced, capable of throttling and reusable for multiple flights. These same engines are now being used on NASA's Space Launch System (SLS) rocket.",
+    "citationUrl": "https://en.wikipedia.org/wiki/RS-25",
+    "citationTitle": "Wikipedia: RS-25"
+  },
+  {
+    "id": "a386303e-759f-4227-a024-c5a3234b344c",
+    "text": "What is the name of the robotic arm system used on the International Space Station?",
+    "options": [
+      "Canadarm",
+      "Canadarm2",
+      "European Robotic Arm",
+      "Japanese Experiment Module Remote Manipulator System"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Canadarm2 is the primary robotic arm system that serves the International Space Station.",
+    "detailedExplanation": "Canadarm2, officially known as the Space Station Remote Manipulator System (SSRMS), is a 17.6-meter robotic arm built by the Canadian Space Agency. It's an evolution of the original Canadarm used on Space Shuttles. Canadarm2 can move around the station by grappling onto various attachment points and is essential for capturing visiting spacecraft, moving equipment, and assisting with EVAs and station assembly.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Mobile_Servicing_System",
+    "citationTitle": "Wikipedia: Mobile Servicing System"
+  },
+  {
+    "id": "dcbc5f7b-3c04-4b5b-9577-e1385c566017",
+    "text": "Which space telescope technology allows the James Webb Space Telescope to see further into the universe than Hubble?",
+    "options": [
+      "Larger mirror and visible light detection",
+      "Infrared detection and space-based location",
+      "X-ray detection and polar orbit",
+      "Ultraviolet sensors and solar synchronous orbit"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "JWST uses infrared detection and operates from deep space, allowing it to see further back in time than Hubble.",
+    "detailedExplanation": "The James Webb Space Telescope observes primarily in the infrared spectrum, which allows it to see through cosmic dust and detect light from the most distant galaxies whose light has been redshifted into infrared wavelengths due to cosmic expansion. Its location at the L2 Lagrange point, 1.5 million kilometers from Earth, provides a stable, cold environment free from Earth's thermal interference. Combined with its 6.5-meter segmented mirror (compared to Hubble's 2.4-meter mirror), these technologies allow JWST to observe galaxies formed just a few hundred million years after the Big Bang.",
+    "citationUrl": "https://en.wikipedia.org/wiki/James_Webb_Space_Telescope",
+    "citationTitle": "Wikipedia: James Webb Space Telescope"
+  },
+  {
+    "id": "fde391a0-f83d-4490-a034-c2e4e6ffdb5e",
+    "text": "What is the minimum velocity required for a spacecraft to escape Earth's gravitational pull?",
+    "options": [
+      "7.9 km/s",
+      "11.2 km/s",
+      "17.5 km/s",
+      "25.0 km/s"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Earth's escape velocity is 11.2 km/s, the minimum speed needed to break free from gravitational attraction.",
+    "detailedExplanation": "Escape velocity is the minimum speed needed for an object to escape from the gravitational influence of a celestial body. For Earth, this velocity is approximately 11.2 kilometers per second (about 25,000 mph). This fundamental concept is crucial for space mission planning, as spacecraft must achieve at least this velocity to leave Earth's gravitational well and travel to other planets or deep space destinations.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Escape_velocity",
+    "citationTitle": "Wikipedia: Escape velocity"
+  },
+  {
+    "id": "a9a30eea-8acc-4541-9e5b-d7747443b76a",
+    "text": "Which spacecraft was the first to successfully land on and return samples from an asteroid?",
+    "options": [
+      "Hayabusa",
+      "OSIRIS-REx",
+      "Dawn",
+      "Rosetta"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Japan's Hayabusa spacecraft was the first to successfully return samples from an asteroid (Itokawa) in 2010.",
+    "detailedExplanation": "The Hayabusa mission, launched by Japan's JAXA in 2003, made history as the first spacecraft to land on an asteroid, collect samples, and return them to Earth. Despite numerous technical challenges during its seven-year journey, Hayabusa successfully returned microscopic particles from asteroid 25143 Itokawa in 2010. This achievement demonstrated advanced technologies including ion propulsion, autonomous navigation, and sample collection techniques that have influenced subsequent asteroid missions.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Hayabusa",
+    "citationTitle": "Wikipedia: Hayabusa"
+  },
+  {
+    "id": "82a21971-9ccf-46d5-930d-d2aa8a4b6cdb",
+    "text": "What does the term 'apogee' refer to in orbital mechanics?",
+    "options": [
+      "The closest point to Earth in an orbit",
+      "The farthest point from Earth in an orbit",
+      "The orbital period of a satellite",
+      "The angle of orbital inclination"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Apogee is the point in an elliptical orbit where a satellite is farthest from Earth.",
+    "detailedExplanation": "In orbital mechanics, apogee refers to the point in an elliptical orbit where an orbiting object is at its greatest distance from Earth. This term is specific to Earth orbits, while the general term for any celestial body is 'apoapsis.' The opposite point, where the object is closest to Earth, is called perigee. Understanding these orbital parameters is essential for satellite operations, space missions, and calculating orbital energy requirements.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Apsis",
+    "citationTitle": "Wikipedia: Apsis"
+  },
+  {
+    "id": "6d4004bf-e9ae-4bee-a2dd-4c06ca725b97",
+    "text": "Which space probe was the first to achieve a powered landing on Mars?",
+    "options": [
+      "Viking 1",
+      "Mars Pathfinder",
+      "Phoenix",
+      "Viking 2"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "NASA's Viking 1 lander was the first spacecraft to successfully perform a powered landing on Mars in 1976.",
+    "detailedExplanation": "Viking 1, launched by NASA in 1975, achieved the first successful powered landing on Mars on July 20, 1976. The lander used retro-rockets to slow its descent after parachutes and heat shields reduced its initial velocity. This historic mission marked a major technological breakthrough in planetary exploration, demonstrating the complex engineering required for soft landings on other worlds. The Viking program paved the way for all subsequent Mars surface missions.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Viking_1",
+    "citationTitle": "Wikipedia: Viking 1"
+  },
+  {
+    "id": "18b15d95-757e-4b76-b4c2-65bfc63fcbfa",
+    "text": "What type of orbit allows a satellite to pass over the same points on Earth at the same local time each day?",
+    "options": [
+      "Geostationary orbit",
+      "Sun-synchronous orbit",
+      "Polar orbit",
+      "Molniya orbit"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "A sun-synchronous orbit maintains the same local solar time for each pass over any point on Earth.",
+    "detailedExplanation": "A sun-synchronous orbit is a specialized polar orbit where the satellite's orbital plane precesses at the same rate as Earth's orbit around the Sun. This synchronization ensures that the satellite passes over any given point on Earth at approximately the same local solar time each day. This orbital characteristic is particularly valuable for Earth observation satellites, as it provides consistent lighting conditions for imaging and monitoring applications, making it easier to compare data collected over time.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Sun-synchronous_orbit",
+    "citationTitle": "Wikipedia: Sun-synchronous orbit"
+  },
+  {
+    "id": "12af70c0-78b5-449d-9b8e-a522f34046ff",
+    "text": "Which technology allows spacecraft to use planetary gravity to gain speed and change direction?",
+    "options": [
+      "Aerobraking",
+      "Gravity assist",
+      "Orbital insertion",
+      "Hohmann transfer"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Gravity assist (or gravitational slingshot) uses a planet's gravity to accelerate and redirect spacecraft.",
+    "detailedExplanation": "Gravity assist, also known as a gravitational slingshot, is a space navigation technique that uses the relative movement and gravity of a planet to alter the path and speed of a spacecraft. This method allows missions to reach distant destinations with less fuel and shorter travel times than would otherwise be possible. Famous examples include the Voyager probes, which used multiple gravity assists to visit the outer planets, and the Parker Solar Probe, which uses Venus flybys to gradually approach the Sun.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Gravity_assist",
+    "citationTitle": "Wikipedia: Gravity assist"
+  },
+  {
+    "id": "f7ca4c83-4b8c-4e0e-8628-dbff0cef6980",
+    "text": "What is the primary structural challenge that space elevators must overcome?",
+    "options": [
+      "Atmospheric drag",
+      "Tensile strength of materials",
+      "Orbital debris",
+      "Solar radiation"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Space elevators require materials with tensile strength far exceeding current technology to support their own weight.",
+    "detailedExplanation": "The primary challenge for space elevator construction is finding materials with sufficient tensile strength to support a cable extending from Earth's surface to geostationary orbit (about 36,000 km high). The cable must support not only its own enormous weight but also the tension from centrifugal forces. Current materials like steel are orders of magnitude too weak. Theoretical solutions involve advanced carbon nanotubes or graphene, but manufacturing continuous fibers of sufficient length and strength remains beyond current technological capabilities.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Space_elevator",
+    "citationTitle": "Wikipedia: Space elevator"
+  },
+  {
+    "id": "3777bf0d-6157-494f-a5a4-2ce7cfb413c3",
+    "text": "Which spacecraft component is specifically designed to protect against micrometeorite impacts?",
+    "options": [
+      "Thermal blankets",
+      "Whipple shields",
+      "Solar panels",
+      "Attitude control systems"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Whipple shields are multi-layer barriers designed to break up and disperse micrometeorite impacts.",
+    "detailedExplanation": "Whipple shields, named after astronomer Fred Whipple, are specialized protection systems consisting of multiple thin layers separated by gaps. When a micrometeorite strikes the outer layer, it breaks into smaller fragments and plasma, which are then absorbed or deflected by subsequent layers. This technology is crucial for protecting spacecraft and space stations from the constant bombardment of tiny space debris and meteoroids traveling at extremely high velocities. The International Space Station extensively uses Whipple shielding for crew protection.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Whipple_shield",
+    "citationTitle": "Wikipedia: Whipple shield"
+  },
+  {
+    "id": "ad1db64d-956c-424f-8933-fbef42baa81b",
+    "text": "What is the name of the process used to calculate spacecraft trajectories between planets that involves threading through gravitational 'tunnels'?",
+    "options": [
+      "Weak Stability Boundary Theory",
+      "Interplanetary Transport Network",
+      "Hohmann Transfer Orbit",
+      "Lagrange Point Navigation"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "The Interplanetary Transport Network (ITN) uses gravitational 'tunnels' or tubes to calculate low-energy spacecraft trajectories.",
+    "detailedExplanation": "The Interplanetary Transport Network is a collection of gravitationally determined pathways through the solar system that requires very little energy for spacecraft to travel from one interesting point to another. These pathways are sometimes called the 'superhighways' of the solar system and were discovered through mathematical analysis of the restricted three-body problem. The ITN makes use of Lagrange points as 'gateways' to travel throughout the solar system at low cost.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Interplanetary_Transport_Network",
+    "citationTitle": "Wikipedia: Interplanetary Transport Network"
+  },
+  {
+    "id": "1395f1d5-ac1c-4e66-bf38-94605a4264f0",
+    "text": "Which material technology is commonly used for spacecraft thermal blankets due to its excellent insulation properties?",
+    "options": [
+      "Kevlar fiber weaving",
+      "Multi-Layer Insulation (MLI)",
+      "Carbon nanotube sheets",
+      "Titanium foil wrapping"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Multi-Layer Insulation (MLI) consists of multiple layers of thin, reflective films that provide excellent thermal protection for spacecraft.",
+    "detailedExplanation": "Multi-Layer Insulation is a thermal insulation system used on spacecraft that consists of multiple layers of thin sheets, often made of materials like Mylar or Kapton, with low-emissivity surfaces facing each other. The layers are separated by low-conductivity spacers to minimize heat transfer through conduction, convection, and radiation. This 'blanket' technology is essential for maintaining proper temperatures on satellites and spacecraft in the extreme temperature variations of space.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Multi-layer_insulation",
+    "citationTitle": "Wikipedia: Multi-layer insulation"
+  },
+  {
+    "id": "5bcbddbb-da88-4627-aaef-f139e7e8ef3d",
+    "text": "What does the term 'specific impulse' measure in rocket engine performance?",
+    "options": [
+      "The total thrust generated by the engine",
+      "The fuel efficiency of the engine",
+      "The maximum operating temperature",
+      "The engine's weight-to-power ratio"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Specific impulse measures how efficiently a rocket engine uses propellant, indicating how much thrust is produced per unit of propellant consumed.",
+    "detailedExplanation": "Specific impulse (Isp) is a measure of rocket engine efficiency, defined as the total impulse (or change in momentum) delivered per unit of propellant consumed. It's typically measured in seconds and represents how long one unit of propellant can produce one unit of thrust. Higher specific impulse means the engine is more efficient, requiring less propellant to achieve the same change in velocity. This is a crucial parameter in spacecraft design as propellant mass significantly affects mission capabilities.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Specific_impulse",
+    "citationTitle": "Wikipedia: Specific impulse"
+  },
+  {
+    "id": "f7d14022-d807-475f-9bd9-fe28d779be78",
+    "text": "Which spacecraft system uses reaction wheels or control moment gyroscopes for precise pointing?",
+    "options": [
+      "Propulsion control system",
+      "Attitude determination and control system",
+      "Thermal management system",
+      "Power distribution system"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "The Attitude Determination and Control System (ADCS) uses reaction wheels and control moment gyroscopes to precisely control spacecraft orientation.",
+    "detailedExplanation": "The Attitude Determination and Control System is responsible for determining and controlling the orientation (attitude) of a spacecraft in space. Reaction wheels store angular momentum and can be spun up or down to rotate the spacecraft without using propellant, while control moment gyroscopes use spinning wheels in gimbals to provide torque. These systems allow for very precise pointing, which is essential for tasks like keeping solar panels oriented toward the Sun, pointing antennas toward Earth, or directing scientific instruments at specific targets.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Attitude_control",
+    "citationTitle": "Wikipedia: Attitude control"
+  }
+]

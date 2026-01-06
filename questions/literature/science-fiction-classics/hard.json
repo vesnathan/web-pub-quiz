@@ -1,0 +1,342 @@
+[
+  {
+    "id": "dc20eb29-b6e9-4df9-9045-3b9681d79b7c",
+    "text": "In Isaac Asimov's Foundation series, what is the name of the mathematical discipline developed by Hari Seldon to predict the future of large populations?",
+    "options": [
+      "Psychohistory",
+      "Sociodynamics",
+      "Mentats",
+      "Praxeology"
+    ],
+    "correctIndex": 0,
+    "category": "literature",
+    "difficulty": "hard",
+    "explanation": "Psychohistory is the fictional science that combines history, sociology, and mathematical statistics to make predictions about large groups.",
+    "detailedExplanation": "Psychohistory is the central concept in Isaac Asimov's Foundation series, first introduced in the 1940s stories. Hari Seldon develops this mathematical discipline that can predict the future behavior of large populations through statistical analysis, though it cannot predict individual actions. The science forms the basis for Seldon's plan to preserve civilization through the predicted fall of the Galactic Empire.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Psychohistory_(fictional)",
+    "citationTitle": "Wikipedia: Psychohistory (fictional)"
+  },
+  {
+    "id": "2e2d21a4-b526-4e53-a909-72932633c891",
+    "text": "Which Philip K. Dick novel, published in 1968, features the character John Isidore and explores themes of empathy through the Voight-Kampff test?",
+    "options": [
+      "Ubik",
+      "Do Androids Dream of Electric Sheep?",
+      "The Man in the High Castle",
+      "A Scanner Darkly"
+    ],
+    "correctIndex": 1,
+    "category": "literature",
+    "difficulty": "hard",
+    "explanation": "Do Androids Dream of Electric Sheep? features John Isidore and the Voight-Kampff empathy test used to distinguish humans from androids.",
+    "detailedExplanation": "Philip K. Dick's 'Do Androids Dream of Electric Sheep?' is set in post-apocalyptic San Francisco where bounty hunter Rick Deckard hunts rogue androids. John Isidore is a 'special' human with limited mental capacity who befriends the androids. The Voight-Kampff test measures empathic responses to determine if someone is human or android, as empathy is considered uniquely human. This novel was later adapted into the film 'Blade Runner'.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Do_Androids_Dream_of_Electric_Sheep%3F",
+    "citationTitle": "Wikipedia: Do Androids Dream of Electric Sheep?"
+  },
+  {
+    "id": "9ced7d01-4310-489b-b7a8-4c6b11146bdc",
+    "text": "In Frank Herbert's Dune, what is the name of the desert planet where the spice melange is harvested?",
+    "options": [
+      "Caladan",
+      "Giedi Prime",
+      "Arrakis",
+      "Salusa Secundus"
+    ],
+    "correctIndex": 2,
+    "category": "literature",
+    "difficulty": "hard",
+    "explanation": "Arrakis is the desert planet central to Dune, where the valuable spice melange is found and harvested.",
+    "detailedExplanation": "Arrakis, also known as Dune, is the harsh desert planet that serves as the primary setting for Frank Herbert's epic novel. It's the only known source of the spice melange, the most valuable substance in the universe, which extends life and enables space travel. The planet is inhabited by the Fremen and giant sandworms, and control of Arrakis means control of the spice trade and thus political power in the galaxy.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Arrakis",
+    "citationTitle": "Wikipedia: Arrakis"
+  },
+  {
+    "id": "514d2fe9-f236-4515-8022-2785fc93deea",
+    "text": "Which 1953 Ray Bradbury novel opens with the famous line 'It was a pleasure to burn' and features protagonist Guy Montag?",
+    "options": [
+      "The Martian Chronicles",
+      "Something Wicked This Way Comes",
+      "Fahrenheit 451",
+      "Dandelion Wine"
+    ],
+    "correctIndex": 2,
+    "category": "literature",
+    "difficulty": "hard",
+    "explanation": "Fahrenheit 451 opens with 'It was a pleasure to burn' and follows fireman Guy Montag in a dystopian society where books are burned.",
+    "detailedExplanation": "Ray Bradbury's 'Fahrenheit 451' is a dystopian novel about a future society where books are banned and 'firemen' like Guy Montag burn any that are found. The title refers to the temperature at which book paper ignites. The opening line 'It was a pleasure to burn' immediately establishes Montag's initial satisfaction with his job, before he begins to question the society's values and eventually rebels against the system.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Fahrenheit_451",
+    "citationTitle": "Wikipedia: Fahrenheit 451"
+  },
+  {
+    "id": "6f99f37f-0f6a-41fa-b215-e4954fdf380a",
+    "text": "In Ursula K. Le Guin's 'The Left Hand of Darkness', what unique biological characteristic do the inhabitants of the planet Gethen possess?",
+    "options": [
+      "They are telepathic",
+      "They change gender cyclically",
+      "They photosynthesize",
+      "They hibernate for decades"
+    ],
+    "correctIndex": 1,
+    "category": "literature",
+    "difficulty": "hard",
+    "explanation": "The Gethenians are ambisexual beings who change gender during their monthly reproductive cycle called 'kemmer'.",
+    "detailedExplanation": "In Ursula K. Le Guin's groundbreaking 1969 novel, the inhabitants of Gethen (also called Winter) are normally androgynous but develop male or female characteristics during their monthly fertility period called 'kemmer'. This biological trait allows Le Guin to explore themes of gender, sexuality, and human nature through the eyes of Genly Ai, an envoy from a consortium of planets who must navigate this alien society to complete his diplomatic mission.",
+    "citationUrl": "https://en.wikipedia.org/wiki/The_Left_Hand_of_Darkness",
+    "citationTitle": "Wikipedia: The Left Hand of Darkness"
+  },
+  {
+    "id": "23fefdfb-f0b0-4411-8d16-dc2ef8e5677f",
+    "text": "Which author created the 'Three Laws of Robotics' that first appeared in the 1942 short story 'Runaround'?",
+    "options": [
+      "Philip K. Dick",
+      "Isaac Asimov",
+      "Arthur C. Clarke",
+      "Robert Heinlein"
+    ],
+    "correctIndex": 1,
+    "category": "literature",
+    "difficulty": "hard",
+    "explanation": "Isaac Asimov formulated the Three Laws of Robotics, which became fundamental principles in science fiction robotics.",
+    "detailedExplanation": "Isaac Asimov developed the Three Laws of Robotics as a literary device to govern the behavior of robots in his fiction. The laws state that robots cannot harm humans, must obey human orders (except when conflicting with the first law), and must protect their own existence (except when conflicting with the first two laws). These laws first appeared in his 1942 story 'Runaround' and became so influential that they're referenced throughout science fiction and real robotics discussions.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Three_Laws_of_Robotics",
+    "citationTitle": "Wikipedia: Three Laws of Robotics"
+  },
+  {
+    "id": "7614ffff-0dc7-41bc-8960-f094a3481293",
+    "text": "In Kurt Vonnegut's 'Slaughterhouse-Five', what is the name of the alien race that abducts protagonist Billy Pilgrim?",
+    "options": [
+      "Tralfamadorians",
+      "Vogons",
+      "Moties",
+      "Puppeteers"
+    ],
+    "correctIndex": 0,
+    "category": "literature",
+    "difficulty": "hard",
+    "explanation": "The Tralfamadorians are the alien beings who kidnap Billy Pilgrim and teach him about their non-linear perception of time.",
+    "detailedExplanation": "In Kurt Vonnegut's 1969 anti-war novel 'Slaughterhouse-Five', Billy Pilgrim claims to have been abducted by aliens called Tralfamadorians. These beings exist in four dimensions and perceive all moments in time simultaneously, leading to their philosophy that death is meaningless since the deceased person is still alive in other moments. The Tralfamadorians serve as a vehicle for Vonnegut to explore themes of free will, fate, and the trauma of war, particularly the bombing of Dresden.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Slaughterhouse-Five",
+    "citationTitle": "Wikipedia: Slaughterhouse-Five"
+  },
+  {
+    "id": "e2c5c061-5830-4ee6-86af-02d7e99292d4",
+    "text": "Which 1984 cyberpunk novel by William Gibson introduced the term 'cyberspace' and features the protagonist Case?",
+    "options": [
+      "Count Zero",
+      "Mona Lisa Overdrive",
+      "Neuromancer",
+      "Virtual Light"
+    ],
+    "correctIndex": 2,
+    "category": "literature",
+    "difficulty": "hard",
+    "explanation": "Neuromancer introduced the term 'cyberspace' and launched the cyberpunk genre with its protagonist Henry Dorsett Case.",
+    "detailedExplanation": "William Gibson's 'Neuromancer' (1984) is considered the defining work of cyberpunk fiction and the first novel to win the Hugo, Nebula, and Philip K. Dick Awards. It follows Henry Dorsett Case, a washed-up computer hacker hired for one last job involving artificial intelligences. Gibson coined the term 'cyberspace' to describe the virtual reality dataspace, and the novel's vision of a high-tech, low-life future dominated by corporations and computer networks has been hugely influential in science fiction and technology culture.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Neuromancer",
+    "citationTitle": "Wikipedia: Neuromancer"
+  },
+  {
+    "id": "215a0be7-5381-4b9c-ac75-bc039ec54f6f",
+    "text": "In Arthur C. Clarke's 'Childhood's End', what is the name of the alien race that arrives on Earth and governs humanity for fifty years before revealing their true appearance?",
+    "options": [
+      "The Overlords",
+      "The Outsiders",
+      "The Watchers",
+      "The Guardians"
+    ],
+    "correctIndex": 0,
+    "category": "literature",
+    "difficulty": "hard",
+    "explanation": "The Overlords are the benevolent alien rulers in Clarke's novel who help humanity evolve.",
+    "detailedExplanation": "In Arthur C. Clarke's 1953 novel 'Childhood's End', the Overlords are mysterious aliens who arrive on Earth and end war, poverty, and suffering, but remain hidden in their ships for fifty years. When they finally reveal themselves, they appear remarkably similar to the devil of human mythology, complete with horns, wings, and tails. Despite their fearsome appearance, they are benevolent beings tasked with shepherding humanity's children into the next stage of evolution as part of the cosmic Overmind.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Childhood%27s_End",
+    "citationTitle": "Wikipedia: Childhood's End"
+  },
+  {
+    "id": "d2937aa9-904d-4da7-8a25-10602259abeb",
+    "text": "In Robert Heinlein's 'Stranger in a Strange Land', what Martian word does Valentine Michael Smith use to describe a deep understanding that fills one with love?",
+    "options": [
+      "Tanu",
+      "Grok",
+      "Shai-hulud",
+      "Vashta"
+    ],
+    "correctIndex": 1,
+    "category": "literature",
+    "difficulty": "hard",
+    "explanation": "Grok means to understand something so thoroughly that you merge with it and love it completely.",
+    "detailedExplanation": "In Heinlein's 1961 novel 'Stranger in a Strange Land', the protagonist Michael Smith, a human raised by Martians, introduces the Martian concept of 'grok' to Earth culture. To grok something means to understand it so completely and intuitively that the observer becomes part of the observed—to merge, to blend, to interlock and to lose individual identity in group identity. The word became popular in counterculture and computer programming communities, entering common usage to mean 'to understand profoundly through intuition or empathy.'",
+    "citationUrl": "https://en.wikipedia.org/wiki/Stranger_in_a_Strange_Land",
+    "citationTitle": "Wikipedia: Stranger in a Strange Land"
+  },
+  {
+    "id": "a537b8ba-4ae3-4eae-b4de-25829435e0a0",
+    "text": "Which 1962 Philip K. Dick novel depicts a world where the Axis powers won World War II and features the novel-within-a-novel 'The Grasshopper Lies Heavy'?",
+    "options": [
+      "Palmer Eldritch",
+      "The Man in the High Castle",
+      "Ubik",
+      "A Scanner Darkly"
+    ],
+    "correctIndex": 1,
+    "category": "literature",
+    "difficulty": "hard",
+    "explanation": "'The Man in the High Castle' is Dick's alternate history novel set in a world where Nazi Germany and Imperial Japan won WWII.",
+    "detailedExplanation": "Philip K. Dick's 'The Man in the High Castle' presents an alternate history where the Axis powers won World War II, with Nazi Germany controlling the eastern United States and Imperial Japan controlling the western states. Within this world, characters encounter a banned book called 'The Grasshopper Lies Heavy' by the mysterious Hawthorne Abendsen (the titular man in the high castle), which describes a world where the Allies won the war—though notably different from our own reality. This novel-within-a-novel device explores themes of reality, truth, and the nature of existence that are central to Dick's work.",
+    "citationUrl": "https://en.wikipedia.org/wiki/The_Man_in_the_High_Castle",
+    "citationTitle": "Wikipedia: The Man in the High Castle"
+  },
+  {
+    "id": "513a9759-c327-4d90-a3f6-2bf72cd5efda",
+    "text": "In Walter M. Miller Jr.'s 'A Canticle for Leibowitz', what is the name of the Catholic monastic order that preserves knowledge after nuclear apocalypse?",
+    "options": [
+      "Order of Saint Leibowitz",
+      "Abbey of Saint Isaac",
+      "Brotherhood of Albertus Magnus",
+      "Order of Blessed Leibowitz"
+    ],
+    "correctIndex": 3,
+    "category": "literature",
+    "difficulty": "hard",
+    "explanation": "The Order of Blessed Leibowitz is the fictional monastic order founded around the shrine of the Blessed Isaac Edward Leibowitz.",
+    "detailedExplanation": "Walter M. Miller Jr.'s 1959 novel 'A Canticle for Leibowitz' follows the Order of Blessed Leibowitz, a Catholic monastic order in the post-apocalyptic American Southwest. The order was founded around the shrine of Blessed Isaac Edward Leibowitz, a former Jewish electrical engineer who converted to Catholicism and became a monk, dedicating himself to preserving books and knowledge during the nuclear holocaust known as the 'Flame Deluge.' The novel spans centuries, showing how the monks laboriously preserve and copy scientific texts and 'memorabilia,' even without understanding their meaning, eventually helping to spark a new renaissance of learning.",
+    "citationUrl": "https://en.wikipedia.org/wiki/A_Canticle_for_Leibowitz",
+    "citationTitle": "Wikipedia: A Canticle for Leibowitz"
+  },
+  {
+    "id": "36a1eb86-6dca-4215-b60d-cbbfa324d16a",
+    "text": "In Stanisław Lem's 'Solaris', what phenomenon does the sentient ocean create that torments the space station's crew?",
+    "options": [
+      "Memory parasites",
+      "Visitors based on memories",
+      "Telepathic nightmares",
+      "Time distortions"
+    ],
+    "correctIndex": 1,
+    "category": "literature",
+    "difficulty": "hard",
+    "explanation": "The ocean creates 'visitors'—physical manifestations of people from the crew members' memories and subconscious.",
+    "detailedExplanation": "In Stanisław Lem's 1961 novel 'Solaris', the sentient ocean covering the planet creates mysterious phenomena called 'visitors'—seemingly perfect physical recreations of people from the space station crew's memories, particularly those associated with guilt, trauma, or unresolved emotional conflicts. These visitors appear to be real but are actually constructs of the alien intelligence, created from the deepest recesses of the observers' minds. The most prominent visitor is Hari, the deceased wife of protagonist Kris Kelvin, whose suicide haunts him. The visitors serve as Lem's exploration of the impossibility of truly understanding alien intelligence and the psychological barriers to human communication.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Solaris_(novel)",
+    "citationTitle": "Wikipedia: Solaris (novel)"
+  },
+  {
+    "id": "105ef2ac-6cdc-4776-9cfe-52a898ab3037",
+    "text": "In Gene Wolfe's 'The Book of the New Sun', what is the profession of the protagonist Severian before he is exiled from his guild?",
+    "options": [
+      "Torturer",
+      "Librarian",
+      "Soldier",
+      "Priest"
+    ],
+    "correctIndex": 0,
+    "category": "literature",
+    "difficulty": "hard",
+    "explanation": "Severian is a torturer who is exiled from the Guild of Torturers for showing mercy.",
+    "detailedExplanation": "In Gene Wolfe's four-volume series 'The Book of the New Sun' (1980-1983), the protagonist Severian is an apprentice torturer in the Guild of Torturers in the ancient city of Nessus on the dying world Urth (far-future Earth). He is exiled from his guild for the crime of showing mercy—providing a knife to a client named Thecla so she could commit suicide rather than endure further torture. This act of compassion violates the guild's strict codes and begins Severian's journey across the strange, far-future landscape. The series is renowned for its unreliable narrator, archaic language, and complex literary allusions.",
+    "citationUrl": "https://en.wikipedia.org/wiki/The_Book_of_the_New_Sun",
+    "citationTitle": "Wikipedia: The Book of the New Sun"
+  },
+  {
+    "id": "bc587170-3cd2-40df-b52e-c8ac2ab690c5",
+    "text": "Which J.G. Ballard novel features the character Dr. Robert Kerans adapting to a flooded, tropical London in a post-apocalyptic world?",
+    "options": [
+      "The Burning World",
+      "The Crystal World",
+      "The Drowned World",
+      "The Concrete Island"
+    ],
+    "correctIndex": 2,
+    "category": "literature",
+    "difficulty": "hard",
+    "explanation": "'The Drowned World' depicts a flooded Earth where Dr. Kerans experiences psychological regression in the tropical heat.",
+    "detailedExplanation": "J.G. Ballard's 1962 novel 'The Drowned World' is set in a future where rising temperatures have melted the polar ice caps, flooding most of the world and turning temperate regions into tropical lagoons. Dr. Robert Kerans, a biologist, is part of a scientific survey team studying the transformed landscape of a submerged London. As the intense heat affects their minds, the characters begin to experience psychological regression, with Kerans ultimately choosing to embrace the primitive, pre-conscious state induced by the environment rather than flee to the cooler northern territories. The novel explores themes of evolution in reverse and humanity's relationship with environmental catastrophe.",
+    "citationUrl": "https://en.wikipedia.org/wiki/The_Drowned_World",
+    "citationTitle": "Wikipedia: The Drowned World"
+  },
+  {
+    "id": "21d4f44c-15de-4dcb-9ea0-cedbdcb76b4f",
+    "text": "In Aldous Huxley's 'Brave New World', what drug do citizens regularly consume to maintain their happiness and social compliance?",
+    "options": [
+      "Soma",
+      "Prozium",
+      "Spice",
+      "Mentats"
+    ],
+    "correctIndex": 0,
+    "category": "literature",
+    "difficulty": "hard",
+    "explanation": "Soma is the government-distributed drug that eliminates negative emotions and maintains social stability.",
+    "detailedExplanation": "In Aldous Huxley's 1932 dystopian novel 'Brave New World', soma is the perfect drug that provides all the benefits of alcohol and narcotics without any of the drawbacks—no hangovers, no addiction, no harmful side effects. Citizens are encouraged by the World State to take soma whenever they experience any negative emotions or stress, effectively eliminating psychological discomfort and maintaining social stability. The drug represents one of the key mechanisms of control in Huxley's society, along with conditioning and genetic engineering. The name is derived from the sacred drink mentioned in Hindu scriptures, highlighting the drug's quasi-religious role in maintaining social order.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Brave_New_World",
+    "citationTitle": "Wikipedia: Brave New World"
+  },
+  {
+    "id": "ca5aa42c-6bbb-42ba-adbb-950f7f8944a0",
+    "text": "In H.G. Wells' 'The Time Machine', what are the names of the two evolved human species the Time Traveler encounters in the year 802,701 AD?",
+    "options": [
+      "The Morlocks and the Eloi",
+      "The Selenites and the Martians",
+      "The Yahoos and the Houyhnhnms",
+      "The Troglodytes and the Aethers"
+    ],
+    "correctIndex": 0,
+    "category": "literature",
+    "difficulty": "hard",
+    "explanation": "The Morlocks are the underground-dwelling industrial workers, while the Eloi are the surface-dwelling leisure class.",
+    "detailedExplanation": "In H.G. Wells' 1895 novel 'The Time Machine', the protagonist discovers that humanity has evolved into two distinct species by the year 802,701. The Eloi are beautiful, childlike beings who live above ground in apparent paradise but are actually cattle for the Morlocks, who are pale, ape-like creatures living underground and maintaining the machinery that supports both civilizations. This division represents Wells' commentary on the class structure of Victorian society taken to its extreme conclusion.",
+    "citationUrl": "https://en.wikipedia.org/wiki/The_Time_Machine",
+    "citationTitle": "Wikipedia: The Time Machine"
+  },
+  {
+    "id": "662f18c0-565e-4d15-a3ce-3396e7d46814",
+    "text": "In Edgar Rice Burroughs' 'A Princess of Mars', what is the Martian name for the planet Mars as used by its inhabitants?",
+    "options": [
+      "Helium",
+      "Barsoom",
+      "Zodanga",
+      "Thark"
+    ],
+    "correctIndex": 1,
+    "category": "literature",
+    "difficulty": "hard",
+    "explanation": "Barsoom is what the Martians call their own planet in Burroughs' series.",
+    "detailedExplanation": "Edgar Rice Burroughs' 1912 novel 'A Princess of Mars' introduced readers to the planet Mars as seen through Martian eyes, where it is called Barsoom. The protagonist John Carter is transported to this dying world where he encounters various Martian races including the Green Martians of Thark and the Red Martians of the city-states Helium and Zodanga. The Barsoom series was groundbreaking in creating a comprehensive alien world with its own geography, cultures, and languages, influencing countless later science fiction works.",
+    "citationUrl": "https://en.wikipedia.org/wiki/A_Princess_of_Mars",
+    "citationTitle": "Wikipedia: A Princess of Mars"
+  },
+  {
+    "id": "ba314f83-8d5f-493b-ac2d-ca141d526883",
+    "text": "In Mary Shelley's 'Frankenstein', where does Victor Frankenstein create his second creature before destroying it?",
+    "options": [
+      "His laboratory in Ingolstadt",
+      "A remote island in Scotland",
+      "His family estate in Geneva",
+      "A castle in the Orkney Islands"
+    ],
+    "correctIndex": 3,
+    "category": "literature",
+    "difficulty": "hard",
+    "explanation": "Frankenstein retreats to a desolate laboratory in the Orkney Islands to create a female companion for his creature, but destroys it before completion.",
+    "detailedExplanation": "In Mary Shelley's 1818 novel, after his creature demands a female companion, Victor Frankenstein reluctantly agrees but seeks isolation for this dangerous work. He travels to the remote Orkney Islands off the coast of Scotland, where he sets up a laboratory. However, overcome by fears that the two creatures might reproduce and threaten humanity, or that the female might be even more malevolent than the original, Frankenstein destroys his work before completion. This act of destruction witnessed by the creature leads to tragic consequences, including the murder of Frankenstein's friend Clerval and bride Elizabeth.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Frankenstein",
+    "citationTitle": "Wikipedia: Frankenstein"
+  },
+  {
+    "id": "0329b3bd-0080-4d8a-bcfb-cb121bbc34ff",
+    "text": "In Dan Simmons' 'Hyperion', what is the name of the mysterious structure that defies the laws of physics and serves as the central location for the pilgrimage?",
+    "options": [
+      "The Crystal Monolith",
+      "The Time Tombs",
+      "The Void Temple",
+      "The Labyrinth Spires"
+    ],
+    "correctIndex": 1,
+    "category": "literature",
+    "difficulty": "hard",
+    "explanation": "The Time Tombs are ancient structures that move backward through time and house the deadly Shrike.",
+    "detailedExplanation": "In Dan Simmons' 1989 novel 'Hyperion', the Time Tombs are mysterious, massive structures on the planet Hyperion that appear to be moving backward through time, growing newer rather than older as centuries pass. These imposing monuments serve as the destination for the final pilgrimage in the novel, and they house the terrifying entity known as the Shrike. The Time Tombs are central to the novel's complex temporal mechanics and represent one of the great mysteries of Simmons' universe. The structure of the novel, modeled after Chaucer's Canterbury Tales, follows seven pilgrims as they journey toward these enigmatic tombs.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Hyperion_(Simmons_novel)",
+    "citationTitle": "Wikipedia: Hyperion (Simmons novel)"
+  }
+]

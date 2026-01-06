@@ -1,0 +1,342 @@
+[
+  {
+    "id": "a6f73a2f-2d73-4877-9eaa-0a948623f860",
+    "text": "Which country has won the Rugby World Cup the most times?",
+    "options": [
+      "New Zealand",
+      "South Africa",
+      "Australia",
+      "England"
+    ],
+    "correctIndex": 0,
+    "category": "sports",
+    "difficulty": "medium",
+    "explanation": "New Zealand has won the Rugby World Cup three times (1987, 2011, 2015).",
+    "detailedExplanation": "New Zealand's All Blacks are the most successful team in Rugby World Cup history, having won the tournament three times. They were inaugural champions in 1987, then won again in 2011 and 2015. South Africa and Australia have each won twice, while England has won once in 2003.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Rugby_World_Cup",
+    "citationTitle": "Wikipedia: Rugby World Cup"
+  },
+  {
+    "id": "9217b2bb-f70a-4f13-a8fc-3be340d87ef9",
+    "text": "In which competition do teams compete for the Calcutta Cup?",
+    "options": [
+      "Six Nations Championship",
+      "Rugby Championship",
+      "European Rugby Champions Cup",
+      "British and Irish Lions"
+    ],
+    "correctIndex": 0,
+    "category": "sports",
+    "difficulty": "medium",
+    "explanation": "The Calcutta Cup is awarded to the winner of the annual England vs Scotland match in the Six Nations Championship.",
+    "detailedExplanation": "The Calcutta Cup is one of rugby's oldest trophies, first contested in 1879. It is awarded annually to the winner of the rugby union match between England and Scotland as part of the Six Nations Championship. The trophy was made from silver rupees donated by the Calcutta Football Club when it disbanded in 1878.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Calcutta_Cup",
+    "citationTitle": "Wikipedia: Calcutta Cup"
+  },
+  {
+    "id": "9ad05155-fc95-4bfa-b637-a33189217c52",
+    "text": "Which trophy is awarded to the winners of the European Rugby Champions Cup?",
+    "options": [
+      "Heineken Cup",
+      "European Cup",
+      "Champions Cup Trophy",
+      "Bouclier de Brennus"
+    ],
+    "correctIndex": 2,
+    "category": "sports",
+    "difficulty": "medium",
+    "explanation": "The Champions Cup Trophy is awarded to winners of Europe's premier club rugby competition.",
+    "detailedExplanation": "The European Rugby Champions Cup, previously known as the Heineken Cup, awards the Champions Cup Trophy to its winners. This competition features the top club teams from across Europe, including England, France, Ireland, Wales, Scotland, and Italy. The trophy replaced the original Heineken Cup trophy when the competition was restructured in 2014.",
+    "citationUrl": "https://en.wikipedia.org/wiki/European_Rugby_Champions_Cup",
+    "citationTitle": "Wikipedia: European Rugby Champions Cup"
+  },
+  {
+    "id": "498f50f8-b1bc-4567-a85a-365242b732f6",
+    "text": "Which tournament replaced the Tri Nations Championship in 2012?",
+    "options": [
+      "Four Nations",
+      "Rugby Championship",
+      "Southern Hemisphere Cup",
+      "Pacific Championship"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "medium",
+    "explanation": "The Rugby Championship replaced the Tri Nations when Argentina joined in 2012.",
+    "detailedExplanation": "The Tri Nations Championship, contested between Australia, New Zealand, and South Africa from 1996-2011, was expanded in 2012 to include Argentina and renamed The Rugby Championship. This change reflected Argentina's improved international standing and provided a more competitive tournament structure in the Southern Hemisphere.",
+    "citationUrl": "https://en.wikipedia.org/wiki/The_Rugby_Championship",
+    "citationTitle": "Wikipedia: The Rugby Championship"
+  },
+  {
+    "id": "72f4ca11-226a-4199-95fe-c077a4160373",
+    "text": "In which year was the first Rugby League World Cup held?",
+    "options": [
+      "1952",
+      "1954",
+      "1956",
+      "1958"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "medium",
+    "explanation": "The first Rugby League World Cup was held in 1954 in France.",
+    "detailedExplanation": "The inaugural Rugby League World Cup took place in 1954 in France, featuring four teams: France, Great Britain, Australia, and New Zealand. Great Britain won the first tournament by defeating France 16-12 in the final in Paris. This was separate from rugby union and established rugby league's own world championship competition.",
+    "citationUrl": "https://en.wikipedia.org/wiki/1954_Rugby_League_World_Cup",
+    "citationTitle": "Wikipedia: 1954 Rugby League World Cup"
+  },
+  {
+    "id": "03b3d704-0c24-4593-8cc9-562176578e43",
+    "text": "What is the name of the trophy awarded to the Six Nations Championship winners?",
+    "options": [
+      "Six Nations Trophy",
+      "Championship Cup",
+      "Grand Slam Trophy",
+      "European Rugby Trophy"
+    ],
+    "correctIndex": 0,
+    "category": "sports",
+    "difficulty": "medium",
+    "explanation": "The Six Nations Trophy is awarded to the team that wins the Six Nations Championship.",
+    "detailedExplanation": "The Six Nations Trophy is the main prize awarded to the winners of the annual Six Nations Championship. The current trophy was introduced in 2000 when Italy joined the tournament, expanding it from the Five Nations. The trophy is made of silver and features a golden crown, representing the six participating nations: England, France, Ireland, Italy, Scotland, and Wales.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Six_Nations_Championship",
+    "citationTitle": "Wikipedia: Six Nations Championship"
+  },
+  {
+    "id": "3e216cae-ca6f-4354-b5e4-679a22731c7b",
+    "text": "Which country hosted the first Rugby World Cup in 1987?",
+    "options": [
+      "England",
+      "Australia",
+      "New Zealand",
+      "Australia and New Zealand"
+    ],
+    "correctIndex": 3,
+    "category": "sports",
+    "difficulty": "medium",
+    "explanation": "The 1987 Rugby World Cup was jointly hosted by Australia and New Zealand.",
+    "detailedExplanation": "The inaugural Rugby World Cup in 1987 was jointly hosted by Australia and New Zealand, with matches played across both countries. The pool stages were split between the two nations, and New Zealand hosted the final at Eden Park in Auckland, where they defeated France 29-9 to become the first Rugby World Cup champions.",
+    "citationUrl": "https://en.wikipedia.org/wiki/1987_Rugby_World_Cup",
+    "citationTitle": "Wikipedia: 1987 Rugby World Cup"
+  },
+  {
+    "id": "abcb428e-9fb0-4c8c-a6da-af7e65b9d5d0",
+    "text": "Which rugby union tournament features clubs from England, France, Ireland, Scotland, Wales, and Italy competing for European glory?",
+    "options": [
+      "European Rugby Challenge Cup",
+      "United Rugby Championship",
+      "European Rugby Champions Cup",
+      "Pro14"
+    ],
+    "correctIndex": 2,
+    "category": "sports",
+    "difficulty": "medium",
+    "explanation": "The European Rugby Champions Cup is the premier European club competition featuring top teams from the Six Nations countries.",
+    "detailedExplanation": "The European Rugby Champions Cup (formerly known as the Heineken Cup) is the top-tier European rugby union club competition. It features the best clubs from England's Premiership, France's Top 14, the United Rugby Championship (covering Ireland, Scotland, Wales, and Italy), and Italian clubs. The tournament replaced the original European Cup format and is considered the most prestigious club competition in European rugby union.",
+    "citationUrl": "https://en.wikipedia.org/wiki/European_Rugby_Champions_Cup",
+    "citationTitle": "Wikipedia: European Rugby Champions Cup"
+  },
+  {
+    "id": "f774930f-381f-4b8c-bb57-330d79b9c637",
+    "text": "What is the name of the wooden spoon traditionally given to the team that finishes last in the Six Nations Championship?",
+    "options": [
+      "The Cellar Dwellers Trophy",
+      "The Wooden Spoon",
+      "The Last Place Prize",
+      "The Bottom Trophy"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "medium",
+    "explanation": "The Wooden Spoon is the unofficial 'prize' given to the team finishing last in the Six Nations Championship.",
+    "detailedExplanation": "The Wooden Spoon is a longstanding rugby tradition that refers to the team finishing in last place in the Six Nations Championship (and previously the Five Nations and Home Nations Championships). While not an official trophy, it has become part of rugby folklore and is often referenced in media coverage. The term originates from the tradition at Cambridge University where wooden spoons were given to students with the lowest exam scores in mathematics.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Wooden_spoon_(award)",
+    "citationTitle": "Wikipedia: Wooden spoon (award)"
+  },
+  {
+    "id": "fccc44a1-d526-4e2c-9132-5a8ae8f794b1",
+    "text": "Which tournament is considered the premier domestic rugby league competition in Australia?",
+    "options": [
+      "State of Origin",
+      "NRL Premiership",
+      "Queensland Cup",
+      "NSW Cup"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "medium",
+    "explanation": "The NRL Premiership is Australia's top-level rugby league competition featuring teams from Australia and New Zealand.",
+    "detailedExplanation": "The National Rugby League (NRL) Premiership is the premier rugby league competition in the Southern Hemisphere and is widely considered the world's elite rugby league tournament. Established in 1998, it features 16 teams primarily from Australia with one team from New Zealand. The competition runs from March to October, culminating in the NRL Grand Final, which is one of Australia's most watched sporting events.",
+    "citationUrl": "https://en.wikipedia.org/wiki/National_Rugby_League",
+    "citationTitle": "Wikipedia: National Rugby League"
+  },
+  {
+    "id": "7391805a-4351-44de-8324-74e6684cd31d",
+    "text": "In which tournament do England, France, and Wales compete annually for the Grand Slam alongside three other nations?",
+    "options": [
+      "Rugby Championship",
+      "Six Nations Championship",
+      "European Nations Cup",
+      "Home Nations Championship"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "medium",
+    "explanation": "The Six Nations Championship includes England, France, Wales, Scotland, Ireland, and Italy, where any team can achieve a Grand Slam by beating all others.",
+    "detailedExplanation": "The Six Nations Championship is an annual rugby union tournament where teams compete for various honors, including the Grand Slam (beating all five other teams), Triple Crown (home nations beating the other three home nations), and individual match trophies. The tournament expanded from the original Home Nations Championship to include France in 1910 (creating the Five Nations) and Italy in 2000 to become the current Six Nations format.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Six_Nations_Championship",
+    "citationTitle": "Wikipedia: Six Nations Championship"
+  },
+  {
+    "id": "24dbe58b-8503-46be-83df-460986a322bf",
+    "text": "Which rugby union tournament features the top provincial teams from South Africa, Australia, New Zealand, Argentina, and Japan?",
+    "options": [
+      "Super Rugby",
+      "Rugby Championship",
+      "World Rugby Pacific Nations Cup",
+      "Global Rapid Rugby"
+    ],
+    "correctIndex": 0,
+    "category": "sports",
+    "difficulty": "medium",
+    "explanation": "Super Rugby is the premier southern hemisphere club competition featuring provincial teams from multiple countries.",
+    "detailedExplanation": "Super Rugby is a professional rugby union club competition that has evolved significantly since its inception in 1996. Originally featuring teams from South Africa, Australia, and New Zealand (Super 12), it expanded to include Argentina and briefly Japan. The tournament format has changed multiple times, with teams competing in conferences based on geography. Despite various restructures, it remains the premier provincial/franchise competition in the southern hemisphere.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Super_Rugby",
+    "citationTitle": "Wikipedia: Super Rugby"
+  },
+  {
+    "id": "77cfe521-2a74-4630-90b1-129ca78e6a12",
+    "text": "What is the maximum number of times a team can win the Rugby World Cup consecutively, as demonstrated by New Zealand?",
+    "options": [
+      "One",
+      "Two",
+      "Three",
+      "Four"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "medium",
+    "explanation": "New Zealand won consecutive Rugby World Cups in 2011 and 2015, which is the current record for consecutive wins.",
+    "detailedExplanation": "New Zealand achieved the remarkable feat of winning back-to-back Rugby World Cups, claiming victory in 2011 on home soil and again in 2015 in England. This makes them the only team to successfully defend their World Cup title. The All Blacks' consecutive wins were particularly significant as they ended a 24-year drought after their inaugural 1987 victory and established them as the most successful Rugby World Cup nation.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Rugby_World_Cup",
+    "citationTitle": "Wikipedia: Rugby World Cup"
+  },
+  {
+    "id": "4f7c3e06-9692-47b0-a5d1-ef374476b213",
+    "text": "Which tournament replaced the European Challenge Cup as the second-tier European rugby competition?",
+    "options": [
+      "European Rugby Challenge Cup",
+      "Continental Shield",
+      "European Conference",
+      "Challenge Trophy"
+    ],
+    "correctIndex": 0,
+    "category": "sports",
+    "difficulty": "medium",
+    "explanation": "The European Rugby Challenge Cup replaced the original European Challenge Cup as the second-tier European competition.",
+    "detailedExplanation": "The European Rugby Challenge Cup was established in 2014 as part of the restructuring of European rugby competitions. It replaced the previous European Challenge Cup (also known as the Parker Pen Cup and later the Amlin Challenge Cup) as the second-tier tournament below the Champions Cup. The competition provides European rugby opportunities for teams that don't qualify for the top-tier Champions Cup, featuring clubs from across the professional leagues in Europe.",
+    "citationUrl": "https://en.wikipedia.org/wiki/European_Rugby_Challenge_Cup",
+    "citationTitle": "Wikipedia: European Rugby Challenge Cup"
+  },
+  {
+    "id": "5245bf1f-468e-4283-8cd2-c032c43f60b3",
+    "text": "In rugby league, which tournament is known as 'the toughest rugby league competition in the world' and features teams from Lancashire and Yorkshire?",
+    "options": [
+      "Super League",
+      "Challenge Cup",
+      "Championship",
+      "League Leaders' Shield"
+    ],
+    "correctIndex": 0,
+    "category": "sports",
+    "difficulty": "medium",
+    "explanation": "Super League is the top-level rugby league competition in Europe, primarily featuring teams from northern England.",
+    "detailedExplanation": "Super League is the top-level professional rugby league competition in Europe, established in 1996. While it has expanded to include teams from France and briefly Wales, its heartland remains in the traditional rugby league areas of Lancashire and Yorkshire in northern England. The competition is known for its physicality and competitiveness, with clubs like Wigan Warriors, Leeds Rhinos, and St. Helens being among the most successful teams in its history.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Super_League",
+    "citationTitle": "Wikipedia: Super League"
+  },
+  {
+    "id": "1d7b6319-ea83-4021-93a1-edbcf441ff3f",
+    "text": "Which rugby union tournament is known as 'The Championship' and serves as the tier below the Six Nations?",
+    "options": [
+      "Rugby Europe Championship",
+      "European Nations Cup",
+      "Continental Shield",
+      "Rugby Europe Trophy"
+    ],
+    "correctIndex": 0,
+    "category": "sports",
+    "difficulty": "medium",
+    "explanation": "The Rugby Europe Championship is the second-tier European rugby union competition below the Six Nations.",
+    "detailedExplanation": "The Rugby Europe Championship, formerly known as the European Nations Cup, is an annual rugby union championship for European national teams ranked below the Six Nations teams. It features countries like Georgia, Romania, Spain, Portugal, Belgium, and the Netherlands competing for promotion opportunities to the Six Nations. The tournament has served as a crucial development pathway for emerging rugby nations in Europe since its establishment.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Rugby_Europe_Championship",
+    "citationTitle": "Wikipedia: Rugby Europe Championship"
+  },
+  {
+    "id": "856029f8-aa9e-40bc-a602-a423b1bf4679",
+    "text": "In which city is the Rugby League Challenge Cup Final traditionally held?",
+    "options": [
+      "Manchester",
+      "London",
+      "Leeds",
+      "Hull"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "medium",
+    "explanation": "The Rugby League Challenge Cup Final is traditionally held at Wembley Stadium in London.",
+    "detailedExplanation": "The Rugby League Challenge Cup Final has been held at Wembley Stadium in London since 1929, with only brief interruptions during World War II and stadium renovations. This annual showpiece event is one of the most prestigious fixtures in rugby league, attracting teams from across the UK and beyond. The tradition of holding the final at Wembley has made it a pilgrimage for rugby league fans, creating an iconic atmosphere that transcends the sport's traditional northern England heartlands.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Challenge_Cup",
+    "citationTitle": "Wikipedia: Challenge Cup"
+  },
+  {
+    "id": "3eec7af1-0d22-40fd-905f-e3d14dcbb006",
+    "text": "Which tournament features the winners of the northern and southern hemisphere's premier club competitions facing off?",
+    "options": [
+      "World Club Challenge",
+      "Global Rugby Championship",
+      "International Club Cup",
+      "World Rugby Trophy"
+    ],
+    "correctIndex": 0,
+    "category": "sports",
+    "difficulty": "medium",
+    "explanation": "The World Club Challenge pits the Super League Grand Final winners against the NRL Grand Final winners.",
+    "detailedExplanation": "The World Club Challenge is an annual rugby league match that brings together the champions of the two premier competitions: the Super League (Europe) and the National Rugby League (Australia). First held in 1976, this prestigious fixture determines the unofficial world club champions. The match alternates between being held in the UK and Australia, creating a unique opportunity for fans to see the best teams from both hemispheres compete directly against each other in what is often considered the pinnacle of club rugby league.",
+    "citationUrl": "https://en.wikipedia.org/wiki/World_Club_Challenge",
+    "citationTitle": "Wikipedia: World Club Challenge"
+  },
+  {
+    "id": "9044b45d-46e8-4008-875e-ff56db38da78",
+    "text": "How many teams participate in the Rugby World Cup tournament during the pool stage?",
+    "options": [
+      "16 teams",
+      "20 teams",
+      "24 teams",
+      "32 teams"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "medium",
+    "explanation": "The Rugby World Cup features 20 teams divided into four pools of five teams each.",
+    "detailedExplanation": "The Rugby World Cup tournament format consists of 20 national teams competing in the pool stage, organized into four pools (A, B, C, and D) with five teams in each pool. This format has been used since the 1999 World Cup, allowing for a balanced competition where each team plays four pool matches. The top two teams from each pool advance to the knockout stage, creating a quarter-final, semi-final, and final structure. This 20-team format strikes a balance between inclusivity for developing rugby nations and maintaining competitive standards.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Rugby_World_Cup",
+    "citationTitle": "Wikipedia: Rugby World Cup"
+  },
+  {
+    "id": "ca27d55d-abc1-4dd0-a069-3bd334b3b4fd",
+    "text": "Which trophy is contested between Australia and Papua New Guinea in rugby league?",
+    "options": [
+      "Pacific Cup",
+      "Oceania Shield",
+      "PM's XIII Trophy",
+      "Coral Sea Cup"
+    ],
+    "correctIndex": 2,
+    "category": "sports",
+    "difficulty": "medium",
+    "explanation": "The PM's XIII Trophy is awarded in the annual match between Australia's PM's XIII and Papua New Guinea.",
+    "detailedExplanation": "The Prime Minister's XIII Trophy is contested in an annual rugby league fixture between Australia's PM's XIII team and Papua New Guinea's national team. This match, typically held in Papua New Guinea, was established to strengthen rugby league ties between the two nations and provide development opportunities for PNG players against high-level Australian opposition. The PM's XIII traditionally features a mix of established NRL stars and emerging players, making it both a competitive fixture and a development tool for Australian rugby league while celebrating the sport's popularity in Papua New Guinea.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Prime_Minister%27s_XIII",
+    "citationTitle": "Wikipedia: Prime Minister's XIII"
+  }
+]

@@ -1,0 +1,342 @@
+[
+  {
+    "id": "bc53bd6a-3355-4cf7-ad7c-48f7b49e1f46",
+    "text": "What is the traditional cooking vessel used to make authentic Moroccan tagines?",
+    "options": [
+      "Conical earthenware pot with a funnel-shaped lid",
+      "Cast iron Dutch oven",
+      "Copper couscous pot",
+      "Clay tandoor oven"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "A tagine is cooked in a distinctive conical earthenware pot with a funnel-shaped lid that returns condensed steam to the dish.",
+    "detailedExplanation": "The tagine cooking vessel is a traditional North African earthenware pot consisting of a circular base and a distinctive conical lid with a knob handle. The conical shape allows steam to rise up, condense on the cooler lid surface, and drip back down to keep the contents moist during the slow cooking process. This unique design has been used for centuries in Morocco and other Maghreb countries, and the dish takes its name from this cooking vessel.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Tagine",
+    "citationTitle": "Wikipedia: Tagine"
+  },
+  {
+    "id": "ba23c43c-a881-4b4a-8b2e-aa5b73a8b217",
+    "text": "Which fermented fish sauce is considered essential to authentic Vietnamese pho broth?",
+    "options": [
+      "Nuoc mam",
+      "Garum",
+      "Shottsuru",
+      "Bagoong"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Nuoc mam is the traditional Vietnamese fish sauce made from anchovies and salt, crucial for authentic pho flavor.",
+    "detailedExplanation": "Nuoc mam is a Vietnamese fish sauce made by fermenting anchovies with sea salt for 12-18 months in wooden barrels. It's considered the backbone of Vietnamese cuisine and is absolutely essential in creating authentic pho broth, providing the deep umami flavor that distinguishes genuine Vietnamese pho from imitations. The sauce has been produced in Vietnam for over 200 years, with the best quality coming from Phu Quoc island and Phan Thiet.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Nuoc_mam",
+    "citationTitle": "Wikipedia: Nuoc mam"
+  },
+  {
+    "id": "517e0165-d58c-4da2-baf9-3c21f9a33c59",
+    "text": "What type of pastry is used to make traditional Greek spanakopita?",
+    "options": [
+      "Puff pastry",
+      "Phyllo pastry",
+      "Choux pastry",
+      "Shortcrust pastry"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Spanakopita is made with phyllo pastry, paper-thin sheets of unleavened dough brushed with olive oil or butter.",
+    "detailedExplanation": "Phyllo (also spelled filo) pastry consists of tissue-paper-thin sheets of unleavened flour dough that are brushed with olive oil or melted butter and layered to create a crispy, flaky texture. In spanakopita, the spinach and feta cheese filling is enclosed between multiple layers of phyllo, creating the characteristic golden, crispy exterior when baked. This ancient pastry technique originated in the Byzantine era and is fundamental to many Greek and Middle Eastern dishes.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Spanakopita",
+    "citationTitle": "Wikipedia: Spanakopita"
+  },
+  {
+    "id": "7152a016-2650-4b70-8a38-71bbe7024110",
+    "text": "Which region of India is considered the birthplace of the dish biryani?",
+    "options": [
+      "Punjab",
+      "Tamil Nadu",
+      "Hyderabad",
+      "Persian-influenced Mughal courts"
+    ],
+    "correctIndex": 3,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Biryani originated in the Persian-influenced Mughal courts and was brought to India by Persian merchants and the Mughal Empire.",
+    "detailedExplanation": "Biryani has its origins in Persia and was brought to the Indian subcontinent by Persian merchants, Arab traders, and later the Mughal Empire. The dish evolved from the Persian 'beryan' meaning 'fried' or 'roasted.' While different regions of India developed their own distinctive styles (like Hyderabadi, Lucknowi, and Kolkata biryani), the fundamental concept originated from Persian culinary traditions that emphasized the layering of rice with meat and aromatic spices, cooked using the 'dum' method.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Biryani",
+    "citationTitle": "Wikipedia: Biryani"
+  },
+  {
+    "id": "2ea53b42-7d87-4dcc-8eb4-f6b420af8ab2",
+    "text": "What is the main ingredient that gives Peruvian aji amarillo sauce its distinctive color and flavor?",
+    "options": [
+      "Yellow bell peppers",
+      "Turmeric and garlic",
+      "Yellow chili peppers",
+      "Saffron and onions"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Aji amarillo sauce is made from yellow chili peppers native to Peru, which provide both the bright color and mild heat.",
+    "detailedExplanation": "Aji amarillo (yellow chili) is a bright orange-yellow chili pepper that is fundamental to Peruvian cuisine. Despite its name meaning 'yellow chili,' the peppers are actually orange in color and provide a fruity, mildly spicy flavor with moderate heat. These peppers are native to Peru and have been cultivated there for thousands of years. The sauce made from these peppers is used in countless Peruvian dishes and is considered one of the essential flavors of Peruvian gastronomy, often called the 'DNA of Peruvian cuisine.'",
+    "citationUrl": "https://en.wikipedia.org/wiki/Capsicum_baccatum",
+    "citationTitle": "Wikipedia: Capsicum baccatum"
+  },
+  {
+    "id": "faa99dfc-82e0-4ce3-a047-65907c7e9ac5",
+    "text": "Which cooking technique is essential for making authentic Japanese tempura batter?",
+    "options": [
+      "Using ice-cold water and minimal mixing",
+      "Whipping the batter until smooth and airy",
+      "Adding baking powder for extra lift",
+      "Letting the batter rest for 30 minutes"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Authentic tempura batter uses ice-cold water and is mixed minimally to prevent gluten development, creating a light, crispy texture.",
+    "detailedExplanation": "The secret to authentic Japanese tempura lies in using ice-cold water (sometimes with ice cubes added) and mixing the batter as little as possible - just enough to barely combine the ingredients. This technique prevents gluten development in the flour, which would make the batter tough and chewy. The batter should remain lumpy with visible flour streaks. This creates the characteristic light, crispy, and delicate coating that tempura is famous for. Over-mixing or using room temperature water results in a heavy, dense coating that is not considered authentic tempura.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Tempura",
+    "citationTitle": "Wikipedia: Tempura"
+  },
+  {
+    "id": "868fd42d-06cc-41bd-939b-3e091b37e15c",
+    "text": "What is the traditional fat used for cooking in authentic Mexican cuisine, particularly for making refried beans?",
+    "options": [
+      "Vegetable oil",
+      "Butter",
+      "Lard",
+      "Coconut oil"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Lard (rendered pork fat) is the traditional cooking fat in Mexican cuisine, essential for authentic flavor in dishes like refried beans.",
+    "detailedExplanation": "Lard, or 'manteca' in Spanish, is the traditional cooking fat in Mexican cuisine, made by rendering pork fat. It has been used for centuries in Mexican cooking and is considered essential for authentic flavor in many dishes, particularly refried beans (frijoles refritos). Lard provides a distinctive rich flavor and creamy texture that vegetable oils cannot replicate. While modern health concerns have led some cooks to substitute vegetable oils, traditionalists maintain that lard is irreplaceable for achieving the authentic taste of classic Mexican dishes.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Lard",
+    "citationTitle": "Wikipedia: Lard"
+  },
+  {
+    "id": "3c45845f-4085-4a4f-bba9-2c71024545fd",
+    "text": "Which Italian region is considered the birthplace of authentic carbonara pasta?",
+    "options": [
+      "Tuscany",
+      "Sicily",
+      "Lazio (Rome)",
+      "Emilia-Romagna"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Carbonara originated in Lazio, the region surrounding Rome, and is considered a classic Roman pasta dish.",
+    "detailedExplanation": "Spaghetti carbonara is one of the four classic Roman pasta dishes, originating in Lazio, the region surrounding Rome. The dish traditionally consists of only five ingredients: spaghetti, eggs, Pecorino Romano cheese, guanciale (cured pork cheek), and black pepper. Despite many modern variations found worldwide, authentic Roman carbonara never includes cream, garlic, or peas. The dish likely developed in the mid-20th century, with several theories about its origin, but it remains firmly rooted in Roman culinary tradition and is protected by local chefs who maintain strict standards for its preparation.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Carbonara",
+    "citationTitle": "Wikipedia: Carbonara"
+  },
+  {
+    "id": "a18af015-fe9a-489f-a17a-a2119344f031",
+    "text": "What is the name of the traditional Hungarian stew that requires paprika as its defining spice and is considered the national dish?",
+    "options": [
+      "Goulash",
+      "Schnitzel",
+      "Sauerbraten",
+      "Borscht"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Goulash (gulyás) is Hungary's national dish, a hearty stew that must contain paprika as its signature spice.",
+    "detailedExplanation": "Hungarian goulash, or gulyás, is a traditional soup or stew of meat and vegetables seasoned with paprika and other spices. Originating from the medieval Kingdom of Hungary, it was originally made by Hungarian shepherds. The dish is characterized by its generous use of paprika, which gives it its distinctive red color and flavor. True Hungarian goulash is quite different from the American version, being more of a soup consistency rather than a thick stew.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Goulash",
+    "citationTitle": "Wikipedia: Goulash"
+  },
+  {
+    "id": "c814d5c0-d467-4f42-88d2-d0d4e85bbbe0",
+    "text": "Which Korean fermented vegetable dish is traditionally buried underground for months and contains over 200 varieties?",
+    "options": [
+      "Bulgogi",
+      "Kimchi",
+      "Bibimbap",
+      "Japchae"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Kimchi is Korea's iconic fermented vegetable dish, with over 200 documented varieties, traditionally fermented in buried earthenware pots.",
+    "detailedExplanation": "Kimchi is a traditional Korean side dish made of salted and fermented vegetables, most commonly napa cabbage and Korean radishes, with a variety of seasonings including chili powder, scallions, garlic, ginger, and jeotgal (salted seafood). The fermentation process was traditionally carried out by burying earthenware pots (onggi) underground to maintain optimal temperature. There are hundreds of varieties of kimchi made with different vegetables and preparation methods, and it's considered essential to Korean cuisine and culture.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Kimchi",
+    "citationTitle": "Wikipedia: Kimchi"
+  },
+  {
+    "id": "151f9c33-d8f9-4733-b63b-396709878374",
+    "text": "What is the name of the traditional French cooking method where food is cooked slowly in its own fat at low temperatures?",
+    "options": [
+      "Sous vide",
+      "Confit",
+      "Braise",
+      "Poach"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Confit is the French technique of cooking meat slowly in its own fat, traditionally used for preserving duck and other meats.",
+    "detailedExplanation": "Confit is a traditional French cooking method where meat (typically duck, goose, or pork) is slowly cooked in its own fat at low temperatures, usually around 200°F (93°C). The word comes from the French verb 'confire,' meaning 'to preserve.' This technique was originally developed as a preservation method before refrigeration, as the fat creates a seal that prevents spoilage. Duck confit is perhaps the most famous example, where duck legs are cured in salt and herbs, then slowly cooked in duck fat for several hours until tender.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Confit",
+    "citationTitle": "Wikipedia: Confit"
+  },
+  {
+    "id": "e7b0fd52-58a8-42eb-8f2a-5c07a474db2f",
+    "text": "Which grain is the primary ingredient in the traditional Middle Eastern dish tabbouleh?",
+    "options": [
+      "Couscous",
+      "Rice",
+      "Bulgur wheat",
+      "Quinoa"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Bulgur wheat is the traditional grain base for tabbouleh, though it's used sparingly with fresh herbs being the dominant ingredient.",
+    "detailedExplanation": "Tabbouleh is a Levantine vegetarian salad made mostly of finely chopped parsley, with tomatoes, mint, onion, and bulgur wheat, seasoned with lemon juice, olive oil, and salt. Despite common misconceptions, authentic tabbouleh contains only a small amount of bulgur wheat - the dish should be predominantly green from the large quantity of fresh parsley. The bulgur is soaked in lemon juice and olive oil to soften it. This refreshing salad originated in the Eastern Mediterranean and is particularly popular in Lebanese, Syrian, and Palestinian cuisines.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Tabbouleh",
+    "citationTitle": "Wikipedia: Tabbouleh"
+  },
+  {
+    "id": "945a70af-c65e-44a3-94cc-f5df38525860",
+    "text": "What type of milk is traditionally used to make authentic Italian mozzarella di bufala?",
+    "options": [
+      "Cow milk",
+      "Goat milk",
+      "Water buffalo milk",
+      "Sheep milk"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Mozzarella di bufala is made from the milk of Italian Mediterranean water buffalo, giving it a distinctive rich flavor and creamy texture.",
+    "detailedExplanation": "Mozzarella di bufala campana is a traditional Italian cheese made from the milk of Italian Mediterranean water buffalo raised in the regions of Campania and Lazio. This cheese has been granted Protected Designation of Origin (PDO) status by the European Union. Water buffalo milk has a higher fat and protein content than cow's milk, resulting in a cheese with a more complex flavor, creamier texture, and slightly tangy taste. The cheese-making tradition dates back to at least the 12th century, and the water buffalo were likely introduced to Italy by early populations or during the Norman conquest.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Mozzarella_di_bufala_Campana",
+    "citationTitle": "Wikipedia: Mozzarella di bufala Campana"
+  },
+  {
+    "id": "6c29130e-dcca-4a17-8d1c-57865fa358ca",
+    "text": "Which spice blend is essential to Ethiopian cuisine and typically contains over 15 different spices including fenugreek and nigella seeds?",
+    "options": [
+      "Harissa",
+      "Berbere",
+      "Dukkah",
+      "Ras el hanout"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Berbere is the complex Ethiopian spice blend containing 15+ spices including the distinctive fenugreek and nigella seeds.",
+    "detailedExplanation": "Berbere is a spice mixture whose ingredients usually include chili peppers, garlic, ginger, dried basil, korarima, rue, nigella, and fenugreek. It is a key ingredient in the cuisines of Ethiopia and Eritrea. The mixture varies from region to region and by individual cooks, but typically contains more than 15 spices and herbs. Berbere is used as a seasoning for many dishes and is particularly important in making doro wat (chicken stew), which is considered Ethiopia's national dish. The blend provides the characteristic heat and complex flavor profile that defines Ethiopian cuisine.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Berbere",
+    "citationTitle": "Wikipedia: Berbere"
+  },
+  {
+    "id": "ddb1a957-9f46-40c8-986a-85b1f42f4ba9",
+    "text": "What is the traditional Japanese technique called for preparing raw fish by curing it with salt and vinegar?",
+    "options": [
+      "Sashimi",
+      "Nigiri",
+      "Kobujime",
+      "Shiromi"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Kobujime is the Japanese technique of curing fish between sheets of kombu seaweed with salt and vinegar for preservation and flavor enhancement.",
+    "detailedExplanation": "Kobujime (昆布締め) is a traditional Japanese preparation technique where fresh fish is cured between sheets of kombu (kelp) seaweed. The fish is first lightly salted and sometimes treated with vinegar, then wrapped in damp kombu and left to cure for several hours to days. This process not only preserves the fish but also imparts the umami flavors from the seaweed while creating a unique texture. The technique concentrates the fish's flavor while the kombu adds depth and complexity. This method is often used for white fish and is particularly prized in high-end sushi preparation.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Kobujime",
+    "citationTitle": "Wikipedia: Kobujime"
+  },
+  {
+    "id": "165bb320-804e-4739-bf9c-5e3a60a0e51f",
+    "text": "Which country is credited with originating the layered pastry dessert baklava, though it's now popular throughout the Mediterranean and Middle East?",
+    "options": [
+      "Greece",
+      "Turkey",
+      "Lebanon",
+      "The Ottoman Empire"
+    ],
+    "correctIndex": 3,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Baklava originated during the Ottoman Empire period, though its exact origins are disputed among modern countries that were part of the empire.",
+    "detailedExplanation": "Baklava is a rich, sweet pastry made of layers of phyllo dough filled with chopped nuts and sweetened with syrup or honey. While the exact origins are debated, most food historians agree that baklava developed during the Ottoman Empire, which encompassed much of Southeast Europe, Western Asia, and North Africa from the 14th to early 20th centuries. The dessert spread throughout the Ottoman territories, which is why many countries including Greece, Turkey, Lebanon, and others claim it as their national dessert. The technique of making paper-thin phyllo dough was perfected in the imperial kitchens of the Topkapı Palace in Constantinople (modern-day Istanbul).",
+    "citationUrl": "https://en.wikipedia.org/wiki/Baklava",
+    "citationTitle": "Wikipedia: Baklava"
+  },
+  {
+    "id": "a1e6915b-1abe-486a-b847-db3afd37f84b",
+    "text": "What is the traditional fermentation agent used to make authentic Ethiopian injera bread, giving it its distinctive sour taste and spongy texture?",
+    "options": [
+      "Wild yeast and bacteria cultures",
+      "Teff flour starter",
+      "Fermented honey water",
+      "Dried fenugreek leaves"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Injera is made using a teff flour starter that ferments naturally for several days.",
+    "detailedExplanation": "Ethiopian injera bread is made using a starter culture created from teff flour and water that is allowed to ferment naturally for 3-5 days. This fermentation process involves wild yeasts and bacteria that create the characteristic sour, tangy flavor and the bread's unique spongy, pancake-like texture with its signature holes. The teff starter is essential to authentic injera preparation and cannot be substituted with regular bread yeast or other fermentation agents.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Injera",
+    "citationTitle": "Wikipedia: Injera"
+  },
+  {
+    "id": "cf558513-ee94-47ae-963b-2f58f9f96753",
+    "text": "Which rare and expensive spice, harvested from flower stigmas, is the defining ingredient in authentic Spanish paella valenciana and gives the dish its golden color?",
+    "options": [
+      "Turmeric",
+      "Saffron",
+      "Annatto",
+      "Paprika"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Saffron is the traditional and essential spice that gives paella its distinctive golden color and subtle flavor.",
+    "detailedExplanation": "Authentic paella valenciana must contain saffron, which is harvested from the stigmas of Crocus sativus flowers. This makes saffron one of the world's most expensive spices by weight, sometimes called 'red gold.' In traditional Valencian paella, saffron is not just for color but provides a distinctive, subtle flavor that cannot be replicated by substitutes like turmeric or annatto. The spice has been used in Spanish cuisine since the Moorish occupation and is considered absolutely essential for authentic paella preparation.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Paella",
+    "citationTitle": "Wikipedia: Paella"
+  },
+  {
+    "id": "7ab5db9c-afa8-4195-9705-9da1f25a7499",
+    "text": "What is the traditional clay pot called that is used to slow-cook authentic Brazilian feijoada, and is considered essential for proper flavor development?",
+    "options": [
+      "Panela de barro",
+      "Caldeirão",
+      "Tachos de cobre",
+      "Frigideira de ferro"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Panela de barro is the traditional clay pot used for cooking authentic feijoada in Brazil.",
+    "detailedExplanation": "Authentic Brazilian feijoada is traditionally cooked in a panela de barro, a special clay pot that has been used since colonial times. This unglazed earthenware vessel allows for slow, even cooking and imparts a distinctive earthy flavor to the black bean and meat stew that cannot be achieved with modern metal cookware. The clay pot's porous nature allows moisture to escape gradually while concentrating flavors, and many Brazilian cooks insist that feijoada cooked in metal pots lacks the authentic taste and texture of the traditional preparation method.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Feijoada",
+    "citationTitle": "Wikipedia: Feijoada"
+  },
+  {
+    "id": "3335de84-a9d2-45bb-b6bd-9bb525c0c381",
+    "text": "Which traditional smoking technique using specific wood chips is essential for preparing authentic German Black Forest ham (Schwarzwälder Schinken) and gives it protected designation of origin status?",
+    "options": [
+      "Beech wood cold smoking",
+      "Fir and spruce cold smoking",
+      "Oak wood hot smoking",
+      "Cherry wood warm smoking"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Black Forest ham must be cold-smoked using fir and spruce wood from the Black Forest region.",
+    "detailedExplanation": "Authentic Schwarzwälder Schinken (Black Forest ham) has European Union protected designation of origin status and must be produced using traditional methods including cold-smoking with fir and spruce wood specifically from the Black Forest region of Germany. This unique smoking process, combined with the local climate and traditional curing methods, creates the ham's distinctive flavor profile and dark exterior coating. The use of coniferous woods rather than hardwoods like oak or beech is what gives Black Forest ham its characteristic taste and aroma, and any ham not produced using these specific regional materials and methods cannot legally be called Black Forest ham in the EU.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Black_Forest_ham",
+    "citationTitle": "Wikipedia: Black Forest ham"
+  }
+]

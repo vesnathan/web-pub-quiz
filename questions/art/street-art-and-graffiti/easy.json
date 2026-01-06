@@ -1,0 +1,342 @@
+[
+  {
+    "id": "a4dd9491-db97-4c79-bd56-62dc31d9f516",
+    "text": "Which anonymous British street artist is famous for works like 'Girl with Balloon' and pieces that critique war and capitalism?",
+    "options": [
+      "Banksy",
+      "Shepard Fairey",
+      "Keith Haring",
+      "Jean-Michel Basquiat"
+    ],
+    "correctIndex": 0,
+    "category": "arts",
+    "difficulty": "easy",
+    "explanation": "Banksy is the anonymous British street artist known for satirical and political works.",
+    "detailedExplanation": "Banksy is a pseudonymous England-based street artist, political activist, and film director whose real identity remains unconfirmed. Active since the 1990s, Banksy's satirical street art and subversive epigrams combine dark humor with graffiti executed in a distinctive stenciling technique. His works of political and social commentary have appeared on streets, walls, and bridges throughout the world, with 'Girl with Balloon' being one of his most recognizable pieces.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Banksy",
+    "citationTitle": "Wikipedia: Banksy"
+  },
+  {
+    "id": "41aa77f0-7a89-43ab-bda1-41140b698581",
+    "text": "What writing tool is most commonly associated with creating graffiti tags?",
+    "options": [
+      "Paintbrush",
+      "Spray paint can",
+      "Chalk",
+      "Pencil"
+    ],
+    "correctIndex": 1,
+    "category": "arts",
+    "difficulty": "easy",
+    "explanation": "Spray paint cans are the most iconic and commonly used tool for creating graffiti.",
+    "detailedExplanation": "Spray paint cans became the primary tool for graffiti writers starting in the 1960s and 1970s. The aerosol format allows for quick application, vibrant colors, and the ability to cover large surfaces efficiently. Different cap types can create various line widths and effects, making spray paint versatile for both simple tags and complex pieces. While other tools like markers are also used, spray paint remains the most associated medium with traditional graffiti culture.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Graffiti",
+    "citationTitle": "Wikipedia: Graffiti"
+  },
+  {
+    "id": "606242c4-bc51-4cc2-a043-ca3e6f3b9e6e",
+    "text": "In graffiti culture, what is a 'tag'?",
+    "options": [
+      "A large colorful mural",
+      "A simple signature or name",
+      "A political message",
+      "A three-dimensional piece"
+    ],
+    "correctIndex": 1,
+    "category": "arts",
+    "difficulty": "easy",
+    "explanation": "A tag is the most basic form of graffiti, consisting of a writer's signature or stylized name.",
+    "detailedExplanation": "In graffiti culture, a tag is the most fundamental form of graffiti writing. It consists of a graffiti writer's personalized signature, usually their chosen alias or 'writer name,' executed quickly with a single color. Tags are typically done with markers or spray paint and serve as the building blocks of graffiti culture. They establish a writer's presence and identity in the scene, and mastering tag style is considered essential before progressing to more complex forms like throw-ups or pieces.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Graffiti#Tags",
+    "citationTitle": "Wikipedia: Graffiti - Tags"
+  },
+  {
+    "id": "98318610-0ad5-4e59-8939-fe5a9fdff632",
+    "text": "Which city's subway system became famous as the birthplace of modern graffiti culture in the 1970s?",
+    "options": [
+      "London",
+      "New York City",
+      "Paris",
+      "Los Angeles"
+    ],
+    "correctIndex": 1,
+    "category": "arts",
+    "difficulty": "easy",
+    "explanation": "New York City's subway system is widely recognized as the birthplace of modern graffiti culture.",
+    "detailedExplanation": "New York City's subway system became the epicenter of modern graffiti culture in the late 1960s and 1970s. Young people from various boroughs began writing their names and creating elaborate pieces on subway cars, which then traveled throughout the city, giving writers city-wide exposure. Pioneers like TAKI 183 gained legendary status, and the subway cars became moving canvases that helped establish many of the styles and techniques that define graffiti culture today.",
+    "citationUrl": "https://en.wikipedia.org/wiki/New_York_City_Subway_graffiti",
+    "citationTitle": "Wikipedia: New York City Subway graffiti"
+  },
+  {
+    "id": "416c2b46-5921-4ed0-b389-293c519b922a",
+    "text": "What technique does Banksy primarily use to create his street art?",
+    "options": [
+      "Freehand painting",
+      "Stencils",
+      "Digital projection",
+      "Mosaic tiles"
+    ],
+    "correctIndex": 1,
+    "category": "arts",
+    "difficulty": "easy",
+    "explanation": "Banksy is famous for using stencils to create his distinctive street art pieces.",
+    "detailedExplanation": "Banksy's signature technique involves the use of stencils, which allows for precise, repeatable imagery and quick execution - important factors when creating unauthorized street art. This method enables the creation of detailed, recognizable images that can be reproduced in multiple locations. The stencil technique also contributes to Banksy's distinctive aesthetic style, characterized by high contrast black and white images, often with limited color accents.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Banksy#Technique",
+    "citationTitle": "Wikipedia: Banksy - Technique"
+  },
+  {
+    "id": "f552f36c-8217-4ec0-8287-664a0e55378c",
+    "text": "Which American artist started as a graffiti writer and later became famous in galleries and museums before his death in 1988?",
+    "options": [
+      "Andy Warhol",
+      "Jean-Michel Basquiat",
+      "Jackson Pollock",
+      "Roy Lichtenstein"
+    ],
+    "correctIndex": 1,
+    "category": "arts",
+    "difficulty": "easy",
+    "explanation": "Jean-Michel Basquiat began as a graffiti artist before transitioning to gallery success in the 1980s art scene.",
+    "detailedExplanation": "Jean-Michel Basquiat started his artistic career in the late 1970s as part of the graffiti duo SAMO© in New York City, creating cryptic messages and images on walls in lower Manhattan. He transitioned from street art to the gallery scene in the early 1980s, becoming one of the most celebrated artists of his generation. His work incorporated his graffiti background with neo-expressionist painting, often addressing issues of racism, social inequality, and his African-Caribbean heritage. He died tragically young at age 27 in 1988.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Jean-Michel_Basquiat",
+    "citationTitle": "Wikipedia: Jean-Michel Basquiat"
+  },
+  {
+    "id": "4f0d4329-185a-466d-aa34-92060a6b402e",
+    "text": "What does 'throw-up' mean in graffiti terminology?",
+    "options": [
+      "Getting sick from paint fumes",
+      "A quick two-color bubble letter piece",
+      "Destroying someone else's work",
+      "A graffiti competition"
+    ],
+    "correctIndex": 1,
+    "category": "arts",
+    "difficulty": "easy",
+    "explanation": "A throw-up is a type of graffiti consisting of quickly executed bubble letters, usually in two colors.",
+    "detailedExplanation": "In graffiti culture, a 'throw-up' (often shortened to 'throwie') refers to a style of graffiti that sits between simple tags and complex pieces in terms of complexity and time investment. Throw-ups typically consist of bubble letters spelling out the writer's name, executed quickly with two colors - usually a colored outline and a fill-in color or just an outline. They're designed to be completed faster than full pieces while being more visible and impactful than simple tags.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Graffiti#Throw-ups",
+    "citationTitle": "Wikipedia: Graffiti - Throw-ups"
+  },
+  {
+    "id": "54135c9f-ba21-4852-840a-51cce6b6ada8",
+    "text": "Street art differs from traditional graffiti primarily because it often focuses more on what element?",
+    "options": [
+      "Speed of execution",
+      "Images and messages rather than lettering",
+      "Use of expensive materials",
+      "Indoor gallery display"
+    ],
+    "correctIndex": 1,
+    "category": "arts",
+    "difficulty": "easy",
+    "explanation": "Street art typically emphasizes images, stencils, and messages rather than the letter-based focus of traditional graffiti.",
+    "detailedExplanation": "While traditional graffiti culture centers around stylized lettering, names, and tags, street art encompasses a broader range of visual art created in public locations. Street art often includes images, characters, stencils, stickers, and installations that convey artistic or political messages to a wider audience. Artists like Banksy, Shepard Fairey, and others have popularized this approach, making street art more accessible to general audiences while maintaining the urban, unauthorized spirit of the medium.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Street_art",
+    "citationTitle": "Wikipedia: Street art"
+  },
+  {
+    "id": "f72b5c98-a69e-4ea5-8d41-3e6752e02941",
+    "text": "What does the term 'bombing' mean in graffiti culture?",
+    "options": [
+      "Destroying other artists' work",
+      "Painting many pieces quickly in one area",
+      "Using explosive colors",
+      "Creating political messages"
+    ],
+    "correctIndex": 1,
+    "category": "arts",
+    "difficulty": "easy",
+    "explanation": "In graffiti culture, 'bombing' refers to painting many pieces quickly in one area or session.",
+    "detailedExplanation": "Bombing is a fundamental concept in graffiti culture that refers to the practice of creating multiple pieces of graffiti quickly, often in a concentrated area or during a single session. This term emphasizes quantity and coverage over quality, with artists seeking to get their name or crew up as widely as possible. Bombing runs are typically done rapidly to avoid detection by authorities, and the resulting pieces are often simpler in design compared to more elaborate productions.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Graffiti",
+    "citationTitle": "Wikipedia: Graffiti"
+  },
+  {
+    "id": "d8cb6c65-4c42-479b-bb47-d791dcdb4774",
+    "text": "Which material is traditionally used to remove graffiti from walls?",
+    "options": [
+      "Sandblasting or chemical solvents",
+      "Hot water only",
+      "Paint thinner",
+      "Soap and scrubbing"
+    ],
+    "correctIndex": 0,
+    "category": "arts",
+    "difficulty": "easy",
+    "explanation": "Sandblasting and chemical solvents are the most common methods for graffiti removal.",
+    "detailedExplanation": "Graffiti removal typically involves sandblasting or chemical solvents, depending on the surface and type of paint used. Sandblasting uses high-pressure abrasive materials to strip paint from surfaces, while chemical solvents break down the paint's chemical bonds. These methods are preferred because regular cleaning agents are usually insufficient to remove spray paint and markers. However, both methods can be expensive and potentially damaging to the underlying surface, which is why many property owners simply paint over graffiti instead.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Graffiti_removal",
+    "citationTitle": "Wikipedia: Graffiti removal"
+  },
+  {
+    "id": "7e3827ed-360c-4fbd-ba8a-abb16ea062e4",
+    "text": "What is a 'piece' in graffiti terminology?",
+    "options": [
+      "A section of wall",
+      "An elaborate, colorful graffiti work",
+      "A graffiti removal tool",
+      "A group of graffiti artists"
+    ],
+    "correctIndex": 1,
+    "category": "arts",
+    "difficulty": "easy",
+    "explanation": "A 'piece' is short for 'masterpiece' and refers to an elaborate, colorful graffiti work.",
+    "detailedExplanation": "In graffiti culture, a 'piece' is short for 'masterpiece' and represents the most elaborate form of graffiti art. Unlike simple tags, pieces are large, colorful, and complex works that often feature bubble letters, wild styles, characters, and backgrounds. Creating a piece requires significant time, skill, and planning, and they're typically done in locations where artists have more time to work without interruption. Pieces are considered the highest form of graffiti art and are used by writers to demonstrate their artistic abilities and gain respect within the graffiti community.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Graffiti",
+    "citationTitle": "Wikipedia: Graffiti"
+  },
+  {
+    "id": "f1bd45b7-7db0-49a4-9df2-8b396eb72296",
+    "text": "Which French street artist is known for creating large-scale photographic paste-ups around the world?",
+    "options": [
+      "JR",
+      "Invader",
+      "Miss.Tic",
+      "C215"
+    ],
+    "correctIndex": 0,
+    "category": "arts",
+    "difficulty": "easy",
+    "explanation": "JR is a French street artist famous for his large-scale black and white photographic paste-ups.",
+    "detailedExplanation": "JR is a renowned French street artist who gained international recognition for his large-scale black and white photographic installations pasted on buildings, trains, and other urban surfaces worldwide. His work often focuses on social issues and human stories, featuring portraits of people from various communities. JR's projects like 'Women Are Heroes' and 'Inside Out' have been displayed in cities across the globe, and his technique of wheat-pasting photographs has influenced many contemporary street artists. He won the TED Prize in 2011 and has exhibited in major galleries and museums.",
+    "citationUrl": "https://en.wikipedia.org/wiki/JR_(artist)",
+    "citationTitle": "Wikipedia: JR (artist)"
+  },
+  {
+    "id": "f599a236-242d-4975-b86a-36651942fc9c",
+    "text": "What is 'wildstyle' in graffiti?",
+    "options": [
+      "Graffiti done in nature",
+      "A complex, interlocking letter style",
+      "Graffiti without permission",
+      "Using only natural colors"
+    ],
+    "correctIndex": 1,
+    "category": "arts",
+    "difficulty": "easy",
+    "explanation": "Wildstyle is a complex form of graffiti lettering where letters are interlocked and stylized.",
+    "detailedExplanation": "Wildstyle is one of the most complex and artistic forms of graffiti lettering, characterized by interlocking letters, arrows, and elaborate decorative elements that make the text difficult for outsiders to read. Developed in New York in the 1970s, wildstyle represents the pinnacle of graffiti letter design, requiring significant skill and experience to execute properly. The style often features sharp angles, connections between letters, and three-dimensional effects. Wildstyle pieces are highly respected in graffiti culture as they demonstrate an artist's technical mastery and creativity.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Graffiti",
+    "citationTitle": "Wikipedia: Graffiti"
+  },
+  {
+    "id": "e92ec9cc-5580-4105-871b-a3c3ff9f90fc",
+    "text": "Which spray paint cap type creates the thinnest lines?",
+    "options": [
+      "Fat cap",
+      "Skinny cap",
+      "Medium cap",
+      "Stock cap"
+    ],
+    "correctIndex": 1,
+    "category": "arts",
+    "difficulty": "easy",
+    "explanation": "Skinny caps create the thinnest lines and are used for detailed work and outlines.",
+    "detailedExplanation": "Skinny caps (also called thin caps or outline caps) are spray paint nozzles designed to produce the thinnest, most controlled lines. They're essential tools for graffiti artists when creating outlines, fine details, and precise lettering. Different cap types control the spray pattern and line width - fat caps create wide coverage for filling in large areas quickly, while skinny caps allow for detailed work. Professional graffiti artists typically carry various cap types to achieve different effects in their pieces, and the ability to switch between caps effectively is considered a fundamental skill.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Aerosol_paint",
+    "citationTitle": "Wikipedia: Aerosol paint"
+  },
+  {
+    "id": "6d846468-ef88-4b43-a324-98f668e90b35",
+    "text": "What is the main purpose of a 'buff' in graffiti culture?",
+    "options": [
+      "To make graffiti shiny",
+      "To remove or paint over graffiti",
+      "To protect graffiti from weather",
+      "To add texture to artwork"
+    ],
+    "correctIndex": 1,
+    "category": "arts",
+    "difficulty": "easy",
+    "explanation": "A 'buff' refers to the removal or covering of graffiti, usually by authorities or property owners.",
+    "detailedExplanation": "In graffiti terminology, a 'buff' refers to the removal or covering of graffiti, typically performed by city authorities, property owners, or cleaning crews. This can involve painting over the graffiti with neutral colors (usually beige or gray), sandblasting, or using chemical removal methods. The term comes from the beige or 'buff' colored paint commonly used to cover graffiti. For graffiti artists, getting 'buffed' is part of the culture - it's expected that their work will eventually be removed, which is why the temporary nature of street art is often considered part of its appeal and meaning.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Graffiti_removal",
+    "citationTitle": "Wikipedia: Graffiti removal"
+  },
+  {
+    "id": "1b499716-fefa-422f-932e-10349dd8fe6b",
+    "text": "Which street art technique involves carving or scratching into surfaces?",
+    "options": [
+      "Stenciling",
+      "Wheat pasting",
+      "Etching",
+      "Yarn bombing"
+    ],
+    "correctIndex": 2,
+    "category": "arts",
+    "difficulty": "easy",
+    "explanation": "Etching involves carving or scratching designs into surfaces like glass or metal.",
+    "detailedExplanation": "Etching is a street art and graffiti technique that involves carving, scratching, or scraping designs into surfaces such as glass, metal, or stone. Also known as 'scratchiti' or 'scratch graffiti,' this method creates permanent marks that are extremely difficult to remove without replacing the entire surface. Common tools include keys, knives, or specialized etching tools. While etching can create intricate and lasting artwork, it's considered more destructive than paint-based graffiti and often carries heavier legal penalties. The technique is sometimes used by artists who want their work to be truly permanent, though it's generally less accepted even within graffiti culture due to its destructive nature.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Graffiti",
+    "citationTitle": "Wikipedia: Graffiti"
+  },
+  {
+    "id": "80548ec3-c94a-4e68-955f-8734cff8d29c",
+    "text": "What does the term 'getting up' mean in street art and graffiti culture?",
+    "options": [
+      "Getting your art noticed and seen by many people",
+      "Climbing tall buildings to paint",
+      "Starting your career as a graffiti artist",
+      "Removing someone else's graffiti"
+    ],
+    "correctIndex": 0,
+    "category": "arts",
+    "difficulty": "easy",
+    "explanation": "'Getting up' refers to achieving visibility and recognition by having your work seen widely.",
+    "detailedExplanation": "In graffiti and street art culture, 'getting up' is fundamental terminology that refers to the act of achieving visibility and widespread recognition for your work. It's about getting your name, tag, or art 'up' where people can see it - the more visible locations and the more frequently your work appears, the more you're 'getting up.' This concept is central to graffiti culture, where reputation and recognition are often measured by how extensively an artist's work is displayed throughout a city.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Graffiti",
+    "citationTitle": "Wikipedia: Graffiti"
+  },
+  {
+    "id": "6f84257d-4952-4d82-91cb-c0281fc42cff",
+    "text": "Which city is home to the famous '5 Pointz' building that was known as a legal graffiti mecca before its demolition?",
+    "options": [
+      "New York City",
+      "Los Angeles",
+      "Chicago",
+      "Philadelphia"
+    ],
+    "correctIndex": 0,
+    "category": "arts",
+    "difficulty": "easy",
+    "explanation": "5 Pointz was located in Long Island City, Queens, New York City and was demolished in 2013.",
+    "detailedExplanation": "5 Pointz was a renowned graffiti site located in Long Island City, Queens, New York City. Often called an 'aerosol art center' and 'graffiti Mecca,' it was a large warehouse complex where artists from around the world could legally create graffiti art. The site operated as a legal graffiti space for over two decades before being controversially demolished in 2013 to make way for luxury condominiums, sparking significant debate about the preservation of street art culture and gentrification.",
+    "citationUrl": "https://en.wikipedia.org/wiki/5_Pointz",
+    "citationTitle": "Wikipedia: 5 Pointz"
+  },
+  {
+    "id": "9581b1ec-6ad6-43c7-8983-b55a817f4526",
+    "text": "What is a 'blackbook' in graffiti culture?",
+    "options": [
+      "A sketchbook where artists practice and design their work",
+      "A list of illegal graffiti locations",
+      "A directory of famous street artists",
+      "A collection of graffiti removal techniques"
+    ],
+    "correctIndex": 0,
+    "category": "arts",
+    "difficulty": "easy",
+    "explanation": "A blackbook is a personal sketchbook used by graffiti artists to practice lettering, plan pieces, and develop their style.",
+    "detailedExplanation": "A blackbook is an essential tool in graffiti culture - it's a personal sketchbook where graffiti writers practice their letterforms, develop new styles, plan out pieces before executing them on walls, and experiment with different designs. These books are often shared among writers to show off skills and get feedback from peers. The term 'blackbook' comes from the traditional use of black paper, which allows artists to practice with light-colored markers and see how their work will look against dark surfaces.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Graffiti",
+    "citationTitle": "Wikipedia: Graffiti"
+  },
+  {
+    "id": "62378ae9-2097-4f37-acd3-7fca8afb4dd5",
+    "text": "Which street art technique involves using pre-made adhesive images or artworks?",
+    "options": [
+      "Sticker art/slaps",
+      "Wheat pasting",
+      "Stenciling",
+      "Free-hand painting"
+    ],
+    "correctIndex": 0,
+    "category": "arts",
+    "difficulty": "easy",
+    "explanation": "Sticker art, also known as 'slaps,' involves creating designs on adhesive stickers that can be quickly applied to surfaces.",
+    "detailedExplanation": "Sticker art, commonly referred to as 'slaps' in street art culture, involves creating artwork on adhesive stickers or labels that can be quickly and easily applied to various surfaces around urban environments. This technique became popular because stickers are portable, quick to apply, and allow artists to get their work up in multiple locations rapidly. The term 'slap' comes from the action of slapping the sticker onto a surface. This form of street art ranges from simple tags on shipping labels to elaborate artistic designs on custom-made stickers.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Sticker_art",
+    "citationTitle": "Wikipedia: Sticker art"
+  }
+]

@@ -1,0 +1,342 @@
+[
+  {
+    "id": "a10e16c0-30f0-4df4-980d-7b0260bf307b",
+    "text": "Which Supreme Court case established the principle of judicial review in 1803?",
+    "options": [
+      "Marbury v. Madison",
+      "McCulloch v. Maryland",
+      "Gibbons v. Ogden",
+      "Fletcher v. Peck"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Marbury v. Madison established the Supreme Court's power of judicial review.",
+    "detailedExplanation": "Marbury v. Madison (1803) is one of the most important cases in American legal history. Chief Justice John Marshall's decision established the principle of judicial review, giving the Supreme Court the power to declare laws unconstitutional. The case arose from a dispute over judicial appointments made by outgoing President John Adams, but its lasting impact was creating the foundation for the Supreme Court's role as the final arbiter of constitutional questions.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Marbury_v._Madison",
+    "citationTitle": "Wikipedia: Marbury v. Madison"
+  },
+  {
+    "id": "a9f14fd9-9214-460b-9669-2cb41e1d290a",
+    "text": "Brown v. Board of Education (1954) overturned which earlier Supreme Court case?",
+    "options": [
+      "Dred Scott v. Sandford",
+      "Plessy v. Ferguson",
+      "Korematsu v. United States",
+      "Lochner v. New York"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Brown v. Board overturned Plessy v. Ferguson's 'separate but equal' doctrine.",
+    "detailedExplanation": "Brown v. Board of Education (1954) specifically overturned the 1896 Plessy v. Ferguson decision. Plessy had established the 'separate but equal' doctrine that allowed racial segregation in public facilities. The Brown decision unanimously declared that separate educational facilities were inherently unequal, marking a pivotal moment in the Civil Rights Movement and beginning the legal dismantling of institutionalized segregation in America.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Brown_v._Board_of_Education",
+    "citationTitle": "Wikipedia: Brown v. Board of Education"
+  },
+  {
+    "id": "f1b1b85b-0eb2-4e05-ad63-662230265ca0",
+    "text": "Which Supreme Court case legalized abortion nationwide in 1973?",
+    "options": [
+      "Griswold v. Connecticut",
+      "Roe v. Wade",
+      "Planned Parenthood v. Casey",
+      "Eisenstadt v. Baird"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Roe v. Wade established a constitutional right to abortion in 1973.",
+    "detailedExplanation": "Roe v. Wade (1973) was a landmark decision that established a woman's legal right to have an abortion under the Fourteenth Amendment to the Constitution. The Court ruled 7-2 that the Constitution protects a pregnant woman's liberty to choose to have an abortion without excessive government restriction. The decision established a framework of pregnancy trimesters with varying levels of state regulation, fundamentally changing American reproductive rights law until it was overturned by Dobbs v. Jackson in 2022.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Roe_v._Wade",
+    "citationTitle": "Wikipedia: Roe v. Wade"
+  },
+  {
+    "id": "e7169d46-be8e-42c0-a327-d420de7be4cd",
+    "text": "In Miranda v. Arizona (1966), the Supreme Court established that police must inform suspects of what?",
+    "options": [
+      "Right to a speedy trial",
+      "Right to remain silent",
+      "Right to post bail",
+      "Right to face accusers"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Miranda established the requirement to inform suspects of their right to remain silent and have an attorney.",
+    "detailedExplanation": "Miranda v. Arizona (1966) established the famous 'Miranda rights' that police must recite to suspects before custodial interrogation. The Court ruled that suspects must be informed of their Fifth Amendment right to remain silent, that anything they say can be used against them in court, their right to an attorney, and that an attorney will be appointed if they cannot afford one. This case fundamentally changed police procedures and became deeply embedded in American popular culture through countless TV shows and movies.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Miranda_v._Arizona",
+    "citationTitle": "Wikipedia: Miranda v. Arizona"
+  },
+  {
+    "id": "e2b72b37-c9bb-4505-ab2e-10d32326b0b3",
+    "text": "Which Supreme Court case upheld the federal government's power to regulate interstate commerce in 1824?",
+    "options": [
+      "McCulloch v. Maryland",
+      "Gibbons v. Ogden",
+      "Dartmouth College v. Woodward",
+      "Worcester v. Georgia"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Gibbons v. Ogden established broad federal power over interstate commerce.",
+    "detailedExplanation": "Gibbons v. Ogden (1824) was a landmark case that broadly interpreted the Commerce Clause of the Constitution. The dispute involved competing steamboat operators and conflicting state and federal licenses. Chief Justice John Marshall's decision established that federal law supersedes state law when regulating interstate commerce, and defined commerce broadly to include navigation and transportation. This case became the foundation for extensive federal regulation of business and economic activity throughout American history.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Gibbons_v._Ogden",
+    "citationTitle": "Wikipedia: Gibbons v. Ogden"
+  },
+  {
+    "id": "2ec46b44-6729-4f8a-b100-32e32493a458",
+    "text": "The Supreme Court case New York Times Co. v. Sullivan (1964) made it harder for whom to win libel cases?",
+    "options": [
+      "Private citizens",
+      "Corporations",
+      "Public officials",
+      "Religious organizations"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "The case established that public officials must prove 'actual malice' in libel cases.",
+    "detailedExplanation": "New York Times Co. v. Sullivan (1964) revolutionized libel law by establishing the 'actual malice' standard for public officials suing for defamation. The Court ruled that public officials cannot recover damages for defamatory statements unless they prove the statement was made with knowledge of its falsity or with reckless disregard for the truth. This case arose from an advertisement about civil rights protests in Alabama and significantly strengthened First Amendment protections for the press when reporting on public figures.",
+    "citationUrl": "https://en.wikipedia.org/wiki/New_York_Times_Co._v._Sullivan",
+    "citationTitle": "Wikipedia: New York Times Co. v. Sullivan"
+  },
+  {
+    "id": "3ae5bd49-bdce-48fe-b4d1-3e028a508975",
+    "text": "Which Supreme Court case allowed states to use eminent domain for private development projects?",
+    "options": [
+      "Kelo v. City of New London",
+      "Penn Central v. New York City",
+      "Hawaii Housing Authority v. Midkiff",
+      "Berman v. Parker"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Kelo v. City of New London expanded eminent domain to include private economic development.",
+    "detailedExplanation": "Kelo v. City of New London (2005) was a controversial 5-4 decision that broadened the government's eminent domain power under the Fifth Amendment's 'public use' clause. The Court ruled that local governments could take private property and transfer it to private developers if the development would benefit the community through increased tax revenue and economic growth. The decision sparked significant public backlash and led many states to pass laws restricting the use of eminent domain for private development.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Kelo_v._City_of_New_London",
+    "citationTitle": "Wikipedia: Kelo v. City of New London"
+  },
+  {
+    "id": "315a3a81-7787-4483-bfd0-a6ebbe45dcd5",
+    "text": "In Schenck v. United States (1919), the Supreme Court established which famous test for limiting free speech?",
+    "options": [
+      "Clear and present danger",
+      "Strict scrutiny",
+      "Rational basis",
+      "Intermediate scrutiny"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Schenck established the 'clear and present danger' test for restricting speech.",
+    "detailedExplanation": "Schenck v. United States (1919) established the 'clear and present danger' test for determining when the government can restrict free speech. Justice Oliver Wendell Holmes Jr. wrote the unanimous opinion, which famously stated that free speech does not protect someone 'falsely shouting fire in a theatre and causing a panic.' The case involved socialists who distributed leaflets opposing the World War I draft. While later cases have refined and limited this test, Schenck remains important for establishing that First Amendment rights are not absolute.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Schenck_v._United_States",
+    "citationTitle": "Wikipedia: Schenck v. United States"
+  },
+  {
+    "id": "81da3697-4a43-450b-9e05-f68897ad94a0",
+    "text": "Which Supreme Court case established that corporations have the same free speech rights as individuals in political campaigns?",
+    "options": [
+      "Citizens United v. FEC",
+      "Buckley v. Valeo",
+      "McCutcheon v. FEC",
+      "Austin v. Michigan Chamber of Commerce"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Citizens United v. FEC (2010) ruled that corporations and unions have the same First Amendment rights as individuals to spend money on political campaigns.",
+    "detailedExplanation": "In Citizens United v. Federal Election Commission (2010), the Supreme Court made a landmark ruling that fundamentally changed campaign finance law. The Court held 5-4 that the free speech clause of the First Amendment prohibits the government from restricting independent expenditures for political communications by corporations, labor unions, and other associations. This decision overturned parts of the McCain-Feingold Act and allowed unlimited corporate and union spending on elections, though it maintained prohibitions on direct contributions to candidates.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Citizens_United_v._FEC",
+    "citationTitle": "Wikipedia: Citizens United v. FEC"
+  },
+  {
+    "id": "d08f37e7-b25a-4fc7-a81b-9edcf53b2069",
+    "text": "In which Supreme Court case did the justices rule that flag burning is protected speech under the First Amendment?",
+    "options": [
+      "Texas v. Johnson",
+      "United States v. Eichman",
+      "Tinker v. Des Moines",
+      "Cohen v. California"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Texas v. Johnson (1989) established that burning the American flag is a form of symbolic speech protected by the First Amendment.",
+    "detailedExplanation": "Texas v. Johnson (1989) arose when Gregory Lee Johnson burned an American flag outside the Republican National Convention in Dallas. He was arrested and convicted under a Texas law prohibiting flag desecration. The Supreme Court ruled 5-4 that flag burning constitutes expressive conduct or 'symbolic speech' protected by the First Amendment. Justice William Brennan wrote the majority opinion, stating that the government cannot prohibit expression of an idea simply because society finds it disagreeable or offensive.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Texas_v._Johnson",
+    "citationTitle": "Wikipedia: Texas v. Johnson"
+  },
+  {
+    "id": "da1e4b4c-07a0-4481-af5c-4340d86a0b26",
+    "text": "Which Supreme Court case ruled that students do not lose their constitutional rights when they enter school property?",
+    "options": [
+      "Tinker v. Des Moines",
+      "Hazelwood v. Kuhlmeier",
+      "Morse v. Frederick",
+      "Board of Education v. Pico"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Tinker v. Des Moines (1969) established that students retain their First Amendment rights in school, famously stating students don't 'shed their constitutional rights at the schoolhouse gate.'",
+    "detailedExplanation": "Tinker v. Des Moines Independent Community School District (1969) began when students wore black armbands to school to protest the Vietnam War. The school suspended them, leading to a lawsuit. The Supreme Court ruled 7-2 that students retain their First Amendment rights while at school. Justice Abe Fortas wrote the famous line that students do not 'shed their constitutional rights to freedom of speech or expression at the schoolhouse gate.' However, the Court also established that schools can restrict speech if it substantially disrupts the educational environment.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Tinker_v._Des_Moines_Independent_Community_School_District",
+    "citationTitle": "Wikipedia: Tinker v. Des Moines Independent Community School District"
+  },
+  {
+    "id": "d4e45d3b-3388-49f9-8327-35848387b4c7",
+    "text": "Which Supreme Court case established that evidence obtained through illegal searches cannot be used in court?",
+    "options": [
+      "Mapp v. Ohio",
+      "Terry v. Ohio",
+      "Weeks v. United States",
+      "Wolf v. Colorado"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Mapp v. Ohio (1961) applied the exclusionary rule to state courts, prohibiting the use of illegally obtained evidence in criminal prosecutions.",
+    "detailedExplanation": "Mapp v. Ohio (1961) established the exclusionary rule for state courts when Dollree Mapp was convicted based on evidence obtained during an illegal search of her home by Cleveland police. The Supreme Court ruled 6-3 that evidence obtained in violation of the Fourth Amendment cannot be used in state criminal prosecutions. This extended the exclusionary rule, which had previously only applied to federal courts under Weeks v. United States (1914), to all state courts as well, significantly strengthening Fourth Amendment protections against unreasonable searches and seizures.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Mapp_v._Ohio",
+    "citationTitle": "Wikipedia: Mapp v. Ohio"
+  },
+  {
+    "id": "616964aa-d11e-4b9f-a29d-c504a366814d",
+    "text": "Which Supreme Court case ruled that same-sex couples have a constitutional right to marry?",
+    "options": [
+      "Obergefell v. Hodges",
+      "United States v. Windsor",
+      "Lawrence v. Texas",
+      "Romer v. Evans"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Obergefell v. Hodges (2015) ruled that the fundamental right to marry is guaranteed to same-sex couples under the Fourteenth Amendment.",
+    "detailedExplanation": "Obergefell v. Hodges (2015) consolidated several cases challenging state bans on same-sex marriage. The Supreme Court ruled 5-4 that the fundamental right to marry is guaranteed to same-sex couples by both the Due Process Clause and the Equal Protection Clause of the Fourteenth Amendment. Justice Anthony Kennedy wrote the majority opinion, which required all states to issue marriage licenses to same-sex couples and to recognize same-sex marriages performed in other jurisdictions. This decision effectively legalized same-sex marriage nationwide.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Obergefell_v._Hodges",
+    "citationTitle": "Wikipedia: Obergefell v. Hodges"
+  },
+  {
+    "id": "9a1a7a41-7db4-47c0-993c-6aa3a8b5a23e",
+    "text": "Which Supreme Court case upheld the Affordable Care Act's individual mandate as a constitutional tax?",
+    "options": [
+      "NFIB v. Sebelius",
+      "King v. Burwell",
+      "California v. Texas",
+      "Hobby Lobby v. Burwell"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "NFIB v. Sebelius (2012) upheld the Affordable Care Act's individual mandate by ruling it was a constitutional exercise of Congress's taxing power.",
+    "detailedExplanation": "National Federation of Independent Business v. Sebelius (2012) was a landmark case challenging the constitutionality of the Affordable Care Act (Obamacare). The Supreme Court ruled 5-4 that while Congress lacked power under the Commerce Clause to require individuals to purchase health insurance, the individual mandate was constitutional as an exercise of Congress's taxing power. Chief Justice John Roberts wrote the majority opinion, arguing that the penalty for not having insurance functioned as a tax. The decision also limited the federal government's ability to withhold Medicaid funding from states that refused to expand the program.",
+    "citationUrl": "https://en.wikipedia.org/wiki/National_Federation_of_Independent_Business_v._Sebelius",
+    "citationTitle": "Wikipedia: National Federation of Independent Business v. Sebelius"
+  },
+  {
+    "id": "ddb9ecae-3092-4cb0-99b7-9e8ae9dc9c22",
+    "text": "Which Supreme Court case established that criminal defendants have the right to an attorney, even if they cannot afford one?",
+    "options": [
+      "Gideon v. Wainwright",
+      "Powell v. Alabama",
+      "Argersinger v. Hamlin",
+      "Strickland v. Washington"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Gideon v. Wainwright (1963) established that states must provide attorneys for criminal defendants who cannot afford them in felony cases.",
+    "detailedExplanation": "Gideon v. Wainwright (1963) arose when Clarence Earl Gideon was forced to represent himself in a Florida court because he could not afford an attorney and the state would not provide one. After his conviction, Gideon petitioned the Supreme Court from prison. The Court unanimously ruled that the Sixth Amendment's guarantee of counsel is a fundamental right essential to a fair trial and applies to state courts through the Fourteenth Amendment's Due Process Clause. This decision required states to provide public defenders or appointed counsel for indigent defendants in felony cases.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Gideon_v._Wainwright",
+    "citationTitle": "Wikipedia: Gideon v. Wainwright"
+  },
+  {
+    "id": "37fc7035-88b0-4311-89cb-e25d69dd885a",
+    "text": "Which Supreme Court case ruled that racial gerrymandering violates the Equal Protection Clause?",
+    "options": [
+      "Shaw v. Reno",
+      "Baker v. Carr",
+      "Reynolds v. Sims",
+      "Wesberry v. Sanders"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Shaw v. Reno (1993) established that redistricting based predominantly on race must meet strict scrutiny under the Equal Protection Clause.",
+    "detailedExplanation": "Shaw v. Reno (1993) challenged North Carolina's congressional redistricting plan that created a majority-black district with an unusual serpentine shape stretching across the state. The Supreme Court ruled 5-4 that redistricting based predominantly on race is subject to strict scrutiny under the Equal Protection Clause of the Fourteenth Amendment. Justice Sandra Day O'Connor wrote the majority opinion, establishing that while race can be considered in redistricting, it cannot be the predominant factor. This case created new standards for evaluating racial gerrymandering claims.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Shaw_v._Reno",
+    "citationTitle": "Wikipedia: Shaw v. Reno"
+  },
+  {
+    "id": "e0be0912-eb47-4d04-b7e2-d8a376ad7ae6",
+    "text": "Which Supreme Court case established that the federal government has the power to create a national bank?",
+    "options": [
+      "McCulloch v. Maryland (1819)",
+      "Dartmouth College v. Woodward (1819)",
+      "Fletcher v. Peck (1810)",
+      "Worcester v. Georgia (1832)"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "McCulloch v. Maryland established federal supremacy and the implied powers doctrine.",
+    "detailedExplanation": "In McCulloch v. Maryland (1819), the Supreme Court ruled that Congress had the constitutional authority to establish a national bank under the Necessary and Proper Clause, and that states could not tax federal institutions. Chief Justice John Marshall's opinion established the principle of implied powers and federal supremacy over state governments when federal and state laws conflict.",
+    "citationUrl": "https://en.wikipedia.org/wiki/McCulloch_v._Maryland",
+    "citationTitle": "Wikipedia: McCulloch v. Maryland"
+  },
+  {
+    "id": "b05ffb1a-b76b-41ad-9c7f-6e84fb4a6999",
+    "text": "In which Supreme Court case did the justices rule that Japanese American internment during World War II was constitutional?",
+    "options": [
+      "Korematsu v. United States (1944)",
+      "Hirabayashi v. United States (1943)",
+      "Ex parte Endo (1944)",
+      "Yasui v. United States (1943)"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Korematsu v. United States upheld the internment of Japanese Americans during WWII.",
+    "detailedExplanation": "In Korematsu v. United States (1944), the Supreme Court ruled 6-3 that the exclusion of Japanese Americans from the West Coast during World War II was constitutional. The Court applied strict scrutiny but found that the need to protect against espionage outweighed individual rights. This decision has been widely criticized and was formally repudiated by the Court in Trump v. Hawaii (2018).",
+    "citationUrl": "https://en.wikipedia.org/wiki/Korematsu_v._United_States",
+    "citationTitle": "Wikipedia: Korematsu v. United States"
+  },
+  {
+    "id": "c6390149-3db0-4065-8777-e8403d9be801",
+    "text": "Which Supreme Court case ruled that states cannot require the Pledge of Allegiance in public schools?",
+    "options": [
+      "West Virginia State Board of Education v. Barnette (1943)",
+      "Minersville School District v. Gobitis (1940)",
+      "Engel v. Vitale (1962)",
+      "Abington School District v. Schempp (1963)"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "West Virginia v. Barnette protected students' right to refuse to recite the Pledge of Allegiance.",
+    "detailedExplanation": "In West Virginia State Board of Education v. Barnette (1943), the Supreme Court ruled 6-3 that public schools could not compel students to salute the flag or recite the Pledge of Allegiance. The case involved Jehovah's Witness students whose religious beliefs prohibited flag saluting. The Court held that forcing students to participate violated their First Amendment rights to free speech and free exercise of religion.",
+    "citationUrl": "https://en.wikipedia.org/wiki/West_Virginia_State_Board_of_Education_v._Barnette",
+    "citationTitle": "Wikipedia: West Virginia State Board of Education v. Barnette"
+  },
+  {
+    "id": "effdd0e1-1500-4330-bad8-0d4f051565cd",
+    "text": "Which Supreme Court case established the 'one person, one vote' principle for legislative districts?",
+    "options": [
+      "Reynolds v. Sims (1964)",
+      "Baker v. Carr (1962)",
+      "Wesberry v. Sanders (1964)",
+      "Gray v. Sanders (1963)"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Reynolds v. Sims required state legislative districts to be roughly equal in population.",
+    "detailedExplanation": "In Reynolds v. Sims (1964), the Supreme Court ruled that state legislative districts must be roughly equal in population, establishing the 'one person, one vote' principle. The case challenged Alabama's malapportioned legislative districts where rural areas had disproportionate representation. Chief Justice Earl Warren wrote that legislative seats must be apportioned substantially on a population basis, ensuring equal representation in state legislatures.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Reynolds_v._Sims",
+    "citationTitle": "Wikipedia: Reynolds v. Sims"
+  }
+]

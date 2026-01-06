@@ -1,0 +1,342 @@
+[
+  {
+    "id": "a2aa1f98-d158-47fd-b72a-93d59aef3ebc",
+    "text": "Which political ideology advocates for the abolition of private property and the collective ownership of the means of production?",
+    "options": [
+      "Socialism",
+      "Communism",
+      "Anarchism",
+      "Fascism"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Communism specifically calls for the complete abolition of private property and collective ownership of all means of production.",
+    "detailedExplanation": "While socialism may allow for some forms of private property and mixed economies, communism as theorized by Marx and Engels explicitly calls for the complete abolition of private property and the collective ownership of all means of production. In a communist system, all property would be publicly owned and each person would work according to their ability and receive according to their needs.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Communism",
+    "citationTitle": "Wikipedia: Communism"
+  },
+  {
+    "id": "e44d2d06-0e13-4c02-8629-668da49f04b6",
+    "text": "What is the term for a political system where power is divided between a central government and regional governments?",
+    "options": [
+      "Unitary system",
+      "Confederation",
+      "Federalism",
+      "Totalitarianism"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Federalism is the system where governmental powers are divided between central and regional authorities.",
+    "detailedExplanation": "Federalism is a system of government in which power is divided between a central authority and constituent political units, such as states or provinces. This differs from a unitary system where power is centralized, and from a confederation where regional governments retain most power. Examples of federal systems include the United States, Canada, Germany, and Australia.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Federalism",
+    "citationTitle": "Wikipedia: Federalism"
+  },
+  {
+    "id": "843bc000-da48-4695-b8e8-5ad6a2d46c4d",
+    "text": "Which 18th-century philosopher is credited with developing the theory of the 'separation of powers' that influences modern democratic governments?",
+    "options": [
+      "John Locke",
+      "Montesquieu",
+      "Jean-Jacques Rousseau",
+      "Thomas Hobbes"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Montesquieu developed the theory of separation of powers into executive, legislative, and judicial branches.",
+    "detailedExplanation": "Baron de Montesquieu, in his work 'The Spirit of the Laws' (1748), articulated the theory of separation of powers, arguing that political liberty could best be maintained by separating governmental functions into three branches: executive, legislative, and judicial. This concept heavily influenced the framers of the U.S. Constitution and many other modern democratic systems worldwide.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Montesquieu",
+    "citationTitle": "Wikipedia: Montesquieu"
+  },
+  {
+    "id": "fb29ffd8-05ff-42a5-b262-537e65517cbf",
+    "text": "What type of electoral system is used in the United Kingdom for general elections?",
+    "options": [
+      "Proportional representation",
+      "First-past-the-post",
+      "Single transferable vote",
+      "Two-round system"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "The UK uses the first-past-the-post system where the candidate with the most votes in each constituency wins.",
+    "detailedExplanation": "The United Kingdom uses the first-past-the-post (FPTP) electoral system for House of Commons elections, also known as the simple majority system. In this system, the country is divided into constituencies, and the candidate who receives the most votes in each constituency wins the seat, regardless of whether they achieve an absolute majority. This system tends to favor larger parties and can result in governments with parliamentary majorities despite receiving less than 50% of the national vote.",
+    "citationUrl": "https://en.wikipedia.org/wiki/First-past-the-post_voting",
+    "citationTitle": "Wikipedia: First-past-the-post voting"
+  },
+  {
+    "id": "bccd78ce-17a8-4574-a0bd-4864dffa3989",
+    "text": "Which political ideology emphasizes tradition, social stability, and gradual change rather than revolutionary transformation?",
+    "options": [
+      "Liberalism",
+      "Conservatism",
+      "Radicalism",
+      "Progressivism"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Conservatism values traditional institutions and practices, favoring gradual change over rapid transformation.",
+    "detailedExplanation": "Conservatism is a political ideology that emphasizes the preservation of traditional institutions, customs, and values. Conservatives generally favor gradual, evolutionary change rather than radical transformation, believing that established institutions have developed organically over time and serve important social functions. This ideology values social stability, order, and continuity, often viewing rapid change as potentially dangerous to social cohesion.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Conservatism",
+    "citationTitle": "Wikipedia: Conservatism"
+  },
+  {
+    "id": "75057a72-b6b4-4c52-9778-adc5f11ff4ca",
+    "text": "What is the name for a political system where a single party maintains power through control of the military, media, and economy?",
+    "options": [
+      "Oligarchy",
+      "Autocracy",
+      "One-party state",
+      "Plutocracy"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "A one-party state is a system where a single political party has complete control over government and society.",
+    "detailedExplanation": "A one-party state is a form of government where a single political party has the right to form the government, and other parties are either prohibited or allowed to exist only in a very limited capacity. The ruling party typically maintains control through dominance of the military, media, education system, and economy. Historical examples include the Soviet Union under communist rule, Nazi Germany, and contemporary China.",
+    "citationUrl": "https://en.wikipedia.org/wiki/One-party_state",
+    "citationTitle": "Wikipedia: One-party state"
+  },
+  {
+    "id": "817fe559-3cb8-41a0-8774-b745ec878211",
+    "text": "Which term describes a form of direct democracy where citizens vote directly on policy issues rather than electing representatives?",
+    "options": [
+      "Representative democracy",
+      "Parliamentary system",
+      "Referendum",
+      "Plebiscitary democracy"
+    ],
+    "correctIndex": 3,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Plebiscitary democracy involves citizens voting directly on policy matters rather than through elected representatives.",
+    "detailedExplanation": "Plebiscitary democracy is a form of direct democracy where major political decisions are made directly by citizens through plebiscites or referendums, rather than by elected representatives. This system emphasizes direct citizen participation in governance and policy-making. Switzerland is often cited as an example of a country that incorporates significant plebiscitary elements, with frequent referendums on various policy issues at national and local levels.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Direct_democracy",
+    "citationTitle": "Wikipedia: Direct democracy"
+  },
+  {
+    "id": "deb6bc49-8f0e-4940-9a5b-b0d426eb558b",
+    "text": "What political concept describes the idea that government authority derives from the consent of the governed?",
+    "options": [
+      "Divine right",
+      "Popular sovereignty",
+      "Social contract",
+      "Natural law"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Popular sovereignty is the principle that government authority comes from the will and consent of the people.",
+    "detailedExplanation": "Popular sovereignty is a fundamental principle of democratic theory stating that the authority of government is created and sustained by the consent of its people, usually through elected representatives. This concept stands in contrast to systems based on divine right or hereditary rule. The principle was central to Enlightenment political thought and is foundational to modern democratic systems, emphasizing that ultimate political power resides with the people rather than with monarchs or other unelected authorities.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Popular_sovereignty",
+    "citationTitle": "Wikipedia: Popular sovereignty"
+  },
+  {
+    "id": "a7f49770-96ea-4559-8f28-dd9a52f96512",
+    "text": "What is the term for a political ideology that seeks to create a classless, stateless society through revolutionary means?",
+    "options": [
+      "Anarchism",
+      "Socialism",
+      "Libertarianism",
+      "Populism"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Anarchism advocates for the abolition of all forms of hierarchical authority, including the state, to create a stateless society.",
+    "detailedExplanation": "Anarchism is a political philosophy that seeks to abolish all forms of hierarchical authority, particularly the state, in favor of voluntary associations and mutual aid. Unlike socialism which may accept state involvement, anarchists believe that any form of government is inherently oppressive. The ideology encompasses various schools of thought, from anarcho-communism to anarcho-capitalism, but all share the core belief in eliminating coercive institutions and creating a society based on voluntary cooperation.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Anarchism",
+    "citationTitle": "Wikipedia: Anarchism"
+  },
+  {
+    "id": "ac3e15ce-db94-4cbe-b004-824cf27db084",
+    "text": "Which political system features a ceremonial head of state alongside an elected head of government?",
+    "options": [
+      "Presidential republic",
+      "Parliamentary monarchy",
+      "Absolute monarchy",
+      "Theocracy"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "A parliamentary monarchy has a monarch as ceremonial head of state while the prime minister serves as the elected head of government.",
+    "detailedExplanation": "In a parliamentary monarchy, the monarch serves as the ceremonial head of state with largely symbolic powers, while real political power rests with an elected parliament and prime minister who serves as head of government. Countries like the United Kingdom, Canada, and Australia operate under this system. The monarch typically performs constitutional duties such as giving royal assent to legislation and opening parliament, but does not interfere in day-to-day governance, which is handled by elected officials accountable to the legislature.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Parliamentary_system",
+    "citationTitle": "Wikipedia: Parliamentary system"
+  },
+  {
+    "id": "5b85b3fb-581a-4150-8e30-a760de76eed1",
+    "text": "What voting method allows citizens to rank candidates in order of preference?",
+    "options": [
+      "First-past-the-post",
+      "Proportional representation",
+      "Instant runoff voting",
+      "Plurality voting"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Instant runoff voting (also called ranked-choice voting) allows voters to rank candidates in order of preference rather than selecting just one.",
+    "detailedExplanation": "Instant runoff voting, also known as ranked-choice voting or the alternative vote, is an electoral system where voters rank candidates in order of preference. If no candidate receives a majority of first-preference votes, the candidate with the fewest votes is eliminated and their votes are redistributed to the remaining candidates based on the voters' second preferences. This process continues until one candidate achieves a majority. This system is used in countries like Australia for their House of Representatives and has been adopted by several cities and states in the United States for various elections.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Instant-runoff_voting",
+    "citationTitle": "Wikipedia: Instant-runoff voting"
+  },
+  {
+    "id": "798a8f8c-841c-40a9-94fb-3062de372c70",
+    "text": "Which political ideology emphasizes minimal government intervention in both economic and social matters?",
+    "options": [
+      "Social democracy",
+      "Democratic socialism",
+      "Libertarianism",
+      "Authoritarianism"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Libertarianism advocates for minimal government interference in personal and economic affairs, emphasizing individual liberty and free markets.",
+    "detailedExplanation": "Libertarianism is a political ideology that advocates for minimal government intervention in both personal and economic spheres. Libertarians believe in maximizing individual liberty and personal responsibility while minimizing the role of government. They typically support free-market capitalism, oppose most government regulations, favor non-interventionist foreign policies, and believe individuals should be free to make personal choices as long as they don't harm others. This ideology differs from conservatism in its liberal approach to social issues and from liberalism in its opposition to economic regulation.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Libertarianism",
+    "citationTitle": "Wikipedia: Libertarianism"
+  },
+  {
+    "id": "3d15212d-3500-4da0-9b8d-20fee9a8ad26",
+    "text": "What term describes a political system where religious leaders hold political power?",
+    "options": [
+      "Oligarchy",
+      "Plutocracy",
+      "Theocracy",
+      "Technocracy"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "A theocracy is a system of government where religious leaders rule in the name of a deity or divine authority.",
+    "detailedExplanation": "A theocracy is a form of government where political power is held by religious leaders or institutions, and the state's legal system is based on religious law. In a theocracy, religious doctrine serves as the basis for governance, and political authority is justified through divine mandate rather than popular consent. Modern examples include Iran, where the Supreme Leader is a religious figure, and Vatican City, which is governed by the Pope. Historical theocracies have included Tibet under the Dalai Lama and various Islamic caliphates throughout history.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Theocracy",
+    "citationTitle": "Wikipedia: Theocracy"
+  },
+  {
+    "id": "7818163c-d0cc-4c0a-87fc-8a270ff937d1",
+    "text": "Which economic theory advocates for government spending during recessions to stimulate demand?",
+    "options": [
+      "Supply-side economics",
+      "Keynesian economics",
+      "Monetarism",
+      "Austrian economics"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Keynesian economics, developed by John Maynard Keynes, advocates for government intervention through increased spending during economic downturns.",
+    "detailedExplanation": "Keynesian economics, named after British economist John Maynard Keynes, argues that government should actively intervene in the economy during recessions by increasing public spending and cutting taxes to stimulate aggregate demand. This theory emerged from Keynes's analysis of the Great Depression and challenges classical economic theory that markets naturally self-correct. Keynesian policies have been influential in shaping modern fiscal policy, with governments using stimulus packages and public works programs during economic downturns. The theory emphasizes that insufficient demand, rather than supply constraints, is often the primary cause of economic recessions.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Keynesian_economics",
+    "citationTitle": "Wikipedia: Keynesian economics"
+  },
+  {
+    "id": "475b62de-45d5-48ce-97e7-907f3cc23c16",
+    "text": "What is the term for a political arrangement where multiple parties share power in a coalition government?",
+    "options": [
+      "Bipartisanship",
+      "Consociationalism",
+      "Majoritarianism",
+      "Pluralism"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Consociationalism is a form of democracy where power is shared among different groups through coalition governments and mutual vetoes.",
+    "detailedExplanation": "Consociationalism is a form of democratic governance designed for deeply divided societies, where different ethnic, religious, or linguistic groups share power through institutional arrangements. Key features include coalition governments that include representatives from all major groups, mutual veto powers, proportional representation, and segmental autonomy allowing groups to govern their own affairs. This system has been successfully implemented in countries like Belgium, Switzerland, and Lebanon (historically), and was proposed as a solution for divided societies like Northern Ireland and South Africa during their transitions to democracy.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Consociationalism",
+    "citationTitle": "Wikipedia: Consociationalism"
+  },
+  {
+    "id": "aaa1979d-841c-4bde-b937-dc52e7094aa4",
+    "text": "Which political concept describes the ability of a government to exercise authority within its territory without external interference?",
+    "options": [
+      "Legitimacy",
+      "Sovereignty",
+      "Hegemony",
+      "Autonomy"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Sovereignty refers to the supreme authority of a state to govern itself without interference from external powers.",
+    "detailedExplanation": "Sovereignty is a fundamental concept in political science referring to the supreme authority within a territory. It encompasses both internal sovereignty (the state's monopoly on legitimate use of force within its borders) and external sovereignty (freedom from external interference in domestic affairs). The concept was formalized in the 1648 Treaty of Westphalia, which established the principle of non-interference in the internal affairs of other states. Modern challenges to sovereignty include globalization, international law, supranational organizations like the EU, and humanitarian interventions, leading to debates about how absolute sovereignty remains in the contemporary world.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Sovereignty",
+    "citationTitle": "Wikipedia: Sovereignty"
+  },
+  {
+    "id": "44e45ec2-7bf1-4052-a651-45cc530ab0b2",
+    "text": "Which political ideology, associated with figures like Benito Mussolini, is characterized by extreme nationalism, dictatorial power, and the forcible suppression of opposition?",
+    "options": [
+      "Fascism",
+      "Anarchism",
+      "Populism",
+      "Socialism"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Fascism is characterized by extreme nationalism, dictatorial power, and forcible suppression of opposition.",
+    "detailedExplanation": "Fascism is a far-right, authoritarian political ideology that emerged in early 20th-century Europe. It is characterized by dictatorial power, forcible suppression of opposition, extreme nationalism, and typically a mixed economy. Fascist movements reject democracy, Marxism, and political and cultural liberalism. Notable fascist leaders include Benito Mussolini in Italy and Adolf Hitler in Germany, who used propaganda, violence, and mass rallies to maintain control and promote ultranationalist ideologies.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Fascism",
+    "citationTitle": "Wikipedia: Fascism"
+  },
+  {
+    "id": "25cb96ab-cc13-42da-8750-f39c5327bf46",
+    "text": "What is the term for a political system where citizens elect representatives to an electoral college, which then selects the head of government, as used in the United States presidential elections?",
+    "options": [
+      "Direct democracy",
+      "Indirect democracy",
+      "Proportional representation",
+      "Plurality system"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Indirect democracy involves citizens electing representatives who then make decisions on their behalf, including selecting leaders.",
+    "detailedExplanation": "Indirect democracy, also known as representative democracy, is a system where citizens vote for representatives who then make political decisions on their behalf. The U.S. Electoral College system is a prime example, where voters in each state choose electors who then formally select the president. This contrasts with direct democracy where citizens vote directly on issues or leaders. The system was designed by the Founding Fathers as a compromise between direct popular vote and selection by Congress, intended to balance the influence of large and small states.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Representative_democracy",
+    "citationTitle": "Wikipedia: Representative democracy"
+  },
+  {
+    "id": "93dac9c1-27a7-4541-a31c-8b104497e44e",
+    "text": "Which political concept describes a state of nature without government where life is famously described as 'solitary, poor, nasty, brutish, and short' according to Thomas Hobbes?",
+    "options": [
+      "Social contract",
+      "State of nature",
+      "Natural law",
+      "Civil society"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "The 'state of nature' is Hobbes' theoretical condition before government, which he described as chaotic and brutal.",
+    "detailedExplanation": "The state of nature is a concept in political philosophy that represents the hypothetical condition of humanity before the establishment of government and organized society. Thomas Hobbes, in his work 'Leviathan' (1651), famously described this condition as one where life would be 'solitary, poor, nasty, brutish, and short' due to the absence of law, order, and protection. Hobbes argued that to escape this chaotic condition, people would agree to surrender some freedoms to a sovereign authority in exchange for protection and order, forming what he called the social contract.",
+    "citationUrl": "https://en.wikipedia.org/wiki/State_of_nature",
+    "citationTitle": "Wikipedia: State of nature"
+  },
+  {
+    "id": "29bc1bc8-42ae-4069-8578-f0ec3f90e7d7",
+    "text": "What is the name of the political ideology that advocates for the abolition of all forms of government and the organization of society on a voluntary, cooperative basis without the state?",
+    "options": [
+      "Libertarianism",
+      "Anarchism",
+      "Minarchism",
+      "Syndicalism"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Anarchism advocates for the complete abolition of government and the state, favoring voluntary cooperation instead.",
+    "detailedExplanation": "Anarchism is a political philosophy that advocates for the abolition of all involuntary, coercive forms of hierarchy, particularly the state. Anarchists believe that society can and should be organized without government, relying instead on voluntary associations, mutual aid, and cooperative arrangements. Unlike libertarianism, which typically supports minimal government, anarchism rejects the state entirely. Notable anarchist thinkers include Pierre-Joseph Proudhon, Mikhail Bakunin, and Peter Kropotkin. There are various schools of anarchist thought, including anarcho-communism, anarcho-syndicalism, and individualist anarchism.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Anarchism",
+    "citationTitle": "Wikipedia: Anarchism"
+  }
+]

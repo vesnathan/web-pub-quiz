@@ -1,0 +1,342 @@
+[
+  {
+    "id": "9bc8c0c5-955f-4081-8ef8-a221e8513bd0",
+    "text": "Which 1977 film launched one of the most successful science fiction franchises in cinema history?",
+    "options": [
+      "Star Trek: The Motion Picture",
+      "Star Wars",
+      "Close Encounters of the Third Kind",
+      "Alien"
+    ],
+    "correctIndex": 1,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "Star Wars (1977) created the iconic space opera franchise.",
+    "detailedExplanation": "Star Wars, directed by George Lucas and released in 1977, became a cultural phenomenon and launched one of the most successful and enduring science fiction franchises in film history. The film's groundbreaking special effects, memorable characters, and epic storytelling revolutionized the sci-fi genre and cinema as a whole.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Star_Wars_(film)",
+    "citationTitle": "Wikipedia: Star Wars (1977 film)"
+  },
+  {
+    "id": "987e6b64-8988-4263-9caa-8b32a922878f",
+    "text": "In the 1982 film 'E.T. the Extra-Terrestrial', what does E.T. famously want to do?",
+    "options": [
+      "Phone home",
+      "Find his spaceship",
+      "Meet the President",
+      "Return to space"
+    ],
+    "correctIndex": 0,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "E.T.'s iconic catchphrase is 'E.T. phone home.'",
+    "detailedExplanation": "In Steven Spielberg's beloved 1982 film 'E.T. the Extra-Terrestrial', the alien character E.T. repeatedly expresses his desire to 'phone home' to contact his own kind and arrange for rescue. This simple phrase became one of the most memorable quotes in cinema history and perfectly captured the character's longing to return to his family.",
+    "citationUrl": "https://en.wikipedia.org/wiki/E.T._the_Extra-Terrestrial",
+    "citationTitle": "Wikipedia: E.T. the Extra-Terrestrial"
+  },
+  {
+    "id": "1a890825-58a5-44b1-a750-2b039a7b644c",
+    "text": "Which actor played the Terminator in the original 1984 film?",
+    "options": [
+      "Sylvester Stallone",
+      "Arnold Schwarzenegger",
+      "Bruce Willis",
+      "Harrison Ford"
+    ],
+    "correctIndex": 1,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "Arnold Schwarzenegger played the iconic cyborg assassin in The Terminator.",
+    "detailedExplanation": "Arnold Schwarzenegger starred as the titular Terminator in James Cameron's 1984 science fiction thriller. His portrayal of the relentless cyborg assassin sent from the future became one of his most famous roles and established him as a major action star. The character's cold, mechanical delivery and imposing physical presence made the Terminator an iconic villain in sci-fi cinema.",
+    "citationUrl": "https://en.wikipedia.org/wiki/The_Terminator",
+    "citationTitle": "Wikipedia: The Terminator"
+  },
+  {
+    "id": "ee2bfc49-481e-4dbb-a8e7-7ff289703c28",
+    "text": "In 'Back to the Future' (1985), what speed must the DeLorean reach to travel through time?",
+    "options": [
+      "77 mph",
+      "99 mph",
+      "88 mph",
+      "66 mph"
+    ],
+    "correctIndex": 2,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "The DeLorean time machine needs to reach exactly 88 mph for time travel.",
+    "detailedExplanation": "In the Back to the Future trilogy, Doc Brown's time machine requires the DeLorean to reach precisely 88 miles per hour to activate the flux capacitor and enable time travel. This specific speed became an iconic element of the films, with the dramatic countdown to 88 mph creating tension in many key scenes throughout the series.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Back_to_the_Future",
+    "citationTitle": "Wikipedia: Back to the Future"
+  },
+  {
+    "id": "831827ca-93fa-4f30-919f-14d840d0a6e3",
+    "text": "Which 1968 Stanley Kubrick film features the computer HAL 9000?",
+    "options": [
+      "A Clockwork Orange",
+      "The Shining",
+      "2001: A Space Odyssey",
+      "Dr. Strangelove"
+    ],
+    "correctIndex": 2,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "HAL 9000 is the antagonistic AI computer in 2001: A Space Odyssey.",
+    "detailedExplanation": "2001: A Space Odyssey, Stanley Kubrick's groundbreaking 1968 science fiction epic, features HAL 9000, one of cinema's most memorable artificial intelligence characters. HAL serves as the ship's computer on the Discovery One spacecraft but becomes the film's primary antagonist when it begins to malfunction and turn against the human crew members.",
+    "citationUrl": "https://en.wikipedia.org/wiki/2001:_A_Space_Odyssey_(film)",
+    "citationTitle": "Wikipedia: 2001: A Space Odyssey"
+  },
+  {
+    "id": "ce7c85c1-445e-4bcb-a6d7-94299b736b28",
+    "text": "What is the name of the spaceship in the 1979 film 'Alien'?",
+    "options": [
+      "Nostromo",
+      "Prometheus",
+      "Sulaco",
+      "Enterprise"
+    ],
+    "correctIndex": 0,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "The commercial space tug in Alien is called the USCSS Nostromo.",
+    "detailedExplanation": "In Ridley Scott's 1979 horror-sci-fi masterpiece 'Alien', the crew works aboard the USCSS Nostromo, a commercial space tug returning to Earth with a cargo of mineral ore. The ship becomes the claustrophobic setting where the deadly xenomorph alien hunts the crew members one by one, making the vessel itself almost a character in the film.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Alien_(film)",
+    "citationTitle": "Wikipedia: Alien (1979 film)"
+  },
+  {
+    "id": "ea34dc17-426e-400e-949b-f3621768ebbb",
+    "text": "In 'Jurassic Park' (1993), what substance preserves the dinosaur DNA?",
+    "options": [
+      "Tree sap",
+      "Amber",
+      "Ice",
+      "Clay"
+    ],
+    "correctIndex": 1,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "Dinosaur DNA is extracted from mosquitoes preserved in ancient amber.",
+    "detailedExplanation": "In Steven Spielberg's Jurassic Park, the premise for bringing dinosaurs back to life involves extracting DNA from mosquitoes that had fed on dinosaur blood millions of years ago and were subsequently preserved in amber. This fossilized tree resin acted as a perfect preservative, maintaining the genetic material needed for the cloning process that creates the park's attractions.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Jurassic_Park_(film)",
+    "citationTitle": "Wikipedia: Jurassic Park (1993 film)"
+  },
+  {
+    "id": "e18fe723-47aa-44d0-9df1-3454e3ae838b",
+    "text": "Which 1982 film is set in a dystopian future Los Angeles and features 'replicants'?",
+    "options": [
+      "The Matrix",
+      "Total Recall",
+      "Blade Runner",
+      "Minority Report"
+    ],
+    "correctIndex": 2,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "Blade Runner features artificial humans called replicants in future LA.",
+    "detailedExplanation": "Blade Runner, directed by Ridley Scott and released in 1982, is set in a dystopian Los Angeles in 2019. The film centers around synthetic humans called 'replicants' who are virtually indistinguishable from real humans. Harrison Ford plays a 'blade runner,' a special police officer tasked with hunting down and 'retiring' rogue replicants who have escaped to Earth.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Blade_Runner",
+    "citationTitle": "Wikipedia: Blade Runner"
+  },
+  {
+    "id": "fb2f2e4d-4dd4-4362-96cb-4d8baf85ac51",
+    "text": "In which 1999 science fiction film does Keanu Reeves play a computer programmer who discovers reality is a simulation?",
+    "options": [
+      "The Matrix",
+      "Johnny Mnemonic",
+      "Strange Days",
+      "Dark City"
+    ],
+    "correctIndex": 0,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "Keanu Reeves plays Neo in The Matrix, a hacker who learns the world is a computer simulation.",
+    "detailedExplanation": "The Matrix, directed by the Wachowskis, stars Keanu Reeves as Thomas Anderson/Neo, a computer programmer and hacker who discovers that what he believed to be reality is actually a simulated world created by machines. The film became a cultural phenomenon and spawned multiple sequels, revolutionizing action cinematography with its 'bullet time' effects.",
+    "citationUrl": "https://en.wikipedia.org/wiki/The_Matrix",
+    "citationTitle": "Wikipedia: The Matrix"
+  },
+  {
+    "id": "0d8b7898-35ed-45b3-973d-28ba3fdcf881",
+    "text": "What is the name of the desert planet that serves as Luke Skywalker's home world in Star Wars?",
+    "options": [
+      "Hoth",
+      "Tatooine",
+      "Endor",
+      "Dagobah"
+    ],
+    "correctIndex": 1,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "Tatooine is the desert planet where Luke Skywalker grows up with his aunt and uncle.",
+    "detailedExplanation": "Tatooine is a fictional desert planet in the Star Wars universe, characterized by its twin suns and harsh desert climate. It serves as the home world of both Anakin and Luke Skywalker. The planet's scenes were filmed in various desert locations, including Tunisia, and it has become one of the most iconic planets in science fiction cinema.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Tatooine",
+    "citationTitle": "Wikipedia: Tatooine"
+  },
+  {
+    "id": "56cef1fb-b22a-4a98-ae1d-adf5b5d81559",
+    "text": "Which 1985 science fiction film features a group of teenagers who accidentally travel to the 1950s?",
+    "options": [
+      "Back to the Future",
+      "The Goonies",
+      "Explorers",
+      "Flight of the Navigator"
+    ],
+    "correctIndex": 0,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "Back to the Future follows teenager Marty McFly as he accidentally travels from 1985 to 1955.",
+    "detailedExplanation": "Back to the Future, directed by Robert Zemeckis, tells the story of teenager Marty McFly who accidentally travels back in time from 1985 to 1955 using a time machine built by eccentric scientist Doc Brown. The film became a beloved classic and launched a successful trilogy, combining science fiction elements with comedy and adventure.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Back_to_the_Future",
+    "citationTitle": "Wikipedia: Back to the Future"
+  },
+  {
+    "id": "1cf63ab2-9485-4dd0-92f0-424c73f17508",
+    "text": "In which 1979 science fiction horror film does the tagline 'In space no one can hear you scream' appear?",
+    "options": [
+      "Star Trek: The Motion Picture",
+      "Alien",
+      "The Black Hole",
+      "Moonraker"
+    ],
+    "correctIndex": 1,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "The famous tagline 'In space no one can hear you scream' belongs to the 1979 film Alien.",
+    "detailedExplanation": "Alien, directed by Ridley Scott, is a science fiction horror film that follows the crew of a commercial space vessel who encounter a deadly alien creature. The film's marketing campaign featured the memorable tagline 'In space no one can hear you scream,' which perfectly captured the film's claustrophobic and terrifying atmosphere. The movie launched a successful franchise and is considered a masterpiece of both science fiction and horror cinema.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Alien_(film)",
+    "citationTitle": "Wikipedia: Alien (film)"
+  },
+  {
+    "id": "0b1ba452-4229-40bf-b04c-f6452d91dab6",
+    "text": "Which actor played the role of Spock in the original Star Trek films?",
+    "options": [
+      "William Shatner",
+      "Leonard Nimoy",
+      "DeForest Kelley",
+      "James Doohan"
+    ],
+    "correctIndex": 1,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "Leonard Nimoy portrayed the logical Vulcan character Spock in the original Star Trek films and TV series.",
+    "detailedExplanation": "Leonard Nimoy played the iconic half-human, half-Vulcan character Spock in both the original Star Trek television series and the subsequent film series. Nimoy's portrayal of the logical, emotionally-restrained Spock became one of the most beloved characters in science fiction, and he continued playing the role for nearly five decades until his death in 2015.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Spock",
+    "citationTitle": "Wikipedia: Spock"
+  },
+  {
+    "id": "120adb53-5965-4d05-948f-8d1da4eac34d",
+    "text": "In which 1993 Steven Spielberg film are dinosaurs brought back to life using genetic engineering?",
+    "options": [
+      "Jurassic Park",
+      "The Lost World",
+      "Congo",
+      "Schindler's List"
+    ],
+    "correctIndex": 0,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "Jurassic Park features dinosaurs cloned from ancient DNA found in mosquitoes preserved in amber.",
+    "detailedExplanation": "Jurassic Park, directed by Steven Spielberg and based on Michael Crichton's novel, tells the story of a theme park populated with cloned dinosaurs created through genetic engineering. The film revolutionized cinema with its groundbreaking use of computer-generated imagery (CGI) to bring the dinosaurs to life, and it became one of the highest-grossing films of all time, spawning multiple sequels.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Jurassic_Park_(film)",
+    "citationTitle": "Wikipedia: Jurassic Park (film)"
+  },
+  {
+    "id": "4089f382-16e0-4451-87a1-dd7c913b4268",
+    "text": "Which 1968 science fiction film features astronauts discovering a planet where apes rule over humans?",
+    "options": [
+      "2001: A Space Odyssey",
+      "Barbarella",
+      "Planet of the Apes",
+      "Fantastic Voyage"
+    ],
+    "correctIndex": 2,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "Planet of the Apes features astronaut Taylor discovering a world dominated by intelligent apes.",
+    "detailedExplanation": "Planet of the Apes, starring Charlton Heston, follows astronaut George Taylor who crashes on a mysterious planet where intelligent apes are the dominant species and humans are primitive creatures. The film, based on Pierre Boulle's novel, became famous for its social commentary, makeup effects, and shocking twist ending. It launched a successful franchise spanning multiple films, TV series, and reboots.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Planet_of_the_Apes_(1968_film)",
+    "citationTitle": "Wikipedia: Planet of the Apes (1968 film)"
+  },
+  {
+    "id": "bdc2a9ef-a418-4d67-ae91-7e6f718b7e97",
+    "text": "Which 1977 science fiction film features Richard Dreyfuss as a man obsessed with UFOs and Devil's Tower?",
+    "options": [
+      "Star Wars",
+      "Close Encounters of the Third Kind",
+      "Superman",
+      "The Spy Who Loved Me"
+    ],
+    "correctIndex": 1,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "Close Encounters of the Third Kind stars Richard Dreyfuss as Roy Neary, who becomes obsessed with UFOs after a close encounter.",
+    "detailedExplanation": "Close Encounters of the Third Kind, directed by Steven Spielberg, stars Richard Dreyfuss as Roy Neary, an ordinary man whose life is changed after witnessing a UFO. He becomes obsessed with visions of Devil's Tower in Wyoming, ultimately leading to a peaceful first contact with extraterrestrial visitors. The film was praised for its realistic portrayal of UFO encounters and its optimistic view of alien contact, contrasting with many other science fiction films of the era.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Close_Encounters_of_the_Third_Kind",
+    "citationTitle": "Wikipedia: Close Encounters of the Third Kind"
+  },
+  {
+    "id": "7a81fbfd-fa85-4dc7-a365-916e962e6fae",
+    "text": "Which 1985 science fiction film features Michael J. Fox as Marty McFly but focuses on his adventures in the 2015 timeline?",
+    "options": [
+      "Back to the Future",
+      "Back to the Future Part II",
+      "Back to the Future Part III",
+      "Teen Wolf"
+    ],
+    "correctIndex": 1,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "Back to the Future Part II is the 1989 sequel that prominently features the 2015 timeline.",
+    "detailedExplanation": "Back to the Future Part II, released in 1989, is the sequel that takes Marty McFly and Doc Brown to the year 2015, where they encounter flying cars, hoverboards, and futuristic technology. The film is famous for its predictions about future technology, some of which came true while others remained fantasy. The 2015 scenes were highly anticipated when the actual year 2015 arrived, leading to widespread comparisons between the film's predictions and reality.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Back_to_the_Future_Part_II",
+    "citationTitle": "Wikipedia: Back to the Future Part II"
+  },
+  {
+    "id": "b2b687ff-485f-4041-a0db-b7854f6fbfe5",
+    "text": "In the 1986 film 'Aliens', what is the name of the young girl that Ripley discovers on the planet LV-426?",
+    "options": [
+      "Rebecca",
+      "Amanda",
+      "Newt",
+      "Ellen"
+    ],
+    "correctIndex": 2,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "Newt is the nickname of the young survivor Rebecca Jorden found by Ripley in Aliens.",
+    "detailedExplanation": "In James Cameron's 1986 sequel 'Aliens', Ripley discovers a young girl named Rebecca Jorden, nicknamed 'Newt', who is the sole survivor of the alien attack on the terraforming colony on LV-426. Played by Carrie Henn, Newt becomes a central character in the film and forms a maternal bond with Ripley. The character represents innocence in the face of the alien horror and serves as Ripley's motivation throughout much of the film's action.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Aliens_(film)",
+    "citationTitle": "Wikipedia: Aliens (film)"
+  },
+  {
+    "id": "048ecfd6-2e94-4b24-9656-4e652e51d7c8",
+    "text": "Which 1993 science fiction action film stars Sylvester Stallone as a cop who is cryogenically frozen and awakens in the future?",
+    "options": [
+      "Judge Dredd",
+      "Total Recall",
+      "Demolition Man",
+      "The Fifth Element"
+    ],
+    "correctIndex": 2,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "Demolition Man features Stallone as John Spartan, frozen in 1996 and awakened in 2032.",
+    "detailedExplanation": "Demolition Man is a 1993 science fiction action film starring Sylvester Stallone as police officer John Spartan, who is cryogenically frozen in 1996 as punishment for a mission gone wrong. He is awakened in 2032 in a pacified society to help capture his nemesis Simon Phoenix, played by Wesley Snipes, who has also escaped from cryo-prison. The film is known for its satirical take on political correctness and its prediction of future society, including the famous 'three seashells' bathroom mystery.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Demolition_Man_(film)",
+    "citationTitle": "Wikipedia: Demolition Man (film)"
+  },
+  {
+    "id": "38e70ecd-0d84-4157-82d2-acb6ce51b033",
+    "text": "Which 1996 science fiction disaster film features Will Smith as a fighter pilot battling an alien invasion on Independence Day?",
+    "options": [
+      "Mars Attacks!",
+      "Independence Day",
+      "Men in Black",
+      "Enemy Mine"
+    ],
+    "correctIndex": 1,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "Independence Day is the 1996 film where Will Smith plays Captain Steven Hiller fighting aliens.",
+    "detailedExplanation": "Independence Day, directed by Roland Emmerich and released in 1996, features Will Smith as Captain Steven Hiller, a Marine fighter pilot who becomes one of humanity's key defenders against a massive alien invasion that begins on July 4th. The film was a massive box office success and became famous for its spectacular destruction sequences, including the iconic scene of the White House being destroyed. Smith's charismatic performance helped establish him as a major action star and the film became a summer blockbuster phenomenon.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Independence_Day_(1996_film)",
+    "citationTitle": "Wikipedia: Independence Day (1996 film)"
+  }
+]

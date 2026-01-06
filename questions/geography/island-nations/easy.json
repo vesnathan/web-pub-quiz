@@ -321,5 +321,22 @@
     "detailedExplanation": "The Philippines is an archipelagic country in Southeast Asia consisting of approximately 7,641 islands, though only about 2,000 are inhabited. The country is divided into three main geographical regions: Luzon, Visayas, and Mindanao. Located in the western Pacific Ocean, the Philippines is bounded by the South China Sea to the west and the Philippine Sea to the east. Manila is the capital city, while Quezon City is the most populous. The country has a rich cultural heritage influenced by indigenous, Spanish, American, and other Asian cultures.",
     "citationUrl": "https://en.wikipedia.org/wiki/Philippines",
     "citationTitle": "Wikipedia: Philippines"
+  },
+  {
+    "id": "ff5e8d71-8cc8-4468-8c36-333f941fb483",
+    "text": "Which island nation is located southeast of India and is famous for its tea production?",
+    "options": [
+      "Maldives",
+      "Sri Lanka",
+      "Madagascar",
+      "Cyprus"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "Sri Lanka is the island nation southeast of India known worldwide for its high-quality tea production.",
+    "detailedExplanation": "Sri Lanka, formerly known as Ceylon, is an island nation located in the Indian Ocean, southeast of the Indian subcontinent. The country is renowned globally for its tea industry, which was established during British colonial rule in the 19th century. Sri Lankan tea, particularly from the hill country regions like Nuwara Eliya and Kandy, is considered among the finest in the world and forms a major part of the country's economy and cultural identity.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Sri_Lanka",
+    "citationTitle": "Wikipedia: Sri Lanka"
   }
 ]

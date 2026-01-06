@@ -1,0 +1,342 @@
+[
+  {
+    "id": "27cfd6e0-0ecd-43b2-9a32-0222d91f044d",
+    "text": "Which country is famous for producing Gouda cheese?",
+    "options": [
+      "Switzerland",
+      "Netherlands",
+      "France",
+      "Italy"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Gouda cheese originates from the Netherlands.",
+    "detailedExplanation": "Gouda is a Dutch cheese named after the city of Gouda in the Netherlands. It has been produced in the Netherlands since the 12th century and is one of the most popular cheeses worldwide. The cheese is traditionally made from cow's milk and is known for its sweet, nutty flavor that becomes more pronounced as it ages.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Gouda_cheese",
+    "citationTitle": "Wikipedia: Gouda cheese"
+  },
+  {
+    "id": "f59a5c6f-b31a-4b1c-884f-503ede715530",
+    "text": "What gives blue cheese its distinctive blue-green veins?",
+    "options": [
+      "Food coloring",
+      "Mold cultures",
+      "Mineral deposits",
+      "Herb extracts"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Blue cheese gets its characteristic veins from Penicillium mold cultures.",
+    "detailedExplanation": "Blue cheese varieties like Roquefort, Stilton, and Gorgonzola get their distinctive blue-green veining from Penicillium roqueforti or Penicillium glaucum mold cultures that are added during the cheese-making process. These molds are safe to eat and give the cheese its sharp, tangy flavor and characteristic appearance.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Blue_cheese",
+    "citationTitle": "Wikipedia: Blue cheese"
+  },
+  {
+    "id": "a8617561-7a75-40cf-8b62-313076e385f2",
+    "text": "What type of milk is traditional mozzarella cheese made from?",
+    "options": [
+      "Cow's milk",
+      "Goat's milk",
+      "Water buffalo milk",
+      "Sheep's milk"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Traditional mozzarella is made from water buffalo milk, though cow's milk versions are now common.",
+    "detailedExplanation": "Authentic mozzarella, particularly Mozzarella di Bufala, is traditionally made from the milk of Italian Mediterranean water buffalo. This type of mozzarella is considered superior in flavor and texture. However, most commercial mozzarella today is made from cow's milk (Fior di Latte) as it's more readily available and less expensive to produce.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Mozzarella",
+    "citationTitle": "Wikipedia: Mozzarella"
+  },
+  {
+    "id": "55b7473d-0405-4d4b-bd8d-0599f6f0b537",
+    "text": "Which French cheese is known as 'The King of Cheeses'?",
+    "options": [
+      "Camembert",
+      "Brie",
+      "Roquefort",
+      "Comté"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Roquefort is often called 'The King of Cheeses' and has protected designation status.",
+    "detailedExplanation": "Roquefort is a blue cheese made from sheep's milk in the caves of Roquefort-sur-Soulzon in southern France. It has been called 'The King of Cheeses' due to its intense flavor and prestigious reputation. Roquefort has Appellation d'Origine Contrôlée (AOC) protection, meaning it can only be made in specific caves using traditional methods with Lacaune sheep's milk.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Roquefort",
+    "citationTitle": "Wikipedia: Roquefort"
+  },
+  {
+    "id": "a8d25455-f931-4e7c-9769-4db2d7fece4b",
+    "text": "What is the main characteristic that defines a 'hard cheese'?",
+    "options": [
+      "Age",
+      "Color",
+      "Moisture content",
+      "Fat content"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Hard cheeses are defined by their low moisture content, typically under 56%.",
+    "detailedExplanation": "Hard cheeses like Parmesan, aged Cheddar, and Pecorino Romano are classified by their low moisture content, typically containing less than 56% moisture. This low moisture content is achieved through longer aging processes and specific production techniques. The reduced moisture makes these cheeses firmer in texture, gives them longer shelf life, and often intensifies their flavors.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Types_of_cheese",
+    "citationTitle": "Wikipedia: Types of cheese"
+  },
+  {
+    "id": "cdd77754-2989-479a-ab60-9faffcfeaf2b",
+    "text": "Which cheese is traditionally used to make a classic Greek salad?",
+    "options": [
+      "Halloumi",
+      "Kasseri",
+      "Feta",
+      "Mizithra"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Feta cheese is the traditional cheese used in Greek salad (horiatiki).",
+    "detailedExplanation": "Feta is a brined white cheese traditionally made from sheep's milk or a mixture of sheep and goat's milk. It's an essential ingredient in Greek horiatiki salad, along with tomatoes, cucumbers, onions, olives, and olive oil. Feta has Protected Designation of Origin status in the EU and must be produced in specific regions of Greece using traditional methods.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Feta",
+    "citationTitle": "Wikipedia: Feta"
+  },
+  {
+    "id": "eb345d76-bbc7-4b69-9552-0a75046edef3",
+    "text": "What gives Cheddar cheese its characteristic orange color in some varieties?",
+    "options": [
+      "Natural aging",
+      "Carrot juice",
+      "Annatto",
+      "Paprika"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Annatto, a natural coloring agent from the achiote plant, gives some Cheddar its orange color.",
+    "detailedExplanation": "Many commercial Cheddar cheeses get their orange color from annatto, a natural food coloring derived from the seeds of the achiote plant. This coloring was originally added to standardize the appearance of cheese, as the natural color of Cheddar varies depending on the cow's diet and the season. White Cheddar is simply Cheddar made without added coloring.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Cheddar_cheese",
+    "citationTitle": "Wikipedia: Cheddar cheese"
+  },
+  {
+    "id": "b8c71ad8-31cf-4316-bd21-226cba49fc92",
+    "text": "What is the white, fuzzy rind on Camembert and Brie cheese made of?",
+    "options": [
+      "Cotton fibers",
+      "Bread crumbs",
+      "White mold",
+      "Powdered milk"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "The white rind is made of Penicillium candidum, a white mold that's safe to eat.",
+    "detailedExplanation": "The distinctive white, bloomy rind on Camembert and Brie cheeses is formed by Penicillium candidum, a white mold that grows on the surface during the aging process. This mold not only creates the characteristic appearance but also helps ripen the cheese from the outside in, creating the creamy texture beneath the rind. The rind is completely edible and adds to the overall flavor profile.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Camembert",
+    "citationTitle": "Wikipedia: Camembert"
+  },
+  {
+    "id": "0582dc49-89c3-41d8-b162-d63785f75f3c",
+    "text": "Which cheese is traditionally grated over pasta dishes and is known as 'The King of Italian Cheeses'?",
+    "options": [
+      "Parmesan",
+      "Romano",
+      "Asiago",
+      "Provolone"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Parmesan (Parmigiano-Reggiano) is the traditional Italian cheese grated over pasta.",
+    "detailedExplanation": "Parmigiano-Reggiano, commonly known as Parmesan, is a hard, aged Italian cheese that has been produced for over 800 years. Made from cow's milk in specific regions of Italy, it's aged for a minimum of 12 months and often much longer. Its nutty, complex flavor and granular texture make it perfect for grating over pasta dishes, and it's often called 'The King of Italian Cheeses' due to its prestige and culinary importance.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Parmigiano-Reggiano",
+    "citationTitle": "Wikipedia: Parmigiano-Reggiano"
+  },
+  {
+    "id": "587b4192-8ea4-4965-a968-592a41bab467",
+    "text": "What shape is traditional Swiss Emmental cheese most famous for having?",
+    "options": [
+      "Holes",
+      "Triangular wedges",
+      "Braided ropes",
+      "Square blocks"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Emmental cheese is famous for its characteristic holes or 'eyes'.",
+    "detailedExplanation": "Swiss Emmental cheese is instantly recognizable by its large, round holes called 'eyes.' These holes are created during the cheese-making process by bacteria that produce carbon dioxide gas, which forms bubbles in the cheese as it ages. The holes can range from the size of a cherry to a walnut. This distinctive appearance has made Emmental the stereotypical 'Swiss cheese' in popular culture and cartoons.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Emmental_cheese",
+    "citationTitle": "Wikipedia: Emmental cheese"
+  },
+  {
+    "id": "fbb51880-b060-4e6c-a6c5-8360d4d6989e",
+    "text": "Which Mexican cheese is commonly used in quesadillas and melts easily?",
+    "options": [
+      "Cotija",
+      "Oaxaca",
+      "Queso Fresco",
+      "Manchego"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Oaxaca cheese is the traditional Mexican melting cheese used in quesadillas.",
+    "detailedExplanation": "Oaxaca cheese, named after the Mexican state where it originated, is a white, semi-hard cheese with excellent melting properties. It's made using a pasta filata process similar to mozzarella, giving it a stringy texture when melted. This makes it perfect for quesadillas, where it creates the desired stretchy, gooey texture. The cheese has a mild, creamy flavor and is often sold wound into balls or braided.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Oaxaca_cheese",
+    "citationTitle": "Wikipedia: Oaxaca cheese"
+  },
+  {
+    "id": "2ee17545-9734-47cc-a1af-41bd4822ba07",
+    "text": "Which English cheese shares its name with a famous gorge and is traditionally aged in caves?",
+    "options": [
+      "Wensleydale",
+      "Cheddar",
+      "Stilton",
+      "Cheshire"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Stilton cheese is named after the village of Stilton and is traditionally aged in caves.",
+    "detailedExplanation": "Stilton is a famous English blue cheese that takes its name from the village of Stilton in Cambridgeshire, though it's actually made in the counties of Derbyshire, Leicestershire, and Nottinghamshire. Traditional Stilton is aged in natural caves or cave-like conditions that provide the perfect humidity and temperature for developing its characteristic blue veining and creamy texture. It has Protected Designation of Origin status and must meet strict criteria to be called authentic Stilton.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Stilton_cheese",
+    "citationTitle": "Wikipedia: Stilton cheese"
+  },
+  {
+    "id": "ad3d0302-a651-4537-8d88-f6adb1c6891e",
+    "text": "What is the main ingredient that gives Greek feta cheese its distinctive tangy flavor?",
+    "options": [
+      "Goat milk",
+      "Sheep milk",
+      "Brine solution",
+      "Herb coating"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Feta's tangy flavor comes from being stored in brine solution.",
+    "detailedExplanation": "While feta cheese is traditionally made from sheep's milk or a mixture of sheep and goat milk, its distinctive sharp, tangy flavor primarily comes from being aged and stored in a brine solution (salt water). This brining process not only preserves the cheese but also gives it its characteristic salty, acidic taste and crumbly yet creamy texture. The brine also helps maintain the cheese's white color and prevents it from developing a rind.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Feta",
+    "citationTitle": "Wikipedia: Feta"
+  },
+  {
+    "id": "390c2ec2-acce-4d9f-924c-d120adb1a110",
+    "text": "Which cheese is traditionally used to make fondue along with Emmental?",
+    "options": [
+      "Gruyère",
+      "Comté",
+      "Beaufort",
+      "Raclette"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Gruyère is the traditional cheese paired with Emmental in Swiss fondue.",
+    "detailedExplanation": "Gruyère is a hard Swiss cheese that, along with Emmental, forms the classic combination for traditional Swiss fondue. Named after the town of Gruyères in Switzerland, this cheese has a rich, nutty flavor that becomes more complex with age. When melted with Emmental, white wine, and other ingredients, it creates the smooth, creamy texture that makes fondue perfect for dipping bread, vegetables, and other foods.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Gruy%C3%A8re_cheese",
+    "citationTitle": "Wikipedia: Gruyère cheese"
+  },
+  {
+    "id": "221ca6e8-2860-4d24-9c9f-7a26a5bd77d3",
+    "text": "Which soft French cheese is traditionally served baked in its wooden box?",
+    "options": [
+      "Camembert",
+      "Chaource",
+      "Coulommiers",
+      "Pont-l'Évêque"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Camembert is famously baked in its traditional wooden box.",
+    "detailedExplanation": "Camembert de Normandie is a soft French cheese that comes in a distinctive round wooden box. This cheese is often baked whole in its wooden container, which not only serves as packaging but also as a cooking vessel. When baked, the cheese becomes gloriously gooey and molten inside while maintaining its shape. The wooden box is made from thin poplar wood and is an integral part of the Camembert tradition, helping to ripen the cheese and later serving as an oven-safe container.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Camembert",
+    "citationTitle": "Wikipedia: Camembert"
+  },
+  {
+    "id": "cc468895-3cd3-4c44-924d-01b87d12e066",
+    "text": "What is the minimum aging time required for authentic Parmigiano-Reggiano cheese?",
+    "options": [
+      "6 months",
+      "12 months",
+      "18 months",
+      "24 months"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Authentic Parmigiano-Reggiano must be aged for a minimum of 12 months.",
+    "detailedExplanation": "According to the strict regulations governing Parmigiano-Reggiano production, this Italian cheese must be aged for a minimum of 12 months before it can be sold. However, many wheels are aged much longer - 18, 24, or even 36 months - to develop deeper, more complex flavors. During aging, the cheese develops its characteristic granular texture and nutty taste. Each wheel is regularly inspected by experts who tap it with hammers to check the internal structure by sound.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Parmigiano-Reggiano",
+    "citationTitle": "Wikipedia: Parmigiano-Reggiano"
+  },
+  {
+    "id": "a22bf882-80c5-457c-b37c-5e3012e059c0",
+    "text": "Which Italian cheese is traditionally made by stretching and kneading hot curds in a process called 'pasta filata'?",
+    "options": [
+      "Ricotta",
+      "Provolone",
+      "Gorgonzola",
+      "Pecorino"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Provolone is made using the pasta filata (stretched curd) method where hot curds are kneaded and stretched.",
+    "detailedExplanation": "Provolone belongs to the pasta filata family of cheeses, which means 'spun paste' in Italian. This traditional cheese-making technique involves heating the curds and then stretching and kneading them while hot to develop the characteristic smooth, elastic texture. Other cheeses made this way include mozzarella and scamorza, but provolone is particularly notable for its aging process and distinctive pear or sausage shape.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Provolone",
+    "citationTitle": "Wikipedia: Provolone"
+  },
+  {
+    "id": "209530cb-e7f5-4806-bf71-1753aff485b0",
+    "text": "What is the name of the hard, granular cheese from Italy that is often used as an alternative to Parmesan and is made from sheep's milk?",
+    "options": [
+      "Pecorino Romano",
+      "Asiago",
+      "Taleggio",
+      "Mascarpone"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Pecorino Romano is a hard, salty cheese made from sheep's milk and commonly used as a Parmesan alternative.",
+    "detailedExplanation": "Pecorino Romano is one of Italy's oldest cheeses, dating back over 2,000 years. Made exclusively from sheep's milk (pecora means sheep in Italian), it has a sharp, salty flavor that's more intense than Parmesan. It's traditionally grated over pasta dishes, particularly in Roman cuisine, and has Protected Designation of Origin status. The cheese is aged for at least 5 months for table cheese and 8 months for grating cheese.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Pecorino_Romano",
+    "citationTitle": "Wikipedia: Pecorino Romano"
+  },
+  {
+    "id": "c740c459-3ade-478e-868f-0179b5eb93ee",
+    "text": "Which Welsh cheese is traditionally made with ale or beer and has a distinctive orange-red color?",
+    "options": [
+      "Caerphilly",
+      "Red Leicester",
+      "Red Dragon",
+      "Wensleydale"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Red Dragon is a Welsh cheese made with ale and mustard seed, giving it its characteristic orange-red color and spicy flavor.",
+    "detailedExplanation": "Red Dragon is a relatively modern Welsh cheese that combines traditional cheese-making with ale and wholegrain mustard seeds. The addition of ale not only contributes to its distinctive orange-red appearance but also adds complexity to its flavor profile. This cheese represents the innovation in British cheese-making, where traditional methods are combined with local ingredients like Welsh ale to create unique regional specialties.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Red_Dragon_cheese",
+    "citationTitle": "Wikipedia: Red Dragon cheese"
+  },
+  {
+    "id": "4929ed57-b00d-4a16-98fa-9c8ba84286e4",
+    "text": "What is the traditional method used to make cottage cheese that gives it its characteristic lumpy texture?",
+    "options": [
+      "Pressing under weights",
+      "Acid or enzyme coagulation",
+      "Smoking over wood chips",
+      "Aging in salt brine"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Cottage cheese is made by adding acid or enzymes to milk, causing it to coagulate and form the characteristic lumpy curds.",
+    "detailedExplanation": "Cottage cheese is made through a process called acid coagulation, where either natural bacterial fermentation or direct addition of acid (like vinegar or lemon juice) causes the milk proteins to clump together, forming curds. Unlike many other cheeses, cottage cheese curds are not pressed together, which is why it maintains its distinctive lumpy, granular texture. The curds are typically washed to remove excess acidity, resulting in the mild, fresh taste that cottage cheese is known for.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Cottage_cheese",
+    "citationTitle": "Wikipedia: Cottage cheese"
+  }
+]

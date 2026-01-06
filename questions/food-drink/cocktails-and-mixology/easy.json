@@ -1,0 +1,342 @@
+[
+  {
+    "id": "a7a96e05-100a-4d50-9150-b65e8bb4876c",
+    "text": "What spirit forms the base of a classic Mojito cocktail?",
+    "options": [
+      "Rum",
+      "Vodka",
+      "Gin",
+      "Tequila"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "A Mojito is traditionally made with white rum as its base spirit.",
+    "detailedExplanation": "The Mojito is a traditional Cuban highball cocktail that consists of five ingredients: white rum, sugar, lime juice, soda water, and mint. The cocktail has its origins in Cuba and became internationally popular, particularly in the United States. The white rum provides the alcoholic foundation while the other ingredients create the refreshing, minty flavor profile that makes this drink so beloved.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Mojito",
+    "citationTitle": "Wikipedia: Mojito"
+  },
+  {
+    "id": "9689acda-469b-469c-8ac1-9be9a49f357c",
+    "text": "Which garnish is traditionally served with a Bloody Mary cocktail?",
+    "options": [
+      "Lime wheel",
+      "Celery stalk",
+      "Orange peel",
+      "Maraschino cherry"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "A celery stalk is the classic garnish for a Bloody Mary cocktail.",
+    "detailedExplanation": "The Bloody Mary is a cocktail containing vodka, tomato juice, and other spices and flavorings including Worcestershire sauce, hot sauces, garlic, herbs, horseradish, celery, olives, salt, black pepper, lemon juice, lime juice and/or celery salt. The celery stalk garnish not only adds visual appeal but also serves as an edible stirrer and provides a crisp, fresh contrast to the savory cocktail.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Bloody_Mary_(cocktail)",
+    "citationTitle": "Wikipedia: Bloody Mary (cocktail)"
+  },
+  {
+    "id": "7c63ff2e-6c76-4bfe-aec3-f84a39bb48c4",
+    "text": "What does the term 'on the rocks' mean in cocktail terminology?",
+    "options": [
+      "Served hot",
+      "Served with ice cubes",
+      "Served without alcohol",
+      "Served in a shot glass"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "'On the rocks' means a drink is served over ice cubes.",
+    "detailedExplanation": "In bartending and cocktail terminology, 'on the rocks' refers to serving a beverage poured over ice cubes in a glass, typically an old-fashioned or rocks glass. This method chills the drink and often slightly dilutes it as the ice melts, which can mellow the flavor of spirits. The term contrasts with 'neat' (no ice) or 'up' (chilled and strained, served without ice in the final glass).",
+    "citationUrl": "https://en.wikipedia.org/wiki/Bartending_terminology",
+    "citationTitle": "Wikipedia: Bartending terminology"
+  },
+  {
+    "id": "eddba0cd-5ec7-4309-9d07-e5369be48072",
+    "text": "Which cocktail is known as the 'King of Cocktails'?",
+    "options": [
+      "Old Fashioned",
+      "Martini",
+      "Manhattan",
+      "Negroni"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "The Martini is often referred to as the 'King of Cocktails' due to its iconic status.",
+    "detailedExplanation": "The Martini has earned the title 'King of Cocktails' due to its legendary status in cocktail culture, its association with sophistication and elegance, and its prominence in popular culture through films, literature, and celebrity endorsements. Made primarily with gin and vermouth, and garnished with an olive or lemon twist, the Martini has become synonymous with classic cocktail culture and remains one of the most recognizable drinks worldwide.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Martini_(cocktail)",
+    "citationTitle": "Wikipedia: Martini (cocktail)"
+  },
+  {
+    "id": "31feb1fa-9f04-4be0-ae15-6f2e1d01f50b",
+    "text": "What tool is primarily used to muddle ingredients in cocktail making?",
+    "options": [
+      "Jigger",
+      "Muddler",
+      "Strainer",
+      "Shaker"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "A muddler is the bartending tool specifically designed for mashing or 'muddling' ingredients.",
+    "detailedExplanation": "A muddler is a bartender's tool, used like a pestle to mash or muddle ingredients in the bottom of a glass or cocktail shaker. It's typically made of wood, plastic, or stainless steel and resembles a small baseball bat. Muddling is essential for cocktails like the Mojito (to release mint oils), Old Fashioned (to break down sugar and bitters), and Caipirinha (to extract lime juice and oils). The process releases essential oils and flavors from herbs, fruits, and spices.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Muddler",
+    "citationTitle": "Wikipedia: Muddler"
+  },
+  {
+    "id": "d38c3ed8-eaf5-4141-8460-31133acb7578",
+    "text": "Which ingredient gives a Piña Colada its creamy white color?",
+    "options": [
+      "Milk",
+      "Coconut cream",
+      "Heavy cream",
+      "Vanilla ice cream"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Coconut cream is the ingredient that gives a Piña Colada its characteristic creamy white appearance.",
+    "detailedExplanation": "The Piña Colada is a cocktail made with rum, coconut cream, and pineapple juice, usually served either blended or shaken with ice. The coconut cream, which is the thick, rich liquid extracted from mature coconut meat, provides both the creamy texture and the distinctive white color that characterizes this tropical cocktail. The drink originated in Puerto Rico and became the country's national drink in 1978.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Pi%C3%B1a_colada",
+    "citationTitle": "Wikipedia: Piña colada"
+  },
+  {
+    "id": "8c8e2869-a13c-4933-b446-5d0b7ff79876",
+    "text": "What is the main difference between a Margarita served 'up' versus 'on the rocks'?",
+    "options": [
+      "Different tequila type",
+      "Ice presentation",
+      "Salt rim or no salt",
+      "Lime versus lemon"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "The difference is in ice presentation - 'up' means served without ice in a chilled glass, while 'on the rocks' means served over ice.",
+    "detailedExplanation": "When a Margarita is served 'up', it means the cocktail is shaken with ice, then strained and served in a chilled cocktail glass without ice. When served 'on the rocks', the same cocktail is poured over fresh ice cubes, typically in an old-fashioned or rocks glass. Both versions contain the same ingredients (tequila, lime juice, and orange liqueur), but the serving method affects the drink's temperature, dilution rate, and overall drinking experience.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Margarita",
+    "citationTitle": "Wikipedia: Margarita"
+  },
+  {
+    "id": "1cf5f453-0cc6-4a8c-8a23-8b95f59d0e9d",
+    "text": "Which spirit is the base ingredient in a classic Daiquiri?",
+    "options": [
+      "Gin",
+      "Vodka",
+      "Rum",
+      "Whiskey"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Rum is the base spirit in a classic Daiquiri cocktail.",
+    "detailedExplanation": "The Daiquiri is a family of cocktails whose main ingredients are rum, citrus juice (typically lime juice), and sugar or other sweetener. The classic Daiquiri is a simple three-ingredient cocktail that originated in Cuba around the early 1900s. It's typically made with white rum, fresh lime juice, and simple syrup, shaken with ice and served straight up in a cocktail glass. The drink was named after a beach and iron mine near Santiago de Cuba.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Daiquiri",
+    "citationTitle": "Wikipedia: Daiquiri"
+  },
+  {
+    "id": "34a2d14f-bead-4ec3-b827-6eb148b41930",
+    "text": "What color is the classic cocktail Blue Lagoon known for?",
+    "options": [
+      "Green",
+      "Blue",
+      "Red",
+      "Yellow"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "The Blue Lagoon is famous for its distinctive blue color.",
+    "detailedExplanation": "The Blue Lagoon cocktail gets its signature bright blue color from blue curaçao, a blue-colored orange-flavored liqueur. This tropical cocktail typically combines vodka, blue curaçao, and lemonade or pineapple juice, creating a vibrant blue drink that's as visually striking as it is refreshing. The blue color is purely artificial but has made this cocktail a popular choice for poolside parties and tropical-themed events.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Blue_Lagoon_(cocktail)",
+    "citationTitle": "Wikipedia: Blue Lagoon (cocktail)"
+  },
+  {
+    "id": "5af025f6-0ab4-4eb5-a4a1-f31e6dc81adb",
+    "text": "Which glass is traditionally used to serve a Martini?",
+    "options": [
+      "Highball glass",
+      "Martini glass",
+      "Old fashioned glass",
+      "Pint glass"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "A Martini is traditionally served in a martini glass, also known as a cocktail glass.",
+    "detailedExplanation": "The martini glass, with its distinctive triangular bowl and long stem, is the classic vessel for serving a Martini. This V-shaped glass design serves both functional and aesthetic purposes - the wide rim allows for easy garnish placement (olive or lemon twist), the shape concentrates the aromatics, and the long stem prevents the drinker's hand from warming the chilled cocktail. The iconic silhouette of this glass has become synonymous with sophisticated cocktail culture.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Martini_glass",
+    "citationTitle": "Wikipedia: Martini glass"
+  },
+  {
+    "id": "fda9b66b-6af0-471f-8580-2db6aade328b",
+    "text": "What does 'neat' mean when ordering a spirit at a bar?",
+    "options": [
+      "With ice cubes",
+      "With soda water",
+      "Straight from the bottle without ice",
+      "Mixed with vermouth"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Neat means the spirit is served straight from the bottle at room temperature without ice or mixers.",
+    "detailedExplanation": "When you order a spirit 'neat,' you're requesting it be served pure and undiluted, straight from the bottle without any ice, water, or mixers. This serving style is typically used for premium spirits like whiskey, cognac, or aged rum, where the drinker wants to experience the full, unadulterated flavor profile. The spirit is usually served at room temperature in a rocks glass or snifter, allowing the drinker to appreciate the spirit's natural characteristics without any dilution or temperature modification.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Neat_(bartending)",
+    "citationTitle": "Wikipedia: Neat (bartending)"
+  },
+  {
+    "id": "4c5200eb-ff78-4727-9542-be47831124d8",
+    "text": "Which fruit is essential for making a classic Cosmopolitan cocktail?",
+    "options": [
+      "Lime",
+      "Lemon",
+      "Orange",
+      "Cranberry"
+    ],
+    "correctIndex": 3,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Cranberry juice is essential for a Cosmopolitan, giving it its signature pink color.",
+    "detailedExplanation": "The Cosmopolitan cocktail relies on cranberry juice as one of its key ingredients, which gives the drink its characteristic pink hue and tart-sweet flavor profile. This popular cocktail, which gained fame through the TV show 'Sex and the City,' combines vodka, triple sec, cranberry juice, and fresh lime juice. While lime is also used for acidity and balance, it's the cranberry juice that defines the drink's appearance and primary fruit flavor, making it the most essential fruit component.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Cosmopolitan_(cocktail)",
+    "citationTitle": "Wikipedia: Cosmopolitan (cocktail)"
+  },
+  {
+    "id": "93ea1e6f-ef1e-475f-b31b-c8e3a19c3c7e",
+    "text": "What is the primary ingredient that makes a cocktail 'virgin' or alcohol-free?",
+    "options": [
+      "Extra fruit juice",
+      "Removing the alcohol",
+      "Adding more ice",
+      "Using different garnishes"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "A virgin cocktail is made by removing or omitting the alcoholic ingredients.",
+    "detailedExplanation": "A 'virgin' cocktail, also known as a mocktail, is created by eliminating all alcoholic ingredients from the original recipe while maintaining the other flavors and characteristics of the drink. For example, a Virgin Mary is a Bloody Mary without vodka, and a Virgin Piña Colada contains pineapple juice and coconut cream but no rum. These alcohol-free versions allow non-drinkers, designated drivers, or those avoiding alcohol to enjoy cocktail-style beverages with complex flavors and professional presentation.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Mocktail",
+    "citationTitle": "Wikipedia: Mocktail"
+  },
+  {
+    "id": "1d937ed3-c6b4-452c-9eb8-4918f23398d2",
+    "text": "Which measurement tool is commonly used by bartenders to ensure accurate cocktail proportions?",
+    "options": [
+      "Measuring cup",
+      "Jigger",
+      "Tablespoon",
+      "Shot glass"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "A jigger is the standard measuring tool used by bartenders for accurate cocktail proportions.",
+    "detailedExplanation": "The jigger is an essential tool in professional bartending, designed specifically for measuring spirits and other liquid ingredients in cocktails. This double-sided measuring device typically has different volumes on each end (commonly 1 oz and 2 oz, or 1 oz and 1.5 oz), allowing bartenders to create consistent, well-balanced drinks. Unlike improvised measuring tools, jiggers are designed for quick, accurate pours in a busy bar environment and help maintain the precise ratios that make classic cocktails taste as intended.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Jigger_(bartending)",
+    "citationTitle": "Wikipedia: Jigger (bartending)"
+  },
+  {
+    "id": "fa98551c-2914-44f2-80c0-9333abe99f77",
+    "text": "What type of alcohol is tequila made from?",
+    "options": [
+      "Sugarcane",
+      "Potatoes",
+      "Agave plant",
+      "Grain"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Tequila is made from the agave plant, specifically the blue agave.",
+    "detailedExplanation": "Tequila is a distilled spirit made exclusively from the blue agave plant (Agave tequilana), which grows primarily in certain regions of Mexico. The heart of the agave plant, called the piña, is harvested, cooked, fermented, and then distilled to create tequila. By law, authentic tequila must be produced in specific regions of Mexico and contain at least 51% blue agave (though premium tequilas are 100% agave). This gives tequila its distinctive flavor profile and makes it the base for popular cocktails like Margaritas and Palomas.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Tequila",
+    "citationTitle": "Wikipedia: Tequila"
+  },
+  {
+    "id": "459c077c-5c81-4570-be40-3f9d5a3561e0",
+    "text": "Which technique involves gently pouring liquid over the back of a spoon to create layers in a cocktail?",
+    "options": [
+      "Shaking",
+      "Stirring",
+      "Floating",
+      "Straining"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Floating is the technique used to create layered cocktails by pouring liquid over a spoon.",
+    "detailedExplanation": "Floating, also known as layering, is a bartending technique where different liquids are carefully separated into distinct layers within the same glass, creating visually striking cocktails. This is achieved by pouring each subsequent liquid slowly over the back of a bar spoon, which breaks the pour and allows lighter liquids to rest on top of denser ones. The success of this technique depends on the different specific gravities of the liquids used. Famous layered drinks include the B-52 shot and the Black and Tan beer cocktail.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Layered_drink",
+    "citationTitle": "Wikipedia: Layered drink"
+  },
+  {
+    "id": "be475e4d-494f-4a16-9a73-de6fccc6731f",
+    "text": "Which cocktail is traditionally made with whiskey, sweet vermouth, and bitters?",
+    "options": [
+      "Manhattan",
+      "Old Fashioned",
+      "Whiskey Sour",
+      "Sazerac"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "A Manhattan is made with whiskey, sweet vermouth, and bitters, typically garnished with a cherry.",
+    "detailedExplanation": "The Manhattan is one of the classic American cocktails, dating back to the 1870s. It consists of whiskey (traditionally rye whiskey, though bourbon is also common), sweet red vermouth, and Angostura bitters. The drink is stirred with ice and strained into a cocktail glass, then garnished with a maraschino cherry. The Manhattan is considered one of the foundational cocktails that every bartender should know how to make properly.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Manhattan_(cocktail)",
+    "citationTitle": "Wikipedia: Manhattan (cocktail)"
+  },
+  {
+    "id": "b516950f-2fce-4cce-8b16-fd0543dcd067",
+    "text": "What is the name of the foam or froth created on top of cocktails like a Whiskey Sour?",
+    "options": [
+      "Egg white foam",
+      "Cream head",
+      "Milk froth",
+      "Sugar foam"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Egg white foam is created by shaking egg white with the cocktail ingredients, producing a light, creamy foam on top.",
+    "detailedExplanation": "Egg white foam is a classic technique used in cocktails to create a silky, luxurious texture and appearance. When egg white is vigorously shaken with cocktail ingredients, it creates a stable foam that sits on top of the drink. This technique is commonly used in sours like the Whiskey Sour, Pisco Sour, and Gin Fizz. The egg white doesn't add flavor but provides a smooth mouthfeel and an elegant presentation. Modern bartenders often use aquafaba (chickpea liquid) as a vegan alternative.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Cocktail_garnish",
+    "citationTitle": "Wikipedia: Cocktail garnish"
+  },
+  {
+    "id": "b17fd319-04c9-4934-befb-37e5771625b2",
+    "text": "Which Italian bitter liqueur is commonly used in Negroni cocktails?",
+    "options": [
+      "Campari",
+      "Aperol",
+      "Fernet-Branca",
+      "Amaro Montenegro"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Campari is the traditional bitter liqueur used in a Negroni, along with gin and sweet vermouth.",
+    "detailedExplanation": "Campari is a bright red Italian bitter liqueur that serves as one of the three essential ingredients in a classic Negroni cocktail, alongside gin and sweet vermouth. Created in 1860 by Gaspare Campari in Milan, this distinctive aperitif has a complex flavor profile with notes of herbs, spices, and citrus peel. The Negroni was invented in Florence in 1919 and has become one of the most popular classic cocktails worldwide, with Campari's unique bitter and sweet characteristics being irreplaceable in the drink's signature taste.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Negroni",
+    "citationTitle": "Wikipedia: Negroni"
+  },
+  {
+    "id": "4c318fb5-42ff-49ce-936e-6a3028223d76",
+    "text": "What does the cocktail term 'dry' typically refer to when ordering a Martini?",
+    "options": [
+      "Less vermouth",
+      "No ice",
+      "Extra olives",
+      "Room temperature"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "A 'dry' Martini contains less dry vermouth, making the gin more prominent in the cocktail.",
+    "detailedExplanation": "In Martini terminology, 'dry' refers to the amount of dry vermouth used in the cocktail. A standard Martini typically uses a ratio of gin to dry vermouth, but when ordered 'dry,' the bartender uses less vermouth, allowing the gin's flavor to dominate. An 'extra dry' Martini uses even less vermouth, sometimes just a splash or even just rinsing the glass with vermouth. This preference became popular in the mid-20th century as cocktail culture evolved toward stronger, more spirit-forward drinks.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Martini_(cocktail)",
+    "citationTitle": "Wikipedia: Martini (cocktail)"
+  }
+]

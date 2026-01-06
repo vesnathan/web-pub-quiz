@@ -1,0 +1,342 @@
+[
+  {
+    "id": "30e1fd4a-c543-43a9-8b95-8d5f929eb079",
+    "text": "Which Renaissance painter invented the sfumato technique, characterized by subtle gradations of light and shadow without harsh outlines?",
+    "options": [
+      "Leonardo da Vinci",
+      "Michelangelo",
+      "Raphael",
+      "Botticelli"
+    ],
+    "correctIndex": 0,
+    "category": "arts",
+    "difficulty": "hard",
+    "explanation": "Leonardo da Vinci developed the sfumato technique, most famously seen in the Mona Lisa.",
+    "detailedExplanation": "Leonardo da Vinci pioneered the sfumato technique during the High Renaissance, creating paintings with soft, almost imperceptible transitions between colors and tones. This technique eliminated harsh outlines and created a smoky, atmospheric quality that gave his subjects an ethereal appearance. The Mona Lisa remains the most famous example of sfumato, where the subject's enigmatic expression is enhanced by the subtle blending of light and shadow around her face.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Sfumato",
+    "citationTitle": "Wikipedia: Sfumato"
+  },
+  {
+    "id": "97e5c71e-3cb4-4b54-801e-2237f8f37c93",
+    "text": "Which Flemish painter is credited with perfecting the use of oil paint in the early Renaissance, revolutionizing European painting techniques?",
+    "options": [
+      "Rogier van der Weyden",
+      "Jan van Eyck",
+      "Hans Memling",
+      "Petrus Christus"
+    ],
+    "correctIndex": 1,
+    "category": "arts",
+    "difficulty": "hard",
+    "explanation": "Jan van Eyck perfected oil painting techniques in the 15th century, enabling unprecedented detail and luminosity.",
+    "detailedExplanation": "Jan van Eyck, working in the early 15th century, is widely credited with perfecting the oil painting technique that would revolutionize European art. While he didn't invent oil paint, he developed methods of layering thin glazes that created extraordinary luminosity, detail, and color saturation. His masterpiece, the Ghent Altarpiece (completed with his brother Hubert), showcased these innovations and influenced generations of Renaissance painters across Europe.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Jan_van_Eyck",
+    "citationTitle": "Wikipedia: Jan van Eyck"
+  },
+  {
+    "id": "4a985a20-fbb3-4889-bab2-cd081de6180a",
+    "text": "What is the name of the mathematical system developed during the Renaissance to create the illusion of three-dimensional space on a flat surface?",
+    "options": [
+      "Chiaroscuro",
+      "Linear perspective",
+      "Contrapposto",
+      "Trompe-l'oeil"
+    ],
+    "correctIndex": 1,
+    "category": "arts",
+    "difficulty": "hard",
+    "explanation": "Linear perspective, developed by Filippo Brunelleschi, uses mathematical principles to create realistic depth in paintings.",
+    "detailedExplanation": "Linear perspective was a revolutionary mathematical system developed during the early Renaissance, primarily credited to architect Filippo Brunelleschi around 1415. This technique uses a vanishing point and converging lines to create the convincing illusion of three-dimensional depth on a two-dimensional surface. Artists like Masaccio, Piero della Francesca, and later Leonardo da Vinci mastered and refined these principles, fundamentally changing how space was represented in Western art.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Linear_perspective",
+    "citationTitle": "Wikipedia: Linear perspective"
+  },
+  {
+    "id": "2bc113c5-39fc-4a00-9919-34818117e1ca",
+    "text": "Which Renaissance painter was known as 'Il Divino' (The Divine One) and painted the ceiling of the Sistine Chapel?",
+    "options": [
+      "Leonardo da Vinci",
+      "Raphael",
+      "Michelangelo",
+      "Donatello"
+    ],
+    "correctIndex": 2,
+    "category": "arts",
+    "difficulty": "hard",
+    "explanation": "Michelangelo Buonarroti was called 'Il Divino' and painted the famous Sistine Chapel ceiling between 1508-1512.",
+    "detailedExplanation": "Michelangelo Buonarroti earned the nickname 'Il Divino' (The Divine One) due to his extraordinary artistic abilities that his contemporaries considered almost superhuman. Between 1508 and 1512, he painted the ceiling of the Sistine Chapel in Vatican City, creating one of the most famous artistic achievements in Western art. The ceiling features nine scenes from the Book of Genesis, including the iconic 'Creation of Adam,' and required Michelangelo to work in extremely difficult conditions, painting overhead while lying on scaffolding.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Michelangelo",
+    "citationTitle": "Wikipedia: Michelangelo"
+  },
+  {
+    "id": "8dc08e61-8340-44c7-88cf-a7376ade97ba",
+    "text": "Which Venetian Renaissance painter was famous for his revolutionary use of color and is considered the master of the 'Venetian School'?",
+    "options": [
+      "Giovanni Bellini",
+      "Titian",
+      "Tintoretto",
+      "Paolo Veronese"
+    ],
+    "correctIndex": 1,
+    "category": "arts",
+    "difficulty": "hard",
+    "explanation": "Titian (Tiziano Vecelli) was the leading figure of the Venetian School, renowned for his innovative use of color over line.",
+    "detailedExplanation": "Titian (Tiziano Vecelli, c. 1488-1576) dominated Venetian Renaissance painting and fundamentally changed how color was used in art. Unlike Florentine painters who emphasized line and drawing (disegno), Titian prioritized color (colorito), creating paintings with rich, warm tones and loose brushwork that would later influence Baroque and even Impressionist painters. His works like 'Venus of Urbino' and portraits of Emperor Charles V established him as one of Europe's most sought-after artists, defining the Venetian approach to Renaissance art.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Titian",
+    "citationTitle": "Wikipedia: Titian"
+  },
+  {
+    "id": "05aa6bcf-9e41-43fd-ac9a-91a425086cb5",
+    "text": "Which Renaissance painter created 'The Birth of Venus' and was associated with the Medici court in Florence?",
+    "options": [
+      "Piero della Francesca",
+      "Sandro Botticelli",
+      "Andrea Mantegna",
+      "Domenico Ghirlandaio"
+    ],
+    "correctIndex": 1,
+    "category": "arts",
+    "difficulty": "hard",
+    "explanation": "Sandro Botticelli painted 'The Birth of Venus' around 1484-1486 while working under Medici patronage.",
+    "detailedExplanation": "Sandro Botticelli (Alessandro di Mariano di Vanni Filipepi) created 'The Birth of Venus' around 1484-1486, one of the most recognizable paintings of the Renaissance. Working under the patronage of the powerful Medici family in Florence, Botticelli developed a distinctive style characterized by graceful lines, mythological subjects, and a revival of classical themes. His work represented the humanist ideals of the Renaissance, blending Christian and pagan imagery in a way that celebrated both spiritual and earthly beauty.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Sandro_Botticelli",
+    "citationTitle": "Wikipedia: Sandro Botticelli"
+  },
+  {
+    "id": "8139678d-5587-47dc-9f0e-e70d72df4119",
+    "text": "Which Northern Renaissance painter created the complex allegorical work 'The Garden of Earthly Delights'?",
+    "options": [
+      "Albrecht Dürer",
+      "Hieronymus Bosch",
+      "Pieter Bruegel the Elder",
+      "Hans Holbein the Younger"
+    ],
+    "correctIndex": 1,
+    "category": "arts",
+    "difficulty": "hard",
+    "explanation": "Hieronymus Bosch painted this fantastical triptych around 1490-1510, filled with surreal imagery and symbolism.",
+    "detailedExplanation": "Hieronymus Bosch (c. 1450-1516) created 'The Garden of Earthly Delights,' a monumental triptych that remains one of the most enigmatic works of the Northern Renaissance. Painted between 1490-1510, this complex allegorical work depicts humanity's progression from Eden through earthly pleasures to damnation, filled with fantastical creatures and surreal imagery that wouldn't look out of place in 20th-century Surrealist art. Bosch's unique vision combined medieval religious symbolism with Renaissance humanism, creating works that continue to puzzle and fascinate viewers today.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Hieronymus_Bosch",
+    "citationTitle": "Wikipedia: Hieronymus Bosch"
+  },
+  {
+    "id": "6282a8b5-06ca-460a-b8bd-88ba1f8796a9",
+    "text": "Which Renaissance painter died at age 37 but was considered one of the three masters of the High Renaissance alongside Leonardo and Michelangelo?",
+    "options": [
+      "Caravaggio",
+      "Raphael",
+      "Giorgione",
+      "Andrea del Sarto"
+    ],
+    "correctIndex": 1,
+    "category": "arts",
+    "difficulty": "hard",
+    "explanation": "Raphael Sanzio died in 1520 at age 37 but achieved legendary status as the third great master of the High Renaissance.",
+    "detailedExplanation": "Raffaello Sanzio da Urbino, known simply as Raphael (1483-1520), died tragically young at 37 but had already established himself as one of the three supreme masters of the High Renaissance. His work perfectly embodied Renaissance ideals of harmony, grace, and beauty, most notably in his Vatican frescoes including 'The School of Athens.' Despite his brief career, Raphael's influence on Western art was enormous, and his balanced compositions and idealized figures became the standard for academic art training for centuries to come.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Raphael",
+    "citationTitle": "Wikipedia: Raphael"
+  },
+  {
+    "id": "15ecc963-cbf9-4c02-b22e-27c32325c9c1",
+    "text": "Which Renaissance painter was accused of heresy by the Inquisition for including profane elements in his religious painting 'The Wedding Feast at Cana'?",
+    "options": [
+      "Paolo Veronese",
+      "Tintoretto",
+      "Caravaggio",
+      "Parmigianino"
+    ],
+    "correctIndex": 0,
+    "category": "arts",
+    "difficulty": "hard",
+    "explanation": "Paolo Veronese was summoned before the Inquisition in 1573 for including inappropriate secular elements in his religious painting.",
+    "detailedExplanation": "Paolo Veronese (1528-1588) was brought before the Venetian Inquisition in 1573 for his painting originally titled 'The Last Supper.' The religious authorities objected to his inclusion of dogs, dwarfs, German soldiers, and other secular elements they deemed inappropriate for a sacred scene. Rather than alter the painting, Veronese cleverly renamed it 'The Wedding Feast at Cana,' transforming it from a depiction of Christ's final meal to the biblical wedding where Jesus performed his first miracle.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Paolo_Veronese",
+    "citationTitle": "Wikipedia: Paolo Veronese"
+  },
+  {
+    "id": "2fb96395-49e0-4e63-a050-cf42bb6567cb",
+    "text": "Which Renaissance painter served as court artist to Holy Roman Emperor Rudolf II in Prague and was known for his bizarre composite portraits made of fruits, vegetables, and other objects?",
+    "options": [
+      "Hans Holbein the Younger",
+      "Giuseppe Arcimboldo",
+      "Albrecht Altdorfer",
+      "Lucas Cranach the Elder"
+    ],
+    "correctIndex": 1,
+    "category": "arts",
+    "difficulty": "hard",
+    "explanation": "Giuseppe Arcimboldo created fantastical composite portraits using arrangements of objects, animals, and plants while serving Emperor Rudolf II.",
+    "detailedExplanation": "Giuseppe Arcimboldo (1526-1593) was an Italian painter who became famous for his imaginative portrait heads composed entirely of objects such as fruits, vegetables, flowers, fish, and books. He served as court portraitist to Ferdinand I at the Habsburg court in Vienna, and later to Maximilian II and his son Rudolf II at the court in Prague. His most famous works include 'Vertumnus' (a portrait of Rudolf II made of fruits) and his 'Four Seasons' series, where each season is represented by a face composed of seasonal produce.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Giuseppe_Arcimboldo",
+    "citationTitle": "Wikipedia: Giuseppe Arcimboldo"
+  },
+  {
+    "id": "1c21aaa3-e96d-4649-988a-e8825d4e8cc6",
+    "text": "Which Renaissance painter created the first known pure landscape painting without human figures, titled 'Landscape with River Valley'?",
+    "options": [
+      "Albrecht Dürer",
+      "Joachim Patinir",
+      "Albrecht Altdorfer",
+      "Pieter Bruegel the Elder"
+    ],
+    "correctIndex": 2,
+    "category": "arts",
+    "difficulty": "hard",
+    "explanation": "Albrecht Altdorfer painted the first pure landscape without human subjects around 1518-1520, marking a revolutionary moment in art history.",
+    "detailedExplanation": "Albrecht Altdorfer (c.1480-1538), a German painter and leader of the Danube School, created what is considered the first pure landscape painting in Western art history. His 'Landscape with River Valley' (c.1518-1520) broke new ground by presenting nature as the sole subject without any human figures or narrative content. This was revolutionary for the Renaissance period, when landscapes typically served only as backgrounds for religious or mythological scenes. Altdorfer's innovation influenced the development of landscape painting as an independent genre.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Albrecht_Altdorfer",
+    "citationTitle": "Wikipedia: Albrecht Altdorfer"
+  },
+  {
+    "id": "1db73ac7-e622-4f6d-9f91-9285bdc529b3",
+    "text": "Which Renaissance painter's workshop was so prolific that art historians have identified over 2,000 paintings attributed to him and his assistants?",
+    "options": [
+      "Andrea Mantegna",
+      "Pietro Perugino",
+      "Peter Paul Rubens",
+      "Luca Signorelli"
+    ],
+    "correctIndex": 1,
+    "category": "arts",
+    "difficulty": "hard",
+    "explanation": "Pietro Perugino ran one of the most productive workshops of the Renaissance, with over 2,000 works attributed to his studio.",
+    "detailedExplanation": "Pietro Perugino (c.1446-1523) operated one of the largest and most successful painting workshops of the Italian Renaissance. His studio in Florence and later in Perugia was incredibly prolific, producing religious paintings, frescoes, and altarpieces on an almost industrial scale. Modern scholars have catalogued over 2,000 works attributed to Perugino and his workshop, though many show clear signs of assistant participation. His workshop was so well-organized and successful that it served as a model for other Renaissance masters, including his most famous pupil, Raphael.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Pietro_Perugino",
+    "citationTitle": "Wikipedia: Pietro Perugino"
+  },
+  {
+    "id": "8a7ee8da-d40c-42fb-95e2-fffa9ffc7f4d",
+    "text": "Which Renaissance painter was the first to sign his works with a monogram and is considered the founder of the modern concept of artistic copyright?",
+    "options": [
+      "Albrecht Dürer",
+      "Jan van Eyck",
+      "Andrea Mantegna",
+      "Martin Schongauer"
+    ],
+    "correctIndex": 0,
+    "category": "arts",
+    "difficulty": "hard",
+    "explanation": "Albrecht Dürer consistently signed his works with his distinctive 'AD' monogram and even took legal action against counterfeiters of his prints.",
+    "detailedExplanation": "Albrecht Dürer (1471-1528) was revolutionary not only in his artistic techniques but also in establishing the modern concept of artistic ownership and copyright. He was among the first artists to consistently sign his works with a distinctive monogram (a large 'A' containing a smaller 'D'), and he actively protected his intellectual property. Dürer even traveled to Venice in 1506 to pursue legal action against Marcantonio Raimondi, who was creating unauthorized copies of his prints. This legal precedent helped establish the artist's right to control reproduction of their work, laying groundwork for modern copyright law.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Albrecht_D%C3%BCrer",
+    "citationTitle": "Wikipedia: Albrecht Dürer"
+  },
+  {
+    "id": "a8ea26d5-3fe8-455c-80e5-b0b61a5b09bc",
+    "text": "Which Renaissance painter invented a new type of oil painting medium called 'maroufle' and wrote influential treatises on artistic technique?",
+    "options": [
+      "Leon Battista Alberti",
+      "Giorgio Vasari",
+      "Cennino Cennini",
+      "Giovanni Paolo Lomazzo"
+    ],
+    "correctIndex": 1,
+    "category": "arts",
+    "difficulty": "hard",
+    "explanation": "Giorgio Vasari developed innovative painting techniques and wrote 'Lives of the Artists,' one of the most important sources on Renaissance art.",
+    "detailedExplanation": "Giorgio Vasari (1511-1574) was not only a accomplished painter but also an innovative technician and the first true art historian. He developed the maroufle technique, a method of mounting canvas paintings onto walls or panels using special adhesives. More importantly, he wrote 'Le Vite de' più eccellenti pittori, scultori, et architettori' (Lives of the Most Excellent Painters, Sculptors, and Architects) in 1550, which became the foundation text for art history. Vasari is also credited with coining the term 'Renaissance' (rinascita) to describe the artistic rebirth of his era.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Giorgio_Vasari",
+    "citationTitle": "Wikipedia: Giorgio Vasari"
+  },
+  {
+    "id": "56db2f7f-8ab3-439b-969e-d8eda5aef9cf",
+    "text": "Which Renaissance painter was known as 'Il Sodoma' and created controversial homoerotic undertones in religious frescoes that scandalized Church authorities?",
+    "options": [
+      "Giovanni Antonio Bazzi",
+      "Rosso Fiorentino",
+      "Pontormo",
+      "Parmigianino"
+    ],
+    "correctIndex": 0,
+    "category": "arts",
+    "difficulty": "hard",
+    "explanation": "Giovanni Antonio Bazzi, nicknamed 'Il Sodoma,' was known for incorporating sensual and controversial elements into his religious paintings.",
+    "detailedExplanation": "Giovanni Antonio Bazzi (1477-1549), known by the nickname 'Il Sodoma,' was an Italian Renaissance painter whose works often contained subtle homoerotic elements that caused controversy among Church patrons. Despite this, he received major commissions including frescoes in the Abbey of Monte Oliveto Maggiore and Siena's Palazzo Pubblico. His style combined Lombard traditions with Florentine and Roman influences, creating works of great beauty that often pushed the boundaries of acceptable religious art. Bazzi seemed to embrace his provocative nickname, even signing some works with it, showing a defiant artistic personality typical of Renaissance individualism.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Il_Sodoma",
+    "citationTitle": "Wikipedia: Il Sodoma"
+  },
+  {
+    "id": "308d6919-93e8-448a-9785-2e152db96141",
+    "text": "Which Renaissance painter created the earliest known self-portrait in Western art history, painted on a convex mirror?",
+    "options": [
+      "Jan van Eyck",
+      "Parmigianino",
+      "Albrecht Dürer",
+      "Andrea Mantegna"
+    ],
+    "correctIndex": 1,
+    "category": "arts",
+    "difficulty": "hard",
+    "explanation": "Parmigianino painted 'Self-Portrait in a Convex Mirror' around 1524, creating a revolutionary circular painting that replicated the distorted reflection.",
+    "detailedExplanation": "Francesco Mazzola, known as Parmigianino (1503-1540), created one of the most innovative self-portraits in art history with his 'Self-Portrait in a Convex Mirror' (c.1524). Painted when he was about 21, this work shows the artist as reflected in a barber's convex mirror, complete with the characteristic distortion - his hand appears enlarged in the foreground while his face curves away. The painting itself is executed on a convex wooden panel to enhance the illusion. This masterpiece demonstrated both technical virtuosity and conceptual innovation, influencing centuries of artists interested in optical effects and self-representation.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Parmigianino",
+    "citationTitle": "Wikipedia: Parmigianino"
+  },
+  {
+    "id": "fd4664cc-368a-47c5-9cc3-d8ccc03a293f",
+    "text": "Which Renaissance painter was known as 'The Apelles of His Age' and died from plague while working on his final masterpiece 'The Transfiguration'?",
+    "options": [
+      "Raphael",
+      "Caravaggio",
+      "Giorgione",
+      "Andrea del Sarto"
+    ],
+    "correctIndex": 0,
+    "category": "arts",
+    "difficulty": "hard",
+    "explanation": "Raphael was called 'The Apelles of His Age' and died of fever (possibly plague) in 1520 while working on The Transfiguration.",
+    "detailedExplanation": "Raphael Sanzio earned the nickname 'The Apelles of His Age,' referencing the legendary ancient Greek painter Apelles, considered the greatest painter of antiquity. This comparison highlighted Raphael's supreme skill and the reverence his contemporaries held for him. He died suddenly in Rome on April 6, 1520, at the young age of 37, while working on his ambitious altarpiece 'The Transfiguration.' The cause of his death was likely a severe fever, though some historians suggest it may have been plague. His unfinished masterpiece was completed by his workshop and placed above his tomb.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Raphael",
+    "citationTitle": "Wikipedia: Raphael"
+  },
+  {
+    "id": "11720b23-66e2-41d3-a9a5-07919c25dfdc",
+    "text": "Which Renaissance painter developed the 'unione' technique and was the teacher of both Raphael and Pinturicchio?",
+    "options": [
+      "Pietro Perugino",
+      "Andrea Mantegna",
+      "Giovanni Bellini",
+      "Domenico Ghirlandaio"
+    ],
+    "correctIndex": 0,
+    "category": "arts",
+    "difficulty": "hard",
+    "explanation": "Pietro Perugino developed the 'unione' technique and was the master who taught both Raphael and Pinturicchio in his Umbrian workshop.",
+    "detailedExplanation": "Pietro Perugino (c. 1446-1523) was a pivotal figure in the Italian Renaissance who developed the 'unione' technique - a method of harmoniously blending colors and forms to create unified compositions with atmospheric perspective. As the leading painter of the Umbrian school, Perugino operated a highly successful workshop in Perugia where he trained numerous artists. His most famous pupils included Raphael, who learned fundamental techniques of composition and grace from his master, and Pinturicchio, who became renowned for his decorative frescoes. Perugino's influence on Renaissance art extended far beyond his own works through these distinguished students.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Pietro_Perugino",
+    "citationTitle": "Wikipedia: Pietro Perugino"
+  },
+  {
+    "id": "5113732d-4723-4b81-b49b-796f8ef90c31",
+    "text": "Which Renaissance painter created the controversial 'Leda and the Swan' that was later destroyed by order of Madame de Maintenon due to its erotic content?",
+    "options": [
+      "Correggio",
+      "Parmigianino",
+      "Bronzino",
+      "Francesco Melzi"
+    ],
+    "correctIndex": 0,
+    "category": "arts",
+    "difficulty": "hard",
+    "explanation": "Correggio painted 'Leda and the Swan' which was later destroyed in the 18th century by order of Louis XIV's wife due to its sensual content.",
+    "detailedExplanation": "Antonio da Correggio (1489-1534) created a series of mythological paintings for Federico II Gonzaga, including the sensually charged 'Leda and the Swan,' which depicted the Greek myth of Zeus seducing Leda in the form of a swan. The painting was celebrated for its soft, sensual style and innovative use of light and shadow. However, in the 18th century, the work was deemed too erotic and was ordered to be destroyed by Madame de Maintenon, the second wife of Louis XIV. The painting was cut into pieces, though some fragments survived. This destruction represents one of the most notorious cases of artistic censorship in European history.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Correggio",
+    "citationTitle": "Wikipedia: Correggio"
+  },
+  {
+    "id": "2f745b5e-043e-4978-9a7b-6cbe0ce32e53",
+    "text": "Which Renaissance painter was known as 'Andrea senza errori' (Andrew without errors) and created the 'Madonna of the Harpies' altarpiece?",
+    "options": [
+      "Andrea del Sarto",
+      "Andrea Mantegna",
+      "Andrea Palladio",
+      "Andrea Pisano"
+    ],
+    "correctIndex": 0,
+    "category": "arts",
+    "difficulty": "hard",
+    "explanation": "Andrea del Sarto earned the nickname 'senza errori' (without errors) for his technical perfection and painted the famous 'Madonna of the Harpies' in 1517.",
+    "detailedExplanation": "Andrea del Sarto (1486-1530) was a Florentine painter who earned the remarkable nickname 'Andrea senza errori' (Andrew without errors) due to his exceptional technical skill and the apparent flawlessness of his paintings. His contemporaries and art historians praised his perfect draftsmanship, harmonious compositions, and masterful use of sfumato. One of his most celebrated works is the 'Madonna of the Harpies' (1517), an altarpiece that demonstrates his ability to combine High Renaissance classicism with subtle emotional depth. Despite his technical mastery, del Sarto was sometimes criticized for lacking the innovative genius of his contemporaries Leonardo, Michelangelo, and Raphael, though his influence on later Mannerist painters was significant.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Andrea_del_Sarto",
+    "citationTitle": "Wikipedia: Andrea del Sarto"
+  }
+]

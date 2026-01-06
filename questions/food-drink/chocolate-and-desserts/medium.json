@@ -1,0 +1,342 @@
+[
+  {
+    "id": "a914c943-6437-4fec-a769-0afe07448bbb",
+    "text": "What is the main difference between cocoa powder and cacao powder?",
+    "options": [
+      "Cocoa is roasted at higher temperatures",
+      "Cacao is made from fermented beans only",
+      "Cocoa contains added sugar",
+      "Cacao is artificially sweetened"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Cocoa powder is roasted at higher temperatures than cacao powder, which affects flavor and nutritional content.",
+    "detailedExplanation": "Both cocoa and cacao powder come from the same cacao beans, but they undergo different processing methods. Cacao powder is made by cold-pressing raw cacao beans, removing the fat (cacao butter) while keeping the temperature low to preserve nutrients. Cocoa powder is made by roasting the beans at higher temperatures before grinding, which creates a different flavor profile - typically sweeter and less bitter - but reduces some of the nutritional compounds found in raw cacao.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Cocoa_powder",
+    "citationTitle": "Wikipedia: Cocoa powder"
+  },
+  {
+    "id": "9aff984f-bfbc-4c25-aa7b-e67714f172d8",
+    "text": "Which classic French dessert literally translates to 'struck by lightning'?",
+    "options": [
+      "Éclair",
+      "Profiterole",
+      "Croquembouche",
+      "Mille-feuille"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Éclair comes from the French word meaning 'flash of lightning,' possibly because they're eaten quickly.",
+    "detailedExplanation": "The éclair gets its name from the French word for lightning flash. There are different theories about why it received this name - some suggest it's because the glossy icing on top resembles a flash of light, while others believe it's because the pastry is so delicious it disappears as quickly as a lightning flash. This choux pastry filled with cream and topped with icing has been a staple of French patisserie since the 19th century.",
+    "citationUrl": "https://en.wikipedia.org/wiki/%C3%89clair",
+    "citationTitle": "Wikipedia: Éclair"
+  },
+  {
+    "id": "ad6dcd64-c84c-4878-88e1-c5825981ec5e",
+    "text": "What type of chocolate contains the highest percentage of cocoa solids?",
+    "options": [
+      "Dark chocolate",
+      "Raw chocolate",
+      "Baking chocolate",
+      "Couverture chocolate"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Baking chocolate (unsweetened chocolate) contains nearly 100% cocoa solids with no added sugar.",
+    "detailedExplanation": "Baking chocolate, also known as unsweetened or bitter chocolate, contains the highest percentage of cocoa solids - typically 99-100%. It's pure chocolate liquor that has been cooled and solidified, containing no added sugar, milk, or other sweeteners. This makes it extremely bitter and unsuitable for eating on its own, but perfect for baking where sugar and other ingredients are added separately. Even very dark eating chocolate rarely exceeds 90% cocoa solids.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Types_of_chocolate",
+    "citationTitle": "Wikipedia: Types of chocolate"
+  },
+  {
+    "id": "2ba069fb-9780-4c5f-a2cd-0efa0f7c6b78",
+    "text": "Which Italian dessert's name means 'pick me up'?",
+    "options": [
+      "Panna cotta",
+      "Tiramisu",
+      "Gelato",
+      "Affogato"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Tiramisu translates to 'pick me up' or 'cheer me up' in Italian, likely referring to its coffee content.",
+    "detailedExplanation": "Tiramisu literally means 'tirami sù' in Italian, which translates to 'pick me up' or 'cheer me up.' This name likely refers to the dessert's energizing ingredients - espresso coffee and sometimes a splash of liqueur like Marsala wine or coffee liqueur. The dessert consists of coffee-soaked ladyfingers layered with a mixture of mascarpone cheese, eggs, and sugar, then dusted with cocoa powder. It originated in the Veneto region of Italy in the 1960s.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Tiramisu",
+    "citationTitle": "Wikipedia: Tiramisu"
+  },
+  {
+    "id": "9b410bfb-538a-4813-b74a-bcce4d294612",
+    "text": "What gives white chocolate its characteristic color?",
+    "options": [
+      "Cocoa butter without cocoa solids",
+      "Added milk powder",
+      "Bleached cocoa powder",
+      "Vanilla extract"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "White chocolate is made from cocoa butter (the fat from cacao beans) but contains no cocoa solids, which give chocolate its brown color.",
+    "detailedExplanation": "White chocolate gets its ivory color because it contains cocoa butter but no cocoa solids (also called chocolate liquor). Cocoa butter is the natural fat extracted from cacao beans and is pale yellow to white in color. True white chocolate must contain at least 20% cocoa butter by weight, along with milk solids, sugar, and vanilla, but no cocoa solids - which are what give regular chocolate its characteristic brown color and chocolate flavor.",
+    "citationUrl": "https://en.wikipedia.org/wiki/White_chocolate",
+    "citationTitle": "Wikipedia: White chocolate"
+  },
+  {
+    "id": "aaf6c53f-a0df-4549-a283-ad084dee0478",
+    "text": "Which temperature technique is essential for properly working with chocolate to achieve a glossy finish?",
+    "options": [
+      "Caramelizing",
+      "Tempering",
+      "Conching",
+      "Winnowing"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Tempering involves carefully heating and cooling chocolate to create stable crystals for a glossy, smooth finish.",
+    "detailedExplanation": "Tempering is the process of heating and cooling chocolate in a specific sequence to encourage the formation of stable crystal structures. Properly tempered chocolate will have a glossy appearance, smooth texture, and satisfying snap when broken. The process typically involves heating chocolate to around 115°F (46°C), cooling it to 84°F (29°C) while stirring, then gently reheating to 88°F (31°C). Without proper tempering, chocolate can appear dull, streaky, or develop a white 'bloom' on its surface.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Chocolate_tempering",
+    "citationTitle": "Wikipedia: Chocolate tempering"
+  },
+  {
+    "id": "1d644058-30e3-4261-86ca-3729e2cbd2bf",
+    "text": "What is the main ingredient that gives chocolate truffles their characteristic smooth, creamy center?",
+    "options": [
+      "Heavy cream",
+      "Butter",
+      "Egg yolks",
+      "Condensed milk"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Heavy cream is the main ingredient in ganache, which forms the creamy center of chocolate truffles.",
+    "detailedExplanation": "Chocolate truffles get their signature smooth, rich center from ganache, which is made by combining heated heavy cream with chocolate. The cream's high fat content allows it to create a stable emulsion with the chocolate, resulting in the luxurious, velvety texture that makes truffles so desirable. While butter may be added for extra richness, heavy cream is the essential base ingredient.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Chocolate_truffle",
+    "citationTitle": "Wikipedia: Chocolate truffle"
+  },
+  {
+    "id": "7ea1a7f3-a57b-440d-aa61-5534c6cdeabf",
+    "text": "Which country is credited with inventing the chocolate chip cookie in 1938?",
+    "options": [
+      "Belgium",
+      "United States",
+      "Switzerland",
+      "France"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "The chocolate chip cookie was invented by Ruth Wakefield at the Toll House Inn in Massachusetts, USA in 1938.",
+    "detailedExplanation": "The chocolate chip cookie was created by Ruth Wakefield at the Toll House Inn in Whitman, Massachusetts in 1938. She added broken pieces of Nestlé chocolate to her cookie dough, expecting it to melt and create chocolate cookies, but instead created the first chocolate chip cookies. The recipe became so popular that Nestlé eventually bought the rights to use the Toll House name and began producing chocolate chips specifically for baking.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Chocolate_chip_cookie",
+    "citationTitle": "Wikipedia: Chocolate chip cookie"
+  },
+  {
+    "id": "301cdf84-83a4-46ce-828c-410eee1b68bb",
+    "text": "What is the traditional name for the Spanish fried dough pastry often served with thick hot chocolate for dipping?",
+    "options": [
+      "Flan",
+      "Churros",
+      "Polvorones",
+      "Torrijas"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Churros are the traditional Spanish fried dough pastries served with thick hot chocolate for dipping.",
+    "detailedExplanation": "Churros are a beloved Spanish dessert consisting of fried dough pastry, typically star-shaped in cross-section due to being piped through a ridged nozzle. They are traditionally served with a cup of thick, rich hot chocolate for dipping. This combination, known as 'churros con chocolate,' is particularly popular as a breakfast or afternoon snack in Spain and has spread throughout Latin America and other parts of the world.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Churro",
+    "citationTitle": "Wikipedia: Churro"
+  },
+  {
+    "id": "8db02252-147c-4065-85ba-2c9bfd638e6c",
+    "text": "Which ancient civilization is believed to have first consumed chocolate as a bitter beverage over 3,000 years ago?",
+    "options": [
+      "Aztecs",
+      "Mayans",
+      "Incas",
+      "Olmecs"
+    ],
+    "correctIndex": 3,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "The Olmecs are believed to be the first civilization to consume chocolate, dating back over 3,000 years ago.",
+    "detailedExplanation": "Archaeological evidence suggests that the Olmec civilization of ancient Mexico were the first to process cacao beans into chocolate around 1500-400 BCE, making them the earliest known chocolate consumers. They prepared it as a bitter beverage, quite different from modern sweet chocolate. The knowledge and cultivation of cacao was later passed on to other Mesoamerican civilizations including the Mayans and Aztecs, who also valued chocolate highly and incorporated it into their religious and social practices.",
+    "citationUrl": "https://en.wikipedia.org/wiki/History_of_chocolate",
+    "citationTitle": "Wikipedia: History of chocolate"
+  },
+  {
+    "id": "40bbf316-feeb-45d7-9a11-a3b4ce43165d",
+    "text": "What is the key ingredient that distinguishes a soufflé from other desserts and gives it its characteristic rise?",
+    "options": [
+      "Baking powder",
+      "Whipped egg whites",
+      "Yeast",
+      "Cream of tartar"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Whipped egg whites are folded into the base mixture to create the light, airy texture and dramatic rise of a soufflé.",
+    "detailedExplanation": "A soufflé gets its distinctive light, airy texture and impressive rise from whipped egg whites that are carefully folded into a flavored base (such as chocolate, cheese, or fruit). When heated, the air trapped in the egg whites expands, causing the soufflé to puff up dramatically. The technique requires careful folding to preserve the air bubbles and precise timing, as soufflés are notoriously delicate and will collapse if not served immediately after baking.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Souffl%C3%A9",
+    "citationTitle": "Wikipedia: Soufflé"
+  },
+  {
+    "id": "a6a49902-baab-4aef-a861-969b3f9a0eda",
+    "text": "Which German chocolate cake is traditionally made with layers of chocolate sponge, cherries, and whipped cream?",
+    "options": [
+      "Sachertorte",
+      "Black Forest Cake",
+      "Stollen",
+      "Baumkuchen"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Black Forest Cake (Schwarzwälder Kirschtorte) is the German cake made with chocolate sponge, cherries, and whipped cream.",
+    "detailedExplanation": "Black Forest Cake, known in German as Schwarzwälder Kirschtorte, is a traditional German dessert that originated in the Black Forest region. It consists of layers of chocolate sponge cake filled with whipped cream and cherries, often soaked with kirsch (cherry brandy). The cake is typically decorated with additional whipped cream, maraschino cherries, and chocolate shavings. It became internationally popular in the mid-20th century and remains one of Germany's most famous dessert exports.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Black_Forest_gateau",
+    "citationTitle": "Wikipedia: Black Forest gateau"
+  },
+  {
+    "id": "ef69467d-39e6-49de-a168-2e28987efc53",
+    "text": "What type of sugar is traditionally used to create the hard, caramelized top of crème brûlée?",
+    "options": [
+      "Brown sugar",
+      "Powdered sugar",
+      "Granulated white sugar",
+      "Demerara sugar"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Granulated white sugar is traditionally sprinkled on top of crème brûlée and caramelized with a torch to create the signature hard crust.",
+    "detailedExplanation": "Crème brûlée's signature feature is its hard, caramelized sugar crust, which is created by sprinkling a thin, even layer of granulated white sugar over the chilled custard and then caramelizing it with a kitchen torch or under a broiler. The granulated sugar melts and caramelizes quickly and evenly, creating the perfect contrast between the crisp, bitter-sweet top and the smooth, creamy vanilla custard beneath. The name 'brûlée' literally means 'burnt' in French, referring to this caramelization process.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Cr%C3%A8me_br%C3%BBl%C3%A9e",
+    "citationTitle": "Wikipedia: Crème brûlée"
+  },
+  {
+    "id": "a1bee85b-be81-4f87-af1b-a632e926aae7",
+    "text": "Which Middle Eastern dessert is made from layers of phyllo pastry, nuts, and honey or syrup?",
+    "options": [
+      "Baklava",
+      "Halva",
+      "Knafeh",
+      "Ma'amoul"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Baklava is the Middle Eastern dessert made with layers of phyllo pastry, nuts, and sweet syrup.",
+    "detailedExplanation": "Baklava is a rich, sweet dessert pastry that originated in the Ottoman Empire and is popular throughout the Middle East, Mediterranean, and Balkans. It consists of multiple layers of paper-thin phyllo pastry, filled with chopped nuts (commonly pistachios, walnuts, or almonds), and held together with honey or sugar syrup. The pastry is cut into diamond or square shapes before baking, and the syrup is poured over it while still warm, creating a sweet, flaky, and nutty dessert with a distinctive layered appearance.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Baklava",
+    "citationTitle": "Wikipedia: Baklava"
+  },
+  {
+    "id": "491d6c57-7503-4249-a6ac-379253ba7d92",
+    "text": "Which European city is famous for giving its name to a type of rich chocolate cake that typically contains little to no flour?",
+    "options": [
+      "Vienna",
+      "Salzburg",
+      "Sacher",
+      "Torte"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Vienna is famous for the Sachertorte, but more specifically for the flourless chocolate cake known as Vienna chocolate cake.",
+    "detailedExplanation": "Vienna has a rich tradition of chocolate desserts, with the most famous being variations of dense, flourless chocolate cakes that rely on chocolate, eggs, and butter as their primary structure. These cakes became popular in Viennese coffeehouses during the 19th century and are characterized by their incredibly rich, fudgy texture due to the minimal use of flour, distinguishing them from regular sponge cakes.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Viennese_cuisine",
+    "citationTitle": "Wikipedia: Viennese Cuisine"
+  },
+  {
+    "id": "1289e1bf-0518-43ea-8753-742d5377bef2",
+    "text": "What is the name of the traditional Mexican hot chocolate drink that is whisked to create a frothy top and often flavored with cinnamon?",
+    "options": [
+      "Champurrado",
+      "Chocolate de mesa",
+      "Chocolate de agua",
+      "Atole"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Chocolate de mesa is the traditional Mexican hot chocolate drink whisked with a molinillo to create foam.",
+    "detailedExplanation": "Chocolate de mesa, meaning 'table chocolate,' is a traditional Mexican preparation where chocolate tablets are dissolved in hot milk or water and whisked vigorously with a wooden tool called a molinillo. This creates the characteristic frothy top and incorporates traditional spices like cinnamon. The practice dates back to pre-Columbian times when the Aztecs prepared similar chocolate drinks, though they were typically served cold and bitter.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Mexican_cuisine",
+    "citationTitle": "Wikipedia: Mexican Cuisine"
+  },
+  {
+    "id": "f2fd44d4-8ad3-4adc-8f51-97cf4738f415",
+    "text": "Which French pastry technique involves repeatedly folding butter into dough and is essential for making croissants and pain au chocolat?",
+    "options": [
+      "Choux",
+      "Lamination",
+      "Creaming",
+      "Foliation"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Lamination is the technique of folding butter into dough multiple times to create flaky, layered pastries.",
+    "detailedExplanation": "Lamination is a fundamental French pastry technique that involves encasing butter in dough and then repeatedly rolling and folding the mixture. This process creates hundreds of alternating layers of butter and dough. When baked, the butter melts and creates steam, causing the layers to separate and produce the characteristic flaky, airy texture found in croissants, pain au chocolat, and other viennoiserie. The technique requires precise temperature control to prevent the butter from melting into the dough.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Laminated_dough",
+    "citationTitle": "Wikipedia: Laminated Dough"
+  },
+  {
+    "id": "2c997e49-fd00-43c0-8d72-433abfe960d5",
+    "text": "What is the primary thickening agent used in traditional British custard and many other dessert creams?",
+    "options": [
+      "Gelatin",
+      "Cornstarch",
+      "Egg yolks",
+      "Agar"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Egg yolks are the traditional thickening agent in custard, providing richness and setting properties when heated.",
+    "detailedExplanation": "Egg yolks contain proteins and lecithin that coagulate when gently heated, creating the thick, creamy texture characteristic of proper custard. Traditional British custard, crème anglaise, and many other dessert creams rely on this natural thickening power rather than artificial starches. The key is careful temperature control - typically keeping the mixture below 185°F (85°C) to prevent the eggs from scrambling while still achieving the desired thickness.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Custard",
+    "citationTitle": "Wikipedia: Custard"
+  },
+  {
+    "id": "8e1b6250-d975-4863-9a76-ac4d75195ad8",
+    "text": "Which South American country produces the largest percentage of the world's cocoa beans?",
+    "options": [
+      "Brazil",
+      "Ecuador",
+      "Côte d'Ivoire",
+      "None - it's in Africa"
+    ],
+    "correctIndex": 3,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Côte d'Ivoire (Ivory Coast) in Africa produces the most cocoa beans globally, not any South American country.",
+    "detailedExplanation": "While South America has a rich history with chocolate and countries like Ecuador and Brazil do produce high-quality cocoa beans, the largest producers are actually in West Africa. Côte d'Ivoire produces approximately 40% of the world's cocoa beans, followed by Ghana with about 20%. Ecuador is notable for producing some of the world's finest 'Nacional' variety cocoa beans, prized for their complex flavor profiles, but in much smaller quantities than the African producers.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Cocoa_production",
+    "citationTitle": "Wikipedia: Cocoa Production"
+  },
+  {
+    "id": "27bd32a5-3f3f-4a3a-abd9-f0c9f43fecbc",
+    "text": "What is the name of the Italian frozen dessert that is denser than ice cream due to having less air incorporated during churning?",
+    "options": [
+      "Sorbetto",
+      "Granita",
+      "Gelato",
+      "Semifreddo"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Gelato is churned more slowly than ice cream, incorporating less air and creating a denser, more intense flavor.",
+    "detailedExplanation": "Gelato differs from ice cream primarily in its churning process and serving temperature. It is churned at a slower speed, which incorporates less air (called overrun in the industry), resulting in a denser texture with more intense flavors. Gelato is also served at a slightly warmer temperature than ice cream, typically around 10-22°F (-12 to -6°C), which allows the flavors to be more pronounced and the texture to remain creamy rather than hard-frozen.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Gelato",
+    "citationTitle": "Wikipedia: Gelato"
+  }
+]

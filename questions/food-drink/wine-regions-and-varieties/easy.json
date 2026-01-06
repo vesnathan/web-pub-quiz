@@ -1,0 +1,342 @@
+[
+  {
+    "id": "ac1dec3e-5f7b-4cd7-b9d8-17d550e39980",
+    "text": "Which French wine region is famous for producing Champagne?",
+    "options": [
+      "Bordeaux",
+      "Champagne",
+      "Burgundy",
+      "Loire Valley"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Champagne is exclusively produced in the Champagne region of France.",
+    "detailedExplanation": "The Champagne region in northeastern France is the only place where true Champagne can be legally produced. This sparkling wine must be made using specific grape varieties (primarily Chardonnay, Pinot Noir, and Pinot Meunier) and the traditional méthode champenoise. The region's unique chalky soil and cool climate contribute to the distinctive characteristics of authentic Champagne.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Champagne_(wine_region)",
+    "citationTitle": "Wikipedia: Champagne (wine region)"
+  },
+  {
+    "id": "5392c3bf-e6ea-44de-8293-46ff88cf277e",
+    "text": "What type of wine is Chianti?",
+    "options": [
+      "White wine",
+      "Red wine",
+      "Rosé wine",
+      "Sparkling wine"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Chianti is a red wine primarily made from Sangiovese grapes.",
+    "detailedExplanation": "Chianti is a famous Italian red wine produced in the Tuscany region. It is primarily made from Sangiovese grapes, which must comprise at least 80% of the blend according to DOCG regulations. The wine is known for its bright acidity, moderate tannins, and flavors of cherry and herbs. Chianti comes in several classifications, with Chianti Classico being the most prestigious.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Chianti",
+    "citationTitle": "Wikipedia: Chianti"
+  },
+  {
+    "id": "14f6d831-e9d5-45be-9148-af1b147da1f6",
+    "text": "Which country is most famous for producing Riesling wines?",
+    "options": [
+      "France",
+      "Italy",
+      "Germany",
+      "Spain"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Germany is considered the premier producer of Riesling wines.",
+    "detailedExplanation": "Germany is widely regarded as the world's finest producer of Riesling wines, with the grape variety originating in the Rhine region. German Rieslings are known for their exceptional quality, ranging from bone-dry to lusciously sweet dessert wines. The country's cool climate and slate soils, particularly in regions like Mosel and Rheingau, create ideal conditions for this aromatic white wine grape to develop its characteristic mineral notes and bright acidity.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Riesling",
+    "citationTitle": "Wikipedia: Riesling"
+  },
+  {
+    "id": "87729469-7d5a-468f-b8ec-c0169626fc2d",
+    "text": "What is the most widely planted red wine grape variety in the world?",
+    "options": [
+      "Pinot Noir",
+      "Merlot",
+      "Cabernet Sauvignon",
+      "Syrah"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Cabernet Sauvignon is the most widely planted red wine grape globally.",
+    "detailedExplanation": "Cabernet Sauvignon has become the world's most widely planted red wine grape variety due to its adaptability to various climates and its ability to produce high-quality wines. Originally from Bordeaux, France, this grape is now successfully grown in wine regions across the globe including California, Australia, Chile, and South Africa. It produces full-bodied wines with high tannins and is often blended with other varieties like Merlot and Cabernet Franc.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Cabernet_Sauvignon",
+    "citationTitle": "Wikipedia: Cabernet Sauvignon"
+  },
+  {
+    "id": "89080615-3308-4dcd-9ffa-19c27922024e",
+    "text": "Which wine region is known as the 'Napa Valley of Australia'?",
+    "options": [
+      "Hunter Valley",
+      "Barossa Valley",
+      "Clare Valley",
+      "Yarra Valley"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Barossa Valley is often called Australia's premier wine region.",
+    "detailedExplanation": "The Barossa Valley in South Australia is frequently referred to as the 'Napa Valley of Australia' due to its prestigious reputation and concentration of world-class wineries. Located about an hour northeast of Adelaide, the region is particularly famous for its Shiraz wines, with some vineyards containing vines that are over 150 years old. The valley's warm, dry climate and diverse soil types make it ideal for producing bold, full-bodied red wines.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Barossa_Valley",
+    "citationTitle": "Wikipedia: Barossa Valley"
+  },
+  {
+    "id": "046b0b06-1a76-49ca-aaa3-66722a6c4072",
+    "text": "What does 'Pinot' mean in Pinot Noir?",
+    "options": [
+      "Black",
+      "Pine cone",
+      "Small",
+      "French"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Pinot refers to the pine cone shape of the grape clusters.",
+    "detailedExplanation": "The word 'Pinot' comes from the French word for pine cone ('pin'), referring to the tightly clustered, cone-shaped bunches in which these grapes grow. Pinot Noir, meaning 'black pine cone,' is one of the oldest wine grape varieties and is notoriously difficult to grow due to its thin skin and susceptibility to various vineyard hazards. Despite these challenges, it produces some of the world's most elegant and sought-after wines, particularly in Burgundy, France.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Pinot_noir",
+    "citationTitle": "Wikipedia: Pinot noir"
+  },
+  {
+    "id": "5619df12-9dd9-4f6d-9a37-95873a41278e",
+    "text": "Which Spanish wine region is famous for its Tempranillo-based wines?",
+    "options": [
+      "Rioja",
+      "Ribera del Duero",
+      "Priorat",
+      "All of the above"
+    ],
+    "correctIndex": 3,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "All three regions are renowned for their Tempranillo wines.",
+    "detailedExplanation": "Tempranillo is Spain's most important red wine grape variety and is the primary grape in several prestigious Spanish wine regions. Rioja is perhaps the most famous, producing both traditional and modern styles of Tempranillo-based wines. Ribera del Duero is known for powerful, age-worthy Tempranillo wines (locally called Tinto Fino), while Priorat creates intense, mineral-driven wines often blending Tempranillo with international varieties. Each region's unique terroir and winemaking traditions create distinct expressions of this noble grape.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Tempranillo",
+    "citationTitle": "Wikipedia: Tempranillo"
+  },
+  {
+    "id": "fcdb914d-6bb1-41b2-8456-8edd8e29f6b9",
+    "text": "Which white wine grape is the primary component of Sancerre?",
+    "options": [
+      "Chardonnay",
+      "Sauvignon Blanc",
+      "Chenin Blanc",
+      "Albariño"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Sancerre is made exclusively from Sauvignon Blanc grapes.",
+    "detailedExplanation": "Sancerre, produced in the Loire Valley of France, is made entirely from Sauvignon Blanc grapes according to AOC regulations. The region's limestone and clay soils, combined with a continental climate, produce Sauvignon Blanc wines that are distinctively mineral, crisp, and elegant. Sancerre is considered one of the finest expressions of Sauvignon Blanc in the world, known for its gooseberry and citrus flavors with a characteristic flinty minerality that reflects the region's terroir.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Sancerre_wine",
+    "citationTitle": "Wikipedia: Sancerre wine"
+  },
+  {
+    "id": "4136cf2d-7491-4050-ae77-2229ab58412d",
+    "text": "Which Italian wine region is famous for producing Barolo and Barbaresco wines?",
+    "options": [
+      "Tuscany",
+      "Piedmont",
+      "Veneto",
+      "Sicily"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Piedmont is the Italian region famous for Barolo and Barbaresco wines, both made from Nebbiolo grapes.",
+    "detailedExplanation": "Piedmont, located in northwestern Italy, is renowned for producing some of Italy's most prestigious red wines, including Barolo and Barbaresco. Both wines are made exclusively from the Nebbiolo grape variety and are considered among Italy's finest wines. The region's name literally means 'foot of the mountains' as it sits at the base of the Alps, providing ideal conditions for wine production.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Piedmont_wine",
+    "citationTitle": "Wikipedia: Piedmont wine"
+  },
+  {
+    "id": "0222d594-be84-4787-9f70-cc3cea7ce2db",
+    "text": "What does 'AOC' stand for on French wine labels?",
+    "options": [
+      "Appellation d'Origine Contrôlée",
+      "Association of Organic Cultivation",
+      "Authentic Original Classification",
+      "Alpine Orchard Collection"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "AOC stands for Appellation d'Origine Contrôlée, France's system for controlling wine quality and origin.",
+    "detailedExplanation": "Appellation d'Origine Contrôlée (AOC) is France's certification system that guarantees where and how a wine is made. This system controls not only the geographical origin of the wine but also the grape varieties used, cultivation methods, and winemaking techniques. It ensures that wines bearing specific regional names meet strict quality standards and traditional production methods associated with that region.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Appellation_d%27origine_contr%C3%B4l%C3%A9e",
+    "citationTitle": "Wikipedia: Appellation d'origine contrôlée"
+  },
+  {
+    "id": "6dd25da8-fbf8-420e-9ad2-eb89f72b3b37",
+    "text": "Which South American country is most famous for its Malbec wines?",
+    "options": [
+      "Chile",
+      "Brazil",
+      "Argentina",
+      "Uruguay"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Argentina is most famous for its Malbec wines, particularly from the Mendoza region.",
+    "detailedExplanation": "Argentina has become synonymous with Malbec wine production, transforming this French grape variety into its signature wine. The Mendoza region, situated at high altitudes in the foothills of the Andes Mountains, provides ideal conditions for Malbec cultivation. The combination of intense sunlight, cool nights, and well-draining soils produces rich, full-bodied wines that have made Argentine Malbec internationally renowned.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Argentine_wine",
+    "citationTitle": "Wikipedia: Argentine wine"
+  },
+  {
+    "id": "95c8e7d4-48f7-4b00-8d7a-c176d457b12d",
+    "text": "What is the primary grape variety used in Port wine?",
+    "options": [
+      "Cabernet Sauvignon",
+      "Touriga Nacional",
+      "Syrah",
+      "Grenache"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Touriga Nacional is considered the primary and most important grape variety used in Port wine production.",
+    "detailedExplanation": "Touriga Nacional is widely regarded as Portugal's finest native grape variety and is the most important component in Port wine blends. While Port wine is typically made from a blend of several Portuguese grape varieties, Touriga Nacional provides structure, color, and aging potential. This grape variety thrives in the Douro Valley's challenging conditions and contributes to the complex, rich flavors that make Port wine distinctive.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Touriga_Nacional",
+    "citationTitle": "Wikipedia: Touriga Nacional"
+  },
+  {
+    "id": "5f8eb7ef-ac0f-494e-8e74-14418f274f43",
+    "text": "Which German wine classification indicates the highest quality level?",
+    "options": [
+      "Tafelwein",
+      "Landwein",
+      "QbA",
+      "QmP"
+    ],
+    "correctIndex": 3,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "QmP (Qualitätswein mit Prädikat) represents the highest quality level in German wine classification.",
+    "detailedExplanation": "QmP, which stands for Qualitätswein mit Prädikat, is the top tier of German wine classification. These wines must be made from grapes that achieve specific ripeness levels without any added sugar (chaptalization). The QmP category includes six levels based on grape ripeness: Kabinett, Spätlese, Auslese, Beerenauslese, Trockenbeerenauslese, and Eiswein. This classification system ensures that only wines meeting the strictest quality standards receive the QmP designation.",
+    "citationUrl": "https://en.wikipedia.org/wiki/German_wine_classification",
+    "citationTitle": "Wikipedia: German wine classification"
+  },
+  {
+    "id": "6f83e616-2cb0-405b-b578-48cb1ac0ee4c",
+    "text": "Which wine region produces Chablis?",
+    "options": [
+      "Loire Valley",
+      "Burgundy",
+      "Bordeaux",
+      "Alsace"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Chablis is produced in the Burgundy region of France, specifically in the northernmost part of Burgundy.",
+    "detailedExplanation": "Chablis comes from a specific area within the Burgundy wine region in north-central France, around the town of Chablis. This region is known for producing crisp, mineral-driven white wines made exclusively from Chardonnay grapes. The unique terroir of Chablis, with its limestone-rich soils called Kimmeridgian clay, gives these wines their distinctive mineral character and tight structure, quite different from Chardonnays produced in other parts of Burgundy or the world.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Chablis_wine",
+    "citationTitle": "Wikipedia: Chablis wine"
+  },
+  {
+    "id": "033b0f54-0a29-4bca-9b7f-f8f28f6f0e0c",
+    "text": "What does 'Old World' refer to in wine terminology?",
+    "options": [
+      "Wines aged over 20 years",
+      "European wine regions",
+      "Ancient winemaking techniques",
+      "Wines made from heritage grape varieties"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "'Old World' refers to traditional European wine regions with long histories of winemaking.",
+    "detailedExplanation": "In wine terminology, 'Old World' refers to wine regions in Europe and the Mediterranean that have centuries or millennia of winemaking history, including France, Italy, Spain, Germany, and Portugal. These regions typically emphasize tradition, terroir, and established winemaking practices. This is contrasted with 'New World' wine regions like the United States, Australia, Chile, and South Africa, which have more recent winemaking histories and often embrace innovative techniques and technology.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Old_World_wine",
+    "citationTitle": "Wikipedia: Old World wine"
+  },
+  {
+    "id": "53df1eff-20f6-4293-955e-90c98e35ef5b",
+    "text": "Which grape variety is Prosecco primarily made from?",
+    "options": [
+      "Chardonnay",
+      "Pinot Grigio",
+      "Glera",
+      "Trebbiano"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Prosecco is primarily made from the Glera grape variety, grown in northeastern Italy.",
+    "detailedExplanation": "Prosecco, Italy's popular sparkling wine, is made primarily from the Glera grape variety (formerly known as Prosecco). According to Italian wine law, Prosecco must contain at least 85% Glera grapes, with the remainder potentially including other approved varieties like Verdiso, Bianchetta Trevigiana, or Perera. The Glera grape is native to northeastern Italy and thrives in the Veneto and Friuli regions, where most authentic Prosecco is produced using the tank method (Charmat method) of sparkling wine production.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Glera_(grape)",
+    "citationTitle": "Wikipedia: Glera (grape)"
+  },
+  {
+    "id": "776b321f-e5f5-4ee0-bd3f-cd6504640b0e",
+    "text": "Which wine region in California is famous for producing some of the world's best Pinot Noir wines?",
+    "options": [
+      "Sonoma Coast",
+      "Central Valley",
+      "Paso Robles",
+      "Lodi"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Sonoma Coast is renowned for its cool climate that's perfect for Pinot Noir production.",
+    "detailedExplanation": "The Sonoma Coast AVA in California is celebrated for producing exceptional Pinot Noir wines due to its cool maritime climate influenced by the Pacific Ocean. The region's fog, coastal breezes, and well-draining soils create ideal conditions for this notoriously difficult grape variety. Many of California's most acclaimed Pinot Noir producers are located in this region, making it a premier destination for this varietal.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Sonoma_Coast_AVA",
+    "citationTitle": "Wikipedia: Sonoma Coast AVA"
+  },
+  {
+    "id": "18dc6b78-64ee-4b68-964e-b002853db640",
+    "text": "What color wine is typically made from Gewürztraminer grapes?",
+    "options": [
+      "White",
+      "Red",
+      "Rosé",
+      "Orange"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Gewürztraminer is a white wine grape variety known for its aromatic and spicy characteristics.",
+    "detailedExplanation": "Gewürztraminer is a white wine grape variety that produces distinctively aromatic white wines. Despite the grape skins having a pinkish color, the juice is pressed away from the skins quickly to produce white wine. Gewürztraminer wines are known for their intense floral and spicy aromas, with flavors often including lychee, rose petals, and exotic spices. The variety is particularly associated with Alsace, France, and parts of Germany.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Gew%C3%BCrztraminer",
+    "citationTitle": "Wikipedia: Gewürztraminer"
+  },
+  {
+    "id": "1763f055-0ee0-48a3-9e0f-e5f1fbed9f5a",
+    "text": "Which Portuguese wine region is famous for producing Vinho Verde?",
+    "options": [
+      "Minho",
+      "Douro",
+      "Alentejo",
+      "Dão"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "The Minho region in northwestern Portugal is the home of Vinho Verde wines.",
+    "detailedExplanation": "The Minho region, located in northwestern Portugal near the Spanish border, is the exclusive producer of authentic Vinho Verde wines. This region's Atlantic climate, with its high rainfall and moderate temperatures, creates perfect conditions for the light, refreshing wines that Vinho Verde is known for. The name 'Vinho Verde' means 'green wine' and refers to the wine's youthful, fresh character rather than its color, as both white and red Vinho Verde wines are produced in this region.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Vinho_Verde",
+    "citationTitle": "Wikipedia: Vinho Verde"
+  },
+  {
+    "id": "93e3a6ca-613a-4156-8b37-448311b4bbf9",
+    "text": "Which New Zealand wine region is most famous for its Sauvignon Blanc production?",
+    "options": [
+      "Marlborough",
+      "Hawke's Bay",
+      "Central Otago",
+      "Canterbury"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Marlborough is New Zealand's largest wine region and world-renowned for its Sauvignon Blanc.",
+    "detailedExplanation": "Marlborough, located at the northeastern tip of New Zealand's South Island, has become synonymous with exceptional Sauvignon Blanc wines since the 1980s. The region's unique combination of intense sunlight, cool nights, and free-draining soils produces Sauvignon Blanc wines with distinctive characteristics including tropical fruit flavors, herbaceous notes, and crisp acidity. Marlborough produces about 75% of New Zealand's wine and has put New Zealand on the global wine map, particularly for this varietal.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Marlborough_wine_region",
+    "citationTitle": "Wikipedia: Marlborough wine region"
+  }
+]

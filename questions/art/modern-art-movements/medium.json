@@ -1,0 +1,342 @@
+[
+  {
+    "id": "23a2dc8e-71f1-445b-8540-24d3c8ed8211",
+    "text": "Which art movement, founded in 1907, was characterized by geometric shapes and multiple perspectives, with Pablo Picasso and Georges Braque as its pioneers?",
+    "options": [
+      "Fauvism",
+      "Cubism",
+      "Futurism",
+      "Expressionism"
+    ],
+    "correctIndex": 1,
+    "category": "arts",
+    "difficulty": "medium",
+    "explanation": "Cubism was founded around 1907 by Picasso and Braque, featuring geometric forms and multiple viewpoints.",
+    "detailedExplanation": "Cubism revolutionized European painting and sculpture by abandoning traditional perspective in favor of geometric forms and multiple viewpoints of the same object. Pablo Picasso's 'Les Demoiselles d'Avignon' (1907) is often cited as the first Cubist painting, marking a radical departure from Renaissance artistic traditions.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Cubism",
+    "citationTitle": "Wikipedia: Cubism"
+  },
+  {
+    "id": "fc9bb1bf-1553-4210-9ebc-b089379555d8",
+    "text": "The Dada movement emerged during which major historical event as a reaction against the rationalism that led to the conflict?",
+    "options": [
+      "World War I",
+      "The Great Depression",
+      "World War II",
+      "The Russian Revolution"
+    ],
+    "correctIndex": 0,
+    "category": "arts",
+    "difficulty": "medium",
+    "explanation": "Dada emerged during World War I (1914-1918) as artists rejected the logic and reason they blamed for the war.",
+    "detailedExplanation": "Dadaism arose in Zurich around 1916 during World War I, with artists like Hugo Ball and Tristan Tzara creating anti-war, anti-bourgeois, and anti-art works. The movement was a direct response to the horror and senselessness of the war, rejecting conventional aesthetic and cultural values through absurd and irrational artistic expressions.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Dada",
+    "citationTitle": "Wikipedia: Dada"
+  },
+  {
+    "id": "fd33cf92-c246-4f41-8d32-137fa63ff56d",
+    "text": "Which Surrealist technique, developed by Max Ernst, involves creating images by rubbing paper over textured surfaces?",
+    "options": [
+      "Automatism",
+      "Frottage",
+      "Decalcomania",
+      "Exquisite corpse"
+    ],
+    "correctIndex": 1,
+    "category": "arts",
+    "difficulty": "medium",
+    "explanation": "Frottage is the technique of rubbing paper over textured surfaces, pioneered by Max Ernst in 1925.",
+    "detailedExplanation": "Frottage, from the French word meaning 'to rub,' was developed by Max Ernst in 1925 as a method of automatic drawing. By placing paper over various textured surfaces and rubbing with pencil or charcoal, Ernst created unexpected images that he believed revealed unconscious imagery, perfectly aligning with Surrealist principles of accessing the subconscious mind.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Frottage_(art)",
+    "citationTitle": "Wikipedia: Frottage (art)"
+  },
+  {
+    "id": "01f640bc-e8be-4bfe-bffa-a75726082d9a",
+    "text": "The Abstract Expressionist painting technique of dripping and pouring paint directly onto canvas is most famously associated with which American artist?",
+    "options": [
+      "Willem de Kooning",
+      "Mark Rothko",
+      "Jackson Pollock",
+      "Barnett Newman"
+    ],
+    "correctIndex": 2,
+    "category": "arts",
+    "difficulty": "medium",
+    "explanation": "Jackson Pollock pioneered the drip painting technique, becoming the most famous practitioner of this Abstract Expressionist method.",
+    "detailedExplanation": "Jackson Pollock developed his famous 'drip painting' technique in the late 1940s, placing large canvases on the floor and dripping, pouring, and splattering paint from above. This revolutionary method, exemplified in works like 'Number 1, 1950 (Lavender Mist),' emphasized the physical act of painting and helped establish Abstract Expressionism as America's first major contribution to modern art.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Jackson_Pollock",
+    "citationTitle": "Wikipedia: Jackson Pollock"
+  },
+  {
+    "id": "dc53a4b7-be3b-419b-8399-d32c21518975",
+    "text": "Which Pop Art icon created the famous Campbell's Soup Cans series in 1962?",
+    "options": [
+      "Roy Lichtenstein",
+      "Andy Warhol",
+      "Claes Oldenburg",
+      "James Rosenquist"
+    ],
+    "correctIndex": 1,
+    "category": "arts",
+    "difficulty": "medium",
+    "explanation": "Andy Warhol created the iconic Campbell's Soup Cans series in 1962, which became a defining work of Pop Art.",
+    "detailedExplanation": "Andy Warhol's 'Campbell's Soup Cans' (1962) consists of 32 canvases, each depicting a different variety of Campbell's soup. This work marked Warhol's transition from commercial illustration to fine art and became one of the most recognizable works of Pop Art, challenging traditional notions of fine art by elevating everyday consumer products to gallery status.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Campbell%27s_Soup_Cans",
+    "citationTitle": "Wikipedia: Campbell's Soup Cans"
+  },
+  {
+    "id": "9e39b653-0c4c-4ac8-a574-0956330a1188",
+    "text": "The art movement Fauvism got its name from a French word meaning what?",
+    "options": [
+      "Wild colors",
+      "Wild beasts",
+      "Bold strokes",
+      "Bright light"
+    ],
+    "correctIndex": 1,
+    "category": "arts",
+    "difficulty": "medium",
+    "explanation": "Fauvism comes from 'les fauves,' meaning 'wild beasts,' referring to the artists' bold use of color.",
+    "detailedExplanation": "The term 'Fauvism' derives from 'les fauves' (French for 'wild beasts'), coined by art critic Louis Vauxcelles in 1905. He used this term to describe the work of Henri Matisse, André Derain, and other artists who exhibited at the Salon d'Automne, characterizing their bold, non-naturalistic use of color as savage or primitive.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Fauvism",
+    "citationTitle": "Wikipedia: Fauvism"
+  },
+  {
+    "id": "3e6109bc-fb9f-4eb3-80b9-326fb7addee8",
+    "text": "Which Italian art movement, founded by Filippo Marinetti in 1909, celebrated speed, technology, and dynamic movement?",
+    "options": [
+      "Metaphysical painting",
+      "Futurism",
+      "Arte Povera",
+      "Spatialism"
+    ],
+    "correctIndex": 1,
+    "category": "arts",
+    "difficulty": "medium",
+    "explanation": "Futurism was founded by Filippo Marinetti in 1909, emphasizing speed, technology, and modernity.",
+    "detailedExplanation": "Futurism was launched by Italian poet Filippo Marinetti with his 'Manifesto of Futurism' published in 1909. The movement glorified technological progress, speed, and dynamic movement, with artists like Umberto Boccioni and Giacomo Balla creating works that attempted to capture motion and energy. Futurists rejected the past and embraced the machine age and urban life.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Futurism",
+    "citationTitle": "Wikipedia: Futurism"
+  },
+  {
+    "id": "eb940ea6-8bc6-48f5-99a5-658f8081df3c",
+    "text": "Which Minimalist artist is famous for creating large-scale steel sculptures and is known for works like 'Tilted Arc'?",
+    "options": [
+      "Donald Judd",
+      "Carl Andre",
+      "Richard Serra",
+      "Dan Flavin"
+    ],
+    "correctIndex": 2,
+    "category": "arts",
+    "difficulty": "medium",
+    "explanation": "Richard Serra created 'Tilted Arc' and is renowned for his monumental steel sculptures in the Minimalist tradition.",
+    "detailedExplanation": "Richard Serra is a prominent Minimalist sculptor known for his large-scale steel works that explore weight, balance, and the relationship between sculpture and space. His controversial 'Tilted Arc' (1981-1989) was a 120-foot curved steel wall installed in Federal Plaza in New York City, which was eventually removed following public debate about site-specific public art.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Richard_Serra",
+    "citationTitle": "Wikipedia: Richard Serra"
+  },
+  {
+    "id": "72f2a363-22b5-4992-8f62-ede8977c2292",
+    "text": "Which German art school, founded by Walter Gropius in 1919, combined fine arts with crafts and industrial design before being closed by the Nazis?",
+    "options": [
+      "Bauhaus",
+      "Die Brücke",
+      "Der Blaue Reiter",
+      "Neue Sachlichkeit"
+    ],
+    "correctIndex": 0,
+    "category": "arts",
+    "difficulty": "medium",
+    "explanation": "The Bauhaus was a revolutionary German art school that merged fine arts with functional design.",
+    "detailedExplanation": "The Bauhaus, founded in Weimar in 1919 by architect Walter Gropius, was a groundbreaking school that sought to unite fine art with industrial design and craftsmanship. The school's philosophy emphasized functionality, simplicity, and mass production, influencing modern architecture, furniture design, and graphic design. Notable faculty included Paul Klee, Wassily Kandinsky, and Ludwig Mies van der Rohe. The school relocated to Dessau in 1925 and later to Berlin before being forced to close in 1933 under pressure from the Nazi regime.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Bauhaus",
+    "citationTitle": "Wikipedia: Bauhaus"
+  },
+  {
+    "id": "f17296c0-7a61-4603-b844-9fbec05bdd64",
+    "text": "The art movement Constructivism, which emphasized geometric forms and industrial materials, originated in which country during the 1910s?",
+    "options": [
+      "France",
+      "Russia",
+      "Germany",
+      "Italy"
+    ],
+    "correctIndex": 1,
+    "category": "arts",
+    "difficulty": "medium",
+    "explanation": "Constructivism was a Russian avant-garde movement that emerged after the 1917 Revolution.",
+    "detailedExplanation": "Constructivism emerged in Russia around 1915 and flourished after the 1917 Revolution. Founded by artists like Vladimir Tatlin and Alexander Rodchenko, the movement rejected traditional artistic concerns in favor of art that served social and political purposes. Constructivists used industrial materials like steel, glass, and wood, creating abstract geometric compositions that reflected the new Soviet industrial society. The movement significantly influenced modern design, architecture, and graphic arts worldwide.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Constructivism_(art)",
+    "citationTitle": "Wikipedia: Constructivism (art)"
+  },
+  {
+    "id": "9acfb948-0ba7-4d59-9fc3-d8875b6b6c39",
+    "text": "Which art movement of the 1960s involved creating artworks using the landscape itself, often in remote locations, with Robert Smithson's 'Spiral Jetty' as a famous example?",
+    "options": [
+      "Land Art",
+      "Conceptual Art",
+      "Performance Art",
+      "Installation Art"
+    ],
+    "correctIndex": 0,
+    "category": "arts",
+    "difficulty": "medium",
+    "explanation": "Land Art (or Earth Art) used natural landscapes as both the medium and location for artworks.",
+    "detailedExplanation": "Land Art, also known as Earth Art or Earthworks, emerged in the late 1960s as artists began creating works directly in the landscape using natural materials like earth, rocks, and water. These large-scale works were often located in remote areas and could only be experienced by traveling to the site or through documentation. Robert Smithson's 'Spiral Jetty' (1970) in Utah's Great Salt Lake is perhaps the most famous example. Other notable Land Artists include Michael Heizer, Nancy Holt, and Andy Goldsworthy.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Land_art",
+    "citationTitle": "Wikipedia: Land art"
+  },
+  {
+    "id": "b34e2f15-1f50-4a71-90db-7a2cb7453351",
+    "text": "The art movement De Stijl, known for its use of primary colors and geometric forms, was founded in which country in 1917?",
+    "options": [
+      "Belgium",
+      "Netherlands",
+      "Denmark",
+      "Sweden"
+    ],
+    "correctIndex": 1,
+    "category": "arts",
+    "difficulty": "medium",
+    "explanation": "De Stijl was a Dutch art movement founded by Piet Mondrian and Theo van Doesburg.",
+    "detailedExplanation": "De Stijl (meaning 'The Style') was a Dutch artistic movement founded in 1917 by painters Piet Mondrian and Theo van Doesburg. The movement advocated pure abstraction by reducing forms to their fundamental elements, using only primary colors (red, blue, yellow), non-colors (white, black, gray), and geometric shapes, particularly rectangles and straight lines. De Stijl artists believed this approach could express universal harmony and order. The movement influenced architecture, furniture design, and graphic design, with architect Gerrit Rietveld being a notable member.",
+    "citationUrl": "https://en.wikipedia.org/wiki/De_Stijl",
+    "citationTitle": "Wikipedia: De Stijl"
+  },
+  {
+    "id": "8036f9ac-0b6e-42df-99c8-d99714acab29",
+    "text": "Which artistic technique, popularized by the Impressionists, involves applying paint in small, distinct brushstrokes of pure color rather than mixing colors on a palette?",
+    "options": [
+      "Impasto",
+      "Sfumato",
+      "Broken Color",
+      "Chiaroscuro"
+    ],
+    "correctIndex": 2,
+    "category": "arts",
+    "difficulty": "medium",
+    "explanation": "Broken Color technique involved applying separate brushstrokes of pure color that optically mixed when viewed from a distance.",
+    "detailedExplanation": "The Broken Color technique was a revolutionary painting method developed by Impressionist artists in the late 19th century. Instead of mixing colors on a palette to create the desired hue, artists would apply small, separate brushstrokes of pure color directly to the canvas. When viewed from an appropriate distance, these colors would optically blend in the viewer's eye, creating more vibrant and luminous effects than traditional mixing methods. This technique was used by artists like Claude Monet, Pierre-Auguste Renoir, and Camille Pissarro, and later influenced Post-Impressionists and Neo-Impressionists like Georges Seurat.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Broken_color",
+    "citationTitle": "Wikipedia: Broken color"
+  },
+  {
+    "id": "a29f7518-e153-400f-8efb-9a0e46177a03",
+    "text": "The Fluxus movement of the 1960s was characterized by experimental art forms and happenings. Which artist is considered one of its key founders?",
+    "options": [
+      "John Cage",
+      "George Maciunas",
+      "Allan Kaprow",
+      "Nam June Paik"
+    ],
+    "correctIndex": 1,
+    "category": "arts",
+    "difficulty": "medium",
+    "explanation": "George Maciunas founded and organized the Fluxus movement, creating its manifesto and coordinating events.",
+    "detailedExplanation": "George Maciunas, a Lithuanian-American artist, is credited as the founder and central organizer of the Fluxus movement. Beginning in the early 1960s, Maciunas organized Fluxus festivals, published Fluxus manifestos, and created the movement's distinctive design aesthetic. Fluxus emphasized anti-commercial, experimental art forms including performance, happenings, and conceptual works that blurred the boundaries between art and life. While other artists like John Cage, Yoko Ono, and Nam June Paik were important Fluxus participants, Maciunas was the movement's primary coordinator and theorist.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Fluxus",
+    "citationTitle": "Wikipedia: Fluxus"
+  },
+  {
+    "id": "06e2cf74-bf13-4c1f-b4ef-fc9d03e73118",
+    "text": "Which art movement, emerging in 1960s Britain, is exemplified by artists like David Hockney and R.B. Kitaj, and featured bold colors and figurative subjects drawn from popular culture?",
+    "options": [
+      "British Pop Art",
+      "Kitchen Sink Realism",
+      "Camden Town Group",
+      "Young British Artists"
+    ],
+    "correctIndex": 0,
+    "category": "arts",
+    "difficulty": "medium",
+    "explanation": "British Pop Art developed parallel to American Pop Art but with distinctly British cultural references and sensibilities.",
+    "detailedExplanation": "British Pop Art emerged in the mid-1950s and flourished in the 1960s as artists began incorporating imagery from popular culture, advertising, and mass media into their work. Unlike American Pop Art, which often maintained an ironic distance from its subjects, British Pop Art was more romantic and nostalgic. Key figures included David Hockney, known for his swimming pool paintings and vibrant colors, R.B. Kitaj, who coined the term 'School of London,' and Peter Blake, famous for designing the Beatles' 'Sgt. Pepper's Lonely Hearts Club Band' album cover. The movement celebrated both American popular culture and distinctly British imagery.",
+    "citationUrl": "https://en.wikipedia.org/wiki/British_pop_art",
+    "citationTitle": "Wikipedia: British pop art"
+  },
+  {
+    "id": "4b7a82d7-1ba9-4330-897e-37a39fe60995",
+    "text": "The art movement Orphism, which emphasized pure color and abstract forms, was pioneered by which husband-and-wife artist duo in the early 1910s?",
+    "options": [
+      "Robert and Sonia Delaunay",
+      "Wassily Kandinsky and Gabriele Münter",
+      "Franz Marc and Maria Franck",
+      "Paul Klee and Lily Stumpf"
+    ],
+    "correctIndex": 0,
+    "category": "arts",
+    "difficulty": "medium",
+    "explanation": "Robert and Sonia Delaunay developed Orphism, focusing on the pure expression of color and light.",
+    "detailedExplanation": "Orphism (or Simultanism) was an art movement that emerged around 1912, pioneered by French artists Robert Delaunay and his wife Sonia Delaunay. The movement emphasized pure abstraction through the use of bright colors and geometric forms, seeking to create paintings that expressed pure color relationships without representational content. The name 'Orphism' was coined by poet Guillaume Apollinaire, referencing the mythical musician Orpheus, to suggest art that was as abstract as music. The Delaunays believed that color could create form, depth, and movement without relying on drawing or perspective, influencing later abstract art movements.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Orphism_(art)",
+    "citationTitle": "Wikipedia: Orphism (art)"
+  },
+  {
+    "id": "39460a1b-0ba7-464c-8e9b-de6c1cc53814",
+    "text": "Which art movement, founded in New York in the 1960s, emphasized precise geometric shapes and optical illusions, with artists like Bridget Riley and Victor Vasarely as key figures?",
+    "options": [
+      "Op Art",
+      "Kinetic Art",
+      "Hard-edge painting",
+      "Color Field painting"
+    ],
+    "correctIndex": 0,
+    "category": "arts",
+    "difficulty": "medium",
+    "explanation": "Op Art (Optical Art) emerged in the 1960s focusing on creating visual illusions through geometric patterns and contrasting colors.",
+    "detailedExplanation": "Op Art, short for Optical Art, was a movement that gained prominence in the 1960s, characterized by the use of precise geometric shapes, contrasting colors, and patterns designed to create optical illusions and a sense of movement or vibration. Artists like Bridget Riley became famous for her black and white striped paintings that seemed to shimmer and move, while Victor Vasarely pioneered the use of geometric forms to create three-dimensional effects on flat surfaces. The movement was particularly popular in the mid-1960s and influenced graphic design, fashion, and architecture.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Op_art",
+    "citationTitle": "Wikipedia: Op art"
+  },
+  {
+    "id": "cd0c622e-f09d-4f2e-b58d-605a189a18f8",
+    "text": "Which artist is considered the founder of Action Painting, a technique within Abstract Expressionism that emphasized the physical act of painting itself?",
+    "options": [
+      "Willem de Kooning",
+      "Mark Rothko",
+      "Jackson Pollock",
+      "Franz Kline"
+    ],
+    "correctIndex": 2,
+    "category": "arts",
+    "difficulty": "medium",
+    "explanation": "Jackson Pollock pioneered Action Painting with his drip technique, making the physical process of painting as important as the final result.",
+    "detailedExplanation": "Jackson Pollock is widely regarded as the founder of Action Painting, a major technique within the Abstract Expressionist movement. Unlike traditional painting methods, Action Painting emphasized the physical gesture and spontaneous act of applying paint to canvas. Pollock's revolutionary drip paintings, created by dripping and pouring paint directly onto canvas laid on the floor, exemplified this approach. The technique made the process of creation as significant as the finished artwork, with the artist's movements and energy becoming integral parts of the composition. This method influenced countless artists and helped establish New York as a major center of the art world.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Action_painting",
+    "citationTitle": "Wikipedia: Action painting"
+  },
+  {
+    "id": "d4ac6429-9131-408a-bb41-c1dc0f28b605",
+    "text": "The Neue Sachlichkeit (New Objectivity) movement emerged in 1920s Germany as a reaction against which earlier art movement?",
+    "options": [
+      "Impressionism",
+      "Expressionism",
+      "Cubism",
+      "Fauvism"
+    ],
+    "correctIndex": 1,
+    "category": "arts",
+    "difficulty": "medium",
+    "explanation": "Neue Sachlichkeit emerged as a direct reaction against German Expressionism, favoring realistic depictions over emotional abstraction.",
+    "detailedExplanation": "Neue Sachlichkeit, or New Objectivity, was a German art movement that emerged in the 1920s as a direct reaction against the emotional intensity and subjective distortions of German Expressionism. Artists associated with this movement, including Otto Dix, George Grosz, and Christian Schad, rejected the abstract and emotional approach of Expressionism in favor of a more realistic, objective style that often carried sharp social and political commentary. The movement was characterized by precise, detailed painting techniques and cynical portrayals of contemporary German society, particularly in the aftermath of World War I and during the Weimar Republic period.",
+    "citationUrl": "https://en.wikipedia.org/wiki/New_Objectivity",
+    "citationTitle": "Wikipedia: New Objectivity"
+  },
+  {
+    "id": "95411db4-ed10-4d12-9291-10e23f57ab15",
+    "text": "Which art movement of the 1950s and 1960s, associated with Yves Klein and Piero Manzoni, focused on creating artworks through gestures, performances, and unconventional materials?",
+    "options": [
+      "Arte Povera",
+      "Nouveau Réalisme",
+      "Supports/Surfaces",
+      "Lettrism"
+    ],
+    "correctIndex": 1,
+    "category": "arts",
+    "difficulty": "medium",
+    "explanation": "Nouveau Réalisme was founded in 1960 by critic Pierre Restany and included artists who used everyday objects and unconventional materials in their work.",
+    "detailedExplanation": "Nouveau Réalisme (New Realism) was a French art movement founded in 1960 by art critic Pierre Restany, bringing together artists like Yves Klein, Piero Manzoni, César Baldaccini, and Arman. The movement was characterized by the use of everyday objects, industrial materials, and unconventional artistic processes. Yves Klein became famous for his monochromatic blue paintings using his patented International Klein Blue, while Piero Manzoni created controversial works like 'Artist's Shit' and performances involving his breath and fingerprints. The movement was contemporary with American Pop Art but maintained a more European sensibility, focusing on the appropriation and transformation of reality rather than its mere representation.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Nouveau_r%C3%A9alisme",
+    "citationTitle": "Wikipedia: Nouveau réalisme"
+  }
+]

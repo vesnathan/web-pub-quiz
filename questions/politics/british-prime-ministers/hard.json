@@ -1,0 +1,342 @@
+[
+  {
+    "id": "9c49d307-1dcf-4a69-84da-5e79b88de004",
+    "text": "Which British Prime Minister was the first to be born in the 20th century?",
+    "options": [
+      "Harold Wilson",
+      "Alec Douglas-Home",
+      "Harold Macmillan",
+      "Anthony Eden"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Alec Douglas-Home was born on 2 July 1903, making him the first Prime Minister born in the 20th century.",
+    "detailedExplanation": "Sir Alec Douglas-Home, who served as Prime Minister from 1963-1964, was born on 2 July 1903, making him the first British Prime Minister to be born in the 20th century. His predecessors Harold Macmillan (1894), Anthony Eden (1897), and Winston Churchill (1874) were all born in the 19th century. Harold Wilson, born in 1916, succeeded Douglas-Home but came after him chronologically.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Alec_Douglas-Home",
+    "citationTitle": "Wikipedia: Alec Douglas-Home"
+  },
+  {
+    "id": "669b1323-5206-430a-be23-14919579960c",
+    "text": "Which Prime Minister served the shortest tenure in British history before Liz Truss?",
+    "options": [
+      "George Canning",
+      "Viscount Goderich",
+      "Bonar Law",
+      "Alec Douglas-Home"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "George Canning served for only 119 days in 1827 before dying in office, holding the record for shortest tenure until Liz Truss's 45 days.",
+    "detailedExplanation": "George Canning served as Prime Minister for just 119 days from April to August 1827, when he died of illness while in office. This made him the shortest-serving Prime Minister in British history until Liz Truss's remarkably brief 45-day tenure in 2022. Viscount Goderich served 144 days, while Bonar Law served 211 days. Canning was a prominent foreign secretary before becoming PM and was known for his liberal policies and opposition to the Holy Alliance.",
+    "citationUrl": "https://en.wikipedia.org/wiki/George_Canning",
+    "citationTitle": "Wikipedia: George Canning"
+  },
+  {
+    "id": "63e1a615-6627-4541-b86c-13df54ad3b95",
+    "text": "Which Prime Minister was known by the nickname 'The Goat'?",
+    "options": [
+      "David Lloyd George",
+      "Herbert Asquith",
+      "Arthur Balfour",
+      "Henry Campbell-Bannerman"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "David Lloyd George was nicknamed 'The Goat' due to his Welsh heritage and allegedly goat-like appearance and behavior.",
+    "detailedExplanation": "David Lloyd George, who served as Prime Minister from 1916-1922, was commonly known by the nickname 'The Goat.' This moniker arose from several factors: his Welsh heritage (Wales being associated with goats), his distinctive appearance with a pointed beard, and his reputation for being both stubborn and lustful. The nickname was used both affectionately and critically, reflecting his complex personality as a charismatic but controversial political figure who led Britain through the latter part of World War I.",
+    "citationUrl": "https://en.wikipedia.org/wiki/David_Lloyd_George",
+    "citationTitle": "Wikipedia: David Lloyd George"
+  },
+  {
+    "id": "9c2de762-1af7-49f3-9748-1e6ec951b5da",
+    "text": "Which Prime Minister served under three different monarchs during their various terms in office?",
+    "options": [
+      "William Gladstone",
+      "Lord Salisbury",
+      "Benjamin Disraeli",
+      "Lord Palmerston"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "William Gladstone served under Queen Victoria, King Edward VII, and King George V across his four separate terms as Prime Minister.",
+    "detailedExplanation": "William Gladstone uniquely served as Prime Minister under three different monarchs across his four non-consecutive terms (1868-74, 1880-85, 1886, 1892-94). He served under Queen Victoria for his first three terms, under King Edward VII for part of his career, and lived into the reign of King George V, though his final term ended in 1894 during Victoria's reign. His extraordinarily long political career spanned over 60 years, making him one of the most enduring figures in British political history.",
+    "citationUrl": "https://en.wikipedia.org/wiki/William_Ewart_Gladstone",
+    "citationTitle": "Wikipedia: William Ewart Gladstone"
+  },
+  {
+    "id": "2cbd2a9a-de30-4a33-9b45-57d86a33c7b2",
+    "text": "Which Prime Minister was the first to live at 10 Downing Street?",
+    "options": [
+      "Robert Walpole",
+      "Lord North",
+      "Duke of Newcastle",
+      "Henry Pelham"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Lord North was the first Prime Minister to actually live at 10 Downing Street, though it was offered to Robert Walpole first.",
+    "detailedExplanation": "While 10 Downing Street was offered to Sir Robert Walpole in 1735 by King George II, Walpole accepted it as the official residence of the First Lord of the Treasury rather than as a personal gift. However, Lord North (1770-1782) was actually the first Prime Minister to use it as his primary residence. Walpole used it mainly for official functions, while North was the first to treat it as his home. The building has served as the official residence of the Prime Minister ever since, though not all PMs have chosen to live there full-time.",
+    "citationUrl": "https://en.wikipedia.org/wiki/10_Downing_Street",
+    "citationTitle": "Wikipedia: 10 Downing Street"
+  },
+  {
+    "id": "a9b1d2fe-21fa-47a8-b743-3d18e5f7fed0",
+    "text": "Which Prime Minister was in office during the infamous 'Black Wednesday' currency crisis?",
+    "options": [
+      "Margaret Thatcher",
+      "John Major",
+      "Tony Blair",
+      "James Callaghan"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "John Major was Prime Minister during Black Wednesday on 16 September 1992, when the UK was forced to withdraw from the European Exchange Rate Mechanism.",
+    "detailedExplanation": "John Major was Prime Minister during 'Black Wednesday' on 16 September 1992, one of the most dramatic financial crises in modern British history. The UK government was forced to withdraw the pound sterling from the European Exchange Rate Mechanism (ERM) after failing to keep the currency above its agreed lower limit. The government raised interest rates twice in one day (from 10% to 12% to 15%) and spent billions trying to prop up the currency, but ultimately had to surrender. The crisis severely damaged the Conservative Party's reputation for economic competence and contributed to their 1997 election defeat.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Black_Wednesday",
+    "citationTitle": "Wikipedia: Black Wednesday"
+  },
+  {
+    "id": "30edf463-e350-4311-9529-9bc22dcac33d",
+    "text": "Which Prime Minister was the first to be educated at a comprehensive school?",
+    "options": [
+      "John Major",
+      "Gordon Brown",
+      "Theresa May",
+      "James Callaghan"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "John Major was the first Prime Minister educated at a comprehensive school, attending Rutlish School in Wimbledon.",
+    "detailedExplanation": "John Major was the first British Prime Minister to have been educated at a comprehensive school, attending Rutlish School in Wimbledon. This marked a significant departure from the traditional educational backgrounds of previous Prime Ministers, who typically attended elite public schools like Eton or Harrow, or grammar schools. Major's comprehensive school education was part of his relatively humble background compared to many of his predecessors, and he left school at 16 with just three O-levels, making his rise to the highest office in the land particularly remarkable.",
+    "citationUrl": "https://en.wikipedia.org/wiki/John_Major",
+    "citationTitle": "Wikipedia: John Major"
+  },
+  {
+    "id": "5bb66a82-268a-4899-8705-1245e4646657",
+    "text": "Which Prime Minister was known for playing the piano at Chequers and composed several pieces of music?",
+    "options": [
+      "Edward Heath",
+      "Harold Wilson",
+      "Winston Churchill",
+      "Anthony Eden"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Edward Heath was an accomplished musician who played piano and conducted orchestras.",
+    "detailedExplanation": "Edward Heath, who served as Prime Minister from 1970-1974, was a passionate musician throughout his life. He was an accomplished pianist and conductor, regularly playing at Chequers (the Prime Minister's country residence) and even conducting major orchestras including the London Symphony Orchestra. Heath composed several pieces and considered music one of his greatest passions alongside politics and sailing.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Edward_Heath",
+    "citationTitle": "Wikipedia: Edward Heath"
+  },
+  {
+    "id": "58aa5280-6bd7-41a3-ac5a-bd77c1c19d8d",
+    "text": "Which Prime Minister's government was brought down by the 'Winter of Discontent'?",
+    "options": [
+      "Harold Wilson",
+      "James Callaghan",
+      "Edward Heath",
+      "Margaret Thatcher"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "James Callaghan's Labour government fell after the widespread strikes of 1978-79.",
+    "detailedExplanation": "The 'Winter of Discontent' refers to the winter of 1978-79 when James Callaghan's Labour government faced widespread public sector strikes. The strikes involved refuse collectors, gravediggers, hospital workers, and school caretakers, creating chaos across the country. The media coined the phrase from Shakespeare's Richard III, and the crisis severely damaged Labour's reputation for managing the unions, ultimately leading to Callaghan's defeat in the 1979 general election and Margaret Thatcher's rise to power.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Winter_of_Discontent",
+    "citationTitle": "Wikipedia: Winter of Discontent"
+  },
+  {
+    "id": "41998222-3628-4ec3-98c6-1bbcdceb0281",
+    "text": "Which Prime Minister was famously depicted in a Spitting Image puppet wearing a suit and speaking in a monotone voice while obsessed with cricket?",
+    "options": [
+      "John Major",
+      "James Callaghan",
+      "Alec Douglas-Home",
+      "Harold Wilson"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "John Major was satirized on Spitting Image as grey and boring, often shown eating peas or discussing cricket.",
+    "detailedExplanation": "John Major's Spitting Image puppet became one of the show's most memorable political caricatures during the 1990s. He was portrayed as extraordinarily dull and grey, often shown eating peas, tucking his shirt into his underpants, or obsessing over cricket in a monotone voice. This satirical portrayal, while cruel, became so culturally pervasive that it arguably influenced public perception of Major's personality and contributed to his image problems as Prime Minister, despite his significant political achievements including winning the 1992 general election.",
+    "citationUrl": "https://en.wikipedia.org/wiki/John_Major",
+    "citationTitle": "Wikipedia: John Major"
+  },
+  {
+    "id": "331dce0d-7611-4dec-a119-ec3e2cff87a7",
+    "text": "Which Prime Minister was the first to appear on television while in office?",
+    "options": [
+      "Winston Churchill",
+      "Clement Attlee",
+      "Anthony Eden",
+      "Harold Macmillan"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Clement Attlee made the first television broadcast by a serving Prime Minister in 1951.",
+    "detailedExplanation": "Clement Attlee became the first serving British Prime Minister to appear on television when he made a broadcast in 1951, near the end of his tenure. This was during the early days of television when BBC Television Service was still in its infancy and few households owned TV sets. Attlee's appearance marked a significant moment in the evolution of political communication, paving the way for television to become the dominant medium for political discourse that it remains today.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Clement_Attlee",
+    "citationTitle": "Wikipedia: Clement Attlee"
+  },
+  {
+    "id": "1a6514c2-717a-4014-8291-da0709e3e9d3",
+    "text": "Which Prime Minister was forced to resign following the Profumo Affair scandal?",
+    "options": [
+      "Anthony Eden",
+      "Harold Macmillan",
+      "Alec Douglas-Home",
+      "Harold Wilson"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Harold Macmillan resigned in 1963 partly due to the damage caused by the Profumo scandal.",
+    "detailedExplanation": "The Profumo Affair of 1963 involved Secretary of State for War John Profumo's relationship with Christine Keeler, who was also involved with a Soviet naval attaché. When Profumo lied to Parliament about the affair, it created a major scandal about security risks and government integrity. Although Harold Macmillan cited health reasons for his resignation in October 1963, the scandal had severely damaged his government's credibility and his own authority, making his position increasingly untenable and contributing significantly to his decision to step down.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Profumo_affair",
+    "citationTitle": "Wikipedia: Profumo affair"
+  },
+  {
+    "id": "006c892d-5a8c-4915-9b1d-c0bb93c625d3",
+    "text": "Which Prime Minister was known for keeping a detailed diary throughout their political career, later published in multiple volumes?",
+    "options": [
+      "Tony Benn",
+      "Richard Crossman",
+      "Tony Blair",
+      "Harold Wilson"
+    ],
+    "correctIndex": 3,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Harold Wilson kept extensive diaries throughout his political career, which were later published.",
+    "detailedExplanation": "Harold Wilson was a meticulous diarist who kept detailed records throughout his political career, including his time as Prime Minister from 1964-1970 and 1974-1976. His diaries, later published as 'The Labour Government 1964-1970: A Personal Record' and other volumes, provide invaluable insights into the inner workings of government during crucial periods including Britain's economic crises, the devaluation of the pound, and various political machinations. These diaries remain important historical sources for understanding British politics in the 1960s and 1970s.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Harold_Wilson",
+    "citationTitle": "Wikipedia: Harold Wilson"
+  },
+  {
+    "id": "e9811588-ac98-4cda-a0af-dee054799354",
+    "text": "Which Prime Minister was the last to hold the additional title of 'First Lord of the Treasury' exclusively?",
+    "options": [
+      "This is a trick question - all PMs hold this title",
+      "Winston Churchill",
+      "Clement Attlee",
+      "David Lloyd George"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "All British Prime Ministers automatically hold the title 'First Lord of the Treasury' as part of their office.",
+    "detailedExplanation": "This is indeed a trick question, as the office of Prime Minister is technically still 'First Lord of the Treasury' - there is no separate legal office called 'Prime Minister.' Every person who has served as Prime Minister since Sir Robert Walpole has held the title First Lord of the Treasury, and this remains true today. The title 'Prime Minister' evolved as a conventional description of the First Lord's role as the monarch's principal minister, but constitutionally, the formal appointment is always to the Treasury position.",
+    "citationUrl": "https://en.wikipedia.org/wiki/First_Lord_of_the_Treasury",
+    "citationTitle": "Wikipedia: First Lord of the Treasury"
+  },
+  {
+    "id": "07075ddf-da5e-4965-a146-74fda1df0b47",
+    "text": "Which Prime Minister was the first to hold a science degree from Oxford University?",
+    "options": [
+      "Margaret Thatcher",
+      "Harold Wilson",
+      "Tony Blair",
+      "Gordon Brown"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Margaret Thatcher studied chemistry at Somerville College, Oxford, making her the first PM with a science degree.",
+    "detailedExplanation": "Margaret Thatcher graduated from Somerville College, Oxford in 1947 with a degree in chemistry, specializing in X-ray crystallography. She worked as a research chemist before entering politics and becoming a barrister. This scientific background was unique among British Prime Ministers and influenced her analytical approach to policy-making throughout her political career.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Margaret_Thatcher",
+    "citationTitle": "Wikipedia: Margaret Thatcher"
+  },
+  {
+    "id": "a989a4a7-2dd5-4e9e-a259-aae10cf1f3b9",
+    "text": "Which Prime Minister served in both World Wars, fighting as a soldier in WWI and leading Britain through WWII?",
+    "options": [
+      "Clement Attlee",
+      "Harold Macmillan",
+      "Winston Churchill",
+      "Anthony Eden"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Winston Churchill served as a soldier and war correspondent in WWI, then led Britain as Prime Minister during WWII.",
+    "detailedExplanation": "Winston Churchill had the unique distinction of participating in both World Wars in different capacities. During WWI, he served as First Lord of the Admiralty and later fought on the Western Front as a battalion commander after the Dardanelles disaster. In WWII, he became Prime Minister in May 1940 and led Britain through its darkest hours, becoming an iconic wartime leader whose speeches and determination helped rally the nation.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Winston_Churchill",
+    "citationTitle": "Wikipedia: Winston Churchill"
+  },
+  {
+    "id": "7679440e-1065-4439-bab4-30dceb53129d",
+    "text": "Which Prime Minister's father was also a prominent politician who served as Chancellor of the Exchequer?",
+    "options": [
+      "William Pitt the Younger",
+      "Alec Douglas-Home",
+      "Harold Macmillan",
+      "David Cameron"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "William Pitt the Younger's father, William Pitt the Elder, was a distinguished politician and served as Chancellor.",
+    "detailedExplanation": "William Pitt the Younger became Prime Minister at just 24 years old in 1783, making him the youngest person ever to hold the office. His father, William Pitt the Elder (later Earl of Chatham), was one of Britain's most celebrated 18th-century politicians who served as Chancellor of the Exchequer and effectively as Prime Minister during the Seven Years' War. The Pitt family represented one of Britain's most significant political dynasties.",
+    "citationUrl": "https://en.wikipedia.org/wiki/William_Pitt_the_Younger",
+    "citationTitle": "Wikipedia: William Pitt the Younger"
+  },
+  {
+    "id": "c47b3684-0d68-44c4-b546-4fdedadc0aa9",
+    "text": "Which Prime Minister introduced the People's Budget that led to a constitutional crisis with the House of Lords?",
+    "options": [
+      "H.H. Asquith",
+      "David Lloyd George",
+      "Henry Campbell-Bannerman",
+      "Ramsay MacDonald"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "David Lloyd George, as Chancellor under Asquith, introduced the 1909 People's Budget that the Lords rejected.",
+    "detailedExplanation": "David Lloyd George, serving as Chancellor of the Exchequer under H.H. Asquith, introduced the revolutionary 1909 'People's Budget' which proposed unprecedented taxes on land and wealth to fund social reforms and naval expansion. The House of Lords' rejection of this budget triggered a constitutional crisis that ultimately led to the Parliament Act 1911, which severely limited the Lords' power to block legislation. Lloyd George later became Prime Minister himself from 1916 to 1922.",
+    "citationUrl": "https://en.wikipedia.org/wiki/David_Lloyd_George",
+    "citationTitle": "Wikipedia: David Lloyd George"
+  },
+  {
+    "id": "b2886e59-4b73-4ac8-b1d3-27369a60a849",
+    "text": "Which Prime Minister was the first to be born outside the British Isles?",
+    "options": [
+      "Andrew Bonar Law",
+      "Winston Churchill",
+      "Harold Macmillan",
+      "Tony Blair"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Andrew Bonar Law was born in New Brunswick, Canada, making him the first PM born outside the British Isles.",
+    "detailedExplanation": "Andrew Bonar Law was born in Kingston, New Brunswick, Canada in 1858, making him the first and only British Prime Minister to be born outside the British Isles. He moved to Scotland at age 12 after his mother's death and built a successful business career before entering politics. He served as Prime Minister from October 1922 until May 1923, when ill health forced his resignation. He died shortly afterward, making his tenure one of the shortest in British political history.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Bonar_Law",
+    "citationTitle": "Wikipedia: Bonar Law"
+  },
+  {
+    "id": "5b2d50d7-5ad8-40e3-9a41-8f98b8d5fd6f",
+    "text": "Which British Prime Minister was the first to be divorced while serving in office?",
+    "options": [
+      "Anthony Eden",
+      "Harold Macmillan",
+      "John Major",
+      "Boris Johnson"
+    ],
+    "correctIndex": 3,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Boris Johnson became the first British Prime Minister to be divorced while in office when his divorce from Marina Wheeler was finalized in 2020.",
+    "detailedExplanation": "Boris Johnson made history as the first British Prime Minister to be divorced while actually serving in office. His divorce from barrister Marina Wheeler was finalized in November 2020, during his tenure at Number 10. While other Prime Ministers had experienced marital difficulties or divorces, none had actually completed divorce proceedings while holding the office of Prime Minister. Johnson later married Carrie Symonds in May 2021, also making him the first Prime Minister to marry while in office for over 200 years.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Boris_Johnson",
+    "citationTitle": "Wikipedia: Boris Johnson"
+  }
+]

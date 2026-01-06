@@ -1,0 +1,342 @@
+[
+  {
+    "id": "4bfa5d67-6d4a-45aa-850a-0055aa3c967c",
+    "text": "What is the term for the highest-ranking diplomatic representative that one country sends to another?",
+    "options": [
+      "Ambassador",
+      "Consul",
+      "Attaché",
+      "Chargé d'affaires"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "An ambassador is the highest-ranking diplomatic representative sent by one country to another.",
+    "detailedExplanation": "An ambassador is the chief diplomatic representative of a country in another nation, typically residing in the capital city and serving as the primary channel for official communications between governments. Ambassadors are usually appointed by heads of state and represent their country's interests in all diplomatic matters, from trade negotiations to cultural exchanges.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Ambassador",
+    "citationTitle": "Wikipedia: Ambassador"
+  },
+  {
+    "id": "002d9713-a9de-4e71-b014-f5647109ac36",
+    "text": "Which international organization serves as the primary forum for diplomatic dialogue between nations worldwide?",
+    "options": [
+      "NATO",
+      "United Nations",
+      "World Bank",
+      "International Monetary Fund"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "The United Nations serves as the primary global forum for diplomatic dialogue between countries.",
+    "detailedExplanation": "Established in 1945, the United Nations provides a central platform where representatives from 193 member countries can engage in diplomatic discussions, negotiate international agreements, and address global challenges. The UN General Assembly, Security Council, and various specialized agencies facilitate diplomatic relations and peaceful resolution of conflicts between nations.",
+    "citationUrl": "https://en.wikipedia.org/wiki/United_Nations",
+    "citationTitle": "Wikipedia: United Nations"
+  },
+  {
+    "id": "c99b5641-fae6-433c-82a1-ae6ddbc07dcc",
+    "text": "What does it mean when a country 'recognizes' another country diplomatically?",
+    "options": [
+      "They agree to trade with them",
+      "They acknowledge them as a legitimate sovereign state",
+      "They provide military support",
+      "They share intelligence information"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Diplomatic recognition means acknowledging another entity as a legitimate sovereign state.",
+    "detailedExplanation": "Diplomatic recognition is a formal acknowledgment by one state that another political entity constitutes a sovereign state with a legitimate government. This recognition is essential for establishing formal diplomatic relations, exchanging ambassadors, and conducting official business. Recognition can be extended or withdrawn based on political considerations and is a fundamental principle in international law.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Diplomatic_recognition",
+    "citationTitle": "Wikipedia: Diplomatic recognition"
+  },
+  {
+    "id": "329e0065-5bdb-4b95-b085-8a44ec88dcd2",
+    "text": "Which principle of international law protects diplomats from arrest or prosecution in the countries where they serve?",
+    "options": [
+      "Diplomatic immunity",
+      "Sovereign equality",
+      "Non-interference",
+      "Territorial integrity"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Diplomatic immunity protects diplomats from legal action in their host countries.",
+    "detailedExplanation": "Diplomatic immunity is a principle of international law that grants diplomats protection from legal action in the country where they are stationed. This immunity covers both criminal and civil jurisdiction, ensuring that diplomats can perform their duties without fear of harassment or coercion by the host government. The concept is codified in the 1961 Vienna Convention on Diplomatic Relations.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Diplomatic_immunity",
+    "citationTitle": "Wikipedia: Diplomatic immunity"
+  },
+  {
+    "id": "9aca02bc-0c94-496c-b682-017f95e8f392",
+    "text": "What is the name of the building or complex where a country's diplomatic mission is housed in another country?",
+    "options": [
+      "Consulate",
+      "Embassy",
+      "Legation",
+      "Chancellery"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "An embassy is the building or complex housing a country's diplomatic mission in another country.",
+    "detailedExplanation": "An embassy is the official residence and workplace of a country's diplomatic mission in another nation, typically located in the capital city. The embassy serves as the headquarters for the ambassador and diplomatic staff, providing services to citizens abroad, processing visas, and conducting official business between the two countries. Embassy grounds are considered sovereign territory of the sending state.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Embassy",
+    "citationTitle": "Wikipedia: Embassy"
+  },
+  {
+    "id": "0d56537d-6255-4fdf-a67d-9af01c986122",
+    "text": "What is it called when diplomatic relations between two countries are temporarily suspended but not completely severed?",
+    "options": [
+      "Diplomatic recall",
+      "Embassy closure",
+      "Diplomatic rupture",
+      "All of the above"
+    ],
+    "correctIndex": 3,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "All these terms describe different ways diplomatic relations can be temporarily suspended.",
+    "detailedExplanation": "When diplomatic relations become strained, countries have several options short of completely severing ties. Diplomatic recall involves bringing ambassadors home temporarily, embassy closure means shutting down diplomatic facilities, and diplomatic rupture refers to a temporary break in relations. These measures allow countries to express displeasure while leaving the door open for future reconciliation without the formal process required to completely break diplomatic ties.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Diplomatic_relations",
+    "citationTitle": "Wikipedia: Diplomatic relations"
+  },
+  {
+    "id": "779cd4f3-163a-489e-9f8a-fa5ec5de1726",
+    "text": "Which document typically governs the establishment of formal diplomatic relations between two countries?",
+    "options": [
+      "Trade agreement",
+      "Peace treaty",
+      "Joint communiqué",
+      "Military alliance"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "A joint communiqué is typically used to formally establish diplomatic relations between countries.",
+    "detailedExplanation": "A joint communiqué is a formal document issued simultaneously by two or more countries to announce agreements or shared positions. When establishing diplomatic relations, countries often issue a joint communiqué that outlines the terms of recognition, the basis for future cooperation, and mutual commitments. This document serves as the foundation for ongoing diplomatic engagement and is often followed by the exchange of ambassadors.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Joint_communiqu%C3%A9",
+    "citationTitle": "Wikipedia: Joint communiqué"
+  },
+  {
+    "id": "95a89fd4-8f25-44cb-8f4e-824a07b3eff8",
+    "text": "What is the term for the formal process of presenting diplomatic credentials to a head of state?",
+    "options": [
+      "Diplomatic accreditation",
+      "Letters of credence",
+      "Ambassadorial presentation",
+      "Diplomatic installation"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Letters of credence refer to the formal credentials presented by new ambassadors to heads of state.",
+    "detailedExplanation": "Letters of credence are formal diplomatic documents that accredit a new ambassador to the receiving country. The ambassador presents these credentials, signed by their own head of state, to the host country's head of state in a formal ceremony. This presentation officially marks the beginning of the ambassador's tenure and establishes their authority to represent their home country in all diplomatic matters.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Letter_of_credence",
+    "citationTitle": "Wikipedia: Letter of credence"
+  },
+  {
+    "id": "cbbeef77-b715-48eb-961c-fde49b8a359f",
+    "text": "What is the traditional diplomatic protocol when a country wants to express strong disapproval of another nation's actions?",
+    "options": [
+      "Recall their ambassador",
+      "Close all trade routes",
+      "Impose economic sanctions",
+      "Declare war immediately"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Recalling an ambassador is a traditional diplomatic way to express strong disapproval without severing relations completely.",
+    "detailedExplanation": "When a country wants to express serious displeasure with another nation's actions, the most common diplomatic response is to recall their ambassador for consultations. This sends a clear message of disapproval while maintaining the possibility of future dialogue. It's considered a strong but measured response that falls short of breaking diplomatic relations entirely, allowing both countries to de-escalate tensions if desired.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Diplomatic_recall",
+    "citationTitle": "Wikipedia: Diplomatic recall"
+  },
+  {
+    "id": "f19ed282-d860-425e-9f73-dd1f97e647d5",
+    "text": "Which color of passport is traditionally used by diplomats for official travel?",
+    "options": [
+      "Red",
+      "Blue",
+      "Black",
+      "Green"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Diplomatic passports are traditionally red or maroon in color to distinguish them from regular civilian passports.",
+    "detailedExplanation": "Diplomatic passports are typically red or maroon in color, though this varies by country. These special passports are issued to diplomats, high-ranking government officials, and their families for official travel. The distinctive color helps border officials immediately recognize the bearer's diplomatic status, which may entitle them to expedited processing and certain privileges under international law.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Diplomatic_passport",
+    "citationTitle": "Wikipedia: Diplomatic passport"
+  },
+  {
+    "id": "4b5737dc-1f5c-4e7b-a090-184826ccacf1",
+    "text": "What is the diplomatic term for a junior diplomat's first assignment to a foreign country?",
+    "options": [
+      "First posting",
+      "Initial deployment",
+      "Primary mission",
+      "Maiden voyage"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "A 'first posting' is the diplomatic term for a junior diplomat's initial assignment to serve in a foreign country.",
+    "detailedExplanation": "In diplomatic service, a 'posting' refers to an assignment to serve at a particular embassy, consulate, or diplomatic mission. A diplomat's 'first posting' is their initial assignment abroad, typically lasting 2-4 years. This is an important career milestone where new diplomats gain practical experience in international relations, consular services, and representing their home country's interests in a foreign nation.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Diplomatic_service",
+    "citationTitle": "Wikipedia: Diplomatic service"
+  },
+  {
+    "id": "f23896ae-1ec6-4365-a3e1-c32c83b158f0",
+    "text": "Which famous diplomatic residence in the UK is located at Number 1 Carlton Gardens?",
+    "options": [
+      "The German Ambassador's Residence",
+      "The French Ambassador's Residence",
+      "The US Ambassador's Residence",
+      "The Chinese Ambassador's Residence"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "The German Ambassador's official residence in London is located at 1 Carlton Gardens.",
+    "detailedExplanation": "1 Carlton Gardens in London serves as the official residence of the German Ambassador to the United Kingdom. This prestigious address near St. James's Park has been home to the German diplomatic mission since the post-World War II era. The building is one of several grand diplomatic residences in central London that house foreign ambassadors and serve as venues for official diplomatic functions and cultural events.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Carlton_Gardens",
+    "citationTitle": "Wikipedia: Carlton Gardens"
+  },
+  {
+    "id": "89548b06-b52c-41c0-a7b9-f6e968f636b6",
+    "text": "What is the minimum age requirement to become a career diplomat in most countries' foreign services?",
+    "options": [
+      "18 years old",
+      "21 years old",
+      "25 years old",
+      "30 years old"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Most countries require diplomatic candidates to be at least 21 years old, though many also require a university degree.",
+    "detailedExplanation": "While requirements vary by country, most foreign services set the minimum age for diplomatic careers at 21 years old. However, in practice, most new diplomats are older because the position typically requires a university degree and often additional qualifications such as language skills, cultural knowledge, and sometimes graduate education or relevant work experience. The diplomatic service is considered a prestigious career requiring significant educational preparation and maturity.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Foreign_Service_Officer",
+    "citationTitle": "Wikipedia: Foreign Service Officer"
+  },
+  {
+    "id": "11ae3e52-c896-4d78-ba3f-32faeceaede8",
+    "text": "What does the diplomatic term 'persona non grata' mean?",
+    "options": [
+      "Welcome guest",
+      "Unwelcome person",
+      "Official representative",
+      "Cultural attaché"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "'Persona non grata' is Latin for 'unwelcome person' and refers to a diplomat who is no longer acceptable to the host country.",
+    "detailedExplanation": "'Persona non grata' is a Latin diplomatic term meaning 'unwelcome person.' When a diplomat is declared persona non grata by a host country, they are essentially being expelled and must leave the country. This designation is used when a diplomat is suspected of espionage, has violated local laws, or has behaved in a manner deemed unacceptable by the host government. It's a serious diplomatic measure that can strain relations between countries.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Persona_non_grata",
+    "citationTitle": "Wikipedia: Persona non grata"
+  },
+  {
+    "id": "10ca4284-99f0-47f4-9a07-60b58a828c08",
+    "text": "Which international treaty from 1961 established the modern rules governing diplomatic relations?",
+    "options": [
+      "Geneva Convention",
+      "Vienna Convention",
+      "Paris Agreement",
+      "Hague Convention"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "The Vienna Convention on Diplomatic Relations (1961) established the modern framework for diplomatic immunity and relations.",
+    "detailedExplanation": "The Vienna Convention on Diplomatic Relations, signed in 1961, is the foundational international treaty that governs diplomatic relations between independent countries. It codifies many longstanding diplomatic practices and establishes the framework for diplomatic immunity, the inviolability of diplomatic premises, and the rights and duties of diplomatic personnel. This treaty has been ratified by nearly all countries worldwide and forms the legal basis for modern diplomatic practice.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Vienna_Convention_on_Diplomatic_Relations",
+    "citationTitle": "Wikipedia: Vienna Convention on Diplomatic Relations"
+  },
+  {
+    "id": "ef7fec2a-651c-41a7-8690-7fa56587c906",
+    "text": "What is the traditional diplomatic gift exchange called when new diplomatic relations are established?",
+    "options": [
+      "Ceremonial tribute",
+      "State present",
+      "Diplomatic courtesy",
+      "Protocol offering"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "The exchange of gifts during diplomatic ceremonies is known as a 'diplomatic courtesy' or courtesy exchange.",
+    "detailedExplanation": "Diplomatic courtesy refers to the traditional practices and gift exchanges that occur during formal diplomatic occasions, such as establishing new relations or during state visits. These exchanges often include culturally significant items that represent each country's heritage, such as artwork, crafts, or symbolic objects. The practice serves to demonstrate mutual respect and goodwill between nations, though the gifts are typically modest in value to avoid any appearance of bribery or undue influence.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Diplomatic_protocol",
+    "citationTitle": "Wikipedia: Diplomatic protocol"
+  },
+  {
+    "id": "5240fc1a-0fd6-434b-96f8-73837a572951",
+    "text": "What is the term for the practice of conducting negotiations and maintaining relations between nations?",
+    "options": [
+      "Diplomacy",
+      "Sovereignty",
+      "Annexation",
+      "Ratification"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Diplomacy is the art and practice of conducting negotiations and maintaining relations between nations.",
+    "detailedExplanation": "Diplomacy encompasses all the methods and processes used by countries to communicate, negotiate, and maintain relationships with one another. It includes everything from formal treaty negotiations to cultural exchanges, and is considered essential for peaceful international relations. The word comes from the Greek 'diploma,' meaning folded document, which referred to official documents that granted travelers safe passage.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Diplomacy",
+    "citationTitle": "Wikipedia: Diplomacy"
+  },
+  {
+    "id": "d9b767c8-ec93-4e05-b237-ec81a57146f1",
+    "text": "Which city is known as the 'International City of Peace and Diplomacy' and hosts numerous international organizations?",
+    "options": [
+      "Brussels",
+      "Geneva",
+      "Vienna",
+      "The Hague"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Geneva is known as the 'International City of Peace and Diplomacy' and hosts many UN agencies and international organizations.",
+    "detailedExplanation": "Geneva, Switzerland, has earned its reputation as a major center for international diplomacy by hosting numerous international organizations including the World Health Organization, the International Labour Organization, and many UN agencies. The city has a long tradition of neutrality and diplomatic activity, making it a preferred location for international negotiations and peace talks throughout history.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Geneva",
+    "citationTitle": "Wikipedia: Geneva"
+  },
+  {
+    "id": "ff1f861d-c78e-4a97-8eae-bcaa6bc758bd",
+    "text": "What is the diplomatic practice called when countries use cultural exchanges, education, and media to influence foreign public opinion?",
+    "options": [
+      "Hard power",
+      "Soft diplomacy",
+      "Trade diplomacy",
+      "Coercive diplomacy"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Soft diplomacy (or soft power) uses cultural attraction, education, and media rather than military or economic coercion to influence other countries.",
+    "detailedExplanation": "Soft diplomacy, also known as soft power, is a diplomatic approach that relies on attraction and persuasion rather than coercion. This includes promoting a country's culture, values, and policies through educational exchanges, cultural programs, broadcasting, and other non-coercive means. The term was popularized by political scientist Joseph Nye and contrasts with 'hard power,' which relies on military force or economic sanctions.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Soft_power",
+    "citationTitle": "Wikipedia: Soft power"
+  },
+  {
+    "id": "d4f1570e-3954-4b27-84eb-62fdde3efd84",
+    "text": "In diplomatic protocol, what is the traditional order of precedence based on for ranking diplomats at official events?",
+    "options": [
+      "Country's economic power",
+      "Size of diplomatic mission",
+      "Date of arrival in the country",
+      "Alphabetical order of countries"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Diplomatic precedence is traditionally based on the date of arrival or presentation of credentials, following the 'first come, first served' principle.",
+    "detailedExplanation": "The diplomatic principle of precedence by date of arrival, known as 'ordre de préséance,' was established to avoid conflicts over ranking based on the relative importance or power of different countries. This system means that the ambassador who has been in post the longest, regardless of which country they represent, takes precedence at official functions. This egalitarian approach helps maintain diplomatic harmony and avoids potentially offensive hierarchies based on national power or prestige.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Diplomatic_precedence",
+    "citationTitle": "Wikipedia: Diplomatic precedence"
+  }
+]

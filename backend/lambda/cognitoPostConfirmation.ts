@@ -34,6 +34,8 @@ interface UserProfile {
   id: string;
   email: string;
   displayName: string;
+  firstName: string | null;
+  lastName: string | null;
   createdAt: string;
   stats: {
     totalCorrect: number;
@@ -45,6 +47,8 @@ interface UserProfile {
     longestStreak: number;
   };
   subscription: UserSubscription;
+  referredBy: string | null;
+  referralCount: number;
 }
 
 // 1 week in milliseconds
@@ -112,6 +116,9 @@ export const handler: PostConfirmationTriggerHandler = async (event: PostConfirm
   const preferredDisplayName = event.request.userAttributes.preferred_username
     || event.request.userAttributes.name
     || event.request.userAttributes.given_name;
+  // Get first/last name from Cognito attributes
+  const firstName = event.request.userAttributes.given_name || null;
+  const lastName = event.request.userAttributes.family_name || null;
   const now = new Date().toISOString();
 
   try {
@@ -129,6 +136,8 @@ export const handler: PostConfirmationTriggerHandler = async (event: PostConfirm
       id: userId,
       email,
       displayName,
+      firstName,
+      lastName,
       createdAt: now,
       stats: {
         totalCorrect: 0,
@@ -140,6 +149,8 @@ export const handler: PostConfirmationTriggerHandler = async (event: PostConfirm
         longestStreak: 0,
       },
       subscription: createWelcomeSubscription(now),
+      referredBy: null,
+      referralCount: 0,
     };
 
     await docClient.send(new PutCommand({

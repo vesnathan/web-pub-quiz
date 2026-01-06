@@ -1,0 +1,342 @@
+[
+  {
+    "id": "73aa0bce-94d9-45b1-9de3-be2cd30b9d1d",
+    "text": "Which grain is most commonly used as the primary ingredient in beer brewing?",
+    "options": [
+      "Wheat",
+      "Barley",
+      "Rice",
+      "Corn"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Barley is the most common grain used in beer brewing, typically malted to convert starches into fermentable sugars.",
+    "detailedExplanation": "Barley is the foundation of most beers worldwide. The barley is malted (germinated and then dried) to activate enzymes that convert the grain's starches into fermentable sugars. This malted barley provides the sugars that yeast will later convert into alcohol and carbon dioxide. While other grains like wheat, rice, and corn are also used in brewing, barley remains the primary and most traditional grain for beer production.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Brewing",
+    "citationTitle": "Wikipedia: Brewing"
+  },
+  {
+    "id": "a9ffa875-ad79-4e2a-a32b-043f927e7ccd",
+    "text": "What does IPA stand for in beer terminology?",
+    "options": [
+      "Indian Pale Ale",
+      "International Premium Ale",
+      "Irish Potato Ale",
+      "Island Pale Amber"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "IPA stands for India Pale Ale, a hoppy beer style originally brewed for British troops in India.",
+    "detailedExplanation": "India Pale Ale (IPA) was originally developed in the late 18th century for British troops stationed in India. The style was heavily hopped because hops act as a natural preservative, helping the beer survive the long sea journey from Britain to India. The extra hops gave the beer its characteristic bitter flavor and floral aroma. Today, IPA has evolved into one of the most popular craft beer styles, with many variations including American IPA, Double IPA, and New England IPA.",
+    "citationUrl": "https://en.wikipedia.org/wiki/India_pale_ale",
+    "citationTitle": "Wikipedia: India Pale Ale"
+  },
+  {
+    "id": "56c86d31-29f7-4faa-977f-fe1c90b92151",
+    "text": "Which type of yeast is used to brew lagers?",
+    "options": [
+      "Top-fermenting yeast",
+      "Bottom-fermenting yeast",
+      "Wild yeast",
+      "Bread yeast"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Lagers are brewed using bottom-fermenting yeast (Saccharomyces pastorianus) at cooler temperatures.",
+    "detailedExplanation": "Lagers are distinguished from ales primarily by the type of yeast used in fermentation. Bottom-fermenting yeast (Saccharomyces pastorianus) works at cooler temperatures (typically 45-55°F) and settles to the bottom of the fermentation vessel, hence the name. This process takes longer than ale fermentation but produces a cleaner, crisper taste. The word 'lager' comes from the German word 'lagern,' meaning 'to store,' referring to the extended aging process these beers undergo.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Lager",
+    "citationTitle": "Wikipedia: Lager"
+  },
+  {
+    "id": "6fa806cc-adb9-4c1f-8b12-0f128d49dfc9",
+    "text": "What is the primary purpose of hops in beer brewing?",
+    "options": [
+      "To add color",
+      "To increase alcohol content",
+      "To provide bitterness and flavor",
+      "To speed up fermentation"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Hops provide bitterness to balance the sweetness of malt, along with flavor, aroma, and preservation qualities.",
+    "detailedExplanation": "Hops serve multiple crucial functions in beer brewing. Their primary role is to provide bitterness that balances the natural sweetness of malted grains, creating a more complex and pleasant flavor profile. Hops also contribute floral, citrus, pine, or herbal flavors and aromas depending on the variety used. Additionally, hops contain natural preservative compounds that help extend beer's shelf life and prevent spoilage. The timing of hop additions during brewing affects whether they contribute more bitterness (early additions) or more flavor and aroma (late additions).",
+    "citationUrl": "https://en.wikipedia.org/wiki/Hops",
+    "citationTitle": "Wikipedia: Hops"
+  },
+  {
+    "id": "7567da82-6151-477b-bd9d-32020199742d",
+    "text": "Which beer style originated in Ireland and is known for its dark color and creamy head?",
+    "options": [
+      "Porter",
+      "Stout",
+      "Brown Ale",
+      "Schwarzbier"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Stout originated in Ireland and is characterized by its dark color, roasted flavor, and distinctive creamy head.",
+    "detailedExplanation": "Stout is a dark beer style that originated in Ireland in the 18th century, evolving from porter. The most famous example is Guinness, which has become synonymous with Irish stout worldwide. Stouts get their dark color and rich, roasted flavors from heavily roasted malts or barley. The characteristic creamy head is often achieved through nitrogen dispensing systems rather than traditional CO2, creating smaller bubbles and a smoother, creamier texture. Irish stouts typically have a dry finish, distinguishing them from sweeter variations like milk stouts.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Stout",
+    "citationTitle": "Wikipedia: Stout"
+  },
+  {
+    "id": "b41a33ba-0fb2-4882-b413-352cb5a7896a",
+    "text": "What is the alcohol by volume (ABV) range for most standard beers?",
+    "options": [
+      "1-2%",
+      "3-6%",
+      "8-10%",
+      "12-15%"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Most standard beers have an alcohol content between 3-6% ABV, with the majority falling around 4-5%.",
+    "detailedExplanation": "The majority of commercially available beers fall within the 3-6% alcohol by volume range. Light beers typically range from 3-4% ABV, while regular strength lagers and ales usually contain 4-6% ABV. This range represents the sweet spot for most beer drinkers, providing enough alcohol to be noticeable without being overwhelming. Stronger styles like barleywines, imperial stouts, and Belgian tripels can exceed 8-12% ABV, while session beers are specifically brewed to be under 4.5% ABV for extended drinking periods.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Alcohol_by_volume",
+    "citationTitle": "Wikipedia: Alcohol by Volume"
+  },
+  {
+    "id": "6e8a4b55-54a1-442f-97ed-c0e76257e7b5",
+    "text": "Which country is credited with inventing the pilsner style of beer?",
+    "options": [
+      "Germany",
+      "Czech Republic",
+      "Belgium",
+      "Austria"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Pilsner was invented in 1842 in Pilsen (Plzeň), Czech Republic, creating the first golden lager beer.",
+    "detailedExplanation": "Pilsner was created in 1842 in the city of Pilsen (Plzeň) in what is now the Czech Republic. The citizens of Pilsen were dissatisfied with their local beer quality and hired Bavarian brewer Josef Groll to create something better. Using local soft water, pale Moravian malt, and Saaz hops, Groll created the world's first golden lager. This revolutionary beer was much lighter in color than the dark beers common at the time, and its crisp, clean taste quickly gained popularity. The original brewery still operates today as Pilsner Urquell, meaning 'original source of Pilsner.'",
+    "citationUrl": "https://en.wikipedia.org/wiki/Pilsner",
+    "citationTitle": "Wikipedia: Pilsner"
+  },
+  {
+    "id": "2a1e7886-4472-4efa-a249-c638ec4206c2",
+    "text": "What is the main difference between ale and lager fermentation?",
+    "options": [
+      "Temperature and yeast type",
+      "Color of the final beer",
+      "Amount of hops used",
+      "Length of aging"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Ales and lagers differ primarily in fermentation temperature and yeast type: ales use top-fermenting yeast at warmer temperatures, lagers use bottom-fermenting yeast at cooler temperatures.",
+    "detailedExplanation": "The fundamental difference between ales and lagers lies in their fermentation process. Ales are fermented with top-fermenting yeast (Saccharomyces cerevisiae) at warmer temperatures, typically 60-75°F, and fermentation usually completes within a week. Lagers use bottom-fermenting yeast (Saccharomyces pastorianus) at much cooler temperatures, typically 45-55°F, and require longer fermentation and conditioning periods, often several weeks or months. This temperature and yeast difference affects the final flavor profile, with ales generally having more fruity and complex flavors, while lagers tend to be cleaner and crisper.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Ale",
+    "citationTitle": "Wikipedia: Ale"
+  },
+  {
+    "id": "79c492d9-770c-484b-981f-7d816dd7c91f",
+    "text": "What is the term for the frothy foam that forms on top of a freshly poured beer?",
+    "options": [
+      "Head",
+      "Crown",
+      "Cap",
+      "Foam"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "The foam on top of beer is called the 'head'.",
+    "detailedExplanation": "Beer head is the frothy foam on top of beer which is produced by bubbles of gas, typically carbon dioxide, rising to the surface. The thickness and retention of the head can be an indicator of beer quality and is influenced by factors like the proteins from malted grains, the type of glass used, and how the beer is poured. Different beer styles have different expected head characteristics.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Beer_head",
+    "citationTitle": "Wikipedia: Beer head"
+  },
+  {
+    "id": "8b513d49-f59b-4e0f-89e2-65eb84827e52",
+    "text": "Which beer style is typically served without carbonation and at cellar temperature?",
+    "options": [
+      "Cask ale",
+      "Wheat beer",
+      "Porter",
+      "Bock"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Cask ale is traditionally served without artificial carbonation and at cellar temperature.",
+    "detailedExplanation": "Cask ale, also known as real ale, is beer that has undergone secondary fermentation in the container from which it is served and is served without the use of extraneous carbon dioxide. It is typically served at cellar temperature (50-55°F or 10-13°C) rather than the colder temperatures of most modern beers. This traditional British brewing method allows for natural carbonation and is considered by many to provide a more complex flavor profile.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Cask_ale",
+    "citationTitle": "Wikipedia: Cask ale"
+  },
+  {
+    "id": "4c8b6990-e8f5-4e93-936a-943e2cafec83",
+    "text": "What is the process called when sugars from malted grains are converted into alcohol and carbon dioxide?",
+    "options": [
+      "Mashing",
+      "Fermentation",
+      "Boiling",
+      "Lagering"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Fermentation is the process where yeast converts sugars into alcohol and carbon dioxide.",
+    "detailedExplanation": "Fermentation is the crucial step in beer brewing where yeast consumes the fermentable sugars extracted from malted grains during the mashing process, converting them into ethyl alcohol and carbon dioxide. This process typically takes several days to weeks depending on the beer style and yeast type used. The fermentation process also produces various flavor compounds that contribute to the beer's final taste profile.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Brewing",
+    "citationTitle": "Wikipedia: Brewing"
+  },
+  {
+    "id": "851b0ae4-5829-4814-8824-5bd0980e196e",
+    "text": "Which German beer purity law, still followed today, limits beer ingredients to water, hops, malt, and yeast?",
+    "options": [
+      "Biergesetz",
+      "Reinheitsgebot",
+      "Brauordnung",
+      "Hopfengesetz"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "The Reinheitsgebot is the German beer purity law that restricts beer ingredients.",
+    "detailedExplanation": "The Reinheitsgebot, or German Beer Purity Law, was originally enacted in 1516 in Bavaria and is one of the oldest food regulations still in use today. It stipulates that beer may only contain water, hops, and malt (yeast was added later when its role was understood). This law was created to ensure beer quality, prevent the use of cheaper grains needed for bread, and protect consumers from potentially harmful additives that were sometimes used in brewing.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Reinheitsgebot",
+    "citationTitle": "Wikipedia: Reinheitsgebot"
+  },
+  {
+    "id": "aa7c13b9-5f28-4662-bf92-c9130a8a9690",
+    "text": "What type of beer glass is tall, thin, and designed specifically for serving wheat beers?",
+    "options": [
+      "Pint glass",
+      "Weizen glass",
+      "Pilsner glass",
+      "Snifter"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "A weizen glass is specifically designed for serving wheat beers.",
+    "detailedExplanation": "The weizen glass, also known as a weissbier glass, is a tall, thin glass that typically holds 500ml and has a distinctive curved shape that's narrow at the bottom and wider at the top. This design helps showcase the cloudy appearance of wheat beers, allows room for the characteristic thick head that wheat beers produce, and concentrates the beer's banana and clove aromas that are typical of the style.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Beer_glassware",
+    "citationTitle": "Wikipedia: Beer glassware"
+  },
+  {
+    "id": "dfac332f-7852-444d-8936-644c52b22b0c",
+    "text": "Which beer style is known for its chocolate and coffee flavors and originated in London?",
+    "options": [
+      "Brown ale",
+      "Porter",
+      "Mild",
+      "Bitter"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Porter is known for its dark, roasted flavors and originated in 18th century London.",
+    "detailedExplanation": "Porter was first brewed in London in the early 18th century and became popular among working-class laborers, particularly porters (hence the name). It's characterized by its dark color and flavors derived from roasted malts, often exhibiting notes of chocolate, coffee, and caramel. Porter was historically significant as one of the first beer styles to be aged for extended periods and was a precursor to the stout style.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Porter_(beer)",
+    "citationTitle": "Wikipedia: Porter (beer)"
+  },
+  {
+    "id": "0320ed0a-6ab2-43ec-8bbe-89843da9d4ae",
+    "text": "What is the typical color range measured in SRM (Standard Reference Method) for a pale ale?",
+    "options": [
+      "1-3 SRM",
+      "4-8 SRM",
+      "9-15 SRM",
+      "16-25 SRM"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Pale ales typically range from 4-8 SRM, giving them their characteristic golden to amber color.",
+    "detailedExplanation": "The Standard Reference Method (SRM) is a system used to measure beer color, with lower numbers indicating lighter colors and higher numbers indicating darker colors. Pale ales typically fall in the 4-8 SRM range, which produces colors from golden to light amber. This measurement helps brewers maintain consistency and helps classify beer styles according to established guidelines from organizations like the Beer Judge Certification Program (BJCP).",
+    "citationUrl": "https://en.wikipedia.org/wiki/Standard_Reference_Method",
+    "citationTitle": "Wikipedia: Standard Reference Method"
+  },
+  {
+    "id": "8ac2c619-f3fc-4f82-be23-d9a2391b5fdb",
+    "text": "Which brewing process involves storing beer at cold temperatures for several weeks or months?",
+    "options": [
+      "Conditioning",
+      "Lagering",
+      "Aging",
+      "Cellaring"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Lagering is the cold storage process used specifically in lager production.",
+    "detailedExplanation": "Lagering comes from the German word 'lagern' meaning 'to store' and refers to the process of conditioning beer at cold temperatures (typically 32-45°F or 0-7°C) for extended periods, usually several weeks to months. This process was traditionally done in caves and allows the beer to clarify naturally as yeast and proteins settle out, while also developing smooth, clean flavors characteristic of lager beers. The lagering process is what distinguishes lagers from ales in terms of production method.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Lager",
+    "citationTitle": "Wikipedia: Lager"
+  },
+  {
+    "id": "38667af2-26a7-4844-a584-bd11b90e45c9",
+    "text": "What is the name of the brewing process where roasted barley or malt is heated to create darker colors and flavors in beer?",
+    "options": [
+      "Kilning",
+      "Mashing",
+      "Sparging",
+      "Conditioning"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Kilning is the process of heating and roasting malted grains to develop color, flavor, and aroma.",
+    "detailedExplanation": "Kilning is a crucial step in the malting process where wet malted grains are dried and roasted using controlled heat. The temperature and duration of kilning determines the final color and flavor profile of the malt, ranging from pale malts kilned at lower temperatures to dark roasted malts that contribute chocolate and coffee notes to beer. This process stops the germination of the grain and creates the enzymes needed for brewing while developing the characteristic flavors that distinguish different beer styles.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Kilning",
+    "citationTitle": "Wikipedia: Kilning"
+  },
+  {
+    "id": "91c1ee56-62b0-4d1a-8556-491d90f50b3d",
+    "text": "Which Belgian beer style is traditionally brewed by monks in monasteries and must be produced within monastery walls to use the official designation?",
+    "options": [
+      "Abbey beer",
+      "Trappist beer",
+      "Lambic",
+      "Witbier"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Trappist beers are officially designated Belgian beers that must be brewed within the walls of Trappist monasteries by or under supervision of monks.",
+    "detailedExplanation": "Trappist beer is a protected designation that can only be used by breweries associated with Trappist monasteries. There are currently only 14 breweries worldwide (12 in Europe and 2 in the United States) that can legally use this designation. The beer must be brewed within the walls of the monastery, under the supervision or by the monks themselves, and profits must be used to support the monastery and charitable causes. Famous Trappist breweries include Chimay, Orval, and Westvleteren in Belgium.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Trappist_beer",
+    "citationTitle": "Wikipedia: Trappist beer"
+  },
+  {
+    "id": "df9b34c3-c5fd-4944-8639-646db6703736",
+    "text": "What is the term for the specific gravity difference between a beer's original gravity before fermentation and its final gravity after fermentation?",
+    "options": [
+      "Attenuation",
+      "Density variance",
+      "Gravity differential",
+      "Fermentation ratio"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Attenuation measures how much of the original sugars have been converted to alcohol during fermentation.",
+    "detailedExplanation": "Attenuation is expressed as a percentage and indicates the efficiency of fermentation by measuring how much of the fermentable sugars have been converted to alcohol and carbon dioxide. A higher attenuation percentage means more sugars were consumed by the yeast, resulting in a drier beer with higher alcohol content and lower residual sweetness. Typical attenuation ranges from 65-85% depending on the yeast strain, beer style, and brewing conditions. This measurement is crucial for brewers to predict alcohol content and final beer character.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Attenuation_(brewing)",
+    "citationTitle": "Wikipedia: Attenuation (brewing)"
+  },
+  {
+    "id": "3dfbe01b-4271-407c-9121-e26f498261b2",
+    "text": "Which ancient civilization is generally credited with being the first to add hops to beer for preservation and flavor?",
+    "options": [
+      "Romans",
+      "Egyptians",
+      "Germans",
+      "Chinese"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Germans were the first to systematically use hops in brewing, beginning around the 8th-9th centuries.",
+    "detailedExplanation": "While various herbs and spices were used to flavor and preserve beer throughout history, the Germanic peoples were the first to cultivate and systematically use hops in brewing around the 8th-9th centuries CE. Before hops became widespread, beer was flavored and preserved using a mixture of herbs called gruit. The adoption of hops spread throughout Europe over several centuries, with hops eventually becoming the standard bittering and preservative agent in beer. The Germans' innovation with hops laid the foundation for modern brewing practices and contributed to better beer preservation during transportation.",
+    "citationUrl": "https://en.wikipedia.org/wiki/History_of_beer",
+    "citationTitle": "Wikipedia: History of beer"
+  }
+]

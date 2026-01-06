@@ -1,0 +1,342 @@
+[
+  {
+    "id": "91c80fb7-e891-484a-8202-6deac8339706",
+    "text": "What is the name of the theoretical propulsion system that would use controlled nuclear explosions to propel spacecraft, studied by Project Orion in the 1960s?",
+    "options": [
+      "Nuclear pulse propulsion",
+      "Ion drive propulsion",
+      "Fusion ramjet propulsion",
+      "Antimatter propulsion"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Nuclear pulse propulsion uses nuclear explosions behind a pusher plate to propel spacecraft.",
+    "detailedExplanation": "Nuclear pulse propulsion was a theoretical spacecraft propulsion concept studied by Project Orion from 1958 to 1968. The system would work by detonating small nuclear charges behind a large steel pusher plate attached to the spacecraft with shock absorbers. Each explosion would push against the plate, accelerating the craft. While theoretically capable of achieving very high specific impulses and enabling fast interplanetary travel, the project was cancelled due to the Nuclear Test Ban Treaty and safety concerns.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Nuclear_pulse_propulsion",
+    "citationTitle": "Wikipedia: Nuclear pulse propulsion"
+  },
+  {
+    "id": "994e64bb-9a0a-4a72-aba6-eea5a95a6547",
+    "text": "Which spacecraft holds the record for the fastest human-made object ever, reaching speeds of over 700,000 km/h?",
+    "options": [
+      "Voyager 1",
+      "New Horizons",
+      "Parker Solar Probe",
+      "Helios 2"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "The Parker Solar Probe reached record-breaking speeds during its solar flybys.",
+    "detailedExplanation": "NASA's Parker Solar Probe, launched in 2018, holds the record as the fastest human-made object ever created. During its close approaches to the Sun, it has reached speeds exceeding 700,000 kilometers per hour (435,000 mph). The probe uses gravity assists from Venus and the Sun's immense gravitational field to achieve these incredible velocities. Its mission is to study the Sun's corona and solar wind, requiring it to withstand temperatures over 1,300°C while protected by a revolutionary carbon composite heat shield.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Parker_Solar_Probe",
+    "citationTitle": "Wikipedia: Parker Solar Probe"
+  },
+  {
+    "id": "73f73205-8352-4ee3-852e-cc21534ffb46",
+    "text": "What type of guidance system was used by the Apollo Guidance Computer, making it one of the first computers to use this technology?",
+    "options": [
+      "Vacuum tubes",
+      "Integrated circuits",
+      "Magnetic core memory",
+      "Transistor arrays"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "The Apollo Guidance Computer was one of the first computers to use integrated circuits extensively.",
+    "detailedExplanation": "The Apollo Guidance Computer (AGC) was revolutionary for its extensive use of integrated circuits, making it one of the first computers to rely heavily on this then-new technology. Developed by MIT's Instrumentation Laboratory, the AGC used over 4,000 integrated circuits, which were expensive and relatively untested at the time. NASA's commitment to this technology helped drive down costs and improve reliability of integrated circuits, inadvertently helping to launch the modern computer industry. The AGC had only 4KB of memory but successfully guided Apollo missions to the Moon and back.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Apollo_Guidance_Computer",
+    "citationTitle": "Wikipedia: Apollo Guidance Computer"
+  },
+  {
+    "id": "3342cb8d-fbbf-45b3-847b-e68f51b122f1",
+    "text": "Which space agency successfully demonstrated the first ion propulsion system in deep space with their Deep Space 1 mission?",
+    "options": [
+      "ESA",
+      "JAXA",
+      "NASA",
+      "Roscosmos"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "NASA's Deep Space 1 mission was the first to successfully demonstrate ion propulsion in deep space.",
+    "detailedExplanation": "NASA's Deep Space 1, launched in 1998, was the first spacecraft to successfully use ion propulsion as its primary propulsion system in deep space. The mission was part of NASA's New Millennium Program, designed to test advanced technologies. The ion engine used xenon gas that was ionized and accelerated by electric fields to produce thrust. While the thrust was tiny (about the weight of a piece of paper), the engine could operate continuously for months, eventually providing more velocity change than chemical rockets. This technology is now commonly used for deep space missions.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Deep_Space_1",
+    "citationTitle": "Wikipedia: Deep Space 1"
+  },
+  {
+    "id": "09f79a75-a0e9-4d2d-8201-c89d7be599ef",
+    "text": "What is the name of the heat-resistant material used in Space Shuttle thermal protection tiles, originally developed by Lockheed?",
+    "options": [
+      "AVCOAT",
+      "LI-900",
+      "PICA-X",
+      "RCC"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "LI-900 was the silica-based material used in most Space Shuttle thermal protection tiles.",
+    "detailedExplanation": "LI-900 (Lockheed Insulation-900) was a low-density silica-based thermal protection material used in the majority of the Space Shuttle's thermal protection system tiles. Developed by Lockheed, this ultra-lightweight material could withstand temperatures up to 900°C (1652°F) while remaining cool enough to touch on the back side within minutes of exposure. The material was 94% air by volume, making it incredibly light yet effective at insulating the shuttle's aluminum structure from the intense heat of reentry. Over 20,000 of these tiles covered the shuttle's underside and sides.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Space_Shuttle_thermal_protection_system",
+    "citationTitle": "Wikipedia: Space Shuttle thermal protection system"
+  },
+  {
+    "id": "6b1e7288-e4a8-4704-bff6-1902c2b15898",
+    "text": "Which spacecraft was the first to use aerocapture, using a planet's atmosphere to slow down and enter orbit without using fuel?",
+    "options": [
+      "Magellan",
+      "Mars Odyssey",
+      "Mars Express",
+      "No spacecraft has successfully used aerocapture"
+    ],
+    "correctIndex": 3,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Despite decades of research, no spacecraft has yet successfully used aerocapture to enter orbit around another planet.",
+    "detailedExplanation": "Aerocapture is a theoretical orbital insertion technique where a spacecraft would use a planet's atmosphere to slow down and enter orbit, rather than using fuel-intensive rocket burns. While the technique has been extensively studied and tested in simulations since the 1960s, no spacecraft has yet successfully demonstrated aerocapture at another planet. The technique requires extremely precise atmospheric modeling and heat shield technology. Several missions have used aerobraking (gradually lowering orbit using atmospheric drag), but the single-pass aerocapture maneuver remains an elusive goal that could revolutionize interplanetary missions by dramatically reducing fuel requirements.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Aerocapture",
+    "citationTitle": "Wikipedia: Aerocapture"
+  },
+  {
+    "id": "b63ecd3d-c584-4c18-b43c-3d35e14c47bc",
+    "text": "What is the specific impulse (in seconds) range typically achieved by modern chemical rocket engines using liquid oxygen and hydrogen?",
+    "options": [
+      "200-250 seconds",
+      "350-450 seconds",
+      "500-600 seconds",
+      "700-800 seconds"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Liquid oxygen and hydrogen engines typically achieve specific impulses of 350-450 seconds.",
+    "detailedExplanation": "Specific impulse measures rocket engine efficiency, indicating how long one unit of propellant can produce one unit of thrust. Modern liquid oxygen and liquid hydrogen engines, such as the Space Shuttle's RS-25 engines or the RL-10 upper stage engines, typically achieve specific impulses between 350-450 seconds. This represents one of the highest performance levels achievable with chemical propulsion. For comparison, solid rocket boosters achieve around 250-280 seconds, while theoretical ion engines can reach 3000+ seconds but with extremely low thrust levels.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Specific_impulse",
+    "citationTitle": "Wikipedia: Specific impulse"
+  },
+  {
+    "id": "34e4723f-94a8-49ec-9ba9-a7d3e7ebb601",
+    "text": "Which space telescope uses a technique called 'slewing' to compensate for its damaged reaction wheel, allowing it to continue its planet-hunting mission?",
+    "options": [
+      "Hubble Space Telescope",
+      "Spitzer Space Telescope",
+      "Kepler Space Telescope",
+      "James Webb Space Telescope"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "The Kepler Space Telescope uses solar radiation pressure and thruster firings to maintain pointing after reaction wheel failures.",
+    "detailedExplanation": "The Kepler Space Telescope's primary mission ended in 2013 when two of its four reaction wheels failed, making it unable to maintain the precise pointing needed for its original planet-hunting technique. However, NASA engineers developed an ingenious solution for the K2 mission: they use solar radiation pressure as a 'third wheel' to help stabilize the spacecraft. By carefully orienting Kepler and periodically firing its thrusters, they can maintain pointing accuracy sufficient to continue discovering exoplanets, though the spacecraft must change its field of view approximately every 80 days when fuel corrections are needed.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Kepler_space_telescope",
+    "citationTitle": "Wikipedia: Kepler space telescope"
+  },
+  {
+    "id": "be164d81-f3a0-470e-b8aa-60690bf86764",
+    "text": "What is the name of the space tether system deployed by NASA in 1996 that broke during the STS-75 mission, creating a spectacular light show captured on video?",
+    "options": [
+      "Tethered Satellite System (TSS-1R)",
+      "Plasma Motor Generator (PMG)",
+      "Electrodynamic Tether Experiment (ETE)",
+      "Orbital Motion Limited (OML)"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "The Tethered Satellite System-1R (TSS-1R) was a 20-kilometer conducting tether that broke during deployment, creating an unexpected electrical phenomenon.",
+    "detailedExplanation": "The TSS-1R was part of a joint NASA-Italian Space Agency experiment to test the concept of using conducting tethers in space to generate electricity through Earth's magnetic field. During the STS-75 mission in February 1996, the 20-kilometer tether broke about 5 hours into deployment due to electrical arcing. The satellite and tether continued to orbit Earth for weeks, generating spectacular electrical effects and unexplained objects in NASA's video footage that became the subject of much speculation.",
+    "citationUrl": "https://en.wikipedia.org/wiki/STS-75",
+    "citationTitle": "Wikipedia: STS-75"
+  },
+  {
+    "id": "1d366980-085e-4c87-86bb-363d32d59e23",
+    "text": "Which Soviet spacecraft was the first to successfully use radioisotope thermoelectric generators (RTGs) for power in deep space exploration?",
+    "options": [
+      "Luna 3",
+      "Venera 4",
+      "Mars 2",
+      "Lunokhod 1"
+    ],
+    "correctIndex": 3,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Lunokhod 1, launched in 1970, was the first successful remote-controlled rover and used RTGs to keep warm during lunar nights.",
+    "detailedExplanation": "Lunokhod 1, deployed on the Moon in November 1970, was groundbreaking not only as the first successful planetary rover but also for its power system. While it used solar panels during lunar day, it relied on a radioisotope heating unit (RHU) containing polonium-210 to maintain operational temperatures during the 14-day lunar nights when temperatures dropped to -173°C. This made it the first Soviet spacecraft to successfully utilize radioisotope power technology for extended operations beyond Earth orbit, paving the way for future deep space missions.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Lunokhod_1",
+    "citationTitle": "Wikipedia: Lunokhod 1"
+  },
+  {
+    "id": "a3fca9fe-0ada-4f2e-9a84-a883ec0c6bbc",
+    "text": "What is the name of the advanced life support technology being tested on the ISS that converts astronaut urine and humidity into drinking water?",
+    "options": [
+      "Water Recovery System (WRS)",
+      "Environmental Control and Life Support System (ECLSS)",
+      "Urine Processor Assembly (UPA)",
+      "Water and Waste Management System (WWMS)"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "The Environmental Control and Life Support System (ECLSS) is the comprehensive system that includes water recovery, air revitalization, and waste management.",
+    "detailedExplanation": "The ECLSS is a critical life support technology that has been continuously upgraded since the ISS began operation. Its Water Recovery System component can recover about 93% of all water aboard the station, including humidity from the air and urine from crew members. The system uses a combination of filtration, chemical treatment, and distillation processes. This technology is crucial for long-duration missions and is being refined for future missions to Mars, where resupply from Earth will be impossible.",
+    "citationUrl": "https://en.wikipedia.org/wiki/ISS_ECLSS",
+    "citationTitle": "Wikipedia: ISS ECLSS"
+  },
+  {
+    "id": "2d636edf-72a3-44e2-b2c2-9f3779ca4942",
+    "text": "Which space-based manufacturing technique was successfully demonstrated aboard the ISS to produce fiber optic cables impossible to create on Earth?",
+    "options": [
+      "Microgravity Crystal Growth",
+      "ZBLAN Fiber Production",
+      "Metal Powder Sintering",
+      "Protein Crystal Formation"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "ZBLAN (fluoride glass) fiber optic cables can be produced with much higher quality in microgravity due to the absence of crystallization that occurs on Earth.",
+    "detailedExplanation": "ZBLAN is a heavy metal fluoride glass that theoretically has much lower signal loss than traditional silica-based fiber optics. However, on Earth, gravity causes crystallization during the cooling process, making the fibers unusable. In the microgravity environment of the ISS, this crystallization is prevented, allowing for the production of ultra-pure ZBLAN fibers. The Made In Space Fiber Optics investigation successfully demonstrated this process, producing fibers with significantly better optical properties than Earth-manufactured equivalents. This technology could revolutionize telecommunications and internet infrastructure.",
+    "citationUrl": "https://en.wikipedia.org/wiki/ZBLAN",
+    "citationTitle": "Wikipedia: ZBLAN"
+  },
+  {
+    "id": "36e9ae5f-206f-4275-8479-c137cd18b095",
+    "text": "What type of revolutionary propulsion system did the Dawn spacecraft use to visit both Vesta and Ceres, consuming only 425 kg of fuel over 11 years?",
+    "options": [
+      "Xenon Ion Propulsion",
+      "Hall Effect Thruster",
+      "Electrospray Propulsion",
+      "Pulsed Plasma Thruster"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Dawn used xenon ion propulsion, which provides very low thrust but extremely high efficiency, allowing it to visit two different asteroids.",
+    "detailedExplanation": "NASA's Dawn spacecraft, launched in 2007, used three xenon ion thrusters that worked by electrically charging xenon gas and accelerating the ions through an electric field. While producing only 92 millinewtons of thrust (equivalent to the weight of a sheet of paper), this system achieved a specific impulse of over 3,100 seconds - more than 10 times better than chemical rockets. This incredible efficiency allowed Dawn to change its velocity by 11 km/s over the mission duration, enabling it to orbit both Vesta (2011-2012) and Ceres (2015-2018), making it the first spacecraft to orbit two different extraterrestrial bodies.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Dawn_(spacecraft)",
+    "citationTitle": "Wikipedia: Dawn (spacecraft)"
+  },
+  {
+    "id": "e363f736-e2cf-4361-b797-fd87d28bde4f",
+    "text": "Which pioneering spacecraft communication technology allows NASA to achieve data rates up to 622 Mbps, compared to traditional radio's maximum of about 6 Mbps?",
+    "options": [
+      "Quantum Entanglement Communication",
+      "Laser Communications Relay Demonstration (LCRD)",
+      "X-band Deep Space Network",
+      "Phased Array Communications"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Laser communications use infrared light instead of radio waves, enabling much higher data transmission rates from spacecraft.",
+    "detailedExplanation": "The Laser Communications Relay Demonstration (LCRD), launched in 2021, represents a revolutionary leap in space communications technology. Unlike traditional radio frequency communications limited by bandwidth and power constraints, laser communications use infrared light to transmit data at rates up to 100 times faster than conventional systems. The technology works by encoding data in laser pulses and requires extremely precise pointing systems to maintain the narrow beam connection between spacecraft and ground stations. This advancement is crucial for future missions that will generate massive amounts of scientific data, such as high-resolution imaging of Mars or real-time video from astronauts.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Laser_Communications_Relay_Demonstration",
+    "citationTitle": "Wikipedia: Laser Communications Relay Demonstration"
+  },
+  {
+    "id": "008aedc4-42b1-4801-826a-f927567a9b93",
+    "text": "What is the name of the inflatable habitat technology successfully tested on the ISS that could expand living space for future Mars missions?",
+    "options": [
+      "Transhab Module",
+      "BEAM (Bigelow Expandable Activity Module)",
+      "Genesis Prototype",
+      "Expandable Lunar Habitat (ELH)"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "BEAM was attached to the ISS in 2016 and successfully demonstrated that inflatable habitats can provide safe, reliable living space in the harsh environment of space.",
+    "detailedExplanation": "The Bigelow Expandable Activity Module (BEAM) was developed by Bigelow Aerospace and attached to the ISS in May 2016. This revolutionary habitat technology uses multiple layers of soft materials including Vectran (stronger than Kevlar) to create a pressurized living space that can be folded for launch and then inflated in orbit. BEAM expanded from about 8 feet in diameter during launch to 13 feet when inflated. The module has successfully withstood micrometeorite impacts and radiation exposure, proving that inflatable habitats can offer the same protection as rigid structures while providing much more volume per unit of launch mass - crucial for long-duration missions to Mars.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Bigelow_Expandable_Activity_Module",
+    "citationTitle": "Wikipedia: Bigelow Expandable Activity Module"
+  },
+  {
+    "id": "2fe6a8d9-8025-4c79-9676-2f0cac362a54",
+    "text": "Which advanced autonomous navigation system allows modern spacecraft to land precisely on planetary surfaces without real-time communication with Earth?",
+    "options": [
+      "Terrain Relative Navigation (TRN)",
+      "Inertial Measurement Unit (IMU)",
+      "Star Tracker Navigation",
+      "Doppler Radar Landing System"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Terrain Relative Navigation uses onboard cameras and computers to compare real-time images with pre-loaded maps, enabling precise autonomous landing.",
+    "detailedExplanation": "Terrain Relative Navigation (TRN) represents a quantum leap in spacecraft autonomy, first successfully demonstrated by NASA's Mars 2020 Perseverance rover. The system uses a downward-facing camera to capture images during descent, which an onboard computer compares in real-time with pre-loaded high-resolution orbital maps. This allows the spacecraft to determine its exact position and autonomously navigate to a safe landing site, avoiding hazards like rocks and cliffs. TRN enabled Perseverance to land within 7.5 meters of its target in Jezero Crater, compared to previous missions' landing ellipses of several kilometers. This technology is essential for future missions to locations where precise landing is critical, such as near scientific targets or pre-positioned equipment.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Terrain_relative_navigation",
+    "citationTitle": "Wikipedia: Terrain relative navigation"
+  },
+  {
+    "id": "597ce88f-609e-48ad-b590-5670c685bbca",
+    "text": "What is the name of the specialized computer architecture used in space missions that employs three identical processors running the same calculations simultaneously to detect and correct errors caused by cosmic radiation?",
+    "options": [
+      "Triple Modular Redundancy (TMR)",
+      "Dual Core Processing (DCP)",
+      "Radiation Hardened Architecture (RHA)",
+      "Space Qualified Computing (SQC)"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Triple Modular Redundancy uses three processors to vote on results, ensuring reliability in the harsh radiation environment of space.",
+    "detailedExplanation": "Triple Modular Redundancy (TMR) is a fault-tolerant computing architecture essential for space missions where cosmic radiation can cause single-event upsets in computer memory and processors. The system runs three identical processors performing the same calculations, and if one produces a different result due to radiation damage, the other two outvote it. This technology has been crucial in missions like the Mars rovers and various satellites, ensuring mission-critical systems continue operating even when individual components are affected by the harsh space environment.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Triple_modular_redundancy",
+    "citationTitle": "Wikipedia: Triple Modular Redundancy"
+  },
+  {
+    "id": "fca75e27-fb20-47c6-b2cc-7e2624df8222",
+    "text": "Which space-based observatory was the first to successfully demonstrate the use of formation flying, where multiple spacecraft maintain precise relative positions to create a virtual telescope array larger than any single instrument?",
+    "options": [
+      "GRACE (Gravity Recovery and Climate Experiment)",
+      "Cluster II mission",
+      "GRAIL (Gravity Recovery and Interior Laboratory)",
+      "Proba-3"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "The Cluster II mission consists of four spacecraft flying in formation to study Earth's magnetosphere with unprecedented three-dimensional resolution.",
+    "detailedExplanation": "ESA's Cluster II mission, launched in 2000, was the first space mission to successfully demonstrate precision formation flying with four identical spacecraft. The satellites maintain carefully controlled separations ranging from a few hundred kilometers to several Earth radii while studying the interaction between the solar wind and Earth's magnetosphere. This formation flying technique allows scientists to distinguish between spatial and temporal variations in magnetic and electric fields, providing three-dimensional measurements impossible with a single spacecraft. The technology pioneered by Cluster has influenced numerous subsequent missions requiring coordinated multi-spacecraft operations.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Cluster_II",
+    "citationTitle": "Wikipedia: Cluster II"
+  },
+  {
+    "id": "8414b33c-84bf-489e-93c7-386b071609f5",
+    "text": "What innovative power generation technology does the European Space Agency's BepiColombo mission use to operate near Mercury, where solar panels would be damaged by intense solar radiation and extreme temperatures?",
+    "options": [
+      "Radioisotope Thermoelectric Generators",
+      "Solar panels with specialized sun shields",
+      "Fuel cells with stored reactants",
+      "Thermoelectric generators using waste heat"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "BepiColombo uses specially designed solar panels with sun shields and heat-resistant materials to survive Mercury's extreme environment.",
+    "detailedExplanation": "BepiColombo, ESA's mission to Mercury launched in 2018, employs innovative solar panel technology specifically designed for the extreme conditions near Mercury. The spacecraft uses solar arrays equipped with specialized sun shields and heat-resistant materials that can operate at temperatures exceeding 350°C while receiving solar radiation 10 times more intense than at Earth. The panels can be tilted to reduce direct solar exposure and use advanced photovoltaic cells that maintain efficiency at high temperatures. This represents a significant technological achievement, as previous Mercury missions like MESSENGER required more complex thermal management systems and shorter operational lifespans.",
+    "citationUrl": "https://en.wikipedia.org/wiki/BepiColombo",
+    "citationTitle": "Wikipedia: BepiColombo"
+  },
+  {
+    "id": "52f8e89f-a6d5-44ba-9b36-5d798542c4c6",
+    "text": "Which groundbreaking orbital mechanics technique, first successfully demonstrated by the Japanese Hayabusa mission, allows spacecraft to maintain position near small asteroids despite their weak and irregular gravitational fields?",
+    "options": [
+      "Lagrange point insertion",
+      "Artificial gravity gradient stabilization",
+      "Station-keeping with ion thrusters",
+      "Solar radiation pressure compensation"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Hayabusa used continuous low-thrust ion propulsion to maintain its position near asteroid Itokawa, compensating for the asteroid's weak and irregular gravity.",
+    "detailedExplanation": "The Hayabusa mission pioneered the use of ion thruster station-keeping around small celestial bodies with extremely weak gravitational fields. Unlike larger planets or moons where spacecraft can maintain stable orbits, asteroids like Itokawa have such weak gravity (about one hundred-thousandth of Earth's) and irregular mass distribution that traditional orbital mechanics don't apply effectively. Hayabusa's ion engines provided precise, continuous low-thrust adjustments to counteract solar radiation pressure, maintain position relative to the asteroid, and compensate for gravitational irregularities. This technique has become essential for asteroid exploration missions, enabling detailed surface mapping and sample collection operations that would be impossible with conventional chemical propulsion systems.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Hayabusa",
+    "citationTitle": "Wikipedia: Hayabusa"
+  }
+]

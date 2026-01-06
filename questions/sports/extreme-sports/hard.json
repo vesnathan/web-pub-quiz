@@ -1,0 +1,342 @@
+[
+  {
+    "id": "540dcd5a-cd1c-418b-8bde-64f634d373ef",
+    "text": "What is the minimum altitude at which a BASE jumper can legally deploy their parachute according to most regulations?",
+    "options": [
+      "200 feet",
+      "500 feet",
+      "1,000 feet",
+      "1,500 feet"
+    ],
+    "correctIndex": 0,
+    "category": "sports",
+    "difficulty": "hard",
+    "explanation": "BASE jumpers typically deploy at around 200 feet minimum altitude.",
+    "detailedExplanation": "BASE jumping is one of the most extreme sports, where participants jump from fixed objects like Buildings, Antennas, Spans (bridges), and Earth (cliffs) - hence the acronym BASE. Unlike skydiving, BASE jumpers operate at much lower altitudes and have minimal time to deploy their parachutes. The minimum safe deployment altitude is typically around 200 feet, though this varies depending on conditions and equipment. This extremely low altitude is what makes BASE jumping so dangerous, as there's virtually no time to deploy a reserve parachute if the main chute fails.",
+    "citationUrl": "https://en.wikipedia.org/wiki/BASE_jumping",
+    "citationTitle": "Wikipedia: BASE jumping"
+  },
+  {
+    "id": "7d123d42-4504-4d74-a765-bdfa330e48be",
+    "text": "In big wave surfing, what is the name of the notorious surf break in Northern California that regularly produces waves over 60 feet tall?",
+    "options": [
+      "Pipeline",
+      "Teahupo'o",
+      "Mavericks",
+      "Nazaré"
+    ],
+    "correctIndex": 2,
+    "category": "sports",
+    "difficulty": "hard",
+    "explanation": "Mavericks in Northern California is famous for producing massive waves over 60 feet.",
+    "detailedExplanation": "Mavericks is a legendary big wave surfing location in Northern California, about half a mile from Pillar Point Harbor near Half Moon Bay. The break is created by an underwater rock formation that causes Pacific Ocean swells to rear up into massive waves, often exceeding 60 feet in height during winter storms. The water temperature is frigid, around 50°F, requiring thick wetsuits. Mavericks gained worldwide attention through surfers like Jeff Clark and was featured in the annual Mavericks Surf Contest, attracting the world's best big wave surfers until safety concerns led to its discontinuation.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Mavericks_(surfing)",
+    "citationTitle": "Wikipedia: Mavericks (surfing)"
+  },
+  {
+    "id": "f227ce02-567c-4d80-b17d-5ed45c931fbd",
+    "text": "What type of climbing protection was revolutionary invented by Ray Jardine in the 1970s that allowed climbers to protect routes without permanently altering the rock?",
+    "options": [
+      "Pitons",
+      "Friends/Camming devices",
+      "Expansion bolts",
+      "Hexentric nuts"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "hard",
+    "explanation": "Ray Jardine invented Friends (camming devices) which revolutionized clean climbing.",
+    "detailedExplanation": "Ray Jardine invented the 'Friend' in the late 1970s, a spring-loaded camming device that revolutionized rock climbing protection. Unlike pitons which required hammering into cracks and often damaged the rock, or bolts which required drilling, Friends could be placed and removed by hand without altering the rock face. The device uses opposing cams on a spring-loaded stem that expand to grip the inside of a crack when weighted. This innovation was crucial to the 'clean climbing' movement and opened up new possibilities for free climbing on previously unprotectable routes, significantly advancing the sport of rock climbing.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Spring-loaded_camming_device",
+    "citationTitle": "Wikipedia: Spring-loaded camming device"
+  },
+  {
+    "id": "5a82bf2b-4b78-479e-a88c-ddec5f8dbf8c",
+    "text": "In wingsuit flying, what is the typical glide ratio achieved by an experienced pilot in a modern wingsuit?",
+    "options": [
+      "1:1",
+      "2:1",
+      "3:1",
+      "5:1"
+    ],
+    "correctIndex": 2,
+    "category": "sports",
+    "difficulty": "hard",
+    "explanation": "Modern wingsuits typically achieve a 3:1 glide ratio for experienced pilots.",
+    "detailedExplanation": "Wingsuit flying involves pilots wearing specialized jumpsuits with fabric wings that inflate to create lift and allow for controlled gliding flight. A glide ratio of 3:1 means that for every 3 feet traveled horizontally, the wingsuit pilot descends 1 foot vertically. Modern wingsuit designs have significantly improved from early versions, with experienced pilots in high-performance suits achieving glide ratios of 3:1 or even better under optimal conditions. This allows wingsuit pilots to cover substantial horizontal distances during their flight, sometimes several miles, before deploying their parachutes for landing.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Wingsuit_flying",
+    "citationTitle": "Wikipedia: Wingsuit flying"
+  },
+  {
+    "id": "95721256-3049-4299-aa1d-b67dc74172bf",
+    "text": "What is the name of the technique used in ice climbing where climbers swing their ice axes in a specific pattern to efficiently ascend vertical ice?",
+    "options": [
+      "French technique",
+      "German technique",
+      "Piolet traction",
+      "American technique"
+    ],
+    "correctIndex": 2,
+    "category": "sports",
+    "difficulty": "hard",
+    "explanation": "Piolet traction is the technique of swinging ice axes to climb vertical ice.",
+    "detailedExplanation": "Piolet traction, from the French term for ice axe (piolet), is the fundamental technique used in modern ice climbing for ascending vertical or near-vertical ice. This technique involves alternately swinging two ice axes (or ice tools) overhead and placing them securely in the ice, then using them to pull oneself up while kicking crampons into the ice for foot support. The technique requires proper swing mechanics, accurate placement, and efficient movement to conserve energy. This method revolutionized ice climbing in the 1960s and 1970s, making previously impossible ice routes climbable and establishing ice climbing as a distinct discipline from rock climbing.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Ice_climbing",
+    "citationTitle": "Wikipedia: Ice climbing"
+  },
+  {
+    "id": "f2aef3d1-6756-40ac-a779-e706f86478dc",
+    "text": "In freestyle motocross, what trick involves the rider performing a complete backflip while separated from the motorcycle?",
+    "options": [
+      "Backflip",
+      "Cordova",
+      "Dead body",
+      "Volt"
+    ],
+    "correctIndex": 3,
+    "category": "sports",
+    "difficulty": "hard",
+    "explanation": "The Volt involves a complete backflip while separated from the motorcycle.",
+    "detailedExplanation": "The Volt is one of the most extreme and dangerous tricks in freestyle motocross (FMX), where the rider performs a complete backflip while completely separated from the motorcycle in mid-air, then must reconnect with the bike before landing. This trick was first successfully performed by Australian rider Cam Sinclair and represents the pinnacle of FMX difficulty. Unlike a regular backflip where the rider stays connected to the bike, the Volt requires perfect timing and spatial awareness as the rider must release the handlebars, complete their rotation independently, and then grab back onto the bike - all while both rider and motorcycle are rotating through the air.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Freestyle_motocross",
+    "citationTitle": "Wikipedia: Freestyle motocross"
+  },
+  {
+    "id": "defe0d94-919e-4ba4-b5be-8768b87db4a5",
+    "text": "What is the minimum wind speed required for kitesurfing to be viable for most riders?",
+    "options": [
+      "5-7 knots",
+      "12-15 knots",
+      "20-25 knots",
+      "30-35 knots"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "hard",
+    "explanation": "Most kitesurfers need at least 12-15 knots of wind to get started.",
+    "detailedExplanation": "Kitesurfing, also known as kiteboarding, requires consistent wind to generate the power needed to pull a rider across the water on a board. While very light wind kitesurfing is possible with large kites and skilled riders, most kitesurfers need a minimum of 12-15 knots of wind to reliably get up on the water and maintain planing speed. Below this wind speed, even large kites struggle to generate sufficient power. The sport typically becomes more comfortable and accessible in the 15-25 knot range, where medium-sized kites provide good power and control. Wind speeds above 30 knots are generally considered too strong for most recreational kitesurfers.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Kitesurfing",
+    "citationTitle": "Wikipedia: Kitesurfing"
+  },
+  {
+    "id": "0b5ba4c2-b4c6-416f-b5be-1948ebc28696",
+    "text": "In downhill mountain biking, what is the typical travel range of suspension forks used in World Cup downhill racing?",
+    "options": [
+      "80-120mm",
+      "140-160mm",
+      "180-200mm",
+      "220-250mm"
+    ],
+    "correctIndex": 2,
+    "category": "sports",
+    "difficulty": "hard",
+    "explanation": "World Cup downhill bikes typically use 180-200mm of front suspension travel.",
+    "detailedExplanation": "Downhill mountain biking is the most extreme discipline of mountain bike racing, involving high-speed descents down steep, technical terrain with jumps, drops, and obstacles. The bikes used in World Cup downhill racing are specifically designed for this punishment and typically feature 180-200mm of suspension travel in the front fork. This substantial amount of suspension travel allows the bike to absorb large impacts from jumps, drops, and rough terrain while maintaining control at speeds often exceeding 40 mph. The suspension setup is crucial for both performance and rider safety, as inadequate suspension would make the bike uncontrollable on the extreme terrain encountered in downhill racing.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Downhill_mountain_biking",
+    "citationTitle": "Wikipedia: Downhill mountain biking"
+  },
+  {
+    "id": "f513fe88-b734-4fc4-bf82-ea279be4f499",
+    "text": "Which extreme sport athlete holds the world record for the highest human freefall without a parachute, surviving by landing in a specially designed net?",
+    "options": [
+      "Luke Aikins",
+      "Felix Baumgartner",
+      "Alan Eustace",
+      "Joe Kittinger"
+    ],
+    "correctIndex": 0,
+    "category": "sports",
+    "difficulty": "hard",
+    "explanation": "Luke Aikins jumped from 25,000 feet without a parachute in 2016.",
+    "detailedExplanation": "Luke Aikins made history on July 30, 2016, when he jumped from 25,000 feet without a parachute or wingsuit, landing safely in a 100x100 foot net in Simi Valley, California. The stunt, called 'Heaven Sent,' was broadcast live on Fox and required years of planning and training. Aikins had over 18,000 parachute jumps under his belt before attempting this record-breaking feat.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Luke_Aikins",
+    "citationTitle": "Wikipedia: Luke Aikins"
+  },
+  {
+    "id": "ec5d2749-3e2e-42df-8e59-8f7b352dc559",
+    "text": "In street luge, what is the maximum speed ever officially recorded during competition?",
+    "options": [
+      "87.6 mph",
+      "95.2 mph",
+      "103.4 mph",
+      "112.8 mph"
+    ],
+    "correctIndex": 3,
+    "category": "sports",
+    "difficulty": "hard",
+    "explanation": "The street luge speed record is 112.8 mph, set by Mike McIntyre.",
+    "detailedExplanation": "Street luge involves riders lying on their backs on a wheeled sled and racing down paved roads or tracks. Mike McIntyre set the official street luge speed record of 112.8 mph (181.5 km/h) on a course in California. Street luge was popularized in the 1990s and was even featured in the X Games, though it has since been removed from the competition due to safety concerns.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Street_luge",
+    "citationTitle": "Wikipedia: Street luge"
+  },
+  {
+    "id": "ef2ec615-f1d7-461c-8b83-beead02b4645",
+    "text": "What is the name of the specialized knot most commonly used in slacklining to create the initial anchor point?",
+    "options": [
+      "Bowline knot",
+      "Water knot",
+      "Girth hitch",
+      "Figure-eight knot"
+    ],
+    "correctIndex": 2,
+    "category": "sports",
+    "difficulty": "hard",
+    "explanation": "A girth hitch is the standard knot for creating slackline anchor points.",
+    "detailedExplanation": "In slacklining, the girth hitch (also called a lark's head) is the most commonly used knot for creating the initial anchor point around trees or posts. This knot is preferred because it's simple, secure, and doesn't slip under the dynamic tension that slacklines create. The sport involves walking or performing tricks on a flat rope or webbing tensioned between two anchor points, and proper anchoring techniques are crucial for safety.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Slacklining",
+    "citationTitle": "Wikipedia: Slacklining"
+  },
+  {
+    "id": "e788f60f-73bd-4c5b-a322-3e9495a71e65",
+    "text": "In competitive snowboarding, what does the term 'amplitude' specifically refer to?",
+    "options": [
+      "The speed of rotation during spins",
+      "The height achieved above the lip of a halfpipe",
+      "The difficulty level of technical tricks",
+      "The smoothness of landing execution"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "hard",
+    "explanation": "Amplitude refers to how high a rider goes above the coping or lip of the halfpipe.",
+    "detailedExplanation": "Amplitude is a crucial scoring criterion in halfpipe snowboarding competitions, measuring how high above the lip (coping) of the halfpipe a rider launches during their run. Judges look for consistent amplitude throughout the run, as higher amplitude allows for more spectacular tricks and demonstrates the rider's ability to generate and maintain speed. The term is also used in skateboarding and BMX halfpipe competitions.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Halfpipe",
+    "citationTitle": "Wikipedia: Halfpipe"
+  },
+  {
+    "id": "4998edd3-0767-4ac9-81db-a584d7350fea",
+    "text": "Which country is credited with originating the extreme sport of zorbing?",
+    "options": [
+      "Australia",
+      "New Zealand",
+      "Switzerland",
+      "Norway"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "hard",
+    "explanation": "Zorbing was invented in New Zealand in the 1990s.",
+    "detailedExplanation": "Zorbing was invented in New Zealand by Dwane van der Sluis and Andrew Akers in the 1990s. The activity involves rolling downhill inside a large transparent plastic ball, typically 3 meters in diameter. The first commercial zorbing site opened in New Zealand's North Island, and the sport has since spread worldwide. There are different variations including 'hydro zorbing' where water is added inside the ball.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Zorbing",
+    "citationTitle": "Wikipedia: Zorbing"
+  },
+  {
+    "id": "0c63eefc-7ac6-46ac-80da-ada9c1363d9a",
+    "text": "In competitive parkour, what is the official name for the technique of vaulting over an obstacle using both hands for support?",
+    "options": [
+      "Safety vault",
+      "Speed vault",
+      "Dash vault",
+      "Lazy vault"
+    ],
+    "correctIndex": 0,
+    "category": "sports",
+    "difficulty": "hard",
+    "explanation": "The safety vault is the fundamental two-handed vaulting technique in parkour.",
+    "detailedExplanation": "The safety vault is considered the most fundamental and versatile vaulting technique in parkour and freerunning. It involves placing both hands on an obstacle and bringing both legs to one side while maintaining control and balance. This technique is called 'safety' because it provides the most stability and control compared to other vaults, making it ideal for beginners and for navigating obstacles where precision is more important than speed.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Parkour",
+    "citationTitle": "Wikipedia: Parkour"
+  },
+  {
+    "id": "48ba6c35-43fa-4cdf-b760-971bc1ac979b",
+    "text": "What is the typical depth range for competitive freediving in the Constant Weight Apnea discipline?",
+    "options": [
+      "50-80 meters",
+      "80-130 meters",
+      "130-180 meters",
+      "180-220 meters"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "hard",
+    "explanation": "Elite freedivers in Constant Weight Apnea typically dive between 80-130 meters deep.",
+    "detailedExplanation": "Constant Weight Apnea (CWT) is one of the most popular competitive freediving disciplines where divers descend and ascend using only their fins, without pulling on a rope or changing their weight. The current world records are around 130 meters for men and over 100 meters for women, with most competitive divers performing in the 80-130 meter range. This discipline requires exceptional breath-holding ability, technique, and mental preparation.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Freediving",
+    "citationTitle": "Wikipedia: Freediving"
+  },
+  {
+    "id": "c7c37137-4135-4e44-ae9e-b7ad48cd787b",
+    "text": "In extreme kayaking, what class of whitewater rapids is considered the upper limit for commercial rafting operations?",
+    "options": [
+      "Class III",
+      "Class IV",
+      "Class V",
+      "Class VI"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "hard",
+    "explanation": "Class IV rapids represent the upper limit for most commercial rafting operations.",
+    "detailedExplanation": "The International Scale of River Difficulty classifies whitewater from Class I (easy) to Class VI (nearly impossible). Class IV rapids feature intense, powerful, and unpredictable water with rocks and drops that require precise boat handling. While some specialized commercial operations may run Class IV+, most commercial rafting companies limit their operations to Class III and lower Class IV rapids for safety reasons. Class V and VI rapids are reserved for expert kayakers and extreme whitewater specialists.",
+    "citationUrl": "https://en.wikipedia.org/wiki/International_Scale_of_River_Difficulty",
+    "citationTitle": "Wikipedia: International Scale of River Difficulty"
+  },
+  {
+    "id": "db0c75e9-9e5a-4a7b-bc02-f72906d5801f",
+    "text": "In free solo rock climbing, which climber became the first person to free solo El Capitan's Freerider route in Yosemite, completing the 3,200-foot ascent without ropes in 2017?",
+    "options": [
+      "Tommy Caldwell",
+      "Alex Honnold",
+      "Adam Ondra",
+      "Chris Sharma"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "hard",
+    "explanation": "Alex Honnold completed the first free solo ascent of El Capitan's Freerider route on June 3, 2017.",
+    "detailedExplanation": "Alex Honnold's free solo ascent of El Capitan's Freerider route in Yosemite National Park is considered one of the greatest achievements in rock climbing history. The 3,200-foot granite wall took him 3 hours and 56 minutes to complete without any safety equipment. This feat was documented in the Academy Award-winning film 'Free Solo' and represents the pinnacle of technical climbing combined with mental fortitude in extreme sports.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Alex_Honnold",
+    "citationTitle": "Wikipedia: Alex Honnold"
+  },
+  {
+    "id": "5a78063d-1732-4290-ad11-458fb61c32ef",
+    "text": "In competitive skateboarding, what is the maximum score possible in the Street discipline that debuted at the Tokyo 2020 Olympics?",
+    "options": [
+      "10.0",
+      "100.0",
+      "50.0",
+      "20.0"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "hard",
+    "explanation": "The Olympic skateboarding Street discipline uses a 100-point scoring system with judges awarding scores out of 100.0.",
+    "detailedExplanation": "Olympic skateboarding introduced a comprehensive scoring system where judges evaluate tricks based on difficulty, execution, speed, originality, and overall composition. In the Street discipline, skaters perform individual tricks and runs that are scored out of 100 points by a panel of five judges. The final score comes from the best four individual trick scores, making technical precision and innovation crucial for medal contention.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Skateboarding_at_the_2020_Summer_Olympics",
+    "citationTitle": "Wikipedia: Skateboarding at the 2020 Summer Olympics"
+  },
+  {
+    "id": "dd262dbe-87e8-49e3-aea0-9e17ddae32c0",
+    "text": "What is the name of the extreme sport that involves riding a board down sand dunes, which originated in the deserts of South America?",
+    "options": [
+      "Sandskiing",
+      "Sandboarding",
+      "Dune surfing",
+      "Sand sledding"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "hard",
+    "explanation": "Sandboarding is the extreme sport of riding a board down sand dunes, originating in the deserts of South America.",
+    "detailedExplanation": "Sandboarding emerged as an extreme sport in the coastal deserts of Peru and Chile, where massive sand dunes provided perfect natural terrain for the activity. Similar to snowboarding in technique but requiring different wax and board materials to handle sand friction, sandboarding has spread globally to desert regions including the Sahara, Australian Outback, and American Southwest. The sport requires specialized boards with a harder base and different binding systems to handle the abrasive nature of sand.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Sandboarding",
+    "citationTitle": "Wikipedia: Sandboarding"
+  },
+  {
+    "id": "844264ac-9d0e-452d-af27-d8e5b2120e45",
+    "text": "In competitive BMX racing, what is the standard length of an Olympic BMX Supercross track?",
+    "options": [
+      "300-400 meters",
+      "400-500 meters",
+      "200-300 meters",
+      "500-600 meters"
+    ],
+    "correctIndex": 0,
+    "category": "sports",
+    "difficulty": "hard",
+    "explanation": "Olympic BMX Supercross tracks are standardized at 300-400 meters in length according to UCI regulations.",
+    "detailedExplanation": "The Union Cycliste Internationale (UCI) standardized BMX Supercross tracks for Olympic competition to be between 300-400 meters long, featuring a challenging course with multiple jumps, bermed turns, and rhythm sections. These tracks are designed to test riders' technical skills, speed, and aerial ability while maintaining safety standards for elite competition. The track design includes a starting hill approximately 8 meters high and incorporates various obstacles that require different techniques to navigate efficiently.",
+    "citationUrl": "https://en.wikipedia.org/wiki/BMX_racing",
+    "citationTitle": "Wikipedia: BMX racing"
+  }
+]

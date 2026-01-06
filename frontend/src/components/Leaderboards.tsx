@@ -1,8 +1,9 @@
 "use client";
 
 import { useState } from "react";
-import { Card, CardBody, Tabs, Tab, Spinner } from "@nextui-org/react";
+import { Card, CardBody, Tabs, Tab } from "@nextui-org/react";
 import { useLeaderboard } from "@/hooks/queries";
+import { LoadingDots } from "@/components/LoadingScreen";
 import { LeaderboardType } from "@quiz/shared";
 
 // Tab key to API type mapping
@@ -26,7 +27,7 @@ export function Leaderboards() {
   return (
     <Card className="bg-gray-800/50 backdrop-blur">
       <CardBody className="p-6">
-        <div className="flex items-center justify-between mb-4">
+        <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 mb-4">
           <h2 className="text-2xl font-bold text-white">Leaderboards</h2>
           <Tabs
             selectedKey={selectedTab}
@@ -48,7 +49,7 @@ export function Leaderboards() {
         <div className="mt-4 space-y-2 min-h-[200px]">
           {isLoading ? (
             <div className="flex justify-center items-center h-[200px]">
-              <Spinner color="primary" />
+              <LoadingDots />
             </div>
           ) : error ? (
             <div className="text-center text-red-400 py-8">

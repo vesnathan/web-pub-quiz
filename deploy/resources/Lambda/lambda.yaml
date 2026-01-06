@@ -549,6 +549,190 @@ Resources:
         - Key: Project
           Value: quiz-night-live
 
+  # ============================================
+  # Send Invite Lambda (Email invites with reCAPTCHA)
+  # ============================================
+
+  SendInviteFunction:
+    Type: AWS::Lambda::Function
+    Properties:
+      FunctionName: !Sub "${AppName}-send-invite-${Stage}"
+      Runtime: nodejs20.x
+      Handler: index.handler
+      Role: !GetAtt SendInviteRole.Arn
+      Timeout: 30
+      Environment:
+        Variables:
+          TABLE_NAME: !Ref DataTableName
+          RECAPTCHA_SECRETS_ARN: !Ref RecaptchaSecrets
+          SES_FROM_EMAIL: !If
+            - IsProd
+            - "Quiz Night Live <noreply@quiznight.live>"
+            - "Quiz Night Live <noreply@dev.quiznight.live>"
+          FRONTEND_URL: !If
+            - IsProd
+            - "https://quiznight.live"
+            - "https://dev.quiznight.live"
+      Code:
+        S3Bucket: !Ref TemplateBucketName
+        S3Key: !Sub "functions/${Stage}/sendInvite.zip"
+      Tags:
+        - Key: Project
+          Value: quiz-night-live
+
+  SendInviteRole:
+    Type: AWS::IAM::Role
+    Properties:
+      RoleName: !Sub "${AppName}-send-invite-role-${Stage}"
+      AssumeRolePolicyDocument:
+        Version: "2012-10-17"
+        Statement:
+          - Effect: Allow
+            Principal:
+              Service: lambda.amazonaws.com
+            Action: sts:AssumeRole
+      ManagedPolicyArns:
+        - arn:aws:iam::aws:policy/service-role/AWSLambdaBasicExecutionRole
+      Policies:
+        - PolicyName: DynamoDBAccess
+          PolicyDocument:
+            Version: "2012-10-17"
+            Statement:
+              - Effect: Allow
+                Action:
+                  - dynamodb:GetItem
+                  - dynamodb:PutItem
+                  - dynamodb:UpdateItem
+                  - dynamodb:Query
+                Resource:
+                  - !Ref DataTableArn
+                  - !Sub "${DataTableArn}/index/*"
+        - PolicyName: SecretsAccess
+          PolicyDocument:
+            Version: "2012-10-17"
+            Statement:
+              - Effect: Allow
+                Action:
+                  - secretsmanager:GetSecretValue
+                Resource:
+                  - !Ref RecaptchaSecrets
+        - PolicyName: SESAccess
+          PolicyDocument:
+            Version: "2012-10-17"
+            Statement:
+              - Effect: Allow
+                Action:
+                  - ses:SendEmail
+                  - ses:SendRawEmail
+                Resource: "*"
+      Tags:
+        - Key: Project
+          Value: quiz-night-live
+
+  SendInviteLogGroup:
+    Type: AWS::Logs::LogGroup
+    Properties:
+      LogGroupName: !Sub "/aws/lambda/${AppName}-send-invite-${Stage}"
+      RetentionInDays: !Ref LogRetentionInDays
+      Tags:
+        - Key: Project
+          Value: quiz-night-live
+
+  # ============================================
+  # Send Contact Lambda (Contact form with reCAPTCHA)
+  # ============================================
+
+  SendContactFunction:
+    Type: AWS::Lambda::Function
+    Properties:
+      FunctionName: !Sub "${AppName}-send-contact-${Stage}"
+      Runtime: nodejs20.x
+      Handler: index.handler
+      Role: !GetAtt SendContactRole.Arn
+      Timeout: 30
+      Environment:
+        Variables:
+          TABLE_NAME: !Ref DataTableName
+          RECAPTCHA_SECRETS_ARN: !Ref RecaptchaSecrets
+          SES_FROM_EMAIL: !If
+            - IsProd
+            - "Quiz Night Live <noreply@quiznight.live>"
+            - "Quiz Night Live <noreply@dev.quiznight.live>"
+          ADMIN_EMAIL: !If
+            - IsProd
+            - "support@quiznight.live"
+            - "vesnathan+dev@gmail.com"
+      Code:
+        S3Bucket: !Ref TemplateBucketName
+        S3Key: !Sub "functions/${Stage}/sendContact.zip"
+      Tags:
+        - Key: Project
+          Value: quiz-night-live
+
+  SendContactRole:
+    Type: AWS::IAM::Role
+    Properties:
+      RoleName: !Sub "${AppName}-send-contact-role-${Stage}"
+      AssumeRolePolicyDocument:
+        Version: "2012-10-17"
+        Statement:
+          - Effect: Allow
+            Principal:
+              Service: lambda.amazonaws.com
+            Action: sts:AssumeRole
+      ManagedPolicyArns:
+        - arn:aws:iam::aws:policy/service-role/AWSLambdaBasicExecutionRole
+      Policies:
+        - PolicyName: DynamoDBAccess
+          PolicyDocument:
+            Version: "2012-10-17"
+            Statement:
+              - Effect: Allow
+                Action:
+                  - dynamodb:GetItem
+                  - dynamodb:PutItem
+                  - dynamodb:UpdateItem
+                Resource: !Sub "arn:aws:dynamodb:${AWS::Region}:${AWS::AccountId}:table/${DataTableName}"
+        - PolicyName: SecretsManagerAccess
+          PolicyDocument:
+            Version: "2012-10-17"
+            Statement:
+              - Effect: Allow
+                Action:
+                  - secretsmanager:GetSecretValue
+                Resource: !Ref RecaptchaSecrets
+        - PolicyName: SESAccess
+          PolicyDocument:
+            Version: "2012-10-17"
+            Statement:
+              - Effect: Allow
+                Action:
+                  - ses:SendEmail
+                Resource: "*"
+      Tags:
+        - Key: Project
+          Value: quiz-night-live
+
+  SendContactLogGroup:
+    Type: AWS::Logs::LogGroup
+    Properties:
+      LogGroupName: !Sub "/aws/lambda/${AppName}-send-contact-${Stage}"
+      RetentionInDays: !Ref LogRetentionInDays
+      Tags:
+        - Key: Project
+          Value: quiz-night-live
+
+  # reCAPTCHA Secrets
+  RecaptchaSecrets:
+    Type: AWS::SecretsManager::Secret
+    Properties:
+      Name: !Sub "${AppName}/recaptcha-${Stage}"
+      Description: Google reCAPTCHA v3 credentials
+      SecretString: '{"siteKey":"placeholder","secretKey":"placeholder"}'
+      Tags:
+        - Key: Project
+          Value: quiz-night-live
+
 Conditions:
   IsProd: !Equals [!Ref Stage, "prod"]
 
@@ -596,3 +780,15 @@ Outputs:
   SchemaReadyWaiterFunctionArn:
     Description: Schema Ready Waiter Lambda ARN
     Value: !GetAtt SchemaReadyWaiterFunction.Arn
+
+  SendInviteFunctionArn:
+    Description: Send Invite Lambda ARN
+    Value: !GetAtt SendInviteFunction.Arn
+
+  SendContactFunctionArn:
+    Description: Send Contact Lambda ARN
+    Value: !GetAtt SendContactFunction.Arn
+
+  RecaptchaSecretsArn:
+    Description: reCAPTCHA Secrets ARN
+    Value: !Ref RecaptchaSecrets

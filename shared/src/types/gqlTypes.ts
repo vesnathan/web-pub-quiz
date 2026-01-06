@@ -365,6 +365,7 @@ export type UserSubscription = {
 
 export type WebhookLog = {
   createdAt: Scalars['String']['output'];
+  email?: Maybe<Scalars['String']['output']>;
   errorMessage?: Maybe<Scalars['String']['output']>;
   eventId: Scalars['ID']['output'];
   eventType: Scalars['String']['output'];

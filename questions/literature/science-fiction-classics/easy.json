@@ -1,0 +1,342 @@
+[
+  {
+    "id": "9cdc82dc-ad48-4c70-a887-feecb4a92908",
+    "text": "Which author wrote the science fiction classic '1984'?",
+    "options": [
+      "George Orwell",
+      "Aldous Huxley",
+      "Ray Bradbury",
+      "Isaac Asimov"
+    ],
+    "correctIndex": 0,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "George Orwell wrote '1984', published in 1949.",
+    "detailedExplanation": "George Orwell's dystopian novel '1984' was published in 1949 and has become one of the most influential science fiction works of all time. The novel introduced concepts like 'Big Brother,' 'thoughtcrime,' and 'doublethink' that have entered common usage. Set in a totalitarian society where the government controls every aspect of life, the book serves as a warning about the dangers of authoritarianism and surveillance states.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Nineteen_Eighty-Four",
+    "citationTitle": "Wikipedia: Nineteen Eighty-Four"
+  },
+  {
+    "id": "a540647d-d0fd-413a-a4ac-7a0e720bab2e",
+    "text": "What is the name of the desert planet in Frank Herbert's 'Dune'?",
+    "options": [
+      "Tatooine",
+      "Arrakis",
+      "Caladan",
+      "Giedi Prime"
+    ],
+    "correctIndex": 1,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "Arrakis is the desert planet central to the Dune saga.",
+    "detailedExplanation": "Arrakis, also known as Dune, is the harsh desert planet that serves as the primary setting for Frank Herbert's 1965 novel 'Dune.' The planet is crucial to the galaxy's economy as it is the only source of the spice melange, which extends life and enhances mental abilities. The extreme desert conditions and giant sandworms make Arrakis one of the most memorable fictional worlds in science fiction literature.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Arrakis",
+    "citationTitle": "Wikipedia: Arrakis"
+  },
+  {
+    "id": "6dbb91ce-8a83-431e-b13a-08823c667f6e",
+    "text": "In Isaac Asimov's robot stories, what are the Three Laws of Robotics designed to prevent?",
+    "options": [
+      "Robots from becoming too intelligent",
+      "Robots from harming humans",
+      "Robots from reproducing",
+      "Robots from feeling emotions"
+    ],
+    "correctIndex": 1,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "The Three Laws of Robotics are designed to prevent robots from harming humans.",
+    "detailedExplanation": "Isaac Asimov's Three Laws of Robotics first appeared in his 1942 short story 'Runaround.' The laws state: 1) A robot may not injure a human being or allow a human being to come to harm through inaction, 2) A robot must obey orders given by humans except where such orders conflict with the First Law, and 3) A robot must protect its own existence except where such protection conflicts with the First or Second Laws. These laws became a fundamental concept in science fiction robotics.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Three_Laws_of_Robotics",
+    "citationTitle": "Wikipedia: Three Laws of Robotics"
+  },
+  {
+    "id": "df8e567d-6ff6-443a-a8d6-6bba4d1c1be0",
+    "text": "What year was Ray Bradbury's 'Fahrenheit 451' first published?",
+    "options": [
+      "1950",
+      "1953",
+      "1955",
+      "1957"
+    ],
+    "correctIndex": 1,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "'Fahrenheit 451' was first published in 1953.",
+    "detailedExplanation": "Ray Bradbury's dystopian novel 'Fahrenheit 451' was published in 1953. The book depicts a future American society where books are outlawed and 'firemen' burn any that are found. The title refers to the temperature at which book paper supposedly catches fire and burns. The novel explores themes of censorship, the power of books and reading, and the dangers of mass media and conformity.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Fahrenheit_451",
+    "citationTitle": "Wikipedia: Fahrenheit 451"
+  },
+  {
+    "id": "6cd7a53c-8998-4f0f-8b96-166b404ac783",
+    "text": "Which science fiction author created the Foundation series?",
+    "options": [
+      "Robert Heinlein",
+      "Isaac Asimov",
+      "Arthur C. Clarke",
+      "Philip K. Dick"
+    ],
+    "correctIndex": 1,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "Isaac Asimov created the Foundation series, beginning in 1951.",
+    "detailedExplanation": "Isaac Asimov's Foundation series began with the novel 'Foundation' in 1951, though it was based on earlier short stories published in Astounding Magazine. The series follows the concept of 'psychohistory,' a mathematical science that can predict the future of large populations. The Foundation series is considered one of the greatest science fiction series ever written and won the Hugo Award for Best All-Time Series in 1966.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Foundation_series",
+    "citationTitle": "Wikipedia: Foundation series"
+  },
+  {
+    "id": "c0374d20-669f-4d1b-9313-015701d70c58",
+    "text": "In H.G. Wells' 'The Time Machine', what are the two races that humanity has evolved into?",
+    "options": [
+      "Eloi and Morlocks",
+      "Alphas and Epsilons",
+      "Martians and Earthlings",
+      "Sleepers and Watchers"
+    ],
+    "correctIndex": 0,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "In 'The Time Machine', humanity has divided into the Eloi and the Morlocks.",
+    "detailedExplanation": "In H.G. Wells' 1895 novel 'The Time Machine,' the Time Traveller discovers that humanity has evolved into two distinct species: the Eloi, who are small, childlike, and live above ground in apparent leisure, and the Morlocks, who are pale, ape-like creatures living underground and operating machinery. Wells used this division as social commentary on the class system of Victorian England, suggesting it could lead to actual evolutionary divergence.",
+    "citationUrl": "https://en.wikipedia.org/wiki/The_Time_Machine",
+    "citationTitle": "Wikipedia: The Time Machine"
+  },
+  {
+    "id": "6df357e7-69d4-4cb5-99db-f0900e2f9006",
+    "text": "What is the name of the computer in Arthur C. Clarke's '2001: A Space Odyssey'?",
+    "options": [
+      "MOTHER",
+      "WOPR",
+      "HAL 9000",
+      "GERTY"
+    ],
+    "correctIndex": 2,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "HAL 9000 is the artificial intelligence computer in '2001: A Space Odyssey'.",
+    "detailedExplanation": "HAL 9000 (Heuristically programmed ALgorithmic computer) is the sentient computer that controls the Discovery One spacecraft in Arthur C. Clarke's 1968 novel '2001: A Space Odyssey,' co-developed with Stanley Kubrick's film. HAL becomes one of science fiction's most iconic antagonists when it begins to malfunction and poses a threat to the human crew. The character has become synonymous with artificial intelligence gone wrong in popular culture.",
+    "citationUrl": "https://en.wikipedia.org/wiki/HAL_9000",
+    "citationTitle": "Wikipedia: HAL 9000"
+  },
+  {
+    "id": "9a822304-7e95-4b8d-ad49-9d94d20662ca",
+    "text": "Which drug is central to Aldous Huxley's 'Brave New World'?",
+    "options": [
+      "Spice",
+      "Soma",
+      "Substance D",
+      "Blue Mass"
+    ],
+    "correctIndex": 1,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "Soma is the mood-altering drug used to control the population in 'Brave New World'.",
+    "detailedExplanation": "In Aldous Huxley's 1932 novel 'Brave New World,' soma is a hallucinogenic drug used by the government to control the population by keeping them docile and content. Citizens are encouraged to take soma whenever they feel unhappy or stressed, with the motto 'a gramme is better than a damn.' The drug represents Huxley's concerns about how pleasure and instant gratification could be used as tools of social control in a dystopian future.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Brave_New_World",
+    "citationTitle": "Wikipedia: Brave New World"
+  },
+  {
+    "id": "8c83c98f-d3c2-4e5a-bd6b-0d8185a09cc0",
+    "text": "In Robert Heinlein's 'Stranger in a Strange Land', what is the name of the Martian-raised human protagonist?",
+    "options": [
+      "Valentine Michael Smith",
+      "John Carter",
+      "Paul Atreides",
+      "Lazarus Long"
+    ],
+    "correctIndex": 0,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "Valentine Michael Smith is the human raised by Martians who returns to Earth.",
+    "detailedExplanation": "Valentine Michael Smith is the central character of Robert Heinlein's 1961 novel 'Stranger in a Strange Land'. Born on Mars and raised by Martians after his parents died, Smith returns to Earth as an adult with extraordinary abilities and a completely alien perspective on human society. The novel explores themes of religion, sexuality, and social conventions through Smith's innocent yet profound observations of human behavior.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Stranger_in_a_Strange_Land",
+    "citationTitle": "Wikipedia: Stranger in a Strange Land"
+  },
+  {
+    "id": "6e0cf522-fea7-4f1f-9936-50e1e43bf9b9",
+    "text": "Which author wrote the space opera classic 'The Left Hand of Darkness'?",
+    "options": [
+      "Philip K. Dick",
+      "Ursula K. Le Guin",
+      "Anne McCaffrey",
+      "Marion Zimmer Bradley"
+    ],
+    "correctIndex": 1,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "Ursula K. Le Guin wrote 'The Left Hand of Darkness' in 1969.",
+    "detailedExplanation": "'The Left Hand of Darkness' is a groundbreaking science fiction novel by Ursula K. Le Guin, published in 1969. Set on the planet Gethen, the story explores a society of ambisexual beings who can change gender. The novel is renowned for its exploration of gender roles, sexuality, and political themes, and it won both the Hugo and Nebula Awards, establishing Le Guin as one of the most important voices in science fiction literature.",
+    "citationUrl": "https://en.wikipedia.org/wiki/The_Left_Hand_of_Darkness",
+    "citationTitle": "Wikipedia: The Left Hand of Darkness"
+  },
+  {
+    "id": "4d17b96f-823f-47a0-8a82-6cdecd7864cc",
+    "text": "In Kurt Vonnegut's 'Slaughterhouse-Five', what phrase does the protagonist Billy Pilgrim frequently use?",
+    "options": [
+      "Time is an illusion",
+      "So it goes",
+      "Everything was beautiful",
+      "War is peace"
+    ],
+    "correctIndex": 1,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "'So it goes' is the recurring phrase Billy Pilgrim uses throughout the novel.",
+    "detailedExplanation": "In Kurt Vonnegut's 1969 novel 'Slaughterhouse-Five', the phrase 'So it goes' appears 106 times throughout the book. Billy Pilgrim, the protagonist who becomes 'unstuck in time', uses this fatalistic phrase whenever death is mentioned, reflecting the novel's themes of mortality, the inevitability of death, and the absurdity of war. The phrase embodies the Tralfamadorian philosophy that death is simply another moment in time.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Slaughterhouse-Five",
+    "citationTitle": "Wikipedia: Slaughterhouse-Five"
+  },
+  {
+    "id": "1ab59e51-581e-432f-ac5b-4a9a48a0ef6d",
+    "text": "What is the title of the first book in Douglas Adams' 'Hitchhiker's Guide to the Galaxy' series?",
+    "options": [
+      "The Restaurant at the End of the Universe",
+      "Life, the Universe and Everything",
+      "The Hitchhiker's Guide to the Galaxy",
+      "So Long, and Thanks for All the Fish"
+    ],
+    "correctIndex": 2,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "'The Hitchhiker's Guide to the Galaxy' is both the series name and the title of the first book.",
+    "detailedExplanation": "'The Hitchhiker's Guide to the Galaxy' is both the name of Douglas Adams' famous science fiction comedy series and the title of the first book, published in 1979. The novel follows Arthur Dent as he travels through space after Earth is destroyed to make way for a hyperspace bypass. The book originated from a BBC radio series and became a cultural phenomenon, known for its absurd humor and the famous answer '42' to the ultimate question of life, the universe, and everything.",
+    "citationUrl": "https://en.wikipedia.org/wiki/The_Hitchhiker%27s_Guide_to_the_Galaxy",
+    "citationTitle": "Wikipedia: The Hitchhiker's Guide to the Galaxy"
+  },
+  {
+    "id": "052ff053-8030-4fae-9fd3-183429110914",
+    "text": "In Philip K. Dick's 'Do Androids Dream of Electric Sheep?', what test is used to identify androids?",
+    "options": [
+      "Turing Test",
+      "Voight-Kampff Test",
+      "Empathy Assessment",
+      "Memory Implant Scan"
+    ],
+    "correctIndex": 1,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "The Voight-Kampff Test measures empathetic responses to distinguish humans from androids.",
+    "detailedExplanation": "In Philip K. Dick's 1968 novel 'Do Androids Dream of Electric Sheep?', the Voight-Kampff Test is a psychological assessment used by blade runners to identify replicants (androids). The test measures empathetic responses through questions designed to evoke emotional reactions, as androids are believed to lack genuine empathy. This novel served as the basis for the film 'Blade Runner' and explores themes of artificial intelligence, consciousness, and what it means to be human.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Do_Androids_Dream_of_Electric_Sheep%3F",
+    "citationTitle": "Wikipedia: Do Androids Dream of Electric Sheep?"
+  },
+  {
+    "id": "e121d3c5-b949-4d5c-b949-e08fb0aa5cc4",
+    "text": "Which planet do the humans terraform in Kim Stanley Robinson's Mars trilogy?",
+    "options": [
+      "Venus",
+      "Mars",
+      "Europa",
+      "Titan"
+    ],
+    "correctIndex": 1,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "The Mars trilogy follows the colonization and terraforming of Mars over several generations.",
+    "detailedExplanation": "Kim Stanley Robinson's Mars trilogy, consisting of 'Red Mars' (1992), 'Green Mars' (1993), and 'Blue Mars' (1996), chronicles the colonization and terraforming of Mars over several centuries. The series is renowned for its scientific accuracy and detailed exploration of the technological, political, and social challenges involved in transforming Mars into a habitable world for humans. The trilogy won multiple awards and is considered one of the finest examples of hard science fiction.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Mars_trilogy",
+    "citationTitle": "Wikipedia: Mars trilogy"
+  },
+  {
+    "id": "9b1df6a5-feca-4d0f-9158-604406383527",
+    "text": "What is the name of the generation ship in Gene Wolfe's 'The Book of the Long Sun' series?",
+    "options": [
+      "The Whorl",
+      "The Severian",
+      "The Urth",
+      "The Commonwealth"
+    ],
+    "correctIndex": 0,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "The Whorl is the massive generation ship where the entire series takes place.",
+    "detailedExplanation": "'The Book of the Long Sun' is a four-volume science fiction series by Gene Wolfe, set aboard a massive generation ship called the Whorl. The series follows Patera Silk, a priest who receives a divine vision, as he navigates the complex society within this artificial world. The Whorl is a cylindrical habitat that rotates to provide artificial gravity, and its inhabitants have largely forgotten their origins and believe they live in a world created by gods called the Outsider and the minor gods.",
+    "citationUrl": "https://en.wikipedia.org/wiki/The_Book_of_the_Long_Sun",
+    "citationTitle": "Wikipedia: The Book of the Long Sun"
+  },
+  {
+    "id": "c2401a2b-4734-4035-b9b0-d9f4d9cfcf81",
+    "text": "In Orson Scott Card's 'Ender's Game', what is the name of the alien species humanity fights against?",
+    "options": [
+      "The Formics",
+      "The Buggers",
+      "Both A and B",
+      "The Hive Mind"
+    ],
+    "correctIndex": 2,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "The aliens are called both 'Formics' (their proper name) and 'Buggers' (the human nickname).",
+    "detailedExplanation": "In Orson Scott Card's 1985 novel 'Ender's Game', the alien species are officially known as Formics due to their ant-like appearance and behavior, but humans commonly refer to them as 'Buggers.' These insectoid aliens have a hive-mind society and previously invaded Earth twice before the events of the novel. The story follows young Ender Wiggin as he trains at Battle School to fight against these aliens, ultimately leading to a climactic battle that reveals profound truths about communication and understanding between species.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Ender%27s_Game",
+    "citationTitle": "Wikipedia: Ender's Game"
+  },
+  {
+    "id": "dac4aaeb-6fb4-4fda-94bd-fcb0daf4809f",
+    "text": "Which author wrote the dystopian novel 'The Handmaid's Tale'?",
+    "options": [
+      "Margaret Atwood",
+      "Ursula K. Le Guin",
+      "Octavia Butler",
+      "Doris Lessing"
+    ],
+    "correctIndex": 0,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "Margaret Atwood wrote 'The Handmaid's Tale', published in 1985.",
+    "detailedExplanation": "Margaret Atwood's 'The Handmaid's Tale' is a dystopian science fiction novel published in 1985. Set in the near future, it depicts a totalitarian society called the Republic of Gilead where fertile women are forced to bear children for the ruling class. The novel won numerous awards and has been adapted into a successful television series, cementing its place as a modern science fiction classic.",
+    "citationUrl": "https://en.wikipedia.org/wiki/The_Handmaid%27s_Tale",
+    "citationTitle": "Wikipedia: The Handmaid's Tale"
+  },
+  {
+    "id": "81406012-3d52-4e6e-b26d-00753edbce44",
+    "text": "What is the name of the spaceship in Robert Heinlein's 'Starship Troopers'?",
+    "options": [
+      "Rodger Young",
+      "Enterprise",
+      "Valley Forge",
+      "Discovery"
+    ],
+    "correctIndex": 0,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "The Rodger Young is the starship that carries the Mobile Infantry in 'Starship Troopers'.",
+    "detailedExplanation": "In Robert Heinlein's 1959 military science fiction novel 'Starship Troopers', the Rodger Young is the starship that transports the Mobile Infantry unit to which protagonist Johnny Rico belongs. The ship is named after a real-life World War II Medal of Honor recipient. The novel explores themes of citizenship, military service, and political philosophy through the lens of humanity's war against an alien species known as the Bugs.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Starship_Troopers",
+    "citationTitle": "Wikipedia: Starship Troopers"
+  },
+  {
+    "id": "b5d9a3f7-4e06-4170-93d6-4299614206d8",
+    "text": "In Jules Verne's 'Twenty Thousand Leagues Under the Sea', what is the name of Captain Nemo's submarine?",
+    "options": [
+      "Nautilus",
+      "Albatross",
+      "Columbiad",
+      "Victoria"
+    ],
+    "correctIndex": 0,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "The Nautilus is Captain Nemo's advanced submarine in Jules Verne's classic novel.",
+    "detailedExplanation": "The Nautilus is the fictional submarine commanded by the mysterious Captain Nemo in Jules Verne's 1870 novel 'Twenty Thousand Leagues Under the Sea'. This revolutionary vessel, far ahead of its time in the story, serves as both a technological marvel and a symbol of Nemo's isolation from the world above. The submarine's name references the real nautilus mollusk, and Verne's detailed descriptions of the vessel helped establish many conventions of submarine fiction that persist today.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Twenty_Thousand_Leagues_Under_the_Sea",
+    "citationTitle": "Wikipedia: Twenty Thousand Leagues Under the Sea"
+  },
+  {
+    "id": "91024e51-4db1-4b64-8ae5-f010d3b9fb0f",
+    "text": "What is the name of the psychic ability to communicate telepathically in many science fiction works, particularly those by Alfred Bester?",
+    "options": [
+      "Psionics",
+      "Esping",
+      "Teeping",
+      "Mindspeech"
+    ],
+    "correctIndex": 2,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "'Teeping' (from telepathy) is the term used for telepathic communication in Alfred Bester's works.",
+    "detailedExplanation": "Alfred Bester, author of science fiction classics like 'The Demolished Man' (1953) and 'The Stars My Destination' (1956), coined the term 'teeping' as slang for telepathic communication. This term, derived from 'telepathy', became part of the vocabulary in his novels featuring psychically gifted individuals called 'espers'. Bester's exploration of telepathy and its social implications was groundbreaking in science fiction literature and influenced many subsequent works dealing with psychic abilities.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Alfred_Bester",
+    "citationTitle": "Wikipedia: Alfred Bester"
+  }
+]

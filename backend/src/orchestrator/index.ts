@@ -4,20 +4,15 @@ import { DynamoDBClient } from '@aws-sdk/client-dynamodb';
 import { DynamoDBDocumentClient, UpdateCommand, QueryCommand, PutCommand, GetCommand } from '@aws-sdk/lib-dynamodb';
 import {
   ABLY_CHANNELS,
-  SET_DURATION_MINUTES,
   QUESTIONS_PER_SET,
-  MAX_LATENCY_COMPENSATION_MS,
   MAX_PLAYERS_PER_ROOM,
   DIFFICULTY_POINTS,
-  JOIN_WINDOW_SECONDS,
   calculateQuestionDisplayTime,
-  calculateAnswerTimeout,
 } from '@quiz/shared';
 import type {
-  Question,
+  OrchestratorQuestion as Question,
   Player,
   QuestionStartPayload,
-  BuzzPayload,
   AnswerPayload,
   QuestionEndPayload,
   SetEndPayload,
@@ -26,7 +21,7 @@ import type {
 } from '@quiz/shared';
 import { getMockQuestions } from './mockQuestions';
 import { getEarnedBadges, getBadgeById, type UserStats as BadgeUserStats, type BadgeCheckContext, type BadgeDefinition } from './badges';
-import { getQuestionsForSet, markQuestionAnsweredCorrectly, prewarmQuestionCache } from './questionGenerator';
+import { getQuestionsForMixedSet, markQuestionAsked, markQuestionAnsweredCorrectly, markQuestionAnsweredIncorrectly } from './questionGenerator';
 import {
   createRoom,
   getRoom,
@@ -36,24 +31,35 @@ import {
   setRoomStatus,
   getAllRoomIds,
   findAvailableRoom,
-  clearRoomReservations,
   getRoomStats,
   checkAndAddRoomIfNeeded,
   createRoomsForNewHalfHour,
+  resetRoom,
+  resetWaitingRooms,
 } from './roomManager';
 import type { QuestionCategory, Room } from '@quiz/shared';
 
 // ============ Data Interfaces for Ably Messages ============
-interface BuzzData {
-  playerId: string;
-  displayName?: string;
-  timestamp: number;
-  latency?: number;
-}
 
 interface AnswerData {
   playerId: string;
   answerIndex: number;
+}
+
+// Track guesses per player per question (for multi-guess support)
+interface PlayerQuestionState {
+  guessCount: number;
+  wrongAnswers: number[];  // indices of wrong guesses
+  totalPenalty: number;
+  answeredCorrectly: boolean;  // whether player got the correct answer (even if not first)
+}
+
+// Wrong answer event sent to individual player
+interface WrongAnswerPayload {
+  answerIndex: number;
+  penalty: number;
+  guessCount: number;
+  wrongAnswers: number[];
 }
 
 // ============ Health Check Server ============
@@ -63,6 +69,15 @@ let isShuttingDown = false;
 let lastHeartbeat = Date.now();
 
 const healthApp = express();
+
+// Enable CORS for frontend polling
+healthApp.use((_req, res, next) => {
+  res.header('Access-Control-Allow-Origin', '*');
+  res.header('Access-Control-Allow-Methods', 'GET');
+  res.header('Access-Control-Allow-Headers', 'Content-Type');
+  next();
+});
+
 healthApp.get('/health', (_req, res) => {
   const ablyConnected = ably?.connection.state === 'connected';
   const heartbeatRecent = Date.now() - lastHeartbeat < 60000;
@@ -84,6 +99,9 @@ healthApp.get('/health', (_req, res) => {
     });
   }
 });
+
+// Note: Room list is now written to DynamoDB and queried via AppSync
+// Queue operations use Ably, not HTTP
 
 // ============ Graceful Shutdown ============
 async function gracefulShutdown(signal: string): Promise<void> {
@@ -148,7 +166,17 @@ const docClient = DynamoDBDocumentClient.from(ddbClient, {
 const TABLE_NAME = process.env.TABLE_NAME || 'quiz-night-live-datatable-prod';
 
 // Timing constants
-const RESULTS_DISPLAY_MS = 12000;
+const RESULTS_DISPLAY_MS = 5000; // 5 seconds on results screen
+
+// ============ Guest Detection ============
+
+/**
+ * Check if a player ID belongs to a guest (non-authenticated user).
+ * Guests don't have stats saved, don't appear on leaderboards, and don't earn badges.
+ */
+function isGuestPlayer(playerId: string): boolean {
+  return playerId.startsWith('guest-');
+}
 
 // ============ DynamoDB Helper Functions ============
 
@@ -432,13 +460,8 @@ interface RoomSession {
   currentQuestionIndex: number;
   players: Map<string, Player>;
   scores: Map<string, number>;
-  buzzes: Map<string, { timestamp: number; latency: number }>;
-  currentBuzzWinner: string | null;
-  answerDeadline: number | null;
   questionStartTime: number | null;
-  answerReceived: boolean;
-  lastAnswerCorrect: boolean | null;
-  questionPhase: 'waiting' | 'question' | 'answering' | 'results';
+  questionPhase: 'waiting' | 'question' | 'results';
   pendingBadges: Map<string, string[]>;
   setEarnedBadges: Map<string, string[]>;
   playerCorrectCount: Map<string, number>;
@@ -448,7 +471,17 @@ interface RoomSession {
   setCompleted: boolean;
   // Dynamic timing for current question
   currentQuestionDisplayMs: number;
-  currentAnswerTimeoutMs: number;
+  // Consecutive question tracking (Q1, Q2, Q3... in a row)
+  playerLastQuestionAnswered: Map<string, number>; // last question index answered correctly
+  playerConsecutiveRun: Map<string, number>; // current consecutive run count
+  // Multi-guess tracking per player per question
+  playerQuestionState: Map<string, PlayerQuestionState>;
+  questionWinner: string | null;  // First player to answer correctly
+  questionWinnerName: string | null;
+  questionWinnerPoints: number | null;  // Points awarded to the winner
+  // Timer management - store timeout IDs to prevent accumulation
+  questionTimeoutId: NodeJS.Timeout | null;
+  resultsTimeoutId: NodeJS.Timeout | null;
 }
 
 // Multi-room state
@@ -457,49 +490,77 @@ const roomChannels: Map<string, Ably.RealtimeChannel> = new Map();
 
 let ably: Ably.Realtime | null = null;
 let lobbyChannel: Ably.RealtimeChannel | null = null;
-let questionCachePrewarmed = false;
+
+// Maintenance mode state (persisted in memory, broadcast to all clients)
+let maintenanceMode = false;
+let maintenanceMessage: string | null = null;
 
 // Track players in lobby (waiting to join a room)
 const lobbyPlayers: Map<string, { displayName: string; joinedAt: number }> = new Map();
 
-// Track players queued to join each room when window opens
+// Track displayName -> clientId mapping to detect duplicate connections
+const displayNameToClientId: Map<string, string> = new Map();
+
+// Track players queued to join each room (legacy, kept for queue handling)
 // roomId -> Set of playerIds
 const roomQueues: Map<string, Set<string>> = new Map();
 
+// Track last DynamoDB room list write time
+let lastRoomListWriteTime = 0;
+const ROOM_LIST_WRITE_INTERVAL_MS = 10000; // Write every 10 seconds
+
 /**
- * Check if current time is within the join window
- * Join is allowed when:
- * 1. Any room has an active game session (set in progress), OR
- * 2. We're within JOIN_WINDOW_SECONDS before the next half hour (:00 or :30)
+ * Write room list state to DynamoDB for frontend polling via AppSync
+ * Updates a single item: PK=ROOMS#lobby, SK=STATE
+ */
+async function writeRoomListToDynamoDB(): Promise<void> {
+  const now = Date.now();
+  if (now - lastRoomListWriteTime < ROOM_LIST_WRITE_INTERVAL_MS) {
+    return; // Throttle writes
+  }
+  lastRoomListWriteTime = now;
+
+  try {
+    const baseRooms = getRoomList();
+
+    // Add currentQuestion from session data
+    const rooms = baseRooms.map(room => {
+      const session = roomSessions.get(room.id);
+      return {
+        ...room,
+        inProgress: session?.questions && session.questions.length > 0 && session.currentQuestionIndex < session.questions.length,
+        currentQuestion: session?.currentQuestionIndex ?? null,
+      };
+    });
+
+    await docClient.send(
+      new PutCommand({
+        TableName: TABLE_NAME,
+        Item: {
+          PK: 'ROOMS#lobby',
+          SK: 'STATE',
+          rooms,
+          lobbyPlayerCount: lobbyPlayers.size,
+          maintenanceMode,
+          maintenanceMessage,
+          updatedAt: new Date().toISOString(),
+          ttl: Math.floor(now / 1000) + 300, // Expire in 5 minutes if not updated
+        },
+      })
+    );
+  } catch (error) {
+    console.error('Failed to write room list to DynamoDB:', error);
+  }
+}
+
+
+/**
+ * Rooms are always open for joining.
+ * Games start automatically when the first player joins.
  */
 function isJoinWindowOpen(): { canJoin: boolean; reason?: string; secondsUntilOpen?: number } {
-  const now = new Date();
-  const minutes = now.getMinutes();
-  const seconds = now.getSeconds();
-  const secondsInHalfHour = (minutes % 30) * 60 + seconds;
-
-  // If any room has an active game session, allow joining
-  const hasActiveSession = roomSessions.size > 0 &&
-    Array.from(roomSessions.values()).some(session => !session.setCompleted);
-
-  if (hasActiveSession) {
-    console.log(`🚪 Join window CHECK: OPEN (active session) - time=${now.toISOString()}, activeSessions=${roomSessions.size}`);
-    return { canJoin: true };
-  }
-
-  // Check if we're in the join window (last JOIN_WINDOW_SECONDS before next half hour)
-  const secondsUntilNextHalfHour = 30 * 60 - secondsInHalfHour;
-  if (secondsUntilNextHalfHour <= JOIN_WINDOW_SECONDS) {
-    console.log(`🚪 Join window CHECK: OPEN (pre-set window) - time=${now.toISOString()}, secondsUntilNextHalfHour=${secondsUntilNextHalfHour}, JOIN_WINDOW_SECONDS=${JOIN_WINDOW_SECONDS}`);
-    return { canJoin: true };
-  }
-
-  console.log(`🚪 Join window CHECK: CLOSED - time=${now.toISOString()}, secondsUntilNextHalfHour=${secondsUntilNextHalfHour}, secondsUntilOpen=${secondsUntilNextHalfHour - JOIN_WINDOW_SECONDS}`);
-  return {
-    canJoin: false,
-    reason: 'Joining is only available 1 minute before the next set starts',
-    secondsUntilOpen: secondsUntilNextHalfHour - JOIN_WINDOW_SECONDS,
-  };
+  // Always allow joining - rooms are always open
+  return { canJoin: true };
 }
 
 // ============ Ably Initialization ============
@@ -547,24 +608,29 @@ function setupLobbyPresence(): void {
     const playerId = member.clientId!;
     const displayName = member.data?.displayName || 'Anonymous';
 
+    // Check for duplicate connection with same displayName
+    const existingClientId = displayNameToClientId.get(displayName);
+    if (existingClientId && existingClientId !== playerId) {
+      // Tell the old connection to disconnect
+      console.log(`🔄 Duplicate connection for ${displayName}: kicking old client ${existingClientId}`);
+      await lobbyChannel!.publish('duplicate_connection', {
+        clientId: existingClientId,
+        displayName,
+        message: 'You connected from another device/tab',
+      });
+      // Clean up old connection from tracking
+      lobbyPlayers.delete(existingClientId);
+    }
+
+    // Track new connection
+    displayNameToClientId.set(displayName, playerId);
     lobbyPlayers.set(playerId, {
       displayName,
       joinedAt: Date.now(),
     });
 
     console.log(`👤 Player entered lobby: ${displayName} (${lobbyPlayers.size} in lobby)`);
-
-    // Pre-warm question cache on first player
-    if (!questionCachePrewarmed) {
-      questionCachePrewarmed = true;
-      console.log(`🔥 First player joined lobby - pre-warming question cache...`);
-      prewarmQuestionCache('general', QUESTIONS_PER_SET * 2).catch(err =>
-        console.error('Failed to pre-warm question cache:', err)
-      );
-    }
-
-    // Broadcast updated room list
-    await broadcastRoomList();
+    // Room list updates are now polled via HTTP, not broadcast
   });
 
   presence.subscribe('leave', async (member) => {
@@ -572,15 +638,25 @@ function setupLobbyPresence(): void {
     const player = lobbyPlayers.get(playerId);
     lobbyPlayers.delete(playerId);
 
+    // Only clear displayName mapping if this was the current client for that name
+    if (player && displayNameToClientId.get(player.displayName) === playerId) {
+      displayNameToClientId.delete(player.displayName);
+    }
+
     console.log(`👋 Player left lobby: ${player?.displayName || playerId} (${lobbyPlayers.size} in lobby)`);
-    await broadcastRoomList();
+    // Room list updates are now polled via HTTP, not broadcast
   });
 
-  // Handle request_room_list - client requests initial room list on connect
-  lobbyChannel.subscribe('request_room_list', async (message) => {
-    const { clientId } = message.data;
-    console.log(`📋 Room list requested by ${clientId}`);
-    await broadcastRoomList();
+  // Note: request_room_list no longer needed - frontend polls /api/rooms
+
+  // Handle maintenance mode toggle from admin
+  lobbyChannel.subscribe('maintenance_mode', async (message) => {
+    const { enabled, customMessage } = message.data;
+    maintenanceMode = enabled;
+    maintenanceMessage = customMessage || null;
+    console.log(`🔧 Maintenance mode ${enabled ? 'ENABLED' : 'DISABLED'}${customMessage ? `: ${customMessage}` : ''}`);
+    // Broadcast maintenance mode change via Ably (time-critical for immediate effect)
+    await lobbyChannel!.publish('maintenance_update', { enabled, customMessage });
   });
 
   // Handle room join requests
@@ -615,12 +691,22 @@ function setupLobbyPresence(): void {
     const success = joinRoom(roomId, playerId);
     if (success) {
       console.log(`✅ ${displayName} joined room ${room.name}`);
+
+      // Remove player from queue if they were queued
+      const queue = roomQueues.get(roomId);
+      if (queue) {
+        queue.delete(playerId);
+        if (queue.size === 0) {
+          roomQueues.delete(roomId);
+        }
+      }
+
       // Check if we need to add more rooms based on player count
       const newRoom = checkAndAddRoomIfNeeded();
       if (newRoom) {
         setupRoomChannel(newRoom.id);
       }
-      await broadcastRoomList();
+      // Room list updates are now polled via HTTP
     }
 
     await lobbyChannel!.publish('join_room_result', {
@@ -669,18 +755,28 @@ function setupLobbyPresence(): void {
 
     if (success) {
       console.log(`✅ ${displayName} auto-joined room ${room.name}`);
+
+      // Remove player from queue if they were queued
+      const queue = roomQueues.get(room.id);
+      if (queue) {
+        queue.delete(playerId);
+        if (queue.size === 0) {
+          roomQueues.delete(room.id);
+        }
+      }
+
       // Check if we need to add more rooms based on player count
       const newRoom = checkAndAddRoomIfNeeded();
       if (newRoom) {
         setupRoomChannel(newRoom.id);
       }
-      await broadcastRoomList();
+      // Room list updates are now polled via HTTP
     }
   });
 
   // Handle queue_join - player wants to join a room when window opens
   lobbyChannel.subscribe('queue_join', async (message) => {
-    const { playerId, roomId } = message.data;
+    const { playerId, roomId, displayName } = message.data;
     console.log(`⏳ QUEUE_JOIN: playerId=${playerId}, roomId=${roomId}`);
 
     // Add to room's queue
@@ -689,15 +785,17 @@ function setupLobbyPresence(): void {
     }
     roomQueues.get(roomId)!.add(playerId);
 
+    // Track display name for when they auto-join
+    if (displayName) {
+      lobbyPlayers.set(playerId, { displayName, joinedAt: Date.now() });
+    }
+
     await lobbyChannel!.publish('queue_join_result', {
       playerId,
       roomId,
       success: true,
       queuePosition: roomQueues.get(roomId)!.size,
     });
-
-    // Broadcast updated room list with new queue count
-    await broadcastRoomList();
   });
 
   // Handle queue_leave - player no longer wants to auto-join
@@ -718,9 +816,6 @@ function setupLobbyPresence(): void {
       roomId,
       success: true,
     });
-
-    // Broadcast updated room list with new queue count
-    await broadcastRoomList();
   });
 }
 
@@ -734,12 +829,18 @@ function setupRoomChannel(roomId: string): void {
   const presence = channel.presence;
 
   // Track players entering the room channel
+  // If no active session, start a new game when first player joins
   presence.subscribe('enter', async (member) => {
     const playerId = member.clientId!;
+
+    // Skip orchestrator's own presence
+    if (playerId.startsWith('game-')) return;
+
     const displayName = member.data?.displayName || 'Anonymous';
     const session = roomSessions.get(roomId);
 
     if (session) {
+      // Active session - add player to it
       const player: Player = {
         id: playerId,
         displayName,
@@ -754,7 +855,11 @@ function setupRoomChannel(roomId: string): void {
       if (!session.scores.has(playerId)) {
         session.scores.set(playerId, 0);
       }
-      console.log(`👤 ${displayName} entered room ${roomId} (${session.players.size} players)`);
+      console.log(`👤 ${displayName} joined active game in room ${roomId} (${session.players.size} players)`);
+    } else {
+      // No active session - start a new game!
+      console.log(`🎮 First player (${displayName}) joined room ${roomId} - starting game!`);
+      await startRoomSet(roomId);
     }
   });
 
@@ -766,25 +871,33 @@ function setupRoomChannel(roomId: string): void {
       const player = session.players.get(playerId);
       session.players.delete(playerId);
 
-      // Reserve spot if game is in progress
-      const room = getRoom(roomId);
-      if (room && room.status === 'in_progress') {
-        leaveRoom(roomId, playerId, true); // Reserve spot
-      } else {
-        leaveRoom(roomId, playerId, false);
-      }
+      // Leave room in DynamoDB
+      leaveRoom(roomId, playerId, false);
 
       console.log(`👋 ${player?.displayName || playerId} left room ${roomId}`);
-      await broadcastRoomList();
+
+      // Check if room is now empty - wind down if so
+      const channel = roomChannels.get(roomId);
+      if (channel) {
+        try {
+          const members = await channel.presence.get();
+          const playerCount = members.filter(
+            (m) => m.clientId && !m.clientId.startsWith('game-')
+          ).length;
+
+          if (playerCount === 0) {
+            console.log(`⏹️  [${roomId}] No players remaining - winding down room`);
+            roomSessions.delete(roomId);
+            resetRoom(roomId);
+          }
+        } catch (e) {
+          console.error(`Error checking presence on leave:`, e);
+        }
+      }
     }
   });
 
-  // Handle buzzes for this room
-  channel.subscribe('buzz', async (message) => {
-    await handleRoomBuzz(roomId, message.data);
-  });
-
-  // Handle answers for this room
+  // Handle answers for this room (multi-guess: players can answer directly)
   channel.subscribe('answer', async (message) => {
     await handleRoomAnswer(roomId, message.data);
   });
@@ -792,28 +905,8 @@ function setupRoomChannel(roomId: string): void {
   console.log(`📡 Setup channel for room ${roomId}`);
 }
 
-async function broadcastRoomList(): Promise<void> {
-  if (!lobbyChannel) return;
-
-  const baseRooms = getRoomList();
-  const joinWindow = isJoinWindowOpen();
-
-  // Add queuedPlayers count to each room
-  const rooms: RoomListItem[] = baseRooms.map(room => ({
-    ...room,
-    queuedPlayers: roomQueues.get(room.id)?.size || 0,
-  }));
-
-  const payload = {
-    rooms,
-    joinWindowOpen: joinWindow.canJoin,
-    secondsUntilJoinOpen: joinWindow.secondsUntilOpen,
-  };
-
-  console.log(`📢 BROADCAST room_list: joinWindowOpen=${payload.joinWindowOpen}, secondsUntilJoinOpen=${payload.secondsUntilJoinOpen}, roomCount=${rooms.length}`);
-
-  await lobbyChannel.publish('room_list', payload);
-}
+// Note: broadcastRoomList removed - frontend now polls /api/rooms HTTP endpoint
+// This saves significant Ably message costs for non-time-critical updates
 
 // ============ Room Game Logic ============
 
@@ -824,10 +917,12 @@ function buildRoomLeaderboard(roomId: string): LeaderboardEntry[] {
   return Array.from(session.scores.entries())
     .map(([id, score]) => {
       const player = session.players.get(id);
+      const displayName = player?.displayName || 'Unknown';
       return {
         rank: 0,
         userId: id,
-        displayName: player?.displayName || 'Unknown',
+        username: displayName,
+        displayName,
         score,
       };
     })
@@ -835,177 +930,208 @@ function buildRoomLeaderboard(roomId: string): LeaderboardEntry[] {
     .map((entry, index) => ({ ...entry, rank: index + 1 }));
 }
 
-async function handleRoomBuzz(roomId: string, data: BuzzData): Promise<void> {
-  const session = roomSessions.get(roomId);
-  if (!session || session.questionPhase !== 'question') return;
-  if (session.currentBuzzWinner) return;
-
-  const { playerId, displayName: buzzDisplayName, timestamp, latency } = data;
-  const compensatedLatency = Math.min(latency || 0, MAX_LATENCY_COMPENSATION_MS);
-  const adjustedTimestamp = timestamp - compensatedLatency / 2;
-
-  session.buzzes.set(playerId, { timestamp: adjustedTimestamp, latency: latency || 0 });
-
-  let earliestPlayerId = playerId;
-  let earliestTimestamp = adjustedTimestamp;
-
-  session.buzzes.forEach((buzz, id) => {
-    if (buzz.timestamp < earliestTimestamp) {
-      earliestTimestamp = buzz.timestamp;
-      earliestPlayerId = id;
-    }
-  });
-
-  if (earliestPlayerId === playerId) {
-    session.currentBuzzWinner = playerId;
-    session.answerDeadline = Date.now() + session.currentAnswerTimeoutMs;
-    session.questionPhase = 'answering';
-
-    const player = session.players.get(playerId);
-    const displayName = player?.displayName || buzzDisplayName || 'Player';
-
-    const payload: BuzzPayload = {
-      playerId,
-      displayName,
-      adjustedTimestamp,
-    };
-
-    await session.channel.publish('buzz_winner', payload);
-    console.log(`🔔 [${roomId}] Buzz winner: ${displayName} (timeout: ${session.currentAnswerTimeoutMs}ms)`);
-
-    // Use dynamic answer timeout
-    const answerTimeoutMs = session.currentAnswerTimeoutMs;
-    setTimeout(async () => {
-      const currentSession = roomSessions.get(roomId);
-      if (currentSession &&
-          currentSession.currentBuzzWinner === playerId &&
-          !currentSession.answerReceived &&
-          currentSession.questionPhase === 'answering') {
-        await handleRoomAnswerTimeout(roomId);
-      }
-    }, answerTimeoutMs + 500);
+/**
+ * Clear all pending timers for a room session
+ * Prevents timer accumulation when questions end early or room transitions
+ */
+function clearRoomTimers(session: RoomSession): void {
+  if (session.questionTimeoutId) {
+    clearTimeout(session.questionTimeoutId);
+    session.questionTimeoutId = null;
+  }
+  if (session.resultsTimeoutId) {
+    clearTimeout(session.resultsTimeoutId);
+    session.resultsTimeoutId = null;
   }
 }
 
+/**
+ * Calculate penalty multiplier based on guess count
+ * 1st wrong: 1x, 2nd wrong: 1.5x, 3rd+: 2x
+ */
+function getPenaltyMultiplier(guessCount: number): number {
+  if (guessCount === 1) return 1;
+  if (guessCount === 2) return 1.5;
+  return 2; // 3rd guess and beyond
+}
+
+/**
+ * Get or create player question state for multi-guess tracking
+ */
+function getOrCreatePlayerQuestionState(session: RoomSession, playerId: string): PlayerQuestionState {
+  let state = session.playerQuestionState.get(playerId);
+  if (!state) {
+    state = { guessCount: 0, wrongAnswers: [], totalPenalty: 0, answeredCorrectly: false };
+    session.playerQuestionState.set(playerId, state);
+  }
+  return state;
+}
+
+/**
+ * Handle player answer in multi-guess mode
+ * - Players can answer during 'question' phase (no buzzer required)
+ * - First correct answer wins and ends the question immediately
+ * - Wrong guesses incur escalating penalties
+ */
 async function handleRoomAnswer(roomId: string, data: AnswerData): Promise<void> {
   const session = roomSessions.get(roomId);
-  if (!session || session.questionPhase !== 'answering') return;
+  if (!session || session.questionPhase !== 'question') return;
 
   const { playerId, answerIndex } = data;
-  if (session.currentBuzzWinner !== playerId) return;
-  if (session.answerReceived) return;
 
-  session.answerReceived = true;
-
+  const playerState = getOrCreatePlayerQuestionState(session, playerId);
   const question = session.questions[session.currentQuestionIndex];
   const isCorrect = answerIndex === question.correctIndex;
+
+  // Skip if player already answered correctly or guessed this answer
+  if (playerState.answeredCorrectly) return;
+  if (playerState.wrongAnswers.includes(answerIndex)) return;
+
+  const player = session.players.get(playerId);
+  const displayName = player?.displayName || 'Unknown';
   const difficulty = (question.difficulty || 'medium') as keyof typeof DIFFICULTY_POINTS;
   const difficultyPoints = DIFFICULTY_POINTS[difficulty] || DIFFICULTY_POINTS.medium;
-  const points = isCorrect ? difficultyPoints.correct : difficultyPoints.wrong;
-
-  session.lastAnswerCorrect = isCorrect;
-
-  const currentScore = session.scores.get(playerId) || 0;
-  session.scores.set(playerId, currentScore + points);
 
   if (isCorrect) {
-    const correctCount = session.playerCorrectCount.get(playerId) || 0;
-    session.playerCorrectCount.set(playerId, correctCount + 1);
-    markQuestionAnsweredCorrectly(question.id).catch(err =>
-      console.error(`Failed to mark question as answered:`, err)
-    );
+    // Mark player as having answered correctly
+    playerState.answeredCorrectly = true;
+
+    // Check if this is the FIRST correct answer (winner)
+    const isWinner = !session.questionWinner;
+
+    if (isWinner) {
+      // WINNER - First correct answer
+      session.questionWinner = playerId;
+      session.questionWinnerName = displayName;
+
+      const points = difficultyPoints.correct;
+      session.questionWinnerPoints = points;
+      const currentScore = session.scores.get(playerId) || 0;
+      session.scores.set(playerId, currentScore + points);
+
+      const correctCount = session.playerCorrectCount.get(playerId) || 0;
+      session.playerCorrectCount.set(playerId, correctCount + 1);
+
+      markQuestionAnsweredCorrectly(question.id).catch(err =>
+        console.error(`Failed to mark question as correct:`, err)
+      );
+
+      // Track consecutive question runs (answering Q1, Q2, Q3... in sequence)
+      const lastAnswered = session.playerLastQuestionAnswered.get(playerId);
+      const currentIndex = session.currentQuestionIndex;
+      if (lastAnswered !== undefined && lastAnswered === currentIndex - 1) {
+        const currentRun = session.playerConsecutiveRun.get(playerId) || 1;
+        session.playerConsecutiveRun.set(playerId, currentRun + 1);
+      } else {
+        session.playerConsecutiveRun.set(playerId, 1);
+      }
+      session.playerLastQuestionAnswered.set(playerId, currentIndex);
+
+      // Publish winner to all players
+      const answerPayload: AnswerPayload = {
+        playerId,
+        answerIndex,
+        isCorrect: true,
+        correctIndex: question.correctIndex,
+        pointsAwarded: points,
+      };
+      await session.channel.publish('answer_result', answerPayload);
+
+      console.log(`✅ [${roomId}] ${displayName} wins the question! (+${points} points)`);
+
+      // Persist stats for authenticated users
+      if (!isGuestPlayer(playerId)) {
+        try {
+          const stats = await updateUserStats(playerId, displayName, true, points);
+          updateAllLeaderboards(playerId, displayName, points).catch(console.error);
+
+          const consecutiveRunThisSet = session.playerConsecutiveRun.get(playerId) || 0;
+          const context: BadgeCheckContext = { setId: session.setId, consecutiveRunThisSet };
+          const newBadges = await checkAndAwardBadges(playerId, stats, context);
+          if (newBadges.length > 0) {
+            const existing = session.pendingBadges.get(playerId) || [];
+            session.pendingBadges.set(playerId, [...existing, ...newBadges]);
+            const setExisting = session.setEarnedBadges.get(playerId) || [];
+            session.setEarnedBadges.set(playerId, [...setExisting, ...newBadges]);
+          }
+        } catch (error) {
+          console.error(`Failed to persist stats for ${playerId}:`, error);
+        }
+      }
+
+      // Clear the question timeout since we have a winner
+      clearRoomTimers(session);
+
+      // End question after short delay (allows others to still answer during this time)
+      session.resultsTimeoutId = setTimeout(() => showRoomQuestionResults(roomId), 1500);
+    } else {
+      // Correct but not first - send them a "correct but too slow" event
+      const userChannel = ably?.channels.get(`${ABLY_CHANNELS.USER_PREFIX}${playerId}`);
+      if (userChannel) {
+        await userChannel.publish('correct_but_slow', {
+          answerIndex,
+          winnerName: session.questionWinnerName,
+        });
+      }
+      console.log(`✅ [${roomId}] ${displayName} also correct, but ${session.questionWinnerName} was faster`);
+    }
   } else {
+    // Wrong guess - apply escalating penalty
+    playerState.guessCount++;
+    playerState.wrongAnswers.push(answerIndex);
+
+    const multiplier = getPenaltyMultiplier(playerState.guessCount);
+    const basePenalty = difficultyPoints.wrong;
+    const penalty = Math.round(basePenalty * multiplier);
+
+    playerState.totalPenalty += penalty;
+
+    const currentScore = session.scores.get(playerId) || 0;
+    session.scores.set(playerId, currentScore + penalty);
+
     const wrongCount = session.playerWrongCount.get(playerId) || 0;
     session.playerWrongCount.set(playerId, wrongCount + 1);
-  }
 
-  const player = session.players.get(playerId);
+    markQuestionAnsweredIncorrectly(question.id).catch(err =>
+      console.error(`Failed to mark question as incorrect:`, err)
+    );
 
-  const answerPayload: AnswerPayload = {
-    playerId,
-    answerIndex,
-    isCorrect,
-    correctIndex: question.correctIndex,
-    pointsAwarded: points,
-  };
+    console.log(`❌ [${roomId}] ${displayName} wrong guess #${playerState.guessCount} (${penalty} points, ${multiplier}x multiplier)`);
 
-  await session.channel.publish('answer_result', answerPayload);
-  console.log(`${isCorrect ? '✅' : '❌'} [${roomId}] ${player?.displayName || playerId} answered ${isCorrect ? 'correctly' : 'incorrectly'}`);
-
-  const displayName = player?.displayName || 'Unknown';
-  try {
-    const stats = await updateUserStats(playerId, displayName, isCorrect, points);
-    updateAllLeaderboards(playerId, displayName, points).catch(console.error);
-
-    const context: BadgeCheckContext = { setId: session.setId };
-    const newBadges = await checkAndAwardBadges(playerId, stats, context);
-    if (newBadges.length > 0) {
-      const existing = session.pendingBadges.get(playerId) || [];
-      session.pendingBadges.set(playerId, [...existing, ...newBadges]);
-      const setExisting = session.setEarnedBadges.get(playerId) || [];
-      session.setEarnedBadges.set(playerId, [...setExisting, ...newBadges]);
+    // Send wrong_answer event to the specific player via user channel
+    const userChannel = ably?.channels.get(`${ABLY_CHANNELS.USER_PREFIX}${playerId}`);
+    if (userChannel) {
+      const wrongAnswerPayload: WrongAnswerPayload = {
+        answerIndex,
+        penalty,
+        guessCount: playerState.guessCount,
+        wrongAnswers: playerState.wrongAnswers,
+      };
+      await userChannel.publish('wrong_answer', wrongAnswerPayload);
     }
-  } catch (error) {
-    console.error(`Failed to persist stats for ${playerId}:`, error);
-  }
 
-  setTimeout(() => showRoomQuestionResults(roomId, isCorrect), 1500);
+    // Persist stats for authenticated users
+    if (!isGuestPlayer(playerId)) {
+      try {
+        const stats = await updateUserStats(playerId, displayName, false, penalty);
+        updateAllLeaderboards(playerId, displayName, penalty).catch(console.error);
+
+        const context: BadgeCheckContext = { setId: session.setId };
+        const newBadges = await checkAndAwardBadges(playerId, stats, context);
+        if (newBadges.length > 0) {
+          const existing = session.pendingBadges.get(playerId) || [];
+          session.pendingBadges.set(playerId, [...existing, ...newBadges]);
+          const setExisting = session.setEarnedBadges.get(playerId) || [];
+          session.setEarnedBadges.set(playerId, [...setExisting, ...newBadges]);
+        }
+      } catch (error) {
+        console.error(`Failed to persist stats for ${playerId}:`, error);
+      }
+    }
+  }
 }
 
-async function handleRoomAnswerTimeout(roomId: string): Promise<void> {
-  const session = roomSessions.get(roomId);
-  if (!session) return;
-
-  const playerId = session.currentBuzzWinner;
-  if (!playerId) return;
-
-  session.answerReceived = true;
-  session.lastAnswerCorrect = false;
-
-  const question = session.questions[session.currentQuestionIndex];
-  const difficulty = (question.difficulty || 'medium') as keyof typeof DIFFICULTY_POINTS;
-  const difficultyPoints = DIFFICULTY_POINTS[difficulty] || DIFFICULTY_POINTS.medium;
-  const points = difficultyPoints.wrong;
-
-  const currentScore = session.scores.get(playerId) || 0;
-  session.scores.set(playerId, currentScore + points);
-
-  const wrongCount = session.playerWrongCount.get(playerId) || 0;
-  session.playerWrongCount.set(playerId, wrongCount + 1);
-
-  const player = session.players.get(playerId);
-
-  const answerPayload: AnswerPayload = {
-    playerId,
-    answerIndex: -1,
-    isCorrect: false,
-    correctIndex: question.correctIndex,
-    pointsAwarded: points,
-  };
-
-  await session.channel.publish('answer_result', answerPayload);
-  console.log(`⏰ [${roomId}] ${player?.displayName || playerId} timed out`);
-
-  const displayName = player?.displayName || 'Unknown';
-  try {
-    const stats = await updateUserStats(playerId, displayName, false, points);
-    updateAllLeaderboards(playerId, displayName, points).catch(console.error);
-    const context: BadgeCheckContext = { setId: session.setId };
-    const newBadges = await checkAndAwardBadges(playerId, stats, context);
-    if (newBadges.length > 0) {
-      const existing = session.pendingBadges.get(playerId) || [];
-      session.pendingBadges.set(playerId, [...existing, ...newBadges]);
-      const setExisting = session.setEarnedBadges.get(playerId) || [];
-      session.setEarnedBadges.set(playerId, [...setExisting, ...newBadges]);
-    }
-  } catch (error) {
-    console.error(`Failed to persist timeout stats:`, error);
-  }
-
-  setTimeout(() => showRoomQuestionResults(roomId, false), 1500);
-}
-
-async function showRoomQuestionResults(roomId: string, wasCorrect: boolean): Promise<void> {
+async function showRoomQuestionResults(roomId: string): Promise<void> {
   const session = roomSessions.get(roomId);
   if (!session) return;
 
@@ -1017,10 +1143,6 @@ async function showRoomQuestionResults(roomId: string, wasCorrect: boolean): Pro
     scores[id] = score;
   });
 
-  const winnerPlayer = session.currentBuzzWinner
-    ? session.players.get(session.currentBuzzWinner)
-    : null;
-
   const earnedBadges: Record<string, string[]> = {};
   session.pendingBadges.forEach((badges, playerId) => {
     if (badges.length > 0) {
@@ -1028,15 +1150,30 @@ async function showRoomQuestionResults(roomId: string, wasCorrect: boolean): Pro
     }
   });
 
+  // Build per-player results for session tracking
+  const playerResults: Record<string, { answered: boolean; correct: boolean }> = {};
+  session.playerQuestionState.forEach((state, playerId) => {
+    // Player attempted if they made any guesses OR answered correctly (first-try correct has guessCount 0)
+    const attempted = state.guessCount > 0 || state.answeredCorrectly;
+    // Player is correct only if they are the winner
+    const correct = playerId === session.questionWinner;
+    playerResults[playerId] = { answered: attempted, correct };
+  });
+
+  // Global wasAnswered/wasCorrect for backwards compat (will be overridden by frontend per-player lookup)
+  const wasAnswered = session.questionWinner !== null;
+
   const payload: QuestionEndPayload = {
     correctIndex: question.correctIndex,
     explanation: question.explanation || 'No explanation available.',
     scores,
     leaderboard: buildRoomLeaderboard(roomId),
-    winnerId: session.currentBuzzWinner,
-    winnerName: winnerPlayer?.displayName || null,
-    wasAnswered: session.answerReceived,
-    wasCorrect: session.lastAnswerCorrect,
+    winnerId: session.questionWinner,
+    winnerName: session.questionWinnerName,
+    winnerPoints: session.questionWinnerPoints,
+    wasAnswered,
+    wasCorrect: wasAnswered ? true : null,
+    playerResults,
     nextQuestionIn: RESULTS_DISPLAY_MS,
     questionText: question.text,
     options: question.options,
@@ -1048,21 +1185,28 @@ async function showRoomQuestionResults(roomId: string, wasCorrect: boolean): Pro
   };
 
   await session.channel.publish('question_end', payload);
-  console.log(`📊 [${roomId}] Question ${session.currentQuestionIndex + 1}/${QUESTIONS_PER_SET} complete`);
+  const winStatus = session.questionWinner ? `Winner: ${session.questionWinnerName}` : 'No winner';
+  console.log(`📊 [${roomId}] Question ${session.currentQuestionIndex + 1} complete - ${winStatus}`);
 
   session.pendingBadges.clear();
-  setTimeout(() => moveToNextRoomQuestion(roomId), RESULTS_DISPLAY_MS);
+
+  // Clear any existing timer and set new one for next question
+  clearRoomTimers(session);
+  session.resultsTimeoutId = setTimeout(() => moveToNextRoomQuestion(roomId), RESULTS_DISPLAY_MS);
 }
 
-async function handleRoomNoBuzzes(roomId: string): Promise<void> {
+/**
+ * Handle question timeout - no one answered correctly in time
+ */
+async function handleQuestionTimeUp(roomId: string): Promise<void> {
   const session = roomSessions.get(roomId);
   if (!session) return;
 
-  session.answerReceived = false;
-  session.lastAnswerCorrect = null;
+  // Skip if question already won
+  if (session.questionWinner) return;
 
-  console.log(`⏰ [${roomId}] No buzzes received`);
-  await showRoomQuestionResults(roomId, false);
+  console.log(`⏰ [${roomId}] Time's up! No winner.`);
+  await showRoomQuestionResults(roomId);
 }
 
 async function moveToNextRoomQuestion(roomId: string): Promise<void> {
@@ -1070,19 +1214,15 @@ async function moveToNextRoomQuestion(roomId: string): Promise<void> {
   if (!session) return;
 
   session.currentQuestionIndex++;
-  session.currentBuzzWinner = null;
-  session.answerDeadline = null;
-  session.answerReceived = false;
-  session.lastAnswerCorrect = null;
-  session.buzzes.clear();
+  // Reset multi-guess state for new question
+  session.playerQuestionState.clear();
+  session.questionWinner = null;
+  session.questionWinnerName = null;
+  session.questionWinnerPoints = null;
   session.questionPhase = 'waiting';
   session.questionStartTime = null;
 
-  if (session.currentQuestionIndex >= session.questions.length) {
-    await endRoomSet(roomId);
-    return;
-  }
-
+  // Continue to next question (startRoomQuestion will fetch more if needed)
   await startRoomQuestion(roomId);
 }
 
@@ -1095,15 +1235,15 @@ async function startRoomSet(roomId: string): Promise<void> {
 
   const setId = `set-${roomId}-${Date.now()}`;
 
-  // Get questions
+  // Get questions from mixed categories, filtered by room difficulty
   const questionsUsed = new Set<string>();
   let questions: Question[];
   try {
-    questions = await getQuestionsForSet('general', QUESTIONS_PER_SET, questionsUsed);
+    questions = await getQuestionsForMixedSet(QUESTIONS_PER_SET, room.difficulty, questionsUsed);
     for (const q of questions) {
       questionsUsed.add(q.id);
     }
-    console.log(`📚 [${roomId}] Got ${questions.length} questions`);
+    console.log(`📚 [${roomId}] Got ${questions.length} ${room.difficulty} questions`);
   } catch (error) {
     console.error(`❌ [${roomId}] Failed to get questions, using mock:`, error);
     questions = getMockQuestions(QUESTIONS_PER_SET);
@@ -1121,12 +1261,7 @@ async function startRoomSet(roomId: string): Promise<void> {
     currentQuestionIndex: 0,
     players: new Map(),
     scores: new Map(),
-    buzzes: new Map(),
-    currentBuzzWinner: null,
-    answerDeadline: null,
     questionStartTime: null,
-    answerReceived: false,
-    lastAnswerCorrect: null,
     questionPhase: 'waiting',
     pendingBadges: new Map(),
     setEarnedBadges: new Map(),
@@ -1137,7 +1272,17 @@ async function startRoomSet(roomId: string): Promise<void> {
     setCompleted: false,
     // Will be calculated for each question
     currentQuestionDisplayMs: 0,
-    currentAnswerTimeoutMs: 0,
+    // Consecutive question tracking
+    playerLastQuestionAnswered: new Map(),
+    playerConsecutiveRun: new Map(),
+    // Multi-guess tracking
+    playerQuestionState: new Map(),
+    questionWinner: null,
+    questionWinnerName: null,
+    questionWinnerPoints: null,
+    // Timer management
+    questionTimeoutId: null,
+    resultsTimeoutId: null,
   };
 
   roomSessions.set(roomId, session);
@@ -1172,13 +1317,12 @@ async function startRoomSet(roomId: string): Promise<void> {
 
   await channel.publish('set_start', {
     setId,
-    totalQuestions: QUESTIONS_PER_SET,
+    totalQuestions: 0, // 0 = continuous play
     playerCount: session.players.size,
     roomName: room.name,
   });
 
-  await broadcastRoomList();
-  await sleep(3000);
+  // Start first question immediately (no countdown)
   await startRoomQuestion(roomId);
 }
 
@@ -1186,27 +1330,37 @@ async function startRoomQuestion(roomId: string): Promise<void> {
   const session = roomSessions.get(roomId);
   if (!session) return;
 
+  // If we've run out of questions, fetch more (continuous play)
   if (session.currentQuestionIndex >= session.questions.length) {
-    await endRoomSet(roomId);
-    return;
+    console.log(`🔄 [${roomId}] Fetching more questions for continuous play...`);
+    const room = getRoom(roomId);
+    const difficulty = room?.difficulty || 'medium';
+    const newQuestions = await getQuestionsForMixedSet(QUESTIONS_PER_SET, difficulty);
+
+    if (newQuestions.length === 0) {
+      console.log(`❌ [${roomId}] No more questions available, ending set`);
+      await endRoomSet(roomId);
+      return;
+    }
+
+    // Add new questions to session
+    session.questions = [...session.questions, ...newQuestions];
+    console.log(`✅ [${roomId}] Added ${newQuestions.length} more questions (total: ${session.questions.length})`);
   }
 
   const question = session.questions[session.currentQuestionIndex];
 
   // Calculate dynamic timing based on question and answer text length
   const questionDisplayMs = calculateQuestionDisplayTime(question.text, question.options);
-  const answerTimeoutMs = calculateAnswerTimeout(question.options);
 
-  // Store in session for use in buzz/answer handlers
+  // Store in session
   session.currentQuestionDisplayMs = questionDisplayMs;
-  session.currentAnswerTimeoutMs = answerTimeoutMs;
-
   session.questionStartTime = Date.now();
-  session.currentBuzzWinner = null;
-  session.answerReceived = false;
-  session.lastAnswerCorrect = null;
-  session.buzzes.clear();
   session.questionPhase = 'question';
+  // Reset multi-guess state for new question
+  session.playerQuestionState.clear();
+  session.questionWinner = null;
+  session.questionWinnerName = null;
 
   const payload: QuestionStartPayload = {
     question: {
@@ -1217,20 +1371,29 @@ async function startRoomQuestion(roomId: string): Promise<void> {
       difficulty: question.difficulty,
     },
     questionIndex: session.currentQuestionIndex,
-    totalQuestions: QUESTIONS_PER_SET,
+    totalQuestions: 0, // 0 = continuous play (no fixed total)
     questionDuration: questionDisplayMs,
-    answerTimeout: answerTimeoutMs,
+    answerTimeout: 0, // No longer used - players can answer immediately
   };
 
   await session.channel.publish('question_start', payload);
-  console.log(`\n❓ [${roomId}] Q${session.currentQuestionIndex + 1}: ${question.text.substring(0, 50)}... (display: ${questionDisplayMs}ms, answer: ${answerTimeoutMs}ms)`);
+  console.log(`\n❓ [${roomId}] Q${session.currentQuestionIndex + 1}: ${question.text.substring(0, 50)}... (duration: ${questionDisplayMs}ms)`);
 
-  setTimeout(async () => {
+  // Track that this question was asked (moves it to "used" bucket)
+  markQuestionAsked(question.id, question.category).catch(err =>
+    console.error(`Failed to mark question as asked:`, err)
+  );
+
+  // Clear any stale timers from previous question
+  clearRoomTimers(session);
+
+  // When time is up, end the question if no winner
+  session.questionTimeoutId = setTimeout(async () => {
     const currentSession = roomSessions.get(roomId);
     if (currentSession &&
         currentSession.questionPhase === 'question' &&
-        !currentSession.currentBuzzWinner) {
-      await handleRoomNoBuzzes(roomId);
+        !currentSession.questionWinner) {
+      await handleQuestionTimeUp(roomId);
     }
   }, questionDisplayMs);
 }
@@ -1241,6 +1404,9 @@ async function endRoomSet(roomId: string): Promise<void> {
 
   if (session.setCompleted) return;
   session.setCompleted = true;
+
+  // Clear any pending timers
+  clearRoomTimers(session);
 
   const finalScores: Record<string, number> = {};
   session.scores.forEach((score, id) => {
@@ -1261,6 +1427,11 @@ async function endRoomSet(roomId: string): Promise<void> {
 
   try {
     for (const [playerId, player] of session.players) {
+      // Skip set stats for guests
+      if (isGuestPlayer(playerId)) {
+        continue;
+      }
+
       const isWinner = winner && winner.userId === playerId;
       const correctCount = session.playerCorrectCount.get(playerId) || 0;
       const wrongCount = session.playerWrongCount.get(playerId) || 0;
@@ -1290,126 +1461,88 @@ async function endRoomSet(roomId: string): Promise<void> {
     console.log(`  ${entry.rank}. ${entry.displayName}: ${entry.score}`);
   });
 
-  // Clean up
+  // Clean up current session
   roomSessions.delete(roomId);
-  setRoomStatus(roomId, 'waiting');
-  clearRoomReservations(roomId);
+  resetRoom(roomId);
 
-  await broadcastRoomList();
-  console.log(`⏸️  [${roomId}] Waiting for next half hour...`);
+  // Clear any queued players for this room
+  roomQueues.delete(roomId);
+
+  // Check if players are still present - start new set after short break
+  const channel = roomChannels.get(roomId);
+  if (channel) {
+    try {
+      const members = await channel.presence.get();
+      const playerCount = members.filter(
+        (m) => m.clientId && !m.clientId.startsWith('game-')
+      ).length;
+
+      if (playerCount > 0) {
+        console.log(`👥 [${roomId}] ${playerCount} players still present - starting new set in 10 seconds`);
+        // Short break, then start new set
+        setTimeout(async () => {
+          // Double-check players are still there
+          try {
+            const currentMembers = await channel.presence.get();
+            const currentPlayerCount = currentMembers.filter(
+              (m) => m.clientId && !m.clientId.startsWith('game-')
+            ).length;
+
+            if (currentPlayerCount > 0 && !roomSessions.has(roomId)) {
+              console.log(`🎮 [${roomId}] Starting new set!`);
+              await startRoomSet(roomId);
+            }
+          } catch (e) {
+            console.error(`Error checking presence for new set:`, e);
+          }
+        }, 10000);
+      } else {
+        console.log(`⏸️  [${roomId}] No players - waiting for next player to join`);
+      }
+    } catch (e) {
+      console.error(`Error checking presence after set end:`, e);
+    }
+  }
 }
 
 // ============ Game Loop ============
 
 async function runGameLoop(): Promise<void> {
-  let lastHalfHour = -1;
+  let lastCleanupTime = 0;
+  const CLEANUP_INTERVAL_MS = 60000; // Clean up completed sessions every minute
 
   while (!isShuttingDown) {
     lastHeartbeat = Date.now();
 
-    const now = new Date();
-    const currentHour = now.getHours();
-    const minutes = now.getMinutes();
-    const currentHalfHour = currentHour * 2 + (minutes >= 30 ? 1 : 0);
+    // Periodic cleanup of completed sessions
+    const now = Date.now();
+    if (now - lastCleanupTime > CLEANUP_INTERVAL_MS) {
+      lastCleanupTime = now;
 
-    // New half-hour period
-    if (currentHalfHour !== lastHalfHour) {
-      lastHalfHour = currentHalfHour;
-      questionCachePrewarmed = false;
-
-      // Reset all room sessions for new period
+      // Clean up completed sessions
+      let cleanedSessions = 0;
       for (const [roomId, session] of roomSessions) {
-        session.setCompleted = true;
-      }
-      roomSessions.clear();
-
-      // Reset room statuses
-      for (const roomId of getAllRoomIds()) {
-        setRoomStatus(roomId, 'waiting');
-      }
-
-      const halfHourLabel = minutes >= 30 ? `${currentHour}:30` : `${currentHour}:00`;
-      console.log(`\n🕐 New half-hour (${halfHourLabel}) - ready for new sets`);
-
-      await broadcastRoomList();
-    }
-
-    const minutesInHalfHour = minutes % 30;
-    const secondsInHalfHour = (minutes % 30) * 60 + now.getSeconds();
-    const isSetStartWindow = secondsInHalfHour < 10;
-
-    if (minutesInHalfHour < SET_DURATION_MINUTES) {
-      // Active set period - start sets for rooms with players
-      if (isSetStartWindow) {
-        for (const roomId of getAllRoomIds()) {
-          const room = getRoom(roomId);
-          if (!room || room.status !== 'waiting') continue;
-          if (roomSessions.has(roomId)) continue;
-
-          // Check if room has players
-          const channel = roomChannels.get(roomId);
-          if (!channel) continue;
-
-          try {
-            const members = await channel.presence.get();
-            const playerCount = members.filter(
-              (m) => m.clientId && !m.clientId.startsWith('game-')
-            ).length;
-
-            if (playerCount > 0) {
-              await startRoomSet(roomId);
-            }
-          } catch (e) {
-            console.error(`Failed to check presence for room ${roomId}:`, e);
-          }
+        if (session.setCompleted) {
+          roomSessions.delete(roomId);
+          cleanedSessions++;
         }
       }
-    } else {
-      // Break period - end any running sets
-      for (const [roomId, session] of roomSessions) {
-        if (!session.setCompleted) {
-          console.log(`\n⏸️  Break time - ending set in room ${roomId}`);
-          await endRoomSet(roomId);
-        }
+      if (cleanedSessions > 0) {
+        console.log(`🧹 Cleaned ${cleanedSessions} completed sessions, ${roomSessions.size} active sessions remain`);
       }
     }
 
-    // Check for room overflow - create new room if all are full
+    // Check for room overflow - create new room if all rooms of a difficulty are full
     const rooms = getRoomList();
     const availableRoom = rooms.find(r => r.status === 'waiting' && r.currentPlayers < MAX_PLAYERS_PER_ROOM);
     if (!availableRoom && lobbyPlayers.size > 0) {
       const newRoom = createRoom('medium');
       setupRoomChannel(newRoom.id);
       console.log(`🏠 Created new room (all full): ${newRoom.name}`);
-      await broadcastRoomList();
     }
 
-    // Smart broadcast frequency based on time until join window opens
-    // Only broadcast when players are in lobby to save Ably messages
-    if (lobbyPlayers.size > 0) {
-      const joinWindow = isJoinWindowOpen();
-      const secondsUntil = joinWindow.secondsUntilOpen || 0;
-      const currentSecond = now.getSeconds();
-
-      let shouldBroadcast = false;
-      if (joinWindow.canJoin) {
-        // Join window open - broadcast every 10 seconds
-        shouldBroadcast = currentSecond % 10 === 0;
-      } else if (secondsUntil <= 10) {
-        // Last 10 seconds - broadcast every second
-        shouldBroadcast = true;
-      } else if (secondsUntil <= 60) {
-        // Last minute - broadcast every 10 seconds
-        shouldBroadcast = currentSecond % 10 === 0;
-      } else {
-        // More than a minute away - broadcast every minute
-        shouldBroadcast = currentSecond === 0;
-      }
-
-      if (shouldBroadcast) {
-        await broadcastRoomList();
-      }
-    }
+    // Write room list to DynamoDB for frontend polling (throttled to every 10s)
+    await writeRoomListToDynamoDB();
 
     await sleep(1000);
   }
@@ -1422,8 +1555,8 @@ function sleep(ms: number): Promise<void> {
 // ============ Main Entry Point ============
 
 async function main(): Promise<void> {
-  console.log('🎯 Quiz Game Orchestrator Starting (Multi-Room)...');
-  console.log(`📋 Config: ${QUESTIONS_PER_SET} questions per set, ${SET_DURATION_MINUTES} min sets`);
+  console.log('🎯 Quiz Game Orchestrator Starting (Always-Open Rooms)...');
+  console.log(`📋 Config: ${QUESTIONS_PER_SET} questions per set, games start on first player join`);
   console.log(`🏠 Max ${MAX_PLAYERS_PER_ROOM} players per room`);
 
   healthApp.listen(HEALTH_PORT, () => {

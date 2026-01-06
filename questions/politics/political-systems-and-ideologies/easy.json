@@ -1,0 +1,342 @@
+[
+  {
+    "id": "4137363e-fdd5-4f4e-b69b-2cd7590bf3b4",
+    "text": "What is the main characteristic of a democracy?",
+    "options": [
+      "Rule by a single monarch",
+      "Government by the people through voting",
+      "Control by military leaders",
+      "Leadership by religious figures"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Democracy means 'rule by the people,' where citizens participate in government through voting and elections.",
+    "detailedExplanation": "Democracy is a political system where power ultimately rests with the people, who exercise that power either directly or through elected representatives. The word comes from the Greek 'demos' (people) and 'kratos' (power or rule). In democratic systems, citizens have the right to vote, express their opinions freely, and participate in the political process. This distinguishes it from other forms of government like monarchy, military rule, or theocracy.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Democracy",
+    "citationTitle": "Wikipedia: Democracy"
+  },
+  {
+    "id": "dfab12a4-d364-45c2-97cb-d75d0b8fdb92",
+    "text": "Which political ideology emphasizes individual freedom and limited government intervention?",
+    "options": [
+      "Socialism",
+      "Liberalism",
+      "Fascism",
+      "Communism"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Liberalism champions individual rights, personal freedoms, and minimal government interference in people's lives.",
+    "detailedExplanation": "Liberalism is a political philosophy that prioritizes individual liberty, equality before the law, and limited government power. Classical liberals believe in free markets, civil liberties, and personal responsibility, arguing that government should only intervene when necessary to protect individual rights. This ideology emerged during the Enlightenment and has been influential in shaping modern democratic societies, emphasizing concepts like freedom of speech, religion, and economic activity.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Liberalism",
+    "citationTitle": "Wikipedia: Liberalism"
+  },
+  {
+    "id": "5838f306-3b6e-4e34-825d-1feb3d3750c3",
+    "text": "What type of government is ruled by a king or queen?",
+    "options": [
+      "Republic",
+      "Monarchy",
+      "Oligarchy",
+      "Anarchy"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "A monarchy is a form of government where a single person, typically a king or queen, serves as the head of state.",
+    "detailedExplanation": "A monarchy is a government system where supreme power is held by a single individual, usually called a king, queen, emperor, or similar title. Monarchies can be absolute, where the ruler has unlimited power, or constitutional, where the monarch's power is limited by law or a constitution. Many modern monarchies, like those in the United Kingdom, Sweden, and Japan, are constitutional monarchies where the monarch serves largely ceremonial roles while elected officials handle day-to-day governance.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Monarchy",
+    "citationTitle": "Wikipedia: Monarchy"
+  },
+  {
+    "id": "9ccfb8cf-4caf-47df-a732-2d919c3f0a02",
+    "text": "Which economic and political system advocates for collective ownership of property?",
+    "options": [
+      "Capitalism",
+      "Feudalism",
+      "Socialism",
+      "Libertarianism"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Socialism promotes collective or public ownership of the means of production rather than private ownership.",
+    "detailedExplanation": "Socialism is an economic and political system where the means of production, distribution, and exchange are owned or regulated by the community as a whole, typically through government agencies or worker cooperatives. Socialist ideology argues that collective ownership will lead to greater equality and eliminate the exploitation that can occur under private ownership. There are many varieties of socialism, ranging from democratic socialism to more centralized forms, and it differs from capitalism's emphasis on private property and free markets.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Socialism",
+    "citationTitle": "Wikipedia: Socialism"
+  },
+  {
+    "id": "b22cb21f-9af1-4cac-9927-74cf88c09ec0",
+    "text": "What is a federal system of government?",
+    "options": [
+      "Power concentrated in a single national government",
+      "Power shared between national and regional governments",
+      "Government controlled by the military",
+      "Rule by religious authorities"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Federalism divides governmental power between a central authority and constituent political units like states or provinces.",
+    "detailedExplanation": "A federal system divides power between a central (national) government and regional governments (such as states, provinces, or territories). Each level of government has its own areas of authority and responsibility, as defined by a constitution. Countries like the United States, Canada, Germany, and Australia use federal systems. This allows for local autonomy while maintaining national unity, enabling different regions to address their specific needs while participating in a larger political framework.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Federalism",
+    "citationTitle": "Wikipedia: Federalism"
+  },
+  {
+    "id": "92bcdc17-647a-41b7-80a2-46561f2b7cf0",
+    "text": "Which political ideology is associated with extreme nationalism and authoritarian rule?",
+    "options": [
+      "Anarchism",
+      "Fascism",
+      "Pacifism",
+      "Environmentalism"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Fascism combines extreme nationalism with dictatorial power and forcible suppression of opposition.",
+    "detailedExplanation": "Fascism is a far-right, authoritarian political ideology characterized by extreme nationalism, dictatorial leadership, and the suppression of individual rights in favor of the state. Fascist movements typically use violence and propaganda to gain power, reject democratic processes, and promote the idea of national or racial superiority. Historical examples include Nazi Germany and Mussolini's Italy. Fascism differs from other authoritarian systems in its mass mobilization of citizens, cult of personality around leaders, and aggressive expansionist policies.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Fascism",
+    "citationTitle": "Wikipedia: Fascism"
+  },
+  {
+    "id": "46446d90-aefb-4e36-bc55-f575efd5bf5f",
+    "text": "What is the main feature of a totalitarian government?",
+    "options": [
+      "Complete separation of church and state",
+      "Total control over all aspects of citizens' lives",
+      "Equal representation for all political parties",
+      "Decentralized decision-making"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Totalitarian regimes seek to control every aspect of public and private life, including thoughts and beliefs.",
+    "detailedExplanation": "Totalitarianism is a form of government that seeks complete control over all aspects of citizens' lives, including their thoughts, beliefs, and behaviors. Unlike other forms of dictatorship, totalitarian systems don't just suppress political opposition—they attempt to regulate and monitor all social, economic, and cultural activities. They typically use extensive surveillance, propaganda, and terror to maintain control. Examples include Stalin's Soviet Union, Nazi Germany, and North Korea. The term was first used to describe fascist Italy but has since been applied to various extreme authoritarian regimes.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Totalitarianism",
+    "citationTitle": "Wikipedia: Totalitarianism"
+  },
+  {
+    "id": "7d442c7a-31ce-4d84-baf3-2c716dfcdab9",
+    "text": "Which political system has no government or ruling authority?",
+    "options": [
+      "Democracy",
+      "Oligarchy",
+      "Anarchy",
+      "Theocracy"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Anarchy is the absence of government or any other authority, where society exists without hierarchical rule.",
+    "detailedExplanation": "Anarchy refers to a society without government, laws, or any centralized authority. The word comes from the Greek 'anarchos,' meaning 'without rulers.' While often associated with chaos and disorder in popular usage, political anarchism is actually a philosophy that believes people can organize themselves peacefully and voluntarily without coercive institutions. Anarchists argue that government is unnecessary and often harmful, preferring voluntary cooperation and mutual aid. There are various schools of anarchist thought, including anarcho-socialism and anarcho-capitalism.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Anarchy",
+    "citationTitle": "Wikipedia: Anarchy"
+  },
+  {
+    "id": "212dba09-6b22-4a08-9092-2b4014bbbca9",
+    "text": "What is the term for a government ruled by religious leaders or officials?",
+    "options": [
+      "Theocracy",
+      "Oligarchy",
+      "Plutocracy",
+      "Bureaucracy"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "A theocracy is a form of government where religious leaders hold political power.",
+    "detailedExplanation": "A theocracy is a system of government in which priests or religious leaders rule in the name of God or a deity. Historical examples include ancient Egypt under the pharaohs, Tibet under the Dalai Lama, and modern-day Vatican City. In theocracies, religious law often serves as civil law, and political authority is believed to derive from divine mandate rather than popular consent.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Theocracy",
+    "citationTitle": "Wikipedia: Theocracy"
+  },
+  {
+    "id": "c0b0b6c4-27f6-4b72-9839-1efa3f35e953",
+    "text": "Which political ideology advocates for the abolition of private property and a classless society?",
+    "options": [
+      "Capitalism",
+      "Communism",
+      "Liberalism",
+      "Conservatism"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Communism seeks to eliminate private property and create a classless, stateless society.",
+    "detailedExplanation": "Communism is a political and economic ideology that aims to establish a classless, stateless society where the means of production are collectively owned. Developed primarily by Karl Marx and Friedrich Engels, communist theory envisions the eventual withering away of the state and the establishment of a society based on the principle 'from each according to their ability, to each according to their needs.'",
+    "citationUrl": "https://en.wikipedia.org/wiki/Communism",
+    "citationTitle": "Wikipedia: Communism"
+  },
+  {
+    "id": "fe8481d1-8734-4eae-a170-5f22b61323d4",
+    "text": "What is the political system where power is held by a small group of wealthy individuals?",
+    "options": [
+      "Democracy",
+      "Meritocracy",
+      "Plutocracy",
+      "Autocracy"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "A plutocracy is rule by the wealthy, where economic power translates to political control.",
+    "detailedExplanation": "Plutocracy is a form of government where the wealthy class rules and political power is concentrated among those with significant economic resources. The term comes from the Greek words 'ploutos' (wealth) and 'kratos' (power). Critics often argue that many modern democracies have plutocratic elements, where campaign contributions and lobbying by wealthy individuals and corporations can heavily influence political decisions.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Plutocracy",
+    "citationTitle": "Wikipedia: Plutocracy"
+  },
+  {
+    "id": "244d9695-6a0b-46c7-9cee-ed33a8933fc7",
+    "text": "Which term describes a political system with two major competing political parties?",
+    "options": [
+      "Multi-party system",
+      "One-party state",
+      "Two-party system",
+      "Coalition government"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "A two-party system is characterized by two major political parties dominating elections and governance.",
+    "detailedExplanation": "A two-party system is a political system where two major political parties dominate the political landscape, making it difficult for other parties to achieve electoral success. The United States and United Kingdom are often cited as examples of two-party systems. This system can provide political stability and clear choices for voters, but critics argue it can limit representation of diverse viewpoints and create polarization.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Two-party_system",
+    "citationTitle": "Wikipedia: Two-party system"
+  },
+  {
+    "id": "e0456624-c7c9-4938-96d6-cf02d2012311",
+    "text": "What political ideology emphasizes tradition, social stability, and gradual change?",
+    "options": [
+      "Radicalism",
+      "Progressivism",
+      "Conservatism",
+      "Socialism"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Conservatism values preserving established institutions and traditional values while favoring gradual over rapid change.",
+    "detailedExplanation": "Conservatism is a political ideology that emphasizes the preservation of traditional institutions, values, and social hierarchies. Conservatives typically favor gradual change over revolutionary transformation and believe that established customs and institutions have evolved for good reasons. The ideology values social stability, respect for authority, and often supports free market economics while being skeptical of rapid social change.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Conservatism",
+    "citationTitle": "Wikipedia: Conservatism"
+  },
+  {
+    "id": "8fd844b1-992f-4fcc-8a93-92d6c1a1d808",
+    "text": "Which voting system allows citizens to directly vote on specific policy issues?",
+    "options": [
+      "Representative democracy",
+      "Electoral college",
+      "Direct democracy",
+      "Parliamentary system"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Direct democracy allows citizens to vote directly on laws and policies rather than through elected representatives.",
+    "detailedExplanation": "Direct democracy is a form of democracy where citizens participate directly in decision-making on policy issues, rather than through elected representatives. This can take the form of referendums, ballot initiatives, or town hall meetings. Switzerland is famous for its frequent use of referendums, while some U.S. states allow ballot initiatives. Modern technology has renewed interest in direct democracy, though critics point to concerns about the complexity of issues and potential for mob rule.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Direct_democracy",
+    "citationTitle": "Wikipedia: Direct democracy"
+  },
+  {
+    "id": "ad907d69-5edc-42ba-be8b-88960b9b3078",
+    "text": "What is the term for a temporary alliance between political parties to form a government?",
+    "options": [
+      "Merger",
+      "Coalition",
+      "Faction",
+      "Caucus"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "A coalition is a temporary alliance between different political parties to achieve a common goal, often forming a government.",
+    "detailedExplanation": "A coalition government is formed when multiple political parties agree to work together, typically because no single party has won enough seats to govern alone. Coalition governments are common in parliamentary systems with proportional representation, such as in Germany, the Netherlands, and Italy. Partners in a coalition usually negotiate a shared policy platform and divide ministerial positions, though tensions can arise from differing ideologies and priorities.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Coalition_government",
+    "citationTitle": "Wikipedia: Coalition government"
+  },
+  {
+    "id": "56626805-1d9d-4edc-8f48-b260cdd62577",
+    "text": "Which political concept refers to the peaceful transfer of power between different political groups?",
+    "options": [
+      "Revolution",
+      "Succession",
+      "Transition",
+      "Coup d'état"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Political transition refers to the peaceful and orderly transfer of power from one government to another.",
+    "detailedExplanation": "Political transition refers to the process of changing from one political system or leadership to another, ideally through peaceful and democratic means. This concept is particularly important in discussions of democratization, where authoritarian regimes give way to democratic governments. Successful transitions often involve negotiations between outgoing and incoming authorities, institutional reforms, and respect for electoral outcomes. Spain's transition to democracy after Franco's death in 1975 is often cited as a model peaceful transition.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Democratic_transition",
+    "citationTitle": "Wikipedia: Democratic transition"
+  },
+  {
+    "id": "7807c6db-ddeb-4559-b6cc-9724f6c27ab5",
+    "text": "Which country is credited with being the world's oldest continuous democracy?",
+    "options": [
+      "United States",
+      "United Kingdom",
+      "San Marino",
+      "Iceland"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "San Marino has maintained democratic institutions continuously since 1600.",
+    "detailedExplanation": "San Marino, a small microstate surrounded by Italy, is widely recognized as the world's oldest surviving republic and continuous democracy. Its constitution, dating back to 1600, established democratic governance that has remained uninterrupted for over 400 years. While other nations like Iceland's Althing (930 AD) had early parliamentary systems, San Marino's democratic institutions have operated without major interruption longer than any other country.",
+    "citationUrl": "https://en.wikipedia.org/wiki/San_Marino",
+    "citationTitle": "Wikipedia: San Marino"
+  },
+  {
+    "id": "555902a2-f900-4d2e-ba64-6e8c3d8639e5",
+    "text": "What is the term for a political system where citizens elect representatives who then choose the head of government?",
+    "options": [
+      "Direct democracy",
+      "Parliamentary system",
+      "Presidential system",
+      "Absolute monarchy"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "In a parliamentary system, voters elect parliament members who then select the prime minister.",
+    "detailedExplanation": "A parliamentary system is a form of government where the executive branch derives its legitimacy from the legislature (parliament) and is accountable to it. Citizens vote for members of parliament, who then choose the head of government (usually called a prime minister). This differs from a presidential system where citizens directly elect the head of government. Countries like the United Kingdom, Canada, and Australia use parliamentary systems.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Parliamentary_system",
+    "citationTitle": "Wikipedia: Parliamentary system"
+  },
+  {
+    "id": "00045cea-ac49-41bd-9bb0-5abec2b2cfcf",
+    "text": "Which political philosopher is most famous for writing 'The Communist Manifesto'?",
+    "options": [
+      "John Locke",
+      "Karl Marx",
+      "Thomas Hobbes",
+      "Jean-Jacques Rousseau"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Karl Marx co-authored 'The Communist Manifesto' with Friedrich Engels in 1848.",
+    "detailedExplanation": "Karl Marx, along with Friedrich Engels, published 'The Communist Manifesto' in 1848, which became one of the most influential political documents in history. The manifesto outlined the theory of class struggle and called for the overthrow of capitalist systems by the working class. Marx's ideas formed the foundation of communist ideology and influenced numerous political movements and revolutions around the world throughout the 19th and 20th centuries.",
+    "citationUrl": "https://en.wikipedia.org/wiki/The_Communist_Manifesto",
+    "citationTitle": "Wikipedia: The Communist Manifesto"
+  },
+  {
+    "id": "8274100d-8f21-4a6e-bb72-2860f73e0d7b",
+    "text": "What is the minimum voting age in most democratic countries around the world?",
+    "options": [
+      "16 years old",
+      "18 years old",
+      "21 years old",
+      "25 years old"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "18 years old is the most common minimum voting age globally.",
+    "detailedExplanation": "The majority of democratic countries worldwide have established 18 as the minimum voting age for national elections. This became the standard after many countries lowered their voting ages from 21 during the 1960s and 1970s, often influenced by arguments that those old enough for military service should be able to vote. While some countries like Austria and Scotland have lowered it to 16 for certain elections, and a few maintain higher ages, 18 remains the global norm for democratic participation.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Voting_age",
+    "citationTitle": "Wikipedia: Voting age"
+  }
+]

@@ -1,0 +1,342 @@
+[
+  {
+    "id": "5ae40e2d-b877-472f-9847-28e3e4ebf6b3",
+    "text": "Which country has won the FIFA World Cup the most times?",
+    "options": [
+      "Germany",
+      "Brazil",
+      "Argentina",
+      "Italy"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "Brazil has won the World Cup 5 times.",
+    "detailedExplanation": "Brazil holds the record for most FIFA World Cup victories with five titles, winning in 1958, 1962, 1970, 1994, and 2002. This makes them the most successful nation in World Cup history, ahead of Germany and Italy who have each won four times.",
+    "citationUrl": "https://en.wikipedia.org/wiki/FIFA_World_Cup",
+    "citationTitle": "Wikipedia: FIFA World Cup"
+  },
+  {
+    "id": "9287d164-ec58-41d9-a01c-f4511fcc2d48",
+    "text": "How often is the FIFA World Cup held?",
+    "options": [
+      "Every 2 years",
+      "Every 4 years",
+      "Every 3 years",
+      "Every 5 years"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "The FIFA World Cup is held every 4 years.",
+    "detailedExplanation": "The FIFA World Cup takes place every four years, with the tournament being held in different host countries around the world. This four-year cycle has been maintained since the first World Cup in 1930, with exceptions only during World War II when the 1942 and 1946 tournaments were cancelled.",
+    "citationUrl": "https://en.wikipedia.org/wiki/FIFA_World_Cup",
+    "citationTitle": "Wikipedia: FIFA World Cup"
+  },
+  {
+    "id": "0ddd7552-3f64-434e-9396-c76245d39546",
+    "text": "In which year was the first FIFA World Cup held?",
+    "options": [
+      "1928",
+      "1930",
+      "1932",
+      "1934"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "The first FIFA World Cup was held in 1930.",
+    "detailedExplanation": "The inaugural FIFA World Cup took place in Uruguay in 1930. Uruguay was chosen as the host nation partly because they were celebrating the centenary of their independence and had won the Olympic football tournament twice. Thirteen teams participated in this first tournament, with Uruguay defeating Argentina 4-2 in the final.",
+    "citationUrl": "https://en.wikipedia.org/wiki/1930_FIFA_World_Cup",
+    "citationTitle": "Wikipedia: 1930 FIFA World Cup"
+  },
+  {
+    "id": "91053c06-cb59-431e-8f4e-07117101acef",
+    "text": "Which country hosted the 2018 FIFA World Cup?",
+    "options": [
+      "Brazil",
+      "Germany",
+      "Russia",
+      "Qatar"
+    ],
+    "correctIndex": 2,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "Russia hosted the 2018 FIFA World Cup.",
+    "detailedExplanation": "The 2018 FIFA World Cup was held in Russia from June 14 to July 15, 2018. The tournament took place across 11 cities in Russia, with matches held in 12 stadiums. France won the tournament, defeating Croatia 4-2 in the final held at the Luzhniki Stadium in Moscow.",
+    "citationUrl": "https://en.wikipedia.org/wiki/2018_FIFA_World_Cup",
+    "citationTitle": "Wikipedia: 2018 FIFA World Cup"
+  },
+  {
+    "id": "a7bb0c77-0ef6-446d-8513-3d434c6d5587",
+    "text": "What is the maximum number of teams that participate in the FIFA World Cup finals tournament?",
+    "options": [
+      "24",
+      "32",
+      "48",
+      "64"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "32 teams participate in the World Cup finals (expanding to 48 from 2026).",
+    "detailedExplanation": "Since 1998, the FIFA World Cup finals tournament has featured 32 teams competing in the group stage and knockout rounds. However, FIFA has announced that starting with the 2026 World Cup, which will be jointly hosted by the United States, Canada, and Mexico, the tournament will expand to include 48 teams.",
+    "citationUrl": "https://en.wikipedia.org/wiki/FIFA_World_Cup",
+    "citationTitle": "Wikipedia: FIFA World Cup"
+  },
+  {
+    "id": "cdd3e3ca-7a22-444a-82b7-d3ff94dfea5d",
+    "text": "Who won the 2022 FIFA World Cup in Qatar?",
+    "options": [
+      "France",
+      "Argentina",
+      "Brazil",
+      "Croatia"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "Argentina won the 2022 World Cup in Qatar.",
+    "detailedExplanation": "Argentina won the 2022 FIFA World Cup in Qatar, defeating France 4-2 on penalties after a 3-3 draw in regular and extra time. This was Argentina's third World Cup title and first since 1986. Lionel Messi finally achieved his dream of winning the World Cup, and was awarded the Golden Ball as the tournament's best player.",
+    "citationUrl": "https://en.wikipedia.org/wiki/2022_FIFA_World_Cup",
+    "citationTitle": "Wikipedia: 2022 FIFA World Cup"
+  },
+  {
+    "id": "41c0d39d-6a4b-4a35-8f50-301628b9118f",
+    "text": "What is the official name of the FIFA World Cup trophy?",
+    "options": [
+      "The Golden Cup",
+      "The FIFA World Cup Trophy",
+      "The Jules Rimet Trophy",
+      "The World Championship Cup"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "The current trophy is simply called 'The FIFA World Cup Trophy'.",
+    "detailedExplanation": "The current trophy used since 1974 is officially called 'The FIFA World Cup Trophy'. It replaced the original Jules Rimet Trophy, which was permanently awarded to Brazil after they won their third World Cup in 1970. The current trophy is made of 18-carat gold and weighs 6.1 kilograms, designed by Italian sculptor Silvio Gazzaniga.",
+    "citationUrl": "https://en.wikipedia.org/wiki/FIFA_World_Cup_Trophy",
+    "citationTitle": "Wikipedia: FIFA World Cup Trophy"
+  },
+  {
+    "id": "71f84bd2-77c0-40c2-982b-58d532a87d46",
+    "text": "Which countries will jointly host the 2026 FIFA World Cup?",
+    "options": [
+      "USA, Mexico, Canada",
+      "Spain, Portugal, Morocco",
+      "England, Scotland, Wales",
+      "Argentina, Chile, Uruguay"
+    ],
+    "correctIndex": 0,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "The 2026 World Cup will be jointly hosted by USA, Mexico, and Canada.",
+    "detailedExplanation": "The 2026 FIFA World Cup will be jointly hosted by the United States, Mexico, and Canada, making it the first World Cup to be hosted by three countries. This will also be the first expanded World Cup featuring 48 teams instead of the current 32. Mexico will become the first country to host the World Cup three times, having previously hosted in 1970 and 1986.",
+    "citationUrl": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+    "citationTitle": "Wikipedia: 2026 FIFA World Cup"
+  },
+  {
+    "id": "a869014b-e3f0-4390-8b95-dd406bcbce83",
+    "text": "Which player holds the record for most goals scored in FIFA World Cup history?",
+    "options": [
+      "Pelé",
+      "Miroslav Klose",
+      "Ronaldo Nazário",
+      "Gerd Müller"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "Miroslav Klose scored 16 goals across four World Cups for Germany.",
+    "detailedExplanation": "German striker Miroslav Klose holds the all-time record for most FIFA World Cup goals with 16 goals scored across four tournaments (2002, 2006, 2010, 2014). He surpassed Brazilian legend Ronaldo's previous record of 15 goals during the 2014 World Cup in Brazil, where Germany won the tournament. Klose's consistent performance across multiple World Cups made him one of the most successful World Cup players in history.",
+    "citationUrl": "https://en.wikipedia.org/wiki/FIFA_World_Cup_records_and_statistics",
+    "citationTitle": "Wikipedia: FIFA World Cup records and statistics"
+  },
+  {
+    "id": "16555939-3774-41c7-b149-2ba0992ec524",
+    "text": "What color card is shown to players for serious misconduct that results in immediate ejection from the match?",
+    "options": [
+      "Yellow",
+      "Red",
+      "Blue",
+      "Green"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "A red card results in immediate ejection and suspension from the next match.",
+    "detailedExplanation": "In FIFA World Cup matches, referees use a red card to dismiss players for serious offenses such as violent conduct, serious foul play, or receiving two yellow cards. When shown a red card, the player must immediately leave the field and cannot be replaced, leaving their team with one fewer player. The player is also automatically suspended from their team's next match. This disciplinary system has been used in World Cup matches since the 1970 tournament in Mexico.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Misconduct_(association_football)",
+    "citationTitle": "Wikipedia: Misconduct (association football)"
+  },
+  {
+    "id": "46be7a2b-7f50-4666-b091-616e90064b21",
+    "text": "How many minutes of regular playing time are there in a FIFA World Cup match?",
+    "options": [
+      "80 minutes",
+      "90 minutes",
+      "100 minutes",
+      "120 minutes"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "A standard FIFA World Cup match consists of two 45-minute halves for 90 minutes total.",
+    "detailedExplanation": "FIFA World Cup matches consist of two halves of 45 minutes each, totaling 90 minutes of regular playing time. The referee may add stoppage time to compensate for delays during each half. If the match is a knockout stage game and ends in a draw after 90 minutes, two 15-minute periods of extra time are played, potentially followed by a penalty shootout. However, the standard duration for any World Cup match remains 90 minutes of regular time.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Laws_of_the_Game_(association_football)",
+    "citationTitle": "Wikipedia: Laws of the Game (association football)"
+  },
+  {
+    "id": "4844afee-bdbf-412d-b5e3-69953e28e99e",
+    "text": "Which continent's teams have won the most FIFA World Cups?",
+    "options": [
+      "South America",
+      "Europe",
+      "Africa",
+      "Asia"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "European teams have won 12 World Cups compared to South America's 10.",
+    "detailedExplanation": "European teams have claimed the most FIFA World Cup victories with 12 titles. This includes wins by Germany (4), Italy (4), England (1), France (2), and Spain (1). South America follows with 10 titles, won by Brazil (5), Argentina (3), and Uruguay (2). No team from Africa, Asia, or North America has ever won the FIFA World Cup, making it a competition dominated by European and South American nations since its inception in 1930.",
+    "citationUrl": "https://en.wikipedia.org/wiki/FIFA_World_Cup",
+    "citationTitle": "Wikipedia: FIFA World Cup"
+  },
+  {
+    "id": "606a05e8-f471-4ff9-a9fb-3284745c5e90",
+    "text": "What happens if a knockout stage World Cup match ends in a draw after regular time?",
+    "options": [
+      "The match is replayed",
+      "Extra time is played",
+      "It goes straight to penalties",
+      "Both teams are eliminated"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "Extra time consists of two 15-minute periods, followed by penalties if still tied.",
+    "detailedExplanation": "In FIFA World Cup knockout stage matches (Round of 16 onwards), if the score is tied after 90 minutes of regular time, the match goes to extra time. Extra time consists of two additional 15-minute periods. If the match is still tied after extra time, it is decided by a penalty shootout. This system ensures that every knockout match produces a winner who can advance to the next round. Group stage matches, however, can end in draws without extra time.",
+    "citationUrl": "https://en.wikipedia.org/wiki/FIFA_World_Cup#Format",
+    "citationTitle": "Wikipedia: FIFA World Cup - Format"
+  },
+  {
+    "id": "5ecde332-7db8-4b8c-ad1a-ef6e13146f34",
+    "text": "Which of these countries has never hosted a FIFA World Cup?",
+    "options": [
+      "Japan",
+      "Australia",
+      "South Korea",
+      "South Africa"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "Australia has never hosted a World Cup, while the others have all been host nations.",
+    "detailedExplanation": "Australia is the only country among these options that has never hosted a FIFA World Cup. Japan co-hosted the 2002 World Cup with South Korea, making it the first World Cup held in Asia and the first jointly hosted tournament. South Africa hosted the 2010 World Cup, becoming the first African nation to host the tournament. Australia has bid for hosting rights multiple times, including for the 2022 tournament (which went to Qatar), but has never been selected as a host nation.",
+    "citationUrl": "https://en.wikipedia.org/wiki/FIFA_World_Cup_hosts",
+    "citationTitle": "Wikipedia: FIFA World Cup hosts"
+  },
+  {
+    "id": "e481fe1f-a229-4b5c-ab6a-3f9b2cd5af45",
+    "text": "What is the minimum number of players a team must have on the field to continue a World Cup match?",
+    "options": [
+      "9 players",
+      "8 players",
+      "7 players",
+      "6 players"
+    ],
+    "correctIndex": 2,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "FIFA rules state a match is abandoned if a team has fewer than 7 players.",
+    "detailedExplanation": "According to FIFA's Laws of the Game, a match must be abandoned if either team has fewer than seven players on the field. This rule applies to all FIFA competitions, including the World Cup. Teams start with 11 players, but through red cards for serious misconduct, players can be ejected from the match. While teams can continue playing with 10, 9, 8, or 7 players, once a team is reduced to 6 players, the referee must abandon the match and award a victory to the opposing team.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Laws_of_the_Game_(association_football)",
+    "citationTitle": "Wikipedia: Laws of the Game (association football)"
+  },
+  {
+    "id": "96d4c0e2-0534-4cbf-82a2-ce1a2cc8c97b",
+    "text": "In which season are FIFA World Cups typically held?",
+    "options": [
+      "Spring",
+      "Summer",
+      "Fall/Autumn",
+      "Winter"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "World Cups are usually held during the Northern Hemisphere summer months of June and July.",
+    "detailedExplanation": "FIFA World Cups are traditionally held during the Northern Hemisphere summer, typically running from mid-June to mid-July. This timing allows for optimal playing conditions in most host countries and aligns with the summer break in European football leagues, where many of the world's top players compete. The 2022 Qatar World Cup was a notable exception, held in November-December due to Qatar's extreme summer heat, marking the first time a World Cup was held during the Northern Hemisphere winter.",
+    "citationUrl": "https://en.wikipedia.org/wiki/FIFA_World_Cup",
+    "citationTitle": "Wikipedia: FIFA World Cup"
+  },
+  {
+    "id": "6ae25a4e-70de-458d-8ff6-9baa24dad583",
+    "text": "Which of these stadiums has hosted a FIFA World Cup final match?",
+    "options": [
+      "Wembley Stadium",
+      "Camp Nou",
+      "Old Trafford",
+      "San Siro"
+    ],
+    "correctIndex": 0,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "Wembley Stadium hosted the 1966 World Cup final where England beat West Germany 4-2.",
+    "detailedExplanation": "Wembley Stadium in London hosted the 1966 FIFA World Cup final, where England defeated West Germany 4-2 after extra time. This remains England's only World Cup victory. While Camp Nou, Old Trafford, and San Siro are all famous football stadiums, none have hosted a World Cup final match.",
+    "citationUrl": "https://en.wikipedia.org/wiki/1966_FIFA_World_Cup_Final",
+    "citationTitle": "Wikipedia: 1966 FIFA World Cup Final"
+  },
+  {
+    "id": "cadb60c6-cb34-4082-aa4b-e0e6e83025e2",
+    "text": "What is the nickname commonly given to the FIFA World Cup?",
+    "options": [
+      "The Beautiful Game",
+      "The Ultimate Prize",
+      "The Beautiful Trophy",
+      "The Jules Rimet"
+    ],
+    "correctIndex": 3,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "The FIFA World Cup is often referred to as 'The Jules Rimet' after Jules Rimet, the FIFA president who created the tournament.",
+    "detailedExplanation": "The FIFA World Cup is commonly nicknamed 'The Jules Rimet' in honor of Jules Rimet, the French FIFA president who organized the first World Cup in 1930. The original trophy was actually called the Jules Rimet Trophy until 1970, when Brazil won it permanently after their third victory. A new trophy was then created for subsequent tournaments.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Jules_Rimet",
+    "citationTitle": "Wikipedia: Jules Rimet"
+  },
+  {
+    "id": "350f7d66-fab3-4ec0-b881-22551df9c549",
+    "text": "Which age group makes a player eligible to participate in the FIFA World Cup?",
+    "options": [
+      "Must be under 23",
+      "Must be between 18-35",
+      "No age restrictions",
+      "Must be over 18"
+    ],
+    "correctIndex": 2,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "There are no age restrictions for FIFA World Cup participation - players of any age can compete if selected.",
+    "detailedExplanation": "Unlike some other FIFA tournaments such as the Olympics (which has age restrictions), the FIFA World Cup has no age limitations for players. The youngest player ever was Norman Whiteside of Northern Ireland at 17 years and 41 days in 1982, while the oldest was Alfredo Talavera of Mexico at 40 years and 63 days in 2022. Players simply need to be eligible to represent their country.",
+    "citationUrl": "https://en.wikipedia.org/wiki/FIFA_World_Cup_records_and_statistics",
+    "citationTitle": "Wikipedia: FIFA World Cup records and statistics"
+  },
+  {
+    "id": "35ea8547-a61a-4664-80d3-ea5bee6de360",
+    "text": "Which continent has never had a country reach a FIFA World Cup final?",
+    "options": [
+      "Africa",
+      "Asia",
+      "North America",
+      "Oceania"
+    ],
+    "correctIndex": 3,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "Oceania is the only continent that has never had a country reach a World Cup final.",
+    "detailedExplanation": "Oceania remains the only continent never to have a country reach a FIFA World Cup final. African teams like Morocco have reached semi-finals, Asian teams like South Korea have reached semi-finals, and North American teams like Mexico and the USA have reached quarter-finals. However, Oceania's strongest representatives like Australia (who moved to the Asian confederation) and New Zealand have never progressed beyond the group stage.",
+    "citationUrl": "https://en.wikipedia.org/wiki/FIFA_World_Cup",
+    "citationTitle": "Wikipedia: FIFA World Cup"
+  }
+]

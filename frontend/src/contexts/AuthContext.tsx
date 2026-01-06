@@ -35,6 +35,8 @@ export interface AuthUser {
   username: string;
   email: string;
   name?: string;
+  firstName?: string;
+  lastName?: string;
   picture?: string;
   badges?: Badge[];
   totalSkillPoints?: number;
@@ -53,6 +55,8 @@ interface AuthContextType {
     email: string,
     password: string,
     screenName?: string,
+    firstName?: string,
+    lastName?: string,
   ) => Promise<{ isSignUpComplete: boolean; userId?: string }>;
   confirmSignUp: (email: string, code: string) => Promise<void>;
   signOut: () => Promise<void>;
@@ -86,17 +90,27 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
       // Get profile using API layer
       const profile = await getMyProfile();
 
+      // Cast profile to include new fields (firstName, lastName) until codegen is run
+      const profileWithNames = profile as typeof profile & {
+        firstName?: string;
+        lastName?: string;
+      };
+
       setUser({
         userId: currentUser.userId,
         username: currentUser.username,
         email: attributes.email || "",
         name:
-          profile?.displayName || attributes.email?.split("@")[0] || "Player",
+          profileWithNames?.displayName ||
+          attributes.email?.split("@")[0] ||
+          "Player",
+        firstName: profileWithNames?.firstName ?? undefined,
+        lastName: profileWithNames?.lastName ?? undefined,
         picture: attributes.picture || undefined,
-        badges: profile?.badges || [],
-        totalSkillPoints: profile?.totalSkillPoints || 0,
-        subscription: profile?.subscription ?? undefined,
-        tipUnlockedUntil: profile?.tipUnlockedUntil ?? undefined,
+        badges: profileWithNames?.badges || [],
+        totalSkillPoints: profileWithNames?.totalSkillPoints || 0,
+        subscription: profileWithNames?.subscription ?? undefined,
+        tipUnlockedUntil: profileWithNames?.tipUnlockedUntil ?? undefined,
       });
     } catch {
       // User not logged in
@@ -149,6 +163,8 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
     email: string,
     password: string,
     screenName?: string,
+    firstName?: string,
+    lastName?: string,
   ) => {
     const result = await signUp({
       username: email,
@@ -157,6 +173,8 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
         userAttributes: {
           email,
           ...(screenName && { preferred_username: screenName }),
+          ...(firstName && { given_name: firstName }),
+          ...(lastName && { family_name: lastName }),
         },
       },
     });

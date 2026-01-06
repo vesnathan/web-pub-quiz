@@ -1,0 +1,342 @@
+[
+  {
+    "id": "b7609c92-8f6d-4fc7-b125-93e9501c23ca",
+    "text": "Which country is widely considered the birthplace of coffee?",
+    "options": [
+      "Yemen",
+      "Ethiopia",
+      "Brazil",
+      "Colombia"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Ethiopia is considered the birthplace of coffee, where it was first discovered.",
+    "detailedExplanation": "Ethiopia is widely recognized as the birthplace of coffee, with legends dating back to the 9th century. The most famous legend tells of Kaldi, an Ethiopian goat herder who noticed his goats becoming energetic after eating certain berries. The coffee plant, Coffea arabica, is native to the Ethiopian highlands, and the country remains one of the world's major coffee producers with a rich coffee culture that includes traditional coffee ceremonies.",
+    "citationUrl": "https://en.wikipedia.org/wiki/History_of_coffee",
+    "citationTitle": "Wikipedia: History of coffee"
+  },
+  {
+    "id": "cb902fa3-2b0f-4370-8279-fa49f763b3a2",
+    "text": "What are the two main species of coffee beans used commercially worldwide?",
+    "options": [
+      "Arabica and Robusta",
+      "Liberica and Excelsa",
+      "Bourbon and Typica",
+      "Java and Mocha"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Arabica and Robusta are the two main commercial coffee species, representing about 99% of global production.",
+    "detailedExplanation": "Coffea arabica and Coffea robusta (also known as Coffea canephora) are the two primary species of coffee beans used in commercial coffee production worldwide. Arabica accounts for approximately 60-70% of global coffee production and is generally considered to have superior flavor, while Robusta makes up most of the remainder and contains higher caffeine content. Arabica grows best at higher altitudes and is more susceptible to disease, while Robusta is hardier and can grow at lower altitudes.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Coffee_bean",
+    "citationTitle": "Wikipedia: Coffee bean"
+  },
+  {
+    "id": "f19935f4-7aba-4285-b792-1def31daddce",
+    "text": "Which brewing method involves forcing hot water through finely ground coffee under pressure?",
+    "options": [
+      "French Press",
+      "Pour Over",
+      "Espresso",
+      "Cold Brew"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Espresso is made by forcing hot water through finely ground coffee under high pressure.",
+    "detailedExplanation": "Espresso is a coffee brewing method that originated in Italy and involves forcing nearly boiling water through finely ground coffee beans under pressure (typically 9 bars). This process extracts a concentrated coffee shot with a distinctive crema on top. The espresso method forms the base for many other coffee drinks like cappuccinos, lattes, and macchiatos. The high pressure extraction creates a more concentrated flavor profile compared to other brewing methods.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Espresso",
+    "citationTitle": "Wikipedia: Espresso"
+  },
+  {
+    "id": "a2cf9698-0e71-4e6f-8d08-bc0e10b171c3",
+    "text": "What is the name of the traditional Italian coffee drink that consists of equal parts espresso, steamed milk, and milk foam?",
+    "options": [
+      "Latte",
+      "Macchiato",
+      "Cappuccino",
+      "Americano"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "A cappuccino traditionally consists of equal parts espresso, steamed milk, and milk foam.",
+    "detailedExplanation": "The cappuccino is a traditional Italian coffee drink that typically consists of equal parts espresso, steamed milk, and milk foam, creating a balanced 1:1:1 ratio. The name 'cappuccino' comes from the Capuchin friars, referring to the color of their brown robes which resembles the drink's appearance. A well-made cappuccino should have a thick layer of microfoam on top and is traditionally served in a 5-6 ounce cup, making it smaller and stronger than a latte.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Cappuccino",
+    "citationTitle": "Wikipedia: Cappuccino"
+  },
+  {
+    "id": "7c50e7eb-b486-4b3d-a2ed-5275773dca69",
+    "text": "Which region produces the famous Blue Mountain coffee, considered one of the world's most expensive coffees?",
+    "options": [
+      "Hawaii",
+      "Jamaica",
+      "Kenya",
+      "Guatemala"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Blue Mountain coffee comes from the Blue Mountain region of Jamaica and is among the world's most expensive coffees.",
+    "detailedExplanation": "Jamaica Blue Mountain coffee is grown in the Blue Mountain region of Jamaica and is renowned as one of the world's most expensive and sought-after coffees. The unique climate, altitude (between 3,000 and 5,500 feet), and soil conditions of the Blue Mountains create ideal growing conditions. The coffee is known for its mild flavor, lack of bitterness, and perfect balance. The majority of Jamaica Blue Mountain coffee is exported to Japan, which has contributed to its high price and exclusive reputation.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Jamaica_Blue_Mountain_Coffee",
+    "citationTitle": "Wikipedia: Jamaica Blue Mountain Coffee"
+  },
+  {
+    "id": "3a86de6e-1f5e-4a71-8d26-9f01423118fe",
+    "text": "What does the term 'fair trade' mean in relation to coffee?",
+    "options": [
+      "Coffee with balanced flavor",
+      "Coffee traded at market price",
+      "Coffee ensuring farmers receive fair wages",
+      "Coffee with equal caffeine content"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Fair trade coffee ensures that coffee farmers receive fair wages and work under acceptable conditions.",
+    "detailedExplanation": "Fair trade coffee is part of a social movement that ensures coffee farmers and workers receive fair wages, work in acceptable conditions, and have access to sustainable farming practices. Fair trade certification requires that farmers receive a minimum price for their coffee, regardless of market fluctuations, plus an additional premium for community development projects. This system aims to reduce poverty among coffee farmers, promote environmental sustainability, and create more equitable trading relationships between producers in developing countries and consumers in developed countries.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Fair_trade_coffee",
+    "citationTitle": "Wikipedia: Fair trade coffee"
+  },
+  {
+    "id": "12b3fa6b-383a-42d5-a14b-63e05b4d2623",
+    "text": "Which coffee processing method involves removing the cherry flesh immediately after harvesting and then fermenting the beans?",
+    "options": [
+      "Natural process",
+      "Washed process",
+      "Honey process",
+      "Pulped natural"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "The washed process involves removing the cherry flesh immediately and fermenting the beans to remove remaining mucilage.",
+    "detailedExplanation": "The washed process, also known as the wet process, is a coffee processing method where the cherry flesh is removed immediately after harvesting using a pulping machine. The beans are then fermented in water for 12-48 hours to break down the remaining mucilage, followed by washing and drying. This process typically produces coffee with cleaner, brighter, and more acidic flavor profiles compared to natural processing. The washed process requires more water and equipment but allows for better quality control and consistency.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Coffee_processing",
+    "citationTitle": "Wikipedia: Coffee processing"
+  },
+  {
+    "id": "6cade025-8133-4e72-b933-a8588e98fc2f",
+    "text": "What is the ideal water temperature range for brewing most coffee methods?",
+    "options": [
+      "160-170°F (71-77°C)",
+      "195-205°F (90-96°C)",
+      "210-220°F (99-104°C)",
+      "175-185°F (79-85°C)"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "The ideal water temperature for brewing coffee is 195-205°F (90-96°C), just below boiling point.",
+    "detailedExplanation": "The optimal water temperature for brewing coffee is generally between 195-205°F (90-96°C), which is just below the boiling point of water. This temperature range allows for proper extraction of coffee's desirable compounds including acids, sugars, and aromatic oils, while avoiding over-extraction of bitter compounds that occur at higher temperatures. Water that is too cool will result in under-extraction, producing weak and sour coffee, while water that is too hot will over-extract, creating bitter and harsh flavors. This temperature guideline applies to most brewing methods including drip, pour-over, and French press.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Coffee_preparation",
+    "citationTitle": "Wikipedia: Coffee preparation"
+  },
+  {
+    "id": "3cd22e95-19b0-4ba3-824a-970d02741d19",
+    "text": "What is the name of the layer of skin that covers coffee beans and is removed during processing?",
+    "options": [
+      "Parchment",
+      "Mucilage",
+      "Cherry",
+      "Chaff"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "The cherry is the outer fruit layer that covers coffee beans and must be removed during processing.",
+    "detailedExplanation": "Coffee beans are actually seeds that grow inside a fruit called a coffee cherry. This red or purple fruit has several layers: the outer skin (cherry), the pulp, a sticky layer called mucilage, the parchment layer, and finally the silver skin or chaff that directly covers the green coffee bean. The cherry must be removed through either wet or dry processing methods to access the beans inside.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Coffee_bean",
+    "citationTitle": "Wikipedia: Coffee bean"
+  },
+  {
+    "id": "9ea6b2d6-06cc-4548-b95e-338789550104",
+    "text": "Which Central American country is famous for producing coffee in volcanic soil at high altitudes?",
+    "options": [
+      "Panama",
+      "Guatemala",
+      "Costa Rica",
+      "All of the above"
+    ],
+    "correctIndex": 3,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Panama, Guatemala, and Costa Rica are all famous for high-altitude volcanic soil coffee production.",
+    "detailedExplanation": "Central America's volcanic mountain ranges provide ideal conditions for coffee cultivation. Countries like Guatemala, Costa Rica, and Panama grow their finest coffees at altitudes between 1,200-2,000 meters above sea level in mineral-rich volcanic soil. The combination of altitude, volcanic nutrients, and climate creates slower bean maturation and more complex flavor profiles, making Central American coffees highly prized by specialty roasters worldwide.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Coffee_production_in_Central_America",
+    "citationTitle": "Wikipedia: Coffee production in Central America"
+  },
+  {
+    "id": "44fcf32e-d9cd-457c-99f7-fa9338375119",
+    "text": "What does a coffee's 'roast date' refer to?",
+    "options": [
+      "When the beans were harvested",
+      "When the beans were processed",
+      "When the beans were roasted",
+      "When the coffee expires"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "The roast date indicates when the green coffee beans were roasted into the brown beans used for brewing.",
+    "detailedExplanation": "The roast date is crucial information for coffee quality, as it tells consumers exactly when the green coffee beans were transformed through heat into the aromatic brown beans we recognize. Coffee is at its peak flavor within 2-4 weeks of the roast date, as the beans continue to off-gas CO2 and develop flavors after roasting. This date is different from the harvest date (when cherries were picked) or processing date (when beans were extracted from cherries).",
+    "citationUrl": "https://en.wikipedia.org/wiki/Coffee_roasting",
+    "citationTitle": "Wikipedia: Coffee roasting"
+  },
+  {
+    "id": "96bbdef3-b5bc-4106-aa1b-243930e8c049",
+    "text": "What is a coffee 'cupping' session?",
+    "options": [
+      "A brewing method using cups",
+      "A professional coffee tasting technique",
+      "A way to measure coffee strength",
+      "A type of coffee competition"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Cupping is the standardized method coffee professionals use to taste and evaluate different coffees.",
+    "detailedExplanation": "Coffee cupping is the industry-standard method for systematically tasting and evaluating coffee quality and characteristics. During cupping, coffee professionals grind beans to a specific size, add hot water, let it steep for exactly 4 minutes, then break the crust and taste using special spoons. This standardized process allows for consistent evaluation of factors like aroma, flavor, acidity, body, and overall quality across different coffee samples.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Coffee_cupping",
+    "citationTitle": "Wikipedia: Coffee cupping"
+  },
+  {
+    "id": "4c79b72d-1d4b-4ebe-9fa2-b2c60cb45505",
+    "text": "Which coffee drink originated in Australia and New Zealand and consists of espresso with microfoam?",
+    "options": [
+      "Long Black",
+      "Short Black",
+      "Flat White",
+      "Magic"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "The Flat White originated in Australia/New Zealand and features espresso topped with microfoam (steamed milk with fine, velvety texture).",
+    "detailedExplanation": "The Flat White emerged in Australian and New Zealand coffee culture during the 1980s as an alternative to the cappuccino. It consists of a double shot of espresso topped with steamed milk that has been textured into microfoam - creating a velvety, smooth consistency rather than the thick, frothy foam of a traditional cappuccino. The drink has since gained international popularity and is now served in specialty coffee shops worldwide.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Flat_white",
+    "citationTitle": "Wikipedia: Flat white"
+  },
+  {
+    "id": "16378526-8487-4730-b155-febb6d729759",
+    "text": "What is the most expensive coffee in the world, made from beans that have been eaten and excreted by a certain animal?",
+    "options": [
+      "Elephant Dung Coffee",
+      "Kopi Luwak",
+      "Monkey Parchment Coffee",
+      "Bird Cherry Coffee"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Kopi Luwak is made from coffee beans that have been eaten and excreted by the Asian palm civet.",
+    "detailedExplanation": "Kopi Luwak, also known as civet coffee, is produced from coffee beans that have been eaten by the Asian palm civet and collected from their droppings. The animal's digestive process allegedly removes some of the bitter proteins from the beans, creating a smoother flavor. However, the high price (often $100+ per pound) and ethical concerns about civet farming have made this coffee controversial. Similar processes using elephants have also been developed, but Kopi Luwak remains the most famous example.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Kopi_luwak",
+    "citationTitle": "Wikipedia: Kopi luwak"
+  },
+  {
+    "id": "3a4603c3-b7d9-4466-98b6-5c42d7f38060",
+    "text": "At what altitude do coffee plants typically grow best?",
+    "options": [
+      "Sea level to 500 feet",
+      "500 to 2,000 feet",
+      "2,000 to 6,000 feet",
+      "Above 8,000 feet"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Coffee plants thrive at altitudes between 2,000 to 6,000 feet above sea level, where temperatures and conditions are ideal.",
+    "detailedExplanation": "Coffee plants grow best in tropical highlands between 2,000 and 6,000 feet (600-1,800 meters) above sea level, though some varieties can grow successfully at lower or higher elevations. Higher altitudes provide cooler temperatures, greater temperature variation between day and night, and often more rainfall - conditions that slow bean development and contribute to more complex flavors. The slower maturation at higher altitudes allows more time for sugars and acids to develop, creating the bright, complex flavors prized in specialty coffee.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Coffee_cultivation",
+    "citationTitle": "Wikipedia: Coffee cultivation"
+  },
+  {
+    "id": "dfeb614b-3dd0-466d-ab32-e9ccdbe6faf2",
+    "text": "What is the term for coffee that is grown without synthetic pesticides, herbicides, or fertilizers?",
+    "options": [
+      "Shade-grown",
+      "Single-origin",
+      "Organic",
+      "Direct-trade"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Organic coffee is grown without synthetic chemicals like pesticides, herbicides, or fertilizers.",
+    "detailedExplanation": "Organic coffee is produced using farming methods that avoid synthetic pesticides, herbicides, fertilizers, and other artificial chemicals. Instead, organic coffee farmers rely on natural pest control methods, composting, crop rotation, and other sustainable practices. To be labeled as organic, coffee must be certified by approved agencies and meet strict standards throughout the growing, processing, and handling stages. This farming approach aims to protect environmental health and often results in coffee with cleaner, more distinctive flavors.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Organic_coffee",
+    "citationTitle": "Wikipedia: Organic coffee"
+  },
+  {
+    "id": "b3e30249-0fc7-4f78-a051-73ac486412b7",
+    "text": "What is the name of the traditional Ethiopian coffee ceremony that involves roasting green coffee beans in front of guests?",
+    "options": [
+      "Buna",
+      "Qahwa",
+      "Kaffa",
+      "Harrar"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Buna is the traditional Ethiopian coffee ceremony involving communal roasting and brewing.",
+    "detailedExplanation": "The Ethiopian coffee ceremony, called 'buna' in Amharic, is a culturally significant ritual that can take several hours. During the ceremony, green coffee beans are washed, roasted in a pan over an open flame in front of guests, ground by hand, and then brewed in a clay pot called a jebena. The ceremony emphasizes community, hospitality, and respect, and is considered one of the most important social traditions in Ethiopian culture.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Ethiopian_coffee_ceremony",
+    "citationTitle": "Wikipedia: Ethiopian coffee ceremony"
+  },
+  {
+    "id": "f43af858-7c13-4c82-a65c-3e426b504dfe",
+    "text": "Which South American country is the world's largest producer of coffee by volume?",
+    "options": [
+      "Colombia",
+      "Brazil",
+      "Peru",
+      "Ecuador"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Brazil produces about one-third of the world's coffee, making it the largest producer globally.",
+    "detailedExplanation": "Brazil has been the world's largest coffee producer for over 150 years, accounting for approximately 30-35% of global coffee production. The country produces both Arabica and Robusta varieties across multiple states, with São Paulo, Minas Gerais, and Paraná being the main coffee-growing regions. Brazil's massive scale of production, favorable climate, and advanced farming techniques have maintained its position as the dominant force in the global coffee market.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Coffee_production_in_Brazil",
+    "citationTitle": "Wikipedia: Coffee production in Brazil"
+  },
+  {
+    "id": "8f74fa39-64fd-4244-a17e-730707358f34",
+    "text": "What does the coffee term 'single origin' mean?",
+    "options": [
+      "Coffee from one specific farm or region",
+      "Coffee roasted only once",
+      "Coffee with one flavor note",
+      "Coffee made with one brewing method"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Single origin coffee comes from one specific geographic location, farm, or region rather than being a blend.",
+    "detailedExplanation": "Single origin coffee refers to beans that come from one specific geographic location, which could be a single farm, estate, or region within a country. This is in contrast to coffee blends, which combine beans from multiple locations. Single origin coffees allow consumers to taste the unique characteristics imparted by specific growing conditions, soil, climate, and processing methods of that particular location. These coffees often highlight the terroir and distinctive flavor profile of their origin.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Coffee_bean",
+    "citationTitle": "Wikipedia: Coffee bean"
+  },
+  {
+    "id": "8fb47918-0adf-4cc3-888a-40c199fb0353",
+    "text": "What is the name of the coffee fruit that contains the coffee beans?",
+    "options": [
+      "Coffee pod",
+      "Coffee cherry",
+      "Coffee hull",
+      "Coffee capsule"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "The coffee fruit is called a coffee cherry, which contains the coffee beans (seeds) inside.",
+    "detailedExplanation": "Coffee beans are actually the seeds found inside the fruit of the coffee plant, which is called a coffee cherry due to its resemblance to actual cherries. Each cherry typically contains two seeds (beans) facing each other, though sometimes there's only one seed called a peaberry. The cherry has a red or purple skin when ripe, sweet pulp underneath, and a parchment layer surrounding the beans. The cherries must be processed to extract the beans, either through wet or dry processing methods.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Coffee_cherry",
+    "citationTitle": "Wikipedia: Coffee cherry"
+  }
+]

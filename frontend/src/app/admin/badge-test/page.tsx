@@ -16,7 +16,10 @@ import {
 import { LoadingScreen } from "@/components/LoadingScreen";
 import { useAuth } from "@/contexts/AuthContext";
 import { GameBackground } from "@/components/GameBackground";
-import { SetEndScreen, SetEndSidebar } from "@/components/SetEndScreen";
+import {
+  SessionEndScreen,
+  SessionEndSidebar,
+} from "@/components/SessionEndScreen";
 import { BadgeAwardAnimation } from "@/components/badges/BadgeAwardAnimation";
 import { BadgeRevolver } from "@/components/badges/BadgeRevolver";
 import {
@@ -79,7 +82,7 @@ export default function BadgeTestPage() {
   ]);
   const [isAnimating, setIsAnimating] = useState(false);
   const [currentBadge, setCurrentBadge] = useState<AwardBadge | null>(null);
-  const [showSetEndScreen, setShowSetEndScreen] = useState(false);
+  const [showSessionEndScreen, setShowSessionEndScreen] = useState(false);
 
   // Redirect non-admin users
   useEffect(() => {
@@ -111,12 +114,12 @@ export default function BadgeTestPage() {
     setIsAnimating(false);
   }, []);
 
-  const handleSetEndTest = useCallback(() => {
-    setShowSetEndScreen(true);
+  const handleSessionEndTest = useCallback(() => {
+    setShowSessionEndScreen(true);
   }, []);
 
   const handleBackToControls = useCallback(() => {
-    setShowSetEndScreen(false);
+    setShowSessionEndScreen(false);
     setIsAnimating(false);
     setCurrentBadge(null);
   }, []);
@@ -159,8 +162,8 @@ export default function BadgeTestPage() {
     user.name || user.username || "Admin",
   );
 
-  // If showing set end screen, render full-screen game view
-  if (showSetEndScreen) {
+  // If showing session end screen, render full-screen game view
+  if (showSessionEndScreen) {
     return (
       <GameBackground>
         <div className="relative z-10 min-h-screen p-4 md:p-8">
@@ -178,12 +181,12 @@ export default function BadgeTestPage() {
 
             {/* Main content + Sidebar */}
             <div className="grid grid-cols-1 md:grid-cols-[1fr_300px] gap-6">
-              <SetEndScreen
+              <SessionEndScreen
                 leaderboard={fakeLeaderboard}
                 currentPlayerId={user.userId}
                 earnedBadgeIds={selectedBadgeIds}
               />
-              <SetEndSidebar
+              <SessionEndSidebar
                 leaderboard={fakeLeaderboard}
                 currentPlayerId={user.userId}
               />
@@ -396,9 +399,9 @@ export default function BadgeTestPage() {
               size="lg"
               className="font-bold"
               isDisabled={selectedBadgeIds.length === 0}
-              onPress={handleSetEndTest}
+              onPress={handleSessionEndTest}
             >
-              Show Set End Screen
+              Show Session End Screen
             </Button>
           )}
         </div>

@@ -1,0 +1,342 @@
+[
+  {
+    "id": "4230da3c-ac4f-450d-9e59-3e766c9d488b",
+    "text": "Which musical instrument is known as the 'King of Instruments'?",
+    "options": [
+      "Piano",
+      "Organ",
+      "Violin",
+      "Trumpet"
+    ],
+    "correctIndex": 1,
+    "category": "entertainment",
+    "difficulty": "medium",
+    "explanation": "The organ is traditionally called the 'King of Instruments' due to its size, complexity, and powerful sound.",
+    "detailedExplanation": "The pipe organ has been dubbed the 'King of Instruments' since at least the 16th century, earning this title through its impressive size, mechanical complexity, and ability to produce a vast range of sounds and dynamics. With its multiple keyboards, pedals, and hundreds or thousands of pipes, the organ can single-handedly fill large cathedral spaces with music and simulate an entire orchestra.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Pipe_organ",
+    "citationTitle": "Wikipedia: Pipe Organ"
+  },
+  {
+    "id": "d41b0c37-b318-42c2-bc80-1b60703d38ff",
+    "text": "What is the standard number of strings on a classical guitar?",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "correctIndex": 1,
+    "category": "entertainment",
+    "difficulty": "medium",
+    "explanation": "A classical guitar has 6 strings, typically tuned E-A-D-G-B-E from lowest to highest.",
+    "detailedExplanation": "The modern classical guitar standardized with six strings during the 18th and 19th centuries. These strings are traditionally tuned to E2-A2-D3-G3-B3-E4 (from lowest to highest pitch). While variations exist such as 7-string, 8-string, and 12-string guitars, the 6-string configuration remains the standard for classical guitar repertoire and technique.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Classical_guitar",
+    "citationTitle": "Wikipedia: Classical Guitar"
+  },
+  {
+    "id": "27d52695-a24f-42c7-9bf6-ab6a1ca38058",
+    "text": "Which brass instrument uses a slide mechanism instead of valves to change pitch?",
+    "options": [
+      "Trumpet",
+      "French Horn",
+      "Tuba",
+      "Trombone"
+    ],
+    "correctIndex": 3,
+    "category": "entertainment",
+    "difficulty": "medium",
+    "explanation": "The trombone uses a slide to extend the length of tubing and change pitch, unlike other brass instruments that use valves.",
+    "detailedExplanation": "The trombone is unique among modern brass instruments for its telescoping slide mechanism. By moving the slide to seven different positions, players can alter the effective length of the instrument's tubing, thus changing the pitch. This gives the trombone the ability to play true glissandos and microtones that valve-operated brass instruments cannot easily achieve.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Trombone",
+    "citationTitle": "Wikipedia: Trombone"
+  },
+  {
+    "id": "804bce28-0473-476e-9481-3ce20244496c",
+    "text": "What type of instrument is a timpani?",
+    "options": [
+      "String",
+      "Woodwind",
+      "Brass",
+      "Percussion"
+    ],
+    "correctIndex": 3,
+    "category": "entertainment",
+    "difficulty": "medium",
+    "explanation": "Timpani are tunable kettle drums, making them percussion instruments.",
+    "detailedExplanation": "Timpani, also known as kettle drums, are large bowl-shaped drums that belong to the percussion family. Unlike many percussion instruments, timpani can be tuned to specific pitches using a foot pedal system that adjusts the tension of the drumhead. They are essential components of orchestras and are typically played in sets of 2-5 drums of different sizes.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Timpani",
+    "citationTitle": "Wikipedia: Timpani"
+  },
+  {
+    "id": "fffc57ab-e120-4bb8-bdfe-09d2f2fd6153",
+    "text": "Which woodwind instrument is known for having a double reed?",
+    "options": [
+      "Flute",
+      "Clarinet",
+      "Oboe",
+      "Saxophone"
+    ],
+    "correctIndex": 2,
+    "category": "entertainment",
+    "difficulty": "medium",
+    "explanation": "The oboe uses a double reed made of two pieces of cane bound together, unlike single-reed instruments.",
+    "detailedExplanation": "The oboe is characterized by its double reed, which consists of two thin pieces of cane tied together and inserted directly into the instrument. This differs from single-reed instruments like the clarinet and saxophone, which use one piece of cane attached to a mouthpiece, and from the flute, which uses no reed at all. The double reed gives the oboe its distinctive penetrating and somewhat nasal tone.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Oboe",
+    "citationTitle": "Wikipedia: Oboe"
+  },
+  {
+    "id": "2e37c01c-a2ee-412b-a8b1-e781aee94d65",
+    "text": "How many keys are there on a full-size piano keyboard?",
+    "options": [
+      "76",
+      "88",
+      "92",
+      "96"
+    ],
+    "correctIndex": 1,
+    "category": "entertainment",
+    "difficulty": "medium",
+    "explanation": "A standard full-size piano has 88 keys: 52 white keys and 36 black keys.",
+    "detailedExplanation": "The modern piano keyboard standardized at 88 keys during the late 19th century, covering a range from A0 to C8. This includes 52 white keys and 36 black keys, spanning over seven octaves. This range was established to accommodate the vast majority of piano literature while remaining practical for manufacturing and playing technique.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Piano",
+    "citationTitle": "Wikipedia: Piano"
+  },
+  {
+    "id": "f4b198cf-ece5-4268-8c94-64f33a5af5f8",
+    "text": "What is the lowest-pitched instrument in the string family of a symphony orchestra?",
+    "options": [
+      "Cello",
+      "Double Bass",
+      "Viola",
+      "Bass Guitar"
+    ],
+    "correctIndex": 1,
+    "category": "entertainment",
+    "difficulty": "medium",
+    "explanation": "The double bass (also called contrabass) is the lowest-pitched bowed string instrument in the orchestra.",
+    "detailedExplanation": "The double bass, also known as the contrabass, string bass, or upright bass, is the largest and lowest-pitched bowed string instrument commonly used in orchestras. Standing about 6 feet tall, it typically has four strings tuned E1-A1-D2-G2, sounding an octave lower than written. It provides the harmonic foundation for the orchestra's string section.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Double_bass",
+    "citationTitle": "Wikipedia: Double Bass"
+  },
+  {
+    "id": "f44e597c-869c-4657-8ef2-4348e2143676",
+    "text": "Which instrument family does the harmonica belong to?",
+    "options": [
+      "Brass",
+      "Percussion",
+      "Wind",
+      "String"
+    ],
+    "correctIndex": 2,
+    "category": "entertainment",
+    "difficulty": "medium",
+    "explanation": "The harmonica is a wind instrument that produces sound when air flows over metal reeds.",
+    "detailedExplanation": "The harmonica belongs to the wind instrument family, specifically classified as a free-reed wind instrument. Sound is produced when the player's breath causes metal reeds to vibrate freely within chambers. Unlike woodwind instruments that use enclosed reeds or brass instruments that use lip vibration, the harmonica's reeds vibrate independently, making it part of a special subcategory of wind instruments that includes accordions and harmoniums.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Harmonica",
+    "citationTitle": "Wikipedia: Harmonica"
+  },
+  {
+    "id": "4a01ad6a-ccee-4da8-b2d2-9a3c736a2f5f",
+    "text": "Which instrument is traditionally tuned to the notes G-D-A-E from lowest to highest string?",
+    "options": [
+      "Mandolin",
+      "Violin",
+      "Banjo",
+      "Ukulele"
+    ],
+    "correctIndex": 1,
+    "category": "entertainment",
+    "difficulty": "medium",
+    "explanation": "The violin is tuned G-D-A-E from lowest to highest string.",
+    "detailedExplanation": "The violin's four strings are tuned in perfect fifths, with the G string being the lowest pitch and the E string the highest. This tuning system has been standard for centuries and allows violinists to play across a wide range of keys. The same tuning is used by violas (but an octave lower), while other string instruments like mandolins use different tuning systems.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Violin",
+    "citationTitle": "Wikipedia: Violin"
+  },
+  {
+    "id": "5fdc2d49-7e88-4f1f-b077-c0ecdaee2fd7",
+    "text": "What is the name of the small wooden block that supports the strings on a guitar or violin?",
+    "options": [
+      "Sound post",
+      "Bridge",
+      "Tailpiece",
+      "Nut"
+    ],
+    "correctIndex": 1,
+    "category": "entertainment",
+    "difficulty": "medium",
+    "explanation": "The bridge is the wooden component that supports and spaces the strings above the instrument's body.",
+    "detailedExplanation": "The bridge is a crucial component of stringed instruments that elevates the strings above the soundboard and transmits the vibrations from the strings to the instrument's body. On guitars, it's typically a separate piece that can be adjusted for intonation, while on violins it's a carefully carved piece of maple that significantly affects the instrument's tone and projection.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Bridge_(instrument)",
+    "citationTitle": "Wikipedia: Bridge (instrument)"
+  },
+  {
+    "id": "b006a54e-8efe-4994-8eed-3910915e2d5f",
+    "text": "Which percussion instrument consists of wooden bars arranged like a piano keyboard and is played with mallets?",
+    "options": [
+      "Vibraphone",
+      "Marimba",
+      "Glockenspiel",
+      "Tubular bells"
+    ],
+    "correctIndex": 1,
+    "category": "entertainment",
+    "difficulty": "medium",
+    "explanation": "The marimba features wooden bars arranged chromatically and is played with mallets.",
+    "detailedExplanation": "The marimba is a percussion instrument that originated in Africa and was later developed in Central America. It consists of wooden bars (typically made from rosewood or padauk) arranged in keyboard fashion, with resonator tubes beneath each bar to amplify the sound. Players use soft mallets to strike the bars, producing warm, mellow tones that make it popular in orchestral, chamber, and solo repertoire.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Marimba",
+    "citationTitle": "Wikipedia: Marimba"
+  },
+  {
+    "id": "846a7288-b6c3-488e-bdb9-c1e2957a7b8a",
+    "text": "What is the curved metal tube called that musicians use to extend their reach on brass instruments?",
+    "options": [
+      "Leadpipe",
+      "Tuning slide",
+      "Crook",
+      "Bell flare"
+    ],
+    "correctIndex": 2,
+    "category": "entertainment",
+    "difficulty": "medium",
+    "explanation": "A crook is a curved metal tube used to change the length and pitch of brass instruments.",
+    "detailedExplanation": "Crooks are removable curved sections of tubing that were historically used on brass instruments like horns and trumpets to change the instrument's fundamental pitch. Before the invention of valves, musicians would insert different crooks to play in different keys. While modern brass instruments primarily use valves or slides, some instruments like natural horns still use crooks, and the term remains important in understanding brass instrument construction and history.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Crook_(music)",
+    "citationTitle": "Wikipedia: Crook (music)"
+  },
+  {
+    "id": "b17cad40-8d32-466d-98f3-bb24f0dad05c",
+    "text": "Which wind instrument family does the saxophone belong to, despite being made of brass?",
+    "options": [
+      "Brass",
+      "Woodwind",
+      "Reed",
+      "Aerophone"
+    ],
+    "correctIndex": 1,
+    "category": "entertainment",
+    "difficulty": "medium",
+    "explanation": "The saxophone is classified as a woodwind instrument because it uses a single reed mouthpiece.",
+    "detailedExplanation": "Despite being made of brass, the saxophone is classified as a woodwind instrument because sound is produced by a vibrating single reed attached to a mouthpiece, similar to clarinets. The material of construction doesn't determine the family classification - rather, it's the method of sound production that matters. Invented by Adolphe Sax in the 1840s, the saxophone combines the projection of brass instruments with the agility and reed-based sound production of woodwinds.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Saxophone",
+    "citationTitle": "Wikipedia: Saxophone"
+  },
+  {
+    "id": "39155eac-44c1-421e-9b7f-352b4765b2dd",
+    "text": "What is the traditional number of holes on a standard concert flute?",
+    "options": [
+      "13",
+      "16",
+      "19",
+      "22"
+    ],
+    "correctIndex": 1,
+    "category": "entertainment",
+    "difficulty": "medium",
+    "explanation": "A standard concert flute typically has 16 tone holes.",
+    "detailedExplanation": "Modern concert flutes generally feature 16 tone holes of varying sizes, which are covered by keys and pads operated by an intricate system of rods, springs, and levers. This key system, perfected by Theobald Boehm in the 19th century, allows flutists to play chromatically across the instrument's three-octave range while maintaining proper finger ergonomics. Some holes are covered directly by fingers, while others are operated by keys that enable the player to cover holes that would otherwise be unreachable.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Western_concert_flute",
+    "citationTitle": "Wikipedia: Western concert flute"
+  },
+  {
+    "id": "bc56922d-1873-4ccf-8dba-0bf9385ea329",
+    "text": "Which stringed instrument is played by turning a hand crank that rotates a rosin-coated wheel against the strings?",
+    "options": [
+      "Hurdy-gurdy",
+      "Dulcimer",
+      "Psaltery",
+      "Zither"
+    ],
+    "correctIndex": 0,
+    "category": "entertainment",
+    "difficulty": "medium",
+    "explanation": "The hurdy-gurdy uses a hand-cranked wheel coated with rosin to create sound by friction against the strings.",
+    "detailedExplanation": "The hurdy-gurdy is a unique stringed instrument that produces sound through a rosin-coated wheel turned by a hand crank, which acts like a circular violin bow. Keys pressed by the left hand change the pitch on melody strings, while drone strings provide a constant harmonic background. Popular in medieval and folk music, the instrument experienced a revival in the 20th century and is still used in traditional European folk music, particularly in France and Hungary.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Hurdy-gurdy",
+    "citationTitle": "Wikipedia: Hurdy-gurdy"
+  },
+  {
+    "id": "97518300-4a6e-401c-a517-8abacf6ed4ab",
+    "text": "What is the name of the metal device inserted into brass instruments to change their tone quality and volume?",
+    "options": [
+      "Damper",
+      "Mute",
+      "Stopper",
+      "Silencer"
+    ],
+    "correctIndex": 1,
+    "category": "entertainment",
+    "difficulty": "medium",
+    "explanation": "A mute is a device inserted into the bell of brass instruments to alter their sound.",
+    "detailedExplanation": "Mutes are accessories used in brass instruments to modify timbre, volume, and tonal characteristics. Different types include straight mutes, cup mutes, harmon mutes (wa-wa), and plunger mutes, each producing distinct sound effects. Made from materials like aluminum, fiber, or wood, mutes are inserted into or placed over the instrument's bell. They're extensively used in jazz, orchestral, and contemporary music to achieve specific sonic effects and are essential tools for brass players across all musical genres.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Mute_(music)",
+    "citationTitle": "Wikipedia: Mute (music)"
+  },
+  {
+    "id": "163fd667-ce42-4621-b741-8954df875613",
+    "text": "What is the minimum number of players required to perform a string quartet?",
+    "options": [
+      "3 players",
+      "4 players",
+      "5 players",
+      "6 players"
+    ],
+    "correctIndex": 1,
+    "category": "entertainment",
+    "difficulty": "medium",
+    "explanation": "A string quartet requires exactly 4 players: two violinists, one violist, and one cellist.",
+    "detailedExplanation": "A string quartet is a musical ensemble consisting of four string players – two violin players, one viola player and one cello player – or a musical composition written to be performed by such a group. The string quartet is one of the most prominent chamber ensembles in classical music, with most major composers from the mid to late 18th century onwards writing string quartets. The standard string quartet format was largely established by Joseph Haydn in the 1750s and has remained the foundation of chamber music repertoire.",
+    "citationUrl": "https://en.wikipedia.org/wiki/String_quartet",
+    "citationTitle": "Wikipedia: String quartet"
+  },
+  {
+    "id": "db0dd10e-75cb-46a4-a8f8-502cca9acb20",
+    "text": "Which instrument produces sound by vibrating metal strips or reeds when air is blown across them?",
+    "options": [
+      "Accordion",
+      "Harmonica",
+      "Kalimba",
+      "All of the above"
+    ],
+    "correctIndex": 3,
+    "category": "entertainment",
+    "difficulty": "medium",
+    "explanation": "All three instruments use vibrating metal reeds or strips to produce sound when air passes over them.",
+    "detailedExplanation": "Free reed instruments produce sound through the vibration of metal strips or reeds when air flows past them. The accordion uses metal reeds inside bellows-operated chambers, the harmonica has metal reeds in individual chambers that vibrate when air is blown or drawn through them, and the kalimba (thumb piano) uses metal tines that are plucked to vibrate and create sound. While the kalimba doesn't use air like the other two, it still relies on the same principle of vibrating metal strips, making it part of the broader family of instruments that use metal reeds for sound production.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Free_reed_aerophone",
+    "citationTitle": "Wikipedia: Free reed aerophone"
+  },
+  {
+    "id": "e01e36b2-ab3b-4413-a067-4eaf6904c0e9",
+    "text": "What is the term for the technique of playing multiple notes simultaneously on a violin by bowing across several strings at once?",
+    "options": [
+      "Tremolo",
+      "Double stopping",
+      "Pizzicato",
+      "Vibrato"
+    ],
+    "correctIndex": 1,
+    "category": "entertainment",
+    "difficulty": "medium",
+    "explanation": "Double stopping refers to playing two or more notes simultaneously on a violin by bowing across multiple strings.",
+    "detailedExplanation": "Double stopping is a violin technique where the player bows two strings simultaneously to produce two notes at the same time, creating harmony or intervals. The term can also extend to triple and quadruple stopping when three or four strings are played together. This technique requires precise finger placement and bow control, as the player must press down on multiple strings while maintaining proper intonation. It's commonly used in classical music to create fuller, more complex sounds from a single instrument, and composers like Bach frequently wrote double stops into their violin compositions.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Double_stop",
+    "citationTitle": "Wikipedia: Double stop"
+  },
+  {
+    "id": "d223558a-3e82-4264-bf07-15bd00ba373b",
+    "text": "Which ancient wind instrument is made from a ram's horn and is traditionally blown during Jewish religious ceremonies?",
+    "options": [
+      "Didgeridoo",
+      "Shofar",
+      "Conch shell",
+      "Alphorn"
+    ],
+    "correctIndex": 1,
+    "category": "entertainment",
+    "difficulty": "medium",
+    "explanation": "The shofar is a ram's horn trumpet used in Jewish religious practices, especially during Rosh Hashanah and Yom Kippur.",
+    "detailedExplanation": "The shofar is an ancient musical instrument made from the horn of a ram or other kosher animal, most commonly used in Jewish religious practices. It produces a distinctive, penetrating sound and is blown during important Jewish holidays, particularly Rosh Hashanah (New Year) and at the conclusion of Yom Kippur (Day of Atonement). The shofar has deep biblical significance, mentioned numerous times in Hebrew scriptures, and requires considerable skill to play properly as it has no holes or valves – all pitch changes must be achieved through embouchure and air pressure alone.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Shofar",
+    "citationTitle": "Wikipedia: Shofar"
+  }
+]

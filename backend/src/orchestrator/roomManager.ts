@@ -13,6 +13,9 @@ const rooms: Map<string, Room> = new Map();
 // Track reserved spots for disconnected players: roomId -> { playerId -> expiryTimestamp }
 const reservedSpots: Map<string, Map<string, number>> = new Map();
 
+// Track active players in each room to prevent double-counting: roomId -> Set<playerId>
+const roomPlayers: Map<string, Set<string>> = new Map();
+
 /**
  * Generate a quiz-themed room name like "Bright Scholars" or "Quick Minds"
  */
@@ -39,6 +42,7 @@ export function createRoom(difficulty: RoomDifficulty = 'medium'): Room {
 
   rooms.set(room.id, room);
   reservedSpots.set(room.id, new Map());
+  roomPlayers.set(room.id, new Set());
 
   console.log(`🏠 Created room: ${room.name} (${room.id})`);
   return room;
@@ -70,24 +74,39 @@ export function joinRoom(roomId: string, playerId: string): boolean {
     return false;
   }
 
+  // Get or create player set for this room
+  let players = roomPlayers.get(roomId);
+  if (!players) {
+    players = new Set();
+    roomPlayers.set(roomId, players);
+  }
+
+  // If player is already in this room, just return success (no double-counting)
+  if (players.has(playerId)) {
+    console.log(`👤 Player ${playerId} already in room ${room.name} (no-op)`);
+    return true;
+  }
+
   // Check if player has a reserved spot
   const roomReserved = reservedSpots.get(roomId);
   if (roomReserved?.has(playerId)) {
     // Player is rejoining with their reserved spot
     roomReserved.delete(playerId);
-    room.currentPlayers++;
-    console.log(`🔄 Player ${playerId} rejoined room ${room.name} (reserved spot)`);
+    players.add(playerId);
+    room.currentPlayers = players.size;
+    console.log(`🔄 Player ${playerId} rejoined room ${room.name} (reserved spot, ${room.currentPlayers}/${room.maxPlayers})`);
     return true;
   }
 
   // Check if room has space (counting reserved spots)
-  const effectivePlayers = room.currentPlayers + getReservedCount(roomId);
+  const effectivePlayers = players.size + getReservedCount(roomId);
   if (effectivePlayers >= room.maxPlayers) {
     console.log(`❌ Room ${room.name} is full (${effectivePlayers}/${room.maxPlayers})`);
     return false;
   }
 
-  room.currentPlayers++;
+  players.add(playerId);
+  room.currentPlayers = players.size;
   console.log(`👤 Player ${playerId} joined room ${room.name} (${room.currentPlayers}/${room.maxPlayers})`);
   return true;
 }
@@ -99,7 +118,14 @@ export function leaveRoom(roomId: string, playerId: string, reserve: boolean = f
   const room = rooms.get(roomId);
   if (!room) return;
 
-  room.currentPlayers = Math.max(0, room.currentPlayers - 1);
+  // Remove player from tracking set
+  const players = roomPlayers.get(roomId);
+  if (players) {
+    players.delete(playerId);
+    room.currentPlayers = players.size;
+  } else {
+    room.currentPlayers = Math.max(0, room.currentPlayers - 1);
+  }
 
   if (reserve && room.status === 'in_progress') {
     // Reserve spot until set ends (30 minutes from now max)
@@ -139,9 +165,10 @@ export function getRoomList(): RoomListItem[] {
       name: room.name,
       difficulty: room.difficulty,
       currentPlayers: room.currentPlayers,
-      queuedPlayers: 0, // Will be populated by orchestrator with actual queue data
       maxPlayers: room.maxPlayers,
       status: room.status,
+      inProgress: room.status === 'in_progress',
+      currentQuestion: null, // Will be populated by orchestrator with actual session data
     }))
     .sort((a, b) => {
       // Sort by difficulty order: easy, medium, hard
@@ -314,6 +341,56 @@ export function findAvailableRoom(): Room | null {
  */
 export function clearRoomReservations(roomId: string): void {
   reservedSpots.delete(roomId);
+}
+
+/**
+ * Reset a single room for a new period.
+ * Clears player count and resets status to 'waiting'.
+ */
+export function resetRoom(roomId: string): void {
+  const room = rooms.get(roomId);
+  if (!room) return;
+
+  const previousPlayers = room.currentPlayers;
+  room.currentPlayers = 0;
+  room.status = 'waiting';
+  room.setId = null;
+
+  // Clear player tracking for this room
+  roomPlayers.set(roomId, new Set());
+
+  // Clear reservations for this room
+  reservedSpots.set(roomId, new Map());
+
+  console.log(`🔄 Reset room ${room.name} (was ${previousPlayers} players)`);
+}
+
+/**
+ * Reset all waiting rooms (rooms not currently in a set).
+ * Rooms with in_progress status are skipped.
+ */
+export function resetWaitingRooms(): void {
+  console.log('\n🔄 Resetting waiting rooms...');
+
+  let resetCount = 0;
+  for (const room of rooms.values()) {
+    // Only reset rooms that are waiting or completed, not in_progress
+    if (room.status !== 'in_progress') {
+      room.currentPlayers = 0;
+      room.status = 'waiting';
+      room.setId = null;
+
+      // Clear player tracking
+      roomPlayers.set(room.id, new Set());
+
+      // Clear reservations
+      reservedSpots.set(room.id, new Map());
+
+      resetCount++;
+    }
+  }
+
+  console.log(`✅ Reset ${resetCount}/${rooms.size} rooms (skipped rooms with active sets)\n`);
 }
 
 /**

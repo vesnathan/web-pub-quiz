@@ -110,6 +110,27 @@ export const GET_GAME_STATE = /* GraphQL */ `
   }
 `;
 
+export const GET_ROOM_LIST = /* GraphQL */ `
+  query GetRoomList {
+    getRoomList {
+      rooms {
+        id
+        name
+        status
+        difficulty
+        currentPlayers
+        maxPlayers
+        inProgress
+        currentQuestion
+      }
+      lobbyPlayerCount
+      maintenanceMode
+      maintenanceMessage
+      updatedAt
+    }
+  }
+`;
+
 export const GET_ABLY_TOKEN = /* GraphQL */ `
   query GetAblyToken {
     getAblyToken {

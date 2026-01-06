@@ -1,0 +1,342 @@
+[
+  {
+    "id": "01e48680-57fd-4738-8151-966079407a8b",
+    "text": "Which early computer pioneer was convicted of gross indecency in 1952 and died from cyanide poisoning in 1954?",
+    "options": [
+      "John von Neumann",
+      "Alan Turing",
+      "Claude Shannon",
+      "Konrad Zuse"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Alan Turing was convicted of gross indecency for his homosexuality in 1952 and died from cyanide poisoning in 1954.",
+    "detailedExplanation": "Alan Turing, the brilliant mathematician and computer scientist who played a crucial role in breaking the Enigma code during World War II and laid the theoretical foundations for computer science, was prosecuted by the British government in 1952 for his homosexual relationship. He was convicted of 'gross indecency' and chose chemical castration over prison. Two years later, he was found dead from cyanide poisoning, officially ruled suicide, though some question this conclusion.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Alan_Turing",
+    "citationTitle": "Wikipedia: Alan Turing"
+  },
+  {
+    "id": "a3a53e47-5b92-4c98-b54d-134487cb374c",
+    "text": "What was the name of the first commercially successful personal computer released by the Commodore company in 1977?",
+    "options": [
+      "Commodore 64",
+      "Commodore VIC-20",
+      "Commodore PET",
+      "Commodore Amiga"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "The Commodore PET (Personal Electronic Transactor) was released in 1977 as one of the first complete personal computers.",
+    "detailedExplanation": "The Commodore PET, released in January 1977, was one of the 'trinity' of personal computers launched that year (alongside the Apple II and TRS-80). The PET featured an integrated design with built-in monitor, keyboard, and cassette tape drive, making it a complete computing solution. It was particularly popular in schools and helped establish Commodore as a major player in the personal computer market, leading to later successes like the VIC-20 and Commodore 64.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Commodore_PET",
+    "citationTitle": "Wikipedia: Commodore PET"
+  },
+  {
+    "id": "3ec42086-356a-4c83-8a14-b47d26ccb74e",
+    "text": "Which programming language, created by Niklaus Wirth in 1970, was named after a 17th-century French mathematician?",
+    "options": [
+      "FORTRAN",
+      "Pascal",
+      "COBOL",
+      "Ada"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Pascal was created by Niklaus Wirth in 1970 and named after French mathematician Blaise Pascal.",
+    "detailedExplanation": "The Pascal programming language was developed by Swiss computer scientist Niklaus Wirth between 1968-1970 and released in 1970. It was named in honor of the French mathematician, physicist, and philosopher Blaise Pascal (1623-1662), who invented one of the first mechanical calculators. Pascal was designed as a teaching language to encourage good programming practices and structured programming, and became widely used in computer science education during the 1970s and 1980s.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Pascal_(programming_language)",
+    "citationTitle": "Wikipedia: Pascal (programming language)"
+  },
+  {
+    "id": "f9906fc5-4d81-4beb-8e98-e26fa9c61ca1",
+    "text": "What was the original name of the company that Larry Ellison co-founded in 1977, which later became Oracle Corporation?",
+    "options": [
+      "Relational Database Inc.",
+      "Software Development Laboratories",
+      "System Programming Associates",
+      "Database Management Systems"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Oracle Corporation was originally founded as Software Development Laboratories (SDL) in 1977.",
+    "detailedExplanation": "Larry Ellison, along with Bob Miner and Ed Oates, founded Software Development Laboratories (SDL) in June 1977 with an initial investment of $2,000. The company was created to develop a commercial SQL-based relational database management system. In 1979, SDL was renamed Relational Software Inc., and then in 1982 it became Oracle Systems Corporation (later just Oracle Corporation), taking its name from their flagship database product, Oracle Database, which was itself named after a CIA project that Ellison had worked on.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Oracle_Corporation",
+    "citationTitle": "Wikipedia: Oracle Corporation"
+  },
+  {
+    "id": "d3803ac7-ace7-49ed-9aaf-1a700d4f8ec8",
+    "text": "Which early computer, completed in 1945, weighed 27 tons and contained over 17,000 vacuum tubes?",
+    "options": [
+      "UNIVAC I",
+      "ENIAC",
+      "EDVAC",
+      "Manchester Mark 1"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "ENIAC (Electronic Numerical Integrator and Computer) was completed in 1945, weighed 27 tons, and contained 17,468 vacuum tubes.",
+    "detailedExplanation": "ENIAC was one of the earliest general-purpose electronic digital computers, developed at the University of Pennsylvania by John Presper Eckert and John Mauchly. Completed in 1945, this massive machine occupied 1,800 square feet, weighed 27 tons, and contained 17,468 vacuum tubes, 7,200 crystal diodes, 1,500 relays, and hundreds of thousands of resistors and capacitors. Originally designed to calculate artillery firing tables for the U.S. Army, ENIAC could perform calculations thousands of times faster than manual computation, marking a revolutionary leap in computing technology.",
+    "citationUrl": "https://en.wikipedia.org/wiki/ENIAC",
+    "citationTitle": "Wikipedia: ENIAC"
+  },
+  {
+    "id": "9f34de79-b5d9-48ba-9736-1661f439e4cd",
+    "text": "Who invented the first computer mouse in 1964 while working at Stanford Research Institute?",
+    "options": [
+      "Douglas Engelbart",
+      "Ivan Sutherland",
+      "J.C.R. Licklider",
+      "Vannevar Bush"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Douglas Engelbart invented the computer mouse in 1964 while working at Stanford Research Institute.",
+    "detailedExplanation": "Douglas Engelbart invented the computer mouse in 1964 as part of his research into human-computer interaction at Stanford Research Institute (SRI). The device was originally called an 'X-Y position indicator for a display system' and consisted of a wooden shell with two metal wheels. Engelbart received a patent for the device in 1970. The mouse was part of his broader vision for augmenting human intellect through computer technology, which he famously demonstrated in what became known as 'The Mother of All Demos' in 1968.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Douglas_Engelbart",
+    "citationTitle": "Wikipedia: Douglas Engelbart"
+  },
+  {
+    "id": "49ec121b-0d4d-4e97-a55e-9ca9b246e773",
+    "text": "Which early programming pioneer created the first compiler in 1951 and coined the term 'debugging' after finding an actual moth in a computer?",
+    "options": [
+      "Ada Lovelace",
+      "Grace Hopper",
+      "Hedy Lamarr",
+      "Katherine Johnson"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Grace Hopper created the first compiler in 1951 and is credited with coining the term 'debugging' after finding a moth in a computer.",
+    "detailedExplanation": "Rear Admiral Grace Hopper was a pioneering computer programmer who made significant contributions to early computing. She developed the first compiler, called A-0, in 1951, which translated mathematical notation into machine code. While she didn't actually coin the term 'debugging' (it was used earlier), she popularized it after her team found an actual moth trapped in a Harvard Mark II computer relay in 1947, which they taped into their logbook with the note 'First actual case of bug being found.' Hopper later led the development of COBOL, one of the first high-level programming languages.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Grace_Hopper",
+    "citationTitle": "Wikipedia: Grace Hopper"
+  },
+  {
+    "id": "5f31d671-2215-4310-adcb-b9d6b5e21101",
+    "text": "What was the name of the first graphical web browser, created by Tim Berners-Lee in 1990?",
+    "options": [
+      "Mosaic",
+      "Netscape Navigator",
+      "WorldWideWeb",
+      "Internet Explorer"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "WorldWideWeb was the first web browser, created by Tim Berners-Lee in 1990.",
+    "detailedExplanation": "WorldWideWeb (later renamed Nexus to avoid confusion with the World Wide Web itself) was the first web browser, created by Tim Berners-Lee in 1990 while he was working at CERN. This groundbreaking software was both a browser and an editor, allowing users to not only view web pages but also create and edit them. It featured a graphical user interface and was written for the NeXT computer system. This browser was part of Berners-Lee's larger invention of the World Wide Web, which included HTML, HTTP, and URLs - the fundamental technologies that still power the web today.",
+    "citationUrl": "https://en.wikipedia.org/wiki/WorldWideWeb",
+    "citationTitle": "Wikipedia: WorldWideWeb"
+  },
+  {
+    "id": "69eed8e1-5d19-4a6e-9bb2-82e79911b651",
+    "text": "Which groundbreaking 1940s computer project at the University of Pennsylvania is often credited as the first general-purpose electronic digital computer?",
+    "options": [
+      "UNIVAC I",
+      "ENIAC",
+      "EDVAC",
+      "Mark I"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "ENIAC (Electronic Numerical Integrator and Computer) was completed in 1946 and is widely considered the first general-purpose electronic digital computer.",
+    "detailedExplanation": "ENIAC was developed at the University of Pennsylvania between 1943-1946 by J. Presper Eckert and John Mauchly. Unlike earlier computers that were designed for specific tasks, ENIAC could be reprogrammed to solve different computational problems, making it the first true general-purpose electronic digital computer. It occupied 1,800 square feet and consumed 150 kilowatts of power.",
+    "citationUrl": "https://en.wikipedia.org/wiki/ENIAC",
+    "citationTitle": "Wikipedia: ENIAC"
+  },
+  {
+    "id": "b0927fd1-8ed6-4e3f-bf9c-f35685785e6d",
+    "text": "What revolutionary concept did John von Neumann propose in his 1945 'First Draft of a Report on the EDVAC' that became fundamental to modern computer architecture?",
+    "options": [
+      "The integrated circuit",
+      "Stored program concept",
+      "Binary number system",
+      "Transistor logic"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Von Neumann proposed the stored program concept, where both data and program instructions are stored in the same memory.",
+    "detailedExplanation": "John von Neumann's stored program concept revolutionized computer design by proposing that both program instructions and data should be stored in the same memory space. This eliminated the need to physically rewire computers for different programs and allowed for true programmability. This architecture, known as von Neumann architecture, remains the foundation of virtually all modern computers today.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Von_Neumann_architecture",
+    "citationTitle": "Wikipedia: Von Neumann architecture"
+  },
+  {
+    "id": "7d1fdf0e-d082-4f9f-bce1-022de3fa70a6",
+    "text": "Which computer scientist and mathematician is credited with inventing the first high-level programming language compiler, the A-0 System, in 1951?",
+    "options": [
+      "Ada Lovelace",
+      "Grace Hopper",
+      "Katherine Johnson",
+      "Hedy Lamarr"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Grace Hopper developed the A-0 System in 1951, which was the first compiler that could translate symbolic mathematical code into machine language.",
+    "detailedExplanation": "Rear Admiral Grace Hopper created the A-0 System while working at the Eckert-Mauchly Computer Corporation. This groundbreaking compiler allowed programmers to write code using mathematical notation and English-like commands instead of machine code, making programming significantly more accessible. Hopper later went on to develop FLOW-MATIC and was instrumental in the development of COBOL.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Grace_Hopper",
+    "citationTitle": "Wikipedia: Grace Hopper"
+  },
+  {
+    "id": "5ac82919-6573-4254-9245-6186ef7f42f5",
+    "text": "What was the name of the first successful minicomputer, launched by Digital Equipment Corporation (DEC) in 1965?",
+    "options": [
+      "PDP-8",
+      "VAX-11",
+      "System/360",
+      "Alto"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "The PDP-8 was DEC's breakthrough minicomputer that made computing affordable for smaller organizations and launched the minicomputer revolution.",
+    "detailedExplanation": "The PDP-8, introduced in 1965 for $18,000, was revolutionary because it brought computing power to organizations that couldn't afford mainframe computers costing hundreds of thousands of dollars. It was the first commercially successful minicomputer and sold over 50,000 units. The PDP-8's success established DEC as a major computer manufacturer and democratized access to computing technology.",
+    "citationUrl": "https://en.wikipedia.org/wiki/PDP-8",
+    "citationTitle": "Wikipedia: PDP-8"
+  },
+  {
+    "id": "3820f828-f98c-435d-82b7-090abd11e3ba",
+    "text": "Which pioneering computer company, founded in 1968, created the revolutionary workstation that introduced the graphical user interface, Ethernet networking, and laser printing?",
+    "options": [
+      "Xerox",
+      "IBM",
+      "Intel",
+      "Fairchild"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Xerox's Palo Alto Research Center (PARC) developed the Alto workstation, which pioneered the GUI, Ethernet, and laser printing technologies.",
+    "detailedExplanation": "Xerox PARC, established in 1970, created the Alto computer in 1973, which was years ahead of its time. The Alto featured the first practical graphical user interface with windows, icons, and a mouse, invented Ethernet networking for connecting computers, and developed the first laser printer. These innovations heavily influenced later products like the Apple Lisa and Macintosh, though Xerox failed to commercialize most of these breakthrough technologies effectively.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Xerox_Alto",
+    "citationTitle": "Wikipedia: Xerox Alto"
+  },
+  {
+    "id": "6ec6eda6-4f72-4f4e-91b6-c0f470086b0b",
+    "text": "Who co-founded Intel Corporation in 1968 and is credited with formulating the famous law predicting the exponential growth of computing power?",
+    "options": [
+      "Robert Noyce",
+      "Andrew Grove",
+      "Gordon Moore",
+      "Andy Bechtolsheim"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Gordon Moore co-founded Intel and formulated Moore's Law, which predicted that the number of transistors on computer chips would double approximately every two years.",
+    "detailedExplanation": "Gordon Moore, along with Robert Noyce and Andrew Grove, founded Intel Corporation in 1968. In 1965, Moore observed that the number of transistors on computer chips was doubling every year (later revised to every two years), a prediction that became known as Moore's Law. This observation has served as a roadmap for the semiconductor industry for over five decades and has been a driving force behind the exponential growth in computing power.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Gordon_Moore",
+    "citationTitle": "Wikipedia: Gordon Moore"
+  },
+  {
+    "id": "890b188f-85ae-4a6d-bfc6-28bcf085d7fc",
+    "text": "Which computer architecture innovation, first implemented in the IBM System/360 series in 1964, allowed different models to run the same software?",
+    "options": [
+      "Microprocessor design",
+      "Compatible instruction set",
+      "Virtual memory",
+      "Cache memory"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "The IBM System/360 introduced the concept of a compatible instruction set architecture across different computer models, allowing software portability.",
+    "detailedExplanation": "The IBM System/360, announced in 1964, revolutionized the computer industry by introducing the first family of computers with a compatible instruction set architecture. This meant that software written for one System/360 model could run on any other model in the family, just at different speeds. This concept eliminated the need to rewrite software when upgrading to more powerful hardware and established the foundation for modern computer families and backward compatibility.",
+    "citationUrl": "https://en.wikipedia.org/wiki/IBM_System/360",
+    "citationTitle": "Wikipedia: IBM System/360"
+  },
+  {
+    "id": "88e5fe76-be99-4926-a0b5-cb60e9e40d1d",
+    "text": "What was the name of the first commercial microprocessor, developed by Intel and released in 1971?",
+    "options": [
+      "Intel 8008",
+      "Intel 4004",
+      "Motorola 6800",
+      "MOS 6502"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "The Intel 4004, released in November 1971, was the first commercially available microprocessor and launched the microcomputer revolution.",
+    "detailedExplanation": "The Intel 4004 was originally designed by Intel engineer Federico Faggin for a Japanese calculator company, Busicom. This 4-bit microprocessor contained 2,300 transistors and could perform 60,000 operations per second. While primitive by today's standards, the 4004 proved that a complete CPU could be implemented on a single chip, paving the way for personal computers and embedded systems that would transform technology in the following decades.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Intel_4004",
+    "citationTitle": "Wikipedia: Intel 4004"
+  },
+  {
+    "id": "d73e92db-7a02-493c-879b-c8bf267e2d97",
+    "text": "Which early computer programming language, developed at Dartmouth College in 1964, was specifically designed to be easy for beginners to learn and became widely used in early personal computers?",
+    "options": [
+      "FORTRAN",
+      "COBOL",
+      "BASIC",
+      "ALGOL"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "BASIC (Beginner's All-purpose Symbolic Instruction Code) was created at Dartmouth College in 1964 by John Kemeny and Thomas Kurtz.",
+    "detailedExplanation": "BASIC was revolutionary because it was designed specifically for students and beginners, unlike earlier programming languages that required extensive mathematical or technical background. Created by John Kemeny and Thomas Kurtz at Dartmouth College, BASIC became the foundation for programming on early personal computers and was included in systems like the Altair 8800 and Apple II, making programming accessible to a generation of hobbyists and students.",
+    "citationUrl": "https://en.wikipedia.org/wiki/BASIC",
+    "citationTitle": "Wikipedia: BASIC"
+  },
+  {
+    "id": "bbc842cc-f7a1-48a2-b662-e0368c11a0c7",
+    "text": "What was the name of the pioneering computer network project, funded by DARPA and first implemented in 1969, that became the foundation for the modern Internet?",
+    "options": [
+      "CYCLADES",
+      "ARPANET",
+      "NPL Network",
+      "SATNET"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "ARPANET was the first operational packet switching network and the predecessor of the global Internet, connecting its first four nodes in 1969.",
+    "detailedExplanation": "ARPANET (Advanced Research Projects Agency Network) was commissioned by the U.S. Department of Defense and implemented by BBN Technologies. On October 29, 1969, the first ARPANET message was sent between UCLA and Stanford Research Institute. The network initially connected four universities and pioneered packet switching technology, TCP/IP protocols, and email systems that would eventually evolve into the global Internet we know today.",
+    "citationUrl": "https://en.wikipedia.org/wiki/ARPANET",
+    "citationTitle": "Wikipedia: ARPANET"
+  },
+  {
+    "id": "170c9b28-6062-49d4-90b7-64021a0755f4",
+    "text": "Which computer scientist, often called the 'Father of Artificial Intelligence,' organized the famous 1956 Dartmouth Conference that coined the term 'artificial intelligence'?",
+    "options": [
+      "Marvin Minsky",
+      "Claude Shannon",
+      "John McCarthy",
+      "Herbert Simon"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "John McCarthy organized the 1956 Dartmouth Conference, coined the term 'artificial intelligence,' and made fundamental contributions to AI and computer science.",
+    "detailedExplanation": "John McCarthy was a pivotal figure in computer science who not only organized the landmark 1956 Dartmouth Summer Research Project on Artificial Intelligence but also invented the LISP programming language in 1958, which became crucial for AI research. He developed the concept of time-sharing in computer systems and made significant contributions to mathematical logic and AI theory. The Dartmouth Conference is widely considered the founding event of AI as a formal academic discipline.",
+    "citationUrl": "https://en.wikipedia.org/wiki/John_McCarthy_(computer_scientist)",
+    "citationTitle": "Wikipedia: John McCarthy (computer scientist)"
+  },
+  {
+    "id": "cc5df345-6ef9-41ad-8950-54f60db2ebcc",
+    "text": "Which early electronic calculator company, founded by William Hewlett and David Packard in a garage in 1939, produced the HP-35 in 1972 as the world's first handheld scientific calculator?",
+    "options": [
+      "Texas Instruments",
+      "Hewlett-Packard",
+      "Casio",
+      "Sharp"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Hewlett-Packard (HP) was founded in 1939 and created the revolutionary HP-35 scientific calculator in 1972, which replaced slide rules for engineers and scientists.",
+    "detailedExplanation": "Founded by Bill Hewlett and Dave Packard in a Palo Alto garage, HP became synonymous with precision electronic instruments. The HP-35, released in 1972 for $395, was groundbreaking because it could perform complex scientific calculations including trigonometric and logarithmic functions in a portable device. It effectively made slide rules obsolete and established HP as a leader in calculator technology. The company's garage is now recognized as the birthplace of Silicon Valley.",
+    "citationUrl": "https://en.wikipedia.org/wiki/HP-35",
+    "citationTitle": "Wikipedia: HP-35"
+  }
+]

@@ -7,16 +7,15 @@ import type {
   LeaderboardEntry,
   AwardBadge,
 } from "@quiz/shared";
-import { SET_DURATION_MINUTES } from "@quiz/shared";
 
-// Game phases
+// Game phases (no "answering" phase - players answer during "question")
 export type GamePhase =
   | "waiting"
   | "countdown"
   | "question"
-  | "answering"
   | "results"
-  | "set_end";
+  | "set_end"
+  | "leaving";
 
 interface GameStore {
   // Player state
@@ -41,6 +40,12 @@ interface GameStore {
   gamePhase: GamePhase;
   setGamePhase: (phase: GamePhase) => void;
 
+  // Countdown state (3... 2... 1... GO!)
+  countdownNumber: number | null;
+  countdownMessage: string | null;
+  setCountdown: (count: number, message: string) => void;
+  clearCountdown: () => void;
+
   // Current question
   currentQuestion: Omit<Question, "correctIndex"> | null;
   questionIndex: number;
@@ -56,17 +61,20 @@ interface GameStore {
     answerTimeout?: number,
   ) => void;
 
-  // Buzzer state
-  buzzerEnabled: boolean;
-  buzzerWinner: string | null;
-  buzzerWinnerName: string | null;
-  answerDeadline: number | null;
-  setBuzzerState: (
-    enabled: boolean,
-    winner: string | null,
-    winnerName: string | null,
-    deadline: number | null,
-  ) => void;
+  // Multi-guess state
+  wrongGuesses: number[]; // Indices of wrong answers this question
+  guessCount: number; // Number of guesses made
+  lastPenalty: number | null; // For animation (negative)
+  lastPoints: number | null; // For animation (positive - correct answer)
+  questionWinner: string | null; // Who won this question
+  questionWinnerName: string | null;
+  gotCorrectButSlow: boolean; // Player got correct but wasn't first
+  fasterWinnerName: string | null; // Name of player who was faster
+  addWrongGuess: (answerIndex: number, penalty: number) => void;
+  setQuestionWinner: (winnerId: string, winnerName: string) => void;
+  setCorrectButSlow: (winnerName: string) => void;
+  setLastPoints: (points: number) => void;
+  resetQuestionState: () => void;
 
   // Answer state
   selectedAnswer: number | null;
@@ -125,9 +133,11 @@ interface GameStore {
   pendingBadgeAward: AwardBadge | null; // badge currently animating
   earnedBadgesThisSet: string[]; // badge IDs earned during current set
   earnedBadgesThisQuestion: string[]; // badge IDs earned during current question (for revolver)
+  animatedBadgeIds: string[]; // badge IDs that have already been animated (to avoid re-animating)
   setPendingBadgeAward: (badge: AwardBadge | null) => void;
   addEarnedBadge: (badgeId: string) => void;
   setEarnedBadgesThisQuestion: (badgeIds: string[]) => void;
+  markBadgesAsAnimated: (badgeIds: string[]) => void;
   clearEarnedBadges: () => void;
 
   // Completed questions for research/review
@@ -151,31 +161,6 @@ export interface CompletedQuestion {
   citationTitle?: string;
   userAnswered: boolean;
   userCorrect: boolean | null;
-}
-
-function calculateNextSetTime(): number {
-  const now = new Date();
-  const currentMinutes = now.getMinutes();
-
-  // Sets run every 30 minutes (at :00 and :30)
-  // Each set runs for ~20 minutes (20 questions), then break until next half hour
-  const nextSet = new Date(now);
-  if (currentMinutes < 30) {
-    // Next set starts at :30
-    nextSet.setMinutes(30, 0, 0);
-  } else {
-    // Next set starts at :00 of next hour
-    nextSet.setHours(nextSet.getHours() + 1, 0, 0, 0);
-  }
-  return nextSet.getTime();
-}
-
-function isCurrentlyInSet(): boolean {
-  const now = new Date();
-  const minutes = now.getMinutes();
-  // Sets are active in the first ~20 minutes of each half hour
-  // (0-19 and 30-49, though sets may end earlier if all questions done)
-  return (minutes >= 0 && minutes < 20) || (minutes >= 30 && minutes < 50);
 }
 
 export const useGameStore = create<GameStore>()(
@@ -205,6 +190,14 @@ export const useGameStore = create<GameStore>()(
       gamePhase: "waiting" as GamePhase,
       setGamePhase: (gamePhase) => set({ gamePhase }),
 
+      // Countdown state
+      countdownNumber: null,
+      countdownMessage: null,
+      setCountdown: (countdownNumber, countdownMessage) =>
+        set({ countdownNumber, countdownMessage, gamePhase: "countdown" }),
+      clearCountdown: () =>
+        set({ countdownNumber: null, countdownMessage: null }),
+
       // Current question
       currentQuestion: null,
       questionIndex: 0,
@@ -228,18 +221,40 @@ export const useGameStore = create<GameStore>()(
           questionStartTime: currentQuestion ? Date.now() : null,
         }),
 
-      // Buzzer state
-      buzzerEnabled: false,
-      buzzerWinner: null,
-      buzzerWinnerName: null,
-      answerDeadline: null,
-      setBuzzerState: (
-        buzzerEnabled,
-        buzzerWinner,
-        buzzerWinnerName,
-        answerDeadline,
-      ) =>
-        set({ buzzerEnabled, buzzerWinner, buzzerWinnerName, answerDeadline }),
+      // Multi-guess state
+      wrongGuesses: [],
+      guessCount: 0,
+      lastPenalty: null,
+      lastPoints: null,
+      questionWinner: null,
+      questionWinnerName: null,
+      gotCorrectButSlow: false,
+      fasterWinnerName: null,
+      addWrongGuess: (answerIndex, penalty) =>
+        set((state) => ({
+          wrongGuesses: [...state.wrongGuesses, answerIndex],
+          guessCount: state.guessCount + 1,
+          lastPenalty: penalty,
+        })),
+      setQuestionWinner: (questionWinner, questionWinnerName) =>
+        set({ questionWinner, questionWinnerName }),
+      setCorrectButSlow: (fasterWinnerName) =>
+        set({ gotCorrectButSlow: true, fasterWinnerName }),
+      setLastPoints: (lastPoints) => set({ lastPoints }),
+      resetQuestionState: () =>
+        set({
+          wrongGuesses: [],
+          guessCount: 0,
+          lastPenalty: null,
+          lastPoints: null,
+          questionWinner: null,
+          questionWinnerName: null,
+          gotCorrectButSlow: false,
+          fasterWinnerName: null,
+          selectedAnswer: null,
+          revealedAnswer: null,
+          isCorrect: null,
+        }),
 
       // Answer state
       selectedAnswer: null,
@@ -279,21 +294,16 @@ export const useGameStore = create<GameStore>()(
       scores: {},
       updateScores: (scores) => set({ scores }),
 
-      // Set timing
-      isSetActive: isCurrentlyInSet(),
-      nextSetTime: calculateNextSetTime(),
-      setActiveTime: isCurrentlyInSet() ? Date.now() : null,
-      updateSetTiming: () =>
-        set({
-          isSetActive: isCurrentlyInSet(),
-          nextSetTime: calculateNextSetTime(),
-          setActiveTime: isCurrentlyInSet() ? Date.now() : null,
-        }),
-      setSetActive: (active) =>
-        set({
-          isSetActive: active,
-          setActiveTime: active ? Date.now() : null,
-        }),
+      // Game timing (continuous play - always active)
+      isSetActive: true,
+      nextSetTime: 0,
+      setActiveTime: null,
+      updateSetTiming: () => {
+        // No-op for continuous play
+      },
+      setSetActive: () => {
+        // No-op for continuous play
+      },
 
       // Leaderboards
       setLeaderboard: [],
@@ -326,6 +336,7 @@ export const useGameStore = create<GameStore>()(
       pendingBadgeAward: null,
       earnedBadgesThisSet: [],
       earnedBadgesThisQuestion: [],
+      animatedBadgeIds: [],
       setPendingBadgeAward: (pendingBadgeAward) => set({ pendingBadgeAward }),
       addEarnedBadge: (badgeId) =>
         set((state) => ({
@@ -333,10 +344,15 @@ export const useGameStore = create<GameStore>()(
         })),
       setEarnedBadgesThisQuestion: (earnedBadgesThisQuestion) =>
         set({ earnedBadgesThisQuestion }),
+      markBadgesAsAnimated: (badgeIds) =>
+        set((state) => ({
+          animatedBadgeIds: [...state.animatedBadgeIds, ...badgeIds],
+        })),
       clearEarnedBadges: () =>
         set({
           earnedBadgesThisSet: [],
           earnedBadgesThisQuestion: [],
+          animatedBadgeIds: [],
           pendingBadgeAward: null,
         }),
 
@@ -359,10 +375,15 @@ export const useGameStore = create<GameStore>()(
           questionDuration: 5000,
           answerTimeout: 4000,
           questionStartTime: null,
-          buzzerEnabled: false,
-          buzzerWinner: null,
-          buzzerWinnerName: null,
-          answerDeadline: null,
+          // Multi-guess state
+          wrongGuesses: [],
+          guessCount: 0,
+          lastPenalty: null,
+          lastPoints: null,
+          questionWinner: null,
+          questionWinnerName: null,
+          gotCorrectButSlow: false,
+          fasterWinnerName: null,
           selectedAnswer: null,
           revealedAnswer: null,
           isCorrect: null,
@@ -377,6 +398,7 @@ export const useGameStore = create<GameStore>()(
           pendingBadgeAward: null,
           earnedBadgesThisSet: [],
           earnedBadgesThisQuestion: [],
+          animatedBadgeIds: [],
           completedQuestions: [],
           sessionKicked: false,
           sessionKickedReason: null,

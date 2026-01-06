@@ -321,5 +321,22 @@
     "detailedExplanation": "The oceans cover about 361 million square kilometers of Earth's surface, which equals roughly 71% of the planet's total surface area. This vast body of water is divided into five major oceans: the Pacific, Atlantic, Indian, Southern, and Arctic oceans. The Pacific Ocean alone covers about one-third of Earth's surface, making it larger than all the land masses combined.",
     "citationUrl": "https://en.wikipedia.org/wiki/Ocean",
     "citationTitle": "Wikipedia: Ocean"
+  },
+  {
+    "id": "07eeeff3-55d2-44e4-9aad-818bef736e4c",
+    "text": "What is the largest mammal in the ocean?",
+    "options": [
+      "Great White Shark",
+      "Blue Whale",
+      "Sperm Whale",
+      "Orca"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "The blue whale is the largest mammal in the ocean and the largest animal ever known to have lived on Earth.",
+    "detailedExplanation": "Blue whales are truly magnificent creatures, reaching lengths of up to 100 feet (30 meters) and weighing as much as 200 tons. They are not only the largest mammals in the ocean but also the largest animals ever known to have existed on Earth, even larger than the biggest dinosaurs. These gentle giants feed primarily on tiny shrimp-like creatures called krill, consuming up to 4 tons of krill per day during feeding season. Despite their massive size, blue whales were nearly driven to extinction by commercial whaling in the early 20th century, though their populations are slowly recovering under protection.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Blue_whale",
+    "citationTitle": "Wikipedia: Blue whale"
   }
 ]

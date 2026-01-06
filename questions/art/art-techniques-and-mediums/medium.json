@@ -1,0 +1,342 @@
+[
+  {
+    "id": "3d474df9-ebb2-4420-8f30-3da2524c1731",
+    "text": "What painting technique involves applying wet paint onto wet paint, allowing colors to blend directly on the canvas?",
+    "options": [
+      "Alla prima",
+      "Glazing",
+      "Scumbling",
+      "Impasto"
+    ],
+    "correctIndex": 0,
+    "category": "arts",
+    "difficulty": "medium",
+    "explanation": "Alla prima is a painting technique where wet paint is applied to wet paint on the canvas.",
+    "detailedExplanation": "Alla prima, also known as 'wet-on-wet' painting, is a technique where an artist completes a painting while the paint is still wet, typically in one session. This allows for spontaneous blending of colors directly on the canvas and creates soft transitions between hues. The technique was popularized by Impressionist painters like Monet and Renoir, who valued its immediacy and ability to capture fleeting light effects.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Alla_prima",
+    "citationTitle": "Wikipedia: Alla prima"
+  },
+  {
+    "id": "5f1fe683-eeda-4f17-a8bf-c879af63af4c",
+    "text": "Which printmaking technique uses a flat stone or metal plate where the image area attracts ink and the non-image area repels it?",
+    "options": [
+      "Etching",
+      "Lithography",
+      "Woodcut",
+      "Screen printing"
+    ],
+    "correctIndex": 1,
+    "category": "arts",
+    "difficulty": "medium",
+    "explanation": "Lithography is based on the principle that oil and water don't mix, using a flat surface where greasy areas attract ink.",
+    "detailedExplanation": "Lithography, invented in 1796 by Alois Senefelder, is a planographic printing process based on the chemical repulsion between oil and water. The artist draws on a flat limestone or metal plate with a greasy medium, then treats the plate with chemicals so that ink adheres only to the drawn areas while water applied to the plate is repelled by the greasy image areas but accepted by the blank areas. This allows for multiple identical prints to be made.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Lithography",
+    "citationTitle": "Wikipedia: Lithography"
+  },
+  {
+    "id": "f09987b7-9ef8-407f-9f31-2ac312fdc275",
+    "text": "What is the traditional binding agent used in tempera paint?",
+    "options": [
+      "Linseed oil",
+      "Egg yolk",
+      "Acrylic polymer",
+      "Tree sap"
+    ],
+    "correctIndex": 1,
+    "category": "arts",
+    "difficulty": "medium",
+    "explanation": "Egg tempera uses egg yolk as the binding agent to hold pigments together.",
+    "detailedExplanation": "Egg tempera is one of the oldest painting mediums, dating back to ancient Egypt and widely used during the Renaissance. The egg yolk acts as an emulsion that binds powdered pigments together, creating a fast-drying, durable paint with vibrant colors. Artists like Botticelli and Leonardo da Vinci used egg tempera for many of their masterpieces. The medium dries quickly and allows for precise detail work, but requires skill to blend colors smoothly.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Tempera",
+    "citationTitle": "Wikipedia: Tempera"
+  },
+  {
+    "id": "ab050ab2-ddc3-4b22-bffa-f41979d80606",
+    "text": "Which sculpting technique involves removing material from a solid block to create the final form?",
+    "options": [
+      "Casting",
+      "Modeling",
+      "Subtractive sculpture",
+      "Assemblage"
+    ],
+    "correctIndex": 2,
+    "category": "arts",
+    "difficulty": "medium",
+    "explanation": "Subtractive sculpture involves carving away material from a solid block to reveal the desired form.",
+    "detailedExplanation": "Subtractive sculpture is the process of removing material from a larger mass to create the desired form, typically through carving, chiseling, or cutting. This technique is commonly used with materials like stone, wood, and ice. Michelangelo's marble sculptures are classic examples of subtractive technique. The process requires careful planning as removed material cannot be easily replaced, and the artist must envision the final form within the original block.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Sculpture",
+    "citationTitle": "Wikipedia: Sculpture"
+  },
+  {
+    "id": "a728b5a1-88d5-418a-96e4-8a21d527d11c",
+    "text": "What drawing medium consists of compressed charcoal mixed with a binder and formed into sticks?",
+    "options": [
+      "Graphite",
+      "Charcoal pencil",
+      "Conté crayon",
+      "Pastel"
+    ],
+    "correctIndex": 2,
+    "category": "arts",
+    "difficulty": "medium",
+    "explanation": "Conté crayons are made from compressed charcoal or graphite mixed with clay and a binder.",
+    "detailedExplanation": "Conté crayons were invented in 1795 by Nicolas-Jacques Conté and are made from a mixture of graphite or charcoal, clay, and a binding agent, then formed into square sticks. They come in various hardnesses and colors, including sanguine (red-brown), sepia (brown), bistre (yellowish-brown), and white. These drawing tools allow for both fine detail work and broad tonal areas, making them popular for figure drawing and portraiture among artists like Picasso and Degas.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Cont%C3%A9",
+    "citationTitle": "Wikipedia: Conté"
+  },
+  {
+    "id": "f6ef2edc-365f-46dd-9a87-6faf7e7980a0",
+    "text": "In which painting technique are thin, translucent layers of paint applied over a dried underlayer?",
+    "options": [
+      "Impasto",
+      "Glazing",
+      "Alla prima",
+      "Dry brush"
+    ],
+    "correctIndex": 1,
+    "category": "arts",
+    "difficulty": "medium",
+    "explanation": "Glazing involves applying thin, transparent layers of paint over dried paint to modify color and create depth.",
+    "detailedExplanation": "Glazing is a painting technique where thin, translucent layers of paint are applied over completely dry underlayers. Each glaze modifies the color beneath it, creating rich, luminous effects and subtle color variations. This technique was extensively used by Old Masters like Vermeer and Rembrandt to achieve their characteristic depth and glow. Glazing requires patience as each layer must dry completely before the next is applied, but it allows for precise color control and atmospheric effects.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Glaze_(painting_technique)",
+    "citationTitle": "Wikipedia: Glaze (painting technique)"
+  },
+  {
+    "id": "a23beaee-3147-4192-a27b-56bffa64c4da",
+    "text": "What type of paper is specifically made from cotton fibers and is considered archival quality for fine art?",
+    "options": [
+      "Newsprint",
+      "Rag paper",
+      "Wood pulp paper",
+      "Rice paper"
+    ],
+    "correctIndex": 1,
+    "category": "arts",
+    "difficulty": "medium",
+    "explanation": "Rag paper is made from cotton fibers and is acid-free, making it archival quality for artwork.",
+    "detailedExplanation": "Rag paper, also known as cotton paper, is made from cotton fibers rather than wood pulp, making it naturally acid-free and highly durable. This type of paper has been used for centuries for important documents and fine art because it doesn't yellow or deteriorate over time like wood-based papers. The cotton fibers create a strong, stable surface that can withstand various art mediums including watercolor, printmaking, and drawing. Many museum-quality artworks are created on rag paper to ensure longevity.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Rag_paper",
+    "citationTitle": "Wikipedia: Rag paper"
+  },
+  {
+    "id": "9e48dad3-ec9f-405d-90f8-5f1f7ecf9c64",
+    "text": "Which ceramic firing technique involves removing pottery from the kiln while hot and placing it in combustible materials?",
+    "options": [
+      "Bisque firing",
+      "Glaze firing",
+      "Raku firing",
+      "Salt firing"
+    ],
+    "correctIndex": 2,
+    "category": "arts",
+    "difficulty": "medium",
+    "explanation": "Raku firing involves removing hot pottery from the kiln and placing it in combustible materials for unique effects.",
+    "detailedExplanation": "Raku firing is a Japanese ceramic technique that involves removing pottery from the kiln while it's still glowing hot (around 1000°C) and placing it immediately into combustible materials like sawdust, newspaper, or leaves. This rapid cooling and reduction atmosphere creates unique, unpredictable effects including metallic lusters, crackling, and dramatic color variations. The technique emphasizes the beauty of imperfection and chance, aligning with Japanese aesthetic principles. Modern Western raku often produces distinctive copper and silver metallic finishes.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Raku_ware",
+    "citationTitle": "Wikipedia: Raku ware"
+  },
+  {
+    "id": "784c9809-2515-47a7-839d-0cadea48ee69",
+    "text": "What painting technique involves applying thick layers of paint so that brush strokes or palette knife marks are clearly visible?",
+    "options": [
+      "Impasto",
+      "Scumbling",
+      "Sgraffito",
+      "Grisaille"
+    ],
+    "correctIndex": 0,
+    "category": "arts",
+    "difficulty": "medium",
+    "explanation": "Impasto is a technique where paint is applied thickly, creating texture and visible brush or knife marks.",
+    "detailedExplanation": "Impasto is a painting technique where paint is laid on an area of the surface thickly, usually thick enough that the brush or palette knife strokes are visible. The technique is famously associated with artists like Vincent van Gogh and Rembrandt, who used it to create dramatic textures and three-dimensional effects. The thick application of paint can catch light differently across the surface, adding depth and movement to the artwork.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Impasto",
+    "citationTitle": "Wikipedia: Impasto"
+  },
+  {
+    "id": "48731d50-37de-49a7-8ebc-a109ec01e75e",
+    "text": "Which engraving technique involves incising lines into a metal plate using a sharp, V-shaped tool called a burin?",
+    "options": [
+      "Etching",
+      "Line engraving",
+      "Mezzotint",
+      "Aquatint"
+    ],
+    "correctIndex": 1,
+    "category": "arts",
+    "difficulty": "medium",
+    "explanation": "Line engraving uses a burin to cut precise lines directly into a metal plate, typically copper.",
+    "detailedExplanation": "Line engraving is a printmaking technique where an artist uses a burin (a sharp, V-shaped cutting tool) to incise lines directly into a metal plate, usually copper. The deeper and closer together the lines are cut, the darker the printed tone will be. This technique requires great skill and precision, as mistakes are difficult to correct. It was widely used for book illustrations and reproductions of paintings from the 15th to 19th centuries.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Engraving",
+    "citationTitle": "Wikipedia: Engraving"
+  },
+  {
+    "id": "506a104f-9d49-42ec-a35d-6421d86ea33a",
+    "text": "What is the name of the wax-resist dyeing technique commonly used on fabric where wax is applied before dyeing?",
+    "options": [
+      "Shibori",
+      "Batik",
+      "Ikat",
+      "Tie-dye"
+    ],
+    "correctIndex": 1,
+    "category": "arts",
+    "difficulty": "medium",
+    "explanation": "Batik is a wax-resist dyeing technique where wax is applied to fabric before dyeing to create patterns.",
+    "detailedExplanation": "Batik is an ancient art form that uses wax as a resist agent in the dyeing process. Hot wax is applied to fabric using tools like tjanting or brushes, then the fabric is dyed. The wax prevents the dye from penetrating those areas, creating intricate patterns. The process can be repeated multiple times with different colors. Batik originated in Indonesia and is now practiced worldwide, recognized by UNESCO as a Masterpiece of Oral and Intangible Heritage of Humanity.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Batik",
+    "citationTitle": "Wikipedia: Batik"
+  },
+  {
+    "id": "7a56be53-f594-4ac9-94f6-7c8f6cd4f3a0",
+    "text": "Which sculpting medium is created by mixing plaster of Paris with fiber materials like burlap or canvas?",
+    "options": [
+      "Papier-mâché",
+      "Plaster bandage",
+      "Modeling paste",
+      "Pulp casting"
+    ],
+    "correctIndex": 1,
+    "category": "arts",
+    "difficulty": "medium",
+    "explanation": "Plaster bandage combines plaster of Paris with fabric materials, commonly used in medical casts and sculpture.",
+    "detailedExplanation": "Plaster bandage, also known as plaster cloth, consists of loosely woven fabric (usually gauze, burlap, or canvas) that has been impregnated with plaster of Paris. When wetted, the plaster activates and hardens as it dries. This medium is popular among sculptors because it's easy to work with, relatively inexpensive, and allows for both additive and subtractive techniques. It's also the same material used for medical casts, making it familiar to many people.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Plaster_bandage",
+    "citationTitle": "Wikipedia: Plaster bandage"
+  },
+  {
+    "id": "43a3e318-a568-41de-9cb3-3537536f5152",
+    "text": "What is the term for a painting executed entirely in shades of brown, often used for underpainting?",
+    "options": [
+      "Grisaille",
+      "Brunaille",
+      "Camaieu",
+      "Monochrome"
+    ],
+    "correctIndex": 1,
+    "category": "arts",
+    "difficulty": "medium",
+    "explanation": "Brunaille refers to a painting done entirely in brown tones, similar to grisaille but specifically brown.",
+    "detailedExplanation": "Brunaille is a painting technique where the artwork is executed entirely in shades of brown, from light tans to deep siennas and umbers. This technique is similar to grisaille (which uses grays) but specifically employs brown tones. Brunaille was often used for underpainting in oil painting, providing a warm foundation for subsequent color layers. It was also used as a finished technique in its own right, particularly during the Renaissance and Baroque periods.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Grisaille",
+    "citationTitle": "Wikipedia: Grisaille"
+  },
+  {
+    "id": "b64ddbbc-e6e4-46e8-a65c-656a30726b3b",
+    "text": "Which drawing tool consists of a thin rod of graphite or other material encased in wood?",
+    "options": [
+      "Graphite stick",
+      "Mechanical pencil",
+      "Traditional pencil",
+      "Lead holder"
+    ],
+    "correctIndex": 2,
+    "category": "arts",
+    "difficulty": "medium",
+    "explanation": "A traditional pencil consists of a graphite core encased in wood, typically cedar.",
+    "detailedExplanation": "The traditional pencil, also known as a wooden pencil, consists of a thin rod of graphite (or other marking material) that is encased in wood, usually cedar. The graphite core is manufactured by mixing graphite powder with clay and other binders, then forming it into thin rods. The wooden casing protects the fragile graphite core and provides a comfortable grip for the user. Pencils are graded by hardness, from 9H (hardest) to 9B (softest), with HB being the middle grade.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Pencil",
+    "citationTitle": "Wikipedia: Pencil"
+  },
+  {
+    "id": "456e9c0f-bfa4-48a8-93aa-ba8cdc84a293",
+    "text": "What is the painting medium that uses pigments suspended in acrylic polymer emulsion?",
+    "options": [
+      "Tempera",
+      "Gouache",
+      "Acrylic paint",
+      "Casein paint"
+    ],
+    "correctIndex": 2,
+    "category": "arts",
+    "difficulty": "medium",
+    "explanation": "Acrylic paint uses pigments suspended in an acrylic polymer emulsion as its binding medium.",
+    "detailedExplanation": "Acrylic paint is a fast-drying paint made of pigment suspended in acrylic polymer emulsion. Developed in the 1950s, acrylic paints are water-soluble when wet but become water-resistant when dry. They can be diluted with water or acrylic mediums and are known for their versatility, durability, and vibrant colors. Acrylic paint can mimic both watercolor and oil paint techniques depending on how it's used, making it popular among artists for its flexibility and ease of use.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Acrylic_paint",
+    "citationTitle": "Wikipedia: Acrylic paint"
+  },
+  {
+    "id": "1418256c-db0a-43c5-983c-642dd854f42f",
+    "text": "Which printmaking process involves drawing on limestone or metal plates with greasy materials?",
+    "options": [
+      "Etching",
+      "Lithography",
+      "Woodcut",
+      "Silkscreen"
+    ],
+    "correctIndex": 1,
+    "category": "arts",
+    "difficulty": "medium",
+    "explanation": "Lithography involves drawing with greasy materials on limestone or metal plates, based on oil and water repulsion.",
+    "detailedExplanation": "Lithography is a printing process based on the principle that oil and water do not mix. The artist draws on a flat surface (traditionally limestone, now often metal plates) using greasy materials like lithographic crayons or tusche. The surface is then chemically treated so that the drawn areas attract oil-based ink while the non-drawn areas repel it. This planographic process was invented in 1796 by Alois Senefelder and became widely used for both artistic prints and commercial printing.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Lithography",
+    "citationTitle": "Wikipedia: Lithography"
+  },
+  {
+    "id": "10a19c9d-f361-4f84-b549-36143c7ebbf2",
+    "text": "What is the name of the Japanese paper-folding art that uses no cuts or glue, only folding techniques?",
+    "options": [
+      "Kirigami",
+      "Origami",
+      "Suminagashi",
+      "Gyotaku"
+    ],
+    "correctIndex": 1,
+    "category": "arts",
+    "difficulty": "medium",
+    "explanation": "Origami is the traditional Japanese art of paper folding that creates sculptures using only folding techniques.",
+    "detailedExplanation": "Origami, literally meaning 'folding paper' in Japanese, is a traditional art form that transforms flat sheets of paper into finished sculptures through folding and sculpting techniques. Unlike kirigami which involves cutting, true origami uses no cuts, glue, or markings on the paper. The art form has evolved from simple designs to incredibly complex mathematical models, and has influenced modern engineering and design principles.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Origami",
+    "citationTitle": "Wikipedia: Origami"
+  },
+  {
+    "id": "6da35a54-9137-4286-a328-9297834217bf",
+    "text": "Which mosaic technique involves setting small pieces of colored glass or stone directly into wet mortar?",
+    "options": [
+      "Indirect method",
+      "Double reverse method",
+      "Direct method",
+      "Reverse method"
+    ],
+    "correctIndex": 2,
+    "category": "arts",
+    "difficulty": "medium",
+    "explanation": "The direct method involves placing tesserae (small pieces) directly into wet mortar or adhesive in their final position.",
+    "detailedExplanation": "The direct method is the most straightforward mosaic technique where artists place individual tesserae (small pieces of glass, stone, or ceramic) directly onto the surface in wet mortar or adhesive. This method allows for immediate visual feedback and spontaneous adjustments, making it popular for both ancient Roman mosaicists and contemporary artists. The technique requires working in small sections before the mortar dries, and allows for subtle variations in surface texture.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Mosaic",
+    "citationTitle": "Wikipedia: Mosaic"
+  },
+  {
+    "id": "f14d78c6-6cc6-410d-8e63-21029dd9a387",
+    "text": "What is the metalworking technique called where designs are hammered into metal from the reverse side to create raised relief?",
+    "options": [
+      "Chasing",
+      "Repoussé",
+      "Engraving",
+      "Etching"
+    ],
+    "correctIndex": 1,
+    "category": "arts",
+    "difficulty": "medium",
+    "explanation": "Repoussé is a metalworking technique where metal is hammered from the reverse side to create raised designs.",
+    "detailedExplanation": "Repoussé is an ancient metalworking technique where malleable metal is hammered from the reverse side to create a design in low relief. The word comes from the French verb 'repousser' meaning 'to push back.' This technique is often combined with chasing, which refines the design from the front side. Repoussé has been used for thousands of years to create decorative objects, from ancient Greek armor to the Statue of Liberty's copper skin.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Repouss%C3%A9_and_chasing",
+    "citationTitle": "Wikipedia: Repoussé and chasing"
+  },
+  {
+    "id": "fa069ec1-e5ef-4aba-958e-252231cd7f8d",
+    "text": "Which textile art technique involves knotting colored threads to create patterns, popular in the 1970s for wall hangings and plant holders?",
+    "options": [
+      "Macramé",
+      "Tatting",
+      "Crochet",
+      "Bobbin lace"
+    ],
+    "correctIndex": 0,
+    "category": "arts",
+    "difficulty": "medium",
+    "explanation": "Macramé is a textile art using knotting techniques rather than weaving or knitting, popular in 1970s decor.",
+    "detailedExplanation": "Macramé is a form of textile art that uses knotting rather than weaving or knitting to create decorative items. The technique originated with 13th-century Arabic weavers but became hugely popular in the 1970s for creating wall hangings, plant holders, and decorative accessories. Macramé uses various knots like the square knot, half hitch, and clove hitch to create intricate patterns and textures. The art form has experienced a revival in recent years as part of the bohemian and sustainable craft movements.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Macram%C3%A9",
+    "citationTitle": "Wikipedia: Macramé"
+  }
+]

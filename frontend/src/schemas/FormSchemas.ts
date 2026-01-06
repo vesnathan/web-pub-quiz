@@ -22,6 +22,14 @@ export type ContactFormInput = z.infer<typeof ContactFormSchema>;
 // Registration Form Schema (for validation, auth forms can use useState)
 export const RegistrationFormSchema = z
   .object({
+    firstName: z
+      .string()
+      .min(1, "First name is required")
+      .max(50, "First name is too long"),
+    lastName: z
+      .string()
+      .min(1, "Last name is required")
+      .max(50, "Last name is too long"),
     email: z
       .string()
       .min(1, "Email is required")
@@ -52,3 +60,17 @@ export const RegistrationFormSchema = z
   });
 
 export type RegistrationFormInput = z.infer<typeof RegistrationFormSchema>;
+
+// Invite Email Schema
+export const InviteEmailSchema = z.object({
+  friendName: z
+    .string()
+    .min(1, "Friend's name is required")
+    .max(50, "Name is too long"),
+  email: z
+    .string()
+    .min(1, "Email is required")
+    .email("Please enter a valid email address"),
+});
+
+export type InviteEmailInput = z.infer<typeof InviteEmailSchema>;

@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState, useRef, useCallback } from "react";
+import { useEffect, useState, useRef, useCallback, useMemo } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Tooltip } from "@nextui-org/react";
 import type { AwardBadge } from "@quiz/shared";
@@ -316,26 +316,92 @@ function AnimatingBadge({
     x: number;
     y: number;
   } | null>(null);
+  const [targetFound, setTargetFound] = useState(false);
+  const retryCountRef = useRef(0);
+  const maxRetries = 10;
 
   // Memoize the completion handler to avoid dependency issues
   const handleComplete = useCallback(() => {
     onAnimationComplete();
   }, [onAnimationComplete]);
 
-  // Calculate target position when entering flying phase
-  useEffect(() => {
-    if (phase === "flying" && targetRef.current) {
+  // Calculate target position with retry logic
+  const updateTargetPosition = useCallback(() => {
+    if (targetRef.current) {
       const rect = targetRef.current.getBoundingClientRect();
-      setTargetPosition({
+      const pos = {
         x: rect.left + rect.width / 2,
         y: rect.top + rect.height / 2,
-      });
+      };
+      // Validate position is reasonable (not 0,0 or off-screen)
+      if (
+        pos.x > 0 &&
+        pos.y > 0 &&
+        pos.x < window.innerWidth &&
+        pos.y < window.innerHeight
+      ) {
+        console.log(`[BadgeRevolver] Target position found:`, pos);
+        setTargetPosition(pos);
+        setTargetFound(true);
+        return true;
+      }
     }
-  }, [phase, targetRef]);
+    console.warn(
+      `[BadgeRevolver] targetRef.current is NULL or invalid position, retry ${retryCountRef.current}/${maxRetries}`,
+    );
+    return false;
+  }, [targetRef]);
+
+  // Initial position calculation with retry loop
+  useEffect(() => {
+    // Try immediately
+    if (updateTargetPosition()) return;
+
+    // Retry with exponential backoff
+    const retryInterval = setInterval(() => {
+      retryCountRef.current++;
+      if (updateTargetPosition() || retryCountRef.current >= maxRetries) {
+        clearInterval(retryInterval);
+        if (retryCountRef.current >= maxRetries && !targetFound) {
+          console.error(
+            `[BadgeRevolver] Failed to find target position after ${maxRetries} retries, using fallback`,
+          );
+        }
+      }
+    }, 50); // Retry every 50ms
+
+    return () => clearInterval(retryInterval);
+  }, [updateTargetPosition, targetFound]);
+
+  // Update position on scroll/resize during flying phase
+  useEffect(() => {
+    if (phase !== "flying") return;
+
+    const handlePositionUpdate = () => {
+      updateTargetPosition();
+    };
+
+    // Update position when flying starts
+    handlePositionUpdate();
+
+    // Listen for scroll and resize
+    window.addEventListener("scroll", handlePositionUpdate, true);
+    window.addEventListener("resize", handlePositionUpdate);
+
+    return () => {
+      window.removeEventListener("scroll", handlePositionUpdate, true);
+      window.removeEventListener("resize", handlePositionUpdate);
+    };
+  }, [phase, updateTargetPosition]);
 
   useEffect(() => {
+    console.log(
+      `[BadgeRevolver] AnimatingBadge mounted for badge: ${badge.name}`,
+    );
+
     // Phase 1: Show in center with explosion (1.8s for more fanfare)
     const flyTimer = setTimeout(() => {
+      console.log(`[BadgeRevolver] Transitioning to flying phase`);
       setPhase("flying");
     }, 1800);
 
@@ -348,7 +414,7 @@ function AnimatingBadge({
       clearTimeout(flyTimer);
       clearTimeout(completeTimer);
     };
-  }, [handleComplete]);
+  }, [handleComplete, badge.name]);
 
   // Get rarity-specific border color for ring pulse
   const ringBorderColor =
@@ -530,8 +596,15 @@ function AnimatingBadge({
             </motion.div>
           </div>
         ) : (
-          // Flying phase: animate to target position
-          targetPosition && (
+          // Flying phase: animate to target position (fallback to bottom center if no target)
+          <>
+            {(() => {
+              console.log(
+                `[BadgeRevolver] Rendering flying phase, targetPosition:`,
+                targetPosition,
+              );
+              return null;
+            })()}
             <motion.div
               className="absolute"
               initial={{
@@ -542,8 +615,8 @@ function AnimatingBadge({
                 scale: 1,
               }}
               animate={{
-                left: targetPosition.x,
-                top: targetPosition.y,
+                left: targetPosition?.x ?? window.innerWidth / 2,
+                top: targetPosition?.y ?? window.innerHeight - 100,
                 x: "-50%",
                 y: "-50%",
                 scale: 0.48,
@@ -588,7 +661,7 @@ function AnimatingBadge({
                 </div>
               </div>
             </motion.div>
-          )
+          </>
         )}
       </motion.div>
     </AnimatePresence>
@@ -600,8 +673,17 @@ export function BadgeRevolver({
   onAllBadgesShown,
   startDelay = 1500,
 }: BadgeRevolverProps) {
-  // Count and deduplicate badges
-  const countedBadges = countBadges(badges);
+  console.log(
+    `[BadgeRevolver] Rendering with ${badges.length} badges:`,
+    badges.map((b) => b.name),
+  );
+
+  // Count and deduplicate badges - memoize to prevent callback recreation
+  const countedBadges = useMemo(() => {
+    const counted = countBadges(badges);
+    console.log(`[BadgeRevolver] Counted badges:`, counted);
+    return counted;
+  }, [badges]);
 
   const [isReady, setIsReady] = useState(false);
   const [currentAnimatingIndex, setCurrentAnimatingIndex] = useState(-1);
@@ -631,18 +713,29 @@ export function BadgeRevolver({
   }, [isReady, countedBadges.length]);
 
   const handleBadgeAnimationComplete = useCallback(() => {
+    console.log(`[BadgeRevolver] handleBadgeAnimationComplete called`);
     setShownBadges((prev) => {
       // Get the badge that just finished animating based on current shown count
       const nextIndex = prev.length;
       const badge = countedBadges[nextIndex];
+      console.log(
+        `[BadgeRevolver] Adding badge ${nextIndex} to shownBadges:`,
+        badge?.badge.name,
+      );
       if (!badge) return prev;
       return [...prev, badge];
     });
 
     setCurrentAnimatingIndex((prevIndex) => {
       const nextIndex = prevIndex + 1;
+      console.log(
+        `[BadgeRevolver] Moving to badge index ${nextIndex} of ${countedBadges.length}`,
+      );
       if (nextIndex >= countedBadges.length) {
         // All badges shown
+        console.log(
+          `[BadgeRevolver] All badges shown, calling onAllBadgesShown`,
+        );
         onAllBadgesShown?.();
       }
       return nextIndex;

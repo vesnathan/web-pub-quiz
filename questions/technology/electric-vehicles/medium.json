@@ -1,0 +1,342 @@
+[
+  {
+    "id": "10eeadb5-fb8c-4cf8-abd1-96b4e5e4bf57",
+    "text": "Which company produced the world's first mass-produced electric vehicle, the EV1, in the 1990s?",
+    "options": [
+      "Ford",
+      "General Motors",
+      "Chrysler",
+      "Toyota"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "General Motors produced the EV1 from 1996-1999 as the first mass-produced electric vehicle of the modern era.",
+    "detailedExplanation": "The General Motors EV1 was a battery electric vehicle produced and leased by General Motors from 1996 to 1999. It was the first mass-produced and purpose-designed electric vehicle of the modern era from a major automaker. The EV1 program was eventually discontinued, and GM controversially recalled and destroyed most of the vehicles, which became the subject of the documentary 'Who Killed the Electric Car?'",
+    "citationUrl": "https://en.wikipedia.org/wiki/General_Motors_EV1",
+    "citationTitle": "Wikipedia: General Motors EV1"
+  },
+  {
+    "id": "84e5e0c4-eec4-4437-9383-6abf63ab4869",
+    "text": "What does 'kWh' stand for in the context of electric vehicle batteries?",
+    "options": [
+      "Kilowatt-hour",
+      "Kilowatt-heavy",
+      "Kinetic watt-hour",
+      "Kilo-watt hybrid"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "kWh stands for kilowatt-hour, which is a unit of energy used to measure battery capacity in electric vehicles.",
+    "detailedExplanation": "Kilowatt-hour (kWh) is a unit of energy equal to 1,000 watt-hours. In electric vehicles, kWh is used to measure the energy storage capacity of the battery pack. A higher kWh rating generally means longer driving range. For example, a Tesla Model S might have a 100 kWh battery pack, while a Nissan Leaf might have a 40 kWh pack.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Kilowatt-hour",
+    "citationTitle": "Wikipedia: Kilowatt-hour"
+  },
+  {
+    "id": "542b2f23-3adf-4e79-9b34-557096ef1b3c",
+    "text": "Which country has the highest percentage of electric vehicle market share as of 2023?",
+    "options": [
+      "China",
+      "United States",
+      "Norway",
+      "Germany"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Norway leads the world with over 80% of new car sales being electric vehicles in 2023.",
+    "detailedExplanation": "Norway has achieved the highest electric vehicle adoption rate globally, with electric vehicles accounting for over 80% of new car sales in 2023. This success is attributed to generous government incentives including tax exemptions, free parking, toll road exemptions, and access to bus lanes. The country aims to end sales of new petrol and diesel cars by 2025.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Electric_car_use_by_country",
+    "citationTitle": "Wikipedia: Electric car use by country"
+  },
+  {
+    "id": "061cd220-fdaf-4ea0-89cf-a58ae1882ded",
+    "text": "What type of electric motor do most modern electric vehicles use?",
+    "options": [
+      "DC brushed motor",
+      "AC induction motor",
+      "Stepper motor",
+      "Universal motor"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Most modern EVs use AC induction motors or permanent magnet synchronous motors, both of which are types of AC motors.",
+    "detailedExplanation": "Most modern electric vehicles use AC (alternating current) motors, primarily induction motors or permanent magnet synchronous motors. AC induction motors, popularized by Tesla, are robust, efficient, and don't require rare earth magnets. They use electromagnetic induction to create rotation and can provide excellent torque characteristics suitable for vehicle propulsion. The AC power is generated from the DC battery through an inverter.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Electric_motor",
+    "citationTitle": "Wikipedia: Electric motor"
+  },
+  {
+    "id": "b825354f-83ce-4d88-8ce2-ba99accb0bc7",
+    "text": "What is 'regenerative braking' in electric vehicles?",
+    "options": [
+      "Using brake pads made from recycled materials",
+      "Converting kinetic energy back into electrical energy when slowing down",
+      "Automatically applying brakes when battery is low",
+      "Using the engine to help brake the vehicle"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Regenerative braking converts the vehicle's kinetic energy back into electrical energy to recharge the battery while slowing down.",
+    "detailedExplanation": "Regenerative braking is a mechanism that recovers energy normally lost during braking. When an electric vehicle slows down, the electric motor runs in reverse, acting as a generator. This converts the vehicle's kinetic energy back into electrical energy, which is then stored in the battery. This process not only helps extend the vehicle's range but also reduces wear on traditional brake pads and discs.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Regenerative_brake",
+    "citationTitle": "Wikipedia: Regenerative brake"
+  },
+  {
+    "id": "6d42fc6e-ec05-47dc-98ed-c1fbc73989ac",
+    "text": "What is the approximate efficiency of electric vehicles compared to internal combustion engines?",
+    "options": [
+      "60-70% vs 20-25%",
+      "90-95% vs 35-40%",
+      "40-50% vs 30-35%",
+      "80-85% vs 15-20%"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Electric vehicles are 90-95% efficient at converting stored energy to motion, while ICE vehicles are only 35-40% efficient.",
+    "detailedExplanation": "Electric vehicles are significantly more efficient than internal combustion engine vehicles. EVs convert about 90-95% of the electrical energy from the battery to power at the wheels, while conventional gasoline vehicles only convert about 35-40% of the energy stored in gasoline to power at the wheels. The rest of the energy in ICE vehicles is lost as heat through the exhaust system and radiator, making electric drivetrains much more energy-efficient.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Electric_vehicle",
+    "citationTitle": "Wikipedia: Electric vehicle"
+  },
+  {
+    "id": "c48e3836-a712-4d77-b12a-ce5ee4f69515",
+    "text": "Which chemical element is most critical for lithium-ion batteries used in electric vehicles?",
+    "options": [
+      "Nickel",
+      "Cobalt",
+      "Lithium",
+      "Manganese"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Lithium is the key element that gives lithium-ion batteries their name and enables the electrochemical reactions for energy storage.",
+    "detailedExplanation": "Lithium is the most critical element in lithium-ion batteries, as it's the active material that enables the electrochemical reactions for storing and releasing energy. Lithium ions move between the positive and negative electrodes during charging and discharging cycles. While other elements like cobalt, nickel, and manganese are important for the cathode materials and affect performance characteristics, lithium is fundamental to the battery's basic operation and cannot be substituted.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Lithium-ion_battery",
+    "citationTitle": "Wikipedia: Lithium-ion battery"
+  },
+  {
+    "id": "13b78404-a934-44be-81fc-2fba3b1a1f45",
+    "text": "What is the name of Tesla's proprietary fast-charging network that was initially exclusive to Tesla vehicles?",
+    "options": [
+      "Supercharger",
+      "TurboCharge",
+      "PowerGrid",
+      "ElectroMax"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Tesla's Supercharger network is their proprietary fast-charging infrastructure.",
+    "detailedExplanation": "Tesla's Supercharger network is a network of 480-volt DC fast-charging stations built by Tesla Inc. to charge Tesla vehicles. The network was initially exclusive to Tesla owners but has begun opening to other electric vehicle brands in select markets. Superchargers can charge Tesla vehicles much faster than standard AC charging, with some newer V3 Superchargers capable of delivering up to 250 kW of power.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Tesla_Supercharger",
+    "citationTitle": "Wikipedia: Tesla Supercharger"
+  },
+  {
+    "id": "f1a58015-006e-45c1-bc04-452d7242cc3e",
+    "text": "Which luxury car manufacturer launched the Taycan as their first fully electric sports car?",
+    "options": [
+      "BMW",
+      "Mercedes-Benz",
+      "Porsche",
+      "Audi"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "The Porsche Taycan was Porsche's first fully electric production vehicle, launched in 2019.",
+    "detailedExplanation": "The Porsche Taycan is a luxury electric sports sedan that marked Porsche's entry into the electric vehicle market when it was launched in 2019. The Taycan features high-performance capabilities typical of Porsche vehicles, including rapid acceleration and advanced handling dynamics. It was designed to compete with other luxury electric vehicles while maintaining Porsche's reputation for performance and driving experience.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Porsche_Taycan",
+    "citationTitle": "Wikipedia: Porsche Taycan"
+  },
+  {
+    "id": "80f83cfb-575a-4a0d-b65e-02334a32f2a1",
+    "text": "What is the term for the maximum distance an electric vehicle can travel on a single charge?",
+    "options": [
+      "Battery span",
+      "Charge capacity",
+      "Electric range",
+      "Power duration"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Electric range refers to how far an EV can travel on a single battery charge.",
+    "detailedExplanation": "Electric range, also simply called 'range,' is a crucial specification for electric vehicles that indicates the maximum distance the vehicle can travel on a single battery charge under specific testing conditions. This measurement is typically provided under standardized testing procedures like EPA, WLTP, or NEDC cycles. Range can vary significantly based on factors such as driving conditions, weather, vehicle load, and driving style, with cold weather and highway speeds typically reducing the actual range compared to the rated range.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Electric_vehicle",
+    "citationTitle": "Wikipedia: Electric vehicle"
+  },
+  {
+    "id": "13a48422-7777-44c5-a036-6dc87fe45290",
+    "text": "Which phenomenon describes the gradual loss of battery capacity in electric vehicles over time?",
+    "options": [
+      "Battery fade",
+      "Cell deterioration",
+      "Battery degradation",
+      "Charge decline"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Battery degradation is the technical term for the gradual loss of battery capacity over time and usage cycles.",
+    "detailedExplanation": "Battery degradation refers to the gradual and irreversible loss of battery capacity and performance that occurs over time in lithium-ion batteries used in electric vehicles. This natural process is influenced by factors such as the number of charge-discharge cycles, operating temperature, charging habits, and time. Most EV manufacturers warrant their batteries against excessive degradation, typically guaranteeing 70-80% capacity retention after 8 years or 100,000+ miles. Modern battery management systems help minimize degradation through optimized charging and thermal management.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Lithium-ion_battery",
+    "citationTitle": "Wikipedia: Lithium-ion battery"
+  },
+  {
+    "id": "2423fc84-d97c-4103-b7be-e10b331a65e0",
+    "text": "What does 'BEV' stand for in electric vehicle terminology?",
+    "options": [
+      "Basic Electric Vehicle",
+      "Battery Electric Vehicle",
+      "Boosted Electric Vehicle",
+      "Bi-mode Electric Vehicle"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "BEV stands for Battery Electric Vehicle, referring to vehicles powered entirely by electric batteries.",
+    "detailedExplanation": "BEV (Battery Electric Vehicle) is the technical term for vehicles that are powered entirely by electricity stored in rechargeable battery packs, with no internal combustion engine. This distinguishes them from hybrid electric vehicles (HEVs) or plug-in hybrid electric vehicles (PHEVs), which combine electric motors with gasoline engines. BEVs produce zero direct emissions and must be plugged in to recharge their batteries from the electrical grid or other external power sources.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Battery_electric_vehicle",
+    "citationTitle": "Wikipedia: Battery electric vehicle"
+  },
+  {
+    "id": "8ead6a96-456f-4e39-a0b5-57cf4c271aba",
+    "text": "Which Chinese company became the world's largest electric vehicle manufacturer by sales volume in the early 2020s?",
+    "options": [
+      "NIO",
+      "Xpeng",
+      "BYD",
+      "Geely"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "BYD surpassed Tesla to become the world's largest EV manufacturer by sales volume.",
+    "detailedExplanation": "BYD (Build Your Dreams) is a Chinese multinational company that became the world's largest electric vehicle manufacturer by sales volume, surpassing Tesla in 2022. Originally founded as a battery manufacturer in 1995, BYD expanded into automotive production and has become a major player in the global EV market. The company produces both fully electric vehicles and plug-in hybrids, with strong domestic sales in China and expanding international presence.",
+    "citationUrl": "https://en.wikipedia.org/wiki/BYD_Company",
+    "citationTitle": "Wikipedia: BYD Company"
+  },
+  {
+    "id": "8a5a78dc-4fe0-4d63-af17-8b9507f96d88",
+    "text": "What voltage level is typically used for DC fast charging of electric vehicles?",
+    "options": [
+      "120V",
+      "240V",
+      "400-800V",
+      "1000V+"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "DC fast charging typically operates at 400-800 volts to enable rapid charging speeds.",
+    "detailedExplanation": "DC fast charging systems for electric vehicles typically operate at voltage levels between 400-800 volts, which is significantly higher than standard AC charging voltages (120V or 240V). This high voltage allows for much faster charging speeds by delivering more power to the vehicle's battery pack. The exact voltage depends on the vehicle's battery architecture, with newer EVs increasingly adopting 800V systems that enable even faster charging rates and improved efficiency compared to traditional 400V systems.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Charging_station",
+    "citationTitle": "Wikipedia: Charging station"
+  },
+  {
+    "id": "35ddeb81-3ae5-4ef4-a3bd-0eb5e5ffe0e5",
+    "text": "Which automotive alliance was the first to sell over 1 million electric vehicles globally?",
+    "options": [
+      "Volkswagen Group",
+      "Renault-Nissan-Mitsubishi Alliance",
+      "Toyota-Mazda Alliance",
+      "General Motors"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "The Renault-Nissan-Mitsubishi Alliance was the first automotive group to reach 1 million electric vehicle sales globally.",
+    "detailedExplanation": "The Renault-Nissan-Mitsubishi Alliance became the first automotive alliance to sell over 1 million electric vehicles globally, reaching this milestone in 2019. This achievement was largely driven by the success of the Nissan Leaf, which was one of the world's first mass-market electric vehicles when launched in 2010, along with contributions from Renault's electric vehicle lineup including the Zoe. The alliance has been a pioneer in electric vehicle adoption and continues to be a major player in the global EV market.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Renault%E2%80%93Nissan%E2%80%93Mitsubishi_Alliance",
+    "citationTitle": "Wikipedia: Renault–Nissan–Mitsubishi Alliance"
+  },
+  {
+    "id": "a4252f2e-d1b6-4d2a-80b8-b4dae63c1dfd",
+    "text": "Which electric vehicle holds the official world record for the longest distance traveled on a single charge?",
+    "options": [
+      "Mercedes EQS",
+      "Lucid Air Dream Range",
+      "BMW iX xDrive50",
+      "Tesla Model S"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "The Lucid Air Dream Range achieved 516 miles on a single charge in EPA testing.",
+    "detailedExplanation": "The Lucid Air Dream Range officially holds the record for the longest EPA-rated range of any production electric vehicle, achieving 516 miles on a single charge. This achievement surpassed previous records held by other luxury EVs and demonstrated significant advances in battery technology and aerodynamic efficiency. The vehicle uses a 118 kWh battery pack and advanced power management systems to achieve this remarkable range.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Lucid_Air",
+    "citationTitle": "Wikipedia: Lucid Air"
+  },
+  {
+    "id": "682633d9-6aae-4b16-a47c-4f6d03aea37c",
+    "text": "What is the name of the standardized charging connector that most non-Tesla electric vehicles in North America use?",
+    "options": [
+      "CCS Combo",
+      "CHAdeMO",
+      "Type 2 Mennekes",
+      "GB/T"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "CCS (Combined Charging System) Combo is the dominant fast-charging standard for most EVs in North America except Tesla.",
+    "detailedExplanation": "The CCS (Combined Charging System) Combo connector is the predominant charging standard for electric vehicles in North America, excluding Tesla vehicles which use their proprietary connector. CCS Combo supports both AC and DC charging through a single port, combining the J1772 AC charging standard with additional DC fast-charging pins. This standardization allows for interoperability between different EV brands and charging networks, though Tesla has recently begun opening some of their Supercharger network to CCS-equipped vehicles.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Combined_Charging_System",
+    "citationTitle": "Wikipedia: Combined Charging System"
+  },
+  {
+    "id": "de56e858-fba5-4e6c-aae5-4ca719fc30d6",
+    "text": "Which automotive company first introduced the concept of battery swapping stations for electric vehicles on a commercial scale?",
+    "options": [
+      "Tesla",
+      "Better Place",
+      "NIO",
+      "Renault"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Better Place pioneered commercial battery swapping technology in the late 2000s, though the company ultimately failed.",
+    "detailedExplanation": "Better Place, an Israeli company founded in 2007, was the first to implement battery swapping stations on a commercial scale for electric vehicles. Their system allowed drivers to quickly exchange depleted batteries for fully charged ones in under 5 minutes. Despite raising significant funding and partnerships with Renault, the company filed for bankruptcy in 2013 due to high infrastructure costs and limited vehicle compatibility. The concept has since been revived by companies like NIO in China, which operates hundreds of battery swap stations.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Better_Place_(company)",
+    "citationTitle": "Wikipedia: Better Place (company)"
+  },
+  {
+    "id": "3652b64e-b71a-440e-8044-b291e0e93a1e",
+    "text": "What does 'V2G' technology enable electric vehicles to do?",
+    "options": [
+      "Charge faster using higher voltage",
+      "Send power back to the electrical grid",
+      "Communicate with other vehicles",
+      "Monitor battery temperature"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "V2G (Vehicle-to-Grid) technology allows electric vehicles to discharge stored energy back into the power grid.",
+    "detailedExplanation": "Vehicle-to-Grid (V2G) technology enables electric vehicles to not only consume electricity from the grid but also return stored energy back to it when needed. This bidirectional power flow can help stabilize the electrical grid during peak demand periods, provide emergency backup power, and allow EV owners to potentially earn money by selling excess energy. V2G systems require special bidirectional chargers and compatible vehicles, and the technology is seen as crucial for integrating large numbers of EVs into the power grid while supporting renewable energy sources.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Vehicle-to-grid",
+    "citationTitle": "Wikipedia: Vehicle-to-grid"
+  },
+  {
+    "id": "74fa3986-f66a-4bad-a3aa-44c50ad1da79",
+    "text": "Which electric vehicle component is responsible for converting DC battery power to AC power for the electric motor?",
+    "options": [
+      "Onboard charger",
+      "DC-DC converter",
+      "Battery management system",
+      "Inverter"
+    ],
+    "correctIndex": 3,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "The inverter converts DC power from the battery into AC power required by most EV motors.",
+    "detailedExplanation": "The inverter is a critical component in electric vehicles that converts direct current (DC) electricity stored in the battery into alternating current (AC) electricity required by most electric motors. Most modern EVs use AC motors because they are more efficient, reliable, and easier to control than DC motors. The inverter also controls motor speed and torque by varying the frequency and amplitude of the AC power. Additionally, during regenerative braking, the inverter works in reverse, converting AC from the motor back to DC to charge the battery.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Electric_vehicle",
+    "citationTitle": "Wikipedia: Electric vehicle"
+  }
+]

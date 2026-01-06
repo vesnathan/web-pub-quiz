@@ -1,0 +1,342 @@
+[
+  {
+    "id": "c16a1009-808e-4984-a335-39c0b7ddc612",
+    "text": "In what year was the Baseball Hall of Fame first established in Cooperstown, New York?",
+    "options": [
+      "1936",
+      "1939",
+      "1942",
+      "1933"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "medium",
+    "explanation": "The Baseball Hall of Fame was established in 1939, though the first elections were held in 1936.",
+    "detailedExplanation": "The National Baseball Hall of Fame and Museum was officially established in 1939 in Cooperstown, New York. While the first Hall of Fame elections took place in 1936, the physical building and museum didn't open until 1939. The location was chosen partly due to the myth that Abner Doubleday invented baseball there in 1839, though this story has been largely debunked by historians.",
+    "citationUrl": "https://en.wikipedia.org/wiki/National_Baseball_Hall_of_Fame_and_Museum",
+    "citationTitle": "Wikipedia: National Baseball Hall of Fame and Museum"
+  },
+  {
+    "id": "39cc8c02-8896-4c25-87aa-e67f7b13a121",
+    "text": "Which player was the first unanimous selection to the Baseball Hall of Fame?",
+    "options": [
+      "Babe Ruth",
+      "Ted Williams",
+      "Mariano Rivera",
+      "Willie Mays"
+    ],
+    "correctIndex": 2,
+    "category": "sports",
+    "difficulty": "medium",
+    "explanation": "Mariano Rivera was the first player to receive 100% of the votes in 2019.",
+    "detailedExplanation": "Mariano Rivera made history in 2019 by becoming the first player ever to be unanimously elected to the Baseball Hall of Fame, receiving all 425 votes from the Baseball Writers' Association of America. The Yankees closer's unanimous selection was particularly notable given that even legendary players like Babe Ruth, Ted Williams, and Willie Mays had received some opposing votes during their elections.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Mariano_Rivera",
+    "citationTitle": "Wikipedia: Mariano Rivera"
+  },
+  {
+    "id": "e5afeca3-b3e6-499b-bbe4-6061bcca8f26",
+    "text": "What is the minimum number of years a player must be retired before becoming eligible for Hall of Fame consideration?",
+    "options": [
+      "3 years",
+      "5 years",
+      "7 years",
+      "10 years"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "medium",
+    "explanation": "Players must wait 5 years after retirement to become eligible for Hall of Fame voting.",
+    "detailedExplanation": "According to Baseball Hall of Fame rules, a player must be retired for at least five years before becoming eligible for consideration by the Baseball Writers' Association of America. This waiting period allows for proper perspective on a player's career and ensures that their statistics and impact are complete. Players also must have played in at least 10 major league seasons to be eligible.",
+    "citationUrl": "https://en.wikipedia.org/wiki/National_Baseball_Hall_of_Fame_and_Museum",
+    "citationTitle": "Wikipedia: National Baseball Hall of Fame and Museum"
+  },
+  {
+    "id": "bdce99b0-4d70-46c4-8ce2-06c8915febe2",
+    "text": "Which of these players holds the record for most years on the Hall of Fame ballot without being elected?",
+    "options": [
+      "Gil Hodges",
+      "Jack Morris",
+      "Lee Smith",
+      "Bruce Sutter"
+    ],
+    "correctIndex": 0,
+    "category": "sports",
+    "difficulty": "medium",
+    "explanation": "Gil Hodges appeared on the ballot for 15 years (1969-1983) but was never elected by the writers.",
+    "detailedExplanation": "Gil Hodges, the Brooklyn/Los Angeles Dodgers first baseman and later New York Mets manager, holds the unfortunate record of appearing on the Hall of Fame ballot for 15 consecutive years without being elected. Despite impressive career numbers including 370 home runs and being a key player on several championship teams, Hodges never received the required 75% of votes from the baseball writers during his eligibility period from 1969-1983.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Gil_Hodges",
+    "citationTitle": "Wikipedia: Gil Hodges"
+  },
+  {
+    "id": "9bc34375-4628-4bc2-9865-9adc45568dd9",
+    "text": "Who was the first African American player inducted into the Baseball Hall of Fame?",
+    "options": [
+      "Willie Mays",
+      "Hank Aaron",
+      "Jackie Robinson",
+      "Satchel Paige"
+    ],
+    "correctIndex": 2,
+    "category": "sports",
+    "difficulty": "medium",
+    "explanation": "Jackie Robinson was inducted in 1962, making him the first African American Hall of Famer.",
+    "detailedExplanation": "Jackie Robinson became the first African American player inducted into the Baseball Hall of Fame when he was elected in 1962. Robinson broke baseball's color barrier in 1947 with the Brooklyn Dodgers and had a stellar 10-year career. His induction was particularly significant as it recognized not only his on-field achievements but also his historic role in integrating Major League Baseball and advancing civil rights in America.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Jackie_Robinson",
+    "citationTitle": "Wikipedia: Jackie Robinson"
+  },
+  {
+    "id": "4690e7ce-afc5-49a0-b670-2e6ce6cf0e49",
+    "text": "What percentage of votes from the Baseball Writers' Association is required for Hall of Fame induction?",
+    "options": [
+      "60%",
+      "67%",
+      "75%",
+      "80%"
+    ],
+    "correctIndex": 2,
+    "category": "sports",
+    "difficulty": "medium",
+    "explanation": "A player needs 75% of the votes to be elected to the Hall of Fame.",
+    "detailedExplanation": "To be inducted into the Baseball Hall of Fame, a candidate must receive at least 75% of the votes cast by members of the Baseball Writers' Association of America (BBWAA). This high threshold ensures that only players with broad consensus support are elected. Candidates who receive less than 5% of the vote are dropped from future ballots, while those receiving between 5% and 75% remain eligible for up to 10 years on the ballot.",
+    "citationUrl": "https://en.wikipedia.org/wiki/National_Baseball_Hall_of_Fame_and_Museum",
+    "citationTitle": "Wikipedia: National Baseball Hall of Fame and Museum"
+  },
+  {
+    "id": "5cb69e49-e71f-4c84-b25d-6e2b3497cfe3",
+    "text": "Which committee is responsible for considering players from the Negro Leagues for Hall of Fame induction?",
+    "options": [
+      "Veterans Committee",
+      "Contemporary Baseball Era Committee",
+      "Golden Days Era Committee",
+      "Early Baseball Era Committee"
+    ],
+    "correctIndex": 3,
+    "category": "sports",
+    "difficulty": "medium",
+    "explanation": "The Early Baseball Era Committee considers candidates from 1871-1949, including Negro League players.",
+    "detailedExplanation": "The Early Baseball Era Committee is responsible for considering candidates from 1871-1949, which includes players from the Negro Leagues era. This committee was created as part of the Hall of Fame's restructuring to better recognize players who were excluded from Major League Baseball due to segregation. The committee meets every three years and has been instrumental in inducting deserving Negro League players who were previously overlooked.",
+    "citationUrl": "https://en.wikipedia.org/wiki/National_Baseball_Hall_of_Fame_and_Museum",
+    "citationTitle": "Wikipedia: National Baseball Hall of Fame and Museum"
+  },
+  {
+    "id": "2442561c-4017-4a53-a920-3996c70efdea",
+    "text": "Which player was elected to the Hall of Fame despite having a lifetime batting average below .270?",
+    "options": [
+      "Harmon Killebrew",
+      "Mike Schmidt",
+      "Reggie Jackson",
+      "All of the above"
+    ],
+    "correctIndex": 3,
+    "category": "sports",
+    "difficulty": "medium",
+    "explanation": "All three players had batting averages below .270 but were inducted based on their power hitting and overall contributions.",
+    "detailedExplanation": "Harmon Killebrew (.256), Mike Schmidt (.267), and Reggie Jackson (.262) all had lifetime batting averages below .270 but were rightfully inducted into the Hall of Fame. These players exemplify how the Hall of Fame recognizes overall excellence rather than just batting average. Killebrew hit 573 home runs, Schmidt won 10 Gold Gloves and hit 548 homers, and Jackson was 'Mr. October' with 563 home runs and clutch postseason performances.",
+    "citationUrl": "https://en.wikipedia.org/wiki/List_of_members_of_the_Baseball_Hall_of_Fame",
+    "citationTitle": "Wikipedia: List of members of the Baseball Hall of Fame"
+  },
+  {
+    "id": "2808a4ca-c5d5-4479-9fd6-e53157d884a9",
+    "text": "Which pitcher holds the record for most career wins by a Hall of Fame inductee?",
+    "options": [
+      "Walter Johnson",
+      "Christy Mathewson",
+      "Cy Young",
+      "Grover Cleveland Alexander"
+    ],
+    "correctIndex": 2,
+    "category": "sports",
+    "difficulty": "medium",
+    "explanation": "Cy Young won 511 games during his career, more than any other pitcher in baseball history.",
+    "detailedExplanation": "Cy Young, inducted into the Hall of Fame in 1937, compiled an astounding 511 career victories during his 22-year career (1890-1911). This record has stood for over a century and is considered one of baseball's most unbreakable records. Young pitched for several teams including the Cleveland Spiders, Boston Americans, and Cleveland Naps. The prestigious Cy Young Award, given annually to the best pitcher in each league, is named in his honor.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Cy_Young",
+    "citationTitle": "Wikipedia: Cy Young"
+  },
+  {
+    "id": "96991eb1-b121-4677-bc1e-40942be668de",
+    "text": "Which Hall of Fame player is known for his famous 'called shot' home run in the 1932 World Series?",
+    "options": [
+      "Lou Gehrig",
+      "Babe Ruth",
+      "Jimmie Foxx",
+      "Mel Ott"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "medium",
+    "explanation": "Babe Ruth allegedly pointed to center field before hitting a home run in that direction during Game 3 of the 1932 World Series.",
+    "detailedExplanation": "Babe Ruth's 'called shot' occurred during Game 3 of the 1932 World Series at Wrigley Field against the Chicago Cubs. After taking two strikes and enduring heckling from the Cubs dugout and fans, Ruth allegedly gestured toward center field before hitting Charlie Root's next pitch for a home run in that exact direction. While the exact nature of Ruth's gesture remains debated by historians, the moment has become one of baseball's most legendary stories. Ruth was inducted into the Hall of Fame in 1936 as part of the inaugural class.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Babe_Ruth%27s_called_shot",
+    "citationTitle": "Wikipedia: Babe Ruth's called shot"
+  },
+  {
+    "id": "0b77079c-56d9-41db-984f-fed6947617f4",
+    "text": "Which Hall of Fame manager led his teams to the most World Series championships?",
+    "options": [
+      "John McGraw",
+      "Casey Stengel",
+      "Connie Mack",
+      "Joe McCarthy"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "medium",
+    "explanation": "Casey Stengel won 10 World Series championships as manager of the New York Yankees between 1949-1960.",
+    "detailedExplanation": "Casey Stengel managed the New York Yankees from 1949 to 1960 and led them to an unprecedented 10 World Series championships in 12 seasons, including five consecutive titles from 1949-1953. His teams won the American League pennant in 10 of his 12 seasons as Yankees manager. Stengel was known for his colorful personality, unique speaking style called 'Stengelese,' and his ability to platoon players effectively. He was inducted into the Hall of Fame in 1966, recognized for his managerial genius during baseball's golden age.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Casey_Stengel",
+    "citationTitle": "Wikipedia: Casey Stengel"
+  },
+  {
+    "id": "7a2c10f0-835b-4e96-a85c-0a8e5be9e61a",
+    "text": "Which Hall of Fame player broke Babe Ruth's career home run record in 1974?",
+    "options": [
+      "Willie Mays",
+      "Hank Aaron",
+      "Frank Robinson",
+      "Harmon Killebrew"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "medium",
+    "explanation": "Hank Aaron hit his 715th home run on April 8, 1974, surpassing Babe Ruth's record of 714 career home runs.",
+    "detailedExplanation": "On April 8, 1974, at Atlanta-Fulton County Stadium, Hank Aaron hit his 715th career home run off Los Angeles Dodgers pitcher Al Downing, breaking Babe Ruth's long-standing record of 714 home runs. Aaron faced significant racial hostility and death threats as he approached the record, but he persevered with dignity and grace. He finished his career with 755 home runs, a record that stood until Barry Bonds broke it in 2007. Aaron was inducted into the Hall of Fame in 1982 and is remembered not only for his statistical achievements but also for his courage during a challenging period in American history.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Hank_Aaron",
+    "citationTitle": "Wikipedia: Hank Aaron"
+  },
+  {
+    "id": "4af1516a-f123-4868-878c-822bff89a48d",
+    "text": "Which Hall of Fame catcher is famous for his humorous quotes and managed the New York Yankees to multiple championships?",
+    "options": [
+      "Johnny Bench",
+      "Yogi Berra",
+      "Gary Carter",
+      "Roy Campanella"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "medium",
+    "explanation": "Yogi Berra was known for his malapropisms called 'Yogi-isms' and later managed the Yankees to the 1977 World Series.",
+    "detailedExplanation": "Yogi Berra was inducted into the Hall of Fame in 1972 after a stellar playing career with the New York Yankees, where he won 10 World Series championships as a player. Berra was famous for his unintentional humor and philosophical-sounding malapropisms known as 'Yogi-isms,' such as 'It ain't over 'til it's over' and 'When you come to a fork in the road, take it.' After his playing career, he managed both the Yankees and New York Mets, leading the Yankees to the World Series in 1964 and the Mets to the 1973 World Series. His unique combination of baseball excellence and colorful personality made him one of the sport's most beloved figures.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Yogi_Berra",
+    "citationTitle": "Wikipedia: Yogi Berra"
+  },
+  {
+    "id": "bf29d26f-8a49-4897-9668-faf4b3a951cb",
+    "text": "Which Hall of Fame shortstop was known as 'Mr. Cub' and played his entire 19-year career with the Chicago Cubs?",
+    "options": [
+      "Luis Aparicio",
+      "Ernie Banks",
+      "Phil Rizzuto",
+      "Pee Wee Reese"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "medium",
+    "explanation": "Ernie Banks earned the nickname 'Mr. Cub' for his loyalty to the Chicago Cubs and his enthusiastic catchphrase 'Let's play two!'",
+    "detailedExplanation": "Ernie Banks, inducted into the Hall of Fame in 1977, played his entire 19-year career (1953-1971) with the Chicago Cubs, earning the nickname 'Mr. Cub' for his unwavering loyalty and positive attitude despite playing for a team that never reached the World Series during his career. Banks was famous for his enthusiasm for the game, often saying 'Let's play two!' when referring to doubleheaders. He hit 512 career home runs and won back-to-back National League MVP awards in 1958 and 1959. Banks was the first African American player for the Cubs and became one of baseball's most beloved ambassadors.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Ernie_Banks",
+    "citationTitle": "Wikipedia: Ernie Banks"
+  },
+  {
+    "id": "ccafab38-36d3-4e45-98a2-0e09399c1c8d",
+    "text": "Which Hall of Fame outfielder made 'The Catch' in the 1954 World Series at the Polo Grounds?",
+    "options": [
+      "Mickey Mantle",
+      "Duke Snider",
+      "Willie Mays",
+      "Ted Williams"
+    ],
+    "correctIndex": 2,
+    "category": "sports",
+    "difficulty": "medium",
+    "explanation": "Willie Mays made the famous over-the-shoulder catch of Vic Wertz's deep fly ball in Game 1 of the 1954 World Series.",
+    "detailedExplanation": "Willie Mays made 'The Catch' during Game 1 of the 1954 World Series at the Polo Grounds in New York. With the game tied 2-2 in the eighth inning and Cleveland Indians runners on base, Vic Wertz hit a deep fly ball to center field. Mays sprinted toward the wall, caught the ball over his shoulder at approximately 460 feet from home plate, then quickly turned and threw the ball back to the infield to prevent the runners from advancing. The Giants went on to win the game and sweep the series. This play is considered one of the greatest defensive plays in World Series history and exemplified Mays' incredible athleticism and baseball instincts.",
+    "citationUrl": "https://en.wikipedia.org/wiki/The_Catch_(baseball)",
+    "citationTitle": "Wikipedia: The Catch (baseball)"
+  },
+  {
+    "id": "91dbdd6b-eda8-465f-9844-7ab94c6935e9",
+    "text": "Which Hall of Fame third baseman, known as 'Mr. October,' hit three consecutive home runs in Game 6 of the 1977 World Series?",
+    "options": [
+      "Mike Schmidt",
+      "George Brett",
+      "Reggie Jackson",
+      "Wade Boggs"
+    ],
+    "correctIndex": 2,
+    "category": "sports",
+    "difficulty": "medium",
+    "explanation": "Reggie Jackson earned the nickname 'Mr. October' for his clutch postseason performances, including three home runs on three consecutive pitches in the 1977 World Series.",
+    "detailedExplanation": "Reggie Jackson earned his legendary nickname 'Mr. October' through his exceptional postseason performances, most notably in Game 6 of the 1977 World Series against the Los Angeles Dodgers. Jackson hit three home runs on three consecutive swings, with each home run coming on the first pitch he saw from three different pitchers. This performance capped off a World Series in which he hit five home runs total, leading the New York Yankees to the championship. Jackson was inducted into the Hall of Fame in 1993 after a career that included 563 regular season home runs and numerous clutch postseason moments that cemented his reputation as one of baseball's greatest performers under pressure.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Reggie_Jackson",
+    "citationTitle": "Wikipedia: Reggie Jackson"
+  },
+  {
+    "id": "eac7ae1d-d0db-466b-adca-2cbbe0bc8b94",
+    "text": "Which Hall of Fame pitcher was nicknamed 'The Big Train' and played his entire 21-year career with the Washington Senators?",
+    "options": [
+      "Christy Mathewson",
+      "Walter Johnson",
+      "Cy Young",
+      "Grover Cleveland Alexander"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "medium",
+    "explanation": "Walter Johnson was known as 'The Big Train' and spent his entire career with Washington.",
+    "detailedExplanation": "Walter Johnson, inducted into the Hall of Fame in 1936, earned the nickname 'The Big Train' for his blazing fastball that was estimated to reach over 100 mph. He played his entire 21-year career (1907-1927) with the Washington Senators, winning 417 games and striking out 3,509 batters. Johnson was one of the five original inductees into the Baseball Hall of Fame along with Babe Ruth, Ty Cobb, Honus Wagner, and Christy Mathewson.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Walter_Johnson",
+    "citationTitle": "Wikipedia: Walter Johnson"
+  },
+  {
+    "id": "e5adf6a7-4740-47b2-89c6-851d3c8b1201",
+    "text": "Which Hall of Fame second baseman was known as 'The Human Vacuum Cleaner' for his exceptional defensive skills?",
+    "options": [
+      "Joe Morgan",
+      "Ryne Sandberg",
+      "Brooks Robinson",
+      "Ozzie Smith"
+    ],
+    "correctIndex": 2,
+    "category": "sports",
+    "difficulty": "medium",
+    "explanation": "Brooks Robinson earned this nickname for his incredible defensive play at third base, not second base - he was actually a third baseman.",
+    "detailedExplanation": "Brooks Robinson, the Baltimore Orioles' Hall of Fame third baseman (not second baseman as the question incorrectly states), was nicknamed 'The Human Vacuum Cleaner' for his extraordinary defensive abilities. He won 16 consecutive Gold Glove Awards from 1960-1975 and was inducted into the Hall of Fame in 1983. Robinson was famous for making seemingly impossible defensive plays look routine, particularly during the 1970 World Series where his glove work helped the Orioles defeat the Cincinnati Reds.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Brooks_Robinson",
+    "citationTitle": "Wikipedia: Brooks Robinson"
+  },
+  {
+    "id": "42fe33e1-5acc-412e-b2b9-7ee95296feb2",
+    "text": "What is the maximum number of years a player can remain on the Hall of Fame ballot if not elected?",
+    "options": [
+      "5 years",
+      "10 years",
+      "15 years",
+      "20 years"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "medium",
+    "explanation": "Players can remain on the Hall of Fame ballot for a maximum of 10 years if they continue to receive at least 5% of the vote.",
+    "detailedExplanation": "According to Baseball Hall of Fame voting rules, a player can remain on the ballot for up to 10 years, provided they receive at least 5% of the vote each year. If a player falls below 5% support in any given year, they are removed from future ballots. Players who receive 75% or more of the vote are elected immediately. This 10-year window creates urgency for borderline candidates and has led to some controversial cases where deserving players have fallen off the ballot without election.",
+    "citationUrl": "https://en.wikipedia.org/wiki/National_Baseball_Hall_of_Fame_and_Museum",
+    "citationTitle": "Wikipedia: National Baseball Hall of Fame and Museum"
+  },
+  {
+    "id": "ae4fe1aa-e479-42b7-ab56-80223ed59013",
+    "text": "Which Hall of Fame player holds the record for most career stolen bases?",
+    "options": [
+      "Tim Raines",
+      "Rickey Henderson",
+      "Lou Brock",
+      "Ty Cobb"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "medium",
+    "explanation": "Rickey Henderson stole 1,406 bases during his career, far more than any other player in baseball history.",
+    "detailedExplanation": "Rickey Henderson, inducted into the Hall of Fame in 2009, holds the all-time record for stolen bases with 1,406 during his 25-year career. Henderson broke Lou Brock's previous record of 938 stolen bases in 1991 and continued to extend his record until his retirement in 2003. Known as the 'Man of Steal,' Henderson also holds records for most runs scored (2,295) and most times caught stealing (335). His base-stealing prowess and leadoff hitting made him one of the most dynamic players in baseball history.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Rickey_Henderson",
+    "citationTitle": "Wikipedia: Rickey Henderson"
+  }
+]

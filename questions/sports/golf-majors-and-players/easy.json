@@ -1,0 +1,342 @@
+[
+  {
+    "id": "9e7c24e0-de28-4959-b1d7-abb8a69d01f2",
+    "text": "Which golfer is known as 'The Golden Bear' and holds the record for most major championship wins?",
+    "options": [
+      "Arnold Palmer",
+      "Jack Nicklaus",
+      "Tiger Woods",
+      "Gary Player"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "Jack Nicklaus earned the nickname 'The Golden Bear' and won 18 major championships.",
+    "detailedExplanation": "Jack Nicklaus, nicknamed 'The Golden Bear' due to his blonde hair and powerful build, holds the record for most major championship victories with 18 wins. His major victories span from 1962 to 1986, including 6 Masters tournaments, 5 PGA Championships, 4 U.S. Opens, and 3 Open Championships. This record has stood as the benchmark for greatness in professional golf.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Jack_Nicklaus",
+    "citationTitle": "Wikipedia: Jack Nicklaus"
+  },
+  {
+    "id": "ca1ec40d-cd61-4906-b3be-3de12fb86b5f",
+    "text": "How many major championships are there in men's professional golf each year?",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "There are four major championships: Masters, PGA Championship, U.S. Open, and The Open Championship.",
+    "detailedExplanation": "The four major championships in men's professional golf are considered the most prestigious tournaments in the sport. They are: The Masters Tournament (held in April at Augusta National), the PGA Championship (May), the U.S. Open (June), and The Open Championship or British Open (July). Winning all four in a career constitutes a Career Grand Slam, while winning all four in a single year would be a Grand Slam.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Men%27s_major_golf_championships",
+    "citationTitle": "Wikipedia: Men's major golf championships"
+  },
+  {
+    "id": "019588a9-3c4d-4770-981b-59993c2c243b",
+    "text": "At which golf course is The Masters Tournament held every year?",
+    "options": [
+      "Pebble Beach",
+      "St. Andrews",
+      "Augusta National",
+      "Pinehurst"
+    ],
+    "correctIndex": 2,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "The Masters is held annually at Augusta National Golf Club in Georgia.",
+    "detailedExplanation": "Augusta National Golf Club in Augusta, Georgia, has been the exclusive home of The Masters Tournament since 1934. The course was co-designed by Bobby Jones and Alister MacKenzie and is famous for its pristine conditions, azaleas, and the iconic green jacket awarded to winners. Unlike other majors that rotate venues, The Masters has remained at Augusta National, making it one of the most recognizable golf courses in the world.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Augusta_National_Golf_Club",
+    "citationTitle": "Wikipedia: Augusta National Golf Club"
+  },
+  {
+    "id": "a6e2d669-8c20-4abb-8006-59f0ea3d55ae",
+    "text": "Which golfer completed the 'Tiger Slam' by holding all four major titles at the same time?",
+    "options": [
+      "Phil Mickelson",
+      "Tiger Woods",
+      "Rory McIlroy",
+      "Jordan Spieth"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "Tiger Woods held all four major titles simultaneously from 2000-2001, known as the 'Tiger Slam.'",
+    "detailedExplanation": "Tiger Woods achieved the 'Tiger Slam' by winning four consecutive major championships across two calendar years: the 2000 U.S. Open, 2000 Open Championship, 2000 PGA Championship, and 2001 Masters. While not technically a Grand Slam (which requires winning all four in the same calendar year), this feat of holding all four major titles simultaneously had never been accomplished in the modern era and demonstrated Woods' dominance during his peak years.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Tiger_Woods",
+    "citationTitle": "Wikipedia: Tiger Woods"
+  },
+  {
+    "id": "f9ff1c86-521b-4198-bb5f-b5da439c0bfc",
+    "text": "What is the prize awarded to the winner of The Masters Tournament?",
+    "options": [
+      "Yellow jersey",
+      "Green jacket",
+      "Silver cup",
+      "Gold medal"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "The Masters winner receives the famous green jacket, a tradition since 1949.",
+    "detailedExplanation": "The green jacket is the most iconic prize in golf, awarded to Masters Tournament winners since 1949. The jacket is made exclusively for Augusta National and can only be worn by club members and Masters champions. Winners keep the jacket for one year and must return it to Augusta National, though they can wear it on the club grounds at any time. The tradition symbolizes membership in one of golf's most exclusive clubs.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Green_jacket",
+    "citationTitle": "Wikipedia: Green jacket"
+  },
+  {
+    "id": "f966a649-ad9c-4d17-b9a3-00de89dfa721",
+    "text": "Which major championship is known as 'The Open Championship' or 'British Open'?",
+    "options": [
+      "The oldest major championship",
+      "The newest major championship",
+      "The most expensive to attend",
+      "The shortest tournament"
+    ],
+    "correctIndex": 0,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "The Open Championship, first held in 1860, is the oldest of the four major championships.",
+    "detailedExplanation": "The Open Championship, often called the British Open outside the UK, was first held in 1860 at Prestwick Golf Club in Scotland, making it the oldest of golf's major championships. It's simply called 'The Open' because it was the first major tournament to be open to both professional and amateur golfers. The championship is always held on links courses in the UK, typically featuring challenging coastal conditions with wind and firm, fast-running fairways.",
+    "citationUrl": "https://en.wikipedia.org/wiki/The_Open_Championship",
+    "citationTitle": "Wikipedia: The Open Championship"
+  },
+  {
+    "id": "8a9abcfd-0b66-422d-9c0a-87a1a8a99d08",
+    "text": "Who was the first golfer to win all four major championships in a single calendar year?",
+    "options": [
+      "Bobby Jones",
+      "Ben Hogan",
+      "Arnold Palmer",
+      "Sam Snead"
+    ],
+    "correctIndex": 0,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "Bobby Jones achieved the Grand Slam in 1930, though it included amateur championships at that time.",
+    "detailedExplanation": "Bobby Jones completed the Grand Slam in 1930, but the four majors were different then: the U.S. Open, British Open, U.S. Amateur, and British Amateur championships. This was considered the Grand Slam because Jones was an amateur and these were the four most prestigious tournaments available to him. No professional golfer has ever won all four modern professional majors in a single calendar year, making Jones's achievement unique in golf history.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Bobby_Jones_(golfer)",
+    "citationTitle": "Wikipedia: Bobby Jones (golfer)"
+  },
+  {
+    "id": "37377070-7f44-4ce7-9fe3-98da3d4be806",
+    "text": "Which golfer is known for his aggressive style and famous charge up leaderboards, earning him the nickname 'Arnie's Army' of fans?",
+    "options": [
+      "Gary Player",
+      "Arnold Palmer",
+      "Tom Watson",
+      "Lee Trevino"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "Arnold Palmer's charismatic and aggressive playing style attracted devoted fans known as 'Arnie's Army.'",
+    "detailedExplanation": "Arnold Palmer became one of golf's first television stars in the 1950s and 1960s, known for his aggressive, go-for-broke playing style and charismatic personality. His devoted followers were nicknamed 'Arnie's Army,' and they would follow him around courses in large, enthusiastic groups. Palmer won seven major championships and was instrumental in popularizing golf on television. His rivalry with Jack Nicklaus and Gary Player formed golf's 'Big Three' era.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Arnold_Palmer",
+    "citationTitle": "Wikipedia: Arnold Palmer"
+  },
+  {
+    "id": "5333fde9-216b-4895-ad19-9974185be2d2",
+    "text": "Which golf major is typically played at the same venue every year?",
+    "options": [
+      "The Open Championship",
+      "PGA Championship",
+      "The Masters",
+      "U.S. Open"
+    ],
+    "correctIndex": 2,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "The Masters is always held at Augusta National Golf Club in Georgia.",
+    "detailedExplanation": "Unlike the other three major championships which rotate between different golf courses, The Masters Tournament is unique in that it is held at the same venue every year - Augusta National Golf Club in Augusta, Georgia. This tradition has been maintained since the tournament's inception in 1934, making Augusta National one of the most iconic and recognizable golf courses in the world.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Masters_Tournament",
+    "citationTitle": "Wikipedia: Masters Tournament"
+  },
+  {
+    "id": "cdee851d-eb35-4869-b1fb-67cd3d6cdb92",
+    "text": "What nationality is golf legend Rory McIlroy?",
+    "options": [
+      "Scottish",
+      "English",
+      "Northern Irish",
+      "Irish"
+    ],
+    "correctIndex": 2,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "Rory McIlroy is from Northern Ireland.",
+    "detailedExplanation": "Rory McIlroy was born in Holywood, Northern Ireland, in 1989. He is one of the most successful golfers of his generation, having won four major championships by age 25. McIlroy has been ranked as the world's number one golfer multiple times and is known for his powerful driving and exceptional putting skills.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Rory_McIlroy",
+    "citationTitle": "Wikipedia: Rory McIlroy"
+  },
+  {
+    "id": "7c1bf558-c34b-4eeb-aa4a-db359cf938ad",
+    "text": "Which major championship is played on links-style courses in the United Kingdom?",
+    "options": [
+      "U.S. Open",
+      "The Open Championship",
+      "PGA Championship",
+      "The Masters"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "The Open Championship is played on traditional links courses in the UK.",
+    "detailedExplanation": "The Open Championship, often called the British Open, is the oldest of the four major championships and is traditionally played on links-style golf courses throughout the United Kingdom. Links courses are characterized by their seaside locations, firm turf, deep bunkers, and exposure to wind and weather elements. Famous Open Championship venues include St. Andrews, Royal Birkdale, and Royal St. George's.",
+    "citationUrl": "https://en.wikipedia.org/wiki/The_Open_Championship",
+    "citationTitle": "Wikipedia: The Open Championship"
+  },
+  {
+    "id": "dddac782-4624-474a-b63b-24b190bedfa4",
+    "text": "Which golfer is known as 'Lefty' due to his playing style?",
+    "options": [
+      "Phil Mickelson",
+      "Bubba Watson",
+      "Adam Scott",
+      "Jason Day"
+    ],
+    "correctIndex": 0,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "Phil Mickelson is nicknamed 'Lefty' because he plays golf left-handed.",
+    "detailedExplanation": "Phil Mickelson earned the nickname 'Lefty' because he plays golf left-handed, which is relatively uncommon in professional golf. Interestingly, Mickelson is naturally right-handed in most other activities but learned to play golf by mirroring his right-handed father's swing. He has won six major championships and is considered one of the greatest golfers of all time.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Phil_Mickelson",
+    "citationTitle": "Wikipedia: Phil Mickelson"
+  },
+  {
+    "id": "fbad6797-d2ad-446e-ad0b-bcf72248eb17",
+    "text": "In which month is the U.S. Open golf championship typically held?",
+    "options": [
+      "May",
+      "June",
+      "July",
+      "August"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "The U.S. Open is traditionally held in mid-June.",
+    "detailedExplanation": "The U.S. Open golf championship is typically held in mid-June each year, making it the third major championship of the golf season after The Masters (April) and the PGA Championship (May). The tournament is known for its challenging course setups with thick rough, narrow fairways, and fast greens, often resulting in higher scores than the other majors.",
+    "citationUrl": "https://en.wikipedia.org/wiki/U.S._Open_(golf)",
+    "citationTitle": "Wikipedia: U.S. Open (golf)"
+  },
+  {
+    "id": "ffd82caf-36cd-49ab-8dbe-b68316c33830",
+    "text": "Which golfer won his first major championship at the 1997 Masters at age 21?",
+    "options": [
+      "Rory McIlroy",
+      "Jordan Spieth",
+      "Tiger Woods",
+      "Justin Thomas"
+    ],
+    "correctIndex": 2,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "Tiger Woods won the 1997 Masters at age 21, his first major championship.",
+    "detailedExplanation": "Tiger Woods made history at the 1997 Masters Tournament when he won by 12 strokes at just 21 years old, becoming the youngest Masters champion at that time. This victory marked the beginning of his dominance in professional golf and broke several records, including the largest margin of victory in Masters history and the lowest 72-hole score at Augusta National.",
+    "citationUrl": "https://en.wikipedia.org/wiki/1997_Masters_Tournament",
+    "citationTitle": "Wikipedia: 1997 Masters Tournament"
+  },
+  {
+    "id": "db8529f0-a2b6-4a58-93a2-d351419a8319",
+    "text": "What is the minimum age requirement to compete in major golf championships?",
+    "options": [
+      "16 years old",
+      "18 years old",
+      "21 years old",
+      "There is no minimum age"
+    ],
+    "correctIndex": 3,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "There is no minimum age requirement for major golf championships.",
+    "detailedExplanation": "Unlike many other sports, professional golf majors do not have a minimum age requirement for competitors. Players can qualify through various methods including world rankings, qualifying tournaments, or amateur status. The youngest player to make a cut in a major was Guan Tianlang, who was 14 years old when he played in the 2013 Masters Tournament as the reigning Asia-Pacific Amateur Champion.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Men%27s_major_golf_championships",
+    "citationTitle": "Wikipedia: Men's major golf championships"
+  },
+  {
+    "id": "68a5399e-3de2-4a9d-af60-684bdcf80c23",
+    "text": "Which South African golfer is known as 'The Big Easy'?",
+    "options": [
+      "Charl Schwartzel",
+      "Louis Oosthuizen",
+      "Ernie Els",
+      "Retief Goosen"
+    ],
+    "correctIndex": 2,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "Ernie Els is nicknamed 'The Big Easy' due to his smooth, effortless swing.",
+    "detailedExplanation": "Ernie Els, the South African professional golfer, earned the nickname 'The Big Easy' because of his tall stature (6'3') and his remarkably smooth, seemingly effortless golf swing. Els has won four major championships - two U.S. Opens (1994, 1997) and two Open Championships (2002, 2012). He was inducted into the World Golf Hall of Fame in 2011 and is considered one of the finest golfers of his generation.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Ernie_Els",
+    "citationTitle": "Wikipedia: Ernie Els"
+  },
+  {
+    "id": "9d359ec0-1ad7-42fd-8263-9207be86beb5",
+    "text": "Which golfer is nicknamed 'The Shark' and is known for coming close to winning many major championships?",
+    "options": [
+      "Greg Norman",
+      "Ernie Els",
+      "Vijay Singh",
+      "Nick Faldo"
+    ],
+    "correctIndex": 0,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "Greg Norman earned the nickname 'The Shark' and was famous for his near-misses in major championships.",
+    "detailedExplanation": "Australian golfer Greg Norman earned the nickname 'The Shark' due to his aggressive playing style and blonde hair. Despite his incredible talent and numerous victories on the PGA Tour, Norman became somewhat infamous for his close calls in major championships, finishing second in majors eight times. His most notable near-miss was at the 1996 Masters, where he led by six strokes entering the final round but lost to Nick Faldo.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Greg_Norman",
+    "citationTitle": "Wikipedia: Greg Norman"
+  },
+  {
+    "id": "8d4f8bae-eb5f-4bf3-b6c2-54444edcd74c",
+    "text": "Which major championship rotates between different courses each year and is organized by the PGA of America?",
+    "options": [
+      "PGA Championship",
+      "U.S. Open",
+      "The Open Championship",
+      "The Masters"
+    ],
+    "correctIndex": 0,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "The PGA Championship is run by the PGA of America and moves to different venues each year.",
+    "detailedExplanation": "The PGA Championship is one of golf's four major championships and is organized by the Professional Golfers' Association of America (PGA of America). Unlike The Masters, which is always held at Augusta National, the PGA Championship rotates between different prestigious golf courses across the United States each year. It is typically held in May and features the strongest field in professional golf, as it has the most liberal qualifying criteria of all the majors.",
+    "citationUrl": "https://en.wikipedia.org/wiki/PGA_Championship",
+    "citationTitle": "Wikipedia: PGA Championship"
+  },
+  {
+    "id": "cd418793-6890-49d9-9063-4f6f14f89e67",
+    "text": "Which English golfer won six major championships and was known for his methodical approach to the game?",
+    "options": [
+      "Nick Faldo",
+      "Colin Montgomerie",
+      "Ian Poulter",
+      "Justin Rose"
+    ],
+    "correctIndex": 0,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "Nick Faldo won six majors (three Masters and three Open Championships) and was famous for his analytical, methodical style.",
+    "detailedExplanation": "Sir Nick Faldo is one of England's greatest golfers, winning six major championships during his career - three Masters Tournaments (1989, 1990, 1996) and three Open Championships (1987, 1990, 1992). Faldo was renowned for his meticulous preparation and methodical approach to the game, completely rebuilding his swing in the mid-1980s with coach David Leadbetter. His patient, strategic style of play made him particularly effective in major championships, where course management and mental fortitude are crucial.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Nick_Faldo",
+    "citationTitle": "Wikipedia: Nick Faldo"
+  },
+  {
+    "id": "ebf04181-240d-4423-937c-dd9fbd4303a5",
+    "text": "What is the term for winning all four major golf championships during a player's career?",
+    "options": [
+      "Career Grand Slam",
+      "Golden Slam",
+      "Major Sweep",
+      "Championship Circuit"
+    ],
+    "correctIndex": 0,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "A Career Grand Slam is achieved when a golfer wins all four major championships at some point during their career.",
+    "detailedExplanation": "The Career Grand Slam in professional golf refers to winning all four major championships - The Masters, PGA Championship, U.S. Open, and The Open Championship - at any point during a player's career, not necessarily in the same year. Only five players in history have achieved this feat: Gene Sarazen, Ben Hogan, Gary Player, Jack Nicklaus, and Tiger Woods. This is different from the Grand Slam (winning all four in one calendar year) which has only been accomplished by Bobby Jones in 1930, though his included the U.S. and British Amateur championships.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Grand_Slam_(golf)",
+    "citationTitle": "Wikipedia: Grand Slam (golf)"
+  }
+]

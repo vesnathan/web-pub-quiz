@@ -1,0 +1,342 @@
+[
+  {
+    "id": "4b23f6ed-40df-4c72-ab7f-7975cb25197d",
+    "text": "Which company released the first commercially successful portable music player that used flash memory instead of moving parts?",
+    "options": [
+      "Apple",
+      "Creative Labs",
+      "Diamond Multimedia",
+      "Sony"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Diamond Multimedia released the Rio PMP300 in 1998, the first successful flash-memory-based portable music player.",
+    "detailedExplanation": "Diamond Multimedia's Rio PMP300, launched in 1998, was the first commercially successful portable music player to use flash memory storage instead of moving parts like CD players or cassette players. With 32MB of internal memory, it could store about 60 minutes of music and became the target of a famous lawsuit by the Recording Industry Association of America. This device predated the iPod by three years and established the foundation for the digital music player market.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Rio_PMP300",
+    "citationTitle": "Wikipedia: Rio PMP300"
+  },
+  {
+    "id": "23206b1e-0745-4599-b8da-0c6769e0f77d",
+    "text": "What does the 'K' in '4K' television resolution specifically refer to?",
+    "options": [
+      "4,000 total pixels",
+      "4,000 pixels wide approximately",
+      "4 kilobytes of memory",
+      "4,000 hertz refresh rate"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "The 'K' in 4K refers to approximately 4,000 pixels in the horizontal width of the display.",
+    "detailedExplanation": "In 4K television resolution, the 'K' stands for the approximate number of pixels along the horizontal axis, which is about 4,000 pixels wide (specifically 3,840 pixels in consumer 4K UHD). This naming convention originated from digital cinema standards where 4K referred to 4,096 pixels wide. The 'K' represents 'kilo' meaning thousand, so 4K literally means '4 thousand,' referring to the horizontal pixel count rather than total pixels, memory, or refresh rate.",
+    "citationUrl": "https://en.wikipedia.org/wiki/4K_resolution",
+    "citationTitle": "Wikipedia: 4K resolution"
+  },
+  {
+    "id": "6b5a0514-597d-4fbe-a2af-570ed159978c",
+    "text": "Which gaming console was the first to sell over 100 million units worldwide?",
+    "options": [
+      "Nintendo Entertainment System",
+      "Sony PlayStation",
+      "Atari 2600",
+      "Nintendo Game Boy"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "The original Sony PlayStation was the first gaming console to surpass 100 million units sold worldwide.",
+    "detailedExplanation": "The Sony PlayStation, released in 1994, became the first gaming console in history to sell over 100 million units worldwide, ultimately reaching 102.49 million units sold. This milestone was achieved through Sony's successful strategy of targeting both children and adults, securing exclusive third-party games, and using CD-ROM technology instead of expensive cartridges. The PlayStation's success marked a significant shift in the gaming industry and established Sony as a major player in the console market.",
+    "citationUrl": "https://en.wikipedia.org/wiki/PlayStation_(console)",
+    "citationTitle": "Wikipedia: PlayStation (console)"
+  },
+  {
+    "id": "5444c3ee-4714-4841-a0f6-b1565aabc49a",
+    "text": "What technology do OLED displays use to produce light?",
+    "options": [
+      "LED backlighting",
+      "Organic compounds that emit light when electric current is applied",
+      "Liquid crystals with fluorescent tubes",
+      "Plasma gas chambers"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "OLED displays use organic compounds that naturally emit light when electricity passes through them, requiring no backlight.",
+    "detailedExplanation": "OLED (Organic Light-Emitting Diode) displays use thin films of organic compounds that emit light when an electric current is applied to them. Unlike LCD displays that require a separate backlight, each OLED pixel generates its own light through electroluminescence. This technology allows for true blacks (pixels can be completely turned off), infinite contrast ratios, and thinner display panels. The organic materials used include small organic molecules or organic polymers that glow when stimulated by electricity.",
+    "citationUrl": "https://en.wikipedia.org/wiki/OLED",
+    "citationTitle": "Wikipedia: OLED"
+  },
+  {
+    "id": "43d7cb6d-6421-4105-a881-f4804f8f7116",
+    "text": "Which company manufactured the first consumer VCR (Video Cassette Recorder) sold in the United States?",
+    "options": [
+      "Sony",
+      "JVC",
+      "Panasonic",
+      "Philips"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Sony released the first consumer VCR in the US market with their Betamax system in 1975.",
+    "detailedExplanation": "Sony introduced the first consumer VCR to the United States market in 1975 with their Betamax system, specifically the Sony LV-1901 model. This revolutionary device allowed consumers to record television programs and play back pre-recorded content at home for the first time. Although JVC's VHS format would eventually win the format war due to longer recording times and broader industry support, Sony's Betamax was technically superior in picture quality and was the first to bring video recording technology to American homes.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Betamax",
+    "citationTitle": "Wikipedia: Betamax"
+  },
+  {
+    "id": "9ab20f3d-ec5f-4874-9c19-90582fa4a002",
+    "text": "What does 'DPI' measure in digital cameras and scanners?",
+    "options": [
+      "Dots Per Inch - the resolution or detail level",
+      "Digital Processing Index - the speed of image processing",
+      "Dynamic Pixel Intensity - the brightness range",
+      "Depth Perception Indicator - the focus quality"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "DPI stands for Dots Per Inch and measures the resolution or level of detail that can be captured or displayed.",
+    "detailedExplanation": "DPI (Dots Per Inch) is a measurement of resolution that indicates how many individual dots or pixels can fit within one linear inch. In digital cameras and scanners, higher DPI values mean greater detail and sharper images because more information is captured per inch of the subject. For example, a scanner with 300 DPI can capture 300 individual points of data per inch, while a 1200 DPI scanner captures four times more detail. This measurement is crucial for determining print quality and image clarity.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Dots_per_inch",
+    "citationTitle": "Wikipedia: Dots per inch"
+  },
+  {
+    "id": "d8317f8f-84c3-4411-8c3d-2e18460b737d",
+    "text": "Which wireless technology standard was specifically designed for short-range communication between consumer electronics devices?",
+    "options": [
+      "Wi-Fi",
+      "Bluetooth",
+      "Cellular",
+      "Satellite"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Bluetooth was specifically designed for short-range wireless communication between consumer devices.",
+    "detailedExplanation": "Bluetooth technology was developed specifically for short-range wireless communication between consumer electronics devices, typically within a range of 30 feet (10 meters). Named after King Harald Bluetooth of Denmark, this technology was designed to replace cables connecting devices like headphones, keyboards, mice, speakers, and smartphones. Unlike Wi-Fi which is designed for internet connectivity and longer ranges, Bluetooth focuses on low-power, device-to-device communication, making it ideal for personal area networks (PANs) and portable device connectivity.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Bluetooth",
+    "citationTitle": "Wikipedia: Bluetooth"
+  },
+  {
+    "id": "20e6298d-8cdf-4b71-bd29-02e9f1208ad0",
+    "text": "What year was the first commercially available digital camera released to consumers?",
+    "options": [
+      "1988",
+      "1991",
+      "1995",
+      "1998"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "The first consumer digital camera, the Kodak DCS-100, was released in 1991.",
+    "detailedExplanation": "The Kodak DCS-100, released in 1991, was the first commercially available digital camera targeted at consumers, though its $13,000 price tag limited it mainly to professional photographers. This camera was based on a modified Nikon F3 body and could capture 1.3-megapixel images stored on a separate shoulder-mounted digital storage unit. While earlier digital cameras existed for scientific and industrial use, the DCS-100 marked the beginning of the transition from film to digital photography in the consumer market, paving the way for the digital photography revolution.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Kodak_DCS",
+    "citationTitle": "Wikipedia: Kodak DCS"
+  },
+  {
+    "id": "a9b86ae6-4e42-4522-b655-617886b91e59",
+    "text": "What does 'HDR' stand for in modern television and monitor displays?",
+    "options": [
+      "High Definition Range",
+      "High Dynamic Range",
+      "High Display Resolution",
+      "High Data Rate"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "HDR stands for High Dynamic Range, a technology that enhances contrast and color accuracy.",
+    "detailedExplanation": "High Dynamic Range (HDR) is a display technology that provides a wider range of colors and greater contrast between the darkest and brightest parts of an image. HDR displays can show more detail in both shadows and highlights, creating more realistic and vibrant images compared to standard dynamic range displays. Popular HDR formats include HDR10, Dolby Vision, and HDR10+.",
+    "citationUrl": "https://en.wikipedia.org/wiki/High_dynamic_range",
+    "citationTitle": "Wikipedia: High Dynamic Range"
+  },
+  {
+    "id": "7a7a91c3-75a8-4e58-8346-4cbed32b1aac",
+    "text": "Which company developed the Blu-ray disc format?",
+    "options": [
+      "Sony",
+      "Panasonic",
+      "Samsung",
+      "Toshiba"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Sony developed the Blu-ray disc format, which became the successor to DVD.",
+    "detailedExplanation": "Sony developed the Blu-ray disc format in the early 2000s as a high-definition optical disc storage medium. The format was designed to supersede DVD and could store much more data due to its use of blue laser technology. Blu-ray won the format war against Toshiba's competing HD-DVD format, becoming the standard for high-definition physical media distribution.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Blu-ray",
+    "citationTitle": "Wikipedia: Blu-ray"
+  },
+  {
+    "id": "77bd8ca9-6dcd-4bbd-a16f-531158ed5a94",
+    "text": "What is the maximum theoretical range of Bluetooth 5.0 in open air?",
+    "options": [
+      "50 meters",
+      "100 meters",
+      "200 meters",
+      "240 meters"
+    ],
+    "correctIndex": 3,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Bluetooth 5.0 has a maximum theoretical range of 240 meters in open air conditions.",
+    "detailedExplanation": "Bluetooth 5.0, released in 2016, significantly improved upon previous versions with enhanced range, speed, and connectivity. Under ideal conditions in open air with no obstacles, Bluetooth 5.0 can theoretically reach up to 240 meters (about 800 feet). However, in real-world indoor environments, the practical range is typically much shorter due to walls, interference, and other obstacles.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Bluetooth_Low_Energy",
+    "citationTitle": "Wikipedia: Bluetooth Low Energy"
+  },
+  {
+    "id": "514fa827-5e6c-4237-b9b5-9314c6ee75b1",
+    "text": "Which type of battery chemistry is most commonly used in modern smartphone batteries?",
+    "options": [
+      "Nickel-Metal Hydride",
+      "Lithium-Ion",
+      "Alkaline",
+      "Lead-Acid"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Lithium-Ion batteries are the standard power source for modern smartphones due to their high energy density.",
+    "detailedExplanation": "Lithium-Ion (Li-ion) batteries have become the dominant battery technology in smartphones and most portable consumer electronics. They offer several advantages including high energy density, relatively low self-discharge, and no memory effect. Li-ion batteries can be recharged hundreds of times and provide consistent power output throughout their discharge cycle, making them ideal for devices that require reliable, long-lasting power in a compact form factor.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Lithium-ion_battery",
+    "citationTitle": "Wikipedia: Lithium-ion battery"
+  },
+  {
+    "id": "c5e43547-810f-493d-9103-52aac080f088",
+    "text": "What does 'NFC' technology in smartphones primarily enable?",
+    "options": [
+      "Near Field Communication",
+      "Network File Control",
+      "New Frequency Calibration",
+      "Neural Function Computing"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "NFC stands for Near Field Communication, enabling short-range wireless data exchange.",
+    "detailedExplanation": "Near Field Communication (NFC) is a short-range wireless communication technology that allows devices to exchange data when they are very close together, typically within 4 centimeters. In smartphones, NFC is commonly used for contactless payments (like Apple Pay and Google Pay), pairing with Bluetooth devices, sharing files between phones, and reading NFC tags. The technology operates at 13.56 MHz and provides a secure, convenient way for devices to communicate.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Near-field_communication",
+    "citationTitle": "Wikipedia: Near-field communication"
+  },
+  {
+    "id": "c8df414c-cfd9-4290-aaea-6d21faf286be",
+    "text": "Which audio codec is commonly associated with high-quality wireless audio transmission?",
+    "options": [
+      "MP3",
+      "AAC",
+      "aptX",
+      "WAV"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "aptX is a codec specifically designed for high-quality Bluetooth audio transmission.",
+    "detailedExplanation": "aptX is an audio codec developed by Qualcomm that provides near CD-quality audio over Bluetooth connections. Unlike standard Bluetooth audio codecs that can compress audio significantly, aptX uses advanced compression algorithms to maintain higher audio quality while still being suitable for wireless transmission. There are several variants including aptX, aptX HD for even higher quality, and aptX Low Latency for reduced audio delay in gaming and video applications.",
+    "citationUrl": "https://en.wikipedia.org/wiki/AptX",
+    "citationTitle": "Wikipedia: AptX"
+  },
+  {
+    "id": "ae0ccd09-7512-4a12-9673-8cbc2476f3a1",
+    "text": "What is the refresh rate of most standard LED/LCD televisions?",
+    "options": [
+      "30Hz",
+      "60Hz",
+      "120Hz",
+      "144Hz"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Most standard LED/LCD televisions operate at a 60Hz refresh rate.",
+    "detailedExplanation": "The majority of consumer LED and LCD televisions operate at a 60Hz refresh rate, meaning the screen updates the image 60 times per second. This matches the standard frame rate of most television broadcasts and streaming content. While higher refresh rate TVs (120Hz, 240Hz) are available and beneficial for gaming and sports viewing, 60Hz remains the standard for most content consumption. Some manufacturers use motion interpolation to simulate higher refresh rates, but the native panel refresh rate is typically 60Hz.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Refresh_rate",
+    "citationTitle": "Wikipedia: Refresh rate"
+  },
+  {
+    "id": "e9b0b5f0-4571-49a9-b037-b419a21e069e",
+    "text": "Which storage technology is used in modern solid-state drives (SSDs)?",
+    "options": [
+      "Magnetic tape",
+      "NAND flash memory",
+      "Optical discs",
+      "Magnetic platters"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "SSDs use NAND flash memory to store data without any moving parts.",
+    "detailedExplanation": "Solid-State Drives (SSDs) use NAND flash memory technology to store data electronically rather than magnetically. Unlike traditional hard disk drives that use spinning magnetic platters, SSDs have no moving parts, making them faster, more durable, and energy-efficient. NAND flash memory stores data in memory cells that can be electrically programmed and erased. This technology allows for much faster data access speeds, instant boot times, and better resistance to physical shock compared to mechanical storage devices.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Solid-state_drive",
+    "citationTitle": "Wikipedia: Solid-state drive"
+  },
+  {
+    "id": "90917449-6467-4ee2-9232-3f04709b0a2e",
+    "text": "Which consumer electronics company was founded in a garage in Los Altos, California in 1976 and introduced the first computer with a color display?",
+    "options": [
+      "Microsoft",
+      "Apple",
+      "IBM",
+      "Commodore"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Apple was founded by Steve Jobs and Steve Wozniak in 1976, and the Apple II was the first successful personal computer with color display capabilities.",
+    "detailedExplanation": "Apple Computer Company was founded on April 1, 1976, by Steve Jobs, Steve Wozniak, and Ronald Wayne in the Jobs family garage in Los Altos, California. The Apple II, released in 1977, was revolutionary for being one of the first highly successful mass-produced microcomputers and notably featured color display capabilities, which set it apart from competitors that only offered monochrome displays. This innovation helped establish Apple as a major player in the emerging personal computer market.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Apple_Inc.",
+    "citationTitle": "Wikipedia: Apple Inc."
+  },
+  {
+    "id": "b663ff23-2ff6-4e9f-8710-15a24deeea4f",
+    "text": "What is the standard power output rating for most household microwave ovens sold in North America?",
+    "options": [
+      "600-700 watts",
+      "800-1000 watts",
+      "1200-1400 watts",
+      "1500-1800 watts"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Most standard household microwave ovens in North America operate between 800-1000 watts, providing sufficient power for typical cooking and reheating tasks.",
+    "detailedExplanation": "The majority of countertop and over-the-range microwave ovens sold for home use in North America typically operate in the 800-1000 watt range. This power level provides an optimal balance between cooking efficiency and energy consumption for most household tasks like reheating leftovers, defrosting food, and basic cooking. Lower wattage units (600-700W) are generally considered underpowered for most tasks, while higher wattage commercial-grade units (1200W+) are less common in residential settings due to higher energy requirements and costs.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Microwave_oven",
+    "citationTitle": "Wikipedia: Microwave oven"
+  },
+  {
+    "id": "2e27aaf1-cb13-4dd0-8364-3992239a857b",
+    "text": "Which display technology creates images by electrically charging tiny capsules containing colored particles?",
+    "options": [
+      "LCD",
+      "E-ink",
+      "Plasma",
+      "CRT"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "E-ink (electronic ink) displays work by electrically manipulating tiny microcapsules containing charged black and white particles to form text and images.",
+    "detailedExplanation": "E-ink technology, also known as electronic paper or electrophoretic display, creates images by applying electric fields to millions of tiny microcapsules suspended in a liquid. Each microcapsule contains positively charged white particles and negatively charged black particles. When an electric field is applied, the particles move to either the top or bottom of the capsule, creating white or black pixels. This technology is most commonly seen in e-readers like Amazon Kindle devices because it mimics the appearance of printed paper, reduces eye strain, and consumes very little power since it only uses energy when changing the display.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Electronic_paper",
+    "citationTitle": "Wikipedia: Electronic paper"
+  },
+  {
+    "id": "b402c3bf-68cc-44ab-9065-9f1ed60a1ab9",
+    "text": "What does the 'S' typically stand for in smartphone model names like 'iPhone 6s' or 'Galaxy S' series?",
+    "options": [
+      "Speed",
+      "Special",
+      "Slim",
+      "System"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "The 'S' in smartphone naming conventions typically stands for 'Speed,' indicating improved performance over the base model.",
+    "detailedExplanation": "In smartphone naming conventions, particularly with Apple's iPhone series, the 'S' designation has historically stood for 'Speed,' indicating that the device features improved performance, faster processors, or enhanced capabilities compared to the base model. Apple introduced this naming pattern with the iPhone 3GS in 2009, where the 'S' explicitly meant speed due to the faster processor. Samsung's Galaxy S series also follows this convention, with the 'S' representing superior or speed-focused features. While manufacturers don't always explicitly state what the 'S' means, the general industry understanding and Apple's historical usage points to speed and performance enhancements.",
+    "citationUrl": "https://en.wikipedia.org/wiki/IPhone",
+    "citationTitle": "Wikipedia: iPhone"
+  }
+]

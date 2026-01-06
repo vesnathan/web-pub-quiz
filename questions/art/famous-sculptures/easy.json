@@ -1,0 +1,342 @@
+[
+  {
+    "id": "583313ec-4b72-4054-afd5-ca4aab9fa3d9",
+    "text": "Which famous sculpture by Michelangelo depicts the biblical hero who defeated Goliath?",
+    "options": [
+      "David",
+      "Moses",
+      "Pietà",
+      "Bacchus"
+    ],
+    "correctIndex": 0,
+    "category": "arts",
+    "difficulty": "easy",
+    "explanation": "Michelangelo's David is a marble masterpiece created between 1501-1504, depicting the biblical David before his battle with Goliath.",
+    "detailedExplanation": "Michelangelo's David is one of the most recognizable sculptures in the world, standing 17 feet tall and carved from a single block of marble. Created between 1501 and 1504, it depicts the biblical hero David in a moment of concentrated calm before his battle with the giant Goliath. Originally intended for the roofline of Florence Cathedral, it was instead placed in front of the Palazzo Vecchio as a symbol of the Florentine Republic's defiance against more powerful rivals.",
+    "citationUrl": "https://en.wikipedia.org/wiki/David_(Michelangelo)",
+    "citationTitle": "Wikipedia: David (Michelangelo)"
+  },
+  {
+    "id": "a2b4bb62-4c1d-4da0-b7cf-c83595d8450f",
+    "text": "In which city would you find Auguste Rodin's famous sculpture 'The Thinker'?",
+    "options": [
+      "London",
+      "Paris",
+      "Rome",
+      "New York"
+    ],
+    "correctIndex": 1,
+    "category": "arts",
+    "difficulty": "easy",
+    "explanation": "The original bronze cast of 'The Thinker' is located at the Musée Rodin in Paris, France.",
+    "detailedExplanation": "Auguste Rodin's 'The Thinker' was originally created in 1904 as part of a larger work called 'The Gates of Hell'. The most famous version sits at the Musée Rodin in Paris, though multiple bronze casts exist in museums worldwide. The sculpture depicts a nude male figure sitting on a rock with his chin resting on his hand, appearing deep in thought. It has become an iconic symbol of intellectual activity and philosophical contemplation.",
+    "citationUrl": "https://en.wikipedia.org/wiki/The_Thinker",
+    "citationTitle": "Wikipedia: The Thinker"
+  },
+  {
+    "id": "eecb8677-3e37-4dfe-918a-330e22b348e9",
+    "text": "What is the Statue of Liberty holding in her right hand?",
+    "options": [
+      "A sword",
+      "A torch",
+      "A book",
+      "An olive branch"
+    ],
+    "correctIndex": 1,
+    "category": "arts",
+    "difficulty": "easy",
+    "explanation": "The Statue of Liberty holds a torch in her raised right hand, symbolizing enlightenment and liberty.",
+    "detailedExplanation": "The Statue of Liberty, officially called 'Liberty Enlightening the World', holds a torch high in her right hand as a symbol of enlightenment lighting the way to freedom. In her left hand, she carries a tablet inscribed with the date of American independence. The statue was a gift from France to the United States in 1886, designed by French sculptor Frédéric Auguste Bartholdi. The torch has been regilded multiple times and represents the light of liberty shining across the world.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Statue_of_Liberty",
+    "citationTitle": "Wikipedia: Statue of Liberty"
+  },
+  {
+    "id": "781f0a4f-77f5-4481-bf5e-85a2a6f09b4e",
+    "text": "Which ancient Greek sculpture is famous for missing both arms?",
+    "options": [
+      "Venus de Milo",
+      "Nike of Samothrace",
+      "Discobolus",
+      "Laocoön"
+    ],
+    "correctIndex": 0,
+    "category": "arts",
+    "difficulty": "easy",
+    "explanation": "The Venus de Milo is the famous ancient Greek sculpture of Aphrodite that is missing both arms.",
+    "detailedExplanation": "The Venus de Milo, discovered on the Greek island of Milos in 1820, is an ancient Greek sculpture believed to depict Aphrodite (Venus in Roman mythology), the goddess of love and beauty. Created around 130-100 BCE, the marble statue stands about 6 feet 8 inches tall and is famous for its missing arms, which were likely lost over time. Despite numerous theories, the original position of her arms remains a mystery. The sculpture is housed in the Louvre Museum in Paris and is considered one of the finest examples of ancient Greek art.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Venus_de_Milo",
+    "citationTitle": "Wikipedia: Venus de Milo"
+  },
+  {
+    "id": "fa7a200c-bc2a-4bca-b914-c6e6a674ec6f",
+    "text": "Mount Rushmore features the faces of four U.S. presidents. Who is NOT depicted?",
+    "options": [
+      "George Washington",
+      "John F. Kennedy",
+      "Abraham Lincoln",
+      "Thomas Jefferson"
+    ],
+    "correctIndex": 1,
+    "category": "arts",
+    "difficulty": "easy",
+    "explanation": "Mount Rushmore features Washington, Jefferson, Theodore Roosevelt, and Lincoln - but not John F. Kennedy.",
+    "detailedExplanation": "Mount Rushmore National Memorial in South Dakota features the 60-foot-tall faces of four U.S. presidents carved into the granite mountainside: George Washington, Thomas Jefferson, Theodore Roosevelt, and Abraham Lincoln. The monument was designed by sculptor Gutzon Borglum and carved between 1927 and 1941. These four presidents were chosen to represent the nation's birth (Washington), growth (Jefferson), development (Roosevelt), and preservation (Lincoln). John F. Kennedy was not yet president when the monument was completed and is not depicted.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Mount_Rushmore",
+    "citationTitle": "Wikipedia: Mount Rushmore"
+  },
+  {
+    "id": "dd176a8c-7e64-4d1f-85b8-4162e29fe658",
+    "text": "What material is Michelangelo's Pietà primarily made from?",
+    "options": [
+      "Bronze",
+      "Marble",
+      "Clay",
+      "Wood"
+    ],
+    "correctIndex": 1,
+    "category": "arts",
+    "difficulty": "easy",
+    "explanation": "Michelangelo's Pietà is carved from a single block of Carrara marble.",
+    "detailedExplanation": "Michelangelo's Pietà, completed in 1499 when the artist was only 24 years old, is carved from a single block of pristine Carrara marble. The sculpture depicts the Virgin Mary holding the dead body of Jesus after his crucifixion. Located in St. Peter's Basilica in Vatican City, it is the only work Michelangelo ever signed. The choice of marble allowed Michelangelo to achieve incredible detail and smoothness, particularly in the rendering of fabric and flesh, making it one of the most technically accomplished sculptures ever created.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Piet%C3%A0_(Michelangelo)",
+    "citationTitle": "Wikipedia: Pietà (Michelangelo)"
+  },
+  {
+    "id": "8d94f73d-d566-4f94-a513-0463d7edf87e",
+    "text": "Which sculptor created the bronze statue 'The Little Mermaid' in Copenhagen?",
+    "options": [
+      "Auguste Rodin",
+      "Edvard Eriksen",
+      "Alberto Giacometti",
+      "Henry Moore"
+    ],
+    "correctIndex": 1,
+    "category": "arts",
+    "difficulty": "easy",
+    "explanation": "The Little Mermaid statue in Copenhagen was created by Danish sculptor Edvard Eriksen in 1913.",
+    "detailedExplanation": "The Little Mermaid statue in Copenhagen, Denmark, was created by Danish sculptor Edvard Eriksen and unveiled on August 23, 1913. The bronze statue was commissioned by Carl Jacobsen (of Carlsberg brewery fame) and inspired by Hans Christian Andersen's famous fairy tale. Sitting on a rock by the Langelinie promenade, the modest 1.25-meter-tall statue has become an iconic symbol of Copenhagen and Denmark, though it has also been the target of various acts of vandalism and political protests over the years.",
+    "citationUrl": "https://en.wikipedia.org/wiki/The_Little_Mermaid_(statue)",
+    "citationTitle": "Wikipedia: The Little Mermaid (statue)"
+  },
+  {
+    "id": "22e331b2-682f-4b05-81db-0135863ec373",
+    "text": "What is the name of the famous sculpture by Edgar Degas depicting a young ballet student?",
+    "options": [
+      "The Ballet Rehearsal",
+      "Little Dancer Aged Fourteen",
+      "The Dance Class",
+      "Prima Ballerina"
+    ],
+    "correctIndex": 1,
+    "category": "arts",
+    "difficulty": "easy",
+    "explanation": "'Little Dancer Aged Fourteen' is Degas's famous bronze sculpture of a young ballet student, originally made with real fabric and hair.",
+    "detailedExplanation": "Edgar Degas's 'Little Dancer Aged Fourteen' was created between 1879-1881 and is his most famous sculpture. The original was made of wax, with real hair and a fabric tutu and ribbon, making it a revolutionary mixed-media artwork for its time. The model was Marie van Goethem, a student at the Paris Opera Ballet School. After Degas's death, bronze casts were made of the sculpture, which can now be found in major museums worldwide. The work was groundbreaking for its realism and use of unconventional materials, challenging traditional notions of fine art sculpture.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Little_Dancer_Aged_Fourteen",
+    "citationTitle": "Wikipedia: Little Dancer Aged Fourteen"
+  },
+  {
+    "id": "0300a7e4-6fdf-4afb-aa64-a02771c87185",
+    "text": "What is the name of the famous ancient sculpture discovered on the Greek island of Melos?",
+    "options": [
+      "Venus de Milo",
+      "Nike of Samothrace",
+      "Laocoon and His Sons",
+      "Apollo Belvedere"
+    ],
+    "correctIndex": 0,
+    "category": "arts",
+    "difficulty": "easy",
+    "explanation": "The Venus de Milo is the famous armless ancient Greek sculpture discovered on the island of Melos in 1820.",
+    "detailedExplanation": "The Venus de Milo, believed to depict Aphrodite (Venus in Roman mythology), is one of the most famous ancient Greek sculptures. Created between 130 and 100 BCE, it was discovered by a peasant on the Greek island of Milos (Melos) in 1820. The sculpture is now housed in the Louvre Museum in Paris and is renowned for its classical beauty and the mystery surrounding its missing arms.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Venus_de_Milo",
+    "citationTitle": "Wikipedia: Venus de Milo"
+  },
+  {
+    "id": "cdf70c9c-c271-436f-89aa-722c6e9004e3",
+    "text": "Which artist created the famous melting clocks sculpture 'The Persistence of Memory'?",
+    "options": [
+      "Pablo Picasso",
+      "Salvador Dalí",
+      "Henri Matisse",
+      "Joan Miró"
+    ],
+    "correctIndex": 1,
+    "category": "arts",
+    "difficulty": "easy",
+    "explanation": "Salvador Dalí created 'The Persistence of Memory' in 1931, featuring his iconic melting clocks.",
+    "detailedExplanation": "Salvador Dalí's 'The Persistence of Memory' is one of the most recognizable surrealist artworks, painted in 1931. While primarily known as a painting, Dalí later created several sculptural versions of the melting clocks. The work explores themes of time and memory, with the soft, melting timepieces set in a dreamlike landscape inspired by the cliffs near Dalí's home in Catalonia, Spain.",
+    "citationUrl": "https://en.wikipedia.org/wiki/The_Persistence_of_Memory",
+    "citationTitle": "Wikipedia: The Persistence of Memory"
+  },
+  {
+    "id": "e337c829-cf8b-4e91-b999-13f46acc38fc",
+    "text": "What is the height of the Christ the Redeemer statue in Rio de Janeiro, including its pedestal?",
+    "options": [
+      "98 feet",
+      "125 feet",
+      "130 feet",
+      "98 meters"
+    ],
+    "correctIndex": 2,
+    "category": "arts",
+    "difficulty": "easy",
+    "explanation": "Christ the Redeemer stands 130 feet (98 feet statue + 26 feet pedestal) tall atop Mount Corcovado.",
+    "detailedExplanation": "The Christ the Redeemer statue in Rio de Janeiro, Brazil, is an Art Deco sculpture of Jesus Christ created by French sculptor Paul Landowski and built by Brazilian engineer Heitor da Silva Costa. Completed in 1931, the statue itself is 98 feet (30 meters) tall, with an additional 26 feet (8 meters) for the pedestal, making the total height 130 feet (38 meters). It has become an iconic symbol of both Rio de Janeiro and Brazil.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Christ_the_Redeemer_(statue)",
+    "citationTitle": "Wikipedia: Christ the Redeemer (statue)"
+  },
+  {
+    "id": "4e92b5a7-ab3c-45af-820c-acf866728cea",
+    "text": "Which famous sculptor created the public artwork 'Cloud Gate' in Chicago's Millennium Park?",
+    "options": [
+      "Jeff Koons",
+      "Anish Kapoor",
+      "Richard Serra",
+      "Louise Bourgeois"
+    ],
+    "correctIndex": 1,
+    "category": "arts",
+    "difficulty": "easy",
+    "explanation": "Anish Kapoor designed 'Cloud Gate', the reflective bean-shaped sculpture that opened to the public in 2006.",
+    "detailedExplanation": "British-Indian sculptor Anish Kapoor created 'Cloud Gate', affectionately nicknamed 'The Bean' by locals due to its shape. The sculpture was unveiled in 2004 and officially opened in 2006 in Chicago's Millennium Park. Made of stainless steel plates polished to a mirror finish, the 110-ton sculpture reflects the Chicago skyline and clouds above, creating an interactive experience for visitors who can walk underneath and around it.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Cloud_Gate",
+    "citationTitle": "Wikipedia: Cloud Gate"
+  },
+  {
+    "id": "c4da2f86-f266-4d9f-8f86-0c9e36fa1ef5",
+    "text": "What type of wood was used to create the famous 'Wooden Horse of Troy' according to ancient legends?",
+    "options": [
+      "Oak",
+      "Pine",
+      "Fir",
+      "Cedar"
+    ],
+    "correctIndex": 2,
+    "category": "arts",
+    "difficulty": "easy",
+    "explanation": "According to Virgil's Aeneid, the Trojan Horse was constructed from fir wood.",
+    "detailedExplanation": "While the Trojan Horse is largely considered mythological, various ancient sources describe its construction. In Virgil's epic poem the Aeneid, the horse is described as being built from fir wood. The legendary hollow wooden sculpture was supposedly used by the Greeks to infiltrate the city of Troy during the Trojan War. Though no physical evidence exists, the story has inspired countless artistic representations and sculptures throughout history.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Trojan_Horse",
+    "citationTitle": "Wikipedia: Trojan Horse"
+  },
+  {
+    "id": "59b32881-cc83-40cd-a8be-70c46ba7035b",
+    "text": "Which ancient wonder of the world was a giant statue of Zeus located in Olympia?",
+    "options": [
+      "Colossus of Rhodes",
+      "Statue of Zeus at Olympia",
+      "Pharos of Alexandria",
+      "Mausoleum at Halicarnassus"
+    ],
+    "correctIndex": 1,
+    "category": "arts",
+    "difficulty": "easy",
+    "explanation": "The Statue of Zeus at Olympia was one of the Seven Wonders of the Ancient World, created by sculptor Phidias.",
+    "detailedExplanation": "The Statue of Zeus at Olympia was a giant seated figure of the king of the Greek gods, created by the renowned sculptor Phidias around 435 BCE. Standing approximately 40 feet tall, it was made of ivory and gold-plated bronze and housed in the Temple of Zeus in Olympia, Greece. The statue was considered one of the Seven Wonders of the Ancient World until it was destroyed in the 5th or 6th century CE.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Statue_of_Zeus_at_Olympia",
+    "citationTitle": "Wikipedia: Statue of Zeus at Olympia"
+  },
+  {
+    "id": "ec5ed870-921a-4495-92cf-c5243e1d3a63",
+    "text": "What distinctive feature makes Alberto Giacometti's sculptures immediately recognizable?",
+    "options": [
+      "Bright colors",
+      "Extremely elongated figures",
+      "Geometric shapes",
+      "Massive size"
+    ],
+    "correctIndex": 1,
+    "category": "arts",
+    "difficulty": "easy",
+    "explanation": "Giacometti is famous for his extremely thin, elongated bronze figures that appear stretched and fragile.",
+    "detailedExplanation": "Alberto Giacometti, the Swiss sculptor and painter, is renowned for his distinctive sculptural style featuring extremely elongated, thin human figures. His bronze sculptures, created primarily in the post-World War II period, appear almost skeletal and convey a sense of isolation and existential anxiety. Works like 'Walking Man I' and 'The Pointing Man' exemplify his signature style, with figures that seem to have been stretched vertically while compressed horizontally.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Alberto_Giacometti",
+    "citationTitle": "Wikipedia: Alberto Giacometti"
+  },
+  {
+    "id": "291d7cc8-64b7-4b95-92a9-a7c72c3fda27",
+    "text": "In which museum would you find the original ancient Greek sculpture 'Winged Victory of Samothrace'?",
+    "options": [
+      "British Museum",
+      "Metropolitan Museum",
+      "Louvre Museum",
+      "Uffizi Gallery"
+    ],
+    "correctIndex": 2,
+    "category": "arts",
+    "difficulty": "easy",
+    "explanation": "The Winged Victory of Samothrace is displayed at the Louvre Museum in Paris, positioned at the top of the Daru staircase.",
+    "detailedExplanation": "The Winged Victory of Samothrace, also known as the Nike of Samothrace, is a marble Hellenistic sculpture created around 200-190 BCE. Discovered on the Greek island of Samothrace in 1863, it depicts Nike, the Greek goddess of victory, as if just landing on the prow of a ship. The sculpture is famous for its dynamic pose and flowing drapery, and has been housed in the Louvre Museum in Paris since 1884, where it dramatically crowns the museum's Daru staircase.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Winged_Victory_of_Samothrace",
+    "citationTitle": "Wikipedia: Winged Victory of Samothrace"
+  },
+  {
+    "id": "3d3a919c-ae95-42d1-b142-0922313336c5",
+    "text": "Which famous sculpture was temporarily relocated during World War II to protect it from bombing?",
+    "options": [
+      "Michelangelo's David",
+      "The Venus de Milo",
+      "Rodin's The Kiss",
+      "The Sphinx of Giza"
+    ],
+    "correctIndex": 0,
+    "category": "arts",
+    "difficulty": "easy",
+    "explanation": "Michelangelo's David was moved from Florence's Piazza della Signoria to a safer location during WWII.",
+    "detailedExplanation": "During World War II, many precious artworks were relocated to protect them from potential bombing damage. Michelangelo's David, one of the world's most famous sculptures, was temporarily moved from its prominent location in Florence to a safer shelter. The statue had already been moved once before in 1873 from the Piazza della Signoria to the Accademia Gallery, but during the war it received additional protective measures including being encased in brick walls.",
+    "citationUrl": "https://en.wikipedia.org/wiki/David_(Michelangelo)",
+    "citationTitle": "Wikipedia: David (Michelangelo)"
+  },
+  {
+    "id": "b2c51b7c-0f86-4f9a-a7b0-a1c0835f436d",
+    "text": "What is the name of the famous Easter Island statues?",
+    "options": [
+      "Tiki",
+      "Moai",
+      "Totems",
+      "Megalith"
+    ],
+    "correctIndex": 1,
+    "category": "arts",
+    "difficulty": "easy",
+    "explanation": "The famous stone statues on Easter Island are called Moai.",
+    "detailedExplanation": "The Moai are monolithic human figures carved by the Rapa Nui people on Easter Island between 1250 and 1500 CE. There are nearly 1,000 of these distinctive statues scattered across the island, most featuring oversized heads and minimal bodies. Carved from volcanic tuff, these sculptures are believed to represent ancestral figures and were created to watch over the island's communities. The largest Moai stands about 33 feet tall and weighs around 82 tons.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Moai",
+    "citationTitle": "Wikipedia: Moai"
+  },
+  {
+    "id": "1ebd1626-1f70-479d-8dd2-3bdf95358148",
+    "text": "Which sculptor is famous for creating large-scale outdoor installations using weathering steel that develops a rust-like appearance?",
+    "options": [
+      "Henry Moore",
+      "Richard Serra",
+      "Barbara Hepworth",
+      "Alexander Calder"
+    ],
+    "correctIndex": 1,
+    "category": "arts",
+    "difficulty": "easy",
+    "explanation": "Richard Serra is renowned for his massive weathering steel sculptures that develop a distinctive rust patina.",
+    "detailedExplanation": "Richard Serra is an American sculptor best known for his large-scale site-specific sculptures made from weathering steel, also known as Cor-Ten steel. This material naturally develops a stable rust-like appearance over time when exposed to weather, creating the distinctive orange-brown patina characteristic of Serra's work. His monumental curved and tilted steel walls and arcs can be found in sculpture parks and urban spaces worldwide, creating immersive environments that change the viewer's perception of space.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Richard_Serra",
+    "citationTitle": "Wikipedia: Richard Serra"
+  },
+  {
+    "id": "af6f4737-8b57-431b-814b-c8dbdb7378ee",
+    "text": "The ancient Colossus of Rhodes, one of the Seven Wonders of the Ancient World, was a giant statue of which Greek god?",
+    "options": [
+      "Apollo",
+      "Zeus",
+      "Poseidon",
+      "Helios"
+    ],
+    "correctIndex": 3,
+    "category": "arts",
+    "difficulty": "easy",
+    "explanation": "The Colossus of Rhodes depicted Helios, the Greek god of the sun.",
+    "detailedExplanation": "The Colossus of Rhodes was a massive bronze statue of Helios, the Greek sun god, erected on the Greek island of Rhodes around 280 BCE. Standing approximately 33 meters (108 feet) tall, it was one of the tallest statues of the ancient world and one of the Seven Wonders of the Ancient World. The statue was built to celebrate Rhodes' victory over Cyprus and was constructed by Chares of Lindos. Despite its fame, the Colossus stood for only 54 years before being toppled by an earthquake in 226 BCE.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Colossus_of_Rhodes",
+    "citationTitle": "Wikipedia: Colossus of Rhodes"
+  }
+]

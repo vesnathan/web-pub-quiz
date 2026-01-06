@@ -591,6 +591,8 @@ async function buildFrontend(outputs: StackOutputs): Promise<void> {
 
   // Create .env.local with stack outputs
   const ablyApiKey = process.env.ABLY_API_KEY || '';
+  const recaptchaSiteKey = process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY || '';
+  const appUrl = process.env.NEXT_PUBLIC_APP_URL || '';
   const envContent = `
 NEXT_PUBLIC_AWS_REGION=${REGION}
 NEXT_PUBLIC_USER_POOL_ID=${outputs.UserPoolId}
@@ -601,6 +603,8 @@ NEXT_PUBLIC_CLOUDFRONT_URL=https://${outputs.CloudFrontDomainName}
 NEXT_PUBLIC_COGNITO_DOMAIN=${outputs.CognitoDomain}
 NEXT_PUBLIC_GOOGLE_OAUTH_ENABLED=${outputs.GoogleOAuthEnabled || 'false'}
 NEXT_PUBLIC_ABLY_KEY=${ablyApiKey}
+NEXT_PUBLIC_RECAPTCHA_SITE_KEY=${recaptchaSiteKey}
+NEXT_PUBLIC_APP_URL=${appUrl}
 `.trim();
 
   fs.writeFileSync(path.join(FRONTEND_DIR, '.env.local'), envContent);

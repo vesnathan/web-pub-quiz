@@ -2,7 +2,7 @@
 
 import { Card, CardBody } from "@nextui-org/react";
 import { Navbar } from "@/components/Navbar";
-import { Footer } from "@/components/Footer";
+import { AppFooter } from "@/components/AppFooter";
 
 export default function PrivacyPage() {
   return (
@@ -53,7 +53,7 @@ export default function PrivacyPage() {
           </Card>
         </div>
       </main>
-      <Footer />
+      <AppFooter />
     </>
   );
 }

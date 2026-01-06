@@ -1,0 +1,342 @@
+[
+  {
+    "id": "6682155f-afe7-463a-bf13-6f3060d22625",
+    "text": "Which company introduced the first commercially successful smartphone?",
+    "options": [
+      "Apple",
+      "IBM",
+      "Nokia",
+      "Motorola"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "IBM released the Simon Personal Communicator in 1994, considered the first smartphone.",
+    "detailedExplanation": "The IBM Simon Personal Communicator, released in 1994, is widely recognized as the first commercially available smartphone. It featured a touchscreen interface, email capabilities, and could run apps, predating the iPhone by over a decade. While primitive by today's standards, it established many of the core concepts that define modern smartphones.",
+    "citationUrl": "https://en.wikipedia.org/wiki/IBM_Simon",
+    "citationTitle": "Wikipedia: IBM Simon"
+  },
+  {
+    "id": "f24568e9-b8b4-464b-b9cc-63679fd8a06e",
+    "text": "What does 'LCD' stand for in LCD televisions?",
+    "options": [
+      "Light Control Display",
+      "Liquid Crystal Display",
+      "Large Color Display",
+      "Low Cost Display"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "LCD stands for Liquid Crystal Display, referring to the liquid crystal technology used in the screen.",
+    "detailedExplanation": "Liquid Crystal Display (LCD) technology uses liquid crystals sandwiched between two glass plates to control light passage and create images. When electrical current is applied, the liquid crystals align to either block or allow light through, creating the pixels we see on screen. This technology revolutionized television and computer monitor manufacturing due to its thin profile and energy efficiency compared to older CRT displays.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Liquid-crystal_display",
+    "citationTitle": "Wikipedia: Liquid-crystal display"
+  },
+  {
+    "id": "5d63ab9a-f5d8-4cdf-9def-25d5ac5d5534",
+    "text": "Which gaming console was the best-selling home video game console of all time?",
+    "options": [
+      "Nintendo Wii",
+      "PlayStation 4",
+      "PlayStation 2",
+      "Xbox 360"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "The Sony PlayStation 2 sold over 155 million units worldwide, making it the best-selling console ever.",
+    "detailedExplanation": "Released in 2000, the Sony PlayStation 2 achieved unprecedented success by selling over 155 million units during its production run that lasted until 2013. Its success was attributed to backward compatibility with original PlayStation games, DVD playback capability, and an extensive game library. The PS2's longevity and appeal across multiple demographics solidified its position as the most successful home console in gaming history.",
+    "citationUrl": "https://en.wikipedia.org/wiki/PlayStation_2",
+    "citationTitle": "Wikipedia: PlayStation 2"
+  },
+  {
+    "id": "d05fbc30-9037-477e-b516-4764f21c7c42",
+    "text": "What technology do most modern wireless headphones use for connectivity?",
+    "options": [
+      "Wi-Fi",
+      "Infrared",
+      "Bluetooth",
+      "Radio waves"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Bluetooth is the standard wireless technology used by most modern wireless headphones and earbuds.",
+    "detailedExplanation": "Bluetooth technology has become the industry standard for wireless headphones due to its low power consumption, reliable short-range connectivity, and widespread device compatibility. Operating in the 2.4 GHz frequency band, Bluetooth allows headphones to maintain stable connections with smartphones, tablets, and computers while providing adequate audio quality and battery life for portable use.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Bluetooth",
+    "citationTitle": "Wikipedia: Bluetooth"
+  },
+  {
+    "id": "8ea29f3d-bc86-4e19-9d84-b398fdeb6382",
+    "text": "Which company manufactured the first commercial digital camera?",
+    "options": [
+      "Canon",
+      "Kodak",
+      "Nikon",
+      "Sony"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Kodak released the first commercial digital camera, the DCS-100, in 1991.",
+    "detailedExplanation": "Kodak, ironically the company that would later struggle with the digital transition, actually pioneered commercial digital photography with the DCS-100 in 1991. This camera was based on a Nikon F3 body but used Kodak's digital sensor technology. Priced at $13,000, it was primarily marketed to photojournalists and professionals, marking the beginning of the digital photography revolution that would eventually transform the entire industry.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Kodak_DCS",
+    "citationTitle": "Wikipedia: Kodak DCS"
+  },
+  {
+    "id": "232621bf-1aeb-4d45-882c-b7750ce243b2",
+    "text": "What does the 'MP' in MP3 audio format stand for?",
+    "options": [
+      "Music Player",
+      "Media Protocol",
+      "Moving Picture",
+      "Multiple Play"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "MP3 stands for Moving Picture Experts Group Audio Layer 3, referring to the group that developed the standard.",
+    "detailedExplanation": "The MP3 format gets its name from the Moving Picture Experts Group (MPEG), specifically MPEG-1 Audio Layer 3. Developed in the late 1980s and early 1990s, this audio compression format revolutionized digital music by dramatically reducing file sizes while maintaining acceptable audio quality. The technology enabled the practical storage and transmission of digital music, ultimately leading to the rise of portable music players and digital music distribution.",
+    "citationUrl": "https://en.wikipedia.org/wiki/MP3",
+    "citationTitle": "Wikipedia: MP3"
+  },
+  {
+    "id": "a7982c55-2112-4d52-ac20-f55f7174e0b7",
+    "text": "Which type of battery is most commonly used in modern smartphones?",
+    "options": [
+      "Nickel-Cadmium",
+      "Alkaline",
+      "Lithium-ion",
+      "Lead-acid"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Lithium-ion batteries are standard in smartphones due to their high energy density and rechargeability.",
+    "detailedExplanation": "Lithium-ion batteries have become the standard power source for smartphones and most portable electronics due to their superior energy density, lightweight design, and ability to be recharged hundreds of times. Unlike older battery technologies, lithium-ion batteries don't suffer from memory effect and can maintain their charge capacity over many charging cycles, making them ideal for devices that require daily charging and long-term use.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Lithium-ion_battery",
+    "citationTitle": "Wikipedia: Lithium-ion battery"
+  },
+  {
+    "id": "0334b679-84cf-4db0-9210-39be90c1053c",
+    "text": "What resolution standard is considered 'Full HD' for televisions and monitors?",
+    "options": [
+      "720p",
+      "1080p",
+      "1440p",
+      "4K"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "1080p, with a resolution of 1920x1080 pixels, is the Full HD standard.",
+    "detailedExplanation": "Full HD refers to the 1080p resolution standard, which displays 1920 pixels horizontally and 1080 pixels vertically, totaling approximately 2.07 million pixels. This became the dominant high-definition standard for televisions, computer monitors, and video content throughout the 2000s and 2010s. The 'p' stands for progressive scan, meaning the entire image is refreshed in each frame, providing smoother motion compared to interlaced formats.",
+    "citationUrl": "https://en.wikipedia.org/wiki/1080p",
+    "citationTitle": "Wikipedia: 1080p"
+  },
+  {
+    "id": "ab88f7f8-4f93-442f-9036-498037f5f50b",
+    "text": "What does 'OLED' stand for in modern display technology?",
+    "options": [
+      "Organic Light-Emitting Diode",
+      "Optical Light Enhancement Display",
+      "Original Liquid Electronic Display",
+      "Optimized LED Display"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "OLED stands for Organic Light-Emitting Diode, a display technology where organic compounds emit light when electricity is applied.",
+    "detailedExplanation": "OLED (Organic Light-Emitting Diode) is a display technology that uses organic compounds which emit light when an electric current is applied. Unlike LCD displays that require a backlight, each pixel in an OLED display produces its own light, allowing for true blacks, better contrast ratios, and thinner displays. This technology is widely used in premium smartphones, tablets, and televisions.",
+    "citationUrl": "https://en.wikipedia.org/wiki/OLED",
+    "citationTitle": "Wikipedia: OLED"
+  },
+  {
+    "id": "050d3218-5891-45f3-b441-9e12cc627a92",
+    "text": "Which Japanese company is famous for creating the Walkman portable cassette player?",
+    "options": [
+      "Panasonic",
+      "Sony",
+      "Nintendo",
+      "Toshiba"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Sony introduced the Walkman in 1979, revolutionizing portable music listening.",
+    "detailedExplanation": "Sony released the TPS-L2 Walkman in July 1979, which became a cultural phenomenon and changed how people consumed music. The portable cassette player allowed users to listen to music privately through headphones while on the go. The Walkman brand later expanded to include CD players, digital audio players, and other portable devices, making Sony synonymous with portable music technology.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Walkman",
+    "citationTitle": "Wikipedia: Walkman"
+  },
+  {
+    "id": "440f5870-63b6-4f3b-b950-9caa45dfa926",
+    "text": "What does 'GPU' stand for in computer graphics processing?",
+    "options": [
+      "General Processing Unit",
+      "Graphics Processing Unit",
+      "Game Performance Upgrade",
+      "Graphical Pixel Updater"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "GPU stands for Graphics Processing Unit, a specialized chip designed to handle graphics and visual processing tasks.",
+    "detailedExplanation": "A Graphics Processing Unit (GPU) is a specialized electronic circuit designed to rapidly manipulate and alter memory to accelerate the creation of images in a frame buffer intended for output to a display device. Originally developed for rendering graphics in video games and professional applications, modern GPUs are also used for machine learning, cryptocurrency mining, and other parallel processing tasks.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Graphics_processing_unit",
+    "citationTitle": "Wikipedia: Graphics processing unit"
+  },
+  {
+    "id": "38c6b27d-2661-42e0-9a4b-585e5c91d177",
+    "text": "Which streaming device company was founded by Anthony Wood and is known for its purple logo?",
+    "options": [
+      "Amazon Fire",
+      "Google Chromecast",
+      "Roku",
+      "Apple TV"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Roku was founded by Anthony Wood in 2002 and is recognizable by its distinctive purple branding.",
+    "detailedExplanation": "Roku Inc. was founded by Anthony Wood in 2002 and has become one of the leading streaming platform companies in North America. The company is known for its streaming devices that connect to televisions and its distinctive purple branding. Roku devices allow users to stream content from various services like Netflix, Hulu, and Amazon Prime Video through a unified interface.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Roku",
+    "citationTitle": "Wikipedia: Roku"
+  },
+  {
+    "id": "aa367107-1e8e-4d44-aa01-1427351888b3",
+    "text": "What is the standard charging port type used by most modern Android smartphones?",
+    "options": [
+      "Lightning",
+      "USB-C",
+      "Micro-USB",
+      "Mini-USB"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "USB-C has become the standard charging port for most modern Android smartphones due to its faster charging and data transfer capabilities.",
+    "detailedExplanation": "USB-C (USB Type-C) is a 24-pin USB connector system that has become the standard for most modern Android smartphones and many other electronic devices. It offers several advantages over older connector types, including reversible plug orientation, faster charging speeds, higher data transfer rates, and the ability to carry video signals. Many manufacturers have adopted USB-C as part of industry standardization efforts.",
+    "citationUrl": "https://en.wikipedia.org/wiki/USB-C",
+    "citationTitle": "Wikipedia: USB-C"
+  },
+  {
+    "id": "d96a00f8-5783-4e69-8e55-ad0545b1f320",
+    "text": "Which company manufactures the popular Ring video doorbell systems?",
+    "options": [
+      "Google",
+      "Amazon",
+      "Apple",
+      "Microsoft"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Amazon owns Ring, which it acquired in 2018 for over $1 billion.",
+    "detailedExplanation": "Ring was originally founded by Jamie Siminoff in 2013 as a startup focused on smart home security devices, particularly video doorbells. Amazon acquired Ring in 2018 for a reported $1.2-1.8 billion, integrating it into their smart home ecosystem alongside Alexa devices. Ring doorbells allow homeowners to see and communicate with visitors remotely through smartphone apps and have become very popular in the home security market.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Ring_(company)",
+    "citationTitle": "Wikipedia: Ring (company)"
+  },
+  {
+    "id": "3687e6b6-1898-4189-9afb-d9bea9c3c438",
+    "text": "What does 'VR' stand for in VR headsets?",
+    "options": [
+      "Video Reality",
+      "Virtual Reality",
+      "Visual Recognition",
+      "Voice Response"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "VR stands for Virtual Reality, technology that creates immersive, computer-generated environments.",
+    "detailedExplanation": "Virtual Reality (VR) is a simulated experience that can be similar to or completely different from the real world. VR headsets use computer technology to generate realistic images, sounds, and other sensations that simulate a user's physical presence in a virtual environment. Popular VR headsets include the Meta Quest series, PlayStation VR, and HTC Vive, which are used for gaming, education, training, and entertainment applications.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Virtual_reality",
+    "citationTitle": "Wikipedia: Virtual reality"
+  },
+  {
+    "id": "9dc5a4cb-d314-4a65-96a2-a7d67a916f10",
+    "text": "Which South Korean company is the world's largest manufacturer of memory chips and smartphones?",
+    "options": [
+      "LG",
+      "Samsung",
+      "SK Hynix",
+      "Hyundai"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Samsung is the world's largest manufacturer of both memory semiconductors and smartphones by volume.",
+    "detailedExplanation": "Samsung Electronics, a subsidiary of the Samsung Group, is the world's largest manufacturer of memory chips (including DRAM and NAND flash memory) and has been one of the top smartphone manufacturers globally. The company produces components used in devices made by competitors while also manufacturing its own Galaxy series of smartphones, tablets, and other consumer electronics. Samsung's semiconductor business supplies memory chips to companies worldwide, including Apple, despite being competitors in the smartphone market.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Samsung_Electronics",
+    "citationTitle": "Wikipedia: Samsung Electronics"
+  },
+  {
+    "id": "8c28daba-d843-4591-b4e4-fb965fc0d39c",
+    "text": "What does 'HDMI' stand for in cable connections?",
+    "options": [
+      "High Definition Media Interface",
+      "High Definition Multimedia Interface",
+      "Home Digital Media Input",
+      "High Data Multimedia Input"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "HDMI stands for High Definition Multimedia Interface.",
+    "detailedExplanation": "HDMI (High Definition Multimedia Interface) is a proprietary audio/video interface for transmitting uncompressed video data and compressed or uncompressed digital audio data from an HDMI-compliant source device to a compatible computer monitor, video projector, digital television, or digital audio device. It was developed in 2002 and has become the standard connection method for modern consumer electronics including TVs, gaming consoles, streaming devices, and computers.",
+    "citationUrl": "https://en.wikipedia.org/wiki/HDMI",
+    "citationTitle": "Wikipedia: HDMI"
+  },
+  {
+    "id": "4c724d5f-9702-4533-98f6-48957a51580a",
+    "text": "Which company created the first electronic calculator?",
+    "options": [
+      "Texas Instruments",
+      "Casio",
+      "Canon",
+      "Sharp"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Texas Instruments created the first handheld electronic calculator in 1967.",
+    "detailedExplanation": "Texas Instruments developed the first handheld electronic calculator, called the Cal-Tech, in 1967. This groundbreaking device weighed 2.5 pounds and could perform basic arithmetic operations. The calculator used integrated circuits that TI had developed, marking a significant shift from mechanical calculators to electronic ones. This innovation paved the way for the widespread adoption of electronic calculators in offices, schools, and homes throughout the 1970s and beyond.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Calculator",
+    "citationTitle": "Wikipedia: Calculator"
+  },
+  {
+    "id": "e7902a56-dd08-4ff2-a556-85718d945ccf",
+    "text": "What does the 'Wi-Fi' name originally derive from?",
+    "options": [
+      "Wireless Fidelity",
+      "Wide Field Internet",
+      "It's a made-up brand name with no meaning",
+      "Wireless Frequency Identification"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Wi-Fi is actually a made-up brand name created by a marketing company and has no official meaning.",
+    "detailedExplanation": "Despite popular belief that Wi-Fi stands for 'Wireless Fidelity,' this is actually a misconception. The name Wi-Fi was created by the brand consulting firm Interbrand as a catchy, marketable name for the IEEE 802.11 wireless networking standard. The Wi-Fi Alliance, which promotes the technology, has stated that Wi-Fi is simply a trademarked brand name and is not an abbreviation for anything. The confusion likely arose because of its similarity to 'Hi-Fi' (High Fidelity) in audio equipment.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Wi-Fi",
+    "citationTitle": "Wikipedia: Wi-Fi"
+  },
+  {
+    "id": "87c5633f-32e0-43b1-a5ea-ad1750c11bba",
+    "text": "Which format war did Blu-ray win against in the mid-2000s?",
+    "options": [
+      "DVD",
+      "HD-DVD",
+      "VHS",
+      "LaserDisc"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Blu-ray won the high-definition optical disc format war against HD-DVD.",
+    "detailedExplanation": "The high-definition optical disc format war was a competition between Blu-ray and HD-DVD formats from 2006 to 2008. Both formats offered high-definition video storage superior to standard DVDs, but they were incompatible with each other. The war ended in early 2008 when major studios and retailers began exclusively supporting Blu-ray, leading Toshiba to announce the discontinuation of HD-DVD. Blu-ray's victory was largely due to support from major movie studios and its inclusion in Sony's PlayStation 3 gaming console.",
+    "citationUrl": "https://en.wikipedia.org/wiki/High-definition_optical_disc_format_war",
+    "citationTitle": "Wikipedia: High-definition optical disc format war"
+  }
+]

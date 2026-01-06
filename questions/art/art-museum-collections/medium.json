@@ -1,0 +1,342 @@
+[
+  {
+    "id": "63389725-6fa4-483b-87dc-d506b52d9368",
+    "text": "Which art museum houses the world's largest collection of Impressionist paintings, including works by Monet, Renoir, and Degas?",
+    "options": [
+      "The Louvre",
+      "Musée d'Orsay",
+      "Metropolitan Museum of Art",
+      "National Gallery London"
+    ],
+    "correctIndex": 1,
+    "category": "arts",
+    "difficulty": "medium",
+    "explanation": "The Musée d'Orsay in Paris holds the world's largest collection of Impressionist masterpieces.",
+    "detailedExplanation": "The Musée d'Orsay, housed in a former railway station in Paris, is renowned for having the world's finest collection of Impressionist and Post-Impressionist works. The museum opened in 1986 and specializes in French art from 1848 to 1914, with particular strength in Impressionist paintings by masters like Monet, Renoir, Degas, Cézanne, and Van Gogh. While other major museums have significant Impressionist works, none match the breadth and depth of the Musée d'Orsay's collection.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Mus%C3%A9e_d%27Orsay",
+    "citationTitle": "Wikipedia: Musée d'Orsay"
+  },
+  {
+    "id": "e8642e08-f20c-44d8-822e-1de7dd3372cb",
+    "text": "The Frick Collection in New York was originally the private residence of which American industrialist?",
+    "options": [
+      "Andrew Carnegie",
+      "Henry Clay Frick",
+      "J.P. Morgan",
+      "John D. Rockefeller"
+    ],
+    "correctIndex": 1,
+    "category": "arts",
+    "difficulty": "medium",
+    "explanation": "Henry Clay Frick, the steel and coke industrialist, built the mansion that now houses The Frick Collection.",
+    "detailedExplanation": "Henry Clay Frick (1849-1919) was a prominent American industrialist who made his fortune in steel and coke production, often working alongside Andrew Carnegie. He built his Fifth Avenue mansion in New York between 1913-1914, specifically designing it to eventually become a public museum. Upon his death, his will established The Frick Collection, which opened to the public in 1935. The museum maintains the intimate atmosphere of a private residence while displaying Frick's exceptional collection of European paintings, sculptures, and decorative arts.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Frick_Collection",
+    "citationTitle": "Wikipedia: Frick Collection"
+  },
+  {
+    "id": "ab723796-21ae-4453-8e0d-c0fbcb0e92a8",
+    "text": "Which museum's collection was largely formed through the personal acquisitions of Peggy Guggenheim in Venice?",
+    "options": [
+      "Ca' Rezzonico",
+      "Palazzo Grassi",
+      "Peggy Guggenheim Collection",
+      "Doge's Palace"
+    ],
+    "correctIndex": 2,
+    "category": "arts",
+    "difficulty": "medium",
+    "explanation": "The Peggy Guggenheim Collection in Venice houses artworks personally collected by Peggy Guggenheim.",
+    "detailedExplanation": "The Peggy Guggenheim Collection is located in Palazzo Venier dei Leoni on the Grand Canal in Venice, which was Peggy Guggenheim's home from 1949 until her death in 1979. As a passionate art patron and collector, she amassed one of the most important collections of European and American modern art, including works by Picasso, Pollock, Kandinsky, and Ernst (whom she married). The museum opened in 1980 and displays her personal collection in the intimate setting of her former home and garden, where she is also buried alongside her beloved dogs.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Peggy_Guggenheim_Collection",
+    "citationTitle": "Wikipedia: Peggy Guggenheim Collection"
+  },
+  {
+    "id": "3f21e161-7123-471a-ac66-24172bac9caa",
+    "text": "The Hermitage Museum's collection began with which Russian monarch's private art acquisitions?",
+    "options": [
+      "Catherine the Great",
+      "Peter the Great",
+      "Elizabeth of Russia",
+      "Alexander I"
+    ],
+    "correctIndex": 0,
+    "category": "arts",
+    "difficulty": "medium",
+    "explanation": "Catherine the Great began the Hermitage collection with her private art purchases in the 1760s.",
+    "detailedExplanation": "The State Hermitage Museum's collection originated in 1764 when Catherine the Great purchased 225 paintings from a Berlin merchant, initially to decorate her private rooms (called 'hermitage' in French) in the Winter Palace. Catherine was an avid art collector who continued acquiring major works throughout her reign, including entire collections from European aristocrats. Her successors continued expanding the collection, but Catherine laid the foundation for what would become one of the world's largest and most prestigious art collections, now housed across several buildings in St. Petersburg.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Hermitage_Museum",
+    "citationTitle": "Wikipedia: Hermitage Museum"
+  },
+  {
+    "id": "676be6d3-e4d4-4524-9ada-5490d4efba7d",
+    "text": "Which museum houses the largest collection of Vincent van Gogh's paintings and drawings?",
+    "options": [
+      "Musée d'Orsay",
+      "Metropolitan Museum of Art",
+      "Van Gogh Museum",
+      "Rijksmuseum"
+    ],
+    "correctIndex": 2,
+    "category": "arts",
+    "difficulty": "medium",
+    "explanation": "The Van Gogh Museum in Amsterdam holds the world's largest collection of Vincent van Gogh's works.",
+    "detailedExplanation": "The Van Gogh Museum in Amsterdam, which opened in 1973, houses the world's largest collection of Vincent van Gogh's artworks, including over 200 paintings, 500 drawings, and 750 personal letters. The collection was largely based on works inherited by Vincent's brother Theo's family, particularly Vincent Wilhelm van Gogh (Theo's son), who preserved and promoted his uncle's legacy. The museum also contains works by van Gogh's contemporaries and influences, providing context for understanding his artistic development and the Post-Impressionist movement.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Van_Gogh_Museum",
+    "citationTitle": "Wikipedia: Van Gogh Museum"
+  },
+  {
+    "id": "5a1308fc-16c8-4fcd-9385-6b6d3f0899ec",
+    "text": "The Barnes Foundation's unique collection arrangement reflects the vision of which American collector?",
+    "options": [
+      "Duncan Phillips",
+      "Albert C. Barnes",
+      "Isabella Stewart Gardner",
+      "Henry Clay Frick"
+    ],
+    "correctIndex": 1,
+    "category": "arts",
+    "difficulty": "medium",
+    "explanation": "Dr. Albert C. Barnes created the distinctive ensemble arrangements that characterize the Barnes Foundation.",
+    "detailedExplanation": "Dr. Albert C. Barnes (1872-1951) was a pharmaceutical entrepreneur who amassed one of the world's finest collections of Post-Impressionist and early Modern paintings. Barnes developed a unique philosophy of displaying art in 'ensembles' - carefully composed wall arrangements mixing paintings with decorative arts, African sculptures, and metalwork to create educational and aesthetic experiences. Originally housed in Merion, Pennsylvania, the collection moved to Philadelphia in 2012, maintaining Barnes's specific arrangement requirements that were legally mandated in his will.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Barnes_Foundation",
+    "citationTitle": "Wikipedia: Barnes Foundation"
+  },
+  {
+    "id": "4fb8a5d8-0651-4831-9a68-8c6e423a065c",
+    "text": "Which museum's Egyptian collection includes the famous Temple of Dendur, relocated from Egypt?",
+    "options": [
+      "British Museum",
+      "Louvre",
+      "Metropolitan Museum of Art",
+      "Egyptian Museum"
+    ],
+    "correctIndex": 2,
+    "category": "arts",
+    "difficulty": "medium",
+    "explanation": "The Metropolitan Museum of Art houses the Temple of Dendur in its Egyptian wing.",
+    "detailedExplanation": "The Temple of Dendur, dating from around 15 BCE, was given to the United States by Egypt in 1965 as thanks for American assistance in saving monuments threatened by the Aswan High Dam construction. The Metropolitan Museum of Art was selected to house the temple, which was reconstructed in the museum's Sackler Wing in 1978. The temple is displayed in a climate-controlled glass-walled room designed to evoke its original setting near the Nile, complete with a reflecting pool. It remains one of the Met's most popular and distinctive installations.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Temple_of_Dendur",
+    "citationTitle": "Wikipedia: Temple of Dendur"
+  },
+  {
+    "id": "f8d7afbb-f402-4cdc-b7bb-d922e23ebfae",
+    "text": "The Musée Rodin's collection is primarily housed in which type of historic building?",
+    "options": [
+      "Medieval castle",
+      "18th-century mansion",
+      "Former railway station",
+      "Royal palace"
+    ],
+    "correctIndex": 1,
+    "category": "arts",
+    "difficulty": "medium",
+    "explanation": "The Musée Rodin occupies the Hôtel Biron, an elegant 18th-century Parisian mansion.",
+    "detailedExplanation": "The Musée Rodin is housed in the Hôtel Biron, a beautiful rococo mansion built in 1728-1731 in Paris's 7th arrondissement. Auguste Rodin himself rented apartments in this building from 1908 until his death in 1917, using it as his workshop and living space. The building had previously served various purposes, including a convent school, before becoming artists' studios in the early 1900s. When Rodin donated his works to the French state, the Hôtel Biron became the natural choice for the museum, which opened in 1919. The mansion's elegant rooms and extensive gardens provide a perfect setting for Rodin's sculptures.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Mus%C3%A9e_Rodin",
+    "citationTitle": "Wikipedia: Musée Rodin"
+  },
+  {
+    "id": "a25d2dfd-9fc3-436a-960e-c0c6e0e10c67",
+    "text": "Which art museum houses Leonardo da Vinci's 'Mona Lisa' and is known for being the world's largest art museum by floor space?",
+    "options": [
+      "The Metropolitan Museum of Art",
+      "The Louvre",
+      "The British Museum",
+      "The Uffizi Gallery"
+    ],
+    "correctIndex": 1,
+    "category": "arts",
+    "difficulty": "medium",
+    "explanation": "The Louvre in Paris houses the Mona Lisa and is the world's largest art museum by floor space.",
+    "detailedExplanation": "The Louvre Museum in Paris is not only home to Leonardo da Vinci's famous 'Mona Lisa' but also holds the distinction of being the world's largest art museum by floor space, covering approximately 782,910 square feet of exhibition space. Originally built as a fortress in the late 12th century, it became a royal palace before transforming into a public museum during the French Revolution. The museum's vast collection spans from ancient civilizations to the mid-19th century.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Louvre",
+    "citationTitle": "Wikipedia: Louvre"
+  },
+  {
+    "id": "639ed887-8ebb-4e9f-9913-d3392311d8e0",
+    "text": "The Tate Modern's collection focuses primarily on art from which time period?",
+    "options": [
+      "Medieval to Renaissance",
+      "1500 to 1900",
+      "1900 to present",
+      "Ancient to Classical"
+    ],
+    "correctIndex": 2,
+    "category": "arts",
+    "difficulty": "medium",
+    "explanation": "Tate Modern specializes in international modern and contemporary art from 1900 to the present day.",
+    "detailedExplanation": "Tate Modern, housed in the former Bankside Power Station in London, is specifically dedicated to international modern and contemporary art from 1900 to the present day. This focus distinguishes it from its sister institution, Tate Britain, which covers British art from 1500 to the present. The museum's collection includes works by major 20th and 21st-century artists such as Picasso, Warhol, Hockney, and Bourgeois, making it one of the world's most visited modern art galleries.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Tate_Modern",
+    "citationTitle": "Wikipedia: Tate Modern"
+  },
+  {
+    "id": "b66d1687-5cae-4e6f-9347-b5694552f24a",
+    "text": "Which museum is famous for its spiral ramp design by Frank Lloyd Wright and houses an important collection of non-objective art?",
+    "options": [
+      "Whitney Museum",
+      "Museum of Modern Art",
+      "Guggenheim Museum",
+      "Brooklyn Museum"
+    ],
+    "correctIndex": 2,
+    "category": "arts",
+    "difficulty": "medium",
+    "explanation": "The Guggenheim Museum in New York features Frank Lloyd Wright's iconic spiral design and is renowned for its modern art collection.",
+    "detailedExplanation": "The Solomon R. Guggenheim Museum in New York City is instantly recognizable for its unique spiral ramp design created by renowned architect Frank Lloyd Wright. Opened in 1959, the museum's distinctive cylindrical building allows visitors to view art while walking along a continuous spiral path. The museum is particularly famous for its collection of non-objective art, including significant works by Kandinsky, Klee, and other abstract artists, largely thanks to the collecting vision of its founder Solomon R. Guggenheim and curator Hilla Rebay.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Solomon_R._Guggenheim_Museum",
+    "citationTitle": "Wikipedia: Solomon R. Guggenheim Museum"
+  },
+  {
+    "id": "b054cdf8-a5ad-438d-bf6b-28f73f368eab",
+    "text": "The Prado Museum in Madrid is particularly renowned for its collection of paintings from which artistic movement?",
+    "options": [
+      "Impressionism",
+      "Spanish Golden Age",
+      "Abstract Expressionism",
+      "Pop Art"
+    ],
+    "correctIndex": 1,
+    "category": "arts",
+    "difficulty": "medium",
+    "explanation": "The Prado is famous for its extensive collection of Spanish Golden Age paintings, including works by Velázquez and Goya.",
+    "detailedExplanation": "The Prado Museum in Madrid houses one of the world's finest collections of European art, with particular strength in Spanish Golden Age paintings from the 16th to 18th centuries. The museum is especially renowned for its extensive collections of works by Diego Velázquez, including 'Las Meninas,' and Francisco Goya's complete series of etchings and paintings. The collection also includes masterpieces by other Spanish masters such as El Greco and Murillo, making it an essential destination for understanding the development of Spanish art during its most influential period.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Prado_Museum",
+    "citationTitle": "Wikipedia: Prado Museum"
+  },
+  {
+    "id": "a71c1423-879a-4c03-a976-ce72f2b628ee",
+    "text": "Which Asian art museum houses the world's largest collection of Chinese ceramics and bronzes?",
+    "options": [
+      "Tokyo National Museum",
+      "National Palace Museum",
+      "Asian Art Museum of San Francisco",
+      "China National Museum"
+    ],
+    "correctIndex": 1,
+    "category": "arts",
+    "difficulty": "medium",
+    "explanation": "The National Palace Museum in Taipei houses the world's largest collection of Chinese art and artifacts, including ceramics and bronzes.",
+    "detailedExplanation": "The National Palace Museum in Taipei, Taiwan, contains the world's largest and most comprehensive collection of Chinese art and artifacts, spanning over 8,000 years of Chinese history. The museum houses nearly 700,000 pieces, including the world's finest collection of Chinese ceramics, bronzes, jade, calligraphy, and paintings. Much of the collection originated from China's Forbidden City and was relocated to Taiwan in the late 1940s. The museum's ceramic collection includes pieces from every major Chinese dynasty, while its bronze collection features ritual vessels dating back to the Shang and Zhou dynasties.",
+    "citationUrl": "https://en.wikipedia.org/wiki/National_Palace_Museum",
+    "citationTitle": "Wikipedia: National Palace Museum"
+  },
+  {
+    "id": "9faec7b8-b5a0-4905-96a4-45c26049a330",
+    "text": "The Rijksmuseum in Amsterdam is best known for its collection of art from which period?",
+    "options": [
+      "Dutch Golden Age",
+      "French Impressionism",
+      "Italian Renaissance",
+      "German Expressionism"
+    ],
+    "correctIndex": 0,
+    "category": "arts",
+    "difficulty": "medium",
+    "explanation": "The Rijksmuseum is famous for its Dutch Golden Age collection, including works by Rembrandt and Vermeer.",
+    "detailedExplanation": "The Rijksmuseum in Amsterdam is the Netherlands' national museum and is internationally renowned for its exceptional collection of Dutch Golden Age paintings from the 17th century. The museum houses masterpieces by Rembrandt van Rijn, including 'The Night Watch,' Johannes Vermeer's 'The Milkmaid,' and works by other Dutch masters such as Frans Hals and Jan Steen. This period represents the height of Dutch artistic achievement when the Netherlands was a major economic and cultural power, and the museum's collection provides the most comprehensive overview of this golden period in Dutch art history.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Rijksmuseum",
+    "citationTitle": "Wikipedia: Rijksmuseum"
+  },
+  {
+    "id": "4fd19440-6d4a-4d63-9fa7-90d380cb8a89",
+    "text": "Which museum's collection was formed primarily through a legal agreement that requires it to display all donated artworks?",
+    "options": [
+      "Phillips Collection",
+      "Hirshhorn Museum",
+      "Smithsonian American Art Museum",
+      "Corcoran Gallery"
+    ],
+    "correctIndex": 1,
+    "category": "arts",
+    "difficulty": "medium",
+    "explanation": "The Hirshhorn Museum operates under an agreement requiring it to display all works from Joseph Hirshhorn's donated collection.",
+    "detailedExplanation": "The Hirshhorn Museum and Sculpture Garden in Washington, D.C., was established through a unique legal agreement with collector Joseph Hirshhorn, who donated his entire collection of modern and contemporary art to the Smithsonian Institution in 1966. The agreement stipulated that the museum must display the donated works, leading to the museum's distinctive approach of regularly rotating its collection to ensure maximum visibility of Hirshhorn's original donation of over 6,000 pieces. This requirement has shaped the museum's exhibition philosophy and helps distinguish it from other institutions that may keep large portions of their collections in storage.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Hirshhorn_Museum_and_Sculpture_Garden",
+    "citationTitle": "Wikipedia: Hirshhorn Museum and Sculpture Garden"
+  },
+  {
+    "id": "191896f0-a76b-40d7-8b1f-9800b1da01ed",
+    "text": "The Alte Pinakothek in Munich specializes in which type of European paintings?",
+    "options": [
+      "19th-century Romantic paintings",
+      "Old Master paintings from 14th-18th centuries",
+      "20th-century avant-garde works",
+      "Medieval illuminated manuscripts"
+    ],
+    "correctIndex": 1,
+    "category": "arts",
+    "difficulty": "medium",
+    "explanation": "The Alte Pinakothek focuses on Old Master paintings from the 14th to 18th centuries, including works by Dürer and Rubens.",
+    "detailedExplanation": "The Alte Pinakothek in Munich is one of the oldest galleries in the world and specializes in Old Master paintings from the 14th to 18th centuries. Built in the 1820s to house the Bavarian royal collection, the museum contains one of the most important collections of European paintings from this period, including significant works by Albrecht Dürer, Peter Paul Rubens, and other Northern European masters. The museum is part of Munich's Kunstareal art district and forms a trilogy with the Neue Pinakothek (19th-century art) and Pinakothek der Moderne (20th-21st century art), together providing a comprehensive overview of European art history.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Alte_Pinakothek",
+    "citationTitle": "Wikipedia: Alte Pinakothek"
+  },
+  {
+    "id": "e099e1fa-9b42-4898-a4d8-fa748845b048",
+    "text": "The National Gallery of Art in Washington D.C. owns the only painting by which Renaissance master located in the Americas?",
+    "options": [
+      "Leonardo da Vinci",
+      "Michelangelo",
+      "Raphael",
+      "Donatello"
+    ],
+    "correctIndex": 0,
+    "category": "arts",
+    "difficulty": "medium",
+    "explanation": "The National Gallery of Art owns 'Ginevra de' Benci,' the only painting by Leonardo da Vinci in the Americas.",
+    "detailedExplanation": "The National Gallery of Art in Washington D.C. holds the distinction of owning the only painting by Leonardo da Vinci located in the Americas. 'Ginevra de' Benci' (c. 1474-1478) was acquired by the museum in 1967 for a then-record price. This portrait of a young Florentine woman is painted on both sides and represents one of Leonardo's earliest known works. The painting's acquisition made the National Gallery one of the few museums worldwide to house an authentic Leonardo painting.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Ginevra_de%27_Benci",
+    "citationTitle": "Wikipedia: Ginevra de' Benci"
+  },
+  {
+    "id": "4d9fe667-6e7d-4669-902b-a0dd10d60a05",
+    "text": "Which museum's collection was significantly enhanced when it acquired over 2,000 works from the personal collection of collector Duncan Phillips?",
+    "options": [
+      "The Phillips Collection",
+      "Whitney Museum",
+      "Museum of Fine Arts Boston",
+      "Cleveland Museum of Art"
+    ],
+    "correctIndex": 0,
+    "category": "arts",
+    "difficulty": "medium",
+    "explanation": "The Phillips Collection was founded by Duncan Phillips himself, who gradually opened his family home to display his personal collection.",
+    "detailedExplanation": "The Phillips Collection in Washington D.C. was established by Duncan Phillips, who began opening his family's Georgian Revival home to the public in 1921 to display his personal art collection. Phillips was a pioneering collector of modern art, acquiring works by artists like Rothko, Klee, and Renoir before they became widely recognized. His collection grew to over 4,000 works, making it America's first museum dedicated to modern and contemporary art. The museum still operates from Phillips' original family home, maintaining the intimate, residential feeling he intended.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Phillips_Collection",
+    "citationTitle": "Wikipedia: Phillips Collection"
+  },
+  {
+    "id": "98702653-4228-418c-ad87-d852b3977631",
+    "text": "The Uffizi Gallery's collection originated from which powerful Italian family's private art patronage?",
+    "options": [
+      "Borgia family",
+      "Sforza family",
+      "Medici family",
+      "Visconti family"
+    ],
+    "correctIndex": 2,
+    "category": "arts",
+    "difficulty": "medium",
+    "explanation": "The Uffizi Gallery's collection began with the Medici family's extensive art patronage and collecting over several centuries.",
+    "detailedExplanation": "The Uffizi Gallery in Florence houses one of the world's greatest art collections, which originated from the extensive patronage and collecting activities of the Medici family over several centuries. The Medici were powerful bankers and political leaders who became major patrons of Renaissance art, commissioning and collecting works by masters like Botticelli, Michelangelo, and Leonardo da Vinci. When the last Medici heir, Anna Maria Luisa, died in 1743, she bequeathed the entire collection to the city of Florence with the stipulation that it never leave the city, ensuring the preservation of this extraordinary artistic heritage.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Uffizi",
+    "citationTitle": "Wikipedia: Uffizi"
+  },
+  {
+    "id": "ae156966-d000-4af3-b35c-4feecb492bb7",
+    "text": "Which museum houses the world's most comprehensive collection of ancient Greek and Roman sculptures, including the famous Elgin Marbles?",
+    "options": [
+      "Vatican Museums",
+      "British Museum",
+      "Metropolitan Museum of Art",
+      "Capitoline Museums"
+    ],
+    "correctIndex": 1,
+    "category": "arts",
+    "difficulty": "medium",
+    "explanation": "The British Museum houses the Elgin Marbles and has one of the world's most extensive collections of ancient Greek and Roman artifacts.",
+    "detailedExplanation": "The British Museum in London houses one of the world's most comprehensive collections of ancient Greek and Roman sculptures, most famously including the Elgin Marbles (Parthenon Sculptures). These marble sculptures were removed from the Parthenon in Athens by Lord Elgin in the early 19th century and have been a cornerstone of the museum's classical antiquities collection ever since. The collection also includes the Townley Marbles, Roman sculptures collected by Charles Townley, and numerous other ancient Greek and Roman artifacts that make it one of the premier destinations for studying classical antiquity.",
+    "citationUrl": "https://en.wikipedia.org/wiki/British_Museum",
+    "citationTitle": "Wikipedia: British Museum"
+  }
+]

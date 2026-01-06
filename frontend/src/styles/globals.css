@@ -84,3 +84,8 @@
 .answer-option.disabled {
   @apply cursor-not-allowed opacity-50;
 }
+
+/* Hide reCAPTCHA badge - required branding is shown on forms that use it */
+.grecaptcha-badge {
+  visibility: hidden !important;
+}

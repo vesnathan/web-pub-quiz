@@ -1,0 +1,342 @@
+[
+  {
+    "id": "55d76701-1cdd-4679-8c4f-fbd41fc200df",
+    "text": "Which tech company founder famously dropped out of Harvard and later received an honorary degree from the same university in 2007?",
+    "options": [
+      "Steve Jobs",
+      "Bill Gates",
+      "Mark Zuckerberg",
+      "Michael Dell"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Bill Gates dropped out of Harvard in 1975 to start Microsoft and received an honorary degree in 2007.",
+    "detailedExplanation": "Bill Gates left Harvard University in his sophomore year in 1975 to co-found Microsoft with Paul Allen. Despite his enormous success in the technology industry, he didn't complete his degree until Harvard awarded him an honorary Doctor of Laws degree in 2007, over 30 years after he dropped out. During his commencement speech, Gates jokingly told graduates that he was getting his degree before his father, referring to the long-running family joke about his incomplete education.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Bill_Gates",
+    "citationTitle": "Wikipedia: Bill Gates"
+  },
+  {
+    "id": "21062626-f914-4bce-a598-09fa8bff94f7",
+    "text": "Before founding Tesla, what was Elon Musk's first major entrepreneurial success that he sold to Compaq for $307 million?",
+    "options": [
+      "PayPal",
+      "Zip2",
+      "SpaceX",
+      "Neuralink"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Zip2 was Musk's first company, a web software company he co-founded and sold to Compaq in 1999.",
+    "detailedExplanation": "Zip2 was Elon Musk's first major business venture, co-founded with his brother Kimbal in 1995. The company provided business directories and maps for newspapers and was essentially an early version of what would later become Google Maps combined with Yelp. In 1999, Compaq Computer Corporation acquired Zip2 for $307 million in cash, with Musk receiving $22 million from the sale. This success provided him with the capital to pursue his next venture, X.com, which later became part of PayPal.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Zip2",
+    "citationTitle": "Wikipedia: Zip2"
+  },
+  {
+    "id": "23ff41b6-2738-4644-8bc3-21a87dd09900",
+    "text": "Which social media platform founder originally created the site as a podcast platform before pivoting to microblogging?",
+    "options": [
+      "Mark Zuckerberg (Facebook)",
+      "Jack Dorsey (Twitter)",
+      "Evan Spiegel (Snapchat)",
+      "Kevin Systrom (Instagram)"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Jack Dorsey co-founded Twitter, which evolved from a podcasting platform called Odeo.",
+    "detailedExplanation": "Before Twitter became the microblogging platform we know today, Jack Dorsey was working at a company called Odeo, founded by Noah Glass and Evan Williams, which was focused on podcasting. When Apple launched iTunes' podcasting features in 2005, it threatened Odeo's business model. During a company hackathon, Dorsey presented his idea for a short messaging service that would allow users to communicate with small groups. This concept evolved into Twitter, officially launching in 2006. The pivot from podcasting to microblogging proved to be one of the most successful business transformations in tech history.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Jack_Dorsey",
+    "citationTitle": "Wikipedia: Jack Dorsey"
+  },
+  {
+    "id": "dd54cd0e-5ee1-4dff-bd71-91a85979a85d",
+    "text": "What was the original name of the search engine that Larry Page and Sergey Brin developed before it became Google?",
+    "options": [
+      "AltaVista",
+      "BackRub",
+      "WebCrawler",
+      "Archie"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "BackRub was the original name of Google's search engine, developed by Page and Brin at Stanford University.",
+    "detailedExplanation": "Larry Page and Sergey Brin initially called their search engine 'BackRub' when they developed it as a research project at Stanford University in 1996. The name referred to the system's ability to analyze the 'back links' pointing to a given website to determine its importance and relevance. The search engine ran on Stanford's servers for more than a year before the founders realized they needed a new name. They eventually settled on 'Google,' a play on the mathematical term 'googol' (the number 1 followed by 100 zeros), reflecting their mission to organize the vast amount of information available on the web.",
+    "citationUrl": "https://en.wikipedia.org/wiki/History_of_Google",
+    "citationTitle": "Wikipedia: History of Google"
+  },
+  {
+    "id": "8774cb95-144e-4373-9ac5-524a20b223ea",
+    "text": "Which streaming service founder previously served as CEO of Pure Software and later became CEO of Netflix after co-founding the company?",
+    "options": [
+      "Reed Hastings",
+      "Marc Randolph",
+      "Ted Sarandos",
+      "David Wells"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Reed Hastings was CEO of Pure Software before co-founding Netflix and serving as its CEO.",
+    "detailedExplanation": "Reed Hastings co-founded Netflix in 1997 with Marc Randolph, but his entrepreneurial journey began earlier with Pure Software, a debugging and development tool company he founded in 1991. After taking Pure Software public and eventually selling it to Rational Software in 1997 for $750 million, Hastings used his experience and resources to launch Netflix. Initially starting as a DVD-by-mail service, Hastings transformed Netflix into the streaming giant we know today, serving as CEO until 2023 when he transitioned to Executive Chairman.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Reed_Hastings",
+    "citationTitle": "Wikipedia: Reed Hastings"
+  },
+  {
+    "id": "950e456d-754a-4264-be41-9e6bd9ce71a6",
+    "text": "At what age did Mark Zuckerberg become the world's youngest billionaire when Facebook went public?",
+    "options": [
+      "23",
+      "27",
+      "25",
+      "28"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Mark Zuckerberg was 27 years old when Facebook's IPO in 2012 made him the youngest billionaire at that time.",
+    "detailedExplanation": "Mark Zuckerberg became the world's youngest billionaire at age 27 following Facebook's initial public offering on May 18, 2012. Born on May 14, 1984, Zuckerberg had turned 28 just four days before the IPO, but various sources confirm he held the title at 27. The Facebook IPO raised $16 billion, making it one of the largest technology IPOs in history at that time. Zuckerberg's stake in the company was valued at approximately $19.1 billion immediately after the public offering, though the stock price fluctuated significantly in the months following the IPO.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Mark_Zuckerberg",
+    "citationTitle": "Wikipedia: Mark Zuckerberg"
+  },
+  {
+    "id": "929c3c98-5b4c-468a-9142-579f079bc851",
+    "text": "Which messaging app founder sold his company to Facebook for $19 billion, making it one of the largest tech acquisitions ever?",
+    "options": [
+      "Pavel Durov (Telegram)",
+      "Jan Koum (WhatsApp)",
+      "Evan Spiegel (Snapchat)",
+      "Brian Acton (Signal)"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Jan Koum co-founded WhatsApp and sold it to Facebook for $19 billion in 2014.",
+    "detailedExplanation": "Jan Koum, along with co-founder Brian Acton, sold WhatsApp to Facebook in February 2014 for approximately $19 billion, making it one of the largest technology acquisitions in history at that time. Koum, who immigrated to the United States from Ukraine as a teenager, had previously worked at Yahoo before founding WhatsApp in 2009. The acquisition was particularly notable because WhatsApp had only 55 employees at the time of the sale, making it worth roughly $345 million per employee. Koum's personal stake in the deal was valued at around $6.8 billion.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Jan_Koum",
+    "citationTitle": "Wikipedia: Jan Koum"
+  },
+  {
+    "id": "7c707f27-fcbd-40ad-b811-42bbfb241710",
+    "text": "Which e-commerce founder started their company by selling books from their garage and named it after the world's largest river?",
+    "options": [
+      "Pierre Omidyar (eBay)",
+      "Jeff Bezos (Amazon)",
+      "Jack Ma (Alibaba)",
+      "Patrick Byrne (Overstock)"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Jeff Bezos founded Amazon in his garage in 1994, initially selling books and naming it after the Amazon River.",
+    "detailedExplanation": "Jeff Bezos founded Amazon in 1994 in the garage of his rented house in Bellevue, Washington. He initially focused on selling books online, choosing books because they were a perfect commodity for internet sales due to their standardized nature and the vast selection available. Bezos named the company Amazon after the Amazon River, the largest river in the world by volume, reflecting his vision for the company to become the largest bookstore in the world. He also liked that it started with 'A' and would appear early in alphabetical listings. From these humble beginnings, Amazon has grown to become one of the world's largest e-commerce and cloud computing companies.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Jeff_Bezos",
+    "citationTitle": "Wikipedia: Jeff Bezos"
+  },
+  {
+    "id": "8f0939b4-7cf7-4427-9771-9b965cab0966",
+    "text": "Which tech company founder was born in South Africa and holds citizenship in three countries?",
+    "options": [
+      "Elon Musk",
+      "Patrick Collison",
+      "Daniel Ek",
+      "Peter Thiel"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Elon Musk was born in South Africa and holds citizenship in South Africa, Canada, and the United States.",
+    "detailedExplanation": "Elon Musk was born in Pretoria, South Africa in 1971. He obtained Canadian citizenship through his mother and later became a naturalized U.S. citizen in 2002, while retaining his South African citizenship. This triple citizenship has been significant in his business ventures, allowing him to move freely between countries and establish companies in different jurisdictions.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Elon_Musk",
+    "citationTitle": "Wikipedia: Elon Musk"
+  },
+  {
+    "id": "7f935a0e-0b0c-4d7f-a8a5-b5951b216e2d",
+    "text": "Which Apple co-founder sold his 10% stake in the company for $800 in 1976, which would be worth over $300 billion today?",
+    "options": [
+      "Steve Wozniak",
+      "Ronald Wayne",
+      "Mike Markkula",
+      "John Sculley"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Ronald Wayne sold his 10% stake in Apple for $800 just 12 days after co-founding the company.",
+    "detailedExplanation": "Ronald Wayne was one of Apple's three co-founders alongside Steve Jobs and Steve Wozniak. However, concerned about potential financial liability and debt, Wayne sold his 10% stake back to his partners for $800 in April 1976, just 12 days after the company was founded. Given Apple's current valuation, that stake would be worth hundreds of billions of dollars today, making it one of the most expensive decisions in business history.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Ronald_Wayne",
+    "citationTitle": "Wikipedia: Ronald Wayne"
+  },
+  {
+    "id": "67510d48-f983-4b0c-bf69-c98ab673ec63",
+    "text": "Which Microsoft co-founder left the company in 1983 due to a battle with Hodgkin's lymphoma and later became a major philanthropist and sports team owner?",
+    "options": [
+      "Steve Ballmer",
+      "Paul Allen",
+      "Bill Gates",
+      "Nathan Myhrvold"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Paul Allen left Microsoft in 1983 after being diagnosed with Hodgkin's lymphoma and went on to own the Seattle Seahawks and Portland Trail Blazers.",
+    "detailedExplanation": "Paul Allen co-founded Microsoft with Bill Gates in 1975, but left the company in 1983 following his diagnosis with Hodgkin's lymphoma. After recovering, he became a major philanthropist and investor, founding Vulcan Inc. He purchased the Seattle Seahawks NFL team in 1997 and the Portland Trail Blazers NBA team in 1988. Allen was also involved in numerous other ventures including space exploration, artificial intelligence research, and music.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Paul_Allen",
+    "citationTitle": "Wikipedia: Paul Allen"
+  },
+  {
+    "id": "3cce6f39-4e7d-468c-baad-0707445cc6cd",
+    "text": "What is the real first name of Oracle founder Larry Ellison?",
+    "options": [
+      "Lawrence",
+      "Leonard",
+      "Lewis",
+      "Louis"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Larry Ellison's full name is Lawrence Joseph Ellison.",
+    "detailedExplanation": "Lawrence 'Larry' Ellison was born Lawrence Joseph Ellison in 1944 in New York City. He co-founded Oracle Corporation in 1977, originally called Software Development Laboratories. Ellison has been known for his flamboyant lifestyle and competitive nature, particularly his rivalry with other tech leaders. He served as Oracle's CEO for 37 years before stepping down in 2014 to become Executive Chairman and CTO.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Larry_Ellison",
+    "citationTitle": "Wikipedia: Larry Ellison"
+  },
+  {
+    "id": "0a2db9ef-b12b-4b20-81ab-7576c1e9f70c",
+    "text": "Which social media platform founder previously worked as a software engineer at Google before starting his own company in 2010?",
+    "options": [
+      "Kevin Systrom",
+      "Evan Spiegel",
+      "Jack Dorsey",
+      "Reid Hoffman"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Kevin Systrom worked at Google before co-founding Instagram in 2010.",
+    "detailedExplanation": "Kevin Systrom worked as a software engineer at Google for two years before leaving to pursue other opportunities. He later co-founded Instagram with Mike Krieger in 2010. The photo-sharing app grew rapidly and was acquired by Facebook for $1 billion in 2012, just two years after its launch. Systrom's background in engineering and his experience at Google helped shape Instagram's technical foundation and user experience.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Kevin_Systrom",
+    "citationTitle": "Wikipedia: Kevin Systrom"
+  },
+  {
+    "id": "a9b83649-ba91-4e23-8a5e-9fb0f053b5be",
+    "text": "Which tech billionaire founded PayPal's predecessor X.com and was ousted as CEO while on his honeymoon?",
+    "options": [
+      "Peter Thiel",
+      "Max Levchin",
+      "Elon Musk",
+      "Luke Nosek"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Elon Musk founded X.com which merged with PayPal, but was removed as CEO in 2000 while on his honeymoon.",
+    "detailedExplanation": "Elon Musk founded X.com in 1999, an online financial services company that later merged with Confinity (which operated PayPal) in 2000. However, due to disagreements over the company's direction and leadership style, the board of directors removed Musk as CEO in October 2000 while he was on his honeymoon in Australia. Peter Thiel took over as CEO, and the company was later renamed PayPal before being sold to eBay for $1.5 billion in 2002.",
+    "citationUrl": "https://en.wikipedia.org/wiki/X.com",
+    "citationTitle": "Wikipedia: X.com"
+  },
+  {
+    "id": "a862d9f6-27ce-4c83-809d-518ea7235541",
+    "text": "Which ride-sharing company founder was forced to resign as CEO in 2017 following a series of corporate scandals?",
+    "options": [
+      "Logan Green",
+      "Travis Kalanick",
+      "John Zimmer",
+      "Dara Khosrowshahi"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Travis Kalanick resigned as Uber's CEO in 2017 amid multiple controversies including sexual harassment allegations and regulatory battles.",
+    "detailedExplanation": "Travis Kalanick co-founded Uber in 2009 and served as CEO until June 2017. His resignation came after a tumultuous period that included allegations of sexual harassment and discrimination within the company, aggressive tactics against competitors and regulators, and a toxic corporate culture. The final straw came when several major investors demanded his resignation. He was replaced by Dara Khosrowshahi, former CEO of Expedia, who worked to reform the company's culture and practices.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Travis_Kalanick",
+    "citationTitle": "Wikipedia: Travis Kalanick"
+  },
+  {
+    "id": "ba60ada4-b355-4666-aa34-46f91e10ce9d",
+    "text": "Which video game company founder created the 'Ultima' series and is known for his philosophical approach to game design ethics?",
+    "options": [
+      "John Carmack",
+      "Richard Garriott",
+      "Sid Meier",
+      "Will Wright"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Richard Garriott created the Ultima series and founded Origin Systems, incorporating moral choices and ethical dilemmas into his games.",
+    "detailedExplanation": "Richard Garriott, also known by his gaming alter-ego 'Lord British,' created the influential Ultima series of role-playing games and founded Origin Systems in 1983. He was pioneering in incorporating moral and ethical choices into gameplay, particularly through the 'virtue system' in later Ultima games. Garriott is also notable for being one of the first video game developers to become a space tourist, flying to the International Space Station in 2008. His father was also a NASA astronaut, making them the first father-son duo to travel to space.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Richard_Garriott",
+    "citationTitle": "Wikipedia: Richard Garriott"
+  },
+  {
+    "id": "63abaf96-533b-4834-a8ea-73765ac3b1aa",
+    "text": "Which tech company founder famously lived in his office and showered at the local YMCA during the early days of his company?",
+    "options": [
+      "Jack Dorsey",
+      "Michael Dell",
+      "Steve Jobs",
+      "Larry Page"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Michael Dell lived in his University of Texas dorm room office and showered at the YMCA while building Dell Computer Corporation.",
+    "detailedExplanation": "Michael Dell started Dell Computer Corporation from his University of Texas dorm room in 1984 with just $1,000. During the early days of the company, he was so dedicated to the business that he essentially lived in his makeshift office, often working around the clock. Since he didn't have proper living accommodations due to his intense focus on the business, he would shower at the local YMCA to maintain basic hygiene. This extreme dedication paid off, as Dell became one of the youngest CEOs of a Fortune 500 company and revolutionized the computer industry with his direct-to-consumer sales model.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Michael_Dell",
+    "citationTitle": "Wikipedia: Michael Dell"
+  },
+  {
+    "id": "03630b82-ef1d-4ec0-af7b-4b21d38a1021",
+    "text": "Which social media platform founder was a competitive fencer and studied psychology at Stanford University?",
+    "options": [
+      "Evan Spiegel",
+      "Kevin Systrom",
+      "Reid Hoffman",
+      "Chad Dickerson"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Evan Spiegel, co-founder of Snapchat, was a competitive fencer and studied product design at Stanford, though he dropped out to focus on Snapchat.",
+    "detailedExplanation": "Evan Spiegel, co-founder and CEO of Snapchat, had an interesting background before creating the popular messaging app. He was actively involved in competitive fencing during his youth and continued this interest into his college years. At Stanford University, he initially studied product design rather than computer science or business, which gave him a unique perspective on user experience and interface design. This background in both the physical discipline of fencing and the creative aspects of product design likely contributed to his innovative approach to social media, particularly Snapchat's emphasis on ephemeral messaging and creative visual communication tools.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Evan_Spiegel",
+    "citationTitle": "Wikipedia: Evan Spiegel"
+  },
+  {
+    "id": "6a6e8a23-be29-4d75-b6ab-d31e6369748d",
+    "text": "Which gaming company founder taught himself programming and created his first successful game while working as a carpenter?",
+    "options": [
+      "Gabe Newell",
+      "John Carmack",
+      "Markus Persson",
+      "Tim Sweeney"
+    ],
+    "correctIndex": 3,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Tim Sweeney, founder of Epic Games, taught himself programming and created early games while working various jobs including carpentry.",
+    "detailedExplanation": "Tim Sweeney, founder and CEO of Epic Games, has a remarkable self-taught background in programming. Before Epic Games became a billion-dollar company known for Fortnite and the Unreal Engine, Sweeney was working as a carpenter and other manual labor jobs to support himself. During this time, he taught himself programming languages and began creating games as a hobby and side project. His first commercial success was a game called 'ZZT' which he developed and published in 1991. This early success allowed him to transition from carpentry to full-time game development, eventually leading to the creation of Epic Games and some of the most influential games and game engines in the industry.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Tim_Sweeney_(game_developer)",
+    "citationTitle": "Wikipedia: Tim Sweeney"
+  },
+  {
+    "id": "8cbf2e66-e97e-41e2-9611-a570a1d3d6ac",
+    "text": "Which enterprise software company founder is known for owning multiple Hawaiian islands and was once a licensed pilot who owned several military aircraft?",
+    "options": [
+      "Marc Benioff",
+      "Larry Ellison",
+      "Michael Dell",
+      "Bill Gates"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Larry Ellison, Oracle founder, owns most of the Hawaiian island of Lanai and has owned various military aircraft including fighter jets.",
+    "detailedExplanation": "Larry Ellison, co-founder and former CEO of Oracle Corporation, is known for his extravagant lifestyle and expensive hobbies. One of his most notable purchases was acquiring 98% of the Hawaiian island of Lanai in 2012 for an estimated $300 million, making him the owner of nearly an entire island. Ellison is also a licensed pilot with a passion for aviation, and his collection has included various military aircraft such as fighter jets and other vintage warplanes. His wealth from Oracle, one of the world's largest database software companies, has enabled these extraordinary purchases and hobbies, making him one of the most colorful personalities among tech billionaires.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Larry_Ellison",
+    "citationTitle": "Wikipedia: Larry Ellison"
+  }
+]

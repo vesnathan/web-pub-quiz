@@ -1,0 +1,342 @@
+[
+  {
+    "id": "960b76e4-802b-4db5-a1e6-749dbee731d7",
+    "text": "Which US President was forced to resign due to the Watergate scandal?",
+    "options": [
+      "Gerald Ford",
+      "Richard Nixon",
+      "Jimmy Carter",
+      "Lyndon Johnson"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Richard Nixon resigned in 1974 to avoid impeachment over the Watergate break-in and cover-up.",
+    "detailedExplanation": "The Watergate scandal began with a break-in at the Democratic National Committee headquarters in 1972 and escalated into a major political crisis when it was revealed that President Nixon and his administration had engaged in illegal activities and attempted to cover them up. Facing almost certain impeachment by Congress, Nixon became the first US President to resign from office on August 9, 1974.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Watergate_scandal",
+    "citationTitle": "Wikipedia: Watergate scandal"
+  },
+  {
+    "id": "d4d7ce38-8aea-467c-8d29-ba7d3de1d3e4",
+    "text": "What was the name of the White House intern involved in President Bill Clinton's impeachment scandal?",
+    "options": [
+      "Paula Jones",
+      "Monica Lewinsky",
+      "Gennifer Flowers",
+      "Linda Tripp"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Monica Lewinsky was the White House intern whose affair with President Clinton led to his impeachment.",
+    "detailedExplanation": "Monica Lewinsky was a 22-year-old White House intern when she began an affair with President Bill Clinton in 1995. The scandal became public in 1998, leading to Clinton's impeachment by the House of Representatives for perjury and obstruction of justice after he initially denied the relationship under oath. Clinton was later acquitted by the Senate.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Clinton%E2%80%93Lewinsky_scandal",
+    "citationTitle": "Wikipedia: Clinton–Lewinsky scandal"
+  },
+  {
+    "id": "1c2c2caa-7a06-4ff9-ba80-ff5ade1f65b7",
+    "text": "Which British newspaper was at the center of the phone hacking scandal that led to its closure in 2011?",
+    "options": [
+      "The Sun",
+      "News of the World",
+      "Daily Mirror",
+      "The Times"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "News of the World was shut down by Rupert Murdoch after revelations of widespread phone hacking.",
+    "detailedExplanation": "The News of the World, Britain's biggest-selling Sunday newspaper, was closed in July 2011 following a major scandal involving illegal phone hacking of celebrities, politicians, and crime victims. The most shocking revelation was that journalists had hacked the voicemail of murdered schoolgirl Milly Dowler. The scandal led to multiple arrests, resignations, and a public inquiry into press ethics.",
+    "citationUrl": "https://en.wikipedia.org/wiki/News_International_phone_hacking_scandal",
+    "citationTitle": "Wikipedia: News International phone hacking scandal"
+  },
+  {
+    "id": "002b84c5-1403-40c7-868e-ffc88d9a2e54",
+    "text": "What was the name of the political scandal involving secret arms sales to Iran in the 1980s?",
+    "options": [
+      "Teapot Dome",
+      "Iran-Contra",
+      "Whitewater",
+      "Pentagon Papers"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "The Iran-Contra affair involved secretly selling weapons to Iran and using proceeds to fund Nicaraguan rebels.",
+    "detailedExplanation": "The Iran-Contra affair was a major political scandal during Ronald Reagan's presidency in the mid-1980s. Senior administration officials secretly facilitated the sale of arms to Iran, which was under an arms embargo, and used the proceeds to fund Contra rebels in Nicaragua, circumventing a congressional ban on such funding. The scandal led to multiple investigations and criminal charges against several officials.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Iran%E2%80%93Contra_affair",
+    "citationTitle": "Wikipedia: Iran–Contra affair"
+  },
+  {
+    "id": "79a9f008-1743-49b8-b7c9-0289522be7d4",
+    "text": "Which French President was involved in a scandal over allegedly receiving illegal campaign donations from L'Oréal heiress Liliane Bettencourt?",
+    "options": [
+      "Jacques Chirac",
+      "Nicolas Sarkozy",
+      "François Hollande",
+      "Emmanuel Macron"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Nicolas Sarkozy faced allegations of receiving illegal campaign funding from Liliane Bettencourt, France's richest woman.",
+    "detailedExplanation": "The Bettencourt affair was a major French political scandal involving allegations that Nicolas Sarkozy received illegal campaign donations from Liliane Bettencourt, the L'Oréal heiress and France's wealthiest person, during his 2007 presidential campaign. The scandal involved claims of tax evasion, illegal political donations, and influence peddling, though Sarkozy denied wrongdoing and was eventually cleared of the main charges.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Bettencourt_affair",
+    "citationTitle": "Wikipedia: Bettencourt affair"
+  },
+  {
+    "id": "63005813-c4e2-4cd4-99be-9a975ab68b6d",
+    "text": "What is the common name for the scandal that brought down several Canadian politicians over misuse of government advertising funds in Quebec?",
+    "options": [
+      "The Sponsorship Scandal",
+      "The Senate Scandal",
+      "The Adsale Affair",
+      "The Quebec Gate"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "The Sponsorship Scandal involved misuse of government funds intended for advertising to promote Canadian unity in Quebec.",
+    "detailedExplanation": "The Sponsorship Scandal (also known as AdScam) was a major Canadian political scandal that broke in 2004. It involved the misuse of millions of dollars in government funds that were supposed to be used for advertising and sponsorship activities in Quebec to promote Canadian unity following the 1995 Quebec referendum. Instead, much of the money was diverted to Liberal Party-connected advertising firms with little or no work performed, leading to the defeat of the Liberal government in 2006.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Sponsorship_scandal",
+    "citationTitle": "Wikipedia: Sponsorship scandal"
+  },
+  {
+    "id": "0383b667-bc0b-492b-a917-5a57b777174f",
+    "text": "Which Italian Prime Minister was involved in numerous scandals including the 'bunga bunga' parties?",
+    "options": [
+      "Mario Monti",
+      "Silvio Berlusconi",
+      "Matteo Renzi",
+      "Giuseppe Conte"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Silvio Berlusconi faced multiple scandals including charges related to his infamous 'bunga bunga' parties at his residences.",
+    "detailedExplanation": "Silvio Berlusconi, Italy's longest-serving post-war Prime Minister, was embroiled in numerous scandals throughout his political career. The most notorious involved his 'bunga bunga' parties at his residences, which allegedly involved prostitutes and underage participants. He faced various criminal charges including tax fraud, abuse of office, and paying for sex with an underage prostitute, though he denied wrongdoing in most cases.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Trials_and_allegations_involving_Silvio_Berlusconi",
+    "citationTitle": "Wikipedia: Trials and allegations involving Silvio Berlusconi"
+  },
+  {
+    "id": "d802db18-7f2b-426b-ada1-06340cf18160",
+    "text": "What was the name of the UK parliamentary expenses scandal that erupted in 2009?",
+    "options": [
+      "Cash for Questions",
+      "Expenses Gate",
+      "The Telegraph Leaks",
+      "MPs' Expenses Scandal"
+    ],
+    "correctIndex": 3,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "The MPs' Expenses Scandal revealed widespread misuse of parliamentary allowances by British politicians in 2009.",
+    "detailedExplanation": "The MPs' Expenses Scandal erupted in 2009 when The Daily Telegraph published leaked details of expense claims made by Members of Parliament. The revelations showed widespread misuse of the parliamentary expenses system, including claims for duck houses, moats, porn films, and flipping second homes for profit. The scandal led to widespread public outrage, numerous resignations, criminal prosecutions, and major reforms to the expenses system.",
+    "citationUrl": "https://en.wikipedia.org/wiki/2009_United_Kingdom_parliamentary_expenses_scandal",
+    "citationTitle": "Wikipedia: 2009 United Kingdom parliamentary expenses scandal"
+  },
+  {
+    "id": "982e68d3-b8d5-4904-a0c0-72d0b64940cf",
+    "text": "Which US President was involved in the Teapot Dome scandal, one of the biggest political scandals of the 1920s?",
+    "options": [
+      "Warren G. Harding",
+      "Calvin Coolidge",
+      "Herbert Hoover",
+      "Woodrow Wilson"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Warren G. Harding's administration was involved in the Teapot Dome scandal involving illegal oil leases.",
+    "detailedExplanation": "The Teapot Dome scandal occurred during Warren G. Harding's presidency in the early 1920s. It involved the secret leasing of federal oil reserves at Teapot Dome in Wyoming and Elk Hills in California to private oil companies without competitive bidding. Interior Secretary Albert Fall was later convicted of accepting bribes from oil executives, making him the first cabinet member to serve prison time for crimes committed while in office.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Teapot_Dome_scandal",
+    "citationTitle": "Wikipedia: Teapot Dome scandal"
+  },
+  {
+    "id": "1ccd6766-d634-4a8f-bb19-d90ffeb8c7fd",
+    "text": "What was the name of the German political scandal in the 1980s involving illegal party financing and a construction company?",
+    "options": [
+      "Flick Affair",
+      "Lockheed Scandal",
+      "Parmalat Scandal",
+      "Bofors Scandal"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "The Flick Affair was a major German political scandal involving illegal donations from the Flick industrial group.",
+    "detailedExplanation": "The Flick Affair was a major West German political scandal that emerged in the early 1980s. It involved illegal party donations from the Flick industrial group to various political parties in exchange for tax benefits. The scandal led to the resignation of several prominent politicians, including Economics Minister Otto Graf Lambsdorff, and significantly damaged public trust in the German political system.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Flick_affair",
+    "citationTitle": "Wikipedia: Flick affair"
+  },
+  {
+    "id": "ae208b61-e7eb-4d70-b6a7-6ba17c227ec1",
+    "text": "Which Australian Prime Minister was dismissed by the Governor-General in 1975, creating a constitutional crisis?",
+    "options": [
+      "Gough Whitlam",
+      "Malcolm Fraser",
+      "Bob Hawke",
+      "John Gorton"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Gough Whitlam was dismissed by Governor-General John Kerr in 1975 during a political crisis over budget deadlock.",
+    "detailedExplanation": "The 1975 Australian constitutional crisis culminated when Governor-General John Kerr dismissed Prime Minister Gough Whitlam on November 11, 1975. The crisis arose when the Opposition-controlled Senate refused to pass the government's budget bills, creating a deadlock. Kerr's unprecedented use of reserve powers to dismiss an elected Prime Minister remains one of the most controversial events in Australian political history.",
+    "citationUrl": "https://en.wikipedia.org/wiki/1975_Australian_constitutional_crisis",
+    "citationTitle": "Wikipedia: 1975 Australian constitutional crisis"
+  },
+  {
+    "id": "dfb02ed3-bff0-4223-873d-ce89bccb4a09",
+    "text": "What was the name of the major corruption scandal that rocked Brazil and involved the state oil company Petrobras?",
+    "options": [
+      "Operation Car Wash",
+      "Operation Clean Hands",
+      "Operation Hurricane",
+      "Operation Cleanup"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Operation Car Wash (Lava Jato) was Brazil's largest corruption investigation centered around Petrobras.",
+    "detailedExplanation": "Operation Car Wash (Operação Lava Jato) began in 2014 as Brazil's largest corruption investigation. It uncovered a massive kickback scheme involving Petrobras, Brazil's state-owned oil company, construction companies, and politicians. The scandal led to the imprisonment of numerous business executives and politicians, including former President Luiz Inácio Lula da Silva, and contributed to the impeachment of President Dilma Rousseff in 2016.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Operation_Car_Wash",
+    "citationTitle": "Wikipedia: Operation Car Wash"
+  },
+  {
+    "id": "aca2a33a-7c34-426e-9408-a8c3f64fd4aa",
+    "text": "Which South African President resigned in 2018 amid corruption allegations and state capture scandals?",
+    "options": [
+      "Jacob Zuma",
+      "Thabo Mbeki",
+      "Kgalema Motlanthe",
+      "Cyril Ramaphosa"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Jacob Zuma resigned in 2018 following corruption scandals and allegations of state capture involving the Gupta family.",
+    "detailedExplanation": "Jacob Zuma resigned as South African President in February 2018 under pressure from his own party, the ANC, following numerous corruption scandals during his tenure. The most significant was the 'state capture' scandal involving the wealthy Gupta family, who were accused of using their influence with Zuma to secure lucrative government contracts and manipulate cabinet appointments for their business interests.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Jacob_Zuma",
+    "citationTitle": "Wikipedia: Jacob Zuma"
+  },
+  {
+    "id": "0f8ae27b-62ae-4e0d-825e-5cf2db6d8e49",
+    "text": "What was the name of the 1960s British political scandal involving Secretary of State for War John Profumo?",
+    "options": [
+      "Profumo Affair",
+      "Ward Scandal",
+      "Keeler Crisis",
+      "Admiralty Scandal"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "The Profumo Affair involved John Profumo's relationship with Christine Keeler and his lies to Parliament about it.",
+    "detailedExplanation": "The Profumo Affair was a major British political scandal in 1963 involving Secretary of State for War John Profumo. Profumo had an affair with Christine Keeler, who was also involved with a Soviet naval attaché, creating potential security risks during the Cold War. When questioned in Parliament, Profumo initially denied the relationship but later admitted he had lied, leading to his resignation and contributing to the Conservative government's eventual electoral defeat in 1964.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Profumo_affair",
+    "citationTitle": "Wikipedia: Profumo affair"
+  },
+  {
+    "id": "aee9a5b6-cd3a-4601-8fa2-c840775bba7b",
+    "text": "Which Indian Prime Minister was assassinated in 1991 during an election campaign, partly due to involvement in the Sri Lankan civil war scandal?",
+    "options": [
+      "Rajiv Gandhi",
+      "Indira Gandhi",
+      "Morarji Desai",
+      "V.P. Singh"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Rajiv Gandhi was assassinated in 1991 by Tamil Tigers, partly motivated by his controversial involvement in Sri Lanka.",
+    "detailedExplanation": "Rajiv Gandhi was assassinated on May 21, 1991, during an election campaign in Tamil Nadu by a suicide bomber from the Liberation Tigers of Tamil Eelam (LTTE). His assassination was partly motivated by his controversial decision as Prime Minister to send Indian peacekeeping forces to Sri Lanka in 1987, which became deeply unpopular and was seen as interference in the Sri Lankan civil war. The mission was widely regarded as a political and military failure.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Assassination_of_Rajiv_Gandhi",
+    "citationTitle": "Wikipedia: Assassination of Rajiv Gandhi"
+  },
+  {
+    "id": "3a6c5999-3aa1-4c22-bd72-b3d801eed9b9",
+    "text": "What was the name of the 1970s Japanese political scandal involving Prime Minister Kakuei Tanaka and aircraft manufacturer Lockheed?",
+    "options": [
+      "Lockheed bribery scandals",
+      "Recruit scandal",
+      "Sagawa Kyubin scandal",
+      "Black Mist scandal"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "The Lockheed bribery scandals involved bribes paid to Japanese officials, including PM Tanaka, to secure aircraft sales.",
+    "detailedExplanation": "The Lockheed bribery scandals erupted in the mid-1970s when it was revealed that Lockheed Corporation had paid millions in bribes to foreign officials to secure aircraft sales. In Japan, the scandal reached the highest levels when former Prime Minister Kakuei Tanaka was arrested in 1976 for accepting 500 million yen in bribes from Lockheed in exchange for helping the company sell aircraft to All Nippon Airways. Tanaka was eventually convicted and sentenced to prison, though he appealed until his death.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Lockheed_bribery_scandals",
+    "citationTitle": "Wikipedia: Lockheed bribery scandals"
+  },
+  {
+    "id": "3d5ed1d6-3cac-4ad6-ada7-a223b6b1e555",
+    "text": "Which US President was involved in the 'Saturday Night Massacre' during the Watergate investigation?",
+    "options": [
+      "Gerald Ford",
+      "Richard Nixon",
+      "Jimmy Carter",
+      "Lyndon Johnson"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Richard Nixon was the president during the Saturday Night Massacre in 1973.",
+    "detailedExplanation": "The Saturday Night Massacre occurred on October 20, 1973, during Richard Nixon's presidency. Nixon ordered the firing of Watergate special prosecutor Archibald Cox, which led to the resignations of Attorney General Elliot Richardson and Deputy Attorney General William Ruckelshaus, who refused to carry out the order. The event significantly escalated the Watergate crisis and increased calls for Nixon's impeachment.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Saturday_Night_Massacre",
+    "citationTitle": "Wikipedia: Saturday Night Massacre"
+  },
+  {
+    "id": "35d3734d-92b5-49c3-b8b6-9a6124dd6a9d",
+    "text": "What does the term 'Bridgegate' refer to in New Jersey politics?",
+    "options": [
+      "A campaign finance scandal",
+      "Traffic lane closures on the George Washington Bridge",
+      "Illegal wiretapping of opponents",
+      "Misuse of Hurricane Sandy relief funds"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Bridgegate refers to the 2013 scandal involving politically motivated traffic lane closures on the George Washington Bridge.",
+    "detailedExplanation": "The Fort Lee lane closure scandal, nicknamed 'Bridgegate,' occurred in September 2013 when several access lanes to the George Washington Bridge were closed, allegedly as political retribution against the Democratic mayor of Fort Lee, New Jersey. The closures caused massive traffic jams and were orchestrated by associates of then-New Jersey Governor Chris Christie, severely damaging his political career and presidential ambitions.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Fort_Lee_lane_closure_scandal",
+    "citationTitle": "Wikipedia: Fort Lee lane closure scandal"
+  },
+  {
+    "id": "3a8aea0c-0db8-4e21-8a03-89bd652673d8",
+    "text": "Which Canadian Prime Minister was involved in the 'Sponsorship Scandal' also known as 'AdScam'?",
+    "options": [
+      "Stephen Harper",
+      "Jean Chrétien",
+      "Paul Martin",
+      "Brian Mulroney"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Jean Chrétien's government initiated the federal sponsorship program that became the center of the scandal.",
+    "detailedExplanation": "The Sponsorship Scandal, also called AdScam, involved the misuse of government funds in a federal program designed to promote Canadian unity in Quebec following the 1995 sovereignty referendum. The program was initiated under Jean Chrétien's Liberal government, though it continued under Paul Martin. The scandal involved advertising agencies receiving excessive fees and kickbacks, with millions of taxpayer dollars being misspent or unaccounted for.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Sponsorship_scandal",
+    "citationTitle": "Wikipedia: Sponsorship scandal"
+  },
+  {
+    "id": "b6772b5b-0a86-42b9-85ff-00451f39076b",
+    "text": "What was the name of the 2019 scandal involving UK Prime Minister Boris Johnson and the unlawful prorogation of Parliament?",
+    "options": [
+      "Brexit Gate",
+      "Parliament Gate",
+      "Prorogation Crisis",
+      "Constitutional Crisis"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "The 2019 Prorogation Crisis involved Boris Johnson's controversial suspension of Parliament.",
+    "detailedExplanation": "The 2019 Prorogation Crisis occurred when Prime Minister Boris Johnson advised Queen Elizabeth II to prorogue (suspend) Parliament for five weeks during the crucial Brexit period. The UK Supreme Court later ruled unanimously that this prorogation was unlawful, as it prevented Parliament from carrying out its constitutional functions. This constitutional crisis highlighted tensions between the executive and legislative branches during the Brexit negotiations.",
+    "citationUrl": "https://en.wikipedia.org/wiki/2019_British_prorogation_controversy",
+    "citationTitle": "Wikipedia: 2019 British prorogation controversy"
+  }
+]

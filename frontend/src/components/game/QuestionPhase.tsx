@@ -3,124 +3,118 @@
 import { Card, CardBody } from "@nextui-org/react";
 import { QuestionDisplay } from "@/components/QuestionDisplay";
 import { AnswerOptions } from "@/components/AnswerOptions";
-import { Buzzer } from "@/components/Buzzer";
-import { AnswerCountdown } from "@/components/AnswerCountdown";
 import { useGameStore } from "@/stores/gameStore";
 
 /**
  * Question phase component
- * Displays the question, buzzer, and answer options
- * Handles both mobile and desktop layouts
+ * Displays the question and answer options for multi-guess mode
+ * Players can answer immediately - first correct answer wins
+ * Wrong guesses incur escalating penalties
  */
 export function QuestionPhase() {
   const currentQuestion = useGameStore((state) => state.currentQuestion);
-  const questionIndex = useGameStore((state) => state.questionIndex);
-  const totalQuestions = useGameStore((state) => state.totalQuestions);
-  const buzzerEnabled = useGameStore((state) => state.buzzerEnabled);
-  const buzzerWinner = useGameStore((state) => state.buzzerWinner);
-  const buzzerWinnerName = useGameStore((state) => state.buzzerWinnerName);
-  const answerDeadline = useGameStore((state) => state.answerDeadline);
   const selectedAnswer = useGameStore((state) => state.selectedAnswer);
   const revealedAnswer = useGameStore((state) => state.revealedAnswer);
   const isCorrect = useGameStore((state) => state.isCorrect);
   const leftTabDuringQuestion = useGameStore(
     (state) => state.leftTabDuringQuestion,
   );
+  const wrongGuesses = useGameStore((state) => state.wrongGuesses);
+  const questionWinner = useGameStore((state) => state.questionWinner);
+  const questionWinnerName = useGameStore((state) => state.questionWinnerName);
+  const lastPenalty = useGameStore((state) => state.lastPenalty);
   const player = useGameStore((state) => state.player);
 
-  const isMyTurn = buzzerWinner === player?.id;
-  const canBuzz = buzzerEnabled && !buzzerWinner && !leftTabDuringQuestion;
-  const canAnswer =
-    isMyTurn && answerDeadline !== null && !leftTabDuringQuestion;
+  // Can answer if: not left tab, question not won yet
+  const canAnswer = !leftTabDuringQuestion && !questionWinner;
+  const isWinner = questionWinner === player?.id;
 
   return (
     <div className="space-y-6">
       {/* Question Display */}
       <Card className="bg-gray-800/50 backdrop-blur">
         <CardBody className="p-4 md:p-6">
-          <QuestionDisplay
-            question={currentQuestion}
-            questionIndex={questionIndex}
-            totalQuestions={totalQuestions}
-          />
+          <QuestionDisplay question={currentQuestion} />
         </CardBody>
       </Card>
 
       {/* Mobile: Combined card */}
       <MobileQuestionUI
-        isMyTurn={isMyTurn}
-        buzzerWinner={buzzerWinner}
-        buzzerWinnerName={buzzerWinnerName}
-        answerDeadline={answerDeadline}
         currentQuestion={currentQuestion}
         selectedAnswer={selectedAnswer}
         revealedAnswer={revealedAnswer}
         isCorrect={isCorrect}
         canAnswer={canAnswer}
-        canBuzz={canBuzz}
         leftTabDuringQuestion={leftTabDuringQuestion}
+        wrongGuesses={wrongGuesses}
+        questionWinner={questionWinner}
+        questionWinnerName={questionWinnerName}
+        isWinner={isWinner}
+        lastPenalty={lastPenalty}
       />
 
-      {/* Desktop: Separate cards side by side */}
+      {/* Desktop: Full width card */}
       <DesktopQuestionUI
-        isMyTurn={isMyTurn}
-        buzzerWinner={buzzerWinner}
-        buzzerWinnerName={buzzerWinnerName}
-        answerDeadline={answerDeadline}
         currentQuestion={currentQuestion}
         selectedAnswer={selectedAnswer}
         revealedAnswer={revealedAnswer}
         isCorrect={isCorrect}
         canAnswer={canAnswer}
-        canBuzz={canBuzz}
         leftTabDuringQuestion={leftTabDuringQuestion}
+        wrongGuesses={wrongGuesses}
+        questionWinner={questionWinner}
+        questionWinnerName={questionWinnerName}
+        isWinner={isWinner}
+        lastPenalty={lastPenalty}
       />
     </div>
   );
 }
 
 interface QuestionUIProps {
-  isMyTurn: boolean;
-  buzzerWinner: string | null;
-  buzzerWinnerName: string | null;
-  answerDeadline: number | null;
   currentQuestion: { options: string[] } | null;
   selectedAnswer: number | null;
   revealedAnswer: number | null;
   isCorrect: boolean | null;
   canAnswer: boolean;
-  canBuzz: boolean;
   leftTabDuringQuestion: boolean;
+  wrongGuesses: number[];
+  questionWinner: string | null;
+  questionWinnerName: string | null;
+  isWinner: boolean;
+  lastPenalty: number | null;
 }
 
 function MobileQuestionUI({
-  isMyTurn,
-  buzzerWinner,
-  buzzerWinnerName,
-  answerDeadline,
   currentQuestion,
   selectedAnswer,
   revealedAnswer,
   isCorrect,
   canAnswer,
-  canBuzz,
   leftTabDuringQuestion,
+  wrongGuesses,
+  questionWinner,
+  questionWinnerName,
+  isWinner,
+  lastPenalty,
 }: QuestionUIProps) {
   return (
     <Card className="bg-gray-800/50 backdrop-blur md:hidden">
       <CardBody className="p-4 space-y-3">
         {/* Status messages */}
-        {!isMyTurn && buzzerWinner && (
-          <div className="text-center text-purple-400 text-sm">
-            {buzzerWinnerName} is answering...
-          </div>
-        )}
-        {isMyTurn && (
+        {questionWinner ? (
           <div className="text-center">
-            <div className="text-xl font-bold text-primary-400 animate-pulse">
-              Answer Now!
+            <div
+              className={`text-xl font-bold ${isWinner ? "text-green-400" : "text-purple-400"}`}
+            >
+              {isWinner ? "You got it!" : `${questionWinnerName} got it!`}
             </div>
-            {answerDeadline && <AnswerCountdown deadline={answerDeadline} />}
+          </div>
+        ) : (
+          <div className="text-center">
+            <div className="text-lg font-medium text-gray-300">
+              Race to answer!
+            </div>
           </div>
         )}
 
@@ -131,23 +125,14 @@ function MobileQuestionUI({
           revealedAnswer={revealedAnswer}
           isCorrect={isCorrect}
           canAnswer={canAnswer}
+          wrongGuesses={wrongGuesses}
+          lastPenalty={lastPenalty}
         />
 
-        {/* Buzzer - only show when no one has buzzed */}
-        {!buzzerWinner && (
-          <>
-            <Buzzer
-              enabled={canBuzz}
-              isWinner={isMyTurn}
-              deadline={answerDeadline}
-              otherPlayerBuzzed={null}
-            />
-            {leftTabDuringQuestion && (
-              <div className="text-center text-red-400 text-xs">
-                You left the tab. Cannot participate.
-              </div>
-            )}
-          </>
+        {leftTabDuringQuestion && !questionWinner && (
+          <div className="text-center text-red-400 text-xs">
+            You left the tab. Cannot participate.
+          </div>
         )}
       </CardBody>
     </Card>
@@ -155,69 +140,52 @@ function MobileQuestionUI({
 }
 
 function DesktopQuestionUI({
-  isMyTurn,
-  buzzerWinner,
-  buzzerWinnerName,
-  answerDeadline,
   currentQuestion,
   selectedAnswer,
   revealedAnswer,
   isCorrect,
   canAnswer,
-  canBuzz,
   leftTabDuringQuestion,
+  wrongGuesses,
+  questionWinner,
+  questionWinnerName,
+  isWinner,
+  lastPenalty,
 }: QuestionUIProps) {
   return (
-    <div className="hidden md:grid md:grid-cols-2 gap-6">
-      {/* Buzzer Card */}
-      <Card className="bg-gray-800/50 backdrop-blur">
-        <CardBody className="p-6 flex flex-col items-center justify-center min-h-[200px]">
-          {isMyTurn ? (
-            <div className="text-center">
-              <div className="text-3xl font-bold text-primary-400 animate-pulse mb-2">
-                Answer Now!
-              </div>
-              {answerDeadline && <AnswerCountdown deadline={answerDeadline} />}
+    <Card className="hidden md:block bg-gray-800/50 backdrop-blur">
+      <CardBody className="p-6">
+        {/* Status message */}
+        <div className="mb-4 text-center">
+          {questionWinner ? (
+            <div
+              className={`text-2xl font-bold ${isWinner ? "text-green-400" : "text-purple-400"}`}
+            >
+              {isWinner ? "You got it!" : `${questionWinnerName} got it!`}
+            </div>
+          ) : leftTabDuringQuestion ? (
+            <div className="text-red-400">
+              You left the tab during the question. You cannot participate in
+              this round.
             </div>
           ) : (
-            <>
-              <Buzzer
-                enabled={canBuzz}
-                isWinner={isMyTurn}
-                deadline={answerDeadline}
-                otherPlayerBuzzed={
-                  buzzerWinner && !isMyTurn ? buzzerWinnerName : null
-                }
-              />
-              {leftTabDuringQuestion && (
-                <div className="mt-4 text-center text-red-400 text-sm">
-                  You left the tab during the question.
-                  <br />
-                  You cannot participate in this round.
-                </div>
-              )}
-            </>
-          )}
-        </CardBody>
-      </Card>
-
-      {/* Answer Options Card */}
-      <Card className="bg-gray-800/50 backdrop-blur">
-        <CardBody className="p-6 min-h-[200px]">
-          {!isMyTurn && buzzerWinner && (
-            <div className="mb-4 text-center text-purple-400">
-              {buzzerWinnerName} is answering...
+            <div className="text-xl font-medium text-gray-300">
+              Race to answer! First correct answer wins.
             </div>
           )}
-          <AnswerOptions
-            options={currentQuestion?.options || []}
-            selectedAnswer={selectedAnswer}
-            revealedAnswer={revealedAnswer}
-            isCorrect={isCorrect}
-            canAnswer={canAnswer}
-          />
-        </CardBody>
-      </Card>
-    </div>
+        </div>
+
+        {/* Answer Options */}
+        <AnswerOptions
+          options={currentQuestion?.options || []}
+          selectedAnswer={selectedAnswer}
+          revealedAnswer={revealedAnswer}
+          isCorrect={isCorrect}
+          canAnswer={canAnswer}
+          wrongGuesses={wrongGuesses}
+          lastPenalty={lastPenalty}
+        />
+      </CardBody>
+    </Card>
   );
 }

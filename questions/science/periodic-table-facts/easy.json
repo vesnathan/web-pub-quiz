@@ -321,5 +321,22 @@
     "detailedExplanation": "The first period of the periodic table is the shortest, containing only hydrogen (H) and helium (He). Periods in the periodic table represent the number of electron shells (energy levels) that atoms of the elements possess. Since hydrogen has one electron and helium has two electrons, they both have only one electron shell, placing them in the first period. The subsequent periods contain more elements as additional electron shells can accommodate more electrons in various subshells.",
     "citationUrl": "https://en.wikipedia.org/wiki/Period_1_element",
     "citationTitle": "Wikipedia: Period 1 element"
+  },
+  {
+    "id": "768fdef0-7a7b-4535-a048-48485609bd8c",
+    "text": "Which element has the chemical symbol 'Au'?",
+    "options": [
+      "Silver",
+      "Gold",
+      "Aluminum",
+      "Argon"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Gold has the chemical symbol 'Au', derived from the Latin word 'aurum'.",
+    "detailedExplanation": "Gold's chemical symbol 'Au' comes from its Latin name 'aurum', meaning 'shining dawn'. This is one of the elements that uses a symbol derived from its Latin name rather than its English name. Gold is element 79 on the periodic table and is a precious metal known for its distinctive yellow color, resistance to corrosion, and use in jewelry and currency throughout human history.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Gold",
+    "citationTitle": "Wikipedia: Gold"
   }
 ]

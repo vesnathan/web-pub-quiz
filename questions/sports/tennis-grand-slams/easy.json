@@ -1,0 +1,342 @@
+[
+  {
+    "id": "bca849ea-71db-4b59-869e-76a3a84ba60c",
+    "text": "Which tennis tournament is known as 'The Championships' and is played on grass courts?",
+    "options": [
+      "Wimbledon",
+      "French Open",
+      "US Open",
+      "Australian Open"
+    ],
+    "correctIndex": 0,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "Wimbledon is officially called 'The Championships' and is the only Grand Slam played on grass courts.",
+    "detailedExplanation": "Wimbledon, held annually in London, England, is officially known as 'The Championships, Wimbledon' and is the oldest tennis tournament in the world, dating back to 1877. It is the only Grand Slam tournament still played on grass courts, maintaining its traditional surface while other tournaments have moved to hard courts or clay. The grass courts at Wimbledon are famous for their unique playing characteristics and the tournament's strict dress code requiring players to wear predominantly white clothing.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Wimbledon_Championships",
+    "citationTitle": "Wikipedia: Wimbledon Championships"
+  },
+  {
+    "id": "f7438638-7280-4caa-b04d-4e30b3a15fc7",
+    "text": "How many Grand Slam tournaments are there in a calendar year?",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "There are four Grand Slam tournaments held each year: Australian Open, French Open, Wimbledon, and US Open.",
+    "detailedExplanation": "The four Grand Slam tournaments represent the most prestigious events in professional tennis. They are held annually in the following order: the Australian Open (January), the French Open (May-June), Wimbledon (June-July), and the US Open (August-September). These tournaments offer the most ranking points, prize money, and are considered the ultimate achievement for professional tennis players. Winning all four in a single calendar year is called a 'Grand Slam' and is extremely rare in tennis history.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Grand_Slam_(tennis)",
+    "citationTitle": "Wikipedia: Grand Slam (tennis)"
+  },
+  {
+    "id": "effa3042-bbca-4fb6-affd-1b65ebad008c",
+    "text": "Which Grand Slam tournament is played on clay courts?",
+    "options": [
+      "US Open",
+      "French Open",
+      "Australian Open",
+      "Wimbledon"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "The French Open is the only Grand Slam tournament played on clay courts.",
+    "detailedExplanation": "The French Open, also known as Roland Garros, is held annually in Paris and is unique among the Grand Slams for being played on red clay courts. Clay courts create a slower playing surface that favors baseline players and those with strong topspin shots. The tournament typically takes place from late May to early June and is considered the most physically demanding Grand Slam due to the surface requiring longer rallies and more strategic play. Rafael Nadal is particularly famous for his dominance on this surface.",
+    "citationUrl": "https://en.wikipedia.org/wiki/French_Open",
+    "citationTitle": "Wikipedia: French Open"
+  },
+  {
+    "id": "8c041a7d-e611-46ee-a8b9-56530cff7326",
+    "text": "In which country is the Australian Open held?",
+    "options": [
+      "New Zealand",
+      "Australia",
+      "South Africa",
+      "Austria"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "The Australian Open is held in Melbourne, Australia.",
+    "detailedExplanation": "The Australian Open takes place annually in Melbourne, Australia, typically during the last two weeks of January. It is held at Melbourne Park and played on hard courts. As the first Grand Slam of the calendar year, it often sets the tone for the tennis season. The tournament is known for its extreme heat policies due to the Australian summer, and features a retractable roof on several courts. The event has grown significantly in prestige and attendance since moving to Melbourne Park in 1988.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Australian_Open",
+    "citationTitle": "Wikipedia: Australian Open"
+  },
+  {
+    "id": "34b23539-a056-4763-9bf5-dffcbebbba58",
+    "text": "What is it called when a player wins all four Grand Slam tournaments in the same year?",
+    "options": [
+      "Golden Slam",
+      "Calendar Grand Slam",
+      "Super Slam",
+      "Perfect Slam"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "Winning all four Grand Slam tournaments in a single calendar year is called a 'Calendar Grand Slam.'",
+    "detailedExplanation": "A Calendar Grand Slam is achieved when a player wins all four Grand Slam tournaments (Australian Open, French Open, Wimbledon, and US Open) within the same calendar year. This is one of the rarest achievements in tennis, accomplished by only a handful of players in history. In men's singles, only Rod Laver has achieved this feat twice (1962 and 1969). In women's singles, Maureen Connolly (1953), Margaret Court (1970), and Steffi Graf (1988) have accomplished this remarkable achievement.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Grand_Slam_(tennis)",
+    "citationTitle": "Wikipedia: Grand Slam (tennis)"
+  },
+  {
+    "id": "86a37231-60fb-4c74-8eb9-adb3ea8e2aeb",
+    "text": "Which city hosts the US Open tennis tournament?",
+    "options": [
+      "Los Angeles",
+      "Miami",
+      "New York",
+      "Chicago"
+    ],
+    "correctIndex": 2,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "The US Open is held in New York, specifically in Queens at the USTA Billie Jean King National Tennis Center.",
+    "detailedExplanation": "The US Open takes place annually in Flushing Meadows, Queens, New York, at the USTA Billie Jean King National Tennis Center. The tournament typically runs from late August through early September and is played on hard courts. It is known for being the loudest and most energetic of the Grand Slams, with night sessions under lights creating an electric atmosphere. The US Open was the first Grand Slam to introduce the tiebreaker system and equal prize money for men and women.",
+    "citationUrl": "https://en.wikipedia.org/wiki/US_Open_(tennis)",
+    "citationTitle": "Wikipedia: US Open (tennis)"
+  },
+  {
+    "id": "e1455639-a4a9-4de3-86ba-f23970a7b22c",
+    "text": "What is a 'Golden Slam' in tennis?",
+    "options": [
+      "Winning 5 Grand Slams",
+      "Winning all 4 Grand Slams plus Olympic gold in one year",
+      "Winning the same Grand Slam 3 times",
+      "Winning a Grand Slam without losing a set"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "A Golden Slam means winning all four Grand Slam tournaments plus the Olympic gold medal in the same calendar year.",
+    "detailedExplanation": "The Golden Slam is an even rarer achievement than the Calendar Grand Slam, requiring a player to win all four Grand Slam tournaments plus the Olympic gold medal in the same calendar year. This has been achieved only once in singles tennis history, by Steffi Graf in 1988. The term combines the prestige of the Grand Slam with the honor of Olympic gold, representing the absolute pinnacle of tennis achievement. The Olympics are held every four years, making this opportunity extremely limited.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Golden_Slam",
+    "citationTitle": "Wikipedia: Golden Slam"
+  },
+  {
+    "id": "92761e67-daf5-45aa-8327-52dfb5dbb267",
+    "text": "Which Grand Slam tournament is the oldest?",
+    "options": [
+      "Australian Open",
+      "French Open",
+      "Wimbledon",
+      "US Open"
+    ],
+    "correctIndex": 2,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "Wimbledon is the oldest Grand Slam tournament, first held in 1877.",
+    "detailedExplanation": "Wimbledon, officially known as The Championships, is the oldest tennis tournament in the world and the oldest of the four Grand Slam tournaments. It was first held in 1877 at the All England Lawn Tennis and Croquet Club in Wimbledon, London. The tournament began with only a men's singles championship, with Spencer Gore becoming the first champion. Wimbledon has maintained many of its traditional elements over the years, including its grass courts, strict dress codes, and the famous tradition of serving strawberries and cream to spectators.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Wimbledon_Championships",
+    "citationTitle": "Wikipedia: Wimbledon Championships"
+  },
+  {
+    "id": "d05a1466-d128-4752-9655-39547d3f7048",
+    "text": "Which player holds the record for most men's Grand Slam singles titles won?",
+    "options": [
+      "Roger Federer",
+      "Rafael Nadal",
+      "Novak Djokovic",
+      "Pete Sampras"
+    ],
+    "correctIndex": 2,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "Novak Djokovic holds the record with 24 Grand Slam singles titles.",
+    "detailedExplanation": "Novak Djokovic currently holds the record for most men's Grand Slam singles titles with 24 victories, surpassing Rafael Nadal (22) and Roger Federer (20). Djokovic achieved this milestone at the 2023 US Open, cementing his place as one of tennis's greatest champions.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Novak_Djokovic",
+    "citationTitle": "Wikipedia: Novak Djokovic"
+  },
+  {
+    "id": "e47f616f-d39b-48c2-a269-1c98a9385ca7",
+    "text": "What surface is used for the US Open tennis tournament?",
+    "options": [
+      "Grass",
+      "Clay",
+      "Hard court",
+      "Carpet"
+    ],
+    "correctIndex": 2,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "The US Open is played on hard courts made of acrylic surface.",
+    "detailedExplanation": "The US Open uses hard courts with an acrylic surface, specifically DecoTurf since 2020. This provides a medium-paced playing surface that's faster than clay but slower than grass, offering a balanced game for players with different playing styles.",
+    "citationUrl": "https://en.wikipedia.org/wiki/US_Open_(tennis)",
+    "citationTitle": "Wikipedia: US Open (tennis)"
+  },
+  {
+    "id": "ad44021b-e1d2-47e8-b102-8d33afd9dbdd",
+    "text": "Which female player has won the most Grand Slam singles titles in tennis history?",
+    "options": [
+      "Steffi Graf",
+      "Serena Williams",
+      "Margaret Court",
+      "Chris Evert"
+    ],
+    "correctIndex": 2,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "Margaret Court holds the record with 24 Grand Slam singles titles.",
+    "detailedExplanation": "Margaret Court of Australia won 24 Grand Slam singles titles during her career, which spanned from the 1960s to 1970s. This includes 11 Australian Opens, 5 French Opens, 3 Wimbledons, and 5 US Opens. Serena Williams is second with 23 titles.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Margaret_Court",
+    "citationTitle": "Wikipedia: Margaret Court"
+  },
+  {
+    "id": "2f255884-01d4-410f-8cf9-5adbbe7b6bb2",
+    "text": "In which month does the French Open typically take place?",
+    "options": [
+      "April",
+      "May",
+      "June",
+      "July"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "The French Open is traditionally held from late May to early June.",
+    "detailedExplanation": "The French Open, also known as Roland Garros, typically begins in late May and concludes in early June each year. This timing allows for optimal clay court conditions in Paris and fits between the Australian Open (January) and Wimbledon (June-July) in the tennis calendar.",
+    "citationUrl": "https://en.wikipedia.org/wiki/French_Open",
+    "citationTitle": "Wikipedia: French Open"
+  },
+  {
+    "id": "69b811b4-daff-4c4d-833f-d24e28242618",
+    "text": "What is the maximum number of sets that can be played in a men's Grand Slam singles match?",
+    "options": [
+      "3 sets",
+      "4 sets",
+      "5 sets",
+      "6 sets"
+    ],
+    "correctIndex": 2,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "Men's Grand Slam matches are best-of-five sets, so the maximum is 5 sets.",
+    "detailedExplanation": "Men's singles matches at Grand Slam tournaments are played in a best-of-five sets format, meaning a player must win three sets to win the match. This can result in matches lasting up to five sets if the score reaches 2-2 in sets, with the fifth set determining the winner.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Grand_Slam_(tennis)",
+    "citationTitle": "Wikipedia: Grand Slam (tennis)"
+  },
+  {
+    "id": "6641ed8f-a825-40eb-9618-fe1ff24ece04",
+    "text": "Which Grand Slam tournament has a retractable roof on its main court?",
+    "options": [
+      "Australian Open",
+      "French Open",
+      "Wimbledon",
+      "All of the above"
+    ],
+    "correctIndex": 3,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "All four Grand Slam tournaments now have retractable roofs on their main courts.",
+    "detailedExplanation": "All four Grand Slam tournaments have installed retractable roofs on their primary courts to prevent weather delays. Wimbledon's Centre Court got its roof in 2009, the Australian Open's Rod Laver Arena in 1988 (renovated 2000), the US Open's Arthur Ashe Stadium in 2016, and the French Open's Philippe Chatrier Court in 2020.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Philippe_Chatrier_Court",
+    "citationTitle": "Wikipedia: Philippe Chatrier Court"
+  },
+  {
+    "id": "ec642b11-ce29-42c5-a893-dfb887e1dd30",
+    "text": "What is the name of the main court at the Australian Open?",
+    "options": [
+      "Centre Court",
+      "Arthur Ashe Stadium",
+      "Rod Laver Arena",
+      "Philippe Chatrier Court"
+    ],
+    "correctIndex": 2,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "Rod Laver Arena is the main court at the Australian Open in Melbourne.",
+    "detailedExplanation": "Rod Laver Arena, named after Australian tennis legend Rod Laver, is the primary court at Melbourne Park where the Australian Open is held. It has a capacity of approximately 15,000 spectators and features a retractable roof, making it suitable for play in all weather conditions.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Rod_Laver_Arena",
+    "citationTitle": "Wikipedia: Rod Laver Arena"
+  },
+  {
+    "id": "ce96e321-3478-4304-9754-ad7f6540a6c5",
+    "text": "How many games must a player typically win to take a set in tennis?",
+    "options": [
+      "4 games",
+      "5 games",
+      "6 games",
+      "7 games"
+    ],
+    "correctIndex": 2,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "A player must win at least 6 games and be ahead by 2 games to win a set.",
+    "detailedExplanation": "In tennis, a player must win at least 6 games to take a set, but must also be ahead by at least 2 games. If the score reaches 6-6, a tiebreaker is usually played (except in the final set of some tournaments where play continues until one player leads by 2 games).",
+    "citationUrl": "https://en.wikipedia.org/wiki/Tennis_scoring_system",
+    "citationTitle": "Wikipedia: Tennis scoring system"
+  },
+  {
+    "id": "9fa4d887-e38c-4439-8096-b7e64baede7d",
+    "text": "What is the prize money format that makes Wimbledon unique among the Grand Slams?",
+    "options": [
+      "Prize money is paid in British pounds",
+      "Winners receive gold bars instead of money",
+      "Prize money is donated to charity",
+      "There is no prize money, only trophies"
+    ],
+    "correctIndex": 0,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "Wimbledon is the only Grand Slam that pays prize money in British pounds rather than US dollars.",
+    "detailedExplanation": "While the Australian Open, French Open, and US Open all award prize money in US dollars, Wimbledon maintains its British tradition by paying prize money in British pounds sterling. This reflects the tournament's deep-rooted British heritage and adds to its unique character among the four Grand Slam tournaments.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Wimbledon_Championships",
+    "citationTitle": "Wikipedia: Wimbledon Championships"
+  },
+  {
+    "id": "6aa4ec6e-35ed-45d1-9542-08b0915a1115",
+    "text": "What happens to the French Open if rain disrupts play for extended periods?",
+    "options": [
+      "Play continues under the retractable roof on all courts",
+      "The tournament can extend into a third week",
+      "Matches are moved to indoor courts",
+      "The tournament is postponed to the following month"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "The French Open is the only Grand Slam that can extend into a third week due to rain delays.",
+    "detailedExplanation": "Unlike other Grand Slams which have extensive covered courts and scheduling flexibility, the French Open traditionally had limited covered courts (though this has improved with recent additions). When rain significantly disrupts play, the tournament schedule can be extended beyond the traditional two weeks into a third week to ensure all matches are completed properly on clay courts.",
+    "citationUrl": "https://en.wikipedia.org/wiki/French_Open",
+    "citationTitle": "Wikipedia: French Open"
+  },
+  {
+    "id": "8a375d6c-0dd2-4988-b6c4-8d1a22ccd707",
+    "text": "Which Grand Slam was the last to allow professional players to compete?",
+    "options": [
+      "Wimbledon",
+      "US Open",
+      "French Open",
+      "Australian Open"
+    ],
+    "correctIndex": 2,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "The French Open was the last Grand Slam to enter the Open Era, allowing professionals in 1968.",
+    "detailedExplanation": "The transition from amateur-only to professional tennis (known as the Open Era) began in 1968. While Wimbledon led this change and the US Open quickly followed, the French Open was initially more resistant to allowing professional players to compete alongside amateurs. However, by 1968, all four Grand Slams had adopted the open format, with the French Open being the final holdout before embracing the professional era.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Open_Era",
+    "citationTitle": "Wikipedia: Open Era"
+  },
+  {
+    "id": "b432f33d-ef22-402a-9de5-709df01ef35d",
+    "text": "What distinctive feature do Australian Open courts have to help players and spectators?",
+    "options": [
+      "Courts are painted in different colors",
+      "Extreme heat policy with roof closures",
+      "Fans blow cool air from the sidelines",
+      "Matches start at midnight to avoid heat"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "The Australian Open has an extreme heat policy that includes closing retractable roofs when temperatures become dangerous.",
+    "detailedExplanation": "Due to Melbourne's hot summer weather during the Australian Open in January, the tournament has implemented a comprehensive extreme heat policy. When temperatures reach dangerous levels (typically above 40°C/104°F), play can be suspended on outdoor courts and the retractable roofs on major courts like Rod Laver Arena are closed with air conditioning activated to protect players and spectators from heat-related health issues.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Australian_Open",
+    "citationTitle": "Wikipedia: Australian Open"
+  }
+]

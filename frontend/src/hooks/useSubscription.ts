@@ -13,7 +13,7 @@ import type {
 import {
   DEFAULT_SUBSCRIPTION_INFO,
   getSubscriptionFeatures,
-  FREE_TIER_DAILY_SET_LIMIT,
+  FREE_TIER_DAILY_QUESTION_LIMIT,
 } from "@quiz/shared";
 
 interface GiftInfo {
@@ -34,15 +34,15 @@ interface UseSubscriptionReturn {
 
   // Features
   features: SubscriptionFeatures;
-  hasUnlimitedSets: boolean;
+  hasUnlimitedQuestions: boolean;
   isAdFree: boolean;
   canCreatePrivateRooms: boolean;
   canCreateCustomQuizzes: boolean;
 
   // Daily limit tracking (for free tier)
-  setsPlayedToday: number;
-  setsRemainingToday: number;
-  canPlaySet: boolean;
+  questionsAnsweredToday: number;
+  questionsRemainingToday: number;
+  canAnswerQuestions: boolean;
   nextResetTime: Date;
 
   // Gift subscription info
@@ -51,7 +51,7 @@ interface UseSubscriptionReturn {
 
   // Actions
   refreshSubscription: () => Promise<void>;
-  recordSetPlayed: () => Promise<void>;
+  recordQuestionAnswered: () => void;
   createCheckout: (
     tier: SubscriptionTier,
     provider: SubscriptionProvider,
@@ -93,7 +93,7 @@ export function useSubscription(): UseSubscriptionReturn {
     DEFAULT_SUBSCRIPTION_INFO,
   );
   const [giftInfo, setGiftInfo] = useState<GiftInfo>(DEFAULT_GIFT_INFO);
-  const [setsPlayedToday, setSetsPlayedToday] = useState(0);
+  const [questionsAnsweredToday, setQuestionsAnsweredToday] = useState(0);
   const [isLoading, setIsLoading] = useState(true);
 
   // Derived values
@@ -104,16 +104,17 @@ export function useSubscription(): UseSubscriptionReturn {
 
   // Features based on tier
   const features = useMemo(() => getSubscriptionFeatures(tier), [tier]);
-  const hasUnlimitedSets = features.unlimitedSets;
+  const hasUnlimitedQuestions = features.unlimitedQuestions;
   const isAdFree = features.adFree;
   const canCreatePrivateRooms = features.privateRooms;
   const canCreateCustomQuizzes = features.customQuizzes;
 
   // Daily limit calculations
-  const setsRemainingToday = hasUnlimitedSets
+  const questionsRemainingToday = hasUnlimitedQuestions
     ? Infinity
-    : Math.max(0, FREE_TIER_DAILY_SET_LIMIT - setsPlayedToday);
-  const canPlaySet = hasUnlimitedSets || setsRemainingToday > 0;
+    : Math.max(0, FREE_TIER_DAILY_QUESTION_LIMIT - questionsAnsweredToday);
+  const canAnswerQuestions =
+    hasUnlimitedQuestions || questionsRemainingToday > 0;
   const nextResetTime = getMidnightTomorrow();
 
   // Fetch subscription data from GraphQL API
@@ -121,7 +122,7 @@ export function useSubscription(): UseSubscriptionReturn {
     if (!isAuthenticated || !user) {
       setSubscription(DEFAULT_SUBSCRIPTION_INFO);
       setGiftInfo(DEFAULT_GIFT_INFO);
-      setSetsPlayedToday(0);
+      setQuestionsAnsweredToday(0);
       setIsLoading(false);
       return;
     }
@@ -156,14 +157,14 @@ export function useSubscription(): UseSubscriptionReturn {
         setGiftInfo(DEFAULT_GIFT_INFO);
       }
 
-      // Check sets played today (still use localStorage for daily tracking)
+      // Check questions answered today (use localStorage for daily tracking)
       const today = getMidnightToday().toISOString().split("T")[0];
-      const storedSetsKey = `setsPlayed_${user.userId}_${today}`;
-      const storedSets = localStorage.getItem(storedSetsKey);
-      if (storedSets) {
-        setSetsPlayedToday(parseInt(storedSets, 10));
+      const storedQuestionsKey = `questionsAnswered_${user.userId}_${today}`;
+      const storedQuestions = localStorage.getItem(storedQuestionsKey);
+      if (storedQuestions) {
+        setQuestionsAnsweredToday(parseInt(storedQuestions, 10));
       } else {
-        setSetsPlayedToday(0);
+        setQuestionsAnsweredToday(0);
       }
     } catch (error) {
       console.error("Failed to fetch subscription:", error);
@@ -173,21 +174,21 @@ export function useSubscription(): UseSubscriptionReturn {
     }
   }, [isAuthenticated, user]);
 
-  // Record a set played (for free tier limit tracking)
-  const recordSetPlayed = useCallback(async () => {
+  // Record a question answered (for free tier limit tracking)
+  const recordQuestionAnswered = useCallback(() => {
     if (!user) return;
 
-    // If unlimited sets, no need to track
-    if (hasUnlimitedSets) return;
+    // If unlimited questions, no need to track
+    if (hasUnlimitedQuestions) return;
 
-    const newCount = setsPlayedToday + 1;
-    setSetsPlayedToday(newCount);
+    const newCount = questionsAnsweredToday + 1;
+    setQuestionsAnsweredToday(newCount);
 
     // Store in localStorage for persistence
     const today = getMidnightToday().toISOString().split("T")[0];
-    const storedSetsKey = `setsPlayed_${user.userId}_${today}`;
-    localStorage.setItem(storedSetsKey, newCount.toString());
-  }, [user, hasUnlimitedSets, setsPlayedToday]);
+    const storedQuestionsKey = `questionsAnswered_${user.userId}_${today}`;
+    localStorage.setItem(storedQuestionsKey, newCount.toString());
+  }, [user, hasUnlimitedQuestions, questionsAnsweredToday]);
 
   // Create a checkout session for subscription
   const createCheckout = useCallback(
@@ -239,12 +240,12 @@ export function useSubscription(): UseSubscriptionReturn {
 
       // Set timeout to refresh at midnight
       const timeout = setTimeout(() => {
-        setSetsPlayedToday(0);
+        setQuestionsAnsweredToday(0);
         // Clean up old localStorage entries
         if (user) {
           const yesterday = new Date(getMidnightToday());
           yesterday.setDate(yesterday.getDate() - 1);
-          const yesterdayKey = `setsPlayed_${user.userId}_${yesterday.toISOString().split("T")[0]}`;
+          const yesterdayKey = `questionsAnswered_${user.userId}_${yesterday.toISOString().split("T")[0]}`;
           localStorage.removeItem(yesterdayKey);
         }
       }, timeUntilMidnight);
@@ -266,18 +267,18 @@ export function useSubscription(): UseSubscriptionReturn {
     isSubscribed,
     subscription,
     features,
-    hasUnlimitedSets,
+    hasUnlimitedQuestions,
     isAdFree,
     canCreatePrivateRooms,
     canCreateCustomQuizzes,
-    setsPlayedToday,
-    setsRemainingToday,
-    canPlaySet,
+    questionsAnsweredToday,
+    questionsRemainingToday,
+    canAnswerQuestions,
     nextResetTime,
     giftInfo,
     hasUnseenGift,
     refreshSubscription,
-    recordSetPlayed,
+    recordQuestionAnswered,
     createCheckout,
     isLoading,
   };

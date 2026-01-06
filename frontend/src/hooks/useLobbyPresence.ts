@@ -36,6 +36,19 @@ function getIsConnected() {
   return isConnected;
 }
 
+// Handle page unload - leave presence before closing
+function handleBeforeUnload() {
+  if (ably) {
+    try {
+      const channel = ably.channels.get(ABLY_CHANNELS.LOBBY);
+      // Use sendBeacon-style sync leave for reliability on page unload
+      channel.presence.leave();
+    } catch {
+      // Ignore errors during unload
+    }
+  }
+}
+
 function initAbly(userId?: string, displayName?: string) {
   const ablyKey = process.env.NEXT_PUBLIC_ABLY_KEY;
 
@@ -44,6 +57,11 @@ function initAbly(userId?: string, displayName?: string) {
     return;
   }
   if (ably) return;
+
+  // Add beforeunload handler to leave presence on page refresh/close
+  if (typeof window !== "undefined") {
+    window.addEventListener("beforeunload", handleBeforeUnload);
+  }
 
   ably = new Ably.Realtime({
     key: ablyKey,
@@ -95,6 +113,19 @@ function initAbly(userId?: string, displayName?: string) {
   // Note: room_list subscription removed - useLobbyChannel handles this for RoomList
   // This hook only handles presence (user count) and game events
 
+  // Handle duplicate connection kick from orchestrator
+  channel.subscribe("duplicate_connection", (message) => {
+    const { clientId: kickedClientId } = message.data;
+    // Check if this message is for us
+    if (ably?.auth.clientId === kickedClientId) {
+      console.log(
+        "[useLobbyPresence] Kicked due to duplicate connection, closing...",
+      );
+      // Close this connection - newer connection takes over
+      cleanupAbly();
+    }
+  });
+
   // Subscribe to game state events (question_start, set_end) for lobby display
   channel.subscribe("question_start", (message) => {
     const payload = message.data as QuestionStartPayload;
@@ -134,11 +165,46 @@ function initAbly(userId?: string, displayName?: string) {
       console.error("Failed to initialize lobby state:", e);
     }
   });
+
+  // Periodically resync presence to correct any drift (every 30 seconds)
+  const resyncInterval = setInterval(async () => {
+    if (ably?.connection.state === "connected") {
+      try {
+        const members = await presence.get();
+        activeUsers = members.map((m) => ({
+          clientId: m.clientId!,
+          username: m.data?.username || "Player",
+          displayName: m.data?.displayName || m.data?.username || "Player",
+        }));
+        notifySubscribers();
+      } catch (e) {
+        // Ignore resync errors
+      }
+    }
+  }, 30000);
+
+  // Store interval for cleanup
+  (
+    ably as Ably.Realtime & { _presenceResyncInterval?: NodeJS.Timeout }
+  )._presenceResyncInterval = resyncInterval;
 }
 
 async function cleanupAbly() {
+  // Remove beforeunload handler
+  if (typeof window !== "undefined") {
+    window.removeEventListener("beforeunload", handleBeforeUnload);
+  }
+
   if (ably) {
     try {
+      // Clear the resync interval
+      const ablyWithInterval = ably as Ably.Realtime & {
+        _presenceResyncInterval?: NodeJS.Timeout;
+      };
+      if (ablyWithInterval._presenceResyncInterval) {
+        clearInterval(ablyWithInterval._presenceResyncInterval);
+      }
+
       const channel = ably.channels.get(ABLY_CHANNELS.LOBBY);
       // Only leave presence if channel is still attached
       if (channel.state === "attached") {
@@ -174,11 +240,21 @@ export function useLobbyPresence(
   const { enabled, userId, displayName } = options;
 
   // Use useSyncExternalStore for reactive updates
-  const users = useSyncExternalStore(subscribe, getActiveUsers, getActiveUsers);
+  const allUsers = useSyncExternalStore(
+    subscribe,
+    getActiveUsers,
+    getActiveUsers,
+  );
   const connected = useSyncExternalStore(
     subscribe,
     getIsConnected,
     getIsConnected,
+  );
+
+  // Deduplicate users by displayName (same user with multiple connections)
+  const users = allUsers.filter(
+    (user, index, self) =>
+      index === self.findIndex((u) => u.displayName === user.displayName),
   );
 
   useEffect(() => {

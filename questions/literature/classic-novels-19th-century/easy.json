@@ -1,0 +1,342 @@
+[
+  {
+    "id": "4e17f578-c300-45e4-ae1f-d74f4c09ef08",
+    "text": "Which Charles Dickens novel begins with the famous line 'It was the best of times, it was the worst of times'?",
+    "options": [
+      "Great Expectations",
+      "A Tale of Two Cities",
+      "Oliver Twist",
+      "David Copperfield"
+    ],
+    "correctIndex": 1,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "A Tale of Two Cities opens with this iconic contrasting phrase.",
+    "detailedExplanation": "Published in 1859, A Tale of Two Cities is one of Dickens' most famous works, set during the French Revolution. The opening paragraph continues with similar contrasts, establishing the theme of duality that runs throughout the novel about London and Paris during this turbulent period.",
+    "citationUrl": "https://en.wikipedia.org/wiki/A_Tale_of_Two_Cities",
+    "citationTitle": "Wikipedia: A Tale of Two Cities"
+  },
+  {
+    "id": "acab2db4-179c-45a3-9fab-bd155a560767",
+    "text": "Who wrote the Gothic novel 'Frankenstein' in 1818?",
+    "options": [
+      "Charlotte Brontë",
+      "Mary Shelley",
+      "Emily Brontë",
+      "George Eliot"
+    ],
+    "correctIndex": 1,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "Mary Shelley wrote Frankenstein when she was just 18 years old.",
+    "detailedExplanation": "Mary Shelley conceived the idea for Frankenstein during a summer spent with Lord Byron and Percy Shelley in 1816. Often considered one of the first science fiction novels, it tells the story of Victor Frankenstein and his creation of a sentient creature through scientific experiments.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Frankenstein",
+    "citationTitle": "Wikipedia: Frankenstein"
+  },
+  {
+    "id": "7754ec08-370d-4466-95c6-f36e2548209f",
+    "text": "What is the name of the protagonist in Charlotte Brontë's novel 'Jane Eyre'?",
+    "options": [
+      "Elizabeth Bennet",
+      "Emma Woodhouse",
+      "Jane Eyre",
+      "Catherine Earnshaw"
+    ],
+    "correctIndex": 2,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "Jane Eyre is both the title character and narrator of the novel.",
+    "detailedExplanation": "Published in 1847, Jane Eyre follows the life of its orphaned protagonist from childhood through adulthood. The novel is notable for its first-person narrative and its portrayal of a strong, independent female character who maintains her principles despite difficult circumstances.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Jane_Eyre",
+    "citationTitle": "Wikipedia: Jane Eyre"
+  },
+  {
+    "id": "6495e2aa-5a52-437a-8c34-7bd09bb496f2",
+    "text": "Which Jane Austen novel features the character Mr. Darcy?",
+    "options": [
+      "Emma",
+      "Sense and Sensibility",
+      "Pride and Prejudice",
+      "Mansfield Park"
+    ],
+    "correctIndex": 2,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "Fitzwilliam Darcy is the male romantic lead in Pride and Prejudice.",
+    "detailedExplanation": "Published in 1813, Pride and Prejudice tells the story of Elizabeth Bennet and her complex relationship with the proud but ultimately honorable Mr. Darcy. The novel explores themes of love, reputation, and class in Regency England, and remains one of Austen's most popular works.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Pride_and_Prejudice",
+    "citationTitle": "Wikipedia: Pride and Prejudice"
+  },
+  {
+    "id": "155c79a2-089e-4276-b53a-8f5cd5d86650",
+    "text": "Who is the author of the adventure novel 'Treasure Island'?",
+    "options": [
+      "Robert Louis Stevenson",
+      "Sir Arthur Conan Doyle",
+      "H.G. Wells",
+      "Bram Stoker"
+    ],
+    "correctIndex": 0,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "Robert Louis Stevenson wrote Treasure Island, published in 1883.",
+    "detailedExplanation": "Treasure Island was originally serialized in a children's magazine before being published as a novel. The story follows young Jim Hawkins on his adventure to find buried treasure, featuring the memorable character Long John Silver. It became one of the most popular adventure stories ever written.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Treasure_Island",
+    "citationTitle": "Wikipedia: Treasure Island"
+  },
+  {
+    "id": "6c52bfdd-5545-4149-9320-43e990ffd6ed",
+    "text": "Which novel by Emily Brontë tells the story of Heathcliff and Catherine?",
+    "options": [
+      "Jane Eyre",
+      "Wuthering Heights",
+      "The Tenant of Wildfell Hall",
+      "Villette"
+    ],
+    "correctIndex": 1,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "Wuthering Heights is Emily Brontë's only novel, featuring the tempestuous relationship between Heathcliff and Catherine.",
+    "detailedExplanation": "Published in 1847, Wuthering Heights is a dark tale of passion and revenge set on the Yorkshire moors. The novel was initially met with mixed reviews due to its violent and passionate content, but is now considered a masterpiece of English literature and one of the greatest love stories ever written.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Wuthering_Heights",
+    "citationTitle": "Wikipedia: Wuthering Heights"
+  },
+  {
+    "id": "1487196b-3e97-4fd1-b078-b971b55e2324",
+    "text": "What is the name of Captain Ahab's ship in Herman Melville's 'Moby-Dick'?",
+    "options": [
+      "The Nautilus",
+      "The Hispaniola",
+      "The Pequod",
+      "The Beagle"
+    ],
+    "correctIndex": 2,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "The Pequod is the whaling ship commanded by Captain Ahab in his quest for the white whale.",
+    "detailedExplanation": "Published in 1851, Moby-Dick follows narrator Ishmael aboard the Pequod as Captain Ahab pursues his obsessive quest for revenge against the white whale that destroyed his leg. The novel is considered one of the greatest American novels, exploring themes of fate, nature, and obsession.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Moby-Dick",
+    "citationTitle": "Wikipedia: Moby-Dick"
+  },
+  {
+    "id": "eefba8cc-dbd7-43a5-8404-90088d4a3be0",
+    "text": "Which novel by Louisa May Alcott follows the lives of the March sisters during the American Civil War?",
+    "options": [
+      "Little Women",
+      "Anne of Green Gables",
+      "A Little Princess",
+      "The Secret Garden"
+    ],
+    "correctIndex": 0,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "Little Women chronicles the lives of Jo, Meg, Beth, and Amy March.",
+    "detailedExplanation": "Published in 1868, Little Women was loosely based on Alcott's own experiences growing up with her three sisters. The novel follows the March sisters as they grow from childhood to womanhood, dealing with poverty, family bonds, and personal growth during the Civil War era. It became an immediate success and remains a beloved classic.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Little_Women",
+    "citationTitle": "Wikipedia: Little Women"
+  },
+  {
+    "id": "fd1ea04d-bbc9-4981-989b-59d4f6ddd18c",
+    "text": "Which Charles Dickens novel features the memorable character of Ebenezer Scrooge?",
+    "options": [
+      "A Christmas Carol",
+      "Oliver Twist",
+      "Great Expectations",
+      "David Copperfield"
+    ],
+    "correctIndex": 0,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "A Christmas Carol is the Dickens novella that tells the story of the miserly Ebenezer Scrooge and his Christmas Eve transformation.",
+    "detailedExplanation": "Published in 1843, 'A Christmas Carol' is one of Charles Dickens' most beloved works. The story follows Ebenezer Scrooge, a bitter old miser who is visited by three ghosts on Christmas Eve - the Ghosts of Christmas Past, Present, and Yet to Come. Through these supernatural encounters, Scrooge undergoes a profound transformation from a cold-hearted penny-pincher to a generous and kind-hearted man, embodying the true spirit of Christmas.",
+    "citationUrl": "https://en.wikipedia.org/wiki/A_Christmas_Carol",
+    "citationTitle": "Wikipedia: A Christmas Carol"
+  },
+  {
+    "id": "1cfb5c2d-8bfc-4370-aa4c-4cc6be6651c6",
+    "text": "What is the subtitle of Mary Shelley's 'Frankenstein'?",
+    "options": [
+      "The Modern Prometheus",
+      "The Scientific Revolution",
+      "The Created Man",
+      "The Gothic Terror"
+    ],
+    "correctIndex": 0,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "The full title of Mary Shelley's novel is 'Frankenstein; or, The Modern Prometheus', referencing the Greek myth of Prometheus who stole fire from the gods.",
+    "detailedExplanation": "Mary Shelley's 1818 novel was published with the full title 'Frankenstein; or, The Modern Prometheus'. The subtitle draws a parallel between Victor Frankenstein and the Greek Titan Prometheus, who defied the gods by stealing fire and giving it to humanity. Just as Prometheus faced punishment for his transgression, Frankenstein faces consequences for his attempt to play God by creating life, making this subtitle a crucial thematic element of the novel.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Frankenstein",
+    "citationTitle": "Wikipedia: Frankenstein"
+  },
+  {
+    "id": "04434106-0b9d-4407-b6b8-756b99daa875",
+    "text": "In which city is most of Charles Dickens' 'Oliver Twist' set?",
+    "options": [
+      "London",
+      "Manchester",
+      "Birmingham",
+      "Liverpool"
+    ],
+    "correctIndex": 0,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "Oliver Twist is primarily set in London, where the orphaned protagonist encounters the criminal underworld of Fagin and his gang of pickpockets.",
+    "detailedExplanation": "Published in 1838, 'Oliver Twist' is set primarily in London during the early 19th century. The novel follows the journey of orphaned Oliver from the workhouse to the dangerous streets of London, where he falls in with Fagin's gang of child thieves. Dickens used the London setting to highlight the social problems of the time, including poverty, crime, and the harsh treatment of the poor in workhouses and on the streets of England's capital city.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Oliver_Twist",
+    "citationTitle": "Wikipedia: Oliver Twist"
+  },
+  {
+    "id": "d09579af-9e30-4386-9670-4da70eebe83d",
+    "text": "Who wrote the novel 'The Scarlet Letter', published in 1850?",
+    "options": [
+      "Nathaniel Hawthorne",
+      "Herman Melville",
+      "Edgar Allan Poe",
+      "Washington Irving"
+    ],
+    "correctIndex": 0,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "Nathaniel Hawthorne wrote 'The Scarlet Letter', a novel about adultery and shame in Puritan New England.",
+    "detailedExplanation": "Nathaniel Hawthorne published 'The Scarlet Letter' in 1850, and it became one of the most important works of American literature. Set in 17th-century Puritan Massachusetts, the novel tells the story of Hester Prynne, who bears a child out of wedlock and is forced to wear a scarlet 'A' as punishment for adultery. The novel explores themes of sin, guilt, and redemption while providing a critique of the rigid moral codes of Puritan society.",
+    "citationUrl": "https://en.wikipedia.org/wiki/The_Scarlet_Letter",
+    "citationTitle": "Wikipedia: The Scarlet Letter"
+  },
+  {
+    "id": "25665cd8-c195-4c31-9a4c-e3dff5a6d733",
+    "text": "Which Jane Austen novel was originally titled 'First Impressions'?",
+    "options": [
+      "Pride and Prejudice",
+      "Sense and Sensibility",
+      "Emma",
+      "Mansfield Park"
+    ],
+    "correctIndex": 0,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "Pride and Prejudice was originally written under the title 'First Impressions' before Austen revised and retitled it for publication in 1813.",
+    "detailedExplanation": "Jane Austen first wrote the novel that would become 'Pride and Prejudice' in 1796-1797 under the title 'First Impressions'. The original title was quite fitting, as the story largely revolves around the initial misconceptions and hasty judgments made by the main characters, Elizabeth Bennet and Mr. Darcy. Austen extensively revised the work before its publication in 1813, when she changed the title to 'Pride and Prejudice', which better captured the character flaws that drive the central conflict of the novel.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Pride_and_Prejudice",
+    "citationTitle": "Wikipedia: Pride and Prejudice"
+  },
+  {
+    "id": "4d0c76b7-0980-4683-9dce-09363f9d1ce6",
+    "text": "What is the name of the estate where much of Jane Austen's 'Mansfield Park' takes place?",
+    "options": [
+      "Mansfield Park",
+      "Pemberley",
+      "Kellynch Hall",
+      "Hartfield"
+    ],
+    "correctIndex": 0,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "Mansfield Park is both the title of the novel and the name of the grand estate owned by Sir Thomas Bertram where protagonist Fanny Price lives.",
+    "detailedExplanation": "Published in 1814, Jane Austen's 'Mansfield Park' takes its title from the grand estate where most of the action occurs. Mansfield Park is the home of Sir Thomas Bertram and his family, where the poor relation Fanny Price is brought to live as a child. The estate serves as both the physical and moral center of the novel, representing the established social order of the English gentry while also being the site where questions of morality, social mobility, and proper conduct are explored throughout the story.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Mansfield_Park",
+    "citationTitle": "Wikipedia: Mansfield Park"
+  },
+  {
+    "id": "69992544-f4b9-44dc-9cc8-e971400aae0d",
+    "text": "Which Russian author wrote 'War and Peace', published in the 1860s?",
+    "options": [
+      "Leo Tolstoy",
+      "Fyodor Dostoevsky",
+      "Ivan Turgenev",
+      "Anton Chekhov"
+    ],
+    "correctIndex": 0,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "Leo Tolstoy wrote 'War and Peace', an epic novel about Russian society during the Napoleonic Wars.",
+    "detailedExplanation": "Leo Tolstoy published 'War and Peace' serially between 1865 and 1869, creating one of the longest and most acclaimed novels in world literature. Set during the Napoleonic Wars (1803-1815), the novel follows the lives of several aristocratic Russian families, weaving together personal stories with the broader historical events of the era. The epic work is renowned for its realistic depiction of 19th-century Russian life and its philosophical reflections on history, war, and human nature.",
+    "citationUrl": "https://en.wikipedia.org/wiki/War_and_Peace",
+    "citationTitle": "Wikipedia: War and Peace"
+  },
+  {
+    "id": "00b85923-73dd-4004-9bbc-6b2d783e0be8",
+    "text": "In Herman Melville's 'Moby-Dick', what is the name of the narrator who tells the story?",
+    "options": [
+      "Ishmael",
+      "Queequeg",
+      "Starbuck",
+      "Stubb"
+    ],
+    "correctIndex": 0,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "The story of Moby-Dick is narrated by Ishmael, who famously begins the tale with 'Call me Ishmael.'",
+    "detailedExplanation": "Herman Melville's 1851 novel 'Moby-Dick' opens with one of literature's most famous lines: 'Call me Ishmael.' The narrator, who takes this biblical name, serves as both participant and observer in the epic tale of Captain Ahab's obsessive hunt for the white whale. Ishmael is a young man who decides to go to sea and ends up aboard the Pequod, where he becomes the sole survivor of the ship's encounter with Moby Dick, allowing him to tell the tale of Ahab's tragic quest for revenge.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Moby-Dick",
+    "citationTitle": "Wikipedia: Moby-Dick"
+  },
+  {
+    "id": "07fbf7ff-8784-48c5-89a9-0034f72360bb",
+    "text": "Which Victorian novel features the character of Becky Sharp, a cunning social climber?",
+    "options": [
+      "Vanity Fair",
+      "Middlemarch",
+      "The Mill on the Floss",
+      "North and South"
+    ],
+    "correctIndex": 0,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "Becky Sharp is the ambitious protagonist of William Makepeace Thackeray's 'Vanity Fair'.",
+    "detailedExplanation": "Rebecca 'Becky' Sharp is one of literature's most memorable antiheroes, appearing in William Makepeace Thackeray's satirical novel 'Vanity Fair' (1847-1848). The novel follows Becky's relentless pursuit of wealth and social status in Regency-era England, contrasting her with the gentle Amelia Sedley. Thackeray's work is considered a masterpiece of Victorian social satire, critiquing the materialism and moral corruption of early 19th-century society.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Vanity_Fair_(novel)",
+    "citationTitle": "Wikipedia: Vanity Fair (novel)"
+  },
+  {
+    "id": "4e915ed4-3223-441c-9654-ca137ea2c7df",
+    "text": "In which Thomas Hardy novel does the tragic character Tess Durbeyfield appear?",
+    "options": [
+      "The Mayor of Casterbridge",
+      "Jude the Obscure",
+      "Tess of the d'Urbervilles",
+      "Far from the Madding Crowd"
+    ],
+    "correctIndex": 2,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "Tess Durbeyfield is the protagonist of Thomas Hardy's 'Tess of the d'Urbervilles'.",
+    "detailedExplanation": "Tess Durbeyfield is the tragic heroine of Thomas Hardy's 1891 novel 'Tess of the d'Urbervilles: A Pure Woman Faithfully Presented.' The novel tells the story of a young woman from a poor family who discovers she may be descended from the noble d'Urberville line. Hardy's portrayal of Tess as a 'pure woman' despite her experiences caused considerable controversy in Victorian society, as the novel challenged contemporary moral and social conventions regarding women and sexuality.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Tess_of_the_d%27Urbervilles",
+    "citationTitle": "Wikipedia: Tess of the d'Urbervilles"
+  },
+  {
+    "id": "46e4283b-9ce0-4964-bc74-f9756667b102",
+    "text": "Which author created the character of Natty Bumppo, also known as Hawkeye?",
+    "options": [
+      "Washington Irving",
+      "James Fenimore Cooper",
+      "Edgar Allan Poe",
+      "Mark Twain"
+    ],
+    "correctIndex": 1,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "Natty Bumppo (Hawkeye) is the hero of James Fenimore Cooper's Leatherstocking Tales series.",
+    "detailedExplanation": "Natty Bumppo, also known by various names including Hawkeye, Deerslayer, and Leatherstocking, is the protagonist of James Fenimore Cooper's five-novel series known as the Leatherstocking Tales. The most famous of these novels is 'The Last of the Mohicans' (1826), where he appears as Hawkeye. Cooper's character represents the idealized American frontiersman, living between Native American and European-American cultures during the colonial and early American periods.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Natty_Bumppo",
+    "citationTitle": "Wikipedia: Natty Bumppo"
+  },
+  {
+    "id": "33ce1140-f597-4d35-87b7-148dfb3da4b8",
+    "text": "What is the name of the fictional town where George Eliot set several of her novels?",
+    "options": [
+      "Middlemarch",
+      "Weatherbury",
+      "Casterbridge",
+      "Cranford"
+    ],
+    "correctIndex": 0,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "Middlemarch is the fictional provincial town that serves as the setting for George Eliot's novel of the same name.",
+    "detailedExplanation": "Middlemarch is both the title and setting of George Eliot's 1871-1872 masterpiece 'Middlemarch: A Study of Provincial Life.' The fictional town represents a typical English provincial community in the 1830s, during a period of social and political reform. Eliot used this setting to explore the interconnected lives of various social classes and to examine themes of marriage, politics, religion, and social change. The novel is often considered one of the greatest works of English literature.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Middlemarch",
+    "citationTitle": "Wikipedia: Middlemarch"
+  }
+]

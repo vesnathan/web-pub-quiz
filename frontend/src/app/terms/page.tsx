@@ -2,7 +2,7 @@
 
 import { Card, CardBody } from "@nextui-org/react";
 import { Navbar } from "@/components/Navbar";
-import { Footer } from "@/components/Footer";
+import { AppFooter } from "@/components/AppFooter";
 
 export default function TermsPage() {
   return (
@@ -63,7 +63,7 @@ export default function TermsPage() {
           </Card>
         </div>
       </main>
-      <Footer />
+      <AppFooter />
     </>
   );
 }

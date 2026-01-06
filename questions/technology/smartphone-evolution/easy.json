@@ -1,0 +1,342 @@
+[
+  {
+    "id": "c8adef31-c3d9-4e3e-9bca-d67107e88f5a",
+    "text": "What was the name of the first iPhone released by Apple in 2007?",
+    "options": [
+      "iPhone 3G",
+      "iPhone Original",
+      "iPhone",
+      "iPhone 1"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "The first iPhone was simply called 'iPhone' with no additional numbering.",
+    "detailedExplanation": "Apple's first iPhone, released on June 29, 2007, was simply called the 'iPhone' without any additional numbering or naming convention. It wasn't until the second generation in 2008 that Apple introduced the '3G' designation, and the original retroactively became known as the 'original iPhone' or 'iPhone 2G' by consumers, though Apple never officially used these terms.",
+    "citationUrl": "https://en.wikipedia.org/wiki/IPhone_(1st_generation)",
+    "citationTitle": "Wikipedia: iPhone (1st generation)"
+  },
+  {
+    "id": "f0aa6abb-bd2a-4636-a13a-f76c0c5546fa",
+    "text": "Which company manufactured the first commercial smartphone, the IBM Simon, released in 1994?",
+    "options": [
+      "IBM and BellSouth",
+      "IBM and Motorola",
+      "IBM and Nokia",
+      "IBM and Palm"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "The IBM Simon was a joint venture between IBM and BellSouth.",
+    "detailedExplanation": "The IBM Simon Personal Communicator, widely considered the first smartphone, was developed jointly by IBM and BellSouth. Released in 1994, it combined a mobile phone with PDA features including a touchscreen, email, fax, and basic apps. Though it was ahead of its time, the Simon was expensive and had limited battery life, leading to poor sales and discontinuation after just six months on the market.",
+    "citationUrl": "https://en.wikipedia.org/wiki/IBM_Simon",
+    "citationTitle": "Wikipedia: IBM Simon"
+  },
+  {
+    "id": "15efe060-1c53-43dc-93f8-16016a88cf1d",
+    "text": "What mobile operating system did BlackBerry devices primarily use before switching to Android?",
+    "options": [
+      "Windows Mobile",
+      "Palm OS",
+      "BlackBerry OS",
+      "Symbian"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "BlackBerry devices used their proprietary BlackBerry OS system.",
+    "detailedExplanation": "BlackBerry devices were powered by BlackBerry OS (originally called RIM OS), a proprietary operating system developed by Research In Motion (RIM). This OS was specifically designed for BlackBerry's business-focused smartphones and was known for its strong security features and excellent email integration. BlackBerry OS dominated the business smartphone market in the 2000s before losing ground to iOS and Android.",
+    "citationUrl": "https://en.wikipedia.org/wiki/BlackBerry_OS",
+    "citationTitle": "Wikipedia: BlackBerry OS"
+  },
+  {
+    "id": "0b1829c2-6375-4088-b888-c6ccb94786b9",
+    "text": "Which smartphone feature was first popularized by the Samsung Galaxy Note series in 2011?",
+    "options": [
+      "Dual cameras",
+      "Wireless charging",
+      "S Pen stylus",
+      "Fingerprint scanner"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "The Galaxy Note series introduced the S Pen stylus as a key differentiating feature.",
+    "detailedExplanation": "The Samsung Galaxy Note, released in 2011, popularized the use of a pressure-sensitive stylus called the S Pen in modern smartphones. While styluses existed on older PDAs and phones, the Galaxy Note's S Pen offered precision writing and drawing capabilities on a large 5.3-inch screen, creating the 'phablet' category. The S Pen became the signature feature of the Note series, enabling features like handwriting recognition, precise editing, and creative applications.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Samsung_Galaxy_Note",
+    "citationTitle": "Wikipedia: Samsung Galaxy Note"
+  },
+  {
+    "id": "ff0da676-bbfc-4d15-8e09-c05f203dfa3d",
+    "text": "What year did Google release the Android operating system?",
+    "options": [
+      "2006",
+      "2007",
+      "2008",
+      "2009"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Android was first released commercially in 2008 with the T-Mobile G1.",
+    "detailedExplanation": "Google released Android commercially in 2008, with the first Android device being the T-Mobile G1 (also known as HTC Dream) launched in October 2008. While Google acquired Android Inc. in 2005 and announced the Android platform in 2007, the first consumer release of the Android operating system came in 2008. This marked the beginning of what would become the world's most widely used mobile operating system.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Android_(operating_system)",
+    "citationTitle": "Wikipedia: Android (operating system)"
+  },
+  {
+    "id": "8a87a284-dd47-4643-b7f0-ad325f48ca35",
+    "text": "Which smartphone was the first to feature a dual-camera system on the back?",
+    "options": [
+      "iPhone 7 Plus",
+      "LG G5",
+      "HTC EVO 3D",
+      "Samsung Galaxy S7"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "The HTC EVO 3D was the first smartphone with dual rear cameras for 3D photography.",
+    "detailedExplanation": "The HTC EVO 3D, released in 2011, was the first smartphone to feature a dual-camera system on the back. It used two 5-megapixel cameras to capture stereoscopic 3D photos and videos, which could be viewed on the phone's glasses-free 3D display. While the 3D feature didn't gain widespread adoption, the EVO 3D pioneered the dual-camera concept that would later be refined by other manufacturers for features like depth sensing and improved low-light performance.",
+    "citationUrl": "https://en.wikipedia.org/wiki/HTC_Evo_3D",
+    "citationTitle": "Wikipedia: HTC Evo 3D"
+  },
+  {
+    "id": "6ec80f5d-0f12-4280-8bf2-8cc9bd69f755",
+    "text": "What was the screen size of the original iPhone released in 2007?",
+    "options": [
+      "3.2 inches",
+      "3.5 inches",
+      "4.0 inches",
+      "4.3 inches"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "The original iPhone had a 3.5-inch touchscreen display.",
+    "detailedExplanation": "The original iPhone featured a 3.5-inch LCD touchscreen with a resolution of 480×320 pixels at 163 PPI (pixels per inch). This screen size remained standard for iPhones through the iPhone 4S in 2011. At the time of release, the 3.5-inch screen was considered large compared to other phones, and Apple's choice to make it entirely touchscreen (eliminating physical keyboards) was revolutionary in the smartphone industry.",
+    "citationUrl": "https://en.wikipedia.org/wiki/IPhone_(1st_generation)",
+    "citationTitle": "Wikipedia: iPhone (1st generation)"
+  },
+  {
+    "id": "e1fe78fe-1f2d-48ec-b669-b2d3044d4ba3",
+    "text": "Which company's smartphone was the first to include a built-in GPS navigation system?",
+    "options": [
+      "Nokia",
+      "Motorola",
+      "Palm",
+      "Benefon"
+    ],
+    "correctIndex": 3,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Benefon's Esc! was the first phone with built-in GPS capability.",
+    "detailedExplanation": "The Benefon Esc!, released in 1999 by Finnish company Benefon, was the first mobile phone to include built-in GPS capability. While it wasn't quite a smartphone by modern standards, it paved the way for GPS integration in mobile devices. The phone could determine its location and display coordinates, though it lacked the advanced mapping and navigation features we associate with GPS phones today. This innovation laid the groundwork for location-based services that became standard in later smartphones.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Benefon",
+    "citationTitle": "Wikipedia: Benefon"
+  },
+  {
+    "id": "749d92c0-3e42-4ea3-868a-597285369317",
+    "text": "Which company introduced the first smartphone with a touchscreen keyboard, eliminating the need for physical keys?",
+    "options": [
+      "Apple",
+      "HTC",
+      "Palm",
+      "Motorola"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Palm introduced the first fully touchscreen smartphone with the Palm Pilot in the late 1990s, pioneering touch-based input.",
+    "detailedExplanation": "Palm was a pioneer in touchscreen technology for mobile devices, introducing devices in the late 1990s that relied entirely on touchscreen input rather than physical keyboards. While companies like IBM had earlier touchscreen phones, Palm was the first to make touchscreen keyboards the primary input method, paving the way for modern smartphone interfaces that would later be perfected by companies like Apple and Google.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Palm_(PDA)",
+    "citationTitle": "Wikipedia: Palm (PDA)"
+  },
+  {
+    "id": "5dd8dc38-ace2-4eda-8cad-dcec66748036",
+    "text": "What was the maximum storage capacity of the original Samsung Galaxy S released in 2010?",
+    "options": [
+      "8 GB",
+      "16 GB",
+      "32 GB",
+      "64 GB"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "The original Samsung Galaxy S came with 16 GB of internal storage when it launched in 2010.",
+    "detailedExplanation": "The Samsung Galaxy S, released in 2010 as Samsung's flagship Android device, came with 16 GB of internal storage. This was considered substantial for its time, especially since it also supported expandable storage via microSD cards up to 32 GB. The device was Samsung's answer to the iPhone and helped establish the Galaxy brand as a major competitor in the smartphone market, featuring Android 2.1 and a 4-inch Super AMOLED display.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Samsung_Galaxy_S",
+    "citationTitle": "Wikipedia: Samsung Galaxy S"
+  },
+  {
+    "id": "dc7c8e0a-93ac-4804-9bb3-89db42308b65",
+    "text": "Which smartphone manufacturer was first to introduce water resistance as a standard feature across their flagship line?",
+    "options": [
+      "Sony",
+      "Apple",
+      "Samsung",
+      "LG"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Sony was the first to make water resistance a standard feature across their Xperia smartphone lineup.",
+    "detailedExplanation": "Sony, leveraging their experience with waterproof consumer electronics, was the first smartphone manufacturer to systematically introduce water resistance across their flagship Xperia line in the early 2010s. Their Xperia Z series, starting in 2013, featured IP55/IP57 ratings as standard. This gave Sony a significant competitive advantage and forced other manufacturers like Apple and Samsung to eventually follow suit with their own water-resistant designs in later years.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Sony_Xperia",
+    "citationTitle": "Wikipedia: Sony Xperia"
+  },
+  {
+    "id": "5067b981-5a7b-43f0-abcc-36a6f10f9220",
+    "text": "What year did the first smartphone to support 4G LTE connectivity get released?",
+    "options": [
+      "2008",
+      "2010",
+      "2012",
+      "2014"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "The first 4G LTE smartphone was released in 2010, marking the beginning of high-speed mobile internet.",
+    "detailedExplanation": "The first commercially available 4G LTE smartphone was the HTC ThunderBolt, released by Verizon in early 2010. This marked a revolutionary moment in smartphone evolution, as 4G LTE provided significantly faster data speeds compared to 3G networks. The introduction of 4G capability fundamentally changed how people used smartphones, enabling smooth video streaming, faster app downloads, and more responsive web browsing, setting the stage for the data-intensive smartphone usage we see today.",
+    "citationUrl": "https://en.wikipedia.org/wiki/List_of_LTE_networks",
+    "citationTitle": "Wikipedia: List of LTE networks"
+  },
+  {
+    "id": "634893dd-9e44-457a-a08f-637d10f98446",
+    "text": "Which feature was first introduced in smartphones to enable contactless payments?",
+    "options": [
+      "Bluetooth",
+      "Wi-Fi Direct",
+      "NFC",
+      "Infrared"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "NFC (Near Field Communication) technology was first introduced in smartphones to enable contactless payments.",
+    "detailedExplanation": "NFC (Near Field Communication) technology was first integrated into smartphones in the late 2000s and early 2010s, with the primary goal of enabling contactless payments and data transfer. The Nokia 6131 was among the first NFC-enabled phones in 2006, but the technology gained widespread adoption with Android devices and later Apple Pay. NFC allows smartphones to communicate with payment terminals, other NFC-enabled devices, and smart tags by simply bringing them within a few centimeters of each other.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Near-field_communication",
+    "citationTitle": "Wikipedia: Near-field communication"
+  },
+  {
+    "id": "3d9f2996-e28f-4005-b7e1-cdda00462052",
+    "text": "What was the first smartphone to feature a fingerprint sensor for unlocking?",
+    "options": [
+      "iPhone 5S",
+      "Motorola Atrix",
+      "Samsung Galaxy S5",
+      "HTC One Max"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "The Motorola Atrix was the first smartphone to include a fingerprint sensor, released in 2011.",
+    "detailedExplanation": "The Motorola Atrix, released in 2011, was actually the first smartphone to feature a fingerprint sensor, predating Apple's iPhone 5S by two years. However, the Atrix's fingerprint technology was not as refined or user-friendly as later implementations. The sensor was located on the back of the device and was primarily used for unlocking the phone and securing certain applications. While Apple's iPhone 5S in 2013 popularized and perfected the technology with Touch ID, Motorola deserves credit for being the pioneer in smartphone biometric authentication.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Motorola_Atrix_4G",
+    "citationTitle": "Wikipedia: Motorola Atrix 4G"
+  },
+  {
+    "id": "3a4897b1-f105-4f47-811d-5d2f11cae75a",
+    "text": "Which smartphone operating system was developed by Microsoft as a successor to Windows Mobile?",
+    "options": [
+      "Windows RT",
+      "Windows CE",
+      "Windows Phone",
+      "Windows Embedded"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Windows Phone was Microsoft's smartphone operating system that replaced Windows Mobile.",
+    "detailedExplanation": "Windows Phone was Microsoft's attempt to compete in the modern smartphone market, launched in 2010 as a complete redesign from their earlier Windows Mobile platform. Featuring a distinctive 'Metro' design language with live tiles, Windows Phone aimed to provide a third alternative to iOS and Android. Despite positive reviews for its user interface and integration with Microsoft services, Windows Phone struggled to gain market share and was eventually discontinued in 2017, marking the end of Microsoft's smartphone OS ambitions.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Windows_Phone",
+    "citationTitle": "Wikipedia: Windows Phone"
+  },
+  {
+    "id": "17f7701b-0bd8-4c00-b333-bce73ad8b62a",
+    "text": "What was the first smartphone to support wireless charging as a built-in feature?",
+    "options": [
+      "Nokia Lumia 920",
+      "Google Nexus 4",
+      "Samsung Galaxy S3",
+      "iPhone 8"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "The Nokia Lumia 920 was the first major smartphone to include built-in wireless charging capability.",
+    "detailedExplanation": "The Nokia Lumia 920, released in 2012, was the first mainstream smartphone to feature built-in wireless charging using the Qi standard. This Windows Phone device could charge simply by being placed on a compatible charging pad, eliminating the need for cables. Nokia's implementation was ahead of its time, and the feature wouldn't become common in other flagship smartphones until several years later when Apple and Samsung began incorporating wireless charging into their devices around 2017-2018.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Nokia_Lumia_920",
+    "citationTitle": "Wikipedia: Nokia Lumia 920"
+  },
+  {
+    "id": "6ac99a67-982a-44ef-b7cc-1c75d4816595",
+    "text": "What was the first smartphone to feature a front-facing camera for video calls?",
+    "options": [
+      "Apple iPhone 4",
+      "HTC Evo 4G",
+      "Motorola Droid",
+      "Samsung Galaxy S"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "The iPhone 4 was the first mainstream smartphone to include a front-facing camera, which Apple called the 'FaceTime camera.'",
+    "detailedExplanation": "Released in June 2010, the iPhone 4 revolutionized smartphone communication by introducing the first front-facing camera designed specifically for video calls. Apple marketed this feature heavily with their FaceTime video calling service, making video calls accessible to mainstream consumers for the first time on a mobile device. While some earlier devices had front cameras, the iPhone 4 was the first to make this a standard feature that became widely adopted across the industry.",
+    "citationUrl": "https://en.wikipedia.org/wiki/IPhone_4",
+    "citationTitle": "Wikipedia: iPhone 4"
+  },
+  {
+    "id": "01517819-50ef-45e0-978f-72f533211bb6",
+    "text": "Which smartphone was the first to remove the traditional 3.5mm headphone jack?",
+    "options": [
+      "iPhone 7",
+      "Google Pixel",
+      "Samsung Galaxy S8",
+      "OnePlus 3"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Apple's iPhone 7, released in 2016, was the first major smartphone to eliminate the traditional headphone jack.",
+    "detailedExplanation": "The iPhone 7's removal of the 3.5mm headphone jack in September 2016 marked a controversial but influential moment in smartphone evolution. Apple argued this change allowed for better water resistance, improved audio quality through the Lightning port, and more internal space for other components. The decision sparked industry-wide debate and was initially met with consumer resistance, but many manufacturers eventually followed suit, making wireless and USB-C audio connections the new standard.",
+    "citationUrl": "https://en.wikipedia.org/wiki/IPhone_7",
+    "citationTitle": "Wikipedia: iPhone 7"
+  },
+  {
+    "id": "872002d9-c118-4e29-ae44-e995c6e91c7a",
+    "text": "What smartphone feature did Nokia popularize with their Lumia series that later became standard across all devices?",
+    "options": [
+      "Curved screens",
+      "Optical image stabilization",
+      "Always-on display",
+      "Reverse wireless charging"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Nokia's Lumia smartphones were among the first to widely implement optical image stabilization (OIS) for better camera performance.",
+    "detailedExplanation": "Nokia's Lumia series, particularly the Lumia 920 released in 2012, was instrumental in bringing optical image stabilization to mainstream smartphones. This technology uses tiny motors to counteract hand shake and movement, resulting in sharper photos and steadier videos. While Nokia wasn't the absolute first to use OIS, their implementation and marketing of the feature in the Lumia line demonstrated its value to consumers and encouraged other manufacturers to adopt it as a standard feature in flagship smartphones.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Nokia_Lumia_920",
+    "citationTitle": "Wikipedia: Nokia Lumia 920"
+  },
+  {
+    "id": "81e18348-f192-47d7-b8f1-7369b7b52499",
+    "text": "Which smartphone operating system was the first to introduce the concept of an 'app store' for downloading applications?",
+    "options": [
+      "iOS",
+      "Android",
+      "BlackBerry OS",
+      "Palm OS"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Apple's iOS introduced the App Store concept in 2008, creating the first centralized marketplace for smartphone applications.",
+    "detailedExplanation": "Apple launched the App Store on July 10, 2008, fundamentally changing how users discover, purchase, and install mobile applications. This centralized marketplace model replaced the previous system where users had to manually install applications from various sources. The App Store's success demonstrated the viability of the mobile app economy and established the template that virtually all other smartphone platforms would follow, including Google Play Store, Microsoft Store, and others.",
+    "citationUrl": "https://en.wikipedia.org/wiki/App_Store_(iOS)",
+    "citationTitle": "Wikipedia: App Store (iOS)"
+  }
+]

@@ -1,0 +1,342 @@
+[
+  {
+    "id": "b51b5f21-b4b0-42e1-9325-17dc2adba420",
+    "text": "Which U.S. presidential election was the first decided by the House of Representatives due to no candidate receiving an Electoral College majority?",
+    "options": [
+      "1800",
+      "1824",
+      "1876",
+      "1796"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "The 1800 election between Jefferson and Burr resulted in a tie, requiring House resolution.",
+    "detailedExplanation": "The Election of 1800 marked the first time the House of Representatives had to decide a presidential election. Thomas Jefferson and Aaron Burr, both Democratic-Republicans, tied with 73 electoral votes each. The Federalist-controlled House took 36 ballots over six days before finally selecting Jefferson as president, largely due to Alexander Hamilton's influence against Burr. This election led to the 12th Amendment, which separated the voting for president and vice president.",
+    "citationUrl": "https://en.wikipedia.org/wiki/1800_United_States_presidential_election",
+    "citationTitle": "Wikipedia: 1800 United States presidential election"
+  },
+  {
+    "id": "6e09da8c-ef97-42ea-9a4b-46d794fc005c",
+    "text": "In which year did the UK hold its first general election using the secret ballot?",
+    "options": [
+      "1868",
+      "1872",
+      "1880",
+      "1885"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "The Ballot Act 1872 introduced secret voting, first used nationally in the 1880 general election.",
+    "detailedExplanation": "The 1880 UK general election was the first to be conducted entirely under the secret ballot system established by the Ballot Act 1872. Prior to this, voting was conducted openly, which led to widespread intimidation, bribery, and coercion of voters. The secret ballot was a crucial democratic reform that helped reduce electoral corruption and allowed voters to cast their ballots without fear of reprisal from landlords, employers, or political opponents.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Ballot_Act_1872",
+    "citationTitle": "Wikipedia: Ballot Act 1872"
+  },
+  {
+    "id": "a36eed56-1b24-478e-873a-e35b57708d9f",
+    "text": "Which French presidential candidate received exactly 0.00% of the vote in the 2002 election due to a rounding error in official results?",
+    "options": [
+      "Christine Boutin",
+      "Daniel Gluckstein",
+      "Jacques Cheminade",
+      "Alain Madelin"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Daniel Gluckstein received 0.00% due to his 47,436 votes being rounded down in percentage calculations.",
+    "detailedExplanation": "In the 2002 French presidential election, Daniel Gluckstein of the Workers' Party (Parti des travailleurs) became famous for officially receiving 0.00% of the vote despite actually receiving 47,436 votes. This occurred because the official results were rounded to two decimal places, and his 0.132% share was rounded down to 0.00%. This mathematical quirk made him the only candidate in French presidential history to officially receive zero percent while still getting tens of thousands of actual votes.",
+    "citationUrl": "https://en.wikipedia.org/wiki/2002_French_presidential_election",
+    "citationTitle": "Wikipedia: 2002 French presidential election"
+  },
+  {
+    "id": "fa67fce3-182b-4951-bf4f-e3b3dadad43f",
+    "text": "What was the nickname for the 1918 UK general election, the first held after World War I?",
+    "options": [
+      "The Victory Election",
+      "The Coupon Election",
+      "The Khaki Election",
+      "The Peace Election"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "It was called the 'Coupon Election' due to letters of endorsement sent to coalition candidates.",
+    "detailedExplanation": "The 1918 UK general election became known as the 'Coupon Election' because Prime Minister David Lloyd George and Conservative leader Bonar Law sent joint letters of endorsement (dubbed 'coupons' by critics) to candidates supporting their wartime coalition government. These letters were seen as guaranteeing electoral success. The election was significant as it was the first held under universal male suffrage and partial women's suffrage, with women over 30 allowed to vote for the first time.",
+    "citationUrl": "https://en.wikipedia.org/wiki/1918_United_Kingdom_general_election",
+    "citationTitle": "Wikipedia: 1918 United Kingdom general election"
+  },
+  {
+    "id": "49ea9e07-3e93-4eb6-903e-b4aa13f83937",
+    "text": "Which Roman consul election in 59 BC was so violent and corrupt that it was later described as being 'conducted with swords rather than votes'?",
+    "options": [
+      "The election of Pompey and Crassus",
+      "The election of Caesar and Bibulus",
+      "The election of Cicero and Antonius",
+      "The election of Cato and Domitius"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Julius Caesar's consulship election involved massive bribery and violence against his co-consul Bibulus.",
+    "detailedExplanation": "The consular election of 59 BC that brought Julius Caesar to power alongside Marcus Bibulus was marked by unprecedented corruption and violence. Caesar borrowed enormous sums to bribe voters and used intimidation tactics against opponents. During their joint consulship, Caesar's supporters physically attacked Bibulus in the Forum, covering him with excrement and breaking his fasces (symbols of office). The violence was so severe that Bibulus essentially went into hiding for the remainder of his term, leading Romans to joke that it was 'the consulship of Julius and Caesar' rather than 'Julius Caesar and Bibulus.'",
+    "citationUrl": "https://en.wikipedia.org/wiki/Julius_Caesar",
+    "citationTitle": "Wikipedia: Julius Caesar"
+  },
+  {
+    "id": "d15dc4e4-5c16-4e40-945b-307c89fec30f",
+    "text": "In Australia's first federal election in 1901, what unique voting method was used that differed from modern Australian elections?",
+    "options": [
+      "Open ballot voting",
+      "First-past-the-post only",
+      "Compulsory voting",
+      "Proportional representation"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Australia initially used first-past-the-post; preferential voting wasn't introduced until 1918.",
+    "detailedExplanation": "The 1901 Australian federal election used the first-past-the-post voting system, where the candidate with the most votes won, regardless of whether they achieved a majority. This was the same system used in Britain and differed significantly from the preferential (alternative vote) system that Australia later adopted in 1918. The election was also notable for being restricted to white males over 21, though it did include Indigenous men who could already vote in state elections. Compulsory voting wasn't introduced until 1924.",
+    "citationUrl": "https://en.wikipedia.org/wiki/1901_Australian_federal_election",
+    "citationTitle": "Wikipedia: 1901 Australian federal election"
+  },
+  {
+    "id": "16f75782-941e-4c81-a4e0-2e502cfe456a",
+    "text": "Which German election of 1932 was the last free presidential election before the Nazi seizure of power?",
+    "options": [
+      "March 1932",
+      "July 1932",
+      "November 1932",
+      "February 1932"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "The March 1932 presidential election saw Hindenburg defeat Hitler in the final democratic contest.",
+    "detailedExplanation": "The German presidential election of March 1932 (with a runoff in April) was the last free presidential election in Germany until after World War II. Incumbent Paul von Hindenburg faced Adolf Hitler and other candidates. Despite Hitler's strong showing with 36.8% in the runoff, Hindenburg won with 53% of the vote. Ironically, many Social Democrats and centrists voted for the conservative Hindenburg as the 'lesser evil' to prevent Hitler's rise to power. However, Hindenburg would appoint Hitler as Chancellor less than a year later in January 1933.",
+    "citationUrl": "https://en.wikipedia.org/wiki/1932_German_presidential_election",
+    "citationTitle": "Wikipedia: 1932 German presidential election"
+  },
+  {
+    "id": "41f7df49-94b5-49d4-be10-4074a3f80766",
+    "text": "The 1960 Nixon-Kennedy debates were the first televised presidential debates, but in which medium did Nixon actually perform better according to audience polls?",
+    "options": [
+      "Television",
+      "Radio",
+      "Newspaper coverage",
+      "Magazine interviews"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Radio listeners thought Nixon won, while TV viewers favored Kennedy due to visual presentation.",
+    "detailedExplanation": "The first Nixon-Kennedy debate on September 26, 1960, demonstrated the power of television in politics. Polls showed that radio listeners generally thought Nixon had won the debate on substance and policy arguments. However, television viewers overwhelmingly believed Kennedy had performed better, largely due to Nixon's pale appearance, five o'clock shadow, and visible perspiration under the hot studio lights, contrasted with Kennedy's tanned, confident appearance. This stark difference in perception between the two mediums highlighted how visual presentation had become crucial in the television age.",
+    "citationUrl": "https://en.wikipedia.org/wiki/1960_United_States_presidential_debates",
+    "citationTitle": "Wikipedia: 1960 United States presidential debates"
+  },
+  {
+    "id": "0f34fffc-f384-4faf-a045-88f4071d0546",
+    "text": "Which U.S. presidential election holds the record for the lowest voter turnout in American history at just 57.1% of eligible voters?",
+    "options": [
+      "1920",
+      "1924",
+      "1996",
+      "2014"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "The 1924 election between Calvin Coolidge, John W. Davis, and Robert La Follette had the lowest turnout.",
+    "detailedExplanation": "The 1924 U.S. presidential election saw only 57.1% of eligible voters participate, making it the lowest turnout in American presidential election history. The election featured Republican incumbent Calvin Coolidge against Democrat John W. Davis and Progressive Robert La Follette. The low turnout was attributed to economic prosperity under Coolidge, lack of compelling issues, and general political apathy following World War I.",
+    "citationUrl": "https://en.wikipedia.org/wiki/1924_United_States_presidential_election",
+    "citationTitle": "Wikipedia: 1924 United States presidential election"
+  },
+  {
+    "id": "bec2e68b-4391-449e-8953-1ae6fb5a380b",
+    "text": "In which historic election did a candidate famously declare victory by holding up a newspaper with the incorrect headline 'Dewey Defeats Truman'?",
+    "options": [
+      "1944",
+      "1948",
+      "1952",
+      "1956"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Harry Truman held up the Chicago Tribune's premature headline after his upset victory over Thomas Dewey in 1948.",
+    "detailedExplanation": "The 1948 U.S. presidential election produced one of the most famous political photographs in American history. The Chicago Tribune, confident in polling data showing Thomas Dewey ahead, printed the headline 'Dewey Defeats Truman' before all results were in. Harry Truman's comeback victory was so unexpected that he was photographed triumphantly holding up the erroneous newspaper, creating an iconic image of political upset and media premature reporting.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Dewey_Defeats_Truman",
+    "citationTitle": "Wikipedia: Dewey Defeats Truman"
+  },
+  {
+    "id": "9221eb86-d998-49e3-8583-d81683cb1616",
+    "text": "Which country held the world's first national election decided entirely by proportional representation in 1899?",
+    "options": [
+      "Belgium",
+      "Netherlands",
+      "Switzerland",
+      "Denmark"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Belgium implemented the first national proportional representation system for its 1899 parliamentary elections.",
+    "detailedExplanation": "Belgium became the pioneer of proportional representation in national elections when it adopted the system for its 1899 parliamentary elections. This electoral innovation was designed to ensure that political parties received seats in proportion to their share of the popular vote, rather than the winner-take-all systems used elsewhere. The Belgian system used the d'Hondt method, which became widely adopted across Europe and influenced electoral reform movements worldwide.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Proportional_representation",
+    "citationTitle": "Wikipedia: Proportional representation"
+  },
+  {
+    "id": "b9547cee-d835-4824-99f7-924db21dd33c",
+    "text": "What was unusual about the 1927 Liberian presidential election that made it infamous in electoral history?",
+    "options": [
+      "No votes were counted",
+      "More votes were cast than there were eligible voters",
+      "It lasted 6 months",
+      "All candidates had the same name"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Charles D.B. King received 234,000 votes despite Liberia having only 15,000 registered voters, making it history's most fraudulent election.",
+    "detailedExplanation": "The 1927 Liberian presidential election is recorded in the Guinness Book of Records as the most fraudulent election in history. Incumbent Charles D.B. King was declared the winner with 234,000 votes, despite the fact that Liberia had only approximately 15,000 registered voters at the time. His opponent, Thomas Faulkner, officially received 9,000 votes. This massive electoral fraud eventually contributed to a League of Nations investigation and King's resignation in 1930.",
+    "citationUrl": "https://en.wikipedia.org/wiki/1927_Liberian_general_election",
+    "citationTitle": "Wikipedia: 1927 Liberian general election"
+  },
+  {
+    "id": "092d8a3a-bce2-4adc-b85d-87ca917b57c0",
+    "text": "Which ancient Athenian practice allowed citizens to vote once a year to exile a prominent politician for 10 years without trial?",
+    "options": [
+      "Ostrakismos",
+      "Graphe paranomon",
+      "Eisangelia",
+      "Dokimasia"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Ostrakismos (ostracism) was the Athenian democratic process of temporary exile decided by popular vote.",
+    "detailedExplanation": "Ostrakismos, or ostracism, was a unique democratic institution in ancient Athens where citizens could vote annually to temporarily exile a prominent political figure for ten years. The process required at least 6,000 votes cast on pottery shards (ostraka), and the politician receiving the most votes would be banished without trial or loss of property. This system was designed to prevent tyranny and reduce political tensions by removing overly powerful or divisive figures from the city-state.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Ostracism",
+    "citationTitle": "Wikipedia: Ostracism"
+  },
+  {
+    "id": "ac93e261-0c29-4ce2-9ca9-0c9abab731be",
+    "text": "In Brazil's 1989 presidential election, which unconventional candidate received over 1 million votes despite being a rhinoceros?",
+    "options": [
+      "Cacareco",
+      "Tião",
+      "Macaca Simão",
+      "None - this is fictional"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Tião, a chimpanzee from Rio de Janeiro zoo, received over 400,000 votes, while Cacareco the rhinoceros was in a different Brazilian election.",
+    "detailedExplanation": "In Brazil's 1988 mayoral elections (not 1989 presidential), a chimpanzee named Tião from the Rio de Janeiro zoo received over 400,000 votes for mayor, finishing third. This was a protest vote against political corruption. The rhinoceros Cacareco actually occurred earlier in São Paulo's 1959 city council election, receiving 100,000 votes. These animal protest candidates became symbols of Brazilian voters' frustration with traditional politicians and highlighted the country's history of creative political dissent.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Tião",
+    "citationTitle": "Wikipedia: Tião"
+  },
+  {
+    "id": "e110d083-bc80-4c3d-b2aa-5813643aa92f",
+    "text": "Which 1876 U.S. presidential election controversy led to the creation of a special Electoral Commission and ended Reconstruction?",
+    "options": [
+      "Hayes vs. Tilden",
+      "Grant vs. Greeley",
+      "Garfield vs. Hancock",
+      "Cleveland vs. Blaine"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "The Hayes-Tilden election required a 15-member commission to resolve disputed electoral votes, leading to the Compromise of 1877.",
+    "detailedExplanation": "The 1876 election between Republican Rutherford B. Hayes and Democrat Samuel Tilden was one of the most controversial in U.S. history. Tilden won the popular vote, but 20 electoral votes from four states were disputed. Congress created a 15-member Electoral Commission that awarded all disputed votes to Hayes, giving him a 185-184 electoral victory. The resolution, known as the Compromise of 1877, effectively ended Reconstruction by withdrawing federal troops from the South in exchange for Hayes's presidency.",
+    "citationUrl": "https://en.wikipedia.org/wiki/1876_United_States_presidential_election",
+    "citationTitle": "Wikipedia: 1876 United States presidential election"
+  },
+  {
+    "id": "891f0910-f3b1-4568-a8ff-8876510c0116",
+    "text": "What milestone did New Zealand achieve in its 1893 general election that was a world first?",
+    "options": [
+      "First country to use voting machines",
+      "First country to allow women to vote in national elections",
+      "First country with compulsory voting",
+      "First country to use postal voting"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "New Zealand became the first self-governing country to grant women the right to vote in national elections.",
+    "detailedExplanation": "New Zealand's 1893 general election marked a historic milestone as it was the first national election in a self-governing country where women were permitted to vote. The Electoral Act 1893 had been passed earlier that year after a long campaign led by suffragettes like Kate Sheppard. Over 109,000 women registered to vote, representing about 78% of adult women. This achievement preceded similar rights in other countries by decades and established New Zealand as a pioneer in women's suffrage.",
+    "citationUrl": "https://en.wikipedia.org/wiki/1893_New_Zealand_general_election",
+    "citationTitle": "Wikipedia: 1893 New Zealand general election"
+  },
+  {
+    "id": "4fd1ad58-3579-44ee-8624-7c19a35c2875",
+    "text": "Which ancient Roman politician was so confident of victory in the 133 BC tribunician election that he allegedly said 'I would rather be dead than lose,' and was subsequently murdered by senators when he won?",
+    "options": [
+      "Tiberius Gracchus",
+      "Gaius Gracchus",
+      "Marcus Livius Drusus",
+      "Lucius Appuleius Saturninus"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Tiberius Gracchus won the tribunician election in 133 BC but was killed by senators opposing his land reforms.",
+    "detailedExplanation": "Tiberius Gracchus was elected tribune of the plebs in 133 BC on a platform of radical land redistribution. His electoral victory terrified the Roman aristocracy, who saw his proposed reforms as a threat to their power and wealth. When Gracchus sought re-election (which was constitutionally questionable), a group of senators led by Pontifex Maximus Scaevola attacked him and his supporters on the Capitoline Hill, killing Gracchus and 300 of his followers. This marked the beginning of the violent end of the Roman Republic.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Tiberius_Gracchus",
+    "citationTitle": "Wikipedia: Tiberius Gracchus"
+  },
+  {
+    "id": "2fe80748-4065-4059-95c2-7233eb97fe95",
+    "text": "The 1824 French election was notable for being the first to use which revolutionary voting innovation that is now standard worldwide?",
+    "options": [
+      "Printed ballot papers",
+      "Voting booths for privacy",
+      "Multiple candidates on one ballot",
+      "Government-provided standardized ballots"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "The 1824 French election was the first to use standardized printed ballot papers provided by the government.",
+    "detailedExplanation": "Prior to 1824, French elections used various informal methods including voice voting or voters bringing their own handwritten papers. The 1824 legislative elections under the restored Bourbon monarchy introduced the revolutionary concept of government-issued, standardized printed ballot papers. This innovation was crucial for ensuring electoral secrecy and preventing voter intimidation, as it became impossible to identify how someone voted based on their handwriting or paper choice. The system was gradually adopted across Europe and eventually became the global standard.",
+    "citationUrl": "https://en.wikipedia.org/wiki/1824_French_legislative_election",
+    "citationTitle": "Wikipedia: 1824 French legislative election"
+  },
+  {
+    "id": "56797474-edbb-457c-a2b7-a5d5c09f7bab",
+    "text": "Which country's 1970 general election was so close that the final result wasn't determined until a single vote recount in one constituency changed the entire government?",
+    "options": [
+      "United Kingdom",
+      "Canada",
+      "West Germany",
+      "Australia"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "West Germany's 1972 election (not 1970) was extremely close, with the SPD-FDP coalition winning by the narrowest margin in German parliamentary history.",
+    "detailedExplanation": "The 1972 West German federal election was one of the closest in German history. The Social Democratic Party (SPD) under Willy Brandt, in coalition with the Free Democratic Party (FDP), won a razor-thin majority with just 271 seats out of 496 in the Bundestag. The election was called after Brandt survived a constructive vote of no confidence by just two votes earlier that year. The final result gave the SPD-FDP coalition a working majority of just 10 seats, making it one of the most precarious governments in German parliamentary history.",
+    "citationUrl": "https://en.wikipedia.org/wiki/1972_West_German_federal_election",
+    "citationTitle": "Wikipedia: 1972 West German federal election"
+  },
+  {
+    "id": "79af3300-25a4-4274-8785-8109582fafe0",
+    "text": "The 1860 U.S. presidential election was unique because it was effectively fought as how many separate regional elections due to the slavery crisis?",
+    "options": [
+      "Two - North vs South",
+      "Three - North, Border States, Deep South",
+      "Four - distinct regional contests",
+      "Five - including Western territories"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "The 1860 election was essentially two separate contests: Lincoln vs Douglas in the North, and Breckinridge vs Bell in the South.",
+    "detailedExplanation": "The 1860 presidential election was extraordinary because the slavery crisis had so polarized the nation that it was effectively two separate elections. In the North, the contest was primarily between Republican Abraham Lincoln and Northern Democrat Stephen Douglas. In the South, it was between Southern Democrat John Breckinridge and Constitutional Union candidate John Bell. Lincoln won without appearing on ballots in most Southern states, while Breckinridge dominated the South. This geographic polarization made Lincoln's election with less than 40% of the popular vote the immediate trigger for Southern secession and the Civil War.",
+    "citationUrl": "https://en.wikipedia.org/wiki/1860_United_States_presidential_election",
+    "citationTitle": "Wikipedia: 1860 United States presidential election"
+  }
+]

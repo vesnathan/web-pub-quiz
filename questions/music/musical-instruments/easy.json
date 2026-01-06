@@ -1,0 +1,342 @@
+[
+  {
+    "id": "e9ed2bf7-8a3f-4b32-bbcd-43d7708daa13",
+    "text": "How many strings does a standard acoustic guitar have?",
+    "options": [
+      "4",
+      "6",
+      "8",
+      "12"
+    ],
+    "correctIndex": 1,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "A standard acoustic guitar has 6 strings.",
+    "detailedExplanation": "The standard acoustic guitar has six strings, typically tuned to E-A-D-G-B-E from lowest to highest pitch. This six-string configuration has been the standard for centuries, though variations exist such as 12-string guitars (which have paired strings) and bass guitars (which typically have 4 strings). The six-string setup provides an optimal balance between playability and harmonic range.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Guitar",
+    "citationTitle": "Wikipedia: Guitar"
+  },
+  {
+    "id": "90f80b39-e3e3-4c4a-91ca-322f5f13151a",
+    "text": "Which instrument family does the trumpet belong to?",
+    "options": [
+      "Woodwind",
+      "Brass",
+      "Percussion",
+      "String"
+    ],
+    "correctIndex": 1,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "The trumpet belongs to the brass family of instruments.",
+    "detailedExplanation": "The trumpet is a brass instrument characterized by its cylindrical bore, three valves, and bright, piercing tone. Brass instruments are defined by their method of sound production - the player buzzes their lips into a mouthpiece, creating vibrations that resonate through the instrument's tubing. Other members of the brass family include the trombone, French horn, and tuba.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Trumpet",
+    "citationTitle": "Wikipedia: Trumpet"
+  },
+  {
+    "id": "b41d782d-f2aa-4878-85ae-884b691881ca",
+    "text": "What are the black and white keys on a piano collectively called?",
+    "options": [
+      "Hammers",
+      "Pedals",
+      "Keys",
+      "Strings"
+    ],
+    "correctIndex": 2,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "The black and white keys on a piano are simply called keys.",
+    "detailedExplanation": "A piano keyboard consists of white and black keys that the player presses to produce sound. The white keys represent the natural notes (C, D, E, F, G, A, B) while the black keys represent the sharps and flats. When pressed, these keys trigger a mechanism that causes hammers to strike strings inside the piano, producing sound. A full-sized piano typically has 88 keys total.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Piano",
+    "citationTitle": "Wikipedia: Piano"
+  },
+  {
+    "id": "4b9644c0-a8a3-4593-81f4-28fedc162b48",
+    "text": "Which percussion instrument is played by striking it with mallets and has metal bars arranged like a piano keyboard?",
+    "options": [
+      "Timpani",
+      "Xylophone",
+      "Snare drum",
+      "Cymbals"
+    ],
+    "correctIndex": 1,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "The xylophone has metal bars arranged like a piano keyboard and is played with mallets.",
+    "detailedExplanation": "A xylophone is a percussion instrument consisting of wooden or metal bars of varying lengths arranged in the fashion of a piano keyboard. Each bar is tuned to a specific pitch, and the instrument is played by striking the bars with mallets. The xylophone produces a bright, penetrating sound and is commonly used in orchestras, bands, and educational settings. Similar instruments include the marimba and vibraphone.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Xylophone",
+    "citationTitle": "Wikipedia: Xylophone"
+  },
+  {
+    "id": "b48f605b-41d0-4353-9188-af1668f74774",
+    "text": "What do you use to play a violin?",
+    "options": [
+      "Drumsticks",
+      "Bow",
+      "Reed",
+      "Mouthpiece"
+    ],
+    "correctIndex": 1,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "A violin is played using a bow drawn across the strings.",
+    "detailedExplanation": "A violin bow is a wooden stick strung with horsehair that is drawn across the violin's strings to produce sound. The bow is typically made from pernambuco wood and contains between 150-200 horsehairs. The player can also pluck the strings with their fingers (called pizzicato), but the primary method of playing involves bowing. The technique and pressure applied with the bow greatly affects the violin's tone and dynamics.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Violin",
+    "citationTitle": "Wikipedia: Violin"
+  },
+  {
+    "id": "fd367f90-d93b-4356-afcf-414a81fc0264",
+    "text": "How many holes does a standard recorder have for finger placement?",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "10"
+    ],
+    "correctIndex": 2,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "A standard recorder has 8 holes for finger placement.",
+    "detailedExplanation": "The standard recorder has eight tone holes - seven on the front and one thumb hole on the back. This configuration allows players to produce a full chromatic range by covering and uncovering different combinations of holes. The recorder is a popular instrument for music education because of its relatively simple fingering system and affordable cost. Different sizes of recorders exist, including soprano, alto, tenor, and bass.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Recorder_(musical_instrument)",
+    "citationTitle": "Wikipedia: Recorder (musical instrument)"
+  },
+  {
+    "id": "b51d9db8-92a3-4ca9-a10b-6fc1d3f937b1",
+    "text": "Which woodwind instrument uses a double reed?",
+    "options": [
+      "Flute",
+      "Clarinet",
+      "Oboe",
+      "Saxophone"
+    ],
+    "correctIndex": 2,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "The oboe uses a double reed to produce sound.",
+    "detailedExplanation": "The oboe is a woodwind instrument that uses a double reed - two thin pieces of cane bound together that vibrate against each other when air is blown through them. This double reed construction gives the oboe its distinctive, penetrating sound that is often described as nasal or reedy. Other double reed instruments include the bassoon and English horn. In contrast, clarinets and saxophones use single reeds, while flutes don't use reeds at all.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Oboe",
+    "citationTitle": "Wikipedia: Oboe"
+  },
+  {
+    "id": "ec0822c0-8fff-46ad-a0ec-c37d6fe2282b",
+    "text": "What is the largest member of the string instrument family commonly found in an orchestra?",
+    "options": [
+      "Cello",
+      "Double bass",
+      "Viola",
+      "Harp"
+    ],
+    "correctIndex": 1,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "The double bass is the largest string instrument commonly found in orchestras.",
+    "detailedExplanation": "The double bass, also known as the upright bass or contrabass, is the largest and lowest-pitched string instrument regularly used in orchestras. Standing about 6 feet tall, it typically has four strings tuned E-A-D-G (an octave lower than a bass guitar). Players either bow the strings or pluck them (pizzicato). The double bass provides the foundation of the orchestra's string section and is also widely used in jazz, bluegrass, and other musical genres.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Double_bass",
+    "citationTitle": "Wikipedia: Double bass"
+  },
+  {
+    "id": "d1c8f6f7-efb8-4d0d-b889-54bf37d8d1cd",
+    "text": "What is the traditional material used to make bagpipe bags?",
+    "options": [
+      "Sheepskin",
+      "Canvas",
+      "Plastic",
+      "Leather"
+    ],
+    "correctIndex": 0,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "Traditional bagpipe bags are made from sheepskin, which provides the necessary airtight seal.",
+    "detailedExplanation": "Bagpipes have been traditionally crafted using sheepskin for the bag component, as the natural material provides an excellent airtight seal when properly prepared and treated. The sheepskin is turned inside out so the wool side faces inward, creating a smooth exterior and helping maintain air pressure. While modern bagpipes may use synthetic materials, sheepskin remains the preferred choice for traditional Scottish and Irish bagpipes.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Bagpipes",
+    "citationTitle": "Wikipedia: Bagpipes"
+  },
+  {
+    "id": "0a1f6d4c-30eb-4051-8957-64f86e3d3589",
+    "text": "Which instrument is known as the 'king of instruments'?",
+    "options": [
+      "Piano",
+      "Pipe organ",
+      "Harp",
+      "Violin"
+    ],
+    "correctIndex": 1,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "The pipe organ is traditionally called the 'king of instruments' due to its size, complexity, and tonal range.",
+    "detailedExplanation": "The pipe organ has earned the title 'king of instruments' because of its extraordinary range of sounds, massive size, and complexity. A large pipe organ can have thousands of pipes, multiple keyboards (manuals), and foot pedals, allowing for an incredible variety of tonal colors and dynamics. The instrument's association with churches and cathedrals, along with its ability to fill vast spaces with sound, has contributed to its regal designation in classical music tradition.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Pipe_organ",
+    "citationTitle": "Wikipedia: Pipe organ"
+  },
+  {
+    "id": "8bff9469-521d-43c6-b45c-9d5e11645181",
+    "text": "What type of drum is traditionally played with the hands rather than sticks?",
+    "options": [
+      "Snare drum",
+      "Timpani",
+      "Bongo drums",
+      "Bass drum"
+    ],
+    "correctIndex": 2,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "Bongo drums are traditionally played with the hands and fingers rather than drumsticks.",
+    "detailedExplanation": "Bongo drums, originating from Cuba, are specifically designed to be played with the hands and fingers. The technique involves using different parts of the hand - fingertips, palms, and the heel of the hand - to create various tones and rhythms on the two small, open-bottomed drums. This hand-playing technique allows for subtle tonal variations and rapid, intricate rhythms that would be impossible to achieve with drumsticks.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Bongo_drum",
+    "citationTitle": "Wikipedia: Bongo drum"
+  },
+  {
+    "id": "18c34da7-9f04-41e2-a55d-c3850a2952fa",
+    "text": "How many valves does a standard French horn have?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correctIndex": 2,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "A standard French horn typically has 4 valves, though some models may have 3.",
+    "detailedExplanation": "Most modern French horns are double horns with 4 valves. Three valves change the pitch by redirecting air through different lengths of tubing, while the fourth valve (thumb valve) switches between the F and B♭ sides of the double horn. This design gives players access to a fuller range of notes and better intonation in different registers. Some student models have only 3 valves, but professional French horns almost universally feature 4 valves.",
+    "citationUrl": "https://en.wikipedia.org/wiki/French_horn",
+    "citationTitle": "Wikipedia: French horn"
+  },
+  {
+    "id": "8d1fc1de-1458-448f-918d-51432ac4244d",
+    "text": "What is the small piece of wood or plastic that vibrates in a clarinet's mouthpiece called?",
+    "options": [
+      "Reed",
+      "Ligature",
+      "Barrel",
+      "Bell"
+    ],
+    "correctIndex": 0,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "The reed is the thin piece that vibrates to produce sound in a clarinet.",
+    "detailedExplanation": "The reed is a crucial component of the clarinet that creates sound through vibration. Made from cane (Arundo donax) or synthetic materials, this thin, flexible piece is attached to the mouthpiece and vibrates when air is blown past it. The quality and condition of the reed significantly affects the instrument's tone, response, and playability. Clarinetists typically maintain several reeds in rotation, as they can be affected by moisture, temperature, and wear.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Reed_(mouthpiece)",
+    "citationTitle": "Wikipedia: Reed (mouthpiece)"
+  },
+  {
+    "id": "c1658414-21de-4ebb-9a76-2591bcef18b4",
+    "text": "Which percussion instrument consists of wooden bars arranged like a keyboard?",
+    "options": [
+      "Vibraphone",
+      "Marimba",
+      "Timpani",
+      "Glockenspiel"
+    ],
+    "correctIndex": 1,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "A marimba consists of wooden bars arranged in keyboard fashion and played with mallets.",
+    "detailedExplanation": "The marimba is a percussion instrument featuring graduated wooden bars arranged like a piano keyboard, typically made from rosewood or synthetic materials. Each bar is precisely tuned and sits above a resonator tube that amplifies the sound. Players use mallets with various hardnesses to strike the bars, producing warm, mellow tones. The marimba originated in Africa and Central America and has become a staple in both classical percussion ensembles and popular music.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Marimba",
+    "citationTitle": "Wikipedia: Marimba"
+  },
+  {
+    "id": "0a47d53d-dcfd-4afd-94e3-5252ea931404",
+    "text": "What is the traditional number of strings on a banjo?",
+    "options": [
+      "4",
+      "5",
+      "6",
+      "8"
+    ],
+    "correctIndex": 1,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "A traditional banjo typically has 5 strings, with the fifth string being shorter and used as a drone.",
+    "detailedExplanation": "The five-string banjo is the most traditional and recognizable form of the instrument, particularly associated with bluegrass and folk music. The fifth string is unique - it's shorter than the others, attached to a tuning peg about halfway up the neck, and typically tuned to a high G. This string serves as a drone and contributes to the banjo's distinctive sound. While four-string and six-string banjos exist for different musical styles, the five-string configuration remains the classic American banjo design.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Banjo",
+    "citationTitle": "Wikipedia: Banjo"
+  },
+  {
+    "id": "091046f7-ff84-4d9f-ad1c-b79d7dbb7e60",
+    "text": "Which instrument is played by squeezing bellows and pressing buttons or keys?",
+    "options": [
+      "Harmonica",
+      "Accordion",
+      "Bagpipes",
+      "Organ"
+    ],
+    "correctIndex": 1,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "An accordion is played by squeezing bellows while pressing buttons or keys to direct air through reeds.",
+    "detailedExplanation": "The accordion operates through a bellows system that the player squeezes and expands to force air through metal reeds. The player presses buttons or keys (depending on the type of accordion) to open valves that direct air to specific reeds, each tuned to produce different notes. This combination of bellows operation and key/button pressing allows for both melody and harmony. Accordions come in various forms, including piano accordions with piano-style keys and button accordions with arrays of buttons.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Accordion",
+    "citationTitle": "Wikipedia: Accordion"
+  },
+  {
+    "id": "6cb650fd-eead-47b2-a1e7-4e7eb005e6d5",
+    "text": "Which musical instrument is also known as a 'mouth harp' or 'jaw harp'?",
+    "options": [
+      "Harmonica",
+      "Jew's harp",
+      "Ocarina",
+      "Pan flute"
+    ],
+    "correctIndex": 1,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "The Jew's harp is a small instrument held against the teeth and plucked to create sound.",
+    "detailedExplanation": "The Jew's harp, also called a mouth harp or jaw harp, is a lamellophone instrument consisting of a flexible metal or bamboo tongue or reed attached to a frame. The player places the instrument firmly against the front teeth or lips, and the reed is plucked with a finger to produce a sound that resonates in the player's mouth cavity, which acts as a resonator and amplifier.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Jew%27s_harp",
+    "citationTitle": "Wikipedia: Jew's harp"
+  },
+  {
+    "id": "07db0349-594a-4025-bbbf-8b129b3b5a41",
+    "text": "What is the curved metal tube that connects a saxophone's mouthpiece to its body called?",
+    "options": [
+      "Bell",
+      "Neck",
+      "Bow",
+      "Crook"
+    ],
+    "correctIndex": 1,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "The neck is the curved metal section that holds the mouthpiece and connects to the saxophone body.",
+    "detailedExplanation": "The neck of a saxophone is a crucial component that connects the mouthpiece to the main body of the instrument. This curved metal tube is typically made of brass and contains tone holes and keys. The neck's curvature and length significantly affect the instrument's intonation and playability, and different neck designs can alter the saxophone's tonal characteristics.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Saxophone",
+    "citationTitle": "Wikipedia: Saxophone"
+  },
+  {
+    "id": "777c877a-2878-43d6-bd2f-4c94c0161740",
+    "text": "Which percussion instrument originated in Trinidad and Tobago and is made from oil drums?",
+    "options": [
+      "Conga",
+      "Steel drum",
+      "Djembe",
+      "Timpani"
+    ],
+    "correctIndex": 1,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "Steel drums were invented in Trinidad and Tobago and are made from discarded oil barrels.",
+    "detailedExplanation": "The steel drum, also known as steel pan, was invented in Trinidad and Tobago in the 1930s. These percussion instruments are created by hammering and shaping the bottom of oil barrels or other metal containers to create different pitched areas. The steel drum has become the national instrument of Trinidad and Tobago and plays a central role in calypso and soca music, as well as in steel band orchestras worldwide.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Steelpan",
+    "citationTitle": "Wikipedia: Steelpan"
+  },
+  {
+    "id": "9322a2eb-fd6b-48e0-aa07-e75122159375",
+    "text": "What is the wooden block that supports the strings above the soundboard on a guitar called?",
+    "options": [
+      "Nut",
+      "Bridge",
+      "Fret",
+      "Saddle"
+    ],
+    "correctIndex": 1,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "The bridge is the wooden piece that anchors the strings to the guitar's body and transfers vibrations to the soundboard.",
+    "detailedExplanation": "The bridge on a guitar is a critical component that serves multiple functions. It anchors the strings to the guitar's body, transfers string vibrations to the soundboard for amplification, and helps determine the instrument's intonation and action (string height). On acoustic guitars, the bridge is typically made of hardwood like rosewood or ebony and is glued to the soundboard, while electric guitars may have various bridge designs including fixed or tremolo systems.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Bridge_(instrument)",
+    "citationTitle": "Wikipedia: Bridge (instrument)"
+  }
+]

@@ -78,6 +78,7 @@ Resources:
     Type: AWS::Cognito::UserPool
     DependsOn:
       - CognitoPreSignUpPermission
+      - CognitoCustomMessagePermission
     Properties:
       UserPoolName: !Sub "${AppName}-userpool-${Stage}"
       Schema:
@@ -97,6 +98,7 @@ Resources:
       LambdaConfig:
         PreSignUp: !GetAtt CognitoPreSignUpFunction.Arn
         PostConfirmation: !GetAtt CognitoPostConfirmationFunction.Arn
+        CustomMessage: !GetAtt CognitoCustomMessageFunction.Arn
       UserPoolTags:
         Project: quiz-night-live
         Stage: !Ref Stage
@@ -534,6 +536,69 @@ Resources:
     Type: AWS::Logs::LogGroup
     Properties:
       LogGroupName: !Sub "/aws/lambda/${AppName}-cognito-pre-signup-${Stage}"
+      RetentionInDays: !Ref LogRetentionInDays
+      Tags:
+        - Key: Project
+          Value: quiz-night-live
+
+  # Custom Message Lambda - stores verification codes in SSM for E2E testing
+  CognitoCustomMessageFunction:
+    Type: AWS::Lambda::Function
+    Properties:
+      FunctionName: !Sub "${AppName}-cognito-custom-message-${Stage}"
+      Runtime: nodejs20.x
+      Handler: index.handler
+      Role: !GetAtt CognitoCustomMessageRole.Arn
+      Timeout: 30
+      Environment:
+        Variables:
+          STAGE: !Ref Stage
+      Code:
+        S3Bucket: !Ref TemplateBucketName
+        S3Key: !Sub "functions/${Stage}/cognitoCustomMessage.zip"
+      Tags:
+        - Key: Project
+          Value: quiz-night-live
+
+  CognitoCustomMessageRole:
+    Type: AWS::IAM::Role
+    Properties:
+      RoleName: !Sub "${AppName}-cognito-custom-msg-role-${Stage}"
+      AssumeRolePolicyDocument:
+        Version: "2012-10-17"
+        Statement:
+          - Effect: Allow
+            Principal:
+              Service: lambda.amazonaws.com
+            Action: sts:AssumeRole
+      ManagedPolicyArns:
+        - arn:aws:iam::aws:policy/service-role/AWSLambdaBasicExecutionRole
+      Policies:
+        - PolicyName: SSMParameterAccess
+          PolicyDocument:
+            Version: "2012-10-17"
+            Statement:
+              - Effect: Allow
+                Action:
+                  - ssm:PutParameter
+                Resource:
+                  - !Sub "arn:aws:ssm:${AWS::Region}:${AWS::AccountId}:parameter/quiz/${Stage}/e2e/codes/*"
+      Tags:
+        - Key: Project
+          Value: quiz-night-live
+
+  CognitoCustomMessagePermission:
+    Type: AWS::Lambda::Permission
+    Properties:
+      FunctionName: !Ref CognitoCustomMessageFunction
+      Principal: cognito-idp.amazonaws.com
+      Action: lambda:InvokeFunction
+      SourceArn: !Sub "arn:aws:cognito-idp:${AWS::Region}:${AWS::AccountId}:userpool/*"
+
+  CognitoCustomMessageLogGroup:
+    Type: AWS::Logs::LogGroup
+    Properties:
+      LogGroupName: !Sub "/aws/lambda/${AppName}-cognito-custom-message-${Stage}"
       RetentionInDays: !Ref LogRetentionInDays
       Tags:
         - Key: Project

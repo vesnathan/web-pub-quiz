@@ -1,0 +1,342 @@
+[
+  {
+    "id": "e740ec4b-569b-4c9f-8db9-25f5ab9dbc07",
+    "text": "Which novel opens with the famous line: 'It was the best of times, it was the worst of times'?",
+    "options": [
+      "A Tale of Two Cities",
+      "Great Expectations",
+      "Oliver Twist",
+      "David Copperfield"
+    ],
+    "correctIndex": 0,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "This iconic opening line belongs to Charles Dickens' 'A Tale of Two Cities'.",
+    "detailedExplanation": "Charles Dickens' 'A Tale of Two Cities' (1859) opens with one of the most recognizable lines in English literature: 'It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness...' The opening paragraph continues with a series of contrasts that set the tone for this novel about the French Revolution, establishing the duality and contradictions of the era.",
+    "citationUrl": "https://en.wikipedia.org/wiki/A_Tale_of_Two_Cities",
+    "citationTitle": "Wikipedia: A Tale of Two Cities"
+  },
+  {
+    "id": "94ed8492-c320-4bbb-b589-1be66792525f",
+    "text": "'Call me Ishmael' is the opening line of which classic American novel?",
+    "options": [
+      "The Great Gatsby",
+      "Moby-Dick",
+      "The Catcher in the Rye",
+      "To Kill a Mockingbird"
+    ],
+    "correctIndex": 1,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "'Call me Ishmael' is the famous opening line of Herman Melville's 'Moby-Dick'.",
+    "detailedExplanation": "Herman Melville's 'Moby-Dick' (1851) begins with the simple yet memorable line 'Call me Ishmael.' This opening immediately establishes the narrator's voice and draws readers into the story. Ishmael serves as both narrator and character, telling the tale of Captain Ahab's obsessive quest for the white whale. The line has become one of the most quoted opening sentences in American literature.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Moby-Dick",
+    "citationTitle": "Wikipedia: Moby-Dick"
+  },
+  {
+    "id": "df84789b-f629-4675-93d4-947da0f44bed",
+    "text": "Which Jane Austen novel begins with 'It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in want of a wife'?",
+    "options": [
+      "Sense and Sensibility",
+      "Emma",
+      "Pride and Prejudice",
+      "Mansfield Park"
+    ],
+    "correctIndex": 2,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "This witty opening line belongs to Jane Austen's 'Pride and Prejudice'.",
+    "detailedExplanation": "Jane Austen's 'Pride and Prejudice' (1813) opens with this ironic and humorous observation about society's expectations regarding wealthy bachelors and marriage. The line immediately establishes Austen's satirical tone and introduces the novel's central themes of marriage, social class, and economic considerations in relationships. This opening sentence perfectly encapsulates the social commentary that runs throughout the novel.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Pride_and_Prejudice",
+    "citationTitle": "Wikipedia: Pride and Prejudice"
+  },
+  {
+    "id": "1d221353-a590-47fb-8444-bc629d822ab5",
+    "text": "'In a hole in the ground there lived a hobbit' opens which famous fantasy novel?",
+    "options": [
+      "The Fellowship of the Ring",
+      "The Hobbit",
+      "The Two Towers",
+      "The Silmarillion"
+    ],
+    "correctIndex": 1,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "This whimsical opening line begins J.R.R. Tolkien's 'The Hobbit'.",
+    "detailedExplanation": "J.R.R. Tolkien's 'The Hobbit' (1937) begins with this simple yet evocative line that immediately transports readers into Middle-earth. Tolkien famously wrote this sentence spontaneously while grading exam papers, and it became the foundation for his entire legendarium. The line introduces both the concept of hobbits and their underground homes, setting the stage for Bilbo Baggins' unexpected adventure.",
+    "citationUrl": "https://en.wikipedia.org/wiki/The_Hobbit",
+    "citationTitle": "Wikipedia: The Hobbit"
+  },
+  {
+    "id": "8a7ad070-d199-4cec-9211-8adfce03c3d1",
+    "text": "Which dystopian novel opens with 'It was a bright cold day in April, and the clocks were striking thirteen'?",
+    "options": [
+      "Brave New World",
+      "Fahrenheit 451",
+      "1984",
+      "The Handmaid's Tale"
+    ],
+    "correctIndex": 2,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "This unsettling opening line belongs to George Orwell's '1984'.",
+    "detailedExplanation": "George Orwell's '1984' (1949) opens with this deliberately jarring line that immediately signals something is wrong with the world being described. The impossible image of clocks striking thirteen creates an immediate sense of unease and displacement, perfectly introducing readers to the totalitarian world of Big Brother. This opening line has become synonymous with dystopian literature and Orwell's critique of totalitarianism.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Nineteen_Eighty-Four",
+    "citationTitle": "Wikipedia: Nineteen Eighty-Four"
+  },
+  {
+    "id": "194c93e5-0100-4685-8bef-80f3cbd3bdc1",
+    "text": "'Last night I dreamt I went to Manderley again' is the opening line of which Gothic novel?",
+    "options": [
+      "Jane Eyre",
+      "Wuthering Heights",
+      "Rebecca",
+      "The Turn of the Screw"
+    ],
+    "correctIndex": 2,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "This haunting opening line belongs to Daphne du Maurier's 'Rebecca'.",
+    "detailedExplanation": "Daphne du Maurier's 'Rebecca' (1938) opens with this evocative line that immediately establishes the novel's dreamlike, nostalgic tone. The reference to Manderley, the grand estate central to the story, and the word 'again' suggests both loss and longing. This opening perfectly captures the Gothic atmosphere and the narrator's complex relationship with the past that drives the entire narrative.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Rebecca_(novel)",
+    "citationTitle": "Wikipedia: Rebecca (novel)"
+  },
+  {
+    "id": "c4978852-3eeb-4f7e-9a2a-6b77bced1236",
+    "text": "Which Leo Tolstoy novel begins with 'Happy families are all alike; every unhappy family is unhappy in its own way'?",
+    "options": [
+      "War and Peace",
+      "Anna Karenina",
+      "The Death of Ivan Ilyich",
+      "Resurrection"
+    ],
+    "correctIndex": 1,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "This philosophical opening line belongs to Leo Tolstoy's 'Anna Karenina'.",
+    "detailedExplanation": "Leo Tolstoy's 'Anna Karenina' (1878) opens with this profound observation about family life that has become known as the 'Anna Karenina principle.' The line immediately establishes the novel's exploration of family dynamics, happiness, and human nature. This opening sentence has transcended literature and is often quoted in discussions about psychology, sociology, and statistics, demonstrating the enduring power of Tolstoy's insight.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Anna_Karenina",
+    "citationTitle": "Wikipedia: Anna Karenina"
+  },
+  {
+    "id": "51eb5197-b4fb-4f3f-9279-df4da26ccc29",
+    "text": "'All children, except one, grow up' opens which beloved children's classic?",
+    "options": [
+      "Alice's Adventures in Wonderland",
+      "Peter Pan",
+      "The Secret Garden",
+      "Charlie and the Chocolate Factory"
+    ],
+    "correctIndex": 1,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "This poignant opening line belongs to J.M. Barrie's 'Peter Pan'.",
+    "detailedExplanation": "J.M. Barrie's 'Peter Pan' (first published as 'Peter and Wendy' in 1911) opens with this bittersweet line that immediately introduces the story's central theme of childhood versus adulthood. The 'except one' refers to Peter Pan himself, the boy who never grows up. This opening perfectly captures the novel's exploration of the joy and innocence of childhood contrasted with the inevitable passage into adulthood, setting up the fantasy world of Neverland as an escape from this reality.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Peter_and_Wendy",
+    "citationTitle": "Wikipedia: Peter and Wendy"
+  },
+  {
+    "id": "e1fcdf93-4337-4020-98ef-55007ede6f06",
+    "text": "Which Harper Lee novel opens with 'When I was almost six years old, I heard Mommy and Daddy whispering'?",
+    "options": [
+      "To Kill a Mockingbird",
+      "Go Set a Watchman",
+      "The Glass Castle",
+      "Little Women"
+    ],
+    "correctIndex": 1,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "Go Set a Watchman opens with this line, Harper Lee's controversial sequel/prequel to To Kill a Mockingbird.",
+    "detailedExplanation": "Go Set a Watchman, published in 2015, was Harper Lee's second published novel and opens with the narrator reflecting on childhood memories. The novel was marketed as a sequel to To Kill a Mockingbird but was actually an earlier draft that Lee had written before her famous first novel. The opening line establishes the retrospective narrative voice that characterizes much of the story.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Go_Set_a_Watchman",
+    "citationTitle": "Wikipedia: Go Set a Watchman"
+  },
+  {
+    "id": "3e364b62-a64d-42ee-8ad9-2fbef5bc3956",
+    "text": "'Many years later, as he faced the firing squad, Colonel Aureliano Buendía was to remember that distant afternoon when his father took him to discover ice' opens which magical realism masterpiece?",
+    "options": [
+      "Love in the Time of Cholera",
+      "One Hundred Years of Solitude",
+      "The House of the Spirits",
+      "Like Water for Chocolate"
+    ],
+    "correctIndex": 1,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "This iconic opening line belongs to Gabriel García Márquez's One Hundred Years of Solitude.",
+    "detailedExplanation": "Gabriel García Márquez's One Hundred Years of Solitude opens with this famous line that immediately establishes the novel's circular narrative structure and magical realism elements. The line jumps between past, present, and future, setting up the multi-generational saga of the Buendía family in the fictional town of Macondo. This opening is considered one of the greatest in literature for how it encapsulates the entire novel's themes and style in a single sentence.",
+    "citationUrl": "https://en.wikipedia.org/wiki/One_Hundred_Years_of_Solitude",
+    "citationTitle": "Wikipedia: One Hundred Years of Solitude"
+  },
+  {
+    "id": "65457e43-6c62-49d6-9f5a-18af828d00d2",
+    "text": "'Mr. and Mrs. Dursley of number four, Privet Drive, were proud to say that they were perfectly normal, thank you very much' opens which bestselling series?",
+    "options": [
+      "The Chronicles of Narnia",
+      "Harry Potter",
+      "Percy Jackson",
+      "The Hunger Games"
+    ],
+    "correctIndex": 1,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "This is the opening line of Harry Potter and the Philosopher's Stone (Sorcerer's Stone in the US) by J.K. Rowling.",
+    "detailedExplanation": "J.K. Rowling's Harry Potter and the Philosopher's Stone begins with this deceptively mundane introduction to the Dursley family, Harry's muggle relatives. The line's emphasis on being 'perfectly normal' immediately creates irony, as readers soon discover that the Dursleys are desperately trying to hide their connection to the magical world through Harry. This opening establishes the contrast between the ordinary suburban world and the magical realm that becomes central to the entire series.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Harry_Potter_and_the_Philosopher%27s_Stone",
+    "citationTitle": "Wikipedia: Harry Potter and the Philosopher's Stone"
+  },
+  {
+    "id": "2c50926f-48a0-49b7-ab71-407628e12fbf",
+    "text": "'It is a truth universally acknowledged that a zombie in possession of brains must be in want of more brains' parodies which classic novel's opening?",
+    "options": [
+      "Jane Eyre",
+      "Wuthering Heights",
+      "Pride and Prejudice",
+      "Sense and Sensibility"
+    ],
+    "correctIndex": 2,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "This is from Pride and Prejudice and Zombies, parodying Jane Austen's Pride and Prejudice opening line.",
+    "detailedExplanation": "Seth Grahame-Smith's Pride and Prejudice and Zombies (2009) cleverly parodies Jane Austen's famous opening line from Pride and Prejudice. The original reads 'It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in want of a wife.' This mashup novel combines Austen's social commentary with zombie horror, maintaining the structure and style of the original while adding undead elements throughout the familiar story.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Pride_and_Prejudice_and_Zombies",
+    "citationTitle": "Wikipedia: Pride and Prejudice and Zombies"
+  },
+  {
+    "id": "a9067f81-e0ce-46a0-8b92-b43b20b6a79e",
+    "text": "'Mother died today' is the famously blunt opening line of which existentialist novel?",
+    "options": [
+      "The Stranger",
+      "Nausea",
+      "Being and Time",
+      "The Plague"
+    ],
+    "correctIndex": 0,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "This is the opening line of The Stranger (L'Étranger) by Albert Camus.",
+    "detailedExplanation": "Albert Camus' The Stranger opens with this stark, emotionally detached statement that immediately establishes the narrator Meursault's indifferent worldview. The original French 'Maman est morte aujourd'hui' is even more abrupt. This opening line perfectly encapsulates the existentialist themes of the novel, showing the protagonist's alienation from conventional emotional responses and social expectations, which becomes central to the story's exploration of meaninglessness and absurdity.",
+    "citationUrl": "https://en.wikipedia.org/wiki/The_Stranger_(Camus_novel)",
+    "citationTitle": "Wikipedia: The Stranger"
+  },
+  {
+    "id": "0b3c6ec4-5f34-41ea-b0bb-e8901e07929c",
+    "text": "'Where's Papa going with that ax?' opens which beloved children's novel about a pig?",
+    "options": [
+      "Babe",
+      "Charlotte's Web",
+      "The Three Little Pigs",
+      "Wilbur's Adventure"
+    ],
+    "correctIndex": 1,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "This is the opening line of Charlotte's Web by E.B. White.",
+    "detailedExplanation": "E.B. White's Charlotte's Web begins with eight-year-old Fern asking this question when she sees her father heading to kill the runt pig, Wilbur. This opening line immediately establishes the story's central conflict and introduces the theme of life and death that runs throughout the novel. Fern's intervention saves Wilbur, setting up the entire story about friendship, sacrifice, and the cycle of life that unfolds between Wilbur and the spider Charlotte.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Charlotte%27s_Web",
+    "citationTitle": "Wikipedia: Charlotte's Web"
+  },
+  {
+    "id": "2eae7174-bcb6-4999-a5e5-57580d712d1f",
+    "text": "'If you really want to hear about it, the first thing you'll probably want to know is where I was born' opens which controversial coming-of-age novel?",
+    "options": [
+      "The Catcher in the Rye",
+      "Franny and Zooey",
+      "A Separate Peace",
+      "Lord of the Flies"
+    ],
+    "correctIndex": 0,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "This is the opening line of The Catcher in the Rye by J.D. Salinger.",
+    "detailedExplanation": "J.D. Salinger's The Catcher in the Rye opens with this casual, conversational line spoken by the teenage narrator Holden Caulfield. The line immediately establishes Holden's distinctive voice and his reluctance to tell a conventional story, reflecting his rebellion against social expectations. This opening sets the tone for the entire novel's stream-of-consciousness narrative style and Holden's cynical, yet vulnerable perspective on the adult world he's about to enter.",
+    "citationUrl": "https://en.wikipedia.org/wiki/The_Catcher_in_the_Rye",
+    "citationTitle": "Wikipedia: The Catcher in the Rye"
+  },
+  {
+    "id": "d2d3aa2f-73d6-4d4e-800d-25716a8e7ae5",
+    "text": "'When he was nearly forty years old, and in response to a letter from his twenty-three-year-old son' begins which Toni Morrison novel?",
+    "options": [
+      "Beloved",
+      "Song of Solomon",
+      "The Bluest Eye",
+      "Jazz"
+    ],
+    "correctIndex": 1,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "This is the opening line of Song of Solomon by Toni Morrison.",
+    "detailedExplanation": "Toni Morrison's Song of Solomon opens with this line introducing the complex family dynamics that drive the novel. The story follows Milkman Dead's journey of self-discovery as he learns about his family history and African American heritage. Morrison's opening immediately establishes the intergenerational relationships and the theme of family legacy that permeate the novel, while also hinting at the communication between father and son that will be crucial to the protagonist's development throughout the story.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Song_of_Solomon_(novel)",
+    "citationTitle": "Wikipedia: Song of Solomon"
+  },
+  {
+    "id": "43bc162e-3183-4bde-8aa1-af89d1142407",
+    "text": "Which Charles Dickens novel opens with 'Whether I shall turn out to be the hero of my own life, or whether that station will be held by another, must be seen'?",
+    "options": [
+      "David Copperfield",
+      "Great Expectations",
+      "Oliver Twist",
+      "Nicholas Nickleby"
+    ],
+    "correctIndex": 0,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "David Copperfield opens with this reflective line about the narrator's uncertain heroic status.",
+    "detailedExplanation": "Charles Dickens' 1850 novel 'David Copperfield' begins with this introspective opening line that sets the tone for the entire autobiographical narrative. The protagonist reflects on whether he will be the hero of his own story, immediately establishing the novel's themes of self-determination and personal agency. This opening is considered one of literature's most memorable beginnings because it directly addresses the reader and poses a universal question about one's role in their own life story.",
+    "citationUrl": "https://en.wikipedia.org/wiki/David_Copperfield",
+    "citationTitle": "Wikipedia: David Copperfield"
+  },
+  {
+    "id": "e8db5a11-0a2c-4bcf-9a04-e34b522a4998",
+    "text": "Which Ray Bradbury novel begins with the line 'It was a pleasure to burn'?",
+    "options": [
+      "The Martian Chronicles",
+      "Something Wicked This Way Comes",
+      "Fahrenheit 451",
+      "Dandelion Wine"
+    ],
+    "correctIndex": 2,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "Fahrenheit 451 opens with this chilling line about the protagonist's job burning books.",
+    "detailedExplanation": "Ray Bradbury's dystopian masterpiece 'Fahrenheit 451' (1953) opens with the unsettling line 'It was a pleasure to burn,' immediately introducing readers to protagonist Guy Montag's role as a fireman who burns books rather than extinguishing fires. This opening line is particularly powerful because it presents book burning as pleasurable, establishing the oppressive society's twisted values from the very first sentence. The line perfectly encapsulates the novel's central conflict between censorship and intellectual freedom.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Fahrenheit_451",
+    "citationTitle": "Wikipedia: Fahrenheit 451"
+  },
+  {
+    "id": "c986e584-90d2-44db-bc6a-5fa9505749d3",
+    "text": "Which Shakespeare play opens with the line 'When shall we three meet again? In thunder, lightning, or in rain?'",
+    "options": [
+      "Hamlet",
+      "Macbeth",
+      "King Lear",
+      "Othello"
+    ],
+    "correctIndex": 1,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "Macbeth opens with the three witches speaking these atmospheric lines.",
+    "detailedExplanation": "Shakespeare's tragedy 'Macbeth' begins with this haunting question posed by the three witches, immediately establishing the play's supernatural and ominous atmosphere. These opening lines set the tone for the entire drama, introducing themes of fate, prophecy, and the unnatural that will dominate the play. The witches' discussion of when to meet again in stormy weather creates an sense of foreboding that permeates the entire tragedy, making it one of the most memorable openings in all of Shakespeare's works.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Macbeth",
+    "citationTitle": "Wikipedia: Macbeth"
+  },
+  {
+    "id": "a2460350-c3de-4bbb-9c14-c404d3205144",
+    "text": "Which Lewis Carroll novel opens with 'Alice was beginning to get very tired of sitting by her sister on the bank'?",
+    "options": [
+      "Through the Looking-Glass",
+      "Alice's Adventures in Wonderland",
+      "The Hunting of the Snark",
+      "Sylvie and Bruno"
+    ],
+    "correctIndex": 1,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "Alice's Adventures in Wonderland begins with Alice feeling bored before falling down the rabbit hole.",
+    "detailedExplanation": "Lewis Carroll's classic 1865 children's novel 'Alice's Adventures in Wonderland' opens with this seemingly mundane line about Alice's boredom while sitting with her sister. This ordinary beginning makes the extraordinary adventure that follows even more striking by contrast. The line establishes Alice as a restless child seeking stimulation, which perfectly sets up her curiosity about the White Rabbit and her subsequent tumble into Wonderland. This opening demonstrates Carroll's skill in beginning with the everyday before plunging readers into fantasy.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Alice%27s_Adventures_in_Wonderland",
+    "citationTitle": "Wikipedia: Alice's Adventures in Wonderland"
+  }
+]

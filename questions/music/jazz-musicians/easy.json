@@ -1,0 +1,342 @@
+[
+  {
+    "id": "7fbaecaf-8af2-4a29-a825-aba93c44cbf0",
+    "text": "Which jazz musician is known as 'Satchmo' and was famous for his gravelly voice and trumpet playing?",
+    "options": [
+      "Louis Armstrong",
+      "Miles Davis",
+      "Dizzy Gillespie",
+      "Chet Baker"
+    ],
+    "correctIndex": 0,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "Louis Armstrong was nicknamed 'Satchmo' and was renowned for both his trumpet skills and distinctive singing voice.",
+    "detailedExplanation": "Louis Armstrong (1901-1971) earned the nickname 'Satchmo' (short for 'Satchel Mouth') due to his large mouth and distinctive gravelly singing voice. He was one of the most influential figures in jazz history, revolutionizing the art form with his virtuosic trumpet playing, innovative scat singing, and charismatic stage presence. Armstrong's contributions helped transform jazz from collective improvisation to a soloist's art form.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Louis_Armstrong",
+    "citationTitle": "Wikipedia: Louis Armstrong"
+  },
+  {
+    "id": "1be2bb3e-4988-4330-9809-ea5c080c48f7",
+    "text": "Which jazz pianist and composer wrote the standard 'Round Midnight'?",
+    "options": [
+      "Duke Ellington",
+      "Thelonious Monk",
+      "Bill Evans",
+      "Oscar Peterson"
+    ],
+    "correctIndex": 1,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "Thelonious Monk composed 'Round Midnight,' which became one of the most recorded jazz standards of all time.",
+    "detailedExplanation": "Thelonious Monk composed 'Round Midnight' in 1944, and it has since become one of the most frequently recorded jazz compositions in history. Monk was known for his unique, angular piano style and complex harmonic approach that initially puzzled critics but later established him as one of jazz's most important composers. His unconventional playing style and compositions like 'Round Midnight' helped define the bebop movement.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Thelonious_Monk",
+    "citationTitle": "Wikipedia: Thelonious Monk"
+  },
+  {
+    "id": "ac343aa4-a83e-40fe-9e93-c1de72a0e38c",
+    "text": "What instrument was Charlie Parker famous for playing?",
+    "options": [
+      "Trumpet",
+      "Piano",
+      "Alto Saxophone",
+      "Drums"
+    ],
+    "correctIndex": 2,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "Charlie Parker, nicknamed 'Bird,' was a legendary alto saxophone player and a key figure in the development of bebop.",
+    "detailedExplanation": "Charlie Parker (1920-1955), known as 'Bird,' was an alto saxophonist who revolutionized jazz through his role in developing bebop in the 1940s. His virtuosic technique, complex harmonic ideas, and lightning-fast improvisations set new standards for jazz musicianship. Parker's innovations in melody, rhythm, and harmony influenced countless musicians and helped establish bebop as a major jazz style.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Charlie_Parker",
+    "citationTitle": "Wikipedia: Charlie Parker"
+  },
+  {
+    "id": "da4a440f-364c-4acc-baee-1ee49789e9fe",
+    "text": "Which female jazz singer is known as the 'First Lady of Song'?",
+    "options": [
+      "Billie Holiday",
+      "Ella Fitzgerald",
+      "Sarah Vaughan",
+      "Nina Simone"
+    ],
+    "correctIndex": 1,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "Ella Fitzgerald earned the title 'First Lady of Song' for her pure tone, impeccable diction, and masterful scat singing.",
+    "detailedExplanation": "Ella Fitzgerald (1917-1996) was dubbed the 'First Lady of Song' due to her exceptional vocal abilities, including her pure tone, perfect pitch, and remarkable range. She was particularly famous for her scat singing and her 'Songbook' series, where she recorded comprehensive collections of works by major American songwriters. Her career spanned nearly six decades, during which she won 13 Grammy Awards and sold over 40 million albums.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Ella_Fitzgerald",
+    "citationTitle": "Wikipedia: Ella Fitzgerald"
+  },
+  {
+    "id": "d32c8297-324a-4899-9f26-2379046b4d98",
+    "text": "Which jazz trumpeter recorded the influential album 'Kind of Blue'?",
+    "options": [
+      "Clifford Brown",
+      "Miles Davis",
+      "Freddie Hubbard",
+      "Lee Morgan"
+    ],
+    "correctIndex": 1,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "Miles Davis recorded 'Kind of Blue' in 1959, which is often cited as one of the greatest jazz albums ever made.",
+    "detailedExplanation": "Miles Davis recorded 'Kind of Blue' in 1959, an album that is frequently cited as the greatest jazz album of all time and the best-selling jazz album in history. The album featured an all-star sextet including John Coltrane, Bill Evans, and Cannonball Adderley. 'Kind of Blue' showcased modal jazz, moving away from complex chord progressions to focus on musical modes, creating a more spacious and contemplative sound that influenced jazz for decades to come.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Kind_of_Blue",
+    "citationTitle": "Wikipedia: Kind of Blue"
+  },
+  {
+    "id": "c6ffa63d-8c7f-4c0d-b8bb-2c73a5935d54",
+    "text": "Which jazz composer is famous for writing 'Take Five'?",
+    "options": [
+      "Dave Brubeck",
+      "Paul Desmond",
+      "Oscar Peterson",
+      "Ahmad Jamal"
+    ],
+    "correctIndex": 1,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "Paul Desmond, the alto saxophonist in the Dave Brubeck Quartet, composed the famous jazz standard 'Take Five.'",
+    "detailedExplanation": "Paul Desmond composed 'Take Five' in 1959 as a member of the Dave Brubeck Quartet. The piece became famous for its unusual 5/4 time signature and became the first jazz instrumental to sell over a million copies. While often associated with Dave Brubeck due to the quartet's name, it was actually Desmond's composition. The song's accessibility and memorable melody helped introduce jazz to a broader audience and remains one of the most recognizable jazz pieces today.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Take_Five",
+    "citationTitle": "Wikipedia: Take Five"
+  },
+  {
+    "id": "b499bc18-fa25-4e80-afc1-a76f4f7b32f0",
+    "text": "Which jazz bassist is known for his work with the Bill Evans Trio and tragically died at age 25?",
+    "options": [
+      "Ron Carter",
+      "Scott LaFaro",
+      "Charlie Haden",
+      "Dave Holland"
+    ],
+    "correctIndex": 1,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "Scott LaFaro revolutionized jazz bass playing with the Bill Evans Trio before his death in a car accident at just 25 years old.",
+    "detailedExplanation": "Scott LaFaro (1936-1961) was a revolutionary bass player who transformed the role of bass in jazz through his work with the Bill Evans Trio. Instead of just keeping time and playing root notes, LaFaro developed a more melodic, interactive approach that made the bass an equal voice in the trio. His innovative techniques included higher register playing and complex counterpoint. Tragically, he died in a car accident at age 25, just days after recording the legendary 'Sunday at the Village Vanguard' sessions.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Scott_LaFaro",
+    "citationTitle": "Wikipedia: Scott LaFaro"
+  },
+  {
+    "id": "dc97dee0-f9c1-429f-b7ce-16bd53baef04",
+    "text": "Which jazz drummer is famous for his innovative bebop style and work with Charlie Parker?",
+    "options": [
+      "Gene Krupa",
+      "Max Roach",
+      "Buddy Rich",
+      "Art Blakey"
+    ],
+    "correctIndex": 1,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "Max Roach was a pioneering bebop drummer who frequently performed with Charlie Parker and helped define modern jazz drumming.",
+    "detailedExplanation": "Max Roach (1924-2007) was one of the most important drummers in jazz history and a key architect of bebop. He worked extensively with Charlie Parker and Dizzy Gillespie in the 1940s, helping to develop the complex, polyrhythmic drumming style that defined bebop. Roach moved beyond simple timekeeping to make drums a melodic and harmonic voice in jazz ensembles. He was also known for his social activism and later works that addressed civil rights issues.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Max_Roach",
+    "citationTitle": "Wikipedia: Max Roach"
+  },
+  {
+    "id": "48e9bf96-499d-4bea-ac07-55b75ea6b485",
+    "text": "Which jazz composer wrote the famous piece 'Caravan' and led the orchestra at the Cotton Club in Harlem?",
+    "options": [
+      "Duke Ellington",
+      "Count Basie",
+      "Glenn Miller",
+      "Benny Goodman"
+    ],
+    "correctIndex": 0,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "Duke Ellington composed 'Caravan' and was the longtime bandleader at Harlem's Cotton Club.",
+    "detailedExplanation": "Duke Ellington composed the jazz standard 'Caravan' in 1936 and was one of the most influential figures in jazz history. He led his orchestra at the famous Cotton Club in Harlem from 1927 to 1931, which helped establish his reputation and brought jazz to mainstream audiences through radio broadcasts.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Duke_Ellington",
+    "citationTitle": "Wikipedia: Duke Ellington"
+  },
+  {
+    "id": "2a108d52-5a07-40e5-b4aa-8359f6092713",
+    "text": "What type of jazz did Dizzy Gillespie help pioneer in the 1940s alongside Charlie Parker?",
+    "options": [
+      "Swing",
+      "Bebop",
+      "Cool Jazz",
+      "Fusion"
+    ],
+    "correctIndex": 1,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "Dizzy Gillespie was one of the key founders of bebop jazz in the 1940s.",
+    "detailedExplanation": "Dizzy Gillespie, along with Charlie Parker, was instrumental in developing bebop in the mid-1940s. This revolutionary style of jazz featured complex harmonies, rapid tempos, and virtuosic improvisation, marking a departure from the danceable swing music of the previous era.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Dizzy_Gillespie",
+    "citationTitle": "Wikipedia: Dizzy Gillespie"
+  },
+  {
+    "id": "b6b9b14f-052a-4302-a800-16a2fb9c659c",
+    "text": "Which jazz singer was known as 'Lady Day' and recorded the haunting song 'Strange Fruit'?",
+    "options": [
+      "Sarah Vaughan",
+      "Billie Holiday",
+      "Dinah Washington",
+      "Carmen McRae"
+    ],
+    "correctIndex": 1,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "Billie Holiday was nicknamed 'Lady Day' and famously recorded 'Strange Fruit' in 1939.",
+    "detailedExplanation": "Billie Holiday, nicknamed 'Lady Day,' was one of the most influential jazz vocalists of all time. Her 1939 recording of 'Strange Fruit,' a powerful protest song about lynching in the American South, became one of her most famous and controversial performances, highlighting social injustice through jazz.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Billie_Holiday",
+    "citationTitle": "Wikipedia: Billie Holiday"
+  },
+  {
+    "id": "302f5fdb-8ecb-4b90-bea4-709c49ba90a4",
+    "text": "Which jazz trombonist was known as 'Kid' and helped create the distinctive New Orleans jazz sound?",
+    "options": [
+      "Kid Ory",
+      "Tommy Dorsey",
+      "J.J. Johnson",
+      "Jack Teagarden"
+    ],
+    "correctIndex": 0,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "Kid Ory was a pioneering trombonist who helped develop the New Orleans jazz style.",
+    "detailedExplanation": "Edward 'Kid' Ory was a seminal figure in early jazz, playing trombone in the classic New Orleans style. He worked with jazz legends like Jelly Roll Morton and Louis Armstrong, and his 'tailgate' trombone style became a defining characteristic of traditional New Orleans jazz ensembles.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Kid_Ory",
+    "citationTitle": "Wikipedia: Kid Ory"
+  },
+  {
+    "id": "001089e2-1d9a-441a-9b8a-4ae795985952",
+    "text": "What was the nickname of jazz pianist Thomas 'Fats' Waller, who composed 'Ain't Misbehavin''?",
+    "options": [
+      "Slim",
+      "Fats",
+      "Tiny",
+      "Big"
+    ],
+    "correctIndex": 1,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "Thomas Waller was nicknamed 'Fats' and was famous for composing 'Ain't Misbehavin''.",
+    "detailedExplanation": "Thomas Wright Waller, known as 'Fats' Waller, was a influential jazz pianist, organist, and composer. He wrote many jazz standards including 'Ain't Misbehavin'' and 'Honeysuckle Rose.' His exuberant playing style and humorous personality made him one of the most entertaining performers of the swing era.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Fats_Waller",
+    "citationTitle": "Wikipedia: Fats Waller"
+  },
+  {
+    "id": "30180b41-a2a8-4fb3-9cb3-6812731f51eb",
+    "text": "Which jazz guitarist is considered one of the founding fathers of jazz guitar and played with the Quintet of the Hot Club of France?",
+    "options": [
+      "Wes Montgomery",
+      "Django Reinhardt",
+      "Charlie Christian",
+      "Kenny Burrell"
+    ],
+    "correctIndex": 1,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "Django Reinhardt was a pioneering jazz guitarist who played with the Quintet of the Hot Club of France.",
+    "detailedExplanation": "Django Reinhardt was a Belgian-born Romani-French jazz guitarist who revolutionized jazz guitar playing in the 1930s. Despite losing the use of two fingers in a fire, he developed a unique playing style and co-led the Quintet of the Hot Club of France with violinist Stéphane Grappelli, helping establish guitar as a lead instrument in jazz.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Django_Reinhardt",
+    "citationTitle": "Wikipedia: Django Reinhardt"
+  },
+  {
+    "id": "9abfbba8-7085-48d9-8b12-a0feeb4e4c35",
+    "text": "Which jazz vibraphonist was known as 'Bags' and recorded the album 'Bags Meets Wes' with guitarist Wes Montgomery?",
+    "options": [
+      "Lionel Hampton",
+      "Gary Burton",
+      "Milt Jackson",
+      "Red Norvo"
+    ],
+    "correctIndex": 2,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "Milt Jackson, nicknamed 'Bags,' was a famous vibraphonist who recorded with Wes Montgomery.",
+    "detailedExplanation": "Milt Jackson, known by his nickname 'Bags,' was one of the most influential jazz vibraphonists. He was a founding member of the Modern Jazz Quartet and recorded the acclaimed album 'Bags Meets Wes' with guitarist Wes Montgomery in 1961, showcasing the beautiful interplay between vibraphone and guitar in jazz.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Milt_Jackson",
+    "citationTitle": "Wikipedia: Milt Jackson"
+  },
+  {
+    "id": "b2cfaf37-4ef0-45fc-9d34-3b07688bf523",
+    "text": "Which jazz composer and bandleader was known as 'The Count' and had a famous orchestra based in Kansas City?",
+    "options": [
+      "Count Basie",
+      "Earl Hines",
+      "Cab Calloway",
+      "Fletcher Henderson"
+    ],
+    "correctIndex": 0,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "Count Basie was nicknamed 'The Count' and led a famous big band that originated in Kansas City.",
+    "detailedExplanation": "William 'Count' Basie was a jazz pianist and bandleader who developed his distinctive swing style while leading orchestras in Kansas City in the 1930s. His band became one of the most successful big bands in jazz history, known for their precise ensemble playing and the distinctive 'Basie sound' featuring a strong rhythm section.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Count_Basie",
+    "citationTitle": "Wikipedia: Count Basie"
+  },
+  {
+    "id": "794daecb-44a4-48d8-ab62-a6fb6657c9b1",
+    "text": "Which jazz clarinetist was known as the 'King of Swing' and led one of the most popular big bands of the 1930s?",
+    "options": [
+      "Benny Goodman",
+      "Artie Shaw",
+      "Woody Herman",
+      "Jimmy Dorsey"
+    ],
+    "correctIndex": 0,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "Benny Goodman was known as the 'King of Swing' and led a hugely popular big band.",
+    "detailedExplanation": "Benny Goodman earned the title 'King of Swing' through his clarinet virtuosity and his leadership of one of the most successful big bands of the swing era. His band's 1938 concert at Carnegie Hall is often considered one of the most important moments in jazz history, helping to legitimize jazz as serious music. Goodman was also notable for being one of the first white bandleaders to hire Black musicians, breaking racial barriers in the music industry.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Benny_Goodman",
+    "citationTitle": "Wikipedia: Benny Goodman"
+  },
+  {
+    "id": "81e3d828-6898-498b-88bc-d643458e8955",
+    "text": "Which jazz organ player was famous for his gospel-influenced style and recorded the hit album 'The Sermon!'?",
+    "options": [
+      "Jimmy Smith",
+      "Joey DeFrancesco",
+      "Larry Young",
+      "Richard 'Groove' Holmes"
+    ],
+    "correctIndex": 0,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "Jimmy Smith revolutionized the Hammond B-3 organ in jazz and recorded 'The Sermon!' in 1958.",
+    "detailedExplanation": "Jimmy Smith is widely credited with revolutionizing the use of the Hammond B-3 organ in jazz music. His 1958 album 'The Sermon!' became a classic of the soul jazz genre, featuring his signature blues and gospel-influenced style. Smith's innovative use of the organ's bass pedals and drawbars created a new sound that influenced countless musicians and helped establish the organ as a legitimate jazz instrument beyond its traditional role in church music.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Jimmy_Smith_(musician)",
+    "citationTitle": "Wikipedia: Jimmy Smith"
+  },
+  {
+    "id": "9a63408a-02af-4cc9-9901-5e32b5bb17d2",
+    "text": "What city is considered the birthplace of jazz music?",
+    "options": [
+      "New Orleans",
+      "Chicago",
+      "New York",
+      "Kansas City"
+    ],
+    "correctIndex": 0,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "New Orleans is widely recognized as the birthplace of jazz in the early 20th century.",
+    "detailedExplanation": "New Orleans is universally acknowledged as the birthplace of jazz music, emerging in the early 1900s from a unique cultural melting pot. The city's diverse musical influences including African rhythms, European harmonies, Caribbean beats, and American blues and spirituals combined to create this revolutionary new art form. The multicultural environment of New Orleans, with its mix of Creole, African American, and European communities, provided the perfect conditions for jazz to develop and flourish.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Origins_of_jazz",
+    "citationTitle": "Wikipedia: Origins of jazz"
+  },
+  {
+    "id": "29815e5b-51e1-488f-a69f-8f57e753798a",
+    "text": "Which jazz saxophonist was known for his distinctive bent horn and unique approach to harmony in the 1950s and 60s?",
+    "options": [
+      "Ornette Coleman",
+      "John Coltrane",
+      "Sonny Rollins",
+      "Dexter Gordon"
+    ],
+    "correctIndex": 0,
+    "category": "entertainment",
+    "difficulty": "easy",
+    "explanation": "Ornette Coleman played a white plastic alto saxophone and pioneered free jazz with his harmonic innovations.",
+    "detailedExplanation": "Ornette Coleman was a revolutionary figure in jazz who played a distinctive white plastic alto saxophone and later developed his own 'harmolodic' theory of music. His approach to improvisation broke away from traditional chord progressions, helping to pioneer the free jazz movement in the late 1950s and early 1960s. His 1959 album 'The Shape of Jazz to Come' was groundbreaking in its departure from conventional jazz harmony and structure, influencing generations of avant-garde musicians.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Ornette_Coleman",
+    "citationTitle": "Wikipedia: Ornette Coleman"
+  }
+]

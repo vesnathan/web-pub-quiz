@@ -1,25 +1,18 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { Progress, CircularProgress } from "@nextui-org/react";
+import { CircularProgress } from "@nextui-org/react";
 import type { Question } from "@quiz/shared";
 import { useGameStore } from "@/stores/gameStore";
 
 interface QuestionDisplayProps {
   question: Omit<Question, "correctIndex"> | null;
-  questionIndex: number;
-  totalQuestions: number;
 }
 
-export function QuestionDisplay({
-  question,
-  questionIndex,
-  totalQuestions,
-}: QuestionDisplayProps) {
+export function QuestionDisplay({ question }: QuestionDisplayProps) {
   const questionStartTime = useGameStore((state) => state.questionStartTime);
   const questionDuration = useGameStore((state) => state.questionDuration);
   const gamePhase = useGameStore((state) => state.gamePhase);
-  const isSetActive = useGameStore((state) => state.isSetActive);
 
   const [timeRemaining, setTimeRemaining] = useState<number>(0);
 
@@ -55,7 +48,6 @@ export function QuestionDisplay({
     );
   }
 
-  const progress = ((questionIndex + 1) / totalQuestions) * 100;
   const timerProgress =
     questionDuration > 0 ? (timeRemaining / questionDuration) * 100 : 0;
   const timerSeconds = Math.ceil(timeRemaining / 1000);
@@ -69,60 +61,50 @@ export function QuestionDisplay({
 
   return (
     <div>
-      {/* Progress and Timer */}
+      {/* Category and Timer */}
       <div className="flex items-center justify-between mb-4">
-        <div className="flex items-center gap-4">
-          {isSetActive && (
-            <span className="text-sm text-gray-400">
-              Question {questionIndex + 1} of {totalQuestions}
-            </span>
-          )}
-        </div>
+        <div className="flex items-center gap-4"></div>
         <div className="flex items-center gap-4">
           <span className="text-sm text-gray-400 capitalize">
             {question.category}
           </span>
-          {/* Question Timer */}
-          {gamePhase === "question" && timerSeconds > 0 && (
-            <div className="flex items-center gap-2">
-              <CircularProgress
-                value={timerProgress}
-                color={getTimerColor()}
-                size="sm"
-                aria-label="Time remaining"
-                classNames={{
-                  svg: "w-10 h-10",
-                  value: "text-xs font-bold",
-                }}
-                showValueLabel={false}
-              />
-              <span
-                className={`text-lg font-bold ${
-                  timerSeconds <= 2
-                    ? "text-red-400"
-                    : timerSeconds <= 4
-                      ? "text-yellow-400"
-                      : "text-primary-400"
-                }`}
-              >
-                {timerSeconds}s
-              </span>
-            </div>
-          )}
+          {/* Question Timer - always reserve space to prevent layout shift */}
+          <div className="flex items-center gap-2 min-w-[70px]">
+            {gamePhase === "question" && timerSeconds > 0 ? (
+              <>
+                <CircularProgress
+                  value={timerProgress}
+                  color={getTimerColor()}
+                  size="sm"
+                  aria-label="Time remaining"
+                  classNames={{
+                    svg: "w-10 h-10",
+                    value: "text-xs font-bold",
+                  }}
+                  showValueLabel={false}
+                />
+                <span
+                  className={`text-lg font-bold ${
+                    timerSeconds <= 2
+                      ? "text-red-400"
+                      : timerSeconds <= 4
+                        ? "text-yellow-400"
+                        : "text-primary-400"
+                  }`}
+                >
+                  {timerSeconds}s
+                </span>
+              </>
+            ) : (
+              /* Empty placeholder to maintain layout */
+              <div className="w-10 h-10" />
+            )}
+          </div>
         </div>
       </div>
-      {isSetActive && (
-        <Progress
-          value={progress}
-          color="primary"
-          size="sm"
-          className="mb-6"
-          aria-label="Question progress"
-        />
-      )}
 
       {/* Question */}
-      <div className="text-2xl font-semibold text-white text-center py-8">
+      <div className="text-sm md:text-2xl font-semibold text-white text-center py-3 md:py-8">
         {question.text}
       </div>
 

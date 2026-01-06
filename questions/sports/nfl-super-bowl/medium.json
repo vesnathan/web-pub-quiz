@@ -1,0 +1,342 @@
+[
+  {
+    "id": "7ac57547-51da-4a24-9d41-dc18a9b89f53",
+    "text": "Which NFL team has lost the most Super Bowl games without winning one?",
+    "options": [
+      "Buffalo Bills",
+      "Minnesota Vikings",
+      "Atlanta Falcons",
+      "Carolina Panthers"
+    ],
+    "correctIndex": 0,
+    "category": "sports",
+    "difficulty": "medium",
+    "explanation": "The Buffalo Bills have lost 4 Super Bowls (1991-1994) without winning any.",
+    "detailedExplanation": "The Buffalo Bills hold the unfortunate record of losing four consecutive Super Bowls from 1991 to 1994 (Super Bowls XXV, XXVI, XXVII, and XXVIII) without ever winning a championship. This remarkable streak of AFC dominance followed by NFC defeats made the Bills synonymous with Super Bowl heartbreak, though their four consecutive appearances remain an impressive feat that no other team has matched.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Buffalo_Bills",
+    "citationTitle": "Wikipedia: Buffalo Bills"
+  },
+  {
+    "id": "9db0637f-4d12-4c57-a44a-edefb7a39258",
+    "text": "What was unique about Super Bowl I compared to modern Super Bowls?",
+    "options": [
+      "It was played indoors",
+      "It wasn't sold out",
+      "It was played on artificial turf",
+      "It had no halftime show"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "medium",
+    "explanation": "Super Bowl I was the only Super Bowl not to sell out, with about 61,946 attendees in a 93,000+ capacity stadium.",
+    "detailedExplanation": "Super Bowl I, played on January 15, 1967, at the Los Angeles Memorial Coliseum, remains the only Super Bowl in history that failed to sell out. Despite tickets costing only $6-$12, approximately 61,946 fans attended the game in a stadium that could hold over 93,000 people. This was largely due to the game being broadcast locally in Los Angeles and the uncertainty about how popular this new championship game between the NFL and AFL would be.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Super_Bowl_I",
+    "citationTitle": "Wikipedia: Super Bowl I"
+  },
+  {
+    "id": "a80ab60e-8e0e-4be0-a652-1d56160a8772",
+    "text": "Which Super Bowl featured the largest point comeback in championship game history?",
+    "options": [
+      "Super Bowl XLIX",
+      "Super Bowl LI",
+      "Super Bowl XLII",
+      "Super Bowl XXXII"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "medium",
+    "explanation": "Super Bowl LI saw the Patriots overcome a 28-3 deficit to beat the Falcons 34-28 in overtime.",
+    "detailedExplanation": "Super Bowl LI on February 5, 2017, featured the largest comeback in Super Bowl history when the New England Patriots overcame a 28-3 deficit against the Atlanta Falcons to win 34-28 in overtime. The Patriots scored 31 unanswered points, with Tom Brady throwing for 466 yards and two touchdowns while leading one of the most dramatic comebacks in sports history. This was also the first Super Bowl to go to overtime.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Super_Bowl_LI",
+    "citationTitle": "Wikipedia: Super Bowl LI"
+  },
+  {
+    "id": "8c9d411b-3f22-4a0b-8f5a-c6259d586c71",
+    "text": "Which city has hosted the most Super Bowls?",
+    "options": [
+      "New Orleans",
+      "Miami",
+      "Phoenix",
+      "Los Angeles"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "medium",
+    "explanation": "Miami has hosted 11 Super Bowls, more than any other city.",
+    "detailedExplanation": "Miami leads all cities in Super Bowl hosting duties with 11 games, taking advantage of its warm weather, multiple venues (Orange Bowl, Joe Robbie Stadium/Hard Rock Stadium), and tourist infrastructure. New Orleans follows closely with 10 Super Bowls hosted in the Superdome. The NFL typically awards Super Bowls to cities with favorable weather conditions or domed stadiums, making Miami's subtropical climate and established entertainment districts ideal for the league's premier event.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Super_Bowl",
+    "citationTitle": "Wikipedia: Super Bowl"
+  },
+  {
+    "id": "e4b27bcb-163b-4ef7-8e38-f4ab300d9efb",
+    "text": "What is the record for most points scored by one team in a Super Bowl?",
+    "options": [
+      "52 points",
+      "55 points",
+      "49 points",
+      "48 points"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "medium",
+    "explanation": "The San Francisco 49ers scored 55 points in Super Bowl XXIX against the Chargers.",
+    "detailedExplanation": "The San Francisco 49ers set the Super Bowl record for most points scored by one team when they defeated the San Diego Chargers 55-10 in Super Bowl XXIX on January 29, 1995. Steve Young threw a Super Bowl-record six touchdown passes in the victory, while the 49ers' explosive offense dominated throughout the game. This performance also represents the largest margin of victory in Super Bowl history at 45 points.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Super_Bowl_XXIX",
+    "citationTitle": "Wikipedia: Super Bowl XXIX"
+  },
+  {
+    "id": "225aba33-44a2-4364-a5ab-8f6b782472ed",
+    "text": "Which Super Bowl halftime show caused the infamous 'wardrobe malfunction'?",
+    "options": [
+      "Super Bowl XXXVII",
+      "Super Bowl XXXVIII",
+      "Super Bowl XXXIX",
+      "Super Bowl XL"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "medium",
+    "explanation": "Super Bowl XXXVIII halftime show featured Janet Jackson and Justin Timberlake's wardrobe malfunction.",
+    "detailedExplanation": "Super Bowl XXXVIII's halftime show on February 1, 2004, became one of the most controversial moments in television history when Justin Timberlake exposed Janet Jackson's breast during their performance of 'Rock Your Body.' The incident, termed a 'wardrobe malfunction,' led to massive FCC fines, increased broadcast delays, and stricter content regulations. The controversy overshadowed the actual game between the Patriots and Panthers, which was decided by a last-minute field goal.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Super_Bowl_XXXVIII_halftime_show_controversy",
+    "citationTitle": "Wikipedia: Super Bowl XXXVIII halftime show controversy"
+  },
+  {
+    "id": "c6896a37-653f-4996-a942-6c31ee42d8df",
+    "text": "Which quarterback has thrown for the most yards in a single Super Bowl game?",
+    "options": [
+      "Tom Brady",
+      "Kurt Warner",
+      "Peyton Manning",
+      "Dan Marino"
+    ],
+    "correctIndex": 0,
+    "category": "sports",
+    "difficulty": "medium",
+    "explanation": "Tom Brady threw for 505 yards in Super Bowl LII, despite losing to the Eagles.",
+    "detailedExplanation": "Tom Brady holds the record for most passing yards in a Super Bowl with 505 yards in Super Bowl LII against the Philadelphia Eagles on February 4, 2018. Despite this outstanding individual performance and throwing for three touchdowns, Brady and the Patriots lost the game 41-33. The game was notable for its offensive fireworks, with both teams combining for over 1,100 total yards, making it one of the highest-scoring and most entertaining Super Bowls in history.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Super_Bowl_LII",
+    "citationTitle": "Wikipedia: Super Bowl LII"
+  },
+  {
+    "id": "dcda70c2-99de-43d7-aa82-923dd297997a",
+    "text": "In what year was the Super Bowl first played on a Sunday?",
+    "options": [
+      "1967",
+      "1971",
+      "1975",
+      "1977"
+    ],
+    "correctIndex": 2,
+    "category": "sports",
+    "difficulty": "medium",
+    "explanation": "Super Bowl IX in 1975 was the first Super Bowl played on a Sunday.",
+    "detailedExplanation": "Super Bowl IX, played on January 12, 1975, was the first Super Bowl held on a Sunday, establishing what would become the traditional 'Super Bowl Sunday.' The first four Super Bowls were played on Sundays, but the NFL experimented with different days in the early years. The Pittsburgh Steelers defeated the Minnesota Vikings 16-6 in this historic game played at Tulane Stadium in New Orleans, marking the Steelers' first Super Bowl victory in what would become their dynasty of the 1970s.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Super_Bowl_IX",
+    "citationTitle": "Wikipedia: Super Bowl IX"
+  },
+  {
+    "id": "27ad6e8b-d079-4e5c-895a-241bd7ecfa57",
+    "text": "Which Super Bowl was the first to go into overtime?",
+    "options": [
+      "Super Bowl XLIX",
+      "Super Bowl LI",
+      "Super Bowl LII",
+      "Super Bowl LIII"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "medium",
+    "explanation": "Super Bowl LI between the New England Patriots and Atlanta Falcons was the first Super Bowl to go into overtime.",
+    "detailedExplanation": "Super Bowl LI, played on February 5, 2017, made history as the first Super Bowl to require overtime. The New England Patriots completed the largest comeback in Super Bowl history, overcoming a 28-3 deficit to defeat the Atlanta Falcons 34-28 in overtime. Tom Brady threw a touchdown pass to James White in the extra period to secure the victory.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Super_Bowl_LI",
+    "citationTitle": "Wikipedia: Super Bowl LI"
+  },
+  {
+    "id": "6689b592-b02d-4416-bf6b-a4b656928a3e",
+    "text": "Which team has won the most Super Bowl titles?",
+    "options": [
+      "Dallas Cowboys",
+      "Pittsburgh Steelers",
+      "New England Patriots",
+      "San Francisco 49ers"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "medium",
+    "explanation": "The Pittsburgh Steelers have won the most Super Bowl titles with six victories.",
+    "detailedExplanation": "The Pittsburgh Steelers hold the record for most Super Bowl championships with six titles, won in 1974, 1975, 1978, 1979, 2005, and 2008. They are followed by the Dallas Cowboys and San Francisco 49ers with five titles each, and the New England Patriots with six titles as well, though the Steelers achieved this milestone first.",
+    "citationUrl": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
+    "citationTitle": "Wikipedia: List of Super Bowl champions"
+  },
+  {
+    "id": "883aca2b-d055-49fe-9475-6862fac6183c",
+    "text": "What is the official name for the Super Bowl trophy?",
+    "options": [
+      "Lombardi Trophy",
+      "Halas Trophy",
+      "Rozelle Trophy",
+      "Hunt Trophy"
+    ],
+    "correctIndex": 0,
+    "category": "sports",
+    "difficulty": "medium",
+    "explanation": "The Super Bowl trophy is officially called the Vince Lombardi Trophy, named after the legendary Green Bay Packers coach.",
+    "detailedExplanation": "The Vince Lombardi Trophy is awarded annually to the winner of the Super Bowl. It was named in honor of Vince Lombardi, the Green Bay Packers coach who won the first two Super Bowls. The trophy is made of sterling silver and stands 22 inches tall, weighing approximately seven pounds. It depicts a regulation-sized football in a kicking position on a three-sided stand.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Vince_Lombardi_Trophy",
+    "citationTitle": "Wikipedia: Vince Lombardi Trophy"
+  },
+  {
+    "id": "64d49d72-a285-409e-909b-d32cff5796fd",
+    "text": "Which Super Bowl featured the famous 'wide right' field goal miss?",
+    "options": [
+      "Super Bowl XXIV",
+      "Super Bowl XXV",
+      "Super Bowl XXVI",
+      "Super Bowl XXVII"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "medium",
+    "explanation": "Super Bowl XXV featured Scott Norwood's famous 'wide right' field goal attempt that would have won the game for Buffalo.",
+    "detailedExplanation": "In Super Bowl XXV played on January 27, 1991, Buffalo Bills kicker Scott Norwood missed a 47-yard field goal attempt in the final seconds that would have given the Bills a 21-20 victory over the New York Giants. The kick sailed wide right, and the phrase 'wide right' became synonymous with this heartbreaking moment in Bills history. This was the closest Super Bowl margin until Super Bowl XXXVI.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Super_Bowl_XXV",
+    "citationTitle": "Wikipedia: Super Bowl XXV"
+  },
+  {
+    "id": "61d12189-be15-4cc8-afa3-d1d03453d33e",
+    "text": "Which was the first Super Bowl to be played in a domed stadium?",
+    "options": [
+      "Super Bowl IX",
+      "Super Bowl X",
+      "Super Bowl XI",
+      "Super Bowl XII"
+    ],
+    "correctIndex": 3,
+    "category": "sports",
+    "difficulty": "medium",
+    "explanation": "Super Bowl XII was the first Super Bowl played in a domed stadium, at the Louisiana Superdome in New Orleans.",
+    "detailedExplanation": "Super Bowl XII, played on January 15, 1978, was the first Super Bowl held in a domed stadium. The game took place at the Louisiana Superdome in New Orleans, where the Dallas Cowboys defeated the Denver Broncos 27-10. This marked a significant shift from the outdoor venues that had hosted the previous eleven Super Bowls, and the Superdome would go on to host multiple future Super Bowls.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Super_Bowl_XII",
+    "citationTitle": "Wikipedia: Super Bowl XII"
+  },
+  {
+    "id": "86bf2f28-7e3a-493c-adf8-f4eaba9b6fee",
+    "text": "Which Super Bowl had the lowest television viewership in the 21st century?",
+    "options": [
+      "Super Bowl XLII",
+      "Super Bowl XLVI",
+      "Super Bowl LIII",
+      "Super Bowl LV"
+    ],
+    "correctIndex": 2,
+    "category": "sports",
+    "difficulty": "medium",
+    "explanation": "Super Bowl LIII between the Patriots and Rams had the lowest viewership of any Super Bowl since 2009.",
+    "detailedExplanation": "Super Bowl LIII, played on February 3, 2019, between the New England Patriots and Los Angeles Rams, drew approximately 98.2 million viewers, making it the least-watched Super Bowl since 2009. The low-scoring defensive battle (Patriots won 13-3) and lack of offensive excitement likely contributed to the decreased viewership compared to more high-scoring, dramatic Super Bowls in recent years.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Super_Bowl_LIII",
+    "citationTitle": "Wikipedia: Super Bowl LIII"
+  },
+  {
+    "id": "cb9e3364-4eb3-4199-97dc-3f32a86a0dbc",
+    "text": "Which team was the first wild card team to win a Super Bowl?",
+    "options": [
+      "Oakland Raiders",
+      "Denver Broncos",
+      "Pittsburgh Steelers",
+      "Baltimore Ravens"
+    ],
+    "correctIndex": 0,
+    "category": "sports",
+    "difficulty": "medium",
+    "explanation": "The Oakland Raiders were the first wild card team to win a Super Bowl, winning Super Bowl XV in 1981.",
+    "detailedExplanation": "The Oakland Raiders became the first wild card team to win a Super Bowl when they defeated the Philadelphia Eagles 27-10 in Super Bowl XV on January 25, 1981. The Raiders entered the playoffs as a wild card team after finishing 11-5 in the regular season. They defeated the Houston Oilers, Cleveland Browns, and San Diego Chargers in the playoffs before capturing their second Super Bowl title.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Super_Bowl_XV",
+    "citationTitle": "Wikipedia: Super Bowl XV"
+  },
+  {
+    "id": "de7ec032-711a-483f-ae3d-409ffd8f493e",
+    "text": "Which Super Bowl is famous for having a power outage that delayed the game for 34 minutes?",
+    "options": [
+      "Super Bowl XLVI",
+      "Super Bowl XLVII",
+      "Super Bowl XLVIII",
+      "Super Bowl XLIX"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "medium",
+    "explanation": "Super Bowl XLVII between the Ravens and 49ers had a partial power outage in the third quarter.",
+    "detailedExplanation": "Super Bowl XLVII, played on February 3, 2013, between the Baltimore Ravens and San Francisco 49ers at the Mercedes-Benz Superdome in New Orleans, experienced a partial power outage early in the third quarter. The outage lasted 34 minutes and caused half of the stadium's lights to go out, leading to a significant delay in play. The incident became known as the 'blackout bowl' and occurred when the Ravens were leading 28-6, though the 49ers mounted a comeback after play resumed.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Super_Bowl_XLVII",
+    "citationTitle": "Wikipedia: Super Bowl XLVII"
+  },
+  {
+    "id": "1c28e613-74fd-43b9-8ff7-45db7dd6af8d",
+    "text": "What is the most expensive Super Bowl commercial ever sold, reaching over $7 million for a 30-second spot?",
+    "options": [
+      "Super Bowl LV (2021)",
+      "Super Bowl LVI (2022)",
+      "Super Bowl LVII (2023)",
+      "Super Bowl LVIII (2024)"
+    ],
+    "correctIndex": 2,
+    "category": "sports",
+    "difficulty": "medium",
+    "explanation": "Super Bowl LVII in 2023 set the record with 30-second commercial spots selling for over $7 million.",
+    "detailedExplanation": "Super Bowl LVII, played in February 2023 between the Kansas City Chiefs and Philadelphia Eagles, broke advertising records with 30-second commercial spots selling for over $7 million, making it the most expensive Super Bowl for advertisers in history. This represented a significant increase from previous years and reflected the game's massive viewership and cultural impact. The high prices are justified by the Super Bowl's unique ability to reach over 100 million viewers simultaneously, making it one of the few remaining mass media events.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Super_Bowl_commercials",
+    "citationTitle": "Wikipedia: Super Bowl commercials"
+  },
+  {
+    "id": "8326b05a-562f-4ade-bdd2-fec6711f27fa",
+    "text": "Which Super Bowl featured the famous 'Philly Special' trick play where the quarterback caught a touchdown pass?",
+    "options": [
+      "Super Bowl LI",
+      "Super Bowl LII",
+      "Super Bowl LIII",
+      "Super Bowl LIV"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "medium",
+    "explanation": "Super Bowl LII saw Eagles QB Nick Foles catch a touchdown pass on the 'Philly Special' play.",
+    "detailedExplanation": "In Super Bowl LII on February 4, 2018, the Philadelphia Eagles executed the famous 'Philly Special' trick play against the New England Patriots. With 38 seconds left in the first half, Eagles quarterback Nick Foles lined up in shotgun formation, then moved to the right side as a receiver while running back Corey Clement took the direct snap and pitched it to tight end Trey Burton, who then threw a touchdown pass to Foles. This bold play call on 4th-and-1 became one of the most memorable moments in Super Bowl history and helped the Eagles win their first Super Bowl championship.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Super_Bowl_LII",
+    "citationTitle": "Wikipedia: Super Bowl LII"
+  },
+  {
+    "id": "a4568c33-ded0-4af0-b3d0-2409d9fa6772",
+    "text": "Which NFL player holds the record for most Super Bowl wins by an individual player?",
+    "options": [
+      "Joe Montana (4)",
+      "Terry Bradshaw (4)",
+      "Tom Brady (7)",
+      "Charles Haley (5)"
+    ],
+    "correctIndex": 2,
+    "category": "sports",
+    "difficulty": "medium",
+    "explanation": "Tom Brady won 7 Super Bowls, more than any other individual player in NFL history.",
+    "detailedExplanation": "Tom Brady holds the record for most Super Bowl victories by any individual player with seven championships. He won six Super Bowls with the New England Patriots (2001, 2003, 2004, 2014, 2016, 2018) and one with the Tampa Bay Buccaneers (2020). This surpasses the previous record of five championships held by Charles Haley, who won two with the San Francisco 49ers and three with the Dallas Cowboys. Brady's seven Super Bowl wins are more than any NFL franchise has achieved, making his individual accomplishment truly remarkable in professional sports history.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Tom_Brady",
+    "citationTitle": "Wikipedia: Tom Brady"
+  },
+  {
+    "id": "5ae5d617-b918-40a8-b1a1-79effdd3f590",
+    "text": "Which was the first Super Bowl to be played outside of the United States?",
+    "options": [
+      "No Super Bowl has been played outside the US",
+      "Super Bowl XXX in Mexico",
+      "Super Bowl XL in Canada",
+      "Super Bowl L in London"
+    ],
+    "correctIndex": 0,
+    "category": "sports",
+    "difficulty": "medium",
+    "explanation": "All Super Bowls have been played in the United States, though international games occur during regular season.",
+    "detailedExplanation": "Every Super Bowl in NFL history has been played within the United States, typically in warm-weather cities or domed stadiums. While the NFL has expanded internationally with regular season games played in London, Mexico City, and Germany, the Super Bowl remains exclusively a domestic event. The NFL has shown no serious intention of moving its championship game overseas, as it represents the pinnacle of American football and generates enormous domestic television revenue and tourism for host cities. The game's American identity and the logistical complexities of hosting such a massive event internationally have kept the Super Bowl firmly planted on U.S. soil.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Super_Bowl",
+    "citationTitle": "Wikipedia: Super Bowl"
+  }
+]

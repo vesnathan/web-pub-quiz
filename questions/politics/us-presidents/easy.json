@@ -1,0 +1,342 @@
+[
+  {
+    "id": "bfad5e33-ee90-479d-b7bd-1ab7e8fcf3e9",
+    "text": "Which US President appears on the $20 bill?",
+    "options": [
+      "Thomas Jefferson",
+      "Andrew Jackson",
+      "Benjamin Franklin",
+      "Alexander Hamilton"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Andrew Jackson appears on the $20 bill.",
+    "detailedExplanation": "Andrew Jackson, the 7th President of the United States, has appeared on the $20 bill since 1928. Jackson served as president from 1829 to 1837 and was known for his populist policies and strong executive leadership. There have been ongoing discussions about replacing Jackson on the $20 bill with Harriet Tubman, though Jackson remains on the current design.",
+    "citationUrl": "https://en.wikipedia.org/wiki/United_States_twenty-dollar_bill",
+    "citationTitle": "Wikipedia: United States twenty-dollar bill"
+  },
+  {
+    "id": "ade405c9-c0cd-4ef8-bcef-246bae51b523",
+    "text": "Who was the youngest elected US President?",
+    "options": [
+      "Theodore Roosevelt",
+      "Bill Clinton",
+      "Barack Obama",
+      "John F. Kennedy"
+    ],
+    "correctIndex": 3,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "John F. Kennedy was the youngest elected president at age 43.",
+    "detailedExplanation": "John F. Kennedy was elected president at age 43 and inaugurated at age 43 in 1961, making him the youngest person ever elected to the presidency. While Theodore Roosevelt was younger when he became president (age 42), he assumed the office through succession after McKinley's assassination rather than through election. Kennedy's youth and charisma were significant factors in his political appeal during the 1960 campaign.",
+    "citationUrl": "https://en.wikipedia.org/wiki/John_F._Kennedy",
+    "citationTitle": "Wikipedia: John F. Kennedy"
+  },
+  {
+    "id": "2315c0eb-47f8-4725-b78f-170ca476588b",
+    "text": "Which president served the shortest term in office?",
+    "options": [
+      "William Henry Harrison",
+      "James A. Garfield",
+      "Warren G. Harding",
+      "Zachary Taylor"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "William Henry Harrison served only 31 days before dying of pneumonia.",
+    "detailedExplanation": "William Henry Harrison, the 9th President, served the shortest term of any US President at just 31 days in 1841. He died of pneumonia on April 4, 1841, shortly after delivering the longest inaugural address in presidential history during harsh weather conditions. His brief presidency established important precedents for presidential succession when John Tyler assumed the full powers of the presidency.",
+    "citationUrl": "https://en.wikipedia.org/wiki/William_Henry_Harrison",
+    "citationTitle": "Wikipedia: William Henry Harrison"
+  },
+  {
+    "id": "0ae33431-bb7b-476c-a612-d0d056e99b32",
+    "text": "How many US Presidents have been impeached by the House of Representatives?",
+    "options": [
+      "One",
+      "Two",
+      "Three",
+      "Four"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Three presidents have been impeached: Andrew Johnson, Bill Clinton, and Donald Trump.",
+    "detailedExplanation": "Three US Presidents have been impeached by the House of Representatives: Andrew Johnson in 1868, Bill Clinton in 1998, and Donald Trump in 2019 (and again in 2021). Impeachment by the House is essentially a formal accusation of wrongdoing. However, none of these presidents were removed from office, as removal requires conviction by a two-thirds majority in the Senate, which has never occurred in US history.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Impeachment_in_the_United_States",
+    "citationTitle": "Wikipedia: Impeachment in the United States"
+  },
+  {
+    "id": "c28bde18-fcef-4b85-9b82-5d4be7317fac",
+    "text": "Which president founded the University of Virginia?",
+    "options": [
+      "George Washington",
+      "John Adams",
+      "Thomas Jefferson",
+      "James Madison"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Thomas Jefferson founded the University of Virginia in 1819.",
+    "detailedExplanation": "Thomas Jefferson founded the University of Virginia in Charlottesville in 1819, considering it one of his three greatest accomplishments along with writing the Declaration of Independence and the Virginia Statute for Religious Freedom. Jefferson designed the campus architecture, selected the faculty, and created the curriculum. He believed strongly in public education and wanted to establish a secular university that would educate future leaders in democratic principles.",
+    "citationUrl": "https://en.wikipedia.org/wiki/University_of_Virginia",
+    "citationTitle": "Wikipedia: University of Virginia"
+  },
+  {
+    "id": "17a1d6d0-ad1f-450e-9c89-2a66310c5d00",
+    "text": "Which president was never elected as either President or Vice President?",
+    "options": [
+      "Lyndon Johnson",
+      "Gerald Ford",
+      "Harry Truman",
+      "Calvin Coolidge"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Gerald Ford was appointed Vice President and became President through succession.",
+    "detailedExplanation": "Gerald Ford is the only person to serve as President without being elected to either the presidency or vice presidency. He was appointed Vice President in 1973 under the 25th Amendment after Spiro Agnew resigned, then became President in 1974 when Richard Nixon resigned. Ford served as President from 1974 to 1977 but lost the 1976 election to Jimmy Carter, making him unique in presidential history for his path to the office.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Gerald_Ford",
+    "citationTitle": "Wikipedia: Gerald Ford"
+  },
+  {
+    "id": "65484d82-7141-40f4-a848-ba8b7b570c4a",
+    "text": "Who was the first President to live in the White House?",
+    "options": [
+      "George Washington",
+      "John Adams",
+      "Thomas Jefferson",
+      "James Madison"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "John Adams was the first president to live in the White House in 1800.",
+    "detailedExplanation": "John Adams was the first president to live in the White House, moving in during November 1800 while the building was still under construction. George Washington had overseen the planning and construction of the presidential mansion but never got to live there, as it wasn't completed during his presidency. Adams and his wife Abigail lived in the unfinished residence during the final months of his presidency, with Abigail famously hanging laundry in the East Room.",
+    "citationUrl": "https://en.wikipedia.org/wiki/White_House",
+    "citationTitle": "Wikipedia: White House"
+  },
+  {
+    "id": "48436197-dec0-4156-8a59-323aa4f7697f",
+    "text": "Which president purchased Louisiana from France?",
+    "options": [
+      "John Adams",
+      "Thomas Jefferson",
+      "James Madison",
+      "James Monroe"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Thomas Jefferson completed the Louisiana Purchase in 1803.",
+    "detailedExplanation": "Thomas Jefferson completed the Louisiana Purchase in 1803, buying approximately 827,000 square miles of territory from France for $15 million. This deal doubled the size of the United States and included land that would eventually become 15 states. The purchase was controversial because Jefferson, a strict constructionist, worried about the constitutional authority to make such a acquisition, but he ultimately decided the benefits to the nation outweighed his constitutional concerns.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Louisiana_Purchase",
+    "citationTitle": "Wikipedia: Louisiana Purchase"
+  },
+  {
+    "id": "5eede4d0-dac8-40ef-a6dd-3b000e5672d2",
+    "text": "Which US President served four terms in office?",
+    "options": [
+      "Franklin D. Roosevelt",
+      "George Washington",
+      "Thomas Jefferson",
+      "Abraham Lincoln"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Franklin D. Roosevelt served four terms from 1933 to 1945.",
+    "detailedExplanation": "Franklin Delano Roosevelt is the only US President to have served more than two terms, winning four consecutive presidential elections in 1932, 1936, 1940, and 1944. He served from March 1933 until his death in April 1945. His unprecedented tenure led to the passage of the 22nd Amendment in 1951, which limits presidents to two terms.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Franklin_D._Roosevelt",
+    "citationTitle": "Wikipedia: Franklin D. Roosevelt"
+  },
+  {
+    "id": "a3d7ddef-7dd0-4908-9c94-25a4ed7db0bc",
+    "text": "Who was the first US President to be born in the 20th century?",
+    "options": [
+      "Harry S. Truman",
+      "Dwight D. Eisenhower",
+      "John F. Kennedy",
+      "Lyndon B. Johnson"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "John F. Kennedy was born on May 29, 1917, making him the first president born in the 1900s.",
+    "detailedExplanation": "John Fitzgerald Kennedy was born on May 29, 1917, in Brookline, Massachusetts, making him the first US President to be born in the 20th century. He served as the 35th President from January 1961 until his assassination in November 1963. Kennedy was also notable for being the youngest person elected to the presidency and the first Catholic president.",
+    "citationUrl": "https://en.wikipedia.org/wiki/John_F._Kennedy",
+    "citationTitle": "Wikipedia: John F. Kennedy"
+  },
+  {
+    "id": "7b887feb-8582-457b-8c51-8f60ed405b49",
+    "text": "Which US President was known as 'Old Hickory'?",
+    "options": [
+      "Andrew Jackson",
+      "Zachary Taylor",
+      "William Henry Harrison",
+      "Martin Van Buren"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Andrew Jackson earned the nickname 'Old Hickory' for his tough and uncompromising personality.",
+    "detailedExplanation": "Andrew Jackson, the 7th President of the United States (1829-1837), was nicknamed 'Old Hickory' due to his reputation for being as tough as old hickory wood. He earned this moniker during his military career, particularly for his stern discipline and leadership during the War of 1812. His soldiers gave him the nickname because they saw him as tough and resilient like hickory wood.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Andrew_Jackson",
+    "citationTitle": "Wikipedia: Andrew Jackson"
+  },
+  {
+    "id": "02d99daf-771a-4924-8282-5c4d88bc1d45",
+    "text": "How many US Presidents have died in office?",
+    "options": [
+      "6",
+      "8",
+      "10",
+      "4"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Eight US Presidents have died while serving in office.",
+    "detailedExplanation": "Eight US Presidents have died while in office: four from natural causes (William Henry Harrison, Zachary Taylor, Warren G. Harding, and Franklin D. Roosevelt) and four from assassination (Abraham Lincoln, James A. Garfield, William McKinley, and John F. Kennedy). This represents about 18% of all US Presidents, making the presidency a historically dangerous position.",
+    "citationUrl": "https://en.wikipedia.org/wiki/List_of_presidents_of_the_United_States_who_died_in_office",
+    "citationTitle": "Wikipedia: List of presidents of the United States who died in office"
+  },
+  {
+    "id": "5bbd2448-cad5-49b6-aad8-c9e35c0d5501",
+    "text": "Which US President appears on Mount Rushmore alongside Washington, Jefferson, and Roosevelt?",
+    "options": [
+      "Franklin D. Roosevelt",
+      "Andrew Jackson",
+      "Abraham Lincoln",
+      "James Madison"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Abraham Lincoln is the fourth president carved into Mount Rushmore.",
+    "detailedExplanation": "Mount Rushmore National Memorial in South Dakota features the carved faces of four US Presidents: George Washington, Thomas Jefferson, Theodore Roosevelt, and Abraham Lincoln. The monument was carved between 1927 and 1941 under the direction of sculptor Gutzon Borglum. Lincoln was chosen to represent the preservation of the nation during the Civil War.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Mount_Rushmore",
+    "citationTitle": "Wikipedia: Mount Rushmore"
+  },
+  {
+    "id": "d5f45907-1211-4829-89f8-82e6434042cd",
+    "text": "Which US President was a former Hollywood actor?",
+    "options": [
+      "Gerald Ford",
+      "Jimmy Carter",
+      "Ronald Reagan",
+      "George H.W. Bush"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Ronald Reagan had a successful acting career in Hollywood before entering politics.",
+    "detailedExplanation": "Ronald Reagan, the 40th President of the United States (1981-1989), had a successful career as a Hollywood actor before entering politics. He appeared in over 50 films during the 1930s, 1940s, and 1950s, and later hosted the television show 'Death Valley Days.' He transitioned to politics in the 1960s, serving as Governor of California before winning the presidency in 1980.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Ronald_Reagan",
+    "citationTitle": "Wikipedia: Ronald Reagan"
+  },
+  {
+    "id": "15a1ccd7-c76f-4024-ba78-24860d4d006a",
+    "text": "Who was the tallest US President in history?",
+    "options": [
+      "George Washington",
+      "Thomas Jefferson",
+      "Abraham Lincoln",
+      "Lyndon B. Johnson"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Abraham Lincoln stood 6 feet 4 inches tall, making him the tallest US President.",
+    "detailedExplanation": "Abraham Lincoln was the tallest US President in history, standing at 6 feet 4 inches (193 cm) tall. His height was quite remarkable for his era, when the average American man was significantly shorter than today. Lincoln's tall, lanky frame and distinctive appearance made him easily recognizable and contributed to his memorable presence as a political figure.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Abraham_Lincoln",
+    "citationTitle": "Wikipedia: Abraham Lincoln"
+  },
+  {
+    "id": "3483bcf8-a627-46ae-b543-0adbd3696858",
+    "text": "Which US President established the Peace Corps?",
+    "options": [
+      "Dwight D. Eisenhower",
+      "John F. Kennedy",
+      "Lyndon B. Johnson",
+      "Harry S. Truman"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "John F. Kennedy established the Peace Corps in 1961.",
+    "detailedExplanation": "President John F. Kennedy established the Peace Corps on March 1, 1961, by executive order. The program was designed to promote world peace and friendship by sending American volunteers to developing countries to assist with education, health, and economic development. Kennedy first proposed the idea during a campaign speech at the University of Michigan in 1960, and it became one of his signature domestic achievements.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Peace_Corps",
+    "citationTitle": "Wikipedia: Peace Corps"
+  },
+  {
+    "id": "7a54f31a-1702-45da-9a85-12d4b29fa0cc",
+    "text": "Which US President was the first to be photographed?",
+    "options": [
+      "John Quincy Adams",
+      "Andrew Jackson",
+      "Martin Van Buren",
+      "William Henry Harrison"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "John Quincy Adams was the first US President to be photographed, in 1843.",
+    "detailedExplanation": "John Quincy Adams, the sixth President of the United States, holds the distinction of being the first US President to be photographed. The daguerreotype was taken in 1843, well after his presidency ended in 1829. Photography was still in its infancy during the early presidencies, with the first successful photograph being created in the 1820s. This historic photograph of Adams represents an important intersection of technological advancement and presidential history.",
+    "citationUrl": "https://en.wikipedia.org/wiki/John_Quincy_Adams",
+    "citationTitle": "Wikipedia: John Quincy Adams"
+  },
+  {
+    "id": "f0f2a55c-8c73-439f-9788-4564a01d5ea4",
+    "text": "Which US President appears on the $1 bill?",
+    "options": [
+      "George Washington",
+      "Thomas Jefferson",
+      "Abraham Lincoln",
+      "Alexander Hamilton"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "George Washington, the first US President, appears on the $1 bill.",
+    "detailedExplanation": "George Washington has appeared on the $1 bill since 1869, though the current design featuring his portrait was established in 1963. As the first President of the United States and a founding father, Washington's placement on the most commonly circulated denomination reflects his fundamental importance to American history. The portrait is based on Gilbert Stuart's famous 1796 painting of Washington, making it one of the most recognizable images in American currency.",
+    "citationUrl": "https://en.wikipedia.org/wiki/United_States_one-dollar_bill",
+    "citationTitle": "Wikipedia: United States one-dollar bill"
+  },
+  {
+    "id": "134bb7ec-0021-4379-b159-845cafac48a8",
+    "text": "How many US Presidents have been assassinated?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Four US Presidents have been assassinated: Lincoln, Garfield, McKinley, and Kennedy.",
+    "detailedExplanation": "Four US Presidents have been assassinated throughout American history. Abraham Lincoln was shot by John Wilkes Booth in 1865, James A. Garfield was shot by Charles J. Guiteau in 1881, William McKinley was shot by Leon Czolgosz in 1901, and John F. Kennedy was shot by Lee Harvey Oswald in 1963. These tragic events led to significant changes in presidential security protocols and had profound impacts on American society and politics during their respective eras.",
+    "citationUrl": "https://en.wikipedia.org/wiki/List_of_United_States_presidential_assassination_attempts_and_plots",
+    "citationTitle": "Wikipedia: List of United States presidential assassination attempts and plots"
+  },
+  {
+    "id": "2aa34271-4f17-439f-8b7e-fa59bc4b6a01",
+    "text": "Which US President was known as 'Honest Abe'?",
+    "options": [
+      "Abraham Lincoln",
+      "Andrew Johnson",
+      "Ulysses S. Grant",
+      "James Buchanan"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Abraham Lincoln was nicknamed 'Honest Abe' for his reputation for integrity and truthfulness.",
+    "detailedExplanation": "Abraham Lincoln earned the nickname 'Honest Abe' during his early career as a lawyer and politician in Illinois, where he developed a reputation for fairness, integrity, and straightforward dealing with clients and colleagues. This nickname followed him throughout his political career and presidency. The moniker reflected not only his personal character but also became part of his political brand, helping to distinguish him as a trustworthy leader during one of the most turbulent periods in American history.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Abraham_Lincoln",
+    "citationTitle": "Wikipedia: Abraham Lincoln"
+  }
+]

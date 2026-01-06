@@ -1,0 +1,342 @@
+[
+  {
+    "id": "aa043c1b-7b44-4636-a76a-b409179bde08",
+    "text": "Which tech company founder famously lived in his office and showered at the YMCA during the early days of his startup?",
+    "options": [
+      "Elon Musk",
+      "Jack Dorsey",
+      "Marc Benioff",
+      "Drew Houston"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Marc Benioff lived in his office and showered at the YMCA while founding Salesforce.",
+    "detailedExplanation": "Marc Benioff, founder of Salesforce, famously lived in his office during the company's early days in 1999-2000. He would shower at the local YMCA and sleep on a futon in the office. This extreme dedication to his startup was part of his commitment to building what would become one of the world's largest cloud computing companies. Benioff has spoken openly about this period, describing it as a necessary sacrifice during Salesforce's bootstrap phase before they secured proper funding.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Marc_Benioff",
+    "citationTitle": "Wikipedia: Marc Benioff"
+  },
+  {
+    "id": "3fe4dedf-0b9b-4670-aa2b-7911c13d716c",
+    "text": "Before founding Netflix, Reed Hastings sold his first company Pure Software to which tech giant for $750 million?",
+    "options": [
+      "IBM",
+      "Rational Software",
+      "Microsoft",
+      "Oracle"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Reed Hastings sold Pure Software to Rational Software for $750 million in 1997.",
+    "detailedExplanation": "Reed Hastings founded Pure Software in 1991, which created debugging tools for software developers. The company went public in 1995 and was later acquired by Rational Software in 1997 for $750 million. This successful exit provided Hastings with the experience and capital that would later help him co-found Netflix with Marc Randolph. The lessons learned from managing Pure Software, particularly around company culture and avoiding rigid processes, heavily influenced how Hastings would later build Netflix's famous culture of freedom and responsibility.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Reed_Hastings",
+    "citationTitle": "Wikipedia: Reed Hastings"
+  },
+  {
+    "id": "48dd4e97-03ca-41a0-be8c-8ad911877cf3",
+    "text": "Which programming language did Brendan Eich create in just 10 days while working at Netscape in 1995?",
+    "options": [
+      "Java",
+      "JavaScript",
+      "Python",
+      "Ruby"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Brendan Eich created JavaScript in 10 days at Netscape in May 1995.",
+    "detailedExplanation": "Brendan Eich, who later co-founded Mozilla and created the Brave browser, developed JavaScript in just 10 days in May 1995 while working at Netscape Communications. Originally called 'Mocha,' then 'LiveScript,' it was finally renamed JavaScript as part of a marketing partnership with Sun Microsystems. Despite being created under intense time pressure, JavaScript became one of the most widely used programming languages in the world, powering web development for decades. Eich has often noted that while he's proud of JavaScript's success, he wishes he had more time to refine certain aspects of the language's design.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Brendan_Eich",
+    "citationTitle": "Wikipedia: Brendan Eich"
+  },
+  {
+    "id": "2873d391-5824-4d08-bc02-835be3df4370",
+    "text": "What was the original name of the company that Larry Ellison co-founded, which later became Oracle Corporation?",
+    "options": [
+      "Relational Software Inc.",
+      "Database Systems Inc.",
+      "SQL Technologies",
+      "Information Management Systems"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Oracle was originally founded as Relational Software Inc. in 1977.",
+    "detailedExplanation": "Larry Ellison co-founded the company that would become Oracle in June 1977 with Bob Miner and Ed Oates, originally naming it Software Development Laboratories (SDL). In 1979, they renamed it Relational Software Inc. (RSI), and finally in 1982, the company was renamed Oracle Systems Corporation after their flagship database product. The name 'Oracle' came from a CIA project that Ellison had worked on at his previous job at Ampex. The company was built around Ellison's vision of commercializing relational database technology, which was then primarily an academic concept developed by Edgar F. Codd at IBM.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Larry_Ellison",
+    "citationTitle": "Wikipedia: Larry Ellison"
+  },
+  {
+    "id": "66812299-b5ed-4f3c-9949-2ac49f4ea079",
+    "text": "Which university did Spotify founder Daniel Ek drop out of at age 18 to focus on his tech career?",
+    "options": [
+      "Stockholm University",
+      "KTH Royal Institute of Technology",
+      "Uppsala University",
+      "Lund University"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Daniel Ek dropped out of KTH Royal Institute of Technology to pursue his entrepreneurial career.",
+    "detailedExplanation": "Daniel Ek, co-founder and CEO of Spotify, dropped out of the KTH Royal Institute of Technology (Kungliga Tekniska högskolan) in Stockholm at age 18 to focus on his technology career. Before Spotify, Ek had already demonstrated his entrepreneurial abilities by creating websites and earning significant income as a teenager. His decision to leave one of Sweden's most prestigious technical universities was controversial but ultimately proved successful. Ek has often spoken about how traditional education didn't align with his learning style and entrepreneurial ambitions, preferring hands-on experience in building technology companies.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Daniel_Ek",
+    "citationTitle": "Wikipedia: Daniel Ek"
+  },
+  {
+    "id": "14460d06-c0aa-46e8-b122-543a163cd9e4",
+    "text": "Before founding Uber, Travis Kalanick's previous startup Scour was sued by which industry for copyright infringement?",
+    "options": [
+      "Software industry",
+      "Music industry",
+      "Film industry",
+      "Publishing industry"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Scour was sued by the music industry for $250 billion in copyright infringement claims.",
+    "detailedExplanation": "Travis Kalanick's first major startup, Scour, was a peer-to-peer file-sharing service that he co-founded while still a student at UCLA in 1998. The company faced massive legal challenges when the Recording Industry Association of America (RIAA) and Motion Picture Association of America (MPAA) sued Scour for $250 billion in copyright infringement damages. The lawsuit alleged that Scour facilitated illegal sharing of copyrighted music and movies. The legal pressure forced Scour into bankruptcy in 2000, but the experience taught Kalanick valuable lessons about navigating regulatory challenges and legal frameworks, skills he would later apply when building Uber and facing similar regulatory battles in the transportation industry.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Travis_Kalanick",
+    "citationTitle": "Wikipedia: Travis Kalanick"
+  },
+  {
+    "id": "41939c1e-b4ad-4691-83ae-f7638f3c43c7",
+    "text": "What was the name of the early social network that Kevin Systrom co-founded before creating Instagram?",
+    "options": [
+      "Burbn",
+      "Nextstop",
+      "Odeo",
+      "Friendster"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Kevin Systrom originally created Burbn, which later pivoted to become Instagram.",
+    "detailedExplanation": "Before Instagram became the photo-sharing giant we know today, Kevin Systrom initially created an app called Burbn, named after his love of whisky and bourbon. Burbn was a location-based check-in app that allowed users to check into locations, make plans with friends, earn points for hanging out, and post photos. However, Systrom and co-founder Mike Krieger realized that users were primarily using just the photo-sharing feature of Burbn. They made the strategic decision to strip away all other features and focus solely on photo sharing, which led to the creation of Instagram in 2010. The pivot from Burbn to Instagram demonstrates how successful startups often evolve from their original concepts based on user behavior and feedback.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Kevin_Systrom",
+    "citationTitle": "Wikipedia: Kevin Systrom"
+  },
+  {
+    "id": "50600909-19ba-483b-b841-17ca64e06154",
+    "text": "Which aerospace company did Elon Musk found after being ousted as CEO of PayPal's predecessor, X.com?",
+    "options": [
+      "Blue Origin",
+      "Virgin Galactic",
+      "SpaceX",
+      "Rocket Lab"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Elon Musk founded SpaceX in 2002, shortly after the PayPal acquisition.",
+    "detailedExplanation": "Elon Musk founded Space Exploration Technologies Corp. (SpaceX) in May 2002, using $100 million of his own money from the PayPal sale. This came after his experience with X.com, which he founded in 1999 and which later merged with Confinity to become PayPal, though Musk was replaced as CEO during this process. Musk's vision for SpaceX was to reduce space transportation costs and enable the colonization of Mars. The company has since achieved numerous milestones including becoming the first privately-funded company to successfully launch, orbit, and recover a spacecraft, and the first to send astronauts to the International Space Station. SpaceX represents Musk's long-term goal of making humanity a multi-planetary species.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Elon_Musk",
+    "citationTitle": "Wikipedia: Elon Musk"
+  },
+  {
+    "id": "c1077439-4692-4e00-85a2-542cce3e0a8f",
+    "text": "What unusual eating habit did Steve Jobs maintain throughout most of his adult life, believing it would prevent body odor and eliminate the need for deodorant?",
+    "options": [
+      "Eating only white foods",
+      "Following a fruitarian diet",
+      "Consuming only liquid meals",
+      "Eating meals at precise 4-hour intervals"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Steve Jobs followed a fruitarian diet for much of his life.",
+    "detailedExplanation": "Steve Jobs was known for his extreme dietary habits, particularly his adherence to a fruitarian diet consisting mainly of fruits, nuts, and seeds. He believed this diet would prevent his body from producing odors, leading him to sometimes skip showers and avoid using deodorant. This unusual belief and practice was noted by colleagues and biographers, and his extreme dietary restrictions may have contributed to his health issues later in life.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Steve_Jobs",
+    "citationTitle": "Wikipedia: Steve Jobs"
+  },
+  {
+    "id": "37259136-3de1-40ed-8f87-2d7da382c87d",
+    "text": "Which tech billionaire's parents were both circus performers before he was born, with his mother being an aerial acrobat?",
+    "options": [
+      "Jeff Bezos",
+      "Mark Cuban",
+      "Larry Page",
+      "Peter Thiel"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Jeff Bezos's mother Jackie was a teenage circus performer and aerial acrobat.",
+    "detailedExplanation": "Amazon founder Jeff Bezos has an unusual family background. His biological father Ted Jorgensen was a circus performer and unicyclist, while his mother Jackie (later Jackie Bezos) was also involved in circus performance as an aerial acrobat. Jackie was only 17 when Jeff was born, and she later married Miguel 'Mike' Bezos, who adopted Jeff and gave him his surname. This circus background is a lesser-known aspect of the world's former richest man's family history.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Jeff_Bezos",
+    "citationTitle": "Wikipedia: Jeff Bezos"
+  },
+  {
+    "id": "b8c801c7-acad-46ff-a07f-e1d560f9bf56",
+    "text": "Before co-founding Google, Sergey Brin's family fled which country when he was six years old due to anti-Semitic persecution?",
+    "options": [
+      "East Germany",
+      "Soviet Union",
+      "Romania",
+      "Poland"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Sergey Brin's family emigrated from the Soviet Union in 1979 to escape anti-Semitism.",
+    "detailedExplanation": "Google co-founder Sergey Brin was born in Moscow in 1973 to a Jewish family. His father Michael was a mathematics professor at Moscow State University, but faced significant career limitations due to anti-Semitic policies in the Soviet Union. In 1979, when Sergey was six years old, the family received permission to emigrate to the United States. They settled in Maryland, where his father became a professor at the University of Maryland. This immigration experience profoundly shaped Brin's worldview and later influenced his approach to technology and information access.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Sergey_Brin",
+    "citationTitle": "Wikipedia: Sergey Brin"
+  },
+  {
+    "id": "ff40806d-bba4-438c-a252-db5b628f6920",
+    "text": "What was the code name for the secret project that led to the founding of Palm Computing by Jeff Hawkins?",
+    "options": [
+      "Project Mercury",
+      "Project Touchdown",
+      "Project Pilot",
+      "Project Newton"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Jeff Hawkins developed the Palm Pilot under the internal code name 'Project Pilot.'",
+    "detailedExplanation": "Jeff Hawkins, founder of Palm Computing, developed the revolutionary Palm Pilot PDA under the secret internal code name 'Project Pilot' in the early 1990s. Hawkins was obsessed with creating a truly portable computing device and famously carried around a wooden block the size of his envisioned device to test its practicality. The Palm Pilot, released in 1996, became one of the first successful handheld computers and established the foundation for modern mobile computing, predating smartphones by over a decade.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Jeff_Hawkins",
+    "citationTitle": "Wikipedia: Jeff Hawkins"
+  },
+  {
+    "id": "cbe34499-f9a3-4a6a-b066-67c5505c9c41",
+    "text": "Which Microsoft co-founder scored a perfect 1600 on his SATs and later became one of the world's largest private landowners?",
+    "options": [
+      "Bill Gates",
+      "Paul Allen",
+      "Steve Ballmer",
+      "Nathan Myhrvold"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Paul Allen scored a perfect SAT score and later amassed over 2 million acres of land.",
+    "detailedExplanation": "Paul Allen, Microsoft's co-founder alongside Bill Gates, was extraordinarily gifted academically, achieving a perfect 1600 score on his SATs. After leaving Microsoft in the early 1980s due to his battle with Hodgkin's lymphoma, Allen diversified his investments and interests. Among his many ventures, he became one of America's largest private landowners, accumulating over 2 million acres across multiple states. His land holdings included ranches, conservation areas, and development properties, making him a major figure in land conservation and management.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Paul_Allen",
+    "citationTitle": "Wikipedia: Paul Allen"
+  },
+  {
+    "id": "83acfa84-75ad-420a-b108-290d149ef768",
+    "text": "What childhood medical condition did Oracle founder Larry Ellison have that required him to spend significant time in hospitals, influencing his later competitive drive?",
+    "options": [
+      "Severe asthma",
+      "Rheumatic fever",
+      "Polio",
+      "Pneumonia"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Larry Ellison suffered from rheumatic fever as a child, spending months in hospitals.",
+    "detailedExplanation": "Oracle founder Larry Ellison contracted rheumatic fever as a child, a serious inflammatory disease that can affect the heart, joints, and brain. This condition required him to spend extended periods in hospitals and limited his physical activities during crucial developmental years. Ellison has cited this experience as formative, contributing to his intense competitive nature and drive to succeed. The isolation and challenges of his illness, combined with his adoptive upbringing (his biological mother gave him up when he was nine months old), shaped his fierce determination to prove himself and dominate in business.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Larry_Ellison",
+    "citationTitle": "Wikipedia: Larry Ellison"
+  },
+  {
+    "id": "3c03217e-4e14-4718-a73e-6d4d3ad2cdbb",
+    "text": "Before founding Twitter, Jack Dorsey was fascinated with dispatch systems and worked as a programmer for which type of emergency service company?",
+    "options": [
+      "Ambulance dispatch",
+      "Fire department systems",
+      "Taxi dispatch",
+      "Police communications"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Jack Dorsey worked on taxi dispatch software before founding Twitter.",
+    "detailedExplanation": "Before creating Twitter, Jack Dorsey had a longtime fascination with dispatch systems and real-time communication. He worked as a programmer developing dispatch software for taxi companies, which involved coordinating drivers, tracking vehicles, and managing real-time communications. This experience with short, efficient messaging systems and status updates directly influenced his concept for Twitter. Dorsey saw Twitter as a way to broadcast short status updates to groups of people, similar to how dispatch systems coordinate and update multiple parties simultaneously. This background in dispatch technology was crucial to Twitter's development as a microblogging platform.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Jack_Dorsey",
+    "citationTitle": "Wikipedia: Jack Dorsey"
+  },
+  {
+    "id": "f76dda9a-1bd0-4d1e-84ba-3e61083c995b",
+    "text": "What was the profession of YouTube co-founder Jawed Karim's father, which required the family to move frequently during Karim's childhood?",
+    "options": [
+      "International banker",
+      "Diplomatic attaché",
+      "Research scientist",
+      "Military officer"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Jawed Karim's father was a research scientist, causing frequent family relocations.",
+    "detailedExplanation": "YouTube co-founder Jawed Karim's father, Naimul Karim, was a research scientist from Bangladesh who worked on various international research projects. His work required the family to move frequently during Jawed's childhood, living in countries including Bangladesh, Germany, and eventually settling in the United States. This international upbringing exposed Jawed to different cultures and technologies, contributing to his global perspective on digital communication. His multicultural background and exposure to diverse technological environments helped shape his vision for YouTube as a universal platform for video sharing that could transcend cultural and geographical boundaries.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Jawed_Karim",
+    "citationTitle": "Wikipedia: Jawed Karim"
+  },
+  {
+    "id": "4185efea-9dfe-47ba-b141-9b10b4a5ec35",
+    "text": "Which tech company founder was born in South Africa and briefly attended Queen's University in Canada before transferring to the University of Pennsylvania, where he earned degrees in both economics and physics?",
+    "options": [
+      "Mark Zuckerberg",
+      "Elon Musk",
+      "Peter Thiel",
+      "Reid Hoffman"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Elon Musk was born in Pretoria, South Africa, and followed this exact educational path before founding multiple tech companies.",
+    "detailedExplanation": "Elon Musk was born in Pretoria, South Africa in 1971. After finishing high school, he moved to Canada and briefly attended Queen's University in Kingston, Ontario for two years before transferring to the University of Pennsylvania. At UPenn, he earned a Bachelor of Arts degree in economics from the Wharton School and a Bachelor of Science degree in physics. This dual educational background in both business and science would later influence his approach to founding and running multiple technology companies including PayPal, Tesla, and SpaceX.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Elon_Musk",
+    "citationTitle": "Wikipedia: Elon Musk"
+  },
+  {
+    "id": "4b1a3b5d-6fb8-4359-81f9-9578b3b412e5",
+    "text": "What was the name of the video game company that Michael Dell founded at age 13, which he sold computer upgrade kits through, before later founding Dell Computer Corporation?",
+    "options": [
+      "PC's Limited",
+      "Byte Computer",
+      "MicroAge",
+      "CompuAdd"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Michael Dell started PC's Limited as a teenager, selling computer upgrade kits and custom PCs from his dorm room.",
+    "detailedExplanation": "Before founding Dell Computer Corporation, Michael Dell started his entrepreneurial journey at age 19 (not 13) while studying at the University of Texas at Austin. In 1984, he founded PC's Limited with $1,000 in startup capital, operating from his dorm room. The company focused on selling IBM PC-compatible computers built from stock components, selling directly to customers and bypassing retail stores. This direct-sales model became Dell's signature approach and allowed them to offer customized computers at lower prices than competitors. PC's Limited was later renamed Dell Computer Corporation in 1988.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Michael_Dell",
+    "citationTitle": "Wikipedia: Michael Dell"
+  },
+  {
+    "id": "e192a2de-21da-4d05-af1e-b735424071ae",
+    "text": "Which programming language did James Gosling create at Sun Microsystems in the early 1990s, originally called 'Oak' before being renamed due to trademark issues?",
+    "options": [
+      "Python",
+      "Java",
+      "C#",
+      "Ruby"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "James Gosling created Java at Sun Microsystems, originally naming it 'Oak' before trademark concerns forced the rename.",
+    "detailedExplanation": "James Gosling, often called the 'father of Java,' developed the Java programming language at Sun Microsystems between 1991 and 1995. The project initially began as part of the Green Project, aimed at creating software for consumer electronics. Gosling originally named the language 'Oak' after an oak tree that stood outside his office window. However, when Sun discovered that 'Oak' was already trademarked by Oak Technology, they had to choose a new name. After brainstorming sessions, the team settled on 'Java,' reportedly inspired by Java coffee. The language was officially released in 1995 and became one of the most widely used programming languages in the world.",
+    "citationUrl": "https://en.wikipedia.org/wiki/James_Gosling",
+    "citationTitle": "Wikipedia: James Gosling"
+  },
+  {
+    "id": "4cbb35ee-a910-4b46-9755-7a35adb52a6e",
+    "text": "Before co-founding Apple Computer, Steve Wozniak worked as an engineer at which calculator and computer company where he designed the groundbreaking HP-35 scientific calculator?",
+    "options": [
+      "Texas Instruments",
+      "Hewlett-Packard",
+      "Commodore",
+      "Atari"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Steve Wozniak worked at Hewlett-Packard (HP) as an engineer before co-founding Apple with Steve Jobs.",
+    "detailedExplanation": "Steve Wozniak worked at Hewlett-Packard from 1973 to 1976 as a calculator engineer. During his time at HP, he worked on calculator designs and gained valuable experience in engineering and electronics. However, it's worth noting that Wozniak did not design the HP-35 calculator - that was developed earlier by HP engineers. The HP-35, released in 1972, was indeed groundbreaking as it was the first handheld scientific calculator. While at HP, Wozniak initially offered his personal computer design (which would become the Apple I) to HP, but they declined interest in the personal computer market. This rejection led Wozniak to leave HP and co-found Apple Computer with Steve Jobs in 1976.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Steve_Wozniak",
+    "citationTitle": "Wikipedia: Steve Wozniak"
+  }
+]

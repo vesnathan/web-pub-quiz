@@ -22,6 +22,7 @@ import { dailyStreakBadges, DAILY_STREAK_GROUP } from './daily-streak';
 import { comebackBadges, COMEBACK_GROUP } from './comeback';
 import { specialBadges, SPECIAL_GROUP } from './special';
 import { categoryMasteryBadges, CATEGORY_MASTERY_GROUP } from './category-mastery';
+import { consecutiveRunBadges, CONSECUTIVE_RUN_GROUP } from './consecutive-run';
 
 // Badge group definition
 export interface BadgeGroup {
@@ -35,6 +36,7 @@ export interface BadgeGroup {
 // All badge groups
 export const BADGE_GROUPS: BadgeGroup[] = [
   { ...STREAK_GROUP, badges: streakBadges },
+  { ...CONSECUTIVE_RUN_GROUP, badges: consecutiveRunBadges },
   { ...PERFECT_SET_GROUP, badges: perfectSetBadges },
   { ...SETS_PLAYED_GROUP, badges: setsPlayedBadges },
   { ...SETS_WON_GROUP, badges: setsWonBadges },

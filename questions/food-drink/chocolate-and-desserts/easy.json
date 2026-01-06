@@ -1,0 +1,342 @@
+[
+  {
+    "id": "229fecc5-12cb-479e-bf27-d0bdea68d12e",
+    "text": "What is the main ingredient that gives chocolate its characteristic flavor?",
+    "options": [
+      "Cocoa beans",
+      "Sugar",
+      "Milk",
+      "Vanilla"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Cocoa beans are the primary ingredient that provides chocolate's distinctive taste.",
+    "detailedExplanation": "Cocoa beans, harvested from the cacao tree (Theobroma cacao), are the fundamental ingredient that gives chocolate its unique flavor profile. These beans contain compounds like theobromine and various flavor compounds that develop during fermentation, drying, and roasting processes. While sugar, milk, and vanilla are common additives that modify chocolate's taste, the cocoa beans themselves are what make chocolate distinctively 'chocolate-flavored' rather than just sweet.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Cocoa_bean",
+    "citationTitle": "Wikipedia: Cocoa bean"
+  },
+  {
+    "id": "55300f7c-870f-49dd-af76-a0c44f532ffe",
+    "text": "Which Italian dessert literally translates to 'pick-me-up' in English?",
+    "options": [
+      "Gelato",
+      "Tiramisu",
+      "Panna cotta",
+      "Cannoli"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Tiramisu literally means 'pick-me-up' or 'cheer me up' in Italian.",
+    "detailedExplanation": "Tiramisu, the beloved Italian dessert made with ladyfingers, coffee, mascarpone cheese, eggs, sugar, and cocoa, gets its name from the Italian phrase 'tirami su,' which translates to 'pick-me-up' or 'cheer me up.' This name likely refers to the energizing effects of the coffee and the mood-lifting properties of this rich, indulgent dessert. The dessert originated in the Veneto region of Italy in the 1960s and has since become one of the most popular Italian desserts worldwide.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Tiramisu",
+    "citationTitle": "Wikipedia: Tiramisu"
+  },
+  {
+    "id": "c7f4d495-2641-4dcf-ad9a-80fff699a411",
+    "text": "What type of pastry is used to make profiteroles?",
+    "options": [
+      "Puff pastry",
+      "Shortcrust pastry",
+      "Choux pastry",
+      "Filo pastry"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Profiteroles are made from choux pastry, which creates light, hollow pastries perfect for filling.",
+    "detailedExplanation": "Profiteroles are made using choux pastry (also known as pâte à choux), a light pastry dough that relies on steam for leavening rather than chemical leaveners like baking powder. When baked, the high water content in choux pastry creates steam that puffs up the dough, forming hollow centers perfect for filling with cream, ice cream, or other sweet fillings. This same pastry is also used to make éclairs, cream puffs, and croquembouche. The technique was developed in France and requires cooking the flour and water mixture on the stove before adding eggs.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Profiterole",
+    "citationTitle": "Wikipedia: Profiterole"
+  },
+  {
+    "id": "dc6a47e1-e5b3-435f-b445-ab8871c4565a",
+    "text": "Which country is credited with inventing ice cream as we know it today?",
+    "options": [
+      "Italy",
+      "France",
+      "China",
+      "United States"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Italy is credited with creating modern ice cream, though early frozen desserts existed in other cultures.",
+    "detailedExplanation": "While various cultures had early forms of frozen desserts, Italy is generally credited with developing ice cream as we know it today. In the 17th century, Italian chefs perfected techniques for creating smooth, creamy frozen desserts using a mixture of ice, salt, and cream or milk. The Medici family in Florence is often associated with early ice cream development, and Italian gelato masters refined the art further. Antonio Latini published one of the first ice cream recipes in 1692. The tradition spread throughout Europe and eventually to America, where it evolved into the ice cream industry we know today.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Ice_cream",
+    "citationTitle": "Wikipedia: Ice cream"
+  },
+  {
+    "id": "c82fe42d-0c5c-4ef0-ab1d-182ec80bd6a5",
+    "text": "What is the key ingredient that makes a soufflé rise?",
+    "options": [
+      "Baking powder",
+      "Yeast",
+      "Beaten egg whites",
+      "Steam"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Beaten egg whites provide the air bubbles that make a soufflé rise when heated.",
+    "detailedExplanation": "The secret to a soufflé's dramatic rise lies in beaten egg whites, which are carefully folded into a flavored base. When egg whites are whipped, they incorporate air bubbles and form a stable foam. During baking, the heat causes the air in these bubbles to expand, creating the soufflé's characteristic height and light texture. The proteins in the egg whites coagulate during cooking, setting the structure. This is why soufflés must be served immediately after baking - as they cool, the air contracts and the soufflé deflates. Both sweet and savory soufflés rely on this same principle.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Souffl%C3%A9",
+    "citationTitle": "Wikipedia: Soufflé"
+  },
+  {
+    "id": "4ba28250-8a27-40ea-943b-5c0c503baccd",
+    "text": "Which type of chocolate contains the highest percentage of cocoa solids?",
+    "options": [
+      "White chocolate",
+      "Milk chocolate",
+      "Dark chocolate",
+      "Ruby chocolate"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Dark chocolate contains the highest percentage of cocoa solids, typically 70% or more.",
+    "detailedExplanation": "Dark chocolate contains the highest percentage of cocoa solids among common chocolate types, typically ranging from 50% to 90% or even higher. This high cocoa content gives dark chocolate its intense flavor and slightly bitter taste. Milk chocolate usually contains 10-50% cocoa solids, with added milk powder or condensed milk. White chocolate contains no cocoa solids at all, only cocoa butter, sugar, and milk solids. Ruby chocolate, a newer variety, contains some cocoa solids but is processed differently to achieve its pink color and fruity flavor. The higher the cocoa percentage in dark chocolate, the more intense and less sweet the flavor becomes.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Types_of_chocolate",
+    "citationTitle": "Wikipedia: Types of chocolate"
+  },
+  {
+    "id": "66c6c9d8-f5ab-4bca-b1ad-8b8ccbed7ebb",
+    "text": "What is the traditional shape of a madeleine cake?",
+    "options": [
+      "Round",
+      "Square",
+      "Shell-shaped",
+      "Heart-shaped"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Madeleines are baked in shell-shaped molds, giving them their distinctive scalloped appearance.",
+    "detailedExplanation": "Madeleines are small French sponge cakes that are traditionally baked in special shell-shaped molds, giving them their characteristic scalloped, shell-like appearance with ridged backs. These delicate cakes originated in the Lorraine region of France and became famous partly through Marcel Proust's novel 'In Search of Lost Time,' where the narrator experiences a profound moment of memory triggered by dipping a madeleine in tea. The shell shape is achieved using specific madeleine pans with shell-shaped indentations, and the cakes are typically made with a light sponge batter containing eggs, sugar, flour, and butter.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Madeleine_(cake)",
+    "citationTitle": "Wikipedia: Madeleine (cake)"
+  },
+  {
+    "id": "94f82536-6e60-4a0a-abcd-9bb77c5cdc97",
+    "text": "Which dessert is known as 'floating island' in English?",
+    "options": [
+      "Île flottante",
+      "Crème brûlée",
+      "Mousse au chocolat",
+      "Tarte tatin"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Île flottante, literally 'floating island,' consists of meringue floating on crème anglaise.",
+    "detailedExplanation": "Île flottante, which translates directly to 'floating island,' is a classic French dessert consisting of soft meringue 'islands' floating on a sea of crème anglaise (vanilla custard sauce). The meringue is typically poached in milk or water and then placed on top of the cold custard. The dessert is often garnished with caramelized sugar threads or chopped almonds. Sometimes confused with œufs à la neige (eggs in snow), île flottante traditionally features larger portions of meringue and may include caramel sauce. This elegant dessert showcases the French mastery of basic techniques like making meringue and custard.",
+    "citationUrl": "https://en.wikipedia.org/wiki/%C3%8Ele_flottante",
+    "citationTitle": "Wikipedia: Île flottante"
+  },
+  {
+    "id": "3f975da6-8e78-4060-9d52-83db9c970bc1",
+    "text": "What popular chocolate bar was named after the family horse of its creator?",
+    "options": [
+      "Snickers",
+      "Mars Bar",
+      "Kit Kat",
+      "Twix"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Snickers was named after the Mars family's favorite horse.",
+    "detailedExplanation": "The Snickers bar, created by Mars Inc. in 1930, was named after Snickers, the beloved horse owned by the Mars family. The candy bar consists of nougat topped with caramel and peanuts, all covered in milk chocolate. It became one of the world's best-selling candy bars and remains popular today, though many people are unaware of its equine namesake.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Snickers",
+    "citationTitle": "Wikipedia: Snickers"
+  },
+  {
+    "id": "906fd1a3-df44-4a30-bfef-5eb68ef1c06a",
+    "text": "Which classic French dessert consists of pastry filled with cream and topped with fondant icing?",
+    "options": [
+      "Mille-feuille",
+      "Éclair",
+      "Macaron",
+      "Tarte Tatin"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "An éclair is a choux pastry filled with cream and topped with fondant icing.",
+    "detailedExplanation": "The éclair is a classic French pastry made from choux pastry filled with cream (usually vanilla, chocolate, or coffee-flavored) and topped with fondant icing that matches the cream flavor. The name 'éclair' means 'lightning' in French, supposedly because the pastry is eaten so quickly - like a flash of lightning. Éclairs are typically oblong in shape and are a staple in French patisseries worldwide.",
+    "citationUrl": "https://en.wikipedia.org/wiki/%C3%89clair",
+    "citationTitle": "Wikipedia: Éclair"
+  },
+  {
+    "id": "4ddbb8c6-7217-4f1f-99c9-e4b735bc1d27",
+    "text": "What is the primary ingredient in the popular Middle Eastern sweet called halva?",
+    "options": [
+      "Honey",
+      "Dates",
+      "Sesame seeds",
+      "Pistachios"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Halva is primarily made from sesame seeds, usually in the form of tahini.",
+    "detailedExplanation": "Halva is a traditional Middle Eastern confection primarily made from sesame seeds, usually processed into tahini (sesame paste). The tahini is combined with sugar or honey and often includes additional flavorings like vanilla, chocolate, or nuts. The mixture is then pressed and allowed to set into a dense, crumbly sweet that has a distinctive nutty flavor and slightly grainy texture. Variations of halva exist throughout the Middle East, Mediterranean, and parts of Asia.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Halva",
+    "citationTitle": "Wikipedia: Halva"
+  },
+  {
+    "id": "f0dcca71-44c1-4cd0-9eb2-391a3c4c3b8a",
+    "text": "Which popular frozen dessert was accidentally invented by an 11-year-old boy in 1905?",
+    "options": [
+      "Ice cream sandwich",
+      "Popsicle",
+      "Frozen yogurt",
+      "Gelato"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "The popsicle was accidentally invented by Frank Epperson when he left a drink with a stirring stick outside overnight in freezing weather.",
+    "detailedExplanation": "In 1905, 11-year-old Frank Epperson accidentally invented the popsicle when he left a glass of powdered soda, water, and a wooden stirring stick on his porch overnight during a particularly cold night in San Francisco. The next morning, he discovered the mixture had frozen around the stick, creating the first 'Epsicle' - later renamed 'Popsicle.' He began selling them at a nearby amusement park and eventually patented his invention in 1923.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Ice_pop",
+    "citationTitle": "Wikipedia: Ice pop"
+  },
+  {
+    "id": "dc295e57-a2de-4f37-b50a-b17e9b0dfb98",
+    "text": "What gives red velvet cake its traditional red color?",
+    "options": [
+      "Strawberries",
+      "Red food coloring",
+      "Beets",
+      "Cocoa powder reaction"
+    ],
+    "correctIndex": 3,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "The red color originally came from a chemical reaction between cocoa powder and acidic ingredients.",
+    "detailedExplanation": "Traditional red velvet cake gets its red color from a chemical reaction between the natural cocoa powder and acidic ingredients like buttermilk and vinegar. This reaction causes the anthocyanins in the cocoa to turn reddish. However, modern cocoa processing often neutralizes this reaction, so many contemporary recipes rely on red food coloring to achieve the characteristic color. The cake also features a distinctive tangy flavor from the acidic ingredients and is typically topped with cream cheese frosting.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Red_velvet_cake",
+    "citationTitle": "Wikipedia: Red velvet cake"
+  },
+  {
+    "id": "efedd966-1c10-4d6c-87ed-49426dd32498",
+    "text": "Which European country is famous for inventing the Black Forest cake?",
+    "options": [
+      "Austria",
+      "Switzerland",
+      "Germany",
+      "Belgium"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Black Forest cake originates from Germany's Black Forest region.",
+    "detailedExplanation": "Black Forest cake (Schwarzwälder Kirschtorte in German) originates from the Black Forest region of Germany. This iconic dessert consists of chocolate sponge cake layered with whipped cream and cherries, often soaked with cherry brandy (Kirsch), and decorated with more whipped cream, cherries, and chocolate shavings. The cake is named after the Black Forest region's famous cherry orchards and Kirsch production. It became internationally popular in the mid-20th century and remains a symbol of German patisserie.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Black_Forest_gateau",
+    "citationTitle": "Wikipedia: Black Forest gateau"
+  },
+  {
+    "id": "2b3e8ae0-4ea7-4259-88d5-db0102ed61f3",
+    "text": "What is the main flavoring in a traditional baklava?",
+    "options": [
+      "Cinnamon",
+      "Cardamom",
+      "Rose water",
+      "Honey and nuts"
+    ],
+    "correctIndex": 3,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Baklava is primarily flavored with honey and various nuts, typically pistachios, walnuts, or almonds.",
+    "detailedExplanation": "Traditional baklava is a rich, sweet pastry made of layers of phyllo dough filled with chopped nuts (commonly pistachios, walnuts, almonds, or a combination) and held together with honey syrup or sugar syrup. The pastry is popular throughout the former Ottoman Empire and surrounding regions. While spices like cinnamon may be added, the primary flavoring comes from the combination of honey and nuts, which creates the dessert's characteristic sweet, nutty taste and sticky texture.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Baklava",
+    "citationTitle": "Wikipedia: Baklava"
+  },
+  {
+    "id": "1ee9ded6-0e8b-4274-af1f-d7876e1f61ee",
+    "text": "Which chocolate company introduced the first heart-shaped box of chocolates for Valentine's Day?",
+    "options": [
+      "Hershey's",
+      "Godiva",
+      "Cadbury",
+      "Ferrero"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Cadbury introduced the first heart-shaped chocolate box for Valentine's Day in 1868.",
+    "detailedExplanation": "Cadbury introduced the first heart-shaped box of chocolates specifically for Valentine's Day in 1868. Richard Cadbury, son of the company's founder, designed these ornate boxes decorated with cupids, roses, and romantic imagery. The boxes were not only functional containers for chocolates but also keepsakes that people could use for storing love letters and mementos after the chocolates were eaten. This marketing innovation helped establish the tradition of giving chocolates on Valentine's Day and made Cadbury a pioneer in holiday-themed confectionery marketing.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Cadbury",
+    "citationTitle": "Wikipedia: Cadbury"
+  },
+  {
+    "id": "c9a3424a-fb0b-4518-826a-675ef69fce71",
+    "text": "What is the name of the Spanish fried dough pastry often served with hot chocolate for dipping?",
+    "options": [
+      "Churros",
+      "Sopapillas",
+      "Buñuelos",
+      "Torrijas"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Churros are the traditional Spanish fried dough pastries served with hot chocolate.",
+    "detailedExplanation": "Churros are a beloved Spanish pastry made from choux pastry dough that is piped through a star-shaped nozzle and deep-fried until golden. They are traditionally dusted with sugar and cinnamon and served alongside thick hot chocolate for dipping. This combination is particularly popular as a breakfast or afternoon snack in Spain and has spread throughout Latin America and other parts of the world.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Churro",
+    "citationTitle": "Wikipedia: Churro"
+  },
+  {
+    "id": "efc604cb-7f93-47b1-acf5-b3cd92d7c0c1",
+    "text": "Which popular American cookie is traditionally left out for Santa Claus on Christmas Eve?",
+    "options": [
+      "Snickerdoodles",
+      "Chocolate chip cookies",
+      "Oatmeal raisin",
+      "Sugar cookies"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Chocolate chip cookies are the traditional American cookie left for Santa Claus.",
+    "detailedExplanation": "The tradition of leaving chocolate chip cookies and milk for Santa Claus on Christmas Eve is deeply ingrained in American Christmas culture. This practice stems from the idea of showing hospitality and gratitude to Santa for delivering presents. Chocolate chip cookies became the cookie of choice due to their popularity and widespread appeal, having been invented in the 1930s and quickly becoming America's favorite cookie.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Chocolate_chip_cookie",
+    "citationTitle": "Wikipedia: Chocolate chip cookie"
+  },
+  {
+    "id": "b2384677-12a8-41f7-8d30-735a0ee8ed86",
+    "text": "What is the creamy filling inside a traditional éclair typically made from?",
+    "options": [
+      "Whipped cream",
+      "Custard",
+      "Buttercream",
+      "Mascarpone"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Traditional éclairs are filled with custard, specifically pastry cream.",
+    "detailedExplanation": "An éclair is a classic French pastry made from choux pastry that is traditionally filled with pastry cream (crème pâtissière), which is a thick custard made from eggs, milk, sugar, and flour or cornstarch. The custard filling is what gives éclairs their characteristic creamy texture and rich flavor. The filled pastry is then typically topped with chocolate glaze, though other flavors like coffee or caramel are also common variations.",
+    "citationUrl": "https://en.wikipedia.org/wiki/%C3%89clair",
+    "citationTitle": "Wikipedia: Éclair"
+  },
+  {
+    "id": "9088beaf-3406-4020-9800-673a3b236423",
+    "text": "Which popular ice cream flavor is made by combining chocolate, vanilla, and strawberry?",
+    "options": [
+      "Rocky Road",
+      "Neapolitan",
+      "Spumoni",
+      "Rainbow Sherbet"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Neapolitan ice cream combines chocolate, vanilla, and strawberry flavors in three distinct layers.",
+    "detailedExplanation": "Neapolitan ice cream is a classic frozen dessert that features three distinct flavors arranged side by side in the same container: chocolate, vanilla, and strawberry. Named after Naples, Italy, this tri-flavor combination became popular in the 19th century and remains a staple in many households because it offers something for everyone's taste preferences. The three flavors are kept separate, creating distinctive layers or sections within the container.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Neapolitan_ice_cream",
+    "citationTitle": "Wikipedia: Neapolitan ice cream"
+  }
+]

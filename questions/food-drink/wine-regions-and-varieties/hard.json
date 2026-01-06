@@ -1,0 +1,342 @@
+[
+  {
+    "id": "ca31234f-addc-40d7-aa32-19a3680c7fa8",
+    "text": "Which French wine region is legally prohibited from producing rosé wines under its AOC regulations?",
+    "options": [
+      "Chablis",
+      "Sancerre",
+      "Muscadet",
+      "Condrieu"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Chablis AOC regulations only permit the production of white wines from Chardonnay grapes.",
+    "detailedExplanation": "The Chablis appellation in Burgundy has strict AOC (Appellation d'Origine Contrôlée) regulations that exclusively permit white wine production using 100% Chardonnay grapes. Unlike many other French wine regions that allow multiple wine styles, Chablis is dedicated solely to expressing the pure minerality and crisp character of Chardonnay in its unique Kimmeridgian soil. This regulatory restriction helps maintain the region's reputation for producing some of the world's most distinctive and terroir-driven white wines.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Chablis_wine",
+    "citationTitle": "Wikipedia: Chablis wine"
+  },
+  {
+    "id": "a7fe8fa3-4d6f-468d-b25a-a7f1d805bf17",
+    "text": "What is the maximum altitude limit for vineyards in the Denomination of Origin Pisco region of Peru?",
+    "options": [
+      "2,000 meters",
+      "3,500 meters",
+      "4,500 meters",
+      "1,500 meters"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Peruvian Pisco regulations specify that vineyards cannot exceed 3,500 meters above sea level.",
+    "detailedExplanation": "The Denomination of Origin regulations for Peruvian Pisco establish that vineyards must be located between sea level and a maximum altitude of 3,500 meters (approximately 11,500 feet) above sea level. This regulation ensures that the grapes used for Pisco production maintain the specific characteristics required for this traditional brandy. The high-altitude limit is remarkable compared to most wine regions worldwide, reflecting Peru's unique Andean geography and the adaptation of viticulture to extreme elevations along the country's coastal and mountainous terrain.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Pisco",
+    "citationTitle": "Wikipedia: Pisco"
+  },
+  {
+    "id": "2ebfcca4-e5bc-4ce2-90c3-2bd5c02b088b",
+    "text": "Which wine grape variety is known as 'Blauburgunder' in Austria and 'Spätburgunder' in Germany?",
+    "options": [
+      "Zweigelt",
+      "Pinot Noir",
+      "Blaufränkisch",
+      "Dornfelder"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Pinot Noir is called Blauburgunder in Austria and Spätburgunder in Germany.",
+    "detailedExplanation": "Pinot Noir, one of the world's most celebrated wine grape varieties, goes by different local names across German-speaking wine regions. In Germany, it's known as Spätburgunder (meaning 'late Burgundian'), while in Austria it's called Blauburgunder (meaning 'blue Burgundian'). Both names reference the grape's Burgundian origins and its blue-black color. Despite the different nomenclature, these refer to the same noble grape variety that produces elegant, complex red wines and is also crucial in Champagne production. The variety has adapted well to the cooler climates of these Central European wine regions.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Pinot_noir",
+    "citationTitle": "Wikipedia: Pinot noir"
+  },
+  {
+    "id": "a172ad2d-e1de-4980-86c7-0af9599d3519",
+    "text": "In which South African wine region would you find the famous 'Red Hill' and 'Bamboes Bay' wards?",
+    "options": [
+      "Stellenbosch",
+      "Walker Bay",
+      "Constantia",
+      "Paarl"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Red Hill and Bamboes Bay are both wards within the Walker Bay wine region.",
+    "detailedExplanation": "Walker Bay is a distinguished wine region in the Overberg district of South Africa, known for its cool maritime climate influenced by the nearby Atlantic Ocean. Within Walker Bay, there are several defined wards including Red Hill and Bamboes Bay, which benefit from the region's unique terroir characterized by clay-rich soils and cooling ocean breezes. This area has gained international recognition particularly for its Pinot Noir and Chardonnay production, with the cool climate conditions being ideal for these Burgundian varieties. The region represents South Africa's move toward cooler climate viticulture and premium wine production.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Walker_Bay_WO",
+    "citationTitle": "Wikipedia: Walker Bay WO"
+  },
+  {
+    "id": "1c043cc2-eea0-4b9b-bee9-ec76fb7d2ec7",
+    "text": "Which Italian wine region is home to the DOCG classifications of both Taurasi and Fiano di Avellino?",
+    "options": [
+      "Tuscany",
+      "Piedmont",
+      "Campania",
+      "Veneto"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Campania is home to both Taurasi DOCG (red wine from Aglianico) and Fiano di Avellino DOCG (white wine).",
+    "detailedExplanation": "Campania, the region around Naples in southern Italy, boasts several prestigious DOCG (Denominazione di Origine Controllata e Garantita) wines, including both Taurasi and Fiano di Avellino. Taurasi, often called the 'Barolo of the South,' is a powerful red wine made primarily from the ancient Aglianico grape variety, while Fiano di Avellino is an elegant white wine produced from the indigenous Fiano grape. These wines represent the renaissance of southern Italian viticulture and showcase the region's ability to produce world-class wines from native grape varieties that have been cultivated in the volcanic soils of Campania for over two millennia.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Campanian_wine",
+    "citationTitle": "Wikipedia: Campanian wine"
+  },
+  {
+    "id": "0ee3bbf0-384d-46d9-bd11-9b93619c4a90",
+    "text": "What is the minimum aging requirement for a wine to be labeled as 'Reserva' in Spain's Rioja region?",
+    "options": [
+      "24 months total, 6 months in oak",
+      "36 months total, 12 months in oak",
+      "48 months total, 18 months in oak",
+      "60 months total, 24 months in oak"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Rioja Reserva requires 36 months total aging with at least 12 months in oak barrels.",
+    "detailedExplanation": "Spain's Rioja region has strict aging requirements for its classification system. For a red wine to be labeled as 'Reserva,' it must undergo a minimum of 36 months of aging, with at least 12 of those months spent in oak barrels (typically American or French oak) and the remainder in bottle. This extended aging process allows the wine to develop complexity, soften tannins, and integrate the oak flavors with the fruit characteristics. The regulations ensure consistency and quality across Rioja Reserva wines, distinguishing them from the younger Crianza wines and setting them apart from the even more extensively aged Gran Reserva category.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Rioja_DOCa",
+    "citationTitle": "Wikipedia: Rioja DOCa"
+  },
+  {
+    "id": "a74e9702-4ef3-498f-a049-0e5da35bd16b",
+    "text": "Which Australian wine region is legally defined as having boundaries that follow the Murray River and includes both New South Wales and Victoria territories?",
+    "options": [
+      "Murray Darling",
+      "Swan Hill",
+      "Adelaide Hills",
+      "Clare Valley"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Murray Darling is a cross-border wine region that spans both New South Wales and Victoria along the Murray River.",
+    "detailedExplanation": "The Murray Darling wine region is unique in Australia as it's one of the few Geographical Indications (GI) that crosses state boundaries, encompassing areas in both New South Wales and Victoria. The region follows the Murray River system and is characterized by its warm climate, fertile alluvial soils, and extensive irrigation systems. This large wine region is known for producing significant volumes of wine, particularly value-oriented varietals, and plays a crucial role in Australia's bulk wine production. The Murray River serves as both the region's defining geographical feature and its primary water source for the extensive vineyard irrigation that makes viticulture possible in this semi-arid landscape.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Murray_Darling_(wine_region)",
+    "citationTitle": "Wikipedia: Murray Darling (wine region)"
+  },
+  {
+    "id": "1631c91f-4737-49e8-bd05-b0caf74971e8",
+    "text": "In which Portuguese wine region are producers required to age their wines for a minimum of 18 months before release, with at least 6 months in bottle?",
+    "options": [
+      "Douro",
+      "Vinho Verde",
+      "Dão",
+      "Alentejo"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "The Dão region has mandatory aging requirements of 18 months total with 6 months minimum in bottle for red wines.",
+    "detailedExplanation": "The Dão wine region in north-central Portugal has specific DOC (Denominação de Origem Controlada) regulations that mandate minimum aging periods for their red wines. Producers must age their wines for at least 18 months before release, with a minimum of 6 months of that aging occurring in bottle rather than in barrel or tank. This requirement reflects the region's commitment to producing age-worthy wines that can properly develop their complex flavors and smooth tannins. The Dão region, known for its granite soils and continental climate, produces elegant wines primarily from indigenous Portuguese grape varieties like Touriga Nacional and Tinta Roriz that benefit from this extended aging process.",
+    "citationUrl": "https://en.wikipedia.org/wiki/D%C3%A3o_wine_region",
+    "citationTitle": "Wikipedia: Dão wine region"
+  },
+  {
+    "id": "7f40b303-aa30-440e-82cc-350e4dab91eb",
+    "text": "Which grape variety is genetically identical to Zinfandel and is known as the flagship red wine of Puglia, Italy?",
+    "options": [
+      "Negroamaro",
+      "Primitivo",
+      "Sangiovese",
+      "Montepulciano"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Primitivo is genetically identical to Zinfandel and is Puglia's most famous red grape variety.",
+    "detailedExplanation": "DNA analysis has confirmed that Italy's Primitivo grape is genetically identical to California's Zinfandel, both sharing origins with Croatia's Crljenak Kaštelanski. Primitivo has been cultivated in Puglia since the 18th century and produces full-bodied, high-alcohol wines. The grape gets its name from its tendency to ripen early ('primitivo' means 'early' in Italian). Puglia's warm climate and ancient soils provide ideal conditions for this variety, making it the region's signature red wine.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Primitivo",
+    "citationTitle": "Wikipedia: Primitivo"
+  },
+  {
+    "id": "6b1cb3e7-f8e2-4d40-9bfc-6b86b7597c11",
+    "text": "In which German wine region would you find the famous Bernkasteler Doctor vineyard, one of the world's most expensive vineyard sites?",
+    "options": [
+      "Rheingau",
+      "Pfalz",
+      "Mosel",
+      "Baden"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Bernkasteler Doctor is located in the Mosel region and is renowned for producing some of Germany's most expensive Riesling wines.",
+    "detailedExplanation": "The Bernkasteler Doctor vineyard covers just 3.26 hectares along the steep slate slopes of the Mosel River near the town of Bernkastel-Kues. This tiny vineyard is legendary for producing exceptionally concentrated Riesling wines that can command prices of several hundred euros per bottle. The vineyard's name supposedly comes from a 14th-century legend where the wine cured an ailing Archbishop of Trier. The combination of the vineyard's southern exposure, ancient Devon slate soils, and steep 60-70% gradient creates unique microclimatic conditions that produce wines of extraordinary complexity and longevity.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Bernkasteler_Doctor",
+    "citationTitle": "Wikipedia: Bernkasteler Doctor"
+  },
+  {
+    "id": "32b0c0a9-32af-45be-9731-6b75d9cf19bb",
+    "text": "Which Champagne house was the first to produce a vintage-dated champagne in 1840?",
+    "options": [
+      "Krug",
+      "Dom Pérignon",
+      "Veuve Clicquot",
+      "Roederer"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Veuve Clicquot created the first vintage-dated champagne in 1840, revolutionizing the champagne industry.",
+    "detailedExplanation": "Madame Clicquot (Nicole-Barbe Ponsardin) and her house Veuve Clicquot were pioneers in many champagne innovations. In 1840, they released the first champagne to bear a vintage date, establishing the concept that wines from exceptional years deserved special recognition and individual bottling. This innovation came after Veuve Clicquot had already revolutionized champagne production with the invention of riddling (remuage) in 1816, which allowed for the clear champagne we know today. The vintage concept fundamentally changed how champagne was perceived, elevating it from a simple sparkling wine to a luxury product capable of expressing terroir and vintage variation.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Veuve_Clicquot",
+    "citationTitle": "Wikipedia: Veuve Clicquot"
+  },
+  {
+    "id": "13dcbb90-c040-4b2f-b693-fca44b722918",
+    "text": "What unique winemaking technique gives Amarone della Valpolicella its distinctive concentrated flavor profile?",
+    "options": [
+      "Carbonic maceration",
+      "Appassimento",
+      "Batonnage",
+      "Chaptalization"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Appassimento is the traditional drying process where grapes are dried for months before fermentation, concentrating their sugars and flavors.",
+    "detailedExplanation": "Appassimento is an ancient winemaking technique used in Valpolicella where freshly harvested grapes (primarily Corvina, Rondinella, and Molinara) are laid out on bamboo mats or wooden racks in well-ventilated rooms for 100-120 days. During this process, the grapes lose 35-45% of their water content, concentrating the sugars, acids, and flavor compounds. This dehydration process also promotes the development of noble rot (Botrytis cinerea) and other beneficial microorganisms that add complexity. The resulting wine is rich, full-bodied, and high in alcohol (typically 14-16%), with intense flavors of dried fruit, chocolate, and spices. This labor-intensive process is what distinguishes Amarone from regular Valpolicella wines.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Amarone",
+    "citationTitle": "Wikipedia: Amarone"
+  },
+  {
+    "id": "46c1ca57-a170-4c72-afe6-d6f24f51f2af",
+    "text": "Which New Zealand wine region is famous for its 'gumdigger' soils formed from ancient kauri tree resin?",
+    "options": [
+      "Marlborough",
+      "Central Otago",
+      "Kumeu",
+      "Waiheke Island"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Kumeu region north of Auckland is renowned for its unique gumdigger soils, remnants of ancient kauri forests.",
+    "detailedExplanation": "The Kumeu wine region, located northwest of Auckland, sits on unique soils formed from the decomposition of ancient kauri forests. These 'gumdigger' soils get their name from the 19th and early 20th-century practice of digging for kauri gum (resin) that had accumulated over thousands of years. The soils are typically heavy clay with pockets of gum and provide excellent water retention, making them particularly suitable for growing Chardonnay and Pinot Noir. The region's warm, humid climate combined with these distinctive soils produces wines with unique mineral characteristics. Notable producers like Kumeu River have gained international recognition for their Chardonnays grown in these distinctive terroirs.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Kumeu",
+    "citationTitle": "Wikipedia: Kumeu"
+  },
+  {
+    "id": "ab3973a5-d6e0-4b46-9977-88b899619629",
+    "text": "Which Chilean wine valley is located closest to the Pacific Ocean and is known for its cool-climate Sauvignon Blanc and Pinot Noir?",
+    "options": [
+      "Maipo Valley",
+      "Casablanca Valley",
+      "Colchagua Valley",
+      "Maule Valley"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Casablanca Valley is Chile's closest major wine region to the Pacific Ocean, known for its cool maritime climate and white wines.",
+    "detailedExplanation": "Casablanca Valley, located just 30 kilometers from the Pacific coast between Santiago and the port city of Valparaíso, is Chile's premier cool-climate wine region. The valley benefits from morning fogs and cool ocean breezes that moderate temperatures, making it ideal for growing cool-climate varieties like Sauvignon Blanc, Chardonnay, and Pinot Noir. The region was only developed for viticulture in the 1980s when pioneers like Pablo Morandé recognized its potential. The granitic and clay soils, combined with the maritime influence, produce wines with bright acidity, mineral complexity, and elegant fruit expression that differs markedly from Chile's warmer inland valleys.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Casablanca_Valley",
+    "citationTitle": "Wikipedia: Casablanca Valley"
+  },
+  {
+    "id": "4d77cd9d-6bb7-406a-88af-cb6f545b78f7",
+    "text": "Which Hungarian wine region is home to the famous Tokaj dessert wines and has UNESCO World Heritage status?",
+    "options": [
+      "Eger",
+      "Villány",
+      "Tokaj-Hegyalja",
+      "Szekszárd"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Tokaj-Hegyalja region produces the legendary Tokaj Aszú dessert wines and was designated a UNESCO World Heritage site in 2002.",
+    "detailedExplanation": "The Tokaj-Hegyalja wine region in northeastern Hungary has been producing sweet wines for over 1,000 years and was designated a UNESCO World Heritage Cultural Landscape in 2002. The region's unique combination of volcanic soils, the confluence of the Tisza and Bodrog rivers creating misty conditions, and the Botrytis cinerea fungus ('noble rot') creates perfect conditions for producing Tokaj Aszú, often called 'the wine of kings and king of wines.' The traditional classification system uses 'puttonyos' (3-6 putts) to indicate sweetness levels, based on the number of hods of botrytized grapes added to the base wine. The wines are aged in extensive underground cellars carved into volcanic rock, some dating back to the 12th century.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Tokaj_wine_region",
+    "citationTitle": "Wikipedia: Tokaj wine region"
+  },
+  {
+    "id": "30dadc64-7eea-40db-958d-83c4c141083d",
+    "text": "Which grape variety, originally from the Loire Valley, is known as Steen in South Africa and produces both dry and sweet wines?",
+    "options": [
+      "Sauvignon Blanc",
+      "Chenin Blanc",
+      "Muscadet",
+      "Albariño"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Chenin Blanc from the Loire Valley is called Steen in South Africa and is incredibly versatile, making everything from dry to dessert wines.",
+    "detailedExplanation": "Chenin Blanc originated in the Loire Valley of France, particularly in regions like Vouvray and Anjou, where it produces wines ranging from bone-dry to lusciously sweet depending on harvest timing and winemaking techniques. The grape was brought to South Africa in the 1650s by Dutch settlers and became known locally as 'Steen.' South Africa now has the world's largest plantings of Chenin Blanc, where it's used for everything from everyday drinking wines to premium bottlings. The variety's high natural acidity and susceptibility to noble rot make it exceptionally versatile. In both regions, it can produce sparkling wines, dry wines with mineral complexity, and dessert wines with honeyed richness, making it one of the world's most adaptable grape varieties.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Chenin_blanc",
+    "citationTitle": "Wikipedia: Chenin blanc"
+  },
+  {
+    "id": "ce8b09fa-eee5-445b-95ca-111560b38f72",
+    "text": "Which Burgundy Premier Cru vineyard is the largest in the Côte de Beaune, covering approximately 38 hectares?",
+    "options": [
+      "Clos des Mouches",
+      "Les Perrières",
+      "Clos du Roi",
+      "Les Beaumonts"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Clos du Roi in Beaune is the largest Premier Cru vineyard in the Côte de Beaune at approximately 38 hectares.",
+    "detailedExplanation": "Clos du Roi is a prestigious Premier Cru vineyard located in Beaune, Burgundy. At approximately 38 hectares, it stands as the largest Premier Cru vineyard in the entire Côte de Beaune sub-region. The vineyard produces both red and white wines, with Pinot Noir and Chardonnay respectively. The name 'Clos du Roi' translates to 'King's Enclosure,' reflecting its historical significance and quality. The vineyard's size and reputation make it one of the most important Premier Cru sites in Burgundy.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Beaune_wine",
+    "citationTitle": "Wikipedia: Beaune wine"
+  },
+  {
+    "id": "f51861bc-2d9f-4649-8690-e4f9fd13b1d6",
+    "text": "Which unique soil type, formed from ancient marine sediments, is characteristic of the Jerez region in Spain and essential for Sherry production?",
+    "options": [
+      "Albariza",
+      "Terra rossa",
+      "Schist",
+      "Volcanic ash"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Albariza is the white, chalky soil formed from ancient marine sediments that is essential for quality Sherry production in Jerez.",
+    "detailedExplanation": "Albariza is a distinctive white, chalky soil type found in the Jerez region of Spain, crucial for producing the finest Sherries. This soil is composed of fossilized marine organisms and ancient marine sediments, giving it excellent water retention properties during the region's dry summers. The high calcium carbonate content (up to 40%) reflects sunlight back onto the vines, helping to ripen the Palomino grapes used for Sherry production. Albariza's unique characteristics allow it to form a protective crust that prevents evaporation while remaining porous enough for root penetration.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Sherry",
+    "citationTitle": "Wikipedia: Sherry"
+  },
+  {
+    "id": "170f3d38-867a-47a8-9932-0545f118ddd2",
+    "text": "In which Tuscan wine classification system must wines contain a minimum of 80% Sangiovese and age for at least 24 months before release?",
+    "options": [
+      "Chianti Riserva",
+      "Vino Nobile di Montepulciano",
+      "Brunello di Montalcino",
+      "Chianti Classico Gran Selezione"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Vino Nobile di Montepulciano DOCG requires minimum 80% Sangiovese (locally called Prugnolo Gentile) and 24 months aging.",
+    "detailedExplanation": "Vino Nobile di Montepulciano is a prestigious DOCG wine from the hilltop town of Montepulciano in Tuscany. The regulations require a minimum of 80% Sangiovese (known locally as Prugnolo Gentile) with the remainder made up of other approved varieties like Canaiolo and Mammolo. The wine must age for a minimum of 24 months before release, with at least 12 months in wood. This differs from Brunello di Montalcino, which requires 100% Sangiovese, and Chianti classifications which have different aging requirements and Sangiovese percentages.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Vino_Nobile_di_Montepulciano",
+    "citationTitle": "Wikipedia: Vino Nobile di Montepulciano"
+  },
+  {
+    "id": "69db7699-1cc6-4eae-868b-39ac3064e343",
+    "text": "Which grape variety, originally developed in Germany in 1929, is a cross between Riesling and Madeleine Angevine and is now widely planted in England?",
+    "options": [
+      "Schönburger",
+      "Bacchus",
+      "Müller-Thurgau",
+      "Reichensteiner"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Bacchus is a German-developed crossing of Riesling × Madeleine Angevine created in 1929 that has become popular in English vineyards.",
+    "detailedExplanation": "Bacchus was developed at the Geisenheim Grape Breeding Institute in Germany in 1929 by crossing Riesling with Madeleine Angevine. While it found limited success in Germany, Bacchus has thrived in England's cool climate, becoming one of the most important white wine grape varieties in English viticulture. The variety produces aromatic wines with good acidity and flavors ranging from elderflower and gooseberry to tropical fruits. Bacchus's early ripening characteristics and disease resistance make it particularly well-suited to England's challenging growing conditions.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Bacchus_(grape)",
+    "citationTitle": "Wikipedia: Bacchus (grape)"
+  }
+]

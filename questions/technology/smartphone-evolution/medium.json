@@ -1,0 +1,342 @@
+[
+  {
+    "id": "03dae1a7-2a30-4036-b310-9be2210d1a62",
+    "text": "Which company released the first smartphone to feature a dual-camera system on the back?",
+    "options": [
+      "Apple with the iPhone 7 Plus",
+      "HTC with the EVO 3D",
+      "LG with the Optimus 3D",
+      "Samsung with the Galaxy Note 8"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "HTC released the EVO 3D in 2011, featuring the first dual-camera system designed for 3D photography and video recording.",
+    "detailedExplanation": "The HTC EVO 3D, released in June 2011, was the first smartphone to incorporate a dual-camera system on its rear panel. This innovative design featured two 5-megapixel cameras that could capture stereoscopic 3D photos and videos, which could be viewed on the phone's glasses-free 3D display. While Apple's iPhone 7 Plus later popularized dual cameras for depth sensing and zoom capabilities, HTC was the true pioneer in dual-camera smartphone technology.",
+    "citationUrl": "https://en.wikipedia.org/wiki/HTC_Evo_3D",
+    "citationTitle": "Wikipedia: HTC Evo 3D"
+  },
+  {
+    "id": "068b7db7-b411-46fa-8316-2d726fab8098",
+    "text": "What was the original storage capacity of the first-generation iPhone released in 2007?",
+    "options": [
+      "4GB and 8GB models",
+      "8GB and 16GB models",
+      "16GB and 32GB models",
+      "32GB and 64GB models"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "The original iPhone was released with 4GB and 8GB storage options, with the 4GB model discontinued after just two months.",
+    "detailedExplanation": "When Apple launched the first iPhone on June 29, 2007, it came in two storage variants: a 4GB model priced at $499 and an 8GB model at $599. The 4GB version was quickly discontinued in September 2007 due to poor sales and limited storage capacity. This storage capacity seems minuscule by today's standards, but it was considered adequate for the limited app ecosystem and media capabilities of the original iPhone, which focused primarily on phone calls, SMS, email, and basic web browsing.",
+    "citationUrl": "https://en.wikipedia.org/wiki/IPhone_(1st_generation)",
+    "citationTitle": "Wikipedia: iPhone (1st generation)"
+  },
+  {
+    "id": "44b86712-221c-4015-b7b7-d3ba1e489b2b",
+    "text": "Which smartphone was the first to feature wireless charging capability?",
+    "options": [
+      "Palm Pre",
+      "Nokia Lumia 920",
+      "Samsung Galaxy S3",
+      "Google Nexus 4"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "The Palm Pre, released in 2009, was the first smartphone to feature wireless charging using the Qi standard.",
+    "detailedExplanation": "The Palm Pre, launched by Palm Inc. in June 2009, was groundbreaking as the first commercial smartphone to offer wireless charging capability. It used the Touchstone charging dock, which employed electromagnetic induction to charge the device without cables. This feature was revolutionary at the time and preceded similar implementations by major manufacturers like Nokia and Samsung by several years. The wireless charging used the Qi standard, which has since become the industry norm for wireless power transfer in smartphones.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Palm_Pre",
+    "citationTitle": "Wikipedia: Palm Pre"
+  },
+  {
+    "id": "90818ba0-f9ca-4004-8182-2fd5fbc583ba",
+    "text": "What screen resolution did the iPhone 4 introduce that Apple marketed as 'Retina Display'?",
+    "options": [
+      "640 x 960 pixels",
+      "720 x 1280 pixels",
+      "750 x 1334 pixels",
+      "1080 x 1920 pixels"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "The iPhone 4's Retina Display had a resolution of 640 x 960 pixels, quadrupling the pixel count of previous iPhones.",
+    "detailedExplanation": "Apple introduced the Retina Display with the iPhone 4 in June 2010, featuring a resolution of 640 x 960 pixels at 326 pixels per inch (PPI). This represented a four-fold increase in pixel density compared to previous iPhone models, which had 163 PPI. Apple coined the term 'Retina Display' based on the premise that the human eye cannot distinguish individual pixels at typical viewing distances when the pixel density exceeds approximately 300 PPI. This display technology significantly improved text clarity and image sharpness, setting a new standard for smartphone screen quality.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Retina_display",
+    "citationTitle": "Wikipedia: Retina display"
+  },
+  {
+    "id": "6f690c75-6f31-4e1f-9286-0a5810496913",
+    "text": "Which was the first smartphone to feature a fingerprint sensor for biometric authentication?",
+    "options": [
+      "iPhone 5s",
+      "Motorola Atrix 4G",
+      "Samsung Galaxy S5",
+      "HTC One Max"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "The Motorola Atrix 4G, released in 2011, was the first smartphone with a fingerprint sensor, predating Apple's Touch ID by two years.",
+    "detailedExplanation": "The Motorola Atrix 4G, launched in February 2011, was the first smartphone to incorporate a fingerprint sensor for biometric authentication. Located on the back of the device, this swipe-style sensor could unlock the phone and authenticate users for certain applications. While Apple's iPhone 5s with Touch ID in 2013 popularized and perfected fingerprint authentication in smartphones, Motorola was the true pioneer in this technology. The Atrix 4G's implementation was less refined than later versions, but it established the foundation for biometric security that would become standard across the smartphone industry.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Motorola_Atrix_4G",
+    "citationTitle": "Wikipedia: Motorola Atrix 4G"
+  },
+  {
+    "id": "0a82f00a-aeb7-4e2e-8007-7ac365e2b042",
+    "text": "What was the first smartphone operating system to support multitasking between applications?",
+    "options": [
+      "iOS",
+      "Android",
+      "Palm webOS",
+      "Windows Mobile"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Palm webOS, introduced in 2009 with the Palm Pre, was the first smartphone OS to feature true multitasking with its card-based interface.",
+    "detailedExplanation": "Palm webOS, launched alongside the Palm Pre in June 2009, revolutionized smartphone multitasking with its innovative card-based interface. Users could run multiple applications simultaneously and switch between them by viewing them as cards that could be flicked away to close or tapped to bring to the foreground. This true multitasking capability was groundbreaking, as previous smartphone operating systems like early versions of iOS only allowed one app to run at a time. The webOS multitasking interface was so influential that it inspired similar implementations in later versions of iOS, Android, and other mobile operating systems.",
+    "citationUrl": "https://en.wikipedia.org/wiki/WebOS",
+    "citationTitle": "Wikipedia: webOS"
+  },
+  {
+    "id": "6b61c6ee-40c0-4fb8-b283-192dff160190",
+    "text": "Which smartphone first introduced the concept of 'water resistance' with an official IP rating?",
+    "options": [
+      "Sony Xperia Z",
+      "Samsung Galaxy S4 Active",
+      "iPhone 7",
+      "Motorola Defy"
+    ],
+    "correctIndex": 3,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "The Motorola Defy, released in 2010, was the first smartphone to receive an official IP67 water resistance rating.",
+    "detailedExplanation": "The Motorola Defy, launched in October 2010, was a pioneering device as the first smartphone to achieve an official IP67 rating for water and dust resistance. This certification meant the device could withstand immersion in water up to 1 meter deep for 30 minutes. The Defy featured rubberized ports and a reinforced construction that made it suitable for harsh environments. While later devices like the Sony Xperia Z series and iPhone 7 would popularize water resistance in flagship smartphones, the Motorola Defy established this important feature category and proved that smartphones could be both smart and rugged.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Motorola_Defy",
+    "citationTitle": "Wikipedia: Motorola Defy"
+  },
+  {
+    "id": "77b4eea2-dbe2-40ea-b03d-e3fc277ff168",
+    "text": "What was the first smartphone to feature a display with a refresh rate higher than 60Hz?",
+    "options": [
+      "OnePlus 7 Pro at 90Hz",
+      "iPad Pro at 120Hz",
+      "Razer Phone at 120Hz",
+      "Samsung Galaxy S20 at 120Hz"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "The Razer Phone, released in 2017, was the first smartphone to feature a 120Hz display refresh rate.",
+    "detailedExplanation": "The original Razer Phone, launched in November 2017, broke new ground by introducing the first smartphone display with a 120Hz refresh rate. This gaming-focused device featured a 5.7-inch LCD display that could refresh twice as fast as traditional 60Hz smartphone screens, providing smoother scrolling and improved gaming performance. Razer, known primarily for gaming peripherals and laptops, applied their high-refresh-rate expertise to smartphones ahead of major manufacturers. This innovation paved the way for high-refresh-rate displays to become a premium feature across the smartphone industry, with companies like OnePlus, Samsung, and Apple eventually adopting similar technology.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Razer_Phone",
+    "citationTitle": "Wikipedia: Razer Phone"
+  },
+  {
+    "id": "b0613c59-b2ad-4d3a-8a43-2fa2df1fe170",
+    "text": "Which company introduced the first commercially available smartphone with a foldable display?",
+    "options": [
+      "Samsung",
+      "Huawei",
+      "Royole",
+      "Motorola"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Royole released the FlexPai in late 2018, beating Samsung and Huawei to market.",
+    "detailedExplanation": "While Samsung and Huawei received more media attention for their foldable phones, the Chinese company Royole actually released the first commercially available foldable smartphone, the FlexPai, in late 2018. Samsung's Galaxy Fold and Huawei's Mate X followed in 2019, but Royole holds the distinction of being first to market with this revolutionary form factor.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Foldable_smartphone",
+    "citationTitle": "Wikipedia: Foldable smartphone"
+  },
+  {
+    "id": "b5d50781-0e1e-43b6-8a84-e7cc5726a374",
+    "text": "What was the name of Nokia's smartphone operating system that competed with iOS and Android?",
+    "options": [
+      "Symbian",
+      "Windows Phone",
+      "MeeGo",
+      "Series 40"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Symbian was Nokia's primary smartphone OS before Windows Phone adoption.",
+    "detailedExplanation": "Symbian was Nokia's dominant smartphone operating system throughout the 2000s and early 2010s, powering devices like the Nokia N95 and E-series phones. While Nokia later adopted Windows Phone and briefly experimented with MeeGo, Symbian was their main smartphone platform that competed directly with early iOS and Android devices before Nokia's smartphone market share declined.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Symbian",
+    "citationTitle": "Wikipedia: Symbian"
+  },
+  {
+    "id": "20159d6a-d101-4880-8c99-d10b588534e3",
+    "text": "Which smartphone first eliminated the traditional 3.5mm headphone jack, sparking industry controversy?",
+    "options": [
+      "iPhone 6",
+      "iPhone 7",
+      "Samsung Galaxy S8",
+      "Google Pixel"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Apple removed the headphone jack from the iPhone 7 in 2016, calling it 'courage.'",
+    "detailedExplanation": "Apple's decision to remove the 3.5mm headphone jack from the iPhone 7 in 2016 was highly controversial, with Apple executives calling it an act of 'courage' to push wireless audio forward. This move forced users to use Lightning connector headphones or adapters, and sparked widespread debate about the necessity of the change. Many Android manufacturers initially mocked this decision but later followed suit.",
+    "citationUrl": "https://en.wikipedia.org/wiki/IPhone_7",
+    "citationTitle": "Wikipedia: iPhone 7"
+  },
+  {
+    "id": "666cf682-23cd-41cb-b311-68cb720140fa",
+    "text": "What was the first smartphone to feature a camera with a periscope zoom lens system?",
+    "options": [
+      "Huawei P30 Pro",
+      "Samsung Galaxy S20 Ultra",
+      "Oppo Reno 10x Zoom",
+      "iPhone 11 Pro Max"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "The Huawei P30 Pro introduced periscope zoom technology for 5x optical zoom in 2019.",
+    "detailedExplanation": "The Huawei P30 Pro, released in March 2019, was the first mainstream smartphone to feature a periscope telephoto camera system, offering 5x optical zoom and up to 50x digital zoom. This innovative design uses a series of mirrors to fold the light path within the phone's body, allowing for much greater optical zoom capabilities than traditional smartphone cameras without making the device thicker.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Huawei_P30",
+    "citationTitle": "Wikipedia: Huawei P30"
+  },
+  {
+    "id": "8f057ad5-fc59-4538-b028-067926266132",
+    "text": "Which was the first smartphone to support 5G connectivity?",
+    "options": [
+      "Samsung Galaxy S10 5G",
+      "Motorola Moto Z3",
+      "Huawei Mate 20 X 5G",
+      "OnePlus 7 Pro 5G"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "The Moto Z3 with 5G Moto Mod was the first 5G-capable smartphone in 2018.",
+    "detailedExplanation": "The Motorola Moto Z3, released in August 2018, became the first smartphone capable of 5G connectivity when paired with Motorola's 5G Moto Mod accessory that launched in early 2019. While other manufacturers released phones with built-in 5G radios later, the modular approach allowed Motorola to claim the first 5G smartphone title, even though the 5G capability required an additional attachment.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Moto_Z3",
+    "citationTitle": "Wikipedia: Moto Z3"
+  },
+  {
+    "id": "769ea26d-3bf6-4d9f-8791-013dd5007f80",
+    "text": "What breakthrough battery technology did Samsung first introduce in the Galaxy Note 7 before its recall?",
+    "options": [
+      "Solid-state batteries",
+      "Fast wireless charging",
+      "Graphene batteries",
+      "Higher energy density lithium-ion"
+    ],
+    "correctIndex": 3,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Samsung used higher energy density batteries that unfortunately led to overheating issues.",
+    "detailedExplanation": "The Samsung Galaxy Note 7 featured advanced lithium-ion batteries with higher energy density to pack more power into a slim design. However, manufacturing defects in these cutting-edge batteries from two different suppliers led to overheating, swelling, and fires, ultimately causing Samsung to recall and discontinue the device in 2016. This incident highlighted the challenges of pushing battery technology to its limits in compact smartphone designs.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Samsung_Galaxy_Note_7",
+    "citationTitle": "Wikipedia: Samsung Galaxy Note 7"
+  },
+  {
+    "id": "092e6c09-e1ab-452b-a3b5-22fcdcf763fd",
+    "text": "Which company developed the first smartphone with an in-display ultrasonic fingerprint sensor?",
+    "options": [
+      "Apple",
+      "Samsung",
+      "Qualcomm",
+      "Vivo"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Samsung's Galaxy S10 series featured the first ultrasonic in-display fingerprint sensor in 2019.",
+    "detailedExplanation": "Samsung partnered with Qualcomm to introduce the first ultrasonic in-display fingerprint sensor in the Galaxy S10 series in 2019. This technology used sound waves to create a 3D map of the user's fingerprint through the display, offering better security than optical sensors and the ability to work with wet fingers. While other manufacturers had optical in-display sensors earlier, Samsung's ultrasonic approach was more sophisticated.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Samsung_Galaxy_S10",
+    "citationTitle": "Wikipedia: Samsung Galaxy S10"
+  },
+  {
+    "id": "827312a4-438d-491a-8ec8-075b7ed7b425",
+    "text": "What was the first smartphone to feature a hole-punch or 'Infinity-O' display design?",
+    "options": [
+      "Samsung Galaxy A8s",
+      "Honor View 20",
+      "Samsung Galaxy S10",
+      "Huawei Nova 4"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Samsung's Galaxy A8s was the first phone with a hole-punch display in December 2018.",
+    "detailedExplanation": "The Samsung Galaxy A8s, released in December 2018, was the first smartphone to feature Samsung's Infinity-O display with a hole-punch cutout for the front camera. This design eliminated the need for a notch or bezels around the selfie camera by creating a small circular cutout in the display. The Honor View 20 and Huawei Nova 4 followed shortly after, but Samsung's A8s holds the distinction of being first to market with this now-popular design trend.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Samsung_Galaxy_A8s",
+    "citationTitle": "Wikipedia: Samsung Galaxy A8s"
+  },
+  {
+    "id": "9668ccc2-6ac2-459e-85c1-0ddcf0a4e6bc",
+    "text": "Which smartphone manufacturer was the first to introduce a triple-camera system with ultra-wide, standard, and telephoto lenses?",
+    "options": [
+      "Apple with iPhone 11 Pro",
+      "Huawei with P20 Pro",
+      "Samsung with Galaxy S10",
+      "Google with Pixel 3"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Huawei's P20 Pro was the first smartphone to feature a true triple-camera system in 2018.",
+    "detailedExplanation": "The Huawei P20 Pro, released in March 2018, was groundbreaking as the first smartphone to feature a triple-camera system combining a 40MP main sensor, 20MP monochrome sensor, and 8MP telephoto lens with 3x optical zoom. This configuration allowed for unprecedented versatility in mobile photography, including improved low-light performance and zoom capabilities. The success of the P20 Pro's camera system influenced the entire industry, with most flagship smartphones now featuring multiple rear cameras as standard.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Huawei_P20",
+    "citationTitle": "Wikipedia: Huawei P20"
+  },
+  {
+    "id": "39530872-57ab-41da-9e78-9ae8ae5329be",
+    "text": "What was the maximum internet speed of the original 2G GSM networks that early smartphones used in the 1990s?",
+    "options": [
+      "9.6 kbps",
+      "14.4 kbps",
+      "56 kbps",
+      "128 kbps"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Original 2G GSM networks provided data speeds of just 9.6 kbps for early smartphone internet access.",
+    "detailedExplanation": "The original 2G GSM (Global System for Mobile Communications) networks, which early smartphones like the IBM Simon and Nokia Communicator series relied upon in the 1990s, provided extremely limited data speeds of just 9.6 kilobits per second. This was barely sufficient for basic text-based internet browsing and email, making multimedia content virtually impossible to access. The introduction of GPRS (General Packet Radio Service) later improved 2G speeds, but the original GSM data rates highlight just how revolutionary the move to 3G and beyond would prove to be for smartphone functionality.",
+    "citationUrl": "https://en.wikipedia.org/wiki/2G",
+    "citationTitle": "Wikipedia: 2G"
+  },
+  {
+    "id": "9adba553-ad04-41ef-accc-bd3061762580",
+    "text": "Which company created the first smartphone app store, predating Apple's App Store?",
+    "options": [
+      "Google",
+      "BlackBerry",
+      "Palm",
+      "Microsoft"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "BlackBerry launched BlackBerry App World in 2009, but Palm's App Catalog actually launched earlier that same year.",
+    "detailedExplanation": "While Apple's App Store launched in July 2008 and became the most successful, it wasn't technically the first centralized mobile app distribution platform. BlackBerry had been distributing applications through BlackBerry App World (later BlackBerry World) starting in April 2009, and Palm launched the Palm App Catalog for webOS devices in June 2009. However, the concept of downloadable applications for mobile devices existed even earlier with platforms like Palm's original PalmSource software. Apple's App Store revolutionized the model by making it mainstream and profitable for developers.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Mobile_app_development",
+    "citationTitle": "Wikipedia: Mobile app development"
+  },
+  {
+    "id": "6fced002-e298-4225-9df5-924f45ad7013",
+    "text": "What processor architecture did Apple transition to starting with the iPhone 5s in 2013?",
+    "options": [
+      "32-bit ARM",
+      "64-bit ARM",
+      "x86",
+      "RISC-V"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "The iPhone 5s introduced Apple's A7 chip, the first 64-bit ARM processor in a smartphone.",
+    "detailedExplanation": "Apple made smartphone history with the iPhone 5s in September 2013 by introducing the A7 chip, the world's first 64-bit ARM processor designed for mobile devices. This transition from 32-bit to 64-bit architecture allowed for significantly improved performance, better memory handling, and enhanced security features. The move caught competitors off guard, as most Android manufacturers were still using 32-bit processors at the time. This architectural advancement gave Apple a temporary but significant performance advantage and forced the entire industry to accelerate their own transitions to 64-bit processing.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Apple_A7",
+    "citationTitle": "Wikipedia: Apple A7"
+  }
+]

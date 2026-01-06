@@ -1,0 +1,342 @@
+[
+  {
+    "id": "f6939471-6105-4b26-938d-ccc91fae3bfa",
+    "text": "Which groundbreaking networking technology was first demonstrated at UCLA in 1969, sending the message 'LO' before crashing?",
+    "options": [
+      "ETHERNET",
+      "ARPANET",
+      "TCP/IP",
+      "USENET"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "ARPANET was the first successful message sent over a network that would become the Internet.",
+    "detailedExplanation": "On October 29, 1969, the first ARPANET message was sent from UCLA to Stanford Research Institute. The intended message was 'LOGIN' but the system crashed after sending just 'LO'. This moment is considered the birth of the Internet, as ARPANET was the precursor network that used packet-switching technology and eventually evolved into the modern Internet through the 1970s and 1980s.",
+    "citationUrl": "https://en.wikipedia.org/wiki/ARPANET",
+    "citationTitle": "Wikipedia: ARPANET"
+  },
+  {
+    "id": "8ccc490d-f623-4425-9f47-231f15a0fae5",
+    "text": "What revolutionary consumer electronics device was introduced by Sony in 1979, fundamentally changing how people consumed music?",
+    "options": [
+      "Compact Disc Player",
+      "Walkman",
+      "Boom Box",
+      "Digital Audio Tape"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "The Sony Walkman made personal portable music mainstream in 1979.",
+    "detailedExplanation": "The Sony Walkman TPS-L2 was released in Japan on July 1, 1979, and revolutionized personal music consumption. It was the first truly portable personal stereo that allowed people to listen to music privately through headphones while moving around. The device sparked a cultural shift in how people experienced music, leading to the concept of a personal soundtrack to daily life and paving the way for all future portable music devices.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Walkman",
+    "citationTitle": "Wikipedia: Walkman"
+  },
+  {
+    "id": "71686931-c1fd-4f27-a578-83acacdb81d4",
+    "text": "Which company released the first commercially successful GUI-based computer system in 1981, predating the Apple Macintosh?",
+    "options": [
+      "IBM",
+      "Commodore",
+      "Xerox",
+      "Atari"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "The Xerox Star workstation was the first commercial computer with a graphical user interface.",
+    "detailedExplanation": "The Xerox Star workstation, officially called the Xerox 8010 Information System, was released in April 1981. It was the first commercial computer system to incorporate a graphical user interface with windows, icons, menus, and a mouse - concepts that Xerox had developed at their Palo Alto Research Center (PARC). Despite being innovative, it was extremely expensive at $16,595 and sold poorly, but it laid the groundwork for future GUI systems including the Apple Lisa and Macintosh.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Xerox_Star",
+    "citationTitle": "Wikipedia: Xerox Star"
+  },
+  {
+    "id": "ea757516-ec8b-4097-b585-faf5f97ea188",
+    "text": "What digital storage medium, introduced in the early 1990s, could hold 650MB of data and was initially designed for music?",
+    "options": [
+      "ZIP Disk",
+      "Compact Disc",
+      "MiniDisc",
+      "Digital Audio Tape"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "The Compact Disc was developed in the early 1980s but became widespread in the 1990s for data storage.",
+    "detailedExplanation": "While the Compact Disc was first introduced for audio in 1982, the CD-ROM (Compact Disc Read-Only Memory) became a revolutionary data storage medium in the early 1990s. With a capacity of approximately 650MB, it could store vast amounts of data compared to floppy disks. This technology enabled the distribution of software, multimedia applications, and eventually led to the boom in computer gaming and educational software throughout the 1990s.",
+    "citationUrl": "https://en.wikipedia.org/wiki/CD-ROM",
+    "citationTitle": "Wikipedia: CD-ROM"
+  },
+  {
+    "id": "2eda0df0-d3cf-4ff9-b2a8-6c43222995a3",
+    "text": "Which web browser, released in 1993, is credited with popularizing the World Wide Web by being the first to display images inline with text?",
+    "options": [
+      "Internet Explorer",
+      "Netscape Navigator",
+      "Mosaic",
+      "Opera"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "NCSA Mosaic was the first popular web browser to display images alongside text.",
+    "detailedExplanation": "NCSA Mosaic, developed at the National Center for Supercomputing Applications, was released in 1993 and became the first widely-used web browser to display images inline with text rather than in separate windows. This seemingly simple feature was revolutionary and helped transform the Web from a text-based academic tool into a multimedia platform accessible to the general public. Mosaic's success directly led to the creation of Netscape Navigator and laid the foundation for the web browser wars of the late 1990s.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Mosaic_(web_browser)",
+    "citationTitle": "Wikipedia: Mosaic (web browser)"
+  },
+  {
+    "id": "416d03af-6f6e-424c-b26b-d7bbd82f1837",
+    "text": "What peer-to-peer file sharing service, launched in 1999, fundamentally disrupted the music industry and sparked major copyright battles?",
+    "options": [
+      "Kazaa",
+      "Limewire",
+      "Napster",
+      "Gnutella"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Napster was the first mainstream P2P file sharing service that disrupted the music industry.",
+    "detailedExplanation": "Napster, created by Shawn Fanning and launched in June 1999, was the first peer-to-peer file sharing service to achieve mainstream popularity. It allowed users to share MP3 files directly with each other, bypassing traditional music distribution channels. At its peak, Napster had over 25 million users and fundamentally changed how people accessed music. The service sparked landmark legal battles with the recording industry and was eventually shut down in 2001, but it paved the way for both legitimate and illegitimate file sharing services that followed.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Napster",
+    "citationTitle": "Wikipedia: Napster"
+  },
+  {
+    "id": "3a0327db-e235-496e-a9bd-514ac5ebd433",
+    "text": "Which social networking platform, launched in 2003, was initially restricted to college students and required a university email address to join?",
+    "options": [
+      "MySpace",
+      "Friendster",
+      "Facebook",
+      "LinkedIn"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Facebook started as an exclusive college networking site before expanding globally.",
+    "detailedExplanation": "Facebook was launched by Mark Zuckerberg on February 4, 2004 (though developed in 2003), initially as 'TheFacebook' exclusively for Harvard University students. The platform required a college email address to register and gradually expanded to other Ivy League schools, then other universities, and eventually to the general public in 2006. This exclusivity model was crucial to Facebook's early success, creating a sense of prestige and authenticity that helped it eventually surpass competitors like MySpace to become the world's largest social network.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Facebook",
+    "citationTitle": "Wikipedia: Facebook"
+  },
+  {
+    "id": "409389b7-16f4-425a-be71-7358371281d4",
+    "text": "What revolutionary product did Apple introduce in 2010 that created an entirely new product category between smartphones and laptops?",
+    "options": [
+      "iPad",
+      "MacBook Air",
+      "Apple TV",
+      "iPod Touch"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "The iPad created the modern tablet computer market in 2010.",
+    "detailedExplanation": "The Apple iPad was announced on January 27, 2010, and released on April 3, 2010. While tablet computers had existed before, the iPad's intuitive touch interface, app ecosystem, and sleek design created the modern tablet market and established a new product category between smartphones and laptops. The device sold over 300,000 units on its first day and over 3 million in its first 80 days, spurring competitors to develop their own tablets and fundamentally changing how people consume digital media, browse the internet, and interact with applications.",
+    "citationUrl": "https://en.wikipedia.org/wiki/IPad",
+    "citationTitle": "Wikipedia: iPad"
+  },
+  {
+    "id": "abac76a7-8a67-4638-92f0-b5420597a76e",
+    "text": "Which programming language, created in 1972 by Dennis Ritchie at Bell Labs, became the foundation for most modern operating systems including UNIX?",
+    "options": [
+      "FORTRAN",
+      "C",
+      "COBOL",
+      "Pascal"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "C programming language was developed by Dennis Ritchie in 1972 and became fundamental to system programming.",
+    "detailedExplanation": "The C programming language, developed by Dennis Ritchie between 1969 and 1973 at Bell Labs, revolutionized software development in the 1970s. Its efficiency, portability, and close relationship with the UNIX operating system made it the language of choice for system programming. C influenced countless subsequent languages and remains crucial in embedded systems, operating systems, and performance-critical applications today.",
+    "citationUrl": "https://en.wikipedia.org/wiki/C_(programming_language)",
+    "citationTitle": "Wikipedia: C (programming language)"
+  },
+  {
+    "id": "b8fa099f-5a39-448b-9df2-a7244a806d85",
+    "text": "What type of computer memory technology, introduced by Intel in 1988, allowed data to be electrically erased and reprogrammed without removing the chip?",
+    "options": [
+      "SRAM",
+      "DRAM",
+      "EEPROM",
+      "Flash memory"
+    ],
+    "correctIndex": 3,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Flash memory was introduced by Intel in 1988 as electrically erasable and reprogrammable non-volatile storage.",
+    "detailedExplanation": "Flash memory, first introduced by Intel in 1988, represented a major breakthrough in data storage technology during the 1980s. Unlike previous memory technologies, flash memory combined the non-volatile characteristics of ROM with the ability to be electrically erased and reprogrammed in blocks. This innovation laid the groundwork for modern SSDs, USB drives, memory cards, and smartphone storage, fundamentally changing how we store and access digital data.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Flash_memory",
+    "citationTitle": "Wikipedia: Flash memory"
+  },
+  {
+    "id": "614e8e60-7cd6-4e6e-8016-d0f379723e70",
+    "text": "Which search engine, developed by two Stanford PhD students and launched in 1996, introduced the PageRank algorithm that ranked web pages by their link authority?",
+    "options": [
+      "AltaVista",
+      "Yahoo!",
+      "Google",
+      "Lycos"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Google was founded by Larry Page and Sergey Brin in 1996, introducing the revolutionary PageRank algorithm.",
+    "detailedExplanation": "Google began as a research project called BackRub by Stanford University students Larry Page and Sergey Brin in 1996. Their revolutionary PageRank algorithm ranked web pages based on the number and quality of links pointing to them, providing more relevant search results than existing keyword-based systems. This innovation transformed internet search and established Google as the dominant search engine, fundamentally changing how people access information online.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Google",
+    "citationTitle": "Wikipedia: Google"
+  },
+  {
+    "id": "20abf045-3566-4e09-8d11-e61e4f095474",
+    "text": "What wireless communication standard, first released in 2007, enabled smartphones to achieve data speeds up to 100 times faster than previous mobile technologies?",
+    "options": [
+      "3G UMTS",
+      "4G LTE",
+      "WiMAX",
+      "HSPA+"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "4G LTE (Long Term Evolution) was first deployed in 2007, providing dramatically faster mobile data speeds.",
+    "detailedExplanation": "4G LTE (Long Term Evolution) technology was first commercially deployed in 2007, representing a quantum leap in mobile communication during the 2000s. LTE provided theoretical download speeds up to 100 Mbps and upload speeds up to 50 Mbps, enabling high-quality video streaming, real-time gaming, and rich multimedia applications on mobile devices. This technology was crucial for the smartphone revolution and the mobile internet ecosystem we know today.",
+    "citationUrl": "https://en.wikipedia.org/wiki/LTE_(telecommunication)",
+    "citationTitle": "Wikipedia: LTE (telecommunication)"
+  },
+  {
+    "id": "1f52a598-1491-44cb-ae3e-8e7950cd95a9",
+    "text": "Which virtual reality headset, launched by Oculus in 2016, marked the beginning of consumer VR's mainstream adoption in the 2010s?",
+    "options": [
+      "HTC Vive",
+      "PlayStation VR",
+      "Oculus Rift CV1",
+      "Samsung Gear VR"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "The Oculus Rift CV1 (Consumer Version 1) launched in March 2016 as the first mainstream consumer VR headset.",
+    "detailedExplanation": "The Oculus Rift CV1, released in March 2016, represented the culmination of the modern VR revival that began with Palmer Luckey's original prototype in 2012. After Facebook's $2 billion acquisition of Oculus in 2014, the Rift CV1 became the first consumer-ready VR headset to achieve mainstream market penetration. Its high-resolution displays, precise tracking, and growing content library established the foundation for today's VR industry and sparked competition from other major tech companies.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Oculus_Rift",
+    "citationTitle": "Wikipedia: Oculus Rift"
+  },
+  {
+    "id": "45c1f3e6-15b9-4380-8af3-ade12c9a3595",
+    "text": "What groundbreaking chip architecture, introduced by ARM in 1985, prioritized low power consumption and became the standard for mobile devices decades later?",
+    "options": [
+      "x86",
+      "RISC",
+      "SPARC",
+      "MIPS"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "ARM's RISC (Reduced Instruction Set Computer) architecture, launched in 1985, emphasized power efficiency over raw performance.",
+    "detailedExplanation": "The ARM RISC processor architecture, first introduced by Acorn Computers in 1985, revolutionized computing by prioritizing power efficiency and simplicity over complex instruction sets. While initially used in personal computers like the Acorn Archimedes, ARM's low power consumption made it ideal for battery-powered devices. This 1980s innovation became the foundation for virtually all smartphones, tablets, and IoT devices, with billions of ARM-based processors manufactured annually.",
+    "citationUrl": "https://en.wikipedia.org/wiki/ARM_architecture",
+    "citationTitle": "Wikipedia: ARM architecture"
+  },
+  {
+    "id": "69f2592d-69ea-4d8b-a805-3996d6ff6d9d",
+    "text": "Which company's 1981 release of the first commercially successful 3.5-inch floppy disk format became the standard for personal computer data storage throughout the decade?",
+    "options": [
+      "IBM",
+      "Apple",
+      "Sony",
+      "Microsoft"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Sony introduced the 3.5-inch floppy disk in 1981, which became the dominant PC storage format.",
+    "detailedExplanation": "Sony's introduction of the 3.5-inch floppy disk in 1981 represented a significant advancement in portable data storage during the early 1980s. These disks offered 1.44MB of storage capacity, were more durable than the larger 5.25-inch floppies due to their hard plastic shell, and featured a sliding metal shutter for protection. The format was quickly adopted by Apple for the Macintosh and later became the standard across all PC platforms, remaining dominant until CD-ROMs and USB drives replaced them in the late 1990s.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Floppy_disk",
+    "citationTitle": "Wikipedia: Floppy disk"
+  },
+  {
+    "id": "a683bee0-153e-476e-bf6b-bbf1e6d5b056",
+    "text": "What semiconductor manufacturing process, first achieved by Intel in 1971, marked the birth of the microprocessor era by integrating an entire CPU onto a single chip?",
+    "options": [
+      "The 4004 processor",
+      "Large Scale Integration (LSI)",
+      "The 8008 processor",
+      "Medium Scale Integration (MSI)"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Intel's 4004, released in 1971, was the first commercially available microprocessor on a single chip.",
+    "detailedExplanation": "The Intel 4004, released on November 15, 1971, was the world's first commercially available microprocessor, marking a pivotal moment in 1970s technology. Originally designed for Japanese calculator company Busicom, this 4-bit processor contained 2,300 transistors and could execute 60,000 operations per second. The 4004 proved that an entire CPU could fit on a single chip, launching the microprocessor revolution that would enable personal computers, embedded systems, and the digital age as we know it.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Intel_4004",
+    "citationTitle": "Wikipedia: Intel 4004"
+  },
+  {
+    "id": "5657d1e1-cf2e-401c-a065-490eeb0b11c9",
+    "text": "Which revolutionary database management system, first released by IBM in 1982, introduced the SQL query language that became the standard for relational databases?",
+    "options": [
+      "Oracle Database",
+      "IBM DB2",
+      "Microsoft SQL Server",
+      "MySQL"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "IBM DB2 was released in 1982 and was one of the first commercial implementations of SQL.",
+    "detailedExplanation": "IBM's DB2 (Database 2) was first released in 1982 as a database management system for IBM's MVS operating system. It was groundbreaking because it was one of the first commercial database systems to fully implement SQL (Structured Query Language), which had been developed by IBM researchers in the 1970s. DB2's success helped establish SQL as the standard language for relational database management systems, influencing the entire database industry for decades to come.",
+    "citationUrl": "https://en.wikipedia.org/wiki/IBM_Db2",
+    "citationTitle": "Wikipedia: IBM Db2"
+  },
+  {
+    "id": "bf33b8dd-35f2-4347-96c9-c274a83ec896",
+    "text": "What pioneering computer graphics workstation, introduced by Silicon Graphics in 1988, revolutionized 3D rendering and was used to create the dinosaurs in Jurassic Park?",
+    "options": [
+      "SGI Indigo",
+      "SGI IRIS 4D",
+      "Sun SPARCstation",
+      "Apollo Domain"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "The SGI IRIS 4D series, launched in 1988, became the industry standard for high-end 3D graphics and film production.",
+    "detailedExplanation": "Silicon Graphics' IRIS 4D workstation series, introduced in 1988, revolutionized computer graphics by combining powerful RISC processors with specialized graphics hardware. These workstations became the backbone of the emerging computer graphics industry, used extensively in Hollywood for visual effects and 3D animation. The IRIS 4D systems were instrumental in creating the groundbreaking computer-generated dinosaurs in Jurassic Park (1993) and established SGI as the leader in high-performance graphics computing throughout the 1990s.",
+    "citationUrl": "https://en.wikipedia.org/wiki/SGI_IRIS_4D",
+    "citationTitle": "Wikipedia: SGI IRIS 4D"
+  },
+  {
+    "id": "80513293-c68d-43db-9066-7a946f86fbe3",
+    "text": "Which collaborative software platform, launched by Salesforce in 2007, pioneered the Software-as-a-Service (SaaS) model for enterprise applications?",
+    "options": [
+      "Salesforce CRM",
+      "Force.com",
+      "Microsoft Dynamics CRM",
+      "Oracle Siebel"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Force.com was Salesforce's platform-as-a-service offering that allowed developers to build custom applications in the cloud.",
+    "detailedExplanation": "Salesforce's Force.com platform, launched in 2007, was revolutionary because it was one of the first Platform-as-a-Service (PaaS) offerings that allowed businesses to develop, deploy, and run custom applications entirely in the cloud. While Salesforce had already established the SaaS model with their CRM system earlier in the 2000s, Force.com extended this concept by providing a complete development platform accessible through web browsers, eliminating the need for traditional on-premises software infrastructure and helping to define the modern cloud computing era.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Force.com",
+    "citationTitle": "Wikipedia: Force.com"
+  },
+  {
+    "id": "f4a3e5df-1b7e-4031-ad03-b651c769d530",
+    "text": "What revolutionary video compression standard, finalized in 2013, reduced file sizes by up to 50% compared to its predecessor while maintaining the same quality?",
+    "options": [
+      "H.264/AVC",
+      "H.265/HEVC",
+      "VP9",
+      "AV1"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "H.265/HEVC (High Efficiency Video Coding) was standardized in 2013 and offered significant compression improvements over H.264.",
+    "detailedExplanation": "H.265/HEVC (High Efficiency Video Coding) was finalized as an international standard in 2013, representing a major breakthrough in video compression technology. Developed by the ITU-T Video Coding Experts Group and ISO/IEC Moving Picture Experts Group, H.265 achieved approximately 50% better data compression than its predecessor H.264 while maintaining equivalent video quality. This advancement was crucial for the growth of 4K video streaming, mobile video consumption, and efficient storage of high-resolution content, enabling services like Netflix and YouTube to deliver higher quality video over limited bandwidth connections.",
+    "citationUrl": "https://en.wikipedia.org/wiki/High_Efficiency_Video_Coding",
+    "citationTitle": "Wikipedia: High Efficiency Video Coding"
+  }
+]

@@ -1,0 +1,342 @@
+[
+  {
+    "id": "945bec08-d8c5-4f3e-bfda-2bf38032e074",
+    "text": "Where is the Baseball Hall of Fame located?",
+    "options": [
+      "Cooperstown, New York",
+      "Springfield, Massachusetts",
+      "Canton, Ohio",
+      "Louisville, Kentucky"
+    ],
+    "correctIndex": 0,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "The Baseball Hall of Fame is located in Cooperstown, New York.",
+    "detailedExplanation": "The National Baseball Hall of Fame and Museum is situated in the village of Cooperstown in upstate New York. The location was chosen partly due to the myth that baseball was invented there by Abner Doubleday in 1839, though this story has been largely debunked by historians. The Hall of Fame opened to the public in 1939 and has been the sport's most prestigious shrine ever since.",
+    "citationUrl": "https://en.wikipedia.org/wiki/National_Baseball_Hall_of_Fame_and_Museum",
+    "citationTitle": "Wikipedia: National Baseball Hall of Fame and Museum"
+  },
+  {
+    "id": "629709c2-bc68-4bb9-9aa9-d1dbbcdcf088",
+    "text": "In what year was the Baseball Hall of Fame officially opened?",
+    "options": [
+      "1935",
+      "1939",
+      "1942",
+      "1947"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "The Baseball Hall of Fame officially opened in 1939.",
+    "detailedExplanation": "The National Baseball Hall of Fame and Museum officially opened its doors to the public on June 12, 1939. This opening coincided with the supposed centennial of baseball's invention in Cooperstown. The first class of inductees had been selected in 1936, but it took three years to complete construction of the museum building and prepare the exhibits for public viewing.",
+    "citationUrl": "https://en.wikipedia.org/wiki/National_Baseball_Hall_of_Fame_and_Museum",
+    "citationTitle": "Wikipedia: National Baseball Hall of Fame and Museum"
+  },
+  {
+    "id": "44b13d5a-4cf2-42c0-bfe3-1303f3ebd9f7",
+    "text": "Who was the first player ever inducted into the Baseball Hall of Fame?",
+    "options": [
+      "Babe Ruth",
+      "Ty Cobb",
+      "Walter Johnson",
+      "No single first inductee - five were inducted simultaneously"
+    ],
+    "correctIndex": 3,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "There was no single first inductee; five players were inducted simultaneously in 1936.",
+    "detailedExplanation": "In the inaugural Hall of Fame election of 1936, five players were selected together: Ty Cobb, Babe Ruth, Honus Wagner, Christy Mathewson, and Walter Johnson. These five baseball legends shared the honor of being the first inductees, as there was no ranking system to determine individual precedence among them. They were chosen by the Baseball Writers' Association of America in the first-ever Hall of Fame voting.",
+    "citationUrl": "https://en.wikipedia.org/wiki/1936_Baseball_Hall_of_Fame_election",
+    "citationTitle": "Wikipedia: 1936 Baseball Hall of Fame election"
+  },
+  {
+    "id": "d19c1e39-b2e3-43de-8953-9802630bdceb",
+    "text": "How many years must a player be retired before becoming eligible for Hall of Fame induction?",
+    "options": [
+      "3 years",
+      "5 years",
+      "7 years",
+      "10 years"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "A player must be retired for 5 years before becoming eligible for Hall of Fame induction.",
+    "detailedExplanation": "According to Hall of Fame rules, a player must have been retired from Major League Baseball for at least five calendar years before becoming eligible for induction. This waiting period ensures that a player's career is completely finished and allows time for proper evaluation of their accomplishments. The player must also have played in at least 10 major league seasons to be eligible for consideration by the Baseball Writers' Association of America.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Baseball_Hall_of_Fame_balloting",
+    "citationTitle": "Wikipedia: Baseball Hall of Fame balloting"
+  },
+  {
+    "id": "d4fb328a-5a9f-4f45-932f-b68c7857d5f7",
+    "text": "What percentage of votes does a player need to be inducted into the Hall of Fame?",
+    "options": [
+      "50%",
+      "60%",
+      "75%",
+      "80%"
+    ],
+    "correctIndex": 2,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "A player needs 75% of the votes to be inducted into the Hall of Fame.",
+    "detailedExplanation": "To be inducted into the Baseball Hall of Fame, a candidate must receive votes on at least 75% of the ballots cast by eligible members of the Baseball Writers' Association of America. This high threshold ensures that only players with broad consensus support among baseball writers are inducted. If a player receives between 5% and 74.9% of votes, they remain on the ballot for the following year, up to a maximum of 10 years of eligibility.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Baseball_Hall_of_Fame_balloting",
+    "citationTitle": "Wikipedia: Baseball Hall of Fame balloting"
+  },
+  {
+    "id": "1ab23f60-10f4-46a2-80b5-cf8e15d22436",
+    "text": "Which player holds the record for receiving the highest percentage of Hall of Fame votes?",
+    "options": [
+      "Babe Ruth",
+      "Ken Griffey Jr.",
+      "Mariano Rivera",
+      "Tony Gwynn"
+    ],
+    "correctIndex": 2,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "Mariano Rivera holds the record with 100% of the votes, becoming the first unanimous inductee.",
+    "detailedExplanation": "Mariano Rivera made history in 2019 by becoming the first player ever to be unanimously elected to the Baseball Hall of Fame, receiving all 425 votes cast by eligible writers. The legendary Yankees closer broke the previous record of 99.32% held by Ken Griffey Jr. Rivera's perfect voting performance was fitting recognition for arguably the greatest closer in baseball history, who saved 652 games and won five World Series championships.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Mariano_Rivera",
+    "citationTitle": "Wikipedia: Mariano Rivera"
+  },
+  {
+    "id": "2cea35ba-cc71-48bb-874d-cda25a3be795",
+    "text": "What is the maximum number of years a player can remain on the Hall of Fame ballot?",
+    "options": [
+      "5 years",
+      "10 years",
+      "15 years",
+      "20 years"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "A player can remain on the Hall of Fame ballot for a maximum of 10 years.",
+    "detailedExplanation": "Under current Hall of Fame voting rules, a player remains eligible on the writers' ballot for up to 10 years, provided they receive at least 5% of the vote each year. If a player fails to receive 5% support in any given year, they are dropped from future ballots. After the 10-year period expires, players who haven't been inducted can still be considered by various era committees that meet periodically to evaluate candidates from different time periods in baseball history.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Baseball_Hall_of_Fame_balloting",
+    "citationTitle": "Wikipedia: Baseball Hall of Fame balloting"
+  },
+  {
+    "id": "09dd9a08-60fe-4fa1-aa3c-d8900505128e",
+    "text": "Which of these categories is NOT represented in the Baseball Hall of Fame?",
+    "options": [
+      "Players",
+      "Managers",
+      "Umpires",
+      "Team Owners"
+    ],
+    "correctIndex": 3,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "Team owners are not a separate category for Hall of Fame induction.",
+    "detailedExplanation": "The Baseball Hall of Fame recognizes players, managers, umpires, and executives, but not team owners as a distinct category. While some team owners have been inducted, they were recognized in the executives category for their contributions to the game beyond just ownership. The Hall of Fame also honors pioneers and builders of baseball, broadcasters, and others who have made significant contributions to the sport, but these fall under the broader executives/contributors categories rather than a specific owners category.",
+    "citationUrl": "https://en.wikipedia.org/wiki/National_Baseball_Hall_of_Fame_and_Museum",
+    "citationTitle": "Wikipedia: National Baseball Hall of Fame and Museum"
+  },
+  {
+    "id": "91c61ce4-f0e7-4069-b58e-e0f5a5e39ac4",
+    "text": "Which player was nicknamed 'The Sultan of Swat' and was among the first five players inducted into the Baseball Hall of Fame in 1936?",
+    "options": [
+      "Babe Ruth",
+      "Lou Gehrig",
+      "Ty Cobb",
+      "Walter Johnson"
+    ],
+    "correctIndex": 0,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "Babe Ruth, known as 'The Sultan of Swat,' was one of the original five inductees in 1936.",
+    "detailedExplanation": "George Herman 'Babe' Ruth Jr., famously nicknamed 'The Sultan of Swat' for his powerful home run hitting ability, was among the inaugural class of Baseball Hall of Fame inductees in 1936. Along with Ty Cobb, Honus Wagner, Christy Mathewson, and Walter Johnson, Ruth was selected as one of the first five players to receive this honor, cementing his status as one of baseball's greatest legends.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Babe_Ruth",
+    "citationTitle": "Wikipedia: Babe Ruth"
+  },
+  {
+    "id": "38e07b81-d0d1-487c-86ab-e46cdde28b69",
+    "text": "What is the name of the award given annually to the best pitcher in each league that shares its name with a Hall of Fame pitcher?",
+    "options": [
+      "Cy Young Award",
+      "Walter Johnson Award",
+      "Christy Mathewson Award",
+      "Grover Alexander Award"
+    ],
+    "correctIndex": 0,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "The Cy Young Award is named after Hall of Famer Cy Young, who won 511 games in his career.",
+    "detailedExplanation": "The Cy Young Award, established in 1956, is given annually to the best pitcher in the American League and National League. It's named after Denton True 'Cy' Young, a Baseball Hall of Fame pitcher who holds the record for most career wins with 511 victories. Young was inducted into the Hall of Fame in 1937 and pitched from 1890 to 1911, making him one of the most successful pitchers in baseball history.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Cy_Young_Award",
+    "citationTitle": "Wikipedia: Cy Young Award"
+  },
+  {
+    "id": "7dcb35dc-15f3-4652-827d-939116d3f400",
+    "text": "Which Hall of Fame player is known for his 'called shot' home run in the 1932 World Series?",
+    "options": [
+      "Babe Ruth",
+      "Lou Gehrig",
+      "Jimmie Foxx",
+      "Mel Ott"
+    ],
+    "correctIndex": 0,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "Babe Ruth allegedly pointed to the outfield before hitting a home run in Game 3 of the 1932 World Series.",
+    "detailedExplanation": "Babe Ruth's 'called shot' is one of baseball's most famous legends, occurring during Game 3 of the 1932 World Series against the Chicago Cubs at Wrigley Field. According to the legend, Ruth pointed toward the outfield bleachers before hitting his next pitch for a home run to that exact spot. While there's debate about whether Ruth actually 'called' the shot or was simply gesturing at the Cubs' bench, this moment has become an iconic part of baseball folklore and Ruth's Hall of Fame legacy.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Babe_Ruth%27s_called_shot",
+    "citationTitle": "Wikipedia: Babe Ruth's called shot"
+  },
+  {
+    "id": "ddeff43e-507c-46ea-84c8-c4ccdc1d4f92",
+    "text": "Which Hall of Fame catcher is famous for his witty quotes and was known as 'Yogi'?",
+    "options": [
+      "Yogi Berra",
+      "Roy Campanella",
+      "Johnny Bench",
+      "Gary Carter"
+    ],
+    "correctIndex": 0,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "Yogi Berra was famous for his humorous and paradoxical quotes called 'Yogi-isms.'",
+    "detailedExplanation": "Lawrence Peter 'Yogi' Berra was inducted into the Baseball Hall of Fame in 1972 and is as famous for his colorful personality and memorable quotes as he is for his baseball achievements. Known for 'Yogi-isms' such as 'It ain't over 'til it's over' and 'When you come to a fork in the road, take it,' Berra won 10 World Series championships as a player with the New York Yankees and was a three-time American League MVP.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Yogi_Berra",
+    "citationTitle": "Wikipedia: Yogi Berra"
+  },
+  {
+    "id": "2df3587f-48dc-49c6-a76d-0ed545fc317d",
+    "text": "Which Hall of Fame outfielder was known as 'The Say Hey Kid'?",
+    "options": [
+      "Willie Mays",
+      "Mickey Mantle",
+      "Hank Aaron",
+      "Ted Williams"
+    ],
+    "correctIndex": 0,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "Willie Mays earned the nickname 'The Say Hey Kid' for his enthusiastic personality and greeting style.",
+    "detailedExplanation": "Willie Howard Mays Jr., nicknamed 'The Say Hey Kid,' was inducted into the Baseball Hall of Fame in 1979. He earned this nickname because of his exuberant personality and his habit of greeting people with 'Say hey!' Mays is widely regarded as one of the greatest all-around players in baseball history, known for his spectacular defensive plays, including 'The Catch' in the 1954 World Series, and his 660 career home runs.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Willie_Mays",
+    "citationTitle": "Wikipedia: Willie Mays"
+  },
+  {
+    "id": "bef04c2e-df6c-46f0-bd5c-d1c9a527ece3",
+    "text": "Which Hall of Fame player broke Babe Ruth's all-time home run record in 1974?",
+    "options": [
+      "Hank Aaron",
+      "Willie Mays",
+      "Frank Robinson",
+      "Harmon Killebrew"
+    ],
+    "correctIndex": 0,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "Hank Aaron hit his 715th home run on April 8, 1974, breaking Babe Ruth's record of 714.",
+    "detailedExplanation": "Henry Louis 'Hank' Aaron broke one of baseball's most prestigious records on April 8, 1974, when he hit his 715th career home run off Los Angeles Dodgers pitcher Al Downing at Atlanta-Fulton County Stadium. This historic moment surpassed Babe Ruth's long-standing record of 714 home runs, which had stood since 1935. Aaron, who was inducted into the Hall of Fame in 1982, faced significant racial harassment during his pursuit of the record but persevered to become one of baseball's most respected figures.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Hank_Aaron",
+    "citationTitle": "Wikipedia: Hank Aaron"
+  },
+  {
+    "id": "905ed994-c9bb-4354-8f08-81b0298f692d",
+    "text": "Which Hall of Fame shortstop was known as 'Mr. November' for his clutch postseason performances?",
+    "options": [
+      "Derek Jeter",
+      "Cal Ripken Jr.",
+      "Ernie Banks",
+      "Honus Wagner"
+    ],
+    "correctIndex": 0,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "Derek Jeter earned the nickname 'Mr. November' for his clutch hitting in late-season World Series games.",
+    "detailedExplanation": "Derek Jeter, inducted into the Hall of Fame in 2020, earned the nickname 'Mr. November' after hitting a walk-off home run just after midnight on November 1, 2001, in Game 4 of the World Series against the Arizona Diamondbacks. This was the first World Series game ever played in November due to the delayed season following the September 11 attacks. Jeter's clutch postseason performances throughout his career with the New York Yankees, including five World Series championships, solidified this moniker.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Derek_Jeter",
+    "citationTitle": "Wikipedia: Derek Jeter"
+  },
+  {
+    "id": "33ee5f94-cee2-496b-830e-6eefa98051c4",
+    "text": "Which committee is responsible for considering players, managers, umpires, and executives from earlier eras for Hall of Fame induction?",
+    "options": [
+      "Contemporary Baseball Era Committee",
+      "Early Baseball Era Committee",
+      "Golden Days Era Committee",
+      "Modern Baseball Era Committee"
+    ],
+    "correctIndex": 2,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "The Golden Days Era Committee considers candidates primarily from 1950-1969.",
+    "detailedExplanation": "The Golden Days Era Committee is one of four Era Committees established by the Baseball Hall of Fame to consider candidates from different time periods who are no longer eligible for election by the Baseball Writers' Association of America. The Golden Days Era Committee focuses on players, managers, umpires, and executives primarily from 1950-1969. These committees meet periodically to review candidates who may have been overlooked or whose contributions have been re-evaluated over time, providing alternative pathways to Hall of Fame induction.",
+    "citationUrl": "https://en.wikipedia.org/wiki/National_Baseball_Hall_of_Fame_and_Museum",
+    "citationTitle": "Wikipedia: National Baseball Hall of Fame and Museum"
+  },
+  {
+    "id": "b3430495-5cd5-48ed-b942-bdf1978137c3",
+    "text": "Which Hall of Fame pitcher is the only player to throw a perfect game in a World Series?",
+    "options": [
+      "Don Larsen",
+      "Sandy Koufax",
+      "Cy Young",
+      "Walter Johnson"
+    ],
+    "correctIndex": 0,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "Don Larsen threw the only perfect game in World Series history in 1956.",
+    "detailedExplanation": "Don Larsen accomplished the remarkable feat of throwing a perfect game in Game 5 of the 1956 World Series between the New York Yankees and Brooklyn Dodgers. This remains the only perfect game ever thrown in World Series play, and Larsen was inducted into the Baseball Hall of Fame in 1994. The game took place at Yankee Stadium on October 8, 1956, and helped the Yankees win the championship.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Don_Larsen",
+    "citationTitle": "Wikipedia: Don Larsen"
+  },
+  {
+    "id": "48333f09-72d3-45e7-9ffd-22cfe09f02da",
+    "text": "Which Hall of Fame player was the first to have his uniform number retired by a Major League team?",
+    "options": [
+      "Lou Gehrig",
+      "Babe Ruth",
+      "Ty Cobb",
+      "Christy Mathewson"
+    ],
+    "correctIndex": 0,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "Lou Gehrig's number 4 was the first uniform number retired in MLB history by the Yankees in 1939.",
+    "detailedExplanation": "Lou Gehrig's number 4 was retired by the New York Yankees on July 4, 1939, making him the first player in Major League Baseball history to have his uniform number retired. This occurred during his famous 'Luckiest Man' speech at Yankee Stadium, just two years after his consecutive games streak ended due to ALS. The ceremony established a tradition that would spread throughout baseball, honoring the game's greatest players.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Lou_Gehrig",
+    "citationTitle": "Wikipedia: Lou Gehrig"
+  },
+  {
+    "id": "029f77ae-3506-4eb7-ba6b-e1027053c8c8",
+    "text": "Which Hall of Fame player was the first to reach 3,000 career hits?",
+    "options": [
+      "Ty Cobb",
+      "Honus Wagner",
+      "Nap Lajoie",
+      "Tris Speaker"
+    ],
+    "correctIndex": 0,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "Ty Cobb was the first player in baseball history to reach 3,000 career hits in 1921.",
+    "detailedExplanation": "Ty Cobb achieved the milestone of 3,000 career hits on August 19, 1921, becoming the first player in baseball history to reach this mark. Playing for the Detroit Tigers at the time, Cobb would finish his career with 4,189 hits, a record that stood until Pete Rose surpassed it in 1985. Cobb was among the first five players inducted into the Baseball Hall of Fame in 1936, and his aggressive playing style and hitting prowess made him one of the game's first superstars.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Ty_Cobb",
+    "citationTitle": "Wikipedia: Ty Cobb"
+  },
+  {
+    "id": "a175a0d7-d86d-4262-a3bb-22d4d0a55f13",
+    "text": "Which Hall of Fame third baseman was known as 'The Human Vacuum Cleaner' for his defensive skills?",
+    "options": [
+      "Brooks Robinson",
+      "Mike Schmidt",
+      "George Brett",
+      "Wade Boggs"
+    ],
+    "correctIndex": 0,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "Brooks Robinson earned this nickname for his exceptional defensive play at third base for the Baltimore Orioles.",
+    "detailedExplanation": "Brooks Robinson, who played his entire 23-year career with the Baltimore Orioles, was nicknamed 'The Human Vacuum Cleaner' due to his incredible defensive abilities at third base. He won 16 consecutive Gold Glove Awards from 1960-1975 and was known for making spectacular plays look routine. Robinson was inducted into the Hall of Fame in 1983 and is widely considered the greatest defensive third baseman in baseball history. His performance in the 1970 World Series, where he made numerous spectacular defensive plays, cemented his legendary status.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Brooks_Robinson",
+    "citationTitle": "Wikipedia: Brooks Robinson"
+  }
+]

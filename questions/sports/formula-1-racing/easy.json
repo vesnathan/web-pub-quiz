@@ -1,0 +1,342 @@
+[
+  {
+    "id": "8b58e208-8b82-4701-8440-11ef5ab758a1",
+    "text": "Which country hosts the Monaco Grand Prix?",
+    "options": [
+      "France",
+      "Monaco",
+      "Italy",
+      "Spain"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "Monaco hosts its own Formula 1 Grand Prix in the principality.",
+    "detailedExplanation": "The Monaco Grand Prix is held annually in the Principality of Monaco, making it one of the most prestigious and glamorous races on the Formula 1 calendar. The race takes place on the Circuit de Monaco, which winds through the narrow streets of Monte Carlo, making it one of the most challenging circuits in motorsport.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Monaco_Grand_Prix",
+    "citationTitle": "Wikipedia: Monaco Grand Prix"
+  },
+  {
+    "id": "8c4a5c9e-65d3-4903-a8ee-23fe31929135",
+    "text": "What does DRS stand for in Formula 1?",
+    "options": [
+      "Drag Reduction System",
+      "Direct Racing Speed",
+      "Dynamic Rear Spoiler",
+      "Drive Response System"
+    ],
+    "correctIndex": 0,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "DRS stands for Drag Reduction System, which reduces aerodynamic drag to help overtaking.",
+    "detailedExplanation": "The Drag Reduction System (DRS) was introduced to Formula 1 in 2011 to promote overtaking. It allows drivers to open a flap in their rear wing when they are within one second of the car ahead in designated DRS zones, reducing aerodynamic drag and increasing straight-line speed to facilitate passing maneuvers.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Drag_reduction_system",
+    "citationTitle": "Wikipedia: Drag reduction system"
+  },
+  {
+    "id": "b83c52ba-2866-4205-966e-71af8d861bd1",
+    "text": "Which tire manufacturer currently supplies Formula 1?",
+    "options": [
+      "Bridgestone",
+      "Michelin",
+      "Pirelli",
+      "Goodyear"
+    ],
+    "correctIndex": 2,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "Pirelli has been the exclusive tire supplier for Formula 1 since 2011.",
+    "detailedExplanation": "Pirelli became the sole tire supplier for Formula 1 in 2011, taking over from Bridgestone. The Italian manufacturer provides different compound tires identified by color coding, ranging from the hardest (white) to the softest (red), with each compound offering different performance characteristics for grip and durability.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Formula_One_tyres",
+    "citationTitle": "Wikipedia: Formula One tyres"
+  },
+  {
+    "id": "6f265702-a6cd-4ae1-bad6-97d4f2090059",
+    "text": "How many points does a driver receive for winning a Formula 1 race?",
+    "options": [
+      "20 points",
+      "25 points",
+      "30 points",
+      "15 points"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "A race winner receives 25 points under the current Formula 1 points system.",
+    "detailedExplanation": "The current Formula 1 points system awards 25 points to the race winner, with points distributed to the top 10 finishers. This system was introduced in 2010, replacing the previous 10-point system for race wins. Additional points can be earned for the fastest lap (1 point) if the driver finishes in the top 10.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Formula_One_car",
+    "citationTitle": "Wikipedia: Formula One car"
+  },
+  {
+    "id": "e3d44022-166a-4298-8d55-e988fcb076ed",
+    "text": "What is the minimum weight limit for a Formula 1 car including the driver?",
+    "options": [
+      "798 kg",
+      "722 kg",
+      "756 kg",
+      "834 kg"
+    ],
+    "correctIndex": 0,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "The minimum weight limit for an F1 car including driver is currently 798 kg.",
+    "detailedExplanation": "Formula 1 cars must meet a minimum weight requirement of 798 kilograms including the driver, as set by the FIA regulations. This weight limit has been adjusted over the years due to safety improvements and technological changes. Teams often add ballast to reach this minimum weight if their car is too light, allowing them to optimize weight distribution.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Formula_One_car",
+    "citationTitle": "Wikipedia: Formula One car"
+  },
+  {
+    "id": "58a89941-99ca-4bc5-80ee-3f8f294dd7db",
+    "text": "Which flag is shown to indicate the final lap of a Formula 1 race?",
+    "options": [
+      "Checkered flag",
+      "White flag",
+      "Yellow flag",
+      "Blue flag"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "The white flag indicates the final lap of a Formula 1 race.",
+    "detailedExplanation": "In Formula 1, the white flag is displayed to all drivers to signal that they are beginning the final lap of the race. The more famous checkered flag is then waved when the race winner crosses the finish line to complete that final lap, officially ending the race for all participants.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Racing_flags",
+    "citationTitle": "Wikipedia: Racing flags"
+  },
+  {
+    "id": "4da5be96-5e94-4610-b246-a46409ecc2b4",
+    "text": "What is the name of Formula 1's governing body?",
+    "options": [
+      "FIM",
+      "FIA",
+      "FIFA",
+      "IOC"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "The FIA (Fédération Internationale de l'Automobile) is Formula 1's governing body.",
+    "detailedExplanation": "The Fédération Internationale de l'Automobile (FIA) is the governing body for Formula 1 and many other forms of motorsport worldwide. Founded in 1904, the FIA sets the technical and sporting regulations for Formula 1, oversees safety standards, and manages the licensing of drivers and circuits used in the championship.",
+    "citationUrl": "https://en.wikipedia.org/wiki/F%C3%A9d%C3%A9ration_Internationale_de_l%27Automobile",
+    "citationTitle": "Wikipedia: Fédération Internationale de l'Automobile"
+  },
+  {
+    "id": "7eb37675-7bac-4a75-a3e6-47822332c922",
+    "text": "How many drivers start in a typical Formula 1 race?",
+    "options": [
+      "18",
+      "20",
+      "22",
+      "24"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "A typical Formula 1 race starts with 20 drivers from 10 teams.",
+    "detailedExplanation": "Formula 1 currently features 10 teams with 2 drivers each, making a total grid of 20 drivers for each race. This number has varied throughout F1 history, but the current format of 10 teams has been relatively stable since 2016, though the total number can occasionally be lower if teams withdraw or drivers are unable to participate.",
+    "citationUrl": "https://en.wikipedia.org/wiki/List_of_Formula_One_constructors",
+    "citationTitle": "Wikipedia: List of Formula One constructors"
+  },
+  {
+    "id": "e46759e6-156b-4efb-8be4-34e5b88a8f66",
+    "text": "Which driver holds the record for most Formula 1 World Championship titles?",
+    "options": [
+      "Ayrton Senna",
+      "Lewis Hamilton",
+      "Michael Schumacher",
+      "Sebastian Vettel"
+    ],
+    "correctIndex": 2,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "Michael Schumacher holds the record with 7 World Championship titles.",
+    "detailedExplanation": "Michael Schumacher won a record seven Formula 1 World Championship titles during his career, claiming two consecutive titles with Benetton in 1994 and 1995, followed by five consecutive titles with Ferrari from 2000 to 2004. Lewis Hamilton has since matched this record with seven titles of his own, but Schumacher was the first to achieve this milestone.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Michael_Schumacher",
+    "citationTitle": "Wikipedia: Michael Schumacher"
+  },
+  {
+    "id": "5963d992-cab5-4f33-b8a4-9ce2eeed72c8",
+    "text": "What is the maximum number of engines a Formula 1 driver can use during a season without penalty?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "Drivers are allowed to use a maximum of 3 engines per season without penalty.",
+    "detailedExplanation": "Under current Formula 1 regulations, each driver is allocated three power units (engines) for the entire season. If a driver exceeds this allocation and uses a fourth engine or beyond, they receive grid penalties for the races where the additional engines are first used. This rule was introduced to help control costs and encourage engine reliability.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Formula_One_engines",
+    "citationTitle": "Wikipedia: Formula One engines"
+  },
+  {
+    "id": "af71a416-afa3-4b30-bde2-b91ceb4f944e",
+    "text": "Which team has won the most Formula 1 Constructors' Championships?",
+    "options": [
+      "McLaren",
+      "Williams",
+      "Ferrari",
+      "Mercedes"
+    ],
+    "correctIndex": 2,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "Ferrari has won the most Constructors' Championships with 16 titles.",
+    "detailedExplanation": "Ferrari is the most successful team in Formula 1 history in terms of Constructors' Championships, having won 16 titles since the championship's inception in 1958. Their most recent constructors' title came in 2008. Ferrari is also the only team to have competed in every Formula 1 season since the championship began in 1950, making them synonymous with the sport's history.",
+    "citationUrl": "https://en.wikipedia.org/wiki/List_of_Formula_One_constructors",
+    "citationTitle": "Wikipedia: List of Formula One constructors"
+  },
+  {
+    "id": "803c3c23-ba4c-49e9-bec7-2bcc0976e250",
+    "text": "What is the typical duration of a Formula 1 race?",
+    "options": [
+      "90 minutes",
+      "2 hours",
+      "2.5 hours",
+      "3 hours"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "Formula 1 races have a maximum duration of 2 hours.",
+    "detailedExplanation": "Formula 1 races are run over a predetermined number of laps, but they also have a maximum time limit of 2 hours. If the 2-hour limit is reached before all scheduled laps are completed, the race ends when the leader crosses the line after the time expires. Most races typically last between 1.5 to 2 hours, depending on the circuit length and any delays caused by safety cars or weather conditions.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Formula_One_race_procedure",
+    "citationTitle": "Wikipedia: Formula One race procedure"
+  },
+  {
+    "id": "f3550791-cff8-414b-b55f-668a3713296d",
+    "text": "Which circuit is known as the 'Temple of Speed' in Formula 1?",
+    "options": [
+      "Silverstone",
+      "Spa-Francorchamps",
+      "Monza",
+      "Suzuka"
+    ],
+    "correctIndex": 2,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "Monza in Italy is known as the 'Temple of Speed' due to its high-speed nature.",
+    "detailedExplanation": "The Autodromo Nazionale Monza in Italy is famously nicknamed the 'Temple of Speed' because it features the highest average speeds of any Formula 1 circuit. Built in 1922, it's one of the oldest circuits still in use and is characterized by long straights and relatively few corners, allowing cars to reach their maximum velocities. The Italian Grand Prix has been held at Monza almost every year since 1950.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Autodromo_Nazionale_Monza",
+    "citationTitle": "Wikipedia: Autodromo Nazionale Monza"
+  },
+  {
+    "id": "c15bea2e-cae8-4221-9c7a-796e8e36a030",
+    "text": "What is the fastest speed ever recorded by a Formula 1 car during a race weekend?",
+    "options": [
+      "330 km/h",
+      "350 km/h",
+      "372 km/h",
+      "390 km/h"
+    ],
+    "correctIndex": 2,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "The fastest speed recorded was 372 km/h (231 mph) by Valtteri Bottas in 2016.",
+    "detailedExplanation": "The fastest speed ever recorded by a Formula 1 car during an official race weekend was 372.5 km/h (231.5 mph), achieved by Valtteri Bottas driving for Williams during the 2016 Mexican Grand Prix weekend. This record was set during practice sessions at the Autodromo Hermanos Rodriguez, which sits at high altitude, reducing air density and allowing for higher top speeds on the main straight.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Formula_One_speed_records",
+    "citationTitle": "Wikipedia: Formula One speed records"
+  },
+  {
+    "id": "8321e5b7-47cd-45f2-bf7f-9f3159183a60",
+    "text": "How many teams typically compete in a Formula 1 season?",
+    "options": [
+      "8",
+      "10",
+      "12",
+      "14"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "There are typically 10 teams competing in Formula 1, each fielding 2 drivers.",
+    "detailedExplanation": "Formula 1 currently features 10 teams, with each team fielding two drivers, making a total grid of 20 drivers. The number of teams has varied throughout F1 history, but 10 teams has been the standard for many years. Each team is officially known as a 'constructor' and must build their own chassis, though they may purchase engines from other manufacturers.",
+    "citationUrl": "https://en.wikipedia.org/wiki/2024_Formula_One_World_Championship",
+    "citationTitle": "Wikipedia: 2024 Formula One World Championship"
+  },
+  {
+    "id": "91b7100d-fbcb-4985-930c-a1fdfd279365",
+    "text": "What does the term 'pole position' mean in Formula 1?",
+    "options": [
+      "Leading the championship",
+      "First position on the starting grid",
+      "Fastest lap in the race",
+      "Most points in a season"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "Pole position refers to the first position on the starting grid, earned by the fastest qualifier.",
+    "detailedExplanation": "Pole position in Formula 1 refers to the coveted first position on the starting grid for the race, which is earned by the driver who sets the fastest qualifying time in the final qualifying session (Q3). Starting from pole position provides a significant advantage as the driver has a clear track ahead and the shortest distance to the first corner, reducing the risk of being involved in first-lap incidents.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Pole_position",
+    "citationTitle": "Wikipedia: Pole position"
+  },
+  {
+    "id": "e20ff2eb-9b1a-4786-82b6-f732a19ac696",
+    "text": "What color flag is waved to signal the start of a Formula 1 race?",
+    "options": [
+      "Red flag",
+      "Green flag",
+      "Yellow flag",
+      "Blue flag"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "The green flag is waved to signal the start of a Formula 1 race.",
+    "detailedExplanation": "In Formula 1, different colored flags have specific meanings. The green flag is used to signal the start of a race or the resumption of racing after a caution period. This is distinct from the checkered flag (which signals the end) or the various other flags used during races for different situations like warnings or penalties.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Racing_flags",
+    "citationTitle": "Wikipedia: Racing flags"
+  },
+  {
+    "id": "e4ba5e15-8298-4ee7-91ea-9048c3e74b41",
+    "text": "Which famous Formula 1 circuit is located in Silverstone, England?",
+    "options": [
+      "British Grand Prix",
+      "English Grand Prix",
+      "United Kingdom Grand Prix",
+      "London Grand Prix"
+    ],
+    "correctIndex": 0,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "The British Grand Prix is held at the Silverstone circuit in England.",
+    "detailedExplanation": "Silverstone Circuit in Northamptonshire, England, has been the home of the British Grand Prix for most years since 1950. The circuit was originally built on a World War II airfield and has become one of the most iconic tracks in Formula 1 racing, known for its high-speed corners and rich motorsport history.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Silverstone_Circuit",
+    "citationTitle": "Wikipedia: Silverstone Circuit"
+  },
+  {
+    "id": "b55afeb1-984a-4ef0-8893-67cf92f63255",
+    "text": "What is the term for the area where Formula 1 cars stop for tire changes and refueling?",
+    "options": [
+      "Garage zone",
+      "Pit lane",
+      "Service area",
+      "Mechanic strip"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "The pit lane is where Formula 1 cars stop for tire changes and other maintenance during races.",
+    "detailedExplanation": "The pit lane is a designated area alongside the main racing track where teams perform pit stops. During these stops, mechanics can change tires, make adjustments, and perform repairs. Pit stops are crucial strategic elements in Formula 1 races and typically last just a few seconds for a tire change, making them exciting spectacles of precision and teamwork.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Pit_stop",
+    "citationTitle": "Wikipedia: Pit stop"
+  },
+  {
+    "id": "d320e94a-d401-4ac6-a0ff-24fc5b960d15",
+    "text": "How many practice sessions are held before qualifying in a typical Formula 1 race weekend?",
+    "options": [
+      "One",
+      "Two",
+      "Three",
+      "Four"
+    ],
+    "correctIndex": 2,
+    "category": "sports",
+    "difficulty": "easy",
+    "explanation": "There are typically three practice sessions before qualifying in a Formula 1 race weekend.",
+    "detailedExplanation": "A standard Formula 1 race weekend format includes three practice sessions: two on Friday (FP1 and FP2) and one on Saturday morning (FP3), followed by qualifying on Saturday afternoon and the race on Sunday. These practice sessions allow teams to test their car setups, tire strategies, and give drivers time to learn the circuit and optimize their performance.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Formula_One_regulations",
+    "citationTitle": "Wikipedia: Formula One regulations"
+  }
+]

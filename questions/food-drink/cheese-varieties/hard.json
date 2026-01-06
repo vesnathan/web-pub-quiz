@@ -1,0 +1,342 @@
+[
+  {
+    "id": "1d77a6ef-79d4-4850-8336-ac176c67abef",
+    "text": "Which French cheese is traditionally aged in caves and has a distinctive orange rind created by washing with annatto and paprika?",
+    "options": [
+      "Maroilles",
+      "Mimolette",
+      "Munster",
+      "Morbier"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Mimolette is aged in caves and gets its distinctive orange color from annatto.",
+    "detailedExplanation": "Mimolette, also known as 'Boule de Lille,' is a hard French cheese from the Lille region. It develops its characteristic bright orange color from annatto, a natural coloring agent, and paprika used in the washing process. The cheese is traditionally aged in underground caves for up to 24 months, during which cheese mites create the distinctive pitted surface texture that resembles a cantaloupe.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Mimolette",
+    "citationTitle": "Wikipedia: Mimolette"
+  },
+  {
+    "id": "9f63706f-fa9d-49ed-8b61-0580e9487322",
+    "text": "What is the name of the traditional Greek cheese that is aged in goatskin bags and has a sharp, salty flavor?",
+    "options": [
+      "Kasseri",
+      "Kefalotyri",
+      "Touloumotyri",
+      "Graviera"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Touloumotyri is the Greek cheese traditionally aged in goatskin bags.",
+    "detailedExplanation": "Touloumotyri is a traditional Greek cheese whose name literally means 'bag cheese' in Greek. It is made from sheep's or goat's milk and aged in specially prepared goatskin bags called 'touloumi.' This ancient preservation method imparts a distinctive sharp, salty flavor and creates a unique texture. The cheese is particularly associated with the islands and mountainous regions of Greece, where this traditional aging method has been used for centuries.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Touloumotyri",
+    "citationTitle": "Wikipedia: Touloumotyri"
+  },
+  {
+    "id": "c8a95394-2ea9-430a-8a8a-7d73fc1db2d5",
+    "text": "Which Italian cheese variety is known for having layers of ash running through its center?",
+    "options": [
+      "Taleggio",
+      "Morbier",
+      "Gorgonzola",
+      "Humboldt Fog"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Morbier is famous for its distinctive horizontal layer of vegetable ash.",
+    "detailedExplanation": "Morbier is a semi-soft French cheese (not Italian, making this a tricky question) from the Franche-Comté region, famous for its distinctive horizontal layer of vegetable ash running through the center. Originally, this ash layer was created when cheesemakers would cover the morning's curd with ash to protect it, then add the evening's milk on top. Today, the ash layer is added for traditional appearance and is made from vegetable ash or charcoal powder.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Morbier_cheese",
+    "citationTitle": "Wikipedia: Morbier cheese"
+  },
+  {
+    "id": "c5052289-1528-4aea-be39-24c05a221c5a",
+    "text": "What is the minimum aging period required for authentic Parmigiano-Reggiano to be sold as 'Stravecchio'?",
+    "options": [
+      "24 months",
+      "30 months",
+      "36 months",
+      "48 months"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Stravecchio Parmigiano-Reggiano must be aged for a minimum of 36 months.",
+    "detailedExplanation": "Parmigiano-Reggiano has strict aging classifications under Italian law. The standard minimum is 12 months, 'Vecchio' requires 18-24 months, and 'Stravecchio' (meaning 'extra old') must be aged for at least 36 months. Some producers age their Stravecchio for up to 48 months or longer. The extended aging process creates the characteristic granular texture with calcium lactate crystals and intensifies the complex, nutty flavor profile that makes aged Parmigiano-Reggiano so prized.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Parmigiano-Reggiano",
+    "citationTitle": "Wikipedia: Parmigiano-Reggiano"
+  },
+  {
+    "id": "f3637fd0-cf30-4a98-8ae1-2e3e206a7f82",
+    "text": "Which cheese variety is traditionally made using thistle rennet instead of animal rennet?",
+    "options": [
+      "Serra da Estrela",
+      "Manchego",
+      "Pecorino Romano",
+      "Idiazábal"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Serra da Estrela uses thistle rennet from the cardoon plant for coagulation.",
+    "detailedExplanation": "Serra da Estrela is a Portuguese cheese made from sheep's milk that uniquely uses rennet extracted from the cardoon thistle (Cynara cardunculus) instead of traditional animal rennet. This plant-based coagulant gives the cheese its distinctive creamy, slightly bitter flavor and contributes to its characteristic soft, spreadable texture when fully ripe. The use of thistle rennet is an ancient tradition in Portugal and parts of Spain, dating back centuries.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Serra_da_Estrela_cheese",
+    "citationTitle": "Wikipedia: Serra da Estrela cheese"
+  },
+  {
+    "id": "8ebcbcdd-3aba-43fd-a07d-9ffefb721b9f",
+    "text": "What type of milk is traditionally used to make authentic Roquefort cheese?",
+    "options": [
+      "Cow's milk",
+      "Goat's milk",
+      "Sheep's milk",
+      "Buffalo milk"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Authentic Roquefort must be made exclusively from sheep's milk.",
+    "detailedExplanation": "Roquefort cheese, protected by French AOC (Appellation d'Origine Contrôlée) laws, must be made exclusively from the milk of Lacaune sheep and aged in the natural caves of Roquefort-sur-Soulzon in southern France. The sheep's milk gives Roquefort its distinctive rich, tangy flavor that's different from cow's milk blue cheeses. The specific breed of sheep, the terroir of the region, and the unique Penicillium roqueforti mold found naturally in the Combalou caves all contribute to the cheese's protected status and distinctive characteristics.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Roquefort",
+    "citationTitle": "Wikipedia: Roquefort"
+  },
+  {
+    "id": "e18e6463-2c59-4c00-a815-ee0f375b75ea",
+    "text": "Which Swiss cheese variety is known for having irregularly shaped holes called 'eyes' that form naturally during aging?",
+    "options": [
+      "Gruyère",
+      "Appenzeller",
+      "Emmental",
+      "Tête de Moine"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Emmental is famous for its characteristic irregular holes or 'eyes.'",
+    "detailedExplanation": "Emmental, often simply called 'Swiss cheese' in North America, is renowned for its distinctive holes or 'eyes' that form during the aging process. These holes are created by carbon dioxide gas produced by Propionibacterium shermanii bacteria during fermentation. The gas forms bubbles that create the characteristic holes of varying sizes. Traditional Emmental wheels can weigh up to 220 pounds and are aged for 4-18 months. The holes should be cherry to walnut-sized, and their formation is a sign of proper fermentation.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Emmental_cheese",
+    "citationTitle": "Wikipedia: Emmental cheese"
+  },
+  {
+    "id": "dd391e70-6285-498a-9b60-ae1ffac40cca",
+    "text": "What is the traditional method used to create the wrinkled, brain-like rind on Humboldt Fog cheese?",
+    "options": [
+      "Washing with wine",
+      "Coating with ash",
+      "Penicillium candidum mold",
+      "Salt brining"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Humboldt Fog develops its wrinkled rind through Penicillium candidum mold growth.",
+    "detailedExplanation": "Humboldt Fog, created by Cypress Grove Creamery in California, develops its distinctive wrinkled, brain-like white rind through the careful cultivation of Penicillium candidum mold. This same mold is used in Brie and Camembert production. As the cheese ages, the mold grows and creates the characteristic bloomy, textured surface that resembles fog rolling over hills. The cheese also features a distinctive layer of vegetable ash through its center, creating a striking visual contrast when cut.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Humboldt_Fog",
+    "citationTitle": "Wikipedia: Humboldt Fog"
+  },
+  {
+    "id": "79e1963b-185c-46f6-803c-5f6596d1234c",
+    "text": "Which English cheese was historically illegal to make during World War II due to wartime rationing restrictions?",
+    "options": [
+      "Stilton",
+      "Wensleydale",
+      "Red Leicester",
+      "Double Gloucester"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Stilton production was banned during WWII due to milk rationing restrictions.",
+    "detailedExplanation": "During World War II, the British government imposed strict rationing on dairy products, making it illegal to produce certain luxury cheeses including Stilton. The cheese requires specific high-quality milk and lengthy aging processes that were deemed wasteful of precious wartime resources. Production didn't resume until after the war ended, and the traditional methods had to be carefully preserved and relearned by cheesemakers.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Stilton_cheese",
+    "citationTitle": "Wikipedia: Stilton cheese"
+  },
+  {
+    "id": "3d33104c-1012-4709-8667-e3e6fa124d4f",
+    "text": "What is the name of the rare Norwegian cheese that is made from reindeer milk?",
+    "options": [
+      "Gamalost",
+      "Ridder",
+      "Pultost",
+      "Finnmarkost"
+    ],
+    "correctIndex": 3,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Finnmarkost is a traditional Norwegian cheese made from reindeer milk by the Sami people.",
+    "detailedExplanation": "Finnmarkost is an extremely rare and traditional cheese produced by the indigenous Sami people in northern Norway. Made from reindeer milk, it has a unique flavor profile and cultural significance. The production is limited due to the specialized nature of reindeer herding and milking, making it one of the world's most exclusive cheeses. The cheese reflects the traditional lifestyle of the Sami people and their deep connection with reindeer husbandry.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Reindeer_cheese",
+    "citationTitle": "Wikipedia: Reindeer cheese"
+  },
+  {
+    "id": "34345740-bad9-4e06-b651-0cb4f761b9f0",
+    "text": "Which cheese holds the Guinness World Record for being the most expensive cheese ever sold?",
+    "options": [
+      "White Stilton Gold",
+      "Pule",
+      "Wyke Farms Cheddar",
+      "Elk House Brie"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Pule, made from Serbian donkey milk, costs over $1,000 per pound.",
+    "detailedExplanation": "Pule cheese, produced at the Zasavica Special Nature Reserve in Serbia, holds the record as the world's most expensive cheese, selling for over $1,000 per pound. It's made exclusively from the milk of Balkan donkeys, and it takes 25 liters of donkey milk to produce just one kilogram of cheese. The donkeys can only be milked by hand three times a day, and the entire annual production is extremely limited, contributing to its astronomical price.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Pule_cheese",
+    "citationTitle": "Wikipedia: Pule cheese"
+  },
+  {
+    "id": "a459e754-ccc2-48c2-8b61-ffec10f87f8b",
+    "text": "What unique ingredient gives the German cheese Milbenkäse its distinctive flavor and texture?",
+    "options": [
+      "Wine sediment",
+      "Cheese mites",
+      "Pine needles",
+      "Clay minerals"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Milbenkäse is aged with cheese mites that eat the rind and create its unique characteristics.",
+    "detailedExplanation": "Milbenkäse, literally meaning 'mite cheese,' is a traditional German specialty from Saxony-Anhalt that is aged for several months in wooden boxes filled with cheese mites. These microscopic creatures consume the cheese's exterior, creating a distinctive brown rind and contributing to the cheese's complex, nutty flavor. The mites are considered beneficial and are actually consumed along with the cheese. This ancient preservation method dates back centuries and represents one of the most unusual aging processes in cheese-making.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Milbenk%C3%A4se",
+    "citationTitle": "Wikipedia: Milbenkäse"
+  },
+  {
+    "id": "d616a15e-7b93-4304-84e0-a58f6c4714f0",
+    "text": "Which Chinese cheese variety is traditionally buried underground for months to develop its flavor?",
+    "options": [
+      "Rubing",
+      "Chura kampo",
+      "Rushan",
+      "Ningbo"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Chura kampo from Tibet is traditionally aged by burying it underground for extended periods.",
+    "detailedExplanation": "Chura kampo is a traditional Tibetan cheese that undergoes a unique aging process where it is wrapped in yak hide and buried underground for several months. This underground aging method, practiced in the high-altitude regions of Tibet, allows the cheese to develop complex flavors while being protected from extreme temperature variations. The burial process creates anaerobic conditions that contribute to the cheese's distinctive taste and texture, making it one of the most unusual cheese-aging methods in the world.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Tibetan_cuisine",
+    "citationTitle": "Wikipedia: Tibetan cuisine"
+  },
+  {
+    "id": "306002f7-b193-4692-926e-78d15e93fb53",
+    "text": "What is the traditional container used for aging the Sicilian cheese Caciocavallo?",
+    "options": [
+      "Wooden barrels",
+      "Clay amphora",
+      "Hanging by rope",
+      "Stone caves"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Caciocavallo is traditionally aged by hanging the cheese wheels from ropes or wooden beams.",
+    "detailedExplanation": "Caciocavallo, whose name literally means 'cheese on horseback,' gets its distinctive pear or gourd shape from being tied with rope and hung to age. This traditional aging method involves suspending pairs of cheese wheels from wooden beams or ropes, allowing air to circulate around the entire surface. The hanging process not only aids in proper aging but also gives the cheese its characteristic elongated shape. This ancient technique has been used in southern Italy for centuries and contributes to the cheese's firm texture and complex flavor development.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Caciocavallo",
+    "citationTitle": "Wikipedia: Caciocavallo"
+  },
+  {
+    "id": "816fb9b9-9b5c-4f18-a855-c10f66c6ef56",
+    "text": "Which French cheese is traditionally made only during the months when cows graze on specific alpine flowers?",
+    "options": [
+      "Beaufort d'été",
+      "Comté",
+      "Abondance",
+      "Reblochon"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Beaufort d'été is made only during summer months when cows graze on high-altitude alpine pastures.",
+    "detailedExplanation": "Beaufort d'été, also known as Beaufort d'alpage, is produced exclusively during the summer months (typically June to October) when herds graze on high-altitude alpine pastures in the French Alps. The cows feed on diverse alpine grasses and flowers including gentian, rhododendron, and various mountain herbs, which impart unique flavors and a distinctive golden color to the milk. This seasonal production method, protected by AOC designation, ensures that the cheese captures the essence of the alpine terroir and represents one of the finest examples of how pasture quality directly influences cheese characteristics.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Beaufort_cheese",
+    "citationTitle": "Wikipedia: Beaufort cheese"
+  },
+  {
+    "id": "89d5e2b7-6aa8-46e7-80a1-9aab2bb2b310",
+    "text": "What gives the Welsh cheese Caerphilly its traditional white, powdery rind?",
+    "options": [
+      "Limestone dust",
+      "Salt crystals",
+      "Natural mold bloom",
+      "Chalk powder"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Traditional Caerphilly develops a natural white mold bloom (Penicillium candidum) on its surface during aging.",
+    "detailedExplanation": "Authentic Caerphilly cheese develops its characteristic white, powdery rind through the natural formation of Penicillium candidum mold during the aging process. This beneficial mold bloom forms naturally on the cheese's surface in the humid aging environments of Welsh caves or cellars. The white rind not only provides protection for the cheese but also contributes to flavor development, creating enzymes that break down proteins and fats. This natural molding process distinguishes traditional Caerphilly from mass-produced versions that may use artificial coatings.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Caerphilly_cheese",
+    "citationTitle": "Wikipedia: Caerphilly cheese"
+  },
+  {
+    "id": "36724288-6107-4471-8f65-0d191b3dee98",
+    "text": "Which blue cheese was reportedly discovered by accident when a drunken cheesemaker left his lunch of bread and cheese in a cave near Roquefort-sur-Soulzon?",
+    "options": [
+      "Stilton",
+      "Gorgonzola",
+      "Roquefort",
+      "Cabrales"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Roquefort was allegedly discovered when a shepherd left his lunch in a cave and returned to find it transformed by Penicillium roqueforti mold.",
+    "detailedExplanation": "According to legend, Roquefort cheese was discovered around 1070 AD when a young shepherd pursuing a beautiful girl abandoned his lunch of bread and ewes' milk cheese in a cave near the village of Roquefort-sur-Soulzon. When he returned months later, the cheese had been transformed by the naturally occurring Penicillium roqueforti mold that thrives in the limestone caves of the region. This accidental discovery led to one of France's most prized cheeses, which was later protected by royal decree in 1411 by Charles VI, making it one of the world's first protected designation of origin foods.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Roquefort_cheese",
+    "citationTitle": "Wikipedia: Roquefort cheese"
+  },
+  {
+    "id": "e022102c-a5d5-48ff-b895-8cbe601b7a64",
+    "text": "What is the traditional name for the wooden hoops used to shape and drain Camembert cheese during production?",
+    "options": [
+      "Faisselles",
+      "Cercles",
+      "Moules à fromage",
+      "All of the above"
+    ],
+    "correctIndex": 3,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "The wooden hoops used in traditional Camembert production are known by several French terms including faisselles, cercles, and moules à fromage.",
+    "detailedExplanation": "Traditional Camembert production relies on specialized wooden hoops that have been used for centuries to give the cheese its distinctive round shape and allow proper drainage of whey. These hoops are known by various French terms: 'faisselles' (referring to the draining baskets), 'cercles' (meaning circles or rings), and 'moules à fromage' (cheese molds). The wood, typically beech or chestnut, is preferred over modern plastic alternatives because it allows for better air circulation and imparts subtle flavors. The hoops are carefully maintained and seasoned over years of use, with some artisanal producers using hoops that have been in their families for generations.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Camembert",
+    "citationTitle": "Wikipedia: Camembert"
+  },
+  {
+    "id": "a0ce6dec-35d5-4661-8e68-119f0515d1ea",
+    "text": "Which cheese variety gets its distinctive red-orange color from being washed with a brine solution containing Brevibacterium linens bacteria?",
+    "options": [
+      "Limburger",
+      "Taleggio",
+      "Époisses",
+      "All of the above"
+    ],
+    "correctIndex": 3,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "All these washed-rind cheeses develop their characteristic red-orange color and pungent aroma from Brevibacterium linens bacteria in the washing solution.",
+    "detailedExplanation": "Washed-rind cheeses like Limburger, Taleggio, and Époisses all owe their distinctive appearance and strong aroma to the same microorganism: Brevibacterium linens, also known as B. linens or 'red bacteria.' During the aging process, these cheeses are regularly washed with brine solutions that encourage the growth of this beneficial bacteria on their surfaces. B. linens not only creates the characteristic red-orange, sticky rind but also produces the pungent, often foot-like aroma that makes these cheeses so distinctive. Interestingly, the same bacteria naturally occurs on human skin and is responsible for foot odor, which explains the similarity in smell between these cheeses and sweaty feet.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Washed-rind_cheese",
+    "citationTitle": "Wikipedia: Washed-rind cheese"
+  },
+  {
+    "id": "d3f32415-4e7f-4049-a975-999864bc8a12",
+    "text": "In which country would you find the cheese variety called 'Leipäjuusto,' which is traditionally grilled or baked until it squeaks when bitten?",
+    "options": [
+      "Sweden",
+      "Finland",
+      "Norway",
+      "Denmark"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Leipäjuusto, also known as 'bread cheese' or 'squeaky cheese,' is a traditional Finnish cheese that makes a squeaking sound when fresh.",
+    "detailedExplanation": "Leipäjuusto, literally meaning 'bread cheese' in Finnish, is a distinctive cheese from northern Finland and Lapland. Also known as 'Finnish squeaky cheese' or juustoleipä, it gets its name from both its bread-like appearance after baking and the characteristic squeaking sound it makes when bitten while fresh. Traditionally made from reindeer milk, though now more commonly from cow's milk, the cheese is formed into flat rounds and then baked or grilled until the surface develops a golden-brown, slightly caramelized crust. The high protein content creates the unique squeaky texture, and it's often served warm with cloudberry jam or honey. The cheese has gained international popularity and is sometimes called 'Finnish bread cheese' in export markets.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Leip%C3%A4juusto",
+    "citationTitle": "Wikipedia: Leipäjuusto"
+  }
+]

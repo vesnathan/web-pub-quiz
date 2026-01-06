@@ -1,0 +1,342 @@
+[
+  {
+    "id": "c4815e19-255f-4a5b-bc6e-bec7ec6b09bf",
+    "text": "Which museum houses the world's largest collection of Impressionist and Post-Impressionist paintings?",
+    "options": [
+      "The Louvre",
+      "Musée d'Orsay",
+      "Metropolitan Museum of Art",
+      "National Gallery London"
+    ],
+    "correctIndex": 1,
+    "category": "arts",
+    "difficulty": "easy",
+    "explanation": "The Musée d'Orsay in Paris holds the world's largest collection of Impressionist and Post-Impressionist works.",
+    "detailedExplanation": "The Musée d'Orsay, housed in a former railway station in Paris, is renowned for having the world's finest collection of Impressionist and Post-Impressionist paintings. The museum features works by Monet, Renoir, Degas, Cézanne, Van Gogh, and many other masters from this revolutionary period in art history, making it a pilgrimage site for art lovers worldwide.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Mus%C3%A9e_d%27Orsay",
+    "citationTitle": "Wikipedia: Musée d'Orsay"
+  },
+  {
+    "id": "994f9699-79c3-47d1-9394-12cf8f4d3ba0",
+    "text": "The Tate Modern in London is famous for housing which type of art collection?",
+    "options": [
+      "Ancient Egyptian artifacts",
+      "Contemporary and modern art",
+      "Medieval manuscripts",
+      "Classical sculptures"
+    ],
+    "correctIndex": 1,
+    "category": "arts",
+    "difficulty": "easy",
+    "explanation": "Tate Modern specializes in international modern and contemporary art from 1900 to the present day.",
+    "detailedExplanation": "Tate Modern, located in the former Bankside Power Station on the Thames, is Britain's national gallery of international modern and contemporary art. The museum houses works from 1900 to the present, including pieces by Picasso, Warhol, Hockney, and many other influential modern artists. It's one of the most visited modern art galleries in the world.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Tate_Modern",
+    "citationTitle": "Wikipedia: Tate Modern"
+  },
+  {
+    "id": "45bb06cd-74a2-4e19-a719-e95b32b02a26",
+    "text": "Which New York museum is famous for its spiral ramp design and collection of modern art?",
+    "options": [
+      "Museum of Modern Art",
+      "Whitney Museum",
+      "Guggenheim Museum",
+      "Frick Collection"
+    ],
+    "correctIndex": 2,
+    "category": "arts",
+    "difficulty": "easy",
+    "explanation": "The Guggenheim Museum, designed by Frank Lloyd Wright, features a distinctive spiral ramp and modern art collection.",
+    "detailedExplanation": "The Solomon R. Guggenheim Museum in New York City is instantly recognizable by its unique spiral architecture designed by Frank Lloyd Wright. The museum's rotunda features a continuous ramp that spirals upward, allowing visitors to view art while walking along the curved pathway. The collection includes important works of Impressionist, Post-Impressionist, early Modern, and contemporary art.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Solomon_R._Guggenheim_Museum",
+    "citationTitle": "Wikipedia: Solomon R. Guggenheim Museum"
+  },
+  {
+    "id": "2c3fe6c6-3d7c-4617-814c-a908f7e452a6",
+    "text": "The Hermitage Museum in St. Petersburg is one of the world's largest art galleries. In how many buildings is its collection housed?",
+    "options": [
+      "Three buildings",
+      "Five buildings",
+      "Six buildings",
+      "Ten buildings"
+    ],
+    "correctIndex": 2,
+    "category": "arts",
+    "difficulty": "easy",
+    "explanation": "The State Hermitage Museum's collection is housed in six historic buildings along the Palace Embankment.",
+    "detailedExplanation": "The State Hermitage Museum in St. Petersburg, Russia, is one of the largest and oldest museums in the world. Its vast collection of over three million items is housed in six historic buildings along the Palace Embankment, including the Winter Palace, Small Hermitage, Old Hermitage, New Hermitage, Hermitage Theatre, and Reserve House. The museum's collection spans from ancient times to the present day.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Hermitage_Museum",
+    "citationTitle": "Wikipedia: Hermitage Museum"
+  },
+  {
+    "id": "9abecc6c-bede-4c49-9c98-bdf041922b49",
+    "text": "Which museum houses the famous painting 'The Starry Night' by Vincent van Gogh?",
+    "options": [
+      "Van Gogh Museum Amsterdam",
+      "Museum of Modern Art New York",
+      "National Gallery London",
+      "Rijksmuseum Amsterdam"
+    ],
+    "correctIndex": 1,
+    "category": "arts",
+    "difficulty": "easy",
+    "explanation": "The Museum of Modern Art (MoMA) in New York has housed 'The Starry Night' since 1941.",
+    "detailedExplanation": "Vincent van Gogh's masterpiece 'The Starry Night,' painted in 1889, is part of the permanent collection at the Museum of Modern Art (MoMA) in New York City. The painting has been in MoMA's collection since 1941 and is one of the most recognizable works in their collection. Despite the Van Gogh Museum in Amsterdam having the largest collection of the artist's works, this particular famous piece resides in New York.",
+    "citationUrl": "https://en.wikipedia.org/wiki/The_Starry_Night",
+    "citationTitle": "Wikipedia: The Starry Night"
+  },
+  {
+    "id": "d0ac02e0-e689-4de2-89b1-2e0b50fcd693",
+    "text": "The British Museum in London is particularly famous for which type of collection?",
+    "options": [
+      "Modern paintings",
+      "Ancient artifacts and antiquities",
+      "Contemporary sculptures",
+      "Impressionist works"
+    ],
+    "correctIndex": 1,
+    "category": "arts",
+    "difficulty": "easy",
+    "explanation": "The British Museum specializes in ancient artifacts and antiquities from around the world.",
+    "detailedExplanation": "The British Museum, established in 1753, houses one of the world's most comprehensive collections of ancient artifacts and antiquities. The museum's collection spans human history from prehistoric times to the present, including famous pieces like the Rosetta Stone, Egyptian mummies, Greek sculptures from the Parthenon, and artifacts from virtually every civilization. It focuses on archaeology, ethnography, and historical artifacts rather than paintings or contemporary art.",
+    "citationUrl": "https://en.wikipedia.org/wiki/British_Museum",
+    "citationTitle": "Wikipedia: British Museum"
+  },
+  {
+    "id": "a2afa20f-0dae-4042-9f3a-9a596e0f9dae",
+    "text": "Which museum collection includes the famous 'Girl with a Pearl Earring' by Johannes Vermeer?",
+    "options": [
+      "Rijksmuseum",
+      "Mauritshuis",
+      "Van Gogh Museum",
+      "Stedelijk Museum"
+    ],
+    "correctIndex": 1,
+    "category": "arts",
+    "difficulty": "easy",
+    "explanation": "The Mauritshuis in The Hague, Netherlands, houses Vermeer's 'Girl with a Pearl Earring.'",
+    "detailedExplanation": "The Mauritshuis museum in The Hague, Netherlands, is home to Johannes Vermeer's famous painting 'Girl with a Pearl Earring,' created around 1665. This small but prestigious museum specializes in Dutch Golden Age painting and houses an exceptional collection of works by Vermeer, Rembrandt, and other Dutch masters. The painting has become one of the most famous works in art history and a major draw for visitors to the museum.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Girl_with_a_Pearl_Earring",
+    "citationTitle": "Wikipedia: Girl with a Pearl Earring"
+  },
+  {
+    "id": "a1e2a58b-ac71-4741-873f-954f06fff490",
+    "text": "The Prado Museum in Madrid is most famous for its collection of which type of European art?",
+    "options": [
+      "French Impressionism",
+      "Italian Renaissance",
+      "Spanish masters and European paintings",
+      "German Expressionism"
+    ],
+    "correctIndex": 2,
+    "category": "arts",
+    "difficulty": "easy",
+    "explanation": "The Prado is renowned for its collection of Spanish masters like Velázquez and Goya, plus other European paintings.",
+    "detailedExplanation": "The Museo del Prado in Madrid is one of the world's premier art galleries, particularly famous for its extensive collection of Spanish masters including Diego Velázquez, Francisco Goya, and El Greco. The museum also houses significant collections of Italian and Flemish art, including works by Titian, Rubens, and Bosch. The Prado's collection represents one of the finest assemblages of European art from the 12th to the early 19th centuries.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Museo_del_Prado",
+    "citationTitle": "Wikipedia: Museo del Prado"
+  },
+  {
+    "id": "e1e7fc95-f156-44f5-acd2-e4a680c6dcab",
+    "text": "Which famous painting by Leonardo da Vinci is housed in the Louvre Museum in Paris?",
+    "options": [
+      "The Last Supper",
+      "Mona Lisa",
+      "Vitruvian Man",
+      "Lady with an Ermine"
+    ],
+    "correctIndex": 1,
+    "category": "arts",
+    "difficulty": "easy",
+    "explanation": "The Mona Lisa is permanently displayed at the Louvre Museum in Paris.",
+    "detailedExplanation": "The Mona Lisa, painted by Leonardo da Vinci between 1503-1519, has been part of the French royal collection since 1797 and is now the centerpiece of the Louvre's collection. It attracts millions of visitors annually and is displayed in a climate-controlled case in the museum's Denon Wing. The painting became even more famous after it was stolen in 1911 and recovered in 1914.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Mona_Lisa",
+    "citationTitle": "Wikipedia: Mona Lisa"
+  },
+  {
+    "id": "6f247530-41ed-4af5-a97d-4e99cb80e6bb",
+    "text": "The Metropolitan Museum of Art in New York is home to which famous ancient Egyptian artifact?",
+    "options": [
+      "Rosetta Stone",
+      "Temple of Dendur",
+      "Bust of Nefertiti",
+      "King Tut's mask"
+    ],
+    "correctIndex": 1,
+    "category": "arts",
+    "difficulty": "easy",
+    "explanation": "The Temple of Dendur is housed in the Metropolitan Museum's Sackler Wing.",
+    "detailedExplanation": "The Temple of Dendur, built around 15 BC, was gifted to the United States by Egypt in 1965 as thanks for American assistance in saving monuments threatened by the Aswan High Dam. The entire Roman-period temple was dismantled, shipped to New York, and reconstructed in the Met's specially built Sackler Wing, complete with a reflecting pool that mimics the Nile River setting.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Temple_of_Dendur",
+    "citationTitle": "Wikipedia: Temple of Dendur"
+  },
+  {
+    "id": "c18660a2-b4e6-48fe-8690-cd43e63f396c",
+    "text": "Which museum houses Michelangelo's famous sculpture 'David'?",
+    "options": [
+      "Uffizi Gallery",
+      "Vatican Museums",
+      "Galleria dell'Accademia",
+      "Palazzo Vecchio"
+    ],
+    "correctIndex": 2,
+    "category": "arts",
+    "difficulty": "easy",
+    "explanation": "Michelangelo's David is displayed at the Galleria dell'Accademia in Florence, Italy.",
+    "detailedExplanation": "Michelangelo's David was moved to the Galleria dell'Accademia in Florence in 1873 to protect it from weather damage, as it originally stood in the Piazza della Signoria from 1504. The 17-foot tall marble sculpture, completed in 1504, represents the Biblical hero David and is considered one of the finest examples of High Renaissance sculpture. The museum's Tribune hall was specifically designed to house this masterpiece.",
+    "citationUrl": "https://en.wikipedia.org/wiki/David_(Michelangelo)",
+    "citationTitle": "Wikipedia: David (Michelangelo)"
+  },
+  {
+    "id": "bf6e4f98-bef8-47ab-adde-dd2cf0976924",
+    "text": "The National Gallery in London is famous for NOT charging visitors what?",
+    "options": [
+      "Parking fees",
+      "Audio guide rental",
+      "Admission fees",
+      "Photography permits"
+    ],
+    "correctIndex": 2,
+    "category": "arts",
+    "difficulty": "easy",
+    "explanation": "The National Gallery in London offers free admission to its permanent collection.",
+    "detailedExplanation": "The National Gallery in London has maintained free admission to its permanent collection since its founding in 1824, making it one of the world's major art museums that doesn't charge entry fees. This policy ensures that art remains accessible to all visitors regardless of economic background. While special exhibitions may charge fees, visitors can view masterpieces by artists like Van Gogh, Monet, and Botticelli without paying admission.",
+    "citationUrl": "https://en.wikipedia.org/wiki/National_Gallery",
+    "citationTitle": "Wikipedia: National Gallery"
+  },
+  {
+    "id": "05d05bdd-f44f-4b6a-9b4d-0223ab8e8002",
+    "text": "Which museum collection includes the famous ancient Greek sculpture 'Venus de Milo'?",
+    "options": [
+      "British Museum",
+      "Louvre Museum",
+      "Acropolis Museum",
+      "National Archaeological Museum"
+    ],
+    "correctIndex": 1,
+    "category": "arts",
+    "difficulty": "easy",
+    "explanation": "The Venus de Milo is part of the Louvre Museum's collection in Paris.",
+    "detailedExplanation": "The Venus de Milo, discovered on the Greek island of Milos in 1820, was acquired by France and has been displayed at the Louvre Museum since 1821. This ancient Greek sculpture, believed to depict Aphrodite (Venus in Roman mythology), dates from around 130-100 BC and is considered one of the most famous ancient Greek sculptures. It stands in the Louvre's Sully Wing and attracts millions of visitors annually.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Venus_de_Milo",
+    "citationTitle": "Wikipedia: Venus de Milo"
+  },
+  {
+    "id": "dc814b51-7ca2-4d10-b8bb-e835b980277a",
+    "text": "The Museum of Modern Art (MoMA) in New York is particularly famous for housing which artist's 'The Persistence of Memory'?",
+    "options": [
+      "Pablo Picasso",
+      "Henri Matisse",
+      "Salvador Dalí",
+      "Jackson Pollock"
+    ],
+    "correctIndex": 2,
+    "category": "arts",
+    "difficulty": "easy",
+    "explanation": "Salvador Dalí's 'The Persistence of Memory' is part of MoMA's collection.",
+    "detailedExplanation": "Salvador Dalí's surrealist masterpiece 'The Persistence of Memory' (1931), famous for its melting clocks, has been part of MoMA's collection since 1934. The small but iconic painting measures only 24 × 33 cm and represents Dalí's theory of 'softness' and 'hardness,' which was central to his surrealist thinking. It remains one of the most recognizable and frequently reproduced artworks in MoMA's extensive modern art collection.",
+    "citationUrl": "https://en.wikipedia.org/wiki/The_Persistence_of_Memory",
+    "citationTitle": "Wikipedia: The Persistence of Memory"
+  },
+  {
+    "id": "809713b7-ca74-45a7-8756-1db98e987075",
+    "text": "Which museum houses the largest collection of Van Gogh's paintings and drawings?",
+    "options": [
+      "Rijksmuseum",
+      "Van Gogh Museum",
+      "Kröller-Müller Museum",
+      "Stedelijk Museum"
+    ],
+    "correctIndex": 1,
+    "category": "arts",
+    "difficulty": "easy",
+    "explanation": "The Van Gogh Museum in Amsterdam holds the world's largest collection of Van Gogh's works.",
+    "detailedExplanation": "The Van Gogh Museum in Amsterdam, opened in 1973, houses the largest collection of Vincent van Gogh's paintings, drawings, and letters in the world. The collection includes over 200 paintings, 500 drawings, and 750 personal letters, primarily acquired from the estate of Van Gogh's brother Theo's family. The museum was specifically designed to showcase Van Gogh's artistic development and provides comprehensive insight into the artist's life and work.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Van_Gogh_Museum",
+    "citationTitle": "Wikipedia: Van Gogh Museum"
+  },
+  {
+    "id": "6039b8de-eacd-40b0-a17b-367be64f21f8",
+    "text": "The Sistine Chapel, famous for Michelangelo's ceiling frescoes, is part of which museum complex?",
+    "options": [
+      "Capitoline Museums",
+      "Palazzo Altemps",
+      "Vatican Museums",
+      "Palazzo Massimo"
+    ],
+    "correctIndex": 2,
+    "category": "arts",
+    "difficulty": "easy",
+    "explanation": "The Sistine Chapel is part of the Vatican Museums complex in Vatican City.",
+    "detailedExplanation": "The Sistine Chapel, built between 1473-1481, serves as both a papal chapel and the culminating attraction of the Vatican Museums tour. Michelangelo painted the famous ceiling between 1508-1512 and later created 'The Last Judgment' on the altar wall (1536-1541). The Vatican Museums, established in the early 16th century, contain one of the world's greatest art collections, accumulated by the Catholic Church over centuries, with the Sistine Chapel being its most famous component.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Vatican_Museums",
+    "citationTitle": "Wikipedia: Vatican Museums"
+  },
+  {
+    "id": "3f2be63a-ba1a-44f1-baa3-b924f838ceae",
+    "text": "Which art museum is famous for housing the world's largest collection of Rodin sculptures?",
+    "options": [
+      "Musée Rodin in Paris",
+      "Tate Britain in London",
+      "Smithsonian American Art Museum",
+      "Art Institute of Chicago"
+    ],
+    "correctIndex": 0,
+    "category": "arts",
+    "difficulty": "easy",
+    "explanation": "The Musée Rodin in Paris houses the world's largest collection of Auguste Rodin's sculptures.",
+    "detailedExplanation": "The Musée Rodin in Paris, located in the Hôtel Biron and its surrounding gardens, contains the world's most comprehensive collection of works by Auguste Rodin. The museum was established in 1916 and houses over 6,600 sculptures, including famous works like 'The Thinker' and 'The Kiss,' along with drawings, photographs, and other artifacts related to the artist's life and work.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Mus%C3%A9e_Rodin",
+    "citationTitle": "Wikipedia: Musée Rodin"
+  },
+  {
+    "id": "8d49a5da-574a-4360-87dc-d13e5e2ace12",
+    "text": "The Rijksmuseum in Amsterdam is most famous for its collection of art from which period?",
+    "options": [
+      "Dutch Golden Age",
+      "Renaissance Italy",
+      "French Impressionism",
+      "German Expressionism"
+    ],
+    "correctIndex": 0,
+    "category": "arts",
+    "difficulty": "easy",
+    "explanation": "The Rijksmuseum is renowned for its extensive collection of Dutch Golden Age paintings from the 17th century.",
+    "detailedExplanation": "The Rijksmuseum in Amsterdam holds the world's finest collection of Dutch Golden Age art, featuring masterpieces from the 17th century when the Dutch Republic was at its cultural and economic peak. The collection includes works by Rembrandt, Vermeer, and other Dutch masters, with Rembrandt's 'The Night Watch' being one of its most famous pieces. The museum's collection spans 800 years of Dutch art and history.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Rijksmuseum",
+    "citationTitle": "Wikipedia: Rijksmuseum"
+  },
+  {
+    "id": "4b30b35f-3391-4161-81f4-2ffffeea17f5",
+    "text": "Which museum collection is famous for housing the largest number of Picasso's works?",
+    "options": [
+      "Museu Picasso in Barcelona",
+      "Museum of Modern Art in New York",
+      "Centre Pompidou in Paris",
+      "Tate Modern in London"
+    ],
+    "correctIndex": 0,
+    "category": "arts",
+    "difficulty": "easy",
+    "explanation": "The Museu Picasso in Barcelona holds the most extensive collection of Pablo Picasso's artworks in the world.",
+    "detailedExplanation": "The Museu Picasso in Barcelona houses over 4,250 works by Pablo Picasso, making it the most comprehensive collection of the artist's work anywhere in the world. The museum focuses particularly on Picasso's early years and his relationship with Barcelona, where he spent his formative years as an artist. The collection includes paintings, drawings, engravings, and ceramics spanning the artist's entire career, with special emphasis on his Blue Period works.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Museu_Picasso",
+    "citationTitle": "Wikipedia: Museu Picasso"
+  },
+  {
+    "id": "7796e6a9-6d4b-454c-a08b-780c05389a75",
+    "text": "The Frick Collection in New York is housed in what type of building?",
+    "options": [
+      "A former private mansion",
+      "A converted warehouse",
+      "A purpose-built museum",
+      "A former railway station"
+    ],
+    "correctIndex": 0,
+    "category": "arts",
+    "difficulty": "easy",
+    "explanation": "The Frick Collection is located in the former mansion of industrialist Henry Clay Frick.",
+    "detailedExplanation": "The Frick Collection is housed in the former residence of steel magnate Henry Clay Frick, built in 1913-1914 on Fifth Avenue in Manhattan. Frick bequeathed his mansion and art collection to create a public museum after his death. The intimate setting of the former home provides a unique museum experience, displaying masterpieces by artists like Fragonard, Whistler, and Vermeer in elegant room settings that maintain the character of a grand private residence.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Frick_Collection",
+    "citationTitle": "Wikipedia: Frick Collection"
+  }
+]

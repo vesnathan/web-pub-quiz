@@ -1,0 +1,342 @@
+[
+  {
+    "id": "4d813f4d-536f-4e03-b657-d8d7ab9b6abe",
+    "text": "What was the first commercial web browser to support animated GIFs natively?",
+    "options": [
+      "Netscape Navigator",
+      "Internet Explorer",
+      "Mosaic",
+      "Opera"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Netscape Navigator was the first commercial browser to natively support animated GIFs in 1995.",
+    "detailedExplanation": "Netscape Navigator 2.0, released in 1995, was the first commercial web browser to include native support for animated GIFs. This feature helped popularize the animated GIF format on the early web, as users could view these animations without requiring additional plugins or software. The GIF89a specification that enabled animation had been available since 1989, but browser support was crucial for widespread adoption.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Netscape_Navigator",
+    "citationTitle": "Wikipedia: Netscape Navigator"
+  },
+  {
+    "id": "7caea5ae-b1a6-49a3-ac97-6e16541a6430",
+    "text": "Which RFC number formally defined the HTTP/1.1 protocol in 1999?",
+    "options": [
+      "RFC 2068",
+      "RFC 2616",
+      "RFC 1945",
+      "RFC 2817"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "RFC 2616 formally defined the HTTP/1.1 protocol specification in June 1999.",
+    "detailedExplanation": "RFC 2616, published in June 1999, provided the formal specification for HTTP/1.1, which became the foundation of web communication for nearly two decades. This document defined persistent connections, chunked transfer encoding, additional cache control mechanisms, and improved header handling. HTTP/1.1 represented a significant improvement over HTTP/1.0, enabling more efficient web browsing and better server performance through connection reuse.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol",
+    "citationTitle": "Wikipedia: Hypertext Transfer Protocol"
+  },
+  {
+    "id": "c98d514f-9788-450d-b559-b2063481ef83",
+    "text": "What was the original maximum character limit for SMS messages when the service launched?",
+    "options": [
+      "140 characters",
+      "160 characters",
+      "180 characters",
+      "200 characters"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "SMS messages were originally limited to 160 characters when the service was first implemented.",
+    "detailedExplanation": "The 160-character limit for SMS messages was established by Friedhelm Hillebrand in 1985 when developing the SMS standard for GSM networks. Hillebrand found that most postcards and Telex messages fit within 160 characters, making this a practical limit. The first SMS was sent on December 3, 1992, from Neil Papworth to Richard Jarvis at Vodafone, simply saying 'Merry Christmas.' This character limit would later influence the design of Twitter and other social media platforms.",
+    "citationUrl": "https://en.wikipedia.org/wiki/SMS",
+    "citationTitle": "Wikipedia: SMS"
+  },
+  {
+    "id": "7f3f06b9-9947-4f52-be6c-3fef675c8d49",
+    "text": "Which company operated the first major search engine to use PageRank algorithm before Google acquired the technology?",
+    "options": [
+      "BackRub was Google's predecessor",
+      "AltaVista",
+      "Yahoo!",
+      "Excite"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "BackRub was the original name of Google's search engine project that first implemented the PageRank algorithm.",
+    "detailedExplanation": "BackRub was the original name of Larry Page and Sergey Brin's search engine project at Stanford University, which began in 1996. The project was renamed to Google in 1997. BackRub was the first search engine to implement the PageRank algorithm, which ranked web pages based on their link structure rather than just keyword density. This revolutionary approach to web search became the foundation of Google's success and fundamentally changed how search engines worked.",
+    "citationUrl": "https://en.wikipedia.org/wiki/BackRub",
+    "citationTitle": "Wikipedia: BackRub"
+  },
+  {
+    "id": "32d053d3-99fd-4c6c-bd8e-460a7a7076ac",
+    "text": "What was the bandwidth of the first transatlantic internet cable (TAT-8) that carried internet traffic in 1988?",
+    "options": [
+      "280 Mbps",
+      "560 Mbps",
+      "140 Mbps",
+      "1.12 Gbps"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "TAT-8, the first fiber optic transatlantic cable, had a capacity of 280 Mbps when it began service in 1988.",
+    "detailedExplanation": "TAT-8 (Transatlantic No. 8) was the first fiber optic cable laid across the Atlantic Ocean, becoming operational on December 14, 1988. With a capacity of 280 Mbps, it could carry 40,000 simultaneous telephone conversations, representing a massive increase over previous copper cable systems. While initially used primarily for telephone traffic, TAT-8 became crucial for early internet connectivity between North America and Europe, enabling the global expansion of the internet in the late 1980s and early 1990s.",
+    "citationUrl": "https://en.wikipedia.org/wiki/TAT-8",
+    "citationTitle": "Wikipedia: TAT-8"
+  },
+  {
+    "id": "688ae852-4c68-4896-b424-de810a610151",
+    "text": "Which protocol number is assigned to ICMP (Internet Control Message Protocol) in the IP header?",
+    "options": [
+      "Protocol 1",
+      "Protocol 6",
+      "Protocol 17",
+      "Protocol 89"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "ICMP is assigned protocol number 1 in the IP protocol field.",
+    "detailedExplanation": "The Internet Control Message Protocol (ICMP) is assigned protocol number 1 in the IP header's protocol field. ICMP was defined in RFC 792 in 1981 and is used for error reporting and diagnostic functions in IP networks. Common ICMP messages include ping (echo request/reply), traceroute, and various error messages like 'destination unreachable.' The protocol number system allows IP to multiplex different protocols over the same network infrastructure, with TCP using protocol 6 and UDP using protocol 17.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Internet_Control_Message_Protocol",
+    "citationTitle": "Wikipedia: Internet Control Message Protocol"
+  },
+  {
+    "id": "a5b8cf03-d88c-45cd-baf5-38253f4548e2",
+    "text": "What was the original price of registering a .com domain name when Network Solutions began charging in September 1995?",
+    "options": [
+      "$50 for two years",
+      "$100 for two years",
+      "$35 per year",
+      "$70 for two years"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Network Solutions charged $100 for a two-year .com domain registration when they began charging in September 1995.",
+    "detailedExplanation": "On September 14, 1995, Network Solutions began charging $100 for two-year .com domain registrations, ending the era of free domain names that had existed since the DNS system's creation. This decision was controversial but necessary to fund the growing domain name system infrastructure. Prior to this date, domain registration had been free as part of NSF-funded internet research. The pricing model established the commercial foundation for the domain name industry that continues today, though competition eventually drove prices down significantly.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Network_Solutions",
+    "citationTitle": "Wikipedia: Network Solutions"
+  },
+  {
+    "id": "4ddcaca7-ef77-4f8e-93a6-61f656edcb13",
+    "text": "Which internet milestone occurred first chronologically?",
+    "options": [
+      "First spam email sent (1978)",
+      "Creation of Usenet (1979)",
+      "CSNET proposal submitted (1980)",
+      "TCP/IP adopted by ARPANET (1983)"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "The first spam email was sent by Gary Thuerk in 1978, predating the other milestones listed.",
+    "detailedExplanation": "On May 3, 1978, Gary Thuerk of Digital Equipment Corporation sent the first mass unsolicited commercial email to approximately 400 ARPANET users, advertising a product presentation for DEC computers. This email is widely considered the first spam message and violated ARPANET's acceptable use policies. The message generated significant complaints and established the precedent for what would become one of the internet's most persistent problems. This occurred before Usenet's creation in 1979, making it the earliest milestone among the options listed.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Email_spam",
+    "citationTitle": "Wikipedia: Email spam"
+  },
+  {
+    "id": "8cd71878-b3bf-4e5e-93c8-a89b24929376",
+    "text": "What was the name of the first computer worm to spread across the ARPANET in 1988, infecting approximately 6,000 computers?",
+    "options": [
+      "Morris Worm",
+      "ILOVEYOU",
+      "Code Red",
+      "Conficker"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "The Morris Worm was the first major internet worm, created by Robert Tappan Morris.",
+    "detailedExplanation": "The Morris Worm, released on November 2, 1988, was the first computer worm distributed via the Internet and is considered the first major cybersecurity incident. Created by Cornell graduate student Robert Tappan Morris, it infected approximately 6,000 of the 60,000 computers connected to the internet at the time, causing significant disruption and leading to the first conviction under the Computer Fraud and Abuse Act.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Morris_worm",
+    "citationTitle": "Wikipedia: Morris worm"
+  },
+  {
+    "id": "b8b5c7c9-82f0-410d-8de3-691e41244523",
+    "text": "Which company's IPO on August 9, 1995, is widely credited with launching the dot-com boom?",
+    "options": [
+      "Yahoo!",
+      "Netscape",
+      "Amazon",
+      "eBay"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Netscape's IPO reached $75 per share on its first day, marking the beginning of the dot-com era.",
+    "detailedExplanation": "Netscape Communications Corporation went public on August 9, 1995, with its stock price soaring from $28 to $75 per share on the first day of trading, giving the company a market valuation of $2.9 billion despite having relatively modest revenues. This dramatic debut is widely considered the catalyst that launched the dot-com boom, demonstrating investor enthusiasm for internet-based companies and paving the way for numerous other tech IPOs.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Netscape#Initial_public_offering",
+    "citationTitle": "Wikipedia: Netscape"
+  },
+  {
+    "id": "036fb295-c84a-432f-8190-583636580857",
+    "text": "What was the original name of the file transfer system that became BitTorrent when Bram Cohen first released it in 2001?",
+    "options": [
+      "PeerShare",
+      "BitTorrent",
+      "FileTorrent",
+      "SwarmShare"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "BitTorrent was actually called BitTorrent from its initial release by Bram Cohen.",
+    "detailedExplanation": "BitTorrent was released by programmer Bram Cohen in July 2001 and was called BitTorrent from the very beginning. Cohen developed the protocol to solve the problem of distributing large files efficiently over the internet by breaking files into small pieces and allowing users to download different pieces from multiple sources simultaneously. The protocol revolutionized peer-to-peer file sharing and became widely adopted for both legitimate and piracy purposes.",
+    "citationUrl": "https://en.wikipedia.org/wiki/BitTorrent",
+    "citationTitle": "Wikipedia: BitTorrent"
+  },
+  {
+    "id": "d5f4f42b-1573-4fc6-bede-a44d40bfff9e",
+    "text": "Which year did ICANN officially take over domain name system management from the U.S. government's National Telecommunications and Information Administration (NTIA)?",
+    "options": [
+      "1998",
+      "2014",
+      "2016",
+      "2009"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "ICANN achieved full independence from U.S. government oversight on October 1, 2016.",
+    "detailedExplanation": "The Internet Corporation for Assigned Names and Numbers (ICANN) officially transitioned to independence from U.S. government oversight on October 1, 2016, when the IANA stewardship transition was completed. While ICANN was created in 1998, it operated under contract with the U.S. Department of Commerce's NTIA until 2016. This transition transferred the authority over the internet's domain name system to the global multistakeholder community, ending the U.S. government's historical role in internet governance.",
+    "citationUrl": "https://en.wikipedia.org/wiki/IANA_stewardship_transition",
+    "citationTitle": "Wikipedia: IANA stewardship transition"
+  },
+  {
+    "id": "6b7d0624-ab6b-4a8f-9f8f-c38e374b966a",
+    "text": "What was the original character limit for Twitter posts when the platform launched in 2006?",
+    "options": [
+      "140 characters",
+      "160 characters",
+      "100 characters",
+      "200 characters"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Twitter launched with a 140-character limit, based on SMS message constraints.",
+    "detailedExplanation": "Twitter launched in March 2006 with a 140-character limit for tweets, which was designed to fit within the 160-character SMS message limit while leaving room for usernames. This constraint became Twitter's defining feature, forcing users to be concise and creating the platform's unique communication style. The limit was later expanded to 280 characters in 2017 for most languages, but the original 140-character limit remained iconic of early social media communication.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Twitter#Character_limit",
+    "citationTitle": "Wikipedia: Twitter"
+  },
+  {
+    "id": "86f848ad-e8ae-4e24-bb0a-b2d6f8126c2d",
+    "text": "Which domain extension was the first country-code top-level domain (ccTLD) to be registered in 1985?",
+    "options": [
+      ".us",
+      ".uk",
+      ".ca",
+      ".au"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": ".us was the first ccTLD registered on February 15, 1985.",
+    "detailedExplanation": "The .us domain was the first country-code top-level domain to be registered on February 15, 1985, representing the United States. It was established under RFC 920 and was initially managed by Jon Postel at USC's Information Sciences Institute. Interestingly, despite being first, .us never achieved the widespread adoption of other ccTLDs like .uk or .de, largely because American organizations primarily used generic TLDs like .com, .org, and .edu.",
+    "citationUrl": "https://en.wikipedia.org/wiki/.us",
+    "citationTitle": "Wikipedia: .us"
+  },
+  {
+    "id": "c73baf1c-6237-4ee4-b7f9-af06d6e0a4bb",
+    "text": "What was the name of the first widely-used instant messaging service that supported file transfers, launched by Mirabilis in 1996?",
+    "options": [
+      "AOL Instant Messenger",
+      "ICQ",
+      "MSN Messenger",
+      "Yahoo! Messenger"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "ICQ ('I Seek You') was launched in 1996 and pioneered many IM features including file transfers.",
+    "detailedExplanation": "ICQ, developed by the Israeli company Mirabilis and launched in November 1996, was the first instant messaging service to gain widespread adoption and introduce features like file transfers, offline messaging, and user presence indicators. The name ICQ is a play on 'I Seek You.' It rapidly gained millions of users and was acquired by AOL in 1998 for $287 million. ICQ pioneered many features that became standard in instant messaging, making it a crucial milestone in internet communication history.",
+    "citationUrl": "https://en.wikipedia.org/wiki/ICQ",
+    "citationTitle": "Wikipedia: ICQ"
+  },
+  {
+    "id": "b6910cd1-e98a-4e9a-9c96-6c26dfdb5e6e",
+    "text": "Which RFC number defined the original Email specification that introduced the '@' symbol for email addresses?",
+    "options": [
+      "RFC 821",
+      "RFC 822",
+      "RFC 733",
+      "RFC 561"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "RFC 822 standardized the email address format with the '@' symbol in 1982.",
+    "detailedExplanation": "RFC 822, published in August 1982, established the standard format for email addresses including the use of the '@' symbol to separate the local part from the domain name. This RFC, titled 'Standard for the Format of ARPA Internet Text Messages,' replaced the earlier RFC 733 and became the foundation for modern email addressing. The '@' symbol was actually first used in email by Ray Tomlinson in 1971, but RFC 822 officially codified this usage as the internet standard.",
+    "citationUrl": "https://en.wikipedia.org/wiki/RFC_822",
+    "citationTitle": "Wikipedia: RFC 822"
+  },
+  {
+    "id": "4367d07c-d466-4c14-89ee-ef13034edb3d",
+    "text": "What was the maximum data transfer rate of the original ARPANET when it first connected UCLA and Stanford in 1969?",
+    "options": [
+      "50 kbps",
+      "56 kbps",
+      "64 kbps",
+      "128 kbps"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "The original ARPANET connection operated at 50 kilobits per second.",
+    "detailedExplanation": "When the first ARPANET link was established between UCLA and Stanford Research Institute on October 29, 1969, it operated at 50 kbps using Interface Message Processors (IMPs). This seemingly modest speed was revolutionary for its time, enabling the first host-to-host network connection that would eventually evolve into the modern Internet. The connection used dedicated phone lines leased from AT&T.",
+    "citationUrl": "https://en.wikipedia.org/wiki/ARPANET",
+    "citationTitle": "Wikipedia: ARPANET"
+  },
+  {
+    "id": "af6f6e5e-3d8b-4277-9c1c-baa812f1618d",
+    "text": "Which online service was the first to offer unlimited Internet access for a flat monthly fee in 1996, disrupting the pay-per-hour model?",
+    "options": [
+      "CompuServe",
+      "America Online (AOL)",
+      "Prodigy",
+      "MSN"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "AOL introduced unlimited Internet access for $19.95 per month in 1996, abandoning the hourly billing model.",
+    "detailedExplanation": "America Online's decision to offer unlimited Internet access for a flat rate of $19.95 per month in October 1996 was a watershed moment that democratized Internet access. This move away from the traditional pay-per-hour model caused such a surge in usage that AOL's network became severely congested, leading to busy signals and customer complaints. However, it ultimately forced the entire industry to adopt flat-rate pricing and made the Internet accessible to millions of households.",
+    "citationUrl": "https://en.wikipedia.org/wiki/AOL",
+    "citationTitle": "Wikipedia: AOL"
+  },
+  {
+    "id": "ca047ebf-0842-45f8-9cf0-8ee60977fd92",
+    "text": "What was the name of the first banner advertisement ever displayed on the web, which appeared on HotWired.com in 1994?",
+    "options": [
+      "Have you ever clicked your mouse right HERE? YOU WILL",
+      "Click Here for AT&T",
+      "The World's First Banner Ad",
+      "Welcome to the Web"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "The first banner ad read 'Have you ever clicked your mouse right HERE? YOU WILL' and was purchased by AT&T.",
+    "detailedExplanation": "On October 27, 1994, the world's first web banner advertisement appeared on HotWired.com with the text 'Have you ever clicked your mouse right HERE? YOU WILL'. Created by AT&T, this 468x60 pixel advertisement achieved a remarkable 44% click-through rate. The ad was designed by Joe McCambley and marked the beginning of web-based advertising, fundamentally changing how the Internet would be monetized and paving the way for the digital advertising industry worth hundreds of billions today.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Web_banner",
+    "citationTitle": "Wikipedia: Web banner"
+  },
+  {
+    "id": "f00169fd-1793-44a9-b070-211fdb957078",
+    "text": "Which year did the Internet officially transition from IPv4 addresses being freely distributed to requiring justification due to address exhaustion concerns?",
+    "options": [
+      "1992",
+      "1993",
+      "1994",
+      "1995"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "In 1993, the Internet began requiring justification for IPv4 address allocations due to growing concerns about address space depletion.",
+    "detailedExplanation": "By 1993, it became clear that the 32-bit IPv4 address space would eventually be exhausted due to the rapid growth of the Internet. The Internet Assigned Numbers Authority (IANA) and regional registries began implementing policies requiring organizations to justify their need for IP addresses rather than freely distributing large blocks. This marked the beginning of more careful IP address management and accelerated development of IPv6, which uses 128-bit addresses to provide a vastly larger address space.",
+    "citationUrl": "https://en.wikipedia.org/wiki/IPv4_address_exhaustion",
+    "citationTitle": "Wikipedia: IPv4 address exhaustion"
+  }
+]

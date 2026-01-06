@@ -1,0 +1,342 @@
+[
+  {
+    "id": "ff8a4a78-a638-4595-be4a-8dc31c886ffd",
+    "text": "Which country is widely recognized as the birthplace of coffee, where the legend of Kaldi the goat herder discovering coffee beans originated?",
+    "options": [
+      "Yemen",
+      "Ethiopia",
+      "Kenya",
+      "Colombia"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Ethiopia is considered the birthplace of coffee, with the famous legend of Kaldi the goat herder.",
+    "detailedExplanation": "Ethiopia is widely regarded as the birthplace of coffee, both botanically and culturally. The legend tells of Kaldi, a goat herder who noticed his goats becoming energetic after eating certain berries. Coffee plants (Coffea arabica) are indigenous to the Ethiopian highlands, and the country has a rich coffee culture dating back over a thousand years. Ethiopian coffee ceremonies remain an important cultural tradition today.",
+    "citationUrl": "https://en.wikipedia.org/wiki/History_of_coffee",
+    "citationTitle": "Wikipedia: History of coffee"
+  },
+  {
+    "id": "8c56cc5b-694c-4286-8595-0a1ecb6bf87e",
+    "text": "What is the main difference between Arabica and Robusta coffee beans in terms of caffeine content?",
+    "options": [
+      "Arabica has twice as much caffeine as Robusta",
+      "Both have identical caffeine levels",
+      "Robusta has nearly twice as much caffeine as Arabica",
+      "Arabica contains no caffeine"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Robusta beans contain nearly twice as much caffeine as Arabica beans.",
+    "detailedExplanation": "Robusta coffee beans (Coffea canephora) contain approximately 2.2-2.7% caffeine, while Arabica beans (Coffea arabica) contain about 1.2-1.5% caffeine. This higher caffeine content in Robusta acts as a natural pesticide, helping the plant resist insects and diseases. The higher caffeine content also contributes to Robusta's more bitter taste profile compared to the generally sweeter, more complex flavor of Arabica beans.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Coffea_canephora",
+    "citationTitle": "Wikipedia: Coffea canephora"
+  },
+  {
+    "id": "adfc3be4-e7ad-4086-90eb-086403b5d69d",
+    "text": "Which coffee processing method involves removing the cherry pulp but leaving the mucilage to dry on the bean?",
+    "options": [
+      "Washed process",
+      "Natural process",
+      "Honey process",
+      "Wet hulling"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "The honey process removes the cherry skin but leaves the sticky mucilage layer to dry on the bean.",
+    "detailedExplanation": "The honey process (also called pulped natural) is a coffee processing method where the outer cherry skin is removed, but the sticky, sweet mucilage layer is left on the bean during drying. This method falls between the washed process (where all fruit is removed) and the natural process (where the whole cherry dries intact). The honey process creates coffees with enhanced sweetness and body while maintaining some of the clarity associated with washed coffees.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Coffee_processing",
+    "citationTitle": "Wikipedia: Coffee processing"
+  },
+  {
+    "id": "9073bbab-6ff5-40b7-909a-f167ac84640f",
+    "text": "What is the name of the expensive coffee made from beans that have passed through the digestive system of Asian palm civets?",
+    "options": [
+      "Blue Mountain",
+      "Kopi Luwak",
+      "Geisha",
+      "Black Ivory"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Kopi Luwak is made from coffee beans eaten and excreted by Asian palm civets.",
+    "detailedExplanation": "Kopi Luwak, also known as civet coffee, is produced from coffee cherries eaten by Asian palm civets (Paradoxurus hermaphroditus). The animals digest the fruit but excrete the beans, which are then collected, cleaned, and processed. The digestive process is said to reduce the beans' bitterness through fermentation. However, the commercial production of Kopi Luwak has raised significant animal welfare concerns due to civets being caged and force-fed coffee cherries.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Kopi_luwak",
+    "citationTitle": "Wikipedia: Kopi luwak"
+  },
+  {
+    "id": "e6061d35-9002-4104-a8fd-14048e826f53",
+    "text": "Which region gives its name to a famous coffee variety known for its large bean size and mild, well-balanced flavor profile?",
+    "options": [
+      "Jamaica Blue Mountain",
+      "Hawaii Kona",
+      "Guatemala Antigua",
+      "Colombia Supremo"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Jamaica Blue Mountain coffee is renowned for its large beans and exceptionally mild, well-balanced flavor.",
+    "detailedExplanation": "Jamaica Blue Mountain coffee is grown in the Blue Mountain region of Jamaica at elevations between 3,000 and 5,500 feet. It's famous for producing some of the world's most expensive coffee due to its mild flavor, lack of bitterness, perfect balance, and large bean size. The region's cool temperatures, high rainfall, and rich volcanic soil create ideal growing conditions. Most of this coffee is exported to Japan, which has historically been its primary market.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Blue_Mountain_Coffee",
+    "citationTitle": "Wikipedia: Blue Mountain Coffee"
+  },
+  {
+    "id": "6fc97420-8c23-48ea-bbae-89eda53fadc3",
+    "text": "What does the term 'third wave coffee' primarily refer to in coffee culture?",
+    "options": [
+      "The third harvest of coffee beans each year",
+      "Treating coffee as artisanal craft with focus on origin and quality",
+      "Coffee shops that serve three different roast levels",
+      "The third generation of coffee farming families"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Third wave coffee treats coffee as an artisanal craft, emphasizing origin, quality, and brewing methods.",
+    "detailedExplanation": "Third wave coffee represents a movement that treats coffee as artisanal craft rather than just a commodity or experience. This wave emphasizes the unique characteristics of coffee beans from specific farms, regions, and processing methods. It focuses on lighter roasts that highlight origin flavors, precise brewing methods, and the skill of the barista. This contrasts with first wave coffee (convenience and accessibility) and second wave coffee (the coffeehouse experience popularized by chains like Starbucks).",
+    "citationUrl": "https://en.wikipedia.org/wiki/Third_wave_coffee",
+    "citationTitle": "Wikipedia: Third wave coffee"
+  },
+  {
+    "id": "380c6e78-0db6-45a0-aff0-ac88648d0eab",
+    "text": "Which South American country is the world's largest producer of coffee beans?",
+    "options": [
+      "Colombia",
+      "Brazil",
+      "Peru",
+      "Ecuador"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Brazil is by far the world's largest coffee producer, accounting for about one-third of global production.",
+    "detailedExplanation": "Brazil has been the world's largest coffee producer for over 150 years, currently producing approximately one-third of the world's coffee supply. The country grows both Arabica and Robusta varieties across multiple regions, with states like Minas Gerais, São Paulo, and Espírito Santo being major producing areas. Brazil's vast territory, favorable climate, and advanced agricultural techniques allow it to maintain its dominant position in global coffee production, producing roughly twice as much as the second-largest producer, Vietnam.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Coffee_in_Brazil",
+    "citationTitle": "Wikipedia: Coffee in Brazil"
+  },
+  {
+    "id": "f1298335-ca66-4eb5-b3c2-9cd29f860d02",
+    "text": "What is the optimal altitude range for growing high-quality Arabica coffee?",
+    "options": [
+      "Sea level to 1,000 feet",
+      "1,000 to 2,000 feet",
+      "3,000 to 6,000 feet",
+      "Above 8,000 feet"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "High-quality Arabica coffee grows best at altitudes between 3,000 and 6,000 feet above sea level.",
+    "detailedExplanation": "Arabica coffee thrives at higher altitudes, typically between 3,000 and 6,000 feet (900 to 1,800 meters) above sea level, though it can grow well up to 7,000 feet in some regions. Higher altitudes provide cooler temperatures, which slow the cherry maturation process, allowing more time for complex sugars and flavors to develop in the bean. The temperature variations and increased UV exposure at altitude also contribute to denser beans with more concentrated flavors, which is why high-altitude coffees are generally considered superior in quality.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Coffea_arabica",
+    "citationTitle": "Wikipedia: Coffea arabica"
+  },
+  {
+    "id": "2ddb75dd-85ba-4dd9-8c42-099f621ea846",
+    "text": "What is the name of the traditional Ethiopian coffee ceremony that involves roasting, grinding, and brewing coffee beans in a communal ritual?",
+    "options": [
+      "Buna",
+      "Tejat",
+      "Injera",
+      "Qahwa"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Buna is the traditional Ethiopian coffee ceremony involving communal roasting and brewing.",
+    "detailedExplanation": "The Ethiopian coffee ceremony, called 'buna' in Amharic, is a deeply rooted cultural tradition that can take several hours to complete. The ceremony involves washing green coffee beans, roasting them in a pan over an open flame, grinding them by hand with a mortar and pestle, and brewing them in a clay pot called a jebena. This ritual is performed multiple times throughout the day and serves as an important social gathering that strengthens community bonds.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Ethiopian_coffee_ceremony",
+    "citationTitle": "Wikipedia: Ethiopian coffee ceremony"
+  },
+  {
+    "id": "3f88ddce-1f8e-474d-b1de-0c03715299b5",
+    "text": "Which coffee variety is known for its distinctive blue-green color when raw and develops a wine-like acidity when roasted?",
+    "options": [
+      "Jamaica Blue Mountain",
+      "Kona",
+      "Geisha/Gesha",
+      "Bourbon"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Geisha/Gesha coffee beans have a distinctive blue-green color and develop wine-like acidity.",
+    "detailedExplanation": "Geisha (also called Gesha) coffee is a rare and highly prized variety that originated in Ethiopia but gained fame when cultivated in Panama. The beans are easily recognizable by their blue-green color in their raw state and their elongated shape. When properly roasted and brewed, Geisha coffee is renowned for its complex flavor profile featuring bright, wine-like acidity, floral notes, and tea-like body. It regularly breaks records at coffee auctions due to its exceptional quality and limited availability.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Geisha_(coffee)",
+    "citationTitle": "Wikipedia: Geisha (coffee)"
+  },
+  {
+    "id": "dd9eb7bb-fb5a-4008-bd92-10826ad156e4",
+    "text": "What is the term for the coffee defect caused by a fungal disease that creates small holes in the bean, significantly affecting flavor?",
+    "options": [
+      "Coffee borer",
+      "Antestia bug damage",
+      "Potato defect",
+      "Black bean"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Coffee borer (coffee berry borer) creates small holes in beans and is a major coffee defect.",
+    "detailedExplanation": "The coffee berry borer (Hypothenemus hampei) is a small beetle that bores into coffee cherries and feeds on the beans inside, creating characteristic small round holes. This pest is considered one of the most damaging insects to coffee crops worldwide, affecting both Arabica and Robusta varieties. The damage not only reduces yield but also significantly impacts cup quality, creating off-flavors and making the beans unsuitable for specialty coffee markets. The infestation is particularly problematic in tropical coffee-growing regions.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Coffee_berry_borer",
+    "citationTitle": "Wikipedia: Coffee berry borer"
+  },
+  {
+    "id": "46e7ce8b-f4f2-444f-905d-1ef070235646",
+    "text": "Which Indonesian island gives its name to a coffee processing method where beans are aged in warehouses during monsoon season?",
+    "options": [
+      "Sumatra",
+      "Java",
+      "Sulawesi",
+      "Bali"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Java gives its name to the monsooned coffee processing method developed during monsoon seasons.",
+    "detailedExplanation": "Monsooned coffee, originally from Java, Indonesia, was discovered by accident during the colonial era when coffee beans were transported by ship during monsoon season. The high humidity and sea air exposure during the long journey created a unique flavor profile. Today, this process is intentionally replicated by exposing coffee beans to monsoon winds in open warehouses for several months. The process reduces acidity and creates a fuller body with earthy, musty flavors. Monsooned Malabar from India is now the most famous example of this processing method.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Monsooned_coffee",
+    "citationTitle": "Wikipedia: Monsooned coffee"
+  },
+  {
+    "id": "501140a0-35a6-4ec9-8b18-039754fd6869",
+    "text": "What is the name of the coffee variety that resulted from a natural mutation of Bourbon plants and is characterized by its large bean size?",
+    "options": [
+      "Typica",
+      "Caturra",
+      "Maragogype",
+      "Pacamara"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Maragogype is a natural mutation of Bourbon known for its exceptionally large bean size.",
+    "detailedExplanation": "Maragogype, often called 'elephant bean' coffee, is a natural mutation of the Bourbon variety that was first discovered in the Maragogipe municipality of Bahia, Brazil. The beans are notably larger than typical coffee beans, sometimes twice the size of regular Arabica beans. Despite their impressive size, Maragogype plants typically produce lower yields than other varieties. The coffee is known for its mild flavor profile with good body and low acidity, making it popular for blending with other coffees.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Coffee_varieties",
+    "citationTitle": "Wikipedia: Coffee varieties"
+  },
+  {
+    "id": "417ebeb3-1dc1-4a24-b529-85779923a06a",
+    "text": "In which century did coffee first arrive in Europe through Venetian merchants trading with the Ottoman Empire?",
+    "options": [
+      "15th century",
+      "16th century",
+      "17th century",
+      "18th century"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Coffee arrived in Europe in the 17th century through Venetian trade with the Ottoman Empire.",
+    "detailedExplanation": "Coffee made its way to Europe in the 17th century, primarily through Venetian merchants who traded with the Ottoman Empire. Venice, being a major trading hub, was among the first European cities to embrace coffee. Initially, some Christian clergy viewed coffee with suspicion, calling it 'Satan's drink,' but Pope Clement VIII allegedly blessed it, helping to gain acceptance. The first European coffeehouse opened in Venice in 1645, and the trend quickly spread to other major European cities, becoming centers of social, political, and intellectual activity.",
+    "citationUrl": "https://en.wikipedia.org/wiki/History_of_coffee",
+    "citationTitle": "Wikipedia: History of coffee"
+  },
+  {
+    "id": "9f1576df-3b2a-4915-bfc4-ab40a57c255f",
+    "text": "What is the name of the coffee variety developed in Costa Rica that combines Maragogype and Pacas varieties?",
+    "options": [
+      "Villa Sarchi",
+      "Catuai",
+      "Pacamara",
+      "Maracaturra"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Pacamara is a hybrid variety created by crossing Pacas and Maragogype varieties.",
+    "detailedExplanation": "Pacamara is a hybrid coffee variety developed at the Salvadoran Institute for Coffee Research (ISIC) by crossing two varieties: Pacas (a natural dwarf mutation of Bourbon) and Maragogype (the large-bean mutation of Bourbon). This combination was intended to capture the large bean size and unique flavor characteristics of Maragogype while incorporating the higher yield potential and disease resistance of Pacas. The resulting variety produces large beans and is known for its complex flavor profile, often featuring bright acidity and distinctive fruit notes.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Coffee_varieties",
+    "citationTitle": "Wikipedia: Coffee varieties"
+  },
+  {
+    "id": "9d8cfd53-7c70-4714-af04-461802064d60",
+    "text": "Which coffee-producing country is famous for the 'strictly hard bean' (SHB) classification based on growing altitude?",
+    "options": [
+      "Colombia",
+      "Guatemala",
+      "Kenya",
+      "Costa Rica"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Guatemala uses the 'Strictly Hard Bean' classification for coffee grown at high altitudes.",
+    "detailedExplanation": "Guatemala uses a unique classification system based on altitude, where 'Strictly Hard Bean' (SHB) refers to coffee grown at altitudes above 4,500 feet (1,370 meters). This classification system recognizes that coffee grown at higher altitudes tends to be denser and more flavorful due to slower maturation in cooler temperatures. Other classifications in Guatemala include 'Hard Bean' (HB) for coffee grown at 4,000-4,500 feet, and 'Semi Hard Bean' (SH) for lower altitudes. The SHB designation is highly regarded in the specialty coffee industry as an indicator of quality.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Coffee_classification",
+    "citationTitle": "Wikipedia: Coffee classification"
+  },
+  {
+    "id": "fd3be1a8-badd-4d64-b8a1-9f8433ce47bf",
+    "text": "What is the name of the rare coffee variety that naturally contains almost no caffeine and was discovered growing wild in Cameroon in 1983?",
+    "options": [
+      "Coffea charrieriana",
+      "Coffea stenophylla",
+      "Coffea pseudozanguebariae",
+      "Coffea racemosa"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Coffea charrieriana is a naturally caffeine-free coffee species discovered in Cameroon.",
+    "detailedExplanation": "Coffea charrieriana was discovered in 1983 in the rainforests of Cameroon by French botanist André Charrier. This remarkable species naturally contains less than 0.02% caffeine, making it virtually caffeine-free compared to Arabica's 1.2-1.5% caffeine content. The discovery was significant because it offered the potential for naturally decaffeinated coffee without chemical processing, though commercial cultivation remains limited due to the species' specific growing requirements and relatively recent discovery.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Coffea_charrieriana",
+    "citationTitle": "Wikipedia: Coffea charrieriana"
+  },
+  {
+    "id": "f6ce6a36-0202-4cf7-b385-bc5240edee74",
+    "text": "Which historical port city gave its name to a type of coffee and became famous as the primary export hub for Ethiopian coffee beans from the 15th to 19th centuries?",
+    "options": [
+      "Berbera",
+      "Massawa",
+      "Mocha",
+      "Aden"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Mocha (Al Mokha) in Yemen was the major coffee trading port that gave its name to the famous coffee type.",
+    "detailedExplanation": "The port city of Mocha (Al Mokha) in Yemen became synonymous with coffee during the Ottoman Empire's control of coffee trade. From the 15th to 19th centuries, virtually all coffee exported from the region passed through this port, including beans from Ethiopia across the Red Sea. The term 'Mocha coffee' originally referred to any coffee shipped through this port, though it later became associated specifically with Ethiopian beans and eventually with chocolate-flavored coffee drinks due to the natural chocolatey notes found in some Ethiopian varieties.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Mocha,_Yemen",
+    "citationTitle": "Wikipedia: Mocha, Yemen"
+  },
+  {
+    "id": "aeb459d2-5a77-4e2a-a086-9f6cf30c523e",
+    "text": "What is the term for the coffee cupping defect characterized by an unpleasant earthy, musty flavor that occurs when beans absorb moisture during storage?",
+    "options": [
+      "Quakers",
+      "Tippers",
+      "Faders",
+      "Baggy"
+    ],
+    "correctIndex": 3,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Baggy is the cupping term for coffee that has absorbed moisture and developed earthy, musty flavors.",
+    "detailedExplanation": "In coffee cupping terminology, 'baggy' describes a flavor defect that occurs when green coffee beans absorb excess moisture during storage or transport, typically in jute bags or other permeable containers. This moisture absorption leads to the development of undesirable earthy, musty, or moldy flavors that significantly diminish the coffee's quality. The defect is preventable through proper storage in dry conditions with appropriate humidity control, and is one of several standardized defect categories used by coffee professionals to evaluate and grade green coffee beans.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Coffee_cupping",
+    "citationTitle": "Wikipedia: Coffee cupping"
+  },
+  {
+    "id": "ad3f4784-f7c1-406d-951e-31f978197999",
+    "text": "Which coffee variety, developed in Brazil in the 1940s, was specifically bred to be resistant to coffee leaf rust and is named after a type of yellow gemstone?",
+    "options": [
+      "Topazio",
+      "Citrine",
+      "Amber",
+      "Beryl"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Topazio is a Brazilian coffee variety bred for disease resistance and named after the yellow gemstone topaz.",
+    "detailedExplanation": "Topazio is a coffee cultivar developed in Brazil during the 1940s as part of efforts to create varieties resistant to coffee leaf rust (Hemileia vastatrix), a devastating fungal disease that has plagued coffee production worldwide. The variety was created through selective breeding programs and gets its name from topaz, the yellow gemstone, likely referring to the golden color of ripe coffee cherries. Topazio represents one of many Brazilian contributions to coffee genetics, as the country has been a leader in developing disease-resistant varieties due to the significant economic impact of coffee production on its economy.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Coffee_varieties",
+    "citationTitle": "Wikipedia: Coffee varieties"
+  }
+]

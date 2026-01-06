@@ -1,0 +1,342 @@
+[
+  {
+    "id": "80af13a8-d59c-4125-b160-12328ce802ce",
+    "text": "Which cryptographic hash function was specifically designed by the NSA and became a NIST standard in 2001, but later had its security compromised due to collision attacks demonstrated in 2005?",
+    "options": [
+      "SHA-1",
+      "MD5",
+      "SHA-256",
+      "RIPEMD-160"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "SHA-1 was designed by the NSA, became a NIST standard in 2001, but collision attacks were demonstrated in 2005.",
+    "detailedExplanation": "SHA-1 (Secure Hash Algorithm 1) was developed by the National Security Agency and published as a federal information processing standard in 2001. Despite being widely adopted, cryptographers began finding theoretical weaknesses, and in 2005, researchers demonstrated practical collision attacks where two different inputs could produce the same hash output. This led to SHA-1 being deprecated for cryptographic security applications, with organizations moving to SHA-256 and other more secure alternatives.",
+    "citationUrl": "https://en.wikipedia.org/wiki/SHA-1",
+    "citationTitle": "Wikipedia: SHA-1"
+  },
+  {
+    "id": "d480fbf0-f9ac-48ed-8bb7-69ad474f7ae3",
+    "text": "What is the name of the advanced persistent threat (APT) group allegedly linked to Russian military intelligence that was responsible for the 2016 Democratic National Committee hack?",
+    "options": [
+      "Lazarus Group",
+      "APT28 (Fancy Bear)",
+      "Equation Group",
+      "Comment Crew"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "APT28, also known as Fancy Bear, is linked to Russian GRU and was behind the 2016 DNC hack.",
+    "detailedExplanation": "APT28, commonly known as Fancy Bear, is a cyber espionage group that security researchers and government agencies have linked to Russia's Main Intelligence Directorate (GRU). The group gained international notoriety for their sophisticated attacks on political targets, most notably the 2016 hack of the Democratic National Committee's email servers. They are known for using spear-phishing campaigns, zero-day exploits, and custom malware to infiltrate high-value targets in government, military, and political organizations worldwide.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Fancy_Bear",
+    "citationTitle": "Wikipedia: Fancy Bear"
+  },
+  {
+    "id": "61991c78-7b36-4c0f-822c-0353fc18cb0a",
+    "text": "In the context of side-channel attacks, what does the term 'Rowhammer' specifically exploit to gain unauthorized access or escalate privileges?",
+    "options": [
+      "CPU cache timing variations",
+      "DRAM memory cell interference",
+      "Power consumption fluctuations",
+      "Electromagnetic emissions"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Rowhammer exploits DRAM memory cell interference by repeatedly accessing memory rows to flip bits in adjacent rows.",
+    "detailedExplanation": "The Rowhammer attack is a unique side-channel attack that exploits a physical vulnerability in modern DRAM memory chips. By repeatedly and rapidly accessing specific rows of memory (hammering), an attacker can cause electrical interference that flips bits in adjacent memory rows without directly accessing them. This bit-flipping can potentially alter critical data structures, bypass security mechanisms, or escalate privileges. The attack demonstrates how hardware-level vulnerabilities can be exploited through software, challenging traditional security models that assume memory isolation.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Row_hammer",
+    "citationTitle": "Wikipedia: Row hammer"
+  },
+  {
+    "id": "c3d5fa52-ebec-4e77-946e-56b2c235b911",
+    "text": "Which certificate authority suffered a major security breach in 2011 that resulted in the issuance of fraudulent certificates for major websites including Google, Yahoo, and Microsoft?",
+    "options": [
+      "VeriSign",
+      "DigiNotar",
+      "Symantec",
+      "GlobalSign"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "DigiNotar was compromised in 2011, leading to fraudulent certificates and eventual bankruptcy of the company.",
+    "detailedExplanation": "DigiNotar, a Dutch certificate authority, suffered a devastating security breach in 2011 that compromised their entire certificate infrastructure. Attackers gained access to their systems and issued fraudulent SSL certificates for hundreds of major websites including Google, Yahoo, Facebook, and government sites. The breach was so severe that major browser vendors immediately removed DigiNotar from their trusted root certificate stores, effectively making all their certificates invalid. The incident highlighted critical vulnerabilities in the PKI system and led to DigiNotar's bankruptcy, fundamentally changing how certificate authorities approach security.",
+    "citationUrl": "https://en.wikipedia.org/wiki/DigiNotar",
+    "citationTitle": "Wikipedia: DigiNotar"
+  },
+  {
+    "id": "7f2162b9-aff2-45ec-8549-e5bbc61bcc9c",
+    "text": "What is the maximum theoretical key strength in bits of the Advanced Encryption Standard (AES) when using its longest supported key length?",
+    "options": [
+      "128 bits",
+      "192 bits",
+      "256 bits",
+      "512 bits"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "AES supports key lengths of 128, 192, and 256 bits, with 256 bits being the maximum.",
+    "detailedExplanation": "The Advanced Encryption Standard (AES) supports three different key lengths: 128, 192, and 256 bits, corresponding to AES-128, AES-192, and AES-256 respectively. AES-256 provides the highest theoretical security with its 256-bit key length, offering 2^256 possible key combinations. This enormous keyspace makes brute-force attacks computationally infeasible with current and foreseeable technology. AES-256 is widely used in government and military applications requiring the highest levels of data protection, and is approved for protecting classified information up to the TOP SECRET level.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Advanced_Encryption_Standard",
+    "citationTitle": "Wikipedia: Advanced Encryption Standard"
+  },
+  {
+    "id": "5e462894-2d77-497e-8057-8a5725c88afa",
+    "text": "Which security framework introduced the concept of 'Zero Trust' architecture, fundamentally changing how organizations approach network security?",
+    "options": [
+      "NIST Cybersecurity Framework",
+      "ISO 27001",
+      "Forrester Zero Trust Model",
+      "SANS Critical Security Controls"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Forrester Research, led by John Kindervag, introduced and developed the Zero Trust security model.",
+    "detailedExplanation": "The Zero Trust security model was pioneered by Forrester Research, specifically by principal analyst John Kindervag, who first articulated the concept in 2010. Zero Trust fundamentally challenges traditional network security approaches by operating on the principle 'never trust, always verify.' Instead of assuming everything inside a network perimeter is safe, Zero Trust requires verification for every user, device, and application attempting to access resources, regardless of their location. This model has become increasingly important as organizations adopt cloud services, remote work, and mobile devices that blur traditional network boundaries.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Zero_trust_security_model",
+    "citationTitle": "Wikipedia: Zero trust security model"
+  },
+  {
+    "id": "cb9fea15-4c58-43ff-a099-4bba8b3f1b60",
+    "text": "What is the name of the vulnerability class that allows attackers to inject malicious code into web applications through inadequately sanitized user input, leading to client-side code execution?",
+    "options": [
+      "SQL Injection",
+      "Cross-Site Scripting (XSS)",
+      "Buffer Overflow",
+      "Directory Traversal"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Cross-Site Scripting (XSS) allows injection of malicious scripts into web pages viewed by other users.",
+    "detailedExplanation": "Cross-Site Scripting (XSS) is a prevalent web application vulnerability that occurs when applications include untrusted data in web pages without proper validation or escaping. This allows attackers to inject malicious scripts, typically JavaScript, into web pages viewed by other users. XSS attacks can steal session cookies, redirect users to malicious sites, deface websites, or perform actions on behalf of victims. There are three main types: reflected XSS (non-persistent), stored XSS (persistent), and DOM-based XSS. XSS consistently ranks among the top web application security risks in the OWASP Top 10.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Cross-site_scripting",
+    "citationTitle": "Wikipedia: Cross-site scripting"
+  },
+  {
+    "id": "573956df-af2d-499e-8d96-715c02173f4b",
+    "text": "Which nation-state malware, discovered in 2010, was specifically designed to target industrial control systems and is widely attributed to a joint US-Israeli operation?",
+    "options": [
+      "Flame",
+      "Duqu",
+      "Stuxnet",
+      "Regin"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Stuxnet was the groundbreaking malware that targeted Iranian nuclear facilities' industrial control systems.",
+    "detailedExplanation": "Stuxnet was a revolutionary piece of malware discovered in 2010 that marked the first known cyberweapon specifically designed to cause physical damage to industrial infrastructure. The sophisticated worm targeted Siemens SCADA systems controlling uranium enrichment centrifuges at Iran's Natanz nuclear facility. Stuxnet used multiple zero-day exploits, stolen digital certificates, and unprecedented knowledge of industrial control systems to sabotage centrifuges while remaining undetected. While officially unconfirmed, cybersecurity experts and journalists widely attribute Stuxnet to a joint operation between US and Israeli intelligence agencies, codenamed 'Operation Olympic Games.'",
+    "citationUrl": "https://en.wikipedia.org/wiki/Stuxnet",
+    "citationTitle": "Wikipedia: Stuxnet"
+  },
+  {
+    "id": "9f6f0ef0-40ab-4647-b48e-70acaa918a6d",
+    "text": "What is the name of the Windows vulnerability discovered in 2017 that was exploited by the WannaCry ransomware and was originally developed by the NSA under the codename 'EternalBlue'?",
+    "options": [
+      "MS17-010",
+      "CVE-2014-6271",
+      "MS08-067",
+      "CVE-2017-5638"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "MS17-010 is the Microsoft security bulletin that patched the EternalBlue vulnerability exploited by WannaCry.",
+    "detailedExplanation": "MS17-010 was a critical Windows vulnerability in the Server Message Block (SMB) protocol that allowed remote code execution. The NSA had developed an exploit called EternalBlue for this vulnerability, which was later stolen and leaked by the Shadow Brokers hacking group. This vulnerability became infamous when it was used by the WannaCry ransomware in May 2017, affecting hundreds of thousands of computers worldwide including critical infrastructure like hospitals.",
+    "citationUrl": "https://en.wikipedia.org/wiki/EternalBlue",
+    "citationTitle": "Wikipedia: EternalBlue"
+  },
+  {
+    "id": "a56b9a0c-71b0-44fb-93a6-6972af25a307",
+    "text": "Which type of cryptographic attack involves analyzing the time it takes for cryptographic operations to complete in order to extract secret keys?",
+    "options": [
+      "Timing attack",
+      "Frequency analysis",
+      "Rainbow table attack",
+      "Birthday attack"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "A timing attack exploits variations in execution time to gain information about secret data.",
+    "detailedExplanation": "Timing attacks are a class of side-channel attacks where an attacker measures the time required to execute cryptographic algorithms. Variations in execution time can leak information about secret keys, particularly in implementations that don't use constant-time operations. For example, if a system takes longer to process incorrect passwords that match more characters of the actual password, an attacker can systematically determine the correct password character by character.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Timing_attack",
+    "citationTitle": "Wikipedia: Timing attack"
+  },
+  {
+    "id": "50ebf902-81de-4ffa-8b22-ca3f3b363c33",
+    "text": "What is the name of the security protocol that provides end-to-end encryption for voice calls and is used by Signal, WhatsApp, and other messaging applications?",
+    "options": [
+      "Signal Protocol",
+      "OTR Protocol",
+      "ZRTP",
+      "SRTP"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "The Signal Protocol provides end-to-end encryption and is widely adopted by messaging applications.",
+    "detailedExplanation": "The Signal Protocol, formerly known as the TextSecure Protocol, is a cryptographic protocol that provides end-to-end encryption for voice calls and instant messaging conversations. Developed by Open Whisper Systems, it combines the Double Ratchet Algorithm, prekeys, and a triple Elliptic-curve Diffie-Hellman (3-DH) handshake. The protocol provides forward secrecy and post-compromise security, meaning that even if keys are compromised, past and future messages remain secure.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Signal_Protocol",
+    "citationTitle": "Wikipedia: Signal Protocol"
+  },
+  {
+    "id": "d6c4e170-5d08-4a37-9860-9f8f108ddf0f",
+    "text": "Which cybersecurity framework developed by NIST consists of five core functions: Identify, Protect, Detect, Respond, and Recover?",
+    "options": [
+      "Cybersecurity Framework",
+      "Risk Management Framework",
+      "COBIT",
+      "ISO 27001"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "The NIST Cybersecurity Framework uses these five core functions to organize cybersecurity activities.",
+    "detailedExplanation": "The NIST Cybersecurity Framework, officially called the Framework for Improving Critical Infrastructure Cybersecurity, was developed in 2014 following Executive Order 13636. The framework provides a policy framework of computer security guidance for how private sector organizations can assess and improve their ability to prevent, detect, and respond to cyber attacks. The five core functions create a comprehensive approach to cybersecurity risk management that can be applied across industries and organization sizes.",
+    "citationUrl": "https://en.wikipedia.org/wiki/NIST_Cybersecurity_Framework",
+    "citationTitle": "Wikipedia: NIST Cybersecurity Framework"
+  },
+  {
+    "id": "4077b00e-dc92-4d41-aa15-216215c9e202",
+    "text": "What is the term for a type of malware that can spread between computers without human interaction and was notably demonstrated by the Morris Worm in 1988?",
+    "options": [
+      "Computer worm",
+      "Trojan horse",
+      "Logic bomb",
+      "Rootkit"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "A computer worm is self-replicating malware that spreads across networks without human intervention.",
+    "detailedExplanation": "Computer worms are a type of malware that replicate themselves to spread to other computers, typically over a network. Unlike viruses, worms do not need to attach themselves to existing programs and can operate independently. The Morris Worm, created by Robert Tappan Morris in 1988, was one of the first worms distributed via the Internet and infected approximately 10% of the computers connected to the Internet at the time, effectively demonstrating the vulnerability of networked systems.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Computer_worm",
+    "citationTitle": "Wikipedia: Computer worm"
+  },
+  {
+    "id": "c58f423f-a2a6-4b72-bc83-fdcf580bd09b",
+    "text": "Which cryptographic concept refers to the property that changing a single bit in the input produces a completely different and seemingly random output?",
+    "options": [
+      "Avalanche effect",
+      "Collision resistance",
+      "Diffusion",
+      "Confusion"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "The avalanche effect ensures that small changes in input produce dramatically different outputs in cryptographic functions.",
+    "detailedExplanation": "The avalanche effect is a desirable property of cryptographic algorithms, particularly block ciphers and cryptographic hash functions. When the avalanche effect is present, changing just one bit of the input should change approximately half of the output bits. This property helps ensure that patterns in the plaintext are not reflected in the ciphertext, making cryptanalysis more difficult. The avalanche effect is closely related to Shannon's concepts of confusion and diffusion in cryptography.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Avalanche_effect",
+    "citationTitle": "Wikipedia: Avalanche effect"
+  },
+  {
+    "id": "cb28d024-1ca7-49e6-b1c2-115968c58f5c",
+    "text": "What is the name of the attack technique where malicious code is injected into legitimate processes to evade detection, commonly used by advanced persistent threats?",
+    "options": [
+      "Process hollowing",
+      "DLL injection",
+      "Code injection",
+      "Process doppelgänging"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Process hollowing involves replacing the memory of a legitimate process with malicious code while maintaining the original process structure.",
+    "detailedExplanation": "Process hollowing, also known as process replacement, is a technique used by malware to evade detection by security software. The attack works by creating a legitimate process in a suspended state, then unmapping the legitimate code from memory and replacing it with malicious code. The process is then resumed, appearing to security tools as the legitimate process while actually executing malicious code. This technique is particularly effective because it maintains the original process's metadata and permissions.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Process_hollowing",
+    "citationTitle": "Wikipedia: Process hollowing"
+  },
+  {
+    "id": "fbe077c2-a908-4f5e-8160-7f742c1b6040",
+    "text": "Which security model, developed by Bell and LaPadula in the 1970s, focuses on confidentiality and uses the principles 'no read up' and 'no write down'?",
+    "options": [
+      "Bell-LaPadula model",
+      "Biba integrity model",
+      "Clark-Wilson model",
+      "Chinese Wall model"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "The Bell-LaPadula model is a formal security model designed to maintain confidentiality through mandatory access controls.",
+    "detailedExplanation": "The Bell-LaPadula model is a state machine model used for enforcing access control in government and military applications. Developed by David Elliott Bell and Leonard J. LaPadula in 1973, the model focuses on data confidentiality and controlled access to classified information. The 'no read up' (simple security property) prevents subjects from reading information at a higher security level, while 'no write down' (*-property or star property) prevents subjects from writing information to a lower security level, preventing information leakage.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Bell%E2%80%93LaPadula_model",
+    "citationTitle": "Wikipedia: Bell–LaPadula model"
+  },
+  {
+    "id": "5eab6cd3-4c84-41f2-ba82-1919320a8903",
+    "text": "What is the name of the memory corruption vulnerability that was discovered in 2014 and affected the OpenSSL cryptographic library, allowing attackers to read sensitive data from server memory?",
+    "options": [
+      "Heartbleed",
+      "Shellshock",
+      "POODLE",
+      "BEAST"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Heartbleed was a critical vulnerability in OpenSSL that allowed attackers to read up to 64KB of server memory per request.",
+    "detailedExplanation": "Heartbleed (CVE-2014-0160) was a catastrophic security vulnerability discovered in April 2014 in the OpenSSL cryptographic software library. The bug was in OpenSSL's implementation of the TLS/DTLS heartbeat extension, where insufficient bounds checking allowed attackers to read sensitive data from server memory, potentially including private keys, passwords, and other confidential information. The vulnerability affected approximately 17% of all secure web servers worldwide and required immediate patching and certificate replacement across the internet.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Heartbleed",
+    "citationTitle": "Wikipedia: Heartbleed"
+  },
+  {
+    "id": "bf9bbc6f-0275-48e7-81f4-de002750b994",
+    "text": "Which post-quantum cryptographic algorithm was selected by NIST in 2022 as the primary standard for digital signatures, designed to resist attacks from quantum computers?",
+    "options": [
+      "CRYSTALS-Dilithium",
+      "Rainbow",
+      "SPHINCS+",
+      "FALCON"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "CRYSTALS-Dilithium was chosen as NIST's primary post-quantum digital signature standard due to its strong security and reasonable performance.",
+    "detailedExplanation": "In July 2022, NIST announced the selection of CRYSTALS-Dilithium as the primary standard for post-quantum digital signatures. This lattice-based cryptographic algorithm is designed to withstand attacks from both classical and quantum computers. The selection was part of NIST's multi-year Post-Quantum Cryptography Standardization process, which began in 2016 to prepare for the eventual threat that large-scale quantum computers pose to current public-key cryptography. CRYSTALS-Dilithium was chosen for its strong security guarantees, relatively small signature sizes, and acceptable performance characteristics.",
+    "citationUrl": "https://en.wikipedia.org/wiki/CRYSTALS-Dilithium",
+    "citationTitle": "Wikipedia: CRYSTALS-Dilithium"
+  },
+  {
+    "id": "017770c5-f8f3-4dfb-a4a6-65a7f3dc10a4",
+    "text": "What is the name of the technique used by malware to hide its presence by modifying the boot process of a computer, loading before the operating system and remaining persistent even after OS reinstallation?",
+    "options": [
+      "Rootkit",
+      "Bootkit",
+      "Firmware implant",
+      "BIOS infection"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "A bootkit is malware that infects the boot process, loading before the operating system and maintaining persistence across reboots and OS reinstallations.",
+    "detailedExplanation": "A bootkit is a type of malware that targets the boot process of a computer system, typically infecting the Master Boot Record (MBR), Volume Boot Record (VBR), or UEFI firmware. Unlike traditional rootkits that operate at the operating system level, bootkits load before the OS starts, giving them deeper system access and making them extremely difficult to detect and remove. They can survive operating system reinstallations, disk formatting, and most antivirus scans since they operate below the OS layer. Famous examples include the Alureon/TDL-4 bootkit and more recent UEFI bootkits that target modern systems.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Bootkit",
+    "citationTitle": "Wikipedia: Bootkit"
+  },
+  {
+    "id": "d6e46461-4937-4c9c-8869-7f85cd8f4f3c",
+    "text": "Which cybersecurity research organization, founded by Eugene Kaspersky, published detailed analysis of the Equation Group's sophisticated malware platform that could rewrite hard drive firmware?",
+    "options": [
+      "Symantec Security Response",
+      "FireEye Mandiant",
+      "Kaspersky Lab",
+      "CrowdStrike Intelligence"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Kaspersky Lab discovered and published extensive research on the Equation Group's advanced persistent threat operations in 2015.",
+    "detailedExplanation": "In February 2015, Kaspersky Lab published groundbreaking research exposing the Equation Group, one of the most sophisticated cyber-espionage operations ever discovered. The research revealed malware platforms with unprecedented capabilities, including the ability to reprogram hard drive firmware from manufacturers like Western Digital, Seagate, and Toshiba. This firmware-level persistence meant the malware could survive disk formatting and operating system reinstallation. Kaspersky's analysis suggested the group had been active since at least 2001 and had infected thousands of targets across 42 countries. The sophistication and targets led many security researchers to believe the Equation Group was linked to the NSA's Tailored Access Operations unit.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Equation_Group",
+    "citationTitle": "Wikipedia: Equation Group"
+  }
+]

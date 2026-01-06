@@ -1,0 +1,342 @@
+[
+  {
+    "id": "1f9aff85-1357-4d46-a8e6-f432e0e15e7d",
+    "text": "What does VR stand for in technology?",
+    "options": [
+      "Virtual Reality",
+      "Visual Recording",
+      "Video Rendering",
+      "Variable Resolution"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "VR stands for Virtual Reality.",
+    "detailedExplanation": "Virtual Reality (VR) is a simulated experience that can be similar to or completely different from the real world. The term specifically refers to the technology that creates immersive, computer-generated environments that users can interact with through specialized equipment like headsets and controllers.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Virtual_reality",
+    "citationTitle": "Wikipedia: Virtual reality"
+  },
+  {
+    "id": "5a7f0b97-be07-4b26-9836-451df958c886",
+    "text": "Which company released the Oculus Rift VR headset?",
+    "options": [
+      "Sony",
+      "Meta (Facebook)",
+      "Google",
+      "Microsoft"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Meta (formerly Facebook) owns Oculus and released the Oculus Rift.",
+    "detailedExplanation": "The Oculus Rift was developed by Oculus VR, which was founded by Palmer Luckey. Facebook acquired Oculus VR in 2014 for $2 billion, and later rebranded to Meta in 2021. The Oculus Rift became one of the most popular consumer VR headsets when it launched in 2016.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Oculus_Rift",
+    "citationTitle": "Wikipedia: Oculus Rift"
+  },
+  {
+    "id": "2a9c8af2-de94-4b5e-a3cd-b6c6f5e15f54",
+    "text": "What is the main purpose of VR headsets?",
+    "options": [
+      "To play music",
+      "To make phone calls",
+      "To create immersive visual experiences",
+      "To monitor heart rate"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "VR headsets are designed to create immersive visual experiences by displaying 3D environments.",
+    "detailedExplanation": "VR headsets use stereoscopic displays, motion tracking, and often spatial audio to create convincing three-dimensional environments that respond to user movement. The primary goal is to make users feel as though they are physically present in a virtual world, whether for gaming, education, training, or entertainment purposes.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Virtual_reality_headset",
+    "citationTitle": "Wikipedia: Virtual reality headset"
+  },
+  {
+    "id": "519d8010-b895-4c61-b129-e4bc1117c309",
+    "text": "In which decade did the term 'Virtual Reality' first become popular?",
+    "options": [
+      "1960s",
+      "1970s",
+      "1980s",
+      "1990s"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "The term 'Virtual Reality' was popularized in the 1980s by Jaron Lanier.",
+    "detailedExplanation": "While early concepts of virtual reality existed before, the actual term 'Virtual Reality' was coined and popularized by computer scientist Jaron Lanier in the 1980s. Lanier founded VPL Research, one of the first companies to sell VR goggles and gloves, and is credited with bringing the term into mainstream usage during this decade.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Jaron_Lanier",
+    "citationTitle": "Wikipedia: Jaron Lanier"
+  },
+  {
+    "id": "488fe9ac-6c37-454f-a173-24e2d9336084",
+    "text": "What gaming console company released PlayStation VR?",
+    "options": [
+      "Nintendo",
+      "Xbox",
+      "Sony",
+      "Sega"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Sony released PlayStation VR for their PlayStation gaming consoles.",
+    "detailedExplanation": "Sony Interactive Entertainment released PlayStation VR (PS VR) in October 2016 as a virtual reality headset accessory for the PlayStation 4 console. It became one of the most successful console-based VR systems, later receiving a successor, PlayStation VR2, for the PlayStation 5 in 2023.",
+    "citationUrl": "https://en.wikipedia.org/wiki/PlayStation_VR",
+    "citationTitle": "Wikipedia: PlayStation VR"
+  },
+  {
+    "id": "66eac154-7494-49b7-83c6-a3c437005789",
+    "text": "What type of technology tracks head movement in VR headsets?",
+    "options": [
+      "GPS",
+      "Motion sensors",
+      "Bluetooth",
+      "Wi-Fi"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Motion sensors, including accelerometers and gyroscopes, track head movement in VR headsets.",
+    "detailedExplanation": "VR headsets use various motion sensors including accelerometers, gyroscopes, and magnetometers to detect head rotation and movement. These sensors work together to provide six degrees of freedom (6DOF) tracking, allowing the virtual environment to respond naturally as users look around, creating the illusion of presence in the virtual world.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Virtual_reality_headset",
+    "citationTitle": "Wikipedia: Virtual reality headset"
+  },
+  {
+    "id": "6b4a83c8-6c29-4d60-8289-f9460baaf095",
+    "text": "Which of these is a common VR application besides gaming?",
+    "options": [
+      "Cooking recipes",
+      "Weather forecasting",
+      "Medical training",
+      "Tax preparation"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Medical training is a major application of VR technology outside of gaming.",
+    "detailedExplanation": "Virtual Reality has found significant applications in medical training, allowing medical students and professionals to practice procedures in risk-free virtual environments. VR can simulate surgeries, patient interactions, and emergency scenarios, providing hands-on experience without real-world consequences. This application has proven particularly valuable for training in complex or rare medical procedures.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Virtual_reality",
+    "citationTitle": "Wikipedia: Virtual reality"
+  },
+  {
+    "id": "d740eef2-d52f-4a0d-9d6b-f6ce00761c0b",
+    "text": "What does '360-degree video' mean in VR context?",
+    "options": [
+      "Video that rotates on screen",
+      "Video recorded in all directions around a point",
+      "Video played at 360 frames per second",
+      "Video with 360 different colors"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "360-degree video is recorded in all directions simultaneously, allowing viewers to look around in VR.",
+    "detailedExplanation": "360-degree video, also known as spherical video, is recorded using special camera rigs that capture footage in every direction simultaneously. When viewed through a VR headset, users can look around in any direction to see different parts of the scene, as if they were physically present at the recording location. This creates an immersive viewing experience that's particularly popular for virtual tourism, concerts, and documentary content.",
+    "citationUrl": "https://en.wikipedia.org/wiki/360-degree_video",
+    "citationTitle": "Wikipedia: 360-degree video"
+  },
+  {
+    "id": "9be2205d-f30a-417e-89b3-8b4921bd870e",
+    "text": "What is the term for the unpleasant sensation some people experience when using VR headsets?",
+    "options": [
+      "Motion sickness",
+      "VR fatigue",
+      "Digital nausea",
+      "Cyber sickness"
+    ],
+    "correctIndex": 3,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Cyber sickness is the specific term for motion sickness experienced in virtual environments.",
+    "detailedExplanation": "Cyber sickness, also known as VR sickness, is a form of motion sickness that occurs when using virtual reality systems. It happens due to a disconnect between what the eyes see in the virtual world and what the inner ear senses regarding balance and motion. Symptoms can include nausea, dizziness, and disorientation, similar to traditional motion sickness but specifically related to virtual environments.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Virtual_reality_sickness",
+    "citationTitle": "Wikipedia: Virtual Reality Sickness"
+  },
+  {
+    "id": "2629e074-5a3b-4be5-8197-7df3e3a83c0b",
+    "text": "Which tech giant acquired Oculus VR in 2014 for approximately $2 billion?",
+    "options": [
+      "Google",
+      "Apple",
+      "Facebook",
+      "Microsoft"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Facebook purchased Oculus VR in 2014, later rebranding as Meta.",
+    "detailedExplanation": "Facebook acquired Oculus VR in March 2014 for approximately $2 billion, marking the social media giant's major entry into virtual reality technology. The acquisition was seen as Facebook's bet on VR being the next major computing platform. Facebook later rebranded itself as Meta in 2021, reflecting its focus on building the 'metaverse' using VR and AR technologies.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Oculus_VR",
+    "citationTitle": "Wikipedia: Oculus VR"
+  },
+  {
+    "id": "52a4fc7b-5b70-4ef8-a75f-c87289418e6f",
+    "text": "What does 'FOV' stand for in VR specifications?",
+    "options": [
+      "Field of View",
+      "Frame of Vision",
+      "Focus on Virtual",
+      "Full Optical Vision"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "FOV stands for Field of View, measuring how much of the virtual world you can see.",
+    "detailedExplanation": "Field of View (FOV) in VR refers to the extent of the observable virtual world that can be seen at any given moment through the headset. It's typically measured in degrees and is crucial for creating an immersive experience. A wider FOV provides a more natural and immersive experience, as human vision naturally has a wide field of view. Most consumer VR headsets have FOVs ranging from about 90 to 120 degrees.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Field_of_view",
+    "citationTitle": "Wikipedia: Field of View"
+  },
+  {
+    "id": "47abeec2-dfed-4645-8b3a-255a8fa135d6",
+    "text": "Which popular VR rhythm game involves slicing blocks with virtual lightsabers?",
+    "options": [
+      "Guitar Hero VR",
+      "Beat Saber",
+      "Rock Band VR",
+      "Dance Dance Revolution VR"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Beat Saber is the popular VR rhythm game where players slice colored blocks with lightsaber-like controllers.",
+    "detailedExplanation": "Beat Saber is one of the most successful and recognizable VR games, developed by Beat Games. Players use motion controllers that act like lightsabers to slash through colored blocks that represent musical beats, while avoiding obstacles and following the rhythm of the music. The game became a cultural phenomenon and helped demonstrate VR's potential for creating entirely new types of gaming experiences that wouldn't be possible on traditional platforms.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Beat_Saber",
+    "citationTitle": "Wikipedia: Beat Saber"
+  },
+  {
+    "id": "67a1de4b-188e-46f3-a62f-7256189d58e9",
+    "text": "What type of VR system requires a connection to a computer or gaming console?",
+    "options": [
+      "Standalone VR",
+      "Tethered VR",
+      "Mobile VR",
+      "Wireless VR"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Tethered VR systems require a physical connection to a computer or console for processing power.",
+    "detailedExplanation": "Tethered VR systems are connected via cable to a powerful computer or gaming console that handles the complex processing required for high-quality virtual reality experiences. Examples include the original Oculus Rift, HTC Vive, and PlayStation VR. While the cable can limit movement, tethered systems typically offer superior graphics and performance compared to standalone devices because they can leverage the processing power of external hardware.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Virtual_reality_headset",
+    "citationTitle": "Wikipedia: Virtual Reality Headset"
+  },
+  {
+    "id": "a4bf56dd-319a-42b6-8aeb-1981fab4e7fe",
+    "text": "What is the minimum recommended frame rate for VR to avoid motion sickness?",
+    "options": [
+      "30 FPS",
+      "60 FPS",
+      "90 FPS",
+      "120 FPS"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "90 FPS is the industry standard minimum frame rate for comfortable VR experiences.",
+    "detailedExplanation": "A frame rate of 90 FPS (frames per second) is considered the minimum standard for VR headsets to provide a comfortable experience and minimize motion sickness. This high frame rate is necessary because any lag or stuttering in VR can cause discomfort and break immersion. Some newer headsets support even higher refresh rates like 120Hz or 144Hz for even smoother experiences. The high frame rate requirement is one reason why VR demands significant processing power.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Virtual_reality_headset",
+    "citationTitle": "Wikipedia: Virtual Reality Headset"
+  },
+  {
+    "id": "77622cc0-bbbd-4fa7-9d9a-5a6c4bbe898d",
+    "text": "What does 'haptic feedback' provide in VR experiences?",
+    "options": [
+      "Better graphics",
+      "Surround sound",
+      "Touch sensations",
+      "Voice recognition"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Haptic feedback provides touch and tactile sensations to enhance VR immersion.",
+    "detailedExplanation": "Haptic feedback in VR refers to technology that provides tactile sensations to users through vibrations, forces, or motions. This can range from simple controller vibrations when touching virtual objects to sophisticated haptic gloves that can simulate texture, resistance, and pressure. Haptic feedback adds another sensory dimension to VR experiences, making virtual interactions feel more realistic and immersive by engaging the sense of touch alongside sight and sound.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Haptic_technology",
+    "citationTitle": "Wikipedia: Haptic Technology"
+  },
+  {
+    "id": "cc1bceca-81f9-426c-b269-6bc77db00c78",
+    "text": "Which VR headset was one of the first consumer devices to popularize room-scale VR?",
+    "options": [
+      "Oculus Rift",
+      "HTC Vive",
+      "Samsung Gear VR",
+      "Google Cardboard"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "The HTC Vive pioneered room-scale VR, allowing users to walk around in virtual spaces.",
+    "detailedExplanation": "The HTC Vive, released in 2016, was groundbreaking for introducing room-scale VR to consumers. Using lighthouse tracking technology, it could track users' movements within a defined play area, allowing them to physically walk around and interact with virtual environments. This was a significant advancement over seated or standing VR experiences, as it enabled natural locomotion and made virtual worlds feel much more immersive and realistic.",
+    "citationUrl": "https://en.wikipedia.org/wiki/HTC_Vive",
+    "citationTitle": "Wikipedia: HTC Vive"
+  },
+  {
+    "id": "ebf6f5d7-7422-4008-8068-09f13ae94cfc",
+    "text": "What is the name of the virtual world platform owned by Meta where users can socialize and attend events?",
+    "options": [
+      "Horizon Worlds",
+      "Second Life",
+      "VRChat",
+      "AltspaceVR"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Horizon Worlds is Meta's social VR platform launched in 2021.",
+    "detailedExplanation": "Horizon Worlds is Meta's flagship social virtual reality platform that allows users to create, explore, and socialize in virtual environments. Launched in December 2021, it represents Meta's vision for the metaverse, where users can attend events, play games, and interact with others using VR avatars. The platform is accessible through Meta's Quest headsets and has become a key component of the company's strategy to build immersive social experiences.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Horizon_Worlds",
+    "citationTitle": "Wikipedia: Horizon Worlds"
+  },
+  {
+    "id": "79ebc0ff-80c5-486f-81c6-8a0a732a7221",
+    "text": "Which company developed the HTC Vive VR headset?",
+    "options": [
+      "HTC and Valve",
+      "HTC and Google",
+      "HTC and Microsoft",
+      "HTC and Apple"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "The HTC Vive was developed through a partnership between HTC and Valve Corporation.",
+    "detailedExplanation": "The HTC Vive was developed through a collaboration between HTC, the Taiwanese consumer electronics company, and Valve Corporation, the American video game developer and distributor. Released in 2016, the Vive was notable for its room-scale tracking capabilities and precise motion controllers. Valve contributed their SteamVR tracking technology and software platform, while HTC handled the hardware manufacturing and design, making it a successful partnership that competed directly with other major VR headsets.",
+    "citationUrl": "https://en.wikipedia.org/wiki/HTC_Vive",
+    "citationTitle": "Wikipedia: HTC Vive"
+  },
+  {
+    "id": "d00b9f12-4328-4548-b99a-f86894a8205c",
+    "text": "What does AR stand for in the context of extended reality technologies?",
+    "options": [
+      "Augmented Reality",
+      "Artificial Reality",
+      "Advanced Reality",
+      "Alternative Reality"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "AR stands for Augmented Reality, which overlays digital content onto the real world.",
+    "detailedExplanation": "Augmented Reality (AR) is a technology that overlays digital information, images, or virtual objects onto the real world environment, typically viewed through a smartphone, tablet, or specialized AR glasses. Unlike Virtual Reality which creates a completely immersive digital environment, AR enhances the real world by adding digital elements to it. Popular examples include Pokémon GO, Snapchat filters, and AR shopping apps that let you visualize furniture in your home before purchasing.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Augmented_reality",
+    "citationTitle": "Wikipedia: Augmented reality"
+  },
+  {
+    "id": "5a5477ec-bdfe-4fbc-9e93-48635a965cfd",
+    "text": "What is the technical term for the delay between a user's action and the corresponding response in a VR system?",
+    "options": [
+      "Latency",
+      "Bandwidth",
+      "Resolution",
+      "Refresh rate"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Latency refers to the delay between input and output in VR systems, crucial for preventing motion sickness.",
+    "detailedExplanation": "Latency in VR systems refers to the time delay between when a user performs an action (such as turning their head) and when the corresponding visual or audio response appears in the headset. Low latency is critical for creating convincing VR experiences and preventing motion sickness. Industry standards typically require latency to be under 20 milliseconds for comfortable VR experiences. High latency can break immersion and cause discomfort, making it one of the most important technical specifications for VR hardware and software developers to optimize.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Virtual_reality_headset",
+    "citationTitle": "Wikipedia: Virtual reality headset"
+  }
+]

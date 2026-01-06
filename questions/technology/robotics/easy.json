@@ -1,0 +1,342 @@
+[
+  {
+    "id": "626d7e06-0922-4749-8d2a-33b6d96eed44",
+    "text": "What does the word 'robot' originally mean in Czech?",
+    "options": [
+      "Worker",
+      "Machine",
+      "Helper",
+      "Servant"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "The word 'robot' comes from the Czech word 'robota' meaning 'work' or 'worker'.",
+    "detailedExplanation": "The term 'robot' was first introduced by Czech writer Karel Čapek in his 1920 play 'R.U.R. (Rossum's Universal Robots)'. The word derives from the Czech 'robota', which means 'forced work' or 'labor'. Čapek's brother Josef actually suggested the term when Karel was looking for a name for his artificial workers in the play.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Robot",
+    "citationTitle": "Wikipedia: Robot"
+  },
+  {
+    "id": "fa612398-9936-441e-98b6-6473ba6f2aef",
+    "text": "Which Japanese company is famous for creating the humanoid robot ASIMO?",
+    "options": [
+      "Toyota",
+      "Honda",
+      "Sony",
+      "Nissan"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Honda developed ASIMO (Advanced Step in Innovative Mobility) as their flagship humanoid robot.",
+    "detailedExplanation": "Honda's ASIMO was first introduced in 2000 and became one of the world's most advanced humanoid robots. Standing 4 feet 3 inches tall, ASIMO can walk, run, climb stairs, and even play soccer. The robot represents Honda's decades of research into mobility and artificial intelligence, demonstrating capabilities like recognizing faces, voices, and gestures.",
+    "citationUrl": "https://en.wikipedia.org/wiki/ASIMO",
+    "citationTitle": "Wikipedia: ASIMO"
+  },
+  {
+    "id": "e9720350-fc36-4404-877a-37ee2995e378",
+    "text": "What are the three laws of robotics created by science fiction author Isaac Asimov?",
+    "options": [
+      "Obey, Protect, Survive",
+      "A robot may not injure a human, must obey orders, must protect itself",
+      "Move, Think, Learn",
+      "See, Hear, Speak"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Asimov's Three Laws state robots cannot harm humans, must obey human orders, and must protect themselves.",
+    "detailedExplanation": "Isaac Asimov introduced the Three Laws of Robotics in his 1942 short story 'Runaround'. The complete laws are: 1) A robot may not injure a human being or, through inaction, allow a human being to come to harm, 2) A robot must obey orders given by humans except where such orders conflict with the First Law, and 3) A robot must protect its own existence as long as such protection doesn't conflict with the First or Second Laws.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Three_Laws_of_Robotics",
+    "citationTitle": "Wikipedia: Three Laws of Robotics"
+  },
+  {
+    "id": "347fe705-0331-4ccd-82c4-f08f4e0baf82",
+    "text": "What type of robot is primarily used for cleaning floors in homes?",
+    "options": [
+      "Roomba",
+      "Vacuum bot",
+      "Floor robot",
+      "Cleaning drone"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Roomba is the most well-known brand of robotic vacuum cleaners for home use.",
+    "detailedExplanation": "The Roomba, manufactured by iRobot, was first introduced in 2002 and became the most popular robotic vacuum cleaner. These disc-shaped robots autonomously navigate around homes, using sensors to avoid obstacles and stairs while cleaning floors. The success of Roomba helped establish the consumer robotics market and made robotic cleaning accessible to ordinary households.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Roomba",
+    "citationTitle": "Wikipedia: Roomba"
+  },
+  {
+    "id": "dd28043f-fe0c-4b27-b01b-92d677e7e8cb",
+    "text": "In which industry were industrial robots first widely used?",
+    "options": [
+      "Textile manufacturing",
+      "Automotive manufacturing",
+      "Food processing",
+      "Electronics assembly"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "The automotive industry was the first to widely adopt industrial robots for assembly line work.",
+    "detailedExplanation": "The first industrial robot, called Unimate, was installed at a General Motors assembly line in New Jersey in 1961. It was used to lift and stack hot pieces of metal from a die casting machine. The automotive industry quickly became the largest adopter of industrial robots due to the repetitive, precise nature of car assembly work and the need to handle heavy components safely.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Industrial_robot",
+    "citationTitle": "Wikipedia: Industrial robot"
+  },
+  {
+    "id": "20c90fa4-5ee0-48a4-bef6-bf0623c22a9e",
+    "text": "What is the name of the Mars rover that successfully landed on Mars in 2021?",
+    "options": [
+      "Curiosity",
+      "Perseverance",
+      "Opportunity",
+      "Spirit"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Perseverance is NASA's most recent Mars rover, which landed in February 2021.",
+    "detailedExplanation": "The Perseverance rover landed on Mars on February 18, 2021, as part of NASA's Mars 2020 mission. This six-wheeled robotic explorer is searching for signs of ancient microbial life and collecting rock samples for future return to Earth. Perseverance also carries the first helicopter to operate on another planet, called Ingenuity, demonstrating powered flight in Mars' thin atmosphere.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Perseverance_(rover)",
+    "citationTitle": "Wikipedia: Perseverance (rover)"
+  },
+  {
+    "id": "c02e53cd-2414-4ab2-92eb-d2389774e1a6",
+    "text": "What do we call robots that are designed to look and act like humans?",
+    "options": [
+      "Androids",
+      "Humanoids",
+      "Cyborgs",
+      "Avatars"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Humanoid robots are designed to resemble and mimic human appearance and behavior.",
+    "detailedExplanation": "Humanoid robots are designed with a human-like body structure, typically featuring a head, torso, arms, and legs. They are built to interact with human environments and tools designed for human use. Famous examples include Honda's ASIMO, Boston Dynamics' Atlas, and SoftBank's Pepper. The term 'android' specifically refers to robots that look exactly like humans, while 'humanoid' is the broader category for human-like robots.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Humanoid_robot",
+    "citationTitle": "Wikipedia: Humanoid robot"
+  },
+  {
+    "id": "27d3979e-d4b1-4a24-a544-b37137e38b26",
+    "text": "Which component is often called the 'brain' of a robot?",
+    "options": [
+      "Motor",
+      "Sensor",
+      "Microprocessor",
+      "Battery"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "The microprocessor controls the robot's operations and processes information, functioning like a brain.",
+    "detailedExplanation": "The microprocessor or computer processor serves as the central processing unit of a robot, controlling all its functions and decision-making processes. It receives input from sensors, processes this information according to programmed instructions, and sends commands to motors and other actuators. This component coordinates all the robot's activities, making it analogous to a brain in biological systems.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Robot",
+    "citationTitle": "Wikipedia: Robot"
+  },
+  {
+    "id": "572d75ee-b617-49dc-91ae-c0404e23cbab",
+    "text": "What is the name of the famous robot character from the Star Wars franchise that is known for its golden appearance and protocol abilities?",
+    "options": [
+      "R2-D2",
+      "C-3PO",
+      "BB-8",
+      "K-2SO"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "C-3PO is the golden protocol droid from Star Wars.",
+    "detailedExplanation": "C-3PO is one of the most recognizable robots in popular culture, appearing throughout the Star Wars saga as a golden-colored protocol droid fluent in over six million forms of communication. Created by Anakin Skywalker, C-3PO serves as a diplomatic and translation robot, often paired with the smaller astromech droid R2-D2.",
+    "citationUrl": "https://en.wikipedia.org/wiki/C-3PO",
+    "citationTitle": "Wikipedia: C-3PO"
+  },
+  {
+    "id": "06ae1488-4f02-4ae3-89a5-16e77667311e",
+    "text": "Which of these is a common type of sensor used by robots to detect obstacles and measure distances?",
+    "options": [
+      "Ultrasonic sensor",
+      "Bluetooth adapter",
+      "Wi-Fi module",
+      "Speaker"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Ultrasonic sensors use sound waves to detect obstacles and measure distances.",
+    "detailedExplanation": "Ultrasonic sensors are widely used in robotics for navigation and obstacle avoidance. They work by emitting high-frequency sound waves and measuring the time it takes for the waves to bounce back from objects, allowing robots to determine distance and detect obstacles in their path. This technology is similar to sonar used by submarines and echolocation used by bats.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Ultrasonic_sensor",
+    "citationTitle": "Wikipedia: Ultrasonic sensor"
+  },
+  {
+    "id": "1cceeb8b-10f5-4312-8743-c419850ff880",
+    "text": "What do we call the field of engineering that deals with the design and construction of robots?",
+    "options": [
+      "Robotics",
+      "Cybernetics",
+      "Mechatronics",
+      "All of the above"
+    ],
+    "correctIndex": 3,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "All three fields contribute to robot design and construction.",
+    "detailedExplanation": "Robot development involves multiple engineering disciplines. Robotics is the primary field focused on robot design and construction, while mechatronics combines mechanical, electrical, and computer engineering for automated systems. Cybernetics studies the communication and control in machines and living beings. Modern robot development typically draws from all these fields to create sophisticated autonomous systems.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Robotics",
+    "citationTitle": "Wikipedia: Robotics"
+  },
+  {
+    "id": "23f160ce-55ea-41bc-be3b-05b958448f20",
+    "text": "Which Boston Dynamics robot became famous for its ability to perform backflips and parkour moves?",
+    "options": [
+      "Spot",
+      "Atlas",
+      "BigDog",
+      "Handle"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Atlas is Boston Dynamics' humanoid robot known for acrobatic abilities.",
+    "detailedExplanation": "Atlas is Boston Dynamics' most advanced humanoid robot, standing about 5 feet tall and weighing 190 pounds. It gained widespread internet fame through videos showing its impressive mobility, including running, jumping, performing backflips, and navigating obstacle courses with human-like agility. The robot represents significant advances in balance, coordination, and dynamic movement in humanoid robotics.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Atlas_(robot)",
+    "citationTitle": "Wikipedia: Atlas (robot)"
+  },
+  {
+    "id": "0c792457-3ecf-4575-b8ff-4fef48260361",
+    "text": "What type of robot is specifically designed to perform surgical procedures with high precision?",
+    "options": [
+      "Surgical robot",
+      "Medical android",
+      "Nano-bot",
+      "Therapeutic robot"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Surgical robots are designed for precise medical procedures.",
+    "detailedExplanation": "Surgical robots are sophisticated medical devices that assist surgeons in performing operations with enhanced precision, flexibility, and control. The most well-known example is the da Vinci Surgical System, which allows surgeons to perform minimally invasive procedures through small incisions. These robots don't operate autonomously but are controlled by skilled surgeons who benefit from the robot's steady hands, 3D visualization, and ability to scale down hand movements for micro-surgery.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Surgical_robot",
+    "citationTitle": "Wikipedia: Surgical robot"
+  },
+  {
+    "id": "17c05e01-3224-4a9f-8c3e-7fe025bf6b86",
+    "text": "In which decade were the first programmable industrial robots introduced to manufacturing?",
+    "options": [
+      "1940s",
+      "1950s",
+      "1960s",
+      "1970s"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "The first programmable industrial robots were introduced in the 1960s.",
+    "detailedExplanation": "The first programmable industrial robot, called Unimate, was installed at a General Motors plant in New Jersey in 1961. It was created by George Devol and Joseph Engelberger, with Engelberger often called the 'father of robotics.' This robot performed tasks like lifting hot metal parts from die-casting machines and welding parts onto car bodies, marking the beginning of industrial automation and the modern robotics industry.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Unimate",
+    "citationTitle": "Wikipedia: Unimate"
+  },
+  {
+    "id": "ef67a466-691f-4fb0-8dfc-13199110dff4",
+    "text": "What is the term for robots that can move around freely rather than being fixed in one location?",
+    "options": [
+      "Static robots",
+      "Mobile robots",
+      "Stationary robots",
+      "Fixed robots"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Mobile robots can move around freely in their environment.",
+    "detailedExplanation": "Mobile robots are designed with locomotion capabilities that allow them to move through their environment, unlike stationary or fixed robots that remain in one location. Mobile robots can use various methods of movement including wheels, tracks, legs, or even flight. Examples include autonomous vacuum cleaners, military drones, planetary rovers, and warehouse automation robots. They typically include navigation systems, sensors for obstacle avoidance, and mapping capabilities.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Mobile_robot",
+    "citationTitle": "Wikipedia: Mobile robot"
+  },
+  {
+    "id": "771ec854-5336-497e-8eb5-dbead4a2b5d5",
+    "text": "Which programming language is commonly used for robot programming and control systems?",
+    "options": [
+      "HTML",
+      "C++",
+      "CSS",
+      "SQL"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "C++ is widely used in robotics for its performance and control capabilities.",
+    "detailedExplanation": "C++ is one of the most popular programming languages in robotics due to its high performance, low-level hardware control capabilities, and extensive libraries. It's particularly valued for real-time systems where timing is critical, such as motor control and sensor processing. Other languages like Python and Java are also used in robotics, but C++ remains dominant for system-level programming, embedded systems, and applications requiring direct hardware interaction and optimal performance.",
+    "citationUrl": "https://en.wikipedia.org/wiki/C%2B%2B",
+    "citationTitle": "Wikipedia: C++"
+  },
+  {
+    "id": "5e4156be-c5f5-4d84-b35a-28c8777968e4",
+    "text": "What is the name of the autonomous robotic spacecraft that has been exploring Saturn and its moons since 2004?",
+    "options": [
+      "Cassini",
+      "Voyager",
+      "Pioneer",
+      "Galileo"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Cassini was the robotic spacecraft that orbited Saturn from 2004 to 2017, studying the planet and its moons.",
+    "detailedExplanation": "The Cassini-Huygens mission was a joint NASA-ESA robotic spacecraft that spent 13 years studying Saturn, its rings, and moons. Launched in 1997, it arrived at Saturn in 2004 and made numerous groundbreaking discoveries, including evidence of liquid water on Saturn's moon Enceladus. The mission ended in 2017 when Cassini was deliberately crashed into Saturn's atmosphere.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Cassini%E2%80%93Huygens",
+    "citationTitle": "Wikipedia: Cassini–Huygens"
+  },
+  {
+    "id": "b253b4c3-7266-49e2-8b8b-78a7c1e1818a",
+    "text": "Which country operates the most industrial robots per 10,000 manufacturing workers worldwide?",
+    "options": [
+      "Japan",
+      "South Korea",
+      "Germany",
+      "United States"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "South Korea has the highest robot density in manufacturing, with over 900 robots per 10,000 workers.",
+    "detailedExplanation": "According to the International Federation of Robotics, South Korea leads the world in robot density with approximately 932 robots per 10,000 manufacturing workers as of recent statistics. This high automation level is driven by the country's major industries including automotive, electronics, and shipbuilding. Singapore and Japan follow as the second and third highest respectively in robot density.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Industrial_robot",
+    "citationTitle": "Wikipedia: Industrial robot"
+  },
+  {
+    "id": "a0719b48-a2b5-4fe0-a72c-c7729891c05e",
+    "text": "What type of robot navigation system uses satellites to determine position and movement?",
+    "options": [
+      "LIDAR",
+      "GPS",
+      "Sonar",
+      "Infrared"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "GPS (Global Positioning System) uses satellites to provide location and navigation data for robots.",
+    "detailedExplanation": "GPS navigation in robotics relies on a constellation of satellites orbiting Earth to provide precise location coordinates. Many autonomous robots, including agricultural robots, delivery drones, and self-driving vehicles, use GPS as a primary navigation method. While GPS is highly effective outdoors, robots often combine it with other sensors like LIDAR or cameras for indoor navigation or when GPS signals are blocked.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Robotic_navigation",
+    "citationTitle": "Wikipedia: Robotic navigation"
+  },
+  {
+    "id": "b1ffd3e5-a534-4de6-b753-8bfc075acf9f",
+    "text": "Which underwater robot type is commonly used for deep-sea exploration and ocean research?",
+    "options": [
+      "AUV",
+      "UAV",
+      "AGV",
+      "AMR"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "AUV stands for Autonomous Underwater Vehicle, designed specifically for underwater exploration and research.",
+    "detailedExplanation": "Autonomous Underwater Vehicles (AUVs) are robotic submarines that can operate independently underwater without direct human control. They are extensively used for ocean mapping, marine biology research, underwater archaeology, and offshore oil and gas exploration. Famous AUVs include those used to explore the Titanic wreck and to search for missing aircraft like Malaysia Airlines Flight 370. These robots can dive to extreme depths and operate for extended periods.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Autonomous_underwater_vehicle",
+    "citationTitle": "Wikipedia: Autonomous underwater vehicle"
+  }
+]

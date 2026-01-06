@@ -57,7 +57,7 @@ export const DEFAULT_SUBSCRIPTION_INFO: SubscriptionInfo = {
  * Feature flags based on subscription tier
  */
 export interface SubscriptionFeatures {
-  unlimitedSets: boolean;
+  unlimitedQuestions: boolean;
   adFree: boolean;
   patronBadge: boolean;
   patronLeaderboard: boolean;
@@ -71,7 +71,7 @@ export interface SubscriptionFeatures {
  */
 export function getSubscriptionFeatures(tier: SubscriptionTier): SubscriptionFeatures {
   return {
-    unlimitedSets: tier >= 1,
+    unlimitedQuestions: tier >= 1,
     adFree: tier >= 2,
     patronBadge: tier >= 1,
     patronLeaderboard: tier >= 1,
@@ -82,9 +82,9 @@ export function getSubscriptionFeatures(tier: SubscriptionTier): SubscriptionFea
 }
 
 /**
- * Free tier daily set limit
+ * Free tier daily question limit
  */
-export const FREE_TIER_DAILY_SET_LIMIT = 3;
+export const FREE_TIER_DAILY_QUESTION_LIMIT = 50;
 
 /**
  * Stripe webhook event types we handle

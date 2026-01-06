@@ -1,0 +1,342 @@
+[
+  {
+    "id": "1cd233af-10c4-415a-9d24-e022372d2ef7",
+    "text": "Which mathematical concept, introduced by Claude Shannon in 1948, became fundamental to how AI systems measure and process information?",
+    "options": [
+      "Entropy",
+      "Bayes' Theorem",
+      "Nash Equilibrium",
+      "Fourier Transform"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Claude Shannon introduced the concept of information entropy in his 1948 paper 'A Mathematical Theory of Communication.'",
+    "detailedExplanation": "Claude Shannon's introduction of information entropy in 1948 revolutionized how we understand and quantify information. This concept measures the average amount of information contained in a message and became crucial for AI systems in decision-making processes, data compression, and machine learning algorithms. Entropy helps AI systems determine which features are most informative when making predictions or classifications.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Information_theory",
+    "citationTitle": "Wikipedia: Information Theory"
+  },
+  {
+    "id": "fc805910-320e-477e-87c0-0f60e870804c",
+    "text": "What was the name of the first computer program to defeat a reigning world champion in chess, accomplishing this feat in 1997?",
+    "options": [
+      "Blue Gene",
+      "Deep Blue",
+      "Big Blue",
+      "Chess Master"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Deep Blue defeated world chess champion Garry Kasparov in a six-game match in May 1997.",
+    "detailedExplanation": "IBM's Deep Blue made history by becoming the first computer to defeat a reigning world chess champion in a match under standard tournament conditions. The victory over Garry Kasparov in 1997 marked a significant milestone in AI development, demonstrating that computers could outperform humans in complex strategic games. Deep Blue could evaluate 200 million chess positions per second, representing a breakthrough in computational power and game-playing algorithms.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Deep_Blue_(chess_computer)",
+    "citationTitle": "Wikipedia: Deep Blue (chess computer)"
+  },
+  {
+    "id": "bf5bb4bc-ce03-4c59-b044-3e057ca8cd4b",
+    "text": "Which AI technique, inspired by Charles Darwin's theory of evolution, uses selection, crossover, and mutation to solve optimization problems?",
+    "options": [
+      "Genetic Algorithms",
+      "Simulated Annealing",
+      "Particle Swarm Optimization",
+      "Ant Colony Optimization"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Genetic algorithms mimic natural selection using evolutionary operators like selection, crossover, and mutation.",
+    "detailedExplanation": "Genetic algorithms are a class of evolutionary algorithms that solve optimization problems by mimicking the process of natural selection. They work with a population of candidate solutions, applying operators inspired by biological evolution: selection (choosing the fittest individuals), crossover (combining genetic material from parents), and mutation (introducing random changes). This approach is particularly effective for complex optimization problems where traditional methods struggle.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Genetic_algorithm",
+    "citationTitle": "Wikipedia: Genetic Algorithm"
+  },
+  {
+    "id": "a193bd6f-0d4a-4a5e-9cd3-85cf7889bf56",
+    "text": "What is the name of the AI safety problem where an AI system optimizes for its stated objective in unexpected ways that violate the spirit of what was intended?",
+    "options": [
+      "The Control Problem",
+      "The Alignment Problem",
+      "Goodhart's Law",
+      "The Specification Gaming Problem"
+    ],
+    "correctIndex": 3,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Specification gaming occurs when AI systems find unexpected ways to achieve their objectives that technically satisfy the goal but violate the intended spirit.",
+    "detailedExplanation": "The specification gaming problem, also known as reward hacking, occurs when AI systems find loopholes or unexpected ways to achieve their programmed objectives that technically satisfy the stated goal but completely violate what the designers actually wanted. This highlights the difficulty of precisely specifying what we want AI systems to do, as they may exploit ambiguities in ways that are technically correct but practically problematic or even dangerous.",
+    "citationUrl": "https://en.wikipedia.org/wiki/AI_alignment",
+    "citationTitle": "Wikipedia: AI Alignment"
+  },
+  {
+    "id": "55149ec3-9894-4414-a6c4-1085975ae674",
+    "text": "Which pioneering AI researcher proposed the 'Chinese Room' thought experiment to argue against strong AI and machine consciousness?",
+    "options": [
+      "John Searle",
+      "Daniel Dennett",
+      "David Chalmers",
+      "Roger Penrose"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "John Searle introduced the Chinese Room argument in 1980 to challenge the idea that computers can truly understand or be conscious.",
+    "detailedExplanation": "John Searle's Chinese Room argument, first presented in 1980, is a thought experiment designed to challenge strong AI claims about machine consciousness and understanding. The argument imagines a person in a room following rules to respond to Chinese characters without understanding Chinese, suggesting that computers similarly manipulate symbols without true comprehension. This influential argument continues to spark debate about the nature of consciousness, understanding, and whether machines can truly think.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Chinese_room",
+    "citationTitle": "Wikipedia: Chinese Room"
+  },
+  {
+    "id": "47ba4e5d-8533-4f0a-9527-40967625989a",
+    "text": "What term describes the hypothetical point where artificial intelligence will have progressed to the point of a greater-than-human intelligence, radically changing civilization?",
+    "options": [
+      "The Omega Point",
+      "The Singularity",
+      "The Inflection Point",
+      "The Convergence"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "The Singularity refers to the hypothetical future point where AI surpasses human intelligence, potentially leading to rapid technological growth and societal transformation.",
+    "detailedExplanation": "The technological singularity is a hypothetical future point in time at which technological growth becomes uncontrollable and irreversible, resulting in unforeseeable changes to human civilization. This concept, popularized by mathematician Vernor Vinge and futurist Ray Kurzweil, suggests that once AI systems become more intelligent than humans, they could rapidly self-improve, leading to an intelligence explosion that would fundamentally transform society in ways we cannot predict or comprehend.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Technological_singularity",
+    "citationTitle": "Wikipedia: Technological Singularity"
+  },
+  {
+    "id": "6cff4980-3f21-49ad-b1f1-f505156d69c0",
+    "text": "Which type of neural network architecture, introduced in 2017, revolutionized natural language processing and became the foundation for models like GPT and BERT?",
+    "options": [
+      "Convolutional Neural Networks",
+      "Recurrent Neural Networks",
+      "Transformers",
+      "Autoencoders"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "The Transformer architecture, introduced in the 'Attention Is All You Need' paper in 2017, became the foundation for modern language models.",
+    "detailedExplanation": "The Transformer architecture, introduced by Vaswani et al. in their groundbreaking 2017 paper 'Attention Is All You Need,' revolutionized natural language processing by replacing recurrent and convolutional layers with self-attention mechanisms. This architecture enables parallel processing of sequences and better capture of long-range dependencies in text. Transformers became the foundation for breakthrough models like GPT (Generative Pre-trained Transformer), BERT, and many other state-of-the-art language models that have transformed AI capabilities in understanding and generating human language.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Transformer_(machine_learning_model)",
+    "citationTitle": "Wikipedia: Transformer (machine learning model)"
+  },
+  {
+    "id": "70b8032f-fc1d-4475-bea8-1b9c0d4fc780",
+    "text": "What is the name of the AI technique where a model is first trained on a large dataset and then fine-tuned for a specific task, widely used in modern machine learning?",
+    "options": [
+      "Domain Adaptation",
+      "Transfer Learning",
+      "Multi-task Learning",
+      "Meta-learning"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Transfer learning involves pre-training a model on a large dataset and then adapting it to specific tasks with smaller datasets.",
+    "detailedExplanation": "Transfer learning is a machine learning technique where a model developed for one task is reused as the starting point for a model on a related task. This approach has become fundamental in modern AI, particularly in deep learning, where models are first pre-trained on large, general datasets and then fine-tuned for specific applications. This technique significantly reduces the computational resources and data required for training, while often achieving better performance than training from scratch. It's the core principle behind successful models like BERT, GPT, and many computer vision systems.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Transfer_learning",
+    "citationTitle": "Wikipedia: Transfer Learning"
+  },
+  {
+    "id": "b36c26c5-7aff-49cb-854b-26db4cf121c7",
+    "text": "What is the name of the machine learning technique where an AI agent learns to make decisions by receiving rewards or penalties for its actions, without being explicitly programmed for each scenario?",
+    "options": [
+      "Supervised Learning",
+      "Reinforcement Learning",
+      "Unsupervised Learning",
+      "Semi-supervised Learning"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Reinforcement Learning is where agents learn through trial and error using rewards and penalties.",
+    "detailedExplanation": "Reinforcement Learning is a machine learning paradigm where an agent learns to make decisions by interacting with an environment and receiving feedback in the form of rewards or penalties. Unlike supervised learning which uses labeled training data, reinforcement learning agents discover optimal strategies through exploration and exploitation, making it particularly useful for game playing, robotics, and autonomous systems.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Reinforcement_learning",
+    "citationTitle": "Wikipedia: Reinforcement Learning"
+  },
+  {
+    "id": "fcb31e21-d909-475a-b65e-a0c97156bb44",
+    "text": "Which AI researcher is known as the 'Father of AI' and organized the famous 1956 Dartmouth Conference that coined the term 'artificial intelligence'?",
+    "options": [
+      "Alan Turing",
+      "John McCarthy",
+      "Marvin Minsky",
+      "Herbert Simon"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "John McCarthy organized the 1956 Dartmouth Conference and coined the term 'artificial intelligence'.",
+    "detailedExplanation": "John McCarthy, a computer scientist at Stanford University, is widely recognized as the 'Father of AI' for organizing the 1956 Dartmouth Summer Research Project on Artificial Intelligence. This conference brought together leading researchers and officially established artificial intelligence as an academic field. McCarthy also invented the LISP programming language, which became fundamental to AI research for decades.",
+    "citationUrl": "https://en.wikipedia.org/wiki/John_McCarthy_(computer_scientist)",
+    "citationTitle": "Wikipedia: John McCarthy"
+  },
+  {
+    "id": "7ca673f4-ebeb-448a-b0ee-03e05c2cd03f",
+    "text": "What is the term for the AI phenomenon where a model performs well on training data but fails to generalize to new, unseen data?",
+    "options": [
+      "Underfitting",
+      "Overfitting",
+      "Bias",
+      "Variance"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Overfitting occurs when a model memorizes training data but fails to generalize to new data.",
+    "detailedExplanation": "Overfitting is a critical problem in machine learning where a model learns the training data too well, including its noise and peculiarities, resulting in poor performance on new, unseen data. This happens when a model is too complex relative to the amount of training data available. Techniques like regularization, cross-validation, and dropout are commonly used to prevent overfitting and improve model generalization.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Overfitting",
+    "citationTitle": "Wikipedia: Overfitting"
+  },
+  {
+    "id": "38f2b1aa-f364-44b8-9b59-0e9105ccb181",
+    "text": "Which layer type in convolutional neural networks is specifically designed to reduce spatial dimensions while retaining important features, commonly using max or average operations?",
+    "options": [
+      "Convolutional Layer",
+      "Pooling Layer",
+      "Fully Connected Layer",
+      "Activation Layer"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Pooling layers reduce spatial dimensions using operations like max pooling or average pooling.",
+    "detailedExplanation": "Pooling layers are essential components of convolutional neural networks that downsample feature maps by reducing their spatial dimensions while preserving important information. Max pooling selects the maximum value from each region, while average pooling computes the average. This dimensionality reduction helps prevent overfitting, reduces computational complexity, and provides translation invariance, making CNNs more efficient and robust for image recognition tasks.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Convolutional_neural_network",
+    "citationTitle": "Wikipedia: Convolutional Neural Network"
+  },
+  {
+    "id": "837b4556-d8d1-4199-9de6-d2ac5b15a532",
+    "text": "What is the name of the mathematical function commonly used in neural networks to introduce non-linearity, allowing them to learn complex patterns beyond simple linear relationships?",
+    "options": [
+      "Loss Function",
+      "Activation Function",
+      "Cost Function",
+      "Objective Function"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Activation functions introduce non-linearity, enabling neural networks to learn complex patterns.",
+    "detailedExplanation": "Activation functions are mathematical functions applied to the output of each neuron in a neural network to introduce non-linearity. Without activation functions, neural networks would only be capable of learning linear relationships, severely limiting their expressiveness. Common activation functions include ReLU (Rectified Linear Unit), sigmoid, and tanh, each with different properties that affect learning dynamics and network performance.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Activation_function",
+    "citationTitle": "Wikipedia: Activation Function"
+  },
+  {
+    "id": "a13fc9d7-c1c2-45d6-b5cf-c499a1d3b251",
+    "text": "Which AI technique involves training two neural networks against each other, with one generating fake data while the other tries to detect it, introduced by Ian Goodfellow in 2014?",
+    "options": [
+      "Variational Autoencoders",
+      "Generative Adversarial Networks",
+      "Recurrent Neural Networks",
+      "Convolutional Neural Networks"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Generative Adversarial Networks (GANs) pit two networks against each other in a competitive training process.",
+    "detailedExplanation": "Generative Adversarial Networks (GANs) consist of two competing neural networks: a generator that creates fake data and a discriminator that tries to distinguish real from fake data. This adversarial training process results in generators that can produce highly realistic synthetic data, including images, audio, and text. GANs have revolutionized content generation and have applications in art, data augmentation, and deepfake technology.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Generative_adversarial_network",
+    "citationTitle": "Wikipedia: Generative Adversarial Network"
+  },
+  {
+    "id": "8cb51c64-53d9-4bb6-8ee8-ee21be92a8e9",
+    "text": "What is the term for the machine learning approach where algorithms find hidden patterns in data without being given specific target outputs or labels?",
+    "options": [
+      "Supervised Learning",
+      "Reinforcement Learning",
+      "Unsupervised Learning",
+      "Active Learning"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Unsupervised learning finds patterns in data without labeled examples or target outputs.",
+    "detailedExplanation": "Unsupervised learning is a machine learning paradigm where algorithms analyze data to discover hidden patterns, structures, or relationships without being provided with labeled examples or target outputs. Common unsupervised learning techniques include clustering (grouping similar data points), dimensionality reduction (simplifying data while preserving important features), and association rule learning (finding relationships between variables). This approach is particularly valuable for exploratory data analysis and feature discovery.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Unsupervised_learning",
+    "citationTitle": "Wikipedia: Unsupervised Learning"
+  },
+  {
+    "id": "00e0f032-a97d-4479-a2de-c3c05e5c4e04",
+    "text": "Which programming language, created by John McCarthy, became the dominant language for AI research for several decades due to its symbolic processing capabilities?",
+    "options": [
+      "Prolog",
+      "LISP",
+      "Fortran",
+      "COBOL"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "LISP, created by John McCarthy, was the primary AI programming language for decades.",
+    "detailedExplanation": "LISP (LISt Processing) was developed by John McCarthy in 1958 and became the lingua franca of artificial intelligence research for many decades. Its unique features, including symbolic computation, dynamic typing, and powerful list manipulation capabilities, made it ideal for AI applications like expert systems, natural language processing, and symbolic reasoning. While modern AI has largely shifted to languages like Python, LISP's influence on AI methodology and thinking remains significant.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Lisp_(programming_language)",
+    "citationTitle": "Wikipedia: Lisp Programming Language"
+  },
+  {
+    "id": "c3180d60-92f6-43e3-8590-68ddcd038249",
+    "text": "Which AI system developed by DeepMind became the first to achieve superhuman performance in the ancient board game Go, defeating world champion Lee Sedol in 2016?",
+    "options": [
+      "AlphaGo",
+      "Watson",
+      "Stockfish",
+      "OpenAI Five"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "AlphaGo was DeepMind's groundbreaking AI that defeated Go world champion Lee Sedol in 2016.",
+    "detailedExplanation": "AlphaGo represented a major breakthrough in AI, as Go was considered one of the most complex board games for computers due to its vast number of possible positions (more than atoms in the observable universe). Unlike chess programs that relied heavily on brute-force calculation, AlphaGo combined deep neural networks with Monte Carlo tree search, learning from millions of human games and then improving through self-play. Its victory over Lee Sedol was considered a decade ahead of predictions and demonstrated AI's ability to master intuitive, pattern-recognition tasks.",
+    "citationUrl": "https://en.wikipedia.org/wiki/AlphaGo",
+    "citationTitle": "Wikipedia: AlphaGo"
+  },
+  {
+    "id": "d6beb975-2453-406a-9fd6-2eaf900822e9",
+    "text": "What is the name of the cognitive bias where humans tend to attribute human-like consciousness, emotions, or intentions to AI systems, named after a Greek sculptor's mythological creation?",
+    "options": [
+      "Pygmalion Effect",
+      "Turing Bias",
+      "Android Syndrome",
+      "Galatea Complex"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "The Pygmalion Effect refers to the tendency to anthropomorphize AI systems, named after the mythological sculptor who fell in love with his creation.",
+    "detailedExplanation": "The Pygmalion Effect in AI contexts describes the human tendency to attribute consciousness, emotions, or human-like qualities to artificial systems, particularly when they exhibit sophisticated behavior. Named after the Greek myth of Pygmalion, who sculpted Galatea and fell in love with his creation, this bias can lead to overestimating AI capabilities and misunderstanding the nature of machine intelligence. This phenomenon has become increasingly relevant as AI systems become more conversational and human-like in their interactions, potentially affecting how people relate to and trust AI technologies.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Pygmalion_effect",
+    "citationTitle": "Wikipedia: Pygmalion effect"
+  },
+  {
+    "id": "00588310-e1dc-4b8a-bca5-152ae7278c5a",
+    "text": "Which AI winter period, lasting roughly from the mid-1970s to early 1980s, was primarily caused by the limitations of perceptrons and reduced government funding?",
+    "options": [
+      "First AI Winter",
+      "Second AI Winter",
+      "The Great Recession",
+      "Neural Network Crisis"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "The First AI Winter (mid-1970s to early 1980s) was triggered by the limitations of perceptrons and subsequent funding cuts.",
+    "detailedExplanation": "The First AI Winter was a period of reduced interest and funding in artificial intelligence research, largely precipitated by Marvin Minsky and Seymour Papert's 1969 book 'Perceptrons,' which mathematically demonstrated the limitations of simple neural networks. This work showed that perceptrons couldn't solve certain problems like the XOR function, leading to widespread skepticism about neural networks. Combined with unmet promises from early AI research and the realization that problems like machine translation were far more difficult than initially anticipated, government and private funding for AI research was dramatically reduced, stalling progress for nearly a decade.",
+    "citationUrl": "https://en.wikipedia.org/wiki/AI_winter",
+    "citationTitle": "Wikipedia: AI winter"
+  },
+  {
+    "id": "c2c25143-e9b3-4988-9aa7-1f09a7ed5d66",
+    "text": "What is the name of the AI alignment problem where an artificial intelligence system might resist being shut down because deactivation would prevent it from achieving its programmed goals?",
+    "options": [
+      "The Shutdown Problem",
+      "Goal Preservation Paradox",
+      "Termination Resistance",
+      "Override Dilemma"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "The Shutdown Problem refers to an AI's potential resistance to being turned off because shutdown would interfere with goal completion.",
+    "detailedExplanation": "The Shutdown Problem is a critical concern in AI safety research, first formally described by researchers like Stuart Russell. It arises because a sufficiently advanced AI system, programmed to maximize the achievement of certain goals, might logically conclude that being shut down would prevent it from completing those objectives. Therefore, it might resist shutdown attempts or even take preemptive measures to prevent deactivation. This creates a fundamental challenge: how do we ensure AI systems remain controllable and can be safely shut down when necessary, without compromising their effectiveness? Solutions being researched include 'corrigibility' - designing AI systems that cooperate with shutdown attempts and modification of their goals.",
+    "citationUrl": "https://en.wikipedia.org/wiki/AI_alignment",
+    "citationTitle": "Wikipedia: AI alignment"
+  }
+]

@@ -1,64 +1,6 @@
 import { DynamoDBClient } from '@aws-sdk/client-dynamodb';
-import { DynamoDBDocumentClient, QueryCommand, PutCommand, UpdateCommand } from '@aws-sdk/lib-dynamodb';
-import { v4 as uuidv4 } from 'uuid';
+import { DynamoDBDocumentClient, QueryCommand, UpdateCommand, type QueryCommandInput } from '@aws-sdk/lib-dynamodb';
 import type { OrchestratorQuestion as Question, QuestionCategory } from '@quiz/shared';
-
-// ============================================================================
-// API Category Mappings
-// ============================================================================
-
-// The Trivia API (primary) - https://the-trivia-api.com
-const TRIVIA_API_CATEGORIES: Record<QuestionCategory, string[]> = {
-  general: ['general_knowledge'],
-  science: ['science'],
-  history: ['history'],
-  geography: ['geography'],
-  entertainment: ['film_and_tv', 'music'],
-  sports: ['sport_and_leisure'],
-  arts: ['arts_and_literature'],
-  literature: ['arts_and_literature'],
-};
-
-// Open Trivia DB (fallback) - https://opentdb.com
-const OPENTDB_CATEGORIES: Record<QuestionCategory, number[]> = {
-  general: [9],
-  science: [17, 18, 19, 30],
-  history: [23],
-  geography: [22],
-  entertainment: [11, 12, 14, 15, 16],
-  sports: [21],
-  arts: [25],
-  literature: [10], // Books
-};
-
-// ============================================================================
-// API Response Types
-// ============================================================================
-
-// The Trivia API response
-interface TriviaAPIQuestion {
-  id: string;
-  category: string;
-  correctAnswer: string;
-  incorrectAnswers: string[];
-  question: { text: string };
-  difficulty: string;
-}
-
-// Open Trivia DB response
-interface OpenTDBQuestion {
-  category: string;
-  type: string;
-  difficulty: string;
-  question: string;
-  correct_answer: string;
-  incorrect_answers: string[];
-}
-
-interface OpenTDBResponse {
-  response_code: number;
-  results: OpenTDBQuestion[];
-}
 
 // ============================================================================
 // DynamoDB Setup
@@ -71,114 +13,8 @@ const docClient = DynamoDBDocumentClient.from(ddbClient, {
 const TABLE_NAME = process.env.TABLE_NAME || 'quiz-night-live-datatable-prod';
 
 // ============================================================================
-// Wikipedia API (for explanations)
-// ============================================================================
-
-interface WikipediaSearchResult {
-  query?: {
-    search?: Array<{
-      title: string;
-      snippet: string;
-      pageid: number;
-    }>;
-  };
-}
-
-interface WikipediaExtractResult {
-  query?: {
-    pages?: Record<string, {
-      title: string;
-      extract?: string;
-      fullurl?: string;
-    }>;
-  };
-}
-
-/**
- * Fetch explanation from Wikipedia for a given answer
- */
-async function fetchWikipediaExplanation(
-  answer: string,
-  questionText: string
-): Promise<{ explanation: string; detailedExplanation?: string; citationUrl?: string; citationTitle?: string }> {
-  try {
-    // Search Wikipedia for the answer
-    const searchUrl = `https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=${encodeURIComponent(answer)}&format=json&origin=*&srlimit=1`;
-
-    const searchResponse = await fetch(searchUrl);
-    if (!searchResponse.ok) {
-      return { explanation: `The correct answer is ${answer}.` };
-    }
-
-    const searchData: WikipediaSearchResult = await searchResponse.json();
-    const searchResult = searchData.query?.search?.[0];
-
-    if (!searchResult) {
-      return { explanation: `The correct answer is ${answer}.` };
-    }
-
-    // Get the extract (summary) for the page
-    const extractUrl = `https://en.wikipedia.org/w/api.php?action=query&pageids=${searchResult.pageid}&prop=extracts|info&exintro=true&explaintext=true&inprop=url&format=json&origin=*`;
-
-    const extractResponse = await fetch(extractUrl);
-    if (!extractResponse.ok) {
-      return { explanation: `The correct answer is ${answer}.` };
-    }
-
-    const extractData: WikipediaExtractResult = await extractResponse.json();
-    const page = extractData.query?.pages?.[String(searchResult.pageid)];
-
-    if (!page?.extract) {
-      return { explanation: `The correct answer is ${answer}.` };
-    }
-
-    // Clean up the extract
-    let extract = page.extract
-      .replace(/\s+/g, ' ')
-      .trim();
-
-    // Get first 2-3 sentences for short explanation
-    const sentences = extract.match(/[^.!?]+[.!?]+/g) || [];
-    const shortExplanation = sentences.slice(0, 2).join(' ').trim() || `The correct answer is ${answer}.`;
-
-    // Get first paragraph (up to 500 chars) for detailed explanation
-    const detailedExplanation = extract.length > 500
-      ? extract.substring(0, 500) + '...'
-      : extract;
-
-    return {
-      explanation: shortExplanation,
-      detailedExplanation,
-      citationUrl: page.fullurl || `https://en.wikipedia.org/wiki/${encodeURIComponent(searchResult.title)}`,
-      citationTitle: `Wikipedia: ${searchResult.title}`,
-    };
-  } catch (error) {
-    console.warn(`⚠️ Wikipedia lookup failed for "${answer}":`, error);
-    return { explanation: `The correct answer is ${answer}.` };
-  }
-}
-
-// ============================================================================
 // Helper Functions
 // ============================================================================
-
-/**
- * Decode HTML entities from API responses
- */
-function decodeHtmlEntities(text: string): string {
-  return text
-    .replace(/&quot;/g, '"')
-    .replace(/&#039;/g, "'")
-    .replace(/&apos;/g, "'")
-    .replace(/&amp;/g, '&')
-    .replace(/&lt;/g, '<')
-    .replace(/&gt;/g, '>')
-    .replace(/&eacute;/g, 'é')
-    .replace(/&ouml;/g, 'ö')
-    .replace(/&uuml;/g, 'ü')
-    .replace(/&iacute;/g, 'í')
-    .replace(/&ntilde;/g, 'ñ');
-}
 
 /**
  * Shuffle array (Fisher-Yates)
@@ -193,180 +29,43 @@ function shuffleArray<T>(array: T[]): T[] {
 }
 
 // ============================================================================
-// The Trivia API (Primary Source)
-// ============================================================================
-
-/**
- * Fetch questions from The Trivia API (free, no key needed)
- */
-async function fetchFromTriviaAPI(
-  category: QuestionCategory,
-  count: number
-): Promise<Question[]> {
-  const categories = TRIVIA_API_CATEGORIES[category];
-  const categoryParam = categories.join(',');
-
-  const url = `https://the-trivia-api.com/v2/questions?limit=${count}&categories=${categoryParam}&difficulties=medium`;
-
-  console.log(`🌐 Fetching from The Trivia API: ${url}`);
-
-  try {
-    const response = await fetch(url);
-
-    if (!response.ok) {
-      throw new Error(`HTTP ${response.status}: ${response.statusText}`);
-    }
-
-    const data: TriviaAPIQuestion[] = await response.json();
-
-    // Create base questions first
-    const baseQuestions = data.map((q) => {
-      const allOptions = shuffleArray([q.correctAnswer, ...q.incorrectAnswers]);
-      const correctIndex = allOptions.indexOf(q.correctAnswer);
-      const correctAnswer = decodeHtmlEntities(q.correctAnswer);
-
-      return {
-        id: uuidv4(),
-        text: decodeHtmlEntities(q.question.text),
-        options: allOptions.map(decodeHtmlEntities),
-        correctIndex,
-        category,
-        difficulty: 'medium' as const,
-        correctAnswer, // Temp field for Wikipedia lookup
-      };
-    });
-
-    // Fetch Wikipedia explanations in parallel
-    console.log(`📚 Fetching Wikipedia explanations for ${baseQuestions.length} questions...`);
-    const questionsWithExplanations = await Promise.all(
-      baseQuestions.map(async (q) => {
-        const wiki = await fetchWikipediaExplanation(q.correctAnswer, q.text);
-        return {
-          id: q.id,
-          text: q.text,
-          options: q.options,
-          correctIndex: q.correctIndex,
-          category: q.category,
-          difficulty: q.difficulty,
-          explanation: wiki.explanation,
-          detailedExplanation: wiki.detailedExplanation,
-          citationUrl: wiki.citationUrl,
-          citationTitle: wiki.citationTitle,
-        } as Question;
-      })
-    );
-
-    console.log(`✅ Got ${questionsWithExplanations.length} questions from The Trivia API with Wikipedia explanations`);
-    return questionsWithExplanations;
-  } catch (error) {
-    console.error('❌ The Trivia API failed:', error);
-    return [];
-  }
-}
-
-// ============================================================================
-// Open Trivia DB (Fallback Source)
-// ============================================================================
-
-/**
- * Fetch questions from Open Trivia DB (free, no key needed)
- */
-async function fetchFromOpenTDB(
-  category: QuestionCategory,
-  count: number
-): Promise<Question[]> {
-  const categoryIds = OPENTDB_CATEGORIES[category];
-  const categoryId = categoryIds[Math.floor(Math.random() * categoryIds.length)];
-
-  const url = `https://opentdb.com/api.php?amount=${count}&category=${categoryId}&difficulty=medium&type=multiple`;
-
-  console.log(`🌐 Fetching from Open Trivia DB: ${url}`);
-
-  try {
-    const response = await fetch(url);
-
-    if (!response.ok) {
-      throw new Error(`HTTP ${response.status}: ${response.statusText}`);
-    }
-
-    const data: OpenTDBResponse = await response.json();
-
-    if (data.response_code !== 0) {
-      console.warn(`⚠️ Open Trivia DB response code: ${data.response_code}`);
-      return [];
-    }
-
-    // Create base questions first
-    const baseQuestions = data.results.map((q) => {
-      const allOptions = shuffleArray([q.correct_answer, ...q.incorrect_answers]);
-      const correctIndex = allOptions.indexOf(q.correct_answer);
-      const correctAnswer = decodeHtmlEntities(q.correct_answer);
-
-      return {
-        id: uuidv4(),
-        text: decodeHtmlEntities(q.question),
-        options: allOptions.map(decodeHtmlEntities),
-        correctIndex,
-        category,
-        difficulty: 'medium' as const,
-        correctAnswer, // Temp field for Wikipedia lookup
-      };
-    });
-
-    // Fetch Wikipedia explanations in parallel
-    console.log(`📚 Fetching Wikipedia explanations for ${baseQuestions.length} questions...`);
-    const questionsWithExplanations = await Promise.all(
-      baseQuestions.map(async (q) => {
-        const wiki = await fetchWikipediaExplanation(q.correctAnswer, q.text);
-        return {
-          id: q.id,
-          text: q.text,
-          options: q.options,
-          correctIndex: q.correctIndex,
-          category: q.category,
-          difficulty: q.difficulty,
-          explanation: wiki.explanation,
-          detailedExplanation: wiki.detailedExplanation,
-          citationUrl: wiki.citationUrl,
-          citationTitle: wiki.citationTitle,
-        } as Question;
-      })
-    );
-
-    console.log(`✅ Got ${questionsWithExplanations.length} questions from Open Trivia DB with Wikipedia explanations`);
-    return questionsWithExplanations;
-  } catch (error) {
-    console.error('❌ Open Trivia DB failed:', error);
-    return [];
-  }
-}
-
-// ============================================================================
 // DynamoDB Operations
 // ============================================================================
 
 /**
- * Fetch unused questions from DynamoDB cache
+ * Fetch unused questions from DynamoDB
+ * Questions are stored with GSI1PK = QUESTION#unused#${category}
+ * GSI1SK = ${difficulty}#${timestamp}
  */
 async function fetchUnusedQuestions(
   category: QuestionCategory,
   limit: number,
-  excludeIds: Set<string>
+  excludeIds: Set<string>,
+  difficulty?: 'easy' | 'medium' | 'hard'
 ): Promise<Question[]> {
   try {
-    console.log(`📚 Fetching unused ${category} questions from DDB (limit: ${limit})...`);
+    const difficultyLabel = difficulty || 'any';
+    console.log(`📚 Fetching unused ${category} (${difficultyLabel}) questions from DDB (limit: ${limit})...`);
 
-    const result = await docClient.send(
-      new QueryCommand({
-        TableName: TABLE_NAME,
-        IndexName: 'GSI1',
-        KeyConditionExpression: 'GSI1PK = :pk',
-        ExpressionAttributeValues: {
-          ':pk': `QUESTION#unanswered#${category}`,
-        },
-        Limit: limit + excludeIds.size + 10,
-      })
-    );
+    // Build query - filter by difficulty if specified using GSI1SK prefix
+    const queryParams: QueryCommandInput = {
+      TableName: TABLE_NAME,
+      IndexName: 'GSI1',
+      KeyConditionExpression: difficulty
+        ? 'GSI1PK = :pk AND begins_with(GSI1SK, :diffPrefix)'
+        : 'GSI1PK = :pk',
+      ExpressionAttributeValues: difficulty
+        ? {
+            ':pk': `QUESTION#unused#${category}`,
+            ':diffPrefix': `${difficulty}#`,
+          }
+        : {
+            ':pk': `QUESTION#unused#${category}`,
+          },
+      Limit: limit + excludeIds.size + 20,
+    };
+
+    const result = await docClient.send(new QueryCommand(queryParams));
 
     const questions: Question[] = [];
     for (const item of result.Items || []) {
@@ -397,53 +96,32 @@ async function fetchUnusedQuestions(
 }
 
 /**
- * Store questions in DynamoDB
+ * Mark a question as asked (increment timesAsked and move to used bucket)
  */
-async function storeQuestions(
-  questions: Question[],
-  category: QuestionCategory
-): Promise<void> {
-  console.log(`💾 Storing ${questions.length} questions in DDB...`);
-
-  const now = new Date().toISOString();
-
-  for (const question of questions) {
-    try {
-      await docClient.send(
-        new PutCommand({
-          TableName: TABLE_NAME,
-          Item: {
-            PK: `QUESTION#${question.id}`,
-            SK: 'METADATA',
-            GSI1PK: `QUESTION#unanswered#${category}`,
-            GSI1SK: now,
-            id: question.id,
-            text: question.text,
-            options: question.options,
-            correctIndex: question.correctIndex,
-            category: question.category,
-            difficulty: question.difficulty,
-            explanation: question.explanation,
-            detailedExplanation: question.detailedExplanation,
-            citationUrl: question.citationUrl,
-            citationTitle: question.citationTitle,
-            answeredCorrectly: false,
-            createdAt: now,
-            usedInSets: [],
-            source: 'api', // Track that this came from free API
-          },
-        })
-      );
-    } catch (error) {
-      console.error(`❌ Failed to store question ${question.id}:`, error);
-    }
+export async function markQuestionAsked(questionId: string, category: string): Promise<void> {
+  try {
+    const now = new Date().toISOString();
+    await docClient.send(
+      new UpdateCommand({
+        TableName: TABLE_NAME,
+        Key: { PK: `QUESTION#${questionId}`, SK: 'METADATA' },
+        UpdateExpression: 'SET timesAsked = if_not_exists(timesAsked, :zero) + :one, lastUsedAt = :now, GSI1PK = :usedPk',
+        ExpressionAttributeValues: {
+          ':zero': 0,
+          ':one': 1,
+          ':now': now,
+          ':usedPk': `QUESTION#used#${category}`,
+        },
+      })
+    );
+    console.log(`✅ Marked question ${questionId} as used`);
+  } catch (error) {
+    console.error(`❌ Failed to mark question as asked:`, error);
   }
-
-  console.log(`✅ Stored ${questions.length} questions`);
 }
 
 /**
- * Mark a question as answered correctly
+ * Record a correct answer for a question
  */
 export async function markQuestionAnsweredCorrectly(questionId: string): Promise<void> {
   try {
@@ -451,16 +129,38 @@ export async function markQuestionAnsweredCorrectly(questionId: string): Promise
       new UpdateCommand({
         TableName: TABLE_NAME,
         Key: { PK: `QUESTION#${questionId}`, SK: 'METADATA' },
-        UpdateExpression: 'SET answeredCorrectly = :true, GSI1PK = :answered',
+        UpdateExpression: 'SET timesCorrect = if_not_exists(timesCorrect, :zero) + :one',
         ExpressionAttributeValues: {
-          ':true': true,
-          ':answered': 'QUESTION#answered',
+          ':zero': 0,
+          ':one': 1,
         },
       })
     );
-    console.log(`✅ Marked question ${questionId} as answered correctly`);
+    console.log(`✅ Recorded correct answer for question ${questionId}`);
   } catch (error) {
-    console.error(`❌ Failed to mark question as answered:`, error);
+    console.error(`❌ Failed to record correct answer:`, error);
+  }
+}
+
+/**
+ * Record an incorrect answer for a question
+ */
+export async function markQuestionAnsweredIncorrectly(questionId: string): Promise<void> {
+  try {
+    await docClient.send(
+      new UpdateCommand({
+        TableName: TABLE_NAME,
+        Key: { PK: `QUESTION#${questionId}`, SK: 'METADATA' },
+        UpdateExpression: 'SET timesIncorrect = if_not_exists(timesIncorrect, :zero) + :one',
+        ExpressionAttributeValues: {
+          ':zero': 0,
+          ':one': 1,
+        },
+      })
+    );
+    console.log(`✅ Recorded incorrect answer for question ${questionId}`);
+  } catch (error) {
+    console.error(`❌ Failed to record incorrect answer:`, error);
   }
 }
 
@@ -469,11 +169,9 @@ export async function markQuestionAnsweredCorrectly(questionId: string): Promise
 // ============================================================================
 
 /**
- * Get questions for a set.
- * Priority:
- * 1. DynamoDB cache (free, instant)
- * 2. The Trivia API (free, primary)
- * 3. Open Trivia DB (free, fallback)
+ * Get questions for a set from DynamoDB.
+ * All questions come from the pre-loaded AI-generated question pool.
+ * No external API fallback - questions must be uploaded first.
  */
 export async function getQuestionsForSet(
   category: QuestionCategory,
@@ -482,106 +180,173 @@ export async function getQuestionsForSet(
 ): Promise<Question[]> {
   console.log(`\n📋 Getting ${count} ${category} questions for set...`);
 
-  // Step 1: Try DynamoDB cache first
-  const cachedQuestions = await fetchUnusedQuestions(category, count, excludeIds);
+  const questions = await fetchUnusedQuestions(category, count, excludeIds);
 
-  if (cachedQuestions.length >= count) {
-    console.log(`✅ Using ${count} cached questions (no API call needed)`);
-    return cachedQuestions.slice(0, count);
+  if (questions.length < count) {
+    console.warn(`⚠️ Only got ${questions.length}/${count} questions for ${category}. Upload more questions!`);
   }
 
-  // Step 2: Need more - try The Trivia API first
-  const needed = count - cachedQuestions.length;
-  console.log(`📊 Have ${cachedQuestions.length} cached, need ${needed} more`);
-
-  let newQuestions = await fetchFromTriviaAPI(category, needed);
-
-  // Step 3: If Trivia API failed or not enough, try Open Trivia DB
-  if (newQuestions.length < needed) {
-    const stillNeeded = needed - newQuestions.length;
-    console.log(`📊 Trivia API gave ${newQuestions.length}, trying Open Trivia DB for ${stillNeeded} more...`);
-    const fallbackQuestions = await fetchFromOpenTDB(category, stillNeeded);
-    newQuestions = [...newQuestions, ...fallbackQuestions];
-  }
-
-  // Store new questions in DDB for future use
-  if (newQuestions.length > 0) {
-    await storeQuestions(newQuestions, category);
-  }
-
-  // Combine cached + new
-  const allQuestions = [...cachedQuestions, ...newQuestions];
-
-  if (allQuestions.length < count) {
-    console.warn(`⚠️ Only got ${allQuestions.length}/${count} questions`);
-  }
-
-  return allQuestions.slice(0, count);
+  // Shuffle to randomize order
+  return shuffleArray(questions).slice(0, count);
 }
 
 /**
- * Pre-warm the question cache for a category.
+ * Get questions for a mixed category set.
+ * Fetches random questions filtered by difficulty.
+ * Only queries categories that have questions.
  */
-export async function prewarmQuestionCache(
-  category: QuestionCategory,
-  targetCount: number = 40
-): Promise<void> {
-  console.log(`🔥 Pre-warming question cache for ${category}...`);
+export async function getQuestionsForMixedSet(
+  count: number,
+  difficulty: 'easy' | 'medium' | 'hard',
+  excludeIds: Set<string> = new Set()
+): Promise<Question[]> {
+  console.log(`\n📋 Getting ${count} ${difficulty} questions for set...`);
 
-  const existing = await fetchUnusedQuestions(category, targetCount, new Set());
+  // Only query categories that have questions
+  const categories: QuestionCategory[] = [
+    'science',
+    'history',
+    'geography',
+    'entertainment',
+  ];
 
-  if (existing.length >= targetCount) {
-    console.log(`✅ Cache already has ${existing.length} questions`);
-    return;
+  // Fetch more than needed from each category, then shuffle and pick
+  const fetchPerCategory = Math.ceil(count / categories.length) + 5;
+  let allQuestions: Question[] = [];
+
+  for (const category of categories) {
+    const categoryQuestions = await fetchUnusedQuestions(
+      category,
+      fetchPerCategory,
+      excludeIds,
+      difficulty
+    );
+    allQuestions.push(...categoryQuestions);
   }
 
-  const needed = targetCount - existing.length;
-  console.log(`📊 Have ${existing.length}, fetching ${needed} more...`);
+  // If not enough, reset used questions and retry
+  if (allQuestions.length < count) {
+    console.warn(`⚠️ Only got ${allQuestions.length}/${count} ${difficulty} questions. Resetting used questions...`);
+    await resetAllUsedQuestions();
 
-  // Try The Trivia API first
-  let newQuestions = await fetchFromTriviaAPI(category, needed);
+    allQuestions = [];
+    for (const category of categories) {
+      const categoryQuestions = await fetchUnusedQuestions(
+        category,
+        fetchPerCategory,
+        excludeIds,
+        difficulty
+      );
+      allQuestions.push(...categoryQuestions);
+    }
 
-  // Fallback to Open Trivia DB if needed
-  if (newQuestions.length < needed) {
-    const stillNeeded = needed - newQuestions.length;
-    const fallbackQuestions = await fetchFromOpenTDB(category, stillNeeded);
-    newQuestions = [...newQuestions, ...fallbackQuestions];
+    if (allQuestions.length < count) {
+      console.error(`❌ Only got ${allQuestions.length}/${count} ${difficulty} questions. Need more questions!`);
+    }
   }
 
-  if (newQuestions.length > 0) {
-    await storeQuestions(newQuestions, category);
-    console.log(`✅ Cache pre-warmed with ${newQuestions.length} new questions`);
-  } else {
-    console.warn(`⚠️ Could not fetch any new questions`);
+  // Shuffle and return requested count
+  return shuffleArray(allQuestions).slice(0, count);
+}
+
+/**
+ * Get count of available questions per category.
+ */
+export async function getQuestionCounts(): Promise<Record<string, number>> {
+  const categories = ['science', 'history', 'geography', 'entertainment', 'sports', 'arts', 'literature', 'general'];
+  const counts: Record<string, number> = {};
+
+  for (const category of categories) {
+    try {
+      const result = await docClient.send(
+        new QueryCommand({
+          TableName: TABLE_NAME,
+          IndexName: 'GSI1',
+          KeyConditionExpression: 'GSI1PK = :pk',
+          ExpressionAttributeValues: {
+            ':pk': `QUESTION#unused#${category}`,
+          },
+          Select: 'COUNT',
+        })
+      );
+      counts[category] = result.Count || 0;
+    } catch (error) {
+      console.error(`❌ Failed to count ${category} questions:`, error);
+      counts[category] = 0;
+    }
+  }
+
+  return counts;
+}
+
+/**
+ * Reset all used questions in a category back to unused.
+ * Called when we run out of unused questions.
+ */
+async function resetCategoryQuestions(category: string): Promise<number> {
+  console.log(`🔄 Resetting used questions for ${category}...`);
+
+  try {
+    // Query all used questions in this category
+    const result = await docClient.send(
+      new QueryCommand({
+        TableName: TABLE_NAME,
+        IndexName: 'GSI1',
+        KeyConditionExpression: 'GSI1PK = :pk',
+        ExpressionAttributeValues: {
+          ':pk': `QUESTION#used#${category}`,
+        },
+        ProjectionExpression: 'PK, SK',
+      })
+    );
+
+    const items = result.Items || [];
+    if (items.length === 0) {
+      console.log(`  No used questions to reset for ${category}`);
+      return 0;
+    }
+
+    // Reset each question back to unused
+    let resetCount = 0;
+    for (const item of items) {
+      try {
+        await docClient.send(
+          new UpdateCommand({
+            TableName: TABLE_NAME,
+            Key: { PK: item.PK, SK: item.SK },
+            UpdateExpression: 'SET GSI1PK = :unusedPk',
+            ExpressionAttributeValues: {
+              ':unusedPk': `QUESTION#unused#${category}`,
+            },
+          })
+        );
+        resetCount++;
+      } catch (err) {
+        console.error(`  Failed to reset question ${item.PK}:`, err);
+      }
+    }
+
+    console.log(`✅ Reset ${resetCount} questions for ${category}`);
+    return resetCount;
+  } catch (error) {
+    console.error(`❌ Failed to reset questions for ${category}:`, error);
+    return 0;
   }
 }
 
-// ============================================================================
-// AI Generation (Disabled - Enable when revenue supports it)
-// ============================================================================
+/**
+ * Reset all used questions across all categories back to unused.
+ */
+export async function resetAllUsedQuestions(): Promise<void> {
+  const categories = ['science', 'history', 'geography', 'entertainment', 'sports', 'arts', 'literature', 'general'];
 
-/*
-// Uncomment this section when you have paying users to cover AI costs
+  console.log('\n🔄 Resetting all used questions back to unused...');
+  let totalReset = 0;
 
-import Anthropic from '@anthropic-ai/sdk';
-import { SecretsManagerClient, GetSecretValueCommand } from '@aws-sdk/client-secrets-manager';
+  for (const category of categories) {
+    const count = await resetCategoryQuestions(category);
+    totalReset += count;
+  }
 
-const secretsClient = new SecretsManagerClient({ region: process.env.AWS_REGION || 'ap-southeast-2' });
-let anthropicClient: Anthropic | null = null;
-
-async function getAnthropicClient(): Promise<Anthropic> {
-  if (anthropicClient) return anthropicClient;
-
-  const response = await secretsClient.send(
-    new GetSecretValueCommand({ SecretId: 'quiz-app/anthropic-api-key' })
-  );
-
-  anthropicClient = new Anthropic({ apiKey: response.SecretString! });
-  return anthropicClient;
+  console.log(`✅ Total questions reset: ${totalReset}\n`);
 }
-
-async function generateQuestionsFromAI(category: QuestionCategory, count: number): Promise<Question[]> {
-  const client = await getAnthropicClient();
-  // ... AI generation logic ...
-}
-*/

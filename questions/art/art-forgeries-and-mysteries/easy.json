@@ -1,0 +1,342 @@
+[
+  {
+    "id": "d0b04255-4d7c-4a61-9d00-505868001aad",
+    "text": "What famous painting was stolen from the Louvre in 1911 and remained missing for over two years?",
+    "options": [
+      "The Starry Night",
+      "The Mona Lisa",
+      "Girl with a Pearl Earring",
+      "The Scream"
+    ],
+    "correctIndex": 1,
+    "category": "arts",
+    "difficulty": "easy",
+    "explanation": "The Mona Lisa was stolen by Vincenzo Peruggia in 1911.",
+    "detailedExplanation": "On August 21, 1911, Vincenzo Peruggia, an Italian handyman working at the Louvre, stole Leonardo da Vinci's Mona Lisa by simply walking out with it under his coat. The theft wasn't discovered until the next day, and the painting remained missing for 28 months. Peruggia claimed he wanted to return the painting to Italy, believing it had been stolen by Napoleon. The theft made the Mona Lisa world-famous, ironically increasing its celebrity status.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Mona_Lisa_theft",
+    "citationTitle": "Wikipedia: Mona Lisa theft"
+  },
+  {
+    "id": "1dc81849-2485-489c-9d08-6a06cfab1721",
+    "text": "Which prolific art forger was known as the 'Master Forger' and successfully fooled experts with fake Vermeer paintings for decades?",
+    "options": [
+      "Tom Keating",
+      "Elmyr de Hory",
+      "Han van Meegeren",
+      "Eric Hebborn"
+    ],
+    "correctIndex": 2,
+    "category": "arts",
+    "difficulty": "easy",
+    "explanation": "Han van Meegeren was a Dutch forger famous for creating fake Vermeer paintings.",
+    "detailedExplanation": "Han van Meegeren (1889-1947) was a Dutch painter who became one of the most successful art forgers in history. He specialized in creating fake works by Johannes Vermeer and other Dutch Golden Age painters. His forgeries were so convincing that they fooled art experts and museums for years. Ironically, he was initially charged with treason after World War II for selling Dutch cultural treasures to the Nazis, but he had to prove the paintings were fakes to avoid execution.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Han_van_Meegeren",
+    "citationTitle": "Wikipedia: Han van Meegeren"
+  },
+  {
+    "id": "c135b63a-aeb0-4b2a-86cd-9cff281b490f",
+    "text": "What is the term for the scientific analysis technique commonly used to detect art forgeries by examining paint layers?",
+    "options": [
+      "X-ray radiography",
+      "Carbon dating",
+      "DNA analysis",
+      "Spectroscopy"
+    ],
+    "correctIndex": 0,
+    "category": "arts",
+    "difficulty": "easy",
+    "explanation": "X-ray radiography reveals underlying paint layers and can expose modern materials in supposed old paintings.",
+    "detailedExplanation": "X-ray radiography is one of the most important tools in detecting art forgeries. This technique allows experts to see through paint layers to examine the canvas or wood underneath, revealing pentimenti (artist's changes), previous paintings, or inconsistencies that might indicate forgery. It can also detect modern materials like titanium white paint, which wasn't available to old masters, or machine-made canvas that wouldn't have existed in earlier periods.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Art_authentication",
+    "citationTitle": "Wikipedia: Art authentication"
+  },
+  {
+    "id": "55fcd4e5-2843-41ab-9213-fb8362a4a1a0",
+    "text": "Which famous artist's work was the subject of a major forgery scandal involving paintings supposedly found in a Munich apartment in 2012?",
+    "options": [
+      "Pablo Picasso",
+      "Henri Matisse",
+      "Both Picasso and Matisse",
+      "Vincent van Gogh"
+    ],
+    "correctIndex": 2,
+    "category": "arts",
+    "difficulty": "easy",
+    "explanation": "The Gurlitt collection contained works by both Picasso and Matisse, among others, many suspected to be Nazi-looted art.",
+    "detailedExplanation": "In 2012, German authorities discovered over 1,400 artworks in the Munich apartment of Cornelius Gurlitt, son of Nazi art dealer Hildebrand Gurlitt. The collection included works attributed to Picasso, Matisse, Renoir, and other masters. Many pieces were suspected to be either stolen by Nazis during World War II or were degenerate art that should have been destroyed. The discovery sparked international controversy about provenance, restitution, and the authentication of artworks with such complicated histories.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Gurlitt_Collection",
+    "citationTitle": "Wikipedia: Gurlitt Collection"
+  },
+  {
+    "id": "6558338b-544a-4d80-a89f-1b7c08c311c4",
+    "text": "What painting technique involves applying new paint over old artwork, which can sometimes hide forgeries or reveal authentic works underneath?",
+    "options": [
+      "Impasto",
+      "Overpainting",
+      "Glazing",
+      "Scumbling"
+    ],
+    "correctIndex": 1,
+    "category": "arts",
+    "difficulty": "easy",
+    "explanation": "Overpainting involves applying paint layers over existing artwork, which can conceal or reveal important information about authenticity.",
+    "detailedExplanation": "Overpainting is the practice of painting over existing artwork, either to hide it, restore it, or create something new. In art mysteries, overpainting can work both ways: forgers might paint over genuine old canvases to create fake masterpieces, giving them authentic aged materials, or valuable paintings might be hidden under later additions. Modern conservation techniques can often remove overpaint to reveal original works underneath, sometimes leading to exciting discoveries of lost masterpieces.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Overpainting",
+    "citationTitle": "Wikipedia: Overpainting"
+  },
+  {
+    "id": "146ed0d1-7469-4b92-9d34-170bc0dfaefb",
+    "text": "Which major art mystery involves a painting that may or may not be by Leonardo da Vinci, discovered in 2005 and sold for over $450 million?",
+    "options": [
+      "Salvator Mundi",
+      "Lady with an Ermine",
+      "The Annunciation",
+      "Saint John the Baptist"
+    ],
+    "correctIndex": 0,
+    "category": "arts",
+    "difficulty": "easy",
+    "explanation": "Salvator Mundi's attribution to Leonardo da Vinci remains controversial despite its record-breaking sale price.",
+    "detailedExplanation": "Salvator Mundi, depicting Jesus Christ as Savior of the World, became the world's most expensive painting when it sold for $450.3 million in 2017. However, its attribution to Leonardo da Vinci remains highly controversial among art historians. Some believe it's entirely by Leonardo, others think it's by his workshop with his involvement, and some argue it's a later copy. The painting was heavily restored, making authentication even more difficult. Its current whereabouts are unknown, adding another layer of mystery.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Salvator_Mundi_(Leonardo)",
+    "citationTitle": "Wikipedia: Salvator Mundi (Leonardo)"
+  },
+  {
+    "id": "fe6fe551-04a0-4410-a8f0-4bc4f0196efc",
+    "text": "What is 'provenance' in the art world, which is crucial for detecting forgeries?",
+    "options": [
+      "The painting technique used",
+      "The history of ownership of an artwork",
+      "The age of the canvas",
+      "The signature style of the artist"
+    ],
+    "correctIndex": 1,
+    "category": "arts",
+    "difficulty": "easy",
+    "explanation": "Provenance refers to the documented history of an artwork's ownership and location over time.",
+    "detailedExplanation": "Provenance is the chronology of ownership, custody, or location of an artwork. It's like a family tree for art objects, documenting where a piece has been from its creation to the present day. Good provenance is crucial in establishing authenticity because it helps verify that a work existed during the artist's lifetime and has a legitimate history. Gaps in provenance, especially during World War II, can indicate stolen art or provide opportunities for forgeries to enter the market with fabricated histories.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Provenance",
+    "citationTitle": "Wikipedia: Provenance"
+  },
+  {
+    "id": "dcb15c7c-de29-476c-b2cc-08936b62e433",
+    "text": "Which painting by Edvard Munch was stolen twice from museums, once in 1994 and again in 2004?",
+    "options": [
+      "The Dance of Life",
+      "Madonna",
+      "The Scream",
+      "Anxiety"
+    ],
+    "correctIndex": 2,
+    "category": "arts",
+    "difficulty": "easy",
+    "explanation": "The Scream has been stolen multiple times from Norwegian museums, making it one of the most stolen famous paintings.",
+    "detailedExplanation": "The Scream, one of the world's most recognizable artworks, has been the target of several high-profile thefts. The 1893 version was stolen from the National Gallery in Oslo in 1994, just hours before the opening ceremony of the Winter Olympics. Another version was stolen from the Munch Museum in 2004 along with Munch's Madonna. Both thefts generated international headlines and the paintings were eventually recovered, though sometimes damaged. The multiple thefts highlight the challenges museums face in protecting iconic artworks.",
+    "citationUrl": "https://en.wikipedia.org/wiki/The_Scream",
+    "citationTitle": "Wikipedia: The Scream"
+  },
+  {
+    "id": "b6800e9a-22cc-4dda-bd75-0edf17de1e72",
+    "text": "Which famous forger created fake paintings by Monet, Renoir, and other Impressionists that fooled collectors for years before being exposed in the 1960s?",
+    "options": [
+      "Elmyr de Hory",
+      "Tom Keating",
+      "Eric Hebborn",
+      "Wolfgang Beltracchi"
+    ],
+    "correctIndex": 0,
+    "category": "arts",
+    "difficulty": "easy",
+    "explanation": "Elmyr de Hory was a master forger who specialized in Impressionist and Post-Impressionist works.",
+    "detailedExplanation": "Elmyr de Hory was one of the most notorious art forgers of the 20th century, creating thousands of fake paintings in the style of famous artists like Monet, Renoir, Picasso, and Matisse. His story became internationally famous and inspired books, documentaries, and even an Orson Welles film. He operated from the Spanish island of Ibiza and his forgeries were so convincing that many still hang in museums and private collections today.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Elmyr_de_Hory",
+    "citationTitle": "Wikipedia: Elmyr de Hory"
+  },
+  {
+    "id": "652cc27e-6257-4c73-8039-dbfbe13c85d4",
+    "text": "What is the name of the database that tracks stolen and missing artworks worldwide?",
+    "options": [
+      "Art Recovery International",
+      "Art Loss Register",
+      "Missing Art Database",
+      "International Art Registry"
+    ],
+    "correctIndex": 1,
+    "category": "arts",
+    "difficulty": "easy",
+    "explanation": "The Art Loss Register is the world's largest private database of stolen, missing and looted art.",
+    "detailedExplanation": "Founded in 1991, the Art Loss Register maintains a database of over 700,000 items of stolen, missing, and looted art, antiques, and collectibles. It serves law enforcement agencies, the art trade, and insurance companies worldwide. The database has been instrumental in recovering thousands of stolen artworks and helping to identify forgeries and works with questionable provenance.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Art_Loss_Register",
+    "citationTitle": "Wikipedia: Art Loss Register"
+  },
+  {
+    "id": "becc379a-d5f3-4cf9-8d8d-66e5bb127570",
+    "text": "Which painting by Johannes Vermeer was discovered to be genuine in 1937 after initially being dismissed as a forgery?",
+    "options": [
+      "Girl with a Wine Glass",
+      "The Art of Painting",
+      "Girl with a Pearl Earring",
+      "The Milkmaid"
+    ],
+    "correctIndex": 1,
+    "category": "arts",
+    "difficulty": "easy",
+    "explanation": "The Art of Painting was questioned for years before being authenticated as a genuine Vermeer.",
+    "detailedExplanation": "The Art of Painting, also known as The Allegory of Painting, was long disputed as a genuine Vermeer work. Many experts initially believed it was a forgery or the work of another artist. It wasn't until 1937 that scholarly consensus accepted it as an authentic Vermeer. The painting is now considered one of his masterpieces and is housed in the Kunsthistorisches Museum in Vienna.",
+    "citationUrl": "https://en.wikipedia.org/wiki/The_Art_of_Painting",
+    "citationTitle": "Wikipedia: The Art of Painting"
+  },
+  {
+    "id": "6b141902-b748-4e76-8db7-5764416949c7",
+    "text": "What type of scientific analysis uses high-energy radiation to see through paint layers without damaging the artwork?",
+    "options": [
+      "Infrared spectroscopy",
+      "X-ray radiography",
+      "Carbon dating",
+      "Mass spectrometry"
+    ],
+    "correctIndex": 1,
+    "category": "arts",
+    "difficulty": "easy",
+    "explanation": "X-ray radiography can reveal hidden layers, changes, and structural details beneath the surface paint.",
+    "detailedExplanation": "X-ray radiography is a crucial tool in art authentication and forgery detection. It allows conservators and art historians to see beneath the surface layers of paint without damaging the artwork. This technique can reveal preliminary sketches, changes made by the artist (pentimenti), previous paintings on reused canvases, and inconsistencies that might indicate forgery. It's particularly useful because different pigments absorb X-rays differently, creating contrast in the resulting images.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Art_authentication",
+    "citationTitle": "Wikipedia: Art authentication"
+  },
+  {
+    "id": "8cb63c33-0390-4266-a95f-236548caa7be",
+    "text": "Which forger was known for leaving deliberate clues in his fakes to eventually expose them as forgeries?",
+    "options": [
+      "Han van Meegeren",
+      "Tom Keating",
+      "John Myatt",
+      "Mark Landis"
+    ],
+    "correctIndex": 1,
+    "category": "arts",
+    "difficulty": "easy",
+    "explanation": "Tom Keating deliberately included anachronistic elements and his initials in his forgeries as a form of protest.",
+    "detailedExplanation": "Tom Keating was a British art restorer and forger who created over 2,000 fake paintings. Unlike other forgers who tried to perfectly deceive, Keating often included deliberate anachronisms and hidden signatures as 'time bombs' that would eventually expose his works as fakes. He saw his forgeries as a protest against the art establishment and claimed he wanted to 'cock a snook at the art world.' His confession in 1976 caused a major scandal in the British art world.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Tom_Keating",
+    "citationTitle": "Wikipedia: Tom Keating"
+  },
+  {
+    "id": "c8528c8c-74eb-4b0d-9c80-c0361abf2671",
+    "text": "What happened to many artworks looted by the Nazis during World War II that created ongoing authentication challenges?",
+    "options": [
+      "They were all destroyed",
+      "They entered the black market",
+      "Many remain missing or in disputed ownership",
+      "They were returned immediately after the war"
+    ],
+    "correctIndex": 2,
+    "category": "arts",
+    "difficulty": "easy",
+    "explanation": "Many Nazi-looted artworks remain missing or are involved in ownership disputes decades later.",
+    "detailedExplanation": "The Nazi regime systematically looted hundreds of thousands of artworks from Jewish collectors and museums across occupied Europe. After the war, while some pieces were recovered and returned, many remain missing or have surfaced in museums and private collections with unclear provenance. This has created ongoing legal and ethical challenges, as descendants of original owners seek restitution. The complexities of proving ownership and tracking artwork through decades of sales have made authentication and rightful ownership determination extremely difficult.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Nazi_plunder",
+    "citationTitle": "Wikipedia: Nazi plunder"
+  },
+  {
+    "id": "8851e792-1538-4fb3-8a2a-d85f46091e43",
+    "text": "Which technique involves analyzing the age of organic materials in artwork to help determine authenticity?",
+    "options": [
+      "Dendrochronology",
+      "Carbon-14 dating",
+      "Thermoluminescence",
+      "Potassium-argon dating"
+    ],
+    "correctIndex": 1,
+    "category": "arts",
+    "difficulty": "easy",
+    "explanation": "Carbon-14 dating can determine the age of organic materials like canvas, wood panels, and some pigments.",
+    "detailedExplanation": "Carbon-14 dating is particularly useful for detecting art forgeries because it can determine when organic materials died. For paintings, this might include wooden panels, canvas, or organic binding agents in paint. If a supposedly old master painting shows canvas or wood that died after the artist's death, it's clearly a forgery. However, the technique has limitations - it requires destroying a small sample and becomes less accurate for more recent periods, making it less useful for detecting modern forgeries of 19th or 20th-century works.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Radiocarbon_dating",
+    "citationTitle": "Wikipedia: Radiocarbon dating"
+  },
+  {
+    "id": "ff4889cf-9f4f-41a7-86cb-865f79654341",
+    "text": "What famous art hoax involved fake prehistoric cave paintings that fooled experts for several years in the 1970s?",
+    "options": [
+      "The Piltdown Paintings",
+      "The Rouffignac Controversy",
+      "The Glozel Artifacts",
+      "The Beringer Stones"
+    ],
+    "correctIndex": 1,
+    "category": "arts",
+    "difficulty": "easy",
+    "explanation": "The Rouffignac cave paintings were disputed as modern fakes when first discovered, though they were later proven authentic.",
+    "detailedExplanation": "The Rouffignac cave in France contains extensive prehistoric paintings and engravings, but when they were first publicized in the 1950s, many experts declared them modern forgeries. The controversy raged for years, with some archaeologists claiming the mammoth drawings were too fresh-looking and well-preserved to be genuine paleolithic art. However, subsequent scientific analysis and the discovery of similar authenticated cave art eventually proved the Rouffignac paintings were indeed ancient and authentic, making this more of a case of mistaken skepticism than actual forgery.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Cave_of_a_Hundred_Mammoths",
+    "citationTitle": "Wikipedia: Cave of a Hundred Mammoths"
+  },
+  {
+    "id": "aeb2d959-bb04-43b6-abaa-7fe03c9f0f3b",
+    "text": "Which Renaissance master's signature was most commonly forged on paintings during the 19th and early 20th centuries due to the high prices his works commanded?",
+    "options": [
+      "Raphael",
+      "Michelangelo",
+      "Leonardo da Vinci",
+      "Donatello"
+    ],
+    "correctIndex": 0,
+    "category": "arts",
+    "difficulty": "easy",
+    "explanation": "Raphael's signature was the most forged during this period because his paintings commanded extremely high prices.",
+    "detailedExplanation": "During the 19th and early 20th centuries, Raphael's works were among the most valuable in the art market, making his signature a prime target for forgers. The high demand and astronomical prices for authentic Raphael paintings created a lucrative market for fake attributions. Many mediocre Renaissance paintings were given false Raphael signatures and sold to wealthy collectors who were eager to own works by the master. This practice became so common that art historians estimate hundreds of fake 'Raphaels' entered collections during this period.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Art_forgery",
+    "citationTitle": "Wikipedia: Art forgery"
+  },
+  {
+    "id": "ba665d38-2c43-44d6-bad7-d1f11b672db2",
+    "text": "What unusual material did forger Alceo Dossena use to artificially age his fake ancient sculptures in the 1920s?",
+    "options": [
+      "Coffee grounds",
+      "Acid baths",
+      "Manure",
+      "Tea stains"
+    ],
+    "correctIndex": 2,
+    "category": "arts",
+    "difficulty": "easy",
+    "explanation": "Dossena buried his sculptures in manure to give them an aged, weathered appearance that fooled experts.",
+    "detailedExplanation": "Italian forger Alceo Dossena was remarkably skilled at creating fake ancient sculptures that fooled major museums and collectors in the 1920s. One of his key techniques for aging his works was to bury them in manure, which would naturally weather and stain the marble or stone to give it the appearance of being centuries old. This organic aging process, combined with his exceptional sculpting skills, made his forgeries nearly indistinguishable from genuine ancient works. His fakes ended up in prestigious institutions like the Metropolitan Museum of Art before being exposed.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Alceo_Dossena",
+    "citationTitle": "Wikipedia: Alceo Dossena"
+  },
+  {
+    "id": "dc6dbc78-073f-4dfc-b635-849a1ac216af",
+    "text": "Which painting, long thought to be by Vincent van Gogh, was revealed in 2013 to actually be the work of his contemporary after scientific analysis?",
+    "options": [
+      "The Potato Eaters",
+      "Sunset at Montmajour",
+      "The Bedroom",
+      "Wheatfield with Crows"
+    ],
+    "correctIndex": 1,
+    "category": "arts",
+    "difficulty": "easy",
+    "explanation": "Sunset at Montmajour was authenticated as a genuine van Gogh work in 2013 after being dismissed as a fake for decades.",
+    "detailedExplanation": "'Sunset at Montmajour' represents one of art history's most remarkable authentication reversals. The painting had been dismissed as a fake for decades and was relegated to a private collection. However, in 2013, the Van Gogh Museum in Amsterdam used advanced scientific techniques, including detailed analysis of the paint, canvas, and brushwork, combined with historical research into van Gogh's letters, to definitively prove the work was genuine. The painting, created in 1888, became the first full-size van Gogh painting authenticated by the museum in over 30 years.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Sunset_at_Montmajour",
+    "citationTitle": "Wikipedia: Sunset at Montmajour"
+  },
+  {
+    "id": "43a21879-82c4-4d7c-bb0a-76ad58024a88",
+    "text": "What was the name of the art dealer who sold fake Jackson Pollock paintings from a garage on Long Island, claiming they were discovered in a storage locker?",
+    "options": [
+      "Ely Sakhai",
+      "Knoedler Gallery",
+      "Teri Horton",
+      "Glafira Rosales"
+    ],
+    "correctIndex": 3,
+    "category": "arts",
+    "difficulty": "easy",
+    "explanation": "Glafira Rosales was the dealer who sold fake Pollock and other Abstract Expressionist works in the Knoedler Gallery scandal.",
+    "detailedExplanation": "Glafira Rosales was at the center of one of the art world's biggest forgery scandals in recent decades. For over 15 years, she sold fake paintings supposedly by Jackson Pollock, Mark Rothko, and other Abstract Expressionist masters to the prestigious Knoedler Gallery in New York. She claimed the works came from an anonymous collector and had been discovered in storage. The scheme unraveled in 2011 when scientific analysis revealed the paintings contained modern pigments that weren't available when the original artists were working. The scandal led to the closure of Knoedler Gallery after 165 years in business and multiple lawsuits totaling over $60 million.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Knoedler_Gallery",
+    "citationTitle": "Wikipedia: Knoedler Gallery"
+  }
+]

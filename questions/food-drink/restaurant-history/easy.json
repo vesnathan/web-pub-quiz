@@ -1,0 +1,342 @@
+[
+  {
+    "id": "6ac6cb91-55d5-442d-8f49-6fed333df88a",
+    "text": "Which fast food chain is credited with opening the first drive-through restaurant window in 1947?",
+    "options": [
+      "McDonald's",
+      "In-N-Out Burger",
+      "White Castle",
+      "Burger King"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "In-N-Out Burger opened the first drive-through restaurant in Baldwin Park, California in 1948.",
+    "detailedExplanation": "In-N-Out Burger pioneered the drive-through concept when Harry Snyder opened his first location in Baldwin Park, California in 1948. He installed a two-way speaker system that allowed customers to order food without leaving their cars, revolutionizing fast food service. This innovation came during the post-World War II car culture boom in America and helped establish the template for modern fast food restaurants.",
+    "citationUrl": "https://en.wikipedia.org/wiki/In-N-Out_Burger",
+    "citationTitle": "Wikipedia: In-N-Out Burger"
+  },
+  {
+    "id": "205553ba-32f0-45b0-b598-73cf8d35cc05",
+    "text": "What was the name of the world's first restaurant, opened in Paris in 1765?",
+    "options": [
+      "La Grande Taverne de Londres",
+      "Le Procope",
+      "Restaurant de la Tour d'Argent",
+      "Café de Paris"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "La Grande Taverne de Londres was opened by Mathurin Roze de Chantoiseau in 1765 and is considered the first true restaurant.",
+    "detailedExplanation": "La Grande Taverne de Londres, opened by Mathurin Roze de Chantoiseau in Paris in 1765, is widely recognized as the world's first restaurant. Unlike taverns and inns that served fixed meals at set times, this establishment offered individual tables, a menu with choices, and meals served at any time during business hours. The concept was revolutionary, as it provided 'restaurants' (meaning 'restoratives') - nutritious broths meant to restore health and energy.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Restaurant",
+    "citationTitle": "Wikipedia: Restaurant"
+  },
+  {
+    "id": "fbebe7b6-55e6-4f26-b551-43752d2514d3",
+    "text": "Which American diner chain is famous for being open 24 hours and having locations scattered across highways?",
+    "options": [
+      "Denny's",
+      "IHOP",
+      "Waffle House",
+      "Perkins"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Waffle House is legendary for staying open 24/7 and has become an informal measure of storm severity.",
+    "detailedExplanation": "Waffle House, founded in 1955 in Avondale Estates, Georgia, has built its reputation on being reliably open 24 hours a day, 365 days a year. The chain is so famous for staying open during disasters that FEMA informally uses the 'Waffle House Index' to assess the severity of storms and the state of disaster recovery in affected areas. With over 1,900 locations primarily in the Southern United States, it has become an iconic part of American highway and diner culture.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Waffle_House",
+    "citationTitle": "Wikipedia: Waffle House"
+  },
+  {
+    "id": "bf429ca5-0244-4b8b-ba6f-291ce3e073e8",
+    "text": "The Horn & Hardart Automat, popular in the early-to-mid 20th century, was famous for what unique feature?",
+    "options": [
+      "Robot waiters",
+      "Coin-operated food dispensers",
+      "Conveyor belt service",
+      "Self-cooking tables"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Automats featured walls of small glass compartments where customers inserted coins to open doors and retrieve pre-made food.",
+    "detailedExplanation": "Horn & Hardart operated a chain of Automats from 1902 to 1991, primarily in New York City and Philadelphia. These restaurants featured walls lined with small glass compartments, each containing a dish of prepared food. Customers would insert the required coins into a slot, turn a knob, and the glass door would open to retrieve their selection. This self-service concept was revolutionary for its time and democratized dining by offering quality food at affordable prices without the need for waitstaff.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Automat",
+    "citationTitle": "Wikipedia: Automat"
+  },
+  {
+    "id": "204f4841-ba6a-41c6-8875-37427f2badf8",
+    "text": "Which country is credited with inventing the modern concept of the bistro?",
+    "options": [
+      "Italy",
+      "France",
+      "Germany",
+      "Spain"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "France developed the bistro concept in the 19th century as small, informal restaurants serving simple meals.",
+    "detailedExplanation": "The bistro concept originated in France during the 19th century, though its exact etymology is debated. These small, informal restaurants typically served simple, hearty meals and wine in a casual atmosphere. The word 'bistro' may derive from the Russian word 'bistro' meaning 'quickly,' possibly from Russian soldiers during the Napoleonic Wars, though this origin story is disputed. Regardless of its linguistic roots, the bistro became an integral part of French dining culture, offering an alternative to formal restaurants.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Bistro",
+    "citationTitle": "Wikipedia: Bistro"
+  },
+  {
+    "id": "bea89baa-79d1-487c-bb4e-bd27c31f85cd",
+    "text": "What innovation did the Stork Club in New York City introduce to restaurant dining in the 1930s?",
+    "options": [
+      "Air conditioning",
+      "Valet parking",
+      "Celebrity photography",
+      "Table telephones"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "The Stork Club was famous for encouraging celebrity photography, making it one of the first restaurants to embrace celebrity culture.",
+    "detailedExplanation": "The Stork Club, which operated from 1929 to 1965 in Manhattan, revolutionized restaurant culture by actively courting celebrities and encouraging photographers to capture famous patrons dining there. Owner Sherman Billingsley understood that celebrity presence would attract more customers and generate publicity. The club became legendary for its celebrity clientele and the photographs taken there, essentially creating the template for modern celebrity dining establishments and paparazzi culture in restaurants.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Stork_Club",
+    "citationTitle": "Wikipedia: Stork Club"
+  },
+  {
+    "id": "374c8b8d-1cf7-422c-aa0b-7737b8af0b05",
+    "text": "Which fast food restaurant was the first to offer a value meal or combo meal in 1975?",
+    "options": [
+      "McDonald's",
+      "Burger King",
+      "Wendy's",
+      "KFC"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Burger King introduced the first value meal with their 'Value Meal' concept, bundling burger, fries, and drink.",
+    "detailedExplanation": "Burger King pioneered the value meal concept in 1975 with their 'Value Meal' promotion, which bundled a Whopper, french fries, and a soft drink for a discounted price compared to purchasing items individually. This marketing strategy proved incredibly successful and was quickly adopted by competitors throughout the fast food industry. The value meal concept fundamentally changed how fast food was marketed and consumed, encouraging customers to purchase more items while feeling they were getting a bargain.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Burger_King",
+    "citationTitle": "Wikipedia: Burger King"
+  },
+  {
+    "id": "66fd81ac-f768-403d-8170-98472895c7e9",
+    "text": "The first Pizza Hut restaurant opened in 1958 in which U.S. state?",
+    "options": [
+      "New York",
+      "California",
+      "Kansas",
+      "Illinois"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Pizza Hut was founded by two brothers in Wichita, Kansas in 1958.",
+    "detailedExplanation": "Pizza Hut was founded by brothers Dan and Frank Carney in Wichita, Kansas in 1958. The brothers, both college students at the time, borrowed $600 from their mother to start their pizza business in a small building. They chose the name 'Pizza Hut' simply because their sign could only accommodate nine letters, and 'hut' described the shape of their building. The restaurant grew from this humble beginning to become one of the world's largest pizza chains, fundamentally changing how Americans consumed pizza.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Pizza_Hut",
+    "citationTitle": "Wikipedia: Pizza Hut"
+  },
+  {
+    "id": "b420db2a-6f6f-49d3-b3b3-cfb1d109c448",
+    "text": "What was the original name of McDonald's before it became the fast food empire we know today?",
+    "options": [
+      "McDonald's BBQ",
+      "McDonald's Bar-B-Q",
+      "The McDonald Brothers Restaurant",
+      "Golden Arches Diner"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "McDonald's was originally called McDonald's Bar-B-Q when it opened in 1940.",
+    "detailedExplanation": "Before becoming the fast food giant known worldwide, McDonald's started as McDonald's Bar-B-Q in 1940 in San Bernardino, California. The McDonald brothers, Richard and Maurice, initially operated a traditional drive-in restaurant with carhop service, serving barbecue and other items. It wasn't until 1948 that they revolutionized their business model with the 'Speedee Service System,' focusing on burgers, fries, and shakes, which laid the foundation for modern fast food.",
+    "citationUrl": "https://en.wikipedia.org/wiki/History_of_McDonald%27s",
+    "citationTitle": "Wikipedia: History of McDonald's"
+  },
+  {
+    "id": "a321fabf-6166-47c6-8498-e4c71e55ddaf",
+    "text": "Which restaurant chain is credited with introducing the salad bar concept to American dining in the 1960s?",
+    "options": [
+      "Sizzler",
+      "Chuck E. Cheese",
+      "Ruby Tuesday",
+      "Ponderosa Steakhouse"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Chuck E. Cheese introduced the first salad bar in American restaurants in the 1960s.",
+    "detailedExplanation": "While many associate Chuck E. Cheese primarily with pizza and arcade games, the chain actually played a pioneering role in restaurant history by introducing the salad bar concept to American dining in the 1960s. This innovation allowed customers to serve themselves from a variety of fresh ingredients, a concept that would later be adopted by countless restaurants across various dining segments, from family restaurants to steakhouses.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Salad_bar",
+    "citationTitle": "Wikipedia: Salad bar"
+  },
+  {
+    "id": "faaf917f-7274-435b-b7b4-1d888f90c2d1",
+    "text": "The term 'restaurant' comes from the French word 'restaurer,' which means what?",
+    "options": [
+      "To serve",
+      "To restore",
+      "To gather",
+      "To satisfy"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "The word 'restaurant' derives from the French 'restaurer,' meaning 'to restore.'",
+    "detailedExplanation": "The word 'restaurant' has its roots in the French verb 'restaurer,' which means 'to restore' or 'to refresh.' This etymology reflects the original purpose of early restaurants - to restore one's health and energy through nourishing food. The term was first used in the context of dining establishments in 18th century France, where restaurants served 'restaurants' (restoratives) - broths that were believed to restore health and vigor to patrons.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Restaurant",
+    "citationTitle": "Wikipedia: Restaurant"
+  },
+  {
+    "id": "685e408a-4040-4f5b-a40b-0a15368e37c5",
+    "text": "Which fast food chain was the first to use assembly line principles for food preparation, inspiring the modern fast food industry?",
+    "options": [
+      "White Castle",
+      "Burger King",
+      "KFC",
+      "Taco Bell"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "White Castle was the first to use assembly line principles for food preparation in the 1920s.",
+    "detailedExplanation": "White Castle, founded in 1921 in Wichita, Kansas, was revolutionary in applying assembly line principles to food preparation, much like Henry Ford had done with automobile manufacturing. Founders Walter Anderson and Billy Ingram standardized their burger-making process, with workers each handling specific tasks in sequence. This systematic approach allowed for consistent quality, faster service, and lower prices, establishing the template that virtually all fast food chains would later follow.",
+    "citationUrl": "https://en.wikipedia.org/wiki/White_Castle_(restaurant)",
+    "citationTitle": "Wikipedia: White Castle (restaurant)"
+  },
+  {
+    "id": "a428c571-17d0-496e-8eb8-183603be3c0d",
+    "text": "What type of establishment was a 'tavern' primarily in colonial America before evolving into restaurants?",
+    "options": [
+      "A place that only served alcohol",
+      "A combination inn, restaurant, and public house",
+      "A private dining club",
+      "A marketplace for food vendors"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Colonial taverns were combination establishments serving as inns, restaurants, and public houses.",
+    "detailedExplanation": "In colonial America, taverns served multiple functions that went far beyond simple dining or drinking. They operated as inns providing lodging for travelers, restaurants offering meals, and public houses where locals gathered for socializing and conducting business. Taverns were often the social and political centers of their communities, serving as meeting places, news exchanges, and even venues for court proceedings. This multi-purpose model was essential in sparsely populated colonial settlements where specialized businesses weren't economically viable.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Tavern",
+    "citationTitle": "Wikipedia: Tavern"
+  },
+  {
+    "id": "0aee4f4d-32ae-4786-9246-60f6bafa693f",
+    "text": "Which American city is credited with having the first Chinese restaurant in the United States?",
+    "options": [
+      "New York City",
+      "Los Angeles",
+      "San Francisco",
+      "Seattle"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "San Francisco had the first Chinese restaurant in the United States, opening in the 1840s.",
+    "detailedExplanation": "San Francisco is credited with having the first Chinese restaurant in the United States, which opened in the 1840s during the California Gold Rush era. The city's significant Chinese immigrant population, primarily from Guangdong province, established restaurants initially to serve their own community. These early establishments in what would become Chinatown gradually began attracting non-Chinese customers, introducing American diners to Chinese cuisine and laying the groundwork for Chinese food to become one of the most popular ethnic cuisines in America.",
+    "citationUrl": "https://en.wikipedia.org/wiki/American_Chinese_cuisine",
+    "citationTitle": "Wikipedia: American Chinese cuisine"
+  },
+  {
+    "id": "a3756d5c-cd38-4b08-9fc4-0971721d2d26",
+    "text": "What restaurant innovation is credited to Norman Brinker, founder of casual dining chains?",
+    "options": [
+      "The kids' menu",
+      "The salad bar at restaurants",
+      "The appetizer sampler platter",
+      "The lunch buffet"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Norman Brinker is credited with popularizing the salad bar at restaurants in the 1960s.",
+    "detailedExplanation": "Norman Brinker, who founded and developed several major restaurant chains including Steak and Ale and later led Chili's expansion, is widely credited with popularizing the salad bar concept in casual dining restaurants during the 1960s and 1970s. His implementation of self-service salad bars at Steak and Ale helped establish this feature as a standard offering in many restaurant chains. Brinker's innovations in casual dining, including the salad bar concept, helped bridge the gap between fast food and fine dining, creating the casual dining segment that dominates much of the restaurant industry today.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Norman_Brinker",
+    "citationTitle": "Wikipedia: Norman Brinker"
+  },
+  {
+    "id": "168aa680-992a-415e-8524-5b495f068b94",
+    "text": "Which decade saw the introduction of the first franchise restaurant system in the United States?",
+    "options": [
+      "1920s",
+      "1930s",
+      "1940s",
+      "1950s"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "The first restaurant franchise system was introduced in the 1920s with A&W Root Beer.",
+    "detailedExplanation": "The restaurant franchise system was pioneered in the 1920s by A&W Root Beer, founded by Roy W. Allen and Frank Wright. In 1925, Allen began selling franchise rights to other entrepreneurs, allowing them to operate A&W Root Beer stands using the company's name, products, and business methods in exchange for fees and ongoing royalties. This franchising model proved revolutionary, enabling rapid expansion while reducing the financial risk for the parent company. The success of A&W's franchise system became the template that countless other restaurant chains would later adopt, fundamentally changing how the restaurant industry operates and expands.",
+    "citationUrl": "https://en.wikipedia.org/wiki/A%26W_Root_Beer",
+    "citationTitle": "Wikipedia: A&W Root Beer"
+  },
+  {
+    "id": "8e217fc7-854c-4e07-bbb6-7ef21e679972",
+    "text": "Which restaurant chain holds the distinction of being America's oldest restaurant franchise, founded in 1921?",
+    "options": [
+      "White Castle",
+      "A&W Root Beer",
+      "Howard Johnson's",
+      "Dairy Queen"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "A&W Root Beer, founded in 1921, is considered America's oldest restaurant franchise.",
+    "detailedExplanation": "A&W Root Beer was founded by Roy W. Allen in 1921 in Lodi, California, making it America's oldest restaurant franchise. Allen began franchising the A&W brand in 1924, predating other famous chains like White Castle's franchising efforts. The company pioneered many drive-in restaurant concepts and became famous for its root beer served in frosted mugs and carhop service.",
+    "citationUrl": "https://en.wikipedia.org/wiki/A%26W_Restaurants",
+    "citationTitle": "Wikipedia: A&W Restaurants"
+  },
+  {
+    "id": "87a50171-c374-42cd-9e26-009effa50614",
+    "text": "What famous New York restaurant, opened in 1868, claims to be the oldest continuously operating restaurant in the United States?",
+    "options": [
+      "Delmonico's",
+      "Peter Luger Steak House",
+      "Keens Steakhouse",
+      "Old Homestead Steakhouse"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Peter Luger Steak House, opened in 1887 in Brooklyn, is often cited as one of the oldest continuously operating restaurants, though Delmonico's predates it.",
+    "detailedExplanation": "Peter Luger Steak House opened in 1887 in the Williamsburg section of Brooklyn and has remained in continuous operation, making it one of New York's oldest restaurants. While Delmonico's opened earlier in 1837, it has closed and reopened multiple times throughout its history. Peter Luger's has maintained its original location and family ownership, becoming legendary for its dry-aged steaks and cash-only policy.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Peter_Luger_Steak_House",
+    "citationTitle": "Wikipedia: Peter Luger Steak House"
+  },
+  {
+    "id": "2e0155a1-eebe-4fb4-90c6-690f49bc189e",
+    "text": "Which European city is home to Sobrino de Botín, recognized by Guinness World Records as the world's oldest continuously operating restaurant since 1725?",
+    "options": [
+      "Paris, France",
+      "Rome, Italy",
+      "Madrid, Spain",
+      "London, England"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Sobrino de Botín in Madrid, Spain, has been operating continuously since 1725 and holds the Guinness World Record.",
+    "detailedExplanation": "Sobrino de Botín, located in Madrid, Spain, opened in 1725 and has been recognized by Guinness World Records as the world's oldest continuously operating restaurant. The restaurant specializes in traditional Castilian cuisine, particularly roast suckling pig and lamb cooked in their original wood-fired oven. The establishment was even mentioned in Ernest Hemingway's novel 'The Sun Also Rises,' adding to its cultural significance.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Sobrino_de_Bot%C3%ADn",
+    "citationTitle": "Wikipedia: Sobrino de Botín"
+  },
+  {
+    "id": "d71465b1-8ce1-44f5-8f12-c3e741f05b3e",
+    "text": "Which famous chef is credited with creating the modern restaurant kitchen brigade system that revolutionized professional cooking in the late 19th century?",
+    "options": [
+      "Julia Child",
+      "Auguste Escoffier",
+      "Antoine Carême",
+      "Paul Bocuse"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Auguste Escoffier developed the kitchen brigade system that organized professional kitchens into specialized stations.",
+    "detailedExplanation": "Auguste Escoffier, known as the 'King of Chefs and Chef of Kings,' revolutionized restaurant kitchens in the late 19th and early 20th centuries by creating the brigade de cuisine system. This organizational method divided kitchen staff into specialized stations (such as saucier, grillardin, and pâtissier), creating efficiency and consistency in professional cooking. Escoffier's system became the standard for restaurant kitchens worldwide and is still used today in professional culinary establishments.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Auguste_Escoffier",
+    "citationTitle": "Wikipedia: Auguste Escoffier"
+  }
+]

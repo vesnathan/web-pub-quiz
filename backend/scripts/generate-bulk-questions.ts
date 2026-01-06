@@ -2,6 +2,10 @@ import Anthropic from '@anthropic-ai/sdk';
 import * as fs from 'fs';
 import * as path from 'path';
 import { v4 as uuidv4 } from 'uuid';
+import * as dotenv from 'dotenv';
+
+// Load .env from project root
+dotenv.config({ path: path.join(__dirname, '../../.env') });
 
 const anthropic = new Anthropic();
 
@@ -407,18 +411,27 @@ async function generateQuestionBatch(
   topic: string,
   subtopic: string,
   count: number,
-  difficulty: 'easy' | 'medium' | 'hard'
+  difficulty: 'easy' | 'medium' | 'hard',
+  existingQuestions: Question[] = []
 ): Promise<Question[]> {
   console.log(`  → API call: ${count} ${difficulty} questions...`);
   const startTime = Date.now();
 
-  const prompt = `Generate ${count} unique pub quiz trivia questions specifically about "${subtopic}" (category: ${topic}) at ${difficulty} difficulty.
+  // Build prompt with existing questions context if any
+  let existingContext = '';
+  if (existingQuestions.length > 0) {
+    const existingTexts = existingQuestions.map(q => `- ${q.text}`).join('\n');
+    existingContext = `\n\nIMPORTANT: The following ${existingQuestions.length} questions already exist for this topic. Generate COMPLETELY DIFFERENT questions that do NOT repeat or rephrase these:\n${existingTexts}\n`;
+  }
+
+  const prompt = `Generate ${count} unique pub quiz trivia questions specifically about "${subtopic}" (category: ${topic}) at ${difficulty} difficulty.${existingContext}
 
 Requirements:
 - 4 multiple choice options each
 - Factually accurate and verifiable
 - Engaging for a pub quiz audience
-- Each question must be distinctly different
+- Each question must be distinctly different from ALL existing questions above
+- Cover different aspects/facts of the topic not already covered
 
 Return ONLY valid JSON array:
 [{"text":"Question?","options":["A","B","C","D"],"correctIndex":0,"explanation":"Short answer explanation.","detailedExplanation":"Detailed paragraph with context.","citationUrl":"https://en.wikipedia.org/wiki/Topic","citationTitle":"Wikipedia: Topic"}]`;
@@ -509,6 +522,9 @@ async function main() {
     console.log(`\n[${processed + 1}/${filesNeeded.length}] ${topic}/${subtopic}/${difficulty}`);
     console.log(`  Current: ${count}, Need: ${needed}`);
 
+    // Load existing questions for this file to pass as context
+    let fileQuestions = loadQuestionsForFile(filePath);
+
     // Generate in batches until we reach target (max 3 retries with no progress)
     let remaining = needed;
     let noProgressCount = 0;
@@ -518,9 +534,10 @@ async function main() {
       const batchSize = Math.min(QUESTIONS_PER_BATCH, remaining);
 
       try {
-        const newQuestions = await generateQuestionBatch(topic, subtopic, batchSize, difficulty);
+        // Pass existing questions so API can generate truly original ones
+        const newQuestions = await generateQuestionBatch(topic, subtopic, batchSize, difficulty, fileQuestions);
 
-        // Deduplicate
+        // Still deduplicate as safety check
         const unique = newQuestions.filter(q => {
           const key = q.text.toLowerCase().trim();
           if (existingTexts.has(key)) {
@@ -536,8 +553,7 @@ async function main() {
         } else {
           noProgressCount = 0; // Reset on progress
 
-          // Load existing and append
-          const fileQuestions = loadQuestionsForFile(filePath);
+          // Append to file questions and save
           fileQuestions.push(...unique);
           saveQuestionsToFile(fileQuestions, filePath);
 

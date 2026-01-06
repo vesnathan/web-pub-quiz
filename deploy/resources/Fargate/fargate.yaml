@@ -190,7 +190,7 @@ Resources:
       GroupName: !Sub "${AppName}-orchestrator-sg-${Stage}"
       GroupDescription: Security group for orchestrator Fargate tasks
       VpcId: !Ref VPC
-      # Egress only - orchestrator doesn't need inbound traffic
+      # Egress only - orchestrator communicates via Ably and DynamoDB
       SecurityGroupEgress:
         - IpProtocol: "-1"
           CidrIp: 0.0.0.0/0

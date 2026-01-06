@@ -1,0 +1,342 @@
+[
+  {
+    "id": "2c8e1ad2-85f6-48a7-a745-fe04828d72a5",
+    "text": "Which country has won the most Cricket World Cup titles?",
+    "options": [
+      "India",
+      "Australia",
+      "West Indies",
+      "England"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "medium",
+    "explanation": "Australia has won the Cricket World Cup 5 times.",
+    "detailedExplanation": "Australia is the most successful team in Cricket World Cup history, having won the tournament five times in 1987, 1999, 2003, 2007, and 2015. Their dominance particularly during the late 1990s and 2000s made them the team to beat in ODI cricket. The West Indies have won it twice, while India, England, Pakistan, and Sri Lanka have each won it once.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Cricket_World_Cup",
+    "citationTitle": "Wikipedia: Cricket World Cup"
+  },
+  {
+    "id": "991e59bf-c8d5-4ae9-b62d-0388c483e228",
+    "text": "Who holds the record for the highest individual score in a Cricket World Cup match?",
+    "options": [
+      "Martin Guptill",
+      "Chris Gayle",
+      "Rohit Sharma",
+      "David Warner"
+    ],
+    "correctIndex": 0,
+    "category": "sports",
+    "difficulty": "medium",
+    "explanation": "Martin Guptill scored 237* against the West Indies in the 2015 World Cup.",
+    "detailedExplanation": "New Zealand's Martin Guptill holds the record for the highest individual score in Cricket World Cup history with his unbeaten 237 runs against the West Indies in the quarter-final of the 2015 World Cup at Wellington. This innings helped New Zealand post a massive total of 393/6, and they won by 143 runs. Guptill's knock included 24 fours and 11 sixes, and it was a crucial performance in New Zealand's journey to the final of their home World Cup.",
+    "citationUrl": "https://en.wikipedia.org/wiki/2015_Cricket_World_Cup",
+    "citationTitle": "Wikipedia: 2015 Cricket World Cup"
+  },
+  {
+    "id": "611a7494-821e-4ec4-9f99-fbecc1d3d86f",
+    "text": "Which team famously won the 2019 Cricket World Cup final on boundary count after a tied Super Over?",
+    "options": [
+      "Australia",
+      "New Zealand",
+      "England",
+      "India"
+    ],
+    "correctIndex": 2,
+    "category": "sports",
+    "difficulty": "medium",
+    "explanation": "England won the 2019 World Cup final against New Zealand on boundary count.",
+    "detailedExplanation": "The 2019 Cricket World Cup final between England and New Zealand at Lord's is considered one of the greatest cricket matches ever played. After both the match and Super Over ended in ties, England was declared the winner based on having hit more boundaries (26 to New Zealand's 17) during the match. This controversial rule has since been changed by the ICC. The match saw dramatic moments including Ben Stokes' match-saving innings and an overthrow that went for four off a deflection.",
+    "citationUrl": "https://en.wikipedia.org/wiki/2019_Cricket_World_Cup_Final",
+    "citationTitle": "Wikipedia: 2019 Cricket World Cup Final"
+  },
+  {
+    "id": "4f64e533-bbc5-4eff-b0f0-4b3a8db8f919",
+    "text": "Which bowler has taken the most wickets in Cricket World Cup history?",
+    "options": [
+      "Glenn McGrath",
+      "Muttiah Muralitharan",
+      "Wasim Akram",
+      "Mitchell Starc"
+    ],
+    "correctIndex": 0,
+    "category": "sports",
+    "difficulty": "medium",
+    "explanation": "Glenn McGrath has taken 71 wickets across four World Cups.",
+    "detailedExplanation": "Australian fast bowler Glenn McGrath holds the record for most wickets in Cricket World Cup history with 71 wickets from 39 matches across four tournaments (1996, 1999, 2003, and 2007). McGrath was instrumental in Australia's World Cup victories in 1999, 2003, and 2007. His accurate line and length, combined with his ability to move the ball both ways, made him particularly effective in English and subcontinental conditions during World Cups.",
+    "citationUrl": "https://en.wikipedia.org/wiki/List_of_Cricket_World_Cup_records",
+    "citationTitle": "Wikipedia: List of Cricket World Cup records"
+  },
+  {
+    "id": "31df4102-c1af-48aa-84dd-84610967fbdd",
+    "text": "Which country hosted the Cricket World Cup for the first time outside of England in 1987?",
+    "options": [
+      "Australia and New Zealand",
+      "India and Pakistan",
+      "West Indies",
+      "South Africa"
+    ],
+    "correctIndex": 0,
+    "category": "sports",
+    "difficulty": "medium",
+    "explanation": "Australia and New Zealand jointly hosted the 1987 World Cup.",
+    "detailedExplanation": "The 1987 Cricket World Cup was the first to be held outside England, jointly hosted by Australia and New Zealand. This tournament was also significant as it reduced the match format from 60 overs to 50 overs per side, which became the standard for ODI cricket. Australia won their first World Cup on home soil, defeating England in the final at Eden Gardens, Kolkata. The tournament's success in the Southern Hemisphere helped establish the World Cup as a truly global event.",
+    "citationUrl": "https://en.wikipedia.org/wiki/1987_Cricket_World_Cup",
+    "citationTitle": "Wikipedia: 1987 Cricket World Cup"
+  },
+  {
+    "id": "18c04858-f492-45f8-b628-c448e904bc92",
+    "text": "Who was the captain when India won their first Cricket World Cup in 1983?",
+    "options": [
+      "Sunil Gavaskar",
+      "Kapil Dev",
+      "Dilip Vengsarkar",
+      "Mohinder Amarnath"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "medium",
+    "explanation": "Kapil Dev captained India to their first World Cup victory in 1983.",
+    "detailedExplanation": "Kapil Dev led India to a stunning victory in the 1983 Cricket World Cup, defeating the mighty West Indies in the final at Lord's. This victory is considered one of the greatest upsets in cricket history, as India was not considered among the favorites. Kapil Dev's leadership and his famous catch to dismiss Viv Richards in the final were crucial moments. The victory sparked a cricket revolution in India and inspired a generation of cricketers, eventually leading to India becoming a cricket superpower.",
+    "citationUrl": "https://en.wikipedia.org/wiki/1983_Cricket_World_Cup",
+    "citationTitle": "Wikipedia: 1983 Cricket World Cup"
+  },
+  {
+    "id": "fff2e980-b6f3-4531-acbd-f7d69a86f982",
+    "text": "What was unique about the 1992 Cricket World Cup format compared to previous tournaments?",
+    "options": [
+      "It was the first to use colored clothing and white balls",
+      "It featured a round-robin format for the first time",
+      "It was played entirely in one country",
+      "It had the most teams participating"
+    ],
+    "correctIndex": 0,
+    "category": "sports",
+    "difficulty": "medium",
+    "explanation": "The 1992 World Cup introduced colored clothing and white balls for the first time.",
+    "detailedExplanation": "The 1992 Cricket World Cup in Australia and New Zealand was revolutionary as it introduced colored clothing (instead of traditional whites) and white balls for better visibility during day-night matches. This tournament also featured the first use of floodlights in World Cup cricket and established many of the modern limited-overs cricket conventions we see today.",
+    "citationUrl": "https://en.wikipedia.org/wiki/1992_Cricket_World_Cup",
+    "citationTitle": "Wikipedia: 1992 Cricket World Cup"
+  },
+  {
+    "id": "e74e9508-5305-4230-8692-18a8e644b91f",
+    "text": "Which team finished as runners-up in three different Cricket World Cup finals?",
+    "options": [
+      "Pakistan",
+      "England",
+      "New Zealand",
+      "Sri Lanka"
+    ],
+    "correctIndex": 2,
+    "category": "sports",
+    "difficulty": "medium",
+    "explanation": "New Zealand lost in the finals of 2015, 2019, and 2023 World Cups.",
+    "detailedExplanation": "New Zealand has the unfortunate distinction of being runners-up in three Cricket World Cup finals - losing to Australia in 2015, England in 2019 (in a dramatic super over finish), and India in 2023. Despite their consistent performance and reaching multiple finals, the Black Caps are yet to claim their first World Cup title, making them one of the strongest teams never to have won the tournament.",
+    "citationUrl": "https://en.wikipedia.org/wiki/New_Zealand_at_the_Cricket_World_Cup",
+    "citationTitle": "Wikipedia: New Zealand at the Cricket World Cup"
+  },
+  {
+    "id": "df257d0f-d055-46b1-a021-b0938b82e42a",
+    "text": "In which year was the Cricket World Cup first held?",
+    "options": [
+      "1971",
+      "1973",
+      "1975",
+      "1977"
+    ],
+    "correctIndex": 2,
+    "category": "sports",
+    "difficulty": "medium",
+    "explanation": "The first Cricket World Cup was held in England in 1975.",
+    "detailedExplanation": "The inaugural Cricket World Cup took place in England in 1975, featuring eight teams playing 60-over matches. The tournament was officially called the Prudential Cup after its sponsor. West Indies won this first tournament, defeating Australia in the final at Lord's. The success of this tournament established the World Cup as cricket's premier limited-overs competition.",
+    "citationUrl": "https://en.wikipedia.org/wiki/1975_Cricket_World_Cup",
+    "citationTitle": "Wikipedia: 1975 Cricket World Cup"
+  },
+  {
+    "id": "7979f990-7d90-4060-ba63-a90641f95279",
+    "text": "Which unusual method was used to decide the winner of the 1999 World Cup semi-final between South Africa and Australia?",
+    "options": [
+      "Bowl-out",
+      "Boundary count",
+      "Run rate calculation after a tie",
+      "Coin toss"
+    ],
+    "correctIndex": 2,
+    "category": "sports",
+    "difficulty": "medium",
+    "explanation": "South Africa needed one run off the final ball but the match tied, and Australia advanced on superior run rate.",
+    "detailedExplanation": "The 1999 World Cup semi-final at Edgbaston is remembered as one of the most dramatic matches in cricket history. South Africa needed just one run from the final ball to win, but Allan Donald was run out attempting a second run, resulting in a tie. Under the tournament rules, Australia advanced to the final based on their superior net run rate from the Super Six stage, leaving South Africa heartbroken once again.",
+    "citationUrl": "https://en.wikipedia.org/wiki/1999_Cricket_World_Cup",
+    "citationTitle": "Wikipedia: 1999 Cricket World Cup"
+  },
+  {
+    "id": "69d11d64-1e26-415f-a421-b1175b290709",
+    "text": "Which player scored six sixes in one over during the 2007 Cricket World Cup?",
+    "options": [
+      "Chris Gayle",
+      "Yuvraj Singh",
+      "AB de Villiers",
+      "Brendon McCullum"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "medium",
+    "explanation": "Yuvraj Singh hit Stuart Broad for six sixes in one over against England in 2007.",
+    "detailedExplanation": "Yuvraj Singh achieved the rare feat of hitting six sixes in a single over during India's match against England in the 2007 World Cup T20 (though this was the T20 World Cup, not the ODI World Cup). This incredible achievement came off the bowling of Stuart Broad and remains one of the most memorable moments in World Cup cricket history, showcasing Yuvraj's explosive batting ability.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Yuvraj_Singh",
+    "citationTitle": "Wikipedia: Yuvraj Singh"
+  },
+  {
+    "id": "52db1092-012d-4917-a478-7aa31265a27e",
+    "text": "What was the original format length for matches in the first three Cricket World Cups (1975-1983)?",
+    "options": [
+      "40 overs per side",
+      "50 overs per side",
+      "60 overs per side",
+      "55 overs per side"
+    ],
+    "correctIndex": 2,
+    "category": "sports",
+    "difficulty": "medium",
+    "explanation": "The first three World Cups used 60 overs per side format.",
+    "detailedExplanation": "The first three Cricket World Cups (1975, 1979, and 1983) were played with 60 overs per side, making for very long matches that often lasted the entire day. From the 1987 World Cup onwards, the format was reduced to 50 overs per side, which became the standard format that continues today. This change was made to make matches more television-friendly and to reduce the physical demands on players.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Cricket_World_Cup",
+    "citationTitle": "Wikipedia: Cricket World Cup"
+  },
+  {
+    "id": "6a4b724d-0e82-4f11-bb44-e02c38fe2b8c",
+    "text": "Which venue has hosted the most Cricket World Cup finals?",
+    "options": [
+      "Melbourne Cricket Ground",
+      "Lord's Cricket Ground",
+      "Eden Gardens",
+      "The Oval"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "medium",
+    "explanation": "Lord's has hosted five Cricket World Cup finals (1975, 1979, 1983, 1999, 2019).",
+    "detailedExplanation": "Lord's Cricket Ground in London, known as the 'Home of Cricket', has hosted the most World Cup finals with five tournaments concluding there in 1975, 1979, 1983, 1999, and 2019. As the traditional home of cricket and headquarters of the MCC (Marylebone Cricket Club), Lord's has been the natural choice for hosting finals, particularly when England has hosted or co-hosted the tournament.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Lord%27s_Cricket_Ground",
+    "citationTitle": "Wikipedia: Lord's Cricket Ground"
+  },
+  {
+    "id": "a67ed677-23b6-4b11-b50e-98c4e19c6573",
+    "text": "Which team caused the biggest upset in Cricket World Cup history by defeating the West Indies in the 1983 final?",
+    "options": [
+      "England",
+      "Pakistan",
+      "India",
+      "New Zealand"
+    ],
+    "correctIndex": 2,
+    "category": "sports",
+    "difficulty": "medium",
+    "explanation": "India's victory over the defending champions West Indies in 1983 is considered the biggest World Cup upset.",
+    "detailedExplanation": "India's victory over the mighty West Indies in the 1983 World Cup final at Lord's is widely regarded as the biggest upset in Cricket World Cup history. The West Indies had won the previous two World Cups and were overwhelming favorites with a team full of legendary players. India's triumph, bowling out the West Indies for just 140 and then successfully chasing the target, transformed cricket in India and inspired a generation of cricketers.",
+    "citationUrl": "https://en.wikipedia.org/wiki/1983_Cricket_World_Cup_Final",
+    "citationTitle": "Wikipedia: 1983 Cricket World Cup Final"
+  },
+  {
+    "id": "b7cea5bd-f14c-43a5-bbbe-eae75f1b02ee",
+    "text": "Which player holds the record for most runs scored across all Cricket World Cup tournaments?",
+    "options": [
+      "Sachin Tendulkar",
+      "Ricky Ponting",
+      "Kumar Sangakkara",
+      "Brian Lara"
+    ],
+    "correctIndex": 0,
+    "category": "sports",
+    "difficulty": "medium",
+    "explanation": "Sachin Tendulkar scored 2,278 runs across six World Cup tournaments (1992-2011).",
+    "detailedExplanation": "Sachin Tendulkar holds the record for most runs in Cricket World Cup history, accumulating 2,278 runs across six tournaments from 1992 to 2011. He appeared in 45 World Cup matches with an average of 56.95, including six centuries. His longevity and consistency across multiple tournaments helped him achieve this milestone, despite India not winning the World Cup until his final tournament in 2011.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Cricket_World_Cup_records",
+    "citationTitle": "Wikipedia: Cricket World Cup Records"
+  },
+  {
+    "id": "9ebdd85b-a4c8-4c2f-ab2b-d1009e33f0dc",
+    "text": "The 2011 Cricket World Cup final was notable for being the first time which specific event occurred?",
+    "options": [
+      "First final played under lights",
+      "First final won by the host nation since 1987",
+      "First final to go into a Super Over",
+      "First final with two Asian teams"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "medium",
+    "explanation": "India's victory in 2011 was the first time a host nation had won the World Cup since Australia in 1987.",
+    "detailedExplanation": "When India defeated Sri Lanka in the 2011 Cricket World Cup final at Mumbai's Wankhede Stadium, they became the first host nation to win the tournament since Australia's victory in 1987. This achievement was particularly significant as it ended India's 28-year wait for a second World Cup title and fulfilled the dreams of captain MS Dhoni, who hit the winning six to seal the victory in front of a home crowd.",
+    "citationUrl": "https://en.wikipedia.org/wiki/2011_Cricket_World_Cup_Final",
+    "citationTitle": "Wikipedia: 2011 Cricket World Cup Final"
+  },
+  {
+    "id": "56230fdc-a8f2-4379-915d-f837d3ca63a1",
+    "text": "Which country was stripped of co-hosting rights for the 1987 Cricket World Cup due to political reasons?",
+    "options": [
+      "South Africa",
+      "Zimbabwe",
+      "Pakistan",
+      "Sri Lanka"
+    ],
+    "correctIndex": 0,
+    "category": "sports",
+    "difficulty": "medium",
+    "explanation": "South Africa was originally planned to co-host the 1987 World Cup but was excluded due to apartheid-era international sports boycotts.",
+    "detailedExplanation": "South Africa was initially planned to co-host the 1987 Cricket World Cup alongside Australia and New Zealand, but was stripped of hosting rights due to the international sports boycott related to the apartheid system. This exclusion was part of broader international sanctions against South Africa's racial segregation policies. The tournament proceeded with Australia and New Zealand as joint hosts, marking the first time the World Cup was held outside England.",
+    "citationUrl": "https://en.wikipedia.org/wiki/1987_Cricket_World_Cup",
+    "citationTitle": "Wikipedia: 1987 Cricket World Cup"
+  },
+  {
+    "id": "4bacbff2-6c6c-4ecf-9ad8-0ab1602ade5e",
+    "text": "What was the official name of the trophy awarded to World Cup winners from 1975 to 1987?",
+    "options": [
+      "ICC Cricket World Cup Trophy",
+      "Prudential Cup",
+      "Benson & Hedges Cup",
+      "Reliance Cup"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "medium",
+    "explanation": "The trophy was called the Prudential Cup, named after the tournament's sponsor Prudential plc from 1975-1987.",
+    "detailedExplanation": "From 1975 to 1987, the Cricket World Cup trophy was officially known as the Prudential Cup, named after Prudential plc, the insurance company that sponsored the first four tournaments. The West Indies won the first two Prudential Cups in 1975 and 1979, India won in 1983, and Australia claimed the final Prudential Cup in 1987. After 1987, sponsorship changed and the trophy was renamed according to different sponsors.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Cricket_World_Cup",
+    "citationTitle": "Wikipedia: Cricket World Cup"
+  },
+  {
+    "id": "84ae60de-38c9-4091-b6f1-24064f95f101",
+    "text": "Which team holds the record for the lowest total in Cricket World Cup history?",
+    "options": [
+      "Canada - 36 vs Sri Lanka",
+      "Namibia - 45 vs Australia",
+      "Scotland - 68 vs West Indies",
+      "Bangladesh - 62 vs West Indies"
+    ],
+    "correctIndex": 0,
+    "category": "sports",
+    "difficulty": "medium",
+    "explanation": "Canada was bowled out for just 36 runs against Sri Lanka in the 2003 World Cup, the lowest total ever recorded.",
+    "detailedExplanation": "Canada holds the unwanted record for the lowest team total in Cricket World Cup history, scoring just 36 runs against Sri Lanka in Paarl, South Africa during the 2003 World Cup. The Canadian innings lasted only 18.4 overs, with Chaminda Vaas taking 6 wickets for 25 runs. This total broke the previous lowest record and remains unbeaten as the most disappointing batting performance in World Cup history.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Cricket_World_Cup_records",
+    "citationTitle": "Wikipedia: Cricket World Cup Records"
+  },
+  {
+    "id": "fc70da8a-6e5e-4c0e-ba96-a3dc9d07ae50",
+    "text": "The 2015 Cricket World Cup introduced which significant rule change that affected match outcomes?",
+    "options": [
+      "Introduction of DRS in all matches",
+      "Powerplay overs reduced to 10",
+      "Introduction of day-night matches",
+      "Elimination of runner for injured batsmen"
+    ],
+    "correctIndex": 1,
+    "category": "sports",
+    "difficulty": "medium",
+    "explanation": "The 2015 World Cup reduced mandatory powerplay overs from 15 to 10, significantly changing batting strategies.",
+    "detailedExplanation": "The 2015 Cricket World Cup saw a significant rule change where the mandatory powerplay overs (where only two fielders could be outside the 30-yard circle) were reduced from 15 to 10 overs. This change, along with the introduction of two batting powerplays of 5 overs each that teams could take between overs 16-40, fundamentally altered batting and bowling strategies. The change contributed to higher scoring matches and more aggressive batting approaches throughout the tournament.",
+    "citationUrl": "https://en.wikipedia.org/wiki/2015_Cricket_World_Cup",
+    "citationTitle": "Wikipedia: 2015 Cricket World Cup"
+  }
+]

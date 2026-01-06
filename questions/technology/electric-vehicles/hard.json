@@ -1,0 +1,342 @@
+[
+  {
+    "id": "9f46b77e-2019-490b-964f-653d2865b92c",
+    "text": "What is the approximate energy density of current lithium-ion batteries used in electric vehicles compared to gasoline?",
+    "options": [
+      "1/40th the energy density",
+      "1/20th the energy density",
+      "1/10th the energy density",
+      "1/5th the energy density"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Lithium-ion batteries have roughly 1/40th the energy density of gasoline by weight.",
+    "detailedExplanation": "One of the major challenges facing electric vehicle adoption is energy density. Gasoline contains approximately 12,000 Wh/kg of energy, while current lithium-ion batteries used in EVs typically contain around 250-300 Wh/kg, making them roughly 40 times less energy-dense by weight. This disparity explains why EVs require large, heavy battery packs to achieve reasonable range, though improvements in battery chemistry continue to narrow this gap.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Energy_density",
+    "citationTitle": "Wikipedia: Energy density"
+  },
+  {
+    "id": "8f2a0ffa-5792-4407-af92-75fd28e92350",
+    "text": "Which automotive manufacturer produced the first mass-produced electric vehicle to use cylindrical 18650 lithium-ion cells?",
+    "options": [
+      "Nissan",
+      "Tesla",
+      "BMW",
+      "Chevrolet"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Tesla was the first to use cylindrical 18650 cells in mass-produced EVs, starting with the original Roadster.",
+    "detailedExplanation": "Tesla revolutionized EV battery design by using thousands of small cylindrical 18650 lithium-ion cells, originally developed for laptops, in their Roadster launched in 2008. This approach differed significantly from other manufacturers who used larger prismatic or pouch cells. The 18650 format (18mm diameter, 65mm length) allowed Tesla to leverage existing manufacturing scale and costs from the consumer electronics industry, though it required sophisticated thermal management and thousands of cells per vehicle.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Tesla_Roadster_(first_generation)",
+    "citationTitle": "Wikipedia: Tesla Roadster (first generation)"
+  },
+  {
+    "id": "64300870-b0c7-4f29-b974-3c36d976a92f",
+    "text": "What does 'regenerative braking' in electric vehicles primarily recover energy from?",
+    "options": [
+      "Engine heat",
+      "Kinetic energy of motion",
+      "Solar radiation",
+      "Air resistance"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Regenerative braking converts the vehicle's kinetic energy back into electrical energy stored in the battery.",
+    "detailedExplanation": "Regenerative braking is a key efficiency feature in electric vehicles that captures kinetic energy that would otherwise be lost as heat during traditional friction braking. When the driver lifts off the accelerator or applies the brakes, the electric motor reverses its role and acts as a generator, using the vehicle's forward momentum to spin the motor and generate electricity. This recovered energy is fed back into the battery, improving overall efficiency by 10-25% in typical driving conditions.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Regenerative_brake",
+    "citationTitle": "Wikipedia: Regenerative brake"
+  },
+  {
+    "id": "722176a8-c1ac-444a-b1b1-44f163c5b53a",
+    "text": "The CHAdeMO fast charging standard was developed primarily by which country's automotive industry?",
+    "options": [
+      "Germany",
+      "United States",
+      "Japan",
+      "South Korea"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "CHAdeMO was developed by Japanese companies including Nissan, Mitsubishi, and Tokyo Electric Power Company.",
+    "detailedExplanation": "CHAdeMO (an abbreviation of 'CHArge de MOve') is a fast charging standard developed in Japan by the CHAdeMO Association, founded in 2010. The standard was primarily driven by Japanese automakers including Nissan, Mitsubishi, and Subaru, along with Tokyo Electric Power Company. CHAdeMO enables DC fast charging up to 62.5 kW (with newer versions supporting higher power levels) and was one of the first widely deployed fast charging standards, though it has faced competition from CCS (Combined Charging System) in Europe and North America.",
+    "citationUrl": "https://en.wikipedia.org/wiki/CHAdeMO",
+    "citationTitle": "Wikipedia: CHAdeMO"
+  },
+  {
+    "id": "2cdb96db-4c4c-47f3-8f9a-03fb96364e78",
+    "text": "What is the primary chemical composition of the cathode in most current EV lithium-ion batteries?",
+    "options": [
+      "Lithium cobalt oxide (LCO)",
+      "Lithium iron phosphate (LFP)",
+      "Nickel manganese cobalt (NMC)",
+      "Lithium titanate (LTO)"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "NMC (Nickel Manganese Cobalt) cathodes are the most common in current EV batteries due to their balance of energy density, power, and safety.",
+    "detailedExplanation": "Nickel Manganese Cobalt (NMC) cathodes have become the dominant chemistry in most modern EV batteries because they offer an excellent balance of energy density, power output, thermal stability, and cost. The ratio of these three metals can be adjusted (common formulations include NMC 622, NMC 811) to optimize for different characteristics. While LFP batteries are gaining popularity for their safety and longevity, and LCO is used in consumer electronics, NMC remains the preferred choice for most automotive applications requiring high energy density.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Lithium-ion_battery",
+    "citationTitle": "Wikipedia: Lithium-ion battery"
+  },
+  {
+    "id": "ff04ac76-58c7-439d-8ad8-7d4f86c41c64",
+    "text": "Which phenomenon in electric motors is primarily responsible for the characteristic instant torque delivery in EVs?",
+    "options": [
+      "Electromagnetic induction creates immediate magnetic fields",
+      "Variable valve timing optimization",
+      "Turbocharger lag elimination",
+      "Direct fuel injection timing"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Electric motors produce instant torque because electromagnetic fields are created immediately when current flows.",
+    "detailedExplanation": "Electric motors deliver instant torque from zero RPM due to the fundamental physics of electromagnetic induction. When electrical current flows through the motor's windings, it immediately creates magnetic fields that interact with permanent magnets or other electromagnetic fields to produce rotational force. This is fundamentally different from internal combustion engines, which must build up combustion pressure and have optimal RPM ranges for torque delivery. The instant availability of maximum torque gives EVs their characteristic rapid acceleration from a standstill.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Electric_motor",
+    "citationTitle": "Wikipedia: Electric motor"
+  },
+  {
+    "id": "ad6e95b3-4dc3-4662-b8e0-369783aa1352",
+    "text": "What is the approximate voltage range of a typical EV high-voltage battery system?",
+    "options": [
+      "12-48 volts",
+      "100-200 volts",
+      "300-800 volts",
+      "1000-1500 volts"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Most EV battery systems operate between 300-800 volts to balance efficiency, safety, and charging speed.",
+    "detailedExplanation": "Modern EV battery systems typically operate in the 300-800 volt range, with many vehicles using 400V systems and newer models moving toward 800V architectures. Higher voltages reduce current requirements for the same power level, which decreases resistive losses, allows for smaller wiring, and enables faster charging speeds. For example, Porsche's Taycan uses an 800V system that enables 270kW charging speeds. However, voltages must be balanced against safety considerations, component costs, and infrastructure compatibility.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Electric_vehicle_battery",
+    "citationTitle": "Wikipedia: Electric vehicle battery"
+  },
+  {
+    "id": "e5fe3113-879e-45cb-8c11-ac6629a03d8d",
+    "text": "Which rare earth element is crucial for the permanent magnets in most EV motors but faces supply chain concerns?",
+    "options": [
+      "Lithium",
+      "Cobalt",
+      "Neodymium",
+      "Nickel"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Neodymium is essential for the powerful permanent magnets used in most EV motors, but supply is geographically concentrated.",
+    "detailedExplanation": "Neodymium is a rare earth element critical for producing the powerful permanent magnets (typically neodymium-iron-boron or NdFeB magnets) used in most electric vehicle motors. These magnets enable high power density and efficiency in compact motor designs. However, neodymium mining and processing is heavily concentrated in China (over 80% of global production), creating supply chain vulnerability concerns for the automotive industry. This has led some manufacturers to develop motors using ferrite magnets or reluctance motors that reduce or eliminate rare earth dependencies.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Neodymium",
+    "citationTitle": "Wikipedia: Neodymium"
+  },
+  {
+    "id": "200c7f22-b643-4f0a-ac5b-34a2481752f9",
+    "text": "What is the name of the thermal management issue that can cause rapid degradation of EV battery performance during fast charging?",
+    "options": [
+      "Thermal runaway",
+      "Heat pumping",
+      "Dendrite formation",
+      "Electrolyte volatilization"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Thermal runaway is the dangerous cascade of heat generation that can occur during fast charging, potentially causing battery degradation or fire.",
+    "detailedExplanation": "Thermal runaway occurs when a lithium-ion battery cell generates heat faster than it can dissipate it, leading to a self-sustaining reaction that can cause the battery to overheat, catch fire, or even explode. This phenomenon is particularly concerning during fast charging when high currents generate significant heat. Modern EVs incorporate sophisticated thermal management systems and safety protocols to prevent thermal runaway, including temperature monitoring, cooling systems, and charging rate limitations.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Thermal_runaway",
+    "citationTitle": "Wikipedia: Thermal runaway"
+  },
+  {
+    "id": "5236e29e-684e-47ee-9682-a4f546872fde",
+    "text": "Which EV manufacturer pioneered the use of structural battery packs that serve as part of the vehicle's chassis?",
+    "options": [
+      "Rivian",
+      "Tesla",
+      "BYD",
+      "Lucid Motors"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Tesla introduced structural battery packs with their 4680 cell technology, where the battery pack becomes an integral structural component of the vehicle.",
+    "detailedExplanation": "Tesla's structural battery pack design, first implemented in the Model Y built at their Berlin and Austin facilities, integrates the battery cells directly into the vehicle's structure. This approach eliminates traditional battery modules and instead uses the battery pack itself as a structural element of the chassis. The design reduces weight, increases structural rigidity, and improves manufacturing efficiency. The structural pack uses Tesla's 4680 cylindrical cells and a polyurethane foam that bonds the cells together while providing structural integrity.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Tesla_Model_Y",
+    "citationTitle": "Wikipedia: Tesla Model Y"
+  },
+  {
+    "id": "d7e4745a-19a8-4db6-8af1-e7bf00e4cce5",
+    "text": "What is the typical efficiency percentage of an electric motor in an EV compared to an internal combustion engine?",
+    "options": [
+      "95-97% vs 25-35%",
+      "85-88% vs 40-45%",
+      "75-80% vs 30-35%",
+      "90-92% vs 35-40%"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Electric motors achieve 95-97% efficiency while internal combustion engines typically achieve only 25-35% efficiency.",
+    "detailedExplanation": "Electric motors are dramatically more efficient than internal combustion engines. While ICE engines lose significant energy through heat, exhaust, and mechanical friction, electric motors convert nearly all electrical energy into mechanical motion. The 95-97% efficiency of electric motors means that almost all the electrical energy from the battery is converted to wheel motion, whereas ICE engines waste approximately 65-75% of the fuel's energy as heat and other losses. This efficiency difference is one of the primary advantages of electric vehicles in terms of energy consumption and operating costs.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Electric_motor",
+    "citationTitle": "Wikipedia: Electric motor"
+  },
+  {
+    "id": "0b7754de-a138-49c1-b37a-a820b56cc66d",
+    "text": "Which battery chemistry technology promises to eliminate the need for lithium while potentially offering higher energy density than current EV batteries?",
+    "options": [
+      "Sodium-sulfur",
+      "Aluminum-air",
+      "Solid-state sodium",
+      "Iron-air"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Solid-state sodium batteries are being developed as lithium-free alternatives with potentially higher energy density than current lithium-ion batteries.",
+    "detailedExplanation": "Solid-state sodium batteries represent a promising next-generation technology that could replace lithium-ion batteries in EVs. These batteries use sodium instead of lithium as the charge carrier and employ solid electrolytes instead of liquid ones. Sodium is abundant and inexpensive compared to lithium, addressing supply chain and cost concerns. The solid-state design can potentially offer higher energy density, improved safety (no thermal runaway risk), and longer lifespan. Companies like QuantumScape and Toyota are actively developing solid-state technologies, though commercial deployment in EVs is still several years away.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Solid-state_battery",
+    "citationTitle": "Wikipedia: Solid-state battery"
+  },
+  {
+    "id": "a8f867e2-f562-4034-a438-efa0bfa9432b",
+    "text": "What is the maximum theoretical charging speed that the newest Megawatt Charging System (MCS) standard is designed to support?",
+    "options": [
+      "1.5 MW",
+      "2.5 MW",
+      "3.75 MW",
+      "5 MW"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "The Megawatt Charging System (MCS) standard is designed to support up to 3.75 MW of charging power for heavy-duty electric vehicles.",
+    "detailedExplanation": "The Megawatt Charging System (MCS) is a new charging standard specifically developed for heavy-duty electric vehicles like trucks and buses that require much faster charging than passenger cars. The standard supports up to 3.75 MW of power delivery, operating at voltages up to 1,500V and currents up to 3,000A. This represents a massive increase over current passenger EV charging standards like CCS, which typically max out around 350-500 kW. MCS charging could potentially add hundreds of miles of range to large electric trucks in under 30 minutes, making long-haul electric trucking commercially viable.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Charging_station",
+    "citationTitle": "Wikipedia: Charging station"
+  },
+  {
+    "id": "541d45da-2e11-4e80-8066-e3a98b6f716d",
+    "text": "Which pioneering electric vehicle from the 1990s was famously recalled and crushed by its manufacturer, inspiring a documentary?",
+    "options": [
+      "Ford Ranger EV",
+      "Chevrolet S-10 EV",
+      "GM EV1",
+      "Toyota RAV4 EV"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "The GM EV1 was recalled and destroyed by General Motors, which inspired the documentary 'Who Killed the Electric Car?'",
+    "detailedExplanation": "The GM EV1, produced from 1996 to 1999, was one of the first modern electric vehicles designed from the ground up as an EV. General Motors only leased the vehicles and never sold them to consumers. When the lease program ended, GM recalled nearly all EV1s and had them crushed, despite protests from lessees who wanted to purchase their vehicles. This controversial decision was documented in the 2006 film 'Who Killed the Electric Car?' The EV1 featured advanced aerodynamics, lightweight construction, and could travel up to 160 miles on a single charge with its second-generation battery pack.",
+    "citationUrl": "https://en.wikipedia.org/wiki/General_Motors_EV1",
+    "citationTitle": "Wikipedia: General Motors EV1"
+  },
+  {
+    "id": "670abb13-46b8-40d5-a616-399b06c916fe",
+    "text": "What wireless charging technology standard is being developed specifically for electric vehicles?",
+    "options": [
+      "SAE J2954",
+      "ISO 15118",
+      "IEC 61851",
+      "IEEE 802.11p"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "SAE J2954 is the wireless power transfer standard specifically developed for electric vehicle charging applications.",
+    "detailedExplanation": "SAE J2954 is the Society of Automotive Engineers standard that defines wireless power transfer (WPT) for electric vehicles. The standard covers inductive charging systems that transfer energy from a ground-based charging pad to a receiver pad mounted on the vehicle's underside, eliminating the need for physical charging cables. The current standard supports power levels up to 11 kW for passenger vehicles, with higher power levels being developed. This technology uses electromagnetic fields to transfer energy across an air gap, typically 4-10 inches, making EV charging more convenient and potentially enabling dynamic charging while driving.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Inductive_charging",
+    "citationTitle": "Wikipedia: Inductive charging"
+  },
+  {
+    "id": "06b37920-2220-484b-a9e0-1e1d5d3e144e",
+    "text": "Which electric vehicle holds the current production car record for the longest single-charge driving range?",
+    "options": [
+      "Mercedes EQS 450+",
+      "Lucid Air Dream Edition",
+      "BMW iX xDrive50",
+      "Tesla Model S"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "The Lucid Air Dream Edition holds the production EV range record with over 500 miles of EPA-rated range.",
+    "detailedExplanation": "The Lucid Air Dream Edition Range, with its 118 kWh battery pack, achieved an EPA-estimated range of 516 miles on a single charge, setting the current record for production electric vehicles. This achievement was made possible through Lucid's advanced battery technology, highly efficient electric motors, and exceptional aerodynamics with a drag coefficient of just 0.21. The vehicle uses a 900V electrical architecture and proprietary battery management systems. Lucid's background in Formula E racing and advanced engineering contributed to these efficiency gains that surpass other luxury EVs in the market.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Lucid_Air",
+    "citationTitle": "Wikipedia: Lucid Air"
+  },
+  {
+    "id": "3bc4453b-b2e1-4dd1-9333-ad0c32cdcac9",
+    "text": "Which electric vehicle company was founded by Henrik Fisker and produced the Karma luxury plug-in hybrid sedan before filing for bankruptcy in 2013?",
+    "options": [
+      "Fisker Automotive",
+      "Lucid Motors",
+      "Rivian",
+      "Canoo"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Fisker Automotive was founded by Henrik Fisker and produced the Karma before going bankrupt in 2013.",
+    "detailedExplanation": "Fisker Automotive was founded in 2007 by Henrik Fisker, a renowned automotive designer who had previously worked on vehicles like the BMW Z8 and Aston Martin DB9. The company's flagship vehicle, the Fisker Karma, was a luxury plug-in hybrid sedan that featured a striking design and advanced technology for its time. However, the company faced numerous production delays, quality issues, and financial difficulties, ultimately filing for bankruptcy in 2013. The assets were later acquired by Wanxiang Group, which continued production under the name Karma Automotive.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Fisker_Automotive",
+    "citationTitle": "Wikipedia: Fisker Automotive"
+  },
+  {
+    "id": "f6121e13-be10-47ce-bac1-c1fb1a278ebf",
+    "text": "What is the name of the battery cell format that Tesla transitioned to with the Model Y and newer vehicles, measuring 46mm in diameter and 80mm in height?",
+    "options": [
+      "4680",
+      "2170",
+      "18650",
+      "21700"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "The 4680 cell format refers to its dimensions: 46mm diameter and 80mm height.",
+    "detailedExplanation": "Tesla's 4680 battery cells represent a significant advancement in battery technology, named after their dimensions of 46mm diameter and 80mm height. These larger cylindrical cells were first introduced in the Model Y produced at Tesla's Berlin and Texas factories. The 4680 cells offer several advantages over previous generations, including improved energy density, reduced manufacturing costs, and better thermal management. The larger format allows for fewer cells per battery pack while maintaining or improving overall capacity, and the tabless design reduces internal resistance and heat generation.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Tesla,_Inc.",
+    "citationTitle": "Wikipedia: Tesla, Inc."
+  },
+  {
+    "id": "27dfd9f7-8e7b-4977-85fb-00ac252110ff",
+    "text": "Which automaker's electric vehicle was the first to feature a heat pump system as standard equipment to improve cold weather efficiency?",
+    "options": [
+      "Nissan (Leaf)",
+      "BMW (i3)",
+      "Tesla (Model S)",
+      "Chevrolet (Bolt)"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "The Nissan Leaf was the first mainstream EV to include a heat pump system as standard equipment.",
+    "detailedExplanation": "The Nissan Leaf pioneered the use of heat pump technology in electric vehicles to address one of the major challenges of EV ownership: reduced range in cold weather. Traditional electric vehicle heating systems use resistive heating, which can consume up to 40% of the battery's energy in cold conditions. Heat pumps are much more efficient, using ambient heat from outside air and waste heat from the vehicle's systems to warm the cabin. This technology can improve cold weather range by 20-30% compared to resistive heating systems, making it a crucial innovation for EV adoption in colder climates.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Nissan_Leaf",
+    "citationTitle": "Wikipedia: Nissan Leaf"
+  },
+  {
+    "id": "aca325b2-93c8-471d-8f64-58e726d308d1",
+    "text": "What is the name of the phenomenon where EV batteries can experience sudden power loss due to lithium metal plating on the anode during cold weather charging?",
+    "options": [
+      "Lithium plating",
+      "Thermal runaway",
+      "Dendrite formation",
+      "Cell balancing"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Lithium plating occurs when lithium ions form metallic deposits on the anode instead of intercalating properly.",
+    "detailedExplanation": "Lithium plating is a critical degradation mechanism in lithium-ion batteries that becomes particularly problematic during cold weather charging of electric vehicles. When batteries are charged at low temperatures or high current rates, lithium ions may not properly intercalate into the graphite anode structure. Instead, they form metallic lithium deposits (plating) on the anode surface. This phenomenon reduces battery capacity, increases internal resistance, and can lead to sudden power loss. It also poses safety risks as the metallic lithium can form dendrites that may puncture the separator and cause internal short circuits. This is why many EVs limit charging speeds or prevent charging entirely when battery temperatures are too low.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Lithium-ion_battery",
+    "citationTitle": "Wikipedia: Lithium-ion battery"
+  }
+]

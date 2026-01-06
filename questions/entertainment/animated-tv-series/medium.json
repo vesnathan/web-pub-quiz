@@ -1,0 +1,342 @@
+[
+  {
+    "id": "6320ace5-d77a-4f58-ac1e-93b05d5b5b8e",
+    "text": "Which animated TV series holds the record as the longest-running American animated series?",
+    "options": [
+      "The Flintstones",
+      "The Simpsons",
+      "Scooby-Doo",
+      "Tom and Jerry"
+    ],
+    "correctIndex": 1,
+    "category": "entertainment",
+    "difficulty": "medium",
+    "explanation": "The Simpsons has been running since 1989 and is the longest-running American animated series.",
+    "detailedExplanation": "The Simpsons premiered on December 17, 1989, and has been continuously running for over 34 years, making it the longest-running American animated series, American sitcom, and primetime scripted series. The show has produced over 750 episodes across more than 35 seasons, far surpassing other animated series in longevity.",
+    "citationUrl": "https://en.wikipedia.org/wiki/The_Simpsons",
+    "citationTitle": "Wikipedia: The Simpsons"
+  },
+  {
+    "id": "ad26fca8-62eb-49f9-ba18-346b7f2283a1",
+    "text": "In 'Avatar: The Last Airbender', what is the name of Aang's flying bison?",
+    "options": [
+      "Momo",
+      "Appa",
+      "Toph",
+      "Suki"
+    ],
+    "correctIndex": 1,
+    "category": "entertainment",
+    "difficulty": "medium",
+    "explanation": "Appa is Aang's loyal flying bison companion throughout the series.",
+    "detailedExplanation": "Appa is a ten-ton flying bison and Aang's animal guide, serving as the primary means of transportation for Team Avatar throughout their journey. Flying bison are considered sacred creatures in the Air Nomad culture, and Appa is believed to be the last of his kind, making him as rare as Aang himself as the last airbender.",
+    "citationUrl": "https://en.wikipedia.org/wiki/List_of_Avatar:_The_Last_Airbender_characters",
+    "citationTitle": "Wikipedia: List of Avatar: The Last Airbender characters"
+  },
+  {
+    "id": "7f4e2007-bdfe-4268-b452-a4a37eb7a8f3",
+    "text": "Which voice actor is famous for voicing both Bender in 'Futurama' and Jake the Dog in 'Adventure Time'?",
+    "options": [
+      "Billy West",
+      "John DiMaggio",
+      "Maurice LaMarche",
+      "Tom Kenny"
+    ],
+    "correctIndex": 1,
+    "category": "entertainment",
+    "difficulty": "medium",
+    "explanation": "John DiMaggio voices both the robot Bender and Jake the Dog in these popular animated series.",
+    "detailedExplanation": "John DiMaggio is a prolific voice actor who brought life to two iconic animated characters: the sarcastic, beer-loving robot Bender Bending Rodriguez in Futurama and Jake the Dog, Finn's best friend and adoptive brother in Adventure Time. His distinctive deep voice and comedic timing made both characters fan favorites in their respective series.",
+    "citationUrl": "https://en.wikipedia.org/wiki/John_DiMaggio",
+    "citationTitle": "Wikipedia: John DiMaggio"
+  },
+  {
+    "id": "8bcb4118-bef2-4074-881d-b216f027af4a",
+    "text": "What year did the original 'Scooby-Doo, Where Are You!' first air?",
+    "options": [
+      "1967",
+      "1969",
+      "1971",
+      "1973"
+    ],
+    "correctIndex": 1,
+    "category": "entertainment",
+    "difficulty": "medium",
+    "explanation": "The original Scooby-Doo series premiered in 1969 on CBS.",
+    "detailedExplanation": "Scooby-Doo, Where Are You! first aired on September 13, 1969, on CBS. Created by Joe Ruby and Ken Spears for Hanna-Barbera Productions, the show introduced the mystery-solving gang of Fred, Velma, Daphne, Shaggy, and Scooby-Doo. The series became a cultural phenomenon and spawned numerous spin-offs, reboots, and movies over the following decades.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Scooby-Doo,_Where_Are_You!",
+    "citationTitle": "Wikipedia: Scooby-Doo, Where Are You!"
+  },
+  {
+    "id": "94077537-ad3a-4f27-bcff-1062c5f66c0e",
+    "text": "In 'Rick and Morty', what is the name of the alternate dimension where everyone has cronenberged bodies?",
+    "options": [
+      "Dimension J19-Zeta-7",
+      "Dimension C-137",
+      "The Cronenberg Dimension",
+      "Dimension 35-C"
+    ],
+    "correctIndex": 2,
+    "category": "entertainment",
+    "difficulty": "medium",
+    "explanation": "The dimension where Rick's love potion experiment went wrong is called the Cronenberg Dimension.",
+    "detailedExplanation": "The Cronenberg Dimension is the original dimension of Rick C-137 and Morty, where Rick's love potion caused everyone except the Smith family to mutate into grotesque creatures resembling the body horror films of director David Cronenberg. This forced Rick and Morty to abandon their dimension and relocate to another dimension where their alternate selves had died.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Rick_and_Morty",
+    "citationTitle": "Wikipedia: Rick and Morty"
+  },
+  {
+    "id": "06fd3aaf-bc1a-4af3-b641-bb786ab51600",
+    "text": "Which animated series featured the superhero team consisting of Robin, Starfire, Raven, Beast Boy, and Cyborg?",
+    "options": [
+      "Justice League Unlimited",
+      "Teen Titans",
+      "Young Justice",
+      "Batman: The Animated Series"
+    ],
+    "correctIndex": 1,
+    "category": "entertainment",
+    "difficulty": "medium",
+    "explanation": "Teen Titans featured this team of young superheroes living together in Titans Tower.",
+    "detailedExplanation": "Teen Titans aired from 2003 to 2006 and followed the adventures of five teenage superheroes: Robin (Dick Grayson), the alien princess Starfire, the half-demon Raven, the shape-shifting Beast Boy, and the cybernetic Cyborg. The series was known for its blend of serious superhero action with comedic moments and anime-influenced art style.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Teen_Titans_(TV_series)",
+    "citationTitle": "Wikipedia: Teen Titans (TV series)"
+  },
+  {
+    "id": "511cb3ec-694f-4967-a9c8-d45d7ed65b84",
+    "text": "What is the name of SpongeBob SquarePants' pet snail?",
+    "options": [
+      "Gary",
+      "Larry",
+      "Barry",
+      "Jerry"
+    ],
+    "correctIndex": 0,
+    "category": "entertainment",
+    "difficulty": "medium",
+    "explanation": "Gary is SpongeBob's pet sea snail who meows like a cat.",
+    "detailedExplanation": "Gary the Snail is SpongeBob's beloved pet who has been with him since the very first episode of the series in 1999. Despite being a snail, Gary meows like a cat and is often portrayed as more intelligent than his owner SpongeBob. Gary lives in a wooden boat house and is known for his sarcastic personality, though he can only communicate through meowing.",
+    "citationUrl": "https://en.wikipedia.org/wiki/List_of_SpongeBob_SquarePants_characters",
+    "citationTitle": "Wikipedia: List of SpongeBob SquarePants characters"
+  },
+  {
+    "id": "7079c318-973f-4daf-a778-e844e5a45378",
+    "text": "In 'BoJack Horseman', what type of animal is Princess Carolyn?",
+    "options": [
+      "Dog",
+      "Cat",
+      "Horse",
+      "Bird"
+    ],
+    "correctIndex": 1,
+    "category": "entertainment",
+    "difficulty": "medium",
+    "explanation": "Princess Carolyn is a pink Persian cat who works as BoJack's agent and later starts her own management company.",
+    "detailedExplanation": "Princess Carolyn is an anthropomorphic pink Persian cat who serves as one of the main characters in BoJack Horseman. She works as a talent agent and manager in Hollywood, initially representing BoJack before eventually starting her own management company, VIM. Her character is known for her workaholic tendencies, ambition, and complex relationship with BoJack throughout the series.",
+    "citationUrl": "https://en.wikipedia.org/wiki/List_of_BoJack_Horseman_characters",
+    "citationTitle": "Wikipedia: List of BoJack Horseman characters"
+  },
+  {
+    "id": "80882287-8173-43a2-b0e8-21eca084ecd3",
+    "text": "Which animated series features characters named Marge, Bart, Lisa, and Maggie?",
+    "options": [
+      "Family Guy",
+      "The Simpsons",
+      "King of the Hill",
+      "American Dad"
+    ],
+    "correctIndex": 1,
+    "category": "entertainment",
+    "difficulty": "medium",
+    "explanation": "The Simpsons features the Simpson family with mother Marge and children Bart, Lisa, and baby Maggie.",
+    "detailedExplanation": "The Simpsons, created by Matt Groening, premiered in 1989 and features the Simpson family living in Springfield. The family consists of Homer (father), Marge (mother), and their three children: Bart, Lisa, and baby Maggie. The show became a cultural phenomenon and helped establish Fox as a major television network.",
+    "citationUrl": "https://en.wikipedia.org/wiki/The_Simpsons",
+    "citationTitle": "Wikipedia: The Simpsons"
+  },
+  {
+    "id": "ca2e12fd-05f3-4f38-80ef-3a7810f58712",
+    "text": "In 'South Park', what is the name of the fourth-grade teacher who is often seen with the main characters?",
+    "options": [
+      "Mr. Garrison",
+      "Mr. Mackey",
+      "Chef",
+      "Principal Victoria"
+    ],
+    "correctIndex": 0,
+    "category": "entertainment",
+    "difficulty": "medium",
+    "explanation": "Mr. Garrison is the boys' fourth-grade teacher in South Park, known for his eccentric personality and controversial teaching methods.",
+    "detailedExplanation": "Herbert Garrison, commonly known as Mr. Garrison, serves as the primary teacher for Stan, Kyle, Cartman, and Kenny throughout most of South Park's run. The character has undergone significant changes throughout the series, including gender transitions and various personality shifts, making him one of the show's most dynamic adult characters.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Mr._Garrison",
+    "citationTitle": "Wikipedia: Mr. Garrison"
+  },
+  {
+    "id": "8d4fd25e-b62b-4476-acb5-3a66e85b1d38",
+    "text": "Which animation studio created the series 'Gravity Falls'?",
+    "options": [
+      "Nickelodeon Animation Studio",
+      "Disney Television Animation",
+      "Cartoon Network Studios",
+      "DreamWorks Animation"
+    ],
+    "correctIndex": 1,
+    "category": "entertainment",
+    "difficulty": "medium",
+    "explanation": "Gravity Falls was created by Alex Hirsch and produced by Disney Television Animation for Disney Channel and Disney XD.",
+    "detailedExplanation": "Gravity Falls, which aired from 2012 to 2016, was created by Alex Hirsch and produced by Disney Television Animation. The show follows twins Dipper and Mabel Pines as they spend their summer with their great-uncle in the mysterious town of Gravity Falls, Oregon. The series was praised for its writing, voice acting, and intricate mystery elements.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Gravity_Falls",
+    "citationTitle": "Wikipedia: Gravity Falls"
+  },
+  {
+    "id": "583377be-8794-4e80-9f6c-4a0514c1516f",
+    "text": "In 'Bob's Burgers', what is the name of the Belcher family's restaurant?",
+    "options": [
+      "Bob's Burgers",
+      "Belcher's Bistro",
+      "Big Bob's Burgers",
+      "Bob's Better Burgers"
+    ],
+    "correctIndex": 0,
+    "category": "entertainment",
+    "difficulty": "medium",
+    "explanation": "The restaurant is simply called 'Bob's Burgers', matching the show's title and owned by Bob Belcher.",
+    "detailedExplanation": "Bob's Burgers follows the Belcher family who run a hamburger restaurant called Bob's Burgers. Bob Belcher is passionate about creating unique burger recipes with creative names, while his wife Linda and their three children Tina, Gene, and Louise help run the struggling family business. The show premiered in 2011 and has become known for its heartwarming family dynamics.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Bob%27s_Burgers",
+    "citationTitle": "Wikipedia: Bob's Burgers"
+  },
+  {
+    "id": "64dd553b-96a6-4172-a7b9-a2a39d6d653a",
+    "text": "Which animated series features a character named Sterling Archer working for a spy agency?",
+    "options": [
+      "Archer",
+      "The Venture Bros.",
+      "Frisky Dingo",
+      "Sealab 2021"
+    ],
+    "correctIndex": 0,
+    "category": "entertainment",
+    "difficulty": "medium",
+    "explanation": "Archer is the animated spy comedy series featuring Sterling Archer, voiced by H. Jon Benjamin, working for the International Secret Intelligence Service.",
+    "detailedExplanation": "Archer, created by Adam Reed, premiered in 2009 and follows Sterling Archer, a self-centered and incompetent secret agent working for ISIS (later renamed due to real-world events). The show is known for its distinctive animation style, rapid-fire dialogue, pop culture references, and dysfunctional workplace comedy set in the world of international espionage.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Archer_(2009_TV_series)",
+    "citationTitle": "Wikipedia: Archer (2009 TV series)"
+  },
+  {
+    "id": "6782c7be-b214-4c8b-a6ad-d714ed154297",
+    "text": "In 'Steven Universe', what is the name of Steven's magical weapon?",
+    "options": [
+      "Pearl Spear",
+      "Rose Shield",
+      "Crystal Sword",
+      "Gem Gauntlets"
+    ],
+    "correctIndex": 1,
+    "category": "entertainment",
+    "difficulty": "medium",
+    "explanation": "Steven's weapon is a pink shield, inherited from his mother Rose Quartz, which he can summon from his gem.",
+    "detailedExplanation": "In Steven Universe, Steven Quartz Universe inherits his mother Rose Quartz's gem and powers, including the ability to summon a large pink shield. This shield serves as both a defensive weapon and a symbol of his connection to his mother and the Crystal Gems. The series, created by Rebecca Sugar, was groundbreaking for its representation and themes of love, identity, and acceptance.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Steven_Universe",
+    "citationTitle": "Wikipedia: Steven Universe"
+  },
+  {
+    "id": "376a4ee9-e98c-4804-974f-14149a30621f",
+    "text": "Which adult animated series is set in the fictional underwater city of Sealab?",
+    "options": [
+      "Sealab 2021",
+      "Aqua Teen Hunger Force",
+      "The Brak Show",
+      "Space Ghost Coast to Coast"
+    ],
+    "correctIndex": 0,
+    "category": "entertainment",
+    "difficulty": "medium",
+    "explanation": "Sealab 2021 is set in an underwater research facility called Sealab, where the crew engages in absurd adventures rather than actual research.",
+    "detailedExplanation": "Sealab 2021 was an Adult Swim animated series that ran from 2000 to 2005. The show was created using repurposed animation from the 1970s Hanna-Barbera series Sealab 2020, but with completely new dialogue and storylines that were surreal and comedic rather than the original's serious science fiction themes. The series was known for its absurdist humor and became a cornerstone of Adult Swim's early programming.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Sealab_2021",
+    "citationTitle": "Wikipedia: Sealab 2021"
+  },
+  {
+    "id": "5d96ef28-aa05-4a92-b708-d63a9c598c16",
+    "text": "In 'Avatar: The Legend of Korra', what is the name of Korra's polar bear dog companion?",
+    "options": [
+      "Pabu",
+      "Naga",
+      "Appa",
+      "Momo"
+    ],
+    "correctIndex": 1,
+    "category": "entertainment",
+    "difficulty": "medium",
+    "explanation": "Naga is Korra's loyal polar bear dog companion who serves as her primary means of transportation and faithful friend.",
+    "detailedExplanation": "In The Legend of Korra, the sequel series to Avatar: The Last Airbender, Avatar Korra's animal companion is Naga, a polar bear dog. Naga is fiercely loyal to Korra and often serves as her mount during adventures in Republic City and beyond. The character represents the bond between the Avatar and the spirit world, similar to how Appa served Aang in the original series.",
+    "citationUrl": "https://en.wikipedia.org/wiki/The_Legend_of_Korra",
+    "citationTitle": "Wikipedia: The Legend of Korra"
+  },
+  {
+    "id": "17fbbe60-2bf0-43ed-a1d8-d7697344a496",
+    "text": "In the animated series 'Family Guy', what is the name of the Griffins' next-door neighbor who is known for his rivalry with Peter Griffin?",
+    "options": [
+      "Jerome",
+      "Cleveland Brown",
+      "Glenn Quagmire",
+      "Joe Swanson"
+    ],
+    "correctIndex": 2,
+    "category": "entertainment",
+    "difficulty": "medium",
+    "explanation": "Glenn Quagmire is the Griffins' pilot neighbor known for his catchphrase 'Giggity' and ongoing feuds with Peter.",
+    "detailedExplanation": "Glenn Quagmire, voiced by Seth MacFarlane, is one of the main recurring characters in Family Guy. He lives next door to the Griffin family and works as an airline pilot. Quagmire is known for his distinctive laugh ('Giggity giggity'), his womanizing behavior, and his frequent conflicts with Peter Griffin. While Cleveland Brown and Joe Swanson are also neighbors, Quagmire is specifically noted for his rivalry dynamic with Peter throughout the series.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Glenn_Quagmire",
+    "citationTitle": "Wikipedia: Glenn Quagmire"
+  },
+  {
+    "id": "cdcf3b01-4862-4db5-869b-11f19476b190",
+    "text": "Which animated series created by Matt Groening features a young girl named Bean as the main protagonist in a medieval fantasy setting?",
+    "options": [
+      "The Simpsons",
+      "Futurama",
+      "Disenchantment",
+      "King of the Hill"
+    ],
+    "correctIndex": 2,
+    "category": "entertainment",
+    "difficulty": "medium",
+    "explanation": "Disenchantment is Matt Groening's Netflix series featuring Princess Tiabeanie 'Bean' in the medieval kingdom of Dreamland.",
+    "detailedExplanation": "Disenchantment premiered on Netflix in 2018 and is Matt Groening's third major animated series after The Simpsons and Futurama. The show follows Princess Tiabeanie, nicknamed 'Bean', voiced by Abbi Jacobson, as she navigates life in the crumbling medieval kingdom of Dreamland alongside her demon companion Luci and elf friend Elfo. The series represents a departure from Groening's previous work by being set in a fantasy medieval world rather than contemporary or futuristic settings.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Disenchantment_(TV_series)",
+    "citationTitle": "Wikipedia: Disenchantment (TV series)"
+  },
+  {
+    "id": "140e74f7-6417-4272-a395-4adcb69d1f28",
+    "text": "In the animated series 'Archer', what is the name of the intelligence agency that the characters work for in the first four seasons?",
+    "options": [
+      "ISIS",
+      "The Agency",
+      "Figgis Agency",
+      "IIA"
+    ],
+    "correctIndex": 0,
+    "category": "entertainment",
+    "difficulty": "medium",
+    "explanation": "ISIS (International Secret Intelligence Service) was the fictional spy agency in Archer's early seasons before being changed due to real-world events.",
+    "detailedExplanation": "In the first four seasons of Archer, the characters worked for ISIS (International Secret Intelligence Service), a fictional intelligence agency run by Malory Archer. However, due to the emergence of the real-world terrorist organization with the same acronym, the show's creators decided to retire the agency name. In season 5, the agency was disbanded, and subsequent seasons saw the characters working in different contexts including a drug cartel, private detective agency, and eventually a new organization simply called 'The Agency'.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Archer_(2009_TV_series)",
+    "citationTitle": "Wikipedia: Archer (2009 TV series)"
+  },
+  {
+    "id": "4c0ae301-b7f0-4668-85b3-2dd30bbc8763",
+    "text": "Which animated series features a yellow electric mouse as its main character and is based on a popular video game franchise?",
+    "options": [
+      "Digimon",
+      "Yu-Gi-Oh!",
+      "Pokémon",
+      "Monster Rancher"
+    ],
+    "correctIndex": 2,
+    "category": "entertainment",
+    "difficulty": "medium",
+    "explanation": "Pokémon features Pikachu, the iconic yellow electric mouse Pokémon, as the main character alongside trainer Ash Ketchum.",
+    "detailedExplanation": "The Pokémon animated series, which began airing in 1997, is based on the popular video game franchise of the same name. The show follows Ash Ketchum and his partner Pikachu, a yellow Electric-type Pokémon known for its lightning bolt-shaped tail and red cheek pouches that store electricity. Pikachu has become the franchise's mascot and one of the most recognizable animated characters worldwide. The series has run for over 25 years with multiple seasons and story arcs, making it one of the longest-running animated series based on a video game.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Pok%C3%A9mon_(TV_series)",
+    "citationTitle": "Wikipedia: Pokémon (TV series)"
+  }
+]

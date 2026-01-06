@@ -1,0 +1,342 @@
+[
+  {
+    "id": "1ba0dc39-e80c-4fff-b427-e7701eb304fa",
+    "text": "Which Italian dish's name literally translates to 'pick me up' in English?",
+    "options": [
+      "Tiramisu",
+      "Carbonara",
+      "Minestrone",
+      "Bruschetta"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Tiramisu means 'pick me up' or 'cheer me up' in Italian, referring to its energizing coffee content.",
+    "detailedExplanation": "Tiramisu is a classic Italian dessert made with coffee-soaked ladyfingers, mascarpone cheese, eggs, sugar, and cocoa powder. The name 'tiramisù' literally translates to 'pick me up' or 'cheer me up' in Italian, which is a reference to the dessert's coffee content that provides a caffeinated boost. This beloved dessert originated in the Veneto region of Italy in the 1960s.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Tiramisu",
+    "citationTitle": "Wikipedia: Tiramisu"
+  },
+  {
+    "id": "5a1aced6-6e8a-4112-9c36-c6655fdc441a",
+    "text": "What is the main ingredient in the Japanese soup called miso?",
+    "options": [
+      "Fermented soybeans",
+      "Seaweed",
+      "Rice vinegar",
+      "Fish stock"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Miso soup is made with miso paste, which is primarily made from fermented soybeans.",
+    "detailedExplanation": "Miso soup is a traditional Japanese soup consisting of a stock called 'dashi' into which softened miso paste is mixed. Miso is made by fermenting soybeans with salt and koji (a fungus), and sometimes rice or barley. The fermentation process can take months to years, creating a rich, umami-flavored paste that forms the foundation of this staple Japanese dish, often served with tofu, seaweed, and green onions.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Miso_soup",
+    "citationTitle": "Wikipedia: Miso soup"
+  },
+  {
+    "id": "929ec24f-6a55-4a6b-834e-85a1a17fed1f",
+    "text": "Which spice gives Indian curry its characteristic yellow color?",
+    "options": [
+      "Saffron",
+      "Turmeric",
+      "Paprika",
+      "Cumin"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Turmeric is the spice that gives many Indian curries their distinctive golden-yellow color.",
+    "detailedExplanation": "Turmeric is a flowering plant in the ginger family, and its root is dried and ground into a bright yellow powder that's widely used in Indian cooking. Beyond its vibrant color, turmeric adds an earthy, slightly bitter flavor to dishes and has been prized for its medicinal properties for thousands of years. While saffron can also provide yellow coloring, it's much more expensive and used less commonly than turmeric in everyday Indian cooking.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Turmeric",
+    "citationTitle": "Wikipedia: Turmeric"
+  },
+  {
+    "id": "ae8b854f-81a4-4849-8753-0a0c6f0ed90c",
+    "text": "What type of pastry is used to make Greek baklava?",
+    "options": [
+      "Puff pastry",
+      "Phyllo pastry",
+      "Choux pastry",
+      "Shortcrust pastry"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Baklava is made with phyllo (or filo) pastry, which creates thin, crispy layers.",
+    "detailedExplanation": "Baklava is a rich, sweet pastry made of layers of phyllo (also spelled filo) dough filled with chopped nuts and sweetened with syrup or honey. Phyllo pastry is paper-thin sheets of unleavened dough that become incredibly crispy when baked. The dessert is popular throughout the former Ottoman Empire and is considered a signature dish of Greek, Turkish, and Middle Eastern cuisine. The multiple layers of phyllo create the characteristic flaky texture that makes baklava so distinctive.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Baklava",
+    "citationTitle": "Wikipedia: Baklava"
+  },
+  {
+    "id": "3d7c0f1a-5611-406b-bcbb-574ee0b5efd0",
+    "text": "Which country is famous for the dish ceviche?",
+    "options": [
+      "Mexico",
+      "Peru",
+      "Brazil",
+      "Argentina"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Peru is most famous for ceviche, though variations exist throughout Latin America.",
+    "detailedExplanation": "Ceviche is a seafood dish typically made from fresh raw fish cured in citrus juices, most commonly lime or lemon, and spiced with chili peppers. While variations of ceviche can be found throughout Latin America, Peru is widely considered the birthplace and most famous proponent of this dish. Peruvian ceviche is often served with sweet potato, corn, and onions, and the acidic citrus juice chemically 'cooks' the fish proteins, giving it a firm texture without heat.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Ceviche",
+    "citationTitle": "Wikipedia: Ceviche"
+  },
+  {
+    "id": "1523ae7c-b7c1-47f7-888e-6032c5df14d0",
+    "text": "What is the main grain used in traditional Spanish paella?",
+    "options": [
+      "Quinoa",
+      "Barley",
+      "Rice",
+      "Wheat"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Paella is made with rice, specifically a short-grain variety that absorbs the flavorful broth.",
+    "detailedExplanation": "Paella is a traditional Spanish rice dish that originated in Valencia. The dish is cooked in a wide, shallow pan (also called a paella) and typically uses a specific type of short-grain rice, often Bomba rice, which has the ability to absorb liquid without becoming mushy. The rice absorbs the flavors of saffron, stock, and other ingredients like seafood, chicken, rabbit, or vegetables, depending on the regional variation. The rice is crucial to the dish's identity and texture.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Paella",
+    "citationTitle": "Wikipedia: Paella"
+  },
+  {
+    "id": "e8893096-5db5-4568-af9f-41044d85bc12",
+    "text": "Which country is credited with inventing fish and chips?",
+    "options": [
+      "Ireland",
+      "Scotland",
+      "England",
+      "Wales"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Fish and chips originated in England in the mid-19th century.",
+    "detailedExplanation": "Fish and chips is widely considered to have originated in England in the 1860s. While there's debate about whether the combination first appeared in London or the north of England, both fried fish (brought by Jewish immigrants) and chips (fried potatoes) were combined into the iconic dish that became a staple of British cuisine. The dish spread throughout the British Isles and became so popular that during World War II, fish and chips were among the few foods not rationed by the British government.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Fish_and_chips",
+    "citationTitle": "Wikipedia: Fish and chips"
+  },
+  {
+    "id": "b603b955-1624-4db2-a13f-d3056d5c10ea",
+    "text": "What type of cheese is traditionally used in authentic Mexican quesadillas?",
+    "options": [
+      "Cheddar",
+      "Oaxaca cheese",
+      "Mozzarella",
+      "Monterey Jack"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Oaxaca cheese (queso Oaxaca) is the traditional Mexican cheese used in authentic quesadillas.",
+    "detailedExplanation": "Oaxaca cheese, also known as queso Oaxaca, is a white, semi-hard cheese similar to mozzarella that originated in the Mexican state of Oaxaca. This cheese is traditionally made using the pasta filata (stretched-curd) method, which gives it excellent melting properties perfect for quesadillas. While many Mexican restaurants outside of Mexico use other cheeses like Monterey Jack or even cheddar, authentic Mexican quesadillas traditionally feature this distinctive regional cheese that provides the characteristic stretchy, creamy texture.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Oaxaca_cheese",
+    "citationTitle": "Wikipedia: Oaxaca cheese"
+  },
+  {
+    "id": "13c2fd8b-650d-434a-99e0-799ae91db985",
+    "text": "What is the French term for small dishes served before the main course?",
+    "options": [
+      "Hors d'oeuvres",
+      "Amuse-bouche",
+      "Entrée",
+      "Canapés"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Hors d'oeuvres are small dishes served as appetizers before the main course in French cuisine.",
+    "detailedExplanation": "Hors d'oeuvres, literally meaning 'outside the work' in French, refers to small savory dishes typically served at the beginning of a meal or at cocktail parties. These appetizers are designed to stimulate the appetite before the main course arrives. While amuse-bouche are single-bite appetizers and canapés are specific types of finger foods, hors d'oeuvres is the broader term encompassing all pre-meal appetizers in French culinary tradition.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Hors_d%27oeuvre",
+    "citationTitle": "Wikipedia: Hors d'oeuvre"
+  },
+  {
+    "id": "9e7cdd8a-5b6c-4f32-8a9e-178ee207820c",
+    "text": "Which German dish consists of fermented cabbage?",
+    "options": [
+      "Bratwurst",
+      "Sauerkraut",
+      "Schnitzel",
+      "Strudel"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Sauerkraut is fermented cabbage that is a traditional German side dish.",
+    "detailedExplanation": "Sauerkraut, meaning 'sour cabbage' in German, is made by fermenting finely shredded raw cabbage with salt. This traditional preservation method creates a tangy, acidic flavor and was historically important for providing vitamin C during winter months. Sauerkraut is commonly served alongside German sausages, pork dishes, and other hearty German fare, and has become synonymous with German cuisine worldwide.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Sauerkraut",
+    "citationTitle": "Wikipedia: Sauerkraut"
+  },
+  {
+    "id": "06788f99-47c0-4525-a398-895370540629",
+    "text": "What is the main protein in traditional British bangers and mash?",
+    "options": [
+      "Beef",
+      "Pork",
+      "Chicken",
+      "Lamb"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Bangers and mash features pork sausages served with mashed potatoes.",
+    "detailedExplanation": "Bangers and mash is a beloved British comfort food consisting of pork sausages (called 'bangers') served with mashed potatoes and often accompanied by onion gravy. The term 'bangers' originated during World War II when sausages contained so much water due to rationing that they would explode or 'bang' when cooked. Traditional British sausages are primarily made from pork, though variations exist, making pork the main protein in this classic pub dish.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Bangers_and_mash",
+    "citationTitle": "Wikipedia: Bangers and mash"
+  },
+  {
+    "id": "14ad6b8e-4180-43c6-8c92-9fd0046f1b64",
+    "text": "Which Middle Eastern dish consists of deep-fried balls made from chickpeas or fava beans?",
+    "options": [
+      "Hummus",
+      "Falafel",
+      "Tabbouleh",
+      "Baba ganoush"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Falafel are deep-fried fritters made from ground chickpeas or fava beans, popular throughout the Middle East.",
+    "detailedExplanation": "Falafel is a popular Middle Eastern dish consisting of deep-fried balls or patties made from ground chickpeas, fava beans, or a combination of both, mixed with herbs and spices. These crispy fritters are commonly served in pita bread with vegetables and tahini sauce, making them a popular street food and vegetarian protein source. While the exact origins are debated, falafel is enjoyed throughout the Middle East and has become popular worldwide as a healthy, plant-based option.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Falafel",
+    "citationTitle": "Wikipedia: Falafel"
+  },
+  {
+    "id": "dabd5690-a751-4b6a-abce-11889fc65aeb",
+    "text": "What type of noodle is traditionally used in Vietnamese pho soup?",
+    "options": [
+      "Egg noodles",
+      "Rice noodles",
+      "Wheat noodles",
+      "Buckwheat noodles"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Pho uses flat rice noodles called bánh phở in a fragrant beef or chicken broth.",
+    "detailedExplanation": "Vietnamese pho is made with flat rice noodles called bánh phở, which are specifically designed to absorb the aromatic broth that is the heart of this dish. These rice noodles are gluten-free and have a distinctive chewy texture that complements the rich, slow-cooked bone broth typically flavored with star anise, cinnamon, and other aromatic spices. Pho is traditionally served with fresh herbs, bean sprouts, lime wedges, and either beef (pho bo) or chicken (pho ga).",
+    "citationUrl": "https://en.wikipedia.org/wiki/Pho",
+    "citationTitle": "Wikipedia: Pho"
+  },
+  {
+    "id": "4f9c6a83-632f-412f-846d-9ca7e17fe529",
+    "text": "Which Korean fermented vegetable dish is considered the national dish?",
+    "options": [
+      "Bulgogi",
+      "Bibimbap",
+      "Kimchi",
+      "Japchae"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Kimchi is fermented cabbage with chili peppers and is Korea's most famous traditional dish.",
+    "detailedExplanation": "Kimchi is a traditional Korean fermented vegetable dish, most commonly made with napa cabbage and Korean red pepper flakes (gochugaru), along with garlic, ginger, and other seasonings. This spicy, tangy side dish is not only considered Korea's national dish but is also recognized by UNESCO as an Intangible Cultural Heritage. Kimchi is served at almost every Korean meal and is believed to have numerous health benefits due to its probiotic properties from fermentation.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Kimchi",
+    "citationTitle": "Wikipedia: Kimchi"
+  },
+  {
+    "id": "3ec55f83-9b55-4ee1-94a2-fc08694688ab",
+    "text": "What is the primary ingredient in Mexican guacamole?",
+    "options": [
+      "Tomatoes",
+      "Avocados",
+      "Peppers",
+      "Onions"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Guacamole is primarily made from mashed avocados mixed with various seasonings.",
+    "detailedExplanation": "Guacamole is a traditional Mexican dip or spread made primarily from ripe avocados that are mashed and mixed with lime juice, salt, and various other ingredients such as onions, tomatoes, garlic, and chili peppers. The name comes from the Nahuatl word 'ahuacamolli,' which combines 'ahuacatl' (avocado) and 'molli' (sauce). This creamy, nutritious dish has been prepared in Mexico for centuries and has become popular worldwide as both a dip for tortilla chips and a condiment for various Mexican dishes.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Guacamole",
+    "citationTitle": "Wikipedia: Guacamole"
+  },
+  {
+    "id": "599a6489-d565-48c3-adc2-903c8eba7b87",
+    "text": "Which North African dish consists of steamed semolina granules?",
+    "options": [
+      "Tagine",
+      "Couscous",
+      "Harissa",
+      "Shakshuka"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Couscous is made from steamed semolina wheat granules and is a staple food in North African cuisine.",
+    "detailedExplanation": "Couscous is a traditional North African dish made from tiny steamed granules of semolina wheat. It originated among the Berber peoples of North Africa and is particularly associated with Moroccan, Algerian, and Tunisian cuisine. Couscous is typically prepared by steaming the semolina in a special pot called a couscoussier, and it's often served with vegetables, meat, or fish in a flavorful broth. In 2020, UNESCO recognized couscous as an Intangible Cultural Heritage shared by several North African countries.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Couscous",
+    "citationTitle": "Wikipedia: Couscous"
+  },
+  {
+    "id": "8fb1be72-5b76-4497-aefc-ce4fb8510995",
+    "text": "What is the traditional cooking vessel used to make Moroccan tagine?",
+    "options": [
+      "Clay pot with conical lid",
+      "Cast iron skillet",
+      "Bamboo steamer",
+      "Copper wok"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Tagine is cooked in a distinctive clay pot with a conical lid that helps circulate steam.",
+    "detailedExplanation": "The tagine is both a cooking vessel and the name of the dish prepared in it. The traditional tagine pot is made of clay and features a distinctive cone-shaped lid that helps circulate condensation back into the dish during slow cooking. This unique design allows the ingredients to cook in their own juices, creating tender, flavorful stews that are central to Moroccan cuisine.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Tajine",
+    "citationTitle": "Wikipedia: Tajine"
+  },
+  {
+    "id": "bc98c173-9fa5-43ab-9c85-98c4cda9ccd3",
+    "text": "Which Chinese cooking technique involves quickly frying ingredients in a small amount of oil over very high heat?",
+    "options": [
+      "Stir-frying",
+      "Red cooking",
+      "Dim sum",
+      "Hot pot"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Stir-frying is the quintessential Chinese cooking method using high heat and constant stirring.",
+    "detailedExplanation": "Stir-frying, known as 'chao' in Chinese, is a fundamental cooking technique that originated in China and has become synonymous with Chinese cuisine worldwide. The method involves cooking ingredients quickly in a wok or large pan over very high heat with a small amount of oil, while constantly stirring or tossing the ingredients. This technique preserves the texture, color, and nutritional value of vegetables while creating the distinctive 'wok hei' or breath of the wok flavor.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Stir_frying",
+    "citationTitle": "Wikipedia: Stir frying"
+  },
+  {
+    "id": "2941345d-8e93-47ca-87cd-64016e72d853",
+    "text": "What is the name of the popular Thai soup that combines hot and sour flavors?",
+    "options": [
+      "Tom yum",
+      "Pad see ew",
+      "Som tam",
+      "Massaman"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Tom yum is Thailand's famous hot and sour soup, typically made with shrimp or chicken.",
+    "detailedExplanation": "Tom yum is one of Thailand's most internationally recognized dishes, representing the perfect balance of hot and sour flavors that are central to Thai cuisine. The soup typically contains ingredients like lemongrass, kaffir lime leaves, galangal, lime juice, and chili peppers, creating its distinctive taste profile. Tom yum goong (with shrimp) is the most popular variation, though it can be made with various proteins or as a vegetarian dish.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Tom_yum",
+    "citationTitle": "Wikipedia: Tom yum"
+  },
+  {
+    "id": "d544a4b3-e17f-4990-8e6d-ad204c084687",
+    "text": "Which Brazilian cocktail is made with cachaça, sugar, and lime?",
+    "options": [
+      "Caipirinha",
+      "Mojito",
+      "Pisco sour",
+      "Margarita"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Caipirinha is Brazil's national cocktail, made with the local spirit cachaça, muddled lime, and sugar.",
+    "detailedExplanation": "The caipirinha is Brazil's national cocktail and one of the most popular drinks in Brazilian cuisine culture. Made with cachaça (a distilled spirit made from sugarcane juice), muddled lime pieces, and sugar, it's served over ice in an old-fashioned glass. The drink originated in the early 20th century and has become synonymous with Brazilian hospitality and culture, often enjoyed during celebrations and social gatherings throughout the country.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Caipirinha",
+    "citationTitle": "Wikipedia: Caipirinha"
+  }
+]

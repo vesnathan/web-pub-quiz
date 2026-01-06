@@ -1,0 +1,342 @@
+[
+  {
+    "id": "1c811fbc-f6ad-490c-80d0-4e96784b7c1a",
+    "text": "Which fantasy series features the character Hermione Granger?",
+    "options": [
+      "The Chronicles of Narnia",
+      "Harry Potter",
+      "The Lord of the Rings",
+      "Percy Jackson"
+    ],
+    "correctIndex": 1,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "Hermione Granger is one of the main characters in the Harry Potter series.",
+    "detailedExplanation": "Hermione Granger is a central character in J.K. Rowling's Harry Potter series, appearing as Harry's brilliant and studious best friend throughout all seven books. She is known for her vast knowledge of magic, quick thinking, and loyalty to her friends. The character became iconic in modern fantasy literature and was portrayed by Emma Watson in the film adaptations.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Hermione_Granger",
+    "citationTitle": "Wikipedia: Hermione Granger"
+  },
+  {
+    "id": "c08fffd0-f70e-44a7-9edd-bc5f663c4cf7",
+    "text": "What is the name of the fantasy world in C.S. Lewis's Chronicles of Narnia?",
+    "options": [
+      "Middle-earth",
+      "Westeros",
+      "Narnia",
+      "Earthsea"
+    ],
+    "correctIndex": 2,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "The fantasy world in C.S. Lewis's series is called Narnia.",
+    "detailedExplanation": "Narnia is the magical world created by C.S. Lewis in his seven-book Chronicles of Narnia series, beginning with 'The Lion, the Witch and the Wardrobe' in 1950. This fantasy realm is ruled by the great lion Aslan and is populated by talking animals, mythical creatures, and magical beings. Children from our world access Narnia through various magical means, most famously through a wardrobe.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Narnia_(world)",
+    "citationTitle": "Wikipedia: Narnia (world)"
+  },
+  {
+    "id": "21a26e84-6375-4497-a8b3-ccf58a67f05c",
+    "text": "Who wrote The Lord of the Rings trilogy?",
+    "options": [
+      "C.S. Lewis",
+      "George R.R. Martin",
+      "J.R.R. Tolkien",
+      "Terry Pratchett"
+    ],
+    "correctIndex": 2,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "J.R.R. Tolkien wrote The Lord of the Rings trilogy.",
+    "detailedExplanation": "John Ronald Reuel Tolkien, commonly known as J.R.R. Tolkien, wrote The Lord of the Rings trilogy, which consists of 'The Fellowship of the Ring,' 'The Two Towers,' and 'The Return of the King.' Published between 1954 and 1955, this epic fantasy series is considered one of the most influential works in the fantasy genre and has sold over 150 million copies worldwide.",
+    "citationUrl": "https://en.wikipedia.org/wiki/The_Lord_of_the_Rings",
+    "citationTitle": "Wikipedia: The Lord of the Rings"
+  },
+  {
+    "id": "247afbb5-6c15-42c4-952f-ad428b33a3d0",
+    "text": "In which fantasy series would you find the Iron Throne?",
+    "options": [
+      "The Wheel of Time",
+      "A Song of Ice and Fire",
+      "The Kingkiller Chronicle",
+      "The First Law"
+    ],
+    "correctIndex": 1,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "The Iron Throne is a central element in George R.R. Martin's A Song of Ice and Fire series.",
+    "detailedExplanation": "The Iron Throne is the seat of power in the Seven Kingdoms of Westeros in George R.R. Martin's A Song of Ice and Fire fantasy series, which began with 'A Game of Thrones' in 1996. Made from the swords of conquered enemies, the throne symbolizes the ultimate political power that various characters struggle to claim throughout the series. The books were adapted into the popular HBO series 'Game of Thrones.'",
+    "citationUrl": "https://en.wikipedia.org/wiki/Iron_Throne_(A_Song_of_Ice_and_Fire)",
+    "citationTitle": "Wikipedia: Iron Throne (A Song of Ice and Fire)"
+  },
+  {
+    "id": "896c8a73-ee25-408e-a4ba-ad9e0adfa8a1",
+    "text": "What type of creature is Smaug in The Hobbit?",
+    "options": [
+      "Orc",
+      "Dragon",
+      "Troll",
+      "Eagle"
+    ],
+    "correctIndex": 1,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "Smaug is a dragon in Tolkien's The Hobbit.",
+    "detailedExplanation": "Smaug the Magnificent is a powerful dragon who serves as the primary antagonist in J.R.R. Tolkien's 1937 novel 'The Hobbit.' He conquered the Lonely Mountain and the city of Dale, hoarding the treasure within. Smaug is described as a fire-breathing dragon with a weakness in his armor that ultimately leads to his downfall. He represents the classic fantasy trope of the treasure-hoarding dragon that heroes must overcome.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Smaug",
+    "citationTitle": "Wikipedia: Smaug"
+  },
+  {
+    "id": "5852b79e-da91-41c5-b94b-55f8fac0d4da",
+    "text": "Which fantasy series features a school called Hogwarts?",
+    "options": [
+      "The Magicians",
+      "Harry Potter",
+      "The Name of the Wind",
+      "Earthsea"
+    ],
+    "correctIndex": 1,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "Hogwarts School of Witchcraft and Wizardry appears in the Harry Potter series.",
+    "detailedExplanation": "Hogwarts School of Witchcraft and Wizardry is the fictional boarding school for young wizards and witches in J.K. Rowling's Harry Potter series. Located in Scotland, Hogwarts serves as the primary setting for most of the series' events. The school is divided into four houses: Gryffindor, Hufflepuff, Ravenclaw, and Slytherin, each with its own characteristics and values.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Hogwarts",
+    "citationTitle": "Wikipedia: Hogwarts"
+  },
+  {
+    "id": "811debda-24a4-4ea3-ac0d-d5a5f9f0e8f9",
+    "text": "What is the first book in Terry Pratchett's Discworld series?",
+    "options": [
+      "The Colour of Magic",
+      "Guards! Guards!",
+      "Mort",
+      "Equal Rites"
+    ],
+    "correctIndex": 0,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "'The Colour of Magic' is the first Discworld novel, published in 1983.",
+    "detailedExplanation": "'The Colour of Magic,' published in 1983, is the first novel in Terry Pratchett's beloved Discworld series. The book introduces readers to the flat, disc-shaped world carried by four elephants standing on a giant turtle, and features the incompetent wizard Rincewind and naive tourist Twoflower. The Discworld series would go on to include 41 novels, becoming one of the most successful fantasy comedy series of all time.",
+    "citationUrl": "https://en.wikipedia.org/wiki/The_Colour_of_Magic",
+    "citationTitle": "Wikipedia: The Colour of Magic"
+  },
+  {
+    "id": "d232b0b1-5955-48d5-a3a2-4d3dd7d82aab",
+    "text": "In The Chronicles of Narnia, what kind of animal is Aslan?",
+    "options": [
+      "Horse",
+      "Bear",
+      "Lion",
+      "Wolf"
+    ],
+    "correctIndex": 2,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "Aslan is a lion and serves as a Christ-like figure in the Narnia series.",
+    "detailedExplanation": "Aslan is a great lion who serves as the true king of Narnia in C.S. Lewis's Chronicles of Narnia series. He is portrayed as a wise, powerful, and benevolent ruler who represents good in the eternal struggle against evil. Aslan is widely interpreted as a Christ-like figure, reflecting Lewis's Christian beliefs. The character appears throughout the series, often arriving at crucial moments to guide and protect the protagonists.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Aslan",
+    "citationTitle": "Wikipedia: Aslan"
+  },
+  {
+    "id": "e3ba976c-fee8-411a-b3ad-32cdf990ed83",
+    "text": "What is the name of the magical sword wielded by Jon Snow in A Song of Ice and Fire?",
+    "options": [
+      "Needle",
+      "Ice",
+      "Longclaw",
+      "Oathkeeper"
+    ],
+    "correctIndex": 2,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "Longclaw is the Valyrian steel bastard sword given to Jon Snow by Lord Commander Jeor Mormont.",
+    "detailedExplanation": "Longclaw is a Valyrian steel bastard sword that originally belonged to House Mormont. Lord Commander Jeor Mormont gave it to Jon Snow after Jon saved his life from a wight. The sword's pommel was changed from a bear (the Mormont sigil) to a white wolf's head to honor Jon's direwolf Ghost and his connection to House Stark.",
+    "citationUrl": "https://en.wikipedia.org/wiki/A_Song_of_Ice_and_Fire",
+    "citationTitle": "Wikipedia: A Song of Ice and Fire"
+  },
+  {
+    "id": "331d679e-ae36-4cd9-8dc3-3cd19d6977ff",
+    "text": "In The Wheel of Time series, what is the name of the Dark One's prison?",
+    "options": [
+      "The Blight",
+      "Shayol Ghul",
+      "The Bore",
+      "Tar Valon"
+    ],
+    "correctIndex": 2,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "The Bore is the hole in the Pattern that allows the Dark One's influence to touch the world.",
+    "detailedExplanation": "In Robert Jordan's Wheel of Time series, the Bore refers to the hole drilled through the Pattern into the Dark One's prison during the Age of Legends. This breach allows the Dark One's evil influence to seep into the world, corrupting it and enabling his eventual escape attempts. The entire series revolves around the prophecy of the Dragon Reborn who must confront the Dark One and seal the Bore.",
+    "citationUrl": "https://en.wikipedia.org/wiki/The_Wheel_of_Time",
+    "citationTitle": "Wikipedia: The Wheel of Time"
+  },
+  {
+    "id": "1bf5ab41-eeba-447d-84a0-868332c1544f",
+    "text": "Which author created the Earthsea fantasy series featuring the wizard Ged?",
+    "options": [
+      "Marion Zimmer Bradley",
+      "Ursula K. Le Guin",
+      "Anne McCaffrey",
+      "Robin Hobb"
+    ],
+    "correctIndex": 1,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "Ursula K. Le Guin wrote the Earthsea series, beginning with 'A Wizard of Earthsea' in 1968.",
+    "detailedExplanation": "Ursula K. Le Guin created the Earthsea series, a collection of fantasy novels and short stories set in an archipelago world. The series follows various characters, most notably the wizard Ged (also known as Sparrowhawk), and explores themes of balance, responsibility, and coming of age. The first book, 'A Wizard of Earthsea,' was published in 1968 and became a classic of fantasy literature, influencing many subsequent works in the genre.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Earthsea",
+    "citationTitle": "Wikipedia: Earthsea"
+  },
+  {
+    "id": "8d7e07b3-d534-43ae-a1cd-bd0e5a944c7f",
+    "text": "In Terry Goodkind's Sword of Truth series, what is the name of the main protagonist?",
+    "options": [
+      "Richard Cypher",
+      "Kahlan Amnell",
+      "Zedd Zorander",
+      "Darken Rahl"
+    ],
+    "correctIndex": 0,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "Richard Cypher is the main protagonist who discovers he is the Seeker of Truth.",
+    "detailedExplanation": "Richard Cypher is the central character of Terry Goodkind's Sword of Truth series. Born as Richard Rahl but raised as Richard Cypher, he begins the series as a simple woods guide in Westland. He becomes the Seeker of Truth when he is given the Sword of Truth by the wizard Zeddicus Zu'l Zorander. Throughout the series, Richard discovers his true heritage and magical abilities while fighting against various forms of tyranny and evil.",
+    "citationUrl": "https://en.wikipedia.org/wiki/The_Sword_of_Truth",
+    "citationTitle": "Wikipedia: The Sword of Truth"
+  },
+  {
+    "id": "0db80ea8-8231-4420-80cc-82e067c752ba",
+    "text": "What is the name of the desert planet in Frank Herbert's Dune series?",
+    "options": [
+      "Caladan",
+      "Giedi Prime",
+      "Arrakis",
+      "Kaitain"
+    ],
+    "correctIndex": 2,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "Arrakis, also known as Dune, is the desert planet where the spice melange is harvested.",
+    "detailedExplanation": "Arrakis, commonly referred to as Dune, is the central setting of Frank Herbert's epic science fantasy series. This harsh desert planet is the only known source of the spice melange, the most valuable substance in the universe. The planet is inhabited by the Fremen, desert people who have adapted to the harsh conditions, and is home to the giant sandworms. Control of Arrakis means control of the spice trade, making it the focal point of political intrigue throughout the series.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Dune_(novel)",
+    "citationTitle": "Wikipedia: Dune (novel)"
+  },
+  {
+    "id": "2a9f4b83-e535-48b0-b38c-e02b14cbe22d",
+    "text": "In Brandon Sanderson's Mistborn series, what are people called who can ingest and burn metals for magical powers?",
+    "options": [
+      "Feruchemists",
+      "Hemalurgists",
+      "Allomancers",
+      "Kandra"
+    ],
+    "correctIndex": 2,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "Allomancers are individuals who can ingest metals and burn them internally to gain magical abilities.",
+    "detailedExplanation": "In Brandon Sanderson's Mistborn series, Allomancy is one of the three magic systems on the world of Scadrial. Allomancers have the ability to ingest specific metals and 'burn' them in their stomachs to fuel various magical abilities. Different metals provide different powers - for example, iron allows the user to pull on nearby metal objects, while pewter enhances physical strength. The most powerful Allomancers, called Mistborn, can use all metals, while more common Mistings can only use one type of metal.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Mistborn_series",
+    "citationTitle": "Wikipedia: Mistborn series"
+  },
+  {
+    "id": "3779e26e-9a73-4068-aab8-b5cc1c747d84",
+    "text": "Which fantasy series features the mercenary company known as the Band of the Hawk?",
+    "options": [
+      "The First Law",
+      "Berserk",
+      "The Black Company",
+      "The Malazan Book of the Fallen"
+    ],
+    "correctIndex": 1,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "Berserk features the Band of the Hawk, led by Griffith with Guts as one of its prominent members.",
+    "detailedExplanation": "The Band of the Hawk (Band of the Falcon in some translations) is a central element in Kentaro Miura's dark fantasy manga series Berserk. This mercenary company is led by the charismatic Griffith and includes the protagonist Guts among its members. The Band of the Hawk rises to prominence through various military campaigns, but ultimately meets a tragic fate during the Eclipse event, which serves as one of the most pivotal and devastating moments in the series.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Berserk_(manga)",
+    "citationTitle": "Wikipedia: Berserk (manga)"
+  },
+  {
+    "id": "e928a7c5-5664-478e-ba9d-9ca1d4c4e7d9",
+    "text": "In Patrick Rothfuss's Kingkiller Chronicle, what is the name of the university where Kvothe studies?",
+    "options": [
+      "The Arcanum",
+      "The University",
+      "The Fishery",
+      "Haven"
+    ],
+    "correctIndex": 1,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "The University is the institution where Kvothe learns sympathy, naming, and other arcane arts.",
+    "detailedExplanation": "In Patrick Rothfuss's Kingkiller Chronicle series, the University is a prestigious institution dedicated to learning the arcane arts and various academic subjects. Kvothe attends the University to study sympathy (a form of magic based on scientific principles), artificing, and hopes to gain access to the Archives library to research the Chandrian. The University is home to various facilities including the Mews (for teaching), the Archives (the great library), and the Fishery (where students practice artificing). Students advance through ranks and pay tuition based on their abilities and performance.",
+    "citationUrl": "https://en.wikipedia.org/wiki/The_Kingkiller_Chronicle",
+    "citationTitle": "Wikipedia: The Kingkiller Chronicle"
+  },
+  {
+    "id": "8e2ddd44-5b7f-4394-94c9-1734db766a8b",
+    "text": "In Rick Riordan's Percy Jackson series, what is the name of the summer camp where demigod children are trained?",
+    "options": [
+      "Camp Jupiter",
+      "Camp Half-Blood",
+      "Camp Olympus",
+      "Camp Demigod"
+    ],
+    "correctIndex": 1,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "Camp Half-Blood is the summer camp for Greek demigods in the Percy Jackson series.",
+    "detailedExplanation": "Camp Half-Blood is the central location in Rick Riordan's Percy Jackson & the Olympians series, serving as a safe haven and training ground for children of Greek gods. The camp is located on Long Island and is hidden from mortal eyes by magical boundaries. It's where Percy Jackson learns about his heritage as the son of Poseidon and trains alongside other demigods in combat and survival skills.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Percy_Jackson_%26_the_Olympians",
+    "citationTitle": "Wikipedia: Percy Jackson & the Olympians"
+  },
+  {
+    "id": "a5bfcadf-d0f5-42d4-8458-fd8fc07caf98",
+    "text": "What is the name of the magical currency used in J.K. Rowling's Harry Potter series?",
+    "options": [
+      "Crowns and Sceptres",
+      "Galleons, Sickles, and Knuts",
+      "Wizards and Muggles",
+      "Phoenixes and Dragons"
+    ],
+    "correctIndex": 1,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "The wizarding currency consists of Galleons (gold), Sickles (silver), and Knuts (bronze).",
+    "detailedExplanation": "In the Harry Potter universe, the magical community uses a three-tier monetary system consisting of Galleons, Sickles, and Knuts. Galleons are gold coins and the most valuable, Sickles are silver and worth 17 to a Galleon, while Knuts are bronze coins worth 29 to a Sickle. This currency is used throughout the wizarding world for purchasing everything from wands at Ollivanders to sweets from the Hogwarts Express trolley.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Fictional_universe_of_Harry_Potter",
+    "citationTitle": "Wikipedia: Fictional universe of Harry Potter"
+  },
+  {
+    "id": "7b77da6a-c292-409e-b616-4e8d128bcd98",
+    "text": "In Suzanne Collins' The Hunger Games trilogy, what is the name of the protagonist's home district?",
+    "options": [
+      "District 11",
+      "District 12",
+      "District 13",
+      "District 2"
+    ],
+    "correctIndex": 1,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "Katniss Everdeen lives in District 12, known for coal mining.",
+    "detailedExplanation": "District 12 is the coal mining district in the post-apocalyptic nation of Panem, where protagonist Katniss Everdeen lives with her mother and sister Prim. It's one of the poorest districts in Panem, located in what was formerly Appalachia. The district is surrounded by an electrified fence and is known for its dangerous mining work and poverty, which drives Katniss to hunt illegally in the woods to feed her family.",
+    "citationUrl": "https://en.wikipedia.org/wiki/The_Hunger_Games_universe",
+    "citationTitle": "Wikipedia: The Hunger Games universe"
+  },
+  {
+    "id": "b836ef10-db4a-4ffc-a882-d47343c79007",
+    "text": "What is the name of the talking lion in Ursula K. Le Guin's Earthsea series?",
+    "options": [
+      "There is no talking lion in Earthsea",
+      "Tenar",
+      "Sparrowhawk",
+      "Ogion"
+    ],
+    "correctIndex": 0,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "There is no talking lion in the Earthsea series; that's from Narnia by C.S. Lewis.",
+    "detailedExplanation": "This is a common confusion between fantasy series. The Earthsea series by Ursula K. Le Guin features wizards, dragons, and a world of islands, but does not include talking lions. The talking lion Aslan is from C.S. Lewis's Chronicles of Narnia series. Le Guin's Earthsea focuses on the wizard Ged (also known as Sparrowhawk) and his adventures across the archipelago world, dealing with themes of balance, responsibility, and the consequences of magic.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Earthsea",
+    "citationTitle": "Wikipedia: Earthsea"
+  }
+]

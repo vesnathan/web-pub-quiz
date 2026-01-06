@@ -1,0 +1,342 @@
+[
+  {
+    "id": "7e00f294-91e3-4bc5-af80-ce420ca37b39",
+    "text": "Which world leader is known for his famous 'I Have a Dream' speech delivered in Washington D.C. in 1963?",
+    "options": [
+      "Malcolm X",
+      "Martin Luther King Jr.",
+      "John F. Kennedy",
+      "Lyndon B. Johnson"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Martin Luther King Jr. delivered the iconic 'I Have a Dream' speech during the March on Washington for Jobs and Freedom on August 28, 1963.",
+    "detailedExplanation": "Martin Luther King Jr.'s 'I Have a Dream' speech is considered one of the most powerful and influential speeches in American history. Delivered from the steps of the Lincoln Memorial to over 250,000 civil rights supporters, the speech called for an end to racism and for civil and economic rights. The speech helped galvanize the civil rights movement and contributed to the passage of the Civil Rights Act of 1964.",
+    "citationUrl": "https://en.wikipedia.org/wiki/I_Have_a_Dream",
+    "citationTitle": "Wikipedia: I Have a Dream"
+  },
+  {
+    "id": "2b35b588-a65f-49fb-b146-87d17556a077",
+    "text": "Who was the first female Prime Minister of the United Kingdom?",
+    "options": [
+      "Theresa May",
+      "Margaret Thatcher",
+      "Elizabeth Truss",
+      "Queen Elizabeth II"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Margaret Thatcher became the first female Prime Minister of the UK in 1979, serving until 1990.",
+    "detailedExplanation": "Margaret Thatcher, known as the 'Iron Lady,' served as Prime Minister from 1979 to 1990, making her the longest-serving British Prime Minister of the 20th century. She was a controversial figure who implemented significant economic reforms, privatized many state-owned companies, and took a strong stance during the Falklands War. Her policies, known as 'Thatcherism,' emphasized free markets, deregulation, and reduced government spending.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Margaret_Thatcher",
+    "citationTitle": "Wikipedia: Margaret Thatcher"
+  },
+  {
+    "id": "430ee6cf-5471-4900-8e90-99437030cbba",
+    "text": "Which ancient Egyptian queen is famous for her relationships with Julius Caesar and Mark Antony?",
+    "options": [
+      "Nefertiti",
+      "Hatshepsut",
+      "Cleopatra VII",
+      "Ankhesenamun"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Cleopatra VII was the last pharaoh of Egypt and had famous romantic and political alliances with Roman leaders Julius Caesar and Mark Antony.",
+    "detailedExplanation": "Cleopatra VII ruled Egypt from 51 to 30 BCE and was known for her intelligence, political acumen, and ability to speak multiple languages. Her relationships with Julius Caesar and later Mark Antony were both romantic and strategic, aimed at preserving Egypt's independence from Roman conquest. Her story has become legendary and has inspired countless works of art, literature, and film throughout history.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Cleopatra",
+    "citationTitle": "Wikipedia: Cleopatra"
+  },
+  {
+    "id": "6e5a73ea-085b-4695-9a07-e375d0627736",
+    "text": "Who was the first President of the United States?",
+    "options": [
+      "Thomas Jefferson",
+      "John Adams",
+      "George Washington",
+      "Benjamin Franklin"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "George Washington served as the first President of the United States from 1789 to 1797.",
+    "detailedExplanation": "George Washington, known as the 'Father of His Country,' was unanimously elected as the first President of the United States by the Electoral College. He established many precedents for the office, including the tradition of serving only two terms and the formation of a cabinet. Before his presidency, Washington had led the Continental Army to victory in the American Revolutionary War and presided over the Constitutional Convention.",
+    "citationUrl": "https://en.wikipedia.org/wiki/George_Washington",
+    "citationTitle": "Wikipedia: George Washington"
+  },
+  {
+    "id": "cbaa72b5-07e3-4b08-8bdf-67d662b50079",
+    "text": "Which world leader was known as 'Mahatma' and led India's independence movement through non-violent resistance?",
+    "options": [
+      "Jawaharlal Nehru",
+      "Mahatma Gandhi",
+      "Subhas Chandra Bose",
+      "Vallabhbhai Patel"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Mahatma Gandhi led India's non-violent independence movement against British rule and is revered as the father of the Indian nation.",
+    "detailedExplanation": "Mohandas Karamchand Gandhi, known as Mahatma Gandhi (meaning 'Great Soul'), pioneered the philosophy of non-violent resistance called 'satyagraha.' He led numerous campaigns for India's independence from British rule, including the famous Salt March in 1930. His methods of peaceful protest and civil disobedience inspired civil rights movements around the world and ultimately helped India gain independence in 1947.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Mahatma_Gandhi",
+    "citationTitle": "Wikipedia: Mahatma Gandhi"
+  },
+  {
+    "id": "dfbfe1df-cb12-4087-ac42-0f2bcc8a551f",
+    "text": "Who is the current President of France as of 2024?",
+    "options": [
+      "François Hollande",
+      "Nicolas Sarkozy",
+      "Emmanuel Macron",
+      "Marine Le Pen"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Emmanuel Macron has been serving as President of France since May 2017 and was re-elected for a second term in 2022.",
+    "detailedExplanation": "Emmanuel Macron became President of France in May 2017 at age 39, making him the youngest president in French history. He founded the centrist political party La République En Marche! and defeated Marine Le Pen in both the 2017 and 2022 presidential elections. Before entering politics, Macron worked as an investment banker and served as Minister of Economy under President François Hollande.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Emmanuel_Macron",
+    "citationTitle": "Wikipedia: Emmanuel Macron"
+  },
+  {
+    "id": "cb6dcddd-0e12-43cf-ac03-0f8ebb4ed48a",
+    "text": "Which Roman emperor is famous for 'fiddling while Rome burned' according to popular legend?",
+    "options": [
+      "Julius Caesar",
+      "Augustus",
+      "Nero",
+      "Caligula"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Emperor Nero is associated with the legend of playing his lyre (fiddle) while Rome burned in 64 AD, though historians debate the accuracy of this story.",
+    "detailedExplanation": "Nero ruled as Roman Emperor from 54 to 68 AD and is often remembered for his alleged indifference during the Great Fire of Rome in 64 AD. The phrase 'Nero fiddled while Rome burned' has become synonymous with irresponsible leadership during a crisis. However, modern historians note that fiddles didn't exist in ancient Rome, and Nero may have actually organized relief efforts during the fire. The legend likely grew from political propaganda against the unpopular emperor.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Nero",
+    "citationTitle": "Wikipedia: Nero"
+  },
+  {
+    "id": "9e405095-8d87-4725-9841-ac99f358d99f",
+    "text": "Who was the longest-reigning British monarch before passing away in 2022?",
+    "options": [
+      "Queen Victoria",
+      "Queen Elizabeth I",
+      "Queen Elizabeth II",
+      "King George VI"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Queen Elizabeth II reigned for 70 years from 1952 until her death in September 2022, making her the longest-reigning British monarch.",
+    "detailedExplanation": "Queen Elizabeth II ascended to the throne on February 6, 1952, following the death of her father, King George VI. She reigned for over 70 years, surpassing the previous record held by Queen Victoria who ruled for 63 years. During her reign, she witnessed and presided over the decolonization of the British Empire, the transformation of the Commonwealth, and significant social changes in the UK. She passed away on September 8, 2022, at age 96.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Elizabeth_II",
+    "citationTitle": "Wikipedia: Elizabeth II"
+  },
+  {
+    "id": "8a05e81e-cc1c-4e02-97cb-6e932460acbe",
+    "text": "Which German leader is infamous for building the Berlin Wall in 1961?",
+    "options": [
+      "Helmut Kohl",
+      "Willy Brandt",
+      "Walter Ulbricht",
+      "Konrad Adenauer"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Walter Ulbricht was the East German leader who ordered the construction of the Berlin Wall.",
+    "detailedExplanation": "Walter Ulbricht served as the leader of East Germany from 1950 to 1971 and was the principal architect behind the Berlin Wall's construction in August 1961. The wall was built to prevent East Germans from fleeing to West Berlin and became one of the most potent symbols of the Cold War division between East and West.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Walter_Ulbricht",
+    "citationTitle": "Wikipedia: Walter Ulbricht"
+  },
+  {
+    "id": "0d0bf589-18aa-4da7-9814-dc7ca2fa6bba",
+    "text": "Who was the last leader of the Soviet Union before its dissolution in 1991?",
+    "options": [
+      "Leonid Brezhnev",
+      "Boris Yeltsin",
+      "Mikhail Gorbachev",
+      "Nikita Khrushchev"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Mikhail Gorbachev was the final leader of the Soviet Union, serving from 1985 until its dissolution in 1991.",
+    "detailedExplanation": "Mikhail Gorbachev became General Secretary of the Communist Party in 1985 and introduced reforms like glasnost (openness) and perestroika (restructuring). His policies inadvertently led to the collapse of communist control in Eastern Europe and ultimately the dissolution of the Soviet Union itself in December 1991.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Mikhail_Gorbachev",
+    "citationTitle": "Wikipedia: Mikhail Gorbachev"
+  },
+  {
+    "id": "e3ca2b87-9a60-4f27-b00b-9442c3ccd7c8",
+    "text": "Which South African leader became the country's first Black president in 1994?",
+    "options": [
+      "Desmond Tutu",
+      "Steve Biko",
+      "Nelson Mandela",
+      "Oliver Tambo"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Nelson Mandela became South Africa's first Black president following the end of apartheid.",
+    "detailedExplanation": "Nelson Mandela was elected as South Africa's first Black president in the country's first fully democratic elections in April 1994. After spending 27 years in prison for his anti-apartheid activities, Mandela led the transition from apartheid to democracy and served as president from 1994 to 1999, becoming a global symbol of reconciliation and human rights.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Nelson_Mandela",
+    "citationTitle": "Wikipedia: Nelson Mandela"
+  },
+  {
+    "id": "f032edf2-3dfd-4fc4-80d4-2fc470ba3623",
+    "text": "Who was the French military leader who crowned himself Emperor in 1804?",
+    "options": [
+      "Louis XVI",
+      "Napoleon Bonaparte",
+      "Charles de Gaulle",
+      "Maximilien Robespierre"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Napoleon Bonaparte crowned himself Emperor of France in 1804 at Notre-Dame Cathedral.",
+    "detailedExplanation": "Napoleon Bonaparte rose to power during the French Revolution and became First Consul in 1799. In 1804, he crowned himself Emperor of the French in a ceremony at Notre-Dame Cathedral in Paris. His rule marked the end of the French Republic and the beginning of the Napoleonic Empire, which would dominate European politics for over a decade.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Napoleon",
+    "citationTitle": "Wikipedia: Napoleon"
+  },
+  {
+    "id": "ac031d6a-f76a-4dbd-b4ab-aef3f300e28a",
+    "text": "Which Chinese leader initiated the Cultural Revolution in the 1960s?",
+    "options": [
+      "Deng Xiaoping",
+      "Zhou Enlai",
+      "Mao Zedong",
+      "Chiang Kai-shek"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Mao Zedong launched the Cultural Revolution in 1966 to reassert his control over the Chinese Communist Party.",
+    "detailedExplanation": "Mao Zedong, the founding leader of the People's Republic of China, initiated the Cultural Revolution in 1966. This political movement aimed to preserve Chinese communism by purging remnants of capitalist and traditional elements from Chinese society. The campaign lasted until Mao's death in 1976 and had profound and often devastating effects on Chinese society, education, and culture.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Mao_Zedong",
+    "citationTitle": "Wikipedia: Mao Zedong"
+  },
+  {
+    "id": "b58f4ec7-4bc2-4458-a42f-652d75efbde6",
+    "text": "Who served as British Prime Minister during most of World War II?",
+    "options": [
+      "Neville Chamberlain",
+      "Winston Churchill",
+      "Clement Attlee",
+      "Anthony Eden"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Winston Churchill served as British Prime Minister from 1940 to 1945, leading Britain through most of World War II.",
+    "detailedExplanation": "Winston Churchill became Prime Minister in May 1940, replacing Neville Chamberlain just as Nazi Germany was launching its offensive in Western Europe. Churchill's leadership, oratory skills, and determination helped rally the British people during the darkest days of the war, including the Battle of Britain and the London Blitz. He remained in office until July 1945, shortly after Germany's surrender.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Winston_Churchill",
+    "citationTitle": "Wikipedia: Winston Churchill"
+  },
+  {
+    "id": "15dcf646-a64b-4380-a505-2bd0dff4d0c3",
+    "text": "Which ancient Macedonian king conquered most of the known world by age 30?",
+    "options": [
+      "Philip II",
+      "Alexander the Great",
+      "Darius III",
+      "Cyrus the Great"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Alexander the Great conquered vast territories from Egypt to India before his death at age 32.",
+    "detailedExplanation": "Alexander III of Macedon, known as Alexander the Great, succeeded his father Philip II in 336 BC at age 20. By the time of his death in 323 BC at age 32, he had created one of the largest empires in ancient history, stretching from Greece to northwestern India. His conquests spread Greek culture throughout the known world and ushered in the Hellenistic period.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Alexander_the_Great",
+    "citationTitle": "Wikipedia: Alexander the Great"
+  },
+  {
+    "id": "166d84d5-975e-4f80-bd9e-5dd1f0faedd5",
+    "text": "Who was the youngest person ever elected as President of the United States?",
+    "options": [
+      "Bill Clinton",
+      "Barack Obama",
+      "Theodore Roosevelt",
+      "John F. Kennedy"
+    ],
+    "correctIndex": 3,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "John F. Kennedy was elected president at age 43, making him the youngest elected president in U.S. history.",
+    "detailedExplanation": "John F. Kennedy was elected as the 35th President of the United States in 1960 at the age of 43, making him the youngest person ever elected to the presidency. While Theodore Roosevelt was younger when he assumed the presidency at 42, he had succeeded to the office following McKinley's assassination rather than being elected. Kennedy served from January 1961 until his assassination in November 1963.",
+    "citationUrl": "https://en.wikipedia.org/wiki/John_F._Kennedy",
+    "citationTitle": "Wikipedia: John F. Kennedy"
+  },
+  {
+    "id": "aae0eb19-3a8c-4046-be6e-9b569ab22d45",
+    "text": "Which Russian leader introduced the policies of glasnost (openness) and perestroika (restructuring) in the 1980s?",
+    "options": [
+      "Leonid Brezhnev",
+      "Mikhail Gorbachev",
+      "Boris Yeltsin",
+      "Vladimir Putin"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Mikhail Gorbachev introduced glasnost and perestroika as reform policies in the Soviet Union during the 1980s.",
+    "detailedExplanation": "Mikhail Gorbachev became the leader of the Soviet Union in 1985 and introduced two major reform policies: glasnost (meaning 'openness') which allowed more freedom of speech and transparency, and perestroika (meaning 'restructuring') which aimed to reform the Soviet economic and political system. These policies were intended to revitalize the struggling Soviet system but ultimately contributed to the end of the Cold War and the dissolution of the USSR.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Mikhail_Gorbachev",
+    "citationTitle": "Wikipedia: Mikhail Gorbachev"
+  },
+  {
+    "id": "0e34e6ab-bb4d-4211-9c46-c0ad9360342c",
+    "text": "Who was the first woman to serve as Chancellor of Germany?",
+    "options": [
+      "Angela Merkel",
+      "Ursula von der Leyen",
+      "Annegret Kramp-Karrenbauer",
+      "Petra Kelly"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Angela Merkel was the first woman to serve as Chancellor of Germany, holding the position from 2005 to 2021.",
+    "detailedExplanation": "Angela Merkel made history when she became Germany's first female Chancellor in 2005, leading the country for 16 years until 2021. Often referred to as the most powerful woman in the world during her tenure, Merkel played a crucial role in European politics, navigating major crises including the 2008 financial crisis, the European debt crisis, and the refugee crisis of 2015. She was known for her pragmatic leadership style and scientific background as a former research scientist.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Angela_Merkel",
+    "citationTitle": "Wikipedia: Angela Merkel"
+  },
+  {
+    "id": "8bc89529-1039-428c-8e62-164fe74ee64c",
+    "text": "Which Japanese emperor officially surrendered at the end of World War II in 1945?",
+    "options": [
+      "Emperor Meiji",
+      "Emperor Taisho",
+      "Emperor Hirohito",
+      "Emperor Akihito"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Emperor Hirohito announced Japan's surrender in August 1945, ending World War II in the Pacific.",
+    "detailedExplanation": "Emperor Hirohito, whose reign name was Showa, announced Japan's surrender on August 15, 1945, in a radio broadcast to the Japanese people following the atomic bombings of Hiroshima and Nagasaki. This announcement, known as the Jewel Voice Broadcast, marked the end of World War II in the Pacific Theater. Hirohito remained emperor until his death in 1989, presiding over Japan's post-war reconstruction and economic miracle, though his role was largely ceremonial under the new constitution.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Hirohito",
+    "citationTitle": "Wikipedia: Hirohito"
+  },
+  {
+    "id": "3317202d-5042-4723-a0c5-8e6169bcde80",
+    "text": "Who was the first democratically elected President of Russia after the fall of the Soviet Union?",
+    "options": [
+      "Vladimir Putin",
+      "Dmitry Medvedev",
+      "Boris Yeltsin",
+      "Mikhail Gorbachev"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Boris Yeltsin became Russia's first democratically elected president in 1991 following the collapse of the Soviet Union.",
+    "detailedExplanation": "Boris Yeltsin was elected as the first President of the Russian Federation in June 1991, just months before the official dissolution of the Soviet Union in December 1991. He played a pivotal role in the transition from communist rule to a market economy and democratic system, though his presidency was marked by significant economic turmoil, political instability, and the challenging process of transforming Russian society. Yeltsin served until 1999 when he unexpectedly resigned and was succeeded by Vladimir Putin.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Boris_Yeltsin",
+    "citationTitle": "Wikipedia: Boris Yeltsin"
+  }
+]

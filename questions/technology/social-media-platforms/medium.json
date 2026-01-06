@@ -1,0 +1,342 @@
+[
+  {
+    "id": "81508f42-a793-46d7-8049-16678f38ef28",
+    "text": "Which social media platform was originally limited to college students and required a .edu email address to join?",
+    "options": [
+      "MySpace",
+      "Facebook",
+      "LinkedIn",
+      "Friendster"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Facebook was initially exclusive to college students with .edu email addresses when it launched in 2004.",
+    "detailedExplanation": "Facebook was founded by Mark Zuckerberg in February 2004 as 'TheFacebook' and was initially restricted to college students. Users needed a valid .edu email address to register, and the platform gradually expanded to other universities before eventually opening to the general public in September 2006. This exclusivity was part of Facebook's early strategy to create a sense of community and authenticity among users.",
+    "citationUrl": "https://en.wikipedia.org/wiki/History_of_Facebook",
+    "citationTitle": "Wikipedia: History of Facebook"
+  },
+  {
+    "id": "f0b6f7e5-24b3-4018-8d61-b61368376b3f",
+    "text": "What was Twitter's original character limit per tweet when it launched?",
+    "options": [
+      "140 characters",
+      "100 characters",
+      "160 characters",
+      "280 characters"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Twitter originally had a 140-character limit, inspired by SMS text message constraints.",
+    "detailedExplanation": "When Twitter launched in 2006, it had a 140-character limit per tweet. This constraint was inspired by SMS text messaging, which had a 160-character limit - Twitter reserved 20 characters for usernames, leaving 140 for the actual message. This limitation became a defining feature of the platform, forcing users to be concise and creative. In 2017, Twitter doubled the character limit to 280 characters for most languages, though the original limit remains iconic in social media history.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Twitter",
+    "citationTitle": "Wikipedia: Twitter"
+  },
+  {
+    "id": "88eb7a31-6387-4fb1-b7cb-144f2a796d7f",
+    "text": "Which video-sharing platform was sold to Google for $1.65 billion in 2006, just 20 months after its creation?",
+    "options": [
+      "Vimeo",
+      "Dailymotion",
+      "YouTube",
+      "Metacafe"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "YouTube was acquired by Google in October 2006 for $1.65 billion in stock.",
+    "detailedExplanation": "YouTube was founded in February 2005 by three former PayPal employees: Chad Hurley, Steve Chen, and Jawed Karim. The platform grew rapidly, and by October 2006, Google announced its acquisition of YouTube for $1.65 billion in stock. At the time, this was considered a massive gamble by Google, as YouTube was not yet profitable and faced significant copyright challenges. However, the acquisition proved to be one of the most successful in tech history.",
+    "citationUrl": "https://en.wikipedia.org/wiki/YouTube",
+    "citationTitle": "Wikipedia: YouTube"
+  },
+  {
+    "id": "30aaf5c2-4ced-4bd3-a655-1410acecf34e",
+    "text": "What does 'TikTok' mean in Chinese, the language of its parent company ByteDance?",
+    "options": [
+      "Fast time",
+      "Shake sound",
+      "Quick dance",
+      "Beat music"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "TikTok's Chinese name is '抖音' (Dǒuyīn), which translates to 'shake sound' or 'vibrating sound'.",
+    "detailedExplanation": "TikTok was developed by Chinese company ByteDance and was originally launched in China in September 2016 under the name Douyin (抖音). The characters '抖音' literally translate to 'shake sound' or 'vibrating sound,' referring to the short, catchy music clips that are central to the app's video content. When ByteDance launched the app internationally, they chose the name 'TikTok' to appeal to global audiences while maintaining the rhythmic, sound-focused concept of the original name.",
+    "citationUrl": "https://en.wikipedia.org/wiki/TikTok",
+    "citationTitle": "Wikipedia: TikTok"
+  },
+  {
+    "id": "b4a58756-e2f5-4333-9af7-31f245f8429a",
+    "text": "Which social media platform was originally called 'ASmallWorld' before rebranding?",
+    "options": [
+      "None of these",
+      "Pinterest",
+      "Instagram",
+      "Foursquare"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "This is a trick question - none of these major platforms were originally called 'ASmallWorld'.",
+    "detailedExplanation": "ASmallWorld was actually a separate, exclusive social networking site launched in 2004 that never became one of the major platforms listed in the options. Instagram was originally called 'Burbn', Pinterest kept its name from launch, and Foursquare was originally called 'Dodgeball' (though that was a different service by the same founders). This question tests knowledge of social media platform origins while including a common quiz trap.",
+    "citationUrl": "https://en.wikipedia.org/wiki/List_of_social_networking_services",
+    "citationTitle": "Wikipedia: List of social networking services"
+  },
+  {
+    "id": "e0ffc319-d007-4188-a825-f91789264d38",
+    "text": "Which professional networking platform was acquired by Microsoft in 2016 for $26.2 billion?",
+    "options": [
+      "Slack",
+      "LinkedIn",
+      "Skype",
+      "GitHub"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Microsoft acquired LinkedIn in 2016 for $26.2 billion, making it one of the largest tech acquisitions ever.",
+    "detailedExplanation": "In June 2016, Microsoft announced its acquisition of LinkedIn for $26.2 billion in cash, which was completed in December 2016. This was one of the largest acquisitions in technology history and Microsoft's biggest acquisition at the time. The deal allowed Microsoft to integrate LinkedIn's professional networking capabilities with its Office 365 and other business products, while LinkedIn maintained its distinct brand and independence in operation.",
+    "citationUrl": "https://en.wikipedia.org/wiki/LinkedIn",
+    "citationTitle": "Wikipedia: LinkedIn"
+  },
+  {
+    "id": "d57198c9-7e31-4c60-a94f-4c0f76ede375",
+    "text": "Which social media platform introduced the concept of 'Stories' - temporary posts that disappear after 24 hours?",
+    "options": [
+      "Instagram",
+      "Snapchat",
+      "Facebook",
+      "WhatsApp"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Snapchat introduced Stories in 2013 as a key feature.",
+    "detailedExplanation": "Snapchat pioneered the 'Stories' format in October 2013, allowing users to post photos and videos that would automatically disappear after 24 hours. This feature became so popular that it was later copied by virtually every other major social media platform, including Instagram (2016), Facebook (2017), and WhatsApp (2017). The temporary nature of Stories encouraged more casual, spontaneous sharing compared to permanent posts.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Snapchat",
+    "citationTitle": "Wikipedia: Snapchat"
+  },
+  {
+    "id": "5b13fe3f-3910-4119-a301-604ac0225d78",
+    "text": "What is the maximum length of a video that can be uploaded to Instagram Reels?",
+    "options": [
+      "15 seconds",
+      "30 seconds",
+      "90 seconds",
+      "10 minutes"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Instagram Reels can be up to 90 seconds long as of recent updates.",
+    "detailedExplanation": "Instagram Reels, launched in August 2020 as Instagram's answer to TikTok, initially allowed videos of up to 30 seconds. However, Instagram has gradually increased this limit, first to 60 seconds in July 2021, and then to 90 seconds in July 2022. This extension was part of Instagram's strategy to compete more effectively with TikTok and provide creators with more flexibility for storytelling and content creation.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Instagram",
+    "citationTitle": "Wikipedia: Instagram"
+  },
+  {
+    "id": "b8ef79fd-43bc-4506-a23d-e723d289485e",
+    "text": "Which social media platform uses a 'Pin' system for organizing and sharing content?",
+    "options": [
+      "Tumblr",
+      "Pinterest",
+      "Reddit",
+      "Discord"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Pinterest uses 'Pins' as its core content organization system.",
+    "detailedExplanation": "Pinterest, launched in 2010, built its entire platform around the concept of 'pinning' content to digital boards. Users can 'pin' images, videos, and other content to themed boards, creating collections around interests like recipes, home decor, fashion, or travel plans. This pinboard-style interface was inspired by the way people might pin photos and clippings to physical bulletin boards, making it particularly popular for planning, shopping inspiration, and creative projects.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Pinterest",
+    "citationTitle": "Wikipedia: Pinterest"
+  },
+  {
+    "id": "2c1c4bdf-0ad6-4e60-93e9-4f16434903eb",
+    "text": "What was the original name of Discord before it became a popular gaming communication platform?",
+    "options": [
+      "GameChat",
+      "Hammer & Chisel",
+      "VoiceBridge",
+      "TeamSpeak Pro"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Discord was originally developed by a company called Hammer & Chisel.",
+    "detailedExplanation": "Discord was created by Jason Citron and Stan Vishnevskiy under their company Hammer & Chisel, which was founded in 2012. The company initially focused on developing a mobile game called Fates Forever, but when that didn't succeed, they pivoted to creating Discord in 2015. The team recognized the need for better communication tools for gamers and built Discord as a free alternative to existing voice chat services like TeamSpeak and Ventrilo, eventually expanding beyond gaming to general community communication.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Discord",
+    "citationTitle": "Wikipedia: Discord"
+  },
+  {
+    "id": "beff43cc-c878-490d-b498-ac70a36e1374",
+    "text": "Which social media platform is known for its distinctive upvote and downvote system for ranking content?",
+    "options": [
+      "Digg",
+      "Reddit",
+      "Slashdot",
+      "Hacker News"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Reddit's upvote/downvote system is its signature feature for content ranking.",
+    "detailedExplanation": "Reddit, founded in 2005, popularized the upvote and downvote system that allows users to democratically determine which content rises to prominence. When users upvote content, it gains visibility and moves higher in feeds, while downvoted content becomes less visible. This system, combined with Reddit's subreddit structure, creates a self-moderating community where quality content theoretically rises to the top. The karma system also tracks users' cumulative upvotes and downvotes, gamifying participation on the platform.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Reddit",
+    "citationTitle": "Wikipedia: Reddit"
+  },
+  {
+    "id": "4e6fb696-1117-452d-ac71-0e1293407e70",
+    "text": "What does 'DM' commonly stand for across most social media platforms?",
+    "options": [
+      "Direct Message",
+      "Daily Memo",
+      "Digital Media",
+      "Discussion Mode"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "DM stands for Direct Message, referring to private messaging features.",
+    "detailedExplanation": "The term 'DM' for Direct Message has become universal across social media platforms, referring to private, one-on-one messaging features that aren't visible to other users. Twitter popularized the abbreviation, but the concept and terminology spread to Instagram, Facebook, TikTok, and virtually every other social platform. DMs allow users to have private conversations, share content privately, and communicate without the public nature of posts, comments, or replies.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Direct_message",
+    "citationTitle": "Wikipedia: Direct message"
+  },
+  {
+    "id": "c019edc5-08f9-4de8-8a3a-a6e737c1459d",
+    "text": "Which country banned TikTok nationwide in 2020, citing data security concerns?",
+    "options": [
+      "United States",
+      "Australia",
+      "India",
+      "United Kingdom"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "India banned TikTok in June 2020 along with dozens of other Chinese apps.",
+    "detailedExplanation": "India implemented a nationwide ban on TikTok and 58 other Chinese apps in June 2020, citing concerns over data security and privacy. The ban came amid rising tensions between India and China following border clashes. India was TikTok's largest market at the time, with over 200 million users. The Indian government stated that these apps were 'prejudicial to sovereignty and integrity of India, defence of India, security of state and public order.' The ban was later made permanent, forcing TikTok to permanently shut down its operations in India.",
+    "citationUrl": "https://en.wikipedia.org/wiki/TikTok",
+    "citationTitle": "Wikipedia: TikTok"
+  },
+  {
+    "id": "bef0fa10-eb91-41dd-a71f-d259b6be5d59",
+    "text": "What is the character limit for a LinkedIn post as of 2024?",
+    "options": [
+      "280 characters",
+      "1,300 characters",
+      "3,000 characters",
+      "No limit"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "LinkedIn allows up to 3,000 characters for standard posts.",
+    "detailedExplanation": "LinkedIn sets a 3,000-character limit for regular posts on the platform, which is significantly longer than Twitter's limits but designed to encourage professional, thoughtful content rather than lengthy articles. This limit allows professionals to share detailed insights, experiences, and industry commentary while maintaining readability. For longer-form content, LinkedIn offers separate article publishing features with much higher limits, but the standard post limit encourages concise yet comprehensive professional communication.",
+    "citationUrl": "https://en.wikipedia.org/wiki/LinkedIn",
+    "citationTitle": "Wikipedia: LinkedIn"
+  },
+  {
+    "id": "73c877f1-f821-4bd8-b168-0c64b000432d",
+    "text": "Which social media platform was co-founded by Kevin Systrom and Mike Krieger in 2010?",
+    "options": [
+      "Snapchat",
+      "Instagram",
+      "WhatsApp",
+      "Vine"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Instagram was co-founded by Kevin Systrom and Mike Krieger in 2010.",
+    "detailedExplanation": "Instagram was launched on October 6, 2010, by co-founders Kevin Systrom and Mike Krieger. The photo-sharing app gained massive popularity quickly, reaching one million registered users within two months of its launch. Facebook acquired Instagram for approximately $1 billion in 2012, making it one of the most successful social media acquisitions in history.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Instagram",
+    "citationTitle": "Wikipedia: Instagram"
+  },
+  {
+    "id": "f5065533-e6e0-4333-8666-a7ca7bfcf14d",
+    "text": "What is the name of X (formerly Twitter)'s premium subscription service launched in 2021?",
+    "options": [
+      "Twitter Plus",
+      "X Premium",
+      "Twitter Blue",
+      "X Gold"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Twitter Blue was the premium subscription service launched by Twitter in 2021.",
+    "detailedExplanation": "Twitter Blue was initially launched as a premium subscription service in June 2021, offering features like tweet editing, longer video uploads, and priority customer support. After Elon Musk's acquisition of Twitter and its rebrand to X, the service has undergone various changes but retained the 'Blue' name, though it's now marketed as part of X Premium offerings.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Twitter_Blue",
+    "citationTitle": "Wikipedia: Twitter Blue"
+  },
+  {
+    "id": "c29df119-2bd1-4741-b484-274e69bab76b",
+    "text": "Which social media platform is known for its distinctive 'swipe right' and 'swipe left' features?",
+    "options": [
+      "Bumble",
+      "Tinder",
+      "Hinge",
+      "OkCupid"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Tinder popularized the 'swipe right' (like) and 'swipe left' (pass) interface.",
+    "detailedExplanation": "Tinder, launched in 2012, revolutionized online dating with its simple swipe-based interface. Users swipe right to indicate interest in a potential match and swipe left to pass. This intuitive gesture-based system became so iconic that 'swipe right' entered common vernacular and influenced the design of many other social and dating apps.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Tinder_(app)",
+    "citationTitle": "Wikipedia: Tinder (app)"
+  },
+  {
+    "id": "27ae5dcd-e074-410f-86fb-b0855492a0c3",
+    "text": "What does the 'Snap' in Snapchat originally refer to?",
+    "options": [
+      "Quick photos",
+      "Snapping sounds",
+      "Disappearing messages",
+      "Finger snapping gesture"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "The 'Snap' in Snapchat refers to disappearing messages and photos.",
+    "detailedExplanation": "Snapchat was founded in 2011 by Evan Spiegel, Bobby Murphy, and Reggie Brown. The core concept was messages and photos that would 'snap' away or disappear after being viewed, hence the name. This temporary nature of content was revolutionary at the time when most social media platforms focused on permanent sharing and archiving of posts.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Snapchat",
+    "citationTitle": "Wikipedia: Snapchat"
+  },
+  {
+    "id": "2065e751-2c88-4402-9da4-7a3197a098b9",
+    "text": "Which company owns WhatsApp?",
+    "options": [
+      "Google",
+      "Microsoft",
+      "Meta (Facebook)",
+      "Apple"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "WhatsApp is owned by Meta (formerly Facebook).",
+    "detailedExplanation": "WhatsApp was acquired by Facebook (now Meta) in February 2014 for approximately $19 billion, making it one of the largest tech acquisitions at the time. The messaging app was founded in 2009 by Jan Koum and Brian Acton, former Yahoo employees. Despite the acquisition, WhatsApp has maintained its focus on private messaging and end-to-end encryption.",
+    "citationUrl": "https://en.wikipedia.org/wiki/WhatsApp",
+    "citationTitle": "Wikipedia: WhatsApp"
+  },
+  {
+    "id": "b4d0a0bc-8dbd-444b-9b92-dfbbf6f1a8d6",
+    "text": "What is the maximum number of people who can participate in a Clubhouse room conversation?",
+    "options": [
+      "5,000",
+      "8,000",
+      "10,000",
+      "Unlimited"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Clubhouse rooms can accommodate up to 5,000 participants.",
+    "detailedExplanation": "Clubhouse, the audio-based social media platform that gained popularity during the COVID-19 pandemic, allows up to 5,000 people to join a single room. The platform operates on an invite-only basis (though this has evolved) and focuses on live, unrecorded conversations. Users can be speakers on stage, participate in the audience, or move between different rooms to join various discussions.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Clubhouse_(app)",
+    "citationTitle": "Wikipedia: Clubhouse (app)"
+  }
+]

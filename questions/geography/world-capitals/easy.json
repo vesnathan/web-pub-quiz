@@ -321,5 +321,22 @@
     "detailedExplanation": "Tokyo became Japan's capital in 1868 when the Emperor moved there from Kyoto during the Meiji Restoration. Originally called Edo, the city was renamed Tokyo, meaning 'Eastern Capital.' Today it's not only Japan's political center but also one of the world's major financial hubs and the most populous metropolitan area globally, with over 37 million people in the Greater Tokyo Area.",
     "citationUrl": "https://en.wikipedia.org/wiki/Tokyo",
     "citationTitle": "Wikipedia: Tokyo"
+  },
+  {
+    "id": "10319292-5d20-4adf-950a-5ac255558c19",
+    "text": "What is the capital city of France?",
+    "options": [
+      "Paris",
+      "Lyon",
+      "Marseille",
+      "Nice"
+    ],
+    "correctIndex": 0,
+    "category": "geography",
+    "difficulty": "easy",
+    "explanation": "Paris is the capital and largest city of France.",
+    "detailedExplanation": "Paris has been the capital of France since the 12th century and is located in the north-central part of the country along the Seine River. It is not only the political capital but also the cultural, economic, and population center of France, home to famous landmarks like the Eiffel Tower, Louvre Museum, and Notre-Dame Cathedral. With a metropolitan population of over 12 million people, Paris is one of the most visited cities in the world.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Paris",
+    "citationTitle": "Wikipedia: Paris"
   }
 ]

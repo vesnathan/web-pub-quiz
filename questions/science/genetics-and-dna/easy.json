@@ -321,5 +321,22 @@
     "detailedExplanation": "DNA is composed of four nitrogenous bases: Adenine (A), Thymine (T), Guanine (G), and Cytosine (C). These bases pair specifically with each other - Adenine always pairs with Thymine, and Guanine always pairs with Cytosine. This complementary base pairing is crucial for DNA replication and the storage of genetic information. RNA uses the same bases except Uracil (U) replaces Thymine.",
     "citationUrl": "https://en.wikipedia.org/wiki/Nucleobase",
     "citationTitle": "Wikipedia: Nucleobase"
+  },
+  {
+    "id": "ee917dc9-9d58-4daa-a9a9-e97a0e33ed95",
+    "text": "What percentage of human DNA is identical between any two unrelated people?",
+    "options": [
+      "50%",
+      "75%",
+      "99.9%",
+      "85%"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Humans share approximately 99.9% of their DNA sequence with other humans.",
+    "detailedExplanation": "Despite the vast genetic diversity we observe in human populations around the world, humans are remarkably genetically similar to one another. Any two unrelated humans share about 99.9% of their DNA sequence, meaning that only about 0.1% of our genetic code differs between individuals. This small percentage of genetic variation is responsible for all the observable differences between people, including physical traits, disease susceptibility, and other characteristics. This high degree of genetic similarity reflects the relatively recent common ancestry of all modern humans.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Human_genetic_variation",
+    "citationTitle": "Wikipedia: Human genetic variation"
   }
 ]

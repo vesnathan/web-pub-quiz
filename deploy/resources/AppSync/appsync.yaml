@@ -42,6 +42,12 @@ Parameters:
   SchemaReadyWaiterFunctionArn:
     Type: String
     Description: Schema Ready Waiter Lambda ARN
+  SendInviteFunctionArn:
+    Type: String
+    Description: Send Invite Lambda ARN
+  SendContactFunctionArn:
+    Type: String
+    Description: Send Contact Lambda ARN
   ResolversBuildHash:
     Type: String
     Description: Build hash for resolver versioning
@@ -158,6 +164,28 @@ Resources:
       ServiceRoleArn: !GetAtt AppSyncLambdaRole.Arn
       LambdaConfig:
         LambdaFunctionArn: !Ref CreateTipCheckoutFunctionArn
+
+  # Lambda Data Source for Send Invite
+  SendInviteDataSource:
+    Type: AWS::AppSync::DataSource
+    Properties:
+      ApiId: !GetAtt GraphQLApi.ApiId
+      Name: SendInviteDataSource
+      Type: AWS_LAMBDA
+      ServiceRoleArn: !GetAtt AppSyncLambdaRole.Arn
+      LambdaConfig:
+        LambdaFunctionArn: !Ref SendInviteFunctionArn
+
+  # Lambda Data Source for Send Contact
+  SendContactDataSource:
+    Type: AWS::AppSync::DataSource
+    Properties:
+      ApiId: !GetAtt GraphQLApi.ApiId
+      Name: SendContactDataSource
+      Type: AWS_LAMBDA
+      ServiceRoleArn: !GetAtt AppSyncLambdaRole.Arn
+      LambdaConfig:
+        LambdaFunctionArn: !Ref SendContactFunctionArn
 
   # Resolvers
   GetMyProfileResolver:
@@ -330,6 +358,51 @@ Resources:
         RuntimeVersion: "1.0.0"
       CodeS3Location: !Sub "s3://${TemplateBucketName}/resolvers/${Stage}/${ResolversBuildHash}/tip/Mutations/Mutation.createTipCheckout.js"
 
+  # Invite Resolver
+  SendInviteResolver:
+    Type: AWS::AppSync::Resolver
+    DependsOn: SchemaReadyCustomResource
+    Properties:
+      ApiId: !GetAtt GraphQLApi.ApiId
+      TypeName: Mutation
+      FieldName: sendInvite
+      DataSourceName: !GetAtt SendInviteDataSource.Name
+      Kind: UNIT
+      Runtime:
+        Name: APPSYNC_JS
+        RuntimeVersion: "1.0.0"
+      CodeS3Location: !Sub "s3://${TemplateBucketName}/resolvers/${Stage}/${ResolversBuildHash}/invite/Mutations/Mutation.sendInvite.js"
+
+  # Contact Form Resolver
+  SendContactResolver:
+    Type: AWS::AppSync::Resolver
+    DependsOn: SchemaReadyCustomResource
+    Properties:
+      ApiId: !GetAtt GraphQLApi.ApiId
+      TypeName: Mutation
+      FieldName: sendContact
+      DataSourceName: !GetAtt SendContactDataSource.Name
+      Kind: UNIT
+      Runtime:
+        Name: APPSYNC_JS
+        RuntimeVersion: "1.0.0"
+      CodeS3Location: !Sub "s3://${TemplateBucketName}/resolvers/${Stage}/${ResolversBuildHash}/contact/Mutations/Mutation.sendContact.js"
+
+  # Referral Resolver
+  RecordReferralResolver:
+    Type: AWS::AppSync::Resolver
+    DependsOn: SchemaReadyCustomResource
+    Properties:
+      ApiId: !GetAtt GraphQLApi.ApiId
+      TypeName: Mutation
+      FieldName: recordReferral
+      DataSourceName: !GetAtt DynamoDBDataSource.Name
+      Kind: UNIT
+      Runtime:
+        Name: APPSYNC_JS
+        RuntimeVersion: "1.0.0"
+      CodeS3Location: !Sub "s3://${TemplateBucketName}/resolvers/${Stage}/${ResolversBuildHash}/referral/Mutations/Mutation.recordReferral.js"
+
   # Chat Resolvers
   GetChatMessagesResolver:
     Type: AWS::AppSync::Resolver
@@ -386,6 +459,21 @@ Resources:
         Name: APPSYNC_JS
         RuntimeVersion: "1.0.0"
       CodeS3Location: !Sub "s3://${TemplateBucketName}/resolvers/${Stage}/${ResolversBuildHash}/chat/Mutations/Mutation.startConversation.js"
+
+  # Room List Resolver
+  GetRoomListResolver:
+    Type: AWS::AppSync::Resolver
+    DependsOn: SchemaReadyCustomResource
+    Properties:
+      ApiId: !GetAtt GraphQLApi.ApiId
+      TypeName: Query
+      FieldName: getRoomList
+      DataSourceName: !GetAtt DynamoDBDataSource.Name
+      Kind: UNIT
+      Runtime:
+        Name: APPSYNC_JS
+        RuntimeVersion: "1.0.0"
+      CodeS3Location: !Sub "s3://${TemplateBucketName}/resolvers/${Stage}/${ResolversBuildHash}/room/Queries/Query.getRoomList.js"
 
   # Admin Resolvers
   GetWebhookLogsResolver:
@@ -455,6 +543,8 @@ Resources:
                   - !Ref CreateCheckoutFunctionArn
                   - !Ref CreateTipCheckoutFunctionArn
                   - !Ref CheckEmailHasGoogleAccountFunctionArn
+                  - !Ref SendInviteFunctionArn
+                  - !Ref SendContactFunctionArn
 
   # IAM Role for AppSync CloudWatch Logs
   AppSyncLogsRole:

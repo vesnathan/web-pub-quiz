@@ -11,12 +11,12 @@ import {
   Divider,
   Select,
   SelectItem,
-  Spinner,
   Input,
 } from "@nextui-org/react";
-import { LoadingScreen } from "@/components/LoadingScreen";
+import { LoadingScreen, LoadingDots } from "@/components/LoadingScreen";
 import { useAuth } from "@/contexts/AuthContext";
 import { useLobbyChannel } from "@/hooks/useLobbyChannel";
+import { useLobbyPresence } from "@/hooks/useLobbyPresence";
 import { useGameStore } from "@/stores/gameStore";
 import { useSubscription } from "@/hooks/useSubscription";
 import { adminUpdateUserTier, adminGiftSubscription } from "@/lib/api";
@@ -27,7 +27,7 @@ const ADMIN_EMAIL = "vesnathan+qnl-admin@gmail.com";
 export default function AdminPage() {
   const router = useRouter();
   const { user, isLoading: authLoading } = useAuth();
-  const { rooms, isConnected, joinWindowOpen, secondsUntilJoinOpen } =
+  const { rooms, isConnected, maintenanceMode, setMaintenanceMode } =
     useLobbyChannel();
   const { tierName, refreshSubscription } = useSubscription();
   const [selectedTier, setSelectedTier] = useState<string>("0");
@@ -52,6 +52,17 @@ export default function AdminPage() {
     currentRoomId,
     currentRoomName,
   } = useGameStore();
+
+  // Get online users from lobby presence
+  const {
+    activeUsers,
+    activeUserCount,
+    isConnected: presenceConnected,
+  } = useLobbyPresence({
+    enabled: !!user && user.email === ADMIN_EMAIL,
+    userId: user?.userId,
+    displayName: user?.name || user?.username,
+  });
 
   const handleTierChange = useCallback(
     async (tier: string) => {
@@ -144,7 +155,7 @@ export default function AdminPage() {
   }
 
   const totalPlayers = rooms.reduce((sum, r) => sum + r.currentPlayers, 0);
-  const totalQueued = rooms.reduce((sum, r) => sum + (r.queuedPlayers || 0), 0);
+  const totalInProgress = rooms.filter((r) => r.inProgress).length;
 
   return (
     <div className="min-h-screen bg-gray-900 p-4 md:p-8">
@@ -163,38 +174,61 @@ export default function AdminPage() {
           </Button>
         </div>
 
+        {/* Maintenance Mode */}
+        <Card
+          className={`${maintenanceMode ? "bg-danger-900/50 border-danger-500" : "bg-gray-800/50"} border`}
+        >
+          <CardBody className="p-4">
+            <div className="flex items-center justify-between">
+              <div className="flex items-center gap-3">
+                <span className="text-2xl">
+                  {maintenanceMode ? "🔧" : "✅"}
+                </span>
+                <div>
+                  <div className="font-semibold text-white">
+                    {maintenanceMode
+                      ? "Maintenance Mode Active"
+                      : "Site Online"}
+                  </div>
+                  <div className="text-sm text-gray-400">
+                    {maintenanceMode
+                      ? "Users see maintenance screen"
+                      : "Users can access the site normally"}
+                  </div>
+                </div>
+              </div>
+              <Button
+                color={maintenanceMode ? "success" : "danger"}
+                variant="solid"
+                onPress={() => setMaintenanceMode(!maintenanceMode)}
+              >
+                {maintenanceMode ? "End Maintenance" : "Enable Maintenance"}
+              </Button>
+            </div>
+          </CardBody>
+        </Card>
+
         {/* Connection Status */}
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
           <StatusCard
             title="Ably Connection"
             value={isConnected ? "Connected" : "Disconnected"}
             color={isConnected ? "success" : "danger"}
           />
           <StatusCard
-            title="Join Window"
-            value={
-              joinWindowOpen
-                ? "Open"
-                : secondsUntilJoinOpen
-                  ? `Opens in ${Math.floor(secondsUntilJoinOpen / 60)}:${(secondsUntilJoinOpen % 60).toString().padStart(2, "0")}`
-                  : "Closed"
-            }
-            color={joinWindowOpen ? "success" : "warning"}
+            title="Active Games"
+            value={`${totalInProgress} / ${rooms.length}`}
+            color={totalInProgress > 0 ? "success" : "warning"}
           />
           <StatusCard
             title="Set Status"
             value={isSetActive ? "LIVE" : "Break"}
             color={isSetActive ? "success" : "warning"}
           />
-          <StatusCard
-            title="Next Set"
-            value={formatTimeUntil(nextSetTime)}
-            color="primary"
-          />
         </div>
 
         {/* Player Stats */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <StatusCard
             title="Total Rooms"
             value={rooms.length.toString()}
@@ -205,12 +239,45 @@ export default function AdminPage() {
             value={totalPlayers.toString()}
             color="default"
           />
-          <StatusCard
-            title="Queued Players"
-            value={totalQueued.toString()}
-            color="secondary"
-          />
         </div>
+
+        {/* Online Users */}
+        <Card className="bg-gray-800/50">
+          <CardHeader className="flex justify-between items-center">
+            <h2 className="text-xl font-semibold text-white">
+              Online Users ({activeUserCount})
+            </h2>
+            <Chip
+              size="sm"
+              variant="flat"
+              color={presenceConnected ? "success" : "danger"}
+            >
+              {presenceConnected ? "Live" : "Offline"}
+            </Chip>
+          </CardHeader>
+          <Divider />
+          <CardBody>
+            {activeUserCount === 0 ? (
+              <div className="text-center text-gray-400 py-8">
+                No users currently online in the lobby.
+              </div>
+            ) : (
+              <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-2">
+                {activeUsers.map((user) => (
+                  <div
+                    key={user.clientId}
+                    className="flex items-center gap-2 p-2 bg-gray-700/30 rounded-lg"
+                  >
+                    <div className="w-2 h-2 bg-green-500 rounded-full" />
+                    <span className="text-sm text-white truncate">
+                      {user.displayName}
+                    </span>
+                  </div>
+                ))}
+              </div>
+            )}
+          </CardBody>
+        </Card>
 
         {/* Rooms List */}
         <Card className="bg-gray-800/50">
@@ -321,7 +388,7 @@ export default function AdminPage() {
                 </SelectItem>
               </Select>
 
-              {isUpdatingTier && <Spinner size="sm" />}
+              {isUpdatingTier && <LoadingDots />}
 
               {tierUpdateSuccess && (
                 <Chip color="success" variant="flat" size="sm">
@@ -563,9 +630,9 @@ function RoomRow({ room }: RoomRowProps) {
           <div className="text-sm text-white">
             {room.currentPlayers}/{room.maxPlayers} players
           </div>
-          {room.queuedPlayers > 0 && (
-            <div className="text-xs text-purple-400">
-              +{room.queuedPlayers} queued
+          {room.inProgress && room.currentQuestion !== null && (
+            <div className="text-xs text-yellow-400">
+              Q{room.currentQuestion + 1}
             </div>
           )}
         </div>

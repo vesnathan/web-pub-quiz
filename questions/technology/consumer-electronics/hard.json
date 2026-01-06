@@ -1,0 +1,342 @@
+[
+  {
+    "id": "d8097857-171e-4b22-827e-5ed7caa56031",
+    "text": "Which company first introduced the concept of 'planned obsolescence' in consumer electronics by deliberately making light bulbs with shorter lifespans in the 1920s?",
+    "options": [
+      "General Electric",
+      "Phoebus cartel",
+      "Westinghouse",
+      "Siemens"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "The Phoebus cartel was an international conspiracy that controlled light bulb manufacturing and deliberately reduced bulb lifespans.",
+    "detailedExplanation": "The Phoebus cartel, formed in 1924, was a secret agreement between major light bulb manufacturers including General Electric, Osram, and Philips. They conspired to limit the lifespan of incandescent bulbs to 1,000 hours, despite being able to produce bulbs lasting much longer. This marked one of the first systematic implementations of planned obsolescence in consumer electronics, a practice that would later become widespread in the industry.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Phoebus_cartel",
+    "citationTitle": "Wikipedia: Phoebus cartel"
+  },
+  {
+    "id": "26bd0b77-1427-4f13-92e1-2c635acef038",
+    "text": "What does the 'K' stand for in the display resolution standard '4K'?",
+    "options": [
+      "Kilopixels (1,000 pixels)",
+      "Kilo (approximately 4,000 horizontal pixels)",
+      "Korean standard",
+      "Kelvin color temperature"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "The 'K' stands for kilo, referring to approximately 4,000 horizontal pixels in the display resolution.",
+    "detailedExplanation": "In 4K resolution, the 'K' represents kilo, indicating that there are approximately 4,000 horizontal pixels across the screen. The most common 4K standard is 3840 × 2160 pixels for consumer displays, while cinema 4K is 4096 × 2160. This naming convention differs from previous standards like 1080p, which referred to vertical pixels, making 4K's horizontal pixel reference somewhat confusing to consumers.",
+    "citationUrl": "https://en.wikipedia.org/wiki/4K_resolution",
+    "citationTitle": "Wikipedia: 4K resolution"
+  },
+  {
+    "id": "b4e37ad7-a48a-4c82-b229-55c34e652be2",
+    "text": "Which rare earth element is crucial for manufacturing the permanent magnets in smartphone speakers and hard drive actuators?",
+    "options": [
+      "Lithium",
+      "Neodymium",
+      "Tantalum",
+      "Indium"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Neodymium is essential for creating powerful permanent magnets used in speakers, hard drives, and other electronic components.",
+    "detailedExplanation": "Neodymium is a rare earth element that, when combined with iron and boron, creates some of the strongest permanent magnets available commercially. These neodymium-iron-boron (NdFeB) magnets are critical components in consumer electronics, particularly in miniaturized speakers for smartphones, headphones, and the voice coil motors that position read/write heads in hard disk drives. The element's magnetic properties allow for smaller, more powerful components essential to modern portable electronics.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Neodymium_magnet",
+    "citationTitle": "Wikipedia: Neodymium magnet"
+  },
+  {
+    "id": "4a1260a9-6594-43c2-9717-3001b1a2cf81",
+    "text": "What technology preceded Bluetooth for short-range wireless communication between consumer devices in the 1990s?",
+    "options": [
+      "Wi-Fi Direct",
+      "IrDA (Infrared Data Association)",
+      "NFC",
+      "ZigBee"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "IrDA used infrared light for short-range communication between devices before Bluetooth became widespread.",
+    "detailedExplanation": "Before Bluetooth revolutionized short-range wireless communication, the Infrared Data Association (IrDA) standard was widely used in the 1990s. IrDA enabled devices like laptops, PDAs, and early mobile phones to communicate using infrared light beams. However, it required direct line-of-sight between devices and had limited range. Despite these limitations, IrDA was popular for transferring files, synchronizing data, and even printing wirelessly until Bluetooth's superior range and non-line-of-sight capabilities made it obsolete.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Infrared_Data_Association",
+    "citationTitle": "Wikipedia: Infrared Data Association"
+  },
+  {
+    "id": "b649c165-b4e7-4c78-b51f-c448684e07a3",
+    "text": "Which company developed the first commercially successful flat-panel plasma display technology for televisions?",
+    "options": [
+      "Sony",
+      "Fujitsu",
+      "Pioneer",
+      "Panasonic"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Fujitsu developed the first commercially viable plasma display panels, though multiple companies contributed to the technology.",
+    "detailedExplanation": "While plasma display technology was invented at the University of Illinois in 1964, Fujitsu was the first company to successfully commercialize flat-panel plasma displays in the 1990s. They overcame significant technical challenges including achieving adequate brightness, color reproduction, and manufacturing scalability. Fujitsu's breakthrough enabled the development of large, thin televisions that could compete with CRT displays, paving the way for the flat-panel TV revolution before LCD and OLED technologies eventually dominated the market.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Plasma_display",
+    "citationTitle": "Wikipedia: Plasma display"
+  },
+  {
+    "id": "ab14efc4-5596-4d24-ad0a-ce6205893dab",
+    "text": "What does 'DPI' specifically measure in the context of computer mice sensitivity?",
+    "options": [
+      "Dots per inch of screen resolution",
+      "Distance per inch of mouse movement",
+      "Detection points per inch of sensor travel",
+      "Diagonal pixels per inch of movement"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "DPI measures how many detection points the mouse sensor can identify per inch of physical movement.",
+    "detailedExplanation": "In computer mice, DPI (Dots Per Inch) refers to how many individual detection points the optical or laser sensor can identify as it moves across a surface within one inch of travel. A higher DPI means the sensor can detect smaller movements and translate them into cursor movement on screen. For example, a 1600 DPI mouse can detect 1600 distinct points per inch of movement. This measurement directly affects mouse sensitivity - higher DPI means the cursor moves further on screen for the same physical mouse movement.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Computer_mouse",
+    "citationTitle": "Wikipedia: Computer mouse"
+  },
+  {
+    "id": "da2ee8a1-da33-4a52-9837-08b5072c4cc8",
+    "text": "Which audio codec is considered 'lossless' and maintains original audio quality without compression artifacts?",
+    "options": [
+      "MP3",
+      "AAC",
+      "FLAC",
+      "OGG Vorbis"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "FLAC (Free Lossless Audio Codec) compresses audio without any quality loss, unlike lossy formats like MP3.",
+    "detailedExplanation": "FLAC (Free Lossless Audio Codec) is a lossless compression format that reduces file sizes without discarding any audio information, unlike lossy formats such as MP3 or AAC which remove data deemed less important to human hearing. FLAC typically achieves 50-70% of original file size while maintaining bit-perfect audio reproduction. This makes it popular among audiophiles and for archiving high-quality recordings, though the larger file sizes compared to lossy formats limit its use in portable devices with storage constraints.",
+    "citationUrl": "https://en.wikipedia.org/wiki/FLAC",
+    "citationTitle": "Wikipedia: FLAC"
+  },
+  {
+    "id": "c49ab881-a095-489f-9041-eba4b82f8a4f",
+    "text": "What phenomenon causes the temporary image retention sometimes seen on OLED displays after showing static content?",
+    "options": [
+      "Pixel burn-in",
+      "Screen tearing",
+      "Color banding",
+      "Temporal dithering"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Pixel burn-in occurs when OLED pixels degrade unevenly, causing permanent or temporary image retention.",
+    "detailedExplanation": "OLED displays suffer from burn-in because individual organic light-emitting diodes degrade at different rates depending on usage. When static images like logos, taskbars, or UI elements are displayed for extended periods, those specific pixels age faster than others, leading to uneven degradation. This results in permanent 'ghost images' that remain visible even when displaying different content. Modern OLED devices implement various mitigation techniques like pixel shifting, screensavers, and automatic brightness adjustment to minimize this issue, but burn-in remains an inherent limitation of OLED technology.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Screen_burn-in",
+    "citationTitle": "Wikipedia: Screen burn-in"
+  },
+  {
+    "id": "993ffff1-da98-4c83-b3a8-eee10610e645",
+    "text": "Which consumer electronics company was the first to successfully commercialize the lithium-ion battery technology in 1991?",
+    "options": [
+      "Panasonic",
+      "Sony",
+      "Samsung",
+      "Duracell"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Sony was the first company to commercialize lithium-ion batteries in 1991, initially for their camcorders.",
+    "detailedExplanation": "Sony developed and commercialized the first lithium-ion battery in 1991, building on research by John Goodenough and others. This breakthrough technology revolutionized portable electronics by providing higher energy density and longer-lasting power compared to previous nickel-cadmium batteries. Sony's initial application was in their camcorders, but the technology quickly spread to laptops, phones, and virtually all modern portable devices.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Lithium-ion_battery",
+    "citationTitle": "Wikipedia: Lithium-ion battery"
+  },
+  {
+    "id": "bb98a7d8-dda2-4ea8-bb8e-a0af5092f14a",
+    "text": "What does 'HDR10+' add to the original HDR10 standard in modern televisions and displays?",
+    "options": [
+      "Higher peak brightness",
+      "Dynamic metadata",
+      "Wider color gamut",
+      "Lower input lag"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "HDR10+ adds dynamic metadata that allows scene-by-scene or frame-by-frame optimization of HDR content.",
+    "detailedExplanation": "HDR10+ is an enhanced version of the HDR10 standard developed by Samsung, Amazon, and 20th Century Fox. The key improvement is the addition of dynamic metadata, which provides tone mapping instructions on a scene-by-scene or even frame-by-frame basis. This allows displays to optimize brightness, contrast, and color for each specific scene, rather than using static metadata for the entire content like standard HDR10.",
+    "citationUrl": "https://en.wikipedia.org/wiki/High_dynamic_range_video",
+    "citationTitle": "Wikipedia: High dynamic range video"
+  },
+  {
+    "id": "43c09dfd-39b4-46ab-9d1a-73a92cce9de4",
+    "text": "Which semiconductor fabrication process node was the first to use Extreme Ultraviolet (EUV) lithography in mass production?",
+    "options": [
+      "10nm",
+      "7nm",
+      "5nm",
+      "3nm"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "The 7nm process node was the first to implement EUV lithography in mass production, starting around 2018-2019.",
+    "detailedExplanation": "Extreme Ultraviolet (EUV) lithography represents a major breakthrough in semiconductor manufacturing, using light with a wavelength of 13.5 nanometers to create smaller transistor features. TSMC and Samsung first implemented EUV in their 7nm process nodes for mass production around 2018-2019. This technology was crucial for continuing Moore's Law and enabling the advanced processors found in modern smartphones, tablets, and other consumer electronics.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Extreme_ultraviolet_lithography",
+    "citationTitle": "Wikipedia: Extreme ultraviolet lithography"
+  },
+  {
+    "id": "1d3d8b4d-8bc5-4c03-b9df-f92a1ce4d7f6",
+    "text": "What is the maximum theoretical data transfer rate of USB 4.0?",
+    "options": [
+      "20 Gbps",
+      "40 Gbps",
+      "80 Gbps",
+      "100 Gbps"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "USB 4.0 has a maximum theoretical data transfer rate of 40 Gbps, doubling the speed of USB 3.2.",
+    "detailedExplanation": "USB 4.0, released in 2019, represents a significant leap in data transfer capabilities with a maximum theoretical speed of 40 Gbps. This standard is based on the Thunderbolt 3 protocol and uses USB-C connectors exclusively. The 40 Gbps bandwidth can be dynamically allocated between data and video signals, making it particularly useful for connecting high-resolution displays and fast storage devices to laptops and other consumer electronics.",
+    "citationUrl": "https://en.wikipedia.org/wiki/USB4",
+    "citationTitle": "Wikipedia: USB4"
+  },
+  {
+    "id": "6eaca1c5-cd02-43c4-943e-f3d6c1beb2f4",
+    "text": "Which type of memory technology is primarily used for the main storage in modern solid-state drives (SSDs)?",
+    "options": [
+      "SRAM",
+      "DRAM",
+      "NAND Flash",
+      "FRAM"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "NAND Flash memory is the primary storage technology used in modern SSDs due to its non-volatile nature and cost-effectiveness.",
+    "detailedExplanation": "NAND Flash memory is the dominant technology in modern SSDs because it retains data without power (non-volatile), offers good performance, and has become increasingly cost-effective. NAND Flash stores data by trapping electrons in floating gates within memory cells. Modern SSDs use various types including Single-Level Cell (SLC), Multi-Level Cell (MLC), Triple-Level Cell (TLC), and Quad-Level Cell (QLC) NAND, each offering different trade-offs between performance, endurance, and cost.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Flash_memory",
+    "citationTitle": "Wikipedia: Flash memory"
+  },
+  {
+    "id": "7e167fde-6936-4404-951d-9da5c5928415",
+    "text": "What technology do most modern smartphones use to determine their precise orientation and enable screen rotation?",
+    "options": [
+      "Gyroscope",
+      "Accelerometer",
+      "Magnetometer",
+      "GPS"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Accelerometers detect changes in device orientation by measuring gravitational forces, enabling automatic screen rotation.",
+    "detailedExplanation": "While modern smartphones contain multiple sensors, the accelerometer is the primary sensor responsible for detecting device orientation and enabling automatic screen rotation. Accelerometers measure acceleration forces, including gravity, to determine how the device is positioned in 3D space. Most smartphones use MEMS (Micro-Electro-Mechanical Systems) accelerometers, which are tiny mechanical structures that can detect even small changes in orientation and movement.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Accelerometer",
+    "citationTitle": "Wikipedia: Accelerometer"
+  },
+  {
+    "id": "d63e69ab-afa0-4cad-91f2-0ea61e96df9f",
+    "text": "Which wireless charging standard supports the highest power delivery for fast charging of smartphones?",
+    "options": [
+      "Qi",
+      "PMA",
+      "AirFuel",
+      "Qi2"
+    ],
+    "correctIndex": 3,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Qi2, the newest wireless charging standard, supports up to 15W and includes magnetic alignment similar to Apple's MagSafe.",
+    "detailedExplanation": "Qi2 is the latest wireless charging standard developed by the Wireless Power Consortium, launched in 2023. It incorporates magnetic alignment technology similar to Apple's MagSafe, ensuring optimal positioning for efficient charging. Qi2 supports up to 15W of power delivery, which is higher than the original Qi standard's typical 5-10W. The magnetic alignment not only improves charging efficiency but also enables new accessories and use cases for wireless charging in consumer electronics.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Qi_(standard)",
+    "citationTitle": "Wikipedia: Qi (standard)"
+  },
+  {
+    "id": "884d60fb-bdd7-418e-a311-679c7529bff5",
+    "text": "What does 'PWM dimming' control in LCD displays, and what side effect can it cause for some users?",
+    "options": [
+      "Color temperature; eye strain",
+      "Brightness; flickering",
+      "Contrast ratio; burn-in",
+      "Response time; motion blur"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "PWM dimming controls brightness by rapidly turning the backlight on and off, which can cause perceptible flickering for some users.",
+    "detailedExplanation": "Pulse Width Modulation (PWM) dimming is a common method used in LCD displays to control brightness. Instead of reducing the actual power to the backlight, PWM rapidly switches the backlight on and off at frequencies typically between 200Hz to 2000Hz. The perceived brightness depends on the ratio of 'on' time to 'off' time. However, some users are sensitive to this flickering, especially at lower brightness levels where the off-time is longer, potentially causing eye strain, headaches, or fatigue. Some manufacturers have moved to DC dimming or higher frequency PWM to address this issue.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Pulse-width_modulation",
+    "citationTitle": "Wikipedia: Pulse-width modulation"
+  },
+  {
+    "id": "fae2dac3-8b3a-45db-bac5-552f5de7a9a1",
+    "text": "Which consumer electronics company introduced the first commercially available digital camera for home users in 1975, though it weighed 8 pounds and took 23 seconds to capture a single black-and-white image?",
+    "options": [
+      "Canon",
+      "Kodak",
+      "Sony",
+      "Polaroid"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "Kodak developed the first digital camera prototype in 1975, created by engineer Steven Sasson.",
+    "detailedExplanation": "Kodak engineer Steven Sasson created the first digital camera in 1975, which used a CCD image sensor and recorded images to a cassette tape. The camera weighed 8 pounds, had a resolution of 0.01 megapixels (10,000 pixels), and took 23 seconds to capture an image and another 23 seconds to display it on a television screen. Ironically, Kodak's leadership was hesitant to pursue digital photography, fearing it would cannibalize their profitable film business, which ultimately contributed to their decline decades later.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Digital_camera",
+    "citationTitle": "Wikipedia: Digital camera"
+  },
+  {
+    "id": "fd0fc2f6-cc1c-4670-b86a-fd3a162a28bd",
+    "text": "What is the primary advantage of Gallium Nitride (GaN) technology in modern consumer electronics chargers and power adapters?",
+    "options": [
+      "Higher data transfer speeds",
+      "Better heat dissipation while maintaining smaller size",
+      "Wireless charging capability",
+      "Improved battery chemistry"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "GaN semiconductors operate more efficiently than traditional silicon, generating less heat and allowing for smaller, more powerful chargers.",
+    "detailedExplanation": "Gallium Nitride (GaN) is a wide-bandgap semiconductor material that has superior electrical properties compared to traditional silicon. In power electronics, GaN transistors can switch faster and more efficiently, resulting in less energy lost as heat. This efficiency allows manufacturers to create much smaller chargers and power adapters that can deliver the same or higher power output. For example, a 65W GaN charger can be 40-50% smaller than a traditional silicon-based charger while running cooler and more efficiently.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Gallium_nitride",
+    "citationTitle": "Wikipedia: Gallium nitride"
+  },
+  {
+    "id": "6be561a0-4d91-483d-a65b-565c4291c195",
+    "text": "Which display technology uses quantum dots to enhance color reproduction and is commonly marketed as 'QLED' by major TV manufacturers?",
+    "options": [
+      "Organic Light Emitting Diode",
+      "Liquid Crystal Display with quantum dot enhancement",
+      "MicroLED",
+      "Electronic Paper Display"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "QLED TVs use quantum dots as a color enhancement layer over traditional LCD panels with LED backlighting.",
+    "detailedExplanation": "QLED (Quantum Dot Light Emitting Diode) displays are actually LCD panels enhanced with a quantum dot color filter. Quantum dots are semiconductor nanocrystals that emit specific colors when illuminated by blue LED backlights. When blue light hits these quantum dots, they convert it to highly pure red and green light, significantly expanding the color gamut compared to traditional LCD displays. This technology allows QLED TVs to achieve much more vibrant and accurate colors while maintaining the brightness advantages of LCD technology, though they still require backlighting unlike true OLED displays.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Quantum_dot_display",
+    "citationTitle": "Wikipedia: Quantum dot display"
+  },
+  {
+    "id": "297b8e0d-d5f3-4b66-9647-5aa72f5381fa",
+    "text": "What does 'FinFET' refer to in the context of modern smartphone processors and other consumer electronics chips?",
+    "options": [
+      "A type of cooling fin design",
+      "A 3D transistor architecture that improves power efficiency",
+      "A wireless communication protocol",
+      "A type of memory cache organization"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "hard",
+    "explanation": "FinFET is a 3D transistor design that allows better control of electrical current, reducing power consumption and enabling smaller chip sizes.",
+    "detailedExplanation": "FinFET (Fin Field-Effect Transistor) is a type of 3D transistor architecture used in advanced semiconductor manufacturing processes. Unlike traditional planar transistors, FinFETs have a fin-like structure that rises vertically from the substrate, allowing the gate to wrap around three sides of the channel. This 3D design provides better control over the flow of electrical current, significantly reducing power leakage and enabling transistors to be made smaller while maintaining performance. FinFET technology became essential for mobile processors starting around the 14nm process node and is crucial for achieving the power efficiency required in smartphones and other battery-powered devices.",
+    "citationUrl": "https://en.wikipedia.org/wiki/FinFET",
+    "citationTitle": "Wikipedia: FinFET"
+  }
+]

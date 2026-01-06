@@ -5,7 +5,7 @@ import { useSearchParams } from "next/navigation";
 import { Card, CardBody, Button } from "@nextui-org/react";
 import { useRouter } from "next/navigation";
 import { Navbar } from "@/components/Navbar";
-import { Footer } from "@/components/Footer";
+import { AppFooter } from "@/components/AppFooter";
 import { LoadingScreen } from "@/components/LoadingScreen";
 import { useAuth } from "@/contexts/AuthContext";
 import { createTipCheckout } from "@/lib/api";
@@ -139,7 +139,7 @@ function TipPageContent() {
           </CardBody>
         </Card>
       </main>
-      <Footer />
+      <AppFooter />
     </>
   );
 }

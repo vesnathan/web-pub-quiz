@@ -108,10 +108,11 @@ export async function sendChatMessage(
  */
 export async function startConversation(
   targetUserId: string,
+  targetDisplayName: string,
 ): Promise<Conversation | null> {
   const result = (await graphqlClient.graphql({
     query: START_CONVERSATION,
-    variables: { targetUserId },
+    variables: { targetUserId, targetDisplayName },
   })) as StartConversationResponse;
 
   if (!result.data?.startConversation) {
@@ -129,38 +130,99 @@ export async function startConversation(
 export interface ChatMessageSubscriptionCallbacks {
   onMessage: (message: ChatMessage) => void;
   onError?: (error: Error) => void;
+  onReconnect?: () => void;
 }
 
 /**
- * Subscribe to new chat messages for a channel
- * Returns an object with an unsubscribe method
+ * Subscribe to new chat messages for a channel with automatic retry on failure.
+ * Returns an object with an unsubscribe method.
+ *
+ * Retry strategy:
+ * - Exponential backoff starting at 1 second, maxing at 30 seconds
+ * - Infinite retries until manually unsubscribed
  */
 export function subscribeToChatMessages(
   channelId: string,
   callbacks: ChatMessageSubscriptionCallbacks,
 ): { unsubscribe: () => void } {
-  const subscription = graphqlClient.graphql({
-    query: ON_NEW_CHAT_MESSAGE,
-    variables: { channelId },
-  });
+  let currentSub: { unsubscribe: () => void } | null = null;
+  let retryCount = 0;
+  let retryTimeout: ReturnType<typeof setTimeout> | null = null;
+  let isUnsubscribed = false;
 
-  // @ts-expect-error - Amplify subscription type mismatch
-  const sub = subscription.subscribe({
-    next: ({ data }: { data: { onNewChatMessage: ChatMessage } }) => {
-      if (data.onNewChatMessage) {
-        callbacks.onMessage(data.onNewChatMessage);
-      }
-    },
-    error: (error: Error) => {
-      if (callbacks.onError) {
-        callbacks.onError(error);
-      } else {
+  const MAX_RETRY_DELAY = 30000; // 30 seconds
+  const BASE_RETRY_DELAY = 1000; // 1 second
+
+  const calculateRetryDelay = (attempt: number): number => {
+    // Exponential backoff: 1s, 2s, 4s, 8s, 16s, 30s (capped)
+    const delay = Math.min(
+      BASE_RETRY_DELAY * Math.pow(2, attempt),
+      MAX_RETRY_DELAY,
+    );
+    // Add jitter to prevent thundering herd
+    return delay + Math.random() * 1000;
+  };
+
+  const createSubscription = () => {
+    if (isUnsubscribed) return;
+
+    const subscription = graphqlClient.graphql({
+      query: ON_NEW_CHAT_MESSAGE,
+      variables: { channelId },
+    });
+
+    // @ts-expect-error - Amplify subscription type mismatch
+    currentSub = subscription.subscribe({
+      next: ({ data }: { data: { onNewChatMessage: ChatMessage } }) => {
+        // Reset retry count on successful message
+        retryCount = 0;
+        if (data.onNewChatMessage) {
+          callbacks.onMessage(data.onNewChatMessage);
+        }
+      },
+      error: (error: Error) => {
         console.error("Chat subscription error:", error);
-      }
-    },
-  });
+
+        if (callbacks.onError) {
+          callbacks.onError(error);
+        }
+
+        // Attempt to reconnect if not manually unsubscribed
+        if (!isUnsubscribed) {
+          const delay = calculateRetryDelay(retryCount);
+          retryCount++;
+
+          console.log(
+            `Chat subscription reconnecting in ${Math.round(delay / 1000)}s (attempt ${retryCount})`,
+          );
+
+          retryTimeout = setTimeout(() => {
+            if (!isUnsubscribed) {
+              if (callbacks.onReconnect) {
+                callbacks.onReconnect();
+              }
+              createSubscription();
+            }
+          }, delay);
+        }
+      },
+    });
+  };
+
+  // Start the subscription
+  createSubscription();
 
   return {
-    unsubscribe: () => sub.unsubscribe(),
+    unsubscribe: () => {
+      isUnsubscribed = true;
+      if (retryTimeout) {
+        clearTimeout(retryTimeout);
+        retryTimeout = null;
+      }
+      if (currentSub) {
+        currentSub.unsubscribe();
+        currentSub = null;
+      }
+    },
   };
 }

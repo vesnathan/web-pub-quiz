@@ -1,0 +1,342 @@
+[
+  {
+    "id": "245dd000-7275-4f38-9f6c-dd4c26ab9358",
+    "text": "What does the term 'Turing Test' measure in artificial intelligence?",
+    "options": [
+      "A machine's ability to exhibit intelligent behavior indistinguishable from a human",
+      "A computer's processing speed and memory capacity",
+      "The accuracy of machine learning predictions",
+      "A robot's ability to perform physical tasks"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "The Turing Test evaluates whether a machine can engage in conversations indistinguishable from a human.",
+    "detailedExplanation": "Proposed by Alan Turing in 1950, the Turing Test is a test of a machine's ability to exhibit intelligent behavior equivalent to, or indistinguishable from, that of a human. In the test, a human evaluator judges natural language conversations between a human and a machine designed to generate human-like responses. If the evaluator cannot reliably tell the machine from the human, the machine is said to have passed the test.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Turing_test",
+    "citationTitle": "Wikipedia: Turing test"
+  },
+  {
+    "id": "6c2303a9-38f5-487e-ab68-b5f6975f907d",
+    "text": "Which AI system defeated world chess champion Garry Kasparov in 1997?",
+    "options": [
+      "Watson",
+      "Deep Blue",
+      "AlphaGo",
+      "Stockfish"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "IBM's Deep Blue became the first computer to defeat a reigning world chess champion in a match.",
+    "detailedExplanation": "Deep Blue was a chess-playing computer developed by IBM. It was the first computer to win both a chess game and a chess match against a reigning world champion under regular tournament conditions. On May 11, 1997, the machine won a six-game match against world champion Garry Kasparov by two wins to one with three draws. This victory was considered a significant milestone in artificial intelligence and computer chess.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Deep_Blue_(chess_computer)",
+    "citationTitle": "Wikipedia: Deep Blue (chess computer)"
+  },
+  {
+    "id": "5e0c92db-e954-46f3-b139-435d41512a66",
+    "text": "What does 'GPT' stand for in the context of AI language models?",
+    "options": [
+      "General Purpose Technology",
+      "Generative Pre-trained Transformer",
+      "Global Processing Terminal",
+      "Guided Parameter Training"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "GPT stands for Generative Pre-trained Transformer, a type of language model architecture.",
+    "detailedExplanation": "GPT (Generative Pre-trained Transformer) is a family of large language models created by OpenAI. These models are based on the transformer architecture and are pre-trained on large datasets of text from the internet. They are generative models, meaning they can produce human-like text, and they use unsupervised learning to understand language patterns. The GPT series includes GPT-1, GPT-2, GPT-3, and GPT-4, each progressively more powerful than the last.",
+    "citationUrl": "https://en.wikipedia.org/wiki/GPT-3",
+    "citationTitle": "Wikipedia: GPT-3"
+  },
+  {
+    "id": "425d93d6-7469-4889-83ee-483551f609fd",
+    "text": "Which type of machine learning requires labeled training data?",
+    "options": [
+      "Unsupervised learning",
+      "Reinforcement learning",
+      "Supervised learning",
+      "Semi-supervised learning"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Supervised learning uses labeled examples to train models to make predictions on new data.",
+    "detailedExplanation": "Supervised learning is a type of machine learning where the algorithm learns from labeled training data. In this approach, the training dataset contains input-output pairs, where the correct answer (label) is provided for each example. The algorithm uses these examples to learn patterns and relationships, enabling it to make predictions or classifications on new, unseen data. Common examples include email spam detection, image recognition, and medical diagnosis systems.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Supervised_learning",
+    "citationTitle": "Wikipedia: Supervised learning"
+  },
+  {
+    "id": "9287c380-b8c2-4aa9-8a3e-6eeb91d2d02d",
+    "text": "What is the primary function of a neural network's 'activation function'?",
+    "options": [
+      "To store memory between training sessions",
+      "To introduce non-linearity and determine if a neuron should be activated",
+      "To connect different layers of the network",
+      "To reduce the size of input data"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Activation functions introduce non-linearity and control whether neurons pass signals forward in the network.",
+    "detailedExplanation": "An activation function in a neural network determines whether a neuron should be activated or not by calculating the weighted sum of inputs and adding bias. The main purpose is to introduce non-linearity into the network, which allows it to learn and model complex patterns. Without activation functions, neural networks would only be able to learn linear relationships. Common activation functions include ReLU, sigmoid, and tanh, each with different properties that make them suitable for different types of problems.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Activation_function",
+    "citationTitle": "Wikipedia: Activation function"
+  },
+  {
+    "id": "c53d935e-dd9b-47dd-b641-80778428bb14",
+    "text": "Which AI technique is specifically designed to generate new content that resembles training data?",
+    "options": [
+      "Classification algorithms",
+      "Regression analysis",
+      "Generative Adversarial Networks (GANs)",
+      "Decision trees"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "GANs use two competing neural networks to generate realistic new content.",
+    "detailedExplanation": "Generative Adversarial Networks (GANs) are a class of machine learning frameworks where two neural networks compete against each other in a game-theoretic scenario. The generator network creates fake data, while the discriminator network tries to distinguish between real and fake data. Through this adversarial process, the generator becomes increasingly skilled at creating realistic content. GANs have been used to generate realistic images, create art, synthesize speech, and even generate deepfake videos.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Generative_adversarial_network",
+    "citationTitle": "Wikipedia: Generative adversarial network"
+  },
+  {
+    "id": "5adb6b60-2ef0-4100-ad4e-830a7ebc4f65",
+    "text": "What does 'AI bias' typically refer to in machine learning systems?",
+    "options": [
+      "The tendency for AI to make random errors",
+      "Unfair or discriminatory outcomes resulting from biased training data or algorithms",
+      "The preference for certain programming languages",
+      "The speed difference between different AI models"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "AI bias occurs when systems produce unfair results due to prejudiced training data or flawed algorithms.",
+    "detailedExplanation": "AI bias refers to systematic and unfair discrimination that occurs in artificial intelligence systems. This can happen when training data contains historical biases, when certain groups are underrepresented in datasets, or when algorithms inadvertently learn to discriminate. Examples include facial recognition systems performing poorly on darker skin tones, hiring algorithms favoring certain demographics, or loan approval systems discriminating against specific groups. Addressing AI bias is crucial for creating fair and equitable AI systems.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Algorithmic_bias",
+    "citationTitle": "Wikipedia: Algorithmic bias"
+  },
+  {
+    "id": "c24cf751-8575-44f5-9514-8b7a0e2b9c63",
+    "text": "Which AI milestone involved defeating professional players in the ancient board game Go?",
+    "options": [
+      "IBM Watson",
+      "DeepMind's AlphaGo",
+      "OpenAI Five",
+      "Facebook's Pluribus"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "AlphaGo made headlines by defeating world champion Go players, a feat previously thought impossible for computers.",
+    "detailedExplanation": "AlphaGo, developed by Google DeepMind, became the first computer program to defeat a professional human Go player without handicaps on a full-sized board. In March 2016, it defeated Lee Sedol, one of the world's top Go players, in a five-game match. This was considered a major breakthrough because Go has an enormous number of possible positions (more than atoms in the observable universe), making it far more complex than chess. AlphaGo used deep neural networks and Monte Carlo tree search to master the game.",
+    "citationUrl": "https://en.wikipedia.org/wiki/AlphaGo",
+    "citationTitle": "Wikipedia: AlphaGo"
+  },
+  {
+    "id": "ff6ae7d0-b968-48a7-8e43-c545bd7b46a0",
+    "text": "What does the acronym 'NLP' stand for in artificial intelligence?",
+    "options": [
+      "Natural Language Processing",
+      "Neural Learning Protocol",
+      "Network Logic Programming",
+      "Numerical Logic Processing"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "NLP stands for Natural Language Processing, the field of AI that deals with understanding and generating human language.",
+    "detailedExplanation": "Natural Language Processing (NLP) is a branch of artificial intelligence that focuses on the interaction between computers and human language. It involves teaching machines to understand, interpret, and generate human language in a way that is both meaningful and useful. NLP combines computational linguistics with statistical, machine learning, and deep learning models to enable computers to process and analyze large amounts of natural language data.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Natural_language_processing",
+    "citationTitle": "Wikipedia: Natural Language Processing"
+  },
+  {
+    "id": "6e190d5f-907f-4236-a429-6a12ce1a9f13",
+    "text": "Which company developed the AI assistant Alexa?",
+    "options": [
+      "Google",
+      "Apple",
+      "Amazon",
+      "Microsoft"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Amazon developed Alexa, the voice-controlled AI assistant that powers Echo devices and other smart home products.",
+    "detailedExplanation": "Amazon Alexa is a virtual assistant AI technology developed by Amazon, first used in the Amazon Echo smart speaker. Launched in 2014, Alexa is capable of voice interaction, music playback, making to-do lists, setting alarms, streaming podcasts, playing audiobooks, and providing weather, traffic, sports, and other real-time information. The name 'Alexa' was chosen because it has a hard consonant with the X, which helps in voice recognition.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Amazon_Alexa",
+    "citationTitle": "Wikipedia: Amazon Alexa"
+  },
+  {
+    "id": "8f5be1db-2395-4611-b28d-492a15130ff6",
+    "text": "What is the term for AI systems that can perform any intellectual task that a human can do?",
+    "options": [
+      "Narrow AI",
+      "Artificial General Intelligence",
+      "Machine Learning",
+      "Deep Learning"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Artificial General Intelligence (AGI) refers to AI systems with human-level cognitive abilities across all domains.",
+    "detailedExplanation": "Artificial General Intelligence (AGI) is a theoretical form of artificial intelligence that would match or exceed human cognitive abilities across all domains of knowledge and reasoning. Unlike current AI systems that are designed for specific tasks (narrow AI), AGI would have the ability to understand, learn, and apply knowledge across a wide range of tasks at a level equal to or beyond human capability. AGI remains a goal rather than a current reality in AI research.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Artificial_general_intelligence",
+    "citationTitle": "Wikipedia: Artificial General Intelligence"
+  },
+  {
+    "id": "dfe04ae6-ccf4-48f1-997a-20c1f7b86e10",
+    "text": "Which programming language is most commonly associated with AI and machine learning development?",
+    "options": [
+      "Java",
+      "C++",
+      "Python",
+      "JavaScript"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Python is the most popular programming language for AI and machine learning due to its simplicity and extensive libraries.",
+    "detailedExplanation": "Python has become the dominant programming language in artificial intelligence and machine learning development. Its popularity stems from its simple, readable syntax that allows researchers and developers to focus on solving AI problems rather than dealing with complex code. Python also has an extensive ecosystem of AI-specific libraries such as TensorFlow, PyTorch, scikit-learn, and NumPy, which provide powerful tools for building and training machine learning models.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Python_(programming_language)",
+    "citationTitle": "Wikipedia: Python Programming Language"
+  },
+  {
+    "id": "d888e099-2e0a-45ae-a251-e47957c1a4aa",
+    "text": "What does 'IoT' stand for in the context of connected AI devices?",
+    "options": [
+      "Internet of Things",
+      "Intelligence of Technology",
+      "Integration of Tools",
+      "Interface of Terminals"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "IoT stands for Internet of Things, referring to the network of interconnected devices that can collect and exchange data.",
+    "detailedExplanation": "The Internet of Things (IoT) refers to the network of physical objects or 'things' embedded with electronics, software, sensors, and network connectivity, which enables these objects to collect and exchange data. In the context of AI, IoT devices can gather vast amounts of real-world data that can be processed by artificial intelligence systems to make intelligent decisions, automate processes, and provide insights. Examples include smart thermostats, connected cars, and industrial sensors.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Internet_of_things",
+    "citationTitle": "Wikipedia: Internet of Things"
+  },
+  {
+    "id": "243693b4-b60d-4c11-ae65-2ee3cd012a78",
+    "text": "Which AI technique is inspired by the structure and function of the human brain?",
+    "options": [
+      "Decision Trees",
+      "Neural Networks",
+      "Linear Regression",
+      "Rule-based Systems"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Neural Networks are modeled after the structure and function of biological neural networks in the human brain.",
+    "detailedExplanation": "Neural networks are computing systems inspired by the biological neural networks that constitute animal brains. They consist of interconnected nodes (artificial neurons) that process information using a connectionist approach to computation. Like biological neurons, artificial neural networks receive inputs, process them through weighted connections, and produce outputs. This brain-inspired architecture allows neural networks to learn complex patterns and relationships in data through training processes that adjust the connection weights.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Neural_network",
+    "citationTitle": "Wikipedia: Neural Network"
+  },
+  {
+    "id": "3eea24e6-fa58-4f5e-9a76-d9110f4564b8",
+    "text": "What is the term for training AI systems using rewards and punishments?",
+    "options": [
+      "Supervised Learning",
+      "Unsupervised Learning",
+      "Reinforcement Learning",
+      "Transfer Learning"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Reinforcement Learning trains AI agents through a system of rewards and punishments based on their actions.",
+    "detailedExplanation": "Reinforcement Learning is a type of machine learning where an agent learns to make decisions by performing actions in an environment and receiving rewards or penalties based on the outcomes. The agent's goal is to learn a strategy that maximizes cumulative reward over time. This approach is inspired by behavioral psychology and has been successfully applied to game playing (like AlphaGo), robotics, autonomous vehicles, and recommendation systems. The agent explores different actions and learns from the consequences without being explicitly told what to do.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Reinforcement_learning",
+    "citationTitle": "Wikipedia: Reinforcement Learning"
+  },
+  {
+    "id": "d641ea09-b47d-47be-8d47-176c01d124e5",
+    "text": "Which company created the AI image generator DALL-E?",
+    "options": [
+      "Google",
+      "Meta",
+      "OpenAI",
+      "Adobe"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "DALL-E is an AI image generation system developed by OpenAI that creates images from text descriptions.",
+    "detailedExplanation": "DALL-E is a neural network-based AI system created by OpenAI that generates digital images from natural language descriptions. Named as a combination of the artist Salvador Dalí and the Pixar character WALL-E, DALL-E demonstrates the ability to create realistic and artistic images from textual prompts. The system represents a significant advancement in AI's ability to understand and translate between different modes of information (text to image), showcasing the potential for AI in creative applications.",
+    "citationUrl": "https://en.wikipedia.org/wiki/DALL-E",
+    "citationTitle": "Wikipedia: DALL-E"
+  },
+  {
+    "id": "99302012-99af-4a6a-8540-e5f12481e85f",
+    "text": "Which technology company's AI research lab created the transformer architecture that revolutionized natural language processing in 2017?",
+    "options": [
+      "Google",
+      "Microsoft",
+      "Facebook",
+      "IBM"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Google's research team introduced the transformer architecture in their 2017 paper 'Attention Is All You Need'.",
+    "detailedExplanation": "The transformer architecture was developed by researchers at Google and introduced in the landmark 2017 paper 'Attention Is All You Need'. This revolutionary neural network architecture replaced recurrent and convolutional layers with self-attention mechanisms, dramatically improving the efficiency and effectiveness of natural language processing tasks. The transformer became the foundation for most modern large language models, including BERT, GPT series, and many others, fundamentally changing the AI landscape.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Transformer_(machine_learning_model)",
+    "citationTitle": "Wikipedia: Transformer (machine learning model)"
+  },
+  {
+    "id": "b9eb35e7-9d99-4e1b-a633-9654ec87a1d6",
+    "text": "What is the term for the AI safety concern where an AI system optimizes for its stated goal in unexpected and potentially harmful ways?",
+    "options": [
+      "Model drift",
+      "Goodhart's law",
+      "Mesa-optimization",
+      "Alignment problem"
+    ],
+    "correctIndex": 3,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "The alignment problem refers to the challenge of ensuring AI systems pursue intended goals rather than finding unexpected loopholes.",
+    "detailedExplanation": "The alignment problem is a fundamental concern in AI safety research, referring to the difficulty of creating AI systems that truly understand and optimize for human values and intentions, rather than finding unexpected ways to satisfy literal interpretations of their programmed objectives. This problem becomes increasingly critical as AI systems become more powerful and autonomous. Famous thought experiments like the paperclip maximizer illustrate how an AI might pursue its goal in ways that are technically correct but catastrophically misaligned with human welfare.",
+    "citationUrl": "https://en.wikipedia.org/wiki/AI_alignment",
+    "citationTitle": "Wikipedia: AI alignment"
+  },
+  {
+    "id": "d8be936a-67e0-4e00-a780-cb0a102d9cc6",
+    "text": "Which pioneering AI researcher is known as the 'father of artificial intelligence' and organized the famous 1956 Dartmouth Conference?",
+    "options": [
+      "Marvin Minsky",
+      "John McCarthy",
+      "Alan Turing",
+      "Herbert Simon"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "John McCarthy coined the term 'artificial intelligence' and organized the 1956 Dartmouth Conference that launched AI as a field.",
+    "detailedExplanation": "John McCarthy is widely regarded as the father of artificial intelligence. He coined the term 'artificial intelligence' in 1955 and organized the famous Dartmouth Summer Research Project on Artificial Intelligence in 1956, which brought together leading researchers and is considered the founding event of AI as an academic discipline. McCarthy also invented the LISP programming language, which became fundamental to AI research for decades, and made significant contributions to areas including knowledge representation, common sense reasoning, and the mathematical theory of computation.",
+    "citationUrl": "https://en.wikipedia.org/wiki/John_McCarthy_(computer_scientist)",
+    "citationTitle": "Wikipedia: John McCarthy (computer scientist)"
+  },
+  {
+    "id": "875edb64-f656-493c-ac01-1b0f688b0a6a",
+    "text": "What is the name of the AI winter period that occurred in the 1980s when funding and interest in artificial intelligence research dramatically declined?",
+    "options": [
+      "The Great Recession",
+      "The Second AI Winter",
+      "The Neural Network Crisis",
+      "The Expert System Collapse"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "The Second AI Winter occurred in the late 1980s and early 1990s following the collapse of the expert systems market.",
+    "detailedExplanation": "The Second AI Winter refers to the period from the late 1980s to early 1990s when interest and funding in artificial intelligence research dramatically declined. This followed the earlier AI winter of the mid-1970s to early 1980s. The second winter was triggered by the collapse of the expert systems market, reduced government funding, and the failure of AI to deliver on many of its ambitious promises. During this time, many AI companies went out of business, research funding dried up, and the field experienced significant pessimism about its prospects, though research continued in more focused areas.",
+    "citationUrl": "https://en.wikipedia.org/wiki/AI_winter",
+    "citationTitle": "Wikipedia: AI winter"
+  }
+]

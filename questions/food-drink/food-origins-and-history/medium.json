@@ -1,0 +1,342 @@
+[
+  {
+    "id": "8ecaa1e7-dd04-4e24-bd4e-ccc6cce0a7d7",
+    "text": "Which ancient civilization is credited with first cultivating chocolate from cacao beans around 1500 BCE?",
+    "options": [
+      "Aztecs",
+      "Olmecs",
+      "Mayans",
+      "Incas"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "The Olmecs were the first to cultivate cacao and create chocolate drinks around 1500 BCE.",
+    "detailedExplanation": "While many people associate chocolate with the Aztecs or Mayans, archaeological evidence suggests that the Olmec civilization of ancient Mesoamerica was actually the first to cultivate cacao beans and create chocolate beverages around 1500 BCE. The Olmecs passed this knowledge to later civilizations, including the Mayans who refined the process, and eventually the Aztecs who considered chocolate a gift from the gods. The word 'chocolate' itself derives from the Aztec word 'xocolatl.'",
+    "citationUrl": "https://en.wikipedia.org/wiki/History_of_chocolate",
+    "citationTitle": "Wikipedia: History of chocolate"
+  },
+  {
+    "id": "2b2f4f64-bd1f-4be3-97ed-1ab86617d07c",
+    "text": "Pizza Margherita was reportedly created in 1889 to honor which royal figure?",
+    "options": [
+      "Queen Victoria of England",
+      "Queen Margherita of Italy",
+      "Empress Elisabeth of Austria",
+      "Queen Isabella of Spain"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Pizza Margherita was created in Naples in 1889 to honor Queen Margherita of Italy, featuring colors of the Italian flag.",
+    "detailedExplanation": "According to popular legend, Pizza Margherita was created by pizzaiolo Raffaele Esposito in Naples in 1889 to honor Queen Margherita of Savoy, wife of King Umberto I of Italy. The pizza featured tomatoes (red), mozzarella cheese (white), and fresh basil (green) to represent the colors of the Italian flag. While some historians debate the exact details of this story, the pizza's name and its association with Italian national identity remain an important part of culinary history.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Pizza_Margherita",
+    "citationTitle": "Wikipedia: Pizza Margherita"
+  },
+  {
+    "id": "f30976d9-b664-4ed6-8a5d-22175bf21280",
+    "text": "Which spice was once so valuable it was used as currency and sparked European exploration of sea routes to Asia?",
+    "options": [
+      "Cinnamon",
+      "Black pepper",
+      "Nutmeg",
+      "Cloves"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Black pepper was extremely valuable in medieval Europe, often called 'black gold' and used as currency.",
+    "detailedExplanation": "Black pepper was so precious in medieval Europe that it was often referred to as 'black gold' and was literally used as currency to pay taxes, dowries, and rent. A pound of pepper was worth more than a pound of silver. The high cost was due to the dangerous journey required to transport it from its native India along the Silk Road. The desire to find direct sea routes to pepper-producing regions was one of the primary motivations for European maritime exploration, ultimately leading to Vasco da Gama's voyage around Africa to India.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Black_pepper",
+    "citationTitle": "Wikipedia: Black pepper"
+  },
+  {
+    "id": "338bb55e-8d85-47e9-8514-1bafad10c451",
+    "text": "The sandwich is named after which 18th-century English aristocrat?",
+    "options": [
+      "Lord Byron",
+      "Earl of Sandwich",
+      "Duke of Wellington",
+      "Lord Chesterfield"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "The sandwich is named after John Montagu, the 4th Earl of Sandwich, who popularized eating meat between bread slices.",
+    "detailedExplanation": "The sandwich gets its name from John Montagu, the 4th Earl of Sandwich (1718-1792). According to popular legend, in 1762, the Earl was so engrossed in a card game that he didn't want to leave the table to eat. He asked for roast beef to be placed between two pieces of bread so he could eat with one hand while continuing to play cards. This convenient meal became popular among his friends who would ask for 'the same as Sandwich,' eventually giving the food item its name.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Sandwich",
+    "citationTitle": "Wikipedia: Sandwich"
+  },
+  {
+    "id": "ca54b17d-21d3-4e7d-8c61-678c6e430fde",
+    "text": "Which grain was considered so sacred by the ancient Incas that the emperor would plant the first seeds each year using a golden spade?",
+    "options": [
+      "Corn",
+      "Wheat",
+      "Quinoa",
+      "Rice"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Quinoa was sacred to the Incas, who called it 'chisaya mama' meaning 'mother of all grains.'",
+    "detailedExplanation": "Quinoa was revered as sacred by the ancient Incas, who called it 'chisaya mama' or 'mother of all grains.' It was so important to their civilization that the Inca emperor would traditionally plant the first quinoa seeds of the season using a golden spade in a ceremonial ritual. The Spanish conquistadors, however, viewed quinoa as 'food for Indians' and suppressed its cultivation in favor of European grains like wheat and barley, nearly causing this nutritious superfood to disappear from cultivation.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Quinoa",
+    "citationTitle": "Wikipedia: Quinoa"
+  },
+  {
+    "id": "d4666647-2651-42f0-a331-9613c10f77a9",
+    "text": "Which popular breakfast cereal was accidentally invented in 1898 when brothers left cooked wheat out overnight?",
+    "options": [
+      "Corn Flakes",
+      "Rice Krispies",
+      "Shredded Wheat",
+      "Wheaties"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Corn Flakes were accidentally created by the Kellogg brothers when they left boiled wheat out overnight, making it stale.",
+    "detailedExplanation": "Corn Flakes were invented by accident in 1898 by Dr. John Harvey Kellogg and his brother Will Keith Kellogg at the Battle Creek Sanitarium in Michigan. They had been experimenting with boiled wheat to create a digestible bread substitute for patients. One day, they left the boiled wheat out overnight, and when they returned, it had gone stale. Rather than throw it away, they decided to roll it anyway. To their surprise, instead of forming a sheet, each grain of wheat emerged as a separate flake. They toasted the flakes and served them to patients, who loved them.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Corn_flakes",
+    "citationTitle": "Wikipedia: Corn flakes"
+  },
+  {
+    "id": "d65a51f3-bd8f-43c8-a8b2-cadcb50cf91a",
+    "text": "Which country is believed to be the original home of coffee cultivation before it spread to Yemen and the rest of the world?",
+    "options": [
+      "Colombia",
+      "Brazil",
+      "Ethiopia",
+      "Jamaica"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Ethiopia is considered the birthplace of coffee, where the plant grows wild in the highlands.",
+    "detailedExplanation": "Ethiopia is widely regarded as the birthplace of coffee. The coffee plant (Coffea arabica) grows wild in the Ethiopian highlands, and legend tells of a goat herder named Kaldi who discovered coffee's energizing effects when he noticed his goats became more energetic after eating certain berries. From Ethiopia, coffee cultivation spread to Yemen in the 15th century through trade across the Red Sea, then to the Ottoman Empire and eventually around the world. Ethiopian coffee culture remains deeply rooted in tradition, with elaborate coffee ceremonies that are central to social life.",
+    "citationUrl": "https://en.wikipedia.org/wiki/History_of_coffee",
+    "citationTitle": "Wikipedia: History of coffee"
+  },
+  {
+    "id": "8261c2b7-93f2-42a8-be1f-b34b97ee586f",
+    "text": "The Caesar salad was invented in the 1920s in which Mexican border city?",
+    "options": [
+      "Tijuana",
+      "Juárez",
+      "Mexicali",
+      "Nuevo Laredo"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Caesar salad was created by Caesar Cardini at his restaurant in Tijuana, Mexico in the 1920s.",
+    "detailedExplanation": "Despite its association with Roman emperors, the Caesar salad was actually invented in Tijuana, Mexico in the 1920s by Italian immigrant Caesar Cardini. According to the most widely accepted story, Cardini created the salad at his restaurant, Hotel Caesar, on July 4, 1924, when he was running low on kitchen ingredients due to a busy holiday weekend. He improvised with what he had available: romaine lettuce, olive oil, lemon juice, Worcestershire sauce, Parmesan cheese, croutons, and raw egg. The salad became popular with Hollywood celebrities and Americans who crossed the border during Prohibition.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Caesar_salad",
+    "citationTitle": "Wikipedia: Caesar salad"
+  },
+  {
+    "id": "826dd986-f97f-45bb-9f9d-c4598b895486",
+    "text": "Which fermented dairy product was accidentally discovered by an Arabian merchant who stored milk in a pouch made from a sheep's stomach while traveling across the desert?",
+    "options": [
+      "Yogurt",
+      "Cheese",
+      "Kefir",
+      "Buttermilk"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Cheese was accidentally discovered when milk stored in a sheep's stomach pouch curdled due to rennet and agitation during travel.",
+    "detailedExplanation": "According to ancient legend, cheese was first discovered around 8000 BCE by an Arabian merchant traveling across the desert. He stored milk in a pouch made from a sheep's stomach, and the combination of the rennet naturally present in the stomach lining, the agitation from his horse's movement, and the desert heat caused the milk to separate into curds and whey, creating the first cheese.",
+    "citationUrl": "https://en.wikipedia.org/wiki/History_of_cheese",
+    "citationTitle": "Wikipedia: History of cheese"
+  },
+  {
+    "id": "75313815-ea56-449a-ac9a-6b398ea7cdc6",
+    "text": "Which cooking technique was originally developed by the French as a method to preserve food for Napoleon's army during long military campaigns?",
+    "options": [
+      "Sous vide",
+      "Flambéing",
+      "Canning",
+      "Braising"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Canning was invented by Nicolas Appert in 1809 to preserve food for Napoleon's military campaigns.",
+    "detailedExplanation": "The canning process was invented in 1809 by French chef and confectioner Nicolas Appert in response to Napoleon's offer of 12,000 francs for anyone who could develop a reliable method of food preservation for his armies. Appert discovered that sealing food in glass jars and heating them could preserve food for extended periods, revolutionizing food storage and distribution worldwide.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Canning",
+    "citationTitle": "Wikipedia: Canning"
+  },
+  {
+    "id": "bd6e8ef1-6c87-4fb2-b225-6ac2027a93e2",
+    "text": "The ice cream cone was popularized at which major American event in 1904 when ice cream vendors ran out of bowls?",
+    "options": [
+      "World's Columbian Exposition",
+      "St. Louis World's Fair",
+      "Pan-American Exposition",
+      "Alaska-Yukon-Pacific Exposition"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "The ice cream cone gained popularity at the 1904 St. Louis World's Fair when vendors improvised by serving ice cream in rolled waffles.",
+    "detailedExplanation": "While edible cones existed before 1904, the ice cream cone became widely popular at the St. Louis World's Fair that year. According to popular legend, when ice cream vendors ran out of dishes, nearby waffle makers helped by rolling their waffles into cone shapes to hold the ice cream. This collaboration between vendors created a sensation that spread across America and eventually worldwide.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Ice_cream_cone",
+    "citationTitle": "Wikipedia: Ice cream cone"
+  },
+  {
+    "id": "bacf9ad9-1e5f-441b-af40-f6bcc826b102",
+    "text": "Which Asian country is credited with inventing pasta, contrary to the popular belief that Marco Polo brought it from China to Italy?",
+    "options": [
+      "China",
+      "Japan",
+      "Neither - pasta originated in the Arab world",
+      "Korea"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Pasta likely originated in the Arab world and was brought to Sicily before Marco Polo's travels, debunking the China theory.",
+    "detailedExplanation": "Contrary to the popular myth that Marco Polo brought pasta from China to Italy in the 13th century, historical evidence suggests that pasta-like foods were already present in Italy before his travels. The technique likely originated in the Arab world and was introduced to Sicily during the Arab conquests in the 9th century. References to pasta-like foods appear in Italian documents as early as 1154, well before Marco Polo's journey to China.",
+    "citationUrl": "https://en.wikipedia.org/wiki/History_of_pasta",
+    "citationTitle": "Wikipedia: History of pasta"
+  },
+  {
+    "id": "2abce11d-e179-4f33-a456-5d9d0826c374",
+    "text": "Which popular condiment was originally sold as a medicine in the 1830s, claiming to cure indigestion and other ailments?",
+    "options": [
+      "Mustard",
+      "Ketchup",
+      "Mayonnaise",
+      "Hot sauce"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Ketchup was marketed as a medicine by Dr. John Cook Bennett in the 1830s, who claimed tomatoes had medicinal properties.",
+    "detailedExplanation": "In the 1830s, Dr. John Cook Bennett began marketing tomato ketchup as a medicine, claiming that tomatoes could cure a variety of ailments including indigestion, jaundice, and rheumatism. He even sold concentrated tomato pills as a cure-all remedy. This was during a time when tomatoes were still viewed with suspicion by many Americans, partly due to earlier beliefs that they were poisonous when wealthy people got sick from lead poisoning caused by tomato acid leaching lead from pewter plates.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Ketchup",
+    "citationTitle": "Wikipedia: Ketchup"
+  },
+  {
+    "id": "ad37cc50-8cb0-4efa-adfd-edc300ce1b0c",
+    "text": "Which ancient Roman sauce, made from fermented fish entrails, was considered the ancestor of modern Worcestershire sauce?",
+    "options": [
+      "Liquamen",
+      "Garum",
+      "Oenogarum",
+      "Muria"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Garum was a fermented fish sauce that was extremely popular in ancient Rome and is considered an ancestor to modern fermented sauces.",
+    "detailedExplanation": "Garum was a fermented fish sauce that was ubiquitous in ancient Roman cuisine, much like how salt is used today. Made from fish entrails, salt, and herbs left to ferment in the sun for several months, it was prized for its umami flavor. The sauce was so important that it was traded throughout the Roman Empire. Its production and flavor profile are remarkably similar to modern Asian fish sauces and are considered an influence on later European condiments like Worcestershire sauce.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Garum",
+    "citationTitle": "Wikipedia: Garum"
+  },
+  {
+    "id": "82d3bfb8-f6be-4ce3-b275-801bd9b0eb8e",
+    "text": "The fortune cookie, despite being associated with Chinese cuisine, was actually invented in which U.S. state?",
+    "options": [
+      "New York",
+      "Hawaii",
+      "California",
+      "Washington"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Fortune cookies were invented in California in the early 1900s and are not found in traditional Chinese cuisine.",
+    "detailedExplanation": "Fortune cookies are actually an American invention, created in California in the early 1900s, likely by Japanese immigrants rather than Chinese. The most widely accepted origin story credits Makoto Hagiwara, a Japanese gardener who served them at the Japanese Tea Garden in San Francisco's Golden Gate Park around 1914. They became associated with Chinese restaurants in America during the mid-20th century but are virtually unknown in China itself, where they're considered a curious American novelty.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Fortune_cookie",
+    "citationTitle": "Wikipedia: Fortune cookie"
+  },
+  {
+    "id": "801f7dfe-a8f6-411e-a3b3-096f36dc8d16",
+    "text": "Which vegetable was once known as a 'love apple' and was avoided by wealthy Europeans for over 200 years due to fears it was poisonous?",
+    "options": [
+      "Eggplant",
+      "Potato",
+      "Tomato",
+      "Bell pepper"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Tomatoes were called 'love apples' and feared poisonous by wealthy Europeans who suffered lead poisoning from eating them off pewter plates.",
+    "detailedExplanation": "Tomatoes were introduced to Europe from the Americas in the 16th century and were initially called 'love apples' (from the French 'pomme d'amour'). Wealthy Europeans avoided them for centuries because they believed tomatoes were poisonous. This belief arose because rich people would get sick after eating tomatoes, but the real cause was lead poisoning - the acidic tomatoes would leach lead from their expensive pewter plates. Poor people, who ate from wooden plates, had no such problems, but their testimonies were ignored.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Tomato",
+    "citationTitle": "Wikipedia: Tomato"
+  },
+  {
+    "id": "707dcfcb-9888-48ff-accd-ecb497d8ca18",
+    "text": "Which European city is credited with creating the first recorded recipe for croissants, originally called 'kipferl', to celebrate their victory over the Ottoman Empire in 1683?",
+    "options": [
+      "Paris, France",
+      "Vienna, Austria",
+      "Berlin, Germany",
+      "Rome, Italy"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Vienna created the kipferl (early croissant) to celebrate defeating the Ottoman siege in 1683.",
+    "detailedExplanation": "The croissant's origins trace back to Vienna in 1683, where bakers created a crescent-shaped pastry called 'kipferl' to celebrate the city's successful defense against the Ottoman siege. The crescent shape was chosen to mock the crescent symbol on the Ottoman flag. This pastry later evolved into the modern croissant when Austrian baker August Zang brought the technique to Paris in the 1830s, where French bakers refined it with their laminated dough techniques.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Croissant",
+    "citationTitle": "Wikipedia: Croissant"
+  },
+  {
+    "id": "d6f78b3e-732c-46c9-a3e8-88aa75a9ac7f",
+    "text": "Which cooking method gets its name from the French word meaning 'under vacuum' and was originally developed in the 1970s for industrial food preservation?",
+    "options": [
+      "Braising",
+      "Sous vide",
+      "Confit",
+      "Poaching"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Sous vide means 'under vacuum' in French and was developed in the 1970s for food preservation.",
+    "detailedExplanation": "Sous vide, literally meaning 'under vacuum' in French, was developed in the mid-1970s as an industrial food preservation method. French and American engineers Georges Pralus and Bruno Goussault pioneered the technique for commercial food production. The method involves sealing food in airtight plastic bags and cooking it in a water bath at precisely controlled low temperatures for extended periods. It gained popularity in high-end restaurants in the 1980s and has since become accessible to home cooks.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Sous_vide",
+    "citationTitle": "Wikipedia: Sous vide"
+  },
+  {
+    "id": "44f25f0d-b2c9-46fe-afeb-42b64a5beedd",
+    "text": "Which popular Indian dish was actually created in the 1960s in Glasgow, Scotland, by a Bangladeshi chef adapting to local tastes?",
+    "options": [
+      "Vindaloo",
+      "Chicken tikka masala",
+      "Korma",
+      "Biryani"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Chicken tikka masala was invented in Glasgow in the 1960s by a Bangladeshi chef adapting to British tastes.",
+    "detailedExplanation": "Chicken tikka masala, now one of Britain's most popular dishes, was reportedly invented in the 1960s in Glasgow by Ali Ahmed Aslam, a Bangladeshi chef at the Shish Mahal restaurant. The story goes that when a customer complained his chicken tikka was too dry, Aslam improvised by adding a creamy tomato-based sauce, creating what would become chicken tikka masala. This adaptation catered to British preferences for milder, creamier curries compared to traditional Indian cuisine.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Chicken_tikka_masala",
+    "citationTitle": "Wikipedia: Chicken tikka masala"
+  },
+  {
+    "id": "5dd0a49d-b4f9-4694-b1e0-9c85402556a4",
+    "text": "The practice of aging cheese in caves originated because these natural environments provided which two essential conditions for proper cheese maturation?",
+    "options": [
+      "Darkness and silence",
+      "Constant temperature and humidity",
+      "Fresh air and mineral content",
+      "Protection from animals and theft"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Caves provided the constant cool temperature and high humidity necessary for proper cheese aging.",
+    "detailedExplanation": "Caves became the ideal natural environment for aging cheese because they maintain consistent cool temperatures (typically 50-59°F or 10-15°C) and high humidity levels (85-95%) year-round. These conditions are crucial for the proper development of beneficial molds and bacteria that give aged cheeses their distinctive flavors and textures. Famous examples include Roquefort cheese, which by law must be aged in the natural caves of Roquefort-sur-Soulzon in France, where the unique Penicillium roqueforti mold naturally occurs.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Cheese_aging",
+    "citationTitle": "Wikipedia: Cheese aging"
+  }
+]

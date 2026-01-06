@@ -1,0 +1,342 @@
+[
+  {
+    "id": "9a12e3b6-3ffd-45e0-84cc-f6701935b03e",
+    "text": "What does 'AI' stand for in the context of computer technology?",
+    "options": [
+      "Automated Intelligence",
+      "Artificial Intelligence",
+      "Advanced Integration",
+      "Algorithmic Interface"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "AI stands for Artificial Intelligence, referring to machines that can perform tasks typically requiring human intelligence.",
+    "detailedExplanation": "Artificial Intelligence (AI) is a branch of computer science that aims to create intelligent machines capable of performing tasks that typically require human intelligence, such as visual perception, speech recognition, decision-making, and language translation. The term was first coined in 1956 at the Dartmouth Conference and has since evolved to encompass various subfields including machine learning, natural language processing, and robotics.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+    "citationTitle": "Wikipedia: Artificial Intelligence"
+  },
+  {
+    "id": "13b39cef-08f6-4b5c-ad42-cef336e9cd33",
+    "text": "Which virtual assistant was developed by Apple?",
+    "options": [
+      "Alexa",
+      "Cortana",
+      "Siri",
+      "Google Assistant"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Siri is Apple's virtual assistant, first introduced on the iPhone 4S in 2011.",
+    "detailedExplanation": "Siri is a virtual assistant that is part of Apple Inc.'s iOS, iPadOS, watchOS, macOS, and tvOS operating systems. The assistant uses voice queries and a natural-language user interface to answer questions, make recommendations, and perform actions by delegating requests to a set of Internet services. Siri was originally developed by the SRI International Artificial Intelligence Center and acquired by Apple in 2010.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Siri",
+    "citationTitle": "Wikipedia: Siri"
+  },
+  {
+    "id": "75131ec1-2e67-448a-8488-75a520f57f0c",
+    "text": "What type of AI learning involves training with labeled data?",
+    "options": [
+      "Unsupervised learning",
+      "Reinforcement learning",
+      "Supervised learning",
+      "Deep learning"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Supervised learning uses labeled training data to teach AI systems to make predictions or classifications.",
+    "detailedExplanation": "Supervised learning is a type of machine learning where algorithms are trained using labeled example data. The system learns from input-output pairs to make predictions about new, unseen data. Common examples include email spam detection (where emails are labeled as spam or not spam) and image recognition (where images are labeled with what they contain). This differs from unsupervised learning, which finds patterns in data without labels.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Supervised_learning",
+    "citationTitle": "Wikipedia: Supervised Learning"
+  },
+  {
+    "id": "1dddd2e9-105b-48d7-a7ea-5825805717c4",
+    "text": "In which board game did IBM's Deep Blue famously defeat a world champion in 1997?",
+    "options": [
+      "Go",
+      "Checkers",
+      "Chess",
+      "Backgammon"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Deep Blue defeated world chess champion Garry Kasparov in a six-game match in 1997.",
+    "detailedExplanation": "Deep Blue was a chess-playing computer developed by IBM. In 1997, it became the first computer chess-playing system to win both a chess game and a chess match against a reigning world champion under regular tournament conditions. The victory over Garry Kasparov was considered a landmark moment in artificial intelligence history, demonstrating that computers could outperform humans in complex strategic games.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Deep_Blue_(chess_computer)",
+    "citationTitle": "Wikipedia: Deep Blue"
+  },
+  {
+    "id": "320f459a-3a8f-4cec-b85e-839a57092434",
+    "text": "What does 'ChatGPT' primarily stand for?",
+    "options": [
+      "Chat General Purpose Technology",
+      "Chat Generative Pre-trained Transformer",
+      "Chat Global Processing Tool",
+      "Chat Guided Predictive Text"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "ChatGPT stands for Chat Generative Pre-trained Transformer, indicating its conversational AI capabilities.",
+    "detailedExplanation": "ChatGPT is a chatbot developed by OpenAI and launched in November 2022. It is built on top of OpenAI's GPT (Generative Pre-trained Transformer) family of large language models. The system has been fine-tuned using both supervised and reinforcement learning techniques to engage in conversational interactions with users, answer questions, and assist with various text-based tasks.",
+    "citationUrl": "https://en.wikipedia.org/wiki/ChatGPT",
+    "citationTitle": "Wikipedia: ChatGPT"
+  },
+  {
+    "id": "3dcaab4c-c125-4bfa-91d2-a6f24d4243d6",
+    "text": "What is the term for AI that can understand and perform any intellectual task that a human can do?",
+    "options": [
+      "Narrow AI",
+      "Weak AI",
+      "Artificial General Intelligence",
+      "Machine Learning"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Artificial General Intelligence (AGI) refers to AI with human-level cognitive abilities across all domains.",
+    "detailedExplanation": "Artificial General Intelligence (AGI) is a type of artificial intelligence that matches or exceeds human cognitive abilities across all domains of knowledge and reasoning. Unlike narrow AI systems that are designed for specific tasks, AGI would have the ability to understand, learn, and apply knowledge across a wide range of tasks at a level equal to or beyond human capability. AGI remains theoretical and has not yet been achieved.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Artificial_general_intelligence",
+    "citationTitle": "Wikipedia: Artificial General Intelligence"
+  },
+  {
+    "id": "def67538-7909-4311-b591-715f2d22b12f",
+    "text": "Which company developed the AlphaGo AI system that defeated professional Go players?",
+    "options": [
+      "IBM",
+      "Google DeepMind",
+      "Microsoft",
+      "Facebook"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "AlphaGo was developed by Google DeepMind and famously defeated professional Go champion Lee Sedol in 2016.",
+    "detailedExplanation": "AlphaGo is a computer program developed by Google DeepMind to play the board game Go. In March 2016, AlphaGo became the first computer Go program to defeat a professional human Go player without handicaps on a full-sized board, beating Lee Sedol 4-1 in a five-game match. This was considered a major breakthrough in AI because Go was thought to be too complex for computers to master due to its vast number of possible positions.",
+    "citationUrl": "https://en.wikipedia.org/wiki/AlphaGo",
+    "citationTitle": "Wikipedia: AlphaGo"
+  },
+  {
+    "id": "2e68a07a-34b9-4b0a-9d2e-43d015a31fc6",
+    "text": "What technology allows computers to identify and process human speech?",
+    "options": [
+      "Computer Vision",
+      "Natural Language Processing",
+      "Speech Recognition",
+      "Neural Networks"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Speech recognition technology converts spoken language into text that computers can process and understand.",
+    "detailedExplanation": "Speech recognition, also known as automatic speech recognition (ASR), is a technology that enables computers to identify and process human speech, converting spoken language into text. This technology is used in virtual assistants like Siri and Alexa, voice-to-text applications, and phone systems. Modern speech recognition systems use machine learning algorithms and neural networks to improve accuracy and handle different accents, languages, and speaking styles.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Speech_recognition",
+    "citationTitle": "Wikipedia: Speech Recognition"
+  },
+  {
+    "id": "28149590-77d8-49b1-964b-e7165a2d07a0",
+    "text": "Which science fiction author coined the term 'robotics' and created the Three Laws of Robotics?",
+    "options": [
+      "Isaac Asimov",
+      "Philip K. Dick",
+      "Arthur C. Clarke",
+      "Ray Bradbury"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Isaac Asimov coined the term 'robotics' and created the famous Three Laws of Robotics.",
+    "detailedExplanation": "Isaac Asimov, the prolific science fiction writer, first used the term 'robotics' in his 1941 short story 'Liar!' He also developed the Three Laws of Robotics, which became fundamental concepts in AI ethics and robotics discussions. These laws were designed to ensure robots would be safe and beneficial to humans.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Isaac_Asimov",
+    "citationTitle": "Wikipedia: Isaac Asimov"
+  },
+  {
+    "id": "d30cbccc-b377-42e2-a0cc-42d0e76f496c",
+    "text": "What does 'ML' stand for in the context of artificial intelligence?",
+    "options": [
+      "Machine Learning",
+      "Mathematical Logic",
+      "Memory Loading",
+      "Model Linking"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "ML stands for Machine Learning, a subset of artificial intelligence.",
+    "detailedExplanation": "Machine Learning (ML) is a subset of artificial intelligence that focuses on algorithms and statistical models that enable computer systems to improve their performance on a specific task through experience, without being explicitly programmed for every scenario. It's one of the most important branches of modern AI development.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Machine_learning",
+    "citationTitle": "Wikipedia: Machine learning"
+  },
+  {
+    "id": "b254d077-5953-40a4-9e3b-0caf38f76d40",
+    "text": "Which year is commonly cited as the birth of artificial intelligence as a field of study?",
+    "options": [
+      "1956",
+      "1950",
+      "1962",
+      "1945"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "1956 is considered the birth year of AI, when the Dartmouth Conference took place.",
+    "detailedExplanation": "The field of artificial intelligence was officially founded in 1956 at the Dartmouth Conference, organized by John McCarthy, Marvin Minsky, Nathaniel Rochester, and Claude Shannon. This conference brought together researchers to discuss machine intelligence and established AI as a distinct academic discipline.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Dartmouth_workshop",
+    "citationTitle": "Wikipedia: Dartmouth workshop"
+  },
+  {
+    "id": "412b7fd1-0034-4cce-9e32-6d504aa6945a",
+    "text": "What is the name of the test designed to evaluate a machine's ability to exhibit intelligent behavior equivalent to a human?",
+    "options": [
+      "Turing Test",
+      "Intelligence Quotient Test",
+      "Behavioral Assessment",
+      "Cognitive Evaluation"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "The Turing Test evaluates whether a machine can exhibit intelligent behavior indistinguishable from a human.",
+    "detailedExplanation": "The Turing Test, proposed by Alan Turing in 1950, is a test of a machine's ability to exhibit intelligent behavior equivalent to, or indistinguishable from, that of a human. In the test, a human evaluator engages in conversations with both a human and a machine, and if the evaluator cannot reliably tell which is which, the machine is said to have passed the test.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Turing_test",
+    "citationTitle": "Wikipedia: Turing test"
+  },
+  {
+    "id": "4b19d9a2-8d98-4781-b841-f7e79d2ce1a6",
+    "text": "Which AI technique involves creating fake but realistic images, videos, or audio recordings?",
+    "options": [
+      "Deepfake",
+      "Neural mapping",
+      "Data mining",
+      "Cloud processing"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Deepfake technology uses AI to create realistic but fake media content.",
+    "detailedExplanation": "Deepfake technology uses deep learning artificial intelligence to create fake but convincing images, audio, and video content. The term comes from combining 'deep learning' and 'fake.' This technology has raised significant concerns about misinformation and digital security, while also having legitimate applications in entertainment and education.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Deepfake",
+    "citationTitle": "Wikipedia: Deepfake"
+  },
+  {
+    "id": "661c86cd-55e3-4b42-bd21-a622d9a07daa",
+    "text": "What type of AI network is inspired by the structure and function of the human brain?",
+    "options": [
+      "Neural Network",
+      "Logic Network",
+      "Data Network",
+      "Process Network"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Neural networks are AI systems modeled after the human brain's structure.",
+    "detailedExplanation": "Neural networks are computing systems inspired by biological neural networks that constitute animal brains. They consist of interconnected nodes (neurons) that process information by responding to external inputs and relaying information between each node. This brain-inspired architecture allows them to learn and make decisions in a humanlike way.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Neural_network",
+    "citationTitle": "Wikipedia: Neural network"
+  },
+  {
+    "id": "bef59d94-32af-4011-ae87-daf0632efaff",
+    "text": "Which company is known for developing the DALL-E AI image generation system?",
+    "options": [
+      "OpenAI",
+      "Microsoft",
+      "Meta",
+      "Amazon"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "DALL-E was developed by OpenAI as an AI system that creates images from text descriptions.",
+    "detailedExplanation": "DALL-E is an artificial intelligence program developed by OpenAI that creates images from textual descriptions. Named as a combination of the artist Salvador Dalí and Pixar's WALL-E, this system demonstrates the capability of AI to understand complex text prompts and generate corresponding visual content, representing a significant advancement in creative AI applications.",
+    "citationUrl": "https://en.wikipedia.org/wiki/DALL-E",
+    "citationTitle": "Wikipedia: DALL-E"
+  },
+  {
+    "id": "dca31c98-a6b0-40ff-b60a-2c14b4572b32",
+    "text": "What is the term for AI systems that can perform multiple different tasks, rather than being specialized for one specific task?",
+    "options": [
+      "General AI",
+      "Narrow AI",
+      "Focused AI",
+      "Limited AI"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "General AI refers to systems that can perform multiple tasks, unlike narrow AI which focuses on specific tasks.",
+    "detailedExplanation": "General AI, also known as Artificial General Intelligence (AGI), refers to AI systems that possess the ability to understand, learn, and apply intelligence across a wide range of tasks, similar to human cognitive abilities. This contrasts with narrow AI (or weak AI), which is designed to perform specific tasks. General AI remains largely theoretical and is considered the ultimate goal of AI research.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Artificial_general_intelligence",
+    "citationTitle": "Wikipedia: Artificial general intelligence"
+  },
+  {
+    "id": "e10eddaa-e8af-4105-973d-533411e7cd95",
+    "text": "What does 'NLP' stand for in artificial intelligence?",
+    "options": [
+      "Natural Language Processing",
+      "Neural Learning Protocol",
+      "Network Layer Programming",
+      "Numerical Logic Processing"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "NLP stands for Natural Language Processing, which enables computers to understand human language.",
+    "detailedExplanation": "Natural Language Processing (NLP) is a branch of artificial intelligence that focuses on the interaction between computers and human language. It involves programming computers to process and analyze large amounts of natural language data, enabling applications like language translation, sentiment analysis, and chatbots to understand and respond to human speech and text.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Natural_language_processing",
+    "citationTitle": "Wikipedia: Natural language processing"
+  },
+  {
+    "id": "610e7d0a-5587-44a8-b09c-9a5278051c4a",
+    "text": "Which technology company created the Watson AI system that famously won on Jeopardy! in 2011?",
+    "options": [
+      "Microsoft",
+      "IBM",
+      "Google",
+      "Amazon"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "IBM developed Watson, which defeated human champions on the quiz show Jeopardy! in 2011.",
+    "detailedExplanation": "IBM Watson is a question-answering computer system capable of answering questions posed in natural language. It was developed by IBM's DeepQA project and gained widespread recognition when it competed on Jeopardy! against former winners Brad Rutter and Ken Jennings in February 2011, winning the first-place prize of $1 million. Watson demonstrated advanced natural language processing and information retrieval capabilities.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Watson_(computer)",
+    "citationTitle": "Wikipedia: Watson (computer)"
+  },
+  {
+    "id": "c9ccd792-4c3a-4b4a-bf2f-232a2f8f80ce",
+    "text": "What is 'computer vision' in the context of artificial intelligence?",
+    "options": [
+      "AI that can see in the dark",
+      "AI that can interpret and understand visual information",
+      "AI that creates computer screens",
+      "AI that repairs visual displays"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Computer vision is the field of AI that enables machines to interpret and understand visual information from images and videos.",
+    "detailedExplanation": "Computer vision is an interdisciplinary scientific field that deals with how computers can gain high-level understanding from digital images or videos. It seeks to automate tasks that the human visual system can do, such as recognizing objects, faces, or scenes. Applications include autonomous vehicles, medical image analysis, facial recognition systems, and quality control in manufacturing.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Computer_vision",
+    "citationTitle": "Wikipedia: Computer vision"
+  },
+  {
+    "id": "fc52e91f-9ad8-41c3-8fb8-d4ad5a5736f4",
+    "text": "Which programming language is most commonly associated with AI development and machine learning?",
+    "options": [
+      "JavaScript",
+      "Python",
+      "HTML",
+      "C++"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Python is the most popular programming language for AI and machine learning due to its simplicity and extensive libraries.",
+    "detailedExplanation": "Python has become the dominant programming language in artificial intelligence and machine learning development. Its popularity stems from its simple, readable syntax that allows developers to focus on solving AI problems rather than complex programming constructs. Python also offers extensive libraries and frameworks specifically designed for AI, such as TensorFlow, PyTorch, scikit-learn, and NumPy, making it the go-to choice for AI researchers and practitioners worldwide.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Python_(programming_language)",
+    "citationTitle": "Wikipedia: Python (programming language)"
+  }
+]

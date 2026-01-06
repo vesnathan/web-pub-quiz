@@ -1,0 +1,342 @@
+[
+  {
+    "id": "84e749b6-46c9-47c9-ab15-7ae8f8b42158",
+    "text": "Which programming language is known for its use of indentation to define code blocks instead of curly braces?",
+    "options": [
+      "Java",
+      "Python",
+      "C++",
+      "JavaScript"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Python uses indentation to define code blocks, making it visually distinct from languages that use curly braces.",
+    "detailedExplanation": "Python is unique among major programming languages for using whitespace indentation to delimit code blocks instead of curly braces or keywords. This design choice was made by creator Guido van Rossum to enforce readable code and reduce visual clutter. The indentation requirement means that Python code has a consistent, clean appearance, though it can sometimes cause issues for programmers transitioning from other languages.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Python_(programming_language)",
+    "citationTitle": "Wikipedia: Python (programming language)"
+  },
+  {
+    "id": "d1974468-46a7-4ec7-a702-14141fb7bef4",
+    "text": "What does HTML stand for?",
+    "options": [
+      "Hypertext Markup Language",
+      "High Tech Modern Language",
+      "Home Tool Management Language",
+      "Hyperlink and Text Markup Language"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "HTML stands for Hypertext Markup Language, the standard markup language for creating web pages.",
+    "detailedExplanation": "HTML (Hypertext Markup Language) is the standard markup language used to create web pages and web applications. Developed by Tim Berners-Lee in the early 1990s, HTML uses a system of tags and attributes to structure content on the web. The 'hypertext' part refers to links that connect web pages to one another, while 'markup' refers to the way tags are used to define elements and structure within a document.",
+    "citationUrl": "https://en.wikipedia.org/wiki/HTML",
+    "citationTitle": "Wikipedia: HTML"
+  },
+  {
+    "id": "1830fddc-4fc5-4151-902b-2a93648500ea",
+    "text": "Which company originally developed the Java programming language?",
+    "options": [
+      "Microsoft",
+      "Sun Microsystems",
+      "IBM",
+      "Google"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Java was originally developed by Sun Microsystems in the mid-1990s before Oracle acquired the company.",
+    "detailedExplanation": "Java was developed by Sun Microsystems, led by James Gosling and his team, starting in 1991. Originally called 'Oak,' it was renamed Java and publicly released in 1995. Sun Microsystems promoted Java with the slogan 'Write Once, Run Anywhere,' emphasizing its platform independence. Oracle Corporation acquired Sun Microsystems in 2010 and now maintains and develops Java.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Java_(programming_language)",
+    "citationTitle": "Wikipedia: Java (programming language)"
+  },
+  {
+    "id": "3928e648-1b21-4682-bbe0-ecc93a696be3",
+    "text": "Which programming language is primarily associated with Apple's iOS app development?",
+    "options": [
+      "Kotlin",
+      "Swift",
+      "Objective-C",
+      "Dart"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Swift is Apple's modern programming language designed specifically for iOS, macOS, and other Apple platform development.",
+    "detailedExplanation": "Swift was introduced by Apple in 2014 as a modern replacement for Objective-C for developing applications on Apple platforms including iOS, macOS, watchOS, and tvOS. Swift was designed to be safer, faster, and more expressive than Objective-C while maintaining compatibility with existing Objective-C code. While Objective-C was previously the primary language for iOS development, Swift has become Apple's preferred and recommended language for new projects.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Swift_(programming_language)",
+    "citationTitle": "Wikipedia: Swift (programming language)"
+  },
+  {
+    "id": "2c2ccaea-45e6-4124-8ac1-34f997899f3f",
+    "text": "What type of programming language is JavaScript primarily classified as?",
+    "options": [
+      "Compiled language",
+      "Assembly language",
+      "Scripting language",
+      "Machine language"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "JavaScript is primarily classified as a scripting language, often interpreted at runtime rather than compiled beforehand.",
+    "detailedExplanation": "JavaScript is classified as a high-level, interpreted scripting language. Unlike compiled languages that are translated to machine code before execution, JavaScript code is typically interpreted and executed directly by a JavaScript engine (like V8 in Chrome or SpiderMonkey in Firefox). This makes JavaScript ideal for web development, where code needs to be downloaded and executed quickly in browsers. Modern JavaScript engines do use just-in-time compilation for performance, but the language is still fundamentally designed as a scripting language.",
+    "citationUrl": "https://en.wikipedia.org/wiki/JavaScript",
+    "citationTitle": "Wikipedia: JavaScript"
+  },
+  {
+    "id": "71f5ef3a-a2ed-4b58-83dc-150ea2ea28a1",
+    "text": "Which programming language was named after a British comedy group?",
+    "options": [
+      "Ruby",
+      "Python",
+      "Perl",
+      "Go"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Python was named after the British comedy group Monty Python's Flying Circus, not the snake.",
+    "detailedExplanation": "Python was created by Guido van Rossum in the late 1980s and named after the British comedy troupe Monty Python's Flying Circus, which van Rossum was a fan of. He wanted a short, unique, and slightly mysterious name for his programming language. This naming choice reflects the Python community's culture of humor and creativity, and references to Monty Python sketches often appear in Python documentation and examples, such as using 'spam' and 'eggs' as placeholder variable names.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Python_(programming_language)",
+    "citationTitle": "Wikipedia: Python (programming language)"
+  },
+  {
+    "id": "fbd8ab8a-0d29-4db6-a93c-6b9a2e752458",
+    "text": "Which symbol is commonly used in many programming languages to indicate a comment that extends to the end of the line?",
+    "options": [
+      "#",
+      "*",
+      "&",
+      "%"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "The hash symbol (#) is commonly used in many programming languages like Python, Ruby, and shell scripting to indicate single-line comments.",
+    "detailedExplanation": "The hash symbol (#) is widely used across many programming languages including Python, Ruby, Perl, Shell scripting, and others to denote single-line comments. When a # appears in code, everything from that point to the end of the line is treated as a comment and ignored by the interpreter or compiler. This allows programmers to add explanatory notes or temporarily disable code. Different languages use different comment symbols - for example, // in Java and C++, or <!-- --> in HTML - but # is one of the most common single-line comment indicators.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Comment_(computer_science)",
+    "citationTitle": "Wikipedia: Comment (computer science)"
+  },
+  {
+    "id": "ccae9ac2-1772-4ddb-a2b8-a44bf79e09a0",
+    "text": "Which programming language is known for the phrase 'Write Once, Run Anywhere'?",
+    "options": [
+      "C#",
+      "Java",
+      "Python",
+      "Ruby"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Java is famous for the slogan 'Write Once, Run Anywhere' due to its platform independence through the Java Virtual Machine.",
+    "detailedExplanation": "'Write Once, Run Anywhere' (WORA) is Java's famous marketing slogan that highlights one of its key features: platform independence. Java achieves this through the Java Virtual Machine (JVM), which acts as an intermediary layer between Java code and the operating system. Java source code is compiled into bytecode, which can then run on any system that has a JVM installed, whether it's Windows, macOS, Linux, or other platforms. This cross-platform capability was revolutionary when Java was introduced in 1995 and remains one of its major advantages today.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Write_once,_run_anywhere",
+    "citationTitle": "Wikipedia: Write once, run anywhere"
+  },
+  {
+    "id": "2e4b0914-5d01-4c45-b761-87ce1735cdb2",
+    "text": "Which programming language was originally created by Guido van Rossum in 1991?",
+    "options": [
+      "Ruby",
+      "Python",
+      "Perl",
+      "PHP"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Python was created by Guido van Rossum and first released in 1991.",
+    "detailedExplanation": "Python was developed by Dutch programmer Guido van Rossum at Centrum Wiskunde & Informatica (CWI) in the Netherlands. He began working on it in the late 1980s and released the first version (0.9.0) in February 1991. Van Rossum served as Python's 'Benevolent Dictator For Life' (BDFL) until stepping down in 2018. The language was named after the British comedy series 'Monty Python's Flying Circus.'",
+    "citationUrl": "https://en.wikipedia.org/wiki/Python_(programming_language)",
+    "citationTitle": "Wikipedia: Python (programming language)"
+  },
+  {
+    "id": "5bfc1103-f751-4695-a6d8-d816bb1a476b",
+    "text": "What does the acronym 'SQL' stand for in database programming?",
+    "options": [
+      "System Query Logic",
+      "Structured Query Language",
+      "Simple Question Language",
+      "Standard Quality Language"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "SQL stands for Structured Query Language, used for managing relational databases.",
+    "detailedExplanation": "SQL (Structured Query Language) is a domain-specific language designed for managing and manipulating relational databases. Originally developed at IBM in the 1970s by Donald Chamberlin and Raymond Boyce, it became a standard of the American National Standards Institute (ANSI) in 1986. SQL allows users to query, insert, update, and delete data, as well as create and modify database structures.",
+    "citationUrl": "https://en.wikipedia.org/wiki/SQL",
+    "citationTitle": "Wikipedia: SQL"
+  },
+  {
+    "id": "42301031-1a16-46ef-87c8-2ec01278aa22",
+    "text": "Which programming language is primarily used for statistical computing and data analysis?",
+    "options": [
+      "FORTRAN",
+      "COBOL",
+      "R",
+      "Assembly"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "R is a programming language specifically designed for statistical computing and graphics.",
+    "detailedExplanation": "R is a programming language and free software environment developed specifically for statistical computing and graphics. Created by Ross Ihaka and Robert Gentleman at the University of Auckland, New Zealand, and first released in 1993, R is widely used among statisticians and data miners for developing statistical software and data analysis. It provides a wide variety of statistical and graphical techniques and is highly extensible through packages.",
+    "citationUrl": "https://en.wikipedia.org/wiki/R_(programming_language)",
+    "citationTitle": "Wikipedia: R (programming language)"
+  },
+  {
+    "id": "6014e4ad-6e43-468e-959e-2ecea4da0f3f",
+    "text": "Which of these programming languages is considered a 'low-level' language closest to machine code?",
+    "options": [
+      "JavaScript",
+      "Assembly",
+      "Ruby",
+      "Python"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Assembly language is a low-level programming language with a very strong correspondence to machine code instructions.",
+    "detailedExplanation": "Assembly language is a low-level programming language in which there is a very strong correspondence between the instructions in the language and the architecture's machine code instructions. Each assembly language is specific to a particular computer architecture, in contrast to most high-level programming languages, which are generally portable across multiple systems. Assembly language uses mnemonics to represent machine code instructions, making it more readable than pure binary machine code but still much more difficult to work with than high-level languages.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Assembly_language",
+    "citationTitle": "Wikipedia: Assembly language"
+  },
+  {
+    "id": "8ed67d56-6aea-480f-8f88-a5b4a200ffab",
+    "text": "Which programming language was developed by Microsoft and shares its name with a musical note?",
+    "options": [
+      "B",
+      "C#",
+      "F#",
+      "Both B and C#"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "C# (pronounced 'C Sharp') was developed by Microsoft and is named after the musical note.",
+    "detailedExplanation": "C# (pronounced 'C Sharp') is a general-purpose, multi-paradigm programming language developed by Microsoft as part of its .NET initiative. Led by Anders Hejlsberg, the development team created C# as a modern, object-oriented language that combines the computing power of C++ with the programming ease of Visual Basic. The name was inspired by the musical notation where a sharp indicates that the written note should be made a semitone higher in pitch, suggesting an enhancement to the C programming language.",
+    "citationUrl": "https://en.wikipedia.org/wiki/C_Sharp_(programming_language)",
+    "citationTitle": "Wikipedia: C Sharp (programming language)"
+  },
+  {
+    "id": "bbc6530b-4261-4ef0-a6c9-d3303eab09f8",
+    "text": "Which programming language is known for its motto 'There's more than one way to do it'?",
+    "options": [
+      "Perl",
+      "Ruby",
+      "PHP",
+      "JavaScript"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Perl is famous for its motto 'There's more than one way to do it' (TMTOWTDI).",
+    "detailedExplanation": "Perl's philosophy is encapsulated in the motto 'There's more than one way to do it' (often abbreviated as TMTOWTDI or TIMTOWTDI). This reflects the language's design principle of providing multiple ways to accomplish the same task, giving programmers flexibility in their approach. Created by Larry Wall in 1987, Perl was originally developed for text processing but has grown into a general-purpose programming language. This philosophy contrasts with languages like Python, which follows the principle that 'there should be one obvious way to do it.'",
+    "citationUrl": "https://en.wikipedia.org/wiki/Perl",
+    "citationTitle": "Wikipedia: Perl"
+  },
+  {
+    "id": "a7582581-1cab-4f4c-a4ec-4823527a6333",
+    "text": "What does the 'C' in the programming language 'C++' refer to?",
+    "options": [
+      "Computer",
+      "Code",
+      "The C programming language",
+      "Compiler"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "C++ is an extension of the C programming language, with '++' indicating an increment or enhancement.",
+    "detailedExplanation": "C++ was developed by Bjarne Stroustrup at Bell Labs starting in 1979 as an extension of the C programming language. Originally called 'C with Classes,' it was later renamed C++ in 1983. The '++' is the increment operator in C, symbolically indicating an enhanced or incremented version of C. C++ adds object-oriented programming capabilities to C while maintaining compatibility with most C programs. The name reflects both its heritage from C and its evolutionary advancement beyond the original language.",
+    "citationUrl": "https://en.wikipedia.org/wiki/C%2B%2B",
+    "citationTitle": "Wikipedia: C++"
+  },
+  {
+    "id": "cc7d380a-bb60-450a-888a-4e52b3d04bd3",
+    "text": "Which programming language was specifically designed for building web applications and originally called 'Personal Home Page'?",
+    "options": [
+      "ASP",
+      "JSP",
+      "PHP",
+      "CGI"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "PHP originally stood for 'Personal Home Page' but now stands for 'PHP: Hypertext Preprocessor.'",
+    "detailedExplanation": "PHP was originally created by Danish-Canadian programmer Rasmus Lerdorf in 1994. Initially called 'Personal Home Page,' it was a set of Common Gateway Interface (CGI) binaries written in C that he used to maintain his personal homepage. As the language evolved and gained more functionality, the meaning changed to the recursive acronym 'PHP: Hypertext Preprocessor.' PHP is now widely used as a server-side scripting language for web development and is embedded in HTML to create dynamic web pages.",
+    "citationUrl": "https://en.wikipedia.org/wiki/PHP",
+    "citationTitle": "Wikipedia: PHP"
+  },
+  {
+    "id": "e8991f79-f0b3-457b-8721-a356786068b4",
+    "text": "Which programming language was originally developed at Bell Labs in the early 1970s and is considered the foundation for many modern programming languages?",
+    "options": [
+      "FORTRAN",
+      "C",
+      "COBOL",
+      "BASIC"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "C was developed at Bell Labs by Dennis Ritchie between 1969-1973.",
+    "detailedExplanation": "The C programming language was created by Dennis Ritchie at Bell Labs between 1969 and 1973. It became one of the most influential programming languages in history, serving as the foundation for many modern languages including C++, Java, and JavaScript. C's design philosophy emphasized efficiency, flexibility, and portability, making it ideal for system programming and laying the groundwork for much of today's software infrastructure.",
+    "citationUrl": "https://en.wikipedia.org/wiki/C_(programming_language)",
+    "citationTitle": "Wikipedia: C (programming language)"
+  },
+  {
+    "id": "9263266c-b657-4664-a8c6-a597c1b9a6f4",
+    "text": "What does the programming language acronym 'FORTRAN' stand for?",
+    "options": [
+      "Formula Translation",
+      "Forward Transport",
+      "File Transformation",
+      "Function Transaction"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "FORTRAN stands for Formula Translation and was designed for mathematical computations.",
+    "detailedExplanation": "FORTRAN, which stands for Formula Translation, was developed by IBM in the 1950s and became one of the first high-level programming languages. It was specifically designed to handle complex mathematical and scientific computations, making it easier for scientists and engineers to write programs without having to work directly with machine code. FORTRAN revolutionized scientific computing and remains in use today for numerical and scientific applications.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Fortran",
+    "citationTitle": "Wikipedia: Fortran"
+  },
+  {
+    "id": "403f41e1-dfe8-47d8-8f4e-b79d15feabd4",
+    "text": "Which programming language is known for its use of the 'def' keyword to define functions?",
+    "options": [
+      "Ruby",
+      "Python",
+      "JavaScript",
+      "Both Ruby and Python"
+    ],
+    "correctIndex": 3,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Both Ruby and Python use the 'def' keyword to define functions.",
+    "detailedExplanation": "Both Ruby and Python programming languages use the 'def' keyword to define functions or methods. This shared syntax element reflects some similarities in their design philosophy, as both languages emphasize readability and simplicity. While JavaScript uses the 'function' keyword and other languages use different approaches, the 'def' keyword has become a recognizable feature of these two popular scripting languages.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Python_(programming_language)",
+    "citationTitle": "Wikipedia: Python (programming language)"
+  },
+  {
+    "id": "7d11fe57-7746-4c3a-9e26-eaee6f2bf71a",
+    "text": "Which programming language was specifically created by Google for system programming and is known for its built-in concurrency support?",
+    "options": [
+      "Rust",
+      "Go",
+      "Dart",
+      "Kotlin"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "easy",
+    "explanation": "Go (also called Golang) was created by Google in 2009 with excellent concurrency features.",
+    "detailedExplanation": "Go, also known as Golang, was developed by Google engineers Robert Griesemer, Rob Pike, and Ken Thompson starting in 2007 and released in 2009. The language was designed to address problems in large-scale software development at Google, with particular emphasis on simplicity, efficiency, and excellent support for concurrent programming through goroutines and channels. Go has become popular for cloud computing, microservices, and system programming due to these features.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Go_(programming_language)",
+    "citationTitle": "Wikipedia: Go (programming language)"
+  }
+]

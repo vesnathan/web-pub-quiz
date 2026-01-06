@@ -1,44 +1,24 @@
 "use client";
 
-import { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { useGameStore } from "@/stores/gameStore";
 
-interface QuestionCountdownProps {
-  onComplete: () => void;
-}
+/**
+ * Set start countdown overlay
+ * Displays "Get Ready!" (3), "Get Set!" (2), "GO!" (1) synced with backend
+ */
+export function QuestionCountdown() {
+  const countdownNumber = useGameStore((state) => state.countdownNumber);
+  const countdownMessage = useGameStore((state) => state.countdownMessage);
 
-export function QuestionCountdown({ onComplete }: QuestionCountdownProps) {
-  const [count, setCount] = useState(3);
-  const { questionIndex, totalQuestions } = useGameStore();
-
-  useEffect(() => {
-    if (count === 0) {
-      onComplete();
-      return;
-    }
-
-    const timer = setTimeout(() => {
-      setCount(count - 1);
-    }, 1000);
-
-    return () => clearTimeout(timer);
-  }, [count, onComplete]);
+  if (countdownNumber === null) return null;
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/70 backdrop-blur-sm">
       <div className="text-center">
-        <motion.div
-          initial={{ opacity: 0, y: -20 }}
-          animate={{ opacity: 1, y: 0 }}
-          className="text-xl text-gray-400 mb-4"
-        >
-          Question {questionIndex + 1} of {totalQuestions}
-        </motion.div>
-
         <AnimatePresence mode="wait">
           <motion.div
-            key={count}
+            key={countdownNumber}
             initial={{ scale: 0.5, opacity: 0 }}
             animate={{ scale: 1, opacity: 1 }}
             exit={{ scale: 1.5, opacity: 0 }}
@@ -48,18 +28,22 @@ export function QuestionCountdown({ onComplete }: QuestionCountdownProps) {
               textShadow: "0 0 40px rgba(124, 58, 237, 0.5)",
             }}
           >
-            {count > 0 ? count : "GO!"}
+            {countdownNumber}
           </motion.div>
         </AnimatePresence>
 
-        <motion.div
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ delay: 0.5 }}
-          className="mt-8 text-gray-500"
-        >
-          Get ready...
-        </motion.div>
+        <AnimatePresence mode="wait">
+          <motion.div
+            key={countdownMessage}
+            initial={{ opacity: 0, y: 10 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: -10 }}
+            transition={{ duration: 0.2 }}
+            className="mt-8 text-3xl font-bold text-white"
+          >
+            {countdownMessage}
+          </motion.div>
+        </AnimatePresence>
       </div>
     </div>
   );

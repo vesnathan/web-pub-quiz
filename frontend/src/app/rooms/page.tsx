@@ -1,51 +1,23 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import {
-  Button,
-  Card,
-  CardBody,
-  Chip,
-  Progress,
-  CircularProgress,
-  Modal,
-  ModalContent,
-  ModalHeader,
-  ModalBody,
-  ModalFooter,
-} from "@nextui-org/react";
+import { Button, Card, CardBody, Chip, Progress } from "@nextui-org/react";
 import { useRouter } from "next/navigation";
 import { useAuth } from "@/contexts/AuthContext";
 import { useGameStore } from "@/stores/gameStore";
 import { useLobbyChannel } from "@/hooks/useLobbyChannel";
-import { useSubscription } from "@/hooks/useSubscription";
 import { GameBackground } from "@/components/GameBackground";
-import { CountdownTimer } from "@/components/CountdownTimer";
-import { LobbyBottomBar } from "@/components/LobbyBottomBar";
+import { AppFooter } from "@/components/AppFooter";
 import { LoadingScreen } from "@/components/LoadingScreen";
 import type { RoomListItem } from "@quiz/shared";
-import { FREE_TIER_DAILY_SET_LIMIT } from "@quiz/shared";
 
 export default function RoomsPage() {
   const router = useRouter();
   const { user, isAuthenticated, isLoading: authLoading } = useAuth();
-  const { nextSetTime, isSetActive, setPlayer, setCurrentRoomId } =
-    useGameStore();
-  const { rooms, isConnected, joinWindowOpen, secondsUntilJoinOpen, joinRoom } =
-    useLobbyChannel();
-  const {
-    canPlaySet,
-    setsRemainingToday,
-    hasUnlimitedSets,
-    tierName,
-    recordSetPlayed,
-  } = useSubscription();
+  const { setPlayer, setCurrentRoomId, resetGame } = useGameStore();
+  const { rooms, isConnected, joinRoom } = useLobbyChannel();
   const [joining, setJoining] = useState<string | null>(null);
   const [error, setError] = useState<string | null>(null);
-  const [showUpgradeModal, setShowUpgradeModal] = useState(false);
-
-  // Use server-provided join window status
-  const canJoin = joinWindowOpen;
 
   // Redirect to home if not authenticated
   useEffect(() => {
@@ -55,13 +27,7 @@ export default function RoomsPage() {
   }, [authLoading, isAuthenticated, router]);
 
   const handleJoinRoom = async (roomId: string) => {
-    if (!user || !canJoin) return;
-
-    // Check daily limit for free tier
-    if (!canPlaySet) {
-      setShowUpgradeModal(true);
-      return;
-    }
+    if (!user) return;
 
     setJoining(roomId);
     setError(null);
@@ -69,8 +35,8 @@ export default function RoomsPage() {
     const result = await joinRoom(roomId);
 
     if (result.success && result.roomId) {
-      // Record set played for daily limit tracking
-      await recordSetPlayed();
+      // Reset any previous game state before joining new room
+      resetGame();
 
       // Set player and room in store
       setPlayer({
@@ -94,31 +60,17 @@ export default function RoomsPage() {
   const getRoomStatusColor = (
     room: RoomListItem,
   ): "success" | "warning" | "danger" | "default" => {
-    if (room.status === "in_progress") return "warning";
     if (room.currentPlayers >= room.maxPlayers) return "danger";
+    if (room.inProgress) return "warning";
     if (room.currentPlayers > room.maxPlayers * 0.7) return "warning";
     return "success";
   };
 
   const getRoomStatusText = (room: RoomListItem): string => {
-    if (room.status === "in_progress") return "In Progress";
     if (room.currentPlayers >= room.maxPlayers) return "Full";
+    if (room.inProgress) return "In Progress";
     return "Waiting";
   };
-
-  // Format time as mm:ss
-  const formatTime = (seconds: number): string => {
-    const minutes = Math.floor(seconds / 60);
-    const secs = seconds % 60;
-    return `${minutes}:${secs.toString().padStart(2, "0")}`;
-  };
-
-  // Calculate progress percentage (for 29 min countdown to join window)
-  // Progress shrinks from 100% to 0% as time runs out
-  const maxWaitSeconds = 29 * 60;
-  const progressValue = canJoin
-    ? 0
-    : Math.min(100, ((secondsUntilJoinOpen || 0) / maxWaitSeconds) * 100);
 
   if (authLoading) {
     return <LoadingScreen />;
@@ -137,90 +89,9 @@ export default function RoomsPage() {
               </Chip>
             </div>
 
-            {/* Next Set Timer */}
-            <Card className="bg-gray-900/70 backdrop-blur-sm mb-4">
-              <CardBody className="p-4">
-                <CountdownTimer
-                  targetTime={nextSetTime}
-                  isActive={isSetActive}
-                />
-              </CardBody>
-            </Card>
-
-            {/* Join Window Status */}
-            {!canJoin && secondsUntilJoinOpen !== null && (
-              <Card className="bg-gray-900/70 backdrop-blur-sm mb-4">
-                <CardBody className="p-6">
-                  <div className="flex flex-col items-center">
-                    <CircularProgress
-                      size="lg"
-                      value={progressValue}
-                      color="primary"
-                      showValueLabel={false}
-                      classNames={{
-                        svg: "w-24 h-24",
-                        track: "stroke-gray-700",
-                      }}
-                      aria-label="Time until join"
-                    />
-                    <div className="text-center mt-2">
-                      <div className="text-2xl font-bold text-primary-400">
-                        {formatTime(secondsUntilJoinOpen)}
-                      </div>
-                      <div className="text-sm text-gray-400">
-                        until rooms open
-                      </div>
-                    </div>
-                  </div>
-                </CardBody>
-              </Card>
-            )}
-
-            {canJoin && (
-              <div className="bg-success-100/20 text-success-500 px-4 py-3 rounded-lg mb-4 text-center">
-                Select a room to join the quiz!
-              </div>
-            )}
-
-            {/* Daily Sets Remaining (for free tier) */}
-            {!hasUnlimitedSets && (
-              <div
-                className={`px-4 py-3 rounded-lg mb-4 ${
-                  setsRemainingToday === 0
-                    ? "bg-red-900/30 border border-red-500/50"
-                    : setsRemainingToday === 1
-                      ? "bg-yellow-900/30 border border-yellow-500/50"
-                      : "bg-gray-800/50 border border-gray-700"
-                }`}
-              >
-                <div className="flex items-center justify-between">
-                  <div className="flex items-center gap-2">
-                    <span
-                      className={`text-lg font-bold ${
-                        setsRemainingToday === 0
-                          ? "text-red-400"
-                          : setsRemainingToday === 1
-                            ? "text-yellow-400"
-                            : "text-green-400"
-                      }`}
-                    >
-                      {setsRemainingToday} / {FREE_TIER_DAILY_SET_LIMIT}
-                    </span>
-                    <span className="text-gray-400 text-sm">
-                      free {setsRemainingToday === 1 ? "set" : "sets"} today
-                    </span>
-                  </div>
-                  <Button
-                    size="sm"
-                    color="primary"
-                    variant={setsRemainingToday === 0 ? "solid" : "flat"}
-                    onPress={() => router.push("/subscribe")}
-                  >
-                    {setsRemainingToday === 0 ? "Upgrade Now" : "Upgrade"}
-                  </Button>
-                </div>
-              </div>
-            )}
+            <div className="bg-success-100/20 text-success-500 px-4 py-3 rounded-lg mb-4 text-center">
+              Select a room to join the quiz!
+            </div>
 
             {error && (
               <div className="bg-danger-100 text-danger-700 px-4 py-2 rounded-lg mb-4">
@@ -240,9 +111,7 @@ export default function RoomsPage() {
                 <CardBody className="p-8 text-center">
                   <p className="text-gray-400">
                     {isConnected
-                      ? canJoin
-                        ? "Rooms will appear shortly"
-                        : "Rooms will appear when join opens"
+                      ? "Rooms will appear shortly"
                       : "Loading rooms..."}
                   </p>
                 </CardBody>
@@ -250,10 +119,7 @@ export default function RoomsPage() {
             ) : (
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 {rooms.map((room) => {
-                  const isJoinable =
-                    canJoin &&
-                    room.status === "waiting" &&
-                    room.currentPlayers < room.maxPlayers;
+                  const isJoinable = room.currentPlayers < room.maxPlayers;
                   return (
                     <Card
                       key={room.id}
@@ -300,13 +166,11 @@ export default function RoomsPage() {
                           isLoading={joining === room.id}
                           onPress={() => handleJoinRoom(room.id)}
                         >
-                          {!canJoin
-                            ? "Opens Soon"
-                            : room.status === "in_progress"
-                              ? "Game in Progress"
-                              : room.currentPlayers >= room.maxPlayers
-                                ? "Room Full"
-                                : "Join Room"}
+                          {room.currentPlayers >= room.maxPlayers
+                            ? "Room Full"
+                            : room.inProgress
+                              ? "Join Game"
+                              : "Join Room"}
                         </Button>
                       </CardBody>
                     </Card>
@@ -324,59 +188,7 @@ export default function RoomsPage() {
           </div>
         </div>
       </main>
-      <LobbyBottomBar isConnected={isConnected} />
-
-      {/* Upgrade Modal - shown when free tier limit reached */}
-      <Modal
-        isOpen={showUpgradeModal}
-        onClose={() => setShowUpgradeModal(false)}
-        classNames={{
-          base: "bg-gray-900 border border-gray-700",
-          header: "border-b border-gray-700",
-          body: "py-6",
-          footer: "border-t border-gray-700",
-        }}
-      >
-        <ModalContent>
-          <ModalHeader className="flex flex-col gap-1">
-            <span className="text-xl">Daily Limit Reached</span>
-          </ModalHeader>
-          <ModalBody>
-            <div className="text-center">
-              <div className="text-6xl mb-4">🎯</div>
-              <p className="text-gray-300 mb-4">
-                You&apos;ve played all {FREE_TIER_DAILY_SET_LIMIT} free sets for
-                today!
-              </p>
-              <p className="text-gray-400 text-sm">
-                Upgrade to{" "}
-                <span className="text-primary-400 font-semibold">
-                  Supporter
-                </span>{" "}
-                for unlimited quiz sets, plus exclusive badges and the patron
-                leaderboard.
-              </p>
-            </div>
-          </ModalBody>
-          <ModalFooter className="flex flex-col gap-2">
-            <Button
-              color="primary"
-              className="w-full"
-              size="lg"
-              onPress={() => router.push("/subscribe")}
-            >
-              View Plans - Starting at $3/month
-            </Button>
-            <Button
-              variant="light"
-              className="w-full"
-              onPress={() => setShowUpgradeModal(false)}
-            >
-              Maybe Later
-            </Button>
-          </ModalFooter>
-        </ModalContent>
-      </Modal>
+      <AppFooter isConnected={isConnected} />
     </GameBackground>
   );
 }

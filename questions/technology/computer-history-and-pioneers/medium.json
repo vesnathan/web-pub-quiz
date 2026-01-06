@@ -1,0 +1,342 @@
+[
+  {
+    "id": "92995591-e87d-46cf-a159-e5e1c0b96f81",
+    "text": "Which computer pioneer is credited with coining the term 'debugging' after removing an actual moth from a computer relay?",
+    "options": [
+      "Grace Hopper",
+      "Ada Lovelace",
+      "Katherine Johnson",
+      "Hedy Lamarr"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Grace Hopper popularized the term 'debugging' after finding a moth in a Harvard Mark II computer relay in 1947.",
+    "detailedExplanation": "Rear Admiral Grace Hopper, a pioneering computer programmer and naval officer, is widely credited with popularizing the term 'debugging' in computer programming. On September 9, 1947, while working on the Harvard Mark II computer, her team found an actual moth trapped in a relay, causing the computer to malfunction. They taped the moth into their logbook with the note 'First actual case of bug being found.' While the term 'bug' for mechanical problems existed before this incident, Hopper's discovery helped cement the terminology in computer science.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Grace_Hopper",
+    "citationTitle": "Wikipedia: Grace Hopper"
+  },
+  {
+    "id": "3060b96c-7839-43c7-8712-2818a447a3ab",
+    "text": "What was the name of the first commercially produced computer, introduced by the Eckert-Mauchly Computer Corporation in 1951?",
+    "options": [
+      "EDVAC",
+      "UNIVAC I",
+      "IBM 701",
+      "ENIAC"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "UNIVAC I (UNIVersal Automatic Computer I) was the first commercial computer produced in the United States, delivered in 1951.",
+    "detailedExplanation": "The UNIVAC I was designed by J. Presper Eckert and John Mauchly, who had previously worked on ENIAC. It became famous during the 1952 U.S. presidential election when a UNIVAC computer correctly predicted Eisenhower's victory over Stevenson on live television, despite polls showing a close race. The computer weighed about 13 tons and used 5,200 vacuum tubes. Forty-six UNIVAC I computers were built and sold to government agencies and large corporations, marking the beginning of the commercial computer industry.",
+    "citationUrl": "https://en.wikipedia.org/wiki/UNIVAC_I",
+    "citationTitle": "Wikipedia: UNIVAC I"
+  },
+  {
+    "id": "6c8bde95-591c-4704-bdfc-a333ca86bfc9",
+    "text": "Who founded Intel Corporation in 1968 along with Gordon Moore?",
+    "options": [
+      "Andy Grove",
+      "Robert Noyce",
+      "Steve Jobs",
+      "Bill Gates"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Robert Noyce co-founded Intel with Gordon Moore in 1968, both having previously worked at Fairchild Semiconductor.",
+    "detailedExplanation": "Robert Noyce, often called the 'Mayor of Silicon Valley,' co-founded Intel Corporation with Gordon Moore in July 1968. Noyce was instrumental in the development of the integrated circuit (microchip) and held the first patent for an integrated circuit. Before Intel, both Noyce and Moore worked at Fairchild Semiconductor, where they gained crucial experience in semiconductor technology. Andy Grove joined Intel shortly after its founding and became the company's third employee, later serving as CEO, but he was not a founder.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Robert_Noyce",
+    "citationTitle": "Wikipedia: Robert Noyce"
+  },
+  {
+    "id": "50c2dc9a-f59c-4f58-8a71-f0755eb1e092",
+    "text": "What programming language did Bjarne Stroustrup develop at Bell Labs in the 1980s?",
+    "options": [
+      "Java",
+      "Pascal",
+      "C++",
+      "Python"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Bjarne Stroustrup developed C++ at Bell Labs, initially calling it 'C with Classes' before settling on the current name.",
+    "detailedExplanation": "Bjarne Stroustrup, a Danish computer scientist, developed C++ at Bell Labs starting in 1979. Initially called 'C with Classes,' the language was designed to combine the efficiency of C with features that would make large-scale programming more manageable, particularly object-oriented programming capabilities. The '++' in the name refers to the increment operator in C, suggesting an enhanced or incremented version of C. C++ became one of the most widely used programming languages and influenced many subsequent languages including Java and C#.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Bjarne_Stroustrup",
+    "citationTitle": "Wikipedia: Bjarne Stroustrup"
+  },
+  {
+    "id": "8e9570f1-5cce-497d-8f89-a7f43b1744d6",
+    "text": "Which computer company did Steve Wozniak and Steve Jobs start in a garage in 1976?",
+    "options": [
+      "Commodore",
+      "Atari",
+      "Apple",
+      "Tandy"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Apple Computer Company was founded by Steve Wozniak and Steve Jobs in Jobs' parents' garage in Los Altos, California in 1976.",
+    "detailedExplanation": "Apple Computer Company was officially founded on April 1, 1976, by Steve Wozniak, Steve Jobs, and Ronald Wayne (though Wayne sold his share back after just 12 days). The company began in the garage of Jobs' childhood home in Los Altos, California. Their first product was the Apple I computer, designed entirely by Wozniak and hand-built by the founders. The Apple I was sold as a motherboard with CPU, RAM, and basic textual-video chips, and customers had to add their own keyboard, monitor, and case. This humble beginning in a garage has become legendary in Silicon Valley mythology.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Apple_Inc.",
+    "citationTitle": "Wikipedia: Apple Inc."
+  },
+  {
+    "id": "b47c47ae-14bf-4d58-8162-e0cafdceb229",
+    "text": "What was the name of the first widely-used web browser, created by Marc Andreessen at the University of Illinois?",
+    "options": [
+      "Netscape Navigator",
+      "Internet Explorer",
+      "Mosaic",
+      "WorldWideWeb"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Mosaic was the first widely-used web browser, developed by Marc Andreessen and Eric Bina at NCSA in 1993.",
+    "detailedExplanation": "Mosaic was developed at the National Center for Supercomputing Applications (NCSA) at the University of Illinois Urbana-Champaign by Marc Andreessen and Eric Bina in 1993. It was the first web browser to display images inline with text, rather than in a separate window, and featured a user-friendly graphical interface. Mosaic played a crucial role in popularizing the World Wide Web among the general public. Andreessen later left NCSA to co-found Netscape Communications Corporation, where he developed Netscape Navigator, which became Mosaic's successor.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Mosaic_(web_browser)",
+    "citationTitle": "Wikipedia: Mosaic (web browser)"
+  },
+  {
+    "id": "9aa9fcbe-6a21-48f3-92b1-f3775f521634",
+    "text": "Which mathematician and computer scientist is known as the 'father of artificial intelligence' and created a famous test for machine intelligence?",
+    "options": [
+      "John von Neumann",
+      "Claude Shannon",
+      "Alan Turing",
+      "Norbert Wiener"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Alan Turing is considered the father of AI and created the famous Turing Test to determine if a machine can exhibit intelligent behavior.",
+    "detailedExplanation": "Alan Turing, a British mathematician and computer scientist, is widely regarded as the father of artificial intelligence and theoretical computer science. In his 1950 paper 'Computing Machinery and Intelligence,' he proposed what became known as the Turing Test - a test of a machine's ability to exhibit intelligent behavior equivalent to, or indistinguishable from, that of a human. The test involves a human evaluator who engages in natural language conversations with both a human and a machine designed to generate human-like responses. If the evaluator cannot reliably tell which is which, the machine is said to have passed the test.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Alan_Turing",
+    "citationTitle": "Wikipedia: Alan Turing"
+  },
+  {
+    "id": "cf5edf62-59fc-4cd8-b95a-d904c08365d9",
+    "text": "What was the first computer virus to spread widely via the internet, released in 1988 by a Cornell graduate student?",
+    "options": [
+      "Creeper",
+      "Morris Worm",
+      "Brain",
+      "Michelangelo"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "The Morris Worm, created by Robert Tappan Morris in 1988, was the first major worm to spread across the internet.",
+    "detailedExplanation": "The Morris Worm was created by Robert Tappan Morris, a graduate student at Cornell University, and released on November 2, 1988. It was designed to gauge the size of the internet but contained a programming error that caused it to replicate much faster than intended, infecting an estimated 6,000 computers (about 10% of the internet at the time) and effectively bringing much of the network to a halt. This incident led to the creation of the Computer Emergency Response Team (CERT) and was a wake-up call about internet security. Morris became the first person prosecuted under the Computer Fraud and Abuse Act.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Morris_worm",
+    "citationTitle": "Wikipedia: Morris worm"
+  },
+  {
+    "id": "e629a608-a866-4066-8f88-b23f11865a03",
+    "text": "Which computer was famously known as 'Big Blue's' first successful mainframe computer series, introduced in the 1960s?",
+    "options": [
+      "IBM System/360",
+      "IBM 701",
+      "IBM 650",
+      "IBM 1401"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "The IBM System/360 was IBM's groundbreaking mainframe series launched in 1964.",
+    "detailedExplanation": "The IBM System/360 was a revolutionary family of mainframe computers introduced by IBM in 1964. It was the first computer series designed to cover the complete range of applications, from small to large, allowing customers to upgrade without rewriting software. The System/360 established IBM's dominance in the mainframe market and earned the company its nickname 'Big Blue.' This series was crucial in making computers more standardized and accessible to businesses.",
+    "citationUrl": "https://en.wikipedia.org/wiki/IBM_System/360",
+    "citationTitle": "Wikipedia: IBM System/360"
+  },
+  {
+    "id": "d69feed3-82a7-4b89-93c0-2692b09429d5",
+    "text": "Who developed the first computer mouse in 1964 while working at Stanford Research Institute?",
+    "options": [
+      "Douglas Engelbart",
+      "Larry Ellison",
+      "Bob Metcalfe",
+      "Dennis Ritchie"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Douglas Engelbart invented the computer mouse in 1964 as part of his work on human-computer interaction.",
+    "detailedExplanation": "Douglas Engelbart developed the first computer mouse in 1964 while working at Stanford Research Institute (SRI). The device was originally called an 'X-Y position indicator for a display system.' Engelbart's mouse was a wooden shell with two metal wheels, and he received a patent for it in 1970. His work was part of broader research into augmenting human intellect through technology, and he famously demonstrated the mouse along with other innovations in what became known as 'The Mother of All Demos' in 1968.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Douglas_Engelbart",
+    "citationTitle": "Wikipedia: Douglas Engelbart"
+  },
+  {
+    "id": "4175d381-0565-4f25-aa5c-926578c222dd",
+    "text": "What was the name of the first electronic general-purpose computer, completed in 1946 at the University of Pennsylvania?",
+    "options": [
+      "ENIAC",
+      "EDVAC",
+      "MARK I",
+      "COLOSSUS"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "ENIAC (Electronic Numerical Integrator and Computer) was the first general-purpose electronic digital computer.",
+    "detailedExplanation": "ENIAC (Electronic Numerical Integrator and Computer) was completed in 1946 at the University of Pennsylvania by J. Presper Eckert and John Mauchly. Weighing 30 tons and occupying 1,800 square feet, ENIAC used about 18,000 vacuum tubes and could perform calculations 1,000 times faster than manual methods. Originally designed to calculate artillery firing tables for the U.S. Army, ENIAC is widely considered the first general-purpose electronic digital computer, marking the beginning of the computer age.",
+    "citationUrl": "https://en.wikipedia.org/wiki/ENIAC",
+    "citationTitle": "Wikipedia: ENIAC"
+  },
+  {
+    "id": "0271b631-a868-42fe-a109-79b8d574fb97",
+    "text": "Which computer scientist created the first compiler in 1952 and later led the development of COBOL?",
+    "options": [
+      "Grace Hopper",
+      "Ada Lovelace",
+      "Barbara Liskov",
+      "Frances Allen"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Grace Hopper created the first compiler (A-0 System) and was instrumental in developing COBOL programming language.",
+    "detailedExplanation": "Rear Admiral Grace Hopper was a pioneering computer scientist who created the first compiler, called the A-0 System, in 1952. This revolutionary tool translated mathematical code into machine code, making programming much more accessible. Hopper later led the development of COBOL (Common Business-Oriented Language) in the late 1950s, one of the first high-level programming languages designed for business use. Her work fundamentally changed how programmers interacted with computers and earned her the nickname 'Amazing Grace.'",
+    "citationUrl": "https://en.wikipedia.org/wiki/Grace_Hopper",
+    "citationTitle": "Wikipedia: Grace Hopper"
+  },
+  {
+    "id": "0f3e9579-5de2-4ee7-8ec8-a25444b8253f",
+    "text": "What was the name of the first commercially successful personal computer with a graphical user interface, released by Apple in 1984?",
+    "options": [
+      "Macintosh",
+      "Apple II",
+      "Lisa",
+      "iMac"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "The Apple Macintosh was the first commercially successful personal computer with a GUI, launched in 1984.",
+    "detailedExplanation": "The Apple Macintosh, introduced in January 1984, was the first commercially successful personal computer to feature a graphical user interface (GUI) as standard. While Apple had previously released the Lisa computer with a GUI, it was too expensive for most consumers. The Macintosh made the mouse-driven, window-based interface accessible to ordinary users, revolutionizing personal computing. The famous '1984' Super Bowl commercial directed by Ridley Scott helped launch the Mac and positioned it as a revolutionary alternative to IBM-compatible PCs.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Macintosh",
+    "citationTitle": "Wikipedia: Macintosh"
+  },
+  {
+    "id": "b8e18738-3026-4ace-9679-3f9cd7300613",
+    "text": "Which programming language, created by Dennis Ritchie at Bell Labs in the early 1970s, became the foundation for many modern programming languages?",
+    "options": [
+      "C",
+      "Pascal",
+      "FORTRAN",
+      "BASIC"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "The C programming language, developed by Dennis Ritchie, became one of the most influential programming languages ever created.",
+    "detailedExplanation": "Dennis Ritchie developed the C programming language at Bell Labs between 1969 and 1973. C was designed to be a general-purpose programming language that was both powerful and relatively simple. It became enormously influential, serving as the foundation for many other languages including C++, Java, and JavaScript. C was also used to rewrite the UNIX operating system, making it portable across different computer architectures. The language's combination of low-level control and high-level features made it ideal for system programming and applications development.",
+    "citationUrl": "https://en.wikipedia.org/wiki/C_(programming_language)",
+    "citationTitle": "Wikipedia: C (programming language)"
+  },
+  {
+    "id": "3303473d-b4f3-4bcf-bb7e-55d48fcd2d6d",
+    "text": "What was the first computer to defeat a world chess champion in a match, accomplishing this feat against Garry Kasparov in 1997?",
+    "options": [
+      "Deep Blue",
+      "Watson",
+      "AlphaGo",
+      "Stockfish"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "IBM's Deep Blue became the first computer to defeat a world chess champion when it beat Garry Kasparov in 1997.",
+    "detailedExplanation": "IBM's Deep Blue made history in May 1997 when it defeated world chess champion Garry Kasparov in a six-game match, winning 3.5 to 2.5. This was a rematch from 1996, where Kasparov had won. Deep Blue was a specialized chess-playing supercomputer capable of evaluating 200 million chess positions per second. The victory was a landmark moment in artificial intelligence and computer science, demonstrating that computers could outperform humans in complex strategic games. The match was widely covered in the media and marked a turning point in public perception of computer capabilities.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Deep_Blue_(chess_computer)",
+    "citationTitle": "Wikipedia: Deep Blue (chess computer)"
+  },
+  {
+    "id": "b874be13-e5fd-4d6a-bc3a-068b966dfdb5",
+    "text": "Which computer scientist is credited with inventing the World Wide Web while working at CERN in 1989?",
+    "options": [
+      "Tim Berners-Lee",
+      "Vint Cerf",
+      "Bob Kahn",
+      "Larry Page"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Tim Berners-Lee invented the World Wide Web in 1989 while working at CERN in Switzerland.",
+    "detailedExplanation": "Tim Berners-Lee invented the World Wide Web in 1989 while working as a software engineer at CERN, the European physics research laboratory in Switzerland. He wrote the first web browser (called WorldWideWeb, later renamed Nexus), web server software, and the first website. Berners-Lee also developed the fundamental technologies that underpin the web: HTML (HyperText Markup Language), HTTP (HyperText Transfer Protocol), and URLs (Uniform Resource Locators). Crucially, he chose not to patent his invention, instead making it freely available to everyone, which was instrumental in the web's rapid global adoption.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Tim_Berners-Lee",
+    "citationTitle": "Wikipedia: Tim Berners-Lee"
+  },
+  {
+    "id": "275647b1-4e5c-4538-b172-2fc88fc3050b",
+    "text": "Which computer pioneer developed the stored-program concept that became the foundation of modern computer architecture?",
+    "options": [
+      "John von Neumann",
+      "Charles Babbage",
+      "Ada Lovelace",
+      "Konrad Zuse"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "John von Neumann developed the stored-program concept, known as the von Neumann architecture.",
+    "detailedExplanation": "John von Neumann, a Hungarian-American mathematician, developed the stored-program concept in the 1940s, which became known as the von Neumann architecture. This revolutionary idea proposed that both program instructions and data should be stored in the same memory space, allowing computers to modify their own programs. This concept became the foundation for virtually all modern computer designs and distinguished electronic computers from earlier mechanical calculating machines.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Von_Neumann_architecture",
+    "citationTitle": "Wikipedia: Von Neumann architecture"
+  },
+  {
+    "id": "f3cbec42-846c-481e-918b-0820a1d2539c",
+    "text": "What was the name of the room-sized computer built by IBM in the 1940s that was primarily used for calculations at Harvard University?",
+    "options": [
+      "Harvard Mark I",
+      "EDVAC",
+      "MANIAC",
+      "Colossus"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "The Harvard Mark I was IBM's room-sized electro-mechanical computer built for Harvard University.",
+    "detailedExplanation": "The Harvard Mark I, officially known as the IBM Automatic Sequence Controlled Calculator, was completed in 1944. This massive electro-mechanical computer was 51 feet long, 8 feet high, and weighed about 10,000 pounds. It was primarily used for military calculations during World War II, including work on the Manhattan Project. The machine could perform addition, subtraction, multiplication, division, and reference to previous results, representing a significant step toward modern programmable computers.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Harvard_Mark_I",
+    "citationTitle": "Wikipedia: Harvard Mark I"
+  },
+  {
+    "id": "79696036-15a6-41a6-b3ee-89b975cb1b2a",
+    "text": "Which company introduced the first commercially available microprocessor, the 4004, in 1971?",
+    "options": [
+      "Motorola",
+      "Intel",
+      "AMD",
+      "Texas Instruments"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Intel introduced the 4004 microprocessor in 1971, marking the beginning of the microprocessor era.",
+    "detailedExplanation": "Intel released the 4004 microprocessor on November 15, 1971, originally designed for a Japanese calculator company called Busicom. This 4-bit microprocessor contained 2,300 transistors and could execute 60,000 operations per second. The 4004 was revolutionary because it put the functions of a computer's central processing unit on a single chip, making it possible to build much smaller and less expensive computers. This innovation launched the microprocessor industry and paved the way for personal computers.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Intel_4004",
+    "citationTitle": "Wikipedia: Intel 4004"
+  },
+  {
+    "id": "0772b5a9-9d37-466a-b238-4b558eecfbc5",
+    "text": "Who founded Oracle Corporation and is known for pioneering relational database management systems?",
+    "options": [
+      "Michael Dell",
+      "Larry Ellison",
+      "Scott McNealy",
+      "Marc Benioff"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Larry Ellison founded Oracle Corporation in 1977 and became a pioneer in relational database technology.",
+    "detailedExplanation": "Larry Ellison co-founded Oracle Corporation (originally called Software Development Laboratories) in 1977 with Bob Miner and Ed Oates. Inspired by Edgar F. Codd's research on relational database models at IBM, Ellison saw the commercial potential of relational databases and developed Oracle's first commercial SQL-based database system. Oracle became one of the world's largest software companies, and Ellison's work helped establish the relational database as the standard for enterprise data management, revolutionizing how organizations store and access information.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Larry_Ellison",
+    "citationTitle": "Wikipedia: Larry Ellison"
+  }
+]

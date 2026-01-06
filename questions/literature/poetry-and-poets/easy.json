@@ -1,0 +1,342 @@
+[
+  {
+    "id": "3cbf5a03-e9a2-4de5-a7a0-5f3b7186471d",
+    "text": "Which famous English poet wrote 'Romeo and Juliet' and 'Hamlet'?",
+    "options": [
+      "William Shakespeare",
+      "John Milton",
+      "Geoffrey Chaucer",
+      "Lord Byron"
+    ],
+    "correctIndex": 0,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "William Shakespeare wrote both 'Romeo and Juliet' and 'Hamlet', though he's primarily known as a playwright rather than a poet.",
+    "detailedExplanation": "William Shakespeare (1564-1616) is widely regarded as the greatest writer in the English language. While he's most famous for his plays including 'Romeo and Juliet' and 'Hamlet', he was also an accomplished poet who wrote 154 sonnets and several narrative poems. His poetic works include 'Venus and Adonis' and 'The Rape of Lucrece', and his plays themselves contain some of the most beautiful poetry ever written in English.",
+    "citationUrl": "https://en.wikipedia.org/wiki/William_Shakespeare",
+    "citationTitle": "Wikipedia: William Shakespeare"
+  },
+  {
+    "id": "1971d889-f43f-4f0d-aaaa-afd8db1938f2",
+    "text": "What type of poem has exactly 14 lines and follows a specific rhyme scheme?",
+    "options": [
+      "Sonnet",
+      "Haiku",
+      "Limerick",
+      "Ballad"
+    ],
+    "correctIndex": 0,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "A sonnet is a poetic form consisting of exactly 14 lines, typically written in iambic pentameter with various rhyme schemes.",
+    "detailedExplanation": "The sonnet is one of the most enduring and popular poetic forms, originating in Italy in the 13th century. The most common types are the Petrarchan (Italian) sonnet with an ABBAABBA CDECDE rhyme scheme, and the Shakespearean (English) sonnet with an ABABCDCDEFEFGG pattern. Famous sonnets include Shakespeare's 'Shall I compare thee to a summer's day?' and Elizabeth Barrett Browning's 'How do I love thee? Let me count the ways.'",
+    "citationUrl": "https://en.wikipedia.org/wiki/Sonnet",
+    "citationTitle": "Wikipedia: Sonnet"
+  },
+  {
+    "id": "971607b0-2a96-47a9-adaa-ab484da3dab4",
+    "text": "Which American poet wrote 'The Road Not Taken'?",
+    "options": [
+      "Robert Frost",
+      "Walt Whitman",
+      "Emily Dickinson",
+      "Langston Hughes"
+    ],
+    "correctIndex": 0,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "Robert Frost wrote 'The Road Not Taken' in 1915, one of the most famous and frequently quoted poems in American literature.",
+    "detailedExplanation": "Robert Frost (1874-1963) was an American poet known for his realistic depictions of rural life and his command of American colloquial speech. 'The Road Not Taken' was published in 1916 in his collection 'Mountain Interval'. The poem's famous lines 'Two roads diverged in a wood, and I— I took the one less traveled by, And that has made all the difference' have become iconic, though the poem's meaning is often misinterpreted as simply advocating nonconformity.",
+    "citationUrl": "https://en.wikipedia.org/wiki/The_Road_Not_Taken",
+    "citationTitle": "Wikipedia: The Road Not Taken"
+  },
+  {
+    "id": "40d6a780-824e-4ad4-be86-0a59a1deb9b5",
+    "text": "How many lines does a traditional haiku have?",
+    "options": [
+      "3",
+      "5",
+      "7",
+      "4"
+    ],
+    "correctIndex": 0,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "A traditional haiku consists of three lines, typically following a 5-7-5 syllable pattern.",
+    "detailedExplanation": "Haiku is a traditional form of Japanese poetry that consists of three lines. The classical pattern follows a 5-7-5 syllable structure, with the first line having 5 syllables, the second line 7 syllables, and the third line 5 syllables. Haiku traditionally focuses on nature and seasonal references, capturing a moment in time with vivid imagery. The form was popularized in the West by poets like Ezra Pound and has been adapted by many English-language poets, sometimes without strict adherence to the syllable count.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Haiku",
+    "citationTitle": "Wikipedia: Haiku"
+  },
+  {
+    "id": "91cbe437-5c7a-4fbd-a4bf-30826770a574",
+    "text": "Which British poet wrote 'She Walks in Beauty' and 'Don Juan'?",
+    "options": [
+      "Lord Byron",
+      "Percy Shelley",
+      "John Keats",
+      "Samuel Coleridge"
+    ],
+    "correctIndex": 0,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "Lord Byron wrote both 'She Walks in Beauty' and the epic satirical poem 'Don Juan', establishing him as a leading figure of the Romantic movement.",
+    "detailedExplanation": "George Gordon Byron, 6th Baron Byron (1788-1824), commonly known as Lord Byron, was a prominent British Romantic poet and peer. 'She Walks in Beauty' was written in 1814 and remains one of his most famous lyric poems, beginning with the immortal line 'She walks in beauty, like the night.' 'Don Juan' was his epic satirical poem written between 1819-1824. Byron was known for his scandalous personal life and revolutionary politics, and he died fighting for Greek independence at age 36.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Lord_Byron",
+    "citationTitle": "Wikipedia: Lord Byron"
+  },
+  {
+    "id": "a1d44234-1c45-46d6-85b6-39e1c581646a",
+    "text": "What is the term for a poem that tells a story, often set to music?",
+    "options": [
+      "Ballad",
+      "Ode",
+      "Elegy",
+      "Epic"
+    ],
+    "correctIndex": 0,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "A ballad is a narrative poem that tells a story, traditionally meant to be sung or recited, often dealing with folk tales or legends.",
+    "detailedExplanation": "Ballads are narrative poems that originated in the oral tradition of folk culture. They typically tell dramatic stories of love, adventure, betrayal, or supernatural events in simple language and regular meter, making them easy to remember and sing. Traditional ballads like 'Barbara Allen' and 'Lord Randall' were passed down through generations before being written down. Literary ballads, such as Samuel Taylor Coleridge's 'The Rime of the Ancient Mariner', were composed by known poets but imitated the folk ballad style.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Ballad",
+    "citationTitle": "Wikipedia: Ballad"
+  },
+  {
+    "id": "3b27b6f1-6e50-4c38-a585-1590f9d2f169",
+    "text": "Which female American poet was known for her reclusive lifestyle and wrote 'Because I could not stop for Death'?",
+    "options": [
+      "Emily Dickinson",
+      "Maya Angelou",
+      "Sylvia Plath",
+      "Anne Sexton"
+    ],
+    "correctIndex": 0,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "Emily Dickinson was famous for her reclusive nature and distinctive poetry, including the renowned poem 'Because I could not stop for Death.'",
+    "detailedExplanation": "Emily Dickinson (1830-1886) was an American poet who lived most of her adult life in near-total seclusion in her family home in Amherst, Massachusetts. Despite her reclusive lifestyle, she was incredibly prolific, writing nearly 1,800 poems. Her work was largely unknown during her lifetime, with only a few poems published anonymously. 'Because I could not stop for Death' is one of her most famous works, personifying death as a courteous carriage driver. Her poetry is known for its unconventional capitalization, punctuation, and slant rhymes.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Emily_Dickinson",
+    "citationTitle": "Wikipedia: Emily Dickinson"
+  },
+  {
+    "id": "30a276d8-4945-4a16-bc44-7f4fd61e3695",
+    "text": "What epic poem by Homer tells the story of Odysseus's journey home after the Trojan War?",
+    "options": [
+      "The Odyssey",
+      "The Iliad",
+      "The Aeneid",
+      "Beowulf"
+    ],
+    "correctIndex": 0,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "The Odyssey is Homer's epic poem recounting Odysseus's ten-year journey home to Ithaca after the fall of Troy.",
+    "detailedExplanation": "The Odyssey is one of two major ancient Greek epic poems attributed to Homer (the other being The Iliad). Composed in the 8th century BCE, it tells the story of Odysseus, king of Ithaca, and his arduous ten-year journey home after the Trojan War. The poem includes famous episodes such as encounters with the Cyclops, the Sirens, and the goddess Circe. The Odyssey has profoundly influenced Western literature and continues to be widely read and adapted. The word 'odyssey' itself has entered common usage to describe any long, eventful journey.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Odyssey",
+    "citationTitle": "Wikipedia: Odyssey"
+  },
+  {
+    "id": "4dd69822-f8d7-482f-a4d9-6ab59491ff6c",
+    "text": "Which Scottish poet wrote 'Auld Lang Syne', traditionally sung on New Year's Eve?",
+    "options": [
+      "Robert Burns",
+      "Sir Walter Scott",
+      "Robert Louis Stevenson",
+      "Hugh MacDiarmid"
+    ],
+    "correctIndex": 0,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "Robert Burns wrote 'Auld Lang Syne' in 1788.",
+    "detailedExplanation": "Robert Burns, Scotland's national poet, wrote 'Auld Lang Syne' in 1788. The song, whose title means 'times long past' or 'days gone by' in Scots, has become synonymous with New Year's celebrations worldwide. Burns claimed he transcribed it from an old man's singing, though he likely modified and improved upon the original folk song.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Robert_Burns",
+    "citationTitle": "Wikipedia: Robert Burns"
+  },
+  {
+    "id": "7a3dc565-652e-4536-9189-8cb3affa34e1",
+    "text": "What is the opening line of Joyce Kilmer's famous poem about nature?",
+    "options": [
+      "I think that I shall never see",
+      "Two roads diverged in a yellow wood",
+      "Whose woods these are I think I know",
+      "I wandered lonely as a cloud"
+    ],
+    "correctIndex": 0,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "Joyce Kilmer's poem 'Trees' begins with 'I think that I shall never see a poem lovely as a tree.'",
+    "detailedExplanation": "Joyce Kilmer's beloved poem 'Trees' (1913) opens with the famous line 'I think that I shall never see a poem lovely as a tree.' This simple yet profound celebration of nature's beauty became one of the most memorized poems in American literature. Kilmer was tragically killed in World War I at age 31, but this poem ensured his lasting literary legacy.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Trees_(poem)",
+    "citationTitle": "Wikipedia: Trees (poem)"
+  },
+  {
+    "id": "b87d7915-da76-4fcc-a1f8-d6b51a29a621",
+    "text": "Which ancient Greek poet is traditionally credited as the author of 'The Iliad'?",
+    "options": [
+      "Homer",
+      "Hesiod",
+      "Sappho",
+      "Pindar"
+    ],
+    "correctIndex": 0,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "Homer is traditionally credited as the author of 'The Iliad', the epic poem about the Trojan War.",
+    "detailedExplanation": "Homer is the legendary ancient Greek poet traditionally credited with composing 'The Iliad', the epic poem that recounts the final weeks of the Trojan War. Along with 'The Odyssey', these works form the foundation of Western literature. While scholars debate whether Homer was a historical individual or represents a tradition of oral poets, the attribution to Homer has remained consistent since antiquity.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Homer",
+    "citationTitle": "Wikipedia: Homer"
+  },
+  {
+    "id": "3cbbc789-8203-4b4e-ab27-df1207aa9c0c",
+    "text": "What poetic device involves giving human characteristics to non-human things?",
+    "options": [
+      "Personification",
+      "Alliteration",
+      "Metaphor",
+      "Onomatopoeia"
+    ],
+    "correctIndex": 0,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "Personification is the poetic device that gives human characteristics to non-human objects or concepts.",
+    "detailedExplanation": "Personification is a literary device where human qualities, emotions, or actions are attributed to non-human entities, objects, or abstract concepts. For example, saying 'the wind whispered through the trees' gives the wind the human ability to whisper. This technique helps readers connect emotionally with descriptions and makes abstract concepts more relatable and vivid in poetry.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Personification",
+    "citationTitle": "Wikipedia: Personification"
+  },
+  {
+    "id": "f37220a0-4172-4662-bab1-a2e6bf7acb4f",
+    "text": "Which British poet wrote 'The Tyger' with its famous opening line 'Tyger Tyger, burning bright'?",
+    "options": [
+      "William Blake",
+      "William Wordsworth",
+      "Samuel Taylor Coleridge",
+      "John Keats"
+    ],
+    "correctIndex": 0,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "William Blake wrote 'The Tyger' as part of his collection 'Songs of Experience' in 1794.",
+    "detailedExplanation": "William Blake wrote 'The Tyger' in 1794 as part of his collection 'Songs of Experience.' The poem's famous opening 'Tyger Tyger, burning bright, In the forests of the night' explores themes of creation, innocence, and experience. Blake was not only a poet but also an artist who illustrated his own works, and he deliberately used the archaic spelling 'Tyger' rather than 'Tiger' throughout the poem.",
+    "citationUrl": "https://en.wikipedia.org/wiki/The_Tyger",
+    "citationTitle": "Wikipedia: The Tyger"
+  },
+  {
+    "id": "afa28d7a-84b9-4767-9c21-b80d03fe570b",
+    "text": "What is a limerick's traditional rhyme scheme?",
+    "options": [
+      "AABBA",
+      "ABAB",
+      "ABCB",
+      "AABB"
+    ],
+    "correctIndex": 0,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "A limerick follows the AABBA rhyme scheme, with the first, second, and fifth lines rhyming together.",
+    "detailedExplanation": "A limerick is a humorous five-line poem with a distinctive AABBA rhyme scheme. The first, second, and fifth lines typically have seven to ten syllables and rhyme with each other, while the shorter third and fourth lines have five to seven syllables and rhyme with each other. This form was popularized by Edward Lear in the 19th century and remains a popular format for humorous verse.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Limerick_(poetry)",
+    "citationTitle": "Wikipedia: Limerick (poetry)"
+  },
+  {
+    "id": "1a9dd8d0-fbbd-4382-82f8-ff15ee5924f7",
+    "text": "Which American poet wrote 'O Captain! My Captain!' as an elegy for Abraham Lincoln?",
+    "options": [
+      "Walt Whitman",
+      "Langston Hughes",
+      "Carl Sandburg",
+      "Ralph Waldo Emerson"
+    ],
+    "correctIndex": 0,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "Walt Whitman wrote 'O Captain! My Captain!' in 1865 to mourn the assassination of President Lincoln.",
+    "detailedExplanation": "Walt Whitman wrote 'O Captain! My Captain!' in 1865 following the assassination of President Abraham Lincoln. The poem uses the metaphor of a ship's captain to represent Lincoln, and a ship returning to port to represent the Union's victory in the Civil War. Despite being one of Whitman's most famous and frequently anthologized poems, the poet himself grew tired of its popularity, feeling it overshadowed his other work.",
+    "citationUrl": "https://en.wikipedia.org/wiki/O_Captain!_My_Captain!",
+    "citationTitle": "Wikipedia: O Captain! My Captain!"
+  },
+  {
+    "id": "4075df35-6e33-4e4d-aa0d-6a9e0f91be32",
+    "text": "What nationality was Pablo Neruda, the Nobel Prize-winning poet?",
+    "options": [
+      "Chilean",
+      "Argentinian",
+      "Mexican",
+      "Spanish"
+    ],
+    "correctIndex": 0,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "Pablo Neruda was a Chilean poet who won the Nobel Prize in Literature in 1971.",
+    "detailedExplanation": "Pablo Neruda was a Chilean poet and diplomat who became one of the most widely read poets in the world. Born Neftalí Ricardo Reyes Basoalto in 1904, he adopted the pen name Pablo Neruda early in his career. He won the Nobel Prize in Literature in 1971 for poetry that 'brings alive a continent's destiny and dreams.' His works span love poetry, surrealist poems, historical epics, and political manifestos.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Pablo_Neruda",
+    "citationTitle": "Wikipedia: Pablo Neruda"
+  },
+  {
+    "id": "8802cd94-5e65-40f1-b879-5468f5dddda3",
+    "text": "Which Irish poet won the Nobel Prize in Literature in 1923 and wrote 'The Second Coming'?",
+    "options": [
+      "W.B. Yeats",
+      "Seamus Heaney",
+      "Oscar Wilde",
+      "James Joyce"
+    ],
+    "correctIndex": 0,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "W.B. Yeats won the Nobel Prize in Literature in 1923 and wrote the famous poem 'The Second Coming'.",
+    "detailedExplanation": "William Butler Yeats was an Irish poet who became one of the foremost figures of 20th-century literature. He was awarded the Nobel Prize in Literature in 1923 'for his always inspired poetry, which in a highly artistic form gives expression to the spirit of a whole nation.' His poem 'The Second Coming,' written in 1919, contains the famous lines 'Things fall apart; the centre cannot hold' and is considered one of the most important poems of the modern era.",
+    "citationUrl": "https://en.wikipedia.org/wiki/W._B._Yeats",
+    "citationTitle": "Wikipedia: W. B. Yeats"
+  },
+  {
+    "id": "e5218490-f23f-403f-994a-4b222ae9f62a",
+    "text": "What is the name for a poem written to mourn someone's death?",
+    "options": [
+      "Elegy",
+      "Ode",
+      "Ballad",
+      "Pastoral"
+    ],
+    "correctIndex": 0,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "An elegy is a mournful, melancholic poem, especially one written to lament the dead.",
+    "detailedExplanation": "An elegy is a form of poetry that expresses sorrow, typically for someone who has died. This poetic form has ancient origins and has been used throughout literary history to commemorate and mourn the deceased. Famous examples include Thomas Gray's 'Elegy Written in a Country Churchyard' and Alfred Lord Tennyson's 'In Memoriam A.H.H.' The elegiac tradition allows poets to explore themes of mortality, loss, and remembrance in a structured, artistic way.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Elegy",
+    "citationTitle": "Wikipedia: Elegy"
+  },
+  {
+    "id": "c7ef52d9-9ce7-4e73-895f-5d3043a1a480",
+    "text": "Which epic poem by John Milton tells the story of the fall of Adam and Eve?",
+    "options": [
+      "Paradise Lost",
+      "Paradise Regained",
+      "Samson Agonistes",
+      "Lycidas"
+    ],
+    "correctIndex": 0,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "Paradise Lost is Milton's epic poem that retells the biblical story of the fall of Adam and Eve.",
+    "detailedExplanation": "Paradise Lost, published in 1667, is John Milton's masterpiece and one of the greatest epic poems in English literature. The poem, written in blank verse, tells the biblical story of the fall of man, chronicling Satan's rebellion against God, his temptation of Adam and Eve in the Garden of Eden, and their subsequent expulsion from Paradise. Milton's complex portrayal of Satan as a charismatic anti-hero has influenced literature for centuries, and the work explores themes of free will, obedience, and redemption.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Paradise_Lost",
+    "citationTitle": "Wikipedia: Paradise Lost"
+  },
+  {
+    "id": "908f3b9b-afbc-4178-afd2-84c409f1ed48",
+    "text": "In poetry, what is 'iambic pentameter'?",
+    "options": [
+      "A rhythmic pattern with five pairs of unstressed and stressed syllables",
+      "A poem with five stanzas",
+      "A rhyme scheme pattern",
+      "A type of metaphor"
+    ],
+    "correctIndex": 0,
+    "category": "literature",
+    "difficulty": "easy",
+    "explanation": "Iambic pentameter is a metrical pattern consisting of five iambs (unstressed-stressed syllable pairs) per line.",
+    "detailedExplanation": "Iambic pentameter is one of the most common metrical patterns in English poetry, consisting of five iambs per line. An iamb is a metrical foot containing an unstressed syllable followed by a stressed syllable (da-DUM). This creates a line with ten syllables total, following the pattern: da-DUM da-DUM da-DUM da-DUM da-DUM. Shakespeare famously used iambic pentameter in his plays and sonnets, as did many other English poets including John Milton and Alexander Pope. The rhythm closely mimics natural English speech patterns, making it particularly effective for dramatic and narrative poetry.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Iambic_pentameter",
+    "citationTitle": "Wikipedia: Iambic pentameter"
+  }
+]

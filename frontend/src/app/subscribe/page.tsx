@@ -12,7 +12,7 @@ import {
 } from "@nextui-org/react";
 import { useRouter } from "next/navigation";
 import { Navbar } from "@/components/Navbar";
-import { Footer } from "@/components/Footer";
+import { AppFooter } from "@/components/AppFooter";
 import { LoadingScreen } from "@/components/LoadingScreen";
 import { useAuth } from "@/contexts/AuthContext";
 import { createCheckoutSession } from "@/lib/api";
@@ -406,7 +406,7 @@ function SubscribePageContent() {
           </Card>
         </div>
       </main>
-      <Footer />
+      <AppFooter />
     </>
   );
 }

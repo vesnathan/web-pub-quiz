@@ -1,10 +1,12 @@
 "use client";
 
-import { useEffect } from "react";
-import { Avatar } from "@nextui-org/react";
+import { useEffect, useState } from "react";
+import { Avatar, Chip } from "@nextui-org/react";
 import { LoadingDots } from "@/components/LoadingScreen";
 import { useAuth } from "@/contexts/AuthContext";
 import { useConversations } from "@/hooks/queries";
+import { useLobbyPresence } from "@/hooks/useLobbyPresence";
+import { startConversation } from "@/lib/api";
 import { ChatPanel } from "./ChatPanel";
 import { useChatStore } from "@/stores/chatStore";
 import type { Conversation } from "@quiz/shared";
@@ -29,9 +31,23 @@ export function ChatDrawer({
     goToList,
   } = useChatStore();
 
+  const [startingConversation, setStartingConversation] = useState<
+    string | null
+  >(null);
+
   // Use prop values if provided, otherwise use store
   const isOpen = propIsOpen ?? storeIsOpen;
   const onClose = propOnClose ?? closeChat;
+
+  // Get online users from lobby presence
+  const { activeUsers } = useLobbyPresence({
+    enabled: isAuthenticated && isOpen,
+    userId: user?.userId,
+    displayName: user?.name || user?.username,
+  });
+
+  // Filter out current user from online list
+  const onlineUsers = activeUsers.filter((u) => u.clientId !== user?.userId);
 
   // Fetch conversations using TanStack Query
   const { data: fetchedConversations, isLoading } = useConversations(
@@ -47,6 +63,26 @@ export function ChatDrawer({
   }, [fetchedConversations, setConversations]);
 
   const loading = isLoading;
+
+  // Start a conversation with an online user
+  const handleMessageUser = async (userId: string, displayName: string) => {
+    if (startingConversation) return;
+
+    setStartingConversation(userId);
+    try {
+      const conversation = await startConversation(userId, displayName);
+      if (conversation) {
+        // Add to conversations list and open it
+        // Display names are now returned correctly from the backend
+        setConversations([conversation, ...conversations]);
+        setActiveConversation(conversation.id);
+      }
+    } catch (error) {
+      console.error("Failed to start conversation:", error);
+    } finally {
+      setStartingConversation(null);
+    }
+  };
 
   const getOtherParticipant = (conversation: Conversation) => {
     return conversation.participants.find((p) => p.id !== user?.userId);
@@ -99,7 +135,7 @@ export function ChatDrawer({
   if (!isOpen) return null;
 
   return (
-    <div className="fixed inset-y-0 right-0 w-96 bg-gray-900 border-l border-gray-700 shadow-xl z-50 flex flex-col">
+    <div className="fixed inset-y-0 right-0 w-full sm:w-96 bg-gray-900 border-l border-gray-700 shadow-xl z-50 flex flex-col">
       {/* Header */}
       <div className="flex items-center justify-between p-4 border-b border-gray-700">
         {activeConversation ? (
@@ -189,6 +225,64 @@ export function ChatDrawer({
               </div>
             </button>
           </div>
+
+          {/* Online Users */}
+          {onlineUsers.length > 0 && (
+            <div className="p-4 border-b border-gray-700">
+              <div className="flex items-center gap-2 mb-3">
+                <h3 className="text-sm font-medium text-gray-400">
+                  Online Now
+                </h3>
+                <Chip size="sm" color="success" variant="flat">
+                  {onlineUsers.length}
+                </Chip>
+              </div>
+              <div className="space-y-2">
+                {onlineUsers.map((onlineUser) => (
+                  <button
+                    key={onlineUser.clientId}
+                    onClick={() =>
+                      handleMessageUser(
+                        onlineUser.clientId,
+                        onlineUser.displayName,
+                      )
+                    }
+                    disabled={startingConversation === onlineUser.clientId}
+                    className="w-full flex items-center gap-3 p-2 rounded-lg hover:bg-gray-800 transition-colors disabled:opacity-50"
+                  >
+                    <div className="relative">
+                      <Avatar
+                        className={`w-8 h-8 ${getAvatarColor(onlineUser.clientId)}`}
+                        name={getInitials(onlineUser.displayName)}
+                        size="sm"
+                      />
+                      <div className="absolute -bottom-0.5 -right-0.5 w-3 h-3 bg-green-500 rounded-full border-2 border-gray-900" />
+                    </div>
+                    <span className="text-sm text-white truncate flex-1 text-left">
+                      {onlineUser.displayName}
+                    </span>
+                    {startingConversation === onlineUser.clientId ? (
+                      <LoadingDots />
+                    ) : (
+                      <svg
+                        className="w-4 h-4 text-gray-400"
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth={2}
+                          d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"
+                        />
+                      </svg>
+                    )}
+                  </button>
+                ))}
+              </div>
+            </div>
+          )}
 
           {/* Private Conversations */}
           <div className="p-4">

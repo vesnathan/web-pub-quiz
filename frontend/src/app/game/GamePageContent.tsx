@@ -2,31 +2,30 @@
 
 import { useEffect, useCallback, useState } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
-import { Card, CardBody } from "@nextui-org/react";
-import { LoadingScreen } from "@/components/LoadingScreen";
+import { Card, CardBody, Button } from "@nextui-org/react";
+import { LoadingScreen, LoadingDots } from "@/components/LoadingScreen";
 import { useGameStore } from "@/stores/gameStore";
 import { useAuth } from "@/contexts/AuthContext";
 import { QuestionPhase } from "@/components/game";
 import type { Player, LeaderboardEntry, Question } from "@quiz/shared";
 import { PlayerList } from "@/components/PlayerList";
 import { QuestionResults } from "@/components/QuestionResults";
-import { SetEndScreen, SetEndSidebar } from "@/components/SetEndScreen";
-import { QuestionCountdown } from "@/components/QuestionCountdown";
 import { BadgeAwardAnimation } from "@/components/badges";
 import { useAbly } from "@/hooks/useAbly";
 import { useAntiCheat } from "@/hooks/useAntiCheat";
-import { GameBottomBar } from "@/components/GameBottomBar";
+import { useSubscription } from "@/hooks/useSubscription";
+import { AppFooter } from "@/components/AppFooter";
 import { GameBackground } from "@/components/GameBackground";
 import { SessionKickedOverlay } from "@/components/SessionKickedOverlay";
+import { SessionSummary } from "@/components/SessionSummary";
 import { DID_YOU_KNOW_FACTS } from "@/data/didYouKnowFacts";
-
-const JOIN_WINDOW_MS = 60 * 1000; // 1 minute before set start
 
 export default function GamePageContent() {
   const router = useRouter();
   const searchParams = useSearchParams();
   const roomIdFromUrl = searchParams.get("roomId");
   const { isAuthenticated, isLoading: authLoading } = useAuth();
+  const { questionsRemainingToday, hasUnlimitedQuestions } = useSubscription();
 
   // Minimal store access - use selectors for specific state
   const player = useGameStore((state) => state.player);
@@ -35,8 +34,6 @@ export default function GamePageContent() {
   const players = useGameStore((state) => state.players);
   const currentRoomId = useGameStore((state) => state.currentRoomId);
   const setCurrentRoomId = useGameStore((state) => state.setCurrentRoomId);
-  const isSetActive = useGameStore((state) => state.isSetActive);
-  const nextSetTime = useGameStore((state) => state.nextSetTime);
 
   // For results phase
   const currentQuestion = useGameStore((state) => state.currentQuestion);
@@ -44,8 +41,8 @@ export default function GamePageContent() {
   const explanation = useGameStore((state) => state.explanation);
   const wasAnswered = useGameStore((state) => state.wasAnswered);
   const wasCorrect = useGameStore((state) => state.wasCorrect);
-  const buzzerWinnerName = useGameStore((state) => state.buzzerWinnerName);
-  const buzzerWinner = useGameStore((state) => state.buzzerWinner);
+  const questionWinnerName = useGameStore((state) => state.questionWinnerName);
+  const questionWinner = useGameStore((state) => state.questionWinner);
   const nextQuestionTime = useGameStore((state) => state.nextQuestionTime);
   const setLeaderboard = useGameStore((state) => state.setLeaderboard);
   const earnedBadgesThisQuestion = useGameStore(
@@ -54,6 +51,9 @@ export default function GamePageContent() {
   const earnedBadgesThisSet = useGameStore(
     (state) => state.earnedBadgesThisSet,
   );
+  const gotCorrectButSlow = useGameStore((state) => state.gotCorrectButSlow);
+  const fasterWinnerName = useGameStore((state) => state.fasterWinnerName);
+  const lastPoints = useGameStore((state) => state.lastPoints);
 
   // For overlays
   const pendingBadgeAward = useGameStore((state) => state.pendingBadgeAward);
@@ -61,9 +61,7 @@ export default function GamePageContent() {
     (state) => state.setPendingBadgeAward,
   );
   const setGamePhase = useGameStore((state) => state.setGamePhase);
-  const setBuzzerState = useGameStore((state) => state.setBuzzerState);
 
-  const [timeCheckDone, setTimeCheckDone] = useState(false);
   const effectiveRoomId = roomIdFromUrl || currentRoomId;
 
   // Store roomId from URL if we don't have one
@@ -77,20 +75,6 @@ export default function GamePageContent() {
   useAbly(effectiveRoomId);
   useAntiCheat();
 
-  // Validate join window
-  useEffect(() => {
-    const now = Date.now();
-    const timeUntilSet = nextSetTime - now;
-    const canJoin = isSetActive || timeUntilSet <= JOIN_WINDOW_MS;
-
-    if (!canJoin && !authLoading) {
-      router.push("/");
-      return;
-    }
-
-    setTimeCheckDone(true);
-  }, [nextSetTime, isSetActive, authLoading, router]);
-
   // Auth and room validation
   useEffect(() => {
     if (!authLoading && !isAuthenticated) {
@@ -98,7 +82,7 @@ export default function GamePageContent() {
     } else if (!player && !authLoading) {
       router.push("/");
     } else if (!effectiveRoomId && !authLoading) {
-      router.push("/rooms");
+      router.push("/");
     }
   }, [player, router, isAuthenticated, authLoading, effectiveRoomId]);
 
@@ -106,13 +90,13 @@ export default function GamePageContent() {
     setPendingBadgeAward(null);
   }, [setPendingBadgeAward]);
 
-  const handleCountdownComplete = useCallback(() => {
-    setBuzzerState(true, null, null, null);
-    setGamePhase("question");
-  }, [setBuzzerState, setGamePhase]);
-
   // Loading states
-  if (authLoading || !timeCheckDone) {
+  if (authLoading) {
+    return <LoadingScreen />;
+  }
+
+  // Show loading screen when leaving to prevent stale state flash
+  if (gamePhase === "leaving") {
     return <LoadingScreen />;
   }
 
@@ -121,83 +105,105 @@ export default function GamePageContent() {
   }
 
   const playerScore = scores[player.id] || 0;
+  const resetGame = useGameStore((state) => state.resetGame);
+  const completedQuestions = useGameStore((state) => state.completedQuestions);
+  const [showSessionSummary, setShowSessionSummary] = useState(false);
+  // Capture session data when leaving (before state reset)
+  const [sessionData, setSessionData] = useState<{
+    questions: typeof completedQuestions;
+    score: number;
+    leaderboard: typeof setLeaderboard;
+  } | null>(null);
+
+  const handleLeaveRoom = useCallback(() => {
+    // Capture session data before any state changes
+    const capturedData = {
+      questions: [...completedQuestions],
+      score: scores[player?.id || ""] || 0,
+      leaderboard: [...setLeaderboard],
+    };
+
+    // Show session summary if player answered any questions
+    if (capturedData.questions.length > 0) {
+      setSessionData(capturedData);
+      setShowSessionSummary(true);
+    } else {
+      // No questions answered, just leave
+      setGamePhase("leaving");
+      resetGame();
+      router.push("/");
+    }
+  }, [
+    completedQuestions,
+    scores,
+    player?.id,
+    setLeaderboard,
+    setGamePhase,
+    resetGame,
+    router,
+  ]);
+
+  const handleCloseSummary = useCallback(() => {
+    setShowSessionSummary(false);
+    setSessionData(null);
+    setGamePhase("leaving");
+    resetGame();
+  }, [setGamePhase, resetGame]);
 
   return (
     <GameBackground>
       {/* Main content with bottom padding for fixed bottom bar */}
       <main className="p-4 pb-20 flex-grow">
         <div className="max-w-7xl mx-auto">
-          {gamePhase === "set_end" ? (
-            <SetEndLayout
-              leaderboard={setLeaderboard}
-              currentPlayerId={player.id}
-              earnedBadgeIds={earnedBadgesThisSet}
-            />
-          ) : (
-            <GameLayout
-              gamePhase={gamePhase}
-              players={players}
-              scores={scores}
-              currentPlayerId={player.id}
-              buzzerWinnerId={buzzerWinner}
-              currentQuestion={currentQuestion}
-              revealedAnswer={revealedAnswer}
-              explanation={explanation}
-              wasAnswered={wasAnswered}
-              wasCorrect={wasCorrect}
-              buzzerWinnerName={buzzerWinnerName}
-              nextQuestionTime={nextQuestionTime}
-              leaderboard={setLeaderboard}
-              earnedBadgeIds={earnedBadgesThisQuestion}
-            />
-          )}
+          <GameLayout
+            gamePhase={gamePhase}
+            players={players}
+            scores={scores}
+            currentPlayerId={player.id}
+            questionWinnerId={questionWinner}
+            currentQuestion={currentQuestion}
+            revealedAnswer={revealedAnswer}
+            explanation={explanation}
+            wasAnswered={wasAnswered}
+            wasCorrect={wasCorrect}
+            questionWinnerName={questionWinnerName}
+            nextQuestionTime={nextQuestionTime}
+            leaderboard={setLeaderboard}
+            earnedBadgeIds={earnedBadgesThisQuestion}
+            onLeaveRoom={handleLeaveRoom}
+            gotCorrectButSlow={gotCorrectButSlow}
+            fasterWinnerName={fasterWinnerName}
+            pointsAwarded={lastPoints}
+          />
         </div>
       </main>
 
       {/* Fixed bottom bar with game status and user menu */}
-      <GameBottomBar playerScore={playerScore} />
+      <AppFooter
+        showGameInfo
+        playerScore={playerScore}
+        questionsRemaining={questionsRemainingToday}
+        hasUnlimitedQuestions={hasUnlimitedQuestions}
+      />
 
       {/* Overlays */}
-      {gamePhase === "countdown" && (
-        <QuestionCountdown onComplete={handleCountdownComplete} />
-      )}
       <BadgeAwardAnimation
         badge={pendingBadgeAward}
         onComplete={handleBadgeAnimationComplete}
       />
       <SessionKickedOverlay />
+
+      {/* Session Summary */}
+      {showSessionSummary && sessionData && (
+        <SessionSummary
+          completedQuestions={sessionData.questions}
+          finalScore={sessionData.score}
+          leaderboard={sessionData.leaderboard}
+          currentPlayerId={player.id}
+          onClose={handleCloseSummary}
+        />
+      )}
     </GameBackground>
-  );
-}
-
-// Set end layout component
-interface SetEndLayoutProps {
-  leaderboard: LeaderboardEntry[];
-  currentPlayerId: string;
-  earnedBadgeIds: string[];
-}
-
-function SetEndLayout({
-  leaderboard,
-  currentPlayerId,
-  earnedBadgeIds,
-}: SetEndLayoutProps) {
-  return (
-    <div className="grid grid-cols-1 lg:grid-cols-4 gap-6">
-      <div className="lg:col-span-3 min-h-[600px]">
-        <SetEndScreen
-          leaderboard={leaderboard}
-          currentPlayerId={currentPlayerId}
-          earnedBadgeIds={earnedBadgeIds}
-        />
-      </div>
-      <div className="lg:col-span-1">
-        <SetEndSidebar
-          leaderboard={leaderboard}
-          currentPlayerId={currentPlayerId}
-        />
-      </div>
-    </div>
   );
 }
 
@@ -207,16 +213,20 @@ interface GameLayoutProps {
   players: Player[];
   scores: Record<string, number>;
   currentPlayerId: string;
-  buzzerWinnerId: string | null;
+  questionWinnerId: string | null;
   currentQuestion: Omit<Question, "correctIndex"> | null;
   revealedAnswer: number | null;
   explanation: string | null;
   wasAnswered: boolean;
   wasCorrect: boolean | null;
-  buzzerWinnerName: string | null;
+  questionWinnerName: string | null;
   nextQuestionTime: number | null;
   leaderboard: LeaderboardEntry[];
   earnedBadgeIds: string[];
+  onLeaveRoom: () => void;
+  gotCorrectButSlow: boolean;
+  fasterWinnerName: string | null;
+  pointsAwarded: number | null;
 }
 
 function GameLayout({
@@ -224,16 +234,20 @@ function GameLayout({
   players,
   scores,
   currentPlayerId,
-  buzzerWinnerId,
+  questionWinnerId,
   currentQuestion,
   revealedAnswer,
   explanation,
   wasAnswered,
   wasCorrect,
-  buzzerWinnerName,
+  questionWinnerName,
   nextQuestionTime,
   leaderboard,
   earnedBadgeIds,
+  onLeaveRoom,
+  gotCorrectButSlow,
+  fasterWinnerName,
+  pointsAwarded,
 }: GameLayoutProps) {
   // Show waiting state when no question is available
   const isWaiting = !currentQuestion && gamePhase !== "results";
@@ -248,39 +262,49 @@ function GameLayout({
             explanation={explanation}
             wasAnswered={wasAnswered}
             wasCorrect={wasCorrect}
-            buzzerWinnerName={buzzerWinnerName}
+            questionWinnerName={questionWinnerName}
             nextQuestionTime={nextQuestionTime}
             leaderboard={leaderboard}
             currentPlayerId={currentPlayerId}
             earnedBadgeIds={earnedBadgeIds}
+            gotCorrectButSlow={gotCorrectButSlow}
+            fasterWinnerName={fasterWinnerName}
+            pointsAwarded={pointsAwarded}
           />
         ) : isWaiting ? (
-          <WaitingForSet playerCount={players.length} />
+          <WaitingForGame playerCount={players.length} />
         ) : (
           <QuestionPhase />
         )}
       </div>
-      <div className="lg:col-span-1">
+      <div className="lg:col-span-1 space-y-4">
         <PlayerList
           players={players}
           scores={scores}
           currentPlayerId={currentPlayerId}
-          buzzerWinnerId={buzzerWinnerId}
+          questionWinnerId={questionWinnerId}
         />
+        {/* Leave Room button */}
+        <Button
+          color="danger"
+          variant="flat"
+          className="w-full"
+          onPress={onLeaveRoom}
+        >
+          Leave Room
+        </Button>
       </div>
     </div>
   );
 }
 
-// Waiting for set to start component
-interface WaitingForSetProps {
+// Waiting for game to start component
+interface WaitingForGameProps {
   playerCount: number;
 }
 
-function WaitingForSet({ playerCount }: WaitingForSetProps) {
-  const nextSetTime = useGameStore((state) => state.nextSetTime);
+function WaitingForGame({ playerCount }: WaitingForGameProps) {
   const roomName = useGameStore((state) => state.currentRoomName);
-  const [timeLeft, setTimeLeft] = useState<number>(0);
   const [factIndex, setFactIndex] = useState(() =>
     Math.floor(Math.random() * DID_YOU_KNOW_FACTS.length),
   );
@@ -293,25 +317,6 @@ function WaitingForSet({ playerCount }: WaitingForSetProps) {
     return () => clearInterval(interval);
   }, []);
 
-  // Update countdown
-  useEffect(() => {
-    const updateTimer = () => {
-      const remaining = Math.max(0, nextSetTime - Date.now());
-      setTimeLeft(remaining);
-    };
-
-    updateTimer();
-    const interval = setInterval(updateTimer, 1000);
-    return () => clearInterval(interval);
-  }, [nextSetTime]);
-
-  const formatTime = (ms: number) => {
-    const totalSeconds = Math.floor(ms / 1000);
-    const minutes = Math.floor(totalSeconds / 60);
-    const seconds = totalSeconds % 60;
-    return `${minutes}:${seconds.toString().padStart(2, "0")}`;
-  };
-
   const currentFact = DID_YOU_KNOW_FACTS[factIndex];
 
   return (
@@ -323,16 +328,18 @@ function WaitingForSet({ playerCount }: WaitingForSetProps) {
             {roomName || "Game Room"}
           </h2>
           <p className="text-gray-400">
-            {playerCount} player{playerCount !== 1 ? "s" : ""} waiting
+            {playerCount > 0
+              ? `${playerCount} player${playerCount !== 1 ? "s" : ""} in room`
+              : "Joining room..."}
           </p>
         </div>
 
-        {/* Countdown */}
-        <div className="space-y-2">
-          <p className="text-gray-400 text-lg">Game starts in</p>
-          <div className="text-6xl font-bold text-primary-400 font-mono">
-            {formatTime(timeLeft)}
-          </div>
+        {/* Loading indicator */}
+        <div className="space-y-4">
+          <LoadingDots />
+          <p className="text-gray-400 text-lg animate-pulse">
+            Waiting for next question...
+          </p>
         </div>
 
         {/* Did you know */}
@@ -352,9 +359,6 @@ function WaitingForSet({ playerCount }: WaitingForSetProps) {
             Source: {currentFact.source}
           </a>
         </div>
-
-        {/* Ready prompt */}
-        <p className="text-gray-500 animate-pulse">Get ready to play!</p>
       </CardBody>
     </Card>
   );

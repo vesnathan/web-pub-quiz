@@ -1,0 +1,342 @@
+[
+  {
+    "id": "c25a63dc-7ded-4113-9e7e-aab070965a0b",
+    "text": "Which US President holds the record for appointing the most Supreme Court justices during their tenure?",
+    "options": [
+      "Franklin D. Roosevelt",
+      "George Washington",
+      "William Howard Taft",
+      "Andrew Jackson"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "George Washington appointed 10 Supreme Court justices during his presidency.",
+    "detailedExplanation": "George Washington appointed a total of 10 Supreme Court justices during his two terms in office, including the first Chief Justice John Jay. This record remains unmatched, as Washington had the unique opportunity to essentially build the Supreme Court from scratch. Franklin D. Roosevelt appointed 9 justices, making him second in this regard, but Washington's 10 appointments during the court's formative years established many precedents for the judicial branch.",
+    "citationUrl": "https://en.wikipedia.org/wiki/List_of_presidents_of_the_United_States_by_judicial_appointments",
+    "citationTitle": "Wikipedia: List of presidents of the United States by judicial appointments"
+  },
+  {
+    "id": "97ea205a-f209-47d8-8849-58dbf34ac125",
+    "text": "Which president signed the legislation creating the Federal Reserve System?",
+    "options": [
+      "Theodore Roosevelt",
+      "William Howard Taft",
+      "Woodrow Wilson",
+      "Warren G. Harding"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Woodrow Wilson signed the Federal Reserve Act on December 23, 1913.",
+    "detailedExplanation": "President Woodrow Wilson signed the Federal Reserve Act into law on December 23, 1913, establishing the Federal Reserve System as America's central banking system. This landmark legislation came after the financial panic of 1907 highlighted the need for a more stable monetary and banking system. The act created a decentralized central bank with twelve regional Federal Reserve Banks, fundamentally reshaping American monetary policy and banking regulation for over a century to come.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Federal_Reserve_Act",
+    "citationTitle": "Wikipedia: Federal Reserve Act"
+  },
+  {
+    "id": "378b671b-64d2-483b-882f-80df12e90dfa",
+    "text": "Which president served the shortest complete term without dying in office?",
+    "options": [
+      "Benjamin Harrison",
+      "Martin Van Buren",
+      "John Quincy Adams",
+      "Jimmy Carter"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "John Quincy Adams served exactly one four-year term from 1825-1829 and was defeated for reelection.",
+    "detailedExplanation": "John Quincy Adams served exactly one complete four-year term from March 4, 1825, to March 4, 1829, making him the president who served the shortest complete term without dying in office. While several presidents served shorter periods due to death or resignation, Adams completed his full constitutional term but was defeated by Andrew Jackson in his reelection bid. His presidency was marked by political opposition and accusations of a 'corrupt bargain' that had brought him to power, leading to his single-term presidency.",
+    "citationUrl": "https://en.wikipedia.org/wiki/John_Quincy_Adams",
+    "citationTitle": "Wikipedia: John Quincy Adams"
+  },
+  {
+    "id": "685974a5-0c05-45ce-bd93-e6415d0af4a5",
+    "text": "Which president established the Presidential Medal of Freedom, the highest civilian honor in the United States?",
+    "options": [
+      "Dwight D. Eisenhower",
+      "Harry S. Truman",
+      "John F. Kennedy",
+      "Lyndon B. Johnson"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "John F. Kennedy established the Presidential Medal of Freedom in 1963, though it was based on Truman's earlier Medal of Freedom.",
+    "detailedExplanation": "President John F. Kennedy established the current Presidential Medal of Freedom through Executive Order 11085 on February 22, 1963. While Harry Truman had created an earlier 'Medal of Freedom' in 1945 to honor civilian service during World War II, Kennedy's version expanded and elevated the award to become the nation's highest civilian honor, recognizing individuals who have made exceptional contributions to American values, world peace, or cultural endeavors. Kennedy presented the first medals under the new format posthumously, as he was assassinated before the first ceremony.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Presidential_Medal_of_Freedom",
+    "citationTitle": "Wikipedia: Presidential Medal of Freedom"
+  },
+  {
+    "id": "06b97dca-2994-4127-b7a2-833945aa0232",
+    "text": "Which president was the first to have electricity installed in the White House?",
+    "options": [
+      "Grover Cleveland",
+      "Benjamin Harrison",
+      "William McKinley",
+      "Theodore Roosevelt"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Benjamin Harrison was the first president to have electric lights installed in the White House in 1891.",
+    "detailedExplanation": "Benjamin Harrison became the first president to have electricity installed in the White House in 1891. However, Harrison and his wife were reportedly afraid of being electrocuted and rarely touched the light switches themselves, often having White House staff turn the lights on and off for them. The installation marked a significant modernization of the presidential residence, though the Harrisons' cautious approach to this new technology reflected the general public's wariness about electricity during that era.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Benjamin_Harrison",
+    "citationTitle": "Wikipedia: Benjamin Harrison"
+  },
+  {
+    "id": "e6a8930a-a5c4-4298-8a21-4853409c3951",
+    "text": "Which president was the first to appear on television while in office?",
+    "options": [
+      "Franklin D. Roosevelt",
+      "Harry S. Truman",
+      "Dwight D. Eisenhower",
+      "Herbert Hoover"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Franklin D. Roosevelt appeared on television at the 1939 World's Fair while serving as president.",
+    "detailedExplanation": "Franklin D. Roosevelt became the first sitting president to appear on television when he spoke at the opening of the 1939 New York World's Fair on April 30, 1939. The broadcast was transmitted by NBC's experimental television station W2XAB (later WCBS-TV) to the few thousand television sets in the New York area. His appearance marked a historic moment in presidential communication, though television would not become a major political medium until the 1950s. Roosevelt's embrace of new media, following his success with radio, demonstrated his understanding of technology's role in presidential leadership.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Franklin_D._Roosevelt",
+    "citationTitle": "Wikipedia: Franklin D. Roosevelt"
+  },
+  {
+    "id": "93b74fd0-7171-4699-b4c9-96c9923e22d1",
+    "text": "Which president signed the Civil Rights Act of 1968, also known as the Fair Housing Act?",
+    "options": [
+      "John F. Kennedy",
+      "Lyndon B. Johnson",
+      "Richard Nixon",
+      "Gerald Ford"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Lyndon B. Johnson signed the Civil Rights Act of 1968 on April 11, 1968, just seven days after Martin Luther King Jr.'s assassination.",
+    "detailedExplanation": "President Lyndon B. Johnson signed the Civil Rights Act of 1968, commonly known as the Fair Housing Act, on April 11, 1968. The timing was particularly significant as it came just seven days after the assassination of Martin Luther King Jr., and the civil unrest following King's death helped push the legislation through Congress. The act prohibited discrimination in housing based on race, religion, national origin, and later gender, representing the final major piece of civil rights legislation of the 1960s and completing Johnson's civil rights trilogy alongside the 1964 Civil Rights Act and 1965 Voting Rights Act.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Civil_Rights_Act_of_1968",
+    "citationTitle": "Wikipedia: Civil Rights Act of 1968"
+  },
+  {
+    "id": "dc844ff9-174e-4b2b-ab8c-b13c3feb62a4",
+    "text": "Which US President was the first to be born in the 20th century?",
+    "options": [
+      "Theodore Roosevelt",
+      "John F. Kennedy",
+      "Franklin D. Roosevelt",
+      "Dwight D. Eisenhower"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "John F. Kennedy was born on May 29, 1917, making him the first president born in the 20th century.",
+    "detailedExplanation": "John F. Kennedy, born on May 29, 1917, holds the distinction of being the first U.S. President born in the 20th century. Theodore Roosevelt was born in 1858, Franklin D. Roosevelt in 1882, and Dwight D. Eisenhower in 1890, all predating the turn of the century. Kennedy's birth year of 1917 also made him the youngest elected president at age 43, though he was not the youngest to serve (Theodore Roosevelt was younger when he assumed the presidency after McKinley's assassination).",
+    "citationUrl": "https://en.wikipedia.org/wiki/John_F._Kennedy",
+    "citationTitle": "Wikipedia: John F. Kennedy"
+  },
+  {
+    "id": "4ebb68e4-92ab-4522-b3e9-79b69f1b8ef9",
+    "text": "Which president was the only one to serve as both President and Chief Justice of the Supreme Court?",
+    "options": [
+      "William Howard Taft",
+      "John Quincy Adams",
+      "Grover Cleveland",
+      "Chester A. Arthur"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "William Howard Taft served as the 27th President (1909-1913) and later as Chief Justice of the Supreme Court (1921-1930).",
+    "detailedExplanation": "William Howard Taft uniquely holds the distinction of serving in the two highest offices in the American government. After his presidency from 1909 to 1913, Taft was appointed Chief Justice of the Supreme Court by President Warren G. Harding in 1921, serving until his death in 1930. Interestingly, Taft reportedly found more satisfaction in his judicial role than in the presidency, once stating that he didn't remember being president. This dual service makes him the only person in American history to lead both the executive and judicial branches of government.",
+    "citationUrl": "https://en.wikipedia.org/wiki/William_Howard_Taft",
+    "citationTitle": "Wikipedia: William Howard Taft"
+  },
+  {
+    "id": "471b851d-879c-4f50-b920-c8524444ed75",
+    "text": "Which president's administration was responsible for the Louisiana Purchase, doubling the size of the United States?",
+    "options": [
+      "John Adams",
+      "Thomas Jefferson",
+      "James Madison",
+      "James Monroe"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Thomas Jefferson's administration completed the Louisiana Purchase from France in 1803 for $15 million.",
+    "detailedExplanation": "The Louisiana Purchase was completed during Thomas Jefferson's presidency in 1803, when the United States acquired approximately 827,000 square miles of territory from France for $15 million. This massive land acquisition doubled the size of the young nation and included all or part of what would become 15 states. Ironically, Jefferson initially had constitutional concerns about the federal government's authority to make such a purchase, as it wasn't explicitly mentioned in the Constitution. However, he ultimately decided the benefits to the nation outweighed his strict constitutional interpretation, leading to one of the most significant territorial expansions in American history.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Louisiana_Purchase",
+    "citationTitle": "Wikipedia: Louisiana Purchase"
+  },
+  {
+    "id": "f886366f-0da6-4710-83a6-db82ce9febeb",
+    "text": "Which president was in office during the War of 1812, earning the nickname 'Father of the Constitution'?",
+    "options": [
+      "James Madison",
+      "James Monroe",
+      "Thomas Jefferson",
+      "John Quincy Adams"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "James Madison, known as the 'Father of the Constitution,' was president during the War of 1812 (1812-1815).",
+    "detailedExplanation": "James Madison served as the fourth President of the United States from 1809 to 1817, which encompassed the entire War of 1812 (1812-1815). Madison had earned the nickname 'Father of the Constitution' for his pivotal role in drafting and promoting the U.S. Constitution and the Bill of Rights decades earlier. The War of 1812, sometimes called the 'Second War of Independence,' saw British forces even burn the White House and other government buildings in Washington D.C. in 1814, forcing Madison and his wife Dolley to flee the capital. Despite early military setbacks, the war ultimately ended in a stalemate with the Treaty of Ghent, but boosted American national confidence.",
+    "citationUrl": "https://en.wikipedia.org/wiki/James_Madison",
+    "citationTitle": "Wikipedia: James Madison"
+  },
+  {
+    "id": "fc38bbef-cb23-413f-87e1-10c161312163",
+    "text": "Which president created the New Deal programs during the Great Depression?",
+    "options": [
+      "Herbert Hoover",
+      "Harry S. Truman",
+      "Franklin D. Roosevelt",
+      "Dwight D. Eisenhower"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Franklin D. Roosevelt implemented the New Deal programs starting in 1933 to combat the Great Depression.",
+    "detailedExplanation": "Franklin D. Roosevelt implemented the New Deal, a series of programs and reforms designed to provide relief, recovery, and reform during the Great Depression. Beginning in 1933 during his first term, FDR's New Deal included programs like the Civilian Conservation Corps (CCC), Works Progress Administration (WPA), and Social Security Act. These programs fundamentally changed the role of the federal government in American society, establishing a social safety net and increasing federal involvement in economic regulation. The New Deal's legacy continues today through programs like Social Security and various financial regulations, making it one of the most transformative domestic policy initiatives in American history.",
+    "citationUrl": "https://en.wikipedia.org/wiki/New_Deal",
+    "citationTitle": "Wikipedia: New Deal"
+  },
+  {
+    "id": "82c12d21-fbbb-4b01-bb8b-fb565541621e",
+    "text": "Which president was the first to live in the White House?",
+    "options": [
+      "George Washington",
+      "John Adams",
+      "Thomas Jefferson",
+      "James Madison"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "John Adams was the first president to live in the White House, moving in during November 1800.",
+    "detailedExplanation": "John Adams became the first president to reside in the White House when he moved into the still-unfinished executive mansion in November 1800, near the end of his presidency. George Washington had overseen the planning and construction of the White House (then called the President's House or Executive Mansion) but never lived there, as construction wasn't completed until after his presidency ended. Adams and his wife Abigail found the White House cold, damp, and incomplete, with only a few rooms habitable. Abigail Adams famously hung laundry in the unfinished East Room. The White House wouldn't be fully completed and furnished until Thomas Jefferson's presidency.",
+    "citationUrl": "https://en.wikipedia.org/wiki/White_House",
+    "citationTitle": "Wikipedia: White House"
+  },
+  {
+    "id": "6813bd44-140c-4817-91c4-8e9d492a2556",
+    "text": "Which president established NASA and signed the National Defense Education Act in response to Sputnik?",
+    "options": [
+      "Harry S. Truman",
+      "Dwight D. Eisenhower",
+      "John F. Kennedy",
+      "Lyndon B. Johnson"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Dwight D. Eisenhower established NASA in 1958 and signed the National Defense Education Act the same year in response to the Soviet Sputnik launch.",
+    "detailedExplanation": "President Dwight D. Eisenhower responded to the Soviet Union's successful launch of Sputnik in October 1957 by establishing NASA (National Aeronautics and Space Administration) in 1958 and signing the National Defense Education Act the same year. The Sputnik launch had shocked Americans and raised concerns about falling behind in science and technology during the Cold War. The National Defense Education Act provided federal funding for education in science, mathematics, and foreign languages, while NASA consolidated various space-related agencies and programs under one civilian organization. These actions laid the groundwork for America's space program and the eventual moon landing, demonstrating Eisenhower's strategic response to Cold War challenges.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Dwight_D._Eisenhower",
+    "citationTitle": "Wikipedia: Dwight D. Eisenhower"
+  },
+  {
+    "id": "d6504afe-a5e3-472a-8980-6bafd865c0af",
+    "text": "Which US President was the first to be impeached by the House of Representatives?",
+    "options": [
+      "Bill Clinton",
+      "Andrew Johnson",
+      "Richard Nixon",
+      "Donald Trump"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Andrew Johnson was impeached by the House in 1868 over his violations of the Tenure of Office Act.",
+    "detailedExplanation": "Andrew Johnson became the first U.S. President to be impeached when the House of Representatives voted to impeach him on February 24, 1868. The impeachment stemmed from Johnson's dismissal of Secretary of War Edwin Stanton, which violated the Tenure of Office Act. Johnson survived removal from office by just one vote in the Senate trial, with the final vote being 35 guilty to 19 not guilty, one vote short of the two-thirds majority required for conviction.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Impeachment_of_Andrew_Johnson",
+    "citationTitle": "Wikipedia: Impeachment of Andrew Johnson"
+  },
+  {
+    "id": "0d3dc2bf-eab2-4e78-b632-6f95bb239c31",
+    "text": "Which president was the only one to serve non-consecutive terms as the 22nd and 24th President?",
+    "options": [
+      "Benjamin Harrison",
+      "Grover Cleveland",
+      "Chester A. Arthur",
+      "William McKinley"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Grover Cleveland served as both the 22nd and 24th President, with Benjamin Harrison serving between his terms.",
+    "detailedExplanation": "Grover Cleveland is unique in U.S. presidential history as the only president to serve non-consecutive terms. He first served as the 22nd President from 1885-1889, then lost the 1888 election to Benjamin Harrison despite winning the popular vote. Cleveland successfully ran again in 1892, defeating Harrison to become the 24th President, serving from 1893-1897. This unusual circumstance means Cleveland is counted as both the 22nd and 24th president in the official numbering system.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Grover_Cleveland",
+    "citationTitle": "Wikipedia: Grover Cleveland"
+  },
+  {
+    "id": "7c398371-d1d4-4308-9c1d-c5410f15fd24",
+    "text": "Which president died just 31 days into his presidency after delivering the longest inaugural address in history during a cold rainstorm without a coat?",
+    "options": [
+      "Zachary Taylor",
+      "William Henry Harrison",
+      "James A. Garfield",
+      "Warren G. Harding"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "William Henry Harrison died of pneumonia 31 days after his inauguration, following his lengthy outdoor inaugural speech in harsh weather.",
+    "detailedExplanation": "William Henry Harrison holds the unfortunate record of the shortest presidency in U.S. history. At age 68, he delivered the longest inaugural address ever given (8,445 words, lasting nearly two hours) on March 4, 1841, during cold, wet weather without wearing a coat or hat to demonstrate his vitality. He developed pneumonia and died on April 4, 1841, just 31 days into his presidency. His death created the first constitutional crisis regarding presidential succession, ultimately resolved when John Tyler assumed the full powers of the presidency.",
+    "citationUrl": "https://en.wikipedia.org/wiki/William_Henry_Harrison",
+    "citationTitle": "Wikipedia: William Henry Harrison"
+  },
+  {
+    "id": "000ff598-518e-4412-a0df-349f57bee1bc",
+    "text": "Which president's administration was marked by the Teapot Dome Scandal, one of the most infamous corruption cases in presidential history?",
+    "options": [
+      "Calvin Coolidge",
+      "Warren G. Harding",
+      "Herbert Hoover",
+      "William Howard Taft"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "The Teapot Dome Scandal occurred during Warren G. Harding's presidency, involving illegal oil leases by his Interior Secretary.",
+    "detailedExplanation": "The Teapot Dome Scandal was a major bribery scandal that occurred during Warren G. Harding's administration from 1921-1923. The scandal involved Interior Secretary Albert Bacon Fall, who leased Navy petroleum reserves at Teapot Dome in Wyoming and Elk Hills in California to private oil companies at low rates without competitive bidding, in return for personal loans and gifts. Fall became the first Cabinet member in U.S. history to be convicted of a felony while in office. While Harding himself was not directly implicated, the scandal severely damaged his posthumous reputation and exemplified the corruption that plagued his administration.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Teapot_Dome_scandal",
+    "citationTitle": "Wikipedia: Teapot Dome scandal"
+  },
+  {
+    "id": "6ba833c2-32bb-4fcc-96f3-e56f683337a3",
+    "text": "Which president was never elected as either President or Vice President, assuming office after Nixon's resignation?",
+    "options": [
+      "Lyndon B. Johnson",
+      "Gerald Ford",
+      "Harry S. Truman",
+      "Calvin Coolidge"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Gerald Ford became President without being elected to the office or Vice Presidency, having been appointed VP under the 25th Amendment.",
+    "detailedExplanation": "Gerald Ford holds the unique distinction of being the only U.S. President never elected as either President or Vice President. He became Vice President in 1973 under the 25th Amendment after Spiro Agnew's resignation, having been appointed by Nixon and confirmed by Congress. When Nixon resigned on August 9, 1974, due to the Watergate scandal, Ford automatically became President. He served until January 1977, losing the 1976 election to Jimmy Carter. Ford's presidency was marked by his controversial pardon of Nixon and his efforts to restore confidence in the presidency during a tumultuous period in American history.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Gerald_Ford",
+    "citationTitle": "Wikipedia: Gerald Ford"
+  },
+  {
+    "id": "9ff0336b-943f-40c8-b1e4-b86a69e58bf6",
+    "text": "Which president founded the University of Virginia and designed its iconic Rotunda building?",
+    "options": [
+      "James Madison",
+      "Thomas Jefferson",
+      "James Monroe",
+      "John Adams"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Thomas Jefferson founded the University of Virginia in 1819 and personally designed its architectural centerpiece, the Rotunda.",
+    "detailedExplanation": "Thomas Jefferson considered founding the University of Virginia one of his three greatest achievements, alongside writing the Declaration of Independence and the Virginia Statute for Religious Freedom. He established the university in 1819 in Charlottesville, Virginia, and personally designed its curriculum and architecture. The Rotunda, inspired by the Pantheon in Rome, served as the library and centerpiece of his 'Academical Village' design. Jefferson's innovative approach emphasized student self-governance and offered the first elective system of study in American higher education. He continued to oversee the university until his death in 1826, just one year after it opened.",
+    "citationUrl": "https://en.wikipedia.org/wiki/University_of_Virginia",
+    "citationTitle": "Wikipedia: University of Virginia"
+  }
+]

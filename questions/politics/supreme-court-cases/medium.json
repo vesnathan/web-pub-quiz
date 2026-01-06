@@ -1,0 +1,342 @@
+[
+  {
+    "id": "cc4cbb03-afd6-4e5e-88e3-838434922ef9",
+    "text": "Which Supreme Court case established the principle of 'separate but equal' that was later overturned by Brown v. Board of Education?",
+    "options": [
+      "Plessy v. Ferguson",
+      "Dred Scott v. Sandford",
+      "Korematsu v. United States",
+      "Civil Rights Cases"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Plessy v. Ferguson (1896) established the 'separate but equal' doctrine that legitimized racial segregation.",
+    "detailedExplanation": "Plessy v. Ferguson was a landmark 1896 Supreme Court decision that upheld the constitutionality of racial segregation laws for public facilities as long as they were 'separate but equal.' The case arose when Homer Plessy, a mixed-race man, was arrested for sitting in a whites-only railroad car in Louisiana. The Court's 7-1 decision established a legal precedent that enabled Jim Crow laws and racial segregation for nearly 60 years until it was overturned by Brown v. Board of Education in 1954.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Plessy_v._Ferguson",
+    "citationTitle": "Wikipedia: Plessy v. Ferguson"
+  },
+  {
+    "id": "6c20fd42-7427-46c7-94df-9ef24249255d",
+    "text": "In which case did the Supreme Court rule that corporations have the same First Amendment rights as individuals regarding political campaign spending?",
+    "options": [
+      "Buckley v. Valeo",
+      "Citizens United v. FEC",
+      "McCutcheon v. FEC",
+      "Austin v. Michigan Chamber of Commerce"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Citizens United v. FEC (2010) ruled that corporations and unions have First Amendment rights to spend unlimited amounts on elections.",
+    "detailedExplanation": "Citizens United v. Federal Election Commission was a controversial 2010 Supreme Court case that fundamentally changed campaign finance law. The 5-4 decision held that the free speech clause of the First Amendment prohibits the government from restricting independent expenditures for political communications by corporations, labor unions, and other associations. This ruling effectively allowed unlimited corporate and union spending in elections, overturning portions of the McCain-Feingold Act and generating significant debate about money in politics.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Citizens_United_v._FEC",
+    "citationTitle": "Wikipedia: Citizens United v. FEC"
+  },
+  {
+    "id": "315739dc-e90e-40f7-9ade-5098490f8862",
+    "text": "Which Supreme Court case established that students do not 'shed their constitutional rights at the schoolhouse gate'?",
+    "options": [
+      "Hazelwood v. Kuhlmeier",
+      "Tinker v. Des Moines",
+      "Bethel School District v. Fraser",
+      "Morse v. Frederick"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Tinker v. Des Moines (1969) protected students' First Amendment rights to free speech in schools, including wearing black armbands to protest the Vietnam War.",
+    "detailedExplanation": "Tinker v. Des Moines Independent Community School District was a landmark 1969 Supreme Court case that established students' rights to free speech in public schools. The case arose when students John and Mary Beth Tinker wore black armbands to school to protest the Vietnam War and were suspended. The Court ruled 7-2 that students and teachers do not 'shed their constitutional rights to freedom of speech or expression at the schoolhouse gate,' establishing that student expression cannot be suppressed unless it substantially disrupts the school environment.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Tinker_v._Des_Moines_Independent_Community_School_District",
+    "citationTitle": "Wikipedia: Tinker v. Des Moines Independent Community School District"
+  },
+  {
+    "id": "88eb2556-8226-4921-ad74-0a3cc48b0c98",
+    "text": "What was the central constitutional issue in the 1803 case Marbury v. Madison?",
+    "options": [
+      "Presidential term limits",
+      "Judicial review",
+      "States' rights",
+      "Freedom of religion"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Marbury v. Madison established the principle of judicial review, giving the Supreme Court power to declare laws unconstitutional.",
+    "detailedExplanation": "Marbury v. Madison is considered one of the most important Supreme Court cases in American history. The 1803 case arose from a political dispute over judicial appointments between the outgoing Federalist administration and incoming Democratic-Republican administration. Chief Justice John Marshall's decision established the principle of judicial review - the power of federal courts to declare legislative and executive acts unconstitutional. This case fundamentally defined the role of the judiciary as a co-equal branch of government with the power to interpret the Constitution.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Marbury_v._Madison",
+    "citationTitle": "Wikipedia: Marbury v. Madison"
+  },
+  {
+    "id": "c9c6ce80-404a-4808-b218-22f64dd8e8fa",
+    "text": "Which case established that police must inform suspects of their rights before interrogation?",
+    "options": [
+      "Gideon v. Wainwright",
+      "Mapp v. Ohio",
+      "Miranda v. Arizona",
+      "Escobedo v. Illinois"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Miranda v. Arizona (1966) established the requirement for police to inform suspects of their Fifth and Sixth Amendment rights.",
+    "detailedExplanation": "Miranda v. Arizona was a 1966 Supreme Court case that established the famous 'Miranda rights' that police must recite before interrogating suspects in custody. The case involved Ernesto Miranda, who confessed to crimes without being informed of his right to remain silent or have an attorney present. The Court ruled 5-4 that statements made by defendants during custodial interrogation are inadmissible unless the suspect has been informed of their constitutional rights and has waived them knowingly and intelligently.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Miranda_v._Arizona",
+    "citationTitle": "Wikipedia: Miranda v. Arizona"
+  },
+  {
+    "id": "12e8ac54-5f0a-4c91-b316-3fca204485fc",
+    "text": "In Bush v. Gore (2000), what was the Supreme Court's main ruling regarding the Florida recount?",
+    "options": [
+      "The recount must continue statewide",
+      "The recount violated equal protection rights",
+      "Florida's election was invalid",
+      "A new election must be held"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "The Court ruled that Florida's recount procedures violated the Equal Protection Clause due to inconsistent standards.",
+    "detailedExplanation": "Bush v. Gore was the controversial Supreme Court case that effectively decided the 2000 presidential election. The Court ruled 5-4 that Florida's manual recount of ballots violated the Equal Protection Clause of the Fourteenth Amendment because different counties were using different standards to determine voter intent. The majority also ruled 7-2 that no constitutionally valid recount could be completed by Florida's deadline. This decision halted the recount and resulted in George W. Bush winning Florida's electoral votes and the presidency, making it one of the most politically significant Supreme Court decisions in modern history.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Bush_v._Gore",
+    "citationTitle": "Wikipedia: Bush v. Gore"
+  },
+  {
+    "id": "c5393d15-6c5d-4239-940b-66f570d5ff4e",
+    "text": "Which Supreme Court case ruled that the individual mandate in the Affordable Care Act was constitutional?",
+    "options": [
+      "King v. Burwell",
+      "NFIB v. Sebelius",
+      "California v. Texas",
+      "Hobby Lobby v. Burwell"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "NFIB v. Sebelius (2012) upheld the individual mandate as a constitutional exercise of Congress's taxing power.",
+    "detailedExplanation": "National Federation of Independent Business v. Sebelius was a landmark 2012 Supreme Court case that challenged the constitutionality of the Affordable Care Act (Obamacare). In a complex 5-4 decision written by Chief Justice John Roberts, the Court upheld the individual mandate requiring Americans to purchase health insurance or pay a penalty. While the Court rejected the government's argument that the mandate was valid under the Commerce Clause, it ruled that the penalty functioned as a tax and was therefore constitutional under Congress's taxing power. The decision also limited the federal government's ability to withhold Medicaid funding from states that refused to expand the program.",
+    "citationUrl": "https://en.wikipedia.org/wiki/National_Federation_of_Independent_Business_v._Sebelius",
+    "citationTitle": "Wikipedia: National Federation of Independent Business v. Sebelius"
+  },
+  {
+    "id": "1c2f32a5-5b56-4c4b-9a4b-affec2b14a42",
+    "text": "Which case established that states cannot require a literacy test for voting without violating the Constitution?",
+    "options": [
+      "Harper v. Virginia Board of Elections",
+      "Katzenbach v. Morgan",
+      "South Carolina v. Katzenbach",
+      "Oregon v. Mitchell"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Katzenbach v. Morgan (1966) upheld Congress's power to ban literacy tests as a violation of equal protection.",
+    "detailedExplanation": "Katzenbach v. Morgan was a 1966 Supreme Court case that upheld a provision of the Voting Rights Act of 1965 prohibiting literacy tests for voting. The case specifically dealt with New York's English literacy requirement, which disproportionately affected Puerto Rican citizens who were educated in Spanish. The Court ruled 7-2 that Congress had the power under Section 5 of the Fourteenth Amendment to determine that literacy tests violated equal protection, even if the Court might not have reached that conclusion independently. This decision strengthened congressional power to enforce civil rights and was crucial in dismantling barriers to minority voting rights.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Katzenbach_v._Morgan",
+    "citationTitle": "Wikipedia: Katzenbach v. Morgan"
+  },
+  {
+    "id": "10958b72-7acd-45c9-a5bd-7b48ce0a67c8",
+    "text": "Which Supreme Court case established that the death penalty, as then practiced, constituted cruel and unusual punishment?",
+    "options": [
+      "Furman v. Georgia (1972)",
+      "Gregg v. Georgia (1976)",
+      "McCleskey v. Kemp (1987)",
+      "Atkins v. Virginia (2002)"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Furman v. Georgia (1972) effectively suspended the death penalty nationwide by ruling existing practices unconstitutional.",
+    "detailedExplanation": "In Furman v. Georgia (1972), the Supreme Court ruled 5-4 that the death penalty, as it was then being applied, violated the Eighth and Fourteenth Amendments. The Court found that the arbitrary and discriminatory application of capital punishment constituted cruel and unusual punishment. This decision effectively suspended all executions in the United States until states could revise their death penalty statutes to address the Court's concerns about arbitrary application.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Furman_v._Georgia",
+    "citationTitle": "Wikipedia: Furman v. Georgia"
+  },
+  {
+    "id": "ca7c92a0-ae4e-49aa-96f0-9305752677fe",
+    "text": "In which case did the Supreme Court rule that same-sex marriage is a constitutional right nationwide?",
+    "options": [
+      "United States v. Windsor (2013)",
+      "Hollingsworth v. Perry (2013)",
+      "Obergefell v. Hodges (2015)",
+      "Lawrence v. Texas (2003)"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Obergefell v. Hodges (2015) established that the fundamental right to marry is guaranteed to same-sex couples.",
+    "detailedExplanation": "In Obergefell v. Hodges (2015), the Supreme Court ruled 5-4 that the fundamental right to marry is guaranteed to same-sex couples by both the Due Process Clause and the Equal Protection Clause of the Fourteenth Amendment. The decision required all fifty states to perform and recognize the marriages of same-sex couples on the same terms and conditions as marriages of opposite-sex couples, effectively legalizing same-sex marriage nationwide.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Obergefell_v._Hodges",
+    "citationTitle": "Wikipedia: Obergefell v. Hodges"
+  },
+  {
+    "id": "605d1901-ad29-4034-a629-cfe21ad7f24b",
+    "text": "Which Supreme Court case established that flag burning is protected speech under the First Amendment?",
+    "options": [
+      "Texas v. Johnson (1989)",
+      "United States v. Eichman (1990)",
+      "Spence v. Washington (1974)",
+      "Street v. New York (1969)"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Texas v. Johnson (1989) ruled that burning the American flag as political protest is protected symbolic speech.",
+    "detailedExplanation": "In Texas v. Johnson (1989), the Supreme Court ruled 5-4 that burning the American flag as a form of political protest is protected symbolic speech under the First Amendment. Gregory Lee Johnson had burned a flag outside the Republican National Convention in Dallas, and was convicted under a Texas law prohibiting flag desecration. The Court held that the government cannot prohibit expression of ideas simply because society finds them offensive or disagreeable.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Texas_v._Johnson",
+    "citationTitle": "Wikipedia: Texas v. Johnson"
+  },
+  {
+    "id": "fabab7a9-7f9e-437c-91c4-4747aff6459e",
+    "text": "In which case did the Supreme Court rule that Japanese American internment during World War II was constitutional?",
+    "options": [
+      "Hirabayashi v. United States (1943)",
+      "Korematsu v. United States (1944)",
+      "Ex parte Endo (1944)",
+      "Yasui v. United States (1943)"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Korematsu v. United States (1944) upheld the internment of Japanese Americans, a decision later widely criticized and formally repudiated.",
+    "detailedExplanation": "In Korematsu v. United States (1944), the Supreme Court ruled 6-3 that the internment of Japanese Americans during World War II was constitutional due to military necessity. Fred Korematsu had refused to comply with the exclusion order and was convicted. The Court held that the need to protect against espionage outweighed individual rights. This decision has been widely criticized as one of the Court's worst decisions and was formally repudiated by the Court in Trump v. Hawaii (2018).",
+    "citationUrl": "https://en.wikipedia.org/wiki/Korematsu_v._United_States",
+    "citationTitle": "Wikipedia: Korematsu v. United States"
+  },
+  {
+    "id": "d9a7c730-dccd-42e6-a665-e6a6ecc57f52",
+    "text": "Which Supreme Court case established the 'clear and present danger' test for limiting free speech?",
+    "options": [
+      "Schenck v. United States (1919)",
+      "Abrams v. United States (1919)",
+      "Gitlow v. New York (1925)",
+      "Dennis v. United States (1951)"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Schenck v. United States (1919) created the 'clear and present danger' standard for when the government can restrict speech.",
+    "detailedExplanation": "In Schenck v. United States (1919), the Supreme Court unanimously upheld the conviction of Charles Schenck for distributing anti-draft leaflets during World War I. Justice Oliver Wendell Holmes Jr. wrote the opinion establishing the 'clear and present danger' test, which held that speech could be restricted if it created a clear and present danger of bringing about substantive evils that Congress has the power to prevent. Holmes famously wrote that free speech would not protect someone 'falsely shouting fire in a theatre and causing a panic.'",
+    "citationUrl": "https://en.wikipedia.org/wiki/Schenck_v._United_States",
+    "citationTitle": "Wikipedia: Schenck v. United States"
+  },
+  {
+    "id": "22bce7f5-9e35-4e26-80da-f8db01b9abdc",
+    "text": "In which case did the Supreme Court rule that evidence obtained through illegal searches cannot be used in state criminal trials?",
+    "options": [
+      "Weeks v. United States (1914)",
+      "Mapp v. Ohio (1961)",
+      "Terry v. Ohio (1968)",
+      "Katz v. United States (1967)"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Mapp v. Ohio (1961) extended the exclusionary rule to state courts, preventing illegally obtained evidence from being used.",
+    "detailedExplanation": "In Mapp v. Ohio (1961), the Supreme Court ruled 6-3 that evidence obtained in violation of the Fourth Amendment cannot be used in state criminal prosecutions. This extended the exclusionary rule, which had previously only applied to federal courts since Weeks v. United States (1914), to state courts as well. The case involved Dollree Mapp, whose home was searched without a proper warrant. The Court held that the Fourteenth Amendment incorporated the Fourth Amendment's protections against the states.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Mapp_v._Ohio",
+    "citationTitle": "Wikipedia: Mapp v. Ohio"
+  },
+  {
+    "id": "a636cd7f-28b8-4db0-b84b-eb9b7c0ab87c",
+    "text": "Which Supreme Court case ruled that states cannot impose term limits on federal legislators?",
+    "options": [
+      "Powell v. McCormack (1969)",
+      "U.S. Term Limits, Inc. v. Thornton (1995)",
+      "Cook v. Gralike (2001)",
+      "Bond v. United States (2011)"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "U.S. Term Limits, Inc. v. Thornton (1995) struck down state-imposed congressional term limits as unconstitutional.",
+    "detailedExplanation": "In U.S. Term Limits, Inc. v. Thornton (1995), the Supreme Court ruled 5-4 that states cannot impose congressional term limits on their federal legislators without a constitutional amendment. Arkansas had passed Amendment 73, which would have prevented candidates who had served three terms in the House or two in the Senate from appearing on the ballot. The Court held that the qualifications for Congress set forth in the Constitution are exclusive and cannot be supplemented by individual states.",
+    "citationUrl": "https://en.wikipedia.org/wiki/U.S._Term_Limits,_Inc._v._Thornton",
+    "citationTitle": "Wikipedia: U.S. Term Limits, Inc. v. Thornton"
+  },
+  {
+    "id": "0684d852-833a-4d3b-b9ee-07221012e07d",
+    "text": "In which case did the Supreme Court establish that public officials must prove 'actual malice' to win libel suits against the press?",
+    "options": [
+      "Near v. Minnesota (1931)",
+      "New York Times Co. v. Sullivan (1964)",
+      "Hustler Magazine v. Falwell (1988)",
+      "Curtis Publishing Co. v. Butts (1967)"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "New York Times Co. v. Sullivan (1964) created the 'actual malice' standard protecting press freedom in reporting on public officials.",
+    "detailedExplanation": "In New York Times Co. v. Sullivan (1964), the Supreme Court unanimously established that public officials cannot recover damages for libel relating to their official conduct unless they prove the statement was made with 'actual malice' - that is, with knowledge that it was false or with reckless disregard of whether it was false. This landmark First Amendment decision arose from an advertisement in the New York Times about civil rights protests in Montgomery, Alabama, and significantly strengthened press freedom by making it much harder for public officials to successfully sue for defamation.",
+    "citationUrl": "https://en.wikipedia.org/wiki/New_York_Times_Co._v._Sullivan",
+    "citationTitle": "Wikipedia: New York Times Co. v. Sullivan"
+  },
+  {
+    "id": "b0c6a554-14ac-4047-9a63-a7faa009ad23",
+    "text": "Which Supreme Court case established that states must provide legal counsel to defendants in felony cases who cannot afford an attorney?",
+    "options": [
+      "Gideon v. Wainwright",
+      "Powell v. Alabama",
+      "Argersinger v. Hamlin",
+      "Strickland v. Washington"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Gideon v. Wainwright (1963) established the right to counsel in felony cases under the Sixth Amendment.",
+    "detailedExplanation": "In Gideon v. Wainwright (1963), the Supreme Court unanimously ruled that states are required under the Sixth Amendment to provide legal counsel to defendants in felony criminal cases who cannot afford their own attorneys. Clarence Gideon, who had been forced to represent himself in a Florida burglary trial, successfully petitioned the Court after his conviction. The decision extended the right to counsel from federal cases to state cases, fundamentally changing the American criminal justice system.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Gideon_v._Wainwright",
+    "citationTitle": "Wikipedia: Gideon v. Wainwright"
+  },
+  {
+    "id": "bbc39a15-1263-4e2c-9f5e-5df9302d8b6a",
+    "text": "In which Supreme Court case did the Court rule that the Second Amendment protects an individual's right to possess firearms, unconnected to service in a militia?",
+    "options": [
+      "United States v. Miller",
+      "District of Columbia v. Heller",
+      "McDonald v. Chicago",
+      "Presser v. Illinois"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "District of Columbia v. Heller (2008) established individual gun rights under the Second Amendment.",
+    "detailedExplanation": "District of Columbia v. Heller (2008) marked a landmark shift in Second Amendment interpretation. The Supreme Court ruled 5-4 that the Second Amendment protects an individual's right to possess firearms, unconnected with service in a militia, and to use that arm for traditionally lawful purposes, such as self-defense within the home. The case struck down Washington D.C.'s handgun ban and requirement that lawfully-owned rifles and shotguns be kept 'unloaded and disassembled or bound by a trigger lock.'",
+    "citationUrl": "https://en.wikipedia.org/wiki/District_of_Columbia_v._Heller",
+    "citationTitle": "Wikipedia: District of Columbia v. Heller"
+  },
+  {
+    "id": "cffe6981-6f71-4e71-a4d2-2b27008aed28",
+    "text": "Which Supreme Court case established that states cannot ban interracial marriage?",
+    "options": [
+      "McLaughlin v. Florida",
+      "Loving v. Virginia",
+      "Pace v. Alabama",
+      "Perez v. Sharp"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "Loving v. Virginia (1967) struck down laws banning interracial marriage as violations of the Equal Protection Clause.",
+    "detailedExplanation": "Loving v. Virginia (1967) was a landmark civil rights decision that struck down laws banning interracial marriage as violations of the Equal Protection and Due Process Clauses of the Fourteenth Amendment. The case arose when Richard and Mildred Loving, an interracial couple, were sentenced to a year in prison in Virginia for marrying each other. The Court's unanimous decision declared that marriage is a fundamental civil right and that restrictions on the right to marry violated the Constitution.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Loving_v._Virginia",
+    "citationTitle": "Wikipedia: Loving v. Virginia"
+  },
+  {
+    "id": "cc1108e5-afa7-42cd-aa77-bc34a274db5a",
+    "text": "In which case did the Supreme Court rule that a president cannot use executive privilege to withhold evidence in criminal proceedings?",
+    "options": [
+      "Nixon v. Fitzgerald",
+      "United States v. Nixon",
+      "Clinton v. Jones",
+      "Trump v. Mazars"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "medium",
+    "explanation": "United States v. Nixon (1974) limited executive privilege and forced President Nixon to release Watergate tapes.",
+    "detailedExplanation": "United States v. Nixon (1974) was a unanimous Supreme Court decision that rejected President Richard Nixon's claim of absolute executive privilege to withhold subpoenaed White House tapes from the Watergate investigation. The Court ruled that while executive privilege exists, it cannot overcome the judiciary's need for evidence in criminal trials. This decision directly led to Nixon's resignation from the presidency and established important precedent limiting presidential power when it conflicts with judicial proceedings.",
+    "citationUrl": "https://en.wikipedia.org/wiki/United_States_v._Nixon",
+    "citationTitle": "Wikipedia: United States v. Nixon"
+  }
+]

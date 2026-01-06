@@ -1,0 +1,342 @@
+[
+  {
+    "id": "54c8a678-2499-4d3e-aa91-4791a10d0a4e",
+    "text": "What is the scientific name for the cacao tree from which chocolate is derived?",
+    "options": [
+      "Theobroma cacao",
+      "Coffea arabica",
+      "Vanilla planifolia",
+      "Saccharum officinarum"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Theobroma cacao is the scientific name for the cacao tree, with 'Theobroma' meaning 'food of the gods'.",
+    "detailedExplanation": "The cacao tree's scientific name Theobroma cacao was given by Carl Linnaeus in 1753. The genus name 'Theobroma' literally translates to 'food of the gods' in Greek, reflecting the reverence ancient civilizations had for chocolate. This tropical tree is native to the deep tropical regions of Central and South America and produces the cacao pods containing beans that are processed into chocolate.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Theobroma_cacao",
+    "citationTitle": "Wikipedia: Theobroma cacao"
+  },
+  {
+    "id": "34f6c686-7388-40a7-839f-30f695bca3f4",
+    "text": "Which French dessert literally translates to 'lightning' and consists of choux pastry filled with cream and topped with fondant icing?",
+    "options": [
+      "Profiterole",
+      "Éclair",
+      "Croquembouche",
+      "Paris-Brest"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Éclair means 'lightning' in French, allegedly named because it's eaten so quickly it's like a flash of lightning.",
+    "detailedExplanation": "The éclair is a classic French pastry made from choux dough filled with cream and topped with icing. The name 'éclair' means 'lightning' in French, and food historians suggest it was named this way because the pastry is typically consumed very quickly, like a flash of lightning. Traditional éclairs are filled with vanilla pastry cream and topped with chocolate fondant, though modern variations include coffee, caramel, and fruit flavors.",
+    "citationUrl": "https://en.wikipedia.org/wiki/%C3%89clair",
+    "citationTitle": "Wikipedia: Éclair"
+  },
+  {
+    "id": "9cfed963-6274-4eec-aeaa-1f027231c074",
+    "text": "What percentage of cacao solids must chocolate contain to be legally classified as 'dark chocolate' in the European Union?",
+    "options": [
+      "At least 35%",
+      "At least 43%",
+      "At least 50%",
+      "At least 70%"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "EU regulations require dark chocolate to contain at least 43% cacao solids to be legally classified as such.",
+    "detailedExplanation": "According to European Union Directive 2000/36/EC on cocoa and chocolate products, dark chocolate must contain a minimum of 43% total dry cocoa solids. This regulation ensures consistency in chocolate labeling across EU member states. The United States has different standards, requiring only 35% cacao solids for dark chocolate classification, while premium dark chocolates often contain 70% or higher cacao content.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Types_of_chocolate",
+    "citationTitle": "Wikipedia: Types of chocolate"
+  },
+  {
+    "id": "396f9dcf-1045-42d5-9e40-95f70b6c7850",
+    "text": "Which Italian dessert's name literally means 'pick-me-up' and traditionally contains ladyfingers soaked in coffee?",
+    "options": [
+      "Panna cotta",
+      "Cannoli",
+      "Tiramisu",
+      "Zabaglione"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Tiramisu means 'pick-me-up' or 'cheer me up' in Italian, referring to its energizing coffee content.",
+    "detailedExplanation": "Tiramisu is a classic Italian dessert whose name comes from the Venetian phrase 'tiramisù' meaning 'pick-me-up' or 'cheer me up,' likely referring to the caffeine from the espresso used in the recipe. The dessert consists of ladyfinger cookies (savoiardi) soaked in coffee, layered with a mixture of mascarpone cheese, eggs, sugar, and often finished with cocoa powder. Though its exact origins are debated, it became popular in the 1960s and is now one of Italy's most famous desserts worldwide.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Tiramisu",
+    "citationTitle": "Wikipedia: Tiramisu"
+  },
+  {
+    "id": "232e6db3-eccc-4047-ba64-5618fb98c370",
+    "text": "What is the traditional French method called for tempering chocolate that involves heating, cooling, and reheating to specific temperatures?",
+    "options": [
+      "Conching",
+      "Enrobing",
+      "Tablage",
+      "Ganaching"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Tablage is the traditional French method of tempering chocolate by working it on a marble surface.",
+    "detailedExplanation": "Tablage is the classic French technique for tempering chocolate that involves pouring melted chocolate onto a cool marble surface and working it with a palette knife until it reaches the proper temperature and crystal structure. This method requires heating chocolate to about 115-120°F (46-49°C), cooling it to 84°F (29°C) while working it on the marble, then gently reheating to 88-90°F (31-32°C). Proper tempering ensures chocolate has a glossy finish, good snap, and doesn't bloom when cooled.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Chocolate_tempering",
+    "citationTitle": "Wikipedia: Chocolate tempering"
+  },
+  {
+    "id": "e919ab45-f2ef-4ea9-8daa-1cd01d195762",
+    "text": "Which rare and expensive type of vanilla, considered the finest in the world, comes from the Sambava region of a specific island nation?",
+    "options": [
+      "Tahitian vanilla from French Polynesia",
+      "Madagascar vanilla from Madagascar",
+      "Mexican vanilla from Mexico",
+      "Ceylon vanilla from Sri Lanka"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Madagascar vanilla, specifically from the Sambava region, is considered the world's finest vanilla and commands premium prices.",
+    "detailedExplanation": "Madagascar produces about 80% of the world's vanilla, with the highest quality beans coming from the SAVA region (Sambava, Antalaha, Vohémar, and Andapa) in the northeast of the island. These vanilla beans are from the Vanilla planifolia orchid and are known for their rich, creamy flavor with sweet and woody notes. The curing process in Madagascar's climate creates the distinctive vanillin-rich profile that makes these beans so prized by pastry chefs and chocolatiers worldwide.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Vanilla",
+    "citationTitle": "Wikipedia: Vanilla"
+  },
+  {
+    "id": "6a647b91-ff8a-4ab2-82c3-e92689ac4bf6",
+    "text": "What is the name of the traditional Spanish dessert consisting of custard topped with hard caramelized sugar that is cracked with a spoon?",
+    "options": [
+      "Flan",
+      "Crema catalana",
+      "Arroz con leche",
+      "Torrijas"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Crema catalana features the distinctive hard caramelized sugar top that's cracked with a spoon, unlike flan which has liquid caramel.",
+    "detailedExplanation": "Crema catalana is Catalonia's signature dessert, similar to French crème brûlée but with distinct differences. It's made with milk (rather than cream), thickened with cornstarch and egg yolks, and flavored with lemon zest and cinnamon. The defining characteristic is the hard caramelized sugar crust on top, traditionally created by sprinkling sugar and caramelizing it with a hot iron tool. This creates a brittle surface that's dramatically cracked with a spoon before eating, making it both a visual and auditory experience.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Crema_catalana",
+    "citationTitle": "Wikipedia: Crema catalana"
+  },
+  {
+    "id": "62ac23d3-ed0b-4377-b9a0-d38508908c59",
+    "text": "Which compound gives white chocolate its characteristic ivory color and is the reason it's technically not considered 'true chocolate'?",
+    "options": [
+      "Cocoa butter",
+      "Milk powder",
+      "Vanilla extract",
+      "Lecithin"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "White chocolate contains cocoa butter but no cocoa solids, which gives it the ivory color and why it's not considered true chocolate.",
+    "detailedExplanation": "White chocolate derives its ivory color from cocoa butter, the fat extracted from cacao beans during chocolate processing. Unlike dark or milk chocolate, white chocolate contains no cocoa solids (the brown part that gives chocolate its color and much of its flavor). This absence of cocoa solids is why many chocolate purists argue that white chocolate isn't 'real chocolate.' Quality white chocolate must contain at least 20% cocoa butter, along with sugar, milk solids, and vanilla, creating its sweet, creamy flavor profile.",
+    "citationUrl": "https://en.wikipedia.org/wiki/White_chocolate",
+    "citationTitle": "Wikipedia: White chocolate"
+  },
+  {
+    "id": "2bfaea69-9bc0-4484-b0d0-62eea31c1cb0",
+    "text": "Which chocolate company was the first to mass-produce milk chocolate bars in 1875, revolutionizing the confectionery industry?",
+    "options": [
+      "Cadbury",
+      "Nestlé",
+      "Daniel Peter/Nestlé",
+      "Hershey"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Daniel Peter, working with Henri Nestlé, created the first solid milk chocolate in 1875.",
+    "detailedExplanation": "Swiss chocolatier Daniel Peter spent eight years developing the process to successfully combine milk with chocolate, partnering with Henri Nestlé who had developed milk powder. Their collaboration in 1875 resulted in the first mass-produced milk chocolate bars, fundamentally changing the chocolate industry and making chocolate more accessible to the general public.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Daniel_Peter",
+    "citationTitle": "Wikipedia: Daniel Peter"
+  },
+  {
+    "id": "3b3e8cf7-4d6d-4316-b7e6-4b6e84d22c4d",
+    "text": "What is the traditional cooking technique used to create the silky texture in panna cotta?",
+    "options": [
+      "Gelatin suspension",
+      "Egg tempering",
+      "Cornstarch slurry",
+      "Agar-agar setting"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Panna cotta achieves its signature texture through gelatin suspension in heated cream.",
+    "detailedExplanation": "Panna cotta, literally meaning 'cooked cream' in Italian, gets its characteristic silky, jiggly texture from dissolving gelatin in warm cream and sugar mixture. The gelatin creates a protein network that traps the liquid, forming a delicate gel that's firm enough to unmold yet soft enough to cut with a spoon. This technique differs from custards which use eggs for thickening.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Panna_cotta",
+    "citationTitle": "Wikipedia: Panna cotta"
+  },
+  {
+    "id": "a800ae6a-d830-4e97-94b6-477e6ccde4b7",
+    "text": "Which traditional Middle Eastern confection is made from sesame seed paste and is often incorporated into chocolate desserts?",
+    "options": [
+      "Marzipan",
+      "Nougat",
+      "Halva",
+      "Turkish Delight"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Halva is made from sesame seed paste (tahini) and is increasingly used in modern chocolate desserts.",
+    "detailedExplanation": "Halva, particularly tahini-based halva, is made from ground sesame seeds and sugar, creating a dense, crumbly confection with a distinctive nutty flavor. Modern chocolatiers have embraced halva as an ingredient, incorporating it into chocolate bars, truffles, and desserts for its unique texture and Middle Eastern flavor profile, creating fusion desserts that blend traditional and contemporary tastes.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Halva",
+    "citationTitle": "Wikipedia: Halva"
+  },
+  {
+    "id": "b5b6be54-ce84-45d2-a47a-9866188da1c8",
+    "text": "What is the Maillard reaction's role in chocolate production?",
+    "options": [
+      "Creates cocoa butter separation",
+      "Develops flavor compounds during roasting",
+      "Forms chocolate bloom",
+      "Enables conching process"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "The Maillard reaction during cocoa bean roasting creates hundreds of flavor compounds essential to chocolate taste.",
+    "detailedExplanation": "The Maillard reaction occurs when amino acids and reducing sugars in cocoa beans react under heat during roasting, typically at temperatures between 120-140°C. This complex chemical process creates hundreds of volatile compounds that give chocolate its characteristic flavors, including nutty, caramel, and fruity notes. Without proper Maillard reactions, chocolate would lack its complex flavor profile and taste flat or bitter.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Maillard_reaction",
+    "citationTitle": "Wikipedia: Maillard reaction"
+  },
+  {
+    "id": "7aa4c6d0-8998-4baf-a2ba-6cba9b381e77",
+    "text": "Which French pastry technique involves creating thin layers of dough and butter to achieve flaky texture in desserts like mille-feuille?",
+    "options": [
+      "Choux pastry",
+      "Pâte brisée",
+      "Lamination",
+      "Creaming method"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Lamination creates the flaky layers in puff pastry used for mille-feuille and similar desserts.",
+    "detailedExplanation": "Lamination is the technique of repeatedly folding butter into dough to create hundreds of alternating layers. During baking, the water in the butter creates steam, causing the layers to separate and puff up, resulting in the characteristic flaky texture of pastries like mille-feuille, palmiers, and napoleons. This labor-intensive process typically involves multiple rounds of rolling, folding, and chilling.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Puff_pastry",
+    "citationTitle": "Wikipedia: Puff pastry"
+  },
+  {
+    "id": "ba891481-8276-48ca-bc63-3d12fc5cfe37",
+    "text": "What causes the distinctive 'snap' sound when breaking high-quality dark chocolate?",
+    "options": [
+      "High cocoa butter content",
+      "Proper crystal formation (Form V)",
+      "Air bubbles in the chocolate",
+      "Sugar crystallization"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Form V crystal structure in properly tempered chocolate creates the characteristic snap.",
+    "detailedExplanation": "When chocolate is properly tempered, cocoa butter crystallizes primarily in Form V (beta crystal), which creates a dense, stable structure. This crystal formation gives well-tempered chocolate its glossy appearance, clean break with an audible snap, and resistance to melting at room temperature. Poor tempering results in other crystal forms that produce soft, dull chocolate without the satisfying snap.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Chocolate_tempering",
+    "citationTitle": "Wikipedia: Chocolate tempering"
+  },
+  {
+    "id": "45732716-1238-47ae-b6b5-0f5bef8e769e",
+    "text": "Which traditional Japanese confection technique is used to create delicate, artistic sweets often served with tea ceremonies?",
+    "options": [
+      "Wagashi making",
+      "Mochi pounding",
+      "Tempura battering",
+      "Sushi rolling"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Wagashi is the traditional Japanese confectionery art creating beautiful sweets for tea ceremonies.",
+    "detailedExplanation": "Wagashi are traditional Japanese confections that represent the pinnacle of edible artistry, typically made from plant-based ingredients like sweet bean paste (anko), rice flour, and kudzu starch. These delicate sweets are designed to complement the bitter taste of matcha tea and reflect seasonal themes through their colors, shapes, and flavors. Master wagashi artisans train for years to perfect the intricate hand-shaping techniques required.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Wagashi",
+    "citationTitle": "Wikipedia: Wagashi"
+  },
+  {
+    "id": "3298a3fb-fd1f-4053-abfb-84f23f766f09",
+    "text": "What is the primary difference between a ganache and a truffle in chocolate confectionery?",
+    "options": [
+      "Ganache uses milk, truffle uses cream",
+      "Ganache is the filling, truffle is the complete confection",
+      "Ganache is heated, truffle is cold-processed",
+      "Ganache contains alcohol, truffle doesn't"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Ganache is the creamy mixture used as filling, while a truffle is the complete chocolate confection often containing ganache.",
+    "detailedExplanation": "Ganache is a smooth mixture of chocolate and cream (and sometimes butter) that serves as a versatile base for many confections. A truffle, however, is a complete chocolate confection typically consisting of a ganache center that's shaped into balls and often coated with cocoa powder, chopped nuts, or tempered chocolate. While ganache can be used in many applications, truffles specifically refer to these individual, usually round, chocolate confections.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Ganache",
+    "citationTitle": "Wikipedia: Ganache"
+  },
+  {
+    "id": "ed921ae5-3d1b-4936-98fa-a3a708544143",
+    "text": "Which rare type of cacao bean, representing less than 5% of global production, is prized by chocolatiers for its complex floral and fruity flavor profile?",
+    "options": [
+      "Forastero",
+      "Trinitario",
+      "Nacional",
+      "Criollo"
+    ],
+    "correctIndex": 3,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Criollo cacao beans are the rarest and most prized variety, known for their delicate, complex flavors.",
+    "detailedExplanation": "Criollo cacao beans are considered the aristocrat of cacao varieties, representing less than 5% of world production. These beans are primarily grown in Venezuela, Ecuador, and parts of the Caribbean. They're highly valued by premium chocolate makers for their low bitterness, delicate texture, and complex flavor notes that can include floral, fruity, and nutty characteristics. The trees are more fragile and produce lower yields than other varieties, making Criollo chocolate significantly more expensive.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Theobroma_cacao",
+    "citationTitle": "Wikipedia: Theobroma cacao"
+  },
+  {
+    "id": "f1ae0d2a-bf9f-4872-8f5b-f3d80d3d95e2",
+    "text": "What is the traditional name for the elaborate French dessert architecture technique where spun sugar is used to create decorative cages and artistic structures?",
+    "options": [
+      "Sucre filé",
+      "Croquembouche",
+      "Pâte à choux",
+      "Nougatine"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Sucre filé is the French technique of spinning hot sugar into thin threads to create decorative structures.",
+    "detailedExplanation": "Sucre filé, literally meaning 'spun sugar,' is an advanced French pastry technique where caramelized sugar is heated to the hard crack stage (around 300°F/150°C) and then quickly spun with specialized tools or even forks to create fine, golden threads. These threads can be shaped into elaborate cages, nests, or artistic sculptures that serve as dramatic garnishes for high-end desserts. The technique requires precise temperature control and swift execution, as the sugar must remain hot enough to spin but cool enough to hold its shape.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Spun_sugar",
+    "citationTitle": "Wikipedia: Spun sugar"
+  },
+  {
+    "id": "2366e6e2-5721-4486-902a-e9b19359f758",
+    "text": "Which traditional Austrian dessert, often mistaken for being French, consists of layers of sponge cake soaked in rum syrup and filled with apricot jam and chocolate buttercream?",
+    "options": [
+      "Dobos torte",
+      "Sachertorte",
+      "Black Forest cake",
+      "Linzer torte"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Sachertorte is the famous Austrian chocolate cake with apricot jam, despite often being mistakenly attributed to French cuisine.",
+    "detailedExplanation": "Sachertorte is an iconic Austrian dessert created in 1832 by Franz Sacher in Vienna for Prince Metternich. This dense chocolate cake consists of two layers of chocolate sponge cake with a thin layer of apricot jam in the middle and covering the outside, all enrobed in a smooth, dark chocolate glaze. The cake is traditionally served with unsweetened whipped cream called 'Schlagobers.' There was even a famous legal battle between Hotel Sacher and Demel bakery over the authentic recipe, resulting in the 'Original Sachertorte' being exclusively sold at Hotel Sacher.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Sachertorte",
+    "citationTitle": "Wikipedia: Sachertorte"
+  },
+  {
+    "id": "319ad825-6510-4f18-8107-8ad3d3594488",
+    "text": "What is the specific term for the white, chalky appearance that sometimes develops on chocolate due to temperature fluctuations or improper storage?",
+    "options": [
+      "Chocolate bloom",
+      "Cocoa oxidation",
+      "Sugar crystallization",
+      "Fat separation"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "hard",
+    "explanation": "Chocolate bloom is the whitish coating that appears on chocolate due to fat or sugar crystal migration.",
+    "detailedExplanation": "Chocolate bloom occurs in two forms: fat bloom and sugar bloom. Fat bloom happens when cocoa butter crystals migrate to the surface due to temperature fluctuations, creating a whitish, chalky appearance. Sugar bloom occurs when moisture causes sugar crystals to dissolve and recrystallize on the surface. While bloomed chocolate is safe to eat, it affects texture and appearance. Fat bloom is more common and occurs when chocolate is stored in fluctuating temperatures, while sugar bloom happens in humid conditions. Professional chocolatiers prevent bloom through proper tempering and storage in controlled environments.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Chocolate_bloom",
+    "citationTitle": "Wikipedia: Chocolate bloom"
+  }
+]

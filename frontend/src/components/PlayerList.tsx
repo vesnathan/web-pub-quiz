@@ -7,14 +7,14 @@ interface PlayerListProps {
   players: Player[];
   scores: Record<string, number>;
   currentPlayerId: string;
-  buzzerWinnerId: string | null;
+  questionWinnerId: string | null;
 }
 
 export function PlayerList({
   players,
   scores,
   currentPlayerId,
-  buzzerWinnerId,
+  questionWinnerId,
 }: PlayerListProps) {
   // Sort players by score
   const sortedPlayers = [...players].sort(
@@ -32,7 +32,7 @@ export function PlayerList({
           {sortedPlayers.map((player, index) => {
             const score = scores[player.id] || 0;
             const isCurrentPlayer = player.id === currentPlayerId;
-            const isBuzzerWinner = player.id === buzzerWinnerId;
+            const isQuestionWinner = player.id === questionWinnerId;
 
             return (
               <div
@@ -41,7 +41,7 @@ export function PlayerList({
                   flex items-center justify-between p-2 rounded-lg
                   transition-all duration-200
                   ${isCurrentPlayer ? "bg-primary-900/50 border border-primary-500" : ""}
-                  ${isBuzzerWinner ? "bg-blue-900/50 animate-pulse" : ""}
+                  ${isQuestionWinner ? "bg-green-900/50 border border-green-500" : ""}
                 `}
               >
                 <div className="flex items-center space-x-3">

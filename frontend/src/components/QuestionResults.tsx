@@ -1,7 +1,7 @@
 "use client";
 
-import { useEffect, useState } from "react";
-import { motion } from "framer-motion";
+import { useEffect, useState, useRef } from "react";
+import { motion, AnimatePresence } from "framer-motion";
 import { Card, CardBody } from "@nextui-org/react";
 import { useGameStore } from "@/stores/gameStore";
 import { BadgeRevolver } from "@/components/badges";
@@ -14,11 +14,14 @@ interface QuestionResultsProps {
   explanation: string | null;
   wasAnswered: boolean;
   wasCorrect: boolean | null;
-  buzzerWinnerName: string | null;
+  questionWinnerName: string | null;
   nextQuestionTime: number | null;
   leaderboard: LeaderboardEntry[];
   currentPlayerId: string;
   earnedBadgeIds?: string[];
+  gotCorrectButSlow?: boolean;
+  fasterWinnerName?: string | null;
+  pointsAwarded?: number | null;
 }
 
 export function QuestionResults({
@@ -27,18 +30,56 @@ export function QuestionResults({
   explanation,
   wasAnswered,
   wasCorrect,
-  buzzerWinnerName,
+  questionWinnerName,
   nextQuestionTime,
   leaderboard,
   currentPlayerId,
   earnedBadgeIds = [],
+  gotCorrectButSlow = false,
+  fasterWinnerName = null,
+  pointsAwarded = null,
 }: QuestionResultsProps) {
   const [countdown, setCountdown] = useState<number>(0);
+  const [showPointsAnim, setShowPointsAnim] = useState(true);
+  const { markBadgesAsAnimated } = useGameStore();
+  const badgesMarkedRef = useRef(false);
+
+  // Clear points animation after delay
+  useEffect(() => {
+    if (pointsAwarded) {
+      const timer = setTimeout(() => setShowPointsAnim(false), 2000);
+      return () => clearTimeout(timer);
+    }
+  }, [pointsAwarded]);
 
   // Convert badge IDs to full badge objects
   const earnedBadges: AwardBadge[] = earnedBadgeIds
-    .map((id) => getBadgeById(id))
+    .map((id) => {
+      const badge = getBadgeById(id);
+      if (!badge) {
+        console.error(
+          `[QuestionResults] Badge lookup failed for ID: "${id}" - badge not found in registry`,
+        );
+      }
+      return badge;
+    })
     .filter((badge): badge is AwardBadge => badge !== undefined);
+
+  // Log if any badges were filtered out
+  if (earnedBadges.length !== earnedBadgeIds.length) {
+    console.warn(
+      `[QuestionResults] ${earnedBadgeIds.length - earnedBadges.length} badge(s) failed to load from IDs:`,
+      earnedBadgeIds,
+    );
+  }
+
+  // Mark badges as animated when revolver completes
+  const handleAllBadgesShown = () => {
+    if (!badgesMarkedRef.current && earnedBadgeIds.length > 0) {
+      badgesMarkedRef.current = true;
+      markBadgesAsAnimated(earnedBadgeIds);
+    }
+  };
 
   // Countdown timer
   useEffect(() => {
@@ -70,32 +111,71 @@ export function QuestionResults({
       <motion.div
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
-        className="text-center"
+        className="text-center relative"
       >
         {wasAnswered ? (
           wasCorrect ? (
-            <div className="text-4xl font-bold text-green-400 mb-2">
-              Correct!
-            </div>
+            gotCorrectButSlow ? (
+              // User got it right but someone was faster
+              <>
+                <div className="text-4xl font-bold text-blue-400 mb-2">
+                  Well done!
+                </div>
+                <p className="text-gray-300 text-lg">
+                  You got it right, but{" "}
+                  <span className="text-purple-400 font-semibold">
+                    {fasterWinnerName || questionWinnerName}
+                  </span>{" "}
+                  was quicker!
+                </p>
+              </>
+            ) : (
+              // User won!
+              <div className="text-4xl font-bold text-green-400 mb-2">
+                {questionWinnerName
+                  ? `${questionWinnerName} got it!`
+                  : "Correct!"}
+              </div>
+            )
           ) : (
             <div className="text-4xl font-bold text-red-400 mb-2">
-              {buzzerWinnerName
-                ? `${buzzerWinnerName} got it wrong!`
-                : "Incorrect!"}
+              Incorrect!
             </div>
           )
+        ) : questionWinnerName ? (
+          // Someone else won (user didn't answer but someone did)
+          <div className="text-4xl font-bold text-purple-400 mb-2">
+            {questionWinnerName} got it!
+          </div>
         ) : (
           <div className="text-4xl font-bold text-yellow-400 mb-2">
-            Time's Up!
+            Time&apos;s Up!
           </div>
         )}
-        <p className="text-gray-400">
-          {wasAnswered
-            ? wasCorrect
-              ? `${buzzerWinnerName || "Player"} answered correctly!`
-              : "Nobody got the correct answer"
-            : "Nobody buzzed in time"}
-        </p>
+        {!gotCorrectButSlow && (
+          <p className="text-gray-400">
+            {questionWinnerName
+              ? `${questionWinnerName} answered correctly!`
+              : wasAnswered
+                ? "Nobody got the correct answer"
+                : "No one answered in time"}
+          </p>
+        )}
+
+        {/* Green +points animation for correct answers */}
+        <AnimatePresence>
+          {showPointsAnim && pointsAwarded && pointsAwarded > 0 && (
+            <motion.div
+              initial={{ opacity: 1, y: 0, scale: 1 }}
+              animate={{ opacity: 0, y: -40, scale: 1.5 }}
+              exit={{ opacity: 0 }}
+              transition={{ duration: 1.5, ease: "easeOut" }}
+              className="absolute left-1/2 -translate-x-1/2 top-0 text-green-400 font-bold text-3xl pointer-events-none"
+            >
+              +{pointsAwarded}
+            </motion.div>
+          )}
+        </AnimatePresence>
       </motion.div>
 
       {/* Badge Revolver - shows badges earned this question */}
@@ -110,7 +190,11 @@ export function QuestionResults({
               <div className="text-center text-sm text-purple-300 mb-2 font-semibold">
                 Badges Earned!
               </div>
-              <BadgeRevolver badges={earnedBadges} startDelay={800} />
+              <BadgeRevolver
+                badges={earnedBadges}
+                startDelay={800}
+                onAllBadgesShown={handleAllBadgesShown}
+              />
             </CardBody>
           </Card>
         </motion.div>

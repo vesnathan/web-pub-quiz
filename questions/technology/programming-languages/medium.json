@@ -1,0 +1,342 @@
+[
+  {
+    "id": "d35a825a-98de-4be8-8ecb-0363ec2466a3",
+    "text": "Which programming language was originally called 'Oak' during its development?",
+    "options": [
+      "JavaScript",
+      "Java",
+      "C#",
+      "Ruby"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Java was originally named 'Oak' when developed by James Gosling at Sun Microsystems in the early 1990s.",
+    "detailedExplanation": "Java was initially developed under the codename 'Oak' by James Gosling and his team at Sun Microsystems starting in 1991. The name was later changed to Java in 1995 due to trademark issues with Oak Technology. The language was designed to be platform-independent and became one of the most widely used programming languages in enterprise development.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Java_(programming_language)",
+    "citationTitle": "Wikipedia: Java (programming language)"
+  },
+  {
+    "id": "23e5ac50-92fd-4daf-a7b5-6624ce661585",
+    "text": "What does the acronym 'COBOL' stand for in programming?",
+    "options": [
+      "Computer Business Oriented Language",
+      "Common Business-Oriented Language",
+      "Compiled Binary Object Language",
+      "Commercial Business Operations Language"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "COBOL stands for Common Business-Oriented Language, developed in 1959 for business and administrative applications.",
+    "detailedExplanation": "COBOL (Common Business-Oriented Language) was developed in 1959 as part of a U.S. Department of Defense initiative to create a portable programming language for business use. It was designed to be readable by non-programmers and became widely adopted in business, finance, and administrative systems. Despite being over 60 years old, COBOL is still used today in many legacy systems, particularly in banking and government.",
+    "citationUrl": "https://en.wikipedia.org/wiki/COBOL",
+    "citationTitle": "Wikipedia: COBOL"
+  },
+  {
+    "id": "708508c0-17e0-4f8e-b31d-35a479f9856b",
+    "text": "Which programming language is known for its use of significant whitespace and indentation?",
+    "options": [
+      "Perl",
+      "Python",
+      "Pascal",
+      "Prolog"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Python uses indentation to define code blocks instead of curly braces or keywords, making whitespace syntactically significant.",
+    "detailedExplanation": "Python is distinctive among programming languages for using indentation to define code structure and scope. Instead of using curly braces {} or keywords like 'begin' and 'end' to group statements, Python relies on consistent indentation levels. This design philosophy, part of Python's emphasis on code readability, forces programmers to write visually organized code and eliminates certain types of syntax errors common in other languages.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Python_(programming_language)",
+    "citationTitle": "Wikipedia: Python (programming language)"
+  },
+  {
+    "id": "fbdd0e5a-6a10-4761-ac89-a25c2837f419",
+    "text": "Which language was developed by Bjarne Stroustrup as an extension of C?",
+    "options": [
+      "C#",
+      "Objective-C",
+      "C++",
+      "D"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "C++ was developed by Bjarne Stroustrup at Bell Labs starting in 1979 as 'C with Classes', later renamed C++.",
+    "detailedExplanation": "Bjarne Stroustrup began developing C++ at Bell Labs in 1979, initially calling it 'C with Classes.' The language was designed to combine the efficiency and flexibility of C with features that would make large program development more manageable, particularly object-oriented programming capabilities. The name 'C++' was introduced in 1983, with the '++' being a reference to the increment operator in C, symbolizing an enhanced version of C.",
+    "citationUrl": "https://en.wikipedia.org/wiki/C%2B%2B",
+    "citationTitle": "Wikipedia: C++"
+  },
+  {
+    "id": "703daae5-ef62-41a5-88f2-999013bba80d",
+    "text": "What is the primary programming language used for developing iOS applications?",
+    "options": [
+      "Objective-C",
+      "Swift",
+      "Java",
+      "Kotlin"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Swift is Apple's modern programming language introduced in 2014, now the primary language for iOS development.",
+    "detailedExplanation": "While Objective-C was historically used for iOS development, Swift has become the primary programming language for iOS applications since its introduction by Apple in 2014. Swift was designed to be more approachable than Objective-C while maintaining performance and safety. It features modern syntax, automatic memory management, and strong type safety, making it easier for developers to write reliable iOS and macOS applications.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Swift_(programming_language)",
+    "citationTitle": "Wikipedia: Swift (programming language)"
+  },
+  {
+    "id": "4cbbef36-fc55-474b-a38f-86bf88644d0b",
+    "text": "Which programming language was created by Guido van Rossum and named after a British comedy troupe?",
+    "options": [
+      "Ruby",
+      "Python",
+      "Perl",
+      "Lua"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Python was created by Guido van Rossum and named after Monty Python's Flying Circus, not the snake.",
+    "detailedExplanation": "Python was created by Dutch programmer Guido van Rossum, who began working on it in the late 1980s. Contrary to popular belief, the language wasn't named after the snake, but rather after the British comedy group Monty Python's Flying Circus. Van Rossum was reading scripts from the show while developing the language and thought Python was a short, unique, and slightly mysterious name, which fit his vision for the language.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Python_(programming_language)",
+    "citationTitle": "Wikipedia: Python (programming language)"
+  },
+  {
+    "id": "e720d1a3-4edb-4d94-a482-6ac42ba8a7ef",
+    "text": "Which programming language uses the file extension '.rb'?",
+    "options": [
+      "Rust",
+      "Ruby",
+      "R",
+      "REBOL"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Ruby source code files typically use the '.rb' file extension.",
+    "detailedExplanation": "Ruby, created by Yukihiro Matsumoto in the mid-1990s, uses the '.rb' file extension for its source code files. The language was designed with programmer happiness and productivity in mind, emphasizing natural syntax that reads like English. Ruby gained significant popularity through the Ruby on Rails web framework and is known for its flexibility, allowing developers to alter even fundamental parts of the language if needed.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Ruby_(programming_language)",
+    "citationTitle": "Wikipedia: Ruby (programming language)"
+  },
+  {
+    "id": "0ac1b49b-e1d1-48b3-b305-43aa1a6e1516",
+    "text": "What does 'SQL' stand for in database programming?",
+    "options": [
+      "Simple Query Language",
+      "Structured Query Language",
+      "Standard Query Language",
+      "Sequential Query Language"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "SQL stands for Structured Query Language, used for managing and querying relational databases.",
+    "detailedExplanation": "SQL (Structured Query Language) is a domain-specific language designed for managing data in relational database management systems. Originally developed at IBM in the 1970s as part of the System R project, SQL became an ANSI standard in 1986 and an ISO standard in 1987. It provides a standardized way to create, modify, and query databases, making it an essential skill for anyone working with data storage and retrieval systems.",
+    "citationUrl": "https://en.wikipedia.org/wiki/SQL",
+    "citationTitle": "Wikipedia: SQL"
+  },
+  {
+    "id": "5ed9d6c8-7695-4317-80fd-bb3a22c24945",
+    "text": "Which programming language was created by Dennis Ritchie at Bell Labs in the early 1970s and is considered the foundation for many modern languages?",
+    "options": [
+      "FORTRAN",
+      "C",
+      "BASIC",
+      "Pascal"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "C was created by Dennis Ritchie at Bell Labs between 1969-1973.",
+    "detailedExplanation": "The C programming language was developed by Dennis Ritchie at Bell Labs between 1969 and 1973. It became one of the most influential programming languages in history, serving as the foundation for numerous other languages including C++, Java, and JavaScript. C's design philosophy emphasized efficiency, flexibility, and portability, making it ideal for system programming and establishing many conventions still used in modern programming languages.",
+    "citationUrl": "https://en.wikipedia.org/wiki/C_(programming_language)",
+    "citationTitle": "Wikipedia: C (programming language)"
+  },
+  {
+    "id": "6c904c3a-0e59-4ba5-9ee3-409c4cf284eb",
+    "text": "What does the 'ML' in the functional programming language 'ML' stand for?",
+    "options": [
+      "Machine Learning",
+      "Meta Language",
+      "Mathematical Logic",
+      "Modular Language"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "ML stands for 'Meta Language', originally developed for theorem proving.",
+    "detailedExplanation": "ML (Meta Language) was developed in the 1970s by Robin Milner and others at the University of Edinburgh. It was initially created as a meta-language for the LCF (Logic for Computable Functions) theorem prover. ML introduced several groundbreaking features including type inference, parametric polymorphism, and pattern matching, which have since been adopted by many other functional programming languages like Haskell and OCaml.",
+    "citationUrl": "https://en.wikipedia.org/wiki/ML_(programming_language)",
+    "citationTitle": "Wikipedia: ML (programming language)"
+  },
+  {
+    "id": "6531258e-4c6e-4507-bea2-04e765bfd18e",
+    "text": "Which programming language was specifically designed for teaching programming concepts and named after a famous mathematician and philosopher?",
+    "options": [
+      "Ada",
+      "Pascal",
+      "Turing",
+      "Leibniz"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Pascal was named after Blaise Pascal and designed by Niklaus Wirth for teaching programming.",
+    "detailedExplanation": "Pascal was created by Niklaus Wirth in 1970 and named after the French mathematician and philosopher Blaise Pascal. It was specifically designed as a teaching language to encourage good programming practices through structured programming and data structuring. Pascal became widely used in computer science education during the 1970s and 1980s, and its influence can be seen in many subsequent languages including Modula-2 and Ada.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Pascal_(programming_language)",
+    "citationTitle": "Wikipedia: Pascal (programming language)"
+  },
+  {
+    "id": "14102f71-b9f4-401a-9069-aac5d9c62b0a",
+    "text": "Which language, created by Yukihiro Matsumoto, follows the principle that programming should be enjoyable for programmers?",
+    "options": [
+      "Perl",
+      "Ruby",
+      "Lua",
+      "Elixir"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Ruby was created by Yukihiro 'Matz' Matsumoto with programmer happiness as a core design principle.",
+    "detailedExplanation": "Ruby was created by Yukihiro Matsumoto (nicknamed 'Matz') in Japan and first released in 1995. Matsumoto designed Ruby with the philosophy that programming languages should make programmers happy and productive. He wanted to create a language that was more powerful than Perl and more object-oriented than Python, emphasizing human needs over computer needs. Ruby gained widespread popularity with the Ruby on Rails web framework.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Ruby_(programming_language)",
+    "citationTitle": "Wikipedia: Ruby (programming language)"
+  },
+  {
+    "id": "13f2071f-981f-43cd-95bc-09c051ee10f8",
+    "text": "What is the primary programming language used for Android app development, officially preferred by Google since 2017?",
+    "options": [
+      "Java",
+      "Dart",
+      "Kotlin",
+      "Scala"
+    ],
+    "correctIndex": 2,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Kotlin became Google's preferred language for Android development in 2017, though Java is still widely used.",
+    "detailedExplanation": "Kotlin was developed by JetBrains and first appeared in 2011. In 2017, Google announced first-class support for Kotlin on Android, and in 2019 declared it as the preferred language for Android app development. Kotlin is fully interoperable with Java and runs on the Java Virtual Machine, making it easy for existing Android developers to adopt. It offers more concise syntax, null safety, and other modern language features while maintaining compatibility with existing Java codebases.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Kotlin_(programming_language)",
+    "citationTitle": "Wikipedia: Kotlin (programming language)"
+  },
+  {
+    "id": "87a9d94c-13fb-4f64-adeb-e7cd5317d7cc",
+    "text": "Which programming language was developed by Microsoft and is pronounced 'C Sharp'?",
+    "options": [
+      "C#",
+      "C*",
+      "C@",
+      "C+"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "C# (pronounced 'C Sharp') was developed by Microsoft as part of their .NET framework.",
+    "detailedExplanation": "C# was developed by Microsoft and first released in 2000 as part of the .NET framework initiative. Led by Anders Hejlsberg, the same person who created Delphi and worked on TypeScript, C# was designed to be simple, modern, and object-oriented. The '#' symbol represents the musical sharp symbol, indicating that C# is a step up from C++. It combines the power of C++ with the ease of use of languages like Java and has become a cornerstone of Microsoft's development ecosystem.",
+    "citationUrl": "https://en.wikipedia.org/wiki/C_Sharp_(programming_language)",
+    "citationTitle": "Wikipedia: C Sharp (programming language)"
+  },
+  {
+    "id": "67d13316-0747-409f-b933-4ba2118cc1de",
+    "text": "Which programming language was created by John McCarthy in 1958 and is considered the second-oldest high-level programming language still in use?",
+    "options": [
+      "ALGOL",
+      "LISP",
+      "APL",
+      "Simula"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "LISP was created by John McCarthy in 1958 and is the second-oldest high-level language still in use today.",
+    "detailedExplanation": "LISP (LISt Processing) was developed by John McCarthy at MIT in 1958, making it the second-oldest high-level programming language still in widespread use today (after FORTRAN). LISP was groundbreaking in its use of symbolic expressions and recursive functions, and it pioneered many concepts that are now standard in programming languages, including tree data structures, automatic storage management, and conditional expressions. It became the dominant language for artificial intelligence research.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Lisp_(programming_language)",
+    "citationTitle": "Wikipedia: Lisp (programming language)"
+  },
+  {
+    "id": "054201f3-0908-447f-bfc4-c803be446967",
+    "text": "Which programming language uses the motto 'Write once, run anywhere' and was originally developed by Sun Microsystems?",
+    "options": [
+      "JavaScript",
+      "Java",
+      "C#",
+      "Go"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Java was developed by Sun Microsystems with the philosophy of 'Write once, run anywhere' through the Java Virtual Machine.",
+    "detailedExplanation": "Java was developed by James Gosling and his team at Sun Microsystems in the mid-1990s. The language was designed with the principle of 'Write once, run anywhere' (WORA), meaning that Java code could run on any device that has a Java Virtual Machine (JVM) installed, regardless of the underlying operating system. This platform independence, combined with its object-oriented design and automatic memory management, made Java extremely popular for enterprise applications and web development.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Java_(programming_language)",
+    "citationTitle": "Wikipedia: Java (programming language)"
+  },
+  {
+    "id": "75c24619-419e-4455-9ca8-ac82d3ca3486",
+    "text": "Which programming language was named after Ada Lovelace, often considered the world's first computer programmer?",
+    "options": [
+      "Ada",
+      "Grace",
+      "Lovelace",
+      "Augusta"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Ada programming language was named after Ada Lovelace, the 19th-century mathematician who wrote the first computer algorithm.",
+    "detailedExplanation": "Ada is a structured, statically typed programming language developed by the U.S. Department of Defense in the 1980s. It was named after Augusta Ada King, Countess of Lovelace (Ada Lovelace), who is often credited as the world's first computer programmer for her work on Charles Babbage's Analytical Engine in the 1840s. Ada wrote what is considered the first algorithm intended to be processed by a machine, making her a fitting namesake for a programming language focused on reliability and safety in critical systems.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Ada_(programming_language)",
+    "citationTitle": "Wikipedia: Ada (programming language)"
+  },
+  {
+    "id": "57c71df4-30f3-4637-8ee0-6a84ed8fff62",
+    "text": "What does the 'P' in PHP originally stand for, before it became a recursive acronym?",
+    "options": [
+      "Personal",
+      "Private",
+      "Public",
+      "Portable"
+    ],
+    "correctIndex": 0,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "PHP originally stood for 'Personal Home Page' before becoming the recursive acronym 'PHP: Hypertext Preprocessor'.",
+    "detailedExplanation": "PHP was originally created by Rasmus Lerdorf in 1994 as 'Personal Home Page', a set of Common Gateway Interface (CGI) binaries written in C to help him maintain his personal homepage. As the language evolved and gained popularity for web development, it was later redefined as a recursive acronym standing for 'PHP: Hypertext Preprocessor'. This type of recursive naming, where the acronym refers to itself, is common in programming culture and can also be found in other technologies like GNU (GNU's Not Unix).",
+    "citationUrl": "https://en.wikipedia.org/wiki/PHP",
+    "citationTitle": "Wikipedia: PHP"
+  },
+  {
+    "id": "8cd6702e-c946-4b7a-b873-3a2ca01a61c1",
+    "text": "Which programming language's name is derived from a type of Indonesian coffee?",
+    "options": [
+      "Mocha",
+      "Java",
+      "Bean",
+      "Espresso"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Java programming language was named after Java coffee, which comes from the Indonesian island of Java.",
+    "detailedExplanation": "The Java programming language, developed by Sun Microsystems in the mid-1990s, was named after Java coffee. The development team was brainstorming names in a coffee shop, and 'Java' was chosen as a reference to the high-quality coffee from the Indonesian island of Java. This naming choice reflects the coffee culture prevalent in the software development community and explains why Java's logo features a steaming coffee cup. The name was selected over other candidates like 'Oak' (which had trademark issues) and 'Silk'.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Java_(programming_language)",
+    "citationTitle": "Wikipedia: Java (programming language)"
+  },
+  {
+    "id": "5b6b9230-e890-4a38-aee3-526b0fc8981e",
+    "text": "Which programming language was designed by Niklaus Wirth and named after a French mathematician and philosopher?",
+    "options": [
+      "Descartes",
+      "Pascal",
+      "Fermat",
+      "Euler"
+    ],
+    "correctIndex": 1,
+    "category": "science",
+    "difficulty": "medium",
+    "explanation": "Pascal was named after Blaise Pascal, the 17th-century French mathematician who invented an early mechanical calculator.",
+    "detailedExplanation": "Pascal programming language was developed by Niklaus Wirth between 1968-1969 and named after Blaise Pascal (1623-1662), a French mathematician, physicist, and philosopher. Blaise Pascal made significant contributions to mathematics and physics, including work on probability theory, projective geometry, and the invention of an early mechanical calculator called the Pascaline. The programming language Pascal was designed as a teaching tool to encourage good programming practices and structured programming, making it popular in computer science education throughout the 1970s and 1980s.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Pascal_(programming_language)",
+    "citationTitle": "Wikipedia: Pascal (programming language)"
+  }
+]

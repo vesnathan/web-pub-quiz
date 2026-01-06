@@ -1,0 +1,342 @@
+[
+  {
+    "id": "48d12ea6-ae67-4299-a83f-01a6200c12db",
+    "text": "Which German festival is famous for celebrating beer and features traditional Bavarian food like pretzels and sausages?",
+    "options": [
+      "Oktoberfest",
+      "Karneval",
+      "Walpurgisnacht",
+      "Schützenfest"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Oktoberfest is the world's largest beer festival held annually in Munich, Germany.",
+    "detailedExplanation": "Oktoberfest, held annually in Munich, Bavaria, is the world's largest beer festival and traveling funfair. Originally celebrating the marriage of Crown Prince Ludwig in 1810, it has evolved into a 16-18 day festival featuring traditional Bavarian foods like pretzels, sausages, roasted chicken, and beer served in large tents. The festival attracts over 6 million visitors annually from around the world.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Oktoberfest",
+    "citationTitle": "Wikipedia: Oktoberfest"
+  },
+  {
+    "id": "930e5a62-a431-4313-a088-b6b714517977",
+    "text": "What food is traditionally thrown during the famous La Tomatina festival in Spain?",
+    "options": [
+      "Oranges",
+      "Tomatoes",
+      "Grapes",
+      "Peppers"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "La Tomatina is an annual tomato-throwing festival held in Buñol, Spain.",
+    "detailedExplanation": "La Tomatina is a festival held annually on the last Wednesday of August in Buñol, Valencia, Spain. Participants engage in a massive tomato fight using overripe tomatoes. The festival began in 1945 and has become one of Spain's most famous food festivals, attracting thousands of visitors who come to participate in the world's largest tomato fight. The tomatoes used are specially grown for the event and are not suitable for consumption.",
+    "citationUrl": "https://en.wikipedia.org/wiki/La_Tomatina",
+    "citationTitle": "Wikipedia: La Tomatina"
+  },
+  {
+    "id": "623d6ff4-c01b-4ddf-a2ef-54b77a3d3737",
+    "text": "In which country would you traditionally find people eating mooncakes during the Mid-Autumn Festival?",
+    "options": [
+      "Japan",
+      "Thailand",
+      "China",
+      "South Korea"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Mooncakes are traditional Chinese pastries eaten during the Mid-Autumn Festival.",
+    "detailedExplanation": "The Mid-Autumn Festival, also known as the Moon Festival, is a harvest festival celebrated in Chinese culture. Mooncakes are dense, round pastries traditionally filled with lotus seed paste, sweet bean paste, or egg yolks, symbolizing the full moon. The festival dates back over 3,000 years and is celebrated on the 15th day of the 8th lunar month. Families gather to admire the full moon, eat mooncakes, and celebrate the harvest season.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Mid-Autumn_Festival",
+    "citationTitle": "Wikipedia: Mid-Autumn Festival"
+  },
+  {
+    "id": "a99a6c35-0ff8-41ae-937c-4c37d37c1db4",
+    "text": "What type of food is celebrated at the annual Gilroy Garlic Festival in California?",
+    "options": [
+      "Onions",
+      "Garlic",
+      "Peppers",
+      "Herbs"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "The Gilroy Garlic Festival celebrates garlic and features garlic-infused foods.",
+    "detailedExplanation": "The Gilroy Garlic Festival was an annual food festival held in Gilroy, California, from 1979 to 2019. Known as the 'Garlic Capital of the World,' Gilroy celebrated its famous crop with a festival featuring garlic-infused foods like garlic ice cream, garlic fries, and various garlic dishes. The festival attracted hundreds of thousands of visitors annually and raised millions of dollars for local charities before ending due to rising costs and security concerns.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Gilroy_Garlic_Festival",
+    "citationTitle": "Wikipedia: Gilroy Garlic Festival"
+  },
+  {
+    "id": "c6e9e41f-7e2b-4770-b347-a25bc3d2ac20",
+    "text": "Which Indian festival is known as the 'Festival of Colors' and traditionally includes special sweets and drinks?",
+    "options": [
+      "Diwali",
+      "Holi",
+      "Dussehra",
+      "Karva Chauth"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Holi is the Festival of Colors celebrated with special foods like gujiya and thandai.",
+    "detailedExplanation": "Holi, known as the Festival of Colors, is a Hindu spring festival celebrated throughout India and Nepal. The celebration includes throwing colored powders and water, along with traditional foods and drinks. Special Holi treats include gujiya (sweet dumplings), mathri (savory crackers), and thandai (a spiced milk drink often containing bhang). The festival celebrates the arrival of spring, love, and the triumph of good over evil.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Holi",
+    "citationTitle": "Wikipedia: Holi"
+  },
+  {
+    "id": "cc82661d-df68-4daf-b7f5-5e67acfb9778",
+    "text": "What is the traditional Christmas pudding in Britain typically set alight with?",
+    "options": [
+      "Rum",
+      "Brandy",
+      "Whiskey",
+      "Wine"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Christmas pudding is traditionally flambéed with brandy before serving.",
+    "detailedExplanation": "Christmas pudding, also known as plum pudding, is a traditional British dessert served during Christmas dinner. The rich, dark pudding is made with dried fruits, spices, and often contains coins or charms for luck. Before serving, brandy is poured over the pudding and set alight, creating a dramatic blue flame. This tradition dates back to Victorian times and the flambéing process is said to represent the passion of Christ and purify the pudding.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Christmas_pudding",
+    "citationTitle": "Wikipedia: Christmas pudding"
+  },
+  {
+    "id": "57555df8-2afb-4a51-9816-b5ffdeaec2ab",
+    "text": "During Thanksgiving in the United States, which meat is traditionally the centerpiece of the meal?",
+    "options": [
+      "Ham",
+      "Turkey",
+      "Beef",
+      "Chicken"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Turkey is the traditional centerpiece meat served at American Thanksgiving dinners.",
+    "detailedExplanation": "Turkey has been the traditional centerpiece of American Thanksgiving dinner since the 19th century. The tradition is often attributed to the pilgrims and Native Americans sharing a meal in 1621, though historical evidence suggests various fowl were eaten. The modern Thanksgiving feast typically includes roasted turkey served with stuffing, cranberry sauce, mashed potatoes, and pumpkin pie. An estimated 46 million turkeys are consumed during Thanksgiving in the United States each year.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Thanksgiving_dinner",
+    "citationTitle": "Wikipedia: Thanksgiving dinner"
+  },
+  {
+    "id": "c63e977e-a22a-4cde-8b70-54d722259d73",
+    "text": "What is the main ingredient in the traditional Scottish dish haggis, often eaten during Burns Night?",
+    "options": [
+      "Lamb heart and liver",
+      "Beef mince",
+      "Chicken breast",
+      "Pork shoulder"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Haggis is made from sheep's heart, liver, and lungs mixed with oatmeal and spices.",
+    "detailedExplanation": "Haggis is Scotland's national dish, traditionally served during Burns Night celebrations on January 25th to honor poet Robert Burns. The dish consists of sheep's heart, liver, and lungs (though lungs are banned in some countries), minced with onion, oatmeal, suet, and spices, then stuffed into a sheep's stomach casing. It's served with 'neeps and tatties' (mashed turnips and potatoes) and accompanied by a ceremonial reading of Burns' poem 'Address to a Haggis.'",
+    "citationUrl": "https://en.wikipedia.org/wiki/Haggis",
+    "citationTitle": "Wikipedia: Haggis"
+  },
+  {
+    "id": "79d81881-6a92-4a09-a463-3d4bf7d505c9",
+    "text": "What type of pancake is traditionally eaten during Shrove Tuesday (Pancake Day) in the United Kingdom?",
+    "options": [
+      "Thick American-style pancakes",
+      "Thin crepe-like pancakes",
+      "Potato pancakes",
+      "Buckwheat pancakes"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Thin crepe-like pancakes are traditionally eaten on Shrove Tuesday in the UK.",
+    "detailedExplanation": "Shrove Tuesday, also known as Pancake Day, is a Christian tradition observed the day before Ash Wednesday. In the UK, it's customary to make thin, crepe-like pancakes (similar to French crepes) rather than the thick, fluffy American-style pancakes. This tradition developed as a way to use up rich ingredients like eggs, milk, and sugar before the fasting period of Lent began. The pancakes are typically served with lemon juice and sugar, and many communities hold pancake races where participants run while flipping pancakes in pans.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Shrove_Tuesday",
+    "citationTitle": "Wikipedia: Shrove Tuesday"
+  },
+  {
+    "id": "ed34952a-eac2-4c94-a0b1-1ccf9c673baf",
+    "text": "Which Mexican holiday celebrates deceased loved ones and features sugar skulls and pan de muerto bread?",
+    "options": [
+      "Cinco de Mayo",
+      "Día de los Muertos",
+      "Las Posadas",
+      "Día de la Candelaria"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Día de los Muertos (Day of the Dead) features sugar skulls and pan de muerto as traditional foods.",
+    "detailedExplanation": "Día de los Muertos, celebrated on November 1st and 2nd, is a Mexican holiday that honors deceased family members and friends. Traditional foods play a central role in the celebration, including colorfully decorated sugar skulls (calaveras de azúcar) and pan de muerto, a sweet bread often shaped like bones or decorated with bone-like designs. Families create elaborate altars (ofrendas) featuring these foods along with the favorite meals of their departed loved ones. The holiday combines indigenous Aztec traditions with Catholic influences introduced by Spanish colonizers.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Day_of_the_Dead",
+    "citationTitle": "Wikipedia: Day of the Dead"
+  },
+  {
+    "id": "1ba1a4b2-b52a-44ae-bf32-7d4190b24a69",
+    "text": "What is the traditional food associated with the Jewish festival of Passover that represents the haste of the Israelites' departure from Egypt?",
+    "options": [
+      "Challah bread",
+      "Bagels",
+      "Matzo",
+      "Rugelach"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Matzo is eaten during Passover to commemorate the hasty departure from Egypt when there was no time for bread to rise.",
+    "detailedExplanation": "During the eight-day Jewish festival of Passover, observant Jews eat matzo instead of leavened bread to commemorate the Exodus from Egypt. According to tradition, the Israelites left Egypt so quickly that their bread dough didn't have time to rise, resulting in flat, unleavened bread. Matzo is made from flour and water only, baked quickly to prevent any fermentation. The Passover Seder meal features matzo prominently, along with other symbolic foods like bitter herbs, charoset (a sweet paste), and roasted lamb bone, each representing different aspects of the slavery and liberation story.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Passover",
+    "citationTitle": "Wikipedia: Passover"
+  },
+  {
+    "id": "2578a13c-99a1-4233-9cba-22f95b8e0e95",
+    "text": "Which Italian city is famous for hosting an annual chocolate festival called 'Eurochocolate'?",
+    "options": [
+      "Rome",
+      "Milan",
+      "Perugia",
+      "Florence"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Perugia hosts the annual Eurochocolate festival, one of Europe's largest chocolate events.",
+    "detailedExplanation": "Perugia, the capital of Italy's Umbria region, hosts Eurochocolate every October, attracting hundreds of thousands of chocolate lovers from around the world. The festival began in 1994 and transforms the medieval city center into a chocolate wonderland with tastings, demonstrations, sculptures made from chocolate, and vendors selling artisanal chocolates. Perugia is also home to the famous Perugina chocolate company, makers of Baci chocolates. The festival features chocolate from local Italian producers as well as international chocolatiers, making it one of the most important chocolate festivals in Europe.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Eurochocolate",
+    "citationTitle": "Wikipedia: Eurochocolate"
+  },
+  {
+    "id": "721c506b-cecc-4ad7-a8a3-f0cf2731a56d",
+    "text": "What shape are traditional Chinese dumplings folded into for Chinese New Year to symbolize wealth?",
+    "options": [
+      "Crescent moon",
+      "Gold ingot",
+      "Dragon",
+      "Circle"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Chinese dumplings are folded to resemble gold ingots, symbolizing wealth and prosperity for the new year.",
+    "detailedExplanation": "During Chinese New Year celebrations, families gather to make jiaozi (dumplings) folded into the shape of ancient Chinese gold ingots called yuanbao. This tradition symbolizes wishes for wealth and prosperity in the coming year. The dumplings are typically filled with pork, cabbage, and seasonings, though vegetarian versions are also common. Making dumplings is often a family activity where multiple generations work together, and sometimes coins or other small treasures are hidden inside certain dumplings for extra good luck. The dumplings are usually eaten at midnight on New Year's Eve or during New Year's Day celebrations.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Chinese_New_Year",
+    "citationTitle": "Wikipedia: Chinese New Year"
+  },
+  {
+    "id": "5660f16f-33cb-4869-99c3-425371e02751",
+    "text": "Which French region celebrates the arrival of new Beaujolais wine each November with a festival known as Beaujolais Nouveau Day?",
+    "options": [
+      "Provence",
+      "Burgundy",
+      "Bordeaux",
+      "Champagne"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Burgundy is the region that celebrates Beaujolais Nouveau Day, releasing the new vintage on the third Thursday of November.",
+    "detailedExplanation": "Beaujolais Nouveau Day occurs annually on the third Thursday of November, celebrating the release of Beaujolais Nouveau wine from the Beaujolais region, which is part of greater Burgundy in eastern France. This young, light red wine is made from Gamay grapes and is meant to be consumed within a few months of bottling. The tradition began as a local harvest celebration but became an international phenomenon in the 1960s and 70s. The festival features wine tastings, traditional French foods like cheese and charcuterie, and celebrations that begin at midnight when the wine is officially released for sale.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Beaujolais_nouveau",
+    "citationTitle": "Wikipedia: Beaujolais nouveau"
+  },
+  {
+    "id": "b84d6aa3-dec2-4019-966a-093af2e7583f",
+    "text": "What is the traditional Korean rice cake soup eaten during New Year called?",
+    "options": [
+      "Bibimbap",
+      "Tteokguk",
+      "Kimchi jjigae",
+      "Bulgogi"
+    ],
+    "correctIndex": 1,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Tteokguk is the traditional Korean rice cake soup eaten on New Year's Day.",
+    "detailedExplanation": "Tteokguk is a traditional Korean soup consisting of sliced rice cakes (tteok) in a clear broth, typically made from beef or chicken stock. It is customarily eaten on New Year's Day (both Lunar New Year and January 1st) and is believed to bring good luck and longevity. According to Korean tradition, eating tteokguk adds one year to your age, and the white color of the rice cakes symbolizes purity and new beginnings. The soup is often garnished with sliced egg, scallions, and seaweed, and may include dumplings (mandu). The round shape of the rice cake slices represents coins and prosperity.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Tteokguk",
+    "citationTitle": "Wikipedia: Tteokguk"
+  },
+  {
+    "id": "dcdd0913-bfd4-4f35-9bf0-2bfbe498b621",
+    "text": "Which Greek cheese is traditionally lit on fire and served flaming in restaurants, often accompanied by the exclamation 'Opa!'?",
+    "options": [
+      "Feta",
+      "Kasseri",
+      "Saganaki",
+      "Graviera"
+    ],
+    "correctIndex": 2,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Saganaki is the flaming cheese dish traditionally served in Greek restaurants with the exclamation 'Opa!'",
+    "detailedExplanation": "Saganaki refers to various Greek dishes cooked in a small frying pan, but the most famous version internationally is flaming cheese saganaki. This dish typically uses a firm cheese like kasseri, kefalotyri, or graviera that's breaded and pan-fried until golden, then flambéed with brandy or ouzo and served immediately while flaming. The dramatic presentation is often accompanied by servers shouting 'Opa!' and sometimes includes a squeeze of lemon juice. While the flaming presentation is largely a Greek-American restaurant tradition rather than an authentic Greek practice, it has become an iconic part of the Greek dining experience in many countries.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Saganaki",
+    "citationTitle": "Wikipedia: Saganaki"
+  },
+  {
+    "id": "304c0f34-a965-40de-a1af-87ea9b95c4db",
+    "text": "Which Italian festival involves throwing oranges at each other in a historical battle reenactment?",
+    "options": [
+      "Battle of the Oranges in Ivrea",
+      "Palio di Siena",
+      "Regata Storica",
+      "Calcio Storico"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "The Battle of the Oranges in Ivrea is a famous Italian carnival where participants throw oranges at each other to commemorate a medieval revolt.",
+    "detailedExplanation": "The Battle of the Oranges (Battaglia delle Arance) takes place annually in Ivrea, Italy, during carnival season. This unique food festival involves teams throwing oranges at each other in the town's piazzas, representing a historical revolt against tyrannical rule. The oranges come from Sicily and southern Italy, and the three-day event attracts thousands of participants and spectators who engage in this citrusy combat while wearing protective gear.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Battle_of_the_Oranges",
+    "citationTitle": "Wikipedia: Battle of the Oranges"
+  },
+  {
+    "id": "80033762-5040-4eb5-863a-d75b2238c66b",
+    "text": "What is the traditional cake eaten during Mardi Gras celebrations in New Orleans that contains a hidden surprise?",
+    "options": [
+      "King Cake",
+      "Beignet",
+      "Praline Cake",
+      "Bourbon Cake"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "King Cake is the traditional Mardi Gras dessert that contains a small plastic baby hidden inside, and whoever finds it is said to have good luck.",
+    "detailedExplanation": "The King Cake is a colorful braided pastry decorated with purple, gold, and green icing that's central to Mardi Gras celebrations in New Orleans and throughout Louisiana. The cake contains a small plastic baby (originally a bean or coin) hidden inside the dough. According to tradition, whoever finds the baby in their slice is crowned 'king' for the day and must provide the next King Cake or host the next party. The cake season runs from Twelfth Night (January 6) until Fat Tuesday.",
+    "citationUrl": "https://en.wikipedia.org/wiki/King_cake",
+    "citationTitle": "Wikipedia: King cake"
+  },
+  {
+    "id": "c466a386-5375-4655-aa9e-f4dbc870e8b3",
+    "text": "Which Scandinavian tradition involves hiding an almond in rice pudding during Christmas, with the finder receiving a prize?",
+    "options": [
+      "Risalamande",
+      "Lutefisk dinner",
+      "Smörgåsbord",
+      "Glögg ceremony"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Risalamande is a Danish Christmas dessert where a whole almond is hidden in rice pudding, and whoever finds it receives a small gift or prize.",
+    "detailedExplanation": "Risalamande is a beloved Danish Christmas tradition involving rice pudding mixed with whipped cream, vanilla, and chopped almonds, with one whole almond hidden inside. The dessert is typically served on Christmas Eve, and family members search through their portions to find the hidden almond. The lucky person who discovers it receives a small prize, often marzipan shaped like a pig. This tradition has spread throughout Scandinavia and creates excitement and anticipation during the Christmas meal.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Risalamande",
+    "citationTitle": "Wikipedia: Risalamande"
+  },
+  {
+    "id": "07385448-f1b6-42bf-a9e7-0130224d41bb",
+    "text": "What is the name of the Japanese spring festival that celebrates the blooming of cherry blossoms and features outdoor picnics?",
+    "options": [
+      "Hanami",
+      "Tanabata",
+      "Obon",
+      "Setsubun"
+    ],
+    "correctIndex": 0,
+    "category": "general",
+    "difficulty": "easy",
+    "explanation": "Hanami is the Japanese tradition of enjoying the beauty of cherry blossoms with outdoor parties and picnics under blooming sakura trees.",
+    "detailedExplanation": "Hanami, literally meaning 'flower viewing,' is a centuries-old Japanese tradition celebrating the brief blooming period of cherry blossoms (sakura) in spring. During this festival, people gather in parks and temples for outdoor picnics called 'hanami parties' beneath the blooming trees. Traditional foods enjoyed during hanami include bento boxes, sake, dango (sweet dumplings), and sakura-flavored treats. The practice dates back over 1,000 years and represents the fleeting nature of life, with celebrations lasting only as long as the blossoms remain on the trees.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Hanami",
+    "citationTitle": "Wikipedia: Hanami"
+  }
+]
