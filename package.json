@@ -26,7 +26,7 @@
     "generate-questions": "tsx backend/scripts/generate-bulk-questions.ts",
     "question-status": "tsx backend/scripts/question-status.ts",
     "upload-questions": "tsx backend/scripts/upload-questions.ts",
-    "test:delete-user": "tsx backend/scripts/delete-user.ts"
+    "test:delete-user": "source .env && AWS_ACCESS_KEY_ID=$CLAUDE_IAM_USER_KEY AWS_SECRET_ACCESS_KEY=$CLAUDE_IAM_USER_SECRET AWS_REGION=ap-southeast-2 tsx backend/scripts/delete-user.ts"
   },
   "devDependencies": {
     "@playwright/test": "^1.57.0",
