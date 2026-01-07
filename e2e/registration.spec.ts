@@ -146,33 +146,15 @@ test.describe('Registration Flow', () => {
     // Wait for screen name availability check
     await page.waitForTimeout(1500);
 
-    // Step 5: Submit registration
+    // Step 5: Submit registration (E2E test users are auto-confirmed via PreSignUp Lambda)
     const createAccountButton = page.getByRole('button', { name: /create account/i });
     await expect(createAccountButton).toBeEnabled({ timeout: 10000 });
     await createAccountButton.click();
 
-    // Step 6: Wait for confirmation code screen
-    await expect(page.getByText(/we sent a confirmation code/i)).toBeVisible({ timeout: 15000 });
-    await expect(page.getByText(testEmail)).toBeVisible();
-
-    console.log('Registration submitted, waiting for verification code...');
-
-    // Step 7: Fetch verification code from SSM
-    const verificationCode = await getVerificationCode(testEmail);
-    console.log(`Retrieved verification code: ${verificationCode}`);
-
-    // Step 8: Enter verification code
-    const codeInput = page.getByLabel(/confirmation code/i);
-    await codeInput.fill(verificationCode);
-
-    // Step 9: Click Confirm button
-    const confirmButton = page.getByRole('button', { name: /^confirm$/i });
-    await confirmButton.click();
-
-    // Step 10: Wait for auth modal to close (confirmation auto-signs in)
+    // Step 6: Wait for auth modal to close (auto-confirmed users are auto-signed in)
     await expect(authModal).not.toBeVisible({ timeout: 20000 });
 
-    // Step 11: Handle Welcome Gift modal (appears after auth completes)
+    // Step 7: Handle Welcome Gift modal (appears after auth completes)
     const startPlayingButton = page.getByRole('button', { name: /start playing/i });
     await expect(startPlayingButton).toBeVisible({ timeout: 20000 });
     await startPlayingButton.click();
