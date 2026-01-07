@@ -62,7 +62,7 @@ function getStage(): string {
 const stage = getStage();
 
 // Configuration
-const APP_NAME = 'qnl';
+const APP_NAME = 'quiz-night-live';
 const SES_REGION = 'us-east-1'; // SES receiving only works in us-east-1, us-west-2, eu-west-1
 const MAIN_REGION = process.env.AWS_REGION || 'ap-southeast-2';
 const bootstrapConfig = getBootstrapConfig();

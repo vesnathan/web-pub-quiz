@@ -12,8 +12,8 @@ Parameters:
     Default: prod
   AppName:
     Type: String
-    Description: Application short name
-    Default: qnl
+    Description: Application name
+    Default: quiz-night-live
   DomainName:
     Type: String
     Description: Domain to receive emails for (e.g., quiznight.live)
