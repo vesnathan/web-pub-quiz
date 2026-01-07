@@ -13,9 +13,11 @@ import {
   CloudFormationClient,
   CreateStackCommand,
   UpdateStackCommand,
+  DeleteStackCommand,
   DescribeStacksCommand,
   waitUntilStackCreateComplete,
   waitUntilStackUpdateComplete,
+  waitUntilStackDeleteComplete,
 } from "@aws-sdk/client-cloudformation";
 import { S3Client, PutObjectCommand } from "@aws-sdk/client-s3";
 import {
@@ -494,18 +496,44 @@ async function getCertificateStackOutputs(): Promise<CertificateOutputs> {
 
 // ============== SES Email Receiving Stack ==============
 
-async function sesStackExists(): Promise<boolean> {
+type SesStackStatus =
+  | { exists: false }
+  | { exists: true; status: string; canUpdate: boolean };
+
+async function getSesStackStatus(): Promise<SesStackStatus> {
   try {
-    await cfnClientUsEast1.send(
+    const response = await cfnClientUsEast1.send(
       new DescribeStacksCommand({ StackName: SES_STACK_NAME }),
     );
-    return true;
+    const status = response.Stacks?.[0]?.StackStatus || "UNKNOWN";
+    // Can only update stacks in terminal successful states
+    const canUpdate = [
+      "CREATE_COMPLETE",
+      "UPDATE_COMPLETE",
+      "UPDATE_ROLLBACK_COMPLETE",
+    ].includes(status);
+    return { exists: true, status, canUpdate };
   } catch (error: unknown) {
     if (error instanceof Error && error.message?.includes("does not exist")) {
-      return false;
+      return { exists: false };
     }
     throw error;
   }
+}
+
+async function deleteSesStack(): Promise<void> {
+  console.log(`  Deleting failed SES stack: ${SES_STACK_NAME}...`);
+  await cfnClientUsEast1.send(
+    new DeleteStackCommand({
+      StackName: SES_STACK_NAME,
+      DeletionMode: "FORCE_DELETE_STACK",
+    }),
+  );
+  await waitUntilStackDeleteComplete(
+    { client: cfnClientUsEast1, maxWaitTime: 300 },
+    { StackName: SES_STACK_NAME },
+  );
+  console.log("  Deleted failed stack");
 }
 
 async function checkDomainVerification(): Promise<boolean> {
@@ -561,10 +589,19 @@ async function deploySesStack(): Promise<void> {
     { ParameterKey: "TemplateBucketName", ParameterValue: TEMPLATE_BUCKET },
   ];
 
-  const exists = await sesStackExists();
+  const stackStatus = await getSesStackStatus();
+
+  // If stack exists but is in a failed state, delete it first
+  if (stackStatus.exists && !stackStatus.canUpdate) {
+    console.log(`  Stack is in ${stackStatus.status} state, deleting...`);
+    await deleteSesStack();
+  }
+
+  // Re-check status after potential deletion
+  const currentStatus = await getSesStackStatus();
 
   try {
-    if (exists) {
+    if (currentStatus.exists && currentStatus.canUpdate) {
       console.log(`  Updating SES stack: ${SES_STACK_NAME}`);
       await cfnClientUsEast1.send(
         new UpdateStackCommand({
