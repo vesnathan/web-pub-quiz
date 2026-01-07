@@ -15,7 +15,7 @@ type Query {
   getGameState: GameState
 
   # Room list query (polled by frontend every 10 seconds)
-  getRoomList: RoomListState @aws_iam
+  getRoomList: RoomListState @aws_iam @aws_cognito_user_pools
 
   # Question queries (admin only)
   listQuestions(limit: Int, nextToken: String): QuestionConnection @aws_cognito_user_pools
@@ -32,7 +32,7 @@ type Query {
 }
 
 # Room list state from orchestrator (stored in DynamoDB)
-type RoomListState @aws_iam {
+type RoomListState @aws_iam @aws_cognito_user_pools {
   rooms: [RoomInfo!]!
   lobbyPlayerCount: Int!
   maintenanceMode: Boolean!
@@ -40,7 +40,7 @@ type RoomListState @aws_iam {
   updatedAt: String!
 }
 
-type RoomInfo @aws_iam {
+type RoomInfo @aws_iam @aws_cognito_user_pools {
   id: ID!
   name: String!
   status: String!
