@@ -169,12 +169,15 @@ test.describe('Registration Flow', () => {
     const confirmButton = page.getByRole('button', { name: /^confirm$/i });
     await confirmButton.click();
 
-    // Step 10: Verify user lands on lobby (auth modal closes, user is logged in)
-    // The modal should close and user should see lobby content
+    // Step 10: Handle Welcome Gift screen
+    const startPlayingButton = page.getByRole('button', { name: /start playing/i });
+    await expect(startPlayingButton).toBeVisible({ timeout: 15000 });
+    await startPlayingButton.click();
+
+    // Step 11: Verify user lands on lobby (auth modal closes, user is logged in)
     await expect(authModal).not.toBeVisible({ timeout: 15000 });
 
     // Check for lobby indicators - user should see their screen name or lobby elements
-    // Wait for the page to fully load after auth
     await page.waitForTimeout(2000);
 
     // User should now be authenticated - check for user menu or lobby content
