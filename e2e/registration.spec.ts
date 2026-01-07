@@ -148,7 +148,7 @@ test.describe('Registration Flow', () => {
     await createAccountButton.click();
 
     // Step 6: Wait for confirmation code screen
-    await expect(page.getByText(/confirmation code/i)).toBeVisible({ timeout: 15000 });
+    await expect(page.getByText(/we sent a confirmation code/i)).toBeVisible({ timeout: 15000 });
     await expect(page.getByText(testEmail)).toBeVisible();
 
     console.log('Registration submitted, waiting for verification code...');
