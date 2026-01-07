@@ -526,7 +526,6 @@ async function deleteSesStack(): Promise<void> {
   await cfnClientUsEast1.send(
     new DeleteStackCommand({
       StackName: SES_STACK_NAME,
-      DeletionMode: "FORCE_DELETE_STACK",
     }),
   );
   await waitUntilStackDeleteComplete(
