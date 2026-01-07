@@ -170,7 +170,7 @@ test.describe('Registration Flow', () => {
     await confirmButton.click();
 
     // Step 10: Handle Welcome Gift screen
-    const startPlayingButton = page.getByRole('button', { name: /start playing/i });
+    const startPlayingButton = page.getByRole('button', { name: /start playing!/i });
     await expect(startPlayingButton).toBeVisible({ timeout: 15000 });
     await startPlayingButton.click();
 
