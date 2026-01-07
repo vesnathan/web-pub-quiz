@@ -197,3 +197,33 @@ export const GET_WEBHOOK_LOGS = /* GraphQL */ `
     }
   }
 `;
+
+export const GET_GAME_CONFIG = /* GraphQL */ `
+  query GetGameConfig {
+    getGameConfig {
+      maxPlayersPerRoom
+      playersPerRoomThreshold
+      resultsDisplayMs
+      questionDurationMs
+      freeTierDailyLimit
+      difficultyPoints {
+        easy {
+          correct
+          wrong
+        }
+        medium {
+          correct
+          wrong
+        }
+        hard {
+          correct
+          wrong
+        }
+      }
+      maintenanceMode
+      maintenanceMessage
+      updatedAt
+      updatedBy
+    }
+  }
+`;

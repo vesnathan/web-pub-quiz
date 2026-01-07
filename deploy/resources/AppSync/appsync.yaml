@@ -518,6 +518,34 @@ Resources:
         RuntimeVersion: "1.0.0"
       CodeS3Location: !Sub "s3://${TemplateBucketName}/resolvers/${Stage}/${ResolversBuildHash}/admin/Mutations/Mutation.adminGiftSubscription.js"
 
+  GetGameConfigResolver:
+    Type: AWS::AppSync::Resolver
+    DependsOn: SchemaReadyCustomResource
+    Properties:
+      ApiId: !GetAtt GraphQLApi.ApiId
+      TypeName: Query
+      FieldName: getGameConfig
+      DataSourceName: !GetAtt DynamoDBDataSource.Name
+      Kind: UNIT
+      Runtime:
+        Name: APPSYNC_JS
+        RuntimeVersion: "1.0.0"
+      CodeS3Location: !Sub "s3://${TemplateBucketName}/resolvers/${Stage}/${ResolversBuildHash}/admin/Queries/Query.getGameConfig.js"
+
+  UpdateGameConfigResolver:
+    Type: AWS::AppSync::Resolver
+    DependsOn: SchemaReadyCustomResource
+    Properties:
+      ApiId: !GetAtt GraphQLApi.ApiId
+      TypeName: Mutation
+      FieldName: updateGameConfig
+      DataSourceName: !GetAtt DynamoDBDataSource.Name
+      Kind: UNIT
+      Runtime:
+        Name: APPSYNC_JS
+        RuntimeVersion: "1.0.0"
+      CodeS3Location: !Sub "s3://${TemplateBucketName}/resolvers/${Stage}/${ResolversBuildHash}/admin/Mutations/Mutation.updateGameConfig.js"
+
   # IAM Role for AppSync to invoke Lambda
   AppSyncLambdaRole:
     Type: AWS::IAM::Role

@@ -4,11 +4,9 @@ import { DynamoDBClient } from '@aws-sdk/client-dynamodb';
 import { DynamoDBDocumentClient, UpdateCommand, QueryCommand, PutCommand, GetCommand } from '@aws-sdk/lib-dynamodb';
 import {
   ABLY_CHANNELS,
-  QUESTIONS_PER_SET,
-  MAX_PLAYERS_PER_ROOM,
-  DIFFICULTY_POINTS,
-  calculateQuestionDisplayTime,
+  DEFAULT_GAME_CONFIG,
 } from '@quiz/shared';
+import { loadGameConfig, getConfig, refreshConfig, saveGameConfig } from './configLoader';
 import type {
   OrchestratorQuestion as Question,
   Player,
@@ -165,8 +163,8 @@ const docClient = DynamoDBDocumentClient.from(ddbClient, {
 });
 const TABLE_NAME = process.env.TABLE_NAME || 'quiz-night-live-datatable-prod';
 
-// Timing constants
-const RESULTS_DISPLAY_MS = 5000; // 5 seconds on results screen
+// Timing constants - now loaded from config
+// RESULTS_DISPLAY_MS moved to getConfig().resultsDisplayMs
 
 // ============ Guest Detection ============
 
@@ -655,6 +653,19 @@ function setupLobbyPresence(): void {
     maintenanceMode = enabled;
     maintenanceMessage = customMessage || null;
     console.log(`🔧 Maintenance mode ${enabled ? 'ENABLED' : 'DISABLED'}${customMessage ? `: ${customMessage}` : ''}`);
+
+    // Save to DynamoDB config
+    try {
+      const currentConfig = getConfig();
+      await saveGameConfig({
+        ...currentConfig,
+        maintenanceMode: enabled,
+        maintenanceMessage: customMessage || null,
+      });
+    } catch (e) {
+      console.error('Failed to save maintenance mode to config:', e);
+    }
+
     // Broadcast maintenance mode change via Ably (time-critical for immediate effect)
     await lobbyChannel!.publish('maintenance_update', { enabled, customMessage });
   });
@@ -737,7 +748,7 @@ function setupLobbyPresence(): void {
     let room = findAvailableRoom();
 
     // If all rooms are full or in progress, create a new one
-    if (!room || room.currentPlayers >= MAX_PLAYERS_PER_ROOM) {
+    if (!room || room.currentPlayers >= getConfig().maxPlayersPerRoom) {
       room = createRoom('medium');
       setupRoomChannel(room.id);
       console.log(`🏠 Created new room (overflow): ${room.name}`);
@@ -989,8 +1000,9 @@ async function handleRoomAnswer(roomId: string, data: AnswerData): Promise<void>
 
   const player = session.players.get(playerId);
   const displayName = player?.displayName || 'Unknown';
-  const difficulty = (question.difficulty || 'medium') as keyof typeof DIFFICULTY_POINTS;
-  const difficultyPoints = DIFFICULTY_POINTS[difficulty] || DIFFICULTY_POINTS.medium;
+  const config = getConfig();
+  const difficulty = (question.difficulty || 'medium') as 'easy' | 'medium' | 'hard';
+  const difficultyPoints = config.difficultyPoints[difficulty] || config.difficultyPoints.medium;
 
   if (isCorrect) {
     // Mark player as having answered correctly
@@ -1174,7 +1186,7 @@ async function showRoomQuestionResults(roomId: string): Promise<void> {
     wasAnswered,
     wasCorrect: wasAnswered ? true : null,
     playerResults,
-    nextQuestionIn: RESULTS_DISPLAY_MS,
+    nextQuestionIn: getConfig().resultsDisplayMs,
     questionText: question.text,
     options: question.options,
     category: question.category,
@@ -1192,7 +1204,7 @@ async function showRoomQuestionResults(roomId: string): Promise<void> {
 
   // Clear any existing timer and set new one for next question
   clearRoomTimers(session);
-  session.resultsTimeoutId = setTimeout(() => moveToNextRoomQuestion(roomId), RESULTS_DISPLAY_MS);
+  session.resultsTimeoutId = setTimeout(() => moveToNextRoomQuestion(roomId), getConfig().resultsDisplayMs);
 }
 
 /**
@@ -1239,14 +1251,16 @@ async function startRoomSet(roomId: string): Promise<void> {
   const questionsUsed = new Set<string>();
   let questions: Question[];
   try {
-    questions = await getQuestionsForMixedSet(QUESTIONS_PER_SET, room.difficulty, questionsUsed);
+    // Fetch a batch of questions (continuous play - no fixed set size)
+    const QUESTIONS_BATCH_SIZE = 10;
+    questions = await getQuestionsForMixedSet(QUESTIONS_BATCH_SIZE, room.difficulty, questionsUsed);
     for (const q of questions) {
       questionsUsed.add(q.id);
     }
     console.log(`📚 [${roomId}] Got ${questions.length} ${room.difficulty} questions`);
   } catch (error) {
     console.error(`❌ [${roomId}] Failed to get questions, using mock:`, error);
-    questions = getMockQuestions(QUESTIONS_PER_SET);
+    questions = getMockQuestions(QUESTIONS_BATCH_SIZE);
   }
 
   if (questions.length === 0) {
@@ -1335,7 +1349,8 @@ async function startRoomQuestion(roomId: string): Promise<void> {
     console.log(`🔄 [${roomId}] Fetching more questions for continuous play...`);
     const room = getRoom(roomId);
     const difficulty = room?.difficulty || 'medium';
-    const newQuestions = await getQuestionsForMixedSet(QUESTIONS_PER_SET, difficulty);
+    const QUESTIONS_BATCH_SIZE = 10;
+    const newQuestions = await getQuestionsForMixedSet(QUESTIONS_BATCH_SIZE, difficulty);
 
     if (newQuestions.length === 0) {
       console.log(`❌ [${roomId}] No more questions available, ending set`);
@@ -1509,13 +1524,28 @@ async function endRoomSet(roomId: string): Promise<void> {
 
 async function runGameLoop(): Promise<void> {
   let lastCleanupTime = 0;
+  let lastConfigRefreshTime = 0;
   const CLEANUP_INTERVAL_MS = 60000; // Clean up completed sessions every minute
+  const CONFIG_REFRESH_INTERVAL_MS = 60000; // Refresh config every minute
 
   while (!isShuttingDown) {
     lastHeartbeat = Date.now();
+    const now = Date.now();
+
+    // Periodic config refresh from DynamoDB
+    if (now - lastConfigRefreshTime > CONFIG_REFRESH_INTERVAL_MS) {
+      lastConfigRefreshTime = now;
+      try {
+        const config = await refreshConfig();
+        // Update maintenance mode from config
+        maintenanceMode = config.maintenanceMode;
+        maintenanceMessage = config.maintenanceMessage;
+      } catch (e) {
+        console.error('Failed to refresh config:', e);
+      }
+    }
 
     // Periodic cleanup of completed sessions
-    const now = Date.now();
     if (now - lastCleanupTime > CLEANUP_INTERVAL_MS) {
       lastCleanupTime = now;
 
@@ -1534,7 +1564,7 @@ async function runGameLoop(): Promise<void> {
 
     // Check for room overflow - create new room if all rooms of a difficulty are full
     const rooms = getRoomList();
-    const availableRoom = rooms.find(r => r.status === 'waiting' && r.currentPlayers < MAX_PLAYERS_PER_ROOM);
+    const availableRoom = rooms.find(r => r.status === 'waiting' && r.currentPlayers < getConfig().maxPlayersPerRoom);
     if (!availableRoom && lobbyPlayers.size > 0) {
       const newRoom = createRoom('medium');
       setupRoomChannel(newRoom.id);
@@ -1556,8 +1586,10 @@ function sleep(ms: number): Promise<void> {
 
 async function main(): Promise<void> {
   console.log('🎯 Quiz Game Orchestrator Starting (Always-Open Rooms)...');
-  console.log(`📋 Config: ${QUESTIONS_PER_SET} questions per set, games start on first player join`);
-  console.log(`🏠 Max ${MAX_PLAYERS_PER_ROOM} players per room`);
+  // Load config from DynamoDB
+  const config = await loadGameConfig();
+  console.log(`📋 Config loaded: continuous play, max ${config.maxPlayersPerRoom} players per room`);
+  console.log(`🏠 Results display: ${config.resultsDisplayMs}ms, free tier limit: ${config.freeTierDailyLimit}/day`);
 
   healthApp.listen(HEALTH_PORT, () => {
     console.log(`🏥 Health check server running on port ${HEALTH_PORT}`);

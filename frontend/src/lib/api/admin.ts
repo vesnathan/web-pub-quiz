@@ -6,8 +6,9 @@ import { graphqlClient } from "@/lib/graphql";
 import {
   ADMIN_GIFT_SUBSCRIPTION,
   ADMIN_UPDATE_USER_TIER,
+  UPDATE_GAME_CONFIG,
 } from "@/graphql/mutations";
-import { GET_WEBHOOK_LOGS } from "@/graphql/queries";
+import { GET_WEBHOOK_LOGS, GET_GAME_CONFIG } from "@/graphql/queries";
 import type {
   User,
   WebhookLogConnection,
@@ -103,4 +104,74 @@ export async function getWebhookLogs(
   return WebhookLogConnectionSchema.parse(
     result.data.getWebhookLogs,
   ) as WebhookLogConnection;
+}
+
+// Game Config types
+export interface GameConfig {
+  maxPlayersPerRoom: number;
+  playersPerRoomThreshold: number;
+  resultsDisplayMs: number;
+  questionDurationMs: number;
+  freeTierDailyLimit: number;
+  difficultyPoints: {
+    easy: { correct: number; wrong: number };
+    medium: { correct: number; wrong: number };
+    hard: { correct: number; wrong: number };
+  };
+  maintenanceMode: boolean;
+  maintenanceMessage: string | null;
+  updatedAt: string;
+  updatedBy?: string | null;
+}
+
+export interface UpdateGameConfigInput {
+  maxPlayersPerRoom?: number;
+  playersPerRoomThreshold?: number;
+  resultsDisplayMs?: number;
+  questionDurationMs?: number;
+  freeTierDailyLimit?: number;
+  difficultyPoints?: {
+    easy: { correct: number; wrong: number };
+    medium: { correct: number; wrong: number };
+    hard: { correct: number; wrong: number };
+  };
+  maintenanceMode?: boolean;
+  maintenanceMessage?: string | null;
+}
+
+interface GetGameConfigResponse {
+  data?: {
+    getGameConfig?: GameConfig;
+  };
+}
+
+/**
+ * Get game configuration (admin only)
+ */
+export async function getGameConfig(): Promise<GameConfig | null> {
+  const result = (await graphqlClient.graphql({
+    query: GET_GAME_CONFIG,
+  })) as GetGameConfigResponse;
+
+  return result.data?.getGameConfig ?? null;
+}
+
+interface UpdateGameConfigResponse {
+  data?: {
+    updateGameConfig?: GameConfig;
+  };
+}
+
+/**
+ * Update game configuration (admin only)
+ */
+export async function updateGameConfig(
+  input: UpdateGameConfigInput,
+): Promise<GameConfig | null> {
+  const result = (await graphqlClient.graphql({
+    query: UPDATE_GAME_CONFIG,
+    variables: { input },
+  })) as UpdateGameConfigResponse;
+
+  return result.data?.updateGameConfig ?? null;
 }

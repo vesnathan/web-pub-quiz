@@ -656,6 +656,8 @@ Resources:
                   # Allow only specific queries for unauthenticated users
                   - !Sub "arn:aws:appsync:${AWS::Region}:${AWS::AccountId}:apis/*/types/Query/fields/checkDisplayNameAvailable"
                   - !Sub "arn:aws:appsync:${AWS::Region}:${AWS::AccountId}:apis/*/types/Query/fields/checkEmailHasGoogleAccount"
+                  - !Sub "arn:aws:appsync:${AWS::Region}:${AWS::AccountId}:apis/*/types/Query/fields/getRoomList"
+                  - !Sub "arn:aws:appsync:${AWS::Region}:${AWS::AccountId}:apis/*/types/Mutation/fields/sendContact"
       Tags:
         - Key: Project
           Value: quiz-night-live
