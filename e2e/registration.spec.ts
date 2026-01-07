@@ -107,8 +107,14 @@ test.describe('Registration Flow', () => {
     await page.goto('/');
     await expect(page).toHaveTitle(/Quiz Night/i);
 
-    // Step 2: Click Sign In button to open auth modal
+    // Step 2: Wait for splash screen to load and click Play Now
+    const playNowButton = page.getByRole('button', { name: /play now/i });
+    await expect(playNowButton).toBeVisible({ timeout: 15000 });
+    await playNowButton.click();
+
+    // Step 3: Click Sign In button to open auth modal
     const signInButton = page.getByRole('button', { name: /sign in/i });
+    await expect(signInButton).toBeVisible({ timeout: 10000 });
     await signInButton.click();
 
     // Step 3: Wait for auth modal and switch to Register tab
@@ -181,8 +187,14 @@ test.describe('Registration Flow', () => {
   test('shows validation errors for invalid input', async ({ page }) => {
     await page.goto('/');
 
+    // Dismiss splash screen
+    const playNowButton = page.getByRole('button', { name: /play now/i });
+    await expect(playNowButton).toBeVisible({ timeout: 15000 });
+    await playNowButton.click();
+
     // Open auth modal and switch to register
     const signInButton = page.getByRole('button', { name: /sign in/i });
+    await expect(signInButton).toBeVisible({ timeout: 10000 });
     await signInButton.click();
 
     const registerTab = page.getByRole('tab', { name: /register/i });
@@ -212,8 +224,14 @@ test.describe('Registration Flow', () => {
   test('shows password strength requirements', async ({ page }) => {
     await page.goto('/');
 
+    // Dismiss splash screen
+    const playNowButton = page.getByRole('button', { name: /play now/i });
+    await expect(playNowButton).toBeVisible({ timeout: 15000 });
+    await playNowButton.click();
+
     // Open auth modal and switch to register
     const signInButton = page.getByRole('button', { name: /sign in/i });
+    await expect(signInButton).toBeVisible({ timeout: 10000 });
     await signInButton.click();
 
     const registerTab = page.getByRole('tab', { name: /register/i });
