@@ -105,7 +105,7 @@ test.describe('Registration Flow', () => {
 
     // Step 1: Navigate to homepage
     await page.goto('/');
-    await expect(page).toHaveTitle(/Quiz Night/i);
+    await expect(page).toHaveTitle(/QuizNight/i);
 
     // Step 2: Wait for splash screen to load and click Play Now
     const playNowButton = page.getByRole('button', { name: /play now/i });
@@ -244,6 +244,6 @@ test.describe('Registration Flow', () => {
     await passwordFields.first().fill('weak');
 
     // Should show password strength indicator
-    await expect(page.getByText(/8 characters/i).or(page.getByText(/uppercase/i))).toBeVisible();
+    await expect(page.getByText(/8 characters/i)).toBeVisible();
   });
 });
