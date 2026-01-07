@@ -34,6 +34,11 @@ import {
   STSClient,
   AssumeRoleCommand,
 } from '@aws-sdk/client-sts';
+import {
+  SESClient,
+  SetActiveReceiptRuleSetCommand,
+  GetIdentityVerificationAttributesCommand,
+} from '@aws-sdk/client-ses';
 import { execSync } from 'child_process';
 import * as esbuild from 'esbuild';
 import * as mimeTypes from 'mime-types';
@@ -68,11 +73,14 @@ const frontendOnly = args.includes('--frontend-only');
 const APP_NAME = 'quiz-night-live';
 const REGION = process.env.AWS_REGION || 'ap-southeast-2';
 const CERTIFICATE_REGION = 'us-east-1'; // CloudFront requires certs in us-east-1
+const SES_REGION = 'us-east-1'; // SES receiving only works in us-east-1, us-west-2, eu-west-1
 const bootstrapConfig = getBootstrapConfig();
 const TEMPLATE_BUCKET = bootstrapConfig.templateBucketName;
 const STACK_NAME = `${APP_NAME}-${stage}`;
 const CERTIFICATE_STACK_NAME = `${APP_NAME}-certificate-${stage}`;
+const SES_STACK_NAME = `${APP_NAME}-ses-email-receiving-${stage}`;
 const CFN_ROLE_ARN = bootstrapConfig.cfnRoleArn;
+const DOMAIN_NAME = process.env.DOMAIN_NAME || 'quiznight.live';
 
 // Clients
 const cfnClient = new CloudFormationClient({ region: REGION });
@@ -80,6 +88,8 @@ const cfnClientUsEast1 = new CloudFormationClient({ region: CERTIFICATE_REGION }
 const s3Client = new S3Client({ region: REGION });
 const cfClient = new CloudFrontClient({ region: REGION });
 const lambdaClient = new LambdaClient({ region: REGION });
+const sesClient = new SESClient({ region: SES_REGION });
+const lambdaClientSes = new LambdaClient({ region: SES_REGION });
 
 // Paths
 const DEPLOY_DIR = import.meta.dirname;
@@ -431,6 +441,149 @@ async function getCertificateStackOutputs(): Promise<CertificateOutputs> {
 
   return outputs;
 }
+
+// ============== SES Email Receiving Stack ==============
+
+async function sesStackExists(): Promise<boolean> {
+  try {
+    await cfnClientUsEast1.send(new DescribeStacksCommand({ StackName: SES_STACK_NAME }));
+    return true;
+  } catch (error: unknown) {
+    if (error instanceof Error && error.message?.includes('does not exist')) {
+      return false;
+    }
+    throw error;
+  }
+}
+
+async function checkDomainVerification(): Promise<boolean> {
+  try {
+    const response = await sesClient.send(new GetIdentityVerificationAttributesCommand({
+      Identities: [DOMAIN_NAME],
+    }));
+    const status = response.VerificationAttributes?.[DOMAIN_NAME]?.VerificationStatus;
+    return status === 'Success';
+  } catch {
+    return false;
+  }
+}
+
+async function deploySesStack(): Promise<void> {
+  console.log('\nDeploying SES Email Receiving stack to us-east-1...');
+
+  // Check domain verification
+  const isVerified = await checkDomainVerification();
+  if (!isVerified) {
+    console.log(`  Warning: Domain ${DOMAIN_NAME} is not verified in SES us-east-1`);
+    console.log('  Email receiving may not work until domain is verified');
+  } else {
+    console.log(`  Domain ${DOMAIN_NAME} is verified in SES`);
+  }
+
+  // Upload SES template
+  const sesTemplate = fs.readFileSync(path.join(DEPLOY_DIR, 'resources', 'SES', 'ses-email-receiving.yaml'), 'utf-8');
+  await uploadFile(TEMPLATE_BUCKET, 'resources/SES/ses-email-receiving.yaml', sesTemplate, 'application/x-yaml');
+
+  const templateUrl = `https://${TEMPLATE_BUCKET}.s3.${REGION}.amazonaws.com/resources/SES/ses-email-receiving.yaml`;
+  const hostedZoneId = process.env.HOSTED_ZONE_ID || '';
+
+  const parameters = [
+    { ParameterKey: 'Stage', ParameterValue: stage },
+    { ParameterKey: 'AppName', ParameterValue: APP_NAME },
+    { ParameterKey: 'DomainName', ParameterValue: DOMAIN_NAME },
+    { ParameterKey: 'SSMRegion', ParameterValue: REGION },
+    { ParameterKey: 'HostedZoneId', ParameterValue: hostedZoneId },
+    { ParameterKey: 'TemplateBucketName', ParameterValue: TEMPLATE_BUCKET },
+  ];
+
+  const exists = await sesStackExists();
+
+  try {
+    if (exists) {
+      console.log(`  Updating SES stack: ${SES_STACK_NAME}`);
+      await cfnClientUsEast1.send(new UpdateStackCommand({
+        StackName: SES_STACK_NAME,
+        TemplateURL: templateUrl,
+        Parameters: parameters,
+        Capabilities: ['CAPABILITY_NAMED_IAM'],
+        RoleARN: CFN_ROLE_ARN,
+      }));
+      await waitUntilStackUpdateComplete(
+        { client: cfnClientUsEast1, maxWaitTime: 600 },
+        { StackName: SES_STACK_NAME }
+      );
+    } else {
+      console.log(`  Creating SES stack: ${SES_STACK_NAME}`);
+      await cfnClientUsEast1.send(new CreateStackCommand({
+        StackName: SES_STACK_NAME,
+        TemplateURL: templateUrl,
+        Parameters: parameters,
+        Capabilities: ['CAPABILITY_NAMED_IAM'],
+        RoleARN: CFN_ROLE_ARN,
+        DisableRollback: true,
+      }));
+      await waitUntilStackCreateComplete(
+        { client: cfnClientUsEast1, maxWaitTime: 600 },
+        { StackName: SES_STACK_NAME }
+      );
+    }
+    console.log('  SES stack deployment complete!');
+  } catch (error: unknown) {
+    if (error instanceof Error && error.message?.includes('No updates are to be performed')) {
+      console.log('  No SES stack updates needed');
+    } else {
+      throw error;
+    }
+  }
+}
+
+async function updateSesLambdaCode(): Promise<void> {
+  console.log('  Updating SES Lambda function code...');
+
+  const functionName = `${APP_NAME}-ses-email-receiver-${stage}`;
+  const s3Key = `functions/${stage}/sesEmailReceiver.zip`;
+
+  try {
+    await lambdaClientSes.send(new GetFunctionCommand({ FunctionName: functionName }));
+    await lambdaClientSes.send(new UpdateFunctionCodeCommand({
+      FunctionName: functionName,
+      S3Bucket: TEMPLATE_BUCKET,
+      S3Key: s3Key,
+    }));
+    console.log(`  Updated: ${functionName}`);
+  } catch (error: unknown) {
+    const errorMessage = error instanceof Error ? error.message : String(error);
+    if (errorMessage.includes('ResourceNotFoundException') || errorMessage.includes('Function not found')) {
+      console.log(`  SES Lambda not found yet (first deploy) - will be created by CloudFormation`);
+    } else {
+      console.warn(`  Warning: Could not update ${functionName}: ${errorMessage}`);
+    }
+  }
+}
+
+async function activateReceiptRuleSet(): Promise<void> {
+  console.log('  Activating SES Receipt Rule Set...');
+
+  const ruleSetName = `${APP_NAME}-e2e-ruleset-${stage}`;
+
+  try {
+    await sesClient.send(new SetActiveReceiptRuleSetCommand({
+      RuleSetName: ruleSetName,
+    }));
+    console.log(`  Activated rule set: ${ruleSetName}`);
+  } catch (error: unknown) {
+    const errorMessage = error instanceof Error ? error.message : String(error);
+    if (errorMessage.includes('RuleSetDoesNotExist')) {
+      console.log(`  Rule set ${ruleSetName} does not exist yet - will be created by CloudFormation`);
+    } else if (errorMessage.includes('AlreadyExists')) {
+      console.log(`  Rule set ${ruleSetName} is already active`);
+    } else {
+      console.warn(`  Warning: Could not activate rule set: ${errorMessage}`);
+    }
+  }
+}
+
+// ============== Certificate Stack ==============
 
 async function deployCertificateStack(): Promise<CertificateOutputs> {
   const domainName = process.env.DOMAIN_NAME || '';
@@ -847,6 +1000,11 @@ async function main(): Promise<void> {
       if (stage === 'prod') {
         certificateOutputs = await deployCertificateStack();
       }
+
+      // Deploy SES email receiving stack (for E2E testing)
+      await deploySesStack();
+      await updateSesLambdaCode();
+      await activateReceiptRuleSet();
 
       await mergeAndUploadSchema();
       await uploadTemplates();
