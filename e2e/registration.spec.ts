@@ -35,7 +35,11 @@ function generateTestEmail(): string {
 
 // Sanitize email for SSM parameter name
 function sanitizeEmail(email: string): string {
-  return email.toLowerCase().replace(/@/g, '-at-').replace(/\./g, '-');
+  return email
+    .toLowerCase()
+    .replace(/\+/g, '-plus-')
+    .replace(/@/g, '-at-')
+    .replace(/\./g, '-');
 }
 
 // Fetch and delete verification code from SSM with retries
