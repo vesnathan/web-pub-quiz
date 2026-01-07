@@ -29,6 +29,7 @@
     "test:delete-user": ". ./.env && AWS_ACCESS_KEY_ID=$CLAUDE_IAM_USER_KEY AWS_SECRET_ACCESS_KEY=$CLAUDE_IAM_USER_SECRET AWS_REGION=ap-southeast-2 tsx backend/scripts/delete-user.ts"
   },
   "devDependencies": {
+    "@aws-sdk/client-ssm": "^3.964.0",
     "@playwright/test": "^1.57.0",
     "@testing-library/dom": "^10.4.1",
     "@testing-library/jest-dom": "^6.9.1",
