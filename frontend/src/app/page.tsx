@@ -385,7 +385,7 @@ export default function Home() {
                           </li>
                           <li className="flex items-center gap-2">
                             <span className="text-green-400">✓</span>
-                            Auto-join games before they fill up
+                            Answer unlimited questions per day
                           </li>
                         </ul>
                       </div>

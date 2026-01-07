@@ -7,6 +7,8 @@
     "deploy:dev": "tsx deploy.ts --stage dev",
     "deploy:prod": "tsx deploy.ts --stage prod",
     "deploy:fe": "tsx deploy.ts --stage dev --frontend-only",
+    "deploy:ses": "tsx deploy-ses.ts --stage prod",
+    "deploy:ses:dev": "tsx deploy-ses.ts --stage dev",
     "seed": "tsx utils/seed-db.ts"
   },
   "dependencies": {
@@ -19,6 +21,7 @@
     "@aws-sdk/client-iam": "^3.958.0",
     "@aws-sdk/client-lambda": "^3.958.0",
     "@aws-sdk/client-s3": "^3.669.0",
+    "@aws-sdk/client-ses": "^3.669.0",
     "@aws-sdk/client-sts": "^3.958.0",
     "@aws-sdk/lib-dynamodb": "^3.669.0",
     "@types/archiver": "^7.0.0",

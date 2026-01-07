@@ -27,14 +27,6 @@ export const handler: PreSignUpTriggerHandler = async (event: PreSignUpTriggerEv
 
   // Handle native sign-ups - check if external provider account exists
   if (triggerSource === 'PreSignUp_SignUp') {
-    // Auto-confirm E2E test users (skip email verification)
-    if (email && email.includes('+e2e') && email.endsWith('@quiznight.live')) {
-      console.log('Auto-confirming E2E test user:', email);
-      event.response.autoVerifyEmail = true;
-      event.response.autoConfirmUser = true;
-      return event;
-    }
-
     try {
       const existingUsers = await cognitoClient.send(new ListUsersCommand({
         UserPoolId: userPoolId,
