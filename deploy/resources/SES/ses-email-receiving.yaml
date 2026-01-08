@@ -94,8 +94,8 @@ Resources:
           STAGE: !Ref Stage
           SSM_REGION: !Ref SSMRegion
       Code:
-        S3Bucket: !Ref TemplateBucketName
-        S3Key: !Sub "functions/${Stage}/sesEmailReceiver.zip"
+        S3Bucket: quiz-night-live-lambda-us-east-1
+        S3Key: sesEmailReceiver.zip
       Tags:
         - Key: Project
           Value: quiz-night-live

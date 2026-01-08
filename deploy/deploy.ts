@@ -35,6 +35,13 @@ import {
   SetActiveReceiptRuleSetCommand,
   GetIdentityVerificationAttributesCommand,
 } from "@aws-sdk/client-ses";
+import {
+  IAMClient,
+  GetRoleCommand,
+  DeleteRoleCommand,
+  DetachRolePolicyCommand,
+  DeleteRolePolicyCommand,
+} from "@aws-sdk/client-iam";
 import { execSync } from "child_process";
 import * as esbuild from "esbuild";
 import * as mimeTypes from "mime-types";
@@ -523,6 +530,8 @@ async function getSesStackStatus(): Promise<SesStackStatus> {
 
 async function deleteSesStack(): Promise<void> {
   console.log(`  Deleting failed SES stack: ${SES_STACK_NAME}...`);
+
+  // Delete the stack
   await cfnClientUsEast1.send(
     new DeleteStackCommand({
       StackName: SES_STACK_NAME,
@@ -533,6 +542,64 @@ async function deleteSesStack(): Promise<void> {
     { StackName: SES_STACK_NAME },
   );
   console.log("  Deleted failed stack");
+
+  // Clean up any leftover IAM resources that CloudFormation couldn't delete
+  const roleName = `${APP_NAME}-ses-email-receiver-role-${stage}`;
+  try {
+    const iamClient = new IAMClient({ region: SES_REGION });
+
+    // Check if role still exists
+    await iamClient.send(new GetRoleCommand({ RoleName: roleName }));
+    console.log(`  Cleaning up leftover IAM role: ${roleName}`);
+
+    // Detach managed policies
+    await iamClient
+      .send(
+        new DetachRolePolicyCommand({
+          RoleName: roleName,
+          PolicyArn:
+            "arn:aws:iam::aws:policy/service-role/AWSLambdaBasicExecutionRole",
+        }),
+      )
+      .catch(() => {
+        /* Policy may not be attached */
+      });
+
+    // Delete inline policies
+    await iamClient
+      .send(
+        new DeleteRolePolicyCommand({
+          RoleName: roleName,
+          PolicyName: "S3ReadAccess",
+        }),
+      )
+      .catch(() => {
+        /* Policy may not exist */
+      });
+
+    await iamClient
+      .send(
+        new DeleteRolePolicyCommand({
+          RoleName: roleName,
+          PolicyName: "SSMWriteAccess",
+        }),
+      )
+      .catch(() => {
+        /* Policy may not exist */
+      });
+
+    // Delete the role
+    await iamClient.send(new DeleteRoleCommand({ RoleName: roleName }));
+    console.log(`  Cleaned up leftover role: ${roleName}`);
+  } catch (error: unknown) {
+    // Role doesn't exist or already cleaned up
+    const errorMessage = error instanceof Error ? error.message : String(error);
+    if (!errorMessage.includes("NoSuchEntity")) {
+      console.log(
+        `  Note: Could not clean up role (may not exist): ${errorMessage}`,
+      );
+    }
+  }
 }
 
 async function checkDomainVerification(): Promise<boolean> {
@@ -576,6 +643,27 @@ async function deploySesStack(): Promise<void> {
     "application/x-yaml",
   );
 
+  // Upload SES Lambda code to us-east-1 bucket (Lambda can only use S3 buckets in same region)
+  const sesLambdaZip = fs.readFileSync(
+    path.join(
+      DEPLOY_DIR,
+      ".cache",
+      "lambda",
+      "sesEmailReceiver",
+      "sesEmailReceiver.zip",
+    ),
+  );
+  const s3ClientUsEast1 = new S3Client({ region: SES_REGION });
+  await s3ClientUsEast1.send(
+    new PutObjectCommand({
+      Bucket: "quiz-night-live-lambda-us-east-1",
+      Key: "sesEmailReceiver.zip",
+      Body: sesLambdaZip,
+      ContentType: "application/zip",
+    }),
+  );
+  console.log("  Uploaded SES Lambda code to us-east-1");
+
   const templateUrl = `https://${TEMPLATE_BUCKET}.s3.${REGION}.amazonaws.com/resources/SES/ses-email-receiving.yaml`;
   const hostedZoneId = process.env.HOSTED_ZONE_ID || "";
 
@@ -592,7 +680,9 @@ async function deploySesStack(): Promise<void> {
 
   // If stack exists but is in a failed state, delete it first
   if (stackStatus.exists && !stackStatus.canUpdate) {
-    console.log(`  Stack is in ${stackStatus.status} state, deleting...`);
+    console.log(
+      `  Stack is in ${stackStatus.status} state - deleting for retry...`,
+    );
     await deleteSesStack();
   }
 
@@ -624,7 +714,7 @@ async function deploySesStack(): Promise<void> {
           Parameters: parameters,
           Capabilities: ["CAPABILITY_NAMED_IAM"],
           RoleARN: CFN_ROLE_ARN,
-          DisableRollback: true,
+          DisableRollback: true, // Keep failed resources for debugging
         }),
       );
       await waitUntilStackCreateComplete(
@@ -649,7 +739,8 @@ async function updateSesLambdaCode(): Promise<void> {
   console.log("  Updating SES Lambda function code...");
 
   const functionName = `${APP_NAME}-ses-email-receiver-${stage}`;
-  const s3Key = `functions/${stage}/sesEmailReceiver.zip`;
+  const s3Bucket = "quiz-night-live-lambda-us-east-1"; // Must be in us-east-1
+  const s3Key = "sesEmailReceiver.zip";
 
   try {
     await lambdaClientSes.send(
@@ -658,7 +749,7 @@ async function updateSesLambdaCode(): Promise<void> {
     await lambdaClientSes.send(
       new UpdateFunctionCodeCommand({
         FunctionName: functionName,
-        S3Bucket: TEMPLATE_BUCKET,
+        S3Bucket: s3Bucket,
         S3Key: s3Key,
       }),
     );

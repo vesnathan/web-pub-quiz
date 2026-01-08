@@ -87,8 +87,26 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
       const currentUser = await getCurrentUser();
       const attributes = await fetchUserAttributes();
 
+      console.log("[Auth] User authenticated with Cognito:", {
+        userId: currentUser.userId,
+        username: currentUser.username,
+        email: attributes.email,
+      });
+
       // Get profile using API layer
       const profile = await getMyProfile();
+
+      console.log("[Auth] Profile fetched from AppSync:", {
+        hasProfile: !!profile,
+        displayName: profile?.displayName,
+      });
+
+      // If profile is null, the PostConfirmation Lambda failed or didn't run
+      if (!profile) {
+        throw new Error(
+          `Profile not found for user ${currentUser.userId}. PostConfirmation Lambda may have failed.`,
+        );
+      }
 
       // Cast profile to include new fields (firstName, lastName) until codegen is run
       const profileWithNames = profile as typeof profile & {
@@ -112,8 +130,9 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
         subscription: profileWithNames?.subscription ?? undefined,
         tipUnlockedUntil: profileWithNames?.tipUnlockedUntil ?? undefined,
       });
-    } catch {
-      // User not logged in
+    } catch (error) {
+      // User not logged in or profile fetch failed
+      console.error("[Auth] Failed to load user:", error);
       setUser(null);
     } finally {
       setIsLoading(false);
