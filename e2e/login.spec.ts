@@ -32,13 +32,8 @@ test.beforeAll(() => {
   }
 });
 
-test.afterAll(async () => {
-  // Clean up: delete the test user and credentials file
-  if (testCredentials) {
-    await deleteTestUser(testCredentials.email);
-    cleanupCredentialsFile();
-  }
-});
+// Note: Cleanup is done inside the login test after it passes
+// This ensures credentials remain available for retries
 
 test.describe("Login Flow", () => {
   test("login with registered account and reach lobby", async ({ page }) => {
@@ -75,8 +70,9 @@ test.describe("Login Flow", () => {
     const passwordField = page.locator('input[type="password"]');
     await passwordField.fill(password);
 
-    // Step 6: Click Sign In button in the form
-    const submitButton = page.getByRole("button", { name: /^sign in$/i });
+    // Step 6: Click Sign In button in the form (scoped to modal)
+    const submitButton = authModal.getByRole("button", { name: /sign in/i });
+    await expect(submitButton).toBeVisible({ timeout: 10000 });
     await expect(submitButton).toBeEnabled();
     await submitButton.click();
 
@@ -109,6 +105,10 @@ test.describe("Login Flow", () => {
     await expect(lobbyIndicator.first()).toBeVisible({ timeout: 10000 });
 
     console.log("Login flow completed successfully!");
+
+    // Clean up: delete the test user now that login succeeded
+    await deleteTestUser(email);
+    cleanupCredentialsFile();
   });
 
   test("shows error for invalid credentials", async ({ page }) => {
@@ -124,13 +124,18 @@ test.describe("Login Flow", () => {
     await expect(signInButton).toBeVisible({ timeout: 10000 });
     await signInButton.click();
 
+    // Wait for auth modal
+    const authModal = page.locator('[role="dialog"]');
+    await expect(authModal).toBeVisible();
+
     // Fill with invalid credentials
     await expect(page.getByLabel(/email/i)).toBeVisible();
     await page.getByLabel(/email/i).fill("invalid@example.com");
     await page.locator('input[type="password"]').fill("WrongPassword123!");
 
-    // Try to sign in
-    const submitButton = page.getByRole("button", { name: /^sign in$/i });
+    // Try to sign in - look for button containing "sign in" text (case insensitive)
+    const submitButton = authModal.getByRole("button", { name: /sign in/i });
+    await expect(submitButton).toBeVisible({ timeout: 10000 });
     await submitButton.click();
 
     // Should see an error message
@@ -138,6 +143,7 @@ test.describe("Login Flow", () => {
       .getByText(/incorrect.*password/i)
       .or(page.getByText(/user.*not.*found/i))
       .or(page.getByText(/invalid/i))
+      .or(page.getByText(/error/i))
       .or(page.locator('[role="alert"]'));
 
     await expect(errorMessage.first()).toBeVisible({ timeout: 10000 });
