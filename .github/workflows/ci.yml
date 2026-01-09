@@ -1,0 +1,93 @@
+name: CI
+
+on:
+  push:
+    branches: [main, dev]
+  pull_request:
+    branches: [main, dev]
+
+jobs:
+  lint-and-typecheck:
+    name: Lint & Type Check
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'yarn'
+
+      - name: Install dependencies
+        run: yarn install --frozen-lockfile
+
+      - name: Run linter
+        run: yarn lint
+
+      - name: Type check
+        run: yarn tsc
+
+  unit-tests:
+    name: Unit Tests
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'yarn'
+
+      - name: Install dependencies
+        run: yarn install --frozen-lockfile
+
+      - name: Run unit tests
+        run: yarn test:run
+
+      - name: Run tests with coverage
+        run: yarn test:coverage
+
+      - name: Upload coverage report
+        uses: actions/upload-artifact@v4
+        with:
+          name: coverage-report
+          path: coverage/
+          retention-days: 7
+
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    needs: [lint-and-typecheck, unit-tests]
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'yarn'
+
+      - name: Install dependencies
+        run: yarn install --frozen-lockfile
+
+      - name: Build frontend
+        run: yarn build
+        env:
+          # These are placeholder values for build - actual values are in Amplify
+          NEXT_PUBLIC_APPSYNC_ENDPOINT: https://placeholder.appsync-api.ap-southeast-2.amazonaws.com/graphql
+          NEXT_PUBLIC_APPSYNC_REGION: ap-southeast-2
+          NEXT_PUBLIC_USER_POOL_ID: ap-southeast-2_placeholder
+          NEXT_PUBLIC_USER_POOL_CLIENT_ID: placeholder
+          NEXT_PUBLIC_IDENTITY_POOL_ID: ap-southeast-2:placeholder
+          NEXT_PUBLIC_ABLY_KEY: placeholder

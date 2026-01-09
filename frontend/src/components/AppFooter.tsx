@@ -31,6 +31,8 @@ interface AppFooterProps {
   questionsRemaining?: number;
   /** Whether user has unlimited questions (subscriber) */
   hasUnlimitedQuestions?: boolean;
+  /** Hide connection status chip (for static pages) */
+  hideConnectionStatus?: boolean;
 }
 
 export function AppFooter({
@@ -40,6 +42,7 @@ export function AppFooter({
   playerScore = 0,
   questionsRemaining,
   hasUnlimitedQuestions = false,
+  hideConnectionStatus = false,
 }: AppFooterProps) {
   const router = useRouter();
   const { user, signOut } = useAuth();
@@ -103,7 +106,7 @@ export function AppFooter({
                   {players.length === 1 ? " player" : " players"}
                 </span>
               </>
-            ) : (
+            ) : !hideConnectionStatus ? (
               <Chip
                 color={isConnected ? "success" : "default"}
                 variant="flat"
@@ -112,20 +115,18 @@ export function AppFooter({
               >
                 {isConnected ? `${activeUserCount} online` : "Connecting..."}
               </Chip>
+            ) : null}
+            {/* Question limit for free users and guests */}
+            {!hasUnlimitedQuestions && questionsRemaining !== undefined && (
+              <Chip
+                color={questionsRemaining <= 10 ? "warning" : "default"}
+                variant="flat"
+                size="sm"
+                className="text-xs"
+              >
+                {questionsRemaining} free today
+              </Chip>
             )}
-            {/* Question limit for free users */}
-            {user &&
-              !hasUnlimitedQuestions &&
-              questionsRemaining !== undefined && (
-                <Chip
-                  color={questionsRemaining <= 10 ? "warning" : "default"}
-                  variant="flat"
-                  size="sm"
-                  className="text-xs"
-                >
-                  {questionsRemaining} questions left
-                </Chip>
-              )}
           </div>
 
           {/* Center - Links */}
@@ -305,9 +306,7 @@ export function AppFooter({
                 </DropdownMenu>
               </Dropdown>
             </div>
-          ) : (
-            <div className="text-xs text-gray-500">Sign in to play</div>
-          )}
+          ) : null}
         </div>
       </div>
 

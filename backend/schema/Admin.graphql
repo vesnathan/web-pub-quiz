@@ -16,4 +16,53 @@ type WebhookLogConnection {
   nextToken: String
 }
 
+# Game configuration (admin-editable, no deployment required)
+type DifficultyPointsConfig {
+  correct: Int!
+  wrong: Int!
+}
+
+type GameDifficultyPoints {
+  easy: DifficultyPointsConfig!
+  medium: DifficultyPointsConfig!
+  hard: DifficultyPointsConfig!
+}
+
+type GameConfig {
+  maxPlayersPerRoom: Int!
+  playersPerRoomThreshold: Int!
+  resultsDisplayMs: Int!
+  questionDurationMs: Int!
+  freeTierDailyLimit: Int!
+  difficultyPoints: GameDifficultyPoints!
+  maintenanceMode: Boolean!
+  maintenanceMessage: String
+  stripeTestMode: Boolean!
+  updatedAt: String!
+  updatedBy: String
+}
+
+input DifficultyPointsInput {
+  correct: Int!
+  wrong: Int!
+}
+
+input GameDifficultyPointsInput {
+  easy: DifficultyPointsInput!
+  medium: DifficultyPointsInput!
+  hard: DifficultyPointsInput!
+}
+
+input UpdateGameConfigInput {
+  maxPlayersPerRoom: Int
+  playersPerRoomThreshold: Int
+  resultsDisplayMs: Int
+  questionDurationMs: Int
+  freeTierDailyLimit: Int
+  difficultyPoints: GameDifficultyPointsInput
+  maintenanceMode: Boolean
+  maintenanceMessage: String
+  stripeTestMode: Boolean
+}
+
 # Query fields are defined in 00-base.graphql to avoid extend type issues with AppSync

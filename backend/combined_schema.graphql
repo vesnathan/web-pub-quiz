@@ -16,7 +16,7 @@ type Query {
   getGameState: GameState
 
   # Room list query (polled by frontend every 10 seconds)
-  getRoomList: RoomListState @aws_iam
+  getRoomList: RoomListState @aws_iam @aws_cognito_user_pools
 
   # Question queries (admin only)
   listQuestions(limit: Int, nextToken: String): QuestionConnection @aws_cognito_user_pools
@@ -30,10 +30,13 @@ type Query {
 
   # Admin queries
   getWebhookLogs(provider: String, limit: Int, nextToken: String): WebhookLogConnection! @aws_cognito_user_pools
+
+  # Game config (admin only)
+  getGameConfig: GameConfig @aws_cognito_user_pools
 }
 
 # Room list state from orchestrator (stored in DynamoDB)
-type RoomListState @aws_iam {
+type RoomListState @aws_iam @aws_cognito_user_pools {
   rooms: [RoomInfo!]!
   lobbyPlayerCount: Int!
   maintenanceMode: Boolean!
@@ -41,7 +44,7 @@ type RoomListState @aws_iam {
   updatedAt: String!
 }
 
-type RoomInfo @aws_iam {
+type RoomInfo @aws_iam @aws_cognito_user_pools {
   id: ID!
   name: String!
   status: String!
@@ -78,6 +81,9 @@ type Mutation {
   # Gift notification mutations
   markGiftNotificationSeen: Boolean @aws_cognito_user_pools
 
+  # Game config mutations (admin only)
+  updateGameConfig(input: UpdateGameConfigInput!): GameConfig @aws_cognito_user_pools
+
   # Invite mutations
   sendInvite(friendName: String!, email: String!, recaptchaToken: String!): Boolean @aws_cognito_user_pools
   recordReferral(referrerId: ID!): Boolean @aws_cognito_user_pools
@@ -109,6 +115,55 @@ type WebhookLog {
 type WebhookLogConnection {
   items: [WebhookLog!]!
   nextToken: String
+}
+
+# Game configuration (admin-editable, no deployment required)
+type DifficultyPointsConfig {
+  correct: Int!
+  wrong: Int!
+}
+
+type GameDifficultyPoints {
+  easy: DifficultyPointsConfig!
+  medium: DifficultyPointsConfig!
+  hard: DifficultyPointsConfig!
+}
+
+type GameConfig {
+  maxPlayersPerRoom: Int!
+  playersPerRoomThreshold: Int!
+  resultsDisplayMs: Int!
+  questionDurationMs: Int!
+  freeTierDailyLimit: Int!
+  difficultyPoints: GameDifficultyPoints!
+  maintenanceMode: Boolean!
+  maintenanceMessage: String
+  stripeTestMode: Boolean!
+  updatedAt: String!
+  updatedBy: String
+}
+
+input DifficultyPointsInput {
+  correct: Int!
+  wrong: Int!
+}
+
+input GameDifficultyPointsInput {
+  easy: DifficultyPointsInput!
+  medium: DifficultyPointsInput!
+  hard: DifficultyPointsInput!
+}
+
+input UpdateGameConfigInput {
+  maxPlayersPerRoom: Int
+  playersPerRoomThreshold: Int
+  resultsDisplayMs: Int
+  questionDurationMs: Int
+  freeTierDailyLimit: Int
+  difficultyPoints: GameDifficultyPointsInput
+  maintenanceMode: Boolean
+  maintenanceMessage: String
+  stripeTestMode: Boolean
 }
 
 # Query fields are defined in 00-base.graphql to avoid extend type issues with AppSync

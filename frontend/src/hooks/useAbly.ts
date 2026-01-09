@@ -4,7 +4,6 @@ import { useEffect, useCallback } from "react";
 import { useRouter } from "next/navigation";
 import { AblyService } from "@/services/AblyService";
 import { useGameStore } from "@/stores/gameStore";
-import { useAuth } from "@/contexts/AuthContext";
 import { useGameEventHandlers } from "./useGameEventHandlers";
 import { usePlayerEventListeners } from "./usePlayerActions";
 
@@ -16,7 +15,6 @@ import { usePlayerEventListeners } from "./usePlayerActions";
  */
 export function useAbly(roomId?: string | null): void {
   const router = useRouter();
-  const { isAuthenticated } = useAuth();
   const player = useGameStore((state) => state.player);
   const currentRoomId = useGameStore((state) => state.currentRoomId);
   const addLatencySample = useGameStore((state) => state.addLatencySample);
@@ -45,7 +43,8 @@ export function useAbly(roomId?: string | null): void {
 
   // Initialize Ably connection and subscriptions
   useEffect(() => {
-    if (!player || !isAuthenticated || !effectiveRoomId) return;
+    // Allow both authenticated users and guests with a player to connect
+    if (!player || !effectiveRoomId) return;
 
     let cleanupRoom: (() => void) | null = null;
     let cleanupUser: (() => void) | null = null;
@@ -116,7 +115,6 @@ export function useAbly(roomId?: string | null): void {
   }, [
     player?.id,
     player?.displayName,
-    isAuthenticated,
     effectiveRoomId,
     setupRoomSubscriptions,
     setupUserSubscriptions,

@@ -73,9 +73,10 @@ export function useLobbyChannel(): UseLobbyChannelReturn {
   // Poll room list via AppSync/GraphQL
   const fetchRoomList = useCallback(async () => {
     try {
+      // Use userPool auth if logged in, otherwise try iam (requires Identity Pool unauth access)
       const result = (await graphqlClient.graphql({
         query: GET_ROOM_LIST,
-        authMode: "iam",
+        authMode: user ? "userPool" : "iam",
       })) as GetRoomListResponse;
 
       const data = result.data?.getRoomList;
@@ -90,7 +91,7 @@ export function useLobbyChannel(): UseLobbyChannelReturn {
     } catch (error) {
       console.error("Failed to fetch room list:", error);
     }
-  }, []);
+  }, [user]);
 
   // Start polling when component mounts
   useEffect(() => {

@@ -147,10 +147,8 @@ async function main() {
   const cognitoUser = await findCognitoUserByEmail(EMAIL_TO_DELETE);
 
   if (!cognitoUser) {
-    console.log('\n⚠️  User not found in Cognito. Will attempt DynamoDB cleanup by email lookup...');
-    // Could query GSI for email, but for now we'll exit
-    console.log('❌ Cannot proceed without Cognito user ID');
-    process.exit(1);
+    console.log('\n✅ User not found in Cognito - nothing to delete');
+    process.exit(0);
   }
 
   // Step 2: Delete from DynamoDB first (in case Cognito delete fails, we still have the user)

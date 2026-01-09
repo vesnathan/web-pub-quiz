@@ -24,7 +24,7 @@ export default function GamePageContent() {
   const router = useRouter();
   const searchParams = useSearchParams();
   const roomIdFromUrl = searchParams.get("roomId");
-  const { isAuthenticated, isLoading: authLoading } = useAuth();
+  const { isLoading: authLoading } = useAuth();
   const { questionsRemainingToday, hasUnlimitedQuestions } = useSubscription();
 
   // Minimal store access - use selectors for specific state
@@ -75,16 +75,19 @@ export default function GamePageContent() {
   useAbly(effectiveRoomId);
   useAntiCheat();
 
-  // Auth and room validation
+  // Room validation - allow both authenticated users and guests with a player set
   useEffect(() => {
-    if (!authLoading && !isAuthenticated) {
+    if (authLoading) return;
+
+    // Need either authenticated user OR a guest player
+    const hasValidPlayer = player !== null;
+
+    if (!hasValidPlayer) {
       router.push("/");
-    } else if (!player && !authLoading) {
-      router.push("/");
-    } else if (!effectiveRoomId && !authLoading) {
+    } else if (!effectiveRoomId) {
       router.push("/");
     }
-  }, [player, router, isAuthenticated, authLoading, effectiveRoomId]);
+  }, [player, router, authLoading, effectiveRoomId]);
 
   const handleBadgeAnimationComplete = useCallback(() => {
     setPendingBadgeAward(null);
@@ -100,7 +103,8 @@ export default function GamePageContent() {
     return <LoadingScreen />;
   }
 
-  if (!player || !isAuthenticated) {
+  // Allow both authenticated users and guests with a valid player
+  if (!player) {
     return null;
   }
 

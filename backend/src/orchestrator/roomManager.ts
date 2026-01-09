@@ -3,9 +3,8 @@ import type { Room, RoomListItem, RoomDifficulty, RoomStatus } from '@quiz/share
 import {
   ROOM_NAME_ADJECTIVES,
   ROOM_NAME_NOUNS,
-  MAX_PLAYERS_PER_ROOM,
-  PLAYERS_PER_ROOM_THRESHOLD,
 } from '@quiz/shared';
+import { getConfig } from './configLoader';
 
 // In-memory room storage
 const rooms: Map<string, Room> = new Map();
@@ -33,7 +32,7 @@ export function createRoom(difficulty: RoomDifficulty = 'medium'): Room {
     id: uuidv4(),
     name: generateRoomName(),
     difficulty,
-    maxPlayers: MAX_PLAYERS_PER_ROOM,
+    maxPlayers: getConfig().maxPlayersPerRoom,
     currentPlayers: 0,
     status: 'waiting',
     createdAt: new Date().toISOString(),
@@ -187,7 +186,7 @@ export function getRoomList(): RoomListItem[] {
 
 /**
  * Check if more rooms are needed based on total player count.
- * Adds a new room for every PLAYERS_PER_ROOM_THRESHOLD players.
+ * Adds a new room for every playersPerRoomThreshold players.
  * Returns the new room if one was created, null otherwise.
  */
 export function checkAndAddRoomIfNeeded(): Room | null {
@@ -205,7 +204,7 @@ export function checkAndAddRoomIfNeeded(): Room | null {
   // Calculate how many rooms we should have based on player count
   // Start with 3 base rooms (easy, medium, hard), add 1 for every threshold
   const baseRooms = 3;
-  const additionalRooms = Math.floor(totalPlayers / PLAYERS_PER_ROOM_THRESHOLD);
+  const additionalRooms = Math.floor(totalPlayers / getConfig().playersPerRoomThreshold);
   const targetRoomCount = baseRooms + additionalRooms;
 
   // If we need more rooms, create one
@@ -232,39 +231,54 @@ export function getAllRoomIds(): string[] {
 
 /**
  * Merge small rooms before set starts.
- * Rooms are merged if their combined player count is <= MAX_PLAYERS_PER_ROOM.
+ * Rooms are merged if their combined player count is <= maxPlayersPerRoom.
+ * Only merges rooms of the same difficulty.
  */
 export function mergeSmallRooms(): void {
-  const waitingRooms = Array.from(rooms.values())
-    .filter((room) => room.status === 'waiting' && room.currentPlayers > 0)
-    .sort((a, b) => a.currentPlayers - b.currentPlayers);
+  const maxPlayers = getConfig().maxPlayersPerRoom;
 
-  if (waitingRooms.length < 2) return;
+  // Group waiting rooms by difficulty
+  const roomsByDifficulty = new Map<string, Room[]>();
+  for (const room of rooms.values()) {
+    if (room.status === 'waiting' && room.currentPlayers > 0) {
+      const list = roomsByDifficulty.get(room.difficulty) || [];
+      list.push(room);
+      roomsByDifficulty.set(room.difficulty, list);
+    }
+  }
 
-  // Simple merge: try to merge smallest room into next smallest
-  for (let i = 0; i < waitingRooms.length - 1; i++) {
-    const smallRoom = waitingRooms[i];
-    const targetRoom = waitingRooms[i + 1];
+  // Merge within each difficulty group
+  for (const [difficulty, waitingRooms] of roomsByDifficulty) {
+    if (waitingRooms.length < 2) continue;
 
-    const combined = smallRoom.currentPlayers + targetRoom.currentPlayers;
-    if (combined <= MAX_PLAYERS_PER_ROOM) {
-      // Merge smallRoom into targetRoom
-      console.log(`🔀 Merging room ${smallRoom.name} (${smallRoom.currentPlayers}) into ${targetRoom.name} (${targetRoom.currentPlayers})`);
+    // Sort by player count ascending
+    waitingRooms.sort((a, b) => a.currentPlayers - b.currentPlayers);
 
-      targetRoom.currentPlayers = combined;
-      smallRoom.currentPlayers = 0;
-      smallRoom.status = 'completed'; // Mark for cleanup
+    // Simple merge: try to merge smallest room into next smallest
+    for (let i = 0; i < waitingRooms.length - 1; i++) {
+      const smallRoom = waitingRooms[i];
+      const targetRoom = waitingRooms[i + 1];
 
-      // Move reserved spots too
-      const smallReserved = reservedSpots.get(smallRoom.id);
-      const targetReserved = reservedSpots.get(targetRoom.id) || new Map();
-      if (smallReserved) {
-        for (const [playerId, expiry] of smallReserved) {
-          targetReserved.set(playerId, expiry);
+      const combined = smallRoom.currentPlayers + targetRoom.currentPlayers;
+      if (combined <= maxPlayers) {
+        // Merge smallRoom into targetRoom
+        console.log(`🔀 Merging ${difficulty} room ${smallRoom.name} (${smallRoom.currentPlayers}) into ${targetRoom.name} (${targetRoom.currentPlayers})`);
+
+        targetRoom.currentPlayers = combined;
+        smallRoom.currentPlayers = 0;
+        smallRoom.status = 'completed'; // Mark for cleanup
+
+        // Move reserved spots too
+        const smallReserved = reservedSpots.get(smallRoom.id);
+        const targetReserved = reservedSpots.get(targetRoom.id) || new Map();
+        if (smallReserved) {
+          for (const [playerId, expiry] of smallReserved) {
+            targetReserved.set(playerId, expiry);
+          }
         }
+        reservedSpots.set(targetRoom.id, targetReserved);
+        reservedSpots.delete(smallRoom.id);
       }
-      reservedSpots.set(targetRoom.id, targetReserved);
-      reservedSpots.delete(smallRoom.id);
     }
   }
 }

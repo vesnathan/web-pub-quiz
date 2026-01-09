@@ -1,14 +1,24 @@
-import Ably from 'ably';
-import express from 'express';
-import { DynamoDBClient } from '@aws-sdk/client-dynamodb';
-import { DynamoDBDocumentClient, UpdateCommand, QueryCommand, PutCommand, GetCommand } from '@aws-sdk/lib-dynamodb';
+import Ably from "ably";
+import express from "express";
+import { DynamoDBClient } from "@aws-sdk/client-dynamodb";
+import {
+  DynamoDBDocumentClient,
+  UpdateCommand,
+  QueryCommand,
+  PutCommand,
+  GetCommand,
+} from "@aws-sdk/lib-dynamodb";
 import {
   ABLY_CHANNELS,
-  QUESTIONS_PER_SET,
-  MAX_PLAYERS_PER_ROOM,
-  DIFFICULTY_POINTS,
+  DEFAULT_GAME_CONFIG,
   calculateQuestionDisplayTime,
-} from '@quiz/shared';
+} from "@quiz/shared";
+import {
+  loadGameConfig,
+  getConfig,
+  refreshConfig,
+  saveGameConfig,
+} from "./configLoader";
 import type {
   OrchestratorQuestion as Question,
   Player,
@@ -18,10 +28,21 @@ import type {
   SetEndPayload,
   LeaderboardEntry,
   RoomListItem,
-} from '@quiz/shared';
-import { getMockQuestions } from './mockQuestions';
-import { getEarnedBadges, getBadgeById, type UserStats as BadgeUserStats, type BadgeCheckContext, type BadgeDefinition } from './badges';
-import { getQuestionsForMixedSet, markQuestionAsked, markQuestionAnsweredCorrectly, markQuestionAnsweredIncorrectly } from './questionGenerator';
+} from "@quiz/shared";
+import { getMockQuestions } from "./mockQuestions";
+import {
+  getEarnedBadges,
+  getBadgeById,
+  type UserStats as BadgeUserStats,
+  type BadgeCheckContext,
+  type BadgeDefinition,
+} from "./badges";
+import {
+  getQuestionsForMixedSet,
+  markQuestionAsked,
+  markQuestionAnsweredCorrectly,
+  markQuestionAnsweredIncorrectly,
+} from "./questionGenerator";
 import {
   createRoom,
   getRoom,
@@ -36,8 +57,8 @@ import {
   createRoomsForNewHalfHour,
   resetRoom,
   resetWaitingRooms,
-} from './roomManager';
-import type { QuestionCategory, Room } from '@quiz/shared';
+} from "./roomManager";
+import type { QuestionCategory, Room } from "@quiz/shared";
 
 // ============ Data Interfaces for Ably Messages ============
 
@@ -49,9 +70,9 @@ interface AnswerData {
 // Track guesses per player per question (for multi-guess support)
 interface PlayerQuestionState {
   guessCount: number;
-  wrongAnswers: number[];  // indices of wrong guesses
+  wrongAnswers: number[]; // indices of wrong guesses
   totalPenalty: number;
-  answeredCorrectly: boolean;  // whether player got the correct answer (even if not first)
+  answeredCorrectly: boolean; // whether player got the correct answer (even if not first)
 }
 
 // Wrong answer event sent to individual player
@@ -72,19 +93,19 @@ const healthApp = express();
 
 // Enable CORS for frontend polling
 healthApp.use((_req, res, next) => {
-  res.header('Access-Control-Allow-Origin', '*');
-  res.header('Access-Control-Allow-Methods', 'GET');
-  res.header('Access-Control-Allow-Headers', 'Content-Type');
+  res.header("Access-Control-Allow-Origin", "*");
+  res.header("Access-Control-Allow-Methods", "GET");
+  res.header("Access-Control-Allow-Headers", "Content-Type");
   next();
 });
 
-healthApp.get('/health', (_req, res) => {
-  const ablyConnected = ably?.connection.state === 'connected';
+healthApp.get("/health", (_req, res) => {
+  const ablyConnected = ably?.connection.state === "connected";
   const heartbeatRecent = Date.now() - lastHeartbeat < 60000;
 
   if (isHealthy && ablyConnected && heartbeatRecent && !isShuttingDown) {
     res.status(200).json({
-      status: 'healthy',
+      status: "healthy",
       ablyConnected,
       lastHeartbeat: new Date(lastHeartbeat).toISOString(),
       uptime: process.uptime(),
@@ -92,7 +113,7 @@ healthApp.get('/health', (_req, res) => {
     });
   } else {
     res.status(503).json({
-      status: 'unhealthy',
+      status: "unhealthy",
       ablyConnected,
       lastHeartbeat: new Date(lastHeartbeat).toISOString(),
       isShuttingDown,
@@ -124,49 +145,51 @@ async function gracefulShutdown(signal: string): Promise<void> {
   // Notify clients via lobby
   if (lobbyChannel) {
     try {
-      await lobbyChannel.publish('orchestrator_shutdown', {
-        message: 'Server restarting, please wait...',
+      await lobbyChannel.publish("orchestrator_shutdown", {
+        message: "Server restarting, please wait...",
       });
     } catch (e) {
-      console.error('Failed to publish shutdown message:', e);
+      console.error("Failed to publish shutdown message:", e);
     }
   }
 
   if (ably) {
-    console.log('🔌 Closing Ably connection...');
+    console.log("🔌 Closing Ably connection...");
     ably.close();
   }
 
-  console.log('✅ Graceful shutdown complete');
+  console.log("✅ Graceful shutdown complete");
   process.exit(0);
 }
 
-process.on('SIGTERM', () => gracefulShutdown('SIGTERM'));
-process.on('SIGINT', () => gracefulShutdown('SIGINT'));
+process.on("SIGTERM", () => gracefulShutdown("SIGTERM"));
+process.on("SIGINT", () => gracefulShutdown("SIGINT"));
 
 // ============ Global Error Handlers ============
-process.on('unhandledRejection', (reason, promise) => {
-  console.error('⚠️ Unhandled Rejection at:', promise, 'reason:', reason);
+process.on("unhandledRejection", (reason, promise) => {
+  console.error("⚠️ Unhandled Rejection at:", promise, "reason:", reason);
 });
 
-process.on('uncaughtException', (error) => {
-  console.error('💥 Uncaught Exception:', error);
+process.on("uncaughtException", (error) => {
+  console.error("💥 Uncaught Exception:", error);
   isHealthy = false;
   setTimeout(() => {
-    console.error('Exiting due to uncaught exception...');
+    console.error("Exiting due to uncaught exception...");
     process.exit(1);
   }, 10000);
 });
 
 // DynamoDB setup
-const ddbClient = new DynamoDBClient({ region: process.env.AWS_REGION || 'ap-southeast-2' });
+const ddbClient = new DynamoDBClient({
+  region: process.env.AWS_REGION || "ap-southeast-2",
+});
 const docClient = DynamoDBDocumentClient.from(ddbClient, {
   marshallOptions: { removeUndefinedValues: true },
 });
-const TABLE_NAME = process.env.TABLE_NAME || 'quiz-night-live-datatable-prod';
+const TABLE_NAME = process.env.TABLE_NAME || "quiz-night-live-datatable-prod";
 
-// Timing constants
-const RESULTS_DISPLAY_MS = 5000; // 5 seconds on results screen
+// Timing constants - now loaded from config
+// RESULTS_DISPLAY_MS moved to getConfig().resultsDisplayMs
 
 // ============ Guest Detection ============
 
@@ -175,7 +198,7 @@ const RESULTS_DISPLAY_MS = 5000; // 5 seconds on results screen
  * Guests don't have stats saved, don't appear on leaderboards, and don't earn badges.
  */
 function isGuestPlayer(playerId: string): boolean {
-  return playerId.startsWith('guest-');
+  return playerId.startsWith("guest-");
 }
 
 // ============ DynamoDB Helper Functions ============
@@ -184,13 +207,13 @@ async function updateUserStats(
   userId: string,
   displayName: string,
   isCorrect: boolean,
-  points: number
+  points: number,
 ): Promise<BadgeUserStats> {
   try {
     const result = await docClient.send(
       new UpdateCommand({
         TableName: TABLE_NAME,
-        Key: { PK: `USER#${userId}`, SK: 'PROFILE' },
+        Key: { PK: `USER#${userId}`, SK: "PROFILE" },
         UpdateExpression: `
           SET stats.totalCorrect = if_not_exists(stats.totalCorrect, :zero) + :correct,
               stats.totalWrong = if_not_exists(stats.totalWrong, :zero) + :wrong,
@@ -200,15 +223,15 @@ async function updateUserStats(
               displayName = if_not_exists(displayName, :displayName)
         `,
         ExpressionAttributeValues: {
-          ':zero': 0,
-          ':correct': isCorrect ? 1 : 0,
-          ':wrong': isCorrect ? 0 : 1,
-          ':points': points,
-          ':streakDelta': isCorrect ? 1 : 0,
-          ':displayName': displayName,
+          ":zero": 0,
+          ":correct": isCorrect ? 1 : 0,
+          ":wrong": isCorrect ? 0 : 1,
+          ":points": points,
+          ":streakDelta": isCorrect ? 1 : 0,
+          ":displayName": displayName,
         },
-        ReturnValues: 'ALL_NEW',
-      })
+        ReturnValues: "ALL_NEW",
+      }),
     );
 
     const stats = result.Attributes?.stats || {};
@@ -219,10 +242,10 @@ async function updateUserStats(
       await docClient.send(
         new UpdateCommand({
           TableName: TABLE_NAME,
-          Key: { PK: `USER#${userId}`, SK: 'PROFILE' },
-          UpdateExpression: 'SET stats.currentStreak = :zero',
-          ExpressionAttributeValues: { ':zero': 0 },
-        })
+          Key: { PK: `USER#${userId}`, SK: "PROFILE" },
+          UpdateExpression: "SET stats.currentStreak = :zero",
+          ExpressionAttributeValues: { ":zero": 0 },
+        }),
       );
       currentStreak = 0;
     }
@@ -231,10 +254,10 @@ async function updateUserStats(
       await docClient.send(
         new UpdateCommand({
           TableName: TABLE_NAME,
-          Key: { PK: `USER#${userId}`, SK: 'PROFILE' },
-          UpdateExpression: 'SET stats.longestStreak = :streak',
-          ExpressionAttributeValues: { ':streak': currentStreak },
-        })
+          Key: { PK: `USER#${userId}`, SK: "PROFILE" },
+          UpdateExpression: "SET stats.longestStreak = :streak",
+          ExpressionAttributeValues: { ":streak": currentStreak },
+        }),
       );
       longestStreak = currentStreak;
     }
@@ -269,36 +292,40 @@ async function updateUserStats(
  * Week 1 is the week containing the first Thursday of the year.
  */
 function getISOWeek(date: Date): { year: number; week: number } {
-  const d = new Date(Date.UTC(date.getFullYear(), date.getMonth(), date.getDate()));
+  const d = new Date(
+    Date.UTC(date.getFullYear(), date.getMonth(), date.getDate()),
+  );
   // Set to nearest Thursday: current date + 4 - current day number (Monday = 1, Sunday = 7)
   const dayNum = d.getUTCDay() || 7;
   d.setUTCDate(d.getUTCDate() + 4 - dayNum);
   // Get first day of year
   const yearStart = new Date(Date.UTC(d.getUTCFullYear(), 0, 1));
   // Calculate full weeks between yearStart and d
-  const weekNo = Math.ceil(((d.getTime() - yearStart.getTime()) / 86400000 + 1) / 7);
+  const weekNo = Math.ceil(
+    ((d.getTime() - yearStart.getTime()) / 86400000 + 1) / 7,
+  );
   return { year: d.getUTCFullYear(), week: weekNo };
 }
 
 async function updateLeaderboardEntry(
-  leaderboardType: 'daily' | 'weekly' | 'alltime',
+  leaderboardType: "daily" | "weekly" | "alltime",
   userId: string,
   displayName: string,
-  pointsDelta: number
+  pointsDelta: number,
 ): Promise<void> {
   try {
     const now = new Date();
     let pk: string;
 
-    if (leaderboardType === 'daily') {
-      const dateStr = now.toISOString().split('T')[0];
+    if (leaderboardType === "daily") {
+      const dateStr = now.toISOString().split("T")[0];
       pk = `LEADERBOARD#daily#${dateStr}`;
-    } else if (leaderboardType === 'weekly') {
+    } else if (leaderboardType === "weekly") {
       // Use ISO 8601 week format to match AppSync resolver
       const { year, week } = getISOWeek(now);
-      pk = `LEADERBOARD#weekly#${year}-W${String(week).padStart(2, '0')}`;
+      pk = `LEADERBOARD#weekly#${year}-W${String(week).padStart(2, "0")}`;
     } else {
-      pk = 'LEADERBOARD#alltime';
+      pk = "LEADERBOARD#alltime";
     }
 
     await docClient.send(
@@ -313,44 +340,47 @@ async function updateLeaderboardEntry(
               updatedAt = :now
         `,
         ExpressionAttributeValues: {
-          ':zero': 0,
-          ':points': pointsDelta,
-          ':displayName': displayName,
-          ':userId': userId,
-          ':now': now.toISOString(),
+          ":zero": 0,
+          ":points": pointsDelta,
+          ":displayName": displayName,
+          ":userId": userId,
+          ":now": now.toISOString(),
         },
-      })
+      }),
     );
   } catch (error) {
-    console.error(`Failed to update ${leaderboardType} leaderboard for ${userId}:`, error);
+    console.error(
+      `Failed to update ${leaderboardType} leaderboard for ${userId}:`,
+      error,
+    );
   }
 }
 
 async function updateAllLeaderboards(
   userId: string,
   displayName: string,
-  points: number
+  points: number,
 ): Promise<void> {
   await Promise.all([
-    updateLeaderboardEntry('daily', userId, displayName, points),
-    updateLeaderboardEntry('weekly', userId, displayName, points),
-    updateLeaderboardEntry('alltime', userId, displayName, points),
+    updateLeaderboardEntry("daily", userId, displayName, points),
+    updateLeaderboardEntry("weekly", userId, displayName, points),
+    updateLeaderboardEntry("alltime", userId, displayName, points),
   ]);
 }
 
 async function awardBadge(
   userId: string,
   badge: BadgeDefinition,
-  setId?: string
+  setId?: string,
 ): Promise<boolean> {
   try {
     // Check if badge already exists (non-repeatable badges)
     const user = await docClient.send(
       new GetCommand({
         TableName: TABLE_NAME,
-        Key: { PK: `USER#${userId}`, SK: 'PROFILE' },
-        ProjectionExpression: 'badges',
-      })
+        Key: { PK: `USER#${userId}`, SK: "PROFILE" },
+        ProjectionExpression: "badges",
+      }),
     );
 
     const existingBadges = user.Item?.badges || [];
@@ -375,16 +405,19 @@ async function awardBadge(
     await docClient.send(
       new UpdateCommand({
         TableName: TABLE_NAME,
-        Key: { PK: `USER#${userId}`, SK: 'PROFILE' },
-        UpdateExpression: 'SET badges = list_append(if_not_exists(badges, :empty), :badge)',
+        Key: { PK: `USER#${userId}`, SK: "PROFILE" },
+        UpdateExpression:
+          "SET badges = list_append(if_not_exists(badges, :empty), :badge)",
         ExpressionAttributeValues: {
-          ':badge': [earnedBadge],
-          ':empty': [],
+          ":badge": [earnedBadge],
+          ":empty": [],
         },
-      })
+      }),
     );
 
-    console.log(`🏅 Awarded badge "${badge.name}" (${badge.rarity}) to user ${userId}`);
+    console.log(
+      `🏅 Awarded badge "${badge.name}" (${badge.rarity}) to user ${userId}`,
+    );
     return true;
   } catch (error) {
     console.error(`Failed to award badge ${badge.id} to ${userId}:`, error);
@@ -395,7 +428,7 @@ async function awardBadge(
 async function checkAndAwardBadges(
   userId: string,
   stats: BadgeUserStats,
-  context?: BadgeCheckContext
+  context?: BadgeCheckContext,
 ): Promise<string[]> {
   const earnedBadges = getEarnedBadges(stats, context);
   const newlyEarnedBadgeIds: string[] = [];
@@ -410,25 +443,30 @@ async function checkAndAwardBadges(
   return newlyEarnedBadgeIds;
 }
 
-async function updateSetStats(userId: string, won: boolean, isPerfectSet: boolean, setId?: string): Promise<string[]> {
+async function updateSetStats(
+  userId: string,
+  won: boolean,
+  isPerfectSet: boolean,
+  setId?: string,
+): Promise<string[]> {
   try {
     const result = await docClient.send(
       new UpdateCommand({
         TableName: TABLE_NAME,
-        Key: { PK: `USER#${userId}`, SK: 'PROFILE' },
+        Key: { PK: `USER#${userId}`, SK: "PROFILE" },
         UpdateExpression: `
           SET stats.setsPlayed = if_not_exists(stats.setsPlayed, :zero) + :one,
               stats.setsWon = if_not_exists(stats.setsWon, :zero) + :won,
               stats.perfectSets = if_not_exists(stats.perfectSets, :zero) + :perfect
         `,
         ExpressionAttributeValues: {
-          ':zero': 0,
-          ':one': 1,
-          ':won': won ? 1 : 0,
-          ':perfect': isPerfectSet ? 1 : 0,
+          ":zero": 0,
+          ":one": 1,
+          ":won": won ? 1 : 0,
+          ":perfect": isPerfectSet ? 1 : 0,
         },
-        ReturnValues: 'ALL_NEW',
-      })
+        ReturnValues: "ALL_NEW",
+      }),
     );
 
     const stats = result.Attributes?.stats || {};
@@ -461,7 +499,7 @@ interface RoomSession {
   players: Map<string, Player>;
   scores: Map<string, number>;
   questionStartTime: number | null;
-  questionPhase: 'waiting' | 'question' | 'results';
+  questionPhase: "waiting" | "question" | "results";
   pendingBadges: Map<string, string[]>;
   setEarnedBadges: Map<string, string[]>;
   playerCorrectCount: Map<string, number>;
@@ -476,9 +514,9 @@ interface RoomSession {
   playerConsecutiveRun: Map<string, number>; // current consecutive run count
   // Multi-guess tracking per player per question
   playerQuestionState: Map<string, PlayerQuestionState>;
-  questionWinner: string | null;  // First player to answer correctly
+  questionWinner: string | null; // First player to answer correctly
   questionWinnerName: string | null;
-  questionWinnerPoints: number | null;  // Points awarded to the winner
+  questionWinnerPoints: number | null; // Points awarded to the winner
   // Timer management - store timeout IDs to prevent accumulation
   questionTimeoutId: NodeJS.Timeout | null;
   resultsTimeoutId: NodeJS.Timeout | null;
@@ -496,7 +534,8 @@ let maintenanceMode = false;
 let maintenanceMessage: string | null = null;
 
 // Track players in lobby (waiting to join a room)
-const lobbyPlayers: Map<string, { displayName: string; joinedAt: number }> = new Map();
+const lobbyPlayers: Map<string, { displayName: string; joinedAt: number }> =
+  new Map();
 
 // Track displayName -> clientId mapping to detect duplicate connections
 const displayNameToClientId: Map<string, string> = new Map();
@@ -524,11 +563,14 @@ async function writeRoomListToDynamoDB(): Promise<void> {
     const baseRooms = getRoomList();
 
     // Add currentQuestion from session data
-    const rooms = baseRooms.map(room => {
+    const rooms = baseRooms.map((room) => {
       const session = roomSessions.get(room.id);
       return {
         ...room,
-        inProgress: session?.questions && session.questions.length > 0 && session.currentQuestionIndex < session.questions.length,
+        inProgress:
+          session?.questions &&
+          session.questions.length > 0 &&
+          session.currentQuestionIndex < session.questions.length,
         currentQuestion: session?.currentQuestionIndex ?? null,
       };
     });
@@ -537,8 +579,8 @@ async function writeRoomListToDynamoDB(): Promise<void> {
       new PutCommand({
         TableName: TABLE_NAME,
         Item: {
-          PK: 'ROOMS#lobby',
-          SK: 'STATE',
+          PK: "ROOMS#lobby",
+          SK: "STATE",
           rooms,
           lobbyPlayerCount: lobbyPlayers.size,
           maintenanceMode,
@@ -546,19 +588,22 @@ async function writeRoomListToDynamoDB(): Promise<void> {
           updatedAt: new Date().toISOString(),
           ttl: Math.floor(now / 1000) + 300, // Expire in 5 minutes if not updated
         },
-      })
+      }),
     );
   } catch (error) {
-    console.error('Failed to write room list to DynamoDB:', error);
+    console.error("Failed to write room list to DynamoDB:", error);
   }
 }
-
 
 /**
  * Rooms are always open for joining.
  * Games start automatically when the first player joins.
  */
-function isJoinWindowOpen(): { canJoin: boolean; reason?: string; secondsUntilOpen?: number } {
+function isJoinWindowOpen(): {
+  canJoin: boolean;
+  reason?: string;
+  secondsUntilOpen?: number;
+} {
   // Always allow joining - rooms are always open
   return { canJoin: true };
 }
@@ -569,21 +614,21 @@ function initAbly(): void {
   const ablyKey = process.env.ABLY_API_KEY || process.env.NEXT_PUBLIC_ABLY_KEY;
 
   if (!ablyKey) {
-    console.error('ABLY_API_KEY not set');
+    console.error("ABLY_API_KEY not set");
     process.exit(1);
   }
 
   ably = new Ably.Realtime({
     key: ablyKey,
-    clientId: 'game-orchestrator',
+    clientId: "game-orchestrator",
   });
 
-  ably.connection.on('connected', () => {
-    console.log('✅ Connected to Ably');
+  ably.connection.on("connected", () => {
+    console.log("✅ Connected to Ably");
   });
 
-  ably.connection.on('failed', (err) => {
-    console.error('❌ Ably connection failed:', err);
+  ably.connection.on("failed", (err) => {
+    console.error("❌ Ably connection failed:", err);
   });
 
   // Setup lobby channel
@@ -604,19 +649,21 @@ function setupLobbyPresence(): void {
 
   const presence = lobbyChannel.presence;
 
-  presence.subscribe('enter', async (member) => {
+  presence.subscribe("enter", async (member) => {
     const playerId = member.clientId!;
-    const displayName = member.data?.displayName || 'Anonymous';
+    const displayName = member.data?.displayName || "Anonymous";
 
     // Check for duplicate connection with same displayName
     const existingClientId = displayNameToClientId.get(displayName);
     if (existingClientId && existingClientId !== playerId) {
       // Tell the old connection to disconnect
-      console.log(`🔄 Duplicate connection for ${displayName}: kicking old client ${existingClientId}`);
-      await lobbyChannel!.publish('duplicate_connection', {
+      console.log(
+        `🔄 Duplicate connection for ${displayName}: kicking old client ${existingClientId}`,
+      );
+      await lobbyChannel!.publish("duplicate_connection", {
         clientId: existingClientId,
         displayName,
-        message: 'You connected from another device/tab',
+        message: "You connected from another device/tab",
       });
       // Clean up old connection from tracking
       lobbyPlayers.delete(existingClientId);
@@ -629,11 +676,13 @@ function setupLobbyPresence(): void {
       joinedAt: Date.now(),
     });
 
-    console.log(`👤 Player entered lobby: ${displayName} (${lobbyPlayers.size} in lobby)`);
+    console.log(
+      `👤 Player entered lobby: ${displayName} (${lobbyPlayers.size} in lobby)`,
+    );
     // Room list updates are now polled via HTTP, not broadcast
   });
 
-  presence.subscribe('leave', async (member) => {
+  presence.subscribe("leave", async (member) => {
     const playerId = member.clientId!;
     const player = lobbyPlayers.get(playerId);
     lobbyPlayers.delete(playerId);
@@ -643,33 +692,57 @@ function setupLobbyPresence(): void {
       displayNameToClientId.delete(player.displayName);
     }
 
-    console.log(`👋 Player left lobby: ${player?.displayName || playerId} (${lobbyPlayers.size} in lobby)`);
+    console.log(
+      `👋 Player left lobby: ${player?.displayName || playerId} (${lobbyPlayers.size} in lobby)`,
+    );
     // Room list updates are now polled via HTTP, not broadcast
   });
 
   // Note: request_room_list no longer needed - frontend polls /api/rooms
 
   // Handle maintenance mode toggle from admin
-  lobbyChannel.subscribe('maintenance_mode', async (message) => {
+  lobbyChannel.subscribe("maintenance_mode", async (message) => {
     const { enabled, customMessage } = message.data;
     maintenanceMode = enabled;
     maintenanceMessage = customMessage || null;
-    console.log(`🔧 Maintenance mode ${enabled ? 'ENABLED' : 'DISABLED'}${customMessage ? `: ${customMessage}` : ''}`);
+    console.log(
+      `🔧 Maintenance mode ${enabled ? "ENABLED" : "DISABLED"}${customMessage ? `: ${customMessage}` : ""}`,
+    );
+
+    // Save to DynamoDB config
+    try {
+      const currentConfig = getConfig();
+      await saveGameConfig({
+        ...currentConfig,
+        maintenanceMode: enabled,
+        maintenanceMessage: customMessage || null,
+      });
+    } catch (e) {
+      console.error("Failed to save maintenance mode to config:", e);
+    }
+
     // Broadcast maintenance mode change via Ably (time-critical for immediate effect)
-    await lobbyChannel!.publish('maintenance_update', { enabled, customMessage });
+    await lobbyChannel!.publish("maintenance_update", {
+      enabled,
+      customMessage,
+    });
   });
 
   // Handle room join requests
-  lobbyChannel.subscribe('join_room', async (message) => {
+  lobbyChannel.subscribe("join_room", async (message) => {
     const { playerId, roomId, displayName } = message.data;
-    console.log(`📥 JOIN_ROOM request: playerId=${playerId}, roomId=${roomId}, displayName=${displayName}`);
+    console.log(
+      `📥 JOIN_ROOM request: playerId=${playerId}, roomId=${roomId}, displayName=${displayName}`,
+    );
 
     // Check if join window is open
     const joinWindow = isJoinWindowOpen();
-    console.log(`📥 JOIN_ROOM window check: canJoin=${joinWindow.canJoin}, reason=${joinWindow.reason}, secondsUntilOpen=${joinWindow.secondsUntilOpen}`);
+    console.log(
+      `📥 JOIN_ROOM window check: canJoin=${joinWindow.canJoin}, reason=${joinWindow.reason}, secondsUntilOpen=${joinWindow.secondsUntilOpen}`,
+    );
     if (!joinWindow.canJoin) {
       console.log(`❌ JOIN_ROOM REJECTED: window closed for ${displayName}`);
-      await lobbyChannel!.publish('join_room_result', {
+      await lobbyChannel!.publish("join_room_result", {
         playerId,
         success: false,
         error: joinWindow.reason,
@@ -680,10 +753,10 @@ function setupLobbyPresence(): void {
 
     const room = getRoom(roomId);
     if (!room) {
-      await lobbyChannel!.publish('join_room_result', {
+      await lobbyChannel!.publish("join_room_result", {
         playerId,
         success: false,
-        error: 'Room not found',
+        error: "Room not found",
       });
       return;
     }
@@ -709,23 +782,23 @@ function setupLobbyPresence(): void {
       // Room list updates are now polled via HTTP
     }
 
-    await lobbyChannel!.publish('join_room_result', {
+    await lobbyChannel!.publish("join_room_result", {
       playerId,
       success,
       roomId: success ? roomId : undefined,
       roomName: success ? room.name : undefined,
-      error: success ? undefined : 'Room is full',
+      error: success ? undefined : "Room is full",
     });
   });
 
   // Handle auto-join (find any available room)
-  lobbyChannel.subscribe('auto_join', async (message) => {
+  lobbyChannel.subscribe("auto_join", async (message) => {
     const { playerId, displayName } = message.data;
 
     // Check if join window is open
     const joinWindow = isJoinWindowOpen();
     if (!joinWindow.canJoin) {
-      await lobbyChannel!.publish('join_room_result', {
+      await lobbyChannel!.publish("join_room_result", {
         playerId,
         success: false,
         error: joinWindow.reason,
@@ -737,20 +810,20 @@ function setupLobbyPresence(): void {
     let room = findAvailableRoom();
 
     // If all rooms are full or in progress, create a new one
-    if (!room || room.currentPlayers >= MAX_PLAYERS_PER_ROOM) {
-      room = createRoom('medium');
+    if (!room || room.currentPlayers >= getConfig().maxPlayersPerRoom) {
+      room = createRoom("medium");
       setupRoomChannel(room.id);
       console.log(`🏠 Created new room (overflow): ${room.name}`);
     }
 
     const success = joinRoom(room.id, playerId);
 
-    await lobbyChannel!.publish('join_room_result', {
+    await lobbyChannel!.publish("join_room_result", {
       playerId,
       success,
       roomId: success ? room.id : undefined,
       roomName: success ? room.name : undefined,
-      error: success ? undefined : 'Failed to join room',
+      error: success ? undefined : "Failed to join room",
     });
 
     if (success) {
@@ -775,7 +848,7 @@ function setupLobbyPresence(): void {
   });
 
   // Handle queue_join - player wants to join a room when window opens
-  lobbyChannel.subscribe('queue_join', async (message) => {
+  lobbyChannel.subscribe("queue_join", async (message) => {
     const { playerId, roomId, displayName } = message.data;
     console.log(`⏳ QUEUE_JOIN: playerId=${playerId}, roomId=${roomId}`);
 
@@ -790,7 +863,7 @@ function setupLobbyPresence(): void {
       lobbyPlayers.set(playerId, { displayName, joinedAt: Date.now() });
     }
 
-    await lobbyChannel!.publish('queue_join_result', {
+    await lobbyChannel!.publish("queue_join_result", {
       playerId,
       roomId,
       success: true,
@@ -799,7 +872,7 @@ function setupLobbyPresence(): void {
   });
 
   // Handle queue_leave - player no longer wants to auto-join
-  lobbyChannel.subscribe('queue_leave', async (message) => {
+  lobbyChannel.subscribe("queue_leave", async (message) => {
     const { playerId, roomId } = message.data;
     console.log(`⏳ QUEUE_LEAVE: playerId=${playerId}, roomId=${roomId}`);
 
@@ -811,7 +884,7 @@ function setupLobbyPresence(): void {
       }
     }
 
-    await lobbyChannel!.publish('queue_leave_result', {
+    await lobbyChannel!.publish("queue_leave_result", {
       playerId,
       roomId,
       success: true,
@@ -830,13 +903,13 @@ function setupRoomChannel(roomId: string): void {
 
   // Track players entering the room channel
   // If no active session, start a new game when first player joins
-  presence.subscribe('enter', async (member) => {
+  presence.subscribe("enter", async (member) => {
     const playerId = member.clientId!;
 
     // Skip orchestrator's own presence
-    if (playerId.startsWith('game-')) return;
+    if (playerId.startsWith("game-")) return;
 
-    const displayName = member.data?.displayName || 'Anonymous';
+    const displayName = member.data?.displayName || "Anonymous";
     const session = roomSessions.get(roomId);
 
     if (session) {
@@ -855,15 +928,19 @@ function setupRoomChannel(roomId: string): void {
       if (!session.scores.has(playerId)) {
         session.scores.set(playerId, 0);
       }
-      console.log(`👤 ${displayName} joined active game in room ${roomId} (${session.players.size} players)`);
+      console.log(
+        `👤 ${displayName} joined active game in room ${roomId} (${session.players.size} players)`,
+      );
     } else {
       // No active session - start a new game!
-      console.log(`🎮 First player (${displayName}) joined room ${roomId} - starting game!`);
+      console.log(
+        `🎮 First player (${displayName}) joined room ${roomId} - starting game!`,
+      );
       await startRoomSet(roomId);
     }
   });
 
-  presence.subscribe('leave', async (member) => {
+  presence.subscribe("leave", async (member) => {
     const playerId = member.clientId!;
     const session = roomSessions.get(roomId);
 
@@ -882,11 +959,13 @@ function setupRoomChannel(roomId: string): void {
         try {
           const members = await channel.presence.get();
           const playerCount = members.filter(
-            (m) => m.clientId && !m.clientId.startsWith('game-')
+            (m) => m.clientId && !m.clientId.startsWith("game-"),
           ).length;
 
           if (playerCount === 0) {
-            console.log(`⏹️  [${roomId}] No players remaining - winding down room`);
+            console.log(
+              `⏹️  [${roomId}] No players remaining - winding down room`,
+            );
             roomSessions.delete(roomId);
             resetRoom(roomId);
           }
@@ -898,7 +977,7 @@ function setupRoomChannel(roomId: string): void {
   });
 
   // Handle answers for this room (multi-guess: players can answer directly)
-  channel.subscribe('answer', async (message) => {
+  channel.subscribe("answer", async (message) => {
     await handleRoomAnswer(roomId, message.data);
   });
 
@@ -917,7 +996,7 @@ function buildRoomLeaderboard(roomId: string): LeaderboardEntry[] {
   return Array.from(session.scores.entries())
     .map(([id, score]) => {
       const player = session.players.get(id);
-      const displayName = player?.displayName || 'Unknown';
+      const displayName = player?.displayName || "Unknown";
       return {
         rank: 0,
         userId: id,
@@ -958,10 +1037,18 @@ function getPenaltyMultiplier(guessCount: number): number {
 /**
  * Get or create player question state for multi-guess tracking
  */
-function getOrCreatePlayerQuestionState(session: RoomSession, playerId: string): PlayerQuestionState {
+function getOrCreatePlayerQuestionState(
+  session: RoomSession,
+  playerId: string,
+): PlayerQuestionState {
   let state = session.playerQuestionState.get(playerId);
   if (!state) {
-    state = { guessCount: 0, wrongAnswers: [], totalPenalty: 0, answeredCorrectly: false };
+    state = {
+      guessCount: 0,
+      wrongAnswers: [],
+      totalPenalty: 0,
+      answeredCorrectly: false,
+    };
     session.playerQuestionState.set(playerId, state);
   }
   return state;
@@ -973,9 +1060,12 @@ function getOrCreatePlayerQuestionState(session: RoomSession, playerId: string):
  * - First correct answer wins and ends the question immediately
  * - Wrong guesses incur escalating penalties
  */
-async function handleRoomAnswer(roomId: string, data: AnswerData): Promise<void> {
+async function handleRoomAnswer(
+  roomId: string,
+  data: AnswerData,
+): Promise<void> {
   const session = roomSessions.get(roomId);
-  if (!session || session.questionPhase !== 'question') return;
+  if (!session || session.questionPhase !== "question") return;
 
   const { playerId, answerIndex } = data;
 
@@ -988,9 +1078,14 @@ async function handleRoomAnswer(roomId: string, data: AnswerData): Promise<void>
   if (playerState.wrongAnswers.includes(answerIndex)) return;
 
   const player = session.players.get(playerId);
-  const displayName = player?.displayName || 'Unknown';
-  const difficulty = (question.difficulty || 'medium') as keyof typeof DIFFICULTY_POINTS;
-  const difficultyPoints = DIFFICULTY_POINTS[difficulty] || DIFFICULTY_POINTS.medium;
+  const displayName = player?.displayName || "Unknown";
+  const config = getConfig();
+  const difficulty = (question.difficulty || "medium") as
+    | "easy"
+    | "medium"
+    | "hard";
+  const difficultyPoints =
+    config.difficultyPoints[difficulty] || config.difficultyPoints.medium;
 
   if (isCorrect) {
     // Mark player as having answered correctly
@@ -1012,8 +1107,8 @@ async function handleRoomAnswer(roomId: string, data: AnswerData): Promise<void>
       const correctCount = session.playerCorrectCount.get(playerId) || 0;
       session.playerCorrectCount.set(playerId, correctCount + 1);
 
-      markQuestionAnsweredCorrectly(question.id).catch(err =>
-        console.error(`Failed to mark question as correct:`, err)
+      markQuestionAnsweredCorrectly(question.id).catch((err) =>
+        console.error(`Failed to mark question as correct:`, err),
       );
 
       // Track consecutive question runs (answering Q1, Q2, Q3... in sequence)
@@ -1035,24 +1130,40 @@ async function handleRoomAnswer(roomId: string, data: AnswerData): Promise<void>
         correctIndex: question.correctIndex,
         pointsAwarded: points,
       };
-      await session.channel.publish('answer_result', answerPayload);
+      await session.channel.publish("answer_result", answerPayload);
 
-      console.log(`✅ [${roomId}] ${displayName} wins the question! (+${points} points)`);
+      console.log(
+        `✅ [${roomId}] ${displayName} wins the question! (+${points} points)`,
+      );
 
       // Persist stats for authenticated users
       if (!isGuestPlayer(playerId)) {
         try {
-          const stats = await updateUserStats(playerId, displayName, true, points);
-          updateAllLeaderboards(playerId, displayName, points).catch(console.error);
+          const stats = await updateUserStats(
+            playerId,
+            displayName,
+            true,
+            points,
+          );
+          updateAllLeaderboards(playerId, displayName, points).catch(
+            console.error,
+          );
 
-          const consecutiveRunThisSet = session.playerConsecutiveRun.get(playerId) || 0;
-          const context: BadgeCheckContext = { setId: session.setId, consecutiveRunThisSet };
+          const consecutiveRunThisSet =
+            session.playerConsecutiveRun.get(playerId) || 0;
+          const context: BadgeCheckContext = {
+            setId: session.setId,
+            consecutiveRunThisSet,
+          };
           const newBadges = await checkAndAwardBadges(playerId, stats, context);
           if (newBadges.length > 0) {
             const existing = session.pendingBadges.get(playerId) || [];
             session.pendingBadges.set(playerId, [...existing, ...newBadges]);
             const setExisting = session.setEarnedBadges.get(playerId) || [];
-            session.setEarnedBadges.set(playerId, [...setExisting, ...newBadges]);
+            session.setEarnedBadges.set(playerId, [
+              ...setExisting,
+              ...newBadges,
+            ]);
           }
         } catch (error) {
           console.error(`Failed to persist stats for ${playerId}:`, error);
@@ -1063,17 +1174,24 @@ async function handleRoomAnswer(roomId: string, data: AnswerData): Promise<void>
       clearRoomTimers(session);
 
       // End question after short delay (allows others to still answer during this time)
-      session.resultsTimeoutId = setTimeout(() => showRoomQuestionResults(roomId), 1500);
+      session.resultsTimeoutId = setTimeout(
+        () => showRoomQuestionResults(roomId),
+        1500,
+      );
     } else {
       // Correct but not first - send them a "correct but too slow" event
-      const userChannel = ably?.channels.get(`${ABLY_CHANNELS.USER_PREFIX}${playerId}`);
+      const userChannel = ably?.channels.get(
+        `${ABLY_CHANNELS.USER_PREFIX}${playerId}`,
+      );
       if (userChannel) {
-        await userChannel.publish('correct_but_slow', {
+        await userChannel.publish("correct_but_slow", {
           answerIndex,
           winnerName: session.questionWinnerName,
         });
       }
-      console.log(`✅ [${roomId}] ${displayName} also correct, but ${session.questionWinnerName} was faster`);
+      console.log(
+        `✅ [${roomId}] ${displayName} also correct, but ${session.questionWinnerName} was faster`,
+      );
     }
   } else {
     // Wrong guess - apply escalating penalty
@@ -1092,14 +1210,18 @@ async function handleRoomAnswer(roomId: string, data: AnswerData): Promise<void>
     const wrongCount = session.playerWrongCount.get(playerId) || 0;
     session.playerWrongCount.set(playerId, wrongCount + 1);
 
-    markQuestionAnsweredIncorrectly(question.id).catch(err =>
-      console.error(`Failed to mark question as incorrect:`, err)
+    markQuestionAnsweredIncorrectly(question.id).catch((err) =>
+      console.error(`Failed to mark question as incorrect:`, err),
     );
 
-    console.log(`❌ [${roomId}] ${displayName} wrong guess #${playerState.guessCount} (${penalty} points, ${multiplier}x multiplier)`);
+    console.log(
+      `❌ [${roomId}] ${displayName} wrong guess #${playerState.guessCount} (${penalty} points, ${multiplier}x multiplier)`,
+    );
 
     // Send wrong_answer event to the specific player via user channel
-    const userChannel = ably?.channels.get(`${ABLY_CHANNELS.USER_PREFIX}${playerId}`);
+    const userChannel = ably?.channels.get(
+      `${ABLY_CHANNELS.USER_PREFIX}${playerId}`,
+    );
     if (userChannel) {
       const wrongAnswerPayload: WrongAnswerPayload = {
         answerIndex,
@@ -1107,14 +1229,21 @@ async function handleRoomAnswer(roomId: string, data: AnswerData): Promise<void>
         guessCount: playerState.guessCount,
         wrongAnswers: playerState.wrongAnswers,
       };
-      await userChannel.publish('wrong_answer', wrongAnswerPayload);
+      await userChannel.publish("wrong_answer", wrongAnswerPayload);
     }
 
     // Persist stats for authenticated users
     if (!isGuestPlayer(playerId)) {
       try {
-        const stats = await updateUserStats(playerId, displayName, false, penalty);
-        updateAllLeaderboards(playerId, displayName, penalty).catch(console.error);
+        const stats = await updateUserStats(
+          playerId,
+          displayName,
+          false,
+          penalty,
+        );
+        updateAllLeaderboards(playerId, displayName, penalty).catch(
+          console.error,
+        );
 
         const context: BadgeCheckContext = { setId: session.setId };
         const newBadges = await checkAndAwardBadges(playerId, stats, context);
@@ -1135,7 +1264,7 @@ async function showRoomQuestionResults(roomId: string): Promise<void> {
   const session = roomSessions.get(roomId);
   if (!session) return;
 
-  session.questionPhase = 'results';
+  session.questionPhase = "results";
 
   const question = session.questions[session.currentQuestionIndex];
   const scores: Record<string, number> = {};
@@ -1151,7 +1280,8 @@ async function showRoomQuestionResults(roomId: string): Promise<void> {
   });
 
   // Build per-player results for session tracking
-  const playerResults: Record<string, { answered: boolean; correct: boolean }> = {};
+  const playerResults: Record<string, { answered: boolean; correct: boolean }> =
+    {};
   session.playerQuestionState.forEach((state, playerId) => {
     // Player attempted if they made any guesses OR answered correctly (first-try correct has guessCount 0)
     const attempted = state.guessCount > 0 || state.answeredCorrectly;
@@ -1165,7 +1295,7 @@ async function showRoomQuestionResults(roomId: string): Promise<void> {
 
   const payload: QuestionEndPayload = {
     correctIndex: question.correctIndex,
-    explanation: question.explanation || 'No explanation available.',
+    explanation: question.explanation || "No explanation available.",
     scores,
     leaderboard: buildRoomLeaderboard(roomId),
     winnerId: session.questionWinner,
@@ -1174,25 +1304,33 @@ async function showRoomQuestionResults(roomId: string): Promise<void> {
     wasAnswered,
     wasCorrect: wasAnswered ? true : null,
     playerResults,
-    nextQuestionIn: RESULTS_DISPLAY_MS,
+    nextQuestionIn: getConfig().resultsDisplayMs,
     questionText: question.text,
     options: question.options,
     category: question.category,
     detailedExplanation: question.detailedExplanation,
     citationUrl: question.citationUrl,
     citationTitle: question.citationTitle,
-    earnedBadges: Object.keys(earnedBadges).length > 0 ? earnedBadges : undefined,
+    earnedBadges:
+      Object.keys(earnedBadges).length > 0 ? earnedBadges : undefined,
   };
 
-  await session.channel.publish('question_end', payload);
-  const winStatus = session.questionWinner ? `Winner: ${session.questionWinnerName}` : 'No winner';
-  console.log(`📊 [${roomId}] Question ${session.currentQuestionIndex + 1} complete - ${winStatus}`);
+  await session.channel.publish("question_end", payload);
+  const winStatus = session.questionWinner
+    ? `Winner: ${session.questionWinnerName}`
+    : "No winner";
+  console.log(
+    `📊 [${roomId}] Question ${session.currentQuestionIndex + 1} complete - ${winStatus}`,
+  );
 
   session.pendingBadges.clear();
 
   // Clear any existing timer and set new one for next question
   clearRoomTimers(session);
-  session.resultsTimeoutId = setTimeout(() => moveToNextRoomQuestion(roomId), RESULTS_DISPLAY_MS);
+  session.resultsTimeoutId = setTimeout(
+    () => moveToNextRoomQuestion(roomId),
+    getConfig().resultsDisplayMs,
+  );
 }
 
 /**
@@ -1219,7 +1357,7 @@ async function moveToNextRoomQuestion(roomId: string): Promise<void> {
   session.questionWinner = null;
   session.questionWinnerName = null;
   session.questionWinnerPoints = null;
-  session.questionPhase = 'waiting';
+  session.questionPhase = "waiting";
   session.questionStartTime = null;
 
   // Continue to next question (startRoomQuestion will fetch more if needed)
@@ -1239,14 +1377,22 @@ async function startRoomSet(roomId: string): Promise<void> {
   const questionsUsed = new Set<string>();
   let questions: Question[];
   try {
-    questions = await getQuestionsForMixedSet(QUESTIONS_PER_SET, room.difficulty, questionsUsed);
+    // Fetch a batch of questions (continuous play - no fixed set size)
+    const QUESTIONS_BATCH_SIZE = 10;
+    questions = await getQuestionsForMixedSet(
+      QUESTIONS_BATCH_SIZE,
+      room.difficulty,
+      questionsUsed,
+    );
     for (const q of questions) {
       questionsUsed.add(q.id);
     }
-    console.log(`📚 [${roomId}] Got ${questions.length} ${room.difficulty} questions`);
+    console.log(
+      `📚 [${roomId}] Got ${questions.length} ${room.difficulty} questions`,
+    );
   } catch (error) {
     console.error(`❌ [${roomId}] Failed to get questions, using mock:`, error);
-    questions = getMockQuestions(QUESTIONS_PER_SET);
+    questions = getMockQuestions(QUESTIONS_BATCH_SIZE);
   }
 
   if (questions.length === 0) {
@@ -1262,7 +1408,7 @@ async function startRoomSet(roomId: string): Promise<void> {
     players: new Map(),
     scores: new Map(),
     questionStartTime: null,
-    questionPhase: 'waiting',
+    questionPhase: "waiting",
     pendingBadges: new Map(),
     setEarnedBadges: new Map(),
     playerCorrectCount: new Map(),
@@ -1291,10 +1437,10 @@ async function startRoomSet(roomId: string): Promise<void> {
   try {
     const members = await channel.presence.get();
     for (const member of members) {
-      if (member.clientId && !member.clientId.startsWith('game-')) {
+      if (member.clientId && !member.clientId.startsWith("game-")) {
         const player: Player = {
           id: member.clientId,
-          displayName: member.data?.displayName || 'Anonymous',
+          displayName: member.data?.displayName || "Anonymous",
           isAI: false,
           latency: 0,
           score: 0,
@@ -1310,12 +1456,12 @@ async function startRoomSet(roomId: string): Promise<void> {
     console.log(`Could not get presence for room ${roomId}:`, e);
   }
 
-  setRoomStatus(roomId, 'in_progress', setId);
+  setRoomStatus(roomId, "in_progress", setId);
 
   console.log(`\n🎮 [${roomId}] Starting set: ${setId}`);
   console.log(`👥 [${roomId}] Players: ${session.players.size}`);
 
-  await channel.publish('set_start', {
+  await channel.publish("set_start", {
     setId,
     totalQuestions: 0, // 0 = continuous play
     playerCount: session.players.size,
@@ -1332,10 +1478,16 @@ async function startRoomQuestion(roomId: string): Promise<void> {
 
   // If we've run out of questions, fetch more (continuous play)
   if (session.currentQuestionIndex >= session.questions.length) {
-    console.log(`🔄 [${roomId}] Fetching more questions for continuous play...`);
+    console.log(
+      `🔄 [${roomId}] Fetching more questions for continuous play...`,
+    );
     const room = getRoom(roomId);
-    const difficulty = room?.difficulty || 'medium';
-    const newQuestions = await getQuestionsForMixedSet(QUESTIONS_PER_SET, difficulty);
+    const difficulty = room?.difficulty || "medium";
+    const QUESTIONS_BATCH_SIZE = 10;
+    const newQuestions = await getQuestionsForMixedSet(
+      QUESTIONS_BATCH_SIZE,
+      difficulty,
+    );
 
     if (newQuestions.length === 0) {
       console.log(`❌ [${roomId}] No more questions available, ending set`);
@@ -1345,18 +1497,23 @@ async function startRoomQuestion(roomId: string): Promise<void> {
 
     // Add new questions to session
     session.questions = [...session.questions, ...newQuestions];
-    console.log(`✅ [${roomId}] Added ${newQuestions.length} more questions (total: ${session.questions.length})`);
+    console.log(
+      `✅ [${roomId}] Added ${newQuestions.length} more questions (total: ${session.questions.length})`,
+    );
   }
 
   const question = session.questions[session.currentQuestionIndex];
 
   // Calculate dynamic timing based on question and answer text length
-  const questionDisplayMs = calculateQuestionDisplayTime(question.text, question.options);
+  const questionDisplayMs = calculateQuestionDisplayTime(
+    question.text,
+    question.options,
+  );
 
   // Store in session
   session.currentQuestionDisplayMs = questionDisplayMs;
   session.questionStartTime = Date.now();
-  session.questionPhase = 'question';
+  session.questionPhase = "question";
   // Reset multi-guess state for new question
   session.playerQuestionState.clear();
   session.questionWinner = null;
@@ -1376,12 +1533,14 @@ async function startRoomQuestion(roomId: string): Promise<void> {
     answerTimeout: 0, // No longer used - players can answer immediately
   };
 
-  await session.channel.publish('question_start', payload);
-  console.log(`\n❓ [${roomId}] Q${session.currentQuestionIndex + 1}: ${question.text.substring(0, 50)}... (duration: ${questionDisplayMs}ms)`);
+  await session.channel.publish("question_start", payload);
+  console.log(
+    `\n❓ [${roomId}] Q${session.currentQuestionIndex + 1}: ${question.text.substring(0, 50)}... (duration: ${questionDisplayMs}ms)`,
+  );
 
   // Track that this question was asked (moves it to "used" bucket)
-  markQuestionAsked(question.id, question.category).catch(err =>
-    console.error(`Failed to mark question as asked:`, err)
+  markQuestionAsked(question.id, question.category).catch((err) =>
+    console.error(`Failed to mark question as asked:`, err),
   );
 
   // Clear any stale timers from previous question
@@ -1390,9 +1549,11 @@ async function startRoomQuestion(roomId: string): Promise<void> {
   // When time is up, end the question if no winner
   session.questionTimeoutId = setTimeout(async () => {
     const currentSession = roomSessions.get(roomId);
-    if (currentSession &&
-        currentSession.questionPhase === 'question' &&
-        !currentSession.questionWinner) {
+    if (
+      currentSession &&
+      currentSession.questionPhase === "question" &&
+      !currentSession.questionWinner
+    ) {
       await handleQuestionTimeUp(roomId);
     }
   }, questionDisplayMs);
@@ -1437,7 +1598,12 @@ async function endRoomSet(roomId: string): Promise<void> {
       const wrongCount = session.playerWrongCount.get(playerId) || 0;
       const isPerfectSet = correctCount === totalQuestions && wrongCount === 0;
 
-      const newBadges = await updateSetStats(playerId, isWinner, isPerfectSet, session.setId);
+      const newBadges = await updateSetStats(
+        playerId,
+        isWinner,
+        isPerfectSet,
+        session.setId,
+      );
 
       if (newBadges.length > 0) {
         const existing = badgesSummary[playerId] || [];
@@ -1451,10 +1617,11 @@ async function endRoomSet(roomId: string): Promise<void> {
   const payload: SetEndPayload = {
     finalScores,
     leaderboard,
-    badgesSummary: Object.keys(badgesSummary).length > 0 ? badgesSummary : undefined,
+    badgesSummary:
+      Object.keys(badgesSummary).length > 0 ? badgesSummary : undefined,
   };
 
-  await session.channel.publish('set_end', payload);
+  await session.channel.publish("set_end", payload);
 
   console.log(`\n🏆 [${roomId}] Set complete!`);
   leaderboard.slice(0, 3).forEach((entry) => {
@@ -1474,18 +1641,20 @@ async function endRoomSet(roomId: string): Promise<void> {
     try {
       const members = await channel.presence.get();
       const playerCount = members.filter(
-        (m) => m.clientId && !m.clientId.startsWith('game-')
+        (m) => m.clientId && !m.clientId.startsWith("game-"),
       ).length;
 
       if (playerCount > 0) {
-        console.log(`👥 [${roomId}] ${playerCount} players still present - starting new set in 10 seconds`);
+        console.log(
+          `👥 [${roomId}] ${playerCount} players still present - starting new set in 10 seconds`,
+        );
         // Short break, then start new set
         setTimeout(async () => {
           // Double-check players are still there
           try {
             const currentMembers = await channel.presence.get();
             const currentPlayerCount = currentMembers.filter(
-              (m) => m.clientId && !m.clientId.startsWith('game-')
+              (m) => m.clientId && !m.clientId.startsWith("game-"),
             ).length;
 
             if (currentPlayerCount > 0 && !roomSessions.has(roomId)) {
@@ -1497,7 +1666,9 @@ async function endRoomSet(roomId: string): Promise<void> {
           }
         }, 10000);
       } else {
-        console.log(`⏸️  [${roomId}] No players - waiting for next player to join`);
+        console.log(
+          `⏸️  [${roomId}] No players - waiting for next player to join`,
+        );
       }
     } catch (e) {
       console.error(`Error checking presence after set end:`, e);
@@ -1509,13 +1680,28 @@ async function endRoomSet(roomId: string): Promise<void> {
 
 async function runGameLoop(): Promise<void> {
   let lastCleanupTime = 0;
+  let lastConfigRefreshTime = 0;
   const CLEANUP_INTERVAL_MS = 60000; // Clean up completed sessions every minute
+  const CONFIG_REFRESH_INTERVAL_MS = 60000; // Refresh config every minute
 
   while (!isShuttingDown) {
     lastHeartbeat = Date.now();
+    const now = Date.now();
+
+    // Periodic config refresh from DynamoDB
+    if (now - lastConfigRefreshTime > CONFIG_REFRESH_INTERVAL_MS) {
+      lastConfigRefreshTime = now;
+      try {
+        const config = await refreshConfig();
+        // Update maintenance mode from config
+        maintenanceMode = config.maintenanceMode;
+        maintenanceMessage = config.maintenanceMessage;
+      } catch (e) {
+        console.error("Failed to refresh config:", e);
+      }
+    }
 
     // Periodic cleanup of completed sessions
-    const now = Date.now();
     if (now - lastCleanupTime > CLEANUP_INTERVAL_MS) {
       lastCleanupTime = now;
 
@@ -1528,15 +1714,21 @@ async function runGameLoop(): Promise<void> {
         }
       }
       if (cleanedSessions > 0) {
-        console.log(`🧹 Cleaned ${cleanedSessions} completed sessions, ${roomSessions.size} active sessions remain`);
+        console.log(
+          `🧹 Cleaned ${cleanedSessions} completed sessions, ${roomSessions.size} active sessions remain`,
+        );
       }
     }
 
     // Check for room overflow - create new room if all rooms of a difficulty are full
     const rooms = getRoomList();
-    const availableRoom = rooms.find(r => r.status === 'waiting' && r.currentPlayers < MAX_PLAYERS_PER_ROOM);
+    const availableRoom = rooms.find(
+      (r) =>
+        r.status === "waiting" &&
+        r.currentPlayers < getConfig().maxPlayersPerRoom,
+    );
     if (!availableRoom && lobbyPlayers.size > 0) {
-      const newRoom = createRoom('medium');
+      const newRoom = createRoom("medium");
       setupRoomChannel(newRoom.id);
       console.log(`🏠 Created new room (all full): ${newRoom.name}`);
     }
@@ -1555,9 +1747,15 @@ function sleep(ms: number): Promise<void> {
 // ============ Main Entry Point ============
 
 async function main(): Promise<void> {
-  console.log('🎯 Quiz Game Orchestrator Starting (Always-Open Rooms)...');
-  console.log(`📋 Config: ${QUESTIONS_PER_SET} questions per set, games start on first player join`);
-  console.log(`🏠 Max ${MAX_PLAYERS_PER_ROOM} players per room`);
+  console.log("🎯 Quiz Game Orchestrator Starting (Always-Open Rooms)...");
+  // Load config from DynamoDB
+  const config = await loadGameConfig();
+  console.log(
+    `📋 Config loaded: continuous play, max ${config.maxPlayersPerRoom} players per room`,
+  );
+  console.log(
+    `🏠 Results display: ${config.resultsDisplayMs}ms, free tier limit: ${config.freeTierDailyLimit}/day`,
+  );
 
   healthApp.listen(HEALTH_PORT, () => {
     console.log(`🏥 Health check server running on port ${HEALTH_PORT}`);
@@ -1566,14 +1764,14 @@ async function main(): Promise<void> {
   initAbly();
 
   await new Promise<void>((resolve) => {
-    if (ably?.connection.state === 'connected') {
+    if (ably?.connection.state === "connected") {
       resolve();
     } else {
-      ably?.connection.once('connected', () => resolve());
+      ably?.connection.once("connected", () => resolve());
     }
   });
 
-  console.log('🚀 Starting game loop...\n');
+  console.log("🚀 Starting game loop...\n");
   await runGameLoop();
 }
 

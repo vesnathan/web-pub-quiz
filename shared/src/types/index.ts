@@ -210,6 +210,9 @@ export {
 // Room types
 export * from './room';
 
+// Game config types
+export * from './gameConfig';
+
 // Subscription types (excluding SubscriptionStatus/Provider which are in gqlTypes)
 export {
   type SubscriptionTier,

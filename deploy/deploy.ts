@@ -1,99 +1,281 @@
 #!/usr/bin/env npx tsx
 
-import * as dotenv from 'dotenv';
-import * as path from 'path';
-import * as fs from 'fs';
-import * as crypto from 'crypto';
+import * as dotenv from "dotenv";
+import * as path from "path";
+import * as fs from "fs";
+import * as crypto from "crypto";
+import * as readline from "readline";
 
 // Load .env from project root
-const ROOT_DIR = path.resolve(import.meta.dirname, '..');
-dotenv.config({ path: path.join(ROOT_DIR, '.env') });
+const ROOT_DIR = path.resolve(import.meta.dirname, "..");
+dotenv.config({ path: path.join(ROOT_DIR, ".env") });
 
 import {
   CloudFormationClient,
   CreateStackCommand,
   UpdateStackCommand,
+  DeleteStackCommand,
   DescribeStacksCommand,
   waitUntilStackCreateComplete,
   waitUntilStackUpdateComplete,
-} from '@aws-sdk/client-cloudformation';
-import {
-  S3Client,
-  PutObjectCommand,
-} from '@aws-sdk/client-s3';
+  waitUntilStackDeleteComplete,
+} from "@aws-sdk/client-cloudformation";
+import { S3Client, PutObjectCommand } from "@aws-sdk/client-s3";
 import {
   LambdaClient,
   UpdateFunctionCodeCommand,
   GetFunctionCommand,
-} from '@aws-sdk/client-lambda';
+} from "@aws-sdk/client-lambda";
 import {
   CloudFrontClient,
   CreateInvalidationCommand,
-} from '@aws-sdk/client-cloudfront';
+} from "@aws-sdk/client-cloudfront";
+import { STSClient, AssumeRoleCommand } from "@aws-sdk/client-sts";
 import {
-  STSClient,
-  AssumeRoleCommand,
-} from '@aws-sdk/client-sts';
-import { execSync } from 'child_process';
-import * as esbuild from 'esbuild';
-import * as mimeTypes from 'mime-types';
-import archiver from 'archiver';
+  SESClient,
+  SetActiveReceiptRuleSetCommand,
+  GetIdentityVerificationAttributesCommand,
+} from "@aws-sdk/client-ses";
+import {
+  IAMClient,
+  GetRoleCommand,
+  DeleteRoleCommand,
+  DetachRolePolicyCommand,
+  DeleteRolePolicyCommand,
+} from "@aws-sdk/client-iam";
+import { execSync } from "child_process";
+import * as esbuild from "esbuild";
+import * as mimeTypes from "mime-types";
+import archiver from "archiver";
 import {
   checkBootstrapResources,
   printBootstrapInstructions,
   getBootstrapConfig,
   checkCredentials,
   promptForCredentials,
-} from './bootstrap-check.js';
-import { ResolverCompiler } from './utils/resolver-compiler.js';
-import { logger, setLogFile, closeLogFile } from './utils/logger.js';
+} from "./bootstrap-check.js";
+import { ResolverCompiler } from "./utils/resolver-compiler.js";
+import { logger, setLogFile, closeLogFile } from "./utils/logger.js";
 
 // Parse command line arguments
 const args = process.argv.slice(2);
 function getStage(): string {
-  const stageIdx = args.indexOf('--stage');
+  const stageIdx = args.indexOf("--stage");
   if (stageIdx !== -1 && args[stageIdx + 1]) {
     return args[stageIdx + 1];
   }
-  const stageArg = args.find((arg) => arg.startsWith('--stage='));
+  const stageArg = args.find((arg) => arg.startsWith("--stage="));
   if (stageArg) {
-    return stageArg.replace('--stage=', '');
+    return stageArg.replace("--stage=", "");
   }
-  return 'dev';
+  return "dev";
 }
 const stage = getStage();
-const frontendOnly = args.includes('--frontend-only');
+const frontendOnly = args.includes("--frontend-only");
+const skipMenu =
+  args.includes("--skip-menu") || args.includes("--yes") || args.includes("-y");
+
+// Deploy options
+type DeployOption =
+  | "full"
+  | "frontend"
+  | "orchestrator"
+  | "lambdas"
+  | "schema"
+  | "resolvers"
+  | "stack"
+  | "ses"
+  | "exit";
+
+interface MenuOption {
+  key: string;
+  label: string;
+  description: string;
+  option: DeployOption;
+}
+
+const MENU_OPTIONS: MenuOption[] = [
+  {
+    key: "1",
+    label: "Full Deploy",
+    description: "Deploy everything (infrastructure + code)",
+    option: "full",
+  },
+  {
+    key: "2",
+    label: "Frontend Only",
+    description: "Build and deploy frontend to S3/CloudFront",
+    option: "frontend",
+  },
+  {
+    key: "3",
+    label: "Orchestrator Only",
+    description: "Build and push Docker image to ECS",
+    option: "orchestrator",
+  },
+  {
+    key: "4",
+    label: "Lambdas Only",
+    description: "Compile, upload, and update Lambda functions",
+    option: "lambdas",
+  },
+  {
+    key: "5",
+    label: "Schema Only",
+    description: "Merge and upload GraphQL schema",
+    option: "schema",
+  },
+  {
+    key: "6",
+    label: "Resolvers Only",
+    description: "Compile and upload AppSync resolvers",
+    option: "resolvers",
+  },
+  {
+    key: "7",
+    label: "CloudFormation Stack",
+    description: "Update infrastructure (templates + stack)",
+    option: "stack",
+  },
+  {
+    key: "8",
+    label: "SES Stack Only",
+    description: "Deploy SES email receiving stack",
+    option: "ses",
+  },
+  { key: "0", label: "Exit", description: "Cancel deployment", option: "exit" },
+];
+
+function renderMenu(selectedIndex: number): void {
+  // Move cursor up to overwrite previous menu (if not first render)
+  const lines = MENU_OPTIONS.length + 4; // options + header lines
+  process.stdout.write(`\x1b[${lines}A`); // Move up
+  process.stdout.write("\x1b[0J"); // Clear from cursor to end
+
+  console.log("=".repeat(60));
+  console.log(
+    "  Deploy Menu - Use \x1b[1m↑↓\x1b[0m to select, \x1b[1mEnter\x1b[0m to confirm",
+  );
+  console.log("=".repeat(60));
+
+  for (let i = 0; i < MENU_OPTIONS.length; i++) {
+    const opt = MENU_OPTIONS[i];
+    const isSelected = i === selectedIndex;
+    const prefix = isSelected ? "\x1b[36m❯\x1b[0m" : " ";
+    const highlight = isSelected ? "\x1b[1m\x1b[36m" : "\x1b[90m";
+    const reset = "\x1b[0m";
+    console.log(
+      `  ${prefix} ${highlight}${opt.label}${reset} - ${opt.description}`,
+    );
+  }
+}
+
+async function showMenu(): Promise<DeployOption> {
+  let selectedIndex = 0;
+
+  // Print initial empty lines to make room for menu
+  console.log("\n");
+  for (let i = 0; i < MENU_OPTIONS.length + 4; i++) {
+    console.log("");
+  }
+
+  // Initial render
+  renderMenu(selectedIndex);
+
+  return new Promise((resolve) => {
+    // Enable raw mode for keypress detection
+    if (process.stdin.isTTY) {
+      process.stdin.setRawMode(true);
+    }
+    process.stdin.resume();
+    process.stdin.setEncoding("utf8");
+
+    const handleKeypress = (key: string): void => {
+      // Handle arrow keys (escape sequences)
+      if (key === "\u001b[A" || key === "k") {
+        // Up arrow or k
+        selectedIndex =
+          (selectedIndex - 1 + MENU_OPTIONS.length) % MENU_OPTIONS.length;
+        renderMenu(selectedIndex);
+      } else if (key === "\u001b[B" || key === "j") {
+        // Down arrow or j
+        selectedIndex = (selectedIndex + 1) % MENU_OPTIONS.length;
+        renderMenu(selectedIndex);
+      } else if (key === "\r" || key === "\n" || key === " ") {
+        // Enter or Space
+        cleanup();
+        console.log(""); // New line after menu
+        resolve(MENU_OPTIONS[selectedIndex].option);
+      } else if (key === "\u0003" || key === "q") {
+        // Ctrl+C or q
+        cleanup();
+        console.log("\nDeployment cancelled.");
+        process.exit(0);
+      } else if (key >= "0" && key <= "9") {
+        // Number key shortcut
+        const idx = MENU_OPTIONS.findIndex((o) => o.key === key);
+        if (idx !== -1) {
+          selectedIndex = idx;
+          renderMenu(selectedIndex);
+          // Small delay then select
+          setTimeout(() => {
+            cleanup();
+            console.log("");
+            resolve(MENU_OPTIONS[selectedIndex].option);
+          }, 150);
+        }
+      }
+    };
+
+    const cleanup = (): void => {
+      process.stdin.removeListener("data", handleKeypress);
+      if (process.stdin.isTTY) {
+        process.stdin.setRawMode(false);
+      }
+      process.stdin.pause();
+    };
+
+    process.stdin.on("data", handleKeypress);
+  });
+}
 
 // Configuration
-const APP_NAME = 'quiz-night-live';
-const REGION = process.env.AWS_REGION || 'ap-southeast-2';
-const CERTIFICATE_REGION = 'us-east-1'; // CloudFront requires certs in us-east-1
+const APP_NAME = "quiz-night-live";
+const REGION = process.env.AWS_REGION || "ap-southeast-2";
+const CERTIFICATE_REGION = "us-east-1"; // CloudFront requires certs in us-east-1
+const SES_REGION = "us-east-1"; // SES receiving only works in us-east-1, us-west-2, eu-west-1
 const bootstrapConfig = getBootstrapConfig();
 const TEMPLATE_BUCKET = bootstrapConfig.templateBucketName;
 const STACK_NAME = `${APP_NAME}-${stage}`;
 const CERTIFICATE_STACK_NAME = `${APP_NAME}-certificate-${stage}`;
+const SES_STACK_NAME = `${APP_NAME}-ses-email-receiving-${stage}`;
 const CFN_ROLE_ARN = bootstrapConfig.cfnRoleArn;
+const DOMAIN_NAME = process.env.DOMAIN_NAME || "quiznight.live";
 
 // Clients
 const cfnClient = new CloudFormationClient({ region: REGION });
-const cfnClientUsEast1 = new CloudFormationClient({ region: CERTIFICATE_REGION });
+const cfnClientUsEast1 = new CloudFormationClient({
+  region: CERTIFICATE_REGION,
+});
 const s3Client = new S3Client({ region: REGION });
 const cfClient = new CloudFrontClient({ region: REGION });
 const lambdaClient = new LambdaClient({ region: REGION });
+const sesClient = new SESClient({ region: SES_REGION });
+const lambdaClientSes = new LambdaClient({ region: SES_REGION });
 
 // Paths
 const DEPLOY_DIR = import.meta.dirname;
-const FRONTEND_DIR = path.join(ROOT_DIR, 'frontend');
-const BACKEND_DIR = path.join(ROOT_DIR, 'backend');
+const FRONTEND_DIR = path.join(ROOT_DIR, "frontend");
+const BACKEND_DIR = path.join(ROOT_DIR, "backend");
 
 // Resolver build hash - set during compilation
-let resolversBuildHash = 'initial';
+let resolversBuildHash = "initial";
 
 // Schema build hash - set during schema merge
-let schemaBuildHash = 'initial';
+let schemaBuildHash = "initial";
 
 // Template build hash - set during template upload
-let templateBuildHash = 'initial';
+let templateBuildHash = "initial";
 
 interface StackOutputs {
   CloudFrontDistributionId?: string;
@@ -121,59 +303,72 @@ interface CertificateOutputs {
 // STS client for assuming roles
 const stsClient = new STSClient({ region: REGION });
 
-
-async function uploadFile(bucket: string, key: string, body: Buffer | string, contentType?: string): Promise<void> {
-  await s3Client.send(new PutObjectCommand({
-    Bucket: bucket,
-    Key: key,
-    Body: body,
-    ContentType: contentType || 'application/octet-stream',
-  }));
+async function uploadFile(
+  bucket: string,
+  key: string,
+  body: Buffer | string,
+  contentType?: string,
+): Promise<void> {
+  await s3Client.send(
+    new PutObjectCommand({
+      Bucket: bucket,
+      Key: key,
+      Body: body,
+      ContentType: contentType || "application/octet-stream",
+    }),
+  );
 }
 
 async function mergeAndUploadSchema(): Promise<void> {
-  console.log('\nMerging and uploading GraphQL schema...');
+  console.log("\nMerging and uploading GraphQL schema...");
 
-  const schemaDir = path.join(BACKEND_DIR, 'schema');
-  const schemaFiles = fs.readdirSync(schemaDir)
-    .filter((f) => f.endsWith('.graphql'))
+  const schemaDir = path.join(BACKEND_DIR, "schema");
+  const schemaFiles = fs
+    .readdirSync(schemaDir)
+    .filter((f) => f.endsWith(".graphql"))
     .sort(); // Sort to ensure consistent order (00-base.graphql first)
 
-  let mergedSchema = '';
+  let mergedSchema = "";
   for (const file of schemaFiles) {
-    const content = fs.readFileSync(path.join(schemaDir, file), 'utf-8');
+    const content = fs.readFileSync(path.join(schemaDir, file), "utf-8");
     mergedSchema += `# --- ${file} ---\n${content}\n\n`;
   }
 
   // Compute hash of schema content for versioning
-  schemaBuildHash = crypto.createHash('sha256')
+  schemaBuildHash = crypto
+    .createHash("sha256")
     .update(mergedSchema)
-    .digest('hex')
+    .digest("hex")
     .substring(0, 16);
 
   // Upload merged schema to S3 with hash in path (for new versioned template)
   const schemaKey = `schema/${stage}/${schemaBuildHash}/schema.graphql`;
-  await uploadFile(TEMPLATE_BUCKET, schemaKey, mergedSchema, 'text/plain');
+  await uploadFile(TEMPLATE_BUCKET, schemaKey, mergedSchema, "text/plain");
   console.log(`  Uploaded merged schema: ${schemaKey}`);
   console.log(`  Schema hash: ${schemaBuildHash}`);
 
   // Also upload to unversioned path for backwards compatibility during transition
   // This ensures old templates (without SchemaBuildHash) get the latest schema
   const legacySchemaKey = `schema/${stage}/schema.graphql`;
-  await uploadFile(TEMPLATE_BUCKET, legacySchemaKey, mergedSchema, 'text/plain');
+  await uploadFile(
+    TEMPLATE_BUCKET,
+    legacySchemaKey,
+    mergedSchema,
+    "text/plain",
+  );
   console.log(`  Uploaded legacy schema: ${legacySchemaKey}`);
 
   // Also write to combined_schema.graphql for local reference
-  const combinedPath = path.join(BACKEND_DIR, 'combined_schema.graphql');
+  const combinedPath = path.join(BACKEND_DIR, "combined_schema.graphql");
   fs.writeFileSync(combinedPath, mergedSchema);
   console.log(`  Written local copy: backend/combined_schema.graphql`);
 }
 
 async function uploadTemplates(): Promise<void> {
-  console.log('\nUploading CloudFormation templates...');
+  console.log("\nUploading CloudFormation templates...");
 
   // Collect all nested template contents to compute hash
-  const resourcesDir = path.join(DEPLOY_DIR, 'resources');
+  const resourcesDir = path.join(DEPLOY_DIR, "resources");
   const dirs = fs.readdirSync(resourcesDir);
   const templateContents: string[] = [];
   const templateFiles: { dir: string; file: string; content: string }[] = [];
@@ -181,9 +376,9 @@ async function uploadTemplates(): Promise<void> {
   for (const dir of dirs) {
     const dirPath = path.join(resourcesDir, dir);
     if (fs.statSync(dirPath).isDirectory()) {
-      const files = fs.readdirSync(dirPath).filter((f) => f.endsWith('.yaml'));
+      const files = fs.readdirSync(dirPath).filter((f) => f.endsWith(".yaml"));
       for (const file of files) {
-        const content = fs.readFileSync(path.join(dirPath, file), 'utf-8');
+        const content = fs.readFileSync(path.join(dirPath, file), "utf-8");
         templateContents.push(content);
         templateFiles.push({ dir, file, content });
       }
@@ -191,16 +386,17 @@ async function uploadTemplates(): Promise<void> {
   }
 
   // Compute hash of all nested templates
-  templateBuildHash = crypto.createHash('sha256')
-    .update(templateContents.join(''))
-    .digest('hex')
+  templateBuildHash = crypto
+    .createHash("sha256")
+    .update(templateContents.join(""))
+    .digest("hex")
     .substring(0, 16);
   console.log(`  Template hash: ${templateBuildHash}`);
 
   // Upload nested templates to versioned paths
   for (const { dir, file, content } of templateFiles) {
     const key = `resources/${templateBuildHash}/${dir}/${file}`;
-    await uploadFile(TEMPLATE_BUCKET, key, content, 'application/x-yaml');
+    await uploadFile(TEMPLATE_BUCKET, key, content, "application/x-yaml");
     console.log(`  Uploaded: ${key}`);
   }
 
@@ -208,28 +404,39 @@ async function uploadTemplates(): Promise<void> {
   // This ensures old templates (without TemplateBuildHash) get the latest nested templates
   for (const { dir, file, content } of templateFiles) {
     const legacyKey = `resources/${dir}/${file}`;
-    await uploadFile(TEMPLATE_BUCKET, legacyKey, content, 'application/x-yaml');
+    await uploadFile(TEMPLATE_BUCKET, legacyKey, content, "application/x-yaml");
   }
   console.log(`  Uploaded legacy templates to unversioned paths`);
 
   // Upload main template (references versioned nested templates via TemplateBuildHash parameter)
-  const mainTemplate = fs.readFileSync(path.join(DEPLOY_DIR, 'cfn-template.yaml'), 'utf-8');
-  await uploadFile(TEMPLATE_BUCKET, 'cfn-template.yaml', mainTemplate, 'application/x-yaml');
+  const mainTemplate = fs.readFileSync(
+    path.join(DEPLOY_DIR, "cfn-template.yaml"),
+    "utf-8",
+  );
+  await uploadFile(
+    TEMPLATE_BUCKET,
+    "cfn-template.yaml",
+    mainTemplate,
+    "application/x-yaml",
+  );
 }
 
-async function compileLambda(name: string, entryPoint: string): Promise<Buffer> {
+async function compileLambda(
+  name: string,
+  entryPoint: string,
+): Promise<Buffer> {
   console.log(`  Compiling Lambda: ${name}`);
 
-  const outdir = path.join(DEPLOY_DIR, '.cache', 'lambda', name);
+  const outdir = path.join(DEPLOY_DIR, ".cache", "lambda", name);
   fs.mkdirSync(outdir, { recursive: true });
 
   await esbuild.build({
     entryPoints: [entryPoint],
     bundle: true,
-    platform: 'node',
-    target: 'node20',
-    outfile: path.join(outdir, 'index.js'),
-    external: ['@aws-sdk/*'], // Use Lambda's built-in AWS SDK
+    platform: "node",
+    target: "node20",
+    outfile: path.join(outdir, "index.js"),
+    external: ["@aws-sdk/*"], // Use Lambda's built-in AWS SDK
     minify: true,
     sourcemap: false,
   });
@@ -238,13 +445,13 @@ async function compileLambda(name: string, entryPoint: string): Promise<Buffer> 
   const zipPath = path.join(outdir, `${name}.zip`);
   await new Promise<void>((resolve, reject) => {
     const output = fs.createWriteStream(zipPath);
-    const archive = archiver('zip', { zlib: { level: 9 } });
+    const archive = archiver("zip", { zlib: { level: 9 } });
 
-    output.on('close', () => resolve());
-    archive.on('error', (err) => reject(err));
+    output.on("close", () => resolve());
+    archive.on("error", (err) => reject(err));
 
     archive.pipe(output);
-    archive.file(path.join(outdir, 'index.js'), { name: 'index.js' });
+    archive.file(path.join(outdir, "index.js"), { name: "index.js" });
     archive.finalize();
   });
 
@@ -253,18 +460,24 @@ async function compileLambda(name: string, entryPoint: string): Promise<Buffer> 
 
 // Convert camelCase to kebab-case (e.g., createTipCheckout -> create-tip-checkout)
 function toKebabCase(str: string): string {
-  return str.replace(/([a-z])([A-Z])/g, '$1-$2').toLowerCase();
+  return str.replace(/([a-z])([A-Z])/g, "$1-$2").toLowerCase();
 }
 
 // Dynamically discover Lambda functions from the backend/lambda directory
-function discoverLambdaFunctions(): Array<{ name: string; file: string; functionName: string }> {
-  const lambdaDir = path.join(BACKEND_DIR, 'lambda');
+function discoverLambdaFunctions(): Array<{
+  name: string;
+  file: string;
+  functionName: string;
+}> {
+  const lambdaDir = path.join(BACKEND_DIR, "lambda");
   const files = fs.readdirSync(lambdaDir);
 
   return files
-    .filter((f) => f.endsWith('.ts') && !f.includes('.test.') && !f.includes('.d.'))
+    .filter(
+      (f) => f.endsWith(".ts") && !f.includes(".test.") && !f.includes(".d."),
+    )
     .map((file) => {
-      const name = file.replace('.ts', '');
+      const name = file.replace(".ts", "");
       const kebabName = toKebabCase(name);
       return {
         name,
@@ -278,9 +491,9 @@ function discoverLambdaFunctions(): Array<{ name: string; file: string; function
 // Note: orchestrator is now deployed via Fargate, not Lambda
 
 async function uploadLambdas(): Promise<void> {
-  console.log('\nCompiling and uploading Lambda functions...');
+  console.log("\nCompiling and uploading Lambda functions...");
 
-  const lambdaDir = path.join(BACKEND_DIR, 'lambda');
+  const lambdaDir = path.join(BACKEND_DIR, "lambda");
   const lambdaFunctions = discoverLambdaFunctions();
   console.log(`  Discovered ${lambdaFunctions.length} Lambda functions`);
 
@@ -293,7 +506,7 @@ async function uploadLambdas(): Promise<void> {
       }
       const zip = await compileLambda(lambda.name, entryPoint);
       const s3Key = `functions/${stage}/${lambda.name}.zip`;
-      await uploadFile(TEMPLATE_BUCKET, s3Key, zip, 'application/zip');
+      await uploadFile(TEMPLATE_BUCKET, s3Key, zip, "application/zip");
       console.log(`  Uploaded: ${s3Key}`);
     } catch (error) {
       console.error(`  Error compiling ${lambda.name}:`, error);
@@ -304,19 +517,21 @@ async function uploadLambdas(): Promise<void> {
 async function updateLambdaCode(outputs: StackOutputs): Promise<void> {
   // CloudFormation doesn't detect S3 content changes - update Lambda code directly
   if (!outputs.SeedRoleArn) {
-    console.log('\nSkipping Lambda code updates (SeedRoleArn not found)');
+    console.log("\nSkipping Lambda code updates (SeedRoleArn not found)");
     return;
   }
 
-  console.log('\nUpdating Lambda function code...');
-  console.log('  Assuming seed role for Lambda access...');
+  console.log("\nUpdating Lambda function code...");
+  console.log("  Assuming seed role for Lambda access...");
 
-  const assumeRoleResponse = await stsClient.send(new AssumeRoleCommand({
-    RoleArn: outputs.SeedRoleArn,
-    RoleSessionName: 'lambda-update-session',
-    ExternalId: `${APP_NAME}-seed-${stage}`,
-    DurationSeconds: 900,
-  }));
+  const assumeRoleResponse = await stsClient.send(
+    new AssumeRoleCommand({
+      RoleArn: outputs.SeedRoleArn,
+      RoleSessionName: "lambda-update-session",
+      ExternalId: `${APP_NAME}-seed-${stage}`,
+      DurationSeconds: 900,
+    }),
+  );
 
   const credentials = assumeRoleResponse.Credentials!;
   const lambdaClientWithRole = new LambdaClient({
@@ -333,39 +548,53 @@ async function updateLambdaCode(outputs: StackOutputs): Promise<void> {
   for (const lambda of lambdaFunctions) {
     const s3Key = `functions/${stage}/${lambda.name}.zip`;
     try {
-      await lambdaClientWithRole.send(new GetFunctionCommand({ FunctionName: lambda.functionName }));
-      await lambdaClientWithRole.send(new UpdateFunctionCodeCommand({
-        FunctionName: lambda.functionName,
-        S3Bucket: TEMPLATE_BUCKET,
-        S3Key: s3Key,
-      }));
+      await lambdaClientWithRole.send(
+        new GetFunctionCommand({ FunctionName: lambda.functionName }),
+      );
+      await lambdaClientWithRole.send(
+        new UpdateFunctionCodeCommand({
+          FunctionName: lambda.functionName,
+          S3Bucket: TEMPLATE_BUCKET,
+          S3Key: s3Key,
+        }),
+      );
       console.log(`  Updated: ${lambda.functionName}`);
     } catch (lambdaError: unknown) {
-      const errorMessage = lambdaError instanceof Error ? lambdaError.message : String(lambdaError);
-      if (errorMessage.includes('ResourceNotFoundException') || errorMessage.includes('Function not found')) {
+      const errorMessage =
+        lambdaError instanceof Error
+          ? lambdaError.message
+          : String(lambdaError);
+      if (
+        errorMessage.includes("ResourceNotFoundException") ||
+        errorMessage.includes("Function not found")
+      ) {
         // Lambda doesn't exist yet - first deploy
         continue;
       }
-      console.warn(`  Warning: Could not update ${lambda.functionName}: ${errorMessage}`);
+      console.warn(
+        `  Warning: Could not update ${lambda.functionName}: ${errorMessage}`,
+      );
     }
   }
 }
 
 async function compileAndUploadResolvers(): Promise<void> {
-  console.log('\nCompiling and uploading AppSync resolvers...');
+  console.log("\nCompiling and uploading AppSync resolvers...");
 
-  const resolverDir = path.join(BACKEND_DIR, 'resolvers');
+  const resolverDir = path.join(BACKEND_DIR, "resolvers");
 
   // Find all resolver files (relative to resolverDir)
   const resolverFiles: string[] = [];
-  const findResolvers = (dir: string, relativePath: string = ''): void => {
+  const findResolvers = (dir: string, relativePath: string = ""): void => {
     const entries = fs.readdirSync(dir, { withFileTypes: true });
     for (const entry of entries) {
       const fullPath = path.join(dir, entry.name);
-      const relPath = relativePath ? path.join(relativePath, entry.name) : entry.name;
+      const relPath = relativePath
+        ? path.join(relativePath, entry.name)
+        : entry.name;
       if (entry.isDirectory()) {
         findResolvers(fullPath, relPath);
-      } else if (entry.name.endsWith('.ts') && !entry.name.includes('.test.')) {
+      } else if (entry.name.endsWith(".ts") && !entry.name.includes(".test.")) {
         resolverFiles.push(relPath);
       }
     }
@@ -373,7 +602,7 @@ async function compileAndUploadResolvers(): Promise<void> {
   findResolvers(resolverDir);
 
   if (resolverFiles.length === 0) {
-    console.log('  No resolver files found, skipping...');
+    console.log("  No resolver files found, skipping...");
     return;
   }
 
@@ -392,7 +621,9 @@ async function compileAndUploadResolvers(): Promise<void> {
 
   resolversBuildHash = await compiler.compileAndUploadResolvers();
 
-  console.log(`  Resolvers compiled and uploaded with hash: ${resolversBuildHash}`);
+  console.log(
+    `  Resolvers compiled and uploaded with hash: ${resolversBuildHash}`,
+  );
 }
 
 async function stackExists(): Promise<boolean> {
@@ -400,7 +631,7 @@ async function stackExists(): Promise<boolean> {
     await cfnClient.send(new DescribeStacksCommand({ StackName: STACK_NAME }));
     return true;
   } catch (error: unknown) {
-    if (error instanceof Error && error.message?.includes('does not exist')) {
+    if (error instanceof Error && error.message?.includes("does not exist")) {
       return false;
     }
     throw error;
@@ -409,10 +640,12 @@ async function stackExists(): Promise<boolean> {
 
 async function certificateStackExists(): Promise<boolean> {
   try {
-    await cfnClientUsEast1.send(new DescribeStacksCommand({ StackName: CERTIFICATE_STACK_NAME }));
+    await cfnClientUsEast1.send(
+      new DescribeStacksCommand({ StackName: CERTIFICATE_STACK_NAME }),
+    );
     return true;
   } catch (error: unknown) {
-    if (error instanceof Error && error.message?.includes('does not exist')) {
+    if (error instanceof Error && error.message?.includes("does not exist")) {
       return false;
     }
     throw error;
@@ -420,41 +653,377 @@ async function certificateStackExists(): Promise<boolean> {
 }
 
 async function getCertificateStackOutputs(): Promise<CertificateOutputs> {
-  const response = await cfnClientUsEast1.send(new DescribeStacksCommand({ StackName: CERTIFICATE_STACK_NAME }));
+  const response = await cfnClientUsEast1.send(
+    new DescribeStacksCommand({ StackName: CERTIFICATE_STACK_NAME }),
+  );
   const outputs: CertificateOutputs = {};
 
   for (const output of response.Stacks?.[0]?.Outputs || []) {
     if (output.OutputKey && output.OutputValue) {
-      outputs[output.OutputKey as keyof CertificateOutputs] = output.OutputValue;
+      outputs[output.OutputKey as keyof CertificateOutputs] =
+        output.OutputValue;
     }
   }
 
   return outputs;
 }
 
+// ============== SES Email Receiving Stack ==============
+
+type SesStackStatus =
+  | { exists: false }
+  | { exists: true; status: string; canUpdate: boolean };
+
+async function getSesStackStatus(): Promise<SesStackStatus> {
+  try {
+    const response = await cfnClientUsEast1.send(
+      new DescribeStacksCommand({ StackName: SES_STACK_NAME }),
+    );
+    const status = response.Stacks?.[0]?.StackStatus || "UNKNOWN";
+    // Can only update stacks in terminal successful states
+    const canUpdate = [
+      "CREATE_COMPLETE",
+      "UPDATE_COMPLETE",
+      "UPDATE_ROLLBACK_COMPLETE",
+    ].includes(status);
+    return { exists: true, status, canUpdate };
+  } catch (error: unknown) {
+    if (error instanceof Error && error.message?.includes("does not exist")) {
+      return { exists: false };
+    }
+    throw error;
+  }
+}
+
+async function deleteSesStack(): Promise<void> {
+  console.log(`  Deleting failed SES stack: ${SES_STACK_NAME}...`);
+
+  // Delete the stack
+  await cfnClientUsEast1.send(
+    new DeleteStackCommand({
+      StackName: SES_STACK_NAME,
+    }),
+  );
+  await waitUntilStackDeleteComplete(
+    { client: cfnClientUsEast1, maxWaitTime: 300 },
+    { StackName: SES_STACK_NAME },
+  );
+  console.log("  Deleted failed stack");
+
+  // Clean up any leftover IAM resources that CloudFormation couldn't delete
+  const roleName = `${APP_NAME}-ses-email-receiver-role-${stage}`;
+  try {
+    const iamClient = new IAMClient({ region: SES_REGION });
+
+    // Check if role still exists
+    await iamClient.send(new GetRoleCommand({ RoleName: roleName }));
+    console.log(`  Cleaning up leftover IAM role: ${roleName}`);
+
+    // Detach managed policies
+    await iamClient
+      .send(
+        new DetachRolePolicyCommand({
+          RoleName: roleName,
+          PolicyArn:
+            "arn:aws:iam::aws:policy/service-role/AWSLambdaBasicExecutionRole",
+        }),
+      )
+      .catch(() => {
+        /* Policy may not be attached */
+      });
+
+    // Delete inline policies
+    await iamClient
+      .send(
+        new DeleteRolePolicyCommand({
+          RoleName: roleName,
+          PolicyName: "S3ReadAccess",
+        }),
+      )
+      .catch(() => {
+        /* Policy may not exist */
+      });
+
+    await iamClient
+      .send(
+        new DeleteRolePolicyCommand({
+          RoleName: roleName,
+          PolicyName: "SSMWriteAccess",
+        }),
+      )
+      .catch(() => {
+        /* Policy may not exist */
+      });
+
+    // Delete the role
+    await iamClient.send(new DeleteRoleCommand({ RoleName: roleName }));
+    console.log(`  Cleaned up leftover role: ${roleName}`);
+  } catch (error: unknown) {
+    // Role doesn't exist or already cleaned up
+    const errorMessage = error instanceof Error ? error.message : String(error);
+    if (!errorMessage.includes("NoSuchEntity")) {
+      console.log(
+        `  Note: Could not clean up role (may not exist): ${errorMessage}`,
+      );
+    }
+  }
+}
+
+async function checkDomainVerification(): Promise<boolean> {
+  try {
+    const response = await sesClient.send(
+      new GetIdentityVerificationAttributesCommand({
+        Identities: [DOMAIN_NAME],
+      }),
+    );
+    const status =
+      response.VerificationAttributes?.[DOMAIN_NAME]?.VerificationStatus;
+    return status === "Success";
+  } catch {
+    return false;
+  }
+}
+
+async function getSesStackOutputs(): Promise<Record<string, string>> {
+  try {
+    const response = await cfnClientUsEast1.send(
+      new DescribeStacksCommand({ StackName: SES_STACK_NAME }),
+    );
+    const outputs: Record<string, string> = {};
+    for (const output of response.Stacks?.[0]?.Outputs ?? []) {
+      if (output.OutputKey && output.OutputValue) {
+        outputs[output.OutputKey] = output.OutputValue;
+      }
+    }
+    return outputs;
+  } catch {
+    return {};
+  }
+}
+
+async function deploySesStack(): Promise<void> {
+  console.log("\nDeploying SES Email Receiving stack to us-east-1...");
+
+  // Check domain verification
+  const isVerified = await checkDomainVerification();
+  if (!isVerified) {
+    console.log(
+      `  Warning: Domain ${DOMAIN_NAME} is not verified in SES us-east-1`,
+    );
+    console.log("  Email receiving may not work until domain is verified");
+  } else {
+    console.log(`  Domain ${DOMAIN_NAME} is verified in SES`);
+  }
+
+  // Upload SES template
+  const sesTemplate = fs.readFileSync(
+    path.join(DEPLOY_DIR, "resources", "SES", "ses-email-receiving.yaml"),
+    "utf-8",
+  );
+  await uploadFile(
+    TEMPLATE_BUCKET,
+    "resources/SES/ses-email-receiving.yaml",
+    sesTemplate,
+    "application/x-yaml",
+  );
+
+  const templateUrl = `https://${TEMPLATE_BUCKET}.s3.${REGION}.amazonaws.com/resources/SES/ses-email-receiving.yaml`;
+  const hostedZoneId = process.env.HOSTED_ZONE_ID || "";
+
+  const parameters = [
+    { ParameterKey: "Stage", ParameterValue: stage },
+    { ParameterKey: "AppName", ParameterValue: APP_NAME },
+    { ParameterKey: "DomainName", ParameterValue: DOMAIN_NAME },
+    { ParameterKey: "SSMRegion", ParameterValue: REGION },
+    { ParameterKey: "HostedZoneId", ParameterValue: hostedZoneId },
+    { ParameterKey: "TemplateBucketName", ParameterValue: TEMPLATE_BUCKET },
+  ];
+
+  const stackStatus = await getSesStackStatus();
+
+  // If stack exists but is in a failed state, delete it first
+  if (stackStatus.exists && !stackStatus.canUpdate) {
+    console.log(
+      `  Stack is in ${stackStatus.status} state - deleting for retry...`,
+    );
+    await deleteSesStack();
+  }
+
+  // Re-check status after potential deletion
+  const currentStatus = await getSesStackStatus();
+
+  try {
+    if (currentStatus.exists && currentStatus.canUpdate) {
+      console.log(`  Updating SES stack: ${SES_STACK_NAME}`);
+      await cfnClientUsEast1.send(
+        new UpdateStackCommand({
+          StackName: SES_STACK_NAME,
+          TemplateURL: templateUrl,
+          Parameters: parameters,
+          Capabilities: ["CAPABILITY_NAMED_IAM"],
+          RoleARN: CFN_ROLE_ARN,
+        }),
+      );
+      await waitUntilStackUpdateComplete(
+        { client: cfnClientUsEast1, maxWaitTime: 600 },
+        { StackName: SES_STACK_NAME },
+      );
+    } else {
+      console.log(`  Creating SES stack: ${SES_STACK_NAME}`);
+      await cfnClientUsEast1.send(
+        new CreateStackCommand({
+          StackName: SES_STACK_NAME,
+          TemplateURL: templateUrl,
+          Parameters: parameters,
+          Capabilities: ["CAPABILITY_NAMED_IAM"],
+          RoleARN: CFN_ROLE_ARN,
+          DisableRollback: true, // Keep failed resources for debugging
+        }),
+      );
+      await waitUntilStackCreateComplete(
+        { client: cfnClientUsEast1, maxWaitTime: 600 },
+        { StackName: SES_STACK_NAME },
+      );
+    }
+    console.log("  SES stack deployment complete!");
+  } catch (error: unknown) {
+    if (
+      error instanceof Error &&
+      error.message?.includes("No updates are to be performed")
+    ) {
+      console.log("  No SES stack updates needed");
+    } else {
+      throw error;
+    }
+  }
+}
+
+async function uploadAndUpdateSesLambda(): Promise<void> {
+  console.log("  Uploading and updating SES Lambda function code...");
+
+  // Get the Lambda code bucket from stack outputs
+  const outputs = await getSesStackOutputs();
+  const s3Bucket = outputs.LambdaCodeBucketName;
+  if (!s3Bucket) {
+    console.warn(
+      "  Warning: Could not get LambdaCodeBucketName from stack outputs",
+    );
+    return;
+  }
+
+  const functionName = `${APP_NAME}-ses-email-receiver-${stage}`;
+  const s3Key = "sesEmailReceiver.zip";
+
+  // Upload Lambda code to the bucket created by CloudFormation
+  const sesLambdaZip = fs.readFileSync(
+    path.join(
+      DEPLOY_DIR,
+      ".cache",
+      "lambda",
+      "sesEmailReceiver",
+      "sesEmailReceiver.zip",
+    ),
+  );
+  const s3ClientUsEast1 = new S3Client({ region: SES_REGION });
+  await s3ClientUsEast1.send(
+    new PutObjectCommand({
+      Bucket: s3Bucket,
+      Key: s3Key,
+      Body: sesLambdaZip,
+      ContentType: "application/zip",
+    }),
+  );
+  console.log(`  Uploaded Lambda code to ${s3Bucket}/${s3Key}`);
+
+  // Update Lambda function to use the new code
+  try {
+    await lambdaClientSes.send(
+      new GetFunctionCommand({ FunctionName: functionName }),
+    );
+    await lambdaClientSes.send(
+      new UpdateFunctionCodeCommand({
+        FunctionName: functionName,
+        S3Bucket: s3Bucket,
+        S3Key: s3Key,
+      }),
+    );
+    console.log(`  Updated: ${functionName}`);
+  } catch (error: unknown) {
+    const errorMessage = error instanceof Error ? error.message : String(error);
+    if (
+      errorMessage.includes("ResourceNotFoundException") ||
+      errorMessage.includes("Function not found")
+    ) {
+      console.log(
+        `  SES Lambda not found yet (first deploy) - will be created by CloudFormation`,
+      );
+    } else {
+      console.warn(
+        `  Warning: Could not update ${functionName}: ${errorMessage}`,
+      );
+    }
+  }
+}
+
+async function activateReceiptRuleSet(): Promise<void> {
+  console.log("  Activating SES Receipt Rule Set...");
+
+  const ruleSetName = `${APP_NAME}-e2e-ruleset-${stage}`;
+
+  try {
+    await sesClient.send(
+      new SetActiveReceiptRuleSetCommand({
+        RuleSetName: ruleSetName,
+      }),
+    );
+    console.log(`  Activated rule set: ${ruleSetName}`);
+  } catch (error: unknown) {
+    const errorMessage = error instanceof Error ? error.message : String(error);
+    if (errorMessage.includes("RuleSetDoesNotExist")) {
+      console.log(
+        `  Rule set ${ruleSetName} does not exist yet - will be created by CloudFormation`,
+      );
+    } else if (errorMessage.includes("AlreadyExists")) {
+      console.log(`  Rule set ${ruleSetName} is already active`);
+    } else {
+      console.warn(`  Warning: Could not activate rule set: ${errorMessage}`);
+    }
+  }
+}
+
+// ============== Certificate Stack ==============
+
 async function deployCertificateStack(): Promise<CertificateOutputs> {
-  const domainName = process.env.DOMAIN_NAME || '';
-  const hostedZoneId = process.env.HOSTED_ZONE_ID || '';
+  const domainName = process.env.DOMAIN_NAME || "";
+  const hostedZoneId = process.env.HOSTED_ZONE_ID || "";
 
   if (!domainName || !hostedZoneId) {
-    console.log('  Skipping certificate stack (no domain configured)');
+    console.log("  Skipping certificate stack (no domain configured)");
     return {};
   }
 
-  console.log('\nDeploying certificate stack to us-east-1...');
+  console.log("\nDeploying certificate stack to us-east-1...");
 
   // Upload certificate template to S3
-  const certTemplate = fs.readFileSync(path.join(DEPLOY_DIR, 'resources', 'Certificate', 'certificate.yaml'), 'utf-8');
-  await uploadFile(TEMPLATE_BUCKET, 'resources/Certificate/certificate.yaml', certTemplate, 'application/x-yaml');
-  console.log('  Uploaded: resources/Certificate/certificate.yaml');
+  const certTemplate = fs.readFileSync(
+    path.join(DEPLOY_DIR, "resources", "Certificate", "certificate.yaml"),
+    "utf-8",
+  );
+  await uploadFile(
+    TEMPLATE_BUCKET,
+    "resources/Certificate/certificate.yaml",
+    certTemplate,
+    "application/x-yaml",
+  );
+  console.log("  Uploaded: resources/Certificate/certificate.yaml");
 
   const templateUrl = `https://${TEMPLATE_BUCKET}.s3.${REGION}.amazonaws.com/resources/Certificate/certificate.yaml`;
 
   const parameters = [
-    { ParameterKey: 'Stage', ParameterValue: stage },
-    { ParameterKey: 'AppName', ParameterValue: APP_NAME },
-    { ParameterKey: 'DomainName', ParameterValue: domainName },
-    { ParameterKey: 'HostedZoneId', ParameterValue: hostedZoneId },
+    { ParameterKey: "Stage", ParameterValue: stage },
+    { ParameterKey: "AppName", ParameterValue: APP_NAME },
+    { ParameterKey: "DomainName", ParameterValue: domainName },
+    { ParameterKey: "HostedZoneId", ParameterValue: hostedZoneId },
   ];
 
   const exists = await certificateStackExists();
@@ -462,35 +1031,42 @@ async function deployCertificateStack(): Promise<CertificateOutputs> {
   try {
     if (exists) {
       console.log(`  Updating certificate stack: ${CERTIFICATE_STACK_NAME}`);
-      await cfnClientUsEast1.send(new UpdateStackCommand({
-        StackName: CERTIFICATE_STACK_NAME,
-        TemplateURL: templateUrl,
-        Parameters: parameters,
-        RoleARN: CFN_ROLE_ARN,
-      }));
+      await cfnClientUsEast1.send(
+        new UpdateStackCommand({
+          StackName: CERTIFICATE_STACK_NAME,
+          TemplateURL: templateUrl,
+          Parameters: parameters,
+          RoleARN: CFN_ROLE_ARN,
+        }),
+      );
       await waitUntilStackUpdateComplete(
         { client: cfnClientUsEast1, maxWaitTime: 600 },
-        { StackName: CERTIFICATE_STACK_NAME }
+        { StackName: CERTIFICATE_STACK_NAME },
       );
     } else {
       console.log(`  Creating certificate stack: ${CERTIFICATE_STACK_NAME}`);
-      console.log('  Note: DNS validation may take a few minutes...');
-      await cfnClientUsEast1.send(new CreateStackCommand({
-        StackName: CERTIFICATE_STACK_NAME,
-        TemplateURL: templateUrl,
-        Parameters: parameters,
-        RoleARN: CFN_ROLE_ARN,
-        DisableRollback: true,
-      }));
+      console.log("  Note: DNS validation may take a few minutes...");
+      await cfnClientUsEast1.send(
+        new CreateStackCommand({
+          StackName: CERTIFICATE_STACK_NAME,
+          TemplateURL: templateUrl,
+          Parameters: parameters,
+          RoleARN: CFN_ROLE_ARN,
+          DisableRollback: true,
+        }),
+      );
       await waitUntilStackCreateComplete(
         { client: cfnClientUsEast1, maxWaitTime: 600 },
-        { StackName: CERTIFICATE_STACK_NAME }
+        { StackName: CERTIFICATE_STACK_NAME },
       );
     }
-    console.log('  Certificate stack deployment complete!');
+    console.log("  Certificate stack deployment complete!");
   } catch (error: unknown) {
-    if (error instanceof Error && error.message?.includes('No updates are to be performed')) {
-      console.log('  No certificate updates needed');
+    if (
+      error instanceof Error &&
+      error.message?.includes("No updates are to be performed")
+    ) {
+      console.log("  No certificate updates needed");
     } else {
       throw error;
     }
@@ -500,7 +1076,9 @@ async function deployCertificateStack(): Promise<CertificateOutputs> {
 }
 
 async function getStackOutputs(): Promise<StackOutputs> {
-  const response = await cfnClient.send(new DescribeStacksCommand({ StackName: STACK_NAME }));
+  const response = await cfnClient.send(
+    new DescribeStacksCommand({ StackName: STACK_NAME }),
+  );
   const outputs: StackOutputs = {};
 
   for (const output of response.Stacks?.[0]?.Outputs || []) {
@@ -512,35 +1090,50 @@ async function getStackOutputs(): Promise<StackOutputs> {
   return outputs;
 }
 
-async function deployStack(certificateOutputs: CertificateOutputs): Promise<void> {
-  console.log('\nDeploying CloudFormation stack...');
+async function deployStack(
+  certificateOutputs: CertificateOutputs,
+): Promise<void> {
+  console.log("\nDeploying CloudFormation stack...");
 
   const templateUrl = `https://${TEMPLATE_BUCKET}.s3.${REGION}.amazonaws.com/cfn-template.yaml`;
-  const ablyApiKey = process.env.ABLY_API_KEY || '';
-  const deployUserArn = process.env.DEPLOY_USER_ARN || '';
-  const domainName = stage === 'prod' ? (process.env.DOMAIN_NAME || '') : '';
-  const hostedZoneId = stage === 'prod' ? (process.env.HOSTED_ZONE_ID || '') : '';
+  const ablyApiKey = process.env.ABLY_API_KEY || "";
+  const deployUserArn = process.env.DEPLOY_USER_ARN || "";
+  const domainName = stage === "prod" ? process.env.DOMAIN_NAME || "" : "";
+  const hostedZoneId = stage === "prod" ? process.env.HOSTED_ZONE_ID || "" : "";
   // Use certificate ARNs from the certificate stack, fall back to .env for backwards compatibility
-  const certificateArn = stage === 'prod' ? (certificateOutputs.MainCertificateArn || process.env.CERTIFICATE_ARN || '') : '';
-  const authDomainCertificateArn = stage === 'prod' ? (certificateOutputs.AuthCertificateArn || process.env.AUTH_DOMAIN_CERTIFICATE_ARN || '') : '';
-  const googleClientId = process.env.GOOGLE_CLIENT_ID || '';
-  const googleClientSecret = process.env.GOOGLE_CLIENT_SECRET || '';
+  const certificateArn =
+    stage === "prod"
+      ? certificateOutputs.MainCertificateArn ||
+        process.env.CERTIFICATE_ARN ||
+        ""
+      : "";
+  const authDomainCertificateArn =
+    stage === "prod"
+      ? certificateOutputs.AuthCertificateArn ||
+        process.env.AUTH_DOMAIN_CERTIFICATE_ARN ||
+        ""
+      : "";
+  const googleClientId = process.env.GOOGLE_CLIENT_ID || "";
+  const googleClientSecret = process.env.GOOGLE_CLIENT_SECRET || "";
 
   const parameters = [
-    { ParameterKey: 'Stage', ParameterValue: stage },
-    { ParameterKey: 'AppName', ParameterValue: APP_NAME },
-    { ParameterKey: 'TemplateBucketName', ParameterValue: TEMPLATE_BUCKET },
-    { ParameterKey: 'AblyApiKey', ParameterValue: ablyApiKey },
-    { ParameterKey: 'DeployUserArn', ParameterValue: deployUserArn },
-    { ParameterKey: 'DomainName', ParameterValue: domainName },
-    { ParameterKey: 'HostedZoneId', ParameterValue: hostedZoneId },
-    { ParameterKey: 'CertificateArn', ParameterValue: certificateArn },
-    { ParameterKey: 'AuthDomainCertificateArn', ParameterValue: authDomainCertificateArn },
-    { ParameterKey: 'GoogleClientId', ParameterValue: googleClientId },
-    { ParameterKey: 'GoogleClientSecret', ParameterValue: googleClientSecret },
-    { ParameterKey: 'ResolversBuildHash', ParameterValue: resolversBuildHash },
-    { ParameterKey: 'SchemaBuildHash', ParameterValue: schemaBuildHash },
-    { ParameterKey: 'TemplateBuildHash', ParameterValue: templateBuildHash },
+    { ParameterKey: "Stage", ParameterValue: stage },
+    { ParameterKey: "AppName", ParameterValue: APP_NAME },
+    { ParameterKey: "TemplateBucketName", ParameterValue: TEMPLATE_BUCKET },
+    { ParameterKey: "AblyApiKey", ParameterValue: ablyApiKey },
+    { ParameterKey: "DeployUserArn", ParameterValue: deployUserArn },
+    { ParameterKey: "DomainName", ParameterValue: domainName },
+    { ParameterKey: "HostedZoneId", ParameterValue: hostedZoneId },
+    { ParameterKey: "CertificateArn", ParameterValue: certificateArn },
+    {
+      ParameterKey: "AuthDomainCertificateArn",
+      ParameterValue: authDomainCertificateArn,
+    },
+    { ParameterKey: "GoogleClientId", ParameterValue: googleClientId },
+    { ParameterKey: "GoogleClientSecret", ParameterValue: googleClientSecret },
+    { ParameterKey: "ResolversBuildHash", ParameterValue: resolversBuildHash },
+    { ParameterKey: "SchemaBuildHash", ParameterValue: schemaBuildHash },
+    { ParameterKey: "TemplateBuildHash", ParameterValue: templateBuildHash },
   ];
 
   const exists = await stackExists();
@@ -549,37 +1142,44 @@ async function deployStack(certificateOutputs: CertificateOutputs): Promise<void
     if (exists) {
       console.log(`Updating stack: ${STACK_NAME}`);
       console.log(`Using CFN Role: ${CFN_ROLE_ARN}`);
-      await cfnClient.send(new UpdateStackCommand({
-        StackName: STACK_NAME,
-        TemplateURL: templateUrl,
-        Parameters: parameters,
-        Capabilities: ['CAPABILITY_NAMED_IAM'],
-        RoleARN: CFN_ROLE_ARN,
-      }));
+      await cfnClient.send(
+        new UpdateStackCommand({
+          StackName: STACK_NAME,
+          TemplateURL: templateUrl,
+          Parameters: parameters,
+          Capabilities: ["CAPABILITY_NAMED_IAM"],
+          RoleARN: CFN_ROLE_ARN,
+        }),
+      );
       await waitUntilStackUpdateComplete(
         { client: cfnClient, maxWaitTime: 900 },
-        { StackName: STACK_NAME }
+        { StackName: STACK_NAME },
       );
     } else {
       console.log(`Creating stack: ${STACK_NAME}`);
       console.log(`Using CFN Role: ${CFN_ROLE_ARN}`);
-      await cfnClient.send(new CreateStackCommand({
-        StackName: STACK_NAME,
-        TemplateURL: templateUrl,
-        Parameters: parameters,
-        Capabilities: ['CAPABILITY_NAMED_IAM'],
-        RoleARN: CFN_ROLE_ARN,
-        DisableRollback: true, // Keep resources on failure for debugging
-      }));
+      await cfnClient.send(
+        new CreateStackCommand({
+          StackName: STACK_NAME,
+          TemplateURL: templateUrl,
+          Parameters: parameters,
+          Capabilities: ["CAPABILITY_NAMED_IAM"],
+          RoleARN: CFN_ROLE_ARN,
+          DisableRollback: true, // Keep resources on failure for debugging
+        }),
+      );
       await waitUntilStackCreateComplete(
         { client: cfnClient, maxWaitTime: 900 },
-        { StackName: STACK_NAME }
+        { StackName: STACK_NAME },
       );
     }
-    console.log('Stack deployment complete!');
+    console.log("Stack deployment complete!");
   } catch (error: unknown) {
-    if (error instanceof Error && error.message?.includes('No updates are to be performed')) {
-      console.log('No infrastructure updates needed');
+    if (
+      error instanceof Error &&
+      error.message?.includes("No updates are to be performed")
+    ) {
+      console.log("No infrastructure updates needed");
     } else {
       throw error;
     }
@@ -587,12 +1187,12 @@ async function deployStack(certificateOutputs: CertificateOutputs): Promise<void
 }
 
 async function buildFrontend(outputs: StackOutputs): Promise<void> {
-  console.log('\nBuilding frontend...');
+  console.log("\nBuilding frontend...");
 
   // Create .env.local with stack outputs
-  const ablyApiKey = process.env.ABLY_API_KEY || '';
-  const recaptchaSiteKey = process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY || '';
-  const appUrl = process.env.NEXT_PUBLIC_APP_URL || '';
+  const ablyApiKey = process.env.ABLY_API_KEY || "";
+  const recaptchaSiteKey = process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY || "";
+  const appUrl = process.env.NEXT_PUBLIC_APP_URL || "";
   const envContent = `
 NEXT_PUBLIC_AWS_REGION=${REGION}
 NEXT_PUBLIC_USER_POOL_ID=${outputs.UserPoolId}
@@ -601,40 +1201,46 @@ NEXT_PUBLIC_IDENTITY_POOL_ID=${outputs.IdentityPoolId}
 NEXT_PUBLIC_APPSYNC_URL=${outputs.ApiUrl}
 NEXT_PUBLIC_CLOUDFRONT_URL=https://${outputs.CloudFrontDomainName}
 NEXT_PUBLIC_COGNITO_DOMAIN=${outputs.CognitoDomain}
-NEXT_PUBLIC_GOOGLE_OAUTH_ENABLED=${outputs.GoogleOAuthEnabled || 'false'}
+NEXT_PUBLIC_GOOGLE_OAUTH_ENABLED=${outputs.GoogleOAuthEnabled || "false"}
 NEXT_PUBLIC_ABLY_KEY=${ablyApiKey}
 NEXT_PUBLIC_RECAPTCHA_SITE_KEY=${recaptchaSiteKey}
 NEXT_PUBLIC_APP_URL=${appUrl}
 `.trim();
 
-  fs.writeFileSync(path.join(FRONTEND_DIR, '.env.local'), envContent);
-  console.log('  Created .env.local');
+  fs.writeFileSync(path.join(FRONTEND_DIR, ".env.local"), envContent);
+  console.log("  Created .env.local");
 
   // Build
-  execSync('yarn build', { cwd: FRONTEND_DIR, stdio: 'inherit' });
+  execSync("yarn build", { cwd: FRONTEND_DIR, stdio: "inherit" });
 }
 
 async function buildAndPushOrchestrator(outputs: StackOutputs): Promise<void> {
   if (!outputs.OrchestratorRepositoryUri) {
-    console.log('\nSkipping orchestrator deployment (ECR repository not found)');
+    console.log(
+      "\nSkipping orchestrator deployment (ECR repository not found)",
+    );
     return;
   }
 
   if (!outputs.SeedRoleArn) {
-    console.log('\nSkipping orchestrator deployment (SeedRoleArn not found - needed for ECR access)');
+    console.log(
+      "\nSkipping orchestrator deployment (SeedRoleArn not found - needed for ECR access)",
+    );
     return;
   }
 
-  console.log('\nBuilding and pushing orchestrator Docker image...');
+  console.log("\nBuilding and pushing orchestrator Docker image...");
 
   // Assume the seed role for ECR/ECS access
-  console.log('  Assuming seed role for ECR access...');
-  const assumeRoleResponse = await stsClient.send(new AssumeRoleCommand({
-    RoleArn: outputs.SeedRoleArn,
-    RoleSessionName: 'deploy-orchestrator',
-    ExternalId: `${APP_NAME}-seed-${stage}`,
-    DurationSeconds: 3600,
-  }));
+  console.log("  Assuming seed role for ECR access...");
+  const assumeRoleResponse = await stsClient.send(
+    new AssumeRoleCommand({
+      RoleArn: outputs.SeedRoleArn,
+      RoleSessionName: "deploy-orchestrator",
+      ExternalId: `${APP_NAME}-seed-${stage}`,
+      DurationSeconds: 3600,
+    }),
+  );
 
   const credentials = assumeRoleResponse.Credentials!;
   const envWithCreds = {
@@ -645,61 +1251,71 @@ async function buildAndPushOrchestrator(outputs: StackOutputs): Promise<void> {
   };
 
   const repoUri = outputs.OrchestratorRepositoryUri;
-  const accountId = repoUri.split('.')[0];
+  const accountId = repoUri.split(".")[0];
   const ecrRegistry = `${accountId}.dkr.ecr.${REGION}.amazonaws.com`;
 
   // Login to ECR using assumed role credentials
-  console.log('  Logging into ECR...');
+  console.log("  Logging into ECR...");
   const loginCmd = `aws ecr get-login-password --region ${REGION} | docker login --username AWS --password-stdin ${ecrRegistry}`;
-  execSync(loginCmd, { cwd: ROOT_DIR, stdio: 'inherit', env: envWithCreds });
+  execSync(loginCmd, { cwd: ROOT_DIR, stdio: "inherit", env: envWithCreds });
 
   // Build Docker image (doesn't need AWS creds)
   // Use --no-cache to ensure code changes are always included (Docker layer caching
   // doesn't detect file content changes when COPY commands reference the same paths)
-  console.log('  Building Docker image (no cache)...');
-  execSync(`docker build --no-cache -t ${repoUri}:latest -f backend/Dockerfile .`, {
-    cwd: ROOT_DIR,
-    stdio: 'inherit',
-  });
+  console.log("  Building Docker image (no cache)...");
+  execSync(
+    `docker build --no-cache -t ${repoUri}:latest -f backend/Dockerfile .`,
+    {
+      cwd: ROOT_DIR,
+      stdio: "inherit",
+    },
+  );
 
   // Push to ECR using assumed role credentials
-  console.log('  Pushing to ECR...');
-  execSync(`docker push ${repoUri}:latest`, { cwd: ROOT_DIR, stdio: 'inherit' });
+  console.log("  Pushing to ECR...");
+  execSync(`docker push ${repoUri}:latest`, {
+    cwd: ROOT_DIR,
+    stdio: "inherit",
+  });
 
   // Scale up and force new deployment of ECS service
-  console.log('  Updating ECS service...');
+  console.log("  Updating ECS service...");
   const clusterName = outputs.OrchestratorClusterName!;
   const serviceName = `${APP_NAME}-orchestrator-${stage}`;
 
   // Scale to 1 task (in case this is the first deploy) and force new deployment
   execSync(
     `aws ecs update-service --cluster ${clusterName} --service ${serviceName} --desired-count 1 --force-new-deployment --region ${REGION}`,
-    { cwd: ROOT_DIR, stdio: 'inherit', env: envWithCreds }
+    { cwd: ROOT_DIR, stdio: "inherit", env: envWithCreds },
   );
 
-  console.log('  Orchestrator deployed!');
+  console.log("  Orchestrator deployed!");
 }
 
 async function deployFrontend(outputs: StackOutputs): Promise<void> {
-  console.log('\nDeploying frontend to S3...');
+  console.log("\nDeploying frontend to S3...");
 
-  const outDir = path.join(FRONTEND_DIR, 'out');
+  const outDir = path.join(FRONTEND_DIR, "out");
   if (!fs.existsSync(outDir)) {
-    throw new Error('Frontend build output not found. Run build first.');
+    throw new Error("Frontend build output not found. Run build first.");
   }
 
   // Assume the seed role for S3/CloudFront access
   if (!outputs.SeedRoleArn) {
-    throw new Error('SeedRoleArn not found in stack outputs. Make sure DeployUserArn is set.');
+    throw new Error(
+      "SeedRoleArn not found in stack outputs. Make sure DeployUserArn is set.",
+    );
   }
 
-  console.log('  Assuming seed role for deployment...');
-  const assumeRoleResponse = await stsClient.send(new AssumeRoleCommand({
-    RoleArn: outputs.SeedRoleArn,
-    RoleSessionName: 'deploy-frontend',
-    ExternalId: `${APP_NAME}-seed-${stage}`,
-    DurationSeconds: 3600,
-  }));
+  console.log("  Assuming seed role for deployment...");
+  const assumeRoleResponse = await stsClient.send(
+    new AssumeRoleCommand({
+      RoleArn: outputs.SeedRoleArn,
+      RoleSessionName: "deploy-frontend",
+      ExternalId: `${APP_NAME}-seed-${stage}`,
+      DurationSeconds: 3600,
+    }),
+  );
 
   const credentials = assumeRoleResponse.Credentials!;
 
@@ -725,7 +1341,7 @@ async function deployFrontend(outputs: StackOutputs): Promise<void> {
   const bucket = outputs.WebsiteBucket!;
 
   // Upload all files using assumed role
-  const uploadDir = async (dir: string, prefix: string = ''): Promise<void> => {
+  const uploadDir = async (dir: string, prefix: string = ""): Promise<void> => {
     const entries = fs.readdirSync(dir, { withFileTypes: true });
 
     for (const entry of entries) {
@@ -736,40 +1352,52 @@ async function deployFrontend(outputs: StackOutputs): Promise<void> {
         await uploadDir(fullPath, key);
       } else {
         const content = fs.readFileSync(fullPath);
-        const contentType = mimeTypes.lookup(entry.name) || 'application/octet-stream';
-        await seedS3Client.send(new PutObjectCommand({
-          Bucket: bucket,
-          Key: key,
-          Body: content,
-          ContentType: contentType,
-        }));
+        const contentType =
+          mimeTypes.lookup(entry.name) || "application/octet-stream";
+        await seedS3Client.send(
+          new PutObjectCommand({
+            Bucket: bucket,
+            Key: key,
+            Body: content,
+            ContentType: contentType,
+          }),
+        );
       }
     }
   };
 
   await uploadDir(outDir);
-  console.log('  Frontend uploaded to S3');
+  console.log("  Frontend uploaded to S3");
 
   // Invalidate CloudFront
-  console.log('  Invalidating CloudFront cache...');
-  await seedCfClient.send(new CreateInvalidationCommand({
-    DistributionId: outputs.CloudFrontDistributionId,
-    InvalidationBatch: {
-      Paths: {
-        Quantity: 1,
-        Items: ['/*'],
+  console.log("  Invalidating CloudFront cache...");
+  await seedCfClient.send(
+    new CreateInvalidationCommand({
+      DistributionId: outputs.CloudFrontDistributionId,
+      InvalidationBatch: {
+        Paths: {
+          Quantity: 1,
+          Items: ["/*"],
+        },
+        CallerReference: Date.now().toString(),
       },
-      CallerReference: Date.now().toString(),
-    },
-  }));
+    }),
+  );
 
-  console.log(`\nFrontend deployed to: https://${outputs.CloudFrontDomainName}`);
+  console.log(
+    `\nFrontend deployed to: https://${outputs.CloudFrontDomainName}`,
+  );
 }
 
-function cleanupOldFiles(dir: string, pattern: RegExp, keepLatest: number = 0): void {
+function cleanupOldFiles(
+  dir: string,
+  pattern: RegExp,
+  keepLatest: number = 0,
+): void {
   if (!fs.existsSync(dir)) return;
 
-  const files = fs.readdirSync(dir)
+  const files = fs
+    .readdirSync(dir)
     .filter((f) => pattern.test(f))
     .map((f) => ({
       name: f,
@@ -790,30 +1418,124 @@ function cleanupOldFiles(dir: string, pattern: RegExp, keepLatest: number = 0): 
   }
 }
 
+async function executeDeployment(option: DeployOption): Promise<void> {
+  const outputs = await getStackOutputs().catch(() => ({}) as StackOutputs);
+
+  switch (option) {
+    case "frontend":
+      await buildFrontend(outputs);
+      await deployFrontend(outputs);
+      break;
+
+    case "orchestrator":
+      await buildAndPushOrchestrator(outputs);
+      break;
+
+    case "lambdas":
+      await uploadLambdas();
+      await updateLambdaCode(outputs);
+      break;
+
+    case "schema":
+      await mergeAndUploadSchema();
+      // Note: Schema changes require stack update to take effect
+      console.log(
+        "\n  Note: Run 'CloudFormation Stack' deploy to apply schema changes",
+      );
+      break;
+
+    case "resolvers":
+      await compileAndUploadResolvers();
+      // Note: Resolver changes require stack update to take effect
+      console.log(
+        "\n  Note: Run 'CloudFormation Stack' deploy to apply resolver changes",
+      );
+      break;
+
+    case "stack": {
+      // Deploy infrastructure only (no frontend/orchestrator)
+      let certificateOutputs: CertificateOutputs = {};
+      if (stage === "prod") {
+        certificateOutputs = await deployCertificateStack();
+      }
+      await mergeAndUploadSchema();
+      await uploadTemplates();
+      await compileAndUploadResolvers();
+      await deployStack(certificateOutputs);
+      const newOutputs = await getStackOutputs();
+      console.log("\nStack Outputs:", JSON.stringify(newOutputs, null, 2));
+      break;
+    }
+
+    case "ses":
+      // Need to compile the SES Lambda first
+      await compileLambda(
+        "sesEmailReceiver",
+        path.join(BACKEND_DIR, "lambda", "sesEmailReceiver.ts"),
+      );
+      await deploySesStack();
+      await uploadAndUpdateSesLambda();
+      await activateReceiptRuleSet();
+      break;
+
+    case "full": {
+      // Full deployment
+      let certificateOutputs: CertificateOutputs = {};
+      if (stage === "prod") {
+        certificateOutputs = await deployCertificateStack();
+      }
+
+      await mergeAndUploadSchema();
+      await uploadTemplates();
+      await uploadLambdas();
+
+      // Deploy SES email receiving stack (for E2E testing)
+      await deploySesStack();
+      await uploadAndUpdateSesLambda();
+      await activateReceiptRuleSet();
+      await compileAndUploadResolvers();
+      await deployStack(certificateOutputs);
+
+      const fullOutputs = await getStackOutputs();
+      console.log("\nStack Outputs:", JSON.stringify(fullOutputs, null, 2));
+
+      // Update Lambda code (CloudFormation doesn't detect S3 content changes)
+      await updateLambdaCode(fullOutputs);
+
+      // Build and deploy orchestrator to Fargate
+      await buildAndPushOrchestrator(fullOutputs);
+
+      await buildFrontend(fullOutputs);
+      await deployFrontend(fullOutputs);
+      break;
+    }
+
+    case "exit":
+      console.log("Deployment cancelled.");
+      process.exit(0);
+  }
+}
+
 async function main(): Promise<void> {
   // Set up logging to file
-  const logDir = path.join(ROOT_DIR, '.cache', 'logs');
+  const logDir = path.join(ROOT_DIR, ".cache", "logs");
   if (!fs.existsSync(logDir)) {
     fs.mkdirSync(logDir, { recursive: true });
   }
 
   // Clean up old log files (keep none - delete all before creating new one)
-  console.log('Cleaning up old log files...');
+  console.log("Cleaning up old log files...");
   cleanupOldFiles(logDir, /^deploy-quiz-.*\.log$/, 0);
 
-  const timestamp = new Date().toISOString().replace(/:/g, '-').split('.')[0];
-  const action = frontendOnly ? 'frontend' : 'full';
-  const logFile = path.join(logDir, `deploy-quiz-${stage}-${action}-${timestamp}.log`);
-  setLogFile(logFile);
-  logger.info(`Logging to: ${logFile}`);
+  const timestamp = new Date().toISOString().replace(/:/g, "-").split(".")[0];
 
-  console.log(`\n${'='.repeat(60)}`);
+  console.log(`\n${"=".repeat(60)}`);
   console.log(`Quiz Night Live Deployment - Stage: ${stage}`);
-  console.log(`${'='.repeat(60)}\n`);
+  console.log(`${"=".repeat(60)}\n`);
 
   try {
     // Check AWS credentials first
-    console.log('Checking AWS credentials...');
+    console.log("Checking AWS credentials...");
     let { valid } = await checkCredentials();
 
     if (!valid) {
@@ -822,56 +1544,54 @@ async function main(): Promise<void> {
         process.exit(1);
       }
     } else {
-      console.log('AWS credentials OK\n');
+      console.log("AWS credentials OK\n");
     }
 
-    // Check bootstrap resources (unless frontend-only)
-    if (!frontendOnly) {
-      console.log('Checking bootstrap resources...');
+    // Determine deploy option
+    let deployOption: DeployOption;
+
+    if (frontendOnly) {
+      // Legacy --frontend-only flag
+      deployOption = "frontend";
+    } else if (skipMenu) {
+      // Skip menu, do full deploy
+      deployOption = "full";
+    } else {
+      // Show interactive menu
+      deployOption = await showMenu();
+    }
+
+    // Check bootstrap resources (not needed for frontend-only or exit)
+    if (deployOption !== "frontend" && deployOption !== "exit") {
+      console.log("Checking bootstrap resources...");
       const bootstrap = await checkBootstrapResources();
 
       if (!bootstrap.ready) {
         printBootstrapInstructions(bootstrap);
         process.exit(1);
       }
-      console.log('Bootstrap resources OK\n');
+      console.log("Bootstrap resources OK\n");
     }
 
-    if (frontendOnly) {
-      const outputs = await getStackOutputs();
-      await buildFrontend(outputs);
-      await deployFrontend(outputs);
-    } else {
-      // Deploy certificate stack first (only for prod with custom domain)
-      let certificateOutputs: CertificateOutputs = {};
-      if (stage === 'prod') {
-        certificateOutputs = await deployCertificateStack();
-      }
+    // Set up log file with selected action
+    const logFile = path.join(
+      logDir,
+      `deploy-quiz-${stage}-${deployOption}-${timestamp}.log`,
+    );
+    setLogFile(logFile);
+    logger.info(`Logging to: ${logFile}`);
 
-      await mergeAndUploadSchema();
-      await uploadTemplates();
-      await uploadLambdas();
-      await compileAndUploadResolvers();
-      await deployStack(certificateOutputs);
+    console.log(
+      `\nExecuting: ${MENU_OPTIONS.find((o) => o.option === deployOption)?.label || deployOption}\n`,
+    );
 
-      const outputs = await getStackOutputs();
-      console.log('\nStack Outputs:', JSON.stringify(outputs, null, 2));
+    await executeDeployment(deployOption);
 
-      // Update Lambda code (CloudFormation doesn't detect S3 content changes)
-      await updateLambdaCode(outputs);
-
-      // Build and deploy orchestrator to Fargate
-      await buildAndPushOrchestrator(outputs);
-
-      await buildFrontend(outputs);
-      await deployFrontend(outputs);
-    }
-
-    console.log('\n' + '='.repeat(60));
-    console.log('Deployment complete!');
-    console.log('='.repeat(60) + '\n');
+    console.log("\n" + "=".repeat(60));
+    console.log("Deployment complete!");
+    console.log("=".repeat(60) + "\n");
   } catch (error) {
-    console.error('\nDeployment failed:', error);
+    console.error("\nDeployment failed:", error);
     closeLogFile();
     process.exit(1);
   } finally {

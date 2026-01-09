@@ -139,7 +139,7 @@ function TipPageContent() {
           </CardBody>
         </Card>
       </main>
-      <AppFooter />
+      <AppFooter hideConnectionStatus />
     </>
   );
 }
