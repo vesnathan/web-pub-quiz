@@ -85,9 +85,9 @@ test.describe("Login Flow", () => {
     const quizRoomsHeading = page.getByRole("heading", { name: /quiz rooms/i });
     await expect(quizRoomsHeading).toBeVisible({ timeout: 10000 });
 
-    // Footer shows free question count for free users: "X free today"
-    const freeQuestionChip = page.locator("text=/\\d+ free today/i");
-    await expect(freeQuestionChip).toBeVisible({ timeout: 5000 });
+    // RoomList shows "Select a room to join the quiz!" message
+    const joinMessage = page.locator("text=Select a room to join the quiz!");
+    await expect(joinMessage).toBeVisible({ timeout: 5000 });
 
     console.log("Login flow completed successfully!");
 
