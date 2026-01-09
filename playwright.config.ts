@@ -18,6 +18,12 @@ export default defineConfig({
   },
 
   projects: [
+    // Protected routes test - no auth needed, can run first
+    {
+      name: "protected-routes",
+      testMatch: /protected-routes\.spec\.ts/,
+      use: { ...devices["Desktop Chrome"] },
+    },
     // Registration must run first to create the test user
     {
       name: "registration",
