@@ -74,9 +74,11 @@ export const handler: SESHandler = async (event: SESEvent) => {
 
       console.log("Email subject:", parsed.subject);
       console.log("Email text:", parsed.text?.substring(0, 500));
+      console.log("Email html:", parsed.html ? "present" : "none");
 
-      // Extract verification code (6 digits)
-      const codeMatch = parsed.text?.match(/\b(\d{6})\b/);
+      // Extract verification code (6 digits) from text or HTML
+      const textContent = parsed.text || parsed.html || "";
+      const codeMatch = textContent.match(/\b(\d{6})\b/);
       if (!codeMatch) {
         console.log("No 6-digit code found in email");
         continue;
