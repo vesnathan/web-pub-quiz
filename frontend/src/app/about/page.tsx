@@ -1,15 +1,34 @@
 "use client";
 
 import { Card, CardBody } from "@nextui-org/react";
-import { Navbar } from "@/components/Navbar";
+import Link from "next/link";
 import { AppFooter } from "@/components/AppFooter";
 
 export default function AboutPage() {
   return (
     <>
-      <Navbar />
       <main className="min-h-screen p-8">
         <div className="max-w-3xl mx-auto">
+          <Link
+            href="/"
+            className="inline-flex items-center gap-2 text-gray-400 hover:text-white mb-6 transition-colors"
+          >
+            <svg
+              className="w-5 h-5"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M10 19l-7-7m0 0l7-7m-7 7h18"
+              />
+            </svg>
+            Back to Lobby
+          </Link>
+
           <h1 className="text-3xl font-bold text-white mb-8">
             About QuizNight.live
           </h1>
