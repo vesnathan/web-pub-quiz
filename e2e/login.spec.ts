@@ -76,33 +76,18 @@ test.describe("Login Flow", () => {
     await expect(submitButton).toBeEnabled();
     await submitButton.click();
 
-    // Step 7: Wait for auth to complete - Welcome modal or lobby
-    const welcomeIndicator = page
-      .getByRole("button", { name: /start playing/i })
-      .or(page.getByRole("button", { name: /rooms/i }))
-      .or(page.locator("text=/lobby/i"));
+    // Step 7: Wait for auth to complete and modal to close
+    // Auth modal should disappear after successful login
+    await expect(authModal).not.toBeVisible({ timeout: 20000 });
 
-    await expect(welcomeIndicator.first()).toBeVisible({ timeout: 20000 });
+    // Step 8: Verify we're in the lobby by checking for actual UI elements
+    // RoomList shows "Quiz Rooms" heading
+    const quizRoomsHeading = page.getByRole("heading", { name: /quiz rooms/i });
+    await expect(quizRoomsHeading).toBeVisible({ timeout: 10000 });
 
-    // If there's a Start Playing button (Welcome modal), click it
-    const startPlayingButton = page.getByRole("button", {
-      name: /start playing/i,
-    });
-    if (await startPlayingButton.isVisible()) {
-      await startPlayingButton.click();
-    }
-
-    // Step 8: Verify we're in the lobby
-    await page.waitForTimeout(1000);
-
-    // Look for lobby indicators or the user's screen name
-    const lobbyIndicator = page
-      .locator(`text=${screenName}`)
-      .or(page.getByRole("button", { name: /rooms/i }))
-      .or(page.locator('[data-testid="lobby"]'))
-      .or(page.locator("text=/create.*room/i"));
-
-    await expect(lobbyIndicator.first()).toBeVisible({ timeout: 10000 });
+    // Footer shows free question count for free users: "X free today"
+    const freeQuestionChip = page.locator("text=/\\d+ free today/i");
+    await expect(freeQuestionChip).toBeVisible({ timeout: 5000 });
 
     console.log("Login flow completed successfully!");
 
