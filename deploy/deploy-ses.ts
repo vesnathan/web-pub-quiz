@@ -78,7 +78,6 @@ const HOSTED_ZONE_ID = process.env.HOSTED_ZONE_ID || "";
 
 // Clients - SES region (us-east-1)
 const cfnClientSes = new CloudFormationClient({ region: SES_REGION });
-const s3ClientSes = new S3Client({ region: SES_REGION });
 const lambdaClientSes = new LambdaClient({ region: SES_REGION });
 const sesClient = new SESClient({ region: SES_REGION });
 
@@ -408,12 +407,9 @@ async function updateLambdaCode(): Promise<void> {
   console.log("\nUpdating Lambda function code...");
 
   const functionName = `${APP_NAME}-ses-email-receiver-${stage}`;
-  // Lambda code bucket is in us-east-1, created by the stack
-  const lambdaCodeBucket = `${APP_NAME}-lambda-${stage}-us-east-1`;
-  const s3Key = `sesEmailReceiver.zip`;
 
   try {
-    // First, upload the Lambda code to the us-east-1 bucket
+    // Read the compiled Lambda zip file
     const zipPath = path.join(
       DEPLOY_DIR,
       ".cache",
@@ -421,30 +417,25 @@ async function updateLambdaCode(): Promise<void> {
       "sesEmailReceiver",
       "sesEmailReceiver.zip",
     );
-    if (fs.existsSync(zipPath)) {
-      console.log(
-        `  Uploading Lambda code to s3://${lambdaCodeBucket}/${s3Key}`,
-      );
-      const zipContent = fs.readFileSync(zipPath);
-      await s3ClientSes.send(
-        new PutObjectCommand({
-          Bucket: lambdaCodeBucket,
-          Key: s3Key,
-          Body: zipContent,
-          ContentType: "application/zip",
-        }),
-      );
+
+    if (!fs.existsSync(zipPath)) {
+      console.log("  Lambda zip not found - skipping update");
+      return;
     }
 
-    // Then update the Lambda function
+    const zipContent = fs.readFileSync(zipPath);
+
+    // Check if Lambda exists
     await lambdaClientSes.send(
       new GetFunctionCommand({ FunctionName: functionName }),
     );
+
+    // Update Lambda directly with zip bytes (no S3 needed)
+    console.log(`  Updating ${functionName} with zip bytes directly...`);
     await lambdaClientSes.send(
       new UpdateFunctionCodeCommand({
         FunctionName: functionName,
-        S3Bucket: lambdaCodeBucket,
-        S3Key: s3Key,
+        ZipFile: zipContent,
       }),
     );
     console.log(`  Updated: ${functionName}`);

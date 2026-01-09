@@ -39,22 +39,6 @@ Conditions:
   HasHostedZone: !Not [!Equals [!Ref HostedZoneId, ""]]
 
 Resources:
-  # S3 Bucket to store Lambda code (must be in same region as Lambda)
-  LambdaCodeBucket:
-    Type: AWS::S3::Bucket
-    Properties:
-      BucketName: !Sub "${AppName}-lambda-${Stage}-${AWS::Region}"
-      PublicAccessBlockConfiguration:
-        BlockPublicAcls: true
-        BlockPublicPolicy: true
-        IgnorePublicAcls: true
-        RestrictPublicBuckets: true
-      Tags:
-        - Key: Project
-          Value: quiz-night-live
-        - Key: Purpose
-          Value: Lambda Code Storage
-
   # S3 Bucket to store incoming emails
   EmailBucket:
     Type: AWS::S3::Bucket
@@ -217,12 +201,6 @@ Resources:
         - "10 inbound-smtp.us-east-1.amazonaws.com"
 
 Outputs:
-  LambdaCodeBucketName:
-    Description: S3 bucket for Lambda code (in same region as Lambda)
-    Value: !Ref LambdaCodeBucket
-    Export:
-      Name: !Sub "${AppName}-lambda-code-bucket-${Stage}"
-
   EmailBucketName:
     Description: S3 bucket for incoming emails
     Value: !Ref EmailBucket
