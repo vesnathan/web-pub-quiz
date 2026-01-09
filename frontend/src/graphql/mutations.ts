@@ -188,6 +188,7 @@ export const UPDATE_GAME_CONFIG = /* GraphQL */ `
       }
       maintenanceMode
       maintenanceMessage
+      stripeTestMode
       updatedAt
       updatedBy
     }

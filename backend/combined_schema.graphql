@@ -138,6 +138,7 @@ type GameConfig {
   difficultyPoints: GameDifficultyPoints!
   maintenanceMode: Boolean!
   maintenanceMessage: String
+  stripeTestMode: Boolean!
   updatedAt: String!
   updatedBy: String
 }
@@ -162,6 +163,7 @@ input UpdateGameConfigInput {
   difficultyPoints: GameDifficultyPointsInput
   maintenanceMode: Boolean
   maintenanceMessage: String
+  stripeTestMode: Boolean
 }
 
 # Query fields are defined in 00-base.graphql to avoid extend type issues with AppSync

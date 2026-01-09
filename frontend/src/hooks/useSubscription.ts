@@ -117,12 +117,27 @@ export function useSubscription(): UseSubscriptionReturn {
     hasUnlimitedQuestions || questionsRemainingToday > 0;
   const nextResetTime = getMidnightTomorrow();
 
+  // Get localStorage key for tracking questions (works for both users and guests)
+  const getQuestionsKey = useCallback(() => {
+    const today = getMidnightToday().toISOString().split("T")[0];
+    const identifier = user?.userId || "guest";
+    return `questionsAnswered_${identifier}_${today}`;
+  }, [user?.userId]);
+
   // Fetch subscription data from GraphQL API
   const refreshSubscription = useCallback(async () => {
+    // For guests, just load their question count from localStorage
     if (!isAuthenticated || !user) {
       setSubscription(DEFAULT_SUBSCRIPTION_INFO);
       setGiftInfo(DEFAULT_GIFT_INFO);
-      setQuestionsAnsweredToday(0);
+
+      // Load guest question count from localStorage
+      const storedQuestions = localStorage.getItem(getQuestionsKey());
+      if (storedQuestions) {
+        setQuestionsAnsweredToday(parseInt(storedQuestions, 10));
+      } else {
+        setQuestionsAnsweredToday(0);
+      }
       setIsLoading(false);
       return;
     }
@@ -158,9 +173,7 @@ export function useSubscription(): UseSubscriptionReturn {
       }
 
       // Check questions answered today (use localStorage for daily tracking)
-      const today = getMidnightToday().toISOString().split("T")[0];
-      const storedQuestionsKey = `questionsAnswered_${user.userId}_${today}`;
-      const storedQuestions = localStorage.getItem(storedQuestionsKey);
+      const storedQuestions = localStorage.getItem(getQuestionsKey());
       if (storedQuestions) {
         setQuestionsAnsweredToday(parseInt(storedQuestions, 10));
       } else {
@@ -172,23 +185,19 @@ export function useSubscription(): UseSubscriptionReturn {
     } finally {
       setIsLoading(false);
     }
-  }, [isAuthenticated, user]);
+  }, [isAuthenticated, user, getQuestionsKey]);
 
-  // Record a question answered (for free tier limit tracking)
+  // Record a question answered (for free tier limit tracking - works for guests too)
   const recordQuestionAnswered = useCallback(() => {
-    if (!user) return;
-
     // If unlimited questions, no need to track
     if (hasUnlimitedQuestions) return;
 
     const newCount = questionsAnsweredToday + 1;
     setQuestionsAnsweredToday(newCount);
 
-    // Store in localStorage for persistence
-    const today = getMidnightToday().toISOString().split("T")[0];
-    const storedQuestionsKey = `questionsAnswered_${user.userId}_${today}`;
-    localStorage.setItem(storedQuestionsKey, newCount.toString());
-  }, [user, hasUnlimitedQuestions, questionsAnsweredToday]);
+    // Store in localStorage for persistence (works for both users and guests)
+    localStorage.setItem(getQuestionsKey(), newCount.toString());
+  }, [hasUnlimitedQuestions, questionsAnsweredToday, getQuestionsKey]);
 
   // Create a checkout session for subscription
   const createCheckout = useCallback(
@@ -241,20 +250,19 @@ export function useSubscription(): UseSubscriptionReturn {
       // Set timeout to refresh at midnight
       const timeout = setTimeout(() => {
         setQuestionsAnsweredToday(0);
-        // Clean up old localStorage entries
-        if (user) {
-          const yesterday = new Date(getMidnightToday());
-          yesterday.setDate(yesterday.getDate() - 1);
-          const yesterdayKey = `questionsAnswered_${user.userId}_${yesterday.toISOString().split("T")[0]}`;
-          localStorage.removeItem(yesterdayKey);
-        }
+        // Clean up old localStorage entries (for both users and guests)
+        const yesterday = new Date(getMidnightToday());
+        yesterday.setDate(yesterday.getDate() - 1);
+        const identifier = user?.userId || "guest";
+        const yesterdayKey = `questionsAnswered_${identifier}_${yesterday.toISOString().split("T")[0]}`;
+        localStorage.removeItem(yesterdayKey);
       }, timeUntilMidnight);
 
       return () => clearTimeout(timeout);
     };
 
     return checkDayChange();
-  }, [user]);
+  }, [user?.userId]);
 
   // Compute hasUnseenGift - true if there's a gift and user hasn't seen the notification
   const hasUnseenGift =

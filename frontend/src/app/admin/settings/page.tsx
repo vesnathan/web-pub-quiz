@@ -41,6 +41,7 @@ export default function AdminSettingsPage() {
   const [freeTierDailyLimit, setFreeTierDailyLimit] = useState("50");
   const [maintenanceMode, setMaintenanceMode] = useState(false);
   const [maintenanceMessage, setMaintenanceMessage] = useState("");
+  const [stripeTestMode, setStripeTestMode] = useState(false);
 
   // Difficulty points
   const [easyCorrect, setEasyCorrect] = useState("50");
@@ -63,6 +64,7 @@ export default function AdminSettingsPage() {
         setFreeTierDailyLimit(String(result.freeTierDailyLimit));
         setMaintenanceMode(result.maintenanceMode);
         setMaintenanceMessage(result.maintenanceMessage || "");
+        setStripeTestMode(result.stripeTestMode ?? false);
         setEasyCorrect(String(result.difficultyPoints.easy.correct));
         setEasyWrong(String(result.difficultyPoints.easy.wrong));
         setMediumCorrect(String(result.difficultyPoints.medium.correct));
@@ -91,6 +93,7 @@ export default function AdminSettingsPage() {
         freeTierDailyLimit: parseInt(freeTierDailyLimit, 10),
         maintenanceMode,
         maintenanceMessage: maintenanceMessage || null,
+        stripeTestMode,
         difficultyPoints: {
           easy: {
             correct: parseInt(easyCorrect, 10),
@@ -127,6 +130,7 @@ export default function AdminSettingsPage() {
     freeTierDailyLimit,
     maintenanceMode,
     maintenanceMessage,
+    stripeTestMode,
     easyCorrect,
     easyWrong,
     mediumCorrect,
@@ -397,6 +401,34 @@ export default function AdminSettingsPage() {
                 }}
               />
             )}
+          </CardBody>
+        </Card>
+
+        {/* Payment Settings */}
+        <Card className="bg-gray-800/50">
+          <CardHeader>
+            <h2 className="text-xl font-semibold text-white">Payments</h2>
+          </CardHeader>
+          <Divider />
+          <CardBody className="space-y-4">
+            <div className="flex items-center gap-4">
+              <Switch
+                isSelected={stripeTestMode}
+                onValueChange={setStripeTestMode}
+                color="warning"
+              >
+                <span className="text-white">Stripe Test Mode</span>
+              </Switch>
+              {stripeTestMode && (
+                <Chip color="warning" variant="flat">
+                  Using sandbox keys
+                </Chip>
+              )}
+            </div>
+            <p className="text-sm text-gray-400">
+              When enabled, payments use Stripe test/sandbox keys. No real
+              charges will be made. Use test card: 4242 4242 4242 4242
+            </p>
           </CardBody>
         </Card>
 

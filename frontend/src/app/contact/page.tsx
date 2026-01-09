@@ -233,7 +233,7 @@ export default function ContactPage() {
           </Card>
         </div>
       </main>
-      <AppFooter />
+      <AppFooter hideConnectionStatus />
     </>
   );
 }

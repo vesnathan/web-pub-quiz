@@ -120,6 +120,7 @@ export interface GameConfig {
   };
   maintenanceMode: boolean;
   maintenanceMessage: string | null;
+  stripeTestMode: boolean;
   updatedAt: string;
   updatedBy?: string | null;
 }
@@ -137,6 +138,7 @@ export interface UpdateGameConfigInput {
   };
   maintenanceMode?: boolean;
   maintenanceMessage?: string | null;
+  stripeTestMode?: boolean;
 }
 
 interface GetGameConfigResponse {

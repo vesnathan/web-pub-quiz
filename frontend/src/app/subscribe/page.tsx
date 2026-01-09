@@ -406,7 +406,7 @@ function SubscribePageContent() {
           </Card>
         </div>
       </main>
-      <AppFooter />
+      <AppFooter hideConnectionStatus />
     </>
   );
 }

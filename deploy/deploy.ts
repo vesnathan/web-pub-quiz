@@ -4,6 +4,7 @@ import * as dotenv from "dotenv";
 import * as path from "path";
 import * as fs from "fs";
 import * as crypto from "crypto";
+import * as readline from "readline";
 
 // Load .env from project root
 const ROOT_DIR = path.resolve(import.meta.dirname, "..");
@@ -71,6 +72,172 @@ function getStage(): string {
 }
 const stage = getStage();
 const frontendOnly = args.includes("--frontend-only");
+const skipMenu =
+  args.includes("--skip-menu") || args.includes("--yes") || args.includes("-y");
+
+// Deploy options
+type DeployOption =
+  | "full"
+  | "frontend"
+  | "orchestrator"
+  | "lambdas"
+  | "schema"
+  | "resolvers"
+  | "stack"
+  | "ses"
+  | "exit";
+
+interface MenuOption {
+  key: string;
+  label: string;
+  description: string;
+  option: DeployOption;
+}
+
+const MENU_OPTIONS: MenuOption[] = [
+  {
+    key: "1",
+    label: "Full Deploy",
+    description: "Deploy everything (infrastructure + code)",
+    option: "full",
+  },
+  {
+    key: "2",
+    label: "Frontend Only",
+    description: "Build and deploy frontend to S3/CloudFront",
+    option: "frontend",
+  },
+  {
+    key: "3",
+    label: "Orchestrator Only",
+    description: "Build and push Docker image to ECS",
+    option: "orchestrator",
+  },
+  {
+    key: "4",
+    label: "Lambdas Only",
+    description: "Compile, upload, and update Lambda functions",
+    option: "lambdas",
+  },
+  {
+    key: "5",
+    label: "Schema Only",
+    description: "Merge and upload GraphQL schema",
+    option: "schema",
+  },
+  {
+    key: "6",
+    label: "Resolvers Only",
+    description: "Compile and upload AppSync resolvers",
+    option: "resolvers",
+  },
+  {
+    key: "7",
+    label: "CloudFormation Stack",
+    description: "Update infrastructure (templates + stack)",
+    option: "stack",
+  },
+  {
+    key: "8",
+    label: "SES Stack Only",
+    description: "Deploy SES email receiving stack",
+    option: "ses",
+  },
+  { key: "0", label: "Exit", description: "Cancel deployment", option: "exit" },
+];
+
+function renderMenu(selectedIndex: number): void {
+  // Move cursor up to overwrite previous menu (if not first render)
+  const lines = MENU_OPTIONS.length + 4; // options + header lines
+  process.stdout.write(`\x1b[${lines}A`); // Move up
+  process.stdout.write("\x1b[0J"); // Clear from cursor to end
+
+  console.log("=".repeat(60));
+  console.log(
+    "  Deploy Menu - Use \x1b[1m↑↓\x1b[0m to select, \x1b[1mEnter\x1b[0m to confirm",
+  );
+  console.log("=".repeat(60));
+
+  for (let i = 0; i < MENU_OPTIONS.length; i++) {
+    const opt = MENU_OPTIONS[i];
+    const isSelected = i === selectedIndex;
+    const prefix = isSelected ? "\x1b[36m❯\x1b[0m" : " ";
+    const highlight = isSelected ? "\x1b[1m\x1b[36m" : "\x1b[90m";
+    const reset = "\x1b[0m";
+    console.log(
+      `  ${prefix} ${highlight}${opt.label}${reset} - ${opt.description}`,
+    );
+  }
+}
+
+async function showMenu(): Promise<DeployOption> {
+  let selectedIndex = 0;
+
+  // Print initial empty lines to make room for menu
+  console.log("\n");
+  for (let i = 0; i < MENU_OPTIONS.length + 4; i++) {
+    console.log("");
+  }
+
+  // Initial render
+  renderMenu(selectedIndex);
+
+  return new Promise((resolve) => {
+    // Enable raw mode for keypress detection
+    if (process.stdin.isTTY) {
+      process.stdin.setRawMode(true);
+    }
+    process.stdin.resume();
+    process.stdin.setEncoding("utf8");
+
+    const handleKeypress = (key: string): void => {
+      // Handle arrow keys (escape sequences)
+      if (key === "\u001b[A" || key === "k") {
+        // Up arrow or k
+        selectedIndex =
+          (selectedIndex - 1 + MENU_OPTIONS.length) % MENU_OPTIONS.length;
+        renderMenu(selectedIndex);
+      } else if (key === "\u001b[B" || key === "j") {
+        // Down arrow or j
+        selectedIndex = (selectedIndex + 1) % MENU_OPTIONS.length;
+        renderMenu(selectedIndex);
+      } else if (key === "\r" || key === "\n" || key === " ") {
+        // Enter or Space
+        cleanup();
+        console.log(""); // New line after menu
+        resolve(MENU_OPTIONS[selectedIndex].option);
+      } else if (key === "\u0003" || key === "q") {
+        // Ctrl+C or q
+        cleanup();
+        console.log("\nDeployment cancelled.");
+        process.exit(0);
+      } else if (key >= "0" && key <= "9") {
+        // Number key shortcut
+        const idx = MENU_OPTIONS.findIndex((o) => o.key === key);
+        if (idx !== -1) {
+          selectedIndex = idx;
+          renderMenu(selectedIndex);
+          // Small delay then select
+          setTimeout(() => {
+            cleanup();
+            console.log("");
+            resolve(MENU_OPTIONS[selectedIndex].option);
+          }, 150);
+        }
+      }
+    };
+
+    const cleanup = (): void => {
+      process.stdin.removeListener("data", handleKeypress);
+      if (process.stdin.isTTY) {
+        process.stdin.setRawMode(false);
+      }
+      process.stdin.pause();
+    };
+
+    process.stdin.on("data", handleKeypress);
+  });
+}
 
 // Configuration
 const APP_NAME = "quiz-night-live";
@@ -1251,6 +1418,104 @@ function cleanupOldFiles(
   }
 }
 
+async function executeDeployment(option: DeployOption): Promise<void> {
+  const outputs = await getStackOutputs().catch(() => ({}) as StackOutputs);
+
+  switch (option) {
+    case "frontend":
+      await buildFrontend(outputs);
+      await deployFrontend(outputs);
+      break;
+
+    case "orchestrator":
+      await buildAndPushOrchestrator(outputs);
+      break;
+
+    case "lambdas":
+      await uploadLambdas();
+      await updateLambdaCode(outputs);
+      break;
+
+    case "schema":
+      await mergeAndUploadSchema();
+      // Note: Schema changes require stack update to take effect
+      console.log(
+        "\n  Note: Run 'CloudFormation Stack' deploy to apply schema changes",
+      );
+      break;
+
+    case "resolvers":
+      await compileAndUploadResolvers();
+      // Note: Resolver changes require stack update to take effect
+      console.log(
+        "\n  Note: Run 'CloudFormation Stack' deploy to apply resolver changes",
+      );
+      break;
+
+    case "stack": {
+      // Deploy infrastructure only (no frontend/orchestrator)
+      let certificateOutputs: CertificateOutputs = {};
+      if (stage === "prod") {
+        certificateOutputs = await deployCertificateStack();
+      }
+      await mergeAndUploadSchema();
+      await uploadTemplates();
+      await compileAndUploadResolvers();
+      await deployStack(certificateOutputs);
+      const newOutputs = await getStackOutputs();
+      console.log("\nStack Outputs:", JSON.stringify(newOutputs, null, 2));
+      break;
+    }
+
+    case "ses":
+      // Need to compile the SES Lambda first
+      await compileLambda(
+        "sesEmailReceiver",
+        path.join(BACKEND_DIR, "lambda", "sesEmailReceiver.ts"),
+      );
+      await deploySesStack();
+      await uploadAndUpdateSesLambda();
+      await activateReceiptRuleSet();
+      break;
+
+    case "full": {
+      // Full deployment
+      let certificateOutputs: CertificateOutputs = {};
+      if (stage === "prod") {
+        certificateOutputs = await deployCertificateStack();
+      }
+
+      await mergeAndUploadSchema();
+      await uploadTemplates();
+      await uploadLambdas();
+
+      // Deploy SES email receiving stack (for E2E testing)
+      await deploySesStack();
+      await uploadAndUpdateSesLambda();
+      await activateReceiptRuleSet();
+      await compileAndUploadResolvers();
+      await deployStack(certificateOutputs);
+
+      const fullOutputs = await getStackOutputs();
+      console.log("\nStack Outputs:", JSON.stringify(fullOutputs, null, 2));
+
+      // Update Lambda code (CloudFormation doesn't detect S3 content changes)
+      await updateLambdaCode(fullOutputs);
+
+      // Build and deploy orchestrator to Fargate
+      await buildAndPushOrchestrator(fullOutputs);
+
+      await buildFrontend(fullOutputs);
+      await deployFrontend(fullOutputs);
+      break;
+    }
+
+    case "exit":
+      console.log("Deployment cancelled.");
+      process.exit(0);
+  }
+}
+
 async function main(): Promise<void> {
   // Set up logging to file
   const logDir = path.join(ROOT_DIR, ".cache", "logs");
@@ -1263,13 +1528,6 @@ async function main(): Promise<void> {
   cleanupOldFiles(logDir, /^deploy-quiz-.*\.log$/, 0);
 
   const timestamp = new Date().toISOString().replace(/:/g, "-").split(".")[0];
-  const action = frontendOnly ? "frontend" : "full";
-  const logFile = path.join(
-    logDir,
-    `deploy-quiz-${stage}-${action}-${timestamp}.log`,
-  );
-  setLogFile(logFile);
-  logger.info(`Logging to: ${logFile}`);
 
   console.log(`\n${"=".repeat(60)}`);
   console.log(`Quiz Night Live Deployment - Stage: ${stage}`);
@@ -1289,8 +1547,22 @@ async function main(): Promise<void> {
       console.log("AWS credentials OK\n");
     }
 
-    // Check bootstrap resources (unless frontend-only)
-    if (!frontendOnly) {
+    // Determine deploy option
+    let deployOption: DeployOption;
+
+    if (frontendOnly) {
+      // Legacy --frontend-only flag
+      deployOption = "frontend";
+    } else if (skipMenu) {
+      // Skip menu, do full deploy
+      deployOption = "full";
+    } else {
+      // Show interactive menu
+      deployOption = await showMenu();
+    }
+
+    // Check bootstrap resources (not needed for frontend-only or exit)
+    if (deployOption !== "frontend" && deployOption !== "exit") {
       console.log("Checking bootstrap resources...");
       const bootstrap = await checkBootstrapResources();
 
@@ -1301,41 +1573,19 @@ async function main(): Promise<void> {
       console.log("Bootstrap resources OK\n");
     }
 
-    if (frontendOnly) {
-      const outputs = await getStackOutputs();
-      await buildFrontend(outputs);
-      await deployFrontend(outputs);
-    } else {
-      // Deploy certificate stack first (only for prod with custom domain)
-      let certificateOutputs: CertificateOutputs = {};
-      if (stage === "prod") {
-        certificateOutputs = await deployCertificateStack();
-      }
+    // Set up log file with selected action
+    const logFile = path.join(
+      logDir,
+      `deploy-quiz-${stage}-${deployOption}-${timestamp}.log`,
+    );
+    setLogFile(logFile);
+    logger.info(`Logging to: ${logFile}`);
 
-      await mergeAndUploadSchema();
-      await uploadTemplates();
-      await uploadLambdas();
+    console.log(
+      `\nExecuting: ${MENU_OPTIONS.find((o) => o.option === deployOption)?.label || deployOption}\n`,
+    );
 
-      // Deploy SES email receiving stack (for E2E testing)
-      // Must be after uploadLambdas() so sesEmailReceiver.zip exists in S3
-      await deploySesStack();
-      await uploadAndUpdateSesLambda();
-      await activateReceiptRuleSet();
-      await compileAndUploadResolvers();
-      await deployStack(certificateOutputs);
-
-      const outputs = await getStackOutputs();
-      console.log("\nStack Outputs:", JSON.stringify(outputs, null, 2));
-
-      // Update Lambda code (CloudFormation doesn't detect S3 content changes)
-      await updateLambdaCode(outputs);
-
-      // Build and deploy orchestrator to Fargate
-      await buildAndPushOrchestrator(outputs);
-
-      await buildFrontend(outputs);
-      await deployFrontend(outputs);
-    }
+    await executeDeployment(deployOption);
 
     console.log("\n" + "=".repeat(60));
     console.log("Deployment complete!");

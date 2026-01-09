@@ -224,6 +224,7 @@ Resources:
         Variables:
           TABLE_NAME: !Ref DataTableName
           STRIPE_SECRETS_ARN: !Ref StripeSecrets
+          STRIPE_TEST_SECRETS_ARN: !Ref StripeTestSecrets
       Code:
         S3Bucket: !Ref TemplateBucketName
         S3Key: !Sub "functions/${Stage}/stripeWebhook.zip"
@@ -286,6 +287,7 @@ Resources:
         Variables:
           TABLE_NAME: !Ref DataTableName
           STRIPE_SECRETS_ARN: !Ref StripeSecrets
+          STRIPE_TEST_SECRETS_ARN: !Ref StripeTestSecrets
           PAYPAL_SECRETS_ARN: !Ref PayPalSecrets
           PAYPAL_API_URL: !If
             - IsProd
@@ -320,6 +322,7 @@ Resources:
         Variables:
           TABLE_NAME: !Ref DataTableName
           STRIPE_SECRETS_ARN: !Ref StripeSecrets
+          STRIPE_TEST_SECRETS_ARN: !Ref StripeTestSecrets
           PAYPAL_SECRETS_ARN: !Ref PayPalSecrets
           PAYPAL_API_URL: !If
             - IsProd
@@ -382,6 +385,7 @@ Resources:
                   - secretsmanager:GetSecretValue
                 Resource:
                   - !Ref StripeSecrets
+                  - !Ref StripeTestSecrets
                   - !Ref PayPalSecrets
       Tags:
         - Key: Project
@@ -392,7 +396,17 @@ Resources:
     Type: AWS::SecretsManager::Secret
     Properties:
       Name: !Sub "${AppName}/stripe-${Stage}"
-      Description: Stripe API credentials
+      Description: Stripe API credentials (production)
+      SecretString: '{"secretKey":"sk_test_placeholder","publishableKey":"pk_test_placeholder","webhookSecret":"whsec_placeholder","priceIdSupporter":"price_supporter","priceIdChampion":"price_champion","tipPriceId":"price_tip"}'
+      Tags:
+        - Key: Project
+          Value: quiz-night-live
+
+  StripeTestSecrets:
+    Type: AWS::SecretsManager::Secret
+    Properties:
+      Name: !Sub "${AppName}/stripe-test-${Stage}"
+      Description: Stripe API credentials (test/sandbox mode)
       SecretString: '{"secretKey":"sk_test_placeholder","publishableKey":"pk_test_placeholder","webhookSecret":"whsec_placeholder","priceIdSupporter":"price_supporter","priceIdChampion":"price_champion","tipPriceId":"price_tip"}'
       Tags:
         - Key: Project
@@ -660,7 +674,7 @@ Resources:
             - "Quiz Night Live <noreply@dev.quiznight.live>"
           ADMIN_EMAIL: !If
             - IsProd
-            - "support@quiznight.live"
+            - "vesnathan@gmail.com"
             - "vesnathan+dev@gmail.com"
       Code:
         S3Bucket: !Ref TemplateBucketName
@@ -772,6 +786,10 @@ Outputs:
   StripeSecretsArn:
     Description: Stripe Secrets ARN
     Value: !Ref StripeSecrets
+
+  StripeTestSecretsArn:
+    Description: Stripe Test Secrets ARN
+    Value: !Ref StripeTestSecrets
 
   PayPalSecretsArn:
     Description: PayPal Secrets ARN

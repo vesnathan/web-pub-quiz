@@ -1,11 +1,22 @@
-import { DynamoDBClient } from '@aws-sdk/client-dynamodb';
-import { DynamoDBDocumentClient, UpdateCommand, QueryCommand, PutCommand } from '@aws-sdk/lib-dynamodb';
-import { SecretsManagerClient, GetSecretValueCommand } from '@aws-sdk/client-secrets-manager';
-import crypto from 'crypto';
-import type { SubscriptionTier, SubscriptionStatus } from '@quiz/shared';
+import { DynamoDBClient } from "@aws-sdk/client-dynamodb";
+import {
+  DynamoDBDocumentClient,
+  UpdateCommand,
+  QueryCommand,
+  PutCommand,
+  GetCommand,
+} from "@aws-sdk/lib-dynamodb";
+import {
+  SecretsManagerClient,
+  GetSecretValueCommand,
+} from "@aws-sdk/client-secrets-manager";
+import crypto from "crypto";
+import type { SubscriptionTier, SubscriptionStatus } from "@quiz/shared";
+import { GAME_CONFIG_PK, GAME_CONFIG_SK } from "@quiz/shared";
 
 const TABLE_NAME = process.env.TABLE_NAME!;
 const SECRETS_ARN = process.env.STRIPE_SECRETS_ARN;
+const TEST_SECRETS_ARN = process.env.STRIPE_TEST_SECRETS_ARN;
 
 const ddbClient = new DynamoDBClient({});
 const docClient = DynamoDBDocumentClient.from(ddbClient, {
@@ -14,7 +25,10 @@ const docClient = DynamoDBDocumentClient.from(ddbClient, {
 const secretsClient = new SecretsManagerClient({});
 
 // Cache secrets for Lambda warm starts
-let cachedSecrets: { webhookSecret: string } | null = null;
+const secretsCache: Record<string, StripeSecrets> = {};
+let cachedStripeTestMode: boolean | null = null;
+let stripeTestModeCacheTime = 0;
+const CACHE_TTL_MS = 60000; // 1 minute cache
 
 interface StripeSecrets {
   webhookSecret: string;
@@ -74,21 +88,24 @@ interface StripeInvoice {
 }
 
 interface StripeCheckoutEvent extends StripeEventBase {
-  type: 'checkout.session.completed';
+  type: "checkout.session.completed";
   data: {
     object: StripeCheckoutSession;
   };
 }
 
 interface StripeSubscriptionEvent extends StripeEventBase {
-  type: 'customer.subscription.created' | 'customer.subscription.updated' | 'customer.subscription.deleted';
+  type:
+    | "customer.subscription.created"
+    | "customer.subscription.updated"
+    | "customer.subscription.deleted";
   data: {
     object: StripeSubscription;
   };
 }
 
 interface StripeInvoiceEvent extends StripeEventBase {
-  type: 'invoice.payment_failed';
+  type: "invoice.payment_failed";
   data: {
     object: StripeInvoice;
   };
@@ -96,11 +113,11 @@ interface StripeInvoiceEvent extends StripeEventBase {
 
 // Stripe subscription status mapping
 const STRIPE_STATUS_MAP: Record<string, SubscriptionStatus> = {
-  active: 'active',
-  trialing: 'trialing',
-  past_due: 'past_due',
-  canceled: 'cancelled',
-  unpaid: 'cancelled',
+  active: "active",
+  trialing: "trialing",
+  past_due: "past_due",
+  canceled: "cancelled",
+  unpaid: "cancelled",
   incomplete: null,
   incomplete_expired: null,
 };
@@ -112,39 +129,80 @@ const STRIPE_PRICE_TO_TIER: Record<string, SubscriptionTier> = {
   price_champion_monthly: 2,
 };
 
-async function getSecrets(): Promise<StripeSecrets> {
-  if (cachedSecrets) {
-    return cachedSecrets as StripeSecrets;
+async function isStripeTestMode(): Promise<boolean> {
+  const now = Date.now();
+  if (
+    cachedStripeTestMode !== null &&
+    now - stripeTestModeCacheTime < CACHE_TTL_MS
+  ) {
+    return cachedStripeTestMode;
   }
 
-  if (!SECRETS_ARN) {
-    throw new Error('STRIPE_SECRETS_ARN not configured');
+  try {
+    const result = await docClient.send(
+      new GetCommand({
+        TableName: TABLE_NAME,
+        Key: { PK: GAME_CONFIG_PK, SK: GAME_CONFIG_SK },
+      }),
+    );
+
+    cachedStripeTestMode = result.Item?.stripeTestMode ?? false;
+    stripeTestModeCacheTime = now;
+    return cachedStripeTestMode;
+  } catch (error) {
+    console.error(
+      "Failed to read game config, defaulting to production mode:",
+      error,
+    );
+    return false;
   }
+}
+
+async function getSecrets(): Promise<StripeSecrets> {
+  const testMode = await isStripeTestMode();
+  const secretArn = testMode ? TEST_SECRETS_ARN : SECRETS_ARN;
+
+  if (!secretArn) {
+    throw new Error(
+      testMode
+        ? "STRIPE_TEST_SECRETS_ARN not configured"
+        : "STRIPE_SECRETS_ARN not configured",
+    );
+  }
+
+  // Check cache
+  if (secretsCache[secretArn]) {
+    return secretsCache[secretArn];
+  }
+
+  console.log(
+    `Using Stripe ${testMode ? "TEST" : "PRODUCTION"} mode for webhook`,
+  );
 
   const response = await secretsClient.send(
-    new GetSecretValueCommand({ SecretId: SECRETS_ARN })
+    new GetSecretValueCommand({ SecretId: secretArn }),
   );
 
   if (!response.SecretString) {
-    throw new Error('Stripe secrets not found');
+    throw new Error("Stripe secrets not found");
   }
 
-  cachedSecrets = JSON.parse(response.SecretString);
-  return cachedSecrets as StripeSecrets;
+  secretsCache[secretArn] = JSON.parse(response.SecretString);
+  return secretsCache[secretArn];
 }
 
 function verifyStripeSignature(
   payload: string,
   signature: string,
-  secret: string
+  secret: string,
 ): boolean {
   // Stripe signature format: t=timestamp,v1=signature
-  const elements = signature.split(',');
-  const timestampElement = elements.find((e) => e.startsWith('t='));
-  const signatureElement = elements.find((e) => e.startsWith('v1='));
+  const elements = signature.split(",");
+  const timestampElement = elements.find((e) => e.startsWith("t="));
+  const signatureElement = elements.find((e) => e.startsWith("v1="));
 
   if (!timestampElement || !signatureElement) {
-    console.error('Invalid signature format');
+    console.error("Invalid signature format");
     return false;
   }
 
@@ -154,15 +212,15 @@ function verifyStripeSignature(
   // Create signed payload
   const signedPayload = `${timestamp}.${payload}`;
   const computedSignature = crypto
-    .createHmac('sha256', secret)
+    .createHmac("sha256", secret)
     .update(signedPayload)
-    .digest('hex');
+    .digest("hex");
 
   // Timing-safe comparison
   try {
     return crypto.timingSafeEqual(
       Buffer.from(expectedSignature),
-      Buffer.from(computedSignature)
+      Buffer.from(computedSignature),
     );
   } catch {
     return false;
@@ -176,36 +234,38 @@ function getTierFromPriceId(priceId: string): SubscriptionTier {
   }
 
   // Fallback: check price ID naming convention
-  if (priceId.includes('supporter')) return 1;
-  if (priceId.includes('champion')) return 2;
+  if (priceId.includes("supporter")) return 1;
+  if (priceId.includes("champion")) return 2;
 
   console.warn(`Unknown price ID: ${priceId}, defaulting to tier 1`);
   return 1;
 }
 
-async function findUserByStripeCustomerId(customerId: string): Promise<string | null> {
+async function findUserByStripeCustomerId(
+  customerId: string,
+): Promise<string | null> {
   try {
     const result = await docClient.send(
       new QueryCommand({
         TableName: TABLE_NAME,
-        IndexName: 'GSI1',
-        KeyConditionExpression: 'GSI1PK = :pk',
+        IndexName: "GSI1",
+        KeyConditionExpression: "GSI1PK = :pk",
         ExpressionAttributeValues: {
-          ':pk': `STRIPE#${customerId}`,
+          ":pk": `STRIPE#${customerId}`,
         },
         Limit: 1,
-      })
+      }),
     );
 
     if (result.Items && result.Items.length > 0) {
       // Extract userId from PK (format: USER#userId)
       const pk = result.Items[0].PK as string;
-      return pk.replace('USER#', '');
+      return pk.replace("USER#", "");
     }
 
     return null;
   } catch (error) {
-    console.error('Error finding user by Stripe customer ID:', error);
+    console.error("Error finding user by Stripe customer ID:", error);
     return null;
   }
 }
@@ -216,7 +276,7 @@ async function updateUserSubscription(
   customerId: string,
   tier: SubscriptionTier,
   status: SubscriptionStatus,
-  currentPeriodEnd?: number
+  currentPeriodEnd?: number,
 ): Promise<void> {
   const now = new Date().toISOString();
   const expiresAt = currentPeriodEnd
@@ -226,7 +286,7 @@ async function updateUserSubscription(
   await docClient.send(
     new UpdateCommand({
       TableName: TABLE_NAME,
-      Key: { PK: `USER#${userId}`, SK: 'PROFILE' },
+      Key: { PK: `USER#${userId}`, SK: "PROFILE" },
       UpdateExpression: `
         SET subscription.tier = :tier,
             subscription.#st = :status,
@@ -240,37 +300,41 @@ async function updateUserSubscription(
             updatedAt = :now
       `,
       ExpressionAttributeNames: {
-        '#st': 'status',
+        "#st": "status",
       },
       ExpressionAttributeValues: {
-        ':tier': tier,
-        ':status': status,
-        ':provider': 'stripe',
-        ':subId': subscriptionId,
-        ':custId': customerId,
-        ':now': now,
-        ':expiresAt': expiresAt,
-        ':gsi1pk': `STRIPE#${customerId}`,
-        ':gsi1sk': `SUB#${subscriptionId}`,
+        ":tier": tier,
+        ":status": status,
+        ":provider": "stripe",
+        ":subId": subscriptionId,
+        ":custId": customerId,
+        ":now": now,
+        ":expiresAt": expiresAt,
+        ":gsi1pk": `STRIPE#${customerId}`,
+        ":gsi1sk": `SUB#${subscriptionId}`,
       },
-    })
+    }),
   );
 
-  console.log(`Updated subscription for user ${userId}: tier=${tier}, status=${status}`);
+  console.log(
+    `Updated subscription for user ${userId}: tier=${tier}, status=${status}`,
+  );
 }
 
-async function handleCheckoutCompleted(event: StripeCheckoutEvent): Promise<void> {
+async function handleCheckoutCompleted(
+  event: StripeCheckoutEvent,
+): Promise<void> {
   const session = event.data.object;
 
   // Get the user ID from metadata (set during checkout creation)
   const userId = session.metadata?.userId;
   if (!userId) {
-    console.error('No userId in checkout session metadata');
+    console.error("No userId in checkout session metadata");
     return;
   }
 
   // Check if this is a tip payment
-  if (session.metadata?.type === 'tip') {
+  if (session.metadata?.type === "tip") {
     await handleTipPayment(userId);
     return;
   }
@@ -289,7 +353,7 @@ async function handleCheckoutCompleted(event: StripeCheckoutEvent): Promise<void
     subscriptionId,
     customerId,
     tier,
-    'active'
+    "active",
   );
 
   console.log(`Checkout completed for user ${userId}, tier ${tier}`);
@@ -297,27 +361,33 @@ async function handleCheckoutCompleted(event: StripeCheckoutEvent): Promise<void
 
 async function handleTipPayment(userId: string): Promise<void> {
   const now = new Date();
-  const tipUnlockedUntil = new Date(now.getTime() + 24 * 60 * 60 * 1000).toISOString(); // 24 hours from now
+  const tipUnlockedUntil = new Date(
+    now.getTime() + 24 * 60 * 60 * 1000,
+  ).toISOString(); // 24 hours from now
 
   await docClient.send(
     new UpdateCommand({
       TableName: TABLE_NAME,
-      Key: { PK: `USER#${userId}`, SK: 'PROFILE' },
+      Key: { PK: `USER#${userId}`, SK: "PROFILE" },
       UpdateExpression: `
         SET tipUnlockedUntil = :tipUnlockedUntil,
             updatedAt = :now
       `,
       ExpressionAttributeValues: {
-        ':tipUnlockedUntil': tipUnlockedUntil,
-        ':now': now.toISOString(),
+        ":tipUnlockedUntil": tipUnlockedUntil,
+        ":now": now.toISOString(),
       },
-    })
+    }),
   );
 
-  console.log(`Tip payment processed for user ${userId}, unlocked until ${tipUnlockedUntil}`);
+  console.log(
+    `Tip payment processed for user ${userId}, unlocked until ${tipUnlockedUntil}`,
+  );
 }
 
-async function handleSubscriptionCreated(event: StripeSubscriptionEvent): Promise<void> {
+async function handleSubscriptionCreated(
+  event: StripeSubscriptionEvent,
+): Promise<void> {
   const subscription = event.data.object;
   const customerId = subscription.customer;
   const subscriptionId = subscription.id;
@@ -330,7 +400,9 @@ async function handleSubscriptionCreated(event: StripeSubscriptionEvent): Promis
   // Find user by customer ID
   const userId = await findUserByStripeCustomerId(customerId);
   if (!userId) {
-    console.log(`No user found for Stripe customer ${customerId} - may be handled by checkout.session.completed`);
+    console.log(
+      `No user found for Stripe customer ${customerId} - may be handled by checkout.session.completed`,
+    );
     return;
   }
 
@@ -340,11 +412,13 @@ async function handleSubscriptionCreated(event: StripeSubscriptionEvent): Promis
     customerId,
     tier,
     status,
-    subscription.current_period_end
+    subscription.current_period_end,
   );
 }
 
-async function handleSubscriptionUpdated(event: StripeSubscriptionEvent): Promise<void> {
+async function handleSubscriptionUpdated(
+  event: StripeSubscriptionEvent,
+): Promise<void> {
   const subscription = event.data.object;
   const customerId = subscription.customer;
   const subscriptionId = subscription.id;
@@ -366,13 +440,17 @@ async function handleSubscriptionUpdated(event: StripeSubscriptionEvent): Promis
     customerId,
     tier,
     status,
-    subscription.current_period_end
+    subscription.current_period_end,
   );
 
-  console.log(`Subscription updated for user ${userId}: tier=${tier}, status=${status}`);
+  console.log(
+    `Subscription updated for user ${userId}: tier=${tier}, status=${status}`,
+  );
 }
 
-async function handleSubscriptionDeleted(event: StripeSubscriptionEvent): Promise<void> {
+async function handleSubscriptionDeleted(
+  event: StripeSubscriptionEvent,
+): Promise<void> {
   const subscription = event.data.object;
   const customerId = subscription.customer;
   const subscriptionId = subscription.id;
@@ -389,7 +467,7 @@ async function handleSubscriptionDeleted(event: StripeSubscriptionEvent): Promis
   await docClient.send(
     new UpdateCommand({
       TableName: TABLE_NAME,
-      Key: { PK: `USER#${userId}`, SK: 'PROFILE' },
+      Key: { PK: `USER#${userId}`, SK: "PROFILE" },
       UpdateExpression: `
         SET subscription.tier = :tier,
             subscription.#st = :status,
@@ -397,14 +475,14 @@ async function handleSubscriptionDeleted(event: StripeSubscriptionEvent): Promis
             updatedAt = :now
       `,
       ExpressionAttributeNames: {
-        '#st': 'status',
+        "#st": "status",
       },
       ExpressionAttributeValues: {
-        ':tier': 0,
-        ':status': 'cancelled',
-        ':now': now,
+        ":tier": 0,
+        ":status": "cancelled",
+        ":now": now,
       },
-    })
+    }),
   );
 
   console.log(`Subscription cancelled for user ${userId}`);
@@ -413,24 +491,28 @@ async function handleSubscriptionDeleted(event: StripeSubscriptionEvent): Promis
 /**
  * Extract email from Stripe event payload
  */
-function extractEmailFromStripeEvent(event: Record<string, unknown>): string | undefined {
+function extractEmailFromStripeEvent(
+  event: Record<string, unknown>,
+): string | undefined {
   const data = event.data as { object?: Record<string, unknown> } | undefined;
   const obj = data?.object;
   if (!obj) return undefined;
 
   // Try various fields where email might be present
   // checkout.session.completed: customer_email or customer_details.email
-  if (typeof obj.customer_email === 'string') {
+  if (typeof obj.customer_email === "string") {
     return obj.customer_email;
   }
 
-  const customerDetails = obj.customer_details as { email?: string } | undefined;
+  const customerDetails = obj.customer_details as
+    | { email?: string }
+    | undefined;
   if (customerDetails?.email) {
     return customerDetails.email;
   }
 
   // invoice events: customer_email
-  if (typeof obj.receipt_email === 'string') {
+  if (typeof obj.receipt_email === "string") {
     return obj.receipt_email;
   }
 
@@ -441,8 +523,8 @@ async function logWebhookEvent(
   eventId: string,
   eventType: string,
   payload: Record<string, unknown>,
-  status: 'received' | 'processed' | 'error',
-  errorMessage?: string
+  status: "received" | "processed" | "error",
+  errorMessage?: string,
 ): Promise<void> {
   const now = new Date();
   const timestamp = now.toISOString();
@@ -455,11 +537,11 @@ async function logWebhookEvent(
       new PutCommand({
         TableName: TABLE_NAME,
         Item: {
-          PK: 'WEBHOOK_LOG',
+          PK: "WEBHOOK_LOG",
           SK: `STRIPE#${timestamp}#${eventId}`,
-          GSI1PK: 'WEBHOOK_LOG#STRIPE',
+          GSI1PK: "WEBHOOK_LOG#STRIPE",
           GSI1SK: timestamp,
-          provider: 'stripe',
+          provider: "stripe",
           eventId,
           eventType,
           payload: JSON.stringify(payload),
@@ -470,10 +552,10 @@ async function logWebhookEvent(
           // TTL: 30 days from now
           ttl: Math.floor(now.getTime() / 1000) + 30 * 24 * 60 * 60,
         },
-      })
+      }),
     );
   } catch (error) {
-    console.error('Failed to log webhook event:', error);
+    console.error("Failed to log webhook event:", error);
   }
 }
 
@@ -499,41 +581,44 @@ async function handlePaymentFailed(event: StripeInvoiceEvent): Promise<void> {
   await docClient.send(
     new UpdateCommand({
       TableName: TABLE_NAME,
-      Key: { PK: `USER#${userId}`, SK: 'PROFILE' },
+      Key: { PK: `USER#${userId}`, SK: "PROFILE" },
       UpdateExpression: `
         SET subscription.#st = :status,
             updatedAt = :now
       `,
       ExpressionAttributeNames: {
-        '#st': 'status',
+        "#st": "status",
       },
       ExpressionAttributeValues: {
-        ':status': 'past_due',
-        ':now': now,
+        ":status": "past_due",
+        ":now": now,
       },
-    })
+    }),
   );
 
   console.log(`Payment failed for user ${userId}, marked as past_due`);
 }
 
-export async function handler(event: APIGatewayEvent): Promise<APIGatewayResponse> {
-  console.log('Stripe webhook received');
+export async function handler(
+  event: APIGatewayEvent,
+): Promise<APIGatewayResponse> {
+  console.log("Stripe webhook received");
 
   const corsHeaders = {
-    'Content-Type': 'application/json',
-    'Access-Control-Allow-Origin': '*',
+    "Content-Type": "application/json",
+    "Access-Control-Allow-Origin": "*",
   };
 
   try {
     // Get the signature from headers
-    const signature = event.headers['stripe-signature'] || event.headers['Stripe-Signature'];
+    const signature =
+      event.headers["stripe-signature"] || event.headers["Stripe-Signature"];
     if (!signature) {
-      console.error('Missing Stripe signature');
+      console.error("Missing Stripe signature");
       return {
         statusCode: 400,
         headers: corsHeaders,
-        body: JSON.stringify({ error: 'Missing signature' }),
+        body: JSON.stringify({ error: "Missing signature" }),
       };
     }
 
@@ -542,16 +627,16 @@ export async function handler(event: APIGatewayEvent): Promise<APIGatewayRespons
 
     // Get raw body
     const rawBody = event.isBase64Encoded
-      ? Buffer.from(event.body, 'base64').toString('utf-8')
+      ? Buffer.from(event.body, "base64").toString("utf-8")
       : event.body;
 
     // Verify signature
     if (!verifyStripeSignature(rawBody, signature, secrets.webhookSecret)) {
-      console.error('Invalid Stripe signature');
+      console.error("Invalid Stripe signature");
       return {
         statusCode: 400,
         headers: corsHeaders,
-        body: JSON.stringify({ error: 'Invalid signature' }),
+        body: JSON.stringify({ error: "Invalid signature" }),
       };
     }
 
@@ -563,28 +648,28 @@ export async function handler(event: APIGatewayEvent): Promise<APIGatewayRespons
     console.log(`Processing Stripe event: ${eventType} (${eventId})`);
 
     // Log webhook received
-    await logWebhookEvent(eventId, eventType, stripeEvent, 'received');
+    await logWebhookEvent(eventId, eventType, stripeEvent, "received");
 
     try {
       // Handle different event types
       switch (eventType) {
-        case 'checkout.session.completed':
+        case "checkout.session.completed":
           await handleCheckoutCompleted(stripeEvent);
           break;
 
-        case 'customer.subscription.created':
+        case "customer.subscription.created":
           await handleSubscriptionCreated(stripeEvent);
           break;
 
-        case 'customer.subscription.updated':
+        case "customer.subscription.updated":
           await handleSubscriptionUpdated(stripeEvent);
           break;
 
-        case 'customer.subscription.deleted':
+        case "customer.subscription.deleted":
           await handleSubscriptionDeleted(stripeEvent);
           break;
 
-        case 'invoice.payment_failed':
+        case "invoice.payment_failed":
           await handlePaymentFailed(stripeEvent);
           break;
 
@@ -593,11 +678,20 @@ export async function handler(event: APIGatewayEvent): Promise<APIGatewayRespons
       }
 
       // Log webhook processed successfully
-      await logWebhookEvent(eventId, eventType, stripeEvent, 'processed');
+      await logWebhookEvent(eventId, eventType, stripeEvent, "processed");
     } catch (processingError) {
       // Log webhook processing error
-      const errorMessage = processingError instanceof Error ? processingError.message : 'Unknown error';
-      await logWebhookEvent(eventId, eventType, stripeEvent, 'error', errorMessage);
+      const errorMessage =
+        processingError instanceof Error
+          ? processingError.message
+          : "Unknown error";
+      await logWebhookEvent(
+        eventId,
+        eventType,
+        stripeEvent,
+        "error",
+        errorMessage,
+      );
       throw processingError;
     }
 
@@ -607,11 +701,11 @@ export async function handler(event: APIGatewayEvent): Promise<APIGatewayRespons
       body: JSON.stringify({ received: true }),
     };
   } catch (error) {
-    console.error('Error processing Stripe webhook:', error);
+    console.error("Error processing Stripe webhook:", error);
     return {
       statusCode: 500,
       headers: corsHeaders,
-      body: JSON.stringify({ error: 'Internal server error' }),
+      body: JSON.stringify({ error: "Internal server error" }),
     };
   }
 }

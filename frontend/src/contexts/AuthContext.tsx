@@ -140,11 +140,20 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
   }, []);
 
   useEffect(() => {
+    // Check if this is an OAuth redirect callback (has code or error in URL)
+    const isOAuthCallback =
+      typeof window !== "undefined" &&
+      (window.location.search.includes("code=") ||
+        window.location.search.includes("error="));
+
     // Listen for OAuth sign-in events (e.g., after Google redirect)
     const hubListener = Hub.listen("auth", async ({ payload }) => {
+      console.log("[Auth] Hub event:", payload.event);
       if (payload.event === "signInWithRedirect") {
+        console.log("[Auth] OAuth redirect completed, loading user...");
         await loadUser();
       } else if (payload.event === "signInWithRedirect_failure") {
+        console.error("[Auth] OAuth redirect failed:", payload.data);
         setUser(null);
         setIsLoading(false);
         // Check for specific errors from Cognito PreSignUp trigger
@@ -162,7 +171,22 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
       }
     });
 
-    // Initial load - this also handles OAuth redirect completion
+    // If this is an OAuth callback, wait for Hub event instead of loading immediately
+    // This prevents race condition where tokens aren't stored yet
+    if (isOAuthCallback) {
+      console.log("[Auth] OAuth callback detected, waiting for Hub event...");
+      // Set a timeout in case Hub event never fires
+      const timeout = setTimeout(() => {
+        console.log("[Auth] OAuth timeout, attempting to load user...");
+        loadUser();
+      }, 3000);
+      return () => {
+        hubListener();
+        clearTimeout(timeout);
+      };
+    }
+
+    // Normal page load - check for existing session
     loadUser();
 
     return () => hubListener();

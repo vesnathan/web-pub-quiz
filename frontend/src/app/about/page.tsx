@@ -79,7 +79,7 @@ export default function AboutPage() {
           </Card>
         </div>
       </main>
-      <AppFooter />
+      <AppFooter hideConnectionStatus />
     </>
   );
 }

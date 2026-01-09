@@ -72,7 +72,7 @@ export default function PrivacyPage() {
           </Card>
         </div>
       </main>
-      <AppFooter />
+      <AppFooter hideConnectionStatus />
     </>
   );
 }

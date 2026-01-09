@@ -31,6 +31,9 @@ export interface GameConfig {
   maintenanceMode: boolean;
   maintenanceMessage: string | null;
 
+  // Payment settings
+  stripeTestMode: boolean; // Use Stripe test/sandbox keys instead of production
+
   // Metadata
   updatedAt: string;
   updatedBy?: string;
@@ -53,9 +56,10 @@ export const DEFAULT_GAME_CONFIG: GameConfig = {
   },
   maintenanceMode: false,
   maintenanceMessage: null,
+  stripeTestMode: false,
   updatedAt: new Date().toISOString(),
 };
 
 // DynamoDB keys for game config
-export const GAME_CONFIG_PK = 'CONFIG#game';
-export const GAME_CONFIG_SK = 'SETTINGS';
+export const GAME_CONFIG_PK = "CONFIG#game";
+export const GAME_CONFIG_SK = "SETTINGS";

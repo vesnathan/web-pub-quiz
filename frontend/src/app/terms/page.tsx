@@ -82,7 +82,7 @@ export default function TermsPage() {
           </Card>
         </div>
       </main>
-      <AppFooter />
+      <AppFooter hideConnectionStatus />
     </>
   );
 }
