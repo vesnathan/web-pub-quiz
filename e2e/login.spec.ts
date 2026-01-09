@@ -70,8 +70,8 @@ test.describe("Login Flow", () => {
     const passwordField = page.locator('input[type="password"]');
     await passwordField.fill(password);
 
-    // Step 6: Click Sign In button in the form (scoped to modal)
-    const submitButton = authModal.getByRole("button", { name: /sign in/i });
+    // Step 6: Click Log In button in the form
+    const submitButton = authModal.getByRole("button", { name: /log in/i });
     await expect(submitButton).toBeVisible({ timeout: 10000 });
     await expect(submitButton).toBeEnabled();
     await submitButton.click();
@@ -133,8 +133,8 @@ test.describe("Login Flow", () => {
     await page.getByLabel(/email/i).fill("invalid@example.com");
     await page.locator('input[type="password"]').fill("WrongPassword123!");
 
-    // Try to sign in - look for button containing "sign in" text (case insensitive)
-    const submitButton = authModal.getByRole("button", { name: /sign in/i });
+    // Click Log In button
+    const submitButton = authModal.getByRole("button", { name: /log in/i });
     await expect(submitButton).toBeVisible({ timeout: 10000 });
     await submitButton.click();
 
