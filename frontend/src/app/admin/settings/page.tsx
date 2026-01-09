@@ -13,6 +13,7 @@ import {
   Chip,
 } from "@nextui-org/react";
 import { LoadingScreen } from "@/components/LoadingScreen";
+import { DeploymentStatus } from "@/components/admin/DeploymentStatus";
 import { useAuth } from "@/contexts/AuthContext";
 import {
   getGameConfig,
@@ -172,6 +173,9 @@ export default function AdminSettingsPage() {
             Back to Admin
           </Button>
         </div>
+
+        {/* Deployment Status */}
+        <DeploymentStatus />
 
         <p className="text-gray-400">
           Changes take effect within 60 seconds (orchestrator refresh interval).
