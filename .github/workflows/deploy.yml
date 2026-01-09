@@ -1,8 +1,9 @@
 name: Deploy to Production
 
+# Manual deployment only - auto-deploy disabled to avoid:
+# 1. Interrupting active games (orchestrator restart drops WebSocket connections)
+# 2. Version mismatches between frontend and orchestrator
 on:
-  push:
-    branches: [main]
   workflow_dispatch:
 
 jobs:
