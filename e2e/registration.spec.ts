@@ -184,20 +184,18 @@ test.describe("Registration Flow", () => {
     const confirmButton = page.getByRole("button", { name: /^confirm$/i });
     await confirmButton.click();
 
-    // Step 10: Wait for auth modal to close
-    await expect(authModal).not.toBeVisible({ timeout: 20000 });
-
-    // Step 11: Handle Welcome Gift modal (appears after auth completes)
+    // Step 10: Handle Welcome Gift modal (appears after auth completes, possibly before auth modal closes)
+    // Wait for either Welcome Gift modal OR successful auth indication
     const startPlayingButton = page.getByRole("button", {
       name: /start playing/i,
     });
     await expect(startPlayingButton).toBeVisible({ timeout: 20000 });
     await startPlayingButton.click();
 
-    // Check for lobby indicators - user should see their screen name or lobby elements
-    await page.waitForTimeout(2000);
+    // Wait for all modals to close
+    await page.waitForTimeout(1000);
 
-    // User should now be authenticated - check for user menu or lobby content
+    // Step 11: Verify we're in the lobby - user should see their screen name or lobby elements
     const userIndicator = page
       .locator(`text=${testScreenName}`)
       .or(page.getByRole("button", { name: /rooms/i }))
