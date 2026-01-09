@@ -4,6 +4,11 @@ import {
   GetParameterCommand,
   DeleteParameterCommand,
 } from "@aws-sdk/client-ssm";
+import {
+  generateTestEmail,
+  sanitizeEmail,
+  saveTestCredentials,
+} from "./test-utils";
 
 /**
  * E2E Registration Test
@@ -26,22 +31,6 @@ const REGION = process.env.AWS_REGION || "ap-southeast-2";
 const STAGE = process.env.STAGE || "prod";
 
 const ssmClient = new SSMClient({ region: REGION });
-
-// Generate unique test email for each run
-function generateTestEmail(): string {
-  const timestamp = Date.now();
-  const random = Math.random().toString(36).substring(2, 8);
-  return `test+e2e-${timestamp}-${random}@quiznight.live`;
-}
-
-// Sanitize email for SSM parameter name
-function sanitizeEmail(email: string): string {
-  return email
-    .toLowerCase()
-    .replace(/\+/g, "-plus-")
-    .replace(/@/g, "-at-")
-    .replace(/\./g, "-");
-}
 
 // Fetch and delete verification code from SSM with retries
 async function getVerificationCode(
@@ -201,6 +190,14 @@ test.describe("Registration Flow", () => {
       .or(page.getByRole("button", { name: /rooms/i }))
       .or(page.locator("text=/welcome/i"));
     await expect(userIndicator.first()).toBeVisible({ timeout: 10000 });
+
+    // Save credentials for subsequent tests (login test)
+    saveTestCredentials({
+      email: testEmail,
+      password: testPassword,
+      screenName: testScreenName,
+      createdAt: new Date().toISOString(),
+    });
 
     console.log("Registration flow completed successfully!");
   });
