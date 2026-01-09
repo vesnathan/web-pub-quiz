@@ -39,6 +39,22 @@ Conditions:
   HasHostedZone: !Not [!Equals [!Ref HostedZoneId, ""]]
 
 Resources:
+  # S3 Bucket to store Lambda code (must be in same region as Lambda)
+  LambdaCodeBucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: !Sub "${AppName}-lambda-${Stage}-${AWS::Region}"
+      PublicAccessBlockConfiguration:
+        BlockPublicAcls: true
+        BlockPublicPolicy: true
+        IgnorePublicAcls: true
+        RestrictPublicBuckets: true
+      Tags:
+        - Key: Project
+          Value: quiz-night-live
+        - Key: Purpose
+          Value: Lambda Code Storage
+
   # S3 Bucket to store incoming emails
   EmailBucket:
     Type: AWS::S3::Bucket
@@ -93,9 +109,13 @@ Resources:
           EMAIL_BUCKET: !Ref EmailBucket
           STAGE: !Ref Stage
           SSM_REGION: !Ref SSMRegion
+      # Initial placeholder code - real code is deployed via UpdateFunctionCode after stack creation
       Code:
-        S3Bucket: quiz-night-live-lambda-us-east-1
-        S3Key: sesEmailReceiver.zip
+        ZipFile: |
+          exports.handler = async (event) => {
+            console.log('Placeholder - deploy real code via UpdateFunctionCode');
+            return { statusCode: 200 };
+          };
       Tags:
         - Key: Project
           Value: quiz-night-live
@@ -155,10 +175,11 @@ Resources:
       SourceAccount: !Ref AWS::AccountId
 
   # SES Receipt Rule Set (must be active)
+  # Note: Using v2 suffix to avoid CloudFormation resource handler cache issues
   SesReceiptRuleSet:
     Type: AWS::SES::ReceiptRuleSet
     Properties:
-      RuleSetName: !Sub "${AppName}-e2e-ruleset-${Stage}"
+      RuleSetName: !Sub "${AppName}-e2e-ruleset-${Stage}-v2"
 
   # SES Receipt Rule to process incoming emails
   SesReceiptRule:
@@ -196,6 +217,12 @@ Resources:
         - "10 inbound-smtp.us-east-1.amazonaws.com"
 
 Outputs:
+  LambdaCodeBucketName:
+    Description: S3 bucket for Lambda code (in same region as Lambda)
+    Value: !Ref LambdaCodeBucket
+    Export:
+      Name: !Sub "${AppName}-lambda-code-bucket-${Stage}"
+
   EmailBucketName:
     Description: S3 bucket for incoming emails
     Value: !Ref EmailBucket

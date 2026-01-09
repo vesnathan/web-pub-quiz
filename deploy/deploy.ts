@@ -617,6 +617,23 @@ async function checkDomainVerification(): Promise<boolean> {
   }
 }
 
+async function getSesStackOutputs(): Promise<Record<string, string>> {
+  try {
+    const response = await cfnClientUsEast1.send(
+      new DescribeStacksCommand({ StackName: SES_STACK_NAME }),
+    );
+    const outputs: Record<string, string> = {};
+    for (const output of response.Stacks?.[0]?.Outputs ?? []) {
+      if (output.OutputKey && output.OutputValue) {
+        outputs[output.OutputKey] = output.OutputValue;
+      }
+    }
+    return outputs;
+  } catch {
+    return {};
+  }
+}
+
 async function deploySesStack(): Promise<void> {
   console.log("\nDeploying SES Email Receiving stack to us-east-1...");
 
@@ -642,27 +659,6 @@ async function deploySesStack(): Promise<void> {
     sesTemplate,
     "application/x-yaml",
   );
-
-  // Upload SES Lambda code to us-east-1 bucket (Lambda can only use S3 buckets in same region)
-  const sesLambdaZip = fs.readFileSync(
-    path.join(
-      DEPLOY_DIR,
-      ".cache",
-      "lambda",
-      "sesEmailReceiver",
-      "sesEmailReceiver.zip",
-    ),
-  );
-  const s3ClientUsEast1 = new S3Client({ region: SES_REGION });
-  await s3ClientUsEast1.send(
-    new PutObjectCommand({
-      Bucket: "quiz-night-live-lambda-us-east-1",
-      Key: "sesEmailReceiver.zip",
-      Body: sesLambdaZip,
-      ContentType: "application/zip",
-    }),
-  );
-  console.log("  Uploaded SES Lambda code to us-east-1");
 
   const templateUrl = `https://${TEMPLATE_BUCKET}.s3.${REGION}.amazonaws.com/resources/SES/ses-email-receiving.yaml`;
   const hostedZoneId = process.env.HOSTED_ZONE_ID || "";
@@ -735,13 +731,44 @@ async function deploySesStack(): Promise<void> {
   }
 }
 
-async function updateSesLambdaCode(): Promise<void> {
-  console.log("  Updating SES Lambda function code...");
+async function uploadAndUpdateSesLambda(): Promise<void> {
+  console.log("  Uploading and updating SES Lambda function code...");
+
+  // Get the Lambda code bucket from stack outputs
+  const outputs = await getSesStackOutputs();
+  const s3Bucket = outputs.LambdaCodeBucketName;
+  if (!s3Bucket) {
+    console.warn(
+      "  Warning: Could not get LambdaCodeBucketName from stack outputs",
+    );
+    return;
+  }
 
   const functionName = `${APP_NAME}-ses-email-receiver-${stage}`;
-  const s3Bucket = "quiz-night-live-lambda-us-east-1"; // Must be in us-east-1
   const s3Key = "sesEmailReceiver.zip";
 
+  // Upload Lambda code to the bucket created by CloudFormation
+  const sesLambdaZip = fs.readFileSync(
+    path.join(
+      DEPLOY_DIR,
+      ".cache",
+      "lambda",
+      "sesEmailReceiver",
+      "sesEmailReceiver.zip",
+    ),
+  );
+  const s3ClientUsEast1 = new S3Client({ region: SES_REGION });
+  await s3ClientUsEast1.send(
+    new PutObjectCommand({
+      Bucket: s3Bucket,
+      Key: s3Key,
+      Body: sesLambdaZip,
+      ContentType: "application/zip",
+    }),
+  );
+  console.log(`  Uploaded Lambda code to ${s3Bucket}/${s3Key}`);
+
+  // Update Lambda function to use the new code
   try {
     await lambdaClientSes.send(
       new GetFunctionCommand({ FunctionName: functionName }),
@@ -1292,7 +1319,7 @@ async function main(): Promise<void> {
       // Deploy SES email receiving stack (for E2E testing)
       // Must be after uploadLambdas() so sesEmailReceiver.zip exists in S3
       await deploySesStack();
-      await updateSesLambdaCode();
+      await uploadAndUpdateSesLambda();
       await activateReceiptRuleSet();
       await compileAndUploadResolvers();
       await deployStack(certificateOutputs);
