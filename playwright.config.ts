@@ -18,6 +18,12 @@ export default defineConfig({
   },
 
   projects: [
+    // OAuth test - no auth needed, tests redirect initiation
+    {
+      name: "oauth",
+      testMatch: /oauth\.spec\.ts/,
+      use: { ...devices["Desktop Chrome"] },
+    },
     // Protected routes test - no auth needed, can run first
     {
       name: "protected-routes",
