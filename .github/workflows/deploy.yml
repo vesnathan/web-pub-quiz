@@ -1,9 +1,16 @@
-name: Deploy to Production
+name: Deploy
 
-# Manual deployment only - triggered after merging PRs to main
-# Flow: Deploy from main → E2E verify → Rollback if failed
+# Auto-deploy on merge to main, or manual trigger
 on:
+  push:
+    branches: [main]
   workflow_dispatch:
+    inputs:
+      skip_e2e:
+        description: 'Skip E2E verification'
+        required: false
+        default: 'false'
+        type: boolean
 
 jobs:
   deploy:
@@ -11,17 +18,17 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 30
     outputs:
-      previous_sha: ${{ steps.get_sha.outputs.sha }}
+      deployed_sha: ${{ github.sha }}
+      previous_sha: ${{ steps.get_previous.outputs.sha }}
 
     steps:
-      - name: Checkout main
+      - name: Checkout
         uses: actions/checkout@v4
         with:
-          ref: main
-          fetch-depth: 0
+          fetch-depth: 2
 
-      - name: Get current main SHA (for rollback)
-        id: get_sha
+      - name: Get previous SHA (for rollback)
+        id: get_previous
         run: echo "sha=$(git rev-parse HEAD~1)" >> $GITHUB_OUTPUT
 
       - name: Setup Node.js
@@ -49,16 +56,15 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
 
   verify:
-    name: Verify Deployment (E2E)
+    name: E2E Verification
     runs-on: ubuntu-latest
     timeout-minutes: 20
     needs: deploy
+    if: ${{ github.event.inputs.skip_e2e != 'true' }}
 
     steps:
-      - name: Checkout main
+      - name: Checkout
         uses: actions/checkout@v4
-        with:
-          ref: main
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -75,7 +81,7 @@ jobs:
       - name: Wait for deployment to stabilize
         run: sleep 30
 
-      - name: Run E2E tests against production
+      - name: Run E2E tests
         run: yarn test:e2e
         env:
           CI: true
@@ -98,28 +104,13 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 30
     needs: [deploy, verify]
-    if: failure() && needs.deploy.outputs.previous_sha != ''
-    permissions:
-      contents: write
+    if: failure() && needs.deploy.result == 'success'
 
     steps:
-      - name: Checkout main
+      - name: Checkout previous version
         uses: actions/checkout@v4
         with:
-          ref: main
-          fetch-depth: 0
-          token: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Configure git
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-
-      - name: Create rollback commit
-        run: |
-          echo "Rolling back to ${{ needs.deploy.outputs.previous_sha }}"
-          git revert HEAD --no-edit || echo "Revert not needed or failed"
-          git push origin main || echo "Push failed - manual intervention may be needed"
+          ref: ${{ needs.deploy.outputs.previous_sha }}
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -131,7 +122,9 @@ jobs:
         run: yarn install --frozen-lockfile
 
       - name: Redeploy previous version
-        run: yarn workspace @quiz/deploy deploy:prod -y
+        run: |
+          echo "Rolling back to ${{ needs.deploy.outputs.previous_sha }}"
+          yarn workspace @quiz/deploy deploy:prod -y
         env:
           AWS_ACCESS_KEY_ID: ${{ secrets.DEPLOY_AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.DEPLOY_AWS_SECRET_ACCESS_KEY }}
@@ -144,3 +137,9 @@ jobs:
           GOOGLE_CLIENT_ID: ${{ secrets.GOOGLE_CLIENT_ID }}
           GOOGLE_CLIENT_SECRET: ${{ secrets.GOOGLE_CLIENT_SECRET }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+
+      - name: Notify rollback completed
+        run: |
+          echo "::warning::Deployment rolled back to ${{ needs.deploy.outputs.previous_sha }}"
+          echo "The latest commit (${{ needs.deploy.outputs.deployed_sha }}) failed E2E tests."
+          echo "Please fix the issues and push a new commit."
