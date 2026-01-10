@@ -51,6 +51,3 @@ todo.txt
 
 # E2E test credentials (temporary)
 e2e/.test-credentials.json
-
-# Claude AWS credentials script
-scripts/claude-aws-env.sh
