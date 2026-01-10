@@ -36,11 +36,18 @@ export default defineConfig({
       testMatch: /registration\.spec\.ts/,
       use: { ...devices["Desktop Chrome"] },
     },
-    // Login tests run after registration, using the created user
+    // Game flow tests run after registration (before login which cleans up)
+    {
+      name: "game-flow",
+      testMatch: /game-flow\.spec\.ts/,
+      dependencies: ["registration"],
+      use: { ...devices["Desktop Chrome"] },
+    },
+    // Login tests run LAST - they delete the test user and clean up credentials
     {
       name: "login",
       testMatch: /login\.spec\.ts/,
-      dependencies: ["registration"],
+      dependencies: ["game-flow"],
       use: { ...devices["Desktop Chrome"] },
     },
   ],

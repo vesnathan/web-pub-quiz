@@ -160,6 +160,10 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
         const errorMessage = String(payload.data?.error || "");
         if (errorMessage.includes("NATIVE_ACCOUNT_EXISTS")) {
           setOAuthError("NATIVE_ACCOUNT_EXISTS");
+        } else if (errorMessage.includes("FACEBOOK_ACCOUNT_EXISTS")) {
+          setOAuthError("FACEBOOK_ACCOUNT_EXISTS");
+        } else if (errorMessage.includes("GOOGLE_ACCOUNT_EXISTS")) {
+          setOAuthError("GOOGLE_ACCOUNT_EXISTS");
         } else if (errorMessage.includes("PreSignUp")) {
           // Generic PreSignUp error - likely account conflict
           setOAuthError("NATIVE_ACCOUNT_EXISTS");

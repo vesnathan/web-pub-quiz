@@ -5,7 +5,11 @@ import { Input, Button } from "@nextui-org/react";
 import { useAuth } from "@/contexts/AuthContext";
 import { EyeFilledIcon, EyeSlashFilledIcon } from "./EyeIcons";
 import { GoogleSignInButton } from "./GoogleSignInButton";
-import { checkEmailHasGoogleAccount } from "@/lib/api";
+import { FacebookSignInButton } from "./FacebookSignInButton";
+import {
+  checkEmailHasGoogleAccount,
+  checkEmailHasFacebookAccount,
+} from "@/lib/api";
 
 interface LoginFormProps {
   onSuccess: () => void;
@@ -28,6 +32,9 @@ export function LoginForm({
   const [hasGoogleAccount, setHasGoogleAccount] = useState<boolean | null>(
     null,
   );
+  const [hasFacebookAccount, setHasFacebookAccount] = useState<boolean | null>(
+    null,
+  );
 
   const handleLogin = async () => {
     if (!email || !password) return;
@@ -46,20 +53,30 @@ export function LoginForm({
         message.includes("User does not exist") ||
         message.includes("UserNotFoundException")
       ) {
-        // Check if a Google account exists with this email
+        // Check if a social account exists with this email
         try {
-          const hasGoogle = await checkEmailHasGoogleAccount(email);
+          const [hasGoogle, hasFacebook] = await Promise.all([
+            checkEmailHasGoogleAccount(email),
+            checkEmailHasFacebookAccount(email),
+          ]);
           setHasGoogleAccount(hasGoogle);
-          setError("");
+          setHasFacebookAccount(hasFacebook);
+          if (!hasGoogle && !hasFacebook) {
+            setError("No account found with this email.");
+          } else {
+            setError("");
+          }
         } catch (checkErr) {
           // If the check fails, show generic message
-          console.error("checkEmailHasGoogleAccount error:", checkErr);
+          console.error("checkEmailHasSocialAccount error:", checkErr);
           setHasGoogleAccount(null);
+          setHasFacebookAccount(null);
           setError("No account found with this email.");
         }
       } else {
         setError(message);
         setHasGoogleAccount(null);
+        setHasFacebookAccount(null);
       }
     } finally {
       setIsLoading(false);
@@ -78,6 +95,11 @@ export function LoginForm({
   return (
     <div className="space-y-4">
       <GoogleSignInButton isDisabled={isLoading} onError={setError} />
+      <FacebookSignInButton
+        isDisabled={isLoading}
+        onError={setError}
+        showDivider
+      />
 
       <Input
         label="Email address"
@@ -134,7 +156,21 @@ export function LoginForm({
         </div>
       )}
 
-      {hasGoogleAccount === false && (
+      {hasFacebookAccount === true && !hasGoogleAccount && (
+        <div className="p-4 bg-blue-900/30 border border-blue-700 rounded-lg space-y-3">
+          <div>
+            <p className="text-white mb-1 font-medium">
+              This email is registered with Facebook.
+            </p>
+            <p className="text-gray-400 text-sm">
+              Please sign in with Facebook to continue.
+            </p>
+          </div>
+          <FacebookSignInButton onError={setError} showDivider={false} />
+        </div>
+      )}
+
+      {hasGoogleAccount === false && hasFacebookAccount === false && (
         <div className="p-4 bg-yellow-900/30 border border-yellow-700 rounded-lg">
           <p className="text-white mb-1 font-medium">
             No account found with this email.

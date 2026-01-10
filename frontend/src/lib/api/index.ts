@@ -16,6 +16,7 @@ export {
   getUserProfile,
   checkDisplayNameAvailable,
   checkEmailHasGoogleAccount,
+  checkEmailHasFacebookAccount,
   updateDisplayName,
   ensureProfile,
 } from "./users";
