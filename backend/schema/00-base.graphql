@@ -55,10 +55,16 @@ type RoomInfo @aws_iam @aws_cognito_user_pools {
   currentQuestion: Int
 }
 
+type DeleteAccountResult {
+  success: Boolean!
+  message: String!
+}
+
 type Mutation {
   # User mutations
   updateDisplayName(displayName: String!): User @aws_cognito_user_pools
   ensureProfile(displayName: String!): User @aws_cognito_user_pools
+  deleteMyAccount: DeleteAccountResult! @aws_cognito_user_pools
 
   # Subscription mutations
   createCheckoutSession(input: CreateCheckoutInput!): CheckoutSession @aws_cognito_user_pools

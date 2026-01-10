@@ -2,7 +2,8 @@
 
 import Script from "next/script";
 import { usePathname, useSearchParams } from "next/navigation";
-import { useEffect, Suspense } from "react";
+import { useEffect, useState, Suspense } from "react";
+import { hasAnalyticsConsent } from "./CookieConsent";
 
 const GA_MEASUREMENT_ID = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID;
 
@@ -39,7 +40,15 @@ function GoogleAnalyticsInner() {
 }
 
 export function GoogleAnalytics() {
-  if (!GA_MEASUREMENT_ID) {
+  const [hasConsent, setHasConsent] = useState(false);
+
+  useEffect(() => {
+    // Check consent on client side
+    setHasConsent(hasAnalyticsConsent());
+  }, []);
+
+  // Don't render if no measurement ID or no consent
+  if (!GA_MEASUREMENT_ID || !hasConsent) {
     return null;
   }
 

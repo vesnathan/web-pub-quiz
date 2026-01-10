@@ -1,4 +1,5 @@
 const { execSync } = require("child_process");
+const { withSentryConfig } = require("@sentry/nextjs");
 
 // Get the current git commit hash at build time
 function getGitCommitHash() {
@@ -21,4 +22,24 @@ const nextConfig = {
   },
 };
 
-module.exports = nextConfig;
+module.exports = withSentryConfig(nextConfig, {
+  // Sentry options
+  org: process.env.SENTRY_ORG,
+  project: process.env.SENTRY_PROJECT,
+
+  // Only upload source maps in CI
+  silent: !process.env.CI,
+
+  // Upload source maps for better stack traces
+  widenClientFileUpload: true,
+
+  // Hide source maps from users
+  hideSourceMaps: true,
+
+  // Disable telemetry
+  telemetry: false,
+
+  // Disable automatic instrumentation for static export
+  disableServerWebpackPlugin: true,
+  disableClientWebpackPlugin: false,
+});
