@@ -5,6 +5,9 @@ name: Deploy to Production
 on:
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   merge-to-main:
     name: Merge dev to main
