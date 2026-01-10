@@ -6,6 +6,7 @@ type Query {
   getUserProfile(userId: ID!): UserPublic
   checkDisplayNameAvailable(displayName: String!): Boolean! @aws_iam
   checkEmailHasGoogleAccount(email: String!): Boolean! @aws_iam
+  checkEmailHasFacebookAccount(email: String!): Boolean! @aws_iam
 
   # Leaderboard queries
   getLeaderboard(type: LeaderboardType!, limit: Int): Leaderboard

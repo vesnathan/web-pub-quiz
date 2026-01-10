@@ -7,10 +7,51 @@ on:
   workflow_dispatch:
 
 jobs:
+  # Run E2E tests against production before deploying
+  e2e-tests:
+    name: Pre-Deploy E2E Tests
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'yarn'
+
+      - name: Install dependencies
+        run: yarn install --frozen-lockfile
+
+      - name: Install Playwright browsers
+        run: npx playwright install --with-deps chromium
+
+      - name: Run E2E tests
+        run: yarn test:e2e
+        env:
+          CI: true
+          E2E_BASE_URL: https://quiznight.live
+          AWS_ACCESS_KEY_ID: ${{ secrets.E2E_AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.E2E_AWS_SECRET_ACCESS_KEY }}
+          AWS_REGION: ap-southeast-2
+          STAGE: prod
+
+      - name: Upload test results
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: playwright-report
+          path: playwright-report/
+          retention-days: 7
+
   deploy:
     name: Deploy to Production
     runs-on: ubuntu-latest
     timeout-minutes: 30
+    needs: e2e-tests  # Only deploy if E2E tests pass
 
     steps:
       - name: Checkout

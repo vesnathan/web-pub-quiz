@@ -10,6 +10,7 @@ import {
   usePasswordValidation,
 } from "./PasswordStrengthIndicator";
 import { GoogleSignInButton } from "./GoogleSignInButton";
+import { FacebookSignInButton } from "./FacebookSignInButton";
 import { useScreenNameCheck } from "@/hooks/useScreenNameCheck";
 
 interface RegistrationFormProps {
@@ -41,6 +42,7 @@ export function RegistrationForm({
   const [isPasswordVisible, setIsPasswordVisible] = useState(false);
   const [isConfirmVisible, setIsConfirmVisible] = useState(false);
   const [showGooglePrompt, setShowGooglePrompt] = useState(false);
+  const [showFacebookPrompt, setShowFacebookPrompt] = useState(false);
 
   const { isValid: isPasswordValid } = usePasswordValidation(password);
 
@@ -102,9 +104,11 @@ export function RegistrationForm({
       const errorMessage =
         err instanceof Error ? err.message : "Registration failed";
 
-      // Check if Google account exists with this email
+      // Check if social account exists with this email
       if (errorMessage.includes("GOOGLE_ACCOUNT_EXISTS")) {
         setShowGooglePrompt(true);
+      } else if (errorMessage.includes("FACEBOOK_ACCOUNT_EXISTS")) {
+        setShowFacebookPrompt(true);
       } else {
         setError(errorMessage);
       }
@@ -200,9 +204,41 @@ export function RegistrationForm({
     );
   }
 
+  // Show Facebook sign-in prompt when account exists with Facebook
+  if (showFacebookPrompt) {
+    return (
+      <div className="space-y-4 text-center">
+        <div className="p-4 bg-blue-900/30 border border-blue-700 rounded-lg">
+          <p className="text-white mb-2">
+            This email is already registered with Facebook.
+          </p>
+          <p className="text-gray-400 text-sm">
+            Please sign in with Facebook to continue.
+          </p>
+        </div>
+        <FacebookSignInButton onError={setError} showDivider={false} />
+        <Button
+          variant="light"
+          className="text-gray-400"
+          onPress={() => {
+            setShowFacebookPrompt(false);
+            setEmail("");
+          }}
+        >
+          Use a different email
+        </Button>
+      </div>
+    );
+  }
+
   return (
     <div className="space-y-4">
       <GoogleSignInButton isDisabled={isLoading} onError={setError} />
+      <FacebookSignInButton
+        isDisabled={isLoading}
+        onError={setError}
+        showDivider
+      />
 
       <div className="grid grid-cols-2 gap-3">
         <Input

@@ -8,6 +8,7 @@ import {
   GET_USER_PROFILE,
   CHECK_DISPLAY_NAME_AVAILABLE,
   CHECK_EMAIL_HAS_GOOGLE_ACCOUNT,
+  CHECK_EMAIL_HAS_FACEBOOK_ACCOUNT,
 } from "@/graphql/queries";
 import { UPDATE_DISPLAY_NAME, ENSURE_PROFILE } from "@/graphql/mutations";
 import type { User, UserPublic } from "@quiz/shared";
@@ -34,6 +35,12 @@ interface CheckDisplayNameResponse {
 interface CheckEmailHasGoogleAccountResponse {
   data?: {
     checkEmailHasGoogleAccount?: boolean;
+  };
+}
+
+interface CheckEmailHasFacebookAccountResponse {
+  data?: {
+    checkEmailHasFacebookAccount?: boolean;
   };
 }
 
@@ -110,6 +117,21 @@ export async function checkEmailHasGoogleAccount(
   })) as CheckEmailHasGoogleAccountResponse;
 
   return result.data?.checkEmailHasGoogleAccount ?? false;
+}
+
+/**
+ * Check if an email has a Facebook account associated
+ */
+export async function checkEmailHasFacebookAccount(
+  email: string,
+): Promise<boolean> {
+  const result = (await graphqlClient.graphql({
+    query: CHECK_EMAIL_HAS_FACEBOOK_ACCOUNT,
+    variables: { email },
+    authMode: "iam",
+  })) as CheckEmailHasFacebookAccountResponse;
+
+  return result.data?.checkEmailHasFacebookAccount ?? false;
 }
 
 /**
