@@ -8,21 +8,20 @@
  * - An array of badge definitions
  */
 
-import type { BadgeDefinition, UserStats, BadgeCheckContext } from './types';
+import type { BadgeDefinition, UserStats, BadgeCheckContext } from "./types";
 export type { BadgeDefinition, UserStats, BadgeCheckContext };
 
 // Import all badge groups
-import { streakBadges, STREAK_GROUP } from './streak';
-import { perfectSetBadges, PERFECT_SET_GROUP } from './perfect-set';
-import { setsPlayedBadges, SETS_PLAYED_GROUP } from './sets-played';
-import { setsWonBadges, SETS_WON_GROUP } from './sets-won';
-import { speedBadges, SPEED_GROUP } from './speed';
-import { totalCorrectBadges, TOTAL_CORRECT_GROUP } from './total-correct';
-import { dailyStreakBadges, DAILY_STREAK_GROUP } from './daily-streak';
-import { comebackBadges, COMEBACK_GROUP } from './comeback';
-import { specialBadges, SPECIAL_GROUP } from './special';
-import { categoryMasteryBadges, CATEGORY_MASTERY_GROUP } from './category-mastery';
-import { consecutiveRunBadges, CONSECUTIVE_RUN_GROUP } from './consecutive-run';
+import { streakBadges, STREAK_GROUP } from "./streak";
+import { speedBadges, SPEED_GROUP } from "./speed";
+import { totalCorrectBadges, TOTAL_CORRECT_GROUP } from "./total-correct";
+import { dailyStreakBadges, DAILY_STREAK_GROUP } from "./daily-streak";
+import { specialBadges, SPECIAL_GROUP } from "./special";
+import {
+  categoryMasteryBadges,
+  CATEGORY_MASTERY_GROUP,
+} from "./category-mastery";
+import { consecutiveRunBadges, CONSECUTIVE_RUN_GROUP } from "./consecutive-run";
 
 // Badge group definition
 export interface BadgeGroup {
@@ -37,20 +36,16 @@ export interface BadgeGroup {
 export const BADGE_GROUPS: BadgeGroup[] = [
   { ...STREAK_GROUP, badges: streakBadges },
   { ...CONSECUTIVE_RUN_GROUP, badges: consecutiveRunBadges },
-  { ...PERFECT_SET_GROUP, badges: perfectSetBadges },
-  { ...SETS_PLAYED_GROUP, badges: setsPlayedBadges },
-  { ...SETS_WON_GROUP, badges: setsWonBadges },
   { ...SPEED_GROUP, badges: speedBadges },
   { ...TOTAL_CORRECT_GROUP, badges: totalCorrectBadges },
   { ...DAILY_STREAK_GROUP, badges: dailyStreakBadges },
-  { ...COMEBACK_GROUP, badges: comebackBadges },
   { ...SPECIAL_GROUP, badges: specialBadges },
   { ...CATEGORY_MASTERY_GROUP, badges: categoryMasteryBadges },
 ];
 
 // All badges flattened (for backward compatibility)
 export const allBadges: BadgeDefinition[] = BADGE_GROUPS.flatMap(
-  (group) => group.badges
+  (group) => group.badges,
 );
 
 /**
@@ -58,7 +53,7 @@ export const allBadges: BadgeDefinition[] = BADGE_GROUPS.flatMap(
  */
 export function getEarnedBadges(
   stats: UserStats,
-  context?: BadgeCheckContext
+  context?: BadgeCheckContext,
 ): BadgeDefinition[] {
   return allBadges.filter((badge) => badge.checkCondition(stats, context));
 }
@@ -82,7 +77,7 @@ export function getGroupById(id: string): BadgeGroup | undefined {
  */
 export function getHighestBadgeInGroup(
   groupId: string,
-  earnedBadgeIds: string[]
+  earnedBadgeIds: string[],
 ): BadgeDefinition | undefined {
   const group = getGroupById(groupId);
   if (!group) return undefined;
@@ -98,7 +93,7 @@ export function getHighestBadgeInGroup(
  * Get badges to display (respecting showHighestOnly per group)
  */
 export function getBadgesToDisplay(
-  earnedBadgeIds: string[]
+  earnedBadgeIds: string[],
 ): BadgeDefinition[] {
   const displayBadges: BadgeDefinition[] = [];
 
@@ -110,7 +105,7 @@ export function getBadgesToDisplay(
       }
     } else {
       const earnedInGroup = group.badges.filter((badge) =>
-        earnedBadgeIds.includes(badge.id)
+        earnedBadgeIds.includes(badge.id),
       );
       displayBadges.push(...earnedInGroup);
     }

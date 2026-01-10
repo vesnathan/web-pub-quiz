@@ -4,7 +4,7 @@ import { useEffect, useState, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Card, CardBody } from "@nextui-org/react";
 import { useGameStore } from "@/stores/gameStore";
-import { BadgeRevolver } from "@/components/badges";
+import { BadgeRevolver, BadgeBar } from "@/components/badges";
 import type { LeaderboardEntry, AwardBadge } from "@quiz/shared";
 import { getBadgeById } from "@quiz/shared";
 
@@ -41,7 +41,7 @@ export function QuestionResults({
 }: QuestionResultsProps) {
   const [countdown, setCountdown] = useState<number>(0);
   const [showPointsAnim, setShowPointsAnim] = useState(true);
-  const { markBadgesAsAnimated } = useGameStore();
+  const { markBadgesAsAnimated, earnedBadgesThisSet } = useGameStore();
   const badgesMarkedRef = useRef(false);
 
   // Clear points animation after delay
@@ -335,6 +335,17 @@ export function QuestionResults({
           </CardBody>
         </Card>
       </motion.div>
+
+      {/* Session Badge Bar - shows all badges earned this session */}
+      {earnedBadgesThisSet.length > 0 && (
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.8 }}
+        >
+          <BadgeBar badgeIds={earnedBadgesThisSet} title="Session Badges" />
+        </motion.div>
+      )}
     </div>
   );
 }
