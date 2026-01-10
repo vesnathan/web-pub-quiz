@@ -1,21 +1,87 @@
 name: Deploy to Production
 
-# Manual deployment only - auto-deploy disabled to avoid:
-# 1. Interrupting active games (orchestrator restart drops WebSocket connections)
-# 2. Version mismatches between frontend and orchestrator
+# Manual deployment only - shut down the site before deploying
+# Flow: Merge dev → main → Deploy → E2E verify → Rollback if failed
 on:
   workflow_dispatch:
 
 jobs:
-  # Run E2E tests against production before deploying
-  e2e-tests:
-    name: Pre-Deploy E2E Tests
+  merge-to-main:
+    name: Merge dev to main
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    outputs:
+      previous_sha: ${{ steps.get_sha.outputs.sha }}
 
     steps:
-      - name: Checkout
+      - name: Checkout main
         uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Get current main SHA (for rollback)
+        id: get_sha
+        run: echo "sha=$(git rev-parse HEAD)" >> $GITHUB_OUTPUT
+
+      - name: Configure git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Merge dev into main
+        run: |
+          git fetch origin dev
+          git merge origin/dev --no-edit
+          git push origin main
+
+  deploy:
+    name: Deploy to Production
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    needs: merge-to-main
+
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'yarn'
+
+      - name: Install dependencies
+        run: yarn install --frozen-lockfile
+
+      - name: Deploy to production
+        run: yarn workspace @quiz/deploy deploy:prod -y
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.DEPLOY_AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.DEPLOY_AWS_SECRET_ACCESS_KEY }}
+          AWS_REGION: ap-southeast-2
+          DEPLOY_USER_ARN: arn:aws:iam::430118819356:user/quiz-night-live-deploy
+          CFN_ROLE_ARN: arn:aws:iam::430118819356:role/quiz-night-live-cfn-role
+          DOMAIN_NAME: quiznight.live
+          HOSTED_ZONE_ID: Z10453861JIXIZ5XUC9N8
+          ABLY_API_KEY: ${{ secrets.ABLY_API_KEY }}
+          GOOGLE_CLIENT_ID: ${{ secrets.GOOGLE_CLIENT_ID }}
+          GOOGLE_CLIENT_SECRET: ${{ secrets.GOOGLE_CLIENT_SECRET }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+
+  verify:
+    name: Verify Deployment (E2E)
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    needs: deploy
+
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v4
+        with:
+          ref: main
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -29,7 +95,10 @@ jobs:
       - name: Install Playwright browsers
         run: npx playwright install --with-deps chromium
 
-      - name: Run E2E tests
+      - name: Wait for deployment to stabilize
+        run: sleep 30
+
+      - name: Run E2E tests against production
         run: yarn test:e2e
         env:
           CI: true
@@ -47,15 +116,31 @@ jobs:
           path: playwright-report/
           retention-days: 7
 
-  deploy:
-    name: Deploy to Production
+  rollback:
+    name: Rollback on Failure
     runs-on: ubuntu-latest
     timeout-minutes: 30
-    needs: e2e-tests  # Only deploy if E2E tests pass
+    needs: [merge-to-main, deploy, verify]
+    if: failure() && needs.merge-to-main.outputs.previous_sha != ''
 
     steps:
-      - name: Checkout
+      - name: Checkout main
         uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Configure git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Revert main to previous state
+        run: |
+          echo "Rolling back to ${{ needs.merge-to-main.outputs.previous_sha }}"
+          git reset --hard ${{ needs.merge-to-main.outputs.previous_sha }}
+          git push origin main --force
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -66,7 +151,7 @@ jobs:
       - name: Install dependencies
         run: yarn install --frozen-lockfile
 
-      - name: Deploy to production
+      - name: Redeploy previous version
         run: yarn workspace @quiz/deploy deploy:prod -y
         env:
           AWS_ACCESS_KEY_ID: ${{ secrets.DEPLOY_AWS_ACCESS_KEY_ID }}
