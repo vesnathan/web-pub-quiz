@@ -1,9 +1,8 @@
 name: Deploy
 
-# Auto-deploy on merge to main, or manual trigger
+# Manual deploy only - orchestrator holds game state in memory
+# Auto-deploy would reset all active games!
 on:
-  push:
-    branches: [main]
   workflow_dispatch:
     inputs:
       skip_e2e:
