@@ -204,6 +204,24 @@ function isGuestPlayer(playerId: string): boolean {
 
 // ============ Guest Quota Tracking ============
 
+// Store guest tracking info (fingerprint, IP) keyed by guestId
+interface GuestTrackingInfo {
+  fingerprint?: string;
+  clientIp?: string;
+}
+const guestTrackingInfo = new Map<string, GuestTrackingInfo>();
+
+/**
+ * Store tracking info for a guest when they join
+ */
+function setGuestTrackingInfo(
+  guestId: string,
+  fingerprint?: string,
+  clientIp?: string,
+): void {
+  guestTrackingInfo.set(guestId, { fingerprint, clientIp });
+}
+
 /**
  * Get today's date in YYYY-MM-DD format (UTC)
  */
@@ -212,38 +230,99 @@ function getTodayDateKey(): string {
 }
 
 /**
- * Check if a guest has exceeded their daily question quota.
- * Returns the current count if within limit, or -1 if exceeded.
+ * Check quota for a single identifier (guestId, fingerprint, or IP)
  */
-async function checkGuestQuota(guestId: string): Promise<number> {
+async function checkQuotaByIdentifier(
+  identifierType: string,
+  identifier: string,
+): Promise<number> {
   const dateKey = getTodayDateKey();
   try {
     const result = await docClient.send(
       new GetCommand({
         TableName: TABLE_NAME,
-        Key: { PK: `GUEST_QUOTA#${guestId}`, SK: dateKey },
+        Key: { PK: `GUEST_QUOTA#${identifierType}:${identifier}`, SK: dateKey },
       }),
     );
-    const count = result.Item?.questionsAnswered || 0;
-    return count >= FREE_TIER_DAILY_QUESTION_LIMIT ? -1 : count;
+    return result.Item?.questionsAnswered || 0;
   } catch (error) {
-    console.error(`Failed to check guest quota for ${guestId}:`, error);
-    // On error, allow the question (fail open)
+    console.error(
+      `Failed to check quota for ${identifierType}:${identifier}:`,
+      error,
+    );
     return 0;
   }
 }
 
 /**
- * Increment the guest's question count for today.
- * Returns the new count.
+ * Check if a guest has exceeded their daily question quota.
+ * Checks guestId, fingerprint, and IP - if ANY exceeds limit, returns -1.
  */
-async function incrementGuestQuota(guestId: string): Promise<number> {
+async function checkGuestQuota(guestId: string): Promise<number> {
+  const trackingInfo = guestTrackingInfo.get(guestId);
+
+  // Check all identifiers in parallel
+  const checks: Promise<{ type: string; count: number }>[] = [
+    checkQuotaByIdentifier("guestId", guestId).then((count) => ({
+      type: "guestId",
+      count,
+    })),
+  ];
+
+  if (trackingInfo?.fingerprint) {
+    checks.push(
+      checkQuotaByIdentifier("fingerprint", trackingInfo.fingerprint).then(
+        (count) => ({ type: "fingerprint", count }),
+      ),
+    );
+  }
+
+  if (trackingInfo?.clientIp) {
+    checks.push(
+      checkQuotaByIdentifier("ip", trackingInfo.clientIp).then((count) => ({
+        type: "ip",
+        count,
+      })),
+    );
+  }
+
+  const results = await Promise.all(checks);
+
+  // Log all counts for debugging
+  for (const { type, count } of results) {
+    console.log(
+      `📊 Guest quota check - ${type}: ${count}/${FREE_TIER_DAILY_QUESTION_LIMIT}`,
+    );
+  }
+
+  // If any identifier exceeds limit, block
+  const exceeded = results.find(
+    ({ count }) => count >= FREE_TIER_DAILY_QUESTION_LIMIT,
+  );
+  if (exceeded) {
+    console.log(
+      `🚫 Guest ${guestId} exceeded quota via ${exceeded.type} (${exceeded.count})`,
+    );
+    return -1;
+  }
+
+  // Return the max count across all identifiers
+  return Math.max(...results.map(({ count }) => count));
+}
+
+/**
+ * Increment quota for a single identifier
+ */
+async function incrementQuotaByIdentifier(
+  identifierType: string,
+  identifier: string,
+): Promise<void> {
   const dateKey = getTodayDateKey();
   try {
-    const result = await docClient.send(
+    await docClient.send(
       new UpdateCommand({
         TableName: TABLE_NAME,
-        Key: { PK: `GUEST_QUOTA#${guestId}`, SK: dateKey },
+        Key: { PK: `GUEST_QUOTA#${identifierType}:${identifier}`, SK: dateKey },
         UpdateExpression:
           "SET questionsAnswered = if_not_exists(questionsAnswered, :zero) + :one, #ttl = :ttl",
         ExpressionAttributeNames: { "#ttl": "TTL" },
@@ -253,14 +332,38 @@ async function incrementGuestQuota(guestId: string): Promise<number> {
           // TTL: expire after 2 days (gives buffer for timezone differences)
           ":ttl": Math.floor(Date.now() / 1000) + 2 * 24 * 60 * 60,
         },
-        ReturnValues: "ALL_NEW",
       }),
     );
-    return result.Attributes?.questionsAnswered || 1;
   } catch (error) {
-    console.error(`Failed to increment guest quota for ${guestId}:`, error);
-    return 0;
+    console.error(
+      `Failed to increment quota for ${identifierType}:${identifier}:`,
+      error,
+    );
   }
+}
+
+/**
+ * Increment the guest's question count for today across all identifiers.
+ */
+async function incrementGuestQuota(guestId: string): Promise<void> {
+  const trackingInfo = guestTrackingInfo.get(guestId);
+
+  // Increment all identifiers in parallel
+  const updates: Promise<void>[] = [
+    incrementQuotaByIdentifier("guestId", guestId),
+  ];
+
+  if (trackingInfo?.fingerprint) {
+    updates.push(
+      incrementQuotaByIdentifier("fingerprint", trackingInfo.fingerprint),
+    );
+  }
+
+  if (trackingInfo?.clientIp) {
+    updates.push(incrementQuotaByIdentifier("ip", trackingInfo.clientIp));
+  }
+
+  await Promise.all(updates);
 }
 
 // ============ DynamoDB Helper Functions ============
@@ -738,10 +841,16 @@ function setupLobbyPresence(): void {
 
   // Handle room join requests
   lobbyChannel.subscribe("join_room", async (message) => {
-    const { playerId, roomId, displayName } = message.data;
+    const { playerId, roomId, displayName, fingerprint, clientIp } =
+      message.data;
     console.log(
-      `📥 JOIN_ROOM request: playerId=${playerId}, roomId=${roomId}, displayName=${displayName}`,
+      `📥 JOIN_ROOM request: playerId=${playerId}, roomId=${roomId}, displayName=${displayName}, fp=${fingerprint?.substring(0, 8)}..., ip=${clientIp}`,
     );
+
+    // Store tracking info for guest quota enforcement
+    if (isGuestPlayer(playerId)) {
+      setGuestTrackingInfo(playerId, fingerprint, clientIp);
+    }
 
     // Check if join window is open
     const joinWindow = isJoinWindowOpen();
@@ -801,7 +910,12 @@ function setupLobbyPresence(): void {
 
   // Handle auto-join (find any available room)
   lobbyChannel.subscribe("auto_join", async (message) => {
-    const { playerId, displayName } = message.data;
+    const { playerId, displayName, fingerprint, clientIp } = message.data;
+
+    // Store tracking info for guest quota enforcement
+    if (isGuestPlayer(playerId)) {
+      setGuestTrackingInfo(playerId, fingerprint, clientIp);
+    }
 
     // Check if join window is open
     const joinWindow = isJoinWindowOpen();
