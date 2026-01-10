@@ -1,14 +1,15 @@
 name: Deploy to Production
 
-# Manual deployment only - shut down the site before deploying
-# Flow: Merge dev → main → Deploy → E2E verify → Rollback if failed
+# Manual deployment only - triggered after merging PRs to main
+# Flow: Deploy from main → E2E verify → Rollback if failed
 on:
   workflow_dispatch:
 
 jobs:
-  merge-to-main:
-    name: Merge dev to main
+  deploy:
+    name: Deploy to Production
     runs-on: ubuntu-latest
+    timeout-minutes: 30
     outputs:
       previous_sha: ${{ steps.get_sha.outputs.sha }}
 
@@ -18,34 +19,10 @@ jobs:
         with:
           ref: main
           fetch-depth: 0
-          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Get current main SHA (for rollback)
         id: get_sha
-        run: echo "sha=$(git rev-parse HEAD)" >> $GITHUB_OUTPUT
-
-      - name: Configure git
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-
-      - name: Merge dev into main
-        run: |
-          git fetch origin dev
-          git merge origin/dev --no-edit
-          git push origin main
-
-  deploy:
-    name: Deploy to Production
-    runs-on: ubuntu-latest
-    timeout-minutes: 30
-    needs: merge-to-main
-
-    steps:
-      - name: Checkout main
-        uses: actions/checkout@v4
-        with:
-          ref: main
+        run: echo "sha=$(git rev-parse HEAD~1)" >> $GITHUB_OUTPUT
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -120,8 +97,10 @@ jobs:
     name: Rollback on Failure
     runs-on: ubuntu-latest
     timeout-minutes: 30
-    needs: [merge-to-main, deploy, verify]
-    if: failure() && needs.merge-to-main.outputs.previous_sha != ''
+    needs: [deploy, verify]
+    if: failure() && needs.deploy.outputs.previous_sha != ''
+    permissions:
+      contents: write
 
     steps:
       - name: Checkout main
@@ -136,11 +115,11 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-      - name: Revert main to previous state
+      - name: Create rollback commit
         run: |
-          echo "Rolling back to ${{ needs.merge-to-main.outputs.previous_sha }}"
-          git reset --hard ${{ needs.merge-to-main.outputs.previous_sha }}
-          git push origin main --force
+          echo "Rolling back to ${{ needs.deploy.outputs.previous_sha }}"
+          git revert HEAD --no-edit || echo "Revert not needed or failed"
+          git push origin main || echo "Push failed - manual intervention may be needed"
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
