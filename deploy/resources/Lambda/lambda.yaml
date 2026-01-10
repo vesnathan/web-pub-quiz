@@ -204,6 +204,61 @@ Resources:
         - Key: Project
           Value: quiz-night-live
 
+  # Check Email Has Facebook Account Lambda
+  CheckEmailHasFacebookAccountFunction:
+    Type: AWS::Lambda::Function
+    Properties:
+      FunctionName: !Sub "${AppName}-check-email-facebook-${Stage}"
+      Runtime: nodejs20.x
+      Handler: index.handler
+      Role: !GetAtt CheckEmailHasFacebookAccountRole.Arn
+      Timeout: 10
+      Environment:
+        Variables:
+          USER_POOL_ID: !Ref UserPoolId
+      Code:
+        S3Bucket: !Ref TemplateBucketName
+        S3Key: !Sub "functions/${Stage}/checkEmailHasFacebookAccount.zip"
+      Tags:
+        - Key: Project
+          Value: quiz-night-live
+
+  CheckEmailHasFacebookAccountRole:
+    Type: AWS::IAM::Role
+    Properties:
+      RoleName: !Sub "${AppName}-check-email-facebook-role-${Stage}"
+      AssumeRolePolicyDocument:
+        Version: "2012-10-17"
+        Statement:
+          - Effect: Allow
+            Principal:
+              Service: lambda.amazonaws.com
+            Action: sts:AssumeRole
+      ManagedPolicyArns:
+        - arn:aws:iam::aws:policy/service-role/AWSLambdaBasicExecutionRole
+      Policies:
+        - PolicyName: CognitoListUsers
+          PolicyDocument:
+            Version: "2012-10-17"
+            Statement:
+              - Effect: Allow
+                Action:
+                  - cognito-idp:ListUsers
+                Resource:
+                  - !Sub "arn:aws:cognito-idp:${AWS::Region}:${AWS::AccountId}:userpool/${UserPoolId}"
+      Tags:
+        - Key: Project
+          Value: quiz-night-live
+
+  CheckEmailHasFacebookAccountLogGroup:
+    Type: AWS::Logs::LogGroup
+    Properties:
+      LogGroupName: !Sub "/aws/lambda/${AppName}-check-email-facebook-${Stage}"
+      RetentionInDays: !Ref LogRetentionInDays
+      Tags:
+        - Key: Project
+          Value: quiz-night-live
+
   # Note: Orchestrator is now running on Fargate, not Lambda
   # See deploy/resources/Fargate/fargate.yaml
 
@@ -770,6 +825,10 @@ Outputs:
   CheckEmailHasGoogleAccountFunctionArn:
     Description: Check Email Has Google Account Lambda ARN
     Value: !GetAtt CheckEmailHasGoogleAccountFunction.Arn
+
+  CheckEmailHasFacebookAccountFunctionArn:
+    Description: Check Email Has Facebook Account Lambda ARN
+    Value: !GetAtt CheckEmailHasFacebookAccountFunction.Arn
 
   PaymentWebhookApiUrl:
     Description: Payment Webhook API URL

@@ -1115,6 +1115,8 @@ async function deployStack(
       : "";
   const googleClientId = process.env.GOOGLE_CLIENT_ID || "";
   const googleClientSecret = process.env.GOOGLE_CLIENT_SECRET || "";
+  const facebookClientId = process.env.FACEBOOK_CLIENT_ID || "";
+  const facebookClientSecret = process.env.FACEBOOK_CLIENT_SECRET || "";
 
   const parameters = [
     { ParameterKey: "Stage", ParameterValue: stage },
@@ -1131,6 +1133,11 @@ async function deployStack(
     },
     { ParameterKey: "GoogleClientId", ParameterValue: googleClientId },
     { ParameterKey: "GoogleClientSecret", ParameterValue: googleClientSecret },
+    { ParameterKey: "FacebookClientId", ParameterValue: facebookClientId },
+    {
+      ParameterKey: "FacebookClientSecret",
+      ParameterValue: facebookClientSecret,
+    },
     { ParameterKey: "ResolversBuildHash", ParameterValue: resolversBuildHash },
     { ParameterKey: "SchemaBuildHash", ParameterValue: schemaBuildHash },
     { ParameterKey: "TemplateBuildHash", ParameterValue: templateBuildHash },
@@ -1202,6 +1209,7 @@ NEXT_PUBLIC_APPSYNC_URL=${outputs.ApiUrl}
 NEXT_PUBLIC_CLOUDFRONT_URL=https://${outputs.CloudFrontDomainName}
 NEXT_PUBLIC_COGNITO_DOMAIN=${outputs.CognitoDomain}
 NEXT_PUBLIC_GOOGLE_OAUTH_ENABLED=${outputs.GoogleOAuthEnabled || "false"}
+NEXT_PUBLIC_FACEBOOK_OAUTH_ENABLED=${outputs.FacebookOAuthEnabled || "false"}
 NEXT_PUBLIC_ABLY_KEY=${ablyApiKey}
 NEXT_PUBLIC_RECAPTCHA_SITE_KEY=${recaptchaSiteKey}
 NEXT_PUBLIC_APP_URL=${appUrl}

@@ -78,6 +78,12 @@ export const CHECK_EMAIL_HAS_GOOGLE_ACCOUNT = /* GraphQL */ `
   }
 `;
 
+export const CHECK_EMAIL_HAS_FACEBOOK_ACCOUNT = /* GraphQL */ `
+  query CheckEmailHasFacebookAccount($email: String!) {
+    checkEmailHasFacebookAccount(email: $email)
+  }
+`;
+
 export const GET_LEADERBOARD = /* GraphQL */ `
   query GetLeaderboard($type: LeaderboardType!, $limit: Int) {
     getLeaderboard(type: $type, limit: $limit) {
