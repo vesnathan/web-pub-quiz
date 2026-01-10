@@ -32,6 +32,11 @@ interface GameStore {
   sessionKickedReason: string | null;
   setSessionKicked: (kicked: boolean, reason?: string) => void;
 
+  // Guest quota exceeded
+  quotaExceeded: boolean;
+  quotaExceededMessage: string | null;
+  setQuotaExceeded: (exceeded: boolean, message?: string) => void;
+
   // Game state
   gameState: GameState | null;
   setGameState: (state: GameState | null) => void;
@@ -181,6 +186,12 @@ export const useGameStore = create<GameStore>()(
       sessionKickedReason: null,
       setSessionKicked: (sessionKicked, reason) =>
         set({ sessionKicked, sessionKickedReason: reason || null }),
+
+      // Guest quota exceeded
+      quotaExceeded: false,
+      quotaExceededMessage: null,
+      setQuotaExceeded: (quotaExceeded, message) =>
+        set({ quotaExceeded, quotaExceededMessage: message || null }),
 
       // Game state
       gameState: null,
@@ -402,6 +413,8 @@ export const useGameStore = create<GameStore>()(
           completedQuestions: [],
           sessionKicked: false,
           sessionKickedReason: null,
+          quotaExceeded: false,
+          quotaExceededMessage: null,
           currentRoomId: null,
           currentRoomName: null,
         }),

@@ -12,6 +12,7 @@ import {
   ABLY_CHANNELS,
   DEFAULT_GAME_CONFIG,
   calculateQuestionDisplayTime,
+  FREE_TIER_DAILY_QUESTION_LIMIT,
 } from "@quiz/shared";
 import {
   loadGameConfig,
@@ -199,6 +200,67 @@ const TABLE_NAME = process.env.TABLE_NAME || "quiz-night-live-datatable-prod";
  */
 function isGuestPlayer(playerId: string): boolean {
   return playerId.startsWith("guest-");
+}
+
+// ============ Guest Quota Tracking ============
+
+/**
+ * Get today's date in YYYY-MM-DD format (UTC)
+ */
+function getTodayDateKey(): string {
+  return new Date().toISOString().split("T")[0];
+}
+
+/**
+ * Check if a guest has exceeded their daily question quota.
+ * Returns the current count if within limit, or -1 if exceeded.
+ */
+async function checkGuestQuota(guestId: string): Promise<number> {
+  const dateKey = getTodayDateKey();
+  try {
+    const result = await docClient.send(
+      new GetCommand({
+        TableName: TABLE_NAME,
+        Key: { PK: `GUEST_QUOTA#${guestId}`, SK: dateKey },
+      }),
+    );
+    const count = result.Item?.questionsAnswered || 0;
+    return count >= FREE_TIER_DAILY_QUESTION_LIMIT ? -1 : count;
+  } catch (error) {
+    console.error(`Failed to check guest quota for ${guestId}:`, error);
+    // On error, allow the question (fail open)
+    return 0;
+  }
+}
+
+/**
+ * Increment the guest's question count for today.
+ * Returns the new count.
+ */
+async function incrementGuestQuota(guestId: string): Promise<number> {
+  const dateKey = getTodayDateKey();
+  try {
+    const result = await docClient.send(
+      new UpdateCommand({
+        TableName: TABLE_NAME,
+        Key: { PK: `GUEST_QUOTA#${guestId}`, SK: dateKey },
+        UpdateExpression:
+          "SET questionsAnswered = if_not_exists(questionsAnswered, :zero) + :one, #ttl = :ttl",
+        ExpressionAttributeNames: { "#ttl": "TTL" },
+        ExpressionAttributeValues: {
+          ":zero": 0,
+          ":one": 1,
+          // TTL: expire after 2 days (gives buffer for timezone differences)
+          ":ttl": Math.floor(Date.now() / 1000) + 2 * 24 * 60 * 60,
+        },
+        ReturnValues: "ALL_NEW",
+      }),
+    );
+    return result.Attributes?.questionsAnswered || 1;
+  } catch (error) {
+    console.error(`Failed to increment guest quota for ${guestId}:`, error);
+    return 0;
+  }
 }
 
 // ============ DynamoDB Helper Functions ============
@@ -1022,6 +1084,29 @@ async function handleRoomAnswer(
   // Skip if player already answered correctly or guessed this answer
   if (playerState.answeredCorrectly) return;
   if (playerState.wrongAnswers.includes(answerIndex)) return;
+
+  // Check guest quota on first attempt at this question
+  const isFirstAttempt =
+    playerState.guessCount === 0 && !playerState.answeredCorrectly;
+  if (isGuestPlayer(playerId) && isFirstAttempt) {
+    const quotaCount = await checkGuestQuota(playerId);
+    if (quotaCount === -1) {
+      // Quota exceeded - notify player and reject answer
+      console.log(`🚫 [${roomId}] Guest ${playerId} exceeded daily quota`);
+      const userChannel = ably?.channels.get(
+        `${ABLY_CHANNELS.USER_PREFIX}${playerId}`,
+      );
+      if (userChannel) {
+        await userChannel.publish("quota_exceeded", {
+          limit: FREE_TIER_DAILY_QUESTION_LIMIT,
+          message: `You've reached your daily limit of ${FREE_TIER_DAILY_QUESTION_LIMIT} free questions. Sign up to continue playing!`,
+        });
+      }
+      return;
+    }
+    // Increment quota for this question attempt
+    await incrementGuestQuota(playerId);
+  }
 
   const player = session.players.get(playerId);
   const displayName = player?.displayName || "Unknown";
