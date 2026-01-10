@@ -24,6 +24,8 @@ interface GetRoomListResponse {
 interface GuestInfo {
   guestId: string;
   displayName: string;
+  fingerprint?: string;
+  clientIp?: string;
 }
 
 interface UseLobbyChannelReturn {
@@ -226,6 +228,8 @@ export function useLobbyChannel(): UseLobbyChannelReturn {
           playerId,
           roomId,
           displayName,
+          fingerprint: guest?.fingerprint,
+          clientIp: guest?.clientIp,
         });
 
         // Timeout after 5 seconds

@@ -17,6 +17,7 @@ import { useSubscription } from "@/hooks/useSubscription";
 import { AppFooter } from "@/components/AppFooter";
 import { GameBackground } from "@/components/GameBackground";
 import { SessionKickedOverlay } from "@/components/SessionKickedOverlay";
+import { QuotaExceededOverlay } from "@/components/QuotaExceededOverlay";
 import { SessionSummary } from "@/components/SessionSummary";
 import { DID_YOU_KNOW_FACTS } from "@/data/didYouKnowFacts";
 
@@ -210,6 +211,7 @@ export default function GamePageContent() {
         onComplete={handleBadgeAnimationComplete}
       />
       <SessionKickedOverlay />
+      <QuotaExceededOverlay />
 
       {/* Session Summary */}
       {showSessionSummary && sessionData && (

@@ -50,6 +50,7 @@ export function useGameEventHandlers(): GameEventHandlers {
   const addEarnedBadge = useGameStore((state) => state.addEarnedBadge);
   const clearEarnedBadges = useGameStore((state) => state.clearEarnedBadges);
   const setSessionKicked = useGameStore((state) => state.setSessionKicked);
+  const setQuotaExceeded = useGameStore((state) => state.setQuotaExceeded);
   const setCountdown = useGameStore((state) => state.setCountdown);
   const clearCountdown = useGameStore((state) => state.clearCountdown);
   // Multi-guess state
@@ -291,13 +292,24 @@ export function useGameEventHandlers(): GameEventHandlers {
         setCorrectButSlow(winnerName);
       });
 
+      // Handle quota exceeded events (guest daily limit reached)
+      channel.subscribe("quota_exceeded", (message) => {
+        const { message: quotaMessage } = message.data as {
+          limit: number;
+          message: string;
+        };
+        console.log(`[GameEvents] QUOTA_EXCEEDED: ${quotaMessage}`);
+        setQuotaExceeded(true, quotaMessage);
+      });
+
       return () => {
         channel.unsubscribe("session_kicked");
         channel.unsubscribe("wrong_answer");
         channel.unsubscribe("correct_but_slow");
+        channel.unsubscribe("quota_exceeded");
       };
     },
-    [setSessionKicked, addWrongGuess, setCorrectButSlow],
+    [setSessionKicked, addWrongGuess, setCorrectButSlow, setQuotaExceeded],
   );
 
   /**
