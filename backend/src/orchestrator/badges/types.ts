@@ -4,7 +4,7 @@
  */
 
 // Use string literal type for badge definitions (not the gqlTypes enum)
-export type AwardRarity = 'common' | 'uncommon' | 'rare' | 'epic' | 'legendary';
+export type AwardRarity = "common" | "uncommon" | "rare" | "epic" | "legendary";
 
 export interface BadgeDefinition {
   id: string;
@@ -32,9 +32,6 @@ export interface UserStats {
   totalPoints: number;
   currentStreak: number;
   longestStreak: number;
-  setsPlayed: number;
-  setsWon: number;
-  perfectSets: number;
 
   // Speed tracking (for speed badges)
   fastestBuzzerCount?: number;
@@ -55,29 +52,22 @@ export interface UserStats {
   // Unique players played with (for social butterfly)
   uniquePlayersPlayedWith?: number;
 
-  // Comeback tracking
-  comebackWins?: number;
-  clutchWins?: number;
-
   // Time-based tracking
-  earlyBirdSets?: number;
-  nightOwlSets?: number;
+  earlyBirdGames?: number;
+  nightOwlGames?: number;
   firstBloodCount?: number;
 
-  // Consecutive questions tracking (answering Q1, Q2, Q3... in a row within a set)
+  // Consecutive questions tracking (answering Q1, Q2, Q3... in a row within a session)
   longestConsecutiveRun?: number;
 }
 
 /** Badge check context - additional context beyond stats */
 export interface BadgeCheckContext {
-  setId?: string;
   wasFirstBlood?: boolean;
-  wasComeback?: boolean;
-  wasClutch?: boolean;
   wasFastestBuzzer?: boolean;
   currentHour?: number;
-  /** Current set's consecutive question run (e.g., answered Q1, Q2, Q3 in a row) */
-  consecutiveRunThisSet?: number;
+  /** Current session's consecutive question run (e.g., answered Q1, Q2, Q3 in a row) */
+  consecutiveRunThisSession?: number;
 }
 
 /** Skill points by rarity */

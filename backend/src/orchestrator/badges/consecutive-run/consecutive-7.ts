@@ -1,16 +1,17 @@
-import type { BadgeDefinition } from '../types';
+import type { BadgeDefinition } from "../types";
 
 const badge: BadgeDefinition = {
-  id: 'consecutive_7',
-  name: 'Lucky Seven',
-  description: 'Answer 7 consecutive questions correctly in a set',
-  icon: '🎰',
-  groupId: 'consecutive-run',
+  id: "consecutive_7",
+  name: "Lucky Seven",
+  description: "Answer 7 consecutive questions correctly",
+  icon: "🎰",
+  groupId: "consecutive-run",
   tier: 3,
-  rarity: 'rare',
+  rarity: "rare",
   skillPoints: 50,
   requirement: 7,
-  checkCondition: (_stats, context) => (context?.consecutiveRunThisSet || 0) >= 7,
+  checkCondition: (_stats, context) =>
+    (context?.consecutiveRunThisSession || 0) >= 7,
 };
 
 export default badge;

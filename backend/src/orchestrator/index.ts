@@ -268,9 +268,6 @@ async function updateUserStats(
       totalPoints: stats.totalPoints || 0,
       currentStreak,
       longestStreak,
-      setsPlayed: stats.setsPlayed || 0,
-      setsWon: stats.setsWon || 0,
-      perfectSets: stats.perfectSets || 0,
     };
   } catch (error) {
     console.error(`Failed to update stats for ${userId}:`, error);
@@ -280,9 +277,6 @@ async function updateUserStats(
       totalPoints: 0,
       currentStreak: 0,
       longestStreak: 0,
-      setsPlayed: 0,
-      setsWon: 0,
-      perfectSets: 0,
     };
   }
 }
@@ -371,7 +365,6 @@ async function updateAllLeaderboards(
 async function awardBadge(
   userId: string,
   badge: BadgeDefinition,
-  setId?: string,
 ): Promise<boolean> {
   try {
     // Check if badge already exists (non-repeatable badges)
@@ -399,7 +392,6 @@ async function awardBadge(
       rarity: badge.rarity,
       skillPoints: badge.skillPoints,
       earnedAt: new Date().toISOString(),
-      setId: setId,
     };
 
     await docClient.send(
@@ -434,59 +426,13 @@ async function checkAndAwardBadges(
   const newlyEarnedBadgeIds: string[] = [];
 
   for (const badge of earnedBadges) {
-    const wasNew = await awardBadge(userId, badge, context?.setId);
+    const wasNew = await awardBadge(userId, badge);
     if (wasNew) {
       newlyEarnedBadgeIds.push(badge.id);
     }
   }
 
   return newlyEarnedBadgeIds;
-}
-
-async function updateSetStats(
-  userId: string,
-  won: boolean,
-  isPerfectSet: boolean,
-  setId?: string,
-): Promise<string[]> {
-  try {
-    const result = await docClient.send(
-      new UpdateCommand({
-        TableName: TABLE_NAME,
-        Key: { PK: `USER#${userId}`, SK: "PROFILE" },
-        UpdateExpression: `
-          SET stats.setsPlayed = if_not_exists(stats.setsPlayed, :zero) + :one,
-              stats.setsWon = if_not_exists(stats.setsWon, :zero) + :won,
-              stats.perfectSets = if_not_exists(stats.perfectSets, :zero) + :perfect
-        `,
-        ExpressionAttributeValues: {
-          ":zero": 0,
-          ":one": 1,
-          ":won": won ? 1 : 0,
-          ":perfect": isPerfectSet ? 1 : 0,
-        },
-        ReturnValues: "ALL_NEW",
-      }),
-    );
-
-    const stats = result.Attributes?.stats || {};
-    const badgeStats: BadgeUserStats = {
-      totalCorrect: stats.totalCorrect || 0,
-      totalWrong: stats.totalWrong || 0,
-      totalPoints: stats.totalPoints || 0,
-      currentStreak: stats.currentStreak || 0,
-      longestStreak: stats.longestStreak || 0,
-      setsPlayed: stats.setsPlayed || 0,
-      setsWon: stats.setsWon || 0,
-      perfectSets: stats.perfectSets || 0,
-    };
-
-    const context: BadgeCheckContext = { setId };
-    return await checkAndAwardBadges(userId, badgeStats, context);
-  } catch (error) {
-    console.error(`Failed to update set stats for ${userId}:`, error);
-    return [];
-  }
 }
 
 // ============ Room Session State ============
@@ -1149,11 +1095,10 @@ async function handleRoomAnswer(
             console.error,
           );
 
-          const consecutiveRunThisSet =
+          const consecutiveRunThisSession =
             session.playerConsecutiveRun.get(playerId) || 0;
           const context: BadgeCheckContext = {
-            setId: session.setId,
-            consecutiveRunThisSet,
+            consecutiveRunThisSession,
           };
           const newBadges = await checkAndAwardBadges(playerId, stats, context);
           if (newBadges.length > 0) {
@@ -1245,7 +1190,7 @@ async function handleRoomAnswer(
           console.error,
         );
 
-        const context: BadgeCheckContext = { setId: session.setId };
+        const context: BadgeCheckContext = {};
         const newBadges = await checkAndAwardBadges(playerId, stats, context);
         if (newBadges.length > 0) {
           const existing = session.pendingBadges.get(playerId) || [];
@@ -1375,10 +1320,10 @@ async function startRoomSet(roomId: string): Promise<void> {
 
   // Get questions from mixed categories, filtered by room difficulty
   const questionsUsed = new Set<string>();
+  const QUESTIONS_BATCH_SIZE = 10;
   let questions: Question[];
   try {
     // Fetch a batch of questions (continuous play - no fixed set size)
-    const QUESTIONS_BATCH_SIZE = 10;
     questions = await getQuestionsForMixedSet(
       QUESTIONS_BATCH_SIZE,
       room.difficulty,
@@ -1582,37 +1527,6 @@ async function endRoomSet(roomId: string): Promise<void> {
       badgesSummary[playerId] = [...badges];
     }
   });
-
-  const winner = leaderboard[0];
-  const totalQuestions = session.questions.length;
-
-  try {
-    for (const [playerId, player] of session.players) {
-      // Skip set stats for guests
-      if (isGuestPlayer(playerId)) {
-        continue;
-      }
-
-      const isWinner = winner && winner.userId === playerId;
-      const correctCount = session.playerCorrectCount.get(playerId) || 0;
-      const wrongCount = session.playerWrongCount.get(playerId) || 0;
-      const isPerfectSet = correctCount === totalQuestions && wrongCount === 0;
-
-      const newBadges = await updateSetStats(
-        playerId,
-        isWinner,
-        isPerfectSet,
-        session.setId,
-      );
-
-      if (newBadges.length > 0) {
-        const existing = badgesSummary[playerId] || [];
-        badgesSummary[playerId] = [...existing, ...newBadges];
-      }
-    }
-  } catch (error) {
-    console.error(`Failed to persist set stats for room ${roomId}:`, error);
-  }
 
   const payload: SetEndPayload = {
     finalScores,

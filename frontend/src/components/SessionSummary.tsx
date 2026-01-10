@@ -4,7 +4,9 @@ import { Card, CardBody, Button } from "@nextui-org/react";
 import { motion } from "framer-motion";
 import { useRouter } from "next/navigation";
 import type { CompletedQuestion } from "@/stores/gameStore";
+import { useGameStore } from "@/stores/gameStore";
 import type { LeaderboardEntry } from "@quiz/shared";
+import { BadgeBar } from "@/components/badges";
 
 interface SessionSummaryProps {
   completedQuestions: CompletedQuestion[];
@@ -22,6 +24,7 @@ export function SessionSummary({
   onClose,
 }: SessionSummaryProps) {
   const router = useRouter();
+  const { earnedBadgesThisSet } = useGameStore();
 
   const correctCount = completedQuestions.filter((q) => q.userCorrect).length;
   const wrongCount = completedQuestions.filter(
@@ -104,6 +107,14 @@ export function SessionSummary({
                   </div>
                 </div>
               </div>
+
+              {/* Session Badges */}
+              {earnedBadgesThisSet.length > 0 && (
+                <BadgeBar
+                  badgeIds={earnedBadgesThisSet}
+                  title="Badges Earned This Session"
+                />
+              )}
 
               {/* Question Review */}
               {completedQuestions.length > 0 && (
