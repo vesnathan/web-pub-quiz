@@ -46,6 +46,15 @@ Parameters:
     Description: Google OAuth Client Secret
     NoEcho: true
     Default: ""
+  FacebookClientId:
+    Type: String
+    Description: Facebook OAuth App ID
+    Default: ""
+  FacebookClientSecret:
+    Type: String
+    Description: Facebook OAuth App Secret
+    NoEcho: true
+    Default: ""
   AuthDomainCertificateArn:
     Type: String
     Description: ACM Certificate ARN in us-east-1 for auth subdomain (e.g., auth.quiznight.live)
@@ -111,6 +120,8 @@ Resources:
         LogRetentionInDays: !Ref LogRetentionInDays
         GoogleClientId: !Ref GoogleClientId
         GoogleClientSecret: !Ref GoogleClientSecret
+        FacebookClientId: !Ref FacebookClientId
+        FacebookClientSecret: !Ref FacebookClientSecret
         FrontendUrl: !If
           - HasCustomDomain
           - !Sub "https://${DomainName}"
@@ -174,6 +185,7 @@ Resources:
         CreateCheckoutFunctionArn: !GetAtt LambdaStack.Outputs.CreateCheckoutFunctionArn
         CreateTipCheckoutFunctionArn: !GetAtt LambdaStack.Outputs.CreateTipCheckoutFunctionArn
         CheckEmailHasGoogleAccountFunctionArn: !GetAtt LambdaStack.Outputs.CheckEmailHasGoogleAccountFunctionArn
+        CheckEmailHasFacebookAccountFunctionArn: !GetAtt LambdaStack.Outputs.CheckEmailHasFacebookAccountFunctionArn
         SchemaReadyWaiterFunctionArn: !GetAtt LambdaStack.Outputs.SchemaReadyWaiterFunctionArn
         SendInviteFunctionArn: !GetAtt LambdaStack.Outputs.SendInviteFunctionArn
         SendContactFunctionArn: !GetAtt LambdaStack.Outputs.SendContactFunctionArn
@@ -342,6 +354,12 @@ Outputs:
     Value: !GetAtt CognitoStack.Outputs.GoogleOAuthEnabled
     Export:
       Name: !Sub "${AppName}-${Stage}-google-oauth-enabled"
+
+  FacebookOAuthEnabled:
+    Description: Whether Facebook OAuth is enabled
+    Value: !GetAtt CognitoStack.Outputs.FacebookOAuthEnabled
+    Export:
+      Name: !Sub "${AppName}-${Stage}-facebook-oauth-enabled"
 
   WebsiteBucket:
     Description: S3 bucket for frontend

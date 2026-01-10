@@ -181,31 +181,65 @@ class AblyServiceClass {
     this.refCount++;
 
     try {
-      const tokenData = await this.fetchToken();
-      if (!tokenData) {
-        throw new Error("Failed to get Ably token");
+      // Check if this is a guest user (playerId starts with "guest-")
+      const isGuest = playerId.startsWith("guest-");
+      console.log(
+        `[AblyService] Connecting as ${isGuest ? "guest" : "authenticated"} user: ${playerId}`,
+      );
+
+      if (isGuest) {
+        // Guests use the public Ably key directly (same as lobby)
+        const ablyKey = process.env.NEXT_PUBLIC_ABLY_KEY;
+        console.log(
+          `[AblyService] Guest using public key: ${ablyKey ? "key found" : "KEY MISSING!"}`,
+        );
+        if (!ablyKey) {
+          throw new Error("NEXT_PUBLIC_ABLY_KEY not configured");
+        }
+
+        this.ably = new Ably.Realtime({
+          key: ablyKey,
+          clientId: playerId,
+        });
+        console.log("[AblyService] Guest Ably instance created");
+      } else {
+        // Authenticated users get a token from the backend
+        const tokenData = await this.fetchToken();
+        if (!tokenData) {
+          throw new Error("Failed to get Ably token");
+        }
+
+        this.ably = new Ably.Realtime({
+          token: tokenData.token,
+          clientId: playerId,
+          authCallback: async (_, callback) => {
+            const newToken = await this.fetchToken();
+            if (newToken) {
+              callback(null, newToken.token);
+            } else {
+              callback("Failed to refresh Ably token", null);
+            }
+          },
+        });
       }
 
-      this.ably = new Ably.Realtime({
-        token: tokenData.token,
-        clientId: playerId,
-        authCallback: async (_, callback) => {
-          const newToken = await this.fetchToken();
-          if (newToken) {
-            callback(null, newToken.token);
-          } else {
-            callback("Failed to refresh Ably token", null);
-          }
-        },
-      });
-
       // Wait for connection
+      console.log(
+        `[AblyService] Waiting for connection... current state: ${this.ably!.connection.state}`,
+      );
       await new Promise<void>((resolve, reject) => {
         if (this.ably!.connection.state === "connected") {
+          console.log("[AblyService] Already connected");
           resolve();
         } else {
-          this.ably!.connection.once("connected", () => resolve());
-          this.ably!.connection.once("failed", (err) => reject(err));
+          this.ably!.connection.once("connected", () => {
+            console.log("[AblyService] Connection established");
+            resolve();
+          });
+          this.ably!.connection.once("failed", (err) => {
+            console.error("[AblyService] Connection failed:", err);
+            reject(err);
+          });
         }
       });
 
@@ -263,10 +297,15 @@ class AblyServiceClass {
       return false;
     }
 
+    console.log(
+      `[AblyService] Attempting to enter presence as "${displayName}" in ${this.roomChannel.name}`,
+    );
+    console.log(`[AblyService] Room channel state: ${this.roomChannel.state}`);
+
     try {
       await this.roomChannel.presence.enter({ displayName });
       console.log(
-        `[AblyService] Entered presence in ${this.roomChannel.name} as ${displayName}`,
+        `[AblyService] Successfully entered presence in ${this.roomChannel.name} as ${displayName}`,
       );
       return true;
     } catch (error) {

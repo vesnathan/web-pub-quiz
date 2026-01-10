@@ -8,8 +8,13 @@ import {
   GET_USER_PROFILE,
   CHECK_DISPLAY_NAME_AVAILABLE,
   CHECK_EMAIL_HAS_GOOGLE_ACCOUNT,
+  CHECK_EMAIL_HAS_FACEBOOK_ACCOUNT,
 } from "@/graphql/queries";
-import { UPDATE_DISPLAY_NAME, ENSURE_PROFILE } from "@/graphql/mutations";
+import {
+  UPDATE_DISPLAY_NAME,
+  ENSURE_PROFILE,
+  DELETE_MY_ACCOUNT,
+} from "@/graphql/mutations";
 import type { User, UserPublic } from "@quiz/shared";
 import { UserSchema, UserPublicSchema } from "@/schemas/ValidationSchemas";
 
@@ -37,6 +42,12 @@ interface CheckEmailHasGoogleAccountResponse {
   };
 }
 
+interface CheckEmailHasFacebookAccountResponse {
+  data?: {
+    checkEmailHasFacebookAccount?: boolean;
+  };
+}
+
 interface UpdateDisplayNameResponse {
   data?: {
     updateDisplayName?: unknown;
@@ -46,6 +57,15 @@ interface UpdateDisplayNameResponse {
 interface EnsureProfileResponse {
   data?: {
     ensureProfile?: unknown;
+  };
+}
+
+interface DeleteMyAccountResponse {
+  data?: {
+    deleteMyAccount?: {
+      success: boolean;
+      message: string;
+    };
   };
 }
 
@@ -113,6 +133,21 @@ export async function checkEmailHasGoogleAccount(
 }
 
 /**
+ * Check if an email has a Facebook account associated
+ */
+export async function checkEmailHasFacebookAccount(
+  email: string,
+): Promise<boolean> {
+  const result = (await graphqlClient.graphql({
+    query: CHECK_EMAIL_HAS_FACEBOOK_ACCOUNT,
+    variables: { email },
+    authMode: "iam",
+  })) as CheckEmailHasFacebookAccountResponse;
+
+  return result.data?.checkEmailHasFacebookAccount ?? false;
+}
+
+/**
  * Update the current user's display name
  * Returns partial User with just id and displayName
  */
@@ -150,4 +185,23 @@ export async function ensureProfile(displayName: string): Promise<User | null> {
   }
 
   return UserSchema.parse(result.data.ensureProfile) as User;
+}
+
+/**
+ * Delete the current user's account (GDPR right to erasure)
+ */
+export async function deleteMyAccount(): Promise<{
+  success: boolean;
+  message: string;
+}> {
+  const result = (await graphqlClient.graphql({
+    query: DELETE_MY_ACCOUNT,
+  })) as DeleteMyAccountResponse;
+
+  return (
+    result.data?.deleteMyAccount ?? {
+      success: false,
+      message: "Failed to delete account",
+    }
+  );
 }

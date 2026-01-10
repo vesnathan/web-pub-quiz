@@ -45,16 +45,22 @@ async function getRecaptchaSecrets(): Promise<RecaptchaSecrets> {
   if (cachedRecaptchaSecrets) return cachedRecaptchaSecrets;
 
   const response = await secretsClient.send(
-    new GetSecretValueCommand({ SecretId: RECAPTCHA_SECRETS_ARN })
+    new GetSecretValueCommand({ SecretId: RECAPTCHA_SECRETS_ARN }),
   );
 
   cachedRecaptchaSecrets = JSON.parse(
-    response.SecretString!
+    response.SecretString!,
   ) as RecaptchaSecrets;
   return cachedRecaptchaSecrets;
 }
 
-async function verifyRecaptcha(token: string): Promise<boolean> {
+interface RecaptchaResult {
+  passed: boolean;
+  reason?: "verification_failed" | "low_score";
+  score?: number;
+}
+
+async function verifyRecaptcha(token: string): Promise<RecaptchaResult> {
   const secrets = await getRecaptchaSecrets();
 
   const response = await fetch(
@@ -66,7 +72,7 @@ async function verifyRecaptcha(token: string): Promise<boolean> {
         secret: secrets.secretKey,
         response: token,
       }),
-    }
+    },
   );
 
   const result = (await response.json()) as {
@@ -77,7 +83,16 @@ async function verifyRecaptcha(token: string): Promise<boolean> {
 
   console.log("reCAPTCHA verification result:", JSON.stringify(result));
 
-  return result.success && (result.score ?? 0) >= RECAPTCHA_SCORE_THRESHOLD;
+  if (!result.success) {
+    return { passed: false, reason: "verification_failed" };
+  }
+
+  const score = result.score ?? 0;
+  if (score < RECAPTCHA_SCORE_THRESHOLD) {
+    return { passed: false, reason: "low_score", score };
+  }
+
+  return { passed: true, score };
 }
 
 async function checkRateLimit(email: string): Promise<boolean> {
@@ -92,7 +107,7 @@ async function checkRateLimit(email: string): Promise<boolean> {
         PK: `CONTACT_LIMIT#${normalizedEmail}`,
         SK: `DATE#${today}`,
       },
-    })
+    }),
   );
 
   const currentCount = result.Item?.count ?? 0;
@@ -122,7 +137,7 @@ async function incrementContactCount(email: string): Promise<void> {
         ":inc": 1,
         ":ttl": ttl,
       },
-    })
+    }),
   );
 }
 
@@ -130,7 +145,7 @@ async function logContactSubmission(
   name: string,
   email: string,
   subject: string,
-  message: string
+  message: string,
 ): Promise<void> {
   const now = new Date().toISOString();
 
@@ -150,7 +165,7 @@ async function logContactSubmission(
         status: "new",
         ttl: Math.floor(Date.now() / 1000) + 86400 * 365, // 1 year TTL
       },
-    })
+    }),
   );
 }
 
@@ -158,7 +173,7 @@ function generateEmailHtml(
   name: string,
   email: string,
   subject: string,
-  message: string
+  message: string,
 ): string {
   const escapedMessage = message
     .replace(/&/g, "&amp;")
@@ -240,7 +255,7 @@ function generateEmailText(
   name: string,
   email: string,
   subject: string,
-  message: string
+  message: string,
 ): string {
   return `New Contact Form Submission
 ============================
@@ -257,7 +272,7 @@ This message was sent from the Quiz Night Live contact form.`;
 }
 
 export async function handler(
-  event: AppSyncResolverEvent<SendContactArgs>
+  event: AppSyncResolverEvent<SendContactArgs>,
 ): Promise<boolean> {
   console.log("SendContact event:", JSON.stringify(event, null, 2));
 
@@ -286,17 +301,27 @@ export async function handler(
   }
 
   // Verify reCAPTCHA
-  const isValidRecaptcha = await verifyRecaptcha(recaptchaToken);
-  if (!isValidRecaptcha) {
-    console.warn(`reCAPTCHA verification failed for email ${email}`);
-    throw new Error("reCAPTCHA verification failed. Please try again.");
+  const recaptchaResult = await verifyRecaptcha(recaptchaToken);
+  if (!recaptchaResult.passed) {
+    console.warn(
+      `reCAPTCHA verification failed for email ${email}: ${recaptchaResult.reason} (score: ${recaptchaResult.score})`,
+    );
+
+    if (recaptchaResult.reason === "low_score") {
+      throw new Error(
+        "Security verification failed. Please try again, or if the issue persists, try disabling your VPN or using a different browser.",
+      );
+    }
+    throw new Error(
+      "Security verification failed. Please refresh the page and try again.",
+    );
   }
 
   // Check rate limit by email
   const withinLimit = await checkRateLimit(email);
   if (!withinLimit) {
     throw new Error(
-      `Daily contact limit reached (${DAILY_CONTACT_LIMIT} per day). Please try again tomorrow.`
+      `Daily contact limit reached (${DAILY_CONTACT_LIMIT} per day). Please try again tomorrow.`,
     );
   }
 
@@ -325,7 +350,7 @@ export async function handler(
             },
           },
         },
-      })
+      }),
     );
 
     console.log(`Contact form email sent from ${email}`);

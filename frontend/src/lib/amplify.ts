@@ -6,6 +6,8 @@ const AWS_REGION = process.env.NEXT_PUBLIC_AWS_REGION || "ap-southeast-2";
 const COGNITO_DOMAIN = process.env.NEXT_PUBLIC_COGNITO_DOMAIN || "";
 const GOOGLE_OAUTH_ENABLED =
   process.env.NEXT_PUBLIC_GOOGLE_OAUTH_ENABLED === "true";
+const FACEBOOK_OAUTH_ENABLED =
+  process.env.NEXT_PUBLIC_FACEBOOK_OAUTH_ENABLED === "true";
 
 // Determine redirect URL based on environment
 function getRedirectUrl(): string {
@@ -72,5 +74,5 @@ export function configureAmplify() {
   }
 }
 
-export { GOOGLE_OAUTH_ENABLED };
+export { GOOGLE_OAUTH_ENABLED, FACEBOOK_OAUTH_ENABLED };
 export default amplifyConfig;

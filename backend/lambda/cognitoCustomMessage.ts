@@ -28,8 +28,12 @@ export const handler: CustomMessageTriggerHandler = async (event: CustomMessageT
   // Store codes for: CustomMessage_SignUp, CustomMessage_ForgotPassword, CustomMessage_ResendCode
   if (code && email) {
     try {
-      // Sanitize email for SSM parameter name (replace @ and . with -)
-      const sanitizedEmail = email.toLowerCase().replace(/@/g, '-at-').replace(/\./g, '-');
+      // Sanitize email for SSM parameter name (replace +, @ and . with valid chars)
+      const sanitizedEmail = email
+        .toLowerCase()
+        .replace(/\+/g, '-plus-')
+        .replace(/@/g, '-at-')
+        .replace(/\./g, '-');
       const paramName = `/quiz/${STAGE}/e2e/codes/${sanitizedEmail}/${triggerSource}`;
 
       await ssmClient.send(new PutParameterCommand({

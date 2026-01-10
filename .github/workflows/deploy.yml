@@ -1,0 +1,82 @@
+name: Deploy to Production
+
+# Manual deployment only - auto-deploy disabled to avoid:
+# 1. Interrupting active games (orchestrator restart drops WebSocket connections)
+# 2. Version mismatches between frontend and orchestrator
+on:
+  workflow_dispatch:
+
+jobs:
+  # Run E2E tests against production before deploying
+  e2e-tests:
+    name: Pre-Deploy E2E Tests
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'yarn'
+
+      - name: Install dependencies
+        run: yarn install --frozen-lockfile
+
+      - name: Install Playwright browsers
+        run: npx playwright install --with-deps chromium
+
+      - name: Run E2E tests
+        run: yarn test:e2e
+        env:
+          CI: true
+          E2E_BASE_URL: https://quiznight.live
+          AWS_ACCESS_KEY_ID: ${{ secrets.E2E_AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.E2E_AWS_SECRET_ACCESS_KEY }}
+          AWS_REGION: ap-southeast-2
+          STAGE: prod
+
+      - name: Upload test results
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: playwright-report
+          path: playwright-report/
+          retention-days: 7
+
+  deploy:
+    name: Deploy to Production
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    needs: e2e-tests  # Only deploy if E2E tests pass
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'yarn'
+
+      - name: Install dependencies
+        run: yarn install --frozen-lockfile
+
+      - name: Deploy to production
+        run: yarn workspace @quiz/deploy deploy:prod -y
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.DEPLOY_AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.DEPLOY_AWS_SECRET_ACCESS_KEY }}
+          AWS_REGION: ap-southeast-2
+          DEPLOY_USER_ARN: arn:aws:iam::430118819356:user/quiz-night-live-deploy
+          CFN_ROLE_ARN: arn:aws:iam::430118819356:role/quiz-night-live-cfn-role
+          DOMAIN_NAME: quiznight.live
+          HOSTED_ZONE_ID: Z10453861JIXIZ5XUC9N8
+          ABLY_API_KEY: ${{ secrets.ABLY_API_KEY }}
+          GOOGLE_CLIENT_ID: ${{ secrets.GOOGLE_CLIENT_ID }}
+          GOOGLE_CLIENT_SECRET: ${{ secrets.GOOGLE_CLIENT_SECRET }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}

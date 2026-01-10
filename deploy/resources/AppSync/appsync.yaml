@@ -39,6 +39,9 @@ Parameters:
   CheckEmailHasGoogleAccountFunctionArn:
     Type: String
     Description: Check Email Has Google Account Lambda ARN
+  CheckEmailHasFacebookAccountFunctionArn:
+    Type: String
+    Description: Check Email Has Facebook Account Lambda ARN
   SchemaReadyWaiterFunctionArn:
     Type: String
     Description: Schema Ready Waiter Lambda ARN
@@ -154,6 +157,17 @@ Resources:
       LambdaConfig:
         LambdaFunctionArn: !Ref CheckEmailHasGoogleAccountFunctionArn
 
+  # Lambda Data Source for Check Email Has Facebook Account
+  CheckEmailHasFacebookAccountDataSource:
+    Type: AWS::AppSync::DataSource
+    Properties:
+      ApiId: !GetAtt GraphQLApi.ApiId
+      Name: CheckEmailHasFacebookAccountDataSource
+      Type: AWS_LAMBDA
+      ServiceRoleArn: !GetAtt AppSyncLambdaRole.Arn
+      LambdaConfig:
+        LambdaFunctionArn: !Ref CheckEmailHasFacebookAccountFunctionArn
+
   # Lambda Data Source for Tip Checkout
   CreateTipCheckoutDataSource:
     Type: AWS::AppSync::DataSource
@@ -243,6 +257,20 @@ Resources:
         Name: APPSYNC_JS
         RuntimeVersion: "1.0.0"
       CodeS3Location: !Sub "s3://${TemplateBucketName}/resolvers/${Stage}/${ResolversBuildHash}/auth/Queries/Query.checkEmailHasGoogleAccount.js"
+
+  CheckEmailHasFacebookAccountResolver:
+    Type: AWS::AppSync::Resolver
+    DependsOn: SchemaReadyCustomResource
+    Properties:
+      ApiId: !GetAtt GraphQLApi.ApiId
+      TypeName: Query
+      FieldName: checkEmailHasFacebookAccount
+      DataSourceName: !GetAtt CheckEmailHasFacebookAccountDataSource.Name
+      Kind: UNIT
+      Runtime:
+        Name: APPSYNC_JS
+        RuntimeVersion: "1.0.0"
+      CodeS3Location: !Sub "s3://${TemplateBucketName}/resolvers/${Stage}/${ResolversBuildHash}/auth/Queries/Query.checkEmailHasFacebookAccount.js"
 
   GetLeaderboardResolver:
     Type: AWS::AppSync::Resolver
@@ -518,6 +546,34 @@ Resources:
         RuntimeVersion: "1.0.0"
       CodeS3Location: !Sub "s3://${TemplateBucketName}/resolvers/${Stage}/${ResolversBuildHash}/admin/Mutations/Mutation.adminGiftSubscription.js"
 
+  GetGameConfigResolver:
+    Type: AWS::AppSync::Resolver
+    DependsOn: SchemaReadyCustomResource
+    Properties:
+      ApiId: !GetAtt GraphQLApi.ApiId
+      TypeName: Query
+      FieldName: getGameConfig
+      DataSourceName: !GetAtt DynamoDBDataSource.Name
+      Kind: UNIT
+      Runtime:
+        Name: APPSYNC_JS
+        RuntimeVersion: "1.0.0"
+      CodeS3Location: !Sub "s3://${TemplateBucketName}/resolvers/${Stage}/${ResolversBuildHash}/admin/Queries/Query.getGameConfig.js"
+
+  UpdateGameConfigResolver:
+    Type: AWS::AppSync::Resolver
+    DependsOn: SchemaReadyCustomResource
+    Properties:
+      ApiId: !GetAtt GraphQLApi.ApiId
+      TypeName: Mutation
+      FieldName: updateGameConfig
+      DataSourceName: !GetAtt DynamoDBDataSource.Name
+      Kind: UNIT
+      Runtime:
+        Name: APPSYNC_JS
+        RuntimeVersion: "1.0.0"
+      CodeS3Location: !Sub "s3://${TemplateBucketName}/resolvers/${Stage}/${ResolversBuildHash}/admin/Mutations/Mutation.updateGameConfig.js"
+
   # IAM Role for AppSync to invoke Lambda
   AppSyncLambdaRole:
     Type: AWS::IAM::Role
@@ -543,6 +599,7 @@ Resources:
                   - !Ref CreateCheckoutFunctionArn
                   - !Ref CreateTipCheckoutFunctionArn
                   - !Ref CheckEmailHasGoogleAccountFunctionArn
+                  - !Ref CheckEmailHasFacebookAccountFunctionArn
                   - !Ref SendInviteFunctionArn
                   - !Ref SendContactFunctionArn
 

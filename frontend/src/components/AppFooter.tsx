@@ -16,6 +16,7 @@ import { useAuth } from "@/contexts/AuthContext";
 import { useGameStore } from "@/stores/gameStore";
 import { useChatStore } from "@/stores/chatStore";
 import { ChangePasswordModal } from "./auth/ChangePasswordModal";
+import { DeleteAccountModal } from "./auth/DeleteAccountModal";
 import { ChatDrawer } from "./chat";
 
 const ADMIN_EMAIL = "vesnathan+qnl-admin@gmail.com";
@@ -31,6 +32,8 @@ interface AppFooterProps {
   questionsRemaining?: number;
   /** Whether user has unlimited questions (subscriber) */
   hasUnlimitedQuestions?: boolean;
+  /** Hide connection status chip (for static pages) */
+  hideConnectionStatus?: boolean;
 }
 
 export function AppFooter({
@@ -40,11 +43,13 @@ export function AppFooter({
   playerScore = 0,
   questionsRemaining,
   hasUnlimitedQuestions = false,
+  hideConnectionStatus = false,
 }: AppFooterProps) {
   const router = useRouter();
   const { user, signOut } = useAuth();
   const { openChat } = useChatStore();
   const [showChangePassword, setShowChangePassword] = useState(false);
+  const [showDeleteAccount, setShowDeleteAccount] = useState(false);
 
   const { players } = useGameStore();
 
@@ -103,7 +108,7 @@ export function AppFooter({
                   {players.length === 1 ? " player" : " players"}
                 </span>
               </>
-            ) : (
+            ) : !hideConnectionStatus ? (
               <Chip
                 color={isConnected ? "success" : "default"}
                 variant="flat"
@@ -112,20 +117,18 @@ export function AppFooter({
               >
                 {isConnected ? `${activeUserCount} online` : "Connecting..."}
               </Chip>
+            ) : null}
+            {/* Question limit for free users and guests */}
+            {!hasUnlimitedQuestions && questionsRemaining !== undefined && (
+              <Chip
+                color={questionsRemaining <= 10 ? "warning" : "default"}
+                variant="flat"
+                size="sm"
+                className="text-xs"
+              >
+                {questionsRemaining} free today
+              </Chip>
             )}
-            {/* Question limit for free users */}
-            {user &&
-              !hasUnlimitedQuestions &&
-              questionsRemaining !== undefined && (
-                <Chip
-                  color={questionsRemaining <= 10 ? "warning" : "default"}
-                  variant="flat"
-                  size="sm"
-                  className="text-xs"
-                >
-                  {questionsRemaining} questions left
-                </Chip>
-              )}
           </div>
 
           {/* Center - Links */}
@@ -281,8 +284,29 @@ export function AppFooter({
                     Admin Dashboard
                   </DropdownItem>
                   <DropdownItem
-                    key="logout"
+                    key="delete-account"
                     color="danger"
+                    onPress={() => setShowDeleteAccount(true)}
+                    startContent={
+                      <svg
+                        className="w-4 h-4"
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth={2}
+                          d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16"
+                        />
+                      </svg>
+                    }
+                  >
+                    Delete Account
+                  </DropdownItem>
+                  <DropdownItem
+                    key="logout"
                     onPress={handleSignOut}
                     startContent={
                       <svg
@@ -305,15 +329,18 @@ export function AppFooter({
                 </DropdownMenu>
               </Dropdown>
             </div>
-          ) : (
-            <div className="text-xs text-gray-500">Sign in to play</div>
-          )}
+          ) : null}
         </div>
       </div>
 
       <ChangePasswordModal
         isOpen={showChangePassword}
         onClose={() => setShowChangePassword(false)}
+      />
+
+      <DeleteAccountModal
+        isOpen={showDeleteAccount}
+        onClose={() => setShowDeleteAccount(false)}
       />
 
       {/* Chat drawer - only for authenticated users */}

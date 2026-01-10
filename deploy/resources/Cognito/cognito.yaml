@@ -27,6 +27,15 @@ Parameters:
     Description: Google OAuth Client Secret
     NoEcho: true
     Default: ""
+  FacebookClientId:
+    Type: String
+    Description: Facebook OAuth App ID
+    Default: ""
+  FacebookClientSecret:
+    Type: String
+    Description: Facebook OAuth App Secret
+    NoEcho: true
+    Default: ""
   FrontendUrl:
     Type: String
     Description: Frontend URL for OAuth callbacks
@@ -53,25 +62,57 @@ Conditions:
   HasGoogleOAuth: !And
     - !Not [!Equals [!Ref GoogleClientId, ""]]
     - !Not [!Equals [!Ref GoogleClientSecret, ""]]
+  HasFacebookOAuth: !And
+    - !Not [!Equals [!Ref FacebookClientId, ""]]
+    - !Not [!Equals [!Ref FacebookClientSecret, ""]]
   HasCustomAuthDomain: !Not [!Equals [!Ref AuthDomainName, ""]]
   NoCustomAuthDomain: !Equals [!Ref AuthDomainName, ""]
-  # Combined conditions for the 4 possible scenarios:
-  # 1. No Google, No Custom Domain
-  NoGoogleNoCustomDomain: !And
-    - !Condition NoCustomAuthDomain
-    - !Not [!Condition HasGoogleOAuth]
-  # 2. Google, No Custom Domain
-  GoogleNoCustomDomain: !And
-    - !Condition NoCustomAuthDomain
+  # Combined OAuth conditions
+  HasBothOAuth: !And
     - !Condition HasGoogleOAuth
-  # 3. No Google, Custom Domain
-  NoGoogleCustomDomain: !And
-    - !Condition HasCustomAuthDomain
-    - !Not [!Condition HasGoogleOAuth]
-  # 4. Google + Custom Domain
-  GoogleCustomDomain: !And
-    - !Condition HasCustomAuthDomain
+    - !Condition HasFacebookOAuth
+  HasGoogleOnlyOAuth: !And
     - !Condition HasGoogleOAuth
+    - !Not [!Condition HasFacebookOAuth]
+  HasFacebookOnlyOAuth: !And
+    - !Condition HasFacebookOAuth
+    - !Not [!Condition HasGoogleOAuth]
+  HasAnyOAuth: !Or
+    - !Condition HasGoogleOAuth
+    - !Condition HasFacebookOAuth
+  # Combined conditions for the 6 possible scenarios:
+  # 1. No OAuth, No Custom Domain
+  NoOAuthNoCustomDomain: !And
+    - !Condition NoCustomAuthDomain
+    - !Not [!Condition HasAnyOAuth]
+  # 2. Google Only, No Custom Domain
+  GoogleOnlyNoCustomDomain: !And
+    - !Condition NoCustomAuthDomain
+    - !Condition HasGoogleOnlyOAuth
+  # 3. Facebook Only, No Custom Domain
+  FacebookOnlyNoCustomDomain: !And
+    - !Condition NoCustomAuthDomain
+    - !Condition HasFacebookOnlyOAuth
+  # 4. Both OAuth, No Custom Domain
+  BothOAuthNoCustomDomain: !And
+    - !Condition NoCustomAuthDomain
+    - !Condition HasBothOAuth
+  # 5. No OAuth, Custom Domain
+  NoOAuthCustomDomain: !And
+    - !Condition HasCustomAuthDomain
+    - !Not [!Condition HasAnyOAuth]
+  # 6. Google Only + Custom Domain
+  GoogleOnlyCustomDomain: !And
+    - !Condition HasCustomAuthDomain
+    - !Condition HasGoogleOnlyOAuth
+  # 7. Facebook Only + Custom Domain
+  FacebookOnlyCustomDomain: !And
+    - !Condition HasCustomAuthDomain
+    - !Condition HasFacebookOnlyOAuth
+  # 8. Both OAuth + Custom Domain
+  BothOAuthCustomDomain: !And
+    - !Condition HasCustomAuthDomain
+    - !Condition HasBothOAuth
 
 Resources:
   UserPool:
@@ -153,10 +194,29 @@ Resources:
         family_name: family_name
         picture: picture
 
-  # UserPoolClient - no Google, no custom domain
+  # Facebook Identity Provider
+  FacebookIdentityProvider:
+    Type: AWS::Cognito::UserPoolIdentityProvider
+    Condition: HasFacebookOAuth
+    Properties:
+      UserPoolId: !Ref UserPool
+      ProviderName: Facebook
+      ProviderType: Facebook
+      ProviderDetails:
+        client_id: !Ref FacebookClientId
+        client_secret: !Ref FacebookClientSecret
+        authorize_scopes: "email,public_profile"
+      AttributeMapping:
+        email: email
+        name: name
+        given_name: first_name
+        family_name: last_name
+        picture: picture
+
+  # UserPoolClient - no OAuth, no custom domain
   UserPoolClient:
     Type: AWS::Cognito::UserPoolClient
-    Condition: NoGoogleNoCustomDomain
+    Condition: NoOAuthNoCustomDomain
     DependsOn:
       - UserPoolDomain
     Properties:
@@ -184,10 +244,10 @@ Resources:
         - aws.cognito.signin.user.admin
       AllowedOAuthFlowsUserPoolClient: true
 
-  # UserPoolClient with custom domain (no Google)
+  # UserPoolClient with custom domain (no OAuth)
   UserPoolClientCustomDomain:
     Type: AWS::Cognito::UserPoolClient
-    Condition: NoGoogleCustomDomain
+    Condition: NoOAuthCustomDomain
     DependsOn:
       - UserPoolCustomDomain
     Properties:
@@ -215,10 +275,10 @@ Resources:
         - aws.cognito.signin.user.admin
       AllowedOAuthFlowsUserPoolClient: true
 
-  # UserPoolClient with Google support - no custom domain
+  # UserPoolClient with Google only - no custom domain
   UserPoolClientWithGoogle:
     Type: AWS::Cognito::UserPoolClient
-    Condition: GoogleNoCustomDomain
+    Condition: GoogleOnlyNoCustomDomain
     DependsOn:
       - GoogleIdentityProvider
       - UserPoolDomain
@@ -248,10 +308,10 @@ Resources:
         - aws.cognito.signin.user.admin
       AllowedOAuthFlowsUserPoolClient: true
 
-  # UserPoolClient with Google + Custom domain
+  # UserPoolClient with Google only + Custom domain
   UserPoolClientGoogleCustomDomain:
     Type: AWS::Cognito::UserPoolClient
-    Condition: GoogleCustomDomain
+    Condition: GoogleOnlyCustomDomain
     DependsOn:
       - GoogleIdentityProvider
       - UserPoolCustomDomain
@@ -266,6 +326,142 @@ Resources:
       SupportedIdentityProviders:
         - COGNITO
         - Google
+      CallbackURLs:
+        - "http://localhost:3000"
+        - !Ref FrontendUrl
+      LogoutURLs:
+        - "http://localhost:3000"
+        - !Ref FrontendUrl
+      AllowedOAuthFlows:
+        - code
+      AllowedOAuthScopes:
+        - email
+        - openid
+        - profile
+        - aws.cognito.signin.user.admin
+      AllowedOAuthFlowsUserPoolClient: true
+
+  # UserPoolClient with Facebook only - no custom domain
+  UserPoolClientWithFacebook:
+    Type: AWS::Cognito::UserPoolClient
+    Condition: FacebookOnlyNoCustomDomain
+    DependsOn:
+      - FacebookIdentityProvider
+      - UserPoolDomain
+    Properties:
+      ClientName: !Sub "${AppName}-client-facebook-${Stage}"
+      UserPoolId: !Ref UserPool
+      GenerateSecret: false
+      ExplicitAuthFlows:
+        - ALLOW_USER_SRP_AUTH
+        - ALLOW_USER_PASSWORD_AUTH
+        - ALLOW_REFRESH_TOKEN_AUTH
+      SupportedIdentityProviders:
+        - COGNITO
+        - Facebook
+      CallbackURLs:
+        - "http://localhost:3000"
+        - !Ref FrontendUrl
+      LogoutURLs:
+        - "http://localhost:3000"
+        - !Ref FrontendUrl
+      AllowedOAuthFlows:
+        - code
+      AllowedOAuthScopes:
+        - email
+        - openid
+        - profile
+        - aws.cognito.signin.user.admin
+      AllowedOAuthFlowsUserPoolClient: true
+
+  # UserPoolClient with Facebook only + Custom domain
+  UserPoolClientFacebookCustomDomain:
+    Type: AWS::Cognito::UserPoolClient
+    Condition: FacebookOnlyCustomDomain
+    DependsOn:
+      - FacebookIdentityProvider
+      - UserPoolCustomDomain
+    Properties:
+      ClientName: !Sub "${AppName}-client-facebook-${Stage}"
+      UserPoolId: !Ref UserPool
+      GenerateSecret: false
+      ExplicitAuthFlows:
+        - ALLOW_USER_SRP_AUTH
+        - ALLOW_USER_PASSWORD_AUTH
+        - ALLOW_REFRESH_TOKEN_AUTH
+      SupportedIdentityProviders:
+        - COGNITO
+        - Facebook
+      CallbackURLs:
+        - "http://localhost:3000"
+        - !Ref FrontendUrl
+      LogoutURLs:
+        - "http://localhost:3000"
+        - !Ref FrontendUrl
+      AllowedOAuthFlows:
+        - code
+      AllowedOAuthScopes:
+        - email
+        - openid
+        - profile
+        - aws.cognito.signin.user.admin
+      AllowedOAuthFlowsUserPoolClient: true
+
+  # UserPoolClient with both Google and Facebook - no custom domain
+  UserPoolClientWithBoth:
+    Type: AWS::Cognito::UserPoolClient
+    Condition: BothOAuthNoCustomDomain
+    DependsOn:
+      - GoogleIdentityProvider
+      - FacebookIdentityProvider
+      - UserPoolDomain
+    Properties:
+      ClientName: !Sub "${AppName}-client-social-${Stage}"
+      UserPoolId: !Ref UserPool
+      GenerateSecret: false
+      ExplicitAuthFlows:
+        - ALLOW_USER_SRP_AUTH
+        - ALLOW_USER_PASSWORD_AUTH
+        - ALLOW_REFRESH_TOKEN_AUTH
+      SupportedIdentityProviders:
+        - COGNITO
+        - Google
+        - Facebook
+      CallbackURLs:
+        - "http://localhost:3000"
+        - !Ref FrontendUrl
+      LogoutURLs:
+        - "http://localhost:3000"
+        - !Ref FrontendUrl
+      AllowedOAuthFlows:
+        - code
+      AllowedOAuthScopes:
+        - email
+        - openid
+        - profile
+        - aws.cognito.signin.user.admin
+      AllowedOAuthFlowsUserPoolClient: true
+
+  # UserPoolClient with both Google and Facebook + Custom domain
+  UserPoolClientBothCustomDomain:
+    Type: AWS::Cognito::UserPoolClient
+    Condition: BothOAuthCustomDomain
+    DependsOn:
+      - GoogleIdentityProvider
+      - FacebookIdentityProvider
+      - UserPoolCustomDomain
+    Properties:
+      ClientName: !Sub "${AppName}-client-social-${Stage}"
+      UserPoolId: !Ref UserPool
+      GenerateSecret: false
+      ExplicitAuthFlows:
+        - ALLOW_USER_SRP_AUTH
+        - ALLOW_USER_PASSWORD_AUTH
+        - ALLOW_REFRESH_TOKEN_AUTH
+      SupportedIdentityProviders:
+        - COGNITO
+        - Google
+        - Facebook
       CallbackURLs:
         - "http://localhost:3000"
         - !Ref FrontendUrl
@@ -378,15 +574,27 @@ Resources:
       AllowUnauthenticatedIdentities: true
       CognitoIdentityProviders:
         - ClientId: !If
-            - GoogleCustomDomain
-            - !Ref UserPoolClientGoogleCustomDomain
+            - BothOAuthCustomDomain
+            - !Ref UserPoolClientBothCustomDomain
             - !If
-              - GoogleNoCustomDomain
-              - !Ref UserPoolClientWithGoogle
+              - BothOAuthNoCustomDomain
+              - !Ref UserPoolClientWithBoth
               - !If
-                - NoGoogleCustomDomain
-                - !Ref UserPoolClientCustomDomain
-                - !Ref UserPoolClient
+                - GoogleOnlyCustomDomain
+                - !Ref UserPoolClientGoogleCustomDomain
+                - !If
+                  - GoogleOnlyNoCustomDomain
+                  - !Ref UserPoolClientWithGoogle
+                  - !If
+                    - FacebookOnlyCustomDomain
+                    - !Ref UserPoolClientFacebookCustomDomain
+                    - !If
+                      - FacebookOnlyNoCustomDomain
+                      - !Ref UserPoolClientWithFacebook
+                      - !If
+                        - NoOAuthCustomDomain
+                        - !Ref UserPoolClientCustomDomain
+                        - !Ref UserPoolClient
           ProviderName: !GetAtt UserPool.ProviderName
 
   IdentityPoolRoleAttachment:
@@ -656,6 +864,9 @@ Resources:
                   # Allow only specific queries for unauthenticated users
                   - !Sub "arn:aws:appsync:${AWS::Region}:${AWS::AccountId}:apis/*/types/Query/fields/checkDisplayNameAvailable"
                   - !Sub "arn:aws:appsync:${AWS::Region}:${AWS::AccountId}:apis/*/types/Query/fields/checkEmailHasGoogleAccount"
+                  - !Sub "arn:aws:appsync:${AWS::Region}:${AWS::AccountId}:apis/*/types/Query/fields/checkEmailHasFacebookAccount"
+                  - !Sub "arn:aws:appsync:${AWS::Region}:${AWS::AccountId}:apis/*/types/Query/fields/getRoomList"
+                  - !Sub "arn:aws:appsync:${AWS::Region}:${AWS::AccountId}:apis/*/types/Mutation/fields/sendContact"
       Tags:
         - Key: Project
           Value: quiz-night-live
@@ -672,15 +883,27 @@ Outputs:
   UserPoolClientId:
     Description: Cognito User Pool Client ID
     Value: !If
-      - GoogleCustomDomain
-      - !Ref UserPoolClientGoogleCustomDomain
+      - BothOAuthCustomDomain
+      - !Ref UserPoolClientBothCustomDomain
       - !If
-        - GoogleNoCustomDomain
-        - !Ref UserPoolClientWithGoogle
+        - BothOAuthNoCustomDomain
+        - !Ref UserPoolClientWithBoth
         - !If
-          - NoGoogleCustomDomain
-          - !Ref UserPoolClientCustomDomain
-          - !Ref UserPoolClient
+          - GoogleOnlyCustomDomain
+          - !Ref UserPoolClientGoogleCustomDomain
+          - !If
+            - GoogleOnlyNoCustomDomain
+            - !Ref UserPoolClientWithGoogle
+            - !If
+              - FacebookOnlyCustomDomain
+              - !Ref UserPoolClientFacebookCustomDomain
+              - !If
+                - FacebookOnlyNoCustomDomain
+                - !Ref UserPoolClientWithFacebook
+                - !If
+                  - NoOAuthCustomDomain
+                  - !Ref UserPoolClientCustomDomain
+                  - !Ref UserPoolClient
 
   UserPoolProviderName:
     Description: Cognito User Pool Provider Name
@@ -704,3 +927,7 @@ Outputs:
   GoogleOAuthEnabled:
     Description: Whether Google OAuth is enabled
     Value: !If [HasGoogleOAuth, "true", "false"]
+
+  FacebookOAuthEnabled:
+    Description: Whether Facebook OAuth is enabled
+    Value: !If [HasFacebookOAuth, "true", "false"]

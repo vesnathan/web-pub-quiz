@@ -78,6 +78,12 @@ export const CHECK_EMAIL_HAS_GOOGLE_ACCOUNT = /* GraphQL */ `
   }
 `;
 
+export const CHECK_EMAIL_HAS_FACEBOOK_ACCOUNT = /* GraphQL */ `
+  query CheckEmailHasFacebookAccount($email: String!) {
+    checkEmailHasFacebookAccount(email: $email)
+  }
+`;
+
 export const GET_LEADERBOARD = /* GraphQL */ `
   query GetLeaderboard($type: LeaderboardType!, $limit: Int) {
     getLeaderboard(type: $type, limit: $limit) {
@@ -194,6 +200,37 @@ export const GET_WEBHOOK_LOGS = /* GraphQL */ `
         createdAt
       }
       nextToken
+    }
+  }
+`;
+
+export const GET_GAME_CONFIG = /* GraphQL */ `
+  query GetGameConfig {
+    getGameConfig {
+      maxPlayersPerRoom
+      playersPerRoomThreshold
+      resultsDisplayMs
+      questionDurationMs
+      freeTierDailyLimit
+      difficultyPoints {
+        easy {
+          correct
+          wrong
+        }
+        medium {
+          correct
+          wrong
+        }
+        hard {
+          correct
+          wrong
+        }
+      }
+      maintenanceMode
+      maintenanceMessage
+      stripeTestMode
+      updatedAt
+      updatedBy
     }
   }
 `;

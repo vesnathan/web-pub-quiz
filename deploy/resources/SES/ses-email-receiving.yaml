@@ -1,0 +1,229 @@
+AWSTemplateFormatVersion: "2010-09-09"
+Description: "Quiz Night Live - SES Email Receiving for E2E Testing (us-east-1)"
+
+# This stack MUST be deployed to us-east-1 (SES receiving only works in us-east-1, us-west-2, eu-west-1)
+# It receives verification emails from Cognito and stores codes in SSM for E2E tests.
+
+Parameters:
+  Stage:
+    Type: String
+    Description: Deployment stage (e.g., dev, prod)
+    AllowedPattern: ^[a-zA-Z0-9-]+$
+    Default: prod
+  AppName:
+    Type: String
+    Description: Application name
+    Default: quiz-night-live
+  DomainName:
+    Type: String
+    Description: Domain to receive emails for (e.g., quiznight.live)
+    Default: quiznight.live
+  SSMRegion:
+    Type: String
+    Description: Region where SSM parameters should be stored (main stack region)
+    Default: ap-southeast-2
+  LogRetentionInDays:
+    Type: Number
+    Description: CloudWatch log retention
+    Default: 14
+  HostedZoneId:
+    Type: String
+    Description: Route53 Hosted Zone ID for MX record
+    Default: ""
+  TemplateBucketName:
+    Type: String
+    Description: S3 bucket containing Lambda code
+    Default: quiz-night-live-deploy-templates
+
+Conditions:
+  HasHostedZone: !Not [!Equals [!Ref HostedZoneId, ""]]
+
+Resources:
+  # S3 Bucket to store incoming emails
+  EmailBucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: !Sub "${AppName}-e2e-emails-${Stage}"
+      LifecycleConfiguration:
+        Rules:
+          - Id: DeleteOldEmails
+            Status: Enabled
+            ExpirationInDays: 1
+      PublicAccessBlockConfiguration:
+        BlockPublicAcls: true
+        BlockPublicPolicy: true
+        IgnorePublicAcls: true
+        RestrictPublicBuckets: true
+      Tags:
+        - Key: Project
+          Value: quiz-night-live
+        - Key: Purpose
+          Value: E2E Testing
+
+  # Bucket policy to allow SES to write emails
+  EmailBucketPolicy:
+    Type: AWS::S3::BucketPolicy
+    Properties:
+      Bucket: !Ref EmailBucket
+      PolicyDocument:
+        Version: "2012-10-17"
+        Statement:
+          - Sid: AllowSESPuts
+            Effect: Allow
+            Principal:
+              Service: ses.amazonaws.com
+            Action: s3:PutObject
+            Resource: !Sub "${EmailBucket.Arn}/*"
+            Condition:
+              StringEquals:
+                AWS:SourceAccount: !Ref AWS::AccountId
+
+  # Lambda function to process incoming emails
+  SesEmailReceiverFunction:
+    Type: AWS::Lambda::Function
+    Properties:
+      FunctionName: !Sub "${AppName}-ses-email-receiver-${Stage}"
+      Runtime: nodejs20.x
+      Handler: index.handler
+      Role: !GetAtt SesEmailReceiverRole.Arn
+      Timeout: 30
+      MemorySize: 256
+      Environment:
+        Variables:
+          EMAIL_BUCKET: !Ref EmailBucket
+          STAGE: !Ref Stage
+          SSM_REGION: !Ref SSMRegion
+      # Initial placeholder code - real code is deployed via UpdateFunctionCode after stack creation
+      Code:
+        ZipFile: |
+          exports.handler = async (event) => {
+            console.log('Placeholder - deploy real code via UpdateFunctionCode');
+            return { statusCode: 200 };
+          };
+      Tags:
+        - Key: Project
+          Value: quiz-night-live
+
+  SesEmailReceiverRole:
+    Type: AWS::IAM::Role
+    Properties:
+      RoleName: !Sub "${AppName}-ses-email-receiver-role-${Stage}"
+      AssumeRolePolicyDocument:
+        Version: "2012-10-17"
+        Statement:
+          - Effect: Allow
+            Principal:
+              Service: lambda.amazonaws.com
+            Action: sts:AssumeRole
+      ManagedPolicyArns:
+        - arn:aws:iam::aws:policy/service-role/AWSLambdaBasicExecutionRole
+      Policies:
+        - PolicyName: S3ReadAccess
+          PolicyDocument:
+            Version: "2012-10-17"
+            Statement:
+              - Effect: Allow
+                Action:
+                  - s3:GetObject
+                Resource: !Sub "${EmailBucket.Arn}/*"
+        - PolicyName: SSMWriteAccess
+          PolicyDocument:
+            Version: "2012-10-17"
+            Statement:
+              - Effect: Allow
+                Action:
+                  - ssm:PutParameter
+                  - ssm:GetParameter
+                  - ssm:DeleteParameter
+                Resource: !Sub "arn:aws:ssm:${SSMRegion}:${AWS::AccountId}:parameter/quiz/${Stage}/e2e/codes/*"
+      Tags:
+        - Key: Project
+          Value: quiz-night-live
+
+  SesEmailReceiverLogGroup:
+    Type: AWS::Logs::LogGroup
+    Properties:
+      LogGroupName: !Sub "/aws/lambda/${AppName}-ses-email-receiver-${Stage}"
+      RetentionInDays: !Ref LogRetentionInDays
+      Tags:
+        - Key: Project
+          Value: quiz-night-live
+
+  # Permission for SES to invoke Lambda
+  SesLambdaPermission:
+    Type: AWS::Lambda::Permission
+    Properties:
+      FunctionName: !Ref SesEmailReceiverFunction
+      Action: lambda:InvokeFunction
+      Principal: ses.amazonaws.com
+      SourceAccount: !Ref AWS::AccountId
+
+  # SES Receipt Rule Set (must be active)
+  # Note: Using v2 suffix to avoid CloudFormation resource handler cache issues
+  SesReceiptRuleSet:
+    Type: AWS::SES::ReceiptRuleSet
+    Properties:
+      RuleSetName: !Sub "${AppName}-e2e-ruleset-${Stage}-v2"
+
+  # SES Receipt Rule to process incoming emails
+  SesReceiptRule:
+    Type: AWS::SES::ReceiptRule
+    DependsOn:
+      - EmailBucketPolicy
+      - SesLambdaPermission
+    Properties:
+      RuleSetName: !Ref SesReceiptRuleSet
+      Rule:
+        Name: !Sub "${AppName}-e2e-email-rule-${Stage}"
+        Enabled: true
+        ScanEnabled: true
+        TlsPolicy: Optional
+        Recipients:
+          - !Ref DomainName
+        Actions:
+          - S3Action:
+              BucketName: !Ref EmailBucket
+              ObjectKeyPrefix: ""
+          - LambdaAction:
+              FunctionArn: !GetAtt SesEmailReceiverFunction.Arn
+              InvocationType: Event
+
+  # MX Record for receiving emails (only if HostedZoneId provided)
+  MXRecord:
+    Type: AWS::Route53::RecordSet
+    Condition: HasHostedZone
+    Properties:
+      HostedZoneId: !Ref HostedZoneId
+      Name: !Ref DomainName
+      Type: MX
+      TTL: 300
+      ResourceRecords:
+        - "10 inbound-smtp.us-east-1.amazonaws.com"
+
+Outputs:
+  EmailBucketName:
+    Description: S3 bucket for incoming emails
+    Value: !Ref EmailBucket
+
+  SesEmailReceiverFunctionArn:
+    Description: SES Email Receiver Lambda ARN
+    Value: !GetAtt SesEmailReceiverFunction.Arn
+
+  SesReceiptRuleSetName:
+    Description: SES Receipt Rule Set Name (must be activated manually or via CLI)
+    Value: !Ref SesReceiptRuleSet
+
+  MXRecordNote:
+    Description: MX Record configuration
+    Value: !If
+      - HasHostedZone
+      - !Sub "MX record created: 10 inbound-smtp.us-east-1.amazonaws.com for ${DomainName}"
+      - !Sub "Add MX record manually: 10 inbound-smtp.us-east-1.amazonaws.com for ${DomainName}"
+
+  ActivationInstructions:
+    Description: Post-deployment instructions
+    Value: !Sub |
+      After deployment:
+      1. Activate the receipt rule set: aws ses set-active-receipt-rule-set --rule-set-name ${AppName}-e2e-ruleset-${Stage} --region us-east-1
+      2. Verify domain for receiving (if not done): aws ses verify-domain-identity --domain ${DomainName} --region us-east-1
+      3. Deploy Lambda code: yarn workspace @quiz/deploy deploy:ses

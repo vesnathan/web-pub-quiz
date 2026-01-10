@@ -558,6 +558,13 @@ export default function AdminPage() {
           <CardBody>
             <div className="flex flex-wrap gap-3">
               <Button
+                color="success"
+                variant="flat"
+                onPress={() => router.push("/admin/settings")}
+              >
+                Game Settings
+              </Button>
+              <Button
                 color="primary"
                 variant="flat"
                 onPress={() => router.push("/admin/webhooks")}

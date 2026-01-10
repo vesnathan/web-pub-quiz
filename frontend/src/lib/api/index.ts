@@ -16,8 +16,10 @@ export {
   getUserProfile,
   checkDisplayNameAvailable,
   checkEmailHasGoogleAccount,
+  checkEmailHasFacebookAccount,
   updateDisplayName,
   ensureProfile,
+  deleteMyAccount,
 } from "./users";
 
 // Chat operations

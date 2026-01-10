@@ -163,3 +163,43 @@ export const SEND_CONTACT = /* GraphQL */ `
     )
   }
 `;
+
+export const UPDATE_GAME_CONFIG = /* GraphQL */ `
+  mutation UpdateGameConfig($input: UpdateGameConfigInput!) {
+    updateGameConfig(input: $input) {
+      maxPlayersPerRoom
+      playersPerRoomThreshold
+      resultsDisplayMs
+      questionDurationMs
+      freeTierDailyLimit
+      difficultyPoints {
+        easy {
+          correct
+          wrong
+        }
+        medium {
+          correct
+          wrong
+        }
+        hard {
+          correct
+          wrong
+        }
+      }
+      maintenanceMode
+      maintenanceMessage
+      stripeTestMode
+      updatedAt
+      updatedBy
+    }
+  }
+`;
+
+export const DELETE_MY_ACCOUNT = /* GraphQL */ `
+  mutation DeleteMyAccount {
+    deleteMyAccount {
+      success
+      message
+    }
+  }
+`;
