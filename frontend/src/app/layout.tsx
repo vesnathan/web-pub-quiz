@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "@/styles/globals.css";
 import { Providers } from "@/app/providers";
 import { GoogleAnalytics } from "@/components/GoogleAnalytics";
+import { CookieConsentBanner } from "@/components/CookieConsent";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -70,6 +71,7 @@ export default function RootLayout({
       <body className={`${inter.className} bg-background text-foreground`}>
         <GoogleAnalytics />
         <Providers>{children}</Providers>
+        <CookieConsentBanner />
       </body>
     </html>
   );

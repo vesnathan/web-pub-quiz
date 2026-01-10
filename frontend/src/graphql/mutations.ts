@@ -194,3 +194,12 @@ export const UPDATE_GAME_CONFIG = /* GraphQL */ `
     }
   }
 `;
+
+export const DELETE_MY_ACCOUNT = /* GraphQL */ `
+  mutation DeleteMyAccount {
+    deleteMyAccount {
+      success
+      message
+    }
+  }
+`;
