@@ -1,10 +1,8 @@
 name: CI
 
 on:
-  push:
-    branches: [main, dev]
   pull_request:
-    branches: [main, dev]
+    branches: [main]
 
 jobs:
   lint-and-typecheck:
@@ -84,7 +82,7 @@ jobs:
       - name: Build frontend
         run: yarn build
         env:
-          # These are placeholder values for build - actual values are in Amplify
+          # Placeholder values for CI build validation
           NEXT_PUBLIC_APPSYNC_ENDPOINT: https://placeholder.appsync-api.ap-southeast-2.amazonaws.com/graphql
           NEXT_PUBLIC_APPSYNC_REGION: ap-southeast-2
           NEXT_PUBLIC_USER_POOL_ID: ap-southeast-2_placeholder

@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useCallback, useState } from "react";
+import { useEffect, useCallback, useState, useRef } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 import { Card, CardBody, Button } from "@nextui-org/react";
 import { LoadingScreen, LoadingDots } from "@/components/LoadingScreen";
@@ -17,6 +17,7 @@ import { useSubscription } from "@/hooks/useSubscription";
 import { AppFooter } from "@/components/AppFooter";
 import { GameBackground } from "@/components/GameBackground";
 import { SessionKickedOverlay } from "@/components/SessionKickedOverlay";
+import { QuotaExceededOverlay } from "@/components/QuotaExceededOverlay";
 import { SessionSummary } from "@/components/SessionSummary";
 import { DID_YOU_KNOW_FACTS } from "@/data/didYouKnowFacts";
 
@@ -25,7 +26,11 @@ export default function GamePageContent() {
   const searchParams = useSearchParams();
   const roomIdFromUrl = searchParams.get("roomId");
   const { isLoading: authLoading } = useAuth();
-  const { questionsRemainingToday, hasUnlimitedQuestions } = useSubscription();
+  const {
+    questionsRemainingToday,
+    hasUnlimitedQuestions,
+    recordQuestionAnswered,
+  } = useSubscription();
 
   // Minimal store access - use selectors for specific state
   const player = useGameStore((state) => state.player);
@@ -154,6 +159,16 @@ export default function GamePageContent() {
     resetGame();
   }, [setGamePhase, resetGame]);
 
+  // Track question count for guest/free tier limits
+  const prevQuestionsCount = useRef(completedQuestions.length);
+  useEffect(() => {
+    if (completedQuestions.length > prevQuestionsCount.current) {
+      // A new question was completed - record it for daily limit
+      recordQuestionAnswered();
+    }
+    prevQuestionsCount.current = completedQuestions.length;
+  }, [completedQuestions.length, recordQuestionAnswered]);
+
   return (
     <GameBackground>
       {/* Main content with bottom padding for fixed bottom bar */}
@@ -196,6 +211,7 @@ export default function GamePageContent() {
         onComplete={handleBadgeAnimationComplete}
       />
       <SessionKickedOverlay />
+      <QuotaExceededOverlay />
 
       {/* Session Summary */}
       {showSessionSummary && sessionData && (

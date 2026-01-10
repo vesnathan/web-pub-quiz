@@ -1,12 +1,13 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Card, CardBody, Button, Progress, Chip } from "@nextui-org/react";
 import { useRouter } from "next/navigation";
 import { useAuth } from "@/contexts/AuthContext";
 import { useGameStore } from "@/stores/gameStore";
 import { useLobbyChannel } from "@/hooks/useLobbyChannel";
 import { useGuestSession } from "@/hooks/useGuestSession";
+import { useFingerprint } from "@/hooks/useFingerprint";
 import { LoadingDots } from "@/components/LoadingScreen";
 import { MAX_PLAYERS_PER_ROOM, DIFFICULTY_POINTS } from "@quiz/shared";
 import type { RoomListItem } from "@quiz/shared";
@@ -27,8 +28,21 @@ export function RoomList({
   const { setPlayer, setCurrentRoomId, resetGame } = useGameStore();
   const { rooms, isConnected, joinRoom } = useLobbyChannel();
   const { createGuestSession } = useGuestSession();
+  const { fingerprint } = useFingerprint();
   const [joining, setJoining] = useState<string | null>(null);
   const [error, setError] = useState<string | null>(null);
+  const [clientIp, setClientIp] = useState<string | null>(null);
+
+  // Fetch client IP on mount
+  useEffect(() => {
+    fetch("https://api.ipify.org?format=json")
+      .then((res) => res.json())
+      .then((data) => setClientIp(data.ip))
+      .catch(() => {
+        // Fallback - IP tracking won't work but game still functions
+        console.warn("Could not fetch client IP");
+      });
+  }, []);
 
   // Guest name comes from home page
   const guestName = externalGuestName ?? "";
@@ -40,7 +54,14 @@ export function RoomList({
     // Handle guest users
     let playerId: string;
     let displayName: string;
-    let guestInfo: { guestId: string; displayName: string } | undefined;
+    let guestInfo:
+      | {
+          guestId: string;
+          displayName: string;
+          fingerprint?: string;
+          clientIp?: string;
+        }
+      | undefined;
 
     if (user) {
       playerId = user.userId;
@@ -66,7 +87,11 @@ export function RoomList({
       const session = createGuestSession(trimmedName);
       playerId = session.guestId;
       displayName = session.displayName;
-      guestInfo = session;
+      guestInfo = {
+        ...session,
+        fingerprint: fingerprint || undefined,
+        clientIp: clientIp || undefined,
+      };
     }
 
     const result = await joinRoom(roomId, guestInfo);

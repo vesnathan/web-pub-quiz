@@ -13,6 +13,7 @@
     "build-gql": "npx ts-node -P ./tsconfig.scripts.json ./scripts/buildGql.ts"
   },
   "dependencies": {
+    "@fingerprintjs/fingerprintjs": "^5.0.1",
     "@hookform/resolvers": "^5.2.2",
     "@nextui-org/react": "^2.4.6",
     "@quiz/shared": "*",
