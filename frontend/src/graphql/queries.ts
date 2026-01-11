@@ -44,6 +44,15 @@ export const GET_MY_PROFILE = /* GraphQL */ `
       }
       totalSkillPoints
       tipUnlockedUntil
+      moderation {
+        strikeCount
+        strikes {
+          reason
+          issuedAt
+        }
+        isBanned
+        bannedReason
+      }
     }
   }
 `;
@@ -231,6 +240,77 @@ export const GET_GAME_CONFIG = /* GraphQL */ `
       stripeTestMode
       updatedAt
       updatedBy
+    }
+  }
+`;
+
+export const GET_REPORTS = /* GraphQL */ `
+  query GetReports($status: ReportStatus, $limit: Int, $nextToken: String) {
+    getReports(status: $status, limit: $limit, nextToken: $nextToken) {
+      items {
+        id
+        reporterId
+        reporterDisplayName
+        reportedUserId
+        reportedUserDisplayName
+        reason
+        context
+        description
+        messageContent
+        messageId
+        status
+        createdAt
+        adminNotes
+        resolvedAt
+        resolvedBy
+      }
+      nextToken
+    }
+  }
+`;
+
+export const GET_MY_NOTIFICATIONS = /* GraphQL */ `
+  query GetMyNotifications($limit: Int, $nextToken: String) {
+    getMyNotifications(limit: $limit, nextToken: $nextToken) {
+      items {
+        id
+        fromAdminId
+        toUserId
+        subject
+        content
+        relatedReportId
+        read
+        createdAt
+      }
+      nextToken
+    }
+  }
+`;
+
+export const GET_UNREAD_NOTIFICATION_COUNT = /* GraphQL */ `
+  query GetUnreadNotificationCount {
+    getUnreadNotificationCount
+  }
+`;
+
+export const GET_USER_MODERATION = /* GraphQL */ `
+  query GetUserModeration($userId: ID!) {
+    getUserModeration(userId: $userId) {
+      userId
+      displayName
+      strikes {
+        id
+        reason
+        relatedReportId
+        issuedBy
+        issuedAt
+        expiresAt
+      }
+      strikeCount
+      isBanned
+      bannedAt
+      bannedReason
+      bannedBy
     }
   }
 `;

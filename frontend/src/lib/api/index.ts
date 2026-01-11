@@ -50,3 +50,6 @@ export { getLeaderboard, getMyRank } from "./leaderboard";
 
 // Game operations
 export { getGameState, getAblyToken } from "./game";
+
+// Report operations
+export { reportUser } from "./report";

@@ -15,6 +15,7 @@ type User {
   tipUnlockedUntil: String
   referredBy: ID
   referralCount: Int!
+  moderation: MyModerationStatus
 }
 
 type UserPublic {

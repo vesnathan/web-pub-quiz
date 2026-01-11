@@ -572,6 +572,13 @@ export default function AdminPage() {
                 Webhook Logs
               </Button>
               <Button
+                color="warning"
+                variant="flat"
+                onPress={() => router.push("/admin/reports")}
+              >
+                User Reports
+              </Button>
+              <Button
                 color="secondary"
                 variant="flat"
                 onPress={() => router.push("/admin/badge-test")}

@@ -7,6 +7,7 @@ import { LoadingDots } from "@/components/LoadingScreen";
 import { useAuth } from "@/contexts/AuthContext";
 import { useChatMessages, chatMessagesKeys } from "@/hooks/queries";
 import { sendChatMessage, subscribeToChatMessages } from "@/lib/api";
+import { ReportUserModal } from "@/components/ReportUserModal";
 import type { ChatMessage, ChatMessageConnection } from "@quiz/shared";
 
 interface ChatPanelProps {
@@ -24,6 +25,13 @@ export function ChatPanel({
   const queryClient = useQueryClient();
   const [newMessage, setNewMessage] = useState("");
   const [sending, setSending] = useState(false);
+  const [reportModalOpen, setReportModalOpen] = useState(false);
+  const [reportTarget, setReportTarget] = useState<{
+    id: string;
+    displayName: string;
+    messageContent?: string;
+    messageId?: string;
+  } | null>(null);
   const messagesEndRef = useRef<HTMLDivElement>(null);
   const subscriptionRef = useRef<{ unsubscribe: () => void } | null>(null);
 
@@ -205,7 +213,7 @@ export function ChatPanel({
             return (
               <div
                 key={message.id}
-                className={`flex gap-2 ${isOwn ? "flex-row-reverse" : "flex-row"}`}
+                className={`group flex gap-2 ${isOwn ? "flex-row-reverse" : "flex-row"}`}
               >
                 <Avatar
                   className={`w-8 h-8 text-xs flex-shrink-0 ${getAvatarColor(message.senderId)}`}
@@ -226,6 +234,35 @@ export function ChatPanel({
                     <span className="text-xs text-gray-500">
                       {formatTime(message.createdAt)}
                     </span>
+                    {!isOwn && (
+                      <button
+                        onClick={() => {
+                          setReportTarget({
+                            id: message.senderId,
+                            displayName: message.senderDisplayName,
+                            messageContent: message.content,
+                            messageId: message.id,
+                          });
+                          setReportModalOpen(true);
+                        }}
+                        className="opacity-0 group-hover:opacity-100 transition-opacity text-gray-500 hover:text-red-500"
+                        title="Report message"
+                      >
+                        <svg
+                          className="w-3.5 h-3.5"
+                          fill="none"
+                          stroke="currentColor"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth={2}
+                            d="M3 21v-4m0 0V5a2 2 0 012-2h6.5l1 1H21l-3 6 3 6h-8.5l-1-1H5a2 2 0 00-2 2zm9-13.5V9"
+                          />
+                        </svg>
+                      </button>
+                    )}
                   </div>
                   <div
                     className={`px-3 py-2 rounded-lg text-sm ${
@@ -271,6 +308,24 @@ export function ChatPanel({
           </Button>
         </div>
       </div>
+
+      {/* Report Modal */}
+      {reportTarget && (
+        <ReportUserModal
+          isOpen={reportModalOpen}
+          onClose={() => {
+            setReportModalOpen(false);
+            setReportTarget(null);
+          }}
+          targetUser={{
+            id: reportTarget.id,
+            displayName: reportTarget.displayName,
+          }}
+          context="CHAT_MESSAGE"
+          messageContent={reportTarget.messageContent}
+          messageId={reportTarget.messageId}
+        />
+      )}
     </div>
   );
 }

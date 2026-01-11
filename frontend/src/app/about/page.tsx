@@ -44,20 +44,31 @@ export default function AboutPage() {
                 How It Works
               </h2>
               <p className="text-gray-300">
-                Quiz sets run every hour for 30 minutes, featuring 20
-                challenging questions across various categories. When you know
-                the answer, hit the buzzer to claim your chance to answer. Be
-                quick, but be careful - wrong answers cost you points!
+                Quiz sets run for 30 minutes with 30-minute breaks in between.
+                Jump into a room, answer questions as they appear, and race
+                against the clock. Choose your difficulty level - harder
+                questions reward more points but penalize less for wrong
+                answers!
               </p>
 
               <h2 className="text-xl font-semibold text-white mt-6 mb-3">
                 Scoring
               </h2>
+              <p className="text-gray-300 mb-2">Points vary by difficulty:</p>
               <ul className="text-gray-300 list-disc pl-6 space-y-2">
-                <li>+50 points for correct answers</li>
-                <li>-200 points for wrong answers</li>
-                <li>First to buzz gets 2 seconds to answer</li>
+                <li>
+                  <strong>Easy:</strong> +50 correct / -200 wrong
+                </li>
+                <li>
+                  <strong>Medium:</strong> +75 correct / -100 wrong
+                </li>
+                <li>
+                  <strong>Hard:</strong> +100 correct / -50 wrong
+                </li>
               </ul>
+              <p className="text-gray-300 mt-2 text-sm">
+                Multiple wrong guesses increase the penalty!
+              </p>
 
               <h2 className="text-xl font-semibold text-white mt-6 mb-3">
                 Compete and Climb

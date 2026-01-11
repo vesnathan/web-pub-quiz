@@ -18,6 +18,7 @@ import { AuthModal } from "./auth/AuthModal";
 import { ChangePasswordModal } from "./auth/ChangePasswordModal";
 import { ChatDrawer } from "./chat";
 import { useChatStore } from "@/stores/chatStore";
+import { NotificationBell } from "./NotificationBell";
 
 interface NavbarProps {
   onProfileClick?: () => void;
@@ -91,6 +92,9 @@ export function Navbar({ onProfileClick, onSettingsClick }: NavbarProps) {
             </NavbarItem>
           ) : isAuthenticated && user ? (
             <>
+              <NavbarItem>
+                <NotificationBell />
+              </NavbarItem>
               <NavbarItem>
                 <Button
                   isIconOnly

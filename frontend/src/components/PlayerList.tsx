@@ -1,6 +1,8 @@
 "use client";
 
+import { useState } from "react";
 import { Card, CardBody, Avatar } from "@nextui-org/react";
+import { ReportUserModal } from "@/components/ReportUserModal";
 import type { Player } from "@quiz/shared";
 
 interface PlayerListProps {
@@ -16,6 +18,12 @@ export function PlayerList({
   currentPlayerId,
   questionWinnerId,
 }: PlayerListProps) {
+  const [reportModalOpen, setReportModalOpen] = useState(false);
+  const [reportTarget, setReportTarget] = useState<{
+    id: string;
+    displayName: string;
+  } | null>(null);
+
   // Sort players by score
   const sortedPlayers = [...players].sort(
     (a, b) => (scores[b.id] || 0) - (scores[a.id] || 0),
@@ -38,7 +46,7 @@ export function PlayerList({
               <div
                 key={player.id}
                 className={`
-                  flex items-center justify-between p-2 rounded-lg
+                  group flex items-center justify-between p-2 rounded-lg
                   transition-all duration-200
                   ${isCurrentPlayer ? "bg-primary-900/50 border border-primary-500" : ""}
                   ${isQuestionWinner ? "bg-green-900/50 border border-green-500" : ""}
@@ -64,14 +72,43 @@ export function PlayerList({
                   </div>
                 </div>
 
-                <div
-                  className={`
-                    font-bold text-sm
-                    ${score >= 0 ? "text-green-400" : "text-red-400"}
-                  `}
-                >
-                  {score >= 0 ? "+" : ""}
-                  {score}
+                <div className="flex items-center gap-2">
+                  {!isCurrentPlayer && !player.isAI && (
+                    <button
+                      onClick={() => {
+                        setReportTarget({
+                          id: player.id,
+                          displayName: player.displayName,
+                        });
+                        setReportModalOpen(true);
+                      }}
+                      className="opacity-0 group-hover:opacity-100 transition-opacity p-1 text-gray-500 hover:text-red-500"
+                      title="Report player"
+                    >
+                      <svg
+                        className="w-4 h-4"
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth={2}
+                          d="M3 21v-4m0 0V5a2 2 0 012-2h6.5l1 1H21l-3 6 3 6h-8.5l-1-1H5a2 2 0 00-2 2zm9-13.5V9"
+                        />
+                      </svg>
+                    </button>
+                  )}
+                  <div
+                    className={`
+                      font-bold text-sm
+                      ${score >= 0 ? "text-green-400" : "text-red-400"}
+                    `}
+                  >
+                    {score >= 0 ? "+" : ""}
+                    {score}
+                  </div>
                 </div>
               </div>
             );
@@ -83,6 +120,19 @@ export function PlayerList({
             </div>
           )}
         </div>
+
+        {/* Report Modal */}
+        {reportTarget && (
+          <ReportUserModal
+            isOpen={reportModalOpen}
+            onClose={() => {
+              setReportModalOpen(false);
+              setReportTarget(null);
+            }}
+            targetUser={reportTarget}
+            context="AVATAR"
+          />
+        )}
       </CardBody>
     </Card>
   );

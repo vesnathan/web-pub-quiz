@@ -30,6 +30,18 @@ if (typeof window !== "undefined") {
   configureAmplify();
 }
 
+export interface StrikeInfo {
+  reason: string;
+  issuedAt: string;
+}
+
+export interface ModerationStatus {
+  strikeCount: number;
+  strikes: StrikeInfo[];
+  isBanned: boolean;
+  bannedReason: string | null;
+}
+
 export interface AuthUser {
   userId: string;
   username: string;
@@ -42,14 +54,19 @@ export interface AuthUser {
   totalSkillPoints?: number;
   subscription?: UserSubscription;
   tipUnlockedUntil?: string;
+  moderation?: ModerationStatus;
 }
 
 interface AuthContextType {
   user: AuthUser | null;
   isLoading: boolean;
   isAuthenticated: boolean;
+  isBanned: boolean;
+  banReason: string | null;
   oauthError: string | null;
   clearOAuthError: () => void;
+  strikeWarningDismissed: boolean;
+  dismissStrikeWarning: () => void;
   signIn: (email: string, password: string) => Promise<void>;
   signUp: (
     email: string,
@@ -77,9 +94,16 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
   const [user, setUser] = useState<AuthUser | null>(null);
   const [isLoading, setIsLoading] = useState(true);
   const [oauthError, setOAuthError] = useState<string | null>(null);
+  const [isBanned, setIsBanned] = useState(false);
+  const [banReason, setBanReason] = useState<string | null>(null);
+  const [strikeWarningDismissed, setStrikeWarningDismissed] = useState(false);
 
   const clearOAuthError = useCallback(() => {
     setOAuthError(null);
+  }, []);
+
+  const dismissStrikeWarning = useCallback(() => {
+    setStrikeWarningDismissed(true);
   }, []);
 
   const loadUser = useCallback(async () => {
@@ -114,6 +138,15 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
         lastName?: string;
       };
 
+      // Reset banned state on successful login
+      setIsBanned(false);
+      setBanReason(null);
+
+      // Cast profile to include moderation field
+      const profileWithModeration = profile as typeof profile & {
+        moderation?: ModerationStatus;
+      };
+
       setUser({
         userId: currentUser.userId,
         username: currentUser.username,
@@ -129,11 +162,46 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
         totalSkillPoints: profileWithNames?.totalSkillPoints || 0,
         subscription: profileWithNames?.subscription ?? undefined,
         tipUnlockedUntil: profileWithNames?.tipUnlockedUntil ?? undefined,
+        moderation: profileWithModeration?.moderation ?? undefined,
       });
-    } catch (error) {
-      // User not logged in or profile fetch failed
-      console.error("[Auth] Failed to load user:", error);
-      setUser(null);
+
+      // Reset strike warning dismissed state if user has new strikes
+      if (profileWithModeration?.moderation?.strikeCount) {
+        setStrikeWarningDismissed(false);
+      }
+    } catch (error: unknown) {
+      // Check if user is banned
+      const errorMessage =
+        error instanceof Error ? error.message : String(error);
+      const errorString = String(error);
+
+      if (
+        errorMessage.includes("AccountBannedException") ||
+        errorString.includes("AccountBannedException") ||
+        errorMessage.startsWith("BANNED:")
+      ) {
+        console.log("[Auth] User is banned");
+        setIsBanned(true);
+
+        // Extract ban reason from error message (format: "BANNED:reason")
+        let reason = "Policy violation";
+        if (errorMessage.startsWith("BANNED:")) {
+          reason = errorMessage.substring(7);
+        } else if (errorString.includes("BANNED:")) {
+          const match = errorString.match(/BANNED:([^"]+)/);
+          if (match) {
+            reason = match[1];
+          }
+        }
+        setBanReason(reason);
+        setUser(null);
+      } else {
+        // User not logged in or profile fetch failed
+        console.error("[Auth] Failed to load user:", error);
+        setIsBanned(false);
+        setBanReason(null);
+        setUser(null);
+      }
     } finally {
       setIsLoading(false);
     }
@@ -281,8 +349,12 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
     user,
     isLoading,
     isAuthenticated: !!user,
+    isBanned,
+    banReason,
     oauthError,
     clearOAuthError,
+    strikeWarningDismissed,
+    dismissStrikeWarning,
     signIn: handleSignIn,
     signUp: handleSignUp,
     confirmSignUp: handleConfirmSignUp,

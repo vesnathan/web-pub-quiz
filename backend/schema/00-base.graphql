@@ -30,9 +30,15 @@ type Query {
 
   # Admin queries
   getWebhookLogs(provider: String, limit: Int, nextToken: String): WebhookLogConnection! @aws_cognito_user_pools
+  getReports(status: ReportStatus, limit: Int, nextToken: String): ReportConnection! @aws_cognito_user_pools
+  getUserModeration(userId: ID!): UserModeration @aws_cognito_user_pools
 
   # Game config (admin only)
   getGameConfig: GameConfig @aws_cognito_user_pools
+
+  # User notification queries
+  getMyNotifications(limit: Int, nextToken: String): AdminMessageConnection! @aws_cognito_user_pools
+  getUnreadNotificationCount: Int! @aws_cognito_user_pools
 }
 
 # Room list state from orchestrator (stored in DynamoDB)
@@ -96,6 +102,23 @@ type Mutation {
 
   # Contact form mutation (public - uses reCAPTCHA for protection)
   sendContact(name: String!, email: String!, subject: String!, message: String!, recaptchaToken: String!): Boolean @aws_iam
+
+  # Report user mutation
+  reportUser(input: ReportUserInput!): ReportUserResult! @aws_cognito_user_pools
+
+  # Admin report management
+  updateReportStatus(input: UpdateReportStatusInput!): Report @aws_cognito_user_pools
+  sendAdminMessage(input: SendAdminMessageInput!): AdminMessage @aws_cognito_user_pools
+
+  # User notification mutations
+  markNotificationRead(notificationId: ID!): Boolean @aws_cognito_user_pools
+  markAllNotificationsRead: Boolean @aws_cognito_user_pools
+
+  # Moderation mutations (admin only)
+  addStrike(input: AddStrikeInput!): ModerationResult! @aws_cognito_user_pools
+  removeStrike(userId: ID!, strikeId: ID!): ModerationResult! @aws_cognito_user_pools
+  banUser(input: BanUserInput!): ModerationResult! @aws_cognito_user_pools
+  unbanUser(userId: ID!): ModerationResult! @aws_cognito_user_pools
 }
 
 type Subscription {
