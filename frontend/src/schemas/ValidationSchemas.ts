@@ -51,6 +51,18 @@ export const UserSubscriptionSchema = z.object({
   giftNotificationSeen: z.boolean().nullable().optional(),
 });
 
+export const StrikeInfoSchema = z.object({
+  reason: z.string(),
+  issuedAt: z.string(),
+});
+
+export const ModerationStatusSchema = z.object({
+  strikeCount: z.number(),
+  strikes: z.array(StrikeInfoSchema),
+  isBanned: z.boolean(),
+  bannedReason: z.string().nullable(),
+});
+
 export const UserSchema = z.object({
   id: z.string(),
   email: z.string(),
@@ -62,6 +74,7 @@ export const UserSchema = z.object({
   badges: z.array(BadgeSchema),
   totalSkillPoints: z.number(),
   tipUnlockedUntil: z.string().nullable().optional(),
+  moderation: ModerationStatusSchema.nullable().optional(),
 });
 
 export const UserPublicSchema = z.object({
