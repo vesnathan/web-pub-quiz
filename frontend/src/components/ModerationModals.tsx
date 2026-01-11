@@ -25,8 +25,16 @@ export function ModerationModals() {
   }
 
   // Show strike warning modal if user has strikes and hasn't dismissed it
+  // Only show if strikeCount is a positive number and strikes array has items
   const moderation = user?.moderation;
-  if (moderation && moderation.strikeCount > 0 && !strikeWarningDismissed) {
+  const hasStrikes =
+    moderation &&
+    typeof moderation.strikeCount === "number" &&
+    moderation.strikeCount > 0 &&
+    Array.isArray(moderation.strikes) &&
+    moderation.strikes.length > 0;
+
+  if (hasStrikes && !strikeWarningDismissed) {
     return (
       <StrikeWarningModal
         isOpen={true}
