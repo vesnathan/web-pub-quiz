@@ -9,6 +9,7 @@ import { useLobbyPresence } from "@/hooks/useLobbyPresence";
 import { startConversation } from "@/lib/api";
 import { ChatPanel } from "./ChatPanel";
 import { useChatStore } from "@/stores/chatStore";
+import { ReportUserModal } from "@/components/ReportUserModal";
 import type { Conversation } from "@quiz/shared";
 
 interface ChatDrawerProps {
@@ -34,6 +35,11 @@ export function ChatDrawer({
   const [startingConversation, setStartingConversation] = useState<
     string | null
   >(null);
+  const [reportModalOpen, setReportModalOpen] = useState(false);
+  const [reportTarget, setReportTarget] = useState<{
+    id: string;
+    displayName: string;
+  } | null>(null);
 
   // Use prop values if provided, otherwise use store
   const isOpen = propIsOpen ?? storeIsOpen;
@@ -239,16 +245,9 @@ export function ChatDrawer({
               </div>
               <div className="space-y-2">
                 {onlineUsers.map((onlineUser) => (
-                  <button
+                  <div
                     key={onlineUser.clientId}
-                    onClick={() =>
-                      handleMessageUser(
-                        onlineUser.clientId,
-                        onlineUser.displayName,
-                      )
-                    }
-                    disabled={startingConversation === onlineUser.clientId}
-                    className="w-full flex items-center gap-3 p-2 rounded-lg hover:bg-gray-800 transition-colors disabled:opacity-50"
+                    className="flex items-center gap-3 p-2 rounded-lg hover:bg-gray-800 transition-colors"
                   >
                     <div className="relative">
                       <Avatar
@@ -261,11 +260,19 @@ export function ChatDrawer({
                     <span className="text-sm text-white truncate flex-1 text-left">
                       {onlineUser.displayName}
                     </span>
-                    {startingConversation === onlineUser.clientId ? (
-                      <LoadingDots />
-                    ) : (
+                    <button
+                      onClick={() => {
+                        setReportTarget({
+                          id: onlineUser.clientId,
+                          displayName: onlineUser.displayName,
+                        });
+                        setReportModalOpen(true);
+                      }}
+                      className="p-1 text-gray-500 hover:text-red-500 transition-colors"
+                      title="Report user"
+                    >
                       <svg
-                        className="w-4 h-4 text-gray-400"
+                        className="w-4 h-4"
                         fill="none"
                         stroke="currentColor"
                         viewBox="0 0 24 24"
@@ -274,11 +281,40 @@ export function ChatDrawer({
                           strokeLinecap="round"
                           strokeLinejoin="round"
                           strokeWidth={2}
-                          d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"
+                          d="M3 21v-4m0 0V5a2 2 0 012-2h6.5l1 1H21l-3 6 3 6h-8.5l-1-1H5a2 2 0 00-2 2zm9-13.5V9"
                         />
                       </svg>
-                    )}
-                  </button>
+                    </button>
+                    <button
+                      onClick={() =>
+                        handleMessageUser(
+                          onlineUser.clientId,
+                          onlineUser.displayName,
+                        )
+                      }
+                      disabled={startingConversation === onlineUser.clientId}
+                      className="p-1 text-gray-400 hover:text-white transition-colors disabled:opacity-50"
+                      title="Message user"
+                    >
+                      {startingConversation === onlineUser.clientId ? (
+                        <LoadingDots />
+                      ) : (
+                        <svg
+                          className="w-4 h-4"
+                          fill="none"
+                          stroke="currentColor"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth={2}
+                            d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"
+                          />
+                        </svg>
+                      )}
+                    </button>
+                  </div>
                 ))}
               </div>
             </div>
@@ -338,6 +374,19 @@ export function ChatDrawer({
             )}
           </div>
         </div>
+      )}
+
+      {/* Report Modal */}
+      {reportTarget && (
+        <ReportUserModal
+          isOpen={reportModalOpen}
+          onClose={() => {
+            setReportModalOpen(false);
+            setReportTarget(null);
+          }}
+          targetUser={reportTarget}
+          context="AVATAR"
+        />
       )}
     </div>
   );

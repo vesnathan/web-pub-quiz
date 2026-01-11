@@ -203,3 +203,93 @@ export const DELETE_MY_ACCOUNT = /* GraphQL */ `
     }
   }
 `;
+
+export const REPORT_USER = /* GraphQL */ `
+  mutation ReportUser($input: ReportUserInput!) {
+    reportUser(input: $input) {
+      success
+      message
+    }
+  }
+`;
+
+export const UPDATE_REPORT_STATUS = /* GraphQL */ `
+  mutation UpdateReportStatus($input: UpdateReportStatusInput!) {
+    updateReportStatus(input: $input) {
+      id
+      status
+      adminNotes
+      resolvedAt
+      resolvedBy
+    }
+  }
+`;
+
+export const SEND_ADMIN_MESSAGE = /* GraphQL */ `
+  mutation SendAdminMessage($input: SendAdminMessageInput!) {
+    sendAdminMessage(input: $input) {
+      id
+      fromAdminId
+      toUserId
+      subject
+      content
+      relatedReportId
+      read
+      createdAt
+    }
+  }
+`;
+
+export const MARK_NOTIFICATION_READ = /* GraphQL */ `
+  mutation MarkNotificationRead($notificationId: ID!) {
+    markNotificationRead(notificationId: $notificationId)
+  }
+`;
+
+export const MARK_ALL_NOTIFICATIONS_READ = /* GraphQL */ `
+  mutation MarkAllNotificationsRead {
+    markAllNotificationsRead
+  }
+`;
+
+export const ADD_STRIKE = /* GraphQL */ `
+  mutation AddStrike($input: AddStrikeInput!) {
+    addStrike(input: $input) {
+      success
+      message
+      moderation {
+        userId
+        strikeCount
+        isBanned
+      }
+    }
+  }
+`;
+
+export const BAN_USER = /* GraphQL */ `
+  mutation BanUser($input: BanUserInput!) {
+    banUser(input: $input) {
+      success
+      message
+      moderation {
+        userId
+        isBanned
+        bannedAt
+        bannedReason
+      }
+    }
+  }
+`;
+
+export const UNBAN_USER = /* GraphQL */ `
+  mutation UnbanUser($userId: ID!) {
+    unbanUser(userId: $userId) {
+      success
+      message
+      moderation {
+        userId
+        isBanned
+      }
+    }
+  }
+`;

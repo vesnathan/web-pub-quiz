@@ -802,6 +802,81 @@ Resources:
         - Key: Project
           Value: quiz-night-live
 
+  # ============================================
+  # Send User Report Lambda (User reporting with email notification)
+  # ============================================
+
+  SendUserReportFunction:
+    Type: AWS::Lambda::Function
+    Properties:
+      FunctionName: !Sub "${AppName}-send-user-report-${Stage}"
+      Runtime: nodejs20.x
+      Handler: index.handler
+      Role: !GetAtt SendUserReportRole.Arn
+      Timeout: 30
+      Environment:
+        Variables:
+          TABLE_NAME: !Ref DataTableName
+          SES_FROM_EMAIL: !If
+            - IsProd
+            - "Quiz Night Live <noreply@quiznight.live>"
+            - "Quiz Night Live <noreply@dev.quiznight.live>"
+          ADMIN_EMAIL: !If
+            - IsProd
+            - "vesnathan@gmail.com"
+            - "vesnathan+dev@gmail.com"
+      Code:
+        S3Bucket: !Ref TemplateBucketName
+        S3Key: !Sub "functions/${Stage}/sendUserReport.zip"
+      Tags:
+        - Key: Project
+          Value: quiz-night-live
+
+  SendUserReportRole:
+    Type: AWS::IAM::Role
+    Properties:
+      RoleName: !Sub "${AppName}-send-user-report-role-${Stage}"
+      AssumeRolePolicyDocument:
+        Version: "2012-10-17"
+        Statement:
+          - Effect: Allow
+            Principal:
+              Service: lambda.amazonaws.com
+            Action: sts:AssumeRole
+      ManagedPolicyArns:
+        - arn:aws:iam::aws:policy/service-role/AWSLambdaBasicExecutionRole
+      Policies:
+        - PolicyName: DynamoDBAccess
+          PolicyDocument:
+            Version: "2012-10-17"
+            Statement:
+              - Effect: Allow
+                Action:
+                  - dynamodb:GetItem
+                  - dynamodb:PutItem
+                  - dynamodb:UpdateItem
+                Resource: !Sub "arn:aws:dynamodb:${AWS::Region}:${AWS::AccountId}:table/${DataTableName}"
+        - PolicyName: SESAccess
+          PolicyDocument:
+            Version: "2012-10-17"
+            Statement:
+              - Effect: Allow
+                Action:
+                  - ses:SendEmail
+                Resource: "*"
+      Tags:
+        - Key: Project
+          Value: quiz-night-live
+
+  SendUserReportLogGroup:
+    Type: AWS::Logs::LogGroup
+    Properties:
+      LogGroupName: !Sub "/aws/lambda/${AppName}-send-user-report-${Stage}"
+      RetentionInDays: !Ref LogRetentionInDays
+      Tags:
+        - Key: Project
+          Value: quiz-night-live
+
 Conditions:
   IsProd: !Equals [!Ref Stage, "prod"]
 
@@ -869,3 +944,7 @@ Outputs:
   RecaptchaSecretsArn:
     Description: reCAPTCHA Secrets ARN
     Value: !Ref RecaptchaSecrets
+
+  SendUserReportFunctionArn:
+    Description: Send User Report Lambda ARN
+    Value: !GetAtt SendUserReportFunction.Arn

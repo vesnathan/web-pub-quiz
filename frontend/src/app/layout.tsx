@@ -37,15 +37,15 @@ export const metadata: Metadata = {
   openGraph: {
     title: "QuizNight.live - Real-time Multiplayer Trivia",
     description:
-      "Real-time multiplayer trivia with buzzer mechanics. Join live quiz sessions and compete!",
+      "Play live trivia battles with players from around the world. Join now and test your knowledge!",
     url: "https://quiznight.live",
     siteName: "QuizNight.live",
     images: [
       {
-        url: "https://quiznight.live/og-image.png",
-        width: 1024,
-        height: 1024,
-        alt: "QuizNight.live Logo",
+        url: "https://quiznight.live/og-image.png?v=2",
+        width: 1200,
+        height: 630,
+        alt: "QuizNight.live - Play Now",
       },
     ],
     locale: "en_US",
@@ -55,8 +55,8 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "QuizNight.live - Real-time Multiplayer Trivia",
     description:
-      "Real-time multiplayer trivia with buzzer mechanics. Join live quiz sessions and compete!",
-    images: ["https://quiznight.live/og-image.png"],
+      "Play live trivia battles with players from around the world. Join now and test your knowledge!",
+    images: ["https://quiznight.live/og-image.png?v=2"],
   },
   manifest: "/manifest.json",
 };

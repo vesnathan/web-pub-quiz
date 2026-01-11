@@ -1,0 +1,144 @@
+# Report types for user reporting feature
+
+enum ReportReason {
+  INAPPROPRIATE_AVATAR
+  OFFENSIVE_MESSAGE
+  HARASSMENT
+  SPAM
+}
+
+enum ReportContext {
+  CHAT_MESSAGE
+  AVATAR
+  PROFILE
+}
+
+enum ReportStatus {
+  PENDING
+  REVIEWED
+  ACTIONED
+  DISMISSED
+}
+
+input ReportUserInput {
+  reportedUserId: ID!
+  reason: ReportReason!
+  context: ReportContext!
+  description: String
+  messageContent: String
+  messageId: String
+}
+
+type ReportUserResult {
+  success: Boolean!
+  message: String
+}
+
+# Full report type for admin viewing
+type Report @aws_cognito_user_pools {
+  id: ID!
+  reporterId: ID!
+  reporterDisplayName: String!
+  reportedUserId: ID!
+  reportedUserDisplayName: String!
+  reason: ReportReason!
+  context: ReportContext!
+  description: String
+  messageContent: String
+  messageId: String
+  status: ReportStatus!
+  createdAt: String!
+  adminNotes: String
+  resolvedAt: String
+  resolvedBy: String
+}
+
+type ReportConnection @aws_cognito_user_pools {
+  items: [Report!]!
+  nextToken: String
+}
+
+# Admin message/notification types
+type AdminMessage @aws_cognito_user_pools {
+  id: ID!
+  fromAdminId: ID!
+  toUserId: ID!
+  subject: String!
+  content: String!
+  relatedReportId: String
+  read: Boolean!
+  createdAt: String!
+}
+
+type AdminMessageConnection @aws_cognito_user_pools {
+  items: [AdminMessage!]!
+  nextToken: String
+}
+
+input SendAdminMessageInput {
+  toUserId: ID!
+  subject: String!
+  content: String!
+  relatedReportId: String
+}
+
+input UpdateReportStatusInput {
+  reportId: ID!
+  status: ReportStatus!
+  adminNotes: String
+}
+
+# Moderation types
+
+type Strike @aws_cognito_user_pools {
+  id: ID!
+  reason: String!
+  relatedReportId: String
+  issuedBy: ID!
+  issuedAt: String!
+  expiresAt: String
+}
+
+type UserModeration @aws_cognito_user_pools {
+  userId: ID!
+  displayName: String!
+  strikes: [Strike!]!
+  strikeCount: Int!
+  isBanned: Boolean!
+  bannedAt: String
+  bannedReason: String
+  bannedBy: String
+}
+
+input AddStrikeInput {
+  userId: ID!
+  reason: String!
+  relatedReportId: String
+  expiresInDays: Int
+}
+
+input BanUserInput {
+  userId: ID!
+  reason: String!
+  relatedReportId: String
+  deleteAccount: Boolean
+}
+
+type ModerationResult {
+  success: Boolean!
+  message: String
+  moderation: UserModeration
+}
+
+# User-facing moderation info (limited view for the user themselves)
+type MyStrikeInfo @aws_cognito_user_pools {
+  reason: String!
+  issuedAt: String!
+}
+
+type MyModerationStatus @aws_cognito_user_pools {
+  strikeCount: Int!
+  strikes: [MyStrikeInfo!]!
+  isBanned: Boolean!
+  bannedReason: String
+}

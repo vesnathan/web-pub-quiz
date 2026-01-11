@@ -216,6 +216,7 @@ export function AppFooter({
                   </DropdownItem>
                   <DropdownItem
                     key="profile"
+                    onPress={() => router.push(`/profile?id=${user.userId}`)}
                     startContent={
                       <svg
                         className="w-4 h-4"

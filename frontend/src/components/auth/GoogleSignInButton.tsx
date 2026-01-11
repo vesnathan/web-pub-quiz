@@ -25,6 +25,7 @@ export function GoogleSignInButton({
   const handleGoogleSignIn = async () => {
     setIsLoading(true);
     try {
+      // prompt=select_account is configured in Cognito's OIDC provider settings
       await signInWithRedirect({ provider: "Google" });
     } catch (error: unknown) {
       setIsLoading(false);

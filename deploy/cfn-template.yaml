@@ -189,6 +189,7 @@ Resources:
         SchemaReadyWaiterFunctionArn: !GetAtt LambdaStack.Outputs.SchemaReadyWaiterFunctionArn
         SendInviteFunctionArn: !GetAtt LambdaStack.Outputs.SendInviteFunctionArn
         SendContactFunctionArn: !GetAtt LambdaStack.Outputs.SendContactFunctionArn
+        SendUserReportFunctionArn: !GetAtt LambdaStack.Outputs.SendUserReportFunctionArn
         ResolversBuildHash: !Ref ResolversBuildHash
         SchemaBuildHash: !Ref SchemaBuildHash
 
@@ -245,6 +246,7 @@ Resources:
                 Effect: Allow
                 Action:
                   - cognito-idp:AdminGetUser
+                  - cognito-idp:AdminDeleteUser
                   - cognito-idp:ListUsers
                   - cognito-idp:AdminCreateUser
                   - cognito-idp:AdminSetUserPassword

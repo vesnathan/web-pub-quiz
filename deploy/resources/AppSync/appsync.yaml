@@ -51,6 +51,9 @@ Parameters:
   SendContactFunctionArn:
     Type: String
     Description: Send Contact Lambda ARN
+  SendUserReportFunctionArn:
+    Type: String
+    Description: Send User Report Lambda ARN
   ResolversBuildHash:
     Type: String
     Description: Build hash for resolver versioning
@@ -200,6 +203,17 @@ Resources:
       ServiceRoleArn: !GetAtt AppSyncLambdaRole.Arn
       LambdaConfig:
         LambdaFunctionArn: !Ref SendContactFunctionArn
+
+  # Lambda Data Source for Send User Report
+  SendUserReportDataSource:
+    Type: AWS::AppSync::DataSource
+    Properties:
+      ApiId: !GetAtt GraphQLApi.ApiId
+      Name: SendUserReportDataSource
+      Type: AWS_LAMBDA
+      ServiceRoleArn: !GetAtt AppSyncLambdaRole.Arn
+      LambdaConfig:
+        LambdaFunctionArn: !Ref SendUserReportFunctionArn
 
   # Resolvers
   GetMyProfileResolver:
@@ -416,6 +430,21 @@ Resources:
         RuntimeVersion: "1.0.0"
       CodeS3Location: !Sub "s3://${TemplateBucketName}/resolvers/${Stage}/${ResolversBuildHash}/contact/Mutations/Mutation.sendContact.js"
 
+  # User Report Resolver
+  ReportUserResolver:
+    Type: AWS::AppSync::Resolver
+    DependsOn: SchemaReadyCustomResource
+    Properties:
+      ApiId: !GetAtt GraphQLApi.ApiId
+      TypeName: Mutation
+      FieldName: reportUser
+      DataSourceName: !GetAtt SendUserReportDataSource.Name
+      Kind: UNIT
+      Runtime:
+        Name: APPSYNC_JS
+        RuntimeVersion: "1.0.0"
+      CodeS3Location: !Sub "s3://${TemplateBucketName}/resolvers/${Stage}/${ResolversBuildHash}/report/Mutations/Mutation.reportUser.js"
+
   # Referral Resolver
   RecordReferralResolver:
     Type: AWS::AppSync::Resolver
@@ -574,6 +603,178 @@ Resources:
         RuntimeVersion: "1.0.0"
       CodeS3Location: !Sub "s3://${TemplateBucketName}/resolvers/${Stage}/${ResolversBuildHash}/admin/Mutations/Mutation.updateGameConfig.js"
 
+  # Report Management Resolvers
+  GetReportsResolver:
+    Type: AWS::AppSync::Resolver
+    DependsOn: SchemaReadyCustomResource
+    Properties:
+      ApiId: !GetAtt GraphQLApi.ApiId
+      TypeName: Query
+      FieldName: getReports
+      DataSourceName: !GetAtt DynamoDBDataSource.Name
+      Kind: UNIT
+      Runtime:
+        Name: APPSYNC_JS
+        RuntimeVersion: "1.0.0"
+      CodeS3Location: !Sub "s3://${TemplateBucketName}/resolvers/${Stage}/${ResolversBuildHash}/report/Queries/Query.getReports.js"
+
+  UpdateReportStatusResolver:
+    Type: AWS::AppSync::Resolver
+    DependsOn: SchemaReadyCustomResource
+    Properties:
+      ApiId: !GetAtt GraphQLApi.ApiId
+      TypeName: Mutation
+      FieldName: updateReportStatus
+      DataSourceName: !GetAtt DynamoDBDataSource.Name
+      Kind: UNIT
+      Runtime:
+        Name: APPSYNC_JS
+        RuntimeVersion: "1.0.0"
+      CodeS3Location: !Sub "s3://${TemplateBucketName}/resolvers/${Stage}/${ResolversBuildHash}/report/Mutations/Mutation.updateReportStatus.js"
+
+  # Notification Resolvers
+  SendAdminMessageResolver:
+    Type: AWS::AppSync::Resolver
+    DependsOn: SchemaReadyCustomResource
+    Properties:
+      ApiId: !GetAtt GraphQLApi.ApiId
+      TypeName: Mutation
+      FieldName: sendAdminMessage
+      DataSourceName: !GetAtt DynamoDBDataSource.Name
+      Kind: UNIT
+      Runtime:
+        Name: APPSYNC_JS
+        RuntimeVersion: "1.0.0"
+      CodeS3Location: !Sub "s3://${TemplateBucketName}/resolvers/${Stage}/${ResolversBuildHash}/notifications/Mutations/Mutation.sendAdminMessage.js"
+
+  GetMyNotificationsResolver:
+    Type: AWS::AppSync::Resolver
+    DependsOn: SchemaReadyCustomResource
+    Properties:
+      ApiId: !GetAtt GraphQLApi.ApiId
+      TypeName: Query
+      FieldName: getMyNotifications
+      DataSourceName: !GetAtt DynamoDBDataSource.Name
+      Kind: UNIT
+      Runtime:
+        Name: APPSYNC_JS
+        RuntimeVersion: "1.0.0"
+      CodeS3Location: !Sub "s3://${TemplateBucketName}/resolvers/${Stage}/${ResolversBuildHash}/notifications/Queries/Query.getMyNotifications.js"
+
+  GetUnreadNotificationCountResolver:
+    Type: AWS::AppSync::Resolver
+    DependsOn: SchemaReadyCustomResource
+    Properties:
+      ApiId: !GetAtt GraphQLApi.ApiId
+      TypeName: Query
+      FieldName: getUnreadNotificationCount
+      DataSourceName: !GetAtt DynamoDBDataSource.Name
+      Kind: UNIT
+      Runtime:
+        Name: APPSYNC_JS
+        RuntimeVersion: "1.0.0"
+      CodeS3Location: !Sub "s3://${TemplateBucketName}/resolvers/${Stage}/${ResolversBuildHash}/notifications/Queries/Query.getUnreadNotificationCount.js"
+
+  MarkNotificationReadResolver:
+    Type: AWS::AppSync::Resolver
+    DependsOn: SchemaReadyCustomResource
+    Properties:
+      ApiId: !GetAtt GraphQLApi.ApiId
+      TypeName: Mutation
+      FieldName: markNotificationRead
+      DataSourceName: !GetAtt DynamoDBDataSource.Name
+      Kind: UNIT
+      Runtime:
+        Name: APPSYNC_JS
+        RuntimeVersion: "1.0.0"
+      CodeS3Location: !Sub "s3://${TemplateBucketName}/resolvers/${Stage}/${ResolversBuildHash}/notifications/Mutations/Mutation.markNotificationRead.js"
+
+  MarkAllNotificationsReadResolver:
+    Type: AWS::AppSync::Resolver
+    DependsOn: SchemaReadyCustomResource
+    Properties:
+      ApiId: !GetAtt GraphQLApi.ApiId
+      TypeName: Mutation
+      FieldName: markAllNotificationsRead
+      DataSourceName: !GetAtt DynamoDBDataSource.Name
+      Kind: UNIT
+      Runtime:
+        Name: APPSYNC_JS
+        RuntimeVersion: "1.0.0"
+      CodeS3Location: !Sub "s3://${TemplateBucketName}/resolvers/${Stage}/${ResolversBuildHash}/notifications/Mutations/Mutation.markAllNotificationsRead.js"
+
+  # Moderation resolvers
+
+  GetUserModerationResolver:
+    Type: AWS::AppSync::Resolver
+    DependsOn: SchemaReadyCustomResource
+    Properties:
+      ApiId: !GetAtt GraphQLApi.ApiId
+      TypeName: Query
+      FieldName: getUserModeration
+      DataSourceName: !GetAtt DynamoDBDataSource.Name
+      Kind: UNIT
+      Runtime:
+        Name: APPSYNC_JS
+        RuntimeVersion: "1.0.0"
+      CodeS3Location: !Sub "s3://${TemplateBucketName}/resolvers/${Stage}/${ResolversBuildHash}/moderation/Queries/Query.getUserModeration.js"
+
+  AddStrikeResolver:
+    Type: AWS::AppSync::Resolver
+    DependsOn: SchemaReadyCustomResource
+    Properties:
+      ApiId: !GetAtt GraphQLApi.ApiId
+      TypeName: Mutation
+      FieldName: addStrike
+      DataSourceName: !GetAtt DynamoDBDataSource.Name
+      Kind: UNIT
+      Runtime:
+        Name: APPSYNC_JS
+        RuntimeVersion: "1.0.0"
+      CodeS3Location: !Sub "s3://${TemplateBucketName}/resolvers/${Stage}/${ResolversBuildHash}/moderation/Mutations/Mutation.addStrike.js"
+
+  RemoveStrikeResolver:
+    Type: AWS::AppSync::Resolver
+    DependsOn: SchemaReadyCustomResource
+    Properties:
+      ApiId: !GetAtt GraphQLApi.ApiId
+      TypeName: Mutation
+      FieldName: removeStrike
+      DataSourceName: !GetAtt DynamoDBDataSource.Name
+      Kind: UNIT
+      Runtime:
+        Name: APPSYNC_JS
+        RuntimeVersion: "1.0.0"
+      CodeS3Location: !Sub "s3://${TemplateBucketName}/resolvers/${Stage}/${ResolversBuildHash}/moderation/Mutations/Mutation.removeStrike.js"
+
+  BanUserResolver:
+    Type: AWS::AppSync::Resolver
+    DependsOn: SchemaReadyCustomResource
+    Properties:
+      ApiId: !GetAtt GraphQLApi.ApiId
+      TypeName: Mutation
+      FieldName: banUser
+      DataSourceName: !GetAtt DynamoDBDataSource.Name
+      Kind: UNIT
+      Runtime:
+        Name: APPSYNC_JS
+        RuntimeVersion: "1.0.0"
+      CodeS3Location: !Sub "s3://${TemplateBucketName}/resolvers/${Stage}/${ResolversBuildHash}/moderation/Mutations/Mutation.banUser.js"
+
+  UnbanUserResolver:
+    Type: AWS::AppSync::Resolver
+    DependsOn: SchemaReadyCustomResource
+    Properties:
+      ApiId: !GetAtt GraphQLApi.ApiId
+      TypeName: Mutation
+      FieldName: unbanUser
+      DataSourceName: !GetAtt DynamoDBDataSource.Name
+      Kind: UNIT
+      Runtime:
+        Name: APPSYNC_JS
+        RuntimeVersion: "1.0.0"
+      CodeS3Location: !Sub "s3://${TemplateBucketName}/resolvers/${Stage}/${ResolversBuildHash}/moderation/Mutations/Mutation.unbanUser.js"
+
   # IAM Role for AppSync to invoke Lambda
   AppSyncLambdaRole:
     Type: AWS::IAM::Role
@@ -602,6 +803,7 @@ Resources:
                   - !Ref CheckEmailHasFacebookAccountFunctionArn
                   - !Ref SendInviteFunctionArn
                   - !Ref SendContactFunctionArn
+                  - !Ref SendUserReportFunctionArn
 
   # IAM Role for AppSync CloudWatch Logs
   AppSyncLogsRole:
