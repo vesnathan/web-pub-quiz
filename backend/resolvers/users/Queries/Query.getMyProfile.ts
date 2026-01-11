@@ -22,19 +22,14 @@ type Identity = {
 export function request(ctx: Context) {
   const identity = ctx.identity as Identity;
 
+  // Query all items for this user (PROFILE, MODERATION, etc.)
+  // Filter to relevant items in the response function
   return {
     operation: "Query",
     query: {
       expression: "PK = :pk",
       expressionValues: util.dynamodb.toMapValues({
         ":pk": `USER#${identity.sub}`,
-      }),
-    },
-    filter: {
-      expression: "SK = :profile OR SK = :moderation",
-      expressionValues: util.dynamodb.toMapValues({
-        ":profile": "PROFILE",
-        ":moderation": "MODERATION",
       }),
     },
   };
@@ -110,13 +105,18 @@ export function response(ctx: Context) {
   return {
     id: profile.id,
     email: profile.email,
+    username: profile.username,
     displayName: profile.displayName,
+    firstName: profile.firstName,
+    lastName: profile.lastName,
     createdAt: profile.createdAt,
     stats: profile.stats,
     subscription: profile.subscription,
     badges: badges,
     totalSkillPoints: totalSkillPoints,
     tipUnlockedUntil: profile.tipUnlockedUntil,
+    referredBy: profile.referredBy,
+    referralCount: profile.referralCount,
     moderation: moderationStatus,
   };
 }
